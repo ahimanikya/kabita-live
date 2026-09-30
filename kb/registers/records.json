@@ -153,7 +153,7 @@
       "next_action": "Complete editorial import and remaining cloud setup; dedicated Firebase project and private GitHub repository now exist.",
       "blockers": [
         "Full content export unavailable; only three opening excerpts locally",
-        "Firestore, live rules, GA4 and Pages plan/visibility decision remain pending"
+        "GA4, live integration tests and release review remain pending"
       ],
       "evidence": [
         "reference/site-architecture.md",
@@ -181,10 +181,8 @@
       "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-010",
-      "next_action": "Upload private source; resolve Pages plan choice and GA terms approval; create Mumbai Firestore when location options load and deploy reviewed rules.",
+      "next_action": "Create Analytics after terms approval; complete live feedback tests and production-host configuration before enabling client integration.",
       "blockers": [
-        "Firestore region selector empty",
-        "Pages requires visibility/plan choice",
         "Separate GA terms approval pending"
       ],
       "evidence": [
@@ -320,6 +318,20 @@
       },
       "quote": "Approve repository creation and Firebase terms",
       "scope": "Private ahimanikya/kabita-live repository and Firebase terms acceptance; Mumbai Firestore and IST Analytics approved separately. No paid plan, repository publicity or site publication authorized.",
+      "evidence": [
+        "records/account-setup.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-011",
+      "title": "Make Kabita Live repository public for GitHub Pages",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "We can make kabita-live public since we host website and link to domain",
+      "scope": "Make ahimanikya/kabita-live public including website source, KB and preserved history; configure Pages. Content readiness and release authorization still govern publication and domain cutover.",
       "evidence": [
         "records/account-setup.json"
       ]
@@ -471,9 +483,9 @@
       "independent": false,
       "reviewer": "Current assistant, browser self-review",
       "limitations": [
-        "Firestore and GA not created",
-        "No live feedback, rules deployment or Analytics test",
-        "Pages visibility/plan decision pending; no website published"
+        "GA account/property not created; terms approval pending",
+        "No live feedback end-to-end test or Analytics visit",
+        "No website deployed or domain changed"
       ],
       "refs": [
         "KBL-WORK-011"
@@ -555,6 +567,21 @@
       ],
       "evidence": [
         "records/github-pages-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-REL-006",
+      "title": "Repository and Firebase service foundation configured",
+      "status": "applied",
+      "authorization": "KBL-DEC-010",
+      "destination": "GitHub repository and dedicated Spark Firebase project; no website deployment",
+      "refs": [
+        "KBL-DEC-011",
+        "KBL-WORK-011",
+        "KBL-REV-007"
+      ],
+      "evidence": [
+        "records/account-setup.json"
       ]
     }
   ],

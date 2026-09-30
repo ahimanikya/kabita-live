@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8aecea5a3acd0a74ec56bb57ad7f22a9c3e1bcc405cd4532b762c474084ffe13`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9fc6e785f749dcd7a7a59cf232a29331cc063e5b00c494028d065efe265ec28c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -21,9 +21,9 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-WORK-006 · Configure Blueprint personas and operating handoffs | completed | applied | Ahimanikya Satapathy | Use the configured persona workflow for subsequent authorized work; resume icon placements and component reviews. | — |
 | KBL-WORK-007 · Consolidate supporting work in the OKF knowledge base | completed | applied | Ahimanikya Satapathy | Use the KB for supporting work; resume the pending icon placement and component reviews. | — |
 | KBL-WORK-008 · Standalone reader routes, Astro build and private service adapters | completed | applied | Ahimanikya Satapathy | Connect the dedicated services and import complete editorial content under WORK-009; continue existing design reviews. | — |
-| KBL-WORK-009 · Complete content import and cloud configuration before launch | blocked | draft | Ahimanikya Satapathy | Complete editorial import and remaining cloud setup; dedicated Firebase project and private GitHub repository now exist. | Full content export unavailable; only three opening excerpts locally; Firestore, live rules, GA4 and Pages plan/visibility decision remain pending |
+| KBL-WORK-009 · Complete content import and cloud configuration before launch | blocked | draft | Ahimanikya Satapathy | Complete editorial import and remaining cloud setup; dedicated Firebase project and private GitHub repository now exist. | Full content export unavailable; only three opening excerpts locally; GA4, live integration tests and release review remain pending |
 | KBL-WORK-010 · Prepare Utkal-aligned GitHub Pages workflow and LFS archives | completed | applied | Ahimanikya Satapathy | Connect a remote repository and Pages configuration; full editorial content remains required before release. | — |
-| KBL-WORK-011 · Provision dedicated GitHub, Firebase and Analytics services | blocked | draft | Ahimanikya Satapathy | Upload private source; resolve Pages plan choice and GA terms approval; create Mumbai Firestore when location options load and deploy reviewed rules. | Firestore region selector empty; Pages requires visibility/plan choice; Separate GA terms approval pending |
+| KBL-WORK-011 · Provision dedicated GitHub, Firebase and Analytics services | blocked | draft | Ahimanikya Satapathy | Create Analytics after terms approval; complete live feedback tests and production-host configuration before enabling client integration. | Separate GA terms approval pending |
 
 ## Pending human review and decisions
 
@@ -46,6 +46,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-DEC-008 · Private feedback, social sharing and Utkal-aligned Firebase approach | approved | Ahimanikya Satapathy | Apply selected engagement model. Review Utkal Project and follow its static-public/private-Firebase approach; no GA4 ID exists yet. |
 | KBL-DEC-009 · GitHub project storage and GitHub Pages hosting | approved | Ahimanikya Satapathy | Follow Utkal Project stack; GitHub owns source, KB and historical assets, Pages serves the static build, Firebase holds private runtime feedback. |
 | KBL-DEC-010 · Create private repository and free Firebase project | approved | Ahimanikya Satapathy | Private ahimanikya/kabita-live repository and Firebase terms acceptance; Mumbai Firestore and IST Analytics approved separately. No paid plan, repository publicity or site publication authorized. |
+| KBL-DEC-011 · Make Kabita Live repository public for GitHub Pages | approved | Ahimanikya Satapathy | Make ahimanikya/kabita-live public including website source, KB and preserved history; configure Pages. Content readiness and release authorization still govern publication and domain cutover. |
 
 ## Reviews
 
@@ -57,7 +58,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-REV-004 | pass_with_limitations | False | Same-assistant self-review.; Raw historical artifacts are preserved without metadata rewriting and excluded from concept normalization; KB indexes and storage manifest provide discovery and integrity evidence.; This storage change does not resolve existing design approvals or the 200% enlarged-header finding.; No website publication; local review artifacts remain reachable at existing compatibility URLs. |
 | KBL-REV-005 | pass_with_limitations | False | Full content and live cloud setup pending; Automated checks do not certify accessibility; existing enlarged-text concern remains; Firebase throttle is per anonymous UID, not global abuse prevention; No remote repository or deployment |
 | KBL-REV-006 | pass_with_limitations | False | Workflow has not run on GitHub; repository and Pages settings remain unconfigured; Release remains blocked by incomplete content; No remote push or live deployment |
-| KBL-REV-007 | pass_with_limitations | False | Firestore and GA not created; No live feedback, rules deployment or Analytics test; Pages visibility/plan decision pending; no website published |
+| KBL-REV-007 | pass_with_limitations | False | GA account/property not created; terms approval pending; No live feedback end-to-end test or Analytics visit; No website deployed or domain changed |
 
 ## Publication and application history
 
@@ -68,6 +69,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-REL-003 · Non-site work consolidated in the OKF KB | applied | Local project KB and portable handoff | KBL-DEC-006 |
 | KBL-REL-004 · Standalone site foundation applied locally | applied | Local primary site and portable source handoff only | KBL-DEC-007 |
 | KBL-REL-005 · GitHub Pages preparation applied locally | applied | Local primary workspace and portable source handoff | KBL-DEC-009 |
+| KBL-REL-006 · Repository and Firebase service foundation configured | applied | GitHub repository and dedicated Spark Firebase project; no website deployment | KBL-DEC-010 |
 
 ## Sources and assets
 
@@ -120,6 +122,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-006 | 2026-09-30T01:37:12.950728+00:00 | Prepared standalone reader routes, public-only Astro build, local Git, consent-gated GA4 and private Firebase feedback. Verified locally; full content and cloud setup remain pending. | Import complete editorial content and configure dedicated cloud services; no public comments at launch. |
 | KBL-EVT-007 | 2026-09-30T01:40:58.000450+00:00 | Prepared GitHub Pages hosting following Utkal’s manual workflow, project-path build settings, a content-gated release build and LFS preservation for ZIP archives. | Connect the GitHub repository and Pages settings when remote details are settled; complete content before release. |
 | KBL-EVT-008 | 2026-09-30T02:06:47.507781+00:00 | Created approved private GitHub repository and free Firebase project/web app; enabled anonymous Auth and saved disabled client configuration. Firestore, GA and Pages remain incomplete. | Upload private source and finish remaining service setup after outstanding decisions and region selector recovery. |
+| KBL-EVT-009 | 2026-09-30T02:18:25.998734+00:00 | User approved public repository; changed GitHub visibility and verified private=false. This resolves the Pages plan restriction; release and domain remain unchanged. | Finish upload and configure manual Pages Actions delivery. |
+| KBL-EVT-010 | 2026-09-30T02:30:22.962036+00:00 | Confirmed source and nine LFS archives uploaded; configured Pages Actions; created Mumbai Firestore and published tested private-feedback rules, verified after reload. Analytics awaits terms approval and the site remains undeployed. | Complete Analytics after terms approval and live service testing before launch. |
 
 ## Deferred extensions
 

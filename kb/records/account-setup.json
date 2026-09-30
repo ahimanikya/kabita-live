@@ -4,15 +4,21 @@
   "authorization": {
     "setup": "Now can we set up all accounts - use your browser skill to setup all we need",
     "repository_and_firebase_terms": "Approve repository creation and Firebase terms",
-    "location": "Mumbai + India Standard Time (recommended)"
+    "location": "Mumbai + India Standard Time (recommended)",
+    "public_repository": "We can make kabita-live public since we host website and link to domain"
   },
   "github": {
     "repository": "https://github.com/ahimanikya/kabita-live",
-    "visibility": "private",
+    "visibility": "public",
     "created": true,
     "remote_connected": true,
-    "source_pushed": false,
-    "pages": "Current plan requires public repository or upgrade; user choice pending"
+    "source_pushed": true,
+    "pages": "Configured: build_type=workflow; no deployment",
+    "pages_url": "https://ahimanikya.github.io/kabita-live/",
+    "custom_domain": null,
+    "archives_lfs_uploaded": true,
+    "initial_source_commit": "490863a",
+    "transfer_note": "All nine LFS archives uploaded; initial HTTP 400 resolved by buffered HTTP/1.1 source push."
   },
   "firebase": {
     "project_id": "kabita-live",
@@ -22,11 +28,13 @@
     "web_app_id": "1:461114477576:web:6fb2d3b62585037e9b55bd",
     "web_app_nickname": "Kabita Live website",
     "anonymous_auth": "Enabled; confirmed in saved provider table",
-    "firestore": "Not created: region menu empty after retry",
+    "firestore": "Created: (default), Standard edition, asia-south1 (Mumbai), production mode",
     "approved_region": "asia-south1 (Mumbai)",
-    "rules_deployed": false,
+    "rules_deployed": true,
     "hosting_enabled": false,
-    "client_enabled": false
+    "client_enabled": false,
+    "rules_verification": "Published revision reloaded; rendered rules match local tested source ignoring whitespace",
+    "auth_domain_review": "Only Anonymous sign-in enabled. Console describes domain allowlist for Phone/Google/third-party OAuth; defaults retained. Production host guard remains empty and client disabled until live verification."
   },
   "analytics": {
     "created": false,
@@ -41,5 +49,11 @@
     "deployed": false,
     "content_release_gate": "Incomplete content; release blocked"
   },
-  "verification": "Browser console and repository UI inspection; live feedback and analytics not tested"
+  "verification": "Git push confirmed main on origin; public repository and workflow Pages verified by GitHub API. Firebase project, saved Anonymous provider, Mumbai location and published rules verified in console. No live feedback/analytics test or website deployment.",
+  "evidence": [
+    "firebase-auth-setup.txt",
+    "firestore-location-blocker.txt",
+    "firestore-created.txt",
+    "firestore-rules-published.txt"
+  ]
 }

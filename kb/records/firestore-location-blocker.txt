@@ -1,0 +1,189 @@
+- link "Skip to main content":
+  - /url: "#main"
+- navigation "Firebase Console products":
+  - heading "Firebase console (Go to project list)" [level=2]:
+    - link "Firebase console (Go to project list)":
+      - /url: "#"
+      - img "Firebase logo"
+  - img: search
+  - combobox "Search products and features"
+  - link "Project Overview":
+    - /url: "#"
+    - img: gmp_nav20_overview
+    - generic: Project Overview
+  - menu:
+    - menuitem "Settings":
+      - img: settings
+      - generic: Settings
+      - img: chevron_right
+- separator
+- generic: Project shortcuts
+- group "Project shortcuts":
+  - link "Firestore":
+    - /url: "#"
+    - img: gmp_firestore
+    - generic: Firestore
+    - button "Hide Firestore"
+    - button "Pin Firestore"
+- separator
+- generic: Product categories
+- menu "Product categories":
+  - menuitem "Databases & Storage":
+    - generic: Databases & Storage
+    - img: chevron_right
+  - menuitem "Security":
+    - generic: Security
+    - img: chevron_right
+  - menuitem "AI services":
+    - generic: AI services
+    - img: chevron_right
+  - menuitem "Hosting & Serverless":
+    - generic: Hosting & Serverless
+    - img: chevron_right
+  - menuitem "DevOps & Engagement":
+    - generic: DevOps & Engagement
+    - img: chevron_right
+  - menuitem "Analytics":
+    - generic: Analytics
+    - img: chevron_right
+- separator
+- 'group "Billing plan: Spark"':
+  - generic "Billing plan name":
+    - generic: "Billing plan:"
+    - text: Spark
+  - generic "Billing plan description": No-cost ($0/month)
+  - button "Upgrade billing plan":
+    - generic: Upgrade
+    - generic: New
+    - tooltip "Click upgrade to learn how to claim a $300 free credit!":
+      - generic: Click upgrade to learn how to claim a $300 free credit!
+- separator
+- button "Toggle navigation sidebar" [expanded]:
+  - img: chevron_left
+- banner:
+  - button "Kabita Live (Open select project menu)":
+    - text: Kabita Live
+    - img: arrow_drop_down
+- main:
+  - heading "Cloud Firestore" [level=1]
+  - generic: Realtime updates, powerful queries, automatic scaling, and MongoDB compatibility
+  - button "Create database":
+    - generic: Create database
+  - button "Ask Gemini":
+    - img: spark
+    - text: Ask Gemini
+  - img: bolt
+  - generic: Save time setting up your app with our AI agent.
+  - button "Try it":
+    - generic: Try it
+  - generic "Cloud Firestore":
+    - heading "Learn more" [level=2]
+    - link "settingsHow do I get started? View the docs (opens Firebase documentation in new tab)":
+      - /url: //firebase.google.com/docs/firestore/quickstart?hl=en-US&authuser=0
+      - generic: How do I get started?
+      - generic: View the docs
+    - link "credit_cardHow much will Cloud Firestore cost? View pricing (opens Firebase documentation in new tab)":
+      - /url: //firebase.google.com/pricing?hl=en-US&authuser=0
+      - generic: How much will Cloud Firestore cost?
+      - generic: View pricing
+    - link "sentiment_satisfied_altWhat can Cloud Firestore do for me? Learn more (opens Firebase documentation in new tab)":
+      - /url: //firebase.google.com/docs/firestore/?hl=en-US&authuser=0
+      - generic: What can Cloud Firestore do for me?
+      - generic: Learn more
+    - iframe:
+      - generic "YouTube Video Player"
+      - button "Play video"
+      - button "Hide player controls"
+      - link "Introducing Cloud Firestore":
+        - /url: https://www.youtube.com/watch?v=OnYSjEehxH0
+      - link "Firebase":
+        - /url: /channel/UCP4bf6IHJJQehibu6ai__cg
+        - generic: Firebase
+      - button
+      - generic: Firebase
+      - generic: 418K subscribers
+      - button "Share":
+      - button "Watch later":
+      - link "Watch on YouTube":
+        - /url: https://www.youtube.com/watch?v=OnYSjEehxH0
+        - text: Watch on
+    - separator
+    - heading "More products for developers" [level=2]
+    - link "Functions Extend and connect Firebase features":
+      - /url: "#"
+      - generic: Functions
+      - generic: Extend and connect Firebase features
+    - link "Storage Store & retrieve user generated content":
+      - /url: "#"
+      - generic: Storage
+      - generic: Store & retrieve user generated content
+    - link "Hosting Deploy web apps in seconds":
+      - /url: "#"
+      - generic: Hosting
+      - generic: Deploy web apps in seconds
+    - link "See more related products (opens Firebase documentation in new tab)":
+      - /url: https://firebase.google.com/docs/build?hl=en-US&authuser=0
+      - text: See more related products open_in_new
+- generic "Gemini in Firebase":
+  - 'button "Google Account: Ahimanikya Satapathy (ahimanikya@gmail.com), Google membership"':
+  - button "Open alerts":
+    - img: notifications
+  - button "Chat with Gemini (Option+G)":
+    - img: spark
+    - alert:
+      - button "Dismiss":
+        - img: close
+      - text: Gemini in Firebase
+      - paragraph: Get answers to questions about Firebase products, use cases, and features. Generate code for development and shorten your troubleshooting process with new insights--with the assistance of a natural language chat interface directly in the Firebase console.
+  - button "Help":
+    - img: contact_support
+  - separator
+  - button "Activate Cloud Shell":
+    - tooltip "Supercharge your development! Try Cloud Shell to access the built-in Firebase CLI and run Firebase emulators directly in a virtual machine.":
+      - generic: Supercharge your development! Try Cloud Shell to access the built-in Firebase CLI and run Firebase emulators directly in a virtual machine.
+  - button "Toggle Learn Panel":
+    - img: school
+  - 'button "Current theme: Light, adjust theme"':
+    - img: dark_mode
+- dialog "Create a database":
+  - button "Close form":
+    - img: close
+  - heading "Create a database" [level=1]
+  - button "Select edition":
+    - generic: Editable
+    - img: create
+    - generic: Select edition
+  - alert:
+    - button "Dismiss":
+      - img: close
+    - img: gmp_firestore
+    - generic: Introducing a new query engine - Pipelines
+    - generic: Only available in Enterprise edition databases with Firestore in Native mode
+    - link "Learn more (opens Firebase documentation in new tab)":
+      - /url: https://firebase.google.com/docs/firestore/enterprise/pipelines-overview?hl=en-US&authuser=0
+      - text: Learn more open_in_new
+  - button "Database ID & location" [expanded]:
+    - generic: "2"
+    - generic: Database ID & location
+  - region "Database ID & location":
+    - generic: Database ID
+    - textbox "Database ID" [disabled]: (default)
+    - generic: Location
+    - combobox "Location" [active]:
+    - generic: info Your location setting is where your Cloud Firestore data will be stored
+    - status:
+      - img: error
+      - generic: "caution:"
+      - generic: After you set this location, you cannot change it later
+    - link "Learn more (opens Firebase documentation in new tab)":
+      - /url: https://firebase.google.com/docs/firestore/locations?hl=en-US&authuser=0
+      - generic: Learn more
+      - text: open_in_new
+    - button "Next":
+      - generic: Next
+  - button "Configure" [disabled]:
+    - generic: "3"
+    - generic: Configure
+  - button "Scheduled backups (optional)" [disabled]:
+    - generic: "4"
+    - generic: Scheduled backups (optional)

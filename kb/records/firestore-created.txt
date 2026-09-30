@@ -1,0 +1,163 @@
+- link "Skip to main content":
+  - /url: "#main"
+- navigation "Firebase Console products":
+  - heading "Firebase console (Go to project list)" [level=2]:
+    - link "Firebase console (Go to project list)":
+      - /url: "#"
+      - img "Firebase logo"
+  - img: search
+  - combobox "Search products and features"
+  - link "Project Overview":
+    - /url: "#"
+    - img: gmp_nav20_overview
+    - generic: Project Overview
+  - menu:
+    - menuitem "Settings":
+      - img: settings
+      - generic: Settings
+      - img: chevron_right
+- separator
+- generic: Project shortcuts
+- group "Project shortcuts":
+  - link "Authentication":
+    - /url: "#"
+    - img: gmp_nav20_auth
+    - generic: Authentication
+    - button "Hide Authentication"
+    - button "Pin Authentication"
+  - link "Firestore":
+    - /url: "#"
+    - img: gmp_firestore
+    - generic: Firestore
+    - button "Hide Firestore"
+    - button "Pin Firestore"
+- separator
+- generic: Product categories
+- menu "Product categories":
+  - menuitem "Databases & Storage":
+    - generic: Databases & Storage
+    - img: chevron_right
+  - menuitem "Security":
+    - generic: Security
+    - img: chevron_right
+  - menuitem "AI services":
+    - generic: AI services
+    - img: chevron_right
+  - menuitem "Hosting & Serverless":
+    - generic: Hosting & Serverless
+    - img: chevron_right
+  - menuitem "DevOps & Engagement":
+    - generic: DevOps & Engagement
+    - img: chevron_right
+  - menuitem "Analytics":
+    - generic: Analytics
+    - img: chevron_right
+- separator
+- 'group "Billing plan: Spark"':
+  - generic "Billing plan name":
+    - generic: "Billing plan:"
+    - text: Spark
+  - generic "Billing plan description": No-cost ($0/month)
+  - button "Upgrade billing plan":
+    - generic: Upgrade
+    - generic: New
+    - tooltip "Click upgrade to learn how to claim a $300 free credit!":
+      - generic: Click upgrade to learn how to claim a $300 free credit!
+- separator
+- button "Toggle navigation sidebar" [expanded]:
+  - img: chevron_left
+- banner:
+  - button "Kabita Live (Open select project menu)":
+    - text: Kabita Live
+    - img: arrow_drop_down
+- main [active]:
+  - region "Product header":
+    - navigation "Breadcrumbs":
+      - link "Cloud Firestore"
+      - text: chevron_right
+    - heading "Database" [level=2]
+    - button "Undefined parameter - DATABASE_ID select a database":
+      - generic: (default)
+      - img: arrow_drop_down
+    - button "Ask Gemini about the core concepts to use Firestore":
+      - img: spark
+      - text: Ask Gemini about the core concepts to use Firestore
+    - tablist "Product features":
+      - 'tab "Selected Tab: Data" [selected]':
+        - generic: Data
+      - tab "Rules":
+        - generic: Rules
+      - tab "Indexes":
+        - generic: Indexes
+      - tab "Disaster Recovery":
+        - generic: Disaster Recovery
+      - tab "Usage":
+        - generic: Usage
+      - tab "Query Insights":
+        - generic: Query Insights
+        - alert:
+          - button "Dismiss":
+            - img: close
+          - img: gmp_firestore
+          - generic: Understand query performance
+          - generic: Identify and troubleshoot queries that require the most time or resources to execute.
+          - link "Learn more (opens Firebase documentation in new tab)":
+            - /url: https://firebase.google.com/docs/firestore/enterprise/query-insights?hl=en-US&authuser=0
+            - text: Learn more open_in_new
+    - button "New in Cloud Firestore":
+      - img: campaign
+      - generic: New in Cloud Firestore
+  - img: security
+  - generic: Protect your Cloud Firestore resources from abuse, such as billing fraud or phishing
+  - link "Configure App Check":
+    - /url: "#"
+    - generic: Configure App Check
+  - button "Dismiss":
+    - img: close
+  - button "Link out menu to features in Google Cloud":
+    - img: filter_drama
+    - generic: More in Google Cloud
+    - img: keyboard_arrow_down
+  - radiogroup "Choose how to view your data":
+    - radio "Panel view" [checked]:
+      - generic: Panel view
+    - radio "Query builder":
+      - generic: Query builder
+  - button "actions for Firestore database":
+    - img: more_vert
+  - link "root navigation":
+    - /url: "#"
+    - img: home
+  - button "Edit path":
+    - img: mode_edit
+  - img: gmp_firestore
+  - generic: (default)
+  - button "View database details":
+    - img: info
+  - button "Start collection":
+    - img: add
+    - generic: Start collection
+  - generic: Error loading collections
+  - img: place
+  - generic: "Database location: asia-south1"
+- generic "Gemini in Firebase":
+  - 'button "Google Account: Ahimanikya Satapathy (ahimanikya@gmail.com), Google membership"':
+  - button "Open alerts":
+    - img: notifications
+  - button "Chat with Gemini (Option+G)":
+    - img: spark
+    - alert:
+      - button "Dismiss":
+        - img: close
+      - text: Gemini in Firebase
+      - paragraph: Get answers to questions about Firebase products, use cases, and features. Generate code for development and shorten your troubleshooting process with new insights--with the assistance of a natural language chat interface directly in the Firebase console.
+  - button "Help":
+    - img: contact_support
+  - separator
+  - button "Activate Cloud Shell":
+    - tooltip "Supercharge your development! Try Cloud Shell to access the built-in Firebase CLI and run Firebase emulators directly in a virtual machine.":
+      - generic: Supercharge your development! Try Cloud Shell to access the built-in Firebase CLI and run Firebase emulators directly in a virtual machine.
+  - button "Toggle Learn Panel":
+    - img: school
+  - 'button "Current theme: Dark, adjust theme"':
+    - img: light_mode

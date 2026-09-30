@@ -1,0 +1,222 @@
+- link "Skip to main content":
+  - /url: "#main"
+- navigation "Firebase Console products":
+  - heading "Firebase console (Go to project list)" [level=2]:
+    - link "Firebase console (Go to project list)":
+      - /url: "#"
+      - img "Firebase logo"
+  - img: search
+  - combobox "Search products and features"
+  - link "Project Overview":
+    - /url: "#"
+    - img: gmp_nav20_overview
+    - generic: Project Overview
+  - menu:
+    - menuitem "Settings":
+      - img: settings
+      - generic: Settings
+      - img: chevron_right
+- separator
+- generic: Project shortcuts
+- group "Project shortcuts":
+  - link "Authentication":
+    - /url: "#"
+    - img: gmp_nav20_auth
+    - generic: Authentication
+    - button "Hide Authentication"
+    - button "Pin Authentication"
+  - link "Firestore":
+    - /url: "#"
+    - img: gmp_firestore
+    - generic: Firestore
+    - button "Hide Firestore"
+    - button "Pin Firestore"
+- separator
+- generic: Product categories
+- menu "Product categories":
+  - menuitem "Databases & Storage":
+    - generic: Databases & Storage
+    - img: chevron_right
+  - menuitem "Security":
+    - generic: Security
+    - img: chevron_right
+  - menuitem "AI services":
+    - generic: AI services
+    - img: chevron_right
+  - menuitem "Hosting & Serverless":
+    - generic: Hosting & Serverless
+    - img: chevron_right
+  - menuitem "DevOps & Engagement":
+    - generic: DevOps & Engagement
+    - img: chevron_right
+  - menuitem "Analytics":
+    - generic: Analytics
+    - img: chevron_right
+- separator
+- 'group "Billing plan: Spark"':
+  - generic "Billing plan name":
+    - generic: "Billing plan:"
+    - text: Spark
+  - generic "Billing plan description": No-cost ($0/month)
+  - button "Upgrade billing plan":
+    - generic: Upgrade
+    - generic: New
+    - tooltip "Click upgrade to learn how to claim a $300 free credit!":
+      - generic: Click upgrade to learn how to claim a $300 free credit!
+- separator
+- button "Toggle navigation sidebar" [expanded]:
+  - img: chevron_left
+- banner:
+  - button "Kabita Live (Open select project menu)":
+    - text: Kabita Live
+    - img: arrow_drop_down
+- main [active]:
+  - region "Product header":
+    - navigation "Breadcrumbs":
+      - link "Cloud Firestore"
+      - text: chevron_right
+    - heading "Database" [level=2]
+    - button "Undefined parameter - DATABASE_ID select a database":
+      - generic: (default)
+      - img: arrow_drop_down
+    - button "Ask Gemini about the core concepts to use Firestore":
+      - img: spark
+      - text: Ask Gemini about the core concepts to use Firestore
+    - tablist "Product features":
+      - tab "Data":
+        - generic: Data
+      - 'tab "Selected Tab: Rules" [selected]':
+        - generic: Rules
+      - tab "Indexes":
+        - generic: Indexes
+      - tab "Disaster Recovery":
+        - generic: Disaster Recovery
+      - tab "Usage":
+        - generic: Usage
+      - tab "Query Insights":
+        - generic: Query Insights
+        - alert:
+          - button "Dismiss":
+            - img: close
+          - img: gmp_firestore
+          - generic: Understand query performance
+          - generic: Identify and troubleshoot queries that require the most time or resources to execute.
+          - link "Learn more (opens Firebase documentation in new tab)":
+            - /url: https://firebase.google.com/docs/firestore/enterprise/query-insights?hl=en-US&authuser=0
+            - text: Learn more open_in_new
+    - button "New in Cloud Firestore":
+      - img: campaign
+      - generic: New in Cloud Firestore
+  - button "Develop & Test":
+    - generic: Develop & Test
+  - tablist:
+    - button "star Today • 7:28 PM":
+      - generic: star
+      - generic: Today • 7:28 PM
+    - button "Today • 7:26 PM":
+      - generic: Today • 7:26 PM
+    - button "Rules Playground Experiment and explore with Security Rules":
+      - img: tune
+      - generic: Rules Playground
+      - generic: Experiment and explore with Security Rules
+      - img: expand_less
+  - tabpanel:
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "10"
+    - generic: "11"
+    - generic: "12"
+    - generic: "13"
+    - generic: "14"
+    - generic: "15"
+    - generic: "16"
+    - generic: "17"
+    - generic: "18"
+    - generic: "19"
+    - generic: "20"
+    - generic: "21"
+    - generic: "22"
+    - generic: "23"
+    - generic: "24"
+    - generic: "25"
+    - generic: "26"
+    - generic: "27"
+    - generic: "28"
+    - generic: "29"
+    - generic: "30"
+    - generic: "31"
+    - generic: "32"
+    - generic: "33"
+    - generic: "34"
+    - generic: "35"
+    - generic: "36"
+    - generic: "37"
+    - generic: "38"
+    - generic: "39"
+    - textbox:
+      - generic: rules_version = '2';
+      - generic: "service cloud.firestore {"
+      - generic: "match /databases/{database}/documents {"
+      - generic: "function signedIn() { return request.auth != null; }"
+      - generic: "function editor() { return signedIn() && request.auth.token.editor == true; }"
+      - generic: "function throttlePath() { return /databases/$(database)/documents/feedbackThrottle/$(request.auth.uid); }"
+      - generic: "match /feedback/{id} {"
+      - generic: "allow create: if signedIn()"
+      - generic: "&& request.resource.data.keys().hasAll(['uid','name','email','message','reason','poemPath','status','consentVersion','createdAt'])"
+      - generic: "&& request.resource.data.keys().hasOnly(['uid','name','email','message','reason','poemPath','status','consentVersion','createdAt'])"
+      - generic: "&& request.resource.data.uid == request.auth.uid"
+      - generic: "&& request.resource.data.name is string && request.resource.data.name.size() > 0 && request.resource.data.name.size() <= 120"
+      - generic: "&& request.resource.data.email is string && request.resource.data.email.size() <= 254 && request.resource.data.email.matches('^[^@ ]+@[^@ ]+\\\\.[^@ ]+$')"
+      - generic: "&& request.resource.data.message is string && request.resource.data.message.size() > 0 && request.resource.data.message.size() <= 5000"
+      - generic: "&& request.resource.data.reason in ['note','correction','submission']"
+      - generic: "&& request.resource.data.poemPath is string && request.resource.data.poemPath.size() <= 300"
+      - generic: "&& request.resource.data.status == 'received'"
+      - generic: "&& request.resource.data.consentVersion == 'private-feedback-v1'"
+      - generic: "&& request.resource.data.createdAt == request.time"
+      - generic: "&& getAfter(throttlePath()).data.lastFeedbackId == id"
+      - generic: "&& getAfter(throttlePath()).data.lastSubmittedAt == request.time"
+      - generic: "&& (!exists(throttlePath()) || get(throttlePath()).data.lastSubmittedAt < request.time - duration.value(60, 's'));"
+      - generic: "allow read, delete: if editor();"
+      - generic: "allow update: if editor() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])"
+      - generic: "&& request.resource.data.status in ['received','reviewed','closed'];"
+      - generic: "}"
+      - generic: "match /feedbackThrottle/{uid} {"
+      - generic: "allow create, update: if signedIn() && uid == request.auth.uid"
+      - generic: "&& request.resource.data.keys().hasAll(['lastSubmittedAt','lastFeedbackId'])"
+      - generic: "&& request.resource.data.keys().hasOnly(['lastSubmittedAt','lastFeedbackId'])"
+      - generic: "&& request.resource.data.lastSubmittedAt == request.time"
+      - generic: "&& request.resource.data.lastFeedbackId is string"
+      - generic: "&& request.resource.data.lastFeedbackId.matches('^[A-Za-z0-9]{20}$');"
+      - generic: "allow read, delete: if editor();"
+      - generic: "}"
+      - generic: "match /{document=**} { allow read, write: if false; }"
+      - generic: "}"
+      - generic: "}"
+- generic "Gemini in Firebase":
+  - 'button "Google Account: Ahimanikya Satapathy (ahimanikya@gmail.com), Google membership"':
+  - button "Open alerts":
+    - img: notifications
+  - button "Chat with Gemini (Option+G)":
+    - img: spark
+    - alert:
+      - button "Dismiss":
+        - img: close
+      - text: Gemini in Firebase
+      - paragraph: Get answers to questions about Firebase products, use cases, and features. Generate code for development and shorten your troubleshooting process with new insights--with the assistance of a natural language chat interface directly in the Firebase console.
+  - button "Help":
+    - img: contact_support
+  - separator
+  - button "Activate Cloud Shell":
+    - tooltip "Supercharge your development! Try Cloud Shell to access the built-in Firebase CLI and run Firebase emulators directly in a virtual machine.":
+      - generic: Supercharge your development! Try Cloud Shell to access the built-in Firebase CLI and run Firebase emulators directly in a virtual machine.
+  - button "Toggle Learn Panel":
+    - img: school
+  - 'button "Current theme: Dark, adjust theme"':
+    - img: light_mode

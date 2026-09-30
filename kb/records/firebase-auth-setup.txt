@@ -1,0 +1,161 @@
+- link "Skip to main content":
+  - /url: "#main"
+- navigation "Firebase Console products":
+  - heading "Firebase console (Go to project list)" [level=2]:
+    - link "Firebase console (Go to project list)":
+      - /url: "#"
+      - img "Firebase logo"
+  - img: search
+  - combobox "Search products and features"
+  - link "Project Overview":
+    - /url: "#"
+    - img: gmp_nav20_overview
+    - generic: Project Overview
+  - menu:
+    - menuitem "Settings":
+      - img: settings
+      - generic: Settings
+      - img: chevron_right
+- separator
+- generic: Project shortcuts
+- group "Project shortcuts":
+  - link "Authentication":
+    - /url: "#"
+    - img: gmp_nav20_auth
+    - generic: Authentication
+    - button "Hide Authentication"
+    - button "Pin Authentication"
+  - link "Firestore":
+    - /url: "#"
+    - img: gmp_firestore
+    - generic: Firestore
+    - button "Hide Firestore"
+    - button "Pin Firestore"
+- separator
+- generic: Product categories
+- menu "Product categories":
+  - menuitem "Databases & Storage":
+    - generic: Databases & Storage
+    - img: chevron_right
+  - menuitem "Security":
+    - generic: Security
+    - img: chevron_right
+  - menuitem "AI services":
+    - generic: AI services
+    - img: chevron_right
+  - menuitem "Hosting & Serverless":
+    - generic: Hosting & Serverless
+    - img: chevron_right
+  - menuitem "DevOps & Engagement":
+    - generic: DevOps & Engagement
+    - img: chevron_right
+  - menuitem "Analytics":
+    - generic: Analytics
+    - img: chevron_right
+- separator
+- 'group "Billing plan: Spark"':
+  - generic "Billing plan name":
+    - generic: "Billing plan:"
+    - text: Spark
+  - generic "Billing plan description": No-cost ($0/month)
+  - button "Upgrade billing plan":
+    - generic: Upgrade
+    - generic: New
+    - tooltip "Click upgrade to learn how to claim a $300 free credit!":
+      - generic: Click upgrade to learn how to claim a $300 free credit!
+- separator
+- button "Toggle navigation sidebar" [expanded]:
+  - img: chevron_left
+- banner:
+  - button "Kabita Live (Open select project menu)":
+    - text: Kabita Live
+    - img: arrow_drop_down
+- main:
+  - region "Product header":
+    - heading "Authentication" [level=2]
+    - tablist "Authentication features":
+      - tab "Users":
+        - generic: Users
+      - 'tab "Selected Tab: Sign-in method" [selected]':
+        - generic: Sign-in method
+      - tab "Templates":
+        - generic: Templates
+      - tab "Usage":
+        - generic: Usage
+      - tab "Settings":
+        - generic: Settings
+  - status:
+    - img: error
+    - generic: "caution:"
+    - generic: "'Sign in with Google' is recommended to reduce password-related vulnerabilities and enhance security."
+  - button "Enable":
+    - generic: Enable
+  - heading "Sign-in providers" [level=3]
+  - button "Add new provider":
+    - generic: Add new provider
+  - table "Sign-in providers":
+    - rowgroup:
+      - row "Provider Status":
+        - columnheader "Provider"
+        - columnheader "Status"
+        - columnheader:
+          - generic: Edit
+    - rowgroup:
+      - row "Edit anonymous provider configuration":
+        - cell "Anonymous":
+          - text: Anonymous
+        - cell "Enabled":
+          - img: check_circle
+          - text: Enabled
+        - cell:
+          - img: edit
+  - heading "Advanced" [level=3]
+  - heading "SMS Multi-factor Authentication" [level=4]:
+    - img: lock
+    - generic: SMS Multi-factor Authentication
+  - paragraph:
+    - text: Allow your users to add an extra layer of security to their account. Once enabled, integrated and configured, users can sign in to their account in two steps, using SMS.
+    - link "Learn more about SMS multi-factor authentication (opens in new tab)":
+      - /url: https://firebase.google.com/docs/auth?hl=en-US&authuser=0#multi-factor
+      - text: Learn more open_in_new
+  - status:
+    - img: star
+    - generic: "tip:"
+    - generic: MFA and other advanced features are available with Identity Platform, Google Cloud's complete customer identity solution built in partnership with Firebase. This upgrade is available on both the Spark and Blaze plans.
+    - button "Upgrade to Firebase Auth with Identity Platform":
+      - generic: Upgrade to enable
+- generic "Gemini in Firebase":
+  - 'button "Google Account: Ahimanikya Satapathy (ahimanikya@gmail.com), Google membership"':
+  - button "Open alerts":
+    - img: notifications
+  - button "Chat with Gemini (Option+G)":
+    - img: spark
+    - alert:
+      - button "Dismiss":
+        - img: close
+      - text: Gemini in Firebase
+      - paragraph: Get answers to questions about Firebase products, use cases, and features. Generate code for development and shorten your troubleshooting process with new insights--with the assistance of a natural language chat interface directly in the Firebase console.
+  - button "Help":
+    - img: contact_support
+  - separator
+  - button "Activate Cloud Shell":
+    - tooltip "Supercharge your development! Try Cloud Shell to access the built-in Firebase CLI and run Firebase emulators directly in a virtual machine.":
+      - generic: Supercharge your development! Try Cloud Shell to access the built-in Firebase CLI and run Firebase emulators directly in a virtual machine.
+  - button "Toggle Learn Panel":
+    - img: school
+  - 'button "Current theme: Light, adjust theme"':
+    - img: dark_mode
+- tooltip "Upgrade to Firebase Auth with Identity Platform to access this feature. Learn more (opens Firebase documentation in new tab) Upgrade":
+  - text: Upgrade to Firebase Auth with Identity Platform to access this feature.
+  - link "Learn more (opens Firebase documentation in new tab)":
+    - /url: https://firebase.google.com/docs/auth?hl=en-US&authuser=0#identity-platform
+    - text: Learn more open_in_new
+  - button "Upgrade":
+    - generic: Upgrade
+- tooltip "Upgrade to Firebase Auth with Identity Platform to access this feature. Learn more (opens Firebase documentation in new tab) Upgrade":
+  - text: Upgrade to Firebase Auth with Identity Platform to access this feature.
+  - link "Learn more (opens Firebase documentation in new tab)":
+    - /url: https://firebase.google.com/docs/auth?hl=en-US&authuser=0#identity-platform
+    - text: Learn more open_in_new
+  - button "Upgrade":
+    - generic: Upgrade

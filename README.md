@@ -2,7 +2,7 @@
 
 [Open the knowledge base](kb/index.md) · [Work dashboard](kb/registers/DASHBOARD.md) · [Persona team](kb/team/operating-model.md)
 
-The website is a self-contained replacement publication, built with Astro and published through GitHub Actions to GitHub Pages. GitHub is the source of truth for site content, artwork, the KB and project history; large delivery archives use Git LFS. [Architecture, setup and launch dependencies](kb/reference/site-architecture.md) document the Astro build, private Firebase feedback and consent-based GA4 integration. The private GitHub repository and Firebase project/web app exist; anonymous Auth is enabled. Firestore, Analytics, the Pages plan decision and full content import remain pending. [Account setup status](kb/records/account-setup.json).
+The website is a self-contained replacement publication, built with Astro and published through GitHub Actions to GitHub Pages. GitHub is the source of truth for site content, artwork, the KB and project history; large delivery archives use Git LFS. [Architecture, setup and launch dependencies](kb/reference/site-architecture.md) document the Astro build, private Firebase feedback and consent-based GA4 integration. The public GitHub repository and Firebase project/web app exist; anonymous Auth is enabled. GitHub Pages is configured for manual Actions delivery. Mumbai Firestore and private-feedback rules are configured. Analytics, live integration checks and full content import remain pending. [Account setup status](kb/records/account-setup.json).
 
 All research, design documentation, artwork masters, studies, review evidence, historical revisions and delivery snapshots live in `kb/`. Start with [the storage map](kb/reference/storage-layout.md).
 
