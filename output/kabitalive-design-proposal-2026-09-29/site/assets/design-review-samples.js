@@ -1,0 +1,1 @@
+../../../../kb/artifacts/review/site/assets/design-review-samples.js

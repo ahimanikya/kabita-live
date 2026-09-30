@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-09-30T01:41:19.186215+00:00",
+  "review": "Same-assistant self-review",
+  "project_path_build": "PASS: SITE_BASE=/kabita-live, SITE_URL=https://ahimanikya.github.io",
+  "public_pages": 549,
+  "missing_or_outside_base_resources": [],
+  "deploy_artifact_has_symlinks": false,
+  "workflow_yaml": "Parsed; manual trigger only, deploy needs gated build",
+  "release_gate": "PASS: real incomplete content blocked; temporary complete fixture yields indexable export, staging stays noindex, source unchanged",
+  "lfs": {
+    "configured": true,
+    "zip_archives": 9,
+    "large_archives_over_100_mib": 4,
+    "uploaded": false
+  },
+  "remote_created": false,
+  "github_workflow_executed": false,
+  "published": false
+}

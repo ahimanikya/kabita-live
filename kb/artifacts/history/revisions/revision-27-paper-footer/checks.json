@@ -1,0 +1,39 @@
+{
+  "page_counts": {
+    "cotton-paper": 34,
+    "earth-wash": 2,
+    "monsoon-wash": 1
+  },
+  "poem_assignments": {
+    "poem-drink.html": "earth-wash",
+    "poem-kshanika.html": "earth-wash",
+    "poem-dokana.html": "monsoon-wash"
+  },
+  "assignment": "SHA-256 of stable poem ID; reproducible across rebuilds",
+  "texture_opacity": {
+    "cotton": 0.16,
+    "wash": 0.18,
+    "mobile_wash": 0.126
+  },
+  "night_texture": "off; verified using reader control",
+  "footer": {
+    "desktop1280": "single row; ownership left, links right",
+    "mobile320": "wrap; links align right"
+  },
+  "audits": {
+    "desktop": {
+      "pages": 41,
+      "violations": 0,
+      "overflow": 0,
+      "errors": []
+    },
+    "mobile": {
+      "pages": 41,
+      "violations": 0,
+      "overflow": 0,
+      "errors": []
+    }
+  },
+  "contrast_note": "axe cannot resolve pseudo-element backgrounds. Conservative composited-pixel checks in revision-26-background-studies/contrast.json support minimum normal-text contrast of 4.57:1 at recommended strengths.",
+  "scope_note": "No claim of full WCAG conformance. Prior header enlargement issue remains documented in revision 24."
+}

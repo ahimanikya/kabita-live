@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-09-30T01:37:12.950728+00:00",
+  "actor": {
+    "kind": "human",
+    "name": "Ahimanikya Satapathy"
+  },
+  "directions": [
+    {
+      "topic": "replacement",
+      "quote": "This is a new redesign and a complete, self-sufficient site - we should not link anything to the old site. This will replace the old site."
+    },
+    {
+      "topic": "git and analytics",
+      "quote": "We will create a git project, hook up with google analytics"
+    },
+    {
+      "topic": "GA4 ID",
+      "quote": "No we will create one"
+    },
+    {
+      "topic": "engagement",
+      "quote": "Social sharing and private feedback; no public comments for launch (recommended)"
+    },
+    {
+      "topic": "Firebase reference",
+      "quote": "We can use Firebase- the same tech stack as the Utkal Project. Review that project's details; we can mostly follow that approach."
+    }
+  ],
+  "implementation_boundary": "Local preparation; cloud project/property creation, content import and public deployment are not completed."
+}

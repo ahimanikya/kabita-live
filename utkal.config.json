@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "artifact_kind": "instance",
+  "name": "Kabita Live",
+  "prefix": "KBL",
+  "creator": {
+    "name": "Ahimanikya Satapathy",
+    "kind": "human",
+    "role": "Redesign project lead and decision authority"
+  },
+  "record_directory": "registers",
+  "repair_status": "adopted_with_preserved_design_history",
+  "adopted_baseline": "0.1.0-rc.1",
+  "register_model": "1.0.0",
+  "instance_activation_automatic": false,
+  "blueprint_source": "https://github.com/ahimanikya/utkal-blueprint",
+  "blueprint_commit": "cc72044e151099792ccccb2435ea00f93084092e",
+  "paths": {
+    "knowledge": "kb",
+    "site": "projects/site",
+    "primary_design_source": "output/kabitalive-design-proposal-2026-09-29",
+    "portable_handoff": "output/kabita-live-project",
+    "design_knowledge": "kb/artifacts/design",
+    "review_material": "kb/artifacts/review/site",
+    "design_history": "kb/artifacts/history",
+    "artwork_masters": "kb/artifacts/artwork"
+  },
+  "publication_authorized": false,
+  "persona_configuration": {
+    "version": "1.0.0",
+    "assignments": "kb/team/assignments.json",
+    "operating_guide": "kb/team/operating-model.md",
+    "authorization": "KBL-DEC-005",
+    "execution_mode": "on_demand_current_chat",
+    "autonomous_dispatch": false,
+    "background_execution": false
+  }
+}

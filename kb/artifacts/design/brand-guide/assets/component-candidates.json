@@ -1,0 +1,43 @@
+{
+  "status": "proposed-for-component-review",
+  "spacing_px": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64
+  ],
+  "reading": {
+    "desktop_px": 24,
+    "phone_px": 22,
+    "enlargement_px": [
+      28,
+      32
+    ],
+    "line_height": 1.9
+  },
+  "actions": {
+    "target_min_px": 48,
+    "radius_options_px": [
+      0,
+      6
+    ],
+    "focus_width_px": 3,
+    "focus_offset_px": 4
+  },
+  "motion": {
+    "options_ms": [
+      0,
+      160
+    ],
+    "reduced_motion_ms": 0
+  },
+  "opening": {
+    "text_fraction": 0.6,
+    "art_fraction": 0.4
+  },
+  "approval_source": "Browser review decisions must be exported and applied before these candidate options become site defaults."
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0.0",
+  "project": "KBL",
+  "events": [
+    {
+      "id": "KBL-JOIN-001",
+      "event": "join",
+      "state": "verified_complete",
+      "identity_id": "KBL-PER-001",
+      "assignment_id": "KBL-ASG-001",
+      "jd_id": "KBL-JD-001",
+      "jd_version": "1.0.0",
+      "authorization": "KBL-DEC-005",
+      "accountable_human": "Ahimanikya Satapathy",
+      "effective_at": "2026-09-30T01:05:18.274119+00:00",
+      "scope": "On-demand KBL persona role passes in this chat",
+      "access_added": [],
+      "access_removed": [],
+      "access_retained": [
+        "Existing task-scoped session permissions"
+      ],
+      "human_acknowledgement": "not_applicable_ai_persona",
+      "configuration_verification": "records/persona-setup-verification.json",
+      "first_work": "KBL-WORK-006",
+      "handover": "team/operating-model.md",
+      "outstanding_obligations": [],
+      "verified_at": "2026-09-30T01:06:50.409867+00:00",
+      "verification_result": "pass_with_limitations",
+      "closure_ref": "records/persona-setup-verification.json"
+    },
+    {
+      "id": "KBL-JOIN-002",
+      "event": "join",
+      "state": "verified_complete",
+      "identity_id": "KBL-PER-002",
+      "assignment_id": "KBL-ASG-002",
+      "jd_id": "KBL-JD-002",
+      "jd_version": "1.0.0",
+      "authorization": "KBL-DEC-005",
+      "accountable_human": "Ahimanikya Satapathy",
+      "effective_at": "2026-09-30T01:05:18.274119+00:00",
+      "scope": "On-demand KBL persona role passes in this chat",
+      "access_added": [],
+      "access_removed": [],
+      "access_retained": [
+        "Existing task-scoped session permissions"
+      ],
+      "human_acknowledgement": "not_applicable_ai_persona",
+      "configuration_verification": "records/persona-setup-verification.json",
+      "first_work": "KBL-WORK-006",
+      "handover": "team/operating-model.md",
+      "outstanding_obligations": [],
+      "verified_at": "2026-09-30T01:06:50.409867+00:00",
+      "verification_result": "pass_with_limitations",
+      "closure_ref": "records/persona-setup-verification.json"
+    },
+    {
+      "id": "KBL-JOIN-003",
+      "event": "join",
+      "state": "verified_complete",
+      "identity_id": "KBL-PER-003",
+      "assignment_id": "KBL-ASG-003",
+      "jd_id": "KBL-JD-003",
+      "jd_version": "1.0.0",
+      "authorization": "KBL-DEC-005",
+      "accountable_human": "Ahimanikya Satapathy",
+      "effective_at": "2026-09-30T01:05:18.274119+00:00",
+      "scope": "On-demand KBL persona role passes in this chat",
+      "access_added": [],
+      "access_removed": [],
+      "access_retained": [
+        "Existing task-scoped session permissions"
+      ],
+      "human_acknowledgement": "not_applicable_ai_persona",
+      "configuration_verification": "records/persona-setup-verification.json",
+      "first_work": "KBL-WORK-006",
+      "handover": "team/operating-model.md",
+      "outstanding_obligations": [],
+      "verified_at": "2026-09-30T01:06:50.409867+00:00",
+      "verification_result": "pass_with_limitations",
+      "closure_ref": "records/persona-setup-verification.json"
+    },
+    {
+      "id": "KBL-JOIN-004",
+      "event": "join",
+      "state": "verified_complete",
+      "identity_id": "KBL-PER-004",
+      "assignment_id": "KBL-ASG-004",
+      "jd_id": "KBL-JD-004",
+      "jd_version": "1.0.0",
+      "authorization": "KBL-DEC-005",
+      "accountable_human": "Ahimanikya Satapathy",
+      "effective_at": "2026-09-30T01:05:18.274119+00:00",
+      "scope": "On-demand KBL persona role passes in this chat",
+      "access_added": [],
+      "access_removed": [],
+      "access_retained": [
+        "Existing task-scoped session permissions"
+      ],
+      "human_acknowledgement": "not_applicable_ai_persona",
+      "configuration_verification": "records/persona-setup-verification.json",
+      "first_work": "KBL-WORK-006",
+      "handover": "team/operating-model.md",
+      "outstanding_obligations": [],
+      "verified_at": "2026-09-30T01:06:50.409867+00:00",
+      "verification_result": "pass_with_limitations",
+      "closure_ref": "records/persona-setup-verification.json"
+    }
+  ]
+}

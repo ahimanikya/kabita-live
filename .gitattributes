@@ -1,0 +1,2 @@
+# Keep original delivery archives in GitHub without replacing their bytes.
+*.zip filter=lfs diff=lfs merge=lfs -text

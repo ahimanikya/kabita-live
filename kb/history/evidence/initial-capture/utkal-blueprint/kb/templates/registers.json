@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "model_version": "1.0.0",
+  "project": "NEW",
+  "name": "Replace with project name",
+  "recorded_at": null,
+  "human_authority": "REPLACE_WITH_ACCOUNTABLE_HUMAN",
+  "decision_home": "Founder\u2019s Utkal conversation",
+  "external_refs": {},
+  "projects": [],
+  "work": [],
+  "decisions": [],
+  "requirements": [],
+  "reviews": [],
+  "releases": [],
+  "sources": [],
+  "relationships": [],
+  "record_homes": {},
+  "optional_extensions": {
+    "contributions": {
+      "enabled": false,
+      "activation": "Before accepting public submissions",
+      "minimum_fields": [
+        "id",
+        "submitted_at",
+        "contributor_credit",
+        "consent_reference",
+        "review_status",
+        "work_ref",
+        "publication_ref"
+      ]
+    },
+    "heritage_connections": {
+      "enabled": false,
+      "activation": "When lineage research begins",
+      "minimum_fields": [
+        "id",
+        "places",
+        "period",
+        "connection_type",
+        "claim",
+        "sources",
+        "confidence",
+        "review_status",
+        "consent_reference_if_needed"
+      ]
+    }
+  },
+  "starter_instructions": "Replace NEW, name and human authority; use empty activity.jsonl, create the adopting human decision and project record, set actual canonical record homes, then validate. Empty collections do not create assignments or approval."
+}

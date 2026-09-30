@@ -1,0 +1,72 @@
+name: Publish Kabita Live
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish_approved:
+        description: 'The main-branch website is approved for public release'
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main' && github.actor == github.repository_owner && inputs.publish_approved
+    runs-on: ubuntu-latest
+    env:
+      ASTRO_TELEMETRY_DISABLED: '1'
+    defaults:
+      run:
+        working-directory: projects/site
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+          # Historical ZIPs are LFS-managed; reader assets are regular Git files.
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: projects/site/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: actions/configure-pages@v5
+        id: pages
+      - run: npm ci
+      - run: npm test
+      - run: npm run test:rules
+      - name: Build complete, approved reader website
+        run: npm run build:release
+        env:
+          SITE_URL: ${{ steps.pages.outputs.origin }}
+          SITE_BASE: ${{ steps.pages.outputs.base_path }}
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: projects/site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish approved website
+        id: deployment
+        uses: actions/deploy-pages@v4

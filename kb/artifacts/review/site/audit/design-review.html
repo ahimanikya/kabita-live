@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Design review verification</title><style>body{font:16px/1.5 system-ui}iframe{height:1100px;border:1px solid #888}pre{white-space:pre-wrap}</style><h1>Design review verification</h1><p id="progress" role="status">Preparing…</p><pre id="summary"></pre><pre id="raw" hidden></pre><iframe title="Review under test"></iframe><script>
+(async()=>{
+const width=Number(new URLSearchParams(location.search).get('width')||1280),outer=document.querySelector('iframe'),results=[];outer.style.width=width+'px';
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+const until=async fn=>{for(let i=0;i<100;i++){if(fn())return;await wait(50);}throw Error('Readiness timeout');};
+const load=async action=>{const frame=outer.contentDocument.querySelector('#component-preview');const ready=new Promise((r,j)=>{frame.addEventListener('load',r,{once:true});setTimeout(()=>j(Error('Sample load timeout')),10000);});action();await ready;await frame.contentDocument.fonts.ready;await wait(80);return frame;};
+try{
+await new Promise(r=>{outer.onload=r;outer.src='../design-system-review.html?test=1';});await until(()=>outer.contentDocument.querySelectorAll('[data-element]').length===18);
+const d=outer.contentDocument,catalogue=await(await fetch('../design-system-catalogue.json')).json();
+for(let i=0;i<catalogue.groups.length;i++){
+const g=catalogue.groups[i];let frame=await load(()=>d.querySelector(`[data-element="${i}"]`).click());
+for(let variant=0;variant<g.variants.length;variant++){
+if(variant)frame=await load(()=>d.querySelector(`[name="design-variant"][value="${variant}"]`).click());
+const sd=frame.contentDocument,sw=frame.contentWindow;
+document.querySelector('#progress').textContent=`${g.title} / ${variant+1} / ${width}px`;
+await Promise.all([...sd.images].map(im=>im.complete?Promise.resolve():new Promise(r=>{im.onload=r;im.onerror=r;})));
+await new Promise((r,j)=>{const s=sd.createElement('script');s.src=new URL('axe.min.js',location.href);s.onload=r;s.onerror=j;sd.head.append(s);});
+const a=await sw.axe.run(sd,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']},resultTypes:['violations'],iframes:false});
+const functional={};
+if(g.id==='reader'){sd.querySelector('[data-size="32"]').click();functional.enlarged=sw.getComputedStyle(sd.querySelector('.sample-verse')).fontSize==='32px';sd.querySelector('#sample-night').click();functional.night=sd.body.classList.contains('night');const lang=sd.querySelector('#sample-language');lang.value='hi';lang.dispatchEvent(new sw.Event('change'));functional.hindi=sd.querySelector('.sample-verse').lang==='hi';}
+if(g.id==='search'){const input=sd.querySelector('#sample-search');input.value='zzzz';input.dispatchEvent(new sw.Event('input'));functional.empty=sd.querySelector('#sample-results-count').textContent==='0 poems';sd.querySelector('#sample-clear').click();functional.reset=sd.querySelector('#sample-results-count').textContent==='3 poems';sd.querySelector('[data-filter="hi"]').click();functional.filter=sd.querySelector('#sample-results-count').textContent==='1 poem';}
+if(g.id==='forms'){sd.querySelector('form').requestSubmit();functional.errors=sd.querySelectorAll('[aria-invalid="true"]').length===3;sd.querySelector('#sample-name').value='Sample';sd.querySelector('#sample-email').value='review@example.com';sd.querySelector('#sample-message').value='Review test';sd.querySelector('form').requestSubmit();functional.valid=sd.querySelectorAll('[aria-invalid="true"]').length===0&&sd.querySelector('#sample-form-status').textContent.includes('Nothing was sent');}
+if(g.id==='sharing'){sd.querySelector('#sample-share').click();functional.open=sd.querySelector('dialog').open;sd.querySelector('#sample-close').click();functional.closed=!sd.querySelector('dialog').open;}
+if(g.id==='navigation'&&sw.innerWidth<=600){sd.querySelector('#sample-menu').click();functional.menu=sd.querySelector('#sample-menu').getAttribute('aria-expanded')==='true'&&sw.getComputedStyle(sd.querySelector('#sample-menu-links')).display!=='none';}
+if(g.id==='motion'){sd.querySelector('#sample-motion').click();functional.pressed=sd.querySelector('#sample-motion').getAttribute('aria-pressed')==='true';}
+await wait(100);
+results.push({functional,id:g.id,variant,width,sampleWidth:sw.innerWidth,sampleScroll:sd.documentElement.scrollWidth,outerScroll:d.documentElement.scrollWidth,brokenImages:[...sd.images].filter(im=>!im.naturalWidth).map(im=>im.src),violations:a.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)}))});
+}
+}
+document.querySelector('#progress').textContent='Complete';
+}catch(e){results.push({error:String(e)});document.querySelector('#progress').textContent='Failed';}
+document.querySelector('#summary').textContent=JSON.stringify({samples:results.length,issues:results.filter(r=>r.error||Object.values(r.functional||{}).some(v=>v===false)||r.brokenImages?.length||r.violations?.length||r.sampleScroll>r.sampleWidth+1||r.outerScroll>width+1)},null,2);document.querySelector('#raw').textContent=JSON.stringify(results);
+})();
+</script></html>

@@ -1,0 +1,290 @@
+{
+  "version": 1,
+  "title": "Kabita Live design review",
+  "groups": [
+    {
+      "id": "identity",
+      "title": "Identity",
+      "status": "locked",
+      "heading": "The familiar name, given room to breathe.",
+      "description": "English-only Kabita Live masthead; the existing symbol; Odia signature kept separate.",
+      "variants": [
+        "Approved direction"
+      ],
+      "checks": [
+        "Keep the original proportions.",
+        "Keep the menu readable.",
+        "Do not repeat the signature in the footer."
+      ]
+    },
+    {
+      "id": "colour",
+      "title": "Colour",
+      "status": "locked",
+      "heading": "Stone, sea and hearth.",
+      "description": "Use the approved palette by role. Language does not determine colour.",
+      "variants": [
+        "Approved palette"
+      ],
+      "checks": [
+        "Ink for reading; laterite for restrained emphasis.",
+        "Rules are decorative, not text colours.",
+        "Night colours need their own contrast check."
+      ]
+    },
+    {
+      "id": "type",
+      "title": "Typography",
+      "status": "locked",
+      "heading": "Three scripts, equal care.",
+      "description": "Cormorant Garamond 500 for English display; Source Serif 4 for English reading; Noto Serif Oriya for Odia; Tiro Devanagari Hindi 400 for Hindi.",
+      "variants": [
+        "Approved families"
+      ],
+      "checks": [
+        "Check conjuncts and vowel marks.",
+        "Use natural Indic character spacing.",
+        "Preserve poet names and original line breaks."
+      ]
+    },
+    {
+      "id": "paper",
+      "title": "Paper & atmosphere",
+      "status": "locked",
+      "heading": "A quiet surface beneath the words.",
+      "description": "Cotton paper for general pages; stable monsoon or earth wash for poems. No texture in night reading.",
+      "variants": [
+        "Cotton paper",
+        "Poem wash"
+      ],
+      "checks": [
+        "Cotton at 16%; poem wash at 18%, softened on phones.",
+        "Atmosphere must never compete with the text.",
+        "Art stays still."
+      ]
+    },
+    {
+      "id": "spacing",
+      "title": "Spacing & rhythm",
+      "status": "pending",
+      "heading": "How much room should a poem have?",
+      "description": "Choose a default rhythm for related content. Preserve optical adjustments for Odia and long titles.",
+      "variants": [
+        "Unhurried · recommended",
+        "Compact editorial"
+      ],
+      "checks": [
+        "Compare 48px and 32px between major content groups.",
+        "Both use the same 4–64px spacing scale.",
+        "Review the phone preview before approving."
+      ]
+    },
+    {
+      "id": "openings",
+      "title": "Page openings",
+      "status": "pending",
+      "heading": "An invitation before the reading begins.",
+      "description": "The approved 60% text / 40% artwork split remains. Compare supporting copy and vertical rhythm.",
+      "variants": [
+        "Short introduction · recommended",
+        "Title-led opening"
+      ],
+      "checks": [
+        "One clear page purpose and action.",
+        "Artwork changes by page family.",
+        "Both versions stack on small screens."
+      ]
+    },
+    {
+      "id": "navigation",
+      "title": "Navigation",
+      "status": "pending",
+      "heading": "A clear way in, and a clear way back.",
+      "description": "Retain the shared masthead and single-line desktop footer. Choose the mobile menu treatment.",
+      "variants": [
+        "Plain stacked links · recommended",
+        "Two-column menu"
+      ],
+      "checks": [
+        "Try Menu with keyboard and touch.",
+        "Current page has a visible label.",
+        "Footer links remain together and left-aligned on phones."
+      ]
+    },
+    {
+      "id": "reader",
+      "title": "Poem reading",
+      "status": "pending",
+      "heading": "Let the words set the pace.",
+      "description": "Compare a single-line reading toolbar with grouped controls. Try all three scripts, enlargement and night reading.",
+      "variants": [
+        "Quiet toolbar · recommended",
+        "Grouped controls"
+      ],
+      "checks": [
+        "Keep authored lines and stanza spacing.",
+        "Large text must wrap without clipping.",
+        "Night reading and text-size controls must announce their state."
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "Buttons & links",
+      "status": "pending",
+      "heading": "One clear action, without shouting.",
+      "description": "Compare square and gently softened buttons. Both keep a filled primary action, outlined secondary action and underlined text links.",
+      "variants": [
+        "Square editorial · recommended",
+        "Soft corners"
+      ],
+      "checks": [
+        "Inspect default, hover, focus and disabled examples.",
+        "Primary controls have a 48px minimum target.",
+        "External links keep the quiet directional mark."
+      ]
+    },
+    {
+      "id": "cards",
+      "title": "Cards & metadata",
+      "status": "pending",
+      "heading": "A poem, a poet, a place in the journal.",
+      "description": "Compare open cards with a fine rule against pale-paper panels. Test long titles and native names.",
+      "variants": [
+        "Open editorial · recommended",
+        "Pale-paper panels"
+      ],
+      "checks": [
+        "Keep title, poet, issue and language in a consistent order.",
+        "Use real cover art without crowding it.",
+        "Whole-card links must not swallow secondary actions."
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Forms",
+      "status": "pending",
+      "heading": "Make writing to the journal feel simple.",
+      "description": "Compare white-paper fields with fields that share the page surface. Try the required-field errors and preview confirmation.",
+      "variants": [
+        "White-paper fields · recommended",
+        "Quiet paper fields"
+      ],
+      "checks": [
+        "Visible labels remain above fields.",
+        "Errors name the problem beside the field.",
+        "No message is sent from this review sample."
+      ]
+    },
+    {
+      "id": "feedback",
+      "title": "Messages & recovery",
+      "status": "pending",
+      "heading": "Kind words when something needs attention.",
+      "description": "Compare a quiet margin rule with a pale-paper panel for success, error, loading and empty states.",
+      "variants": [
+        "Margin rule · recommended",
+        "Pale-paper panel"
+      ],
+      "checks": [
+        "Use wording as well as colour.",
+        "Give errors an actionable next step.",
+        "Loading, unavailable and empty results are different states."
+      ]
+    },
+    {
+      "id": "search",
+      "title": "Search & filters",
+      "status": "pending",
+      "heading": "A word can lead somewhere.",
+      "description": "Compare underlined language choices with filled selected filters. Search the three preview poems and try a no-result query.",
+      "variants": [
+        "Underlined choices · recommended",
+        "Filled selection"
+      ],
+      "checks": [
+        "Filters belong near results, never in the masthead.",
+        "Announce the result count.",
+        "Clear filters must restore the complete sample list."
+      ]
+    },
+    {
+      "id": "sharing",
+      "title": "Sharing & dialogs",
+      "status": "pending",
+      "heading": "Let a poem travel with its poet.",
+      "description": "Compare a compact share dialog with one that includes an artwork preview. Both preserve title, poet and original link.",
+      "variants": [
+        "Words first · recommended",
+        "With artwork"
+      ],
+      "checks": [
+        "Try opening, Escape, closing and focus return.",
+        "Copy only reports success after clipboard permission succeeds.",
+        "External publishing is not performed by the sample."
+      ]
+    },
+    {
+      "id": "imagery",
+      "title": "Artwork & portraits",
+      "status": "pending",
+      "heading": "A cultural narrative, with room to breathe.",
+      "description": "Compare a soft watercolour edge with a clean rectangular crop. Examine banner, cover and portrait treatment together.",
+      "variants": [
+        "Soft edge · recommended",
+        "Clean crop"
+      ],
+      "checks": [
+        "Preserve faces and important focal points.",
+        "Do not invent documentary provenance.",
+        "Credits live in the colophon; meaningful titles remain."
+      ]
+    },
+    {
+      "id": "ornament",
+      "title": "Rules & small marks",
+      "status": "pending",
+      "heading": "A small pause between thoughts.",
+      "description": "Keep the approved header separator. Compare a plain section rule with the existing flowing waterline for occasional editorial transitions.",
+      "variants": [
+        "Fine rule · recommended",
+        "Occasional waterline"
+      ],
+      "checks": [
+        "Do not place ornamental dividers above and below the same heading.",
+        "Use the end mark once per poem.",
+        "External marks remain quieter than their link text."
+      ]
+    },
+    {
+      "id": "motion",
+      "title": "Motion & focus",
+      "status": "pending",
+      "heading": "Enough movement to make an action clear.",
+      "description": "Compare immediate state changes with a brief 160ms colour transition. Reduced-motion preference always disables the transition.",
+      "variants": [
+        "Still and immediate · recommended",
+        "Gentle response"
+      ],
+      "checks": [
+        "No parallax or animated backgrounds.",
+        "Keyboard focus remains visible.",
+        "Motion must not be required to understand a state."
+      ]
+    },
+    {
+      "id": "credits",
+      "title": "Credits & colophon",
+      "status": "locked",
+      "heading": "Credit once; keep authorship close.",
+      "description": "Design, font, artwork and portrait-source credits live on Our Story. Poet, translator and reviewer bylines stay beside the work.",
+      "variants": [
+        "Approved common colophon"
+      ],
+      "checks": [
+        "Keep LIFE AS IT IS as an artwork title.",
+        "Use the existing Our story footer link.",
+        "Carry provenance with independently shared exports."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "utkal-project-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/select-content.mjs && node tools/build-gallery.mjs && astro dev --host 127.0.0.1",
+    "build": "node tools/select-content.mjs && node tools/build-gallery.mjs && astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "astro": "7.3.5"
+  },
+  "engines": {
+    "node": ">=22.12.0",
+    "npm": ">=9.6.5"
+  }
+}

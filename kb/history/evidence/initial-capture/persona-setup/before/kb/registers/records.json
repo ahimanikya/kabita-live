@@ -1,0 +1,280 @@
+{
+  "schema_version": "1.0.0",
+  "model_version": "1.0.0",
+  "project": "KBL",
+  "name": "Kabita Live",
+  "recorded_at": "2026-09-30T00:56:36.856860+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "decision_home": "Current chat: Redesign Kabita Live magazine · 01a0ee81-0265-7673-a63c-04f6bf884d2d",
+  "external_refs": {},
+  "projects": [
+    {
+      "id": "KBL-REG-001",
+      "title": "Kabita Live redesign",
+      "status": "active_local_review",
+      "charter": "TEAM-CHARTER.md",
+      "human_owner": "Ahimanikya Satapathy",
+      "refs": [
+        "KBL-DEC-001"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "id": "KBL-WORK-001",
+      "title": "Blueprint conversion",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-001",
+      "next_action": "Use the KB/dashboard for subsequent work; continue the icon and component reviews.",
+      "blockers": [],
+      "evidence": [
+        "reference/adoption.md"
+      ]
+    },
+    {
+      "id": "KBL-WORK-002",
+      "title": "Six-site literary benchmark",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-002",
+      "next_action": "Use findings in the next component review; proposals are not automatically applied.",
+      "blockers": [],
+      "evidence": [
+        "research/literary-benchmark.md"
+      ]
+    },
+    {
+      "id": "KBL-WORK-003",
+      "title": "Reusable icon catalogue and 26 SVG candidates",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-001",
+      "next_action": "Option A is selected. Review individual motif placements before journal-wide use.",
+      "blockers": [],
+      "evidence": [
+        "assets/icon-catalogue.json",
+        "assets/icon-catalogue.md"
+      ]
+    },
+    {
+      "id": "KBL-WORK-004",
+      "title": "Existing 13 component reviews and enlarged-header concern",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-001",
+      "next_action": "Resume preserved design-review desk; retest the previously documented 200% header concern before publication.",
+      "blockers": [],
+      "evidence": [
+        "reference/design-system.md"
+      ]
+    },
+    {
+      "id": "KBL-WORK-005",
+      "title": "Editor visibility and Option A decision",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-004",
+      "next_action": "Review the homepage editorial introduction and proceed to icon placement choices.",
+      "blockers": [],
+      "evidence": [
+        "team/publication-editors.json",
+        "records/option-a-decision.json"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "id": "KBL-DEC-001",
+      "title": "Adopt Blueprint and build icon catalogue",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "First I want to convert this into a Utkal Blueprint project and a build icon list for our icon that we can use",
+      "scope": "Local Blueprint conversion and reusable icon list. Design acceptance and publication remain separate.",
+      "evidence": [
+        "records/adoption-decision.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-002",
+      "title": "Literary benchmark and theme-grounded icon design",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Study the most popular poetry and literary sites and see if we can learn from them.",
+      "scope": "Research reference sites and prepare Odisha-linked, earthy, poetic icon candidates per the same user message."
+    },
+    {
+      "id": "KBL-DEC-003",
+      "title": "Option A single-colour icon treatment",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "scope": "Single-colour Quiet ink treatment selected. Specific motif placement remains under review; earth accents are not the selected direction.",
+      "quote": "I like the icon with the single-color option A"
+    },
+    {
+      "id": "KBL-DEC-004",
+      "title": "Show the editors with their defined roles",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Add the editors with their defined roles to the website.",
+      "scope": "Make the publication editors and their sourced titles visible in the local site; link their profiles. No invented duties, appointments or reporting structure."
+    }
+  ],
+  "requirements": [
+    {
+      "id": "KBL-REQ-001",
+      "title": "Preserve approved design foundations and historical sources",
+      "status": "active",
+      "refs": [
+        "KBL-DEC-001"
+      ],
+      "evidence": [
+        "reference/design-system.md",
+        "reference/implementation-map.md"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "KBL-REV-001",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant, self-review",
+      "limitations": [
+        "Self-review by the implementing assistant, not an independent review.",
+        "Automated checks are not full accessibility certification.",
+        "Existing 200% enlarged-header concern remains documented and open.",
+        "Cultural symbol fidelity and icon design acceptance await user review.",
+        "No website publication or remote repository changes."
+      ],
+      "refs": [
+        "KBL-WORK-001",
+        "KBL-WORK-003"
+      ],
+      "evidence": [
+        "records/adoption-verification.json",
+        "records/icon-browser-checks.json"
+      ]
+    },
+    {
+      "id": "KBL-REV-002",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant, self-review",
+      "limitations": [
+        "Automated desktop/360px checks are not a full accessibility certification.",
+        "Existing 200% enlarged-header concern remains outside this change."
+      ],
+      "refs": [
+        "KBL-WORK-005",
+        "KBL-DEC-003"
+      ],
+      "evidence": [
+        "records/editors-ink-browser-checks.json"
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "id": "KBL-REL-001",
+      "title": "Blueprint structure applied locally",
+      "status": "applied",
+      "authorization": "KBL-DEC-001",
+      "destination": "Local Kabita Live workspace only",
+      "refs": [
+        "KBL-WORK-001"
+      ],
+      "evidence": [
+        "records/adoption-verification.json",
+        "reference/adoption.md"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "KBL-SRC-001",
+      "title": "Pinned Utkal Blueprint reference",
+      "status": "inspected_and_adopted_locally",
+      "creator_credit": "Ahimanikya Satapathy; upstream AI-assisted documentation/tools",
+      "rights": "Private user-authorized local reuse. No external distribution licence selected or inferred.",
+      "evidence": [
+        "history/evidence/initial-capture/utkal-blueprint/SOURCE.json"
+      ]
+    },
+    {
+      "id": "KBL-SRC-002",
+      "title": "Literary benchmark source pages",
+      "status": "inspected",
+      "creator_credit": "Respective literary organizations; links in research note",
+      "rights": "Observations and links only; no article text, poems or third-party image assets republished.",
+      "evidence": [
+        "research/literary-benchmark.md"
+      ]
+    },
+    {
+      "id": "KBL-SRC-003",
+      "title": "Earth & voice original icon candidates",
+      "status": "candidate",
+      "creator_credit": "Creative direction Ahimanikya Satapathy; AI-assisted original SVG design",
+      "rights": "Local review assets; external publication/licensing decision not made.",
+      "evidence": [
+        "assets/icon-catalogue.json"
+      ]
+    }
+  ],
+  "relationships": [],
+  "record_homes": {
+    "members_and_assignments": "team/assignments.json",
+    "adoption_decision": "records/adoption-decision.json",
+    "design_system": "reference/design-system.md",
+    "icon_catalogue": "assets/icon-catalogue.json",
+    "history": "log.md"
+  },
+  "optional_extensions": {
+    "contributions": {
+      "enabled": false,
+      "activation": "Before accepting public submissions",
+      "minimum_fields": [
+        "id",
+        "submitted_at",
+        "contributor_credit",
+        "consent_reference",
+        "review_status",
+        "work_ref",
+        "publication_ref"
+      ]
+    },
+    "heritage_connections": {
+      "enabled": false,
+      "activation": "When lineage research begins",
+      "minimum_fields": [
+        "id",
+        "places",
+        "period",
+        "connection_type",
+        "claim",
+        "sources",
+        "confidence",
+        "review_status",
+        "consent_reference_if_needed"
+      ]
+    }
+  }
+}

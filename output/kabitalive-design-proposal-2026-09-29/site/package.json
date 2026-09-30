@@ -1,0 +1,28 @@
+{
+  "name": "kabita-live-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "prepare:site": "python3 build.py && node tools/bundle-feedback.mjs && python3 build-public.py",
+    "build": "npm run prepare:site && astro build && pagefind --site dist",
+    "dev": "npm run prepare:site && astro dev --host 127.0.0.1",
+    "test": "node --test tests/*.test.mjs",
+    "test:rules": "firebase emulators:exec --only firestore --project demo-kabita-live 'node --test tests/firestore.rules.test.mjs'",
+    "check:release": "python3 build-public.py --release",
+    "build:release": "npm run prepare:site && python3 build-public.py --release && astro build && pagefind --site dist"
+  },
+  "dependencies": {
+    "astro": "7.3.5",
+    "firebase": "12.19.0"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "5.0.2",
+    "esbuild": "0.25.12",
+    "firebase-tools": "15.32.0",
+    "pagefind": "1.5.2"
+  }
+}

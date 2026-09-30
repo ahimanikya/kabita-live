@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0-rc.1",
+  "state": "approved_documentation_baseline",
+  "released": false,
+  "project_adoption_automatic": false,
+  "runtime_enforcement_implemented": false,
+  "approval": "UTB-DEC-005",
+  "published": true,
+  "release_note": "Documentation baseline 0.1.0-rc.1; no GitHub Release or tag created",
+  "extensions": {
+    "registers": {
+      "version": "1.0.0",
+      "approval": "UTB-DEC-006",
+      "adoption": "per_project",
+      "record": "records/register-adoption.json"
+    }
+  }
+}

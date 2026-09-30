@@ -1,0 +1,38 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function editor() { return signedIn() && request.auth.token.editor == true; }
+    function throttlePath() { return /databases/$(database)/documents/feedbackThrottle/$(request.auth.uid); }
+    match /feedback/{id} {
+      allow create: if signedIn()
+        && request.resource.data.keys().hasAll(['uid','name','email','message','reason','poemPath','status','consentVersion','createdAt'])
+        && request.resource.data.keys().hasOnly(['uid','name','email','message','reason','poemPath','status','consentVersion','createdAt'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.name is string && request.resource.data.name.size() > 0 && request.resource.data.name.size() <= 120
+        && request.resource.data.email is string && request.resource.data.email.size() <= 254 && request.resource.data.email.matches('^[^@ ]+@[^@ ]+\\.[^@ ]+$')
+        && request.resource.data.message is string && request.resource.data.message.size() > 0 && request.resource.data.message.size() <= 5000
+        && request.resource.data.reason in ['note','correction','submission']
+        && request.resource.data.poemPath is string && request.resource.data.poemPath.size() <= 300
+        && request.resource.data.status == 'received'
+        && request.resource.data.consentVersion == 'private-feedback-v1'
+        && request.resource.data.createdAt == request.time
+        && getAfter(throttlePath()).data.lastFeedbackId == id
+        && getAfter(throttlePath()).data.lastSubmittedAt == request.time
+        && (!exists(throttlePath()) || get(throttlePath()).data.lastSubmittedAt < request.time - duration.value(60, 's'));
+      allow read, delete: if editor();
+      allow update: if editor() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
+        && request.resource.data.status in ['received','reviewed','closed'];
+    }
+    match /feedbackThrottle/{uid} {
+      allow create, update: if signedIn() && uid == request.auth.uid
+        && request.resource.data.keys().hasAll(['lastSubmittedAt','lastFeedbackId'])
+        && request.resource.data.keys().hasOnly(['lastSubmittedAt','lastFeedbackId'])
+        && request.resource.data.lastSubmittedAt == request.time
+        && request.resource.data.lastFeedbackId is string
+        && request.resource.data.lastFeedbackId.matches('^[A-Za-z0-9]{20}$');
+      allow read, delete: if editor();
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

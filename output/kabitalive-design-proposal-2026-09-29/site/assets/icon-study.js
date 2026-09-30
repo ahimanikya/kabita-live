@@ -1,0 +1,1 @@
+../../../../kb/artifacts/review/site/assets/icon-study.js

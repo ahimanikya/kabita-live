@@ -1,0 +1,232 @@
+{
+  "human_owner": {
+    "full_name": "Ahimanikya Satapathy",
+    "kind": "human",
+    "role": "Redesign project lead and decision authority"
+  },
+  "assignments": [
+    {
+      "id": "KBL-ASG-001",
+      "identity_id": "KBL-PER-001",
+      "kind": "persona",
+      "full_name": "Disha Dash",
+      "project": "KBL",
+      "role": "Product Steward & AI Project Coordinator",
+      "jd_id": "KBL-JD-001",
+      "jd_version": "1.0.0",
+      "jd_path": "roles/disha-dash.md",
+      "status": "active",
+      "human_supervisor": "Ahimanikya Satapathy",
+      "human_reports": [],
+      "authorization": "KBL-DEC-005",
+      "effective_at": "2026-09-30T01:05:18.274119+00:00",
+      "execution_mode": "on_demand_current_chat",
+      "runtime_state": "no_separate_process",
+      "coverage": [
+        "coordination",
+        "requirements",
+        "handover"
+      ],
+      "permitted_access": {
+        "local_read": [
+          "Project KB, website source, approved design records and preserved source assets"
+        ],
+        "local_write": [
+          "Task-relevant project KB and implementation files; portable handoff copies"
+        ],
+        "research": "Public sources or explicitly authorized connected/private sources relevant to the task; applicable tool permissions still govern.",
+        "tools": "Existing session file, browser and research tools within role and task scope. No additional accounts or credentials provisioned.",
+        "excluded": [
+          "Public deployment",
+          "New spending or infrastructure",
+          "Messaging people or other chats without explicit instruction",
+          "Unrelated project data",
+          "Background automation",
+          "Automatic subagent dispatch"
+        ],
+        "added": [],
+        "removed": [],
+        "retained": [
+          "Existing task-scoped session permissions"
+        ]
+      },
+      "first_assignment": {
+        "work_ref": "KBL-WORK-006",
+        "brief": "Confirm the current work queue, configuration scope and persona handoffs for KBL-WORK-006."
+      },
+      "configuration_evidence": "records/persona-setup-verification.json",
+      "jml_ref": "team/jml-events.json",
+      "end_at": null
+    },
+    {
+      "id": "KBL-ASG-002",
+      "identity_id": "KBL-PER-002",
+      "kind": "persona",
+      "full_name": "Anvesha Acharya",
+      "project": "KBL",
+      "role": "Research Editor & Knowledge and Archive Steward",
+      "jd_id": "KBL-JD-002",
+      "jd_version": "1.0.0",
+      "jd_path": "roles/anvesha-acharya.md",
+      "status": "active",
+      "human_supervisor": "Ahimanikya Satapathy",
+      "human_reports": [],
+      "authorization": "KBL-DEC-005",
+      "effective_at": "2026-09-30T01:05:18.274119+00:00",
+      "execution_mode": "on_demand_current_chat",
+      "runtime_state": "no_separate_process",
+      "coverage": [
+        "research",
+        "editorial_language",
+        "odisha_culture",
+        "archive"
+      ],
+      "permitted_access": {
+        "local_read": [
+          "Project KB, website source, approved design records and preserved source assets"
+        ],
+        "local_write": [
+          "Task-relevant project KB and implementation files; portable handoff copies"
+        ],
+        "research": "Public sources or explicitly authorized connected/private sources relevant to the task; applicable tool permissions still govern.",
+        "tools": "Existing session file, browser and research tools within role and task scope. No additional accounts or credentials provisioned.",
+        "excluded": [
+          "Public deployment",
+          "New spending or infrastructure",
+          "Messaging people or other chats without explicit instruction",
+          "Unrelated project data",
+          "Background automation",
+          "Automatic subagent dispatch"
+        ],
+        "added": [],
+        "removed": [],
+        "retained": [
+          "Existing task-scoped session permissions"
+        ]
+      },
+      "first_assignment": {
+        "work_ref": "KBL-WORK-006",
+        "brief": "Verify pinned Blueprint role definitions and distinguish them from Kabita Live adaptations for KBL-WORK-006."
+      },
+      "configuration_evidence": "records/persona-setup-verification.json",
+      "jml_ref": "team/jml-events.json",
+      "end_at": null
+    },
+    {
+      "id": "KBL-ASG-003",
+      "identity_id": "KBL-PER-003",
+      "kind": "persona",
+      "full_name": "Samanta Chandrasekhar",
+      "project": "KBL",
+      "role": "Experience Designer & Engineer",
+      "jd_id": "KBL-JD-003",
+      "jd_version": "1.0.0",
+      "jd_path": "roles/samanta-chandrasekhar.md",
+      "status": "active",
+      "human_supervisor": "Ahimanikya Satapathy",
+      "human_reports": [],
+      "authorization": "KBL-DEC-005",
+      "effective_at": "2026-09-30T01:05:18.274119+00:00",
+      "execution_mode": "on_demand_current_chat",
+      "runtime_state": "no_separate_process",
+      "coverage": [
+        "design",
+        "engineering",
+        "handoff_sync"
+      ],
+      "permitted_access": {
+        "local_read": [
+          "Project KB, website source, approved design records and preserved source assets"
+        ],
+        "local_write": [
+          "Task-relevant project KB and implementation files; portable handoff copies"
+        ],
+        "research": "Public sources or explicitly authorized connected/private sources relevant to the task; applicable tool permissions still govern.",
+        "tools": "Existing session file, browser and research tools within role and task scope. No additional accounts or credentials provisioned.",
+        "excluded": [
+          "Public deployment",
+          "New spending or infrastructure",
+          "Messaging people or other chats without explicit instruction",
+          "Unrelated project data",
+          "Background automation",
+          "Automatic subagent dispatch"
+        ],
+        "added": [],
+        "removed": [],
+        "retained": [
+          "Existing task-scoped session permissions"
+        ]
+      },
+      "first_assignment": {
+        "work_ref": "KBL-WORK-006",
+        "brief": "Implement persona records, role routing and local configuration verification for KBL-WORK-006."
+      },
+      "configuration_evidence": "records/persona-setup-verification.json",
+      "jml_ref": "team/jml-events.json",
+      "end_at": null
+    },
+    {
+      "id": "KBL-ASG-004",
+      "identity_id": "KBL-PER-004",
+      "kind": "persona",
+      "full_name": "Drishti Senapati",
+      "project": "KBL",
+      "role": "Quality & Accessibility Reviewer",
+      "jd_id": "KBL-JD-004",
+      "jd_version": "1.0.0",
+      "jd_path": "roles/drishti-senapati.md",
+      "status": "active",
+      "human_supervisor": "Ahimanikya Satapathy",
+      "human_reports": [],
+      "authorization": "KBL-DEC-005",
+      "effective_at": "2026-09-30T01:05:18.274119+00:00",
+      "execution_mode": "on_demand_current_chat",
+      "runtime_state": "no_separate_process",
+      "coverage": [
+        "quality",
+        "accessibility",
+        "verification"
+      ],
+      "permitted_access": {
+        "local_read": [
+          "Project KB, website source, approved design records and preserved source assets"
+        ],
+        "local_write": [
+          "Task-relevant project KB and implementation files; portable handoff copies"
+        ],
+        "research": "Public sources or explicitly authorized connected/private sources relevant to the task; applicable tool permissions still govern.",
+        "tools": "Existing session file, browser and research tools within role and task scope. No additional accounts or credentials provisioned.",
+        "excluded": [
+          "Public deployment",
+          "New spending or infrastructure",
+          "Messaging people or other chats without explicit instruction",
+          "Unrelated project data",
+          "Background automation",
+          "Automatic subagent dispatch"
+        ],
+        "added": [],
+        "removed": [],
+        "retained": [
+          "Existing task-scoped session permissions"
+        ]
+      },
+      "first_assignment": {
+        "work_ref": "KBL-WORK-006",
+        "brief": "Check role configuration, unauthorized-scope rejection and portable consistency for KBL-WORK-006."
+      },
+      "configuration_evidence": "records/persona-setup-verification.json",
+      "jml_ref": "team/jml-events.json",
+      "end_at": null
+    }
+  ],
+  "assistance": {
+    "kind": "ai_assistant",
+    "name": "Current chat assistant",
+    "human_supervisor": "Ahimanikya Satapathy",
+    "scope": "Execute authorized Kabita Live work through the four configured persona role briefs, recording actual execution and review independence.",
+    "human_reports": []
+  },
+  "note": "Four Blueprint personas explicitly assigned by KBL-DEC-005. On-demand role passes by the current assistant; no separate agents, background jobs or new privileges.",
+  "version": "1.0.0",
+  "project": "KBL"
+}

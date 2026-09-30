@@ -1,0 +1,61 @@
+
+> kabita-live-site@0.1.0 test:rules
+> firebase emulators:exec --only firestore --project demo-kabita-live 'node --test tests/firestore.rules.test.mjs'
+
+i  emulators: Starting emulators: firestore
+i  emulators: Detected demo project ID "demo-kabita-live", emulated services will use a demo configuration and attempts to access non-emulated services for this project will fail.
+/bin/sh: lsof: command not found
+/bin/sh: lsof: command not found
+/bin/sh: lsof: command not found
+/bin/sh: lsof: command not found
+/bin/sh: lsof: command not found
+/bin/sh: lsof: command not found
+⚠  It appears you are running in a CI environment. You can avoid downloading the Firestore Emulator repeatedly by caching the /Users/ahimanikya/.cache/firebase/emulators directory.
+i  firestore: downloading cloud-firestore-emulator-v1.22.0.jar...
+
+i  firestore: Firestore Emulator logging to firestore-debug.log
+✔  firestore: Firestore Emulator was started in standard edition.
+✔  firestore: Firestore Emulator UI websocket is running on 9150.
+i  Running script: node --test tests/firestore.rules.test.mjs
+✔ valid private submission; public, own-user and cross-user reads denied; editor can read (582.064333ms)
+[2026-09-30T01:30:26.450Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x4ba51b6e error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L8, false for 'create' @ L36, false for 'update' @ L24, false for 'update' @ L36
+[2026-09-30T01:30:26.465Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x4ba51b6f error. Code: 7 Message: 7 PERMISSION_DENIED: 
+evaluation error at L8:24 for 'create' @ L8, false for 'create' @ L36, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L36, false for 'create' @ L28, false for 'create' @ L36, false for 'update' @ L28, false for 'update' @ L36
+✔ unauthenticated writes and forged owner denied (33.929041ms)
+[2026-09-30T01:30:26.483Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x4ba51b70 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+evaluation error at L8:24 for 'create' @ L8, false for 'create' @ L36, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L36, evaluation error at L28:32 for 'create' @ L28, false for 'create' @ L36, evaluation error at L28:32 for 'update' @ L28, false for 'update' @ L36, false for 'create' @ L8, false for 'create' @ L36
+[2026-09-30T01:30:26.493Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x4ba51b71 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+evaluation error at L8:24 for 'create' @ L8, false for 'create' @ L36, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L36, evaluation error at L28:32 for 'create' @ L28, false for 'create' @ L36, evaluation error at L28:32 for 'update' @ L28, false for 'update' @ L36, false for 'create' @ L28, false for 'create' @ L36, false for 'create' @ L8, false for 'create' @ L36
+[2026-09-30T01:30:26.508Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x4ba51b72 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L8, false for 'create' @ L36, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L36, evaluation error at L28:32 for 'create' @ L28, false for 'create' @ L36, evaluation error at L28:32 for 'update' @ L28, false for 'update' @ L36, false for 'create' @ L28, false for 'create' @ L36, false for 'create' @ L8, false for 'create' @ L36
+[2026-09-30T01:30:26.517Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x4ba51b73 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+evaluation error at L8:24 for 'create' @ L8, false for 'create' @ L36, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L36, evaluation error at L28:32 for 'create' @ L28, false for 'create' @ L36, evaluation error at L28:32 for 'update' @ L28, false for 'update' @ L36, false for 'create' @ L28, false for 'create' @ L36, false for 'create' @ L8, false for 'create' @ L36
+[2026-09-30T01:30:26.525Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x4ba51b74 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+evaluation error at L8:24 for 'create' @ L8, false for 'create' @ L36, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L36, evaluation error at L28:32 for 'create' @ L28, false for 'create' @ L36, evaluation error at L28:32 for 'update' @ L28, false for 'update' @ L36, false for 'create' @ L28, false for 'create' @ L36, false for 'create' @ L8, false for 'create' @ L36
+✔ client cannot self-approve, add fields, backdate or oversize (59.656458ms)
+[2026-09-30T01:30:26.551Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x4ba51b75 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+evaluation error at L8:24 for 'create' @ L8, false for 'create' @ L36, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L36, evaluation error at L28:32 for 'create' @ L28, false for 'create' @ L36, evaluation error at L28:32 for 'update' @ L28, false for 'update' @ L36, false for 'update' @ L28, false for 'update' @ L36, false for 'create' @ L8, false for 'create' @ L36
+[2026-09-30T01:30:26.557Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x4ba51b76 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L8, false for 'create' @ L36, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L36, false for 'create' @ L8, false for 'create' @ L36
+✔ cooldown and missing atomic throttle denied (31.542667ms)
+[2026-09-30T01:30:26.581Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x4ba51b77 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L36, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L36
+[2026-09-30T01:30:26.595Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x4ba51b78 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+evaluation error at L24:24 for 'update' @ L24, false for 'update' @ L36, false for 'update' @ L24, false for 'update' @ L36
+[2026-09-30T01:30:26.600Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x4ba51b79 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L36, false for 'update' @ L36
+✔ reader cannot edit, editor can change status but not rewrite text, comments collection denied (43.13ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 889.48725
+✔  Script exited successfully (code 0)
+i  emulators: Shutting down emulators.
+i  firestore: Stopping Firestore Emulator
+i  hub: Stopping emulator hub
+i  logging: Stopping Logging Emulator

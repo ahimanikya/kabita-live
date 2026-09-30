@@ -1,0 +1,11 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+export function getStaticPaths() {
+  const pages = JSON.parse(fs.readFileSync('.generated/public-pages.json', 'utf8')) as string[];
+  return pages.map(file => ({params:{route:file==='index.html'?undefined:file.replace(/\.html$/,'')},props:{file}}));
+}
+const { file } = Astro.props;
+const html = fs.readFileSync(path.join('.generated/pages', file), 'utf8');
+---
+<Fragment set:html={html} />

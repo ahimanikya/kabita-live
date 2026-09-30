@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+node_modules/
+.astro/
+.generated/
+.public/
+*-debug.log
+firebase-debug.log
+dist/
+output/kabita-live-project/
+kb/records/handoff-sync-state.json

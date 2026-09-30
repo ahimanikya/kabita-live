@@ -1,0 +1,49 @@
+{
+  "recorded_at": "2026-09-30T01:36:37.326239+00:00",
+  "review": "Same-assistant self-review",
+  "build": "PASS",
+  "public_html_pages": 549,
+  "missing_local_resources": [],
+  "legacy_domain_pages": [],
+  "private_project_files_exported": false,
+  "analytics_tests": {
+    "passed": 3,
+    "failed": 0
+  },
+  "firestore_emulator_tests": {
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0
+  },
+  "browser_evidence": "standalone-browser-checks.json",
+  "release_gate": "Correctly refuses release: incomplete content",
+  "content_status": {
+    "schema_version": 1,
+    "complete_poem_texts": 0,
+    "excerpt_poems": 3,
+    "known_poem_records": 45,
+    "issue_records": 47,
+    "writer_records": 427,
+    "review_records": 8,
+    "complete_review_texts": 0,
+    "launch_ready": false,
+    "blockers": [
+      "Full poem texts and complete issue membership must be imported.",
+      "Complete reviews and writer biographies need editorial content."
+    ]
+  },
+  "services": {
+    "firebase": "prepared, disabled, not provisioned",
+    "ga4": "prepared, disabled, no property ID",
+    "public_comments": false,
+    "local_git": "main initialized, no commit or remote"
+  },
+  "limitations": [
+    "Content migration incomplete",
+    "Cloud configuration and live testing pending",
+    "Pagefind index built, new search interface not wired",
+    "Per-UID throttle only; no global anti-abuse guarantee",
+    "Prior component approvals and 200% header review remain open",
+    "No deployment"
+  ]
+}

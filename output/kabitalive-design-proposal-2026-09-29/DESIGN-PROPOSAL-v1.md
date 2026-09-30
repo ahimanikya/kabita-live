@@ -1,0 +1,1 @@
+../../kb/artifacts/design/proposal/DESIGN-PROPOSAL-v1.md
