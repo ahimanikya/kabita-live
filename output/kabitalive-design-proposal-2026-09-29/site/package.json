@@ -11,7 +11,7 @@
     "build": "npm run prepare:site && astro build && pagefind --site dist",
     "dev": "npm run prepare:site && astro dev --host 127.0.0.1",
     "test": "node --test tests/*.test.mjs",
-    "test:rules": "firebase emulators:exec --only firestore --project demo-kabita-live 'node --test tests/firestore.rules.test.mjs'",
+    "test:rules": "firebase emulators:exec --only firestore --project demo-kabita-live 'node --test tests/*.rules.test.mjs'",
     "check:release": "python3 build-public.py --release",
     "build:release": "npm run prepare:site && python3 build-public.py --release && astro build && pagefind --site dist"
   },

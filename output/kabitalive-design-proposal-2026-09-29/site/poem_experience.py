@@ -103,4 +103,6 @@ def enhance_poem(body,p,data):
     body=re.sub(r'(?P<prefix><p class="stanza">|<br>)(?P<text>[*＊_—–=\-\s]{3,})(?=<br>|</p>)',lambda m:m['prefix']+'<span class="source-end-marker" hidden>'+m['text']+'</span>',body)
     dataset={'url':f'assets/reading-editions/issue-{p["edition"]}.json'} if p['edition'] else {}
     body+='<script type="application/json" id="focus-edition-data">'+encoded(dataset)+'</script>'+(ROOT/'templates/quiet-reader.html').read_text()
+    engagement=(ROOT/'templates/poem-engagement.html').read_text().replace('{{POEM_ID}}',str(p['id']))
+    body=body.replace('<div class="poem-reading-end">',engagement+'<div class="poem-reading-end">',1)
     return body

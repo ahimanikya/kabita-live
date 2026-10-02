@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-02T20:39:22.586566+00:00",
+  "authorization": "User: ok, push this and deploy to website",
+  "scope": "Scoped Likes and moderated comments implementation, built from the currently hosted 5e170dd baseline; excludes all in-progress portrait work.",
+  "status": "prepared_for_manual_preview_deployment",
+  "services": {
+    "analytics": "Existing enabled consent-based configuration preserved",
+    "firebase": "Disabled until cloud access and live verification",
+    "likes": "Disabled until Firebase verification",
+    "public_comments": "Disabled until Firebase verification; prepared default is editorial moderation"
+  },
+  "checks": {
+    "application_tests": 26,
+    "firestore_emulator_tests": 10,
+    "failed": 0,
+    "public_build": "PASS",
+    "public_pages": 1298,
+    "active_poem_response_sections": 799,
+    "desktop_mobile_layout": "Reviewed static layout"
+  },
+  "dns_changed": false,
+  "noindex_retained": true
+}

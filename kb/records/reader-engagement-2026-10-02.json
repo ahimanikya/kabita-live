@@ -1,0 +1,61 @@
+{
+  "recorded_at": "2026-10-02T20:26:44.874227+00:00",
+  "status": "implemented_locally_cloud_activation_blocked",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "user_directions": [
+    "Can we activate firebase?",
+    "And add like button?",
+    "and add public comment?"
+  ],
+  "scope": [
+    "Activate existing private Firebase feedback",
+    "Add reversible Likes to active poem pages",
+    "Add public comments with private editorial review queue"
+  ],
+  "moderation": "Editor approval before publication is the prepared default; optional user choice remains pending.",
+  "authorization_note": "Latest direct user request supersedes the earlier no-public-comments launch scope for this feature. No new reader accounts, paid services, DNS change or unrelated portrait deployment.",
+  "firebase_access": {
+    "state": "blocked_by_automatic_approval_review",
+    "action": "Firebase CLI reauthentication",
+    "reason": "Standard CLI sign-in grants account-wide Firebase/Google Cloud administration; explicit broader access approval is still pending.",
+    "production_mutations_this_turn": false
+  },
+  "implementation": {
+    "likes": "Anonymous browser identity; reversible atomic count and private per-UID vote. Duplicate increments, forged counts and cross-user vote reads denied. Clearing browser storage or another browser can create another identity; this is not verified-person voting.",
+    "comments": "Public display collection contains only poemId, name, message and publishedAt. Pending submissions and UID remain private. Display uses textContent, never comment HTML. Names <=80; text <=2000; per-UID 60-second submission interval; paginated public reads <=20.",
+    "reader_ui": "Reader responses beneath poem: Like and Comments disclosure, public-name field, text, explicit publication consent and private-editor link. New controls remain hidden while runtime flags are off.",
+    "firebase_features": "Existing Spark Firestore and anonymous Auth. New composite index for poemId plus publishedAt. No Functions, billing upgrade or public reader sign-in.",
+    "limitations": [
+      "Anonymous UID throttles are not global abuse protection; App Check is not configured.",
+      "Owner moderation uses Firebase Console. No editor dashboard or new staff account access is provisioned.",
+      "Rules, indexes and live integrations are not yet deployed or production-tested."
+    ]
+  },
+  "moderation_runbook": [
+    "Open the kabita-live Firestore Console and review commentSubmissions documents with status pending.",
+    "To approve, create a publicComments document using the SAME document ID. Copy only poemId (string), name (string) and message (string); add publishedAt (timestamp, current time). Do not copy uid, consentVersion or private fields. This console action publishes the comment.",
+    "Mark the source commentSubmissions status published. To reject, keep it out of publicComments and mark rejected.",
+    "To withdraw an approved comment, delete its exact publicComments document and mark the private source rejected. Do not delete other reader records.",
+    "Review and clear obsolete rejected/test records manually; no automatic retention job is configured."
+  ],
+  "checks": {
+    "firestore_emulator": "10 passed, 0 failed; existing private feedback plus new Likes/moderation cases",
+    "build": "PASS: isolated public Astro build, 1298 pages; 799 poem response sections",
+    "browser_layout": "Desktop and 360px iframe visual check of static feature layout; native comment disclosure and labels verified. Cloud interaction not tested.",
+    "application_tests": "26 passed; 10 rule cases separately passed with emulator"
+  },
+  "resume": [
+    "Obtain explicit standard CLI permissions approval already requested; finish supported sign-in.",
+    "Deploy reviewed Firestore rules/indexes to kabita-live; wait for index readiness.",
+    "Run synthetic live feedback/engagement checks with exact-record cleanup.",
+    "Enable Firebase, Likes and moderated comments for ahimanikya.github.io, rebuild approved public preview and deploy only this scope.",
+    "Verify real reader interactions and moderation privacy; update handover."
+  ],
+  "production_probe": "Existing cleanup-safe Firebase probe extended with optional --engagement: like/unlike, duplicate rejection, pending comment privacy and public query/index; syntax checked, not executed.",
+  "activation_flags": {
+    "firebase": false,
+    "likes": false,
+    "publicComments": false
+  }
+}
