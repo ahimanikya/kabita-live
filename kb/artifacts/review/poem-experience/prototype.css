@@ -1,0 +1,71 @@
+/* Review-only reading experiment. Shared typography and colours remain canonical. */
+.reader-study-note{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--line);font:14px/1.6 var(--ui);color:var(--muted)}
+.reader-study-note a{text-decoration:underline;text-underline-offset:4px;padding:8px 0}
+.reader-study .poem-opening{margin-top:30px}
+.reader-study .experience-bar{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;width:100%;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.reader-study .reading-tabs{display:flex;gap:6px;flex-wrap:wrap}
+.reader-study .reading-tabs button{font:18px/1.5 var(--ui);min-height:56px;padding:8px 16px;border-bottom:2px solid transparent}
+.reader-study .reading-tabs button span{display:block;font:12px/1.5 var(--ui);color:var(--muted)}
+.reader-study .reading-tabs button[aria-selected=true]{border-color:var(--rust);color:var(--rust)}
+.reader-study .reading-tabs button[lang=hi]{font-family:'Tiro Devanagari Hindi',serif}
+.reader-study .reading-tabs button[lang=or]{font-family:var(--odia)}
+.reader-study .mark-toggle{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:8px 12px;font:16px/1.5 var(--ui)}
+.reader-study .experience-meta{display:flex;justify-content:space-between;align-items:start;gap:16px;margin:15px 0 20px;font:14px/1.6 var(--ui);color:var(--muted)}
+.reader-study .reader-tools{display:flex;justify-content:space-between;align-items:center;gap:16px;border:0;padding:0;margin:0 0 6px}
+.reader-study .mark-tools{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.reader-study .mark-toggle[aria-pressed=true]{color:var(--rust);background:color-mix(in srgb,var(--panel) 55%,transparent)}
+.reader-study .clear-marks{font:14px/1.5 var(--ui);text-decoration:underline;text-underline-offset:4px;min-height:44px;padding:8px}
+ .reader-study .mark-help-wrap{position:relative;display:inline-flex}
+.reader-study .mark-help-toggle{min-width:44px;min-height:44px;font:18px/1 var(--ui);color:var(--muted);border-radius:50%}
+.reader-study .mark-help-toggle:focus-visible{outline:2px solid var(--rust);outline-offset:2px}
+.reader-study .mark-help{position:absolute;right:0;top:100%;z-index:35;width:300px;max-width:calc(100vw - 32px);box-sizing:border-box;padding:14px 16px;font:14px/1.6 var(--ui);color:var(--ink);background:var(--paper);border:1px solid var(--line);box-shadow:0 4px 16px #0002;border-radius:4px}
+.reader-study .mark-help[hidden]{display:none}
+.reader-study .verse{margin-top:0;max-width:730px}
+.reader-study .poem-line{display:block;min-height:1.9em;line-height:1.9;overflow-wrap:anywhere}
+.reader-study .pencil-mark{text-decoration-line:underline;text-decoration-color:color-mix(in srgb,var(--rust) 75%,transparent);text-decoration-thickness:.07em;text-underline-offset:.19em;text-decoration-skip-ink:auto}
+.reader-study .review-desk{margin:36px 0 48px;max-width:730px;border-top:1px solid var(--line);padding-top:24px}
+.reader-study .review-desk summary{font:24px/1.4 var(--serif);cursor:pointer;min-height:44px}
+.reader-study .review-desk p{font:14px/1.6 var(--ui);color:var(--muted);margin:12px 0}
+.reader-study .review-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:18px 0}
+.reader-study .review-fields label{font:14px/1.6 var(--ui)}
+.reader-study .review-fields select{margin-top:8px;font-size:15px}
+.reader-study #review-notes{margin:8px 0 12px}
+.reader-study .review-actions{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+@media(max-width:760px){
+ .reader-study-note{font-size:13px}.reader-study-note a{white-space:nowrap}
+ .reader-study .experience-bar{gap:12px}.reader-study .reading-tabs{width:100%;justify-content:space-between;gap:0}.reader-study .reading-tabs button{padding:8px 12px;min-width:92px}
+ .reader-study .experience-meta{display:block}.reader-study .reader-tools{align-items:start;gap:6px;flex-wrap:wrap}
+ .reader-study .mark-help{position:fixed;left:16px;right:16px;top:auto;bottom:80px;width:auto}.reader-study .review-fields{grid-template-columns:1fr}
+}
+
+.reader-study [role=tabpanel]:focus-visible{outline:2px solid var(--rust);outline-offset:8px}
+
+.reader-study .line-words{user-select:text;-webkit-user-select:text;cursor:text}
+.reader-study .selection-tools{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:30;display:flex;gap:4px;max-width:calc(100vw - 24px);padding:6px;background:var(--paper);border:1px solid var(--line);box-shadow:0 4px 20px #0002;color:var(--ink)}
+.reader-study .selection-tools[hidden]{display:none}
+.reader-study .selection-tools button{min-height:44px;padding:8px 12px;white-space:nowrap;font:15px/1.5 var(--ui)}
+.reader-study #underline-selection{color:var(--rust)}
+
+.reader-study .experience-meta[hidden]{display:none}
+
+/* A little breathing room above the poem artwork. */
+.reader-study .poem-opening>.poem-art{margin-top:24px}
+@media(max-width:760px){.reader-study .poem-opening>.poem-art{margin-top:8px}}
+
+/* Keep the help glyph attached to its action, with a full touch target. */
+.reader-study .mark-pair{display:inline-flex;align-items:center;gap:0;flex-wrap:nowrap}
+.reader-study .reader-tools .mark-toggle{padding-right:0}
+.reader-study .reader-tools .mark-help-toggle{display:inline-flex;align-items:center;justify-content:flex-start;min-width:44px;min-height:48px;padding:0 0 0 2px;border-radius:0}
+.reader-study .mark-help-toggle svg{width:18px;height:18px;flex:none}
+
+/* Text size and underlining share one quiet reading-controls row. */
+.reader-study .reader-tools{justify-content:flex-start;gap:0}
+.reader-study .mark-tools{display:contents}
+.reader-study .reader-tools .mark-toggle{width:48px;min-width:48px;height:48px;padding:0 0 0 12px;justify-content:flex-end}
+.reader-study .mark-toggle svg{width:20px;height:20px}
+@media(min-width:761px){.reader-study .mark-help{left:0;right:auto}}
+
+/* Final compact control: icon only, alongside the three size choices. */
+.reader-study .reader-tools .mark-toggle{padding:0;justify-content:center}
+
+.reader-study .mark-pair{position:relative}

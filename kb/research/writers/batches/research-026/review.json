@@ -1,0 +1,37 @@
+{
+  "batch": "research-026",
+  "status": "verified",
+  "independent": false,
+  "writer_ids": [
+    63,
+    383,
+    196,
+    118,
+    462
+  ],
+  "reader_drafts": 5,
+  "externally_corroborated": 4,
+  "source_limited": [
+    462
+  ],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "PASS",
+    "editions": "PASS",
+    "preserved_source_files": 805,
+    "existing_narratives_preserved": 135,
+    "rendered_narratives": 5,
+    "browser_visual": "Not repeated; prose/data only, approved renderer unchanged.",
+    "handoff_storage": "PASS after final synchronization"
+  },
+  "limitations": [
+    "Independent author/editor review pending.",
+    "Juya identity remains source-limited; no external biographical match.",
+    "Ipsita Sarangi interview and author-blog evidence indexed but direct fetch failed.",
+    "Poem797 read as Bandana Sahoo published English translation, not unavailable Odia original; credits unchanged.",
+    "Harinder award superlatives omitted without organiser checks.",
+    "An intermediate storage check overlapped preparation of this batch; final handoff synchronization and storage verification passed."
+  ],
+  "resume": "research-027",
+  "publication": "No deployment or push."
+}

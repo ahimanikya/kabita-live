@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 12,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    284,
+    297,
+    303,
+    288,
+    291,
+    295,
+    301,
+    285,
+    289,
+    290,
+    292,
+    293,
+    294,
+    296,
+    299,
+    300,
+    302
+  ],
+  "source_held": [],
+  "new_translations": 34,
+  "total_drafts": 1044,
+  "remaining_translations": 558,
+  "batches": [
+    "batch-117",
+    "batch-118",
+    "batch-119",
+    "batch-120"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 17 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 34 versions",
+    "rendered_catalogue_parity": "pass for all 34 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "284": [
+      "Four blocks retained. Returning willingly versus suppressing heart tension retained. Hindi female speaker provisional."
+    ],
+    "297": [
+      "All four blocks retained. Kadambari read intoxicating drink from context rather than novel/person; patalima read blush. Source sensory hyperbole preserved. Hindi observer masculine provisional."
+    ],
+    "303": [
+      "Six blocks retained. Murchhidie read relinquishes; murchhana has swoon/musical-resonance ambiguity retained in English phrase and Hindi cognate. Birth-after-birth old-age request not replaced with death wish. Hindi genders provisional."
+    ],
+    "288": [
+      "Five blocks [1,2,2,2,2] retained. Title is not repeated as an invented first verse. Flowing reflection and red/white cloth imagery left open; no marriage/widowhood narrative added."
+    ],
+    "291": [
+      "Five blocks retained. Gardish reads adverse times while preserving stars; plural/polite hum rendered singular I consistently with female first-person opening. Ego/identity distinction retained."
+    ],
+    "295": [
+      "Two blocks [5,16] retained. Sakit read still, tar-ba-tar gait stays drenched, blood through eyes remains metaphor; no medical explanation."
+    ],
+    "301": [
+      "All ten quatrains and final repeated couplet retained. Religious names, Kaaba/Kashi contrast, chastity admonitions and martial goddess imagery translated as author’s rhetoric, without endorsement or added instructions. Sati in stanza 5 read chastity contextually; samvaran read bodily adornment."
+    ],
+    "285": [
+      "Four blocks retained. Critique of ritual patronage translated without extending claims to any named religion."
+    ],
+    "289": [
+      "Sixteen lines retained. Ocean friendship and childhood father memory not assigned self-harm meaning. Hindi feminine narrator provisional; source has no explicit gender."
+    ],
+    "290": [
+      "Twelve lines retained. Source reverses usual hearing/listening distinction; represented hear/can hear versus listening without silently reversing the author’s claim. Sattle read settle; quench of answers read thirst for answers. Wording requires linguistic review."
+    ],
+    "292": [
+      "All 29 lines retained. Same-title same-author material also occurs in Issue 16 poem 354; this edition’s own lineation and wording translated and not merged. Hyderabad landmarks and blessings remain author’s statements, not freshly verified travel facts."
+    ],
+    "293": [
+      "Three blocks [4,18,8] retained. Tool read stool in sitting context; bread rendered roti. Ghosts/garden and vanished sister remain ambiguous, not assigned a literal death."
+    ],
+    "294": [
+      "Twenty lines retained. Source stationery interpreted stationary. Unqualified first Indian to receive Sahitya Academy Award claim is preserved only as authored verse and specifically flagged for factual/editorial review before publication; not independently verified or endorsed. Subliming fumes kept in physical/poetic register without inventing funeral details."
+    ],
+    "296": [
+      "All six brief blocks retained; knowing/not-knowing alternation exact. Hindi grammatical masculine provisional; original unspecified."
+    ],
+    "299": [
+      "Sixteen lines retained. Encoded apostrophe in she&#39;ll read normally in translation; original untouched. Milk-white motion and sunrise lesson kept metaphorically, without inventing relationship. Hindi masculine observer provisional."
+    ],
+    "300": [
+      "All 36 short lines retained, including dependent prepositional fragments. Peripheral read periphery; season sequence and carving metaphor unchanged. Hindi beloved masculine provisional."
+    ],
+    "302": [
+      "All 26 lines retained. Kash rendered kans/kashatandi; ghat preserved. Ghosts/fairies/shadows stay poetic, and absences not assigned death or estrangement. Hindi narrator masculine provisional."
+    ]
+  },
+  "publication": false,
+  "next_edition": 11,
+  "next_poem_ids": [
+    278,
+    279,
+    269,
+    271,
+    272
+  ]
+}

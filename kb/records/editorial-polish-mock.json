@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-02T02:37:21.949448+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "approved_applied",
+  "independent": false,
+  "direction": "Use artistic icons and copy plus all review feedback, then preview.",
+  "urls": [
+    "http://127.0.0.1:8771/editorial-team-mock.html",
+    "http://127.0.0.1:8771/editor-pradeep-mock.html",
+    "http://127.0.0.1:8771/editor-paresh-mock.html"
+  ],
+  "changes": [
+    "Existing artistic pen,leaf,manuscript icons used sparingly.",
+    "Poetic team introduction and shorter source-grounded profile decks.",
+    "Smaller mobile desk illustration; name and portrait share compact mobile profile header.",
+    "Removed redundant role-only blocks and duplicate role mentions in biography.",
+    "Pradeep contribution caption uses approved display spelling.",
+    "Paresh empty contribution section omitted in mock."
+  ],
+  "checks": [
+    "Team1440/390px and Pradeep1440/390px visually inspected; Paresh390px inspected.",
+    "All390px pages no overflow; team first editor557px including75px review bar plus20pxbar margin.",
+    "Meet Pradeep opens profile mock.",
+    "Original reader SHA256 unchanged; identical image arrays and external book/credit URLs; local links valid."
+  ],
+  "evidence": [
+    "artifacts/review/editorial-polish/team-mobile.png",
+    "artifacts/review/editorial-polish/team-desktop.png",
+    "artifacts/review/editorial-polish/pradeep-mobile.png",
+    "artifacts/review/editorial-polish/pradeep-desktop.png",
+    "artifacts/review/editorial-polish/paresh-mobile.png",
+    "artifacts/review/editorial-polish/sources.json"
+  ],
+  "limitations": [
+    "No biography fact-check or new research; existing factual narrative preserved except repetitive role phrasing.",
+    "No production edits or publication.",
+    "Same-assistant review; no independent accessibility certification."
+  ],
+  "next_action": "Historical mock retained; approved design now applied to three reader routes.",
+  "invitation_revision": {
+    "recorded_at": "2026-10-02T02:45:12.360653+00:00",
+    "user_feedback": "All good unless you think we need to do anything else; send-poem call to action is not inviting.",
+    "heading": "A poem begins with you.",
+    "copy": "Some words ask to be shared. Send your poem in Odia, Hindi or English to the editorial desk.",
+    "button": "Share your poem",
+    "presentation": "Ink-filled button with existing artistic pen, full width on phones. Odia signature retained.",
+    "checks": [
+      "390pxmobile/1440pxdesktop visual inspection; no mobile overflow.",
+      "Mobile button50px high; click opens actual submission guidance."
+    ],
+    "evidence": [
+      "artifacts/review/editorial-polish/invitation-mobile.png",
+      "artifacts/review/editorial-polish/invitation-desktop.png"
+    ]
+  },
+  "application_record": "records/editorial-polish-applied.json"
+}

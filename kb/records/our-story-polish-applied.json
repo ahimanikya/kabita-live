@@ -1,0 +1,52 @@
+{
+  "recorded_at": "2026-10-02T10:17:36.676993+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "approved_applied_verified",
+  "approval": {
+    "by": "Ahimanikya Satapathy",
+    "quote": "good suggestions - also give that artistic treatment too",
+    "additional_instruction": "Remove the two supplied paragraphs about sample poem illustrations/Pipili study and the editors’ portrait treatment."
+  },
+  "executor": "Current chat assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "changes": [
+    "Applied reviewed shorter narrative, lighter editorial sidebar and consolidated credits",
+    "Reused existing kendu, pen, manuscript and letter motifs for story heading, editorial/credit labels and invitations",
+    "Removed the two exact requested paragraphs from the canonical credits input",
+    "Kept direct links to nested writer references working"
+  ],
+  "preserved": [
+    "433 credit IDs and 733 external reference destinations",
+    "Editor source sections, acknowledgements, font credits, writer credits and privacy controls",
+    "Existing house watercolor, typography, theme and compact waterline",
+    "Historical pre-application and proposed snapshots in KB"
+  ],
+  "checks": {
+    "public_build": "passed; 1296 indexed pages",
+    "author_integrity": "passed; 429 profiles",
+    "edition_integrity": "passed; 47 editions, 799 active poems",
+    "desktop_1280": "passed; no horizontal overflow",
+    "phone_390_and_360": "passed; no horizontal overflow",
+    "keyboard_disclosure": "Enter opens Typefaces",
+    "writer_deep_link": "credits-writer-41 visible at 24px top; enclosing disclosures open",
+    "dark_theme": "visually checked; restored original Light setting",
+    "sources": "artifacts/review/our-story-polish/applied-source-check.json"
+  },
+  "evidence": [
+    "artifacts/review/our-story-polish/applied-desktop.png",
+    "artifacts/review/our-story-polish/applied-mobile.png",
+    "artifacts/review/our-story-polish/applied-dark-mobile.png",
+    "artifacts/review/our-story-polish/before-application.html"
+  ],
+  "source_files": [
+    "projects/site/our_story.py",
+    "projects/site/assets/our-story.css",
+    "projects/site/assets/our-story.js",
+    "projects/site/credits-content.html",
+    "projects/site/build.py"
+  ],
+  "preview": "http://127.0.0.1:8771/about.html",
+  "publication": "local only; no deployment",
+  "handoff": "Synchronized; final parity check follows this metadata update.",
+  "next_action": "Contact and feedback review; poet-profile audit remains deferred. Broader shared accessibility checks remain separate."
+}

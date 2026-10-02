@@ -1,0 +1,35 @@
+{
+  "status": "applied_and_verified_locally",
+  "recorded_at": "2026-10-01T10:23:59.339598+00:00",
+  "request": "Footer boat make same in all pages in poem page it is bit small",
+  "change": "Removed poem-specific reduced artwork dimensions; inherit shared footer image size and responsive scale. Preserve normal-flow positioning and8px clearance on poem pages.",
+  "desktop": {
+    "width": 150,
+    "height": 50,
+    "background_width": 370
+  },
+  "mobile": {
+    "width": 125,
+    "height": 42,
+    "background_width": 310
+  },
+  "checks": {
+    "browser_cases": 12,
+    "assertions": 36,
+    "failures": 0,
+    "pages": [
+      "home",
+      "archive",
+      "edition",
+      "poet",
+      "poem",
+      "current mock"
+    ],
+    "widths": [
+      360,
+      1280
+    ],
+    "independent": false
+  },
+  "published": false
+}

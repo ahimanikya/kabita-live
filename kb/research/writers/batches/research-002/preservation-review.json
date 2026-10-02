@@ -1,0 +1,45 @@
+{
+  "status": "pass_with_documented_concurrent_changes",
+  "baseline_files": 805,
+  "unchanged_files": 800,
+  "existing_narratives_preserved": 15,
+  "new_narratives_rendered": 5,
+  "exceptions": [
+    {
+      "path": "content/editions/issue-41/poem-727.json",
+      "before_sha256": "ac60812ebfdac0a2f11d11b987163a2f0f1e696ddecad139aa21bb16a9436736",
+      "after_sha256": "cffea487358f5aa105c0e27c2d5f4221689b915751b8c89922d2380436f98d3a",
+      "evidence": "artifacts/content-reconciliation/2026-10-01/poem-727-before.json",
+      "reason": "Separate user-authorized poem source reconciliation in another chat."
+    },
+    {
+      "path": "content/editions/issue-14/poem-332.json",
+      "before_sha256": "940589cceca9f98523589a6c7408e88596c1fef6b4859b631061492241c42e23",
+      "after_sha256": "baf205b5b20b3064a99b58049bf1dab6188936ab4ec6d57ffb010a846150023c",
+      "evidence": "artifacts/content-reconciliation/2026-10-01/poem-332-before.json",
+      "reason": "Separate user-authorized poem source reconciliation in another chat."
+    },
+    {
+      "path": "content/editions/issue-18/poem-385.json",
+      "before_sha256": "53fe3180f2ee09b630df3b46c0f92941f4f760965c6a726cba5037e1204edf14",
+      "after_sha256": "395fff35a8e43bb38173bf88304e37afa1114609bdda05c650430bce556958c0",
+      "evidence": "artifacts/content-reconciliation/2026-10-01/poem-385-before.json",
+      "reason": "Separate user-authorized poem source reconciliation in another chat."
+    },
+    {
+      "path": "content/editions/issue-27/poem-506.json",
+      "before_sha256": "7e3aafa409e0907c642c3a935a4423869155a9ad6d2add502c573af44f467329",
+      "after_sha256": "15798a9b0642428e34bf31062327b3b6dfe0c248b1d9b0d6c361251d9d4f24e7",
+      "evidence": "artifacts/content-reconciliation/2026-10-01/poem-506-before.json",
+      "reason": "Separate user-authorized poem source reconciliation in another chat."
+    },
+    {
+      "path": "data/writer-quotes.json",
+      "before_sha256": "6f57c76d13eaf320f4fd43f4302feff9eafc7634f7aba73107c5949fdc440659",
+      "after_sha256": "042dcf3126ab9e0962e69891db3c96a17aba7d4a7a390d32504724d8c8f2842d",
+      "evidence": "artifacts/content-reconciliation/2026-10-01/writer-62-quote-before.json",
+      "reason": "Separate source correction replaced writer62 quote taken from an appended work. Whole-file difference retained for audit."
+    }
+  ],
+  "independent": false
+}

@@ -1,0 +1,32 @@
+.profile-review-bar{padding:14px 0;display:flex;align-items:center;flex-wrap:wrap;gap:10px 24px;border-bottom:1px solid var(--line);font:14px/1.5 var(--ui)}
+.profile-review-bar strong{font-weight:600}.profile-review-bar span{color:var(--muted);display:block}.profile-review-bar label{margin-left:auto;display:flex;align-items:center;gap:8px}.profile-review-bar select{max-width:100%;width:330px;font:14px/1.5 var(--ui);min-height:44px;padding:8px}.profile-review-bar nav{display:flex;gap:18px}.profile-review-bar a{min-height:44px;display:inline-flex;align-items:center;text-decoration:underline;text-underline-offset:5px}.profile-review-bar a[aria-current]{color:var(--rust);font-weight:600}
+.profile-polish .editor-profile-opening{margin-bottom:28px}
+.profile-polish .editor-biography section{margin-bottom:18px}
+.profile-polish .editor-biography h2{margin-bottom:12px}
+.profile-polish .profile-journal-note{font:15px/1.7 var(--ui);color:var(--muted);margin-top:18px}
+.profile-polish .profile-journal-note span{font-weight:500}
+.profile-polish .author-initials{width:128px;max-width:128px;aspect-ratio:1;font-size:48px;justify-self:end;align-self:start}
+.profile-polish .writer-work{margin-top:28px}
+.profile-polish .profile-more summary{min-height:44px;padding:8px 0;font:16px/1.7 var(--ui);color:var(--rust);text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+.profile-polish .profile-more .more-open,.profile-polish .profile-more[open] .more-closed{display:none}
+.profile-polish .profile-more[open] .more-open{display:inline}
+.profile-polish .profile-more-content{padding-top:12px}
+.profile-polish .profile-book-title{font:21px/1.4 var(--serif);color:var(--ink);margin:0;padding:5px 0}
+.profile-mobile-meta{display:none}
+@media(min-width:761px){.profile-polish .profile-more>summary{display:none}.profile-polish .profile-more-content{padding-top:0}}
+@media(max-width:760px){
+ .profile-review-bar{gap:8px}.profile-review-bar>div{width:100%}.profile-review-bar label{margin:0;width:100%}.profile-review-bar select{width:100%;min-width:0}.profile-review-bar nav{gap:24px}
+ .profile-polish .editor-profile-opening{margin-top:22px;margin-bottom:24px;gap:18px}
+ .profile-polish .author-initials{width:96px;max-width:96px;font-size:38px;justify-self:start}
+ .profile-polish .author-clear-reading.has-books{grid-template-columns:minmax(0,1fr);gap:20px}
+ .profile-polish .editor-book-shelf{padding-top:18px;margin-bottom:8px}
+ .profile-polish .editor-book-shelf ul{margin:12px 0 0}
+ .profile-polish .editor-book-shelf li{padding:10px 0}
+ .profile-polish .writer-work>.section-head{margin-bottom:16px}
+ .profile-polish .contribution-table tr{grid-template-columns:minmax(0,1fr);gap:0;padding:14px 18px}
+ .profile-polish .contribution-table td[data-label]{display:none}
+ .profile-polish .contribution-table td[data-label]::before{content:none}
+ .profile-polish .contribution-table td:first-child{grid-column:1}
+ .profile-polish .profile-mobile-meta{display:block;font:14px/1.6 var(--ui);color:var(--muted)}
+ .profile-polish .profile-mobile-edition{display:inline-flex;align-items:center;min-height:44px;padding:8px 0;max-width:100%;text-decoration:underline;text-underline-offset:4px}
+}

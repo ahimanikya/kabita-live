@@ -1,0 +1,142 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 18,
+  "status": "actionable drafts complete; one source hold; independent linguistic review pending",
+  "poems_drafted": [
+    395,
+    382,
+    386,
+    388,
+    377,
+    378,
+    392,
+    393,
+    383,
+    400,
+    379,
+    380,
+    381,
+    384,
+    387,
+    389,
+    390,
+    391,
+    394,
+    396,
+    398,
+    399,
+    397
+  ],
+  "source_held": [
+    385
+  ],
+  "new_translations": 46,
+  "total_drafts": 870,
+  "remaining_translations": 732,
+  "batches": [
+    "batch-095",
+    "batch-096",
+    "batch-097",
+    "batch-098",
+    "batch-099",
+    "batch-100"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 23 translated entries; global edition integrity verifies stored source captures",
+    "source_line_and_stanza_coverage": "pass for all 46 versions, including 134-line poem 396",
+    "rendered_catalogue_parity": "pass for all 46 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged for all 24 entries, including source-held 385, in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "395": [
+      "Six stanzas retained. Suradhuni rendered celestial river; unusual Ganesha tandava retained, not reassigned to Shiva. Ashru-virya compound rendered tears/seed or tears/virya provisionally; quadruped hoofprint image retained."
+    ],
+    "382": [
+      "Both numbered sections and seven stanza blocks retained. Buddha/Siddhartha and Ratnakara/Valmiki stories treated as source allusions; Mara/Rama syllables not paraphrased away."
+    ],
+    "386": [
+      "Five stanzas retained. Dust/pole-star span and deliberately unexplained images retained; Phalguna translated as seasonal name, not date."
+    ],
+    "388": [
+      "Nine stanzas retained. Survey chain interpretation left open as chains; niyama khaichi read sworn oath. Agadhia interpreted coarse weeds provisionally. Rice/hunger/stomach chain retained exactly, not rationalised."
+    ],
+    "377": [
+      "Sixteen lines retained. Bin-rang/rang-bin word-order distinction represented but semantic wordplay remains approximate; speaker not explicitly identified as air."
+    ],
+    "378": [
+      "Title supplies distance; original body begins Yet, retained without inserting a missing opening line. Poetic hum rendered singular speaker provisionally."
+    ],
+    "392": [
+      "Seven stanzas retained. Smile/hiding-sorrow imperatives remain source sentiments, not mental-health guidance. Last-line typo read by repeated refrain."
+    ],
+    "393": [
+      "Three eight-line stanzas retained; final wind/influence idiom represented as holding sway."
+    ],
+    "383": [
+      "Six stanzas retained. If unfurls read It unfurls, from read form, there read their provisionally; original untouched. Unclear plural pronoun and reins being whipped retained rather than repaired; no invented bereavement biography."
+    ],
+    "400": [
+      "Thirty-three lines including parenthetical tribute to Sai of Shirdi preserved. No biographical assertions added beyond poem; temple/dargah/church/burial ground all retained."
+    ],
+    "379": [
+      "Three stanzas and cross-stanza sentence preserved; labour/body imagery retained without naming an empire or event."
+    ],
+    "380": [
+      "Four stanzas and might/possibility retained; Ahir Bhairav named unchanged."
+    ],
+    "381": [
+      "Thirty-three lines retained; trillion equals ten kharab in Hindi, transliterated in Odia. Divine mother images not assigned a religious identity; numb exit and ultimate logic remain provisional."
+    ],
+    "384": [
+      "All thirty-four lines retained. Shifts you/he/she and waking/other world preserved; pronoun ambiguity needs review. No invented death or clinical diagnosis."
+    ],
+    "387": [
+      "Four stanza blocks and reader-as-poet argument retained. Honey/bee and butterfly images not normalised."
+    ],
+    "389": [
+      "Both stanzas retained. Silver city/rose city not resolved to geographic names; radiant glue preserved literally and flagged as unusual."
+    ],
+    "390": [
+      "Preserved HTML confirms bold internal heading When People stop listening within same Ranu Uniyal page. Both parts retained in [20,17] structure; editorial segmentation pending, no second author inferred. Pullum/plums sound contrast retained; earbuds rendered ear-buds as flower metaphor provisionally, tinted-glasses pronoun remains ambiguous."
+    ],
+    "391": [
+      "Two stanzas retained. Chiaroscuro expressed as light/dark interplay; no death inferred from passing off."
+    ],
+    "394": [
+      "Sixteen lines retained. Damaged drenche read drenched; cool life rendered calm life provisionally. Odd sitting-rain personification retained; punctuation runs simplified only in translation."
+    ],
+    "396": [
+      "Long source has 134 lines across nine uneven stanzas, including four literal *** separators; exact source structure preserved for editorial reconciliation of page-like breaks.",
+      "Daru, pahandi, twenty-two steps, cricket crease/stumps, Noah, Nero/Nino, Frankenstein, Apollo, Titans, Poseidon, Leonidas, Herod, Moses and Babylon retained. No corrections or identities silently substituted for the poem’s interwoven mythic references.",
+      "Nino may allude to El Niño but remains Nino; brown of green, loom, rootfall, hood and Seaman’s Land remain uncertain. Rootfall provisionally root imprint; hood provisionally serpent hood. Independent cultural and linguistic review needed.",
+      "Holocaust rendered generic catastrophic destruction in environmental context, without adding a historical event; primitive tribal reflects source phrasing, not an editorial characterisation."
+    ],
+    "398": [
+      "Six quatrains retained; shoulder paradox and ambiguous rest-question preserved. Hindi feminine speaker provisional; no narrative of actual expedition or death added."
+    ],
+    "399": [
+      "Five stanzas retained. Freedom imperatives and mind/body claim remain poetic convictions rather than empirical or clinical advice."
+    ],
+    "397": [
+      "Fourteen lines retained. Source title Lent retained as past-tense gift, not silently changed to command Lend; no species invented for migratory bird. Warm billows and waves as translators preserved."
+    ],
+    "385": [
+      "Only title captured; preserved HTML confirms no full poem body. Complete Odia original or explicit editorial confirmation of an intentional one-line poem needed. No translation generated."
+    ]
+  },
+  "publication": false,
+  "next_edition": 17,
+  "next_poem_ids": [
+    367,
+    369,
+    368,
+    373,
+    375
+  ]
+}

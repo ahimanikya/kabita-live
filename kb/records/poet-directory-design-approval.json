@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-02T01:33:06.494840+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "approved_applied_verified",
+  "approval": {
+    "by": "Ahimanikya Satapathy",
+    "quote": "We are all good now, lets close this one, what is next?",
+    "scope": "Approved card directory including revision2 illustration; local application and design closure, no publication."
+  },
+  "executor": "Current assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "url": "http://127.0.0.1:8771/poets.html",
+  "implementation": [
+    "projects/site/poet_directory.py",
+    "projects/site/assets/poet-directory.css",
+    "projects/site/assets/poet-directory.js",
+    "projects/site/build.py"
+  ],
+  "checks": {
+    "build": "Node24 public Astro/Pagefind build passed,1307 pages; initial shell selected older Node, rerun with explicit Node24 PATH passed",
+    "content": "429 distinct profile records; portraits/excerpt selections retained; all source quote offsets validated by renderer",
+    "author_pages": "PASS429 profiles",
+    "editions": "PASS47 editions,799 active poems,848 source hashes",
+    "browser": "Mobile pointer and desktop Enter Show more12→24 passed; English/Odia/Hindi search and clear passed;390px no overflow. Initial desktop pointer attempt did not activate under stale viewport sizing; mobile pointer and keyboard checks passed after resize.",
+    "public_export": "New directory included; mock excluded"
+  },
+  "evidence": [
+    "records/poet-directory-card-mock.json",
+    "artifacts/review/poet-directory/applied-mobile.png"
+  ],
+  "limitations": [
+    "Full independent accessibility certification and real-device checks remain open.",
+    "Writer identity and biography audit remains deferred."
+  ],
+  "next_action": "Archive page-type review."
+}

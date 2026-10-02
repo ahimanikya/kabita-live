@@ -1,0 +1,105 @@
+{
+  "writer_id": 140,
+  "name": "Monalisa Parida",
+  "reviewed_on": "2026-10-01",
+  "batch": "research-041",
+  "status": "source_checked_local_draft",
+  "independent": false,
+  "portrait_action": "unchanged",
+  "reader_draft": {
+    "sections": [
+      {
+        "heading": "Life and writing.",
+        "language": "en",
+        "paragraphs": [
+          "Monalisa Parida is an English-language poet from Odisha whose work has appeared in journals including International Times and New York Parrot. In a World Poetry Day interview, she traced her interest in poetry to the sounds around her as she grew up: lullabies, her grandmother’s readings, classroom rhymes and songs.",
+          "Her Kabita Live poems hold love beside the work of finding a voice. Introspection moves through the hurt of being devalued as a girl towards renewed self-worth; Thread of Love uses a garden, fragrance and a garland to imagine closeness. Echoes of Last!!! takes a different form, setting a father’s presence at a child’s first moments against the child’s presence at his last. Its paired memories make the passage between care and grief sharply felt."
+        ]
+      }
+    ],
+    "books": [],
+    "sources": [
+      {
+        "label": "International Times — You Blessed Me!",
+        "url": "https://internationaltimes.it/you-blessed-me/"
+      },
+      {
+        "label": "New York Parrot — A Village Girl and Her Family",
+        "url": "https://newyorkparrot.com/2021/03/a-village-girl-and-her-family-by-monalisa-parida/"
+      },
+      {
+        "label": "News Kashmir — World Poetry Day interview with Monalisa Parida",
+        "url": "https://newskashmirmagazine.com/world-poetry-day-2022-special-talk-with-poet-monalisa-parida/"
+      }
+    ],
+    "reviewed_on": "2026-10-01"
+  },
+  "sources": [
+    {
+      "label": "International Times — You Blessed Me!",
+      "url": "https://internationaltimes.it/you-blessed-me/",
+      "supports": [
+        "Published poem and contributor biography: Odisha poet, English literature studies and international journal publication."
+      ],
+      "access": "search_index_excerpt",
+      "accessed_on": "2026-10-01"
+    },
+    {
+      "label": "New York Parrot — A Village Girl and Her Family",
+      "url": "https://newyorkparrot.com/2021/03/a-village-girl-and-her-family-by-monalisa-parida/",
+      "supports": [
+        "English poem published under Monalisa Parida byline."
+      ],
+      "access": "search_index_excerpt",
+      "accessed_on": "2026-10-01"
+    },
+    {
+      "label": "News Kashmir — World Poetry Day interview with Monalisa Parida",
+      "url": "https://newskashmirmagazine.com/world-poetry-day-2022-special-talk-with-poet-monalisa-parida/",
+      "supports": [
+        "First-person account of formative lullabies, grandmother’s readings, classroom rhymes and songs."
+      ],
+      "access": "search_index_excerpt",
+      "accessed_on": "2026-10-01"
+    }
+  ],
+  "identity_match": "International Times biography matches the captured English-literature and translated e-journal poet description. Its named New York Parrot publication is independently present, and the interview is with the same English-language literary contributor.",
+  "poems_read": [
+    {
+      "id": 119,
+      "title": "Introspection",
+      "basis": "Full English original: girlhood questioned, pain and recovery, love, contrast between worship of idols and living women."
+    },
+    {
+      "id": 642,
+      "title": "ECHOES OF LAST!!!",
+      "basis": "Full English original: paired first/last experiences and father/child reversal; the doctor is explicitly the poem speaker, not a verified author occupation."
+    },
+    {
+      "id": 764,
+      "title": "THREAD OF LOVE",
+      "basis": "Full English original: garden, wind, fragrance, hearts, binding thread and garland."
+    }
+  ],
+  "limitations": [
+    "Indexed journal/interview text available; direct International Times and interview retrieval failed.",
+    "Captured completed postgraduate qualification versus journal postgraduate-student wording not resolved; education level omitted.",
+    "Doctor profession in poem 642 and same-name college faculty listing not converted into author biography.",
+    "Large award totals and books from promotional biography omitted pending verification.",
+    "Literal < p> artifact at start of original 119 recorded but untouched in this enrichment task.",
+    "Same-assistant research and close reading; independent author/editor factual review pending."
+  ],
+  "research_leads": [
+    {
+      "url": "https://www.bceodisha.co.in/5.44E.pdf",
+      "access": "search_index_excerpt",
+      "finding": "Same-name MA faculty member; no secure bridge to poet, employment not merged."
+    },
+    {
+      "url": "https://play.google.com/store/books/details/Monalisa_Parida_Ebullient_Inamorata?id=cmfsEQAAQBAJ",
+      "access": "search_index_excerpt",
+      "finding": "Same-name book listing without further author bridge; not used."
+    }
+  ],
+  "next_action": "Independent author/editor identity and factual review; verify book editions before linking."
+}

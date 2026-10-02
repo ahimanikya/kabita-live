@@ -1,0 +1,114 @@
+{
+  "state": "complete",
+  "checks": [
+    {
+      "name": "Sound defaults off",
+      "pass": true
+    },
+    {
+      "name": "or selection toolbar appears",
+      "pass": true
+    },
+    {
+      "name": "or partial underline uses whole graphemes",
+      "pass": true
+    },
+    {
+      "name": "or underline survives type reflow",
+      "pass": true
+    },
+    {
+      "name": "or underline survives page turn",
+      "pass": true
+    },
+    {
+      "name": "or underline removal",
+      "pass": true
+    },
+    {
+      "name": "hi selection toolbar appears",
+      "pass": true
+    },
+    {
+      "name": "hi partial underline uses whole graphemes",
+      "pass": true
+    },
+    {
+      "name": "hi underline survives type reflow",
+      "pass": true
+    },
+    {
+      "name": "hi underline survives page turn",
+      "pass": true
+    },
+    {
+      "name": "hi underline removal",
+      "pass": true
+    },
+    {
+      "name": "en selection toolbar appears",
+      "pass": true
+    },
+    {
+      "name": "en partial underline uses whole graphemes",
+      "pass": true
+    },
+    {
+      "name": "en underline survives type reflow",
+      "pass": true
+    },
+    {
+      "name": "en underline survives page turn",
+      "pass": true
+    },
+    {
+      "name": "en underline removal",
+      "pass": true
+    },
+    {
+      "name": "Underlines do not leak into translations",
+      "pass": true
+    },
+    {
+      "name": "Return to language restores underline",
+      "pass": true
+    },
+    {
+      "name": "Bookmark toggles on",
+      "pass": true
+    },
+    {
+      "name": "Bookmark survives reflow",
+      "pass": true
+    },
+    {
+      "name": "Saved places and passages listed",
+      "pass": true
+    },
+    {
+      "name": "Saved passage jumps to poem and closes settings",
+      "pass": true
+    },
+    {
+      "name": "Reopen restores saved passage",
+      "pass": true
+    },
+    {
+      "name": "Bookmark toggles off",
+      "pass": true
+    },
+    {
+      "name": "Recovered inline unit saves original source offset",
+      "pass": true
+    },
+    {
+      "name": "Recovered inline unit exercised",
+      "pass": true
+    },
+    {
+      "name": "320px settings stay inside viewport",
+      "pass": true
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "rules": {
+    "506": {
+      "captured_text_sha256": "b44f900807ec4616643dfa7de1bb076fe44023aea4b03fb338b69d2166529f9d",
+      "action": "separate_appended_work",
+      "keep_stanzas": 4,
+      "appended_heading": [
+        "Cheerio",
+        "Gopal Lahiri"
+      ]
+    },
+    "332": {
+      "captured_text_sha256": "0de24cec711cef98b9370c7716da8ea0ee1286c1b2d72faf3a7a395e2508715a",
+      "action": "separate_appended_work",
+      "keep_stanzas": 1,
+      "appended_heading": [
+        "9. Lethe",
+        "Pritha Chakraborty"
+      ]
+    },
+    "385": {
+      "captured_text_sha256": "51a114a07832542466fc7cbbce9006c331e6399646d8258282e901d44514fc97",
+      "action": "archive",
+      "reason": "missing_poem_body"
+    },
+    "727": {
+      "captured_text_sha256": "83c965ef256204fedc08464c677bf8ede999558d0f8fa380d114e52c101e9e23",
+      "action": "archive",
+      "reason": "mismatched_poem_text"
+    }
+  }
+}

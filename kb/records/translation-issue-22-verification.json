@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 22,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    443,
+    444,
+    442,
+    452,
+    445,
+    446,
+    447,
+    448,
+    449,
+    450,
+    451,
+    453
+  ],
+  "source_held": [],
+  "new_translations": 24,
+  "total_drafts": 744,
+  "remaining_translations": 858,
+  "batches": [
+    "batch-082",
+    "batch-083",
+    "batch-084"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 12 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 24 versions, including cross-stanza enjambment and unfinished ending",
+    "rendered_catalogue_parity": "pass for all 24 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "443": "Likely damaged old-man/old-woman phrase interpreted from local context and flagged.",
+    "444": "Masked abuse remains masked; maternal critique preserved without added explicit language.",
+    "442": "Freshly bathed and butterfly interpretations documented for atypical Hindi tokens.",
+    "446": "28-month narrative and mythological names retained as source claims.",
+    "450": "All fourteen stanzas and cross-stanza sentences retained; no added historical details.",
+    "451": "Final We remains unfinished, not completed by translator."
+  },
+  "publication": false,
+  "next_edition": 21,
+  "next_poem_ids": [
+    429,
+    430,
+    431,
+    434,
+    436
+  ]
+}

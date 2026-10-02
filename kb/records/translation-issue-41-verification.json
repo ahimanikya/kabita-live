@@ -1,0 +1,59 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 41,
+  "status": "available-sources-drafted; one source hold",
+  "poems_drafted": [
+    723,
+    725,
+    722,
+    726,
+    724,
+    728,
+    729,
+    730,
+    731,
+    732
+  ],
+  "source_held": [
+    727
+  ],
+  "new_translations": 20,
+  "total_drafts": 198,
+  "remaining_translations": 1404,
+  "batches": [
+    "batch-020",
+    "batch-021"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 10 translated poems",
+    "source_line_and_stanza_coverage": "pass for all 20 versions",
+    "rendered_catalogue_parity": "pass for all 20 versions after completed build",
+    "original_rendered_stanzas": "unchanged",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "new_source_issue": {
+    "poem": 727,
+    "conflicting_poem": 761,
+    "comparison": "727 text after initial Time line exactly equals poem 761 text.",
+    "local_evidence": [
+      "kb/artifacts/content-import/editions/issue-41/poem-727.html",
+      "kb/artifacts/content-import/editions/issue-43/poem-761.html"
+    ],
+    "conflict": "Presence in Absence / Dilip Mohapatra versus Time / Divya K Unni. Both captures reproduce the conflict; no second matching-title original found locally.",
+    "resolution": "Correct 727 source and authorship confirmation required. Existing 761 drafts preserved and batch-016 editorial notes amended to flag this conflict before release."
+  },
+  "publication": false,
+  "next_edition": 40,
+  "next_poem_ids": [
+    713,
+    720,
+    721,
+    711,
+    708
+  ]
+}

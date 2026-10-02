@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-02T08:34:54.117682+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "User approved the edition icon colour and requested the same inside poem pages and on Poems.",
+  "changes": [
+    "Shared --rust laterite accent on Aa and SVG reading-action icons for individual poems, Poems catalogue and editions.",
+    "Retained neutral text labels, existing icons, sizing, layout and theme-aware palette."
+  ],
+  "checks": [
+    "Public build passed.",
+    "Browser computed styles confirm Aa, Share and Read quietly use rgb(150, 63, 40) on poem-8.",
+    "871 content/source files unchanged.",
+    "Edition integrity checker passed."
+  ],
+  "evidence": [
+    "artifacts/review/reading-icon-colour/poem.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "Local preview only; no publication."
+  ]
+}

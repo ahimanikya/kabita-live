@@ -20,3 +20,11 @@ This project contains the magazine redesign and its complete design history.
 - The existing localhost:8771 preview can remain in use. Keep the origin stable to preserve the user’s local review decisions.
 - Do not import the unrelated Adigandha video/character instructions from Poem Without Borders.
 - Keep the main and portable handoff files consistent when completing approved changes.
+
+# Scoped background-work authorization
+
+On 2026-10-01, Ahimanikya explicitly approved the writer-enrichment loop and confirmed “keep going in background”. The active `kabita-live-writer-enrichment` heartbeat may resume this same chat every 30 minutes and edit writer narratives and their KB records in sequential batches, with verification and handoff sync. This is a scoped exception to the default background-execution restriction above; it does not authorize subagent dispatch, publication, new portraits, new design choices, spending or messaging. See `kb/records/writer-enrichment-loop.json` and `kb/research/writers/enrichment-batches.json`.
+
+## Scoped watercolor-portrait background authorization
+
+On 2026-10-02, after approving watercolor artwork for every poet, Ahimanikya explicitly instructed: “ok run a batch mode and keep doing it auto mode till it is done - without getting trigger from me”. This authorizes a recurring heartbeat in this same chat every 20 minutes to continue the existing portrait queue without further prompts or batch approvals. Scope includes built-in image edits from identified saved source photographs, visual likeness comparisons, saving masters/provenance, integrating reviewed portrait assets locally, build/verification and KB/handoff updates. Work sequentially in groups of five; no overlapping workers or subagents. Preserve source photographs and all unrelated content. Do not invent missing faces or integrate material identity drift. No paid API fallback, new accounts, publication, push/deploy, new design choices or messaging. Save exact progress on interruption. Pause the portrait heartbeat when all actionable photographs are processed and verified; report missing-photo and likeness holds separately. The earlier writer-enrichment and translation automations remain paused. See `kb/records/poet-watercolor-loop.json` and `kb/research/writers/portrait-batches.json`.

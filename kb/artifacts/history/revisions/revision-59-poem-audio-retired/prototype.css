@@ -1,0 +1,49 @@
+/* Review-only reading experiment. Shared typography and colours remain canonical. */
+.reader-study-note{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--line);font:14px/1.6 var(--ui);color:var(--muted)}
+.reader-study-note a{text-decoration:underline;text-underline-offset:4px;padding:8px 0}
+.reader-study .poem-opening{margin-top:30px}
+.reader-study .experience-bar{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;width:100%;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.reader-study .reading-tabs{display:flex;gap:6px;flex-wrap:wrap}
+.reader-study .reading-tabs button{font:18px/1.5 var(--ui);min-height:56px;padding:8px 16px;border-bottom:2px solid transparent}
+.reader-study .reading-tabs button span{display:block;font:12px/1.5 var(--ui);color:var(--muted)}
+.reader-study .reading-tabs button[aria-selected=true]{border-color:var(--rust);color:var(--rust)}
+.reader-study .reading-tabs button[lang=hi]{font-family:'Tiro Devanagari Hindi',serif}
+.reader-study .reading-tabs button[lang=or]{font-family:var(--odia)}
+.reader-study .listen-button,.reader-study .mark-toggle{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:8px 12px;font:16px/1.5 var(--ui)}
+.reader-study .listen-button:disabled{color:var(--muted);opacity:.65;cursor:default}
+.reader-study .experience-meta{display:flex;justify-content:space-between;align-items:start;gap:16px;margin:15px 0 20px;font:14px/1.6 var(--ui);color:var(--muted)}
+.reader-study .audio-panel{max-width:730px;padding:0 0 18px}
+.reader-study .audio-panel[hidden]{display:none}
+.reader-study audio{display:block;width:100%;max-width:540px;height:48px;margin:12px 0;color-scheme:light}
+.reader-study .audio-panel p{font:14px/1.6 var(--ui);color:var(--muted);margin:0}
+.reader-study .reader-tools{display:flex;justify-content:space-between;align-items:center;gap:16px;border:0;padding:0;margin:0 0 6px}
+.reader-study .mark-tools{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.reader-study .mark-toggle[aria-pressed=true]{color:var(--rust);background:color-mix(in srgb,var(--panel) 55%,transparent)}
+.reader-study .clear-marks{font:14px/1.5 var(--ui);text-decoration:underline;text-underline-offset:4px;min-height:44px;padding:8px}
+.reader-study .mark-help{font:13px/1.6 var(--ui);color:var(--muted);margin:0 0 24px}
+.reader-study .verse{margin-top:0;max-width:730px}
+.reader-study .poem-line{display:block;min-height:1.9em;line-height:1.9;overflow-wrap:anywhere}
+.reader-study .pencil-mark{text-decoration-line:underline;text-decoration-color:color-mix(in srgb,var(--rust) 75%,transparent);text-decoration-thickness:.07em;text-underline-offset:.19em;text-decoration-skip-ink:auto}
+.reader-study .review-desk{margin:36px 0 48px;max-width:730px;border-top:1px solid var(--line);padding-top:24px}
+.reader-study .review-desk summary{font:24px/1.4 var(--serif);cursor:pointer;min-height:44px}
+.reader-study .review-desk p{font:14px/1.6 var(--ui);color:var(--muted);margin:12px 0}
+.reader-study .review-fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:18px 0}
+.reader-study .review-fields label{font:14px/1.6 var(--ui)}
+.reader-study .review-fields select{margin-top:8px;font-size:15px}
+.reader-study #review-notes{margin:8px 0 12px}
+.reader-study .review-actions{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+@media(max-width:760px){
+ .reader-study-note{font-size:13px}.reader-study-note a{white-space:nowrap}
+ .reader-study .experience-bar{gap:12px}.reader-study .reading-tabs{width:100%;justify-content:space-between;gap:0}.reader-study .reading-tabs button{padding:8px 12px;min-width:92px}
+ .reader-study .experience-meta{display:block}.reader-study .reader-tools{align-items:start;gap:6px;flex-wrap:wrap}
+ .reader-study .mark-help{margin-bottom:20px}.reader-study .review-fields{grid-template-columns:1fr}
+}
+
+.reader-study.night audio{color-scheme:dark}
+.reader-study [role=tabpanel]:focus-visible{outline:2px solid var(--rust);outline-offset:8px}
+
+.reader-study .line-words{user-select:text;-webkit-user-select:text;cursor:text}
+.reader-study .selection-tools{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:30;display:flex;gap:4px;max-width:calc(100vw - 24px);padding:6px;background:var(--paper);border:1px solid var(--line);box-shadow:0 4px 20px #0002;color:var(--ink)}
+.reader-study .selection-tools[hidden]{display:none}
+.reader-study .selection-tools button{min-height:44px;padding:8px 12px;white-space:nowrap;font:15px/1.5 var(--ui)}
+.reader-study #underline-selection{color:var(--rust)}

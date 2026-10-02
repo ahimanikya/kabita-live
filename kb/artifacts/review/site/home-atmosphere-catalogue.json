@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "title": "Kabita Live homepage atmosphere review",
+  "groups": [
+    {
+      "id": "art",
+      "title": "1 · Artwork edge",
+      "status": "unreviewed",
+      "heading": "A picture on the page.",
+      "description": "Compare the current borderless artwork with two restrained treatments. All three keep the same image, crop and caption. These samples remain in Light so the edge is easy to compare.",
+      "variants": [
+        "Current · Borderless artwork",
+        "A · A fine warm keyline — recommended",
+        "B · A narrow paper mount"
+      ],
+      "checks": [
+        "A adds a single thin warm edge. B adds a 6px paper surround.",
+        "Neither changes the artwork or adds raised shadows, rounded corners or motion.",
+        "Look at the full opening as well as the image edge."
+      ]
+    },
+    {
+      "id": "appearance",
+      "title": "2 · Reading light",
+      "status": "unreviewed",
+      "heading": "The same home, after dusk.",
+      "description": "Compare the current Light-only homepage with an Appearance icon or an icon plus label. A and B initially show Dark so you can judge the palette; open Appearance to try Light or System. On narrow screens, Appearance lives inside the menu. The eventual default would follow System.",
+      "variants": [
+        "Current · Light only",
+        "A · Quiet Appearance icon — recommended",
+        "B · Appearance icon and label"
+      ],
+      "checks": [
+        "Try Light, Dark and System in the preview; artwork colours stay intact.",
+        "Your theme choice is remembered only within these appearance mockups. It does not change the homepage or count as design approval.",
+        "On phones, open the menu to find Appearance.",
+        "Use the approval button below to record your preferred control."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+(()=>{
+const cards=[...document.querySelectorAll('.archive-gallery .issue-card')],buttons=[...document.querySelectorAll('[data-archive-year]')],more=document.getElementById('archive-more'),status=document.getElementById('archive-results'),progress=document.getElementById('archive-progress');let year=document.querySelector('.archive-directory').dataset.initialYear||'all',limit=12,matched=cards;
+function render(){matched=cards.filter(c=>year==='all'||c.dataset.issueYear===year);const visible=new Set(matched.slice(0,limit));cards.forEach(c=>c.hidden=!visible.has(c));buttons.forEach(b=>b.setAttribute('aria-pressed',b.dataset.archiveYear===year));const shown=Math.min(limit,matched.length);status.textContent=year==='all'?`${matched.length} editions · Newest first`:`${matched.length} editions from ${year}`;progress.textContent=`Showing ${shown} of ${matched.length}`;more.hidden=shown>=matched.length;}
+buttons.forEach(b=>b.addEventListener('click',()=>{year=b.dataset.archiveYear;limit=12;render()}));more.addEventListener('click',()=>{const next=matched[limit];limit+=12;render();next?.querySelector('a').focus({preventScroll:true})});render();
+})();

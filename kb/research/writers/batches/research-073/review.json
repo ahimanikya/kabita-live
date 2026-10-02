@@ -1,0 +1,34 @@
+{
+  "batch": "research-073",
+  "status": "verified",
+  "independent": false,
+  "writer_ids": [
+    189,
+    188,
+    187,
+    181,
+    177
+  ],
+  "reader_drafts": 5,
+  "externally_corroborated": 5,
+  "source_limited": [],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "PASS",
+    "editions": "PASS",
+    "preserved_source_files": 805,
+    "existing_narratives_preserved": 370,
+    "rendered_narratives": 5,
+    "browser_visual": "Not repeated; prose/data only, approved renderer unchanged."
+  },
+  "limitations": [
+    "Independent author/editor review pending.",
+    "177 Ray/Roy discrepancy explicitly preserved; preferred spelling remains for author/editor confirmation.",
+    "177 book metadata and 188 retailer listing rely on indexed pages after direct retrieval failed.",
+    "187 anthology credited as compiled/edited, not sole-authored.",
+    "181 former institutional roles not independently verified; no current employment claimed.",
+    "No concurrent source corrections detected against baseline."
+  ],
+  "resume": "research-074",
+  "publication": "No deployment or push."
+}

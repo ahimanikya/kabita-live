@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 19,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    401,
+    402,
+    404,
+    405,
+    406,
+    408,
+    409,
+    403,
+    410,
+    412,
+    407,
+    411
+  ],
+  "source_held": [],
+  "new_translations": 24,
+  "total_drafts": 824,
+  "remaining_translations": 778,
+  "batches": [
+    "batch-092",
+    "batch-093",
+    "batch-094"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 12 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 24 versions",
+    "rendered_catalogue_parity": "pass for all 24 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "401": [
+      "Ten source stanzas and long lines preserved. Unnamed sal-forest demoness not identified by guesswork; damaged killer/back wording interpreted minimally. Abir, Balangir and promise to return retained."
+    ],
+    "402": [
+      "Three numbered poems preserved in four source stanzas. Yoga/joga read chance/possibility; kariya interpreted waistcloth provisionally. Dub grass and boat carried while swimming retained without rationalisation."
+    ],
+    "404": [
+      "Ten stanzas retained. Sponsored/arranged stains, rice-and-sleep phrase and final long-juncture paradox provisional; no explanation inserted. Love/death imagery retained as poetry."
+    ],
+    "405": [
+      "Eight stanzas retained. Ridge-gourd blossom moon, simmering feelings, repeated own funeral and oil/salt livelihood imagery retained. Crippled metaphor comes from source; Hindi feminine speaker provisional."
+    ],
+    "406": [
+      "Source has extensive missing word spaces, retained unchanged. Segmented only for translation; rat-rata evening interpreted flushed/glowing provisionally. Bhitarkanika title retained without adding geographical facts; steep-hill and white-colour claims remain poetic."
+    ],
+    "408": [
+      "Twenty-seven lines retained. Odia kali can mean yesterday/tomorrow: English other day leaves direction open, Hindi kal retains ambiguity. Countable/countless and fresh corpse paradoxes retained."
+    ],
+    "409": [
+      "All eight stanzas and recurring refrains retained; twelve-cubit sari not modernised. English artist rendered performer in acting context; source never/not performer contradiction retained. Reported voice they say retained rather than universal claim about women poets."
+    ],
+    "403": [
+      "All twenty-nine lines retained. Wordplay on long ī mark in strī made explicit within the same line, preserving the extended-vowel/burden metaphor. Gendered characterisations remain the poem’s speaker, not site editorial assertions."
+    ],
+    "410": [
+      "Five stanzas retained. Source शाम rendered evening, not silently changed to Shyam. शबनम and ज्योति read dew and light provisionally; could be names, needs editorial review. Source काटें read thorns in path context; original spelling preserved."
+    ],
+    "412": [
+      "Six quatrains retained. Original title’s feminine subject differs from body address, retained without normalising. Source सुना read सूना/empty provisionally. Kajal warding-off gesture and Shyam/dark hue double sense preserved; Hindi poetic hum interpreted singular I."
+    ],
+    "407": [
+      "Six sextets and enjambment preserved. Stage illusions retained, not presented as real harm. Bombs/buffets and weapons/books transformations are pacifist wishes; four-leaf clover retained without substituting a different plant. Hindi feminine speaker provisional."
+    ],
+    "411": [
+      "All twenty-one long lines and cross-line syntax retained. Embryo-dreamer, pre-deaths and displaced jazz imagery rendered provisionally; wronged births and divas remain ambiguous and need independent review. Divas rendered goddesses in Gods/divas pairing, rather than inventing named performers. Petrichor retained as scent of wet earth."
+    ]
+  },
+  "publication": false,
+  "next_edition": 18,
+  "next_poem_ids": [
+    395,
+    382,
+    385,
+    386,
+    388
+  ]
+}

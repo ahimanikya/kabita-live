@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-02T09:26:05.765949+00:00",
+  "batch": "portrait-001",
+  "writer_ids": [
+    347,
+    243,
+    330,
+    394,
+    168
+  ],
+  "verification": "passed",
+  "checks": [
+    "Public Astro build passed under Node 24",
+    "Author pages: 429 profiles, 9 artistic portraits, 415 source photos, 3 initials; PASS",
+    "Edition integrity checker passed",
+    "870 protected source/content files unchanged; only authorized portrait map changed from 871-file baseline",
+    "Desktop 1280px and mobile 360px profile crop checked, no overflow",
+    "All five circular directory thumbnails loaded at 64px, border radius 50%"
+  ],
+  "independent": false,
+  "limitations": [
+    "Likeness comparison performed by same assistant; independent author/editor review pending",
+    "Low-resolution source details remain uncertain for Aarti Mittal and Abeera Mirza",
+    "No publication"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile.png",
+    "directory.png",
+    "author-check.json",
+    "edition-check.json"
+  ]
+}

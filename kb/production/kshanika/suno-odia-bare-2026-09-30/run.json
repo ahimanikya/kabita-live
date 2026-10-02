@@ -1,0 +1,70 @@
+{
+  "project": "Kabita Live",
+  "poem_id": 810,
+  "author": "Sabita Singh Meera",
+  "language": "or",
+  "translation_status": "Existing AI-assisted Odia prototype translation; experimental audition, fluent review pending.",
+  "authorization": "Can we try odia too?",
+  "feedback": [
+    "Bare spoken voice was better",
+    "it was not perfect, maybe we can tweak a bit",
+    "More natural expression and pauses"
+  ],
+  "scope": "One submission, expected two Odia bare-voice takes; no Hindi regeneration or publication.",
+  "source_path": "kb/artifacts/review/poem-experience/content.json",
+  "source_sha256": "929c928adbdc555708a46d16da92e72a68d32b9a2772e31801feead8525ae8ee",
+  "lyrics": "[Spoken word]\nଗାଁର ନିର୍ଜନ ପ୍ଲାଟଫର୍ମ,\nବରଷୁଥିବା ବୁନ୍ଦାର ଛାଇ,\nରେଳଧାରଣାରେ ଧୀରେ ଧୀରେ\nଚାଲିଯାଉଥିବା ଟ୍ରେନ୍‌ର ଥରଥର ଧ୍ୱନି।\nଆଜି ପୁଣି ସେହି ସ୍ଥାନରେ\nଯେଉଁଠି ତୁମେ ଛାଡ଼ିଯାଇଥିଲ,\nଆଉ ଏବେ ବି ଅପେକ୍ଷାରେ ଅଛି,\nତୁମେ କେବେ ଫେରିଆସିବ ବୋଲି...।\n[End]",
+  "title": "KBL · କ୍ଷଣିକା · Odia Bare voice",
+  "style": "Solo female spoken-word recital in Odia (ଓଡ଼ିଆ), native Odia pronunciation and natural everyday speech cadence. Warm, clear, intimate speaking voice at a comfortable register. Quiet literary reading to one listener; restrained longing, never theatrical. Meaning-led breaths with varied pauses, let connected thoughts flow across printed line breaks. A small pause after the passing train; a softer turn at ଆଜି ପୁଣି; leave the last hope unresolved. Preserve Odia vowel lengths and conjuncts; speak each supplied word once in order. Bare dry voice in a quiet room. No singing, tune, chant, rap, beat, music, instruments, whispering, exaggerated breathiness, artificial vibrato, repeated lines, added words, applause or echo. Short complete recital ending in silence.",
+  "exclude": "singing, melodic vocals, chanting, rap, chorus, backing vocals, instrumental music, percussion, sound effects, autotune, whispering",
+  "settings": {
+    "model": "v6",
+    "vocal_gender": "Female",
+    "duration": "Auto",
+    "max_mode": false,
+    "weirdness": 20,
+    "style_influence": 80,
+    "variety": "Normal",
+    "personalize": false
+  },
+  "rationale": "Carry the preferred bare-voice treatment to Odia while asking for its own diction, cadence and phrase lengths. Added comfortable register, meaning-led pauses and exclusions for whispering and exaggerated breathiness. No claim to represent a single universal Odia recitation tradition.",
+  "created_at": "2026-09-30T13:17:49.629640+00:00",
+  "status": "generated_selection_pending",
+  "candidates": [
+    {
+      "label": "O1",
+      "id": "c5a21713-85df-402a-8022-1e103ab142f2",
+      "url": "https://suno.com/song/c5a21713-85df-402a-8022-1e103ab142f2",
+      "displayed_duration": "0:27",
+      "status": "generated_selection_pending",
+      "provider_displayed_style_excerpt": "Unhurried spoken-word pacing with natural phrase-level pauses; warm, clear female speaking voice in a comfortable register, intimate and restrained; bare dry recording in a quiet room, ending in silence; no instruments",
+      "audio_path": null
+    },
+    {
+      "label": "O2",
+      "id": "7410a3d9-a929-4f41-8922-940d07ac654b",
+      "url": "https://suno.com/song/7410a3d9-a929-4f41-8922-940d07ac654b",
+      "displayed_duration": "0:27",
+      "status": "generated_selection_pending",
+      "provider_displayed_style_excerpt": "Spoken-word recital, warm clear intimate female speaking voice in a comfortable register, measured everyday cadence and meaning-led pauses; no instruments; bare dry voice in a quiet room; unhurried flow with a small pause after the passing train, a softer turn at ଆଜି ପୁଣି, and silence after the unresolved ending",
+      "audio_path": null
+    }
+  ],
+  "selected_take": null,
+  "publication": false,
+  "review": {
+    "independent": false,
+    "listening": "Pending user review of pronunciation, faithful words, expression and speech versus singing."
+  },
+  "submitted_at": "2026-09-30T13:18:46.607725+00:00",
+  "input_verification": "All eight Odia verse lines and settings confirmed in the UI before one Create activation.",
+  "repository_record": "Existing Git index lock still present; preserving lock and saving production record locally.",
+  "completed_at": "2026-09-30T13:19:26.720412+00:00",
+  "verification": {
+    "submissions": 1,
+    "candidate_count": 2,
+    "ui": "Both candidates show completed 27-second durations and playback controls.",
+    "listening": "User review pending; pronunciation, natural expression, pause quality and word fidelity not certified.",
+    "publication": false
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "result": "PASS",
+  "protected_files_checked": 1651,
+  "intentional_changes": [
+    "projects/site/content/editions/issue-39/poem-699.json",
+    "projects/site/content/editions/issue-18/poem-390.json"
+  ],
+  "names": [
+    {
+      "writer_id": "106",
+      "name": "Mandakini Bhattacherya",
+      "captured_name": "Mandakini Bhattacharjee",
+      "surfaces": "profile/directory/search aliases/reader/edition/share"
+    },
+    {
+      "writer_id": "142",
+      "name": "Nitish Raj",
+      "captured_name": "Nisith Raj",
+      "surfaces": "profile/directory/search aliases/reader/edition/share"
+    },
+    {
+      "writer_id": "177",
+      "name": "Soumen Roy",
+      "captured_name": "Soumen Ray",
+      "surfaces": "profile/directory/search aliases/reader/edition/share"
+    }
+  ],
+  "poem_and_translation_ranges": "exact retained slices",
+  "quote_wording": "all unchanged; writer429 offsets re-anchored",
+  "isolated_reimport": "all content JSON matches",
+  "build": "PASS:1297 indexed pages",
+  "author_and_edition_checks": "PASS"
+}

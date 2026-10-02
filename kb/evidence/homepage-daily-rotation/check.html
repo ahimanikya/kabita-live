@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Homepage rotation verification</title><style>body{font:15px system-ui;padding:16px;background:#eee}iframe{display:block;width:360px;height:760px;max-width:none}pre{white-space:pre-wrap}label{display:block;margin:10px 0}</style><h1>Homepage rotation checks</h1><label>Preview day <input id="day" type="date" value="2026-09-02"></label><iframe title="Live rotating homepage" src="/index.html"></iframe><pre id="results">Checking…</pre><script type="module">
+import {renderDailyFeatures} from '/assets/home-featured.js?v=1';
+const frame=document.querySelector('iframe'),results=document.querySelector('#results'),day=document.querySelector('#day');
+const tick=()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+function preview(){renderDailyFeatures(frame.contentDocument,new Date(day.value+'T06:00:00Z'));frame.contentWindow.scrollTo(0,frame.contentDocument.querySelector('#featured-poems').offsetTop)}
+day.onchange=preview;
+async function run(){const d=frame.contentDocument;await d.fonts.ready;const checks=[];
+ for(const width of [320,360,1280]){frame.style.width=width+'px';await tick();for(let n=0;n<45;n++){const ids=renderDailyFeatures(d,new Date(Date.UTC(2026,8,1+n,6)));await tick();const cards=[...d.querySelectorAll('#daily-featured-poems>article')];checks.push({width,day:n,ids,overflow:d.documentElement.scrollWidth>frame.contentWindow.innerWidth,clipped:cards.some(c=>{const e=c.querySelector('.excerpt');return e.scrollHeight>e.clientHeight+1}),languages:cards.map(c=>c.dataset.lang)});}}
+ const failures=checks.filter(c=>c.overflow||c.clipped||c.languages.join(',')!=='or,hi,en');results.textContent=JSON.stringify({checked:checks.length,failures,first:checks[0].ids,second:checks[1].ids,cycle9:checks[9].ids},null,2);frame.style.width='360px';await tick();preview();}
+frame.addEventListener('load',run,{once:true});if(frame.contentDocument.readyState==='complete'&&frame.contentDocument.querySelector('#daily-featured-poems'))run();
+</script></html>

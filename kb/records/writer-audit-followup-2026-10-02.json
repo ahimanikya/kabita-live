@@ -1,0 +1,158 @@
+{
+  "recorded_at": "2026-10-02T11:55:48.235231+00:00",
+  "authorization": "Can we apply them all; continue",
+  "name_corrections": {
+    "106": {
+      "captured_name": "Mandakini Bhattacharjee",
+      "display_name": "Mandakini Bhattacherya",
+      "reviewed_on": "2026-10-02",
+      "evidence": "kb/research/writers/enrichment/106.json"
+    },
+    "142": {
+      "captured_name": "Nisith Raj",
+      "display_name": "Nitish Raj",
+      "reviewed_on": "2026-10-02",
+      "evidence": "kb/research/writers/enrichment/142.json"
+    },
+    "177": {
+      "captured_name": "Soumen Ray",
+      "display_name": "Soumen Roy",
+      "reviewed_on": "2026-10-02",
+      "evidence": "kb/research/writers/enrichment/177.json"
+    }
+  },
+  "poem_corrections": [
+    {
+      "poem_id": 390,
+      "before_sha256": "b0f8d7c03142e76af8cd1791b713c83253e4e2b8c5a0605c0a79225fcb4d51f4",
+      "after_sha256": "0d889a3d46faf576b3cd03292575a022f9935ee3f8a2cd270382a153bfb76b16",
+      "kept_stanza_range": [
+        0,
+        1
+      ],
+      "source_preserved": true
+    },
+    {
+      "poem_id": 699,
+      "before_sha256": "d7de690644f825109807bcc99516a3ffc3945e6e77100d6e3127b4d94b29f010",
+      "after_sha256": "0c414ba7ee4218f1819ae45582c0abcda96cd8f9a2b604d1629cf6dbf42f76dd",
+      "kept_stanza_range": [
+        18,
+        35
+      ],
+      "source_preserved": true
+    }
+  ],
+  "closed_findings": [
+    "KBL-WA-005",
+    "KBL-WA-006",
+    "KBL-WA-007",
+    "KBL-WA-010",
+    "KBL-WA-011",
+    "KBL-WA-012",
+    "KBL-WA-013",
+    "KBL-WA-014",
+    "KBL-WA-015",
+    "KBL-WA-016",
+    "KBL-WA-017",
+    "KBL-WA-018",
+    "KBL-WA-019",
+    "KBL-WA-020"
+  ],
+  "remaining_findings": [
+    "KBL-WA-001",
+    "KBL-WA-002",
+    "KBL-WA-003",
+    "KBL-WA-004",
+    "KBL-WA-008",
+    "KBL-WA-009"
+  ],
+  "publication": "local only",
+  "verification": {
+    "result": "PASS",
+    "protected_files_checked": 1651,
+    "intentional_changes": [
+      "projects/site/content/editions/issue-39/poem-699.json",
+      "projects/site/content/editions/issue-18/poem-390.json"
+    ],
+    "names": [
+      {
+        "writer_id": "106",
+        "name": "Mandakini Bhattacherya",
+        "captured_name": "Mandakini Bhattacharjee",
+        "surfaces": "profile/directory/search aliases/reader/edition/share"
+      },
+      {
+        "writer_id": "142",
+        "name": "Nitish Raj",
+        "captured_name": "Nisith Raj",
+        "surfaces": "profile/directory/search aliases/reader/edition/share"
+      },
+      {
+        "writer_id": "177",
+        "name": "Soumen Roy",
+        "captured_name": "Soumen Ray",
+        "surfaces": "profile/directory/search aliases/reader/edition/share"
+      }
+    ],
+    "poem_and_translation_ranges": "exact retained slices",
+    "quote_wording": "all unchanged; writer429 offsets re-anchored",
+    "isolated_reimport": "all content JSON matches",
+    "build": "PASS:1297 indexed pages",
+    "author_and_edition_checks": "PASS"
+  },
+  "browser_checks": "PASS: corrected names, expected verse and no horizontal overflow on checked desktop pages",
+  "remaining_cases": [
+    {
+      "finding": "KBL-WA-001",
+      "names": [
+        "Neelam Saxena Chandra",
+        "Neelam Saxena Chandra"
+      ],
+      "followup": "Editor/author confirmation of canonical profile and any merge."
+    },
+    {
+      "finding": "KBL-WA-002",
+      "names": [
+        "Neha Bhandarkar",
+        "Neha Bhandarkar"
+      ],
+      "followup": "Editor/author confirmation before combining contributor records."
+    },
+    {
+      "finding": "KBL-WA-003",
+      "names": [
+        "Tulika",
+        "Tulika Bibidh Rang / तूलिका विविध रंग"
+      ],
+      "followup": "Confirm whether255/449 are one identity before a merge; source2020 date remains historical."
+    },
+    {
+      "finding": "KBL-WA-004",
+      "names": [
+        "Reema Sinha",
+        "Rima Sinha"
+      ],
+      "followup": "Confirm342/410 identity and preferred spelling before combining profiles."
+    },
+    {
+      "finding": "KBL-WA-008",
+      "names": [
+        "Padmashree R.P."
+      ],
+      "followup": "Confirm R.P./Niranjan name bridge; no credentials or surname inferred."
+    },
+    {
+      "finding": "KBL-WA-009",
+      "names": [
+        "Youngbo Ma"
+      ],
+      "followup": "Chinese/Roman preferred name, original poem and translator still need confirmation."
+    }
+  ],
+  "evidence": "artifacts/review/writer-audit/followup-2026-10-02",
+  "independent": false,
+  "review_roles": "Anvesha research, Samanta implementation, Drishti self-review; same assistant",
+  "public_deployment": false,
+  "handoff": "Verification follows record regeneration."
+}

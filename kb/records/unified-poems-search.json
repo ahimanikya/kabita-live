@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-02T05:20:45.877630+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "approved_applied_verified",
+  "approval": "Let's keep just one of them",
+  "decision": "Poems is the only reader-facing browse/search destination; remove Search from desktop and mobile navigation.",
+  "changes": [
+    "Retained Poems opening, search and799poem rows.",
+    "search.html is a compatibility redirect preserving query/fragment with a no-script redirect/link fallback.",
+    "Saved q search term initializes the input; existing lang filter preserved.",
+    "Recovery links point directly to Poems.",
+    "Original Search artwork and historical mocks retained."
+  ],
+  "checks": [
+    "Node24 public build passed;1307public routes,1306indexed documents because redirect body excluded.",
+    "All generated main navigation omits Search.",
+    "Old Search?q=Drink&lang=en opens Poems with query and English filter;15matches.",
+    "Clear restores799poems. Mobile390px nooverflow; menu shows only Poems.",
+    "Redirect script checked under root and repository subpath hosting with query+fragment preserved.",
+    "Edition checker passed47editions and848sourcehashes."
+  ],
+  "limitations": [
+    "Same-assistant review; no publication.",
+    "No-JavaScript redirect opens unfiltered Poems; all poems remain accessible."
+  ],
+  "independent": false,
+  "evidence": [
+    "artifacts/review/unified-poems/mobile-menu.png"
+  ],
+  "next_action": "Continue remaining page review; standalone Search review merged into Poems."
+}

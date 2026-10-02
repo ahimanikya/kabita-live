@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-02T04:56:29.883765+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "approved_applied_verified",
+  "independent": false,
+  "approval": "In poet pages we could use the wavy separator",
+  "scope": "427 poet profiles using shared author-profile-opening layout; editor layouts unchanged",
+  "placement": "Original poetic-waterline.svg at115x23px, left aligned with24px top gap, beneath identity and own-poem quote (identity alone where no quote).",
+  "implementation": [
+    "Shared CSS pseudo-element, decorative and absent from accessibility tree.",
+    "Updated stylesheet revision to prevent cached styles hiding the change."
+  ],
+  "checks": [
+    "Public Node24 build passed1307pages.",
+    "Author checker PASS429profiles/798contribution links.",
+    "Original HTML content hashes match after normalizing stylesheet revision; all poem/writer data hashes identical.",
+    "Odia desktop1280px/mobile390px, Hindi mobile390px, English mobile390px and initials/no-quote mobile390px inspected; no overflow."
+  ],
+  "evidence": [
+    "artifacts/review/poet-separator/before-hashes.json",
+    "artifacts/review/poet-separator/odia-desktop.png",
+    "artifacts/review/poet-separator/odia-mobile.png",
+    "artifacts/review/poet-separator/hindi-mobile.png",
+    "artifacts/review/poet-separator/english-mobile.png",
+    "artifacts/review/poet-separator/initials-mobile.png"
+  ],
+  "limitations": [
+    "Same-assistant layout review, not independent linguistic or biography approval.",
+    "Writer audit remains deferred.",
+    "No publication."
+  ],
+  "next_action": "Return to Our Story review discussion."
+}

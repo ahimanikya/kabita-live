@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-30",
+  "independent": false,
+  "executor": "Current assistant; Anvesha, Samanta and Drishti role passes",
+  "new_batches": [
+    "batch-002",
+    "batch-003",
+    "batch-004",
+    "batch-005",
+    "batch-006",
+    "batch-007"
+  ],
+  "new_poems": 29,
+  "new_translations": 58,
+  "total_drafts": 70,
+  "remaining_translations": 1532,
+  "needs_source": 2,
+  "edition_coverage": {
+    "47": {
+      "poems": 16,
+      "three_languages": 16
+    },
+    "46": {
+      "poems": 20,
+      "three_languages": 19
+    }
+  },
+  "checks": {
+    "original_hashes": "pass for all translated source records",
+    "rendered_translation_parity": "pass across 35 poem pages and 70 versions",
+    "original_rendered_stanzas": "unchanged",
+    "batch_line_and_stanza_coverage": "pass",
+    "full_site_build": "pass",
+    "edition_integrity": "pass",
+    "independent_linguistic_review": "not done"
+  },
+  "next_batch": "batch-008",
+  "next_poem_ids": [
+    774,
+    780,
+    781,
+    784,
+    778
+  ],
+  "source_hold": "production/translations/source-holds.json",
+  "publication": false
+}

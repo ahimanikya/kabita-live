@@ -1,0 +1,195 @@
+{
+  "status": "applied_and_verified_locally",
+  "recorded_at": "2026-10-01T10:02:51.934468+00:00",
+  "authorization": {
+    "human": "Ahimanikya Satapathy",
+    "request": "apply this to poam pages",
+    "scope": "Apply final reviewed poem layout and reader tools across poem pages; no publication."
+  },
+  "poem_pages": 801,
+  "edition_datasets": 47,
+  "preview": "http://127.0.0.1:8771/poem-8.html",
+  "changes": [
+    "Compact desktop composition with verse beside caption-free artwork; mobile artwork after verse",
+    "Left-aligned related links beneath artwork with left laterite rule; mobile footer placement",
+    "Aa, Share and Read quietly at top level",
+    "Original/Odia/Hindi/English choices; unavailable versions disabled; Standard/Large/Extra large sizes",
+    "Contextual underlining, bookmarks and saved reading positions; existing production mark keys preserved",
+    "On-demand edition quiet reader with page curl, optional soft page sound and reduced-motion support",
+    "Tight ending navigation and footer; boat occupies its own row",
+    "Sharing retains copy/native/WhatsApp/Facebook and follows selected translation"
+  ],
+  "preservation": {
+    "source_hashes": 804,
+    "source_translation_artwork_records": "unchanged",
+    "decorations": "Only standalone non-word decoration lines hidden; text arrays and mark offsets retained",
+    "mock_history": "Kept compiled mock and froze prior production sample/base under mock source directory to keep historical generator reproducible."
+  },
+  "checks": {
+    "integrity": {
+      "result": "PASS",
+      "poems": 801,
+      "edition_payloads": 47,
+      "unchanged_source_files": 804,
+      "missing_language_versions_disabled": [
+        197,
+        203,
+        219,
+        727,
+        797,
+        472,
+        332,
+        319,
+        130,
+        78,
+        47,
+        385,
+        506,
+        784
+      ],
+      "checks": [
+        "Unique control IDs",
+        "Correct original alias and availability",
+        "Edition order and payload parity",
+        "Poet feedback destinations",
+        "Source/translation/artwork hash preservation",
+        "No visible art captions",
+        "Only decoration lines hidden"
+      ]
+    },
+    "reader_tools": {
+      "state": "complete",
+      "checks": [
+        {
+          "name": "Four language choices",
+          "pass": true
+        },
+        {
+          "name": "Language selection or",
+          "pass": true
+        },
+        {
+          "name": "Language selection hi",
+          "pass": true
+        },
+        {
+          "name": "Language selection en",
+          "pass": true
+        },
+        {
+          "name": "Language selection original",
+          "pass": true
+        },
+        {
+          "name": "Original and Odia share source text",
+          "pass": true
+        },
+        {
+          "name": "Named sizes",
+          "pass": true
+        },
+        {
+          "name": "Text size 28",
+          "pass": true
+        },
+        {
+          "name": "Text size 32",
+          "pass": true
+        },
+        {
+          "name": "Text size 24",
+          "pass": true
+        },
+        {
+          "name": "Language tabs and sizes visible inside reader menu",
+          "pass": true
+        },
+        {
+          "name": "Bookmark created",
+          "pass": true
+        },
+        {
+          "name": "Bookmark follows reading position",
+          "pass": true
+        },
+        {
+          "name": "Bookmark returns focus to saved line",
+          "pass": true
+        },
+        {
+          "name": "Regular partial underline",
+          "pass": true
+        },
+        {
+          "name": "Saved passage is listed",
+          "pass": true
+        },
+        {
+          "name": "Underline carried into quiet mode",
+          "pass": true
+        },
+        {
+          "name": "Translation underlines isolated",
+          "pass": true
+        },
+        {
+          "name": "Saved passage switches back to original",
+          "pass": true
+        },
+        {
+          "name": "360px drawer fits width",
+          "pass": true
+        },
+        {
+          "name": "Saved passage removal refreshes poem",
+          "pass": true
+        },
+        {
+          "name": "No horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "Mobile footer artwork clears navigation and links",
+          "pass": true
+        }
+      ],
+      "failures": []
+    },
+    "layouts": {
+      "state": "complete",
+      "cases": 24,
+      "checks": 351,
+      "failures": []
+    },
+    "pagination": {
+      "state": "complete",
+      "cases": 228,
+      "turns": 576,
+      "scrolledPages": 0,
+      "overflowSamples": [],
+      "failures": []
+    },
+    "edition_validation": "PASS:47 editions,801 poem pages,848 source hashes and800 reciprocal writer links",
+    "endings": "PASS:79 reviewed endings;801 preview/public readers",
+    "spacing": "PASS:24 restored poems in preview/public;source9 text preserved",
+    "unit_tests": {
+      "passed": 18,
+      "failed": 0,
+      "skipped": 5,
+      "skipped_scope": "Firestore emulator-only tests; no backend changes"
+    },
+    "public_build": "PASS with explicit Node24 runtime and ASTRO_TELEMETRY_DISABLED=1;47 datasets included;review fixtures/templates excluded",
+    "release_gate": "Unchanged:content_ready=false;release=false"
+  },
+  "limitations": [
+    "Real-device iPhone/iPad touch selection and subjective page-sound audition remain pending",
+    "Independent translation/linguistic review and known source holds remain;14 poems have missing language versions disabled",
+    "Shared site-wide accessibility certification and release readiness remain separate"
+  ],
+  "review": {
+    "independent": false,
+    "executor": "Current assistant; Samanta/Drishti role passes"
+  },
+  "publication_authorized": false,
+  "next_action": "User reviews applied poem pages; next page-type discussion is poet profiles."
+}

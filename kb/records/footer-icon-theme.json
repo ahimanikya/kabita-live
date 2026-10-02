@@ -1,0 +1,45 @@
+{
+  "status": "approved_and_applied",
+  "recorded_at": "2026-10-01T10:39:51.568948+00:00",
+  "request": "Replace generic footer icons with icons based on the artistic theme",
+  "direction": "Approved single-colour Earth & voice; original custom SVG forms, no third-party icon paths copied",
+  "preview": "http://127.0.0.1:8771/footer-icon-theme-review.html",
+  "full_page": "http://127.0.0.1:8771/poem-footer-icon-mock.html#footer",
+  "masters": "kb/artifacts/design/icon-studies/footer-earth-voice-v2",
+  "motifs": {
+    "Our story": "Tied palm-leaf manuscript",
+    "Send a poem": "Writing stylus and a new leaf",
+    "Contact": "Letter with a leaf seal",
+    "Facebook": "Recognisable f within an organic ink circle and leaf"
+  },
+  "specification": {
+    "viewbox": 24,
+    "stroke": 1.35,
+    "display_size": 24,
+    "touch_targets": 44,
+    "colour": "currentColor; inherits light and dark ink"
+  },
+  "checks": {
+    "svg_xml": "PASS",
+    "light_dark_at_360_1280": "PASS",
+    "named_links_and_touch_targets": "PASS",
+    "overflow": "none",
+    "independent": false
+  },
+  "scope": "Approved artistic footer icons applied across shared publication footer",
+  "next_action": "Continue page-type review",
+  "approval": {
+    "request": "Perfect",
+    "human": "Ahimanikya Satapathy",
+    "recorded_at": "2026-10-01T10:45:03.520869+00:00"
+  },
+  "application": {
+    "public_pages": 1307,
+    "browser_cases": 8,
+    "failures": 0,
+    "public_build": "PASS",
+    "catalogue_symbols": 35,
+    "historical_utility_icons": "Preserved; footer uses four new IDs",
+    "published": false
+  }
+}

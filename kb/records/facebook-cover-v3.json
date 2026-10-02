@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-09-30T08:57:57.694939+00:00",
+  "work_ref": "KBL-WORK-016",
+  "decision_ref": "KBL-DEC-026",
+  "authorization": "The odia line can be one line",
+  "status": "published_and_verified",
+  "generation_mode": "Built-in image_gen image edit.",
+  "asset": "artifacts/social/facebook-2026-09-30/cover-v3.png",
+  "sha256": "0dd5668b826320f288caf6b6926944f1db3631187f4229a1ddd6370fab33e1a7",
+  "prompt": "artifacts/social/facebook-2026-09-30/cover-v3-prompt.txt",
+  "caption": "artifacts/social/facebook-2026-09-30/cover-v2-caption.txt",
+  "reference": "artifacts/social/facebook-2026-09-30/cover-v2.png",
+  "previous_versions_preserved": true,
+  "change": "Odia signature arranged on one line: ମାଟିର ମହକ · ମନର ସ୍ୱର. English subtitle moved upward beneath it.",
+  "facebook_photo_url": "https://www.facebook.com/photo/?fbid=122096981325498224&set=a.122096972637498224",
+  "verification": [
+    "Generated image and Facebook crop visually inspected.",
+    "Observed replacement cover URL, saved caption and AI content label."
+  ],
+  "evidence": [
+    "artifacts/social/facebook-2026-09-30/facebook-cover-v3-live.png"
+  ],
+  "independent_review": false,
+  "limitations": [
+    "Desktop crop verified; mobile device view not separately tested.",
+    "Same-assistant visual review, not native-language certification."
+  ],
+  "website_linking": "Deferred until migration; no site design changes."
+}

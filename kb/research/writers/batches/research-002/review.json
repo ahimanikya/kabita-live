@@ -1,0 +1,31 @@
+{
+  "batch": "research-002",
+  "writer_ids": [
+    41,
+    377,
+    233,
+    433,
+    415
+  ],
+  "reviewed_at": "2026-10-01T12:42:24.632509+00:00",
+  "status": "verified",
+  "independent": false,
+  "reader_drafts": 5,
+  "externally_corroborated": 4,
+  "source_limited": [
+    377
+  ],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "passed:429 profiles,20 narratives,798 contribution links",
+    "source_preservation": "pass with five documented concurrent corrections; 800 of805 inputs unchanged;15 existing narrative records unchanged",
+    "editions": "passed:799 active poems,2 archived entries; corrected archive-aware validator"
+  },
+  "concurrent_work": {
+    "thread": "01a0f159-e48e-7071-a26f-300966922b0c",
+    "scope": "Poems332,506,385,727 and writer62 quote reconciliation. Preserve those corrections; do not revert them to satisfy the old checker.",
+    "evidence": "artifacts/content-reconciliation/2026-10-01/file-changes.json"
+  },
+  "resume": "Continue research-003.",
+  "publication": "No deployment or push. Profile layout mock remains awaiting user discussion."
+}

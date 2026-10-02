@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-02T09:35:49.931336+00:00",
+  "batch": "portrait-002",
+  "writer_ids": [
+    77,
+    369,
+    125,
+    398,
+    388
+  ],
+  "verification": "passed",
+  "checks": [
+    "Public Astro build passed under Node 24",
+    "Author pages: 429 profiles, 14 artistic portraits, 410 photos, 3 initials; PASS",
+    "Edition integrity checker passed",
+    "870 protected source/content files unchanged; only authorized portrait map differs from baseline",
+    "All original portrait source hashes match provenance",
+    "Desktop 1280px and mobile 360px representative profile loaded without overflow",
+    "All five directory thumbnails loaded as 64px circles"
+  ],
+  "independent": false,
+  "limitations": [
+    "Same-assistant likeness comparison; independent author/editor review pending",
+    "Soft source detail for writer 77, warmer lighting for writer 125, fine jewelry interpretation for writer 388 need review",
+    "Local only; no publication"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile.png",
+    "directory.png",
+    "author-check.json",
+    "edition-check.json"
+  ]
+}

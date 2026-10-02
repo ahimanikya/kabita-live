@@ -1,0 +1,105 @@
+/* Existing Earth & Voice marks and compact waterline, shared with reviewed pages. */
+.collection-tools-row{display:flex;justify-content:flex-end;margin:0 0 8px}
+.collection-reader-tools{position:relative;font:16px/1.5 var(--ui)}
+#collection-tools-button{display:flex;align-items:center;gap:8px;min-height:44px;padding:0 4px}
+.reader-aa{font:600 25px var(--serif);color:var(--rust)}
+.collection-reader-panel{position:fixed;z-index:20;width:min(360px,calc(100% - 32px));max-height:calc(100dvh - 32px);overflow:auto;box-sizing:border-box;padding:16px;background:var(--paper);border:1px solid var(--line);border-top:2px solid var(--rust);box-shadow:0 6px 24px #0002}
+.collection-reader-panel[hidden]{display:none}
+.collection-tools-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}.collection-tools-head button{min-width:44px;min-height:44px;font-size:26px}
+.collection-reader-panel .collection-tools-label{font:14px var(--ui);margin:12px 0 6px;color:var(--muted)}
+.collection-choices{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-bottom:16px}
+.collection-sizes{grid-template-columns:repeat(3,minmax(0,1fr))}
+.collection-choices button{min-height:48px;padding:8px 4px;font:15px var(--ui)}
+.collection-choices button[aria-pressed=true]{box-shadow:inset 0 -3px 0 var(--rust);color:var(--rust)}
+.collection-reader-panel p{font:14px/1.5 var(--ui);color:var(--muted);margin:0 0 8px}
+.finder-label{display:flex;align-items:center;gap:8px}.finder-label svg{width:22px;height:22px;flex:0 0 22px;color:var(--rust)}
+[data-collection-reader][data-text-size=large] .poem-row h3{font-size:32px}
+[data-collection-reader][data-text-size=extra-large] .poem-row h3{font-size:38px}
+[data-collection-reader][data-text-size=large] .poem-row .byline{font-size:18px}
+[data-collection-reader][data-text-size=extra-large] .poem-row .byline{font-size:20px}
+.poem-finder{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:24px;align-items:end;margin-bottom:24px}
+.poem-finder .search-field{margin:0}
+.poem-edition-jump>div{display:flex;gap:8px}.poem-edition-jump select{min-width:0;width:100%;min-height:48px;padding:10px;background:var(--paper);color:var(--ink);border:1px solid var(--line);font:16px var(--ui)}
+.poem-pagination{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:28px 0;font:14px var(--ui)}
+.poem-pagination[hidden],.poems-artistic .poem-row[hidden]{display:none}
+.poem-pagination button:disabled{opacity:.4;cursor:default}
+@media(max-width:760px){.poem-finder{grid-template-columns:minmax(0,1fr);gap:16px}.poem-pagination{gap:8px}.poem-pagination .btn{padding:10px 14px}}
+.discovery-label,.poems-artistic .page-head-copy>.discovery-label{display:flex;align-items:center;gap:10px;min-height:0;max-width:none}
+.discovery-label svg{width:26px;height:26px;flex:0 0 26px;color:var(--rust)}
+.poems-artistic .page-head{padding-top:22px;padding-bottom:12px;margin-bottom:12px}
+.poems-artistic .page-head h1{font-size:clamp(36px,4vw,58px);line-height:1.12}
+.poems-artistic .page-head p{font-size:19px;line-height:1.6}
+:is(.current-edition,.artistic-edition) .edition-jump svg{width:24px;height:24px;color:var(--rust)}
+:is(.current-edition,.artistic-edition) .edition-story:before{content:"";display:block;width:115px;height:23px;margin:0 0 18px;background:url("poetic-waterline.svg") left center/115px 23px no-repeat}
+@media(max-width:760px){
+ .poems-artistic .page-head{padding-top:4px;gap:12px;margin-bottom:12px}
+ .poems-artistic .page-head h1{font-size:34px;margin:12px 0 14px}
+ .poems-artistic .page-head p{font-size:18px;line-height:1.55}
+ .poems-artistic .page-head .opening-art{width:225px!important;max-width:70%;height:150px;margin:4px 0 0 auto!important;justify-self:end}
+ .poems-artistic .page-head .opening-art img{width:100%;height:150px;object-fit:contain}
+}
+
+/* One edition-style list, with a compact finder for the full collection. */
+.poems-artistic .collection-contents{margin-top:0;padding-top:0}
+.poems-artistic .collection-contents .section-head{margin-bottom:16px}
+.poem-finder{grid-template-columns:minmax(0,1fr) auto;gap:16px;margin-bottom:12px}
+.poem-finder .collection-tools-row{margin:0;align-self:end}
+.poem-finder .finder-label{font:13px/1.4 var(--ui);margin-bottom:6px;color:var(--muted)}
+#collection-tools-button{font:14px var(--ui);min-height:48px;white-space:nowrap}
+.collection-issue{display:block;font:13px/1.4 var(--ui);color:var(--muted);margin-top:4px}
+.edition-poet-context .row-author .collection-issue a{display:inline;min-height:0}
+.collection-tools-head{font:14px var(--ui);margin-bottom:4px}
+.collection-reader-panel .collection-tools-label{font:12px/1.4 var(--ui);margin:8px 0 4px}
+.collection-choices{margin-bottom:8px}
+.collection-choices button{font-size:14px;min-height:44px;padding:6px 3px}
+.collection-reader-panel p{font-size:12px;line-height:1.4}
+#collection-tools-reset{font:13px var(--ui);min-height:44px}
+@media(max-width:480px){
+ .poem-finder{gap:10px}
+ #collection-tools-button{font-size:13px;gap:4px}
+ .poem-finder .search-field input{padding:12px 10px}
+ .poems-artistic .collection-contents .section-head h2{font-size:26px}
+ .collection-issue{margin-top:3px}
+}
+
+/* Keep catalogue actions together at the left edge of the contents heading. */
+.poems-artistic .collection-heading{display:flex;flex-direction:row;justify-content:flex-start;align-items:center;gap:8px 20px;flex-wrap:wrap}
+.collection-heading h2{margin:0}
+.collection-heading .collection-tools-row{margin:0;justify-content:flex-start}
+.collection-contents .poem-finder{grid-template-columns:minmax(0,1fr)}
+
+/* Search and catalogue choices share a compact row, without another toolbar. */
+.collection-contents .poem-finder-options{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr) minmax(0,1fr);gap:14px;margin-bottom:4px;align-items:end}
+.poem-finder-options .search-field label,.finder-choice{display:block;min-width:0;width:100%}
+.poem-finder-options .search-field input,.finder-choice select{width:100%;min-width:0;height:48px;padding:10px 12px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:16px/1.4 var(--ui);border-radius:0}
+.finder-choice .finder-label{display:block;font:13px/1.4 var(--ui);margin-bottom:6px;color:var(--muted)}
+.finder-summary{display:flex;justify-content:space-between;align-items:center;gap:8px 16px;min-height:44px;margin:0 0 8px;font:13px var(--ui)}
+.finder-summary .filter-status{margin:0;min-height:0}
+.finder-summary #filter-reset{font-size:13px;min-height:44px;flex-shrink:0}
+@media(max-width:760px){
+ .collection-contents .poem-finder-options{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 12px}
+ .poem-finder-options .search-field{grid-column:1/-1}
+ .finder-summary{flex-wrap:wrap;gap:0 12px;margin-bottom:4px}
+}
+
+.collection-actions{display:flex;align-items:center;justify-content:flex-start;gap:8px 22px;flex-wrap:wrap;margin:0 0 4px;font:14px var(--ui)}
+.collection-actions .collection-tools-row{margin:0}
+.collection-actions .collection-archive{margin-left:auto;min-height:44px;font-size:13px;color:var(--muted)}
+.edition-contents-separator{width:115px;height:23px;margin:0 0 4px;background:url("poetic-waterline.svg") left center/115px 23px no-repeat}
+.collection-actions>button{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:4px 0;color:var(--muted);font:14px var(--ui)}
+.collection-actions>button svg{width:22px;height:22px;color:var(--rust)}
+.collection-actions #collection-tools-button{font-size:14px;min-height:44px}
+@media(max-width:480px){.collection-actions{gap:8px 16px}.collection-actions>button{font-size:13px;gap:5px}.collection-actions #collection-tools-button{font-size:13px}}
+
+/* One compact transition from cover story to reading actions and contents. */
+#main .edition-opening{margin-bottom:24px}
+.edition-opening+.edition-contents{padding-top:8px}
+.edition-contents[data-collection-reader]>.section-head{margin-bottom:8px}
+@media(min-width:761px){
+ .edition-opening+.edition-contents .edition-poem-row:first-child{padding-top:16px}
+}
+@media(max-width:760px){
+ #main .edition-opening{margin-bottom:20px}
+ .edition-opening+.edition-contents{padding-top:4px}
+ .edition-contents[data-collection-reader]>.section-head{margin-bottom:16px;flex-wrap:wrap;gap:0 16px}
+}

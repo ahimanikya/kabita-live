@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-30",
+  "status": "reverted-by-user",
+  "source_text": "Original source hash and stanza assertions pass during build; translations unchanged.",
+  "checks": {
+    "javascript_syntax": "pass",
+    "range_tests": 5,
+    "desktop_viewport": [
+      1280,
+      720
+    ],
+    "first_verse_top_px": 620.421875,
+    "toolbar_width_px": 730,
+    "verse_width_px": 730,
+    "size_menu": "28px selection and close verified",
+    "help": "opens and Escape closes",
+    "translations": "Odia and Hindi switching verified",
+    "mobile": "360px iframe screenshot reviewed"
+  },
+  "limits": [
+    "Native touch selection and context toolbar require hands-on phone review.",
+    "No full-site rollout or publication."
+  ],
+  "historical_snapshot": "artifacts/history/revisions/revision-60-reader-before-clean-preview",
+  "decision": "revert"
+}

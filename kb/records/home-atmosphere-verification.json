@@ -1,0 +1,147 @@
+{
+  "scope": "Review-only homepage mockups",
+  "independent": false,
+  "checks": {
+    "light": {
+      "night": false,
+      "status": "Light appearance"
+    },
+    "systemDark": true,
+    "systemLight": {
+      "night": false,
+      "selected": "system",
+      "status": "Following your device · Light"
+    },
+    "escape": {
+      "closed": true,
+      "focus": true
+    },
+    "layouts": [
+      {
+        "artFilter": "none",
+        "broken": 0,
+        "group": "art",
+        "night": false,
+        "scrollWidth": 1910,
+        "variant": "0",
+        "width": 1910
+      },
+      {
+        "artFilter": "none",
+        "broken": 0,
+        "group": "art",
+        "night": false,
+        "scrollWidth": 1910,
+        "variant": "1",
+        "width": 1910
+      },
+      {
+        "artFilter": "none",
+        "broken": 0,
+        "group": "art",
+        "night": false,
+        "scrollWidth": 1910,
+        "variant": "2",
+        "width": 1910
+      },
+      {
+        "artFilter": "none",
+        "broken": 0,
+        "group": "appearance",
+        "night": false,
+        "scrollWidth": 1910,
+        "variant": "0",
+        "width": 1910
+      },
+      {
+        "artFilter": "none",
+        "broken": 0,
+        "group": "appearance",
+        "night": true,
+        "scrollWidth": 1910,
+        "variant": "1",
+        "width": 1910
+      },
+      {
+        "artFilter": "none",
+        "broken": 0,
+        "group": "appearance",
+        "night": true,
+        "scrollWidth": 1910,
+        "variant": "2",
+        "width": 1910
+      },
+      {
+        "artFilter": "none",
+        "broken": 0,
+        "group": "art",
+        "night": false,
+        "scrollWidth": 360,
+        "variant": "0",
+        "width": 360
+      },
+      {
+        "artFilter": "none",
+        "broken": 0,
+        "group": "art",
+        "night": false,
+        "scrollWidth": 360,
+        "variant": "1",
+        "width": 360
+      },
+      {
+        "artFilter": "none",
+        "broken": 0,
+        "group": "art",
+        "night": false,
+        "scrollWidth": 360,
+        "variant": "2",
+        "width": 360
+      },
+      {
+        "artFilter": "none",
+        "broken": 0,
+        "group": "appearance",
+        "night": false,
+        "scrollWidth": 360,
+        "variant": "0",
+        "width": 360
+      },
+      {
+        "artFilter": "none",
+        "broken": 0,
+        "group": "appearance",
+        "night": true,
+        "scrollWidth": 360,
+        "variant": "1",
+        "width": 360
+      },
+      {
+        "artFilter": "none",
+        "broken": 0,
+        "group": "appearance",
+        "night": true,
+        "scrollWidth": 360,
+        "variant": "2",
+        "width": 360
+      }
+    ],
+    "mobileEscape": {
+      "appearanceClosed": true,
+      "closed": true,
+      "focus": true
+    },
+    "remembersLight": true,
+    "approvalSeparation": "Alternative preview · A · A fine warm keyline — recommended approved"
+  },
+  "contrastAgainstDarkPaper": {
+    "text": 12.56,
+    "muted": 7.88,
+    "accent": 7.68
+  },
+  "limitations": [
+    "Device colour-scheme emulation did not consistently produce a live change event in this browser; live OS changes remain to verify.",
+    "Not a complete accessibility certification."
+  ],
+  "productionHomepageChanged": false
+}

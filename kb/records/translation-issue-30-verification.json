@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 30,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    538,
+    539,
+    540,
+    541,
+    542,
+    543,
+    544,
+    545
+  ],
+  "source_held": [],
+  "new_translations": 16,
+  "total_drafts": 556,
+  "remaining_translations": 1046,
+  "batches": [
+    "batch-061",
+    "batch-062"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 8 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 16 versions; all refrains and short-line forms retained",
+    "rendered_catalogue_parity": "pass for all 16 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "538": "Arithmetic-context interpretation of unresolved life wording remains provisional.",
+    "540": "Charulata name/epithet and nischal meaning require language review.",
+    "543": "Glass shells preserved literally; surreal imagery not explained away.",
+    "544": "Mole transliterated to avoid species substitution; literary natural-history claims not independently verified."
+  },
+  "publication": false,
+  "next_edition": 29,
+  "next_poem_ids": [
+    529,
+    533,
+    530,
+    531,
+    532
+  ]
+}

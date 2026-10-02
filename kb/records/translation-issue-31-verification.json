@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 31,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    548,
+    550,
+    546,
+    547,
+    551,
+    549,
+    552
+  ],
+  "source_held": [],
+  "new_translations": 14,
+  "total_drafts": 540,
+  "remaining_translations": 1062,
+  "batches": [
+    "batch-059",
+    "batch-060"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 7 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 14 versions; source fragments and closing material retained",
+    "rendered_catalogue_parity": "pass for all 14 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "550": "Literal br> source fragment retained for explicit editorial cleanup.",
+    "551": "Historical and devotional assertions preserved as poem, not independently verified.",
+    "552": "Extensive uncertain syntax flagged. Unresolved hit least fragment retained literally in quotes rather than reconstructed."
+  },
+  "publication": false,
+  "next_edition": 30,
+  "next_poem_ids": [
+    538,
+    539,
+    540,
+    541,
+    542
+  ]
+}

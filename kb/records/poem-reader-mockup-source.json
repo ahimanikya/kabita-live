@@ -1,0 +1,21 @@
+{
+  "scope": "Review-only layouts; no applied reader change",
+  "baselines": [
+    {
+      "file": "poem-dokana.html",
+      "sha256": "65738fab57c98ae53d3a37a35ac78d7b097d0306564343438cef1cc1082b0286"
+    },
+    {
+      "file": "poem-kshanika.html",
+      "sha256": "bb13f33465a13d1f015cac4c20b52e537c080d66b69537eeaebd118b6115068c"
+    },
+    {
+      "file": "poem-drink.html",
+      "sha256": "0b444c8cb79f1474e5cbe7d3211da8d90214aa7b2da7cefc1a715b513c3b7820"
+    }
+  ],
+  "deferred": [
+    "Poem underlining interaction",
+    "Language-sensitive poetry audio"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "727": {
+    "reason": "Title/author conflict: PRESENCE IN ABSENCE by Dilip Mohapatra contains Time plus the exact text of poem 761, Time by Divya K Unni in Issue 43. Both preserved HTML captures reproduce these differing attributions; no distinct matching original found locally.",
+    "evidence": "projects/site/content/editions/issue-41/poem-727.json; projects/site/content/editions/issue-43/poem-761.json; kb/artifacts/content-import/editions/issue-41/poem-727.html; kb/artifacts/content-import/editions/issue-43/poem-761.html",
+    "action": "Obtain the correct text for Presence in Absence and confirm authorship of Time. Preserve both published records and existing poem-761 drafts; do not duplicate translations under the conflicting attribution.",
+    "targets": [
+      "hi",
+      "or"
+    ]
+  },
+  "506": {
+    "reason": "Combined-source authorship conflict: The lovelorn crane is attributed to Paramita Mukherjee Mullick, but its body appends Cheerio with an explicit Gopal Lahiri credit and seven additional couplets. The preserved original HTML contains the same mixture; no separate local Cheerio record found.",
+    "evidence": "projects/site/content/editions/issue-27/poem-506.json; kb/artifacts/content-import/editions/issue-27/poem-506.html",
+    "action": "Confirm the intended two poem records, their boundaries and author identities; reconcile attribution before generating translations under a single author. Preserve the full captured text and embedded Gopal Lahiri credit.",
+    "targets": [
+      "or",
+      "hi"
+    ]
+  },
+  "385": {
+    "reason": "Source body contains only the title ଅମ୍ଲାନ ବନ୍ଧୁତ୍ୱ, repeated verbatim. Preserved original HTML likewise has just this title in the poem paragraph and no poem body or embedded poem image; full original text is not available locally.",
+    "evidence": "projects/site/content/editions/issue-18/poem-385.json; kb/artifacts/content-import/editions/issue-18/poem-385.html",
+    "action": "Obtain and identity-match the complete Odia poem by Monalisa Dash Dwibedy, or explicit editorial confirmation that this is intentionally the entire one-line poem; do not treat a title-only capture as a complete translation.",
+    "targets": [
+      "hi",
+      "en"
+    ]
+  },
+  "332": {
+    "reason": "Combined-source authorship conflict: You Will Come Again by Nurul Hoque appends 9. Lethe with an explicit Pritha Chakraborty credit and a distinct poem. Preserved HTML confirms both. Issue 27 poem 507 is also Lethe by Pritha but is a different text, so it cannot replace this appended version.",
+    "evidence": "projects/site/content/editions/issue-14/poem-332.json; kb/artifacts/content-import/editions/issue-14/poem-332.html; projects/site/content/editions/issue-27/poem-507.json",
+    "action": "Confirm separate poem records, boundaries and author identities for the two Issue 14 works before translating under a single author. Preserve complete captured text, embedded Pritha credit and existing poem-507 translations.",
+    "targets": [
+      "or",
+      "hi"
+    ]
+  }
+}

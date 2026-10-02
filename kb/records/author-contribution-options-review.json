@@ -1,0 +1,35 @@
+{
+  "status": "approved-and-applied",
+  "artifact": "kb/artifacts/review/site/author-contribution-options.html",
+  "options": {
+    "a": "Quiet table",
+    "b": "Poem cards",
+    "c": "A little of the poem"
+  },
+  "recommendation": "a",
+  "verification": {
+    "profiles_validated": 429,
+    "contribution_links_checked": 800,
+    "build": "PASS",
+    "edition_integrity": "PASS",
+    "browser": {
+      "width": 360,
+      "profiles_checked": [
+        "82",
+        "337",
+        "257",
+        "233",
+        "347",
+        "56",
+        "1",
+        "43"
+      ],
+      "horizontal_overflow": false,
+      "mobile_dates": "visible below title where poems exist",
+      "desktop": "visual review passed"
+    }
+  },
+  "scope": "Applied to shared author/editor contribution renderer; local only.",
+  "selected_option": "a",
+  "approval_quote": "Let's go with A"
+}

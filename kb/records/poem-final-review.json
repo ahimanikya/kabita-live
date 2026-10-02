@@ -1,0 +1,82 @@
+{
+  "status": "reviewed_awaiting_discussion",
+  "recorded_at": "2026-10-01T08:23:46.082538+00:00",
+  "scope": "Poem page type; review only, no reader changes",
+  "review": {
+    "independent": false,
+    "executor": "Current assistant; Drishti role pass"
+  },
+  "pages": [
+    "poem-8.html",
+    "poem-kshanika.html",
+    "poem-drink.html",
+    "poem-385.html"
+  ],
+  "checks": {
+    "desktop_width": 1280,
+    "mobile_widths": [
+      320,
+      360,
+      390
+    ],
+    "horizontal_overflow": "None in inspected examples, including32px English translation at320px",
+    "controls": "Translation changes verse/title/panel label; arrow-key language navigation and text-size buttons operate; share dialog opens and closes",
+    "links": {
+      "poem_routes": 801,
+      "local_links_assets_checked": 21526,
+      "missing": []
+    },
+    "first_verse_y": {
+      "odia_360": 808,
+      "hindi_320": 794,
+      "english_390": 826
+    }
+  },
+  "findings": [
+    {
+      "id": "P01",
+      "priority": "medium",
+      "finding": "Opening delays verse on mobile; artwork, bilingual byline, actions and two control rows precede reading.",
+      "proposal": "Compact heading/byline/action spacing; discuss a mobile artwork-position alternative without reducing reading font size."
+    },
+    {
+      "id": "P02",
+      "priority": "medium",
+      "finding": "Poet names repeat English and native script despite approved English-only naming direction elsewhere.",
+      "proposal": "English-only byline; preserve full names on profiles/source records."
+    },
+    {
+      "id": "P03",
+      "priority": "low",
+      "finding": "Write to the editor precedes the poem and competes with reading. Source language repeats in metadata and tabs.",
+      "proposal": "Move private feedback action to poem end; keep original identification in tabs."
+    },
+    {
+      "id": "P04",
+      "priority": "medium",
+      "finding": "Share after selecting English retains original title and base URL; selected language is not carried by the link.",
+      "proposal": "Share the selected reading version with suitable title and language link while retaining source authorship."
+    },
+    {
+      "id": "P05",
+      "priority": "content_hold",
+      "finding": "Poem385 is still a title-only captured source; reader shows a completeness notice.",
+      "proposal": "Keep existing source hold; do not invent text. Consider earlier notice and avoid unnecessary reading-size controls."
+    }
+  ],
+  "retain": [
+    "Approved typography and paper",
+    "Restored source stanza breaks",
+    "Borderless artwork and canonical caption",
+    "Original/translation choices",
+    "Hidden selection-based underlining",
+    "Quiet previous/next and More by this poet"
+  ],
+  "limits": [
+    "No independent linguistic review",
+    "No full accessibility certification or200% browser zoom audit",
+    "No live external share submission",
+    "Selection underlining and saved-mark persistence not retested in this pass"
+  ],
+  "next_action": "Discuss findings before preparing a revised mockup."
+}

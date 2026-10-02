@@ -1,0 +1,18 @@
+/* Candidate cards only; never included in the reader site. */
+.card-study{scroll-margin-top:24px}
+.card-study .language-label{color:var(--rust);margin-bottom:20px;min-height:28px;display:flex;align-items:center}
+.card-identity{display:grid;grid-template-columns:64px minmax(0,1fr);gap:16px;align-items:center;min-height:144px}
+.card-identity-copy{min-width:0}.card-study .card-identity h3{font-size:28px;line-height:1.5;margin:0 0 4px}
+.card-study .card-identity h3.en{font-size:32px;line-height:1.2}
+.card-study .card-identity .byline{font-size:15px;line-height:1.5;margin:0;padding:8px 0;min-height:44px}
+.card-portrait{display:block;min-width:44px;min-height:44px}.card-portrait img{display:block;width:64px;height:64px;object-fit:cover;object-position:center 25%;border-radius:50%}
+.card-study .language-card .excerpt{font-size:22px;line-height:2;white-space:pre-line;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden;height:176px;margin:24px 0}
+.card-study .language-card>.text-link{margin:0}
+.card-study>.text-link{margin-top:20px}
+[data-card-variant="1"] .card-identity{grid-template-columns:80px minmax(0,1fr)}
+[data-card-variant="1"] .card-portrait img{width:80px;height:107px;object-fit:contain;border-radius:0}
+[data-card-variant="2"] .card-identity{grid-template-columns:96px minmax(0,1fr);gap:20px}
+[data-card-variant="2"] .card-portrait img{width:96px;height:120px;object-fit:contain;border-radius:0}
+[data-card-variant="2"] .card-identity h3{font-size:24px}
+@media(max-width:600px){.card-identity{min-height:132px}.card-study .language-card .excerpt{font-size:21px;height:168px}.card-study .three{gap:32px}}
+@media(min-width:701px){.card-study .three{align-items:start}}

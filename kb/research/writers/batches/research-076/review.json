@@ -1,0 +1,35 @@
+{
+  "batch": "research-076",
+  "status": "verified",
+  "independent": false,
+  "writer_ids": [
+    146,
+    122,
+    107,
+    101,
+    100
+  ],
+  "reader_drafts": 5,
+  "externally_corroborated": 4,
+  "source_limited": [
+    107
+  ],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "PASS",
+    "editions": "PASS",
+    "preserved_source_files": 805,
+    "existing_narratives_preserved": 385,
+    "rendered_narratives": 5,
+    "browser_visual": "Not repeated; prose/data only, approved renderer unchanged."
+  },
+  "limitations": [
+    "Independent author/editor review pending.",
+    "107 has no captured biography; possible Bakaya identity not established, so name and poem-based scope preserved.",
+    "146 source125 contains two titled pieces and a malformed opening token, retained unchanged.",
+    "122 Black Eagle metadata and100 Atomicity publisher metadata read from search index; direct access failed or challenged.",
+    "No concurrent source corrections detected against baseline."
+  ],
+  "resume": "research-077",
+  "publication": "No deployment or push."
+}

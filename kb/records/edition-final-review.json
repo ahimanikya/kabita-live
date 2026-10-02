@@ -1,0 +1,57 @@
+{
+  "status": "reviewed_awaiting_discussion",
+  "independent": false,
+  "page_type": "Edition",
+  "reviewed_examples": [
+    47,
+    27,
+    3,
+    1
+  ],
+  "retain": [
+    "Cover story and right-hand desktop cover",
+    "Full-width mobile cover",
+    "Within these pages heading",
+    "Desktop language column and book icons",
+    "Mobile cards and subtle shared footer"
+  ],
+  "findings": [
+    {
+      "id": "EDITION-01",
+      "priority": "recommended",
+      "finding": "Bilingual author names joined with slashes wrap heavily on mobile and are visually inconsistent with homepage bylines.",
+      "proposal": "One consistent display name in each contents card; retain full bilingual identity on the profile. Discuss English primary name matching homepage versus poem-language name before applying."
+    },
+    {
+      "id": "EDITION-02",
+      "priority": "recommended",
+      "finding": "All languages takes enough space that English wraps to a second row on320/360px. Seven editions offer filters for absent languages. Issue27 has only English but still offers Odia and Hindi.",
+      "proposal": "Use All; show only languages present in the edition. Omit filter controls entirely for a single-language edition. Keep readable font and touch targets."
+    },
+    {
+      "id": "EDITION-03",
+      "priority": "optional",
+      "finding": "At360px Issue47 contents start about1110px from the top, after cover narrative and full-width cover.",
+      "proposal": "A quiet in-page link near the date to jump directly to poems; preserve full story and cover."
+    }
+  ],
+  "checks": {
+    "local_links": "3057 across47 editions; no missing local file/fragment",
+    "contents_counts": "All47 edition list counts match manifests",
+    "duplicate_ids": "none in edition HTML",
+    "desktop": "Issue47 at1280; Hindi filter correctly displays2 and hides14 with accessible status",
+    "empty_state": "Issue27 Odia filter correctly shows0 and explains no poems in language",
+    "mobile": "Issue47 at360,Issue3 at320 with45poems,Issue1 at390; no horizontal overflow",
+    "keyboard": "Language filter activated with Enter; full keyboard audit not complete"
+  },
+  "limitations": [
+    "Live external Facebook/source URLs not verified in this pass.",
+    "Not full accessibility certification;200% text resizing and screen-reader review remain open.",
+    "No design changes applied."
+  ],
+  "evidence": [
+    "evidence/edition-final-review/link-checks.json",
+    "evidence/edition-final-review/mobile-contents.png",
+    "evidence/edition-final-review/check.html"
+  ]
+}

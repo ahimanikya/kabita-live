@@ -1,0 +1,30 @@
+<!doctype html><meta charset="utf-8"><title>Applied reader layout checks</title><style>body{font:14px system-ui}iframe{display:block;width:360px;height:740px}button{padding:12px}pre{white-space:pre-wrap}</style><button id="run">Check reader layouts</button><pre id="result">Ready</pre><iframe title="Applied reader layout" src="/poem-8.html"></iframe><script>
+const frame=document.querySelector('iframe'),out=document.querySelector('#result'),delay=ms=>new Promise(r=>setTimeout(r,ms));
+document.querySelector('#run').onclick=async()=>{
+ const checks=[],failures=[];let cases=0;const check=(name,pass,context)=>{checks.push({name,pass:!!pass,...context});if(!pass)failures.push({name,...context})};
+ try{for(const route of ['poem-8.html','poem-9.html','poem-kshanika.html','poem-drink.html','poem-772.html','poem-385.html','poem-645.html','poem-30.html'])for(const width of [360,820,1280]){
+ frame.style.width=width+'px';frame.style.height=(width===820?1000:780)+'px';await new Promise(resolve=>{frame.onload=resolve;frame.src='/'+route+'?check=layout'});const d=frame.contentDocument,w=frame.contentWindow,q=s=>d.querySelector(s),click=s=>{q(s).focus();q(s).click()};await d.fonts.ready;await delay(80);
+ const data=JSON.parse(q('#reading-data').textContent),context={route,width,id:data.id};
+ check('No page overflow',d.documentElement.scrollWidth<=width,context);
+ check('Correct starting poem',q('.poem-heading h1').textContent===data.variants[data.source_language].title,context);
+ const menu=q('#poem-secondary-links'),art=q('.poem-art');check('Menu placement',width<=760?menu.parentElement.id==='footer':menu.parentElement===art,context);
+ const boat=q('.earth-edge').getBoundingClientRect(),end=q('.poem-reading-end').getBoundingClientRect();check('Footer clears navigation',boat.top>=end.bottom+15,context);
+ click('#page-bookmarks-button');check('Four language choices',d.querySelectorAll('[data-reading-language]').length===4,context);
+ for(const code of ['original','or','hi','en']){const b=q(`[data-reading-language="${code}"]`);if(!b.disabled){b.click();check('Chosen language '+code,q('#experience-verse').lang===(code==='original'?data.source_language:code),context)}}
+ click('[data-reading-language="original"]');click('[data-size="32"]');check('Large reading does not overflow',d.documentElement.scrollWidth<=width,context);click('[data-size="24"]');click('#page-bookmarks-close');
+ const spec=JSON.parse(q('#focus-edition-data').textContent),key='kabita-live-quiet-reader-v1:'+(spec.url||data.id),saved=w.localStorage.getItem(key);const markkeys=Object.keys(data.variants).map(code=>'kbl-poem-marks-v1:'+data.id+':'+code),marks=markkeys.map(key=>[key,w.localStorage.getItem(key)]);
+ try{w.localStorage.removeItem(key);click('#open-focus');for(let n=0;n<200&&!q('#focus-reader').open;n++)await delay(20);await delay(220);
+ check('Quiet reader opens current poem',q('#focus-reader').open&&Number(q('#focus-pages').dataset.poemId)===data.id,context);
+ const expected=data.variants[data.source_language].stanzas.flat().filter((t,i)=>!(data.variants[data.source_language].hidden_lines||[]).includes(i)&&t.trim()!=='∎').join(''),seen=[];
+ let turns=0;while(turns++<300){for(const line of d.querySelectorAll('#focus-pages [data-unit]'))seen.push(line.textContent);if(q('#focus-next').getAttribute('aria-label')==='Next poem')break;click('#focus-next');await delay(0)}
+ check('All original verse survives pagination',expected===seen.join(''),context);
+ if(spec.url){const edition=await fetch('/'+spec.url).then(r=>r.json());check('Correct edition contents',q('#focus-poem').options.length===edition.poems.length,context)}else check('Unassigned poem reads alone',q('#focus-poem').options.length===1,context);
+ click('#close-focus');await delay(30);check('Exit focus restored',d.activeElement===q('#open-focus'),context);
+ }finally{if(q('#focus-reader').open)click('#close-focus');await delay(40);if(saved===null)w.localStorage.removeItem(key);else w.localStorage.setItem(key,saved);for(const [key,value]of marks){if(value===null)w.localStorage.removeItem(key);else w.localStorage.setItem(key,value)}}
+ if(data.variants.en){click('#page-bookmarks-button');click('[data-reading-language="en"]');click('#page-bookmarks-close');click('[data-share]');check('Share follows translated title',q('#share-dialog').open&&q('#share-card h3').textContent===data.variants.en.title&&new URL(q('#share-url').value).searchParams.get('lang')==='en',context);click('[data-close]')}
+ cases++;out.textContent=JSON.stringify({state:'running',cases,checks:checks.length,failures},null,2);
+ }
+ out.textContent=JSON.stringify({state:'complete',cases,checks:checks.length,failures},null,2);
+ }catch(e){out.textContent=JSON.stringify({state:'failed',cases,error:e.message,failures},null,2)}
+};
+</script>

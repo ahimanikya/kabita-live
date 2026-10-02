@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Reader pagination check</title><style>body{font:14px system-ui}button{padding:14px}iframe{display:block;width:360px;height:740px}pre{white-space:pre-wrap}</style><button id="run">Check paging</button><pre id="results">Ready.</pre><iframe src="/poem-reading-mock.html?focus=1" title="Reader pagination test"></iframe><script>
+const frame=document.querySelector('iframe'),results=document.querySelector('#results');const tick=()=>new Promise(r=>setTimeout(r,0));
+document.querySelector('#run').onclick=async()=>{const failures=[],overflowSamples=[];let cases=0,turns=0,scrolledPages=0;const d=frame.contentDocument,w=frame.contentWindow,data=JSON.parse(d.querySelector('#focus-edition-data').textContent);if(!d.querySelector('#focus-reader').open)d.querySelector('#open-focus').click();await d.fonts.ready;await tick();
+const resumeKey='kabita-live-quiet-reader-review-v1',savedResume=w.localStorage.getItem(resumeKey);
+try{for(const [width,height,size] of [[360,740,'22'],[320,640,'30'],[820,1000,'22'],[1180,780,'22']]){
+ frame.style.width=width+'px';frame.style.height=height+'px';await new Promise(r=>setTimeout(r,160));
+ for(let pi=0;pi<data.poems.length;pi++)for(const lang of Object.keys(data.poems[pi].variants)){
+  function set(selector,val){const e=d.querySelector(selector);e.value=val;e.dispatchEvent(new Event('change',{bubbles:true}))}
+  set('#focus-poem',String(pi));set('#focus-language',lang);set('#focus-size',size);await tick();
+  const expected=data.poems[pi].variants[lang].stanzas.flat().filter((t,i)=>t.trim()!=='∎'&&!(data.poems[pi].variants[lang].hidden_lines||[]).includes(i)),seen=[];const pages=d.querySelector('#focus-pages');let safety=0;
+  // Ensure a fresh first page after changes.
+  set('#focus-poem',String(pi));
+  while(safety++<300){
+   for(const node of d.querySelectorAll('#focus-pages [data-unit]'))seen.push(node.textContent);
+   for(const node of d.querySelectorAll('#focus-pages .focus-page'))if(node.scrollHeight>node.clientHeight+1){scrolledPages++;overflowSamples.push({id:data.poems[pi].id,lang,width,size,client:node.clientHeight,scroll:node.scrollHeight,units:node.querySelectorAll("[data-unit]").length})};
+   if(d.documentElement.scrollWidth>w.innerWidth)failures.push({pi,lang,width,error:'horizontal overflow'});
+   if(d.querySelector('#focus-next').getAttribute('aria-label')==='Next poem')break;
+   d.querySelector('#focus-next').click();turns++;await tick();
+  }
+  if(expected.join('')!==seen.join(''))failures.push({pi,lang,width,size,error:'verse parity',expected:expected.length,actual:seen.length});
+  cases++;results.textContent=JSON.stringify({state:'running',cases,turns,scrolledPages,failures},null,2);
+ }
+}
+// First/last boundary controls.
+const choose=d.querySelector('#focus-poem');choose.value='0';choose.dispatchEvent(new Event('change'));if(!d.querySelector('#focus-prev').disabled)failures.push('First poem previous enabled');
+choose.value=String(data.poems.length-1);choose.dispatchEvent(new Event('change'));let n=0;while(!d.querySelector('#focus-next').disabled&&n++<300)d.querySelector('#focus-next').click();if(!d.querySelector('#focus-next').disabled)failures.push('Last poem next enabled');
+choose.value=String(data.poems.findIndex(p=>p.id===8));choose.dispatchEvent(new Event('change'));const lang=d.querySelector('#focus-language');lang.value='original';lang.dispatchEvent(new Event('change'));const size=d.querySelector('#focus-size');size.value='22';size.dispatchEvent(new Event('change'));
+results.textContent=JSON.stringify({state:'complete',cases,turns,scrolledPages,overflowSamples,failures},null,2);
+}catch(e){results.textContent=JSON.stringify({state:'failed',message:e.message,cases,failures},null,2)}finally{d.querySelector('#close-focus').click();if(savedResume===null)w.localStorage.removeItem(resumeKey);else w.localStorage.setItem(resumeKey,savedResume)}};
+</script></html>

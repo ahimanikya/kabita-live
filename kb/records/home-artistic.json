@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-02T05:41:42.628043+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "In the home page can we also apply for artistic outlook?",
+  "changes": [
+    "Existing kendu leaf beside issue label and featured-poems heading.",
+    "Existing manuscript motif in Read this edition and archive heading; artistic pen beside editors heading.",
+    "Original 115×23px leaf-and-waterline below opening; approved fonts, colors, artwork, copy and daily rotation preserved."
+  ],
+  "checks": [
+    "Public Node24 build passed: 1307 routes, 1306 indexed pages.",
+    "Edition check passed: 47 editions, 848 source hashes verified.",
+    "Only index.html changed across 2179 baseline HTML/content/data/featured-script files.",
+    "Desktop 1280px and mobile 390px/320px checked with no horizontal overflow.",
+    "16 featured-poem candidates and three displayed cards retained."
+  ],
+  "evidence": [
+    "artifacts/review/home-artistic/desktop.png",
+    "artifacts/review/home-artistic/mobile.png",
+    "artifacts/review/home-artistic/browser-checks.json",
+    "artifacts/review/home-artistic/integrity.json"
+  ],
+  "independent": false,
+  "limitations": [
+    "Same-assistant visual review; no publication."
+  ],
+  "next_action": "User reviews homepage artistic details."
+}

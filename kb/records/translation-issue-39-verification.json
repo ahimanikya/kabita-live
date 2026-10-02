@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 39,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    697,
+    706,
+    707,
+    691,
+    704,
+    705,
+    692,
+    693,
+    694,
+    695,
+    696,
+    698,
+    699,
+    700,
+    701,
+    702,
+    703
+  ],
+  "source_held": [],
+  "new_translations": 34,
+  "total_drafts": 260,
+  "remaining_translations": 1342,
+  "batches": [
+    "batch-025",
+    "batch-026",
+    "batch-027",
+    "batch-028",
+    "batch-029"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 17 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 34 versions; includes 38 blocks of novella 691 and 35 blocks of duplicated source 699",
+    "rendered_catalogue_parity": "pass for all 34 versions after completed build",
+    "original_rendered_stanzas": "unchanged",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "exceptional_structures": {
+    "691": "Mixed prose/verse novella retained in full, including dialogue, diary passages, quotation and closing material.",
+    "699": "Repeated body confirmed in both preserved HTML and source JSON; both occurrences translated and retained. Editorial reconciliation pending."
+  },
+  "publication": false,
+  "next_edition": 38,
+  "next_poem_ids": [
+    678,
+    688,
+    689,
+    683,
+    684
+  ]
+}

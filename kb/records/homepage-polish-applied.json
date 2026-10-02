@@ -1,0 +1,23 @@
+{
+  "status": "applied_locally_verified",
+  "authorization": {
+    "message": "Updated - only one suggestion - extract 4 lines - but remove empty lines, remove odia danda",
+    "visible_saved_review": {
+      "excerpt": "b",
+      "consistent_edition_labels": true,
+      "catalogue_driven_details": true
+    }
+  },
+  "excerpt": "ବନ୍ଦ ହୋଇଗଲା ଦୋକାନ\nସବୁ ଖୁସିର ପର୍ବରେ ପଡିଗଲା ପହଡ଼\nବର୍ଷାରେ ଭିଜିବା ବଂଦ ହୋଇଗଲା ତା`ର\nମନଖୋଲି ଗୀତ ଗାଇବା ଭୁଲିଗଲା ସେ",
+  "source_excerpt_preserved": "ବନ୍ଦ ହୋଇଗଲା ଦୋକାନ\nସବୁ ଖୁସିର ପର୍ବରେ ପଡିଗଲା ପହଡ଼ ।\n\nବର୍ଷାରେ ଭିଜିବା ବଂଦ ହୋଇଗଲା ତା`ର\nମନଖୋଲି ଗୀତ ଗାଇବା ଭୁଲିଗଲା ସେ ।",
+  "scope": "Homepage excerpt formatting, edition labels and catalogue-driven current/recent editions; source poems unchanged.",
+  "independent": false,
+  "checks": {
+    "public_build": "pass; 1307 indexed pages",
+    "edition_integrity": "pass; 47 editions, 848 unchanged source hashes",
+    "desktop_1280": "four lines in Odia; all excerpt areas176px; reading links align; no overflow",
+    "phone_360": "four continuous Odia lines visually verified, no horizontal overflow",
+    "originals": "source excerpts, poems and translations preserved",
+    "remaining": "Full accessibility and enlarged-text audit remain open; no publication"
+  }
+}

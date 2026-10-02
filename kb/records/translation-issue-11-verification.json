@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 11,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    278,
+    279,
+    269,
+    271,
+    272,
+    268,
+    270,
+    273,
+    274,
+    275,
+    276,
+    277,
+    280,
+    281,
+    282,
+    283,
+    298
+  ],
+  "source_held": [],
+  "new_translations": 34,
+  "total_drafts": 1078,
+  "remaining_translations": 524,
+  "batches": [
+    "batch-121",
+    "batch-122",
+    "batch-123",
+    "batch-124"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 17 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 34 versions",
+    "rendered_catalogue_parity": "pass for all 34 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "278": [
+      "All five blocks retained. Sandhuasi read tongs; flag/spinning-top image kept despite unusual syntax. Final na provisionally read alternative or rather than negation; mekhela chador retained. Requires Odia interpretation review."
+    ],
+    "279": [
+      "Three blocks retained. Self-burning remains source emotional metaphor. Three Lakshman lines preserved without identifying unstated boundaries; voice ungendered in English."
+    ],
+    "269": [
+      "Seven blocks retained. Tak clauses concerning eternal pain/cremation ground interpreted before in context of urgent visit; literal until would invert exhortation. Parental-duty rhetoric preserved without asserting universal moral judgment."
+    ],
+    "271": [
+      "Four blocks retained. Repeated kalam spelling read pen from title/context, not personal name. Female voice explicit; Jhansi reference and pen-as-weapon metaphor kept."
+    ],
+    "272": [
+      "Six blocks retained. Epic names, four legs of dharma and devotional assurance preserved as author’s beliefs; no invented scriptural explanation or corrections."
+    ],
+    "268": [
+      "Exact same-author/title/text repeat of 304, verified byte equality and source hash after full reading. Retains existing draft choices for flowers and source typos; no author/edition merge or alteration of 304. Reused draft provenance: batch-114 poem 304."
+    ],
+    "270": [
+      "All four blocks retained, including interrupted syntax and breath quotation. No attribution invented for opening someone had said. Dots/dashes remain open metaphor, not assigned a coded message."
+    ],
+    "273": [
+      "Seven couplets retained. Rows/throes and gutter comparison preserved without trying to force target rhyme. Winnowing metaphor retained."
+    ],
+    "274": [
+      "Thirty-six lines preserved, including isolated Alone and And then. Virus left unnamed; hospital bereavement not given invented date or medical details. Burning in sunlight remains metaphor."
+    ],
+    "275": [
+      "Twenty-five lines preserved. Rainbowing, trick mirror and jigsaw images retained; unendinly read unendingly. Hindi feminine grammatical speaker provisional."
+    ],
+    "276": [
+      "Twenty lines retained. Lotus/bee tension and confidence aura preserved; Hindi masculine lotus grammar provisional, not poet identity."
+    ],
+    "277": [
+      "All fifteen couplets preserved despite heavily enjambed fragments. Onyx retained as dark-stone image; no invented afterlife doctrine. Hindi lover masculine provisional."
+    ],
+    "280": [
+      "Fourteen lines retained. Source grammar in skins of Summer/cameraman/puts forward unresolved, rendered closely rather than invented documentary action. Bought me a book fair preserved rather than silently substituting brought me to a book fair. Requires author/linguistic review."
+    ],
+    "281": [
+      "Twenty lines retained. Life-longing-for-itself phrasing preserved, no attribution added to poem. Thriving read striving in agony context; factual reproductive claims remain author’s verse."
+    ],
+    "282": [
+      "Twenty-three lines retained. Sisyphus spelling regularized only in translation; Nemesis/Shakespeare and Hamlet-like questions retained. Philosophical death imagery translated without construing narrator as user or adding instruction."
+    ],
+    "283": [
+      "All six blocks [18,1,1,4,1,3] retained. Mysteries names interpreted mysterious names; planetary curves and glacier/storm imagery remain surreal, not fact-corrected. Hindi addressee masculine provisional."
+    ],
+    "298": [
+      "All 44 lines retained, including the repeated escape sequence and final isolated Nothing/They. Two sequences differ; neither removed as duplicate. Side/from-to views kept close to source. Cook retained literally rather than substituting spell-making; interpretation needs review."
+    ]
+  },
+  "publication": false,
+  "next_edition": 10,
+  "next_poem_ids": [
+    263,
+    266,
+    267,
+    262,
+    261
+  ]
+}

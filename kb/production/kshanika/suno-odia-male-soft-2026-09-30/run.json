@@ -1,0 +1,67 @@
+{
+  "project": "Kabita Live",
+  "poem_id": 810,
+  "author": "Sabita Singh Meera",
+  "language": "or",
+  "translation_status": "Existing AI-assisted translation; fluent review pending.",
+  "authorization": "Can you try with all these settings",
+  "scope": "One new generation pair with the agreed male Odia voice and quieter accompaniment; no publication.",
+  "source_path": "kb/artifacts/review/poem-experience/content.json",
+  "source_sha256": "929c928adbdc555708a46d16da92e72a68d32b9a2772e31801feead8525ae8ee",
+  "lyrics": "[Spoken word]\nଗାଁର ନିର୍ଜନ ପ୍ଲାଟଫର୍ମ,\nବରଷୁଥିବା ବୁନ୍ଦାର ଛାଇ,\nରେଳଧାରଣାରେ ଧୀରେ ଧୀରେ\nଚାଲିଯାଉଥିବା ଟ୍ରେନ୍‌ର ଥରଥର ଧ୍ୱନି।\nଆଜି ପୁଣି ସେହି ସ୍ଥାନରେ\nଯେଉଁଠି ତୁମେ ଛାଡ଼ିଯାଇଥିଲ,\nଆଉ ଏବେ ବି ଅପେକ୍ଷାରେ ଅଛି,\nତୁମେ କେବେ ଫେରିଆସିବ ବୋଲି...।\n[End]",
+  "title": "KBL · କ୍ଷଣିକା · Male voice, quiet music",
+  "style": "Spoken-word ballad, deep male Odia voice with natural pronunciation, slow soulful narration and expressive emotional pauses. Voice intimate, clear and prominently foregrounded. Very soft, sparse piano chords and barely audible ambient pads underneath; occasional gentle flute between spoken phrases, delicate distant string swells, almost imperceptible percussion. Spacious cinematic reverb on the accompaniment, lighter reverb on the voice to preserve clarity. A subtle 70 BPM pulse supports free, natural speech. Restrained gradual build; accompaniment stays quiet throughout and gently recedes whenever the narrator speaks. Preserve every word without repetition or added lyrics.",
+  "exclude": "EDM, heavy dance beats, aggressive percussion, loud backing music, dense orchestration, overpowering bass, dramatic drops, theatrical belting, excessive vocal runs, melodic singing, chanting, rap, choir, backing vocals, vocoder, autotune effects, chopped vocals, heavy vocal echo",
+  "settings": {
+    "model": "v6",
+    "vocal_gender": "Male",
+    "weirdness": 20,
+    "style_influence": 80,
+    "variety": 0,
+    "duration": "Auto",
+    "max_mode": false,
+    "personalize": false,
+    "tempo_prompt_bpm": 70
+  },
+  "rationale": "User supplied and preferred soulful male spoken-word ballad direction, then requested quieter music. Preserve that requested atmosphere, using the exact revised prompt and exclusions. New text-based take, not a remix claiming to preserve a previous performance.",
+  "created_at": "2026-09-30T13:33:46.739546+00:00",
+  "status": "generated_selection_pending",
+  "candidates": [
+    {
+      "label": "M1",
+      "id": "a561fffc-5639-401b-96fc-3019501bc631",
+      "url": "https://suno.com/song/a561fffc-5639-401b-96fc-3019501bc631",
+      "displayed_duration": "0:38",
+      "provider_displayed_style": "Spoken-word ballad, deep male Odia voice with natural pronunciation, slow soulful narration and expressive emotional pauses, Voice intimate, clear and prominently foregrounded, Very soft, sparse piano chords and barely audible ambient pads underneath; occasional gentle flute between spoken phrases, delicate distant string swells, almost imperceptible percussion, Spacious cinematic reverb on the accompaniment, lighter reverb on the voice to preserve clarity, A subtle 70 BPM pulse supports free, natural speech, Restrained gradual build; accompaniment stays quiet throughout and gently recedes whenever the narrator speaks, Preserve every word without repetition or added lyrics, ‑EDM, ‑heavy dance beats, ‑aggressive percussion, ‑loud backing music, ‑dense orchestration, ‑overpowering bass, ‑dramatic drops, ‑theatrical belting, ‑excessive vocal runs, ‑melodic singing, ‑chanting, ‑rap, ‑choir, ‑backing vocals, ‑vocoder, ‑autotune effects, ‑chopped vocals, ‑heavy vocal echo",
+      "status": "generated_selection_pending",
+      "audio_path": null
+    },
+    {
+      "label": "M2",
+      "id": "cbfc1da5-9839-4dc4-9bb8-09eba3ffdd83",
+      "url": "https://suno.com/song/cbfc1da5-9839-4dc4-9bb8-09eba3ffdd83",
+      "displayed_duration": "0:34",
+      "provider_displayed_style": "Spoken-word ballad, deep male Odia voice with natural pronunciation, slow soulful narration and expressive emotional pauses, Voice intimate, clear and prominently foregrounded, Very soft, sparse piano chords and barely audible ambient pads underneath; occasional gentle flute between spoken phrases, delicate distant string swells, almost imperceptible percussion, Spacious cinematic reverb on the accompaniment, lighter reverb on the voice to preserve clarity, A subtle 70 BPM pulse supports free, natural speech, Restrained gradual build; accompaniment stays quiet throughout and gently recedes whenever the narrator speaks, Preserve every word without repetition or added lyrics, ‑EDM, ‑heavy dance beats, ‑aggressive percussion, ‑loud backing music, ‑dense orchestration, ‑overpowering bass, ‑dramatic drops, ‑theatrical belting, ‑excessive vocal runs, ‑melodic singing, ‑chanting, ‑rap, ‑choir, ‑backing vocals, ‑vocoder, ‑autotune effects, ‑chopped vocals, ‑heavy vocal echo",
+      "status": "generated_selection_pending",
+      "audio_path": null
+    }
+  ],
+  "selected_take": null,
+  "publication": false,
+  "review": {
+    "independent": false,
+    "listening": "Pending user assessment of voice, words, native pronunciation, pauses and music balance."
+  },
+  "submitted_at": "2026-09-30T13:34:39.613222+00:00",
+  "input_verification": "Exact poem, full revised style, exclusions and all requested controls verified in Suno before one Create activation.",
+  "completed_at": "2026-09-30T13:35:22.028122+00:00",
+  "verification": {
+    "submissions": 1,
+    "candidate_count": 2,
+    "settings_verified": true,
+    "style_variation": "Variety zero; both displayed descriptions retain the supplied direction.",
+    "listening": "User review pending. No claim that generated music balance or pronunciation has been aurally verified.",
+    "publication": false
+  },
+  "repository_record": "Production files saved locally; pre-existing Git index lock retained if present."
+}

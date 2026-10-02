@@ -1,0 +1,49 @@
+{
+  "recorded_at": "2026-10-02T04:46:41.689091+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "approved_applied_verified",
+  "independent": false,
+  "authorization": [
+    "All good unless you think we need to do anything else - call for action to send poem is not that inviting I guess",
+    "OK, lets try but before we have approved few pages has not applied yet"
+  ],
+  "scope": [
+    "editorial-team.html",
+    "editor-pradeep.html",
+    "editor-paresh.html"
+  ],
+  "changes": [
+    "Applied reviewed poetic copy, artistic icons, compact mobile artwork and profile identity layout.",
+    "Applied refined Share your poem invitation.",
+    "Removed repetitive role block; corrected Pradeep display caption.",
+    "Omitted Paresh contribution section only while it has no linked works."
+  ],
+  "checks": [
+    "Three reader main sections exactly match reviewed mocks after removing preview navigation and restoring reader URLs.",
+    "All portrait/image tags and external book/source links preserved.",
+    "Only three reader HTML pages changed among baseline pages/data; all poem JSON and writer data unchanged.",
+    "Desktop team1280px and mobile390px team/both profiles inspected; no overflow.",
+    "Meet Pradeep navigation verified.",
+    "Author checker PASS429profiles/798contribution links; edition checker PASS47editions/848source hashes.",
+    "Node24 public build PASS1307pages; review previews excluded."
+  ],
+  "limitations": [
+    "Same-assistant review; broader accessibility and real-device checks remain.",
+    "No independent factual verification; writer audit remains deferred.",
+    "Send a poem final application confirmation pending; new separator remains trial only.",
+    "No push or publication."
+  ],
+  "evidence": [
+    "artifacts/review/approved-page-rollout/integrity.json",
+    "artifacts/review/approved-page-rollout/editors-desktop.png",
+    "artifacts/review/approved-page-rollout/editors-mobile.png",
+    "artifacts/review/approved-page-rollout/pradeep-mobile.png",
+    "artifacts/review/approved-page-rollout/paresh-mobile.png"
+  ],
+  "next_action": "Application rechecked against all three mocks; see records/approval-application-audit.json.",
+  "later_update": {
+    "recorded_at": "2026-10-02T05:05:32.791691+00:00",
+    "note": "Submission and compact separators subsequently applied; historical pending limitation superseded.",
+    "application": "records/submission-polish-applied.json"
+  }
+}

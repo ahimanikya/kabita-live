@@ -23,3 +23,29 @@ Prepared local reader routes and removed reader-facing dependencies on the forme
 ## 29 September 2026 · GitHub source and Pages hosting selected
 
 The user confirmed following Utkal Project’s stack with all maintained project material in GitHub and a GitHub-hosted static website. Prepared a matching manual Pages workflow, root/project base configuration, a release build gate and ZIP preservation through Git LFS. Private messages remain in Firebase. No repository visibility, remote push, DNS or live deployment was changed.
+
+- 2026-09-29: Captured 427 writer profiles, 381 biographies and 778 contribution links through the browser; integrated local profiles and preserved 426 source portraits. [Evidence](records/writer-profile-verification.json). Independent research and artistic portraits remain in progress.
+
+## 2026-09-29 · Complete edition and poem archive
+
+Captured all 47 edition contents and 801 full-text poem records; 800 have recorded editions. Readers now link to editions, next poems and writer contribution histories. Full-text search covers the collection. Raw source, normalization evidence and unresolved metadata remain in the KB. Self-review passed text/link/hash checks and three-script 360px DOM checks. Local application only; no deployment. See [import evidence](research/edition-content-import.md).
+
+## 2026-09-29 · Author pages and reusable skills
+
+Applied the approved editor profile language to all 427 non-editor authors; retained the two editor profiles. Integrated 424 local author portraits, including three newly generated artistic edits, with initials for three missing references. Expanded three sourced narratives and installed the author-page and portrait skills. Source, layout, browser and build checks passed. [Implementation and limitations](research/author-page-system.md).
+
+## Image library audit and contextual poem artwork
+
+Audited earlier generations and all canonical image files, preserved a missing historical variant, standardized 47 edition cover filenames, and expanded poem choices to 23 non-cover images. Text-based suggestions replace random rotation, with neutral fallbacks flagged for review. Poem artwork alignment and shared header separator color were checked locally. [Usage plan](assets/image-usage-plan.md) and [verification](records/image-audit-verification.json). No publication.
+
+## Canonical image captions and imagery finder
+
+The [imagery finder](assets/imagery.md) links 71 artwork identities to captions, themes, intended uses, masters, provenance and current page locations. Site captions read one canonical record; compatibility caption files are projections. Verified 849 visible captions and all 801 poem texts unchanged. Existing borders and historical studies preserved. Same-assistant review; no publication.
+
+## One-poem interactive reader prototype
+
+Prepared [क्षणिका reader study](review/poem-experience.md) with original/translation tabs, real Hindi/English synthetic voice previews and saved pencil underlining. Odia audio remains unavailable and translations are drafts. Keyboard, persistence, playback and narrow-screen checks recorded; all 801 public poems remain unchanged. The user reviews this prototype before wider adoption.
+
+## Partial underlines and a natural recitation audition
+
+Translation feature approved. Replaced whole-line marks with word/phrase selection and partial erasure, preserving per-language marks and Indic graphemes. The first digital voices were rejected and removed from active playback; recordings are preserved. [Audition plan](review/recitation-audition.md) prepares six localized candidate takes without accounts or generation. [Verification](records/poem-experience-v2-verification.json). Same-assistant review; no public rollout.

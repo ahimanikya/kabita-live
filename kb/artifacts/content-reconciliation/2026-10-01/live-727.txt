@@ -1,0 +1,123 @@
+- banner:
+  - navigation:
+    - link "#":
+      - /url: index.php
+      - img "#"
+    - paragraph:
+      - text: Kabita Live...
+      - text: Platform for Poets.
+    - list:
+      - link "Home":
+        - /url: index.php
+      - link "Poem":
+        - /url: index.php?#chapters
+      - link "About":
+        - /url: about.php
+      - link "Contributors":
+        - /url: contri.php
+      - link "Archive":
+        - /url: archive.php
+      - link "Book Review":
+        - /url: book_review.php
+      - link "Contact":
+        - /url: index.php?#contact
+- generic: Poem
+- heading "PRESENCE IN ABSENCE Dilip Mohapatra" [level=2]:
+  - text: PRESENCE IN ABSENCE
+  - paragraph: Dilip Mohapatra
+- heading "ISSUE#41" [level=6]
+- generic: March 2026
+- paragraph
+- paragraph:
+  - text: Time
+  - text: Time, how lucky are you
+  - text: Your own timekeeper
+  - text: With none to question you
+  - text: And none to answer to!
+  - text: If you were a person
+  - text: What would you do
+  - text: With all of you
+  - text: Belonging to you?
+  - text: Would you prefer
+  - text: Your own company
+  - text: Or would crave for
+  - text: Something transitory?
+  - text: Will pain and pleasure
+  - text: Matter to you as much
+  - text: If you had the power
+  - text: To decide on its length?
+  - text: How long would you
+  - text: Live in a moment
+  - text: Before you choose to
+  - text: Step into the next!
+- paragraph
+- separator
+- heading "0 Comments" [level=4]
+- heading "Leave Your Comment" [level=4]
+- textbox "Name*"
+- textbox "Please Enter Your Comment Here"
+- button "POST YOUR COMMENT"
+- separator
+- heading "By the same Author:" [level=5]
+- paragraph:
+  - link "RECLUSION (ISSUE#1 - November 2022)":
+    - /url: poemview.php?id=10
+- paragraph:
+  - link "DOTS AND DASHES (ISSUE#11 - September 2023)":
+    - /url: poemview.php?id=270
+- paragraph:
+  - link "LOST AND FOUND (ISSUE#34 - August 2025)":
+    - /url: poemview.php?id=602
+- paragraph:
+  - link "सुषुप्ति (ISSUE#35 - September 2025)":
+    - /url: poemview.php?id=614
+- paragraph:
+  - link "JOKER IN THE PACK (ISSUE#36 - October 2025)":
+    - /url: poemview.php?id=639
+- paragraph:
+  - link "WEIGHTLESSNESS (ISSUE#37 - November 2025)":
+    - /url: poemview.php?id=657
+- paragraph:
+  - link "PRESENCE IN ABSENCE (ISSUE#41 - March 2026)":
+    - /url: poemview.php?id=727
+- paragraph: "Author: Dilip Mohapatra"
+- paragraph:
+  - text: "Cmde Dilip Mohapatra, VSM (b.1950), a decorated Navy Veteran is a well acclaimed poet in contemporary English and his poems appear in many literary journals of and anthologies worldwide. He has six poetry collections, one short story collection and two professional books to his credit so far all published by Authorspress. He is the recipient of the prestigious Honour Award for complete work under Naji Naaman Literary Awards for 2020 and holds the honorary title of ‘Member of Maison Naaman pour la Culture’. He holds two masters degrees: in Physics and Management Studies. He lives with his wife in Pune. His website may be accessed at dilipmohapatra.com."
+- link:
+  - /url: index.html
+- list:
+  - link "Home":
+    - /url: index.php
+  - link "Contributors":
+    - /url: contri.php
+  - link "About":
+    - /url: about.php
+  - link "Poem":
+    - /url: index.php?#chapters
+  - link "Archive":
+    - /url: archive.php
+  - link "Contact":
+    - /url: index.php?#contact
+- list:
+  - link "":
+    - /url: "#"
+    - generic: 
+  - link "":
+    - /url: "#"
+    - generic: 
+  - link "":
+    - /url: "#"
+    - generic: 
+  - link "":
+    - /url: "#"
+    - generic: 
+  - link "":
+    - /url: "#"
+    - generic: 
+- paragraph:
+  - text: "Visitor Counter:"
+  - link "web counter":
+    - /url: "#"
+    - img "web counter"
+- separator
+- paragraph: ©2022 KabitaLive All right reserved || Designed by Versatile IT Services Pvt. Ltd.

@@ -1,0 +1,14 @@
+/* Existing ink marks and the approved compact waterline, scoped to Home. */
+.home-artistic-mark{width:24px;height:24px;flex:0 0 24px;color:var(--rust)}
+.home-refined .home-artistic-label{display:flex;align-items:center;gap:10px}
+.home-refined .home-invitation>.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px}
+.home-refined .home-invitation>.btn .home-artistic-mark{color:inherit}
+.home-refined .section-head h2{display:flex;align-items:center;gap:12px}
+.home-refined .home-opening{position:relative}
+.home-refined .home-opening::after{content:"";position:absolute;bottom:0;left:0;width:115px;height:23px;background:url("poetic-waterline.svg") left center/115px 23px no-repeat;pointer-events:none}
+@media(max-width:760px){
+ .home-refined .home-artistic-label{gap:8px;font-size:10px;letter-spacing:1.3px}
+ .home-artistic-label .home-artistic-mark{width:20px;height:20px;flex-basis:20px}
+ .home-refined .section-head h2{gap:9px}
+ .home-refined .home-opening{padding-bottom:40px}
+}

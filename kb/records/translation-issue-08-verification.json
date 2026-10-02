@@ -1,0 +1,116 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 8,
+  "status": "partial: all 16 actionable entries drafted; one source-held entry incomplete; independent linguistic review pending",
+  "poems_drafted": [
+    216,
+    220,
+    222,
+    224,
+    230,
+    215,
+    221,
+    225,
+    214,
+    217,
+    218,
+    223,
+    226,
+    227,
+    228,
+    229
+  ],
+  "source_held": [
+    219
+  ],
+  "new_translations": 32,
+  "total_drafts": 1182,
+  "remaining_translations": 420,
+  "batches": [
+    "batch-133",
+    "batch-134",
+    "batch-135",
+    "batch-136"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 16 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 32 versions",
+    "rendered_catalogue_parity": "pass for all 32 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged for all 17 entries, including held Swing, in preview and public output",
+    "held_source_credit": "Elanaaga and Telugu source credit preserved; no generated variants for 219",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "216": [
+      "Four blocks retained. Khaap-chhada kept sheath metaphor; niantia bojha rendered insufficient/incomplete burden despite unusual pairing, for linguistic review. Swargadwara kept heaven gate, not assumed cremation site. Hindi feminine provisional."
+    ],
+    "220": [
+      "Six blocks retained. Violence, white dove and poet/mastermind are allegorical; no real person identified. Nirveda rendered disillusionment in English."
+    ],
+    "222": [
+      "Seven blocks retained. Sanskrit phrase interpreted prowess under my control; Hindi Sanskrit rendering flagged for review. Tiger masculinity/territory claims are authorial analogy, not zoological research. First-person roar transition preserved."
+    ],
+    "224": [
+      "Seven blocks retained. Intimate/devotional ambiguity and final reversal retained; no deity identity added. Hindi feminine provisional."
+    ],
+    "230": [
+      "Six blocks retained. Ahalya, tied sari-end words, debt ledger and twelve-cubit sari preserved. Mohar bajae interpreted stamps verdict; idiom needs review. Repeated steps retained."
+    ],
+    "215": [
+      "Seven blocks retained, including four-line Sanskrit prayer translated semantically. Balaiyan gesture conveyed warding off harm, not literal taking blessings."
+    ],
+    "221": [
+      "Four five-line blocks and refrain retained; thirst remains both destructive and creative desire. Chakravyuha rendered battle-maze in English."
+    ],
+    "225": [
+      "Nine lines retained and title translated separately; no sunset imagery inserted into body absent from source."
+    ],
+    "214": [
+      "Four blocks retained. Original ambiguous I/my/we shifts and my unions preserved without adding reunion story; false visions and potential boons deliberately close to source. Hindi feminine voice provisional."
+    ],
+    "217": [
+      "Sixteen lines retained, including final lost-forever paradox despite search finding Faith. Personified work, duty and honour preserved; Hindi feminine narrator provisional."
+    ],
+    "218": [
+      "Eight quatrains retained. On the rocks interpreted ice in extended liquor metaphor; firewater strong liquor. Aborted pain conveyed interrupted/uncompleted pain, no invented pregnancy narrative."
+    ],
+    "223": [
+      "Thirty lines retained. Moon and goddess feminine imagery retained. Insanity of ideas remains artistic self-description; not diagnosis. Unused by fake and light in ladder syntax kept close, needs idiomatic review."
+    ],
+    "226": [
+      "Four five-line blocks retained. Wellington, age four, cicada and stampede of birds preserved. Hindi poti provisionally selects paternal grandchild relation unavailable in English; needs review, Odia neutral natuni."
+    ],
+    "227": [
+      "Twelve long lines retained. Najifa preserved; no religious-conversion or family narrative invented. Ambiguous loving barriers and muscles hear kept near source. Semicolon apostrophe artifacts normalized in targets only."
+    ],
+    "228": [
+      "All 27 lines and abrupt fragments retained. Hed read Had, without changing source. It pronoun remains unresolved; bodily stillness kept as poetic voice, not diagnosis. Hindi feminine provisional."
+    ],
+    "229": [
+      "Four blocks [4,6,7,6] retained. Source cult translated panth, not silently changed to culture; ambiguous unusual phrasing needs linguistic review. Brook/debris-to-sea movement retained."
+    ]
+  },
+  "source_hold_details": {
+    "reason": "Swing by Raghu Seshabhattar explicitly identifies a Telugu original and an English translation by Elanaaga. Preserved HTML confirms both credits. No matching Telugu original or another source record for this poem/author was found in the local edition catalogue.",
+    "evidence": "projects/site/content/editions/issue-08/poem-219.json; kb/artifacts/content-import/editions/issue-08/poem-219.html",
+    "action": "Obtain and identity-match the Telugu original and reconcile language/Original labels while preserving Elanaaga’s published English translation and credit. Do not reconstruct a missing original from the English translation.",
+    "targets": [
+      "or",
+      "hi"
+    ]
+  },
+  "publication": false,
+  "next_edition": 7,
+  "next_poem_ids": [
+    190,
+    191,
+    193,
+    196,
+    198
+  ]
+}

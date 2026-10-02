@@ -1,0 +1,120 @@
+{
+  "recorded_at": "2026-10-02T12:09:22.840671+00:00",
+  "groups": [
+    {
+      "canonical_id": 192,
+      "member_ids": [
+        192,
+        224
+      ],
+      "name": "Neelam Saxena Chandra",
+      "basis": "Captured biographies match apart from terminal punctuation, including the distinctive publication-count sequence, Hindi/English writing,2015Limca record and2014Forbes claim. Author website independently supplies the same distinctive identity anchors; dated totals are not added as current claims.",
+      "reviewed_on": "2026-10-02",
+      "evidence": "kb/records/writer-identity-resolution.json"
+    },
+    {
+      "canonical_id": 256,
+      "member_ids": [
+        256,
+        366
+      ],
+      "name": "Neha Bhandarkar",
+      "basis": "Distinctive supplied biographies agree on trilingual writing/translation, two Hindi Sahitya Akademi awards, the same unusual translation-language list and France/Chicago radio publication. OPA2023author note corroborates the combined fingerprint; OPA2019Worthy Meeting is a related version of local482, not a replacement text.",
+      "reviewed_on": "2026-10-02",
+      "evidence": "kb/records/writer-identity-resolution.json"
+    },
+    {
+      "canonical_id": 449,
+      "member_ids": [
+        255,
+        449
+      ],
+      "name": "Tulika Bibidh Rang / तूलिका विविध रंग",
+      "basis": "Record449explicitly names Ms.Tulika at Amity School of Communication,Madhya Pradesh. That faculty record independently identifies both Khanabadosh and Gulabi Canvas, the distinctive film/manuscript pair in255. A2020/2021award-date discrepancy was already source-attributed and corrected.",
+      "reviewed_on": "2026-10-02",
+      "evidence": "kb/records/writer-identity-resolution.json"
+    }
+  ],
+  "changed_profiles": [
+    192,
+    224,
+    256,
+    366,
+    255,
+    449,
+    423,
+    408
+  ],
+  "closed_total": 18,
+  "remaining_total": 2,
+  "remaining_findings": [
+    "KBL-WA-004",
+    "KBL-WA-008"
+  ],
+  "publication": false,
+  "verification": {
+    "public_build": "PASS;1294indexed pages,three duplicate-profile pages intentionally excluded",
+    "identity_journeys": {
+      "result": "PASS",
+      "groups": [
+        {
+          "canonical_id": 192,
+          "member_ids": [
+            192,
+            224
+          ],
+          "poem_ids": [
+            172,
+            205,
+            621,
+            731
+          ]
+        },
+        {
+          "canonical_id": 256,
+          "member_ids": [
+            256,
+            366
+          ],
+          "poem_ids": [
+            244,
+            482
+          ]
+        },
+        {
+          "canonical_id": 449,
+          "member_ids": [
+            255,
+            449
+          ],
+          "poem_ids": [
+            243,
+            742
+          ]
+        }
+      ],
+      "directory_entries": 426,
+      "reader_library_poets": 422,
+      "checks": [
+        "Complete contribution union on every preserved profile URL",
+        "One directory/search/reader-library entry per confirmed identity",
+        "Canonical byline destinations",
+        "Old reader payload URLs retain complete collections",
+        "Alias pages excluded from search indexing"
+      ]
+    },
+    "author_pages": "PASS;429preserved profile URLs,426grouped identities,427enrichment records",
+    "editions": "PASS;47editions,799active poems,798contributionlinks",
+    "protected_files": {
+      "count": 1652,
+      "result": "PASS;all originalpoemJSON,capturedprofiles,quote selections and rawHTMLhashes unchanged"
+    },
+    "browser": "PASS;five desktop pages,four360pxpages inclOdia/Hindi/English,nohorizontaloverflow;Tulika screenshot reviewed",
+    "review_type": "same-assistant self-review"
+  },
+  "evidence": "artifacts/review/writer-audit/identity-resolution-2026-10-02",
+  "executor": "Current assistant; Anvesha research,Samanta implementation,Drishti self-review",
+  "independent": false,
+  "authorization": "Can we apply them all; continue; ok,continue",
+  "handoff": "Run tools/sync_handoff.py and tools/check_storage.py after record regeneration."
+}

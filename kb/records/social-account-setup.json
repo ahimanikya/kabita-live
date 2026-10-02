@@ -1,0 +1,69 @@
+{
+  "recorded_at": "2026-09-30T08:09:55.149168+00:00",
+  "work_ref": "KBL-WORK-015",
+  "decision_ref": "KBL-DEC-021",
+  "executor": "Current chat assistant; Disha Dash role pass",
+  "independent": false,
+  "status": "facebook_created",
+  "facebook": {
+    "created": true,
+    "browser": "Chrome",
+    "observed": "Completed all five onboarding steps; Page profile displays Kabita Live, Literary Arts, supplied bio and uploaded profile symbol.",
+    "name": "Kabita Live",
+    "category": "Literary Arts",
+    "bio": "Monthly poetry · Odia, Hindi & English.\nମାଟିର ମହକ · ମନର ସ୍ୱର\nEditor: Pradeep Biswal\nManaging Editor: Paresh Kumar Pattnaik",
+    "pending": null,
+    "policy_url": "https://www.facebook.com/policies_center/pages_groups_events/",
+    "url": "https://www.facebook.com/profile.php?id=61594946730649",
+    "profile_id": "61594946730649",
+    "business_asset_id": "1380647121792651",
+    "policy_acceptance": {
+      "approval": "User said Approved after explicit request to accept Pages, Groups and Events Policies through Create Page.",
+      "submitted": true
+    },
+    "profile_image": "artifacts/research/social-setup-2026-09-30/facebook-profile.png",
+    "cover_image_added": true,
+    "contact_details_added": false,
+    "website_link_added": false,
+    "whatsapp_connected": false,
+    "friend_invitations_sent": false,
+    "marketing_email_opt_in": false,
+    "platform_generated_post": "Facebook automatically published the profile-picture update.",
+    "cover_image": "artifacts/social/facebook-2026-09-30/cover-v3.png",
+    "editor_information_added": true,
+    "welcome_post_pinned": true
+  },
+  "instagram": {
+    "created": false,
+    "draft_name": "Kabita Live",
+    "proposed_username": "kabitalive",
+    "username_reserved": false,
+    "observed": "Signup name and username filled; remaining private fields empty; Submit not clicked",
+    "status": "deferred"
+  },
+  "proposed_bio": "Monthly poetry · Odia, Hindi & English. ମାଟିର ମହକ · ମନର ସ୍ୱର",
+  "website_links_changed": true,
+  "posting_schedule_created": false,
+  "evidence": [
+    "artifacts/research/social-setup-2026-09-30/instagram-signup.png",
+    "artifacts/research/social-setup-2026-09-30/facebook-ready.png",
+    "artifacts/research/social-setup-2026-09-30/facebook-created.png",
+    "artifacts/research/social-setup-2026-09-30/facebook-profile.svg",
+    "artifacts/research/social-setup-2026-09-30/facebook-profile.png",
+    "records/facebook-page-completion.json",
+    "records/facebook-cover-v2.json",
+    "records/facebook-cover-v3.json"
+  ],
+  "next_action": "Publish the footer link with website migration; add website URL to Facebook after migration.",
+  "portable_sync": "Included in standard tools/sync_handoff.py synchronization; check_storage.py verifies parity.",
+  "updated_at": "2026-09-30T09:00:26.758086+00:00",
+  "current_scope": "Facebook Page completed; Instagram deferred by user.",
+  "profile_image_provenance": {
+    "source": "output/kabitalive-design-proposal-2026-09-29/site/assets/kabita-live-symbol.svg",
+    "source_sha256": "621f06255f5512e76ff1f13c4383fbb705e7ce671bc36265cd149bb0e5758ff6",
+    "derivation": "Existing SVG paths and colors unchanged; paper #F5EFDF background, 32-unit padding on each side in a 320-unit square, rasterized to 1024px PNG.",
+    "master": "artifacts/research/social-setup-2026-09-30/facebook-profile.svg",
+    "check": "Visually inspected export and verified profile-picture update on Facebook."
+  },
+  "website_link_record": "records/facebook-footer-link.json"
+}

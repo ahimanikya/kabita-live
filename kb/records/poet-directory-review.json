@@ -1,0 +1,74 @@
+{
+  "recorded_at": "2026-10-01T23:35:54.336904+00:00",
+  "work_ref": "KBL-WORK-004",
+  "executor": "Current assistant; Drishti review",
+  "independent": false,
+  "status": "findings_ready_for_discussion",
+  "url": "http://127.0.0.1:8771/poets.html",
+  "scope": "Directory UI review only; writer factual audit remains deferred. No site edits.",
+  "checks": {
+    "viewports": [
+      1440,
+      390,
+      360
+    ],
+    "horizontal_overflow": "none at tested widths",
+    "search": "English case-insensitive, Odia and Hindi matches verified; empty state verified",
+    "letter_filter": "A and Z verified; active B plus Manorama produces zero matches despite existing writer",
+    "local_profile_destinations": "429/429 exist on disk; Manorama navigation browser-verified",
+    "mobile_menu": "opened and closed through dialog close button",
+    "theme": "light/dark/system cycle verified and initial light restored",
+    "keyboard": "button focus visibly outlined; PageDown works; not a complete keyboard audit",
+    "footer": "mobile icon labels present; dark-mode filtered view visually inspected"
+  },
+  "findings": [
+    {
+      "id": "DIR-01",
+      "priority": "medium",
+      "finding": "Mobile first writer begins at1077px on390px screen and1110px on360px screen. Hero artwork, gaps and four rows of alphabet controls postpone browsing.",
+      "proposal": "Compact opening and alphabet presentation; retain approved artwork."
+    },
+    {
+      "id": "DIR-02",
+      "priority": "medium",
+      "finding": "Alphabet section keeps a side column on mobile, leaving238px for entries on360px screen. CSS later override defeats intended stacked mobile section.",
+      "proposal": "Put section letter above full-width rows on mobile."
+    },
+    {
+      "id": "DIR-03",
+      "priority": "medium",
+      "finding": "Selected letter restricts typed search; B plus Manorama yields0 though writer exists. Empty message offers All but friction remains.",
+      "proposal": "Typing a name searches entire directory or clearly exposes/removes active letter filter."
+    },
+    {
+      "id": "DIR-04",
+      "priority": "medium",
+      "finding": "Directory retains125 names containing non-ASCII characters; examples mix Odia/Hindi and Roman names, trailing slash on Aparna Mohanty, uppercase GANESWAR BEHERA, lowercase kapoor. Does not match user preference for consistent English display names.",
+      "proposal": "Use existing approved English display names, keep original spellings searchable; avoid guessing disputed identities."
+    },
+    {
+      "id": "DIR-05",
+      "priority": "suggestion",
+      "finding": "429 text-only entries repeat View profile; zero portraits and no contribution counts.",
+      "proposal": "Mock small existing circular portraits plus name and accurate poem count; entire row clickable. No new portraits or biographies."
+    },
+    {
+      "id": "DIR-06",
+      "priority": "low",
+      "finding": "Gargi Sarkhel Bagchi is appended after Goutam Jena in G section; edition-added writers appended after sorting.",
+      "proposal": "Sort combined directory after merging all source-linked contributors."
+    }
+  ],
+  "screenshots": [
+    "artifacts/review/poet-directory/desktop.png",
+    "artifacts/review/poet-directory/mobile.png",
+    "artifacts/review/poet-directory/mobile-dark.png"
+  ],
+  "limitations": [
+    "Same-assistant review, not independent accessibility certification.",
+    "No screen-reader session, real-device checks or200% zoom review.",
+    "No full external-link or author-fact audit.",
+    "429 directory entries are records, not verified unique people."
+  ],
+  "next_action": "Discuss with Ahimanikya before mockup or implementation."
+}

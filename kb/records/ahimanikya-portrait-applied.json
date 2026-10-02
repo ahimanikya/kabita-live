@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-02T11:15:46.343504+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_locally_for_review",
+  "authorization": "User supplied identified photo and requested watercolor treatment and use on his page.",
+  "profile": "ahimanikya-satapathy.html",
+  "source": {
+    "file": "artifacts/artwork/portrait-sources/people/ahimanikya-satapathy-user-original.jpg",
+    "credit": "Photograph supplied by Ahimanikya Satapathy in this chat",
+    "rights": "User authorized artistic treatment and use on his profile; photographer not separately identified."
+  },
+  "master": "artifacts/artwork/writer-portraits/ahimanikya-satapathy-earth-voice-v1.png",
+  "provenance": "research/people/ahimanikya-satapathy/portrait.json",
+  "checks": {
+    "public_build": "passed under Node24",
+    "author_check": "PASS",
+    "edition_check": "PASS",
+    "desktop": "portrait loaded and framed at1280px; visually inspected",
+    "mobile": "portrait loaded;360px viewport,360px document width;302px image within320px frame",
+    "source_and_master_hashes": "passed",
+    "writer_mapping_and_rollout_queue": "unchanged",
+    "central_credit": "updated in Our Story",
+    "independent": false
+  },
+  "independent": false,
+  "limitations": [
+    "Independent subject likeness review pending",
+    "No publication or push",
+    "Dedicated design-contributor portrait excluded from427-writer rollout counts"
+  ],
+  "evidence": "artifacts/review/ahimanikya-portrait"
+}

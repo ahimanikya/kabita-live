@@ -1,0 +1,36 @@
+{
+  "batch": "research-072",
+  "status": "verified",
+  "independent": false,
+  "writer_ids": [
+    215,
+    207,
+    200,
+    193,
+    191
+  ],
+  "reader_drafts": 5,
+  "externally_corroborated": 4,
+  "source_limited": [
+    207
+  ],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "PASS",
+    "editions": "PASS",
+    "preserved_source_files": 805,
+    "existing_narratives_preserved": 365,
+    "rendered_narratives": 5,
+    "browser_visual": "Not repeated; prose/data only, approved renderer unchanged."
+  },
+  "limitations": [
+    "Independent author/editor review pending.",
+    "207 has no linked local poems; external event identity remains unconfirmed, and its short narrative is explicitly based on the captured contributor note.",
+    "215 and 200 include search-index evidence where direct page retrieval failed; access limitations recorded.",
+    "193 exact poem match appears under alternate title Scars; captured original unchanged.",
+    "191 dated university account and official award record used; captured doctoral biography unchanged.",
+    "No concurrent source corrections detected against baseline."
+  ],
+  "resume": "research-073",
+  "publication": "No deployment or push."
+}

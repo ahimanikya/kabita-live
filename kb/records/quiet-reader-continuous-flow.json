@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-02T07:28:37.220961+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "In the quick reader, do not keep empty space between poems; if there is space for only two lines use the next page.",
+  "changes": [
+    "Paginate the active reading collection continuously instead of starting each poem on a separate page/spread.",
+    "Require the next title/byline plus three opening verse lines to fit before starting a new poem in remaining space; short poems can fit in full.",
+    "Retain script fonts and poem identity per unit on mixed-poem pages; bookmarks and underlines use the actual poem/language.",
+    "Reflow on viewport, text-size, language and font-load changes; progress reports poem ranges on shared pages."
+  ],
+  "checks": [
+    "Six pagination tests passed: sufficient spare space, two-line rejection, short-poem fit, complete ordering, oversized heading fallback, viewport changes.",
+    "Mobile Original Manorama collection: four continuous pages; page2 contains end of Odia poem8 and opening of English poem9; no overflow.",
+    "All20 rendered lines of poem8 and29 reviewed lines of poem9 preserve the full underlying source text with no duplicated units.",
+    "Tablet1024spread includes both poems with no overflow; enlarged Hindi tested without overflow.",
+    "Underlined second-poem passage stored against poem9/en, saved-passage jump returned to it; bookmark persisted through forward/back turns. Test annotations removed through UI.",
+    "Public build passed1297routes/1296indexed pages. Edition check passed47editions/848source hashes;871source/content files unchanged."
+  ],
+  "evidence": [
+    "artifacts/review/quiet-reader-flow/mobile-pages.json",
+    "artifacts/review/quiet-reader-flow/mobile.png",
+    "artifacts/review/quiet-reader-flow/tablet.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "A title and first verse line taller than a full page remain together using vertical-scroll fallback, avoiding an empty page or stranded title.",
+    "Final collection page can naturally have unused space.",
+    "Local preview and self-review; editorial and linguistic review remain pending."
+  ]
+}

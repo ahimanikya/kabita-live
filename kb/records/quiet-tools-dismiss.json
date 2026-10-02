@@ -1,0 +1,27 @@
+{
+  "status": "applied_and_verified_locally",
+  "recorded_at": "2026-10-01T10:22:08.137334+00:00",
+  "request": "In Quite mode the reader tool popup does not go away if click somewhere else",
+  "changes": [
+    "Pointer/touch outside quiet settings closes panel without leaving reader",
+    "Inside interactions and Aa toggle retained",
+    "Escape dismisses settings first and restores Aa focus; subsequent Escape can exit reader"
+  ],
+  "scope": "Shared quiet reader on all poem pages and current space mock; historical mock frozen",
+  "checks": {
+    "browser_assertions": 36,
+    "failures": 0,
+    "widths": [
+      360,
+      1280
+    ],
+    "pages": [
+      "poem-8.html",
+      "poem-space-8.html"
+    ],
+    "integrity": "801 pages and804 unchanged source inputs verified",
+    "public_build": "PASS",
+    "independent": false
+  },
+  "published": false
+}

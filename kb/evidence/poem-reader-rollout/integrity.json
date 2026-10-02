@@ -1,0 +1,30 @@
+{
+  "result": "PASS",
+  "poems": 799,
+  "edition_payloads": 47,
+  "unchanged_source_files": 800,
+  "authorized_reconciled_source_files": 4,
+  "missing_language_versions_disabled": [
+    197,
+    203,
+    219,
+    797,
+    472,
+    332,
+    319,
+    130,
+    78,
+    47,
+    506,
+    784
+  ],
+  "checks": [
+    "Unique control IDs",
+    "Correct original alias and availability",
+    "Edition order and payload parity",
+    "Poet feedback destinations",
+    "Historical source preservation and authorized correction hashes",
+    "No visible art captions",
+    "Only decoration lines hidden"
+  ]
+}

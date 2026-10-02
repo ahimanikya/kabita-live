@@ -1,0 +1,80 @@
+{
+  "writer_id": 415,
+  "name": "Arun Sahu",
+  "reviewed_on": "2026-10-01",
+  "batch": "research-002",
+  "status": "source_checked_local_draft",
+  "independent": false,
+  "portrait_action": "unchanged",
+  "reader_draft": {
+    "sections": [
+      {
+        "heading": "Life and writing.",
+        "language": "en",
+        "paragraphs": [
+          "Arun Sahu, also published as Arun Kumar Sahu, is a diplomat and bilingual writer in Odia and English. His work includes essays, fiction and poetry. His English publications include Iguana and Other Poems (2020) and Trinidad and Tobago: A Diplomat’s Cultural Expedition (2022).",
+          "Light Green Eyes appeared in an English–Bulgarian edition from Academia Znanie in 2025, with Bulgarian translations by Zdravka Evtimova. His Kabita Live poem The Spring turns an ordinary act of hospitality—a fire and a cup of tea for a stranger—into an unexpected change of season."
+        ]
+      }
+    ],
+    "books": [],
+    "sources": [
+      {
+        "label": "Embassy of India, Sofia · Arun Kumar Sahu biography",
+        "url": "https://www.indembsofia.gov.in/page/ambassador-profile/"
+      },
+      {
+        "label": "National Library of Bulgaria · 2026 bibliography, entry82",
+        "url": "https://nationallibrary.bg/BNB/s01/s01_2026_kn21.html"
+      },
+      {
+        "label": "University of Economics–Varna · poetry meeting",
+        "url": "https://www.ue-varna.bg/en/news/h-e-arun-kumar-sahu-the-ambassador-of-india-to-bulgaria-is-meeting-with-students/4100"
+      }
+    ],
+    "reviewed_on": "2026-10-01"
+  },
+  "sources": [
+    {
+      "label": "Embassy of India, Sofia · Arun Kumar Sahu biography",
+      "url": "https://www.indembsofia.gov.in/page/ambassador-profile/",
+      "supports": [
+        "Diplomat identity, two writing languages and named English publications"
+      ],
+      "access": "indexed_page_text",
+      "accessed_on": "2026-10-01"
+    },
+    {
+      "label": "National Library of Bulgaria · 2026 bibliography, entry82",
+      "url": "https://nationallibrary.bg/BNB/s01/s01_2026_kn21.html",
+      "supports": [
+        "Light Green Eyes,2025 publisher and translation from English by Zdravka Evtimova"
+      ],
+      "access": "indexed_page_text",
+      "accessed_on": "2026-10-01"
+    },
+    {
+      "label": "University of Economics–Varna · poetry meeting",
+      "url": "https://www.ue-varna.bg/en/news/h-e-arun-kumar-sahu-the-ambassador-of-india-to-bulgaria-is-meeting-with-students/4100",
+      "supports": [
+        "Bilingual English–Bulgarian edition"
+      ],
+      "access": "indexed_page_text",
+      "accessed_on": "2026-10-01"
+    }
+  ],
+  "identity_match": "Diplomat profession and Odia/English writing match the journal note and Embassy biography; excludes the same-name Odisha politician.",
+  "local_basis": {
+    "poems_read": [
+      598
+    ],
+    "interpretation": "Closing sentence describes the action and imagery of The Spring."
+  },
+  "limitations": [
+    "University announcement mistakenly says translation into English; National Library explicitly records translation from English into Bulgarian and takes precedence.",
+    "No verified book-specific public destination selected; titles remain in biography rather than linking unrelated pages.",
+    "Embassy direct fetch timed out; indexed official biography used.",
+    "Same-assistant research; author/editor factual review pending."
+  ],
+  "next_action": "Find stable book-specific publisher destinations; author/editor factual review pending."
+}

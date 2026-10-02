@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "title": "Kabita Live poem-card revision",
+  "groups": [
+    {
+      "id": "cards",
+      "title": "Poem cards",
+      "status": "locked",
+      "heading": "The poet and the poem, together.",
+      "description": "A keeps the portrait small and round. B uses a taller artistic portrait. C gives the face more space beside a quieter title. Each keeps the same four-line excerpt area and aligns the reading links.",
+      "variants": [
+        "A · Small round portrait — recommended",
+        "B · Upright artistic portrait",
+        "C · A larger portrait, quieter title"
+      ],
+      "checks": [
+        "The portrait is on the left; poem title and author are on the right.",
+        "All three scripts start their excerpts at the same height in the wide layout.",
+        "Overflow ends with an ellipsis; Read the poem opens the complete source text.",
+        "Use 360px to inspect long Odia and Hindi lines. No verse is rewritten."
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "version": "0.2.0",
-  "status": "Option A single-colour direction approved; individual motif placement remains under review",
+  "version": "0.3.0",
+  "status": "Single-colour direction approved; footer-story/footer-send-poem/footer-contact/footer-facebook approved and applied. Other motif placements retain individual statuses.",
   "approved_treatment": "ink",
   "approval_quote": "I like the icon with the single-color option A",
   "direction": "Earth & voice",
@@ -158,10 +158,10 @@
       "id": "paddy",
       "name": "What the soil gives",
       "story": "A bending stem and grain suggest the patient work behind a harvest.",
-      "use": "Land, labour and seasons",
+      "use": "Small ornament at the end of a poem; approved A reader refinement",
       "source": "Creative interpretation",
       "family": "editorial",
-      "status": "candidate",
+      "status": "applied",
       "min_size": 36
     },
     {
@@ -283,6 +283,100 @@
       "family": "utility",
       "status": "candidate",
       "min_size": 20
+    },
+    {
+      "id": "read",
+      "name": "Read poem",
+      "story": "An open book invites the reader into a poem.",
+      "use": "Edition contents reading link, with hover and keyboard-focus text.",
+      "source": "Original geometric open-book drawing; single-ink utility style.",
+      "family": "utility",
+      "status": "applied to edition pages",
+      "min_size": 20
+    },
+    {
+      "id": "write",
+      "name": "Write to the editor",
+      "story": "A quiet pen invites a private note about the poem.",
+      "use": "Poem opening: private editorial feedback",
+      "source": "Original single-ink SVG",
+      "family": "utility",
+      "status": "applied",
+      "min_size": 20
+    },
+    {
+      "id": "next-poetic",
+      "name": "A quiet way onward",
+      "story": "A gently curved line ends in a clear arrowhead. Rotate for the preceding poem.",
+      "use": "Poem Previous and Next controls; approved arrow study B",
+      "source": "Original SVG geometry from the approved local comparison",
+      "family": "utility",
+      "status": "applied",
+      "min_size": 24
+    },
+    {
+      "id": "contact",
+      "name": "Contact",
+      "story": "Familiar navigation mark in the journal’s single-ink style.",
+      "use": "Shared footer with text on desktop, labelled icon on mobile.",
+      "source": "Original SVG geometry; Facebook letterform identifies the destination service.",
+      "family": "utility",
+      "status": "historical footer mark; replaced by footer-contact",
+      "min_size": 20
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "story": "Familiar navigation mark in the journal’s single-ink style.",
+      "use": "Shared footer with text on desktop, labelled icon on mobile.",
+      "source": "Original SVG geometry; Facebook letterform identifies the destination service.",
+      "family": "utility",
+      "status": "historical footer mark; replaced by footer-facebook",
+      "min_size": 20
+    },
+    {
+      "id": "footer-story",
+      "name": "Our story",
+      "story": "Palm-leaf manuscript. Original Earth & voice footer interpretation.",
+      "use": "Shared footer; labels on desktop and accessible icon-only links on mobile.",
+      "source": "Original SVG master in KB footer-earth-voice-v2; user approved Perfect.",
+      "family": "utility",
+      "status": "approved and applied to shared footer",
+      "min_size": 24,
+      "stroke": 1.35
+    },
+    {
+      "id": "footer-send-poem",
+      "name": "Send a poem",
+      "story": "Stylus & new leaf. Original Earth & voice footer interpretation.",
+      "use": "Shared footer; labels on desktop and accessible icon-only links on mobile.",
+      "source": "Original SVG master in KB footer-earth-voice-v2; user approved Perfect.",
+      "family": "utility",
+      "status": "approved and applied to shared footer",
+      "min_size": 24,
+      "stroke": 1.35
+    },
+    {
+      "id": "footer-contact",
+      "name": "Contact",
+      "story": "Letter & leaf seal. Original Earth & voice footer interpretation.",
+      "use": "Shared footer; labels on desktop and accessible icon-only links on mobile.",
+      "source": "Original SVG master in KB footer-earth-voice-v2; user approved Perfect.",
+      "family": "utility",
+      "status": "approved and applied to shared footer",
+      "min_size": 24,
+      "stroke": 1.35
+    },
+    {
+      "id": "footer-facebook",
+      "name": "Facebook",
+      "story": "Familiar f & an ink circle. Original Earth & voice footer interpretation.",
+      "use": "Shared footer; labels on desktop and accessible icon-only links on mobile.",
+      "source": "Original SVG master in KB footer-earth-voice-v2; user approved Perfect.",
+      "family": "utility",
+      "status": "approved and applied to shared footer",
+      "min_size": 24,
+      "stroke": 1.35
     }
   ]
 }

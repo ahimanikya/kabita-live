@@ -1,0 +1,96 @@
+{
+  "accessed_on": "2026-10-01",
+  "independent": false,
+  "scope": "Selected targeted rechecks, not all source URLs. Failed fetch is not proof a claim is false. No contacts or unrelated personal records retained.",
+  "checks": [
+    {
+      "writer_ids": [
+        255,
+        449
+      ],
+      "url": "https://www.amity.edu/gwalior/asco/faculty_details.aspx?facultyid=5832&mpgid=1797&pgidtrail=1797",
+      "access": "direct502; official indexed page read",
+      "finding": "Manuscript recognition dated January2021 and Khanabadosh co-direction recorded. Captured2020 discrepancy and duplicate identity not resolved."
+    },
+    {
+      "writer_ids": [
+        332
+      ],
+      "url": "https://www.pnautonomouscollege.in/departments/odia",
+      "access": "direct403; official indexed page read",
+      "finding": "Lists Manini Jena as Odia faculty. Supports affiliation; undated listing is not a guaranteed current appointment."
+    },
+    {
+      "writer_ids": [
+        332
+      ],
+      "url": "https://pnautonomouscollege.in/Upload/College-Calendars/4.pdf",
+      "access": "official indexed calendar",
+      "finding": "2024–25 Odia faculty includes Manini Jena. No personal contact data retained."
+    },
+    {
+      "writer_ids": [
+        142
+      ],
+      "url": "https://v1.nitj.ac.in/nitj_files/links/Brochure_STC_060923_39772.pdf",
+      "access": "opened PDF, page2",
+      "finding": "January2024 programme lists Nitish Raj, Literia Insight and Love in Modern Times. Nisith display spelling remains unresolved."
+    },
+    {
+      "writer_ids": [
+        106
+      ],
+      "url": "https://www.fccollege.ac.in/UG/TeacherData?id=183",
+      "access": "official index; direct open failed",
+      "finding": "Uses Mandakini Bhattacherya and records English teaching. Confirms institutional spelling and bibliography context; source heading discrepancy remains."
+    },
+    {
+      "writer_ids": [
+        218
+      ],
+      "url": "https://culture.odisha.gov.in/sites/default/files/2022-06/List%20of%20Selected%20Books%20Under%20Raja%20Rammohan%20Ray%20Library%20Foundation%20%28RRRLF%29%20Scheme%20for%20the%20Year%202010-11.pdf",
+      "access": "official indexed row331",
+      "finding": "Nandan Kaanan by Zakir Khan, Pakshighara2006. Bibliographic metadata supported; writer-specific identity link still contextual."
+    },
+    {
+      "writer_ids": [
+        318
+      ],
+      "url": "https://ranuuniyal.com/about/",
+      "access": "opened author page",
+      "finding": "Supports university affiliation and named collections, but template/date defects reduce confidence in treating every page field as current."
+    },
+    {
+      "writer_ids": [
+        318
+      ],
+      "url": "https://udrc.lkouniv.ac.in/Content/FacultyCV/CV_134.pdf",
+      "access": "opened PDF, relevant pages1–4",
+      "finding": "University affiliation, qualifications and books supported; no explicit current-status verification established."
+    },
+    {
+      "writer_ids": [
+        448
+      ],
+      "url": "https://www.ramnagarcollege.ac.in/Home/Staff",
+      "access": "opened page",
+      "finding": "Institutional staff list accessible; no new contrary evidence identified in this audit. Not independent clearance of every claim."
+    },
+    {
+      "writer_ids": [
+        49
+      ],
+      "url": "https://sahitya-akademi.gov.in/pdf/yuvasahiti_7-4-17.pdf",
+      "access": "direct fetch failed; official indexed invitation read",
+      "finding": "Lists scheduled poetry readers for7April2017, including Sujit Kumar Satapathy. Supports scheduled participation, not confirmed attendance."
+    },
+    {
+      "writer_ids": [
+        40
+      ],
+      "url": "https://ourpoetryarchive.blogspot.com/2025/05/sujata-dash.html",
+      "access": "indexed contributor note",
+      "finding": "Repeats four titles and Authorspress. This remains contributor-supplied bibliography, not independent edition verification."
+    }
+  ]
+}

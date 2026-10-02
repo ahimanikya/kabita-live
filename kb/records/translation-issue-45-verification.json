@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 45,
+  "status": "available-sources-drafted; one source hold",
+  "poems_drafted": [
+    774,
+    780,
+    781,
+    778,
+    773,
+    775,
+    776,
+    777,
+    779,
+    782,
+    783,
+    785,
+    786,
+    787
+  ],
+  "source_held": [
+    784
+  ],
+  "new_translations": 28,
+  "total_drafts": 98,
+  "remaining_translations": 1504,
+  "batches": [
+    "batch-008",
+    "batch-009",
+    "batch-010"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 14 translated poems",
+    "source_line_and_stanza_coverage": "pass for all 28 versions",
+    "rendered_catalogue_parity": "pass for all 28 versions",
+    "original_rendered_stanzas": "unchanged",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "new_source_issue": {
+    "poem": 784,
+    "author": "Tasneem Hossain",
+    "published_language": "or",
+    "credit": "Adaptation by Pradeep Biswal",
+    "local_search": "Same-author archive contains only poem 627 (The World in My Hands) and poem 784; no matching underlying original found.",
+    "resolution": "Source identification and original/adaptation label reconciliation needed."
+  },
+  "publication": false,
+  "next_edition": 44,
+  "next_poem_ids": [
+    763,
+    765,
+    762,
+    768,
+    769
+  ]
+}

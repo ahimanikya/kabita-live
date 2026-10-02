@@ -1,0 +1,35 @@
+<!doctype html><meta charset="utf-8"><title>Approved poem panel checks</title><style>body{font:16px system-ui}iframe{height:800px;border:1px solid #ccc;display:block}pre{white-space:pre-wrap}</style><h1>Applied panel verification</h1><pre id="result">Running…</pre><iframe title="Poem review" id="frame"></iframe><script>
+(async()=>{
+ const f=document.querySelector('iframe'),out=document.querySelector('#result'),results=[];
+ const wait=ms=>new Promise(r=>setTimeout(r,ms));
+ function check(name,pass,detail=''){results.push({name,pass:!!pass,detail});out.textContent=JSON.stringify(results,null,2)}
+ for(const [width,id] of [[1280,8],[820,8],[360,8],[1280,772],[360,772],[1280,645],[360,645]]){
+ f.style.width=width+'px';await new Promise(r=>{f.onload=r;f.src='poem-'+id+'.html?check=1'});await wait(300);const d=f.contentDocument,w=f.contentWindow;await d.fonts.ready;
+ check(width+' '+id+' no horizontal overflow',d.documentElement.scrollWidth<=width);
+ check(width+' '+id+' title fits',d.querySelector('h1').scrollWidth<=d.querySelector('h1').clientWidth);
+ check(width+' '+id+' title size',parseFloat(w.getComputedStyle(d.querySelector('h1')).fontSize)<=(width===360?32:48));
+ check(width+' '+id+' five nearby poems',d.querySelectorAll('.edition-glance li').length===(id===645?0:5));
+ check(width+' '+id+' related links inside panel',!!d.querySelector('.edition-glance > #poem-secondary-links'));
+ check(width+' '+id+' one related menu',d.querySelectorAll('#poem-secondary-links').length===1);
+ check(width+' '+id+' current poem identified',d.querySelectorAll('.edition-glance [aria-current=page]').length===(id===645?0:1));
+ check(width+' '+id+' contents placement',!!d.querySelector((width===360?'#page-bookmarks':'.poem-art')+' > .edition-glance'));
+ if(width===360){d.querySelector('#page-bookmarks-button').click();check('mobile tools contain visible contents',d.querySelector('.edition-glance').getBoundingClientRect().height>0);d.querySelector('#page-bookmarks-button').click()}
+ d.querySelector('#page-bookmarks-button').click();
+ for(const code of ['or','hi','en']){const tab=d.querySelector('#tab-'+code);if(tab.disabled)continue;tab.click();check(width+' '+id+' '+code+' title size',parseFloat(w.getComputedStyle(d.querySelector('h1')).fontSize)<=(width===360?32:48));check(width+' '+id+' '+code+' title wrap',d.querySelector('h1').scrollWidth<=d.querySelector('h1').clientWidth)}
+ d.querySelector('#tab-original').click();d.querySelector('#page-bookmarks-button').click();
+ if(width===1280&&id===8){
+ d.querySelector('#open-focus').click();await wait(600);check('quiet reader opens',d.querySelector('#focus-reader').open);
+ const area=d.querySelector('#focus-pages'),next=d.querySelector('#focus-next'),prev=d.querySelector('#focus-prev');let forward=0,backward=0;next.addEventListener('click',()=>forward++);prev.addEventListener('click',()=>backward++);
+ const wheel=(x,y,extra={})=>area.dispatchEvent(new w.WheelEvent('wheel',{deltaX:x,deltaY:y,bubbles:true,cancelable:true,...extra}));
+ for(let n=0;n<20;n++)wheel(20,2);check('one turn per horizontal gesture including momentum',forward===1);
+ await wait(650);for(let n=0;n<8;n++)wheel(-20,1);check('opposite swipe returns a page',backward===1);
+ await wait(650);wheel(0,160);wheel(180,0,{ctrlKey:true});check('vertical scroll and pinch ignored',forward===1&&backward===1);
+ d.querySelector('#focus-settings-button').click();wheel(180,0);check('no page turn while settings open',forward===1);
+ d.querySelector('#close-focus').click();
+ }
+ }
+ f.style.width='1280px';await wait(180);check('resize moves single panel to artwork',!!f.contentDocument.querySelector('.poem-art > .edition-glance')&&f.contentDocument.querySelectorAll('.edition-glance').length===1);
+ f.style.width='360px';await wait(180);check('resize returns single panel to reader tools',!!f.contentDocument.querySelector('#page-bookmarks > .edition-glance')&&f.contentDocument.querySelectorAll('#poem-secondary-links').length===1);
+ out.dataset.complete='true';out.dataset.failures=results.filter(r=>!r.pass).length;
+})().catch(e=>{document.querySelector('#result').textContent=e.stack;document.querySelector('#result').dataset.complete='error'});
+</script>

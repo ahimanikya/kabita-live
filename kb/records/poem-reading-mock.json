@@ -1,0 +1,341 @@
+{
+  "status": "approved_and_applied",
+  "recorded_at": "2026-10-01T08:42:09.139191+00:00",
+  "request": "Mock proposed poem fixes and explore a distraction-free mobile/iPad edition reader before approving together.",
+  "preview": "http://127.0.0.1:8771/poem-reading-review.html",
+  "regular_page": {
+    "sample": "poem8",
+    "shared_changes": [
+      "English-only author name",
+      "Compact heading/actions",
+      "Source language only in reading tabs",
+      "Share title/link follow selected translation",
+      "No visible artwork caption in either A or B; original image and descriptive alt text retained."
+    ],
+    "option_a": "Full-width mobile artwork after verse; desktop retains right-hand artwork.",
+    "option_b": "Compact mobile opening with art before verse.",
+    "missing_text_review": "Removed from active review at user request; historical fixture and internal source evidence retained.",
+    "compact_tools": {
+      "visible": "Three top-level actions: Aa, Share and Read quietly.",
+      "menu": "Four choices: Original, Odia, Hindi, English. Text sizes: Standard, Large, Extra large. Bookmark, saved places/passages and clear marks retained.",
+      "behavior": "Escape/close restores focus. Share closes back to Share; quiet reader exits back to its entry control. Shared marks and source-line resume preserved.",
+      "scope": "User clarified Share and Read quietly must remain top level alongside Aa. Supersedes revision11 grouping; mock only."
+    },
+    "ending": "Compact desktop poet/editor menu aligned to artwork left edge, closer to verse. Both labels left-aligned beside2px laterite rule with18px inset;44px rows retained. Mobile footer unchanged.",
+    "layout_revision13": "Desktop verse now shares a two-column grid with artwork and the two stacked poet/editor links on the right. Heading no longer reserves the full artwork height before verse starts. Mobile composition retained.",
+    "footer_revision13": "Removed extra verse bottom margin; footer gap reduced from90px to48px desktop and40px mobile. Small boat illustration retained in36px strip. Facebook external arrow hidden; accessible new-tab description and link safeguards retained.",
+    "footer_revision14": "Removed the upper navigation separator lines; retained previous/next icons and central sprig. Only the lower footer rule remains.",
+    "opening_revision15": "Tighter issue/title/byline/actions rhythm;52px desktop portrait;16px controls-to-verse gap. Artwork and stacked links stay in right column;Aa,Share,Read quietly remain top level.",
+    "footer_revision16": "Boat decoration now in normal flow in its own36px row with16px navigation clearance and8px bottom clearance. Single rule moved to footer-line. Removes absolute positioning overlap.",
+    "language_revision19": "Original resolves to actual source language; selecting the same named language uses the same source and underline store, with one selected tab. Named options also used in quiet-reader settings.",
+    "spread_revision20": "Desktop candidate at1000px+: centred1040px maximum reading spread with32px column gap. Keeps60/40 poem/art relationship, approved text sizes and right-hand menu. Mobile unchanged."
+  },
+  "quiet_reader": {
+    "scope": "19 poems from Issue1; existing originals and57 total reading versions",
+    "entry": "Read quietly; native modal fills browser viewport, with no site header/artwork/footer",
+    "layout": "One page on phone and portrait iPad; two-page spread from1000px at height500px or more",
+    "controls": [
+      "Next/previous page; boundary labels change to poem navigation",
+      "Aa opens language, size and edition contents",
+      "Exit or Escape returns focus and browsing position",
+      "Device-local review position remembered",
+      "Curved paper peel with moving fold/shadow revealing the next page beneath; independent switch in Aa; disabled when reduced motion is requested",
+      "Soft synthesized paper rustle, off by default; independent switch and Try the sound button",
+      "Select partial text to underline or remove; Ctrl/Cmd+U shortcut; grapheme-safe Odia/Hindi/English offsets",
+      "Page bookmarks and a saved-passages list inside Aa; jump to a saved place; remove saved items"
+    ],
+    "pagination": "Measure actual type after font loading, preserve all verse and restored inline breaks, reflow at size/orientation changes",
+    "storage": "Review-only device-local preferences, position, bookmarks and per-poem/language underlines; isolated from publication reader data.",
+    "limits": [
+      "Real iPad/iPhone gesture testing pending; swipe handler not device-verified",
+      "No offline mode or cross-device sync",
+      "Existing translations remain drafts pending linguistic review",
+      "Viewport reading mode does not hide browser/OS chrome",
+      "Long pathological lines outside tested sample retain scroll fallback",
+      "Sound character and animation feel await user audition; actual phone/iPad touch selection and audio playback still need device testing",
+      "Reduced-motion safeguard implemented; live OS preference change not emulated in this review"
+    ],
+    "display_cleanup": "Hide standalone asterisk/dash decoration lines in the 19-poem sample. 15 lines across 12 language versions of four poems; words, stanza separation and all source/translation arrays preserved. Source-line offsets retained for underlines.",
+    "paper_turn": {
+      "duration_ms": 520,
+      "method": "Outgoing DOM snapshot clipped along a curved edge; shaded paper fold travels over the real next page. Reverse direction for previous navigation.",
+      "accessibility": "Temporary snapshot inert and aria-hidden; no source-line identifiers duplicated. Reduced motion and animation-off skip the overlay. Reflow/exit/rapid turns cancel transient sheets.",
+      "scope": "Kindle-like paper transition in review only; not a claim of matching a specific Kindle app or device."
+    }
+  },
+  "checks": {
+    "pagination": {
+      "state": "complete",
+      "cases": 228,
+      "turns": 576,
+      "scrolledPages": 0,
+      "overflowSamples": [],
+      "failures": []
+    },
+    "sharing": "English translation title and lang=en review URL verified; reopening URL selectsEnglish",
+    "resume": "Page3/3, units14–19 restored after closing/reloading",
+    "exit": "Returned focus to Read quietly and previous39px scroll position",
+    "js_syntax": "Node24 syntax check passed",
+    "reader_tools": {
+      "state": "complete",
+      "checks": [
+        {
+          "name": "Sound defaults off",
+          "pass": true
+        },
+        {
+          "name": "or selection toolbar appears",
+          "pass": true
+        },
+        {
+          "name": "or partial underline uses whole graphemes",
+          "pass": true
+        },
+        {
+          "name": "or underline survives type reflow",
+          "pass": true
+        },
+        {
+          "name": "or underline survives page turn",
+          "pass": true
+        },
+        {
+          "name": "or underline removal",
+          "pass": true
+        },
+        {
+          "name": "hi selection toolbar appears",
+          "pass": true
+        },
+        {
+          "name": "hi partial underline uses whole graphemes",
+          "pass": true
+        },
+        {
+          "name": "hi underline survives type reflow",
+          "pass": true
+        },
+        {
+          "name": "hi underline survives page turn",
+          "pass": true
+        },
+        {
+          "name": "hi underline removal",
+          "pass": true
+        },
+        {
+          "name": "en selection toolbar appears",
+          "pass": true
+        },
+        {
+          "name": "en partial underline uses whole graphemes",
+          "pass": true
+        },
+        {
+          "name": "en underline survives type reflow",
+          "pass": true
+        },
+        {
+          "name": "en underline survives page turn",
+          "pass": true
+        },
+        {
+          "name": "en underline removal",
+          "pass": true
+        },
+        {
+          "name": "Underlines do not leak into translations",
+          "pass": true
+        },
+        {
+          "name": "Return to language restores underline",
+          "pass": true
+        },
+        {
+          "name": "Bookmark toggles on",
+          "pass": true
+        },
+        {
+          "name": "Bookmark survives reflow",
+          "pass": true
+        },
+        {
+          "name": "Saved places and passages listed",
+          "pass": true
+        },
+        {
+          "name": "Saved passage jumps to poem and closes settings",
+          "pass": true
+        },
+        {
+          "name": "Reopen restores saved passage",
+          "pass": true
+        },
+        {
+          "name": "Bookmark toggles off",
+          "pass": true
+        },
+        {
+          "name": "Recovered inline unit saves original source offset",
+          "pass": true
+        },
+        {
+          "name": "Recovered inline unit exercised",
+          "pass": true
+        },
+        {
+          "name": "320px settings stay inside viewport",
+          "pass": true
+        }
+      ],
+      "failures": []
+    },
+    "audio": "Enabled sound by keyboard UI; AudioContext reached running state and UI reported sound on; restored off. No claim of a subjective listening review.",
+    "ending_cleanup": "57 reading-version stanza arrays compared exactly to source pages; no text changes. One grouped More by this poet link, correct poet/contact destinations, mobile ending visually checked.",
+    "art_caption": "Verified generated mock omits figcaption while its image element, source, dimensions and alt text match the original exactly.",
+    "paper_curl": {
+      "rapidTurnsCleaned": true,
+      "motionOffNoOverlay": true,
+      "exitCleansOverlay": true
+    },
+    "paper_curl_visual": "Forward and backward midpoint inspected; phone390px and tablet1180px preview captured. Existing 228 pagination cases/576 turns pass. Midpoint screenshots use a test fixture that pauses the animation.",
+    "compact_tools": "Browser verified English translation, 28px size, Escape dismissal and focus restoration, and language-aware share dialog. Image caption remains absent.",
+    "ending_mobile_refinement": "360px and 1180px browser previews visually checked. Generated links contain no SVG and retain poet-21/contact?poem=8 destinations.",
+    "regular_saved_tools": {
+      "state": "complete",
+      "checks": [
+        {
+          "name": "Four language choices",
+          "pass": true
+        },
+        {
+          "name": "Language selection or",
+          "pass": true
+        },
+        {
+          "name": "Language selection hi",
+          "pass": true
+        },
+        {
+          "name": "Language selection en",
+          "pass": true
+        },
+        {
+          "name": "Language selection original",
+          "pass": true
+        },
+        {
+          "name": "Original and Odia share source text",
+          "pass": true
+        },
+        {
+          "name": "Named sizes",
+          "pass": true
+        },
+        {
+          "name": "Text size 28",
+          "pass": true
+        },
+        {
+          "name": "Text size 32",
+          "pass": true
+        },
+        {
+          "name": "Text size 24",
+          "pass": true
+        },
+        {
+          "name": "Language tabs and sizes visible inside reader menu",
+          "pass": true
+        },
+        {
+          "name": "Bookmark created",
+          "pass": true
+        },
+        {
+          "name": "Bookmark follows reading position",
+          "pass": true
+        },
+        {
+          "name": "Bookmark returns focus to saved line",
+          "pass": true
+        },
+        {
+          "name": "Regular partial underline",
+          "pass": true
+        },
+        {
+          "name": "Saved passage is listed",
+          "pass": true
+        },
+        {
+          "name": "Underline carried into quiet mode",
+          "pass": true
+        },
+        {
+          "name": "Translation underlines isolated",
+          "pass": true
+        },
+        {
+          "name": "Saved passage switches back to original",
+          "pass": true
+        },
+        {
+          "name": "360px drawer fits width",
+          "pass": true
+        },
+        {
+          "name": "Saved passage removal refreshes poem",
+          "pass": true
+        },
+        {
+          "name": "No horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "Mobile footer artwork clears navigation and links",
+          "pass": true
+        }
+      ],
+      "failures": []
+    },
+    "responsive_poem_links": "Browser verified desktop group below image (12px gap), one group and unchanged destinations. 360px preview visually confirms both text links inside footer and absent above poem navigation.",
+    "comprehensive_menu": "Twelve saved-reading checks pass on consolidated-menu revision. Desktop menu inspected with all controls within viewport; quiet mode entry and exit restore focus to Reader tools. Right-side links share left edge756px with separate44px rows.",
+    "top_level_actions": "Revision12 browser verified Aa, Share and Read quietly in Poem actions, and language, size, bookmark and saved passages in the open Aa panel. Markup assertions confirm no duplicated Share/quiet actions inside panel.",
+    "revision13": "Desktop browser verified adjacent verse and right-column links and visually inspected compact footer. All12 regular-reader checks passed at360px, including no horizontal overflow and shared underlines/bookmarks. Same-assistant review.",
+    "revision14": "Browser visually confirmed hidden upper rules, visible30px motif and1px lower footer border.",
+    "revision15": "Browser confirmed16px controls-to-verse gap, three top-level actions, no horizontal overflow; desktop screenshot visually reviewed. Existing revision13 mobile tests not rerun for this margin-only refinement.",
+    "revision16": "Desktop DOM measurement:16px after navigation,8px before rule. All13 checks passed in360px fixture including mobile boat clearance. Self-review.",
+    "revision17": "Browser confirmed both links right-aligned,44px rows,16px padding and1px warm vertical rule; desktop visually checked. Desktop-only CSS leaves mobile footer unchanged.",
+    "revision18": "Browser confirmed left2px laterite rule, no right border, right-aligned text and matching menu/artwork right edges. Visually reviewed.",
+    "revision19": "23 checks passed at360px:four language choices, actual source alias, one selected tab/panel association, all sizes, marks/bookmarks and layout. Desktop visually reviewed.",
+    "revision20": "Browser verified1040px width,32px gap, unchanged24px verse and no horizontal overflow; opening visually inspected. No behavioral changes.",
+    "revision21": "Browser confirmed menu and artwork left edges match, laterite left rule and right-aligned link text retained.",
+    "revision22": "Browser confirmed both menu labels left-aligned with the same starting edge."
+  },
+  "review": {
+    "independent": false,
+    "executor": "Current assistant; Samanta/Drishti role passes"
+  },
+  "evidence": [
+    "evidence/poem-reading-mock/pagination-checks.json",
+    "evidence/poem-reading-mock/landscape-reader.png",
+    "evidence/poem-reading-mock/tools-checks.json",
+    "evidence/poem-reading-mock/reader-tools.png",
+    "evidence/poem-reading-mock/decoration-exclusions.json",
+    "evidence/poem-reading-mock/grouped-ending-mobile.png",
+    "evidence/poem-reading-mock/curl-checks.json",
+    "evidence/poem-reading-mock/paper-curl-phone.png",
+    "evidence/poem-reading-mock/paper-curl-tablet.png",
+    "evidence/poem-reading-mock/compact-tools-closed.png",
+    "evidence/poem-reading-mock/clean-ending-mobile.png",
+    "evidence/poem-reading-mock/regular-tools-checks.json",
+    "evidence/poem-reading-mock/visible-tools-mobile.png",
+    "evidence/poem-reading-mock/poem-links-mobile-footer.png",
+    "evidence/poem-reading-mock/comprehensive-reader-menu.png"
+  ],
+  "publication_authorized": false,
+  "next_action": "Historical mock retained. Approved final design applied to801 poem pages; see rollout record.",
+  "updated_at": "2026-10-01T10:02:51.934468+00:00",
+  "rollout": "poem-reader-rollout.json"
+}

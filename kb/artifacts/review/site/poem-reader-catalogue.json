@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "title": "Kabita Live poem reader review",
+  "groups": [
+    {
+      "id": "reader",
+      "title": "Poem reader",
+      "status": "unreviewed",
+      "heading": "The poem comes into focus.",
+      "description": "A keeps the 60/40 illustrated opening, with one line of edition/language information and a single poet byline. B brings the first verse closer to the title, with artwork in the right margin on desktop and after the poem on phones. Both remove the repeated information sidebar and large repeated poet block.",
+      "variants": [
+        "Current · Existing reader",
+        "A · Quiet illustrated opening — recommended",
+        "B · The poem first"
+      ],
+      "checks": [
+        "Poem wording, punctuation, authored line breaks and stanza order remain unchanged.",
+        "One edition link above the title; one author byline. No repeated metadata sidebar.",
+        "Text sizing and Share remain visible; appearance stays in the shared masthead.",
+        "After the poem: More by this poet, the next poem, and a quiet correction link.",
+        "Compare all three languages at desktop and 360px. A keeps artwork in the opening; B moves it after the poem on phones.",
+        "Underlining and audio are not implemented in this layout mockup."
+      ]
+    }
+  ]
+}

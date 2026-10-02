@@ -1,15 +1,29 @@
 {
   "schema_version": 1,
-  "complete_poem_texts": 0,
-  "excerpt_poems": 3,
-  "known_poem_records": 45,
+  "complete_poem_texts": 799,
+  "excerpt_poems": 0,
+  "known_poem_records": 801,
   "issue_records": 47,
-  "writer_records": 427,
+  "writer_records": 429,
   "review_records": 8,
+  "captured_writer_profiles": 427,
+  "writer_biographies": 381,
   "complete_review_texts": 0,
   "launch_ready": false,
   "blockers": [
-    "Full poem texts and complete issue membership must be imported.",
-    "Complete reviews and writer biographies need editorial content."
+    "One poem has no recorded edition and one has no recorded author.",
+    "Complete reviews, missing writer biographies and editorial content review remain outstanding."
+  ],
+  "archived_poem_records": [
+    385,
+    727
+  ],
+  "complete_edition_contents": 47,
+  "edition_assigned_poems": 798,
+  "unassigned_poems": [
+    645
+  ],
+  "missing_author_names": [
+    30
   ]
 }

@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 35,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    611,
+    616,
+    628,
+    630,
+    632,
+    634,
+    614,
+    636,
+    637,
+    612,
+    613,
+    615,
+    617,
+    618,
+    619,
+    620,
+    621,
+    622,
+    623,
+    624,
+    625,
+    626,
+    627,
+    629,
+    631,
+    633,
+    635
+  ],
+  "source_held": [],
+  "new_translations": 54,
+  "total_drafts": 412,
+  "remaining_translations": 1190,
+  "batches": [
+    "batch-041",
+    "batch-042",
+    "batch-043",
+    "batch-044",
+    "batch-045",
+    "batch-046"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 27 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 54 versions; haiku forms, one-word lines and closing material retained",
+    "rendered_catalogue_parity": "pass for all 54 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "626": "Trailing BIO marker retained as its own stanza; editorial cleanup must be explicit.",
+    "629": "Damaged/ambiguous grammar and river negation retained; substantial linguistic review required.",
+    "616": "Published incomplete phone fragment preserved without repair."
+  },
+  "publication": false,
+  "next_edition": 34,
+  "next_poem_ids": [
+    592,
+    594,
+    595,
+    603,
+    604
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-02T10:11:51.607085+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "documented_verified_locally",
+  "authorization": "Add the page-by-page artistic design work to the design system.",
+  "changes": [
+    "Added consolidated current artistic page system with page-family matrix, type/copy, imagery, portraits, separators/icons, reading/mobile and footer rules",
+    "Separated current rules from preserved chronological history; retained Archive-only footer scope and unfinished reviews/portrait rollout",
+    "Updated visual guide chapter and regenerated standalone guide/preview plus generated design reference",
+    "Aligned generated icon-catalogue reuse guidance with approved laterite reading/action placements",
+    "Linked consolidated rules from design index"
+  ],
+  "canonical_source": "artifacts/design/brand-guide/DESIGN-SYSTEM.md",
+  "preview": "http://127.0.0.1:8771/branding-guide.html#system",
+  "checks": {
+    "reader_and_source_files_unchanged": 4670,
+    "evidence_records_checked": 26,
+    "missing_records": [],
+    "canonical_and_preview_markdown_match": true,
+    "guide_build": "passed",
+    "desktop_1280": "No document overflow or broken images; current chapter inspected",
+    "mobile_360": "No document overflow; current footer/credit section inspected",
+    "scope": "Documentation and review-only guide exports; no reader-page changes",
+    "independent": false
+  },
+  "evidence": [
+    "artifacts/review/design-system-artistic-consolidation/checks.json",
+    "artifacts/review/design-system-artistic-consolidation/desktop.png",
+    "artifacts/review/design-system-artistic-consolidation/mobile.png"
+  ],
+  "limitations": [
+    "No new design approvals or publication",
+    "Broader editorial, linguistic, accessibility and physical-device checks remain pending"
+  ],
+  "independent": false
+}

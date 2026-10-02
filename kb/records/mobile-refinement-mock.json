@@ -1,0 +1,20 @@
+{
+  "status": "approved_and_applied",
+  "date": "2026-10-01",
+  "scope": "Mobile homepage spacing, shared footer alignment, unified menu link styles, visible header theme toggle",
+  "preview": "http://127.0.0.1:8771/mobile-refinement-review.html",
+  "files": [
+    "artifacts/review/site/mobile-refinement-review.html",
+    "artifacts/review/site/mobile-refinement-preview.html",
+    "artifacts/review/site/mobile-refinement-theme.js"
+  ],
+  "isolation": "Canonical homepage, shared styles and main theme preference unchanged; review aliases are excluded from public page export.",
+  "evidence": [
+    "evidence/mobile-refinement-mock/home.png",
+    "evidence/mobile-refinement-mock/menu.png",
+    "evidence/mobile-refinement-mock/footer.png"
+  ],
+  "review": "Mockup reviewed and approved by the user; applied to the shared site. Original preview files retained.",
+  "approval": "User: Perfect - apply this now",
+  "application": "records/mobile-refinement-applied.json"
+}

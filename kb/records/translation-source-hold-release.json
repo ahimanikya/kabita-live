@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-01T12:21:58.566483+00:00",
+  "decision": "KBL-DEC-035",
+  "work_ref": "KBL-WORK-009",
+  "executor": "Current chat assistant; Anvesha/Disha role passes",
+  "independent": false,
+  "status": "Source-only holds removed",
+  "released_poem_ids": [
+    797,
+    784,
+    472,
+    319,
+    219,
+    197,
+    203,
+    130,
+    78,
+    47
+  ],
+  "remaining_content_hold_poem_ids": [
+    332,
+    385,
+    506,
+    727
+  ],
+  "released_historical_reasons": {
+    "797": {
+      "reason": "Published English text explicitly credits Bandana Sahoo as translator from Odia. Authoritative Odia original is not present in this edition; do not recreate it and label it Original.",
+      "evidence": "projects/site/content/editions/issue-46/poem-797.json",
+      "action": "Locate and identity-match the Odia original, reconcile source/translator labels, then translate missing targets.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "784": {
+      "reason": "Stored Odia text credits an adaptation (ଅନୁସୃଜନ) by Pradeep Biswal while author metadata names Tasneem Hossain. Underlying original and its language are not identified in the local poem record.",
+      "evidence": "projects/site/content/editions/issue-45/poem-784.json",
+      "action": "Locate and identity-match the underlying original and reconcile original/adaptation labels and named credit before generating additional versions. Preserve the published Odia adaptation.",
+      "targets": [
+        "hi",
+        "en"
+      ]
+    },
+    "472": {
+      "reason": "The Temple of Afruza Akhtar by Nilim Kumar explicitly credits Translation ; Bibekananda Choudhury in its English body. The preserved original HTML confirms this credit; no matching underlying original or identified source-language text was found in the local catalogue.",
+      "evidence": "projects/site/content/editions/issue-24/poem-472.json; kb/artifacts/content-import/editions/issue-24/poem-472.html",
+      "action": "Obtain and identity-match the underlying original and its language, reconcile Original/Translation labels and preserve Bibekananda Choudhury’s credit before additional translations. Do not reconstruct an original from the English translation.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "319": {
+      "reason": "The Solar Path by Tuhinamshu Rath explicitly credits Translated by: Prof. Raj kishore Mishra in its English body. Preserved HTML confirms the credit. No identity-matched underlying original or original-language identification was found in the local edition catalogue; author biography mentions Odia collections but cannot establish this poem’s source language.",
+      "evidence": "projects/site/content/editions/issue-13/poem-319.json; kb/artifacts/content-import/editions/issue-13/poem-319.html",
+      "action": "Obtain and identity-match the underlying original and its language, then reconcile Original/Translation labels while preserving Prof. Raj Kishore Mishra’s published translation and credit. Do not reconstruct a missing original from English.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "219": {
+      "reason": "Swing by Raghu Seshabhattar explicitly identifies a Telugu original and an English translation by Elanaaga. Preserved HTML confirms both credits. No matching Telugu original or another source record for this poem/author was found in the local edition catalogue.",
+      "evidence": "projects/site/content/editions/issue-08/poem-219.json; kb/artifacts/content-import/editions/issue-08/poem-219.html",
+      "action": "Obtain and identity-match the Telugu original and reconcile language/Original labels while preserving Elanaaga’s published English translation and credit. Do not reconstruct a missing original from the English translation.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "197": {
+      "reason": "Art by Laszlo Aranyi explicitly credits Translated by Gabor Gyukics in its English body; preserved HTML confirms this. No matching underlying original or source-language identification was found in the local edition catalogue.",
+      "evidence": "projects/site/content/editions/issue-07/poem-197.json; kb/artifacts/content-import/editions/issue-07/poem-197.html",
+      "action": "Obtain and identity-match the underlying original and its language. Reconcile Original/Translation labels while preserving Gabor Gyukics’s published translation and credit; do not reconstruct a missing original from English.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "203": {
+      "reason": "Afghanistan by Chaitali Chattopadhyay explicitly credits Translated by Shyamashri Ray Karmakar in its English text; preserved HTML confirms the credit. No identity-matched underlying original or source-language identification was found in the local edition catalogue.",
+      "evidence": "projects/site/content/editions/issue-07/poem-203.json; kb/artifacts/content-import/editions/issue-07/poem-203.html",
+      "action": "Obtain and identity-match the underlying original and its language. Reconcile Original/Translation labels while preserving Shyamashri Ray Karmakar’s published translation and credit. Do not reconstruct a missing original from English.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "130": {
+      "reason": "Mahanirvana by Trishna Basak explicitly credits Translated by Bappaditya Roy Biswas in its English body. Preserved HTML confirms this credit. No matching underlying original or source-language identification was found in the local edition catalogue.",
+      "evidence": "projects/site/content/editions/issue-04/poem-130.json; kb/artifacts/content-import/editions/issue-04/poem-130.html",
+      "action": "Obtain and identity-match the underlying original and its language. Reconcile Original/Translation labels while preserving Bappaditya Roy Biswas’s published English translation and credit; do not reconstruct a missing original from English.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "78": {
+      "reason": "Let poems be simple by Makhan Kalita explicitly credits Translated by Dr. Binod Kumar Gogoi in the English body. Preserved HTML confirms this. No matching underlying original or source-language identification was found in the local edition catalogue.",
+      "evidence": "projects/site/content/editions/issue-03/poem-78.json; kb/artifacts/content-import/editions/issue-03/poem-78.html",
+      "action": "Obtain and identity-match the underlying original and its language. Reconcile Original/Translation labels while preserving Dr. Binod Kumar Gogoi’s published English translation and credit. Do not reconstruct an original from English.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "47": {
+      "reason": "Two Poems by Nilim Kumar contains Let us go to eat out today and The Curve with explicit Tr. Nirendra Nath Thakuria credit. Preserved HTML confirms the translation credit. Local edition catalogue search found other works by the author but no matching underlying originals or explicit source-language identification.",
+      "evidence": "projects/site/content/editions/issue-02/poem-47.json; kb/artifacts/content-import/editions/issue-02/poem-47.html",
+      "action": "Obtain both underlying originals and identify their language; preserve both published English pieces and Nirendra Nath Thakuria credit. Do not backtranslate and label as Original.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    }
+  },
+  "draft_versions": 1574,
+  "ready_to_translate": 20,
+  "remaining_held_targets": 8,
+  "policy": {
+    "authority": "User instruction: we dont need source info dont put them in hold",
+    "published_text_sufficient": true,
+    "missing_underlying_original_blocks_work": false,
+    "translation_basis": "Existing published text; additional versions remain translations, not recovered originals. Preserve existing poet and translator credits."
+  },
+  "previous_checkpoint": "kb/records/translation-actionable-completion-verification.json",
+  "checks": {
+    "queue_and_batch_regeneration": "PASS: 20 pending targets on ten released records; eight held targets on four content-conflict records; 1574 existing drafts unchanged",
+    "kb_structure": "PASS",
+    "handoff_sync": "Verification follows sync; see handoff-sync-state.json"
+  },
+  "publication": false
+}

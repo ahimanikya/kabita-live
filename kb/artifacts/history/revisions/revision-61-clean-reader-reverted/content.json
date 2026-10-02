@@ -1,0 +1,88 @@
+{
+  "id": 810,
+  "version": 3,
+  "source_sha256": "90aa0fe273e413d1484344ae2fb226bea466c7b2ca22bcd4adc2db7bdaf62b75",
+  "source": "site/content/editions/issue-47/poem-810.json",
+  "source_language": "hi",
+  "author": "Sabita Singh Meera",
+  "variants": {
+    "hi": {
+      "label": "हिन्दी",
+      "title": "क्षणिका",
+      "kind": "Original",
+      "stanzas": [
+        [
+          "गांव का सुनसान प्लेटफार्म,",
+          "बरसती बूँदों की छांव,",
+          "पटरी पर धीमे-धीमे",
+          "गुजरती ट्रेन की थरथर ध्वनि।",
+          "आज फिर वही जगह",
+          "जहाँ तुम छोड़ गए थे,",
+          "और अब भी प्रतीक्षा में हूँ,",
+          "कि लौट आओगे कभी...।"
+        ],
+        [
+          "∎",
+          "जमशेदपुर"
+        ]
+      ],
+      "credit": "Original poem by Sabita Singh Meera."
+    },
+    "or": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "କ୍ଷଣିକା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଗାଁର ନିର୍ଜନ ପ୍ଲାଟଫର୍ମ,",
+          "ବରଷୁଥିବା ବୁନ୍ଦାର ଛାଇ,",
+          "ରେଳଧାରଣାରେ ଧୀରେ ଧୀରେ",
+          "ଚାଲିଯାଉଥିବା ଟ୍ରେନ୍‌ର ଥରଥର ଧ୍ୱନି।",
+          "ଆଜି ପୁଣି ସେହି ସ୍ଥାନରେ",
+          "ଯେଉଁଠି ତୁମେ ଛାଡ଼ିଯାଇଥିଲ,",
+          "ଆଉ ଏବେ ବି ଅପେକ୍ଷାରେ ଅଛି,",
+          "ତୁମେ କେବେ ଫେରିଆସିବ ବୋଲି...।"
+        ],
+        [
+          "∎",
+          "ଜାମସେଦପୁର"
+        ]
+      ],
+      "credit": "AI-assisted translation."
+    },
+    "en": {
+      "label": "English",
+      "title": "A fleeting moment",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "The village’s deserted platform,",
+          "in the shade of falling raindrops,",
+          "along the tracks, slowly,",
+          "the trembling sound of a passing train.",
+          "Today, once more, that same place",
+          "where you left me,",
+          "and still I wait,",
+          "hoping you will return someday..."
+        ],
+        [
+          "∎",
+          "Jamshedpur"
+        ]
+      ],
+      "credit": "AI-assisted translation."
+    }
+  },
+  "review_defaults": {
+    "translation": "approve"
+  },
+  "translation_approval": {
+    "quote": "Approved language translation",
+    "scope": "One-poem translation feature approved; not independent linguistic certification of the full archive."
+  },
+  "audio_decision": {
+    "status": "deferred",
+    "quote": "drop audio from now, but keep the transalation",
+    "scope": "Remove audio from active reader prototype; preserve translations and historical auditions. No further audio generation."
+  }
+}

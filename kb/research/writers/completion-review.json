@@ -1,0 +1,1115 @@
+{
+  "recorded_at": "2026-10-01T23:01:38.098516+00:00",
+  "status": "draft_enrichment_complete",
+  "independent": false,
+  "reader_drafts": 427,
+  "externally_corroborated_drafts": 336,
+  "source_limited_drafts": 91,
+  "previously_enriched_preserved": 15,
+  "new_batch_writers": 412,
+  "verified_batches": 83,
+  "next_batch": null,
+  "automation_status": "PAUSED",
+  "checks": {
+    "public_node24_build": "passed",
+    "author_pages": "PASS",
+    "edition_integrity": "PASS",
+    "original_capture_hashes_verified": 848,
+    "all_preview_and_public_narratives_verified": 427,
+    "current_run_preserved_inputs": 805,
+    "current_run_earlier_narratives_preserved": 400,
+    "dossier_reader_snapshots_equal": 424,
+    "legacy_dossiers_without_embedded_snapshot": [
+      82,
+      337,
+      257
+    ]
+  },
+  "limitations": [
+    "Source-checked means supporting external evidence was found; it does not certify every biographical statement or resolve all discrepancies.",
+    "All427 drafts require independent author/editor factual review.",
+    "91 source-limited records retain their precise next actions; they are not externally verified biographies.",
+    "Three legacy dossiers lack an embedded reader_draft field; their existing reader text is unchanged and rendered correctly.",
+    "Known edition gaps remain: unassigned645, missing author30, duplicate-text groups268/304 and645/650; archived385 and727 unchanged.",
+    "No new portraits, layout changes, publication, push or deployment."
+  ],
+  "source_limited": [
+    {
+      "writer_id": 347,
+      "name": "Aakash Nayak",
+      "next_action": "Obtain a contributor biography or a verified author/publication link; preserve existing portrait and local contribution.",
+      "limitations": [
+        "This is a contribution-based introduction, not an independently sourced biography.",
+        "No birthplace, profession, language of composition beyond displayed English, awards or books inferred. Do not conflate with similarly named technology workers, tutors or actor Akash Dasnayak.",
+        "Same-assistant research/interpretation; author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/347.json"
+    },
+    {
+      "writer_id": 77,
+      "name": "Adyasha Priyadarshini",
+      "next_action": "Editor/author confirm literary identity and current short biography; no contact initiated.",
+      "limitations": [
+        "Do not present captured ninth-grade status as current.",
+        "UNICEF/Ravenshaw and other namesakes not merged; no college, awards or additional works claimed.",
+        "School admission lead retained only in KB pending identity confirmation.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/77.json"
+    },
+    {
+      "writer_id": 83,
+      "name": "Amiya Ranjan Mohapatra / ଅମିୟ ରଞ୍ଜନ ମହାପାତ୍ର",
+      "next_action": "Editor confirm whether ID83 is physician-poet of Ahalya and Krauncha Kavya; then integrate verified bibliography.",
+      "limitations": [
+        "No supplied biography and no independently matched exact poem.",
+        "Do not attach physician career, awards or bibliography on name alone. Literary reading is interpretation of this poem, not personal history.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/83.json"
+    },
+    {
+      "writer_id": 194,
+      "name": "Ananya Goswami",
+      "next_action": "Author/editor may supply a personal literary page or independently matching publication; contribution-based introduction remains a source-limited draft.",
+      "limitations": [
+        "Exact-name, poem-title and distinctive biography-phrase searches did not establish an external identity. Same-name Medium, LinkedIn and student writing records are not joined.",
+        "No books, awards, employment or personal experience of suffering inferred from the poem.",
+        "Same-assistant research/interpretation; author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/194.json"
+    },
+    {
+      "writer_id": 240,
+      "name": "Anita Ray",
+      "next_action": "Obtain contributor biography or a matching poem/publication identifier before linking external bibliography.",
+      "limitations": [
+        "No unverified book, award, birthplace or employment attached. Native spelling in external review is not silently applied to captured English-only name.",
+        "Name and writing language alone are insufficient to establish identity; English-language namesake collection also excluded.",
+        "Same-assistant research/interpretation; author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/240.json"
+    },
+    {
+      "writer_id": 379,
+      "name": "Anjali Pattnaik / ଅଂଜଳି ପଟ୍ଟନାୟକ",
+      "next_action": "Confirm StoryMirror identity through matching work or author confirmation; seek a verified collection record.",
+      "limitations": [
+        "No independently verified collection, award or job claim. Poem500 includes an accounts-officer signature at Sambalpur, retained as evidence rather than a current appointment.",
+        "The abusive male speaker is a literary persona, not an assertion about the poet’s personal conduct or politics.",
+        "Do not merge with same-name medical researcher or administrative staff.",
+        "Same-assistant research/interpretation; author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/379.json"
+    },
+    {
+      "writer_id": 20,
+      "name": "Arundhati Mohanty/ ଡ. ଅରୁନ୍ଧତୀ ମହାନ୍ତି",
+      "next_action": "Editor confirm education and Mumbai literary-event identity; seek author bibliography.",
+      "limitations": [
+        "Academic credentials explicitly attributed to journal note; not independently verified.",
+        "Contact-data aggregator surfaced an education match but excluded as biographical evidence; no personal contact information retained.",
+        "No bibliography found; no inference of confinement or relationships as autobiography.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/20.json"
+    },
+    {
+      "writer_id": 321,
+      "name": "Ashish Vidyarthi/ आशीष विद्यार्थी",
+      "next_action": "Seek a contributor biography or a verified author link matching this poem.",
+      "limitations": [
+        "Exact-name, Hindi-title and name-plus-poetry searches did not establish an external identity. No acting career, awards, location or collections inferred.",
+        "Contribution-based introduction only; journal phrase wellknown is not amplified as an independently established claim.",
+        "Same-assistant research/interpretation; author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/321.json"
+    },
+    {
+      "writer_id": 124,
+      "name": "Balaram Pujari/ବଳରାମ ପୂଜାରୀ",
+      "next_action": "Editor to confirm writer124 is the interviewed Malkangiri poet; if confirmed, integrate life history and verified book link. Independent review pending.",
+      "limitations": [
+        "Captured biography empty. Reader text restricted to attributed works rather than adding unconfirmed life details.",
+        "Malkangiri poet’s teaching role, books and reported 2024 death are not attached to this profile until identity bridge is confirmed.",
+        "Dialectal and highly compressed expressions in poem309 need native editorial review; profile uses broad imagery rather than uncertain literal interpretations.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/124.json"
+    },
+    {
+      "writer_id": 271,
+      "name": "Bebina Rath/ ବେବିନା ରଥ",
+      "next_action": "Independent author/editor review and request for bibliography or confirmed public author reference.",
+      "limitations": [
+        "Alias comes from captured biography; degree and current residence not newly asserted without external evidence.",
+        "No book or award invented. Source contains leading p> artifact; poem text preserved, not edited within profile work.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/271.json"
+    },
+    {
+      "writer_id": 32,
+      "name": "Bhaswati Basu/ଭାସ୍ୱତୀ ବସୁ",
+      "next_action": "Ask editor or author to confirm whether this contributor is the actor/poet interviewed in Odisha Bytes; then verify book bibliography. Independent literary review pending.",
+      "limitations": [
+        "Captured biography is empty; reader narrative is close reading, not an externally corroborated life biography.",
+        "Actor, director and poet Bhaswati Basu is a strong candidate; same name and Odia poetry alone do not establish a safe contributor-to-career bridge.",
+        "No external books, awards, family or employment imported. Poems are not treated as autobiography.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/32.json"
+    },
+    {
+      "writer_id": 329,
+      "name": "Bichitra Dash/ ବିଚିତ୍ରା ଦାଶ",
+      "next_action": "Independent editor confirmation of festival/award identity and bibliography.",
+      "limitations": [
+        "Puri comes from captured biography only. Captured degree claims preserved in original data but not promoted into the new narrative without verification.",
+        "No externally verified books or awards added; poem speaker not equated with author’s personal life.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/329.json"
+    },
+    {
+      "writer_id": 346,
+      "name": "Binapani Debta / ବୀଣାପାଣି ଦେବତା",
+      "next_action": "Author/editor to confirm Samata byline and Bijabapana attribution; preserve source-limited status.",
+      "limitations": [
+        "Captured biography empty; no birth, education, career, award or book claim added.",
+        "Samata and book author identity remains plausible but unconfirmed. Unrelated administrative and alumni names not used.",
+        "Literary interpretation does not establish personal or political beliefs.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/346.json"
+    },
+    {
+      "writer_id": 370,
+      "name": "Binati Satapathy/ ବିନତି ଶତପଥି",
+      "next_action": "Request author/editor bibliography or public author reference during independent review; keep source-limited status.",
+      "limitations": [
+        "Bolangir remains captured-biography information, not external corroboration.",
+        "No verified books, awards, employment or education added; interpretive passage is close reading, not biography.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/370.json"
+    },
+    {
+      "writer_id": 217,
+      "name": "Binaya Kumar Mohanty / ବିନୟ କୁମାର ମହାନ୍ତି",
+      "next_action": "Ask author/editor to confirm collection bibliographic details and whether PoemHunter/StoryMirror profiles are his; independent review pending.",
+      "limitations": [
+        "Birthplace and teaching background are explicitly attributed to the captured journal biography, not independently corroborated.",
+        "Captured collection ANANDE EKBAR lacks a verified publisher/catalogue entry; no book link added.",
+        "A same-name English poem I Fall Asleep begins differently from poem 468; title similarity is not evidence of a translation or identity match.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/217.json"
+    },
+    {
+      "writer_id": 320,
+      "name": "Binod Kumar / विनोद कुमार `बल्लोपुरी`",
+      "next_action": "Editor/author confirm whether जीवन के विविध रंग and मेरी सत्ताईस कवितायें belong to this contributor; then add verified book link.",
+      "limitations": [
+        "Distinctive pen name is promising but not enough on its own under identity-verification rule.",
+        "No degree, employment, address, family, award or book claim added from candidate author.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/320.json"
+    },
+    {
+      "writer_id": 202,
+      "name": "Boby Borah",
+      "next_action": "Seek author/editor confirmation of book titles, publisher details and school affiliation; independent review pending.",
+      "limitations": [
+        "School founder/principal connection is explicitly attributed to the supplied biography; current employment not independently verified.",
+        "Three collections are mentioned in the captured biography but no titles or reliable book links were established; no invented bibliography added.",
+        "Same-name college faculty and other professional profiles lack a bridge to the school/literary identity and were excluded.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/202.json"
+    },
+    {
+      "writer_id": 29,
+      "name": "Debajani Ray/ଦେବଯାନୀ ରାୟ",
+      "next_action": "Author/editor confirmation of identity, biography and bibliography; independent close-reading review.",
+      "limitations": [
+        "No verified personal biography or book titles; no profession, awards or education invented.",
+        "News event candidate may match locality but not enough for wider biographical attachment.",
+        "Unusual source spellings and final phrase left untouched; close reading stays broad and pending literary review.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/29.json"
+    },
+    {
+      "writer_id": 284,
+      "name": "Deepika Dash",
+      "next_action": "Confirm interview identity and collection titles with author/editor; retain close-reading narrative meanwhile.",
+      "limitations": [
+        "Captured biography states Berhampur and three collections; titles not verified and no bibliography invented.",
+        "External interview and Berhampur event report remain candidates, not sufficient to attach education, employment or awards.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/284.json"
+    },
+    {
+      "writer_id": 373,
+      "name": "Devika Tripathy",
+      "next_action": "Author/editor confirmation or official author page needed for externally supported biographical expansion; independent literary review pending.",
+      "limitations": [
+        "Public-source search did not confirm captured education, music teacher or current residence. These claims are not expanded.",
+        "Same-name participant in California community song not linked to this contributor; no location or relationship inference.",
+        "No verified book bibliography found; shelf remains empty.",
+        "Poetic speakers not equated with the author’s personal relationships or religious identity.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/373.json"
+    },
+    {
+      "writer_id": 251,
+      "name": "Dhananjay Kumar",
+      "next_action": "Author/editor identity and bibliography confirmation; independent review of close reading.",
+      "limitations": [
+        "Common name produces unrelated political, film, employment and legal records; none used.",
+        "Captured government awareness-campaign employment lacks specific programme/date and external verification; not amplified.",
+        "No verified bibliography found.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/251.json"
+    },
+    {
+      "writer_id": 351,
+      "name": "Eli Mohanty/ ଏଲି ମହାନ୍ତି",
+      "next_action": "Obtain author-approved biography or identity-linked publisher profile.",
+      "limitations": [
+        "Captured biography empty; no personal facts, books, awards or employment inferred.",
+        "External bylines on Odisha Sahitya and StoryMirror remain candidate leads, not established biography.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/351.json"
+    },
+    {
+      "writer_id": 446,
+      "name": "GANESWAR BEHERA",
+      "next_action": "Author/editor provide preferred short biography and identifiable literary publications.",
+      "limitations": [
+        "No externally corroborated biography. Captured organizational roles not expanded or described as current.",
+        "Politician Ganeswar Behera and LinkedIn employment namesakes excluded.",
+        "No private contact details reproduced.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/446.json"
+    },
+    {
+      "writer_id": 389,
+      "name": "Gayatri Das",
+      "next_action": "Author/editor supply identity-confirmed biography and contribution mapping. This case is processed, not a fully researched biography.",
+      "limitations": [
+        "No linked works in current profile catalogue; no literary close reading or invented contribution offered.",
+        "No externally corroborated biography; existing short note retained in polished form rather than padded.",
+        "Bengali author Gayatri Das Sharma and Ballads of Words author not merged with this Odia/English contributor.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/389.json"
+    },
+    {
+      "writer_id": 310,
+      "name": "Goutam Jena/ଗୌତମ ଜେନା",
+      "next_action": "Author/editor confirm identity and preferred biographical source; then add verified selected books.",
+      "limitations": [
+        "Captured biography empty. No birth dates, degrees, appointments or book attribution inferred.",
+        "Granthabali publisher catalogue indexed but could not be fetched; no verified biographical bridge to this contributor.",
+        "Local event references are leads; new narrative confined to original poem.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/310.json"
+    },
+    {
+      "writer_id": 164,
+      "name": "Haraprit Kaur/ हरप्रीत कौर",
+      "next_action": "Editor/author to supply identity and biography and reconcile records145/147.",
+      "limitations": [
+        "Source-limited: no externally corroborated biographical identity, books, employment or awards.",
+        "145 and147 are substantially matching text with refrain and stanza differences; preserved as separate existing records without claiming distinct compositions or merging them.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/164.json"
+    },
+    {
+      "writer_id": 231,
+      "name": "Jinatamam Darji",
+      "next_action": "Editor/author confirmation of identity and Katha story attribution; independent factual review.",
+      "limitations": [
+        "Hindi postgraduate study, bilingual practice and Bargarh background remain captured claims, not independently confirmed.",
+        "Administrative and commercial namesakes excluded.",
+        "No personal political affiliation, religion or reproductive decision inferred from speakers.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/231.json"
+    },
+    {
+      "writer_id": 363,
+      "name": "Julie Miles",
+      "next_action": "Editor/author confirmation of identity and possible Moving the Moon and a Few Stars connection.",
+      "limitations": [
+        "No captured biography; public biographical claims and book card withheld pending identity verification.",
+        "Searches also returned unrelated artist, politician, clergy and vocal-coach namesakes; none merged.",
+        "Poem speaker not assumed autobiographical; Jamie relationship and meaning of twenty four not inferred.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/363.json"
+    },
+    {
+      "writer_id": 462,
+      "name": "Juya Tripathy / ଜୁୟା ତ୍ରିପାଠୀ",
+      "next_action": "Author/editor to provide biographical source and preferred profile details.",
+      "limitations": [
+        "Source-limited: captured Bolangir origin and Bangalore residence remain uncorroborated and omitted from new prose.",
+        "No books, awards, employment or personal religious affiliation inferred.",
+        "Lyric first-person is not treated as autobiographical testimony.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/462.json"
+    },
+    {
+      "writer_id": 296,
+      "name": "Jyosthnarani Bhoi/ଜ୍ୟୋତ୍ସ୍ନା ରାନୀ ଭୋଇ",
+      "next_action": "Author/editor confirmation of biography and literary publication details.",
+      "limitations": [
+        "Supplied teacher and Patnagarh/Bolangir biography preserved but not externally corroborated or amplified.",
+        "No verified books or awards located.",
+        "Interpretation refers to poem voice and imagery, not inferred personal illness or life history.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/296.json"
+    },
+    {
+      "writer_id": 223,
+      "name": "Jyoti Shankar Panda “Hayat”",
+      "next_action": "Author/editor biography and pen-name confirmation; independent review.",
+      "limitations": [
+        "Captured biography empty; birthplace, work, books and awards not invented.",
+        "Speaker’s confessions are a literary device, not allegations about the author.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/223.json"
+    },
+    {
+      "writer_id": 303,
+      "name": "Kajal Chaudhury",
+      "next_action": "Seek author/editor confirmation of identity and bibliography; review literary interpretation.",
+      "limitations": [
+        "External identity remains unconfirmed; no books, awards, education or employment added.",
+        "Captured title ग़ज़ल retained without imposing a formal genre assessment.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/303.json"
+    },
+    {
+      "writer_id": 387,
+      "name": "Kavita Singh",
+      "next_action": "Author/editor confirmation of short biography and any bibliography; independent factual review pending.",
+      "limitations": [
+        "No securely matched external author, publisher or institutional source found using English and Hindi name variants.",
+        "No books, awards, profession or education inferred from common-name results.",
+        "Delhi residence explicitly attributed to supplied biography; not independently verified.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/387.json"
+    },
+    {
+      "writer_id": 441,
+      "name": "Kumudini JEE/ କୁମୁଦିନୀ ଜୀ",
+      "next_action": "Request author/editor identity confirmation and short biography; confirm whether Athacha Kaikeyi belongs to this contributor.",
+      "limitations": [
+        "Captured biography is empty. No employment, education, award or book attribution added.",
+        "Athacha Kaikeyi catalogue and poetry-event listings remain possible identity leads, not confirmed bibliography.",
+        "Legal-case and science-academy namesakes not connected to the poet; excluded.",
+        "Grief and first-person voice are read as poetic material, not asserted as personal history.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/441.json"
+    },
+    {
+      "writer_id": 84,
+      "name": "Lipika Das/ ଲିପିକା ଦାସ",
+      "next_action": "Author/editor confirm biographical identity and any bibliography; independent interpretation review.",
+      "limitations": [
+        "Lipika Das/Dash has multiple public namesakes; no education, employment, awards or book claims added.",
+        "Sahitya Akademi identifies an Odia poet Lipika Dash, but no matching poem or independent local detail establishes this profile as that writer.",
+        "No personal mental-health or political-belief inference made from speakers or imagery.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/84.json"
+    },
+    {
+      "writer_id": 81,
+      "name": "Lipsa Patel / ଲିପସା ପଟେଲ",
+      "next_action": "Author/editor confirm that local contributor is the interviewed Odia writer; then add supported biography and selected books.",
+      "limitations": [
+        "Odisha Sambad interview is a strong candidate for biography but no beyond-name link to local contributions established. Interview books and life history kept out of reader draft pending confirmation.",
+        "No family health fact inferred from poem 95; its refrain is interpreted as irony, not literal pandemic endorsement.",
+        "No new book links until identity match confirmed.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/81.json"
+    },
+    {
+      "writer_id": 300,
+      "name": "Lisa Patnaik",
+      "next_action": "Author/editor confirmation of preferred name and literary bibliography; independent interpretation review.",
+      "limitations": [
+        "Personal background is attributed to supplied biography, not independently corroborated.",
+        "Namesake professional profiles found, but no literary or Damanjodi identity bridge; no employment details imported.",
+        "Family details, child age and time-sensitive employment duration not repeated.",
+        "No books, awards or external literary affiliation verified.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/300.json"
+    },
+    {
+      "writer_id": 108,
+      "name": "Lopamudra Mishra",
+      "next_action": "Author/editor confirm identity and bibliography; then integrate supported external biography.",
+      "limitations": [
+        "External sources describe a Bhubaneswar English poet and other namesakes; education, books, film work and awards not imported without identity bridge.",
+        "Azahar 131 has the same title as poem 681 but a different poem; not treated as an exact-text match.",
+        "No medical or disability inference drawn from poem 473.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/108.json"
+    },
+    {
+      "writer_id": 392,
+      "name": "M.Rudra",
+      "next_action": "Author/editor confirm preferred spelling, educational biography and anthology contents pages before adding factual claims.",
+      "limitations": [
+        "Captured economics studies at Ramadevi Women’s University, award claims and anthology contributions remain uncorroborated; not repeated as newly verified facts.",
+        "No biography inferred from gendered poetic speaker or violence imagery.",
+        "No verified anthology product or contents page found; no book card added.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/392.json"
+    },
+    {
+      "writer_id": 34,
+      "name": "Madhuri Panda/ମାଧୁରୀ ପଣ୍ଡା",
+      "next_action": "Editor to confirm identity against Srujan/Indian Literature contributor records and supply a short biography.",
+      "limitations": [
+        "Captured biography is empty; this is a literary introduction, not an externally verified life history.",
+        "No books, employment, awards or personal location assigned. Poetic speakers are not treated as autobiographical evidence.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/34.json"
+    },
+    {
+      "writer_id": 334,
+      "name": "Mahi Rao/ माही राव",
+      "next_action": "Confirm contributor identity against a primary author or publisher biography or exact poem cross-publication before adding book.",
+      "limitations": [
+        "Narrative intentionally based on captured poem. No external book, alternate name, education or family facts imported without stronger identity confirmation. Source spelling शाम not silently corrected or used to infer religious identity.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/334.json"
+    },
+    {
+      "writer_id": 241,
+      "name": "Malay Mishra",
+      "next_action": "Author/editor identity confirmation or an exact poem match before biographical additions.",
+      "limitations": [
+        "Source-limited literary introduction; no externally corroborated biography.",
+        "Do not merge same-name composer, diplomat or literary-event participant without a second identity bridge.",
+        "Poem speaker and territorial assertions not treated as the author’s personal beliefs.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/241.json"
+    },
+    {
+      "writer_id": 226,
+      "name": "Malini Mohanty",
+      "next_action": "Independent author/editor confirmation of biography and any external bibliography.",
+      "limitations": [
+        "Teaching and Bhubaneswar details explicitly attributed to captured journal biography; no current school or job asserted.",
+        "No external corroboration or verified books located.",
+        "Poem speaker’s account not converted into author biography.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/226.json"
+    },
+    {
+      "writer_id": 116,
+      "name": "Manini Mishra/ମାନିନୀ ମିଶ୍ର",
+      "next_action": "Confirm author identity with editor or exact original-poem evidence before adding external biography.",
+      "limitations": [
+        "Source-limited literary introduction; no awards, location, occupation or books asserted.",
+        "No merger with the same-name screen actor.",
+        "2018 Sahitya Akademi participant from Barpali and Odisha Sambad poet remain research leads, not verified personal facts for writer 116.",
+        "Political speaker’s statements not treated as proof of author affiliation.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/116.json"
+    },
+    {
+      "writer_id": 376,
+      "name": "Manoj Chola",
+      "next_action": "Author/editor confirm spelling and whether contributor is the Malayalam poet before adding bibliography.",
+      "limitations": [
+        "Kerala origin retained in captured biography; external Malayalam publications and book not assigned without identity confirmation.",
+        "Poetic despair not interpreted as personal health history. No verified book card.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/376.json"
+    },
+    {
+      "writer_id": 401,
+      "name": "Marmasparshee Priyadarshini",
+      "next_action": "Author/editor confirm biographical details and supply a literary profile or publication bibliography.",
+      "limitations": [
+        "Captured English Literature degree and multilingual-writing claims preserved in source record but not externally corroborated; new narrative stays with published poem.",
+        "No invented publications, awards or personal life. No book card.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/401.json"
+    },
+    {
+      "writer_id": 357,
+      "name": "May Manoj",
+      "next_action": "Seek an author-confirmed biography or exact poem cross-publication before adding personal facts.",
+      "limitations": [
+        "No externally corroborated personal biography. No gender, occupation or family details inferred from the poem.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/357.json"
+    },
+    {
+      "writer_id": 272,
+      "name": "Minu Verma / मीनू वर्मा",
+      "next_action": "Seek author/editor confirmation or an exact original-poem match before adding biographical facts.",
+      "limitations": [
+        "Source-limited literary introduction, not an externally corroborated biography.",
+        "No books, awards, employment, residence or personal history asserted.",
+        "Same-name Pratilipi and Noida event records are insufficient to establish identity.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/272.json"
+    },
+    {
+      "writer_id": 115,
+      "name": "Mousumi Das/ମୌସୁମୀ ଦାସ",
+      "next_action": "Confirm identity with editor or an exact original-poem match; then revisit candidate interview and bibliography.",
+      "limitations": [
+        "Source-limited literary introduction; external book and family/career facts withheld pending identity confirmation.",
+        "No merger with same-name philosopher, economist, astrophysicist or other professionals.",
+        "Musical references discussed as poem imagery, not a claim of author musical training.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/115.json"
+    },
+    {
+      "writer_id": 362,
+      "name": "Mridula Menon",
+      "next_action": "Author/editor verify external publication identity and supply an attributable current biography.",
+      "limitations": [
+        "Captured degree, business position and family details preserved, not newly asserted as independently verified.",
+        "Multiple unrelated professionals and writers share name; their jobs, health, books and personal details excluded.",
+        "No verified book card.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/362.json"
+    },
+    {
+      "writer_id": 468,
+      "name": "Narayan Sahoo",
+      "next_action": "Editor to identify which Narayan Sahoo contributed Chharpoka before adding any external biography or bibliography.",
+      "limitations": [
+        "Literary introduction only; identity unresolved beyond local contribution.",
+        "No playwright/university career, books, awards or emerging-writer interview claims transferred to this profile.",
+        "Satirical animal imagery is interpreted as rhetoric, not asserted as biological fact.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/468.json"
+    },
+    {
+      "writer_id": 322,
+      "name": "Neeta Sagar",
+      "next_action": "Editor to confirm whether this contributor also publishes as Neeta Sagar Choudhary. Review concise literary introduction.",
+      "limitations": [
+        "Literary introduction remains source-limited; no occupation, books or awards inferred.",
+        "Do not merge with Dr Neeta Sagar in medical directories, Neeta Sagar Bobba or other same-name professionals.",
+        "Neeta Sagar Choudhary is a plausible local literary identity, pending an exact-work or contributor confirmation.",
+        "Poetic family relationships are not asserted as personal biography.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/322.json"
+    },
+    {
+      "writer_id": 244,
+      "name": "Nilima Bora",
+      "next_action": "Editor to confirm whether Dibrugarh contributor is the Assamese children’s author before adding bibliography or public biography.",
+      "limitations": [
+        "Source-limited literary introduction; captured location retained without adding personal facts.",
+        "Do not assign same-name Assamese books, awards, academic editing or Golaghat membership to this contributor.",
+        "English originals preserved, including unusual spellings; no Assamese original or translator invented.",
+        "Poetic grief is not treated as a diagnosis or evidence of personal bereavement.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/244.json"
+    },
+    {
+      "writer_id": 120,
+      "name": "Piyusha Pattnaik/ପୀୟୂଷ ପଟ୍ଟନାୟକ",
+      "next_action": "Author/editor identity confirmation and a supplied biography; verify Srujan lead before adding personal history.",
+      "limitations": [
+        "Source-limited introduction based on the local contribution.",
+        "Same-name Srujan bio-note describes Bhubaneswar residence and retirement from Indian Revenue Service; kept as a lead until identity is confirmed.",
+        "No verified dedicated book link found. No profession, residence or honours inferred from namesakes.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/120.json"
+    },
+    {
+      "writer_id": 205,
+      "name": "Pranati Behera / ପ୍ରଣତି ବେହେରା",
+      "next_action": "Author/editor review of poem-based introduction; supplied biographical note or verified author bibliography needed for factual expansion.",
+      "limitations": [
+        "Source-limited literary introduction,not an externally corroborated biography. No books,awards,employment,degrees or residence added.",
+        "Searches in Roman/Odia bylines,variant Pranatee spelling,Sundargarh and exact poem title did not establish secure external identity.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/205.json"
+    },
+    {
+      "writer_id": 121,
+      "name": "Prativa Parida/ପ୍ରତିଭା ପରିଡା",
+      "next_action": "Request author/editor biography and confirmed bibliography in ordinary review; do not merge namesakes.",
+      "limitations": [
+        "No secure personal biography or author-controlled source found. Introduction is explicitly based on the contribution.",
+        "StoryMirror collective account is a repost, not evidence of author ownership or occupation.",
+        "Same-name book entries lack an identity bridge to the contributor; no books, awards or employment added.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/121.json"
+    },
+    {
+      "writer_id": 352,
+      "name": "Ramakanta Samantaray/ ରମାକାନ୍ତ ସାମନ୍ତରାୟ",
+      "next_action": "Editor to confirm whether contributor 352 is artist-scholar Dr Ramakanta Samantaray, using the original submission/byline. Then revisit verified primary biography and Chitra Kahani book link.",
+      "limitations": [
+        "Source-limited: artist-scholar identity is a strong research lead but not established against this otherwise biography-free local record.",
+        "No education, awards, exhibitions, book titles or employment imported from the possible match.",
+        "Local poem read as a speaker’s imagined scene, not as evidence of the poet’s home or personal relationship.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/352.json"
+    },
+    {
+      "writer_id": 209,
+      "name": "Ramakrushna/ ରାମକୃଷ୍ଣ",
+      "next_action": "Editor/author confirmation of fuller identity or one named book needed before factual expansion.",
+      "limitations": [
+        "No unambiguous external identity established; source-limited.",
+        "Supplied postgraduate qualification and book/award counts preserved but not independently verified.",
+        "No books assigned from similarly named Ramakrushna Nanda, Sahu or Rath.",
+        "Family events are literary scenes, not biographical facts.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/209.json"
+    },
+    {
+      "writer_id": 186,
+      "name": "Ranjita Panda",
+      "next_action": "Ask author/editor to confirm bibliography and whether the 2013 Sahitya Akademi participant is this contributor; independent Odia close-reading review pending.",
+      "limitations": [
+        "Captured six-anthology and one-novel counts lack named, independently matched bibliographic records; no titles or awards added.",
+        "Unreferenced birth date and personal details from Wikidata excluded.",
+        "Possible Sahitya Akademi namesake remains an identity lead rather than a confirmed biographical claim.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/186.json"
+    },
+    {
+      "writer_id": 165,
+      "name": "Ritu Mahipal / रितु महिपाल",
+      "next_action": "Ask author/editor whether Ibadat-e-Ishq and the event byline belong to this contributor; independent Hindi literary review pending.",
+      "limitations": [
+        "No biographical record captured; no age, occupation, family circumstances or residence inferred from poetic speakers.",
+        "Ibadat-e-Ishq author match awaits confirmation; Google Books and retailer publisher labels also differ.",
+        "Original spelling and source line structure preserved.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/165.json"
+    },
+    {
+      "writer_id": 245,
+      "name": "Riyahh Nanda/ରିୟା ନନ୍ଦ",
+      "next_action": "Editor or author to confirm public identity and any book bibliography; retain source-limited classification.",
+      "limitations": [
+        "No confirmed external literary identity or bibliography; source-limited draft.",
+        "Source biography describes Bhubaneswar, television anchoring and modelling; preserved but not expanded.",
+        "Similar-name software developer and Mumbai legal-professional profiles are not identity matches.",
+        "Poetic speaker must not be treated as autobiographical testimony.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/245.json"
+    },
+    {
+      "writer_id": 277,
+      "name": "Sandhya Ghadei / ସଂଧ୍ଯା ଘଡେଇ",
+      "next_action": "Ask author/editor to identify a collection or author-controlled biography; retain source-limited classification meanwhile.",
+      "limitations": [
+        "Captured teaching, short-fiction and unnamed collection claims remain preserved but have not been independently corroborated; no new employment or book claim added.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/277.json"
+    },
+    {
+      "writer_id": 88,
+      "name": "Sanghamitra Raiguru / ସଂଘମିତ୍ରା ରାଏଗୁରୁ",
+      "next_action": "Editor/author to confirm interview identity and exact Premchand translations; retain source-limited classification.",
+      "limitations": [
+        "External identity bridge remains insufficient; no new factual biography or book card imported. Captured qualifications, book counts, awards and Premchand titles were not independently verified. Poetic speakers are not treated as autobiographical testimony.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/88.json"
+    },
+    {
+      "writer_id": 333,
+      "name": "Sangita Das/ ସଂଗୀତା ଦାସ",
+      "next_action": "Independent author/editor confirmation of biography and bibliography; retain source-limited draft.",
+      "limitations": [
+        "Guest lecturer post and residence from captured biography not independently corroborated; no new current employment claim.",
+        "Same-name Shubhapallaba contributor and Nishigandha event participant cannot be securely identified as this writer.",
+        "Poetic character is not treated as direct autobiography. No books or awards added.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/333.json"
+    },
+    {
+      "writer_id": 413,
+      "name": "Sangram Maharana/ ସଂଗ୍ରାମ ମହାରଣା",
+      "next_action": "Author/editor confirmation of an outside bylined poem, approved short biography and any book titles; independent review pending.",
+      "limitations": [
+        "Narrative is a close reading of the preserved contribution, not an externally corroborated biography.",
+        "No employment, residence, education, awards or books assigned from name-only matches.",
+        "Poem speaker’s romantic and family memories not treated as the author’s personal life.",
+        "Literary-event and podcast leads lack a sufficiently specific bridge to the local contributor; direct opens also failed.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/413.json"
+    },
+    {
+      "writer_id": 349,
+      "name": "Sanjay Kumar Sahoo/ ସଂଜୟ କୁମାର ସାହୁ",
+      "next_action": "Independent author/editor biographical confirmation pending; retain source-limited narrative.",
+      "limitations": [
+        "No externally verified biography or books identified.",
+        "Same-name StoryMirror contributor cannot be securely joined to this record; no personal facts transferred.",
+        "Parenthood and freedom are readings of the poem, not biographical claims.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/349.json"
+    },
+    {
+      "writer_id": 107,
+      "name": "Santosh Bakya",
+      "next_action": "Author/editor confirmation of byline spelling and biography; retain poem-based draft meanwhile.",
+      "limitations": [
+        "Writer name remains Santosh Bakya exactly as captured; spelling unresolved.",
+        "No books, location, employment, awards or personal identity claims added.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/107.json"
+    },
+    {
+      "writer_id": 424,
+      "name": "Sarita Pradhan / ସରିତା ପ୍ରଧାନ",
+      "next_action": "Author/editor confirmation of published collection title and approved biography; independent factual review pending.",
+      "limitations": [
+        "Source-limited draft: residence, education and unnamed collection remain attributed to captured contributor information.",
+        "No verified book title, publisher, date or ISBN found; no book link added. Captured forthcoming second collection not represented as published.",
+        "No specific war, nationality, personal displacement or political affiliation inferred from poetic voice.",
+        "Name-only professional, administrative, educational and charity results are not identity evidence.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/424.json"
+    },
+    {
+      "writer_id": 235,
+      "name": "Sasmita Rout",
+      "next_action": "Author/editor confirmation of literary bylines or a named collection before adding external biography.",
+      "limitations": [
+        "Talcher origin remains journal-supplied rather than newly independently corroborated.",
+        "No employment, qualifications, books or personal relationship facts inferred.",
+        "Poem permits devotional and intimate readings; interpretation is not a claim about personal faith.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/235.json"
+    },
+    {
+      "writer_id": 276,
+      "name": "Satya Meher/ ସତ୍ଯ ମେହେର",
+      "next_action": "Seek an author/editor-confirmed literary reference and confirm the captured ending of poem 278.",
+      "limitations": [
+        "Riyadh residence and activity since the 1980s remain captured claims, not newly corroborated facts.",
+        "Poem 278 ends with ନା ଭ୍ରାନ୍ତି ଆଣିପାରେ without final punctuation; completeness requires editorial confirmation. No ending reconstructed or original changed.",
+        "No personal moral or religious inference drawn from the speaker of ପାପୀ.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/276.json"
+    },
+    {
+      "writer_id": 239,
+      "name": "Seema Sharma",
+      "next_action": "Request author/editor identity details or an external publication of one of these poems.",
+      "limitations": [
+        "Biography remains unverified; narrative is close reading, not an externally corroborated life account.",
+        "Seema Sharma Meeruthi, Meera and Tamanna profiles cannot be linked on name alone.",
+        "Poetic voices do not establish the writer’s personal experiences or religious identity.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/239.json"
+    },
+    {
+      "writer_id": 365,
+      "name": "Shankar Chhatria / ଶଙ୍କର ଚ୍ଛତ୍ରିଆ",
+      "next_action": "Author/editor biographical confirmation needed; retain source-limited draft.",
+      "limitations": [
+        "No reliable external biography or bibliography established.",
+        "Pondicherry political-science researcher and Odisha folk-artist listings share name variants but no evidence links them to poem462. No academic degree, occupation, residence or community identity assigned.",
+        "Poetic pronouns/images remain interpretive; no autobiographical relationship claim.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/365.json"
+    },
+    {
+      "writer_id": 220,
+      "name": "Shankar Parida/ଶଙ୍କର ପରିଡା",
+      "next_action": "Ask editor to confirm identity against the literary memorial and supply a named book or biography; no memorial or political claims added meanwhile.",
+      "limitations": [
+        "External memorial reports concern a same-name poet/political figure; death, illness and political affiliation not assigned without identity confirmation.",
+        "No named collection or career facts verified.",
+        "Mythic and devotional imagery described within the poem; no personal religious identity inferred.",
+        "Existing bilingual heading and original poem retained.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/220.json"
+    },
+    {
+      "writer_id": 396,
+      "name": "Sheila Mary Fraser Porter",
+      "next_action": "Request an author/editor biography and bibliography during human review; maintain source-limited status.",
+      "limitations": [
+        "No externally corroborated biography or book identified after exact full-name, shortened-name and poem-title searches.",
+        "Cloverdale reference in poem is not proof of residence or nationality. Religious ending is not used to assign personal faith.",
+        "Shortened-name results for actress Shelagh Fraser and Canadian auditor Sheila Fraser rejected; no identity bridge.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/396.json"
+    },
+    {
+      "writer_id": 353,
+      "name": "Shishir Naik/ ଶିଶିର ନାୟକ",
+      "next_action": "Request author/editor biographical confirmation during independent review; retain source-limited close-reading draft.",
+      "limitations": [
+        "No reliable external biographical or bibliographical identity bridge found; no books, awards, occupation or residence added.",
+        "The speaker’s bereavement is not treated as an event in the poet’s life.",
+        "Same-name literary contributors in Viswamukti and an institutional-hosted magazine remain possible leads, not verified earlier publications by this writer.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/353.json"
+    },
+    {
+      "writer_id": 173,
+      "name": "Sohela Chhotaray",
+      "next_action": "Independent author/editor identity and bibliography confirmation; locate publisher or title-page record for Rudra Tamas.",
+      "limitations": [
+        "Source-limited narrative; botany and environmental interests attributed only to captured note.",
+        "No titles, book counts, current employment, forum office or awards added.",
+        "Spelling variant and Rudra Tamas catalogue lead require confirmation.",
+        "Poetic devotional language not treated as personal religious affiliation.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/173.json"
+    },
+    {
+      "writer_id": 445,
+      "name": "Subhasmita Tripathy / ଶୁଭସ୍ମିତା ତ୍ରିପାଠୀ",
+      "next_action": "Author/editor confirmation of a bylined outside publication and any approved biography or books; independent review pending.",
+      "limitations": [
+        "No independent external biographical identity established; narrative remains a close reading of preserved poems plus minimal captured biography.",
+        "No books, awards, employment, educational credentials or private details inferred. No book links added.",
+        "Lyric speakers and images are not treated as the author’s personal history.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/445.json"
+    },
+    {
+      "writer_id": 154,
+      "name": "Sujata Mishra/ସୁଜାତା ମିଶ୍ର",
+      "next_action": "Ask author/editor to confirm bibliography and whether the two same-name literary sources concern this contributor.",
+      "limitations": [
+        "No named collection, employment, award or location added; captured biography is the only biographical basis.",
+        "Same-name dancer and medical-professional results excluded.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/154.json"
+    },
+    {
+      "writer_id": 459,
+      "name": "Sulagna Kar / ସୁଲଗ୍ନା କର",
+      "next_action": "Author/editor confirmation of institution and a bylined publication or book record; independent narrative review pending.",
+      "limitations": [
+        "Teaching role is attributed to the journal-supplied note; institution, current appointment and wider publication history not independently verified.",
+        "Source contains unusual spellings and apparent typing errors; all original wording and translations preserved. Interpretation avoids building biographical facts from the lyric speaker.",
+        "No verified standalone books found; no book links added.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/459.json"
+    },
+    {
+      "writer_id": 207,
+      "name": "Sumati Mund / ସୁମତି ମୁଣ୍ଡ",
+      "next_action": "Author/editor confirmation of identity, bibliography and contribution mapping; obtain a primary publication before adding literary analysis.",
+      "limitations": [
+        "No poems are linked to writer 207 in the captured catalogue; no close reading or claims about poetic themes were invented.",
+        "Teaching, radio work and location are explicitly attributed to the captured contributor note, not independently verified current circumstances.",
+        "No named book or award verified.",
+        "External event participation withheld pending identity confirmation.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/207.json"
+    },
+    {
+      "writer_id": 466,
+      "name": "Sunanda Pradhan",
+      "next_action": "Author/editor to confirm which external poet/author record and bibliography belong to this contributor; independent Odia close-reading review.",
+      "limitations": [
+        "Only local contributor information and direct close reading enter the reader narrative.",
+        "No books, prizes, employer or family details assigned from same-name records.",
+        "Captured contact detail not repeated in new narrative; captured source unchanged.",
+        "The Felled Tree translated by Ramakanta Rath is a different poem, not an exact match for this original.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/466.json"
+    },
+    {
+      "writer_id": 421,
+      "name": "Sunanda Tripathy / ଡ଼. ସୁନନ୍ଦା ତ୍ରିପାଠୀ",
+      "next_action": "Author/editor confirmation connecting this academic to anthology contributor biography and approved bibliography; independent review pending.",
+      "limitations": [
+        "Source-limited identity: academic role is attributed to journal note; no institution, degrees, birthplace, birth year or awards added.",
+        "Anthology presence under the same name is documented as a follow-up lead rather than asserted for this contributor without a stronger identity bridge.",
+        "No book shelf added; Sanskrit scholarly publication could belong to a namesake.",
+        "Poems are close-read as literary speakers, not autobiographical evidence.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/421.json"
+    },
+    {
+      "writer_id": 309,
+      "name": "Suresh Kumar Nayak/ସୁରେଶ କୁମାର ନାୟକ",
+      "next_action": "Ask author/editor to confirm whether the Suresh Nayak interview and bibliography refer to this contributor.",
+      "limitations": [
+        "Captured biography empty. No new employment, birthdate, books, awards or relationships assigned. Anupriya treated as a character, not biographical evidence.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/309.json"
+    },
+    {
+      "writer_id": 160,
+      "name": "Susama Dash/ସୁଷମା ଦାଶ୍",
+      "next_action": "Author/editor identity confirmation and original-page check for poem 146 completeness; confirm books only after a reliable bridge.",
+      "limitations": [
+        "Source-limited close reading, not independently corroborated biography.",
+        "Poem 146 has only eight captured lines; no continuation reconstructed or full narrative inferred.",
+        "Private address in poem 341 source tail was not copied into enrichment.",
+        "Interview books Yashodhara and Sara Rati Barsha, awards and occupational namesakes withheld pending identity bridge.",
+        "No war, bereavement or relationship experience attributed to the author personally.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/160.json"
+    },
+    {
+      "writer_id": 328,
+      "name": "Swagatika Mishra/ ସ୍ବାଗତିକା ମିଶ୍ର",
+      "next_action": "Independent author/editor identity confirmation needed before adding interview, festival or book details.",
+      "limitations": [
+        "Journalism is supported only by captured biography; no new employer/residence asserted.",
+        "Same-name Odia literary interview, Samata contributor and festival listings remain identity leads pending a second specific bridge. Their awards and publication history are not assigned here.",
+        "Kakara Topara Akhi appeared only as an informal reader recommendation; no verified catalogue found and no book shelf added.",
+        "Academic, medical and corporate namesakes excluded. No personal trauma, health, religious belief or relationship inferred from poem.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/328.json"
+    },
+    {
+      "writer_id": 227,
+      "name": "Sweety Sony Lall",
+      "next_action": "Request author/editor-confirmed biography or publication links; keep source-limited draft.",
+      "limitations": [
+        "Patna and English Honours at IGNOU remain captured claims; no new external confirmation found.",
+        "No personal religious identity or life event inferred from the poem’s devotional voice.",
+        "No books or awards verified.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/227.json"
+    },
+    {
+      "writer_id": 425,
+      "name": "Tirna Sarkar",
+      "next_action": "Author/editor confirmation of public literary identity and optional bibliography.",
+      "limitations": [
+        "No externally corroborated biography or book found. Captured education and location explicitly attributed, not independently verified. No inference of actual abuse, diagnosis, disability, relationship history or personal event from metaphorical poem.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/425.json"
+    },
+    {
+      "writer_id": 298,
+      "name": "Tuhinamshu Rath",
+      "next_action": "Author/editor confirmation of native-name identity, selected books and original Odia poem.",
+      "limitations": [
+        "English poem is a named translation, not an English original. Captured profession/location remain explicitly attributed. No invented Odia reconstruction, personal injury inference, book count, birth date or award added.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/298.json"
+    },
+    {
+      "writer_id": 287,
+      "name": "Utpal Man",
+      "next_action": "Request an author-supplied bibliography or a publisher profile with distinguishing identity details at editorial review.",
+      "limitations": [
+        "No independently matched publisher, university or journal biography found.",
+        "Captured book counts retained in original biography but not repeated as verified facts; no book titles or links invented.",
+        "Poem speakers and relationships are not treated as personal biography.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/287.json"
+    },
+    {
+      "writer_id": 377,
+      "name": "Vikramaditya Singh / विक्रमादित्य सिंह",
+      "next_action": "Confirm whether the journal contributor wrote Aadhe-Adhure Hum-Tum and Pukar Suno. Keep external identity research open.",
+      "limitations": [
+        "Aadhe-Adhure Hum-Tum (2023) and Pukar Suno have a plausible same-name Bhubaneswar poet-author, but journal identity cannot yet be established.",
+        "No external sources are linked on the reader page because they remain unconfirmed identity leads.",
+        "Same-assistant research; author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/377.json"
+    },
+    {
+      "writer_id": 423,
+      "name": "Youngbo Ma",
+      "next_action": "Editor/author to confirm preferred Roman and Chinese name and exact poem provenance before external biography or book links are added.",
+      "limitations": [
+        "External identity remains unresolved; captured Nanjing/Harbin residence not updated.",
+        "No Chinese original or translator credit independently located; no translation authorship inferred.",
+        "No Ma Yongbo books, qualifications, university appointment or awards assigned to this profile.",
+        "Same-assistant research and close reading; independent author/editor factual review pending."
+      ],
+      "dossier": "research/writers/enrichment/423.json"
+    }
+  ],
+  "batch_evidence": "research/writers/enrichment-batches.json",
+  "last_batch": "research/writers/batches/research-084/review.json"
+}

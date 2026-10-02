@@ -1,0 +1,45 @@
+{
+  "recorded_at": "2026-10-02T05:05:32.791691+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "audited_and_directory_omission_applied",
+  "independent": false,
+  "request": [
+    "Some of the mock we created and I approved is not applied",
+    "many pages, archive, editor, poet directory etc"
+  ],
+  "authorization": "Current request to finish approved mock application, following earlier All good lets apply instruction; no new design option introduced.",
+  "finding": "Poet directory companion mock copy and kendu icon were not carried into the persistent renderer. Applied them with the existing approved card layout.",
+  "verified_existing": {
+    "archive": "47 cover cards match approved mock; cover-only view and one year selector. Approved Archive-only single-boat footer retained.",
+    "editors": "All three reader main sections exactly match approved editorial mock after stripping preview navigation and restoring routes. Later approved compact separator retained.",
+    "poets": "429 cards match approved mock after normalizing search metadata and later approved arrow removal; enlarged illustration retained."
+  },
+  "changes": [
+    "Poet opening now uses Behind every poem, a voice. Find one that stays with you. and existing kendu leaf icon.",
+    "Persistent builder updated and stylesheet revision incremented.",
+    "Historical mock records point to current application records; historical checks retained."
+  ],
+  "checks": [
+    "Node24 public build passed:1307 pages.",
+    "Author checker passed:429 profiles/798 contribution links.",
+    "Edition checker passed:47 editions/848 source hashes.",
+    "Only poets.html changed among baseline reader pages and content/data files.",
+    "390px Archive, Editors and Poets no horizontal overflow.",
+    "Archive2022 gives2; All+Show more gives24/47.",
+    "Poets12→24/429; Aakash search gives1.",
+    "Editors mobile invitation and115px compact separator verified."
+  ],
+  "evidence": [
+    "artifacts/review/approval-application-audit/parity.json",
+    "artifacts/review/approval-application-audit/integrity.json",
+    "artifacts/review/approval-application-audit/poets-mobile.png",
+    "artifacts/review/approval-application-audit/archive-mobile.png",
+    "artifacts/review/approval-application-audit/editors-mobile.png"
+  ],
+  "limitations": [
+    "Freshly loaded local pages inspected; cannot establish what an earlier cached tab displayed.",
+    "Writer biography audit remains deferred.",
+    "No publication. Same-assistant checks, not independent review."
+  ],
+  "next_action": "User compares actual refreshed reader pages; investigate any remaining visible discrepancy against its approved mock."
+}

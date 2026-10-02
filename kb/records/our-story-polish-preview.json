@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-02T10:06:27.834698+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "preview_ready_awaiting_user_review",
+  "scope": "Our Story candidate only; reader about.html and shared renderer unchanged",
+  "preview": "http://127.0.0.1:8771/our-story-polish-review.html",
+  "changes": [
+    "Shorter journal narrative; removed unattributed quotation in candidate only",
+    "Grouped author and portrait provenance with existing credits",
+    "Privacy followed by journal navigation",
+    "Reduced opening/body spacing and lighter editorial sidebar"
+  ],
+  "preserved": [
+    "All433credit IDs",
+    "All733external destinations",
+    "Sonu Swayin and Versatile IT Services acknowledgement",
+    "Redesign credit,poem ownership,editor names,AI artwork/portrait/translation disclosures,font credits and privacy controls"
+  ],
+  "checks": "390px,360px and1280px; no horizontal overflow; keyboard Typefaces disclosure and writer41 fragment reveal passed",
+  "evidence": [
+    "artifacts/review/our-story-polish/verification.json",
+    "artifacts/review/our-story-polish/desktop.png",
+    "artifacts/review/our-story-polish/mobile.png"
+  ],
+  "independent": false,
+  "next_action": "User reviews candidate; apply through source builders after approval, keeping concurrent portrait credits current."
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 16,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    342,
+    350,
+    351,
+    352,
+    349,
+    353,
+    354,
+    355,
+    356,
+    357
+  ],
+  "source_held": [],
+  "new_translations": 20,
+  "total_drafts": 928,
+  "remaining_translations": 674,
+  "batches": [
+    "batch-105",
+    "batch-106"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 10 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 20 versions",
+    "rendered_catalogue_parity": "pass for all 20 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "342": [
+      "Nine source blocks retained, including final underscore separator. Brahmani, gayal and open-ended no-resolution stance preserved."
+    ],
+    "350": [
+      "Twelve blocks including four-line source address preserved; address is already source publication content, not newly researched data. Bali Jatra, Gajapati, Chhatrapati, Akshaya Mohanty, thunka puri, Hadia Patha, shola boat and Mahanadi retained. Anupriya remains poem’s named figure without invented biography. Embedded short Hindi lyric translated in English, retained in Hindi."
+    ],
+    "351": [
+      "All six blocks, final separator and location retained. Source mystery/no-mystery tension preserved. Kalasarpa rendered dark serpent in English, original compound in Hindi; deceit/manhood syntax remains provisional."
+    ],
+    "352": [
+      "Twenty-eight lines retained. Addressless planet/space and last burning day remain poetic imagery; no inferred death wish or added escape method."
+    ],
+    "349": [
+      "Three stanzas retained. Unnamed it remains personified destruction/war, not assigned a particular conflict; body imagery not elaborated."
+    ],
+    "353": [
+      "Eighteen lines retained; freedom’s civic/ethical argument preserved without adding political examples."
+    ],
+    "354": [
+      "Thirty lines retained; named Hyderabad places, Ambedkar, Telangana memorial and Amarajyothi retained. Sightline/history and devotional blessing claims are source poem claims, not independently verified travel guidance."
+    ],
+    "355": [
+      "Twenty-three lines retained. Damaged got in rept interpreted wrapped/entangled provisionally. Peacock flower retained in transliteration after self-review to avoid an unsupported botanical identification. Alienation/attraction tension preserved."
+    ],
+    "356": [
+      "Eight couplets plus final quatrain retained. Eden and nymphs preserved; no named religion or literal cosmology added."
+    ],
+    "357": [
+      "Four stanzas retained. Bitter pills and delirium remain source metaphors; no clinical diagnosis. Hindi feminine speaker provisional."
+    ]
+  },
+  "publication": false,
+  "next_edition": 15,
+  "next_poem_ids": [
+    340,
+    341,
+    343,
+    344,
+    345
+  ]
+}

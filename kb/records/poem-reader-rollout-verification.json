@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-30",
+  "executor": "Current assistant",
+  "independent": false,
+  "scope": {
+    "reader_pages": 801,
+    "editions": 47,
+    "new_translation_drafts": 10,
+    "total_translation_drafts": 12,
+    "remaining_translations": 1590
+  },
+  "approval": [
+    "Now apply this to all poem pages",
+    "Translate in small batches here"
+  ],
+  "checks": {
+    "original_source_hashes": "801 unchanged",
+    "edition_integrity": "pass; 800 edition memberships and writer contribution links",
+    "author_integrity": "pass",
+    "unit_tests": {
+      "passed": 14,
+      "skipped": 5,
+      "failed": 0,
+      "skip_reason": "Firestore emulator unavailable"
+    },
+    "public_build": "pass; 1307 pages, 595 assets",
+    "browser": [
+      "Hindi to Odia switch",
+      "28px large text",
+      "U help opens and Escape dismisses",
+      "two existing saved passages visible",
+      "original-only English page has no language tabs",
+      "360px iframe content width 360px"
+    ]
+  },
+  "limits": [
+    "No independent linguistic review",
+    "Native phone selection handles not tested",
+    "Existing archive gaps unchanged",
+    "No deployment or publication"
+  ],
+  "preservation": "artifacts/history/revisions/revision-62-before-reader-rollout",
+  "translation_review": "production/translations/batch-001/review.json"
+}

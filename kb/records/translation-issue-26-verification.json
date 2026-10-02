@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 26,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    496,
+    497,
+    500,
+    498,
+    499,
+    501,
+    502,
+    503,
+    504,
+    505
+  ],
+  "source_held": [],
+  "new_translations": 20,
+  "total_drafts": 638,
+  "remaining_translations": 964,
+  "batches": [
+    "batch-070",
+    "batch-071"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 10 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 20 versions, including professional affiliations and long prose-like lines",
+    "rendered_catalogue_parity": "pass for all 20 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "500": "Ambiguous monetary token ପାଁଶ retained verbatim, amount not guessed. Satirical abusive speaker and affiliation preserved.",
+    "499": "Damaged imperative and Majaz fragment preserved with explicit review caveats; no invented missing resistance verb.",
+    "501": "Barial source spelling retained; no unsupported geographical normalization.",
+    "503": "charred colloids retained literally; no specific historical tragedy inferred.",
+    "504": "Ambiguous half-cycle time attachment retained without inventing marriage duration.",
+    "505": "Long lines and explicit mother speaker preserved."
+  },
+  "publication": false,
+  "next_edition": 25,
+  "next_poem_ids": [
+    494,
+    483,
+    484,
+    491,
+    485
+  ]
+}

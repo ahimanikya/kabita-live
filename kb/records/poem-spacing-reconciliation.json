@@ -1,0 +1,551 @@
+{
+  "date": "2026-10-01",
+  "review": "Same-assistant source comparison; independent language review pending.",
+  "method": "Restore explicit blank input lines after HTML br where importer collapsed text-node whitespace. Exact source-line matching; no words or existing line ordering changed. Existing stanza boundaries retained.",
+  "restored": [
+    {
+      "id": 209,
+      "title": "ଲୁହବୁନ୍ଦେ",
+      "source": "kb/artifacts/content-import/editions/issue-07/poem-209.html",
+      "source_sha256": "b28f1ee2f0c7ed78a6f1f7a7d573ff029761a17dfba5d10676d0748e292e29f6",
+      "before_lines": [
+        19,
+        25,
+        30
+      ],
+      "existing_stanzas": 5,
+      "verse_lines": 34
+    },
+    {
+      "id": 18,
+      "title": "ସମୟ ର ବିଳାପ",
+      "source": "kb/artifacts/content-import/editions/issue-01/poem-18.html",
+      "source_sha256": "574b01069504733e813154e663d31b57012a23adbe22adca8ca06a1bc7d48384",
+      "before_lines": [
+        3,
+        13,
+        28,
+        37
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 43
+    },
+    {
+      "id": 15,
+      "title": "ବିରହ ଭୋଗ",
+      "source": "kb/artifacts/content-import/editions/issue-01/poem-15.html",
+      "source_sha256": "1c13e002e0a67c9a635ec90f198e9ae8f863232345541c973259cc1eeeb1873a",
+      "before_lines": [
+        2,
+        9,
+        15
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 29
+    },
+    {
+      "id": 19,
+      "title": "Flame",
+      "source": "kb/artifacts/content-import/editions/issue-01/poem-19.html",
+      "source_sha256": "ec0f80507d44fec79ba7f8606f382a98ec2792f0daa5d68214c495498ee38a95",
+      "before_lines": [
+        5
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 15
+    },
+    {
+      "id": 8,
+      "title": "ନିବିଡ ହୃଦୟ ନୀଡ",
+      "source": "kb/artifacts/content-import/editions/issue-01/poem-8.html",
+      "source_sha256": "bf5f8ccd3796cc7358714fb4e488ff004946ed71909b3287457bcb74a9f6956b",
+      "before_lines": [
+        6,
+        12,
+        18
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 20
+    },
+    {
+      "id": 26,
+      "title": "ବୟସ୍କ ହେଲାବେଳେ",
+      "source": "kb/artifacts/content-import/editions/issue-01/poem-26.html",
+      "source_sha256": "853bf937d65c58c7b019acc1810384341083f090d3408f3cf92cc6d88148621d",
+      "before_lines": [
+        5,
+        13,
+        23,
+        32
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 42
+    },
+    {
+      "id": 7,
+      "title": "ତୁମେ ଏକା ଜଣେ",
+      "source": "kb/artifacts/content-import/editions/issue-01/poem-7.html",
+      "source_sha256": "14306b9de89d886d25a150e3514c85c9abfe0c5ec65c71cd83a7734e33e6ea51",
+      "before_lines": [
+        13,
+        27
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 56
+    },
+    {
+      "id": 16,
+      "title": "ଆଭାଗ୍ୟ ଲିପି",
+      "source": "kb/artifacts/content-import/editions/issue-01/poem-16.html",
+      "source_sha256": "036b5b09699c651409e8ad11c0322210c6822ef852a3b64f3b9c63666a6f995a",
+      "before_lines": [
+        1,
+        6,
+        10,
+        15,
+        18,
+        22,
+        29,
+        30,
+        37,
+        39,
+        44
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 48
+    },
+    {
+      "id": 17,
+      "title": "ନିରୁତ୍ତର",
+      "source": "kb/artifacts/content-import/editions/issue-01/poem-17.html",
+      "source_sha256": "9790d39c69697e7ffeae95d104b608621b73aa5aa845b2bd8f168932f1c0dbee",
+      "before_lines": [
+        6,
+        9,
+        13,
+        18,
+        23
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 30
+    },
+    {
+      "id": 823,
+      "title": "ପବନ",
+      "source": "kb/artifacts/content-import/editions/issue-47/poem-823.html",
+      "source_sha256": "f0af9cf6a658abc7d0e57a6ff09f09cd78ada7a18a22b3491e9259dd7fcd8ea3",
+      "before_lines": [
+        2,
+        3,
+        8
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 14
+    },
+    {
+      "id": 321,
+      "title": "I see you!",
+      "source": "kb/artifacts/content-import/editions/issue-13/poem-321.html",
+      "source_sha256": "5f0d188da2148a9507b593248a0b090ea943e3e4a0c3e7a3de3a3c3b381de596",
+      "before_lines": [
+        18
+      ],
+      "existing_stanzas": 7,
+      "verse_lines": 41
+    },
+    {
+      "id": 495,
+      "title": "FIG LEAF",
+      "source": "kb/artifacts/content-import/editions/issue-25/poem-495.html",
+      "source_sha256": "a9dff480a3135509e289f3cd9e97bc5801bd8b71502f7a1001773c01b8e515ab",
+      "before_lines": [
+        4,
+        17
+      ],
+      "existing_stanzas": 6,
+      "verse_lines": 32
+    },
+    {
+      "id": 494,
+      "title": "ଟାଣ କଥା ପଦକ",
+      "source": "kb/artifacts/content-import/editions/issue-25/poem-494.html",
+      "source_sha256": "73e53f5cedfb6411e100b98c633335c8d5822a093a66eec4eff8121ee7ea32d5",
+      "before_lines": [
+        11
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 26
+    },
+    {
+      "id": 452,
+      "title": "मेरी खिड़की के बाहर की दुनिया",
+      "source": "kb/artifacts/content-import/editions/issue-22/poem-452.html",
+      "source_sha256": "8dfdb17887c529c696f17c805916bda92feab23d6576bec5dd9607b36569aa91",
+      "before_lines": [
+        26
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 37
+    },
+    {
+      "id": 141,
+      "title": "ବାଟଖୋଜା",
+      "source": "kb/artifacts/content-import/editions/issue-04/poem-141.html",
+      "source_sha256": "78854e9b1325ab10b5b66a18cf0a3d6e3130f9890491df354b6a900aa8a00105",
+      "before_lines": [
+        1
+      ],
+      "existing_stanzas": 7,
+      "verse_lines": 47
+    },
+    {
+      "id": 93,
+      "title": "କୁହେଳି",
+      "source": "kb/artifacts/content-import/editions/issue-03/poem-93.html",
+      "source_sha256": "af4c97290469d1f482cbcdf2f15b7d63d9da48750ec651c4fba36f9e54719c2d",
+      "before_lines": [
+        45
+      ],
+      "existing_stanzas": 4,
+      "verse_lines": 50
+    },
+    {
+      "id": 562,
+      "title": "सपने टूटने लगे",
+      "source": "kb/artifacts/content-import/editions/issue-32/poem-562.html",
+      "source_sha256": "95cd475cf305a7a96fbd6e775d0c7a0f2abb5a6912bbaf03aeff63a38497eb30",
+      "before_lines": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 32
+    },
+    {
+      "id": 564,
+      "title": "ଯୁଦ୍ଧ",
+      "source": "kb/artifacts/content-import/editions/issue-32/poem-564.html",
+      "source_sha256": "6fb70d271bfca5f7a738ed5d326b0301692fa1cdbfab2e6e166e94b0b483a6ac",
+      "before_lines": [
+        2,
+        6,
+        13,
+        17,
+        22,
+        27,
+        32,
+        36
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 40
+    },
+    {
+      "id": 266,
+      "title": "ନିଜସହ",
+      "source": "kb/artifacts/content-import/editions/issue-10/poem-266.html",
+      "source_sha256": "5df1cbc8d4bf7aab6ec560ca466a5267f4b92ab38b022322005ec02ab13a6a65",
+      "before_lines": [
+        5,
+        11,
+        13,
+        18,
+        24
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 30
+    },
+    {
+      "id": 267,
+      "title": "ଛତା",
+      "source": "kb/artifacts/content-import/editions/issue-10/poem-267.html",
+      "source_sha256": "fb1b256b1ed0134966f8cf5646ac5fbad867da61100e2ae057b55c667ade61b1",
+      "before_lines": [
+        12,
+        20,
+        32
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 44
+    },
+    {
+      "id": 375,
+      "title": "आपा-धापी",
+      "source": "kb/artifacts/content-import/editions/issue-17/poem-375.html",
+      "source_sha256": "fe85667e03a7363ed50cca3386fdbd7d1306954fbba7624254b6ad968be722ad",
+      "before_lines": [
+        2
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 19
+    },
+    {
+      "id": 376,
+      "title": "गुलमोहर",
+      "source": "kb/artifacts/content-import/editions/issue-17/poem-376.html",
+      "source_sha256": "f8426554a6dc56c32e03fe450c6c2400dec945c8f37d9e2a0e2ca1c524c564a0",
+      "before_lines": [
+        5
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 23
+    },
+    {
+      "id": 402,
+      "title": "ତିନୋଟି ଛୋଟ କବିତା",
+      "source": "kb/artifacts/content-import/editions/issue-19/poem-402.html",
+      "source_sha256": "89eca53e396b8385b19e36244b79d11bc2d2a901956211db39ffa9cc114a3772",
+      "before_lines": [
+        1,
+        15,
+        26
+      ],
+      "existing_stanzas": 4,
+      "verse_lines": 44
+    }
+  ],
+  "single_line_recovery": {
+    "id": 9,
+    "source": "kb/artifacts/content-import/editions/issue-01/poem-9.html",
+    "groups": {
+      "en": [
+        [
+          "Taller the building",
+          "Deeper its foundation",
+          "Prettier the outer layer",
+          "Muddier the root structure",
+          "Wider the building’s perimeter",
+          "Complex the root architecture"
+        ],
+        [
+          "As life inches towards its afternoon",
+          "Dreams and desires",
+          "Scattered and sacrificed",
+          "Deduced to thin air",
+          "Even after, the heart that holds",
+          "Respect and love for others",
+          "Sparkles like gold",
+          "Though burnt with fire."
+        ],
+        [
+          "Just like the building",
+          "Gives shelter to many",
+          "And stands tall",
+          "The man who supports others",
+          "Despite his pain, he smiles",
+          "And spreads love and affection",
+          "To one and all",
+          "He turns to an ever-flowing river,",
+          "Withstands the test of time after all."
+        ],
+        [
+          "Though gives a shelter to others",
+          "Like a wandering bird",
+          "He finds a little space",
+          "in the impervious cave",
+          "Of his own heart",
+          "Just for himself.."
+        ]
+      ],
+      "hi": [
+        [
+          "इमारत जितनी ऊँची,",
+          "उसकी नींव उतनी गहरी।",
+          "बाहरी परत जितनी सुंदर,",
+          "जड़ों की बनावट उतनी कीचड़भरी।",
+          "इमारत का घेरा जितना चौड़ा,",
+          "जड़ों की वास्तुकला उतनी जटिल।"
+        ],
+        [
+          "जब जीवन अपनी दोपहर की ओर सरकता है,",
+          "सपने और इच्छाएँ",
+          "बिखरते हैं, बलि चढ़ते हैं,",
+          "हवा में विलीन हो जाते हैं।",
+          "उसके बाद भी जो हृदय",
+          "दूसरों के लिए सम्मान और प्रेम रखता है,",
+          "वह सोने की तरह चमकता है,",
+          "आग में जलकर भी।"
+        ],
+        [
+          "जैसे इमारत",
+          "बहुतों को आश्रय देती है",
+          "और ऊँची खड़ी रहती है,",
+          "दूसरों का सहारा बनने वाला मनुष्य",
+          "अपनी पीड़ा के बावजूद मुसकराता है",
+          "और प्रेम तथा स्नेह बाँटता है,",
+          "एक-एक को, सबको।",
+          "वह सदा बहती नदी बन जाता है,",
+          "आखिर समय की परीक्षा सहता है।"
+        ],
+        [
+          "दूसरों को आश्रय देते हुए भी,",
+          "भटके पंछी की तरह,",
+          "वह अपने ही हृदय की",
+          "अभेद्य गुफा में",
+          "थोड़ी-सी जगह पाता है,",
+          "केवल अपने लिए.."
+        ]
+      ],
+      "or": [
+        [
+          "ଅଟ୍ଟାଳିକା ଯେତେ ଉଚ୍ଚ,",
+          "ତାର ଭିତ୍ତି ସେତେ ଗଭୀର।",
+          "ବାହାର ଆବରଣ ଯେତେ ସୁନ୍ଦର,",
+          "ମୂଳ ଗଠନ ସେତେ କାଦୁଅଭରା।",
+          "ଅଟ୍ଟାଳିକାର ପରିଧି ଯେତେ ପ୍ରସାରିତ,",
+          "ମୂଳର ସ୍ଥାପତ୍ୟ ସେତେ ଜଟିଳ।"
+        ],
+        [
+          "ଜୀବନ ଧୀରେ ଅପରାହ୍ନ ଆଡ଼କୁ ଗଲାବେଳେ",
+          "ସ୍ୱପ୍ନ ଓ ଆକାଂକ୍ଷା",
+          "ବିଛୁଡ଼ିଯାଏ, ଆହୁତି ହୁଏ,",
+          "ଶୂନ୍ୟ ପବନରେ ମିଳାଇଯାଏ।",
+          "ତା'ପରେ ବି ଯେଉଁ ହୃଦୟ",
+          "ଅନ୍ୟ ପାଇଁ ସମ୍ମାନ ଓ ପ୍ରେମ ରଖେ,",
+          "ନିଆଁରେ ଜଳିଲେ ବି",
+          "ସୁନାପରି ଝଲସେ।"
+        ],
+        [
+          "ଅଟ୍ଟାଳିକା ଯେମିତି",
+          "ଅନେକଙ୍କୁ ଆଶ୍ରୟ ଦେଇ",
+          "ଉଚ୍ଚରେ ଠିଆହୁଏ,",
+          "ଅନ୍ୟର ସାହାରା ହେଉଥିବା ମଣିଷ",
+          "ନିଜ ବେଦନା ସତ୍ତ୍ୱେ ହସେ",
+          "ଓ ପ୍ରେମ, ସ୍ନେହ ବାଣ୍ଟେ",
+          "ପ୍ରତ୍ୟେକଙ୍କୁ, ସଭିଙ୍କୁ।",
+          "ସେ ନିରନ୍ତର ବହୁଥିବା ନଈ ହୁଏ,",
+          "ଶେଷରେ ସମୟର ପରୀକ୍ଷା ସହେ।"
+        ],
+        [
+          "ଅନ୍ୟଙ୍କୁ ଆଶ୍ରୟ ଦେଲେ ବି,",
+          "ବାଟବଣା ପକ୍ଷୀପରି",
+          "ସେ ନିଜ ହୃଦୟର",
+          "ଅଭେଦ୍ୟ ଗୁମ୍ଫାରେ",
+          "ଟିକିଏ ଜାଗା ପାଏ,",
+          "କେବଳ ନିଜ ପାଇଁ.."
+        ]
+      ]
+    },
+    "note": "English raw source contains29 lines and4 stanzas; Hindi/Odia existing words reflowed into corresponding4 thematic movements. Odia last two lines of stanza2 keep its existing translated word order."
+  },
+  "deferred": [
+    {
+      "id": 240,
+      "title": "In This Body",
+      "source": "kb/artifacts/content-import/editions/issue-09/poem-240.html",
+      "source_sha256": "ed69295705ef6644d471f324d60a195eb91e72430cde81a128c0f47df46884ba",
+      "before_lines": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 26,
+      "reason": "Almost every source line separated by blank input whitespace; cannot distinguish stanza divisions from uniform spacing. Preserve existing verse pending editorial reconciliation."
+    },
+    {
+      "id": 241,
+      "title": "ଦାରୁଣ ଅସହାୟତା",
+      "source": "kb/artifacts/content-import/editions/issue-09/poem-241.html",
+      "source_sha256": "f5d2dcede88fe02a604493839372d6a942ec01b30691351fe29f0d58a2c0c2bf",
+      "before_lines": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 34,
+      "reason": "Almost every source line separated by blank input whitespace; cannot distinguish stanza divisions from uniform spacing. Preserve existing verse pending editorial reconciliation."
+    },
+    {
+      "id": 242,
+      "title": "ଧଉଳି ପାହାଡ",
+      "source": "kb/artifacts/content-import/editions/issue-09/poem-242.html",
+      "source_sha256": "1c6e1b4c3420e7e79a012f5a57abdab69f95defc10af752d7bce62ad0a71f15b",
+      "before_lines": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "existing_stanzas": 1,
+      "verse_lines": 30,
+      "reason": "Almost every source line separated by blank input whitespace; cannot distinguish stanza divisions from uniform spacing. Preserve existing verse pending editorial reconciliation."
+    }
+  ],
+  "remaining_single_stanza_policy": "No mechanical splitting on punctuation or every N lines; poems with no recoverable stanza evidence retain author/source flow."
+}

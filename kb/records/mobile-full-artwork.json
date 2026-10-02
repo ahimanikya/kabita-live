@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-02T05:29:16.250761+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "All inner pages images should be take full width in mobile version",
+  "scope": "Main opening illustrations, poem artwork and edition covers fill the mobile content column at widths up to760px. Portraits, icons and footer signatures retain their approved sizes.",
+  "changes": [
+    "One shared mobile stylesheet overrides smaller per-page illustration rules.",
+    "Poets and Archive opening artwork is visible at full mobile content width.",
+    "Images use natural aspect ratio without cropping; archive cover cards use one column.",
+    "Homepage and desktop layouts unchanged."
+  ],
+  "checks": [
+    "Node24 public build passed1307routes,1306indexed pages.",
+    "Shared rule referenced on1305generated inner pages; homepage excluded.",
+    "390px browser checks on Poems,Editors,Poets,Archive,Submission,Current issue,Poem and Our Story: all main image widths350px match content width; no horizontal overflow.",
+    "Poem author portrait remains44px."
+  ],
+  "evidence": [
+    "artifacts/review/mobile-full-artwork/checks.json",
+    "artifacts/review/mobile-full-artwork/poems.png",
+    "artifacts/review/mobile-full-artwork/editors.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "Full width means content-column width, respecting existing20px phone gutters.",
+    "No publication; same-assistant browser review."
+  ],
+  "next_action": "User reviews shared full-width mobile artwork."
+}

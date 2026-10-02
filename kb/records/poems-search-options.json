@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-02T08:53:28.591898+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": [
+    "Add poet and edition choices to Poems search.",
+    "Manage empty space better.",
+    "Remove Within these pages from Poems."
+  ],
+  "changes": [
+    "Added alphabetical poet and descending-edition choices alongside keyword search; filters combine and reset pagination.",
+    "Added Clear search and a useful empty state; retained unassigned-edition and unknown-author entries.",
+    "Keyword index now includes translated lines and edition number/month/year; whitespace normalized for remembered-line queries.",
+    "Removed Poems contents heading, reduced opening gap, and laid out three fields in one desktop row; search above two side-by-side choices on mobile."
+  ],
+  "checks": [
+    "Public Astro build passed.",
+    "Edition checker passed 47 editions and 848 source hashes.",
+    "871 source/content files unchanged.",
+    "Browser: Issue 47 gives 16 poems; Narmada with Issue 47 gives one; Manorama gives two and resets pagination; Manorama with Issue 47 gives empty state; Clear search restores 799.",
+    "English translated-line query finds its poem; Issue 47 keyword search finds 16.",
+    "390px viewport has no horizontal overflow; all inputs/selects are 48px high."
+  ],
+  "evidence": [
+    "artifacts/review/poems-search-options/desktop.png",
+    "artifacts/review/poems-search-options/mobile.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "Poet choices preserve existing distinct writer identities, including same-name records pending editorial audit.",
+    "Filters apply to the on-page catalogue; quiet reader retains its existing edition/poet chooser.",
+    "Local preview only; no publication."
+  ]
+}

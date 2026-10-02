@@ -1,0 +1,48 @@
+{
+  "status": "approved_and_applied",
+  "recorded_at": "2026-10-01T10:32:15.395038+00:00",
+  "request": "Make the two poet/editor links easier to understand",
+  "preview": "http://127.0.0.1:8771/poem-link-context-review.html",
+  "options": {
+    "A": "Helpful hints: Explore Manorama Choudhury’s poems; Send a private note about this poem.",
+    "B": "Beyond the poem heading with existing text links"
+  },
+  "recommendation": "A: explains both destinations directly without icons",
+  "scope": "Review-only alternatives; actual publication pages unchanged",
+  "checks": {
+    "cases": 4,
+    "widths": [
+      360,
+      1280
+    ],
+    "no_overflow": true,
+    "left_aligned_44px_minimum_links": true,
+    "original_destinations_preserved": true,
+    "independent": false
+  },
+  "approval": {
+    "choice": "A",
+    "request": "A",
+    "human": "Ahimanikya Satapathy",
+    "recorded_at": "2026-10-01T10:34:32.263903+00:00"
+  },
+  "application": {
+    "poem_pages": 801,
+    "writer_hint": "Explore {English poet name}’s poems.",
+    "editor_hint": "Send a private note about this poem.",
+    "missing_writer": "Poem30 keeps editor link only; no invented poet destination",
+    "browser_cases": 6,
+    "widths": [
+      360,
+      1280
+    ],
+    "examples": [
+      8,
+      281,
+      30
+    ],
+    "failures": 0,
+    "public_build": "PASS",
+    "published": false
+  }
+}

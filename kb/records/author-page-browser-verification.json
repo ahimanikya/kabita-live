@@ -1,0 +1,68 @@
+{
+  "result": "PASS_WITH_LIMITATIONS",
+  "independent": false,
+  "desktop_visual_review": "Narmada author page screenshot inspected; 60/40 opening, portrait, biography and book shelf visible without overlap.",
+  "mobile_width": 360,
+  "profiles": [
+    {
+      "route": "poet-dokana.html",
+      "scroll_width": 360,
+      "overflow": []
+    },
+    {
+      "route": "poet-kshanika.html",
+      "scroll_width": 360,
+      "overflow": []
+    },
+    {
+      "route": "poet-drink.html",
+      "scroll_width": 360,
+      "overflow": []
+    },
+    {
+      "route": "poet-56.html",
+      "scroll_width": 360,
+      "overflow": []
+    },
+    {
+      "route": "poet-233.html",
+      "scroll_width": 360,
+      "overflow": []
+    },
+    {
+      "route": "poet-258.html",
+      "scroll_width": 360,
+      "overflow": []
+    }
+  ],
+  "native_fonts": {
+    "or": "Noto Serif Oriya",
+    "hi": "Tiro Devanagari Hindi"
+  },
+  "body_font": "Source Serif 4",
+  "contribution_search": {
+    "profile": "poet-kshanika.html",
+    "query": "क्षणिका",
+    "matches": 1,
+    "no_match_query": "no-match-xyz",
+    "empty_state": true
+  },
+  "credit_deep_link": {
+    "route": "about.html#credits-writer-337",
+    "exists": true,
+    "details_open": true
+  },
+  "limitations": [
+    "Six representative mobile profiles, not a full visual audit of 429 profiles.",
+    "Existing enlarged-header concern and independent three-script proofreading remain open.",
+    "Host click coordinates can be offset following viewport emulation; source link destinations were additionally verified directly."
+  ],
+  "year_filter": {
+    "profile": "poet-kshanika.html",
+    "selected": "2024",
+    "visible_years": [
+      "2024"
+    ],
+    "visible_poems": 3
+  }
+}

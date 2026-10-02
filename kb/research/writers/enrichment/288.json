@@ -1,0 +1,74 @@
+{
+  "writer_id": 288,
+  "name": "Selma Kopic",
+  "reviewed_on": "2026-10-01",
+  "batch": "research-069",
+  "status": "source_checked_local_draft",
+  "independent": false,
+  "portrait_action": "unchanged",
+  "reader_draft": {
+    "sections": [
+      {
+        "heading": "Life and writing.",
+        "language": "en",
+        "paragraphs": [
+          "Selma Kopić is a poet from Tuzla, Bosnia and Herzegovina, with a background in teaching Bosnian language and literature. Her writing includes poetry and prose as well as educational materials. Biserje's contributor note lists the poetry collections Znak, The Monument of Love and Slagalica, and the collaborative collection Cosmic Rainbow.",
+          "‘Let`s run away’ builds its urgency through repeated invitations to leave behind hostile scrutiny, accusations and manipulative conversation. Its short lines move between an intimate ‘we’ and an uncomprehending ‘they’, making escape a wish for a space in which closeness can survive. An earlier publication in Our Poetry Archive presents the poem alongside its Bosnian counterpart, ‘Pobjegnimo’."
+        ]
+      }
+    ],
+    "books": [],
+    "sources": [
+      {
+        "label": "Our Poetry Archive — Selma Kopić, April 2020",
+        "url": "https://ourpoetryarchive.blogspot.com/2020/04/selma-kopic.html"
+      },
+      {
+        "label": "Biserje — poetry and contributor biography",
+        "url": "https://www.biserje.ba/poezija-selma-kopic/"
+      }
+    ],
+    "reviewed_on": "2026-10-01"
+  },
+  "sources": [
+    {
+      "label": "Our Poetry Archive — Selma Kopić, April 2020",
+      "url": "https://ourpoetryarchive.blogspot.com/2020/04/selma-kopic.html",
+      "supports": "Exact English poem first section, Bosnian counterpart, Tuzla and language/literature teaching background; opened full text.",
+      "access": "opened_page",
+      "accessed_on": "2026-10-01"
+    },
+    {
+      "label": "Biserje — poetry and contributor biography",
+      "url": "https://www.biserje.ba/poezija-selma-kopic/",
+      "supports": "Tuzla identity, educational writing, three poetry books and collaborative Cosmic Rainbow.",
+      "access": "search_index; direct open verification interstitial",
+      "accessed_on": "2026-10-01"
+    }
+  ],
+  "identity_match": "Exact Let’s Run Away text in Our Poetry Archive ties journal contributor to Tuzla/Bosnian literature biography and Kopić spelling.",
+  "poems_read": [
+    {
+      "id": 298,
+      "title": "Let`s run away",
+      "coverage": "Complete original including both repeated English sequences",
+      "basis": "Repeated escape imperative, hostile social scrutiny and intimate we/they opposition."
+    }
+  ],
+  "limitations": [
+    "Local298 contains two differently worded English sequences; external publication pairs first English sequence with Bosnian Pobjegnimo. Possible duplicate adaptation preserved for editorial reconciliation, not silently trimmed. No translator attribution inferred. Book titles sourced to contributor biography; no verified individual publisher links, shelf empty. Awards not independently checked or added.",
+    "Same-assistant research and close reading; independent author/editor factual review pending."
+  ],
+  "search_queries": [
+    "Selma Kopic poet Bosnia biography",
+    "Selma Kopić run away"
+  ],
+  "research_leads": [
+    {
+      "url": "https://avlija.me/selma-kopic-uvehle-kuce/",
+      "access": "search_index",
+      "finding": "2013 literary publication corroborates Tuzla and Bosnian-language educator background."
+    }
+  ],
+  "next_action": "Editor review of repeated English sequences in298 and translator attribution; author review of bibliography."
+}

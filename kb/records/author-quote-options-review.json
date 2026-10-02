@@ -1,0 +1,22 @@
+{
+  "status": "approved-and-applied",
+  "options": {
+    "a": "Quiet ink — recommended",
+    "b": "In the margin",
+    "c": "Earth & voice"
+  },
+  "count_correction": "Integrated into dynamic heading; singular and empty states handled",
+  "verification": {
+    "build": "pass",
+    "author_checks": "pass",
+    "edition_checks": "pass",
+    "desktop_visual": "A, B and C inspected",
+    "responsive": "12 option/author combinations at 537 CSS px; A and B across original languages at 360 CSS px; C Odia at 360 CSS px",
+    "horizontal_overflow": false
+  },
+  "review_page": "artifacts/review/site/author-quote-options.html",
+  "publication": "local only",
+  "selected": "c",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review",
+  "independent": false
+}

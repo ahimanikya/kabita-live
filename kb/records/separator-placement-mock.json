@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-02T02:57:23.641096+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "rejected",
+  "independent": false,
+  "request": "Show proposed locations for full-width wavy leaf separator before applying.",
+  "url": "http://127.0.0.1:8771/separator-placement-mock.html",
+  "placements": [
+    {
+      "source": "kb/artifacts/review/editorial-polish/editorial-team-mock.html",
+      "sha256": "f4ef58a52204e164e9842726b8d3df17ecd217a2c743323f04eecdc5726f94d0",
+      "preview": "separator-editors-mock.html",
+      "placement": "Before the invitation to share a poem."
+    },
+    {
+      "source": "kb/artifacts/review/submission-polish/submit-polish-mock.html",
+      "sha256": "e4f706cfd75af3dabe68ea912fe55c3eb6ac23285c74391b74e37ecde7a08b35",
+      "preview": "separator-submit-mock.html",
+      "placement": "Between the opening invitation and the practical next steps."
+    },
+    {
+      "source": "kb/artifacts/review/editorial-polish/editor-pradeep-mock.html",
+      "sha256": "ab7402b70c6cf6e0cdda2f7f0dc79ffaf5da833eb196c76967b6f7a26ad85bc0",
+      "preview": "separator-profile-mock.html",
+      "placement": "Between life and writing, and poems in the journal."
+    },
+    {
+      "source": "output/kabitalive-design-proposal-2026-09-29/site/about.html",
+      "sha256": "64f09633dc3ec8201f43791d242cffb9d953f672cd2e41f1cfad83e422772da8",
+      "preview": "separator-story-mock.html",
+      "placement": "Before the credits: a quiet transition to the people behind the pages."
+    }
+  ],
+  "design": [
+    "Full content width, two restrained waves adapted from poetic-waterline.svg.",
+    "Small fixed-size central leaf; only wave paths stretch.",
+    "One divider per contextual preview, outside poem content.",
+    "Existing colophon top rule removed in preview to avoid stacked dividers."
+  ],
+  "verification": [
+    "All four placements visually inspected at 1280px and 390px.",
+    "No horizontal overflow at either width; exactly one proposed divider per page.",
+    "Source hashes unchanged; preview navigation destinations exist."
+  ],
+  "limitations": [
+    "Same-assistant visual review only.",
+    "No production application, publication or biography verification."
+  ],
+  "evidence": [
+    "artifacts/review/separator-placement/sources.json",
+    "artifacts/review/separator-placement/"
+  ],
+  "next_action": "Use compact-separator previews; do not apply full-width variant.",
+  "user_feedback": "User clarified the short original poetic-waterline ornament in the Search screenshot; expanded full-width wave rejected."
+}

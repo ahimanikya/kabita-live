@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-01",
+  "review": "same-assistant self-review",
+  "empty_source_records": [],
+  "title_only_records": [
+    385
+  ],
+  "title_only_evidence": "kb/artifacts/content-import/editions/issue-18/poem-385.html lines306–310 contain only title, pen icon and breaks. Existing source hold remains; reader availability note added.",
+  "straight_danda_lines": [
+    {
+      "id": 8,
+      "line": 19,
+      "text": "ହଜେ ଆଲିଙ୍ଗନେ ତାହାର ନିବିଡ |",
+      "continues_after_danda": false
+    },
+    {
+      "id": 725,
+      "line": 17,
+      "text": "ମୋତେ ଭଲ ପାଇଥିବା ଯେତେ ସବୁ ମୁହୂର୍ତ୍ତର ମୁଁହ |",
+      "continues_after_danda": false
+    },
+    {
+      "id": 464,
+      "line": 3,
+      "text": "ଅପେକ୍ଷାରତା,ମୁକ୍ତାଟିଏ ହେବାପାଇଁ |",
+      "continues_after_danda": false
+    },
+    {
+      "id": 464,
+      "line": 8,
+      "text": "ଏଇ ଭରେ ଏଇ ପୁଣି ଶୂନ୍ଯ ହେଇଯାଏ |",
+      "continues_after_danda": false
+    },
+    {
+      "id": 572,
+      "line": 5,
+      "text": "ଧର୍ଷିତ ମାଟି ଉପରେ |",
+      "continues_after_danda": false
+    },
+    {
+      "id": 572,
+      "line": 18,
+      "text": "କାହାର ତ ଟିକେ ଆହା ବୋଲି ରୁହନ୍ତା |",
+      "continues_after_danda": false
+    },
+    {
+      "id": 572,
+      "line": 24,
+      "text": "ହରେଇ ବସୁଛି ମାଟି |",
+      "continues_after_danda": false
+    },
+    {
+      "id": 572,
+      "line": 26,
+      "text": "ବଞ୍ଚିବାର ସ୍ୱାଧୀନତା |",
+      "continues_after_danda": false
+    },
+    {
+      "id": 572,
+      "line": 33,
+      "text": "ପୃଥିବୀର ଏ ଖାଁ ଖାଁ ଅସୀମ ଶୂନ୍ୟତା |.",
+      "continues_after_danda": false
+    },
+    {
+      "id": 781,
+      "line": 7,
+      "text": "ବୟସର ବତାସ ନଥିବ ||",
+      "continues_after_danda": false
+    },
+    {
+      "id": 781,
+      "line": 9,
+      "text": "ନିଆଁ ଲାଗୁ ନଥିବ ||",
+      "continues_after_danda": false
+    },
+    {
+      "id": 781,
+      "line": 11,
+      "text": "ଭୁଶୁଡି ପଡ଼ିଥିବ ||",
+      "continues_after_danda": false
+    },
+    {
+      "id": 781,
+      "line": 16,
+      "text": "ଯେବେ ଘୋଟି ସାରିଥିବ ||",
+      "continues_after_danda": false
+    },
+    {
+      "id": 781,
+      "line": 20,
+      "text": "ଗଙ୍ଗାଜଳ ଧରି ||",
+      "continues_after_danda": false
+    },
+    {
+      "id": 781,
+      "line": 31,
+      "text": "ଏକ ଆତ୍ମିକ ପ୍ରେମରେ ||",
+      "continues_after_danda": false
+    }
+  ],
+  "straight_danda_joined_lines": 0,
+  "lineation_action": "No text changed. User clarified literal |. All occurrences already end lines; extra blank-line question awaiting answer. Unicode danda splitting prepared then discarded after clarification.",
+  "reader_parity": {
+    "preview": {
+      "source_records": 801,
+      "draft_versions": 1574,
+      "parity": "PASS",
+      "persistent_underline_control": "absent"
+    },
+    "public": {
+      "source_records": 801,
+      "draft_versions": 1574,
+      "parity": "PASS",
+      "persistent_underline_control": "absent"
+    }
+  },
+  "browser_checks": {
+    "widths": [
+      360,
+      1280
+    ],
+    "mobile_poem_art_width": "320/320 content px",
+    "mobile_issue_cover_width": "320/320 content px",
+    "mobile_portrait_width": "320/320 content px",
+    "horizontal_overflow": false,
+    "mobile_issue_and_contribution_cards": "PASS",
+    "issue_1_english_filter": "8 visible cards",
+    "desktop_table_layout": "preserved",
+    "selection_toolbar_underlining_and_reload_persistence": "PASS; test mark cleared",
+    "console_errors": []
+  },
+  "build": "PASS",
+  "source_integrity": "check_editions PASS",
+  "mark_regressions": "7/7 PASS",
+  "published": false
+}

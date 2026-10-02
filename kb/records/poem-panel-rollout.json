@@ -1,0 +1,39 @@
+{
+  "status": "applied_and_verified_locally",
+  "recorded_at": "2026-10-01T10:28:29.830250+00:00",
+  "authorization": {
+    "human": "Ahimanikya Satapathy",
+    "request": "We are good now apply to all pages",
+    "scope": "Approved poem-space mock, including tinted contents panel, consolidated related links, smaller titles and trackpad paging, on all poem pages"
+  },
+  "poem_pages": 801,
+  "edition_panels": 800,
+  "unassigned_poems": 1,
+  "preview": "http://127.0.0.1:8771/poem-8.html",
+  "changes": [
+    "Title cap48px desktop,32px mobile; long titles42px desktop; class follows selected translation",
+    "Tinted7% laterite edition contents panel under artwork; nearby poems in publication order, current poem marked, full edition link",
+    "Related links inside same panel with16px gap, faint divider and44px rows",
+    "Entire panel moves to Aa on mobile without duplicate links; unassigned poem keeps related-only panel",
+    "Horizontal trackpad gestures produce at most one turn per burst; touch swipe, popup dismissal and shared footer boat retained"
+  ],
+  "checks": {
+    "browser_assertions": 108,
+    "failures": 0,
+    "viewports": [
+      360,
+      820,
+      1280
+    ],
+    "source_integrity": "801 pages,47 edition datasets,804 content/artwork hashes and848 capture hashes unchanged",
+    "edition_navigation": "800 edition panels verified against publication order and routes; unassigned poem645 has no invented contents",
+    "public_build": "PASS",
+    "review": "same-assistant; independent false"
+  },
+  "limitations": [
+    "Physical Apple touch/trackpad audition remains pending; synthetic wheel tests do not certify device/browser history behaviour",
+    "Independent linguistic, accessibility and publication gates remain separate"
+  ],
+  "historical_mock": "Frozen source pages and quiet-reader assets under kb/artifacts/review/site/poem-space to retain the approved review independently of live template changes",
+  "published": false
+}

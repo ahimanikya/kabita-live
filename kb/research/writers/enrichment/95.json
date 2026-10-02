@@ -1,0 +1,73 @@
+{
+  "writer_id": 95,
+  "name": "Gopa Nayak",
+  "reviewed_on": "2026-10-01",
+  "batch": "research-024",
+  "status": "source_checked_local_draft",
+  "independent": false,
+  "portrait_action": "unchanged",
+  "reader_draft": {
+    "sections": [
+      {
+        "heading": "Life and writing.",
+        "language": "en",
+        "paragraphs": [
+          "Gopa Nayak writes poetry in English and Odia and translates Odia literature into English. Raised in Bhubaneswar, she pursued postgraduate study at Oxford, earning a DPhil. Her poetry collection Dissension appeared in 2011; her writing brings language, memory and the experience of living across cultures into conversation.",
+          "In Kabita Live, ‘Illusion’ asks whether love can be dismissed as unreal when taste, scent and touch make it so vividly present. ‘Shakuntala’ turns to a different kind of remembering: a woman speaks through the roles assigned to her by myth, questioning abandonment and insisting on her own account of motherhood and identity."
+        ]
+      }
+    ],
+    "books": [],
+    "sources": [
+      {
+        "label": "Gopa Nayak — contributor biography, Times of India",
+        "url": "https://timesofindia.indiatimes.com/blogs/author/gopa-nayak/"
+      },
+      {
+        "label": "Dissension — Cyberwit publisher listing",
+        "url": "https://www.cyberwit.net/publications/277"
+      }
+    ],
+    "reviewed_on": "2026-10-01"
+  },
+  "sources": [
+    {
+      "label": "Gopa Nayak — contributor biography, Times of India",
+      "url": "https://timesofindia.indiatimes.com/blogs/author/gopa-nayak/",
+      "supports": [
+        "English/Odia writing; Odia-to-English translation; Oxford DPhil; cross-cultural background"
+      ],
+      "access": "opened_page",
+      "accessed_on": "2026-10-01"
+    },
+    {
+      "label": "Dissension — Cyberwit publisher listing",
+      "url": "https://www.cyberwit.net/publications/277",
+      "supports": [
+        "2011 collection; Bhubaneswar upbringing; Oxford study"
+      ],
+      "access": "search_index; direct fetch failed",
+      "accessed_on": "2026-10-01"
+    }
+  ],
+  "identity_match": "Captured bilingual languages, Oxford education and Jindal affiliation match contributor biography; publisher agrees on Oxford and Odisha background.",
+  "poems_read": [
+    {
+      "id": 72,
+      "title": "Illusion",
+      "basis": "Full original read: sensory memories make love tangible against the claim of illusion."
+    },
+    {
+      "id": 702,
+      "title": "Shakuntala",
+      "basis": "Full original read: repeated rebirth refrain, mythic roles, abandonment, motherhood and self-definition."
+    }
+  ],
+  "limitations": [
+    "Current director title not asserted: contributor bio may be dated; current university appointment not established.",
+    "Publisher listing corroborated in search index, but direct fetch failed; no reader book link added.",
+    "Poem speakers are not treated as biographical testimony.",
+    "Same-assistant research and close reading; independent author/editor factual review pending."
+  ],
+  "next_action": "Author/editor to confirm current biography and publication details."
+}

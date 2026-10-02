@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "title": "Kabita Live homepage review",
+  "groups": [
+    {
+      "id": "opening",
+      "title": "1 · Opening",
+      "status": "unreviewed",
+      "heading": "An invitation, sooner.",
+      "description": "Compare only the opening hierarchy. Keep the signature, artwork, translation and English quotation. On phones, A and B put the reading button before the image.",
+      "variants": [
+        "Current homepage",
+        "A · Earlier invitation — recommended",
+        "B · Give the quotation its own pause"
+      ],
+      "checks": [
+        "Use 360px to compare when Read this issue becomes visible.",
+        "A keeps a quieter quotation in the opening; B moves it below the featured poems.",
+        "The artwork and Odia signature stay unchanged."
+      ]
+    },
+    {
+      "id": "excerpts",
+      "title": "2 · Poem excerpts",
+      "status": "unreviewed",
+      "heading": "Enough words to invite you in.",
+      "description": "Compare original-language excerpts from the same three poems. No poem is rewritten.",
+      "variants": [
+        "Current homepage",
+        "A · Four-line openings — recommended",
+        "B · Short, complete images"
+      ],
+      "checks": [
+        "A extends each excerpt to four lines, preserving stanza breaks.",
+        "B keeps a short image for Odia and English, and the closing thought for Hindi.",
+        "Judge the words, then their visual rhythm across three scripts."
+      ]
+    },
+    {
+      "id": "poets",
+      "title": "3 · Poet presence",
+      "status": "unreviewed",
+      "heading": "Meet the person in the poem.",
+      "description": "Compare the repeated poet strip with portraits inside the poem cards, or a separate spotlight on a different poet.",
+      "variants": [
+        "Current homepage",
+        "A · Portrait bylines — recommended",
+        "B · A different poet in the spotlight"
+      ],
+      "checks": [
+        "A removes the repeated strip and adds a small portrait beside each byline.",
+        "B retains text bylines and introduces Pravakar Satapathy below the poems.",
+        "The spotlight uses his own exact poem excerpt and actual contribution count."
+      ]
+    },
+    {
+      "id": "editions",
+      "title": "4 · Recent editions",
+      "status": "unreviewed",
+      "heading": "A lighter shelf of editions.",
+      "description": "Desktop keeps three covers. The alternatives change only the phone layout and the amount of cover-story detail on the homepage.",
+      "variants": [
+        "Current homepage",
+        "A · One cover, two compact entries — recommended",
+        "B · Three compact illustrated entries"
+      ],
+      "checks": [
+        "Switch to 360px; the current three full covers require considerable scrolling.",
+        "Full cover art and cultural stories remain on the edition pages.",
+        "A preserves one large current cover; B treats all three editions equally."
+      ]
+    },
+    {
+      "id": "spacing",
+      "title": "5 · Page rhythm",
+      "status": "unreviewed",
+      "heading": "Room to breathe, less distance to travel.",
+      "description": "Compare section spacing across the complete homepage. Typography, content and reading line height are preserved.",
+      "variants": [
+        "Current homepage",
+        "A · Balanced spacing — recommended",
+        "B · Close reading"
+      ],
+      "checks": [
+        "Current section padding is 54px above and below. A uses 36px desktop / 28px phone; B uses 28px / 20px.",
+        "Read through the preview to compare transitions.",
+        "This does not apply the separate poem or poet recommendations."
+      ]
+    },
+    {
+      "id": "editors",
+      "title": "6 · Editors & footer",
+      "status": "unreviewed",
+      "heading": "The people, simply introduced.",
+      "description": "Current retains portraits, roles and short descriptions. A makes the editor introduction more compact. B lets an editorial quotation lead into it. The footer stays as approved.",
+      "variants": [
+        "Current homepage",
+        "A · Portrait, name and role",
+        "B · Quotation before the editors"
+      ],
+      "checks": [
+        "Current is a valid choice: I recommend retaining these brief introductions unless you prefer a shorter page.",
+        "A removes only the short descriptive sentences.",
+        "B relocates the existing English quotation here; it does not duplicate it."
+      ]
+    },
+    {
+      "id": "intro",
+      "title": "7 · Journal introduction",
+      "status": "unreviewed",
+      "heading": "Make the welcome clear.",
+      "description": "Compare where to explain that Kabita Live is a monthly multilingual poetry journal. This replaces existing metadata rather than adding another section.",
+      "variants": [
+        "Current homepage",
+        "A · One clear sentence — recommended",
+        "B · A shorter journal descriptor"
+      ],
+      "checks": [
+        "A: A monthly journal of Odia, Hindi and English poetry.",
+        "B: Monthly poetry · Odia, Hindi & English.",
+        "Both integrate the 16-poem count into the issue line, preserving the useful fact."
+      ]
+    },
+    {
+      "id": "links",
+      "title": "8 · Reading links",
+      "status": "unreviewed",
+      "heading": "Easy to notice. Easy to touch.",
+      "description": "Compare the present links with larger touch areas. These changes are scoped to homepage content links.",
+      "variants": [
+        "Current homepage",
+        "A · Quiet underlines, generous targets — recommended",
+        "B · Named reading links"
+      ],
+      "checks": [
+        "A preserves Read the poem and quietly adds space around the author link.",
+        "B uses Read ଦୋକାନ, Read क्षणिका and Read Drink to make each destination explicit.",
+        "Both target at least 44px for byline and reading links; normal font sizes remain."
+      ]
+    },
+    {
+      "id": "delivery",
+      "title": "9 · Image loading",
+      "status": "unreviewed",
+      "heading": "The same portraits, a lighter page.",
+      "description": "This is a delivery choice, not a new art direction. All previews use the existing images. The two editor originals total about 790KB; smaller derivatives will be produced only when the delivery approach is implemented.",
+      "variants": [
+        "Current homepage",
+        "A · Responsive 1× / 2× thumbnails — recommended",
+        "B · One 2× thumbnail per editor"
+      ],
+      "checks": [
+        "Appearance stays the same. There is no simulated speed claim in this preview.",
+        "A serves smaller files for standard-density screens and sharper ones for high-density screens.",
+        "B uses one sharper file everywhere. Original masters are preserved in either option."
+      ]
+    }
+  ]
+}

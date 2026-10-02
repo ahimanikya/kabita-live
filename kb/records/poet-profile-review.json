@@ -1,0 +1,67 @@
+{
+  "status": "reviewed_awaiting_discussion",
+  "recorded_at": "2026-10-01T11:23:28.095464+00:00",
+  "independent": false,
+  "page_type": "Poet profile",
+  "reviewed_examples": [
+    "poet-dokana.html",
+    "poet-kshanika.html",
+    "poet-drink.html",
+    "poet-56.html",
+    "poet-347.html",
+    "poet-233.html"
+  ],
+  "retain": [
+    "Approved fonts, cotton paper and colour scheme",
+    "Portrait, source-exact quote and linked citation",
+    "Books below portrait on desktop",
+    "Count integrated into contribution heading",
+    "Mobile contribution cards, shared header and artistic footer icons"
+  ],
+  "findings": [
+    {
+      "id": "POET-01",
+      "finding": "Mobile poem list begins at1768px for Narmada,2521px for Majrooh and2660px for Debarati at360px width.",
+      "proposal": "Tighten gaps, remove repeated contribution-summary prose and discuss a short introduction with expandable full biography for unusually long profiles. Do not restore previously removed top jump links without approval."
+    },
+    {
+      "id": "POET-02",
+      "finding": "From the journal is a full heading for Cuttack on Narmada; missing biographies use a generic introduction directly before another similar contribution heading.",
+      "proposal": "Use a compact historical publication detail where meaningful and omit generic filler when no biography is available. Preserve captured evidence and distinguish historical locations from current residence."
+    },
+    {
+      "id": "POET-03",
+      "finding": "Mobile cards repeat Edition and Published with separate metadata columns.",
+      "proposal": "Poem title followed by a single linked metadata line, e.g. Issue47 · September2026. Keep font readable and adequate touch targets."
+    },
+    {
+      "id": "POET-04",
+      "finding": "Three profiles use initials; Manju has a320px square placeholder at360px, overwhelming sparse content. Three profiles have no linked poems.",
+      "proposal": "Use a modest initials treatment and retain an honest compact empty state; reconcile unlinked contributions separately."
+    },
+    {
+      "id": "POET-05",
+      "finding": "Majrooh has three book-title links all targeting the same university CV PDF. They are source references rather than book destinations.",
+      "proposal": "Keep titles as text unless a genuine book destination is verified; consolidate CV provenance in central credits."
+    }
+  ],
+  "checks": {
+    "author_checker": "PASS:429 profiles,800 contribution links,424 quote profiles;0 errors",
+    "desktop": "Narmada at1280x720;one footer,no horizontal overflow",
+    "mobile": "Six profiles at360px;no horizontal overflow or broken images in recorded loaded cases;contributions render as cards",
+    "languages": "Odia,Hindi andEnglish quote examples inspected"
+  },
+  "limitations": [
+    "No design changes applied.",
+    "Same-assistant review, not independent review.",
+    "Live external reachability and full keyboard/screen-reader/enlarged-text testing not completed.",
+    "Most profiles retain source photographs; only4 new artistic portraits are recorded."
+  ],
+  "evidence": [
+    "evidence/poet-profile-review/mobile-snapshots.json",
+    "evidence/poet-profile-review/desktop-opening.png",
+    "evidence/poet-profile-review/check.html",
+    "records/author-page-verification.json"
+  ],
+  "publication_authorized": false
+}

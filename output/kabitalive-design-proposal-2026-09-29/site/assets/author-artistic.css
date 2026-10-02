@@ -1,0 +1,6 @@
+/* Established Earth & Voice marks; preserve the writer's words and identity. */
+.author-artistic-mark{display:inline-block;width:25px;height:25px;margin-right:10px;vertical-align:baseline;color:var(--rust)}
+.author-clear .editor-biography h2:has(.author-artistic-mark),.author-clear .writer-work h2:has(.author-artistic-mark){text-wrap:pretty}
+.author-clear .author-portrait,.author-clear .author-initials{box-sizing:border-box;padding:12px;background:var(--paper);border:1px solid var(--line);border-bottom:3px solid var(--rust);box-shadow:5px 6px 0 color-mix(in srgb,var(--rust) 7%,transparent)}
+.author-clear .author-portrait img{display:block}
+@media(max-width:600px){.author-clear .author-portrait,.author-clear .author-initials{padding:8px;box-shadow:3px 4px 0 color-mix(in srgb,var(--rust) 7%,transparent)}}

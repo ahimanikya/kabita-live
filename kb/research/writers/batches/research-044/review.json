@@ -1,0 +1,36 @@
+{
+  "batch": "research-044",
+  "status": "verified",
+  "independent": false,
+  "writer_ids": [
+    34,
+    468,
+    453,
+    426,
+    366
+  ],
+  "reader_drafts": 5,
+  "externally_corroborated": 3,
+  "source_limited": [
+    34,
+    468
+  ],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "PASS",
+    "editions": "PASS",
+    "preserved_source_files": 805,
+    "existing_narratives_preserved": 225,
+    "rendered_narratives": 5,
+    "browser_visual": "Not repeated; prose/data only, approved renderer unchanged."
+  },
+  "limitations": [
+    "Independent author/editor review pending.",
+    "34 and 468 remain source-limited: public same-name records are not securely linked to captured contributions.",
+    "453 journal contributor identity corroborated; direct PDF retrieval failed, indexed source access recorded. Unverified book card omitted.",
+    "426 Mainichi attribution is via Triveni selection; known duplicate poem 645/650 preserved.",
+    "366 conflicting dated book totals and unverified awards excluded."
+  ],
+  "resume": "research-045",
+  "publication": "No deployment or push."
+}

@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-02T05:25:50.718430+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "Poems and Current issues page should same artistic treatment other three top level pages",
+  "scope": [
+    "poems.html",
+    "current issue route, currently issue-47.html"
+  ],
+  "changes": [
+    "Applied existing kendu/manuscript icons in opening labels; current issue Browse poems uses the artistic manuscript.",
+    "Poems preserves its heading and watercolor, with catalogue-driven poetic introduction, existing small waterline and compact225x150px mobile art.",
+    "Current issue retains approved date,cover,story,cultural context and contents; adds original115x23px waterline between opening actions and story.",
+    "Uses latest catalogue edition for current-issue treatment. Earlier46edition designs retained."
+  ],
+  "checks": [
+    "Node24 public build passed1307routes,1306indexed pages.",
+    "Desktop1280px and mobile390px inspected; no horizontal overflow.",
+    "Mobile Poems illustration225x150px verified.",
+    "Search Drink returns15matches; no search behavior changes.",
+    "Browse poems focuses edition-poems;16contents rows retained.",
+    "All799Poems rows retained; other46editions and all content/data hashes unchanged.",
+    "Edition checker passed47editions/848source hashes."
+  ],
+  "evidence": [
+    "artifacts/review/artistic-reading-pages/poems-desktop.png",
+    "artifacts/review/artistic-reading-pages/issue-desktop.png",
+    "artifacts/review/artistic-reading-pages/poems-mobile.png",
+    "artifacts/review/artistic-reading-pages/issue-mobile.png",
+    "artifacts/review/artistic-reading-pages/integrity.json"
+  ],
+  "independent": false,
+  "limitations": [
+    "Same-assistant visual and functional review; no external publication.",
+    "Earlier edition pages retain their prior approved opening design."
+  ],
+  "next_action": "User reviews the applied artistic treatment on Poems and Current issue."
+}

@@ -1,0 +1,111 @@
+{
+  "writer_id": 318,
+  "name": "Ranu Uniyal",
+  "reviewed_on": "2026-10-01",
+  "batch": "research-056",
+  "status": "source_checked_local_draft",
+  "independent": false,
+  "portrait_action": "unchanged",
+  "reader_draft": {
+    "sections": [
+      {
+        "heading": "Life and writing.",
+        "language": "en",
+        "paragraphs": [
+          "Ranu Uniyal writes poetry in English and Hindi. Her university biography records her work in English at the University of Lucknow and a doctorate from the University of Hull. Her academic interests include women’s writing, disability studies and poetry. Her collections include Across the Divide, December Poems, The Day We Went Strawberry Picking in Scarborough and Saeeda Ke Ghar.",
+          "The opening passage of “Plums versus Pullum” recalls fruit from Ranikhet, the streets of Almora and a mother’s kitchen. “At Kedarnath” turns to the force of a flood, using the imagery of Shiva and a river’s voice to question human disregard for the natural world."
+        ]
+      }
+    ],
+    "books": [
+      {
+        "title": "The Day We Went Strawberry Picking in Scarborough",
+        "detail": "English poetry; Dhauli Books, 2018. Listed in the author’s university bibliography.",
+        "url": "https://udrc.lkouniv.ac.in/Content/FacultyCV/CV_134.pdf#page=3"
+      },
+      {
+        "title": "Saeeda Ke Ghar",
+        "detail": "Hindi poetry; Rashmi Prakashan, 2021. Review in Rhetorica Quarterly.",
+        "url": "https://www.lkouniv.ac.in/site/writereaddata/siteContent/202206091043553258Rhetorica_Vol_II_Issue_III_1.pdf"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Ranu Uniyal — author biography",
+        "url": "https://ranuuniyal.com/about/"
+      },
+      {
+        "label": "University of Lucknow — Ranu Uniyal Pant CV",
+        "url": "https://udrc.lkouniv.ac.in/Content/FacultyCV/CV_134.pdf"
+      },
+      {
+        "label": "Rhetorica Quarterly — Saeeda Ke Ghar review",
+        "url": "https://www.lkouniv.ac.in/site/writereaddata/siteContent/202206091043553258Rhetorica_Vol_II_Issue_III_1.pdf"
+      }
+    ],
+    "reviewed_on": "2026-10-02"
+  },
+  "sources": [
+    {
+      "label": "Ranu Uniyal — author biography",
+      "url": "https://ranuuniyal.com/about/",
+      "supports": "English/Hindi poet, Lucknow/Hull academic background, research interests and four named poetry books.",
+      "access": "opened_page",
+      "accessed_on": "2026-10-01"
+    },
+    {
+      "label": "University of Lucknow — Ranu Uniyal Pant CV",
+      "url": "https://udrc.lkouniv.ac.in/Content/FacultyCV/CV_134.pdf",
+      "supports": "Opened university CV, pages 1–4: institution, qualifications, specializations and dated book bibliography.",
+      "access": "opened_page",
+      "accessed_on": "2026-10-01"
+    },
+    {
+      "label": "Rhetorica Quarterly — Saeeda Ke Ghar review",
+      "url": "https://www.lkouniv.ac.in/site/writereaddata/siteContent/202206091043553258Rhetorica_Vol_II_Issue_III_1.pdf",
+      "supports": "Indexed printed page 82 names Ranu Uniyal, publisher Rashmi Prakashan, 2021, Hindi and ISBN 9789391326050.",
+      "access": "search_index",
+      "accessed_on": "2026-10-01"
+    }
+  ],
+  "identity_match": "University, bilingual poetry, two originally captured book titles and author website agree; institutional CV uses fuller name Ranu Uniyal Pant.",
+  "poems_read": [
+    {
+      "id": 635,
+      "title": "At Kedarnath",
+      "coverage": "Complete original, all three stanzas",
+      "basis": "Flood, temple/Shiva/Nandi, personified river and final challenge to human treatment of nature."
+    },
+    {
+      "id": 390,
+      "title": "Plums versus Pullum",
+      "coverage": "Complete captured text including second block beginning When People stop listening",
+      "basis": "Fruit name, taste, mother’s kitchen and stains; second block moves into flowers, ashes, silence and withheld grief."
+    }
+  ],
+  "limitations": [
+    "Author website contains two/four counts, placeholder text, malformed book links and unrelated Devrani Jethani prose under Saeeda Ke Ghar. University bibliography/review used for titles instead.",
+    "Spanish translation dates differ between author and institutional records; omitted from new narrative.",
+    "Second block of 390 may be a separately titled poem; source left intact and not silently reclassified.",
+    "At Kedarnath discussed as poetic representation, not verified disaster chronology or river geography.",
+    "Same-assistant research and close reading; independent author/editor factual review pending."
+  ],
+  "research_leads": [
+    {
+      "url": "https://ranuuniyal.com/saeeda-ke-ghar-book/",
+      "finding": "Opened; incorrect unrelated book review mixed with Saeeda excerpts. Not suitable as selected book link."
+    }
+  ],
+  "next_action": "Author/editor review; clarify poem 390’s embedded title boundary without altering capture.",
+  "editorial_resolution": {
+    "recorded_at": "2026-10-02T11:39:43.161399+00:00",
+    "user_direction": "Can we apply them all",
+    "findings": [
+      "KBL-WA-016"
+    ],
+    "changes": [
+      "Attributed academic affiliation to university biography and restricted Plums commentary to its opening passage."
+    ],
+    "independent_factual_review": "not_certified"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-02T07:53:01.889431+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "User asked for better layout and space management in the edition contents transition, retaining the current direction.",
+  "changes": [
+    "Reduced combined edition-opening/contents gap from 60px to 32px on desktop, and to 24px on mobile.",
+    "Tightened shared actions-to-heading gap to 4px; desktop heading-to-list gap to 8px and first-row top padding to 16px.",
+    "Retained actions above heading, approved fonts, artwork and mobile card padding; mobile heading wraps safely."
+  ],
+  "checks": [
+    "Public Astro build passed.",
+    "Edition checker passed for 47 editions and 848 source hashes.",
+    "871 content/source files unchanged.",
+    "Desktop first poem content moves 59px higher; mobile 390px has no horizontal overflow and toolbar remains on one row.",
+    "Reader tools opens and closes on mobile."
+  ],
+  "evidence": [
+    "artifacts/review/contents-spacing/desktop.png",
+    "artifacts/review/contents-spacing/mobile.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "Local responsive browser checks; no publication."
+  ]
+}

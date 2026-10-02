@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Reader tools check</title><style>body{font:15px system-ui}button{padding:12px}iframe{width:360px;height:740px;display:block}pre{white-space:pre-wrap}</style><button id="run">Check reading tools</button><pre id="results">Ready.</pre><iframe src="/poem-reading-mock.html?focus=1" title="Reading tools test"></iframe><script type="module">
+import {normalized} from '/assets/poem-marks.mjs?v=2';
+const frame=document.querySelector('iframe'),results=document.querySelector('#results'),tick=(ms=120)=>new Promise(r=>setTimeout(r,ms));
+document.querySelector('#run').onclick=async()=>{
+ const d=frame.contentDocument,w=frame.contentWindow,checks=[],failures=[],backup=new Map(),data=JSON.parse(d.querySelector('#focus-edition-data').textContent);
+ const keys=['kabita-live-quiet-reader-review-v1','kabita-live-quiet-tools-review-v1','kabita-live-quiet-bookmarks-review-v1',...data.poems.flatMap(p=>Object.keys(p.variants).map(c=>`kbl-quiet-review-marks-v1:${p.id}:${c}`))];
+ keys.forEach(k=>{backup.set(k,w.localStorage.getItem(k));w.localStorage.removeItem(k)});
+ const check=(name,pass)=>{checks.push({name,pass:!!pass});if(!pass)failures.push(name)};
+ function set(id,value){const e=d.querySelector(id);e.value=value;e.dispatchEvent(new Event('change',{bubbles:true}))}
+ function select(line,start,end){const r=d.createRange(),walker=d.createTreeWalker(line,NodeFilter.SHOW_TEXT);let n,offset=0,a,b;while(n=walker.nextNode()){if(!a&&start<=offset+n.length)a=[n,start-offset];if(end<=offset+n.length){b=[n,end-offset];break}offset+=n.length}r.setStart(...a);r.setEnd(...b);w.getSelection().removeAllRanges();w.getSelection().addRange(r);d.dispatchEvent(new Event('selectionchange'))}
+ function markText(){return [...d.querySelectorAll('#focus-pages .focus-pencil')].map(n=>n.textContent).join('')}
+ try{
+  await d.fonts.ready;
+  if(!d.querySelector('#focus-reader').open)d.querySelector('#open-focus').click();
+  check('Sound defaults off',!d.querySelector('#focus-sound').checked);
+  for(const code of ['or','hi','en']){
+   set('#focus-poem',String(data.poems.findIndex(p=>p.id===8)));set('#focus-language',code);
+   let line=d.querySelector('#focus-pages .focus-line'),text=line.textContent;
+   const expected=normalized([{line:0,start:1,end:Math.min(9,text.length)}],[text],code)[0];
+   select(line,1,Math.min(9,text.length));await tick();check(code+' selection toolbar appears',!d.querySelector('#focus-selection-tools').hidden);
+   d.querySelector('#focus-mark').click();check(code+' partial underline uses whole graphemes',markText()===text.slice(expected.start,expected.end));
+   set('#focus-size','30');check(code+' underline survives type reflow',markText()===text.slice(expected.start,expected.end));
+   d.querySelector('#focus-next').click();d.querySelector('#focus-prev').click();check(code+' underline survives page turn',markText()===text.slice(expected.start,expected.end));
+   line=d.querySelector('#focus-pages .focus-line');select(line,expected.start,expected.end);await tick();d.querySelector('#focus-erase').click();check(code+' underline removal',!markText());set('#focus-size','22');
+  }
+  set('#focus-language','en');let line=d.querySelector('#focus-pages .focus-line');const quote=line.textContent.slice(0,4);select(line,0,4);await tick();d.querySelector('#focus-mark').click();
+  set('#focus-language','hi');check('Underlines do not leak into translations',!markText());set('#focus-language','en');check('Return to language restores underline',markText()===quote);
+  // Reload via navigation preserves actual device-local marks and bookmarks.
+  d.querySelector('#focus-bookmark').click();check('Bookmark toggles on',d.querySelector('#focus-bookmark').getAttribute('aria-pressed')==='true');
+  set('#focus-size','30');check('Bookmark survives reflow',d.querySelector('#focus-bookmark').getAttribute('aria-pressed')==='true');
+  d.querySelector('#focus-settings-button').click();d.querySelector('#focus-saved').open=true;
+  check('Saved places and passages listed',d.querySelectorAll('.focus-saved-row').length===2);
+  const passage=d.querySelectorAll('.focus-saved-row')[1].querySelector('button');passage.click();check('Saved passage jumps to poem and closes settings',d.querySelector('#focus-settings').hidden&&!!markText());
+  d.querySelector('#close-focus').click();d.querySelector('#open-focus').click();await tick();check('Reopen restores saved passage',markText()===quote);
+  d.querySelector('#focus-bookmark').click();check('Bookmark toggles off',d.querySelector('#focus-bookmark').getAttribute('aria-pressed')==='false');
+  // Test units after recovered inline breaks retain original-line offsets.
+  const pi=data.poems.findIndex(p=>p.variants.or?.inline_breaks?.length);
+  if(pi>=0){set('#focus-poem',String(pi));set('#focus-language','or');let found=false;
+   for(let i=0;i<30;i++){
+    const unit=[...d.querySelectorAll('#focus-pages .focus-line')].find(e=>Number(e.dataset.start)>0);
+    if(unit){const text=unit.textContent;select(unit,0,Math.min(8,text.length));await tick();d.querySelector('#focus-mark').click();const key=`kbl-quiet-review-marks-v1:${data.poems[pi].id}:or`,saved=JSON.parse(w.localStorage.getItem(key));check('Recovered inline unit saves original source offset',saved[0].start>=Number(unit.dataset.start));found=true;break}
+    if(d.querySelector('#focus-next').getAttribute('aria-label')==='Next poem')break;d.querySelector('#focus-next').click();
+   }check('Recovered inline unit exercised',found);
+  }
+  // Settings remain inside even the smallest phone and scroll, not clip.
+  frame.style.width='320px';frame.style.height='640px';await tick(180);d.querySelector('#focus-settings-button').click();const rect=d.querySelector('#focus-settings').getBoundingClientRect();check('320px settings stay inside viewport',rect.left>=0&&rect.right<=320&&rect.bottom<=640);
+  results.textContent=JSON.stringify({state:'complete',checks,failures},null,2);
+ }catch(e){results.textContent=JSON.stringify({state:'failed',error:e.message,checks,failures},null,2)}finally{d.querySelector('#close-focus').click();for(const [key,value] of backup){if(value===null)w.localStorage.removeItem(key);else w.localStorage.setItem(key,value)}}
+};
+</script></html>

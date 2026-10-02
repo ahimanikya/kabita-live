@@ -1,0 +1,19 @@
+/* One mobile rule for inner-page artwork; portraits, icons and footer signatures
+   retain their own sizing. Keep the whole illustration visible, without cropping. */
+@media(max-width:760px){
+ body #main :is(.archive-opening,.poets-opening){display:grid;grid-template-columns:minmax(0,1fr);gap:20px}
+ body #main :is(.opening-art,.poem-art,.edition-cover){
+  width:100%!important;max-width:none!important;height:auto!important;max-height:none!important;
+  margin-left:0!important;margin-right:0!important;justify-self:stretch;min-width:0;
+ }
+ body #main .opening-art{position:static;aspect-ratio:auto;overflow:visible}
+ body #main :is(.opening-art,.poem-art)>img,
+ body #main :is(.archive-opening,.poets-opening)>img{
+  display:block!important;width:100%!important;max-width:none!important;
+  height:auto!important;max-height:none!important;aspect-ratio:auto;
+  object-fit:contain;transform:none;margin-left:0;margin-right:0;
+ }
+ body #main .edition-cover>.cover{width:100%;max-width:none}
+ body #main .archive-gallery{grid-template-columns:minmax(0,1fr)}
+ body #main .archive-gallery :is(.photo-cover,.edition-identity){width:100%;max-width:none}
+}

@@ -1,0 +1,81 @@
+{
+  "status": "approved-and-applied",
+  "scope": "Clear story applied to 427 author pages; existing editor profiles preserved.",
+  "findings": [
+    {
+      "priority": "high",
+      "finding": "Recent-poem sidebar duplicates the contribution table.",
+      "proposal": "Remove duplicate sidebar in all three candidates."
+    },
+    {
+      "priority": "medium",
+      "finding": "Eyebrow, deck, repeated count and multiple jump links compete with the name and writing.",
+      "proposal": "Keep identity, native-script name, signature and one reading link."
+    },
+    {
+      "priority": "medium",
+      "finding": "Long biographies delay the poem table.",
+      "proposal": "Option B moves poems first and offers the biography below in a disclosure; A preserves a readable story-first order."
+    },
+    {
+      "priority": "medium",
+      "finding": "Large portrait opening creates more scrolling.",
+      "proposal": "Option C trials a compact portrait; current 60/40 standard remains approved until selection."
+    }
+  ],
+  "options": {
+    "a": "Clear story — recommended",
+    "b": "Poems first",
+    "c": "Compact portrait"
+  },
+  "preserved": [
+    "full biographies",
+    "all contribution rows",
+    "local poem and edition links",
+    "approved typography, colours, paper and quiet table",
+    "masthead and footer"
+  ],
+  "verification": {
+    "width": 360,
+    "combinations": 12,
+    "horizontal_overflow": false,
+    "one_h1": true,
+    "biography_disclosure": "operates successfully",
+    "desktop": "visual inspection of all three options"
+  },
+  "external_links": {
+    "unique_content_urls": 30,
+    "responded": 22,
+    "unresolved_after_retry": 8,
+    "confirmed_404_or_410": 0,
+    "status": "not-clear",
+    "report": "records/external-link-audit.json"
+  },
+  "recommendation": "A removes repetition while retaining the established portrait-led character. B prioritizes immediate reading. C needs a deliberate change to the approved banner proportions.",
+  "selected_option": "a",
+  "refinements": [
+    "Removed Sources and portrait credit from author pages; colophon preserved",
+    "Removed bottom All writers and Explore the editions links",
+    "Removed Read the poems jump link",
+    "Restored visible book links and original quiet external marks",
+    "Selected books restored to the right column beneath the portrait, biography left; stacks at 600px."
+  ],
+  "implementation_verification": {
+    "profiles": 429,
+    "author_pages_updated": 427,
+    "contribution_links": 800,
+    "build": "PASS",
+    "mobile_width": 360,
+    "profiles_checked": [
+      "82",
+      "337",
+      "257",
+      "56",
+      "233",
+      "347"
+    ],
+    "horizontal_overflow": false,
+    "removed_links_present": false,
+    "books_placement": "Desktop aligned with portrait right edge; 360px single column without overflow for both book-bearing profiles."
+  }
+}

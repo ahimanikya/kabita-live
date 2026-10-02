@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-10-02T02:50:04.562367+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "approved_applied_verified",
+  "independent": false,
+  "url": "http://127.0.0.1:8771/submit-polish-mock.html",
+  "request": "Similar artistic treatment for Send a poem page and review other needs.",
+  "findings": [
+    "Original mobile layout puts large art and all guidance before email action.",
+    "Plain mailto has no detail prompts; webmail needs copyable address.",
+    "Submission limits,file formats,response times and acceptance policy not specified; editorial confirmation required before adding any."
+  ],
+  "changes": [
+    "Poetic invitation and existing artistic pen,manuscript,leaf,envelope icons.",
+    "Smaller mobile artwork and email action before guidance.",
+    "Prefilled editable email draft with title,name,language,translation credit,previous publication,poem,biography,contact.",
+    "Visible address and copy-address button with success/failure status.",
+    "Preserved destination email,three-language scope and no automatic sending."
+  ],
+  "checks": [
+    "390pxmobile inspected,nooverflow,50pxbutton at709px including review bar.",
+    "Desktop1101px layout inspected,nooverflow.",
+    "Local destinations,encoded mailto subject/body/recipient verified.",
+    "Original submit.html hash unchanged."
+  ],
+  "limitations": [
+    "No email opened or sent; mail-client compatibility not tested.",
+    "Clipboard interaction not exercised to avoid replacing user clipboard; fallback included.",
+    "Requested1440px viewport did not apply to original preview tab; fresh tab actual1101px inspected.",
+    "No production changes or publication."
+  ],
+  "evidence": [
+    "artifacts/review/submission-polish/mobile.png",
+    "artifacts/review/submission-polish/desktop.png",
+    "artifacts/review/submission-polish/source-integrity.json"
+  ],
+  "next_action": "Discuss Our Story review findings before preparing changes.",
+  "approval": "All good let's apply and move to next item",
+  "application_record": "records/submission-polish-applied.json"
+}

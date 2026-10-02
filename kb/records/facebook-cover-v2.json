@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-09-30T08:52:29.532342+00:00",
+  "work_ref": "KBL-WORK-016",
+  "decision_ref": "KBL-DEC-025",
+  "authorization": "Can we use better cover image - create one if required",
+  "status": "published_and_verified",
+  "generation_mode": "Built-in image_gen tool; one image generation using previous cover as brand reference.",
+  "asset": "artifacts/social/facebook-2026-09-30/cover-v2.png",
+  "sha256": "d85e13c6afe1132189fef3f9c1386fe9381834beb0d2ff38d2a8bda02ecc1ee7",
+  "prompt": "artifacts/social/facebook-2026-09-30/cover-v2-prompt.txt",
+  "caption": "artifacts/social/facebook-2026-09-30/cover-v2-caption.txt",
+  "reference": "artifacts/social/facebook-2026-09-30/cover.png",
+  "original_preserved": true,
+  "concept": "Continuous watercolor panorama: an Odisha-inspired river at dawn, open poetry book, warm cotton-paper light and existing brand text.",
+  "facebook_photo_url": "https://www.facebook.com/photo/?fbid=122096979759498224&set=a.122096972637498224",
+  "verification": [
+    "Inspected generated artwork and compared branding and signature with existing cover.",
+    "Adjusted Facebook crop upward with three ArrowUp steps before saving.",
+    "Observed new cover photo URL, saved caption and Facebook AI content label."
+  ],
+  "evidence": [
+    "artifacts/social/facebook-2026-09-30/facebook-cover-v2-live.png"
+  ],
+  "independent_review": false,
+  "limitations": [
+    "Same-assistant visual review; not native-language certification.",
+    "Desktop Facebook crop checked; mobile device view not separately tested."
+  ],
+  "website_linking": "Deferred until migration; no site files changed."
+}

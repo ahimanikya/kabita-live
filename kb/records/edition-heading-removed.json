@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-02T08:56:23.794826+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "Remove Within these pages from edition pages too.",
+  "changes": [
+    "Removed visible contents heading from all 47 editions.",
+    "Moved All editions link into existing reading-actions row.",
+    "Retained edition-poems jump target and keyboard focus on the named contents section."
+  ],
+  "checks": [
+    "Public build and edition integrity passed.",
+    "All 47 generated editions have no removed heading, one jump target and retained archive link.",
+    "Desktop 1280px and mobile 390px toolbar fits one 44px row without overflow.",
+    "Browse poems focuses edition-poems.",
+    "871 content/source files unchanged."
+  ],
+  "evidence": [
+    "artifacts/review/edition-heading-removed/desktop.png",
+    "artifacts/review/edition-heading-removed/mobile.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "Local preview only; no publication."
+  ]
+}

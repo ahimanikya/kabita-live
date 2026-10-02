@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-10-02T01:50:03.746448+00:00",
+  "work_ref": "KBL-WORK-004",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "status": "approved_applied",
+  "user_direction": "One year control, Covers only, simple/elegant, poetic copy and artistic icons where appropriate; consider same tone for poet directory.",
+  "urls": [
+    "http://127.0.0.1:8771/archive-polish-mock.html",
+    "http://127.0.0.1:8771/poets-copy-mock.html"
+  ],
+  "changes": [
+    "One All years/2026–2022 button group; no dropdown, year tiles or list toggle",
+    "Retained Every issue, another beginning.; revised subtitle; removed redundant second heading",
+    "47 covers retained,12 shown initially; Show more editions appends12",
+    "Card month/year, issue and actual edition poem counts; stories remain on edition pages",
+    "Existing artistic manuscript mark in archive eyebrow and kendu leaf in companion poet eyebrow",
+    "Companion poet copy only; approved portrait cards preserved",
+    "Removed Archived entries section per explicit user direction; applied same removal to existing reader archive and removed archive labels/anchors from unavailable-poem notices."
+  ],
+  "checks": {
+    "desktop_mobile": "1440/390 archive inspected;390 no horizontal overflow and first cover544px from top; companion390 inspected",
+    "pagination": "12→24 and final47; button hidden when complete",
+    "year": "2022 gives2 and hides Show more; All resets12",
+    "scope": "Mock design remains pending; specific Archived entries removal applied to source builder and reader pages at user request.",
+    "structure": "47 cover cards, one year group, zero old select/view-toggle/story controls"
+  },
+  "evidence": [
+    "artifacts/review/archive/mock-desktop.png",
+    "artifacts/review/archive/mock-mobile.png",
+    "artifacts/review/archive/poets-copy-mobile.png"
+  ],
+  "limitations": [
+    "Same-assistant checks only; no publication or rollout.",
+    "No independent accessibility certification."
+  ],
+  "next_action": "Historical preview retained; review actual reader page for any remaining discrepancy.",
+  "updated_at": "2026-10-02T01:53:48.251525+00:00",
+  "application_record": "records/archive-design-approval.json",
+  "current_reconciliation": {
+    "recorded_at": "2026-10-02T05:05:32.791691+00:00",
+    "record": "records/approval-application-audit.json",
+    "note": "Historical mock scope and check results retained below; use linked application record for current status."
+  },
+  "companion_poet_copy_application": "records/approval-application-audit.json"
+}

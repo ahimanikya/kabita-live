@@ -4,10 +4,18 @@ on:
   workflow_dispatch:
     inputs:
       publish_approved:
-        description: 'The main-branch website is approved for public release'
+        description: 'The main-branch website is approved for the selected hosting mode'
         type: boolean
         required: true
         default: false
+      hosting_mode:
+        description: 'Preview keeps noindex and the editorial release gate; release requires all content checks'
+        type: choice
+        required: true
+        default: preview
+        options:
+          - preview
+          - release
 
 permissions:
   contents: read
@@ -48,7 +56,14 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run test:rules
+      - name: Build approved hosted preview
+        if: inputs.hosting_mode == 'preview'
+        run: npm run build
+        env:
+          SITE_URL: ${{ steps.pages.outputs.origin }}
+          SITE_BASE: ${{ steps.pages.outputs.base_path }}
       - name: Build complete, approved reader website
+        if: inputs.hosting_mode == 'release'
         run: npm run build:release
         env:
           SITE_URL: ${{ steps.pages.outputs.origin }}

@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-09-30T08:40:42.135755+00:00",
+  "work_ref": "KBL-WORK-016",
+  "decision_ref": "KBL-DEC-023",
+  "status": "published_and_verified",
+  "authorization": "Website linking we will do this after migration\n\nFor now, update the cover photo, add editor info, and add some images and other information to make the page look complete and inviting.",
+  "executor": "Current assistant; Disha, Samanta, Anvesha and Drishti role passes",
+  "independent_review": false,
+  "facebook_url": "https://www.facebook.com/profile.php?id=61594946730649",
+  "changes": {
+    "cover": {
+      "published": true,
+      "asset": "artifacts/social/facebook-2026-09-30/cover.png",
+      "caption_saved": true,
+      "photo_url": "https://www.facebook.com/photo/?fbid=122096972595498224&set=a.122096972637498224"
+    },
+    "bio": "Monthly poetry · Odia, Hindi & English.\nମାଟିର ମହକ · ମନର ସ୍ୱର\nEditor: Pradeep Biswal\nManaging Editor: Paresh Kumar Pattnaik",
+    "editor_introduction": {
+      "published": true,
+      "visibility": "Public",
+      "ai_label": true,
+      "assets": [
+        "artifacts/social/facebook-2026-09-30/pradeep.png",
+        "artifacts/social/facebook-2026-09-30/paresh.png"
+      ],
+      "photo_urls": [
+        "https://www.facebook.com/photo/?fbid=122096973339498224&set=pcb.122096973657498224",
+        "https://www.facebook.com/photo/?fbid=122096973327498224&set=pcb.122096973657498224"
+      ]
+    },
+    "welcome": {
+      "published": true,
+      "visibility": "Public",
+      "ai_label": true,
+      "pinned": true,
+      "source_art": "artifacts/artwork/masters/home/life-after-rain.png",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Gp7oNF9SwgJCvbq5vzRr8Q1Xpo6fqKKkT66SzKtGsgWYtSrnvrJ695JJfcTu5NdDl&id=61594946730649"
+    }
+  },
+  "verification": [
+    "Cover and editor bio visually verified in Page header.",
+    "Facebook publication success alert and actual timeline text/photos verified for both posts.",
+    "Welcome post verified in Featured section with observed permalink."
+  ],
+  "evidence": [
+    "artifacts/social/facebook-2026-09-30/facebook-complete.png",
+    "artifacts/social/facebook-2026-09-30/facebook-featured.png",
+    "artifacts/social/facebook-2026-09-30/publication-copy.json",
+    "artifacts/social/facebook-2026-09-30/provenance.json"
+  ],
+  "website_linking": "Deferred until migration by user. No website edits or publication in this work.",
+  "instagram": "Deferred",
+  "daily_schedule": "Not created in this scope",
+  "paid_promotion": false,
+  "next_action": "Link website after migration; daily engagement schedule remains subsequent work.",
+  "cover_revision": "records/facebook-cover-v3.json"
+}

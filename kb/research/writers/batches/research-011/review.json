@@ -1,0 +1,33 @@
+{
+  "batch": "research-011",
+  "status": "verified",
+  "independent": false,
+  "writer_ids": [
+    20,
+    447,
+    439,
+    437,
+    429
+  ],
+  "reader_drafts": 5,
+  "externally_corroborated": 4,
+  "source_limited": [
+    20
+  ],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "PASS",
+    "editions": "PASS",
+    "preserved_source_files": 805,
+    "existing_narratives_preserved": 60,
+    "rendered_narratives": 5
+  },
+  "limitations": [
+    "Arundhati Mohanty identity needs a stronger external bridge; contributor education claims remain explicitly attributed.",
+    "Some literary records were accessible through indexed text only; direct fetch failures recorded.",
+    "Glacier (699) has duplicated source text; preserved unchanged and flagged for separate editorial reconciliation.",
+    "No layout or portrait changes; independent author/editor factual review pending."
+  ],
+  "resume": "research-012",
+  "publication": "No deployment or push."
+}

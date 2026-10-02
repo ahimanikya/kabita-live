@@ -1,0 +1,85 @@
+{
+  "scope": "Homepage only",
+  "independent": false,
+  "checks": {
+    "savedLight": {
+      "label": "Switch to dark theme",
+      "night": false
+    },
+    "desktop": {
+      "artFilter": "none",
+      "dropdowns": 0,
+      "label": "Switch to dark theme",
+      "night": false,
+      "overflow": false,
+      "target": [
+        47.99440002441406,
+        47.99440002441406
+      ],
+      "width": 1669
+    },
+    "dark": {
+      "artFilter": "none",
+      "label": "Switch to light theme",
+      "night": true,
+      "overflow": false
+    },
+    "mobile": {
+      "label": "Switch to light theme",
+      "night": true,
+      "overflow": false,
+      "target": [
+        320,
+        48
+      ],
+      "width": 360
+    },
+    "mobileLight": {
+      "label": "Switch to dark theme",
+      "night": false,
+      "overflow": false
+    },
+    "escape": {
+      "focusReturned": true,
+      "menuOpen": false
+    }
+  },
+  "limitations": [
+    "Browser pointer automation was affected by preview scaling; native button activation was verified with Enter and Space.",
+    "No full accessibility certification or cross-browser claim."
+  ],
+  "source": "Direct browser DOM and keyboard interaction",
+  "publication": false,
+  "systemRefinement": {
+    "unitChecks": [
+      {
+        "storage": "available",
+        "result": "pass",
+        "checks": [
+          "cycle all three modes",
+          "follow device changes in System",
+          "explicit override",
+          "return to System"
+        ]
+      },
+      {
+        "storage": "unavailable",
+        "result": "pass",
+        "checks": [
+          "cycle all three modes",
+          "follow device changes in System",
+          "explicit override",
+          "return to System"
+        ]
+      }
+    ],
+    "browser": {
+      "cycle": "Light → Dark → System verified with Space",
+      "savedSystemAfterRefresh": {
+        "label": "Theme: System. Switch to Light.",
+        "mode": "system"
+      }
+    },
+    "limits": "Device change behavior verified with simulated matchMedia events; live OS setting changes not exercised."
+  }
+}

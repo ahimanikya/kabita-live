@@ -1,0 +1,116 @@
+{
+  "recorded_at": "2026-10-02T12:29:01.735706+00:00",
+  "work_ref": "KBL-WORK-012",
+  "executor": "Current chat assistant; Anvesha research and Drishti self-review",
+  "independent": false,
+  "user_direction": "continue",
+  "research_queries": {
+    "reema_rima": [
+      "\"रख लिया विक्षोभ\"",
+      "\"राधा सा प्रीत लगाव\"",
+      "\"रीमा सिन्हा\" \"समर्पण\"",
+      "\"रीमा सिन्हा\" \"विक्षोभ\"",
+      "\"समर्पण भाव रखूंगी\"",
+      "\"रीमा सिन्हा\" \"राधा\"",
+      "\"रीमा सिन्हा\" \"प्रेम\" कविता समर्पण",
+      "\"विक्षोभ\" \"सिन्हा\" (yugjagran.com, sahityarachana.com, hindikavykosh.in)"
+    ],
+    "padmashree": [
+      "\"Padmashree\" \"Niranjan\" poet",
+      "\"Padmashree Niranjan\"",
+      "\"Padma Shree\" \"Niranjan\"",
+      "\"Padmashree R P\" teacher poet",
+      "site:riesi.ac.in Padmashree poetry Niranjan",
+      "Padmashree Niranjan (riesi.ac.in)"
+    ],
+    "ma_yongbo": [
+      "\"Almost a Kind of Responsibility\" Ma translator",
+      "\"Yongbo\" \"Wood shavings\"",
+      "\"Ma Yongbo\" \"responsibility\" poem translation",
+      "\"近乎于一种责任\" 英译",
+      "\"Ma Yongbo\" \"Kind of Responsibility\"",
+      "\"Ma Yongbo\" \"craft\" \"carpenter\"",
+      "\"No one forces you\" \"Ma\" poetry",
+      "\"Ma Yongbo\" \"responsibility\" \"translated\"",
+      "\"Ma Yongbo\" \"Responsibility\" (mayongbo.substack.com, internationaltimes.it, synchchaos.com)"
+    ]
+  },
+  "cases": [
+    {
+      "writers": [
+        342,
+        410
+      ],
+      "finding": "KBL-WA-004",
+      "status": "confirmation_needed",
+      "result": "No exact external attribution of poem 584 or explicit identity bridge located. Other poems under the Hindi name and Lucknow location do not establish that both contributor IDs refer to the same person.",
+      "sources": [
+        {
+          "url": "https://www.yugjagran.com/प्रेम-का-अनुबंध/",
+          "access": "search_index_full_page; direct_open_failed",
+          "finding": "Different poem credited to रीमा सिन्हा (लखनऊ); not poem 584."
+        }
+      ],
+      "editor_question": "Are Reema Sinha (342) and Rima Sinha (410) the same contributor? Please confirm ownership of रख लिया विक्षोभ बहुत and the preferred display spelling.",
+      "handling": "Separate profiles and existing poems retained; no hold or removal."
+    },
+    {
+      "writers": [
+        408
+      ],
+      "finding": "KBL-WA-008",
+      "status": "confirmation_needed",
+      "result": "Institutional search results identify a lecturer with the R.P. initials, but provide no connection to the Niranjan surname or exact journal poem. PoetrySoup profile still provides no biography.",
+      "sources": [
+        {
+          "url": "https://www.riesi.ac.in/wp-content/uploads/2022/02/AVistaofVenturesrevisedFeb2019.pdf",
+          "access": "search_index_excerpt",
+          "finding": "Historical lecturer/workshop name only; not an identity bridge."
+        },
+        {
+          "url": "https://www.poetrysoup.com/poems_poets/poems_by_poet.aspx?ID=175427",
+          "access": "opened_page",
+          "finding": "Biography coming soon; no surname bridge."
+        }
+      ],
+      "editor_question": "Does Padmashree R.P., author of Love’s Simplicity, also use Padmashree Niranjan? Which byline should be displayed?",
+      "handling": "R.P. byline and supported literary narrative retained; no employment or credential inferred."
+    },
+    {
+      "writers": [
+        423
+      ],
+      "finding": null,
+      "status": "translation_credit_confirmation_needed",
+      "result": "Located interviews and explicitly credited self-translations of other poems, but not an attributed English version of Almost a Kind of Responsibility matching poem 644. Credits for other poems cannot be transferred.",
+      "sources": [
+        {
+          "url": "https://thelingolexicon.com/golden-words-exclusive-interview/an-exclusive-interview-with-yongbo-ma-by-maja-milojkovic",
+          "access": "opened_page",
+          "finding": "Interview does not identify this poem’s English translator."
+        },
+        {
+          "url": "https://internationaltimes.it/ma-yongbo-poetry-road-trip-summer-tour-2025-volume-9/",
+          "access": "search_index_full_page",
+          "finding": "Different response poems carry specific translation credits; no evidence for poem 644."
+        }
+      ],
+      "editor_question": "Who translated the supplied English text of Almost a Kind of Responsibility? Please provide the original submission or publication credit.",
+      "handling": "Ma Yongbo identity remains resolved. Existing poem and credit retained; no translator invented."
+    }
+  ],
+  "application_check": "artifacts/review/writer-audit/final-followup-2026-10-02/application-verification.json",
+  "summary": {
+    "researched_narratives_in_site_data": 427,
+    "rendered_biography_paragraphs_per_surface": 862,
+    "book_links_per_surface": 212,
+    "source_links_per_surface": 761,
+    "audit_findings_closed": 18,
+    "audit_findings_unresolved": 2,
+    "additional_translation_credit_questions": 1,
+    "new_reader_content_changes": 0
+  },
+  "next_action": "Use original submissions or editor/author confirmation for these three questions; repeat public search only when a new lead is available. These questions do not remove or hold existing poems.",
+  "publication": "Not performed",
+  "handoff": "Run sync_handoff.py and check_storage.py after record generation."
+}

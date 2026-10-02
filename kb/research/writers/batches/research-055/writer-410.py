@@ -1,0 +1,10 @@
+from save_writer import save,source
+save(410,dict(
+ paragraphs=['Rima Sinha writes poetry in Hindi. Her Kabita Live contribution carries a Lucknow byline; Sahitya Rachana has also published Hindi poetry under the name रीमा सिन्हा, identifying the writer with Lucknow.', 'In “रख लिया विक्षोभ बहुत”, the speaker turns from inner unrest towards devotion. The contrast between an assertion of rights and Radha’s love opens a sequence of promises: to understand the beloved, share the road and offer shade against life’s heat. Repetition gives these promises the cadence of a personal vow.'],
+ sources=[source('Sahitya Rachana — रीमा सिन्हा, रोटी, कपड़ा और मकान','https://www.sahityarachana.com/2021/01/hindi-kavita-roti-kapada-aur-makaan-reema-sinha.html','Hindi poem published 14 January 2021; byline रीमा सिन्हा — Lucknow. Supports language/location, not additional professional credentials.')],
+ identity_match='Local Hindi poem 584 ends with Lucknow; external Hindi byline रीमा सिन्हा matches name, language and city. Separate captured record 342 Reema Sinha also identifies Lucknow: probable duplicate remains unresolved; no profiles or works merged and no credentials copied from 342.',
+ poems_read=[dict(id=584,title='रख लिया विक्षोभ बहुत',coverage='Complete original, all three stanzas and location tail',basis='Opening विक्षोभ/समर्पण contrast; Radha reference; repeated रखूंगी/रखूँगी vows, path and shade imagery.')],
+ limitations=['Potential duplicate with writer 342 Reema Sinha needs editor confirmation. Exact poem 584 was not located externally.','No book links, employment, degree or award claims imported from the probable namesake profile or interview description.','Source spelling रुक्मण retained; no silent correction or assumption of autobiography.'],
+ research_leads=[dict(url='https://www.youtube.com/watch?v=lLcrl2PuKWo',finding='Indexed interview description for Dr Reema Sinha of Lucknow names books and literary activities; audio not reviewed, omitted from this draft pending duplicate reconciliation.')],
+ next_action='Editor to confirm whether 410 and 342 are the same writer, preferred spelling and attribution; retain both records meanwhile.'
+))

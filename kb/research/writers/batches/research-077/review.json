@@ -1,0 +1,35 @@
+{
+  "batch": "research-077",
+  "status": "verified",
+  "independent": false,
+  "writer_ids": [
+    96,
+    88,
+    87,
+    69,
+    60
+  ],
+  "reader_drafts": 5,
+  "externally_corroborated": 4,
+  "source_limited": [
+    88
+  ],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "PASS",
+    "editions": "PASS",
+    "preserved_source_files": 805,
+    "existing_narratives_preserved": 390,
+    "rendered_narratives": 5,
+    "browser_visual": "Not repeated; prose/data only, approved renderer unchanged."
+  },
+  "limitations": [
+    "Independent author/editor review pending.",
+    "88 remains source-limited; possible interview identity and translation bibliography await confirmation.",
+    "96 journal contributor note and60 author bibliography accessed in search index after direct fetch failures.",
+    "69 state bibliography exact indexed row verified; direct PDF and visual inspection unavailable.",
+    "No concurrent source corrections detected against baseline."
+  ],
+  "resume": "research-078",
+  "publication": "No deployment or push."
+}

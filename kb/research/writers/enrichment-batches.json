@@ -1,0 +1,3495 @@
+{
+  "created_on": "2026-10-01",
+  "batch_size": 5,
+  "authorization": "create batch and then do one batch at a time - let’s enrich each one of them",
+  "scope": "All 427 non-editor writers; editor profiles remain separate.",
+  "previously_enriched": [
+    460,
+    456,
+    455,
+    56,
+    257,
+    21,
+    82,
+    327,
+    62,
+    27,
+    76,
+    337,
+    49,
+    28,
+    184
+  ],
+  "order": "Resume three partial investigations, then captured directory order; archive-discovered writers follow. Membership is stable after creation.",
+  "workflow": [
+    "One batch at a time; no parallel writers or agents. Save each writer dossier before proceeding.",
+    "Read captured biography and relevant original poems. Research author, publisher, university and literary sources; verify identity beyond the name.",
+    "Preserve captured biography, poem texts, translations, portraits, selected quotes and approved design. No new portrait or layout changes in narrative batches.",
+    "Write concise supported narrative; record claim basis, source access, contradictions and rejected namesakes. Never invent books, awards or appointments.",
+    "Record source-limited enrichment separately from external corroboration. Unresolved cases stay open in follow-up tracking; finish other writers.",
+    "Integrate sourced drafts with credits in the central colophon. Build and run author, edition and source-preservation checks before closing batch verification.",
+    "Refresh this register, activity ledger, catalogue and handoff. Proceed to next batch without a new batch approval. Never publish or push.",
+    "All drafts need author/editor factual review. A researched batch is not proof that every source question is resolved."
+  ],
+  "batches": [
+    {
+      "id": "research-002",
+      "writer_ids": [
+        41,
+        377,
+        233,
+        433,
+        415
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 41,
+          "name": "Pravakar Satapathy/ ପ୍ରଭାକର ଶତପଥୀ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 377,
+          "name": "Vikramaditya Singh / विक्रमादित्य सिंह",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 233,
+          "name": "Manju Chouhan",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 433,
+          "name": "Annwesa Abhipsa Pani",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 415,
+          "name": "Arun Sahu",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        377
+      ]
+    },
+    {
+      "id": "research-003",
+      "writer_ids": [
+        398,
+        394,
+        388,
+        381,
+        380
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 398,
+          "name": "Aishwariya Laxmi",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 394,
+          "name": "Abeera Mirza",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 388,
+          "name": "Aiswarya Pradhan /ଐଶ୍ୱର୍ଯ୍ୟା ପ୍ରଧାନ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 381,
+          "name": "Amanita Sen",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 380,
+          "name": "Anita Panda/ अनिता पंडा",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-004",
+      "writer_ids": [
+        379,
+        369,
+        347,
+        330,
+        323
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 379,
+          "name": "Anjali Pattnaik / ଅଂଜଳି ପଟ୍ଟନାୟକ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 369,
+          "name": "Afruja Akhtar",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 347,
+          "name": "Aakash Nayak",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 330,
+          "name": "Abanindra Udgata/ ଅବନୀନ୍ଦ୍ର ଉଦଗାତା",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 323,
+          "name": "Anish Kanjilal",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        379,
+        347
+      ]
+    },
+    {
+      "id": "research-005",
+      "writer_ids": [
+        321,
+        292,
+        286,
+        285,
+        275
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 321,
+          "name": "Ashish Vidyarthi/ आशीष विद्यार्थी",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 292,
+          "name": "Anju kapoor",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 286,
+          "name": "Ashok Bhargab",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 285,
+          "name": "Alka Nigam",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 275,
+          "name": "Avantika Vijay Singh",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        321
+      ]
+    },
+    {
+      "id": "research-006",
+      "writer_ids": [
+        260,
+        253,
+        243,
+        240,
+        206
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 260,
+          "name": "Aparna Pradhan",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 253,
+          "name": "Aparna Mohanty /",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 243,
+          "name": "Aarti Mittal",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 240,
+          "name": "Anita Ray",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 206,
+          "name": "Asish Kumar Mishra/ ଆଶିଷ କୁମାର ମିଶ୍ର",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        240
+      ]
+    },
+    {
+      "id": "research-007",
+      "writer_ids": [
+        194,
+        178,
+        174,
+        171,
+        170
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 194,
+          "name": "Ananya Goswami",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 178,
+          "name": "Ajit Dash",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 174,
+          "name": "Akhil Kumar Mishra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 171,
+          "name": "Anindita Bose",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 170,
+          "name": "Angurbala Parida",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        194
+      ]
+    },
+    {
+      "id": "research-008",
+      "writer_ids": [
+        168,
+        158,
+        131,
+        130,
+        129
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 168,
+          "name": "Adyasha Das",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 158,
+          "name": "Ashok Kumar Singh/ ଡ଼ଃ ଅଶୋକ କୁମାର ସିଂହ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 131,
+          "name": "Antaryami Mishra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 130,
+          "name": "Anjali Sahoo",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 129,
+          "name": "Anadi Charan Pradhan",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-009",
+      "writer_ids": [
+        126,
+        125,
+        113,
+        97,
+        92
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 126,
+          "name": "Akshaya Kumar Das",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 125,
+          "name": "Agnivesh Mahapatra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 113,
+          "name": "Arti Kumari",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 97,
+          "name": "Amit Shankar Saha",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 92,
+          "name": "Archana Bahadur Zutshi",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-010",
+      "writer_ids": [
+        91,
+        83,
+        77,
+        74,
+        52
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 91,
+          "name": "Anu Girdhar",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 83,
+          "name": "Amiya Ranjan Mohapatra / ଅମିୟ ରଞ୍ଜନ ମହାପାତ୍ର",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 77,
+          "name": "Adyasha Priyadarshini",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 74,
+          "name": "Aneek Chatterjee",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 52,
+          "name": "Amita Roy",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        83,
+        77
+      ]
+    },
+    {
+      "id": "research-011",
+      "writer_ids": [
+        20,
+        447,
+        439,
+        437,
+        429
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 20,
+          "name": "Arundhati Mohanty/ ଡ. ଅରୁନ୍ଧତୀ ମହାନ୍ତି",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 447,
+          "name": "Binay Laha",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 439,
+          "name": "Banasmita Pati",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 437,
+          "name": "Bandana Sahoo",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 429,
+          "name": "Bharati Hazarika",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        20
+      ]
+    },
+    {
+      "id": "research-012",
+      "writer_ids": [
+        409,
+        407,
+        406,
+        405,
+        390
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 409,
+          "name": "Badal Mohanty/ ବାଦଲ ମହାନ୍ତି",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 407,
+          "name": "Biswanath Kundu",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 406,
+          "name": "Bijay Mohapatra/ବିଜୟ ମହାପାତ୍ର",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 405,
+          "name": "Baijnath Gupta",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 390,
+          "name": "Bharati Nayak",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-013",
+      "writer_ids": [
+        386,
+        370,
+        346,
+        329,
+        320
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 386,
+          "name": "Bharadwaj Mishra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 370,
+          "name": "Binati Satapathy/ ବିନତି ଶତପଥି",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 346,
+          "name": "Binapani Debta / ବୀଣାପାଣି ଦେବତା",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 329,
+          "name": "Bichitra Dash/ ବିଚିତ୍ରା ଦାଶ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 320,
+          "name": "Binod Kumar / विनोद कुमार `बल्लोपुरी`",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        370,
+        346,
+        329,
+        320
+      ]
+    },
+    {
+      "id": "research-014",
+      "writer_ids": [
+        271,
+        217,
+        216,
+        202,
+        179
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 271,
+          "name": "Bebina Rath/ ବେବିନା ରଥ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 217,
+          "name": "Binaya Kumar Mohanty / ବିନୟ କୁମାର ମହାନ୍ତି",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 216,
+          "name": "Bibhu Padhi",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 202,
+          "name": "Boby Borah",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 179,
+          "name": "Bijayalaxmi Rath",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        271,
+        217,
+        202
+      ]
+    },
+    {
+      "id": "research-015",
+      "writer_ids": [
+        159,
+        134,
+        133,
+        124,
+        119
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 159,
+          "name": "Bipin Naik/ ବିପିନ ନାୟକ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 134,
+          "name": "Braja K Sorkar",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 133,
+          "name": "Bhagyashree Mishra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 124,
+          "name": "Balaram Pujari/ବଳରାମ ପୂଜାରୀ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 119,
+          "name": "Bhagirathi Mishra/ ଭାଗିରଥି ମିଶ୍ର",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        124
+      ]
+    },
+    {
+      "id": "research-016",
+      "writer_ids": [
+        80,
+        73,
+        61,
+        54,
+        47
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 80,
+          "name": "Bidyutaprava Gantayat/ ବିଦ୍ୟୁତ ପ୍ରଭା ଗନ୍ତାୟତ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 73,
+          "name": "Babita Mohapatra/ବବିତା ମହାପାତ୍ର",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 61,
+          "name": "Bipin Patsani",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 54,
+          "name": "Bhagaban Jayasingh",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 47,
+          "name": "Bhaskaranand Jha Bhaskar",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-017",
+      "writer_ids": [
+        32,
+        24,
+        355,
+        338,
+        219
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 32,
+          "name": "Bhaswati Basu/ଭାସ୍ୱତୀ ବସୁ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 24,
+          "name": "Bina Singh",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 355,
+          "name": "Chaitali Sengupta",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 338,
+          "name": "Chirashree Indrasingh",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 219,
+          "name": "Chaitali Chattopadhyay",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        32
+      ]
+    },
+    {
+      "id": "research-018",
+      "writer_ids": [
+        204,
+        454,
+        452,
+        373,
+        344
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 204,
+          "name": "Chittaranjan Mishra/ ଚିତ୍ତ ରଞ୍ଜନ ମିଶ୍ର",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 454,
+          "name": "Divya K Unni",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 452,
+          "name": "Devendra K Mishra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 373,
+          "name": "Devika Tripathy",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 344,
+          "name": "Dilip Rakshit",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        373
+      ]
+    },
+    {
+      "id": "research-019",
+      "writer_ids": [
+        284,
+        251,
+        250,
+        236,
+        198
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 284,
+          "name": "Deepika Dash",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 251,
+          "name": "Dhananjay Kumar",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 250,
+          "name": "Daipayan Nair",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 236,
+          "name": "Divya Vats",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 198,
+          "name": "Dola Dutta Roy",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        284,
+        251
+      ]
+    },
+    {
+      "id": "research-020",
+      "writer_ids": [
+        153,
+        68,
+        67,
+        36,
+        29
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 153,
+          "name": "Dipak Samantarai",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 68,
+          "name": "Debendra Lal/ଦେବେନ୍ଦ୍ର ଲାଲ୍",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 67,
+          "name": "Debajani Tripathy/ଦେବଯାନୀ ତ୍ରିପାଠୀ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 36,
+          "name": "Diptirekha Das",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 29,
+          "name": "Debajani Ray/ଦେବଯାନୀ ରାୟ",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        29
+      ]
+    },
+    {
+      "id": "research-021",
+      "writer_ids": [
+        23,
+        351,
+        238,
+        211,
+        55
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 23,
+          "name": "Dilip Mohapatra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 351,
+          "name": "Eli Mohanty/ ଏଲି ମହାନ୍ତି",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 238,
+          "name": "Eileen Moynihan",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 211,
+          "name": "Eva Petropoulou-Lianou",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 55,
+          "name": "Elanaaga",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        351
+      ]
+    },
+    {
+      "id": "research-022",
+      "writer_ids": [
+        446,
+        417,
+        389,
+        382,
+        310
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 446,
+          "name": "GANESWAR BEHERA",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 417,
+          "name": "Gayatri Mavuru",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 389,
+          "name": "Gayatri Das",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 382,
+          "name": "Gopikrishnan Kottoor",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 310,
+          "name": "Goutam Jena/ଗୌତମ ଜେନା",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        446,
+        389,
+        310
+      ]
+    },
+    {
+      "id": "research-023",
+      "writer_ids": [
+        264,
+        176,
+        163,
+        135,
+        99
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 264,
+          "name": "Geethanjali Dilip",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 176,
+          "name": "Gayatree G Lahon",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 163,
+          "name": "Garima / गरिमा",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 135,
+          "name": "Gargi Saha",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 99,
+          "name": "Gopa Bhattacharjee",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-024",
+      "writer_ids": [
+        95,
+        79,
+        39,
+        400,
+        304
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 95,
+          "name": "Gopa Nayak",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 79,
+          "name": "Gourhari Das/ ଗୌରହରି ଦାସ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 39,
+          "name": "Gopal Lahiri",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 400,
+          "name": "Heba Fatima",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 304,
+          "name": "Haimanti Dutta Ray",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-025",
+      "writer_ids": [
+        222,
+        164,
+        162,
+        111,
+        90
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 222,
+          "name": "Himanshu Parida / ହିମାଂଶୁ ପରିଡା",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 164,
+          "name": "Haraprit Kaur/ हरप्रीत कौर",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 162,
+          "name": "Hiranmayee Mishra/ ହିରଣ୍ମୟୀ ମିଶ୍ର",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 111,
+          "name": "Himanshu Jena",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 90,
+          "name": "Hardaman Singh",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        164
+      ]
+    },
+    {
+      "id": "research-026",
+      "writer_ids": [
+        63,
+        383,
+        196,
+        118,
+        462
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 63,
+          "name": "Harinder Cheema",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 383,
+          "name": "Inam Hussain Begg Mullick",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 196,
+          "name": "Ipsita Ganguli",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 118,
+          "name": "Ipsita Sarangi/ଈପ୍ସିତା ଷଡ଼ଙ୍ଗୀ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 462,
+          "name": "Juya Tripathy / ଜୁୟା ତ୍ରିପାଠୀ",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        462
+      ]
+    },
+    {
+      "id": "research-027",
+      "writer_ids": [
+        443,
+        395,
+        363,
+        301,
+        296
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 443,
+          "name": "Jyotirmaya Thakur",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 395,
+          "name": "Johny Takkedasila",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 363,
+          "name": "Julie Miles",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 301,
+          "name": "Jay Jagdev",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 296,
+          "name": "Jyosthnarani Bhoi/ଜ୍ୟୋତ୍ସ୍ନା ରାନୀ ଭୋଇ",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        363,
+        296
+      ]
+    },
+    {
+      "id": "research-028",
+      "writer_ids": [
+        295,
+        246,
+        231,
+        225,
+        223
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 295,
+          "name": "Jyoti Nanda",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 246,
+          "name": "Jagari Mukherjee",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 231,
+          "name": "Jinatamam Darji",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 225,
+          "name": "Jaydeep Sarangi",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 223,
+          "name": "Jyoti Shankar Panda “Hayat”",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        231,
+        223
+      ]
+    },
+    {
+      "id": "research-029",
+      "writer_ids": [
+        161,
+        93,
+        71,
+        53,
+        51
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 161,
+          "name": "Jnani Debashis Mishra/ ଜ୍ଞାନୀ ଦେବାଶିଷ ମିଶ୍ର",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 93,
+          "name": "Jayanta Mohapatra/ଜୟନ୍ତ ମହାପାତ୍ର",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 71,
+          "name": "Jayanti Rath/ଜୟନ୍ତୀ ରଥ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 53,
+          "name": "Jernail Singh Anand",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 51,
+          "name": "Jyoti Jha",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-030",
+      "writer_ids": [
+        37,
+        471,
+        469,
+        442,
+        441
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 37,
+          "name": "Jayantika/ଜୟନ୍ତିକା",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 471,
+          "name": "Kallol Choudhury",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 469,
+          "name": "Krushna Kumar Mohanty",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 442,
+          "name": "Kanak Manjari Sahoo",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 441,
+          "name": "Kumudini JEE/ କୁମୁଦିନୀ ଜୀ",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        441
+      ]
+    },
+    {
+      "id": "research-031",
+      "writer_ids": [
+        387,
+        371,
+        305,
+        303,
+        268
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 387,
+          "name": "Kavita Singh",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 371,
+          "name": "Ketaki Mazumdar",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 305,
+          "name": "K. V. Dominic",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 303,
+          "name": "Kajal Chaudhury",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 268,
+          "name": "Kumudini Ved",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        387,
+        303
+      ]
+    },
+    {
+      "id": "research-032",
+      "writer_ids": [
+        232,
+        228,
+        155,
+        136,
+        117
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 232,
+          "name": "Kavita Singh",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 228,
+          "name": "Kakoli Ghosh",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 155,
+          "name": "Kedar Mishra/କେଦାର ମିଶ୍ର",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 136,
+          "name": "Kaberi Chattopadhyaya",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 117,
+          "name": "Kamadev Moharana/କାମଦେବ ମହାରଣା",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-033",
+      "writer_ids": [
+        94,
+        436,
+        402,
+        335,
+        300
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 94,
+          "name": "Ketaki Datta",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 436,
+          "name": "Lopamudra Singh",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 402,
+          "name": "LAVANYA NAYAK/ ଲାବଣ୍ୟ ନାୟକ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 335,
+          "name": "Lopamudra Banerjee",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 300,
+          "name": "Lisa Patnaik",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        300
+      ]
+    },
+    {
+      "id": "research-034",
+      "writer_ids": [
+        213,
+        137,
+        108,
+        84,
+        81
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 213,
+          "name": "Laszlo Aranyi",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 137,
+          "name": "Leena Thampi",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 108,
+          "name": "Lopamudra Mishra",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 84,
+          "name": "Lipika Das/ ଲିପିକା ଦାସ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 81,
+          "name": "Lipsa Patel / ଲିପସା ପଟେଲ",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        108,
+        84,
+        81
+      ]
+    },
+    {
+      "id": "research-035",
+      "writer_ids": [
+        472,
+        470,
+        465,
+        457,
+        451
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 472,
+          "name": "Manoranjan Sahoo / ମନୋରଞ୍ଜନ ସାହୁ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 470,
+          "name": "Meenakshi Goswami",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 465,
+          "name": "Minati Pradhan",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 457,
+          "name": "Madhusudan Mishra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 451,
+          "name": "Manas Ranjan Mahapatra / ମାନସ ରଂଜନ ମହାପାତ୍ର",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-036",
+      "writer_ids": [
+        444,
+        440,
+        411,
+        401,
+        392
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 444,
+          "name": "Meenakshi Mohan",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 440,
+          "name": "Manas Bakshi",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 411,
+          "name": "Mahima Gantayat",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 401,
+          "name": "Marmasparshee Priyadarshini",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 392,
+          "name": "M.Rudra",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        401,
+        392
+      ]
+    },
+    {
+      "id": "research-037",
+      "writer_ids": [
+        391,
+        376,
+        374,
+        362,
+        358
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 391,
+          "name": "Mrutyunjay Sarangi",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 376,
+          "name": "Manoj Chola",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 374,
+          "name": "Madhu Jaiswal",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 362,
+          "name": "Mridula Menon",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 358,
+          "name": "Maid Corbic",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        376,
+        362
+      ]
+    },
+    {
+      "id": "research-038",
+      "writer_ids": [
+        357,
+        356,
+        345,
+        339,
+        334
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 357,
+          "name": "May Manoj",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 356,
+          "name": "Maitreyee B Chowdhury",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 345,
+          "name": "Mallika Tripathi",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 339,
+          "name": "Matralina Pati",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 334,
+          "name": "Mahi Rao/ माही राव",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        357,
+        334
+      ]
+    },
+    {
+      "id": "research-039",
+      "writer_ids": [
+        332,
+        326,
+        313,
+        311,
+        302
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 332,
+          "name": "Manini Jena / ମାନିନୀ ଜେନା",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 326,
+          "name": "Mitra Samal",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 313,
+          "name": "Mrinmoy Kumar Nath",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 311,
+          "name": "Malaya Kumar Jati",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 302,
+          "name": "Monalisa Dash Dwibedy",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-040",
+      "writer_ids": [
+        289,
+        280,
+        272,
+        265,
+        249
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 289,
+          "name": "Misna Chanu",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 280,
+          "name": "Mukul Kumar",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 272,
+          "name": "Minu Verma / मीनू वर्मा",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 265,
+          "name": "Manua Das / ମନୁଆ ଦାସ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 249,
+          "name": "Mamata Kiran / ममता किरण",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        272
+      ]
+    },
+    {
+      "id": "research-041",
+      "writer_ids": [
+        241,
+        226,
+        185,
+        157,
+        140
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 241,
+          "name": "Malay Mishra",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 226,
+          "name": "Malini Mohanty",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 185,
+          "name": "Madhu Sriwastav",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 157,
+          "name": "Mousumi Parida/ ମୌସୁମୀ ପରିଡା",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 140,
+          "name": "Monalisa Parida",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        241,
+        226
+      ]
+    },
+    {
+      "id": "research-042",
+      "writer_ids": [
+        139,
+        138,
+        116,
+        115,
+        110
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 139,
+          "name": "MALAKSHMI BORTHAKUR",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 138,
+          "name": "Madhumita",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 116,
+          "name": "Manini Mishra/ମାନିନୀ ମିଶ୍ର",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 115,
+          "name": "Mousumi Das/ମୌସୁମୀ ଦାସ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 110,
+          "name": "Mahua Sen",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        116,
+        115
+      ]
+    },
+    {
+      "id": "research-043",
+      "writer_ids": [
+        106,
+        86,
+        78,
+        72,
+        45
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 106,
+          "name": "Mandakini Bhattacharjee",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 86,
+          "name": "Makhan Kalita",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 78,
+          "name": "Mamata Pattnaik/ ମମତା ପଟ୍ଟନାୟକ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 72,
+          "name": "Mukul Mishra/ମୁକୁଲ୍ ମିଶ୍ର",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 45,
+          "name": "Manjula Asthana Mahanti",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-044",
+      "writer_ids": [
+        34,
+        468,
+        453,
+        426,
+        366
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 34,
+          "name": "Madhuri Panda/ମାଧୁରୀ ପଣ୍ଡା",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 468,
+          "name": "Narayan Sahoo",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 453,
+          "name": "Niharika Ray Baral / ନିହାରିକା ରାୟ ବରାଳ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 426,
+          "name": "Nisha Raviprasad",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 366,
+          "name": "Neha Bhandarkar",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        34,
+        468
+      ]
+    },
+    {
+      "id": "research-045",
+      "writer_ids": [
+        322,
+        317,
+        263,
+        256,
+        252
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 322,
+          "name": "Neeta Sagar",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 317,
+          "name": "Niranjan Barik",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 263,
+          "name": "Nibha Utpreksha",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 256,
+          "name": "Neha Bhandarkar",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 252,
+          "name": "Nivedita Roy",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        322
+      ]
+    },
+    {
+      "id": "research-046",
+      "writer_ids": [
+        248,
+        244,
+        224,
+        208,
+        192
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 248,
+          "name": "Neha Vertika",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 244,
+          "name": "Nilima Bora",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 224,
+          "name": "Neelam Saxena Chandra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 208,
+          "name": "Nandini Mitra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 192,
+          "name": "Neelam Saxena Chandra",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        244
+      ]
+    },
+    {
+      "id": "research-047",
+      "writer_ids": [
+        167,
+        142,
+        141,
+        123,
+        103
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 167,
+          "name": "Nikhilesh Mishra/ ନିଖିଳେଶ ମିଶ୍ର",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 142,
+          "name": "Nisith Raj",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 141,
+          "name": "Namitarani Panda",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 123,
+          "name": "Nidhi Garga",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 103,
+          "name": "Nisha luthra",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-048",
+      "writer_ids": [
+        89,
+        75,
+        59,
+        57,
+        42
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 89,
+          "name": "Naheed Akhtar",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 75,
+          "name": "Nilim Kumar",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 59,
+          "name": "Nurul Hoque",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 57,
+          "name": "Nandini Sahu",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 42,
+          "name": "Nandita Samanta",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-049",
+      "writer_ids": [
+        431,
+        408,
+        404,
+        364,
+        361
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 431,
+          "name": "Pankajam Kottanath",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 408,
+          "name": "Padmashree R.P.",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 404,
+          "name": "Pallabi Das",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 364,
+          "name": "Punyadeepa Khamari / पुण्यदीपा खमारी",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 361,
+          "name": "Pusparani Patel/ ପୁଷ୍ପରାଣୀ ପଟେଲ",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-050",
+      "writer_ids": [
+        325,
+        316,
+        315,
+        314,
+        306
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 325,
+          "name": "Pragyan Pattnaik",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 316,
+          "name": "Pritha Chakraborty",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 315,
+          "name": "Prafulla K. Panda",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 314,
+          "name": "Purabi Satapathy/ ପୂରବୀ ଶତପଥି",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 306,
+          "name": "Paulami Sengupta",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-051",
+      "writer_ids": [
+        291,
+        283,
+        279,
+        212,
+        205
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 291,
+          "name": "Padmaja Saran",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 283,
+          "name": "Priyanka Banerjee",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 279,
+          "name": "Palavali Vijayalakshmi Pandit",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 212,
+          "name": "Prasanna Kumar Swain / ପ୍ରସନ୍ନ କୁମାର ସ୍ଵାଇଁ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 205,
+          "name": "Pranati Behera / ପ୍ରଣତି ବେହେରା",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        205
+      ]
+    },
+    {
+      "id": "research-052",
+      "writer_ids": [
+        199,
+        197,
+        183,
+        180,
+        169
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 199,
+          "name": "Priyalakshmi Gogoi",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 197,
+          "name": "Pradeepti Sharma",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 183,
+          "name": "Pankhuri Sinha",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 180,
+          "name": "Poonam Sood",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 169,
+          "name": "Prabashini Mahakuda",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-053",
+      "writer_ids": [
+        121,
+        120,
+        112,
+        102,
+        70
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 121,
+          "name": "Prativa Parida/ପ୍ରତିଭା ପରିଡା",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 120,
+          "name": "Piyusha Pattnaik/ପୀୟୂଷ ପଟ୍ଟନାୟକ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 112,
+          "name": "Preety Bora",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 102,
+          "name": "Pradeep Rath,",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 70,
+          "name": "Pratiksha Jena/ପ୍ରତୀକ୍ଷା ଜେନା",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        121,
+        120
+      ]
+    },
+    {
+      "id": "research-054",
+      "writer_ids": [
+        65,
+        58,
+        30,
+        435,
+        422
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 65,
+          "name": "Purabi Das",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 58,
+          "name": "Parashuram Rao Gande",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 30,
+          "name": "Phani Mohanty/ଫନୀ ମହାନ୍ତି",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 435,
+          "name": "Rohit Dash",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 422,
+          "name": "Rakshak Nayak / ରକ୍ଷକ ନାୟକ",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-055",
+      "writer_ids": [
+        410,
+        385,
+        368,
+        359,
+        352
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 410,
+          "name": "Rima Sinha",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 385,
+          "name": "Rupa Rao",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 368,
+          "name": "Raja Chakraborty",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 359,
+          "name": "Rakesh Chandra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 352,
+          "name": "Ramakanta Samantaray/ ରମାକାନ୍ତ ସାମନ୍ତରାୟ",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        352
+      ]
+    },
+    {
+      "id": "research-056",
+      "writer_ids": [
+        342,
+        341,
+        318,
+        293,
+        270
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 342,
+          "name": "Reema Sinha",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 341,
+          "name": "Randy Brooks",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 318,
+          "name": "Ranu Uniyal",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 293,
+          "name": "Rita Chugh",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 270,
+          "name": "Raja Rajeswari Seetha Raman",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-057",
+      "writer_ids": [
+        269,
+        267,
+        254,
+        245,
+        230
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 269,
+          "name": "Ritamvara Bhattacharya",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 267,
+          "name": "Reetwika Banerjee",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 254,
+          "name": "Ratnamala Swain / ରତ୍ନମାଳା ସ୍ବାଇଁ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 245,
+          "name": "Riyahh Nanda/ରିୟା ନନ୍ଦ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 230,
+          "name": "Raghu Seshabhattar",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        245
+      ]
+    },
+    {
+      "id": "research-058",
+      "writer_ids": [
+        214,
+        209,
+        203,
+        186,
+        182
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 214,
+          "name": "Rabi Satapathy / ରବି ଶତପଥି",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 209,
+          "name": "Ramakrushna/ ରାମକୃଷ୍ଣ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 203,
+          "name": "Renette D Souza",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 186,
+          "name": "Ranjita Panda",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 182,
+          "name": "Ranjan Kumar Das",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        209,
+        186
+      ]
+    },
+    {
+      "id": "research-059",
+      "writer_ids": [
+        172,
+        165,
+        145,
+        144,
+        109
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 172,
+          "name": "Rumpa Ray-Ghosh",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 165,
+          "name": "Ritu Mahipal / रितु महिपाल",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 145,
+          "name": "Ranjit Dutta",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 144,
+          "name": "RANJANA SHARAN SINHA",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 109,
+          "name": "Rachita Swain",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        165
+      ]
+    },
+    {
+      "id": "research-060",
+      "writer_ids": [
+        105,
+        104,
+        98,
+        85,
+        44
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 105,
+          "name": "Runa Srivastava",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 104,
+          "name": "Rajashree Mohapatra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 98,
+          "name": "Rituparna Khan",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 85,
+          "name": "Rajendra Padhi",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 44,
+          "name": "Rajorshi Patranabis",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-061",
+      "writer_ids": [
+        467,
+        466,
+        464,
+        463,
+        461
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 467,
+          "name": "Sreekala Sivasankaran",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 466,
+          "name": "Sunanda Pradhan",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 464,
+          "name": "Susmindar Jeet Kaur",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 463,
+          "name": "Swatilekha Roy",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 461,
+          "name": "Sanjukta Dash",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        466
+      ]
+    },
+    {
+      "id": "research-062",
+      "writer_ids": [
+        459,
+        458,
+        450,
+        448,
+        445
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 459,
+          "name": "Sulagna Kar / ସୁଲଗ୍ନା କର",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 458,
+          "name": "Someeta Das",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 450,
+          "name": "Sailabala Mahapatra / ଶୈଳବାଳା ମହାପାତ୍ର",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 448,
+          "name": "Satya Sundar Samanta",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 445,
+          "name": "Subhasmita Tripathy / ଶୁଭସ୍ମିତା ତ୍ରିପାଠୀ",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        459,
+        445
+      ]
+    },
+    {
+      "id": "research-063",
+      "writer_ids": [
+        434,
+        432,
+        428,
+        427,
+        424
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 434,
+          "name": "Somolekha",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 432,
+          "name": "Sreema Satpathy",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 428,
+          "name": "Sumana Bhattacharjee",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 427,
+          "name": "Sankar Narayan Mallick",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 424,
+          "name": "Sarita Pradhan / ସରିତା ପ୍ରଧାନ",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        424
+      ]
+    },
+    {
+      "id": "research-064",
+      "writer_ids": [
+        421,
+        419,
+        418,
+        414,
+        413
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 421,
+          "name": "Sunanda Tripathy / ଡ଼. ସୁନନ୍ଦା ତ୍ରିପାଠୀ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 419,
+          "name": "Sonnet Mondal",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 418,
+          "name": "Sarbani Chakravarti",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 414,
+          "name": "Subhashree Lenka/ ଶୁଭଶ୍ରୀ ଲେଙ୍କା",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 413,
+          "name": "Sangram Maharana/ ସଂଗ୍ରାମ ମହାରଣା",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        421,
+        413
+      ]
+    },
+    {
+      "id": "research-065",
+      "writer_ids": [
+        412,
+        399,
+        396,
+        393,
+        384
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 412,
+          "name": "Sanghamitra Bhanja/ ସଂଘମିତ୍ରା ଭଞ୍ଜ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 399,
+          "name": "Satyananda Sarangi",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 396,
+          "name": "Sheila Mary Fraser Porter",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 393,
+          "name": "Sankha Ranjan Patra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 384,
+          "name": "Subash Singh Parajuli",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        396
+      ]
+    },
+    {
+      "id": "research-066",
+      "writer_ids": [
+        372,
+        365,
+        360,
+        354,
+        353
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 372,
+          "name": "Swapna Mishra/ ସ୍ଵପ୍ନା ମିଶ୍ର",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 365,
+          "name": "Shankar Chhatria / ଶଙ୍କର ଚ୍ଛତ୍ରିଆ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 360,
+          "name": "Shakuntala Gupta/ ଶକୁନ୍ତଳା ଗୁପ୍ତା",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 354,
+          "name": "Sudhakar Gaidhani",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 353,
+          "name": "Shishir Naik/ ଶିଶିର ନାୟକ",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        365,
+        353
+      ]
+    },
+    {
+      "id": "research-067",
+      "writer_ids": [
+        349,
+        340,
+        333,
+        331,
+        328
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 349,
+          "name": "Sanjay Kumar Sahoo/ ସଂଜୟ କୁମାର ସାହୁ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 340,
+          "name": "Sangeeta Dey ( Roy)",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 333,
+          "name": "Sangita Das/ ସଂଗୀତା ଦାସ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 331,
+          "name": "Soumya Sephali Sahoo",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 328,
+          "name": "Swagatika Mishra/ ସ୍ବାଗତିକା ମିଶ୍ର",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        349,
+        333,
+        328
+      ]
+    },
+    {
+      "id": "research-068",
+      "writer_ids": [
+        319,
+        309,
+        308,
+        299,
+        297
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 319,
+          "name": "Sabyasachi Bisoi/ ସବ୍ୟସାଚୀ ବିଷୋୟୀ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 309,
+          "name": "Suresh Kumar Nayak/ସୁରେଶ କୁମାର ନାୟକ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 308,
+          "name": "Sakti Sekhar Dash",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 299,
+          "name": "Surendra Panigrahi/ ସୁରେନ୍ଦ୍ର ପାଣିଗ୍ରାହୀ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 297,
+          "name": "Satyaranjan Praharaj/ ସତ୍ୟ ରଞ୍ଜନ ପ୍ରହରାଜ",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        309
+      ]
+    },
+    {
+      "id": "research-069",
+      "writer_ids": [
+        290,
+        288,
+        282,
+        281,
+        278
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 290,
+          "name": "Sangarm Jena",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 288,
+          "name": "Selma Kopic",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 282,
+          "name": "Suchismita Ghoshal",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 281,
+          "name": "Sudipta Mishra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 278,
+          "name": "Sulekha Sarkar",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-070",
+      "writer_ids": [
+        277,
+        276,
+        273,
+        266,
+        262
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 277,
+          "name": "Sandhya Ghadei / ସଂଧ୍ଯା ଘଡେଇ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 276,
+          "name": "Satya Meher/ ସତ୍ଯ ମେହେର",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 273,
+          "name": "Swapnajita Sankhua / ସ୍ଵପ୍ନାଜିତା ଶଙ୍ଖୁଆ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 266,
+          "name": "Sumit Panda / ସୁମିତ ପଣ୍ଡା",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 262,
+          "name": "Sudeshna Mukherjee",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        277,
+        276
+      ]
+    },
+    {
+      "id": "research-071",
+      "writer_ids": [
+        259,
+        239,
+        235,
+        227,
+        220
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 259,
+          "name": "Surbhi Islam",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 239,
+          "name": "Seema Sharma",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 235,
+          "name": "Sasmita Rout",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 227,
+          "name": "Sweety Sony Lall",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 220,
+          "name": "Shankar Parida/ଶଙ୍କର ପରିଡା",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        239,
+        235,
+        227,
+        220
+      ]
+    },
+    {
+      "id": "research-072",
+      "writer_ids": [
+        215,
+        207,
+        200,
+        193,
+        191
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 215,
+          "name": "Santasree Choudhury",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 207,
+          "name": "Sumati Mund / ସୁମତି ମୁଣ୍ଡ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 200,
+          "name": "Susmita Patel",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 193,
+          "name": "Sheba Jamal",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 191,
+          "name": "Subrat Kumar Senapati",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        207
+      ]
+    },
+    {
+      "id": "research-073",
+      "writer_ids": [
+        189,
+        188,
+        187,
+        181,
+        177
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 189,
+          "name": "Seeta Maya Rai",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 188,
+          "name": "Sushant Thapa",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 187,
+          "name": "Sonia Gupta",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 181,
+          "name": "Sarita Prusty",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 177,
+          "name": "Soumen Ray",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-074",
+      "writer_ids": [
+        175,
+        173,
+        166,
+        160,
+        156
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 175,
+          "name": "Sonali Pattnaik",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 173,
+          "name": "Sohela Chhotaray",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 166,
+          "name": "Sunanda Pattanaik Janah / सुनन्दा पट्टनायक जाना",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 160,
+          "name": "Susama Dash/ସୁଷମା ଦାଶ୍",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 156,
+          "name": "Snehalata Prusty/ ସ୍ନେହଲତା ପୃଷ୍ଟି",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        173,
+        160
+      ]
+    },
+    {
+      "id": "research-075",
+      "writer_ids": [
+        154,
+        150,
+        149,
+        148,
+        147
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 154,
+          "name": "Sujata Mishra/ସୁଜାତା ମିଶ୍ର",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 150,
+          "name": "Sutanuka Ghosh Roy",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 149,
+          "name": "Sukanti Mohapatra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 148,
+          "name": "Sigma",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 147,
+          "name": "Sreedharan Parokode",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        154
+      ]
+    },
+    {
+      "id": "research-076",
+      "writer_ids": [
+        146,
+        122,
+        107,
+        101,
+        100
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 146,
+          "name": "Sarita Jenamani",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 122,
+          "name": "Snehaprava Das",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 107,
+          "name": "Santosh Bakya",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 101,
+          "name": "Sarita Naik",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 100,
+          "name": "Sreetanwi Chakraborty",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        107
+      ]
+    },
+    {
+      "id": "research-077",
+      "writer_ids": [
+        96,
+        88,
+        87,
+        69,
+        60
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 96,
+          "name": "Sharanya",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 88,
+          "name": "Sanghamitra Raiguru / ସଂଘମିତ୍ରା ରାଏଗୁରୁ",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 87,
+          "name": "Sunil Sharma",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 69,
+          "name": "Senapati Pradyumna Keshari/ସେନାପତି ପ୍ରଦ୍ୟୁମ୍ନ କେଶରୀ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 60,
+          "name": "Swapna Behera",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        88
+      ]
+    },
+    {
+      "id": "research-078",
+      "writer_ids": [
+        48,
+        46,
+        40,
+        38,
+        35
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 48,
+          "name": "Sunita Paul",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 46,
+          "name": "Sharmila Ray",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 40,
+          "name": "Sujata Dash",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 38,
+          "name": "Sweta Rout/ଶ୍ଵେତା ରାଉତ",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 35,
+          "name": "Sharmistha Sahoo/ଶର୍ମିଷ୍ଠା ସାହୁ",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-079",
+      "writer_ids": [
+        31,
+        26,
+        25,
+        449,
+        425
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 31,
+          "name": "Shuvashri Subhasmita Mishra/ଶୁଭଶ୍ରୀ ଶୁଭସ୍ମିତା ମିଶ୍ର",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 26,
+          "name": "Sujata Parashar",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 25,
+          "name": "Soubhagyabanta Moharana/ସୌଭାଗ୍ୟବନ୍ତ ମହାରଣା",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 449,
+          "name": "Tulika Bibidh Rang / तूलिका विविध रंग",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 425,
+          "name": "Tirna Sarkar",
+          "status": "source_limited_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        425
+      ]
+    },
+    {
+      "id": "research-080",
+      "writer_ids": [
+        420,
+        403,
+        298,
+        294,
+        274
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 420,
+          "name": "Tasneem Hossain",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 403,
+          "name": "Toolika Rani",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 298,
+          "name": "Tuhinamshu Rath",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 294,
+          "name": "Tapeshwar Prasad",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 274,
+          "name": "Timothy Michael DiVito",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        298
+      ]
+    },
+    {
+      "id": "research-081",
+      "writer_ids": [
+        255,
+        237,
+        234,
+        229,
+        210
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 255,
+          "name": "Tulika",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 237,
+          "name": "Tamali Neogi",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 234,
+          "name": "Til Kumari Sharma",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 229,
+          "name": "Tahera Mannan",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 210,
+          "name": "Trinath Singh/ ତ୍ରିନାଥ ସିଂ",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    },
+    {
+      "id": "research-082",
+      "writer_ids": [
+        195,
+        151,
+        287,
+        201,
+        152
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 195,
+          "name": "Tandra Mishra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 151,
+          "name": "Trishna Basak",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 287,
+          "name": "Utpal Man",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 201,
+          "name": "Umesh Chandra Mohapatra",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 152,
+          "name": "Urna Bose",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        287
+      ]
+    },
+    {
+      "id": "research-083",
+      "writer_ids": [
+        430,
+        190,
+        423,
+        438,
+        218
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 430,
+          "name": "Veena Karmachandani",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 190,
+          "name": "Vandana Kumar",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 423,
+          "name": "Youngbo Ma",
+          "status": "source_limited_local_draft"
+        },
+        {
+          "id": 438,
+          "name": "Zahir Hossain Baidya",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 218,
+          "name": "Zakir Khan / ଜାକିର ଖାନ",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": [
+        423
+      ]
+    },
+    {
+      "id": "research-084",
+      "writer_ids": [
+        258,
+        416
+      ],
+      "verification": "passed",
+      "writers": [
+        {
+          "id": 258,
+          "name": "Gargi Sarkhel Bagchi",
+          "status": "source_checked_local_draft"
+        },
+        {
+          "id": 416,
+          "name": "Nutan Sarawagi",
+          "status": "source_checked_local_draft"
+        }
+      ],
+      "status": "verified",
+      "unresolved_writer_ids": []
+    }
+  ],
+  "counts": {
+    "writers": 427,
+    "previously_enriched": 15,
+    "batches": 83,
+    "enriched_reader_drafts": 427,
+    "verified": 83
+  },
+  "next_batch": null
+}

@@ -9,9 +9,12 @@ A poetry journal shaped by **ମାଟିର ମହକ · ମନର ସ୍ୱର
 - [Current work and decisions](registers/DASHBOARD.md) · [Activity ledger](registers/activity.jsonl)
 - [Blueprint adoption and source](reference/adoption.md) · [Project identity and boundaries](reference/project-profile.md)
 - [Design knowledge](design/index.md) · [Approved design reference](reference/design-system.md)
+- [Imagery finder and canonical captions](assets/imagery.md)
 - [Artwork and icons](assets/index.md) · [Review material](review/index.md)
 - [Design history and deliveries](history/index.md) · [Evidence](evidence/index.md) · [Storage layout](reference/storage-layout.md)
 - [Website architecture and launch dependencies](reference/site-architecture.md)
+- [Author pages and reusable skills](research/author-page-system.md)
+- [Edition and full-poem import](research/edition-content-import.md)
 - [Literary-site study](research/literary-benchmark.md) · [Implementation map](reference/implementation-map.md)
 - [Persona team and workflow](team/operating-model.md) · [Assignments](team/assignments.json) · [Role lifecycle](team/lifecycle.md) · [Change history](log.md)
 

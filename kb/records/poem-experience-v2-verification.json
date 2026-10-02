@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-09-30T12:35:52.464658+00:00",
+  "prototype": "poem-experience-v2",
+  "independent": false,
+  "checks": {
+    "public_poems_unchanged": 801,
+    "range_unit_tests": 5,
+    "browser_select_partial_phrase": "deserted platform",
+    "browser_erase_partial_word": "deserted",
+    "browser_remaining_underline": " platform",
+    "source_line_unchanged": true,
+    "reload_preserves_partial_marks": true,
+    "languages_have_separate_marks": true,
+    "phone_width": 360,
+    "phone_overflow": false,
+    "first_synthetic_voices_removed_from_active_playback": true,
+    "translation_feature_review_default": "approve",
+    "audio_review_default": "changes",
+    "prototype_excluded_from_public_export": true
+  },
+  "limitations": [
+    "Real touch-device selection handles still need user testing.",
+    "Partial selection was browser-tested in English; Indic grapheme boundary behavior was covered by unit tests.",
+    "No new recitation audio generated; audition plan only, as requested.",
+    "Translation feature approval is not independent native-language editorial certification."
+  ]
+}

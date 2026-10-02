@@ -1,0 +1,69 @@
+{
+  "project": "Kabita Live",
+  "poem_id": 810,
+  "author": "Sabita Singh Meera",
+  "language": "or",
+  "translation_status": "Existing AI-assisted translation; fluent review pending.",
+  "source_path": "kb/artifacts/review/poem-experience/content.json",
+  "source_sha256": "929c928adbdc555708a46d16da92e72a68d32b9a2772e31801feead8525ae8ee",
+  "lyrics": "[Spoken word]\nଗାଁର ନିର୍ଜନ ପ୍ଲାଟଫର୍ମ,\nବରଷୁଥିବା ବୁନ୍ଦାର ଛାଇ,\nରେଳଧାରଣାରେ ଧୀରେ ଧୀରେ\nଚାଲିଯାଉଥିବା ଟ୍ରେନ୍‌ର ଥରଥର ଧ୍ୱନି।\nଆଜି ପୁଣି ସେହି ସ୍ଥାନରେ\nଯେଉଁଠି ତୁମେ ଛାଡ଼ିଯାଇଥିଲ,\nଆଉ ଏବେ ବି ଅପେକ୍ଷାରେ ଅଛି,\nତୁମେ କେବେ ଫେରିଆସିବ ବୋଲି...।\n[End]",
+  "exclude": "EDM, heavy dance beats, aggressive percussion, loud backing music, dense orchestration, overpowering bass, dramatic drops, theatrical belting, excessive vocal runs, melodic singing, chanting, rap, choir, backing vocals, vocoder, autotune effects, chopped vocals, heavy vocal echo",
+  "settings": {
+    "model": "v6",
+    "vocal_gender": "Female",
+    "weirdness": 20,
+    "style_influence": 80,
+    "variety": 0,
+    "duration": "Auto",
+    "max_mode": false,
+    "personalize": false,
+    "tempo_prompt_bpm": 70
+  },
+  "authorization": "Lets try (female comparison with the same accompaniment and settings)",
+  "scope": "One submission, expected two female Odia comparison takes; no publication.",
+  "title": "KBL · କ୍ଷଣିକା · Female voice, quiet music",
+  "style": "Spoken-word ballad, warm, resonant female Odia voice in a comfortable natural register with natural pronunciation, slow soulful narration and expressive emotional pauses. Voice intimate, clear and prominently foregrounded. Very soft, sparse piano chords and barely audible ambient pads underneath; occasional gentle flute between spoken phrases, delicate distant string swells, almost imperceptible percussion. Spacious cinematic reverb on the accompaniment, lighter reverb on the voice to preserve clarity. A subtle 70 BPM pulse supports free, natural speech. Restrained gradual build; accompaniment stays quiet throughout and gently recedes whenever the narrator speaks. Preserve every word without repetition or added lyrics.",
+  "comparison_source": "kb/production/kshanika/suno-odia-male-soft-2026-09-30/run.json",
+  "change": "Only vocal direction changed from deep male to warm, resonant female in a comfortable natural register; poem, backing direction, exclusions and numerical settings retained. Fresh generation cannot guarantee identical backing audio.",
+  "created_at": "2026-09-30T13:38:17.953708+00:00",
+  "status": "generated_selection_pending",
+  "candidates": [
+    {
+      "label": "F1",
+      "id": "ad6f5b37-f6ad-459e-9d2d-78a72005f8d3",
+      "url": "https://suno.com/song/ad6f5b37-f6ad-459e-9d2d-78a72005f8d3",
+      "status": "generated_selection_pending",
+      "audio_path": null,
+      "displayed_duration": "0:33",
+      "provider_displayed_style": "Spoken-word ballad, warm, resonant female Odia voice in a comfortable natural register with natural pronunciation, slow soulful narration and expressive emotional pauses, Voice intimate, clear and prominently foregrounded, Very soft, sparse piano chords and barely audible ambient pads underneath; occasional gentle flute between spoken phrases, delicate distant string swells, almost imperceptible percussion, Spacious cinematic reverb on the accompaniment, lighter reverb on the voice to preserve clarity, A subtle 70 BPM pulse supports free, natural speech, Restrained gradual build; accompaniment stays quiet throughout and gently recedes whenever the narrator speaks, Preserve every word without repetition or added lyrics, ‑EDM, ‑heavy dance beats, ‑aggressive percussion, ‑loud backing music, ‑dense orchestration, ‑overpowering bass, ‑dramatic drops, ‑theatrical belting, ‑excessive vocal runs, ‑melodic singing, ‑chanting, ‑rap, ‑choir, ‑backing vocals, ‑vocoder, ‑autotune effects, ‑chopped vocals, ‑heavy vocal echo"
+    },
+    {
+      "label": "F2",
+      "id": "8c6725fc-0df8-44aa-a444-3273de5e0b30",
+      "url": "https://suno.com/song/8c6725fc-0df8-44aa-a444-3273de5e0b30",
+      "status": "generated_selection_pending",
+      "audio_path": null,
+      "displayed_duration": "0:32",
+      "provider_displayed_style": "Spoken-word ballad, warm, resonant female Odia voice in a comfortable natural register with natural pronunciation, slow soulful narration and expressive emotional pauses, Voice intimate, clear and prominently foregrounded, Very soft, sparse piano chords and barely audible ambient pads underneath; occasional gentle flute between spoken phrases, delicate distant string swells, almost imperceptible percussion, Spacious cinematic reverb on the accompaniment, lighter reverb on the voice to preserve clarity, A subtle 70 BPM pulse supports free, natural speech, Restrained gradual build; accompaniment stays quiet throughout and gently recedes whenever the narrator speaks, Preserve every word without repetition or added lyrics, ‑EDM, ‑heavy dance beats, ‑aggressive percussion, ‑loud backing music, ‑dense orchestration, ‑overpowering bass, ‑dramatic drops, ‑theatrical belting, ‑excessive vocal runs, ‑melodic singing, ‑chanting, ‑rap, ‑choir, ‑backing vocals, ‑vocoder, ‑autotune effects, ‑chopped vocals, ‑heavy vocal echo"
+    }
+  ],
+  "selected_take": null,
+  "publication": false,
+  "review": {
+    "independent": false,
+    "listening": "Pending user comparison; no quality or pronunciation certification."
+  },
+  "submitted_at": "2026-09-30T13:39:36.054757+00:00",
+  "input_verification": "Verified all eight verse lines, changed vocal phrase, unchanged backing/exclusions and Female/20/80/0/Auto/Max-off/Personalize-off before one Create activation.",
+  "comparison_verified": "Only the vocal direction, vocal-gender selector and comparison title changed; verse, exclusion list and all other settings match male audition.",
+  "repository_record": "Saved locally; existing Git index lock preserved if present.",
+  "completed_at": "2026-09-30T13:40:51.094719+00:00",
+  "verification": {
+    "submissions": 1,
+    "candidate_count": 2,
+    "input_comparison": "Passed: same verse, exclusions and numerical settings as male pair; only vocal direction and title changed.",
+    "ui": "Both candidates show playback controls and completed durations.",
+    "listening": "Pending user review; natural pronunciation and music balance not certified.",
+    "publication": false
+  }
+}

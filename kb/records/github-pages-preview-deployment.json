@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-02T12:47:58.426477+00:00",
+  "status": "prepared_for_clean_checkout_verification",
+  "user_direction": "All done then - now we need to push this to git and get it hosted and then will ask het to channge DNA",
+  "authorization": "KBL-DEC-037",
+  "executor": "Current chat assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "repository": "https://github.com/ahimanikya/kabita-live",
+  "hosting_url": "https://ahimanikya.github.io/kabita-live/",
+  "hosting_mode": "preview",
+  "scope": "Commit and push the current project to the existing public repository; manually deploy the public-only Astro build to GitHub Pages for pre-DNS review. DNS and custom domain remain unchanged.",
+  "safeguards": [
+    "Existing full-release editorial and translation gates retained",
+    "Preview robots noindex/nofollow and robots.txt Disallow retained",
+    "Only dist uploaded to Pages; KB and raw preview excluded from hosting",
+    "No push-triggered deployment",
+    "Firebase and analytics disabled; existing email feedback retained"
+  ],
+  "checks": {
+    "local_unit_tests": {
+      "passed": 24,
+      "failed": 0,
+      "emulator_tests_deferred_to_ci": 5
+    },
+    "author_profiles": 429,
+    "editions": 47,
+    "captured_source_hashes": 848,
+    "writer_identity_groups": "PASS",
+    "candidate_symlinks": "No absolute or broken links",
+    "secret_pattern_scan": "Four HTML artifacts contained false-positive AWS-like strings entirely within embedded font data; no credential candidate found"
+  },
+  "remaining_editorial_items": "Preserved in KB; this hosted preview does not certify full content release readiness.",
+  "dns_change": "Deferred until hosted-site review"
+}

@@ -1,0 +1,85 @@
+{
+  "recorded_at": "2026-10-01T12:47:01.132728+00:00",
+  "decision": "KBL-DEC-036",
+  "work_ref": "KBL-WORK-009",
+  "executor": "Current chat assistant; Anvesha/Samanta/Drishti/Disha role passes",
+  "independent": false,
+  "status": "Applied and verified locally",
+  "fixed": [
+    506,
+    332
+  ],
+  "archived": [
+    385,
+    727
+  ],
+  "preserved_appended_works": [
+    {
+      "title": "Cheerio",
+      "author": "Gopal Lahiri",
+      "file": "artifacts/content-reconciliation/2026-10-01/poem-506-separated-work.json"
+    },
+    {
+      "title": "Lethe",
+      "author": "Pritha Chakraborty",
+      "file": "artifacts/content-reconciliation/2026-10-01/poem-332-separated-work.json"
+    }
+  ],
+  "profile_quote_corrected": 62,
+  "active_records": 799,
+  "active_edition_memberships": 798,
+  "draft_translation_versions": 1574,
+  "pending_target_versions": 24,
+  "held_target_versions": 0,
+  "source_research": {
+    "live_385": "Title-only confirmed through Chrome archive navigation; snapshot preserved",
+    "live_727": "Time text under Presence in Absence confirmed through Chrome; snapshot preserved",
+    "raw_506": "Explicit Cheerio / Gopal Lahiri boundary in original HTML",
+    "raw_332": "Explicit 9. Lethe / Pritha Chakraborty boundary in original HTML",
+    "corroboration": "https://www.poemhunter.com/poem/you-will-come-again/",
+    "note": "Alternate publication corroborates separate poem ending; Kabita Live wording retained, not replaced with alternate wording. Search found no verified replacement for385 or727."
+  },
+  "checks": {
+    "source_conservation": "PASS: every original stanza preserved in corrected poem, separator metadata or separately archived work",
+    "raw_html_receipts": "PASS: all848 historical capture hashes",
+    "edition_integrity": "PASS",
+    "author_integrity": "PASS",
+    "reader_navigation": "PASS",
+    "isolated_reimport": "PASS: four records and47 manifests reproduced exactly",
+    "public_build": "PASS:1307 public-format pages; Astro and Pagefind complete with telemetry disabled",
+    "browser": "PASS: corrected506/332 verse, archive727 notice, archive listing and no horizontal overflow",
+    "public_surface_regression": "PASS: archived records absent from edition/poem/search lists; original URLs show notices; wrong attributed quote absent",
+    "poem_endings_and_spacing": "PASS:799 active readers in preview/public;79 tail separations and24 spacing rules unchanged"
+  },
+  "files": [
+    {
+      "path": "content/editions/issue-27/poem-506.json",
+      "before_sha256": "7e3aafa409e0907c642c3a935a4423869155a9ad6d2add502c573af44f467329",
+      "after_sha256": "15798a9b0642428e34bf31062327b3b6dfe0c248b1d9b0d6c361251d9d4f24e7",
+      "before_snapshot": "artifacts/content-reconciliation/2026-10-01/poem-506-before.json"
+    },
+    {
+      "path": "content/editions/issue-14/poem-332.json",
+      "before_sha256": "940589cceca9f98523589a6c7408e88596c1fef6b4859b631061492241c42e23",
+      "after_sha256": "baf205b5b20b3064a99b58049bf1dab6188936ab4ec6d57ffb010a846150023c",
+      "before_snapshot": "artifacts/content-reconciliation/2026-10-01/poem-332-before.json"
+    },
+    {
+      "path": "content/editions/issue-18/poem-385.json",
+      "before_sha256": "53fe3180f2ee09b630df3b46c0f92941f4f760965c6a726cba5037e1204edf14",
+      "after_sha256": "395fff35a8e43bb38173bf88304e37afa1114609bdda05c650430bce556958c0",
+      "before_snapshot": "artifacts/content-reconciliation/2026-10-01/poem-385-before.json"
+    },
+    {
+      "path": "content/editions/issue-41/poem-727.json",
+      "before_sha256": "ac60812ebfdac0a2f11d11b987163a2f0f1e696ddecad139aa21bb16a9436736",
+      "after_sha256": "cffea487358f5aa105c0e27c2d5f4221689b915751b8c89922d2380436f98d3a",
+      "before_snapshot": "artifacts/content-reconciliation/2026-10-01/poem-727-before.json"
+    }
+  ],
+  "publication": false,
+  "portable_sync": "Run tools/sync_handoff.py and tools/check_storage.py after record regeneration; state and hashes recorded by the sync tool.",
+  "followup_records": [
+    "records/writer-audit-followup-2026-10-02.json"
+  ]
+}

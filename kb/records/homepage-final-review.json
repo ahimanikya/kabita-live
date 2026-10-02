@@ -1,0 +1,62 @@
+{
+  "status": "reviewed_awaiting_user_decision",
+  "page_type": "Home",
+  "independent_review": false,
+  "scope": "Final page-type review; approved design retained; no reader-facing changes applied.",
+  "keep": [
+    "English masthead and Odia signature",
+    "Life As It Is artwork and cotton-paper palette",
+    "Opening → three language poems → recent editions → editors",
+    "Approved compact mobile layout, theme control, menu and footer",
+    "Existing poetic section headings; no additional decoration recommended"
+  ],
+  "findings": [
+    {
+      "id": "HOME-01",
+      "priority": "fix",
+      "finding": "Odia featured excerpt is clipped mid-verse on desktop and mobile; four-line clamp consumes a blank stanza line. Desktop measured clientHeight 176 vs scrollHeight 220.",
+      "recommendation": "Use a complete intentional excerpt, such as the opening couplet, and preserve stanza spacing. Review proposed excerpt/layout before application."
+    },
+    {
+      "id": "HOME-02",
+      "priority": "polish",
+      "finding": "Homepage mixes Read this issue / All issues with Read this edition.",
+      "recommendation": "Choose consistent reader-facing labels; recommend Read this edition and All editions while keeping Issue 47 as the publication identifier."
+    },
+    {
+      "id": "HOME-03",
+      "priority": "maintenance",
+      "finding": "Current date, issue number, poem count, issue link and recent edition IDs are hardcoded in homepage generation. Current values agree with catalogue.",
+      "recommendation": "Derive these from the publication catalogue to prevent stale details on the next edition; no appearance change needed."
+    }
+  ],
+  "checks": {
+    "desktop_width": 1280,
+    "mobile_widths": [
+      320,
+      360,
+      390
+    ],
+    "horizontal_overflow": "none at checked widths",
+    "local_html_links": "41 homepage HTML links and local fragments resolve",
+    "images": "14 images loaded on desktop",
+    "duplicate_ids": "none",
+    "appearance": "desktop light and dark visually inspected; original Light selection restored",
+    "mobile_sections": "opening, poem previews, editions, editors and footer visually reviewed",
+    "source_excerpt_guard": "builder verifies writer identity and excerpt occurs in original source",
+    "shared_controls": "Earlier applied mobile verification retained as baseline; this pass confirms theme location and footer alignment"
+  },
+  "limitations": [
+    "External Facebook destination not live-validated in this pass.",
+    "Full keyboard, screen-reader, contrast and 200% text-zoom audit remains pending; no accessibility certification.",
+    "No user approval or final completion recorded."
+  ],
+  "evidence": [
+    "evidence/homepage-final-review/mobile-excerpt.png",
+    "evidence/homepage-final-review/mobile-editors-footer.png",
+    "evidence/homepage-final-review/desktop-light.png",
+    "evidence/homepage-final-review/desktop-dark.png",
+    "evidence/homepage-final-review/check.html"
+  ],
+  "baseline": "records/mobile-refinement-applied.json"
+}

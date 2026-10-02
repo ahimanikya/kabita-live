@@ -1,0 +1,32 @@
+{
+  "status": "drafts-for-editorial-review",
+  "poem_ids": [
+    268,
+    270,
+    273,
+    274,
+    275
+  ],
+  "translations": 10,
+  "independent": false,
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "method": "Read each original fully; direct chat translation for 270/273/274/275. For 268, verified identical original/title/author/hash against 304 and reused its existing direct-source drafts for consistency; same-assistant review, independent linguistic review pending.",
+  "editorial_notes": {
+    "268": [
+      "Exact same-author/title/text repeat of 304, verified byte equality and source hash after full reading. Retains existing draft choices for flowers and source typos; no author/edition merge or alteration of 304. Reused draft provenance: batch-114 poem 304."
+    ],
+    "270": [
+      "All four blocks retained, including interrupted syntax and breath quotation. No attribution invented for opening someone had said. Dots/dashes remain open metaphor, not assigned a coded message."
+    ],
+    "273": [
+      "Seven couplets retained. Rows/throes and gutter comparison preserved without trying to force target rhyme. Winnowing metaphor retained."
+    ],
+    "274": [
+      "Thirty-six lines preserved, including isolated Alone and And then. Virus left unnamed; hospital bereavement not given invented date or medical details. Burning in sunlight remains metaphor."
+    ],
+    "275": [
+      "Twenty-five lines preserved. Rainbowing, trick mirror and jigsaw images retained; unendinly read unendingly. Hindi feminine grammatical speaker provisional."
+    ]
+  },
+  "publication": false
+}

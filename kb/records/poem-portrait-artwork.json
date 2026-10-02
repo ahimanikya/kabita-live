@@ -1,0 +1,32 @@
+{
+  "approval": "B is good; can we randomize it?",
+  "constraint": "Poem images must not reuse cover images; cover artwork belongs to its edition.",
+  "implementation": {
+    "byline": "56px identity-matched existing profile image and name in one local profile link",
+    "poem_only_library": 6,
+    "bespoke_poem_illustrations_retained": 3,
+    "randomization": "Saved deterministic assignment; cycle the dedicated pool before repeats; avoid consecutive duplicates. Stable across refresh/build.",
+    "covers_reused_on_poem_pages": 0,
+    "poems_with_portraits": 798,
+    "poems_without_available_portraits": 3,
+    "generated_with": "Built-in image_gen",
+    "masters_and_prompts": "artifacts/artwork/poem-library-v1"
+  },
+  "verification": {
+    "poems_checked": 801,
+    "verse_unchanged": true,
+    "all_art_files_present": true,
+    "no_cover_paths": true,
+    "stable_mapping_after_rerun": true,
+    "no_adjacent_repeats_in_each_edition": true,
+    "phone_checks": [
+      "poem-815.html",
+      "poem-dokana.html",
+      "poem-kshanika.html",
+      "poem-drink.html"
+    ],
+    "phone_viewport": 360,
+    "horizontal_overflow": false
+  },
+  "publication": false
+}

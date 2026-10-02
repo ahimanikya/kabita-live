@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 29,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    529,
+    533,
+    530,
+    531,
+    532,
+    520,
+    521,
+    522,
+    523,
+    524,
+    525,
+    526,
+    527,
+    528,
+    534,
+    535,
+    536,
+    537
+  ],
+  "source_held": [],
+  "new_translations": 36,
+  "total_drafts": 592,
+  "remaining_translations": 1010,
+  "batches": [
+    "batch-063",
+    "batch-064",
+    "batch-065",
+    "batch-066"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 18 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 36 versions; all ten haiku, headings, repeats and closing material retained",
+    "rendered_catalogue_parity": "pass for all 36 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "521": "Two conversational paragraphs confirmed in local original HTML and retained as source content; probable drafting residue needs explicit editorial reconciliation.",
+    "526": "Same-author eight-stanza prefix exactly matches poem552, existing draft prefix reused unchanged. Additional titled street narrative translated fully; records not merged.",
+    "527": "Title five/body ten haiku mismatch preserved with all ten poems.",
+    "528": "Calendar note retained despite February/March framing.",
+    "534": "Local biography says English and Odia writer; no named translation credit found. Supplied English used, no reconstructed original."
+  },
+  "publication": false,
+  "next_edition": 28,
+  "next_poem_ids": [
+    515,
+    516,
+    517,
+    518,
+    519
+  ]
+}

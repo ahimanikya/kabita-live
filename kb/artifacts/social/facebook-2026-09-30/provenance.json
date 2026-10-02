@@ -1,0 +1,44 @@
+{
+  "purpose": "Kabita Live Facebook completion; user authorized cover, editor information, images and welcoming details. Website linking explicitly deferred until migration.",
+  "source_files": [
+    {
+      "path": "kb/artifacts/artwork/masters/home/life-after-rain.png",
+      "sha256": "3091e8a1c563a706ba1d68362d0ee71dbdc9ab1f85d5d00174060d98ad9a1cf6"
+    },
+    {
+      "path": "kb/artifacts/artwork/masters/editors/pradeep-biswal-artistic-v1.png",
+      "sha256": "5c7499804dcbc06cd668e2e285f104d01ef2497be3e5138c47edf9bd4580a3a7"
+    },
+    {
+      "path": "kb/artifacts/artwork/masters/editors/paresh-kumar-pattnaik-artistic-v1.png",
+      "sha256": "00cdfa0835fee6ff4a76bd2679c2524983178b6f22934217638b1a900ed8936d"
+    },
+    {
+      "path": "output/kabitalive-design-proposal-2026-09-29/site/assets/kabita-live-symbol.svg",
+      "sha256": "621f06255f5512e76ff1f13c4383fbb705e7ce671bc36265cd149bb0e5758ff6"
+    },
+    {
+      "path": "kb/team/publication-editors.json",
+      "sha256": "0ba83f4251d4f0bec71b7dbfb5de7d26541793b530573b06d007dbc2b6b6b59a"
+    },
+    {
+      "path": "output/kabitalive-design-proposal-2026-09-29/site/editor-pradeep.html",
+      "sha256": "491fce9570732fc03108453495659538b18d3e0dc0eff33fb73833fdffcfa36a"
+    },
+    {
+      "path": "output/kabitalive-design-proposal-2026-09-29/site/editor-paresh.html",
+      "sha256": "d28bbd8ed3a650ef20bd8e48eae7152b21471919e97ab174da1ce82ac793e4c8"
+    },
+    {
+      "path": "output/kabitalive-design-proposal-2026-09-29/site/about.html",
+      "sha256": "a837ea49e8b17adf1ce3729191063b929520a98518774e9ec4442b0de47322a5"
+    }
+  ],
+  "portrait_sources": {
+    "Pradeep Biswal": "https://pradeepbiswal.in/",
+    "Paresh Kumar Pattnaik": "https://puriliteraturefestival.com/speaker/paresh-patnaik/"
+  },
+  "derivation": "HTML/CSS compositions reuse approved local fonts, colors, source images and journal signature. Existing bitmap masters unchanged. Browser screenshots exported cover at 1640x720 and editor cards at 1080x1350.",
+  "image_disclosure": "Cover and post captions disclose AI-assisted artwork or portrait treatment. Editor and welcome posts use Facebook AI label.",
+  "independent_review": false
+}

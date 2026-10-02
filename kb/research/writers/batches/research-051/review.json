@@ -1,0 +1,36 @@
+{
+  "batch": "research-051",
+  "status": "verified",
+  "independent": false,
+  "writer_ids": [
+    291,
+    283,
+    279,
+    212,
+    205
+  ],
+  "reader_drafts": 5,
+  "externally_corroborated": 4,
+  "source_limited": [
+    205
+  ],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "PASS",
+    "editions": "PASS",
+    "preserved_source_files": 805,
+    "existing_narratives_preserved": 260,
+    "rendered_narratives": 5,
+    "browser_visual": "Not repeated; prose/data only, approved renderer unchanged."
+  },
+  "limitations": [
+    "Independent author/editor review pending.",
+    "291 book titles supported by interview; dedicated book links not verified.",
+    "283 award claims not repeated; scholarly degree status not assumed current.",
+    "279 collection year conflict recorded; book link index-verified but direct fetch failed.",
+    "212 same-name critic and Kranti identities not merged; historical Srujan teaching note attributed.",
+    "205 source-limited poem-based introduction; no secure external biography."
+  ],
+  "resume": "research-052",
+  "publication": "No deployment or push."
+}

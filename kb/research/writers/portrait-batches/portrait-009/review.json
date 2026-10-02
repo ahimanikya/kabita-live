@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-02T12:29:19.130286+00:00",
+  "batch": "portrait-009",
+  "writer_ids": [
+    20,
+    321,
+    286,
+    158,
+    206
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:49 artistic portraits,375 photographs,3 initials",
+    "Edition integrity check passed",
+    "1862 protected baseline files unchanged; only authorized portrait map differs",
+    "All recorded portrait source/master hashes match",
+    "Representative desktop1280 and mobile360 profile visually inspected without horizontal overflow",
+    "All five64px circular directory crops loaded and visually inspected"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Source20 is soft with lens reflections; source158 is tightly cropped with obscured eyes. Fine texture interpretive; close source framing retained. Individual comparisons saved in portrait-edits.json",
+    "Counts describe original427 portrait records, not deduplicated directory identities",
+    "Local integration only; no publication"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile.png",
+    "directory.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log"
+  ]
+}

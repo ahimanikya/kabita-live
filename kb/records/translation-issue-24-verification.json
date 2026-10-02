@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 24,
+  "status": "actionable drafts complete; one source record held; independent linguistic review pending",
+  "poems_drafted": [
+    466,
+    468,
+    470,
+    471,
+    477,
+    474,
+    475,
+    481,
+    465,
+    467,
+    469,
+    473,
+    476,
+    478,
+    479,
+    480,
+    482
+  ],
+  "source_held": [
+    472
+  ],
+  "new_translations": 34,
+  "total_drafts": 698,
+  "remaining_translations": 904,
+  "batches": [
+    "batch-075",
+    "batch-076",
+    "batch-077",
+    "batch-078"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 17 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 34 versions",
+    "rendered_catalogue_parity": "pass for all 34 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output for translated entries",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "472": "Preserved HTML confirms explicit translation credit to Bibekananda Choudhury; no matching underlying original found locally. Both additional versions held pending original/source-language and attribution reconciliation.",
+    "470": "Tahia, goti-pahandi and charamala retained as cultural terms; native review pending.",
+    "465": "Ambiguous heed/blindness clause retained without adding a missing negation.",
+    "473": "groove retained verbatim after removing conjectural grove reading; three-letter word unnamed.",
+    "481": "Truncated refrain read consistently with repeated full refrain, original unchanged."
+  },
+  "publication": false,
+  "next_edition": 23,
+  "next_poem_ids": [
+    456,
+    457,
+    460,
+    462,
+    464
+  ]
+}

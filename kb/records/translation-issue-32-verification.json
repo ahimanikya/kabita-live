@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 32,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    560,
+    564,
+    572,
+    553,
+    562,
+    570,
+    554,
+    555,
+    556,
+    558,
+    559,
+    561,
+    563,
+    565,
+    566,
+    569,
+    571,
+    573,
+    574
+  ],
+  "source_held": [],
+  "new_translations": 38,
+  "total_drafts": 526,
+  "remaining_translations": 1076,
+  "batches": [
+    "batch-055",
+    "batch-056",
+    "batch-057",
+    "batch-058"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 19 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 38 versions; single-line stanzas, repetitions and closing material retained",
+    "rendered_catalogue_parity": "pass for all 38 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "560": "Tribute parenthesis damaged; read contextually as Ramakanta Rath tribute. Regional expressions flagged.",
+    "563": "Sloppy hills provisionally interpreted as sloping hills, confirmation needed.",
+    "566": "Title suffix *< retained for explicit editorial reconciliation.",
+    "574": "Magnolia interpreted from Mangolia; vegan/pagan and other unusual phrases retained and flagged."
+  },
+  "publication": false,
+  "next_edition": 31,
+  "next_poem_ids": [
+    548,
+    550,
+    546,
+    547,
+    551
+  ]
+}

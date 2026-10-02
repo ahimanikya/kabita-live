@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 15,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    340,
+    341,
+    343,
+    344,
+    345,
+    346,
+    347
+  ],
+  "source_held": [],
+  "new_translations": 14,
+  "total_drafts": 942,
+  "remaining_translations": 660,
+  "batches": [
+    "batch-107",
+    "batch-108"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 7 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 14 versions",
+    "rendered_catalogue_parity": "pass for all 14 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "340": [
+      "Eight blocks retained, including source contact/address and symbols. Gobari Pat, bena mound and Barunabanta retained; Barunabanta allusion remains unexpanded. Baimaṇa interpreted wandering/bawra mind provisionally; chandua net read canopy net. Dharma-baka hypocrisy metaphor retained without assigning a religious group."
+    ],
+    "341": [
+      "Seven blocks including six-line existing source address retained. Baisakh heat and Malaya breeze rendered provisionally. Long fourth line of penultimate stanza retained; no invented relationship history."
+    ],
+    "343": [
+      "All twenty lines retained. Gender/religion assertions and concluding conditional remain author’s social critique, not independently verified universal claims or endorsement of dependence on men."
+    ],
+    "344": [
+      "Thirty-five lines retained. Kashi/Ganga rituals and commerce imagery kept; no new ritual explanation or travel claims added."
+    ],
+    "345": [
+      "All three blocks [18,14,2] retained, including very short isolated lines. Speaker left as personified vacant space; intrusion not assigned to a named disease or event."
+    ],
+    "346": [
+      "Both blocks [5,18] retained. Abstract syntax (Focus/Display/Finality) remains deliberately fragmentary. Eclectic spontaneity provisionally rendered as spontaneous synthesis of diverse ideas; independent philosophical/linguistic review needed. Lotus flower and lily pads remain distinct source images; no Buddhist doctrine inferred."
+    ],
+    "347": [
+      "Both five-line stanzas retained, including long fourth and eighth lines. Self-doubt split reflected with hyphenated target compounds. R kakima remains a transliterated address without inventing full identity or diagnosis. Source typo ofblue understood as of blue only in drafts; original untouched. Detergent/copper-sulphate association preserved as poetic imagery, not advice."
+    ]
+  },
+  "publication": false,
+  "next_edition": 14,
+  "next_poem_ids": [
+    322,
+    337,
+    326,
+    338,
+    323
+  ]
+}

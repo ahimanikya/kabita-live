@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-02T05:49:36.515093+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": [
+    "Drop Book review does that make any sense",
+    "Poet page image can be slightly bigger",
+    "Clarification: The illustration on the Poets directory"
+  ],
+  "changes": [
+    "Removed Book reviews link from Our Story journal navigation.",
+    "Excluded ten book-review routes from public export and search; preserved local generated pages, builders and source records.",
+    "Poets directory artwork desktop width increased from effective 325px to 390px with allocated grid space; full-width mobile layout and portrait cards preserved."
+  ],
+  "checks": [
+    "Public build passed: 1297 routes, 1296 indexed pages; no public links to excluded review pages.",
+    "429 author profiles and 47 editions checked; 848 source hashes verified.",
+    "Only about.html and poets.html changed among baseline HTML/content/data files.",
+    "1280px and 390px browser checks: artwork 390px and 350px respectively, no horizontal overflow."
+  ],
+  "evidence": [
+    "artifacts/review/poets-art-and-review-retirement/integrity.json",
+    "artifacts/review/poets-art-and-review-retirement/browser-checks.json",
+    "artifacts/review/poets-art-and-review-retirement/desktop.png",
+    "artifacts/review/poets-art-and-review-retirement/mobile.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "No publication; existing release gate remains conservative and unchanged.",
+    "Local review URLs remain available as preserved material."
+  ]
+}

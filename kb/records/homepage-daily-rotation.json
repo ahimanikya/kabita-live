@@ -1,0 +1,36 @@
+{
+  "status": "applied_locally",
+  "authorization": "User approved daily rotation: Sounds good, let’s do that.",
+  "independent": false,
+  "edition": 47,
+  "candidates": {
+    "or": 5,
+    "hi": 2,
+    "en": 9
+  },
+  "rule": "One original poem per language; publication order; index advances at midnight India Standard Time, anchored to the first day of the current edition month. Stable on same-day reload; open reading session remains still.",
+  "fallbacks": "Single item persists. No empty cards for an absent language. No JavaScript: first eligible poem in each language.",
+  "preserved": [
+    "Four nonempty source lines; Odia danda omitted only on homepage",
+    "Source text, translations, source hashes and reader layouts",
+    "Existing local portraits and linked writer profiles",
+    "No added reader controls or labels"
+  ],
+  "checks": {
+    "unit_tests": "4 pass: IST boundary, equivalent timestamps, all cycles, single/empty languages and new edition",
+    "layout": "135 cases:45 dates at320/360/1280; no clipping or overflow",
+    "source_parity": "All16 template excerpts match first4 nonempty source lines with approved display normalization, in preview and public output",
+    "public_build": "pass;1307 pages",
+    "source_integrity": "47 editions;848 hashes pass"
+  },
+  "evidence": [
+    "evidence/homepage-daily-rotation/check-results.json",
+    "evidence/homepage-daily-rotation/check.html"
+  ],
+  "limitations": [
+    "Client-side clock determines the India date.",
+    "No-JavaScript fallback is static.",
+    "Broader accessibility and linguistic reviews remain open.",
+    "No deployment or push."
+  ]
+}

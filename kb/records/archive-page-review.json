@@ -1,0 +1,67 @@
+{
+  "recorded_at": "2026-10-02T01:39:09.219951+00:00",
+  "work_ref": "KBL-WORK-004",
+  "executor": "Current assistant; Drishti review",
+  "independent": false,
+  "status": "findings_ready_for_discussion",
+  "url": "http://127.0.0.1:8771/archive.html",
+  "scope": "Main archive and year-navigation review; no site changes.",
+  "checks": {
+    "manifest": "All47 edition destinations represented; no missing local links in main archive or five year pages",
+    "year_filter": "2022 yields2 issues;2025 yields12; matches year counts",
+    "view_switch": "Covers/List toggle works with active year filter",
+    "navigation": "Issue1 opens November2022 with poems;2022 year tile opens correct two-issue page",
+    "responsive": "No horizontal overflow at1440,390,360; first cover top779px desktop,1050px at390,1030px at360",
+    "dark_theme": "Filtered mobile List inspected; initial Light restored",
+    "year_current_state": "No aria-current on any year link when viewing2022"
+  },
+  "findings": [
+    {
+      "id": "ARC-01",
+      "priority": "medium",
+      "finding": "Hero and controls delay first cover on mobile beyond initial screen.",
+      "proposal": "Compact opening while retaining the book artwork and approved type."
+    },
+    {
+      "id": "ARC-02",
+      "priority": "medium",
+      "finding": "Large year tiles and Year select duplicate the same choice but behave differently: new pages versus inline filtering.",
+      "proposal": "Use one compact, clearly selected year control; retain existing year URLs for incoming links."
+    },
+    {
+      "id": "ARC-03",
+      "priority": "suggestion",
+      "finding": "All47 full-size covers create a roughly31,210px page at390px width.",
+      "proposal": "Show12 newest editions initially, then Show more editions; year filter narrows selection."
+    },
+    {
+      "id": "ARC-04",
+      "priority": "suggestion",
+      "finding": "Cover image story repeats beneath each archive card and is already present on the edition page; adds considerable height even in List view.",
+      "proposal": "Keep archive cards focused on cover,date,issue and opening the edition; retain full story on edition page."
+    },
+    {
+      "id": "ARC-05",
+      "priority": "low",
+      "finding": "List rows remain242px tall on390px width; small cover and text leave unused space and story adds a second row.",
+      "proposal": "If retaining List view, make it genuinely compact; preserve Covers as default."
+    },
+    {
+      "id": "ARC-06",
+      "priority": "low",
+      "finding": "Separate year page does not identify active year in its navigation.",
+      "proposal": "Clear active-year styling plus aria-current."
+    }
+  ],
+  "evidence": [
+    "artifacts/review/archive/desktop-covers.png",
+    "artifacts/review/archive/mobile-opening.png",
+    "artifacts/review/archive/mobile-list.png"
+  ],
+  "limitations": [
+    "Same-assistant review, not independent accessibility certification.",
+    "No external tourism-link reachability check, full screen-reader audit or real-device test.",
+    "Original content/identity audit remains separate."
+  ],
+  "next_action": "Discuss findings with user before creating a mockup."
+}

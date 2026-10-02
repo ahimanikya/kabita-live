@@ -1,0 +1,35 @@
+{
+  "reviewed_on": "2026-09-29",
+  "profiles": 427,
+  "captured_biographies": 381,
+  "missing_biographies": 46,
+  "contribution_links": 778,
+  "source_portraits_saved": 426,
+  "local_link_check": "All 427 writer routes and 778 contribution links resolve; linked issues exist; no legacy-site URLs in profile HTML.",
+  "build": "Astro and Pagefind succeeded: 1287 indexed reader pages",
+  "browser": {
+    "width_360_no_overflow": [
+      "poet-kshanika.html",
+      "poet-dokana.html",
+      "poet-56.html",
+      "editor-pradeep.html"
+    ],
+    "desktop_no_overflow": "poet-460.html at 1669 CSS px",
+    "filters": [
+      "Hindi title search returns क्षणिका",
+      "Year 2024 leaves only 2024 group visible",
+      "No-match query displays the empty state"
+    ]
+  },
+  "skill_validation": "Frontmatter and referenced paths inspected. Official quick_validate.py could not run because PyYAML is unavailable in both installed Python runtimes.",
+  "limits": [
+    "Captured biographies are journal-supplied, not independently fact-checked",
+    "46 biographies absent; one contribution lacks edition metadata",
+    "One portrait source missing: Manju Chouhan (writer 233)",
+    "No new artistic writer portraits generated in this pass",
+    "Full poem texts and reviews remain to import",
+    "No deployment performed"
+  ],
+  "portrait_validation": "All 426 images decode; no duplicate hashes; no images below 150px on the short side.",
+  "screenshot_limitation": "Browser screenshot capture exhibited scaling/duplication artifacts; responsive checks use measured DOM widths and live filter behavior. Screenshot files are diagnostic, not visual certification."
+}

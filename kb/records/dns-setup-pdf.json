@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "artifact": "artifacts/delivery/dns-setup/Kabita-Live-DNS-Setup-Instructions.pdf",
+  "pages": 3,
+  "checks": [
+    "All three pages rendered and visually reviewed",
+    "DNS addresses and readiness note verified through PDF text extraction",
+    "Clickable official documentation references"
+  ],
+  "source": "Forwarding-ready DNS instructions in this chat, based on read-only GitHub Pages and public DNS checks on 1 October2026 UTC",
+  "limitations": [
+    "GitHub Pages returned404 at the check; wait for successful publication and readiness confirmation before DNS cutover",
+    "No DNS or GitHub settings changed"
+  ],
+  "independent": false
+}

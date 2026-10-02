@@ -1,0 +1,18 @@
+{
+  "quote": "Remove the footer navigation of the edition or make it simple and subtle. Replace signature and poem count with cover image story. Remove edition search, Reading language label and result count. Use icon with hover text instead of arrow; language in its own column.",
+  "scope": "All 47 edition pages",
+  "implemented": [
+    "Cover art title and exact narrative in opening",
+    "Cultural context visible beneath cover; references retained",
+    "No edition search or visible filter label/count",
+    "Separate language column",
+    "Single-ink open-book link with hover/focus text",
+    "All editions link at the top right of the contents heading",
+    "Edition covers use the homepage artwork’s 1px warm keyline"
+  ],
+  "publication": false,
+  "cover_refinement_quote": "Give the same treatment to the cover image as the home page image",
+  "caption_refinement": "Show cultural context as an always-visible caption beneath the cover, instead of a collapsed section.",
+  "navigation_refinement": "All editions moves to the list top right, beside Within these pages, matching the homepage.",
+  "typography_refinement": "Approved middle ground: poem title 27px desktop / 24px mobile, poet 20px, language 18px. Keep wider columns."
+}

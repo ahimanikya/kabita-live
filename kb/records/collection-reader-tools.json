@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-02T06:56:44.535078+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": [
+    "Remove Reading language",
+    "Add reading tools - where I can selection language font size etc",
+    "Give an artistic treatment to copy and page",
+    "Bring reader tool like we have in edition page to the Poems page too"
+  ],
+  "changes": [
+    "Removed standalone language filter from Poems; results remain the complete collection.",
+    "Added matching Aa Reader tools popover with Original/Odia/Hindi/English and Standard/Large/Extra large button groups, selected underline, close button, outside-click and Escape dismissal.",
+    "Language changes catalogue titles and poem destination language; font size changes list titles and bylines.",
+    "Search now includes existing translated titles alongside original text/title/poet.",
+    "Applied existing leaf/manuscript icons to Follow a word and Return to an edition labels; updated placeholder and empty-result copy."
+  ],
+  "checks": [
+    "Public build passed1297routes/1296indexed pages; edition check passed47editions/848source hashes.",
+    "871 source/content/data files remain unchanged.",
+    "799title records valid;787have all three language titles.",
+    "Original,English,Hindi,Odia,title size38px/reset27px,unchanged799results,search6matches,Escape/outside dismissal verified.",
+    "390pxmobile panel fits viewport; no overflow at1280px or390px with extra large text.",
+    "English poem link opened The Shop with lang=en and English verse."
+  ],
+  "evidence": [
+    "artifacts/review/collection-reader-tools/checks.json",
+    "artifacts/review/collection-reader-tools/desktop.png",
+    "artifacts/review/collection-reader-tools/mobile.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "Missing translated titles fall back to Original; no new translations invented.",
+    "Text-size choice affects collection list; individual poem reader keeps its own size controls.",
+    "No publication; translation linguistic review remains pending."
+  ]
+}

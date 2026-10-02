@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-10-01T12:22:33.831022+00:00",
+  "status": "research_in_progress_mock_ready",
+  "independent": false,
+  "authorization": "User requested sourced enrichment, followed by mockup review and joint finalization.",
+  "batch": "research-001",
+  "new_enriched_writer_ids": [
+    21,
+    56,
+    62,
+    28,
+    327,
+    76,
+    184,
+    49,
+    455,
+    460,
+    27,
+    456
+  ],
+  "total_enriched_writers": 15,
+  "total_non_editor_writers": 427,
+  "remaining_to_enrich": 412,
+  "partial_identity_investigations": [
+    41,
+    377,
+    233
+  ],
+  "tracking": "research/writers/enrichment-progress.json",
+  "mock": "artifacts/review/site/poet-enrichment-review.html",
+  "mock_options": {
+    "A": "Open concise biography; compact spacing and mobile metadata; books after poems on phones, below portrait on desktop.",
+    "B": "Same, with biography after first paragraph collapsible on phones."
+  },
+  "applied": "Twelve sourced narrative drafts and book references; accurate per-profile portrait credit and source-review date in central colophon.",
+  "not_applied": "Mock layout proposals; no new portraits generated; remaining writer research; author/editor factual approval.",
+  "checks": {
+    "author_integrity": "PASS:429 profiles,15 enriched narratives,800 contribution links",
+    "editions": "PASS:47 editions,801 poems,848 raw source hashes",
+    "preservation": "PASS:805 poem/profile/portrait/quote/publication-note file hashes and3 existing enrichment records unchanged",
+    "public_build": "PASS:1307 indexed pages; review mock excluded",
+    "browser": "Seven cases:360px,820px,1280px; no horizontal overflow or unloaded portraits recorded; no independent accessibility certification"
+  },
+  "evidence": [
+    "evidence/writer-enrichment-001/browser-checks.json",
+    "evidence/writer-enrichment-001/desktop.png"
+  ],
+  "limitations": [
+    "412 non-editor profiles remain to enrich, including3 partial identity investigations.",
+    "Same-assistant source review; author/editor factual review pending.",
+    "Some sources were accessible through indexed text only; live reachability is not fully verified.",
+    "No portrait changes or source-text changes."
+  ],
+  "publication_authorized": false,
+  "next_action": "Discuss the mock options; continue writer research in small saved groups without conflating namesakes. Do not apply a layout choice without user approval."
+}

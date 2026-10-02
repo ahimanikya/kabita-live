@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 34,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    592,
+    594,
+    595,
+    603,
+    604,
+    605,
+    597,
+    599,
+    609,
+    591,
+    593,
+    596,
+    598,
+    600,
+    602,
+    606,
+    607,
+    608,
+    610
+  ],
+  "source_held": [],
+  "new_translations": 38,
+  "total_drafts": 450,
+  "remaining_translations": 1152,
+  "batches": [
+    "batch-047",
+    "batch-048",
+    "batch-049",
+    "batch-050"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 19 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 38 versions; closing symbols, credits and long lines retained",
+    "rendered_catalogue_parity": "pass for all 38 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "600": "Unusual tinkling of bees retained; not silently corrected to bells.",
+    "606": "Unresolved conditional syntax retained; well-endowed provisionally bodily fullness.",
+    "608": "Awkward grammar and mixed metaphors interpreted provisionally; requires linguistic review."
+  },
+  "publication": false,
+  "next_edition": 33,
+  "next_poem_ids": [
+    577,
+    578,
+    579,
+    581,
+    583
+  ]
+}

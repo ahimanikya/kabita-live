@@ -1,0 +1,40 @@
+{
+  "status": "approved_applied",
+  "independent": false,
+  "source_homepage_sha256": "2ebf316f7309b2c2080605542b634f868b6914fc9255262207daff67b0bdf738",
+  "source_excerpt": "ବନ୍ଦ ହୋଇଗଲା ଦୋକାନ\nସବୁ ଖୁସିର ପର୍ବରେ ପଡିଗଲା ପହଡ଼ ।\n\nବର୍ଷାରେ ଭିଜିବା ବଂଦ ହୋଇଗଲା ତା`ର\nମନଖୋଲି ଗୀତ ଗାଇବା ଭୁଲିଗଲା ସେ ।",
+  "option_a": "ବନ୍ଦ ହୋଇଗଲା ଦୋକାନ\nସବୁ ଖୁସିର ପର୍ବରେ ପଡିଗଲା ପହଡ଼ ।",
+  "option_b": "ବନ୍ଦ ହୋଇଗଲା ଦୋକାନ\nସବୁ ଖୁସିର ପର୍ବରେ ପଡିଗଲା ପହଡ଼ ।\n\nବର୍ଷାରେ ଭିଜିବା ବଂଦ ହୋଇଗଲା ତା`ର\nମନଖୋଲି ଗୀତ ଗାଇବା ଭୁଲିଗଲା ସେ ।",
+  "scope": [
+    "Complete excerpt options",
+    "Consistent edition links"
+  ],
+  "maintenance_proposal": "Derive edition details from catalogue on approval; no visual difference and not implemented by mock.",
+  "preview": "http://127.0.0.1:8771/homepage-polish-review.html",
+  "reader_site_changed": false,
+  "checks": {
+    "source_homepage": "hash unchanged",
+    "desktop_1280": "A excerpt containers 176px, B 220px; no clipping; all three reading links align in both options",
+    "phone_360": "A and B visually checked; original stanza break retained in B",
+    "comparison": "Current/A/B switching and desktop/phone selector verified",
+    "theme": "separate mock preference; defaults light",
+    "analytics": "removed from mock snapshots",
+    "limitations": [
+      "Same-assistant review",
+      "Not full accessibility certification",
+      "No choices saved on user behalf"
+    ]
+  },
+  "evidence": [
+    "evidence/homepage-polish-mock/option-a-desktop.png",
+    "evidence/homepage-polish-mock/option-b-desktop.png",
+    "evidence/homepage-polish-mock/option-b-phone.png"
+  ],
+  "application_record": "records/homepage-polish-applied.json",
+  "current_reconciliation": {
+    "recorded_at": "2026-10-02T05:05:32.791691+00:00",
+    "record": "records/approval-application-audit.json",
+    "note": "Historical mock scope and check results retained below; use linked application record for current status."
+  },
+  "next_action": "Historical preview retained; review actual reader page for any remaining discrepancy."
+}

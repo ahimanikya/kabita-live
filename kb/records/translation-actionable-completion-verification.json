@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-30",
+  "status": "All actionable source records drafted; partial overall completion:28 targets held across14 source records; independent linguistic review pending",
+  "drafted_records": 787,
+  "draft_versions": 1574,
+  "held_records": 14,
+  "held_targets": 28,
+  "actionable_remaining": 0,
+  "last_batch": "batch-178",
+  "checks": {
+    "source_sha256": "PASS for787 translated records",
+    "original_rendered_content": "PASS for801 source records in preview and public",
+    "rendered_catalogue_parity": {
+      "preview": {
+        "source_records": 801,
+        "draft_versions": 1574,
+        "reading_pages": 801
+      },
+      "public": {
+        "source_records": 801,
+        "draft_versions": 1574,
+        "reading_pages": 801
+      }
+    },
+    "edition_integrity": "PASS",
+    "public_site_build": "PASS",
+    "current_run_line_stanza_validation": "PASS batches174–178",
+    "global_line_vector_exceptions": [],
+    "independent_linguistic_review": "pending"
+  },
+  "holds": {
+    "797": {
+      "reason": "Published English text explicitly credits Bandana Sahoo as translator from Odia. Authoritative Odia original is not present in this edition; do not recreate it and label it Original.",
+      "evidence": "projects/site/content/editions/issue-46/poem-797.json",
+      "action": "Locate and identity-match the Odia original, reconcile source/translator labels, then translate missing targets.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "784": {
+      "reason": "Stored Odia text credits an adaptation (ଅନୁସୃଜନ) by Pradeep Biswal while author metadata names Tasneem Hossain. Underlying original and its language are not identified in the local poem record.",
+      "evidence": "projects/site/content/editions/issue-45/poem-784.json",
+      "action": "Locate and identity-match the underlying original and reconcile original/adaptation labels and named credit before generating additional versions. Preserve the published Odia adaptation.",
+      "targets": [
+        "hi",
+        "en"
+      ]
+    },
+    "727": {
+      "reason": "Title/author conflict: PRESENCE IN ABSENCE by Dilip Mohapatra contains Time plus the exact text of poem 761, Time by Divya K Unni in Issue 43. Both preserved HTML captures reproduce these differing attributions; no distinct matching original found locally.",
+      "evidence": "projects/site/content/editions/issue-41/poem-727.json; projects/site/content/editions/issue-43/poem-761.json; kb/artifacts/content-import/editions/issue-41/poem-727.html; kb/artifacts/content-import/editions/issue-43/poem-761.html",
+      "action": "Obtain the correct text for Presence in Absence and confirm authorship of Time. Preserve both published records and existing poem-761 drafts; do not duplicate translations under the conflicting attribution.",
+      "targets": [
+        "hi",
+        "or"
+      ]
+    },
+    "506": {
+      "reason": "Combined-source authorship conflict: The lovelorn crane is attributed to Paramita Mukherjee Mullick, but its body appends Cheerio with an explicit Gopal Lahiri credit and seven additional couplets. The preserved original HTML contains the same mixture; no separate local Cheerio record found.",
+      "evidence": "projects/site/content/editions/issue-27/poem-506.json; kb/artifacts/content-import/editions/issue-27/poem-506.html",
+      "action": "Confirm the intended two poem records, their boundaries and author identities; reconcile attribution before generating translations under a single author. Preserve the full captured text and embedded Gopal Lahiri credit.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "472": {
+      "reason": "The Temple of Afruza Akhtar by Nilim Kumar explicitly credits Translation ; Bibekananda Choudhury in its English body. The preserved original HTML confirms this credit; no matching underlying original or identified source-language text was found in the local catalogue.",
+      "evidence": "projects/site/content/editions/issue-24/poem-472.json; kb/artifacts/content-import/editions/issue-24/poem-472.html",
+      "action": "Obtain and identity-match the underlying original and its language, reconcile Original/Translation labels and preserve Bibekananda Choudhury’s credit before additional translations. Do not reconstruct an original from the English translation.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "385": {
+      "reason": "Source body contains only the title ଅମ୍ଲାନ ବନ୍ଧୁତ୍ୱ, repeated verbatim. Preserved original HTML likewise has just this title in the poem paragraph and no poem body or embedded poem image; full original text is not available locally.",
+      "evidence": "projects/site/content/editions/issue-18/poem-385.json; kb/artifacts/content-import/editions/issue-18/poem-385.html",
+      "action": "Obtain and identity-match the complete Odia poem by Monalisa Dash Dwibedy, or explicit editorial confirmation that this is intentionally the entire one-line poem; do not treat a title-only capture as a complete translation.",
+      "targets": [
+        "hi",
+        "en"
+      ]
+    },
+    "332": {
+      "reason": "Combined-source authorship conflict: You Will Come Again by Nurul Hoque appends 9. Lethe with an explicit Pritha Chakraborty credit and a distinct poem. Preserved HTML confirms both. Issue 27 poem 507 is also Lethe by Pritha but is a different text, so it cannot replace this appended version.",
+      "evidence": "projects/site/content/editions/issue-14/poem-332.json; kb/artifacts/content-import/editions/issue-14/poem-332.html; projects/site/content/editions/issue-27/poem-507.json",
+      "action": "Confirm separate poem records, boundaries and author identities for the two Issue 14 works before translating under a single author. Preserve complete captured text, embedded Pritha credit and existing poem-507 translations.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "319": {
+      "reason": "The Solar Path by Tuhinamshu Rath explicitly credits Translated by: Prof. Raj kishore Mishra in its English body. Preserved HTML confirms the credit. No identity-matched underlying original or original-language identification was found in the local edition catalogue; author biography mentions Odia collections but cannot establish this poem’s source language.",
+      "evidence": "projects/site/content/editions/issue-13/poem-319.json; kb/artifacts/content-import/editions/issue-13/poem-319.html",
+      "action": "Obtain and identity-match the underlying original and its language, then reconcile Original/Translation labels while preserving Prof. Raj Kishore Mishra’s published translation and credit. Do not reconstruct a missing original from English.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "219": {
+      "reason": "Swing by Raghu Seshabhattar explicitly identifies a Telugu original and an English translation by Elanaaga. Preserved HTML confirms both credits. No matching Telugu original or another source record for this poem/author was found in the local edition catalogue.",
+      "evidence": "projects/site/content/editions/issue-08/poem-219.json; kb/artifacts/content-import/editions/issue-08/poem-219.html",
+      "action": "Obtain and identity-match the Telugu original and reconcile language/Original labels while preserving Elanaaga’s published English translation and credit. Do not reconstruct a missing original from the English translation.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "197": {
+      "reason": "Art by Laszlo Aranyi explicitly credits Translated by Gabor Gyukics in its English body; preserved HTML confirms this. No matching underlying original or source-language identification was found in the local edition catalogue.",
+      "evidence": "projects/site/content/editions/issue-07/poem-197.json; kb/artifacts/content-import/editions/issue-07/poem-197.html",
+      "action": "Obtain and identity-match the underlying original and its language. Reconcile Original/Translation labels while preserving Gabor Gyukics’s published translation and credit; do not reconstruct a missing original from English.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "203": {
+      "reason": "Afghanistan by Chaitali Chattopadhyay explicitly credits Translated by Shyamashri Ray Karmakar in its English text; preserved HTML confirms the credit. No identity-matched underlying original or source-language identification was found in the local edition catalogue.",
+      "evidence": "projects/site/content/editions/issue-07/poem-203.json; kb/artifacts/content-import/editions/issue-07/poem-203.html",
+      "action": "Obtain and identity-match the underlying original and its language. Reconcile Original/Translation labels while preserving Shyamashri Ray Karmakar’s published translation and credit. Do not reconstruct a missing original from English.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "130": {
+      "reason": "Mahanirvana by Trishna Basak explicitly credits Translated by Bappaditya Roy Biswas in its English body. Preserved HTML confirms this credit. No matching underlying original or source-language identification was found in the local edition catalogue.",
+      "evidence": "projects/site/content/editions/issue-04/poem-130.json; kb/artifacts/content-import/editions/issue-04/poem-130.html",
+      "action": "Obtain and identity-match the underlying original and its language. Reconcile Original/Translation labels while preserving Bappaditya Roy Biswas’s published English translation and credit; do not reconstruct a missing original from English.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "78": {
+      "reason": "Let poems be simple by Makhan Kalita explicitly credits Translated by Dr. Binod Kumar Gogoi in the English body. Preserved HTML confirms this. No matching underlying original or source-language identification was found in the local edition catalogue.",
+      "evidence": "projects/site/content/editions/issue-03/poem-78.json; kb/artifacts/content-import/editions/issue-03/poem-78.html",
+      "action": "Obtain and identity-match the underlying original and its language. Reconcile Original/Translation labels while preserving Dr. Binod Kumar Gogoi’s published English translation and credit. Do not reconstruct an original from English.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "47": {
+      "reason": "Two Poems by Nilim Kumar contains Let us go to eat out today and The Curve with explicit Tr. Nirendra Nath Thakuria credit. Preserved HTML confirms the translation credit. Local edition catalogue search found other works by the author but no matching underlying originals or explicit source-language identification.",
+      "evidence": "projects/site/content/editions/issue-02/poem-47.json; kb/artifacts/content-import/editions/issue-02/poem-47.html",
+      "action": "Obtain both underlying originals and identify their language; preserve both published English pieces and Nirendra Nath Thakuria credit. Do not backtranslate and label as Original.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    }
+  },
+  "independent": false,
+  "publication": false
+}

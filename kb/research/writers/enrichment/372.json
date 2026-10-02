@@ -1,0 +1,94 @@
+{
+  "writer_id": 372,
+  "name": "Swapna Mishra/ ସ୍ଵପ୍ନା ମିଶ୍ର",
+  "reviewed_on": "2026-10-01",
+  "batch": "research-066",
+  "status": "source_checked_local_draft",
+  "independent": false,
+  "portrait_action": "unchanged",
+  "reader_draft": {
+    "sections": [
+      {
+        "heading": "Life and writing.",
+        "language": "en",
+        "paragraphs": [
+          "Swapna Mishra writes across poetry, fiction and translation in Odia. Her books include the novels Jaala and Daaga and the poetry collection Shabda Banchi Rahe. She also translated Gyanendrapati’s Hindi poetry collection Sanshyatma into Odia for Sahitya Akademi, bringing another poet’s voice into the language of her own creative work.",
+          "The poems collected here repeatedly ask who has the power to define a life. ‘ଅହଲ୍ୟା’ gives its mythic speaker a living, desiring presence beyond the image of stone; ‘ମୁହୂର୍ତ୍ତରୁ’ reconnects ordinary words with hunger, labour, love and creation. In ‘ପୂର୍ଣ୍ଣତମା’, the boat and the stage become images of a speaker choosing her own course. Across these poems, inherited meanings meet an insistent claim to self-definition."
+        ]
+      }
+    ],
+    "books": [
+      {
+        "title": "Sanshyatma",
+        "detail": "Odia translation of Gyanendrapati’s Hindi poetry collection. Sahitya Akademi, 2018. ISBN 9789386771438.",
+        "url": "https://sahitya-akademi.gov.in/aboutus/pdf/AR-2018-19.pdf"
+      }
+    ],
+    "sources": [
+      {
+        "label": "SOA Literary Festival — writer profiles",
+        "url": "https://literaryfestival.soa.ac.in/wp-content/uploads/2023/11/Final-Book_SOA-LF.pdf"
+      },
+      {
+        "label": "Sahitya Akademi — annual report 2018–2019",
+        "url": "https://sahitya-akademi.gov.in/aboutus/pdf/AR-2018-19.pdf"
+      }
+    ],
+    "reviewed_on": "2026-10-01"
+  },
+  "sources": [
+    {
+      "label": "SOA Literary Festival — writer profiles",
+      "url": "https://literaryfestival.soa.ac.in/wp-content/uploads/2023/11/Final-Book_SOA-LF.pdf",
+      "supports": "Indexed page46 identifies Odia poet/novelist/translator and Jaala, Daaga, Shabda Banchi Rahe. Direct open404.",
+      "access": "search_index",
+      "accessed_on": "2026-10-01"
+    },
+    {
+      "label": "Sahitya Akademi — annual report 2018–2019",
+      "url": "https://sahitya-akademi.gov.in/aboutus/pdf/AR-2018-19.pdf",
+      "supports": "Opened annual-report PDF page217: Gyanendrapati author, Swapna Mishra translator, ISBN9789386771438; exact entry found at lines13213 onward.",
+      "access": "opened_page",
+      "accessed_on": "2026-10-01"
+    }
+  ],
+  "identity_match": "Festival record matches three specific captured titles and Odia writing; official translation catalogue matches Sansayatma in captured biography.",
+  "poems_read": [
+    {
+      "id": 483,
+      "title": "ଅହଲ୍ୟା",
+      "coverage": "Full original.",
+      "basis": "Mythic Ahalya speaker refuses statue identity, desire/nature/selfhood; no personal biography inferred."
+    },
+    {
+      "id": 605,
+      "title": "ମୁହୂର୍ତ୍ତରୁ",
+      "coverage": "Full original.",
+      "basis": "Redefinition of night, food, garden and colours through lived needs and creation."
+    },
+    {
+      "id": 753,
+      "title": "ପୂର୍ଣ୍ଣତମା",
+      "coverage": "Full original.",
+      "basis": "Boat dismisses boatman, theatrical agency, solitary journey toward fullness."
+    }
+  ],
+  "limitations": [
+    "Birth year conflict: captured1970 versus festival1971; omitted from new narrative and not silently corrected.",
+    "Doctoral topic and listed awards not independently verified in this pass; preserved capture unchanged.",
+    "Sansayatma/Sanshyatma romanisation varies across official records; same author/translator/ISBN identify work.",
+    "Direct festival/PDF/store access failed; search-index evidence recorded.",
+    "Festival PDF404, separate Odia catalogue502 and store cache miss; annual-report PDF opened successfully. First-edition2018 appears in indexed Odia catalogue."
+  ],
+  "research_leads": [
+    {
+      "url": "https://www.odishaestore.com/jala",
+      "finding": "Indexed exact title and author, direct cache miss; shelf uses official translation record instead."
+    },
+    {
+      "url": "https://sahitya-akademi.org.in/PDF/book-documentry/Odia.pdf",
+      "finding": "Indexed official entry explicitly gives first edition2018; direct open502."
+    }
+  ],
+  "next_action": "Independent author/editor review, including birth-year discrepancy and doctoral/award details."
+}

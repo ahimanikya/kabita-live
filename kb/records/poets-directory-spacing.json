@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-02T06:03:23.270120+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "We can manage the space a little better \u2014 Poets directory screenshot.",
+  "changes": [
+    "Search is now in the opening grid beneath the introduction, alongside artwork on desktop.",
+    "Reduced top/bottom opening spacing and gap before cards; retained390pxdesktop artwork and full-width phone artwork.",
+    "Scoped opening ornament to introduction only so search does not gain a duplicate separator."
+  ],
+  "checks": [
+    "Public build passed1297routes,1296indexed pages.",
+    "Author checker passed429profiles/798contribution links.",
+    "1280,800,390px checks without horizontal overflow; original429cards preserved.",
+    "Search for Manorama returns one poet; Clear restores initial12cards."
+  ],
+  "evidence": [
+    "artifacts/review/poets-directory-spacing/desktop.png",
+    "artifacts/review/poets-directory-spacing/mobile.png",
+    "artifacts/review/poets-directory-spacing/checks.json"
+  ],
+  "independent": false,
+  "limitations": [
+    "Local review only; no publication."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "batch": "research-067",
+  "status": "verified",
+  "independent": false,
+  "writer_ids": [
+    349,
+    340,
+    333,
+    331,
+    328
+  ],
+  "reader_drafts": 5,
+  "externally_corroborated": 2,
+  "source_limited": [
+    349,
+    333,
+    328
+  ],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "PASS",
+    "editions": "PASS",
+    "preserved_source_files": 805,
+    "existing_narratives_preserved": 340,
+    "rendered_narratives": 5,
+    "browser_visual": "Not repeated; prose/data only, approved renderer unchanged."
+  },
+  "limitations": [
+    "Independent author/editor review pending.",
+    "349,333,328 source-limited: no secure external identity bridge.",
+    "340 repeated Jatinga poems417/501 and heading/body distinction760 preserved; ebook release months conflict, only2024 used.",
+    "331 debut title segmentation unclear; no verified book link or award organiser source, historical university role dated.",
+    "No concurrent source corrections detected against batch baseline."
+  ],
+  "resume": "research-068",
+  "publication": "No deployment or push."
+}

@@ -1,0 +1,49 @@
+{
+  "result": "PASS",
+  "groups": [
+    {
+      "canonical_id": 192,
+      "member_ids": [
+        192,
+        224
+      ],
+      "poem_ids": [
+        172,
+        205,
+        621,
+        731
+      ]
+    },
+    {
+      "canonical_id": 256,
+      "member_ids": [
+        256,
+        366
+      ],
+      "poem_ids": [
+        244,
+        482
+      ]
+    },
+    {
+      "canonical_id": 449,
+      "member_ids": [
+        255,
+        449
+      ],
+      "poem_ids": [
+        243,
+        742
+      ]
+    }
+  ],
+  "directory_entries": 426,
+  "reader_library_poets": 422,
+  "checks": [
+    "Complete contribution union on every preserved profile URL",
+    "One directory/search/reader-library entry per confirmed identity",
+    "Canonical byline destinations",
+    "Old reader payload URLs retain complete collections",
+    "Alias pages excluded from search indexing"
+  ]
+}

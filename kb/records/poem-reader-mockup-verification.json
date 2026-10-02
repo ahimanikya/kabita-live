@@ -1,0 +1,205 @@
+{
+  "scope": "Review-only poem reader layouts",
+  "independent": false,
+  "checks": {
+    "layouts": [
+      {
+        "lang": "or",
+        "artBelowVerse": false,
+        "aside": true,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "0",
+        "width": 1910,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "or",
+        "artBelowVerse": false,
+        "aside": false,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "1",
+        "width": 1910,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "or",
+        "artBelowVerse": false,
+        "aside": false,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "2",
+        "width": 1910,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "hi",
+        "artBelowVerse": false,
+        "aside": true,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "0",
+        "width": 1910,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "hi",
+        "artBelowVerse": false,
+        "aside": false,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "1",
+        "width": 1910,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "hi",
+        "artBelowVerse": false,
+        "aside": false,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "2",
+        "width": 1910,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "en",
+        "artBelowVerse": false,
+        "aside": true,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "0",
+        "width": 1910,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "en",
+        "artBelowVerse": false,
+        "aside": false,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "1",
+        "width": 1910,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "en",
+        "artBelowVerse": false,
+        "aside": false,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "2",
+        "width": 1910,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "or",
+        "artBelowVerse": false,
+        "aside": true,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "0",
+        "width": 360,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "or",
+        "artBelowVerse": false,
+        "aside": false,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "1",
+        "width": 360,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "or",
+        "artBelowVerse": true,
+        "aside": false,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "2",
+        "width": 360,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "hi",
+        "artBelowVerse": false,
+        "aside": true,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "0",
+        "width": 360,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "hi",
+        "artBelowVerse": false,
+        "aside": false,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "1",
+        "width": 360,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "hi",
+        "artBelowVerse": true,
+        "aside": false,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "2",
+        "width": 360,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "en",
+        "artBelowVerse": false,
+        "aside": true,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "0",
+        "width": 360,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "en",
+        "artBelowVerse": false,
+        "aside": false,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "1",
+        "width": 360,
+        "verseUnchanged": true
+      },
+      {
+        "lang": "en",
+        "artBelowVerse": true,
+        "aside": false,
+        "bylines": 1,
+        "overflow": false,
+        "variant": "2",
+        "width": 360,
+        "verseUnchanged": true
+      }
+    ],
+    "textSize": {
+      "pressed": "true",
+      "size": "32px"
+    },
+    "share": {
+      "open": true,
+      "title": "Drink",
+      "url": "http://127.0.0.1:8771/poem-drink.html"
+    },
+    "languageSwitch": "poem-reader-sample-hi.html?variant=1&test=1",
+    "approval": "Alternative preview · A · Quiet illustrated opening — recommended approved"
+  },
+  "limitations": [
+    "Underlining and audio deliberately not part of this layout prototype.",
+    "Not a complete accessibility certification."
+  ],
+  "liveReadersUnchanged": true,
+  "excludedFromPublicBuild": true
+}

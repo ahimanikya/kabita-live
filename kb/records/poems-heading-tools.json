@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-02T07:18:59.623879+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "Remove All editions link and move reader tools to the left at the table heading.",
+  "changes": [
+    "Removed All editions from Poems catalogue heading.",
+    "Grouped Reader tools with the contents heading at the left; search remains below."
+  ],
+  "checks": [
+    "Public build passed1297routes/1296indexed pages.",
+    "390px mobile: no horizontal overflow, All editions absent, language controls and reset work.",
+    "Desktop heading grouping visually checked."
+  ],
+  "evidence": [
+    "artifacts/review/poems-heading-tools/mobile.png",
+    "artifacts/review/poems-heading-tools/desktop.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "Local preview; not published."
+  ]
+}

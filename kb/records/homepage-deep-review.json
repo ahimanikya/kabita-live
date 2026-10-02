@@ -1,0 +1,87 @@
+{
+  "status": "review-only-awaiting-user-suggestions",
+  "independent": false,
+  "site_changed": false,
+  "page": "index.html",
+  "evidence": {
+    "desktop_css_width": 1910,
+    "mobile_css_width": 360,
+    "mobile_viewport_height": 800,
+    "mobile_document_height": 5331,
+    "mobile_issue_button_top": 717,
+    "mobile_first_poem_title_top": 1032,
+    "mobile_archive_section_height": 1996,
+    "local_homepage_links": 37,
+    "missing_local_destinations": [],
+    "one_h1": true,
+    "mobile_menu": "Keyboard Enter opens; Escape closes",
+    "horizontal_overflow_at_360": false,
+    "editor_thumbnail_bytes": 788364
+  },
+  "recommendations": [
+    {
+      "priority": 1,
+      "area": "Opening",
+      "change": "Keep art and signature; move primary issue action earlier on phones; reduce competing text blocks. Retain approved English quotation with less visual weight or later placement."
+    },
+    {
+      "priority": 1,
+      "area": "Featured poems",
+      "change": "Select coherent source-exact excerpts; Drink currently stops before its key image. Preserve multilingual representation and script shaping."
+    },
+    {
+      "priority": 1,
+      "area": "Poets",
+      "change": "Use existing artistic portraits with poem bylines; remove or repurpose the separate strip repeating the same three authors."
+    },
+    {
+      "priority": 1,
+      "area": "Mobile archive",
+      "change": "Retain one prominent latest cover and make remaining issue cards compact; retain full artwork and cover narratives on edition pages."
+    },
+    {
+      "priority": 2,
+      "area": "Spacing",
+      "change": "Reduce stacked inter-section padding while preserving line height and readable gutters."
+    },
+    {
+      "priority": 2,
+      "area": "Identity",
+      "change": "Clarify monthly multilingual journal purpose with one brief line integrated into existing opening metadata."
+    },
+    {
+      "priority": 2,
+      "area": "Links",
+      "change": "Enlarge standalone byline targets; several section and read links render at 42px against the 44px project target."
+    },
+    {
+      "priority": 2,
+      "area": "Images",
+      "change": "Generate dedicated small editor portrait derivatives; preserve masters and lazy loading."
+    }
+  ],
+  "keep": [
+    "English masthead",
+    "Odia signature",
+    "LIFE AS IT IS artwork",
+    "approved fonts and earthy palette",
+    "cotton paper",
+    "one poem from each language",
+    "quiet footer",
+    "editor roles"
+  ],
+  "avoid_adding": [
+    "carousel",
+    "autoplay",
+    "public comment box",
+    "statistics dashboard",
+    "extra ornaments",
+    "homepage share toolbar"
+  ],
+  "limitations": [
+    "Browser full-page screenshots showed stitching artifacts; content counts and layout positions cross-checked against DOM.",
+    "No complete accessibility certification or throttled performance measurement.",
+    "External cultural-reference link not revalidated in this homepage review.",
+    "No design recommendation applied."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "recorded_at": "2026-10-02T01:08:45.166748+00:00",
+  "work_ref": "KBL-WORK-004",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "status": "approved_applied",
+  "decision": "User selected option1: scroll down with Show more poets. Card design preview still awaits review.",
+  "url": "http://127.0.0.1:8771/poets-card-mock.html?revision=2",
+  "artifact": "artifacts/review/poet-directory/poets-card-mock.html",
+  "features": [
+    "429 distinct source-linked profile cards, alphabetical order, no A–Z index",
+    "12 initially; Show more appends12; moves keyboard focus to first newly shown profile without scrolling",
+    "English display names; original-script aliases remain searchable",
+    "426 existing portraits and3 initials fallbacks",
+    "425 source-checked poem excerpts, limited to first2 lines of saved selection, visually clamped to2 lines;4 honest no-excerpt states",
+    "Accurate active-poem counts and separate source-poem links",
+    "3 desktop columns,2 tablet,1 mobile; compact mobile opening without hero artwork"
+  ],
+  "checks": {
+    "pagination": "12 to24 passed; next-card focus verified",
+    "search": "English, Odia, Hindi, empty state and clear/reset passed",
+    "widths": "360/390/768/1440; no horizontal overflow in measured360/768/1440; screenshots reviewed",
+    "source_integrity": "All saved quote offsets checked against original text; directory source hash unchanged;429 unique IDs and local profiles; all referenced portraits exist",
+    "fallback": "Manju Chouhan initials and no-excerpt case verified",
+    "public_export": "Local review is a symlink, excluded by existing build-public selection",
+    "illustration_revision2": "1440px: artwork260→325px; search top374.46875px and cards top506.96875px unchanged.390px: mobile display/transform unchanged; no overflow."
+  },
+  "limitations": [
+    "Same-assistant verification only.",
+    "Mock only; current poets.html and all source poems, biographies and portraits unchanged.",
+    "Existing identity/factual audit remains deferred.",
+    "Real-device and full accessibility review pending."
+  ],
+  "evidence": [
+    "artifacts/review/poet-directory/sources.json",
+    "artifacts/review/poet-directory/mock-desktop.png",
+    "artifacts/review/poet-directory/mock-mobile.png",
+    "artifacts/review/poet-directory/mock-desktop-r2.png"
+  ],
+  "next_action": "Historical preview retained; review actual reader page for any remaining discrepancy.",
+  "revision": 2,
+  "revised_at": "2026-10-02T01:16:44.985395+00:00",
+  "revision_note": "User requested preview with desktop opening illustration25% larger; right edge anchored, existing layout space retained.",
+  "application_record": "records/poet-directory-design-approval.json",
+  "current_reconciliation": {
+    "recorded_at": "2026-10-02T05:05:32.791691+00:00",
+    "record": "records/approval-application-audit.json",
+    "note": "Historical mock scope and check results retained below; use linked application record for current status."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-02T10:40:06.833157+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_locally_for_review",
+  "profile": "ahimanikya-satapathy.html",
+  "changes": [
+    "Dedicated sourced design-contributor profile using established artistic opening and reading layout",
+    "Central credit links profile and explicitly includes artistic icon direction/page treatments",
+    "Quiet reader uses simple current page/spread numbers without total or poem counters;cache version advanced"
+  ],
+  "research": "research/people/ahimanikya-satapathy/sources.json",
+  "checks": {
+    "public_build": "passed under Node24",
+    "author_integrity": "passed; existing429 profiles unchanged in membership",
+    "edition_integrity": "passed;848source hashes verified",
+    "profile_desktop1280": "single h1,images loaded,no horizontal overflow;visual opening reviewed",
+    "profile_mobile360": "no overflow;full-width decorative artwork and single waterline",
+    "reader_mobile": "1 then2 after Next page",
+    "reader_desktop": "plain page spread;poem counter removed",
+    "credit_link": "present in Our Story",
+    "independent": false
+  },
+  "limitations": [
+    "1996 date and Odia community participation attributed to supplied account",
+    "Wayback playback not readable;LinkedIn gated",
+    "Literature fund described as aspiration",
+    "No invented portrait;existing decorative illustration used",
+    "Local preview only;not published"
+  ],
+  "independent": false
+}

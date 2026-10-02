@@ -1,0 +1,77 @@
+{
+  "work": "KBL-WORK-004",
+  "executor": "Current assistant; implementation and self-review",
+  "independent": false,
+  "approval": "User: I selected Option A",
+  "checks": {
+    "desktop": {
+      "duplicateStrip": 0,
+      "excerpts": [
+        {
+          "clamp": "4",
+          "height": 176,
+          "top": 1106
+        },
+        {
+          "clamp": "4",
+          "height": 176,
+          "top": 1106
+        },
+        {
+          "clamp": "4",
+          "height": 176,
+          "top": 1106
+        }
+      ],
+      "portraits": 3,
+      "scrollWidth": 1669,
+      "width": 1669
+    },
+    "phone": {
+      "bylineHeights": [
+        44,
+        44,
+        44
+      ],
+      "excerpts": [
+        {
+          "clamp": "4",
+          "height": 168
+        },
+        {
+          "clamp": "4",
+          "height": 168
+        },
+        {
+          "clamp": "4",
+          "height": 168
+        }
+      ],
+      "portraits": [
+        {
+          "height": 64,
+          "src": "assets/writers/82-earth-voice-v1-64.webp",
+          "width": 64
+        },
+        {
+          "height": 64,
+          "src": "assets/writers/337-earth-voice-v1-64.webp",
+          "width": 64
+        },
+        {
+          "height": 64,
+          "src": "assets/writers/257-earth-voice-v1-64.webp",
+          "width": 64
+        }
+      ],
+      "scrollWidth": 360,
+      "width": 360
+    }
+  },
+  "excerptSourceValidation": "Build verifies writer identity and exact substring in canonical poem text.",
+  "published": false,
+  "nextAction": "Review applied homepage",
+  "limitations": [
+    "Previously recorded 200% enlarged-header concern remains open."
+  ]
+}

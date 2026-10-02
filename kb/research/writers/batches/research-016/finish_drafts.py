@@ -1,0 +1,32 @@
+import sys
+sys.path.insert(0,'kb/research/writers/batches/research-016')
+from save_writer import save,source
+save(54,dict(
+ paragraphs=[
+ 'Bhagaban Jayasingh writes poetry in Odia and English and works as a critic, editor and translator. His Odia collection Pheranti Ghar received the Odisha Sahitya Akademi award. Through anthologies such as Footprints of Fire and The Birds in the Storm, he has also brought modern Odia poetry to readers in English.',
+ 'His poems in Kabita Live approach death through the lives that continue around an absence. In “Grandmother”, a child’s explanations of mortality cannot ease a widow’s grief. In “ଜଣେ କବିଙ୍କ ମୃତ୍ୟୁ ପରେ”, the world carries on after a poet’s death, while remembrance itself becomes uncertain. The domestic and the cosmic meet in these questions of what remains when someone is gone.'
+ ],
+ books=[dict(title='The Birds in the Storm',detail='Modern Odia poetry in English translation · Notion Press, 2024 · Book preview',url='https://books.google.com/books/about/The_Birds_in_the_storm.html?id=x9kEEQAAQBAJ')],
+ sources=[
+ source('The Birds in the Storm — book and contributor biography','https://books.google.com/books/about/The_Birds_in_the_storm.html?id=x9kEEQAAQBAJ',['Bilingual poet, critic, editor and translator; anthology of modern Odia poetry in English, Notion Press 2024.']),
+ source('Black Eagle Books — Footprints of Fire','https://www.blackeaglebooks.org/product/footprints-of-fire/',['Publisher identifies Jayasingh as translator and editor; 74 Odia poets, 1950–2015; 2019 publication.'],'indexed_publisher_text; direct_open_unavailable'),
+ source('Black Eagle Books — translator biography','https://www.blackeaglebooks.org/product/the-waste-land-and-other-poems/',['Publisher biography identifies Odia and English poet and Odisha Sahitya Akademi award for Pheranti Ghar.'],'indexed_publisher_text; direct_open_unavailable')
+ ],
+ identity_match='Captured biography names the same bilingual poet, Pheranti Ghar award and Footprints of Fire anthology. Publisher records match both distinctive titles and literary roles, beyond a name match.',
+ poems_read=[dict(id=52,title='GRANDMOTHER',basis='Full original read: bereavement rituals, a child explaining death, migration and ripened fruit as analogies, and the grandmother’s unanswered grief.'),dict(id=818,title='ଜଣେ କବିଙ୍କ ମୃତ୍ୟୁ ପରେ',basis='Full original read: forgotten poet, absence of commemorations, continuing birds/rivers/cosmos, and the speaker’s failure of remembrance.')],
+ limitations=['Publisher product pages were indexed but direct opening failed; an accessible Google Books record is used for the reader book link.','No current academic appointment, exhaustive publication count or uncorroborated award list added. Award year not independently established.','Sitakant Mahapatra: A Reader appears in the indexed Sahitya Akademi 2021–22 report with Jayasingh as editor; direct PDF timed out, so this additional credit is not needed in the reader draft.','Grandmother source spelling Chilila and trailing address in poem818 remain untouched; neither is imported into the new narrative.'],
+ next_action='Independent author/editor factual and literary review; confirm bibliographic and award details from title pages or author records when available.'
+))
+save(47,dict(
+ paragraphs=[
+ 'Bhaskaranand Jha Bhaskar writes in Maithili, Hindi and English, alongside short fiction, criticism and book reviews. His English poetry collections include Soothing Serenades: Straight from the Heart, Two Indias and Other Poems, and Thoughts in Solitude. His writing appears in Boloji and other literary journals; Setu has reviewed his collection of love poems, Soothing Serenades.',
+ 'The poems gathered here seek renewal without denying hardship. “Life and Time” moves from a mind clouded by inertia towards the possibility of an awakened life. “Life is a Garden of Roses and Thorns” uses rhyming couplets to hold beauty and pain together, finding persistence in the flower that survives its prickles. Both poems turn familiar natural images into invitations to keep living attentively.'
+ ],
+ books=[dict(title='Soothing Serenades: Straight from the Heart',detail='English poetry · Authorspress, 2018 · Review in Setu',url='https://www.setumag.com/2019/04/book-review-soothing-serenades.html')],
+ sources=[source('Boloji — writer profile and poetry','https://www.boloji.com/writers/315/bhaskaranand-jha',['Maithili, Hindi and English poet, short-story writer, critic and reviewer; names all three English collections. Directory also lists Life and Time and Life is a Garden of Roses and Thorns.']),source('Setu — Soothing Serenades reviewed by K. Subapriya','https://www.setumag.com/2019/04/book-review-soothing-serenades.html',['Review identifies the author and love-poetry collection, Authorspress 2018, ISBN9789387281592.'])],
+ identity_match='Captured biography matches three distinctive collection titles and language combination; Boloji also lists the two exact Kabita Live poem titles, providing an additional publication bridge.',
+ poems_read=[dict(id=41,title='LIFE AND TIME',basis='Full original read: hibernating mind, fog and apathy, darkness, awakening and a renewed view of life.'),dict(id=273,title='Life is a Garden of Roses and Thorns',basis='Full original read: fourteen lines in seven rhymed couplets; roses/prickles, storm and seed, hardship and persistent love.')],
+ limitations=['Philippines school-syllabus claim is repeated in the author biography but no educational authority record was found; omitted from new narrative.','Current Asian Signature editorial appointment was not independently dated; omitted from new narrative.','An indexed Cyber Literature December2018 review lists Soothing Serenades as 2016, conflicting with captured biography, Boloji, Setu and Tuck Magazine which give 2018. Shelf follows the opened Setu review; edition history needs title-page confirmation.','Book link leads to an identified literary review, not an assertion of retail availability.'],
+ research_leads=[dict(url='https://www.cyberliterature.in/wp-content/uploads/2019/04/Cyber_Li.pdf',status='indexed_bibliographic_discrepancy',note='Soothing Serenades year 2016 differs from the 2018 given by author profile and other reviews; no alternate edition inferred.')],
+ next_action='Independent author/editor factual and literary review, including collection edition history.'
+))

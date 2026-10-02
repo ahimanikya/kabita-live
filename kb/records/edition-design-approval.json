@@ -1,0 +1,38 @@
+{
+  "status": "design_approved_applied",
+  "approver": "Ahimanikya Satapathy",
+  "statement": "Yes, lets close this one - we are good now for this page",
+  "recorded_at": "2026-10-01T08:17:46.552596+00:00",
+  "scope": "Option B and accumulated edition mock refinements; all47 editions",
+  "checks": {
+    "editions": 47,
+    "portrait_groups": 800,
+    "local_links_and_assets": 5029,
+    "missing_targets": 0,
+    "source_hashes_verified": 848,
+    "desktop": "1280px, 56px portraits, no overflow",
+    "mobile": "320px issues47/3 and390px issue27: no overflow,44px portraits, Original labels visible",
+    "keyboard": "Browse poems focuses contents heading",
+    "public_build": "PASS; Astro and Pagefind,1307 public pages",
+    "representative_editions": [
+      47,
+      3,
+      27
+    ]
+  },
+  "review": {
+    "independent": false,
+    "executor": "Current assistant; Samanta role pass"
+  },
+  "remaining": [
+    "Broader accessibility and enlarged-text checks",
+    "Live external-link checks",
+    "Existing editorial and release holds"
+  ],
+  "publication_authorized": false,
+  "next_page_type": "Poem",
+  "evidence": [
+    "records/edition-polish-mock.json",
+    "evidence/edition-polish-mock/applied-320.png"
+  ]
+}

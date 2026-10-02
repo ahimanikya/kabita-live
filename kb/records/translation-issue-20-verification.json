@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 20,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    415,
+    422,
+    423,
+    414,
+    416,
+    417,
+    418,
+    419,
+    420,
+    421,
+    424
+  ],
+  "source_held": [],
+  "new_translations": 22,
+  "total_drafts": 800,
+  "remaining_translations": 802,
+  "batches": [
+    "batch-089",
+    "batch-090",
+    "batch-091"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 11 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 22 versions",
+    "rendered_catalogue_parity": "pass for all 22 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "415": "Yaksha, gulmohar and heat/reflection/dream imagery retained; final imagined location not rationalised. Hindi feminine voice provisional.",
+    "422": "Star, meteor and question-mark metaphors retained; title underscores interpreted as word separators only in translation.",
+    "423": "Aunt Sleep, sari-end, kamini flowers and cavern preserved. Raw/fleshy odour provisional; no medication instructions added.",
+    "414": "Weathered cheeks idiom and emotional distance retained; Hindi feminine speaker provisional.",
+    "416": "Exceptional 42-stanza spacing retained exactly, including one two-line stanza; explicit editorial spacing reconciliation pending. chaja interpreted as ledge; folded-wheelchair wording corrected to avoid implying breakage.",
+    "417": "Source Barial place-name spelling retained in transliteration; no external place-name correction. Dima Hasao, Jatinga, Haflong retained.",
+    "418": "Preserved HTML confirms Deaths and the Accountant internal heading within the same attributed page. No second author credit or separate local record found; full captured record translated without resegmentation. Editorial boundary review pending. Draught-bitten interpreted provisionally as drought-bitten; trailing underscore retained.",
+    "419": "Hatching space, hygiene/clumsiness, womb/ribbon/ruins kept as surreal imagery; no inferred biography.",
+    "420": "Four tercets preserved, no forced syllable count; winded daffodils provisional, little one unspecified.",
+    "421": "Land of the leal rendered land of the faithful/loyal; intertextual nuance pending review.",
+    "424": "Thirty-nine-line critique of victim-blaming preserved, including speaker change and rebuttal; no added graphic detail or endorsement."
+  },
+  "publication": false,
+  "next_edition": 19,
+  "next_poem_ids": [
+    401,
+    402,
+    404,
+    405,
+    406
+  ]
+}

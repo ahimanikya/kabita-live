@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-10-01T06:21:33.525978+00:00",
+  "work_ref": "KBL-WORK-018",
+  "decision_ref": "KBL-DEC-034",
+  "status": "prepared_for_user_to_share",
+  "request": "Create a design proposal document and give them heads up whats coming",
+  "preference": "Fuller walkthrough of the design and reading features",
+  "artifact": "artifacts/design/editor-proposal-2026-10-01/Kabita-Live-Design-Proposal-for-Editors.docx",
+  "sha256": "a504d9e305b0cfa266de75d800fade2e5443045b0337c02ed42eb1ca7174962f",
+  "heads_up": "artifacts/design/editor-proposal-2026-10-01/editor-heads-up.txt",
+  "pages": 6,
+  "sources": [
+    "artifacts/design/brand-guide/DESIGN-SYSTEM.md",
+    "reference/site-architecture.md",
+    "records/translation-actionable-completion-verification.json",
+    "records/mobile-menu-stanza-review.json",
+    "records/poem-ending-migration.json",
+    "records/facebook-cover-v3.json",
+    "records/facebook-footer-link.json",
+    "../projects/site/data/content-status.json"
+  ],
+  "screenshots": {
+    "home": "http://127.0.0.1:8771/index.html",
+    "edition": "http://127.0.0.1:8771/issue-47.html",
+    "poem": "http://127.0.0.1:8771/poem-dokana.html",
+    "editor": "http://127.0.0.1:8771/editor-pradeep.html"
+  },
+  "verification": [
+    "Rendered final DOCX using bundled document renderer.",
+    "Visually inspected all six final pages; no clipping, overlap or title border.",
+    "Current screenshot text checked against local browser DOM; draft and launch status distinguished."
+  ],
+  "independent_review": false,
+  "messages_sent": false,
+  "website_deployed": false,
+  "next_action": "User shares proposal and heads-up; gather editor feedback before website walkthrough.",
+  "pdf_export": {
+    "path": "artifacts/design/editor-proposal-2026-10-01/Kabita-Live-Design-Proposal-for-Editors.pdf",
+    "pages": 6,
+    "sha256": "dc436e971d949bf390e291c8d4d0d05089871c445313c39f7b51b167b4180491",
+    "verification": "Byte-identical to final rendered PDF whose six page images were visually inspected during document creation; page count and extracted opening/closing content checked.",
+    "authorization": "Export a PDF"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-02T07:16:51.853133+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "Make the poem page as simple as the edition page - the only difference is volume. In the Readers menu, make the label font small.",
+  "scope": "Poems catalogue matched to edition contents; compact labels in catalogue, regular-poem and quiet-reader tools.",
+  "changes": [
+    "Reused edition_rows for the799-poem catalogue: circular portraits, English poet names, Original language and reading icon, plus small issue link.",
+    "Replaced edition-jump dropdown with existing All editions link; one search field and Aa tools share a row. Kept12-item pagination and translated-title search.",
+    "Removed forced title line break; retained approved artwork, paper and compact waterline.",
+    "Reduced reader field labels to12px and tightened section spacing; inputs16px and tap targets44px minimum."
+  ],
+  "checks": [
+    "Public Astro build passed1297routes/1296indexed pages.",
+    "Edition checker passed47editions/848source hashes;871source/content files unchanged.",
+    "Browser: English title/link and38px extra-large choice work; Manorama search returns2; next page shows13–24of799; empty state works.",
+    "390pxmobile catalogue/tools have no horizontal overflow; panel301pxhigh.",
+    "Quiet reader labels12px, inputs16px, actions44px, no panel overflow. Poet search and Read all2 still work."
+  ],
+  "evidence": [
+    "artifacts/review/simple-poems/desktop.png",
+    "artifacts/review/simple-poems/mobile-tools.png",
+    "artifacts/review/simple-poems/quiet-menu.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "Local application and self-review; user visual review pending.",
+    "Source and translation editorial-review limitations remain unchanged; no publication."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "batch": "research-071",
+  "status": "verified",
+  "independent": false,
+  "writer_ids": [
+    259,
+    239,
+    235,
+    227,
+    220
+  ],
+  "reader_drafts": 5,
+  "externally_corroborated": 1,
+  "source_limited": [
+    239,
+    235,
+    227,
+    220
+  ],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "PASS",
+    "editions": "PASS",
+    "preserved_source_files": 805,
+    "existing_narratives_preserved": 360,
+    "rendered_narratives": 5,
+    "browser_visual": "Not repeated; prose/data only, approved renderer unchanged."
+  },
+  "limitations": [
+    "Independent author/editor review pending.",
+    "239,235,227,220 remain source-limited; no identity mergers from common names.",
+    "220 same-name memorial and political records require explicit identity confirmation; none of those claims added.",
+    "259 Silent Uproar catalogue available through full index after direct open failed; access recorded.",
+    "No concurrent source corrections detected against baseline."
+  ],
+  "resume": "research-072",
+  "publication": "No deployment or push."
+}

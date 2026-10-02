@@ -1,0 +1,45 @@
+{
+  "recorded_at": "2026-10-02T02:18:14.727372+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "approved_applied_archive_only",
+  "authorization": "OK, I can try live with one page",
+  "interpretation": "Apply to existing local Archive reader page only; no external deployment.",
+  "url": "http://127.0.0.1:8771/archive.html#footer",
+  "changes": [
+    "Three-part footer: lotus,64pxsoftenedcentreboat,watercolorboat.",
+    "Mobile32pxcentreboat,compact spacing; artistic navigation retained."
+  ],
+  "checks": [
+    "1200pxdesktop and390pxmobile visual inspection.",
+    "Mobile no horizontal overflow; artwork and menu do not overlap.",
+    "Reader HTML hash comparison: only archive.html changed.",
+    "Node24 public build passed."
+  ],
+  "evidence": [
+    "artifacts/review/footer-signature/trial-desktop.png",
+    "artifacts/review/footer-signature/trial-mobile.png",
+    "artifacts/review/footer-signature/one-page-before-hashes.json"
+  ],
+  "independent": false,
+  "limitations": [
+    "Trial only; broader application awaits user response.",
+    "No publication or changes to quiet reader."
+  ],
+  "next_action": "Retain accepted Archive-only single boat; broader rollout not inferred.",
+  "revision2": {
+    "recorded_at": "2026-10-02T02:25:19.230014+00:00",
+    "direction": "User agreed the single boat was airier and less cluttered.",
+    "changes": "Replaced three-part composition with190pxdesktop/145pxmobile watercolor boat on right; no lotus or centre icon. Archive-only scope retained.",
+    "checks": [
+      "Node24 public build passed.",
+      "390pxmobile inspected; one decoration,nooverflow.",
+      "Reader hashes:onlyarchive.htmlchanged."
+    ],
+    "evidence": "artifacts/review/footer-signature/single-trial-mobile.png"
+  },
+  "closure": {
+    "recorded_at": "2026-10-02T02:28:30.275692+00:00",
+    "approval": "I think we are done with this page, lets do the next one",
+    "scope": "Archive page with single-boat footer accepted and closed. No site-wide footer rollout implied."
+  }
+}

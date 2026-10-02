@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-10-02T07:42:35.553071+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "Quick Reader on edition pages preselects the edition; no edition selection opens the collection. Add artistic separators, circular poet pictures and colorful decoration. Aa, Share and Read quietly above Within these pages on Poems and editions.",
+  "changes": [
+    "Shared Aa/Share/Read quietly toolbar above contents heading on Poems and all47editions.",
+    "Edition quiet-reader entry loads its edition in publication order; Poems entry loads all799poems with All editions selected.",
+    "Catalogue/edition language and text size choices carry into quiet mode; Share uses the actual edition or catalogue URL.",
+    "Added existing colored waterline before each subsequent poem and44px circular existing portrait beside poet name; no new portraits or artwork generated.",
+    "Quiet reader runs directly on collection pages; individual poem tools and continuous pagination retained. Portraits load only when rendered, not while measuring all pages."
+  ],
+  "checks": [
+    "Public Astro build passed1297routes/1296indexed pages; six pagination tests passed.",
+    "Edition checker47editions/848source hashes and author checker429profiles passed.871source/content files unchanged.",
+    "All47edition pages have one shared toolbar and one quiet dialog; exact edition payload verified. All-poems payload799unique records; portrait assets included in public build.",
+    "Browser: edition47 opens16poems with edition47 selected; English choice carried into quiet mode. Poems opens799with All editions selected.",
+    "Edition and Poems Share dialogs show correct URL/title; no external sharing sent.",
+    "Mobile shared page has loaded circular portrait, colored separator and no overflow; individual poem Aa and quiet reader still work with no console errors."
+  ],
+  "evidence": [
+    "artifacts/review/collection-reading-actions/integrity.json",
+    "artifacts/review/collection-reading-actions/edition-mobile.png",
+    "artifacts/review/collection-reading-actions/edition-desktop.png",
+    "artifacts/review/collection-reading-actions/poems-desktop.png",
+    "artifacts/review/collection-reading-actions/quiet-mobile.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "Missing portraits retain the name-only byline; existing portrait provenance is unchanged.",
+    "Source gaps and translation linguistic review remain pending.",
+    "Full collection pagination measured locally; not a benchmark on low-powered physical devices.",
+    "Local preview only; no publication or sharing performed."
+  ]
+}

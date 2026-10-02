@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-02T09:00:10.474372+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "Insert a separator after removing edition contents heading.",
+  "changes": [
+    "Reused approved 115x23px wave-and-leaf waterline between reading actions and poem list on all47editions.",
+    "Decorative aria-hidden element with4px bottom margin, retaining compact spacing."
+  ],
+  "checks": [
+    "Public build and edition checker passed.",
+    "Exactly one contents separator on each of47edition pages.",
+    "Browser separator115x23px with no horizontal overflow; Browse poems still works.",
+    "871source/content files unchanged."
+  ],
+  "evidence": [
+    "artifacts/review/edition-contents-separator/preview.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "Local preview only; no publication."
+  ]
+}

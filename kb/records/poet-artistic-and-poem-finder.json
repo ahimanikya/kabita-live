@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-02T05:56:24.208664+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_local_review",
+  "authorization": "Give an artistic view to poet pages - give the same treatment to portrait. Poem page should not show all the poems; there should be a way to search or jump to a poem.",
+  "scope_assumptions": [
+    "Questions about portrait conversion and which poem list remain unanswered. Proceeded with reversible photo framing and the main Poems directory, as stated in chat.",
+    "No new generated portraits; original faces, portrait assets and credits preserved. Individual poem reader sidebar unchanged."
+  ],
+  "changes": [
+    "427 poet profiles use existing artistic pen/manuscript section marks and subtle paper portrait frames with laterite accent, retaining existing compact waterline.",
+    "Poems directory shows 12 matching poems per page; search still covers all 799 poems and works with existing language filters.",
+    "Added edition selector and explicit Open button to jump to selected contents.",
+    "No-JavaScript fallback retains full list and archive access."
+  ],
+  "checks": [
+    "Node24 public build: 1297 routes, 1296 indexed pages.",
+    "Author checker: 429 profiles, 798 contribution links. Edition checker: 47 editions and 848 source hashes.",
+    "871 baseline source/content/data files unchanged.",
+    "Browser: initial 12/799, next 13–24, Odia search four matches, zero-result state, Hindi 12/103, reset and issue47 contents jump.",
+    "1280px and390px layout checks; photographic portrait, existing artistic portrait and initials fallback without horizontal overflow."
+  ],
+  "evidence": [
+    "artifacts/review/poet-artistic-and-poem-finder/integrity.json",
+    "artifacts/review/poet-artistic-and-poem-finder/browser-checks.json",
+    "artifacts/review/poet-artistic-and-poem-finder/finder-mobile.png",
+    "artifacts/review/poet-artistic-and-poem-finder/poet-desktop.png",
+    "artifacts/review/poet-artistic-and-poem-finder/poet-mobile.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "No publication. Biography factual audit and translation linguistic review remain separate.",
+    "Portrait presentation uses existing images; watercolor conversion was not performed."
+  ],
+  "next_action": "User reviews treatment and clarifies if watercolor conversion or individual reader contents was intended."
+}

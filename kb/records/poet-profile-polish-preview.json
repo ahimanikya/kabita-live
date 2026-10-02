@@ -1,0 +1,63 @@
+{
+  "recorded_at": "2026-10-02T11:10:26.076759+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "preview_ready_awaiting_design_review",
+  "user_direction": "poet profile review - let's do that now",
+  "scope": "Reopened visual profile review with seven current/proposed comparisons; biography factual audit and portrait rollout retain their separate records.",
+  "executor": "Current assistant; Samanta candidate and Drishti self-review",
+  "independent": false,
+  "url": "http://127.0.0.1:8771/poet-profile-polish-review.html",
+  "proposals": [
+    "Phone-only expandable full biography when longer than110words and multiple paragraphs; desktop full text stays visible",
+    "Compact historical journal note and tighter section spacing",
+    "Single linked issue/date line on mobile poem cards; desktop table retained",
+    "96px mobile initials placeholder; portraits retain approved sizes",
+    "Majrooh bibliography titles shown as text because destinations are one CV, retained in central credits"
+  ],
+  "preserved": [
+    "Full biography paragraphs and exact quotations",
+    "Contributions and local poem/edition links",
+    "Portraits, fonts, artwork, footer and shared reader files",
+    "Real book destinations including Singhasan collection website"
+  ],
+  "examples": [
+    "257 Majrooh Rashid",
+    "41 Pravakar Satapathy",
+    "82 Narmada Nilotpala",
+    "337 Sabita Singh Meera",
+    "56 Debarati Sen",
+    "233 Manju Chouhan: initials and no linked poems",
+    "258 Gargi Sarkhel Bagchi: initials and books"
+  ],
+  "verification": {
+    "viewports": [
+      360,
+      760,
+      768,
+      1280
+    ],
+    "overflow": "none across seven narrow-phone samples and nine tablet/desktop variants",
+    "keyboard": "native biography disclosure opens and closes with Enter",
+    "comparison_links": "Current/Proposed navigation passed",
+    "reader_integrity": "429 profiles and47 editions checks passed",
+    "source_check": "All seven current reader hashes unchanged; text and routes preserved in candidates",
+    "mobile_poem_start_reduction": {
+      "Majrooh": "2455px to1523px from main top (38%)",
+      "Pravakar": "3412px to1980px (42%)"
+    },
+    "limitations": [
+      "Self-review; not full accessibility or factual certification",
+      "No new reader build: isolated review HTML/CSS/JS served as KB symlinks",
+      "Biography audit findings remain open; no new biographies approved"
+    ]
+  },
+  "evidence": [
+    "artifacts/review/poet-profile-polish/source-check.json",
+    "artifacts/review/poet-profile-polish/verification.json",
+    "artifacts/review/poet-profile-polish/mobile-checks.json",
+    "artifacts/review/poet-profile-polish/responsive-checks.json",
+    "artifacts/review/poet-profile-polish/majrooh-mobile.png",
+    "artifacts/review/poet-profile-polish/majrooh-desktop.png"
+  ],
+  "next_action": "User reviews concrete profile design candidate before source application; factual writer audit remains separate."
+}

@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-09-30T09:00:26.758086+00:00",
+  "work_ref": "KBL-WORK-017",
+  "decision_ref": "KBL-DEC-027",
+  "authorization": "Now link the FB page to Home Pahe, add to the footer menu list",
+  "status": "applied_locally",
+  "facebook_url": "https://www.facebook.com/profile.php?id=61594946730649",
+  "change": "Facebook link follows Contact in shared footer, including Home; new tab with noopener noreferrer and existing external-link cue.",
+  "source": "projects/site/build.py",
+  "verification": [
+    "build.py regenerated 1312 linked pages.",
+    "build-public.py validated 1307 public pages and 586 assets.",
+    "Browser verified home-page footer layout, accessible link text and exact destination."
+  ],
+  "evidence": [
+    "artifacts/social/facebook-2026-09-30/home-footer-facebook.png"
+  ],
+  "independent_review": false,
+  "website_deployed": false,
+  "scope_note": "User now authorizes website-to-Facebook footer link. Adding website URL to Facebook remains deferred until migration.",
+  "release_gate": "Content ready remains false; this task does not change release readiness."
+}

@@ -1,0 +1,36 @@
+{
+  "batch": "research-064",
+  "status": "verified",
+  "independent": false,
+  "writer_ids": [
+    421,
+    419,
+    418,
+    414,
+    413
+  ],
+  "reader_drafts": 5,
+  "externally_corroborated": 3,
+  "source_limited": [
+    421,
+    413
+  ],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "PASS",
+    "editions": "PASS",
+    "preserved_source_files": 805,
+    "existing_narratives_preserved": 325,
+    "rendered_narratives": 5,
+    "browser_visual": "Not repeated; prose/data only, approved renderer unchanged."
+  },
+  "limitations": [
+    "Independent author/editor review pending.",
+    "421 and 413 remain source-limited because external literary records lack a specific bridge to sparse captured biographies.",
+    "418 external access was search-index only; direct opens failed. Anthology contribution distinguished from sole authorship.",
+    "419 totals vary across biographies; no current counts or unverified award claims added.",
+    "414 college-PDF extraction imperfections cross-checked against opened book record; no current employer or award claims."
+  ],
+  "resume": "research-065",
+  "publication": "No deployment or push."
+}

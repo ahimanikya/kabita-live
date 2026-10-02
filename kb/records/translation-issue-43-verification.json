@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 43,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    748,
+    749,
+    750,
+    752,
+    753,
+    754,
+    759,
+    756,
+    747,
+    751,
+    755,
+    757,
+    758,
+    760,
+    761
+  ],
+  "source_held": [],
+  "new_translations": 30,
+  "total_drafts": 150,
+  "remaining_translations": 1452,
+  "batches": [
+    "batch-014",
+    "batch-015",
+    "batch-016"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 15 translated poems",
+    "source_line_and_stanza_coverage": "pass for all 30 versions",
+    "rendered_catalogue_parity": "pass for all 30 versions",
+    "original_rendered_stanzas": "unchanged",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "publication": false,
+  "next_edition": 42,
+  "next_poem_ids": [
+    733,
+    735,
+    743,
+    744,
+    745
+  ]
+}

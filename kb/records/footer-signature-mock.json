@@ -1,0 +1,50 @@
+{
+  "recorded_at": "2026-10-02T02:03:34.425268+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "mock_ready",
+  "user_request": "Show mocks of one small watercolor boat on the right, no lotus or central icon, compact spacing and no decoration in quiet mode.",
+  "url": "http://127.0.0.1:8771/footer-signature-mock.html",
+  "options": {
+    "A": "Recommended gentle signature:190pxdesktop/145pxmobile boat.",
+    "B": "Smallest footprint:140pxdesktop/100pxmobile boat.",
+    "quiet": "Illustrative reader ending with page controls only; no site footer/artwork."
+  },
+  "preserved": "Existing watercolor source reused by CSS positioning; no artwork edits. Approved artistic menu SVGs and typography retained.",
+  "checks": [
+    "A/B selector updates both preview frames.",
+    "Desktop and embedded phone previews inspected.",
+    "375px actual mobile viewport: no horizontal overflow.",
+    "All four mock HTML files are KB-owned site symlinks, excluded by public exporter."
+  ],
+  "independent": false,
+  "limitations": [
+    "Mock only; no production footer changes or publication.",
+    "Quiet preview is illustrative with disabled page controls, not a replacement reader."
+  ],
+  "evidence": [
+    "artifacts/review/footer-signature/option-a-desktop.png",
+    "artifacts/review/footer-signature/option-b-desktop.png",
+    "artifacts/review/footer-signature/mobile-review.png"
+  ],
+  "next_action": "User reviews suggested softer centre before applying.",
+  "reference_revision": {
+    "recorded_at": "2026-10-02T02:06:17.235518+00:00",
+    "user_request": "Use the image I sent and preview it.",
+    "url": "http://127.0.0.1:8771/footer-reference-mock.html",
+    "arrangement": "Left lotus watercolor, centre rust boita SVG, right boat watercolor; desktop and mobile frames.",
+    "check": "1200px desktop plus embedded mobile visually inspected. Existing artwork files and production pages unchanged.",
+    "evidence": "artifacts/review/footer-signature/reference-preview.png"
+  },
+  "suggested_revision": {
+    "recorded_at": "2026-10-02T02:12:50.341319+00:00",
+    "url": "http://127.0.0.1:8771/footer-suggested-mock.html",
+    "change": "Preserve three-part composition; reduce central boita88→64pxdesktop,44→32pxmobile; mix62%existingrust with38%paper.",
+    "checks": [
+      "1200px desktop and embedded mobile visually reviewed.",
+      "Reference comparison toggle switches both frames.",
+      "390px mobile:32pxcentreicon,nooverflow,four44pxmenutargets."
+    ],
+    "evidence": "artifacts/review/footer-signature/suggested-preview.png",
+    "status": "mock_only_awaiting_review"
+  }
+}

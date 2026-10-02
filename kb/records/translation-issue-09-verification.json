@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 9,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    241,
+    242,
+    233,
+    237,
+    238,
+    239,
+    243,
+    231,
+    232,
+    234,
+    235,
+    236,
+    240
+  ],
+  "source_held": [],
+  "new_translations": 26,
+  "total_drafts": 1150,
+  "remaining_translations": 452,
+  "batches": [
+    "batch-130",
+    "batch-131",
+    "batch-132"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 13 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 26 versions",
+    "rendered_catalogue_parity": "pass for all 26 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "241": [
+      "34 lines retained. Source spacing/leading vowel corruption interpreted in context, originals untouched. Nandighosha chariot and nationalist quotations retained without adding speakers absent from text. Kalantaka temporal force needs linguistic review."
+    ],
+    "242": [
+      "30 lines retained. Daya remains river name with mercy association; Chandashoka/Dharmashoka contrast retained. Buddha sleeping remains poetic depiction, not historical assertion. Hindi feminine narrator provisional."
+    ],
+    "233": [
+      "Ten couplets retained; semantic rendering rather than claim to reproduce ghazal meter/rhyme. Kiran pen-name preserved. Source shifts feminine khatkhatati to masculine deta; gender-neutral target narration avoids silently choosing identity."
+    ],
+    "237": [
+      "28 lines retained; registers, alphabetic ordering and birth/death certificates preserved."
+    ],
+    "238": [
+      "Eleven quatrains retained. Pao interpreted traditional quarter-seer without imposing modern gram conversion; measurement imagery and repeated final parcel preserved. Two wings, not two fairies."
+    ],
+    "239": [
+      "Five long prose-like source lines kept as five long target lines. Unusual enthusiasm-glimmer verb interpreted bears; no stanza splitting."
+    ],
+    "243": [
+      "All 19 long lines and repeated daughters-who-learn-and-grow retained. Accusations against educated daughters and single mothers are authorial irony exposing prejudice, not translator endorsement. Named figures and parenthetical some retained."
+    ],
+    "231": [
+      "Blocks [4,12] retained. Starina kept as name; frosted lips interpreted cosmetic shimmer, not literal freezing. Childless middle-aged women and final social surprise retained without added motivation."
+    ],
+    "232": [
+      "Five quatrains retained. Kites interpreted birds from creature context, not paper kites; biologically unusual night/flute/firefly imagery preserved rather than factual repair."
+    ],
+    "234": [
+      "All ten numbered haiku retained in nine source blocks [4,4,4,4,4,8,4,4,4]. Exceptional block joining 6 and 7 explicitly preserved pending editorial reconciliation; no lines removed. Lave net retained as transliterated specialized net, not silently changed to another fishing method. Meaning prioritized over unverified target syllable counts."
+    ],
+    "235": [
+      "Blocks [23,2] retained. Valley/woman parallel and victim-blaming indictment preserved without adding event dates, identities or explicit violence not in source. Cocktail-of-seasons image retained."
+    ],
+    "236": [
+      "Blocks [5,4,3] retained. Source shifts present change to past fell-in-love, retained in targets; Hindi feminine narrator provisional."
+    ],
+    "240": [
+      "All 26 lines retained. Source says boons, not bones; translated varadan without silently correcting. Adversary retained rather than replaced with companion. Fifty-eight years, eight months and asthma preserved; no cause or identity added for private loss."
+    ]
+  },
+  "publication": false,
+  "next_edition": 8,
+  "next_poem_ids": [
+    216,
+    220,
+    222,
+    224,
+    230
+  ]
+}

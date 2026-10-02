@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-02T04:46:41.689091+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "approved_applied_verified",
+  "independent": false,
+  "url": "http://127.0.0.1:8771/compact-separator-editors-mock.html",
+  "asset": "assets/poetic-waterline.svg",
+  "presentation": "Existing115x23px left-aligned ornament with24px top spacing, unchanged vector.",
+  "placements": {
+    "search": "Existing opening placement retained.",
+    "about": "Existing opening placement retained.",
+    "editors": "Trial beneath introductory copy.",
+    "submit": "Trial beneath introductory copy on pending submission mock."
+  },
+  "checks": [
+    "Editors1101px and390px visually inspected; no overflow.",
+    "Submission390px visually inspected; no overflow.",
+    "Computed ornament width115px, original SVG path confirmed.",
+    "Public export excludes mock routes."
+  ],
+  "evidence": [
+    "artifacts/review/compact-separator/sources.json",
+    "artifacts/review/compact-separator/editors-desktop.png",
+    "artifacts/review/compact-separator/editors-mobile.png",
+    "artifacts/review/compact-separator/submit-mobile.png"
+  ],
+  "next_action": "Discuss Our Story review findings before preparing changes.",
+  "approval": "All good let's apply and move to next item",
+  "application_record": "records/submission-polish-applied.json"
+}

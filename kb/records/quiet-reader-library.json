@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-02T07:10:13.553651+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "In the reader I can select which edition or while author I can search and read or read all",
+  "changes": [
+    "Added edition/poet browsing inside quiet-reader Aa settings with collection search, poem title/body search, Read poem and Read all.",
+    "Edition collections preserve publication order; poet collections order newer editions first and retain publication order within each.",
+    "Loads only the chosen collection; switching collections preserves device bookmarks and existing language/size/page-turn tools.",
+    "Collection chooser is first in the tools panel; current reading list remains intact until a read action."
+  ],
+  "checks": [
+    "Public build passed:1297routes and1296indexed pages; new library data included in public output.",
+    "Edition checker passed47editions and848source hashes; author checker passed429profiles and798contribution links.",
+    "871source/content/data files unchanged; author reading payloads match edition payloads.",
+    "Switched to Issue47 and read all16; switched to Manorama Choudhury and read both poems in order.",
+    "Search matched translated title impervious and Read poem created a single-poem list; no-result search disabled Read poem but retained Read all.",
+    "Bookmarks survived edition/poet changes and test bookmarks were removed through the UI. Exit/reopen restored the originating poem and edition.",
+    "390px phone: single-page turns work, picker has no horizontal overflow.1024px tablet: two-page spread and30px extra-large text verified. Escape dismisses tools."
+  ],
+  "evidence": [
+    "artifacts/review/quiet-reader-library/integrity.json",
+    "artifacts/review/quiet-reader-library/mobile.png",
+    "artifacts/review/quiet-reader-library/tablet.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "Only poets with available contributions appear:425poets/798attributed poems. Missing author and source-text gaps remain recorded.",
+    "Read all starts at the beginning of the full selected collection. Closing and reopening starts from the originating page edition; no cross-collection resume chooser added.",
+    "Loading error and retry paths implemented; network failure not simulated in browser verification.",
+    "Local preview only; editorial and linguistic review remain pending."
+  ]
+}

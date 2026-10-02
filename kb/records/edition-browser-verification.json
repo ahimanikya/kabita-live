@@ -1,0 +1,65 @@
+{
+  "result": "PASS_WITH_LIMITATIONS",
+  "self_review": true,
+  "checks": [
+    {
+      "route": "poem-dokana.html",
+      "width": 360,
+      "scroll_width": 360,
+      "reading_size": "32px",
+      "font": "Noto Serif Oriya",
+      "night_reading": true
+    },
+    {
+      "route": "poem-145.html",
+      "width": 360,
+      "scroll_width": 360,
+      "reading_size": "32px",
+      "font": "Tiro Devanagari Hindi"
+    },
+    {
+      "route": "poem-drink.html",
+      "width": 360,
+      "scroll_width": 360,
+      "reading_size": "32px",
+      "font": "Source Serif 4"
+    },
+    {
+      "route": "issue-4.html",
+      "width": 360,
+      "scroll_width": 360,
+      "contents_count": 43,
+      "body_query": "सरहदों",
+      "matches": 2,
+      "English_filter_matches": 0,
+      "empty_state_visible": true
+    },
+    {
+      "route": "search.html",
+      "initial_count": 801,
+      "body_query": "draught by draught",
+      "matches": [
+        "Drink"
+      ]
+    },
+    {
+      "route": "poets.html",
+      "initial_count": 429,
+      "letter_filter": "G",
+      "name_query": "Gargi Sarkhel",
+      "matches": 1,
+      "profile": "poet-258.html",
+      "contribution": "poem-246.html"
+    }
+  ],
+  "sharing": [
+    "poem-dokana.html: local reader URL and Issue 47",
+    "poem-145.html: local reader URL and Issue 4"
+  ],
+  "limitations": [
+    "Self-review, not accessibility certification.",
+    "Browser screenshot scaling artifacts; mobile checks use DOM geometry.",
+    "Clicks under CDP mobile emulation are offset by host zoom; controls activated at native viewport then measured at 360px.",
+    "Existing design and enlarged-header review remains separate."
+  ]
+}

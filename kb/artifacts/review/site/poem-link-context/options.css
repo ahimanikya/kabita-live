@@ -1,0 +1,5 @@
+.poem-page .edition-glance #poem-secondary-links.context-hints a{display:block;min-height:64px;padding:10px 0}
+.context-link-title{display:block;color:var(--ink);font:500 16px/1.5 var(--ui)}
+.context-link-help{display:block;color:var(--muted);font:14px/1.5 var(--ui);margin-top:2px}
+.poem-page .edition-glance #poem-secondary-links a:hover .context-link-title{text-decoration:underline;text-underline-offset:4px}
+.context-links-heading{font:600 24px/1.3 var(--display);margin:0 0 8px;color:var(--ink)}

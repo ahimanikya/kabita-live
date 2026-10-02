@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-01T23:16:15.300463+00:00",
+  "work_ref": "KBL-WORK-012",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "status": "ready_for_user_review",
+  "url": "http://127.0.0.1:8771/writer-audit-review.html",
+  "artifact": "artifacts/review/writer-audit/writer-audit-review.html",
+  "coverage": {
+    "profiles": 427,
+    "specific_findings": 20,
+    "specific_profiles": 27,
+    "evidence_followup_profiles": 161
+  },
+  "controls": [
+    "Approve as written",
+    "Request edit with required note",
+    "Reject added text",
+    "Return to undecided",
+    "Autosaved notes",
+    "Search/name or exact ID",
+    "Group/status filters",
+    "Sources and original-biography comparison",
+    "Full profile preview",
+    "Download/copy decision export"
+  ],
+  "decision_scope": "Added biography and book entries only; no automatic edits or publication. Approval is user editorial direction, not independent factual certification.",
+  "storage": "Origin-scoped localStorage; export/copy for durable handoff. Snapshot hashes invalidate approvals when writer text changes. Test session has distinct storage key and test_session=true exports.",
+  "checks": {
+    "javascript_syntax": "passed",
+    "browser_decision_states": "passed in isolated test session",
+    "request_edit_requires_note": "passed",
+    "notes_and_decision_reload": "passed",
+    "filters_427_161_and_empty_state": "passed",
+    "exact_numeric_id": "passed",
+    "download_export": "passed; TEST JSON downloaded and parsed from Downloads; browser event wait timed out but file confirmed success",
+    "clipboard_export": "passed; parsed test flag, writer49, decision, note and hashes",
+    "mobile_390px_overflow": "passed:scrollWidth=clientWidth=390",
+    "public_export_exclusion": "passed; review symlink absent from .public;1307reader pages selected",
+    "snapshot_matches_current_reader_data": "passed;427 profiles"
+  },
+  "concurrent_change": "Prior audit reader-data hash changed solely in separately recorded work: KBL-EVT-274 updates writer41 book destination. Current review snapshot includes that correction and all reader_draft dossier snapshots agree. No reader content edits performed by this UI task.",
+  "screenshots": [
+    "artifacts/review/writer-audit/desktop.png",
+    "artifacts/review/writer-audit/mobile.png"
+  ],
+  "limitations": [
+    "Same-assistant functional/visual checks, not independent accessibility certification.",
+    "Export or paste decisions back; no automatic KB write from browser.",
+    "No real user decisions created during testing.",
+    "Captured originals may contain unverified historical assertions; shown for comparison only."
+  ],
+  "review_status": "resumed_by_user",
+  "deferred_at": "2026-10-01T23:30:15.693478+00:00",
+  "resume_point": "Writer49; current reader text confirmed already applied. No saved browser decisions yet.",
+  "resumed_at": "2026-10-02T11:19:13.334445+00:00"
+}

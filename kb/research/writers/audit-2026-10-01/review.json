@@ -1,0 +1,20 @@
+{
+  "status": "screening_complete_factual_review_open",
+  "independent": false,
+  "checks": {
+    "427_dossiers_screened": true,
+    "20_curated_findings": true,
+    "805_prior_preservation_hashes_unchanged": true,
+    "424_reader_drafts_equal_dossiers": true,
+    "registers_catalogue_bundle": "passed",
+    "storage": "passed;1902 portable links"
+  },
+  "reader_data_sha256": "eb66aa351fda4d8222a0ea1bdc6d4e9f3508f9846bbe8864f6e92ee87755b1ea",
+  "limitations": [
+    "Not a complete fresh external fact-check of44767words or215book cards.",
+    "No independent author/editor review.",
+    "No source-poem or public biography edits.",
+    "KB-only audit: public build not rerun; prior successful build remains unchanged."
+  ],
+  "handoff": "synchronized"
+}

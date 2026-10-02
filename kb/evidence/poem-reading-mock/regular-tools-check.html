@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Regular reader checks</title><style>body{font:15px system-ui}iframe{width:360px;height:740px}pre{white-space:pre-wrap}button{padding:14px}</style><button id="run">Check saved reading tools</button><pre id="result">Ready.</pre><iframe title="Regular reader test" src="/poem-reading-mock.html?revision=19"></iframe><script type="module">
+import {normalized} from '/assets/poem-marks.mjs?v=2';
+const frame=document.querySelector('iframe'),result=document.querySelector('#result'),delay=ms=>new Promise(r=>setTimeout(r,ms));
+document.querySelector('#run').onclick=async()=>{
+ const d=frame.contentDocument,w=frame.contentWindow,checks=[],backup=new Map();const keys=['kabita-live-page-bookmarks-review-v1:8','kabita-live-quiet-reader-review-v1',...['or','en','hi'].flatMap(c=>[`kbl-quiet-review-marks-v1:8:${c}`,`kbl-quiet-review-marks-v1:8:${c}:regular-migrated`,`kbl-review-only:kbl-poem-marks-v1:8:${c}`])];for(const k of keys){backup.set(k,w.localStorage.getItem(k));w.localStorage.removeItem(k)}
+ const check=(name,pass)=>checks.push({name,pass:!!pass});
+ const q=s=>d.querySelector(s),click=s=>q(s).click(),set=(s,v)=>{q(s).value=v;q(s).dispatchEvent(new Event('change',{bubbles:true}))};
+ try{
+ await d.fonts.ready;if(q('#page-bookmarks').hidden)click('#page-bookmarks-button');
+ check('Four language choices', [...d.querySelectorAll('[data-reading-language]')].map(e=>e.textContent).join('|')==='Original|Odia|Hindi|English');
+ click('[data-reading-language="original"]');const original=q('#experience-verse').textContent;
+ for(const code of ['or','hi','en','original']){click(`[data-reading-language="${code}"]`);check('Language selection '+code,q('#experience-verse').lang===(code==='original'?'or':code)&&d.querySelectorAll('[role="tab"][aria-selected="true"]').length===1&&q('#reading-panel').getAttribute('aria-labelledby')==='tab-'+code)}
+ click('[data-reading-language="or"]');check('Original and Odia share source text',q('#experience-verse').textContent===original);
+ check('Named sizes',[...d.querySelectorAll('.size-group button')].map(e=>e.textContent).join('|')==='Standard|Large|Extra large');
+ for(const size of ['28','32','24']){click(`[data-size="${size}"]`);check('Text size '+size,q(`[data-size="${size}"]`).getAttribute('aria-pressed')==='true'&&(size==='24'||parseFloat(w.getComputedStyle(q('#experience-verse')).fontSize)===Number(size)))}
+
+ check('Language tabs and sizes visible inside reader menu',q('.reading-tabs').getBoundingClientRect().height>0&&q('.size-group').getBoundingClientRect().height>0);
+ if(q('#page-bookmarks').hidden)click('#page-bookmarks-button');click('#page-save-place');check('Bookmark created',q('#page-save-place').textContent==='Remove bookmark');click('#page-bookmarks-close');
+ const target=q('[data-line="10"]');target.scrollIntoView({block:'start'});await delay(300);const saved=JSON.parse(w.localStorage.getItem('kabita-live-page-bookmarks-review-v1:8'))[0];check('Bookmark follows reading position',saved.line>0);
+ if(q('#page-bookmarks').hidden)click('#page-bookmarks-button');q('#page-saved-list button').click();check('Bookmark returns focus to saved line',Number(d.activeElement.dataset.line)===saved.line);
+ click('[data-reading-language="or"]');const words=q('[data-line="0"] .line-words'),text=words.textContent;words.scrollIntoView({block:'center'});const range=d.createRange();range.setStart(words.firstChild,1);range.setEnd(words.firstChild,9);w.getSelection().removeAllRanges();w.getSelection().addRange(range);d.dispatchEvent(new Event('selectionchange'));click('#underline-selection');const [expected]=normalized([{line:0,start:1,end:9}],[text],'or');const quote=text.slice(expected.start,expected.end);
+ check('Regular partial underline',q('.pencil-mark')?.textContent===quote);
+ if(q('#page-bookmarks').hidden)click('#page-bookmarks-button');check('Saved passage is listed',q('#page-saved-list').textContent.includes(quote));click('#page-bookmarks-close');
+ click('#open-focus');await delay(100);set('#focus-poem','6');set('#focus-language','or');check('Underline carried into quiet mode',q('#focus-pages .focus-pencil')?.textContent===quote);
+ click('#close-focus');click('[data-reading-language="en"]');check('Translation underlines isolated',!q('.pencil-mark'));if(q('#page-bookmarks').hidden)click('#page-bookmarks-button');const passage=[...d.querySelectorAll('#page-saved-list .focus-saved-row button:first-child')].find(n=>n.textContent===quote);passage.click();check('Saved passage switches back to original',q('.verse').lang==='or'&&d.activeElement.dataset.line==='0');
+ if(q('#page-bookmarks').hidden)click('#page-bookmarks-button');const bounds=q('#page-bookmarks').getBoundingClientRect();check('360px drawer fits width',bounds.left>=0&&bounds.right<=360);
+ const remove=[...d.querySelectorAll('#page-saved-list button')].find(n=>n.getAttribute('aria-label')?.includes('underlined passage')&&n.textContent==='×');remove.click();check('Saved passage removal refreshes poem',!q('.pencil-mark'));click('#page-bookmarks-close');
+ check('No horizontal overflow',d.documentElement.scrollWidth<=360);
+ const boat=q('.earth-edge').getBoundingClientRect(),end=q('.poem-reading-end').getBoundingClientRect(),footLinks=q('#poem-secondary-links').getBoundingClientRect();check('Mobile footer artwork clears navigation and links',boat.top>=end.bottom+16&&footLinks.top>=boat.bottom+8&&w.getComputedStyle(q('.earth-edge')).position==='static');
+ result.textContent=JSON.stringify({state:'complete',checks,failures:checks.filter(x=>!x.pass)},null,2);
+ }catch(e){result.textContent=JSON.stringify({state:'failed',error:e.message,checks},null,2)}finally{
+ if(q('#focus-reader').open)click('#close-focus');await delay(220);for(const [key,value] of backup){if(value===null)w.localStorage.removeItem(key);else w.localStorage.setItem(key,value)}
+ }
+};
+</script></html>

@@ -1,0 +1,37 @@
+{
+  "batch": "research-070",
+  "status": "verified",
+  "independent": false,
+  "writer_ids": [
+    277,
+    276,
+    273,
+    266,
+    262
+  ],
+  "reader_drafts": 5,
+  "externally_corroborated": 3,
+  "source_limited": [
+    277,
+    276
+  ],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "PASS",
+    "editions": "PASS",
+    "preserved_source_files": 805,
+    "existing_narratives_preserved": 355,
+    "rendered_narratives": 5,
+    "browser_visual": "Not repeated; prose/data only, approved renderer unchanged."
+  },
+  "limitations": [
+    "Independent author/editor review pending.",
+    "277 and 276 have insufficient external identity bridges; narratives grounded in captured poems.",
+    "278 ending requires source/editor confirmation; preserved without reconstruction.",
+    "262 award names differ between captured and external notes; no new award claim added.",
+    "262 full indexed sources used after direct-open failures; access recorded explicitly.",
+    "No concurrent source corrections detected against baseline."
+  ],
+  "resume": "research-071",
+  "publication": "No deployment or push."
+}

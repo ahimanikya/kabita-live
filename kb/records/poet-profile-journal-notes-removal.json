@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-10-02T11:28:42.538235+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": "User requested removal of From the journal headings and their personal details.",
+  "affected_profiles": 51,
+  "change": "Removed appended location/affiliation section and obsolete colophon explanation. Captured source notes preserved; enriched biography and book data unchanged.",
+  "enriched_profiles_already_applied": 427,
+  "checks": [
+    "Public Node24 build passed",
+    "Author and edition integrity passed",
+    "All51 note sections absent from generated profiles",
+    "Browser confirmed poet170 flows directly from biography to contributions",
+    "Enrichment and original publication-note data hashes unchanged"
+  ],
+  "evidence": "artifacts/review/poet-profile-journal-notes-removal",
+  "independent": false
+}

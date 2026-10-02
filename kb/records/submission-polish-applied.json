@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-02T04:51:53.737373+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "approved_applied_verified",
+  "independent": false,
+  "approval": "All good let's apply and move to next item",
+  "scope": [
+    "Send a poem reviewed layout",
+    "Compact leaf/wave under Editors and submission introductions; Search/Our Story retain existing motif"
+  ],
+  "changes": [
+    "Prominent email draft action and three practical guidance sections; mobile action before guidance.",
+    "Editable mailto prompts and copy-address status/fallback.",
+    "Original poetic-waterline.svg at115x23px, left aligned with24px spacing; no redraw or full-width variant.",
+    "Persistent builder modules and page-specific styles; all preview navigation omitted."
+  ],
+  "verification": [
+    "Applied submission main matches approved mock exactly after preview-bar removal and class rename.",
+    "Desktop1101px/mobile390px visually inspected; no overflow; mobile primary button50px.",
+    "Keyboard moves from email draft link to visible email address.",
+    "Encoded recipient/subject/body verified without opening or sending mail.",
+    "Copy-address success/failure checked in isolated JavaScript; user clipboard untouched.",
+    "Node24 public build PASS1307pages.",
+    "All other baseline HTML/data unchanged except submit and editorial stylesheet revisions.",
+    "No artwork, poem, translation or writer data changes."
+  ],
+  "limitations": [
+    "Email-client compatibility not exercised; actual clipboard permission UI not exercised.",
+    "Same-assistant review; broader accessibility/real-device review remains.",
+    "Local application only; nothing published."
+  ],
+  "evidence": [
+    "artifacts/review/submission-applied/integrity.json",
+    "artifacts/review/submission-applied/desktop.png",
+    "artifacts/review/submission-applied/mobile.png"
+  ],
+  "next_action": "Discuss Our Story review findings before preparing changes."
+}

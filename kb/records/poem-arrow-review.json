@@ -1,0 +1,31 @@
+{
+  "status": "approved_and_applied",
+  "scope": "Icon-only curved navigation across all poem pages; local implementation only",
+  "options": {
+    "A": "Plain single-ink arrow",
+    "B": "Gently curved single-ink arrow"
+  },
+  "recommended": "B",
+  "features": [
+    "Centred existing botanical separator",
+    "Full-width navigation example",
+    "48px icon targets",
+    "Hover/focus labels and accessible names",
+    "First/middle/last edition states",
+    "Isolated dark preview",
+    "Local choice saving"
+  ],
+  "review_url": "http://127.0.0.1:8771/poem-arrow-review.html",
+  "choice": "B",
+  "approval_quote": "b",
+  "verification": {
+    "pages": 801,
+    "approved_geometry_matches": true,
+    "verse_unchanged": true,
+    "all_47_edition_boundaries_preserved": true,
+    "phone_width": 360,
+    "horizontal_overflow": false,
+    "tap_targets": "48 \u00d7 48px",
+    "keyboard_tooltip": "visible on focus"
+  }
+}

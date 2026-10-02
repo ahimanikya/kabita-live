@@ -1,0 +1,1 @@
+../../../../kb/artifacts/review/site/assets/home-card-review.js

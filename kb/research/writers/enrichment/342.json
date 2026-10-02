@@ -1,0 +1,98 @@
+{
+  "writer_id": 342,
+  "name": "Reema Sinha",
+  "reviewed_on": "2026-10-01",
+  "batch": "research-056",
+  "status": "source_checked_local_draft",
+  "independent": false,
+  "portrait_action": "unchanged",
+  "reader_draft": {
+    "sections": [
+      {
+        "heading": "Life and writing.",
+        "language": "en",
+        "paragraphs": [
+          "Reema Sinha is a Lucknow writer and the founder of Niharika Sahitya Manch, a forum for literary and cultural gatherings. Her contributions to Kabita Live appear in Hindi and English, bringing together devotional address and attentiveness to another person’s feelings.",
+          "In “भक्तिन के नयनों में अमर प्रेम रहने दो”, flowers, sandalwood and prayer frame love as a sustained act of devotion. “That old woman” turns instead to an encounter in moonlight: the observer senses grief and remembered joy but cannot fully understand them. Both poems approach feeling through what can be seen, offered or left unsaid."
+        ]
+      }
+    ],
+    "books": [],
+    "sources": [
+      {
+        "label": "Sahitya Rachana — रीमा सिन्हा",
+        "url": "https://www.sahityarachana.com/2021/01/hindi-kavita-roti-kapada-aur-makaan-reema-sinha.html"
+      },
+      {
+        "label": "Samar Saleel — Niharika Sahitya Manch gathering, April 2025",
+        "url": "https://samarsaleel.com/under-the-auspices-of-niharika-sahitya-manch-country-of-india-foundation-trust/464895"
+      }
+    ],
+    "reviewed_on": "2026-10-01"
+  },
+  "sources": [
+    {
+      "label": "Sahitya Rachana — रीमा सिन्हा",
+      "url": "https://www.sahityarachana.com/2021/01/hindi-kavita-roti-kapada-aur-makaan-reema-sinha.html",
+      "supports": "Published Hindi poetry and Lucknow byline; page read during research-055.",
+      "access": "opened_page",
+      "accessed_on": "2026-10-01"
+    },
+    {
+      "label": "Samar Saleel — Niharika Sahitya Manch gathering, April 2025",
+      "url": "https://samarsaleel.com/under-the-auspices-of-niharika-sahitya-manch-country-of-india-foundation-trust/464895",
+      "supports": "Report dated 22 April 2025 identifies founder Dr Reema Sinha and literary/cultural gatherings in Lucknow.",
+      "access": "opened_page",
+      "accessed_on": "2026-10-01"
+    }
+  ],
+  "identity_match": "Captured Lucknow location and founder role at named Niharika Sahitya Manch match report; journal confirms Hindi name and city. Potential duplicate Rima Sinha 410 retained separately; no works reassigned.",
+  "poems_read": [
+    {
+      "id": 489,
+      "title": "भक्तिन के नयनों में अमर प्रेम रहने दो",
+      "coverage": "Complete original, all three stanzas",
+      "basis": "Devotee refrain, flower/sandalwood imagery, waiting and prayer."
+    },
+    {
+      "id": 414,
+      "title": "That old woman",
+      "coverage": "Complete original, all six stanzas",
+      "basis": "Moonlit observation, tears and smile, empathy without full understanding."
+    }
+  ],
+  "limitations": [
+    "Possible duplicate with 410 Rima Sinha requires editor confirmation; counts remain profile records, not deduplicated people.",
+    "No publisher records established for Asha and Noyonika; no book links added.",
+    "Degree, current press-office roles and honorary award claims in capture not independently verified and not repeated in new narrative.",
+    "No inference of author’s personal religious identity from a devotional speaker.",
+    "Same-assistant research and close reading; independent author/editor factual review pending."
+  ],
+  "research_leads": [
+    {
+      "url": "https://www.youtube.com/watch?v=lLcrl2PuKWo",
+      "finding": "Interview description indexed previously names Lucknow, Niharika and books; direct open failed, audio not auditioned. Retain as future bibliography lead."
+    }
+  ],
+  "next_action": "Confirm preferred name and duplication with 410; author/editor to supply publisher links for Asha and Noyonika.",
+  "editorial_resolution": {
+    "recorded_at": "2026-10-02T11:39:43.161399+00:00",
+    "user_direction": "Can we apply them all",
+    "findings": [
+      "KBL-WA-004"
+    ],
+    "changes": [
+      "Removed the unconfirmed external Hindi-byline attribution from410 and retained only local contribution facts."
+    ],
+    "independent_factual_review": "not_certified"
+  },
+  "research_followups": [
+    {
+      "recorded_at": "2026-10-02T12:29:01.735706+00:00",
+      "record": "records/writer-enrichment-final-followup.json",
+      "result": "No exact external attribution of poem 584 or explicit identity bridge located. Other poems under the Hindi name and Lucknow location do not establish that both contributor IDs refer to the same person.",
+      "editor_question": "Are Reema Sinha (342) and Rima Sinha (410) the same contributor? Please confirm ownership of रख लिया विक्षोभ बहुत and the preferred display spelling.",
+      "reader_change": false
+    }
+  ]
+}

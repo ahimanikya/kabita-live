@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 14,
+  "status": "actionable drafts complete; source hold unresolved; independent linguistic review pending",
+  "poems_drafted": [
+    322,
+    337,
+    326,
+    338,
+    323,
+    324,
+    325,
+    327,
+    328,
+    329,
+    330,
+    331,
+    333,
+    334,
+    335,
+    336,
+    339
+  ],
+  "source_held": [
+    332
+  ],
+  "new_translations": 34,
+  "total_drafts": 976,
+  "remaining_translations": 626,
+  "batches": [
+    "batch-109",
+    "batch-110",
+    "batch-111",
+    "batch-112"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 17 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 34 versions",
+    "rendered_catalogue_parity": "pass for all 34 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged for all 18 entries including held 332 in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "322": [
+      "Five blocks retained. Pundas rendered pandas/pande, not zoological pandas; tantri provisionally tantrics. Final source niruddhishta read as missing in context. Personified God and Buddha assertions remain poetic claims."
+    ],
+    "337": [
+      "Six blocks and all cultural allusions preserved. Manika, curd, ring and king kept without added legend. Namabali and kalisi retained; Konark summit/leap allusion unexpanded. Bhaba/abhaba provisionally feeling/want; first matchstick line retains first-person burning ambiguity."
+    ],
+    "326": [
+      "Repeated dagger refrain and all five blocks retained. Durmarsha rendered unbearable; no forced target rhyme at expense of meaning."
+    ],
+    "338": [
+      "Source title Ghazal retained although stanza structure is free verse; all eight blocks preserved. Spiritual love and humble invitation retained without adding doctrine."
+    ],
+    "323": [
+      "Five quatrains retained. Source inverted Desire I syntax interpreted as I desire; silence/darkness/white ambiguities and absent beloved preserved. Hindi speaker grammatical masculine is provisional; source English does not determine gender."
+    ],
+    "324": [
+      "All thirteen blocks retained, including isolated sadness line and final spelled-out Nirvana. Female narrator supported by woman possessed in original. Chakras kept as poem imagery; no spiritual treatment claim added."
+    ],
+    "325": [
+      "All nine lines retained. Tree desire and wind touching lost tune remain ambiguous, not explained away. Hindi second-person grammatical masculine provisional; source gender unspecified."
+    ],
+    "327": [
+      "All 31 lines preserved, including split inner/self and long synchronise line. Source abstract grammatical discontinuities retained rather than supplying narrative. Cris cross interpreted crossroads; wit/capability and self-love imagery retained."
+    ],
+    "328": [
+      "Four blocks [2,2,4,3] retained. Alchemy interpreted metaphorically as transformation, not literal chemistry. Spiritual assertions remain the poem’s own."
+    ],
+    "329": [
+      "All 19 lines retained. Female presence maintained. Poison/explosives remain figurative source imagery with no procedural additions. Familiar claws/nails and dense misty lips preserved without invented interpretation."
+    ],
+    "330": [
+      "Fifteen lines preserved; odd slip of larvae understood as larval slipping emergence. Growth into destructive creature preserved."
+    ],
+    "331": [
+      "Both blocks [4,29] preserved. Abysmal read as unfathomably deep faith; cause/effect fragments and contradictory God-giving assertions kept. Wrathful wassailer of Evaluating light is highly uncertain source phrasing, rendered close to literal; requires author/native linguistic review, not silently repaired."
+    ],
+    "333": [
+      "Sixteen verse lines plus complete one-line source mythology note preserved. Epic comparisons, grail, Fakir and alien left as poem imagery; no factual correction of author’s footnote. Daring provisionally attaches to fallen leaf; twits interpreted mocks/teases."
+    ],
+    "334": [
+      "All six blocks retained. Sensory mango/petrichor/kheer/Jagannath-prasad memories preserved. Grandmother rendered dadi/jejema provisionally; maternal or paternal unspecified. Hindi female narrator provisional; beloved/infant associations not assigned a new relationship."
+    ],
+    "335": [
+      "All twenty lines preserved. Panta retained, not substituted with a different regional food. Angora skin is uncertain source wording, kept as angora-like skin without silently changing to dark/fair. Child-labour and lost-childhood contrast retained; daughter remains narrator’s daughter."
+    ],
+    "336": [
+      "All 28 lines retained including repeated weaving and short closing lines. Taste/ecology metaphor kept. Fawning course read as affectionate/flattering river course provisionally; biodiversity claims remain poetic, not scientific assertions."
+    ],
+    "339": [
+      "All twenty lines retained. Opening Keats echo, Festival of Lights and Wuthering Heights/Heathcliff reference retained; no extra literary credit added within poem. Elliptical subject in rising up interpreted we provisionally. Source unconventional seasons and half-won battle imagery not corrected."
+    ]
+  },
+  "new_hold": "Poem 332 mixes You Will Come Again by Nurul Hoque with a separate Lethe credited to Pritha Chakraborty. Preserved HTML confirms mixture. Same-title poem 507 by Pritha is a different version, not a replacement source. Separate record boundaries and attribution need confirmation.",
+  "publication": false,
+  "next_edition": 13,
+  "next_poem_ids": [
+    318,
+    309,
+    316,
+    320,
+    317
+  ]
+}

@@ -1,0 +1,1085 @@
+{
+  "created_on": "2026-10-02",
+  "authorization": "Apply editors watercolor artwork treatment to every poet; user clarified Watercolor artwork for every poet.",
+  "execution": "User-authorized recurring heartbeat in this same chat, every 20 minutes; sequential batches of five, no overlapping workers or subagents.",
+  "scope": "427 non-editor poet profiles; preserve four pre-existing artistic portraits.",
+  "previously_completed": [
+    82,
+    337,
+    257,
+    41
+  ],
+  "batch_size": 5,
+  "source_holds": [
+    {
+      "writer_id": 233,
+      "name": "Manju Chouhan",
+      "reason": "No identified source photograph in saved portrait mapping; retain initials."
+    },
+    {
+      "writer_id": 258,
+      "name": "Gargi Sarkhel Bagchi",
+      "reason": "No identified source photograph in saved portrait mapping; retain initials."
+    },
+    {
+      "writer_id": 416,
+      "name": "Nutan Sarawagi",
+      "reason": "No identified source photograph in saved portrait mapping; retain initials."
+    }
+  ],
+  "batches": [
+    {
+      "id": "portrait-001",
+      "writer_ids": [
+        347,
+        243,
+        330,
+        394,
+        168
+      ],
+      "status": "integrated",
+      "verification": "passed"
+    },
+    {
+      "id": "portrait-002",
+      "writer_ids": [
+        77,
+        369,
+        125,
+        398,
+        388
+      ],
+      "status": "integrated",
+      "verification": "passed"
+    },
+    {
+      "id": "portrait-003",
+      "writer_ids": [
+        178,
+        174,
+        126,
+        285,
+        455
+      ],
+      "status": "integrated",
+      "verification": "passed"
+    },
+    {
+      "id": "portrait-004",
+      "writer_ids": [
+        381,
+        97,
+        52,
+        83,
+        129
+      ],
+      "status": "integrated",
+      "verification": "passed"
+    },
+    {
+      "id": "portrait-005",
+      "writer_ids": [
+        460,
+        194,
+        74,
+        170,
+        171
+      ],
+      "status": "integrated",
+      "verification": "passed"
+    },
+    {
+      "id": "portrait-006",
+      "writer_ids": [
+        323,
+        380,
+        240,
+        379,
+        130
+      ],
+      "status": "integrated",
+      "verification": "passed"
+    },
+    {
+      "id": "portrait-007",
+      "writer_ids": [
+        292,
+        433,
+        456,
+        131,
+        91
+      ],
+      "status": "integrated",
+      "verification": "passed",
+      "integrated_writer_ids": [
+        292,
+        433,
+        456,
+        131,
+        91
+      ],
+      "resume_writer_id": null
+    },
+    {
+      "id": "portrait-008",
+      "writer_ids": [
+        253,
+        260,
+        92,
+        113,
+        415
+      ],
+      "status": "integrated",
+      "verification": "passed",
+      "integrated_writer_ids": [
+        253,
+        260,
+        92,
+        113,
+        415
+      ],
+      "resume_writer_id": null
+    },
+    {
+      "id": "portrait-009",
+      "writer_ids": [
+        20,
+        321,
+        286,
+        158,
+        206
+      ],
+      "status": "integrated",
+      "verification": "passed",
+      "integrated_writer_ids": [
+        20,
+        321,
+        286,
+        158,
+        206
+      ],
+      "resume_writer_id": null
+    },
+    {
+      "id": "portrait-010",
+      "writer_ids": [
+        275,
+        73,
+        409,
+        405,
+        124
+      ],
+      "status": "integrated",
+      "verification": "passed",
+      "integrated_writer_ids": [
+        275,
+        73,
+        409,
+        405,
+        124
+      ],
+      "resume_writer_id": null
+    },
+    {
+      "id": "portrait-011",
+      "writer_ids": [
+        439,
+        437,
+        271,
+        54,
+        119
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-012",
+      "writer_ids": [
+        133,
+        386,
+        429,
+        390,
+        47
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-013",
+      "writer_ids": [
+        32,
+        216,
+        329,
+        80,
+        406
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-014",
+      "writer_ids": [
+        179,
+        24,
+        346,
+        370,
+        447
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-015",
+      "writer_ids": [
+        217,
+        320,
+        159,
+        61,
+        407
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-016",
+      "writer_ids": [
+        202,
+        134,
+        219,
+        355,
+        338
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-017",
+      "writer_ids": [
+        204,
+        250,
+        29,
+        67,
+        56
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-018",
+      "writer_ids": [
+        68,
+        284,
+        452,
+        373,
+        251
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-019",
+      "writer_ids": [
+        23,
+        344,
+        153,
+        36,
+        454
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-020",
+      "writer_ids": [
+        236,
+        198,
+        238,
+        55,
+        351
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-021",
+      "writer_ids": [
+        211,
+        446,
+        135,
+        163,
+        176
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-022",
+      "writer_ids": [
+        389,
+        417,
+        264,
+        99,
+        95
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-023",
+      "writer_ids": [
+        39,
+        382,
+        79,
+        310,
+        304
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-024",
+      "writer_ids": [
+        164,
+        90,
+        63,
+        400,
+        111
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-025",
+      "writer_ids": [
+        222,
+        162,
+        383,
+        196,
+        118
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-026",
+      "writer_ids": [
+        246,
+        301,
+        93,
+        71,
+        37
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-027",
+      "writer_ids": [
+        225,
+        53,
+        231,
+        161,
+        395
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-028",
+      "writer_ids": [
+        363,
+        462,
+        296,
+        51,
+        295
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-029",
+      "writer_ids": [
+        223,
+        443,
+        305,
+        136,
+        303
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-030",
+      "writer_ids": [
+        228,
+        471,
+        117,
+        442,
+        387
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-031",
+      "writer_ids": [
+        232,
+        155,
+        94,
+        371,
+        469
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-032",
+      "writer_ids": [
+        441,
+        268,
+        213,
+        402,
+        137
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-033",
+      "writer_ids": [
+        84,
+        81,
+        300,
+        335,
+        108
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-034",
+      "writer_ids": [
+        436,
+        392,
+        374,
+        185,
+        138
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-035",
+      "writer_ids": [
+        34,
+        457,
+        334,
+        411,
+        110
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-036",
+      "writer_ids": [
+        358,
+        356,
+        86,
+        139,
+        241
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-037",
+      "writer_ids": [
+        311,
+        226,
+        345,
+        249,
+        78
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-038",
+      "writer_ids": [
+        440,
+        451,
+        106,
+        332,
+        116
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-039",
+      "writer_ids": [
+        45,
+        376,
+        21,
+        472,
+        265
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-040",
+      "writer_ids": [
+        401,
+        339,
+        357,
+        470,
+        444
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-041",
+      "writer_ids": [
+        465,
+        272,
+        289,
+        326,
+        302
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-042",
+      "writer_ids": [
+        140,
+        115,
+        157,
+        362,
+        313
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-043",
+      "writer_ids": [
+        391,
+        280,
+        72,
+        89,
+        141
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-044",
+      "writer_ids": [
+        208,
+        57,
+        42,
+        468,
+        224
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-045",
+      "writer_ids": [
+        192,
+        322,
+        366,
+        256,
+        248
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-046",
+      "writer_ids": [
+        263,
+        123,
+        453,
+        167,
+        75
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-047",
+      "writer_ids": [
+        244,
+        317,
+        103,
+        426,
+        142
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-048",
+      "writer_ids": [
+        252,
+        59,
+        291,
+        408,
+        279
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-049",
+      "writer_ids": [
+        404,
+        431,
+        183,
+        62,
+        58
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-050",
+      "writer_ids": [
+        306,
+        30,
+        120,
+        180,
+        169
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-051",
+      "writer_ids": [
+        327,
+        102,
+        197,
+        315,
+        325
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-052",
+      "writer_ids": [
+        27,
+        205,
+        212,
+        70,
+        121
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-053",
+      "writer_ids": [
+        112,
+        316,
+        199,
+        283,
+        364
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-054",
+      "writer_ids": [
+        65,
+        314,
+        361,
+        214,
+        109
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-055",
+      "writer_ids": [
+        230,
+        368,
+        270,
+        104,
+        85
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-056",
+      "writer_ids": [
+        44,
+        359,
+        422,
+        352,
+        209
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-057",
+      "writer_ids": [
+        341,
+        182,
+        144,
+        145,
+        186
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-058",
+      "writer_ids": [
+        318,
+        76,
+        254,
+        342,
+        267
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-059",
+      "writer_ids": [
+        203,
+        410,
+        293,
+        269,
+        165
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-060",
+      "writer_ids": [
+        98,
+        245,
+        435,
+        172,
+        105
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-061",
+      "writer_ids": [
+        385,
+        319,
+        450,
+        308,
+        277
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-062",
+      "writer_ids": [
+        290,
+        340,
+        412,
+        88,
+        333
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-063",
+      "writer_ids": [
+        413,
+        349,
+        461,
+        427,
+        393
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-064",
+      "writer_ids": [
+        215,
+        107,
+        418,
+        146,
+        101
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-065",
+      "writer_ids": [
+        424,
+        181,
+        235,
+        276,
+        448
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-066",
+      "writer_ids": [
+        399,
+        297,
+        239,
+        189,
+        288
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-067",
+      "writer_ids": [
+        69,
+        360,
+        365,
+        220,
+        96
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-068",
+      "writer_ids": [
+        46,
+        35,
+        193,
+        396,
+        353
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-069",
+      "writer_ids": [
+        31,
+        148,
+        156,
+        122,
+        173
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-070",
+      "writer_ids": [
+        458,
+        434,
+        175,
+        187,
+        419
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-071",
+      "writer_ids": [
+        25,
+        177,
+        331,
+        147,
+        467
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-072",
+      "writer_ids": [
+        432,
+        100,
+        384,
+        414,
+        445
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-073",
+      "writer_ids": [
+        191,
+        282,
+        262,
+        354,
+        281
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-074",
+      "writer_ids": [
+        40,
+        154,
+        26,
+        49,
+        149
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-075",
+      "writer_ids": [
+        459,
+        278,
+        428,
+        207,
+        266
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-076",
+      "writer_ids": [
+        166,
+        466,
+        421,
+        87,
+        48
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-077",
+      "writer_ids": [
+        259,
+        299,
+        309,
+        160,
+        188
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-078",
+      "writer_ids": [
+        464,
+        200,
+        150,
+        328,
+        60
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-079",
+      "writer_ids": [
+        372,
+        273,
+        463,
+        227,
+        38
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-080",
+      "writer_ids": [
+        229,
+        237,
+        195,
+        294,
+        420
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-081",
+      "writer_ids": [
+        28,
+        234,
+        274,
+        425,
+        403
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-082",
+      "writer_ids": [
+        210,
+        151,
+        298,
+        255,
+        449
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-083",
+      "writer_ids": [
+        201,
+        152,
+        287,
+        190,
+        184
+      ],
+      "status": "pending",
+      "verification": "pending"
+    },
+    {
+      "id": "portrait-084",
+      "writer_ids": [
+        430,
+        377,
+        423,
+        438,
+        218
+      ],
+      "status": "pending",
+      "verification": "pending"
+    }
+  ],
+  "next_batch": "portrait-007",
+  "next_writer_id": 433,
+  "counts": {
+    "profiles": 427,
+    "previously_completed": 4,
+    "newly_verified": 45,
+    "newly_integrated_pending_verification": 0,
+    "pending_photographs": 375,
+    "source_holds": 3
+  },
+  "background_authorization": "ok run a batch mode and keep doing it auto mode till it is done - without getting trigger from me",
+  "automation_id": "kabita-live-watercolor-portraits",
+  "updated_at": "2026-10-02T12:29:19.130286+00:00"
+}

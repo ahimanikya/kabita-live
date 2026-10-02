@@ -1,0 +1,52 @@
+from pathlib import Path
+from datetime import datetime,timezone
+import json,copy,hashlib
+R=Path.cwd();S=R/'projects/site';K=R/'kb';O=K/'artifacts/review/writer-audit/identity-resolution-2026-10-02';now=datetime.now(timezone.utc).isoformat()
+read=lambda p:json.loads(p.read_text())
+def save(p,d):p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+groups=[{'canonical_id':192,'member_ids':[192,224],'name':'Neelam Saxena Chandra','basis':'Captured biographies match apart from terminal punctuation, including the distinctive publication-count sequence, Hindi/English writing,2015Limca record and2014Forbes claim. Author website independently supplies the same distinctive identity anchors; dated totals are not added as current claims.'},{'canonical_id':256,'member_ids':[256,366],'name':'Neha Bhandarkar','basis':'Distinctive supplied biographies agree on trilingual writing/translation, two Hindi Sahitya Akademi awards, the same unusual translation-language list and France/Chicago radio publication. OPA2023author note corroborates the combined fingerprint; OPA2019Worthy Meeting is a related version of local482, not a replacement text.'},{'canonical_id':449,'member_ids':[255,449],'name':'Tulika Bibidh Rang / तूलिका विविध रंग','basis':'Record449explicitly names Ms.Tulika at Amity School of Communication,Madhya Pradesh. That faculty record independently identifies both Khanabadosh and Gulabi Canvas, the distinctive film/manuscript pair in255. A2020/2021award-date discrepancy was already source-attributed and corrected.'}]
+for g in groups:g.update(reviewed_on='2026-10-02',evidence='kb/records/writer-identity-resolution.json')
+save(S/'data/writer-identities.json',{'schema_version':1,'groups':groups})
+E=read(S/'data/writer-enrichment.json')
+for canonical,alias in [('192','224'),('256','366'),('449','255')]:
+ combined=copy.deepcopy(E[canonical]);combined['sections'][0]['paragraphs']+=E[alias]['sections'][0]['paragraphs'][1:]
+ for key in ['books','sources']:
+  seen={x.get('url',x.get('title')) for x in combined[key]}
+  for x in E[alias][key]:
+   if x.get('url',x.get('title')) not in seen:combined[key].append(x);seen.add(x.get('url',x.get('title')))
+ combined['reviewed_on']='2026-10-02';E[canonical]=copy.deepcopy(combined);E[alias]=copy.deepcopy(combined)
+# The unique university/film/manuscript bridge is retained in both presentations.
+E['449']['sections'][0]['paragraphs'][0]='Tulika Bibidh Rang writes Hindi poetry and works across communication education and documentary film. Amity University’s faculty profile records her work in its School of Communication, her co-direction of Khanabadosh and interests in audiovisual storytelling and folk art. It dates a Pen In Books Young Author Award for her Hindi poetry manuscript Gulabi Canvas to January 2021.'
+E['255']=copy.deepcopy(E['449'])
+ma_sources=[{'label':'Ma Yongbo — Chinese original of 近乎于一种责任','url':'https://yrdcity.com/a/1545.html'},{'label':'Luoyang Normal University — Ma Yongbo poetry and translation lecture','url':'https://sites.lynu.edu.cn/wxy/info/1010/8331.htm'},{'label':'Pat Nolan — interview with Ma Yongbo,August2024','url':'https://thenewblackbartpoetrysociety.wordpress.com/2024/09/06/introducing-ma-yongbo/'}]
+E['423']['sections'][0]['paragraphs'][0]='Ma Yongbo is a Chinese poet, translator and scholar whose literary work brings Chinese poetry into conversation with modern American writing. His translations include work by Walt Whitman, Emily Dickinson and John Ashbery. In a 2024 interview with Pat Nolan, he describes beginning to write poetry during his school years and discovering translation through English-language reading at university. “Almost a Kind of Responsibility” reflects on writing as a demanding craft that must be learned afresh each time.'
+E['423']['sources']=ma_sources;E['423']['reviewed_on']='2026-10-02'
+E['408']['sections'][0]['paragraphs'][0]='Padmashree R.P. writes poetry in English. “Love’s Simplicity”, included in Kabita Live, also appears under the name Padmashree R P on PoetrySoup.'
+E['408']['sources']=[{'label':'PoetrySoup — Love’s Simplicity by Padmashree R P','url':'https://www.poetrysoup.com/poems/simple_truth'}];E['408']['reviewed_on']='2026-10-02'
+save(S/'data/writer-enrichment.json',E)
+names=read(S/'data/writer-name-corrections.json');names['423']={'captured_name':'Youngbo Ma','display_name':'Ma Yongbo','reviewed_on':'2026-10-02','evidence':'kb/research/writers/enrichment/423.json'};save(S/'data/writer-name-corrections.json',names)
+notes={1:'Combined192/224under192using their distinctive matching supplied biographies and the author’s own identity evidence. Four poems now appear together; originalIDs,quotes,portraits and oldURLs retained.',2:'Combined256/366under256using their distinctive multilingual biography fingerprint and OPAcontributor evidence. Anger and Worthy Meeting now appear together; earlier Worthy Meeting version not substituted.',3:'Combined255/449under449using the Amity affiliation plus exact Khanabadosh/Gulabi Canvas bridge. Both Hindi poems now appear together under the recorded pen name; source captures retained.',9:'Matched the Chinese original 近乎于一种责任 to local644through the complete distinctive image sequence and closing statement, corroborated title/authorship with Luoyang Normal University. Applied Ma Yongbo and a concise interview-backed biography. English translator attribution remains unverified; no translator name inferred.'}
+A=read(K/'research/writers/audit-2026-10-01/findings.json')
+for f in A['findings']:
+ n=int(f['id'].rsplit('-',1)[1])
+ if n in notes:
+  f.setdefault('resolution_history',[]).append(f['resolution']);f['status']='closed_identity_reconciled';f['resolution']={'recorded_at':now,'user_direction':'Can we apply them all; continue; ok,continue','change':notes[n],'followup':'Translator of the supplied English poem remains unidentified; preserve current wording and do not invent credit.' if n==9 else '', 'independent':False}
+ if n==8:
+  f['resolution']['change']='Located Love’s Simplicity under Padmashree R P on PoetrySoup; full poem wording/sequence match apart from apostrophe normalization. Removed the unbridged teaching/Bengaluru claim from current reader prose; retained initials and supported literary facts.';f.setdefault('fresh_checks',[]).append('PoetrySoup’s author biography says coming soon. No R.P./Niranjan bridge or qualification verification obtained.')
+ if n==4:f.setdefault('fresh_checks',[]).append('2026-10-02 exact-title and distinctive Hindi-line searches did not find584; unrelated Lucknow poems and shared words rejected as identity evidence.')
+A['counts']['closed_findings']=sum(f['status'].startswith('closed') for f in A['findings']);A['counts']['followup_findings']=20-A['counts']['closed_findings'];save(K/'research/writers/audit-2026-10-01/findings.json',A)
+for i,n in [('192',1),('224',1),('256',2),('366',2),('255',3),('449',3),('423',9),('408',8)]:
+ p=K/f'research/writers/enrichment/{i}.json';d=read(p);d.setdefault('review_history',[]).append({'recorded_at':now,'previous_identity_match':d.get('identity_match'),'previous_limitations':d.get('limitations',[]),'previous_next_action':d.get('next_action')});d['reader_draft']=copy.deepcopy(E[i]);d['reviewed_on']='2026-10-02'
+ f=next(x for x in A['findings'] if x['id']==f'KBL-WA-{n:03d}');d['editorial_resolution']=copy.deepcopy(f['resolution']);d['identity_match']=f['resolution']['change']
+ if n in [1,2,3]:
+  g=next(x for x in groups if int(i) in x['member_ids']);d['canonical_writer_id']=g['canonical_id'];d['limitations']=['Editorial identity grouping is based on multiple matching biography/work anchors; no direct author attestation or independent reviewer is claimed.','Captured names,biographies,poems,quote selections and portrait assets remain preserved.'];d['next_action']='No duplicate-profile action pending; independent editorial review remains welcome.'
+ if i=='423':
+  d['display_name']='Ma Yongbo';d['sources']=[{**s,'access':['search_index_full_page; direct_open_failed','opened_page','opened_page'][j],'accessed_on':'2026-10-02','supports':[['Chinese name,original poem title and full ordered imagery matching local644'],['University event report explicitly names Ma Yongbo and 近乎于一种责任'],['Poet/translator background; school writing,university reading; Whitman,Dickinson,Ashbery translation work']][j]} for j,s in enumerate(ma_sources)];d['limitations']=['Identity is an editorial inference from an extensive poem-text correspondence plus separately corroborated title/authorship,not a direct reply from the poet.','The translator of the supplied English version has not been established. No translation authorship is inferred.','Original Chinese text not imported into the reader; existing English text and draft translations remain intact.'];d['next_action']='Confirm English translation credit when available; identity/name and biography now applied.'
+ if i=='408':
+  d['sources'].append({**E[i]['sources'][0],'access':'search_index_full_page; direct_open_failed','accessed_on':'2026-10-02','supports':['Exact Love’s Simplicity wording and stanza sequence under Padmashree R P; apostrophe normalization only.']});d['limitations']=['R.P./Niranjan surname bridge remains unconfirmed.','PoetrySoup self-publication verifies this text/byline connection,not professional qualifications. Its honorific is not adopted.','LinkedIn and teaching/location claims remain outside current reader prose.'];d['next_action']='Author/editor may confirm whether Padmashree R.P.and Padmashree Niranjan name the same contributor.'
+ save(p,d)
+D=read(K/'research/writers/audit-2026-10-01/applied-decisions.json')
+for i in ['192','224','256','366','255','449','423','408']:
+ f=next(x for x in A['findings'] if int(i) in x['writer_ids']);D[i].update(hash=hashlib.sha256(json.dumps(E[i],sort_keys=True,ensure_ascii=False).encode()).hexdigest(),notes=f['resolution']['change'],updated_at=now,authorization='Can we apply them all; continue; ok,continue')
+save(K/'research/writers/audit-2026-10-01/applied-decisions.json',D)
+summary={'recorded_at':now,'groups':groups,'changed_profiles':[192,224,256,366,255,449,423,408],'closed_total':A['counts']['closed_findings'],'remaining_total':A['counts']['followup_findings'],'remaining_findings':[f['id'] for f in A['findings'] if not f['status'].startswith('closed')],'publication':False,'verification':'pending'};save(O/'summary.json',summary);print(summary['closed_total'],summary['remaining_findings'])

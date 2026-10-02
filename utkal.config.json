@@ -25,7 +25,7 @@
     "design_history": "kb/artifacts/history",
     "artwork_masters": "kb/artifacts/artwork"
   },
-  "publication_authorized": false,
+  "publication_authorized": true,
   "persona_configuration": {
     "version": "1.0.0",
     "assignments": "kb/team/assignments.json",
@@ -34,5 +34,11 @@
     "execution_mode": "on_demand_current_chat",
     "autonomous_dispatch": false,
     "background_execution": false
+  },
+  "publication_scope": {
+    "decision": "KBL-DEC-037",
+    "mode": "github_pages_preview",
+    "dns_cutover_authorized": false,
+    "full_editorial_release_gate": "retained"
   }
 }

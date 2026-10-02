@@ -1,0 +1,94 @@
+{
+  "writer_id": 216,
+  "name": "Bibhu Padhi",
+  "reviewed_on": "2026-10-01",
+  "batch": "research-014",
+  "status": "source_checked_local_draft",
+  "independent": false,
+  "portrait_action": "unchanged",
+  "reader_draft": {
+    "sections": [
+      {
+        "heading": "Life and writing.",
+        "language": "en",
+        "paragraphs": [
+          "Bibhu Padhi is a poet and translator from Cuttack, educated at Ravenshaw College. His poetry collections include Going to the Temple and Lines from a Legend, published by Peepal Tree Press in 1993. Alongside his own writing, he has brought Odia poetry into English, including poems by Bibek Jena published in The Caravan.",
+          "In Rivers, his contribution to Kabita Live, the changing water becomes a measure of time beyond the human scale. Its quiet couplets follow the river from a thin trickle to overwhelming force, contrasting that ancient movement with the smaller commitments of family and daily life."
+        ]
+      }
+    ],
+    "books": [
+      {
+        "title": "Lines from a Legend",
+        "detail": "English poetry · Peepal Tree Press, 1993",
+        "url": "https://www.peepaltreepress.com/books/lines-legend"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Peepal Tree Press: Bibhu Padhi",
+        "url": "https://www.peepaltreepress.com/authors/bibhu-padhi"
+      },
+      {
+        "label": "Peepal Tree Press: Lines from a Legend",
+        "url": "https://www.peepaltreepress.com/books/lines-legend"
+      },
+      {
+        "label": "The Caravan: poems by Bibek Jena, translated by Bibhu Padhi",
+        "url": "https://caravanmagazine.in/poetry/three-poems-prayer-estuary-and-river-island"
+      }
+    ],
+    "reviewed_on": "2026-10-01"
+  },
+  "sources": [
+    {
+      "label": "Peepal Tree Press: Bibhu Padhi",
+      "url": "https://www.peepaltreepress.com/authors/bibhu-padhi",
+      "supports": [
+        "Cuttack origin, Ravenshaw education, first collection Going to the Temple, Lines from a Legend1993."
+      ],
+      "access": "search_indexed_publisher_page; direct403",
+      "accessed_on": "2026-10-01"
+    },
+    {
+      "label": "Peepal Tree Press: Lines from a Legend",
+      "url": "https://www.peepaltreepress.com/books/lines-legend",
+      "supports": [
+        "Book, author and publisher destination."
+      ],
+      "access": "search_indexed_publisher_page; direct403",
+      "accessed_on": "2026-10-01"
+    },
+    {
+      "label": "The Caravan: poems by Bibek Jena, translated by Bibhu Padhi",
+      "url": "https://caravanmagazine.in/poetry/three-poems-prayer-estuary-and-river-island",
+      "supports": [
+        "Translation credit to Bibhu Padhi for three Odia poems."
+      ],
+      "access": "opened_page",
+      "accessed_on": "2026-10-01"
+    }
+  ],
+  "identity_match": "Cuttack birth, Ravenshaw education and English poetry align with local biography; literary-journal record of Rivers also matches title and quoted lines.",
+  "poems_read": [
+    {
+      "id": 200,
+      "title": "RIVERS",
+      "basis": "Full original read: twenty lines in couplets; ancient seasonal script, human family commitments and mortality."
+    }
+  ],
+  "research_leads": [
+    {
+      "url": "https://positivevibes.today/article/newsview/410",
+      "access": "search_indexed",
+      "evidence": "Discussion of Rivers quotes matching local lines about granular trickle and silence; confirms work identity."
+    }
+  ],
+  "limitations": [
+    "Publisher biography contains historic employment/residence in present tense; not copied as current fact.",
+    "No changing book totals, personal family detail, unverified honors or future anthology promise included.",
+    "Publisher book destination is currently indexed but tool fetch returned403; checkout not tested.",
+    "Same-assistant research and close reading; independent author/editor factual review pending."
+  ],
+  "next_action": "Independent author/editor review; book link recheck before publication."
+}

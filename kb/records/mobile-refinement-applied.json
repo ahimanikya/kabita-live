@@ -1,0 +1,41 @@
+{
+  "status": "applied_locally",
+  "authorization": "User approved the mockup: Perfect - apply this now",
+  "independent": false,
+  "scope": [
+    "Homepage mobile spacing",
+    "Shared mobile footer alignment",
+    "Uniform menu links",
+    "Existing theme toggle moved beside mobile menu"
+  ],
+  "checks": {
+    "browser_widths": [
+      320,
+      360,
+      390,
+      1280
+    ],
+    "overflow": "none in checked page viewports",
+    "mobile_theme": "single48px control in header; Light/Dark/System; saved Dark retained on navigation to poem8; prior Light restored",
+    "desktop_theme": "48px control restored to navigation on resize",
+    "menu": "all10 links use22px type; opens normally; closes at desktop breakpoint",
+    "homepage_poet_identity_heights_at360": [
+      76,
+      84,
+      72
+    ],
+    "footer": "mobile centred; desktop original layout retained",
+    "theme_tests": "4 pass",
+    "edition_integrity": "47 editions;848 source hashes pass",
+    "public_build": "pass"
+  },
+  "limitations": [
+    "Same-assistant review, not accessibility certification",
+    "No deployment or push"
+  ],
+  "evidence": [
+    "evidence/mobile-refinement-applied/home-320.png",
+    "evidence/mobile-refinement-applied/menu-360.png",
+    "evidence/mobile-refinement-applied/check.html"
+  ]
+}

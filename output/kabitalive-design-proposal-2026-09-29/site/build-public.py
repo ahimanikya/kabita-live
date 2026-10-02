@@ -11,7 +11,13 @@ args=parser.parse_args()
 status=json.loads((root/'data/content-status.json').read_text())
 if args.release and not status['launch_ready']:
     raise SystemExit('Release blocked: '+ '; '.join(status['blockers']))
+if args.release:
+    translations=json.loads((root/'data/poem-translations.json').read_text())
+    pending=[f'{ident}/{lang}' for ident,entry in translations.items() for lang,v in entry['variants'].items() if v.get('status')!='reviewed']
+    if pending: raise SystemExit(f'Release blocked: {len(pending)} translation drafts await linguistic review.')
 excluded={'credits-content.html'}
+# Book reviews are retained locally for provenance, outside the reader publication.
+excluded.update(p.name for p in root.glob('*.html') if re.fullmatch(r'reviews?(?:-\d+)?\.html', p.name))
 pages=sorted(p.name for p in root.glob('*.html') if not p.is_symlink() and p.name not in excluded)
 refs=set()
 class Links(HTMLParser):
@@ -28,8 +34,13 @@ for name in pages:
         raise SystemExit('Old-site dependency in '+name)
     Links().feed(html)
 
-assets={'assets/app.js','assets/analytics.js','assets/private-feedback.js','runtime-config.json'}
+assets={'assets/app.js','assets/analytics.js','assets/private-feedback.js','assets/poem-marks.mjs','runtime-config.json'}
 assets.update(str(p.relative_to(root)) for p in (root/'assets/fonts').glob('*-OFL.txt'))
+assets.update(str(p.relative_to(root)) for p in (root/'assets/reading-editions').glob('issue-*.json'))
+assets.add('assets/reading-library.json')
+assets.add('assets/reading-all.json')
+assets.add('assets/reader-pagination.mjs')
+assets.update(str(p.relative_to(root)) for p in (root/'assets/reading-authors').glob('poet-*.json'))
 for value in refs:
     url=urlsplit(value)
     if url.scheme or value.startswith('#') or not url.path:continue

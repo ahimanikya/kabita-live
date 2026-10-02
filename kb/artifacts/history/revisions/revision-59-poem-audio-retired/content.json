@@ -1,0 +1,113 @@
+{
+  "id": 810,
+  "version": 2,
+  "source_sha256": "90aa0fe273e413d1484344ae2fb226bea466c7b2ca22bcd4adc2db7bdaf62b75",
+  "source": "site/content/editions/issue-47/poem-810.json",
+  "source_language": "hi",
+  "author": "Sabita Singh Meera",
+  "variants": {
+    "hi": {
+      "label": "हिन्दी",
+      "title": "क्षणिका",
+      "kind": "Original",
+      "stanzas": [
+        [
+          "गांव का सुनसान प्लेटफार्म,",
+          "बरसती बूँदों की छांव,",
+          "पटरी पर धीमे-धीमे",
+          "गुजरती ट्रेन की थरथर ध्वनि।",
+          "आज फिर वही जगह",
+          "जहाँ तुम छोड़ गए थे,",
+          "और अब भी प्रतीक्षा में हूँ,",
+          "कि लौट आओगे कभी...।"
+        ],
+        [
+          "∎",
+          "जमशेदपुर"
+        ]
+      ],
+      "credit": "Original poem by Sabita Singh Meera.",
+      "audio": {
+        "src": null,
+        "voice": "Lekha",
+        "rate": 120,
+        "style": "Measured Hindi reading with pauses between lines.",
+        "status": "rejected-preview",
+        "previous_src": "poem-experience-assets/audio/kshanika-hi.wav",
+        "reason": "Natural recitation preview pending. The first digital voice was not selected."
+      }
+    },
+    "or": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "କ୍ଷଣିକା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଗାଁର ନିର୍ଜନ ପ୍ଲାଟଫର୍ମ,",
+          "ବରଷୁଥିବା ବୁନ୍ଦାର ଛାଇ,",
+          "ରେଳଧାରଣାରେ ଧୀରେ ଧୀରେ",
+          "ଚାଲିଯାଉଥିବା ଟ୍ରେନ୍‌ର ଥରଥର ଧ୍ୱନି।",
+          "ଆଜି ପୁଣି ସେହି ସ୍ଥାନରେ",
+          "ଯେଉଁଠି ତୁମେ ଛାଡ଼ିଯାଇଥିଲ,",
+          "ଆଉ ଏବେ ବି ଅପେକ୍ଷାରେ ଅଛି,",
+          "ତୁମେ କେବେ ଫେରିଆସିବ ବୋଲି...।"
+        ],
+        [
+          "∎",
+          "ଜାମସେଦପୁର"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "audio": {
+        "src": null,
+        "status": "unavailable",
+        "reason": "An Odia recitation voice is not available in this prototype."
+      }
+    },
+    "en": {
+      "label": "English",
+      "title": "A fleeting moment",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "The village’s deserted platform,",
+          "in the shade of falling raindrops,",
+          "along the tracks, slowly,",
+          "the trembling sound of a passing train.",
+          "Today, once more, that same place",
+          "where you left me,",
+          "and still I wait,",
+          "hoping you will return someday..."
+        ],
+        [
+          "∎",
+          "Jamshedpur"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "audio": {
+        "src": null,
+        "voice": "Tara",
+        "rate": 125,
+        "style": "Quiet Indian-English reading with a reflective closing pause.",
+        "status": "rejected-preview",
+        "previous_src": "poem-experience-assets/audio/kshanika-en.wav",
+        "reason": "Natural recitation preview pending. The first digital voice was not selected."
+      }
+    }
+  },
+  "voice_direction": {
+    "basis": "Journal-supplied profile describes the author as a poetess; feminine stock voices selected for this prototype only.",
+    "selection_status": "First digital voices rejected by user; native poetic-performance audition required.",
+    "identity": "Synthetic stock voices, not the poet’s voice or a clone.",
+    "recording": "Local macOS speech synthesis with line pauses; not claimed professional or tradition-authenticated recitation."
+  },
+  "review_defaults": {
+    "translation": "approve",
+    "audio": "changes"
+  },
+  "translation_approval": {
+    "quote": "Approved language translation",
+    "scope": "One-poem translation feature approved; not independent linguistic certification of the full archive."
+  }
+}

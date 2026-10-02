@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-01",
+  "independent": false,
+  "roles": [
+    "Anvesha",
+    "Samanta",
+    "Drishti"
+  ],
+  "work_ref": "KBL-WORK-004",
+  "status": "implemented_locally_for_review",
+  "menu": [
+    "native modal drawer",
+    "large touch targets",
+    "Home and existing navigation",
+    "same saved theme toggle",
+    "focus containment and restoration",
+    "Escape, backdrop and close dismissal",
+    "background scroll lock",
+    "reduced-motion support"
+  ],
+  "checks": {
+    "mobile_width": 360,
+    "menu_link_navigation": "Archive navigation passes; drawer closed and scroll unlocked",
+    "focus_and_dismissal": "close focus, Shift-Tab wrap, Escape and backdrop pass",
+    "horizontal_overflow": "none on tested mobile pages",
+    "poem_8_all_languages": "four stanzas, 6/6/6/2 lines",
+    "poem_9_all_languages": "28 inline line breaks including 3 stanza pauses; exact words retained",
+    "source_and_translation_prefixes": "801 preview and 801 public records pass",
+    "spacing": "24 preview and public poem records pass",
+    "mark_tests": "7 pass",
+    "public_build": "passed"
+  },
+  "limitations": [
+    "Not independent accessibility certification",
+    "Three ambiguous spacing records 240,241,242 deferred",
+    "No speculative stanza breaks in other dense sources",
+    "Translations still await independent language review"
+  ],
+  "evidence": [
+    "evidence/mobile-menu-stanzas/menu-360.png",
+    "evidence/mobile-menu-stanzas/poem-8-stanzas-360.png",
+    "records/poem-spacing-reconciliation.json"
+  ]
+}

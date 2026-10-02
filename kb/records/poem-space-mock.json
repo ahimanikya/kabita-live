@@ -1,0 +1,51 @@
+{
+  "status": "approved_and_applied",
+  "recorded_at": "2026-10-01T10:12:52.952283+00:00",
+  "authorization": "ok lets mock this",
+  "scope": "Review only: smaller titles, edition contents and quiet-mode horizontal trackpad gestures",
+  "preview": "http://127.0.0.1:8771/poem-space-8.html",
+  "responsive_review": "http://127.0.0.1:8771/poem-space-review.html",
+  "artifacts": "kb/artifacts/review/site/poem-space",
+  "changes": [
+    "48px desktop / 32px phone title cap; 42px desktop long-title cap",
+    "Five nearby poems under artwork, with original titles, English poet names, current-page highlighting and edition link",
+    "On phones, contents moves into Aa tools",
+    "One horizontal trackpad gesture per page turn; ignore vertical scroll, pinch and gestures over open reader settings"
+  ],
+  "checks": {
+    "browser_assertions": 31,
+    "failures": 0,
+    "viewports": [
+      360,
+      1280
+    ],
+    "poems": [
+      8,
+      772
+    ],
+    "unchanged_source_payloads": 30,
+    "syntax": "PASS",
+    "review": "same-assistant; independent false"
+  },
+  "limitations": [
+    "Actual Apple touch/trackpad gesture and browser history interaction need user device testing; wheel checks are synthetic",
+    "Existing touch swipe retained",
+    "No sitewide application or deployment"
+  ],
+  "next_action": "Ahimanikya reviews title scale, contents panel and trackpad feel",
+  "revision": 3,
+  "background_revision": {
+    "request": "Can we use a background color for this section?",
+    "treatment": "7% laterite translucent wash; paper texture shows through;20px desktop/12px phone horizontal inset; no border or shadow",
+    "checks": "Desktop computed style and overflow checked; prior functional checks remain for revision1",
+    "scope": "Mock only"
+  },
+  "related_links_revision": {
+    "request": "Move More by this poet and Write to the editor inside the same section with space to separate them",
+    "treatment": "Both links within tinted panel,16px gap plus faint horizontal divider,12px inset above links,44px touch rows; mobile follows panel into Aa; single menu node",
+    "browser_assertions": 39,
+    "failures": 0,
+    "independent": false
+  },
+  "application_record": "kb/records/poem-panel-rollout.json"
+}

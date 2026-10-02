@@ -1,0 +1,96 @@
+{
+  "status": "approved_applied",
+  "independent": false,
+  "request": "English-only poet names; Original language label; review reaching-poems mock and need for filter",
+  "source_sha256": "13a72825ae9889688a08db48054bcd67087d4d4c8c45ac1c533d40c6cb1b31c1",
+  "options": {
+    "a": "English names, Original labels, no filters, no jump link",
+    "b": "Same contents, plus Browse poems text link under date"
+  },
+  "interpretation": "Odia/Hindi/English identify the source language without repeating Original; reading versions remain on the poem page.",
+  "scope": "Edition47 mock only; full bilingual profiles and source records untouched.",
+  "preview": "http://127.0.0.1:8771/edition-polish-review.html",
+  "checks": {
+    "desktop": "16 English bylines and16 Original language labels; no filters; no overflow at1280",
+    "mobile_360": "Opening and simplified cards visually checked",
+    "shortcut": "Enter activates anchor, moves to contents with24px margin and transfers keyboard focus to heading",
+    "source_preservation": "Live issue47 hash unchanged; source poems, names and other editions unchanged",
+    "limits": "Same-assistant review; no full accessibility certification; not applied or published"
+  },
+  "evidence": [
+    "evidence/edition-polish-mock/desktop-contents.png",
+    "evidence/edition-polish-mock/portraits-desktop.png",
+    "evidence/edition-polish-mock/portraits-320.png"
+  ],
+  "portrait_revision": {
+    "request": "Fixed circular poet portrait; connected meaningful card grouping",
+    "size": 56,
+    "source": "Existing writer portraits and compact derivatives, matching poem-page sources",
+    "desktop": "Portrait beside English name; Original in aligned metadata column",
+    "mobile": "Portrait spans name and Original rows; title and read icon above; single coherent card",
+    "history": "history/edition-polish-before-portraits",
+    "checked": "All16 desktop portraits loaded at56x56; desktop overflow false;320/360px cards visually checked",
+    "applied_to_reader_site": false
+  },
+  "source_language_label_revision": {
+    "request": "We don't have to repeat Original:",
+    "display": "Odia / Hindi / English only; no repeated Original prefix",
+    "scope": "Both portrait mockups; actual edition unchanged",
+    "history": "history/edition-polish-before-original-label-removal"
+  },
+  "cultural_connection_revision": {
+    "request": "User supplied exact After the rain story and separate Cultural connection paragraph",
+    "placement": "Both paragraphs in the opening text column; Cultural connection below story; no text under cover image",
+    "wording": "Preserved exactly as supplied",
+    "canonical_caption": "Retained in imagery knowledge; placement only changed in mockups",
+    "history": "history/edition-polish-before-caption-move"
+  },
+  "type_weight_revision": {
+    "request": "Use approved fonts; screenshot illustrates font weight hierarchy only.",
+    "headings": "Cormorant Garamond 700; existing sizes, colours and title italic preserved.",
+    "body": "Source Serif 4 400; existing text and spacing preserved.",
+    "scope": "Both mockups only; no reader-site rollout."
+  },
+  "opening_spacing_revision": {
+    "request": "Manage space at the top better.",
+    "changes": {
+      "breadcrumb_top": 16,
+      "opening_top_desktop": 24,
+      "opening_top_mobile": 16,
+      "issue_label_bottom": 8,
+      "date_margin": 0,
+      "browse_top": 8,
+      "story_top": 20
+    },
+    "preserved": "Font families, weights, sizes, text, image and reading-link 44px touch target.",
+    "history": "history/edition-polish-before-spacing",
+    "review": {
+      "independent": false,
+      "desktop": "1150px: no horizontal overflow; opening visual check passed.",
+      "mobile": "360px opening visually checked in review desk.",
+      "scope": "Both mockups only; rollout awaits edition approval."
+    }
+  },
+  "mobile_portrait_refinement": {
+    "approval": "User approved 44px mobile portraits and Original: language beneath English poet names.",
+    "mobile_portrait_px": 44,
+    "desktop_portrait_px": 56,
+    "label": "Original: Odia/Hindi/English on mobile only; desktop language column preserved.",
+    "scope": "Both edition mockups; site rollout pending.",
+    "review": "320px card visually checked; same-assistant review.",
+    "history": "history/edition-polish-before-mobile-portrait-refinement"
+  },
+  "final_decision": {
+    "option": "B",
+    "status": "approved_applied",
+    "approval_record": "records/edition-design-approval.json",
+    "scope": "All47 editions; includes all subsequent refinements."
+  },
+  "application_record": "records/edition-design-approval.json",
+  "current_reconciliation": {
+    "recorded_at": "2026-10-02T05:05:32.791691+00:00",
+    "record": "records/approval-application-audit.json",
+    "note": "Historical mock scope and check results retained below; use linked application record for current status."
+  },
+  "next_action": "Historical preview retained; review actual reader page for any remaining discrepancy."
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "rules": {
+    "506": {
+      "captured_text_sha256": "b44f900807ec4616643dfa7de1bb076fe44023aea4b03fb338b69d2166529f9d",
+      "action": "separate_appended_work",
+      "keep_stanzas": 4,
+      "appended_heading": [
+        "Cheerio",
+        "Gopal Lahiri"
+      ]
+    },
+    "332": {
+      "captured_text_sha256": "0de24cec711cef98b9370c7716da8ea0ee1286c1b2d72faf3a7a395e2508715a",
+      "action": "separate_appended_work",
+      "keep_stanzas": 1,
+      "appended_heading": [
+        "9. Lethe",
+        "Pritha Chakraborty"
+      ]
+    },
+    "385": {
+      "captured_text_sha256": "51a114a07832542466fc7cbbce9006c331e6399646d8258282e901d44514fc97",
+      "action": "archive",
+      "reason": "missing_poem_body"
+    },
+    "727": {
+      "captured_text_sha256": "83c965ef256204fedc08464c677bf8ede999558d0f8fa380d114e52c101e9e23",
+      "action": "archive",
+      "reason": "mismatched_poem_text"
+    },
+    "390": {
+      "captured_text_sha256": "b0f8d7c03142e76af8cd1791b713c83253e4e2b8c5a0605c0a79225fcb4d51f4",
+      "action": "keep_reviewed_stanzas",
+      "start_stanza": 0,
+      "end_stanza": 1,
+      "reason": "separately_headed_appended_work",
+      "evidence": "kb/artifacts/review/writer-audit/followup-2026-10-02"
+    },
+    "699": {
+      "captured_text_sha256": "d7de690644f825109807bcc99516a3ffc3945e6e77100d6e3127b4d94b29f010",
+      "action": "keep_reviewed_stanzas",
+      "start_stanza": 18,
+      "end_stanza": 35,
+      "reason": "identical_complete_block_duplicated_with_embedded_heading",
+      "evidence": "kb/artifacts/review/writer-audit/followup-2026-10-02"
+    }
+  }
+}

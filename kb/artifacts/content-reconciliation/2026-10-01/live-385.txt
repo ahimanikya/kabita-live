@@ -1,0 +1,85 @@
+- banner:
+  - navigation:
+    - link "#":
+      - /url: index.php
+      - img "#"
+    - paragraph:
+      - text: Kabita Live...
+      - text: Platform for Poets.
+    - list:
+      - link "Home":
+        - /url: index.php
+      - link "Poem":
+        - /url: index.php?#chapters
+      - link "About":
+        - /url: about.php
+      - link "Contributors":
+        - /url: contri.php
+      - link "Archive":
+        - /url: archive.php
+      - link "Book Review":
+        - /url: book_review.php
+      - link "Contact":
+        - /url: index.php?#contact
+- generic: Poem
+- heading "ଅମ୍ଲାନ ବନ୍ଧୁତ୍ୱ Monalisa Dash Dwibedy" [level=2]:
+  - text: ଅମ୍ଲାନ ବନ୍ଧୁତ୍ୱ
+  - paragraph: Monalisa Dash Dwibedy
+- heading "ISSUE#18" [level=6]
+- generic: April 2024
+- paragraph: ଅମ୍ଲାନ ବନ୍ଧୁତ୍ୱ
+- separator
+- heading "0 Comments" [level=4]
+- heading "Leave Your Comment" [level=4]
+- textbox "Name*"
+- textbox "Please Enter Your Comment Here"
+- button "POST YOUR COMMENT"
+- separator
+- heading "By the same Author:" [level=5]
+- paragraph:
+  - link "ଈଶ୍ବର (ISSUE#14 - December 2023)":
+    - /url: poemview.php?id=322
+- paragraph:
+  - link "ଅମ୍ଲାନ ବନ୍ଧୁତ୍ୱ (ISSUE#18 - April 2024)":
+    - /url: poemview.php?id=385
+- paragraph: "Author: Monalisa Dash Dwibedy"
+- paragraph:
+  - text: Monalisa Dash Dwibedy is an IT Consultant by day and a poet by night. Her literary works are featured in many international journals and anthologies . She is the author of two poetry collections , Pearls of A Strawberry Moon( English) and Anjulae Smruti ( Odia) . She is a Columnist for OdishaPlus , her column “The Playful Traveller” takes the readers on a trip to the places she travels. As ardent lover of nature and mountains, she feels mountains always call her. Her goal is to befriend the Himalayan mountain ranges and talk to the moon some day.
+- link:
+  - /url: index.html
+- list:
+  - link "Home":
+    - /url: index.php
+  - link "Contributors":
+    - /url: contri.php
+  - link "About":
+    - /url: about.php
+  - link "Poem":
+    - /url: index.php?#chapters
+  - link "Archive":
+    - /url: archive.php
+  - link "Contact":
+    - /url: index.php?#contact
+- list:
+  - link "":
+    - /url: "#"
+    - generic: 
+  - link "":
+    - /url: "#"
+    - generic: 
+  - link "":
+    - /url: "#"
+    - generic: 
+  - link "":
+    - /url: "#"
+    - generic: 
+  - link "":
+    - /url: "#"
+    - generic: 
+- paragraph:
+  - text: "Visitor Counter:"
+  - link "web counter":
+    - /url: "#"
+    - img "web counter"
+- separator
+- paragraph: ©2022 KabitaLive All right reserved || Designed by Versatile IT Services Pvt. Ltd.

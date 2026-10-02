@@ -1,0 +1,51 @@
+{
+  "recorded_at": "2026-09-30T12:47:04.214067+00:00",
+  "poem_id": 810,
+  "authorization": "Can you generate audio for me to test it?",
+  "executor": "Current assistant; Anvesha Acharya and Drishti Senapati role passes",
+  "independent": false,
+  "provider": "Sarvam public text-to-speech playground",
+  "provider_url": "https://www.sarvam.ai/text-to-speech",
+  "model": "Bulbul v3 (identified by the playground page; no model selector)",
+  "voice": "Ishita",
+  "voice_description": "Female; Entertainment / Dynamic (provider labels)",
+  "settings": "Playground defaults; no pace or performance-direction controls exposed",
+  "status": "Three browser-only audition samples generated; awaiting user listening review",
+  "samples": [
+    {
+      "language": "hi",
+      "text": "गांव का सुनसान प्लेटफार्म,\nबरसती बूँदों की छांव,\nपटरी पर धीमे-धीमे\nगुजरती ट्रेन की थरथर ध्वनि।\nआज फिर वही जगह\nजहाँ तुम छोड़ गए थे,\nऔर अब भी प्रतीक्षा में हूँ,\nकि लौट आओगे कभी...।",
+      "text_sha256": "60a467ec144f01faca76c1350eae7564826cb360b6302768845f2b5807c1eb11",
+      "duration_seconds": 13.479179,
+      "browser_tab_id_at_generation": "91",
+      "audio_path": null,
+      "review": "pending"
+    },
+    {
+      "language": "or",
+      "text": "ଗାଁର ନିର୍ଜନ ପ୍ଲାଟଫର୍ମ,\nବରଷୁଥିବା ବୁନ୍ଦାର ଛାଇ,\nରେଳଧାରଣାରେ ଧୀରେ ଧୀରେ\nଚାଲିଯାଉଥିବା ଟ୍ରେନ୍‌ର ଥରଥର ଧ୍ୱନି।\nଆଜି ପୁଣି ସେହି ସ୍ଥାନରେ\nଯେଉଁଠି ତୁମେ ଛାଡ଼ିଯାଇଥିଲ,\nଆଉ ଏବେ ବି ଅପେକ୍ଷାରେ ଅଛି,\nତୁମେ କେବେ ଫେରିଆସିବ ବୋଲି...।",
+      "text_sha256": "929c928adbdc555708a46d16da92e72a68d32b9a2772e31801feead8525ae8ee",
+      "duration_seconds": 18.076727,
+      "browser_tab_id_at_generation": "94",
+      "audio_path": null,
+      "review": "pending"
+    },
+    {
+      "language": "en",
+      "text": "The village’s deserted platform,\nin the shade of falling raindrops,\nalong the tracks, slowly,\nthe trembling sound of a passing train.\nToday, once more, that same place\nwhere you left me,\nand still I wait,\nhoping you will return someday...",
+      "text_sha256": "c17bd7470dd71add7928d041cf838e8ced10a93cf5884a5106566cc6ecff5858",
+      "duration_seconds": 16.979585,
+      "browser_tab_id_at_generation": "95",
+      "audio_path": null,
+      "review": "pending"
+    }
+  ],
+  "limitations": [
+    "Audio remains in live browser sessions; no local recording downloaded or prototype audio enabled.",
+    "No visible download control; blob navigation was blocked by browser URL policy and not bypassed.",
+    "The extended playground leads to incomplete onboarding; no account setup completed by assistant.",
+    "Duration and completed playback were inspected; no independent listening, word-fidelity or pronunciation certification.",
+    "These are preliminary default-voice samples, not the six directed takes in the audition plan."
+  ],
+  "publication": false
+}

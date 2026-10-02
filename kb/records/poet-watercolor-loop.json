@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-02T09:54:09.523614+00:00",
+  "work_ref": "KBL-WORK-004",
+  "authorization_quote": "ok run a batch mode and keep doing it auto mode till it is done - without getting trigger from me",
+  "scope": "Unattended sequential watercolor portrait batches with built-in image edits, local integration and verification in this same chat.",
+  "schedule": "Every 20 minutes",
+  "setup_status": "ACTIVE",
+  "automation_created": true,
+  "resume_batch": "portrait-011",
+  "resume_writer_id": 439,
+  "counts": {
+    "profiles": 427,
+    "previously_completed": 4,
+    "newly_verified": 50,
+    "newly_integrated_pending_verification": 0,
+    "pending_photographs": 370,
+    "source_holds": 3
+  },
+  "independent": false,
+  "excluded": [
+    "subagents",
+    "overlapping workers",
+    "paid API fallback",
+    "new accounts",
+    "publication",
+    "push/deploy",
+    "unrelated content edits",
+    "messaging"
+  ],
+  "completion": "Pause when all actionable portraits are processed and verified; report source/likeness holds without calling them complete.",
+  "automation_id": "kabita-live-watercolor-portraits",
+  "updated_at": "2026-10-02T12:47:08.038457+00:00"
+}

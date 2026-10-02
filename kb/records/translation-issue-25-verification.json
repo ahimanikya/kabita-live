@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 25,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    494,
+    483,
+    484,
+    491,
+    485,
+    489,
+    493,
+    495,
+    486,
+    487,
+    488,
+    490,
+    492
+  ],
+  "source_held": [],
+  "new_translations": 26,
+  "total_drafts": 664,
+  "remaining_translations": 938,
+  "batches": [
+    "batch-072",
+    "batch-073",
+    "batch-074"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 13 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 26 versions, including source footnote and address",
+    "rendered_catalogue_parity": "pass for all 26 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "494": "Source corpses retained, possible words typo not silently corrected.",
+    "483": "Unclear ଈଶିକାର retained verbatim.",
+    "484": "ଅର୍ବୁଦତା tentatively rendered growth/tumorous growth with review flag.",
+    "493": "Source Hindi–Muslim retained, likely Hindu typo requires reconciliation.",
+    "495": "Entire author footnote, named bhakti poets and br> artifact retained.",
+    "486": "Unresolved seatherny retained verbatim; sirimiri read as drizzle.",
+    "488": "War-spending numerical claim retained as poetry, not independently certified.",
+    "490": "rye interpreted as wry, review pending."
+  },
+  "publication": false,
+  "next_edition": 24,
+  "next_poem_ids": [
+    466,
+    468,
+    470,
+    471,
+    477
+  ]
+}

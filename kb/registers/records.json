@@ -5,7 +5,7 @@
   "name": "Kabita Live",
   "recorded_at": "2026-09-30T00:56:36.856860+00:00",
   "human_authority": "Ahimanikya Satapathy",
-  "decision_home": "Current chat: Redesign Kabita Live magazine \u00b7 01a0ee81-0265-7673-a63c-04f6bf884d2d",
+  "decision_home": "Current chat: Redesign Kabita Live magazine · 01a0ee81-0265-7673-a63c-04f6bf884d2d",
   "external_refs": {},
   "projects": [
     {
@@ -73,10 +73,11 @@
       "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-001",
-      "next_action": "Resume preserved design-review desk; retest the previously documented 200% header concern before publication.",
+      "next_action": "Review poet-profile comparison preview; nine other page-family designs approved. Shared final checks and factual writer audit remain separate.",
       "blockers": [],
       "evidence": [
-        "reference/design-system.md"
+        "reference/design-system.md",
+        "review/page-type-checklist.md"
       ],
       "persona_routing": {
         "coordination": "KBL-ASG-001",
@@ -150,14 +151,15 @@
       "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-008",
-      "next_action": "Complete editorial import and remaining cloud setup; dedicated Firebase project and private GitHub repository now exist.",
+      "next_action": "Continue remaining editorial and service launch checks. Two composite poems repaired; two unavailable records preserved as archived entries outside editions.",
       "blockers": [
-        "Full content export unavailable; only three opening excerpts locally",
-        "GA4, live integration tests and release review remain pending"
+        "Complete review texts, metadata reconciliation and editorial proofreading remain",
+        "GA4, live integration tests, design decisions and release review remain pending"
       ],
       "evidence": [
         "reference/site-architecture.md",
-        "records/standalone-verification.json"
+        "records/standalone-verification.json",
+        "research/edition-content-import.md"
       ]
     },
     {
@@ -187,6 +189,214 @@
       ],
       "evidence": [
         "records/account-setup.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-012",
+      "title": "Writer profiles, contribution histories and portraits",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-012",
+      "next_action": "All 427 enrichment drafts are applied and verified in preview/public-build HTML. Confirm Reema/Rima identity, Padmashree R.P./Niranjan name and Ma Yongbo English translator from submissions or editors. Poet visual preview and portrait rollout remain separate.",
+      "blockers": [],
+      "evidence": [
+        "research/writer-profile-capture.md",
+        "research/writers/capture-summary.json",
+        "research/author-page-system.md",
+        "research/writers/enrichment-progress.json",
+        "records/writer-enrichment-review.json",
+        "research/writers/enrichment-batches.json",
+        "research/writers/batches/research-002/review.json",
+        "records/writer-enrichment-loop.json",
+        "research/writers/batches/research-003/review.json",
+        "research/writers/batches/research-004/review.json",
+        "research/writers/batches/research-005/review.json",
+        "research/writers/batches/research-006/review.json",
+        "research/writers/batches/research-007/review.json",
+        "research/writers/batches/research-008/review.json",
+        "research/writers/batches/research-009/review.json",
+        "research/writers/batches/research-010/review.json",
+        "research/writers/batches/research-011/review.json",
+        "research/writers/batches/research-012/review.json",
+        "research/writers/batches/research-013/review.json",
+        "research/writers/batches/research-014/review.json",
+        "research/writers/batches/research-015/review.json",
+        "research/writers/batches/research-016/review.json",
+        "research/writers/batches/research-017/review.json",
+        "research/writers/batches/research-018/review.json",
+        "research/writers/batches/research-019/review.json",
+        "research/writers/batches/research-020/review.json",
+        "research/writers/batches/research-021/review.json",
+        "research/writers/batches/research-022/review.json",
+        "research/writers/batches/research-023/review.json",
+        "research/writers/batches/research-024/review.json",
+        "research/writers/batches/research-025/review.json",
+        "research/writers/batches/research-026/review.json",
+        "research/writers/batches/research-027/review.json",
+        "research/writers/batches/research-028/review.json",
+        "research/writers/batches/research-029/review.json",
+        "research/writers/batches/research-030/review.json",
+        "research/writers/batches/research-031/review.json",
+        "research/writers/batches/research-032/review.json",
+        "research/writers/batches/research-033/review.json",
+        "research/writers/batches/research-034/review.json",
+        "research/writers/batches/research-035/review.json",
+        "research/writers/batches/research-036/review.json",
+        "research/writers/batches/research-037/review.json",
+        "research/writers/batches/research-038/review.json",
+        "research/writers/batches/research-039/review.json",
+        "research/writers/batches/research-040/review.json",
+        "research/writers/batches/research-041/review.json",
+        "research/writers/batches/research-042/review.json",
+        "research/writers/batches/research-043/review.json",
+        "research/writers/batches/research-044/review.json",
+        "research/writers/batches/research-045/review.json",
+        "research/writers/batches/research-046/review.json",
+        "research/writers/batches/research-047/review.json",
+        "research/writers/batches/research-048/review.json",
+        "research/writers/batches/research-049/review.json",
+        "research/writers/batches/research-050/review.json",
+        "research/writers/batches/research-051/review.json",
+        "research/writers/batches/research-052/review.json",
+        "research/writers/batches/research-053/review.json",
+        "research/writers/batches/research-054/review.json",
+        "research/writers/batches/research-055/review.json",
+        "research/writers/batches/research-056/review.json",
+        "research/writers/batches/research-057/review.json",
+        "research/writers/batches/research-058/review.json",
+        "research/writers/batches/research-059/review.json",
+        "research/writers/batches/research-060/review.json",
+        "research/writers/batches/research-061/review.json",
+        "research/writers/batches/research-062/review.json",
+        "research/writers/batches/research-063/review.json",
+        "research/writers/batches/research-064/review.json",
+        "research/writers/batches/research-065/review.json",
+        "research/writers/batches/research-066/review.json",
+        "research/writers/batches/research-067/review.json",
+        "research/writers/batches/research-068/review.json",
+        "research/writers/batches/research-069/review.json",
+        "research/writers/batches/research-070/review.json",
+        "research/writers/batches/research-071/review.json",
+        "research/writers/batches/research-072/review.json",
+        "research/writers/batches/research-073/review.json",
+        "research/writers/batches/research-074/review.json",
+        "research/writers/batches/research-075/review.json",
+        "research/writers/batches/research-076/review.json",
+        "research/writers/batches/research-077/review.json",
+        "research/writers/batches/research-078/review.json",
+        "research/writers/batches/research-079/review.json",
+        "research/writers/batches/research-080/review.json",
+        "research/writers/batches/research-081/review.json",
+        "research/writers/batches/research-082/review.json",
+        "research/writers/batches/research-083/review.json",
+        "research/writers/batches/research-084/review.json",
+        "research/writers/completion-review.json",
+        "research/writers/ENRICHMENT-COMPLETION.md",
+        "research/writers/audit-2026-10-01/REVIEW-CHECKLIST.md",
+        "research/writers/audit-2026-10-01/findings.json",
+        "records/writer-audit-review-ui.json",
+        "records/writer-audit-recommendations-applied.json",
+        "records/writer-audit-followup-2026-10-02.json",
+        "records/writer-identity-resolution.json",
+        "records/writer-enrichment-final-followup.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-013",
+      "title": "Complete edition and poem import",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-013",
+      "next_action": "User review of local archive; editorial reconciliation tracked in launch work KBL-WORK-009.",
+      "refs": [
+        "KBL-WORK-009",
+        "KBL-WORK-012"
+      ],
+      "evidence": [
+        "research/edition-content-import.md",
+        "records/edition-content-verification.json"
+      ],
+      "blockers": []
+    },
+    {
+      "id": "KBL-WORK-014",
+      "title": "Shared author-page system and reusable skills",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-014",
+      "next_action": "Review the three featured author profiles; remaining individual research/artistic portraits stay in KBL-WORK-012.",
+      "blockers": [],
+      "refs": [
+        "KBL-WORK-012"
+      ],
+      "evidence": [
+        "research/author-page-system.md",
+        "records/author-page-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-015",
+      "title": "Create Kabita Live Facebook Page",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-021",
+      "next_action": "Link website after migration; daily engagement schedule remains subsequent work.",
+      "blockers": [],
+      "refs": [],
+      "evidence": [
+        "records/social-account-setup.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-016",
+      "title": "Complete Facebook cover, editor information and welcome posts",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-023",
+      "next_action": "Link website after migration; daily engagement schedule remains subsequent work.",
+      "blockers": [],
+      "refs": [
+        "KBL-WORK-015"
+      ],
+      "evidence": [
+        "records/facebook-page-completion.json",
+        "records/facebook-cover-v2.json",
+        "records/facebook-cover-v3.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-017",
+      "title": "Add Facebook Page to shared website footer",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-027",
+      "next_action": "Review local preview; publish with the authorized migration/release.",
+      "blockers": [],
+      "refs": [
+        "KBL-WORK-016"
+      ],
+      "evidence": [
+        "records/facebook-footer-link.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-018",
+      "title": "Prepare editor design proposal and heads-up",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-034",
+      "next_action": "User shares proposal and heads-up; gather editor feedback before website walkthrough.",
+      "blockers": [],
+      "refs": [],
+      "evidence": [
+        "records/editor-design-proposal.json"
       ]
     }
   ],
@@ -334,6 +544,382 @@
       "scope": "Make ahimanikya/kabita-live public including website source, KB and preserved history; configure Pages. Content readiness and release authorization still govern publication and domain cutover.",
       "evidence": [
         "records/account-setup.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-012",
+      "title": "Capture and enrich all contributor profiles",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "427 writer can have their own page, and we should use a skill- maybe as we did for the editor- to give an artistic profile picture and research each of them to profile a better narrative about them. Also link their contribution to Kabita Live",
+      "scope": "Browser capture, local writer pages and contribution links, identity-grounded research and faithful artistic portraits. Latest direction: Maybe use browser skill to capture them? No website publication authorized.",
+      "evidence": [
+        "research/writer-profile-capture.md"
+      ]
+    },
+    {
+      "id": "KBL-DEC-013",
+      "title": "Extract and link complete editions and poems",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Now let's extract all editions and poems for each one of them and link them up. Keep the content organized by edition",
+      "scope": "Capture all observed edition and poem content, preserve sources, organize local content by edition, and connect readers and writer contributions. No website publication.",
+      "evidence": [
+        "research/edition-content-import.md"
+      ]
+    },
+    {
+      "id": "KBL-DEC-014",
+      "title": "Apply editor-style author pages and reusable skills",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Now, I want to fix the author's page as we did for 2 editors - let's make the author's page something similar. Build skills and use them to build",
+      "scope": "Reuse approved editor components across local author pages; build and install project skills; create and integrate featured portrait examples and sourced narrative enhancements. No publication.",
+      "evidence": [
+        "research/author-page-system.md"
+      ]
+    },
+    {
+      "id": "KBL-DEC-015",
+      "title": "Quiet table for author contributions",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Let's go with A",
+      "scope": "Apply the Option A quiet table to author/editor contribution sections, record in design system and synchronize handoff. Local implementation; no publication.",
+      "evidence": [
+        "records/author-contribution-options-review.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-016",
+      "title": "Clear story author pages with visible external book links",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "I like A. Remove Sources and portrait credit, All writers, Explore the editions, and Read the poems. Restore external link the way it was.",
+      "scope": "Apply Clear story to author pages with requested link removals and visible book links; retain source credits in Our Story. Local only.",
+      "evidence": [
+        "records/author-focus-review.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-017",
+      "title": "Each author opens with a quote from their own poetry",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "On the poet page — instead of repeating ମାଟିର ମହକ · ମନର ସ୍ୱର extract one quote from their poems that is quote worthy.",
+      "scope": "Replace the author-page signature with one source-exact excerpt and local poem citation. Preserve original language. Local implementation only.",
+      "evidence": [
+        "records/writer-quote-selections.json",
+        "records/author-page-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-018",
+      "title": "Earth & voice quotes and count-aware collection headings",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "I like C. Can we make the count merge with the heading — make a dynamic statement based on the count.",
+      "scope": "Apply quote option C to author profiles and incorporate actual poem counts into the shared collection heading. Local only.",
+      "evidence": [
+        "records/author-quote-options-review.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-019",
+      "title": "Homepage export and icon-only narrow-screen menu",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "The JSON file my decisions recorded. Also I wanted to use an icon instead of calling it Menu in the header.",
+      "scope": "Apply the seven explicitly approved homepage choices from the supplied export and the shared icon menu. Excerpt and portrait-card revisions remain candidates. Local only.",
+      "evidence": [
+        "records/homepage-decisions-2026-09-30.json",
+        "records/homepage-applied-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-020",
+      "title": "Homepage poem cards A: small round portraits and aligned excerpts",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "I selected Option A",
+      "scope": "Apply revised home-card-review Option A to homepage, including portrait-left identity, laterite labels, aligned excerpts with ellipsis and removal of duplicate poet strip. Local only.",
+      "evidence": [
+        "records/home-card-a-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-021",
+      "title": "Create Kabita Live Facebook and Instagram profiles",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Use browser skill to create a Facebook page and an Instagram page for Kabita Live\n\nWe will then link them to the website and create a schedule to post something new every day to drive engagement.",
+      "scope": "Create the two brand profiles using Browser. Website linking and daily posting are subsequent work; required authentication and account terms remain user steps.",
+      "evidence": [
+        "records/social-account-setup.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-022",
+      "title": "Shared site appearance: System, Light and Dark; homepage fine art edge",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved both, except I want to make the dark theme icon clickable - instead of a dropdown. Subsequent refinement: toggle should have a system mode too Subsequent scope: This is for the entire site and it should remember my selection",
+      "scope": "Shared direct System/Light/Dark icon and persisted selection across all reader pages. Header is the only theme control; the duplicate poem-toolbar button is removed. Homepage warm art edge retained. Local only.",
+      "evidence": [
+        "records/home-atmosphere-approval.json",
+        "records/home-atmosphere-applied-verification.json",
+        "records/site-appearance-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-023",
+      "title": "Complete Kabita Live Facebook presentation; defer website linking",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Website linking we will do this after migration\n\nFor now, update the cover photo, add editor info, and add some images and other information to make the page look complete and inviting.",
+      "scope": "Facebook cover, editor information, images and welcoming posts. Website linking deferred until migration.",
+      "evidence": [
+        "records/facebook-page-completion.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-024",
+      "title": "Edition pages: cover narrative and simple multilingual contents",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Remove the footer navigation of the edition or make it simple and subtle. Replace signature and poem count with cover image story. Remove edition search, Reading language label and result count. Use icon with hover text instead of arrow; language in its own column.",
+      "scope": "All 47 edition pages; local implementation only.",
+      "evidence": [
+        "records/edition-simplicity-approval.json",
+        "records/edition-simplicity-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-025",
+      "title": "Replace Facebook cover with improved original illustration",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Can we use better cover image - create one if required",
+      "scope": "Generate and use a better Kabita Live Facebook cover; preserve earlier art and deferred website linking.",
+      "evidence": [
+        "records/facebook-cover-v2.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-026",
+      "title": "Single-line Odia signature on Facebook cover",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "The odia line can be one line",
+      "scope": "Facebook cover signature on one line; retain existing brand and artwork.",
+      "evidence": [
+        "records/facebook-cover-v3.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-027",
+      "title": "Link Kabita Live Facebook Page from website footer",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Now link the FB page to Home Pahe, add to the footer menu list",
+      "scope": "Add Facebook to shared website footer menu, including Home. Local site update; no deployment.",
+      "evidence": [
+        "records/facebook-footer-link.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-028",
+      "title": "Poem reader A with opening actions, captions and quiet navigation",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approbed A with comments; Option A is better",
+      "scope": "Apply illustrated reader A to all 801 poems, incorporating review notes. Local implementation only.",
+      "evidence": [
+        "records/poem-reader-a-approval.json",
+        "records/poem-reader-a-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-029",
+      "title": "Curved icon-only poem navigation: option B",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "b",
+      "scope": "Use approved curved arrows across poem pages with 48px targets, tooltips and disabled boundary controls. Local implementation only.",
+      "evidence": [
+        "records/poem-arrow-review.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-030",
+      "title": "Poem byline portraits and a separate poem artwork collection",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "B is good. Poem images are not going to reuse cover image.",
+      "scope": "Small profile portrait beside poem byline; varied poem-only illustrations, with edition covers excluded. Local implementation.",
+      "evidence": [
+        "records/poem-portrait-artwork.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-031",
+      "title": "Audit artwork, name edition covers and connect poem illustrations to text",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Audit all our images and organize them based on how we plan to use them. Name the cover image based on the edition. Connect the image with poem somehow.",
+      "scope": "Local asset organization, contextual image matching, poem opening alignment and continuous header separator tone. Preserve all originals and exclude covers from poems.",
+      "evidence": [
+        "assets/image-usage-plan.md",
+        "records/edition-cover-filenames.json",
+        "records/poem-art-match-evidence.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-032",
+      "title": "Discoverable imagery knowledge and one canonical caption per artwork",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Update the OKF for the imagery knowledge base for easier finding next time. For consistency, the same image should not have a different caption in different locations.",
+      "scope": "Canonical image identity and captions, searchable imagery records and shared caption rendering. Border recommendation retains current treatments; no blanket border change or publication.",
+      "evidence": [
+        "assets/imagery.md",
+        "assets/imagery-catalogue.json",
+        "records/imagery-caption-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-033",
+      "title": "Approve translations, refine underlining and audition natural recitation",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved language translation. Underline: Can we do a partial line. No—prepare an audition plan first.",
+      "scope": "Approve one-poem language-translation feature; add partial text underlining; reject initial digital voice delivery; prepare audition plan without account setup or paid generation.",
+      "evidence": [
+        "review/poem-experience.md",
+        "review/recitation-audition.md",
+        "records/poem-experience-v2-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-034",
+      "title": "Prepare fuller website design walkthrough for editors",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Create a design proposal document and give them heads up whats coming\nPreference: Fuller walkthrough of the design and reading features",
+      "scope": "Create shareable proposal and accompanying message. No external messaging or website launch.",
+      "evidence": [
+        "records/editor-design-proposal.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-035",
+      "title": "Remove holds based only on missing original-language sources",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "we dont need source info dont put them in hold",
+      "scope": "Use existing published poem text without requiring underlying originals or source information. Release ten source-only holds; retain four actual content corrections. Preserve existing credits and historical evidence.",
+      "evidence": [
+        "records/translation-source-hold-release.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-036",
+      "title": "Repair recoverable poem content and archive unresolved entries",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "see if you can fix, else we will remove them from edition and keep in archive",
+      "scope": "Separate two clearly attributed appended works; retain original text and evidence. Remove unavailable records385 and727 from active editions, preserve archival entries and existing URLs. No publication.",
+      "evidence": [
+        "records/poem-content-reconciliation.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-037",
+      "title": "Push current project and host a GitHub Pages preview before DNS migration",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "All done then - now we need to push this to git and get it hosted and then will ask het to channge DNA",
+      "scope": "Commit and push the current project to the existing public repository; manually deploy the public-only Astro build to GitHub Pages for pre-DNS review. DNS and custom domain remain unchanged.",
+      "evidence": [
+        "records/github-pages-preview-deployment.json"
       ]
     }
   ],
@@ -493,6 +1079,101 @@
       "evidence": [
         "records/account-setup.json"
       ]
+    },
+    {
+      "id": "KBL-REV-008",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; source and browser self-review",
+      "limitations": [
+        "Captured biographies are journal-supplied, not independently fact-checked",
+        "46 biographies absent; one contribution lacks edition metadata",
+        "One portrait source missing: Manju Chouhan (writer 233)",
+        "No new artistic writer portraits generated in this pass",
+        "Full poem texts and reviews remain to import",
+        "No deployment performed"
+      ],
+      "refs": [
+        "KBL-WORK-012"
+      ],
+      "evidence": [
+        "records/writer-profile-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-REV-009",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review",
+      "limitations": [
+        "One unassigned source record, one missing author and two identical-text pairs preserved for editorial review.",
+        "Full text captured, not editorially proofread in all three scripts.",
+        "Mobile DOM checks do not certify accessibility; screenshot scaling artifacts remain.",
+        "No website deployment."
+      ],
+      "refs": [
+        "KBL-WORK-013"
+      ],
+      "evidence": [
+        "records/edition-content-verification.json",
+        "records/edition-browser-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-REV-010",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant, Drishti self-review",
+      "limitations": [
+        "Only three author narratives and artistic portraits newly enriched; remaining per-writer work is ongoing.",
+        "Source-photo publication rights and likeness approval not independently certified.",
+        "Representative mobile checks are not accessibility certification.",
+        "No deployment."
+      ],
+      "refs": [
+        "KBL-WORK-014"
+      ],
+      "evidence": [
+        "records/author-page-verification.json",
+        "records/author-page-browser-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-REV-011",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Samanta, Anvesha and Drishti role passes",
+      "limitations": [
+        "748 automatic motif suggestions require editorial judgment; 39 neutral fallbacks are flagged for review.",
+        "Inventory excludes duplicate portable/build/dependency folders and unopened historical ZIP contents.",
+        "Public export builds successfully; existing content launch blockers remain unchanged.",
+        "No publication performed."
+      ],
+      "refs": [
+        "KBL-WORK-004",
+        "KBL-DEC-031"
+      ],
+      "evidence": [
+        "records/image-audit-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-REV-012",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Samanta implementation and Drishti self-review",
+      "limitations": [
+        "Translations need native editorial review.",
+        "Stock synthetic Hindi and English previews need performance/pronunciation review; Odia voice unavailable.",
+        "Prototype only; no all-poem application or public release."
+      ],
+      "refs": [
+        "KBL-WORK-004"
+      ],
+      "evidence": [
+        "review/poem-experience.md",
+        "records/poem-experience-verification.json"
+      ]
     }
   ],
   "releases": [
@@ -582,6 +1263,36 @@
       ],
       "evidence": [
         "records/account-setup.json"
+      ]
+    },
+    {
+      "id": "KBL-REL-007",
+      "title": "Complete publication archive applied locally",
+      "status": "applied",
+      "authorization": "KBL-DEC-013",
+      "destination": "Local primary reader site and portable source handoff",
+      "refs": [
+        "KBL-WORK-013",
+        "KBL-REV-009"
+      ],
+      "evidence": [
+        "research/edition-content-import.md",
+        "records/edition-content-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-REL-008",
+      "title": "Author page system and skills applied locally",
+      "status": "applied",
+      "authorization": "KBL-DEC-014",
+      "destination": "Primary site and portable handoff; local Codex skill discovery links",
+      "refs": [
+        "KBL-WORK-014",
+        "KBL-REV-010"
+      ],
+      "evidence": [
+        "research/author-page-system.md",
+        "records/author-page-verification.json"
       ]
     }
   ],

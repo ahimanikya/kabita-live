@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 23,
+  "status": "draft-complete; independent linguistic review pending",
+  "poems_drafted": [
+    456,
+    457,
+    460,
+    462,
+    464,
+    463,
+    454,
+    455,
+    458,
+    459,
+    461
+  ],
+  "source_held": [],
+  "new_translations": 22,
+  "total_drafts": 720,
+  "remaining_translations": 882,
+  "batches": [
+    "batch-079",
+    "batch-080",
+    "batch-081"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 11 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 22 versions, including numbered source blocks and alternate publication lineation",
+    "rendered_catalogue_parity": "pass for all 22 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "460": "Unclear ରାତିହାସ retained verbatim; Sanskrit fragment transliterated, archaic mahout reading provisional.",
+    "455": "Same author/title as Issue26 poem503, but distinct lineation and small changes; this 35-line source translated separately, records not merged. charred colloids retained literally.",
+    "458": "Apparent negative/positive contradiction about dreams taking root retained, not silently repaired.",
+    "459": "Twenty-four, relation to Jamie and cause of loss left unspecified.",
+    "461": "Splinters caught eyes read physically with caveat."
+  },
+  "publication": false,
+  "next_edition": 22,
+  "next_poem_ids": [
+    443,
+    444,
+    442,
+    452,
+    445
+  ]
+}

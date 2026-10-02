@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-02T01:59:54.367713+00:00",
+  "work_ref": "KBL-WORK-004",
+  "approval": "Archive page is good now",
+  "status": "approved_applied_verified",
+  "independent": false,
+  "changes": [
+    "One year control, covers only, twelve editions per group, poetic opening and artistic manuscript mark.",
+    "Applied shared renderer to main archive and five retained year routes.",
+    "Archived entries excluded; source records preserved."
+  ],
+  "checks": [
+    "Node24 public build passed1307pages.",
+    "47editions/799activepoems/848sourcehash checks passed.",
+    "Six archive routes contain47covers and no old dropdown/view toggle/Archived entries.",
+    "390px mobile inspected:12initial,2022filter2,Allreset12,Showmore24,nooverflow.",
+    "1440px desktop inspected; saved2022route selects2022 and shows2; keyboard year/reset passed."
+  ],
+  "evidence": [
+    "artifacts/review/archive/applied-mobile.png",
+    "artifacts/review/archive/applied-desktop.png"
+  ],
+  "limitations": [
+    "Same-assistant review; no publication or full accessibility certification.",
+    "One pointer action immediately after viewport resizing navigated to a cover; fresh-navigation desktop keyboard checks passed.",
+    "Companion poet-copy preview and shared footer suggestion are not applied by Archive approval."
+  ],
+  "next_action": "Editorial team and editor profiles review."
+}

@@ -1,0 +1,20 @@
+{
+  "purpose": "User-requested PNG export of existing Kabita Live identity",
+  "files": {
+    "kabita-live-logo.png": {
+      "width": 2099,
+      "height": 577,
+      "background": "transparent",
+      "typeface": "Cormorant Garamond Medium 500, bundled font",
+      "layout_reference": "../assets/logo-compact.svg",
+      "symbol_source": "projects/site/assets/kabita-live-symbol.svg"
+    },
+    "kabita-live-symbol.png": {
+      "width": 1024,
+      "height": 1024,
+      "background": "transparent",
+      "source": "projects/site/assets/kabita-live-symbol.svg"
+    }
+  },
+  "note": "English-only lockup, no new design or website changes. Font rendered explicitly to prevent system fallback."
+}

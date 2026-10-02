@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 13,
+  "status": "actionable drafts complete; source hold unresolved; independent linguistic review pending",
+  "poems_drafted": [
+    318,
+    309,
+    316,
+    320,
+    317,
+    306,
+    315,
+    304,
+    305,
+    307,
+    308,
+    310,
+    311,
+    313,
+    314,
+    321,
+    312
+  ],
+  "source_held": [
+    319
+  ],
+  "new_translations": 34,
+  "total_drafts": 1010,
+  "remaining_translations": 592,
+  "batches": [
+    "batch-113",
+    "batch-114",
+    "batch-115",
+    "batch-116"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 17 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 34 versions",
+    "rendered_catalogue_parity": "pass for all 34 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged for all 18 entries including held 319 in preview and public output",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "318": [
+      "All six blocks retained; names, neighbourhoods and ration-card address are original poetic content. Unwanted two-month future and buried children not expanded into invented medical/personal history. Sar read Ludo counters; tirla colloquial woman; gandua provisionally earth basket. English stanza 2 retains elliptical chronology and three-line opening; source syntax warrants review."
+    ],
+    "309": [
+      "All twenty lines retained. Highly dialectal/deformed typography: chakani, Proklin, khapue khaman and petri remain transliterated unresolved rather than invented equivalents. Hanumal and Devdangara retained as named hills. Sexual violence imagery refers to ecological destruction in source. Bhinḍhibasa bharua read huddled/laden shoulder provisionally; specialist Koraput dialect review needed."
+    ],
+    "316": [
+      "All five blocks retained. Chereiba read rooting in earth. Hindi grammatical female speaker provisional. Final feet-own condition preserved as independence metaphor."
+    ],
+    "320": [
+      "All seven blocks including very long lines preserved. Baula friendship, kendara, Govindachandra, Kumar Purnima, kiakanda retained without expanding legends. Archina provisionally dried stalk fuel; sacred corner for Ishan. Village/mother pronoun overlap retained; kinship and rural vocabulary require Odia review."
+    ],
+    "317": [
+      "All five blocks retained. Odia pronouns do not specify gender: English shifts to direct you in later stanzas to avoid assigning gender; Hindi masculine grammar provisional. Absence not asserted to mean death. Infected laughter/stricken narrator metaphor preserved."
+    ],
+    "306": [
+      "All thirty lines and repeated question preserved. Respectful plural Hindi wo interpreted singular woman from final mother reveal. No family identities or reasons for abandonment invented."
+    ],
+    "315": [
+      "Five blocks and refrain retained. Unspecified recipient remains gender-neutral in English/Odia."
+    ],
+    "304": [
+      "All ten lines including single long flower line retained. Misspellings Jarbera/gigleds/fuscia/Jinia read gerbera/giggles/fuchsia/zinnia; Alamonda transliterated without identifying a species. Domestic personification and shoreline ambiguity preserved."
+    ],
+    "305": [
+      "All 21 lines retained, including long parents/earning-woman lines. Female narrator supported by source girl/woman passage; senility rendered old age rather than adding diagnosis."
+    ],
+    "307": [
+      "Three blocks [3,2,4] retained. Quarry/light-years remain poetic images without physical correction. Hindi feminine speaker provisional; English source does not specify gender."
+    ],
+    "308": [
+      "Ten lines retained including long tree/root and window lines. Dragon Blood kept as name; no species inference. Simulate not provisionally read pretend not, hard-earned vegetables metaphor preserved rather than corrected."
+    ],
+    "310": [
+      "Six blocks retained. Opening idols beyond means and wardrobe/wall spatial overlap retained as source ambiguities. Hindi masculine narrator provisional."
+    ],
+    "311": [
+      "Same author/title as poem 327 in Issue 14 but distinct 28-line version, with changed opening metaphor, own charisma and final glow-worm wording. Translated this source independently with consistent shared wording; did not overwrite/merge 327. Stray ya retained quoted transliteration and flagged for correction by editor."
+    ],
+    "313": [
+      "All eleven blocks and isolated refrains retained. Final Unpredictably interpreted unpredictability; emrald/infinte read emerald/infinite. Female Hindi grammar provisional, not assigned from author identity. Spiritual/biological metaphors not asserted as literal science."
+    ],
+    "314": [
+      "Both blocks [10,5] retained. Bored with me read bore/carried with me, not boredom. Previous life remains ambiguous; no reincarnation explanation invented. Toddling and shortened steps preserved."
+    ],
+    "321": [
+      "All seven blocks and before refrain retained; purple love remains literal imagery. Hang over you read cling to you provisionally. English genders unspecified; Hindi female speaker/male addressee provisional. Dream not assigned to bereavement or literal reunion."
+    ],
+    "312": [
+      "Four quatrains retained. Leading p> is apparent residual HTML, omitted only from translated first line, not from original; no poetic words omitted. Delicious plate retained as culinary metaphor. Hindi female grammatical speaker provisional."
+    ]
+  },
+  "new_hold": "The Solar Path by Tuhinamshu Rath explicitly credits Prof. Raj Kishore Mishra as translator; preserved HTML confirms. Identity-matched underlying original and source language are absent locally. Preserve translation and credit; do not reconstruct original.",
+  "publication": false,
+  "next_edition": 12,
+  "next_poem_ids": [
+    284,
+    297,
+    303,
+    288,
+    291
+  ]
+}

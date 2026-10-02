@@ -1,0 +1,45 @@
+{
+  "recorded_at": "2026-10-02T05:35:04.648774+00:00",
+  "work_ref": "KBL-WORK-004",
+  "status": "applied_verified_locally",
+  "authorization": [
+    "All inner pages should receive an artistic treatment as we did for a few pages - see which pages we might have missed",
+    "Replace repeated editorial signature with an article invitation",
+    "Submit not Share I guess"
+  ],
+  "scope": {
+    "new_utility_openings": 20,
+    "edition_openings": 47,
+    "directory_waterlines": 7,
+    "editorial_invitation": "Submit an article and Submit a poem"
+  },
+  "changes": [
+    "Existing artistic icons and compact opening waterline applied to Our Story,Contact,reader feedback,current contributors,book reviews and details,literary notices,Upcoming,not-found and two unavailable-poem utility pages.",
+    "Extended current-edition artistic labels and waterline to all47edition openings.",
+    "Added compact waterline to Poets and six Archive routes; existing icon/layout retained.",
+    "Book-review detail pages now reuse the existing book-review section illustration instead of the generic legacy image; no invented book cover.",
+    "Replaced repeated Odia signature in editorial invitation with article invitation; balanced two columns on desktop and stacked sections on phones.",
+    "Article button opens an email draft addressed to the existing editorial mailbox; poem button opens submission guidance. No message sent."
+  ],
+  "checks": [
+    "Public Node24 build passed1307routes,1306indexed pages.",
+    "Edition checker passed47editions/848source hashes; author checker passed429profiles.",
+    "All content/data and poet-profile hashes unchanged; normal poem readers unchanged.",
+    "Mobile390px Contact,Our Story,Upcoming and long-title book review: artistic icon and115px separator present,no overflow.",
+    "Editors390px and1280px: nooverflow;two50px-high mobile submission buttons and equal desktop columns.",
+    "Article mailto recipient and subject inspected; contribution section no longer repeats signature."
+  ],
+  "evidence": [
+    "artifacts/review/inner-artistic-coverage/integrity.json",
+    "artifacts/review/inner-artistic-coverage/browser-checks.json",
+    "artifacts/review/inner-artistic-coverage/editors-mobile.png",
+    "artifacts/review/inner-artistic-coverage/editors-desktop.png"
+  ],
+  "independent": false,
+  "limitations": [
+    "Same-assistant review, no publication.",
+    "Missing complete book reviews and existing source holds remain explicit; visual treatment does not resolve editorial gaps.",
+    "Writer biography audit stays deferred."
+  ],
+  "next_action": "User reviews artistic coverage and revised editorial submission invitations."
+}

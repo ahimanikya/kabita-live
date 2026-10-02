@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-30",
+  "automation": "kabita-live-translation-loop",
+  "edition": 7,
+  "status": "partial: all 19 actionable entries drafted; two source-held entries incomplete; independent linguistic review pending",
+  "poems_drafted": [
+    190,
+    191,
+    193,
+    196,
+    198,
+    199,
+    202,
+    204,
+    208,
+    209,
+    206,
+    207,
+    192,
+    195,
+    200,
+    201,
+    205,
+    210,
+    211
+  ],
+  "source_held": [
+    197,
+    203
+  ],
+  "new_translations": 38,
+  "total_drafts": 1220,
+  "remaining_translations": 382,
+  "batches": [
+    "batch-137",
+    "batch-138",
+    "batch-139",
+    "batch-140"
+  ],
+  "executor": "Current assistant; Anvesha and Drishti role passes",
+  "independent": false,
+  "checks": {
+    "source_sha256": "pass for all 19 translated entries",
+    "source_line_and_stanza_coverage": "pass for all 38 versions",
+    "rendered_catalogue_parity": "pass for all 38 versions in preview and public output after completed build",
+    "original_rendered_stanzas": "unchanged for all 21 entries, including held works, in preview and public output",
+    "held_source_credit": "Gabor Gyukics and Shyamashri Ray Karmakar credits preserved; no generated variants for 197 or 203",
+    "edition_integrity": "pass",
+    "public_site_build": "pass",
+    "independent_linguistic_review": "pending"
+  },
+  "source_reconciliation_notes": {
+    "190": [
+      "Five quatrains and repeated ending retained. Bee/flower suffering metaphor kept without explanation; Hindi masculine provisional."
+    ],
+    "191": [
+      "Five blocks retained. First-line possession interpreted addressee claiming narrator’s palm; Hindi leaves original ambiguity. Goddess silence and life-Veda preserved."
+    ],
+    "193": [
+      "Nine blocks retained, including temporal leaps birth/adult daughter and wedding/old age. Mole, centenarian, cockroaches and summons kept; no literal chronology repair."
+    ],
+    "196": [
+      "Fifteen blocks and concluding name Prasanna retained. Jhamu fire-walk, karmic prarabdha/kriyamana, kadamba retained. Teri read oblique/wandering eyes, not psychological judgement; chhanda interpreted guile beside kapata. Garbha mine image and ungrammatical questions not replaced."
+    ],
+    "198": [
+      "Three blocks retained. Dhangidi retained as cultural term for young woman, no specific community invented. Odia se gender ambiguous; feminine personification provisional in targets. Banishi rendered fishing rod from river context."
+    ],
+    "199": [
+      "Ten blocks retained. Nat ei breaking rendered kite breaking from reel; orphan skull and throne without future preserved. Final stove idiom rendered idiomatically in Hindi."
+    ],
+    "202": [
+      "Thirteen blocks including dedication and (2) retained. Artha meaning/money pun explicitly carried in English; Kishan Patnaik name preserved. All rhetorical questions remain questions, not policy promises."
+    ],
+    "204": [
+      "All 67 lines retained. Kaunria, Meghanada wall, Nilakandara, Adapa, goti pahandi and fourteen generations retained. Arkshita read destitute/akinchana in context, flagged. Lalita lavanga dwipa retained as clove-island despite ambiguity; nirajana read offering of light, flagged. Twenty-five prakriti and five minds not doctrinally corrected."
+    ],
+    "208": [
+      "Three blocks retained. Title Achira interpreted impermanence; palace spelling interpreted from context, not source rewrite. Gender in Hindi provisional."
+    ],
+    "209": [
+      "Five blocks and long lines retained. Bindi shoulder calluses, kabala property deeds interpreted from labour/debt context; need idiom review. Horoscopes/unborn generation and cosmic metaphors retained without medical/literal elaboration."
+    ],
+    "206": [
+      "Eight blocks and refrain retained. Sada in truth line interpreted sada/voice rather than always because na sada mili grammatically incomplete; flagged. Pras rendered rhyme. Maleccha applied to song-stream as defiled, not added ethnic label. Incomplete apni atma ka bech chuka interpreted selling own soul."
+    ],
+    "207": [
+      "Eleven blocks retained; final three-line enjambment preserved. Jungle jalebi retained named food/fruit, not generic sweet substitution. Social nostalgia remains author’s opinion."
+    ],
+    "192": [
+      "Four blocks retained. Blues interpreted blue sky; it referent remains ambiguous between dawn/place/lost presence. Hindi feminine provisional."
+    ],
+    "195": [
+      "Six blocks with long single lines retained. Builing interpreted bullying from list of traits; uncertain source typo recorded. Covered body not assigned religious identity. Fallen angel refrain retained, not moral judgement added."
+    ],
+    "200": [
+      "Ten couplets and enjambment retained. Invitation of death syntax stays close and ambiguous; not recast as explicit death wish. Hindi masculine narrator provisional."
+    ],
+    "201": [
+      "Seven blocks retained. Death/butterfly-return imagery not expanded into biography; Hindi feminine provisional."
+    ],
+    "205": [
+      "Four blocks and listed possessions retained; age-dependent value claims remain authorial reflection."
+    ],
+    "210": [
+      "Blocks [10,2] retained. Bicultural and sinful stars retained instead of silently changing to multicultural/sinless; source Krishna quotation rendered as supplied, not edited against scripture."
+    ],
+    "211": [
+      "Seven blocks retained; title completes first-line sentence. Empyrean rendered heaven; explicit girl narrator preserved, no generalized claim about all girls."
+    ]
+  },
+  "source_hold_details": {
+    "197": {
+      "reason": "Art by Laszlo Aranyi explicitly credits Translated by Gabor Gyukics in its English body; preserved HTML confirms this. No matching underlying original or source-language identification was found in the local edition catalogue.",
+      "evidence": "projects/site/content/editions/issue-07/poem-197.json; kb/artifacts/content-import/editions/issue-07/poem-197.html",
+      "action": "Obtain and identity-match the underlying original and its language. Reconcile Original/Translation labels while preserving Gabor Gyukics’s published translation and credit; do not reconstruct a missing original from English.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    },
+    "203": {
+      "reason": "Afghanistan by Chaitali Chattopadhyay explicitly credits Translated by Shyamashri Ray Karmakar in its English text; preserved HTML confirms the credit. No identity-matched underlying original or source-language identification was found in the local edition catalogue.",
+      "evidence": "projects/site/content/editions/issue-07/poem-203.json; kb/artifacts/content-import/editions/issue-07/poem-203.html",
+      "action": "Obtain and identity-match the underlying original and its language. Reconcile Original/Translation labels while preserving Shyamashri Ray Karmakar’s published translation and credit. Do not reconstruct a missing original from English.",
+      "targets": [
+        "or",
+        "hi"
+      ]
+    }
+  },
+  "publication": false,
+  "next_edition": 6,
+  "next_poem_ids": [
+    171,
+    178,
+    186,
+    187,
+    188
+  ]
+}

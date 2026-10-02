@@ -1,0 +1,36 @@
+{
+  "batch": "research-075",
+  "status": "verified",
+  "independent": false,
+  "writer_ids": [
+    154,
+    150,
+    149,
+    148,
+    147
+  ],
+  "reader_drafts": 5,
+  "externally_corroborated": 4,
+  "source_limited": [
+    154
+  ],
+  "checks": {
+    "public_build": "passed",
+    "author_pages": "PASS",
+    "editions": "PASS",
+    "preserved_source_files": 805,
+    "existing_narratives_preserved": 380,
+    "rendered_narratives": 5,
+    "browser_visual": "Not repeated; prose/data only, approved renderer unchanged."
+  },
+  "limitations": [
+    "Independent author/editor review pending.",
+    "154 remains source-limited; same-name Odia publication and bibliography leads withheld without secure identity bridge.",
+    "149 publisher-supplied book description read from search index; direct Google Play open failed.",
+    "150 Opera publisher metadata verified; bibliography subtitle and transliteration variants retained for review.",
+    "Current job ranks and unverified awards not newly asserted.",
+    "No concurrent source corrections detected against baseline."
+  ],
+  "resume": "research-076",
+  "publication": "No deployment or push."
+}
