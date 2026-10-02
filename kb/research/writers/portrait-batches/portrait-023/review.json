@@ -1,0 +1,47 @@
+{
+  "recorded_at": "2026-10-02T17:07:46.814549+00:00",
+  "batch": "portrait-023",
+  "writer_ids": [
+    39,
+    382,
+    79,
+    310,
+    304
+  ],
+  "integrated_writer_ids": [
+    39,
+    382,
+    79,
+    310,
+    304
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 118 artistic portraits, 306 photographs including 1 earlier likeness hold, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 original source hashes",
+    "2073 baseline files checked; only authorized portrait map changed",
+    "All 121 portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px crops inspected; mobile scroll width 360px",
+    "All five new circular directory thumbnails visually inspected"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Soft sources for 382, 79, 310 and 304 constrain fine facial, jewelry and textile detail; soft painted detail retained",
+    "Earlier likeness hold 238 remains unresolved; original retained",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "No intermediate publication; final deployment only after verified rollout"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile.png",
+    "directory-go.png",
+    "directory-haimanti.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log"
+  ]
+}

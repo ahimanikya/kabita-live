@@ -1,0 +1,32 @@
+{
+  "verified_at": "2026-10-02T19:00:05.258128+00:00",
+  "pdf_sha256": "c9f0482fae55317984d44ce5a579708bd0a1e5f66fe5dd8ac1b2b26961617aa4",
+  "pages": 34,
+  "words": 9189,
+  "page_size": "A4 portrait",
+  "diagrams": {
+    "4": "functional reader journey",
+    "5": "architecture and runtime boundaries",
+    "7": "content architecture",
+    "11": "private feedback flow",
+    "16": "AI operating process",
+    "30": "Blueprint record lifecycle"
+  },
+  "visual_review": {
+    "method": "All 34 pages rendered. Changed/new pages 1,2,29-34 visually inspected; pages 3-28 verified pixel-identical to previously inspected final pages.",
+    "result": "PASS",
+    "independent": false
+  },
+  "checks": {
+    "page_count": true,
+    "presenter_credit_every_page": true,
+    "token_totals_reproduced": true,
+    "token_arithmetic": true,
+    "no_cumulative_resets": true,
+    "first_counter_has_no_inherited_usage": true,
+    "layout_overflow": [],
+    "external_links": 8
+  },
+  "scope": "PDF expanded; no website build/deploy or remote service mutation. Service access blocked; 24 local tests passed, five emulator-only tests skipped.",
+  "version": "1.1"
+}

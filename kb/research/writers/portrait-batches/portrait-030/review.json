@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-02T19:31:39.332686+00:00",
+  "batch": "portrait-030",
+  "writer_ids": [
+    228,
+    471,
+    117,
+    442,
+    387
+  ],
+  "integrated_writer_ids": [
+    228,
+    471,
+    117,
+    442,
+    387
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 153 artistic portraits, 271 photographs including 1 earlier likeness hold, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2178 baseline files checked; only authorized portrait map changed",
+    "All 156 portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px profile crops inspected; mobile scroll width 360px",
+    "All five new circular directory thumbnails visually inspected"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Writer 442 checkerboard background corrected to opaque ivory; initial candidate and both prompts preserved",
+    "Fine skin, hair, textile and jewelry detail remain interpretive from source photographs",
+    "Writer 387 paper wash warms muted source tones; no material facial drift observed",
+    "Earlier likeness hold 238 remains unresolved; original retained",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "No intermediate publication; final deployment only after verified rollout"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "thumbnail-228.png",
+    "thumbnail-471.png",
+    "thumbnail-117.png",
+    "thumbnail-442.png",
+    "thumbnail-387.png",
+    "228-prompt.txt",
+    "471-prompt.txt",
+    "117-prompt.txt",
+    "442-prompt.txt",
+    "387-prompt.txt",
+    "442-correction-prompt.txt",
+    "442-candidate-before-correction.png"
+  ]
+}

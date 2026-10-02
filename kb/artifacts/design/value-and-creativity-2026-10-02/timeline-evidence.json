@@ -1,0 +1,66 @@
+{
+  "timezone": "America/Los_Angeles",
+  "initial_design_source": "kb/artifacts/design/proposal/DESIGN-PROPOSAL-v1.md",
+  "events": [
+    {
+      "id": "KBL-EVT-011",
+      "local_date": "2026-09-29",
+      "summary": "Captured all 427 individual profiles through observed browser links, preserved 381 biographies and 778 contribution links, saved 228 portraits and integrated local writer pages. Browser and static build checks passed; independent research and artistic portraits remain."
+    },
+    {
+      "id": "KBL-EVT-012",
+      "local_date": "2026-09-29",
+      "summary": "Captured 47 edition contents and 801 full-text poem records; integrated local readers, reciprocal writer links and full-text search. Preserved raw source and metadata gaps. No deployment."
+    },
+    {
+      "id": "KBL-EVT-013",
+      "local_date": "2026-09-29",
+      "summary": "Applied editor-style layout to 427 author pages; preserved two editors. Integrated 421 source photos, three artistic portraits and three initials fallbacks. Expanded three sourced narratives and installed two reusable skills. No deployment."
+    },
+    {
+      "id": "KBL-EVT-030",
+      "local_date": "2026-09-30",
+      "summary": "With explicit policy approval, created Kabita Live Facebook Page in signed-in Chrome and finished onboarding. Verified Page 61594946730649, Literary Arts category, approved signature bio and profile PNG derived from current website symbol. No friend invitations, WhatsApp connection, marketing email opt-in, website linking or daily schedule. Instagram deferred. Same-assistant verification."
+    },
+    {
+      "id": "KBL-EVT-032",
+      "local_date": "2026-09-30",
+      "summary": "Published branded Facebook cover, updated editor bio, two-portrait editor introduction and pinned artwork welcome post. Reused approved local artwork and fonts; captions preserve credits and AI disclosure. Verified in signed-in Chrome. Website linking deferred until migration. Same-assistant review."
+    },
+    {
+      "id": "KBL-EVT-040",
+      "local_date": "2026-09-30",
+      "summary": "Added verified Facebook Page URL after Contact in shared site footer. Regenerated pages, checked public export inputs and visually verified Home footer. No website deployment."
+    },
+    {
+      "id": "KBL-EVT-272",
+      "local_date": "2026-10-01",
+      "summary": "Completed and verified research-084: Gargi Sarkhel Bagchi and Nutan Sarawagi. All427 writer profiles now have enriched local drafts:336 source-checked,91 source-limited. All83 batches verified and15 earlier profiles preserved. Public build, author and edition checks passed; all427 preview/public narratives compared. Automation confirmed PAUSED. Independent author/editor review remains pending; no publication."
+    },
+    {
+      "id": "KBL-EVT-310",
+      "local_date": "2026-10-02",
+      "summary": "Quiet reader now browses editions or poets, searches their poems, and opens one poem or the whole collection. Verified collection order, language search, responsive pagination, bookmarks, source preservation and public build."
+    },
+    {
+      "id": "KBL-EVT-313",
+      "local_date": "2026-10-02",
+      "summary": "Quiet reader now flows poems continuously across pages with a three-opening-line guard. Preserved mixed-script fonts, source units, bookmarks and passage identity. Six algorithm tests and mobile/tablet browser checks passed."
+    },
+    {
+      "id": "KBL-EVT-328",
+      "local_date": "2026-10-02",
+      "summary": "Applied approved Our Story narrative/layout and established artistic marks. Removed two specified paragraphs; preserved433credit IDs and733external destinations. Desktop/mobile, keyboard/deep-link, public build and integrity checks passed. Eight of ten page families approved, plus submission."
+    },
+    {
+      "id": "KBL-EVT-343",
+      "local_date": "2026-10-02",
+      "summary": "Resolved three duplicate writer groups with distinct biography/work evidence; combined contributions for Neelam,Neha and Tulika while preserving all429profile URLs and captured IDs. Identified Ma Yongbo through Chinese poem correspondence and enriched profile; corroborated Padmashree poem only.18/20audit findings closed; Reema/Rima and R.P./Niranjan remain. Build,journal links,grouped reader journeys,1652protected hashes and desktop/360pxchecks passed. No publication."
+    },
+    {
+      "id": "KBL-EVT-351",
+      "local_date": "2026-10-02",
+      "summary": "After direct approval of full public-repository payload, pushed de73a95 and manually deployed the public-only noindex preview to GitHub Pages. CI including private-feedback emulator tests passed. Live search, quiet reading, merged poet contributions, mobile layout and 14 HTTP checks passed. DNS and disabled service integrations preserved. Later local portrait changes remain outside this pinned deployment."
+    }
+  ]
+}

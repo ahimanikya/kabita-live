@@ -15,3 +15,5 @@ Run `python3 tools/sync_handoff.py` to sync the handoff. Check with `python3 too
 Blueprint baseline: 0.1.0-rc.1; OKF: 0.2; register model: 1.0.0. Four personas operate on demand under Ahimanikya’s supervision. Website publication remains separately authorized.
 
 The current project is authorized for a GitHub Pages preview before DNS migration (KBL-DEC-037). The manually dispatched workflow distinguishes a noindex hosted preview from an editorially gated full release. See [hosting status](kb/records/github-pages-preview-deployment.json).
+
+Hosted preview: [Kabita Live](https://ahimanikya.github.io/kabita-live/). The initial deployment passed on 2 October 2026; DNS is unchanged and search indexing remains disabled until release review. The deployment record identifies the exact live commit; subsequent local changes do not automatically publish.

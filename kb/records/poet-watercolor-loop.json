@@ -6,15 +6,16 @@
   "schedule": "Every 20 minutes",
   "setup_status": "ACTIVE",
   "automation_created": true,
-  "resume_batch": "portrait-011",
-  "resume_writer_id": 439,
+  "resume_batch": "portrait-031",
+  "resume_writer_id": 232,
   "counts": {
     "profiles": 427,
     "previously_completed": 4,
-    "newly_verified": 50,
+    "newly_verified": 149,
     "newly_integrated_pending_verification": 0,
-    "pending_photographs": 370,
-    "source_holds": 3
+    "pending_photographs": 270,
+    "source_holds": 3,
+    "likeness_holds": 1
   },
   "independent": false,
   "excluded": [
@@ -22,12 +23,27 @@
     "overlapping workers",
     "paid API fallback",
     "new accounts",
-    "publication",
-    "push/deploy",
     "unrelated content edits",
-    "messaging"
+    "messaging",
+    "intermediate-batch publication/push/deploy"
   ],
-  "completion": "Pause when all actionable portraits are processed and verified; report source/likeness holds without calling them complete.",
+  "completion": "When no actionable portraits remain and all integrated batches are verified, perform authorized final GitHub update and established website deployment, verify live pages/assets, then pause heartbeat and report source/likeness holds separately.",
   "automation_id": "kabita-live-watercolor-portraits",
-  "updated_at": "2026-10-02T12:47:08.038457+00:00"
+  "updated_at": "2026-10-02T19:31:39.332686+00:00",
+  "final_deployment_authorization": {
+    "recorded_at": "2026-10-02T14:43:53.624294+00:00",
+    "user_quote": "Keep doing the loop once all done update git and website",
+    "status": "authorized_after_rollout_verification",
+    "repository": "https://github.com/ahimanikya/kabita-live",
+    "website": "https://ahimanikya.github.io/kabita-live/",
+    "scope": "Final authorized portrait rollout commit/push and established manual public-only GitHub Pages deployment, followed by live verification. No intermediate deployments. Preserve unrelated work, preview/release gates, disabled services and DNS/custom domain.",
+    "holds": "Retain original photo or initials; report missing-photo/likeness holds separately and keep independent likeness review pending."
+  },
+  "likeness_holds": [
+    {
+      "writer_id": 238,
+      "name": "Eileen Moynihan",
+      "reason": "Original too blurry to verify likeness; clearer identified photo needed. Original photo retained."
+    }
+  ]
 }

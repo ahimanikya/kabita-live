@@ -169,11 +169,13 @@
       "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-009",
-      "next_action": "Connect a remote repository and Pages configuration; full editorial content remains required before release.",
+      "next_action": "Hosted preview is live and verified. Future DNS records, cutover and rollback are documented; confirm the domain and export provider settings before a separately approved migration.",
       "blockers": [],
       "evidence": [
         "reference/site-architecture.md",
-        "records/github-pages-verification.json"
+        "records/github-pages-verification.json",
+        "records/github-pages-preview-deployment.json",
+        "records/dns-cutover-plan.json"
       ]
     },
     {
@@ -182,13 +184,15 @@
       "status": "blocked",
       "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
-      "authorization": "KBL-DEC-010",
-      "next_action": "Create Analytics after terms approval; complete live feedback tests and production-host configuration before enabling client integration.",
+      "authorization": "KBL-DEC-038",
+      "next_action": "Await explicit Analytics India terms and Firebase CLI broad-scope consent, then finish service provisioning, synthetic cleanup checks and scoped activation.",
       "blockers": [
-        "Separate GA terms approval pending"
+        "Google Analytics India terms acceptance pending.",
+        "Automatic review requires explicit Firebase CLI account-wide OAuth consent for reliable production-test cleanup."
       ],
       "evidence": [
-        "records/account-setup.json"
+        "records/account-setup.json",
+        "records/service-activation-2026-10-02.json"
       ]
     },
     {
@@ -921,6 +925,21 @@
       "evidence": [
         "records/github-pages-preview-deployment.json"
       ]
+    },
+    {
+      "id": "KBL-DEC-038",
+      "title": "Complete service configuration and document Blueprint and generation skills",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "We also have google analytics, firebase etc. if they have not configured let's do that. It is using Kalinga Blueprint; explain the blueprint too. All the skills we are using for the generation - document that too",
+      "scope": "Configure and verify the existing Kabita Live Firebase and Google Analytics integrations; extend the technical handover with Blueprint and skill documentation. Retain privacy, release, billing and DNS boundaries.",
+      "evidence": [
+        "records/service-activation-2026-10-02.json",
+        "records/technical-handover-2026-10-02.json"
+      ]
     }
   ],
   "requirements": [
@@ -1293,6 +1312,19 @@
       "evidence": [
         "research/author-page-system.md",
         "records/author-page-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-REL-009",
+      "title": "Approved pre-DNS GitHub Pages preview",
+      "status": "applied",
+      "authorization": "KBL-DEC-037",
+      "destination": "https://ahimanikya.github.io/kabita-live/",
+      "refs": [
+        "KBL-WORK-010"
+      ],
+      "evidence": [
+        "records/github-pages-preview-deployment.json"
       ]
     }
   ],

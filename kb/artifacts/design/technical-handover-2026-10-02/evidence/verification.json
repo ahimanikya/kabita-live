@@ -1,0 +1,33 @@
+{
+  "verified_at": "2026-10-02T19:34:49.504388+00:00",
+  "pdf_sha256": "ab886f21e72df2650ced56b11e6a38bf04b405c905d52cb7f938342be5c69972",
+  "pages": 37,
+  "words": 10134,
+  "page_size": "A4 portrait",
+  "diagrams": {
+    "4": "functional reader journey",
+    "5": "architecture and runtime boundaries",
+    "7": "content architecture",
+    "11": "private feedback flow",
+    "16": "AI operating process",
+    "30": "Blueprint record lifecycle"
+  },
+  "visual_review": {
+    "method": "37 pages rendered; changed/new pages 1,2,35,36,37 visually inspected. Pages 3-34 are pixel-identical to previously verified v1.2.",
+    "result": "PASS",
+    "independent": false
+  },
+  "checks": {
+    "page_count": true,
+    "presenter_credit_every_page": true,
+    "token_totals_reproduced": true,
+    "token_arithmetic": true,
+    "no_cumulative_resets": true,
+    "first_counter_has_no_inherited_usage": true,
+    "layout_overflow": [],
+    "external_links": 12,
+    "dns_record_values_match_plan": true
+  },
+  "scope": "Documentation-only DNS appendix plus read-only public DNS snapshot. No DNS, Pages, runtime service, website or deployment change in this request.",
+  "version": "1.3"
+}

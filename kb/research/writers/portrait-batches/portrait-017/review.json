@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-10-02T15:11:20.018067+00:00",
+  "batch": "portrait-017",
+  "writer_ids": [
+    204,
+    250,
+    29,
+    67,
+    56
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 89 artistic portraits, 335 photographs, 3 initials",
+    "Edition integrity check passed; 848 source hashes verified",
+    "1983 baseline files checked; only authorized portrait map changed",
+    "All 91 recorded portrait source/master hashes match",
+    "Representative desktop 1280px and mobile 360px profile crops visually inspected without horizontal overflow",
+    "All five circular directory crops visually inspected through directory search"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Writer 250 retains monochrome person and hand pose; writer 56 retains original strong violet lighting rather than guessed complexion. Fine detail remains interpretive from soft sources.",
+    "Writer 29 initial candidate added uncertain nose ornament and hairline mark; built-in corrective edit removed both before integration. Initial candidate and exact prompt history preserved.",
+    "Counts refer to original 427 portrait records rather than deduplicated directory identities",
+    "No intermediate publication; final GitHub update and website deployment authorized only after verified rollout."
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile.png",
+    "directory-204.png",
+    "directory-250.png",
+    "directory-deba.png",
+    "29-first-candidate.png",
+    "29-prompt-history.txt",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log"
+  ]
+}

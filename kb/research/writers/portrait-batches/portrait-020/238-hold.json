@@ -1,0 +1,29 @@
+{
+  "writer_id": 238,
+  "source": {
+    "writer_id": 238,
+    "name": "Eileen Moynihan",
+    "source_page": "https://kabitalive.com/contri-view.php?id=238",
+    "source_image": "https://kabitalive.com/poetry_panel/photo/Pic_28052023064730180.jpg",
+    "file": "artifacts/artwork/portrait-sources/writers/238-journal-original.webp",
+    "content_type": "image/webp",
+    "rights": "Journal-supplied image; publication rights not independently verified"
+  },
+  "source_sha256": "249e09f148a0b27a9c5b6e821fb01af30484a616104c53c571fcc6a81fda948f",
+  "style_reference": "projects/site/assets/editors/pradeep-biswal-artistic-v1.webp",
+  "master": "artifacts/artwork/writer-portraits/238-earth-voice-v1.png",
+  "master_sha256": "0b0eb0b0a3366f1ba9aed0c619be4848664e546f05750fac34d22bdbf161a127",
+  "prompt": "Use case: identity-preserve. Apply only a restrained watercolor treatment to image 1 Eileen Moynihan writer 238. Image 1 sole identity reference; image 2 medium only. IMPORTANT source is very blurry: keep face equally soft and unresolved, do not sharpen or invent eye shape/color, wrinkles, teeth or small facial details. Preserve pale pink complexion, straight dark chin-length bob with side part, closed slight smile, hand supporting viewer-left cheek, greenish-grey collared blouse and dark short necklace, original seated bust and head pose. No beautification, age changes or face redesign. Delicate diffuse watercolor on warm ivory cotton paper with restrained teal ochre laterite edge washes replacing plain background. Keep accurate silhouette and broad color shapes; no new objects, text or scenery.",
+  "tool": "built-in image_gen",
+  "review": "Candidate and source visually compared. Bob, hand-supported pose and clothing match broadly, but original face is too blurred to establish facial likeness confidently. Original journal photograph restored; candidate master and derivatives retained for review only. Clearer identified photograph needed.",
+  "independent": false,
+  "status": "likeness_hold",
+  "previous_asset": {
+    "src": "assets/writers/238-journal.webp",
+    "kind": "journal_photo",
+    "credit": "Kabita Live contributor portrait"
+  },
+  "publication_rights": "Journal-supplied image; publication rights not independently verified",
+  "independent_likeness_review": "pending",
+  "verification_batch": "portrait-020"
+}

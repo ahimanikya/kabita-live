@@ -13,7 +13,7 @@
     "created": true,
     "remote_connected": true,
     "source_pushed": true,
-    "pages": "Configured: build_type=workflow; no deployment",
+    "pages": "Manual Actions deployment succeeded; hosted preview live",
     "pages_url": "https://ahimanikya.github.io/kabita-live/",
     "custom_domain": null,
     "archives_lfs_uploaded": true,
@@ -46,8 +46,12 @@
     "pending": "Separate Analytics terms approval"
   },
   "publication": {
-    "deployed": false,
-    "content_release_gate": "Incomplete content; release blocked"
+    "deployed": true,
+    "content_release_gate": "Retained for fully indexable release; current noindex preview is explicitly authorized.",
+    "mode": "noindex_preview",
+    "url": "https://ahimanikya.github.io/kabita-live/",
+    "commit": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+    "dns_changed": false
   },
   "verification": "Git push confirmed main on origin; public repository and workflow Pages verified by GitHub API. Firebase project, saved Anonymous provider, Mumbai location and published rules verified in console. No live feedback/analytics test or website deployment.",
   "evidence": [
@@ -55,5 +59,6 @@
     "firestore-location-blocker.txt",
     "firestore-created.txt",
     "firestore-rules-published.txt"
-  ]
+  ],
+  "latest_hosting_verification": "records/github-pages-preview-deployment.json"
 }

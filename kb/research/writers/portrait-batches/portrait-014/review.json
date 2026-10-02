@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-02T14:02:29.872166+00:00",
+  "batch": "portrait-014",
+  "writer_ids": [
+    179,
+    24,
+    346,
+    370,
+    447
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 74 artistic portraits, 350 photographs, 3 initials",
+    "Edition integrity check passed; 848 source hashes verified",
+    "1938 baseline files checked; only authorized portrait map changed",
+    "All 76 recorded portrait source/master hashes match",
+    "Representative desktop 1280px and mobile 360px profile crops visually inspected without horizontal overflow",
+    "All five circular directory crops visually inspected through directory search"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Source softness, lens glare and tiny jewelry/textile details limit fine-detail confidence; individual comparisons recorded in portrait-edits.json. Writer 24 retains the mask worn below her chin; writer 447 retains tinted glasses without inferred eyes.",
+    "Counts refer to original 427 portrait records rather than deduplicated directory identities",
+    "Separately authorized deployment recorded as KBL-EVT-351 was preserved. This portrait batch was integrated locally only; no publication performed by this work."
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile.png",
+    "directory-bina.png",
+    "directory-179.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log"
+  ]
+}

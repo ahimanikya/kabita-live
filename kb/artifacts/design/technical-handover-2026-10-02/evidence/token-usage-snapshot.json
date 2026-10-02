@@ -1,0 +1,1276 @@
+{
+  "cutoff_utc": "2026-10-02T18:25:00.000Z",
+  "scope": "Two identified Kabita Live chats and descendants identified by parent-thread metadata; local usage logs only. No raw conversation text copied.",
+  "roots": {
+    "01a0f159-e48e-7071-a26f-300966922b0c": "Social pages, editorial content and handover",
+    "01a0ee81-0265-7673-a63c-04f6bf884d2d": "Magazine redesign and implementation"
+  },
+  "summary": {
+    "main": {
+      "sessions": 2,
+      "usage": {
+        "input_tokens": 1137103333,
+        "cached_input_tokens": 1106871552,
+        "output_tokens": 3593231,
+        "reasoning_output_tokens": 427350,
+        "total_tokens": 1140696564
+      },
+      "resets": 0
+    },
+    "automatic_review": {
+      "sessions": 66,
+      "usage": {
+        "input_tokens": 49281648,
+        "cached_input_tokens": 42138624,
+        "output_tokens": 55714,
+        "reasoning_output_tokens": 23342,
+        "total_tokens": 49337362
+      },
+      "resets": 0
+    },
+    "other": {
+      "sessions": 0,
+      "usage": {},
+      "resets": 0
+    }
+  },
+  "sessions": [
+    {
+      "session_id": "01a0eede-967e-71e2-8b72-8eba951e64b0",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 7,
+      "first_event": "2026-09-29T20:32:47.323Z",
+      "last_event": "2026-09-29T20:51:21.226Z",
+      "usage": {
+        "input_tokens": 567867,
+        "cached_input_tokens": 447232,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 774,
+        "reasoning_output_tokens": 341,
+        "total_tokens": 568641
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0eff6-df79-7811-acf4-9d9d49fa4573",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 33,
+      "first_event": "2026-09-30T01:38:56.842Z",
+      "last_event": "2026-09-30T02:02:18.366Z",
+      "usage": {
+        "input_tokens": 4061634,
+        "cached_input_tokens": 3830528,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3442,
+        "reasoning_output_tokens": 1512,
+        "total_tokens": 4065076
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0eebd-74ad-7273-a8a4-bfef0f5c43b7",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 12,
+      "first_event": "2026-09-29T19:56:34.443Z",
+      "last_event": "2026-09-29T20:27:18.214Z",
+      "usage": {
+        "input_tokens": 866445,
+        "cached_input_tokens": 738816,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1218,
+        "reasoning_output_tokens": 447,
+        "total_tokens": 867663
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "main",
+      "usage_events": 6845,
+      "first_event": "2026-09-29T18:50:38.898Z",
+      "last_event": "2026-10-02T18:24:45.589Z",
+      "usage": {
+        "input_tokens": 1049792817,
+        "cached_input_tokens": 1022459264,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3382256,
+        "reasoning_output_tokens": 385813,
+        "total_tokens": 1053175073
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0ee98-7630-7762-9dd9-f3c37579b603",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 7,
+      "first_event": "2026-09-29T19:16:09.147Z",
+      "last_event": "2026-09-29T19:35:37.430Z",
+      "usage": {
+        "input_tokens": 458253,
+        "cached_input_tokens": 370432,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 587,
+        "reasoning_output_tokens": 195,
+        "total_tokens": 458840
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0eef4-e7b6-7341-a6e9-281049261fbb",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 7,
+      "first_event": "2026-09-29T20:57:07.272Z",
+      "last_event": "2026-09-29T21:20:28.145Z",
+      "usage": {
+        "input_tokens": 483122,
+        "cached_input_tokens": 387328,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 530,
+        "reasoning_output_tokens": 176,
+        "total_tokens": 483652
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0ef1b-b668-77b2-ac04-2abc96e93fc7",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 1,
+      "first_event": "2026-09-29T21:39:32.050Z",
+      "last_event": "2026-09-29T21:39:32.050Z",
+      "usage": {
+        "input_tokens": 35381,
+        "cached_input_tokens": 4864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 169,
+        "reasoning_output_tokens": 116,
+        "total_tokens": 35550
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0efbf-b2a7-7583-b63c-fa922ad39810",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 2,
+      "first_event": "2026-09-30T00:38:37.492Z",
+      "last_event": "2026-09-30T00:38:59.817Z",
+      "usage": {
+        "input_tokens": 55487,
+        "cached_input_tokens": 30208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 213,
+        "reasoning_output_tokens": 82,
+        "total_tokens": 55700
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f0c3-7651-76b0-8698-20ee953bde32",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 13,
+      "first_event": "2026-09-30T05:22:21.855Z",
+      "last_event": "2026-09-30T06:21:39.542Z",
+      "usage": {
+        "input_tokens": 926883,
+        "cached_input_tokens": 795008,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1234,
+        "reasoning_output_tokens": 478,
+        "total_tokens": 928117
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0efc2-b921-7a03-9258-c20206aaa41e",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 10,
+      "first_event": "2026-09-30T00:41:55.767Z",
+      "last_event": "2026-09-30T00:55:04.808Z",
+      "usage": {
+        "input_tokens": 497168,
+        "cached_input_tokens": 417280,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1160,
+        "reasoning_output_tokens": 505,
+        "total_tokens": 498328
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f0a9-fa18-73a1-a77d-40f7f314338e",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 6,
+      "first_event": "2026-09-30T04:54:31.306Z",
+      "last_event": "2026-09-30T05:14:41.769Z",
+      "usage": {
+        "input_tokens": 390648,
+        "cached_input_tokens": 297216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 699,
+        "reasoning_output_tokens": 367,
+        "total_tokens": 391347
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0ee81-d5d0-76d1-a49a-a21b74e06a0e",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 7,
+      "first_event": "2026-09-29T18:51:26.478Z",
+      "last_event": "2026-09-29T19:10:48.244Z",
+      "usage": {
+        "input_tokens": 378803,
+        "cached_input_tokens": 307456,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 648,
+        "reasoning_output_tokens": 250,
+        "total_tokens": 379451
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f00e-a8e4-7e71-8e4d-c2499c10264d",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 29,
+      "first_event": "2026-09-30T02:04:53.028Z",
+      "last_event": "2026-09-30T02:39:19.618Z",
+      "usage": {
+        "input_tokens": 2319932,
+        "cached_input_tokens": 2167552,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3117,
+        "reasoning_output_tokens": 1411,
+        "total_tokens": 2323049
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0efbd-ef8f-7351-8f11-d4ad6c33c505",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 1,
+      "first_event": "2026-09-30T00:36:42.805Z",
+      "last_event": "2026-09-30T00:36:42.805Z",
+      "usage": {
+        "input_tokens": 23953,
+        "cached_input_tokens": 4864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 115,
+        "reasoning_output_tokens": 59,
+        "total_tokens": 24068
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0ef39-8e2c-7180-86c1-3d3c027f3b0b",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 8,
+      "first_event": "2026-09-29T22:12:11.975Z",
+      "last_event": "2026-09-29T22:31:52.100Z",
+      "usage": {
+        "input_tokens": 395045,
+        "cached_input_tokens": 321536,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 956,
+        "reasoning_output_tokens": 424,
+        "total_tokens": 396001
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0ef5a-f73a-7431-b995-86827cda0003",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 4,
+      "first_event": "2026-09-29T22:48:36.042Z",
+      "last_event": "2026-09-29T23:03:55.927Z",
+      "usage": {
+        "input_tokens": 230344,
+        "cached_input_tokens": 154624,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 327,
+        "reasoning_output_tokens": 110,
+        "total_tokens": 230671
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f04e-cb17-7d60-8b2b-95cf62f7ffb3",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 4,
+      "first_event": "2026-09-30T03:14:59.987Z",
+      "last_event": "2026-09-30T03:28:38.872Z",
+      "usage": {
+        "input_tokens": 226026,
+        "cached_input_tokens": 157696,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 578,
+        "reasoning_output_tokens": 308,
+        "total_tokens": 226604
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0efa6-dff1-72d2-96a0-6836a2c7158c",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 9,
+      "first_event": "2026-09-30T00:11:31.687Z",
+      "last_event": "2026-09-30T00:35:18.004Z",
+      "usage": {
+        "input_tokens": 664813,
+        "cached_input_tokens": 548608,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 999,
+        "reasoning_output_tokens": 411,
+        "total_tokens": 665812
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f06b-9bb4-7d41-9a97-e97f4f3d9857",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 5,
+      "first_event": "2026-09-30T03:46:27.060Z",
+      "last_event": "2026-09-30T04:49:00.496Z",
+      "usage": {
+        "input_tokens": 303527,
+        "cached_input_tokens": 227072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 736,
+        "reasoning_output_tokens": 467,
+        "total_tokens": 304263
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0ef7c-5424-7473-907d-f98384bc24da",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 16,
+      "first_event": "2026-09-29T23:25:01.255Z",
+      "last_event": "2026-09-30T00:02:03.230Z",
+      "usage": {
+        "input_tokens": 1262728,
+        "cached_input_tokens": 1129088,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1372,
+        "reasoning_output_tokens": 371,
+        "total_tokens": 1264100
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0efd5-ef89-7e83-8108-24d4ca40ae40",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 20,
+      "first_event": "2026-09-30T01:03:00.113Z",
+      "last_event": "2026-09-30T01:31:49.117Z",
+      "usage": {
+        "input_tokens": 1535625,
+        "cached_input_tokens": 1417216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2037,
+        "reasoning_output_tokens": 764,
+        "total_tokens": 1537662
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f161-45d0-78e1-ab48-06c5fea9f9d4",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 16,
+      "first_event": "2026-09-30T08:14:45.746Z",
+      "last_event": "2026-09-30T09:27:44.565Z",
+      "usage": {
+        "input_tokens": 1457440,
+        "cached_input_tokens": 1315456,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1418,
+        "reasoning_output_tokens": 533,
+        "total_tokens": 1458858
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f15b-7575-70d0-8338-f21df93e8740",
+      "root_id": "01a0f159-e48e-7071-a26f-300966922b0c",
+      "kind": "automatic_review",
+      "usage_events": 39,
+      "first_event": "2026-09-30T08:08:22.911Z",
+      "last_event": "2026-09-30T08:38:20.480Z",
+      "usage": {
+        "input_tokens": 4684862,
+        "cached_input_tokens": 4391168,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4035,
+        "reasoning_output_tokens": 1918,
+        "total_tokens": 4688897
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f181-c3ec-7fe0-9ce0-f4bc7d5cd1ba",
+      "root_id": "01a0f159-e48e-7071-a26f-300966922b0c",
+      "kind": "automatic_review",
+      "usage_events": 10,
+      "first_event": "2026-09-30T08:50:14.888Z",
+      "last_event": "2026-10-01T06:18:47.805Z",
+      "usage": {
+        "input_tokens": 607473,
+        "cached_input_tokens": 444928,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 920,
+        "reasoning_output_tokens": 334,
+        "total_tokens": 608393
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f600-afae-7501-9e08-4ddbfe0ae87e",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 14,
+      "first_event": "2026-10-01T05:47:20.350Z",
+      "last_event": "2026-10-01T06:56:44.896Z",
+      "usage": {
+        "input_tokens": 1365839,
+        "cached_input_tokens": 1209088,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1380,
+        "reasoning_output_tokens": 542,
+        "total_tokens": 1367219
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f255-3470-7a30-b399-487941acb436",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 46,
+      "first_event": "2026-09-30T12:41:10.804Z",
+      "last_event": "2026-09-30T13:49:32.359Z",
+      "usage": {
+        "input_tokens": 6298024,
+        "cached_input_tokens": 6046976,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4270,
+        "reasoning_output_tokens": 1248,
+        "total_tokens": 6302294
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f2ee-daab-7621-9013-28971d5ffa8c",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 4,
+      "first_event": "2026-09-30T15:29:00.444Z",
+      "last_event": "2026-09-30T16:07:59.375Z",
+      "usage": {
+        "input_tokens": 225752,
+        "cached_input_tokens": 164864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 384,
+        "reasoning_output_tokens": 151,
+        "total_tokens": 226136
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f137-8565-7d22-8025-095bb4ecc333",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 7,
+      "first_event": "2026-09-30T07:29:10.015Z",
+      "last_event": "2026-09-30T08:03:46.291Z",
+      "usage": {
+        "input_tokens": 508030,
+        "cached_input_tokens": 411904,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 917,
+        "reasoning_output_tokens": 475,
+        "total_tokens": 508947
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f1a9-77e2-7501-a490-055439844314",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 7,
+      "first_event": "2026-09-30T09:33:37.850Z",
+      "last_event": "2026-09-30T10:06:16.904Z",
+      "usage": {
+        "input_tokens": 415150,
+        "cached_input_tokens": 330496,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 634,
+        "reasoning_output_tokens": 189,
+        "total_tokens": 415784
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f581-e9a4-7cd3-9e16-bcc240d65d39",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 2,
+      "first_event": "2026-10-01T03:28:51.366Z",
+      "last_event": "2026-10-01T03:30:55.729Z",
+      "usage": {
+        "input_tokens": 126894,
+        "cached_input_tokens": 64000,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 230,
+        "reasoning_output_tokens": 114,
+        "total_tokens": 127124
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f159-e48e-7071-a26f-300966922b0c",
+      "root_id": "01a0f159-e48e-7071-a26f-300966922b0c",
+      "kind": "main",
+      "usage_events": 617,
+      "first_event": "2026-09-30T08:08:08.554Z",
+      "last_event": "2026-10-02T18:24:08.101Z",
+      "usage": {
+        "input_tokens": 87310516,
+        "cached_input_tokens": 84412288,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 210975,
+        "reasoning_output_tokens": 41537,
+        "total_tokens": 87521491
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f296-151b-7230-bab9-96ec3eb987fc",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 18,
+      "first_event": "2026-09-30T13:52:01.928Z",
+      "last_event": "2026-09-30T15:03:14.119Z",
+      "usage": {
+        "input_tokens": 1576245,
+        "cached_input_tokens": 1422720,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1455,
+        "reasoning_output_tokens": 472,
+        "total_tokens": 1577700
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f58a-23f5-7452-97c5-69774168b91c",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 3,
+      "first_event": "2026-10-01T03:37:50.697Z",
+      "last_event": "2026-10-01T03:55:13.958Z",
+      "usage": {
+        "input_tokens": 243025,
+        "cached_input_tokens": 147712,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 326,
+        "reasoning_output_tokens": 139,
+        "total_tokens": 243351
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f1d4-1176-7973-acb2-18110089587d",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 6,
+      "first_event": "2026-09-30T10:20:07.186Z",
+      "last_event": "2026-09-30T12:31:36.700Z",
+      "usage": {
+        "input_tokens": 342914,
+        "cached_input_tokens": 223744,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 698,
+        "reasoning_output_tokens": 314,
+        "total_tokens": 343612
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f586-d942-7bf2-8a93-c63eabf7851d",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 1,
+      "first_event": "2026-10-01T03:34:16.535Z",
+      "last_event": "2026-10-01T03:34:16.535Z",
+      "usage": {
+        "input_tokens": 62282,
+        "cached_input_tokens": 4864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 178,
+        "reasoning_output_tokens": 160,
+        "total_tokens": 62460
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fd82-fe42-7363-83fc-8fee67990758",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 4,
+      "first_event": "2026-10-02T16:47:07.749Z",
+      "last_event": "2026-10-02T17:47:38.198Z",
+      "usage": {
+        "input_tokens": 329336,
+        "cached_input_tokens": 234496,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 303,
+        "reasoning_output_tokens": 80,
+        "total_tokens": 329639
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fdcc-3563-7c90-8e87-412a0d629298",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 3,
+      "first_event": "2026-10-02T18:06:58.515Z",
+      "last_event": "2026-10-02T18:22:51.754Z",
+      "usage": {
+        "input_tokens": 232283,
+        "cached_input_tokens": 153856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 260,
+        "reasoning_output_tokens": 97,
+        "total_tokens": 232543
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fc26-5d5c-7c80-8f77-3cb4afffdb6e",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 3,
+      "first_event": "2026-10-02T10:26:14.925Z",
+      "last_event": "2026-10-02T10:36:07.740Z",
+      "usage": {
+        "input_tokens": 261644,
+        "cached_input_tokens": 160000,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 480,
+        "reasoning_output_tokens": 323,
+        "total_tokens": 262124
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fcb0-e5d6-7613-b505-d2ba0aaa3564",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 1,
+      "first_event": "2026-10-02T12:57:33.316Z",
+      "last_event": "2026-10-02T12:57:33.316Z",
+      "usage": {
+        "input_tokens": 61325,
+        "cached_input_tokens": 4864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 157,
+        "reasoning_output_tokens": 107,
+        "total_tokens": 61482
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fca4-e9d6-7c91-9175-71b9e9e8cbad",
+      "root_id": "01a0f159-e48e-7071-a26f-300966922b0c",
+      "kind": "automatic_review",
+      "usage_events": 16,
+      "first_event": "2026-10-02T12:44:28.250Z",
+      "last_event": "2026-10-02T14:32:41.541Z",
+      "usage": {
+        "input_tokens": 914845,
+        "cached_input_tokens": 802816,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2099,
+        "reasoning_output_tokens": 1104,
+        "total_tokens": 916944
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fc3f-b5ad-7b20-8201-fc86fc7253a3",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 5,
+      "first_event": "2026-10-02T10:53:53.937Z",
+      "last_event": "2026-10-02T11:27:34.325Z",
+      "usage": {
+        "input_tokens": 451725,
+        "cached_input_tokens": 337664,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 483,
+        "reasoning_output_tokens": 215,
+        "total_tokens": 452208
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fcbe-112d-7ed2-881d-bc188c25a058",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 2,
+      "first_event": "2026-10-02T13:11:55.715Z",
+      "last_event": "2026-10-02T13:33:23.206Z",
+      "usage": {
+        "input_tokens": 144116,
+        "cached_input_tokens": 73216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 192,
+        "reasoning_output_tokens": 82,
+        "total_tokens": 144308
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fc09-b353-7e50-b3c6-dfcc3a6435d9",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 3,
+      "first_event": "2026-10-02T09:54:55.530Z",
+      "last_event": "2026-10-02T10:09:51.335Z",
+      "usage": {
+        "input_tokens": 228240,
+        "cached_input_tokens": 147712,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 298,
+        "reasoning_output_tokens": 124,
+        "total_tokens": 228538
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fca1-8e88-74d0-8908-ee63b1f31f30",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 1,
+      "first_event": "2026-10-02T12:40:46.139Z",
+      "last_event": "2026-10-02T12:40:46.139Z",
+      "usage": {
+        "input_tokens": 68354,
+        "cached_input_tokens": 4864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 120,
+        "reasoning_output_tokens": 67,
+        "total_tokens": 68474
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fd39-7745-7bc3-94d4-d931b2b134f6",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 5,
+      "first_event": "2026-10-02T15:26:46.759Z",
+      "last_event": "2026-10-02T16:27:00.350Z",
+      "usage": {
+        "input_tokens": 463810,
+        "cached_input_tokens": 349952,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 404,
+        "reasoning_output_tokens": 166,
+        "total_tokens": 464214
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fc76-c76b-7212-9052-36d592f851c8",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 3,
+      "first_event": "2026-10-02T11:54:03.854Z",
+      "last_event": "2026-10-02T12:25:31.755Z",
+      "usage": {
+        "input_tokens": 234038,
+        "cached_input_tokens": 145664,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 344,
+        "reasoning_output_tokens": 186,
+        "total_tokens": 234382
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fb97-0302-7f71-a8cd-63bfb0f47fe5",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 8,
+      "first_event": "2026-10-02T07:49:38.908Z",
+      "last_event": "2026-10-02T09:20:17.351Z",
+      "usage": {
+        "input_tokens": 831058,
+        "cached_input_tokens": 655616,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 834,
+        "reasoning_output_tokens": 377,
+        "total_tokens": 831892
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fb6d-50b1-7df2-90f5-f6cceb150ea1",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 5,
+      "first_event": "2026-10-02T07:04:08.537Z",
+      "last_event": "2026-10-02T07:37:17.216Z",
+      "usage": {
+        "input_tokens": 453237,
+        "cached_input_tokens": 337920,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 463,
+        "reasoning_output_tokens": 207,
+        "total_tokens": 453700
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fc1a-7619-7bd0-8af4-eab6e6afc601",
+      "root_id": "01a0f159-e48e-7071-a26f-300966922b0c",
+      "kind": "automatic_review",
+      "usage_events": 5,
+      "first_event": "2026-10-02T10:13:14.028Z",
+      "last_event": "2026-10-02T11:41:52.257Z",
+      "usage": {
+        "input_tokens": 201976,
+        "cached_input_tokens": 133888,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 500,
+        "reasoning_output_tokens": 193,
+        "total_tokens": 202476
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fc79-57f2-7fa0-be04-ca165c2c0b3d",
+      "root_id": "01a0f159-e48e-7071-a26f-300966922b0c",
+      "kind": "automatic_review",
+      "usage_events": 3,
+      "first_event": "2026-10-02T11:56:52.085Z",
+      "last_event": "2026-10-02T12:11:31.285Z",
+      "usage": {
+        "input_tokens": 126797,
+        "cached_input_tokens": 76032,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 375,
+        "reasoning_output_tokens": 213,
+        "total_tokens": 127172
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fce9-2a65-79b2-92f2-2fb5614f1649",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 7,
+      "first_event": "2026-10-02T13:58:58.480Z",
+      "last_event": "2026-10-02T15:01:34.518Z",
+      "usage": {
+        "input_tokens": 648408,
+        "cached_input_tokens": 530688,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 767,
+        "reasoning_output_tokens": 375,
+        "total_tokens": 649175
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fa54-edf8-7953-973f-9efc15eb0e36",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 11,
+      "first_event": "2026-10-02T01:57:50.157Z",
+      "last_event": "2026-10-02T02:46:00.510Z",
+      "usage": {
+        "input_tokens": 1195168,
+        "cached_input_tokens": 1048832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 888,
+        "reasoning_output_tokens": 265,
+        "total_tokens": 1196056
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f646-fc5f-76f1-bda5-27693f57ae57",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 7,
+      "first_event": "2026-10-01T07:04:07.435Z",
+      "last_event": "2026-10-01T07:51:33.517Z",
+      "usage": {
+        "input_tokens": 676158,
+        "cached_input_tokens": 549248,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 637,
+        "reasoning_output_tokens": 266,
+        "total_tokens": 676795
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f6a5-269a-7b20-bfbc-4385650c7f16",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 9,
+      "first_event": "2026-10-01T08:46:59.822Z",
+      "last_event": "2026-10-01T09:24:25.017Z",
+      "usage": {
+        "input_tokens": 1011124,
+        "cached_input_tokens": 860800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 801,
+        "reasoning_output_tokens": 262,
+        "total_tokens": 1011925
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fae2-7d40-7483-b328-fe22aa2f4112",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 0
+    },
+    {
+      "session_id": "01a0f788-d596-7930-923d-21db8d5b091e",
+      "root_id": "01a0f159-e48e-7071-a26f-300966922b0c",
+      "kind": "automatic_review",
+      "usage_events": 1,
+      "first_event": "2026-10-01T12:55:40.534Z",
+      "last_event": "2026-10-01T12:55:40.534Z",
+      "usage": {
+        "input_tokens": 32714,
+        "cached_input_tokens": 4864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 146,
+        "reasoning_output_tokens": 81,
+        "total_tokens": 32860
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f9bd-d152-7e80-b540-0a79abf69149",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 1,
+      "first_event": "2026-10-01T23:12:47.964Z",
+      "last_event": "2026-10-01T23:12:47.964Z",
+      "usage": {
+        "input_tokens": 74322,
+        "cached_input_tokens": 4864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 147,
+        "reasoning_output_tokens": 96,
+        "total_tokens": 74469
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f767-2956-7241-bf17-5a0eb1beefa8",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 3,
+      "first_event": "2026-10-01T12:18:54.401Z",
+      "last_event": "2026-10-01T12:36:00.755Z",
+      "usage": {
+        "input_tokens": 237916,
+        "cached_input_tokens": 154880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 543,
+        "reasoning_output_tokens": 386,
+        "total_tokens": 238459
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f6ca-0b05-79a2-9d9f-0aaceea63e47",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 12,
+      "first_event": "2026-10-01T09:27:16.691Z",
+      "last_event": "2026-10-01T10:01:47.395Z",
+      "usage": {
+        "input_tokens": 1287832,
+        "cached_input_tokens": 1127680,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1149,
+        "reasoning_output_tokens": 416,
+        "total_tokens": 1288981
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fb20-6ea4-7ea1-8dc5-67434839b66a",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 8,
+      "first_event": "2026-10-02T05:40:07.219Z",
+      "last_event": "2026-10-02T06:54:05.333Z",
+      "usage": {
+        "input_tokens": 796513,
+        "cached_input_tokens": 560384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 799,
+        "reasoning_output_tokens": 343,
+        "total_tokens": 797312
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fae4-4c71-71b2-9ace-738048e88691",
+      "root_id": "01a0f159-e48e-7071-a26f-300966922b0c",
+      "kind": "automatic_review",
+      "usage_events": 0
+    },
+    {
+      "session_id": "01a0f774-ad8b-7462-8aaa-ab724708b54b",
+      "root_id": "01a0f159-e48e-7071-a26f-300966922b0c",
+      "kind": "automatic_review",
+      "usage_events": 1,
+      "first_event": "2026-10-01T12:33:39.419Z",
+      "last_event": "2026-10-01T12:33:39.419Z",
+      "usage": {
+        "input_tokens": 32114,
+        "cached_input_tokens": 4864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 154,
+        "reasoning_output_tokens": 95,
+        "total_tokens": 32268
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fae5-85ae-7232-9be9-dcba362ceff2",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 5,
+      "first_event": "2026-10-02T04:35:47.063Z",
+      "last_event": "2026-10-02T04:58:11.149Z",
+      "usage": {
+        "input_tokens": 402915,
+        "cached_input_tokens": 300800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 385,
+        "reasoning_output_tokens": 122,
+        "total_tokens": 403300
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fafd-2918-7951-9b24-7e1ecb9291d9",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 6,
+      "first_event": "2026-10-02T05:01:38.240Z",
+      "last_event": "2026-10-02T05:32:36.290Z",
+      "usage": {
+        "input_tokens": 568774,
+        "cached_input_tokens": 444928,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 591,
+        "reasoning_output_tokens": 239,
+        "total_tokens": 569365
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f6f1-5a67-76e1-885e-cb480fcf8bf9",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 12,
+      "first_event": "2026-10-01T10:10:13.173Z",
+      "last_event": "2026-10-01T11:18:55.128Z",
+      "usage": {
+        "input_tokens": 1394090,
+        "cached_input_tokens": 1230464,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1142,
+        "reasoning_output_tokens": 407,
+        "total_tokens": 1395232
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f781-85e7-7b52-be1a-00aaadae9738",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 3,
+      "first_event": "2026-10-01T12:47:45.228Z",
+      "last_event": "2026-10-01T12:58:41.840Z",
+      "usage": {
+        "input_tokens": 230202,
+        "cached_input_tokens": 150784,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 537,
+        "reasoning_output_tokens": 307,
+        "total_tokens": 230739
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f9b0-9971-7960-af29-0c20de9e7199",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 2,
+      "first_event": "2026-10-01T22:58:19.550Z",
+      "last_event": "2026-10-01T23:00:23.809Z",
+      "usage": {
+        "input_tokens": 161649,
+        "cached_input_tokens": 78336,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 210,
+        "reasoning_output_tokens": 108,
+        "total_tokens": 161859
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f677-6695-75f1-a7f8-31350659c7c7",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 7,
+      "first_event": "2026-10-01T07:57:00.176Z",
+      "last_event": "2026-10-01T08:38:44.971Z",
+      "usage": {
+        "input_tokens": 639825,
+        "cached_input_tokens": 510208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 594,
+        "reasoning_output_tokens": 205,
+        "total_tokens": 640419
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0fa8a-63c0-78d3-bf23-80ea02f26200",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 1,
+      "first_event": "2026-10-02T02:56:13.920Z",
+      "last_event": "2026-10-02T02:56:13.920Z",
+      "usage": {
+        "input_tokens": 65131,
+        "cached_input_tokens": 4864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 118,
+        "reasoning_output_tokens": 66,
+        "total_tokens": 65249
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    },
+    {
+      "session_id": "01a0f9d0-c4ca-7570-a043-b87b75616682",
+      "root_id": "01a0ee81-0265-7673-a63c-04f6bf884d2d",
+      "kind": "automatic_review",
+      "usage_events": 11,
+      "first_event": "2026-10-01T23:33:29.446Z",
+      "last_event": "2026-10-02T01:48:25.313Z",
+      "usage": {
+        "input_tokens": 1226395,
+        "cached_input_tokens": 1020032,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1038,
+        "reasoning_output_tokens": 379,
+        "total_tokens": 1227433
+      },
+      "resets": 0,
+      "first_equals_last_usage": true
+    }
+  ],
+  "missing_usage_sessions": 2
+}

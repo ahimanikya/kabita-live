@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-02T13:15:55.903538+00:00",
+  "batch": "portrait-012",
+  "writer_ids": [
+    133,
+    386,
+    429,
+    390,
+    47
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 64 artistic portraits, 360 photographs, 3 initials",
+    "Edition integrity check passed",
+    "1908 baseline files checked; only authorized portrait map changed",
+    "All 66 recorded portrait source/master hashes match",
+    "Representative desktop 1280px and mobile 360px profile visually inspected without horizontal overflow",
+    "All five 64px circular directory crops loaded and visually inspected"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Writer 133 has a very blurred source with eyes concealed by sunglasses; 429 is a softened close crop. Their uncertain fine details remain explicit. Writer 390 retains book title and reading pose, but small cover print is illustrative, not a documentary transcription. Individual comparisons are recorded in portrait-edits.json.",
+    "Counts describe original 427 portrait records, not deduplicated directory identities",
+    "Local integration only; no publication performed by this portrait work"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile.png",
+    "directory.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log"
+  ]
+}

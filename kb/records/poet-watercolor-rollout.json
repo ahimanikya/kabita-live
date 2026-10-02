@@ -1,38 +1,52 @@
 {
-  "recorded_at": "2026-10-02T12:47:08.038457+00:00",
-  "batch": "portrait-010",
+  "recorded_at": "2026-10-02T19:31:39.332686+00:00",
+  "batch": "portrait-030",
   "writer_ids": [
-    275,
-    73,
-    409,
-    405,
-    124
+    228,
+    471,
+    117,
+    442,
+    387
   ],
   "verification": "passed",
   "checks": [
     "Node 24 public Astro build passed",
-    "Author check passed: 54 artistic portraits, 370 photographs, 3 initials",
-    "Edition integrity check passed",
-    "1878 baseline files checked; only the authorized portrait map changed",
-    "All 56 recorded portrait source/master hashes match",
-    "Representative desktop 1280px and mobile 360px profile visually inspected without horizontal overflow",
-    "All five 64px circular directory crops loaded and visually inspected"
+    "Author check passed: 153 artistic portraits, 271 photographs including 1 earlier likeness hold, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2178 baseline files checked; only authorized portrait map changed",
+    "All 156 portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px profile crops inspected; mobile scroll width 360px",
+    "All five new circular directory thumbnails visually inspected"
   ],
   "independent": false,
   "limitations": [
     "Independent author/editor likeness review pending",
-    "Sources are small or soft. Writer 405 has a particularly hazy photograph; fine eye, hair and skin detail remains interpretive. Writer 73 retains the close crop and glasses reflections. Individual source comparisons are saved in portrait-edits.json.",
-    "Counts describe the original 427 portrait records, not deduplicated directory identities",
-    "Local integration only; no publication"
+    "Writer 442 checkerboard background corrected to opaque ivory; initial candidate and both prompts preserved",
+    "Fine skin, hair, textile and jewelry detail remain interpretive from source photographs",
+    "Writer 387 paper wash warms muted source tones; no material facial drift observed",
+    "Earlier likeness hold 238 remains unresolved; original retained",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "No intermediate publication; final deployment only after verified rollout"
   ],
   "evidence": [
     "desktop.png",
-    "mobile.png",
-    "directory.png",
+    "mobile-360.png",
     "author-check.json",
     "edition-check.json",
     "hash-check.json",
-    "build.log"
+    "build.log",
+    "thumbnail-228.png",
+    "thumbnail-471.png",
+    "thumbnail-117.png",
+    "thumbnail-442.png",
+    "thumbnail-387.png",
+    "228-prompt.txt",
+    "471-prompt.txt",
+    "117-prompt.txt",
+    "442-prompt.txt",
+    "387-prompt.txt",
+    "442-correction-prompt.txt",
+    "442-candidate-before-correction.png"
   ],
   "work_ref": "KBL-WORK-004",
   "status": "rollout_in_progress",
@@ -40,15 +54,31 @@
   "counts": {
     "profiles": 427,
     "previously_completed": 4,
-    "newly_verified": 50,
+    "newly_verified": 149,
     "newly_integrated_pending_verification": 0,
-    "pending_photographs": 370,
-    "source_holds": 3
+    "pending_photographs": 270,
+    "source_holds": 3,
+    "likeness_holds": 1
   },
-  "next_batch": "portrait-011",
-  "next_writer_id": 439,
+  "next_batch": "portrait-031",
+  "next_writer_id": 232,
   "execution": "User-authorized recurring heartbeat in this same chat, every 20 minutes; sequential batches of five, no overlapping workers or subagents.",
   "background_authorization": "ok run a batch mode and keep doing it auto mode till it is done - without getting trigger from me",
   "automation_id": "kabita-live-watercolor-portraits",
-  "updated_at": "2026-10-02T12:47:08.038457+00:00"
+  "updated_at": "2026-10-02T19:31:39.332686+00:00",
+  "integrated_writer_ids": [
+    228,
+    471,
+    117,
+    442,
+    387
+  ],
+  "held_writer_ids": [],
+  "likeness_holds": [
+    {
+      "writer_id": 238,
+      "name": "Eileen Moynihan",
+      "reason": "Original too blurry to verify likeness; clearer identified photo needed. Original photo retained."
+    }
+  ]
 }

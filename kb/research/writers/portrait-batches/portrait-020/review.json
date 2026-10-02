@@ -1,0 +1,52 @@
+{
+  "recorded_at": "2026-10-02T16:08:47.135050+00:00",
+  "batch": "portrait-020",
+  "writer_ids": [
+    236,
+    198,
+    238,
+    55,
+    351
+  ],
+  "integrated_writer_ids": [
+    236,
+    198,
+    55,
+    351
+  ],
+  "held_writer_ids": [
+    238
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 103 artistic portraits, 321 photographs including 1 likeness hold, 3 initials",
+    "Edition integrity check passed; 848 source hashes verified",
+    "2028 baseline files checked; only authorized portrait map changed",
+    "All 106 recorded portrait source/master hashes match, including held candidate",
+    "Representative desktop 1280px and mobile 360px profile crops visually inspected; mobile scroll width 360px",
+    "All four new circular directory thumbnails visually inspected",
+    "Writer 238 page visually confirmed to retain original journal photograph"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Writer 238 Eileen Moynihan remains on likeness hold: source too blurred to establish facial likeness confidently. Clearer identified photograph needed; candidate saved but not used.",
+    "Fine details in soft sources remain interpretive, especially writer 198 teeth/eyes and writer 236 hand jewellery.",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "No intermediate publication; final GitHub update and website deployment authorized only after verified rollout."
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile.png",
+    "directory-236.png",
+    "directory-198.png",
+    "directory-el.png",
+    "held-238-original.png",
+    "238-hold.json",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log"
+  ]
+}

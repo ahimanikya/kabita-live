@@ -1,0 +1,47 @@
+{
+  "recorded_at": "2026-10-02T16:28:18.114704+00:00",
+  "batch": "portrait-021",
+  "writer_ids": [
+    211,
+    446,
+    135,
+    163,
+    176
+  ],
+  "integrated_writer_ids": [
+    211,
+    446,
+    135,
+    163,
+    176
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 108 artistic portraits, 316 photographs including 1 earlier likeness hold, 3 initials",
+    "Edition integrity check passed; 848 source hashes verified",
+    "2043 baseline files checked; only authorized portrait map changed",
+    "All 111 recorded portrait source/master hashes match, including earlier held candidate",
+    "Representative desktop 1280px and mobile 360px profile crops visually inspected; mobile scroll width 360px",
+    "All five new circular directory thumbnails visually inspected"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, skin, jewellery and fabric texture remains interpretive where source photographs are soft.",
+    "Earlier likeness hold 238 remains unresolved; original photo retained.",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "No intermediate publication; final GitHub update and website deployment authorized only after verified rollout."
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile.png",
+    "directory-eva.png",
+    "directory-ga.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log"
+  ]
+}
