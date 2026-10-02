@@ -1,5 +1,5 @@
 """Select only public reader pages/assets for Astro; never export the project KB."""
-import argparse,json,re,shutil
+import argparse,json,re,shutil,os,html as html_lib
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
@@ -75,6 +75,19 @@ for name in pages:
     (root/'.generated/pages'/name).write_text(html)
 for relative in sorted(assets):
     target=root/'.public'/relative;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(root/relative,target)
+# Use exact exported routes and build-time titles for consented measurements.
+runtime=json.loads((root/'runtime-config.json').read_text())
+base='/' + os.environ.get('SITE_BASE','').strip('/')
+if not base.endswith('/'):base+='/'
+runtime['analytics']['basePath']=base
+runtime['analytics']['publicPages']={}
+for name in pages:
+    if name in {'404.html','search.html'}:continue
+    title=re.search(r'<title>(.*?)</title>',(root/name).read_text(),re.S)
+    if title:
+        runtime['analytics']['publicPages'][base+name]=html_lib.unescape(title.group(1)).strip()
+        if name=='index.html':runtime['analytics']['publicPages'][base]=html_lib.unescape(title.group(1)).strip()
+(root/'.public/runtime-config.json').write_text(json.dumps(runtime,ensure_ascii=False,indent=2)+'\n')
 (root/'.public/robots.txt').write_text('User-agent: *\nDisallow: /\n' if not args.release else 'User-agent: *\nAllow: /\n')
 (root/'.generated/public-pages.json').write_text(json.dumps(pages,indent=2)+'\n')
 (root/'.generated/release-manifest.json').write_text(json.dumps({'pages':pages,'assets':sorted(assets),'content_ready':status['launch_ready'],'release':args.release},indent=2)+'\n')
