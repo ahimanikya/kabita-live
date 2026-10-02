@@ -1,8 +1,8 @@
 {
-  "recorded_at": "2026-10-02T20:39:22.586566+00:00",
+  "recorded_at": "2026-10-02T20:41:42.719118+00:00",
   "authorization": "User: ok, push this and deploy to website",
   "scope": "Scoped Likes and moderated comments implementation, built from the currently hosted 5e170dd baseline; excludes all in-progress portrait work.",
-  "status": "prepared_for_manual_preview_deployment",
+  "status": "deployed_and_verified_features_disabled",
   "services": {
     "analytics": "Existing enabled consent-based configuration preserved",
     "firebase": "Disabled until cloud access and live verification",
@@ -19,5 +19,15 @@
     "desktop_mobile_layout": "Reviewed static layout"
   },
   "dns_changed": false,
-  "noindex_retained": true
+  "noindex_retained": true,
+  "commit": "a8d7877912dfe11b66c7f91885a68b699ffa8bfe",
+  "workflow_run": "https://github.com/ahimanikya/kabita-live/actions/runs/37062161840",
+  "hosting_url": "https://ahimanikya.github.io/kabita-live/",
+  "transport_note": "Initial HTTP 400 push did not update remote. Buffered HTTP/1.1 retry succeeded without force.",
+  "verified_at": "2026-10-02T20:44:52.759032+00:00",
+  "live_checks": {
+    "http": "Tested bundle hash matches hosted JS; controls present but hidden; runtime flags correct; noindex retained",
+    "browser": "Poem opens with normal reading content, hidden reader responses, and no horizontal overflow at 1114px",
+    "evidence": "artifacts/research/service-activation-2026-10-02/engagement-deployed-http-check.json"
+  }
 }
