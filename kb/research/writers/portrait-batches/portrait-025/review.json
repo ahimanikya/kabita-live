@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-02T17:52:46.874346+00:00",
+  "batch": "portrait-025",
+  "writer_ids": [
+    222,
+    162,
+    383,
+    196,
+    118
+  ],
+  "integrated_writer_ids": [
+    222,
+    162,
+    383,
+    196,
+    118
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 128 artistic portraits, 296 photographs including 1 earlier likeness hold, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2103 baseline files checked; only authorized portrait map changed",
+    "All 131 portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px profile crops inspected; mobile scroll width 360px",
+    "All five new circular directory thumbnails visually inspected",
+    "Writer 162 unsupported pendant removed before integration; two correction prompts and prior candidates retained"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine jewelry, skin and textile detail remains interpretive where sources are soft",
+    "Writer 162 tighter lower crop and paper fade obscures lower neck cord; face and visible beads retained",
+    "Earlier likeness hold 238 remains unresolved; original retained",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "No intermediate publication; final deployment only after verified rollout"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile.png",
+    "directory-himanshu.png",
+    "directory-hiranmayee.png",
+    "directory-inam.png",
+    "directory-ipsita.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "162-prompt.txt",
+    "162-correction-prompt.txt",
+    "162-correction-2-prompt.txt"
+  ]
+}

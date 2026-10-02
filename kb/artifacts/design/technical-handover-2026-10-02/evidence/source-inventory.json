@@ -1,0 +1,150 @@
+{
+  "captured_at": "2026-10-02T18:43:23.212617+00:00",
+  "note": "Source inventory for the handover. Hashes record current files; active queue records may have advanced since the explicitly dated snapshot in the PDF. Configuration contents are not copied here.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "2787a21274825cc182579517c313aec5fc28326443a8e8dfba7fdea9ee50b3cb"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f0eb98bcd054bbc60800e051789df61d0973951b31897aee7ec418f0626dfb06"
+    },
+    {
+      "path": "utkal.config.json",
+      "sha256": "a593132d0e0bb0983e41a20a812a464a07446c6a50a2d598e60273e3cc166c20"
+    },
+    {
+      "path": "kb/index.md",
+      "sha256": "de9f94fdbb33127e311fd4c3a050d44c1996c30639d290012cbd20372c095a26"
+    },
+    {
+      "path": "kb/TEAM-CHARTER.md",
+      "sha256": "5689229da6886ec912ba103d8d345d9bedc1a7dc774985a546a8d378b9a41f56"
+    },
+    {
+      "path": "kb/Working-Agreement.md",
+      "sha256": "5f3db48d7235dab030faf4345cc482938f1e84974a3e78f96a9cb3e33ae915c2"
+    },
+    {
+      "path": "kb/reference/storage-layout.md",
+      "sha256": "d11de61bc004024da6f055aa7e329e110a86e49c0e8716333cd5e3367db0f709"
+    },
+    {
+      "path": "kb/reference/site-architecture.md",
+      "sha256": "806c5aa09bf786ffc12c57e493d1cf64f6f7468ca535d857a7fa46a72cd1db4b"
+    },
+    {
+      "path": "kb/artifacts/design/brand-guide/DESIGN-SYSTEM.md",
+      "sha256": "0db7c5d78b1ee85e3e545771adb467c0c4a9dad3f5fdcff807c54cd8f1dc3190"
+    },
+    {
+      "path": "kb/team/operating-model.md",
+      "sha256": "2fc9187b48ebf4d4ebb14a3450d050ad9a0537848de87354a1ec5a994fcca066"
+    },
+    {
+      "path": "kb/team/assignments.json",
+      "sha256": "c4b008c3d06bbcfc90e6abcb0422b685944e72a54d95acd9d8776f1ba043868d"
+    },
+    {
+      "path": "kb/roles/samanta-chandrasekhar.md",
+      "sha256": "0c2bc11e43dd52a45e8d076051d5ca29835a85501564e4da5f744fa6269aebf0"
+    },
+    {
+      "path": "kb/roles/drishti-senapati.md",
+      "sha256": "8f4849c3edbeb8f190b998105eb17463c6707f992b2cd84e78c62285ce17fd13"
+    },
+    {
+      "path": "kb/review/page-type-checklist.md",
+      "sha256": "edef7eca72d9d131da844113873cd3c9ab8bb7c72b7211288d1f3b08598d3191"
+    },
+    {
+      "path": ".github/workflows/publish-site.yml",
+      "sha256": "32ec10e8f4b1d2d9cf22965dfb787189b77cec9005b1d48e3175e2eadf1bce12"
+    },
+    {
+      "path": "projects/site/package.json",
+      "sha256": "9de34eb60a68473cac1f6d753521c89521e7c1c82c7b69c4861874c8b6e89dff"
+    },
+    {
+      "path": "projects/site/astro.config.mjs",
+      "sha256": "415ad36f7ea9d7f4c509ffd6253b610332eb87988aec7d4711cd0d13f01090da"
+    },
+    {
+      "path": "projects/site/build.py",
+      "sha256": "c5d48ae06e25e33af28372c79614dcc4a73c45b5ab65ad7a60c3466cf4ba02aa"
+    },
+    {
+      "path": "projects/site/build-public.py",
+      "sha256": "c2d0e9665e0bd8fe8a7920b80b7fcfd9de991faa46970c1669b232d69c2c1caf"
+    },
+    {
+      "path": "projects/site/edition-pages.py",
+      "sha256": "85a23fbff3741c5d416fd493fd0ff3f5b6e68516a3ab17a9da0ad01b6031a90a"
+    },
+    {
+      "path": "projects/site/src/pages/[...route].astro",
+      "sha256": "6162ee2861f69765acc7008f474c44d0f08cba7f25aaa856c09190c79a9cabdf"
+    },
+    {
+      "path": "projects/site/src/feedback.ts",
+      "sha256": "7d88e34b713a88c473df6f31ac9dbaa42abefede42c1ca18c6e433bb77b9d491"
+    },
+    {
+      "path": "projects/site/firestore.rules",
+      "sha256": "9efef1ab7e8654cfe959417b62748dc8c11480e87abc3abed3e42191564d53bc"
+    },
+    {
+      "path": "projects/site/runtime-config.json",
+      "sha256": "b83cb5ae401a0f1d71535ebf7a0e9cbae4ed7cf56b8be4f4ce5f8985badcf7e0"
+    },
+    {
+      "path": "projects/site/assets/poem-experience.js",
+      "sha256": "b137b49045a0a2171b8e3212733b061e6442bb0a82630a31af4f2d42c3c4b3d6"
+    },
+    {
+      "path": "projects/site/assets/poem-marks.mjs",
+      "sha256": "5a321eacad7b746ba095488dc7892af5ca0e09ca6fcb7cbcbd061cf960cfb22f"
+    },
+    {
+      "path": "projects/site/assets/analytics.js",
+      "sha256": "faf386f4a8b84caad47ec71fd15d293de10a9145586f84f8bbd7ea62fc78ac22"
+    },
+    {
+      "path": "projects/site/data/content-status.json",
+      "sha256": "690187f397b13a0d812e580f673a108f2c107cbe0f4ba0ac92adb12e48669374"
+    },
+    {
+      "path": "projects/site/data/poem-translations.json",
+      "sha256": "3931a1ca41d8c17fa71669d9c65d8f0025d2ef80d79812fb9dec0235423d2dcb"
+    },
+    {
+      "path": "projects/site/data/writer-identities.json",
+      "sha256": "bddbc45b9e9d786f3447bf693c4a07ad82a3fd8a7d65bd27edc895bff696ac0b"
+    },
+    {
+      "path": "kb/records/github-pages-preview-deployment.json",
+      "sha256": "b0e6cccea414bb628abab3b7cd939716aeb3322b395b521ba9d0619ab7475c63"
+    },
+    {
+      "path": "kb/records/writer-identity-resolution.json",
+      "sha256": "66a13bd33edbd1c30d034a1693d4b16974b9c251fc5ca30392682f71e87f2426"
+    },
+    {
+      "path": "kb/research/writers/enrichment-progress.json",
+      "sha256": "1cd8cfe9dfc4a065d10d639918b5b7bdcf7d1e8468f18432d845737ebef4100a"
+    },
+    {
+      "path": "kb/records/poet-watercolor-loop.json",
+      "sha256": "3956dc2f056e89a9d03f40921be2d186cdc1dcd25a5e02780e5dad4bf83015d7"
+    },
+    {
+      "path": "kb/research/writers/portrait-batches.json",
+      "sha256": "9b16c9a7bbc60d93cecc52bccfc2c5f143a122d82aeb6b28af03d1b42cecbc7c"
+    }
+  ],
+  "official_usage_references": [
+    "https://learn.chatgpt.com/docs/app-server",
+    "https://developers.openai.com/api/docs/guides/prompt-caching"
+  ]
+}

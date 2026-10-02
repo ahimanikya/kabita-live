@@ -1,0 +1,53 @@
+{
+  "recorded_at": "2026-10-02T18:46:21.258959+00:00",
+  "batch": "portrait-028",
+  "writer_ids": [
+    363,
+    462,
+    296,
+    51,
+    295
+  ],
+  "integrated_writer_ids": [
+    363,
+    462,
+    296,
+    51,
+    295
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 143 artistic portraits, 281 photographs including 1 earlier likeness hold, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2148 baseline files checked; only authorized portrait map changed",
+    "All 146 portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px profile crops inspected; mobile scroll width 360px",
+    "All five new circular directory thumbnails visually inspected"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine skin, hair, jewelry and textile details remain interpretive; writer 296 source blur retained",
+    "Writer 462 cool pale source lighting retained; bead markings interpreted",
+    "Earlier likeness hold 238 remains unresolved; original retained",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "No intermediate publication; final deployment only after verified rollout"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-ju.png",
+    "thumbnails-jyo.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "363-prompt.txt",
+    "462-prompt.txt",
+    "296-prompt.txt",
+    "51-prompt.txt",
+    "295-prompt.txt"
+  ]
+}

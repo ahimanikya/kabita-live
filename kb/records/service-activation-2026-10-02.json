@@ -1,0 +1,103 @@
+{
+  "recorded_at": "2026-10-02T19:25:40.100126+00:00",
+  "status": "awaiting_terms_and_cli_scope_approval",
+  "authorization": "User requested configuration of existing Firebase/Google Analytics services in this turn.",
+  "firebase": {
+    "project": "kabita-live",
+    "prior_setup": "Project, anonymous Auth, Mumbai Firestore and deployed rules recorded in account-setup.json.",
+    "current_probe": "Firebase CLI database listing with network access returned HTTP 401 invalid authentication credentials.",
+    "client_enabled": false,
+    "live_test_completed": false,
+    "console_verified_at": "2026-10-02T19:25:40.100126+00:00",
+    "plan": "Spark, no-cost",
+    "anonymous_auth": "Enabled, provider table verified",
+    "firestore": "(default), asia-south1; database empty",
+    "rules": "Published Sep 29 2026 7:28 PM; rendered private-feedback rules inspected",
+    "cli_reauthentication": "Prepared in Chrome; broad Firebase and Google Cloud OAuth permission requires explicit user approval after automatic review rejection.",
+    "cleanup_script": "artifacts/research/service-activation-2026-10-02/check-firebase-live.mjs",
+    "cleanup_revision": "Revised to fail before writes without CLI access and delete every generated document ID plus synthetic Auth identity in finally. Revised production check not run."
+  },
+  "analytics": {
+    "property_created_in_this_turn": false,
+    "measurement_id_recorded": false,
+    "client_enabled": false,
+    "timezone_target": "Asia/Kolkata",
+    "optional_sharing_target": "off",
+    "ads_features_target": "off",
+    "prepared_account": "Kabita Live",
+    "prepared_property": "Kabita Live website",
+    "industry": "Books & Literature",
+    "size": "Small - 1 to 10",
+    "objectives": [
+      "Understand web and/or app traffic",
+      "View user engagement & retention"
+    ],
+    "terms_country": "India",
+    "terms_accepted": false,
+    "terms_state": "Final agreement dialog prepared; explicit approval requested because earlier service setup left Analytics terms pending.",
+    "optional_sharing": "All four optional sharing controls off",
+    "measurement_id": null,
+    "local_adapter_changes": [
+      "Exact build-generated public routes and fixed titles",
+      "No tag before consent; deny-by-default advertising consent",
+      "No incoming referrer, query strings, fragments, search terms or private form fields",
+      "Project-prefixed host-only cookies; 30-day expiration; withdrawal clears only those cookies",
+      "Page-local choice works if browser storage is unavailable"
+    ]
+  },
+  "browser": {
+    "console_opened": true,
+    "inspection_working": true,
+    "recovery": "New tabs in the existing Chrome connection worked. Earlier fresh-window question is obsolete."
+  },
+  "local_tests": {
+    "passed": 26,
+    "failed": 0,
+    "skipped": 5,
+    "analytics_tests_passed": 5,
+    "skip_reason": "Firestore emulator tests need emulator; no Firebase rules changed in this turn.",
+    "public_export": "1298 pages, 1377 assets; generated allowed routes exclude review desk and book-review routes; both service adapters remain disabled."
+  },
+  "resume_steps": [
+    "After explicit terms approval, accept prepared GA India terms, create web stream, disable enhanced measurement and record actual ID.",
+    "After explicit CLI scope approval, finish supported sign-in without persisting codes in KB, verify admin cleanup access, and run revised synthetic test.",
+    "Verify privacy and intended-host behavior, then enable and deploy only scoped service changes without unrelated in-progress portraits.",
+    "Update service record and technical PDF with actual live outcomes; keep DNS unchanged."
+  ],
+  "remote_mutations": false,
+  "runtime_config_changed": false,
+  "paid_upgrade": false,
+  "dns_changed": false,
+  "latest_user_direction": "Use the same as Kalinga Project: Google Analytics for visitors and Firebase for user data.",
+  "reference": "artifacts/research/kalinga-service-reference-2026-10-02/SOURCE.json",
+  "pending_user_questions": [
+    "Accept Google Analytics India terms and Data Processing Terms",
+    "Approve standard Firebase CLI account-wide Firebase/Cloud permissions, or keep live test pending"
+  ],
+  "automatic_review_rejections": [
+    {
+      "action": "Synthetic production Firebase test",
+      "reason": "Initial script did not delete database test records",
+      "result": "Not executed; script revised with administrator cleanup and preflight."
+    },
+    {
+      "action": "Firebase CLI OAuth Allow",
+      "reason": "Standard account-wide Firebase/Cloud administration scope exceeds narrow Kabita verification authorization",
+      "result": "Allow not clicked; explicit permission requested."
+    }
+  ],
+  "current_scope": {
+    "user_quote": "Visitor analytics / Firebase feedback / We can complete these 2 for now rest we can handle later",
+    "now": [
+      "Consent-based GA4 visitor analytics",
+      "Private Firebase feedback with owner-console access"
+    ],
+    "deferred": [
+      "Reader sign-in and profiles",
+      "Cloud bookmarks",
+      "Dedicated editor inbox",
+      "DNS migration"
+    ],
+    "interpretation": "Keep existing email alternative available alongside private feedback. No additional reader-account feature required."
+  }
+}

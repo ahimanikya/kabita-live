@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-02T12:47:58.426477+00:00",
-  "status": "prepared_for_clean_checkout_verification",
+  "status": "deployed_and_live_verified",
   "user_direction": "All done then - now we need to push this to git and get it hosted and then will ask het to channge DNA",
   "authorization": "KBL-DEC-037",
   "executor": "Current chat assistant; Samanta implementation and Drishti self-review",
@@ -27,8 +27,45 @@
     "captured_source_hashes": 848,
     "writer_identity_groups": "PASS",
     "candidate_symlinks": "No absolute or broken links",
-    "secret_pattern_scan": "Four HTML artifacts contained false-positive AWS-like strings entirely within embedded font data; no credential candidate found"
+    "secret_pattern_scan": "Four HTML artifacts contained false-positive AWS-like strings entirely within embedded font data; no credential candidate found",
+    "clean_committed_copy_build": {
+      "result": "PASS",
+      "site_base": "/kabita-live",
+      "pages": 1298,
+      "indexed_pages": 1294,
+      "assets": 1189,
+      "noindex": true,
+      "kb_exported": false,
+      "artifact_symlinks": 0
+    },
+    "github_actions": "PASS: npm ci, application tests, Firestore emulator tests, public build, artifact upload and Pages deployment",
+    "live_browser": [
+      "Desktop homepage visually inspected; no horizontal overflow or broken loaded images",
+      "Poem search Mrittika returns one result and opens correct reader",
+      "Quiet reader opens with full edition pagination",
+      "Neelam search returns one poet with all four contributions",
+      "360px profile visually inspected; no horizontal overflow"
+    ],
+    "live_http": "PASS: 12 public routes/resources return 200; KB and audit-review URLs return 404",
+    "custom_domain": null
   },
   "remaining_editorial_items": "Preserved in KB; this hosted preview does not certify full content release readiness.",
-  "dns_change": "Deferred until hosted-site review"
+  "dns_change": "Deferred until hosted-site review",
+  "explicit_public_payload_approval": {
+    "received_at": "2026-10-02T13:47:25.397048+00:00",
+    "question": "Push the full project—including the KB, research, review records and artwork history—to the public GitHub repository? These files will be publicly accessible.",
+    "answer": "approved"
+  },
+  "commit": "de73a95",
+  "deployed_commit": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "verified_at": "2026-10-02T13:54:49.154398+00:00",
+  "workflow_run": "https://github.com/ahimanikya/kabita-live/actions/runs/37015450954",
+  "evidence": [
+    "artifacts/evidence/github-pages-preview-2026-10-02/clean-build.log",
+    "artifacts/evidence/github-pages-preview-2026-10-02/local-tests.log",
+    "artifacts/evidence/github-pages-preview-2026-10-02/action-progress.log",
+    "artifacts/evidence/github-pages-preview-2026-10-02/http-checks.json",
+    "artifacts/evidence/github-pages-preview-2026-10-02/live-mobile.png"
+  ],
+  "snapshot_note": "Hosted version is pinned to the verified deployment commit. Later local portrait batches are separate work and do not automatically publish."
 }

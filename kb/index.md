@@ -13,6 +13,8 @@ A poetry journal shaped by **ମାଟିର ମହକ · ମନର ସ୍ୱର
 - [Artwork and icons](assets/index.md) · [Review material](review/index.md)
 - [Design history and deliveries](history/index.md) · [Evidence](evidence/index.md) · [Storage layout](reference/storage-layout.md)
 - [Website architecture and launch dependencies](reference/site-architecture.md)
+- [Technical handover: architecture, process and AI rulebook](artifacts/design/technical-handover-2026-10-02/delivery/Kabita-Live-Technical-Handover.pdf)
+- [Future DNS configuration and cutover plan](records/dns-cutover-plan.json) · technical handover pages 35–37
 - [Author pages and reusable skills](research/author-page-system.md)
 - [Edition and full-poem import](research/edition-content-import.md)
 - [Literary-site study](research/literary-benchmark.md) · [Implementation map](reference/implementation-map.md)

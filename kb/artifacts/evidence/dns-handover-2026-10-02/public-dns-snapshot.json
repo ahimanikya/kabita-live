@@ -1,0 +1,76 @@
+{
+  "observed_at": "2026-10-02T19:32:09.991518+00:00",
+  "method": "Read-only public DNS through system-configured resolver; not an authoritative zone export. No record edits.",
+  "queries": [
+    {
+      "name": "kabitalive.com",
+      "type": "NS",
+      "returncode": 0,
+      "response": "\n; <<>> DiG 9.10.6 <<>> kabitalive.com NS +noall +answer +comments +time=3 +tries=1\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59253\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 5\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 512\n;; ANSWER SECTION:\nkabitalive.com.\t\t86400\tIN\tNS\tns1.dns-parking.com.\nkabitalive.com.\t\t86400\tIN\tNS\tns2.dns-parking.com.\n\n",
+      "error": ""
+    },
+    {
+      "name": "kabitalive.com",
+      "type": "SOA",
+      "returncode": 0,
+      "response": "\n; <<>> DiG 9.10.6 <<>> kabitalive.com SOA +noall +answer +comments +time=3 +tries=1\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27565\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 512\n;; ANSWER SECTION:\nkabitalive.com.\t\t3600\tIN\tSOA\tns1.dns-parking.com. dns.hostinger.com. 2026100101 10000 2400 604800 600\n\n",
+      "error": ""
+    },
+    {
+      "name": "kabitalive.com",
+      "type": "A",
+      "returncode": 0,
+      "response": "\n; <<>> DiG 9.10.6 <<>> kabitalive.com A +noall +answer +comments +time=3 +tries=1\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50130\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 512\n;; ANSWER SECTION:\nkabitalive.com.\t\t60\tIN\tA\t185.249.224.33\nkabitalive.com.\t\t60\tIN\tA\t77.37.85.77\n\n",
+      "error": ""
+    },
+    {
+      "name": "kabitalive.com",
+      "type": "AAAA",
+      "returncode": 0,
+      "response": "\n; <<>> DiG 9.10.6 <<>> kabitalive.com AAAA +noall +answer +comments +time=3 +tries=1\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25481\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 512\n;; ANSWER SECTION:\nkabitalive.com.\t\t60\tIN\tAAAA\t2a02:4780:72:f395:fb5:4d7d:866:e1ab\nkabitalive.com.\t\t60\tIN\tAAAA\t2a02:4780:71:3985:237e:7fcc:403f:effe\n\n",
+      "error": ""
+    },
+    {
+      "name": "kabitalive.com",
+      "type": "MX",
+      "returncode": 0,
+      "response": "\n; <<>> DiG 9.10.6 <<>> kabitalive.com MX +noall +answer +comments +time=3 +tries=1\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9874\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 512\n;; ANSWER SECTION:\nkabitalive.com.\t\t14400\tIN\tMX\t10 mx2.hostinger.in.\nkabitalive.com.\t\t14400\tIN\tMX\t5 mx1.hostinger.in.\n\n",
+      "error": ""
+    },
+    {
+      "name": "kabitalive.com",
+      "type": "TXT",
+      "returncode": 0,
+      "response": "\n; <<>> DiG 9.10.6 <<>> kabitalive.com TXT +noall +answer +comments +time=3 +tries=1\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56707\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 512\n;; ANSWER SECTION:\nkabitalive.com.\t\t14400\tIN\tTXT\t\"v=spf1 include:_spf.mail.hostinger.com ~all\"\n\n",
+      "error": ""
+    },
+    {
+      "name": "kabitalive.com",
+      "type": "CAA",
+      "returncode": 0,
+      "response": "\n; <<>> DiG 9.10.6 <<>> kabitalive.com CAA +noall +answer +comments +time=3 +tries=1\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61979\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 512\n",
+      "error": ""
+    },
+    {
+      "name": "www.kabitalive.com",
+      "type": "CNAME",
+      "returncode": 0,
+      "response": "\n; <<>> DiG 9.10.6 <<>> www.kabitalive.com CNAME +noall +answer +comments +time=3 +tries=1\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16203\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 512\n;; ANSWER SECTION:\nwww.kabitalive.com.\t300\tIN\tCNAME\twww.kabitalive.com.cdn.hstgr.net.\n\n",
+      "error": ""
+    },
+    {
+      "name": "www.kabitalive.com",
+      "type": "A",
+      "returncode": 0,
+      "response": "\n; <<>> DiG 9.10.6 <<>> www.kabitalive.com A +noall +answer +comments +time=3 +tries=1\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8456\n;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 512\n;; ANSWER SECTION:\nwww.kabitalive.com.\t300\tIN\tCNAME\twww.kabitalive.com.cdn.hstgr.net.\nwww.kabitalive.com.cdn.hstgr.net. 60 IN\tA\t185.249.224.76\nwww.kabitalive.com.cdn.hstgr.net. 60 IN\tA\t77.37.85.47\n\n",
+      "error": ""
+    },
+    {
+      "name": "www.kabitalive.com",
+      "type": "AAAA",
+      "returncode": 0,
+      "response": "\n; <<>> DiG 9.10.6 <<>> www.kabitalive.com AAAA +noall +answer +comments +time=3 +tries=1\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5000\n;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 512\n;; ANSWER SECTION:\nwww.kabitalive.com.\t300\tIN\tCNAME\twww.kabitalive.com.cdn.hstgr.net.\nwww.kabitalive.com.cdn.hstgr.net. 60 IN\tAAAA\t2a02:4780:71:c6c3:f94d:3e1d:4f9e:f9bb\nwww.kabitalive.com.cdn.hstgr.net. 60 IN\tAAAA\t2a02:4780:72:505a:b4ff:932b:c562:afae\n\n",
+      "error": ""
+    }
+  ]
+}

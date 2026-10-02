@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-02T14:42:03.345798+00:00",
+  "work_ref": "KBL-WORK-018",
+  "status": "created_and_visually_verified",
+  "user_direction": "Create story with picture - so that I can share with editors and others",
+  "executor": "Current chat assistant; Samanta document creation and Drishti self-review",
+  "independent": false,
+  "artifact": "artifacts/design/project-story-2026-10-02/Kabita-Live-Our-Journey.pdf",
+  "pages": 5,
+  "bytes": 3288162,
+  "sha256": "fdca834b7758b20ca19c86ae93892c79160a22d8c3b5bb594cead3da74434161",
+  "sources": [
+    "reference/project-profile.md",
+    "artifacts/design/proposal/DESIGN-PROPOSAL-v1.md",
+    "artifacts/design/brand-guide/DESIGN-SYSTEM.md",
+    "records/github-pages-preview-deployment.json",
+    "registers/activity.jsonl"
+  ],
+  "scope": "Illustrated account of the redesign, archive and poet research, reader experience, editorial preparation and hosted preview; uses existing artwork and fresh hosted-site screenshots. No website change or publication.",
+  "checks": {
+    "visual": "All five final rendered pages inspected; no clipping or overlap; image transparency flattened correctly for print",
+    "text": "Five pages have extractable text",
+    "website_link": "Clickable hosted preview URL verified in PDF annotations",
+    "claims": "Hosted preview distinguished from DNS transition; translation and portrait review remain qualified",
+    "source_assets": "Original artwork retained unchanged"
+  },
+  "next_action": "User shares with editors and others.",
+  "portable_sync": "Run tools/sync_handoff.py and tools/check_storage.py after record generation."
+}

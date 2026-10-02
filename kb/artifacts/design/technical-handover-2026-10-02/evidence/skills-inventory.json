@@ -1,0 +1,162 @@
+{
+  "recorded_at": "2026-10-02T19:00:05.258128+00:00",
+  "scope": "Two main Kabita Live chats; referenced SKILL.md paths grouped by logical skill. Historical plugin versions consolidated. Consultation and production are distinguished.",
+  "skills": [
+    {
+      "name": "kabita-writer-profiles",
+      "origin": "Project",
+      "purpose": "Profile research and author-page generation",
+      "evidence_class": "applied",
+      "tool_call_reference_count": 64,
+      "count_note": "References in tool-call arguments, not invocation counts or proof all features shipped.",
+      "observed_instruction_paths": [
+        "/kb/skills/kabita-writer-profiles/SKILL.md",
+        "/skills/kabita-writer-profiles/SKILL.md",
+        "/artifacts/skills/kabita-writer-profiles/SKILL.md",
+        "/kb/artifacts/skills/kabita-writer-profiles/SKILL.md",
+        "$CODEX_HOME/skills/kabita-writer-profiles/SKILL.md"
+      ],
+      "canonical_path": "kb/artifacts/skills/kabita-writer-profiles/SKILL.md",
+      "sha256": "2a36a08c5f1bfdc6e72b5e80135819dc8ca6628ef2f66f13b325e03f502f5982"
+    },
+    {
+      "name": "kabita-author-portraits",
+      "origin": "Project",
+      "purpose": "Identity-preserving artistic portrait workflow",
+      "evidence_class": "applied",
+      "tool_call_reference_count": 21,
+      "count_note": "References in tool-call arguments, not invocation counts or proof all features shipped.",
+      "observed_instruction_paths": [
+        "/artifacts/skills/kabita-author-portraits/SKILL.md",
+        "/kb/artifacts/skills/kabita-author-portraits/SKILL.md",
+        "$CODEX_HOME/skills/kabita-author-portraits/SKILL.md"
+      ],
+      "canonical_path": "kb/artifacts/skills/kabita-author-portraits/SKILL.md",
+      "sha256": "e275571b145157c524b89e24f43554dd2b2138071684568de1312943c0501ab4"
+    },
+    {
+      "name": "imagegen",
+      "origin": "System",
+      "purpose": "Raster artwork and portrait edits",
+      "evidence_class": "applied",
+      "tool_call_reference_count": 27,
+      "count_note": "References in tool-call arguments, not invocation counts or proof all features shipped.",
+      "observed_instruction_paths": [
+        "$CODEX_HOME/skills/.system/imagegen/SKILL.md"
+      ]
+    },
+    {
+      "name": "control-in-app-browser",
+      "origin": "Plugin",
+      "purpose": "Source capture and browser inspection",
+      "evidence_class": "applied",
+      "tool_call_reference_count": 63,
+      "count_note": "References in tool-call arguments, not invocation counts or proof all features shipped.",
+      "observed_instruction_paths": [
+        "$CODEX_HOME/plugins/cache/openai-bundled/browser/26.924.22138/skills/control-in-app-browser/SKILL.md",
+        "$CODEX_HOME/plugins/cache/openai-bundled/browser/26.928.21956/skills/control-in-app-browser/SKILL.md"
+      ]
+    },
+    {
+      "name": "control-chrome",
+      "origin": "Plugin",
+      "purpose": "Signed-in Chrome workflows and service setup",
+      "evidence_class": "applied",
+      "tool_call_reference_count": 9,
+      "count_note": "References in tool-call arguments, not invocation counts or proof all features shipped.",
+      "observed_instruction_paths": [
+        "$CODEX_HOME/plugins/cache/openai-bundled/chrome/26.924.22138/skills/control-chrome/SKILL.md",
+        "$CODEX_HOME/plugins/cache/openai-bundled/chrome/26.928.21956/skills/control-chrome/SKILL.md"
+      ]
+    },
+    {
+      "name": "visualize",
+      "origin": "Plugin",
+      "purpose": "Interactive studies and explanations",
+      "evidence_class": "applied",
+      "tool_call_reference_count": 16,
+      "count_note": "References in tool-call arguments, not invocation counts or proof all features shipped.",
+      "observed_instruction_paths": [
+        "$CODEX_HOME/plugins/cache/openai-bundled/visualize/1.0.41/skills/visualize/SKILL.md"
+      ]
+    },
+    {
+      "name": "pdf",
+      "origin": "Plugin",
+      "purpose": "PDF authoring and render verification",
+      "evidence_class": "applied",
+      "tool_call_reference_count": 14,
+      "count_note": "References in tool-call arguments, not invocation counts or proof all features shipped.",
+      "observed_instruction_paths": [
+        "$CODEX_HOME/plugins/cache/openai-primary-runtime/pdf/26.921.10847/skills/pdf/SKILL.md"
+      ]
+    },
+    {
+      "name": "presentations",
+      "origin": "Plugin",
+      "purpose": "Editor presentation production",
+      "evidence_class": "applied",
+      "tool_call_reference_count": 2,
+      "count_note": "References in tool-call arguments, not invocation counts or proof all features shipped.",
+      "observed_instruction_paths": [
+        "$CODEX_HOME/plugins/cache/openai-primary-runtime/presentations/26.921.10847/skills/presentations/SKILL.md"
+      ]
+    },
+    {
+      "name": "documents",
+      "origin": "Plugin",
+      "purpose": "Document-format workflow",
+      "evidence_class": "consulted",
+      "tool_call_reference_count": 2,
+      "count_note": "References in tool-call arguments, not invocation counts or proof all features shipped.",
+      "observed_instruction_paths": [
+        "$CODEX_HOME/plugins/cache/openai-primary-runtime/documents/26.921.10847/skills/documents/SKILL.md"
+      ]
+    },
+    {
+      "name": "skill-creator",
+      "origin": "System",
+      "purpose": "Reusable project skill creation",
+      "evidence_class": "applied",
+      "tool_call_reference_count": 3,
+      "count_note": "References in tool-call arguments, not invocation counts or proof all features shipped.",
+      "observed_instruction_paths": [
+        "$CODEX_HOME/skills/.system/skill-creator/SKILL.md"
+      ]
+    },
+    {
+      "name": "openai-docs",
+      "origin": "System",
+      "purpose": "Official behavior and usage documentation",
+      "evidence_class": "applied",
+      "tool_call_reference_count": 8,
+      "count_note": "References in tool-call arguments, not invocation counts or proof all features shipped.",
+      "observed_instruction_paths": [
+        "$CODEX_HOME/skills/.system/openai-docs/SKILL.md"
+      ]
+    },
+    {
+      "name": "computer-use",
+      "origin": "Plugin",
+      "purpose": "Native application workflow",
+      "evidence_class": "consulted",
+      "tool_call_reference_count": 1,
+      "count_note": "References in tool-call arguments, not invocation counts or proof all features shipped.",
+      "observed_instruction_paths": [
+        "$CODEX_HOME/plugins/cache/openai-bundled/computer-use/1.0.1001242/skills/computer-use/SKILL.md"
+      ]
+    },
+    {
+      "name": "poetry-to-music",
+      "origin": "Project",
+      "purpose": "Audio exploration",
+      "evidence_class": "deferred",
+      "tool_call_reference_count": 2,
+      "count_note": "References in tool-call arguments, not invocation counts or proof all features shipped.",
+      "observed_instruction_paths": [
+        "$CODEX_HOME/skills/poetry-to-music/SKILL.md"
+      ]
+    }
+  ],
+  "official_definition": "https://developers.openai.com/plugins/concepts/skills"
+}

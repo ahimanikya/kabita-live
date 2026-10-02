@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-02T19:13:19.295469+00:00",
+  "batch": "portrait-029",
+  "writer_ids": [
+    223,
+    443,
+    305,
+    136,
+    303
+  ],
+  "integrated_writer_ids": [
+    223,
+    443,
+    305,
+    136,
+    303
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 148 artistic portraits, 276 photographs including 1 earlier likeness hold, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2163 baseline files checked; only authorized portrait map changed",
+    "All 151 portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px profile crops inspected; mobile scroll width 360px",
+    "All five new circular directory thumbnails visually inspected"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Writer 223 checkerboard background corrected to opaque ivory; initial candidate and both prompts preserved",
+    "Source blur for 443 and 136 retained; fine jewelry, skin and textile details remain interpretive",
+    "Writer 303 paper wash slightly warms muted source tones; no material facial drift observed",
+    "Earlier likeness hold 238 remains unresolved; original retained",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "No intermediate publication; final deployment only after verified rollout"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-jyo.png",
+    "thumbnail-305.png",
+    "thumbnail-136.png",
+    "thumbnail-303.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "223-prompt.txt",
+    "443-prompt.txt",
+    "305-prompt.txt",
+    "136-prompt.txt",
+    "303-prompt.txt",
+    "223-correction-prompt.txt",
+    "223-candidate-before-correction.png"
+  ]
+}

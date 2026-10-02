@@ -1,0 +1,32 @@
+{
+  "verified_at": "2026-10-02T19:28:30.900515+00:00",
+  "pdf_sha256": "1522f11600e7552c3c131372ec30bd4103a7df65da86473dc848383e95c1f2ab",
+  "pages": 34,
+  "words": 9197,
+  "page_size": "A4 portrait",
+  "diagrams": {
+    "4": "functional reader journey",
+    "5": "architecture and runtime boundaries",
+    "7": "content architecture",
+    "11": "private feedback flow",
+    "16": "AI operating process",
+    "30": "Blueprint record lifecycle"
+  },
+  "visual_review": {
+    "method": "All 34 pages rendered at 100 dpi; only pages 1,12,34 differ from v1.1. Those three pages visually inspected at 85 dpi; remaining 31 pages pixel-identical to previously inspected v1.1.",
+    "result": "PASS",
+    "independent": false
+  },
+  "checks": {
+    "page_count": true,
+    "presenter_credit_every_page": true,
+    "token_totals_reproduced": true,
+    "token_arithmetic": true,
+    "no_cumulative_resets": true,
+    "first_counter_has_no_inherited_usage": true,
+    "layout_overflow": [],
+    "external_links": 9
+  },
+  "scope": "Local analytics safeguards and exporter updated; no services enabled or deployed. Terms and broad CLI OAuth approval pending. 26 local tests passed; five emulator tests skipped.",
+  "version": "1.2"
+}

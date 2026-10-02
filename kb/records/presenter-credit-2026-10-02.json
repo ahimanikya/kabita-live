@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-02T15:05:41.369157+00:00",
+  "work_ref": "KBL-WORK-018",
+  "status": "applied_and_visually_verified",
+  "user_direction": "I am presenting - so put my name and claim credit",
+  "executor": "Current chat assistant; Samanta edits and Drishti self-review",
+  "independent": false,
+  "credit": "Presented by Ahimanikya Satapathy; Redesign, design system & project direction",
+  "changes": [
+    "Prominent presenter credit on both covers",
+    "Named credit in all page and slide footers",
+    "Presenter name on closing slide; expanded PDF colophon credit"
+  ],
+  "outputs": [
+    {
+      "path": "artifacts/design/value-and-creativity-2026-10-02/delivery/Kabita-Live-Value-and-Creativity-Presenter.pdf",
+      "sha256": "6cf39e5371286fe44839b953c0a0fd97c85dbdc618a1e0529076850b9ce14bf3"
+    },
+    {
+      "path": "artifacts/design/value-and-creativity-2026-10-02/delivery/Kabita-Live-Value-and-Creativity-Presenter.pptx",
+      "sha256": "74cc76a92c8dd5bd15019536ee4d91d34108dfb77ee60b0cd7dc224b38776c3d"
+    }
+  ],
+  "checks": {
+    "pdf": "Eight pages rendered and visually inspected; name present on every page",
+    "pptx": "Ten final slides rendered and visually inspected; editable text, existing images/layouts and timeline retained; structural/font/layout finalizer passed"
+  },
+  "evidence": [
+    "artifacts/design/value-and-creativity-2026-10-02/build/deck-validation-presenter.json"
+  ],
+  "previous_revision": "records/value-creativity-presentation-2026-10-02.json",
+  "next_action": "Ahimanikya presents or shares the credited files."
+}

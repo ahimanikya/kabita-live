@@ -1,0 +1,1499 @@
+[
+  {
+    "page": 1,
+    "title": "The system behind the poems.",
+    "subtitle": "Kabita Live: technical architecture, operating process, design knowledge and AI rulebook"
+  },
+  {
+    "page": 1,
+    "text": "This handover explains how the journal is assembled, how readers experience it, how changes reach the hosted website, and how research and design decisions remain traceable. It is written for the incoming developer, technical maintainer and editorial lead."
+  },
+  {
+    "page": 1,
+    "box": "Prepared and presented by Ahimanikya Satapathy",
+    "text": "Redesign, design system and project direction. Prepared with AI assistance using the project source, decision records, verification evidence and local usage logs. Literary authorship and editorial responsibilities remain with the publication’s actual writers and editors."
+  },
+  {
+    "page": 1,
+    "table": {
+      "headers": [
+        "The foundation",
+        "The handover snapshot"
+      ],
+      "rows": [
+        [
+          "Publication",
+          "Static Astro website, built from local content and served by GitHub Pages."
+        ],
+        [
+          "Knowledge",
+          "Canonical research, decisions, art masters, reviews and history in the Git-backed KB."
+        ],
+        [
+          "AI",
+          "Assists production and maintenance. The public reading experience does not require an AI service."
+        ],
+        [
+          "Release state",
+          "Hosted preview is verified. Full editorial release and DNS transition remain separate."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 1,
+    "text": "Read this as a dated technical baseline. The portrait rollout is continuing in another project chat; local content and its evidence can advance beyond this document. The deployed commit and the token accounting cutoff are stated explicitly."
+  },
+  {
+    "page": 2,
+    "title": "How to use this handover.",
+    "subtitle": "Start with the system boundaries; use the runbooks when making a change."
+  },
+  {
+    "page": 2,
+    "table": {
+      "headers": [
+        "Pages",
+        "What you will find"
+      ],
+      "rows": [
+        [
+          "03",
+          "Verified state and release boundaries"
+        ],
+        [
+          "04-05",
+          "Functional map and architecture diagram"
+        ],
+        [
+          "06-09",
+          "Source layout, data model, editorial integrity and build pipeline"
+        ],
+        [
+          "10-12",
+          "Reader behavior, private feedback, analytics and security"
+        ],
+        [
+          "13-15",
+          "Design system, components and knowledge architecture"
+        ],
+        [
+          "16-20",
+          "AI workflow, generation principles, rulebook and background loops"
+        ],
+        [
+          "21-22",
+          "Measured token usage and accounting method"
+        ],
+        [
+          "23-25",
+          "Setup, deployment, recovery, testing and troubleshooting"
+        ],
+        [
+          "26-28",
+          "Open work, evidence references and receiving-maintainer checklist"
+        ],
+        [
+          "29-34",
+          "Kalinga Blueprint, complete skills inventory and service activation"
+        ]
+      ]
+    }
+  },
+  {
+    "page": 2,
+    "heading": "Three views of the same project"
+  },
+  {
+    "page": 2,
+    "text": "The reader sees a calm journal: poems, editions, poets, artwork, sharing and private contact. The maintainer sees structured data, page generators, browser modules, tests and a controlled public export. The project lead sees evidence, decisions, bounded AI work and a release state that must be earned."
+  },
+  {
+    "page": 2,
+    "heading": "How to resolve conflicting notes"
+  },
+  {
+    "page": 2,
+    "text": "Use current source and the newest decision or application record together. Older research and architecture notes are preserved for history and may describe an earlier state. A generated dashboard summarizes its inputs; it cannot grant permission or override later evidence."
+  },
+  {
+    "page": 2,
+    "box": "Evidence labels used throughout",
+    "text": "Implemented means present in source. Verified means the cited check actually ran. Hosted refers to the recorded deployed commit. Draft, disabled and pending retain their literal meanings; none is converted into an approval by this handover."
+  },
+  {
+    "page": 3,
+    "title": "What exists, and what is live.",
+    "subtitle": "Implementation and editorial readiness are deliberately separate."
+  },
+  {
+    "page": 3,
+    "table": {
+      "headers": [
+        "Area",
+        "Verified snapshot"
+      ],
+      "rows": [
+        [
+          "Literary collection",
+          "47 editions; 801 captured poem records; 799 active full poems; 798 assigned to an edition. Two unavailable entries retain records and neutral URLs but are absent from active discovery."
+        ],
+        [
+          "People",
+          "429 writer records and profile URLs; 426 directory identities after three evidence-backed groupings. 427 researched narrative drafts are applied."
+        ],
+        [
+          "Research quality",
+          "336 enrichment drafts are source-checked; 91 are source-limited. Applied prose still awaits appropriate author/editor factual review."
+        ],
+        [
+          "Translations",
+          "1,572 variants in poem-translations.json currently have draft status. The release exporter requires reviewed status."
+        ],
+        [
+          "Hosted preview",
+          "Commit de73a957efc8eab85f28e3c82bf2c71219fec83c; verified 2 October at 13:54:49 UTC. 1,298 pages, 1,294 indexed by Pagefind, 1,189 assets in that build."
+        ],
+        [
+          "Services",
+          "Firebase client and GA4 disabled. Feedback opens an email draft. No public comments, editor inbox UI or live AI reading feature."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 3,
+    "text": "The preview is available at <link href=\"https://ahimanikya.github.io/kabita-live/\" color=\"#125465\">ahimanikya.github.io/kabita-live/</link>. It retains noindex/nofollow and robots exclusion. Those controls discourage indexing; they do not make a public website private."
+  },
+  {
+    "page": 3,
+    "box": "Do not equate local work with the live site",
+    "text": "The hosted record identifies the live baseline. Later portrait batches and this handover are local changes until an authorized commit, push and manual deployment succeed. The custom domain and DNS are unchanged."
+  },
+  {
+    "page": 4,
+    "title": "A reader’s path through Kabita Live.",
+    "subtitle": "The site keeps discovery, sustained reading and private response connected."
+  },
+  {
+    "page": 4,
+    "text": "Edition entry selects that edition. Poems entry can open the complete collection. The quiet-reader chooser can switch to a poet or edition; a regular-page search filter is not silently treated as the selected quiet-reader collection."
+  },
+  {
+    "page": 4,
+    "text": "Saved reading state and marks belong to the current browser. Sharing invokes an explicit reader action. Opening feedback or a submission draft does not send a message automatically."
+  },
+  {
+    "page": 5,
+    "title": "Static publishing, bounded services.",
+    "subtitle": "Build-time work and visitor-time behavior have different responsibilities."
+  },
+  {
+    "page": 5,
+    "text": "Solid boxes and arrows describe active delivery and the present feedback path. Dashed service boxes are prepared integrations, gated by configuration and live verification. Firebase is not the publication database or website host."
+  },
+  {
+    "page": 5,
+    "box": "A crucial privacy distinction",
+    "text": "The KB is excluded from the Pages artifact. The GitHub repository itself is public with explicit approval, including source and KB history. Keep private messages, credentials and personal operational data out of Git."
+  },
+  {
+    "page": 6,
+    "title": "Where a maintainer should work.",
+    "subtitle": "Edit the maintained input or renderer, then regenerate the outputs."
+  },
+  {
+    "page": 6,
+    "table": {
+      "headers": [
+        "Location",
+        "Responsibility"
+      ],
+      "rows": [
+        [
+          "projects/site",
+          "Convenience alias to output/kabitalive-design-proposal-2026-09-29/site; the maintained publication source."
+        ],
+        [
+          "projects/site/data",
+          "Editorial records, identities, enrichment, translations, poem/art mappings, route data and release status."
+        ],
+        [
+          "Site Python builders",
+          "Shared HTML and page-family renderers. Change these or shared assets instead of patching generated HTML alone."
+        ],
+        [
+          "assets + src/feedback.ts",
+          "Reader CSS/JS, local fonts, web images, collection payloads and the bundled private-feedback client."
+        ],
+        [
+          ".generated + .public",
+          "Rebuilt staging directories used by Astro. Derived output; do not store originals here."
+        ],
+        [
+          "dist",
+          "Deployable static result, followed by Pagefind indexing. This is the only Pages artifact."
+        ],
+        [
+          "kb",
+          "Canonical knowledge, records, research, design source, artwork masters, evidence and revision history."
+        ],
+        [
+          "tools",
+          "KB registration, catalogue, preservation, content checks, design knowledge and portable synchronization."
+        ],
+        [
+          "output/kabita-live-project",
+          "Portable handoff containing its own site, KB and tools. Sync from the canonical workspace; do not silently overwrite divergent edits."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 6,
+    "text": "The root README, AGENTS.md and utkal.config.json are operational entrypoints. The configuration identifies KBL and its scoped preview authorization. Compatibility links preserve earlier paths without creating a second source of truth."
+  },
+  {
+    "page": 7,
+    "title": "Stable records, connected reading.",
+    "subtitle": "Relationships are resolved without rewriting captured literary history."
+  },
+  {
+    "page": 7,
+    "text": "IDs are the join keys. Three approved identity groups combine contributions in memory: 192/224, 256/366 and 255/449. Canonical IDs are 192, 256 and 449. Original poem assignments and all 429 profile URLs are preserved; duplicate profile pages point to their canonical identity and are excluded from search indexing."
+  },
+  {
+    "page": 7,
+    "text": "Name corrections use writer-name-corrections.json and writer_names.py. Enrichment and quote selections remain separate from captured biographies. A similar name, missing photograph or incomplete biography is insufficient evidence to merge people."
+  },
+  {
+    "page": 8,
+    "title": "Preservation before embellishment.",
+    "subtitle": "Completeness means actual text, correct relationships and visible uncertainty."
+  },
+  {
+    "page": 8,
+    "heading": "Capture and reconcile"
+  },
+  {
+    "page": 8,
+    "text": "Retain the original capture and source provenance in the KB. Preserve script, lineation, stanza boundaries, bylines, translators and issue relationships. Compare source and rendered output after any repair. Separate accidentally combined works only with evidence; record the new relationship and keep the original capture."
+  },
+  {
+    "page": 8,
+    "text": "The collection contains 801 captured records, of which 799 have active complete poem text. Unavailable entries 385 and 727 were removed from editions and discovery, while their records and neutral existing URLs were retained. This is preservation, not a claim that the missing bodies have been recovered."
+  },
+  {
+    "page": 8,
+    "heading": "Enrich without inventing"
+  },
+  {
+    "page": 8,
+    "text": "All 427 researched profile narratives are applied. Source-limited profiles use modest, grounded introductions based on known contributions; unsupported awards, affiliations, publication lists or name bridges are not supplied. A missing source citation alone is not a reason to hold otherwise available content under the user’s direction."
+  },
+  {
+    "page": 8,
+    "heading": "Review translations explicitly"
+  },
+  {
+    "page": 8,
+    "text": "Translation variants retain their poem mapping and structural alignment. The current 1,572 variants are marked draft. AI generation or an automated structure check does not confer native-language or editorial approval. Do not bulk-change statuses to reviewed to make a release command pass."
+  },
+  {
+    "page": 8,
+    "box": "Separate the three questions",
+    "text": "Is the original complete? Is the interpretation or enrichment supported? Has an accountable editor reviewed it? These are separate checks and should have separate evidence. Available source text is not automatically permission for a new use; retain rights and attribution records."
+  },
+  {
+    "page": 9,
+    "title": "How source becomes a website.",
+    "subtitle": "The pipeline creates static files; it does not publish them by itself."
+  },
+  {
+    "page": 9,
+    "table": {
+      "headers": [
+        "Step",
+        "What happens / boundary"
+      ],
+      "rows": [
+        [
+          "1. Generate",
+          "build.py composes page generation through shared and page-family Python modules, including edition, support and standalone renderers. Local HTML and reading data are created from maintained inputs."
+        ],
+        [
+          "2. Bundle",
+          "tools/bundle-feedback.mjs bundles the TypeScript feedback adapter using esbuild. Runtime configuration still controls whether Firebase may initialize."
+        ],
+        [
+          "3. Select and validate",
+          "build-public.py selects regular, non-symlink HTML, excludes review routes, checks local links and referenced assets, rejects former-site dependencies, and rebuilds .generated / .public."
+        ],
+        [
+          "4. Apply release mode",
+          "Preview retains noindex and robots exclusion. Release requires launch_ready plus reviewed translation variants, then changes the export’s indexing treatment."
+        ],
+        [
+          "5. Render with Astro",
+          "src/pages/[...route].astro reads the generated page manifest and emits the supplied HTML as static routes. Astro output format is file. SITE_URL and SITE_BASE support the hosting location."
+        ],
+        [
+          "6. Index",
+          "Pagefind indexes dist. The existing reader search remains the actual interface; no new dedicated Pagefind UI has been added."
+        ],
+        [
+          "7. Deliver separately",
+          "An approved manual Actions run tests, builds and uploads only dist, then deploys through the github-pages environment."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 9,
+    "box": "Exporter maintenance rule",
+    "text": "The exporter combines file selection, exclusions and validation. It is not a complete named allowlist for every future page family. If a new physical HTML review page is introduced, verify the public manifest excludes it; existing symlink-based review aliases are intentionally omitted."
+  },
+  {
+    "page": 10,
+    "title": "Small browser modules, rich reading.",
+    "subtitle": "The page is readable as a static publication; JavaScript adds interaction."
+  },
+  {
+    "page": 10,
+    "heading": "Discovery and collection loading"
+  },
+  {
+    "page": 10,
+    "text": "The Poems page combines keyword, poet and edition choices and paginates 12 results. Poet identity grouping is reflected in discovery. The homepage’s per-language selection stays stable within an India calendar day; it changes the feature selection without rewriting source poems."
+  },
+  {
+    "page": 10,
+    "text": "reading-library.json supplies collection labels and URLs. Edition and author payloads live under reading-editions/issue-N.json and reading-authors/poet-N.json. reading-all.json contains the 799 active poems in publication order, with the unassigned contribution last. The reader fetches allowed local collection URLs on demand."
+  },
+  {
+    "page": 10,
+    "heading": "Measured quiet reading"
+  },
+  {
+    "page": 10,
+    "text": "Desktop spreads and single-page phone reading use measured content flow. A new poem needs its opening furniture plus at least three opening verse lines to fit; otherwise the opening moves to the next page. Verse and stanza units are preserved. Small portrait and ornament space is included in pagination."
+  },
+  {
+    "page": 10,
+    "text": "Aa exposes Original, Odia, Hindi and English plus size settings. Original resolves to the source language; unavailable versions remain unavailable. The reader chooser supports an edition or poet, search, Read poem and Read all. Reduced-motion behavior is respected; optional page-turn sound/animation are off by default."
+  },
+  {
+    "page": 10,
+    "heading": "Local state and failure behavior"
+  },
+  {
+    "page": 10,
+    "text": "Reading position, bookmarks, underlines and appearance preferences are device/browser-local. They do not sync through an account. Clearing site data can remove them. When storage fails, the interface reports that a change lasts only for the visit. Preserve the localhost:8771 origin so local review decisions remain associated with it."
+  },
+  {
+    "page": 10,
+    "box": "Verification focus",
+    "text": "Exercise collection changes, long poems, all three scripts, language fallback, enlarged text, keyboard dismissal, focus restoration and a 360px viewport. Browser automation cannot certify physical touch/trackpad feel or audio quality."
+  },
+  {
+    "page": 11,
+    "title": "One private channel, two paths.",
+    "subtitle": "Email is the current path; Firebase intake remains disabled in the client."
+  },
+  {
+    "page": 11,
+    "text": "Validation limits are name 120 characters, email 254 and message 5,000; the message must be non-empty. Reason is note, correction or submission. Poem context is restricted to a same-origin path. Errors preserve the typed message; successful completion is required before clearing it."
+  },
+  {
+    "page": 11,
+    "text": "When enabled, the client writes feedback and feedbackThrottle together. Rules bind the UID, allowed fields, server time, status and matching batch. The interval is 60 seconds per anonymous UID. Editors need a maintainer-issued custom claim for private reads/deletion; status updates are limited to received, reviewed or closed."
+  },
+  {
+    "page": 11,
+    "box": "Still needed before enabling live intake",
+    "text": "Complete a live end-to-end test, approved production hosts, editor access and an operating inbox/retention process. App Check and broader abuse protection are not configured; an anonymous-UID interval is not a global spam barrier."
+  },
+  {
+    "page": 12,
+    "title": "Configuration, consent and security.",
+    "subtitle": "Only verified services should become active in a reader’s browser."
+  },
+  {
+    "page": 12,
+    "table": {
+      "headers": [
+        "Concern",
+        "Current behavior / maintainer responsibility"
+      ],
+      "rows": [
+        [
+          "Runtime configuration",
+          "runtime-config.json is public web configuration. enabled flags and allowedHosts gate adapters. Never put service-account keys or private credentials into it. Firebase web configuration is not an authorization boundary; rules enforce access."
+        ],
+        [
+          "Analytics",
+          "GA4 needs a real measurement ID, approved HTTPS host and exact public route. Build-time titles replace dynamic text. No tag before opt-in; no incoming referrer, query/fragment, search terms or form values. Only defined share fields are sent."
+        ],
+        [
+          "Consent",
+          "Choice is local, with page-local fallback when storage is unavailable. Withdrawal disables events, clears only Kabita-prefixed cookies and reloads when the choice is saved. Google can process ordinary device/network/session metadata after consent. This is not anonymous tracking."
+        ],
+        [
+          "Private data",
+          "Names, emails, feedback text and private service records belong in the private runtime/mail system, never Git or analytics. There are no public comments or file uploads."
+        ],
+        [
+          "Permissions",
+          "Firestore defaults to deny outside explicitly allowed paths. There is no editor login/inbox implementation in the public site and no automatic assignment of custom claims."
+        ],
+        [
+          "Public repository",
+          "Source, KB and history are public by explicit approval. noindex is not access control. Review new records for accidental private data before committing."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 12,
+    "heading": "Operational boundaries"
+  },
+  {
+    "page": 12,
+    "text": "Firebase uses its own Kabita Live project. Do not borrow another project’s credentials or private data. Firebase Storage, Cloud Functions, a public discussion system and reader account synchronization are outside the implemented design. Enabling a new service requires its actual setup, verified configuration and authorized scope."
+  },
+  {
+    "page": 13,
+    "title": "A design system with memory.",
+    "subtitle": "Design system by Ahimanikya Satapathy; maintained as rules and applied examples."
+  },
+  {
+    "page": 13,
+    "table": {
+      "headers": [
+        "Layer",
+        "Approved rule"
+      ],
+      "rows": [
+        [
+          "Identity",
+          "English-only Kabita Live masthead, with the approved Odia signature in dark ink. Keep the signature’s alignment; do not repeat it in the footer."
+        ],
+        [
+          "English display / prose",
+          "Cormorant Garamond 500 for display and genuine italic quotations; Source Serif 4 for sustained reading."
+        ],
+        [
+          "Odia / Hindi",
+          "Noto Serif Oriya throughout Odia; Tiro Devanagari Hindi 400 upright for Hindi. Natural shaping and spacing; no synthetic bold or slant for Hindi."
+        ],
+        [
+          "Reading scale",
+          "Poems 24px desktop / 22px mobile, line height 1.8-2; enlargement options 28px and 32px. Preserve lineation and stanza spacing."
+        ],
+        [
+          "Controls",
+          "Clear sans serif with approved script fallbacks. Main navigation 17px, primary targets 48px; compact reader controls retain readable labels and at least 44px targets."
+        ],
+        [
+          "Surface and night mode",
+          "Cotton paper at 16%; deterministic poem washes at 18%, softened to 12.6% on phones. Night reading has no texture."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 13,
+    "text": "Use colors by role: ink for reading, muted ink for supporting metadata, laterite for selected emphasis and sea for supporting structure. Font files and OFL licenses are local assets. A heavier heading changes weight inside an approved family; it is not permission to substitute a new typeface."
+  },
+  {
+    "page": 14,
+    "title": "Consistency without flattening character.",
+    "subtitle": "Page families share behavior while their artwork and invitations remain specific."
+  },
+  {
+    "page": 14,
+    "heading": "Reusable patterns"
+  },
+  {
+    "page": 14,
+    "text": "Use a quiet artistic label, display heading, brief invitation, existing page-specific watercolor and compact wave-and-leaf ornament. Inner-page text and art balance by template. Actions should arrive promptly; remove redundant headings and margins before reducing legibility or touch targets."
+  },
+  {
+    "page": 14,
+    "text": "At 760px and below, inner artwork and covers fill the available width inside existing gutters with their natural aspect ratios. Portraits and small icons have their own sizing rules. Mobile poem and contribution tables become cards. Theme controls cycle System, Light and Dark and remember the choice."
+  },
+  {
+    "page": 14,
+    "heading": "Controlled exceptions"
+  },
+  {
+    "page": 14,
+    "text": "Poem and opening art generally meets the paper without a border. The homepage fine keyline and poet portrait paper frame are deliberate exceptions. The main Archive has its own approved larger single-boat footer treatment; do not spread that exception to every page. Quiet reading removes the site footer and navigation."
+  },
+  {
+    "page": 14,
+    "heading": "Meaning and attribution"
+  },
+  {
+    "page": 14,
+    "text": "Each cover has its own cultural narrative. Select poem art by imagery and stable mapping, not random rotation or a borrowed edition cover. Keep typography separate from art. Our Story’s colophon holds shared design/font/generated-art disclosure and portrait sources; actual bylines, translators and quotations remain beside their content."
+  },
+  {
+    "page": 14,
+    "box": "Accessibility is a verification practice",
+    "text": "Maintain script shaping, contrast, text enlargement, keyboard focus, named controls and popover dismissal. Inspect desktop and phone layouts with real poems. Existing checks and design acceptance do not certify accessibility; the enlarged-header concern and shared final checks remain visible in the review record."
+  },
+  {
+    "page": 15,
+    "title": "The knowledge base is part of the product.",
+    "subtitle": "A future maintainer should be able to explain why a decision exists."
+  },
+  {
+    "page": 15,
+    "table": {
+      "headers": [
+        "Knowledge layer",
+        "Canonical home and purpose"
+      ],
+      "rows": [
+        [
+          "Authority",
+          "AGENTS.md; TEAM-CHARTER.md; Working-Agreement.md; utkal.config.json. Define project scope, human authority and operating boundaries."
+        ],
+        [
+          "Decisions and work",
+          "kb/registers/records.json, activity.jsonl and generated DASHBOARD.md. Track decisions, status, evidence and next actions."
+        ],
+        [
+          "Research",
+          "kb/research: captures, writer dossiers, source URLs, identity evidence, enrichment and portrait queues. Keep support for claims and unresolved conflicts."
+        ],
+        [
+          "Design source",
+          "kb/artifacts/design/brand-guide: approved design rules and guide source. kb/design and generated references make that source discoverable."
+        ],
+        [
+          "Assets and history",
+          "kb/artifacts/artwork and history: original photographs, masters, prior studies, font licenses and delivery snapshots. Web derivatives do not replace masters."
+        ],
+        [
+          "Review and evidence",
+          "kb/review, kb/evidence and their artifacts: browser checks, exports, hashes and revision-specific results. Record self-review honestly."
+        ],
+        [
+          "Reusable practice",
+          "kb/team, kb/roles and project-specific profile/portrait skills. Rules encode repeatable work but do not grant new privileges."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 15,
+    "heading": "A closed maintenance loop"
+  },
+  {
+    "page": 15,
+    "text": "Read the current evidence; make a bounded change; verify it; write a record and activity event; regenerate the dashboard and catalogue; check structure; synchronize the portable handoff; verify parity. When a design reference changes, refresh the derived design knowledge as well."
+  },
+  {
+    "page": 15,
+    "box": "What “knowledge” means here",
+    "text": "It is a versioned repository of files, links and provenance. There is no implemented vector database, automatic retrieval service or self-learning production model. AI reads the relevant project knowledge during authorized work."
+  },
+  {
+    "page": 16,
+    "title": "Human direction, traceable assistance.",
+    "subtitle": "AI accelerates research and production while the project retains accountable decisions."
+  },
+  {
+    "page": 16,
+    "text": "AI was used to inspect the existing publication, research writers, draft enriched narratives and translations, explore artwork, implement layouts and reader behavior, write tests, inspect browser output, reconcile content and prepare editor/technical documents. Repeated source checks and visual revisions are part of the effort, not a one-shot generation."
+  },
+  {
+    "page": 16,
+    "table": {
+      "headers": [
+        "On-demand role",
+        "Responsibility"
+      ],
+      "rows": [
+        [
+          "Disha Dash",
+          "Product coordination, scope, work queue and handoffs."
+        ],
+        [
+          "Anvesha Acharya",
+          "Research, editorial support, knowledge and archive stewardship."
+        ],
+        [
+          "Samanta Chandrasekhar",
+          "Experience design, implementation and source/handoff consistency."
+        ],
+        [
+          "Drishti Senapati",
+          "Quality and accessibility checks, evidence and unresolved findings."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 17,
+    "title": "Research and language rules.",
+    "subtitle": "Generate only what the evidence and the approved purpose can support."
+  },
+  {
+    "page": 17,
+    "heading": "Profiles and identity"
+  },
+  {
+    "page": 17,
+    "bullet": "Join by stable writer ID. Match identity with author, publisher, institution, festival or other credible first-party evidence. Keep name collisions and uncertain aliases unresolved until supported."
+  },
+  {
+    "page": 17,
+    "bullet": "Separate captured biography from new enrichment. Record claim support, URL, access date and contradictions. Date historical affiliations; do not turn an old biography into an unsupported current job title."
+  },
+  {
+    "page": 17,
+    "bullet": "Use compact, factual literary prose. Avoid inflated awards, invented books, personal contact details, unsupported credentials or an assumed cultural identity. Source-limited material stays modest."
+  },
+  {
+    "page": 17,
+    "heading": "Poetry, quotations and translations"
+  },
+  {
+    "page": 17,
+    "bullet": "Preserve the complete original, script, line breaks, stanzas, byline, translator and edition association. A repaired presentation must not silently rewrite the poem."
+  },
+  {
+    "page": 17,
+    "bullet": "Opening quotations come from that writer’s actual contribution and retain a local work citation. Keep original-language wording exact; distinguish a translation from a source quotation."
+  },
+  {
+    "page": 17,
+    "bullet": "Keep translation variants connected to source units, with their real status and genuine translator attribution. A generated draft remains a draft until the required editorial process is complete."
+  },
+  {
+    "page": 17,
+    "bullet": "Do not fabricate an absent source body, fill missing author metadata from a guess, or suppress a real conflict to make a dashboard look complete. Conversely, missing provenance alone does not hold available content under the approved direction."
+  },
+  {
+    "page": 17,
+    "box": "Reusable acceptance question",
+    "text": "Can the next editor identify the source, understand what changed, see what remains uncertain and recover the prior version? If any answer is no, the work is not yet a complete handover."
+  },
+  {
+    "page": 18,
+    "title": "Artistic treatment with identity intact.",
+    "subtitle": "Portrait work begins from an identified photograph and ends with a reviewed derivative."
+  },
+  {
+    "page": 18,
+    "heading": "The approved portrait language"
+  },
+  {
+    "page": 18,
+    "text": "A recognizable face, delicate watercolor and graphite edges, warm ivory cotton paper, restrained teal, ochre and laterite washes. Preserve facial geometry, age, complexion, expression, hair, clothing, glasses, bindi and jewelry. Do not lighten skin, change costume, invent accessories or add cultural symbols based on a person’s name."
+  },
+  {
+    "page": 18,
+    "heading": "The production sequence"
+  },
+  {
+    "page": 18,
+    "table": {
+      "headers": [
+        "Stage",
+        "Required evidence"
+      ],
+      "rows": [
+        [
+          "Identify and preserve",
+          "Save the unchanged source photograph and its origin. Inspect it before editing; record a hash. A style reference supplies treatment, never another person’s identity."
+        ],
+        [
+          "Generate candidate",
+          "Use the authorized image-editing tool with the identified source and an exact saved prompt. Retain the generated master, tool record and hash."
+        ],
+        [
+          "Compare",
+          "Visually compare face, expression and clothing to the original. Check profile crop, mobile view and circular thumbnail. Rework material drift; keep rejected studies as history."
+        ],
+        [
+          "Integrate",
+          "Create the web derivative and update the central portrait mapping only after verification. Preserve originals and the source/provenance record."
+        ],
+        [
+          "Hold honestly",
+          "Missing photographs keep initials. Unusable or identity-drifting candidates retain the original photograph and an explicit hold. Do not invent a face."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 18,
+    "heading": "Covers and illustrations"
+  },
+  {
+    "page": 18,
+    "text": "Artwork should support the poem or edition’s cultural narrative. Protect focal points and keep text separate from generated art. Use stable, meaningful mappings; do not randomly recycle covers as poem illustrations. Preserve all historical magazine originals, reserved studies and asset-specific attribution commitments."
+  },
+  {
+    "page": 19,
+    "title": "The project’s operating contract.",
+    "subtitle": "A concise rulebook for any assistant continuing Kabita Live work."
+  },
+  {
+    "page": 19,
+    "rule": "01 / Read before acting",
+    "text": "Read the KB entrypoint, charter, working agreement, dashboard, latest activity, operating model, assignments and relevant role. Resolve current scope from actual user direction and current evidence."
+  },
+  {
+    "page": 19,
+    "rule": "02 / Respect authority",
+    "text": "Ahimanikya directs the redesign. Publication editors retain their actual duties and literary responsibility. Never invent appointments, approvals, independent review or human reporting to AI."
+  },
+  {
+    "page": 19,
+    "rule": "03 / Work within scope",
+    "text": "Proceed with authorized, reversible work. New design directions, service expansion, spending, external messages, publication and domain changes need their applicable explicit authority; do not infer it from a preview check."
+  },
+  {
+    "page": 19,
+    "rule": "04 / Preserve sources",
+    "text": "Keep originals, IDs, licenses, captures, masters, cultural narratives and prior versions. Use evidence for identity and factual claims; retain unresolved cases instead of guessing."
+  },
+  {
+    "page": 19,
+    "rule": "05 / Keep readers clear",
+    "text": "The site is the replacement publication. No reader-facing former-site dependencies, internal audit jargon or workflow clutter. Keep substantive bylines and credits where they belong."
+  },
+  {
+    "page": 19,
+    "rule": "06 / Protect boundaries",
+    "text": "Publish only the public build. Keep private messages and credentials out of Git. Keep analytics/Firebase disabled until actual setup and checks; retain consent and content gates."
+  },
+  {
+    "page": 19,
+    "rule": "07 / Verify the candidate",
+    "text": "Test the relevant behavior, compare sources and inspect actual output. Report pass, fail, not tested and known limitations. Same-assistant role changes are self-review."
+  },
+  {
+    "page": 19,
+    "rule": "08 / Finish the record",
+    "text": "Save provenance and exact resume points, append activity, regenerate records, check structure and sync the handoff. Never declare local changes hosted before live verification."
+  },
+  {
+    "page": 20,
+    "title": "Automation is a narrow exception.",
+    "subtitle": "Queues continue only within their recorded authorization and stop conditions."
+  },
+  {
+    "page": 20,
+    "heading": "What is authorized"
+  },
+  {
+    "page": 20,
+    "text": "The writer-enrichment loop was approved to continue in this same chat every 30 minutes. Its actionable narrative work is complete and the loop is paused. The translation loop is also paused after its actionable draft work; neither pause turns drafts into editorially reviewed text."
+  },
+  {
+    "page": 20,
+    "text": "The portrait loop was separately approved on 2 October to continue automatically every 20 minutes, sequentially in groups of five. Its scope includes identified-source image edits, likeness checks, masters/provenance, local integration, verification and KB/handoff updates. No overlapping workers or automatic subagent dispatch is authorized."
+  },
+  {
+    "page": 20,
+    "heading": "Checkpoint before continuing"
+  },
+  {
+    "page": 20,
+    "bullet": "Read the queue and most recent batch evidence. Determine the first actionable writer and check whether any prior integration still needs verification."
+  },
+  {
+    "page": 20,
+    "bullet": "Complete a bounded batch; compare all faces and crops; verify source preservation and affected pages. Persist the exact next writer, any holds and whether the batch is integrated or verified."
+  },
+  {
+    "page": 20,
+    "bullet": "If interrupted or blocked, retain a precise resume point. Keep missing-photo and likeness holds separate from completed portraits. Do not retry indefinitely or invent substitute faces."
+  },
+  {
+    "page": 20,
+    "heading": "A specific final-deployment exception"
+  },
+  {
+    "page": 20,
+    "text": "The later instruction “Keep doing the loop once all done update git and website” authorizes the final portrait rollout update only after all actionable portraits and integrated batches are verified. It permits the scoped commit/push and established manual Pages deployment, followed by live checks. There is no intermediate-batch deployment, force push or unrelated publication."
+  },
+  {
+    "page": 20,
+    "box": "Preserve the existing release state",
+    "text": "Final portrait delivery retains preview noindex, disabled services and unchanged DNS unless separately authorized. Pause the heartbeat after successful final deployment and verification; report remaining holds. This document does not trigger or broaden that workflow."
+  },
+  {
+    "page": 21,
+    "title": "What the token records show.",
+    "subtitle": "Snapshot cutoff: 2 October 2026, 18:25 UTC / 11:25 a.m. Pacific."
+  },
+  {
+    "page": 21,
+    "text": "Recorded tokens across the two identified main Kabita Live chats, from 29 September through the cutoff. This measures repeated model input and output over the work, including cached context; it is not the volume of unique writing."
+  },
+  {
+    "page": 21,
+    "table": {
+      "headers": [
+        "Recorded usage",
+        "Main chats",
+        "Auto-review",
+        "Combined"
+      ],
+      "rows": [
+        [
+          "Sessions with usage",
+          "2",
+          "66",
+          "68"
+        ],
+        [
+          "Input tokens",
+          "1,137,103,333",
+          "49,281,648",
+          "1,186,384,981"
+        ],
+        [
+          "Cached input (subset)",
+          "1,106,871,552",
+          "42,138,624",
+          "1,149,010,176"
+        ],
+        [
+          "Output tokens",
+          "3,593,231",
+          "55,714",
+          "3,648,945"
+        ],
+        [
+          "Total: input + output",
+          "1,140,696,564",
+          "49,337,362",
+          "1,190,033,926"
+        ],
+        [
+          "Reasoning (in output)",
+          "427,350",
+          "23,342",
+          "450,692"
+        ]
+      ]
+    }
+  },
+  {
+    "page": 21,
+    "text": "The combined observed total is <b>1,190,033,926</b> tokens: approximately 1.190 billion. Automatic review contributes 49,337,362 tokens and is reported separately from the two working chats. These are application safety/approval-review sessions, not the four project personas."
+  },
+  {
+    "page": 21,
+    "box": "Why the total is so large",
+    "text": "About 96.85% of combined input is cached: 1,149,010,176 cached input tokens versus 37,374,805 non-cached input tokens. Long conversations repeatedly process project instructions, context and tool results. Cached tokens remain part of input; do not add them a second time."
+  },
+  {
+    "page": 22,
+    "title": "An auditable count, with limits.",
+    "subtitle": "The unit counted is a model token reported by the local session usage event."
+  },
+  {
+    "page": 22,
+    "heading": "Scope and calculation"
+  },
+  {
+    "page": 22,
+    "bullet": "Identify the two project chats from the app’s project listing: “Redesign Kabita Live magazine” and “Create Kabita Live social pages”. The first began in the Poem Without Borders directory; folder-only matching would miss it."
+  },
+  {
+    "page": 22,
+    "bullet": "Enumerate local session metadata and follow parent-thread IDs to associate automatic review sessions. Exclude unrelated chats even when they share a folder. De-duplicate by session ID."
+  },
+  {
+    "page": 22,
+    "bullet": "For each session, select the latest cumulative total_token_usage event at or before 18:25 UTC. Sum one cumulative value per session; never sum all cumulative snapshots."
+  },
+  {
+    "page": 22,
+    "bullet": "Validate input + output = total; cached input does not exceed input; reasoning does not exceed output. The selected sessions show no decreasing cumulative totals, and each first cumulative event equals its first reported last-usage event."
+  },
+  {
+    "page": 22,
+    "bullet": "Two related automatic-review sessions have no usage event by the cutoff. They contribute no measured amount and remain explicitly unmeasured. Work after the cutoff is excluded, including later handover authoring and ongoing portraits."
+  },
+  {
+    "page": 22,
+    "heading": "What cannot be inferred"
+  },
+  {
+    "page": 22,
+    "text": "The logs do not supply a complete bill or a defensible cost allocation by feature. Browser work, image-generation services and other tool-side model usage may not have separate token reporting here. Unrecorded, deleted, remote or other project sessions could add usage. No dollar cost, labor-hour total or “tokens per poem” is inferred."
+  },
+  {
+    "page": 22,
+    "text": "OpenAI’s app-server documentation describes thread token-usage update events. Its prompt-caching documentation identifies cached tokens as part of input. This handover uses the locally recorded counters and labels rather than converting them into estimated billing."
+  },
+  {
+    "page": 22,
+    "box": "Portable accounting evidence",
+    "text": "The accompanying evidence/token-usage-snapshot.json contains the cutoff, included session IDs, categorized totals and checks. Raw transcripts, user/account identifiers, credentials and private log contents are not copied into the KB."
+  },
+  {
+    "page": 23,
+    "title": "Bring up a working copy.",
+    "subtitle": "Use the project’s pinned dependencies and preserve the established review origin."
+  },
+  {
+    "page": 23,
+    "heading": "Prepare the environment"
+  },
+  {
+    "page": 23,
+    "text": "Clone the existing repository with authorized access. Use Node 24 and Python 3 (CI uses 3.12). Java 21 is needed for the Firestore emulator tests. Install Git LFS and retrieve the historical ZIPs when those archives are required; website builds do not need them."
+  },
+  {
+    "page": 23,
+    "code": "git clone https://github.com/ahimanikya/kabita-live.git\ncd kabita-live\ngit lfs install\ngit lfs pull\ncd projects/site\nnpm ci\nnpm test\nnpm run test:rules\nnpm run build"
+  },
+  {
+    "page": 23,
+    "text": "npm ci uses package-lock.json. The package engine allows Node >=22.12.0, but the project and CI standard is Node 24. Recorded versions are Astro 7.3.5, Firebase 12.19.0, Pagefind 1.5.2, esbuild 0.25.12 and firebase-tools 15.32.0. Review upgrades as changes, not incidental setup fixes."
+  },
+  {
+    "page": 23,
+    "heading": "Preview and source changes"
+  },
+  {
+    "page": 23,
+    "text": "Keep the existing http://127.0.0.1:8771/ preview running while review decisions depend on that origin. Check whether the port is occupied before starting a second server. For an isolated build check, serve dist on a different local port; do not treat the raw preview directory as a deployable package."
+  },
+  {
+    "page": 23,
+    "code": "# From projects/site; only if port 8771 is available\nnpm run dev -- --port 8771\n\n# Gate inspection; expected to refuse current release\nnpm run check:release"
+  },
+  {
+    "page": 24,
+    "title": "A deliberate release, a recoverable change.",
+    "subtitle": "A Git push stores work; only a manual approved workflow publishes the website."
+  },
+  {
+    "page": 24,
+    "heading": "Publish an approved preview"
+  },
+  {
+    "page": 24,
+    "bullet": "Review the intended diff and working tree; preserve unrelated ongoing work. Complete relevant content, build and browser checks. Commit and push only the authorized scope to the existing repository."
+  },
+  {
+    "page": 24,
+    "bullet": "Open the Publish Kabita Live workflow. Select main, set publish_approved and choose preview. The workflow requires the initiating actor to be the repository owner; a maintainer needs the appropriate owner-led dispatch path."
+  },
+  {
+    "page": 24,
+    "bullet": "CI installs locked dependencies, runs application and Firestore emulator tests, builds with Pages origin/base-path values, and uploads only projects/site/dist. The deploy job uses the github-pages environment and Pages/OIDC permissions."
+  },
+  {
+    "page": 24,
+    "bullet": "Verify the actual live routes, assets, search, quiet reader, grouped profiles and mobile layout. Confirm KB/audit pages are excluded and record the exact deployed commit, workflow URL and remaining limitations."
+  },
+  {
+    "page": 24,
+    "heading": "Move from preview to full release"
+  },
+  {
+    "page": 24,
+    "text": "Reconcile the editorial gate and translation review, then obtain the applicable full-release authorization. Use build:release / release mode without bypassing safeguards. The custom domain and DNS cutover are a separate coordinated operation: capture existing DNS, verify ownership and plan routing, HTTPS and rollback before any change."
+  },
+  {
+    "page": 24,
+    "heading": "Recover without losing work"
+  },
+  {
+    "page": 24,
+    "text": "If a deployment fails, retain the last successful live version, read the failing job and fix the exact cause. For a bad published change, preserve current work, create a reviewed revert or restore the known-good source through a new commit, rebuild and manually deploy under the relevant authority. Do not force-push or delete history as a shortcut."
+  },
+  {
+    "page": 24,
+    "box": "Recovery inventory",
+    "text": "Git preserves source and KB revisions; LFS preserves historical ZIP payloads; original captures and artwork masters support content recovery. The portable handoff is a synchronized source package, not a live private-feedback backup. Runtime/mail retention requires its own operating policy."
+  },
+  {
+    "page": 25,
+    "title": "Checks should match the change.",
+    "subtitle": "Evidence belongs to the exact revision and the behavior actually exercised."
+  },
+  {
+    "page": 25,
+    "table": {
+      "headers": [
+        "Change / symptom",
+        "Required check or first investigation"
+      ],
+      "rows": [
+        [
+          "Poem / writer content",
+          "Run tools/check_author_pages.py, check_editions.py and check_writer_identities.py as applicable. Compare source hashes, stable IDs, active counts and reciprocal contributions."
+        ],
+        [
+          "Reading or layout",
+          "Check long/short poems, the three scripts, language fallback, size/theme controls, keyboard/focus and 360px layout. Inspect actual pagination and marks; run relevant reader checks/tests."
+        ],
+        [
+          "Broken hosted asset",
+          "Check the public manifest, selected asset path, case sensitivity and SITE_BASE. Reproduce from a clean build rather than relying on the permissive raw local preview."
+        ],
+        [
+          "Release refusal",
+          "Read launch_ready and translation statuses. Resolve the real editorial requirement and stale gate wording through reviewed records; do not weaken the guard or bulk-certify drafts."
+        ],
+        [
+          "Feedback stays email",
+          "Check enabled, allowedHosts and HTTPS. Email fallback is expected while disabled. Test rules in the emulator and the configured live system before enabling."
+        ],
+        [
+          "Lost local marks",
+          "Check browser/origin/storage availability. Marks are local, with no server account backup. Do not clear storage to fix an unrelated visual problem."
+        ],
+        [
+          "Portrait mismatch",
+          "Compare saved original, master and derivative; retain the source photo on material drift. Inspect the central mapping and crops before blaming the page template."
+        ],
+        [
+          "Handoff mismatch",
+          "Run sync_handoff.py then check_storage.py. Investigate unexpected divergence; never silently overwrite independent handoff edits."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 25,
+    "text": "The initial hosted preview record reports 24 local application tests and five Firestore emulator tests passing in CI, plus live route/browser checks. Those results are dated evidence for that deployment, not proof that every later revision or every device has been checked."
+  },
+  {
+    "page": 26,
+    "title": "The next maintainer’s priority list.",
+    "subtitle": "Preserve the distinction between a useful hosted preview and a fully reviewed release."
+  },
+  {
+    "page": 26,
+    "table": {
+      "headers": [
+        "Priority",
+        "Work and completion evidence"
+      ],
+      "rows": [
+        [
+          "Editorial release",
+          "Resolve poem 645’s missing edition, poem 30’s missing author and current identity/credit questions. Reema/Rima and the Padmashree R.P./Niranjan bridge require evidence; Ma Yongbo’s English translator remains unverified."
+        ],
+        [
+          "Translations",
+          "Review the 1,572 draft variants through the actual editorial process. Record reviewer, scope and outcome before changing review status. No automatic certification."
+        ],
+        [
+          "Portrait rollout",
+          "Continue the authorized sequential queue; report source/likeness holds. Verify all integrated batches before the specifically authorized final preview deployment."
+        ],
+        [
+          "Gate/record reconciliation",
+          "content-status.json still mentions complete reviews and missing biographies despite review-route retirement and applied enrichment. Older architecture paragraphs also say undeployed. Update stale wording from current evidence without erasing real blockers."
+        ],
+        [
+          "Private intake",
+          "Finish live Firebase checks, approved hosts, editor claims, inbox/retention and abuse controls if the publication chooses to activate it. Email remains workable meanwhile."
+        ],
+        [
+          "Analytics",
+          "Complete the real GA4 property/terms/configuration and consented validation if approved. Keep disabled until then."
+        ],
+        [
+          "Quality and domain",
+          "Complete shared accessibility/script/enlargement checks; confirm full-release readiness separately; coordinate custom-domain and DNS cutover under explicit direction."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 26,
+    "box": "Records already superseded",
+    "text": "The older audit list includes three identity pairs subsequently grouped with evidence. Do not reopen them simply because they appear in a historical list. Read writer-identity-resolution.json and the newer name/credit records alongside the original audit."
+  },
+  {
+    "page": 27,
+    "title": "Where to verify each claim.",
+    "subtitle": "Paths are relative to the repository unless an external URL is shown."
+  },
+  {
+    "page": 27,
+    "table": {
+      "headers": [
+        "Subject",
+        "Primary evidence / maintained source"
+      ],
+      "rows": [
+        [
+          "Authority and storage",
+          "AGENTS.md; utkal.config.json; kb/TEAM-CHARTER.md; kb/Working-Agreement.md; kb/reference/storage-layout.md"
+        ],
+        [
+          "Architecture and build",
+          "projects/site/package.json; astro.config.mjs; build.py; build-public.py; src/pages/[...route].astro; .github/workflows/publish-site.yml"
+        ],
+        [
+          "Public delivery",
+          "kb/records/github-pages-preview-deployment.json and its linked clean-build, test and live-browser evidence"
+        ],
+        [
+          "Content and identities",
+          "projects/site/data/content-status.json; poem-translations.json; writer-identities.json; kb/records/writer-identity-resolution.json; kb/research/writers/enrichment-progress.json"
+        ],
+        [
+          "Browser and services",
+          "projects/site/assets/poem-experience.js; poem-marks.mjs; analytics.js; src/feedback.ts; firestore.rules; runtime-config.json"
+        ],
+        [
+          "Design and AI workflow",
+          "kb/artifacts/design/brand-guide/DESIGN-SYSTEM.md; kb/review/page-type-checklist.md; kb/team/operating-model.md; assignments.json; kb/roles/"
+        ],
+        [
+          "Active queue",
+          "kb/records/poet-watercolor-loop.json; kb/research/writers/portrait-batches.json; per-batch review.json evidence"
+        ],
+        [
+          "This delivery",
+          "kb/artifacts/design/technical-handover-2026-10-02: editable builder, content extraction, source hashes, usage snapshot and final PDF."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 27,
+    "heading": "External primary references"
+  },
+  {
+    "page": 27,
+    "text": "<link href=\"https://github.com/ahimanikya/kabita-live\" color=\"#125465\">Project repository</link> · <link href=\"https://github.com/ahimanikya/kabita-live/actions/runs/37015450954\" color=\"#125465\">Verified initial Pages workflow</link><br/><link href=\"https://learn.chatgpt.com/docs/app-server\" color=\"#125465\">OpenAI app-server documentation: thread usage updates</link><br/><link href=\"https://developers.openai.com/api/docs/guides/prompt-caching\" color=\"#125465\">OpenAI prompt-caching documentation: cached input accounting</link>"
+  },
+  {
+    "page": 28,
+    "title": "A practical acceptance checklist.",
+    "subtitle": "The next developer should be able to reproduce, explain and safely change the system."
+  },
+  {
+    "page": 28,
+    "heading": "Before the first change"
+  },
+  {
+    "page": 28,
+    "bullet": "Read the project entrypoints and confirm who owns design, editorial decisions, service access and release authorization. Understand the current preview scope and active background queue."
+  },
+  {
+    "page": 28,
+    "bullet": "Obtain the repository and, when needed, LFS archives. Build the public site with pinned dependencies. Locate the raw content, renderers, design source, evidence and portable handoff."
+  },
+  {
+    "page": 28,
+    "bullet": "Trace one poem from preserved capture through its edition, writer profile, translation variants and quiet-reader payload. Confirm the IDs and credits survive generation."
+  },
+  {
+    "page": 28,
+    "bullet": "Exercise one reader journey on desktop and phone: discovery, poem, quiet reader, mark, share and private feedback. Confirm the disabled services remain disabled."
+  },
+  {
+    "page": 28,
+    "heading": "Before handing a change back"
+  },
+  {
+    "page": 28,
+    "code": "# From repository root, after recording the change\npython3 tools/registers.py\npython3 tools/catalog.py\npython3 tools/check_bundle.py\npython3 tools/sync_handoff.py\npython3 tools/check_storage.py"
+  },
+  {
+    "page": 28,
+    "text": "Run check_personas.py if team or role records change. Run sync_design_knowledge.py when updating the design reference. Use focused content/browser tests for the actual change. Record the candidate, result, review independence, unresolved issues and recovery path."
+  },
+  {
+    "page": 28,
+    "box": "What this project makes possible",
+    "text": "A reusable literary publishing system: discoverable writing, richer author context, a multilingual reading experience and a preserved design memory. AI can help editors explore and produce more, while sources, human judgment and explicit review continue to determine what becomes part of the publication."
+  },
+  {
+    "page": 29,
+    "title": "Kalinga Blueprint: the operating model.",
+    "subtitle": "Human authority, reusable knowledge and evidence-backed delivery."
+  },
+  {
+    "page": 29,
+    "text": "Kalinga Blueprint is the name requested for this handover. Kabita Live’s adopted files are pinned to the earlier Utkal Blueprint source: baseline 0.1.0-rc.1, register model 1.0.0 and commit cc72044e151099792ccccb2435ea00f93084092e. The local KB uses OKF 0.2 metadata. Preserve these identifiers for reproducibility; this naming explanation does not silently upgrade or rename the adopted source."
+  },
+  {
+    "page": 29,
+    "heading": "What the Blueprint contributes"
+  },
+  {
+    "page": 29,
+    "text": "The Blueprint supplies a reusable way to run a project: a charter, explicit human accountability, working agreements, role assignments, linked work and decision records, a knowledge structure, review evidence and handover rules. Kabita Live adapts that model to a literary publication instead of inheriting another organization’s people, permissions or commitments."
+  },
+  {
+    "page": 29,
+    "table": {
+      "headers": [
+        "Layer",
+        "In Kabita Live"
+      ],
+      "rows": [
+        [
+          "Purpose and authority",
+          "Ahimanikya directs the redesign. The magazine’s actual editors and rights holders retain their responsibilities. AI supports authorized work."
+        ],
+        [
+          "Knowledge and memory",
+          "Sources, research, art masters, design decisions, revision history and evidence live in the canonical KB."
+        ],
+        [
+          "Execution and review",
+          "A brief becomes a bounded candidate, then proportionate checks and a truthful handover. Self-review remains labeled."
+        ],
+        [
+          "Records and discovery",
+          "Structured records and append-only activity generate the dashboard; catalogue and validation tools keep links and state discoverable."
+        ],
+        [
+          "Local adaptation",
+          "KBL IDs, the existing site layout, portable handoff and scoped background exceptions apply here. Adoption does not grant cross-project access."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 29,
+    "box": "Blueprint and technology are different layers",
+    "text": "Astro, Python, JavaScript, GitHub Pages, Firebase and GA4 implement the website. The Blueprint governs how people and AI decide, create, verify and maintain it. It is not a reader-facing framework, cloud database or autonomous agent service."
+  },
+  {
+    "page": 30,
+    "title": "One change, a chain of evidence.",
+    "subtitle": "Record once; generate the views; preserve the decision history."
+  },
+  {
+    "page": 30,
+    "text": "Stable IDs use the project prefix and record type, such as KBL-WORK, KBL-DEC, KBL-REV, KBL-REL, KBL-SRC and KBL-EVT. References connect records; evidence points to files or source URLs. Do not reuse IDs or maintain competing authoritative status lists."
+  },
+  {
+    "page": 30,
+    "table": {
+      "headers": [
+        "State dimension",
+        "Examples and meaning"
+      ],
+      "rows": [
+        [
+          "Work status",
+          "proposed, ready, in_progress, blocked, awaiting_review, completed, deferred, cancelled. Describes the task’s progress."
+        ],
+        [
+          "Readiness",
+          "concept, draft, reviewed, approved, applied, published. Describes the artifact’s maturity and use."
+        ],
+        [
+          "Review result",
+          "pass, pass_with_limitations, fail, not_tested. Records what was actually checked."
+        ],
+        [
+          "Authority",
+          "An approval names the actual human and bounded instruction. A validator cannot manufacture consent, truth or publication rights."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 30,
+    "text": "A translation task can be completed while its output remains a draft. A website can be applied locally and verified without being published. A hosted preview can exist while full-release checks remain open. These distinctions prevent a single “done” label from hiding important facts."
+  },
+  {
+    "page": 31,
+    "title": "The reusable production workflows.",
+    "subtitle": "A skill packages instructions, references and sometimes helper scripts for a repeatable task."
+  },
+  {
+    "page": 31,
+    "text": "Skills guide the assistant; tools carry out individual actions. A persona describes a responsibility, while the Blueprint defines the project’s authority and recordkeeping. None of these creates a new permission merely by being available."
+  },
+  {
+    "page": 31,
+    "table": {
+      "headers": [
+        "Skill",
+        "Inputs, outputs and acceptance rules"
+      ],
+      "rows": [
+        [
+          "kabita-writer-profiles",
+          "Input: stable writer ID, captured biography, actual contributions and identity-matched research. Output: grounded narrative, quotes, selected links and shared author pages. Preserve source/enrichment separation; check routes, credits and all three scripts."
+        ],
+        [
+          "kabita-author-portraits",
+          "Input: the identified saved source photograph and approved style. Output: preserved original, generated master, reviewed web derivative, portrait mapping and provenance. Compare identity, complexion, clothing and crops; keep original/initials on a hold."
+        ],
+        [
+          "imagegen",
+          "Creates or edits raster artwork from a task-specific prompt and references. Used for covers, illustrations and portrait treatment. Save the prompt, source/master links and relevant rights evidence; inspect the actual result before integration."
+        ],
+        [
+          "browser / Chrome",
+          "Inspect visible pages, capture source evidence, operate signed-in consoles and verify reading behavior. Use the required browser surface, current visible state and documented controls. Browser review does not authorize publication."
+        ],
+        [
+          "visualize",
+          "Supports interactive design studies and reviewable explanations. Keep candidates and approved implementations distinct; preserve the study and the actual decision. This PDF’s technical diagrams are editable vector drawings, not a new website component."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 31,
+    "heading": "Two project-owned skills are portable"
+  },
+  {
+    "page": 31,
+    "text": "The writer-profile and author-portrait contracts are preserved in kb/artifacts/skills and installed for reuse in the assistant environment. Profile layout/data details are kept in the profile skill’s references/author-pages.md. Keep the canonical project copies and installed instructions consistent when deliberately changing those workflows."
+  },
+  {
+    "page": 32,
+    "title": "Documents, verification and experiments.",
+    "subtitle": "Supporting workflows matter; explored capabilities remain separate from shipped features."
+  },
+  {
+    "page": 32,
+    "table": {
+      "headers": [
+        "Skill",
+        "Role and boundary in this project"
+      ],
+      "rows": [
+        [
+          "pdf:pdf",
+          "Editor proposals, project story and technical handover. Generate the PDF, render pages, inspect every final page, verify text/layout and retain the source. A successful export is not visual QA."
+        ],
+        [
+          "presentations:<br/>Presentations",
+          "Editor-facing PowerPoint production, including the value/creativity presentation. Preserve editable slides and presenter credit; review the actual exported deck."
+        ],
+        [
+          "documents:documents",
+          "Document/Word-format workflow consulted in the project history. It defines source editing plus render-and-verify practice. Its presence is not evidence that every PDF was created from a DOCX."
+        ],
+        [
+          "skill-creator",
+          "Creation and maintenance of reusable project-specific skill contracts, resources and metadata. A skill change requires its own scoped review; it does not modify project authority."
+        ],
+        [
+          "openai-docs",
+          "Official documentation for Codex/tool behavior and usage accounting. Use fetched primary sources and distinguish measured local usage from billing or unobserved tool usage."
+        ],
+        [
+          "computer-use",
+          "Native application interaction workflow consulted historically. Prefer a purpose-built tool or browser skill when applicable. It is not a license to bypass a failed browser connection."
+        ],
+        [
+          "poetry-to-music",
+          "Consulted during audio exploration. Recited/audio production was deferred; no active music pipeline or live poem audio is claimed for the Kabita Live website. Unrelated Adigandha instructions do not transfer into this project."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 32,
+    "box": "Inventory evidence and its limits",
+    "text": "The audit found 13 logical skill families referenced in tool-call history across the two main project chats. Repeated reads, old plugin versions and path aliases are consolidated. Reading a skill is evidence of consultation, not proof that every capability ran or that its output shipped."
+  },
+  {
+    "page": 33,
+    "title": "Make the workflow reusable, not magical.",
+    "subtitle": "A future assistant should have the same inputs, constraints and quality gates."
+  },
+  {
+    "page": 33,
+    "heading": "What to record for each production step"
+  },
+  {
+    "page": 33,
+    "bullet": "Purpose and trigger: describe the specific task the skill is for, and the cases it must not absorb. The portrait skill is for Kabita writers from identified photographs, not generic biography research."
+  },
+  {
+    "page": 33,
+    "bullet": "Required inputs: stable IDs, source files, approved design rules, target formats and relevant rights/credit information. Read referenced instructions before producing a candidate."
+  },
+  {
+    "page": 33,
+    "bullet": "Output contract: canonical destination, filenames or mappings, preserved originals, prompts/tool details, provenance and the expected review evidence."
+  },
+  {
+    "page": 33,
+    "bullet": "Acceptance and failure: meaningful checks, visual comparisons, unresolved findings and an exact resume point. A missing face, source conflict or failed export must not be disguised as completion."
+  },
+  {
+    "page": 33,
+    "heading": "Preserve the distinction between versions"
+  },
+  {
+    "page": 33,
+    "text": "Plugin bundles can update independently of the project. Keep the logical skill name, the observed instruction version/path and hashes of project-owned contracts in the evidence inventory. Do not overwrite historical prompts or claim a newer skill version governed older work."
+  },
+  {
+    "page": 33,
+    "text": "A changed skill should be checked on a representative real task before broad use. For profiles that means actual language and contribution edge cases; for portraits it means likeness and crop review; for PDFs/slides it means inspecting rendered output. This is a maintenance principle, not a claim that a separate automated skill-evaluation platform exists here."
+  },
+  {
+    "page": 33,
+    "box": "A generation receipt",
+    "text": "For a substantive result, preserve: task/authorization; source IDs and hashes; skill/workflow; exact generation prompt where applicable; output paths and hashes; checks; self/independent review label; unresolved issues; and the next action. This makes another editor or developer able to continue the work."
+  },
+  {
+    "page": 34,
+    "title": "Google visitors. Firebase private data.",
+    "subtitle": "Kalinga-aligned service boundaries, verified configuration and the remaining activation steps."
+  },
+  {
+    "page": 34,
+    "table": {
+      "headers": [
+        "Service",
+        "Established state and remaining action"
+      ],
+      "rows": [
+        [
+          "Reference approach",
+          "Current Utkal/Kalinga reference commit 3e3a3850 has verified GA4; Firebase is a planned private-data boundary there. Kabita uses dedicated service identities, never the reference measurement ID."
+        ],
+        [
+          "Firebase verified",
+          "Chrome now works. Fresh console checks confirm the Kabita Live Spark project, anonymous Auth enabled, empty Mumbai Firestore and published private-feedback rules. The client stays disabled until a live test passes."
+        ],
+        [
+          "Live-test blocker",
+          "The initial synthetic test was rejected before execution because database cleanup was incomplete. The script now requires administrator access and cleans every generated record. CLI OAuth approval is pending: its standard scope covers Firebase and Google Cloud across the account."
+        ],
+        [
+          "Analytics prepared",
+          "Account Kabita Live; property Kabita Live website; India reporting time; INR; Books & Literature; visitor and engagement objectives. All optional account sharing is off. India terms and Data Processing Terms are prepared for explicit acceptance. No property or measurement ID yet."
+        ],
+        [
+          "Local safeguards",
+          "26 tests pass, including five Analytics cases; five emulator cases skipped. Exact exported routes/titles, no tag before consent, no private fields/referrer, project-only cookie cleanup and page-local consent fallback are checked."
+        ],
+        [
+          "Enable and verify",
+          "After approvals: create the web stream, disable enhanced measurement, run the Firebase synthetic test with cleanup, check intended HTTPS hosts and editorial access, then verify the deployed consented flow. Services remain disabled; DNS is unchanged."
+        ]
+      ]
+    }
+  },
+  {
+    "page": 34,
+    "text": "Firebase currently supports private feedback/contact details and correction or submission text. Reader sign-in, profiles and cloud bookmarks are a separate pending scope choice. Current bookmarks remain on the device. Ordinary visitor reporting belongs in Google Analytics; private reader records belong in Firebase."
+  }
+]

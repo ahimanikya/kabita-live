@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-10-02T19:35:30.490762+00:00",
+  "authorization_quote": "Whatever we done so far, can we push to git?",
+  "scope": "Checkpoint all current Kabita Live project work to existing GitHub main branch; no website deployment in this request. Supersedes intermediate push restriction for this checkpoint only.",
+  "status": "review_branch_checkpoint_prepared",
+  "repository": "https://github.com/ahimanikya/kabita-live",
+  "branch": "codex/work-checkpoint-2026-10-02",
+  "baseline_commit": "de73a95",
+  "includes": [
+    "Portrait rollout through verified batch 030: 153 artistic portraits; 270 actionable photos remaining; 1 likeness hold and 3 missing-photo holds",
+    "Project story, value/creativity presentations and technical handover with provenance",
+    "Analytics consent and public-route safeguards; services remain disabled",
+    "KB records, source assets, generated reader pages and verification evidence"
+  ],
+  "checks": [
+    "Node 24 public Astro build passed",
+    "26 tests passed; 5 Firestore emulator tests skipped in default suite",
+    "Changed text scanned for common credential patterns: no matches",
+    "Git diff whitespace check passed",
+    "Fetched origin/main; no divergence from local starting commit",
+    "Author and edition integrity checks passed",
+    "KB bundle and handoff/storage checks passed",
+    "Original ZIP archive LFS pointers restored unchanged in isolated index",
+    "1369 changed files; no changed blob exceeds 50 MiB; largest 5.1 MiB"
+  ],
+  "limitations": [
+    "Independent likeness and editorial reviews remain pending",
+    "Live service activation is separate and remains blocked on documented approvals",
+    "This checkpoint does not deploy the website"
+  ],
+  "independent": false,
+  "commit_method": "Isolated Git metadata in /tmp/kabita-git-checkpoint-20261002 with source workspace as work tree; existing original .git/index.lock preserved. Original checkout HEAD/index remain unchanged.",
+  "main_unchanged": true,
+  "approval_review": {
+    "action": "Direct push to main",
+    "result": "rejected",
+    "reason": "Broad 1379-file snapshot affecting default branch",
+    "safer_alternative": "New review branch; no merge or deployment"
+  }
+}
