@@ -1,0 +1,51 @@
+{
+  "result": "FAIL",
+  "verified_at": "2026-10-03T22:29:30.146267+00:00",
+  "release_commit": "70f581f5361062cfd2d7b105f0fe46e322dddf7d",
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37158421518",
+  "checks": {
+    "profile": true,
+    "directory": true,
+    "reader": true,
+    "noindex": true
+  },
+  "assets": [
+    {
+      "path": "assets/writers/360-earth-voice-v1.webp",
+      "sha256": "3ee18bfb7aab3b2bd182cf82ee7cb6074674901b5c18d178bb158092924049bd",
+      "expected": "3ee18bfb7aab3b2bd182cf82ee7cb6074674901b5c18d178bb158092924049bd",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/360-earth-voice-v1-128.webp",
+      "sha256": "ddb9ab9b2bbbdd6ceac680374324358b9a8c451ac05d2aab368772dec4749099",
+      "expected": "ddb9ab9b2bbbdd6ceac680374324358b9a8c451ac05d2aab368772dec4749099",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/360-earth-voice-v1-64.webp",
+      "sha256": "f12c6233b8c51fac0ea7c29ab011a4eabd42d5858d0556f8289163122ca9f8ec",
+      "expected": "f12c6233b8c51fac0ea7c29ab011a4eabd42d5858d0556f8289163122ca9f8ec",
+      "pass": true
+    },
+    {
+      "path": "runtime-config.json",
+      "sha256": "281e322165a5569da51f9cc56ee0ccd4ffe1892f0eae95d11fdb5deb0da3d4ff",
+      "expected": "fc2c2d0d565d07b8fbb3b0fa61ca77d9a7af3bba3162e79989b96458ea10edea",
+      "pass": false
+    },
+    {
+      "path": "assets/analytics.js",
+      "sha256": "c9b7ca39f408f2e2a1c64056aa46fa21c87f4a29026f9dd57a2344590f487180",
+      "expected": "c9b7ca39f408f2e2a1c64056aa46fa21c87f4a29026f9dd57a2344590f487180",
+      "pass": true
+    },
+    {
+      "path": "assets/engagement.js",
+      "sha256": "379b612f200aa4877b166cd0fa75640f48dcf78ccdc3bc77b5a346be301fe571",
+      "expected": "379b612f200aa4877b166cd0fa75640f48dcf78ccdc3bc77b5a346be301fe571",
+      "pass": true
+    }
+  ],
+  "independent": false
+}
