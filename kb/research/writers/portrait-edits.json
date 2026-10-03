@@ -8743,5 +8743,36 @@
       "live_verification": "research/writers/selective-portrait-fixes-2026-10-03/live-verification.json",
       "verified_at": "2026-10-03T15:28:59.939413+00:00"
     }
+  },
+  {
+    "writer_id": 360,
+    "source": {
+      "writer_id": 360,
+      "name": "Shakuntala Gupta/ ଶକୁନ୍ତଳା ଗୁପ୍ତା",
+      "source_page": "https://kabitalive.com/contri-view.php?id=360",
+      "source_image": "https://kabitalive.com/poetry_panel/photo/Pic_31082024150431996.jpg",
+      "file": "artifacts/artwork/portrait-sources/writers/360-journal-original.webp",
+      "content_type": "image/webp",
+      "rights": "Journal-supplied image; publication rights not independently verified"
+    },
+    "source_sha256": "cd8e17be1f884e11da07b8db1968b8ab6141941523597be9f383ffbd26416eeb",
+    "style_reference": "projects/site/assets/editors/pradeep-biswal-artistic-v1.webp",
+    "master": "artifacts/artwork/writer-portraits/360-earth-voice-v1.png",
+    "master_sha256": "0ce47164db90a38ccb27d5b1693be944ef0d40857e38514fef7d59604cd741a1",
+    "prompt": "Use case: identity-preserve / watercolor style-transfer. Create a square literary portrait of poet Shakuntala Gupta from reference 1. Reference 1 alone supplies identity, face geometry, age, complexion, expression, hairstyle, visible clothing and crop. Reference 2 supplies only the Kabita Live watercolor/graphite medium, never its face, pose or clothes.\nPreserve her softly rounded broad face and jaw, source unequal eyes and gentle forward gaze, tiny dark bindi, broad natural nose and softly closed pink lips with their subtle asymmetric smile. Keep the swept-back dark brown hair with its natural volume, visible hair part and soft flyaways; keep the source ear occlusion and small visible earrings without making them more elaborate. Preserve the pale clothing at the lower left, its subtle trim, and the thin dark necklace only as far as visible. Maintain the close face-led square framing and natural source head angle; do not invent hands, torso or hidden adornments. Do not lighten skin, narrow the face, enlarge eyes, sharpen the irises or smooth away natural tonal variations.\nHuman Natural with Poetic Natural restraint: let recognizable presence and the quiet expression lead. Use believable soft available light from the source, selective watercolor detail and delicate graphite at a few facial/hair boundaries. Warm ivory cotton paper surrounds gently dissolving hair and shoulder edges. Allow a little uneven muted sea and hearth wash at the outer shoulder edges with a small restrained laterite accent; leave ample unpainted quiet space, no symmetric colorful halo, theatrical lighting, saturated orange/teal grading, decorative splatter or mechanical grain. Replace the crowded room/background people with ivory paper; this is an artistic portrait, not a new documentary scene. Keep facial boundaries readable and the original hair silhouette recognizable. Render fine jewelry and hair softly where the source is soft, rather than reconstructing details. No landscape, flowers, books, icons, symbols, written text, signature or watermark.",
+    "tool": "built-in image_gen",
+    "review": "Normal-size source comparison: broad rounded face, unequal eyes and forward gaze, small dark bindi, broad nose, closed-lip asymmetric smile, swept hair silhouette and visible pale clothing retained. Crowded room removed. Watercolor/paper edges and muted washes give literary softness. Earrings, hair strands and necklace are more resolved than the soft source and remain interpretive; no material identity drift observed. Skin is warmer under the paper treatment, not intentionally lightened. Independent author/editor likeness review pending.",
+    "independent": false,
+    "status": "integrated_verified_locally",
+    "previous_asset": {
+      "src": "assets/writers/360-journal.webp",
+      "kind": "journal_photo",
+      "credit": "Kabita Live contributor portrait"
+    },
+    "publication_rights": "Journal-supplied image; publication rights not independently verified",
+    "verification_batch": "direct-request-shakuntala-gupta-2026-10-03",
+    "independent_likeness_review": "pending",
+    "human_natural": "Human Natural / Poetic Natural watercolor; source likeness retained with softly interpretive jewelry/hair",
+    "review_record": "research/writers/shakuntala-gupta-2026-10-03/record.json"
   }
 ]

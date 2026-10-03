@@ -1,0 +1,33 @@
+{
+  "writer_id": 360,
+  "name": "Shakuntala Gupta",
+  "user_request": "Can you watercolor for poet Shakuntala Gupta with Human natural poetic natural",
+  "status": "integrated_verified_locally",
+  "started_at": "2026-10-03T21:48:11.871328+00:00",
+  "source": "kb/artifacts/artwork/portrait-sources/writers/360-journal-original.webp",
+  "source_sha256": "cd8e17be1f884e11da07b8db1968b8ab6141941523597be9f383ffbd26416eeb",
+  "batch_queue": "portrait-067",
+  "diagnosis": [
+    "Source is soft: avoid invented sharp irises, jewelry or individual hair",
+    "Natural facial asymmetry and broad jaw must not be idealized",
+    "Crowded background distracts; replace with quiet cotton paper",
+    "Avoid uniform decorative watercolor halo or global glamour lighting"
+  ],
+  "independent": false,
+  "prompt": "kb/research/writers/shakuntala-gupta-2026-10-03/prompt-v1.txt",
+  "publication": "not_requested",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-0b746a3e-7415-43ce-a6a5-2aa75ef2c005.png",
+  "saved_candidate": "kb/research/writers/shakuntala-gupta-2026-10-03/candidate-v1.png",
+  "completed_at": "2026-10-03T22:06:53.872161+00:00",
+  "master": "kb/artifacts/artwork/writer-portraits/360-earth-voice-v1.png",
+  "master_sha256": "0ce47164db90a38ccb27d5b1693be944ef0d40857e38514fef7d59604cd741a1",
+  "review": "Normal-size source comparison: broad rounded face, unequal eyes and forward gaze, small dark bindi, broad nose, closed-lip asymmetric smile, swept hair silhouette and visible pale clothing retained. Crowded room removed. Watercolor/paper edges and muted washes give literary softness. Earrings, hair strands and necklace are more resolved than the soft source and remain interpretive; no material identity drift observed. Skin is warmer under the paper treatment, not intentionally lightened. Independent author/editor likeness review pending.",
+  "checks": {
+    "source_hash": "unchanged",
+    "build": "PASS public Astro build; no deployment",
+    "author_pages": "PASS300 artistic portraits,124 photographs,3 initials; counts cover427 portraits",
+    "mobile": "360px portrait fully visible; source comparison saved",
+    "independent_likeness_review": "pending"
+  },
+  "queue": "Writer360 completed ahead of067; other four IDs retained, heartbeat unchanged"
+}
