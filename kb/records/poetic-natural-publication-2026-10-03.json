@@ -1,6 +1,6 @@
 {
   "user_authorization": "Update the website and facebook page",
-  "status": "validated_for_publication",
+  "status": "published_and_verified",
   "artworks": [
     {
       "id": "home-life-as-it-is",
@@ -449,7 +449,8 @@
     "evidence": [
       "evidence/poetic-natural-publication-2026-10-03/facebook-cover.png",
       "evidence/poetic-natural-publication-2026-10-03/facebook-caption.png"
-    ]
+    ],
+    "uploaded_sha256": "6cecba5275da88899185fa823482d576059045ac91f548a9121ff77219347ebd"
   },
   "validation": {
     "application_tests": {
@@ -470,6 +471,24 @@
       "Our Story"
     ],
     "originals": "All queue source and accepted output hashes pass",
-    "review_independent": false
-  }
+    "review_independent": false,
+    "cover_downloads_verified": 46,
+    "rules_tests": "PASS in GitHub Actions",
+    "live_artwork_hashes": 71,
+    "live_pages_verified": 5,
+    "live_runtime": "Matches source settings after expected /kabita-live/ analytics base-path transformation",
+    "live_evidence": "evidence/poetic-natural-publication-2026-10-03/live-verification.json"
+  },
+  "website": {
+    "url": "https://ahimanikya.github.io/kabita-live/",
+    "commit": "fd40591c44e53d33e4f80700e839fd3a0b65e302",
+    "workflow": "https://github.com/ahimanikya/kabita-live/actions/runs/37125880176",
+    "hosting_mode": "preview",
+    "dns_changed": false,
+    "runtime_services_changed": false,
+    "portraits_changed": false,
+    "deployment_result": "success"
+  },
+  "completed_at": "2026-10-03T13:26:10.331651+00:00",
+  "handoff": "Primary and portable source handoff synchronized; isolated release worktree has no portable package baseline."
 }
