@@ -27,7 +27,7 @@ def render_poet_directory(SITE, writers, poems, profile_routes, routes):
        text='\n'.join(q['text'].strip().splitlines()[:2])
      elif works:
       selected=works[0]; text='\n'.join(selected['text'].strip().splitlines()[:2])
-     portrait=portraits.get(wid,{}).get('src') or {'1':'assets/editors/pradeep-biswal-artistic-v1.webp','43':'assets/editors/paresh-kumar-pattnaik-artistic-v1.webp'}.get(wid); initials=''.join(x[0] for x in name.split()[:2]).upper()
+     portrait=portraits.get(wid,{}).get('src') or {'1':'assets/editors/pradeep-biswal-artistic-v2.webp','43':'assets/editors/paresh-kumar-pattnaik-artistic-v2.webp'}.get(wid); initials=''.join(x[0] for x in name.split()[:2]).upper()
      if portrait:assert (SITE/portrait).exists()
      pic=(f'<img src="{escape(portrait)}" alt="" width="64" height="64" loading="lazy" decoding="async">' if portrait else f'<span class="poet-initials" aria-hidden="true">{escape(initials)}</span>')
      body=f'<blockquote lang="{selected["language"]}">{escape(text)}</blockquote>' if text else '<p class="no-excerpt">Meet this writer in their profile.</p>'

@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-03T08:42:07.143916+00:00",
+  "batch": "portrait-041",
+  "writer_ids": [
+    465,
+    272,
+    289,
+    326,
+    302
+  ],
+  "integrated_writer_ids": [
+    465,
+    272,
+    302
+  ],
+  "held_writer_ids": [
+    289,
+    326
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 204 artistic portraits, 220 photographs including 5 likeness holds, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2334 baseline files checked; only authorized portrait map changed",
+    "All 209 portrait source/master hash records match; both new hold source hashes verified",
+    "Both new held writers retain journal_photo mapping",
+    "Desktop 1280px and mobile 360px profile crop inspected; mobile scroll width 360px",
+    "All three new circular thumbnails visually inspected"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to exact prompts and source/normal-size comparisons. Source uncertainty led to two original-photo holds.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Writer 289 source strongly blurred across facial features; no candidate generated",
+    "Writer 326 first candidate added unsupported facial mark; correction remained ambiguous. Both candidates preserved unused; original retained",
+    "Three integrated portraits preserve observed geometry; pigment, hair and wash detail remain interpretive as noted per writer",
+    "Existing likeness holds 238, 213 and 110 retained; total five likeness holds and three missing-photo holds",
+    "Counts refer to 427 portrait records rather than deduplicated identities",
+    "Concurrent authorized non-portrait artwork and engagement preserved; no portrait publication"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-min.png",
+    "thumbnails-monalisa.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "465-prompt.txt",
+    "272-prompt.txt",
+    "302-prompt.txt",
+    "326-prompt.txt",
+    "326-prompt-correction.txt",
+    "289-hold.json",
+    "326-hold.json"
+  ]
+}

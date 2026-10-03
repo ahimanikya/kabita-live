@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-03T09:08:34.872166+00:00",
+  "batch": "portrait-042",
+  "writer_ids": [
+    140,
+    115,
+    157,
+    362,
+    313
+  ],
+  "integrated_writer_ids": [
+    140,
+    115,
+    157,
+    362,
+    313
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 209 artistic portraits, 215 photographs including 5 likeness holds, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2343 baseline files checked; only authorized portrait map changed",
+    "All 214 portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px profile crop inspected; mobile scroll width 360px",
+    "All five new circular thumbnails visually inspected"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all exact prompts and source/normal-size comparisons; natural asymmetry, pose and source limitations retained.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Pigment, hair, jewelry and wash detail remain interpretive as noted in each portrait record",
+    "Five existing likeness holds and three missing-photo holds retained",
+    "Counts refer to 427 portrait records rather than deduplicated identities",
+    "Concurrent authorized non-portrait artwork and engagement preserved; no portrait publication"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-monalisa.png",
+    "thumbnails-mousumi.png",
+    "thumbnails-mri.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "140-prompt.txt",
+    "115-prompt.txt",
+    "157-prompt.txt",
+    "362-prompt.txt",
+    "313-prompt.txt"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-03T13:28:47.384494+00:00",
+  "batch": "portrait-054",
+  "writer_ids": [
+    65,
+    314,
+    361,
+    214,
+    109
+  ],
+  "integrated_writer_ids": [
+    65,
+    314,
+    361,
+    214
+  ],
+  "held_writer_ids": [
+    109
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:266 artistic portraits,158 photographs including8 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2520 baseline files checked; only authorized portrait map changed",
+    "All275 source/master records match",
+    "All four new circular thumbnails visually inspected at normal size",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to exact prompts and source/normal-size comparisons. Unsupported hairline mark corrected for361; unresolved chin mark and excessive detail for109 held with original photo retained.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, jewelry, teeth, pigment and texture remain interpretive as noted per portrait",
+    "Eight likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent non-portrait artwork and publication work preserved; no portrait publication"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-purabi.png",
+    "thumbnail-pusparani.png",
+    "thumbnail-rabi.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "109-hold-review.json",
+    "65-prompt.txt",
+    "314-prompt.txt",
+    "361-prompt.txt",
+    "361-prompt-v2.txt",
+    "214-prompt.txt",
+    "109-prompt.txt",
+    "109-prompt-v2.txt"
+  ]
+}

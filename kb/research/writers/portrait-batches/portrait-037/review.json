@@ -1,0 +1,53 @@
+{
+  "recorded_at": "2026-10-03T06:56:14.590509+00:00",
+  "batch": "portrait-037",
+  "writer_ids": [
+    311,
+    226,
+    345,
+    249,
+    78
+  ],
+  "integrated_writer_ids": [
+    311,
+    226,
+    345,
+    249,
+    78
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 186 artistic portraits, 238 photographs including 3 likeness holds, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2277 baseline files checked; only authorized portrait map changed",
+    "All 190 portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px profile crop inspected; mobile scroll width 360px",
+    "All five new circular thumbnails visually inspected"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Sources 311 and 78 are especially soft; source limitations retained; fine hair, jewelry and textile details remain interpretive",
+    "Existing likeness holds 238, 213 and 110 retain originals; three missing-photo holds retain initials",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "Concurrent authorized Poetic Natural non-portrait artwork, engagement deployment and consent-based analytics preserved; no portrait publication",
+    "User requested Human Natural during verification after all five batch images were saved; new guidance begins with pending batch 038"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-mal.png",
+    "thumbnails-mamata.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "311-prompt.txt",
+    "226-prompt.txt",
+    "345-prompt.txt",
+    "249-prompt.txt",
+    "78-prompt.txt"
+  ]
+}

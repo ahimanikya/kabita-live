@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b9460eb976391b794aad533e52808a62ddb03e9680c225c98d9c37e90edb99c9`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6123517616818ac8d4ea40832f23270d1e4483f042f9f03d955d6efa085eae3c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -80,6 +80,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-DEC-035 · Remove holds based only on missing original-language sources | approved | Ahimanikya Satapathy | Use existing published poem text without requiring underlying originals or source information. Release ten source-only holds; retain four actual content corrections. Preserve existing credits and historical evidence. |
 | KBL-DEC-036 · Repair recoverable poem content and archive unresolved entries | approved | Ahimanikya Satapathy | Separate two clearly attributed appended works; retain original text and evidence. Remove unavailable records385 and727 from active editions, preserve archival entries and existing URLs. No publication. |
 | KBL-DEC-037 · Push current project and host a GitHub Pages preview before DNS migration | approved | Ahimanikya Satapathy | Commit and push the current project to the existing public repository; manually deploy the public-only Astro build to GitHub Pages for pre-DNS review. DNS and custom domain remain unchanged. |
+| KBL-DEC-043 · Deploy completed poet portraits and editor refinements now | approved | Ahimanikya Satapathy | Immediate checkpoint deployment of all currently completed and verified poet portraits plus the approved Pradeep, Paresh and Pravakar refinements. Supersedes final-only restriction for this checkpoint; pending portraits and holds excluded. Existing manual Pages preview workflow, DNS and service settings retained; generation loop continues. |
 
 ## Reviews
 

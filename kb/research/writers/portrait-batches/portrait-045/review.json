@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-03T10:11:44.388790+00:00",
+  "batch": "portrait-045",
+  "writer_ids": [
+    192,
+    322,
+    366,
+    256,
+    248
+  ],
+  "integrated_writer_ids": [
+    192,
+    322,
+    366,
+    256,
+    248
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:224 artistic portraits,200 photographs including5 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2388 baseline files checked; only authorized portrait map changed",
+    "All229 portrait source/master hash records match",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px",
+    "Four new directory circular thumbnails inspected; writer366 128px derivative inspected separately because directory uses canonical256"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all exact prompts and source/normal-size comparisons; natural asymmetry, pose and source limitations retained.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Pigment, hair, jewelry and wash detail remain interpretive as noted in each portrait record",
+    "Five existing likeness holds and three missing-photo holds retained",
+    "Counts refer to 427 portrait records rather than deduplicated identities",
+    "Concurrent authorized non-portrait artwork and engagement preserved; no portrait publication",
+    "Writer248 first result added unsupported red hairline patch; rejected candidate preserved and targeted correction visually verified before integration",
+    "Existing identity mappings192/224 and256/366 preserved. Both separate source portraits remain recorded; directory uses canonical192 and256",
+    "Writer366 source soft; eye/jewelry/hair detail certainty limited. See individual reviews."
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-neha.png",
+    "thumbnails-nee.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "248-prompt-correction.txt",
+    "248-correction-review.json",
+    "192-prompt.txt",
+    "322-prompt.txt",
+    "366-prompt.txt",
+    "256-prompt.txt",
+    "248-prompt.txt"
+  ]
+}

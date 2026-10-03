@@ -921,6 +921,20 @@
       "evidence": [
         "records/github-pages-preview-deployment.json"
       ]
+    },
+    {
+      "id": "KBL-DEC-043",
+      "title": "Deploy completed poet portraits and editor refinements now",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Good deploy this - also deploy all poet portrait that are done",
+      "scope": "Immediate checkpoint deployment of all currently completed and verified poet portraits plus the approved Pradeep, Paresh and Pravakar refinements. Supersedes final-only restriction for this checkpoint; pending portraits and holds excluded. Existing manual Pages preview workflow, DNS and service settings retained; generation loop continues.",
+      "evidence": [
+        "records/completed-portrait-deployment-2026-10-03.json"
+      ]
     }
   ],
   "requirements": [

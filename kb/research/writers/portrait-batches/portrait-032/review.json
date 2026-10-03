@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-02T20:31:47.768186+00:00",
+  "batch": "portrait-032",
+  "writer_ids": [
+    441,
+    268,
+    213,
+    402,
+    137
+  ],
+  "integrated_writer_ids": [
+    441,
+    268,
+    402,
+    137
+  ],
+  "held_writer_ids": [
+    213
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 162 artistic portraits, 262 photographs including 2 likeness holds, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2208 baseline files checked; only authorized portrait map changed",
+    "All 166 source/master portrait hash records match",
+    "Desktop 1280px and mobile 360px profile crops inspected; mobile scroll width 360px",
+    "All four new circular thumbnails visually inspected; held writer 213 original photo remains mapped"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Writer 213 source is blurry and color cast; candidate changes head tilt and resolves unverifiable eye detail. Original remains in site; unused candidate master preserved. Clearer identified photo needed.",
+    "Fine skin, hair, teeth, jewelry and textile detail remain interpretive from source photographs",
+    "Earlier likeness hold 238 remains unresolved; original retained",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "Separately authorized analytics changes retained; no publication in this batch"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "thumbnails-kumudini.png",
+    "thumbnail-402.png",
+    "thumbnail-137.png",
+    "441-prompt.txt",
+    "268-prompt.txt",
+    "213-prompt.txt",
+    "402-prompt.txt",
+    "137-prompt.txt"
+  ]
+}

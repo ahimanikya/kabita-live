@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-10-02T14:20:52.805471+00:00",
+  "batch": "portrait-015",
+  "writer_ids": [
+    217,
+    320,
+    159,
+    61,
+    407
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 79 artistic portraits, 345 photographs, 3 initials",
+    "Edition integrity check passed; 848 source hashes verified",
+    "1953 baseline files checked; only authorized portrait map changed",
+    "All 81 recorded portrait source/master hashes match",
+    "Representative desktop 1280px and mobile 360px profile crops visually inspected without horizontal overflow",
+    "All five circular directory crops visually inspected through directory search"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine skin, hair, textile and lens details remain interpretive where sources are soft or small. Writer 159 retains strong source warmth/contrast; writer 61 retains seated three-quarter pose and lens glare. Individual comparisons preserved in portrait-edits.json.",
+    "Counts refer to original 427 portrait records rather than deduplicated directory identities",
+    "Separately authorized hosting changes preserved; no publication performed by this portrait work."
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile.png",
+    "directory-bin.png",
+    "directory-bipin.png",
+    "directory-407.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log"
+  ]
+}

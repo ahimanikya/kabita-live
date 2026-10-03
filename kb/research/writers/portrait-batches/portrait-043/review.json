@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-10-03T09:24:07.807232+00:00",
+  "batch": "portrait-043",
+  "writer_ids": [
+    391,
+    280,
+    72,
+    89,
+    141
+  ],
+  "integrated_writer_ids": [
+    391,
+    280,
+    72,
+    89,
+    141
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:214 artistic portraits,210 photographs including5 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2358 baseline files checked; only authorized portrait map changed",
+    "All219 portrait source/master hash records match",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px",
+    "All five new circular thumbnails visually inspected"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all exact prompts and source/normal-size comparisons; natural asymmetry, pose and source limitations retained.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Pigment, hair, jewelry and wash detail remain interpretive as noted in each portrait record",
+    "Five existing likeness holds and three missing-photo holds retained",
+    "Counts refer to 427 portrait records rather than deduplicated identities",
+    "Concurrent authorized non-portrait artwork and engagement preserved; no portrait publication",
+    "Writer141 source softness retained; detailed facial certainty limited. Writer89 glasses glare preserved. Wash/detail intensity remains interpretive per writer."
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-mukul.png",
+    "thumbnail-mrutyunjay.png",
+    "thumbnail-naheed.png",
+    "thumbnail-namitarani.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "391-prompt.txt",
+    "280-prompt.txt",
+    "72-prompt.txt",
+    "89-prompt.txt",
+    "141-prompt.txt"
+  ]
+}

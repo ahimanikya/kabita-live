@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-03T13:03:24.540871+00:00",
+  "batch": "portrait-053",
+  "writer_ids": [
+    112,
+    316,
+    199,
+    283,
+    364
+  ],
+  "integrated_writer_ids": [
+    112,
+    316,
+    199,
+    283,
+    364
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:262 artistic portraits,162 photographs including7 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2505 baseline files checked; only authorized portrait map changed",
+    "All268 source/master records match",
+    "All five circular thumbnails visually inspected at normal size",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all exact prompts and source/normal-size comparisons; natural asymmetry, pose, occlusion and source limitations retained.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, jewelry, pigment and texture remain interpretive as noted per portrait",
+    "Seven likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent non-portrait artwork preserved; no publication",
+    "Fine hair, earring, teeth and wristwatch detail remain interpretive; source softness and hand occlusion retained. Browser disconnected twice, recovered through supported selection; all required visual checks then completed."
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnail-preety.png",
+    "thumbnails-pri.png",
+    "thumbnail-punyadeepa.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "112-prompt.txt",
+    "316-prompt.txt",
+    "199-prompt.txt",
+    "283-prompt.txt",
+    "364-prompt.txt"
+  ]
+}

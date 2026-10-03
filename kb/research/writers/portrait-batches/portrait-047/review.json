@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-03T10:56:16.044703+00:00",
+  "batch": "portrait-047",
+  "writer_ids": [
+    244,
+    317,
+    103,
+    426,
+    142
+  ],
+  "integrated_writer_ids": [
+    244,
+    317,
+    103,
+    426,
+    142
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:234 artistic portraits,190 photographs including5 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2418 baseline files checked after completed build; only authorized portrait map changed",
+    "All239 source/master hashes match",
+    "All five circular thumbnails visually inspected",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all exact prompts and source/normal-size comparisons; natural asymmetry, pose, occlusion and source limitations retained.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, jewelry, pigment and texture remain interpretive as noted per portrait",
+    "Five existing likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent non-portrait artwork preserved; no publication",
+    "Writer244 unsupported finger ring corrected from original; rejected candidate preserved unused",
+    "Writer103 grayscale source retained grayscale within colored paper washes",
+    "Writer142 existing enriched display name Nitish Raj retained; source record name Nisith Raj unchanged"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-nisha.png",
+    "thumbnail-nilima.png",
+    "thumbnail-niranjan.png",
+    "thumbnail-nisith.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "244-prompt-correction.txt",
+    "244-prompt.txt",
+    "317-prompt.txt",
+    "103-prompt.txt",
+    "426-prompt.txt",
+    "142-prompt.txt"
+  ]
+}

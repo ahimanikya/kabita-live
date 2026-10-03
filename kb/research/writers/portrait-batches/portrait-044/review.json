@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-10-03T09:42:28.638922+00:00",
+  "batch": "portrait-044",
+  "writer_ids": [
+    208,
+    57,
+    42,
+    468,
+    224
+  ],
+  "integrated_writer_ids": [
+    208,
+    57,
+    42,
+    468,
+    224
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:219 artistic portraits,205 photographs including5 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2373 baseline files checked; only authorized portrait map changed",
+    "All224 portrait source/master hash records match",
+    "Desktop1280px and full mobile360px writer224 profile crop inspected; mobile scroll width360px",
+    "Four visible new directory circular thumbnails inspected; writer224 128px derivative inspected separately because directory uses canonical writer192"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all exact prompts and source/normal-size comparisons; natural asymmetry, pose and source limitations retained.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Pigment, hair, jewelry and wash detail remain interpretive as noted in each portrait record",
+    "Five existing likeness holds and three missing-photo holds retained",
+    "Counts refer to 427 portrait records rather than deduplicated identities",
+    "Concurrent authorized non-portrait artwork and engagement preserved; no portrait publication",
+    "Writer224 is an existing alias of canonical writer192. Its own profile displays its new portrait; the directory correctly still displays writer192 source photo pending next batch. Alias relation preserved, no identity merger changes.",
+    "Several crops preserve the source cut-off crown. Texture/pigment/detail remain interpretive; see each exact review."
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-nandi.png",
+    "thumbnail-narayan.png",
+    "thumbnail-neelam.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "208-prompt.txt",
+    "57-prompt.txt",
+    "42-prompt.txt",
+    "468-prompt.txt",
+    "224-prompt.txt"
+  ]
+}

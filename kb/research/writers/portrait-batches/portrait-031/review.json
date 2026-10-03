@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-02T20:17:18.092768+00:00",
+  "batch": "portrait-031",
+  "writer_ids": [
+    232,
+    155,
+    94,
+    371,
+    469
+  ],
+  "integrated_writer_ids": [
+    232,
+    155,
+    94,
+    371,
+    469
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 158 artistic portraits, 266 photographs including 1 earlier likeness hold, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2193 baseline files checked; only authorized portrait map changed",
+    "All 161 portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px profile crops inspected; mobile scroll width 360px",
+    "All five new circular directory thumbnails visually inspected"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Writer 94 checkerboard background corrected to opaque ivory; initial candidate and both prompts preserved",
+    "Writer 469 soft overexposed source limits fine facial and textile detail; added local contrast remains interpretive",
+    "Fine skin, hair, textile and jewelry details remain interpretive from source photographs",
+    "Earlier likeness hold 238 remains unresolved; original retained",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "Separately authorized analytics configuration retained; no portrait publication in this batch"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "thumbnail-232.png",
+    "thumbnail-155.png",
+    "thumbnails-ketaki.png",
+    "thumbnail-469.png",
+    "232-prompt.txt",
+    "155-prompt.txt",
+    "94-prompt.txt",
+    "371-prompt.txt",
+    "469-prompt.txt",
+    "94-correction-prompt.txt",
+    "94-candidate-before-correction.png"
+  ]
+}

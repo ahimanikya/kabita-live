@@ -1,0 +1,111 @@
+{
+  "recorded_at": "2026-10-03T13:41:25.371358+00:00",
+  "user_quote": "Update portraits for editor and Pravakar Satapathy with Human Natural and water color",
+  "status": "integrated_verified_local",
+  "mode": "Editorial Natural watercolor",
+  "tool": "built-in image_gen",
+  "independent": false,
+  "items": [
+    {
+      "id": 1,
+      "slug": "pradeep",
+      "name": "Pradeep Biswal",
+      "stem": "pradeep-biswal-artistic-v2",
+      "source": "artifacts/artwork/portrait-sources/pradeep-biswal.webp",
+      "master": "artifacts/artwork/masters/editors/pradeep-biswal-artistic-v2.png",
+      "prior": "artifacts/artwork/masters/editors/pradeep-biswal-artistic-v1.png",
+      "review": "Source pose, facial asymmetry, small moustache, expression, navy vest and checked shirt retained. Quieter paper and selective watercolor edges; forehead and under-eye light remain naturally uneven. No material identity drift seen in self-review.",
+      "source_sha256": "0088a04cdc175204d700bfa29c92b7e8988e78f87f9d692aa594e2b7c7d12875",
+      "master_sha256": "43e311181e08df588a4d3ac7302ecb856b3cc335afeff0c5d0ba29f6b8b872d9",
+      "prior_sha256": "5c7499804dcbc06cd668e2e285f104d01ef2497be3e5138c47edf9bd4580a3a7",
+      "prompt_file": "kb/research/writers/editor-pravakar-human-natural-2026-10-03/pradeep-prompt.txt",
+      "asset": "assets/editors/pradeep-biswal-artistic-v2.webp",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "id": 43,
+      "slug": "paresh",
+      "name": "Paresh Kumar Pattnaik",
+      "stem": "paresh-kumar-pattnaik-artistic-v2",
+      "source": "artifacts/artwork/portrait-sources/paresh-kumar-pattnaik.jpg",
+      "master": "artifacts/artwork/masters/editors/paresh-kumar-pattnaik-artistic-v2.png",
+      "prior": "artifacts/artwork/masters/editors/paresh-kumar-pattnaik-artistic-v1.png",
+      "review": "Broad facial shape, three-quarter angle, blue-detail rectangular glasses, moustache/goatee, dark vest and pale shirt retained. Background washes reduced and watercolor shoulder edges softened. Source resolution limits fine-detail certainty; independent likeness review remains pending.",
+      "source_sha256": "112ebda787130622ccd71dbf164619cd51dad46585228d9432225e4346f41f10",
+      "master_sha256": "f0af97da86472aa269fbb9b5c746794fb969d7258ea27633aaac6676264df318",
+      "prior_sha256": "00cdfa0835fee6ff4a76bd2679c2524983178b6f22934217638b1a900ed8936d",
+      "prompt_file": "kb/research/writers/editor-pravakar-human-natural-2026-10-03/paresh-prompt.txt",
+      "asset": "assets/editors/paresh-kumar-pattnaik-artistic-v2.webp",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "id": 41,
+      "slug": "pravakar",
+      "name": "Pravakar Satapathy",
+      "stem": "41-earth-voice-v3",
+      "source": "artifacts/artwork/portrait-sources/writers/41-user-family-original.jpg",
+      "master": "artifacts/artwork/writer-portraits/41-earth-voice-v3.png",
+      "prior": "artifacts/artwork/writer-portraits/41-earth-voice-v1.png",
+      "review": "Compared with far-right man in user-identified family photo: short white hair, glasses, closed-mouth expression, white beard, pale blue collar and beige diamond sweater retained. Corrected candidate uses soft painted beard masses and quieter skin modeling; v2 retained unused because it preserved excessive etched detail. Family-photo resolution limits fine-detail certainty; independent likeness review pending.",
+      "source_sha256": "5f13f618f6f8a817efc93432e6e37ba7f47fa25003ef783283b3c1d845bf80b4",
+      "master_sha256": "b7a6302faea1a5f92b12b9c2f32a8f473800ca117b1621b29917ab6f6016c191",
+      "prior_sha256": "d4ed7fe8d02340dfb4bacd6e7b8ac762aa8684e27e224e10ea5b71107fb66f81",
+      "prompt_file": "kb/research/writers/editor-pravakar-human-natural-2026-10-03/pravakar-correction-prompt.txt",
+      "asset": "assets/writers/41-earth-voice-v3.webp",
+      "dimensions": [
+        450,
+        600
+      ]
+    }
+  ],
+  "unused_candidate": "artifacts/artwork/writer-portraits/41-earth-voice-v2.png",
+  "publication": "Local integration; final portrait rollout deployment gate retained.",
+  "scope_exception": "Latest explicit instruction permits refining these three completed portraits; other completed portraits and pending queue unchanged.",
+  "attempts": [
+    {
+      "person": "Pradeep Biswal",
+      "prompt": "kb/research/writers/editor-pravakar-human-natural-2026-10-03/pradeep-prompt.txt",
+      "master": "artifacts/artwork/masters/editors/pradeep-biswal-artistic-v2.png",
+      "sha256": "43e311181e08df588a4d3ac7302ecb856b3cc335afeff0c5d0ba29f6b8b872d9",
+      "selected": true
+    },
+    {
+      "person": "Paresh Kumar Pattnaik",
+      "prompt": "kb/research/writers/editor-pravakar-human-natural-2026-10-03/paresh-prompt.txt",
+      "master": "artifacts/artwork/masters/editors/paresh-kumar-pattnaik-artistic-v2.png",
+      "sha256": "f0af97da86472aa269fbb9b5c746794fb969d7258ea27633aaac6676264df318",
+      "selected": true
+    },
+    {
+      "person": "Pravakar Satapathy",
+      "prompt": "kb/research/writers/editor-pravakar-human-natural-2026-10-03/pravakar-correction-prompt.txt",
+      "master": "artifacts/artwork/writer-portraits/41-earth-voice-v3.png",
+      "sha256": "b7a6302faea1a5f92b12b9c2f32a8f473800ca117b1621b29917ab6f6016c191",
+      "selected": true
+    },
+    {
+      "person": "Pravakar Satapathy",
+      "prompt": "kb/research/writers/editor-pravakar-human-natural-2026-10-03/pravakar-prompt.txt",
+      "master": "artifacts/artwork/writer-portraits/41-earth-voice-v2.png",
+      "sha256": "e2d077b024c75ec7358d5f134a61a67c45de1f976eecb218d703bd272de962c0",
+      "selected": false,
+      "reason": "Excessive etched beard/skin detail persisted; corrected directly from original family photo."
+    }
+  ],
+  "checks": {
+    "public_build": "PASS",
+    "author_pages": "PASS",
+    "original_source_and_prior_hashes": "PASS",
+    "independent": false,
+    "desktop_and_360px": "PASS; all three complete heads and readable profile layouts visually checked",
+    "preserved_originals": true
+  },
+  "authorization": "KBL-DEC-042",
+  "completed_at": "2026-10-03T13:46:59.043674+00:00"
+}

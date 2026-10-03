@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-10-03T12:38:54.269004+00:00",
+  "batch": "portrait-052",
+  "writer_ids": [
+    27,
+    205,
+    212,
+    70,
+    121
+  ],
+  "integrated_writer_ids": [
+    27,
+    205,
+    212,
+    70,
+    121
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:257 artistic portraits,167 photographs including7 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2490 baseline files checked; only authorized portrait map changed",
+    "All263 source/master records match",
+    "All five circular thumbnails visually inspected at normal size",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all exact prompts and source/normal-size comparisons; natural asymmetry, pose, occlusion and source limitations retained.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, jewelry, pigment and texture remain interpretive as noted per portrait",
+    "Seven likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent non-portrait artwork preserved; no publication",
+    "Fine jewelry, hair, cloth patterns and warmer pigment remain interpretive; source glare and focus limitations documented per portrait. Preview briefly loaded temporary build output; reloaded after successful build to inspect restored approved layout."
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnail-prahallad.png",
+    "thumbnail-pranati.png",
+    "thumbnail-prasanna.png",
+    "thumbnails-prati.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "27-prompt.txt",
+    "205-prompt.txt",
+    "212-prompt.txt",
+    "70-prompt.txt",
+    "121-prompt.txt"
+  ]
+}

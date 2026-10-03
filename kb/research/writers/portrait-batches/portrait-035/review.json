@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-03T06:14:24.696393+00:00",
+  "batch": "portrait-035",
+  "writer_ids": [
+    34,
+    457,
+    334,
+    411,
+    110
+  ],
+  "integrated_writer_ids": [
+    34,
+    457,
+    334,
+    411
+  ],
+  "held_writer_ids": [
+    110
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 176 artistic portraits, 248 photographs including 3 likeness holds, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2250 baseline files checked; only authorized portrait map changed",
+    "All 180 existing and new portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px profile crop inspected; mobile scroll width 360px",
+    "All four new circular thumbnails visually inspected"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine jewelry, embroidery and hair remain interpretive; writer 457 source facial detail deliberately remains soft",
+    "Writer 110 photo crops away approximately half the face; no generation attempted and original retained",
+    "Existing likeness holds 238 and 213 retain originals",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "Concurrent authorized reader-engagement deployment and consent-based analytics preserved; no portrait publication in this batch"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-madhu.png",
+    "thumbnails-mahi.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "110-hold.json",
+    "34-prompt.txt",
+    "457-prompt.txt",
+    "334-prompt.txt",
+    "411-prompt.txt"
+  ]
+}

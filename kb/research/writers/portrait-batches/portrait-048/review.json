@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-03T11:16:52.586460+00:00",
+  "batch": "portrait-048",
+  "writer_ids": [
+    252,
+    59,
+    291,
+    408,
+    279
+  ],
+  "integrated_writer_ids": [
+    252,
+    59,
+    291,
+    279
+  ],
+  "held_writer_ids": [
+    408
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:238 artistic portraits,186 photographs including6 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2433 baseline files checked; only authorized portrait map changed",
+    "All244 source/master records plus writer408 correction master hashes match",
+    "Four new circular thumbnails and held writer408 original photograph visually inspected",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all exact prompts and source/normal-size comparisons; natural asymmetry, pose, occlusion and source limitations retained.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, jewelry, pigment and texture remain interpretive as noted per portrait",
+    "Six likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent non-portrait artwork preserved; no publication",
+    "Writer408 original restored after two candidates amplified source hair color; neither candidate approved",
+    "Handoff resynchronization required after concurrent non-portrait changes and subsequent portrait048 saves; final storage verification follows checkpoint"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-padma.png",
+    "thumbnail-nivedita.png",
+    "thumbnail-nurul.png",
+    "thumbnail-palavali.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "408-prompt-correction.txt",
+    "252-prompt.txt",
+    "59-prompt.txt",
+    "291-prompt.txt",
+    "408-prompt.txt",
+    "279-prompt.txt"
+  ]
+}

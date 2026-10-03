@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-10-02T18:26:10.101952+00:00",
+  "batch": "portrait-027",
+  "writer_ids": [
+    225,
+    53,
+    231,
+    161,
+    395
+  ],
+  "integrated_writer_ids": [
+    225,
+    53,
+    231,
+    161,
+    395
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 138 artistic portraits, 286 photographs including 1 earlier likeness hold, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2133 baseline files checked; only authorized portrait map changed",
+    "All 141 portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px profile crops inspected; mobile scroll width 360px",
+    "All five new circular directory thumbnails visually inspected"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine skin, hair, jewelry and textile details remain interpretive; writers 53 and 161 have soft sources, with blur retained",
+    "Writer 231 hairline red mark more distinct than photograph; facial geometry retained",
+    "Earlier likeness hold 238 remains unresolved; original retained",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "No intermediate publication; final deployment only after verified rollout"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "thumbnail-225.png",
+    "thumbnail-53.png",
+    "thumbnail-231.png",
+    "thumbnail-161.png",
+    "thumbnail-395.png",
+    "225-prompt.txt",
+    "53-prompt.txt",
+    "231-prompt.txt",
+    "161-prompt.txt",
+    "395-prompt.txt"
+  ]
+}

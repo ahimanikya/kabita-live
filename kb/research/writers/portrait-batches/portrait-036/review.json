@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-03T06:31:55.191294+00:00",
+  "batch": "portrait-036",
+  "writer_ids": [
+    358,
+    356,
+    86,
+    139,
+    241
+  ],
+  "integrated_writer_ids": [
+    358,
+    356,
+    86,
+    139,
+    241
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 181 artistic portraits, 243 photographs including 3 likeness holds, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2262 baseline files checked; only authorized portrait map changed",
+    "All 185 portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px profile crop inspected; mobile scroll width 360px",
+    "All five new circular thumbnails visually inspected"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Writer 356 monochrome subject retained; natural colors not inferred from black-and-white source",
+    "Soft eye detail behind glasses, flash highlights and fine hair/jewelry/textile texture remain source-limited interpretations",
+    "Existing likeness holds 238, 213 and 110 retain originals; three missing-photo holds retain initials",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "Concurrent authorized reader-engagement deployment and consent-based analytics preserved; no portrait publication in this batch"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-mai.png",
+    "thumbnail-makhan.png",
+    "thumbnails-mala.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "358-prompt.txt",
+    "356-prompt.txt",
+    "86-prompt.txt",
+    "139-prompt.txt",
+    "241-prompt.txt"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "recorded_at": "2026-10-02T20:46:09.674486+00:00",
+  "batch": "portrait-033",
+  "writer_ids": [
+    84,
+    81,
+    300,
+    335,
+    108
+  ],
+  "integrated_writer_ids": [
+    84,
+    81,
+    300,
+    335,
+    108
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 167 artistic portraits, 257 photographs including 2 likeness holds, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2220 baseline files checked; only authorized portrait map changed",
+    "All 171 portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px profile crop inspected; mobile scroll width 360px",
+    "All five new circular thumbnails visually inspected"
+  ],
+  "independent": false,
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, skin, jewelry and textile details remain interpretive; writer 300 source is soft and warm, writer 108 source is dim",
+    "Existing likeness holds 238 and 213 retain original photographs",
+    "Counts refer to original 427 portrait records rather than deduplicated identities",
+    "Concurrent authorized reader engagement preparation and consent-based analytics preserved; no publication in this batch"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-lip.png",
+    "thumbnail-300.png",
+    "thumbnails-lopamudra.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "84-prompt.txt",
+    "81-prompt.txt",
+    "300-prompt.txt",
+    "335-prompt.txt",
+    "108-prompt.txt"
+  ]
+}

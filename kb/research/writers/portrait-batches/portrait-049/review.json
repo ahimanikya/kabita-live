@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-03T11:41:01.551035+00:00",
+  "batch": "portrait-049",
+  "writer_ids": [
+    404,
+    431,
+    183,
+    62,
+    58
+  ],
+  "integrated_writer_ids": [
+    404,
+    431,
+    183,
+    62,
+    58
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:243 artistic portraits,181 photographs including6 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2448 baseline files checked; only authorized portrait map changed",
+    "All249 source/master records match",
+    "All five circular thumbnails visually inspected",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all exact prompts and source/normal-size comparisons; natural asymmetry, pose, occlusion and source limitations retained.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, jewelry, pigment and texture remain interpretive as noted per portrait",
+    "Six existing likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent non-portrait artwork preserved; no publication",
+    "Source glare, bright/hazy exposure and eye occlusion preserved; finer jewelry/teeth/hair certainty limited"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnail-pallabi.png",
+    "thumbnails-pank.png",
+    "thumbnails-para.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "404-prompt.txt",
+    "431-prompt.txt",
+    "183-prompt.txt",
+    "62-prompt.txt",
+    "58-prompt.txt"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "writer_id": 326,
+  "source": {
+    "writer_id": 326,
+    "name": "Mitra Samal",
+    "source_page": "https://kabitalive.com/contri-view.php?id=326",
+    "source_image": "https://kabitalive.com/poetry_panel/photo/Pic_28032024161220349.jpg",
+    "file": "artifacts/artwork/portrait-sources/writers/326-journal-original.webp",
+    "content_type": "image/webp",
+    "rights": "Journal-supplied image; publication rights not independently verified"
+  },
+  "source_sha256": "dcb58246a620eb1132e0b6563fd3dc5e35a05b48ef8b262ff424a51327f5539e",
+  "style_reference": "projects/site/assets/editors/pradeep-biswal-artistic-v1.webp",
+  "master": "artifacts/artwork/writer-portraits/326-earth-voice-v1.png",
+  "master_sha256": "8a362c683c0d5affe01320b93b1f0c40362be75e85d2083d896a9cbc5d1f65e4",
+  "prompt": "Use case: identity-preserve. Correct a source-faithful Kabita Live watercolor portrait of writer 326 Mitra Samal using Image 1 as sole identity and Image 2 only as medium. A previous candidate incorrectly added a dark circular mark below the picture-right nostril: omit that invented mark; there is no nose piercing or conspicuous mole there in the original. Preserve all source facial geometry, age, complexion, turned pose, unequal eyes, purple upswept rectangular glasses and their glare, gentle closed pink lips, small chin, long black hair with flyaways, pink/gold drop earrings and pink top. No new facial marks or jewelry. Human Natural / Editorial Natural: respect source softness and soft indoor exposure, no beautifying, slimming, symmetrizing, relighting or inventing detail obscured by glasses. Square head/shoulder crop, realistic face, delicate watercolor/graphite edges on opaque warm ivory paper replacing room. Sparse uneven faint teal/ochre by shoulders, quiet paper rather than decorative halo. No extra saturation/sharpness, pores/wrinkles/grain, icons, scene, props, text, frame or watermark.",
+  "tool": "built-in image_gen",
+  "review": "First candidate added an unsupported dark circular mark below picture-right nostril. Correction reduced it but residual shape/shading remains ambiguous against source; original retained rather than integrate uncertainty. Both candidates preserved unused. Independent likeness review or a further targeted correction needed.",
+  "independent": false,
+  "status": "likeness_hold",
+  "publication_rights": "Journal-supplied image; publication rights not independently verified",
+  "independent_likeness_review": "pending",
+  "verification_batch": "portrait-041",
+  "human_natural": "Avoid invented facial marks; retain source until correction is reliably verified.",
+  "recorded_at": "2026-10-03T08:34:01.935592+00:00",
+  "reason": "First candidate added an unsupported dark circular mark below picture-right nostril. Correction reduced it but residual shape/shading remains ambiguous against source; original retained rather than integrate uncertainty. Both candidates preserved unused. Independent likeness review or a further targeted correction needed.",
+  "rejected_candidate": "artifacts/artwork/writer-portraits/326-candidate-rejected-v1.png",
+  "rejected_sha256": "849ab42f32295aadb0c5ef760a6d9eece176e3865d110678d593973e78b9fe46"
+}

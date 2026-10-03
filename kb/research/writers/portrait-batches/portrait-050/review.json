@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-03T12:08:32.001269+00:00",
+  "batch": "portrait-050",
+  "writer_ids": [
+    306,
+    30,
+    120,
+    180,
+    169
+  ],
+  "integrated_writer_ids": [
+    306,
+    30,
+    120,
+    180,
+    169
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:248 artistic portraits,176 photographs including6 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2463 baseline files checked; only authorized portrait map changed",
+    "All254 source/master records match",
+    "All five circular thumbnails visually inspected",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all exact prompts and source/normal-size comparisons; natural asymmetry, pose, occlusion and source limitations retained.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, jewelry, pigment and texture remain interpretive as noted per portrait",
+    "Six existing likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent non-portrait artwork preserved; no publication",
+    "Source eye glare, hazy exposure and hand occlusion preserved; some pigment, hair and jewelry details remain more defined than source, as recorded per portrait"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnail-paulami.png",
+    "thumbnail-phani.png",
+    "thumbnail-piyusha.png",
+    "thumbnail-poonam.png",
+    "thumbnail-prabashini.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "306-prompt.txt",
+    "30-prompt.txt",
+    "120-prompt.txt",
+    "180-prompt.txt",
+    "169-prompt.txt"
+  ]
+}

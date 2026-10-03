@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-03T07:57:42.369985+00:00",
+  "batch": "portrait-039",
+  "writer_ids": [
+    45,
+    376,
+    21,
+    472,
+    265
+  ],
+  "integrated_writer_ids": [
+    45,
+    376,
+    21,
+    472,
+    265
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node 24 public Astro build passed",
+    "Author check passed: 196 artistic portraits, 228 photographs including 3 likeness holds, 3 initials",
+    "Edition check passed: 47 editions, 799 poems, 848 source hashes",
+    "2304 baseline files checked; only authorized portrait map changed",
+    "All 200 portrait source/master hash records match",
+    "Desktop 1280px and mobile 360px profile crop inspected; mobile scroll width 360px",
+    "All five new circular thumbnails visually inspected"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all five exact prompts and source/normal-size comparisons within approved watercolor medium.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Writer 265 source is soft with reflections; small mouth interior, hair and beard marks remain interpretive",
+    "Some watercolor washes and fine jewelry, hair and textile details are more articulated than requested; retained in per-writer observations, no material facial identity drift observed",
+    "Existing likeness holds 238, 213 and 110 retain original photos; three missing-photo holds retain initials",
+    "Counts refer to 427 portrait records rather than deduplicated identities",
+    "Concurrent authorized non-portrait artwork and engagement preserved; no portrait publication"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-manjula.png",
+    "thumbnails-mano.png",
+    "thumbnails-manua.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "45-prompt.txt",
+    "376-prompt.txt",
+    "21-prompt.txt",
+    "472-prompt.txt",
+    "265-prompt.txt"
+  ]
+}

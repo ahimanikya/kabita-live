@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-03T10:38:29.010333+00:00",
+  "batch": "portrait-046",
+  "writer_ids": [
+    263,
+    123,
+    453,
+    167,
+    75
+  ],
+  "integrated_writer_ids": [
+    263,
+    123,
+    453,
+    167,
+    75
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:229 artistic portraits,195 photographs including5 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2403 baseline files checked; only authorized portrait map changed",
+    "All234 portrait source/master hash records match",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px",
+    "All five new directory circular thumbnails visually inspected"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all exact prompts and source/normal-size comparisons; natural asymmetry, pose, occlusion and source limitations retained.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Pigment, hair and wash detail remain interpretive as noted in each portrait record",
+    "Five existing likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent authorized non-portrait artwork and engagement preserved; no portrait publication",
+    "Writers167 and75 have grayscale sources: faces, hair and clothing remain grayscale; colored washes restricted to surrounding paper",
+    "Writer453 reflective glasses and nearly closed eyes preserved; hidden eye details not reconstructed"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnail-nibha.png",
+    "thumbnail-nidhi.png",
+    "thumbnail-niharika.png",
+    "thumbnail-nikhilesh.png",
+    "thumbnail-nilim.png",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "263-prompt.txt",
+    "123-prompt.txt",
+    "453-prompt.txt",
+    "167-prompt.txt",
+    "75-prompt.txt"
+  ]
+}
