@@ -1,0 +1,411 @@
+{
+  "result": "FAIL",
+  "verified_at": "2026-10-03T15:25:29.369833+00:00",
+  "release_commit": "17ef59aea11c361dbed1b713dc3085446548c431",
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37132980779",
+  "assets": [
+    {
+      "path": "assets/writers/71-earth-voice-v2.webp",
+      "status": 200,
+      "sha256": "e89555cb9662311e70d2c11d5ec35f92693146172694ee8bb4a8b52f10d210af",
+      "expected_sha256": "e89555cb9662311e70d2c11d5ec35f92693146172694ee8bb4a8b52f10d210af",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/71-earth-voice-v2-128.webp",
+      "status": 200,
+      "sha256": "7280f722755082c42cc69ec73fc5cf946310e32f704d9ac7eac6d3b3bae3f095",
+      "expected_sha256": "7280f722755082c42cc69ec73fc5cf946310e32f704d9ac7eac6d3b3bae3f095",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/71-earth-voice-v2-64.webp",
+      "status": 200,
+      "sha256": "7f1113e3b7dbe4a9f787a2a837bd62a6670b09c9582f08cc64d1c00e71790a3f",
+      "expected_sha256": "7f1113e3b7dbe4a9f787a2a837bd62a6670b09c9582f08cc64d1c00e71790a3f",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/158-earth-voice-v2.webp",
+      "status": 200,
+      "sha256": "0d9c9f180a0fb8dfd5934729dbd2dd9ffde2fbbac9746f15e30b6e9296a34305",
+      "expected_sha256": "0d9c9f180a0fb8dfd5934729dbd2dd9ffde2fbbac9746f15e30b6e9296a34305",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/158-earth-voice-v2-128.webp",
+      "status": 200,
+      "sha256": "45b5325952ff841590b4bef1c2e186437d6b93fbea86a4a1fc72d97c6ebb2376",
+      "expected_sha256": "45b5325952ff841590b4bef1c2e186437d6b93fbea86a4a1fc72d97c6ebb2376",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/158-earth-voice-v2-64.webp",
+      "status": 200,
+      "sha256": "ebaa6026da501477c8115db61e25b2eeda81f376bb5bf5ba88322e67835d46fe",
+      "expected_sha256": "ebaa6026da501477c8115db61e25b2eeda81f376bb5bf5ba88322e67835d46fe",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/344-earth-voice-v2.webp",
+      "status": 200,
+      "sha256": "c1aed33e22790a3dd4a3e235cfba8b94848b6b4a5be7dfcb9d0e0be709ddd3df",
+      "expected_sha256": "c1aed33e22790a3dd4a3e235cfba8b94848b6b4a5be7dfcb9d0e0be709ddd3df",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/344-earth-voice-v2-128.webp",
+      "status": 200,
+      "sha256": "7a521fc9eb6c157469910ae344a386884a99fecad14f36afe0b42e19b7c32db2",
+      "expected_sha256": "7a521fc9eb6c157469910ae344a386884a99fecad14f36afe0b42e19b7c32db2",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/344-earth-voice-v2-64.webp",
+      "status": 200,
+      "sha256": "e897b1981f3cca1926380c788876f2dea1c43f434685ed092aaf6cc43a3f18c8",
+      "expected_sha256": "e897b1981f3cca1926380c788876f2dea1c43f434685ed092aaf6cc43a3f18c8",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/374-earth-voice-v2.webp",
+      "status": 200,
+      "sha256": "acd14284cfd5376458d824d633658cbe55d3dd02fd8890accc5d274824b1e8d1",
+      "expected_sha256": "acd14284cfd5376458d824d633658cbe55d3dd02fd8890accc5d274824b1e8d1",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/374-earth-voice-v2-128.webp",
+      "status": 200,
+      "sha256": "1577c1bcff73aaa88b35ed27209618be649721b3b5bcc8153d961cf13330cca1",
+      "expected_sha256": "1577c1bcff73aaa88b35ed27209618be649721b3b5bcc8153d961cf13330cca1",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/374-earth-voice-v2-64.webp",
+      "status": 200,
+      "sha256": "2c1c6bec815793284a27ec265a1c91bd454491073a89fefb9d4d65cd7a2bc83e",
+      "expected_sha256": "2c1c6bec815793284a27ec265a1c91bd454491073a89fefb9d4d65cd7a2bc83e",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/86-earth-voice-v2.webp",
+      "status": 200,
+      "sha256": "fdbd1c989edb4502ad30437c79aff3b3d8b655001f95683489a579cbc4bebb3a",
+      "expected_sha256": "fdbd1c989edb4502ad30437c79aff3b3d8b655001f95683489a579cbc4bebb3a",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/86-earth-voice-v2-128.webp",
+      "status": 200,
+      "sha256": "b13a3896a5254fc0a9ce202d43d50bc76eabbcceaa49c0fc07381c90b36ef23e",
+      "expected_sha256": "b13a3896a5254fc0a9ce202d43d50bc76eabbcceaa49c0fc07381c90b36ef23e",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/86-earth-voice-v2-64.webp",
+      "status": 200,
+      "sha256": "396bf732ab702f77a9c3c0f67149b25a59df54d12414449deaf37d6585c5d43a",
+      "expected_sha256": "396bf732ab702f77a9c3c0f67149b25a59df54d12414449deaf37d6585c5d43a",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/90-earth-voice-v2.webp",
+      "status": 200,
+      "sha256": "303d5436828425ec16041fffc85d0467ec9d8ebcb286b6f7dac7c2b7e50a59e8",
+      "expected_sha256": "303d5436828425ec16041fffc85d0467ec9d8ebcb286b6f7dac7c2b7e50a59e8",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/90-earth-voice-v2-128.webp",
+      "status": 200,
+      "sha256": "d25fc388be95464768445ca0bfeed082273f56a5227a1f00ef429cc92f659edf",
+      "expected_sha256": "d25fc388be95464768445ca0bfeed082273f56a5227a1f00ef429cc92f659edf",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/90-earth-voice-v2-64.webp",
+      "status": 200,
+      "sha256": "e7e72476cc56db926c140bb4408d18cc72f3b8e29728b21ed168ed748803ee4e",
+      "expected_sha256": "e7e72476cc56db926c140bb4408d18cc72f3b8e29728b21ed168ed748803ee4e",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/124-earth-voice-v2.webp",
+      "status": 200,
+      "sha256": "4d789941ccd86f50bf9c3bafab98f019f7c57d5ea5384cbf5cb5f25c87dba7f2",
+      "expected_sha256": "4d789941ccd86f50bf9c3bafab98f019f7c57d5ea5384cbf5cb5f25c87dba7f2",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/124-earth-voice-v2-128.webp",
+      "status": 200,
+      "sha256": "bd98b7d8b48ac86b2c908d760dd5f51f4aba87ef0aaf5301908ccce48b10a308",
+      "expected_sha256": "bd98b7d8b48ac86b2c908d760dd5f51f4aba87ef0aaf5301908ccce48b10a308",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/124-earth-voice-v2-64.webp",
+      "status": 200,
+      "sha256": "f44ebacf1a47ca5bb0af233bea27cc41f1524d36addf308861267a9651fd47ef",
+      "expected_sha256": "f44ebacf1a47ca5bb0af233bea27cc41f1524d36addf308861267a9651fd47ef",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/129-earth-voice-v2.webp",
+      "status": 200,
+      "sha256": "2b6452bb58e7dc628fbb0df45f081a5d4ca7a3d69d6819c5f23ac075f1512963",
+      "expected_sha256": "2b6452bb58e7dc628fbb0df45f081a5d4ca7a3d69d6819c5f23ac075f1512963",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/129-earth-voice-v2-128.webp",
+      "status": 200,
+      "sha256": "20c920faf9efb1f02b7b2d6f26c99a57e2a1af895560d2f9e21d316faca4f37c",
+      "expected_sha256": "20c920faf9efb1f02b7b2d6f26c99a57e2a1af895560d2f9e21d316faca4f37c",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/129-earth-voice-v2-64.webp",
+      "status": 200,
+      "sha256": "faed563129776cacea1f6aa3d82e146811b5952987ecf3913523bfae3392ee4d",
+      "expected_sha256": "faed563129776cacea1f6aa3d82e146811b5952987ecf3913523bfae3392ee4d",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/198-earth-voice-v2.webp",
+      "status": 200,
+      "sha256": "7f4325250953f8e8a4763152f8e35265aa71b505df5c781f91603e409ce46615",
+      "expected_sha256": "7f4325250953f8e8a4763152f8e35265aa71b505df5c781f91603e409ce46615",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/198-earth-voice-v2-128.webp",
+      "status": 200,
+      "sha256": "84828579c7d5d887586f3355a5978ec4d7c8c5d40d8aae5074f13f37dc405327",
+      "expected_sha256": "84828579c7d5d887586f3355a5978ec4d7c8c5d40d8aae5074f13f37dc405327",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/198-earth-voice-v2-64.webp",
+      "status": 200,
+      "sha256": "f0721d3b89632274eb3f232cf992e8fc1c481459e861688c8507cf5523b9d386",
+      "expected_sha256": "f0721d3b89632274eb3f232cf992e8fc1c481459e861688c8507cf5523b9d386",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/204-earth-voice-v2.webp",
+      "status": 200,
+      "sha256": "0cfc49f7295e3f15a56d64150ecdb74ff7f0eaeaecf841aff656fdf0940a641a",
+      "expected_sha256": "0cfc49f7295e3f15a56d64150ecdb74ff7f0eaeaecf841aff656fdf0940a641a",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/204-earth-voice-v2-128.webp",
+      "status": 200,
+      "sha256": "d70caa60058f3544a44df6523801da5690f57310e9187be8eece6086a6166800",
+      "expected_sha256": "d70caa60058f3544a44df6523801da5690f57310e9187be8eece6086a6166800",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/204-earth-voice-v2-64.webp",
+      "status": 200,
+      "sha256": "5fe76bffbd1bbb783621862fb530d57225d7e7b972e78049c3ef7fb2df92f74d",
+      "expected_sha256": "5fe76bffbd1bbb783621862fb530d57225d7e7b972e78049c3ef7fb2df92f74d",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/265-earth-voice-v2.webp",
+      "status": 200,
+      "sha256": "8bf6e8138762598870940f7570e63ad8e7aded6fd67171f1b77531595199ca48",
+      "expected_sha256": "8bf6e8138762598870940f7570e63ad8e7aded6fd67171f1b77531595199ca48",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/265-earth-voice-v2-128.webp",
+      "status": 200,
+      "sha256": "7c2f1ef38b5d80ae4ef7394d6a576a9a36b463384cd535c966fd4c4ef4b71765",
+      "expected_sha256": "7c2f1ef38b5d80ae4ef7394d6a576a9a36b463384cd535c966fd4c4ef4b71765",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/265-earth-voice-v2-64.webp",
+      "status": 200,
+      "sha256": "1094a193d30adfb694843104b8a875d361a8a8397860f7757a044c11fb786889",
+      "expected_sha256": "1094a193d30adfb694843104b8a875d361a8a8397860f7757a044c11fb786889",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/337-earth-voice-v2.webp",
+      "status": 200,
+      "sha256": "e1387178784b1dbd358ebcd8008b196ba5b9b8d81aa6e2eb5e94f7f5b2f4049b",
+      "expected_sha256": "e1387178784b1dbd358ebcd8008b196ba5b9b8d81aa6e2eb5e94f7f5b2f4049b",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/337-earth-voice-v2-128.webp",
+      "status": 200,
+      "sha256": "33fd36ae7edd5693060974a5f88c6ee811b577d884d6eebd0a4b0896deca92ec",
+      "expected_sha256": "33fd36ae7edd5693060974a5f88c6ee811b577d884d6eebd0a4b0896deca92ec",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/337-earth-voice-v2-64.webp",
+      "status": 200,
+      "sha256": "3f0a5665f7b6df5bb8589cb0e351524604e09c264006e2c9c261d6ce559a7678",
+      "expected_sha256": "3f0a5665f7b6df5bb8589cb0e351524604e09c264006e2c9c261d6ce559a7678",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/382-earth-voice-v3.webp",
+      "status": 200,
+      "sha256": "800c572a11a1ad22d47420413cd33f20209f24252cdbf141e9c769abcd4ad95f",
+      "expected_sha256": "800c572a11a1ad22d47420413cd33f20209f24252cdbf141e9c769abcd4ad95f",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/382-earth-voice-v3-128.webp",
+      "status": 200,
+      "sha256": "cd0232d81b23e12e5274407bd6b8909ce5501849a11427cdf01e5374a19dcf8b",
+      "expected_sha256": "cd0232d81b23e12e5274407bd6b8909ce5501849a11427cdf01e5374a19dcf8b",
+      "pass": true
+    },
+    {
+      "path": "assets/writers/382-earth-voice-v3-64.webp",
+      "status": 200,
+      "sha256": "98972479d8a0072183e2be4a53e49ebd30b297e5b2f60d9ce3dec9d84c81bc3f",
+      "expected_sha256": "98972479d8a0072183e2be4a53e49ebd30b297e5b2f60d9ce3dec9d84c81bc3f",
+      "pass": true
+    },
+    {
+      "path": "runtime-config.json",
+      "status": 200,
+      "sha256": "281e322165a5569da51f9cc56ee0ccd4ffe1892f0eae95d11fdb5deb0da3d4ff",
+      "expected_sha256": "281e322165a5569da51f9cc56ee0ccd4ffe1892f0eae95d11fdb5deb0da3d4ff",
+      "pass": true
+    },
+    {
+      "path": "assets/analytics.js",
+      "status": 200,
+      "sha256": "c9b7ca39f408f2e2a1c64056aa46fa21c87f4a29026f9dd57a2344590f487180",
+      "expected_sha256": "c9b7ca39f408f2e2a1c64056aa46fa21c87f4a29026f9dd57a2344590f487180",
+      "pass": true
+    },
+    {
+      "path": "assets/engagement.js",
+      "status": 200,
+      "sha256": "379b612f200aa4877b166cd0fa75640f48dcf78ccdc3bc77b5a346be301fe571",
+      "expected_sha256": "379b612f200aa4877b166cd0fa75640f48dcf78ccdc3bc77b5a346be301fe571",
+      "pass": true
+    }
+  ],
+  "profiles": [
+    {
+      "writer_id": 71,
+      "route": "poet-71.html",
+      "status": 200,
+      "selected_portrait_present": true,
+      "noindex_preserved": true,
+      "pass": true
+    },
+    {
+      "writer_id": 158,
+      "route": "poet-158.html",
+      "status": 200,
+      "selected_portrait_present": true,
+      "noindex_preserved": true,
+      "pass": true
+    },
+    {
+      "writer_id": 344,
+      "route": "poet-344.html",
+      "status": 200,
+      "selected_portrait_present": true,
+      "noindex_preserved": true,
+      "pass": true
+    },
+    {
+      "writer_id": 374,
+      "route": "poet-374.html",
+      "status": 200,
+      "selected_portrait_present": true,
+      "noindex_preserved": true,
+      "pass": true
+    },
+    {
+      "writer_id": 86,
+      "route": "poet-86.html",
+      "status": 200,
+      "selected_portrait_present": true,
+      "noindex_preserved": true,
+      "pass": true
+    },
+    {
+      "writer_id": 90,
+      "route": "poet-90.html",
+      "status": 200,
+      "selected_portrait_present": true,
+      "noindex_preserved": true,
+      "pass": true
+    },
+    {
+      "writer_id": 124,
+      "route": "poet-124.html",
+      "status": 200,
+      "selected_portrait_present": true,
+      "noindex_preserved": true,
+      "pass": true
+    },
+    {
+      "writer_id": 129,
+      "route": "poet-129.html",
+      "status": 200,
+      "selected_portrait_present": true,
+      "noindex_preserved": true,
+      "pass": true
+    },
+    {
+      "writer_id": 198,
+      "route": "poet-198.html",
+      "status": 200,
+      "selected_portrait_present": true,
+      "noindex_preserved": true,
+      "pass": true
+    },
+    {
+      "writer_id": 204,
+      "route": "poet-204.html",
+      "status": 200,
+      "selected_portrait_present": true,
+      "noindex_preserved": true,
+      "pass": true
+    },
+    {
+      "writer_id": 265,
+      "route": "poet-265.html",
+      "status": 200,
+      "selected_portrait_present": true,
+      "noindex_preserved": true,
+      "pass": true
+    },
+    {
+      "writer_id": 337,
+      "route": "poet-kshanika.html",
+      "status": 200,
+      "selected_portrait_present": true,
+      "noindex_preserved": true,
+      "pass": true
+    },
+    {
+      "writer_id": 382,
+      "route": "poet-382.html",
+      "status": 200,
+      "selected_portrait_present": true,
+      "noindex_preserved": true,
+      "pass": true
+    }
+  ],
+  "directory_thumbnails": true,
+  "collection_reader_portraits": false,
+  "independent": false
+}

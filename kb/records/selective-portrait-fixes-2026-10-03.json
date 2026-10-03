@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-03T14:38:51.894743+00:00",
   "user_quote": "OK, let's go with your reco and fix them, push to git and update the web site too",
   "work_id": "KBL-WORK-012",
-  "status": "verified_locally_ready_for_git_and_deployment",
+  "status": "deployed_and_live_verified",
   "scope": "13 shortlisted watercolor revisions; select only source-compared improvements; commit/push these revisions and necessary records; manual public-only Pages preview deployment and live verification. Nine source-review cases and existing holds excluded.",
   "writer_ids": [
     71,
@@ -28,7 +28,7 @@
       "master": "kb/artifacts/artwork/writer-portraits/71-earth-voice-v1.png",
       "earlier_treatment": true,
       "existing_hold": false,
-      "status": "integrated_verified_locally",
+      "status": "deployed_and_live_verified",
       "source_sha256": "f512820f64ea9d05f4f3a520150f33dd29f1852d1374e2cdf84ab92d75e6ccf1",
       "portrait_sha256": "d852450f561524e6df0cb03e569228f843286e2a39aeb21fce7457320b6519e7",
       "sheet": 2,
@@ -50,7 +50,8 @@
         "128": "7280f722755082c42cc69ec73fc5cf946310e32f704d9ac7eac6d3b3bae3f095",
         "64": "7f1113e3b7dbe4a9f787a2a837bd62a6670b09c9582f08cc64d1c00e71790a3f"
       },
-      "verified_at": "2026-10-03T15:18:09.046441+00:00"
+      "verified_at": "2026-10-03T15:18:09.046441+00:00",
+      "deployment_commit": "17ef59aea11c361dbed1b713dc3085446548c431"
     },
     {
       "writer_id": 158,
@@ -60,7 +61,7 @@
       "master": "kb/artifacts/artwork/writer-portraits/158-earth-voice-v1.png",
       "earlier_treatment": true,
       "existing_hold": false,
-      "status": "integrated_verified_locally",
+      "status": "deployed_and_live_verified",
       "source_sha256": "d68d9efac3dbcd27479867ba815e4372183281950b2002fe902ebf783631c96d",
       "portrait_sha256": "68c923f94a9fd35fa10fdb23929a858dc8a84e466668643bbae068274c4663d9",
       "sheet": 6,
@@ -82,7 +83,8 @@
         "128": "45b5325952ff841590b4bef1c2e186437d6b93fbea86a4a1fc72d97c6ebb2376",
         "64": "ebaa6026da501477c8115db61e25b2eeda81f376bb5bf5ba88322e67835d46fe"
       },
-      "verified_at": "2026-10-03T15:18:09.046441+00:00"
+      "verified_at": "2026-10-03T15:18:09.046441+00:00",
+      "deployment_commit": "17ef59aea11c361dbed1b713dc3085446548c431"
     },
     {
       "writer_id": 344,
@@ -92,7 +94,7 @@
       "master": "kb/artifacts/artwork/writer-portraits/344-earth-voice-v1.png",
       "earlier_treatment": true,
       "existing_hold": false,
-      "status": "integrated_verified_locally",
+      "status": "deployed_and_live_verified",
       "source_sha256": "45207a39f8b001a4c4629a8833a472dcaea9bba145ce2b280fd073e6719f1be8",
       "portrait_sha256": "51dea9d4218e710ed43dc46f7ff7a141e887c8af4d7f2f990f4e7e66857461f8",
       "sheet": 12,
@@ -114,7 +116,8 @@
         "128": "7a521fc9eb6c157469910ae344a386884a99fecad14f36afe0b42e19b7c32db2",
         "64": "e897b1981f3cca1926380c788876f2dea1c43f434685ed092aaf6cc43a3f18c8"
       },
-      "verified_at": "2026-10-03T15:18:09.046441+00:00"
+      "verified_at": "2026-10-03T15:18:09.046441+00:00",
+      "deployment_commit": "17ef59aea11c361dbed1b713dc3085446548c431"
     },
     {
       "writer_id": 374,
@@ -124,7 +127,7 @@
       "master": "kb/artifacts/artwork/writer-portraits/374-earth-voice-v1.png",
       "earlier_treatment": true,
       "existing_hold": false,
-      "status": "integrated_verified_locally",
+      "status": "deployed_and_live_verified",
       "source_sha256": "941d5e7a8aea9af1418ad3cd9f804d779efc7bfd77ccd142da541b6e2fe6ea2c",
       "portrait_sha256": "348f7fdad1843ae6709c5b5647d836fcfd97901c5c61721c9e257ffb1231bb46",
       "sheet": 13,
@@ -146,7 +149,8 @@
         "128": "1577c1bcff73aaa88b35ed27209618be649721b3b5bcc8153d961cf13330cca1",
         "64": "2c1c6bec815793284a27ec265a1c91bd454491073a89fefb9d4d65cd7a2bc83e"
       },
-      "verified_at": "2026-10-03T15:18:09.046441+00:00"
+      "verified_at": "2026-10-03T15:18:09.046441+00:00",
+      "deployment_commit": "17ef59aea11c361dbed1b713dc3085446548c431"
     },
     {
       "writer_id": 86,
@@ -156,7 +160,7 @@
       "master": "kb/artifacts/artwork/writer-portraits/86-earth-voice-v1.png",
       "earlier_treatment": true,
       "existing_hold": false,
-      "status": "integrated_verified_locally",
+      "status": "deployed_and_live_verified",
       "source_sha256": "d500be118fa478c6c120b28ac1bd24a0e7406fa28e2b0c840b04a0373de2a4c8",
       "portrait_sha256": "414d2cb46b6e7a09cb3eb86f61cda55062159ac0bad8a444ae29132aa6692747",
       "sheet": 3,
@@ -178,7 +182,8 @@
         "128": "b13a3896a5254fc0a9ce202d43d50bc76eabbcceaa49c0fc07381c90b36ef23e",
         "64": "396bf732ab702f77a9c3c0f67149b25a59df54d12414449deaf37d6585c5d43a"
       },
-      "verified_at": "2026-10-03T15:18:09.046441+00:00"
+      "verified_at": "2026-10-03T15:18:09.046441+00:00",
+      "deployment_commit": "17ef59aea11c361dbed1b713dc3085446548c431"
     },
     {
       "writer_id": 90,
@@ -188,7 +193,7 @@
       "master": "kb/artifacts/artwork/writer-portraits/90-earth-voice-v1.png",
       "earlier_treatment": true,
       "existing_hold": false,
-      "status": "integrated_verified_locally",
+      "status": "deployed_and_live_verified",
       "source_sha256": "dbbd747f92afbfe256ec80edc0b3d15e830c5c56a05035c4985131afd4fd6509",
       "portrait_sha256": "5b90e71cffd6aa3fb5e4618701be72db5df7241bf45341105f12d58876ec2f0e",
       "sheet": 3,
@@ -210,7 +215,8 @@
         "128": "d25fc388be95464768445ca0bfeed082273f56a5227a1f00ef429cc92f659edf",
         "64": "e7e72476cc56db926c140bb4408d18cc72f3b8e29728b21ed168ed748803ee4e"
       },
-      "verified_at": "2026-10-03T15:18:09.046441+00:00"
+      "verified_at": "2026-10-03T15:18:09.046441+00:00",
+      "deployment_commit": "17ef59aea11c361dbed1b713dc3085446548c431"
     },
     {
       "writer_id": 124,
@@ -220,7 +226,7 @@
       "master": "kb/artifacts/artwork/writer-portraits/124-earth-voice-v1.png",
       "earlier_treatment": true,
       "existing_hold": false,
-      "status": "integrated_verified_locally",
+      "status": "deployed_and_live_verified",
       "source_sha256": "04281e2f3af122644c9f24894d03b9b0c71a7937c3bc0e864c04ea7b7c0828e9",
       "portrait_sha256": "797997a1aef75122078ce57762e78f56dafa38ca9fd6f97e8ed392896c29b012",
       "sheet": 4,
@@ -242,7 +248,8 @@
         "128": "bd98b7d8b48ac86b2c908d760dd5f51f4aba87ef0aaf5301908ccce48b10a308",
         "64": "f44ebacf1a47ca5bb0af233bea27cc41f1524d36addf308861267a9651fd47ef"
       },
-      "verified_at": "2026-10-03T15:18:09.046441+00:00"
+      "verified_at": "2026-10-03T15:18:09.046441+00:00",
+      "deployment_commit": "17ef59aea11c361dbed1b713dc3085446548c431"
     },
     {
       "writer_id": 129,
@@ -252,7 +259,7 @@
       "master": "kb/artifacts/artwork/writer-portraits/129-earth-voice-v1.png",
       "earlier_treatment": true,
       "existing_hold": false,
-      "status": "integrated_verified_locally",
+      "status": "deployed_and_live_verified",
       "source_sha256": "638fc2658126dab6a6c77788ca7fefe4eff1acb731036e58ebf42174f8cad596",
       "portrait_sha256": "7851c45f0fd37421d8b07625bc6a7f1463577ce4f8a51a8ce61e48092a175d31",
       "sheet": 5,
@@ -274,7 +281,8 @@
         "128": "20c920faf9efb1f02b7b2d6f26c99a57e2a1af895560d2f9e21d316faca4f37c",
         "64": "faed563129776cacea1f6aa3d82e146811b5952987ecf3913523bfae3392ee4d"
       },
-      "verified_at": "2026-10-03T15:18:09.046441+00:00"
+      "verified_at": "2026-10-03T15:18:09.046441+00:00",
+      "deployment_commit": "17ef59aea11c361dbed1b713dc3085446548c431"
     },
     {
       "writer_id": 198,
@@ -284,7 +292,7 @@
       "master": "kb/artifacts/artwork/writer-portraits/198-earth-voice-v1.png",
       "earlier_treatment": true,
       "existing_hold": false,
-      "status": "integrated_verified_locally",
+      "status": "deployed_and_live_verified",
       "source_sha256": "64af3697c5700b25c48a1b9f0098c559638b33cb8ae86831c269b4559432169a",
       "portrait_sha256": "2931107463d865a882f9399d8d11a9756d90243e08379a431dc1da7962156029",
       "sheet": 7,
@@ -306,7 +314,8 @@
         "128": "84828579c7d5d887586f3355a5978ec4d7c8c5d40d8aae5074f13f37dc405327",
         "64": "f0721d3b89632274eb3f232cf992e8fc1c481459e861688c8507cf5523b9d386"
       },
-      "verified_at": "2026-10-03T15:18:09.046441+00:00"
+      "verified_at": "2026-10-03T15:18:09.046441+00:00",
+      "deployment_commit": "17ef59aea11c361dbed1b713dc3085446548c431"
     },
     {
       "writer_id": 204,
@@ -316,7 +325,7 @@
       "master": "kb/artifacts/artwork/writer-portraits/204-earth-voice-v1.png",
       "earlier_treatment": true,
       "existing_hold": false,
-      "status": "integrated_verified_locally",
+      "status": "deployed_and_live_verified",
       "source_sha256": "00e5047b84b6c1b80769850275fc3c91ea5f1ae842b5765650195d91ea1be717",
       "portrait_sha256": "241d600d28d40ac4632d8a10e1a27805e798009d63b7fcdcaee8ecd8dbfc4f14",
       "sheet": 7,
@@ -338,7 +347,8 @@
         "128": "d70caa60058f3544a44df6523801da5690f57310e9187be8eece6086a6166800",
         "64": "5fe76bffbd1bbb783621862fb530d57225d7e7b972e78049c3ef7fb2df92f74d"
       },
-      "verified_at": "2026-10-03T15:18:09.046441+00:00"
+      "verified_at": "2026-10-03T15:18:09.046441+00:00",
+      "deployment_commit": "17ef59aea11c361dbed1b713dc3085446548c431"
     },
     {
       "writer_id": 265,
@@ -348,7 +358,7 @@
       "master": "kb/artifacts/artwork/writer-portraits/265-earth-voice-v1.png",
       "earlier_treatment": false,
       "existing_hold": false,
-      "status": "integrated_verified_locally",
+      "status": "deployed_and_live_verified",
       "source_sha256": "d440b4beb781d946aa0dc871be84b17ff855f12b985881cd521c3b42d7224d6e",
       "portrait_sha256": "76024348dc26bfb3413219fd755b0efda72f1b6142c63e37ece6183927a84c2d",
       "sheet": 20,
@@ -370,7 +380,8 @@
         "128": "7c2f1ef38b5d80ae4ef7394d6a576a9a36b463384cd535c966fd4c4ef4b71765",
         "64": "1094a193d30adfb694843104b8a875d361a8a8397860f7757a044c11fb786889"
       },
-      "verified_at": "2026-10-03T15:18:09.046441+00:00"
+      "verified_at": "2026-10-03T15:18:09.046441+00:00",
+      "deployment_commit": "17ef59aea11c361dbed1b713dc3085446548c431"
     },
     {
       "writer_id": 337,
@@ -380,7 +391,7 @@
       "master": "kb/artifacts/artwork/writer-portraits/337-earth-voice-v1.png",
       "earlier_treatment": true,
       "existing_hold": false,
-      "status": "integrated_verified_locally",
+      "status": "deployed_and_live_verified",
       "source_sha256": "79e31f94130c15a020cc27ef1514923f1965dc297bc12eabf76f04c1853fe7a9",
       "portrait_sha256": "f70b06f629ea137be8a0b3c70e137da65f4a25c527ed95933ba03106b288d6d6",
       "sheet": 11,
@@ -402,7 +413,8 @@
         "128": "33fd36ae7edd5693060974a5f88c6ee811b577d884d6eebd0a4b0896deca92ec",
         "64": "3f0a5665f7b6df5bb8589cb0e351524604e09c264006e2c9c261d6ce559a7678"
       },
-      "verified_at": "2026-10-03T15:18:09.046441+00:00"
+      "verified_at": "2026-10-03T15:18:09.046441+00:00",
+      "deployment_commit": "17ef59aea11c361dbed1b713dc3085446548c431"
     },
     {
       "writer_id": 382,
@@ -412,7 +424,7 @@
       "master": "kb/artifacts/artwork/writer-portraits/382-earth-voice-v1.png",
       "earlier_treatment": true,
       "existing_hold": false,
-      "status": "integrated_verified_locally",
+      "status": "deployed_and_live_verified",
       "source_sha256": "2fb5bf58341e17febc3475cfa18b288c80db7553d244e2a1ba2c559a76ab26e7",
       "portrait_sha256": "3b6d703d0fe8ccf6e6e001e037df90454ecffb210e6b1ab0668d0eec9f72832e",
       "sheet": 13,
@@ -444,11 +456,12 @@
         "128": "cd0232d81b23e12e5274407bd6b8909ce5501849a11427cdf01e5374a19dcf8b",
         "64": "98972479d8a0072183e2be4a53e49ebd30b297e5b2f60d9ce3dec9d84c81bc3f"
       },
-      "verified_at": "2026-10-03T15:18:09.046441+00:00"
+      "verified_at": "2026-10-03T15:18:09.046441+00:00",
+      "deployment_commit": "17ef59aea11c361dbed1b713dc3085446548c431"
     }
   ],
   "generation": "sequential built-in edits only; no paid fallback or subagents",
-  "background_queue": "Scheduled recurrence temporarily PAUSED; running batch057 finished. Restore ACTIVE after correction pass.",
+  "background_queue": "Original portrait heartbeat restored ACTIVE with unchanged prompt, every20 minutes, same target chat; resume batch058 writer318.",
   "independent": false,
   "preserve": "Originals and prior masters, source content, runtime settings, noindex, release gates and DNS",
   "resume_writer_id": null,
@@ -607,9 +620,26 @@
     "all_13_circular_thumbnails": "visually reviewed at 128px; recognizable faces and source-supported pose preserved",
     "desktop_profile": "Jayanti Rath, public build screenshot saved",
     "mobile_profile": "Madhu Jaiswal, 360px full page screenshot saved; no horizontal overflow",
-    "independent_likeness_review": "pending"
+    "independent_likeness_review": "pending",
+    "git_diff_check": "PASS",
+    "cloud_unit_and_firestore_emulator_checks": "PASS",
+    "live_profiles_verified": 13,
+    "live_portrait_asset_hashes_verified": 39,
+    "live_runtime_config_and_analytics_engagement_hashes_verified": 3,
+    "live_directory_and_collection_reader": "PASS"
   },
   "activity_ids": [
-    "KBL-EVT-441"
-  ]
+    "KBL-EVT-441",
+    "KBL-EVT-442"
+  ],
+  "release_commit": "17ef59aea11c361dbed1b713dc3085446548c431",
+  "workflow_run_id": 37132980779,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37132980779",
+  "hosting_mode": "preview",
+  "completed_at": "2026-10-03T15:28:59.939413+00:00",
+  "live_verification": "research/writers/selective-portrait-fixes-2026-10-03/live-verification.json",
+  "live_url": "https://ahimanikya.github.io/kabita-live/",
+  "live_screenshot": "artifacts/review/selective-portrait-fixes-2026-10-03/live-profile.png",
+  "verification_note": "Initial live checker expected full-size collection-reader references. Reader correctly uses the new -64.webp derivatives; expectation corrected, initial evidence preserved, final live check PASS. No website correction was needed.",
+  "background_restored_at": "2026-10-03T15:29:43.822308+00:00"
 }
