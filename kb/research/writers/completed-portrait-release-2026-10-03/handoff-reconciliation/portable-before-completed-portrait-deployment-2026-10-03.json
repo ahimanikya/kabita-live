@@ -2,7 +2,7 @@
   "recorded_at": "2026-10-03T13:52:11.695588+00:00",
   "authorization": "KBL-DEC-043",
   "user_quote": "Good deploy this - also deploy all poet portrait that are done",
-  "status": "deployed_verified",
+  "status": "uploading",
   "baseline_commit": "79ea940a7df9060fad1b81a187ad3bb8752a77e4",
   "snapshot": "research/writers/completed-portrait-release-2026-10-03",
   "cutoff_batch": "portrait-055",
@@ -310,20 +310,12 @@
     "build": "PASS: 1298 public pages",
     "scope": "666 HTML changes and reading JSON limited to portrait references, presentation and credits; source narratives, poem text, artwork, runtime settings unchanged",
     "visual_review": "Editor overview and Pravakar release preview inspected; saved screenshots; batch evidence preserved",
-    "independent": false,
-    "handoff": "PASS: 14143 entries synchronized and 2065 portable links checked; concurrent portrait056 changes reconciled.",
-    "ci": "Manual Pages workflow passed application tests, Firestore emulator rules, public build and deployment",
-    "live": "272 portrait delivery assets match their verified build SHA-256 hashes; representative pages show selected portraits and retain noindex; runtime settings preserved."
+    "independent": false
   },
   "commit": "a200166cb6197b058f1dd1dd899e552ea3642427",
   "operational_notes": [
     "Initial upload disconnected before updating main; retry uses HTTP/1.1 and larger buffer for preserved portrait masters.",
     "Initial handoff sync encountered a concurrent portrait-056 edition-check.json update; source and portable edits preserved; final sync will retry after verification.",
-    "Whitespace check passed for all non-log files; original build logs retained byte-for-byte, including terminal trailing spaces.",
-    "Upload retry succeeded; final handoff sync passed after concurrent portrait056 file updates. Earlier portable versions preserved in handoff-reconciliation."
-  ],
-  "workflow_run": "https://github.com/ahimanikya/kabita-live/actions/runs/37128744563",
-  "deployed_at": "2026-10-03T14:16:00.188375+00:00",
-  "url": "https://ahimanikya.github.io/kabita-live/",
-  "live_verification": "kb/research/writers/completed-portrait-release-2026-10-03/live-verification.json"
+    "Whitespace check passed for all non-log files; original build logs retained byte-for-byte, including terminal trailing spaces."
+  ]
 }
