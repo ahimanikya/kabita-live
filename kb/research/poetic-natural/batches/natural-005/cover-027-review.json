@@ -1,0 +1,25 @@
+{
+  "id": "cover-027",
+  "reviewed_at": "2026-10-03T07:37:34.416625+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-027-2025-01.png",
+  "source_sha256": "646136991f9536b8961b3376b9a8f8c8912ed856b5b50ec645bfe62899c3613e",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-027/v1.png",
+  "output_sha256": "f53d8c49a4548df012f95a32eb8529cb108da08463f21757285f725fe28947ae",
+  "prompt": "kb/research/poetic-natural/batches/natural-005/cover-027-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ddb68173-fe03-4246-831c-3cac6ef3b0c8.png",
+  "input_image": "projects/site/assets/covers/editions/edition-027-2025-01.webp",
+  "input_image_sha256": "3bf2422aecb6edcf59d81705d80db8258e06e966e51bec791917cce5ff638a33",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Gathered ochre net, floats, rope and boat bow retained",
+    "Uneven net folds reduce perfect coil; water less teal and more varied",
+    "Coherent boat structure and quiet upper sky preserved",
+    "No people, new equipment or text"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

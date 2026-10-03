@@ -1,0 +1,25 @@
+{
+  "id": "cover-044",
+  "reviewed_at": "2026-10-03T06:45:03.032700+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-044-2026-06.png",
+  "source_sha256": "ada5621e3f55fbb3b8e04bf3068d7b2eb067f81cbf00c5196cec334d050580ec",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-044/v1.png",
+  "output_sha256": "9e7416d41bfd17d53703d004b04b1946dcbe502a787c3d5f8d344789826c0a68",
+  "prompt": "kb/research/poetic-natural/batches/natural-001/cover-044-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-cd23b627-74b7-46ef-ae5b-e17653d71485.png",
+  "checks": [
+    "Rain threshold, brass vessel and red wall retained",
+    "White drawing is softened and partially washed away on exposed floor",
+    "Rain rings and reflections less uniform; doorway remains quiet",
+    "Portrait composition retained with no invented text or people"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true,
+  "input_image": "projects/site/assets/covers/editions/edition-044-2026-06.webp",
+  "input_image_sha256": "7ca09757e9c3d93347d7f0325a1c58e605e322e16c86493e1680a8b7e0cd3c4b",
+  "input_role": "Edit target; inspected site derivative of preserved canonical master"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "art-dokana",
+  "reviewed_at": "2026-10-03T10:33:06.580464+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/poem-art/dokana.png",
+  "source_sha256": "bcfa590bc5f13dc740499f6c5e2fa09bbfbfaee1d26f255f9771fe0e30bd576b",
+  "output": "kb/artifacts/artwork/poetic-natural/art-dokana/v1.png",
+  "output_sha256": "36b8a2e9f28cfd6d08b38437dd5591fcdcc02fa6633c0c007a26f726f60b3b4c",
+  "prompt": "kb/research/poetic-natural/batches/natural-014/art-dokana-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-3ff91a69-d375-47a3-a816-f79f4b73b12b.png",
+  "input_image": "projects/site/assets/poem-art/dokana.webp",
+  "input_image_sha256": "fbd7194d553b169de9bdddbf9e23159966a72c28eea14afa7e70d43df37a3391",
+  "narrative_source": "projects/site/content/editions/issue-47/poem-809.json",
+  "checks": [
+    "Closed indigo shop and central secured bolt/padlock retain the poem-specific closure narrative.",
+    "Broken wet reflections, recessed doorway shadow and building perspective remain physically coherent.",
+    "Original Odisha lane, palm, clay-red step and opaque ivory watercolor paper preserved; no people, text or invented shop contents."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "projects/site/data/local-routes.json",
+  "shared_assignment_count": 1,
+  "representative_poems_read": [
+    {
+      "id": 809,
+      "title": "ଦୋକାନ",
+      "path": "projects/site/content/editions/issue-47/poem-809.json",
+      "sha256": "1cd5e0e10d14661b9dd63116c9185b576212e614da3530b0b57b93f184f95768",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "approval_provenance": "kb/records/poem-reader-a-approval.json"
+}

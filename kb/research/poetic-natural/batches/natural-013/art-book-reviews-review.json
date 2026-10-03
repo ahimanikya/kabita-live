@@ -1,0 +1,54 @@
+{
+  "id": "art-book-reviews",
+  "reviewed_at": "2026-10-03T10:18:39.180407+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/section-art/book-reviews.png",
+  "source_sha256": "a2b2c26152eed97f3c3ed23bb21cabb23286719aebdf137cd11705e5ccdc8abb",
+  "output": "kb/artifacts/artwork/poetic-natural/art-book-reviews/v1.png",
+  "output_sha256": "a4851d21c863751c18d3073c2a704453b161400c908763bb1faf4ebb1a29d4b3",
+  "prompt": "kb/research/poetic-natural/batches/natural-013/art-book-reviews-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-b41f5761-f09b-41ab-a43d-9280313cbdb9.png",
+  "input_image": "projects/site/assets/section-art/book-reviews.webp",
+  "input_image_sha256": "b89ef55cd13e32e8266f77bb89c9ed5acab60ea01f5157afb00835d2d5f1e2d6",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Open blank book, spectacles, mug, brass flowers and two background books retain the reading scene.",
+    "Spectacle geometry and contact shadows plausible; fabric drape, page curvature and window-side light coherent.",
+    "Existing botanical mug and indigo textile patterns preserved within watercolor treatment; no new writing or people."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 16,
+  "representative_poems_read": [
+    {
+      "id": 75,
+      "title": "I left behind",
+      "path": "projects/site/content/editions/issue-03/poem-75.json",
+      "sha256": "a73a0dbf325efdf6f1baea43e6381cd91a177b8b8fd3a5da0a2b4d2f7770798b",
+      "full_text_read": true
+    },
+    {
+      "id": 77,
+      "title": "DRAMABAAZ",
+      "path": "projects/site/content/editions/issue-03/poem-77.json",
+      "sha256": "9eabe461a7b83aedcc5b15a77443dcde628425db56b89007b3e6e5b1c1a1999a",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  }
+}

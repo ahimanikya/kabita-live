@@ -1,0 +1,26 @@
+{
+  "id": "cover-033",
+  "reviewed_at": "2026-10-03T07:14:52.746826+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-033-2025-07.png",
+  "source_sha256": "3cd95cf1df54d5ae753bd8b57521ceaac3ab1a605bb277da50ef7755a52cdba2",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-033/v2.png",
+  "output_sha256": "e0fdd86e38742627d32f71ec51fbafd6cbece669aa6c1a56b374f54f5b03081c",
+  "prompt": "kb/research/poetic-natural/batches/natural-003/cover-033-v2-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-84eb0d4a-4b49-4606-b545-21ffab2f7925.png",
+  "input_image": "kb/artifacts/artwork/poetic-natural/cover-033/v1.png",
+  "input_image_sha256": "ffb070f7893c4c36a0cd831e2dc536fcd971f8634d1e065858dbfb704637c024",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Correction removed unintended paper note; bowl now empty as source narrative requires",
+    "Resting hand, bowl rim and grounded hammer remain intact",
+    "Less regular forming marks and muted metallic reflections; material identity is artistic interpretation",
+    "Portrait composition, quiet workshop and original objects preserved"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true,
+  "correction": "Remove hallucinated written note. Original source and rejected v1 preserved."
+}

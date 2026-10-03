@@ -1,0 +1,2137 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-03T06:27:25.842915+00:00",
+  "updated_at": "2026-10-03T10:53:36.200096+00:00",
+  "authorization": "KBL-DEC-040",
+  "batch_size": 5,
+  "mode": "Poetic Natural; preserve the medium and purpose of each asset",
+  "counts": {
+    "total": 73,
+    "verified": 72,
+    "pending": 0,
+    "holds": 1
+  },
+  "next_id": null,
+  "items": [
+    {
+      "id": "home-life-as-it-is",
+      "title": "LIFE AS IT IS",
+      "roles": [
+        "homepage"
+      ],
+      "source": "kb/artifacts/artwork/masters/home/life-after-rain.png",
+      "delivery_source": "projects/site/assets/home/life-after-rain.webp",
+      "source_sha256": "3091e8a1c563a706ba1d68362d0ee71dbdc9ab1f85d5d00174060d98ad9a1cf6",
+      "delivery_sha256": "b372734527265f89f728896c926e2b7b2b336fd4218bb997397a2b3ee7f4d00e",
+      "caption": "LIFE AS IT IS",
+      "alt": "A rain-washed earthen courtyard opens onto a pond and green fields; an indigo doorway, brass vessel and white threshold drawing suggest a quiet Odisha home.",
+      "provenance": "records/home-atmosphere-approval.json",
+      "status": "verified",
+      "attempts": [],
+      "output": "kb/artifacts/artwork/studies/poetic-natural-cover-2026-10-03/kabita-live-life-after-rain-poetic-natural-v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "review": "kb/records/poetic-natural-cover-2026-10-03.json",
+      "approval": "User: This is good.",
+      "completed_at": "2026-10-03T06:27:25.842915+00:00"
+    },
+    {
+      "id": "cover-047",
+      "title": "After the rain",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-047-2026-09.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-047-2026-09.webp",
+      "source_sha256": "8bf40e8b3a48dcf2464dbb72009ad3f41dded45aa764ee8d24ce8057fad2a5e3",
+      "delivery_sha256": "349f9fb483ad1faf5654ffe8648d5687dfadb7580c60d42aedf76bcce278edb7",
+      "caption": "Everyday Odisha: rain, earthen courtyards and the sensory memory of home.",
+      "alt": "A single fallen ivory frangipani flower on wet red laterite earth, small deep teal puddle reflecting an overcast sky, exquisite low macro perspective.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-001/cover-047-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-047/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-047/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-001",
+      "completed_at": "2026-10-03T06:31:43.163997+00:00",
+      "output_sha256": "1c1b2a3b5fa20b810027317ec7ee7bd2563a7a7354bc26cd4b054cdd2bd5baca",
+      "review": "kb/research/poetic-natural/batches/natural-001/cover-047-review.json"
+    },
+    {
+      "id": "cover-046",
+      "title": "The colour before the story",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-046-2026-08.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-046-2026-08.webp",
+      "source_sha256": "071de5db692e869309cd255a7966bd5caedfeee8d4a701f2a5d9b6df895311c2",
+      "delivery_sha256": "ce50a7a8621470827079500443f29e3f8f108088f66dee2a9fd94106045e44d0",
+      "caption": "Raghurajpur is known for pattachitra, a painting tradition on prepared cloth. This is an imagined workshop and an original border study.",
+      "alt": "An artist uses a fine brush to paint an original floral border on cloth, inspired by Raghurajpur.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-001/cover-046-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-046/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-046/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-001",
+      "completed_at": "2026-10-03T06:42:31.821771+00:00",
+      "output_sha256": "266d9774d0c3a03380256bcc77ae2da2893d4856a6044ca05ef552f52707ac0a",
+      "review": "kb/research/poetic-natural/batches/natural-001/cover-046-review.json"
+    },
+    {
+      "id": "cover-045",
+      "title": "Evening on the water",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-045-2026-07.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-045-2026-07.webp",
+      "source_sha256": "45b06daa78f9f91a6873d96f0fcc87f09459be966ddf4a901615ab5033fbb5ff",
+      "delivery_sha256": "03ebbb050ee8c1b2c25d26f16f42f365acbc4cd44c415742ce250049e0440244",
+      "caption": "Odisha's lagoon landscapes and fishing livelihoods; an imagined waterside scene, not an identified boat or community.",
+      "alt": "A single empty narrow wooden fishing boat among sparse reeds on a tranquil Odisha lagoon at blue hour, wide quiet water seen in a vertical composition, ochre rope on the bow.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-001/cover-045-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-045/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-045/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-001",
+      "completed_at": "2026-10-03T06:43:41.922215+00:00",
+      "output_sha256": "286093bd1d9c34db5f0b0510f2ecf49913e3e6954647725169394bebbaf51123",
+      "review": "kb/research/poetic-natural/batches/natural-001/cover-045-review.json"
+    },
+    {
+      "id": "cover-044",
+      "title": "A threshold in rain",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-044-2026-06.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-044-2026-06.webp",
+      "source_sha256": "ada5621e3f55fbb3b8e04bf3068d7b2eb067f81cbf00c5196cec334d050580ec",
+      "delivery_sha256": "7ca09757e9c3d93347d7f0325a1c58e605e322e16c86493e1680a8b7e0cd3c4b",
+      "caption": "Jhoti and chita provide the visual reference: restrained white threshold drawing within an imagined earthen home.",
+      "alt": "A simple earthen Odisha courtyard threshold with delicate white rice-paste Jhoti drawing, monsoon rain, a brass water vessel beside a laterite-red wall, no people.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-001/cover-044-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-044/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-044/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-001",
+      "completed_at": "2026-10-03T06:45:03.032700+00:00",
+      "output_sha256": "9e7416d41bfd17d53703d004b04b1946dcbe502a787c3d5f8d344789826c0a68",
+      "review": "kb/research/poetic-natural/batches/natural-001/cover-044-review.json"
+    },
+    {
+      "id": "cover-043",
+      "title": "Room for water",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-043-2026-05.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-043-2026-05.webp",
+      "source_sha256": "5c566fd998b4f6656565fb8cb3db1d42f4df66ef9217fdcfa991b04616cef318",
+      "delivery_sha256": "9e1b3f4dc758167b5b0e94e2efd5771b0f6e294a1457a8b5c4b8266b0de0f685",
+      "caption": "Everyday earthenware and the labour of pottery; no specific craft cluster is claimed for this imagined scene.",
+      "alt": "Three handmade terracotta water pitchers drying beside a low mud wall, an indigo cotton cloth, a small pool of window light in a traditional Odisha pottery workspace.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-001/cover-043-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-043/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-043/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-001",
+      "completed_at": "2026-10-03T06:46:55.427486+00:00",
+      "output_sha256": "978b645d09f1135710c863ac9d8b2cdd29b8883e28795bab978fc117006fbb28",
+      "review": "kb/research/poetic-natural/batches/natural-001/cover-043-review.json"
+    },
+    {
+      "id": "cover-042",
+      "title": "The wind reads first",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-042-2026-04.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-042-2026-04.webp",
+      "source_sha256": "826c03b2caa9b2b7b59712492b809633752668025064a15bee867bfeb2620cf6",
+      "delivery_sha256": "0eb9885b4b09f591e558c7614903617e60abe7cc75697c1949cb18ec8142b81c",
+      "caption": "Odisha's coastal landscape, interpreted through casuarina, sand and sea air.",
+      "alt": "A windswept casuarina on an empty Odisha coastal beach, deep sea-blue waves beyond, pale sand, muted ochre needles, quiet midday haze.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-002/cover-042-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-042/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-042/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-002",
+      "completed_at": "2026-10-03T06:48:52.089475+00:00",
+      "output_sha256": "62b9e835986046a107e314c543dc8cbda67a43cae3e3966c29dec617f4acce0c",
+      "review": "kb/research/poetic-natural/batches/natural-002/cover-042-review.json"
+    },
+    {
+      "id": "cover-041",
+      "title": "A small red insistence",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-041-2026-03.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-041-2026-03.webp",
+      "source_sha256": "d8893651db2bd9bdb6aeb7f58dda89cc08979f8840b4cd44699f805699174e9a",
+      "delivery_sha256": "027a2c9fecfcd900c4ac06d06ac1f4cba92038ab1d007e9e1893b0ee2517cf05",
+      "caption": "Palash provides the botanical and seasonal starting point; the emotional reading is original.",
+      "alt": "A few rust-red palasha blossoms on a slender branch against a distant hazy Odisha hillside, dry ochre grasses and blue shadow, realistic botanical intimacy.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-002/cover-041-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-041/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-041/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-002",
+      "completed_at": "2026-10-03T06:50:15.832941+00:00",
+      "output_sha256": "8a0d4bd6a3be7f27efbd9bde1705aa6a90de0d2acb6f2657a2e0b710153ecfcf",
+      "review": "kb/research/poetic-natural/batches/natural-002/cover-041-review.json"
+    },
+    {
+      "id": "cover-040",
+      "title": "The loom remembers a voice",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-040-2026-02.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-040-2026-02.webp",
+      "source_sha256": "fce4890be7871f7b9d5ceab2565e9d56b3a31b83de04e5ad0e08867f9d2f16d5",
+      "delivery_sha256": "d2068d29a210714bf65f55c2cbd91d8ec2d21136d7e38494311610b3121337aa",
+      "caption": "An imaginative homage to Gangadhar Meher, the Odia poet born into a weaver family in Barpali. This is not his documented loom or workshop.",
+      "alt": "A handloom with restrained ivory, rust and deep teal ikat cotton threads in an Odisha weaving room, shallow focus, tactile wood and soft side light, no lettering and no people.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-002/cover-040-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-040/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-040/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-002",
+      "completed_at": "2026-10-03T06:51:44.570417+00:00",
+      "output_sha256": "a51ef5c6a00578c1fecde878125e0d38878054154d9f076ae7a0774534ced5e0",
+      "review": "kb/research/poetic-natural/batches/natural-002/cover-040-review.json"
+    },
+    {
+      "id": "cover-039",
+      "title": "Before the field wakes",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-039-2026-01.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-039-2026-01.webp",
+      "source_sha256": "3a18e3e96567f1f7b2d12d862b213f30beff995f413e192bc264134f670913f0",
+      "delivery_sha256": "aa3ea739cd81fdedb5f3fadc2fdcdf55d0f2a9dc0551df3f16019b34165b433d",
+      "caption": "Rice cultivation and rural mornings in Odisha; an imagined field, without assigning it to a named village.",
+      "alt": "An ivory veil of dawn mist above harvested paddy fields, one low haystack and a distant palm in rural Odisha, muted ochre stubble and blue-green shadows.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-002/cover-039-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-039/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-039/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-002",
+      "completed_at": "2026-10-03T06:53:19.702071+00:00",
+      "output_sha256": "ceecda7bec22b2d26eaa3cbce46df0df4938cd230d33a9ee66dc618456c07d56",
+      "review": "kb/research/poetic-natural/batches/natural-002/cover-039-review.json"
+    },
+    {
+      "id": "cover-038",
+      "title": "Enough light for one room",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-038-2025-12.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-038-2025-12.webp",
+      "source_sha256": "8447210e03e7a681444bb6784ee7c8918be74c7753c4a8c75bee93f57811314b",
+      "delivery_sha256": "f544f23d4b5820cd48fcff3a1cc7b7c9c9ed8962b836381bc7f796851928f83d",
+      "caption": "An everyday earthen oil lamp, approached through intimacy rather than a claim about a particular ceremony.",
+      "alt": "A tiny unlit terracotta oil lamp on a timeworn laterite niche beside an ivory wall, deep blue twilight outside, understated warm ambient light without theatrical glow.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-002/cover-038-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-038/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-038/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-002",
+      "completed_at": "2026-10-03T06:55:25.653532+00:00",
+      "output_sha256": "dd2c02084472283f0df30c5ef40c5bae87831e828b7aa2483576416de6aa138f",
+      "review": "kb/research/poetic-natural/batches/natural-002/cover-038-review.json"
+    },
+    {
+      "id": "cover-037",
+      "title": "A boat for remembering",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-037-2025-11.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-037-2025-11.webp",
+      "source_sha256": "0f8f36093f903a3666a33f7d74372a84ee0100090f31f55a977d4adc1e165d6f",
+      "delivery_sha256": "601d231d53379060258084f1f968cd42cf58b69292f6a9e6acabae4cde3def54",
+      "caption": "A poetic reference to Kartika boat-floating traditions in Odisha; an imagined contemporary paper boat, not a reconstruction of an ancient vessel.",
+      "alt": "Two handmade paper boats with a single marigold each resting near the edge of an Odisha river at dawn, Kartika seasonal mood, teal reflection and ochre silt, intimate still life.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-003/cover-037-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-037/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-037/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-003",
+      "claimed_at": "2026-10-03T07:01:52.131829+00:00",
+      "completed_at": "2026-10-03T07:03:25.020123+00:00",
+      "output_sha256": "86c4b670293085f8423679cd90a9f85f88577d14dfb63a87bf1bf745a3a56438",
+      "review": "kb/research/poetic-natural/batches/natural-003/cover-037-review.json"
+    },
+    {
+      "id": "cover-036",
+      "title": "The season in white",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-036-2025-10.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-036-2025-10.webp",
+      "source_sha256": "08fb51c8583428fbf66de980cc86dcf9ff6513b517fa27fd49460ca2aa91379d",
+      "delivery_sha256": "4ac5e1d47a1009facc648e64ab5a77ba066bfe1905e65a3609bbd63a631258d1",
+      "caption": "Kans grass and the changing seasonal landscape; no single festival is asserted by the image.",
+      "alt": "Kans grass plumes beside a narrow rural path after the rains in Odisha, ivory feathery grasses against deep blue-green distance, a small patch of rust-red soil.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-003/cover-036-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-036/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-036/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-003",
+      "claimed_at": "2026-10-03T07:03:58.918300+00:00",
+      "completed_at": "2026-10-03T07:05:22.502404+00:00",
+      "output_sha256": "fb698b3d985aec337789bf413e00bd60a28ee4f4004606aa0b8ccae94514d64e",
+      "review": "kb/research/poetic-natural/batches/natural-003/cover-036-review.json"
+    },
+    {
+      "id": "cover-035",
+      "title": "Not yet a flower",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-035-2025-09.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-035-2025-09.webp",
+      "source_sha256": "51796e20fe86f97497bfc73a047bacbce4e4cd9a6e9c61ecf4c78aa6c08915ac",
+      "delivery_sha256": "a2aa7c28f551e961eec75a0f77927b3f545350d0e50ce69af2ee654352e4222a",
+      "caption": "Lotus and pond life, familiar across Odisha and beyond; the narrative concerns anticipation rather than ritual symbolism.",
+      "alt": "An ivory lotus bud rising through broad rain-speckled lotus leaves on a quiet Odisha pond, teal water and subdued earthy reflections, close natural study.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-003/cover-035-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-035/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-035/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-003",
+      "claimed_at": "2026-10-03T07:05:52.937328+00:00",
+      "completed_at": "2026-10-03T07:07:09.089409+00:00",
+      "output_sha256": "29c9b8710e0e54a91aaf562bf43ca7156d06f57b7f2e5b8f6a24870a7923d2a5",
+      "review": "kb/research/poetic-natural/batches/natural-003/cover-035-review.json"
+    },
+    {
+      "id": "cover-034",
+      "title": "Rain on the tiles",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-034-2025-08.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-034-2025-08.webp",
+      "source_sha256": "6d85dca0a84617ab1fefb9dd1a2cab9e6b86ac098a9135edbbd6a1b33046aee4",
+      "delivery_sha256": "8cab36af5dc064c6fdb30c1f396c3f24238fe4a08c6d39c3695095f4a648f396",
+      "caption": "Terracotta roof tiles and a sheltered courtyard offer a study of everyday domestic architecture in Odisha.",
+      "alt": "Rain running down the edge of old terracotta roof tiles above an Odisha courtyard, gentle teal distant blur, an ivory cloth drying in shelter, quietly realistic.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-003/cover-034-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-034/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-034/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-003",
+      "claimed_at": "2026-10-03T07:08:06.449323+00:00",
+      "completed_at": "2026-10-03T07:10:06.644205+00:00",
+      "output_sha256": "a8c5f6e68efd6e68cdcf287cb009badae00d0abc6dcc7bb5a469b96a0c7cd9c1",
+      "review": "kb/research/poetic-natural/batches/natural-003/cover-034-review.json"
+    },
+    {
+      "id": "cover-033",
+      "title": "The bowl holds a note",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-033-2025-07.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-033-2025-07.webp",
+      "source_sha256": "3cd95cf1df54d5ae753bd8b57521ceaac3ab1a605bb277da50ef7755a52cdba2",
+      "delivery_sha256": "65c65966d24730101c2e866f5ff615382fb2ec5a3f11d3603f82f2559a46d04a",
+      "caption": "Kantilo has a brass and bell-metal craft tradition. This concept specifically concerns kansa, bell-metal, rather than treating all yellow metals as interchangeable.",
+      "alt": "A softly gleaming kansa bowl, a resting hand and a hammer on a workshop bench.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-003/cover-033-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-033/v1.png",
+          "output_sha256": "ffb070f7893c4c36a0cd831e2dc536fcd971f8634d1e065858dbfb704637c024",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-0e45a1c1-49db-4e2e-8c6b-9703b84baa97.png",
+          "review": "Needs correction: generated a paper note in the bowl, absent from the source. Bowl must remain empty; title refers to sound."
+        },
+        {
+          "version": 2,
+          "prompt": "kb/research/poetic-natural/batches/natural-003/cover-033-v2-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-033/v2.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-033/v2.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-003",
+      "claimed_at": "2026-10-03T07:10:48.165052+00:00",
+      "completed_at": "2026-10-03T07:14:52.746826+00:00",
+      "output_sha256": "e0fdd86e38742627d32f71ec51fbafd6cbece669aa6c1a56b374f54f5b03081c",
+      "review": "kb/research/poetic-natural/batches/natural-003/cover-033-review.json"
+    },
+    {
+      "id": "cover-032",
+      "title": "When the lane turns fragrant",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-032-2025-06.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-032-2025-06.webp",
+      "source_sha256": "9a90080ba30fef26cdfff9027772b034c11c6e443661f8fd2a76a28fd1943702",
+      "delivery_sha256": "cfed17b3297fb63173c70770b833a540c2d55cc5484d5b582db6648ff15b7461",
+      "caption": "The scent of rain on earth anchors the brand's ମାଟିର ମହକ theme through everyday experience.",
+      "alt": "First rain touching parched red earth in an Odisha village lane, small puddles, ochre dust becoming mud, low intimate perspective, teal-grey cloud reflection.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-004/cover-032-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-032/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-032/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-004",
+      "claimed_at": "2026-10-03T07:17:02.478096+00:00",
+      "completed_at": "2026-10-03T07:18:52.741221+00:00",
+      "output_sha256": "a1b7f028f375353da3c55f7beeede4a1659469854e7615a0c414bd89105bd043",
+      "review": "kb/research/poetic-natural/batches/natural-004/cover-032-review.json"
+    },
+    {
+      "id": "cover-031",
+      "title": "Summer, carried home",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-031-2025-05.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-031-2025-05.webp",
+      "source_sha256": "03f6b7bca4a8d941b4a04bd92ba934345215b609caa358435a38bd3ac575c2d1",
+      "delivery_sha256": "1c8d142fcc504e45e8b190c4be4874d10d801d3beb7466b31e22afbe73da385a",
+      "caption": "Mango season and the everyday culture of bringing food home; no named cultivar or local origin is claimed.",
+      "alt": "Green mangoes and one ripe ochre mango in a small woven palm basket under a tree, mottled ivory sunlight on red earth, quiet Odisha summer afternoon.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-004/cover-031-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-031/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-031/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-004",
+      "claimed_at": "2026-10-03T07:19:58.531045+00:00",
+      "completed_at": "2026-10-03T07:22:32.718313+00:00",
+      "output_sha256": "c3923e0d07d69c69a18eef5b6d638bbfa10915118d5ba115f6b66e328900037b",
+      "review": "kb/research/poetic-natural/batches/natural-004/cover-031-review.json"
+    },
+    {
+      "id": "cover-030",
+      "title": "Salt in the cotton",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-030-2025-04.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-030-2025-04.webp",
+      "source_sha256": "cb1613a269d38dc217526ef9b15da1d7aae54c524161f86ed433650fbef52587",
+      "delivery_sha256": "3dcd111ea4185e5d3d67676ef8c4124afedc1e2589aac79158105f4a1df92be7",
+      "caption": "Puri gamucha is the user's everyday cultural reference. This imagined cotton cloth is not presented as a certified weave, temple-issued cloth or prescribed ritual garment.",
+      "alt": "An ivory cotton gamucha with red checks dries on a wooden rail beside the sea.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-004/cover-030-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-030/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-030/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-004",
+      "claimed_at": "2026-10-03T07:23:23.799713+00:00",
+      "completed_at": "2026-10-03T07:25:27.347116+00:00",
+      "output_sha256": "dd9e48f92e3f56ea41365d42de76086e33fd5a47924def872e29330900ad0a66",
+      "review": "kb/research/poetic-natural/batches/natural-004/cover-030-review.json"
+    },
+    {
+      "id": "cover-029",
+      "title": "What the woodland holds",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-029-2025-03.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-029-2025-03.webp",
+      "source_sha256": "07f53bb150e3f585ea01d87811374c4c083dfee65f60633c65229d0e804dca3e",
+      "delivery_sha256": "942899ee0bb6096a58167842a8808dc473ce84cf0945912a51aa11c7b7a1ffee",
+      "caption": "Kendu woodland generally, as clarified by the user. Kendu leaves are an important forest produce and livelihood connection in Odisha; no particular forest or community is depicted.",
+      "alt": "A narrow path passes through kendu woodland beneath rounded green leaves.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-004/cover-029-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-029/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-029/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-004",
+      "claimed_at": "2026-10-03T07:26:08.390960+00:00",
+      "completed_at": "2026-10-03T07:28:00.170331+00:00",
+      "output_sha256": "c5c1ff8e8107c5c805a5a0beb16a11025a2a2230e17dd87f830a20e4f605f155",
+      "review": "kb/research/poetic-natural/batches/natural-004/cover-029-review.json"
+    },
+    {
+      "id": "cover-028",
+      "title": "The sari keeps the river",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-028-2025-02.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-028-2025-02.webp",
+      "source_sha256": "40843d7d674214653c5131c80f24ec16a74b2feae6b8f0ac11ecc8a04a7429fc",
+      "delivery_sha256": "35063385aea653c481bbe58470ba72a404296ae8c8093c854e0a11c89a1cf43e",
+      "caption": "Sambalpuri bandha is a tie-and-dye weaving tradition. This is generated textile interpretation, not an authenticated artisan sample or evidence of a particular motif's meaning.",
+      "alt": "A teal Sambalpuri bandha-inspired sari with ivory woven patterns and a red border draped over a stool.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-004/cover-028-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-028/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-028/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-004",
+      "claimed_at": "2026-10-03T07:28:57.031359+00:00",
+      "completed_at": "2026-10-03T07:31:22.781309+00:00",
+      "output_sha256": "9d3c9b8d4a2526f6e03ba1a502e142a3a40e6754027f38d1ae870c43c3e4007b",
+      "review": "kb/research/poetic-natural/batches/natural-004/cover-028-review.json"
+    },
+    {
+      "id": "cover-027",
+      "title": "The net before morning",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-027-2025-01.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-027-2025-01.webp",
+      "source_sha256": "646136991f9536b8961b3376b9a8f8c8912ed856b5b50ec645bfe62899c3613e",
+      "delivery_sha256": "3bf2422aecb6edcf59d81705d80db8258e06e966e51bec791917cce5ff638a33",
+      "caption": "Coastal fishing work provides the setting; the scene avoids assigning a livelihood or identity to an invented named community.",
+      "alt": "A neatly coiled ochre fishing net on the edge of a small wooden boat in an Odisha coastal village, deep blue water and weathered terracotta-toned wood, no people.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-005/cover-027-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-027/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-027/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-005",
+      "claimed_at": "2026-10-03T07:35:31.640639+00:00",
+      "completed_at": "2026-10-03T07:37:34.416625+00:00",
+      "output_sha256": "f53d8c49a4548df012f95a32eb8529cb108da08463f21757285f725fe28947ae",
+      "review": "kb/research/poetic-natural/batches/natural-005/cover-027-review.json"
+    },
+    {
+      "id": "cover-026",
+      "title": "The warmth that stays",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-026-2024-12.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-026-2024-12.webp",
+      "source_sha256": "26e459eab7cb6e8db14e58d469fcac363d48d0f0ce33e5c7411795a2b485c2c8",
+      "delivery_sha256": "68ea6dca10ccc3f04c4f3b3286ed5809243d5850a207ddf1df46e46c91f10864",
+      "caption": "The hearth and earthen kitchen express domestic memory; warmth is the subject, without idealising the burdens of cooking or fuel collection.",
+      "alt": "A simple rural Odisha earthen cooking hearth, a clay pot, delicate real smoke drifting into cool window light, warm ochre straw and soot-blue shadows, no people.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-005/cover-026-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-026/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-026/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-005",
+      "claimed_at": "2026-10-03T07:38:18.768397+00:00",
+      "completed_at": "2026-10-03T07:40:00.163034+00:00",
+      "output_sha256": "a5999908f9acd08d97ef2074ac9b15765c60d4e8b205da67f0a4f02718d7ed22",
+      "review": "kb/research/poetic-natural/batches/natural-005/cover-026-review.json"
+    },
+    {
+      "id": "cover-025",
+      "title": "Steps down to the day",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-025-2024-11.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-025-2024-11.webp",
+      "source_sha256": "92363f8dbb9b042eaa4f2b2c814b54cb1a75b386918d66e55112a549abc95d2c",
+      "delivery_sha256": "96dbfa47460c0adb923d439859367359f7383a21e1b60ecf5302714b15e9ccac",
+      "caption": "River steps and water-carrying as an imagined everyday setting; no particular ghat or ritual is identified.",
+      "alt": "Quiet old stone steps descending to an Odisha river at early morning, one small brass vessel, deep teal water, soft ivory sky reflection, laterite embankment.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-005/cover-025-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-025/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-025/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-005",
+      "claimed_at": "2026-10-03T07:40:50.626380+00:00",
+      "completed_at": "2026-10-03T07:42:28.297109+00:00",
+      "output_sha256": "49a4ab7b5c3c7efd2d82f6366afd7bb56b1028ccb8322d92207c7995264e63bb",
+      "review": "kb/research/poetic-natural/batches/natural-005/cover-025-review.json"
+    },
+    {
+      "id": "cover-024",
+      "title": "One flower after another",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-024-2024-10.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-024-2024-10.webp",
+      "source_sha256": "2a474fd60df328acea393decb455430663f3f41af7a9dca06c2f6d482356c156",
+      "delivery_sha256": "b68c9650829f6ed684f9442196a16abf511db300bb193b46d9e0f975a00e6c0c",
+      "caption": "Flower-threading and everyday acts of welcome and offering; no specific festival or sacred obligation is asserted.",
+      "alt": "A short unfinished thread of muted saffron marigolds laid on an old blue wooden ledge, ivory cotton and red clay floor, natural intimate still life in Odisha.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-005/cover-024-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-024/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-024/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-005",
+      "claimed_at": "2026-10-03T07:43:26.749192+00:00",
+      "completed_at": "2026-10-03T07:45:47.893973+00:00",
+      "output_sha256": "28bb0edc938ea98ee0d5dce670212496c1d1044d0aa77744784c1e36d9f262b7",
+      "review": "kb/research/poetic-natural/batches/natural-005/cover-024-review.json"
+    },
+    {
+      "id": "cover-023",
+      "title": "The sky comes to the field",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-023-2024-09.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-023-2024-09.webp",
+      "source_sha256": "6080a3731badb3afbd3ee20bdcb759943114fefc9f442829b2336f2033a949d6",
+      "delivery_sha256": "85305c8a4650670f057d6fd332dd72a4c0a6ea176a04287cac46677a500ff301",
+      "caption": "Flooded paddy fields provide the Odisha agrarian reference; this is an imagined scene, not a record of a particular farm.",
+      "alt": "A flooded paddy field reflecting pale monsoon sky, young rice rows and a small ochre earthen bund cutting a graceful curve through teal water, rural Odisha.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-005/cover-023-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-023/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-023/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-005",
+      "claimed_at": "2026-10-03T07:46:49.085527+00:00",
+      "completed_at": "2026-10-03T07:49:41.148970+00:00",
+      "output_sha256": "e945bc44c0faad3ba99c805bbf502b20e60f060604eb5f3be15edfcd0ff0d4c4",
+      "review": "kb/research/poetic-natural/batches/natural-005/cover-023-review.json"
+    },
+    {
+      "id": "cover-022",
+      "title": "Someone will be back",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-022-2024-08.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-022-2024-08.webp",
+      "source_sha256": "1dc883b74faabbcb952da001f8e3387219d2c8a7b22a052f384237dc7a5493d6",
+      "delivery_sha256": "6ae63d07854880a6dbd94e0fe551becb1e0c966658f8a9536452c788fb345613",
+      "caption": "A bicycle and a lived-in wall suggest everyday mobility and neighbourhood life, without turning poverty or age into decoration.",
+      "alt": "A weathered ordinary bicycle resting against an old laterite village wall, a faded sea-blue door, monsoon foliage and a single ivory towel, no people.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-006/cover-022-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-022/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-022/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-006",
+      "claimed_at": "2026-10-03T07:52:24.998957+00:00",
+      "completed_at": "2026-10-03T07:55:11.734543+00:00",
+      "output_sha256": "b053d1a64bac769365e4907c811447f63e6d69827a5d750c722896c52f546342",
+      "review": "kb/research/poetic-natural/batches/natural-006/cover-022-review.json"
+    },
+    {
+      "id": "cover-021",
+      "title": "The leaf lets go",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-021-2024-07.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-021-2024-07.webp",
+      "source_sha256": "1b7290a48438beb39ae706196eaa6c351a7430619872f964632cdabd03ca9f0e",
+      "delivery_sha256": "915b4aa51e012f11ad824e297fda5d5a58b56a0e2a1fd966cfe5e63f4c296d71",
+      "caption": "A banana leaf after rainfall; a close natural study linked to gardens and familiar household landscapes.",
+      "alt": "A broad banana leaf holding clear raindrops above an Odisha courtyard, deep teal-green shade and a blurred red earthen wall, sculptural close photographic composition.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-006/cover-021-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-021/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-021/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-006",
+      "claimed_at": "2026-10-03T07:56:32.833060+00:00",
+      "completed_at": "2026-10-03T07:58:45.803179+00:00",
+      "output_sha256": "9c597e699345e6f80455b1915a3dc6fdee2d98f8cc6b8196bd6d86ce6b6731dd",
+      "review": "kb/research/poetic-natural/batches/natural-006/cover-021-review.json"
+    },
+    {
+      "id": "cover-020",
+      "title": "The swing waits for laughter",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-020-2024-06.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-020-2024-06.webp",
+      "source_sha256": "771f7c8d9edd5c436430cac9f43a57a0ff6e9c3c931efc66a6188dc00bd66562",
+      "delivery_sha256": "329cbbd86c034becf7158607a0d0d01c2f4faf3f2a4aa28478b241b607620aeb",
+      "caption": "A village swing and remembered play. It can suggest Odisha's seasonal celebrations without claiming that the depicted scene documents a specific festival.",
+      "alt": "An empty simple rope swing beneath a large rural Odisha tree before monsoon, ochre rope, muted indigo shadows, reddish earth and ivory humid sky, no people.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-006/cover-020-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-020/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-020/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-006",
+      "claimed_at": "2026-10-03T07:59:38.030203+00:00",
+      "completed_at": "2026-10-03T08:01:58.513906+00:00",
+      "output_sha256": "1120f6837aa6a0d9056965a94c3c4a324cf1836e72eb3afd53a17fbf9ec672c1",
+      "review": "kb/research/poetic-natural/batches/natural-006/cover-020-review.json"
+    },
+    {
+      "id": "cover-019",
+      "title": "The tree's patient gift",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-019-2024-05.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-019-2024-05.webp",
+      "source_sha256": "804fe2e02f56b0e400cfe81f9643b7ffb284dac6792d5d8b7b39fb33d287809b",
+      "delivery_sha256": "1f604722cbe1864166b9b3a22d3237bdf244e55fc60f3c7919dd29f1529a4977",
+      "caption": "Jackfruit in a home landscape; an original reflection on growth and shared food, without assigning a particular recipe or ritual.",
+      "alt": "A freshly cut small section of jackfruit on a dark wooden board beside a brass bowl, natural ochre fruit, cool sea-blue window shadow, quiet Odisha home still life.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-006/cover-019-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-019/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-019/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-006",
+      "claimed_at": "2026-10-03T08:03:30.493017+00:00",
+      "completed_at": "2026-10-03T08:06:02.648603+00:00",
+      "output_sha256": "0c66048161ad15c67f24a46f318bcaf4234b13ba5bbc999d2ea772c46762e6b8",
+      "review": "kb/research/poetic-natural/batches/natural-006/cover-019-review.json"
+    },
+    {
+      "id": "cover-018",
+      "title": "A breeze made by hand",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-018-2024-04.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-018-2024-04.webp",
+      "source_sha256": "07d4e27d3d552b2d77ec4d6f24e528698e806d389ee50169dac774551c66bb0c",
+      "delivery_sha256": "c25b30f26788d4554e1567b3ead2e37216a120c53b75b13f8bfffc59895e8f06",
+      "caption": "A palm-leaf hand fan and everyday craft; the imagined object is not attributed to a named maker or village.",
+      "alt": "A handwoven palm-leaf fan resting on an ivory cotton mat by a low red-earth threshold, hot afternoon softened by deep teal doorway shade, lived-in Odisha home.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-006/cover-018-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-018/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-018/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-006",
+      "claimed_at": "2026-10-03T08:07:13.889912+00:00",
+      "completed_at": "2026-10-03T08:10:14.848305+00:00",
+      "output_sha256": "f3623a950948a43806609031f1b2eb6468af56fb72301a413b105bf41ce1df61",
+      "review": "kb/research/poetic-natural/batches/natural-006/cover-018-review.json"
+    },
+    {
+      "id": "cover-017",
+      "title": "A forest breathing softly",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-017-2024-03.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-017-2024-03.webp",
+      "source_sha256": "905aa088823dbf6f92b24a01a3c50d286bec5df987822c164703ad5918ce1fe5",
+      "delivery_sha256": "c5d71233c9158fe610597a786791337ca9b559409542eb4ca8973a036959960a",
+      "caption": "Similipal's forests, streams, orchids and ferns ground this imagined ecological study. It is not a documentary photograph of a surveyed spot or a verified orchid species.",
+      "alt": "Small orchids, ferns and a mossy tree beside a rocky forest stream, an imagined Similipal scene.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-007/cover-017-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-017/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-017/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-007",
+      "claimed_at": "2026-10-03T08:27:31.008400+00:00",
+      "completed_at": "2026-10-03T08:28:29.252780+00:00",
+      "output_sha256": "f4c94b6d103b356e1b8ebf6600fbd0b0ec809d68ef45a5a1511616d907fae543",
+      "review": "kb/research/poetic-natural/batches/natural-007/cover-017-review.json"
+    },
+    {
+      "id": "cover-016",
+      "title": "A language looks back",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-016-2024-02.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-016-2024-02.webp",
+      "source_sha256": "c1f6c513354d9b0a5532681fbb8da235585260068978e28fe073d33adca622e5",
+      "delivery_sha256": "a4c5b9116bbc122935eb52174b573381377a68057d03696130192db373ac04cc",
+      "caption": "An interpretive tribute to Fakir Mohan Senapati and his attention to common people in Odia prose. The narrative is original, not a quotation, historical scene or claim about this edition's contents.",
+      "alt": "An interpretive portrait of Fakir Mohan Senapati, with swept white hair, an attentive gaze and a dark coat.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "hold_identity_reference",
+      "attempts": [],
+      "output": null,
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-007",
+      "hold_reason": "Inventory labels this as a non-portrait edition cover, but visual inspection shows an interpretive portrait of Fakir Mohan Senapati. No identified likeness photograph is attached to this row. Preserve existing art; hold recreation to avoid reconstructing an unverified face or overlapping the separate portrait scope.",
+      "review": "kb/research/poetic-natural/batches/natural-007/cover-016-review.json"
+    },
+    {
+      "id": "cover-015",
+      "title": "What the hands have gathered",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-015-2024-01.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-015-2024-01.webp",
+      "source_sha256": "f30d2ba28114bd80cd5f1ee06503fc4a22bb2c73d6d6427a4111d726a44f0d20",
+      "delivery_sha256": "85bcc1651006dda03e53fd5b285eb3674dc045ab4d0f726a5515eb645555803f",
+      "caption": "Rice harvest and agricultural labour; gratitude does not erase the work or uncertainty that produced it.",
+      "alt": "A carefully tied small sheaf of harvested rice resting on a red laterite courtyard floor, low winter sunlight, ivory husks and cool sea-blue shade, tactile natural detail.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-007/cover-015-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-015/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-015/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-007",
+      "claimed_at": "2026-10-03T08:29:18.961310+00:00",
+      "completed_at": "2026-10-03T08:30:12.821505+00:00",
+      "output_sha256": "a6fd2198da0e06260310825b0a2c32759fce59ca9ef17cb1aa6d0ebc86744db3",
+      "review": "kb/research/poetic-natural/batches/natural-007/cover-015-review.json"
+    },
+    {
+      "id": "cover-014",
+      "title": "The chair keeps a little warmth",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-014-2023-12.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-014-2023-12.webp",
+      "source_sha256": "5ccb4606f2a18215776bb7c13b7230dfb78b8d27b15792e15ba23fe4d597e2ea",
+      "delivery_sha256": "e8894b52ef5e0901f1ddc365b0ca506a47e4e4a06b7cedb82791fb6bad1743dd",
+      "caption": "Domestic cloth, winter light and remembered companionship; an imagined home, not a named person's belongings.",
+      "alt": "A simple handwoven ochre and ivory shawl draped over an old wooden chair next to a deep sea-blue door in an Odisha home, winter morning light, no people.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-007/cover-014-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-014/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-014/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-007",
+      "claimed_at": "2026-10-03T08:30:35.736002+00:00",
+      "completed_at": "2026-10-03T08:31:42.018888+00:00",
+      "output_sha256": "a29b8de668b54974892b57a9e824e1b34f5746274d8a18050d2995862fb0868f",
+      "review": "kb/research/poetic-natural/batches/natural-007/cover-014-review.json"
+    },
+    {
+      "id": "cover-013",
+      "title": "A second moon",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-013-2023-11.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-013-2023-11.webp",
+      "source_sha256": "facf41a41f0f9a5ea6b860d417a3225fad00819a2abeae07396632e9791e3f8a",
+      "delivery_sha256": "5dc5dbda3714a6136b196678206f6dc422b060e45af99bee989b0ea3826a0291",
+      "caption": "An imagined Odisha lagoon at night; the emotional story concerns distance and companionship.",
+      "alt": "A shallow Odisha lagoon under a pale rising moon, a few gentle ripples and distant reeds, deep sea-blue, ivory reflections, almost abstract but photographically realistic.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-007/cover-013-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-013/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-013/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-007",
+      "claimed_at": "2026-10-03T08:32:03.579478+00:00",
+      "completed_at": "2026-10-03T08:38:23.661229+00:00",
+      "output_sha256": "e3821c04036a25984b3b99032d6fec8dddf3dab3e21a1ea1a6c0c7c1419732f4",
+      "review": "kb/research/poetic-natural/batches/natural-007/cover-013-review.json"
+    },
+    {
+      "id": "cover-012",
+      "title": "The morning gathers quietly",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-012-2023-10.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-012-2023-10.webp",
+      "source_sha256": "9be13664e96b70af07a7c688bf3992fbdd6312e21571a9306318f929b9edf41d",
+      "delivery_sha256": "70503b8ae89365fd9106408ac1a38bd16dac2952c1cec8c03fafdae2784ffe5e",
+      "caption": "Night-flowering jasmine provides the floral starting point; the image does not claim a particular local devotional practice.",
+      "alt": "A delicate white shiuli flower with rust-orange stem resting beside others on a damp laterite-red garden path, autumn morning, intimate realistic low viewpoint.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-008/cover-012-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-012/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-012/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-008",
+      "claimed_at": "2026-10-03T08:39:50.442864+00:00",
+      "completed_at": "2026-10-03T08:41:05.086025+00:00",
+      "output_sha256": "560560b1c2df30ae194899064ee3f878523caed71c3ef680c576539fc8afaac1",
+      "review": "kb/research/poetic-natural/batches/natural-008/cover-012-review.json"
+    },
+    {
+      "id": "cover-011",
+      "title": "The rain can stay outside",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-011-2023-09.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-011-2023-09.webp",
+      "source_sha256": "cc44138b41cdba9999a23c9f41700c712b11ed0b50b3b8d3a030fff0fdffc616",
+      "delivery_sha256": "c98eed0cd8d7495bc01ab3167a10bd79e714f4d1e115720c294cfd051f9001b0",
+      "caption": "A thatched veranda evokes vernacular domestic shelter. This is an imagined setting, not an architectural record of a named community's house.",
+      "alt": "Rain-laden water droplets along the edge of a thatched Odisha veranda, soft teal pond beyond, an ochre woven mat rolled in the corner, no people.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-008/cover-011-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-011/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-011/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-008",
+      "claimed_at": "2026-10-03T08:41:26.189237+00:00",
+      "completed_at": "2026-10-03T08:42:37.958061+00:00",
+      "output_sha256": "13e1d3b8ed84e4693e4a341253dae6ad66160cf597c904a6d56eee323b417a4d",
+      "review": "kb/research/poetic-natural/batches/natural-008/cover-011-review.json"
+    },
+    {
+      "id": "cover-010",
+      "title": "The hour the stone remembers",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-010-2023-08.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-010-2023-08.webp",
+      "source_sha256": "ece875bd14c9524904b163c8289560e4cd94c468b20e0eb5aaadbe8441f2288d",
+      "delivery_sha256": "1181cb55c01a26868d204d601858360e8f94f1827a87e7869cf1c749d59b33b7",
+      "caption": "The carved chariot wheels of the Sun Temple at Konark are the reference. The generated close study is interpretive, not measured archaeological documentation.",
+      "alt": "A close artistic study of a carved chariot wheel at Konark with weathered stone and warm side light.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-008/cover-010-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-010/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-010/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-008",
+      "claimed_at": "2026-10-03T08:43:05.631209+00:00",
+      "completed_at": "2026-10-03T08:44:30.712839+00:00",
+      "output_sha256": "586426559789d17442326778edb9aaac8c96a3e02ebda95ee02aba9c9f9df2f8",
+      "review": "kb/research/poetic-natural/batches/natural-008/cover-010-review.json"
+    },
+    {
+      "id": "cover-009",
+      "title": "The river takes its time",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-009-2023-07.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-009-2023-07.webp",
+      "source_sha256": "18f3b50cc00274c04b9783dce9221a3c3cc3041055603f6cf5be84073c47e26b",
+      "delivery_sha256": "13e10aa60abfe08acb3d12423f2232f4df422e1d5bd9d9443b20f18047b32b64",
+      "caption": "An imagined Odisha river landscape; no precise river, village or conservation condition is asserted.",
+      "alt": "A quiet bend in a broad Odisha river viewed from a high ochre bank, pale ivory mist, deep teal river ribbon and a distant modest fishing boat, no identifiable monument.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-008/cover-009-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-009/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-009/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-008",
+      "claimed_at": "2026-10-03T08:45:00.775916+00:00",
+      "completed_at": "2026-10-03T08:46:29.360379+00:00",
+      "output_sha256": "f45e84f8f6dab6a9a6dcc0e3d8d4bed8d9f87d44f6605cf56a01b273caec990a",
+      "review": "kb/research/poetic-natural/batches/natural-008/cover-009-review.json"
+    },
+    {
+      "id": "cover-008",
+      "title": "A small place to begin",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-008-2023-06.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-008-2023-06.webp",
+      "source_sha256": "4ca08c1e7c2eb47905b04adb283c706dad0d45132ab99b9da193b7bc15488129",
+      "delivery_sha256": "ac1fe4cc1c6e4e79202a624bad7eeefd2418248d245993daf15e878fa5da9ec4",
+      "caption": "An everyday act of home growing and reuse, offered as a contemporary narrative rather than a named heritage practice.",
+      "alt": "A small terracotta bowl with soaked rice seedlings on a wet courtyard ledge, muted sea-blue background and ivory cloudy light, realistic rural Odisha seasonal still life.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-008/cover-008-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-008/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-008/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-008",
+      "claimed_at": "2026-10-03T08:47:03.906875+00:00",
+      "completed_at": "2026-10-03T08:48:05.219982+00:00",
+      "output_sha256": "e30e42d4ddf51df5d6b3dee0c21aed3615fb1b7f8d0e29913c557f9fb8ff258d",
+      "review": "kb/research/poetic-natural/batches/natural-008/cover-008-review.json"
+    },
+    {
+      "id": "cover-007",
+      "title": "The shade knows everyone",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-007-2023-05.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-007-2023-05.webp",
+      "source_sha256": "8fd2d6baa90fb5dab689080636bada0b4c223e3cce8bf400ff9de5abe13a04cd",
+      "delivery_sha256": "c5cb79758491c40093e0953257e53ef9880a34b8fcddcb9f9078021cc0b7aca9",
+      "caption": "A tamarind tree as a shared village landscape; the story is imagined and does not document a particular meeting place.",
+      "alt": "A large tamarind tree shading an empty red-earth path in rural Odisha, weathered ochre bench, soft pale summer haze, deep teal foliage shade.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-009/cover-007-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-007/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-007/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-009",
+      "claimed_at": "2026-10-03T08:52:12.801417+00:00",
+      "completed_at": "2026-10-03T08:53:36.220564+00:00",
+      "output_sha256": "ff7312cc4652667e5ea431ab5c5de517c36c7911bd6aded7643aa67ae42ffcd7",
+      "review": "kb/research/poetic-natural/batches/natural-009/cover-007-review.json"
+    },
+    {
+      "id": "cover-006",
+      "title": "A little sky indoors",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-006-2023-04.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-006-2023-04.webp",
+      "source_sha256": "4f29382fd7070d39dfb29218defc9b5854bbd43a7524335b375ad134a954cc60",
+      "delivery_sha256": "983d26a190ead90270cc4b9a0d1111fd635056918ddf64632c283d7ff74b4602",
+      "caption": "A domestic still life of water, metal and flower; no prescribed religious symbolism is assigned.",
+      "alt": "An old brass bowl filled with clear water and one ivory flower on a laterite ledge, sea-blue reflected sky, delicate natural light, minimal Odisha domestic still life.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-009/cover-006-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-006/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-006/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-009",
+      "claimed_at": "2026-10-03T08:54:07.551272+00:00",
+      "completed_at": "2026-10-03T08:55:44.951081+00:00",
+      "output_sha256": "d765aa98d468eb3cad376192a1539efd2da7242019591487727a73ba7b635e53",
+      "review": "kb/research/poetic-natural/batches/natural-009/cover-006-review.json"
+    },
+    {
+      "id": "cover-005",
+      "title": "Where the hills exhale",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-005-2023-03.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-005-2023-03.webp",
+      "source_sha256": "3bd2698a79afde18bc4ed51f820d8f27ff3c0dbb66a00a6232793fd4670c0f5c",
+      "delivery_sha256": "bef7ece0185e1c9109740e9aa03c480f2e5f8f7ab2fb7a4f0f17f2b8a832a746",
+      "caption": "Deomali in Koraput, within the Eastern Ghats, is the geographical reference. This generated landscape is an artistic interpretation, not a location photograph.",
+      "alt": "Broad grass-covered Deomali ridges beneath moving clouds, with layered hills beyond.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-009/cover-005-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-005/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-005/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-009",
+      "claimed_at": "2026-10-03T08:56:13.251394+00:00",
+      "completed_at": "2026-10-03T08:57:28.810543+00:00",
+      "output_sha256": "ed8869419d18135d1ce51936beabc048422ebc000cad3e4b7250cb10c5de5b66",
+      "review": "kb/research/poetic-natural/batches/natural-009/cover-005-review.json"
+    },
+    {
+      "id": "cover-004",
+      "title": "A world held in a thread",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-004-2023-02.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-004-2023-02.webp",
+      "source_sha256": "175d40e02450c00cbea920b6fced0dde012443041fe9e919578e16646a2d509d",
+      "delivery_sha256": "5fa31fa0ce9435f18f38b46b14327a2e8b665e9fefe6bb8a9c67fa4151e7dddd",
+      "caption": "Cuttack's tarakasi, or silver filigree, provides the craft reference. The generated ornament is an original interpretation, not a documented maker's piece.",
+      "alt": "A single delicate Odisha-style silver filigree leaf earring resting on deep teal cotton with an ivory thread and a warm ochre wooden tabletop, restrained macro still life, no text.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-009/cover-004-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-004/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-004/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-009",
+      "claimed_at": "2026-10-03T08:57:58.751012+00:00",
+      "completed_at": "2026-10-03T08:59:42.631961+00:00",
+      "output_sha256": "9d4f97f0f84e3df33a56737890910a73f4ce461ccc63d504e16cea47cfbc49d3",
+      "review": "kb/research/poetic-natural/batches/natural-009/cover-004-review.json"
+    },
+    {
+      "id": "cover-003",
+      "title": "The sea, held close",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-003-2023-01.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-003-2023-01.webp",
+      "source_sha256": "7b40c6baa687ef7fb1251732807bed3fae9936acbf557ef7e7cc67b68b550102",
+      "delivery_sha256": "3f6a148648e59ca08c365efeb5b194b60bc16cba75473c881e20e5ff0798ace1",
+      "caption": "A shore-found shell as a poetic object; this image makes no claim about a species, collection practice or ritual conch.",
+      "alt": "A single conch shell beside the gentle foam line of an empty Odisha beach at winter sunrise, sea blue, ivory foam, muted ochre sand and soft rust horizon.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-009/cover-003-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-003/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-003/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-009",
+      "claimed_at": "2026-10-03T09:00:10.197773+00:00",
+      "completed_at": "2026-10-03T09:01:53.665373+00:00",
+      "output_sha256": "c1416d6fc237107a8f74d7b59f8c13f7e1ec2032e94f4b34fb303db1c32b0155",
+      "review": "kb/research/poetic-natural/batches/natural-009/cover-003-review.json"
+    },
+    {
+      "id": "cover-002",
+      "title": "Enough to share",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-002-2022-12.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-002-2022-12.webp",
+      "source_sha256": "234784e3a5497f722e455eb7a69007f811923a831129ec80cdd0bd976a88ade1",
+      "delivery_sha256": "e788baa4b15f96b785d64430a5ebe11a9cab3edff5aabaf4cc778a22b487e201",
+      "caption": "Grain baskets connect woven utility, food and household memory; no specific basket tradition or community is asserted.",
+      "alt": "Small woven bamboo grain baskets beneath a thatched rural Odisha veranda, ivory husks, ochre straw and a distant deep sea-blue door, quiet winter evening.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-010/cover-002-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-002/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-002/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-010",
+      "claimed_at": "2026-10-03T09:03:56.545891+00:00",
+      "completed_at": "2026-10-03T09:05:35.790941+00:00",
+      "output_sha256": "65eb80f1aad4fce284bfd1a8471f85594a85722276961bacbd66e8a48ab18e81",
+      "review": "kb/research/poetic-natural/batches/natural-010/cover-002-review.json"
+    },
+    {
+      "id": "cover-001",
+      "title": "Before the first line",
+      "roles": [
+        "edition-cover"
+      ],
+      "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-001-2022-11.png",
+      "delivery_source": "projects/site/assets/covers/editions/edition-001-2022-11.webp",
+      "source_sha256": "a52b7a7a5422a5219a7220a184107a416ea09dd23ae86b2fba2770da4e70853f",
+      "delivery_sha256": "86dd5856bf91b00cd5289b28ad17270d47fedbd327113d617d2c5fda160e431c",
+      "caption": "An imagined writer's everyday table, opening the collection through attention rather than a biographical claim about an actual poet.",
+      "alt": "A fresh small terracotta cup on an ivory cotton cloth beside an open unmarked notebook, sea-blue wooden table near a rural Odisha window, soft morning light, no visible writing.",
+      "provenance": "records/edition-cover-filenames.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-010/cover-001-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/cover-001/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/cover-001/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-010",
+      "claimed_at": "2026-10-03T09:06:07.256991+00:00",
+      "completed_at": "2026-10-03T09:08:05.765230+00:00",
+      "output_sha256": "6c98c100f2e0347e3c0ae39ea27272aa923fc8fc55319e9ae6854ad4c4d5a582",
+      "review": "kb/research/poetic-natural/batches/natural-010/cover-001-review.json"
+    },
+    {
+      "id": "art-pond-at-dawn",
+      "title": "Pond At Dawn",
+      "roles": [
+        "poem"
+      ],
+      "source": "projects/site/assets/poem-art/library/pond-at-dawn.png",
+      "delivery_source": "projects/site/assets/poem-art/library/pond-at-dawn.png",
+      "source_sha256": "65d6fe577ce6f54b9d1ce6fb8759fec836e30d810a9205e8d3bdf121bae069c9",
+      "delivery_sha256": "65d6fe577ce6f54b9d1ce6fb8759fec836e30d810a9205e8d3bdf121bae069c9",
+      "caption": "The pond holds the morning quietly.",
+      "alt": "An intimate view of a rural Odisha pond at dawn.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-010/art-pond-at-dawn-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-pond-at-dawn/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-pond-at-dawn/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-010",
+      "claimed_at": "2026-10-03T09:10:50.229193+00:00",
+      "completed_at": "2026-10-03T09:12:33.252255+00:00",
+      "output_sha256": "d44173795f0f24b119a1186da1c208b162cc620e4e63a9ec2cc84663e8216364",
+      "review": "kb/research/poetic-natural/batches/natural-010/art-pond-at-dawn-review.json"
+    },
+    {
+      "id": "art-kendu-light",
+      "title": "Kendu Light",
+      "roles": [
+        "poem"
+      ],
+      "source": "projects/site/assets/poem-art/library/kendu-light.png",
+      "delivery_source": "projects/site/assets/poem-art/library/kendu-light.png",
+      "source_sha256": "63548013b0f85d2a0ba02ad03a0dc0def109a5ec5289ec80ce753694adb1df94",
+      "delivery_sha256": "63548013b0f85d2a0ba02ad03a0dc0def109a5ec5289ec80ce753694adb1df94",
+      "caption": "In the woodland, light finds a leaf.",
+      "alt": "A small branch of broad oval kendu leaves in an Odisha woodland, a single drop of rain at the edge of a leaf.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-010/art-kendu-light-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-kendu-light/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-kendu-light/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-010",
+      "claimed_at": "2026-10-03T09:13:27.226063+00:00",
+      "completed_at": "2026-10-03T09:16:07.875213+00:00",
+      "output_sha256": "843739ad25171181add32e01cb3068431319394a66d359a5b649de4e2fb622a4",
+      "review": "kb/research/poetic-natural/batches/natural-010/art-kendu-light-review.json"
+    },
+    {
+      "id": "art-thread-by-the-window",
+      "title": "Thread By The Window",
+      "roles": [
+        "poem"
+      ],
+      "source": "projects/site/assets/poem-art/library/thread-by-the-window.png",
+      "delivery_source": "projects/site/assets/poem-art/library/thread-by-the-window.png",
+      "source_sha256": "4ec671a8bce1bbd779077d4abaf9815df3ec274f3d6dd91b101111d4ae697fc4",
+      "delivery_sha256": "4ec671a8bce1bbd779077d4abaf9815df3ec274f3d6dd91b101111d4ae697fc4",
+      "caption": "A loose thread remembers the hands.",
+      "alt": "An everyday corner in an Odisha home: a folded handwoven Sambalpuri sari with a restrained ivory and indigo geometric ikat border lies on a low wooden stool.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-010/art-thread-by-the-window-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-thread-by-the-window/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-thread-by-the-window/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-010",
+      "claimed_at": "2026-10-03T09:16:53.585843+00:00",
+      "completed_at": "2026-10-03T09:18:56.935892+00:00",
+      "output_sha256": "b243a469cddba26b65b6d3f26fbd2f1cb0a68a09f26fd32205017e2057e924e9",
+      "review": "kb/research/poetic-natural/batches/natural-010/art-thread-by-the-window-review.json"
+    },
+    {
+      "id": "art-koraput-morning",
+      "title": "Koraput Morning",
+      "roles": [
+        "poem"
+      ],
+      "source": "projects/site/assets/poem-art/library/koraput-morning.png",
+      "delivery_source": "projects/site/assets/poem-art/library/koraput-morning.png",
+      "source_sha256": "cfe2d0affab65d0fc0ad26aa2ad933587432c8fcde8b1c050d25daa15ba5ba38",
+      "delivery_sha256": "cfe2d0affab65d0fc0ad26aa2ad933587432c8fcde8b1c050d25daa15ba5ba38",
+      "caption": "The hills leave room for a breath.",
+      "alt": "A narrow earthen footpath through dewy grass on a misty Koraput hillside in Odisha, soft blue-green ridges receding, a single small wildflower near the path.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-011/art-koraput-morning-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-koraput-morning/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-koraput-morning/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-011",
+      "claimed_at": "2026-10-03T09:27:34.485322+00:00",
+      "completed_at": "2026-10-03T09:29:43.050501+00:00",
+      "output_sha256": "67c80ea24a4a7991669cef8596e9c366847caa470d7113ea3daf950db0aa1d79",
+      "review": "kb/research/poetic-natural/batches/natural-011/art-koraput-morning-review.json"
+    },
+    {
+      "id": "art-courtyard-petals",
+      "title": "Courtyard Petals",
+      "roles": [
+        "poem"
+      ],
+      "source": "projects/site/assets/poem-art/library/courtyard-petals.png",
+      "delivery_source": "projects/site/assets/poem-art/library/courtyard-petals.png",
+      "source_sha256": "7e854fada1c6c309f4c4553f6b2490705ff3695f2efcf56f8593e32fb5328631",
+      "delivery_sha256": "7e854fada1c6c309f4c4553f6b2490705ff3695f2efcf56f8593e32fb5328631",
+      "caption": "A few petals. The afternoon stays.",
+      "alt": "A sunlit earthen courtyard corner in Odisha after a brief shower, weathered warm laterite wall, a few fallen magenta bougainvillea petals beside a tiny pale puddle.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-011/art-courtyard-petals-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-courtyard-petals/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-courtyard-petals/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-011",
+      "claimed_at": "2026-10-03T09:31:03.261711+00:00",
+      "completed_at": "2026-10-03T09:33:07.359159+00:00",
+      "output_sha256": "e84c112cefe1ff58a58d54e483f990ca80d23f8d651eadac2bc310fc76dfbf04",
+      "review": "kb/research/poetic-natural/batches/natural-011/art-courtyard-petals-review.json"
+    },
+    {
+      "id": "art-sea-breeze-cloth",
+      "title": "Sea Breeze Cloth",
+      "roles": [
+        "poem"
+      ],
+      "source": "projects/site/assets/poem-art/library/sea-breeze-cloth.png",
+      "delivery_source": "projects/site/assets/poem-art/library/sea-breeze-cloth.png",
+      "source_sha256": "1a4c93e858083456862d9fc1b71c22312893ebec17beb3dd02c118441998502b",
+      "delivery_sha256": "1a4c93e858083456862d9fc1b71c22312893ebec17beb3dd02c118441998502b",
+      "caption": "The breeze carries what words leave behind.",
+      "alt": "A small off-white and muted red checked cotton gamucha hanging loosely on a simple timber rail near Odisha's coast.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-011/art-sea-breeze-cloth-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-sea-breeze-cloth/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-sea-breeze-cloth/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-011",
+      "claimed_at": "2026-10-03T09:34:16.158217+00:00",
+      "completed_at": "2026-10-03T09:37:03.442324+00:00",
+      "output_sha256": "bdd002100da505c2a304da828be17e33d857cf9a1b756120ba01f610820b03ca",
+      "review": "kb/research/poetic-natural/batches/natural-011/art-sea-breeze-cloth-review.json"
+    },
+    {
+      "id": "art-quiet-path",
+      "title": "Quiet Path",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/quiet-path.png",
+      "delivery_source": "projects/site/assets/section-art/quiet-path.webp",
+      "source_sha256": "883a7da6b11bb02b6804f1765cd46063daf1337d81a90a3b11847806245b94b4",
+      "delivery_sha256": "bf4ee17cdc2d2de6d594cea7cf02f9c9f983f272760fb87a5f738f3640f68472",
+      "caption": "The path continues, softly.",
+      "alt": "A red-earth path winds between grass and distant hills.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-011/art-quiet-path-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-quiet-path/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-quiet-path/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-011",
+      "claimed_at": "2026-10-03T09:38:14.769036+00:00",
+      "completed_at": "2026-10-03T09:42:34.347112+00:00",
+      "output_sha256": "a09027325709d7934edc84e3be634be67af01bceea71e930ec643308678acb93",
+      "review": "kb/research/poetic-natural/batches/natural-011/art-quiet-path-review.json"
+    },
+    {
+      "id": "art-correspondence",
+      "title": "Correspondence",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/correspondence.png",
+      "delivery_source": "projects/site/assets/section-art/correspondence.webp",
+      "source_sha256": "701d59bcc8d218c645396c4047be201a6800785d5951baa66c72632543c07a56",
+      "delivery_sha256": "2f4db837ebd5a9f377412d3787367146adb7e293b8af4a7598fa1a884a393ca3",
+      "caption": "Some words wait by the window.",
+      "alt": "A sealed letter rests at a rain-speckled blue window.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "output": "kb/artifacts/artwork/poetic-natural/art-correspondence/v1.png",
+          "output_sha256": "5c14a334b5928a3c3700ab78973860a9eced9f596053d8f061b53246274f0ea5",
+          "prompt": "kb/research/poetic-natural/batches/natural-011/art-correspondence-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-8c8c45c3-de6d-40a0-a3df-0b55b7ec03cb.png",
+          "status": "correction_required",
+          "reason": "Rain trails became a regular curtain of oversized jewel droplets; reduce this specific defect."
+        },
+        {
+          "version": 2,
+          "prompt": "kb/research/poetic-natural/batches/natural-011/art-correspondence-v2-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-correspondence/v2.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-correspondence/v2.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-011",
+      "claimed_at": "2026-10-03T09:43:45.647292+00:00",
+      "completed_at": "2026-10-03T09:50:27.971904+00:00",
+      "output_sha256": "df431372c4bcb7853a914d5d425a210d8214f9e51a4e117c3baeb89f64ea3543",
+      "review": "kb/research/poetic-natural/batches/natural-011/art-correspondence-review.json"
+    },
+    {
+      "id": "art-reader-letters",
+      "title": "Reader Letters",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/reader-letters.png",
+      "delivery_source": "projects/site/assets/section-art/reader-letters.webp",
+      "source_sha256": "a1e850ea49b05dbdfc82a4371392b6bca1005b1e50f127cedee43acef4da378e",
+      "delivery_sha256": "3d06f972d09802ba54eb5224a426ac627288ecf28e2efe76545a4f4b1828d4c2",
+      "caption": "A little warmth between the words.",
+      "alt": "Letters and an earthen teacup rest on a small wooden stool.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-012/art-reader-letters-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-reader-letters/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-reader-letters/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-012",
+      "claimed_at": "2026-10-03T09:55:15.767904+00:00",
+      "completed_at": "2026-10-03T10:00:50.256998+00:00",
+      "output_sha256": "bf5cb1f86cdeb07bbd8982f207df8d5591ca3b58cb212c98d83dcef0179d5054",
+      "review": "kb/research/poetic-natural/batches/natural-012/art-reader-letters-review.json"
+    },
+    {
+      "id": "art-reading-room",
+      "title": "Reading Room",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/reading-room.png",
+      "delivery_source": "projects/site/assets/section-art/reading-room.webp",
+      "source_sha256": "07e31575a6b34ca3819d8ede7d6c5b5ee99f21a92eae00aa3840ff5aece630b9",
+      "delivery_sha256": "3186759764e55a34c520e8ce133a9520329e3afcd9ada221b024f979684ff862",
+      "caption": "A page makes room for silence.",
+      "alt": "An open notebook lies on a blue bench beside still water.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-012/art-reading-room-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-reading-room/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-reading-room/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-012",
+      "claimed_at": "2026-10-03T10:01:14.306735+00:00",
+      "completed_at": "2026-10-03T10:02:28.975628+00:00",
+      "output_sha256": "e19a396e091ca71452d78e95b9450fa14927ecbcd17ec4278fcefce3e3202baf",
+      "review": "kb/research/poetic-natural/batches/natural-012/art-reading-room-review.json"
+    },
+    {
+      "id": "art-voices",
+      "title": "Voices",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/voices.png",
+      "delivery_source": "projects/site/assets/section-art/voices.webp",
+      "source_sha256": "ab163e282d17dbfc2811474054820a658aa9567f4deb42c8969bc39aaf07a48c",
+      "delivery_sha256": "456ff215b3e3c3a0d7398095274fe685a6807c5a4a3242c705273d1bbed40ad4",
+      "caption": "A place kept for another voice.",
+      "alt": "Three empty cane chairs gather beneath a flowering tree.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-012/art-voices-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-voices/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-voices/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-012",
+      "claimed_at": "2026-10-03T10:02:54.971424+00:00",
+      "completed_at": "2026-10-03T10:04:20.720301+00:00",
+      "output_sha256": "8c57d5d32054ac15c90a23784f00a763d6bca35a8d829057414c789a0dc3f4d8",
+      "review": "kb/research/poetic-natural/batches/natural-012/art-voices-review.json"
+    },
+    {
+      "id": "art-writer-profile",
+      "title": "Writer Profile",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/writer-profile.png",
+      "delivery_source": "projects/site/assets/section-art/writer-profile.webp",
+      "source_sha256": "1e9a663047db14ff8e1086b799cfbff351f2702f98d0e3ea32b6b9ca22c0a60e",
+      "delivery_sha256": "dbde0e7a1b6352d3c684ae3c4a37872e783d4ea2c08c0d26731385d221deabee",
+      "caption": "The chair remembers a presence.",
+      "alt": "An empty cane chair holds a notebook beside a quiet window.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-012/art-writer-profile-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-writer-profile/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-writer-profile/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-012",
+      "claimed_at": "2026-10-03T10:04:45.625595+00:00",
+      "completed_at": "2026-10-03T10:06:08.862823+00:00",
+      "output_sha256": "84058e33d91ec7a7c71539425503d102c74dcaf682ea989b94a3858378ed8560",
+      "review": "kb/research/poetic-natural/batches/natural-012/art-writer-profile-review.json"
+    },
+    {
+      "id": "art-our-story",
+      "title": "Our Story",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/our-story.png",
+      "delivery_source": "projects/site/assets/section-art/our-story.webp",
+      "source_sha256": "990308dcb3591db0fdbaa0b71e435b9a62971b5312ed2d66482d1c6be6e60744",
+      "delivery_sha256": "f7819a6e83f1e94c79b2a6593281acea124ec38fbe0f67e0e90c5d10a2fd0ec0",
+      "caption": "The threshold remembers home.",
+      "alt": "An Odisha home with a blue door, earthen courtyard and threshold drawings.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-012/art-our-story-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-our-story/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-our-story/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-012",
+      "claimed_at": "2026-10-03T10:06:40.378174+00:00",
+      "completed_at": "2026-10-03T10:08:16.362847+00:00",
+      "output_sha256": "30dd592b2f4e4e9a477794aa452c728606ebb721daca3b3eeae9c7e6dbfc9e83",
+      "review": "kb/research/poetic-natural/batches/natural-012/art-our-story-review.json"
+    },
+    {
+      "id": "art-gatherings",
+      "title": "Gatherings",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/gatherings.png",
+      "delivery_source": "projects/site/assets/section-art/gatherings.webp",
+      "source_sha256": "f2ac2afe2d674399e3fa4a476c25513619cdadbe8b897c1d9ca8ef1760144c6f",
+      "delivery_sha256": "d60d885483b0452f58ff1b73463888ed4a7e22f3c29a1617bdca3426bb152f5b",
+      "caption": "There is room to sit together.",
+      "alt": "A shaded veranda has woven stools and an empty wooden chair.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-013/art-gatherings-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-gatherings/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-gatherings/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-013",
+      "claimed_at": "2026-10-03T10:13:09.803804+00:00",
+      "completed_at": "2026-10-03T10:14:40.017278+00:00",
+      "output_sha256": "3f689dd8f223abcd39bc10b9869ca44b61c467e016ddf390333efa40dd057a65",
+      "review": "kb/research/poetic-natural/batches/natural-013/art-gatherings-review.json"
+    },
+    {
+      "id": "art-archive",
+      "title": "Archive",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/archive.png",
+      "delivery_source": "projects/site/assets/section-art/archive.webp",
+      "source_sha256": "625637c7c97d11d6f56fe4454250f521d7752e9a52bb0da05e7619929a488f3d",
+      "delivery_sha256": "14340dd30ffca10da5a4c1ff1c9435b04267b2aab73668b65c07a99a6adf4c30",
+      "caption": "Time rests between the pages.",
+      "alt": "Old clothbound books, a dried leaf and a cotton bookmark.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-013/art-archive-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-archive/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-archive/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-013",
+      "claimed_at": "2026-10-03T10:15:13.280542+00:00",
+      "completed_at": "2026-10-03T10:16:53.062308+00:00",
+      "output_sha256": "82fa310ad7bc385ee8ce832b5a9ad0886cef1abbb750db79fed4ba2f566dc09e",
+      "review": "kb/research/poetic-natural/batches/natural-013/art-archive-review.json"
+    },
+    {
+      "id": "art-book-reviews",
+      "title": "Book Reviews",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/book-reviews.png",
+      "delivery_source": "projects/site/assets/section-art/book-reviews.webp",
+      "source_sha256": "a2b2c26152eed97f3c3ed23bb21cabb23286719aebdf137cd11705e5ccdc8abb",
+      "delivery_sha256": "b89ef55cd13e32e8266f77bb89c9ed5acab60ea01f5157afb00835d2d5f1e2d6",
+      "caption": "A page waits for the light.",
+      "alt": "An open book with spectacles and a cup on a wooden table.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-013/art-book-reviews-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-book-reviews/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-book-reviews/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-013",
+      "claimed_at": "2026-10-03T10:17:22.733262+00:00",
+      "completed_at": "2026-10-03T10:18:39.180407+00:00",
+      "output_sha256": "a4851d21c863751c18d3073c2a704453b161400c908763bb1faf4ebb1a29d4b3",
+      "review": "kb/research/poetic-natural/batches/natural-013/art-book-reviews-review.json"
+    },
+    {
+      "id": "art-editorial-desk",
+      "title": "Editorial Desk",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/editorial-desk.png",
+      "delivery_source": "projects/site/assets/section-art/editorial-desk.webp",
+      "source_sha256": "d81b2258b912a973cb45d55c1246a8a12a062e1417b886288015e9e06e1f57c5",
+      "delivery_sha256": "ed284ceb540ceca3734014c160efa6d77f174c3395d54a185942e385ab8c92d5",
+      "caption": "The unwritten line is still listening.",
+      "alt": "Blank sheets, pencils and a notebook in soft window light.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-013/art-editorial-desk-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-editorial-desk/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-editorial-desk/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-013",
+      "claimed_at": "2026-10-03T10:19:18.636883+00:00",
+      "completed_at": "2026-10-03T10:21:13.241623+00:00",
+      "output_sha256": "3581b4557e42a05bb7caeae4c429be496d11bbfbf98a743ee056bad15661a2f5",
+      "review": "kb/research/poetic-natural/batches/natural-013/art-editorial-desk-review.json"
+    },
+    {
+      "id": "art-next-issue",
+      "title": "Next Issue",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/next-issue.png",
+      "delivery_source": "projects/site/assets/section-art/next-issue.webp",
+      "source_sha256": "0151f671192f9dd67c30d25d4572bd9cc534f479de7b1d6a9c5508aaae948428",
+      "delivery_sha256": "366212f601e7479999fe6d62bb7b9f78ccf66d2d1bdb665da85deb08fc917621",
+      "caption": "A leaf opens beside a page.",
+      "alt": "A closed notebook and a branch of young green leaves.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-013/art-next-issue-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-next-issue/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-next-issue/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-013",
+      "claimed_at": "2026-10-03T10:21:42.681914+00:00",
+      "completed_at": "2026-10-03T10:23:58.527427+00:00",
+      "output_sha256": "3e4935dfbec69daf47d73377ba88f33f3f90677ba2cd209415c654e0ed162ef2",
+      "review": "kb/research/poetic-natural/batches/natural-013/art-next-issue-review.json"
+    },
+    {
+      "id": "art-search",
+      "title": "Search",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/search.png",
+      "delivery_source": "projects/site/assets/section-art/search.webp",
+      "source_sha256": "e91e8964b2a911c88de1fd180b436ba91d43ef70e8cef2d3b9cddbb672f17638",
+      "delivery_sha256": "78aea3d1858f6a31ede1e901d34426c3fbde8805e939bba9d58262bf9c1b9783",
+      "caption": "Beyond the window, an open horizon.",
+      "alt": "An open blue window looks onto reeds, water and a distant horizon.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-014/art-search-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-search/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-search/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-014",
+      "claimed_at": "2026-10-03T10:26:00.654867+00:00",
+      "completed_at": "2026-10-03T10:27:40.106472+00:00",
+      "output_sha256": "3b5b7942c025bc19fe41caab523f511a2e1be3827b5a73481c774cefb5e36e4b",
+      "review": "kb/research/poetic-natural/batches/natural-014/art-search-review.json"
+    },
+    {
+      "id": "art-send-a-poem",
+      "title": "Send A Poem",
+      "roles": [
+        "poem",
+        "section-opening"
+      ],
+      "source": "kb/artifacts/artwork/masters/section-art/send-a-poem.png",
+      "delivery_source": "projects/site/assets/section-art/send-a-poem.webp",
+      "source_sha256": "65a0ed798f0259f7c56107fcf10f20be79b62b0ea564272735522be1012b6ec9",
+      "delivery_sha256": "b8d381b34a9950a62094789f5e87fab80f82ec83b78402f612618ca0e3580ff1",
+      "caption": "A quiet page, ready for a voice.",
+      "alt": "An open blank notebook and a fountain pen on folded cotton.",
+      "provenance": "records/poem-art-match-evidence.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-014/art-send-a-poem-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-send-a-poem/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-send-a-poem/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-014",
+      "claimed_at": "2026-10-03T10:28:21.849723+00:00",
+      "completed_at": "2026-10-03T10:30:39.858625+00:00",
+      "output_sha256": "7a643f10db518628da08d43b6e3137845503cf69bae84e26c820cb437ced65be",
+      "review": "kb/research/poetic-natural/batches/natural-014/art-send-a-poem-review.json"
+    },
+    {
+      "id": "art-dokana",
+      "title": "Dokana",
+      "roles": [
+        "poem"
+      ],
+      "source": "kb/artifacts/artwork/masters/poem-art/dokana.png",
+      "delivery_source": "projects/site/assets/poem-art/dokana.webp",
+      "source_sha256": "bcfa590bc5f13dc740499f6c5e2fa09bbfbfaee1d26f255f9771fe0e30bd576b",
+      "delivery_sha256": "fbd7194d553b169de9bdddbf9e23159966a72c28eea14afa7e70d43df37a3391",
+      "caption": "A closed doorway. Rain holds the silence.",
+      "alt": "A closed indigo shop shutter above a rain-dark earth threshold.",
+      "provenance": "records/poem-reader-a-approval.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-014/art-dokana-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-dokana/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-dokana/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-014",
+      "claimed_at": "2026-10-03T10:31:27.784820+00:00",
+      "completed_at": "2026-10-03T10:33:06.580464+00:00",
+      "output_sha256": "36b8a2e9f28cfd6d08b38437dd5591fcdcc02fa6633c0c007a26f726f60b3b4c",
+      "review": "kb/research/poetic-natural/batches/natural-014/art-dokana-review.json"
+    },
+    {
+      "id": "art-kshanika",
+      "title": "Kshanika",
+      "roles": [
+        "poem"
+      ],
+      "source": "kb/artifacts/artwork/masters/poem-art/kshanika.png",
+      "delivery_source": "projects/site/assets/poem-art/kshanika.webp",
+      "source_sha256": "5ff3286e18b623287a3d94a36b39dfcbe47a5e296eac30a89709f32db55107f3",
+      "delivery_sha256": "fc94452517d2d4161419b38ace333228b618b4632fbc5fd969b912dd7ad3da14",
+      "caption": "An empty platform, waiting with the rain.",
+      "alt": "An empty railway platform and bench recede into monsoon mist.",
+      "provenance": "records/poem-reader-a-approval.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-014/art-kshanika-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-kshanika/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-kshanika/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-014",
+      "claimed_at": "2026-10-03T10:33:49.869570+00:00",
+      "completed_at": "2026-10-03T10:35:46.559633+00:00",
+      "output_sha256": "61b26df875d664a1f6ac7346272ca333eb4710ddc70212f24c050abc9b31eacb",
+      "review": "kb/research/poetic-natural/batches/natural-014/art-kshanika-review.json"
+    },
+    {
+      "id": "art-drink",
+      "title": "Drink",
+      "roles": [
+        "poem"
+      ],
+      "source": "kb/artifacts/artwork/masters/poem-art/drink.png",
+      "delivery_source": "projects/site/assets/poem-art/drink.webp",
+      "source_sha256": "298f553f675df0da90827dfaf2125e7ed264a863ba0276a4b2781e2da9dd3b30",
+      "delivery_sha256": "5ae8dd6aeec75c44a891e3a498711f8a4e9fe4a5e9f223456c4100042454fc9f",
+      "caption": "A cup by the window; the night gathers on the water.",
+      "alt": "An earthen cup at a timber window overlooking quiet evening water.",
+      "provenance": "records/poem-reader-a-approval.json",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-014/art-drink-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-drink/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-drink/v1.png",
+      "notes": "For poem-associated illustrations, read representative matched poems and existing narrative before prompting; preserve the shared artwork identity.",
+      "batch": "natural-014",
+      "claimed_at": "2026-10-03T10:36:37.113568+00:00",
+      "completed_at": "2026-10-03T10:38:29.996197+00:00",
+      "output_sha256": "303b40fdca2563ec63e980bf89a20e98fc0690c4fb3083031cc5c61d29d360d2",
+      "review": "kb/research/poetic-natural/batches/natural-014/art-drink-review.json"
+    },
+    {
+      "id": "art-odisha-wetland",
+      "title": "Odisha wetland",
+      "roles": [
+        "retained-page-artwork"
+      ],
+      "source": "projects/site/assets/odisha-watercolour.webp",
+      "source_sha256": "6c0998c468a281e7b044bd0bebacc1076b92d4d5ad448955263700e4212f1f78",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-015/art-odisha-wetland-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/art-odisha-wetland/v1.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/art-odisha-wetland/v1.png",
+      "notes": "Preserve exact brand lettering/signature on Facebook; keep original untouched. No social upload.",
+      "batch": "natural-015",
+      "claimed_at": "2026-10-03T10:42:10.663607+00:00",
+      "completed_at": "2026-10-03T10:47:36.079325+00:00",
+      "output_sha256": "01121da1a31aa564cc18474c2e507444c8a4df78573e82dbf27ae7d958246ab9",
+      "review": "kb/research/poetic-natural/batches/natural-015/art-odisha-wetland-review.json"
+    },
+    {
+      "id": "social-facebook-cover",
+      "title": "Facebook cover",
+      "roles": [
+        "social-cover"
+      ],
+      "source": "kb/artifacts/social/facebook-2026-09-30/cover-v3.png",
+      "source_sha256": "0dd5668b826320f288caf6b6926944f1db3631187f4229a1ddd6370fab33e1a7",
+      "status": "verified",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/poetic-natural/batches/natural-015/social-facebook-cover-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/social-facebook-cover/v1.png",
+          "output_sha256": "0db268ce889829787ef881afa2fc3900d7f66e68a5a8880f3dbf327b37546c0f",
+          "status": "correction_required",
+          "reason": "Over-glossy scenery; preserved unused."
+        },
+        {
+          "version": 2,
+          "prompt": "kb/research/poetic-natural/batches/natural-015/social-facebook-cover-v2-prompt.txt",
+          "output": "kb/artifacts/artwork/poetic-natural/social-facebook-cover/v2.png"
+        }
+      ],
+      "output": "kb/artifacts/artwork/poetic-natural/social-facebook-cover/v2.png",
+      "notes": "Preserve exact brand lettering/signature on Facebook; keep original untouched. No social upload.",
+      "batch": "natural-015",
+      "claimed_at": "2026-10-03T10:48:36.944119+00:00",
+      "completed_at": "2026-10-03T10:53:36.200096+00:00",
+      "output_sha256": "6cecba5275da88899185fa823482d576059045ac91f548a9121ff77219347ebd",
+      "review": "kb/research/poetic-natural/batches/natural-015/social-facebook-cover-review.json"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "cover-006",
+  "reviewed_at": "2026-10-03T08:55:44.951081+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-006-2023-04.png",
+  "source_sha256": "4f29382fd7070d39dfb29218defc9b5854bbd43a7524335b375ad134a954cc60",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-006/v1.png",
+  "output_sha256": "d765aa98d468eb3cad376192a1539efd2da7242019591487727a73ba7b635e53",
+  "prompt": "kb/research/poetic-natural/batches/natural-009/cover-006-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-1a07e103-ed1c-4151-bbaf-0261f8fa36e1.png",
+  "input_image": "projects/site/assets/covers/editions/edition-006-2023-04.webp",
+  "input_image_sha256": "983d26a190ead90270cc4b9a0d1111fd635056918ddf64632c283d7ff74b4602",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Single ivory flower and brass water bowl preserved in actual coastal source setting despite indoor metaphor in title.",
+    "Subtle water movement breaks reflections; bowl support and elliptical perspective coherent.",
+    "2:3 framing and sky breathing space retained; no new symbols or props. Warm light remains strong but causally directional."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

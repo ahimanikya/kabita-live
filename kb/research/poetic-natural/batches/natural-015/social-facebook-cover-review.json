@@ -1,0 +1,34 @@
+{
+  "id": "social-facebook-cover",
+  "reviewed_at": "2026-10-03T10:53:36.200096+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/social/facebook-2026-09-30/cover-v3.png",
+  "source_sha256": "0dd5668b826320f288caf6b6926944f1db3631187f4229a1ddd6370fab33e1a7",
+  "output": "kb/artifacts/artwork/poetic-natural/social-facebook-cover/v2.png",
+  "output_sha256": "6cecba5275da88899185fa823482d576059045ac91f548a9121ff77219347ebd",
+  "prompt": "kb/research/poetic-natural/batches/natural-015/social-facebook-cover-v2-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-f3464246-023e-4495-985e-153bc436e5d7.png",
+  "input_image": "kb/artifacts/artwork/poetic-natural/social-facebook-cover/v1.png",
+  "input_image_sha256": "0db268ce889829787ef881afa2fc3900d7f66e68a5a8880f3dbf327b37546c0f",
+  "narrative_source": "kb/records/facebook-cover-v3.json",
+  "checks": [
+    "English masthead, leaf logo, English subtitle and one-line Odia signature visually match source in content, alignment and style.",
+    "Corrected v2 restores matte damp clay, restrained brass reflection and soft sunrise without exaggerated beams.",
+    "Veranda, open book, white flowers, cloth and Odisha-inspired water/fields preserve original narrative and 1918x820 composition.",
+    "Same-assistant visual typography review; no native-language certification or pixel-identical glyph guarantee."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Same-assistant visual typography comparison; not a native-language certification or a pixel-identical glyph guarantee."
+  ],
+  "source_preserved": true,
+  "caption_source": "kb/artifacts/social/facebook-2026-09-30/cover-v2-caption.txt",
+  "image_properties": {
+    "size": [
+      1918,
+      820
+    ],
+    "mode": "RGB"
+  }
+}

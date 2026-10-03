@@ -1,0 +1,44 @@
+{
+  "id": "art-thread-by-the-window",
+  "reviewed_at": "2026-10-03T09:18:56.935892+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "projects/site/assets/poem-art/library/thread-by-the-window.png",
+  "source_sha256": "4ec671a8bce1bbd779077d4abaf9815df3ec274f3d6dd91b101111d4ae697fc4",
+  "output": "kb/artifacts/artwork/poetic-natural/art-thread-by-the-window/v1.png",
+  "output_sha256": "b243a469cddba26b65b6d3f26fbd2f1cb0a68a09f26fd32205017e2057e924e9",
+  "prompt": "kb/research/poetic-natural/batches/natural-010/art-thread-by-the-window-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-a20e18fd-c3a4-4751-80d5-ad3c105f9a31.png",
+  "input_image": "projects/site/assets/poem-art/library/thread-by-the-window.png",
+  "input_image_sha256": "4ec671a8bce1bbd779077d4abaf9815df3ec274f3d6dd91b101111d4ae697fc4",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Folded sari, original indigo/ivory geometric identity and single attached hanging thread retained.",
+    "Thread now hangs more naturally; fold compression and stool support credible; light edges soften.",
+    "Watercolor/gouache, opaque ivory ground and3:2 framing retained; no new motifs, people or literal poem collage."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Assignments were inherited motif matches; this pass preserves shared imagery, not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "original_prompt_source": "kb/artifacts/artwork/poem-library-v1/prompts.json",
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 14,
+  "representative_poems_read": [
+    {
+      "id": 167,
+      "title": "कैक्टस",
+      "path": "projects/site/content/editions/issue-06/poem-167.json",
+      "sha256": "3317f45938443065bb496d99b9a9633d3d33d5a13317024fa8df2df8bbbee9af",
+      "full_text_read": true
+    },
+    {
+      "id": 179,
+      "title": "Serdica Metro Station",
+      "path": "projects/site/content/editions/issue-06/poem-179.json",
+      "sha256": "338d9c7afe4675beb2e876f3a6af1b2a1bbdc84d6651dbbfbc68949842d5b8fc",
+      "full_text_read": true
+    }
+  ]
+}

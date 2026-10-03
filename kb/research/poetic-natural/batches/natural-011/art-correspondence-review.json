@@ -1,0 +1,54 @@
+{
+  "id": "art-correspondence",
+  "reviewed_at": "2026-10-03T09:50:27.971904+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/section-art/correspondence.png",
+  "source_sha256": "701d59bcc8d218c645396c4047be201a6800785d5951baa66c72632543c07a56",
+  "output": "kb/artifacts/artwork/poetic-natural/art-correspondence/v2.png",
+  "output_sha256": "df431372c4bcb7853a914d5d425a210d8214f9e51a4e117c3baeb89f64ea3543",
+  "prompt": "kb/research/poetic-natural/batches/natural-011/art-correspondence-v2-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-fb2a0c2b-b8e5-49e1-b45d-2ab739c4f046.png",
+  "input_image": "kb/artifacts/artwork/poetic-natural/art-correspondence/v1.png",
+  "input_image_sha256": "5c14a334b5928a3c3700ab78973860a9eced9f596053d8f061b53246274f0ea5",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Correction reduces bead-string rain to smaller irregular glass droplets and short trails.",
+    "Sealed blank envelope, blue window, latch and white flowering vine retain waiting/unspoken correspondence meaning.",
+    "Watercolor vignette,3:2 framing and soft transparent edges preserved; first candidate retained unused."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 7,
+  "representative_poems_read": [
+    {
+      "id": 29,
+      "title": "ବିସ୍ଥାପନ",
+      "path": "projects/site/content/editions/issue-02/poem-29.json",
+      "sha256": "383bf20b6f2525dcfa1204403fdaaaafaf3e9836d7722a0aad958ca31ecb77a3",
+      "full_text_read": true
+    },
+    {
+      "id": 791,
+      "title": "The River Never Returned Our Letters",
+      "path": "projects/site/content/editions/issue-46/poem-791.json",
+      "sha256": "2ec2782a0c7afaa9f71abf7d04ec80ae1327b95d5bfe620ed869e0ff87c4f626",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "art-koraput-morning",
+  "reviewed_at": "2026-10-03T09:29:43.050501+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "projects/site/assets/poem-art/library/koraput-morning.png",
+  "source_sha256": "cfe2d0affab65d0fc0ad26aa2ad933587432c8fcde8b1c050d25daa15ba5ba38",
+  "output": "kb/artifacts/artwork/poetic-natural/art-koraput-morning/v1.png",
+  "output_sha256": "67c80ea24a4a7991669cef8596e9c366847caa470d7113ea3daf950db0aa1d79",
+  "prompt": "kb/research/poetic-natural/batches/natural-011/art-koraput-morning-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-a8feef6e-491d-498a-a957-9e3cd02676e8.png",
+  "input_image": "projects/site/assets/poem-art/library/koraput-morning.png",
+  "input_image_sha256": "cfe2d0affab65d0fc0ad26aa2ad933587432c8fcde8b1c050d25daa15ba5ba38",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Path, single small flower and receding hills retain open-ended journey imagery.",
+    "Distant ridges simplify into washes; dew and foreground detail remain selective rather than photographic.",
+    "Watercolor/gouache, opaque ivory ground and3:2 composition preserved; no new figures or literal poem motifs."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 10,
+  "representative_poems_read": [
+    {
+      "id": 152,
+      "title": "ନାରୀ ପରି ମରୁଥାଏ ନଈ",
+      "path": "projects/site/content/editions/issue-05/poem-152.json",
+      "sha256": "bb873fe638eb32829939fc0959e07360d4276ae547d35768404108dc173ca4cb",
+      "full_text_read": true
+    },
+    {
+      "id": 158,
+      "title": "Floating in Union",
+      "path": "projects/site/content/editions/issue-05/poem-158.json",
+      "sha256": "0d937d7d9fa4d60445c00057bfd4e995bd72b09380eecb242eaeba9930004ec3",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cover-045",
+  "reviewed_at": "2026-10-03T06:43:41.922215+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-045-2026-07.png",
+  "source_sha256": "45b06daa78f9f91a6873d96f0fcc87f09459be966ddf4a901615ab5033fbb5ff",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-045/v1.png",
+  "output_sha256": "286093bd1d9c34db5f0b0510f2ecf49913e3e6954647725169394bebbaf51123",
+  "prompt": "kb/research/poetic-natural/batches/natural-001/cover-045-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-a0217cd9-1052-40af-919b-9d311e557b56.png",
+  "checks": [
+    "Single empty boat, intact hull and quiet lagoon subject retained",
+    "Muted evening warmth and broken water reflection replace saturated mirror effect",
+    "Mooring line and short knot tail are physically legible; reeds vary in density",
+    "Vertical framing and open sky retained; no added people or text"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true,
+  "input_image": "projects/site/assets/covers/editions/edition-045-2026-07.webp",
+  "input_image_sha256": "03ebbb050ee8c1b2c25d26f16f42f365acbc4cd44c415742ce250049e0440244",
+  "input_role": "Edit target; inspected site derivative of preserved canonical master"
+}

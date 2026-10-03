@@ -1,0 +1,25 @@
+{
+  "id": "cover-036",
+  "reviewed_at": "2026-10-03T07:05:22.502404+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-036-2025-10.png",
+  "source_sha256": "08fb51c8583428fbf66de980cc86dcf9ff6513b517fa27fd49460ca2aa91379d",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-036/v1.png",
+  "output_sha256": "fb698b3d985aec337789bf413e00bd60a28ee4f4004606aa0b8ccae94514d64e",
+  "prompt": "kb/research/poetic-natural/batches/natural-003/cover-036-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-c8cb1e98-f612-4560-a763-c4632f42b1f3.png",
+  "input_image": "projects/site/assets/covers/editions/edition-036-2025-10.webp",
+  "input_image_sha256": "4ac5e1d47a1009facc648e64ab5a77ba066bfe1905e65a3609bbd63a631258d1",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Kans plumes and damp path retained with varied density and angle",
+    "Near-edge grass softens naturally while selected plumes remain clear",
+    "Valley depth and restrained seasonal mood preserved; mist remains plausible",
+    "No festival symbols, text or extra subjects"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

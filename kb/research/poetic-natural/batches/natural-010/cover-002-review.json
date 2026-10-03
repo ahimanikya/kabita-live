@@ -1,0 +1,24 @@
+{
+  "id": "cover-002",
+  "reviewed_at": "2026-10-03T09:05:35.790941+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-002-2022-12.png",
+  "source_sha256": "234784e3a5497f722e455eb7a69007f811923a831129ec80cdd0bd976a88ade1",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-002/v1.png",
+  "output_sha256": "65eb80f1aad4fce284bfd1a8471f85594a85722276961bacbd66e8a48ab18e81",
+  "prompt": "kb/research/poetic-natural/batches/natural-010/cover-002-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-344eded6-85df-4227-8695-ab2b11fc2803.png",
+  "input_image": "projects/site/assets/covers/editions/edition-002-2022-12.webp",
+  "input_image_sha256": "e788baa4b15f96b785d64430a5ebe11a9cab3edff5aabaf4cc778a22b487e201",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Baskets and grain retain household-care narrative; spill reduced and mound settled.",
+    "Coherent weave, contact shadows and roof supports preserved; distant objects softer.",
+    "Blue door, evening light and 2:3 veranda composition retained; no new cultural or community attribution."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

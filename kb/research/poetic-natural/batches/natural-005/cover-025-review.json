@@ -1,0 +1,25 @@
+{
+  "id": "cover-025",
+  "reviewed_at": "2026-10-03T07:42:28.297109+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-025-2024-11.png",
+  "source_sha256": "92363f8dbb9b042eaa4f2b2c814b54cb1a75b386918d66e55112a549abc95d2c",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-025/v1.png",
+  "output_sha256": "49a4ab7b5c3c7efd2d82f6366afd7bb56b1028ccb8322d92207c7995264e63bb",
+  "prompt": "kb/research/poetic-natural/batches/natural-005/cover-025-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-1390b718-f9ad-42a4-abd7-70327cba3c93.png",
+  "input_image": "projects/site/assets/covers/editions/edition-025-2024-11.webp",
+  "input_image_sha256": "96dbfa47460c0adb923d439859367359f7383a21e1b60ecf5302714b15e9ccac",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "River steps, small vessel and open water composition retained",
+    "Less saturated water and subdued vessel reflection improve material reading",
+    "Nearest submerged steps remain visible with believable depth; dry and damp surfaces differ",
+    "No ritual attribution, people or text added"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

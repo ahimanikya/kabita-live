@@ -1,0 +1,25 @@
+{
+  "id": "cover-042",
+  "reviewed_at": "2026-10-03T06:48:52.089475+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-042-2026-04.png",
+  "source_sha256": "826c03b2caa9b2b7b59712492b809633752668025064a15bee867bfeb2620cf6",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-042/v1.png",
+  "output_sha256": "62b9e835986046a107e314c543dc8cbda67a43cae3e3966c29dec617f4acce0c",
+  "prompt": "kb/research/poetic-natural/batches/natural-002/cover-042-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-97fca638-35e6-49ea-97cb-82c413b02978.png",
+  "checks": [
+    "Single leaning casuarina and empty coast retained",
+    "Cooler hazy daylight, uneven foam and selective twig detail",
+    "Roots grounded and horizon coherent; ample sky retained",
+    "No new subjects or text; source preserved"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true,
+  "input_image": "projects/site/assets/covers/editions/edition-042-2026-04.webp",
+  "input_image_sha256": "0eb9885b4b09f591e558c7614903617e60abe7cc75697c1949cb18ec8142b81c",
+  "input_role": "Edit target; inspected site derivative of preserved canonical master"
+}

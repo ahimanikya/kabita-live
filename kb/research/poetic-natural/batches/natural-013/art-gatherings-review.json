@@ -1,0 +1,54 @@
+{
+  "id": "art-gatherings",
+  "reviewed_at": "2026-10-03T10:14:40.017278+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/section-art/gatherings.png",
+  "source_sha256": "f2ac2afe2d674399e3fa4a476c25513619cdadbe8b897c1d9ca8ef1760144c6f",
+  "output": "kb/artifacts/artwork/poetic-natural/art-gatherings/v1.png",
+  "output_sha256": "3f689dd8f223abcd39bc10b9869ca44b61c467e016ddf390333efa40dd057a65",
+  "prompt": "kb/research/poetic-natural/batches/natural-013/art-gatherings-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2262b81a-fa96-4f86-ba31-965e4dffe54d.png",
+  "input_image": "projects/site/assets/section-art/gatherings.webp",
+  "input_image_sha256": "d60d885483b0452f58ff1b73463888ed4a7e22f3c29a1617bdca3426bb152f5b",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Two stools, table and empty chair retain the shared gathering anchor and perspective.",
+    "Cotton drape has plausible weight, cane furniture remains structurally coherent, daylight and contact shadows agree.",
+    "Plants, books, brass vessels, cultural cloth and watercolor medium preserved; no people or text introduced."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 11,
+  "representative_poems_read": [
+    {
+      "id": 361,
+      "title": "The Place to Seek",
+      "path": "projects/site/content/editions/issue-17/poem-361.json",
+      "sha256": "2af7f4a05d179a21605594d2f508bf292a6c05bb56e77d6249ba3a65ef225234",
+      "full_text_read": true
+    },
+    {
+      "id": 481,
+      "title": "किस विध लूँ तेरी थाह",
+      "path": "projects/site/content/editions/issue-24/poem-481.json",
+      "sha256": "64148e9670a623595a250045d59735e079764d5a22c054965f69884ea65fa53d",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  }
+}

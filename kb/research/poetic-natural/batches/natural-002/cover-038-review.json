@@ -1,0 +1,25 @@
+{
+  "id": "cover-038",
+  "reviewed_at": "2026-10-03T06:55:25.653532+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-038-2025-12.png",
+  "source_sha256": "8447210e03e7a681444bb6784ee7c8918be74c7753c4a8c75bee93f57811314b",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-038/v1.png",
+  "output_sha256": "dd2c02084472283f0df30c5ef40c5bae87831e828b7aa2483576416de6aa138f",
+  "prompt": "kb/research/poetic-natural/batches/natural-002/cover-038-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2b80adf9-cf6f-41af-976f-02b905df38e5.png",
+  "checks": [
+    "Single small earthen lamp remains unlit without artificial glow",
+    "Matte clay and restrained warm interior against cool twilight",
+    "Ledge contact, empty wall and portrait composition preserved",
+    "No new ceremonial objects or text; source preserved"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true,
+  "input_image": "projects/site/assets/covers/editions/edition-038-2025-12.webp",
+  "input_image_sha256": "f544f23d4b5820cd48fcff3a1cc7b7c9c9ed8962b836381bc7f796851928f83d",
+  "input_role": "Edit target; inspected site derivative of preserved canonical master"
+}

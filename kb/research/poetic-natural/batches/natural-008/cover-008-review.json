@@ -1,0 +1,24 @@
+{
+  "id": "cover-008",
+  "reviewed_at": "2026-10-03T08:48:05.219982+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-008-2023-06.png",
+  "source_sha256": "4ca08c1e7c2eb47905b04adb283c706dad0d45132ab99b9da193b7bc15488129",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-008/v1.png",
+  "output_sha256": "e30e42d4ddf51df5d6b3dee0c21aed3615fb1b7f8d0e29913c557f9fb8ff258d",
+  "prompt": "kb/research/poetic-natural/batches/natural-008/cover-008-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-f3a27e4d-10c5-470b-8877-cfc5b6032926.png",
+  "input_image": "projects/site/assets/covers/editions/edition-008-2023-06.webp",
+  "input_image_sha256": "ac1fe4cc1c6e4e79202a624bad7eeefd2418248d245993daf15e878fa5da9ec4",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Bowl of living rice seedlings and everyday care narrative retained.",
+    "Varied leaf heights and overlap, less exposed roots, softer cloud light and water reflections read plausibly.",
+    "Earthen bowl, house edge, palms, field, 2:3 composition and upper sky preserved; no added props or text."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

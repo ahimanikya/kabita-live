@@ -1,0 +1,24 @@
+{
+  "id": "cover-003",
+  "reviewed_at": "2026-10-03T09:01:53.665373+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-003-2023-01.png",
+  "source_sha256": "7b40c6baa687ef7fb1251732807bed3fae9936acbf557ef7e7cc67b68b550102",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-003/v1.png",
+  "output_sha256": "c1416d6fc237107a8f74d7b59f8c13f7e1ec2032e94f4b34fb303db1c32b0155",
+  "prompt": "kb/research/poetic-natural/batches/natural-009/cover-003-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-73b29485-1410-4b2a-9ff0-5567cce6c9e2.png",
+  "input_image": "projects/site/assets/covers/editions/edition-003-2023-01.webp",
+  "input_image_sha256": "3f6a148648e59ca08c365efeb5b194b60bc16cba75473c881e20e5ff0798ace1",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Shell shape and shore listening narrative retained; aperture, scale and low viewpoint consistent.",
+    "Broken retreating foam and local sunlight reflections read more naturally than continuous decorative border.",
+    "Sea, sunrise, 2:3 framing and quiet upper sky preserved; no extra shell, species or ritual claim."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

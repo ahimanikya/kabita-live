@@ -1,0 +1,24 @@
+{
+  "id": "cover-017",
+  "reviewed_at": "2026-10-03T08:28:29.252780+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-017-2024-03.png",
+  "source_sha256": "905aa088823dbf6f92b24a01a3c50d286bec5df987822c164703ad5918ce1fe5",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-017/v1.png",
+  "output_sha256": "f4c94b6d103b356e1b8ebf6600fbd0b0ec809d68ef45a5a1511616d907fae543",
+  "prompt": "kb/research/poetic-natural/batches/natural-007/cover-017-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-29ccee7b-dcd4-4763-a037-ce2fd94705f2.png",
+  "input_image": "projects/site/assets/covers/editions/edition-017-2024-03.webp",
+  "input_image_sha256": "c5d71233c9158fe610597a786791337ca9b559409542eb4ca8973a036959960a",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Source composition and quiet ecological attention retained; no new species claim.",
+    "Orchid clusters less display-like; background softer; filtered light and rocky flow plausible.",
+    "Photographic medium, 2:3 framing and upper breathing space retained; no text or extra objects."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

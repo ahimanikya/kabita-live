@@ -1,0 +1,24 @@
+{
+  "id": "cover-001",
+  "reviewed_at": "2026-10-03T09:08:05.765230+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-001-2022-11.png",
+  "source_sha256": "a52b7a7a5422a5219a7220a184107a416ea09dd23ae86b2fba2770da4e70853f",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-001/v1.png",
+  "output_sha256": "6c98c100f2e0347e3c0ae39ea27272aa923fc8fc55319e9ae6854ad4c4d5a582",
+  "prompt": "kb/research/poetic-natural/batches/natural-010/cover-001-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-602d5c76-29b2-4dfa-b1b1-737486f8d60d.png",
+  "input_image": "projects/site/assets/covers/editions/edition-001-2022-11.webp",
+  "input_image_sha256": "86dd5856bf91b00cd5289b28ad17270d47fedbd327113d617d2c5fda160e431c",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Blank notebook, terracotta cup and attentive writing-table mood preserved.",
+    "Page curve, binding, cloth support and matte painted table plausible; all source objects retained.",
+    "2:3 window viewpoint and morning light preserved, no writing or new objects introduced."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

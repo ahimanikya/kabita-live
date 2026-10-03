@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-10-03T08:49:39.958560+00:00",
+  "source_and_output_hash_check": "PASS",
+  "bundle_check": "PASS",
+  "artwork_handoff_hash_check": {
+    "checked": 40,
+    "errors": []
+  },
+  "whole_storage_check": "Concurrent portrait source change during successful sync",
+  "concurrent_paths": [
+    "kb/artifacts/artwork/writer-portraits/140-earth-voice-v1.png",
+    "kb/research/writers/portrait-edits.json"
+  ],
+  "action": "Retry handoff sync/check for documented concurrent changes; preserve portrait work."
+}

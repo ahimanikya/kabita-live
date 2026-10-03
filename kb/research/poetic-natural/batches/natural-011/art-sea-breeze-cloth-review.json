@@ -1,0 +1,51 @@
+{
+  "id": "art-sea-breeze-cloth",
+  "reviewed_at": "2026-10-03T09:37:03.442324+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "projects/site/assets/poem-art/library/sea-breeze-cloth.png",
+  "source_sha256": "1a4c93e858083456862d9fc1b71c22312893ebec17beb3dd02c118441998502b",
+  "output": "kb/artifacts/artwork/poetic-natural/art-sea-breeze-cloth/v1.png",
+  "output_sha256": "bdd002100da505c2a304da828be17e33d857cf9a1b756120ba01f610820b03ca",
+  "prompt": "kb/research/poetic-natural/batches/natural-011/art-sea-breeze-cloth-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-3e475f1d-d760-447a-b7dc-4153497937c1.png",
+  "input_image": "projects/site/assets/poem-art/library/sea-breeze-cloth.png",
+  "input_image_sha256": "1a4c93e858083456862d9fc1b71c22312893ebec17beb3dd02c118441998502b",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Gamucha, checked pattern, timber rail and sea preserve human presence without a figure.",
+    "Cloth lift follows breeze, hanging folds and rope joint remain plausible; sea reflection localized.",
+    "Watercolor/gouache, opaque ivory paper,3:2 framing and sky breathing room preserved; no added boats or typography."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 56,
+  "representative_poems_read": [
+    {
+      "id": 50,
+      "title": "PARALLEL THOUGHTS",
+      "path": "projects/site/content/editions/issue-02/poem-50.json",
+      "sha256": "ab7a2feb06dbe49eff11640d6d989823a34b3a3abb21ea275751486112930e86",
+      "full_text_read": true
+    },
+    {
+      "id": 80,
+      "title": "The sea, My solace",
+      "path": "projects/site/content/editions/issue-03/poem-80.json",
+      "sha256": "cc858cf7e2084620f1f56ad7e1847fca83bf5e8dd4b0609e5de33b5988458719",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  }
+}

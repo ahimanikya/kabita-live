@@ -1,0 +1,25 @@
+{
+  "id": "cover-030",
+  "reviewed_at": "2026-10-03T07:25:27.347116+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-030-2025-04.png",
+  "source_sha256": "cb1613a269d38dc217526ef9b15da1d7aae54c524161f86ed433650fbef52587",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-030/v1.png",
+  "output_sha256": "dd9e48f92e3f56ea41365d42de76086e33fd5a47924def872e29330900ad0a66",
+  "prompt": "kb/research/poetic-natural/batches/natural-004/cover-030-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ce0f98da-46ec-476e-aadc-c434b2cd5aa1.png",
+  "input_image": "projects/site/assets/covers/editions/edition-030-2025-04.webp",
+  "input_image_sha256": "3dcd111ea4185e5d3d67676ef8c4124afedc1e2589aac79158105f4a1df92be7",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Ivory and red-check gamucha remains draped over existing seaside rail",
+    "One corner lifts in breeze while most cloth hangs with weight; checks follow folds",
+    "Sea and upper sky remain quiet; everyday textile context preserved",
+    "No ceremonial symbols, new objects or lettering"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

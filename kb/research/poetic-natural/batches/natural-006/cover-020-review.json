@@ -1,0 +1,25 @@
+{
+  "id": "cover-020",
+  "reviewed_at": "2026-10-03T08:01:58.513906+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-020-2024-06.png",
+  "source_sha256": "771f7c8d9edd5c436430cac9f43a57a0ff6e9c3c931efc66a6188dc00bd66562",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-020/v1.png",
+  "output_sha256": "1120f6837aa6a0d9056965a94c3c4a324cf1836e72eb3afd53a17fbf9ec672c1",
+  "prompt": "kb/research/poetic-natural/batches/natural-006/cover-020-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-51de607b-16f4-44f9-9a89-7c33d2b87975.png",
+  "input_image": "projects/site/assets/covers/editions/edition-020-2024-06.webp",
+  "input_image_sha256": "329cbbd86c034becf7158607a0d0d01c2f4faf3f2a4aa28478b241b607620aeb",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Empty two-rope swing and large tree retained with clear branch attachments",
+    "Slight seat angle and quieter valley preserve invitation to play",
+    "Rooted tree, foreground and generous sky remain consistent with source",
+    "No people, festival decoration or text"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cover-031",
+  "reviewed_at": "2026-10-03T07:22:32.718313+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-031-2025-05.png",
+  "source_sha256": "03f6b7bca4a8d941b4a04bd92ba934345215b609caa358435a38bd3ac575c2d1",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-031/v1.png",
+  "output_sha256": "c3923e0d07d69c69a18eef5b6d638bbfa10915118d5ba115f6b66e328900037b",
+  "prompt": "kb/research/poetic-natural/batches/natural-004/cover-031-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-c71991d0-0cae-40ce-ac09-a4a25ed96df1.png",
+  "input_image": "projects/site/assets/covers/editions/edition-031-2025-05.webp",
+  "input_image_sha256": "1c8d142fcc504e45e8b190c4be4874d10d801d3beb7466b31e22afbe73da385a",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "One ripe mango remains among green fruit; basket and fallen fruit retained",
+    "Ripe fruit sits deeper in basket with partial shade and leaf overlap",
+    "Coherent weave, grounded basket and quiet summer context",
+    "Portrait framing and existing objects preserved without added text"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

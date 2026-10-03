@@ -1,0 +1,25 @@
+{
+  "id": "cover-034",
+  "reviewed_at": "2026-10-03T07:10:06.644205+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-034-2025-08.png",
+  "source_sha256": "6d85dca0a84617ab1fefb9dd1a2cab9e6b86ac098a9135edbbd6a1b33046aee4",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-034/v1.png",
+  "output_sha256": "a8c5f6e68efd6e68cdcf287cb009badae00d0abc6dcc7bb5a469b96a0c7cd9c1",
+  "prompt": "kb/research/poetic-natural/batches/natural-003/cover-034-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-3d3d0733-6c8e-4431-8c90-d57bc5d94028.png",
+  "input_image": "projects/site/assets/covers/editions/edition-034-2025-08.webp",
+  "input_image_sha256": "8cab36af5dc064c6fdb30c1f396c3f24238fe4a08c6d39c3695095f4a648f396",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Diagonal tiled roof and sheltered cloth preserve the theme of domestic shelter",
+    "Unequal runoff and quieter background reduce staged rain effect",
+    "Cloth falls by gravity with slight overlap; supports and roof remain coherent",
+    "Portrait framing, ordinary light and existing objects preserved"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

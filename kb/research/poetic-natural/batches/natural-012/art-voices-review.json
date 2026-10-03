@@ -1,0 +1,55 @@
+{
+  "id": "art-voices",
+  "reviewed_at": "2026-10-03T10:04:20.720301+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/section-art/voices.png",
+  "source_sha256": "ab163e282d17dbfc2811474054820a658aa9567f4deb42c8969bc39aaf07a48c",
+  "output": "kb/artifacts/artwork/poetic-natural/art-voices/v1.png",
+  "output_sha256": "8c57d5d32054ac15c90a23784f00a763d6bca35a8d829057414c789a0dc3f4d8",
+  "prompt": "kb/research/poetic-natural/batches/natural-012/art-voices-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-5148e2d9-2ad5-4b8e-878c-2dad8ca32ea6.png",
+  "input_image": "projects/site/assets/section-art/voices.webp",
+  "input_image_sha256": "456ff215b3e3c3a0d7398095274fe685a6807c5a4a3242c705273d1bbed40ad4",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Three distinct empty chair types and their orientation retained; community and welcome remain the emotional anchor.",
+    "Canopy shadows and ground contact plausible; chair frames and woven surfaces coherent.",
+    "Painted foliage has softer depth, while flowers remain somewhat art-directed without a material fidelity defect.",
+    "Watercolor medium, transparent vignette, landscape aspect and cultural context preserved; no people or text added."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 31,
+  "representative_poems_read": [
+    {
+      "id": 42,
+      "title": "MAKE-UP",
+      "path": "projects/site/content/editions/issue-02/poem-42.json",
+      "sha256": "c080af5dc7ba2515e02e1dfc9a3f1a6ea9860d5777a2958538eeada724fd2d57",
+      "full_text_read": true
+    },
+    {
+      "id": 85,
+      "title": "True love",
+      "path": "projects/site/content/editions/issue-03/poem-85.json",
+      "sha256": "987e678ba0687e6415767ee3b62540298dc59e5aa3c67540a09764f56d4e1b21",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  }
+}

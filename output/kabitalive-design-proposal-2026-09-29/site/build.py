@@ -198,3 +198,6 @@ apply_our_story(R)
 from home_artistic import apply_home_artistic
 apply_home_artistic(R)
 print(f'Created {len(pages)} linked pages.')
+
+from artwork_replacements import apply_artwork_replacements
+apply_artwork_replacements(R)

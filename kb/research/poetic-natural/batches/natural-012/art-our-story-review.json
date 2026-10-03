@@ -1,0 +1,55 @@
+{
+  "id": "art-our-story",
+  "reviewed_at": "2026-10-03T10:08:16.362847+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/section-art/our-story.png",
+  "source_sha256": "990308dcb3591db0fdbaa0b71e435b9a62971b5312ed2d66482d1c6be6e60744",
+  "output": "kb/artifacts/artwork/poetic-natural/art-our-story/v1.png",
+  "output_sha256": "30dd592b2f4e4e9a477794aa452c728606ebb721daca3b3eeae9c7e6dbfc9e83",
+  "prompt": "kb/research/poetic-natural/batches/natural-012/art-our-story-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-b88054cd-74e1-4297-8b5e-f1559f6f4ef6.png",
+  "input_image": "projects/site/assets/section-art/our-story.webp",
+  "input_image_sha256": "f7819a6e83f1e94c79b2a6593281acea124ec38fbe0f67e0e90c5d10a2fd0ec0",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Odisha home, blue doorway, porch columns and threshold retain familiar home and memory anchor.",
+    "Existing floral wall and threshold drawing vocabulary, books, brass cup and plants preserved.",
+    "Roof overlaps and restrained interior light falloff are plausible; no invented people or faces.",
+    "Watercolor medium, original perspective and transparent vignette retained, without text or extra symbolic props."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 50,
+  "representative_poems_read": [
+    {
+      "id": 16,
+      "title": "ଆଭାଗ୍ୟ ଲିପି",
+      "path": "projects/site/content/editions/issue-01/poem-16.json",
+      "sha256": "7be59ee4088a2a1e4dbf925dd0624b9eb66702f2156addd56d0ba9d87b336f55",
+      "full_text_read": true
+    },
+    {
+      "id": 47,
+      "title": "Two Poems",
+      "path": "projects/site/content/editions/issue-02/poem-47.json",
+      "sha256": "6b03cc48cab3400f193e223a5d275c3876524a6df54e4f24bfdb83a345d568b0",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  }
+}

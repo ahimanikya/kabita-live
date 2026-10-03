@@ -1,0 +1,54 @@
+{
+  "id": "art-send-a-poem",
+  "reviewed_at": "2026-10-03T10:30:39.858625+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/section-art/send-a-poem.png",
+  "source_sha256": "65a0ed798f0259f7c56107fcf10f20be79b62b0ea564272735522be1012b6ec9",
+  "output": "kb/artifacts/artwork/poetic-natural/art-send-a-poem/v1.png",
+  "output_sha256": "7a643f10db518628da08d43b6e3137845503cf69bae84e26c820cb437ced65be",
+  "prompt": "kb/research/poetic-natural/batches/natural-014/art-send-a-poem-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-b51b10a6-f062-47f1-bfed-c14fa263c5e5.png",
+  "input_image": "projects/site/assets/section-art/send-a-poem.webp",
+  "input_image_sha256": "b8d381b34a9950a62094789f5e87fab80f82ec83b78402f612618ca0e3580ff1",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Blank notebook remains central with fountain pen and single white flower retained.",
+    "Pen nib geometry, page curvature and cotton compression plausible; no written marks introduced.",
+    "Original watercolor, striped cloth, ribbon and transparent vignette preserved; existing surface texture remains controlled."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 26,
+  "representative_poems_read": [
+    {
+      "id": 89,
+      "title": "Nights",
+      "path": "projects/site/content/editions/issue-03/poem-89.json",
+      "sha256": "74a5fd632d32374d82ed026ab51139679addcbb8b322353945402ed0690d6084",
+      "full_text_read": true
+    },
+    {
+      "id": 109,
+      "title": "Blank Page",
+      "path": "projects/site/content/editions/issue-04/poem-109.json",
+      "sha256": "dbe84db3790152d01584d1157ffc8c4333ab2d881caf76ce9417cb736e8bcc7a",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      253
+    ]
+  }
+}

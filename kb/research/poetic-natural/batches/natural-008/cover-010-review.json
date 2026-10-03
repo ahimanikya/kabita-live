@@ -1,0 +1,24 @@
+{
+  "id": "cover-010",
+  "reviewed_at": "2026-10-03T08:44:30.712839+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-010-2023-08.png",
+  "source_sha256": "ece875bd14c9524904b163c8289560e4cd94c468b20e0eb5aaadbe8441f2288d",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-010/v1.png",
+  "output_sha256": "586426559789d17442326778edb9aaac8c96a3e02ebda95ee02aba9c9f9df2f8",
+  "prompt": "kb/research/poetic-natural/batches/natural-008/cover-010-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-e0e27a57-1316-461a-a04d-242c6cc05006.png",
+  "input_image": "projects/site/assets/covers/editions/edition-010-2023-08.webp",
+  "input_image_sha256": "1181cb55c01a26868d204d601858360e8f94f1827a87e7869cf1c749d59b33b7",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Wheel, spoke arrangement, hub crop and relief subject preserved at normal viewing scale.",
+    "Warm side light reads directionally; stone stays brown-grey and solid, recesses retain depth.",
+    "Interpretive artwork remains labelled as such; no archaeological accuracy or exact relief reproduction claimed, no new symbols or text."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

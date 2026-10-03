@@ -1,0 +1,44 @@
+{
+  "id": "art-drink",
+  "reviewed_at": "2026-10-03T10:38:29.996197+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/poem-art/drink.png",
+  "source_sha256": "298f553f675df0da90827dfaf2125e7ed264a863ba0276a4b2781e2da9dd3b30",
+  "output": "kb/artifacts/artwork/poetic-natural/art-drink/v1.png",
+  "output_sha256": "303b40fdca2563ec63e980bf89a20e98fc0690c4fb3083031cc5c61d29d360d2",
+  "prompt": "kb/research/poetic-natural/batches/natural-014/art-drink-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-f55a9f65-926e-403e-90cb-66e45aa74aac.png",
+  "input_image": "projects/site/assets/poem-art/drink.webp",
+  "input_image_sha256": "5ae8dd6aeec75c44a891e3a498711f8a4e9fe4a5e9f223456c4100042454fc9f",
+  "narrative_source": "projects/site/content/editions/issue-47/poem-814.json",
+  "checks": [
+    "Single earthen cup, timber window and expansive night water preserve the poem-specific existential solitude.",
+    "Moon reflection now breaks across ripples while remaining aligned; cup light and sill contact are plausible.",
+    "Original warm/cool watercolor mood, cultural materials and opaque ivory paper retained; no invented people or text."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "projects/site/data/local-routes.json",
+  "shared_assignment_count": 1,
+  "representative_poems_read": [
+    {
+      "id": 814,
+      "title": "Drink",
+      "path": "projects/site/content/editions/issue-47/poem-814.json",
+      "sha256": "634d72b7891bcbf60b24151d0e66db56de4311459d432fa0d3f4b4f3770a93b4",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "approval_provenance": "kb/records/poem-reader-a-approval.json"
+}

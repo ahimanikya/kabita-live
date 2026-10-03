@@ -1,0 +1,54 @@
+{
+  "id": "art-search",
+  "reviewed_at": "2026-10-03T10:27:40.106472+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/section-art/search.png",
+  "source_sha256": "e91e8964b2a911c88de1fd180b436ba91d43ef70e8cef2d3b9cddbb672f17638",
+  "output": "kb/artifacts/artwork/poetic-natural/art-search/v1.png",
+  "output_sha256": "3b5b7942c025bc19fe41caab523f511a2e1be3827b5a73481c774cefb5e36e4b",
+  "prompt": "kb/research/poetic-natural/batches/natural-014/art-search-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-fbfe3f27-26f4-4636-b6ab-4925566e7253.png",
+  "input_image": "projects/site/assets/section-art/search.webp",
+  "input_image_sha256": "78aea3d1858f6a31ede1e901d34426c3fbde8805e939bba9d58262bf9c1b9783",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Open blue shutters, ring pulls, sill leaf and wetland horizon preserve the contemplative opening.",
+    "Water reflections and receding reeds/hills coherent; existing weathered wood remains art-directed but physically possible.",
+    "Original watercolor composition, cultural materials and soft alpha edges preserved, no new people or objects."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 103,
+  "representative_poems_read": [
+    {
+      "id": 21,
+      "title": "IT IS NOT TO BE",
+      "path": "projects/site/content/editions/issue-01/poem-21.json",
+      "sha256": "caaa911651c163d4467be987258307def98a89e5d042b5a2d69b05972c5c0be2",
+      "full_text_read": true
+    },
+    {
+      "id": 23,
+      "title": "ଭାଙ୍ଗିବା ମୁହୂର୍ତ୍ତ",
+      "path": "projects/site/content/editions/issue-01/poem-23.json",
+      "sha256": "7f3c6990ff8b2c07fb4ab3a0ba5b129c86f085d8dd2fc1f480d6814893da4914",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  }
+}

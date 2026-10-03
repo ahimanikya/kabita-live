@@ -1,0 +1,54 @@
+{
+  "id": "art-archive",
+  "reviewed_at": "2026-10-03T10:16:53.062308+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/section-art/archive.png",
+  "source_sha256": "625637c7c97d11d6f56fe4454250f521d7752e9a52bb0da05e7619929a488f3d",
+  "output": "kb/artifacts/artwork/poetic-natural/art-archive/v1.png",
+  "output_sha256": "82fa310ad7bc385ee8ce832b5a9ad0886cef1abbb750db79fed4ba2f566dc09e",
+  "prompt": "kb/research/poetic-natural/batches/natural-013/art-archive-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-fa1a1431-824a-4a4d-bf76-99586744255f.png",
+  "input_image": "projects/site/assets/section-art/archive.webp",
+  "input_image_sha256": "14340dd30ffca10da5a4c1ff1c9435b04267b2aab73668b65c07a99a6adf4c30",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Four books and their color order, blank covers, bowl and dried leaf preserve the memory narrative.",
+    "Cotton bookmark curves with weight, pages show subtle undulation and books remain plausible.",
+    "Watercolor composition and cultural stripe retained; visible cloth detail remains intentional without factual or fidelity defect; no text added."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 43,
+  "representative_poems_read": [
+    {
+      "id": 25,
+      "title": "Realization",
+      "path": "projects/site/content/editions/issue-01/poem-25.json",
+      "sha256": "c28701af836f5bab572cee8ae75907633474278fddb0384e0f4f5c4d58e3bb01",
+      "full_text_read": true
+    },
+    {
+      "id": 51,
+      "title": "MEMORIES",
+      "path": "projects/site/content/editions/issue-02/poem-51.json",
+      "sha256": "85519937fda4c3ec91dce6624fbca1a1d4ca67fd8e4a3f6f3c032c587816bef8",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  }
+}

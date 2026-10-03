@@ -1,0 +1,54 @@
+{
+  "id": "art-quiet-path",
+  "reviewed_at": "2026-10-03T09:42:34.347112+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/section-art/quiet-path.png",
+  "source_sha256": "883a7da6b11bb02b6804f1765cd46063daf1337d81a90a3b11847806245b94b4",
+  "output": "kb/artifacts/artwork/poetic-natural/art-quiet-path/v1.png",
+  "output_sha256": "a09027325709d7934edc84e3be634be67af01bceea71e930ec643308678acb93",
+  "prompt": "kb/research/poetic-natural/batches/natural-011/art-quiet-path-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-be8c0ac2-f348-4d23-a994-b2a3eb6908db.png",
+  "input_image": "projects/site/assets/section-art/quiet-path.webp",
+  "input_image_sha256": "bf4ee17cdc2d2de6d594cea7cf02f9c9f983f272760fb87a5f738f3640f68472",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Red path, grasses, rocks and tree retain quiet continuation and shared journey imagery.",
+    "Watercolor medium and feathered alpha edges preserved; RGBA alpha0–254 with transparent corners verified.",
+    "Localized damp path marks and softer distant washes remain plausible;3:2 framing preserved, no new objects or words."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 115,
+  "representative_poems_read": [
+    {
+      "id": 8,
+      "title": "ନିବିଡ ହୃଦୟ ନୀଡ",
+      "path": "projects/site/content/editions/issue-01/poem-8.json",
+      "sha256": "17c2b25714943101b791f187c922da014d8d37d45f738b3cc6470708ff9cad28",
+      "full_text_read": true
+    },
+    {
+      "id": 9,
+      "title": "Heart, the impervious cave..",
+      "path": "projects/site/content/editions/issue-01/poem-9.json",
+      "sha256": "4580cd0ecc1a15c94d3c5b12e4e2bf3dadc7d5a4d1567074321ad3767ff3e944",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  }
+}

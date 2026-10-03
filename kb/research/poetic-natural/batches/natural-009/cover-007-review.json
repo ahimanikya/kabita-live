@@ -1,0 +1,24 @@
+{
+  "id": "cover-007",
+  "reviewed_at": "2026-10-03T08:53:36.220564+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-007-2023-05.png",
+  "source_sha256": "8fd2d6baa90fb5dab689080636bada0b4c223e3cce8bf400ff9de5abe13a04cd",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-007/v1.png",
+  "output_sha256": "ff7312cc4652667e5ea431ab5c5de517c36c7911bd6aded7643aa67ae42ffcd7",
+  "prompt": "kb/research/poetic-natural/batches/natural-009/cover-007-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-43314af7-42bc-43ac-ad8c-63915473cd44.png",
+  "input_image": "projects/site/assets/covers/editions/edition-007-2023-05.webp",
+  "input_image_sha256": "c5cb79758491c40093e0953257e53ef9880a34b8fcddcb9f9078021cc0b7aca9",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Shared shade and empty bench remain the emotional centre; tree, path and fence composition preserved.",
+    "Canopy reads less teal, branches overlap, large shaded areas remain; warm low light is still pronounced.",
+    "2:3 photographic treatment and open upper sky retained; no people or extra symbols added."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

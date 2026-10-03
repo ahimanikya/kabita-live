@@ -1,0 +1,25 @@
+{
+  "id": "cover-018",
+  "reviewed_at": "2026-10-03T08:10:14.848305+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-018-2024-04.png",
+  "source_sha256": "07d4e27d3d552b2d77ec4d6f24e528698e806d389ee50169dac774551c66bb0c",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-018/v1.png",
+  "output_sha256": "f3623a950948a43806609031f1b2eb6468af56fb72301a413b105bf41ce1df61",
+  "prompt": "kb/research/poetic-natural/batches/natural-006/cover-018-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-1d07f501-c586-4b3a-972d-a99fd0ae2259.png",
+  "input_image": "projects/site/assets/covers/editions/edition-018-2024-04.webp",
+  "input_image_sha256": "c25b30f26788d4554e1567b3ead2e37216a120c53b75b13f8bfffc59895e8f06",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "One palm-leaf fan, cotton mat and threshold preserve domestic relief theme",
+    "Fan binding, handle join and leaf ribs visually coherent",
+    "Quieter light and mat compression retain physical contact and familiar composition",
+    "No new objects, text or invented maker attribution"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

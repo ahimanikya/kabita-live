@@ -1,0 +1,44 @@
+{
+  "id": "art-pond-at-dawn",
+  "reviewed_at": "2026-10-03T09:12:33.252255+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "projects/site/assets/poem-art/library/pond-at-dawn.png",
+  "source_sha256": "65d6fe577ce6f54b9d1ce6fb8759fec836e30d810a9205e8d3bdf121bae069c9",
+  "output": "kb/artifacts/artwork/poetic-natural/art-pond-at-dawn/v1.png",
+  "output_sha256": "d44173795f0f24b119a1186da1c208b162cc620e4e63a9ec2cc84663e8216364",
+  "prompt": "kb/research/poetic-natural/batches/natural-010/art-pond-at-dawn-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2a3c8a62-1be1-410e-8a09-3e799b3eba02.png",
+  "input_image": "projects/site/assets/poem-art/library/pond-at-dawn.png",
+  "input_image_sha256": "65d6fe577ce6f54b9d1ce6fb8759fec836e30d810a9205e8d3bdf121bae069c9",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Two lotus buds, pond and reflection preserve shared dawn/water motifs without literalizing disparate poems.",
+    "Watercolor and gouache remain visible, with soft paper edges and opaque ivory ground; landscape3:2 preserved.",
+    "Rings and leaf highlights less dominant; distant bank stays atmospheric; no new people, symbols or text."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Assignments were inherited motif matches; this pass preserves shared imagery, not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "original_prompt_source": "kb/artifacts/artwork/poem-library-v1/prompts.json",
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 21,
+  "representative_poems_read": [
+    {
+      "id": 40,
+      "title": "Different Cities",
+      "path": "projects/site/content/editions/issue-02/poem-40.json",
+      "sha256": "d6ffb600f417bcec0fcd3c234b8bb200473751120ad9373316423da9fc70f01f",
+      "full_text_read": true
+    },
+    {
+      "id": 132,
+      "title": "Troubled Dawn",
+      "path": "projects/site/content/editions/issue-04/poem-132.json",
+      "sha256": "bede508e28e7224014683bb53e7e18d945888299d408e3405f62d3900ab3750c",
+      "full_text_read": true
+    }
+  ]
+}

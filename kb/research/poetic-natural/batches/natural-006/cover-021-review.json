@@ -1,0 +1,25 @@
+{
+  "id": "cover-021",
+  "reviewed_at": "2026-10-03T07:58:45.803179+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-021-2024-07.png",
+  "source_sha256": "1b7290a48438beb39ae706196eaa6c351a7430619872f964632cdabd03ca9f0e",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-021/v1.png",
+  "output_sha256": "9c597e699345e6f80455b1915a3dc6fdee2d98f8cc6b8196bd6d86ce6b6731dd",
+  "prompt": "kb/research/poetic-natural/batches/natural-006/cover-021-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-bd243fa7-adf2-4448-b0af-93af1f1005b3.png",
+  "input_image": "projects/site/assets/covers/editions/edition-021-2024-07.webp",
+  "input_image_sha256": "915b4aa51e012f11ad824e297fda5d5a58b56a0e2a1fd966cfe5e63f4c296d71",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Diagonal banana leaf and one hanging tip drop retained",
+    "Large droplets less uniformly displayed; wet channels follow leaf slope",
+    "Background wall, pot and existing motif remain softly contextual",
+    "No new subjects, damage or lettering"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

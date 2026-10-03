@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-03T08:13:29.967200+00:00",
+  "independent": false,
+  "artwork_hash_check": "pass; 31 verified outputs and protected sources checked",
+  "bundle_check": "pass",
+  "first_final_storage_check": "concurrent source changes after sync",
+  "concurrent_files": [
+    "kb/records/author-page-verification.json",
+    "kb/artifacts/artwork/writer-portraits/444-earth-voice-v1.png",
+    "kb/research/writers/portrait-edits.json",
+    "kb/research/writers/portrait-batches/portrait-040/edition-check.json",
+    "kb/research/writers/portrait-batches/portrait-040/hash-check.json",
+    "kb/research/writers/portrait-batches/portrait-040/author-check.json",
+    "kb/research/writers/portrait-batches/portrait-040/build.log",
+    "kb/research/writers/portrait-batches/portrait-040/desktop.png",
+    "kb/research/writers/portrait-batches/portrait-040/thumbnails-may.png",
+    "kb/research/writers/portrait-batches/portrait-040/thumbnails-matralina.png",
+    "kb/research/writers/portrait-batches/portrait-040/thumbnails-meenakshi.png"
+  ],
+  "action": "Retry ordinary sync preserving concurrent source work; do not overwrite divergent handoff edits.",
+  "second_storage_check": "New portrait-040 screenshots appeared during verification; retry after preserving current sources.",
+  "artwork_handoff_hash_check": {
+    "checked": 31,
+    "errors": []
+  }
+}

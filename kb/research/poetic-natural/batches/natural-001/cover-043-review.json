@@ -1,0 +1,25 @@
+{
+  "id": "cover-043",
+  "reviewed_at": "2026-10-03T06:46:55.427486+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-043-2026-05.png",
+  "source_sha256": "5c566fd998b4f6656565fb8cb3db1d42f4df66ef9217fdcfa991b04616cef318",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-043/v1.png",
+  "output_sha256": "978b645d09f1135710c863ac9d8b2cdd29b8883e28795bab978fc117006fbb28",
+  "prompt": "kb/research/poetic-natural/batches/natural-001/cover-043-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-e78e2c76-9f6f-4618-9974-16eab1c65224.png",
+  "checks": [
+    "Three pots and indigo cloth retained with grounded contact shadows",
+    "Small rim and firing variations retain useful handmade vessel forms",
+    "Directional window light retained with quieter rear focus and wall",
+    "Vertical negative space retained; no additional props, people or text"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true,
+  "input_image": "projects/site/assets/covers/editions/edition-043-2026-05.webp",
+  "input_image_sha256": "9e1b3f4dc758167b5b0e94e2efd5771b0f6e294a1457a8b5c4b8266b0de0f685",
+  "input_role": "Edit target; inspected site derivative of preserved canonical master"
+}

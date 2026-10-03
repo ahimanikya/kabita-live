@@ -1,0 +1,54 @@
+{
+  "id": "art-next-issue",
+  "reviewed_at": "2026-10-03T10:23:58.527427+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/section-art/next-issue.png",
+  "source_sha256": "0151f671192f9dd67c30d25d4572bd9cc534f479de7b1d6a9c5508aaae948428",
+  "output": "kb/artifacts/artwork/poetic-natural/art-next-issue/v1.png",
+  "output_sha256": "3e4935dfbec69daf47d73377ba88f33f3f90677ba2cd209415c654e0ed162ef2",
+  "prompt": "kb/research/poetic-natural/batches/natural-013/art-next-issue-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-afc37f05-86ed-4a33-9035-59fb2f7a45ed.png",
+  "input_image": "projects/site/assets/section-art/next-issue.webp",
+  "input_image_sha256": "366212f601e7479999fe6d62bb7b9f78ccf66d2d1bdb665da85deb08fc917621",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Young leaves, buds and blank closed notebook preserve possibility and renewal without literal poem additions.",
+    "Blue binding and ribbon, botanical placement, original perspective and watercolor palette retained.",
+    "Leaf shadows and paper thickness plausible; selective wash edges preserved with no text or new symbols."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 22,
+  "representative_poems_read": [
+    {
+      "id": 38,
+      "title": "ସ୍ତ୍ରୀଲୋକ",
+      "path": "projects/site/content/editions/issue-02/poem-38.json",
+      "sha256": "ffd7edf5d6955a31d972bc80670061ecbc8a38d177802a6635eb08ae5127f13b",
+      "full_text_read": true
+    },
+    {
+      "id": 39,
+      "title": "Future",
+      "path": "projects/site/content/editions/issue-02/poem-39.json",
+      "sha256": "09d08dffc8691a715440ab067b92baf6815c12c6ed3d6bf3a1ac985fe59f3caf",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cover-026",
+  "reviewed_at": "2026-10-03T07:40:00.163034+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-026-2024-12.png",
+  "source_sha256": "26e459eab7cb6e8db14e58d469fcac363d48d0f0ce33e5c7411795a2b485c2c8",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-026/v1.png",
+  "output_sha256": "a5999908f9acd08d97ef2074ac9b15765c60d4e8b205da67f0a4f02718d7ed22",
+  "prompt": "kb/research/poetic-natural/batches/natural-005/cover-026-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-1d651c83-622b-4f94-a6ea-e1c70e74cdad.png",
+  "input_image": "projects/site/assets/covers/editions/edition-026-2024-12.webp",
+  "input_image_sha256": "68ea6dca10ccc3f04c4f3b3286ed5809243d5850a207ddf1df46e46c91f10864",
+  "narrative_source": "projects/site/cover-catalogue.json",
+  "checks": [
+    "Clay pot, hearth and kitchen layout retained",
+    "Lower flame and reduced spiral steam better match lingering warmth",
+    "Pot support and wood contact coherent; upper room remains quiet",
+    "No added objects, people or text"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true
+}

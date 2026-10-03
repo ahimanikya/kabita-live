@@ -1,0 +1,40 @@
+{
+  "id": "art-odisha-wetland",
+  "reviewed_at": "2026-10-03T10:47:36.079325+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "projects/site/assets/odisha-watercolour.webp",
+  "source_sha256": "6c0998c468a281e7b044bd0bebacc1076b92d4d5ad448955263700e4212f1f78",
+  "output": "kb/artifacts/artwork/poetic-natural/art-odisha-wetland/v1.png",
+  "output_sha256": "01121da1a31aa564cc18474c2e507444c8a4df78573e82dbf27ae7d958246ab9",
+  "prompt": "kb/research/poetic-natural/batches/natural-015/art-odisha-wetland-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-f5d59bee-f5dd-4623-bbe6-b52bf53ee074.png",
+  "input_image": "projects/site/assets/odisha-watercolour.webp",
+  "input_image_sha256": "6c0998c468a281e7b044bd0bebacc1076b92d4d5ad448955263700e4212f1f78",
+  "narrative_source": "kb/artifacts/history/revisions/revision-02/IDENTITY-AND-SHARING.md",
+  "checks": [
+    "Exact 2172x724 3:1 aspect, outer-corner reeds, lotus, two petals, two birds and boat preserve original wetland identity.",
+    "Boat and bird forms remain coherent watercolor; no humans, text or extra symbols introduced.",
+    "70.19 percent of output pixels fully transparent; saturated fringe pixels have alpha at most 2/255 (under 0.8% opacity); opaque coloured fringes in raw preview are not representative of correct compositing.",
+    "Image inspected in tool preview; browser background check blocked by file URL policy and not bypassed. Initial edge concern retained in candidate record with diagnostic resolution."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Normal-background browser inspection unavailable because local file URLs are blocked; transparency assessed from image preview and alpha diagnostics."
+  ],
+  "source_preserved": true,
+  "original_prompt_provenance": "kb/artifacts/history/revisions/revision-02/IMAGE-PROMPT.txt",
+  "image_properties": {
+    "size": [
+      2172,
+      724
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.7019429860708363,
+    "saturated_fringe_alpha_max": 2
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "art-kendu-light",
+  "reviewed_at": "2026-10-03T09:16:07.875213+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "projects/site/assets/poem-art/library/kendu-light.png",
+  "source_sha256": "63548013b0f85d2a0ba02ad03a0dc0def109a5ec5289ec80ce753694adb1df94",
+  "output": "kb/artifacts/artwork/poetic-natural/art-kendu-light/v1.png",
+  "output_sha256": "843739ad25171181add32e01cb3068431319394a66d359a5b649de4e2fb622a4",
+  "prompt": "kb/research/poetic-natural/batches/natural-010/art-kendu-light-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-28c58bb8-5aeb-4825-8a71-34855249ad58.png",
+  "input_image": "projects/site/assets/poem-art/library/kendu-light.png",
+  "input_image_sha256": "63548013b0f85d2a0ba02ad03a0dc0def109a5ec5289ec80ce753694adb1df94",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Leaf, attached hanging drop and receding path retain shared woodland motifs and quiet possibility.",
+    "Veins and droplets less jewel-like, background uses washes; watercolor/gouache medium preserved.",
+    "Opaque ivory paper edge,3:2 landscape and original scene retained; no new figures or literal poem collage."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Assignments were inherited motif matches; this pass preserves shared imagery, not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "original_prompt_source": "kb/artifacts/artwork/poem-library-v1/prompts.json",
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 31,
+  "representative_poems_read": [
+    {
+      "id": 30,
+      "title": "ଭଲ ପାଇଛି ବୋଲି",
+      "path": "projects/site/content/editions/issue-02/poem-30.json",
+      "sha256": "997b292342eaba5f5a58051036fdd37538c736f64c8d8f0503d25c5f55692635",
+      "full_text_read": true
+    },
+    {
+      "id": 55,
+      "title": "The Completion",
+      "path": "projects/site/content/editions/issue-02/poem-55.json",
+      "sha256": "756831dba24d376bcb62ca2f664c6208a8c18bd9411d109842b3781635aaedde",
+      "full_text_read": true
+    }
+  ]
+}

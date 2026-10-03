@@ -1,0 +1,54 @@
+{
+  "id": "art-editorial-desk",
+  "reviewed_at": "2026-10-03T10:21:13.241623+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/section-art/editorial-desk.png",
+  "source_sha256": "d81b2258b912a973cb45d55c1246a8a12a062e1417b886288015e9e06e1f57c5",
+  "output": "kb/artifacts/artwork/poetic-natural/art-editorial-desk/v1.png",
+  "output_sha256": "3581b4557e42a05bb7caeae4c429be496d11bbfbf98a743ee056bad15661a2f5",
+  "prompt": "kb/research/poetic-natural/batches/natural-013/art-editorial-desk-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-e19a615a-7ae0-441c-a182-9b286ed15fb3.png",
+  "input_image": "projects/site/assets/section-art/editorial-desk.webp",
+  "input_image_sha256": "ed284ceb540ceca3734014c160efa6d77f174c3395d54a185942e385ab8c92d5",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Blank deckled sheets retain unwritten-voice anchor; four pencils, notebook and brass vessels retained.",
+    "Softened foliage shadows and paper offsets remain physically plausible; original perspective preserved.",
+    "Watercolor, cultural pencil-holder pattern and transparent vignette retained; no lettering or invented narrative objects."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 89,
+  "representative_poems_read": [
+    {
+      "id": 10,
+      "title": "RECLUSION",
+      "path": "projects/site/content/editions/issue-01/poem-10.json",
+      "sha256": "bb2a7b993a197f5d2f4b2ab367c4206fb824f6676a2daaa605687150ed5d84b7",
+      "full_text_read": true
+    },
+    {
+      "id": 20,
+      "title": "The Pain Of Unsaid Words",
+      "path": "projects/site/content/editions/issue-01/poem-20.json",
+      "sha256": "9febda78fcc256db2fa4d785ca2ace0cc987e06f3dd3a83df4d59c636d384983",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  }
+}

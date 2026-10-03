@@ -1,0 +1,55 @@
+{
+  "id": "art-reading-room",
+  "reviewed_at": "2026-10-03T10:02:28.975628+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/section-art/reading-room.png",
+  "source_sha256": "07e31575a6b34ca3819d8ede7d6c5b5ee99f21a92eae00aa3840ff5aece630b9",
+  "output": "kb/artifacts/artwork/poetic-natural/art-reading-room/v1.png",
+  "output_sha256": "e19a396e091ca71452d78e95b9450fa14927ecbcd17ec4278fcefce3e3202baf",
+  "prompt": "kb/research/poetic-natural/batches/natural-012/art-reading-room-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-f9a88cdc-5d46-4afe-b3e7-8593b76e4ca4.png",
+  "input_image": "projects/site/assets/section-art/reading-room.webp",
+  "input_image_sha256": "3186759764e55a34c520e8ce133a9520329e3afcd9ada221b024f979684ff862",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Blank notebook remains the emotional focus, with slight believable page curvature.",
+    "Bench, brass vessel, reeds, white flower and riverside perspective preserved.",
+    "Calm reflected light and painted depth remain plausible; no people, added text or symbols.",
+    "Watercolor medium and soft transparent vignette retained; existing decorative bench wear remains visible but is not a material fidelity defect."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 38,
+  "representative_poems_read": [
+    {
+      "id": 19,
+      "title": "Flame",
+      "path": "projects/site/content/editions/issue-01/poem-19.json",
+      "sha256": "8656fe9606da785d4a17c4cbe2b9b0a148555d2a5c53960ebc53ee9842d91616",
+      "full_text_read": true
+    },
+    {
+      "id": 83,
+      "title": "Passing",
+      "path": "projects/site/content/editions/issue-03/poem-83.json",
+      "sha256": "3a325c3c975e2240a55a986441ee6940e5b5c73b663f5480369ee17bf859a2f6",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  }
+}

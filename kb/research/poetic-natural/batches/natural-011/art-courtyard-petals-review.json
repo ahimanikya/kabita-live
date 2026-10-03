@@ -1,0 +1,51 @@
+{
+  "id": "art-courtyard-petals",
+  "reviewed_at": "2026-10-03T09:33:07.359159+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "projects/site/assets/poem-art/library/courtyard-petals.png",
+  "source_sha256": "7e854fada1c6c309f4c4553f6b2490705ff3695f2efcf56f8593e32fb5328631",
+  "output": "kb/artifacts/artwork/poetic-natural/art-courtyard-petals/v1.png",
+  "output_sha256": "e84c112cefe1ff58a58d54e483f990ca80d23f8d651eadac2bc310fc76dfbf04",
+  "prompt": "kb/research/poetic-natural/batches/natural-011/art-courtyard-petals-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-dd1d1d3f-67ee-4241-bab7-f9d8c454b325.png",
+  "input_image": "projects/site/assets/poem-art/library/courtyard-petals.png",
+  "input_image_sha256": "7e854fada1c6c309f4c4553f6b2490705ff3695f2efcf56f8593e32fb5328631",
+  "narrative_source": "projects/site/data/poem-art-library.json",
+  "checks": [
+    "Sparse fallen bougainvillea and small courtyard puddle retain lingering afternoon mood.",
+    "Some bracts rest flatter, walls resolve in watercolor washes, shallow reflections remain physically connected.",
+    "Watercolor/gouache, opaque ivory paper and3:2 composition retained; no new scene, people or objects."
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence.",
+    "Inherited motif associations preserved; not certification of every poem-art match."
+  ],
+  "source_preserved": true,
+  "assignment_evidence": "kb/records/poem-art-match-evidence.json",
+  "shared_assignment_count": 62,
+  "representative_poems_read": [
+    {
+      "id": 7,
+      "title": "ତୁମେ ଏକା ଜଣେ",
+      "path": "projects/site/content/editions/issue-01/poem-7.json",
+      "sha256": "8cdc27543c5acfa07ad85ff690cd12729b3efe68d021ce67a2049e8471e388c5",
+      "full_text_read": true
+    },
+    {
+      "id": 11,
+      "title": "Two Poems",
+      "path": "projects/site/content/editions/issue-01/poem-11.json",
+      "sha256": "a7e712c442a6a9d9ac6e187241d21c800bf8b1980745e9ef6b6643a1cca952b7",
+      "full_text_read": true
+    }
+  ],
+  "image_properties": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  }
+}

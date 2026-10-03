@@ -1,0 +1,25 @@
+{
+  "id": "cover-041",
+  "reviewed_at": "2026-10-03T06:50:15.832941+00:00",
+  "status": "verified",
+  "independent": false,
+  "source": "kb/artifacts/artwork/masters/covers/by-edition/edition-041-2026-03.png",
+  "source_sha256": "d8893651db2bd9bdb6aeb7f58dda89cc08979f8840b4cd44699f805699174e9a",
+  "output": "kb/artifacts/artwork/poetic-natural/cover-041/v1.png",
+  "output_sha256": "8a0d4bd6a3be7f27efbd9bde1705aa6a90de0d2acb6f2657a2e0b710153ecfcf",
+  "prompt": "kb/research/poetic-natural/batches/natural-002/cover-041-prompt.txt",
+  "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-f2331a2b-1dba-4006-9d77-0dc7f1ef39da.png",
+  "checks": [
+    "Curved palash-like flowers, woody branching and hill setting retained",
+    "Petals vary in opening and overlap with less plastic surfaces",
+    "Quiet sky and lower-contrast distance preserved; warm photographic character remains",
+    "No text or added subjects; artistic visual review only, not botanical certification"
+  ],
+  "limitations": [
+    "Same-assistant visual review; generated imagined scene, not documentary evidence."
+  ],
+  "source_preserved": true,
+  "input_image": "projects/site/assets/covers/editions/edition-041-2026-03.webp",
+  "input_image_sha256": "027a2c9fecfcd900c4ac06d06ac1f4cba92038ab1d007e9e1893b0ee2517cf05",
+  "input_role": "Edit target; inspected site derivative of preserved canonical master"
+}
