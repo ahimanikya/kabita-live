@@ -1,0 +1,3 @@
+from pathlib import Path
+import sys,json,hashlib
+root=Path(__file__).resolve().parents[4];p=root/'kb/records/selective-portrait-fixes-2026-10-03.json';q=json.loads(p.read_text());r=next(r for r in q['items'] if r['writer_id']==int(sys.argv[1]));r['status']=sys.argv[2];r['review']=sys.argv[3];r['candidate_sha256']=hashlib.sha256((root/r['candidate']).read_bytes()).hexdigest();r['independent']=False;q['resume_writer_id']=next((i['writer_id'] for i in q['items'] if i['status'] not in ['selected_after_visual_review','retain_existing_after_review']),None);p.write_text(json.dumps(q,ensure_ascii=False,indent=2)+'\n');print(r['writer_id'],r['status'],'next',q['resume_writer_id'])

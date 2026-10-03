@@ -935,6 +935,20 @@
       "evidence": [
         "records/completed-portrait-deployment-2026-10-03.json"
       ]
+    },
+    {
+      "id": "KBL-DEC-044",
+      "title": "Selectively refine and publish thirteen reviewed watercolor portraits",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "OK, let's go with your reco and fix them, push to git and update the web site too",
+      "scope": "Regenerate and source-review the thirteen retrospective shortlist candidates, retain only improvements, preserve originals and prior versions, commit and push scoped changes and deploy through the existing manual public-only Pages preview workflow. Nine source-review cases and existing holds excluded. No full-library regeneration, DNS or runtime-service changes. Temporary portrait-schedule hold prevents overlapping generation; restore afterward.",
+      "evidence": [
+        "records/selective-portrait-fixes-2026-10-03.json"
+      ]
     }
   ],
   "requirements": [

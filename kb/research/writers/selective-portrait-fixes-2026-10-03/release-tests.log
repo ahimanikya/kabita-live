@@ -1,0 +1,48 @@
+
+> kabita-live-site@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ disabled, local, HTTP, unknown routes and unconsented visits never load GA (13.044167ms)
+✔ explicit consent loads once; config and page view use fixed public metadata only (4.235042ms)
+✔ share events whitelist numeric poem IDs and known methods, never form data or searches (2.205041ms)
+✔ decline disables events, clears only project cookies, persists and reloads (1.138417ms)
+✔ blocked browser storage preserves page-local consent and withdrawal without reload (0.611667ms)
+✔ a stored mode carries across page loads and is applied before content (1.259375ms)
+✔ System tracks the device; explicit modes override it; cycle returns to System (0.938042ms)
+✔ other tabs update both controls; clearing preference restores System (0.67825ms)
+✔ storage unavailable and invalid values do not break theme controls (0.609042ms)
+﹣ likes toggle atomically; shared count matches two private votes (0.20525ms) # SKIP
+﹣ forged, duplicate, unpaired and unauthenticated likes cannot inflate counts (0.11625ms) # SKIP
+﹣ comment submission remains private and cannot self-publish or bypass cooldown (0.07775ms) # SKIP
+﹣ comment rules reject forged identities, extra private fields, oversized text and missing consent version (0.082167ms) # SKIP
+﹣ editor publishes only approved original fields; public queries are bounded; withdrawal removes public text (0.035458ms) # SKIP
+﹣ valid private submission; public, own-user and cross-user reads denied; editor can read (0.274584ms) # SKIP
+﹣ unauthenticated writes and forged owner denied (0.060083ms) # SKIP
+﹣ client cannot self-approve, add fields, backdate or oversize (0.036292ms) # SKIP
+﹣ cooldown and missing atomic throttle denied (0.041083ms) # SKIP
+﹣ reader cannot edit, editor can change status but not rewrite text, comments collection denied (0.03125ms) # SKIP
+✔ India midnight advances; equivalent instants and same-day reloads agree (1.24625ms)
+✔ Every poem receives a turn in source order and wraps without skipping (0.287792ms)
+✔ A single poem stays; an absent language never creates an empty card (0.095625ms)
+✔ New edition resets to its first poems; invalid or pre-edition dates use fallback (2.214334ms)
+✔ partial words remain partial and overlapping marks merge (11.351083ms)
+✔ erase can shorten or split an underline without touching another line (0.249458ms)
+✔ Hindi and Odia selections cannot split grapheme clusters (0.983875ms)
+✔ invalid saved marks are ignored and empty records stay empty (0.12875ms)
+✔ one selection across lines leaves independent ranges (0.167875ms)
+✔ poem and language keys isolate reader marks (0.105208ms)
+✔ marks in later stanzas use stable global line offsets (0.137792ms)
+✔ next poem fills spare space when its title and three lines fit (1.300792ms)
+✔ only two opening lines would fit: move the next poem to a new page (0.165459ms)
+✔ one- and two-line poems may fit in full (0.062667ms)
+✔ ordering, identity and every source unit survive across many pages (1.705875ms)
+✔ oversized heading keeps first line, never inserts an empty page (0.051459ms)
+✔ changed viewport recalculates the opening guard (0.096209ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 10
+ℹ todo 0
+ℹ duration_ms 195.161916
