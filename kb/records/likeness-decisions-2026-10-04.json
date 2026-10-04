@@ -3,7 +3,7 @@
   "authorization": "User supplied the review export and explicitly instructed Apply this.",
   "import_sha256": "709b9aa7ca4e51a8f98205b009c04933afdc87aee7c3cc180c9f14e79e7f948e",
   "review_export": "research/writers/likeness-decisions-2026-10-04/user-review.json",
-  "status": "applied_with_two_retry_holds",
+  "status": "all_decisions_applied_after_later_retry_acceptance",
   "verification": "passed",
   "decisions": [
     {
@@ -129,11 +129,13 @@
       "decision": "Try a targeted correction",
       "source": "kb/artifacts/artwork/portrait-sources/writers/150-journal-original.webp",
       "prior_hold": "Source strongly blurred/pixelated and overexposed across eyes, nose and mouth; exact facial contours and ear details cannot be verified reliably without reconstruction. Human Natural source limits respected; no generation attempted. Original retained pending clearer identified photo or independent review.",
-      "status": "retry_hold",
+      "status": "user_accepted_retry_verified_locally",
       "master": "kb/artifacts/artwork/writer-portraits/150-review-retry-v1.png",
       "master_sha256": "15679c78b45345e760ffa75097fa800a004d61a1afb11128211e6fe1b1e55ff6",
-      "review": "Retry preserves frontal pose and softness but introduces a reddish patch at picture-right mouth corner and leaves facial contours too uncertain against overexposed source. New candidate saved for user review; original remains in use. No reliable likeness completion claimed.",
-      "verification": "candidate_saved_photo_retained"
+      "review": "Later user instruction accepted this existing retry. Earlier concern preserved: Retry preserves frontal pose and softness but introduces a reddish patch at picture-right mouth corner and leaves facial contours too uncertain against overexposed source. New candidate saved for user review; original remains in use. No reliable likeness completion claimed.",
+      "verification": "candidate_saved_photo_retained",
+      "web_asset": "assets/writers/150-user-selected-accepted-retry-20261004.webp",
+      "later_user_decision": "Accept their existing retries too"
     },
     {
       "writer_id": 154,
@@ -206,11 +208,13 @@
       "decision": "Try a targeted correction",
       "source": "kb/artifacts/artwork/portrait-sources/writers/227-journal-original.webp",
       "prior_hold": "Source heavily blurred/pixelated across eyes, nose, smile and earrings. Facial and ornament detail cannot be reproduced confidently without reconstruction. Human Natural limits respected; no generation attempted. Original retained pending clearer identified photograph or independent review.",
-      "status": "retry_hold",
+      "status": "user_accepted_retry_verified_locally",
       "master": "kb/artifacts/artwork/writer-portraits/227-review-retry-v1.png",
       "master_sha256": "985289e308fbb63d450fe81702bdc51fdd56dc084caa9b6248d6b558b0a61b37",
-      "review": "The tilt, hair and broad facial arrangement are recognizable, but the retry expands the tight source crop into additional neck and shoulders and makes the mouth and hairline mark more pronounced. Source blur does not support those additions confidently. Retain the original photograph; save this candidate for user review.",
-      "verification": "candidate_saved_photo_retained"
+      "review": "Later user instruction accepted this existing retry. Earlier concern preserved: The tilt, hair and broad facial arrangement are recognizable, but the retry expands the tight source crop into additional neck and shoulders and makes the mouth and hairline mark more pronounced. Source blur does not support those additions confidently. Retain the original photograph; save this candidate for user review.",
+      "verification": "candidate_saved_photo_retained",
+      "web_asset": "assets/writers/227-user-selected-accepted-retry-20261004.webp",
+      "later_user_decision": "Accept their existing retries too"
     },
     {
       "writer_id": 238,
@@ -469,5 +473,6 @@
     "retry_holds": 2,
     "total_applied": 33
   },
-  "results_page": "artifacts/review/likeness-decisions-2026-10-04/index.html"
+  "results_page": "artifacts/review/likeness-decisions-2026-10-04/index.html",
+  "subsequent_acceptance_record": "records/accepted-candidate-two-2026-10-04.json"
 }

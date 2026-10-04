@@ -1,0 +1,145 @@
+{
+  "recorded_at": "2026-10-04T09:20:59.550295+00:00",
+  "authorization": "Accept all candidate 2",
+  "scope": "Remaining likeness holds with an existing second generated candidate",
+  "status": "verified_locally_pending_deployment",
+  "decisions": [
+    {
+      "writer_id": 229,
+      "name": "Tahera Mannan",
+      "candidate": 2,
+      "master": "kb/artifacts/artwork/writer-portraits/229-earth-voice-v2-unused.png",
+      "master_sha256": "539c682fd4e4795ee63ccb654ec12982a4a924ef8dc6c28eaa22a5d5cb7b7953",
+      "prior_hold": {
+        "writer_id": 229,
+        "name": "Tahera Mannan",
+        "batch": "portrait-080",
+        "reason": "Both candidates preserve recognizable smile and sunglasses but expand lower clothing/flower crop, warm the complexion and over-define teeth and reflections. Targeted correction leaves source-bound crop and detail fidelity unresolved. Original retained; two unused masters saved for independent review."
+      },
+      "web_asset": "assets/writers/229-user-selected-candidate2-20261004.webp",
+      "status": "user_accepted_verified_locally"
+    },
+    {
+      "writer_id": 195,
+      "name": "Tandra Mishra",
+      "candidate": 2,
+      "master": "kb/artifacts/artwork/writer-portraits/195-earth-voice-v2-unused.png",
+      "master_sha256": "56dabd7dbdf61852f9b55bdd166e873777e9f3cc9e312498f4aaafeb5028d49a",
+      "prior_hold": {
+        "writer_id": 195,
+        "name": "Tandra Mishra",
+        "batch": "portrait-080",
+        "reason": "Correction still extends neck and pearl necklace beyond original tight lower crop, with more defined earring and warmer complexion. Face and expression broadly retained but Human Natural source-bound framing remains uncertain after two candidates. Original retained; both unused masters saved."
+      },
+      "web_asset": "assets/writers/195-user-selected-candidate2-20261004.webp",
+      "status": "user_accepted_verified_locally"
+    },
+    {
+      "writer_id": 294,
+      "name": "Tapeshwar Prasad",
+      "candidate": 2,
+      "master": "kb/artifacts/artwork/writer-portraits/294-earth-voice-v2-unused.png",
+      "master_sha256": "042710a39c55b3ca9bb2ed60b86a190d85a73fdf9b2453bf42f7c956f3466507",
+      "prior_hold": {
+        "writer_id": 294,
+        "name": "Tapeshwar Prasad",
+        "batch": "portrait-080",
+        "reason": "Both candidates amplify orange complexion and stubble, retaining a distinct dark spot beneath picture-left lens not reliably supported by source. Correction reduced some pigment contrast but source skin-detail fidelity remains uncertain. Original retained; both unused masters saved."
+      },
+      "web_asset": "assets/writers/294-user-selected-candidate2-20261004.webp",
+      "status": "user_accepted_verified_locally"
+    },
+    {
+      "writer_id": 420,
+      "name": "Tasneem Hossain",
+      "candidate": 2,
+      "master": "kb/artifacts/artwork/writer-portraits/420-earth-voice-v2-unused.png",
+      "master_sha256": "495433de516f0e67d5a4b53591601960a381ae81b00257ae05e86560e32b83e6",
+      "prior_hold": {
+        "writer_id": 420,
+        "name": "Tasneem Hossain",
+        "batch": "portrait-080",
+        "reason": "Correction reduces necklace detail but retains copper/red hair and stronger yellow-orange complexion than source, with expanded lower sari crop. Pose and smile recognizable; Human Natural color and fine-detail fidelity remain uncertain after two candidates. Original retained; both unused masters saved."
+      },
+      "web_asset": "assets/writers/420-user-selected-candidate2-20261004.webp",
+      "status": "user_accepted_verified_locally"
+    },
+    {
+      "writer_id": 425,
+      "name": "Tirna Sarkar",
+      "candidate": 2,
+      "master": "kb/artifacts/artwork/writer-portraits/425-earth-voice-v2-unused.png",
+      "master_sha256": "6cefbe004bc9e54b4d000d99ab36b4ab9317724461c2988807373e7191ac74a0",
+      "prior_hold": {
+        "writer_id": 425,
+        "name": "Tirna Sarkar",
+        "batch": "portrait-081",
+        "reason": "Both candidates keep recognizable smile and glasses but expose more picture-left ear and hanging earring, over-define picture-right jewelry and amplify skin texture. Correction softens cheek patch yet occlusion/accessory fidelity remains uncertain. Original retained; two unused masters saved."
+      },
+      "web_asset": "assets/writers/425-user-selected-candidate2-20261004.webp",
+      "status": "user_accepted_verified_locally"
+    },
+    {
+      "writer_id": 377,
+      "name": "Vikramaditya Singh",
+      "candidate": 2,
+      "master": "kb/artifacts/artwork/writer-portraits/377-earth-voice-unused-v2.png",
+      "master_sha256": "50fdf529f39f7b7e312ccb7dff4e8ebf183d7d93ff221efe316e1a4d264afb08",
+      "prior_hold": {
+        "writer_id": 377,
+        "name": "Vikramaditya Singh",
+        "batch": "portrait-084",
+        "reason": "Correction reduces but does not reliably remove the unsupported small mouth-area mark; granular skin texture remains stronger than source. Fidelity remains uncertain after two candidates; retain source photograph."
+      },
+      "web_asset": "assets/writers/377-user-selected-candidate2-20261004.webp",
+      "status": "user_accepted_verified_locally"
+    },
+    {
+      "writer_id": 150,
+      "name": "Sutanuka Ghosh Roy",
+      "candidate": 1,
+      "master": "kb/artifacts/artwork/writer-portraits/150-review-retry-v1.png",
+      "master_sha256": "15679c78b45345e760ffa75097fa800a004d61a1afb11128211e6fe1b1e55ff6",
+      "prior_hold": {
+        "writer_id": 150,
+        "name": "Sutanuka Ghosh Roy",
+        "batch": "portrait-078",
+        "reason": "Retry preserves frontal pose and softness but introduces a reddish patch at picture-right mouth corner and leaves facial contours too uncertain against overexposed source. New candidate saved for user review; original remains in use. No reliable likeness completion claimed.",
+        "prior_reason": "Source strongly blurred/pixelated and overexposed across eyes, nose and mouth; exact facial contours and ear details cannot be verified reliably without reconstruction. Human Natural source limits respected; no generation attempted. Original retained pending clearer identified photo or independent review.",
+        "retry_master": "kb/artifacts/artwork/writer-portraits/150-review-retry-v1.png",
+        "retry_record": "records/likeness-decisions-2026-10-04.json"
+      },
+      "web_asset": "assets/writers/150-user-selected-accepted-retry-20261004.webp",
+      "status": "user_accepted_verified_locally"
+    },
+    {
+      "writer_id": 227,
+      "name": "Sweety Sony Lall",
+      "candidate": 1,
+      "master": "kb/artifacts/artwork/writer-portraits/227-review-retry-v1.png",
+      "master_sha256": "985289e308fbb63d450fe81702bdc51fdd56dc084caa9b6248d6b558b0a61b37",
+      "prior_hold": {
+        "writer_id": 227,
+        "name": "Sweety Sony Lall",
+        "batch": "portrait-079",
+        "reason": "The tilt, hair and broad facial arrangement are recognizable, but the retry expands the tight source crop into additional neck and shoulders and makes the mouth and hairline mark more pronounced. Source blur does not support those additions confidently. Retain the original photograph; save this candidate for user review.",
+        "prior_reason": "Source heavily blurred/pixelated across eyes, nose, smile and earrings. Facial and ornament detail cannot be reproduced confidently without reconstruction. Human Natural limits respected; no generation attempted. Original retained pending clearer identified photograph or independent review.",
+        "retry_master": "kb/artifacts/artwork/writer-portraits/227-review-retry-v1.png",
+        "retry_record": "records/likeness-decisions-2026-10-04.json"
+      },
+      "web_asset": "assets/writers/227-user-selected-accepted-retry-20261004.webp",
+      "status": "user_accepted_verified_locally"
+    }
+  ],
+  "remaining_without_candidate_two": [],
+  "independent_author_editor_review": "User acceptance recorded; author/editor confirmation not claimed",
+  "additional_authorization": "Accept their existing retries too",
+  "verification": {
+    "build": "PASS",
+    "author_pages": "424 artistic,0 source photos,3 generic",
+    "editions": "PASS",
+    "hashes": "3511 protected paths; only portrait map changed",
+    "visual": "Eight64/128 circular crops; Sutanuka desktop1280 and mobile360, no horizontal overflow",
+    "independent": false
+  }
+}
