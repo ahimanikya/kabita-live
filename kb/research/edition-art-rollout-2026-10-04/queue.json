@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T12:43:56.919906+00:00",
+  "updated_at": "2026-10-04T13:05:20.597808+00:00",
   "status": "active",
   "active_batch": null,
   "next_edition": 17,
@@ -16,8 +16,8 @@
     "new_rollout_artworks": 81,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 27,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 30,
     "estimated_remaining_artworks": 51
   },
   "editions": [
@@ -1092,7 +1092,7 @@
         421,
         424
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "water-waiting-for-birds",
@@ -1109,7 +1109,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-20/batch.json",
       "direction": "June holds several kinds of weather: water left for absent birds in heat, a hill road dissolved in wet air, and a park seat after a sudden shower. Clay gouache, broad landscape washes and spare ink vary scale and atmosphere. Personal bereavement, insomnia and the challenge to victim blaming remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T12:19:18.114250+00:00"
+      "verified_at": "2026-10-04T12:19:18.114250+00:00",
+      "publication_commit": "c7e5773fa3d356d0741cf887538c3a31d2a02ff7",
+      "publication_workflow": 37203658604
     },
     {
       "edition": 19,
@@ -1128,7 +1130,7 @@
         407,
         411
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "the-still-back-of-a-shell",
@@ -1145,7 +1147,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-19/batch.json",
       "direction": "May moves inward through three scales of quiet: a shell after an overflow of feeling, a patch of kitchen light between tasks, and the unoccupied shade of a promised meeting. Pale graphite, architectural gouache and a soft nocturne give distinct spaces to the poems. The triptych, the argument about women’s lives and the dense love-and-poetry meditation remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T12:35:27.668541+00:00"
+      "verified_at": "2026-10-04T12:35:27.668541+00:00",
+      "publication_commit": "c7e5773fa3d356d0741cf887538c3a31d2a02ff7",
+      "publication_workflow": 37203658604
     },
     {
       "edition": 18,
@@ -1175,7 +1179,7 @@
         399,
         397
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "pullum-on-the-cloth",
@@ -1192,7 +1196,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-18/batch.json",
       "direction": "April attends to small forms of nourishment and renewal: remembered plums, grass at a rain-filled hoofprint, and cotton wicks prepared for humble lamps. Warm pastel fruit, close earthy watercolor and spare charcoal vary density and material. Exploitation, the identified beloved and the long ecological-spiritual argument remain text-led. The existing archived metadata-only poem385 is preserved and receives no new assignment.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T12:43:56.919906+00:00"
+      "verified_at": "2026-10-04T12:43:56.919906+00:00",
+      "publication_commit": "c7e5773fa3d356d0741cf887538c3a31d2a02ff7",
+      "publication_workflow": 37203658604
     },
     {
       "edition": 17,
