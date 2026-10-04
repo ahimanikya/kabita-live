@@ -1,6 +1,6 @@
 {
   "edition": 21,
-  "status": "verified_local_pending_publication",
+  "status": "published_verified",
   "created_at": "2026-10-04T12:04:12.764917+00:00",
   "poems_read": [
     425,
@@ -163,6 +163,12 @@
     "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
     "edition_integrity": "PASS",
     "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-21.png and mobile-21.png. Same-assistant review.",
-    "publication": "Awaiting authorized three-edition checkpoint"
+    "publication": "Deployed and live verified: exact asset hashes, poem pages, noindex and engagement preserved"
+  },
+  "publication": {
+    "commit": "4ce6560b97144594c03893c18d09dc1f24328b77",
+    "workflow_id": 37201428228,
+    "verified_at": "2026-10-04T12:20:51.975428+00:00",
+    "result": "PASS"
   }
 }
