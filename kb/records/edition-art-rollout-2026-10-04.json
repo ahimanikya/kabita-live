@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-04T06:53:59.990674+00:00",
-  "status": "in_progress",
+  "status": "completed_with_hold",
   "work_ref": "KBL-WORK-022",
   "decision_ref": "KBL-DEC-046",
   "authorization": "This is excellent - let’s push this and make this happen for all the editions",
@@ -15,7 +15,7 @@
     "imagegen"
   ],
   "independent": false,
-  "next_action": "Resume editionNone; publish the next three verified unpublished editions together. 45 editions are live.",
+  "next_action": "All47 editions are published and verified. No generation or publication pending. One edition6 block-tower image remains excluded; its poem retains existing artwork. Independent editorial review remains separate.",
   "pilot_publication": {
     "status": "deployed_and_live_verified",
     "base_commit": "32fba99f22b2c568b5274454cbf4781367d6f2b5",
@@ -40,7 +40,7 @@
     "verification": "research/edition-art-rollout-2026-10-04/pilot-live-verification.json",
     "documentation_commit": "e4e9eb6"
   },
-  "loop_status": "ACTIVE",
+  "loop_status": "PAUSED",
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
@@ -49,15 +49,18 @@
     "new_rollout_artworks": 131,
     "estimated_additional_artworks": 132,
     "held": 1,
-    "verified_local_unpublished_editions": 2,
-    "published_editions": 45,
-    "estimated_remaining_artworks": 0
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 47,
+    "estimated_remaining_artworks": 0,
+    "accepted_artworks": 140,
+    "text_led_openings": 139,
+    "preserved_candidates": 157
   },
   "last_completed_batch": "edition-1",
-  "handoff_note": "Synchronizing this completed edition checkpoint; preserve concurrent portrait files.",
+  "handoff_note": "Final all-edition handoff synchronized; storage checks pass. Completion metadata synchronization follows.",
   "current_publication": {
     "id": "checkpoint-2-1",
-    "status": "prepared",
+    "status": "deployed_and_live_verified",
     "editions": [
       2,
       1
@@ -66,7 +69,23 @@
     "text_led": 6,
     "base_commit": "48e2ad5d53fad49c69dc2f9c14d045d4a6dd070e",
     "release_checkout": "/private/tmp/kbl-selective-portraits-20261003",
-    "prepared_at": "2026-10-04T15:58:31.224069+00:00"
+    "prepared_at": "2026-10-04T15:58:31.224069+00:00",
+    "commit": "4635c28ed84c99c3dcc57a5d63e96d0ce07d3000",
+    "workflow_id": 37215238005,
+    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37215238005",
+    "verified_at": "2026-10-04T16:08:38.664473+00:00",
+    "verification": "research/edition-art-rollout-2026-10-04/checkpoint-2-1-live-verification.json"
   },
-  "last_handoff_verified_at": "2026-10-04T09:09:17.381245+00:00"
+  "last_handoff_verified_at": "2026-10-04T16:12:24.419924+00:00",
+  "completed_at": "2026-10-04T16:10:33.747939+00:00",
+  "final_verification": "research/edition-art-rollout-2026-10-04/final-provenance-audit.json",
+  "holds": [
+    {
+      "id": "the-balance-we-borrow",
+      "edition": 6,
+      "poem_id": 184,
+      "reason": "After two corrections the layer above the slot has four shorter block ends rather than three consistent game blocks, and the alternating construction remains inconsistent. Retain candidates as research; preserve existing poem artwork. No publication."
+    }
+  ],
+  "automation_paused_at": "2026-10-04T16:12:24.419924+00:00"
 }
