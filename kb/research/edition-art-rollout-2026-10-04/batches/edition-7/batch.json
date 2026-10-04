@@ -1,0 +1,192 @@
+{
+  "edition": 7,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T14:44:58.410313+00:00",
+  "poems_read": [
+    190,
+    191,
+    192,
+    193,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211
+  ],
+  "direction": "May holds private feeling, provisional repair and simple pleasure in a jar of leaves, a wall being mended and a small kite. Transparent watercolor, close gouache and spacious pastel create different scales of attention. Economic questions, conflict and the poet’s public responsibility stay text-led.",
+  "items": [
+    {
+      "id": "leaves-kept-in-a-jar",
+      "edition": 7,
+      "poem_id": 201,
+      "title": "Leaves kept in a jar",
+      "rationale": "The speaker hides feelings in a jar of dead leaves and learns to let go. An ordinary transparent jar can hold that inward pause without turning the poem into a portrait of despair or literal magical transformation.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-7/leaves-kept-in-a-jar-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-07/poem-201.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-7/poem-201.json",
+      "poem_sha256": "9d29a233be12b2b81a81b89c220c980b49f7b3403e857c6ac3de033003c2991f",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-7/leaves-kept-in-a-jar/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-7/leaves-kept-in-a-jar-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-f201763f-757f-4be9-834b-c7181053e58a.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-7/leaves-kept-in-a-jar/v1.png",
+          "sha256": "b6cbf1aff243d4ed8bc53fd1a400fb849979ba42e2993857c2341466098b4bab"
+        }
+      ],
+      "medium_label": "watercolor and graphite",
+      "independent": false,
+      "started_at": "2026-10-04T14:44:58.458977+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-f201763f-757f-4be9-834b-c7181053e58a.png",
+      "output_sha256": "b6cbf1aff243d4ed8bc53fd1a400fb849979ba42e2993857c2341466098b4bab",
+      "saved_at": "2026-10-04T14:46:14.230142+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T14:46:14.268066+00:00",
+        "outcome": "pass",
+        "notes": "PASS: open glass jar has coherent rim/base and restrained reflections, overlapping leaves partly occlude one another and rest inside base. Empty right wall and soft wash keep inward quiet, no invented figure or magical butterfly. Leaves are more numerous than a few but do not form an arranged bouquet. independent:false."
+      },
+      "alt": "An open glass jar holding dry leaves beside a quiet pale wall.",
+      "public_asset": "assets/poem-art/editions/7/leaves-kept-in-a-jar-v1.webp",
+      "public_sha256": "dc8338d7ac18326319edc66f47eca2f76f750d6729ff0830e0bfccee4adc98ae",
+      "previous_assignment": "kendu-light",
+      "integrated_at": "2026-10-04T14:54:28.090481+00:00"
+    },
+    {
+      "id": "a-wall-being-mended",
+      "edition": 7,
+      "poem_id": 208,
+      "title": "A wall being mended",
+      "rationale": "The poem questions the maker who takes pleasure in repair while everything is transient. An unfinished plaster patch holds both care and provisionality, without romanticizing a ruined home or depicting the addressee.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-7/a-wall-being-mended-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-07/poem-208.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-7/poem-208.json",
+      "poem_sha256": "0873a1926d0e3b2aa43decea373e96a325e1b62a5de519fbecdca9006be3ab85",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-7/a-wall-being-mended/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-7/a-wall-being-mended-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-8102c1da-7636-4032-b492-eba40e2f0ece.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-7/a-wall-being-mended/v1.png",
+          "sha256": "4ff4941b787fc9bf2232bcdac9e98f5d6482e674dd858f8bb8c1ea788df8522b"
+        }
+      ],
+      "medium_label": "gouache and charcoal",
+      "independent": false,
+      "started_at": "2026-10-04T14:46:14.302744+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-8102c1da-7636-4032-b492-eba40e2f0ece.png",
+      "output_sha256": "4ff4941b787fc9bf2232bcdac9e98f5d6482e674dd858f8bb8c1ea788df8522b",
+      "saved_at": "2026-10-04T14:47:53.527253+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T14:47:53.565422+00:00",
+        "outcome": "pass",
+        "notes": "PASS: fresh patch and trowel residue agree materially, shallow side-light relief and grounded coherent trowel keep the repair plausible. Remaining crack is confined to work area rather than picturesque ruin; large quiet wall allows provisionality. Gouache material study is detailed but does not fill every area with props. independent:false."
+      },
+      "alt": "A patch of fresh plaster and a used trowel resting on a ledge.",
+      "public_asset": "assets/poem-art/editions/7/a-wall-being-mended-v1.webp",
+      "public_sha256": "84351c7aa5ae3a3962c531d8080133cfde2b02089bb9972dfbcda7cb74a52906",
+      "previous_assignment": "editorial-desk",
+      "integrated_at": "2026-10-04T14:54:28.090481+00:00"
+    },
+    {
+      "id": "a-kite-in-ordinary-sky",
+      "edition": 7,
+      "poem_id": 205,
+      "title": "A kite in ordinary sky",
+      "rationale": "The poem contrasts childhood’s small pleasures with accumulating possessions and later recognition. A modest flying kite returns attention to one simple pleasure without assembling cars, apartments and toys.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-7/a-kite-in-ordinary-sky-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-07/poem-205.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-7/poem-205.json",
+      "poem_sha256": "14c0517523db1bfaca5d3d15f239d036c12964bbb740cf93bfba882831939891",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-7/a-kite-in-ordinary-sky/v2.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-7/a-kite-in-ordinary-sky-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-17d9df1d-87c7-427d-9b1f-b0c90bd79bcc.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-7/a-kite-in-ordinary-sky/v1.png",
+          "sha256": "cfda86bf0d03a7453108c56bbc4b456e634f9d2943d3b1dec28df12e88807dbd",
+          "rejection": {
+            "outcome": "correction_required",
+            "independent": false,
+            "notes": "Flying line appears attached to bottom tip alongside ribbon tail; correct bridle placement while retaining the successful airy pastel composition."
+          }
+        },
+        {
+          "version": 2,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-7/a-kite-in-ordinary-sky-correction-1-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-dd618050-ed17-481f-8ab4-5b974b790f90.png",
+          "input": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-7/a-kite-in-ordinary-sky/v1.png",
+          "input_sha256": "cfda86bf0d03a7453108c56bbc4b456e634f9d2943d3b1dec28df12e88807dbd",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-7/a-kite-in-ordinary-sky/v2.png",
+          "sha256": "f7685c4bae5452182da445f2fd780f09724faa0021dd61ba8b55798075a62552"
+        }
+      ],
+      "medium_label": "dry pastel",
+      "independent": false,
+      "started_at": "2026-10-04T14:47:53.604033+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-17d9df1d-87c7-427d-9b1f-b0c90bd79bcc.png",
+      "output_sha256": "f7685c4bae5452182da445f2fd780f09724faa0021dd61ba8b55798075a62552",
+      "saved_at": "2026-10-04T14:49:15.487979+00:00",
+      "correction_prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-7/a-kite-in-ordinary-sky-correction-1-prompt.txt",
+      "correction_started_at": "2026-10-04T14:53:28.489324+00:00",
+      "correction_tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-dd618050-ed17-481f-8ab4-5b974b790f90.png",
+      "alt": "A small ochre and vermilion kite with a ribbon tail in a spacious pale blue sky.",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T14:54:28.020617+00:00",
+        "outcome": "pass",
+        "notes": "PASS v2: flying line now leaves the central spine area, separate from bottom ribbon tail; slender attachment is suggestive at this scale. Small warm kite, broad pale-blue negative space and dry pastel character preserved. No human or decorative additions. Specific v1 defect corrected; independent:false."
+      },
+      "public_asset": "assets/poem-art/editions/7/a-kite-in-ordinary-sky-v1.webp",
+      "public_sha256": "c361708d8c3e0e25129c706514abb32e3a31e49e5121a4c7422e03dca8ec2aa3",
+      "previous_assignment": "search",
+      "integrated_at": "2026-10-04T14:54:28.090481+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 202,
+      "rationale": "The economic poem’s questions about farmers, forest communities and alternatives stay in the full voice; avoid romanticizing labour or supplying an invented policy outcome.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 203,
+      "rationale": "The Afghanistan poem and translator credit stay text-led; do not invent a victim or documentary conflict scene.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 206,
+      "rationale": "The song-poet’s confession about commerce and public responsibility remains text-led without a generic pen-and-coins morality illustration.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T14:56:07.909276+00:00",
+  "completed_at": "2026-10-04T14:56:07.909276+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-7.png and mobile-7.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

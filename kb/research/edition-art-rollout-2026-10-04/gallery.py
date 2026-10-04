@@ -15,7 +15,7 @@ for ed in q['editions']:
  for i in b['items']:
   poem=json.loads((R/i['poem_evidence']).read_text());ready=(R/i['output']).exists();img=f'<a href="/{i["output"]}"><img src="/{i["output"]}" alt="{e(i.get("alt",i["title"]))}"></a>' if ready else '<p>Awaiting generation</p>'
   prompts=' · '.join(f'<a href="/{a["prompt"]}">Prompt {a["version"]}</a>' for a in i['attempts'])
-  parts.append(f'<article>{img}<h3>{e(i["title"])}</h3><p><a href="/projects/site/{routes[str(i["poem_id"])]}">{e(poem["title"])}</a><br><small>{e(poem["author"])}</small></p><p>{e(i["rationale"])}</p><p class="status">{e(i["status"].replace("_"," "))}</p><p class="status">{prompts}</p></article>')
+  parts.append(f'<article>{img}<h3>{e(i["title"])}</h3><p><a href="/projects/site/{routes[str(i["poem_id"])]}">{e(poem["title"])}</a><br><small>{e(poem["author"])}</small></p><p>{e(i["rationale"])}</p><p class="status">{e(i["status"].replace("_"," "))}</p><p class="status">{e(i.get("hold_reason", ""))}</p><p class="status">{prompts}</p></article>')
  parts.append('</div><h3>Room for the words</h3><ul>')
  for i in b['text_led']:
   parts.append(f'<li><a href="/projects/site/{routes[str(i["poem_id"])]}">Poem {i["poem_id"]}</a> — {e(i["rationale"])}</li>')

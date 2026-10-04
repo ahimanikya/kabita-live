@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T14:40:01.722669+00:00",
+  "updated_at": "2026-10-04T15:06:03.486911+00:00",
   "status": "active",
   "active_batch": null,
-  "next_edition": 8,
+  "next_edition": 5,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
   "publication_checkpoint_editions": 3,
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 8,
+    "remaining_editions": 5,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 108,
+    "new_rollout_artworks": 116,
     "estimated_additional_artworks": 132,
-    "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "held": 1,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 39,
-    "estimated_remaining_artworks": 24
+    "estimated_remaining_artworks": 15
   },
   "editions": [
     {
@@ -1598,12 +1598,24 @@
         228,
         229
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "three-sparrows-at-the-window",
+        "the-small-world-on-a-leaf",
+        "jasmine-on-still-water"
+      ],
+      "text_led": [
+        220,
+        224,
+        230
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-8/batch.json",
+      "direction": "June invites attentive looking at three returning sparrows, a cicada seen with childhood curiosity and jasmine holding a changed memory. Warm watercolor, spare graphite and a close pastel study shift scale and density. Political accusation, divine absence and women’s agency stay text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T14:36:59.886168+00:00"
     },
     {
       "edition": 7,
@@ -1631,12 +1643,24 @@
         210,
         211
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "leaves-kept-in-a-jar",
+        "a-wall-being-mended",
+        "a-kite-in-ordinary-sky"
+      ],
+      "text_led": [
+        202,
+        203,
+        206
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-7/batch.json",
+      "direction": "May holds private feeling, provisional repair and simple pleasure in a jar of leaves, a wall being mended and a small kite. Transparent watercolor, close gouache and spacious pastel create different scales of attention. Economic questions, conflict and the poet’s public responsibility stay text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T14:56:07.909276+00:00"
     },
     {
       "edition": 6,
@@ -1666,12 +1690,24 @@
         184,
         185
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "the-bench-still-holds-the-afternoon",
+        "the-balance-we-borrow",
+        "still-water-with-an-unsettled-edge"
+      ],
+      "text_led": [
+        173,
+        176,
+        187
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-6/batch.json",
+      "direction": "April holds remembered presence, fragile balance and uneasy calm in a cropped bench, a partly played block tower and a stream interrupted by a stone. Watercolor, graphite and oil pastel vary the scale and density. Poems about honour killing, war and unequal responsibility retain text-led openings.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T15:06:03.486911+00:00"
     },
     {
       "edition": 5,

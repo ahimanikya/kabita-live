@@ -1,0 +1,171 @@
+{
+  "edition": 8,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T14:27:53.873146+00:00",
+  "poems_read": [
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230
+  ],
+  "direction": "June invites attentive looking at three returning sparrows, a cicada seen with childhood curiosity and jasmine holding a changed memory. Warm watercolor, spare graphite and a close pastel study shift scale and density. Political accusation, divine absence and women’s agency stay text-led.",
+  "items": [
+    {
+      "id": "three-sparrows-at-the-window",
+      "edition": 8,
+      "poem_id": 214,
+      "title": "Three sparrows at the window",
+      "rationale": "The return of three sparrows restores trust and affectionate attention. Show their ordinary visit, not birds performing affection or an invented grieving speaker.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-8/three-sparrows-at-the-window-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-08/poem-214.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-8/poem-214.json",
+      "poem_sha256": "946fb7245a0a6eb0ed4e7d7015f8005db1a54d5fc0b7c1b7135f22a935748f2c",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-8/three-sparrows-at-the-window/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-8/three-sparrows-at-the-window-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2570cbe7-2dc8-46e2-b10b-33a25ea434f2.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-8/three-sparrows-at-the-window/v1.png",
+          "sha256": "56b3d71ce31185289c91c4c34fb8391e424e862280643ca6b8d388240851bb37"
+        }
+      ],
+      "medium_label": "watercolor and pencil",
+      "independent": false,
+      "started_at": "2026-10-04T14:27:53.915929+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2570cbe7-2dc8-46e2-b10b-33a25ea434f2.png",
+      "output_sha256": "56b3d71ce31185289c91c4c34fb8391e424e862280643ca6b8d388240851bb37",
+      "saved_at": "2026-10-04T14:29:38.212931+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T14:29:38.268728+00:00",
+        "outcome": "pass",
+        "notes": "PASS: exactly three grounded sparrows with folded wings and varied side/back/head-down poses, plausible feet and ledge perspective, soft natural light. Spacing has a gentle rhythm but bodies differ and no bird performs for the viewer. Watercolor background stays subordinate; no invented speaker. independent:false."
+      },
+      "alt": "Three brown sparrows perch in different poses on an ordinary window ledge.",
+      "public_asset": "assets/poem-art/editions/8/three-sparrows-at-the-window-v1.webp",
+      "public_sha256": "4f77b013bb1a2cf326ca49b42a871c94c9885d4e74c3a1200fe2206fda66668e",
+      "previous_assignment": "search",
+      "integrated_at": "2026-10-04T14:34:16.751558+00:00"
+    },
+    {
+      "id": "the-small-world-on-a-leaf",
+      "edition": 8,
+      "poem_id": 226,
+      "title": "The small world on a leaf",
+      "rationale": "The granddaughter’s attention to a cicada gives the adult a child’s view again. A close encounter with the insect on a leaf conveys discovery without inventing the child, a hand or a documentary view of Wellington.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-8/the-small-world-on-a-leaf-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-08/poem-226.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-8/poem-226.json",
+      "poem_sha256": "71e7bdaf3ed2de0574db24ff02d67f06f6012920e3a5c9f7599a6be781ec4be0",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-8/the-small-world-on-a-leaf/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-8/the-small-world-on-a-leaf-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-41c0521e-4b45-45d5-95d2-79ec3ba6ff97.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-8/the-small-world-on-a-leaf/v1.png",
+          "sha256": "74eaba87da61d9040b23c96faf01f051706790cc1dca448fbbc5fc69ef20bb3e"
+        }
+      ],
+      "medium_label": "graphite and watercolor",
+      "independent": false,
+      "started_at": "2026-10-04T14:29:38.314262+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-41c0521e-4b45-45d5-95d2-79ec3ba6ff97.png",
+      "output_sha256": "74eaba87da61d9040b23c96faf01f051706790cc1dca448fbbc5fc69ef20bb3e",
+      "saved_at": "2026-10-04T14:31:43.884583+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T14:31:43.924455+00:00",
+        "outcome": "pass",
+        "notes": "PASS: compact cicada form, short antennae, roof-like overlapping translucent wings and visible legs gripping leaf read plausibly; far-side legs are occluded, no duplicated appendages evident. Pencil definition fades into light wash and blank paper. Illustrative interpretation, not a certified species/location depiction; no invented child. independent:false."
+      },
+      "alt": "A small cicada grips a green leaf in a light pencil and watercolor study.",
+      "public_asset": "assets/poem-art/editions/8/the-small-world-on-a-leaf-v1.webp",
+      "public_sha256": "6fb20f070ace95bcda1535532e32244ab0d9893dd536509b754a6ef25396bfe3",
+      "previous_assignment": "pond-at-dawn",
+      "integrated_at": "2026-10-04T14:34:16.751558+00:00"
+    },
+    {
+      "id": "jasmine-on-still-water",
+      "edition": 8,
+      "poem_id": 227,
+      "title": "Jasmine on still water",
+      "rationale": "The poem’s remembered rose becomes jasmine floating in a bowl. A quiet close view of that later flower can hold the changed life and memory without inventing Najifa or her family.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-8/jasmine-on-still-water-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-08/poem-227.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-8/poem-227.json",
+      "poem_sha256": "adb2f5e7fe7fa0765ea19b45658654e816293f02cd9ba0ae69714fba40c7001c",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-8/jasmine-on-still-water/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-8/jasmine-on-still-water-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-89950fcc-60a9-40d3-9055-0e9fba6caf91.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-8/jasmine-on-still-water/v1.png",
+          "sha256": "6d0980f7a0c677dc05d4da0ca80fad3a09d71292768aca9ed9b0ed8b9fee40a6"
+        }
+      ],
+      "medium_label": "pastel and gouache",
+      "independent": false,
+      "started_at": "2026-10-04T14:31:43.960500+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-89950fcc-60a9-40d3-9055-0e9fba6caf91.png",
+      "output_sha256": "6d0980f7a0c677dc05d4da0ca80fad3a09d71292768aca9ed9b0ed8b9fee40a6",
+      "saved_at": "2026-10-04T14:34:16.626157+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T14:34:16.666606+00:00",
+        "outcome": "pass",
+        "notes": "PASS: bowl rim and water ellipse coherent, small off-white blossom and separated petal float at one side, restrained reflection and local rim highlight. Pastel marks remain expressive with quiet rose-grey surroundings; no invented family, ritual or rose/jasmine collage. independent:false."
+      },
+      "alt": "An off-white jasmine blossom and a loose petal float in a shallow dark bowl.",
+      "public_asset": "assets/poem-art/editions/8/jasmine-on-still-water-v1.webp",
+      "public_sha256": "350c6fe46bc13b347ab695370d20c2d5f642ce7cb10b9073ed1725bc1cfe3f08",
+      "previous_assignment": "courtyard-petals",
+      "integrated_at": "2026-10-04T14:34:16.751558+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 220,
+      "rationale": "The political accusation and questioning of power remain text-led, without assigning an invented face to the mastermind.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 224,
+      "rationale": "The intimate and ambiguous address to God remains text-led; no literal deity or devotional icon is added.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 230,
+      "rationale": "The woman’s decision and self-respect are voiced directly; no generic heroic portrait or invented identity substitutes for her words.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T14:36:59.886168+00:00",
+  "completed_at": "2026-10-04T14:36:59.886168+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-8.png and mobile-8.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

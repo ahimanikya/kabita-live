@@ -1,0 +1,204 @@
+{
+  "edition": 6,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T14:57:35.389666+00:00",
+  "poems_read": [
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189
+  ],
+  "direction": "April holds remembered presence, fragile balance and uneasy calm in a cropped bench, a partly played block tower and a stream interrupted by a stone. Watercolor, graphite and oil pastel vary the scale and density. Poems about honour killing, war and unequal responsibility retain text-led openings.",
+  "items": [
+    {
+      "id": "the-bench-still-holds-the-afternoon",
+      "edition": 6,
+      "poem_id": 175,
+      "title": "The bench still holds the afternoon",
+      "rationale": "The remembered street remains ordinary to everyone else. A close, partial view of the bench lets absence belong to the speaker without turning the street into a picturesque ruin or inventing a couple.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-6/the-bench-still-holds-the-afternoon-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-06/poem-175.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-6/poem-175.json",
+      "poem_sha256": "35833c141bc6625804d56c4d0e19564faabe5e86b9c9bd7c2526aa13673c019f",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-6/the-bench-still-holds-the-afternoon/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-6/the-bench-still-holds-the-afternoon-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-712bc0b4-2833-4ade-8188-e39760b05503.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-6/the-bench-still-holds-the-afternoon/v1.png",
+          "sha256": "2f601332bf7578ec2fac3372d65891d339505daab9744d1cf941685453bcb3b2"
+        }
+      ],
+      "medium_label": "watercolor and pencil",
+      "independent": false,
+      "started_at": "2026-10-04T14:57:35.442858+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-712bc0b4-2833-4ade-8188-e39760b05503.png",
+      "output_sha256": "2f601332bf7578ec2fac3372d65891d339505daab9744d1cf941685453bcb3b2",
+      "saved_at": "2026-10-04T14:58:27.748945+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T14:58:27.787674+00:00",
+        "outcome": "pass",
+        "notes": "PASS: cropped bench remains an ordinary remembered place, coherent slats, metal support and contact shadow; no invented couple or keepsake staging. Paint wear is stronger than the minimal brief but localized to the bench, with broad pale paving and soft wall remaining quiet. Watercolor edges and reflected daylight preserve gentle nostalgia; independent:false."
+      },
+      "alt": "One end of a wooden street bench beside pale paving and a softly lit wall.",
+      "public_asset": "assets/poem-art/editions/6/the-bench-still-holds-the-afternoon-v1.webp",
+      "public_sha256": "4f89d26c330fb5d8d8321d77f58663a4ea654ff6c87f03c646c8925c90cc30d3",
+      "previous_assignment": "archive",
+      "integrated_at": "2026-10-04T15:03:28.978118+00:00"
+    },
+    {
+      "id": "the-balance-we-borrow",
+      "edition": 6,
+      "poem_id": 184,
+      "title": "The balance we borrow",
+      "rationale": "A partly played wooden block tower holds the ecological poem’s central question of cumulative risk. Keep it an ordinary tabletop game rather than a globe, political caricature or catastrophe collage.",
+      "status": "held",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-6/the-balance-we-borrow-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-06/poem-184.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-6/poem-184.json",
+      "poem_sha256": "507d305cb1c107c67b7cf6ed17677e350fe81b0f837a5ec211e5e5ce0bf87f2a",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-6/the-balance-we-borrow/v3.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-6/the-balance-we-borrow-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-805b6895-8a54-4598-84f7-f901d83ea086.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-6/the-balance-we-borrow/v1.png",
+          "sha256": "974e884b4ae0a631eac34ca076a13b293d6dd46433f6bb135de8f5abdbb53445",
+          "rejection": {
+            "outcome": "correction_required",
+            "independent": false,
+            "notes": "Slot layer mixes front-facing block ends and three side-facing ends; correct the block direction so the gap has two full-length supports."
+          }
+        },
+        {
+          "version": 2,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-6/the-balance-we-borrow-correction-1-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-9a1796db-bd6f-4a2d-8641-f9e19e1a89b8.png",
+          "input": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-6/the-balance-we-borrow/v1.png",
+          "input_sha256": "974e884b4ae0a631eac34ca076a13b293d6dd46433f6bb135de8f5abdbb53445",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-6/the-balance-we-borrow/v2.png",
+          "sha256": "a4b9c51ea8ee651f4383b54d1b281073c2960948251354b73e46dc531030cc6b",
+          "rejection": {
+            "outcome": "correction_required",
+            "independent": false,
+            "notes": "Gap layer cuboids are corrected but the layer directly above runs parallel, leaving its middle block unsupported. Rotate that layer to bridge the gap."
+          }
+        },
+        {
+          "version": 3,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-6/the-balance-we-borrow-correction-2-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-884f8b9c-d788-4c51-86d4-b403f1f5cce9.png",
+          "input": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-6/the-balance-we-borrow/v2.png",
+          "input_sha256": "a4b9c51ea8ee651f4383b54d1b281073c2960948251354b73e46dc531030cc6b",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-6/the-balance-we-borrow/v3.png",
+          "sha256": "fd68c5dc937497ea1f36f134db2d9da826401827bf1286512fddb66fcda46c1f"
+        }
+      ],
+      "medium_label": "graphite and ochre wash",
+      "independent": false,
+      "started_at": "2026-10-04T14:58:27.824974+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-805b6895-8a54-4598-84f7-f901d83ea086.png",
+      "output_sha256": "fd68c5dc937497ea1f36f134db2d9da826401827bf1286512fddb66fcda46c1f",
+      "saved_at": "2026-10-04T14:59:42.484770+00:00",
+      "correction_prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-6/the-balance-we-borrow-correction-2-prompt.txt",
+      "correction_started_at": "2026-10-04T14:59:42.510552+00:00",
+      "correction_tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-884f8b9c-d788-4c51-86d4-b403f1f5cce9.png",
+      "hold_reason": "After two corrections the layer above the slot has four shorter block ends rather than three consistent game blocks, and the alternating construction remains inconsistent. Retain candidates as research; preserve existing poem artwork. No publication.",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T15:02:22.602667+00:00",
+        "outcome": "hold",
+        "notes": "Maximum two specific correction attempts reached; block geometry is still inconsistent."
+      }
+    },
+    {
+      "id": "still-water-with-an-unsettled-edge",
+      "edition": 6,
+      "poem_id": 181,
+      "title": "Still water with an unsettled edge",
+      "rationale": "The poem distrusts consoling smoothness and asks for a little turbulence. One stream surface, calm in one area and rippled where it meets a partly submerged stone, can hold that unresolved feeling without promising a cure.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-6/still-water-with-an-unsettled-edge-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-06/poem-181.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-6/poem-181.json",
+      "poem_sha256": "c8d4201e67a4b0f48446d3c82dfddd3b861866dfd01f4c8b5fff47104d381338",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-6/still-water-with-an-unsettled-edge/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-6/still-water-with-an-unsettled-edge-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-d6b340d9-ccdc-4f09-aaf2-9ca096a285cc.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-6/still-water-with-an-unsettled-edge/v1.png",
+          "sha256": "6e4a49f9fd7979bb7474fb5ccf14aa50372333c43ec855d31d9f4d810ec3c8ab"
+        }
+      ],
+      "medium_label": "oil pastel and gouache",
+      "independent": false,
+      "started_at": "2026-10-04T15:02:22.642009+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-d6b340d9-ccdc-4f09-aaf2-9ca096a285cc.png",
+      "output_sha256": "6e4a49f9fd7979bb7474fb5ccf14aa50372333c43ec855d31d9f4d810ec3c8ab",
+      "saved_at": "2026-10-04T15:03:28.873821+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T15:03:28.909481+00:00",
+        "outcome": "pass",
+        "notes": "PASS: ripples bend around partly submerged stone while broader left water remains calmer; broken reflections and irregular pastel/gouache marks feel causally connected to current. Bank is cropped and unadorned, no invented figure or literal storm. Gentle tension rather than a promise of comfort; independent:false."
+      },
+      "alt": "Blue-grey stream water curling around a partly submerged stone beside the bank.",
+      "public_asset": "assets/poem-art/editions/6/still-water-with-an-unsettled-edge-v1.webp",
+      "public_sha256": "86abebc41c20e04e27102a53ddedd229ad8354dcc1f76565d88e8b276debcfd5",
+      "previous_assignment": "editorial-desk",
+      "integrated_at": "2026-10-04T15:03:28.978118+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 173,
+      "rationale": "The poem speaks directly of wounds and honour killing; keep its voice without invented injured bodies or an ornamental scar metaphor.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 176,
+      "rationale": "The war poem remains text-led; do not manufacture documentary victims, destroyed homes or identifiable conflict geography.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 187,
+      "rationale": "The Odia poem questions renunciation and unequal household responsibility; keep the address and agency in the words without inventing a historical likeness of the Buddha or his family.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T15:06:03.486911+00:00",
+  "completed_at": "2026-10-04T15:06:03.486911+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3 candidates reviewed at normal size; 2 accepted, 1 held; desktop and360px illustrated/text-led pages visually inspected; desktop-6.png and mobile-6.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}
