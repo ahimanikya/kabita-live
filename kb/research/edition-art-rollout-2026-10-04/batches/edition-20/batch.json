@@ -1,0 +1,165 @@
+{
+  "edition": 20,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T12:11:59.327097+00:00",
+  "poems_read": [
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420,
+    421,
+    422,
+    423,
+    424
+  ],
+  "direction": "June holds several kinds of weather: water left for absent birds in heat, a hill road dissolved in wet air, and a park seat after a sudden shower. Clay gouache, broad landscape washes and spare ink vary scale and atmosphere. Personal bereavement, insomnia and the challenge to victim blaming remain text-led.",
+  "items": [
+    {
+      "id": "water-waiting-for-birds",
+      "edition": 20,
+      "poem_id": 415,
+      "title": "Water waiting for birds",
+      "rationale": "During extreme heat the mother leaves water on the balcony, but the birds do not return. The still waiting bowl carries concern for an absent life and a distant loved one without illustrating a disaster or making the absence decorative.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-20/water-waiting-for-birds-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-20/poem-415.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-20/poem-415.json",
+      "poem_sha256": "4afb23a6d0ad6c0bb8dac49034bdfde4bd5095e62c2b9dbd96f3613fe69de02f",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-20/water-waiting-for-birds/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-20/water-waiting-for-birds-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-97093993-9ded-43ac-817f-6617c328be52.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-20/water-waiting-for-birds/v1.png",
+          "sha256": "6621a6c03fe9c8fa324b28809e0140d32d36f75de2857bf6a28dcc91b13e7a47"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T12:11:59.403938+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-97093993-9ded-43ac-817f-6617c328be52.png",
+      "output_sha256": "6621a6c03fe9c8fa324b28809e0140d32d36f75de2857bf6a28dcc91b13e7a47",
+      "saved_at": "2026-10-04T12:14:07.290790+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T12:14:07.340538+00:00",
+        "outcome": "pass",
+        "notes": "Pass at normal size: coherent clay rim and water level with restrained reflected sky, bowl sits on floor with contact shadow and small damp mark. Strong sun beyond partial shade supports heat; empty floor and absent birds preserve anxious care. No invented distressed animal or theatrical disaster; matte painted materials remain clear."
+      },
+      "alt": "An earthen bowl of water waits in balcony shade beside a patch of hot sunlight.",
+      "public_asset": "assets/poem-art/editions/20/water-waiting-for-birds-v1.webp",
+      "public_sha256": "1724207ddf0d080da00a3e9752808a3b870c8b7aa235d958417ca7255faa1802",
+      "previous_assignment": "quiet-path",
+      "integrated_at": "2026-10-04T12:17:33.676093+00:00",
+      "medium_label": "gouache"
+    },
+    {
+      "id": "road-into-wet-air",
+      "edition": 20,
+      "poem_id": 417,
+      "title": "Road into wet air",
+      "rationale": "The poem experiences the hills through fog, dampness and a winding road. A restrained imagined hill-road study accompanies that feeling without pretending to document an identified Jatinga viewpoint.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-20/road-into-wet-air-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-20/poem-417.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-20/poem-417.json",
+      "poem_sha256": "8698ece1176ad8a837f4dfdbfcdbdc86d1a490b820a796f96749741d64cac585",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-20/road-into-wet-air/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-20/road-into-wet-air-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-8b5d8db8-4edd-4626-8680-e9febbdc3f18.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-20/road-into-wet-air/v1.png",
+          "sha256": "d0fc1e2bee982b3833e52348a5b4bcbb932bf81327e957c8a5b134aef7abc3ae"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T12:14:07.381792+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-8b5d8db8-4edd-4626-8680-e9febbdc3f18.png",
+      "output_sha256": "d0fc1e2bee982b3833e52348a5b4bcbb932bf81327e957c8a5b134aef7abc3ae",
+      "saved_at": "2026-10-04T12:15:56.667058+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T12:15:56.716531+00:00",
+        "outcome": "pass",
+        "notes": "Pass at normal size: wet road follows the hillside with consistent receding width; foreground foliage resolves while distant slopes soften into low cloud. Fog has spatial depth without light beams or fantasy forms. Road is somewhat more reflective than requested but follows wet surface conditions. Interpreted hill landscape, not verified documentary Jatinga geography."
+      },
+      "alt": "An imagined wet hill road bends into low cloud among forested slopes.",
+      "public_asset": "assets/poem-art/editions/20/road-into-wet-air-v1.webp",
+      "public_sha256": "8f8bdba757de9f38d66b492d6a2de96815732a8f3fd2674e7383cb125b407f0e",
+      "previous_assignment": "courtyard-petals",
+      "integrated_at": "2026-10-04T12:17:33.676093+00:00",
+      "medium_label": "watercolor"
+    },
+    {
+      "id": "after-the-gush-of-rain",
+      "edition": 20,
+      "poem_id": 420,
+      "title": "After the gush of rain",
+      "rationale": "The short sequence turns public London encounters into rain-interrupted moments. A wet park seat after people have hurried away leaves that interruption open without staging tourists or claiming to depict a particular visit.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-20/after-the-gush-of-rain-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-20/poem-420.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-20/poem-420.json",
+      "poem_sha256": "84bb5227854798e46d4425b501e994280a3c8b4bc721f24aeff404b47c0655a3",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-20/after-the-gush-of-rain/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-20/after-the-gush-of-rain-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-80dc0898-fe8e-438c-a645-399e40094800.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-20/after-the-gush-of-rain/v1.png",
+          "sha256": "7126908118bd6aa3c2eda3c7da6d429f0b53f6ea0803e591000afc324c215aec"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T12:15:56.762647+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-80dc0898-fe8e-438c-a645-399e40094800.png",
+      "output_sha256": "7126908118bd6aa3c2eda3c7da6d429f0b53f6ea0803e591000afc324c215aec",
+      "saved_at": "2026-10-04T12:17:33.525541+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T12:17:33.572966+00:00",
+        "outcome": "pass",
+        "notes": "Pass at normal size: continuous bench slats and curved iron end support are plausible in the cropped view, pooled droplets follow horizontal surfaces and damp path recedes. Ink and wash are visibly illustrative. Ordinary weathering is present without an abandoned ruin; empty seat carries rain-interrupted public life, no staged tourists or documentary landmark."
+      },
+      "alt": "Rain beads on the empty wooden end of a park bench beside a wet path.",
+      "public_asset": "assets/poem-art/editions/20/after-the-gush-of-rain-v1.webp",
+      "public_sha256": "7bab7777475d114a97c5f27830f770d25f28a847dbe7d670a876cdec78f7cd6a",
+      "previous_assignment": "courtyard-petals",
+      "integrated_at": "2026-10-04T12:17:33.676093+00:00",
+      "medium_label": "ink and watercolor"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 416,
+      "rationale": "The mother’s absence unfolds through a precise sequence of household routines. Let that accumulation work without selecting a sentimental prop as a substitute for her life.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 423,
+      "rationale": "The poem addresses insomnia, pills and the longing for maternal rescue. Keep it text-led; do not invent a body, medication display or literal self-harm scene.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 424,
+      "rationale": "The poem challenges victim blaming directly. Preserve that argument without illustrating sexual violence or inventing a victim.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T12:19:18.114250+00:00",
+  "completed_at": "2026-10-04T12:19:18.114250+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-20.png and mobile-20.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

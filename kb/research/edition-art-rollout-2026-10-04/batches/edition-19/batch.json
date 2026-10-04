@@ -1,0 +1,183 @@
+{
+  "edition": 19,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T12:26:48.431236+00:00",
+  "poems_read": [
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412
+  ],
+  "direction": "May moves inward through three scales of quiet: a shell after an overflow of feeling, a patch of kitchen light between tasks, and the unoccupied shade of a promised meeting. Pale graphite, architectural gouache and a soft nocturne give distinct spaces to the poems. The triptych, the argument about women’s lives and the dense love-and-poetry meditation remain text-led.",
+  "items": [
+    {
+      "id": "the-still-back-of-a-shell",
+      "edition": 19,
+      "poem_id": 406,
+      "title": "The still back of a shell",
+      "rationale": "After an accumulation of inward landscapes and loneliness, the poem settles on whiteness and the still back of a shell. One quiet shell concentrates that ending without inventing a geographical view of Bhitarkanika or a collage of its earlier images.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-19/the-still-back-of-a-shell-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-19/poem-406.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-19/poem-406.json",
+      "poem_sha256": "dd6b4e018558c29421d0add4faebf60e2220b13d7f3f2a3a6f19135ec229ff35",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-19/the-still-back-of-a-shell/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-19/the-still-back-of-a-shell-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ce990fee-808a-4739-82cc-2d13a4551654.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-19/the-still-back-of-a-shell/v1.png",
+          "sha256": "f245bfeb6de0fee8df089303e23930544e2a5c91962976a0e5275164ef3c10ac"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T12:26:48.496717+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ce990fee-808a-4739-82cc-2d13a4551654.png",
+      "output_sha256": "f245bfeb6de0fee8df089303e23930544e2a5c91962976a0e5275164ef3c10ac",
+      "saved_at": "2026-10-04T12:28:00.157342+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T12:28:00.218895+00:00",
+        "outcome": "pass",
+        "notes": "Pass at normal size: closed shell with continuous seam and subtly uneven ribs rests in damp sand with coherent contact shadow. Restrained grey-white marks and ample quiet space preserve the ending stillness; no added habitat narrative, pearl, text or anatomical overclaim."
+      },
+      "alt": "A small pale closed shell rests on quiet damp sand.",
+      "public_asset": "assets/poem-art/editions/19/the-still-back-of-a-shell-v1.webp",
+      "public_sha256": "615d3340ee6f9380b02e59ecccd46c0c55f2a0c1dcb7ef897e752474e948a7ef",
+      "previous_assignment": "kendu-light",
+      "integrated_at": "2026-10-04T12:33:28.495543+00:00",
+      "medium_label": "graphite and gouache"
+    },
+    {
+      "id": "a-little-light-between-tasks",
+      "edition": 19,
+      "poem_id": 409,
+      "title": "A little light between tasks",
+      "rationale": "The woman writing poetry finds an inner life amid cooking, household duties and judgment. A patch of skylight in an ordinary kitchen holds a moment she might claim for herself, without inventing the poet’s face or decorating domestic work.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-19/a-little-light-between-tasks-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-19/poem-409.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-19/poem-409.json",
+      "poem_sha256": "02d7310efd83c5124d6fd0b76cdcd8181eae0abaf8a1c064740b9c8b7148a968",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-19/a-little-light-between-tasks/v2.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-19/a-little-light-between-tasks-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-e14c3ad8-324a-44da-b1ab-4ba617d0278c.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-19/a-little-light-between-tasks/v1.png",
+          "sha256": "849cd6c8ec0e862232c2fdefeef521a14208af12d2f7d340f2c1de2c7f62bbdf"
+        },
+        {
+          "version": 2,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-19/a-little-light-between-tasks-correction-1-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-da781ea1-22e0-4c43-98f8-e75110e30cc4.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-19/a-little-light-between-tasks/v2.png",
+          "sha256": "c6e96097abd36423ad556a1ec4717eec17e969040af1204ec0ce52fafa2b7c87",
+          "source": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-19/a-little-light-between-tasks/v1.png",
+          "source_sha256": "849cd6c8ec0e862232c2fdefeef521a14208af12d2f7d340f2c1de2c7f62bbdf"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T12:28:00.265219+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-e14c3ad8-324a-44da-b1ab-4ba617d0278c.png",
+      "output_sha256": "c6e96097abd36423ad556a1ec4717eec17e969040af1204ec0ce52fafa2b7c87",
+      "saved_at": "2026-10-04T12:31:50.306119+00:00",
+      "correction_status": "completed",
+      "correction_started_at": "2026-10-04T12:30:02.169914+00:00",
+      "candidate_v1_review": {
+        "independent": false,
+        "outcome": "correction_required",
+        "notes": "Daylight appears to fall onto the same flat wall containing the vertical opening; clarify the causal lighting by removing the visible opening and putting the actual skylight outside the crop."
+      },
+      "correction_tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-da781ea1-22e0-4c43-98f8-e75110e30cc4.png",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T12:31:50.357347+00:00",
+        "outcome": "pass",
+        "notes": "Pass on v2: impossible same-wall window removed; a soft bounded daylight patch can now come from an unseen roof skylight. Pan, spoon, counter, subdued gouache and generous wall space retained. No invented poet or embellished household scene. V1 retained with explicit lighting defect; v2 selected."
+      },
+      "alt": "Soft skylight falls on a kitchen wall above a cropped pan and resting spoon.",
+      "public_asset": "assets/poem-art/editions/19/a-little-light-between-tasks-v1.webp",
+      "public_sha256": "af41cb91b37e78a11516f417f1c74b79c9b2fd93fdf9160fb7bbd6aef63b2215",
+      "previous_assignment": "editorial-desk",
+      "integrated_at": "2026-10-04T12:33:28.495543+00:00",
+      "medium_label": "gouache"
+    },
+    {
+      "id": "where-a-meeting-was-promised",
+      "edition": 19,
+      "poem_id": 410,
+      "title": "Where a meeting was promised",
+      "rationale": "The lovers once promised to meet in the shade of a mahua tree under moonlight, but distance remains. A quiet space beneath an ordinary tree preserves that unfulfilled meeting without staging a couple or turning longing into a romantic spectacle.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-19/where-a-meeting-was-promised-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-19/poem-410.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-19/poem-410.json",
+      "poem_sha256": "960c8dbbea4a081e03a279ce41580571076bd1d691c460a007e5ccdf3bc85a7c",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-19/where-a-meeting-was-promised/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-19/where-a-meeting-was-promised-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-bc134850-4367-471a-82bb-417a4d7720cf.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-19/where-a-meeting-was-promised/v1.png",
+          "sha256": "035b7e784f8eec5eed0f6c35d20614775ec577bac6e57bea681734a2be7d8861"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T12:31:50.410626+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-bc134850-4367-471a-82bb-417a4d7720cf.png",
+      "output_sha256": "035b7e784f8eec5eed0f6c35d20614775ec577bac6e57bea681734a2be7d8861",
+      "saved_at": "2026-10-04T12:33:28.357777+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T12:33:28.404364+00:00",
+        "outcome": "pass",
+        "notes": "Pass at normal size: rooted tree at the cropped edge, natural interrupted moonlight and readable indigo depth leave the meeting space unoccupied. No invented lovers, theatrical moon, mist or symbolic props. Foliage detail concentrates near light; quiet central distance preserves longing. Broadleaf interpretation, no exact botanical-location certification."
+      },
+      "alt": "Moonlight falls on empty ground beneath the roots and leaves of a tree.",
+      "public_asset": "assets/poem-art/editions/19/where-a-meeting-was-promised-v1.webp",
+      "public_sha256": "49df5dc55b233bc52f3d4e8c2a3231e8e3ebd8b90f081d72635b8f04647d52fa",
+      "previous_assignment": "writer-profile",
+      "integrated_at": "2026-10-04T12:33:28.495543+00:00",
+      "medium_label": "charcoal and watercolor"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 402,
+      "rationale": "The three small poems change scale and argument sharply. Avoid a single picture that collapses their distinct voices into a literal collage.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 403,
+      "rationale": "The reflection on women’s care, burden and strength should remain in the speaker’s words rather than an invented idealized woman.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 411,
+      "rationale": "This dense account of love and poetic form gains space from a text-led opening; do not turn its figurative wounds and bodies into literal spectacle.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T12:35:27.668541+00:00",
+  "completed_at": "2026-10-04T12:35:27.668541+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-19.png and mobile-19.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

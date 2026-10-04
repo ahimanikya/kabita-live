@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T12:21:47.656415+00:00",
+  "updated_at": "2026-10-04T12:43:56.919906+00:00",
   "status": "active",
   "active_batch": null,
-  "next_edition": 20,
+  "next_edition": 17,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
   "publication_checkpoint_editions": 3,
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 20,
+    "remaining_editions": 17,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 72,
+    "new_rollout_artworks": 81,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 27,
-    "estimated_remaining_artworks": 60
+    "estimated_remaining_artworks": 51
   },
   "editions": [
     {
@@ -1092,12 +1092,24 @@
         421,
         424
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "water-waiting-for-birds",
+        "road-into-wet-air",
+        "after-the-gush-of-rain"
+      ],
+      "text_led": [
+        416,
+        423,
+        424
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-20/batch.json",
+      "direction": "June holds several kinds of weather: water left for absent birds in heat, a hill road dissolved in wet air, and a park seat after a sudden shower. Clay gouache, broad landscape washes and spare ink vary scale and atmosphere. Personal bereavement, insomnia and the challenge to victim blaming remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T12:19:18.114250+00:00"
     },
     {
       "edition": 19,
@@ -1116,12 +1128,24 @@
         407,
         411
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "the-still-back-of-a-shell",
+        "a-little-light-between-tasks",
+        "where-a-meeting-was-promised"
+      ],
+      "text_led": [
+        402,
+        403,
+        411
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-19/batch.json",
+      "direction": "May moves inward through three scales of quiet: a shell after an overflow of feeling, a patch of kitchen light between tasks, and the unoccupied shade of a promised meeting. Pale graphite, architectural gouache and a soft nocturne give distinct spaces to the poems. The triptych, the argument about women’s lives and the dense love-and-poetry meditation remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T12:35:27.668541+00:00"
     },
     {
       "edition": 18,
@@ -1151,12 +1175,24 @@
         399,
         397
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "pullum-on-the-cloth",
+        "green-in-a-small-imprint",
+        "cotton-wicks-for-small-lamps"
+      ],
+      "text_led": [
+        379,
+        383,
+        396
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-18/batch.json",
+      "direction": "April attends to small forms of nourishment and renewal: remembered plums, grass at a rain-filled hoofprint, and cotton wicks prepared for humble lamps. Warm pastel fruit, close earthy watercolor and spare charcoal vary density and material. Exploitation, the identified beloved and the long ecological-spiritual argument remain text-led. The existing archived metadata-only poem385 is preserved and receives no new assignment.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T12:43:56.919906+00:00"
     },
     {
       "edition": 17,
