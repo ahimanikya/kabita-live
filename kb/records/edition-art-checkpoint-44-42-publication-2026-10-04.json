@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-10-04T08:02:51.927981+00:00",
+  "status": "deployed_and_live_verified",
+  "decision_ref": "KBL-DEC-046",
+  "work_ref": "KBL-WORK-022",
+  "editions": [
+    44,
+    43,
+    42
+  ],
+  "artworks": 9,
+  "text_led": 9,
+  "commit": "99aa4131733ad6f2991623d76d778d58ae5fa7bd",
+  "workflow_id": 37187022373,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37187022373",
+  "url": "https://ahimanikya.github.io/kabita-live/",
+  "checks": {
+    "local": "PASS1457 protected files,781 unrelated pages unchanged,799 readers/controls,26 app tests;10 rules tests in successful CI",
+    "live": "PASS9 exact asset hashes,18 pages, active Firebase/Likes/comments/GA4 and noindex",
+    "visual": "Desktop/mobile review and live Holi page; reader responses visible without posting test engagement"
+  },
+  "evidence": "research/edition-art-rollout-2026-10-04/checkpoint-44-42-live-verification.json",
+  "independent": false
+}

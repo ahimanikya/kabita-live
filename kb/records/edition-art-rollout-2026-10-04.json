@@ -15,7 +15,7 @@
     "imagegen"
   ],
   "independent": false,
-  "next_action": "Publish verified editions44/43/42; then resume edition41.",
+  "next_action": "Continue local edition41/40/39 checkpoint. Only verified editions42–47 have been published.",
   "pilot_publication": {
     "status": "deployed_and_live_verified",
     "base_commit": "32fba99f22b2c568b5274454cbf4781367d6f2b5",
@@ -49,15 +49,15 @@
     "new_rollout_artworks": 9,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 3,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 6,
     "estimated_remaining_artworks": 123
   },
   "last_completed_batch": "edition-42",
-  "handoff_note": "Portable sync completed for15774 entries. The next storage check detected a newly written portrait storage-check receipt; retrying sync for that documented source-only change. Safety assertions prevented manual overwrites; canonical portraits untouched.",
+  "handoff_note": "Canonical workspace sync/storage verified after the publication checkpoint; ongoing local batches remain in the source workspace until their release checkpoint.",
   "current_publication": {
     "id": "checkpoint-44-42",
-    "status": "verified_ready_to_push",
+    "status": "deployed_and_live_verified",
     "editions": [
       44,
       43,
@@ -79,6 +79,13 @@
       "kb_excluded": true,
       "active_engagement_preserved": true,
       "base_commit": "e4e9eb68791f95748123b74a7956c89ff1fb1a24"
-    }
+    },
+    "commit": "99aa4131733ad6f2991623d76d778d58ae5fa7bd",
+    "remote_main_verified": true,
+    "workflow_id": 37187022373,
+    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37187022373",
+    "verified_at": "2026-10-04T07:57:16.115040+00:00",
+    "live_verification": "research/edition-art-rollout-2026-10-04/checkpoint-44-42-live-verification.json",
+    "live_checks": "PASS9exact asset hashes,18poem pages, active Firebase/Likes/comments/GA4 and noindex"
   }
 }

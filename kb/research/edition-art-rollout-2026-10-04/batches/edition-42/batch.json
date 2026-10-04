@@ -1,6 +1,6 @@
 {
   "edition": 42,
-  "status": "verified_local_pending_publication",
+  "status": "published_verified",
   "created_at": "2026-10-04T07:35:35.382345+00:00",
   "poems_read": [
     733,
@@ -160,6 +160,11 @@
     "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
     "edition_integrity": "PASS",
     "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-42.png and mobile-42.png. Same-assistant review.",
-    "publication": "Awaiting authorized three-edition checkpoint"
+    "publication": "PASS: successful workflow and exact live asset/page checks"
+  },
+  "publication": {
+    "commit": "99aa4131733ad6f2991623d76d778d58ae5fa7bd",
+    "workflow_id": 37187022373,
+    "verified_at": "2026-10-04T07:57:16.115040+00:00"
   }
 }

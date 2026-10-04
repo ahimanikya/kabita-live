@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T07:40:21.653608+00:00",
+  "updated_at": "2026-10-04T08:01:33.704534+00:00",
   "status": "active",
   "active_batch": null,
   "next_edition": 41,
@@ -16,8 +16,8 @@
     "new_rollout_artworks": 9,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 3,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 6,
     "estimated_remaining_artworks": 123
   },
   "editions": [
@@ -127,7 +127,7 @@
         766,
         767
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "daily-warmth",
@@ -144,7 +144,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-44/batch.json",
       "direction": "Care and what remains: pale grey earth, quiet green and restrained tea warmth; intimate domestic ritual, broad changing ground and a near-weightless insect study. New interpretation, not a historical edition theme.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T07:20:28.868504+00:00"
+      "verified_at": "2026-10-04T07:20:28.868504+00:00",
+      "publication_commit": "99aa4131733ad6f2991623d76d778d58ae5fa7bd",
+      "live_verified_at": "2026-10-04T07:57:16.115040+00:00"
     },
     {
       "edition": 43,
@@ -166,7 +168,7 @@
         760,
         761
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "album-in-trunk",
@@ -183,7 +185,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-43/batch.json",
       "direction": "Keeping company: stored memory, a familiar landscape becoming uncertain, and midnight shadows as companionship. Three different visual densities and media; an interpretation selected for this rollout, not a claim about the original editorial theme.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T07:34:26.592360+00:00"
+      "verified_at": "2026-10-04T07:34:26.592360+00:00",
+      "publication_commit": "99aa4131733ad6f2991623d76d778d58ae5fa7bd",
+      "live_verified_at": "2026-10-04T07:57:16.115040+00:00"
     },
     {
       "edition": 42,
@@ -204,7 +208,7 @@
         741,
         746
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "colours-meet",
@@ -221,7 +225,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-42/batch.json",
       "direction": "Small traces, shared life: bright festival colour, a patient creature close to the ground, and a shore after withdrawal. Vary scale, saturation and mark-making; a new interpretive direction, not a historical editorial theme.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T07:40:21.653608+00:00"
+      "verified_at": "2026-10-04T07:40:21.653608+00:00",
+      "publication_commit": "99aa4131733ad6f2991623d76d778d58ae5fa7bd",
+      "live_verified_at": "2026-10-04T07:57:16.115040+00:00"
     },
     {
       "edition": 41,

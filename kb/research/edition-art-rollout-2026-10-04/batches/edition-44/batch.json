@@ -1,6 +1,6 @@
 {
   "edition": 44,
-  "status": "verified_local_pending_publication",
+  "status": "published_verified",
   "created_at": "2026-10-04T07:04:54.663849+00:00",
   "poems_read": [
     763,
@@ -157,6 +157,11 @@
     "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
     "edition_integrity": "PASS",
     "visual": "All3masters reviewed at normal size; Odia desktop and360px Odia/English text-led layouts inspected. Same-assistant review.",
-    "publication": "Not yet published; next checkpoint44/43/42"
+    "publication": "PASS: successful workflow and exact live asset/page checks"
+  },
+  "publication": {
+    "commit": "99aa4131733ad6f2991623d76d778d58ae5fa7bd",
+    "workflow_id": 37187022373,
+    "verified_at": "2026-10-04T07:57:16.115040+00:00"
   }
 }
