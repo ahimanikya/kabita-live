@@ -15,7 +15,7 @@
     "imagegen"
   ],
   "independent": false,
-  "next_action": "Resume edition38; publish the next three verified unpublished editions together. Editions39–47 are live.",
+  "next_action": "Publish verified editions38/37/36 after incorporating latest remote portrait release; then resume edition35.",
   "pilot_publication": {
     "status": "deployed_and_live_verified",
     "base_commit": "32fba99f22b2c568b5274454cbf4781367d6f2b5",
@@ -44,34 +44,40 @@
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 38,
+    "remaining_editions": 35,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 18,
+    "new_rollout_artworks": 27,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 9,
-    "estimated_remaining_artworks": 114
+    "estimated_remaining_artworks": 105
   },
-  "last_completed_batch": "edition-39",
-  "handoff_note": "Sync after edition39 passed15961 entries. Storage check then detected concurrent source changes in portrait084 (writer377) and poem-end-mark review. Release uses an isolated latest-main checkout; repeat handoff sync after source activity settles, without overwriting divergent handoff edits.",
+  "last_completed_batch": "edition-36",
+  "handoff_note": "Edition36 handoff sync passed16151 entries; storage PASS2070 portable links/no errors. Separate final portrait publication is currently in progress and will be preserved in the artwork release base.",
   "current_publication": {
-    "id": "checkpoint-41-39",
-    "status": "deployed_and_live_verified",
+    "id": "checkpoint-38-36",
+    "status": "prepared",
     "editions": [
-      41,
-      40,
-      39
+      38,
+      37,
+      36
     ],
     "artworks": 9,
     "text_led": 9,
-    "base_commit": "93407be3a9e514fb69afec18da1780e96a2b242c",
+    "base_commit": "2bd87c9645a6753711fb42f6a1c1ca53786fc610",
     "release_checkout": "/private/tmp/kbl-selective-portraits-20261003",
-    "prepared_at": "2026-10-04T08:35:26.082966+00:00",
-    "commit": "42d5c7c56b290734889f86e96fb598c8dd81421b",
-    "workflow_id": 37189526418,
-    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37189526418",
-    "verified_at": "2026-10-04T08:42:35.552248+00:00",
-    "verification": "research/edition-art-rollout-2026-10-04/checkpoint-41-39-live-verification.json"
+    "prepared_at": "2026-10-04T09:14:03.963445+00:00",
+    "rebase_note": "Concurrent portrait documentation receipt and AGENTS scope added; no website changes. Both activity events preserved with unique IDs; dashboard regenerated."
+  },
+  "last_handoff_verified_at": "2026-10-04T09:09:17.381245+00:00",
+  "handoff_concurrent_source_change": {
+    "at": "2026-10-04T08:55:17.129009+00:00",
+    "paths": [
+      "kb/records/final-portrait-deployment-2026-10-04.json",
+      "kb/research/writers/final-portrait-release-2026-10-04/prepare.py"
+    ],
+    "action": "Normal source-to-handoff sync; no overwrite of divergent handoff edits",
+    "latest_pending_path": "kb/artifacts/review/poem-end-marks-2026-10-04/application/reader-desktop.png"
   }
 }

@@ -1,0 +1,165 @@
+{
+  "edition": 38,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T08:38:49.556113+00:00",
+  "poems_read": [
+    677,
+    678,
+    679,
+    680,
+    681,
+    682,
+    683,
+    684,
+    685,
+    686,
+    687,
+    688,
+    689
+  ],
+  "direction": "Hunger, current and quiet: an ordinary human pause beside a bicycle, water nourishing small shoots, and an open dark wash. Human scale, intimate ground study and abstraction provide deliberate variety. This is a new reading direction, not a claim about historical editorial intent.",
+  "items": [
+    {
+      "id": "a-pause-with-the-bicycle",
+      "edition": 38,
+      "poem_id": 689,
+      "title": "A pause before the sky",
+      "rationale": "The poem calls hunger an ordinary familiar person arriving by bicycle and looking at the sky, before widening hunger into war, love and poetry. Choose that humane everyday pause, without implying a particular real person, deprivation or documentary evidence.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-38/a-pause-with-the-bicycle-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-38/poem-689.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-38/poem-689.json",
+      "poem_sha256": "05216c10c21bb24d1155416411593c450209622b787bdf4c4e6b58f8966b4d88",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-38/a-pause-with-the-bicycle/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-38/a-pause-with-the-bicycle-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-878f77af-3f07-4d38-8eb8-4283fcbbca6f.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-38/a-pause-with-the-bicycle/v1.png",
+          "sha256": "4f77e4d823212972ae7cc3803882298f0756de1e9ac970ee253fcb6a3c208d85"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T08:38:49.614780+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-878f77af-3f07-4d38-8eb8-4283fcbbca6f.png",
+      "output_sha256": "4f77e4d823212972ae7cc3803882298f0756de1e9ac970ee253fcb6a3c208d85",
+      "saved_at": "2026-10-04T08:40:14.175743+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T08:40:14.227658+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review: anonymous adult seen from behind, both hands supported by the parapet and feet planted naturally. Cropped bicycle wheel/frame and roof-column contacts are plausible. Quiet open sky balances the figure; light and watercolor edges remain coherent. Ordinary inhabited scene accompanies hunger as a human pause without invented identity or victim imagery. Surface variation is somewhat richer than the sparse prompt, but remains locally causal; no corrective edit warranted."
+      },
+      "alt": "Watercolor of an anonymous adult pausing beside a bicycle on a verandah and looking towards an open cloudy sky.",
+      "public_asset": "assets/poem-art/editions/38/a-pause-with-the-bicycle-v1.webp",
+      "public_sha256": "299bec023be4d63672e7edbfb0e5f59d6be9f050f826cc7668e799588aa9b204",
+      "previous_assignment": "editorial-desk",
+      "integrated_at": "2026-10-04T08:42:24.569590+00:00"
+    },
+    {
+      "id": "water-finds-a-way",
+      "edition": 38,
+      "poem_id": 683,
+      "title": "Water finding its way",
+      "rationale": "The Hindi poem asks how the life-current sustains courage and nourishes others wherever it travels. Show one modest act of water reaching living ground, without a desert-mountain-season montage.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-38/water-finds-a-way-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-38/poem-683.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-38/poem-683.json",
+      "poem_sha256": "2a47d296c3b6ac018ddd349e66321057ee41a875f6813df9b35ebf0c39b47983",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-38/water-finds-a-way/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-38/water-finds-a-way-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-17ed6483-8a86-4a96-bdde-b9e5bc2754f4.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-38/water-finds-a-way/v1.png",
+          "sha256": "23beac11b8cad8801df39b3756f76df77daeb272e69f75bd3c35c97c654d6224"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T08:40:14.271371+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-17ed6483-8a86-4a96-bdde-b9e5bc2754f4.png",
+      "output_sha256": "23beac11b8cad8801df39b3756f76df77daeb272e69f75bd3c35c97c654d6224",
+      "saved_at": "2026-10-04T08:41:18.254126+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T08:41:18.293692+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review: water sits within a continuous shallow bed, wet banks meet roots, and irregular mixed shoots follow available ground. Two branches differ in width and direction; open ivory space prevents a busy panorama. More shoots and pigment detail than the minimal brief, but they remain varied, plausible and appropriate to nourishing others. No magical growth, staged props or geographical claim; watercolor and selective pencil-like edges remain distinct from the verandah scene."
+      },
+      "alt": "A shallow branching water channel reaches irregular young shoots in warm soil, surrounded by open ivory paper.",
+      "public_asset": "assets/poem-art/editions/38/water-finds-a-way-v1.webp",
+      "public_sha256": "93bff216a6ffced12d066ed2cbf84076b4e5558d128c0fa2263944b9d46abef7",
+      "previous_assignment": "voices",
+      "integrated_at": "2026-10-04T08:42:24.569590+00:00"
+    },
+    {
+      "id": "within-the-dark-wash",
+      "edition": 38,
+      "poem_id": 687,
+      "title": "Within the dark wash",
+      "rationale": "Dark Matters After All finds rest and creative possibility in darkness. Use an original nonfigurative ink-wash field as an emotional accompaniment; do not copy the named painters, their works, signature circles or drip technique, and do not illustrate a scientific origin claim.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-38/within-the-dark-wash-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-38/poem-687.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-38/poem-687.json",
+      "poem_sha256": "44f955f9a917f15f1b3b55d39e3f321fe62d5e71f5478ddd28feb3079b2d4aa8",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-38/within-the-dark-wash/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-38/within-the-dark-wash-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-3d08756c-c3f3-43bc-83f0-c000472ea8f5.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-38/within-the-dark-wash/v1.png",
+          "sha256": "530e819d16364fbabb7abad3034b14507074d5c20048a2efebd28867ea7c084f"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T08:41:18.326808+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-3d08756c-c3f3-43bc-83f0-c000472ea8f5.png",
+      "output_sha256": "530e819d16364fbabb7abad3034b14507074d5c20048a2efebd28867ea7c084f",
+      "saved_at": "2026-10-04T08:42:24.437911+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T08:42:24.480790+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review: broad indigo-violet wash retains distinct pigment edges and a quiet reserved-paper opening. No copied circle motif, cosmic diagram, named painter pastiche or decorative stars; asymmetry and unequal density make the study calm rather than mechanically ornamental. Pigment texture follows wash masses, not uniform grain. Emotional darkness remains restful with generous light space; opaque paper background appropriate."
+      },
+      "alt": "An irregular indigo and violet-grey wash opens into a pale unpainted space at the right.",
+      "medium_label": "ink-wash and watercolor",
+      "public_asset": "assets/poem-art/editions/38/within-the-dark-wash-v1.webp",
+      "public_sha256": "510d6e894d363ad9ddc71ce0ba51832f8bfe1a5f1c26bc576b1a6c1d14393b38",
+      "previous_assignment": "reading-room",
+      "integrated_at": "2026-10-04T08:42:24.569590+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 677,
+      "rationale": "Keep the witness and the unnamed girl in the poet’s voice; an invented victim image would displace its ethical unease.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 688,
+      "rationale": "The mother’s silencing and absence need room in the words; avoid reducing this grief to a symbolic portrait or funerary still life.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 686,
+      "rationale": "The ghazal’s repeated questions and withheld feeling create their own intimacy; an illustrative couple would narrow the address.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T08:44:48.884888+00:00",
+  "completed_at": "2026-10-04T08:44:48.884888+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-38.png and mobile-38.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

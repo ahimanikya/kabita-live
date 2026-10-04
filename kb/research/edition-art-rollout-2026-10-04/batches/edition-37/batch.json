@@ -1,0 +1,173 @@
+{
+  "edition": 37,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T08:47:19.537912+00:00",
+  "poems_read": [
+    656,
+    657,
+    658,
+    659,
+    660,
+    661,
+    662,
+    663,
+    664,
+    665,
+    666,
+    667,
+    668,
+    669,
+    670,
+    671,
+    672,
+    673,
+    674
+  ],
+  "direction": "Things kept and room released: a fragile school-day pencil curl, the remembered blue of a mother’s saree, and a small bird with ample air. Sparse graphite, dense soft textile colour and open gouache vary intimacy and scale. A new poem-informed reading direction, not a historical issue theme.",
+  "items": [
+    {
+      "id": "a-kept-pencil-curl",
+      "edition": 37,
+      "poem_id": 659,
+      "title": "A small thing kept",
+      "rationale": "The poem recalls school notebooks preserving pencil shavings and leaves as childhood memory. A single fragile pencil curl can hold this feeling without assembling every memento or supplying a readable love letter.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-37/a-kept-pencil-curl-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-37/poem-659.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-37/poem-659.json",
+      "poem_sha256": "5398642707ae9a74dcca90d1a4ab90c9fedc59c9c877d08eb3addf5a6d083aaa",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-37/a-kept-pencil-curl/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-37/a-kept-pencil-curl-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-211a94fe-3e14-438b-a41d-1f60e0b8f263.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-37/a-kept-pencil-curl/v1.png",
+          "sha256": "a7e5a53a77f01baa6c8f5a363319d39c587e390327de6e784d6d4af33029aa92"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T08:47:19.595573+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-211a94fe-3e14-438b-a41d-1f60e0b8f263.png",
+      "output_sha256": "a7e5a53a77f01baa6c8f5a363319d39c587e390327de6e784d6d4af33029aa92",
+      "saved_at": "2026-10-04T08:48:21.926441+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T08:48:22.004786+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review: a fragile open curl with a thin blue paint rim rests across the book gutter; its small contact shadow agrees with diffuse light. Page binding and bowed paper geometry are coherent, without fabricated writing or a collection of props. Slightly enlarged curl remains plausible as a long shaving; unequal broken edges avoid a perfect rosette. Quiet graphite and dilute wash preserve childhood-memory intimacy."
+      },
+      "alt": "A delicate blue-edged pencil shaving rests near the gutter of an open blank notebook.",
+      "medium_label": "graphite and watercolor",
+      "public_asset": "assets/poem-art/editions/37/a-kept-pencil-curl-v1.webp",
+      "public_sha256": "e196b4ee93be1ddc60828734f165c3c8f2674f2d403bf6c62f225cceba99c3c9",
+      "previous_assignment": "archive",
+      "integrated_at": "2026-10-04T08:50:45.749692+00:00"
+    },
+    {
+      "id": "the-blue-fold",
+      "edition": 37,
+      "poem_id": 669,
+      "title": "The blue fold",
+      "rationale": "Sillage of a Saree names a mother’s sky-blue saree with a dark-blue border and fish, leaf and flower weaving. Preserve those named material memories in an intimate textile study without inventing her face or asserting a specific historical weaving provenance.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-37/the-blue-fold-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-37/poem-669.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-37/poem-669.json",
+      "poem_sha256": "7a16a4922c322c9456f5ea47802a6c22568125a03d65c58c31369c317c4c7640",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-37/the-blue-fold/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-37/the-blue-fold-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-3ee771cb-15c2-4d3c-81f8-2b96a7328941.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-37/the-blue-fold/v1.png",
+          "sha256": "826196be816d76088ed8f5d3df128e6a8d629160464fb095d2a47c990dddcc84"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T08:48:22.579231+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-3ee771cb-15c2-4d3c-81f8-2b96a7328941.png",
+      "output_sha256": "826196be816d76088ed8f5d3df128e6a8d629160464fb095d2a47c990dddcc84",
+      "saved_at": "2026-10-04T08:49:26.311831+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T08:49:26.468414+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review: sky-blue body, dark-blue border and fish/leaf/flower motifs preserve the poem’s specific memory. Cotton-like matte folds sit naturally within the cropped trunk, shadows follow stacked layers, and motifs bend/occlude with fabric. Border is more legible than the minimal brief but remains subordinate to the blue cloth plane. No invented mother likeness, historical object claim, metallic glamour or unrelated ornaments. Gouache/watercolor surface is appropriate."
+      },
+      "alt": "Soft sky-blue saree folds with a dark-blue border bearing fish, leaves and flowers rest inside a cropped trunk.",
+      "medium_label": "gouache and watercolor",
+      "public_asset": "assets/poem-art/editions/37/the-blue-fold-v1.webp",
+      "public_sha256": "a64c55669085625d1e300e5d7beeb125f0c31cb626211c458c86d8a22d9ad178",
+      "previous_assignment": "thread-by-the-window",
+      "integrated_at": "2026-10-04T08:50:45.749692+00:00"
+    },
+    {
+      "id": "room-to-fly",
+      "edition": 37,
+      "poem_id": 668,
+      "title": "Room to fly",
+      "rationale": "The freed bird discovers strength and a changed sense of scale. Give the page open air and a small living bird, without repeating a cage, rainbow or fantasy princess.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-37/room-to-fly-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-37/poem-668.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-37/poem-668.json",
+      "poem_sha256": "a3a4ba2996af3656206258a54bcb8050873fe46c2890a174feb9fe1c1cd1b876",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-37/room-to-fly/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-37/room-to-fly-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-be4c938f-68f4-4d42-ba1f-86f228baf1f7.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-37/room-to-fly/v1.png",
+          "sha256": "237b6a82dfff229433d5cc8a959366ab3683dde1f0ac601ba064d6c357d63252"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T08:49:26.674972+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-be4c938f-68f4-4d42-ba1f-86f228baf1f7.png",
+      "output_sha256": "237b6a82dfff229433d5cc8a959366ab3683dde1f0ac601ba064d6c357d63252",
+      "saved_at": "2026-10-04T08:50:45.327576+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T08:50:45.523559+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review: coherent brown-grey bird with two distinct shoulder-attached wings, one tail, a single beak and tucked feet; no extra anatomy. Bird is larger than the one-sixth target but still occupies a small left area with ample forward space. Matte feather strokes and faint distant ground maintain the change in scale. No cage, heraldic symmetry, rainbow or decorative symbols; ordinary light and open paper communicate freedom without a photographic or species-documentation claim."
+      },
+      "alt": "A small brown-grey bird flies from the left into wide pale air above a faint distant landscape.",
+      "medium_label": "gouache",
+      "public_asset": "assets/poem-art/editions/37/room-to-fly-v1.webp",
+      "public_sha256": "be51f32d3a6c8c489d94340ad186307acde7f8b46e32a80c18924888bb99a458",
+      "previous_assignment": "kendu-light",
+      "integrated_at": "2026-10-04T08:50:45.749692+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 660,
+      "rationale": "The poem explicitly asks for attention to a woman’s inner life rather than her body; let that direct address remain free of an illustrative female figure.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 662,
+      "rationale": "The refrain about freedom and unbound thought does not need a stock chain or bird symbol; preserve its rhetorical force in a text-led opening.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 674,
+      "rationale": "The father’s accumulated acts of care unfold through a long personal narrative. Avoid inventing a family likeness or reducing these memories to a sentimental prop.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T08:52:04.120515+00:00",
+  "completed_at": "2026-10-04T08:52:04.120515+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-37.png and mobile-37.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}
