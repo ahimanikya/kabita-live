@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T14:25:45.071467+00:00",
+  "updated_at": "2026-10-04T14:40:01.722669+00:00",
   "status": "active",
   "active_batch": null,
   "next_edition": 8,
@@ -16,8 +16,8 @@
     "new_rollout_artworks": 108,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 36,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 39,
     "estimated_remaining_artworks": 24
   },
   "editions": [
@@ -1467,7 +1467,7 @@
         283,
         298
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "the-space-between-marks",
@@ -1484,7 +1484,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-11/batch.json",
       "direction": "September explores pauses and uncertain connections: an interrupted ink gesture, a lotus held at a distance, and partial pine shadows. Abstract drawing, pale watercolor and restrained woodcut give distinct readings without a collage of poetic nouns. Family separation, epic justice and bereavement stay text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T14:06:41.186309+00:00"
+      "verified_at": "2026-10-04T14:06:41.186309+00:00",
+      "publication_commit": "08481e8456be79606a37f63bbbbd2f848a515014",
+      "publication_workflow": 37209631413
     },
     {
       "edition": 10,
@@ -1514,7 +1516,7 @@
         253,
         254
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "colours-for-a-life-continuing",
@@ -1531,7 +1533,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-10/batch.json",
       "direction": "August finds continuing life in a revised drawing, cleared lantern glass and a returning wave. Colored pencil, charcoal with transparent wash, and thin oil vary material and viewpoint. The poems confronting gendered violence and uncounted loss stay text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T14:18:32.875091+00:00"
+      "verified_at": "2026-10-04T14:18:32.875091+00:00",
+      "publication_commit": "08481e8456be79606a37f63bbbbd2f848a515014",
+      "publication_workflow": 37209631413
     },
     {
       "edition": 9,
@@ -1551,7 +1555,7 @@
         236,
         240
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "the-pink-braid-between-us",
@@ -1568,7 +1572,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-9/batch.json",
       "direction": "July considers quiet care and exchange through a partly braided toy, a milk packet opened at dusk and a few seeds gathered to share. Colored pencil, dry pastel and spare gouache vary texture and closeness. Poems about Manipur, national memory and prejudice toward daughters remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T14:25:45.071467+00:00"
+      "verified_at": "2026-10-04T14:25:45.071467+00:00",
+      "publication_commit": "08481e8456be79606a37f63bbbbd2f848a515014",
+      "publication_workflow": 37209631413
     },
     {
       "edition": 8,
