@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T13:21:51.591131+00:00",
+  "updated_at": "2026-10-04T13:36:27.897221+00:00",
   "status": "active",
   "active_batch": null,
   "next_edition": 14,
@@ -16,8 +16,8 @@
     "new_rollout_artworks": 90,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 30,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 33,
     "estimated_remaining_artworks": 42
   },
   "editions": [
@@ -1224,7 +1224,7 @@
         374,
         361
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "the-tide-returns-quietly",
@@ -1241,7 +1241,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-17/batch.json",
       "direction": "March finds persistence through recurring water, a restricted piece of sky and a tree’s offered shade. A sparse tide-edge wash, angular attic drawing and broad warm canopy vary visual density and scale. The sacred encounter, the child’s testimony and the satire of chosen blindness remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T13:06:00.684202+00:00"
+      "verified_at": "2026-10-04T13:06:00.684202+00:00",
+      "publication_commit": "98762a93e0411e6324d169127d2a5a2e21d17b2b",
+      "publication_workflow": 37205742962
     },
     {
       "edition": 16,
@@ -1258,7 +1260,7 @@
         356,
         357
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "after-the-fair-noise",
@@ -1275,7 +1277,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-16/batch.json",
       "direction": "February holds solitude in three ordinary places: a peanut packet after the fair, an unfamiliar rain-wet lane, and small twigs gathered at evening. Soft pastel, architectural ink wash and sparse graphite vary texture and density. The antiwar address, elusive smile and named city landmarks remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T13:15:20.650008+00:00"
+      "verified_at": "2026-10-04T13:15:20.650008+00:00",
+      "publication_commit": "98762a93e0411e6324d169127d2a5a2e21d17b2b",
+      "publication_workflow": 37205742962
     },
     {
       "edition": 15,
@@ -1289,7 +1293,7 @@
         346,
         347
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "first-rain-on-dry-earth",
@@ -1306,7 +1310,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-15/batch.json",
       "direction": "January moves through three kinds of contact with water: first rain on dry earth, a river reduced to a bottle, and a lotus rising from dark water. Close material study, a spare object-and-river composition and a low pond view give distinct emotional and visual scales. Ecological testimony, equity and the difficult turns of self-doubt remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T13:21:51.591131+00:00"
+      "verified_at": "2026-10-04T13:21:51.591131+00:00",
+      "publication_commit": "98762a93e0411e6324d169127d2a5a2e21d17b2b",
+      "publication_workflow": 37205742962
     },
     {
       "edition": 14,
