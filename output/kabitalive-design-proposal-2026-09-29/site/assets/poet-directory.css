@@ -8,7 +8,7 @@
 .poets-search-field button{padding:8px 14px;min-height:48px;color:var(--rust);font:14px/1.5 var(--ui)}
 .poet-results{color:var(--muted);font:13px/1.5 var(--ui);margin:12px 0 20px}
 .poet-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
-.poet-card{position:relative;min-width:0;padding:22px;background:var(--panel);border:1px solid var(--line);border-radius:4px;display:flex;flex-direction:column;transition:border-color .15s}
+.poet-card{position:relative;min-width:0;padding:22px 0;background:transparent;border:0;border-top:1px solid var(--line);border-radius:0;display:flex;flex-direction:column;transition:border-color .15s}
 .poet-card:hover{border-color:var(--rust)}
 .poet-card-identity{display:flex;align-items:center;gap:14px;min-height:64px}
 .poet-card-identity img,.poet-initials{width:64px;height:64px;flex:0 0 64px;border-radius:50%;object-fit:cover;object-position:center 25%}
@@ -27,7 +27,7 @@
 .poets-directory [hidden]{display:none!important}
 @media(min-width:1001px){.poets-opening{grid-template-columns:minmax(0,1fr) 390px}.poets-opening>img{max-height:260px;transform:none}}
 @media(max-width:1000px){.poet-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.poets-opening{grid-template-columns:1fr 190px}}
-@media(max-width:600px){.poets-opening{position:relative;display:block;margin:22px 0}.poets-opening>img{display:none}.poets-opening .eyebrow{font-size:10px}.poets-opening h1{font-size:36px}.poets-opening p{font-size:17px;line-height:1.5}.poet-cards{grid-template-columns:1fr;gap:14px}.poet-card{padding:18px}.poet-card h2{font-size:18px}.poet-card blockquote{margin:14px 0 8px}.poet-card-identity img,.poet-initials{width:56px;height:56px;flex-basis:56px}.poet-card-identity{min-height:56px}.poet-results{margin:12px 0 16px}}
+@media(max-width:600px){.poets-opening{position:relative;display:block;margin:22px 0}.poets-opening>img{display:none}.poets-opening .eyebrow{font-size:10px}.poets-opening h1{font-size:36px}.poets-opening p{font-size:17px;line-height:1.5}.poet-cards{grid-template-columns:1fr;gap:14px}.poet-card{padding:18px 0}.poet-card h2{font-size:18px}.poet-card blockquote{margin:14px 0 8px}.poet-card-identity img,.poet-initials{width:56px;height:56px;flex-basis:56px}.poet-card-identity{min-height:56px}.poet-results{margin:12px 0 16px}}
 @media(prefers-reduced-motion:reduce){.poet-card{transition:none}}
 
 .poets-opening .artistic-eyebrow{display:flex;align-items:center;gap:10px}.poets-opening .artistic-eyebrow svg{width:26px;height:26px;flex:0 0 26px;color:var(--rust)}

@@ -17,8 +17,8 @@ def apply_home_artistic(site):
                          lambda m: m[1] + mark('footer-story') + 'Read this edition', text, count=1)
     assert count == 1, 'Homepage edition action missing'
     for title, motif in [('A poem to begin with.', 'kendu'),
-                         ('Pages to return to.', 'footer-story'),
-                         ('The people tending the pages.', 'footer-send-poem')]:
+                         ('Recent editions', 'footer-story'),
+                         ('The editors', 'footer-send-poem')]:
         text, count = re.subn(r'(<h2[^>]*>)' + re.escape(title) + '</h2>',
                              lambda m: m[1] + mark(motif) + '<span>' + title + '</span></h2>', text, count=1)
         assert count == 1, f'Homepage section missing: {title}'

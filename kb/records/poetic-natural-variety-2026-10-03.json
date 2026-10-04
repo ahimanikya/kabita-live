@@ -1,0 +1,115 @@
+{
+  "recorded_at": "2026-10-03T15:36:17.419206+00:00",
+  "status": "applied_locally_verified",
+  "work_ref": "KBL-WORK-004",
+  "independent": false,
+  "authorization": [
+    "Maybe produce more human, natural, poetic artwork to make it feel like it is not repeating too much. Also review icons and other small decorative images.",
+    "We can go with your suggestions for rest"
+  ],
+  "scope": "Approved naturalness refinements locally; no retrospective signed notes across47 editions;3 particular poem illustrations; no portrait changes or deployment by this pass.",
+  "artwork_batch": "research/poetic-natural/variety-2026-10-03/batch.json",
+  "gallery": "artifacts/artwork/studies/poetic-natural-variety-2026-10-03/index.html",
+  "icons": "artifacts/artwork/studies/poetic-natural-variety-2026-10-03/icons.html",
+  "artworks": [
+    {
+      "id": "gift-of-dates",
+      "poem_id": 724,
+      "title": "A gift, opened",
+      "status": "integrated_local",
+      "prompt": "kb/research/poetic-natural/variety-2026-10-03/gift-of-dates-prompt.txt",
+      "poem_evidence": "kb/research/poetic-natural/variety-2026-10-03/gift-of-dates-poem.json",
+      "source_sha256": "1cc15ac4920f83c89c8c2a1ec545c8cb31799b62549f0ddf8b4beae9209caa35",
+      "diagnosis": [
+        "Existing still-life props recur too often",
+        "A generic reading image misses this poem’s particular subject",
+        "Uniform soft edge and center composition reduce variety"
+      ],
+      "independent": false,
+      "started_at": "2026-10-03T15:23:03.243030+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-59f01af2-9b38-46d3-9b01-035e5d992d3e.png",
+      "output": "kb/artifacts/artwork/studies/poetic-natural-variety-2026-10-03/gift-of-dates-v1.png",
+      "sha256": "1004a6a39a20978237e42c9dba59802ec477fde43c866f55effb382200d369d9",
+      "review": "Pass at normal viewing size: packet folds and date contact coherent; everyday gift and off-centre close view give a specific poem connection; warm paper/materials retained. Stronger table detail than requested but no visual or cultural defect requiring a retry. No text, people or invented religious marks.",
+      "previous_assignment": "editorial-desk",
+      "public_asset": "assets/poem-art/gift-of-dates-poetic-natural-v1.webp",
+      "public_sha256": "617f82c92231e6999cb527dfd488fa4ab89e4f7544bf83b6da2ad3769d66123c"
+    },
+    {
+      "id": "work-begins-again",
+      "poem_id": 644,
+      "title": "Begin again",
+      "status": "integrated_local",
+      "prompt": "kb/research/poetic-natural/variety-2026-10-03/work-begins-again-prompt.txt",
+      "poem_evidence": "kb/research/poetic-natural/variety-2026-10-03/work-begins-again-poem.json",
+      "source_sha256": "92d05088d05f26ad8d0e6066d29a11fbd7da1b955d06af8ed310303b1dc7dcb6",
+      "diagnosis": [
+        "Existing still-life props recur too often",
+        "A generic reading image misses this poem’s particular subject",
+        "Uniform soft edge and center composition reduce variety"
+      ],
+      "independent": false,
+      "started_at": "2026-10-03T15:23:49.002473+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-9d588154-3432-4c0b-9e06-24eb7cd52bf2.png",
+      "output": "kb/artifacts/artwork/studies/poetic-natural-variety-2026-10-03/work-begins-again-v1.png",
+      "sha256": "76766b0d60b56e86a32f20254d89d3164eaad21d9ef4a4c31a342e2efbcd23b5",
+      "review": "Pass as literary interpretation: plane, blade/wedge, curled shavings and supported offcut are legible; close crop communicates work in progress. Bench becomes more highly worked than brief; accepted for material contrast with broad river wash. No faces/text. Not a documentary or instructional drawing of a specific carpenter or tool.",
+      "previous_assignment": "editorial-desk",
+      "public_asset": "assets/poem-art/work-begins-again-poetic-natural-v1.webp",
+      "public_sha256": "8061874a7e0adb4868e149ba385d186f8dbbdb73bddc56eb8d1d8a6b2b8108d2"
+    },
+    {
+      "id": "river-return",
+      "poem_id": 786,
+      "title": "A way back",
+      "status": "integrated_local",
+      "prompt": "kb/research/poetic-natural/variety-2026-10-03/river-return-prompt.txt",
+      "poem_evidence": "kb/research/poetic-natural/variety-2026-10-03/river-return-poem.json",
+      "source_sha256": "c5787ed590828c9bdea4998acb93f46303f578488a38497ed0c46bdd1fa33f1d",
+      "diagnosis": [
+        "Existing still-life props recur too often",
+        "A generic reading image misses this poem’s particular subject",
+        "Uniform soft edge and center composition reduce variety"
+      ],
+      "independent": false,
+      "started_at": "2026-10-03T15:25:01.604792+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-00e904c3-e262-4dde-a32b-c9b2f30274df.png",
+      "output": "kb/artifacts/artwork/studies/poetic-natural-variety-2026-10-03/river-return-v1.png",
+      "sha256": "853a0979abca4885d7ff99c0487acad5bbe1a6ef0379deef83c83a97f93cc951",
+      "review": "Pass at normal size: steps descend coherently into shallow water; far bank and ripples agree; cool broad wash contrasts with intimate material studies. Steps read as earth and stone; not a documentary claim about a named river. Absence and return remain open rather than adding symbolic props. No text/people.",
+      "previous_assignment": "quiet-path",
+      "public_asset": "assets/poem-art/river-return-poetic-natural-v1.webp",
+      "public_sha256": "592323be6d78c1814d34167e018fc04518996644d2406fc9b76508a89c3aa672"
+    }
+  ],
+  "changes": [
+    "Quiet-reader paper turn off by default; explicit saved choice and reduced-motion guard retained",
+    "Practical openings are text-led; search/forms/email action arrive before decoration",
+    "Direct utility titles and profile contribution headings; homepage retains a single chosen literary invitation",
+    "Poet cards use a top rule and transparent background; identity and excerpts unchanged",
+    "47 cover overlay confines dark backing to typography zones; full cover stories in native disclosures, initially open on desktop",
+    "Repeated practical-page waterlines removed; existing35-icon family reviewed at20/24/36/48px and light/dark colour",
+    "Three exact artwork assignments, preserving all other mapping choices and bespoke illustrations"
+  ],
+  "deferred": [
+    "Signed editor choices for future editions only, per user direction",
+    "Poem521 ending still needs confirmation of intended source text; general design approval is not evidence of its intended ending",
+    "No blanket biography rewrite or mass poem-art reassignment"
+  ],
+  "verification": {
+    "poem_variants_unchanged": 799,
+    "existing_tests_passed": 26,
+    "public_build": "PASS1298pages1635assets; release gate and noindex retained",
+    "visual": "Three generated artworks inspected;35 SVG icons at actual20/24/36/48px light/dark;47 loaded cover thumbnails; desktop directory/poem and mobile360/390px practical-page fixtures reviewed.",
+    "reader": "Fresh local origin Paper turn and sound unchecked. Opt-in to Paper turn persisted across reload; restored off. Next-page navigation advanced10–11 to12–13. Reduced-motion guard preserved in code; device gesture/audio audition not certified.",
+    "content": "All799 poem variant payloads unchanged; only644/724/786 art assignments changed;47 full cultural-story sections retained.",
+    "bundle": "PASS",
+    "handoff": "PASS:14374 entries synchronized and2065 portable links checked. One retry included the final desktop screenshot saved after the first sync; no divergent handoff edits overwritten."
+  },
+  "limitations": [
+    "Same-assistant self-review, independent:false",
+    "Local preview/build only; not deployed by this change",
+    "Poem521 intended ending still awaits editorial confirmation",
+    "Artwork re-use remains intentional elsewhere; this is a scoped variety pass, not798 editorial reassignments"
+  ]
+}

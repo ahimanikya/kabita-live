@@ -1,0 +1,124 @@
+{
+  "recorded_at": "2026-10-04T16:06:14.351299+00:00",
+  "authorization": "lets do it",
+  "approved_proposal": "Three additional Poetic Natural homepage images, one stable image per visit with Another view control; two cover studies for comparison before any cover replacement.",
+  "status": "verified_locally",
+  "publication": "Not deployed; local preview only",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "images": [
+    {
+      "id": "field",
+      "source": "kb/artifacts/photography/odisha-2026-10-04/originals/21-1c9f42c2-d902-4ecc-9ade-bee16022a973.jpg",
+      "source_sha256": "d725005c698b5a2410dc70f9bb389e842c0c69c8bbb419499c865a3ab3d32494",
+      "master": "kb/artifacts/artwork/home-natural-2026-10-04/field-v1.png",
+      "master_sha256": "5b4e9328de15e05329a5de8b4b9953e2a97dcb0112d04c33bc5c64027c082f4a",
+      "prompt_record": "kb/research/home-natural-2026-10-04/prompts.json",
+      "tool": "built-in image_gen",
+      "status": "integrated_locally",
+      "independent": false,
+      "self_review": "Preserves field, off-centre trees and small sun. Painted cloud detail is more pronounced than source; accepted as poetic interpretation."
+    },
+    {
+      "id": "palm",
+      "source": "kb/artifacts/photography/odisha-2026-10-04/originals/33-88d72b22-8b14-42b5-b1ea-0542dc648264.jpg",
+      "source_sha256": "c45edb25984310fb5b3b625dda691cb31eacf6c5c304ab805fd646e7f7288be1",
+      "master": "kb/artifacts/artwork/home-natural-2026-10-04/palm-v1.png",
+      "master_sha256": "d4ee9bbb45672c8d2672c100188b35c076f5bf8424b87c9099df85429d102606",
+      "prompt_record": "kb/research/home-natural-2026-10-04/prompts.json",
+      "tool": "built-in image_gen",
+      "status": "integrated_locally",
+      "independent": false,
+      "self_review": "Palm contact and flower silhouette retained; natural creases and partial fingers visible. Florets remain fairly detailed, accepted for close-view intimacy."
+    },
+    {
+      "id": "tree",
+      "source": "kb/artifacts/photography/odisha-2026-10-04/originals/49-41a7dcd7-400c-4495-9a4c-fa5b08e70f82.jpg",
+      "source_sha256": "66702eadd7bbb0c9bb6d9525617f38d6118fad519088bcc918d7617d1e45bbc8",
+      "master": "kb/artifacts/artwork/home-natural-2026-10-04/tree-v1.png",
+      "master_sha256": "92d0c8ae977b9aa4eab148038b28c50cd2a435ed5e3d71ad07883eb47027d3de",
+      "prompt_record": "kb/research/home-natural-2026-10-04/prompts.json",
+      "tool": "built-in image_gen",
+      "status": "integrated_locally",
+      "independent": false,
+      "self_review": "Source tree, trunk wrap, traffic, cabin, car and yellow figure retained in wide painted interpretation. No claim of documentary fidelity."
+    },
+    {
+      "id": "cover-subtle",
+      "source": "projects/site/assets/covers/editions/edition-047-2026-09-poetic-natural.webp",
+      "source_sha256": "70d8327ab6bcaa06a3a35bfc69827b56791588370ce1053b7934218a815583fb",
+      "master": "kb/artifacts/artwork/home-natural-2026-10-04/cover-subtle-v1.png",
+      "master_sha256": "25e6beb1afabe9c3cf331bacb4b3b4d25b9de9b199d82f27450462b81d71d56f",
+      "prompt_record": "kb/research/home-natural-2026-10-04/prompts.json",
+      "tool": "built-in image_gen",
+      "status": "comparison_only",
+      "independent": false,
+      "self_review": "Calmer sky and smaller/lower flower, original mood retained. Flower still appears somewhat posed; study only."
+    },
+    {
+      "id": "cover-watercolor",
+      "source": "projects/site/assets/covers/editions/edition-047-2026-09-poetic-natural.webp",
+      "source_sha256": "70d8327ab6bcaa06a3a35bfc69827b56791588370ce1053b7934218a815583fb",
+      "master": "kb/artifacts/artwork/home-natural-2026-10-04/cover-watercolor-v1.png",
+      "master_sha256": "6c5e29328ca86aed6c7123cb192ce4559f5af8324991aaec2233fc1292f45fbb",
+      "prompt_record": "kb/research/home-natural-2026-10-04/prompts.json",
+      "tool": "built-in image_gen",
+      "status": "comparison_only",
+      "independent": false,
+      "self_review": "Cream flower and laterite rainwater retained; soft edges and calm upper area support masthead. Recommended study; not selected for edition replacement."
+    }
+  ],
+  "behavior": "Random initial view for a new tab session; retain selected view through reload/back navigation; manual cyclic control; no timer or animation; storage denial and image errors preserve readable fallback.",
+  "review_url": "http://127.0.0.1:8771/home-natural-review/index.html",
+  "source_credit": "Ahimanikya Satapathy; visible Our Story credit distinguishes generated adaptations from photographs.",
+  "preservation": "Source photographs, prior previews, courtyard master and all edition covers retained.",
+  "checks": {
+    "public_build": "PASS Node24, Astro and Pagefind",
+    "public_asset_selection": "PASS all8responsive image assets included; KB cover comparison excluded",
+    "browser_desktop": "PASS all4views loaded, matching captions and alt text, keyboard activation, session restore after reload, no horizontal overflow",
+    "browser_mobile": "PASS360px viewport,44px button,3:2uncropped image frame, manual switch and no overflow",
+    "credits": "PASS source link opens disclosure at credited source paragraph",
+    "runtime_behaviors": "PASS saved selection, cycle wraparound, announcement, denied storage, failed image fallback, stale saved ID",
+    "author_pages": "PASS no errors",
+    "editions": "PASS no errors",
+    "review": "Cover comparison visually checked on desktop; stacked360px layout checked. Same-assistant review only."
+  },
+  "evidence": [
+    "kb/artifacts/review/home-natural-2026-10-04/home-desktop.jpg",
+    "kb/artifacts/review/home-natural-2026-10-04/home-mobile.jpg",
+    "kb/artifacts/review/home-natural-2026-10-04/covers-desktop.jpg",
+    "kb/artifacts/review/home-natural-2026-10-04/covers-mobile.jpg"
+  ],
+  "derivatives": [
+    {
+      "path": "projects/site/assets/home/tree-poetic-natural-v1.webp",
+      "sha256": "ff1f74d9eb9994dca43f7e5ec4fa00859c8b99acc9a406bc557de01c42562439",
+      "bytes": 556634
+    },
+    {
+      "path": "projects/site/assets/home/tree-poetic-natural-v1-768.webp",
+      "sha256": "7f4b3b5e0317a928dd77db1d76d0b36bb5742185a20283f58d6b2cf381975564",
+      "bytes": 159994
+    },
+    {
+      "path": "projects/site/assets/home/palm-poetic-natural-v1-768.webp",
+      "sha256": "fad8090eab5081ad27533bd6a3214022744a659261c5205b79ef42bfe86c00ff",
+      "bytes": 62142
+    },
+    {
+      "path": "projects/site/assets/home/field-poetic-natural-v1.webp",
+      "sha256": "ed4fa220b61debf6594ef9a82bd91818611beb92cca977cda24c449b335654cf",
+      "bytes": 307644
+    },
+    {
+      "path": "projects/site/assets/home/palm-poetic-natural-v1.webp",
+      "sha256": "1b072d9bf54b0de2e1a796b688d49ee33db3e0e26f696d9ff5403448215b444b",
+      "bytes": 213306
+    },
+    {
+      "path": "projects/site/assets/home/field-poetic-natural-v1-768.webp",
+      "sha256": "042f7078d09e684f1903dfb5fd0040d5acb15b652ff8ece6f5c1e78dc8007c40",
+      "bytes": 86420
+    }
+  ]
+}

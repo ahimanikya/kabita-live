@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-10-04T20:38:36.323567+00:00",
+  "status": "verified_for_publication",
+  "authorization": "Sounds good, let’s do that",
+  "authorized_scope": [
+    "Homepage Poetic Natural views with Another view",
+    "Remove mobile footer boat",
+    "Simplify poem endings",
+    "Approved Human Natural practical-page refinements and opt-in page-turn effects",
+    "Poem724 and786 artwork"
+  ],
+  "baseline_commit": "48ae78c424e4b92b3accdc37489b60cd825ce275",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "checks": {
+    "result": "PASS",
+    "protected_files": 772,
+    "approved_metadata_changes": [
+      "data/poem-art-assignments.json",
+      "data/imagery-catalogue.json",
+      "data/poem-art-library.json"
+    ],
+    "poem_endings_and_engagement": 799,
+    "covers_and_disclosures": 47,
+    "homepage_responsive_images": 8,
+    "poem_644_newer_art_preserved": true,
+    "preview_noindex_and_public_only_export": "preserved",
+    "application_tests": 28,
+    "review": "same-assistant; independent false"
+  },
+  "browser_checks": [
+    "1280px homepage: Another view loads correct image and caption",
+    "360px homepage and archive: no horizontal overflow",
+    "Mobile archive and poem footers: boat hidden",
+    "Mobile cover disclosure starts closed and opens on click",
+    "Poem724: one closing mark, no Previous/Next row, reader-response region retained"
+  ],
+  "preserved": [
+    "Website masthead A",
+    "All47 published magazine mastheads B",
+    "Portraits and edition artwork",
+    "Poem644 later edition-specific artwork",
+    "GA4 consent and enabled Firebase services",
+    "Existing preview noindex and DNS"
+  ],
+  "publication_mode": "Manual GitHub Pages preview workflow; public Astro build only",
+  "evidence": "kb/artifacts/review/website-refinements-publication-2026-10-04"
+}

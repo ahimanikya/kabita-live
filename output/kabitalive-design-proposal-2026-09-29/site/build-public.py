@@ -40,6 +40,9 @@ assets.update(str(p.relative_to(root)) for p in (root/'assets/reading-editions')
 assets.add('assets/reading-library.json')
 assets.add('assets/reading-all.json')
 assets.add('assets/reader-pagination.mjs')
+# Homepage views are loaded on demand, not all referenced by image markup.
+for view in json.loads((root/'data/home-views.json').read_text()):
+    assets.update([view['src'],view['small']])
 assets.update(str(p.relative_to(root)) for p in (root/'assets/reading-authors').glob('poet-*.json'))
 for value in refs:
     url=urlsplit(value)

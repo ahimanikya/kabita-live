@@ -1,0 +1,22 @@
+/* Practical pages begin with their purpose. Retained art belongs in the catalogue. */
+#main.utility-first :is(.page-head,.poets-opening,.archive-opening,.submission-opening){display:block;max-width:none;min-height:0;padding-top:16px;padding-bottom:16px;margin-top:0;margin-bottom:12px}
+#main.utility-first :is(.page-head-copy,.poets-opening>div:first-child,.archive-opening>div:first-child){max-width:64ch;min-height:0}
+#main.utility-first :is(.page-head,.page-head-copy,.poets-opening>div:first-child,.archive-opening>div:first-child,.submission-opening>div):after{display:none}
+#main.utility-first :is(h1){font-size:clamp(34px,4vw,48px);margin:12px 0}
+#main.utility-first .poets-search{margin-top:20px;width:100%}
+#main.utility-first :is(.discovery-label,.artistic-eyebrow) svg{width:36px;height:36px;flex-basis:36px}
+#main.utility-first .submission-layout{margin-top:6px}
+#main .poet-card{padding:22px 0;background:transparent;border:0;border-top:1px solid var(--line);border-radius:0}
+#main.utility-first .submission-send{border-radius:0;background:transparent;border-top:1px solid var(--line);padding-left:0;padding-right:0}
+.edition-story>summary{cursor:pointer;min-height:44px;padding:12px 0;font:16px/1.5 var(--ui);color:var(--rust)}
+.edition-story[open]>summary{margin-bottom:14px}
+.edition-story:before{display:none!important}
+.edition-story>summary:focus-visible{outline:2px solid var(--rust);outline-offset:4px}
+@media(max-width:760px){
+ #main.utility-first :is(.page-head,.poets-opening,.archive-opening,.submission-opening){padding-top:4px;padding-bottom:12px;margin-bottom:12px}
+ #main.utility-first :is(.page-head p,.poets-opening p,.archive-opening p,.submission-opening p){font-size:18px;line-height:1.55}
+ #main.utility-first .submission-send{padding-top:18px}
+ #main .poet-card{padding:18px 0}
+ #main .edition-opening{gap:20px}
+ #main .edition-story{margin-top:8px}
+}

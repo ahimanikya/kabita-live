@@ -1,0 +1,221 @@
+{
+  "recorded_at": "2026-10-03T14:52:08.921948+00:00",
+  "status": "recommendations_applied_locally_with_editorial_exceptions",
+  "work_ref": "KBL-WORK-004",
+  "independent": false,
+  "executor": "Current assistant; Samanta experience review and Drishti quality self-review",
+  "user_request": "Review the whole website through Human Natural / Poetic Natural for a less artificial experience.",
+  "deployed_site_commit": "a200166cb6197b058f1dd1dd899e552ea3642427",
+  "live_pages_reviewed": [
+    "index.html",
+    "issue-47.html",
+    "poems.html",
+    "poets.html",
+    "archive.html",
+    "about.html",
+    "contact.html",
+    "feedback.html",
+    "submit.html",
+    "poem-drink.html",
+    "poem-kshanika.html",
+    "poem-521.html",
+    "poet-204.html",
+    "editor-pradeep.html",
+    "editorial-team.html"
+  ],
+  "scope": "All principal page families sampled visually, quiet-reader settings and light/dark profile checked. Eight 360px local-frame routes reviewed; shared CSS/reader implementation hashes match the deployed release. Local portraits may be ahead of deployment. Shared source and full 799-original targeted residue scan; not a line-by-line editorial review of every page or an audience study.",
+  "skills": [
+    "human-natural-image",
+    "chrome:control-chrome"
+  ],
+  "artifact": "artifacts/reviews/human-natural-2026-10-03/index.html",
+  "findings": [
+    {
+      "id": "HN-01",
+      "priority": "Editorial first",
+      "title": "Remove conversational residue only after editorial confirmation",
+      "pages": [
+        "poem-521.html"
+      ],
+      "observation": "The published original of Eve`s Languor ends with “Let me know what you think!” and “Next, I can help…” passages. A targeted scan of all 799 original-language reader records found these patterns in this one poem; this is not an exhaustive authorship audit. The same extra passages also occur in prepared Hindi and Odia variants.",
+      "proposal": "Ask the editor to confirm the intended ending. If these are accidental submission/import remnants, remove only those passages consistently from the approved publication text and its derived translations/readers, preserving the captured original in the KB. Do not rewrite the poem or infer authorship from this evidence.",
+      "why": "Visible assistant-style residue is a much stronger sign of unfinished editing than a serif typeface or watercolor illustration.",
+      "evidence": "poem-521-dom.txt",
+      "image": "poem-521-ending.png",
+      "acceptance": "Editor-confirmed ending; source retained; poem page, edition and all-language reader payloads agree."
+    },
+    {
+      "id": "HN-02",
+      "priority": "First design pass",
+      "title": "Start quiet reading without the paper-turn simulation",
+      "pages": [
+        "issue-47.html",
+        "poems.html",
+        "poem-drink.html"
+      ],
+      "observation": "The live reader shows Paper turn checked and Soft page sound unchecked. The implementation defaults motion to true unless explicitly disabled and uses a 520 ms canvas curl. The current design-system reference says these effects should be off by default. Ordinary dialogs use brief 160 ms/200 ms entrances; no scroll-reveal or continuous decorative animation was found in the reviewed public experience.",
+      "proposal": "Make paper turning opt-in for new readers; keep an explicit saved preference and reduced-motion support. Keep sound off. Retain quick functional menu/dialog feedback.",
+      "why": "The page should respond immediately; simulated paper does not need to perform on every turn.",
+      "evidence": "projects/site/assets/poem-experience.js",
+      "image": "reader-settings.png",
+      "acceptance": "Fresh reader defaults off, explicit choices persist, reduced motion disables the effect, navigation and pagination remain unchanged."
+    },
+    {
+      "id": "HN-03",
+      "priority": "First design pass",
+      "title": "Let readers act before decorative mobile openings",
+      "pages": [
+        "poems.html",
+        "poets.html",
+        "contact.html",
+        "submit.html",
+        "issue-47.html"
+      ],
+      "observation": "At 360 px, large headings, descriptions, a waterline and full-width watercolor precede search or forms. On Poems the first result appears after the opening, artwork and filter controls; on Contact the form starts after the illustrated introduction. The individual Odia poem starts with title, byline, controls and verse, which is a stronger reading pattern.",
+      "proposal": "On practical pages place search/contact/submission action directly after a compact title and one useful sentence. Put the existing illustration below that action or use a smaller optional placement. On editions retain the cover and full cultural story but keep Browse poems prominent and consider a collapsed cover-story section on phones. Preserve art masters, aspect ratios and source text.",
+      "why": "Different page purposes deserve different openings. A directory does not need the same entrance as a magazine cover.",
+      "image": "mobile-discovery.png",
+      "acceptance": "At 360/390 px the key action is available before the large decorative image;44 px controls and readable type remain; full stories are still accessible."
+    },
+    {
+      "id": "HN-04",
+      "priority": "First design pass",
+      "title": "Use fewer poetic instructions and more specific editorial language",
+      "pages": [
+        "index.html",
+        "poems.html",
+        "archive.html",
+        "feedback.html",
+        "submit.html",
+        "about.html"
+      ],
+      "observation": "“Find a poem. Stay a little longer.”, “Every issue, another beginning.”, “Words that find their way back.” and “Before your poem travels.” repeatedly turn practical headings into poetic invitations. Each is defensible alone; across adjacent pages the voice becomes predictable.",
+      "proposal": "Keep the Odia signature and a few chosen literary phrases. Use direct utility titles and concrete facts elsewhere. Leave poems and quoted lines untouched. Remove filler clauses from biographies while preserving researched facts and attributed interpretation.",
+      "why": "Restraint makes the journal’s own poems more prominent than the interface’s metaphors.",
+      "image": "feedback.png",
+      "acceptance": "One distinctive invitation where useful; action labels say what happens; no blanket rewrite of source poetry or biographies."
+    },
+    {
+      "id": "HN-05",
+      "priority": "Second design pass",
+      "title": "Use illustration selectively instead of making every page a still life",
+      "pages": [
+        "poems.html",
+        "poets.html",
+        "feedback.html",
+        "submit.html",
+        "poem-drink.html"
+      ],
+      "observation": "The openings repeatedly combine blank books, cups or brass vessels, pale flowers, leaves, blue furniture and soft watercolor edges. The stable assignment file has 798 entries using 20 artwork identities; quiet-path appears 115 times, search 103 and editorial-desk 89. Those are mapping counts, not proof that every use is inappropriate. The bespoke Drink and क्षणिका illustrations connect more clearly to their poems.",
+      "proposal": "Keep the approved homepage and distinct edition art. Allow some practical pages and poems to be text-led. Review heavily reused fallback images for meaning; omit a weak illustration rather than rotate unrelated art or generate hundreds of decorative replacements.",
+      "why": "Human art direction is selective. An illustration gains force when it has a reason to be there.",
+      "image": "poems-desktop.png",
+      "acceptance": "Each prominent image has an editorial purpose; strong bespoke matches retained; no random art rotation, invented documentary people or universal regeneration."
+    },
+    {
+      "id": "HN-06",
+      "priority": "Second design pass",
+      "title": "Recover the individual light and colour of edition covers",
+      "pages": [
+        "archive.html",
+        "index.html",
+        "issue-47.html"
+      ],
+      "observation": "The shared cover overlay uses dark teal at 90% opacity at the top,75% at 26% height and 85% at the bottom. This makes different cover scenes share a strong dark cast.",
+      "proposal": "Trial a lighter, more local backing behind cover type on three contrasting covers: bright, dark and detailed. Keep the rest of each image closer to its reviewed artwork. Do not remove contrast protection indiscriminately.",
+      "why": "The new artwork already has varied light and materials; a heavy global treatment makes it look like one filter.",
+      "image": "archive.png",
+      "acceptance": "Cover typography stays readable at thumbnail and full size; retain identity and aspect ratio; compare all 47 covers before rollout."
+    },
+    {
+      "id": "HN-07",
+      "priority": "Editorial enhancement",
+      "title": "Make the editors’ actual choices visible",
+      "pages": [
+        "index.html",
+        "editorial-team.html",
+        "about.html"
+      ],
+      "observation": "Editors are named and linked, but the welcome text mostly speaks in a generalized literary voice. The homepage also contains a quotation without a visible author attribution.",
+      "proposal": "Invite one brief, signed editor note about a specific poem or this edition, with an actual date and a concrete reason for the selection. Attribute the existing quotation after verification, or replace it with a sourced line from a contributing poet. Only add notes approved by their named authors.",
+      "why": "A real selection and a personal reason communicate human stewardship better than additional decorative signs of craftsmanship.",
+      "image": "editorial-team.png",
+      "acceptance": "Named author approves their words; quote source is verified; no invented endorsements, simulated handwritten signatures or fake editorial selections."
+    },
+    {
+      "id": "HN-08",
+      "priority": "Keep, with restraint",
+      "title": "Keep the portrait work; avoid making the directory feel like a portrait catalogue",
+      "pages": [
+        "poets.html",
+        "poet-204.html",
+        "editor-pradeep.html"
+      ],
+      "observation": "The portraits preserve visibly different ages, faces, expressions and clothing, which is valuable. At directory scale the similar watercolor halos and repeated card treatment become more noticeable. The public 427 poet-profile routes all use Life and writing; repeated structure itself is useful and is not evidence of AI authorship.",
+      "proposal": "Keep completed portraits and source-backed identities. Let name, quoted verse and contributions lead on directory/list pages. Trial quieter card backgrounds or rules instead of changing faces or redoing every portrait. Keep short biographies short where evidence is limited.",
+      "why": "Individual writing and lived facts provide variety more reliably than cosmetic changes to portrait backgrounds.",
+      "image": "poets.png",
+      "acceptance": "No portrait regeneration or loss of provenance; quoted lines retain attribution; directory remains easy to scan and search."
+    }
+  ],
+  "copy_candidates": [
+    [
+      "Poems",
+      "Find a poem. Stay a little longer.",
+      "Find a poem",
+      "Search 799 poems by title, poet or a remembered line."
+    ],
+    [
+      "Archive",
+      "Every issue, another beginning.",
+      "Past editions",
+      "Browse 47 editions, from November 2022 to September 2026."
+    ],
+    [
+      "Feedback",
+      "Words that find their way back.",
+      "Write to the editors",
+      "Send a reading response, correction or suggestion."
+    ],
+    [
+      "Submission",
+      "Before your poem travels.",
+      "Submission details",
+      "Keep the title, author name, line breaks and stanza spacing."
+    ],
+    [
+      "Profile contributions",
+      "A voice across 3 poems.",
+      "Poems in Kabita Live",
+      "Retain titles, publication dates and edition links."
+    ]
+  ],
+  "changes_applied": [
+    "HN-02: opt-in paper turns",
+    "HN-03: compact practical openings and mobile cover story",
+    "HN-04: direct interface and contribution headings",
+    "HN-05: selective practical imagery plus3 specific new poem illustrations",
+    "HN-06: localized cover shading checked across47 covers",
+    "HN-08: quieter poet directory rules"
+  ],
+  "preserve": [
+    "English masthead and Odia signature",
+    "Cormorant Garamond, Source Serif 4, Noto Serif Oriya and Tiro Devanagari Hindi",
+    "Earth palette, legible reading space, restrained paper surface and existing footer",
+    "Approved original art and all portrait/source provenance",
+    "Poem text, proper credit and honest AI disclosure in the colophon"
+  ],
+  "limitation": "Human Natural is an art-direction principle, not a test that establishes whether an image or text was generated by AI. Perception findings here are design judgments. Physical phone gestures, sound audition, comprehensive accessibility and native-language proofreading were not certified.",
+  "verification": {
+    "bundle": "PASS",
+    "report_visual": "PASS after render inspection",
+    "shared_css_and_reader_match_deployed_release": true,
+    "source_preservation": "Review-only files and KB records; no site or poem edits by this review",
+    "handoff_note": "Initial storage check saw concurrent selective-portrait-fixes release-baseline change; retry after that source update."
+  },
+  "followup_record": "records/poetic-natural-variety-2026-10-03.json",
+  "editorial_exceptions": {
+    "HN-01": "Original ending confirmation outstanding; poem text unchanged",
+    "HN-07": "User deferred signed editorial notes to future editions"
+  }
+}

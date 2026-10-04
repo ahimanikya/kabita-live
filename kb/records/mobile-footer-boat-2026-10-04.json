@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-10-04T12:15:55.991314+00:00",
+  "status": "applied_locally",
+  "authorization": "In mobile page remove the footer boat image",
+  "scope": "Shared journal and Archive footers at viewport widths up to 760px; larger screens retain existing artwork. No publication performed.",
+  "independent": false,
+  "changes": [
+    "Hide shared footer earth-edge decoration in existing mobile breakpoint",
+    "Hide Archive footer artwork row to avoid leftover image spacing",
+    "Refresh stylesheet cache keys"
+  ],
+  "checks": {
+    "build": "PASS Node24 Astro and Pagefind",
+    "author_pages": "PASS no errors",
+    "editions": "PASS no errors",
+    "mobile_360": "Both footer variants hidden; no horizontal overflow; all four shared footer links retained; screenshot reviewed",
+    "desktop_1280": "Both footer variants retain display:block"
+  },
+  "evidence": [
+    "artifacts/review/mobile-footer-2026-10-04/mobile.png"
+  ]
+}

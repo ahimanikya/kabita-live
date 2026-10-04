@@ -10,3 +10,6 @@
  .footer-art-trial .footer-watercolor-boat{height:50px;width:145px;background-size:390px auto}
  #footer.footer-art-trial .footer-line{padding-top:8px}
 }
+
+/* Match the shared mobile footer: omit decorative artwork. */
+@media(max-width:760px){.footer-art-trial .footer-art-row{display:none}}

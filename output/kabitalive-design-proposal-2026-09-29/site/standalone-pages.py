@@ -72,7 +72,7 @@ for ident, p in catalogue.items():
 
 def writer_work(writer):
     if not writer['works']:
-        return '<section class="writer-work" id="contributions"><h2>A voice across the pages.</h2><p>No poems are currently linked to this profile.</p><a class="text-link" href="poems.html">Explore the poetry collection →</a></section>'
+        return '<section class="writer-work" id="contributions"><h2>Poems in Kabita Live</h2><p>No poems are currently linked to this profile.</p><a class="text-link" href="poems.html">Explore the poetry collection →</a></section>'
     rows=''
     for w in writer['works']:
         route=catalogue[w['id']]['reader'];lang=catalogue[w['id']]['lang']
@@ -82,7 +82,7 @@ def writer_work(writer):
         rows+=(f'<tr data-contribution="{e(w["title"])}"><td><a class="contribution-title" lang="{lang}" href="{route}">{e(w["title"])}</a>'
                f'<span class="contribution-mobile-date">{e(date)}</span></td><td data-label="Edition">{edition}</td><td data-label="Published">{e(date)}</td></tr>')
     count=len(writer['works'])
-    heading='A voice in one poem.' if count==1 else f'A voice across {count} poems.'
+    heading='Poems in Kabita Live'
     return ('<section class="writer-work" id="contributions"><div class="section-head">'+
             f'<h2>{heading}</h2></div>'+
             f'<table class="contribution-table"><caption class="sr-only">Poems by {e(writer["name"])}</caption>'+
@@ -129,8 +129,8 @@ for p in reviews:
     review_cards+='<article class="review-list-entry"><span class="eyebrow">Book review</span><h2><a href="'+route+'">'+e(p['title'])+'</a></h2><p>Review by '+e(p['author'])+'</p></article>'
 page('reviews.html','Book reviews',head('Books in conversation','The reading continues.','A collection of reviews, with room for each reader’s voice.')+'<div class="two review-list">'+review_cards+'</div>')
 
-page('feedback.html','Write to the editors',head('The journal and its readers','Words that find<br>their way back.',
-    'A reading response, a thoughtful suggestion, or a note of appreciation.')+
+page('feedback.html','Write to the editors',head('The journal and its readers','Write to the editors',
+    'Send a reading response, correction or suggestion.')+
     '<article class="prose"><p>Your note goes privately to the editorial desk. Include the poem’s title and poet when writing about a particular work.</p>'+
     btn('Write a private note','contact.html')+'<p>To share a poem with friends, use Share on its reading page.</p></article>')
 

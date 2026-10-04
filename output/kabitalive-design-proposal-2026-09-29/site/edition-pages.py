@@ -110,7 +110,7 @@ for issue in publication_issues:
     jump='<a class="edition-jump" href="#edition-poems">'+discovery_mark('footer-story')+'Browse poems</a>'
     page(f'issue-{n}.html',f'Issue {n} · {date}',discovery_styles+crumb('<a href="archive.html">Archive</a> / '+str(n))+
         '<section class="issue-intro edition-opening'+(' current-edition' if current else ' artistic-edition')+'">'+cover_figure+f'<div>{issue_label}<h1>{e(date)}</h1>'+jump+
-        f'<div class="edition-story"><h2>{e(art["title"])}</h2><p>{e(art["story"])}</p>{culture}</div></div></section>'+
+        f'<details class="edition-story"><summary>About this cover</summary><h2>{e(art["title"])}</h2><p>{e(art["story"])}</p>{culture}</details></div></section>'+
         '<section class="section edition-contents" data-collection-reader id="edition-poems" tabindex="-1" aria-label="Poems in this edition">'+collection_actions(f'issue-{n}.html',f'{date} · Issue {n}','edition')+'<div class="edition-contents-separator" aria-hidden="true"></div>'+edition_rows(entries)+'</section>'+collection_reader(entries,f'assets/reading-editions/issue-{n}.json'),
         active='Current issue' if current else 'Archive')
 
@@ -172,26 +172,12 @@ for p in publication_poems.values():
     body=(f'<section class="poem-opening"><div class="poem-heading"><p class="reader-meta"><a href="{issue_route}">{e(issue_label)}</a> · <span lang="{lang}">{label}</span></p>'+
         f'<h1 class="{lang}" lang="{lang}">{e(p["title"])}</h1>'+poem_byline(p)+actions+'</div>'+art+'</section>')
     body+=render_reader(p)
-    body+='<div class="poem-reading-end">'
-    steps=[]
-    previous=None;next_poem=None
-    if issue:
-        ordered=issue['poem_ids'];pos=ordered.index(ident)
-        if pos>0:
-            previous=publication_poems[ordered[pos-1]]
-            steps.append(f'<a class="poem-step previous" href="{poem_route(previous["id"])}" aria-label="Previous poem: {e(previous["title"])}" title="{e(previous["title"])}">'+reader_icon('next-poetic')+f'<span class="poem-step-copy"><span class="poem-step-label">Previous poem</span><span class="poem-step-title" lang="{previous["language"]}">{e(previous["title"])}</span></span></a>')
-    if previous is None:
-        steps.append('<button type="button" class="poem-step previous" disabled aria-label="Previous poem unavailable">'+reader_icon('next-poetic')+'<span class="poem-step-hint" aria-hidden="true">Previous poem</span></button>')
+    # The edition panel already provides nearby poems; finish the verse with
+    # its existing closing mark and keep reader responses in their own slot.
     if p['writer_id']:
         writer_route=profile_routes.get(p['writer_id'],f'poet-{p["writer_id"]}.html')
-        steps.append(f'<a class="poem-more" href="{writer_route}">More by this poet</a>')
-    if issue and pos+1<len(ordered):
-        next_poem=publication_poems[ordered[pos+1]]
-        steps.append(f'<a class="poem-step next" href="{poem_route(next_poem["id"])}" aria-label="Next poem: {e(next_poem["title"])}" title="{e(next_poem["title"])}"><span class="poem-step-copy"><span class="poem-step-label">Next poem</span><span class="poem-step-title" lang="{next_poem["language"]}">{e(next_poem["title"])}</span></span>'+reader_icon('next-poetic')+'</a>')
-    if next_poem is None:
-        steps.append('<button type="button" class="poem-step next" disabled aria-label="Next poem unavailable"><span class="poem-step-hint" aria-hidden="true">Next poem</span>'+reader_icon('next-poetic')+'</button>')
-    if steps:body+='<nav class="poem-after" aria-label="Continue reading">'+''.join(steps)+'</nav>'
-    body+='</div>'
+        body+=f'<a class="poem-more" href="{writer_route}">More by this poet</a>'
+    body+='<!--poem-responses-->'
     body=enhance_poem(body,p,experience_readers[ident])
     page(route,p['title'],body,active='Poems')
 
@@ -201,8 +187,8 @@ poet_options='<option value="">All poets</option>'+''.join(f'<option value="{e(i
 edition_options='<option value="">All editions</option>'+''.join(f'<option value="{issue["number"]}">Issue {issue["number"]} · {issue["month"]} {issue["year"]}</option>' for issue in publication_issues)
 if any(not p['edition'] for p in all_publication_poems):edition_options+='<option value="unassigned">Edition not recorded</option>'
 poem_finder='<div class="poem-finder poem-finder-options"><div class="search-field"><label><span class="label finder-label">Find a poem</span><input id="list-search" type="search" placeholder="A title, a poet, a remembered line" aria-controls="poem-results"></label></div><label class="finder-choice"><span class="finder-label">Poet</span><select id="poem-poet-filter" aria-controls="poem-results">'+poet_options+'</select></label><label class="finder-choice"><span class="finder-label">Edition</span><select id="poem-edition-filter" aria-controls="poem-results">'+edition_options+'</select></label></div>'
-for route,title,kicker,heading in [('poems.html','Poems','The reading room','Find a poem. Stay a little longer.')]:
-    opening=head(discovery_mark('kendu')+kicker,heading,f'Across {len(publication_issues)} editions, {len(publication_poems)} poems wait to be found.').replace('class="eyebrow"','class="eyebrow discovery-label"',1)
+for route,title,kicker,heading in [('poems.html','Poems','The reading room','Find a poem')]:
+    opening=head(discovery_mark('kendu')+kicker,heading,f'Search {len(publication_poems)} poems by title, poet or a remembered line.').replace('class="eyebrow"','class="eyebrow discovery-label"',1)
 
     page(route,title,discovery_styles+'<div class="poems-artistic" data-collection-reader>'+opening+
         '<section class="section edition-contents collection-contents" aria-label="Find and read poems">'+collection_actions('poems.html','Poems · Kabita Live','collection')+poem_finder+'<div class="finder-summary"><p class="filter-status" id="filter-status" role="status" aria-live="polite" aria-atomic="true"></p><button type="button" id="filter-reset" class="text-link" hidden>Clear search</button></div>'+edition_rows(all_publication_poems,True).replace('<div class="poem-list edition-poem-list">','<div class="poem-list edition-poem-list" id="poem-results">',1)+'<p class="empty" id="empty-results" hidden>No poem found. Try another word, poet or edition, or clear your search.</p>' +'<nav id="poem-pagination" class="poem-pagination" aria-label="Poem results pages" hidden><button type="button" class="btn" id="poems-previous">Previous</button><span id="poems-page" aria-live="polite"></span><button type="button" class="btn" id="poems-next">Next</button></nav><noscript><p>All poems are available below without JavaScript. You can also <a href="archive.html">browse by edition</a>.</p></noscript></section></div>'+collection_reader(all_publication_poems,'assets/reading-all.json'),active='Poems')

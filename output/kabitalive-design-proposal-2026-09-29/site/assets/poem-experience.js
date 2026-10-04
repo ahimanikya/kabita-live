@@ -237,7 +237,7 @@ const prefKey='kabita-live-quiet-tools-v1',bookKey='kabita-live-quiet-bookmarks-
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 function readJSON(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}}
 function writeJSON(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{$('#focus-announcement').textContent='Device storage is unavailable; this change lasts for this visit.';return false}}
-const storedEffects=readJSON(prefKey,{}),effects={motion:storedEffects.motion!==false,sound:storedEffects.sound===true};
+const storedEffects=readJSON(prefKey,{}),effects={motion:storedEffects.motion===true,sound:storedEffects.sound===true};
 let audioContext,selectionCuts=[],selectionTimer,turnLayer=null,turnFrame=0;
 const selectionTools=$('#focus-selection-tools');
 function syncEffects(){
