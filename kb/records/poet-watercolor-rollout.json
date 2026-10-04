@@ -48,7 +48,7 @@
     "viewport-check.json"
   ],
   "work_ref": "KBL-WORK-004",
-  "status": "ready_for_final_deployment",
+  "status": "deployed_with_holds",
   "authorization": "Apply editors watercolor artwork treatment to every poet; user clarified Watercolor artwork for every poet.",
   "counts": {
     "profiles": 427,
@@ -65,7 +65,7 @@
   "execution": "User-authorized recurring heartbeat in this same chat, every 20 minutes; sequential batches of five, no overlapping workers or subagents.",
   "background_authorization": "ok run a batch mode and keep doing it auto mode till it is done - without getting trigger from me",
   "automation_id": "kabita-live-watercolor-portraits",
-  "updated_at": "2026-10-04T08:47:46.057680+00:00",
+  "updated_at": "2026-10-04T09:15:09.848424+00:00",
   "integrated_writer_ids": [
     430,
     423,
@@ -457,5 +457,6 @@
     "resume": "Review application verified; normal queue now final deployment verification writerNone. Do not regenerate saved review work."
   },
   "latest_review_application": "records/likeness-decisions-2026-10-04.json",
-  "deployment_resume": "All actionable photographs processed; reconcile authorized portrait-only final release against latest remote main, preserving concurrent edition releases; verify build/CI, push and manual public-only Pages deploy, live-check, then pause heartbeat. Existing holds stay open."
+  "deployment_resume": "Final rollout deployed and live verified;8 likeness holds and3 missing-source records remain open. Independent author/editor likeness review pending.",
+  "deployment_record": "records/final-portrait-deployment-2026-10-04.json"
 }

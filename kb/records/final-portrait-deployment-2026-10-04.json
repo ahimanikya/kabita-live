@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-04T08:54:21.279134+00:00",
-  "status": "verified_ready_to_commit",
+  "status": "deployed_and_live_verified",
   "base_commit": "367a4f11d98850d365926e252c935e718e575516",
   "release_checkout": "/private/tmp/kbl-final-portraits-20261004",
   "artistic_portraits": 416,
@@ -68,6 +68,25 @@
   ],
   "independent_likeness_review": "pending",
   "authorization": "Final portrait rollout deployment and user-imported likeness decisions; preserve unrelated published changes",
-  "resume": "Commit isolated verified release; push without force; manual preview deploy; verify live assets; pause heartbeat after success",
-  "verification": "416 artistic,8 photo holds,3 generic; all84 batches verified;3530 protected files including unchanged runtime/art plus reading JSON limited to portrait fields;833 poetry payloads unchanged;26 application tests passed,10 rules tests deferred to CI"
+  "resume": "No actionable generation remains. Eight likeness holds and three missing-source records stay open; await further user review or identified sources. Older enrichment/translation automations remain paused.",
+  "verification": "416 artistic,8 photo holds,3 generic; all84 batches verified;3530 protected files including unchanged runtime/art plus reading JSON limited to portrait fields;833 poetry payloads unchanged;26 application tests passed,10 rules tests deferred to CI",
+  "commit": "c7ad97794e3dc02c2558de12777d065c3f11e07b",
+  "operational_notes": [
+    "First upload disconnected without updating remote main; retry with HTTP/1.1 and1GiB post buffer. Local verified commit retained."
+  ],
+  "workflow_id": 37191215799,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37191215799",
+  "deployed_at": "2026-10-04T09:15:09.848424+00:00",
+  "url": "https://ahimanikya.github.io/kabita-live/",
+  "live_checks": {
+    "result": "PASS",
+    "verified_asset_hashes": 1245,
+    "verified_profile_pages": 427,
+    "noindex": true,
+    "active_services_preserved": true,
+    "generic_disclosures": 3,
+    "url": "https://ahimanikya.github.io/kabita-live/"
+  },
+  "evidence": "research/writers/final-portrait-release-2026-10-04/live-verification.json",
+  "portrait_automation": "PAUSED after successful deployment and live verification"
 }

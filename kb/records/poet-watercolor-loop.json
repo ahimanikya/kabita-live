@@ -4,7 +4,7 @@
   "authorization_quote": "ok run a batch mode and keep doing it auto mode till it is done - without getting trigger from me",
   "scope": "Unattended sequential watercolor portrait batches with built-in image edits, local integration and verification in this same chat.",
   "schedule": "Every 20 minutes",
-  "setup_status": "ACTIVE",
+  "setup_status": "PAUSED",
   "automation_created": true,
   "resume_batch": null,
   "resume_writer_id": null,
@@ -30,7 +30,7 @@
   ],
   "completion": "When no actionable portraits remain and all integrated batches are verified, perform authorized final GitHub update and established website deployment, verify live pages/assets, then pause heartbeat and report source/likeness holds separately.",
   "automation_id": "kabita-live-watercolor-portraits",
-  "updated_at": "2026-10-04T08:47:46.057680+00:00",
+  "updated_at": "2026-10-04T09:15:09.848424+00:00",
   "final_deployment_authorization": {
     "recorded_at": "2026-10-02T14:43:53.624294+00:00",
     "user_quote": "Keep doing the loop once all done update git and website",
@@ -425,5 +425,7 @@
       "resolution": "User-selected saved attempt"
     }
   ],
-  "deployment_resume": "All actionable photographs processed; reconcile authorized portrait-only final release against latest remote main, preserving concurrent edition releases; verify build/CI, push and manual public-only Pages deploy, live-check, then pause heartbeat. Existing holds stay open."
+  "deployment_resume": "Final rollout deployed and live verified;8 likeness holds and3 missing-source records remain open. Independent author/editor likeness review pending.",
+  "deployment_record": "records/final-portrait-deployment-2026-10-04.json",
+  "completion_status": "deployed_verified_with_holds"
 }
