@@ -1,0 +1,221 @@
+{
+  "edition": 29,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T10:32:54.733464+00:00",
+  "poems_read": [
+    520,
+    521,
+    522,
+    523,
+    524,
+    525,
+    526,
+    527,
+    528,
+    529,
+    530,
+    531,
+    532,
+    533,
+    534,
+    535,
+    536,
+    537
+  ],
+  "direction": "What remains when arrival or control is uncertain: a creeper entering the waiting room, fallen mango flowers around charcoal after rain, and a wooden puppet with its strings at rest. A dusk threshold, ground-level aftermath and matte object study vary light, material and mood. Witness, brief poetic sequences and a slowly unfolding allegory remain text-led.",
+  "items": [
+    {
+      "id": "the-invitation-remains",
+      "edition": 29,
+      "poem_id": 522,
+      "title": "The invitation remains",
+      "rationale": "Waiting for the guest turns from pride toward trust and uncertainty; the creeper enters when the guest does not. A quiet plant entering a lighted room suggests hospitality without literally assembling grain, parrots, river, god and demon.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/the-invitation-remains-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-29/poem-522.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/poem-522.json",
+      "poem_sha256": "bf246ef5ae22fae4afdd5ff0ac9bedc431ef05ae5e7cbb9dd5bfb18b779b1c87",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-29/the-invitation-remains/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/the-invitation-remains-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-117dc42f-1011-4197-9745-c16afd77a507.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-29/the-invitation-remains/v1.png",
+          "sha256": "5e3c95c61fcbab8297d0e4f3404a9fa78a15b54cac7ce083f4f0d6c0fc5ca502"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T10:32:54.793171+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-117dc42f-1011-4197-9745-c16afd77a507.png",
+      "output_sha256": "5e3c95c61fcbab8297d0e4f3404a9fa78a15b54cac7ce083f4f0d6c0fc5ca502",
+      "saved_at": "2026-10-04T10:34:26.827819+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T10:34:26.875744+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: continuous vine crosses the sill and falls naturally into the room; leaf overlaps and attachment are plausible. Warm interior light reaches only nearby leaves while exterior foliage remains dusk-dark. Window frame, shutter, sill and hinge form a coherent threshold. Slight ordinary wear does not dominate. Open wall leaves room for waiting; no invented guest, divine figure, staged props or documentary claim."
+      },
+      "alt": "A green creeper crosses a window sill into a quietly lighted room at dusk.",
+      "medium_label": "Watercolour and graphite",
+      "public_asset": "assets/poem-art/editions/29/the-invitation-remains-v1.webp",
+      "public_sha256": "60653f95b11b27cce5197562b5abbbb4d5af13bab617b26c5feb749024533d56",
+      "previous_assignment": "search",
+      "integrated_at": "2026-10-04T10:50:55.332489+00:00"
+    },
+    {
+      "id": "mango-flowers-after-rain",
+      "edition": 29,
+      "poem_id": 528,
+      "title": "Mango flowers after rain",
+      "rationale": "The poem’s grieving is held in fallen mango flowers and a split charcoal block after slight rain. A small ground-level aftermath preserves the material and emotional anchor without depicting Phalguni, turning reproductive loss into spectacle or adding war imagery.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/mango-flowers-after-rain-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-29/poem-528.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/poem-528.json",
+      "poem_sha256": "2bf7ad4f27ecb9c82a9e58048d7f56cca550edeee977d5a91325a646dc1143a2",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-29/mango-flowers-after-rain/v2.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/mango-flowers-after-rain-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-a4811c33-9c53-4fe6-9d18-ce0501a40bbe.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-29/mango-flowers-after-rain/v1.png",
+          "sha256": "00da4e3fe3cd986d96dcc75ef479258fa7cb99b0d0a0088d650b418ef7745bf2",
+          "review": {
+            "independent": false,
+            "outcome": "correction_required",
+            "notes": "Blossoms are too large and thick-petalled relative to the narrow mango leaves, approaching ornamental jasmine/frangipani rather than fine fallen mango florets. Reduce scale and definition."
+          }
+        },
+        {
+          "version": 2,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/mango-flowers-after-rain-correction-1.txt",
+          "source": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-29/mango-flowers-after-rain/v1.png",
+          "source_sha256": "00da4e3fe3cd986d96dcc75ef479258fa7cb99b0d0a0088d650b418ef7745bf2",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-9883bedf-6dff-4606-bcd5-f4284af16a83.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-29/mango-flowers-after-rain/v2.png",
+          "sha256": "f03d4478b591f9a908530f40021cce87effc1f9fc3fa63a1f6f6b2a1d3000c9f"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T10:34:26.917116+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-a4811c33-9c53-4fe6-9d18-ce0501a40bbe.png",
+      "output_sha256": "f03d4478b591f9a908530f40021cce87effc1f9fc3fa63a1f6f6b2a1d3000c9f",
+      "saved_at": "2026-10-04T10:40:05.232687+00:00",
+      "correction_prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/mango-flowers-after-rain-correction-1.txt",
+      "correction_started_at": "2026-10-04T10:37:18.704749+00:00",
+      "correction_tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-9883bedf-6dff-4606-bcd5-f4284af16a83.png",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T10:40:05.295326+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size v1/v2 comparison passes: oversized thick blooms have become fine scattered florets on delicate panicle fragments, small relative to the long mango leaves. Two unequal charcoal pieces and the overlapping yellow leaf remain the primary anchor; damp ground, contact and broken material are plausible. Quiet upper-right wash preserves space and restrained grief. No literal child, reproductive event or war scene introduced. Selected v2; v1 and exact correction retained."
+      },
+      "alt": "Fine fallen mango flowers lie around two pieces of charcoal and a yellow leaf on rain-darkened ground.",
+      "medium_label": "Watercolour and gouache",
+      "public_asset": "assets/poem-art/editions/29/mango-flowers-after-rain-v1.webp",
+      "public_sha256": "fd02e23cfa5553686b6ae32e8b635f2c20fa8182f070900a4348d0c08c17ba2c",
+      "previous_assignment": "courtyard-petals",
+      "integrated_at": "2026-10-04T10:50:55.332489+00:00"
+    },
+    {
+      "id": "when-the-strings-rest",
+      "edition": 29,
+      "poem_id": 532,
+      "title": "When the strings rest",
+      "rationale": "The poem sees people as puppets of time while asking that deeds outlast ego. A plain resting marionette makes the dependence visible without inventing a regional folk costume or caricatured human likeness.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/when-the-strings-rest-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-29/poem-532.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/poem-532.json",
+      "poem_sha256": "f7ff496eecaa5b20d129306b7b24b00bbb15c3987782c80493099c8ccecc54da",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-29/when-the-strings-rest/v3.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/when-the-strings-rest-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-cbd4ef04-8094-43df-a57b-9b523fd880d6.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-29/when-the-strings-rest/v1.png",
+          "sha256": "a3d1956acb787af407bcb74b89e91313e19f433a3f68ff59bd02ec1973ee284c",
+          "review": {
+            "independent": false,
+            "outcome": "correction_required",
+            "notes": "Two strings appear to converge at left wrist while knee routing is ambiguous. Clarify exactly four separate supported control strings to the two wrists and two knees."
+          }
+        },
+        {
+          "version": 2,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/when-the-strings-rest-correction-1.txt",
+          "source": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-29/when-the-strings-rest/v1.png",
+          "source_sha256": "a3d1956acb787af407bcb74b89e91313e19f433a3f68ff59bd02ec1973ee284c",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-d5bbfab3-6b9e-446f-8551-bbb5c7dbc432.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-29/when-the-strings-rest/v2.png",
+          "sha256": "49ac24143f0c855cb70675a567d2f6ea1ab19d9db2c3194a794bc0000036007f",
+          "review": {
+            "independent": false,
+            "outcome": "correction_required",
+            "notes": "Four-string repair still leaves ambiguous overlap at the left wrist and obscured knee routing. Simplify the resting toy to two clear arm-control strings, keeping unused cross holes empty."
+          }
+        },
+        {
+          "version": 3,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/when-the-strings-rest-correction-2.txt",
+          "source": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-29/when-the-strings-rest/v2.png",
+          "source_sha256": "49ac24143f0c855cb70675a567d2f6ea1ab19d9db2c3194a794bc0000036007f",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-6ade83e2-aa84-4a36-8158-ac2fc77ee9f0.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-29/when-the-strings-rest/v3.png",
+          "sha256": "72426090fe8788fec3142ca5afca7600fdabf3d00d182bdb17a3423e2b176f57"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T10:40:05.351907+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-cbd4ef04-8094-43df-a57b-9b523fd880d6.png",
+      "output_sha256": "72426090fe8788fec3142ca5afca7600fdabf3d00d182bdb17a3423e2b176f57",
+      "saved_at": "2026-10-04T10:50:17.797539+00:00",
+      "correction_prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/when-the-strings-rest-correction-2.txt",
+      "correction_started_at": "2026-10-04T10:46:15.329124+00:00",
+      "correction_tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-6ade83e2-aa84-4a36-8158-ac2fc77ee9f0.png",
+      "correction_rationale": "Two-arm control is sufficient for the poem’s metaphor; simpler string routing avoids a nonfunctional-looking object while preserving the resting puppet and all cultural-neutral materials.",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T10:50:17.840345+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review of v3 passes: exactly two continuous cotton cords now run from separate cross holes to the two wrists, with empty unused holes and no dangling knee fragments. Wooden joints, two arms and two legs remain coherent, featureless toy head avoids a portrait, and cloth folds support its resting weight. Indigo gouache texture and open right-hand space preserve the poem’s quiet dependence on time. Two correction attempts retained; v3 selected."
+      },
+      "alt": "A plain wooden puppet rests on indigo cloth, two cotton strings connecting its wrists to a wooden cross.",
+      "medium_label": "Gouache and soft graphite",
+      "public_asset": "assets/poem-art/editions/29/when-the-strings-rest-v1.webp",
+      "public_sha256": "ab6be5933870063610434eb1601a208ac1913fa331022949ce684c435958557d",
+      "previous_assignment": "courtyard-petals",
+      "integrated_at": "2026-10-04T10:50:55.332489+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 524,
+      "rationale": "Let the appeal for war-orphaned children stand in words; avoid invented suffering children, statistical graphics or documentary claims.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 527,
+      "rationale": "The haiku and senryu move through many brief encounters and seasons; preserve their pauses without making a scene collage or privileging one poem.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 536,
+      "rationale": "The allegory gradually reveals Gandhi through a child’s recognition. A text-led opening preserves the reveal and avoids a fabricated body or historical likeness.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T10:52:01.683781+00:00",
+  "completed_at": "2026-10-04T10:52:01.683781+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-29.png and mobile-29.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

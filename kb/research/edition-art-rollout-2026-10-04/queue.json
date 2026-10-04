@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T10:51:33.145137+00:00",
+  "updated_at": "2026-10-04T11:05:00.477124+00:00",
   "status": "active",
   "active_batch": null,
-  "next_edition": 29,
+  "next_edition": 26,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
   "publication_checkpoint_editions": 3,
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 29,
+    "remaining_editions": 26,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 45,
+    "new_rollout_artworks": 54,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 18,
-    "estimated_remaining_artworks": 87
+    "estimated_remaining_artworks": 78
   },
   "editions": [
     {
@@ -753,12 +753,24 @@
         536,
         537
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "the-invitation-remains",
+        "mango-flowers-after-rain",
+        "when-the-strings-rest"
+      ],
+      "text_led": [
+        524,
+        527,
+        536
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/batch.json",
+      "direction": "What remains when arrival or control is uncertain: a creeper entering the waiting room, fallen mango flowers around charcoal after rain, and a wooden puppet with its strings at rest. A dusk threshold, ground-level aftermath and matte object study vary light, material and mood. Witness, brief poetic sequences and a slowly unfolding allegory remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T10:52:01.683781+00:00"
     },
     {
       "edition": 28,
@@ -770,12 +782,23 @@
         518,
         519
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "touch-held-in-the-wall",
+        "what-the-tide-brings",
+        "a-blade-beside-the-brook"
+      ],
+      "text_led": [
+        517,
+        518
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-28/batch.json",
+      "direction": "February listens to ordinary traces: touch held by a wall, a small offering at the waterline, and grass beside a brook. Close material study, sparse water wash and low living landscape vary density and medium. The mythic ghazal and the historical comparison remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T10:58:59.850063+00:00"
     },
     {
       "edition": 27,
@@ -791,12 +814,24 @@
         510,
         511
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "the-water-waits",
+        "red-earth-open-sky",
+        "a-quiet-lunar-companion"
+      ],
+      "text_led": [
+        507,
+        508,
+        512
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-27/batch.json",
+      "direction": "January holds absence beside belonging: an empty winter wetland, red soil under a branching tree, and an ordinary small moon. Wide charcoal water, grounded gouache earth and sparse pastel night vary scale and material. Philosophical questions and spiritual ambiguity remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T11:05:00.477124+00:00"
     },
     {
       "edition": 26,
