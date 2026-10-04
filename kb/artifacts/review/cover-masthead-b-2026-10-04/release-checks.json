@@ -1,0 +1,43 @@
+{
+  "base": "e14acf56bef1b37b9924698081863abb0b08da9a",
+  "release": "19c26da84379b2535c41592b3e0064113fb6a980",
+  "protected": {
+    "runtime-config.json": {
+      "sha256": "bc0f7bf28b7b5378f110979a79dae273f81cd5070a78a92fbbe37500324f5955",
+      "unchanged": true
+    },
+    "data/writer-portraits.json": {
+      "sha256": "58b53abbcbef62d4800811faffa12e69e61fe6eb0f4f4f5ecdcee1ca36558ccd",
+      "unchanged": true
+    },
+    "data/edition-art-direction.json": {
+      "sha256": "56abcada326bc24e0e6c5a0ac8ab660991ecb44b9526db0c781ff7509453de55",
+      "unchanged": true
+    },
+    "data/poem-art-assignments.json": {
+      "sha256": "65bc464160cff1291791579abe33f17b4bc9d9e4fb9588796093ef7730bbb1cf",
+      "unchanged": true
+    },
+    "assets/analytics.js": {
+      "sha256": "c9b7ca39f408f2e2a1c64056aa46fa21c87f4a29026f9dd57a2344590f487180",
+      "unchanged": true
+    },
+    "src/engagement.ts": {
+      "sha256": "e9ffcba8e8b7e85610df1562ceac95c306cccaf530ee1e867fe852c2c7fe6a01",
+      "unchanged": true
+    },
+    "firestore.rules": {
+      "sha256": "2bf212208fe639f409a562af257497f051c04b0d217c046d99911eba8aecc2e9",
+      "unchanged": true
+    }
+  },
+  "application_tests": {
+    "passed": 28,
+    "failed": 0,
+    "firestore_deferred_to_workflow": 10
+  },
+  "public_build": "PASS1298pages;1294indexed for onsite search;noindex retained",
+  "all47covers": "verified reviewed SVG typography and existing asset paths",
+  "desktop_mobile": "same-assistant visual checks",
+  "independent": false
+}

@@ -1,7 +1,7 @@
 {
   "recorded_at": "2026-10-04T17:37:03.471038+00:00",
   "authorization": "Love it! Let's publish this",
-  "status": "verified_ready_to_publish",
+  "status": "published_and_live_verified",
   "base_commit": "e14acf56bef1b37b9924698081863abb0b08da9a",
   "scope": "Apply approved gallery mastheadB to all47edition covers, archive/year routes and homepage edition cards. Edition47uses reviewed photographicv2. Preserve all original artwork and current published reader/runtime state.",
   "executor": "Current assistant; Samanta implementation and Drishti self-review",
@@ -12,13 +12,22 @@
   "exact_prompt": "kb/research/home-natural-2026-10-04/cover-subtle-v2-prompt.txt",
   "checks": {
     "public_build": "PASS",
-    "application_tests": "PASS28;10Firestore checks deferred to established workflow",
+    "application_tests": "PASS28",
     "47_edition_markup_and_assets": "PASS",
     "runtime_config_analytics_engagement_portraits_interior_art": "hash-identical to remote baseline",
     "noindex": "preserved",
     "kb_and_gallery_export": "excluded",
-    "desktop_mobile": "reviewed"
+    "desktop_mobile": "reviewed",
+    "firestore_workflow": "PASS10",
+    "live": "All47edition pages and exact artwork hashes, homepage/archive/year routes, CSS, exported runtime and analytics match verified public build",
+    "live_browser": "Desktop cover and360px archive render; fonts loaded; no horizontal overflow",
+    "evidence": "kb/artifacts/review/cover-masthead-b-2026-10-04/live-verification.json"
   },
   "publication_mode": "Existing manually dispatched GitHub Pages preview workflow; DNS unchanged.",
-  "hold": "Edition16existing portrait retained; reference hold remains open."
+  "hold": "Edition16existing portrait retained; reference hold remains open.",
+  "verified_at": "2026-10-04T17:48:03.245464+00:00",
+  "commit": "19c26da84379b2535c41592b3e0064113fb6a980",
+  "workflow_id": 37221420348,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37221420348",
+  "live_url": "https://ahimanikya.github.io/kabita-live/archive.html"
 }
