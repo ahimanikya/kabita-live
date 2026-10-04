@@ -93,8 +93,8 @@ cover_catalogue=json.loads((R/'cover-catalogue.json').read_text())
 cover_by_number={p['number']:p for p in cover_catalogue}
 cover_dates={n:p['date'] for n,p in cover_by_number.items()}
 def cover(n,cls=''):
- p=cover_by_number[n]
- return f'<div class="cover photo-cover cover-{n}"><img src="{p["artwork"]}" srcset="{p["artwork"].replace(".webp","-480.webp")} 480w, {p["artwork"]} 1024w" sizes="(max-width:600px) 90vw, 360px" width="1024" height="1536" loading="lazy" decoding="async" alt="{e(p["alt"])}"><div class="cover-brand"><div class="cover-logo"><img src="assets/kabita-live-symbol-paper.svg" alt=""><span class="cover-title">Kabita Live</span></div><span class="cover-signature" lang="or">ମାଟିର ମହକ · ମନର ସ୍ୱର</span></div><div class="cover-meta"><span>ISSUE {n:02d} · {p["date"]}</span><span>ODIA · HINDI · ENGLISH</span></div></div>'
+ from cover_layout import render_cover
+ return render_cover(R,n,cover_by_number[n]['alt'])
 def coverstory(n):
  p=cover_by_number[n]
  refs=' '.join(f'<a class="text-link" href="{e(ref["url"])}" target="_blank" rel="noopener noreferrer">{e(ref["label"])} ↗</a>' for ref in p.get('sources',[]))
@@ -201,3 +201,6 @@ print(f'Created {len(pages)} linked pages.')
 
 from artwork_replacements import apply_artwork_replacements
 apply_artwork_replacements(R)
+
+from cover_layout import apply_cover_styles
+apply_cover_styles(R)

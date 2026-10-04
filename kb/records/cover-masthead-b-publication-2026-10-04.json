@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-10-04T17:37:03.471038+00:00",
+  "authorization": "Love it! Let's publish this",
+  "status": "verified_ready_to_publish",
+  "base_commit": "e14acf56bef1b37b9924698081863abb0b08da9a",
+  "scope": "Apply approved gallery mastheadB to all47edition covers, archive/year routes and homepage edition cards. Edition47uses reviewed photographicv2. Preserve all original artwork and current published reader/runtime state.",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "selected_gallery": "kb/artifacts/artwork/home-natural-2026-10-04/covers-b/index.html",
+  "review_manifest": "kb/artifacts/artwork/home-natural-2026-10-04/covers-b/manifest.json",
+  "source_master": "kb/artifacts/artwork/home-natural-2026-10-04/cover-subtle-v2.png",
+  "exact_prompt": "kb/research/home-natural-2026-10-04/cover-subtle-v2-prompt.txt",
+  "checks": {
+    "public_build": "PASS",
+    "application_tests": "PASS28;10Firestore checks deferred to established workflow",
+    "47_edition_markup_and_assets": "PASS",
+    "runtime_config_analytics_engagement_portraits_interior_art": "hash-identical to remote baseline",
+    "noindex": "preserved",
+    "kb_and_gallery_export": "excluded",
+    "desktop_mobile": "reviewed"
+  },
+  "publication_mode": "Existing manually dispatched GitHub Pages preview workflow; DNS unchanged.",
+  "hold": "Edition16existing portrait retained; reference hold remains open."
+}

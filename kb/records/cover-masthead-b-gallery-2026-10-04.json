@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-10-04T16:53:20.267280+00:00",
+  "authorization": "User: OK, let's do that — in response to preparing the complete47-cover gallery using selected mastheadB before publication.",
+  "status": "complete_local_review_gallery",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "scope": "47 cover-layout candidates and comparison gallery; reader-site covers and public deployment unchanged.",
+  "selection_record": "kb/records/magazine-masthead-b-selected-2026-10-04.json",
+  "gallery": "kb/artifacts/artwork/home-natural-2026-10-04/covers-b/index.html",
+  "manifest": "kb/artifacts/artwork/home-natural-2026-10-04/covers-b/manifest.json",
+  "builder": "kb/research/cover-masthead-b-2026-10-04/build_gallery.py",
+  "preview_url": "http://127.0.0.1:8771/home-natural-review/covers-b/index.html",
+  "changes": [
+    "Text-only Cormorant Garamond600 at138 on1024x1536canvas; signature preserved",
+    "Per-cover dark/ivory choice and local header/footer gradients; central scene and framing unchanged",
+    "Issue/date metadata sourced from edition catalogue; all47 compared with previous masthead",
+    "Year filter, thumbnail toggle,47linked detail comparisons, previous/next navigation"
+  ],
+  "artwork_review": {
+    "method": "Same-assistant contact-sheet visual review of all47 current artwork sources, followed by browser collection review",
+    "retained_artwork": 46,
+    "existing_refined_study_used": 47,
+    "new_generations": 0,
+    "hold": "Edition16retains existing portrait and unresolved identity/reference hold; visibly flagged",
+    "finding": "Existing variety supports layout rollout without blanket regeneration. No new artwork replacement proposed by this pass."
+  },
+  "checks": {
+    "unique_editions": 47,
+    "comparison_pages": 47,
+    "source_hashes": "pass",
+    "local_links": "pass",
+    "metadata": "pass after normalizing single-digit labels from catalogue",
+    "font_loading": "pass",
+    "clipped_svg_text": "none across47 covers",
+    "desktop_1280": "pass",
+    "mobile_360": "pass; no horizontal overflow",
+    "year_filter": "2022shows2covers; reset shows47",
+    "thumbnail_toggle": "pass",
+    "evidence_directory": "kb/artifacts/review/cover-masthead-b-2026-10-04"
+  },
+  "limitations": [
+    "Self-review, not independent cultural or editorial approval",
+    "Gallery is ready for human review; actual edition/archive cover replacement and publication remain subsequent steps"
+  ],
+  "originals_preserved": true
+}

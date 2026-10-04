@@ -4,6 +4,11 @@ Design system by **Ahimanikya Satapathy**.
 
 The journal should feel like cotton paper, a quiet room and a voice close enough to hear. Art creates atmosphere; poems, names and navigation stay clear. This document separates approved decisions from the component work still to review.
 
+
+## Magazine cover masthead B — approved 4 October 2026
+
+The approved47-cover collection uses a text-only Kabita Live masthead in Cormorant Garamond600, at138units on a1024×1536cover. Preserve the Odia signature, full-bleed composition and edition metadata. Choose dark ink or ivory per the reviewed cover manifest, with localized header/footer shading. The website header keeps its existing symbol. Edition47uses the refined photographic study; edition16retains its existing artwork and unresolved portrait-reference hold. Historical originals remain preserved. See `kb/records/cover-masthead-b-publication-2026-10-04.json`.
+
 ## Approved foundations
 
 | Element | Standard |

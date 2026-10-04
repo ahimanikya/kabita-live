@@ -1,0 +1,41 @@
+{
+  "recorded_at": "2026-10-04T16:37:41.764866+00:00",
+  "authorization": "OK, let's go with B. Now, what do we need to do for all cover",
+  "status": "masthead_selected_rollout_planning",
+  "selected": "B",
+  "specification": {
+    "name": "Kabita Live",
+    "font": "Cormorant Garamond",
+    "weight": 600,
+    "icon_on_magazine_cover": false,
+    "reference_canvas": [
+      1024,
+      1536
+    ],
+    "reference_font_size": 138,
+    "reference_position": [
+      64,
+      184
+    ],
+    "odia_signature": "Preserve existing text and typeface"
+  },
+  "scope": "Selection of magazine masthead B. User asks what is needed for all covers; no blanket regeneration or deployment performed.",
+  "inventory": {
+    "edition_covers": 47,
+    "verified_poetic_natural_artworks": 46,
+    "retained_source_artwork_hold": "cover-016"
+  },
+  "proposed_rollout": [
+    "Use shared masthead and issue-metadata layout across47editions",
+    "Keep each cover identity and full-bleed artwork; tune text contrast per image",
+    "Audit and selectively refine artwork that still looks staged or implausible; preserve originals and provenance",
+    "Verify archive thumbnails, edition pages, shared/downloadable cover outputs and mobile views",
+    "Review the complete cover gallery before publication"
+  ],
+  "executor": "Current assistant",
+  "independent": false,
+  "evidence": [
+    "kb/artifacts/artwork/home-natural-2026-10-04/mastheads.html",
+    "kb/records/magazine-masthead-studies-2026-10-04.json"
+  ]
+}
