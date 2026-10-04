@@ -13,16 +13,12 @@ def apply_home_views(site):
               f'<img id="home-view-image" src="{first["src"]}" srcset="{first["small"]} 768w, {first["src"]} 1536w" '
               'sizes="(max-width:760px) calc(100vw - 40px), (max-width:1224px) 55vw, 640px" '
               f'alt="{escape(first["alt"])}" width="1536" height="1024" fetchpriority="high" decoding="async">'
-              '<figcaption><span class="home-view-caption">'
-              f'<span id="home-view-title">{escape(first["title"])}</span>'
-              '<a class="home-view-credit" href="about.html#home-view-sources">Artwork &amp; sources</a></span>'
-              '<button type="button" class="home-view-next" aria-controls="home-view-image" hidden>Another view <span aria-hidden="true">↗</span></button>'
-              '<span class="home-view-status" role="status" aria-live="polite"></span></figcaption></figure>')
+              f'<figcaption><span id="home-view-title">{escape(first["title"])}</span></figcaption></figure>')
     text, count = re.subn(r'<figure class="home-art">.*?</figure>', lambda _: figure, text, count=1, flags=re.S)
     assert count == 1, 'Homepage artwork missing'
     payload = json.dumps(views, ensure_ascii=False).replace('<', '\\u003c')
-    text = text.replace('</head>', '<link rel="stylesheet" href="assets/home-views.css?v=1"></head>')
-    text = text.replace('</body>', f'<script type="application/json" id="home-view-data">{payload}</script><script defer src="assets/home-views.js?v=1"></script></body>')
+    text = text.replace('</head>', '<link rel="stylesheet" href="assets/home-views.css?v=2"></head>')
+    text = text.replace('</body>', f'<script type="application/json" id="home-view-data">{payload}</script><script defer src="assets/home-views.js?v=2"></script></body>')
     path.write_text(text)
     about = site / 'about.html'
     text = about.read_text()

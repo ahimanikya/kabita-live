@@ -1,11 +1,3 @@
-/* All views share a stable uncropped frame; changes have no animation. */
+/* A quiet image and caption; all views share a stable uncropped frame. */
 .home-refined .home-views>img{height:auto;aspect-ratio:3/2;object-fit:contain;object-position:center}
-.site-theme .home-views figcaption{justify-content:space-between;align-items:flex-start;text-align:left;gap:8px 18px}
-.home-views .home-view-caption{display:flex;flex-direction:column;gap:4px;min-width:0}
-.home-views .home-view-credit{font:11px/1.5 var(--ui);color:var(--muted);text-decoration:underline;text-underline-offset:3px}
-.home-view-next{flex:none;min-height:44px;padding:0 4px;color:var(--rust);font:12px/1.5 var(--ui);text-decoration:underline;text-underline-offset:4px;background:none;border:0;cursor:pointer}
-.home-view-next[hidden]{display:none}
-.home-view-next:focus-visible,.home-view-credit:focus-visible{outline:2px solid var(--rust);outline-offset:4px}
-.home-view-next[aria-disabled=true]{opacity:.6;cursor:wait}
-.home-view-status{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
-@media print{.home-view-next,.home-view-credit{display:none}}
+.site-theme .home-views figcaption{justify-content:flex-start;text-align:left}

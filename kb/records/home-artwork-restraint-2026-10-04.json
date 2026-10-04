@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-04T20:58:20.478938+00:00",
+  "status": "verified_for_publication",
+  "authorization": "I would remove this; let’s make sure we don’t clutter things like this. Artwork & sources Another view",
+  "scope": "Remove both homepage art controls; retain short caption, quiet automatic per-tab image selection, and central Our Story provenance.",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "checks": {
+    "public_build": "PASS",
+    "mobile360": "PASS: zero art links/buttons, artwork loaded, no overflow",
+    "desktop1280": "PASS: no overflow",
+    "session_restore": "PASS: artwork retained after reload",
+    "other_reader_pages": "unchanged"
+  },
+  "publication": "Approved follow-up to the live website refinements."
+}
