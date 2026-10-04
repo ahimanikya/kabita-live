@@ -15,7 +15,7 @@
     "imagegen"
   ],
   "independent": false,
-  "next_action": "Continue authorized local batches from edition44; publish after44/43/42 are verified.",
+  "next_action": "Publish verified editions44/43/42; then resume edition41.",
   "pilot_publication": {
     "status": "deployed_and_live_verified",
     "base_commit": "32fba99f22b2c568b5274454cbf4781367d6f2b5",
@@ -37,7 +37,48 @@
     "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37184644812",
     "url": "https://ahimanikya.github.io/kabita-live/",
     "live_checks": "All9asset hashes and17poem pages verified; text-led controls, noindex and active Firebase/Likes/comments/GA4 configuration preserved.",
-    "verification": "research/edition-art-rollout-2026-10-04/pilot-live-verification.json"
+    "verification": "research/edition-art-rollout-2026-10-04/pilot-live-verification.json",
+    "documentation_commit": "e4e9eb6"
   },
-  "loop_status": "ACTIVE"
+  "loop_status": "ACTIVE",
+  "counts": {
+    "total_editions": 47,
+    "pilot_complete": 3,
+    "remaining_editions": 41,
+    "pilot_artworks": 9,
+    "new_rollout_artworks": 9,
+    "estimated_additional_artworks": 132,
+    "held": 0,
+    "verified_local_unpublished_editions": 3,
+    "published_editions": 3,
+    "estimated_remaining_artworks": 123
+  },
+  "last_completed_batch": "edition-42",
+  "handoff_note": "Portable sync completed for15774 entries. The next storage check detected a newly written portrait storage-check receipt; retrying sync for that documented source-only change. Safety assertions prevented manual overwrites; canonical portraits untouched.",
+  "current_publication": {
+    "id": "checkpoint-44-42",
+    "status": "verified_ready_to_push",
+    "editions": [
+      44,
+      43,
+      42
+    ],
+    "artworks": 9,
+    "text_led": 9,
+    "base_commit": "e4e9eb68791f95748123b74a7956c89ff1fb1a24",
+    "release_checkout": "/private/tmp/kbl-selective-portraits-20261003",
+    "prepared_at": "2026-10-04T07:41:36.332941+00:00",
+    "checks": {
+      "result": "PASS",
+      "protected_files": 1457,
+      "unrelated_reader_pages_unchanged": 781,
+      "reader_payloads_and_controls": 799,
+      "new_assets": 9,
+      "text_led": 9,
+      "noindex": true,
+      "kb_excluded": true,
+      "active_engagement_preserved": true,
+      "base_commit": "e4e9eb68791f95748123b74a7956c89ff1fb1a24"
+    }
+  }
 }

@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3a8ea14fb950fd850dcba8081490a51e32a6ba01f731d44ba6f829ba1773d844`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `233db9c890a3b90b70b5c5395bc925018c450224bafdbb5a42eb93ede1d4ad99`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -162,7 +162,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-344 | 2026-10-02T12:29:01.735706+00:00 | Rechecked remaining writer questions with 23 targeted searches; no new identity or exact translation-credit bridge established. Verified all 427 research drafts against site inputs and all 862 biography paragraphs, 212 book links and 761 source links on both preview and public-build HTML. No reader-content changes, poem holds or publication. | Use original submissions or editor/author confirmation for these three questions; repeat public search only when a new lead is available. These questions do not remove or hold existing poems. |
 | KBL-EVT-345 | 2026-10-02T12:29:19.130286+00:00 | Verified portrait009: five watercolor portraits integrated;49 artistic records total,375 photographs pending,3 missing-photo holds. Build,1862protected files,all source/master hashes and desktop/mobile/circular crops passed. Independent likeness review pending. | Active portrait heartbeat resumes portrait010 writer275; no regeneration of batch009. |
 | KBL-EVT-346 | 2026-10-02T12:47:08.038457+00:00 | Verified portrait-010: five watercolor portraits integrated; 54 artistic records total, 370 photographs pending, 3 missing-photo holds. Build, protected content and portrait hashes, desktop/mobile profiles and all five circular crops passed. Independent likeness review pending; softer source limitations retained. | Active portrait heartbeat resumes portrait-011 writer 439; do not regenerate integrated batch-010 portraits. |
 | KBL-EVT-347 | 2026-10-02T12:47:58.426477+00:00 | Recorded explicit push and hosting authorization. Prepared manual GitHub Pages preview mode with noindex and full-release gate retained. Local unit, author, edition and identity checks passed; clean-checkout CI and deployment pending. DNS unchanged. | Verify committed clean checkout, push current project and dispatch preview hosting; inspect live reader before DNS handoff. |
@@ -172,6 +171,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-449 | 2026-10-03T22:06:53.872161+00:00 | Created source-faithful Human Natural / Poetic Natural watercolor for Shakuntala Gupta360 on direct request; local profile/byline/directory assets integrated. Original preserved; build and author checks pass.300 artistic portraits now local;109 pending,15 likeness holds,3 missing. Removed360 from pending067 to prevent duplicate generation; other queue and automation untouched. No publication. | Author/editor likeness review remains independent and pending; continue the separate portrait queue. |
 | KBL-EVT-450 | 2026-10-03T22:31:50.464048+00:00 | Published Shakuntala Gupta360 Human Natural watercolor at70f581f through manual Pages workflow37158421518. Public artistic portraits now271. Live profile/directory/reader and all3 portrait hashes verified; runtime/consent/noindex preserved. Other unpublished local work excluded. | Independent author/editor likeness review remains pending; separate portrait queue unchanged. |
 | KBL-EVT-468 | 2026-10-04T05:41:53.604491+00:00 | Activated Firebase feedback, reversible Likes and moderated public comments after explicit account-wide CLI OAuth approval. Deployed rules/index;10 emulator and14 production checks pass; all synthetic records/auth identities cleaned. Published scoped flags/privacy copy at e0b9b1c via workflow37180414812; live runtime/assets/control loading verified. GA4 consent, DNS, preview safeguards and unrelated portrait/design work preserved. | Owner reviews pending comments in Firebase Console; staff inbox/accounts and broader abuse controls remain deferred. |
+| KBL-EVT-469 | 2026-10-04T07:41:36.332941+00:00 | Prepared authorized editions44/43/42 checkpoint:9 Human Natural / Poetic Natural interior artworks and9 text-led poem openings. All40 poems read before planning; full snapshots, exact prompts, masters/hashes and desktop/mobile self-review retained. Latest remote portraits, active Firebase engagement, analytics consent, historical covers and poetry preserved. | Build, validate, push and publish through the manual preview workflow; verify live hashes. |
 
 ## Deferred extensions
 

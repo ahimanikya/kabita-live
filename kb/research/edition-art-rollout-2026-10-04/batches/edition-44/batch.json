@@ -1,0 +1,162 @@
+{
+  "edition": 44,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T07:04:54.663849+00:00",
+  "poems_read": [
+    763,
+    762,
+    765,
+    769,
+    768,
+    772,
+    764,
+    771,
+    767,
+    766,
+    770
+  ],
+  "direction": "Care and what remains: pale grey earth, quiet green and restrained tea warmth; intimate domestic ritual, broad changing ground and a near-weightless insect study. New interpretation, not a historical edition theme.",
+  "items": [
+    {
+      "id": "daily-warmth",
+      "edition": 44,
+      "poem_id": 765,
+      "title": "The small daily ceremony",
+      "rationale": "The recurring tea-and-toast ritual expresses care in a long marriage without inventing a couple or romantic spectacle.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-44/daily-warmth-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-44/poem-765.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-44/poem-765.json",
+      "poem_sha256": "c6a5856f64e93bd454b6ebaf2cfec2719dc029a89d956575fdb8c7296540bcec",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-44/daily-warmth/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-44/daily-warmth-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-6f091890-c76a-420d-a764-d6754c08c001.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-44/daily-warmth/v1.png",
+          "sha256": "acdbdf772cf8fca0bfc4d630148f4125b1626927f36539f80ef98fe3d6fe7831"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T07:05:46.115264+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-6f091890-c76a-420d-a764-d6754c08c001.png",
+      "output_sha256": "acdbdf772cf8fca0bfc4d630148f4125b1626927f36539f80ef98fe3d6fe7831",
+      "saved_at": "2026-10-04T07:07:06.520450+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T07:07:06.573565+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size pass: cup, saucer, steel plate and spoon have coherent ellipses and grounded contact; tea bubbles remain modest. Open paper and economical graphite marks make this lighter than the previous street scene. Small leaf decoration on the cup is incidental domestic pattern, not a cultural claim. Toast irregularity is plausible. Daily care remains central; no cinematic steam, people or text."
+      },
+      "alt": "A light watercolor and graphite study of tea, a spoon and toast on an ordinary kitchen counter.",
+      "public_asset": "assets/poem-art/editions/44/daily-warmth-v1.webp",
+      "public_sha256": "7b84cbaeea8276b26909601477a364bc4c6e0d43be0e21a6ab6d9ebea790e574",
+      "previous_assignment": "pond-at-dawn",
+      "integrated_at": "2026-10-04T07:14:28.103427+00:00"
+    },
+    {
+      "id": "river-after-rain",
+      "edition": 44,
+      "poem_id": 767,
+      "title": "What the water leaves",
+      "rationale": "The poem moves from temporary division to fertile connection; a recovering riverbed leaves the daughter metaphor in the words.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-44/river-after-rain-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-44/poem-767.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-44/poem-767.json",
+      "poem_sha256": "074e47a7f18dd224ef910fb4554477abe74e01d898a45c387669baa7f00b59d2",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-44/river-after-rain/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-44/river-after-rain-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-d178bb71-0d97-44b7-b685-9bd3b93141d3.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-44/river-after-rain/v1.png",
+          "sha256": "163e2d3432d67051da7bc546bcca3d2e4b1ead174dac34ce6cf0a6c0ce6041ea"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T07:07:06.615501+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-d178bb71-0d97-44b7-b685-9bd3b93141d3.png",
+      "output_sha256": "163e2d3432d67051da7bc546bcca3d2e4b1ead174dac34ce6cf0a6c0ce6041ea",
+      "saved_at": "2026-10-04T07:10:43.505445+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T07:10:43.546923+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size pass: broad low banks, residual channels and scattered young growth describe receding water coherently. Open sky and pale sediment create air; foreground marks are somewhat detailed but diminish with distance. Fits movement from separation toward shared fertile ground without a literal daughter, bridge or symbolic props. No named geography or documentary claim."
+      },
+      "alt": "Young green growth returns to a broad pale riverbed as shallow water recedes.",
+      "public_asset": "assets/poem-art/editions/44/river-after-rain-v1.webp",
+      "public_sha256": "27ec0aeff60cd5837540b56c7e0ea801714803d702958c340647a46075157093",
+      "previous_assignment": "courtyard-petals",
+      "integrated_at": "2026-10-04T07:14:28.103427+00:00"
+    },
+    {
+      "id": "rain-colour",
+      "edition": 44,
+      "poem_id": 763,
+      "title": "A quieter colour",
+      "rationale": "Choose the closing search for rain-coloured tenderness after the poem rejects spectacular colours; avoid picturing injury or a biographical woman.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-44/rain-colour-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-44/poem-763.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-44/poem-763.json",
+      "poem_sha256": "541a4c6b61bd36727a9f33220d8496ba36506d245a11750c9bdfbe89f6d1bc10",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-44/rain-colour/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-44/rain-colour-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-8c860a92-ec4e-45a3-9290-9344d15f566d.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-44/rain-colour/v1.png",
+          "sha256": "7fc12793d9df717dd37c31b4c6ae7ace39fcc067001b48f19318f066f74fd124"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T07:10:43.584413+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-8c860a92-ec4e-45a3-9290-9344d15f566d.png",
+      "output_sha256": "7fc12793d9df717dd37c31b4c6ae7ace39fcc067001b48f19318f066f74fd124",
+      "saved_at": "2026-10-04T07:12:22.069928+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T07:12:22.118347+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size pass: folded white wings, paired antennae and modest legs meet the grass blade plausibly. Wing silhouette stays light against a pale wash; the insect is not a decorative emblem. Natural overlap, sparse damp ground and dissolving surrounding marks support tenderness without staging roses or injury. No taxonomic or biographical claim, text or watermark."
+      },
+      "alt": "A plain white butterfly rests with folded wings on a grass blade amid pale watercolor washes.",
+      "public_asset": "assets/poem-art/editions/44/rain-colour-v1.webp",
+      "public_sha256": "3a00c3737ce67dff9fdd7179e03375f88b0b673368b10d18bb57563305eab760",
+      "previous_assignment": "archive",
+      "integrated_at": "2026-10-04T07:14:28.103427+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 762,
+      "rationale": "Let the cadence and direct address of the Hindi couplets stand without a stock couple or floral emblem.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 768,
+      "rationale": "The changing mortality metaphors need room; avoid a literal map-and-clock collage.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 770,
+      "rationale": "Keep the dramatic voices and resilience in the poem instead of an ornamental phoenix.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T07:14:28.103427+00:00",
+  "completed_at": "2026-10-04T07:20:28.868504+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; Odia desktop and360px Odia/English text-led layouts inspected. Same-assistant review.",
+    "publication": "Not yet published; next checkpoint44/43/42"
+  }
+}

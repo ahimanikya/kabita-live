@@ -1,0 +1,168 @@
+{
+  "edition": 43,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T07:30:11.910421+00:00",
+  "poems_read": [
+    747,
+    748,
+    749,
+    750,
+    751,
+    752,
+    753,
+    754,
+    755,
+    756,
+    757,
+    758,
+    759,
+    760,
+    761
+  ],
+  "direction": "Keeping company: stored memory, a familiar landscape becoming uncertain, and midnight shadows as companionship. Three different visual densities and media; an interpretation selected for this rollout, not a claim about the original editorial theme.",
+  "items": [
+    {
+      "id": "album-in-trunk",
+      "edition": 43,
+      "poem_id": 748,
+      "title": "The faces we keep",
+      "rationale": "The poem contrasts changing, estranged life outside with faces suspended in an album. Show the act of keeping memory without inventing the people in those photographs.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-43/album-in-trunk-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-43/poem-748.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-43/poem-748.json",
+      "poem_sha256": "7f69447c0e42e4e233df24e0da255365b0237f1f25afe88991c701260b683cfc",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-43/album-in-trunk/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-43/album-in-trunk-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-34d53faf-6a56-441f-86c0-ea2dad018634.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-43/album-in-trunk/v1.png",
+          "sha256": "f7027c59dd9727a872c669364dd450be345c582ea386c0bd4d898d2fa44ded16"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T07:30:11.963984+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-34d53faf-6a56-441f-86c0-ea2dad018634.png",
+      "output_sha256": "f7027c59dd9727a872c669364dd450be345c582ea386c0bd4d898d2fa44ded16",
+      "saved_at": "2026-10-04T07:31:03.852371+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T07:31:03.892852+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review: the closed album is the emotional focus, partly occluded by the trunk lip. Lid hinge and box perspective read coherently; diffuse light falls into the recess. Broad gouache planes retain selective cloth detail without displaying invented faces or text. Warmth survives the restrained palette. No correction required; same-assistant review."
+      },
+      "alt": "A closed red-brown album rests inside an open wooden trunk beside folded cotton cloth, painted in quiet gouache.",
+      "public_asset": "assets/poem-art/editions/43/album-in-trunk-v1.webp",
+      "public_sha256": "22f4edb29e9c1b8c595fca3d8bc0ade15b80c660e41b9a2c5a69043fabaecd93",
+      "previous_assignment": "editorial-desk",
+      "integrated_at": "2026-10-04T07:32:43.900305+00:00",
+      "medium_label": "gouache"
+    },
+    {
+      "id": "fields-before-dark",
+      "edition": 43,
+      "poem_id": 757,
+      "title": "Before the paths disappear",
+      "rationale": "The village poem turns from labour and familiar fields toward unease at dusk. Suggest that threshold without exoticising villagers, identifying a real location, or inventing a threatening animal.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-43/fields-before-dark-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-43/poem-757.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-43/poem-757.json",
+      "poem_sha256": "fff0df852959d7ff8802bb4e86728206f06a9c4dbbe3b50e4f32483aa39b52e8",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-43/fields-before-dark/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-43/fields-before-dark-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2b2533d4-5fc6-4648-af1d-4a8f964d0624.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-43/fields-before-dark/v1.png",
+          "sha256": "26f315a970dd463ce62ff3b5c560a569076c247833f8787b1ef7c6dfab5ed5ad"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T07:31:03.928040+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2b2533d4-5fc6-4648-af1d-4a8f964d0624.png",
+      "output_sha256": "26f315a970dd463ce62ff3b5c560a569076c247833f8787b1ef7c6dfab5ed5ad",
+      "saved_at": "2026-10-04T07:31:50.094503+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T07:31:50.139618+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review: receding irregular field boundaries and a subdued low hill establish ordinary terrain at dusk. Foreground pastel strokes give way to flatter distant washes. Warm horizon remains restrained with no theatrical sun or invented villagers/wildlife. Familiarity and mild uncertainty fit the final turn of the poem; landscape is interpretive, not a claimed Nilagiri record."
+      },
+      "alt": "Charcoal and pastel fields lose their distant boundaries beneath low hills and a fading dusk sky.",
+      "public_asset": "assets/poem-art/editions/43/fields-before-dark-v1.webp",
+      "public_sha256": "bbcc460190092e253b42f7bfffb247a1ca1ad6b91a4f03c62074aeb93150de62",
+      "previous_assignment": "our-story",
+      "integrated_at": "2026-10-04T07:32:43.900305+00:00",
+      "medium_label": "watercolor, pastel and charcoal"
+    },
+    {
+      "id": "companion-shadows",
+      "edition": 43,
+      "poem_id": 760,
+      "title": "Company in the night",
+      "rationale": "Haflong treats midnight shadows as supportive company and introspection rather than fear. Keep the comforting ambiguity in physical foliage shadows; do not depict spirits, dream figures or a literal rainbow.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-43/companion-shadows-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-43/poem-760.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-43/poem-760.json",
+      "poem_sha256": "c96da39dd2da9f6bc660b481bd03b67b7438d64e098fc336a5dd95d85c2a2a0e",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-43/companion-shadows/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-43/companion-shadows-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ce9b79b2-7644-4b74-b5e4-c60564ef3c31.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-43/companion-shadows/v1.png",
+          "sha256": "2e2d09433b0d184627be401399ce61d2aca6f66bb23acd5276f7181e635f5fd8"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T07:31:50.180410+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ce9b79b2-7644-4b74-b5e4-c60564ef3c31.png",
+      "output_sha256": "2e2d09433b0d184627be401399ce61d2aca6f66bb23acd5276f7181e635f5fd8",
+      "saved_at": "2026-10-04T07:32:43.781558+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T07:32:43.820391+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review: overlapping indigo leaf shadows read as gentle company, without faces or supernatural figures. Varied edge softness is plausible for foliage at different distances; jamb and single directional light anchor the abstract wash. Empty wall gives breathing room. Cool restrained palette differs from the album and field compositions; no correction needed."
+      },
+      "alt": "Soft indigo leaf shadows cross a pale wall beside the edge of a wooden window.",
+      "public_asset": "assets/poem-art/editions/43/companion-shadows-v1.webp",
+      "public_sha256": "44eab2adb54dd627059a2e91ea6ecb4f39e84a4382b3cd166734c3ee18c8bc1c",
+      "previous_assignment": "search",
+      "integrated_at": "2026-10-04T07:32:43.900305+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 751,
+      "rationale": "The short marital contrast is strongest as a compact verbal turn; a wedding vignette would prescribe the interpretation.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 758,
+      "rationale": "The shift from literary imitation to personal voice should be encountered directly in its ten lines, without a stock writing desk.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 761,
+      "rationale": "Keep the questions addressed to Time open; neither a clock nor an hourglass adds meaning.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T07:34:26.592360+00:00",
+  "completed_at": "2026-10-04T07:34:26.592360+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-43.png and mobile-43.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}
