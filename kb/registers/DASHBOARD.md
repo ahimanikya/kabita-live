@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `001e99fcb4e6a03ba31a28dfc1d0ba589c6a50a4fcfd279c7978936f76798dcf`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7f4ec98888c7ae913dc26699dbfaef703f352730845d89fab6464bdd449cc328`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -165,7 +165,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-450 | 2026-10-03T22:31:50.464048+00:00 | Published Shakuntala Gupta360 Human Natural watercolor at70f581f through manual Pages workflow37158421518. Public artistic portraits now271. Live profile/directory/reader and all3 portrait hashes verified; runtime/consent/noindex preserved. Other unpublished local work excluded. | Independent author/editor likeness review remains pending; separate portrait queue unchanged. |
 | KBL-EVT-468 | 2026-10-04T05:41:53.604491+00:00 | Activated Firebase feedback, reversible Likes and moderated public comments after explicit account-wide CLI OAuth approval. Deployed rules/index;10 emulator and14 production checks pass; all synthetic records/auth identities cleaned. Published scoped flags/privacy copy at e0b9b1c via workflow37180414812; live runtime/assets/control loading verified. GA4 consent, DNS, preview safeguards and unrelated portrait/design work preserved. | Owner reviews pending comments in Firebase Console; staff inbox/accounts and broader abuse controls remain deferred. |
 | KBL-EVT-469 | 2026-10-04T07:41:36.332941+00:00 | Prepared authorized editions44/43/42 checkpoint:9 Human Natural / Poetic Natural interior artworks and9 text-led poem openings. All40 poems read before planning; full snapshots, exact prompts, masters/hashes and desktop/mobile self-review retained. Latest remote portraits, active Firebase engagement, analytics consent, historical covers and poetry preserved. | Build, validate, push and publish through the manual preview workflow; verify live hashes. |
 | KBL-EVT-470 | 2026-10-04T07:57:16.115040+00:00 | Editions44/43/42 deployed at99aa413, successful workflow37187022373. Verified9 exact live artwork hashes and18 poem pages, with active reader engagement/analytics and noindex preserved. Six editions now have18 new poem-specific illustrations and17 text-led openings. Ongoing local batches remain separate. | Continue local edition41/40/39 checkpoint. Only verified editions42–47 have been published. |
@@ -175,6 +174,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-474 | 2026-10-04T09:15:09.848424+00:00 | Final portrait rollout published at commitc7ad977 through successful manual Pages workflow37191215799. Live checks passed for427 profile pages and1245 asset hashes.416 artistic portraits,8 likeness holds retaining originals,3 labelled generic artworks with source holds open. Imported35 decisions applied; independent author/editor review pending. Existing edition art, active services, consent and noindex preserved. | Pause completed portrait automation; resolve held likenesses only with further review or better identified sources. |
 | KBL-EVT-475 | 2026-10-04T09:14:03.963445+00:00 | Prepared authorized editions38/37/36 checkpoint:9 Human Natural / Poetic Natural interior artworks and9 text-led poem openings. All49 poems read before planning; full snapshots, exact prompts, masters/hashes and desktop/mobile self-review retained. Latest remote portraits, active Firebase engagement, analytics consent, historical covers and poetry preserved. | Build, validate, push and publish through the manual preview workflow; verify live hashes. |
 | KBL-EVT-497 | 2026-10-04T09:23:18.921497+00:00 | Prepared approved closing marks and ending refinements for publication from the latest portrait release.799poems/2373variants,3218protected inputs and1502navigation titles pass;28 application tests and public build pass. Manual Pages preview deployment next. | Commit, push, dispatch manual preview workflow and verify live closing marks, titles and preserved runtime. |
+| KBL-EVT-498 | 2026-10-04T09:34:31.003203+00:00 | Published and live-verified editions38/37/36:9 new poem-informed Human Natural / Poetic Natural illustrations and9 text-led openings. Total36 edition illustrations now live across12 editions. All9 exact asset hashes and18 pages pass; active engagement, consent/noindex settings, historical covers, poetry and remote portraits preserved. Desktop/mobile evidence and exact prompts retained; independent:false. | Resume edition35; publish the next three verified unpublished editions together. Editions36–47 are live. |
 
 ## Deferred extensions
 

@@ -15,7 +15,7 @@
     "imagegen"
   ],
   "independent": false,
-  "next_action": "Publish verified editions38/37/36 after incorporating latest remote portrait release; then resume edition35.",
+  "next_action": "Resume edition35; publish the next three verified unpublished editions together. Editions36–47 are live.",
   "pilot_publication": {
     "status": "deployed_and_live_verified",
     "base_commit": "32fba99f22b2c568b5274454cbf4781367d6f2b5",
@@ -49,15 +49,15 @@
     "new_rollout_artworks": 27,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 9,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 12,
     "estimated_remaining_artworks": 105
   },
   "last_completed_batch": "edition-36",
   "handoff_note": "Edition36 handoff sync passed16151 entries; storage PASS2070 portable links/no errors. Separate final portrait publication is currently in progress and will be preserved in the artwork release base.",
   "current_publication": {
     "id": "checkpoint-38-36",
-    "status": "prepared",
+    "status": "deployed_and_live_verified",
     "editions": [
       38,
       37,
@@ -68,7 +68,12 @@
     "base_commit": "2bd87c9645a6753711fb42f6a1c1ca53786fc610",
     "release_checkout": "/private/tmp/kbl-selective-portraits-20261003",
     "prepared_at": "2026-10-04T09:14:03.963445+00:00",
-    "rebase_note": "Concurrent portrait documentation receipt and AGENTS scope added; no website changes. Both activity events preserved with unique IDs; dashboard regenerated."
+    "rebase_note": "Concurrent portrait documentation receipt and AGENTS scope added; no website changes. Both activity events preserved with unique IDs; dashboard regenerated.",
+    "commit": "fe4b234ab0f18fc32378ae9fc968c254a0c09e31",
+    "workflow_id": 37192204713,
+    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37192204713",
+    "verified_at": "2026-10-04T09:32:58.973425+00:00",
+    "verification": "research/edition-art-rollout-2026-10-04/checkpoint-38-36-live-verification.json"
   },
   "last_handoff_verified_at": "2026-10-04T09:09:17.381245+00:00",
   "handoff_concurrent_source_change": {

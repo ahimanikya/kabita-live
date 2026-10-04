@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T09:07:55.898494+00:00",
+  "updated_at": "2026-10-04T09:34:31.003203+00:00",
   "status": "active",
   "active_batch": null,
   "next_edition": 35,
@@ -16,8 +16,8 @@
     "new_rollout_artworks": 27,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 9,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 12,
     "estimated_remaining_artworks": 105
   },
   "editions": [
@@ -366,7 +366,7 @@
         685,
         687
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "a-pause-with-the-bicycle",
@@ -383,7 +383,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-38/batch.json",
       "direction": "Hunger, current and quiet: an ordinary human pause beside a bicycle, water nourishing small shoots, and an open dark wash. Human scale, intimate ground study and abstraction provide deliberate variety. This is a new reading direction, not a claim about historical editorial intent.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T08:44:48.884888+00:00"
+      "verified_at": "2026-10-04T08:44:48.884888+00:00",
+      "publication_commit": "fe4b234ab0f18fc32378ae9fc968c254a0c09e31",
+      "publication_workflow": 37192204713
     },
     {
       "edition": 37,
@@ -409,7 +411,7 @@
         672,
         673
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "a-kept-pencil-curl",
@@ -426,7 +428,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-37/batch.json",
       "direction": "Things kept and room released: a fragile school-day pencil curl, the remembered blue of a mother’s saree, and a small bird with ample air. Sparse graphite, dense soft textile colour and open gouache vary intimacy and scale. A new poem-informed reading direction, not a historical issue theme.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T08:52:04.120515+00:00"
+      "verified_at": "2026-10-04T08:52:04.120515+00:00",
+      "publication_commit": "fe4b234ab0f18fc32378ae9fc968c254a0c09e31",
+      "publication_workflow": 37192204713
     },
     {
       "edition": 36,
@@ -450,7 +454,7 @@
         654,
         655
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "the-husk-opens",
@@ -467,7 +471,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-36/batch.json",
       "direction": "Unfolding, making and distance: fresh colour in a peeled husk, a tentative carpenter’s joint, and a glass carrying the small movement of the sea. Gouache, charcoal and watercolor create three materially different pauses. This is a new reading interpretation, not a claim about the historical issue theme.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T09:07:55.898494+00:00"
+      "verified_at": "2026-10-04T09:07:55.898494+00:00",
+      "publication_commit": "fe4b234ab0f18fc32378ae9fc968c254a0c09e31",
+      "publication_workflow": 37192204713
     },
     {
       "edition": 35,
