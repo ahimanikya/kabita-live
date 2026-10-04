@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T11:05:00.477124+00:00",
+  "updated_at": "2026-10-04T11:18:16.882092+00:00",
   "status": "active",
   "active_batch": null,
   "next_edition": 26,
@@ -16,8 +16,8 @@
     "new_rollout_artworks": 54,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 18,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 21,
     "estimated_remaining_artworks": 78
   },
   "editions": [
@@ -753,7 +753,7 @@
         536,
         537
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "the-invitation-remains",
@@ -770,7 +770,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-29/batch.json",
       "direction": "What remains when arrival or control is uncertain: a creeper entering the waiting room, fallen mango flowers around charcoal after rain, and a wooden puppet with its strings at rest. A dusk threshold, ground-level aftermath and matte object study vary light, material and mood. Witness, brief poetic sequences and a slowly unfolding allegory remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T10:52:01.683781+00:00"
+      "verified_at": "2026-10-04T10:52:01.683781+00:00",
+      "publication_commit": "c289f6a36a0b0d7dd533843a80ba3d3c81a69251",
+      "publication_workflow": 37197889504
     },
     {
       "edition": 28,
@@ -782,7 +784,7 @@
         518,
         519
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "touch-held-in-the-wall",
@@ -798,7 +800,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-28/batch.json",
       "direction": "February listens to ordinary traces: touch held by a wall, a small offering at the waterline, and grass beside a brook. Close material study, sparse water wash and low living landscape vary density and medium. The mythic ghazal and the historical comparison remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T10:58:59.850063+00:00"
+      "verified_at": "2026-10-04T10:58:59.850063+00:00",
+      "publication_commit": "c289f6a36a0b0d7dd533843a80ba3d3c81a69251",
+      "publication_workflow": 37197889504
     },
     {
       "edition": 27,
@@ -814,7 +818,7 @@
         510,
         511
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "the-water-waits",
@@ -831,7 +835,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-27/batch.json",
       "direction": "January holds absence beside belonging: an empty winter wetland, red soil under a branching tree, and an ordinary small moon. Wide charcoal water, grounded gouache earth and sparse pastel night vary scale and material. Philosophical questions and spiritual ambiguity remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T11:05:00.477124+00:00"
+      "verified_at": "2026-10-04T11:05:00.477124+00:00",
+      "publication_commit": "c289f6a36a0b0d7dd533843a80ba3d3c81a69251",
+      "publication_workflow": 37197889504
     },
     {
       "edition": 26,
