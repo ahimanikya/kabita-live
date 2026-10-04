@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-04T05:29:24.464Z",
+  "project": "kabita-live",
+  "synthetic": true,
+  "checks": {
+    "anonymous_auth": "PASS",
+    "atomic_submission": "PASS",
+    "own_feedback_read": "PASS: permission-denied",
+    "rapid_second_submission": "PASS: permission-denied",
+    "like": "PASS",
+    "duplicate_like": "PASS: permission-denied",
+    "unlike": "PASS",
+    "private_comment_submission": "PASS",
+    "pending_comment_read": "PASS: permission-denied"
+  },
+  "cleanup": {
+    "auth": true,
+    "documents": true,
+    "document_results": [
+      {
+        "path": "feedback/m2iUWBV4xRR9V9pcy2zK",
+        "deleted": true
+      },
+      {
+        "path": "feedback/pUEBSt38dgC5h80r0m7r",
+        "deleted": true
+      },
+      {
+        "path": "poemStats/99999999",
+        "deleted": true
+      },
+      {
+        "path": "poemLikes/99999999/voters/AS2w0Et4OYUo7g7NedjL1fLZinq1",
+        "deleted": true
+      },
+      {
+        "path": "commentSubmissions/h2kWjUfWwduHaMSfa9cp",
+        "deleted": true
+      },
+      {
+        "path": "commentThrottle/AS2w0Et4OYUo7g7NedjL1fLZinq1",
+        "deleted": true
+      },
+      {
+        "path": "feedbackThrottle/AS2w0Et4OYUo7g7NedjL1fLZinq1",
+        "deleted": true
+      }
+    ]
+  },
+  "synthetic_uid": "AS2w0Et4OYUo7g7NedjL1fLZinq1",
+  "synthetic_feedback_id": "m2iUWBV4xRR9V9pcy2zK",
+  "error": {
+    "code": "failed-precondition",
+    "message": "The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/kabita-live/firestore/indexes?create_composite=Cl1wcm9qZWN0cy9rYWJpdGEtbGl2ZS9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvcHVibGljQ29tbWVudHMvaW5kZXhlcy9DSUNBZ09qWGg0RUsQARoKCgZwb2VtSWQQARoPCgtwdWJsaXNoZWRBdBACGgwKCF9fbmFtZV9fEAI"
+  }
+}

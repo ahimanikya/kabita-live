@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-04T05:33:22.514Z",
+  "project": "kabita-live",
+  "ruleset": "projects/kabita-live/rulesets/f2649dfa-6638-4146-874d-b2a14a50abf7",
+  "rules_match_tested_source": true,
+  "rules_sha256": "2bf212208fe639f409a562af257497f051c04b0d217c046d99911eba8aecc2e9",
+  "indexes": [
+    {
+      "name": "projects/kabita-live/databases/(default)/collectionGroups/publicComments/indexes/CICAgOjXh4EK",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "poemId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "publishedAt",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "__name__",
+          "order": "DESCENDING"
+        }
+      ],
+      "state": "READY",
+      "density": "SPARSE_ALL"
+    }
+  ]
+}

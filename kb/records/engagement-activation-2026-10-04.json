@@ -1,0 +1,51 @@
+{
+  "status": "cloud_verified_preparing_website_deployment",
+  "requested_by": "Ahimanikya Satapathy",
+  "authorization": "OK, let\u2019s try now activating it",
+  "scope": [
+    "Activate existing Firebase feedback",
+    "Enable Likes",
+    "Enable editor-moderated public comments"
+  ],
+  "project": "kabita-live",
+  "checked_at": "2026-10-04T05:27:33.674229+00:00",
+  "access_check": "Official Firebase CLI login succeeded as ahimanikya@gmail.com",
+  "independent": false,
+  "production_mutations": true,
+  "resume": [
+    "Complete Google passkey and CLI authorization",
+    "Deploy reviewed rules/index",
+    "Run synthetic production check with cleanup",
+    "Enable flags only after cloud verification",
+    "Deploy scoped public website build; preserve DNS and consent"
+  ],
+  "baseline_commit": "05af0dff9e63c4a0dd752a211a3344f73de75893",
+  "verification_preparation": {
+    "rules": "Existing reviewed rules and moderation contract inspected; ten rule cases passed in prior published GitHub workflow37158421518. No rule changes made.",
+    "local_emulator_retry": "PASS:10 security-rule tests,0 failures,0 skips, using existing /private/tmp/kbl-jre21 runtime. No rules modified.",
+    "google_screen": "Identity verified; Firebase CLI permission screen awaiting explicit approval.",
+    "flags": "Still disabled; no production configuration or data changed."
+  },
+  "handoff_note": "Retried sync after emulator log finalized and concurrent portrait078 evidence changed; unrelated portrait files preserved.",
+  "automatic_review_rejection": {
+    "action": "Click Allow on official Firebase CLI OAuth consent screen",
+    "reason": "User authorized Kabita Live activation but not explicitly the broader account-wide administration grant",
+    "next_action": "Await the explicit permission question; do not bypass."
+  },
+  "explicit_oauth_approval": "User explicitly approved account-wide official Firebase CLI administration and Google Cloud view/edit/configure/delete permissions; use restricted to Kabita Live activation.",
+  "cloud_checks": {
+    "rules": "Deployed rules exactly match tested source",
+    "index": "READY",
+    "synthetic_live": "All14 checks PASS including moderation/public field privacy/withdrawal",
+    "cleanup": "All synthetic documents and Auth identity deleted"
+  },
+  "activation_flags": {
+    "firebase": true,
+    "likes": true,
+    "publicComments": true
+  },
+  "allowed_hosts": [
+    "ahimanikya.github.io"
+  ],
+  "verified_at": "2026-10-04T05:35:09.718051+00:00"
+}

@@ -8,17 +8,19 @@
     ]
   },
   "engagement": {
-    "publicComments": false,
+    "publicComments": true,
     "sharing": true,
     "editorialEmail": "kabitaliveweb@gmail.com",
-    "likes": false
+    "likes": true
   },
   "firebase": {
-    "enabled": false,
+    "enabled": true,
     "projectId": "kabita-live",
     "apiKey": "AIzaSyCKyYzOS5ye01vyQN0-r3IZRNSEPWnLPAE",
     "authDomain": "kabita-live.firebaseapp.com",
     "appId": "1:461114477576:web:6fb2d3b62585037e9b55bd",
-    "allowedHosts": []
+    "allowedHosts": [
+      "ahimanikya.github.io"
+    ]
   }
 }

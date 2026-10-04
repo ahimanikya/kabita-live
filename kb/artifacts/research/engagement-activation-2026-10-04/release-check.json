@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "changed_site_paths": [
+    "output/kabitalive-design-proposal-2026-09-29/site/about.html",
+    "output/kabitalive-design-proposal-2026-09-29/site/runtime-config.json"
+  ],
+  "site_content": "Only privacy paragraph and three activation flags plus allowedHosts changed",
+  "analytics": "Consent-based configuration preserved",
+  "dns": "unchanged",
+  "runtime_sha256": "211534a7168fcebc41d3a4e81e10f2aa4cec41c3bdff6e4902dbfb6fa4cf7dd6",
+  "preview_noindex": true,
+  "tests": "26 application tests pass;10 emulator security tests pass;14 production checks pass;all synthetic records cleaned"
+}

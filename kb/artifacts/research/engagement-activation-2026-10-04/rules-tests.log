@@ -1,0 +1,99 @@
+
+> kabita-live-site@0.1.0 test:rules
+> firebase emulators:exec --only firestore --project demo-kabita-live 'node --test tests/*.rules.test.mjs'
+
+i  emulators: Starting emulators: firestore
+i  emulators: Detected demo project ID "demo-kabita-live", emulated services will use a demo configuration and attempts to access non-emulated services for this project will fail.
+i  firestore: Firestore Emulator logging to firestore-debug.log
+✔  firestore: Firestore Emulator was started in standard edition.
+✔  firestore: Firestore Emulator UI websocket is running on 9150.
+i  Running script: node --test tests/*.rules.test.mjs
+✔ likes toggle atomically; shared count matches two private votes (2488.880125ms)
+[2026-10-04T05:20:14.637Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12b9c error. Code: 7 Message: 7 PERMISSION_DENIED:
+false for 'create' @ L54, false for 'create' @ L105, false for 'update' @ L54, false for 'update' @ L105
+[2026-10-04T05:20:14.665Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12b9d error. Code: 7 Message: 7 PERMISSION_DENIED:
+false for 'create' @ L54, false for 'create' @ L105, false for 'update' @ L54, false for 'update' @ L105
+[2026-10-04T05:20:14.694Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12b9e error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L54:32 for 'create' @ L54, false for 'create' @ L105, evaluation error at L54:32 for 'update' @ L54, false for 'update' @ L105, evaluation error at L43:32 for 'create' @ L43, false for 'create' @ L105, evaluation error at L43:32 for 'update' @ L43, false for 'update' @ L105, false for 'create' @ L54, false for 'create' @ L105
+[2026-10-04T05:20:14.713Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12b9f error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L43:32 for 'create' @ L43, false for 'create' @ L105, evaluation error at L43:32 for 'update' @ L43, false for 'update' @ L105, Null value error. for 'create' @ L43, false for 'create' @ L105
+[2026-10-04T05:20:14.738Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12ba0 error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L54:32 for 'create' @ L54, false for 'create' @ L105, evaluation error at L54:32 for 'update' @ L54, false for 'update' @ L105, Null value error. for 'create' @ L54, false for 'create' @ L105
+[2026-10-04T05:20:14.786Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12ba1 error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L54:32 for 'create' @ L54, false for 'create' @ L105, evaluation error at L54:32 for 'update' @ L54, false for 'update' @ L105, evaluation error at L43:32 for 'create' @ L43, false for 'create' @ L105, evaluation error at L43:32 for 'update' @ L43, false for 'update' @ L105, false for 'update' @ L54, false for 'update' @ L105
+[2026-10-04T05:20:14.815Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12ba2 error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L54:32 for 'create' @ L54, false for 'create' @ L105, evaluation error at L54:32 for 'update' @ L54, false for 'update' @ L105, evaluation error at L43:32 for 'create' @ L43, false for 'create' @ L105, evaluation error at L43:32 for 'update' @ L43, false for 'update' @ L105, false for 'update' @ L54, false for 'update' @ L105
+[2026-10-04T05:20:14.822Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12ba3 error. Code: 7 Message: 7 PERMISSION_DENIED:
+false for 'delete' @ L105
+✔ forged, duplicate, unpaired and unauthenticated likes cannot inflate counts (229.5845ms)
+[2026-10-04T05:20:14.918Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12ba4 error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L65:24 for 'create' @ L65, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L79, false for 'update' @ L105, evaluation error at L83:32 for 'create' @ L83, false for 'create' @ L105, evaluation error at L83:32 for 'update' @ L83, false for 'update' @ L105, false for 'update' @ L83, false for 'update' @ L105, false for 'create' @ L65, false for 'create' @ L105
+[2026-10-04T05:20:14.930Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12ba7 error. Code: 7 Message: 7 PERMISSION_DENIED:
+Property editor is undefined on object. for 'update' @ L79, false for 'update' @ L105, Property editor is undefined on object. for 'update' @ L79, false for 'update' @ L105
+[2026-10-04T05:20:14.941Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12ba8 error. Code: 7 Message: 7 PERMISSION_DENIED:
+Property editor is undefined on object. for 'create' @ L95, false for 'create' @ L105, false for 'update' @ L105, false for 'create' @ L95, false for 'create' @ L105
+✔ comment submission remains private and cannot self-publish or bypass cooldown (119.532875ms)
+[2026-10-04T05:20:14.970Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12ba9 error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L65:24 for 'create' @ L65, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L79, false for 'update' @ L105, evaluation error at L83:32 for 'create' @ L83, false for 'create' @ L105, evaluation error at L83:32 for 'update' @ L83, false for 'update' @ L105, false for 'create' @ L83, false for 'create' @ L105, false for 'create' @ L65, false for 'create' @ L105
+[2026-10-04T05:20:14.986Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12baa error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L65:24 for 'create' @ L65, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L79, false for 'update' @ L105, evaluation error at L83:32 for 'create' @ L83, false for 'create' @ L105, evaluation error at L83:32 for 'update' @ L83, false for 'update' @ L105, false for 'create' @ L83, false for 'create' @ L105, false for 'create' @ L65, false for 'create' @ L105
+[2026-10-04T05:20:14.999Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12bab error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L65:24 for 'create' @ L65, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L79, false for 'update' @ L105, evaluation error at L83:32 for 'create' @ L83, false for 'create' @ L105, evaluation error at L83:32 for 'update' @ L83, false for 'update' @ L105, false for 'create' @ L83, false for 'create' @ L105, false for 'create' @ L65, false for 'create' @ L105
+[2026-10-04T05:20:15.014Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12bac error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L65:24 for 'create' @ L65, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L79, false for 'update' @ L105, evaluation error at L83:32 for 'create' @ L83, false for 'create' @ L105, evaluation error at L83:32 for 'update' @ L83, false for 'update' @ L105, false for 'create' @ L65, false for 'create' @ L105
+[2026-10-04T05:20:15.027Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12bad error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L65:24 for 'create' @ L65, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L79, false for 'update' @ L105, evaluation error at L83:32 for 'create' @ L83, false for 'create' @ L105, evaluation error at L83:32 for 'update' @ L83, false for 'update' @ L105, false for 'create' @ L83, false for 'create' @ L105, false for 'create' @ L65, false for 'create' @ L105
+[2026-10-04T05:20:15.041Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12bae error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L65:24 for 'create' @ L65, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L79, false for 'update' @ L105, evaluation error at L83:32 for 'create' @ L83, false for 'create' @ L105, evaluation error at L83:32 for 'update' @ L83, false for 'update' @ L105, false for 'create' @ L83, false for 'create' @ L105, false for 'create' @ L65, false for 'create' @ L105
+[2026-10-04T05:20:15.058Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12baf error. Code: 7 Message: 7 PERMISSION_DENIED:
+false for 'create' @ L65, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L79, false for 'update' @ L105, evaluation error at L83:32 for 'create' @ L83, false for 'create' @ L105, evaluation error at L83:32 for 'update' @ L83, false for 'update' @ L105, false for 'create' @ L65, false for 'create' @ L105
+[2026-10-04T05:20:15.083Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12bb0 error. Code: 7 Message: 7 PERMISSION_DENIED:
+false for 'create' @ L65, false for 'create' @ L105, false for 'update' @ L79, false for 'update' @ L105
+✔ comment rules reject forged identities, extra private fields, oversized text and missing consent version (141.273125ms)
+[2026-10-04T05:20:15.140Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12bb3 error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L95:24 for 'create' @ L95, false for 'create' @ L105, false for 'update' @ L105, false for 'create' @ L95, false for 'create' @ L105
+[2026-10-04T05:20:15.206Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x88e12bb4 error. Code: 7 Message: 7 PERMISSION_DENIED:
+false for 'update' @ L105
+✔ editor publishes only approved original fields; public queries are bounded; withdrawal removes public text (128.620625ms)
+✔ valid private submission; public, own-user and cross-user reads denied; editor can read (2426.425ms)
+[2026-10-04T05:20:14.576Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x8faed9f9 error. Code: 7 Message: 7 PERMISSION_DENIED:
+false for 'create' @ L8, false for 'create' @ L105, false for 'update' @ L24, false for 'update' @ L105
+[2026-10-04T05:20:14.609Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x8faed9fa error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L8:24 for 'create' @ L8, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L105, false for 'create' @ L28, false for 'create' @ L105, false for 'update' @ L28, false for 'update' @ L105
+✔ unauthenticated writes and forged owner denied (79.691542ms)
+[2026-10-04T05:20:14.655Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x8faed9fb error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L8:24 for 'create' @ L8, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L105, evaluation error at L28:32 for 'create' @ L28, false for 'create' @ L105, evaluation error at L28:32 for 'update' @ L28, false for 'update' @ L105, false for 'create' @ L8, false for 'create' @ L105
+[2026-10-04T05:20:14.674Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x8faed9fc error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L8:24 for 'create' @ L8, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L105, evaluation error at L28:32 for 'create' @ L28, false for 'create' @ L105, evaluation error at L28:32 for 'update' @ L28, false for 'update' @ L105, false for 'create' @ L8, false for 'create' @ L105
+[2026-10-04T05:20:14.696Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x8faed9fd error. Code: 7 Message: 7 PERMISSION_DENIED:
+false for 'create' @ L8, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L105, evaluation error at L28:32 for 'create' @ L28, false for 'create' @ L105, evaluation error at L28:32 for 'update' @ L28, false for 'update' @ L105, false for 'create' @ L8, false for 'create' @ L105
+[2026-10-04T05:20:14.720Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x8faed9fe error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L8:24 for 'create' @ L8, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L105, evaluation error at L28:32 for 'create' @ L28, false for 'create' @ L105, evaluation error at L28:32 for 'update' @ L28, false for 'update' @ L105, false for 'create' @ L8, false for 'create' @ L105
+[2026-10-04T05:20:14.742Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x8faed9ff error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L8:24 for 'create' @ L8, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L105, evaluation error at L28:32 for 'create' @ L28, false for 'create' @ L105, evaluation error at L28:32 for 'update' @ L28, false for 'update' @ L105, false for 'create' @ L28, false for 'create' @ L105, false for 'create' @ L8, false for 'create' @ L105
+✔ client cannot self-approve, add fields, backdate or oversize (133.128333ms)
+[2026-10-04T05:20:14.807Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x8faeda00 error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L8:24 for 'create' @ L8, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L105, evaluation error at L28:32 for 'create' @ L28, false for 'create' @ L105, evaluation error at L28:32 for 'update' @ L28, false for 'update' @ L105, false for 'create' @ L8, false for 'create' @ L105
+[2026-10-04T05:20:14.818Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x8faeda01 error. Code: 7 Message: 7 PERMISSION_DENIED:
+false for 'create' @ L8, false for 'create' @ L105, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L105, false for 'create' @ L8, false for 'create' @ L105
+✔ cooldown and missing atomic throttle denied (75.143958ms)
+[2026-10-04T05:20:14.875Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x8faeda02 error. Code: 7 Message: 7 PERMISSION_DENIED:
+Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L105, Property editor is undefined on object. for 'update' @ L24, false for 'update' @ L105
+[2026-10-04T05:20:14.917Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x8faeda03 error. Code: 7 Message: 7 PERMISSION_DENIED:
+evaluation error at L24:24 for 'update' @ L24, false for 'update' @ L105, false for 'update' @ L24, false for 'update' @ L105
+[2026-10-04T05:20:14.926Z]  @firebase/firestore: Firestore (12.19.0): GrpcConnection RPC 'Write' stream 0x8faeda04 error. Code: 7 Message: 7 PERMISSION_DENIED:
+false for 'create' @ L105, false for 'update' @ L105
+✔ reader cannot edit, editor can change status but not rewrite text, comments collection denied (108.904917ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3651.117959
+✔  Script exited successfully (code 0)
+i  emulators: Shutting down emulators.
+i  firestore: Stopping Firestore Emulator
+i  hub: Stopping emulator hub
+i  logging: Stopping Logging Emulator

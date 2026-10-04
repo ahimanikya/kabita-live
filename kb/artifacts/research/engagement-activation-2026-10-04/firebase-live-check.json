@@ -1,0 +1,69 @@
+{
+  "at": "2026-10-04T05:33:50.121Z",
+  "project": "kabita-live",
+  "synthetic": true,
+  "checks": {
+    "anonymous_auth": "PASS",
+    "atomic_submission": "PASS",
+    "own_feedback_read": "PASS: permission-denied",
+    "rapid_second_submission": "PASS: permission-denied",
+    "like": "PASS",
+    "duplicate_like": "PASS: permission-denied",
+    "unlike": "PASS",
+    "private_comment_submission": "PASS",
+    "pending_comment_read": "PASS: permission-denied",
+    "public_comment_index": "PASS",
+    "owner_approval_and_public_display": "PASS",
+    "public_field_privacy": "PASS",
+    "public_withdrawal": "PASS",
+    "unauthenticated_feedback_read": "PASS: permission-denied"
+  },
+  "cleanup": {
+    "auth": true,
+    "documents": true,
+    "document_results": [
+      {
+        "path": "feedback/QLnEy71k66neeMoOcOZZ",
+        "deleted": true
+      },
+      {
+        "path": "feedback/R8pt64ILQ7PAQRshc2u5",
+        "deleted": true
+      },
+      {
+        "path": "poemStats/99999999",
+        "deleted": true
+      },
+      {
+        "path": "poemLikes/99999999/voters/ix4MDg6jn9Zg4r41qVG0DDGUXn82",
+        "deleted": true
+      },
+      {
+        "path": "commentSubmissions/oGcMbeaNmfrIDvvT2nnu",
+        "deleted": true
+      },
+      {
+        "path": "commentThrottle/ix4MDg6jn9Zg4r41qVG0DDGUXn82",
+        "deleted": true
+      },
+      {
+        "path": "publicComments/oGcMbeaNmfrIDvvT2nnu",
+        "deleted": true
+      },
+      {
+        "path": "feedbackThrottle/ix4MDg6jn9Zg4r41qVG0DDGUXn82",
+        "deleted": true
+      }
+    ]
+  },
+  "synthetic_uid": "ix4MDg6jn9Zg4r41qVG0DDGUXn82",
+  "synthetic_feedback_id": "QLnEy71k66neeMoOcOZZ",
+  "synthetic_comment_id": "oGcMbeaNmfrIDvvT2nnu",
+  "cleanup_paths": [
+    "poemStats/99999999",
+    "poemLikes/99999999/voters/ix4MDg6jn9Zg4r41qVG0DDGUXn82",
+    "commentSubmissions/oGcMbeaNmfrIDvvT2nnu",
+    "commentThrottle/ix4MDg6jn9Zg4r41qVG0DDGUXn82",
+    "publicComments/oGcMbeaNmfrIDvvT2nnu"
+  ]
+}
