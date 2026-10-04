@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-04T06:15:46.313749+00:00",
-  "status": "completed_local_review",
+  "status": "published_verified",
   "work_ref": "KBL-WORK-021",
   "decision_ref": "KBL-DEC-045",
   "authorization": [
@@ -24,7 +24,7 @@
     814,
     786
   ],
-  "next_action": "Review the completed local gallery. Expansion and publication require subsequent user direction.",
+  "next_action": "Pilot published. Continue all-edition expansion under KBL-WORK-022.",
   "checks": {
     "public_build": "PASS: three sequential edition builds, final public assets present",
     "pilot_integrity": "PASS:801 poem source files,603 cover assets,833 stored reader payloads unchanged; generic mapping798unchanged; controls checked across799active routes",
@@ -47,8 +47,14 @@
   "limitations": [
     "Interpretive artwork, not documentary depictions or author/editor endorsements.",
     "Same-assistant visual review; independent editorial review remains pending.",
-    "Shared imagery elsewhere remains unchanged; this is a bounded three-edition pilot.",
-    "No public deployment or Git push."
+    "Shared imagery elsewhere remains unchanged; this is a bounded three-edition pilot."
   ],
-  "completed_at": "2026-10-04T06:41:11.723479+00:00"
+  "completed_at": "2026-10-04T06:41:11.723479+00:00",
+  "publication": {
+    "authorized_by": "KBL-DEC-046",
+    "commit": "11ebcb697f4cef1ccdb35cf8161f3258682bc568",
+    "workflow": 37184644812,
+    "status": "deployed_and_live_verified",
+    "verified_at": "2026-10-04T07:15:21.281225+00:00"
+  }
 }

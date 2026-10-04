@@ -15,9 +15,9 @@
     "imagegen"
   ],
   "independent": false,
-  "next_action": "Publish pilot from a clean release checkout based on latest main; read edition44 and begin its batch.",
+  "next_action": "Continue authorized local batches from edition44; publish after44/43/42 are verified.",
   "pilot_publication": {
-    "status": "verified_ready_to_push",
+    "status": "deployed_and_live_verified",
     "base_commit": "32fba99f22b2c568b5274454cbf4781367d6f2b5",
     "release_checkout": "/private/tmp/kbl-selective-portraits-20261003",
     "checks": {
@@ -28,7 +28,16 @@
       "scoped_pages": 17,
       "noindex_and_kb_exclusion": "PASS",
       "scope": "Two builder updates,9derivatives,17generated poem pages and supporting pilot/rollout records; existing remote portraits, engagement and other design files preserved."
-    }
+    },
+    "commit": "11ebcb697f4cef1ccdb35cf8161f3258682bc568",
+    "remote_main_verified": true,
+    "transport_note": "Initial HTTP400 push retried successfully with HTTP1.1/larger request buffer. Deployment approval initially rejected on stale main evidence; remote ref and GitHub API independently confirmed new commit, then deployment retry was accepted.",
+    "verified_at": "2026-10-04T07:15:21.281225+00:00",
+    "workflow_id": 37184644812,
+    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37184644812",
+    "url": "https://ahimanikya.github.io/kabita-live/",
+    "live_checks": "All9asset hashes and17poem pages verified; text-led controls, noindex and active Firebase/Likes/comments/GA4 configuration preserved.",
+    "verification": "research/edition-art-rollout-2026-10-04/pilot-live-verification.json"
   },
   "loop_status": "ACTIVE"
 }

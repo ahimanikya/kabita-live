@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ed20f01c67135e1eee460080c96844d3659647f8759db01deea6ddc9669e35ac`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3a8ea14fb950fd850dcba8081490a51e32a6ba01f731d44ba6f829ba1773d844`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -32,7 +32,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-WORK-017 · Add Facebook Page to shared website footer | completed | applied | Ahimanikya Satapathy | Review local preview; publish with the authorized migration/release. | — |
 | KBL-WORK-018 · Prepare editor design proposal and heads-up | completed | applied | Ahimanikya Satapathy | User shares proposal and heads-up; gather editor feedback before website walkthrough. | — |
 | KBL-WORK-019 · Firebase activation, Likes and moderated public comments | completed | applied | Ahimanikya Satapathy | Firebase feedback, Likes and moderated comments are live and verified. Owner reviews comments in Firebase Console. Dedicated editor inbox, reader accounts, cloud bookmarks and DNS remain deferred. | — |
-| KBL-WORK-021 · Edition-specific interior artwork pilot | completed | reviewed | Ahimanikya Satapathy | Nine new edition-specific illustrations and eight text-led openings verified locally. Review gallery before separately authorized publication or expansion; pilot heartbeat paused. | — |
+| KBL-WORK-021 · Edition-specific interior artwork pilot | completed | applied | Ahimanikya Satapathy | Pilot published and live verified at11ebcb6; all-edition expansion continues underKBL-WORK-022. | — |
 | KBL-WORK-022 · Edition-specific art across all47editions and verified publication | in_progress | draft | Ahimanikya Satapathy | Publish pilot from a clean release checkout based on latest main; read edition44 and begin its batch. | — |
 
 ## Pending human review and decisions

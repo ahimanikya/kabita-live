@@ -30,5 +30,12 @@
     "secret_pattern_scan": "Four HTML artifacts contained false-positive AWS-like strings entirely within embedded font data; no credential candidate found"
   },
   "remaining_editorial_items": "Preserved in KB; this hosted preview does not certify full content release readiness.",
-  "dns_change": "Deferred until hosted-site review"
+  "dns_change": "Deferred until hosted-site review",
+  "edition_art_pilot_2026_10_04": {
+    "commit": "11ebcb697f4cef1ccdb35cf8161f3258682bc568",
+    "workflow_id": 37184644812,
+    "status": "deployed_and_live_verified",
+    "record": "records/edition-art-pilot-publication-2026-10-04.json",
+    "scope": "9new interior artworks and8text-led openings in editions45–47; active services and latest published portraits preserved; DNS unchanged."
+  }
 }

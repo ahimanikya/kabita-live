@@ -3,12 +3,7 @@
   "created_at": "2026-10-04T06:53:59.990674+00:00",
   "updated_at": "2026-10-04T06:53:59.990674+00:00",
   "status": "active",
-  "active_batch": {
-    "id": "pilot-publication",
-    "owner": "current-chat-assistant",
-    "status": "running",
-    "started_at": "2026-10-04T06:55:22.704017+00:00"
-  },
+  "active_batch": null,
   "next_edition": 44,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
@@ -44,12 +39,13 @@
         821,
         822
       ],
-      "status": "pilot_verified_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 0,
       "artworks": [],
       "text_led": [],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": "records/edition-art-pilot-2026-10-04.json"
+      "pilot_record": "records/edition-art-pilot-2026-10-04.json",
+      "publication_commit": "11ebcb697f4cef1ccdb35cf8161f3258682bc568"
     },
     {
       "edition": 46,
@@ -76,12 +72,13 @@
         806,
         807
       ],
-      "status": "pilot_verified_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 0,
       "artworks": [],
       "text_led": [],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": "records/edition-art-pilot-2026-10-04.json"
+      "pilot_record": "records/edition-art-pilot-2026-10-04.json",
+      "publication_commit": "11ebcb697f4cef1ccdb35cf8161f3258682bc568"
     },
     {
       "edition": 45,
@@ -103,12 +100,13 @@
         786,
         787
       ],
-      "status": "pilot_verified_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 0,
       "artworks": [],
       "text_led": [],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": "records/edition-art-pilot-2026-10-04.json"
+      "pilot_record": "records/edition-art-pilot-2026-10-04.json",
+      "publication_commit": "11ebcb697f4cef1ccdb35cf8161f3258682bc568"
     },
     {
       "edition": 44,
