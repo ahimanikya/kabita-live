@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T15:38:28.152085+00:00",
+  "updated_at": "2026-10-04T15:48:17.977745+00:00",
   "status": "active",
   "active_batch": null,
   "next_edition": 2,
@@ -16,8 +16,8 @@
     "new_rollout_artworks": 125,
     "estimated_additional_artworks": 132,
     "held": 1,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 42,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 45,
     "estimated_remaining_artworks": 6
   },
   "editions": [
@@ -1738,7 +1738,7 @@
         163,
         166
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "the-red-soap-dish",
@@ -1755,7 +1755,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-5/batch.json",
       "direction": "March gives familiar things room to speak: a red soap dish that has outlasted fashion, leaves heard as song, and petals fallen from a diary. Gouache, charcoal wash and pastel vary material and viewpoint. Political conscience, women’s agency and ideological address remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T15:16:22.226401+00:00"
+      "verified_at": "2026-10-04T15:16:22.226401+00:00",
+      "publication_commit": "070e13295929fd8cda57f1b38c63f4bfe346a003",
+      "publication_workflow": 37213942073
     },
     {
       "edition": 4,
@@ -1805,7 +1807,7 @@
         132,
         145
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "dinner-without-the-familiar-voice",
@@ -1822,7 +1824,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-4/batch.json",
       "direction": "February moves between a meal altered by grief, a moment of lightness above clouds and water waiting for a friend. Gouache, pastel and transparent watercolor give each a different distance and mood. Non-arrival, imposed widowhood and a child’s poverty stay text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T15:27:18.667042+00:00"
+      "verified_at": "2026-10-04T15:27:18.667042+00:00",
+      "publication_commit": "070e13295929fd8cda57f1b38c63f4bfe346a003",
+      "publication_workflow": 37213942073
     },
     {
       "edition": 3,
@@ -1874,7 +1878,7 @@
         88,
         89
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "a-room-not-yet-lived-in",
@@ -1891,7 +1895,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-3/batch.json",
       "direction": "January brings provisional belonging, household humour and memory into a room being prepared, an attentive bird and a red sari in late light. Graphite, transparent watercolor and pastel vary the visual voice. Personal distress, exploitation and a call for simple poetry stay text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T15:38:28.152085+00:00"
+      "verified_at": "2026-10-04T15:38:28.152085+00:00",
+      "publication_commit": "070e13295929fd8cda57f1b38c63f4bfe346a003",
+      "publication_workflow": 37213942073
     },
     {
       "edition": 2,
