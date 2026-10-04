@@ -1,12 +1,24 @@
 {
   "recorded_at": "2026-10-04T09:23:18.921497+00:00",
-  "status": "verified_ready_to_publish",
+  "status": "published_and_verified",
   "user_quote": "apply",
   "context": "User requested application after reviewing the locally applied ending refinement; prior instruction in this conversation requested pushing fixes and updating the website.",
   "scope": "Publish only approved closing marks and ending refinement using the established manual public-only Pages preview workflow. Preserve current portraits, artwork, poem text, consent, runtime, noindex and DNS.",
   "independent": false,
-  "base_commit": "c7ad97794e3dc02c2558de12777d065c3f11e07b",
+  "base_commit": "fe4b234ab0f18fc32378ae9fc968c254a0c09e31",
   "release_checkout": "/Users/ahimanikya/.codex/worktrees/poem-ending-publication/Kabita Live",
   "verification": "research/poem-ending-release-2026-10-04/verification.json",
-  "checks": "28 application tests passed;10 emulator-dependent rules tests run in mandatory publication CI. Build and all3218protected input hashes pass;799poems/2373language variants preserved;1502neighbouring titles verified."
+  "checks": "GitHub build, application tests, Firebase rules tests and Pages deployment passed. Live asset/payload hashes match;799poems present in the all-poem reader; five representative page endings, navigation and existing art verified.",
+  "commit": "48934b0ebe6c9bc99c7ff2b3a5bf3fcb9b855b6b",
+  "workflow_id": 37192467335,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37192467335",
+  "scope_audit": "research/poem-ending-release-2026-10-04/scope-audit.json",
+  "operational_notes": [
+    "Automatic approval initially rejected the broad generated diff; full semantic comparison proved only approved deltas and unchanged existing records, then retry was approved.",
+    "Rebased onto newly published editions36–38 and repeated build, content protection and full scope audit.",
+    "Initial upload disconnected without updating main; successful retry used HTTP/1.1 and1GiB post buffer."
+  ],
+  "deployed_at": "2026-10-04T09:38:10.955117+00:00",
+  "url": "https://ahimanikya.github.io/kabita-live/",
+  "live_verification": "research/poem-ending-release-2026-10-04/live-verification.json"
 }

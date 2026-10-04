@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "commit": "48934b0ebe6c9bc99c7ff2b3a5bf3fcb9b855b6b",
+  "base": "fe4b234ab0f18fc32378ae9fc968c254a0c09e31",
+  "total_changed_files": 1380,
+  "categories": {
+    "existing_kb_files": 6,
+    "new_task_only_evidence_files": 43,
+    "new_closing_mark_sources": 5,
+    "reviewed_source_files": 6,
+    "reader_json_only_end_mark_added": 473,
+    "html_only_approved_ending_markup_and_asset_versions": 847
+  },
+  "generated_html_semantics": "Only closing-mark nodes, approved previous/next presentation, end_mark JSON fields and reader asset cache versions differ. All navigation targets and other DOM tokens preserved.",
+  "knowledge_records": "Existing records unchanged; only DEC047/048/049 and one deployment event added; design/review references append-only.",
+  "errors": []
+}
