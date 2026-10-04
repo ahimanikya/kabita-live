@@ -1,0 +1,184 @@
+{
+  "edition": 40,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T08:09:08.706562+00:00",
+  "poems_read": [
+    708,
+    709,
+    710,
+    711,
+    712,
+    713,
+    714,
+    715,
+    716,
+    717,
+    718,
+    719,
+    720,
+    721
+  ],
+  "direction": "What is kept, what fades, what waits: an unopened everyday object, an eroding trace of labour and one light in a settled night. Three different distances, densities and emotional registers; interpretation for this rollout, not a historical editorial theme.",
+  "items": [
+    {
+      "id": "kept-unopened",
+      "edition": 40,
+      "poem_id": 721,
+      "title": "The unspent fragrance",
+      "rationale": "The soap poem turns from possessive use and diminishing substance toward leaving a fresh wrapper untouched. Focus on that final restraint rather than a beauty-product display or bathing figure.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-40/kept-unopened-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-40/poem-721.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-40/poem-721.json",
+      "poem_sha256": "1c4928da7dfc2e89edea001e99582bea44dde4771d2c7863298d9f43127e3d91",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-40/kept-unopened/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-40/kept-unopened-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-e4c8f964-eeba-45fe-b605-ca97e70042c6.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-40/kept-unopened/v1.png",
+          "sha256": "5f6d35f2384805957de49bec9af7877449118cdc6ec37d0a182fe506db1f634d"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T08:09:08.799018+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-e4c8f964-eeba-45fe-b605-ca97e70042c6.png",
+      "output_sha256": "5f6d35f2384805957de49bec9af7877449118cdc6ec37d0a182fe506db1f634d",
+      "saved_at": "2026-10-04T08:10:30.748561+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T08:10:30.789444+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review: a plain closed wrapper is the focus, with believable folded seams, shelf contact and soft light fading into the cupboard. Cropped cotton and cabinetry keep the setting ordinary; no beauty-ad props or intrusive lettering. The intact packet supports the ending’s restraint without inventing a body or an author scene. Gouache surface and selective edges remain coherent."
+      },
+      "alt": "An unopened paper-wrapped soap bar rests on a wooden cupboard shelf beside a cropped folded cloth.",
+      "medium_label": "gouache",
+      "public_asset": "assets/poem-art/editions/40/kept-unopened-v1.webp",
+      "public_sha256": "2e65d3c3c37292d40875291623bb298a0c91cd0a41ed1beacaa84fceb8ece317",
+      "previous_assignment": "archive",
+      "integrated_at": "2026-10-04T08:15:42.076618+00:00"
+    },
+    {
+      "id": "trace-in-brick",
+      "edition": 40,
+      "poem_id": 712,
+      "title": "The trace that fades",
+      "rationale": "Tacitly So asks what remains of labour, letters and trees when time erases their traces. Choose a single brick surface to give the lost maker room in the reader’s imagination, without drawing a fingerprint icon or a noun collage.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-40/trace-in-brick-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-40/poem-712.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-40/poem-712.json",
+      "poem_sha256": "8676644045032feff8e6c074bb3dac815de92ed32aa73e13a1fda715eb85fa3d",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-40/trace-in-brick/v2.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-40/trace-in-brick-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-c58275a0-e59f-4f58-8ea1-e14d23d3386f.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-40/trace-in-brick/v1.png",
+          "sha256": "7540c3192ea1c52e5d1a675653a105175b6349891a9eadd581f34d5442842206",
+          "review": {
+            "outcome": "correction_needed",
+            "independent": false,
+            "defect": "Central depression reads as a heart-shaped crater, too overt a symbol and too deep for the intended fading maker trace."
+          }
+        },
+        {
+          "version": 2,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-40/trace-in-brick-correction-1.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-f238caa9-c4e2-41ba-9596-f863b959f9d5.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-40/trace-in-brick/v2.png",
+          "sha256": "e1a6a870140e021f6cf0a986815f7f0bc9f3adf37238066a6c9a37996e91b71d",
+          "source": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-40/trace-in-brick/v1.png",
+          "source_sha256": "7540c3192ea1c52e5d1a675653a105175b6349891a9eadd581f34d5442842206"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T08:10:30.825249+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-c58275a0-e59f-4f58-8ea1-e14d23d3386f.png",
+      "output_sha256": "e1a6a870140e021f6cf0a986815f7f0bc9f3adf37238066a6c9a37996e91b71d",
+      "saved_at": "2026-10-04T08:13:49.142903+00:00",
+      "correction_started_at": "2026-10-04T08:11:59.423678+00:00",
+      "correction_prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-40/trace-in-brick-correction-1.txt",
+      "correction_tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-f238caa9-c4e2-41ba-9596-f863b959f9d5.png",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T08:13:49.194448+00:00",
+        "outcome": "pass",
+        "notes": "Compared v2 with v1 at normal size: the heart-shaped crater is gone, replaced by an almost vanished uneven patch. Brick proportions, mortar contact, oblique view and soft daylight remain. The ambiguity now serves the poem’s loss of the maker’s trace; no symbolic stamp. Both candidates retained; v2 selected after one specific correction."
+      },
+      "alt": "A close ink-wash study of weathered red bricks, with an almost vanished shallow trace on the nearest face.",
+      "medium_label": "ink-wash and graphite",
+      "public_asset": "assets/poem-art/editions/40/trace-in-brick-v1.webp",
+      "public_sha256": "82aff0f5e979519f689eca32935a0838f21c621610af42932d7f7789164fcbba",
+      "previous_assignment": "quiet-path",
+      "integrated_at": "2026-10-04T08:15:42.076618+00:00"
+    },
+    {
+      "id": "a-window-waits",
+      "edition": 40,
+      "poem_id": 718,
+      "title": "A light still waiting",
+      "rationale": "Waiting moves from the settled natural world to the breaths and prayers of those awaiting a loved one. Let a distant household light hold the feeling, without inventing a mother or wife or turning the conch call into an emblem.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-40/a-window-waits-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-40/poem-718.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-40/poem-718.json",
+      "poem_sha256": "a93eb77328d3715bce865e437d803b213ac865f565c09c5aa0fce6ceb4e2097b",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-40/a-window-waits/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-40/a-window-waits-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-afe8df1d-b834-4227-8154-afb35960fe60.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-40/a-window-waits/v1.png",
+          "sha256": "1edd32917fa4f68eb54bd7fd2741b496dfe60d059a15ef7ff21a854d1e0ca18a"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T08:13:49.237224+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-afe8df1d-b834-4227-8154-afb35960fe60.png",
+      "output_sha256": "1edd32917fa4f68eb54bd7fd2741b496dfe60d059a15ef7ff21a854d1e0ca18a",
+      "saved_at": "2026-10-04T08:15:41.946873+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T08:15:41.989233+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review: the small warm window carries the emotional anchor while terrain settles into layered blue-grey wash. Light stays local to the window, with no impossible landscape illumination. Ordinary tree occlusion and modest hills avoid a staged storybook scene. The dark values remain readable; no invented waiting figures, religious symbols or documentary assertion."
+      },
+      "alt": "A single warm window glows softly beneath low hills in a quiet blue-grey night landscape.",
+      "public_asset": "assets/poem-art/editions/40/a-window-waits-v1.webp",
+      "public_sha256": "35e6aa893faff20e3d7520d253ef130ad9296537c49d3c5e87c2c318a84900fd",
+      "previous_assignment": "writer-profile",
+      "integrated_at": "2026-10-04T08:15:42.076618+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 711,
+      "rationale": "Let the repeated बात ख़त्म and conversational insistence establish the intimacy without a stock romantic picture.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 713,
+      "rationale": "The reversal from looking at the trapped dove to wanting to set the trap is best left in the poem; avoid reducing it to a bird-in-cage emblem.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 719,
+      "rationale": "The accumulating political paradoxes need the cadence of the page, not a literal inventory of soldiers, lamps, classrooms and roads.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T08:18:29.656091+00:00",
+  "completed_at": "2026-10-04T08:18:29.656091+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-40.png and mobile-40.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

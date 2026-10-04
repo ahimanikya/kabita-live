@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T08:01:33.704534+00:00",
+  "updated_at": "2026-10-04T08:31:03.009819+00:00",
   "status": "active",
   "active_batch": null,
-  "next_edition": 41,
+  "next_edition": 38,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
   "publication_checkpoint_editions": 3,
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 41,
+    "remaining_editions": 38,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 9,
+    "new_rollout_artworks": 18,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 6,
-    "estimated_remaining_artworks": 123
+    "estimated_remaining_artworks": 114
   },
   "editions": [
     {
@@ -244,12 +244,24 @@
         731,
         732
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "a-little-sky",
+        "after-the-bulletin",
+        "life-at-the-margin"
+      ],
+      "text_led": [
+        731,
+        732,
+        730
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-41/batch.json",
+      "direction": "Making room to notice: a narrow sky opening, the silence after a news bulletin, and overlooked field life. Distinct spatial scales and media support memory, political grief and attention. Preserve the existing bespoke date-gift illustration for724; do not assign the unlisted727 source. New interpretation, not a historical editorial theme.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T08:01:33.704534+00:00"
     },
     {
       "edition": 40,
@@ -270,12 +282,24 @@
         718,
         719
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "kept-unopened",
+        "trace-in-brick",
+        "a-window-waits"
+      ],
+      "text_led": [
+        711,
+        713,
+        719
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-40/batch.json",
+      "direction": "What is kept, what fades, what waits: an unopened everyday object, an eroding trace of labour and one light in a settled night. Three different distances, densities and emotional registers; interpretation for this rollout, not a historical editorial theme.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T08:18:29.656091+00:00"
     },
     {
       "edition": 39,
@@ -299,12 +323,24 @@
         702,
         703
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "time-beneath-roots",
+        "morning-ground",
+        "ice-at-the-edge"
+      ],
+      "text_led": [
+        705,
+        698,
+        707
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-39/batch.json",
+      "direction": "Space beyond the self: living banyan shade, a courtyard’s small act of care, and the vulnerable edge of ice. Green density, warm open earth and pale cold planes vary the visual rhythm. Keep the unnamed object and direct arguments in the words. New interpretation, not a historical editorial theme.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T08:31:03.009819+00:00"
     },
     {
       "edition": 38,

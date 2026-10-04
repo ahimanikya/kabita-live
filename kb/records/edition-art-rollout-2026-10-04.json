@@ -15,7 +15,7 @@
     "imagegen"
   ],
   "independent": false,
-  "next_action": "Continue local edition41/40/39 checkpoint. Only verified editions42–47 have been published.",
+  "next_action": "Publish verified41/40/39; then resume edition38. Editions42–47 are already live.",
   "pilot_publication": {
     "status": "deployed_and_live_verified",
     "base_commit": "32fba99f22b2c568b5274454cbf4781367d6f2b5",
@@ -44,48 +44,29 @@
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 41,
+    "remaining_editions": 38,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 9,
+    "new_rollout_artworks": 18,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 6,
-    "estimated_remaining_artworks": 123
+    "estimated_remaining_artworks": 114
   },
-  "last_completed_batch": "edition-42",
-  "handoff_note": "Canonical workspace sync/storage verified after the publication checkpoint; ongoing local batches remain in the source workspace until their release checkpoint.",
+  "last_completed_batch": "edition-39",
+  "handoff_note": "Sync after edition39 passed15961 entries. Storage check then detected concurrent source changes in portrait084 (writer377) and poem-end-mark review. Release uses an isolated latest-main checkout; repeat handoff sync after source activity settles, without overwriting divergent handoff edits.",
   "current_publication": {
-    "id": "checkpoint-44-42",
-    "status": "deployed_and_live_verified",
+    "id": "checkpoint-41-39",
+    "status": "prepared",
     "editions": [
-      44,
-      43,
-      42
+      41,
+      40,
+      39
     ],
     "artworks": 9,
     "text_led": 9,
-    "base_commit": "e4e9eb68791f95748123b74a7956c89ff1fb1a24",
+    "base_commit": "93407be3a9e514fb69afec18da1780e96a2b242c",
     "release_checkout": "/private/tmp/kbl-selective-portraits-20261003",
-    "prepared_at": "2026-10-04T07:41:36.332941+00:00",
-    "checks": {
-      "result": "PASS",
-      "protected_files": 1457,
-      "unrelated_reader_pages_unchanged": 781,
-      "reader_payloads_and_controls": 799,
-      "new_assets": 9,
-      "text_led": 9,
-      "noindex": true,
-      "kb_excluded": true,
-      "active_engagement_preserved": true,
-      "base_commit": "e4e9eb68791f95748123b74a7956c89ff1fb1a24"
-    },
-    "commit": "99aa4131733ad6f2991623d76d778d58ae5fa7bd",
-    "remote_main_verified": true,
-    "workflow_id": 37187022373,
-    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37187022373",
-    "verified_at": "2026-10-04T07:57:16.115040+00:00",
-    "live_verification": "research/edition-art-rollout-2026-10-04/checkpoint-44-42-live-verification.json",
-    "live_checks": "PASS9exact asset hashes,18poem pages, active Firebase/Likes/comments/GA4 and noindex"
+    "prepared_at": "2026-10-04T08:35:26.082966+00:00"
   }
 }
