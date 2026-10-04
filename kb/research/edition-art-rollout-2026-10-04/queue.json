@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T10:30:29.798694+00:00",
+  "updated_at": "2026-10-04T10:51:33.145137+00:00",
   "status": "active",
   "active_batch": null,
   "next_edition": 29,
@@ -16,8 +16,8 @@
     "new_rollout_artworks": 45,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 15,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 18,
     "estimated_remaining_artworks": 87
   },
   "editions": [
@@ -642,7 +642,7 @@
         573,
         574
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "nothing-is-ruined",
@@ -659,7 +659,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-32/batch.json",
       "direction": "Gentleness without perfection: an ordinary kitchen mishap accepted with humour, a displaced scarecrow whose materials still hold its story, and magnolia flowers discovered above reach. Domestic gouache, low earth-and-charcoal field detail and an upward botanical watercolor vary mood and perspective. Writing, witness and remembrance remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T10:08:00.789935+00:00"
+      "verified_at": "2026-10-04T10:08:00.789935+00:00",
+      "publication_commit": "cbbb0fad0454ceaf3415c0ef89460bb6c88849c4",
+      "publication_workflow": 37195992638
     },
     {
       "edition": 31,
@@ -673,7 +675,7 @@
         549,
         552
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "small-care",
@@ -690,7 +692,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-31/batch.json",
       "direction": "Small care, suspended time and a wider home: roadside flowers accept a little water, an unwound clock holds a silent afternoon, and river with rice fields offers a single grounded view within Odisha’s many identities. A delicate ground-level watercolor, spare domestic gouache and broad landscape vary scale without inventing people or historical scenes.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T10:22:00.011219+00:00"
+      "verified_at": "2026-10-04T10:22:00.011219+00:00",
+      "publication_commit": "cbbb0fad0454ceaf3415c0ef89460bb6c88849c4",
+      "publication_workflow": 37195992638
     },
     {
       "edition": 30,
@@ -705,7 +709,7 @@
         544,
         545
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "winter-put-away",
@@ -722,7 +726,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-30/batch.json",
       "direction": "Transitions noticed at different distances: wool put away as spring arrives, a hawk waiting above an ordinary road, and water continuing over a rocky ledge. Domestic graphite, spare ink wash and close gouache movement give seasonal relief, patient observation and persistence distinct visual forms. Direct ethical speech and intense inner metaphors remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T10:30:29.798694+00:00"
+      "verified_at": "2026-10-04T10:30:29.798694+00:00",
+      "publication_commit": "cbbb0fad0454ceaf3415c0ef89460bb6c88849c4",
+      "publication_workflow": 37195992638
     },
     {
       "edition": 29,
