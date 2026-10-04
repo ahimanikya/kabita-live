@@ -48,7 +48,7 @@
     "viewport-check.json"
   ],
   "work_ref": "KBL-WORK-004",
-  "status": "deployed_with_holds",
+  "status": "deployed_user_accepted_likenesses",
   "authorization": "Apply editors watercolor artwork treatment to every poet; user clarified Watercolor artwork for every poet.",
   "counts": {
     "profiles": 427,
@@ -65,16 +65,14 @@
   "execution": "User-authorized recurring heartbeat in this same chat, every 20 minutes; sequential batches of five, no overlapping workers or subagents.",
   "background_authorization": "ok run a batch mode and keep doing it auto mode till it is done - without getting trigger from me",
   "automation_id": "kabita-live-watercolor-portraits",
-  "updated_at": "2026-10-04T09:24:47.810702+00:00",
+  "updated_at": "2026-10-04T09:44:02.737446+00:00",
   "integrated_writer_ids": [
     430,
     423,
     438,
     218
   ],
-  "held_writer_ids": [
-    377
-  ],
+  "held_writer_ids": [],
   "likeness_holds": [],
   "human_natural_direction": {
     "recorded_at": "2026-10-03T06:56:14.590509+00:00",
@@ -480,6 +478,7 @@
     "resume": "Review application verified; normal queue now final deployment verification writerNone. Do not regenerate saved review work."
   },
   "latest_review_application": "records/likeness-decisions-2026-10-04.json",
-  "deployment_resume": "Eight remaining candidates accepted by user; verified locally, follow-up publication pending. Portrait automation remains paused.",
-  "deployment_record": "records/final-portrait-deployment-2026-10-04.json"
+  "deployment_resume": "All8 remaining saved candidates accepted, applied and live verified.424 artistic portraits and3 generic artworks; no active likeness holds. Source photographs remain missing for233,258,416. Portrait automation remains paused.",
+  "deployment_record": "records/final-portrait-deployment-2026-10-04.json",
+  "latest_acceptance_record": "records/accepted-candidate-two-2026-10-04.json"
 }
