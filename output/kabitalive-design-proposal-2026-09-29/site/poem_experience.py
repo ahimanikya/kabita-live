@@ -83,7 +83,10 @@ def enhance_poem(body,p,data):
     links+=contextual_link(feedback,'Write to the editor','Send a private note about this poem.')
     if more:body=body.replace(more[0],'',1)
     menu='<nav id="poem-secondary-links" class="reader-feedback context-hints" aria-label="About this poem">'+links+'</nav>'
-    body=body.replace('</figure>',edition_panel(p,menu)+'</figure>',1)
+    if '<!--poem-context-->' in body:
+        body=body.replace('<!--poem-context-->',edition_panel(p,menu),1)
+    else:
+        body=body.replace('</figure>',edition_panel(p,menu)+'</figure>',1)
     # Readers without a translation retain four choices; unavailable choices are disabled.
     choices=[]
     for code,label in [('original','Original'),('or','Odia'),('hi','Hindi'),('en','English')]:
@@ -97,7 +100,8 @@ def enhance_poem(body,p,data):
     controls+='<div class="reader-tools"><div class="size-group" role="group" aria-label="Poem text size">'+''.join(f'<button data-size="{size}" aria-pressed="{str(size==24).lower()}" aria-label="{label} text size">{label}</button>' for size,label in [(24,'Standard'),(28,'Large'),(32,'Extra large')])+'</div></div>'
     panel='<section id="page-bookmarks" aria-label="Reader tools" hidden><div class="page-tools-head"><strong>Reader tools</strong><button id="page-bookmarks-close" type="button" aria-label="Close reader tools">×</button></div>'+controls+'<button id="page-save-place" type="button">Bookmark this poem</button><details id="page-saved-details"><summary>Saved places &amp; passages</summary><div id="page-saved-list"></div><div class="mark-tools"><button type="button" class="clear-marks" id="clear-marks" hidden>Clear marks</button></div></details><p class="page-tools-tip">Select words in the poem to underline them. Saved on this device.</p><span id="page-saved-status" class="sr-only" role="status"></span></section>'
     body=body.replace('<div class="poem-actions" role="group" aria-label="Poem actions">','<div class="poem-actions" role="group" aria-label="Poem actions"><button id="page-bookmarks-button" type="button" aria-label="Reader tools" title="Language, text size, bookmarks and more" aria-expanded="false" aria-controls="page-bookmarks"><span class="reader-aa" aria-hidden="true">Aa</span></button>',1)
-    body=body.replace('</div></div><figure class="poem-art','</div>'+panel+'</div><figure class="poem-art',1)
+    body,count=re.subn(r'</div></div>(<(?:figure|aside) class="poem-art)',lambda m:'</div>'+panel+'</div>'+m[1],body,count=1)
+    if count!=1:raise ValueError(f'Missing reader-tools insertion point for {p["id"]}')
     body=re.sub(r'<div id="reading-panel"[^>]*>', '<div id="reading-panel" role="tabpanel" aria-labelledby="tab-original" tabindex="0">',body,count=1)
     # No-JavaScript verse also suppresses decoration, retaining source text in hidden spans.
     body=re.sub(r'(?P<prefix><p class="stanza">|<br>)(?P<text>[*＊_—–=\-\s]{3,})(?=<br>|</p>)',lambda m:m['prefix']+'<span class="source-end-marker" hidden>'+m['text']+'</span>',body)

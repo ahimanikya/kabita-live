@@ -415,6 +415,40 @@
         "records/reader-engagement-deployment-2026-10-02.json",
         "records/engagement-activation-2026-10-04.json"
       ]
+    },
+    {
+      "id": "KBL-WORK-021",
+      "title": "Edition-specific interior artwork pilot",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-045",
+      "next_action": "Nine new edition-specific illustrations and eight text-led openings verified locally. Review gallery before separately authorized publication or expansion; pilot heartbeat paused.",
+      "blockers": [],
+      "refs": [
+        "KBL-WORK-004"
+      ],
+      "evidence": [
+        "records/edition-art-pilot-2026-10-04.json",
+        "research/edition-art-pilot-2026-10-04/queue.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-022",
+      "title": "Edition-specific art across all47editions and verified publication",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-046",
+      "next_action": "Publish pilot from a clean release checkout based on latest main; read edition44 and begin its batch.",
+      "blockers": [],
+      "refs": [
+        "KBL-WORK-021"
+      ],
+      "evidence": [
+        "records/edition-art-rollout-2026-10-04.json",
+        "research/edition-art-rollout-2026-10-04/queue.json"
+      ]
     }
   ],
   "decisions": [
@@ -979,6 +1013,34 @@
       "scope": "Prepare and activate private feedback, reversible Likes and public comments on Kabita Live. Supersedes earlier no-public-comments scope. Moderation defaults to editor approval while optional preference is pending. Broader CLI OAuth access still requires explicit approval. No billing or DNS changes.",
       "evidence": [
         "records/reader-engagement-2026-10-02.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-045",
+      "title": "Edition-specific imagery pilot in an autonomous batch loop",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Sounds good, let’s do that. Do that in batched and keep a loop",
+      "scope": "Three-edition local pilot: 45,46,47; nine new interior artworks in three sequential edition batches; eight explicit text-led poem openings. Covers, poems, existing bespoke art and other editions preserved. No publication. No per-image or per-batch approval gate. Stop after the bounded pilot.",
+      "evidence": [
+        "records/edition-art-pilot-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-046",
+      "title": "Publish the approved pilot and extend edition-specific artwork to every edition",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "This is excellent - let’s push this and make this happen for all the editions",
+      "scope": "Publish the approved9-artwork/8text-led pilot, then extend the same poem-informed interior art strategy to all47editions in the existing autonomous loop. Preserve covers, poems, existing bespoke art and unrelated changes. Continue autonomous edition batches without per-image approval, with verified publication checkpoints. Supersedes pilot-only and no-publication limits for this artwork scope.",
+      "evidence": [
+        "records/edition-art-rollout-2026-10-04.json"
       ]
     }
   ],

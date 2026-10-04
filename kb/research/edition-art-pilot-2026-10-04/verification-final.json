@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "recorded_at": "2026-10-04T06:37:54.609922+00:00",
+  "independent": false,
+  "unchanged_poem_source_files": 801,
+  "unchanged_cover_assets": 603,
+  "unchanged_reader_variants": 833,
+  "generic_assignments_unchanged": 798,
+  "directed_pages": 17,
+  "integrated_artworks": 9,
+  "text_led_pages": 8,
+  "checks": [
+    "Source and cover SHA256 integrity",
+    "All reader variants unchanged",
+    "New art outside the generic assignment pool",
+    "Exactly one set of reader controls",
+    "Editor link and engagement markup preserved",
+    "Text-led pages have no empty artwork figures",
+    "Master and delivery hashes match"
+  ]
+}

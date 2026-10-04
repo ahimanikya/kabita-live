@@ -145,10 +145,21 @@ for artwork in poem_art_library.values():
         raise ValueError(f"Poem artwork must be a present non-cover asset: {artwork['src']}")
 poem_art_assignments=json.loads((R/'data/poem-art-assignments.json').read_text())['assignments']
 poem_art_captions=json.loads((R/'data/poem-art-captions.json').read_text())
+edition_art_path=R/'data/edition-art-direction.json'
+edition_art_direction=json.loads(edition_art_path.read_text()) if edition_art_path.exists() else {'poems':{}}
 for p in publication_poems.values():
     ident=p['id'];lang=p['language'];label=language_labels[lang];n=p['edition'];route=poem_route(ident)
     issue=publication_by_issue.get(n);date=f'{issue["month"]} {issue["year"]}' if issue else 'Poetry collection'
-    if ident in sample_routes:
+    directed_art=edition_art_direction['poems'].get(str(ident))
+    if directed_art and directed_art['edition']!=n:
+        raise ValueError(f'Edition artwork scope mismatch for poem {ident}')
+    if directed_art and directed_art['mode']=='text':
+        art='<aside class="poem-art poem-text-context" aria-label="Edition and poet context"><!--poem-context--></aside>'
+    elif directed_art and directed_art['mode']=='illustrated':
+        if not directed_art['src'].startswith('assets/poem-art/editions/') or not (R/directed_art['src']).is_file():
+            raise ValueError(f'Missing edition-specific artwork for poem {ident}')
+        art=f'<figure class="poem-art framed"><img src="{directed_art["src"]}" alt="{e(directed_art["alt"])}" width="{directed_art["width"]}" height="{directed_art["height"]}" decoding="async"><figcaption>{e(directed_art["caption"])}</figcaption></figure>'
+    elif ident in sample_routes:
         slug=sample_routes[ident].removeprefix('poem-').removesuffix('.html')
         art=f'<figure class="poem-art"><img src="assets/poem-art/{slug}.webp" alt="{art_alts[slug]}" width="1536" height="1024"><figcaption>{e(image_caption(f"assets/poem-art/{slug}.webp"))}</figcaption></figure>'
     else:

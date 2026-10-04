@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-04T06:53:59.990674+00:00",
+  "status": "in_progress",
+  "work_ref": "KBL-WORK-022",
+  "decision_ref": "KBL-DEC-046",
+  "authorization": "This is excellent - let’s push this and make this happen for all the editions",
+  "scope": "Publish the approved9-artwork/8text-led pilot, then extend the same poem-informed interior art strategy to all47editions in the existing autonomous loop. Preserve covers, poems, existing bespoke art and unrelated changes.",
+  "automation_id": "kabita-live-poetic-natural-artwork",
+  "queue": "research/edition-art-rollout-2026-10-04/queue.json",
+  "gallery": "artifacts/artwork/edition-art-rollout-2026-10-04/index.html",
+  "publication_policy": "Deploy the approved pilot now; publish subsequent verified work after each3-edition checkpoint or final partial checkpoint through the existing manual public-only Pages preview workflow. Preserve latest remote changes, active Firebase/GA4 consent, noindex, content gate and DNS. No force push.",
+  "art_policy": "Target3 new interior artworks per edition; adjust only for actual poem fit or a precise source/quality hold. Read poems before commissioning. Record new directions as interpretations, not historical editorial themes. Select2–3 meaningful text-led openings per edition where suitable; do not force a quota. Keep each illustration assigned explicitly to its poem/edition, outside the generic pool.",
+  "skills": [
+    "human-natural-image",
+    "imagegen"
+  ],
+  "independent": false,
+  "next_action": "Publish pilot from a clean release checkout based on latest main; read edition44 and begin its batch.",
+  "pilot_publication": {
+    "status": "verified_ready_to_push",
+    "base_commit": "32fba99f22b2c568b5274454cbf4781367d6f2b5",
+    "release_checkout": "/private/tmp/kbl-selective-portraits-20261003",
+    "checks": {
+      "build": "PASS",
+      "tests": "PASS26;10Firestore emulator tests run in deployment workflow",
+      "protected_hashes": 1455,
+      "active_reader_payloads_and_controls": 799,
+      "scoped_pages": 17,
+      "noindex_and_kb_exclusion": "PASS",
+      "scope": "Two builder updates,9derivatives,17generated poem pages and supporting pilot/rollout records; existing remote portraits, engagement and other design files preserved."
+    }
+  },
+  "loop_status": "ACTIVE"
+}

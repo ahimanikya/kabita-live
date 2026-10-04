@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `209562157421419b2d3985c2c2c076bd0a57f6295854c409ab6a4fecdc782c8f`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ed20f01c67135e1eee460080c96844d3659647f8759db01deea6ddc9669e35ac`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -32,6 +32,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-WORK-017 · Add Facebook Page to shared website footer | completed | applied | Ahimanikya Satapathy | Review local preview; publish with the authorized migration/release. | — |
 | KBL-WORK-018 · Prepare editor design proposal and heads-up | completed | applied | Ahimanikya Satapathy | User shares proposal and heads-up; gather editor feedback before website walkthrough. | — |
 | KBL-WORK-019 · Firebase activation, Likes and moderated public comments | completed | applied | Ahimanikya Satapathy | Firebase feedback, Likes and moderated comments are live and verified. Owner reviews comments in Firebase Console. Dedicated editor inbox, reader accounts, cloud bookmarks and DNS remain deferred. | — |
+| KBL-WORK-021 · Edition-specific interior artwork pilot | completed | reviewed | Ahimanikya Satapathy | Nine new edition-specific illustrations and eight text-led openings verified locally. Review gallery before separately authorized publication or expansion; pilot heartbeat paused. | — |
+| KBL-WORK-022 · Edition-specific art across all47editions and verified publication | in_progress | draft | Ahimanikya Satapathy | Publish pilot from a clean release checkout based on latest main; read edition44 and begin its batch. | — |
 
 ## Pending human review and decisions
 
@@ -84,6 +86,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-DEC-043 · Deploy completed poet portraits and editor refinements now | approved | Ahimanikya Satapathy | Immediate checkpoint deployment of all currently completed and verified poet portraits plus the approved Pradeep, Paresh and Pravakar refinements. Supersedes final-only restriction for this checkpoint; pending portraits and holds excluded. Existing manual Pages preview workflow, DNS and service settings retained; generation loop continues. |
 | KBL-DEC-044 · Selectively refine and publish thirteen reviewed watercolor portraits | approved | Ahimanikya Satapathy | Regenerate and source-review the thirteen retrospective shortlist candidates, retain only improvements, preserve originals and prior versions, commit and push scoped changes and deploy through the existing manual public-only Pages preview workflow. Nine source-review cases and existing holds excluded. No full-library regeneration, DNS or runtime-service changes. Temporary portrait-schedule hold prevents overlapping generation; restore afterward. |
 | KBL-DEC-039 · Activate Firebase and add Likes and public comments | approved | Ahimanikya Satapathy | Prepare and activate private feedback, reversible Likes and public comments on Kabita Live. Supersedes earlier no-public-comments scope. Moderation defaults to editor approval while optional preference is pending. Broader CLI OAuth access still requires explicit approval. No billing or DNS changes. |
+| KBL-DEC-045 · Edition-specific imagery pilot in an autonomous batch loop | approved | Ahimanikya Satapathy | Three-edition local pilot: 45,46,47; nine new interior artworks in three sequential edition batches; eight explicit text-led poem openings. Covers, poems, existing bespoke art and other editions preserved. No publication. No per-image or per-batch approval gate. Stop after the bounded pilot. |
+| KBL-DEC-046 · Publish the approved pilot and extend edition-specific artwork to every edition | approved | Ahimanikya Satapathy | Publish the approved9-artwork/8text-led pilot, then extend the same poem-informed interior art strategy to all47editions in the existing autonomous loop. Preserve covers, poems, existing bespoke art and unrelated changes. Continue autonomous edition batches without per-image approval, with verified publication checkpoints. Supersedes pilot-only and no-publication limits for this artwork scope. |
 
 ## Reviews
 

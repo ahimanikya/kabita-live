@@ -1,0 +1,16 @@
+{
+  "id": "edition-47",
+  "owner": "current-chat-assistant",
+  "started_at": "2026-10-04T06:18:41.344746+00:00",
+  "status": "verified",
+  "completed_at": "2026-10-04T06:26:33.337853+00:00",
+  "checks": [
+    "Build passed",
+    "Pilot801poem sources603covers833reader payload variants unchanged",
+    "Edition integrity passed",
+    "Text size and quiet reader exercised"
+  ],
+  "limitations": [
+    "Legacy check_poem_experience.py stops at a pre-existing poem699 source hash mismatch; current pilot baseline confirms unchanged source."
+  ]
+}

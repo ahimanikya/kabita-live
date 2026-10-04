@@ -1,0 +1,29 @@
+"""Establish the authorized all-edition rollout without changing poems or artwork."""
+import json,hashlib,shutil
+from pathlib import Path
+from datetime import datetime,timezone
+R=Path(__file__).resolve().parents[3];K=Path(__file__).resolve().parent;S=R/'projects/site'
+now=datetime.now(timezone.utc).isoformat()
+def save(p,d):p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+assert not (K/'queue.json').exists(),'Resume existing queue'
+issues=json.loads((S/'content/editions/index.json').read_text())
+queue=[]
+for issue in sorted(issues,key=lambda x:x['number'],reverse=True):
+ ed=issue['number'];done=ed in [45,46,47]
+ queue.append({'edition':ed,'label':f'{issue["month"]} {issue["year"]}','poem_ids':issue['poem_ids'],'status':'pilot_verified_pending_publication' if done else 'pending_planning','target_new_artworks':0 if done else 3,'artworks':[],'text_led':[],'cover_policy':'Preserve the existing cover and its original narrative; never reuse it as another issue identity.','pilot_record':'records/edition-art-pilot-2026-10-04.json' if done else None})
+save(K/'queue.json',{'schema_version':1,'created_at':now,'updated_at':now,'status':'active','active_batch':None,'next_edition':44,'edition_batch_size':1,'target_artworks_per_edition':3,'publication_checkpoint_editions':3,'counts':{'total_editions':47,'pilot_complete':3,'remaining_editions':44,'pilot_artworks':9,'new_rollout_artworks':0,'estimated_additional_artworks':132,'held':0},'editions':queue})
+baseline={'created_at':now,'files':{},'art_direction':json.loads((S/'data/edition-art-direction.json').read_text()),'generic_assignments':json.loads((S/'data/poem-art-assignments.json').read_text())}
+for folder in ['content/editions','assets/covers']:
+ for p in (S/folder).rglob('*'):
+  if p.is_file():baseline['files'][str(p.relative_to(R))]=hashlib.sha256(p.read_bytes()).hexdigest()
+save(K/'baseline.json',baseline)
+rec={'recorded_at':now,'status':'in_progress','work_ref':'KBL-WORK-022','decision_ref':'KBL-DEC-046','authorization':'This is excellent - let’s push this and make this happen for all the editions','scope':'Publish the approved9-artwork/8text-led pilot, then extend the same poem-informed interior art strategy to all47editions in the existing autonomous loop. Preserve covers, poems, existing bespoke art and unrelated changes.','automation_id':'kabita-live-poetic-natural-artwork','queue':'research/edition-art-rollout-2026-10-04/queue.json','gallery':'artifacts/artwork/edition-art-rollout-2026-10-04/index.html','publication_policy':'Deploy the approved pilot now; publish subsequent verified work after each3-edition checkpoint or final partial checkpoint through the existing manual public-only Pages preview workflow. Preserve latest remote changes, active Firebase/GA4 consent, noindex, content gate and DNS. No force push.','art_policy':'Target3 new interior artworks per edition; adjust only for actual poem fit or a precise source/quality hold. Read poems before commissioning. Record new directions as interpretations, not historical editorial themes. Select2–3 meaningful text-led openings per edition where suitable; do not force a quota. Keep each illustration assigned explicitly to its poem/edition, outside the generic pool.','skills':['human-natural-image','imagegen'],'independent':False,'next_action':'Publish pilot from a clean release checkout based on latest main; read edition44 and begin its batch.','pilot_publication':{'status':'preparing','base_commit':'32fba99f22b2c568b5274454cbf4781367d6f2b5'},'loop_status':'pending_activation'}
+save(R/'kb/records/edition-art-rollout-2026-10-04.json',rec)
+rp=R/'kb/registers/records.json';reg=json.loads(rp.read_text());assert not any(x['id']=='KBL-DEC-046' for x in reg['decisions'])
+reg['decisions'].append({'id':'KBL-DEC-046','title':'Publish the approved pilot and extend edition-specific artwork to every edition','status':'approved','actor':{'kind':'human','name':'Ahimanikya Satapathy'},'quote':rec['authorization'],'scope':rec['scope']+' Continue autonomous edition batches without per-image approval, with verified publication checkpoints. Supersedes pilot-only and no-publication limits for this artwork scope.','evidence':['records/edition-art-rollout-2026-10-04.json']})
+reg['work'].append({'id':'KBL-WORK-022','title':'Edition-specific art across all47editions and verified publication','status':'in_progress','readiness':'draft','human_owner':'Ahimanikya Satapathy','authorization':'KBL-DEC-046','next_action':rec['next_action'],'blockers':[],'refs':['KBL-WORK-021'],'evidence':['records/edition-art-rollout-2026-10-04.json','research/edition-art-rollout-2026-10-04/queue.json']})
+save(rp,reg)
+dest=R/'kb/artifacts/artwork/edition-art-rollout-2026-10-04';dest.mkdir(parents=True,exist_ok=True)
+cards=''.join(f'<li>Issue {x["edition"]} · {x["label"]} — {"pilot complete; publication preparing" if x["edition"]>=45 else "queued for poem reading and art direction"}</li>' for x in queue)
+(dest/'index.html').write_text('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kabita Live · Edition artwork rollout</title><style>body{background:#f8f4e9;color:#303a37;font:18px/1.7 Georgia,serif;max-width:900px;margin:40px auto;padding:0 24px}a{color:#356368}li{margin:12px 0}</style><h1>Every edition, a distinct atmosphere.</h1><p>The approved pilot covers issues45–47: nine new illustrations and eight text-led openings. The remaining44editions are queued in descending order. Target: three new illustrations per edition, chosen from its actual poems.</p><p><a href="../edition-art-pilot-2026-10-04/index.html">Explore the completed pilot</a></p><p>Original covers, poems and previous bespoke illustrations stay. New art is reserved for its own poems and editions.</p><ol>'+cards+'</ol></html>')
+print('47edition queue established:3pilot complete,44remaining;132additional artworks estimated.')

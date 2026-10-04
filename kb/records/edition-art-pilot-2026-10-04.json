@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-04T06:15:46.313749+00:00",
+  "status": "completed_local_review",
+  "work_ref": "KBL-WORK-021",
+  "decision_ref": "KBL-DEC-045",
+  "authorization": [
+    "Sounds good, let’s do that",
+    "Do that in batched and keep a loop"
+  ],
+  "scope": "Three-edition local pilot: 45,46,47; nine new interior artworks in three sequential edition batches; eight explicit text-led poem openings. Covers, poems, existing bespoke art and other editions preserved. No publication.",
+  "automation_id": "kabita-live-poetic-natural-artwork",
+  "queue": "research/edition-art-pilot-2026-10-04/queue.json",
+  "gallery": "artifacts/artwork/edition-art-pilot-2026-10-04/index.html",
+  "independent": false,
+  "edition_directions": {
+    "47": "Ordinary closeness: laterite, pale green and ivory; domestic threshold, botanical observation, a spare material study.",
+    "46": "Small life and inward space: mineral greens, earth and blue; close observation, confined growth and one abstract pause.",
+    "45": "Between day and night: cool slate washes with restrained ochre; intimate petals, a street beginning, an inwardly quiet city."
+  },
+  "direction_note": "New visual direction inferred from selected poems; not a claim about historical editorial themes.",
+  "preserved_bespoke_poems": [
+    809,
+    810,
+    814,
+    786
+  ],
+  "next_action": "Review the completed local gallery. Expansion and publication require subsequent user direction.",
+  "checks": {
+    "public_build": "PASS: three sequential edition builds, final public assets present",
+    "pilot_integrity": "PASS:801 poem source files,603 cover assets,833 stored reader payloads unchanged; generic mapping798unchanged; controls checked across799active routes",
+    "edition_integrity": "PASS",
+    "visual": "All9 selected artworks inspected at normal size; flute corrected once. Desktop and360px fixture reviews across3editions; text-size and quiet-reader interactions exercised on819.",
+    "legacy_reader_checker": "Pre-existing source hash mismatch on content/editions/issue-39/poem-699.json stops older checker; that source matches this pilot baseline. No unrelated text/baseline rewrite performed.",
+    "independent": false,
+    "handoff": "PASS:15460 synchronized entries and2066 portable aliases checked. Resync resolved the documented concurrent portrait/source changes."
+  },
+  "automation_status": "PAUSED",
+  "automation_interval_minutes": 10,
+  "sync_note": "After batch47 sync, storage detected a newer pilot claim plus concurrent portrait080 writer294 source additions. No divergent handoff changes overwritten; resync after batch46.",
+  "counts": {
+    "new_artworks_verified": 9,
+    "integrated_local": 9,
+    "held": 0,
+    "text_led_pages": 8,
+    "retained_candidates": 10
+  },
+  "limitations": [
+    "Interpretive artwork, not documentary depictions or author/editor endorsements.",
+    "Same-assistant visual review; independent editorial review remains pending.",
+    "Shared imagery elsewhere remains unchanged; this is a bounded three-edition pilot.",
+    "No public deployment or Git push."
+  ],
+  "completed_at": "2026-10-04T06:41:11.723479+00:00"
+}
