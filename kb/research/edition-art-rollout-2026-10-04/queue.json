@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T14:08:35.176688+00:00",
+  "updated_at": "2026-10-04T14:25:45.071467+00:00",
   "status": "active",
   "active_batch": null,
-  "next_edition": 11,
+  "next_edition": 8,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
   "publication_checkpoint_editions": 3,
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 11,
+    "remaining_editions": 8,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 99,
+    "new_rollout_artworks": 108,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 36,
-    "estimated_remaining_artworks": 33
+    "estimated_remaining_artworks": 24
   },
   "editions": [
     {
@@ -1467,12 +1467,24 @@
         283,
         298
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "the-space-between-marks",
+        "the-distance-around-a-lotus",
+        "shadows-enter-the-clearing"
+      ],
+      "text_led": [
+        269,
+        272,
+        274
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-11/batch.json",
+      "direction": "September explores pauses and uncertain connections: an interrupted ink gesture, a lotus held at a distance, and partial pine shadows. Abstract drawing, pale watercolor and restrained woodcut give distinct readings without a collage of poetic nouns. Family separation, epic justice and bereavement stay text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T14:06:41.186309+00:00"
     },
     {
       "edition": 10,
@@ -1502,12 +1514,24 @@
         253,
         254
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "colours-for-a-life-continuing",
+        "light-through-the-cleared-glass",
+        "the-wave-that-returns"
+      ],
+      "text_led": [
+        246,
+        249,
+        267
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-10/batch.json",
+      "direction": "August finds continuing life in a revised drawing, cleared lantern glass and a returning wave. Colored pencil, charcoal with transparent wash, and thin oil vary material and viewpoint. The poems confronting gendered violence and uncounted loss stay text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T14:18:32.875091+00:00"
     },
     {
       "edition": 9,
@@ -1527,12 +1551,24 @@
         236,
         240
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "the-pink-braid-between-us",
+        "milk-opened-at-dusk",
+        "a-few-seeds-to-share"
+      ],
+      "text_led": [
+        235,
+        241,
+        243
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-9/batch.json",
+      "direction": "July considers quiet care and exchange through a partly braided toy, a milk packet opened at dusk and a few seeds gathered to share. Colored pencil, dry pastel and spare gouache vary texture and closeness. Poems about Manipur, national memory and prejudice toward daughters remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T14:25:45.071467+00:00"
     },
     {
       "edition": 8,

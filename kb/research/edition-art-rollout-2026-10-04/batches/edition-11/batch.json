@@ -1,0 +1,171 @@
+{
+  "edition": 11,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T14:01:21.281581+00:00",
+  "poems_read": [
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    298
+  ],
+  "direction": "September explores pauses and uncertain connections: an interrupted ink gesture, a lotus held at a distance, and partial pine shadows. Abstract drawing, pale watercolor and restrained woodcut give distinct readings without a collage of poetic nouns. Family separation, epic justice and bereavement stay text-led.",
+  "items": [
+    {
+      "id": "the-space-between-marks",
+      "edition": 11,
+      "poem_id": 270,
+      "title": "The space between marks",
+      "rationale": "The poem values silence, discontinuity and imperfection. An abstract brush drawing lets intervals carry the feeling rather than illustrating breathing, sin and dust as objects.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-11/the-space-between-marks-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-11/poem-270.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-11/poem-270.json",
+      "poem_sha256": "7f32b3711e81f9c315276e050de35cb3673636fea3793298bcaf02756a799a08",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-11/the-space-between-marks/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-11/the-space-between-marks-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-5a945c51-9160-4285-8394-98e63b1e4ed2.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-11/the-space-between-marks/v1.png",
+          "sha256": "a84c140e6176ddb5ee3bbac3538e1db1c0973a9ee1fafccac0bcb6f93bf85fc9"
+        }
+      ],
+      "medium_label": "ink and graphite",
+      "independent": false,
+      "started_at": "2026-10-04T14:01:21.323445+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-5a945c51-9160-4285-8394-98e63b1e4ed2.png",
+      "output_sha256": "a84c140e6176ddb5ee3bbac3538e1db1c0973a9ee1fafccac0bcb6f93bf85fc9",
+      "saved_at": "2026-10-04T14:02:10.490891+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T14:02:10.525183+00:00",
+        "outcome": "pass",
+        "notes": "PASS: selective tapered ink pressure and faint graphite interruptions convey pause; broad quiet upper paper, unequal rhythms and no letters or fabricated scene. A few small dots support the brush gesture rather than uniform decorative spatter. Original abstract interpretation; independent:false."
+      },
+      "alt": "Sparse ink and graphite marks pause and resume across warm blank paper.",
+      "public_asset": "assets/poem-art/editions/11/the-space-between-marks-v1.webp",
+      "public_sha256": "03ed95a9416ea6cd5fe2a09b246dd43e90bd542d8116bf419a65ab52969065ff",
+      "previous_assignment": "reading-room",
+      "integrated_at": "2026-10-04T14:04:54.309218+00:00"
+    },
+    {
+      "id": "the-distance-around-a-lotus",
+      "edition": 11,
+      "poem_id": 276,
+      "title": "The distance around a lotus",
+      "rationale": "The speaker imagines a lotus beyond the restless beloved’s reach. Let still water and distance carry the unfulfilled relation; omit the bee rather than invent an embrace.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-11/the-distance-around-a-lotus-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-11/poem-276.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-11/poem-276.json",
+      "poem_sha256": "7acf61ffecdc9dd074f3cd1b3109bc6b2d208bb55e54f9e044eba471174c1d24",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-11/the-distance-around-a-lotus/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-11/the-distance-around-a-lotus-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-8f5bec40-2706-4dbf-956e-fde9157f6b7d.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-11/the-distance-around-a-lotus/v1.png",
+          "sha256": "301146b619daa39304043cdc10c964e17dbd46f7a012cf372e91e2efc3c588c4"
+        }
+      ],
+      "medium_label": "watercolor",
+      "independent": false,
+      "started_at": "2026-10-04T14:02:10.556990+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-8f5bec40-2706-4dbf-956e-fde9157f6b7d.png",
+      "output_sha256": "301146b619daa39304043cdc10c964e17dbd46f7a012cf372e91e2efc3c588c4",
+      "saved_at": "2026-10-04T14:03:42.802499+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T14:03:42.840804+00:00",
+        "outcome": "pass",
+        "notes": "PASS: side-facing uneven pink petals and stem rise coherently above quiet water, cropped leaf does not support blossom; soft broken reflection follows the stem, expansive water carries distance. Watercolor edges and pale light retained; no bee or invented embrace. Same-assistant review independent:false."
+      },
+      "alt": "A side-facing pink lotus rises above still pale water beside a cropped leaf.",
+      "public_asset": "assets/poem-art/editions/11/the-distance-around-a-lotus-v1.webp",
+      "public_sha256": "a08e7f292ad47fedf45047deb039af5ee48233e41d6fb11d645d6375352832d0",
+      "previous_assignment": "search",
+      "integrated_at": "2026-10-04T14:04:54.309218+00:00"
+    },
+    {
+      "id": "shadows-enter-the-clearing",
+      "edition": 11,
+      "poem_id": 283,
+      "title": "Shadows enter the clearing",
+      "rationale": "The poem begins with pine shadows and makes perception uncertain. A cropped woodland floor with shadows can suggest that uncertainty without assembling its cosmic and geological images into spectacle.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-11/shadows-enter-the-clearing-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-11/poem-283.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-11/poem-283.json",
+      "poem_sha256": "118f7ffee73f38a6163a48a5249e19f505986828960a515be80517e114271ab1",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-11/shadows-enter-the-clearing/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-11/shadows-enter-the-clearing-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-565d216d-2823-440c-b2e9-5f153ef03d7e.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-11/shadows-enter-the-clearing/v1.png",
+          "sha256": "c45200624bcdc17ff9c105944a99d2acc6c45f431b0d5d9d280bdbca73c58ac7"
+        }
+      ],
+      "medium_label": "woodcut and wash",
+      "independent": false,
+      "started_at": "2026-10-04T14:03:42.874759+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-565d216d-2823-440c-b2e9-5f153ef03d7e.png",
+      "output_sha256": "c45200624bcdc17ff9c105944a99d2acc6c45f431b0d5d9d280bdbca73c58ac7",
+      "saved_at": "2026-10-04T14:04:54.159012+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T14:04:54.202411+00:00",
+        "outcome": "pass",
+        "notes": "PASS: cropped pine silhouettes and diagonal trunk shadow share a coherent direction; unequal overlaps and quiet right clearing avoid a repeating motif. Woodcut carving stays strongest in dark shapes; ochre ground provides warmth without cosmic spectacle. Illustrative shadow interpretation, no documentary claim. independent:false."
+      },
+      "alt": "Cropped pine-branch shadows cross an ochre clearing in a woodcut study.",
+      "public_asset": "assets/poem-art/editions/11/shadows-enter-the-clearing-v1.webp",
+      "public_sha256": "39d21313d6b8177a1df58010552ca28f5def7e932fb3d2eb03f8955780e14f03",
+      "previous_assignment": "search",
+      "integrated_at": "2026-10-04T14:04:54.309218+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 269,
+      "rationale": "The plea to visit ageing parents is carried by the voice; avoid stock images of lonely parents or an invented family.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 272,
+      "rationale": "The epic argument about justice remains text-led, avoiding newly invented devotional battle iconography.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 274,
+      "rationale": "Pandemic bereavement and a daughter rebuilding her life deserve the complete poem without an invented mourner or hospital scene.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T14:06:41.186309+00:00",
+  "completed_at": "2026-10-04T14:06:41.186309+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-11.png and mobile-11.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

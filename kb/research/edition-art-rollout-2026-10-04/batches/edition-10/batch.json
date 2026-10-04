@@ -1,0 +1,177 @@
+{
+  "edition": 10,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T14:11:58.064965+00:00",
+  "poems_read": [
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267
+  ],
+  "direction": "August finds continuing life in a revised drawing, cleared lantern glass and a returning wave. Colored pencil, charcoal with transparent wash, and thin oil vary material and viewpoint. The poems confronting gendered violence and uncounted loss stay text-led.",
+  "items": [
+    {
+      "id": "colours-for-a-life-continuing",
+      "edition": 10,
+      "poem_id": 263,
+      "title": "Colours for a life continuing",
+      "rationale": "The poem ends with two people living differently under one sky: one writes and the other draws with a child. A used drawing book can carry that continuing creative life without depicting or inventing them.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-10/colours-for-a-life-continuing-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-10/poem-263.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-10/poem-263.json",
+      "poem_sha256": "38d6f4645be3878cbb033e6dd8ba69f43233852b69436c01dca6b6f046519fe6",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-10/colours-for-a-life-continuing/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-10/colours-for-a-life-continuing-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ec577c68-08b0-41f5-a054-06b101c2a685.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-10/colours-for-a-life-continuing/v1.png",
+          "sha256": "e80c33b7e595c6ddade86c1db3fe2232b57d74609f2a4fbb561eff197ae7810d"
+        }
+      ],
+      "medium_label": "colored pencil and gouache",
+      "independent": false,
+      "started_at": "2026-10-04T14:11:58.117637+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ec577c68-08b0-41f5-a054-06b101c2a685.png",
+      "output_sha256": "e80c33b7e595c6ddade86c1db3fe2232b57d74609f2a4fbb561eff197ae7810d",
+      "saved_at": "2026-10-04T14:13:02.322817+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T14:13:02.359240+00:00",
+        "outcome": "pass",
+        "notes": "PASS: coherent open page fold and resting pencils with contact shadows, hesitant bird drawings stay drawings, faint revised contour suggests continuing work. Pencil paint wear a little emphasized but limited to used tools; no invented family, text or identity. Broad blank page balances color; independent:false."
+      },
+      "alt": "An open drawing book holds simple colored birds and a faint revised sketch beside three used pencils.",
+      "public_asset": "assets/poem-art/editions/10/colours-for-a-life-continuing-v1.webp",
+      "public_sha256": "dbc89f737997df48f462e53b0818c4a64ca2de41cc7abc60a36bc0c332d9367e",
+      "previous_assignment": "editorial-desk",
+      "integrated_at": "2026-10-04T14:15:30.753897+00:00"
+    },
+    {
+      "id": "light-through-the-cleared-glass",
+      "edition": 10,
+      "poem_id": 266,
+      "title": "Light through the cleared glass",
+      "rationale": "The speaker finds an inner companion who clears sorrow like soot from lantern glass. A restrained study of the glass and light preserves this self-renewal without literal magical people or a collection of the poem’s flowers.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-10/light-through-the-cleared-glass-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-10/poem-266.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-10/poem-266.json",
+      "poem_sha256": "5ea1e6f3357f53401e8e757aadcc1dfa69585c1dca8ffcab877ed24c4801f9f8",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-10/light-through-the-cleared-glass/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-10/light-through-the-cleared-glass-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-e070990c-472a-49be-8aad-5841505a6d1f.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-10/light-through-the-cleared-glass/v1.png",
+          "sha256": "c5ade40a7b4c198727e6654017e127dda3c5225b1a8164dfebd278dfa12ce932"
+        }
+      ],
+      "medium_label": "charcoal and watercolor",
+      "independent": false,
+      "started_at": "2026-10-04T14:13:02.391802+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-e070990c-472a-49be-8aad-5841505a6d1f.png",
+      "output_sha256": "c5ade40a7b4c198727e6654017e127dda3c5225b1a8164dfebd278dfa12ce932",
+      "saved_at": "2026-10-04T14:14:11.879225+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T14:14:11.918716+00:00",
+        "outcome": "pass",
+        "notes": "PASS: glass encloses wick and flame, frame and fuel base rest securely on ledge, soot is restricted near upper globe, warm light falls locally. Flame is larger than the very-small brief but plausible within globe; quiet left wall and charcoal/watercolor edges preserve self-renewal without spectacle. independent:false."
+      },
+      "alt": "A small wick flame glows through clear lantern glass beside a quiet grey wall.",
+      "public_asset": "assets/poem-art/editions/10/light-through-the-cleared-glass-v1.webp",
+      "public_sha256": "18ed2bd51ab8614c5d5b27caa04476fb0f54c61850e49e032dd263b50068c644",
+      "previous_assignment": "quiet-path",
+      "integrated_at": "2026-10-04T14:15:30.753897+00:00"
+    },
+    {
+      "id": "the-wave-that-returns",
+      "edition": 10,
+      "poem_id": 253,
+      "title": "The wave that returns",
+      "rationale": "The poem senses a lost loved one in the sea’s repeated touch. A close shore fragment gives that returning movement room without staging a grieving person or a grand sunset.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-10/the-wave-that-returns-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-10/poem-253.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-10/poem-253.json",
+      "poem_sha256": "8baf3c1b437121d7982b903089122c65264590649dd9e1a179f9c8d4cf93a58d",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-10/the-wave-that-returns/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-10/the-wave-that-returns-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-7cdc1e4e-6029-41e2-a951-13c541feb53b.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-10/the-wave-that-returns/v1.png",
+          "sha256": "114b14dfd5d96e60bde5d132a013dc1cc2e5e2335f51020e04de568e164be364"
+        }
+      ],
+      "medium_label": "oil and palette knife",
+      "independent": false,
+      "started_at": "2026-10-04T14:14:11.959321+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-7cdc1e4e-6029-41e2-a951-13c541feb53b.png",
+      "output_sha256": "114b14dfd5d96e60bde5d132a013dc1cc2e5e2335f51020e04de568e164be364",
+      "saved_at": "2026-10-04T14:15:30.644657+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T14:15:30.681332+00:00",
+        "outcome": "pass",
+        "notes": "PASS: shallow turquoise water thins over sand with a broken diagonal foam edge, quieter sand leaves breathing room. Selective impasto reads as oil rather than false photographic foam; no staged mourner or scene of harm. Wave is caught at the turn rather than demonstrably receding; returning movement matches the poem. independent:false."
+      },
+      "alt": "A shallow turquoise wave crosses pale sand with a broken painted foam edge.",
+      "public_asset": "assets/poem-art/editions/10/the-wave-that-returns-v1.webp",
+      "public_sha256": "f4fd893c2535631601d95226f2aa44806d398f8bf0ba5ca44d5bdf9fa9695a3d",
+      "previous_assignment": "sea-breeze-cloth",
+      "integrated_at": "2026-10-04T14:15:30.753897+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 246,
+      "rationale": "The first-person appeal against female infanticide remains text-led; no invented child or sensational harm image.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 249,
+      "rationale": "The indictment of gendered honour and belonging needs the full speaking voice, not a generic female victim illustration.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 267,
+      "rationale": "The poem invokes uncounted train passengers and wounded landscapes; avoid inventing documentary disaster imagery or reducing its critique to an umbrella prop.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T14:18:32.875091+00:00",
+  "completed_at": "2026-10-04T14:18:32.875091+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-10.png and mobile-10.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}
