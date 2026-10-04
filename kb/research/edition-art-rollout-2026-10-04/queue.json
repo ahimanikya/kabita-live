@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T13:36:27.897221+00:00",
+  "updated_at": "2026-10-04T13:58:45.396974+00:00",
   "status": "active",
   "active_batch": null,
-  "next_edition": 14,
+  "next_edition": 11,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
   "publication_checkpoint_editions": 3,
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 14,
+    "remaining_editions": 11,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 90,
+    "new_rollout_artworks": 99,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 33,
-    "estimated_remaining_artworks": 42
+    "estimated_remaining_artworks": 33
   },
   "editions": [
     {
@@ -1337,12 +1337,24 @@
         336,
         339
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "the-pickle-jar-remembered",
+        "colours-returned-to-childhood",
+        "woolens-in-the-winter-sun"
+      ],
+      "text_led": [
+        322,
+        329,
+        333
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-14/batch.json",
+      "direction": "December gives memory three sensory scales: the taste held in a pickle jar, the small kaleidoscope where childhood returns, and wool warmed by winter sun. A close food-memory crop, a close view of the small optical toy and a spacious courtyard fragment vary visual language. Criticism of power, the complicated companion and mythic ethics remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T13:36:27.816727+00:00"
     },
     {
       "edition": 13,
@@ -1367,12 +1379,24 @@
         321,
         312
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "the-kettle-keeps-calling",
+        "roots-that-stay",
+        "the-bed-of-a-village-memory"
+      ],
+      "text_led": [
+        306,
+        309,
+        318
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-13/batch.json",
+      "direction": "November holds the inward life beside things that continue: a kettle calling through bodily pain, roots keeping their foothold, and a sleeping mat carrying village memory. Domestic gouache, weighty charcoal and soft pencil vary scale and density. The abandoned mother, wounded forest and named workers’ grief remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T13:47:35.233137+00:00"
     },
     {
       "edition": 12,
@@ -1396,12 +1420,24 @@
         300,
         302
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "warmth-from-the-clay-oven",
+        "the-pause-in-the-corridor",
+        "kash-beside-the-receding-river"
+      ],
+      "text_led": [
+        285,
+        294,
+        301
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-12/batch.json",
+      "direction": "October holds warmth and distance through remembered clay-oven heat, an expectant school corridor, and Kash grasses beside a receding night river. Dense intimate gouache, sparse architectural graphite and muted monotype vary light and visual weight. The argument about culture, a poet’s tribute and religious address remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T13:58:45.396974+00:00"
     },
     {
       "edition": 11,

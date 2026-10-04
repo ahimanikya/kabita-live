@@ -1,0 +1,202 @@
+{
+  "edition": 14,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T13:24:07.393956+00:00",
+  "poems_read": [
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339
+  ],
+  "direction": "December gives memory three sensory scales: the taste held in a pickle jar, the small kaleidoscope where childhood returns, and wool warmed by winter sun. A close food-memory crop, a close view of the small optical toy and a spacious courtyard fragment vary visual language. Criticism of power, the complicated companion and mythic ethics remain text-led.",
+  "items": [
+    {
+      "id": "the-pickle-jar-remembered",
+      "edition": 14,
+      "poem_id": 334,
+      "title": "The pickle jar remembered",
+      "rationale": "The fragrance poem lets smell restore childhood and family care. A close glimpse into a half-used mango pickle jar recalls the grandmother’s preparation without assembling every food and memory or inventing family portraits.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-14/the-pickle-jar-remembered-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-14/poem-334.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-14/poem-334.json",
+      "poem_sha256": "de3eddb1c35056ddb0efd5569ab15f0e5a3d0c5c0af0fbdb3e198e1d8fed3ed7",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-14/the-pickle-jar-remembered/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-14/the-pickle-jar-remembered-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-43a9fc5f-f811-436a-b08a-9584679702dd.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-14/the-pickle-jar-remembered/v1.png",
+          "sha256": "d853717459c41a72c4a5744f92d6a42a29974df330ca28d682d2450672b12ea1"
+        }
+      ],
+      "medium_label": "gouache and colored pencil",
+      "independent": false,
+      "started_at": "2026-10-04T13:24:07.450391+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-43a9fc5f-f811-436a-b08a-9584679702dd.png",
+      "output_sha256": "d853717459c41a72c4a5744f92d6a42a29974df330ca28d682d2450672b12ea1",
+      "saved_at": "2026-10-04T13:25:21.538406+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T13:25:21.608913+00:00",
+        "outcome": "pass",
+        "notes": "PASS: close asymmetric crop evokes taste and remembered kitchen care; irregular mango pieces overlap in oil rather than display individually. Glass rim/refraction and small oily traces plausible, broad quiet paper-toned surface balances dense food detail. Gouache/pencil treatment retained; no invented family portrait, packaging text or documentary claim. independent:false."
+      },
+      "alt": "A cropped glass jar holds irregular pieces of mango pickle in spiced oil.",
+      "public_asset": "assets/poem-art/editions/14/the-pickle-jar-remembered-v1.webp",
+      "public_sha256": "471cd5757bfa38c3ceb534b930c86a5ea0123276cce63bb8ce0e8405eac36c4d",
+      "previous_assignment": "archive",
+      "integrated_at": "2026-10-04T13:34:02.842879+00:00"
+    },
+    {
+      "id": "colours-returned-to-childhood",
+      "edition": 14,
+      "poem_id": 335,
+      "title": "Colours returned to childhood",
+      "rationale": "The working child finds his lost childhood in a borrowed kaleidoscope. A close outside view of the modest toy and its colored glass preserves that rediscovery without fabricating Dukhiram’s likeness. Two interior-view candidates were rejected for unreliable mirror geometry; the final view leaves internal optics unseen.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-14/colours-returned-to-childhood-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-14/poem-335.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-14/poem-335.json",
+      "poem_sha256": "6eb806d03cba6daafb0b0d15cac215d9073eebbc4ea79e6fb85d6a5fa8883f15",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-14/colours-returned-to-childhood/v3.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-14/colours-returned-to-childhood-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-b497e34e-78a6-4373-b479-f4429fee010a.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-14/colours-returned-to-childhood/v1.png",
+          "sha256": "f6956eb20474ac8f5b9551012fc249688994807c797674500eb02ed461c346ce",
+          "rejection": {
+            "outcome": "correction_required",
+            "independent": false,
+            "notes": "Vivid fragments serve childhood surprise, but a Y-shaped physical frame and inconsistent repeats make the optical construction implausible. Correct to a mirrored triangular tessellation, retaining painterly ambiguity."
+          }
+        },
+        {
+          "version": 2,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-14/colours-returned-to-childhood-correction-1-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2326315c-ba58-444d-af77-25bcf83a7c53.png",
+          "input": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-14/colours-returned-to-childhood/v1.png",
+          "input_sha256": "f6956eb20474ac8f5b9551012fc249688994807c797674500eb02ed461c346ce",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-14/colours-returned-to-childhood/v2.png",
+          "sha256": "515deb21e12e1073fc342dd366f111d3fddd533550c695812ef60bb587178dfe",
+          "rejection": {
+            "outcome": "correction_required",
+            "independent": false,
+            "notes": "Spokes removed, but repeated chips still read as an arbitrary mosaic rather than credible mirror repetition. Final correction changes to a close outside view of the same small optical toy so no inaccurate interior optics are asserted."
+          }
+        },
+        {
+          "version": 3,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-14/colours-returned-to-childhood-correction-2-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-43aa8c5e-7244-4502-b0a3-974a3a5353bd.png",
+          "input": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-14/colours-returned-to-childhood/v2.png",
+          "input_sha256": "515deb21e12e1073fc342dd366f111d3fddd533550c695812ef60bb587178dfe",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-14/colours-returned-to-childhood/v3.png",
+          "sha256": "b0801e358a82645caebcae8eb66de772ffb971a23bda99aa15a982534b3f86a8"
+        }
+      ],
+      "medium_label": "crayon and watercolor",
+      "independent": false,
+      "started_at": "2026-10-04T13:26:01.337415+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-b497e34e-78a6-4373-b479-f4429fee010a.png",
+      "output_sha256": "b0801e358a82645caebcae8eb66de772ffb971a23bda99aa15a982534b3f86a8",
+      "saved_at": "2026-10-04T13:27:30.211004+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T13:32:20.281834+00:00",
+        "outcome": "pass",
+        "notes": "PASS v3: outside view resolves the earlier implausible internal mirror geometry by leaving it unseen. Cylindrical tube, elliptical glass end, contained unequal colored pieces, soft contact shadow and plain paper seam are coherent. Crayon/watercolor texture keeps the object modest. It recalls rediscovered childhood without inventing the child or depicting labor. Earlier two candidates retained and rejected; no further correction needed. independent:false."
+      },
+      "correction_prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-14/colours-returned-to-childhood-correction-2-prompt.txt",
+      "correction_tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-43aa8c5e-7244-4502-b0a3-974a3a5353bd.png",
+      "alt": "A simple ochre cardboard kaleidoscope rests on a table, colored glass visible at its end.",
+      "public_asset": "assets/poem-art/editions/14/colours-returned-to-childhood-v1.webp",
+      "public_sha256": "02ea2514041cb332f337f3079d002f0daa6568f6cbaf80ed402108b7273ea345",
+      "previous_assignment": "reading-room",
+      "integrated_at": "2026-10-04T13:34:02.842879+00:00"
+    },
+    {
+      "id": "woolens-in-the-winter-sun",
+      "edition": 14,
+      "poem_id": 339,
+      "title": "Woolens in the winter sun",
+      "rationale": "The winter poem welcomes sun and the thought of bringing out woolens. A partly unfolded shawl on an ordinary outdoor chair suggests work paused and warmth sought, without repeating a generic steaming teacup.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-14/woolens-in-the-winter-sun-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-14/poem-339.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-14/poem-339.json",
+      "poem_sha256": "a15a1394519a2eb3685df3f67d9205df0b10f0dbb409f1cefcae3a36e9a5b007",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-14/woolens-in-the-winter-sun/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-14/woolens-in-the-winter-sun-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-90308a41-d23e-437e-902b-a265051ff2fb.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-14/woolens-in-the-winter-sun/v1.png",
+          "sha256": "2fdad18ea3f273b8fd0cebb55391f75b9cc0f988dc1898be14babff066245d14"
+        }
+      ],
+      "medium_label": "graphite and watercolor",
+      "independent": false,
+      "started_at": "2026-10-04T13:32:20.318240+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-90308a41-d23e-437e-902b-a265051ff2fb.png",
+      "output_sha256": "2fdad18ea3f273b8fd0cebb55391f75b9cc0f988dc1898be14babff066245d14",
+      "saved_at": "2026-10-04T13:34:02.704785+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T13:34:02.742063+00:00",
+        "outcome": "pass",
+        "notes": "PASS: cropped chair and weighted rust shawl leave broad welcoming winter sunlight. Folds follow support and gravity, chair shadow falls coherently to lower right, background remains quiet. Soft foliage shadows are incidental off-frame shade rather than added props. Watercolor/graphite treatment supports ordinary warmth without lifestyle staging or a human likeness. independent:false."
+      },
+      "alt": "A rust wool shawl drapes over a cropped wooden chair in winter sunlight.",
+      "public_asset": "assets/poem-art/editions/14/woolens-in-the-winter-sun-v1.webp",
+      "public_sha256": "1332a2cb743bf4f157738ff9c9b01eb573e5dc4980edbbe1c7da010a4f64ff7a",
+      "previous_assignment": "send-a-poem",
+      "integrated_at": "2026-10-04T13:34:02.842879+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 322,
+      "rationale": "The poem’s criticism of appetite, power and missing divinity remains a text-led argument, without inventing a god’s likeness.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 329,
+      "rationale": "The desired companion is complex and forceful; preserve the direct address without supplying an idealized woman or literal poison/explosives.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 333,
+      "rationale": "The ethical debate among epic figures needs its verbal tensions intact; avoid a fabricated mythological tableau or simplifying it to a fallen leaf.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T13:36:27.816727+00:00",
+  "completed_at": "2026-10-04T13:36:27.816727+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-14.png and mobile-14.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

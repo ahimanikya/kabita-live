@@ -1,0 +1,172 @@
+{
+  "edition": 13,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T13:40:43.266611+00:00",
+  "poems_read": [
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321
+  ],
+  "direction": "November holds the inward life beside things that continue: a kettle calling through bodily pain, roots keeping their foothold, and a sleeping mat carrying village memory. Domestic gouache, weighty charcoal and soft pencil vary scale and density. The abandoned mother, wounded forest and named workers’ grief remain text-led.",
+  "items": [
+    {
+      "id": "the-kettle-keeps-calling",
+      "edition": 13,
+      "poem_id": 304,
+      "title": "The kettle keeps calling",
+      "rationale": "The poem hears household appliances while the body aches. A quiet electric kettle waiting after boiling evokes the ordinary demands continuing around pain, without inventing the speaker or turning illness into spectacle.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-13/the-kettle-keeps-calling-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-13/poem-304.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-13/poem-304.json",
+      "poem_sha256": "6d2629cc2ea470002db08633aad7f462acfb118d3924b95044e3caab8b93e476",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-13/the-kettle-keeps-calling/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-13/the-kettle-keeps-calling-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-001588d3-2704-432a-88e5-e69533bece23.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-13/the-kettle-keeps-calling/v1.png",
+          "sha256": "38c3b3e66120509a2f5e571171c43f005f7065c67d1dcd31a39307d26c9a5103"
+        }
+      ],
+      "medium_label": "gouache",
+      "independent": false,
+      "started_at": "2026-10-04T13:40:43.314865+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-001588d3-2704-432a-88e5-e69533bece23.png",
+      "output_sha256": "38c3b3e66120509a2f5e571171c43f005f7065c67d1dcd31a39307d26c9a5103",
+      "saved_at": "2026-10-04T13:41:52.637835+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T13:41:52.682944+00:00",
+        "outcome": "pass",
+        "notes": "PASS: structurally coherent kettle, closed lid, handle, base and cord; residual steam emerges at the spout. Broad ordinary counter and matte gouache strokes give the poem’s domestic demands room without an invented sufferer. Light enters consistently from left; reflected tone is restrained, no branding or styled companion props. independent:false."
+      },
+      "alt": "A plain cream electric kettle rests on a kitchen counter with a faint wisp of steam.",
+      "public_asset": "assets/poem-art/editions/13/the-kettle-keeps-calling-v1.webp",
+      "public_sha256": "5b13f7d70b6b581e047e2dcff6c24c00d4735b00f39f7d2088e9a73b70d4da71",
+      "previous_assignment": "editorial-desk",
+      "integrated_at": "2026-10-04T13:45:50.907699+00:00"
+    },
+    {
+      "id": "roots-that-stay",
+      "edition": 13,
+      "poem_id": 307,
+      "title": "Roots that stay",
+      "rationale": "The inward walker finds a deep foothold in the roots of an old tree. A low intimate view of roots entering earth carries persistence without literal lonely streets or an epic tree portrait.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-13/roots-that-stay-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-13/poem-307.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-13/poem-307.json",
+      "poem_sha256": "cdfd692971283ce5ece13d1acf05571c06404b8ca95463bf3b5c5550b7cbd93b",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-13/roots-that-stay/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-13/roots-that-stay-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-0344e8d5-0dc9-4685-b410-a834c552f5db.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-13/roots-that-stay/v1.png",
+          "sha256": "8dfd8f5412346c3be4a14c3ecb2a0ced61e9ff04f6895721274ce22b9226a7fa"
+        }
+      ],
+      "medium_label": "charcoal and watercolor",
+      "independent": false,
+      "started_at": "2026-10-04T13:41:52.723113+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-0344e8d5-0dc9-4685-b410-a834c552f5db.png",
+      "output_sha256": "8dfd8f5412346c3be4a14c3ecb2a0ced61e9ff04f6895721274ce22b9226a7fa",
+      "saved_at": "2026-10-04T13:43:37.751962+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T13:43:37.792832+00:00",
+        "outcome": "pass",
+        "notes": "PASS: unequal roots taper into earth with credible contact and partial occlusion; cropped trunk keeps the image intimate. Charcoal weight and quiet wash support the inward foothold. Moss and soil are restrained contextual growth, not cosmetic decay; no floating roots, heroic whole-tree staging or invented person. independent:false."
+      },
+      "alt": "Unequal roots at the base of a tree disappear into quiet earth.",
+      "public_asset": "assets/poem-art/editions/13/roots-that-stay-v1.webp",
+      "public_sha256": "078352739aadccc775296ab40921123902c26a9edc5ce936d1c713254e984499",
+      "previous_assignment": "quiet-path",
+      "integrated_at": "2026-10-04T13:45:50.907699+00:00"
+    },
+    {
+      "id": "the-bed-of-a-village-memory",
+      "edition": 13,
+      "poem_id": 320,
+      "title": "The bed of a village memory",
+      "rationale": "The village poem begins in the softness of mats and a quilt, then travels through a mother’s care and remembered landscape. A modest sleeping place carries that intimate memory without fabricating the named family or combining all village imagery.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-13/the-bed-of-a-village-memory-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-13/poem-320.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-13/poem-320.json",
+      "poem_sha256": "1352f044cf7990516b9529bb16b725401eeda61e74c822bf5e9caa6612fc38a4",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-13/the-bed-of-a-village-memory/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-13/the-bed-of-a-village-memory-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-4fbfdcc8-5512-48b6-9f8c-17dc29beca09.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-13/the-bed-of-a-village-memory/v1.png",
+          "sha256": "044c97a3d9733ea113402e82b6f15b8ebc574cd4d4fe75029358a40855a9bde5"
+        }
+      ],
+      "medium_label": "colored pencil and watercolor",
+      "independent": false,
+      "started_at": "2026-10-04T13:43:37.833879+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-4fbfdcc8-5512-48b6-9f8c-17dc29beca09.png",
+      "output_sha256": "044c97a3d9733ea113402e82b6f15b8ebc574cd4d4fe75029358a40855a9bde5",
+      "saved_at": "2026-10-04T13:45:50.771231+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T13:45:50.819258+00:00",
+        "outcome": "pass",
+        "notes": "PASS: quilt compresses and folds credibly onto reed mat, oblique perspective and soft side light consistent. Quiet floor keeps intimate village memory open. Simple stitching carries no asserted regional design, no invented sleeper or family likeness. More textile detail than prompt but limited to focal surface, softly painted/pencilled rather than photographic. independent:false."
+      },
+      "alt": "An indigo and cream quilt lies softly folded on a woven sleeping mat.",
+      "public_asset": "assets/poem-art/editions/13/the-bed-of-a-village-memory-v1.webp",
+      "public_sha256": "b4abd55724ece01384346c8e03380155f9db6986034ca16cac7284242219db67",
+      "previous_assignment": "our-story",
+      "integrated_at": "2026-10-04T13:45:50.907699+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 306,
+      "rationale": "The abandoned mother is a direct human question. Keep the address text-led rather than invent an elderly woman and present imagined suffering.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 309,
+      "rationale": "The poem’s fierce metaphor for damaged forest and named hills remains in its own language; avoid literalizing sexual violence or fabricating a documentary landscape.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 318,
+      "rationale": "The named workers and their grief require the full poem’s social context; retain a text-led opening rather than invent likenesses or dramatize the loss.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T13:47:35.233137+00:00",
+  "completed_at": "2026-10-04T13:47:35.233137+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-13.png and mobile-13.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "edition": 12,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T13:49:30.013216+00:00",
+  "poems_read": [
+    284,
+    285,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    299,
+    300,
+    301,
+    302,
+    303
+  ],
+  "direction": "October holds warmth and distance through remembered clay-oven heat, an expectant school corridor, and Kash grasses beside a receding night river. Dense intimate gouache, sparse architectural graphite and muted monotype vary light and visual weight. The argument about culture, a poet’s tribute and religious address remain text-led.",
+  "items": [
+    {
+      "id": "warmth-from-the-clay-oven",
+      "edition": 12,
+      "poem_id": 293,
+      "title": "Warmth from the clay oven",
+      "rationale": "The poem remembers warmth shared around a sister’s clay oven and the loss of that shelter. Show the modest source of heat in remembered use, without inventing the sister or siblings, and without reducing grief to a ruined oven.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-12/warmth-from-the-clay-oven-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-12/poem-293.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-12/poem-293.json",
+      "poem_sha256": "f00b855d2de7e513cb4ce20f734135ce4e016770a548401d8bdc1c726fbe134d",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-12/warmth-from-the-clay-oven/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-12/warmth-from-the-clay-oven-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-8a620339-865d-43dd-b14b-4713d835ea2d.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-12/warmth-from-the-clay-oven/v1.png",
+          "sha256": "1da6da1cc2297b1ed14dddb2adcf8fe69e306898c9cd59aa7cbd32494f4755b1"
+        }
+      ],
+      "medium_label": "gouache and charcoal",
+      "independent": false,
+      "started_at": "2026-10-04T13:49:30.062749+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-8a620339-865d-43dd-b14b-4713d835ea2d.png",
+      "output_sha256": "1da6da1cc2297b1ed14dddb2adcf8fe69e306898c9cd59aa7cbd32494f4755b1",
+      "saved_at": "2026-10-04T13:51:06.925411+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T13:51:06.968288+00:00",
+        "outcome": "pass",
+        "notes": "PASS: griddle rests on clay supports and imperfect flatbread lies on it; glow is limited to the fire cavity and underside, outer clay stays matte. Cropped close view and quiet shadow support remembered sibling warmth without fabricating family. Soot and ash are causally attached to cooking, no decorative ruin or flame spectacle. Gouache/charcoal material remains clear. independent:false."
+      },
+      "alt": "An irregular flatbread warms on an iron griddle above the embers of a small clay stove.",
+      "public_asset": "assets/poem-art/editions/12/warmth-from-the-clay-oven-v1.webp",
+      "public_sha256": "894d5a25c06edc09bb08d47ccc2bfaba5667052d678a83a4655176322513e151",
+      "previous_assignment": "sea-breeze-cloth",
+      "integrated_at": "2026-10-04T13:54:55.798785+00:00"
+    },
+    {
+      "id": "the-pause-in-the-corridor",
+      "edition": 12,
+      "poem_id": 299,
+      "title": "The pause in the corridor",
+      "rationale": "The speaker waits for a teacher to turn back. The corridor after her passing can hold that suspended expectation without inventing her likeness or turning the title into a literal sunrise landscape.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-12/the-pause-in-the-corridor-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-12/poem-299.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-12/poem-299.json",
+      "poem_sha256": "bfe824cc55385179356e45eb5d28c594603d47a7ec71a32f1e1a16d5d90a00cb",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-12/the-pause-in-the-corridor/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-12/the-pause-in-the-corridor-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-adc4353a-ea46-479b-b7d5-6e00ebfecc61.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-12/the-pause-in-the-corridor/v1.png",
+          "sha256": "b017d07d93cda9440c5ff079c03866ee2bb326093a3ae40c13a0614dada0cd2e"
+        }
+      ],
+      "medium_label": "graphite and gouache",
+      "independent": false,
+      "started_at": "2026-10-04T13:51:07.006433+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-adc4353a-ea46-479b-b7d5-6e00ebfecc61.png",
+      "output_sha256": "b017d07d93cda9440c5ff079c03866ee2bb326093a3ae40c13a0614dada0cd2e",
+      "saved_at": "2026-10-04T13:52:45.495892+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T13:52:45.534972+00:00",
+        "outcome": "pass",
+        "notes": "PASS: clean quiet corridor and open doorway sustain the waiting glance without inventing the teacher. Wall/floor perspective and lateral daylight are coherent; tonal fields remain sparse with selective graphite. No decorative decay, theatrical silhouette, signage or location claim. independent:false."
+      },
+      "alt": "Soft daylight crosses an empty school corridor beside an open classroom doorway.",
+      "public_asset": "assets/poem-art/editions/12/the-pause-in-the-corridor-v1.webp",
+      "public_sha256": "ffed7e2239b517d5acf5d64005362b014e412d52fbd71ecb98ed8a964dedbeda",
+      "previous_assignment": "pond-at-dawn",
+      "integrated_at": "2026-10-04T13:54:55.798785+00:00"
+    },
+    {
+      "id": "kash-beside-the-receding-river",
+      "edition": 12,
+      "poem_id": 302,
+      "title": "Kash beside the receding river",
+      "rationale": "The poem’s distant village is felt through moonlit paddy and Kash beside a half-dried river. A spare riverbank fragment preserves that isolation without inventing village residents or assembling every scene in the poem.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-12/kash-beside-the-receding-river-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-12/poem-302.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-12/poem-302.json",
+      "poem_sha256": "2717eebd89d61e959a7a29a9bb00379ba8673c4d930aa7c33bb257f55d5e6f3a",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-12/kash-beside-the-receding-river/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-12/kash-beside-the-receding-river-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-63d1deab-0947-4cb8-a55d-44b9d5f639b3.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-12/kash-beside-the-receding-river/v1.png",
+          "sha256": "1e8325da740be6b13fa20d2af1c7bbd6ac096d8ceb3f0e53e54b9b9796a5c64b"
+        }
+      ],
+      "medium_label": "monotype and watercolor",
+      "independent": false,
+      "started_at": "2026-10-04T13:52:45.570762+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-63d1deab-0947-4cb8-a55d-44b9d5f639b3.png",
+      "output_sha256": "1e8325da740be6b13fa20d2af1c7bbd6ac096d8ceb3f0e53e54b9b9796a5c64b",
+      "saved_at": "2026-10-04T13:54:55.668057+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T13:54:55.719470+00:00",
+        "outcome": "pass",
+        "notes": "PASS: Kash cluster is rooted above the lowered water channel, overlapping stems and uneven plumes plausible; broken low reflections keep the moonlit river understated. Monotype-like selective marks and broad dark field retain distance without a picturesque village reconstruction, star spectacle or invented people. Interpretation of grasses, not a botanical/location certification. independent:false."
+      },
+      "alt": "Pale Kash grass leans beside a narrow moonlit river channel and exposed sandbank.",
+      "public_asset": "assets/poem-art/editions/12/kash-beside-the-receding-river-v1.webp",
+      "public_sha256": "ad34afd1dcaee629ed5a0dd99602a6678140e02f83ef514c2a6621fb0f787357",
+      "previous_assignment": "courtyard-petals",
+      "integrated_at": "2026-10-04T13:54:55.798785+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 285,
+      "rationale": "The contrast between monuments and creative, just culture belongs in a clear text-led argument; avoid supplying another monumental spectacle.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 294,
+      "rationale": "A tribute to Jayanta Mahapatra retains the poet’s full words; no new likeness, funeral image or biographical claim is invented for interior art.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 301,
+      "rationale": "The poem’s religious and ethical address stays text-led; avoid inventing iconography or literalizing the Chhinnamastika imagery.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T13:58:45.396974+00:00",
+  "completed_at": "2026-10-04T13:58:45.396974+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-12.png and mobile-12.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}
