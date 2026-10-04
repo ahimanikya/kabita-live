@@ -1,0 +1,33 @@
+--- a/output/kabitalive-design-proposal-2026-09-29/site/poem_reader.py
++++ b/output/kabitalive-design-proposal-2026-09-29/site/poem_reader.py
+@@ -2,6 +2,7 @@
+ from html import escape
+ from pathlib import Path
+ import hashlib,json
++from poem_end_marks import end_mark_kind,end_mark_html
+ ROOT=Path(__file__).resolve().parent
+ LABELS={'hi':'हिन्दी','or':'ଓଡ଼ିଆ','en':'English'}
+ TRANSLATIONS=json.loads((ROOT/'data/poem-translations.json').read_text())
+@@ -45,12 +46,12 @@
+  for code,v in variants.items():
+   v['stanzas']=reader_stanzas(source,v['stanzas'])
+   v['inline_breaks']=SPACING.get(str(source['id']),{}).get('inline_breaks',{}).get(code,[])
+- data={'id':source['id'],'source_language':lang,'variants':variants}
++ data={'id':source['id'],'source_language':lang,'variants':variants,'end_mark':end_mark_kind(source['id'])}
+  serialized=json.dumps(data,ensure_ascii=False).replace('<','\\u003c')
+  tabs=''.join(f'<button type="button" role="tab" id="tab-{code}" data-reading-language="{code}" lang="{code}" aria-selected="{str(code==lang).lower()}" aria-controls="reading-panel" tabindex="{0 if code==lang else -1}">{escape(v["label"])}<span lang="en">{v["kind"]}</span></button>' for code,v in variants.items())
+  language_controls='<div class="experience-bar"><div class="reading-tabs" role="tablist" aria-label="Poem language">'+tabs+'</div></div>' if len(variants)>1 else ''
+  panel_attributes=f'role="tabpanel" aria-labelledby="tab-{lang}"' if len(variants)>1 else 'role="region" aria-label="Poem text"'
+- # Keep end markers in source HTML for parity; the existing paddy ornament is their visible replacement.
++ # Keep end markers in source HTML for parity; the approved closing mark is their visible replacement.
+  stanzas=[]
+  for stanza in variants[lang]['stanzas']:
+   parts=[]
+@@ -66,6 +67,6 @@
+ {language_controls}
+ <div class="reader-tools"><div class="size-group" role="group" aria-label="Poem text size"><button data-size="24" aria-pressed="true" aria-label="Standard text size">A</button><button data-size="28" aria-pressed="false" aria-label="Large text">A+</button><button data-size="32" aria-pressed="false" aria-label="Extra large text">A++</button></div><div class="mark-tools"><button type="button" class="clear-marks" id="clear-marks" hidden>Clear marks</button></div></div>
+ <div id="selection-tools" class="selection-tools" role="toolbar" aria-label="Selected text" hidden><button id="underline-selection" type="button">Underline selection</button><button id="erase-selection" type="button">Erase</button><button id="dismiss-selection" type="button" aria-label="Dismiss selection">×</button></div>
+-<div id="reading-panel" {panel_attributes} tabindex="0"><div id="experience-verse" class="verse {lang}" lang="{lang}">{original_html}</div>{availability}</div>
++<div id="reading-panel" {panel_attributes} tabindex="0"><div id="experience-verse" class="verse {lang}" lang="{lang}">{original_html}</div>{end_mark_html(source['id'])}{availability}</div>
+ <noscript><p>Translations and underlining need JavaScript. The original poem remains above.</p></noscript>
+ </article><script type="application/json" id="reading-data">{serialized}</script></div>'''

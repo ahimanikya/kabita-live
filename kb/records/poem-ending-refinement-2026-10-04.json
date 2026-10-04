@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-04T09:08:49.572321+00:00",
+  "status": "applied_locally",
+  "approval_quote": "ok",
+  "approved_recommendation": "Tighten the ending spacing; navigation within poem reading width with neighbouring titles; smaller lighter closing mark; quieter ownership/footer text. Preserve paper and boat artwork.",
+  "scope": "Poem pages; closing-mark size also shared with quiet reader. No publication performed.",
+  "executor": "Current assistant; Samanta implementation and Drishti visual self-review",
+  "independent": false,
+  "changes": [
+    "Previous/next titles with source-script fonts, wrapping and accessible destination labels",
+    "Navigation matches verse column on desktop and360px phone",
+    "Mark24×18px, opacity.82, tighter margin; existing final-line pagination grouping retained",
+    "Poem footer ownership12px, destination labels14px; existing boat preserved",
+    "Mobile navigation immediately follows verse/closing mark; companion artwork follows navigation. Existing art-before openings retain their placement."
+  ],
+  "checks": {
+    "build": "PASS Node24/Astro/Pagefind",
+    "pagination_and_passages": "PASS15 tests",
+    "neighbour_titles": "PASS1502 rendered neighbouring titles match destination accessible labels",
+    "poem_panels": "PASS798edition poems plus1unassigned",
+    "source_and_payload_parity": "PASS799poems,2373language variants,4protected data hashes; pre-change renderer comparison",
+    "desktop": "604.8px navigation and verse widths match; no horizontal overflow; full-page visual review",
+    "mobile": "320px navigation and verse widths match at360px viewport;60px link height; no horizontal overflow. First-poem unavailable previous state checked.",
+    "structure": "PASS bundle",
+    "handoff": "PASS final global storage check:2070portable links checked, no source/handoff mismatches. Three refinement implementation files byte-identical."
+  },
+  "evidence": [
+    "artifacts/review/poem-end-marks-2026-10-04/refinement/user-reference.png",
+    "artifacts/review/poem-end-marks-2026-10-04/refinement/desktop.png",
+    "artifacts/review/poem-end-marks-2026-10-04/refinement/mobile.png"
+  ]
+}

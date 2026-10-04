@@ -492,3 +492,13 @@ Ahimanikya clarified that the editors’ watercolor artwork treatment applies to
 ## Our Story refinement and artistic treatment · 2 October 2026
 
 Apply the reviewed concise journal narrative, lighter editorial sidebar and consolidated credits with four disclosures: artwork/image sources, translations, typefaces, and poet/portrait/biography references. Reuse existing kendu, pen, manuscript and letter marks on the story heading, editorial/credit labels and invitations. Keep the existing house watercolor and compact opening waterline. Preserve reference IDs and open enclosing disclosures on a direct credit link. Remove the two user-specified sample-illustration/Pipili and editor-portrait explanation paragraphs; retain actual editor sources and other acknowledgements. Privacy follows credits, then journal navigation. Evidence: `kb/records/our-story-polish-applied.json`.
+
+## Poem closing marks · approved 4 October 2026
+
+Use one small botanical mark beneath the final stanza: single leaf most often, with paired leaf and fine sprig as restrained variations. Assign by poem identity, shared by original, translations and the quiet reader; allow explicit editorial overrides. Use original vector shapes at28×22px in the existing hearth colour, without added rules or motion. Hide decoration from assistive technology. In the paginated reader, measure the mark together with the final visible line so it cannot occupy a page alone. Do not signal a completed ending for text awaiting confirmation. Sources, verse, navigation, saved offsets and historical artwork remain intact. Approval and verification: `kb/records/poem-end-marks-applied-2026-10-04.json`.
+
+## Poem ending refinement · approved 4 October 2026
+
+After the closing mark, place Previous/Next within the poem reading column, with the neighbouring title beneath each small direction label. Keep the curved arrows,48px minimum targets, source-script fonts and wrapping titles. Closing marks now use24×18px at.82opacity with18px top/10px bottom margins; quiet-reader margins16px/10px remain measured with the last line. On poem pages, use12px ownership text and14px footer destination labels; preserve the approved boat and paper. Approval: `kb/records/poem-ending-refinement-2026-10-04.json`.
+
+On phones, keep the ending navigation directly after verse and before companion artwork; preserve existing art-before openings.

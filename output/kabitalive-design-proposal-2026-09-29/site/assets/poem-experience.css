@@ -230,3 +230,34 @@
 .focus-title:not(:first-child){padding-top:16px}
 .focus-author{display:flex;align-items:center;gap:10px;min-height:44px;margin-bottom:18px}
 .focus-poet-portrait{width:44px;height:44px;flex:0 0 44px;border-radius:50%;object-fit:cover;border:1px solid var(--line)}
+
+/* Approved closing marks: one stable variant per poem, no extra rules or motion. */
+.poem-closing-mark{display:block;width:28px;height:22px;margin:22px auto 14px;background:var(--hearth);mask:center/contain no-repeat;pointer-events:none;user-select:none;break-before:avoid;break-inside:avoid}
+.poem-closing-mark[data-end-mark="leaf"]{mask-image:url(poem-end-leaf.svg)}
+.poem-closing-mark[data-end-mark="paired"]{mask-image:url(poem-end-paired.svg)}
+.poem-closing-mark[data-end-mark="sprig"]{mask-image:url(poem-end-sprig.svg)}
+.focus-line .poem-closing-mark{margin:18px auto 12px}
+@media(forced-colors:active){.poem-closing-mark{background:CanvasText}}
+
+/* Approved ending refinement: neighbouring titles within the verse column. */
+.poem-page .poem-reading-end{display:block;max-width:730px;margin:0 0 12px}
+.poem-page .poem-reading-end .poem-after{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px 24px;min-height:48px}
+.poem-page .poem-after .poem-step{width:100%;height:auto;min-height:48px;gap:10px;padding:8px 0;align-items:flex-start;justify-content:flex-start}
+.poem-page .poem-step.next{grid-column:2;justify-content:flex-end;text-align:right}
+.poem-page .poem-step svg{width:20px;height:20px;margin-top:3px}
+.poem-step-copy{display:flex;flex-direction:column;min-width:0;gap:2px}
+.poem-step-label{font:12px/1.5 var(--ui);color:var(--muted)}
+.poem-step-title{font:17px/1.5 var(--serif);color:var(--ink);overflow-wrap:anywhere}
+.poem-step-title:lang(or){font-family:var(--odia)}
+.poem-step-title:lang(hi){font-family:'Tiro Devanagari Hindi',serif}
+.poem-page .poem-step:disabled .poem-step-hint{position:static;opacity:1;background:none;color:inherit;padding:0;white-space:normal;font-size:12px;text-align:left}
+.poem-page .poem-step.next:disabled .poem-step-hint{text-align:right}
+.poem-page .poem-after a:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+.poem-closing-mark{width:24px;height:18px;opacity:.82;margin:18px auto 10px}
+.focus-line .poem-closing-mark{margin:16px auto 10px}
+.poem-page #footer{margin-top:12px}
+.poem-page #footer .footer-credit{font-size:12px}
+.poem-page #footer .footer-links a{font-size:14px}
+@media(min-width:761px){.poem-page .poem-reading-end{grid-column:1;grid-row:3;margin:0 0 8px}}
+@media(max-width:760px){.poem-page .poem-reading-end{margin:4px 0 8px}.poem-page .poem-after .poem-step{gap:6px}.poem-step-title{font-size:16px}}
+@media(max-width:760px){.poem-page .poem-reading-end{order:3}.poem-page .poem-art{order:4}}

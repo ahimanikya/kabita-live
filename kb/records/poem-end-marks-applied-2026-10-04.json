@@ -1,0 +1,49 @@
+{
+  "recorded_at": "2026-10-04T08:58:05.143323+00:00",
+  "work_id": "KBL-WORK-004",
+  "status": "applied_locally",
+  "approval_quote": "This is nice, let's apply",
+  "executor": "Current assistant; Samanta implementation and Drishti browser/source self-review",
+  "independent": false,
+  "scope": "Approved single-leaf, paired-leaf and fine-sprig closing marks on active poem pages and quiet-reader collections. No deployment performed.",
+  "implementation": {
+    "assignment": "Poem ID modulo five: leaf in three slots, paired and sprig in one each; explicit editorial overrides in data/poem-end-mark-overrides.json. Stable across original/translation/reader views.",
+    "vectors": "Three original SVG drawings interpret the approved botanical forms; no system font file or extracted font outlines distributed. Fine sprig is the unchanged approved original vector.",
+    "placement": "Below final stanza within the verse column. Quiet-reader ornament is part of the final visible line unit and participates in real DOM height measurement, preventing an ornament-only page.",
+    "accessibility": "Decorative, aria-hidden, pointer-events none, no added source characters or passage offsets; palette follows light/dark theme.",
+    "incomplete_text": "Poem385 retains availability note and has no end marker.",
+    "animation": "No new animation; existing reader page-turn preference preserved."
+  },
+  "verification": {
+    "result": "PASS",
+    "poems": 799,
+    "language_variants_unchanged": 2373,
+    "assignment_counts": {
+      "sprig": 161,
+      "leaf": 477,
+      "paired": 161
+    },
+    "protected_data_hashes_unchanged": 4,
+    "incomplete_poem_385": "No closing mark",
+    "coverage": "Standalone preview/public pages and all edition/poet/all-poem reader payloads",
+    "vector_export": "All three assets present and byte-identical in public build"
+  },
+  "checks": {
+    "public_build": "PASS Node24/Astro/Pagefind",
+    "pagination_and_passage_tests": "PASS15 tests including final-line closing space and subsequent-poem opening reservation",
+    "editions": "PASS",
+    "poem_panels": "PASS",
+    "reviewed_endings_and_spacing": "PASS",
+    "browser": "Leaf on English page and extra-large360px dark reader, paired on Odia page and English reader, sprig on Odia reader. Language switching Odia/Hindi/English retains one sprig. Observed final-line marks, no horizontal overflow, visible pages fit.",
+    "legacy_poem_experience_check": "Existing historical hash gate fails for committed content/editions/issue-39/poem-699.json, before ornament assertions. Not rewritten or waived. New task-specific verification compares all2373 current reader variants with the pre-change renderer and verifies799 pages plus collection payloads.",
+    "handoff": "Implementation parity PASS for all11 changed/new source files. Full synchronization completed, but global storage check sees unrelated active edition36 artwork/queue changes between sync and check; see application/global-storage-check.json. No unrelated files frozen or overwritten."
+  },
+  "evidence": [
+    "artifacts/review/poem-end-marks-2026-10-04/application/verification.json",
+    "artifacts/review/poem-end-marks-2026-10-04/application/verify.py",
+    "artifacts/review/poem-end-marks-2026-10-04/application/reader-mobile-large.png",
+    "artifacts/review/poem-end-marks-2026-10-04/application/reader-sprig-odia.png",
+    "artifacts/review/poem-end-marks-2026-10-04/application/reader-desktop-large.png"
+  ],
+  "publication": "Local application; hosted site update not part of this request."
+}

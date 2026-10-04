@@ -26,3 +26,15 @@ test('oversized heading keeps first line, never inserts an empty page',()=>{
 test('changed viewport recalculates the opening guard',()=>{
  const units=[...poem(0,4),...poem(1,5)];assert.equal(pack(units,10)[0].at(-1).poemIndex,0);assert.equal(pack(units,14)[0].at(-1).poemIndex,1);
 });
+
+test('closing mark stays with the final verse when its added height needs a page',()=>{
+ const units=poem(0,5);units.at(-1).height=3;units.at(-1).endMark=true;
+ const pages=pack(units,8);
+ assert.equal(pages.length,2);assert.equal(pages[1][0],units.at(-1));
+ assert.equal(pages[1][0].type,'line');assert.deepEqual(pages.flat(),units);
+});
+test('closing space counts when deciding whether a following short poem fits',()=>{
+ const first=poem(0,2),second=poem(1,2);first.at(-1).height=3;
+ const pages=pack([...first,...second],9);
+ assert.equal(pages[0].at(-1).poemIndex,0);assert.equal(pages[1][0].poemIndex,1);
+});

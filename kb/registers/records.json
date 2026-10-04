@@ -1042,6 +1042,48 @@
       "evidence": [
         "records/edition-art-rollout-2026-10-04.json"
       ]
+    },
+    {
+      "id": "KBL-DEC-047",
+      "title": "Apply the three approved poem closing marks to pages and the quiet reader",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "This is nice, let's apply",
+      "scope": "Apply single leaf, paired leaf and fine sprig after final verse, one stable choice per poem across languages and quiet-reader views. Preserve wording, page navigation and passage offsets. Local application; no new deployment scope.",
+      "evidence": [
+        "records/poem-end-marks-applied-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-048",
+      "title": "Refine poem-ending spacing, neighbouring navigation and footer emphasis",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "ok",
+      "scope": "Tighten the ending spacing; navigation within poem reading width with neighbouring titles; smaller lighter closing mark; quieter ownership/footer text. Preserve paper and boat artwork. Local application only.",
+      "evidence": [
+        "records/poem-ending-refinement-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-049",
+      "title": "Publish the approved poem closing marks and ending refinement",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "apply",
+      "scope": "Publish only approved closing marks and ending refinement using the established manual public-only Pages preview workflow. Preserve current portraits, artwork, poem text, consent, runtime, noindex and DNS.",
+      "evidence": [
+        "records/poem-ending-deployment-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [

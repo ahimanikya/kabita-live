@@ -1,0 +1,50 @@
+{
+  "recorded_at": "2026-10-04T08:38:59.022779+00:00",
+  "work_id": "KBL-WORK-004",
+  "status": "options_prepared_for_discussion",
+  "user_quote": "❧ This was nice at the end of the poem - can we use something like this? Maybe we can have a few options to avoid repeating patterns - this can be used in the reader as well.",
+  "executor": "Current assistant; Samanta design and Drishti static visual self-review",
+  "independent": false,
+  "specimen": "artifacts/review/poem-end-marks-2026-10-04/options.png",
+  "interactive_candidate": "artifacts/review/poem-end-marks-2026-10-04/index.html",
+  "options": [
+    {
+      "id": "A",
+      "name": "Single leaf",
+      "glyph": "❧",
+      "recommendation": "default"
+    },
+    {
+      "id": "B",
+      "name": "Paired leaf",
+      "glyph": "❦"
+    },
+    {
+      "id": "C",
+      "name": "Fine sprig",
+      "asset": "artifacts/review/poem-end-marks-2026-10-04/fine-sprig.svg"
+    }
+  ],
+  "proposed_application": "Small decorative mark after final stanza, one stable assignment per poem shared by standalone page, translations and quiet reader. Default A with restrained B/C variation; no animation or extra rules; keep marker with final verse on pagination. Editorial override allowed.",
+  "source_context": {
+    "poem_id": 201,
+    "title": "Confession",
+    "author": "Santasree Choudhury",
+    "excerpt": "Never ever cry for me\nI will return as a yellow butterfly",
+    "note": "Second line wraps visually in specimen; wording unchanged."
+  },
+  "checks": {
+    "static_specimen": "visually reviewed at enlarged and normal reading size",
+    "source_excerpt": "matched local poem201 final stanza",
+    "glyph_coverage": "Source Serif4 and Georgia do not contain ❧/❦. Specimen uses system Arial Unicode; candidate fallback only. Convert selected forms to consistent vector assets before rollout. System font file is not copied or redistributed.",
+    "browser_preview": "not verified: file protocol refused by browser security policy; no alternate browser or URL workaround used. Static native image prepared instead.",
+    "production_reader_pagination": "not changed or tested; final-stanza grouping required on implementation"
+  },
+  "scope": "KB review artifacts only; site builders, poem wording, reader payloads, existing artwork, automations and deployed website unchanged.",
+  "sha256": {
+    "index.html": "8e2b35988e3f2e5357e6527edacf3ced22afc306ed8c32493e4dbf3ad710ad6a",
+    "fine-sprig.svg": "06572d96b32f65b724a1a56b29c3eb02586b1d069d32973f8d2d0a3e2797014a",
+    "render_specimen.py": "bd5338e1201f978a0a717f3b90a91f4f9283cdbfbf6339436f38e76cf6d650e3",
+    "options.png": "a7092bc3253bf96f6c618f4cdec9988520b7f0623881c5ea444d9c341ce12ce4"
+  }
+}

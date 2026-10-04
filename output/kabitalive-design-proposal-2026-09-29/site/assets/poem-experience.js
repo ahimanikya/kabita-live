@@ -110,7 +110,9 @@ function unitNode(unit,measuring=false){
  let cursor=0;for(const m of readMarks(unit.poemIndex,unit.code).filter(m=>m.line===unit.sourceLine)){
   const a=Math.max(0,m.start-unit.start),b=Math.min(unit.text.length,m.end-unit.start);if(b<=a)continue;
   line.append(document.createTextNode(unit.text.slice(cursor,a)));const mark=document.createElement('span');mark.className='focus-pencil';mark.textContent=unit.text.slice(a,b);line.append(mark);cursor=b;
- }line.append(document.createTextNode(unit.text.slice(cursor)));return line;
+ }line.append(document.createTextNode(unit.text.slice(cursor)));
+ if(unit.endMark){const mark=document.createElement('span');mark.className='poem-closing-mark';mark.dataset.endMark=p.end_mark;mark.setAttribute('aria-hidden','true');line.append(mark)}
+ return line;
 }
 function currentPosition(){return pages[pageIndex]?.[0]||{poemIndex,index:-1,code:chosen()}}
 function save(){const at=currentPosition();try{localStorage.setItem(savedKey,JSON.stringify({id:poems[at.poemIndex].id,language,size:$('#focus-size').value,unit:at.index}))}catch{}}
@@ -138,6 +140,9 @@ function paginate(anchor=-1){
    }
    if(start<text.length)units.push({type:'line',index:index++,poemIndex:pi,code,sourceLine,start,text:text.slice(start),stanza:pause});
   }));
+  // The ornament belongs to the final visible line, so measuring and packing
+  // cannot put it on a page by itself. Source line and passage offsets stay intact.
+  const last=units.at(-1);if(last?.type==='line'&&last.poemIndex===pi&&!p.availability)last.endMark=true;
  });
  const nodes=new Map(units.map(u=>[u,unitNode(u,true)]));
  pages=packReadingPages(units,candidate=>{measure.replaceChildren(...candidate.map(u=>nodes.get(u)));return measure.scrollHeight<=height+1});

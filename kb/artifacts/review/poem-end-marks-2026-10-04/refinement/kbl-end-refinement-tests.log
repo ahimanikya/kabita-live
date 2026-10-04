@@ -1,0 +1,23 @@
+✔ partial words remain partial and overlapping marks merge (7.879583ms)
+✔ erase can shorten or split an underline without touching another line (0.116375ms)
+✔ Hindi and Odia selections cannot split grapheme clusters (0.541708ms)
+✔ invalid saved marks are ignored and empty records stay empty (0.061417ms)
+✔ one selection across lines leaves independent ranges (0.093291ms)
+✔ poem and language keys isolate reader marks (0.054375ms)
+✔ marks in later stanzas use stable global line offsets (0.068917ms)
+✔ next poem fills spare space when its title and three lines fit (0.627458ms)
+✔ only two opening lines would fit: move the next poem to a new page (0.067333ms)
+✔ one- and two-line poems may fit in full (0.045125ms)
+✔ ordering, identity and every source unit survive across many pages (0.428667ms)
+✔ oversized heading keeps first line, never inserts an empty page (0.194167ms)
+✔ changed viewport recalculates the opening guard (0.293042ms)
+✔ closing mark stays with the final verse when its added height needs a page (0.191208ms)
+✔ closing space counts when deciding whether a following short poem fits (0.13775ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 50.037875

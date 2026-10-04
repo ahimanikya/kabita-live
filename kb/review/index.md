@@ -61,3 +61,5 @@ Review files now live in the KB. Their existing local URLs are retained through 
 - [Editorial team and profile mocks](http://127.0.0.1:8771/editorial-team-mock.html) — linked previews with artistic icons, poetic introductions and compact mobile layout; [record](../records/editorial-polish-mock.json).
 
 - [Submission page preview](http://127.0.0.1:8771/submit-polish-mock.html) — artistic guidance, poetic copy, prefilled email and webmail fallback; [record](../records/submission-polish-mock.json).
+
+- [Approved poem ending refinement](../records/poem-ending-refinement-2026-10-04.json): varied botanical marks, neighbouring poem titles, compact spacing and quieter footer. [Publication verification](../records/poem-ending-deployment-2026-10-04.json).

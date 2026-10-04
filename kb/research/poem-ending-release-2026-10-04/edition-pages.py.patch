@@ -1,0 +1,28 @@
+--- a/output/kabitalive-design-proposal-2026-09-29/site/edition-pages.py
++++ b/output/kabitalive-design-proposal-2026-09-29/site/edition-pages.py
+@@ -172,14 +172,14 @@
+     body=(f'<section class="poem-opening"><div class="poem-heading"><p class="reader-meta"><a href="{issue_route}">{e(issue_label)}</a> · <span lang="{lang}">{label}</span></p>'+
+         f'<h1 class="{lang}" lang="{lang}">{e(p["title"])}</h1>'+poem_byline(p)+actions+'</div>'+art+'</section>')
+     body+=render_reader(p)
+-    body+='<div class="poem-reading-end"><div class="poem-end-ornament" aria-hidden="true"><span></span>'+reader_icon('paddy')+'<span></span></div>'
++    body+='<div class="poem-reading-end">'
+     steps=[]
+     previous=None;next_poem=None
+     if issue:
+         ordered=issue['poem_ids'];pos=ordered.index(ident)
+         if pos>0:
+             previous=publication_poems[ordered[pos-1]]
+-            steps.append(f'<a class="poem-step previous" href="{poem_route(previous["id"])}" aria-label="Previous poem: {e(previous["title"])}" title="{e(previous["title"])}">'+reader_icon('next-poetic')+'<span class="poem-step-hint" aria-hidden="true">Previous poem</span></a>')
++            steps.append(f'<a class="poem-step previous" href="{poem_route(previous["id"])}" aria-label="Previous poem: {e(previous["title"])}" title="{e(previous["title"])}">'+reader_icon('next-poetic')+f'<span class="poem-step-copy"><span class="poem-step-label">Previous poem</span><span class="poem-step-title" lang="{previous["language"]}">{e(previous["title"])}</span></span></a>')
+     if previous is None:
+         steps.append('<button type="button" class="poem-step previous" disabled aria-label="Previous poem unavailable">'+reader_icon('next-poetic')+'<span class="poem-step-hint" aria-hidden="true">Previous poem</span></button>')
+     if p['writer_id']:
+@@ -187,7 +187,7 @@
+         steps.append(f'<a class="poem-more" href="{writer_route}">More by this poet</a>')
+     if issue and pos+1<len(ordered):
+         next_poem=publication_poems[ordered[pos+1]]
+-        steps.append(f'<a class="poem-step next" href="{poem_route(next_poem["id"])}" aria-label="Next poem: {e(next_poem["title"])}" title="{e(next_poem["title"])}"><span class="poem-step-hint" aria-hidden="true">Next poem</span>'+reader_icon('next-poetic')+'</a>')
++        steps.append(f'<a class="poem-step next" href="{poem_route(next_poem["id"])}" aria-label="Next poem: {e(next_poem["title"])}" title="{e(next_poem["title"])}"><span class="poem-step-copy"><span class="poem-step-label">Next poem</span><span class="poem-step-title" lang="{next_poem["language"]}">{e(next_poem["title"])}</span></span>'+reader_icon('next-poetic')+'</a>')
+     if next_poem is None:
+         steps.append('<button type="button" class="poem-step next" disabled aria-label="Next poem unavailable"><span class="poem-step-hint" aria-hidden="true">Next poem</span>'+reader_icon('next-poetic')+'</button>')
+     if steps:body+='<nav class="poem-after" aria-label="Continue reading">'+''.join(steps)+'</nav>'
