@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T09:34:31.003203+00:00",
+  "updated_at": "2026-10-04T09:57:08.380002+00:00",
   "status": "active",
   "active_batch": null,
-  "next_edition": 35,
+  "next_edition": 32,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
   "publication_checkpoint_editions": 3,
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 35,
+    "remaining_editions": 32,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 27,
+    "new_rollout_artworks": 36,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 12,
-    "estimated_remaining_artworks": 105
+    "estimated_remaining_artworks": 96
   },
   "editions": [
     {
@@ -507,12 +507,24 @@
         633,
         635
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "pearls-kept-in-a-box",
+        "beside-the-painter",
+        "two-leaves-of-a-door"
+      ],
+      "text_led": [
+        611,
+        633,
+        626
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-35/batch.json",
+      "direction": "What is kept and whom we care for: inexpensive beads saved as memory, an artist’s ordinary kindness to a dog, and paired door leaves holding a remembered village. Small still life, cropped human scene and architectural space vary distance and density. New literary interpretations, not historical or documentary claims.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T09:29:31.093811+00:00"
     },
     {
       "edition": 34,
@@ -538,12 +550,24 @@
         608,
         610
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "balcony-with-drying-sari",
+        "friends-found-again",
+        "water-carrying-on"
+      ],
+      "text_led": [
+        592,
+        598,
+        603
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-34/batch.json",
+      "direction": "Ways of making room: a bounded apartment balcony, the space old friends open for one another, and water taking a burden onward. Architectural graphite, small-figure gouache and a close ink wash vary human distance, density and medium. Witness and direct social argument remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T09:49:41.741352+00:00"
     },
     {
       "edition": 33,
@@ -569,12 +593,24 @@
         582,
         585
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "stone-that-listens",
+        "the-swing-still-waits",
+        "paper-boats-in-the-rain"
+      ],
+      "text_led": [
+        579,
+        583,
+        590
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-33/batch.json",
+      "direction": "Held time and returning movement: stone pillars keep unheard histories, an empty village swing waits for grandchildren, and paper boats make monsoon rain playful. A charcoal architectural fragment, spacious watercolor and close gouache action shift visual weight and scale. Witness and layered memories remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T09:57:08.380002+00:00"
     },
     {
       "edition": 32,

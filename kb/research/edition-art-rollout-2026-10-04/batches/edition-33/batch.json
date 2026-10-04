@@ -1,0 +1,190 @@
+{
+  "edition": 33,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T09:51:12.068009+00:00",
+  "poems_read": [
+    557,
+    567,
+    568,
+    575,
+    576,
+    577,
+    578,
+    579,
+    580,
+    581,
+    582,
+    583,
+    584,
+    585,
+    586,
+    587,
+    588,
+    589,
+    590
+  ],
+  "direction": "Held time and returning movement: stone pillars keep unheard histories, an empty village swing waits for grandchildren, and paper boats make monsoon rain playful. A charcoal architectural fragment, spacious watercolor and close gouache action shift visual weight and scale. Witness and layered memories remain text-led.",
+  "items": [
+    {
+      "id": "stone-that-listens",
+      "edition": 33,
+      "poem_id": 567,
+      "title": "Stone that listens",
+      "rationale": "The ancient pillars carry voices and histories beyond the speaker. Suggest their weight and silence through an imagined architectural fragment, without fabricating the identity, inscriptions or religious sculptures of an actual monument.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-33/stone-that-listens-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-33/poem-567.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-33/poem-567.json",
+      "poem_sha256": "85385daf60e157869cfa119f70ccf04ea7cf68593ecc1c1a53201cb70b5ffd46",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-33/stone-that-listens/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-33/stone-that-listens-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-35d5b704-d8e8-49a1-a694-c84db5874cca.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-33/stone-that-listens/v1.png",
+          "sha256": "db68c116604fed30b30736d62a680367611a1fe58f6c1c196dadd9f660e43293"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T09:51:12.110632+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-35d5b704-d8e8-49a1-a694-c84db5874cca.png",
+      "output_sha256": "db68c116604fed30b30736d62a680367611a1fe58f6c1c196dadd9f660e43293",
+      "saved_at": "2026-10-04T09:52:03.033344+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T09:52:03.070956+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review: pillar bases, block joints, floor planes and overhead support read coherently, with believable reflected light from the right. Charcoal masses and warm gouache suggest weight and age without invented deities, inscriptions or a named monument. Foreground texture is strong but purposeful and falls away into the passage. Empty architecture leaves the poem’s unheard histories open rather than illustrating a fabricated event."
+      },
+      "alt": "Plain old stone pillars and a worn floor recede into a quiet hall in charcoal and warm grey paint.",
+      "medium_label": "charcoal and gouache",
+      "public_asset": "assets/poem-art/editions/33/stone-that-listens-v1.webp",
+      "public_sha256": "ee128049f0d16775fdbda4cad8a37ad345746d9016d54b586960afc0ca1f4266",
+      "previous_assignment": "archive",
+      "integrated_at": "2026-10-04T09:55:55.788053+00:00"
+    },
+    {
+      "id": "the-swing-still-waits",
+      "edition": 33,
+      "poem_id": 586,
+      "title": "The swing still waits",
+      "rationale": "Grandparents prepared a swing and sweets for the grandchildren who did not arrive. An unused swing is a specific ordinary trace of that waiting; leave the grandparents and absent children undescribed, without staged poverty or a tearful stock portrait.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-33/the-swing-still-waits-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-33/poem-586.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-33/poem-586.json",
+      "poem_sha256": "8469658906bdc4744f1f3c93ec6d0d08aadeff711e9d5fe748b2bb06a82adec7",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-33/the-swing-still-waits/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-33/the-swing-still-waits-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-a9fcb84e-d542-49d0-af9a-05b459467e38.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-33/the-swing-still-waits/v1.png",
+          "sha256": "336e8ba2cc0089da43b9bfd43fb210daae75652de0a68d35f7423a6216b2eef9"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T09:52:03.104249+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-a9fcb84e-d542-49d0-af9a-05b459467e38.png",
+      "output_sha256": "336e8ba2cc0089da43b9bfd43fb210daae75652de0a68d35f7423a6216b2eef9",
+      "saved_at": "2026-10-04T09:53:08.464158+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T09:53:08.503491+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: two ropes are visibly secured to a substantial branch and attach to opposite ends of one coherent plank; gravity and shadow are plausible. The empty courtyard makes waiting tangible, with varied foliage and quiet open ground. Tree species is painterly rather than a botanical identification; caption will simply say tree. Gentle watercolor and ordinary use preserve warmth without staged poverty, invented grandparents or memorial symbolism."
+      },
+      "alt": "An empty wooden swing hangs from a tree over a quiet village courtyard.",
+      "medium_label": "watercolor and colored pencil",
+      "public_asset": "assets/poem-art/editions/33/the-swing-still-waits-v1.webp",
+      "public_sha256": "715bab0e6bf7b5ebc6aaee1511dd45a475b040a84a877343c7887312ecf35c72",
+      "previous_assignment": "our-story",
+      "integrated_at": "2026-10-04T09:55:55.788053+00:00"
+    },
+    {
+      "id": "paper-boats-in-the-rain",
+      "edition": 33,
+      "poem_id": 587,
+      "title": "Paper boats in the rain",
+      "rationale": "The monsoon poem’s joy becomes concrete in children launching folded paper boats. A close crop of a small hand and the moving boat preserves play and rain without a generic landscape or identifiable child portrait.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-33/paper-boats-in-the-rain-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-33/poem-587.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-33/poem-587.json",
+      "poem_sha256": "101db4947a7f62abf9c957827ebc9c3367a712b3da9ea79b7708ac7f2bc027f1",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-33/paper-boats-in-the-rain/v2.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-33/paper-boats-in-the-rain-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-35f8de59-4ea3-415a-8412-21587e175971.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-33/paper-boats-in-the-rain/v1.png",
+          "sha256": "5c5ad5bd56fe61a7158e23316c068f9be422072aa596f088b07d60ddc81e19c1",
+          "review": {
+            "independent": false,
+            "outcome": "correction_required",
+            "notes": "Too many similarly emphatic frozen droplet spikes and evenly legible ripples give the water a high-speed advertising effect. Simplify to a few broken rain rings and softer painted water."
+          }
+        },
+        {
+          "version": 2,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-33/paper-boats-in-the-rain-correction-1.txt",
+          "source": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-33/paper-boats-in-the-rain/v1.png",
+          "source_sha256": "5c5ad5bd56fe61a7158e23316c068f9be422072aa596f088b07d60ddc81e19c1",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-683c3510-37cd-49c8-a70c-60752eda46c8.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-33/paper-boats-in-the-rain/v2.png",
+          "sha256": "2cac8d412871673cd2210aaa8ff21b1992483a3dfa6933fe0eff625fbc31f172"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T09:53:08.537988+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-35f8de59-4ea3-415a-8412-21587e175971.png",
+      "output_sha256": "2cac8d412871673cd2210aaa8ff21b1992483a3dfa6933fe0eff625fbc31f172",
+      "saved_at": "2026-10-04T09:55:55.666260+00:00",
+      "correction_prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-33/paper-boats-in-the-rain-correction-1.txt",
+      "correction_started_at": "2026-10-04T09:54:25.818352+00:00",
+      "correction_tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-683c3510-37cd-49c8-a70c-60752eda46c8.png",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T09:55:55.701764+00:00",
+        "outcome": "pass",
+        "notes": "Source/v2 normal-size comparison passes: all conspicuous suspended rain spikes are removed. Unequal fading rings and broader painted water leave the hand and boats as the focus. Cropped hand remains anatomically plausible with five fingers, two boats retain coherent folds and water contact, curb perspective and warm reflection remain. Joy is carried by an ordinary launch gesture, without a real-child identity. Selected v2; v1 retained."
+      },
+      "alt": "A cropped child’s hand releases a folded paper boat into shallow rainwater beside a second boat.",
+      "medium_label": "gouache and graphite",
+      "public_asset": "assets/poem-art/editions/33/paper-boats-in-the-rain-v1.webp",
+      "public_sha256": "87ceac53b114cde70ff6a3b1f90f1e5e9fd65cc355c649d1182aca284b092ec9",
+      "previous_assignment": "courtyard-petals",
+      "integrated_at": "2026-10-04T09:55:55.788053+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 579,
+      "rationale": "Keep the author’s grief and anger about Pahalgam in words, without invented victims, blood imagery or a documentary claim.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 583,
+      "rationale": "The two-part poem gives absence several meanings through friendship and long separation. A text-led opening honours its unfilled spaces instead of imposing one empty-object metaphor.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 590,
+      "rationale": "The remembered route moves through steps, a hidden letter, the guava tree and a garden. Let that intimate map unfold in language without turning it into an over-literal collage.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T09:57:08.380002+00:00",
+  "completed_at": "2026-10-04T09:57:08.380002+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-33.png and mobile-33.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

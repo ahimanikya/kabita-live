@@ -1,0 +1,173 @@
+{
+  "edition": 34,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T09:45:45.840365+00:00",
+  "poems_read": [
+    591,
+    592,
+    593,
+    594,
+    595,
+    596,
+    597,
+    598,
+    599,
+    600,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610
+  ],
+  "direction": "Ways of making room: a bounded apartment balcony, the space old friends open for one another, and water taking a burden onward. Architectural graphite, small-figure gouache and a close ink wash vary human distance, density and medium. Witness and direct social argument remain text-led.",
+  "items": [
+    {
+      "id": "balcony-with-drying-sari",
+      "edition": 34,
+      "poem_id": 595,
+      "title": "A small balcony",
+      "rationale": "The poem makes the apartment balcony a centre of ordinary life inside a carefully earned but socially enclosed home. Attend to the drying sari and bounded space, without an aspirational real-estate display or an inventory of every noun.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-34/balcony-with-drying-sari-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-34/poem-595.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-34/poem-595.json",
+      "poem_sha256": "d13acfe6583e793a2640684176a2c8c50b1455732deed5f25928c5a0027494f0",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-34/balcony-with-drying-sari/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-34/balcony-with-drying-sari-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-6a1bf4a6-8c2e-4f99-8c5b-d53e3f154b05.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-34/balcony-with-drying-sari/v1.png",
+          "sha256": "6e5298aa4fc70b0b7779e07a198c559dae4dddddf392ba2c7f4c18ee2d85043c"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T09:45:45.888912+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-6a1bf4a6-8c2e-4f99-8c5b-d53e3f154b05.png",
+      "output_sha256": "6e5298aa4fc70b0b7779e07a198c559dae4dddddf392ba2c7f4c18ee2d85043c",
+      "saved_at": "2026-10-04T09:46:29.355194+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T09:46:29.397638+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review: cloth weight, folds and line contact are plausible; balcony rails meet the parapet and recede coherently. Indigo/rust cotton and pale plaster retain the poem’s small domestic enclosure. Right-side space rests quietly. Flowers are more open than specified but remain a minor ordinary detail consistent with the poem, not an ornamental centerpiece. Painted edges and restrained light pass; no text or invented people."
+      },
+      "alt": "An indigo sari dries on a small apartment balcony beside a flower pot and pale plaster wall.",
+      "medium_label": "graphite and watercolor",
+      "public_asset": "assets/poem-art/editions/34/balcony-with-drying-sari-v1.webp",
+      "public_sha256": "01e0d3f19322074d553b1ce98b785d8421bf2dc890bd77c9a5f463295eef8d9d",
+      "previous_assignment": "quiet-path",
+      "integrated_at": "2026-10-04T09:48:25.170786+00:00"
+    },
+    {
+      "id": "friends-found-again",
+      "edition": 34,
+      "poem_id": 602,
+      "title": "Friends found again",
+      "rationale": "After lost youth and unhelpful cliches, a reunion returns the speaker to shared delight. Small anonymous figures give the warmth of meeting without inventing a portrait of the poet or documenting his real academy friends.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-34/friends-found-again-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-34/poem-602.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-34/poem-602.json",
+      "poem_sha256": "1638017eb61c080946d340ba793b5ba78628a3e78990c2b2a7fc621558f0ef91",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-34/friends-found-again/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-34/friends-found-again-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-d7d61495-90c0-459c-82a1-62045cc4c2a9.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-34/friends-found-again/v1.png",
+          "sha256": "af4a851c5b9900ba32093309d674e13dc504925f701f0f9c5439140c28e226e7"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T09:46:29.435025+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-d7d61495-90c0-459c-82a1-62045cc4c2a9.png",
+      "output_sha256": "af4a851c5b9900ba32093309d674e13dc504925f701f0f9c5439140c28e226e7",
+      "saved_at": "2026-10-04T09:47:20.578821+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T09:47:20.645142+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: three fictional older adults have coherent bodies and grounded feet; shoulder contact and greeting are legible, and the third participant naturally leans into the conversation. Figures stay small within a broad sea-side space. Gouache marks vary with plane and shadow; no glossy skin or exaggerated age caricature. Added shade tree and low wall support plausible light without competing with the reunion. This is a literary interpretation, not a record of the author or real friends."
+      },
+      "alt": "Three anonymous older friends greet each other in a shaded courtyard beside the sea.",
+      "medium_label": "gouache",
+      "public_asset": "assets/poem-art/editions/34/friends-found-again-v1.webp",
+      "public_sha256": "2146ecee2bbf946c4ef2a6b5aafb8f4349c7892b514cb0043483559054f7032d",
+      "previous_assignment": "search",
+      "integrated_at": "2026-10-04T09:48:25.170786+00:00"
+    },
+    {
+      "id": "water-carrying-on",
+      "edition": 34,
+      "poem_id": 607,
+      "title": "Water carrying on",
+      "rationale": "Water accepts dirt while continuing forward without reward. A close material observation of flowing water carrying a fine sediment plume preserves the poem’s movement without a generic mountain panorama or moral-symbol collage.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-34/water-carrying-on-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-34/poem-607.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-34/poem-607.json",
+      "poem_sha256": "be92d53593b6596fdd01418de4ce7e535bb2a62ad152095a908b8f7eaeac9b3a",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-34/water-carrying-on/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-34/water-carrying-on-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-f1bb4c75-d5e1-407d-b9bf-094411511a0c.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-34/water-carrying-on/v1.png",
+          "sha256": "e2d3b2115b66e8fa2e2f697834953cc79f7cb329b950a7565b5791c1c98b6437"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T09:47:20.689776+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-f1bb4c75-d5e1-407d-b9bf-094411511a0c.png",
+      "output_sha256": "e2d3b2115b66e8fa2e2f697834953cc79f7cb329b950a7565b5791c1c98b6437",
+      "saved_at": "2026-10-04T09:48:25.046981+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T09:48:25.089880+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: thin current divides around the partly submerged stone and carries an ochre sediment plume onward. Waterline, directional reflections and changing opacity support physical flow. Left-side mineral detail resolves into quiet pale space, preserving movement without a landscape cliché. Soft watercolor edges and selective ink remain visible; no added symbols, lettering or mechanical texture."
+      },
+      "alt": "Shallow water flows around a grey stone, carrying a soft ochre trail of sediment.",
+      "medium_label": "ink and watercolor",
+      "public_asset": "assets/poem-art/editions/34/water-carrying-on-v1.webp",
+      "public_sha256": "e4d297000469a338997eab8e21f9ac5d7e625f785b7a12d325a58d1e464fbe59",
+      "previous_assignment": "kendu-light",
+      "integrated_at": "2026-10-04T09:48:25.170786+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 592,
+      "rationale": "Let the author’s witness to the Pahalgam attack stand in words; do not invent victims, identities or a documentary scene.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 598,
+      "rationale": "The final arrival of spring is the poem’s revelation. A text-led opening lets the hospitality and transformation unfold without showing the ending in advance.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 603,
+      "rationale": "Preserve the urgent argument for an environment where a girl can grow safely, without a sentimental child illustration or surveillance imagery.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T09:49:41.741352+00:00",
+  "completed_at": "2026-10-04T09:49:41.741352+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-34.png and mobile-34.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}
