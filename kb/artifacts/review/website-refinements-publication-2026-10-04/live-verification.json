@@ -1,0 +1,170 @@
+{
+  "result": "PASS",
+  "assets_and_pages": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "3edebab75eee6d41832075e2c717383e476dca82c57c2eb18a6451c3371926fe"
+    },
+    {
+      "path": "about.html",
+      "status": 200,
+      "sha256": "1b551fc6446efffe4251fda100e546825598d5d47ba4bf63260de372fa9a6162"
+    },
+    {
+      "path": "archive.html",
+      "status": 200,
+      "sha256": "da84f50d7dc947683a06f7fdce4e5a96c19784dcc6689ede931b7feac3ade0b8"
+    },
+    {
+      "path": "poems.html",
+      "status": 200,
+      "sha256": "7c37fe9e393984e501e5553d837fa8bf9dfa5896313a2c228c2a633950264dcd"
+    },
+    {
+      "path": "poets.html",
+      "status": 200,
+      "sha256": "ce0236fcdf7cf0b577e4a8361b88f4418630616d69070c375aba1a968e0e16e0"
+    },
+    {
+      "path": "contact.html",
+      "status": 200,
+      "sha256": "dc41bf4212cb4d641faff639048e3af873b2b0ce4bc7069077cd1bdca3ff9f56"
+    },
+    {
+      "path": "submit.html",
+      "status": 200,
+      "sha256": "6a9b757636c2862d426a6239e451069fabd8828fdc3c39f9a8bda3ce4f9b4650"
+    },
+    {
+      "path": "feedback.html",
+      "status": 200,
+      "sha256": "0a1c217946ffbd702ce00a981f7cc1262b8de85caa6d66b3cdf6d04ee3271234"
+    },
+    {
+      "path": "issue-47.html",
+      "status": 200,
+      "sha256": "416e45762a602bb65b440fb259834a2f7c69efd1dcabf131d6a16c6450402c3f"
+    },
+    {
+      "path": "poem-724.html",
+      "status": 200,
+      "sha256": "d6417cfc1cb5f18001ac69f9be8aa2a485ce34ec4d5d248c6fd456c3209b57e8"
+    },
+    {
+      "path": "poem-786.html",
+      "status": 200,
+      "sha256": "25b02ffe7f301ee146e4ca126f9aa0cdf23181ba693297014bb220918e29587d"
+    },
+    {
+      "path": "poem-644.html",
+      "status": 200,
+      "sha256": "87fecbe219ca57002677c026130179cf51ace957a4eb4d00bfbb6abfa2c31fbb"
+    },
+    {
+      "path": "runtime-config.json",
+      "status": 200,
+      "sha256": "211534a7168fcebc41d3a4e81e10f2aa4cec41c3bdff6e4902dbfb6fa4cf7dd6"
+    },
+    {
+      "path": "assets/analytics.js",
+      "status": 200,
+      "sha256": "c9b7ca39f408f2e2a1c64056aa46fa21c87f4a29026f9dd57a2344590f487180"
+    },
+    {
+      "path": "assets/private-feedback.js",
+      "status": 200,
+      "sha256": "3e41c39ae39baa1aec481dec9ee9266873e0b34c60fc0f9475220f49fdef9e69"
+    },
+    {
+      "path": "assets/human-natural.css",
+      "status": 200,
+      "sha256": "0e3d633df2b7ff40bcf3e6b3854c51c7a3250226e193ce0e2f0b44f080b56cc1"
+    },
+    {
+      "path": "assets/home-views.js",
+      "status": 200,
+      "sha256": "eec06840a5966327e6faf18098c23388b6b3ebccb5a57e013c570e752d493076"
+    },
+    {
+      "path": "assets/home-views.css",
+      "status": 200,
+      "sha256": "71142494c91825e6ee032be4fdb7e2fea99e84096e7386d32c7dee57660761f7"
+    },
+    {
+      "path": "assets/cover-story.js",
+      "status": 200,
+      "sha256": "ee9a05209bbe771cf100ff28e7845df3ae315ee68cc12cad40626f02400366dd"
+    },
+    {
+      "path": "assets/footer-art-trial.css",
+      "status": 200,
+      "sha256": "4aabc0078de8c63afd095dd27e8c2a50412a8a3fe641631dae4b750c6f1cf10b"
+    },
+    {
+      "path": "assets/style.css",
+      "status": 200,
+      "sha256": "3e436fd24f5dbb24da0346a078615cf33d89724eb953bbc69d91f68b73990efd"
+    },
+    {
+      "path": "assets/cover-layout-b.css",
+      "status": 200,
+      "sha256": "dc567f3d8122c716b2a3686cf92b7348d69494e34116878a4f3a74effc6b43da"
+    },
+    {
+      "path": "assets/poem-experience.js",
+      "status": 200,
+      "sha256": "9f30f4844ba3775458ed061f03ded553a7f4eb1f54d7926d46574de308fcb074"
+    },
+    {
+      "path": "assets/poem-art/gift-of-dates-poetic-natural-v1.webp",
+      "status": 200,
+      "sha256": "617f82c92231e6999cb527dfd488fa4ab89e4f7544bf83b6da2ad3769d66123c"
+    },
+    {
+      "path": "assets/poem-art/river-return-poetic-natural-v1.webp",
+      "status": 200,
+      "sha256": "592323be6d78c1814d34167e018fc04518996644d2406fc9b76508a89c3aa672"
+    },
+    {
+      "path": "assets/home/life-after-rain-poetic-natural.webp",
+      "status": 200,
+      "sha256": "129b9c9f94eb434cef03653ae154627cff1d4e51437047f93f1a85b76f759e53"
+    },
+    {
+      "path": "assets/home/life-after-rain-poetic-natural-768.webp",
+      "status": 200,
+      "sha256": "1a0e9b813fb91128e9fabb66f7e0e6d8224a50fc441f85a21c148b78e44569d1"
+    },
+    {
+      "path": "assets/home/field-poetic-natural-v1.webp",
+      "status": 200,
+      "sha256": "ed4fa220b61debf6594ef9a82bd91818611beb92cca977cda24c449b335654cf"
+    },
+    {
+      "path": "assets/home/field-poetic-natural-v1-768.webp",
+      "status": 200,
+      "sha256": "042f7078d09e684f1903dfb5fd0040d5acb15b652ff8ece6f5c1e78dc8007c40"
+    },
+    {
+      "path": "assets/home/palm-poetic-natural-v1.webp",
+      "status": 200,
+      "sha256": "1b072d9bf54b0de2e1a796b688d49ee33db3e0e26f696d9ff5403448215b444b"
+    },
+    {
+      "path": "assets/home/palm-poetic-natural-v1-768.webp",
+      "status": 200,
+      "sha256": "fad8090eab5081ad27533bd6a3214022744a659261c5205b79ef42bfe86c00ff"
+    },
+    {
+      "path": "assets/home/tree-poetic-natural-v1.webp",
+      "status": 200,
+      "sha256": "ff1f74d9eb9994dca43f7e5ec4fa00859c8b99acc9a406bc557de01c42562439"
+    },
+    {
+      "path": "assets/home/tree-poetic-natural-v1-768.webp",
+      "status": 200,
+      "sha256": "7f4b3b5e0317a928dd77db1d76d0b36bb5742185a20283f58d6b2cf381975564"
+    }
+  ]
+}

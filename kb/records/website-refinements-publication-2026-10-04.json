@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-04T20:38:36.323567+00:00",
-  "status": "verified_for_publication",
+  "status": "published_and_live_verified",
   "authorization": "Sounds good, let’s do that",
   "authorized_scope": [
     "Homepage Poetic Natural views with Another view",
@@ -26,7 +26,10 @@
     "poem_644_newer_art_preserved": true,
     "preview_noindex_and_public_only_export": "preserved",
     "application_tests": 28,
-    "review": "same-assistant; independent false"
+    "review": "same-assistant; independent false",
+    "workflow": "PASS application and10 Firestore rules tests, public build and deploy",
+    "live": "PASS 33 exact page/asset comparisons",
+    "live_browser": "PASS360px homepage switch, no overflow, hidden footer boat; poem724 one closing mark and active loaded Like control; no test votes/comments submitted"
   },
   "browser_checks": [
     "1280px homepage: Another view loads correct image and caption",
@@ -44,5 +47,10 @@
     "Existing preview noindex and DNS"
   ],
   "publication_mode": "Manual GitHub Pages preview workflow; public Astro build only",
-  "evidence": "kb/artifacts/review/website-refinements-publication-2026-10-04"
+  "evidence": "kb/artifacts/review/website-refinements-publication-2026-10-04",
+  "verified_at": "2026-10-04T20:46:48.799162+00:00",
+  "commit": "134846b972a7f66cd7b064e98942ab4556e10b64",
+  "workflow_id": 37233010564,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37233010564",
+  "live_url": "https://ahimanikya.github.io/kabita-live/"
 }
