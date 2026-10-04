@@ -1,0 +1,164 @@
+{
+  "edition": 26,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T11:06:59.797743+00:00",
+  "poems_read": [
+    496,
+    497,
+    498,
+    499,
+    500,
+    501,
+    502,
+    503,
+    504,
+    505
+  ],
+  "direction": "December pairs memory, approach and release: red cloth in a mother’s trunk, a road entering mist, and one leaf about to let go. An intimate pastel object study, spacious ink-watercolour landscape and spare pencil botanical fragment vary the visual language. Poems bearing violence and social testimony retain text-led openings.",
+  "items": [
+    {
+      "id": "the-red-sari-in-the-trunk",
+      "edition": 26,
+      "poem_id": 498,
+      "title": "The red sari in the trunk",
+      "rationale": "The mother’s trunk holds childhood and the grief carried while raising her children. The fold of red Banarasi sari is the quiet hinge of the poem; suggest memory through cloth in the trunk without staging every toy or inventing the mother.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-26/the-red-sari-in-the-trunk-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-26/poem-498.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-26/poem-498.json",
+      "poem_sha256": "27362443f51b22cd6b329d18668c34c90a7e7fc58c635dd6ce1ae339053d03b8",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-26/the-red-sari-in-the-trunk/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-26/the-red-sari-in-the-trunk-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-27a56601-0e61-4700-b8b9-754b5cb58236.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-26/the-red-sari-in-the-trunk/v1.png",
+          "sha256": "f91f817601319e2ad6629b2a5010f0617aaaed403e17577217cb83870148274f"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T11:06:59.838048+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-27a56601-0e61-4700-b8b9-754b5cb58236.png",
+      "output_sha256": "f91f817601319e2ad6629b2a5010f0617aaaed403e17577217cb83870148274f",
+      "saved_at": "2026-10-04T11:08:18.945395+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T11:08:18.988240+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: trunk walls, corners and two hinges align; its supported lid and floor contact read coherently. Red silk holds compressed soft folds, with partial gold border and loosely folded cotton obscuring part of the contents. Side light distinguishes silk from cotton without jewel-like polish. Some metal wear is present but subordinate to fabric memory. No invented mother, child, staged toy or documentary claim."
+      },
+      "alt": "A folded red sari and pale cotton cloth rest inside an open blue-grey household trunk.",
+      "medium_label": "Oil pastel and gouache",
+      "public_asset": "assets/poem-art/editions/26/the-red-sari-in-the-trunk-v1.webp",
+      "public_sha256": "dcdb76c4fc9472e78ee9ccce9e13bfdb1887ffcc0b5859ce5bb5a56978104b02",
+      "previous_assignment": "our-story",
+      "integrated_at": "2026-10-04T11:12:40.492842+00:00"
+    },
+    {
+      "id": "where-the-road-enters-mist",
+      "edition": 26,
+      "poem_id": 501,
+      "title": "Where the road enters mist",
+      "rationale": "The poem experiences Jatinga through a wet winding road, trees and slow fog. An imagined bend holds the feeling of entering that quiet without pretending to reconstruct or photograph a specific surveyed location.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-26/where-the-road-enters-mist-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-26/poem-501.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-26/poem-501.json",
+      "poem_sha256": "4f0f32b3d3f18e3fc428281408840dde49e6d24af513a73ee665fde213bdc19f",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-26/where-the-road-enters-mist/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-26/where-the-road-enters-mist-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ac239b36-1eeb-4b3a-85a6-35741e2fbf8a.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-26/where-the-road-enters-mist/v1.png",
+          "sha256": "8c9ce4a6bc018a006c71e941ce2cda83baff3b3f064193cecd234b786b2f1bb9"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T11:09:13.585496+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ac239b36-1eeb-4b3a-85a6-35741e2fbf8a.png",
+      "output_sha256": "8c9ce4a6bc018a006c71e941ce2cda83baff3b3f064193cecd234b786b2f1bb9",
+      "saved_at": "2026-10-04T11:10:28.754926+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T11:10:28.803044+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: road narrows consistently into the bend, bank supports the uphill side, and modest roadside barriers fit the drop. Wet surface has broken reflection; foreground foliage overlaps while distant trees lose contrast in low cloud. No impossible road, named landmark or dramatic lighting. The imagined ink-watercolour response preserves the poem’s approach into mist without claiming a documentary view of Jatinga."
+      },
+      "alt": "A wet hill road curves into mist among uneven forest trees.",
+      "medium_label": "Watercolour and ink",
+      "public_asset": "assets/poem-art/editions/26/where-the-road-enters-mist-v1.webp",
+      "public_sha256": "46d1d4e56534ba281a8d6eee56b3cf9e3a5f0c4de7232474dbb8f11207483502",
+      "previous_assignment": "courtyard-petals",
+      "integrated_at": "2026-10-04T11:12:40.492842+00:00"
+    },
+    {
+      "id": "the-leaf-about-to-let-go",
+      "edition": 26,
+      "poem_id": 505,
+      "title": "The leaf about to let go",
+      "rationale": "A mother addresses her growing son during autumn, when trees seem to write farewell letters to leaves. One remaining leaf on a branch carries loving release without depicting an invented child or turning tears into spectacle.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-26/the-leaf-about-to-let-go-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-26/poem-505.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-26/poem-505.json",
+      "poem_sha256": "fd5176e06a37ecf059901667e27d9369538699667c3e3de64f8b7cf82e74e075",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-26/the-leaf-about-to-let-go/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-26/the-leaf-about-to-let-go-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-84d51736-8400-4434-a5a7-b56b739714ae.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-26/the-leaf-about-to-let-go/v1.png",
+          "sha256": "9db0cbe3737846d9a6a0c2395690baa93fb26602d053b98e00308545e766f811"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T11:10:28.855467+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-84d51736-8400-4434-a5a7-b56b739714ae.png",
+      "output_sha256": "9db0cbe3737846d9a6a0c2395690baa93fb26602d053b98e00308545e766f811",
+      "saved_at": "2026-10-04T11:12:40.369998+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T11:12:40.408976+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: the single ochre leaf remains connected by a clear petiole, twig taper and nodes are plausible, and small irregular losses suit autumn without a distress filter. Coloured-pencil line is selective against open ivory space; no falling shower, literal farewell text or invented mother and child. More central leaf placement than initial suggestion still leaves substantial breathing space and a clear emotional focus."
+      },
+      "alt": "One ochre autumn leaf remains attached to a slender twig against pale open space.",
+      "medium_label": "Coloured pencil and watercolour",
+      "public_asset": "assets/poem-art/editions/26/the-leaf-about-to-let-go-v1.webp",
+      "public_sha256": "4efc0bed12b58e4d14461f6bbe8c6a0caf884c542346c850398dc2e15f28ee59",
+      "previous_assignment": "kendu-light",
+      "integrated_at": "2026-10-04T11:12:40.492842+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 497,
+      "rationale": "The poem carries earthquake, death and refugee suffering through the fragility of words. Keep its testimony text-led rather than fabricate victims or decorative ruins.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 500,
+      "rationale": "The first-person satire of abuse and political opportunism must remain unmistakably in language; no romanticised household or invented abusive character.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 503,
+      "rationale": "The distress call and violence against girls should be read without fabricated victims, burned bodies or documentary-looking emergency scenes.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T11:14:18.564777+00:00",
+  "completed_at": "2026-10-04T11:14:18.564777+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-26.png and mobile-26.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

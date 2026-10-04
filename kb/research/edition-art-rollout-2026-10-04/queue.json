@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T11:18:16.882092+00:00",
+  "updated_at": "2026-10-04T11:38:31.836077+00:00",
   "status": "active",
   "active_batch": null,
-  "next_edition": 26,
+  "next_edition": 23,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
   "publication_checkpoint_editions": 3,
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 26,
+    "remaining_editions": 23,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 54,
+    "new_rollout_artworks": 63,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 21,
-    "estimated_remaining_artworks": 78
+    "estimated_remaining_artworks": 69
   },
   "editions": [
     {
@@ -854,12 +854,24 @@
         504,
         505
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "the-red-sari-in-the-trunk",
+        "where-the-road-enters-mist",
+        "the-leaf-about-to-let-go"
+      ],
+      "text_led": [
+        497,
+        500,
+        503
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-26/batch.json",
+      "direction": "December pairs memory, approach and release: red cloth in a mother’s trunk, a road entering mist, and one leaf about to let go. An intimate pastel object study, spacious ink-watercolour landscape and spare pencil botanical fragment vary the visual language. Poems bearing violence and social testimony retain text-led openings.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T11:14:18.564777+00:00"
     },
     {
       "edition": 25,
@@ -879,12 +891,24 @@
         490,
         492
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "one-glass-before-carrying-on",
+        "where-water-no-longer-runs",
+        "after-the-harsh-word"
+      ],
+      "text_led": [
+        483,
+        488,
+        495
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-25/batch.json",
+      "direction": "November attends to what remains after strain: a glass of water between tasks, earth where water no longer runs, and a closed harmonium after a harsh note. Domestic gouache, sparse charcoal terrain and a soft instrument study vary subject and density. Agency, public witness and spiritual irony stay text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T11:30:09.442651+00:00"
     },
     {
       "edition": 24,
@@ -909,12 +933,24 @@
         480,
         482
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "the-dark-pan-remembers",
+        "tea-under-the-shade",
+        "the-line-between"
+      ],
+      "text_led": [
+        470,
+        472,
+        477
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-24/batch.json",
+      "direction": "October finds relationship in ordinary surfaces: an iron pan carrying family memory, two cups under tree shade, and a hairline crack. Dense charcoal-gouache warmth, loose pastel companionship and a near-empty graphite wall vary visual weight. Intimate monologue, interfaith allegory and transforming language remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T11:38:31.836077+00:00"
     },
     {
       "edition": 23,
