@@ -1,0 +1,173 @@
+{
+  "edition": 32,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T10:00:32.477495+00:00",
+  "poems_read": [
+    553,
+    554,
+    555,
+    556,
+    558,
+    559,
+    560,
+    561,
+    562,
+    563,
+    564,
+    565,
+    566,
+    569,
+    570,
+    571,
+    572,
+    573,
+    574
+  ],
+  "direction": "Gentleness without perfection: an ordinary kitchen mishap accepted with humour, a displaced scarecrow whose materials still hold its story, and magnolia flowers discovered above reach. Domestic gouache, low earth-and-charcoal field detail and an upward botanical watercolor vary mood and perspective. Writing, witness and remembrance remain text-led.",
+  "items": [
+    {
+      "id": "nothing-is-ruined",
+      "edition": 32,
+      "poem_id": 553,
+      "title": "Nothing is ruined",
+      "rationale": "The poem turns domestic self-examination into permission to live: milk has reduced into khoa and a spicy dish need not become a crisis. The ordinary saucepan is a trace of forgiving oneself, without staging an immaculate kitchen or shaming household work.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-32/nothing-is-ruined-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-32/poem-553.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-32/poem-553.json",
+      "poem_sha256": "44f51d26fe7f6232ae8bb29594275b88ed277ab90370244f4873b69035e96732",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-32/nothing-is-ruined/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-32/nothing-is-ruined-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ea385950-9226-46ba-8bf1-b7f87229d59f.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-32/nothing-is-ruined/v1.png",
+          "sha256": "3f0f3c945dbac54631da387f85393073786265af1eccce0c39b731952cb144ea"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T10:00:32.527487+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ea385950-9226-46ba-8bf1-b7f87229d59f.png",
+      "output_sha256": "3f0f3c945dbac54631da387f85393073786265af1eccce0c39b731952cb144ea",
+      "saved_at": "2026-10-04T10:03:04.496308+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T10:03:04.532167+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: saucepan ellipse and attached handle are coherent, spoon rests plausibly against the rim, and reduced milk solids have a modest edible grain rather than foam. The cloth supports the pot with contact shadow. Window light and muted painted metal reflections are causal; open right-side counter avoids a staged ingredient display. Ordinary domestic imperfection supports the poem’s humour without burnt-mess exaggeration. No text or extra props."
+      },
+      "alt": "A small saucepan of reduced milk and a spoon rest on folded cotton on a quiet kitchen counter.",
+      "medium_label": "gouache and colored pencil",
+      "public_asset": "assets/poem-art/editions/32/nothing-is-ruined-v1.webp",
+      "public_sha256": "17593a99083f13e132db3e5c692691a6d14b103db8c5eba2c655ce2375253d90",
+      "previous_assignment": "reader-letters",
+      "integrated_at": "2026-10-04T10:06:34.397370+00:00"
+    },
+    {
+      "id": "after-the-tractor",
+      "edition": 32,
+      "poem_id": 558,
+      "title": "After the tractor",
+      "rationale": "A scarecrow fears replacement and is crushed by mechanisation. Show its discarded material presence at a worked field edge, preserving its vulnerable voice without comic mascot treatment or claiming to document a particular temple-owned field.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-32/after-the-tractor-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-32/poem-558.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-32/poem-558.json",
+      "poem_sha256": "8157c16ffd67cec760bdc39b6b58d955d473389695474450076d57598749b964",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-32/after-the-tractor/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-32/after-the-tractor-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-d035473d-76fc-4e2b-9a00-d7ff3c7c76ff.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-32/after-the-tractor/v1.png",
+          "sha256": "38a8131e88229b8baad12e80d52454aa44f711216caaa269689dc670f57f9a38"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T10:03:04.565651+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-d035473d-76fc-4e2b-9a00-d7ff3c7c76ff.png",
+      "output_sha256": "38a8131e88229b8baad12e80d52454aa44f711216caaa269689dc670f57f9a38",
+      "saved_at": "2026-10-04T10:04:52.318177+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T10:04:52.361823+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: wood, loosened straw, worn cotton and clay pot make a coherent collapsed farm object; no human remains or real likeness. Tractor tracks recede consistently and put mechanisation in the scene without machine spectacle. Foreground is deliberately denser than other commissions; quiet sky and distant field provide relief. Faded pot marks retain a vulnerable object-voice without a cartoon smile. Earth wash and dark material edges remain painted. No claim to identify the temple-owned field."
+      },
+      "alt": "A collapsed straw scarecrow with a clay-pot head lies beside tractor tracks at the edge of a field.",
+      "medium_label": "charcoal and watercolor",
+      "public_asset": "assets/poem-art/editions/32/after-the-tractor-v1.webp",
+      "public_sha256": "95242d750f06a08acb815b466150167caaf4daf75f74c944fce8d673d10f12e9",
+      "previous_assignment": "editorial-desk",
+      "integrated_at": "2026-10-04T10:06:34.397370+00:00"
+    },
+    {
+      "id": "beyond-our-reach",
+      "edition": 32,
+      "poem_id": 574,
+      "title": "Beyond our reach",
+      "rationale": "Love is found under a Southern Magnolia after tulips are gone, with flowers beyond human reach. An upward view of a high branch preserves that intimate shift of attention without inventing the author and companion or collaging later metaphors.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-32/beyond-our-reach-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-32/poem-574.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-32/poem-574.json",
+      "poem_sha256": "a579443b1a5f8d405f113d5e26e9ecfb97c0eb53a822cabd52fa628ca3233020",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-32/beyond-our-reach/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-32/beyond-our-reach-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-03c85761-b755-4c60-881d-e43833f96d37.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-32/beyond-our-reach/v1.png",
+          "sha256": "49bf8859c6dcd20483a89a74dc58f24da2ec07039a394e93d28818d6414bd378"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T10:04:52.399553+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-03c85761-b755-4c60-881d-e43833f96d37.png",
+      "output_sha256": "49bf8859c6dcd20483a89a74dc58f24da2ec07039a394e93d28818d6414bd378",
+      "saved_at": "2026-10-04T10:06:34.186769+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T10:06:34.266540+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: two magnolia flowers differ in opening and angle, broad creamy petals surround a coherent central cone, and leathery leaves have plausible dark upper surfaces and warm undersides. Branches and short flower attachments are connected. Upward viewpoint and open sky carry the poem’s flowers beyond reach without a portrait or metaphor collage. Unequal leaf definition and watercolor edges retain a painted botanical treatment; highlights follow the light rather than plastic gloss."
+      },
+      "alt": "Two creamy magnolia flowers and dark green leaves extend from a high branch against open sky.",
+      "medium_label": "watercolor and graphite",
+      "public_asset": "assets/poem-art/editions/32/beyond-our-reach-v1.webp",
+      "public_sha256": "050f96c24c9bf7ae0f67ca6a3263b28b362e5cb580ccfff470673cbe4d05978b",
+      "previous_assignment": "kendu-light",
+      "integrated_at": "2026-10-04T10:06:34.397370+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 569,
+      "rationale": "Keep the witness of abandoned homes in words rather than manufacturing documentary-looking destruction or a debris tableau.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 565,
+      "rationale": "The writer’s distinction between effort, showing and worth is strongest as direct speech; avoid a default notebook or pen illustration.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 560,
+      "rationale": "This tribute to Ramakanta Rath contains specific memories and layered cultural references; do not invent a likeness, ritual or documentary scene.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T10:08:00.789935+00:00",
+  "completed_at": "2026-10-04T10:08:00.789935+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-32.png and mobile-32.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

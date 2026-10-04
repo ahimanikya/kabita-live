@@ -1,0 +1,161 @@
+{
+  "edition": 31,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T10:14:32.587632+00:00",
+  "poems_read": [
+    546,
+    547,
+    548,
+    549,
+    550,
+    551,
+    552
+  ],
+  "direction": "Small care, suspended time and a wider home: roadside flowers accept a little water, an unwound clock holds a silent afternoon, and river with rice fields offers a single grounded view within Odisha’s many identities. A delicate ground-level watercolor, spare domestic gouache and broad landscape vary scale without inventing people or historical scenes.",
+  "items": [
+    {
+      "id": "small-care",
+      "edition": 31,
+      "poem_id": 548,
+      "title": "Small care",
+      "rationale": "The blessing compares a child growing with little care to roadside grass flowers nourished by water from a leaking vessel. Suggest the modest life that flourishes, without inventing a mother-child portrait or turning care into a decorative abundance.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-31/small-care-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-31/poem-548.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-31/poem-548.json",
+      "poem_sha256": "9e2e985c163680b30ed1e6a9d67b6b84d643054daed892bae4a675788381771c",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-31/small-care/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-31/small-care-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-4ca0806a-d36c-486d-a6e9-1dfb7ad18c7b.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-31/small-care/v1.png",
+          "sha256": "0a85799705c1c8c8d407ac353bfd66250c465e045e127a4eba0af9d763813ee2"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T10:14:32.650648+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-4ca0806a-d36c-486d-a6e9-1dfb7ad18c7b.png",
+      "output_sha256": "0a85799705c1c8c8d407ac353bfd66250c465e045e127a4eba0af9d763813ee2",
+      "saved_at": "2026-10-04T10:15:59.589187+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T10:15:59.653122+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: cropped terracotta vessel is supported on a modest stone base; water falls from a small opening toward the damp plant patch. Unequal small wildflowers, one bud and partly turned petals preserve modest growth and maternal blessing without a fabricated family. The brief asked for one drop; the thin sequence of drops remains physically coherent and subordinate, not a fountain. Warm open ground, selective detail and dissolving watercolor edges preserve tenderness without an idealised garden."
+      },
+      "alt": "Small roadside flowers grow beside a little water dripping from a terracotta vessel.",
+      "medium_label": "watercolor and graphite",
+      "public_asset": "assets/poem-art/editions/31/small-care-v1.webp",
+      "public_sha256": "7709202788cfd595a53a1b65adb2ba0fdeb50e7c2c2773a8f5596019b73186c5",
+      "previous_assignment": "quiet-path",
+      "integrated_at": "2026-10-04T10:19:23.207064+00:00"
+    },
+    {
+      "id": "an-unwound-afternoon",
+      "edition": 31,
+      "poem_id": 550,
+      "title": "An unwound afternoon",
+      "rationale": "After intimacy and ageing, the poem’s afternoon has forgotten to wind the wall clock. The still clock is a restrained anchor for time and absence, without literalising the erotic memory or the final metaphysical bird-cage image.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-31/an-unwound-afternoon-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-31/poem-550.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-31/poem-550.json",
+      "poem_sha256": "97eebbf473ff2fd1a1461d882304f9c9d197a1016ba82f40baa5d37802312b4e",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-31/an-unwound-afternoon/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-31/an-unwound-afternoon-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-be6245e7-fa7a-450a-803a-263711f96e4e.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-31/an-unwound-afternoon/v1.png",
+          "sha256": "7715e1c3f77efd9039fff5f41162b73a2ec66b00192edc05afde6133c35b0263"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T10:15:59.691815+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-be6245e7-fa7a-450a-803a-263711f96e4e.png",
+      "output_sha256": "7715e1c3f77efd9039fff5f41162b73a2ec66b00192edc05afde6133c35b0263",
+      "saved_at": "2026-10-04T10:17:27.184945+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T10:17:27.228135+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: twelve simple dial ticks, two hands with one spindle, a single supported pendulum, visible mounting and case thickness all read coherently. Soft directional wall light and restrained glass reflection preserve an ordinary silent afternoon. Modest wood wear and matte paint avoid antique-shop spectacle; bare wall offers breathing space. No invented brand, numerals, photographs or people. The stopped clock remains an interpretation of the poem’s unwound time, not the poet’s actual possession."
+      },
+      "alt": "A plain wooden wall clock with a still pendulum hangs in soft afternoon light.",
+      "medium_label": "gouache and graphite",
+      "public_asset": "assets/poem-art/editions/31/an-unwound-afternoon-v1.webp",
+      "public_sha256": "3587509096525d248f51a5d7c3cc118b8870b5c49b1ef66165d23c46c30aef1d",
+      "previous_assignment": "editorial-desk",
+      "integrated_at": "2026-10-04T10:19:23.207064+00:00"
+    },
+    {
+      "id": "river-and-rice",
+      "edition": 31,
+      "poem_id": 551,
+      "title": "River and rice",
+      "rationale": "Amid the poem’s many Odisha places, crafts and foods, the river’s maternal presence and surrounding paddy offer one coherent landscape. Keep it an imagined literary view, not an invented panorama or an assembly of monuments.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-31/river-and-rice-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-31/poem-551.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-31/poem-551.json",
+      "poem_sha256": "0d1cc10e1d8b7c910d94d5e8c703f5279b3491b08eadc83c93c96057a90555dd",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-31/river-and-rice/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-31/river-and-rice-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-255b5b4b-2931-4128-a28f-c1897e5eca6b.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-31/river-and-rice/v1.png",
+          "sha256": "9112e1433b01f230d9dfd12735239a952f6d4bea27b6e620a56fce45846d7446"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T10:17:27.268805+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-255b5b4b-2931-4128-a28f-c1897e5eca6b.png",
+      "output_sha256": "9112e1433b01f230d9dfd12735239a952f6d4bea27b6e620a56fce45846d7446",
+      "saved_at": "2026-10-04T10:19:23.076684+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T10:19:23.119627+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: river lies below a continuous bank, field bunds meet plausible soil edges, and nearby rice resolves into broader distant planes. Irregular cultivated parcels, subdued hills and soft sky make an expansive lived landscape without tourist monuments or contrived figures. Gouache remains matte with selective foreground detail. The interpretation evokes Odisha’s river and paddy imagery without claiming a named location or replacing the historical cover."
+      },
+      "alt": "Green rice fields follow an earthen bank beside a broad quiet river and distant blue-grey hills.",
+      "medium_label": "gouache",
+      "public_asset": "assets/poem-art/editions/31/river-and-rice-v1.webp",
+      "public_sha256": "94123c5f4436c0e8871c952bddf3373ad3ad662499f20619f301597d930efd0f",
+      "previous_assignment": "thread-by-the-window",
+      "integrated_at": "2026-10-04T10:19:23.207064+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 546,
+      "rationale": "Let the recurring first point and circular inward argument unfold without a literal maze or decorative spiral.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 549,
+      "rationale": "This is an observation of a named local ditch and speculation about discarded bags. Avoid manufacturing documentary evidence or illustrating speculative contents.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 552,
+      "rationale": "The long critique searches through money, ritual, relationships and power. Keep its argument in words rather than a sensational collage of its disturbing metaphors.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T10:22:00.011219+00:00",
+  "completed_at": "2026-10-04T10:22:00.011219+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-31.png and mobile-31.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

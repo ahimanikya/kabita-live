@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T10:10:09.009291+00:00",
+  "updated_at": "2026-10-04T10:30:29.798694+00:00",
   "status": "active",
   "active_batch": null,
-  "next_edition": 32,
+  "next_edition": 29,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
   "publication_checkpoint_editions": 3,
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 32,
+    "remaining_editions": 29,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 36,
+    "new_rollout_artworks": 45,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 15,
-    "estimated_remaining_artworks": 96
+    "estimated_remaining_artworks": 87
   },
   "editions": [
     {
@@ -642,12 +642,24 @@
         573,
         574
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "nothing-is-ruined",
+        "after-the-tractor",
+        "beyond-our-reach"
+      ],
+      "text_led": [
+        569,
+        565,
+        560
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-32/batch.json",
+      "direction": "Gentleness without perfection: an ordinary kitchen mishap accepted with humour, a displaced scarecrow whose materials still hold its story, and magnolia flowers discovered above reach. Domestic gouache, low earth-and-charcoal field detail and an upward botanical watercolor vary mood and perspective. Writing, witness and remembrance remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T10:08:00.789935+00:00"
     },
     {
       "edition": 31,
@@ -661,12 +673,24 @@
         549,
         552
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "small-care",
+        "an-unwound-afternoon",
+        "river-and-rice"
+      ],
+      "text_led": [
+        546,
+        549,
+        552
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-31/batch.json",
+      "direction": "Small care, suspended time and a wider home: roadside flowers accept a little water, an unwound clock holds a silent afternoon, and river with rice fields offers a single grounded view within Odisha’s many identities. A delicate ground-level watercolor, spare domestic gouache and broad landscape vary scale without inventing people or historical scenes.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T10:22:00.011219+00:00"
     },
     {
       "edition": 30,
@@ -681,12 +705,24 @@
         544,
         545
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "winter-put-away",
+        "a-hawk-above-the-road",
+        "the-water-keeps-going"
+      ],
+      "text_led": [
+        538,
+        542,
+        543
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-30/batch.json",
+      "direction": "Transitions noticed at different distances: wool put away as spring arrives, a hawk waiting above an ordinary road, and water continuing over a rocky ledge. Domestic graphite, spare ink wash and close gouache movement give seasonal relief, patient observation and persistence distinct visual forms. Direct ethical speech and intense inner metaphors remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T10:30:29.798694+00:00"
     },
     {
       "edition": 29,

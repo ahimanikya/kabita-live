@@ -1,0 +1,162 @@
+{
+  "edition": 30,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T10:23:45.370664+00:00",
+  "poems_read": [
+    538,
+    539,
+    540,
+    541,
+    542,
+    543,
+    544,
+    545
+  ],
+  "direction": "Transitions noticed at different distances: wool put away as spring arrives, a hawk waiting above an ordinary road, and water continuing over a rocky ledge. Domestic graphite, spare ink wash and close gouache movement give seasonal relief, patient observation and persistence distinct visual forms. Direct ethical speech and intense inner metaphors remain text-led.",
+  "items": [
+    {
+      "id": "winter-put-away",
+      "edition": 30,
+      "poem_id": 539,
+      "title": "Winter put away",
+      "rationale": "The spring welcome starts by noticing shawls, blankets and sweaters retreating from use. This ordinary seasonal change can suggest the whole poem without a collage of blossoms, birds, Holi colour and divine figures.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-30/winter-put-away-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-30/poem-539.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-30/poem-539.json",
+      "poem_sha256": "dd1fb17a4d72d1bd8d418654fdc8c78f7e8fcf81f84628cc2248927d21197222",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-30/winter-put-away/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-30/winter-put-away-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-99ee4fd4-f94f-4462-859c-cc3225df93b1.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-30/winter-put-away/v1.png",
+          "sha256": "bf5e8e3209f81b3646414eb30e2d97565c7a6aef21f0e31c7a631f539d274a90"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T10:23:45.413862+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-99ee4fd4-f94f-4462-859c-cc3225df93b1.png",
+      "output_sha256": "bf5e8e3209f81b3646414eb30e2d97565c7a6aef21f0e31c7a631f539d274a90",
+      "saved_at": "2026-10-04T10:25:32.813610+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T10:25:32.996650+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: grey shawl folds unevenly over a compressed cream sweater, with a partly tucked cuff and gravity-led fringe. Shelf supports and cupboard perspective are coherent. Warm light enters from the right and stops naturally at the shelf shadow. Knit detail is concentrated in the clothing while the wall remains quiet; no retail symmetry or staged seasonal props. The poem’s retreating winter is suggested without a spring-symbol collage."
+      },
+      "alt": "A grey wool shawl lies loosely folded over a cream sweater on a softly lit cupboard shelf.",
+      "medium_label": "graphite and watercolor",
+      "public_asset": "assets/poem-art/editions/30/winter-put-away-v1.webp",
+      "public_sha256": "c391083a9f3f0d7eb83786c3e55c171042ac8fdd12160f298907c2fcb32cc840",
+      "previous_assignment": "sea-breeze-cloth",
+      "integrated_at": "2026-10-04T10:28:36.202251+00:00"
+    },
+    {
+      "id": "a-hawk-above-the-road",
+      "edition": 30,
+      "poem_id": 544,
+      "title": "A hawk above the road",
+      "rationale": "The poem notices hawks waiting on lamp posts during an ordinary journey. Focus on one of those birds and its practical perch, without inventing the exact location, a wildlife spectacle or a montage of prey and ducks.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-30/a-hawk-above-the-road-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-30/poem-544.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-30/poem-544.json",
+      "poem_sha256": "2af8798f372c42529bf416a5a92f06aca8610fdf3e2dda0be918c58d0d745ac6",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-30/a-hawk-above-the-road/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-30/a-hawk-above-the-road-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-1018e42e-ba0d-4f25-b516-e5160024e24d.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-30/a-hawk-above-the-road/v1.png",
+          "sha256": "0fb04152809d9df1c9e709a5c2262548fe139d89212e37897a7879feac6aa40d"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T10:25:33.088313+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-1018e42e-ba0d-4f25-b516-e5160024e24d.png",
+      "output_sha256": "0fb04152809d9df1c9e709a5c2262548fe139d89212e37897a7879feac6aa40d",
+      "saved_at": "2026-10-04T10:27:10.893695+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T10:27:10.936912+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: two feet grip the lamp top, folded wings and tail align with the supported body, eye and hooked beak read as an alert hawk rather than an eagle caricature. Lamp arm, pole and underside make structural sense; faint second lamp establishes distance. Feather detail is concentrated in the bird against open sky. No fabricated predation, mystical aura or exact-location claim. One observed moment represents the poem’s broader sequence without asserting a complete record of five birds."
+      },
+      "alt": "A brown hawk perches on an ordinary streetlamp against a wide pale sky.",
+      "medium_label": "ink wash and gouache",
+      "public_asset": "assets/poem-art/editions/30/a-hawk-above-the-road-v1.webp",
+      "public_sha256": "274a099e3d1f92d933ecc8f69728476c5203daa72c412d4f7bf2d94eb97cbb09",
+      "previous_assignment": "search",
+      "integrated_at": "2026-10-04T10:28:36.202251+00:00"
+    },
+    {
+      "id": "the-water-keeps-going",
+      "edition": 30,
+      "poem_id": 545,
+      "title": "The water keeps going",
+      "rationale": "The speaker compares persistence to a waterfall and the effort of a rocky ascent. A close fragment of water negotiating one ledge suggests continuing movement without a heroic summit panorama or an invented climber.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-30/the-water-keeps-going-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-30/poem-545.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-30/poem-545.json",
+      "poem_sha256": "b76d900be9ec60bca2d761628da109aca7be2545d2b4c9dcc00b9f10433c1761",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-30/the-water-keeps-going/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-30/the-water-keeps-going-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-7f3f2bfb-63ba-4cac-b064-b7809da62c9e.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-30/the-water-keeps-going/v1.png",
+          "sha256": "4272b33b06fe6ad8a9428466743fc7d9ccf797f45c4f332eb66d12f2435ac2d4"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T10:27:10.981656+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-7f3f2bfb-63ba-4cac-b064-b7809da62c9e.png",
+      "output_sha256": "4272b33b06fe6ad8a9428466743fc7d9ccf797f45c4f332eb66d12f2435ac2d4",
+      "saved_at": "2026-10-04T10:28:36.089240+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T10:28:36.125882+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: water follows the ledge and divides into unequal flows, impacts the lower pool with local foam, and darkens the contacted rock. Rooted grasses and a quieter dry rock plane keep the close view grounded. Painted mineral planes and varied water ribbons avoid polished long-exposure scenery. No invented climber, landmark, halo or giant frozen drops. The modest continuing fall preserves persistence without a heroic success poster."
+      },
+      "alt": "Water falls in uneven streams over a low rock ledge into a partly cropped pool.",
+      "medium_label": "gouache and charcoal",
+      "public_asset": "assets/poem-art/editions/30/the-water-keeps-going-v1.webp",
+      "public_sha256": "957985a712d7a894cdca9d39127c11205b883a8bd266d218a12efb630802c9cf",
+      "previous_assignment": "quiet-path",
+      "integrated_at": "2026-10-04T10:28:36.202251+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 538,
+      "rationale": "The poem treats pain as an enduring companion and a difficult life process. Let the voice carry that without a wound illustration or an easy healing symbol.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 542,
+      "rationale": "The editor’s declaration of borderless poetry, compassion and opposition to bloodshed works best in direct words; avoid maps, flags and generic peace emblems.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 543,
+      "rationale": "Freezing, blood, fire and motion are intense metaphors for inner feeling. Preserve the ambiguity in text without a graphic body transformation.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T10:30:29.798694+00:00",
+  "completed_at": "2026-10-04T10:30:29.798694+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-30.png and mobile-30.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}
