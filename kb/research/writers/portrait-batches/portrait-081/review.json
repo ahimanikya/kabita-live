@@ -1,0 +1,63 @@
+{
+  "recorded_at": "2026-10-04T07:06:14.060623+00:00",
+  "batch": "portrait-081",
+  "writer_ids": [
+    28,
+    234,
+    274,
+    425,
+    403
+  ],
+  "integrated_writer_ids": [
+    28,
+    234,
+    274,
+    403
+  ],
+  "held_writer_ids": [
+    425
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:369 artistic portraits,55 photographs including40 likeness holds,3 generic placeholders,0 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2876 baseline files checked; only authorized portrait map changed",
+    "All447 source/master records match",
+    "All four new circular thumbnails visually inspected at normal size after handoff sync",
+    "Toolika desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all five.28/234/274/403 retain source pose, expression and recognizable facial geometry; detailed limitations recorded per image.425 ear/jewelry occlusion and texture unresolved after correction; two unused candidates preserved.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Watercolor pigment, fine hair/skin and ornament remain interpretive as recorded per image",
+    "40 likeness holds retain photos;3 missing-photo records remain open with authorized generic artwork",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent edition artwork rollout preserved; no publication by this batch"
+  ],
+  "handoff_reconciliation": "Concurrent edition-art queue changed active_batch during sync. Preserved stale portable snapshot in batch evidence, confirmed active_batch was sole difference and primary was newer, then refreshed portable from primary without changing canonical edition records.",
+  "evidence": [
+    "234-prompt.txt",
+    "274-prompt.txt",
+    "28-prompt.txt",
+    "403-prompt.txt",
+    "425-correction-prompt.txt",
+    "425-hold-review.json",
+    "425-prompt.txt",
+    "author-check.json",
+    "baseline.json",
+    "build.log",
+    "desktop.png",
+    "edition-check.json",
+    "handoff-concurrent-queue-snapshot.json",
+    "hash-check.json",
+    "mobile-360.png",
+    "progress.json",
+    "thumbnail-234.png",
+    "thumbnail-274.png",
+    "thumbnail-28.png",
+    "thumbnail-403.png",
+    "viewport-check.json"
+  ]
+}

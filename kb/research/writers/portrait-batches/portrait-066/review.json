@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-04T01:12:04.519147+00:00",
+  "batch": "portrait-066",
+  "writer_ids": [
+    399,
+    297,
+    239,
+    189,
+    288
+  ],
+  "integrated_writer_ids": [
+    399,
+    297,
+    189,
+    288
+  ],
+  "held_writer_ids": [
+    239
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:318 artistic portraits,106 photographs including17 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2719 baseline files checked; only authorized portrait map changed",
+    "All359 source/master records match",
+    "All four new circular thumbnails visually inspected at normal size after handoff sync",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural source pose, asymmetry, expression, lighting and occlusion preserved.239 held without generation due severe source blur and color cast.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, jewelry, fabric, fingers and pigment remain interpretive as recorded per portrait",
+    "Seventeen likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "edition-check.json",
+    "desktop.png",
+    "thumbnails-seeta.png",
+    "297-prompt.txt",
+    "239-hold-review.json",
+    "viewport-check.json",
+    "hash-check.json",
+    "baseline.json",
+    "thumbnails-satya.png",
+    "189-prompt.txt",
+    "thumbnails-selma.png",
+    "progress.json",
+    "mobile-360.png",
+    "288-prompt.txt",
+    "399-prompt.txt",
+    "author-check.json",
+    "build.log"
+  ]
+}

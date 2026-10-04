@@ -86,6 +86,8 @@ def main():
             asset=portraits.get(str(ident))
             if asset:
                 need(asset['src'] in doc.images and (SITE/asset['src']).is_file(),f'{ident}: portrait missing')
+                if asset['kind']=='generic_artwork':
+                    need('Generic artwork · photograph unavailable' in html and 'not a likeness of ' in html,f'{ident}: generic artwork disclosure missing')
                 if asset['kind']=='journal_photo':
                     original=ROOT/'kb'/source_by_id[ident]['file']
                     need(original.read_bytes()==(SITE/asset['src']).read_bytes(),f'{ident}: original portrait altered')
@@ -107,6 +109,7 @@ def main():
             'source_photo_profiles':sum(p['kind']=='journal_photo' for p in portraits.values()),
             'new_artistic_portraits':sum(p['kind']=='generated_portrait' for p in portraits.values()),
             'ai_edited_photographic_portraits':sum(p['kind']=='generated_photo' for p in portraits.values()),
+            'generic_artwork_profiles':sum(p['kind']=='generic_artwork' for p in portraits.values()),
             'initials_profiles':len(profiles)-2-len(portraits),'expanded_narratives':len(enriched),
             'quote_profiles':len(quotes),'profiles_without_poems':sum(not expected[i] for i in profiles if i not in {1,43}),'contribution_links_checked':sum(bool(p['writer_id']) for p in poems),'unique_writer_identities':len(profiles)-sum(len(g['member_ids'])-1 for g in identity_groups),'errors':errors}
     (ROOT/'kb/records/author-page-verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

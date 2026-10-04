@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-04T05:56:11.629494+00:00",
+  "work_ref": "KBL-WORK-004",
+  "authorization_quote": "3 missing-photo - use generic art based on gender",
+  "writer_ids": [
+    233,
+    258,
+    416
+  ],
+  "kind": "generic_artwork",
+  "gender_basis": [
+    {
+      "writer_id": 233,
+      "evidence": "research/writers/enrichment/233.json",
+      "basis": "Existing source-checked biography uses she/her; feminine placeholder treatment, not an inferred facial identity."
+    },
+    {
+      "writer_id": 258,
+      "evidence": "research/writers/enrichment/258.json",
+      "basis": "Existing source-checked biography uses she/her; feminine placeholder treatment, not an inferred facial identity."
+    },
+    {
+      "writer_id": 416,
+      "evidence": "research/writers/enrichment/416.json",
+      "basis": "Existing source-checked biography uses she/her; feminine placeholder treatment, not an inferred facial identity."
+    }
+  ],
+  "master": "artifacts/artwork/writer-portraits/generic-feminine-earth-voice-v1.png",
+  "master_sha256": "ac8675113faf898389733dcfd953c732fe9ce62ae12a36d0aa26628eca801995",
+  "source_photo": null,
+  "style_reference": "projects/site/assets/editors/pradeep-biswal-artistic-v1.webp",
+  "prompt": "Use case: stylized-concept. Create one square generic feminine writer avatar for a literary journal, explicitly an anonymous placeholder rather than a likeness of any real person. Input reference is ONLY watercolor medium and warm ivory paper reference; DO NOT copy the man's face, hair, clothing or identity. Subject: simple abstract feminine head-and-shoulders silhouette, softly suggested shoulder-length hair, face entirely featureless and unpainted ivory negative space, no eyes, nose, mouth, jewelry, bindi, skin color or age markers. Muted deep teal hair silhouette and loose teal/ochre shoulder washes taper into ivory cotton paper. Human Natural / Poetic Natural: gentle uneven hand-painted contour, selective restrained graphite edges, quiet asymmetry, lots of blank paper, small irregular ochre wash on one side only; no symmetrical decorative halo, no fake dirt, no excessive grain or microtexture. Clearly a generic illustrated avatar at both 64px circular thumbnail size and 600px profile size, not a realistic unknown woman's portrait. Head and shoulders fit central 70 percent with ample headroom for circular crop. No text, symbols, pen props, logo or signature.\n",
+  "tool": "built-in image_gen",
+  "review": "Faceless ivory negative space, abstract teal hair and shoulder washes. No facial features, skin tone, age, bindi or jewelry invented. At normal viewing size clearly a shared generic avatar; no source likeness asserted.",
+  "independent": false,
+  "status": "integrated_verified_locally",
+  "source_photo_status": "Three source photographs remain missing; placeholders do not resolve source or likeness holds.",
+  "publication": "Local integration; final rollout deployment authorization retained.",
+  "artifacts": {
+    "projects/site/assets/writers/generic-feminine-earth-voice-v1.webp": "88114842e38d3bffe99626fba8e3c500fca223c01972d53ff6fd9d041ce48037",
+    "projects/site/assets/writers/generic-feminine-earth-voice-v1-64.webp": "e2e46303767714aeb3d35886768296cbd365946e5d1aaa1d30cfd445ff07adce",
+    "projects/site/assets/writers/generic-feminine-earth-voice-v1-128.webp": "f5be3e5619c8a77eb82081ae75970ace6789b321d9c2e21aa156425dfcdac91c"
+  },
+  "verified_at": "2026-10-04T06:00:47.588007+00:00",
+  "automation_updated": true,
+  "verification": {
+    "build": "PASS Node24 Astro public build",
+    "author_pages": "PASS 364 artistic portraits,60 photos,3 generic artworks,0 initials",
+    "editions": "PASS 47 editions,799 poems,848 source hashes",
+    "baseline": "PASS 2869 baseline files; only authorized portrait map changed",
+    "browser": "PASS all3 circular thumbnails,1280px desktop and360px full mobile profile; scroll width360px",
+    "independent": false
+  },
+  "evidence": "research/writers/generic-placeholders-2026-10-04"
+}

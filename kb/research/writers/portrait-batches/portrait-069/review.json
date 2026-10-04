@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-04T02:12:44.920977+00:00",
+  "batch": "portrait-069",
+  "writer_ids": [
+    31,
+    148,
+    156,
+    122,
+    173
+  ],
+  "integrated_writer_ids": [
+    31,
+    148,
+    156,
+    122,
+    173
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:329 artistic portraits,95 photographs including20 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2749 baseline files checked; only authorized portrait map changed",
+    "All375 source/master records match",
+    "All five new circular thumbnails visually inspected at normal size after handoff sync",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural source poses, asymmetric features, makeup, glasses, side lighting, cool cast and off-center flare/crop preserved; source limitations and painted detail differences recorded per portrait.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Hair, jewelry, garment patterns, shaded eyes and pigment remain interpretive as recorded per portrait",
+    "Twenty likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "122-prompt.txt",
+    "edition-check.json",
+    "desktop.png",
+    "thumbnails-shuvashri.png",
+    "148-prompt.txt",
+    "thumbnails-sigma.png",
+    "thumbnails-sneha.png",
+    "viewport-check.json",
+    "156-prompt.txt",
+    "hash-check.json",
+    "173-prompt.txt",
+    "baseline.json",
+    "progress.json",
+    "31-prompt.txt",
+    "mobile-360.png",
+    "thumbnails-sohela.png",
+    "author-check.json",
+    "build.log"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-03T14:38:14.671273+00:00",
+  "batch": "portrait-057",
+  "writer_ids": [
+    341,
+    182,
+    144,
+    145,
+    186
+  ],
+  "integrated_writer_ids": [
+    341,
+    182,
+    144,
+    145
+  ],
+  "held_writer_ids": [
+    186
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:278 artistic portraits,146 photographs including11 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2560 baseline files checked; only authorized portrait map changed",
+    "All295 source/master records match",
+    "All four new circular thumbnails visually inspected at normal size after handoff sync",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px",
+    "KB bundle PASS"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural: source pose, asymmetry and glasses reflections preserved.186 held after correction still extrapolated jewelry and enlarged hairline mark.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine skin, hair, jewelry and pigment remain interpretive as noted per portrait",
+    "Eleven likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent work preserved; no portrait publication"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-ranj.png",
+    "thumbnails-randy.png",
+    "viewport-check.json",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "186-hold-review.json",
+    "341-prompt.txt",
+    "182-prompt.txt",
+    "144-prompt.txt",
+    "145-prompt.txt",
+    "186-prompt.txt",
+    "186-prompt-v2.txt",
+    "bundle-check.json"
+  ]
+}

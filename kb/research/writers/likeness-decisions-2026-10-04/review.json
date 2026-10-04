@@ -1,0 +1,69 @@
+{
+  "recorded_at": "2026-10-04T07:44:18.741413+00:00",
+  "result": "PASS",
+  "independent": false,
+  "applied_ids": [
+    26,
+    38,
+    44,
+    48,
+    60,
+    96,
+    109,
+    110,
+    149,
+    154,
+    175,
+    186,
+    213,
+    220,
+    238,
+    239,
+    245,
+    266,
+    267,
+    270,
+    282,
+    289,
+    290,
+    299,
+    326,
+    327,
+    365,
+    408,
+    421,
+    427,
+    450,
+    463,
+    467
+  ],
+  "held_ids": [
+    150,
+    227
+  ],
+  "checks": [
+    "Node24 public Astro build passed",
+    "429 author profiles:402 artistic,22 photos,3 generic; author and edition checks passed",
+    "All33 circular thumbnails inspected at normal size",
+    "Mahua partial-source crop and Raja Rajeswari full-face profile checked at desktop1280 and mobile360; source crop preserved",
+    "3341 baseline paths checked: only portrait map and concurrent edition artwork map changed",
+    "482 source records and all recorded master hashes verified"
+  ],
+  "limitations": [
+    "23 explicit user acceptances recorded; author confirmation not claimed",
+    "10 new retries have source-limited detail and pending independent likeness review",
+    "150 and227 remain held with original photos and saved retry candidates",
+    "Five other holds outside this review export remain unchanged"
+  ],
+  "results_page": "http://127.0.0.1:8771/portrait-review-results.html",
+  "publication": "No push or deployment in this task;15 normal portrait photographs remain actionable.",
+  "handoff": "Synchronized15774 entries; prior interrupted portable snapshots preserved and reconciled.",
+  "browser_results": {
+    "images": 103,
+    "missing": 0,
+    "circular_thumbnails_visually_reviewed": 33,
+    "mahua_desktop_width": 1280,
+    "mahua_mobile_width": 360,
+    "mobile_scroll_width": 360
+  }
+}

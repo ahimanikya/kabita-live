@@ -1,0 +1,60 @@
+{
+  "recorded_at": "2026-10-04T01:33:12.022262+00:00",
+  "batch": "portrait-067",
+  "writer_ids": [
+    69,
+    365,
+    220,
+    96
+  ],
+  "integrated_writer_ids": [
+    69
+  ],
+  "held_writer_ids": [
+    365,
+    220,
+    96
+  ],
+  "completed_ahead_of_batch": [
+    360
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:319 artistic portraits,105 photographs including20 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2731 baseline files checked; only authorized portrait map changed",
+    "All364 source/master records match",
+    "New circular thumbnail visually inspected at normal size after handoff sync",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied.365 held after two candidates with unsupported marks;220 severe blur held without generation;96 held after two candidates extrapolating crop and jewelry.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, ear and pigment remain interpretive as recorded per portrait",
+    "Twenty likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "365-prompt.txt",
+    "edition-check.json",
+    "thumbnails-senapati.png",
+    "desktop.png",
+    "96-hold-review.json",
+    "365-hold-review.json",
+    "viewport-check.json",
+    "hash-check.json",
+    "baseline.json",
+    "progress.json",
+    "365-prompt-v2.txt",
+    "mobile-360.png",
+    "96-prompt.txt",
+    "69-prompt.txt",
+    "220-hold-review.json",
+    "author-check.json",
+    "96-prompt-v2.txt",
+    "build.log"
+  ]
+}

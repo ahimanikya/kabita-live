@@ -1,0 +1,83 @@
+{
+  "reason": "Interrupted concurrent sync copied earlier checkpoints without completing baseline. Inspected: portrait edits were prior prefix; user decision differences were pending versus completed retries; portrait map changed only authorized retry IDs; activity was prior prefix; reader payload changes only portrait fields; edition queue progressed43 to42 and art mapping additions preserved existing entries. Generated pages and dashboards rebuilt from canonical current data. Earlier portable bytes retained for audit. No canonical concurrent work overwritten.",
+  "files": [
+    {
+      "path": "kb/research/writers/portrait-edits.json",
+      "primary_sha256": "af9f6ba363ef3156301521cd106f9fddb825e78f44b3f3f1ea55da72da5b027c",
+      "portable_previous_sha256": "ea037cb9eebb39423a4d9d008623596706164c0cec896c8322c208a8eae76c41",
+      "preserved_snapshot": "research/writers/likeness-decisions-2026-10-04/handoff-interrupted-snapshots/kb__research__writers__portrait-edits.json.saved"
+    },
+    {
+      "path": "kb/research/edition-art-rollout-2026-10-04/queue.json",
+      "primary_sha256": "04ac32124259c1d1a2d8c789fc3b0c98d81b9d33eed1bdb5a50bc5e36dc3514b",
+      "portable_previous_sha256": "c4a2053efcd0cc81854f8cf6cb350c4d3ffa9dd9ede96047a9578f32027c37b0",
+      "preserved_snapshot": "research/writers/likeness-decisions-2026-10-04/handoff-interrupted-snapshots/kb__research__edition-art-rollout-2026-10-04__queue.json.saved"
+    },
+    {
+      "path": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/index.html",
+      "primary_sha256": "7f735697974cb6c1945831533afca2d06fbb99167b20d5f41c6372880553356f",
+      "portable_previous_sha256": "eaa1af2650b522f1a11eded929a01db53397d22371f6195d6b34db7c657262a9",
+      "preserved_snapshot": "research/writers/likeness-decisions-2026-10-04/handoff-interrupted-snapshots/kb__artifacts__artwork__edition-art-rollout-2026-10-04__index.html.saved"
+    },
+    {
+      "path": "kb/records/likeness-decisions-2026-10-04.json",
+      "primary_sha256": "85fd70af29604930df6b622317241decd17d38a3db3b3484b636590e84d22712",
+      "portable_previous_sha256": "2c0c430a7e303468aa45d2ef865d1b902033bd7795e2cb987dba1883dfd040f4",
+      "preserved_snapshot": "research/writers/likeness-decisions-2026-10-04/handoff-interrupted-snapshots/kb__records__likeness-decisions-2026-10-04.json.saved"
+    },
+    {
+      "path": "kb/records/edition-art-rollout-2026-10-04.json",
+      "primary_sha256": "22ade15b34fee71fd5532c2b17d0d496cfe08f73650c90c7bf2f8ade6b37b1af",
+      "portable_previous_sha256": "c3c48c726e58dc09b2a02f3ae7a89790b5c38d517b1c93ee68878591b15a5032",
+      "preserved_snapshot": "research/writers/likeness-decisions-2026-10-04/handoff-interrupted-snapshots/kb__records__edition-art-rollout-2026-10-04.json.saved"
+    },
+    {
+      "path": "kb/registers/DASHBOARD.md",
+      "primary_sha256": "0bfe307931b1f8261fcfe757ff17ebea6b29cd6f835f09de3c5a5fbe5ed1b19c",
+      "portable_previous_sha256": "ac8e960bf6d73de33ca788f5b0f8f5a7c88e2374d57b21a2c6948d9782d3d62d",
+      "preserved_snapshot": "research/writers/likeness-decisions-2026-10-04/handoff-interrupted-snapshots/kb__registers__DASHBOARD.md.saved"
+    },
+    {
+      "path": "kb/registers/activity.jsonl",
+      "primary_sha256": "2a79ee4ac5f9d435b756396c96c2a1af4b1d4be44ed58dbfa8d3e2d2fb9c315d",
+      "portable_previous_sha256": "16c00af5bdd0582024fb4c53a203d7bf376c1abbe7d553826c3f3c0f7c10ede1",
+      "preserved_snapshot": "research/writers/likeness-decisions-2026-10-04/handoff-interrupted-snapshots/kb__registers__activity.jsonl.saved"
+    },
+    {
+      "path": "site/about.html",
+      "primary_sha256": "0b90c689459c7a9da7f44a7a5df8d5271b9da1a35aae98af7699d9909009ec3b",
+      "portable_previous_sha256": "ede38325e491f87753e1e5413a49c11b30601173f13d4b4478ed4ca539a91ce4",
+      "preserved_snapshot": "research/writers/likeness-decisions-2026-10-04/handoff-interrupted-snapshots/site__about.html.saved"
+    },
+    {
+      "path": "site/poems.html",
+      "primary_sha256": "97861f7122c32092d2e61bd085dddc3049a784aa8831903945fc94be7d077e43",
+      "portable_previous_sha256": "455bc04f6232f7f3a10f0927245a01beae705e8ee0b844d935ab0d49d4f96646",
+      "preserved_snapshot": "research/writers/likeness-decisions-2026-10-04/handoff-interrupted-snapshots/site__poems.html.saved"
+    },
+    {
+      "path": "site/poets.html",
+      "primary_sha256": "eaaa5caf0a75987988aa7b59f661a5cfaef99bc6ef980a633e45158f76f7d104",
+      "portable_previous_sha256": "adcefbd456d77802a763150248cf49076d1b42d8d6436e71697d23b503aaa930",
+      "preserved_snapshot": "research/writers/likeness-decisions-2026-10-04/handoff-interrupted-snapshots/site__poets.html.saved"
+    },
+    {
+      "path": "site/data/edition-art-direction.json",
+      "primary_sha256": "0526027fa492f1d55093b8c819079c6d5a9e71af8a666dd8f130bc520cfaba9f",
+      "portable_previous_sha256": "09c181b94ed151fa90476f5f7377ce3715d6fb40ffe81ee9c7cf805ed8f65650",
+      "preserved_snapshot": "research/writers/likeness-decisions-2026-10-04/handoff-interrupted-snapshots/site__data__edition-art-direction.json.saved"
+    },
+    {
+      "path": "site/data/writer-portraits.json",
+      "primary_sha256": "d75be584fcdaa1359ddbffc7dfc20bce46f2dbba49fbebfa19a86eaf06ad9234",
+      "portable_previous_sha256": "a900fd3e11f94c3141d81a19184819e3103d7a7af246305b840de26164160a2e",
+      "preserved_snapshot": "research/writers/likeness-decisions-2026-10-04/handoff-interrupted-snapshots/site__data__writer-portraits.json.saved"
+    },
+    {
+      "path": "site/assets/reading-all.json",
+      "primary_sha256": "f354733725dd260eec7740292cb3171a2aa913f14c126f7aeef27074c0564a91",
+      "portable_previous_sha256": "9ec05ce94ef06f8810e9f2c1f53203cfcd85603bdd60c390abc0474f2bef86e9",
+      "preserved_snapshot": "research/writers/likeness-decisions-2026-10-04/handoff-interrupted-snapshots/site__assets__reading-all.json.saved"
+    }
+  ]
+}

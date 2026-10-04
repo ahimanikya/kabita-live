@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-04T00:39:56.782238+00:00",
+  "batch": "portrait-064",
+  "writer_ids": [
+    215,
+    107,
+    418,
+    146,
+    101
+  ],
+  "integrated_writer_ids": [
+    215,
+    107,
+    418,
+    146,
+    101
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:309 artistic portraits,115 photographs including16 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2689 baseline files checked; only authorized portrait map changed",
+    "All350 source/master records match",
+    "All five new circular thumbnails visually inspected at normal size after handoff sync",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural source pose, asymmetry, expression, lighting and occlusions retained.146 retains soft face/eye edges;101 retains opaque glasses and windblown hair across face.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, jewelry, fabric, teeth and pigment remain interpretive as recorded per portrait",
+    "Sixteen likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "edition-check.json",
+    "desktop.png",
+    "thumbnails-sant.png",
+    "101-prompt.txt",
+    "viewport-check.json",
+    "hash-check.json",
+    "thumbnails-sarbani.png",
+    "thumbnails-sarita.png",
+    "baseline.json",
+    "progress.json",
+    "146-prompt.txt",
+    "mobile-360.png",
+    "215-prompt.txt",
+    "107-prompt.txt",
+    "418-prompt.txt",
+    "author-check.json",
+    "build.log"
+  ]
+}

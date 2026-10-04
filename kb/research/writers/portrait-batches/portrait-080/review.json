@@ -1,0 +1,64 @@
+{
+  "recorded_at": "2026-10-04T06:38:01.720607+00:00",
+  "batch": "portrait-080",
+  "writer_ids": [
+    229,
+    237,
+    195,
+    294,
+    420
+  ],
+  "integrated_writer_ids": [
+    237
+  ],
+  "held_writer_ids": [
+    229,
+    195,
+    294,
+    420
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:365 artistic portraits,59 photographs including39 likeness holds,3 generic placeholders,0 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2872 baseline files checked; only authorized portrait map changed",
+    "All441 source/master records match",
+    "New circular thumbnail visually inspected at normal size after handoff sync",
+    "Tamali desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all five.237 retains facial geometry, expression and shawl.229/195 framing and fine detail remain uncertain;294 skin marks/tone and420 hair/skin color remain uncertain after correction. Eight unused candidates preserved.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine pigment, hair and ornament remain interpretive as recorded per image",
+    "39 likeness holds retain original photos;3 missing-photo records remain open with authorized generic artwork",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent edition artwork and engagement changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "195-correction-prompt.txt",
+    "195-hold-review.json",
+    "195-prompt.txt",
+    "229-correction-prompt.txt",
+    "229-hold-review.json",
+    "229-prompt.txt",
+    "237-prompt.txt",
+    "294-correction-prompt.txt",
+    "294-hold-review.json",
+    "294-prompt.txt",
+    "420-correction-prompt.txt",
+    "420-hold-review.json",
+    "420-prompt.txt",
+    "author-check.json",
+    "baseline.json",
+    "build.log",
+    "desktop.png",
+    "edition-check.json",
+    "hash-check.json",
+    "mobile-360.png",
+    "progress.json",
+    "thumbnail.png",
+    "viewport-check.json"
+  ]
+}

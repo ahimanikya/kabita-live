@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-04T05:22:59.925825+00:00",
+  "batch": "portrait-078",
+  "writer_ids": [
+    464,
+    200,
+    150,
+    328,
+    60
+  ],
+  "integrated_writer_ids": [
+    464,
+    200,
+    328
+  ],
+  "held_writer_ids": [
+    150,
+    60
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:362 artistic portraits,62 photographs including32 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2854 baseline files checked; only authorized portrait map changed",
+    "All426 source/master records match",
+    "All three new circular thumbnails visually inspected at normal size after handoff sync",
+    "Swagatika desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied.464 monochrome source retained without invented complexion color;200 soft face and328 hand pose preserved.150 and60 held without generation because source blur/overexposure prevents reliable reconstruction.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine ornament, hair, skin texture and pigment remain interpretive as recorded per portrait",
+    "32 likeness holds and3 missing-photo holds retain original photos or initials",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "150-hold-review.json",
+    "200-prompt.txt",
+    "328-prompt.txt",
+    "464-prompt.txt",
+    "60-hold-review.json",
+    "author-check.json",
+    "baseline.json",
+    "build.log",
+    "desktop.png",
+    "edition-check.json",
+    "hash-check.json",
+    "mobile-360.png",
+    "progress.json",
+    "thumbnails-susm.png",
+    "thumbnails-swag.png",
+    "viewport-check.json"
+  ]
+}

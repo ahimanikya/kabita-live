@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-04T06:10:25.055195+00:00",
+  "result": "PASS",
+  "holds": 35,
+  "source_images": 35,
+  "candidate_images": 44,
+  "writers_with_candidates": 23,
+  "no_generation": 12,
+  "source_master_hashes_verified": 79,
+  "category_counts": {
+    "source": 14,
+    "crop": 10,
+    "colour": 6,
+    "marks": 5
+  },
+  "desktop": "1280px overview and filtered3-image comparison visually checked",
+  "mobile": "360px comparison checked; viewport and scrollWidth both360",
+  "interactions": [
+    "Reason filter returned10 crop/accessory holds",
+    "Search Sweta returned1 matching writer",
+    "Image enlargement opened and closed successfully",
+    "Export notes opens copyable review JSON in a dialog; no review choices written during testing"
+  ],
+  "scope": "Compiled saved self-review concerns; no new independent likeness judgment",
+  "independent": false,
+  "public_export": "Excluded symlink; no reader page links to review",
+  "errors": [],
+  "limitations": [
+    "Direct browser download event could not be verified (tool timeout); copyable on-page JSON export verified as fallback.",
+    "Independent author/editor likeness review remains pending."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "recorded_at": "2026-10-04T02:38:08.366306+00:00",
+  "batch": "portrait-070",
+  "writer_ids": [
+    458,
+    434,
+    175,
+    187,
+    419
+  ],
+  "integrated_writer_ids": [
+    458,
+    434,
+    187,
+    419
+  ],
+  "held_writer_ids": [
+    175
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:333 artistic portraits,91 photographs including21 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2764 baseline files checked; only authorized portrait map changed",
+    "All382 source/master records match",
+    "All four new circular thumbnails visually inspected at normal size after handoff sync",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied.175 held after two candidates extended original crop and amplified fine details.187 corrected to remove unsupported nose-tip mark.419 retained source monochrome and deep shadows.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Hair, jewelry, garment patterns, shadow detail and pigment remain interpretive as recorded per portrait",
+    "Twenty-one likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "edition-check.json",
+    "desktop.png",
+    "175-prompt-v2.txt",
+    "419-prompt.txt",
+    "187-prompt.txt",
+    "175-prompt.txt",
+    "viewport-check.json",
+    "458-prompt.txt",
+    "hash-check.json",
+    "thumbnails-son.png",
+    "baseline.json",
+    "thumbnails-som.png",
+    "434-prompt.txt",
+    "175-hold-review.json",
+    "progress.json",
+    "mobile-360.png",
+    "author-check.json",
+    "187-prompt-v2.txt",
+    "build.log"
+  ]
+}

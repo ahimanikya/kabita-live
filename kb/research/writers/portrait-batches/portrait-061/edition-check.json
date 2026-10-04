@@ -1,0 +1,41 @@
+{
+  "result": "PASS",
+  "editions": 47,
+  "complete_poems": 799,
+  "archived_poems": [
+    385,
+    727
+  ],
+  "edition_assigned": 798,
+  "listed_poems": 794,
+  "supplementary_assigned_poems": 4,
+  "source_hashes_verified": 848,
+  "reciprocal_writer_links_checked": 798,
+  "checks": [
+    "Unique edition membership",
+    "Published contents order",
+    "Original capture integrity and reviewed reader verse parity",
+    "Return and next-poem links",
+    "Reciprocal writer contribution links",
+    "Raw source SHA-256"
+  ],
+  "known_gaps": {
+    "unassigned_poems": [
+      645
+    ],
+    "missing_author": [
+      30
+    ],
+    "identical_text_groups_for_editorial_review": [
+      [
+        268,
+        304
+      ],
+      [
+        645,
+        650
+      ]
+    ]
+  },
+  "errors": []
+}

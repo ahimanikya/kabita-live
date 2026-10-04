@@ -1,0 +1,62 @@
+{
+  "recorded_at": "2026-10-03T16:07:51.381494+00:00",
+  "batch": "portrait-058",
+  "writer_ids": [
+    318,
+    76,
+    254,
+    342,
+    267
+  ],
+  "integrated_writer_ids": [
+    318,
+    76,
+    254,
+    342
+  ],
+  "held_writer_ids": [
+    267
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:282 artistic portraits,142 photographs including12 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2611 baseline files checked; only authorized portrait map changed",
+    "All315 source/master records match",
+    "All four new circular thumbnails visually inspected at normal size after handoff sync",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px",
+    "KB bundle PASS"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural: source pose, asymmetry and glasses reflections retained;254 person kept monochrome.342 correction restored cropped pendant.267 held after correction still revealed hidden jewelry and extended lower crop.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine skin, hair, jewelry and pigment remain interpretive as noted per portrait",
+    "Twelve likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent design and selective portrait changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-ranu.png",
+    "thumbnails-rashmi.png",
+    "thumbnails-ratnamala.png",
+    "thumbnails-reema.png",
+    "viewport-check.json",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "267-hold-review.json",
+    "318-prompt.txt",
+    "76-prompt.txt",
+    "254-prompt.txt",
+    "342-prompt.txt",
+    "342-prompt-v2.txt",
+    "267-prompt.txt",
+    "267-prompt-v2.txt",
+    "bundle-check.json"
+  ]
+}

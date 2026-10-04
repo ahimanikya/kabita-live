@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-04T08:03:50.372338+00:00",
+  "batch": "portrait-082",
+  "writer_ids": [
+    210,
+    151,
+    298,
+    255,
+    449
+  ],
+  "integrated_writer_ids": [
+    210,
+    151,
+    298,
+    255,
+    449
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:407 artistic portraits,17 photographs including7 holds,3 generic placeholders",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "3452 baseline files checked; only authorized portrait map and concurrent edition artwork map changed",
+    "All487 source records and recorded master hashes match",
+    "All five64/128px circular thumbnails visually inspected",
+    "Trishna desktop1280px and mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all five; source pose, expression, asymmetry and facial geometry retained. Individual limitations recorded in portrait-edits.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Watercolor hair/jewelry/fabric/pigment remain interpretive as recorded",
+    "7 likeness holds retain photos;3 missing-photo records remain open with generic artwork",
+    "Concurrent edition artwork changes preserved; no publication"
+  ]
+}

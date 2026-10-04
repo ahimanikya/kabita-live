@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-04T06:53:59.990674+00:00",
+  "status": "in_progress",
+  "work_ref": "KBL-WORK-022",
+  "decision_ref": "KBL-DEC-046",
+  "authorization": "This is excellent - let’s push this and make this happen for all the editions",
+  "scope": "Publish the approved9-artwork/8text-led pilot, then extend the same poem-informed interior art strategy to all47editions in the existing autonomous loop. Preserve covers, poems, existing bespoke art and unrelated changes.",
+  "automation_id": "kabita-live-poetic-natural-artwork",
+  "queue": "research/edition-art-rollout-2026-10-04/queue.json",
+  "gallery": "artifacts/artwork/edition-art-rollout-2026-10-04/index.html",
+  "publication_policy": "Deploy the approved pilot now; publish subsequent verified work after each3-edition checkpoint or final partial checkpoint through the existing manual public-only Pages preview workflow. Preserve latest remote changes, active Firebase/GA4 consent, noindex, content gate and DNS. No force push.",
+  "art_policy": "Target3 new interior artworks per edition; adjust only for actual poem fit or a precise source/quality hold. Read poems before commissioning. Record new directions as interpretations, not historical editorial themes. Select2–3 meaningful text-led openings per edition where suitable; do not force a quota. Keep each illustration assigned explicitly to its poem/edition, outside the generic pool.",
+  "skills": [
+    "human-natural-image",
+    "imagegen"
+  ],
+  "independent": false,
+  "next_action": "Next edition42; publish verified44/43/42 when all three pass. Pilot45–47 remains live.",
+  "pilot_publication": {
+    "status": "deployed_and_live_verified",
+    "base_commit": "32fba99f22b2c568b5274454cbf4781367d6f2b5",
+    "release_checkout": "/private/tmp/kbl-selective-portraits-20261003",
+    "checks": {
+      "build": "PASS",
+      "tests": "PASS26;10Firestore emulator tests run in deployment workflow",
+      "protected_hashes": 1455,
+      "active_reader_payloads_and_controls": 799,
+      "scoped_pages": 17,
+      "noindex_and_kb_exclusion": "PASS",
+      "scope": "Two builder updates,9derivatives,17generated poem pages and supporting pilot/rollout records; existing remote portraits, engagement and other design files preserved."
+    },
+    "commit": "11ebcb697f4cef1ccdb35cf8161f3258682bc568",
+    "remote_main_verified": true,
+    "transport_note": "Initial HTTP400 push retried successfully with HTTP1.1/larger request buffer. Deployment approval initially rejected on stale main evidence; remote ref and GitHub API independently confirmed new commit, then deployment retry was accepted.",
+    "verified_at": "2026-10-04T07:15:21.281225+00:00",
+    "workflow_id": 37184644812,
+    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37184644812",
+    "url": "https://ahimanikya.github.io/kabita-live/",
+    "live_checks": "All9asset hashes and17poem pages verified; text-led controls, noindex and active Firebase/Likes/comments/GA4 configuration preserved.",
+    "verification": "research/edition-art-rollout-2026-10-04/pilot-live-verification.json",
+    "documentation_commit": "e4e9eb6"
+  },
+  "loop_status": "ACTIVE",
+  "counts": {
+    "total_editions": 47,
+    "pilot_complete": 3,
+    "remaining_editions": 42,
+    "pilot_artworks": 9,
+    "new_rollout_artworks": 6,
+    "estimated_additional_artworks": 132,
+    "held": 0,
+    "verified_local_unpublished_editions": 2,
+    "published_editions": 3,
+    "estimated_remaining_artworks": 126
+  },
+  "last_completed_batch": "edition-43",
+  "handoff_note": "Synchronizing this completed edition checkpoint; preserve concurrent portrait files."
+}

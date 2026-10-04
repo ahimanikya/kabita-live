@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-04T01:51:52.872307+00:00",
+  "batch": "portrait-068",
+  "writer_ids": [
+    46,
+    35,
+    193,
+    396,
+    353
+  ],
+  "integrated_writer_ids": [
+    46,
+    35,
+    193,
+    396,
+    353
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:324 artistic portraits,100 photographs including20 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2734 baseline files checked; only authorized portrait map changed",
+    "All370 source/master records match",
+    "All five new circular thumbnails visually inspected at normal size after handoff sync",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all five.353 corrected once to resolve unsupported jewelry-like ear highlight; first candidate saved unused. Source geometry, poses, glasses, expressions and clothing preserved with interpretation limits documented.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Hair, jewelry, hand folds, crown, frame reflections, highlights and pigment remain interpretive as recorded per portrait",
+    "396 source-record identity inherited from journal; not independently confirmed",
+    "Twenty likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "edition-check.json",
+    "desktop.png",
+    "thumbnails-sharm.png",
+    "thumbnails-she.png",
+    "46-prompt.txt",
+    "35-prompt.txt",
+    "353-prompt-v2.txt",
+    "193-prompt.txt",
+    "viewport-check.json",
+    "hash-check.json",
+    "baseline.json",
+    "353-prompt.txt",
+    "thumbnails-shishir.png",
+    "396-prompt.txt",
+    "progress.json",
+    "mobile-360.png",
+    "author-check.json",
+    "build.log"
+  ]
+}

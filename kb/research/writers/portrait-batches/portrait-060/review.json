@@ -1,0 +1,61 @@
+{
+  "recorded_at": "2026-10-03T16:47:45.354295+00:00",
+  "batch": "portrait-060",
+  "writer_ids": [
+    98,
+    245,
+    435,
+    172,
+    105
+  ],
+  "integrated_writer_ids": [
+    98,
+    435,
+    172,
+    105
+  ],
+  "held_writer_ids": [
+    245
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:291 artistic portraits,133 photographs including13 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2638 baseline files checked; only authorized portrait map changed",
+    "All326 source/master records match",
+    "All four new circular thumbnails visually inspected at normal size after handoff sync",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px",
+    "KB bundle PASS"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural source pose, asymmetry, facial geometry and close crops preserved.245 sepia candidates held because crop/jewelry uncertainty persisted after correction.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, jewelry, teeth and pigment remain interpretive as noted per portrait",
+    "Thirteen likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-rituparna.png",
+    "thumbnails-rohit.png",
+    "thumbnails-rumpa.png",
+    "thumbnails-runa.png",
+    "viewport-check.json",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "bundle-check.json",
+    "98-prompt.txt",
+    "245-prompt.txt",
+    "245-prompt-v2.txt",
+    "245-hold-review.json",
+    "435-prompt.txt",
+    "172-prompt.txt",
+    "105-prompt.txt"
+  ]
+}

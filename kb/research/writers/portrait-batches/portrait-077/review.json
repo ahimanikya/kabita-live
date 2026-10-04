@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-04T05:04:58.318183+00:00",
+  "batch": "portrait-077",
+  "writer_ids": [
+    259,
+    299,
+    309,
+    160,
+    188
+  ],
+  "integrated_writer_ids": [
+    259,
+    309,
+    160,
+    188
+  ],
+  "held_writer_ids": [
+    299
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:359 artistic portraits,65 photographs including30 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2842 baseline files checked; only authorized portrait map changed",
+    "All423 source/master records match",
+    "All four new circular thumbnails visually inspected at normal size after handoff sync",
+    "Sushant desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied.259 crop/earring correction integrated;309 source softness/glasses glare retained;160 hair occlusion and188 sideways gaze preserved.299 held without generation because severe blur prevents reliable reconstruction.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine ornament, hair, skin texture and pigment remain interpretive as recorded per portrait",
+    "30 likeness holds and3 missing-photo holds retain original photos or initials",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "160-prompt.txt",
+    "188-prompt.txt",
+    "259-correction-prompt.txt",
+    "259-prompt.txt",
+    "299-hold-review.json",
+    "309-prompt.txt",
+    "author-check.json",
+    "baseline.json",
+    "build.log",
+    "desktop.png",
+    "edition-check.json",
+    "hash-check.json",
+    "mobile-360.png",
+    "progress.json",
+    "thumbnails-sur.png",
+    "thumbnails-susa.png",
+    "thumbnails-sushant.png",
+    "viewport-check.json"
+  ]
+}

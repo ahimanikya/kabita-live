@@ -1,0 +1,951 @@
+{
+  "recorded_at": "2026-10-04T06:12:03.703693+00:00",
+  "scope": "35 recorded likeness holds after portrait-079; no new image generation or independent likeness adjudication",
+  "independent": false,
+  "counts": {
+    "source": 14,
+    "crop": 10,
+    "colour": 6,
+    "marks": 5
+  },
+  "rows": [
+    {
+      "writer_id": 238,
+      "name": "Eileen Moynihan",
+      "group": "source",
+      "explanation": "Blur leaves the facial details uncertain. A painted face cannot be checked confidently against this photo.",
+      "look_at": "Compare the eyes, nose and mouth: the photograph does not supply a reliable detail reference.",
+      "next_step": "A clearer, identified photograph is the most useful next step. Keep the current photo meanwhile.",
+      "recorded_reason": "Saved original photograph is too blurred to verify facial likeness confidently; clearer identified source needed. Original photo retained; generated candidate preserved but not used.",
+      "batch": "portrait-020",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/238-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "249e09f148a0b27a9c5b6e821fb01af30484a616104c53c571fcc6a81fda948f",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/238-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/238-earth-voice-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "0b0eb0b0a3366f1ba9aed0c619be4848664e546f05750fac34d22bdbf161a127",
+          "prompt": "Use case: identity-preserve. Apply only a restrained watercolor treatment to image 1 Eileen Moynihan writer 238. Image 1 sole identity reference; image 2 medium only. IMPORTANT source is very blurry: keep face equally soft and unresolved, do not sharpen or invent eye shape/color, wrinkles, teeth or small facial details. Preserve pale pink complexion, straight dark chin-length bob with side part, closed slight smile, hand supporting viewer-left cheek, greenish-grey collared blouse and dark short necklace, original seated bust and head pose. No beautification, age changes or face redesign. Delicate diffuse watercolor on warm ivory cotton paper with restrained teal ochre laterite edge washes replacing plain background. Keep accurate silhouette and broad color shapes; no new objects, text or scenery.",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/238-1.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 213,
+      "name": "Laszlo Aranyi",
+      "group": "source",
+      "explanation": "Blur and an uneven colour cast make both facial shape and colour hard to verify.",
+      "look_at": "Look at the eye and mouth edges and the overall colour cast.",
+      "next_step": "A clearer, identified photograph is the most useful next step. Keep the current photo meanwhile.",
+      "recorded_reason": "Source too blurry and color cast to verify candidate facial likeness. Original photo retained; clearer identified source needed.",
+      "batch": "portrait-032",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/213-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "b5ccf3aeee1a06ea6d859b4f82c5322b054046cae79510aa31e70697b2a2e453",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/213-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/213-earth-voice-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "aaa64cd64dbf0d7d610b660f4f131f952cb191c5017028ea7a4016848502a878",
+          "prompt": "Use case: identity-preserve. Edit image 1, writer 213 Laszlo Aranyi, as a faithful literary watercolor portrait. Image 1 is sole identity source; image 2 is medium reference only. The original is blurry and strongly color cast: retain its limited detail rather than inventing sharp features. Preserve broad long face, high forehead and receding central hairline, long dark shoulder-length hair, slightly sideways head tilt and gaze, closed unsmiling mouth, broad nose, age and visible dark neckline. Do not beautify, slim, rejuvenate or invent facial hair or eye details. Delicate watercolor and graphite edges on opaque warm ivory cotton paper with restrained teal/ochre washes and small laterite shoulder accent. Replace background and foreground candle with paper; preserve subject pose. Whole hair silhouette in square head-and-shoulders composition. No text, frame, icons, scenery, checkerboard or transparency. Likeness fidelity takes priority over crispness.",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/213-1.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 110,
+      "name": "Mahua Sen",
+      "group": "source",
+      "explanation": "The source cuts off about half the face. Filling that missing half would invent facial geometry.",
+      "look_at": "The missing right side of the source image is the issue; no generated face was attempted.",
+      "next_step": "Use a fuller identified photograph; do not invent the cropped-off half of the face.",
+      "recorded_reason": "Saved source crops off approximately half the face at the right edge. Full facial geometry cannot be verified; original photo retained. A fuller identified photograph is needed. No image generated.",
+      "batch": "portrait-035",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/110-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "1d803f221814060417df5222198b1cf461aea45ede58ea2669bc35e229fd2570",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/110-0.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 289,
+      "name": "Misna Chanu",
+      "group": "source",
+      "explanation": "The original is out of focus across the eyes, nose and mouth.",
+      "look_at": "Look at the source at its native size; enlargement cannot recover the missing contours.",
+      "next_step": "A clearer, identified photograph is the most useful next step. Keep the current photo meanwhile.",
+      "recorded_reason": "Source is strongly out of focus across eyes, nose and mouth; facial geometry and expression cannot be verified reliably for a generated portrait. Original photo retained; clearer identified source needed. No image generated.",
+      "batch": "portrait-041",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/289-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "b29e8946352c22b4839a3c7e31b97d95d2c650d4edf86ddd16314cd4b720dad7",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/289-0.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 326,
+      "name": "Mitra Samal",
+      "group": "marks",
+      "explanation": "A dark mark appeared below the nostril. The correction reduced it, but the remaining mark or shadow could not be verified.",
+      "look_at": "Compare just below the nostril on the right side of the picture. Is that a real feature or an added paint mark?",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "First candidate added an unsupported dark circular mark below picture-right nostril. Correction reduced it but residual shape/shading remains ambiguous against source; original retained rather than integrate uncertainty. Both candidates preserved unused. Independent likeness review or a further targeted correction needed.",
+      "batch": "portrait-041",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/326-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "dcb58246a620eb1132e0b6563fd3dc5e35a05b48ef8b262ff424a51327f5539e",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/326-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/326-candidate-rejected-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "849ab42f32295aadb0c5ef760a6d9eece176e3865d110678d593973e78b9fe46",
+          "prompt": "Use case: identity-preserve. Faithful literary watercolor of Kabita Live writer 326 Mitra Samal, Human Natural / Editorial Natural. Image 1 sole identity, image 2 medium reference only. Preserve turned close-up pose, full oval cheeks, small chin, closed pink-lip smile, naturally unequal eyes behind large dark purple upswept rectangular glasses with reflections, long black hair with flyaways, visible pink/gold dangling earrings and pink patterned top. Preserve source age and complexion and original soft indoor exposure. Do not remove glasses glare or reconstruct obscured eye detail, slim face, beautify or add fine earring carving absent from source. Square head/shoulder crop with source angle, realistic face and selective watercolor/graphite edges. Opaque warm ivory paper replaces pink room; minimal irregular pale teal/ochre shoulder hints, tiny laterite accent and ample quiet paper. No evenly decorated halo, excessive sharpening or saturation, new skin marks/wrinkles/grain, glamorous lighting, scenery, props, icons, text, border or watermark.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/326-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/326-earth-voice-v1.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "8a362c683c0d5affe01320b93b1f0c40362be75e85d2083d896a9cbc5d1f65e4",
+          "prompt": "Use case: identity-preserve. Correct a source-faithful Kabita Live watercolor portrait of writer 326 Mitra Samal using Image 1 as sole identity and Image 2 only as medium. A previous candidate incorrectly added a dark circular mark below the picture-right nostril: omit that invented mark; there is no nose piercing or conspicuous mole there in the original. Preserve all source facial geometry, age, complexion, turned pose, unequal eyes, purple upswept rectangular glasses and their glare, gentle closed pink lips, small chin, long black hair with flyaways, pink/gold drop earrings and pink top. No new facial marks or jewelry. Human Natural / Editorial Natural: respect source softness and soft indoor exposure, no beautifying, slimming, symmetrizing, relighting or inventing detail obscured by glasses. Square head/shoulder crop, realistic face, delicate watercolor/graphite edges on opaque warm ivory paper replacing room. Sparse uneven faint teal/ochre by shoulders, quiet paper rather than decorative halo. No extra saturation/sharpness, pores/wrinkles/grain, icons, scene, props, text, frame or watermark.",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/326-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 408,
+      "name": "Padmashree R.P.",
+      "group": "colour",
+      "explanation": "Both attempts made reddish hair tones stronger than the compressed photograph supports.",
+      "look_at": "Compare the amount of red and magenta in the hair, rather than the background wash.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Both watercolor candidates amplify red/magenta hair color from compressed source, including after targeted correction. Original photo restored and both masters preserved unused. Independent likeness/color review or clearer identified source needed.",
+      "batch": "portrait-048",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/408-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "00e02a653ecda5e6e4909259789d013d9aacafe93f27a93b671137550c78bf1f",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/408-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/408-earth-voice-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "154318370bcf123a99d533da46a27f45e1e3fca64800d79af254928da4c4526a",
+          "prompt": "Use case identity-preserve: Kabita Live writer408 Padmashree R.P. Image1 sole identity source, image2 watercolor medium only. Square faithful close head/shoulders watercolor graphite portrait, warm ivory paper. Preserve tilted smiling oval face, visible upper teeth, dark eyes, large round red bindi, dark wavy hair with source reddish/gray highlights and side part, pink lips, partly visible earring and dark patterned garment at lower edge. Human Natural Editorial Natural: original is compressed with strong green/magenta cast and soft facial edges; keep recognizable face proportions, age, complexion, uneven smile and lighting rather than reconstructing fine detail. No enhanced eyes, sharp teeth, invented jewelry/pores/strands, smoothing, glamour, slimming or added marks. Keep crown/crop and hair occlusion close to source. Replace green curtain with quiet ivory cotton paper, sparse irregular muted teal/ochre/laterite wash and selective soft watercolor edges; no symmetric halo, uniform texture, added props, text, border or watermark.",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/408-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/408-earth-voice-correction-v2.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "fb050a2f0386468844c5ae14d19bc8ab87f82ab0460e8114d58e06ff9cff6248",
+          "prompt": "Use case identity-preserve: Kabita Live writer408 Padmashree R.P. Image1 sole identity source, image2 watercolor medium only. Square faithful close head/shoulders watercolor graphite portrait, warm ivory paper. Preserve tilted smiling oval face, visible upper teeth, dark eyes, large round red bindi, dark wavy hair with source reddish/gray highlights and side part, pink lips, partly visible earring and dark patterned garment at lower edge. Human Natural Editorial Natural: original is compressed with strong green/magenta cast and soft facial edges; keep recognizable face proportions, age, complexion, uneven smile and lighting rather than reconstructing fine detail. No enhanced eyes, sharp teeth, invented jewelry/pores/strands, smoothing, glamour, slimming or added marks. Keep crown/crop and hair occlusion close to source. Replace green curtain with quiet ivory cotton paper, sparse irregular muted teal/ochre/laterite wash and selective soft watercolor edges; no symmetric halo, uniform texture, added props, text, border or watermark. Correction priority: do not intensify the source color cast. Hair must read mostly near-black, with only subdued brown-red and gray highlights at the crown, not bright red or purple painted stripes. Retain source medium tonal skin without saturated orange/red washes on face. Use lower saturation overall and soft face boundaries; preserve exact source expression, bindi and geometry.",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/408-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 327,
+      "name": "Prabhanjan K. Mishra",
+      "group": "source",
+      "explanation": "The source is too blurred to check the eyes, nose and mouth reliably.",
+      "look_at": "A sharper generated face would not prove that the new details belong to this writer.",
+      "next_step": "A clearer, identified photograph is the most useful next step. Keep the current photo meanwhile.",
+      "recorded_reason": "Saved source is strongly blurred across eyes, nose and mouth. Reliable facial geometry and expression cannot be verified; original photo retained. Clearer identified photograph needed. No image generated.",
+      "batch": "portrait-051",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/327-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "cd5e7dd00f61e25332e63179c1122ad7623786ba3a25169dbce6af20a027678d",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/327-0.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 109,
+      "name": "Rachita Swain",
+      "group": "marks",
+      "explanation": "Both attempts retained an uncertain chin dot and made hair, teeth and chain detail more definite.",
+      "look_at": "Compare the chin dot first, then the smile and chain against the softer source.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Both candidates retain a distinct chin dot not reliably supported by the source and over-define hair, teeth and chain. Targeted correction did not resolve uncertainty. Original photograph retained; both unused masters preserved for independent likeness review.",
+      "batch": "portrait-054",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/109-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "2a11b25cd546e63a638a51f67e77c62c1296e0fb0b98c58fa12b151382bc6f08",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/109-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/109-earth-voice-v1-unused.png",
+          "label": "Attempt 1 · unused",
+          "hash": "3532d824bc8b9a3299a33bf01b6aad079feb4013dd8a62c22f180e0ba6f708f5",
+          "prompt": "Use case: identity-preserve. Kabita Live writer 109 Rachita Swain. Image 1 sole identity photograph; image 2 approved watercolor medium only. Faithful square head-and-shoulders literary portrait preserving oval face, original dark eyes and subtle asymmetry, small partly open smile and visible teeth, vivid original red lips, thick shoulder-length naturally wavy black hair sweeping over forehead, tiny orange forehead mark and small red/yellow mark on upper chest. Preserve blue printed top with cream botanical and arrow motifs, fine silver-colored chain, pink bag strap over picture-right shoulder. Same pose, crop, age, complexion, expression and facial proportions. Human Natural Editorial Natural: preserve ordinary outdoor light, natural hair volume and focus limits, no beautification, smoother face, dramatic light, heightened saturation or fine invented jewelry, extra teeth, wrinkles or accessories. Leave hair and fabric detail selectively soft. Remove background bystanders and park, replace with warm ivory cotton paper with sparse irregular restrained teal, ochre and laterite shoulder-edge washes and delicate selective watercolor/graphite edges. Face retains reality and geometry, not a glamour illustration. No decorative facial texture, balanced halo, text, border or watermark.",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/109-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/109-earth-voice-v2-unused.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "2425a99ba91de12afed2ec28684122644fab1910e2d7aae954a3c1f4a4fc5a59",
+          "prompt": "Use case: identity-preserve. Kabita Live writer 109 Rachita Swain. Image 1 sole identity photograph; image 2 approved watercolor medium only. Faithful square head-and-shoulders literary portrait preserving oval face, original dark eyes and subtle asymmetry, small partly open smile and visible teeth, vivid original red lips, thick shoulder-length naturally wavy black hair sweeping over forehead, tiny orange forehead mark and small red/yellow mark on upper chest. Preserve blue printed top with cream botanical and arrow motifs, fine silver-colored chain, pink bag strap over picture-right shoulder. Same pose, crop, age, complexion, expression and facial proportions. Human Natural Editorial Natural: preserve ordinary outdoor light, natural hair volume and focus limits, no beautification, smoother face, dramatic light, heightened saturation or fine invented jewelry, extra teeth, wrinkles or accessories. Leave hair and fabric detail selectively soft. Remove background bystanders and park, replace with warm ivory cotton paper with sparse irregular restrained teal, ochre and laterite shoulder-edge washes and delicate selective watercolor/graphite edges. Face retains reality and geometry, not a glamour illustration. No decorative facial texture, balanced halo, text, border or watermark. Targeted correction: no distinct added mole or dark dot on chin; retain only marks actually visible in source photo, not invented freckles. Simplify hair to soft natural masses rather than crisp silver strands, keep necklace fine and quiet, teeth soft and source-shaped; do not expand head size or slim face. Match source muted ordinary exposure without making colors brighter. Bare ivory background around hair; keep any watercolor wash extremely small at lower shoulder edge.",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/109-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 270,
+      "name": "Raja Rajeswari Seetha Raman",
+      "group": "source",
+      "explanation": "Blur, overexposure and glasses obscure the facial reference.",
+      "look_at": "Check how little the original resolves the eyes behind the lenses and the mouth.",
+      "next_step": "A clearer, identified photograph is the most useful next step. Keep the current photo meanwhile.",
+      "recorded_reason": "Saved photo is strongly blurred and overexposed; eyes behind glasses, nose and mouth geometry cannot be verified reliably. Original retained, no image generated. Clearer identified photograph needed.",
+      "batch": "portrait-055",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/270-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "3bb6feeb9d66e3266c05b9d2d22fffd24d9421976a9bcaf07727825c74a8d56d",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/270-0.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 44,
+      "name": "Rajorshi Patranabis",
+      "group": "crop",
+      "explanation": "The paintings show more fingers below the crop and a warmer orange skin tone.",
+      "look_at": "Compare the bottom edge around the hand and the skin colour. The face may still be recognizable.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Both candidates extend fingers beyond original tight lower crop and amplify orange skin tone. Targeted correction improved but did not restore source crop/tone reliably. Original retained; two unused masters preserved for independent review.",
+      "batch": "portrait-056",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/44-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "a844dc005333d8cf8e098cd3c6abb987d932675a06ed2d7287f7927179677529",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/44-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/44-earth-voice-v1-unused.png",
+          "label": "Attempt 1 · unused",
+          "hash": "6236e68198b04d21c6324e6c70686d8bf55ee9e8552f921fa16c19a373b2d591",
+          "prompt": "Use case identity-preserve. Kabita Live writer44 Rajorshi Patranabis. Image1 sole identity source; image2 medium only. Faithful square watercolor portrait from original reading photograph. Preserve broad face, dark short hair, thin dark rectangular glasses and low eyelids/downward gaze, slight open speaking smile with only source-visible teeth, black clothing and bright red scarf. Preserve visible hand holding black microphone close to chin, fingers and microphone overlap exactly as photographed; same head tilt, pose, proportions, age and complexion. Human Natural Editorial Natural: retain dim warm indoor exposure, softness and natural asymmetry; do not open eyes, improve teeth, invent fingers, sharpen details, lighten skin or add pores/wrinkles. Face nearly photographic under a light watercolor glaze; selective graphite/watercolor outer edges. Replace bookshelf with quiet warm ivory cotton paper and small irregular muted teal/ochre/laterite lower-edge washes. Keep crop tight and original occlusions. No text, books, logos, halo, border or watermark.",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/44-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/44-earth-voice-v2-unused.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "5e869d525cde345cc52f18e5ab7ca4058f0c361da3f3182c6fe41fa04f030fab",
+          "prompt": "Use case identity-preserve. Kabita Live writer44 Rajorshi Patranabis. Image1 sole identity source; image2 medium only. Faithful square watercolor portrait from original reading photograph. Preserve broad face, dark short hair, thin dark rectangular glasses and low eyelids/downward gaze, slight open speaking smile with only source-visible teeth, black clothing and bright red scarf. Preserve visible hand holding black microphone close to chin, fingers and microphone overlap exactly as photographed; same head tilt, pose, proportions, age and complexion. Human Natural Editorial Natural: retain dim warm indoor exposure, softness and natural asymmetry; do not open eyes, improve teeth, invent fingers, sharpen details, lighten skin or add pores/wrinkles. Face nearly photographic under a light watercolor glaze; selective graphite/watercolor outer edges. Replace bookshelf with quiet warm ivory cotton paper and small irregular muted teal/ochre/laterite lower-edge washes. Keep crop tight and original occlusions. No text, books, logos, halo, border or watermark. Critical crop correction: retain EXACT tight source lower crop, which cuts through the visible hand at bottom edge after index finger and top of next finger. Do NOT show a whole hand, three or four complete fingers, extra wrist or additional microphone shaft. Keep original head size within square as source. Source photographic warmth only, no stronger orange skin, no higher saturation. Keep original face, expression and occluded eyes unchanged.",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/44-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 186,
+      "name": "Ranjita Panda",
+      "group": "crop",
+      "explanation": "The paintings complete more necklace, chest and earring detail than the source shows.",
+      "look_at": "Follow the necklace to the bottom edge; check the partly hidden earring and hairline mark.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "First candidate completed necklace beyond source crop. Targeted correction retained more necklace/chest and exposed hoop detail than the source supports; hairline mark also enlarged. Original retained and both unused masters saved for independent review.",
+      "batch": "portrait-057",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/186-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "525aa7c45fdcc9d9fdec2b9958e833dd4ae1900efe59219c225cd86b12652677",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/186-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/186-earth-voice-unused-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "dd0509175fc9487dbfe250be638e9f4ed0b53897524ac764c720783346f57383",
+          "prompt": "Use case identity-preserve. Kabita Live writer186 Ranjita Panda. Image1 sole identity source, image2 watercolor medium only. Preserve exact square tight head-and-shoulder crop, straight black center-parted hair, magenta sindoor at hairline, round red bindi, light pink rectangular glasses with reflections, dark eyes and eyeliner, closed red lips, rounded face and chin, small hoop earrings, pale pink bead necklace, partial striped maroon clothing. Same facial geometry, asymmetry, age, complexion, expression, pose and all occlusions. Human Natural Editorial Natural: respect soft source focus, pale uneven indoor exposure, no eye enlargement, skin lightening, smoothing, added pores, wrinkles, sharper jewelry or invented clothing/hidden features. Keep recognizable faithful face almost photographic with very light watercolor glaze. Delicate selective graphite and watercolor outer edges; warm ivory cotton paper replacing room, quiet irregular muted teal ochre laterite washes only near shoulder perimeter. No decorative microtexture everywhere or symmetrical halo. No text border or watermark.",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/186-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/186-earth-voice-unused-v2.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "8e1b2772f0952044c4ba036584036a02aaf5a8cf2ae1dd8684d5179b88a87d75",
+          "prompt": "Use case identity-preserve. Kabita Live writer186 Ranjita Panda. Image1 sole identity source, image2 watercolor medium only. Preserve exact square tight head-and-shoulder crop, straight black center-parted hair, magenta sindoor at hairline, round red bindi, light pink rectangular glasses with reflections, dark eyes and eyeliner, closed red lips, rounded face and chin, small hoop earrings, pale pink bead necklace, partial striped maroon clothing. Same facial geometry, asymmetry, age, complexion, expression, pose and all occlusions. Human Natural Editorial Natural: respect soft source focus, pale uneven indoor exposure, no eye enlargement, skin lightening, smoothing, added pores, wrinkles, sharper jewelry or invented clothing/hidden features. Keep recognizable faithful face almost photographic with very light watercolor glaze. Delicate selective graphite and watercolor outer edges; warm ivory cotton paper replacing room, quiet irregular muted teal ochre laterite washes only near shoulder perimeter. No decorative microtexture everywhere or symmetrical halo. No text border or watermark.\n\nCorrection priority: retain the exact tight original crop. Bottom edge cuts through the necklace exactly as original; show only original visible bead segments, never a completed necklace loop or new chest/clothing area. Preserve original picture-right earring occlusion by hair; do not expose more of the hoop. Hairline sindoor must remain the same small short mark as source. Reduce decorative background washes. Match source face proportions and original pale indoor exposure. Source is sole identity reference; ignore prior generated candidate.",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/186-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 267,
+      "name": "Reetwika Banerjee",
+      "group": "crop",
+      "explanation": "An earring and additional neck detail appear where the source hides or crops them.",
+      "look_at": "Check the ear on the left side of the picture and the original lower boundary.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Both candidates reveal unsupported gold earring detail on picture-left and extend neck/chin beyond source lower crop. Correction did not resolve these occlusion/crop errors; hairline mark and lip highlight also amplified. Original retained; two unused masters preserved for independent review.",
+      "batch": "portrait-058",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/267-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "903f041363fb961d73b441be7215d59a9c8f3197aa801233b68392574bb55221",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/267-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/267-earth-voice-unused-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "3a94743cb9c4dfedff8509957c48307db4414c35da3d01386783d0b2f442cddb",
+          "prompt": "Use case identity-preserve. Kabita Live writer267 Reetwika Banerjee. Image1 sole identity photograph; image2 watercolor medium only. Keep EXACT extreme tight selfie crop: hair already cut at top and chin/neck partly cut at bottom, head diagonally tilted, full rounded cheeks, small dark bindi, dark pulled-back hair with small red hairline mark, large black rectangular glasses with pale temple and reflections, closed pink lips with existing shine, partly hidden dangling earring and only small patterned garment glimpse. Same face geometry, age, complexion, asymmetry, expression, gaze and occlusions. Human Natural Editorial Natural: retain available cool indoor light, source skin softness and reflections. Do not beautify, smooth, lighten skin, enlarge eyes, thin face, sharpen hidden detail, extend jewelry, open lips or complete head/neck outside crop. Edge of person stays at original square crop boundaries. Gentle watercolor glaze on faithful near-photographic face, selective outer graphite edges. Replace visible room slivers with warm ivory cotton paper and barely visible sparse muted teal/ochre/laterite washes; no new shoulder area, even halo, dramatic lighting, text, border or watermark.",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/267-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/267-earth-voice-unused-v2.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "25fe9196ad1dcdb41f4f9cc9e46a3bdffc13c8a9f84c9c34e7f5eae6a2a621a5",
+          "prompt": "Use case identity-preserve. Kabita Live writer267 Reetwika Banerjee. Image1 sole identity photograph; image2 watercolor medium only. Keep EXACT extreme tight selfie crop: hair already cut at top and chin/neck partly cut at bottom, head diagonally tilted, full rounded cheeks, small dark bindi, dark pulled-back hair with small red hairline mark, large black rectangular glasses with pale temple and reflections, closed pink lips with existing shine, partly hidden dangling earring and only small patterned garment glimpse. Same face geometry, age, complexion, asymmetry, expression, gaze and occlusions. Human Natural Editorial Natural: retain available cool indoor light, source skin softness and reflections. Do not beautify, smooth, lighten skin, enlarge eyes, thin face, sharpen hidden detail, extend jewelry, open lips or complete head/neck outside crop. Edge of person stays at original square crop boundaries. Gentle watercolor glaze on faithful near-photographic face, selective outer graphite edges. Replace visible room slivers with warm ivory cotton paper and barely visible sparse muted teal/ochre/laterite washes; no new shoulder area, even halo, dramatic lighting, text, border or watermark.\nCritical targeted correction: match original framing and hidden features, not previous output. Bottom edge must cut off lower chin/neck as source; do not reveal extra neck, necklace, skin or garment. Picture-left ear and earring are NOT visible in source: keep concealed behind face/hair, add no gold object there. Keep picture-right earring indistinct and partially hidden exactly as source. Match original restrained hairline red mark and original lip highlight without amplifying them. Face should retain source softness, avoid crisp decorative pores, brows or hair. Preserve the exact diagonal head angle and large reflected glasses.",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/267-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 245,
+      "name": "Riyahh Nanda/ରିୟା ନନ୍ଦ",
+      "group": "crop",
+      "explanation": "The watch and ring gain detail that the source only shows as a small, soft fragment.",
+      "look_at": "Compare the wrist at the image edge. The upward gaze and smile were broadly retained.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Both candidates preserve upward gaze, smile and sepia tone, but reconstruct more wristwatch than the narrow source-edge sliver and define ring ornaments beyond the soft source. Targeted crop correction did not resolve this. Original photo retained; independent likeness review pending.",
+      "batch": "portrait-060",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/245-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "c44ba54fa47303f94861595196fcb62b4e6ed6a0f2cf2f2be0643e93e61c2b2a",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/245-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/245-earth-voice-unused-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "0a1a01599c03533f99e2013697af9cea7e6b60ea9c24fd30a40066d05ed6be03",
+          "prompt": "Edit reference 1, writer 245 Riyahh Nanda, into a faithful literary watercolor portrait; it alone supplies identity and composition. Reference 2 supplies only approved watercolor/graphite medium, never facial features. Preserve the sepia monochrome person and soft low-contrast exposure: head angled up toward picture left, upward asymmetric eyes, broad tooth-visible smile, straight dark hair with fringe across forehead, sunglasses resting on head and cut by top edge, chin resting on the visible hand, fingers and partly cropped wristwatch exactly as visible, dark top and original tight crop. Do not reconstruct hidden fingers or full watch, add jewelry, invent eye detail, or colorize skin/hair/clothing beyond the source sepia. Human Natural / Editorial Natural: source asymmetry, pose, focus limitations and gentle expression are primary; no smoothing, glamour light, oversharpening or manufactured flaws. Warm ivory cotton paper, delicate watercolor and graphite edges, restrained uneven teal/ochre/laterite washes confined to peripheral background. Keep face simple and recognizable at normal size, not uniformly decorative or textured. No words, border or signature.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/245-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/245-earth-voice-unused-v2.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "62015e90fbc1f1a654a42b5048cd3560edf686b0b88e166156e65353cef3039a",
+          "prompt": "Edit reference 1, writer 245 Riyahh Nanda, into a faithful literary watercolor portrait; it alone supplies identity and composition. Reference 2 supplies only approved watercolor/graphite medium, never facial features. Preserve the sepia monochrome person and soft low-contrast exposure: head angled up toward picture left, upward asymmetric eyes, broad tooth-visible smile, straight dark hair with fringe across forehead, sunglasses resting on head and cut by top edge, chin resting on the visible hand, fingers and partly cropped wristwatch exactly as visible, dark top and original tight crop. Do not reconstruct hidden fingers or full watch, add jewelry, invent eye detail, or colorize skin/hair/clothing beyond the source sepia. Human Natural / Editorial Natural: source asymmetry, pose, focus limitations and gentle expression are primary; no smoothing, glamour light, oversharpening or manufactured flaws. Warm ivory cotton paper, delicate watercolor and graphite edges, restrained uneven teal/ochre/laterite washes confined to peripheral background. Keep face simple and recognizable at normal size, not uniformly decorative or textured. No words, border or signature. Critical crop correction: the source bottom edge cuts across the wristwatch near its upper rim; show only that narrow top sliver at the bottom edge, never a reconstructed watch face or complete strap. Keep exactly the source chin-hand position and forearm extent. Do not zoom out. Preserve small source rings as indistinct, with no added bead or gemstone detail.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/245-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 450,
+      "name": "Sailabala Mahapatra / ଶୈଳବାଳା ମହାପାତ୍ର",
+      "group": "colour",
+      "explanation": "A hidden ear gains a possible ornament, while hair highlights and warm skin colour become stronger.",
+      "look_at": "Look at the mostly concealed ear on the left of the picture, then grey strands and cheek colour.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "First candidate invented gold detail at concealed picture-left ear. Correction reduced it but a pale gold mark remains ambiguous; orange skin/brown hair and silver strands remain amplified beyond the soft source. Face and reflective glasses broadly retained, but fidelity remains uncertain. Original retained; two unused masters saved.",
+      "batch": "portrait-061",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/450-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "31e620c86de565d87df62d579593f4c11ff156c138f989ec1c3410fac2530a9f",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/450-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/450-earth-voice-unused-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "eeef236c7ba3aae9abcb13ed2785bd7d2812e64aa3f03e22c5aa3c2a3d732849",
+          "prompt": "Edit reference 1, writer 450 Sailabala Mahapatra, into faithful literary watercolor. That photo is sole identity and composition evidence; reference 2 only approved medium. Preserve mature face geometry, complexion, uneven natural light, gently tilted head and closed-lip expression, asymmetric eyes behind reflective large black rectangular glasses, visible lens glare and occluded eye detail, red bindi and tiny nose stud, short straight dark hair with silver at center part, navy blouse and gray sari draped over picture-right shoulder with its visible blue patterned edge. Preserve original seated pose and tight crop, no expansion of hidden arms, jewelry or sari design. Human Natural / Editorial Natural: preserve age, asymmetry and optical softness; no de-aging, smoothing, sharpening through glasses, glamour lighting or invented wrinkles/marks. Delicate watercolor and graphite on warm ivory cotton paper, restrained irregular teal ochre laterite washes in peripheral background with quiet spaces, no equal ornamentation or balanced halo. Remove books and shelving only; no text or signature.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/450-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/450-earth-voice-unused-v2.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "5b6d42333996ca8809020609df7f4fc3d9cdfd80bbf167fdc02d7f5ed6756fc8",
+          "prompt": "Edit reference 1, writer 450 Sailabala Mahapatra, into faithful literary watercolor. That photo is sole identity and composition evidence; reference 2 only approved medium. Preserve mature face geometry, complexion, uneven natural light, gently tilted head and closed-lip expression, asymmetric eyes behind reflective large black rectangular glasses, visible lens glare and occluded eye detail, red bindi and tiny nose stud, short straight dark hair with silver at center part, navy blouse and gray sari draped over picture-right shoulder with its visible blue patterned edge. Preserve original seated pose and tight crop, no expansion of hidden arms, jewelry or sari design. Human Natural / Editorial Natural: preserve age, asymmetry and optical softness; no de-aging, smoothing, sharpening through glasses, glamour lighting or invented wrinkles/marks. Delicate watercolor and graphite on warm ivory cotton paper, restrained irregular teal ochre laterite washes in peripheral background with quiet spaces, no equal ornamentation or balanced halo. Remove books and shelving only; no text or signature. Targeted correction: no earring or gold detail at picture-left ear; that ear is concealed by hair in the photograph. Keep the hair covering that region. Preserve exposure without increasing orange skin or brown hair saturation. Keep gray hair amount exactly source, not extra white strands.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/450-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 290,
+      "name": "Sangarm Jena",
+      "group": "marks",
+      "explanation": "New dark marks and stronger stippling appear around the ear, temple and cheek.",
+      "look_at": "Compare the left earlobe and temple. Glasses, moustache and broad facial shape were retained.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Both candidates preserve face, gaze, glasses and moustache, but add isolated dark marks at picture-left earlobe and temple and exaggerate cheek stippling. Targeted correction did not remove unsupported marks. Original retained; two unused masters saved.",
+      "batch": "portrait-062",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/290-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "57792bafb44d310e29f1ce9660b9de8fff804e60a532cd94b7cbf98720f99681",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/290-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/290-earth-voice-unused-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "077e897b812c83b4221427daf6ec22f95110411731f0a27ac0670790bb948046",
+          "prompt": "Faithfully edit reference 1 of writer 290 Sangarm Jena into literary watercolor. Reference 1 alone supplies identity, pose and clothing. Reference 2 supplies only approved medium, never identity. Preserve mature face geometry and complexion, three-quarter turn toward picture right, steady slightly off-camera gaze, silver rectangular spectacles with existing lens haze/reflections, full black moustache, closed unsmiling mouth, swept side-parted black hair with visible gray, natural cheek texture and neck folds, blue crew-neck shirt and original shoulder crop. Human Natural / Editorial Natural: preserve source age, asymmetry, exposure and focus limitations; no smoothing, beautification, added wrinkles/marks, sharpened eyes through glasses, glamour lighting or extra hair detail. Warm ivory cotton paper with delicate watercolor/graphite edges, quiet restrained uneven teal ochre laterite peripheral washes; no balanced halo or uniform decorative texture. Replace foliage background only. No text or signature.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/290-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/290-earth-voice-unused-v2.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "5ec5f6cfae28afed33bb0b0264c7090846eacdca63c6a3bf1dd3cf2cecf6b5c8",
+          "prompt": "Faithfully edit reference 1 of writer 290 Sangarm Jena into literary watercolor. Reference 1 alone supplies identity, pose and clothing. Reference 2 supplies only approved medium, never identity. Preserve mature face geometry and complexion, three-quarter turn toward picture right, steady slightly off-camera gaze, silver rectangular spectacles with existing lens haze/reflections, full black moustache, closed unsmiling mouth, swept side-parted black hair with visible gray, natural cheek texture and neck folds, blue crew-neck shirt and original shoulder crop. Human Natural / Editorial Natural: preserve source age, asymmetry, exposure and focus limitations; no smoothing, beautification, added wrinkles/marks, sharpened eyes through glasses, glamour lighting or extra hair detail. Warm ivory cotton paper with delicate watercolor/graphite edges, quiet restrained uneven teal ochre laterite peripheral washes; no balanced halo or uniform decorative texture. Replace foliage background only. No text or signature. Targeted fidelity correction: do not add black dots, moles or a stud on the picture-left earlobe or temple. Those areas in the source have no dark isolated mark. Preserve only the faint source cheek texture, no exaggerated stippling or spots. Keep original complexion and do not intensify orange pigment.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/290-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 427,
+      "name": "Sankar Narayan Mallick",
+      "group": "marks",
+      "explanation": "The corrected version adds an uncertain chin spot and stronger cheek texture.",
+      "look_at": "Compare the chin spot and cheek surface with the original, not the paper texture around it.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Both candidates preserve the broad face and pose but amplify cheek texture and warm pigment; the targeted correction still introduces a distinct chin spot and sharply outlined hair absent at source resolution. Original photograph retained; two unused candidates saved. Human Natural fidelity remains uncertain.",
+      "batch": "portrait-063",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/427-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "b818919af8a6a48d19d5345d5aadb5aa5f6e205898b7b4c3a61ff4326ce580a3",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/427-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/427-earth-voice-unused-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "265197a0e5a15946ca6e358e5214bd01934428077b9babfc25906bacdc40e73f",
+          "prompt": "Faithful literary watercolor edit of reference 1, writer 427 Sankar Narayan Mallick. This source alone defines identity, pose and crop; reference 2 only the approved medium. Preserve mature rounded face geometry, source complexion and diffuse outdoor exposure, nearly frontal low camera angle, unequal eyes and neutral closed mouth, full dark moustache, receding short black hair with loose curled strands falling over forehead, small source cheek marks, burgundy polo neckline and tight head/shoulder crop. Keep natural skin texture at source softness, not amplified. Human Natural / Editorial Natural: believable asymmetric face and existing age, no added flaws, wrinkles, marks, sharpened pores or irises, smoothing, glamour light or changed complexion. Delicate watercolor/graphite edges on warm ivory paper; restrained uneven teal ochre laterite washes around edges and quiet paper, no balanced halo or uniform decoration. Remove garden/wall background only. No text or signature.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/427-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/427-earth-voice-unused-v2.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "bc6f76c45cbf3008cd98f0388d624e68f1ee3d75f8bd405e0146b27455ec1182",
+          "prompt": "Faithful literary watercolor edit of reference 1, writer 427 Sankar Narayan Mallick. This source alone defines identity, pose and crop; reference 2 only the approved medium. Preserve mature rounded face geometry, source complexion and diffuse outdoor exposure, nearly frontal low camera angle, unequal eyes and neutral closed mouth, full dark moustache, receding short black hair with loose curled strands falling over forehead, small source cheek marks, burgundy polo neckline and tight head/shoulder crop. Keep natural skin texture at source softness, not amplified. Human Natural / Editorial Natural: believable asymmetric face and existing age, no added flaws, wrinkles, marks, sharpened pores or irises, smoothing, glamour light or changed complexion. Delicate watercolor/graphite edges on warm ivory paper; restrained uneven teal ochre laterite washes around edges and quiet paper, no balanced halo or uniform decoration. Remove garden/wall background only. No text or signature. Critical correction: source skin has soft low-contrast texture. Do not turn pores, cheek spots, forehead lines or hair into crisp embossed detail. Keep only the source's faint small cheek marks, never enlarge or darken them; no new chin/neck spots. Paint facial planes with broad quiet translucent washes while preserving face geometry. Reduce red/orange saturation to source level.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/427-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 239,
+      "name": "Seema Sharma",
+      "group": "source",
+      "explanation": "Severe blur and yellow/magenta colour cast hide eyes, mouth and jewelry detail.",
+      "look_at": "This needs a clearer reference; no detailed reconstruction was attempted.",
+      "next_step": "A clearer, identified photograph is the most useful next step. Keep the current photo meanwhile.",
+      "recorded_reason": "Original is severely blurred and strongly yellow/magenta cast. Eye contours, nose, mouth/teeth and jewelry cannot be resolved confidently. Human Natural requires respecting these limits; no generated face attempted. Original retained for better source or author/editor review.",
+      "batch": "portrait-066",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/239-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "dbaf24ab964c6c8c7a61dbf9081d67d904ffd8d0bf38e73e765dd9e6806bbdd6",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/239-0.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 365,
+      "name": "Shankar Chhatria / ଶଙ୍କର ଚ୍ଛତ୍ରିଆ",
+      "group": "marks",
+      "explanation": "Faint shadows become dark spots, with stronger stubble and warmer skin.",
+      "look_at": "Compare the area between nose and upper lip, below the eyes, and the stubble.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Both candidates retain broad face and frontal pose but turn faint philtrum/under-eye tone into isolated dark spots and amplify stubble/warmer complexion. Targeted correction still retains these marks. Original photograph retained; two unused candidates saved. Human Natural fidelity remains uncertain.",
+      "batch": "portrait-067",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/365-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "1551f5532ac601b52b905d4b3721fde6a6885df4525b04bd4f9ef1155af903fc",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/365-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/365-earth-voice-unused-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "f36f70a468022553851bddef028caa298a1c94b2104d213d253b823ce2e68797",
+          "prompt": "Faithful literary watercolor edit of reference 1, writer 365 Shankar Chhatria, sole identity photograph. Reference 2 only provides approved painting medium. Preserve frontal broad round face geometry, source medium-brown complexion, unequal eyes and ears, neutral closed lips, short moustache and jaw stubble with small darker patch below lip, thick neatly swept short black hair, pale blue collared shirt and original head/shoulder crop. Preserve flat even source lighting and already smooth/soft photographic facial planes without inventing micro-detail. Human Natural / Editorial Natural: keep actual age, asymmetry, expression and focus limits; no new pores, wrinkles, marks, stronger beard, sharpened irises, beautification, skin lightening, glamour light or saturation increase. Broad quiet facial watercolor washes, delicate graphite/paint edges on warm ivory cotton paper, restrained irregular teal ochre laterite peripheral washes with empty paper; no balanced halo or texture everywhere. Replace white background only. No text/signature.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/365-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/365-earth-voice-unused-v2.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "83c7c512a13d3f0c28678f09b4a6daa060ce35126fba73ba021efdb22d8d5ff4",
+          "prompt": "Faithful literary watercolor edit of reference 1, writer 365 Shankar Chhatria, sole identity photograph. Reference 2 only provides approved painting medium. Preserve frontal broad round face geometry, source medium-brown complexion, unequal eyes and ears, neutral closed lips, short moustache and jaw stubble with small darker patch below lip, thick neatly swept short black hair, pale blue collared shirt and original head/shoulder crop. Preserve flat even source lighting and already smooth/soft photographic facial planes without inventing micro-detail. Human Natural / Editorial Natural: keep actual age, asymmetry, expression and focus limits; no new pores, wrinkles, marks, stronger beard, sharpened irises, beautification, skin lightening, glamour light or saturation increase. Broad quiet facial watercolor washes, delicate graphite/paint edges on warm ivory cotton paper, restrained irregular teal ochre laterite peripheral washes with empty paper; no balanced halo or texture everywhere. Replace white background only. No text/signature. Targeted correction: do not introduce a dark isolated dot on the philtrum above the upper lip or beneath the picture-left eye. Source only shows diffuse moustache tone and a very faint under-eye shadow, not distinct dark spots. Keep face and beard softly resolved at the source level; reduce orange pigment and stubble contrast to match the original. Preserve all geometry.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/365-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 220,
+      "name": "Shankar Parida",
+      "group": "source",
+      "explanation": "Both the face and gesturing hands are too blurred to reconstruct confidently.",
+      "look_at": "Look at the fingers as well as the eyes and mouth; no image was generated.",
+      "next_step": "A clearer, identified photograph is the most useful next step. Keep the current photo meanwhile.",
+      "recorded_reason": "Original is severely blurred with poorly resolved eyes, mouth and two gesturing hands. Finger shape and facial detail cannot be reproduced confidently without reconstruction. Human Natural requires preserving source limitations; no generation attempted. Original retained pending better source or author/editor review.",
+      "batch": "portrait-067",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/220-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "e921e7743fb31fc963068095fc65820e1da0103117d62a5079a22488e24ecf64",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/220-0.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 96,
+      "name": "Sharanya",
+      "group": "crop",
+      "explanation": "The paintings extend the neck and clothing and redesign the visible earring.",
+      "look_at": "Compare the bottom edge and earring shape. The recorded concern is mainly crop/accessory fidelity.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Correction still expands neck/clothing beyond original tight crop and enlarges/redesigns visible earring with extra ear detail. Recognizable face but Human Natural source-boundary fidelity unresolved. Both candidates unused; original retained.",
+      "batch": "portrait-067",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/96-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "57d9a2ac8f61d2376a3f7485f98403d22a845110659b9f5cc61358ca0c94cd61",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/96-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/96-earth-voice-unused-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "f1f70f975b4ba16def4598f3c809d479624749c2de83f67f358c3b0200084c50",
+          "prompt": "Faithful literary watercolor edit of reference 1, writer 96 Sharanya, sole identity source. Reference 2 only supplies approved medium. Preserve young broad round face, slight tilted three-quarter pose, naturally unequal dark eyes and thick brows, small vertical red bindi, broad open smile with exactly the source uneven visible teeth, dark center-parted hair drawn back with flyaway strands, visible gold jhumka earring at picture left, opposite ear hidden, tiny dark patterned clothing neckline at original close crop. Preserve actual warm indoor complexion and highlights, source softness and slight cheek texture. Human Natural / Editorial Natural: no whitening/straightening teeth, enlarged eyes, idealized symmetry, smoothing, glamour light, added wrinkles/skin marks, reconstructed hidden jewelry, extra hair detail or saturation increase. Keep face recognizable through broad quiet translucent washes, delicate watercolor/graphite edges on warm ivory cotton paper; restrained irregular teal ochre laterite at periphery with quiet paper, no balanced halo or all-over texture. Replace wood/wall backdrop only. No text/signature.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/96-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/96-earth-voice-unused-v2.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "8058eb1c237ac0027b524d8afbf9e4defb781d692701a3517aa0344b521ecea0",
+          "prompt": "Faithful literary watercolor edit of reference 1, writer 96 Sharanya, sole identity source. Reference 2 only supplies approved medium. Preserve young broad round face, slight tilted three-quarter pose, naturally unequal dark eyes and thick brows, small vertical red bindi, broad open smile with exactly the source uneven visible teeth, dark center-parted hair drawn back with flyaway strands, visible gold jhumka earring at picture left, opposite ear hidden, tiny dark patterned clothing neckline at original close crop. Preserve actual warm indoor complexion and highlights, source softness and slight cheek texture. Human Natural / Editorial Natural: no whitening/straightening teeth, enlarged eyes, idealized symmetry, smoothing, glamour light, added wrinkles/skin marks, reconstructed hidden jewelry, extra hair detail or saturation increase. Keep face recognizable through broad quiet translucent washes, delicate watercolor/graphite edges on warm ivory cotton paper; restrained irregular teal ochre laterite at periphery with quiet paper, no balanced halo or all-over texture. Replace wood/wall backdrop only. No text/signature.\n\nCRITICAL CORRECTION: Match the source tight square composition exactly, face same scale and position. Head touches upper edge and chin nearly touches lower edge. No added neck, shoulders or chest below source boundary. Keep picture-left earring at its original small scale and partially obscured placement; retain only visible source jewelry as soft gold shapes, no newly designed rosette/ornaments. Preserve source soft skin tone, avoid orange pigment and heightened texture. Quiet washes only at existing background corners.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/96-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 175,
+      "name": "Sonali Pattnaik",
+      "group": "crop",
+      "explanation": "The source ends close to the chin, but the paintings add neck and more emphatic jewelry.",
+      "look_at": "Compare how much neck is actually visible in the photograph and the earring highlights.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Correction still adds neck below original chin-edge crop and amplifies jewelry/eye highlights. Source-bound composition and fine-detail fidelity remain uncertain. Both candidates unused; original retained.",
+      "batch": "portrait-070",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/175-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "f6c051acc4b04588c0eef19eef54ea3f7050687c4fd24531112e6519f4846ad0",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/175-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/175-earth-voice-unused-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "d5afcfde46e408676e6dd6b9668d2a54d63c1a025a0f03738ea5a278ceb3af3f",
+          "prompt": "Faithful literary watercolor edit of reference1 writer175 Sonali Pattnaik, sole identity source; reference2 ONLY medium reference. Preserve original very close square face crop, chin at lower edge and hair near upper edge, center-parted dark hair tied back, oval face, naturally unequal wide dark eyes and thick brows, round turquoise bindi, closed deep red lips with slight asymmetry, tiny nose stud and visible gold jhumka earrings, small maroon fabric at lower-left and dark neckline. Preserve source warm nighttime complexion and soft focus with broad real facial planes. Human Natural / Editorial Natural: no enlarged eyes, idealized symmetry, smoothing, glamour lighting, invented pores/marks/wrinkles or hidden features. Keep ear jewelry only as softly resolved original bell shapes; no extra chains, filigree or fine teeth (mouth closed). Keep exact tight crop without extending neck/chest. Delicate watercolor/graphite edges on warm ivory cotton paper, quiet translucent face washes, restrained sparse irregular teal ochre laterite replacing garden lights/background only. No text/signature or balanced decorative halo.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/175-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/175-earth-voice-unused-v2.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "68b7b8b79b8b1c7f0fc7edb22b9e639eb1e76bc526d384e5cdda3ce82e216d6d",
+          "prompt": "Faithful literary watercolor edit of reference1 writer175 Sonali Pattnaik, sole identity source; reference2 ONLY medium reference. Preserve original very close square face crop, chin at lower edge and hair near upper edge, center-parted dark hair tied back, oval face, naturally unequal wide dark eyes and thick brows, round turquoise bindi, closed deep red lips with slight asymmetry, tiny nose stud and visible gold jhumka earrings, small maroon fabric at lower-left and dark neckline. Preserve source warm nighttime complexion and soft focus with broad real facial planes. Human Natural / Editorial Natural: no enlarged eyes, idealized symmetry, smoothing, glamour lighting, invented pores/marks/wrinkles or hidden features. Keep ear jewelry only as softly resolved original bell shapes; no extra chains, filigree or fine teeth (mouth closed). Keep exact tight crop without extending neck/chest. Delicate watercolor/graphite edges on warm ivory cotton paper, quiet translucent face washes, restrained sparse irregular teal ochre laterite replacing garden lights/background only. No text/signature or balanced decorative halo.\n\nCRITICAL COMPOSITION: Source chin is cut by bottom border, do not show any neck below chin. Match face scale exactly. Keep hair cut by top border. No expanded torso/neckline, no paper border beneath chin. Only tiny source maroon triangle at lower-left. Paint earrings softly without extra bright ornaments or white beads. Keep original subdued night tone, not bright peach skin or heightened eye highlights.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/175-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 467,
+      "name": "Sreekala Sivasankaran",
+      "group": "colour",
+      "explanation": "A limited grey hair streak spreads into more grey hair, and concealed ear details become visible.",
+      "look_at": "Compare the front hairline and the ear partly hidden by hair.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Correction still broadens gray hair beyond source front-hairline streak and exposes ear/jewelry details hidden in photograph; cheek tone remains amplified. Human Natural fidelity uncertain after two candidates. Original retained; both unused masters saved.",
+      "batch": "portrait-071",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/467-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "44cb6f80316364d99e7e8ea15b736e33c61a77972d52ef0d208d6ab1c9d4021f",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/467-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/467-earth-voice-unused-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "054af0f303dce6f0cccb2ca2aadae6d4637ddbfabb183ac0ca01bc3301a3a5fc",
+          "prompt": "Faithful literary watercolor edit of reference1 writer467 Sreekala Sivasankaran, sole identity source; reference2 ONLY approved medium. Preserve original reclined sideways upper-body pose, head three-quarter toward picture-right while eyes look toward camera, mature narrow oval face, natural unequal dark eyes, softly closed lips, long loose curly dark hair with gray at front hairline, tiny partly hidden dark earring, vivid green floral wrap/garment with purple border and yellow flowers, visible cropped forearm at lower-right. Keep exact age, complexion, expression, facial geometry, source indoor side light and reclined diagonal composition; do not straighten to formal headshot. Human Natural / Editorial Natural: preserve gray hair and asymmetry, no smoothing/glamour, invented wrinkles/marks, sharpened jewelry/hair detail or reconstructed hands/body. Broad quiet translucent facial washes and soft source garment motifs, delicate graphite/watercolor edges on warm ivory cotton paper, sparse restrained irregular teal ochre laterite replacing pale wall and dark chair only. No text/signature, no balanced halo or texture everywhere.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/467-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/467-earth-voice-unused-v2.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "27b1173add16d712d7074ab054adf7e080aa9796921dd7bede42bb54f5a22700",
+          "prompt": "Faithful literary watercolor edit of reference1 writer467 Sreekala Sivasankaran, sole identity source; reference2 ONLY approved medium. Preserve original reclined sideways upper-body pose, head three-quarter toward picture-right while eyes look toward camera, mature narrow oval face, natural unequal dark eyes, softly closed lips, long loose curly dark hair with gray at front hairline, tiny partly hidden dark earring, vivid green floral wrap/garment with purple border and yellow flowers, visible cropped forearm at lower-right. Keep exact age, complexion, expression, facial geometry, source indoor side light and reclined diagonal composition; do not straighten to formal headshot. Human Natural / Editorial Natural: preserve gray hair and asymmetry, no smoothing/glamour, invented wrinkles/marks, sharpened jewelry/hair detail or reconstructed hands/body. Broad quiet translucent facial washes and soft source garment motifs, delicate graphite/watercolor edges on warm ivory cotton paper, sparse restrained irregular teal ochre laterite replacing pale wall and dark chair only. No text/signature, no balanced halo or texture everywhere.\n\nCRITICAL CORRECTION: Follow original subdued cheek tone, no extra red dots, blotches or freckles. Do not exaggerate source cheek texture. Gray hair should be only the narrow soft front-hairline streak visible in source, not many individually white strands. Keep ear mostly dark/occluded and earring tiny/indistinct, not an exposed elaborate chain. Reduce garment micro-patterning and extra sharpening.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/467-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 282,
+      "name": "Suchismita Ghoshal",
+      "group": "source",
+      "explanation": "Pixelation obscures the eyes, teeth and raised fingers.",
+      "look_at": "The source cannot verify a crisp smile or individual finger contours; no generation was attempted.",
+      "next_step": "A clearer, identified photograph is the most useful next step. Keep the current photo meanwhile.",
+      "recorded_reason": "Source strongly blurred/pixelated across eyes, smile/teeth and raised fingers. Faithful fine geometry cannot be verified without reconstruction. Human Natural source limitations respected; no generation attempted. Original retained pending clearer identified source or author/editor review.",
+      "batch": "portrait-073",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/282-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "e7e011e5423a6c9d0a85ee111a6f0b6016d7a62503461e7177276c2dafb9f6ff",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/282-0.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 154,
+      "name": "Sujata Mishra / ସୁଜାତା ମିଶ୍ର",
+      "group": "colour",
+      "explanation": "Both attempts intensify red hair and orange skin, with uncertain cheek and under-glasses detail.",
+      "look_at": "Compare the hair hue, cheek patch and dark area below the lens; also check the lower crop.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Correction still amplifies red/burgundy hair, orange complexion and cheek patch, with dark under-lens detail and enlarged lower crop unresolved. Source-bound fidelity uncertain after two candidates; original retained and both unused masters saved.",
+      "batch": "portrait-074",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/154-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "9c03509992e98d3638bbee9459cae8169116a095dc40a6062734ec1e3bdd14c8",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/154-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/154-earth-voice-unused-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "4395a0495f60d16c0da88cc3de6f7099e6b1a4a53bfd757d9ae4769c42308f76",
+          "prompt": "Faithful literary watercolor edit reference1 writer154 Sujata Mishra, sole identity source; reference2 medium only. Preserve tight square selfie face crop, chin close to lower edge, mature rounded face, calm closed deep pink lips, small red bindi, rectangular thin silver glasses with hazy reflections partly obscuring eyes, dark brown/burgundy short bob with gray front roots and loose strands across picture-right cheek. Preserve source dark chin mole and faint irregular cheek marks picture-left precisely and subtly; no new spots. Pale pink patterned garment and dark necklace cord only as little visible at bottom. Exact age, complexion, facial geometry, slight angle, expression and source mixed indoor daylight. Human Natural Editorial Natural: retain natural asymmetry, soft eyes and focus limits, no glamour/smoothing, extra gray hair/red saturation, sharpened jewelry or invented hidden features; do not expand neck/chest. Quiet broad facial washes, delicate watercolor/graphite edges, warm ivory cotton paper, sparse irregular restrained teal ochre laterite replacing background and other person only. No halo, decorative texture everywhere, lettering/signature.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/154-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/154-earth-voice-unused-v2.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "d9163bff900f9755cac79cd324f2ecb42bcb399c5ec2f20fcb19879aad2a4022",
+          "prompt": "Faithful literary watercolor edit reference1 writer154 Sujata Mishra, sole identity source; reference2 medium only. Preserve tight square selfie face crop, chin close to lower edge, mature rounded face, calm closed deep pink lips, small red bindi, rectangular thin silver glasses with hazy reflections partly obscuring eyes, dark brown/burgundy short bob with gray front roots and loose strands across picture-right cheek. Preserve source dark chin mole and faint irregular cheek marks picture-left precisely and subtly; no new spots. Pale pink patterned garment and dark necklace cord only as little visible at bottom. Exact age, complexion, facial geometry, slight angle, expression and source mixed indoor daylight. Human Natural Editorial Natural: retain natural asymmetry, soft eyes and focus limits, no glamour/smoothing, extra gray hair/red saturation, sharpened jewelry or invented hidden features; do not expand neck/chest. Quiet broad facial washes, delicate watercolor/graphite edges, warm ivory cotton paper, sparse irregular restrained teal ochre laterite replacing background and other person only. No halo, decorative texture everywhere, lettering/signature.\n\nCRITICAL CORRECTION: Match source lower crop with chin nearly at bottom, no additional neck. Remove unsupported isolated dots under glasses and on lower picture-left cheek; keep only the actual chin mole and very faint diffuse original cheek patch. Do not enlarge that patch or give it a star shape. Reduce burgundy saturation and individual gray hair lines to source subtle dark bob. Broad quiet soft skin washes, no pores or added spots.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/154-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 26,
+      "name": "Sujata Parashar",
+      "group": "colour",
+      "explanation": "The corrected image still strengthens red hair and jewelry and adds uncertain reddish facial accents.",
+      "look_at": "Compare the hair and the small colour marks around the nose.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Correction retains amplified red hair and jewelry detail, and introduces small reddish nose/skin accents not reliably supported by source. Fidelity remains uncertain after two candidates. Original retained; both unused masters saved.",
+      "batch": "portrait-074",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/26-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "c89dfecd24304d54655faedf382659fe6ecabc209ea474801d45fe08230ac28a",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/26-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/26-earth-voice-unused-v1.png",
+          "label": "Attempt 1 · unused",
+          "hash": "0af897f28b2a2b3881fe369eed9d1629c3e75c95005e725175319abdf6a1f15e",
+          "prompt": "Faithful literary watercolor edit of reference1 writer26 Sujata Parashar, sole identity source; reference2 only medium. Preserve seated/turned shoulder pose, head toward camera, adult oval face, natural unequal dark lined eyes, closed slight dark rose smile, straight shoulder-length dark brown hair with subtle reddish outdoor highlights and side part, pale pink striped top, dark charcoal textured sleeveless layer, small partly visible necklace and original lower crop. Do not invent ear jewelry or hidden hand/body details; omit no visible clothing. Preserve age, complexion, facial geometry, expression, source soft shaded outdoor lighting. Human Natural Editorial Natural: keep quiet soft focus, dark hair masses and subtle source warmth; no amplified red hair, skin smoothing/glamour, invented marks/wrinkles, sharper jewelry/fabric detail than source. Broad facial watercolor washes, delicate graphite edges, warm ivory cotton paper, sparse irregular restrained teal ochre laterite replacing green blurred background only. No balanced halo, texture everywhere, text/signature.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/26-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/26-earth-voice-unused-v2.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "0ad844ddfd3a5db12cf0a3ee1140d188d3a1e0832f14f68047d7db688edbc966",
+          "prompt": "Faithful literary watercolor edit of reference1 writer26 Sujata Parashar, sole identity source; reference2 only medium. Preserve seated/turned shoulder pose, head toward camera, adult oval face, natural unequal dark lined eyes, closed slight dark rose smile, straight shoulder-length dark brown hair with subtle reddish outdoor highlights and side part, pale pink striped top, dark charcoal textured sleeveless layer, small partly visible necklace and original lower crop. Do not invent ear jewelry or hidden hand/body details; omit no visible clothing. Preserve age, complexion, facial geometry, expression, source soft shaded outdoor lighting. Human Natural Editorial Natural: keep quiet soft focus, dark hair masses and subtle source warmth; no amplified red hair, skin smoothing/glamour, invented marks/wrinkles, sharper jewelry/fabric detail than source. Broad facial watercolor washes, delicate graphite edges, warm ivory cotton paper, sparse irregular restrained teal ochre laterite replacing green blurred background only. No balanced halo, texture everywhere, text/signature.\n\nCRITICAL CORRECTION: Preserve source dark shaded brown hair; only a faint muted burgundy sheen, no orange/red streaks. Remove isolated cheek dot or new skin marks. Neck jewelry must remain barely resolved source glints, not a gold choker or clasp. Reduce decorative fabric texture and lighting contrast; preserve source muted outdoor shadow.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/26-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 149,
+      "name": "Sukanti Mohapatra",
+      "group": "source",
+      "explanation": "Blur and lens glare obscure the eyes and mouth.",
+      "look_at": "The hold concerns missing source information, not a failed watercolor attempt; none was generated.",
+      "next_step": "A clearer, identified photograph is the most useful next step. Keep the current photo meanwhile.",
+      "recorded_reason": "Source heavily blurred with glasses glare obscuring eyes and poorly resolved mouth/face detail. Human Natural requires preserving these limitations; no generated reconstruction attempted. Original retained pending clearer identified source or author/editor review.",
+      "batch": "portrait-074",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/149-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "c4758071a926ccf8ec955e202432a5740a812eb629dc34395aba19d069172737",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/149-0.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 266,
+      "name": "Sumit Panda / ସୁମିତ ପଣ୍ଡା",
+      "group": "crop",
+      "explanation": "Both attempts show more neck and collar below the tight source crop.",
+      "look_at": "Compare the collar at the bottom edge. Smile and microphone were broadly retained.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Both candidates preserve smile and microphone but extend neck/collar beyond the original tight lower crop; targeted correction did not resolve framing. Skin and beard texture remain more pronounced. Human Natural source-bound fidelity uncertain; original retained and both unused masters saved.",
+      "batch": "portrait-075",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/266-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "8703d7895850dc715386ec0266962fe971bfd6494caf5b70dbf1d87892969c4d",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/266-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/266-earth-voice-v1-unused.png",
+          "label": "Attempt 1 · unused",
+          "hash": "9921267eb326b3f2519ceb0c82ef891f66f456f760e6fe5f3d8fef25ab320e96",
+          "prompt": "Faithful literary watercolor edit. Reference1 writer266 Sumit Panda is sole identity source; reference2 is medium only. Preserve close square crop, young adult face, broad uneven tooth-showing smile, gently unequal eyes looking slightly picture-right, short dark beard and moustache, swept voluminous dark hair with original top cutoff, both visible ears and small white shirt collar. Keep black microphone and stalk in exactly the source foreground covering chin/neck; do not reveal hidden anatomy. Preserve facial width, nose, teeth arrangement, complexion, age, pose, source light brighter on picture-left and original soft focus. Human Natural Editorial Natural within literary watercolor: recognizable geometry first; no sharpened beard pores or teeth, smoothing, glamour, extra saturation or invented freckles/wrinkles/accessories. Natural hair asymmetry and occlusion remain. Delicate watercolor/graphite edges, broad quiet face washes, warm ivory cotton paper, restrained sparse irregular teal ochre laterite background washes replacing gray backdrop. No decorative texture everywhere, balanced halo, text or signature. Source fine beard and tooth details remain uncertain and must stay understated.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/266-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/266-earth-voice-v2-unused.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "c76917ea96fdda2431a366b797d0194cd45d289c1d8650c9ea6c68d1a65fce30",
+          "prompt": "Faithful literary watercolor edit. Reference1 writer266 Sumit Panda is sole identity source; reference2 is medium only. Preserve close square crop, young adult face, broad uneven tooth-showing smile, gently unequal eyes looking slightly picture-right, short dark beard and moustache, swept voluminous dark hair with original top cutoff, both visible ears and small white shirt collar. Keep black microphone and stalk in exactly the source foreground covering chin/neck; do not reveal hidden anatomy. Preserve facial width, nose, teeth arrangement, complexion, age, pose, source light brighter on picture-left and original soft focus. Human Natural Editorial Natural within literary watercolor: recognizable geometry first; no sharpened beard pores or teeth, smoothing, glamour, extra saturation or invented freckles/wrinkles/accessories. Natural hair asymmetry and occlusion remain. Delicate watercolor/graphite edges, broad quiet face washes, warm ivory cotton paper, restrained sparse irregular teal ochre laterite background washes replacing gray backdrop. No decorative texture everywhere, balanced halo, text or signature. Source fine beard and tooth details remain uncertain and must stay understated.\nTargeted correction: source framing is mandatory. Face fills the entire square, top of hair intersects top boundary and lower beard/neck intersects bottom boundary behind microphone. Do not zoom out or reconstruct additional neck, collar or shoulders. Keep the exact source bounding crop. Reduce saturated orange skin and dense decorative paper/skin texture; retain cool natural complexion with quiet washes. Keep microphone silhouette and smile unchanged.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/266-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 421,
+      "name": "Sunanda Tripathy / ଡ଼. ସୁନନ୍ଦା ତ୍ରିପାଠୀ",
+      "group": "crop",
+      "explanation": "The corrected image still extends the neck and chain, while spots and glasses reflections become stronger.",
+      "look_at": "Compare the necklace crop, cheek spots and lens reflections separately.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Correction still expands lower neck/chain beyond source crop, adds clearer cheek spots and exaggerates jewelry and sunglass reflections. Human Natural source-bound fidelity remains uncertain after two candidates; original retained and unused masters saved.",
+      "batch": "portrait-076",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/421-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "45b4e8ecf9ab3f2acd0b1051b62e89e91d3437e646ad363b2aa7ca81067caa9a",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/421-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/421-earth-voice-v1-unused.png",
+          "label": "Attempt 1 · unused",
+          "hash": "92a5a07c50c123de5881c154c87cdfe64b31fd95286eff079cebe2ce60ff16dc",
+          "prompt": "Faithful literary watercolor edit reference1 writer421 Sunanda Tripathy, sole identity source. Reference2 medium only. Preserve mature broad round face, calm firmly closed lips, frontal pose, dark swept tied-back hair with gray strands, red bindi above glasses and separate visible vertical red sindoor/hairline marks, large purple-to-pink gradient gold-frame sunglasses covering eyes, thin gold nose stud and small partly visible gold earrings, gold chain slivers and maroon garment at bottom source cutoff. Keep glasses tint reflections and eye occlusion exactly; do not reveal hidden eyes or invent ornament detail. Preserve age, complexion, facial width, nose mouth chin geometry, strong source forehead/chin light and neck folds. Human Natural Editorial Natural: no glamour, extra sharpening saturated skin, smoothing or invented flaws. Keep source softness and asymmetric light. Tight original crop without extending chest or completing necklace. Quiet face washes, delicate watercolor graphite edges on warm ivory cotton paper with sparse irregular restrained teal ochre laterite backdrop. No text or signature; jewelry fine detail remains unresolved.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/421-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/421-earth-voice-v2-unused.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "5152af4e54c0193b90a3dbc096954d0801effd50dc9dfac942e51e5038865d9b",
+          "prompt": "Faithful literary watercolor edit reference1 writer421 Sunanda Tripathy, sole identity source. Reference2 medium only. Preserve mature broad round face, calm firmly closed lips, frontal pose, dark swept tied-back hair with gray strands, red bindi above glasses and separate visible vertical red sindoor/hairline marks, large purple-to-pink gradient gold-frame sunglasses covering eyes, thin gold nose stud and small partly visible gold earrings, gold chain slivers and maroon garment at bottom source cutoff. Keep glasses tint reflections and eye occlusion exactly; do not reveal hidden eyes or invent ornament detail. Preserve age, complexion, facial width, nose mouth chin geometry, strong source forehead/chin light and neck folds. Human Natural Editorial Natural: no glamour, extra sharpening saturated skin, smoothing or invented flaws. Keep source softness and asymmetric light. Tight original crop without extending chest or completing necklace. Quiet face washes, delicate watercolor graphite edges on warm ivory cotton paper with sparse irregular restrained teal ochre laterite backdrop. No text or signature; jewelry fine detail remains unresolved.\nCorrection: do not reconstruct the chest, necklace or earring ornaments. Match source boundary at lower neck and maroon collar; only source-visible thin chain slivers. Maintain original near-top hair cutoff. Keep glasses eyes dark and unresolved, reflections diffuse. Nose stud and earring must remain as faint as source, not distinct invented gold beads. Reduce orange skin, keep realistic source exposure with simple quiet washes. Do not zoom out.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/421-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 48,
+      "name": "Sunita Paul",
+      "group": "colour",
+      "explanation": "The paintings turn the hair more copper/red and the face more orange, with sharper earring detail.",
+      "look_at": "Compare overall hair and skin colour before zooming into earring beads.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Correction still amplifies copper/red hair and orange complexion, with more defined earring beads and chin shading than source. Source color and ornament fidelity remain uncertain after two candidates. Original retained; both unused masters saved.",
+      "batch": "portrait-076",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/48-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "0b2d88d2cc80a16bf6b37b5da3b33fdc22eec3fb147a730a3c1140fbc32b0748",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/48-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/48-earth-voice-v1-unused.png",
+          "label": "Attempt 1 · unused",
+          "hash": "e8c5ba34c1675370b7cdc1394947be10c5fa56f8de9879c7e320fc6537447ff8",
+          "prompt": "Faithful literary watercolor edit reference1 writer48 Sunita Paul sole identity source; reference2 medium only. Preserve oval face slightly turned picture-right, mild closed red-lipped smile, large round black glasses with gold temples, eyes and faint reflections as source, small dark bindi and red sindoor at hairline, reddish-brown tied-back hair and low bun picture-left, silver nose ring on picture-right nostril, two long ornate silver drop/jhumka earrings in exactly source length and asymmetry. Preserve black garment with white floral pattern and pale strap picture-left, original crop, age and warm complexion. Human Natural Editorial Natural: no glamour, extra saturation/sharpness, smoothing, invented marks or jewelry; ornament filigree stays softly unresolved rather than adding beads. Preserve facial/nose/jaw geometry, natural soft indoor light and focus limitations. Quiet realistic facial washes with delicate watercolor graphite edges, warm ivory cotton paper, restrained sparse irregular teal ochre laterite washes. No balanced halo, decorative texture everywhere, lettering/signature or hidden-body extension. Keep hair source brown, not bright red.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/48-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/48-earth-voice-v2-unused.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "9ee5056daf949e82cfba36affa355d2c241a0b3b0f4c69c90c31a52ab1022e72",
+          "prompt": "Faithful literary watercolor edit reference1 writer48 Sunita Paul sole identity source; reference2 medium only. Preserve oval face slightly turned picture-right, mild closed red-lipped smile, large round black glasses with gold temples, eyes and faint reflections as source, small dark bindi and red sindoor at hairline, reddish-brown tied-back hair and low bun picture-left, silver nose ring on picture-right nostril, two long ornate silver drop/jhumka earrings in exactly source length and asymmetry. Preserve black garment with white floral pattern and pale strap picture-left, original crop, age and warm complexion. Human Natural Editorial Natural: no glamour, extra saturation/sharpness, smoothing, invented marks or jewelry; ornament filigree stays softly unresolved rather than adding beads. Preserve facial/nose/jaw geometry, natural soft indoor light and focus limitations. Quiet realistic facial washes with delicate watercolor graphite edges, warm ivory cotton paper, restrained sparse irregular teal ochre laterite washes. No balanced halo, decorative texture everywhere, lettering/signature or hidden-body extension. Keep hair source brown, not bright red.\nTargeted correction: strictly match muted source brown hair and natural neutral-warm complexion, remove orange/copper amplification. Keep earrings softly resolved like source without new beads/filigree. Keep lips and face shading gentle and source-faithful, no new chin patches, micro-grain or increased contrast. All geometry, pose, glasses, accessories and garment remain source exact.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/48-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 299,
+      "name": "Surendra Panigrahi/ ସୁରେନ୍ଦ୍ର ପାଣିଗ୍ରାହୀ",
+      "group": "source",
+      "explanation": "Blur, pixelation and colour cast obscure the face below the hat.",
+      "look_at": "Eyes, nose and mouth lack enough detail for a source-faithful reconstruction.",
+      "next_step": "A clearer, identified photograph is the most useful next step. Keep the current photo meanwhile.",
+      "recorded_reason": "Source severely blurred/pixelated and color cast across eyes, nose and mouth, with hat obscuring upper head. Reliable facial geometry cannot be recovered without invention. Human Natural source limitations respected; no generation attempted. Original retained pending clearer source or independent author/editor review.",
+      "batch": "portrait-077",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/299-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "fdccd2417a84e2e3e6960dd2cca493361f3c56b949f29a562aeff5748d97f992",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/299-0.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 150,
+      "name": "Sutanuka Ghosh Roy",
+      "group": "source",
+      "explanation": "The source is blurred and overexposed across the face.",
+      "look_at": "Bright areas lose facial contours and ear detail; no generation was attempted.",
+      "next_step": "A clearer, identified photograph is the most useful next step. Keep the current photo meanwhile.",
+      "recorded_reason": "Source strongly blurred/pixelated and overexposed across eyes, nose and mouth; exact facial contours and ear details cannot be verified reliably without reconstruction. Human Natural source limits respected; no generation attempted. Original retained pending clearer identified photo or independent review.",
+      "batch": "portrait-078",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/150-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "1ddca9a9b7f07a10c593d0ccee531740e67de840323616acfda898e71e505a23",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/150-0.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 60,
+      "name": "Swapna Behera",
+      "group": "source",
+      "explanation": "Bright exposure, red/cyan cast and blue lens glare hide face, hand and sari detail.",
+      "look_at": "Compare the washed-out skin and lens areas. Recreating missing details would be guesswork.",
+      "next_step": "A clearer, identified photograph is the most useful next step. Keep the current photo meanwhile.",
+      "recorded_reason": "Source strongly overexposed with red/cyan color cast and blue lens glare obscuring eyes; face, fingers and bright sari lose reliable detail. Human Natural requires preserving exposure limits rather than reconstructing missing features. No generation attempted; original retained pending clearer identified photo or independent review.",
+      "batch": "portrait-078",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/60-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "75d150f33345fb680195457aab32002b45b736bb689262867343e65304fccb0a",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/60-0.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 463,
+      "name": "Swatilekha Roy",
+      "group": "crop",
+      "explanation": "Both attempts extend the chain and chest below the source crop, with stronger lip and forehead colours.",
+      "look_at": "Compare the bottom edge and necklace length; then the lipstick and sindoor intensity.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Both candidates extend necklace and lower sari/chest beyond original crop, with stronger lipstick/sindoor and warmer face. Targeted crop correction did not resolve source-bound framing. Original retained; two unused masters saved for independent likeness review.",
+      "batch": "portrait-079",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/463-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "1ae6a0fcb6b9dc726c1cac33e4fc97683149bea6473f681878865d9688b7e296",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/463-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/463-earth-voice-v1-unused.png",
+          "label": "Attempt 1 · unused",
+          "hash": "5f9bda18c1986bac9209a84c9af5f06ec8f12c110227cf5aec83342e2e7ac16b",
+          "prompt": "Faithful literary watercolor edit reference1 writer463 Swatilekha Roy sole identity source; reference2 medium only. Preserve tilted mature rounded face and warm asymmetric closed magenta-lipped smile, direct unequal eyes, red bindi and red sindoor at hair part, swept-back long dark hair, small visible pale stud picture-right ear, thin silver chain cut at lower edge, orange sari with green border and red/gold patterned blouse. Preserve exact facial geometry age complexion pose and source crop, soft indoor side lighting. Human Natural Editorial Natural: retain mild softness and source asymmetry; no invented hidden ear jewelry/chest, no sharpened ornaments pores or wrinkles, no smoothing/glamour/increased saturation. Keep sari source orange but restrained; gentle realistic watercolor face washes and delicate graphite edges on warm ivory cotton paper with sparse irregular teal ochre laterite backdrop replacing stairs. No balanced halo, decorative texture everywhere, text or signature. Fine chain and stud remain understated.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/463-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/463-earth-voice-v2-unused.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "60409059b56fefd7e699047a1191c7c7920799176d2066aa2690f1eeb85ddf0b",
+          "prompt": "Faithful literary watercolor edit reference1 writer463 Swatilekha Roy sole identity source; reference2 medium only. Preserve tilted mature rounded face and warm asymmetric closed magenta-lipped smile, direct unequal eyes, red bindi and red sindoor at hair part, swept-back long dark hair, small visible pale stud picture-right ear, thin silver chain cut at lower edge, orange sari with green border and red/gold patterned blouse. Preserve exact facial geometry age complexion pose and source crop, soft indoor side lighting. Human Natural Editorial Natural: retain mild softness and source asymmetry; no invented hidden ear jewelry/chest, no sharpened ornaments pores or wrinkles, no smoothing/glamour/increased saturation. Keep sari source orange but restrained; gentle realistic watercolor face washes and delicate graphite edges on warm ivory cotton paper with sparse irregular teal ochre laterite backdrop replacing stairs. No balanced halo, decorative texture everywhere, text or signature. Fine chain and stud remain understated.\nTargeted correction: preserve original lower crop at upper chest so the thin chain exits bottom edge before its lower junction. Do not complete necklace V or extend sari/body below source. Tone down orange skin and brighter lipstick/sindoor to source levels. Keep visible stud tiny and opposite ear behind hair, no added ornaments. Exact head tilt and smile unchanged.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/463-2.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 227,
+      "name": "Sweety Sony Lall",
+      "group": "source",
+      "explanation": "The source is heavily blurred across face and earrings.",
+      "look_at": "Eyes, smile and ornament detail cannot be checked confidently; no image was generated.",
+      "next_step": "A clearer, identified photograph is the most useful next step. Keep the current photo meanwhile.",
+      "recorded_reason": "Source heavily blurred/pixelated across eyes, nose, smile and earrings. Facial and ornament detail cannot be reproduced confidently without reconstruction. Human Natural limits respected; no generation attempted. Original retained pending clearer identified photograph or independent review.",
+      "batch": "portrait-079",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/227-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "6b6cfb3f1a7b1b07c32d77980b191bb143a09564f159accefd77bb9336e93ec2",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/227-0.webp"
+        }
+      ]
+    },
+    {
+      "writer_id": 38,
+      "name": "Sweta Rout/ଶ୍ଵେତା ରାଉତ",
+      "group": "crop",
+      "explanation": "The correction still extends the necklace and chest and makes earrings and beads larger or more defined.",
+      "look_at": "Compare the lower crop and jewelry scale first, then the warmer face and sharper lip/eye edges.",
+      "next_step": "Compare at normal size first. If the difference matters, keep the photo and request a targeted correction. If a saved attempt is acceptable to you, note which one for later application.",
+      "recorded_reason": "Correction still extends necklace/chest beyond source crop and enlarges bead and earring details; face is warmer and lip/eye edges more resolved. Facial pose broadly recognizable but Human Natural crop and ornament fidelity remains uncertain after two candidates. Original retained; both unused masters saved.",
+      "batch": "portrait-079",
+      "assets": [
+        {
+          "path": "kb/artifacts/artwork/portrait-sources/writers/38-journal-original.webp",
+          "label": "Original photograph · still in use",
+          "hash": "41b4698f54867cdc67a1ef43478d514dd2013ac11d091ebcb4d7ac7ca2b1cb9b",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/38-0.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/38-earth-voice-v1-unused.png",
+          "label": "Attempt 1 · unused",
+          "hash": "7cd71258954a21c9f381e0e3563a83dedb26d19bccd2bfca8229229479073fe9",
+          "prompt": "Faithful literary watercolor edit reference1 writer38 Sweta Rout sole identity source; reference2 medium only. Preserve young oval face turned picture-left with direct unequal eyes, gentle closed bright pink smile, tiny red bindi and hairline sindoor, dark swept-back voluminous hair filling right, small gold nose stud, two long silver dangling earrings with picture-left partly hidden, dark purple bead necklace slivers and magenta sari with gold/green border at bottom. Preserve exact facial geometry age complexion pose and tight crop, original smooth soft indoor light. Human Natural Editorial Natural: no added skin marks/wrinkles/pores to mimic authenticity, no glamour smoothing sharpening or extra saturation, keep soft earring filigree unresolved without inventing new beads. Retain occlusions and source lower-neck cutoff, don't complete necklace or extend chest. Quiet realistic watercolor facial washes, delicate graphite edges, warm ivory cotton paper with sparse irregular restrained teal ochre laterite background replacing cabinet. No balanced halo, all-over grain, text/signature. Do not add top background yellow ornament to hair.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/38-1.webp"
+        },
+        {
+          "path": "kb/artifacts/artwork/writer-portraits/38-earth-voice-v2-unused.png",
+          "label": "Attempt 2 · unused · correction",
+          "hash": "51500312d4349629572dd3839f64ff74d9a88026ea16c5cd96fed6643b390783",
+          "prompt": "Faithful literary watercolor edit reference1 writer38 Sweta Rout sole identity source; reference2 medium only. Preserve young oval face turned picture-left with direct unequal eyes, gentle closed bright pink smile, tiny red bindi and hairline sindoor, dark swept-back voluminous hair filling right, small gold nose stud, two long silver dangling earrings with picture-left partly hidden, dark purple bead necklace slivers and magenta sari with gold/green border at bottom. Preserve exact facial geometry age complexion pose and tight crop, original smooth soft indoor light. Human Natural Editorial Natural: no added skin marks/wrinkles/pores to mimic authenticity, no glamour smoothing sharpening or extra saturation, keep soft earring filigree unresolved without inventing new beads. Retain occlusions and source lower-neck cutoff, don't complete necklace or extend chest. Quiet realistic watercolor facial washes, delicate graphite edges, warm ivory cotton paper with sparse irregular restrained teal ochre laterite background replacing cabinet. No balanced halo, all-over grain, text/signature. Do not add top background yellow ornament to hair.\nTargeted correction: match source lower boundary exactly; do not reveal more chest or necklace beads than the short source slivers. Restore soft silver earring filigree rather than chunky gemstone-like pieces; do not enlarge either earring. Reduce orange face tone and glossy lip highlights to source levels. Preserve exact face, hair, pose and necklace occlusion.\n",
+          "preview": "kb/artifacts/review/likeness-holds-2026-10-04/previews/38-2.webp"
+        }
+      ]
+    }
+  ]
+}

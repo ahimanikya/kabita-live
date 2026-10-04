@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-04T08:24:52.456697+00:00",
+  "batch": "portrait-083",
+  "writer_ids": [
+    201,
+    152,
+    287,
+    190,
+    184
+  ],
+  "integrated_writer_ids": [
+    201,
+    152,
+    287,
+    190,
+    184
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:412 artistic portraits,12 photographs including7 holds,3 generic placeholders",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "3472 baseline paths checked; changed only portrait map and separately authorized concurrent edition art mapping",
+    "All492 source records and recorded master hashes match",
+    "All five64/128px circular thumbnails visually inspected",
+    "Varsha desktop1280px and mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to all five; individual source limitations and visual comparisons recorded in portrait-edits.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Watercolor pigment, hair, jewelry and garment detail remain interpretive as recorded",
+    "7 likeness holds retain photos;3 missing-photo records remain open with generic artwork",
+    "Concurrent work preserved; no publication in this batch"
+  ]
+}

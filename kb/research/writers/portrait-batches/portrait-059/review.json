@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-03T16:27:31.798878+00:00",
+  "batch": "portrait-059",
+  "writer_ids": [
+    203,
+    410,
+    293,
+    269,
+    165
+  ],
+  "integrated_writer_ids": [
+    203,
+    410,
+    293,
+    269,
+    165
+  ],
+  "held_writer_ids": [],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:287 artistic portraits,137 photographs including12 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2623 baseline files checked; only authorized portrait map changed",
+    "All320 source/master records match",
+    "All five new circular thumbnails visually inspected at normal size after handoff sync",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px",
+    "KB bundle PASS"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural: pose, asymmetric gaze, hair/eye occlusion and source softness retained;269 monochrome mauve tint preserved. No new likeness holds.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, jewelry, teeth, sunglasses and pigment remain interpretive as noted per portrait",
+    "Twelve existing likeness holds and three missing-photo holds retained",
+    "Reema/Rima editorial identity question remains unchanged;410 used its own stable-ID source",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-renette.png",
+    "thumbnails-rima.png",
+    "thumbnails-rit.png",
+    "viewport-check.json",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "203-prompt.txt",
+    "410-prompt.txt",
+    "293-prompt.txt",
+    "269-prompt.txt",
+    "165-prompt.txt",
+    "bundle-check.json"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "recorded_at": "2026-10-03T21:39:40.480229+00:00",
+  "batch": "portrait-062",
+  "writer_ids": [
+    290,
+    340,
+    412,
+    88,
+    333
+  ],
+  "integrated_writer_ids": [
+    340,
+    412,
+    88,
+    333
+  ],
+  "held_writer_ids": [
+    290
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:299 artistic portraits,125 photographs including15 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2662 baseline files checked; only authorized portrait map changed",
+    "All338 source/master records match",
+    "All four new circular thumbnails visually inspected at normal size after handoff sync",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px",
+    "KB bundle PASS"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural source tilt, asymmetry, expressions and focus limitations preserved.290 held after correction because unsupported earlobe/temple marks persist.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine hair, jewelry, teeth, fabric and pigment remain interpretive as noted per portrait",
+    "Fifteen likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "desktop.png",
+    "mobile-360.png",
+    "thumbnails-sangeeta.png",
+    "thumbnails-sanghamitra.png",
+    "thumbnails-sangita.png",
+    "viewport-check.json",
+    "author-check.json",
+    "edition-check.json",
+    "hash-check.json",
+    "build.log",
+    "bundle-check.json",
+    "290-prompt.txt",
+    "290-prompt-v2.txt",
+    "290-hold-review.json",
+    "340-prompt.txt",
+    "412-prompt.txt",
+    "88-prompt.txt",
+    "333-prompt.txt"
+  ]
+}

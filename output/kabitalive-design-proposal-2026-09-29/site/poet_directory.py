@@ -29,7 +29,9 @@ def render_poet_directory(SITE, writers, poems, profile_routes, routes):
       selected=works[0]; text='\n'.join(selected['text'].strip().splitlines()[:2])
      portrait=portraits.get(wid,{}).get('src') or {'1':'assets/editors/pradeep-biswal-artistic-v2.webp','43':'assets/editors/paresh-kumar-pattnaik-artistic-v2.webp'}.get(wid); initials=''.join(x[0] for x in name.split()[:2]).upper()
      if portrait:assert (SITE/portrait).exists()
-     pic=(f'<img src="{escape(portrait)}" alt="" width="64" height="64" loading="lazy" decoding="async">' if portrait else f'<span class="poet-initials" aria-hidden="true">{escape(initials)}</span>')
+     generic=portraits.get(wid,{}).get('kind')=='generic_artwork'
+     if generic:portrait=portraits[wid].get('thumbnail',portrait)
+     pic=(f'<img src="{escape(portrait)}" alt="{"Generic writer artwork" if generic else ""}" width="64" height="64" loading="lazy" decoding="async">' if portrait else f'<span class="poet-initials" aria-hidden="true">{escape(initials)}</span>')
      body=f'<blockquote lang="{selected["language"]}">{escape(text)}</blockquote>' if text else '<p class="no-excerpt">Meet this writer in their profile.</p>'
      poem_route=routes.get(str(selected['id']),f"poem-{selected['id']}.html") if text else ''
      citation=f'<a class="poet-source" href="{escape(poem_route)}" title="{escape(selected["title"])}" aria-label="Read the quoted poem: {escape(selected["title"])}">From a poem ↗</a>' if text else ''

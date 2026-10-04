@@ -30,6 +30,8 @@ def author_portrait(writer):
     asset=writer_portraits.get(str(writer['id']))
     if asset:
         if not (R/asset['src']).is_file():raise ValueError(f'Missing portrait for writer {writer["id"]}')
+        if asset['kind']=='generic_artwork':
+            return f'<figure class="editor-portrait author-portrait generic_artwork"><img src="{e(asset["src"])}" alt="Generic feminine watercolor illustration; not a likeness of {e(writer["name"])}" width="600" height="600" decoding="async"><figcaption class="small muted">Generic artwork · photograph unavailable</figcaption></figure>'
         kind=asset['kind'];shape=' portrait-tall' if asset.get('aspect')=='3:4' else '';width=asset.get('width',600);height=asset.get('height',600);label='Artistic portrait of ' if kind=='generated_portrait' else 'Portrait of '
         return f'<figure class="editor-portrait author-portrait {kind}{shape}"><img src="{e(asset["src"])}" alt="{label}{e(writer["name"])}" width="{width}" height="{height}" decoding="async"></figure>'
     roman=writer['name'].split('/')[0].strip()
@@ -75,7 +77,7 @@ def render_author(writer):
         path.write_text(path.read_text().replace('</head>',f'<link rel="canonical" href="{target}"></head>',1).replace('<main id="main"','<main data-pagefind-ignore="all" id="main"',1))
 
 def author_colophon():
-    credit='<section class="colophon" id="credits-writers"><h2>The voices in these pages.</h2><p class="profile-footnote">Biographies and photographs are drawn from the journal’s contributor records. Supplied biographies may describe roles held at the time they were written. Where an artistic portrait is shown, it was created with AI assistance from the writer’s supplied photograph. Pravakar Satapathy’s artistic portrait uses a photograph supplied for this redesign; the other artistic portraits use journal-supplied photographs. Portraits awaiting artistic treatment retain their original photographs. Missing photographs use initials. Research references for expanded profiles appear below. Corrections are welcome through the <a href="contact.html">editorial desk</a>.</p>'
+    credit='<section class="colophon" id="credits-writers"><h2>The voices in these pages.</h2><p class="profile-footnote">Biographies and photographs are drawn from the journal’s contributor records. Supplied biographies may describe roles held at the time they were written. Where an artistic portrait is shown, it was created with AI assistance from the writer’s supplied photograph. Pravakar Satapathy’s artistic portrait uses a photograph supplied for this redesign; the other artistic portraits use journal-supplied photographs. Portraits awaiting artistic treatment retain their original photographs. Where photographs are unavailable, shared generic watercolor figures are used and labelled; these do not depict the writers. Research references for expanded profiles appear below. Corrections are welcome through the <a href="contact.html">editorial desk</a>.</p>'
     credit+='<details class="colophon-details"><summary>Author biography references</summary>'
     for ident,extra in writer_enrichment.items():
         name=profile_data[int(ident)]['name']

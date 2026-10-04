@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-04T06:00:47.588007+00:00",
+  "writer_ids": [
+    233,
+    258,
+    416
+  ],
+  "verification": "passed",
+  "independent": false,
+  "checks": {
+    "build": "PASS Node24 Astro public build",
+    "author_pages": "PASS 364 artistic portraits,60 photos,3 generic artworks,0 initials",
+    "editions": "PASS 47 editions,799 poems,848 source hashes",
+    "baseline": "PASS 2869 baseline files; only authorized portrait map changed",
+    "browser": "PASS all3 circular thumbnails,1280px desktop and360px full mobile profile; scroll width360px",
+    "independent": false
+  },
+  "limitations": [
+    "No source photographs or facial likenesses exist for these3 records; deliberately shared faceless generic artwork.",
+    "Feminine presentation uses she/her wording in existing source-checked biographies; no appearance inferred.",
+    "Local integration only; final rollout deployment remains gated."
+  ],
+  "evidence": [
+    "author-check.json",
+    "baseline.json",
+    "build.log",
+    "desktop.png",
+    "edition-check.json",
+    "hash-check.json",
+    "mobile-360.png",
+    "prompt.txt",
+    "thumbnail-233.png",
+    "thumbnail-258.png",
+    "thumbnail-416.png",
+    "viewport-check.json"
+  ]
+}

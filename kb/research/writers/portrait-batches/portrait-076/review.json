@@ -1,0 +1,60 @@
+{
+  "recorded_at": "2026-10-04T04:42:59.295257+00:00",
+  "batch": "portrait-076",
+  "writer_ids": [
+    166,
+    466,
+    421,
+    87,
+    48
+  ],
+  "integrated_writer_ids": [
+    166,
+    466,
+    87
+  ],
+  "held_writer_ids": [
+    421,
+    48
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:355 artistic portraits,69 photographs including29 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2833 baseline files checked; only authorized portrait map changed",
+    "All418 source/master records match",
+    "All three new circular thumbnails visually inspected at normal size after handoff sync",
+    "Sunil desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied to every candidate.166 lighting and scarf,466 youthful tilted face,87 face-supporting hand preserved.421 held after crop/ornament/skin-detail drift;48 held after color and jewelry drift remained following correction.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Fine ornament, hair, skin texture and pigment remain interpretive as recorded per portrait",
+    "29 likeness holds and3 missing-photo holds retain original photos or initials",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "166-prompt.txt",
+    "421-correction-prompt.txt",
+    "421-hold-review.json",
+    "421-prompt.txt",
+    "466-prompt.txt",
+    "48-correction-prompt.txt",
+    "48-hold-review.json",
+    "48-prompt.txt",
+    "87-prompt.txt",
+    "author-check.json",
+    "baseline.json",
+    "build.log",
+    "desktop.png",
+    "edition-check.json",
+    "hash-check.json",
+    "mobile-360.png",
+    "progress.json",
+    "thumbnails-sun.png",
+    "viewport-check.json"
+  ]
+}

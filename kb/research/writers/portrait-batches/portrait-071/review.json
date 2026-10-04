@@ -1,0 +1,61 @@
+{
+  "recorded_at": "2026-10-04T03:06:16.000669+00:00",
+  "batch": "portrait-071",
+  "writer_ids": [
+    25,
+    177,
+    331,
+    147,
+    467
+  ],
+  "integrated_writer_ids": [
+    25,
+    177,
+    331,
+    147
+  ],
+  "held_writer_ids": [
+    467
+  ],
+  "verification": "passed",
+  "checks": [
+    "Node24 public Astro build passed",
+    "Author check passed:337 artistic portraits,87 photographs including22 likeness holds,3 initials",
+    "Edition check passed:47 editions,799 poems,848 source hashes",
+    "2776 baseline files checked; only authorized portrait map changed",
+    "All388 source/master records match",
+    "All four new circular thumbnails visually inspected at normal size after handoff sync",
+    "Desktop1280px and full mobile360px profile crop inspected; mobile scroll width360px"
+  ],
+  "independent": false,
+  "human_natural": "Editorial Natural applied. Source softness and asymmetry retained; fine hair, garment and pigment interpretation recorded per portrait.467 held after two candidates amplified gray hair and exposed source-occluded ear/jewelry detail.",
+  "limitations": [
+    "Independent author/editor likeness review pending",
+    "Hair, jewelry, garment patterns, shadow detail and pigment remain interpretive as recorded per portrait",
+    "Twenty-two likeness holds and three missing-photo holds retained",
+    "Counts refer to427 portrait records rather than deduplicated identities",
+    "Concurrent changes preserved; no publication by this batch"
+  ],
+  "evidence": [
+    "147-prompt.txt",
+    "177-prompt.txt",
+    "25-prompt.txt",
+    "331-prompt.txt",
+    "467-hold-review.json",
+    "467-prompt-v2.txt",
+    "467-prompt.txt",
+    "author-check.json",
+    "baseline.json",
+    "build.log",
+    "desktop.png",
+    "edition-check.json",
+    "hash-check.json",
+    "mobile-360.png",
+    "progress.json",
+    "thumbnails-soubhagyabanta.png",
+    "thumbnails-soumen.png",
+    "thumbnails-soumya.png",
+    "thumbnails-sree.png",
+    "viewport-check.json"
+  ]
+}
