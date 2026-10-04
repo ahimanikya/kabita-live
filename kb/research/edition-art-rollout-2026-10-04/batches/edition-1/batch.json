@@ -1,0 +1,192 @@
+{
+  "edition": 1,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T15:50:12.104984+00:00",
+  "poems_read": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "direction": "November attends to small forms of care and release: a terrace bloom, rain slipping from an umbrella and a wooden wing that will not mend. Watercolor, gouache and graphite shift between growth, passing weather and material weight. Self-sacrifice, listening and ageing receive text-led openings.",
+  "items": [
+    {
+      "id": "a-bloom-in-the-small-garden",
+      "edition": 1,
+      "poem_id": 11,
+      "title": "A bloom in the small garden",
+      "rationale": "The two short poems find resilience in tending a terrace garden and in a mother making something nourishing from an egg. One modest bloom on a potted vine represents the first poem and their shared ordinary care, without combining flowers and breakfast into a prop display.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-1/a-bloom-in-the-small-garden-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-01/poem-11.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-1/poem-11.json",
+      "poem_sha256": "a7e712c442a6a9d9ac6e187241d21c800bf8b1980745e9ef6b6643a1cca952b7",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-1/a-bloom-in-the-small-garden/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-1/a-bloom-in-the-small-garden-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-d77222f1-8c81-46f7-a2b8-ea2794b68f93.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-1/a-bloom-in-the-small-garden/v1.png",
+          "sha256": "cd7516a70a0e3bd844d602f9ec32340883722db8ebefc218dff936c68822fe08"
+        }
+      ],
+      "medium_label": "watercolor and pencil",
+      "independent": false,
+      "started_at": "2026-10-04T15:50:12.162287+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-d77222f1-8c81-46f7-a2b8-ea2794b68f93.png",
+      "output_sha256": "cd7516a70a0e3bd844d602f9ec32340883722db8ebefc218dff936c68822fe08",
+      "saved_at": "2026-10-04T15:51:13.497607+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T15:51:13.546628+00:00",
+        "outcome": "pass",
+        "notes": "PASS: modest bougainvillea bracts connect plausibly to woody stems emerging from the cropped pot; uneven leaves and fallen foliage retain seasonal specificity. Soft watercolor edges, ordinary sun and a broad quiet right half support renewal through care without a decorative abundance. independent:false."
+      },
+      "alt": "A small magenta bloom on a potted terrace vine beside fallen leaves and a pale parapet.",
+      "public_asset": "assets/poem-art/editions/1/a-bloom-in-the-small-garden-v1.webp",
+      "public_sha256": "e0b875008e6388fc855aa2f7fbac938638cbef6310448b41c229bb4d1f9a8cb7",
+      "previous_assignment": "courtyard-petals",
+      "integrated_at": "2026-10-04T15:55:12.536343+00:00"
+    },
+    {
+      "id": "rain-held-for-a-moment",
+      "edition": 1,
+      "poem_id": 13,
+      "title": "Rain held for a moment",
+      "rationale": "The speaker tries to catch rain in words while some drops escape. A close view of water gathering then slipping from an umbrella edge keeps that fleeting attention without illustrating every stanza or inventing a crying face.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-1/rain-held-for-a-moment-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-01/poem-13.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-1/poem-13.json",
+      "poem_sha256": "f28a137ef7f38074cb8d68fcac310d3e88d0fe996dcc69bbf202bc3fca8b50d6",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-1/rain-held-for-a-moment/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-1/rain-held-for-a-moment-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-84831445-6a6d-47c1-a9dd-be8a2ab13355.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-1/rain-held-for-a-moment/v1.png",
+          "sha256": "e7e893813b3696d0208f1f41f78ab7eeb24141fa904d89b650c5113108a02074"
+        }
+      ],
+      "medium_label": "gouache and watercolor",
+      "independent": false,
+      "started_at": "2026-10-04T15:51:13.586149+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-84831445-6a6d-47c1-a9dd-be8a2ab13355.png",
+      "output_sha256": "e7e893813b3696d0208f1f41f78ab7eeb24141fa904d89b650c5113108a02074",
+      "saved_at": "2026-10-04T15:52:12.152434+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T15:52:12.195975+00:00",
+        "outcome": "pass",
+        "notes": "PASS: cropped indigo canopy, joined seams and supported edge read coherently; droplets collect at the hem and fall vertically. Watercolor garden washes recede without equal detail. A few bright droplet accents remain within the small painted study, carrying brief capture and release without a crying face or spectacle. independent:false."
+      },
+      "alt": "Rain beads along the edge of a cropped indigo umbrella and falls into soft green garden washes.",
+      "public_asset": "assets/poem-art/editions/1/rain-held-for-a-moment-v1.webp",
+      "public_sha256": "f90fa10214201d558eaabcdd27d9655dcefdf97512c4731c5f63298a6b4565e1",
+      "previous_assignment": "courtyard-petals",
+      "integrated_at": "2026-10-04T15:55:12.536343+00:00"
+    },
+    {
+      "id": "the-wing-that-will-not-mend",
+      "edition": 1,
+      "poem_id": 14,
+      "title": "The wing that will not mend",
+      "rationale": "The poem carries an unrepairable wooden parrot wing before the speaker chooses sunlight. A simple damaged wooden toy holds the weight of attempted repair while a small ordinary patch of light leaves the ending open. It is a symbolic object, not an injured live bird.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-1/the-wing-that-will-not-mend-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-01/poem-14.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-1/poem-14.json",
+      "poem_sha256": "e10f60140affe530dbdf4e9eadf5a4566ac223481ec71c38743518b924f07cb5",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-1/the-wing-that-will-not-mend/v2.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-1/the-wing-that-will-not-mend-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-c2e2d936-beaa-4a0b-85d9-4b9ebd9fba4b.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-1/the-wing-that-will-not-mend/v1.png",
+          "sha256": "1bdcafb8211fef76b90aca141543dba60115f95af8854ba88ec7f7f65a7cff4d",
+          "review": {
+            "result": "REJECTED",
+            "reason": "Near-side attached wing duplicates the detached wing; ambiguous repair anatomy.",
+            "independent": false
+          }
+        },
+        {
+          "version": 2,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-1/the-wing-that-will-not-mend-correction-1-prompt.txt",
+          "source": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-1/the-wing-that-will-not-mend/v1.png",
+          "source_sha256": "1bdcafb8211fef76b90aca141543dba60115f95af8854ba88ec7f7f65a7cff4d",
+          "tool_output_path": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-dec54134-9c21-49ca-a0df-ec0e0b391ae6.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-1/the-wing-that-will-not-mend/v2.png",
+          "output_sha256": "9a920bb892f53e2cc6aafbaa7bdd4b83338fd807198db55fa08e041c1f5f67f4",
+          "saved_at": "2026-10-04T15:55:12.044159+00:00"
+        }
+      ],
+      "medium_label": "graphite and gouache",
+      "independent": false,
+      "started_at": "2026-10-04T15:52:12.236671+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-c2e2d936-beaa-4a0b-85d9-4b9ebd9fba4b.png",
+      "output_sha256": "9a920bb892f53e2cc6aafbaa7bdd4b83338fd807198db55fa08e041c1f5f67f4",
+      "saved_at": "2026-10-04T15:53:08.722639+00:00",
+      "correction_attempts": 1,
+      "correction_claimed_at": "2026-10-04T15:53:38.308690+00:00",
+      "returned_tool_path": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-dec54134-9c21-49ca-a0df-ec0e0b391ae6.png",
+      "selected_version": 2,
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T15:55:12.150742+00:00",
+        "outcome": "pass",
+        "notes": "PASS v2: duplicated attached wing removed; visible side is now the rounded wooden body with exposed joint and one detached wing on shelf. Toy remains stable on base/tail with coherent contact and soft daylight. Graphite/gouache texture preserves material weight and open light without claiming a historical craft or injured animal. v1 retained rejected; independent:false."
+      },
+      "alt": "A green wooden parrot toy with an exposed wing joint stands beside its detached wooden wing in quiet daylight.",
+      "public_asset": "assets/poem-art/editions/1/the-wing-that-will-not-mend-v1.webp",
+      "public_sha256": "1b52b439aedd9ca128fc230f377ec993f88044e84902db4442ac45ca182ffed4",
+      "previous_assignment": "quiet-path",
+      "integrated_at": "2026-10-04T15:55:12.536343+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 10,
+      "rationale": "The critique of enforced self-sacrifice stays text-led without literal self-harm imagery.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 20,
+      "rationale": "Unsaid words and the need to listen deserve space for the voice rather than an invented mourner.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 26,
+      "rationale": "Ageing and family photographs remain in the poet’s language; no invented parental faces or clichéd elderly figure.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T15:57:07.266848+00:00",
+  "completed_at": "2026-10-04T15:57:07.266848+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3 candidates reviewed at normal size; 3 accepted, 0 held; desktop and360px illustrated/text-led pages visually inspected; desktop-1.png and mobile-1.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

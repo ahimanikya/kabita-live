@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T15:48:17.977745+00:00",
+  "updated_at": "2026-10-04T15:57:07.266848+00:00",
   "status": "active",
   "active_batch": null,
-  "next_edition": 2,
+  "next_edition": null,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
   "publication_checkpoint_editions": 3,
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 2,
+    "remaining_editions": 0,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 125,
+    "new_rollout_artworks": 131,
     "estimated_additional_artworks": 132,
     "held": 1,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 2,
     "published_editions": 45,
-    "estimated_remaining_artworks": 6
+    "estimated_remaining_artworks": 0
   },
   "editions": [
     {
@@ -1935,12 +1935,24 @@
         58,
         59
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "tomorrow-soaking-overnight",
+        "where-the-river-turns",
+        "the-painting-left-open"
+      ],
+      "text_led": [
+        29,
+        38,
+        58
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-2/batch.json",
+      "direction": "December finds possibility in overnight preparation, an unplanned river bend and a painting left incomplete. Watercolor, pastel and gouache give domestic, outdoor and creative space different weights. Displacement, unequal expectations and exploitation remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T15:47:54.292515+00:00"
     },
     {
       "edition": 1,
@@ -1966,12 +1978,24 @@
         13,
         9
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "a-bloom-in-the-small-garden",
+        "rain-held-for-a-moment",
+        "the-wing-that-will-not-mend"
+      ],
+      "text_led": [
+        10,
+        20,
+        26
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-1/batch.json",
+      "direction": "November attends to small forms of care and release: a terrace bloom, rain slipping from an umbrella and a wooden wing that will not mend. Watercolor, gouache and graphite shift between growth, passing weather and material weight. Self-sacrifice, listening and ageing receive text-led openings.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T15:57:07.266848+00:00"
     }
   ]
 }

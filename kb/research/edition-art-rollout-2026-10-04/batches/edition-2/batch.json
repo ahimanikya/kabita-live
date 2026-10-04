@@ -1,0 +1,185 @@
+{
+  "edition": 2,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T15:42:14.216772+00:00",
+  "poems_read": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    55,
+    56,
+    57,
+    58,
+    59
+  ],
+  "direction": "December finds possibility in overnight preparation, an unplanned river bend and a painting left incomplete. Watercolor, pastel and gouache give domestic, outdoor and creative space different weights. Displacement, unequal expectations and exploitation remain text-led.",
+  "items": [
+    {
+      "id": "tomorrow-soaking-overnight",
+      "edition": 2,
+      "poem_id": 37,
+      "title": "Tomorrow soaking overnight",
+      "rationale": "The restless night finally finds order in ordinary kitchen preparations: soaking pulses and setting curd. One bowl of chickpeas holds this quiet preparation for dawn without staging despair or literalizing every image.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-2/tomorrow-soaking-overnight-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-02/poem-37.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-2/poem-37.json",
+      "poem_sha256": "876524c53b74a484dc1ce8128a5df261c4a6dd9920fcfc03e62ab94716ff457a",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-2/tomorrow-soaking-overnight/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-2/tomorrow-soaking-overnight-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ab76c092-9684-44a9-b6e0-0afbc7261175.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-2/tomorrow-soaking-overnight/v1.png",
+          "sha256": "09f9f7f1cace017932f3c1a0c7f9b18654ff51c2004867e0620b8342e44b4bc8"
+        }
+      ],
+      "medium_label": "watercolor and graphite",
+      "independent": false,
+      "started_at": "2026-10-04T15:42:14.269093+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-ab76c092-9684-44a9-b6e0-0afbc7261175.png",
+      "output_sha256": "09f9f7f1cace017932f3c1a0c7f9b18654ff51c2004867e0620b8342e44b4bc8",
+      "saved_at": "2026-10-04T15:43:36.910336+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T15:43:36.953925+00:00",
+        "outcome": "pass",
+        "notes": "PASS: normal-size review finds plausible bowl ellipse, waterline, clustered chickpeas and weight on the ledge. Warm light and shadow agree; the empty right side preserves nocturnal quiet. Watercolor granulation remains within the painted medium, no added suffering figure or decorative recipe styling. independent:false."
+      },
+      "alt": "Chickpeas soak in a steel bowl on a quiet kitchen ledge under a small warm light.",
+      "public_asset": "assets/poem-art/editions/2/tomorrow-soaking-overnight-v1.webp",
+      "public_sha256": "1a258e053f765cac269c90f19bc695be089ea57dbae5a31fb3b1e53cfee67697",
+      "previous_assignment": "editorial-desk",
+      "integrated_at": "2026-10-04T15:45:56.580816+00:00"
+    },
+    {
+      "id": "where-the-river-turns",
+      "edition": 2,
+      "poem_id": 39,
+      "title": "Where the river turns",
+      "rationale": "The speaker welcomes the sudden bend here and now instead of a calculated future. A river turning out of sight preserves that open possibility; no arrows, destination, symbolic clock or invented autobiographical setting.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-2/where-the-river-turns-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-02/poem-39.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-2/poem-39.json",
+      "poem_sha256": "09d08dffc8691a715440ab067b92baf6815c12c6ed3d6bf3a1ac985fe59f3caf",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-2/where-the-river-turns/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-2/where-the-river-turns-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-9b00563d-bb23-40d0-b4b2-4900e0620d2a.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-2/where-the-river-turns/v1.png",
+          "sha256": "208d481b160cea4e9934fc7ce010a9555604b112b885f1eaf68d523ee762457f"
+        }
+      ],
+      "medium_label": "dry pastel and gouache",
+      "independent": false,
+      "started_at": "2026-10-04T15:43:37.003380+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-9b00563d-bb23-40d0-b4b2-4900e0620d2a.png",
+      "output_sha256": "208d481b160cea4e9934fc7ce010a9555604b112b885f1eaf68d523ee762457f",
+      "saved_at": "2026-10-04T15:44:33.183366+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T15:44:33.250779+00:00",
+        "outcome": "pass",
+        "notes": "PASS: river disappears behind the grassy bend with coherent bank continuity, diffuse daylight and plausible broken sky reflections. Selective foreground marks soften into distance; a brown leaf carries seasonal change without a symbolic collage. Quiet present-tense openness matches the poem. independent:false."
+      },
+      "alt": "A river curves out of sight behind a grassy bank beneath a few green and brown leaves.",
+      "public_asset": "assets/poem-art/editions/2/where-the-river-turns-v1.webp",
+      "public_sha256": "35b4ca084400158c47ff07b9a7742d24d3b66cedf183116764be1bc1befa4ff1",
+      "previous_assignment": "next-issue",
+      "integrated_at": "2026-10-04T15:45:56.580816+00:00"
+    },
+    {
+      "id": "the-painting-left-open",
+      "edition": 2,
+      "poem_id": 55,
+      "title": "The painting left open",
+      "rationale": "The poem discovers completion within an unfinished image: a distracted brush changes a tree and the river. An unfinished painted sheet makes that process visible without turning incompleteness into a polished allegorical castle.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-2/the-painting-left-open-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-02/poem-55.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-2/poem-55.json",
+      "poem_sha256": "756831dba24d376bcb62ca2f664c6208a8c18bd9411d109842b3781635aaedde",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-2/the-painting-left-open/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-2/the-painting-left-open-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-d80bd5b4-6d84-4850-bd97-da9bc531755d.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-2/the-painting-left-open/v1.png",
+          "sha256": "cf536acc3758f8a93c42f001c5e688dbd4126c6cc5a123231f7749cc70961741"
+        }
+      ],
+      "medium_label": "gouache painting study",
+      "independent": false,
+      "started_at": "2026-10-04T15:44:33.297540+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-d80bd5b4-6d84-4850-bd97-da9bc531755d.png",
+      "output_sha256": "cf536acc3758f8a93c42f001c5e688dbd4126c6cc5a123231f7749cc70961741",
+      "saved_at": "2026-10-04T15:45:56.431749+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T15:45:56.481218+00:00",
+        "outcome": "pass",
+        "notes": "PASS: a materially rendered worktable surrounds an unfinished gouache landscape; broad blank paper and broken strokes keep its incompleteness visible. Sheet edges, brush contact and light are coherent. The outer still life is more realistically rendered than the proposed pencil treatment, but the central painting retains expressive gouache and the poem’s process; no text or invented painter. independent:false."
+      },
+      "alt": "An unfinished painting of a tree and river lies on a worktable with a brush beside its blank paper edge.",
+      "public_asset": "assets/poem-art/editions/2/the-painting-left-open-v1.webp",
+      "public_sha256": "6b82e9ce2fc7aaddbb2047063458cff6aa5760fa2f604aec00854ef2c8405e17",
+      "previous_assignment": "kendu-light",
+      "integrated_at": "2026-10-04T15:45:56.580816+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 29,
+      "rationale": "Displacement and the named people remain in the poet’s words; avoid fabricated documentary suffering.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 38,
+      "rationale": "The challenge to unequal expectations of women needs its own direct voice without a generic submissive woman image.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 58,
+      "rationale": "Urban exploitation and sexual violence stay text-led; no invented victim or sensational scene.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T15:47:54.292515+00:00",
+  "completed_at": "2026-10-04T15:47:54.292515+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3 candidates reviewed at normal size; 3 accepted, 0 held; desktop and360px illustrated/text-led pages visually inspected; desktop-2.png and mobile-2.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

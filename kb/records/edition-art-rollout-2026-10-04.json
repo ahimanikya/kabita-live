@@ -15,7 +15,7 @@
     "imagegen"
   ],
   "independent": false,
-  "next_action": "Resume edition2; publish the next three verified unpublished editions together. Editions3–47 are live.",
+  "next_action": "Resume editionNone; publish the next three verified unpublished editions together. 45 editions are live.",
   "pilot_publication": {
     "status": "deployed_and_live_verified",
     "base_commit": "32fba99f22b2c568b5274454cbf4781367d6f2b5",
@@ -44,35 +44,29 @@
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 2,
+    "remaining_editions": 0,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 125,
+    "new_rollout_artworks": 131,
     "estimated_additional_artworks": 132,
     "held": 1,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 2,
     "published_editions": 45,
-    "estimated_remaining_artworks": 6
+    "estimated_remaining_artworks": 0
   },
-  "last_completed_batch": "edition-3",
+  "last_completed_batch": "edition-1",
   "handoff_note": "Synchronizing this completed edition checkpoint; preserve concurrent portrait files.",
   "current_publication": {
-    "id": "checkpoint-5-3",
-    "status": "deployed_and_live_verified",
+    "id": "checkpoint-2-1",
+    "status": "prepared",
     "editions": [
-      5,
-      4,
-      3
+      2,
+      1
     ],
-    "artworks": 9,
-    "text_led": 9,
-    "base_commit": "e6a623062020842cbbc30e5a2b1798863d8cffb2",
+    "artworks": 6,
+    "text_led": 6,
+    "base_commit": "48e2ad5d53fad49c69dc2f9c14d045d4a6dd070e",
     "release_checkout": "/private/tmp/kbl-selective-portraits-20261003",
-    "prepared_at": "2026-10-04T15:39:01.574851+00:00",
-    "commit": "070e13295929fd8cda57f1b38c63f4bfe346a003",
-    "workflow_id": 37213942073,
-    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37213942073",
-    "verified_at": "2026-10-04T15:47:27.393327+00:00",
-    "verification": "research/edition-art-rollout-2026-10-04/checkpoint-5-3-live-verification.json"
+    "prepared_at": "2026-10-04T15:58:31.224069+00:00"
   },
   "last_handoff_verified_at": "2026-10-04T09:09:17.381245+00:00"
 }
