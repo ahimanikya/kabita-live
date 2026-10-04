@@ -1,0 +1,42 @@
+{
+  "result": "PASS",
+  "at": "2026-10-04T05:40:50.377761+00:00",
+  "commit": "e0b9b1c0d8ecffe157d057b9ea9c1b94c62823c0",
+  "checks": {
+    "firebase_enabled": true,
+    "likes_enabled": true,
+    "comments_enabled": true,
+    "allowed_host": true,
+    "analytics_preserved": true,
+    "poem_controls": true,
+    "noindex": true,
+    "privacy_text": true
+  },
+  "assets": [
+    {
+      "path": "runtime-config.json",
+      "sha256": "211534a7168fcebc41d3a4e81e10f2aa4cec41c3bdff6e4902dbfb6fa4cf7dd6",
+      "expected": "211534a7168fcebc41d3a4e81e10f2aa4cec41c3bdff6e4902dbfb6fa4cf7dd6",
+      "pass": true
+    },
+    {
+      "path": "assets/engagement.js",
+      "sha256": "379b612f200aa4877b166cd0fa75640f48dcf78ccdc3bc77b5a346be301fe571",
+      "expected": "379b612f200aa4877b166cd0fa75640f48dcf78ccdc3bc77b5a346be301fe571",
+      "pass": true
+    },
+    {
+      "path": "assets/private-feedback.js",
+      "sha256": "3e41c39ae39baa1aec481dec9ee9266873e0b34c60fc0f9475220f49fdef9e69",
+      "expected": "3e41c39ae39baa1aec481dec9ee9266873e0b34c60fc0f9475220f49fdef9e69",
+      "pass": true
+    },
+    {
+      "path": "assets/analytics.js",
+      "sha256": "c9b7ca39f408f2e2a1c64056aa46fa21c87f4a29026f9dd57a2344590f487180",
+      "expected": "c9b7ca39f408f2e2a1c64056aa46fa21c87f4a29026f9dd57a2344590f487180",
+      "pass": true
+    }
+  ],
+  "independent": false
+}

@@ -121,3 +121,9 @@ Ma Yongbo replaces the captured Youngbo Ma display spelling through the same rev
 ## Authorized pre-DNS hosting · 2 October 2026
 
 KBL-DEC-037 authorizes pushing the current project and hosting its public-only Astro build at the existing GitHub Pages address for review before DNS migration. The manual workflow now offers `preview` and `release` modes. Preview retains `noindex,nofollow` and robots exclusion; release retains all existing content and translation checks. Hosting approval does not mark outstanding editorial facts or draft translations reviewed. Firebase and analytics remain disabled. No custom domain or DNS change is included. See [hosting record](../records/github-pages-preview-deployment.json).
+
+## Firebase engagement activated · 4 October 2026
+
+Firebase private feedback, reversible poem Likes and editor-moderated public comments are now enabled for `ahimanikya.github.io`. Explicit Firebase CLI scope approval was received, deployed rules match the tested source, the comments index is READY, and all14 production checks passed with exact cleanup. The manual Pages preview workflow37180414812 published commit`e0b9b1c`; live controls, runtime flags and bundle hashes were verified. GA4 consent, preview noindex and DNS are unchanged.
+
+Moderation currently uses the project owner’s Firebase Console: submissions remain private in `commentSubmissions`; only approved name/message/poemId/publishedAt fields enter `publicComments`. Private feedback remains in `feedback`. A dedicated staff inbox and staff account provisioning remain deferred. The [activation record](../records/engagement-activation-2026-10-04.json) includes the exact owner workflow, test evidence and remaining limitations. Earlier dated disabled-service notes are historical.

@@ -1,5 +1,5 @@
 {
-  "status": "cloud_verified_preparing_website_deployment",
+  "status": "deployed_live_verified",
   "requested_by": "Ahimanikya Satapathy",
   "authorization": "OK, let\u2019s try now activating it",
   "scope": [
@@ -12,13 +12,7 @@
   "access_check": "Official Firebase CLI login succeeded as ahimanikya@gmail.com",
   "independent": false,
   "production_mutations": true,
-  "resume": [
-    "Complete Google passkey and CLI authorization",
-    "Deploy reviewed rules/index",
-    "Run synthetic production check with cleanup",
-    "Enable flags only after cloud verification",
-    "Deploy scoped public website build; preserve DNS and consent"
-  ],
+  "resume": [],
   "baseline_commit": "05af0dff9e63c4a0dd752a211a3344f73de75893",
   "verification_preparation": {
     "rules": "Existing reviewed rules and moderation contract inspected; ten rule cases passed in prior published GitHub workflow37158421518. No rule changes made.",
@@ -47,5 +41,29 @@
   "allowed_hosts": [
     "ahimanikya.github.io"
   ],
-  "verified_at": "2026-10-04T05:35:09.718051+00:00"
+  "verified_at": "2026-10-04T05:35:09.718051+00:00",
+  "release_commit": "e0b9b1c0d8ecffe157d057b9ea9c1b94c62823c0",
+  "workflow_id": 37180414812,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37180414812",
+  "completed_at": "2026-10-04T05:41:53.577040+00:00",
+  "live_url": "https://ahimanikya.github.io/kabita-live/",
+  "site_checks": "Live flags and4 asset hashes PASS; Like count loads; comment form and empty public query load; consent/noindex preserved",
+  "moderation": {
+    "mode": "Owner approval in Firebase Console; dedicated editor dashboard remains deferred",
+    "console": "https://console.firebase.google.com/project/kabita-live/firestore/data",
+    "pending_collection": "commentSubmissions",
+    "public_collection": "publicComments",
+    "steps": [
+      "Review a pending comment. Do not publish personal/private details.",
+      "In publicComments create a document with the same ID, copying only poemId, name and message; add publishedAt as a timestamp. Mark the source submission status published.",
+      "Reject by leaving it out of publicComments and marking the source rejected.",
+      "Withdraw by deleting only the matching publicComments document and marking source rejected."
+    ],
+    "private_feedback_collection": "feedback",
+    "note": "Firebase Console owner writes use IAM. A future editor-claim application must atomically update source status and public display document under the deployed rules."
+  },
+  "limitations": [
+    "No separate staff moderation dashboard or staff accounts provisioned.",
+    "Anonymous UID cooldown is not global spam prevention; App Check remains unconfigured."
+  ]
 }

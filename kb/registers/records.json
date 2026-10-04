@@ -179,16 +179,15 @@
     {
       "id": "KBL-WORK-011",
       "title": "Provision dedicated GitHub, Firebase and Analytics services",
-      "status": "blocked",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-010",
-      "next_action": "Create Analytics after terms approval; complete live feedback tests and production-host configuration before enabling client integration.",
-      "blockers": [
-        "Separate GA terms approval pending"
-      ],
+      "next_action": "Firebase feedback, Likes and moderated comments are live and verified. Owner reviews comments in Firebase Console. Dedicated editor inbox, reader accounts, cloud bookmarks and DNS remain deferred.",
+      "blockers": [],
       "evidence": [
-        "records/account-setup.json"
+        "records/account-setup.json",
+        "records/engagement-activation-2026-10-04.json"
       ]
     },
     {
@@ -397,6 +396,24 @@
       "refs": [],
       "evidence": [
         "records/editor-design-proposal.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-019",
+      "title": "Firebase activation, Likes and moderated public comments",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-039",
+      "next_action": "Firebase feedback, Likes and moderated comments are live and verified. Owner reviews comments in Firebase Console. Dedicated editor inbox, reader accounts, cloud bookmarks and DNS remain deferred.",
+      "blockers": [],
+      "refs": [
+        "KBL-WORK-011"
+      ],
+      "evidence": [
+        "records/reader-engagement-2026-10-02.json",
+        "records/reader-engagement-deployment-2026-10-02.json",
+        "records/engagement-activation-2026-10-04.json"
       ]
     }
   ],
@@ -948,6 +965,20 @@
       "scope": "Regenerate and source-review the thirteen retrospective shortlist candidates, retain only improvements, preserve originals and prior versions, commit and push scoped changes and deploy through the existing manual public-only Pages preview workflow. Nine source-review cases and existing holds excluded. No full-library regeneration, DNS or runtime-service changes. Temporary portrait-schedule hold prevents overlapping generation; restore afterward.",
       "evidence": [
         "records/selective-portrait-fixes-2026-10-03.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-039",
+      "title": "Activate Firebase and add Likes and public comments",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Can we activate firebase? And add like button? and add public comment?",
+      "scope": "Prepare and activate private feedback, reversible Likes and public comments on Kabita Live. Supersedes earlier no-public-comments scope. Moderation defaults to editor approval while optional preference is pending. Broader CLI OAuth access still requires explicit approval. No billing or DNS changes.",
+      "evidence": [
+        "records/reader-engagement-2026-10-02.json"
       ]
     }
   ],
