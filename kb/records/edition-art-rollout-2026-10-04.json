@@ -15,7 +15,7 @@
     "imagegen"
   ],
   "independent": false,
-  "next_action": "Resume edition17; publish the next three verified unpublished editions together. Editions18–47 are live.",
+  "next_action": "Resume edition14; publish the next three verified unpublished editions together. 30 editions are live.",
   "pilot_publication": {
     "status": "deployed_and_live_verified",
     "base_commit": "32fba99f22b2c568b5274454cbf4781367d6f2b5",
@@ -44,35 +44,30 @@
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 17,
+    "remaining_editions": 14,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 81,
+    "new_rollout_artworks": 90,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 30,
-    "estimated_remaining_artworks": 51
+    "estimated_remaining_artworks": 42
   },
-  "last_completed_batch": "edition-18",
+  "last_completed_batch": "edition-15",
   "handoff_note": "Synchronizing this completed edition checkpoint; preserve concurrent portrait files.",
   "current_publication": {
-    "id": "checkpoint-20-18",
-    "status": "deployed_and_live_verified",
+    "id": "checkpoint-17-15",
+    "status": "prepared",
     "editions": [
-      20,
-      19,
-      18
+      17,
+      16,
+      15
     ],
     "artworks": 9,
     "text_led": 9,
-    "base_commit": "023344ae32a31cbbad156e84eb3a97a8f2b5d437",
+    "base_commit": "2d8e77c5762c6b87790f3edbf070a54380f6e371",
     "release_checkout": "/private/tmp/kbl-selective-portraits-20261003",
-    "prepared_at": "2026-10-04T12:45:12.993332+00:00",
-    "commit": "c7e5773fa3d356d0741cf887538c3a31d2a02ff7",
-    "workflow_id": 37203658604,
-    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37203658604",
-    "verified_at": "2026-10-04T13:00:07.492554+00:00",
-    "verification": "research/edition-art-rollout-2026-10-04/checkpoint-20-18-live-verification.json"
+    "prepared_at": "2026-10-04T13:23:02.812494+00:00"
   },
   "last_handoff_verified_at": "2026-10-04T09:09:17.381245+00:00"
 }

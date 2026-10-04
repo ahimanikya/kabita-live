@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T13:05:20.597808+00:00",
+  "updated_at": "2026-10-04T13:21:51.591131+00:00",
   "status": "active",
   "active_batch": null,
-  "next_edition": 17,
+  "next_edition": 14,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
   "publication_checkpoint_editions": 3,
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 17,
+    "remaining_editions": 14,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 81,
+    "new_rollout_artworks": 90,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 30,
-    "estimated_remaining_artworks": 51
+    "estimated_remaining_artworks": 42
   },
   "editions": [
     {
@@ -1224,12 +1224,24 @@
         374,
         361
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "the-tide-returns-quietly",
+        "a-sky-in-fragments",
+        "shade-given-in-the-heat"
+      ],
+      "text_led": [
+        359,
+        360,
+        364
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-17/batch.json",
+      "direction": "March finds persistence through recurring water, a restricted piece of sky and a tree’s offered shade. A sparse tide-edge wash, angular attic drawing and broad warm canopy vary visual density and scale. The sacred encounter, the child’s testimony and the satire of chosen blindness remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T13:06:00.684202+00:00"
     },
     {
       "edition": 16,
@@ -1246,12 +1258,24 @@
         356,
         357
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "after-the-fair-noise",
+        "rain-in-an-unfamiliar-lane",
+        "small-twigs-at-evening"
+      ],
+      "text_led": [
+        349,
+        351,
+        354
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-16/batch.json",
+      "direction": "February holds solitude in three ordinary places: a peanut packet after the fair, an unfamiliar rain-wet lane, and small twigs gathered at evening. Soft pastel, architectural ink wash and sparse graphite vary texture and density. The antiwar address, elusive smile and named city landmarks remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T13:15:20.650008+00:00"
     },
     {
       "edition": 15,
@@ -1265,12 +1289,24 @@
         346,
         347
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "first-rain-on-dry-earth",
+        "the-river-held-in-a-bottle",
+        "above-the-dark-water"
+      ],
+      "text_led": [
+        340,
+        343,
+        347
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-15/batch.json",
+      "direction": "January moves through three kinds of contact with water: first rain on dry earth, a river reduced to a bottle, and a lotus rising from dark water. Close material study, a spare object-and-river composition and a low pond view give distinct emotional and visual scales. Ecological testimony, equity and the difficult turns of self-doubt remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T13:21:51.591131+00:00"
     },
     {
       "edition": 14,

@@ -1,0 +1,180 @@
+{
+  "edition": 16,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T13:09:06.611003+00:00",
+  "poems_read": [
+    342,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357
+  ],
+  "direction": "February holds solitude in three ordinary places: a peanut packet after the fair, an unfamiliar rain-wet lane, and small twigs gathered at evening. Soft pastel, architectural ink wash and sparse graphite vary texture and density. The antiwar address, elusive smile and named city landmarks remain text-led.",
+  "items": [
+    {
+      "id": "after-the-fair-noise",
+      "edition": 16,
+      "poem_id": 350,
+      "title": "After the fair noise",
+      "rationale": "The poem moves from the crowded Bali Jatra of life toward a lonely walk home with peanuts. A small packet at the quiet edge of the fair keeps that ordinary aftertaste without inventing the named speaker or beloved.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-16/after-the-fair-noise-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-16/poem-350.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-16/poem-350.json",
+      "poem_sha256": "32e82a9b1da0d1b85b165879ce0aec5df301d3ed9a8de4c9529e2690c23e1f13",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-16/after-the-fair-noise/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-16/after-the-fair-noise-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-afea82c5-68a6-485d-9596-bedc994cbffe.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-16/after-the-fair-noise/v1.png",
+          "sha256": "7cf161b7e9f7dfd734bd9fe27c8a6eef63735f773bac77456d410d886868aa88"
+        }
+      ],
+      "medium_label": "chalk pastel and gouache",
+      "independent": false,
+      "started_at": "2026-10-04T13:09:06.661628+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-afea82c5-68a6-485d-9596-bedc994cbffe.png",
+      "output_sha256": "7cf161b7e9f7dfd734bd9fe27c8a6eef63735f773bac77456d410d886868aa88",
+      "saved_at": "2026-10-04T13:10:03.759890+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T13:10:03.900755+00:00",
+        "outcome": "pass",
+        "notes": "PASS: quiet packet and partly occluded peanuts carry the ordinary lonely return. Paper rests convincingly on ledge, warm distant lamps do not illuminate everything, broad empty middle ground retains distance. Pastel texture is expressive medium rather than simulated photography; no readable signage or invented named person. More distant stalls than specified but no false location claim or material defect. independent:false."
+      },
+      "alt": "A brown paper packet of peanuts rests on a ledge beyond the evening fair lights.",
+      "public_asset": "assets/poem-art/editions/16/after-the-fair-noise-v1.webp",
+      "public_sha256": "5bf67a7326e2ef96f3591aaea1dee88d5c3754b3f125602e3646cf874205454b",
+      "previous_assignment": "quiet-path",
+      "integrated_at": "2026-10-04T13:13:30.526118+00:00"
+    },
+    {
+      "id": "rain-in-an-unfamiliar-lane",
+      "edition": 16,
+      "poem_id": 355,
+      "title": "Rain in an unfamiliar lane",
+      "rationale": "Alienation remains even when a city briefly touches the speaker. An unclaimed wet lane and cropped tall facades convey distance without fabricating a recognizable city or person.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-16/rain-in-an-unfamiliar-lane-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-16/poem-355.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-16/poem-355.json",
+      "poem_sha256": "ff2e7deac543008dcb3435560762b552ac9dcb6316d45d301a703fb06d7e556e",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-16/rain-in-an-unfamiliar-lane/v2.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-16/rain-in-an-unfamiliar-lane-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-3d649ce8-d274-4591-99d3-da280fc07146.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-16/rain-in-an-unfamiliar-lane/v1.png",
+          "sha256": "900faed37e0503fffa6d0f54401dd7a657280000802aeab41e4315ec74123f2f",
+          "rejection": {
+            "outcome": "correction_required",
+            "independent": false,
+            "notes": "Geometry and rain are coherent, but mottled peeling plaster covers almost every wall. Reduce decorative decay so alienation is carried by space, not an imperfection filter."
+          }
+        },
+        {
+          "version": 2,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-16/rain-in-an-unfamiliar-lane-correction-1-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-a23817c4-08ab-4743-9631-f084ce7682a7.png",
+          "input": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-16/rain-in-an-unfamiliar-lane/v1.png",
+          "input_sha256": "900faed37e0503fffa6d0f54401dd7a657280000802aeab41e4315ec74123f2f",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-16/rain-in-an-unfamiliar-lane/v2.png",
+          "sha256": "a4345a8c0baa1713a9742c07f3f32756a93eec0314590fe96cc2a49a8df188db"
+        }
+      ],
+      "medium_label": "ink and watercolor",
+      "independent": false,
+      "started_at": "2026-10-04T13:10:04.153969+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-3d649ce8-d274-4591-99d3-da280fc07146.png",
+      "output_sha256": "a4345a8c0baa1713a9742c07f3f32756a93eec0314590fe96cc2a49a8df188db",
+      "saved_at": "2026-10-04T13:11:06.043106+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T13:12:15.318282+00:00",
+        "outcome": "pass",
+        "notes": "PASS v2: calm maintained wall planes now carry ordinary unfamiliarity without picturesque decay; wet ground, broken reflections, winding lane and structural geometry preserved. Light is diffuse and credible, ink selective, no people or identifiable city claim. Specific v1 decorative-weathering defect resolved; both candidates retained. independent:false."
+      },
+      "correction_prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-16/rain-in-an-unfamiliar-lane-correction-1-prompt.txt",
+      "correction_tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-a23817c4-08ab-4743-9631-f084ce7682a7.png",
+      "alt": "A narrow empty lane curves between plain walls after rain.",
+      "public_asset": "assets/poem-art/editions/16/rain-in-an-unfamiliar-lane-v1.webp",
+      "public_sha256": "66d26fd81ce30e5af26b8cdd032c3e1a24b922943c9009869ad46d0d54d8cd0c",
+      "previous_assignment": "courtyard-petals",
+      "integrated_at": "2026-10-04T13:13:30.526118+00:00"
+    },
+    {
+      "id": "small-twigs-at-evening",
+      "edition": 16,
+      "poem_id": 357,
+      "title": "Small twigs at evening",
+      "rationale": "The poem ends by picking twigs of hope after an extended inward struggle. Keep hope modest in a loose gathering of twigs, neither a triumphal flowering branch nor a decorative crown.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-16/small-twigs-at-evening-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-16/poem-357.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-16/poem-357.json",
+      "poem_sha256": "7b5ed304a40a96d58ff9f8297ab490dda9fafd4807b922adfc8d3da64f2f1dae",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-16/small-twigs-at-evening/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-16/small-twigs-at-evening-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-fe723e0f-f8ff-45fd-9fa2-66364507cfce.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-16/small-twigs-at-evening/v1.png",
+          "sha256": "1079996f499f4563666d8c65f1c1bc42756cd932d8aae5e371a520efbae7860c"
+        }
+      ],
+      "medium_label": "graphite and watercolor",
+      "independent": false,
+      "started_at": "2026-10-04T13:12:15.355428+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-fe723e0f-f8ff-45fd-9fa2-66364507cfce.png",
+      "output_sha256": "1079996f499f4563666d8c65f1c1bc42756cd932d8aae5e371a520efbae7860c",
+      "saved_at": "2026-10-04T13:13:30.350557+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T13:13:30.420162+00:00",
+        "outcome": "pass",
+        "notes": "PASS: three unequal twigs, one remaining leaf and broad quiet evening field convey modest hope. Intersections and contact shadows are coherent, wood tapers and breaks plausibly, restrained graphite/wash medium retained. Selective detail stays in the twigs with no decorative floral promise or invented person. independent:false."
+      },
+      "alt": "Three unequal twigs and one remaining leaf lie on a pale sill in evening light.",
+      "public_asset": "assets/poem-art/editions/16/small-twigs-at-evening-v1.webp",
+      "public_sha256": "ef23d985314e1eae03ec308c0e876f6176588fdb69133e8c3c8afe171d5b3a9e",
+      "previous_assignment": "next-issue",
+      "integrated_at": "2026-10-04T13:13:30.526118+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 349,
+      "rationale": "The antiwar address depends on its forceful argument; avoid fabricated civilian suffering or a literal demon.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 351,
+      "rationale": "The shifting meaning of a smile should remain unresolved in words, without inventing a smiling person.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 354,
+      "rationale": "A named Hyderabad hill and its monuments need factual visual research beyond this interior-art scope; retain the poem as a text-led journey without invented landmark geography.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T13:15:20.650008+00:00",
+  "completed_at": "2026-10-04T13:15:20.650008+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-16.png and mobile-16.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}
