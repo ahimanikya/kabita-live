@@ -15,7 +15,7 @@
     "imagegen"
   ],
   "independent": false,
-  "next_action": "Resume edition32; publish the next three verified unpublished editions together. 12 editions are live.",
+  "next_action": "Resume edition32; publish the next three verified unpublished editions together. Editions33–47 are live.",
   "pilot_publication": {
     "status": "deployed_and_live_verified",
     "base_commit": "32fba99f22b2c568b5274454cbf4781367d6f2b5",
@@ -49,15 +49,15 @@
     "new_rollout_artworks": 36,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 12,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 15,
     "estimated_remaining_artworks": 96
   },
   "last_completed_batch": "edition-33",
   "handoff_note": "Synchronizing this completed edition checkpoint; preserve concurrent portrait files.",
   "current_publication": {
     "id": "checkpoint-35-33",
-    "status": "prepared",
+    "status": "deployed_and_live_verified",
     "editions": [
       35,
       34,
@@ -67,7 +67,12 @@
     "text_led": 9,
     "base_commit": "938bc4baf51d88dd64c5366e795b760495204873",
     "release_checkout": "/private/tmp/kbl-selective-portraits-20261003",
-    "prepared_at": "2026-10-04T09:57:59.831993+00:00"
+    "prepared_at": "2026-10-04T09:57:59.831993+00:00",
+    "commit": "3c904a6ce09746fd45d149355c9768416916c28e",
+    "workflow_id": 37194128539,
+    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37194128539",
+    "verified_at": "2026-10-04T10:08:17.253581+00:00",
+    "verification": "research/edition-art-rollout-2026-10-04/checkpoint-35-33-live-verification.json"
   },
   "last_handoff_verified_at": "2026-10-04T09:09:17.381245+00:00",
   "handoff_concurrent_source_change": {

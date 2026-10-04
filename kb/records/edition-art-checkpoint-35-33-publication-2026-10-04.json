@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-10-04T10:10:09.009291+00:00",
+  "status": "deployed_and_live_verified",
+  "decision_ref": "KBL-DEC-046",
+  "work_ref": "KBL-WORK-022",
+  "editions": [
+    35,
+    34,
+    33
+  ],
+  "artworks": 9,
+  "text_led": 9,
+  "commit": "3c904a6ce09746fd45d149355c9768416916c28e",
+  "workflow_id": 37194128539,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37194128539",
+  "url": "https://ahimanikya.github.io/kabita-live/",
+  "checks": {
+    "local": "PASS3207 protected files including published portraits;781 unrelated pages unchanged;799 readers and payloads;28 app tests;10 rules tests in successful CI",
+    "live": "PASS9 exact asset hashes;18 poem pages; active Firebase/Likes/comments/GA4 and noindex",
+    "visual": "Desktop/mobile self-review for all3 editions; live poem587 image and loaded Like0/comments region verified without submitting engagement"
+  },
+  "evidence": "research/edition-art-rollout-2026-10-04/checkpoint-35-33-live-verification.json",
+  "independent": false
+}

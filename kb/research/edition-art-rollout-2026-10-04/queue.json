@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T09:57:08.380002+00:00",
+  "updated_at": "2026-10-04T10:10:09.009291+00:00",
   "status": "active",
   "active_batch": null,
   "next_edition": 32,
@@ -16,8 +16,8 @@
     "new_rollout_artworks": 36,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 12,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 15,
     "estimated_remaining_artworks": 96
   },
   "editions": [
@@ -507,7 +507,7 @@
         633,
         635
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "pearls-kept-in-a-box",
@@ -524,7 +524,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-35/batch.json",
       "direction": "What is kept and whom we care for: inexpensive beads saved as memory, an artist’s ordinary kindness to a dog, and paired door leaves holding a remembered village. Small still life, cropped human scene and architectural space vary distance and density. New literary interpretations, not historical or documentary claims.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T09:29:31.093811+00:00"
+      "verified_at": "2026-10-04T09:29:31.093811+00:00",
+      "publication_commit": "3c904a6ce09746fd45d149355c9768416916c28e",
+      "publication_workflow": 37194128539
     },
     {
       "edition": 34,
@@ -550,7 +552,7 @@
         608,
         610
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "balcony-with-drying-sari",
@@ -567,7 +569,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-34/batch.json",
       "direction": "Ways of making room: a bounded apartment balcony, the space old friends open for one another, and water taking a burden onward. Architectural graphite, small-figure gouache and a close ink wash vary human distance, density and medium. Witness and direct social argument remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T09:49:41.741352+00:00"
+      "verified_at": "2026-10-04T09:49:41.741352+00:00",
+      "publication_commit": "3c904a6ce09746fd45d149355c9768416916c28e",
+      "publication_workflow": 37194128539
     },
     {
       "edition": 33,
@@ -593,7 +597,7 @@
         582,
         585
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "stone-that-listens",
@@ -610,7 +614,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-33/batch.json",
       "direction": "Held time and returning movement: stone pillars keep unheard histories, an empty village swing waits for grandchildren, and paper boats make monsoon rain playful. A charcoal architectural fragment, spacious watercolor and close gouache action shift visual weight and scale. Witness and layered memories remain text-led.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T09:57:08.380002+00:00"
+      "verified_at": "2026-10-04T09:57:08.380002+00:00",
+      "publication_commit": "3c904a6ce09746fd45d149355c9768416916c28e",
+      "publication_workflow": 37194128539
     },
     {
       "edition": 32,

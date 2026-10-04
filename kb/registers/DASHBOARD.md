@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3acad72723423242f856ce9224f534ce5eccab68048072a81f8840cc95f88397`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `accc9c04eb39efb3b85e1bfb1bb8c3db7eb75cac3354edc6cf8acab4087919c1`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -33,7 +33,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-WORK-018 · Prepare editor design proposal and heads-up | completed | applied | Ahimanikya Satapathy | User shares proposal and heads-up; gather editor feedback before website walkthrough. | — |
 | KBL-WORK-019 · Firebase activation, Likes and moderated public comments | completed | applied | Ahimanikya Satapathy | Firebase feedback, Likes and moderated comments are live and verified. Owner reviews comments in Firebase Console. Dedicated editor inbox, reader accounts, cloud bookmarks and DNS remain deferred. | — |
 | KBL-WORK-021 · Edition-specific interior artwork pilot | completed | applied | Ahimanikya Satapathy | Pilot published and live verified at11ebcb6; all-edition expansion continues underKBL-WORK-022. | — |
-| KBL-WORK-022 · Edition-specific art across all47editions and verified publication | in_progress | draft | Ahimanikya Satapathy | Publish pilot from a clean release checkout based on latest main; read edition44 and begin its batch. | — |
+| KBL-WORK-022 · Edition-specific art across all47editions and verified publication | in_progress | draft | Ahimanikya Satapathy | Continue edition32, then31 and30; publish the next verified three-edition checkpoint. Editions33–47 are live. Heartbeat remains active. | — |
 
 ## Pending human review and decisions
 
@@ -165,7 +165,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-472 | 2026-10-04T08:44:50.205304+00:00 | Published and live-verified editions41/40/39:9 new poem-informed Human Natural / Poetic Natural illustrations and9 text-led openings. Total27 edition illustrations now live across9 editions. All9 exact asset hashes and18 pages pass; active engagement, consent/noindex settings, historical covers, poetry and remote portraits preserved. Desktop/mobile evidence and exact prompts retained; independent:false. | Resume edition38; publish the next three verified unpublished editions together. Editions39–47 are live. |
 | KBL-EVT-473 | 2026-10-04T08:54:21.279134+00:00 | Final portrait queue processed and verified:416 artistic portraits,8 likeness holds retaining photos,3 labelled generic placeholders with missing-source records open. Imported35 review decisions applied:23 selected candidates and10 successful retries;2 retry holds retained. No independent author confirmation claimed. | Verify scoped release, deploy manual public preview and check live assets. |
 | KBL-EVT-474 | 2026-10-04T09:15:09.848424+00:00 | Final portrait rollout published at commitc7ad977 through successful manual Pages workflow37191215799. Live checks passed for427 profile pages and1245 asset hashes.416 artistic portraits,8 likeness holds retaining originals,3 labelled generic artworks with source holds open. Imported35 decisions applied; independent author/editor review pending. Existing edition art, active services, consent and noindex preserved. | Pause completed portrait automation; resolve held likenesses only with further review or better identified sources. |
 | KBL-EVT-475 | 2026-10-04T09:14:03.963445+00:00 | Prepared authorized editions38/37/36 checkpoint:9 Human Natural / Poetic Natural interior artworks and9 text-led poem openings. All49 poems read before planning; full snapshots, exact prompts, masters/hashes and desktop/mobile self-review retained. Latest remote portraits, active Firebase engagement, analytics consent, historical covers and poetry preserved. | Build, validate, push and publish through the manual preview workflow; verify live hashes. |
@@ -175,6 +174,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-501 | 2026-10-04T09:38:10.955117+00:00 | Published approved poem ending refinements at48934b0e via successful manual Pages workflow37192467335. Three original botanical closing marks, stable per-poem assignment, final-line grouping, neighbouring navigation titles, compact spacing and quieter footer verified live. All799reader poems present; five sample pages and nine assets/payloads match. Published portraits/art, runtime, consent and noindex retained. | Publication complete; continue future changes from current approved state. |
 | KBL-EVT-502 | 2026-10-04T09:44:02.737446+00:00 | Eight remaining likeness candidates accepted by Ahimanikya are published and live verified: six Candidate2 artworks and the two existing retries.424 artistic portraits,0 active likeness holds,3 labelled generic placeholders with source-photo records open. All8 hosted profiles and24 asset hashes passed; commitd86bb1bf, manual Pages workflow37192800491 succeeded. Concurrent artwork and poem-ending releases preserved; portrait automation stays paused. | No further portrait generation; preserve source-photo holds for233,258,416 and review provenance. |
 | KBL-EVT-503 | 2026-10-04T09:57:59.831993+00:00 | Prepared authorized editions35/34/33 checkpoint:9 Human Natural / Poetic Natural interior artworks and9 text-led poem openings. All65 poems read before planning; full snapshots, exact prompts, masters/hashes and desktop/mobile self-review retained. Latest remote portraits, active Firebase engagement, analytics consent, historical covers and poetry preserved. | Build, validate, push and publish through the manual preview workflow; verify live hashes. |
+| KBL-EVT-504 | 2026-10-04T10:10:09.009291+00:00 | Published and live-verified editions35/34/33:9 new poem-informed Human Natural / Poetic Natural illustrations and9 text-led openings. Total45 edition illustrations now live across15 editions. All9 exact asset hashes and18 pages pass; active engagement, consent/noindex settings, historical covers, poetry and remote portraits preserved. Desktop/mobile evidence and exact prompts retained; independent:false. | Resume edition32; publish the next three verified unpublished editions together. Editions33–47 are live. |
 
 ## Deferred extensions
 
