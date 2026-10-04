@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f1e18556479a41983bfe48ea53d9109a3cd109a26d503c87037911914d11baf9`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `120222a0ecd13af1df312e600213e0edb25fa5eb38f5fa8eeb8f519ff9f5abbf`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -165,7 +165,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-520 | 2026-10-04T14:40:01.722669+00:00 | Published and live-verified editions11/10/9:9 new poem-informed Human Natural / Poetic Natural illustrations and9 text-led openings. Total117 edition illustrations now live across39 editions. All9 exact asset hashes and18 pages pass; active engagement, consent/noindex settings, historical covers, poetry and remote portraits preserved. Desktop/mobile evidence and exact prompts retained; independent:false. | Resume edition8; publish the next three verified unpublished editions together. Editions9–47 are live. |
 | KBL-EVT-521 | 2026-10-04T15:06:46.030642+00:00 | Prepared authorized editions8/7/6 checkpoint:8 Human Natural / Poetic Natural interior artworks and9 text-led poem openings. All61 poems read before planning; full snapshots, exact prompts, masters/hashes and desktop/mobile self-review retained. Latest remote portraits, active Firebase engagement, analytics consent, historical covers and poetry preserved. | Build, validate, push and publish through the manual preview workflow; verify live hashes. |
 | KBL-EVT-522 | 2026-10-04T15:15:29.550595+00:00 | Published and live-verified editions8/7/6:8 new poem-informed Human Natural / Poetic Natural illustrations and9 text-led openings. Total125 edition illustrations now live across42 editions. All8 exact asset hashes and17 pages pass; active engagement, consent/noindex settings, historical covers, poetry and remote portraits preserved. One block-tower artwork held for inconsistent geometry after two corrections; existing poem art preserved. Desktop/mobile evidence and exact prompts retained; independent:false. | Resume edition5; publish the next three verified unpublished editions together. Editions6–47 are live. |
 | KBL-EVT-523 | 2026-10-04T15:39:01.574851+00:00 | Prepared authorized editions5/4/3 checkpoint:9 Human Natural / Poetic Natural interior artworks and9 text-led poem openings. All106 poems read before planning; full snapshots, exact prompts, masters/hashes and desktop/mobile self-review retained. Latest remote portraits, active Firebase engagement, analytics consent, historical covers and poetry preserved. | Build, validate, push and publish through the manual preview workflow; verify live hashes. |
@@ -175,6 +174,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-527 | 2026-10-04T16:10:33.747939+00:00 | Completed all47-edition artwork rollout:140 accepted illustrations and139 text-led openings published and verified.157 candidate masters retained with exact prompts, poem snapshots and hashes. One edition6 block-tower image is held after two corrections; existing poem art preserved. Final publication and provenance audit pass; independent:false. Heartbeat ready to pause after final handoff synchronization. | Synchronize handoff and pause the completed artwork heartbeat. |
 | KBL-EVT-559 | 2026-10-04T17:48:03.245464+00:00 | Published approved mastheadB on all47edition covers, homepage cards and archive/year routes. Exact47live artwork hashes, CSS and runtime checks pass;28application and10Firestore tests pass. Original artwork, portraits, interior illustrations, active services, consent, noindex and DNS preserved. Edition16reference hold remains. | Publication complete; no further cover rollout pending. |
 | KBL-EVT-562 | 2026-10-04T20:46:48.799162+00:00 | Published the five approved website refinements: four homepage views, mobile footer boat removal, cleaner poem endings, Human Natural practical-page refinements and artwork for poems724/786. All799 response regions and47covers preserved. Workflow and exact live asset/page checks passed; website mastheadA retained. | Publication complete; existing editorial/artwork holds remain separate. |
+| KBL-EVT-563 | 2026-10-04T21:04:39.651891+00:00 | Removed Artwork & sources and Another view from the homepage. Quiet per-tab image selection and short caption retained; central credits preserved. Published d3b276a0, verified exact live files and360px layout. Recorded user preference against decorative UI clutter. | Complete. |
 
 ## Deferred extensions
 

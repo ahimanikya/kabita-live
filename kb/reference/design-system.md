@@ -514,3 +514,8 @@ Use one small botanical mark beneath the final stanza: single leaf most often, w
 After the closing mark, place Previous/Next within the poem reading column, with the neighbouring title beneath each small direction label. Keep the curved arrows,48px minimum targets, source-script fonts and wrapping titles. Closing marks now use24×18px at.82opacity with18px top/10px bottom margins; quiet-reader margins16px/10px remain measured with the last line. On poem pages, use12px ownership text and14px footer destination labels; preserve the approved boat and paper. Approval: `kb/records/poem-ending-refinement-2026-10-04.json`.
 
 On phones, keep the ending navigation directly after verse and before companion artwork; preserve existing art-before openings.
+
+
+## Homepage restraint · 4 October 2026
+
+User direction: remove the homepage “Artwork & sources” link and “Another view” control; avoid clutter around decorative imagery. The homepage keeps a single artwork and its short caption, selected automatically per tab visit. Keep artwork provenance in the Our Story colophon and KB. Add reader-facing controls only when they support a meaningful reading task; do not expose supporting design/provenance controls alongside decorative artwork by default.
