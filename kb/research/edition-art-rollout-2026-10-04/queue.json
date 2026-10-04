@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T11:55:07.526439+00:00",
+  "updated_at": "2026-10-04T12:09:35.140725+00:00",
   "status": "active",
   "active_batch": null,
-  "next_edition": 23,
+  "next_edition": 20,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
   "publication_checkpoint_editions": 3,
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 23,
+    "remaining_editions": 20,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 63,
+    "new_rollout_artworks": 72,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 24,
-    "estimated_remaining_artworks": 69
+    "estimated_remaining_artworks": 60
   },
   "editions": [
     {
@@ -974,12 +974,24 @@
         459,
         461
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "yesterday-left-on-the-chair",
+        "paper-kept-for-a-poem",
+        "faith-in-the-pathless-wood"
+      ],
+      "text_led": [
+        455,
+        459,
+        460
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-23/batch.json",
+      "direction": "September waits and moves: yesterday’s coat left on a chair, blank paper saved for poetry, and faith within a pathless wood. Warm pastel cloth, a spare graphite detail and cool overlapping forest planes vary scale and atmosphere. Personal grief and testimony stay text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T11:49:06.094111+00:00"
     },
     {
       "edition": 22,
@@ -998,12 +1010,24 @@
         451,
         453
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "rain-seen-again",
+        "gold-among-ordinary-leaves",
+        "mending-with-care"
+      ],
+      "text_led": [
+        444,
+        450,
+        453
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-22/batch.json",
+      "direction": "August finds renewal through attention: rain seen again, amaltas gold among ordinary leaves, and a garment repaired with care. A cool watery close view, bright botanical pastel and a quiet textile detail vary material and density. Maternal protest, historical witness and the critique of empty peace symbols stay text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T12:02:50.832614+00:00"
     },
     {
       "edition": 21,
@@ -1027,12 +1051,24 @@
         440,
         441
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "a-wall-becomes-sky",
+        "between-short-flights",
+        "the-line-now-quiet"
+      ],
+      "text_led": [
+        430,
+        436,
+        439
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-21/batch.json",
+      "direction": "July considers the space between confinement and connection: a wall imagined as sky, a fledgling between flights, and a telephone line now quiet. Architectural gouache, a light bird drawing and a cropped pastel object vary the scale and emotional register. Grief, hunger and hidden pain stay text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T12:09:35.140725+00:00"
     },
     {
       "edition": 20,

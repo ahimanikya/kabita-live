@@ -1,0 +1,163 @@
+{
+  "edition": 22,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T11:57:17.032421+00:00",
+  "poems_read": [
+    442,
+    443,
+    444,
+    445,
+    446,
+    447,
+    448,
+    449,
+    450,
+    451,
+    452,
+    453
+  ],
+  "direction": "August finds renewal through attention: rain seen again, amaltas gold among ordinary leaves, and a garment repaired with care. A cool watery close view, bright botanical pastel and a quiet textile detail vary material and density. Maternal protest, historical witness and the critique of empty peace symbols stay text-led.",
+  "items": [
+    {
+      "id": "rain-seen-again",
+      "edition": 22,
+      "poem_id": 442,
+      "title": "Rain seen again",
+      "rationale": "The speaker rediscovers childhood pleasure after dropping a piece of paper into rainwater. A modest sheet trembling in a shallow runnel preserves the changed way of seeing, without inventing children or a picturesque monsoon panorama.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-22/rain-seen-again-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-22/poem-442.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-22/poem-442.json",
+      "poem_sha256": "b66d1e87c414c7d5d47d92df94a3aa3939f223664ca1aea68aa1d0563f0584a2",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-22/rain-seen-again/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-22/rain-seen-again-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-c137ecff-e9e8-4fa3-95f8-2bd4b7791901.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-22/rain-seen-again/v1.png",
+          "sha256": "b0c5a4600e1df8d88572e319aa2b204680eb49fb050b6e51ec36ef751053a62c"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T11:57:17.081533+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-c137ecff-e9e8-4fa3-95f8-2bd4b7791901.png",
+      "output_sha256": "b0c5a4600e1df8d88572e319aa2b204680eb49fb050b6e51ec36ef751053a62c",
+      "saved_at": "2026-10-04T11:58:00.744521+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T11:58:00.787295+00:00",
+        "outcome": "pass",
+        "notes": "Pass at normal size: a plain buckled scrap rests at water level with a plausible damp corner and small wake; uneven paving and shallow flow are coherent. Cool watercolor preserves the rediscovered ordinary pleasure without invented children, boat or text. Stone detail is selective; open upper area remains quiet."
+      },
+      "alt": "A small blank scrap of paper floats in shallow rainwater beside uneven paving.",
+      "public_asset": "assets/poem-art/editions/22/rain-seen-again-v1.webp",
+      "public_sha256": "bfeed33675370994ac09379d4a3bd2348817f4373e61eda801021abf5d55b2e0",
+      "previous_assignment": "archive",
+      "integrated_at": "2026-10-04T11:59:56.570286+00:00"
+    },
+    {
+      "id": "gold-among-ordinary-leaves",
+      "edition": 22,
+      "poem_id": 446,
+      "title": "Gold among ordinary leaves",
+      "rationale": "Amaltas links present wonder to a remembered epic landscape. A close, living branch lets that continuity remain in the poem; it avoids inventing Ram, a hermitage or a documentary site.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-22/gold-among-ordinary-leaves-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-22/poem-446.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-22/poem-446.json",
+      "poem_sha256": "85204ab79d8a37c181b74cee30bd3ddbc5291dd59eb3684e5096117c6eb62f67",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-22/gold-among-ordinary-leaves/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-22/gold-among-ordinary-leaves-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-549fae54-d572-4b9c-9ed8-4ad1683439de.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-22/gold-among-ordinary-leaves/v1.png",
+          "sha256": "dfd28f0477e4b257c9746789027d513736b7e2431d5d827103c8e2eb619ea6b0"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T11:58:00.829682+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-549fae54-d572-4b9c-9ed8-4ad1683439de.png",
+      "output_sha256": "dfd28f0477e4b257c9746789027d513736b7e2431d5d827103c8e2eb619ea6b0",
+      "saved_at": "2026-10-04T11:58:59.723800+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T11:58:59.819938+00:00",
+        "outcome": "pass",
+        "notes": "Pass at normal size: hanging golden racemes and pinnate foliage read as amaltas, unequal lengths and overlapping leaves with continuous stalks. Selective petal highlights and matte shadow planes support the joy of flowering; no epic reconstruction or decorative symbols. Some florets merge as painted marks, appropriate to the medium rather than a botanical plate."
+      },
+      "alt": "Unequal yellow amaltas flower clusters hang among green leaves on a cropped branch.",
+      "public_asset": "assets/poem-art/editions/22/gold-among-ordinary-leaves-v1.webp",
+      "public_sha256": "2e8f0290765adc93f743a63dec9e94b3c2e9f6f53029fa780c023ecd35f1e5a1",
+      "previous_assignment": "courtyard-petals",
+      "integrated_at": "2026-10-04T11:59:56.570286+00:00"
+    },
+    {
+      "id": "mending-with-care",
+      "edition": 22,
+      "poem_id": 448,
+      "title": "Mending with care",
+      "rationale": "The poem imagines age as a garment to be washed gently and stitched with love. A small repair underway expresses care and acceptance without a literal aging body or an ornamental nirvana scene.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-22/mending-with-care-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-22/poem-448.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-22/poem-448.json",
+      "poem_sha256": "f759c26eddd873f0d373035e9b1bfff84bf07da44ca261c5093e121c10cc2c8a",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-22/mending-with-care/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-22/mending-with-care-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2f0ddfac-a2ab-4379-8d15-2dd642d57358.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-22/mending-with-care/v1.png",
+          "sha256": "2b0d2146a8dd73279f2c4c2a3f19324835a976563d8fb8671c6b0866b8cf4cb6"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T11:58:59.902923+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2f0ddfac-a2ab-4379-8d15-2dd642d57358.png",
+      "output_sha256": "2b0d2146a8dd73279f2c4c2a3f19324835a976563d8fb8671c6b0866b8cf4cb6",
+      "saved_at": "2026-10-04T11:59:56.446165+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T11:59:56.485830+00:00",
+        "outcome": "pass",
+        "notes": "Pass at normal size: cloth and patch share folds, two stitched edges support the repair and loose thread continues from the last stitch. Soft contact shadow under lifted edge, no impossible needle or decorative trauma. Weave is more resolved than requested but remains subordinate to the simple repair and quiet upper area; care and unfinished work remain the anchor."
+      },
+      "alt": "A lighter cotton patch is partly stitched onto loosely folded indigo cloth.",
+      "public_asset": "assets/poem-art/editions/22/mending-with-care-v1.webp",
+      "public_sha256": "eaa9937ee34b0a3992d720292143a4f652456a01f174cdf8af3c7c37c742a4a6",
+      "previous_assignment": "sea-breeze-cloth",
+      "integrated_at": "2026-10-04T11:59:56.570286+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 444,
+      "rationale": "The maternal address confronts misogyny and violence. Preserve its direct voice without an invented mother and child or a sentimental domestic illustration.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 450,
+      "rationale": "The historical testimony names displacement and sexual violence. Do not fabricate a survivor, camp or documentary reconstruction; let the words and byline carry the witness.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 453,
+      "rationale": "The poem explicitly finds olive branches and doves insufficient. A text-led opening respects that critique rather than repeating the symbols it questions.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T12:02:50.832614+00:00",
+  "completed_at": "2026-10-04T12:02:50.832614+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-22.png and mobile-22.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

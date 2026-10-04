@@ -1,0 +1,168 @@
+{
+  "edition": 21,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T12:04:12.764917+00:00",
+  "poems_read": [
+    425,
+    426,
+    427,
+    428,
+    429,
+    430,
+    431,
+    432,
+    433,
+    434,
+    435,
+    436,
+    437,
+    438,
+    439,
+    440,
+    441
+  ],
+  "direction": "July considers the space between confinement and connection: a wall imagined as sky, a fledgling between flights, and a telephone line now quiet. Architectural gouache, a light bird drawing and a cropped pastel object vary the scale and emotional register. Grief, hunger and hidden pain stay text-led.",
+  "items": [
+    {
+      "id": "a-wall-becomes-sky",
+      "edition": 21,
+      "poem_id": 429,
+      "title": "A wall becomes sky",
+      "rationale": "The speaker once shared a view with the sky; a neighboring wall now blocks it, and imagination turns that wall into sky. Preserve the ordinary obstruction and leave imagined figures in the words.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-21/a-wall-becomes-sky-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-21/poem-429.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-21/poem-429.json",
+      "poem_sha256": "9a1d14d26bbc1a498abd563998fccbdf04fbc4f332eb968defe246e620e5ec8f",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-21/a-wall-becomes-sky/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-21/a-wall-becomes-sky-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-b875dc73-e2ce-4710-8730-1285a5cdce08.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-21/a-wall-becomes-sky/v1.png",
+          "sha256": "ca5666869ee490425341a384dba35b94e4819c966fa225ceba7746dd283c04df"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T12:04:12.816341+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-b875dc73-e2ce-4710-8730-1285a5cdce08.png",
+      "output_sha256": "ca5666869ee490425341a384dba35b94e4819c966fa225ceba7746dd283c04df",
+      "saved_at": "2026-10-04T12:05:16.517281+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T12:05:16.570658+00:00",
+        "outcome": "pass",
+        "notes": "Pass at normal size: adjacent plaster wall blocks most of a credible window view; low bed corner and thick reveal establish the speaker position without a person. The sky strip is wider than requested but subordinate to the wall, preserving obstruction and imagination. Coherent daylight, no invented constellations or faces, matte gouache and ordinary plaster variation."
+      },
+      "alt": "A nearby plaster wall blocks most of a window view above a corner of a bed.",
+      "public_asset": "assets/poem-art/editions/21/a-wall-becomes-sky-v1.webp",
+      "public_sha256": "b9dea697d202349d3b7bac22931e12571e0c7f6e0cd3add4ab62e560ec7584d2",
+      "previous_assignment": "search",
+      "integrated_at": "2026-10-04T12:07:54.769095+00:00"
+    },
+    {
+      "id": "between-short-flights",
+      "edition": 21,
+      "poem_id": 434,
+      "title": "Between short flights",
+      "rationale": "The poem follows a young bird from tentative flights to independent nesting. An unheroic pause on a branch carries the mixture of fatigue, freedom and parental apprehension without showing a triumphant symbolic eagle.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-21/between-short-flights-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-21/poem-434.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-21/poem-434.json",
+      "poem_sha256": "3aeb11dec735267100060c30d5c1093e8ab59cdc4f95ef0ff66172364e0ed8b3",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-21/between-short-flights/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-21/between-short-flights-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-dfebb26d-c36a-4b33-862c-6d60ab6f5429.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-21/between-short-flights/v1.png",
+          "sha256": "edfc7a829d0242d8b01ebd320891516a3d83dff42c5686f7cf3c4aa4201f95c8"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T12:05:16.633957+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-dfebb26d-c36a-4b33-862c-6d60ab6f5429.png",
+      "output_sha256": "edfc7a829d0242d8b01ebd320891516a3d83dff42c5686f7cf3c4aa4201f95c8",
+      "saved_at": "2026-10-04T12:06:30.167185+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T12:06:30.215417+00:00",
+        "outcome": "pass",
+        "notes": "Pass at normal size: small fledgling rests with folded wings, two feet anchored on a continuous branch, short tail and plausible beak profile. Bird detail is stronger than the loose prompt but isolated against quiet washed foliage and open air; no heroic pose or anthropomorphic expression. The pause before independence remains clear."
+      },
+      "alt": "A small brown fledgling rests on a branch, facing pale open space.",
+      "public_asset": "assets/poem-art/editions/21/between-short-flights-v1.webp",
+      "public_sha256": "a18f306394ebfaf6744aab5c88b5d294b0666e3dc2e60b3becf6eab3c921240e",
+      "previous_assignment": "search",
+      "integrated_at": "2026-10-04T12:07:54.769095+00:00"
+    },
+    {
+      "id": "the-line-now-quiet",
+      "edition": 21,
+      "poem_id": 435,
+      "title": "The line now quiet",
+      "rationale": "The poem moves from telephone conversations to a bond sustained beyond technology. A quiet receiver and relaxed cord suggest what no longer has to be said, without inventing a couple or literal birds nesting on cables.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-21/the-line-now-quiet-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-21/poem-435.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-21/poem-435.json",
+      "poem_sha256": "8292bd3dfb00a9edde07f7e889b46363d79b8e3366ae489e9a8a15c2d67bcb0a",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-21/the-line-now-quiet/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-21/the-line-now-quiet-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2c079e15-ef19-4ad4-a96d-d11ded54ccfb.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-21/the-line-now-quiet/v1.png",
+          "sha256": "fa723f6dbfea9814e785df57a296c2977ed8bd215ac88948f9dde4afc7e815fc"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T12:06:30.260196+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2c079e15-ef19-4ad4-a96d-d11ded54ccfb.png",
+      "output_sha256": "fa723f6dbfea9814e785df57a296c2977ed8bd215ac88948f9dde4afc7e815fc",
+      "saved_at": "2026-10-04T12:07:54.630243+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T12:07:54.676644+00:00",
+        "outcome": "pass",
+        "notes": "Pass at normal size: one receiver with connected curved handle rests on both ends; cord exits one end and opens toward the cropped edge. Contact shadows and subdued reflected highlights are coherent. Painted scuffs are somewhat pronounced but do not become damage or decorative decay; the quiet object and empty tabletop carry the unspoken bond. No text or invented couple."
+      },
+      "alt": "A dark telephone receiver and relaxed coiled cord rest on a plain table.",
+      "public_asset": "assets/poem-art/editions/21/the-line-now-quiet-v1.webp",
+      "public_sha256": "45d575852ca67208826c7d9e19ade88632d0e5f9e1e0d1e7b81107f755ef580b",
+      "previous_assignment": "quiet-path",
+      "integrated_at": "2026-10-04T12:07:54.769095+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 430,
+      "rationale": "The closing disclosure of the mother’s death changes the whole sequence of ordinary events. Preserve that reading discovery without an illustration announcing grief.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 436,
+      "rationale": "Hunger, ritual, earth and bodily dissolution remain a complex first-person argument. Avoid a fabricated starving person or a decorative religious scene.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 439,
+      "rationale": "The speaker explicitly challenges what observers think they can see. A text-led opening respects the unseen pain instead of inventing an injured body or misleading smile.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T12:09:35.140725+00:00",
+  "completed_at": "2026-10-04T12:09:35.140725+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-21.png and mobile-21.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}

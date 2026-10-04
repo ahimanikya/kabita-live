@@ -1,0 +1,165 @@
+{
+  "edition": 23,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T11:41:01.993634+00:00",
+  "poems_read": [
+    454,
+    455,
+    456,
+    457,
+    458,
+    459,
+    460,
+    461,
+    462,
+    463,
+    464
+  ],
+  "direction": "September waits and moves: yesterday’s coat left on a chair, blank paper saved for poetry, and faith within a pathless wood. Warm pastel cloth, a spare graphite detail and cool overlapping forest planes vary scale and atmosphere. Personal grief and testimony stay text-led.",
+  "items": [
+    {
+      "id": "yesterday-left-on-the-chair",
+      "edition": 23,
+      "poem_id": 454,
+      "title": "Yesterday left on the chair",
+      "rationale": "The poem steps into the present carrying echoes of the past. A worn outdoor coat left on a chair near morning light suggests a transition already beginning, without literal star maps, swallows or a heroic figure.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-23/yesterday-left-on-the-chair-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-23/poem-454.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-23/poem-454.json",
+      "poem_sha256": "5ed0701edb8083755b333f588e2dc36970205c72482ff663a985c927c8133a22",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-23/yesterday-left-on-the-chair/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-23/yesterday-left-on-the-chair-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-1a46da48-f9bd-40ea-ae1d-e2cb3bc95605.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-23/yesterday-left-on-the-chair/v1.png",
+          "sha256": "16a7476695c2c1c0148f754dba4eeb6c97753e4513e683c5a4a69047ea2a3c08"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T11:41:02.043144+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-1a46da48-f9bd-40ea-ae1d-e2cb3bc95605.png",
+      "output_sha256": "16a7476695c2c1c0148f754dba4eeb6c97753e4513e683c5a4a69047ea2a3c08",
+      "saved_at": "2026-10-04T11:42:28.720338+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T11:42:28.760486+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: soft coat folds compress over the chair back and hang with plausible weight; seams, cuffs and hem remain continuous. Chair posts, seat and lower rail connect coherently. Side daylight touches only the nearest cloth and floor while broad empty room space carries the sense of a new day. No invented person, excessive wear or collected dream symbols; matte pastel-gouache preserves an ordinary transition."
+      },
+      "alt": "A plain grey-blue coat hangs over a wooden chair beside quiet morning light.",
+      "medium_label": "Oil pastel and gouache",
+      "public_asset": "assets/poem-art/editions/23/yesterday-left-on-the-chair-v1.webp",
+      "public_sha256": "d036ca2aaf76403b77c53c43cd589e761d849d2e4707ecf053eb5239dda246ca",
+      "previous_assignment": "next-issue",
+      "integrated_at": "2026-10-04T11:47:10.502547+00:00"
+    },
+    {
+      "id": "paper-kept-for-a-poem",
+      "edition": 23,
+      "poem_id": 457,
+      "title": "Paper kept for a poem",
+      "rationale": "The speaker has kept a blank sheet in a pocket, waiting for poetry to return before the paper tears. A close drawing of the folded sheet and pocket preserves that fragile patience without showing an invented poet.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-23/paper-kept-for-a-poem-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-23/poem-457.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-23/poem-457.json",
+      "poem_sha256": "a6e97998dde64ac0c905fbdc7beec38248f685392b3f68659bd144e4be8611dc",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-23/paper-kept-for-a-poem/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-23/paper-kept-for-a-poem-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-29a23410-0d3e-4a9e-8ae9-e6cf1d796a90.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-23/paper-kept-for-a-poem/v1.png",
+          "sha256": "0a1370e2ad94d748da789b25e744eae0820c26520d384180c8a0408741921404"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T11:43:16.045252+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-29a23410-0d3e-4a9e-8ae9-e6cf1d796a90.png",
+      "output_sha256": "0a1370e2ad94d748da789b25e744eae0820c26520d384180c8a0408741921404",
+      "saved_at": "2026-10-04T11:44:45.473021+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T11:44:45.511003+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: a blank folded sheet sits inside a coherent stitched cotton pocket; crease and tiny dog-ear give restrained evidence of waiting, with no writing or contrived tears. Pocket opening and surrounding cloth folds behave plausibly. Graphite edges concentrate at paper and seams, leaving the right field quiet. No person is depicted; the poem’s saved possibility remains open."
+      },
+      "alt": "A blank folded sheet waits inside the stitched pocket of a pale cotton shirt.",
+      "medium_label": "Graphite and watercolour",
+      "public_asset": "assets/poem-art/editions/23/paper-kept-for-a-poem-v1.webp",
+      "public_sha256": "84308a1a846517c34899bf82bd65fc1175760582098edd52e2f2ada8cb0cdc28",
+      "previous_assignment": "editorial-desk",
+      "integrated_at": "2026-10-04T11:47:10.502547+00:00"
+    },
+    {
+      "id": "faith-in-the-pathless-wood",
+      "edition": 23,
+      "poem_id": 461,
+      "title": "Faith in the pathless wood",
+      "rationale": "The speaker is lost in deep woods yet keeps praying for light. An obstructed view through ordinary trees preserves uncertainty and faith without inventing Krishna, a luminous apparition or a completed rescue.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-23/faith-in-the-pathless-wood-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-23/poem-461.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-23/poem-461.json",
+      "poem_sha256": "6d232168b80eecc40bed1a773edf2e2aa6c5ebf2a4fa92df89145a6ebcd5ef3d",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-23/faith-in-the-pathless-wood/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-23/faith-in-the-pathless-wood-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-5e3f1438-bde4-482a-beaa-0a830f18c033.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-23/faith-in-the-pathless-wood/v1.png",
+          "sha256": "15b4e3a8535cda6db11d11e373304f1bb5ccbe78198e5a5ef7fccb6fb5a60e14"
+        }
+      ],
+      "independent": false,
+      "started_at": "2026-10-04T11:45:29.276465+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-5e3f1438-bde4-482a-beaa-0a830f18c033.png",
+      "output_sha256": "15b4e3a8535cda6db11d11e373304f1bb5ccbe78198e5a5ef7fccb6fb5a60e14",
+      "saved_at": "2026-10-04T11:47:10.377719+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T11:47:10.418668+00:00",
+        "outcome": "pass",
+        "notes": "Normal-size review passes: overlapping trunks and branches remain connected, ground roots give support, and distant foliage loses contrast. The small natural sky gap leaves the search unresolved; there is no luminous portal, deity or obvious rescue path. Dark cool planes remain readable rather than blackened, with selective gouache leaf shapes. Dense forest intentionally contrasts with this edition’s spare paper drawing."
+      },
+      "alt": "Unequal tree trunks and overlapping branches obscure the way through a wood at dusk.",
+      "medium_label": "Cool gouache",
+      "public_asset": "assets/poem-art/editions/23/faith-in-the-pathless-wood-v1.webp",
+      "public_sha256": "8e42d0d35422ec29d6c002e7b87190f75596bbdc4334e7fb0ce3b35b6d61bea8",
+      "previous_assignment": "quiet-path",
+      "integrated_at": "2026-10-04T11:47:10.502547+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 455,
+      "rationale": "The repeated testimony of violence against girls remains text-led, consistent with its December appearance; no fabricated victim or emergency scene.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 459,
+      "rationale": "This personal address to Jamie names a particular bond and anniversary. Let those words carry the memorial without an invented likeness or generic heaven imagery.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 460,
+      "rationale": "The intimate account of power, injury and longing should not be prettified as a romantic paper boat; retain the speaker’s complex voice in a text-led opening.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T11:49:06.094111+00:00",
+  "completed_at": "2026-10-04T11:49:06.094111+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3masters reviewed at normal size; desktop and360px illustrated/text-led pages visually inspected; desktop-23.png and mobile-23.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}
