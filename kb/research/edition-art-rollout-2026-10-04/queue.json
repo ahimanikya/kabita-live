@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T15:15:29.550595+00:00",
+  "updated_at": "2026-10-04T15:38:28.152085+00:00",
   "status": "active",
   "active_batch": null,
-  "next_edition": 5,
+  "next_edition": 2,
   "edition_batch_size": 1,
   "target_artworks_per_edition": 3,
   "publication_checkpoint_editions": 3,
   "counts": {
     "total_editions": 47,
     "pilot_complete": 3,
-    "remaining_editions": 5,
+    "remaining_editions": 2,
     "pilot_artworks": 9,
-    "new_rollout_artworks": 116,
+    "new_rollout_artworks": 125,
     "estimated_additional_artworks": 132,
     "held": 1,
-    "verified_local_unpublished_editions": 0,
+    "verified_local_unpublished_editions": 3,
     "published_editions": 42,
-    "estimated_remaining_artworks": 15
+    "estimated_remaining_artworks": 6
   },
   "editions": [
     {
@@ -1738,12 +1738,24 @@
         163,
         166
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "the-red-soap-dish",
+        "listening-under-the-leaves",
+        "petals-below-the-open-diary"
+      ],
+      "text_led": [
+        155,
+        159,
+        157
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-5/batch.json",
+      "direction": "March gives familiar things room to speak: a red soap dish that has outlasted fashion, leaves heard as song, and petals fallen from a diary. Gouache, charcoal wash and pastel vary material and viewpoint. Political conscience, women’s agency and ideological address remain text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T15:16:22.226401+00:00"
     },
     {
       "edition": 4,
@@ -1793,12 +1805,24 @@
         132,
         145
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "dinner-without-the-familiar-voice",
+        "between-the-earth-and-the-sky",
+        "water-ready-at-the-threshold"
+      ],
+      "text_led": [
+        107,
+        140,
+        120
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-4/batch.json",
+      "direction": "February moves between a meal altered by grief, a moment of lightness above clouds and water waiting for a friend. Gouache, pastel and transparent watercolor give each a different distance and mood. Non-arrival, imposed widowhood and a child’s poverty stay text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T15:27:18.667042+00:00"
     },
     {
       "edition": 3,
@@ -1850,12 +1874,24 @@
         88,
         89
       ],
-      "status": "pending_planning",
+      "status": "verified_local_pending_publication",
       "target_new_artworks": 3,
-      "artworks": [],
-      "text_led": [],
+      "artworks": [
+        "a-room-not-yet-lived-in",
+        "the-household-commentator",
+        "red-cloth-in-the-late-light"
+      ],
+      "text_led": [
+        89,
+        90,
+        78
+      ],
       "cover_policy": "Preserve the existing cover and its original narrative; never reuse it as another issue identity.",
-      "pilot_record": null
+      "pilot_record": null,
+      "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-3/batch.json",
+      "direction": "January brings provisional belonging, household humour and memory into a room being prepared, an attentive bird and a red sari in late light. Graphite, transparent watercolor and pastel vary the visual voice. Personal distress, exploitation and a call for simple poetry stay text-led.",
+      "next_artwork": null,
+      "verified_at": "2026-10-04T15:38:28.152085+00:00"
     },
     {
       "edition": 2,

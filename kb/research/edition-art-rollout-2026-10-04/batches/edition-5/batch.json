@@ -1,0 +1,172 @@
+{
+  "edition": 5,
+  "status": "verified_local_pending_publication",
+  "created_at": "2026-10-04T15:10:12.202692+00:00",
+  "poems_read": [
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166
+  ],
+  "direction": "March gives familiar things room to speak: a red soap dish that has outlasted fashion, leaves heard as song, and petals fallen from a diary. Gouache, charcoal wash and pastel vary material and viewpoint. Political conscience, women’s agency and ideological address remain text-led.",
+  "items": [
+    {
+      "id": "the-red-soap-dish",
+      "edition": 5,
+      "poem_id": 160,
+      "title": "The red soap dish",
+      "rationale": "The old red soap dish carries the grandfather’s gift and the speaker’s sense of not fitting into a changed world. Show the humble object in a contemporary washroom without turning it into a luxury product advertisement.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-5/the-red-soap-dish-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-05/poem-160.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-5/poem-160.json",
+      "poem_sha256": "7586346a50e44ae49d379b3acebbb078bb4c971555d6f90587344d45948a71fc",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-5/the-red-soap-dish/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-5/the-red-soap-dish-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2bea7ae9-3bf2-44a7-8134-f19970d51ae2.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-5/the-red-soap-dish/v1.png",
+          "sha256": "6f30ee3c8588d10c0deae0184f6c4bde347e182c2ec10e2259fc4455a128ab08"
+        }
+      ],
+      "medium_label": "gouache",
+      "independent": false,
+      "started_at": "2026-10-04T15:10:12.242811+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-2bea7ae9-3bf2-44a7-8134-f19970d51ae2.png",
+      "output_sha256": "6f30ee3c8588d10c0deae0184f6c4bde347e182c2ec10e2259fc4455a128ab08",
+      "saved_at": "2026-10-04T15:11:23.964795+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T15:11:23.998799+00:00",
+        "outcome": "pass",
+        "notes": "PASS: red plastic dish, rounded used soap and ordinary grey ledge have coherent perspective and contact; limited residue is explained by use. Distant cropped pump bottle provides changed context without a branded product display. Quiet grey space and restrained gouache serve attachment and mismatch; independent:false."
+      },
+      "alt": "A used cream soap bar in a red plastic dish on a grey washroom ledge.",
+      "public_asset": "assets/poem-art/editions/5/the-red-soap-dish-v1.webp",
+      "public_sha256": "2851091a972e47529b5930932c066200013eadfcb2b248a62175782589f72e98",
+      "previous_assignment": "pond-at-dawn",
+      "integrated_at": "2026-10-04T15:14:02.802301+00:00"
+    },
+    {
+      "id": "listening-under-the-leaves",
+      "edition": 5,
+      "poem_id": 150,
+      "title": "Listening under the leaves",
+      "rationale": "The poem imagines trees singing where the mechanical world hears nothing. A view from beneath an uneven canopy offers the reader the pause of listening without faces in trees or visible musical symbols.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-5/listening-under-the-leaves-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-05/poem-150.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-5/poem-150.json",
+      "poem_sha256": "00fafbe022750c8578cdde7e45f7da1407da5cd40832bcf8555b0302a944770f",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-5/listening-under-the-leaves/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-5/listening-under-the-leaves-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-7c89efa0-0bd8-4c16-81d3-53cd58c0876a.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-5/listening-under-the-leaves/v1.png",
+          "sha256": "0178dda2190787705a25de424ac557ee6a8f2234f8da0be462471c767d0bef00"
+        }
+      ],
+      "medium_label": "charcoal and watercolor",
+      "independent": false,
+      "started_at": "2026-10-04T15:11:24.028973+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-7c89efa0-0bd8-4c16-81d3-53cd58c0876a.png",
+      "output_sha256": "0178dda2190787705a25de424ac557ee6a8f2234f8da0be462471c767d0bef00",
+      "saved_at": "2026-10-04T15:12:47.598806+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T15:12:47.632654+00:00",
+        "outcome": "pass",
+        "notes": "PASS: branch taper and overlapping leaves form an uneven plausible canopy; selective charcoal contours alternate with merged watercolor foliage. Large irregular sky opening lets the reader pause, no musical symbols or invented human presence. Some clustered leaves are decorative but density and occlusion vary naturally; independent:false."
+      },
+      "alt": "An uneven green canopy and charcoal branches opening onto pale sky.",
+      "public_asset": "assets/poem-art/editions/5/listening-under-the-leaves-v1.webp",
+      "public_sha256": "d33cd904f47df332cf6f4eb538458d4518d20477342bf677d8cdf5eb7f5f305f",
+      "previous_assignment": "kendu-light",
+      "integrated_at": "2026-10-04T15:14:02.802301+00:00"
+    },
+    {
+      "id": "petals-below-the-open-diary",
+      "edition": 5,
+      "poem_id": 154,
+      "title": "Petals below the open diary",
+      "rationale": "The poem returns to dry petals slipping from diary pages. Frame the small aftermath at the edge of a table, letting absence remain unpictured and avoiding a fabricated face or decorative love letter.",
+      "status": "integrated_local",
+      "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-5/petals-below-the-open-diary-prompt.txt",
+      "poem_source": "projects/site/content/editions/issue-05/poem-154.json",
+      "poem_evidence": "kb/research/edition-art-rollout-2026-10-04/batches/edition-5/poem-154.json",
+      "poem_sha256": "c201fdde729a828fc63ce8dabdcc7ed793f2048d76fc76bb4956ac273e807a7d",
+      "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-5/petals-below-the-open-diary/v1.png",
+      "attempts": [
+        {
+          "version": 1,
+          "prompt": "kb/research/edition-art-rollout-2026-10-04/batches/edition-5/petals-below-the-open-diary-prompt.txt",
+          "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-5c1cb45d-b1ff-49bc-b1ec-417547fe7010.png",
+          "output": "kb/artifacts/artwork/edition-art-rollout-2026-10-04/edition-5/petals-below-the-open-diary/v1.png",
+          "sha256": "172417615a5ca193e747e662e1a22223e75cbbf25227a2079c6fe17c0a6be6d4"
+        }
+      ],
+      "medium_label": "dry pastel and pencil",
+      "independent": false,
+      "started_at": "2026-10-04T15:12:47.661122+00:00",
+      "tool_output": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-5c1cb45d-b1ff-49bc-b1ec-417547fe7010.png",
+      "output_sha256": "172417615a5ca193e747e662e1a22223e75cbbf25227a2079c6fe17c0a6be6d4",
+      "saved_at": "2026-10-04T15:14:02.702918+00:00",
+      "review": {
+        "independent": false,
+        "at": "2026-10-04T15:14:02.736261+00:00",
+        "outcome": "pass",
+        "notes": "PASS: diary binding, table edge, supporting leg and floor contact are coherent; curled dry petals have unequal spacing and one is occluded behind the leg. No invented photograph or readable diary text, quiet right floor keeps absence unpictured. Pastel/pencil material study is close and tactile rather than a decorated romantic flat lay; independent:false."
+      },
+      "alt": "Dry rose petals on the floor beneath an open diary at the edge of a wooden table.",
+      "public_asset": "assets/poem-art/editions/5/petals-below-the-open-diary-v1.webp",
+      "public_sha256": "fcf33fcefe4b53e621e493c0fd9c7975a1a74d5adb12997141fe34263e813fce",
+      "previous_assignment": "quiet-path",
+      "integrated_at": "2026-10-04T15:14:02.802301+00:00"
+    }
+  ],
+  "text_led": [
+    {
+      "poem_id": 155,
+      "rationale": "The poem’s political conscience, child murder and mortality remain in its language; avoid a montage of violence or invented documentary events.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 159,
+      "rationale": "The woman’s voice and agency carry this poem; retain a text-led opening without illustrating a generic silenced or angry woman.",
+      "status": "integrated_local"
+    },
+    {
+      "poem_id": 157,
+      "rationale": "The ideological and religious address remains text-led without visual endorsement, caricature or an invented national allegory.",
+      "status": "integrated_local"
+    }
+  ],
+  "independent": false,
+  "updated_at": "2026-10-04T15:16:22.226401+00:00",
+  "completed_at": "2026-10-04T15:16:22.226401+00:00",
+  "checks": {
+    "public_build": "PASS",
+    "source_cover_reader_integrity": "PASS1453protected files;833reader variants;799controls;17pilot entries unchanged",
+    "edition_integrity": "PASS",
+    "visual": "All3 candidates reviewed at normal size; 3 accepted, 0 held; desktop and360px illustrated/text-led pages visually inspected; desktop-5.png and mobile-5.png. Same-assistant review.",
+    "publication": "Awaiting authorized three-edition checkpoint"
+  }
+}
