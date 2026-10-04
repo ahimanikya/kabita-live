@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-04T06:53:59.990674+00:00",
-  "updated_at": "2026-10-04T08:31:03.009819+00:00",
+  "updated_at": "2026-10-04T08:44:50.205304+00:00",
   "status": "active",
   "active_batch": null,
   "next_edition": 38,
@@ -16,8 +16,8 @@
     "new_rollout_artworks": 18,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 6,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 9,
     "estimated_remaining_artworks": 114
   },
   "editions": [
@@ -244,7 +244,7 @@
         731,
         732
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "a-little-sky",
@@ -261,7 +261,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-41/batch.json",
       "direction": "Making room to notice: a narrow sky opening, the silence after a news bulletin, and overlooked field life. Distinct spatial scales and media support memory, political grief and attention. Preserve the existing bespoke date-gift illustration for724; do not assign the unlisted727 source. New interpretation, not a historical editorial theme.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T08:01:33.704534+00:00"
+      "verified_at": "2026-10-04T08:01:33.704534+00:00",
+      "publication_commit": "42d5c7c56b290734889f86e96fb598c8dd81421b",
+      "publication_workflow": 37189526418
     },
     {
       "edition": 40,
@@ -282,7 +284,7 @@
         718,
         719
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "kept-unopened",
@@ -299,7 +301,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-40/batch.json",
       "direction": "What is kept, what fades, what waits: an unopened everyday object, an eroding trace of labour and one light in a settled night. Three different distances, densities and emotional registers; interpretation for this rollout, not a historical editorial theme.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T08:18:29.656091+00:00"
+      "verified_at": "2026-10-04T08:18:29.656091+00:00",
+      "publication_commit": "42d5c7c56b290734889f86e96fb598c8dd81421b",
+      "publication_workflow": 37189526418
     },
     {
       "edition": 39,
@@ -323,7 +327,7 @@
         702,
         703
       ],
-      "status": "verified_local_pending_publication",
+      "status": "published_verified",
       "target_new_artworks": 3,
       "artworks": [
         "time-beneath-roots",
@@ -340,7 +344,9 @@
       "batch": "kb/research/edition-art-rollout-2026-10-04/batches/edition-39/batch.json",
       "direction": "Space beyond the self: living banyan shade, a courtyard’s small act of care, and the vulnerable edge of ice. Green density, warm open earth and pale cold planes vary the visual rhythm. Keep the unnamed object and direct arguments in the words. New interpretation, not a historical editorial theme.",
       "next_artwork": null,
-      "verified_at": "2026-10-04T08:31:03.009819+00:00"
+      "verified_at": "2026-10-04T08:31:03.009819+00:00",
+      "publication_commit": "42d5c7c56b290734889f86e96fb598c8dd81421b",
+      "publication_workflow": 37189526418
     },
     {
       "edition": 38,

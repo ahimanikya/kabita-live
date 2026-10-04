@@ -15,7 +15,7 @@
     "imagegen"
   ],
   "independent": false,
-  "next_action": "Publish verified41/40/39; then resume edition38. Editions42–47 are already live.",
+  "next_action": "Resume edition38; publish the next three verified unpublished editions together. Editions39–47 are live.",
   "pilot_publication": {
     "status": "deployed_and_live_verified",
     "base_commit": "32fba99f22b2c568b5274454cbf4781367d6f2b5",
@@ -49,15 +49,15 @@
     "new_rollout_artworks": 18,
     "estimated_additional_artworks": 132,
     "held": 0,
-    "verified_local_unpublished_editions": 3,
-    "published_editions": 6,
+    "verified_local_unpublished_editions": 0,
+    "published_editions": 9,
     "estimated_remaining_artworks": 114
   },
   "last_completed_batch": "edition-39",
   "handoff_note": "Sync after edition39 passed15961 entries. Storage check then detected concurrent source changes in portrait084 (writer377) and poem-end-mark review. Release uses an isolated latest-main checkout; repeat handoff sync after source activity settles, without overwriting divergent handoff edits.",
   "current_publication": {
     "id": "checkpoint-41-39",
-    "status": "prepared",
+    "status": "deployed_and_live_verified",
     "editions": [
       41,
       40,
@@ -67,6 +67,11 @@
     "text_led": 9,
     "base_commit": "93407be3a9e514fb69afec18da1780e96a2b242c",
     "release_checkout": "/private/tmp/kbl-selective-portraits-20261003",
-    "prepared_at": "2026-10-04T08:35:26.082966+00:00"
+    "prepared_at": "2026-10-04T08:35:26.082966+00:00",
+    "commit": "42d5c7c56b290734889f86e96fb598c8dd81421b",
+    "workflow_id": 37189526418,
+    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37189526418",
+    "verified_at": "2026-10-04T08:42:35.552248+00:00",
+    "verification": "research/edition-art-rollout-2026-10-04/checkpoint-41-39-live-verification.json"
   }
 }
