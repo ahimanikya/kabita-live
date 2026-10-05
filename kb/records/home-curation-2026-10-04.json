@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-10-05T02:51:10.497918+00:00",
+  "status": "publication_prepared",
+  "authorization": "I think we remove that does not look in the front page - can you review what we can keep and may add few more",
+  "scope": "Remove flower-in-palm homepage selection; curate existing set and add two source-based Poetic Natural watercolors. Local preview only.",
+  "executor": "Current assistant; Samanta curation and implementation, Drishti self-review",
+  "independent": false,
+  "kept": [
+    "courtyard",
+    "field"
+  ],
+  "reserved": [
+    "palm",
+    "tree"
+  ],
+  "added": [
+    "water",
+    "bridge"
+  ],
+  "rationale": {
+    "palm": "Intimate close-up and densely repeated florets dominate the homepage text; preserved for a future suitable story or poem.",
+    "tree": "Traffic, people and street objects compete for attention; retained for future editorial context, no automatic reassignment.",
+    "water": "Cool, open horizontal space offers a quieter mood than the warm field.",
+    "bridge": "An ordinary human route introduces purposeful perspective rather than another plant detail."
+  },
+  "diagnosis": [
+    "The palm flower has near-uniform floret definition and a disproportionately large focal object.",
+    "The street scene gives many objects similar detail and visual weight at homepage size.",
+    "New water art should avoid evenly etched ripples and overly dramatic clouds.",
+    "New bridge art should avoid mechanically decorated rails, sharpened distant trees and exaggerated earth tones."
+  ],
+  "images_record": "kb/research/home-curation-2026-10-04/images.json",
+  "preservation": "Existing originals, generated masters and assets retained. No poem-specific image reused for the homepage. Existing no-controls per-tab selection retained.",
+  "checks": {
+    "build": "PASS Node24 Astro/Pagefind",
+    "protected_files": "PASS 1463 poem-page and cover-asset hashes unchanged",
+    "public_assets": "PASS four active IDs and eight matching responsive files",
+    "browser_desktop": "PASS courtyard live preview and water deterministic layout; no art controls",
+    "browser_phone390": "PASS bridge deterministic layout, 350x233 image, no horizontal overflow",
+    "limitations": "Same-assistant visual review. Deterministic fixtures used to inspect specific artwork without changing browser storage. New artwork is interpretation, not documentary photography.",
+    "session_selection": "PASS isolated script check: removed palm/tree selections recover to an active view; all four active selections persist",
+    "bundle": "PASS",
+    "handoff": "Resync after final gallery screenshot and record updates; see tool verification"
+  },
+  "review_url": "http://127.0.0.1:8785/kb/artifacts/review/home-curation-2026-10-04/index.html",
+  "publication": "Authorized by user; release preparation in progress.",
+  "publication_authorization": "push to the site"
+}

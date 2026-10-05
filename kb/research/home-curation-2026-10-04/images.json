@@ -1,0 +1,50 @@
+[
+  {
+    "id": "water",
+    "source": "kb/artifacts/photography/odisha-2026-10-04/originals/08-d672f12c-f2d9-4035-8ad6-935b62a45232.jpg",
+    "source_sha256": "c93fe5b7395f257e778056df85faff33cde8bc14d52b924478e3c4ed78b7e74a",
+    "master": "kb/artifacts/artwork/home-curation-2026-10-04/water-v1.png",
+    "master_sha256": "3b098754acbbb70db3fd772ce3cd19173cca504905d72a4c980c8f07a4d00e29",
+    "returned_path": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-f2beff5a-41ec-448a-88de-d3c079ab893d.png",
+    "prompt": "Create a Poetic Natural watercolor interpretation of this photographer's Odisha water-and-hills scene for a literary magazine homepage. Preserve the source's calm emotional anchor, broad unoccupied water, uneven distant blue-grey hill silhouettes, dark wooded promontory at left, low ochre shore at right, and overcast diffused daylight. Adapt to a wide 3:2 composition without inventing landmarks. Transparent watercolor washes on warm ivory cotton paper, selective soft graphite-like definition only at the far shoreline, gentle irregular wet-on-wet edges. Let most ripples merge into broad quiet washes; clouds should stay simple and lightly suggested, with more open light paper than a dramatic sky. Muted blue-grey, soft sage and a little earth ochre. Do not add boats, birds, people, buildings, sunset, glowing light shafts, text, symbols, signature or watermark. Avoid evenly etched ripples, decorative grain, uniformly crisp edges and postcard saturation. Opaque warm paper background, not transparent. Output 1536x1024.\n",
+    "tool": "built-in image_gen",
+    "mode": "Human Natural / Poetic Natural watercolor",
+    "self_review": "Broad water, wooded left bank, low right shore and uneven hills retained. Clouds are more articulated and paper warmer than the photograph; accepted as a painted interpretation. Calm at homepage size, no invented figures or landmarks.",
+    "independent": false,
+    "status": "reviewed_local",
+    "derivatives": [
+      {
+        "path": "projects/site/assets/home/water-poetic-natural-v1.webp",
+        "sha256": "0d0eb3b9537a0ccb6bb7228956115294837aa830d8b7b288289308330bef0f2d"
+      },
+      {
+        "path": "projects/site/assets/home/water-poetic-natural-v1-768.webp",
+        "sha256": "6e0a1a47d596580e251b5c85607b22fbda205995b5406b3801c29f6eb2b8916b"
+      }
+    ]
+  },
+  {
+    "id": "bridge",
+    "source": "kb/artifacts/photography/odisha-2026-10-04/originals/61-9480ce9d-8466-437b-b8f7-80357c271c44.jpg",
+    "source_sha256": "d831d63244f44e6cf2b10b1e597b6dd044b96fa472f48cd6ccb165d4c54ef23e",
+    "master": "kb/artifacts/artwork/home-curation-2026-10-04/bridge-v1.png",
+    "master_sha256": "29e678f81530328491668bf4de57d91763eeb5781f823a2611823844d08bdba7",
+    "returned_path": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-eb9b5c17-0369-432c-a3b6-b82c417b6d72.png",
+    "prompt": "Make a Poetic Natural watercolor painting based on the provided Odisha bridge photograph, as a quiet welcoming literary magazine homepage image. Preserve its emotional anchor: the ordinary ochre bridge crossing still green water toward hazy hills, simple pale concrete railings converging convincingly toward the same vanishing point, scattered roadside trees, distant small building and tiny earthmover on the left bank. Source is a photograph, output is explicitly an artistic interpretation. Landscape 1536x1024, 3:2, gently extend the lateral surroundings for the new ratio while retaining the source viewpoint and all principal relationships. Use warm ivory cotton paper, transparent ochre and subdued olive-grey washes, soft blue-grey hills and spacious pale unworked sky. Selective pencil and drybrush at the near rail, looser distant forms; bridge shadows must follow the source sunlight direction and sit on the road. Let the quiet empty road invite looking, not a grand monumental bridge. Keep source structures plain, no invented ornament. No new people or vehicles, no text or lettering, no symbols or watermark. Avoid photographic detail under a filter, mechanical paper grain, over-sharp foliage, perfectly rhythmic railing decoration, orange cinematic grading or exaggerated weathering. Opaque paper background.\n",
+    "tool": "built-in image_gen",
+    "mode": "Human Natural / Poetic Natural watercolor",
+    "self_review": "Bridge converges coherently; shadows fall across the road and water reflects the bank. Source trees, distant building and earthmover retained. Hill is more defined and sky interpreted in watercolor; no documentary claim. At homepage size, open road carries the focus.",
+    "independent": false,
+    "status": "reviewed_local",
+    "derivatives": [
+      {
+        "path": "projects/site/assets/home/bridge-poetic-natural-v1.webp",
+        "sha256": "3eeff03b2f4c7b29307fbc2b9f71ade23dda7fbab0250526effd77d31c87d955"
+      },
+      {
+        "path": "projects/site/assets/home/bridge-poetic-natural-v1-768.webp",
+        "sha256": "04127c08e781e51b7bdd9eced39a28c2e54586a373b66be11679e3e3431e1305"
+      }
+    ]
+  }
+]

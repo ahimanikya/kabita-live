@@ -519,3 +519,8 @@ On phones, keep the ending navigation directly after verse and before companion 
 ## Homepage restraint · 4 October 2026
 
 User direction: remove the homepage “Artwork & sources” link and “Another view” control; avoid clutter around decorative imagery. The homepage keeps a single artwork and its short caption, selected automatically per tab visit. Keep artwork provenance in the Our Story colophon and KB. Add reader-facing controls only when they support a meaningful reading task; do not expose supporting design/provenance controls alongside decorative artwork by default.
+
+
+## Homepage image curation · 4 October 2026
+
+Following the user’s request to remove the flower-in-palm opening, the local homepage set is courtyard, field, water-and-hills and bridge. The last two are Poetic Natural watercolor interpretations of Ahimanikya’s Odisha photographs. Palm and rainy-street art remain archived for future appropriate editorial use; they are no longer in the homepage selection. Keep one view per tab visit, uncropped 3:2 imagery, short captions and consolidated source credits. No art controls or animation. This supersedes the four-image membership above, not historical artwork provenance. Local implementation and review: `kb/records/home-curation-2026-10-04.json`.
