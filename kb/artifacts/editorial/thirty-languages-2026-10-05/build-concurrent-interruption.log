@@ -1,0 +1,14 @@
+
+> kabita-live-site@0.1.0 build
+> npm run prepare:site && astro build && pagefind --site dist
+
+
+> kabita-live-site@0.1.0 prepare:site
+> python3 build.py && node tools/bundle-feedback.mjs && python3 build-public.py && node tools/build-social-images.mjs
+
+Traceback (most recent call last):
+  File "/Users/ahimanikya/Projects/Kabita Live/output/kabitalive-design-proposal-2026-09-29/site/build.py", line 202, in <module>
+    apply_our_story(R)
+  File "/Users/ahimanikya/Projects/Kabita Live/output/kabitalive-design-proposal-2026-09-29/site/our_story.py", line 19, in apply_our_story
+    start=s.index('<section class="colophon" id="credits-writers">');end=s.index('<section class="colophon" id="privacy">',start)
+ValueError: substring not found

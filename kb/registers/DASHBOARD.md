@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `dc295feee2aae43b684b036ecba05dd1e61e4583e6ae651f833535a73d3df560`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `cfa294eeac248d2a18b0a3e3a133dc812956705082e10699bfd16efc8758fd9d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -165,7 +165,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-524 | 2026-10-04T15:48:17.977745+00:00 | Published and live-verified editions5/4/3:9 new poem-informed Human Natural / Poetic Natural illustrations and9 text-led openings. Total134 edition illustrations now live across45 editions. All9 exact asset hashes and18 pages pass; active engagement, consent/noindex settings, historical covers, poetry and remote portraits preserved. Existing edition6 artwork hold retained separately. Desktop/mobile evidence and exact prompts retained; independent:false. | Resume edition2; publish the next three verified unpublished editions together. Editions3–47 are live. |
 | KBL-EVT-525 | 2026-10-04T15:58:31.224069+00:00 | Prepared authorized editions2/1 checkpoint:6 Human Natural / Poetic Natural interior artworks and6 text-led poem openings. All50 poems read before planning; full snapshots, exact prompts, masters/hashes and desktop/mobile self-review retained. Latest remote portraits, active Firebase engagement, analytics consent, historical covers and poetry preserved. | Build, validate, push and publish through the manual preview workflow; verify live hashes. |
 | KBL-EVT-526 | 2026-10-04T16:10:33.694964+00:00 | Published and live-verified editions2/1:6 new poem-informed Human Natural / Poetic Natural illustrations and6 text-led openings. Total140 edition illustrations now live across47 editions. All6 exact asset hashes and12 pages pass; active engagement, consent/noindex settings, historical covers, poetry and remote portraits preserved. Existing edition6 artwork hold retained separately. Desktop/mobile evidence and exact prompts retained; independent:false. | All47 editions published. Verify complete provenance and handoff, then pause the completed artwork heartbeat; one held artwork remains excluded. |
 | KBL-EVT-527 | 2026-10-04T16:10:33.747939+00:00 | Completed all47-edition artwork rollout:140 accepted illustrations and139 text-led openings published and verified.157 candidate masters retained with exact prompts, poem snapshots and hashes. One edition6 block-tower image is held after two corrections; existing poem art preserved. Final publication and provenance audit pass; independent:false. Heartbeat ready to pause after final handoff synchronization. | Synchronize handoff and pause the completed artwork heartbeat. |
@@ -175,6 +174,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-564 | 2026-10-05T01:06:49.506055+00:00 | Published one-box comments: one textarea and Post comment, Reader attribution and editorial review note. Removed name input and checkbox; preserved moderation, throttle, consent payload and runtime configuration. All799 forms, CI application/Firestore checks, exact live assets and390px browser review passed. | Comments complete; translation review continues separately. |
 | KBL-EVT-565 | 2026-10-05T03:07:19.480610+00:00 | Published approved four-view homepage curation at cd795711: courtyard and field retained, water and bridge added, palm and street removed from selection. Workflow37257673796 passed;9exact live file hashes and browser view verified. Existing poem/cover assets and service settings preserved. | Complete; local masters and reserved artworks preserved. |
 | KBL-EVT-566 | 2026-10-05T03:29:39.659545+00:00 | Published per-page social preview images for1298reader pages at2f4e2791:430profiles use portraits,660poems use illustrations,139text-led poems use own edition cover artwork.641uncropped JPEGs, static Open Graph/Twitter metadata and canonical URLs generated. Build/tests passed;6live page/image samples and runtime files verified. Existing1453source HTML pages unchanged; no translation rollout included. | Complete. Actual sharing-app rendering/cache remains controlled by each platform. |
+| KBL-EVT-605 | 2026-10-05T12:24:51.319328+00:00 | User approved article placement and publication. Added homepage feature below Recent editions and permanent Our Story link; navigation/footer preserved. Prepared isolated release from latest remote main with only article scope;879 content/service files unchanged, responsive link checks and application/public build passed. | Push approved release, dispatch existing manual preview workflow, verify live links/article/share image. |
 
 ## Deferred extensions
 

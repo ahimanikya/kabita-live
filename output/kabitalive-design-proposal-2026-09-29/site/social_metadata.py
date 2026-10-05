@@ -13,10 +13,11 @@ VOID = {'area','base','br','col','embed','hr','img','input','link','meta','param
 class Page(HTMLParser):
     def __init__(self, text):
         super().__init__(convert_charrefs=True)
-        self.stack=[]; self.images=[]; self.links=[]; self.title=[]; self.byline=[]
+        self.stack=[]; self.images=[]; self.links=[]; self.title=[]; self.byline=[]; self.description=''
         self.feed(text)
     def handle_starttag(self, tag, attrs):
         a=dict(attrs)
+        if tag=='meta' and a.get('name')=='description':self.description=a.get('content','')
         classes=set(' '.join(d.get('class','') for _,d in self.stack).split()) | set(a.get('class','').split())
         if tag in {'img','image'}:
             src=a.get('src') or a.get('href') or a.get('xlink:href','')
@@ -56,6 +57,8 @@ def choose_image(name, page, pages):
         image=match({'edition-cover'}); reason='edition_cover'
     elif name=='index.html':
         image=next((i for i in page.images if i['source']==FALLBACK),None); reason='stable_homepage'
+    elif match({'article-lead'}):
+        image=match({'article-lead'}); reason='article_illustration'
     else:
         image=next((i for i in page.images if i['source'].startswith(('assets/section-art/','assets/home/'))),None)
     if not image:
@@ -109,9 +112,10 @@ def prepare(root, names, environ=None):
             description=f'{short}'+(f' — {byline}' if byline else '')+'. Read the poem on Kabita Live.'
         elif reason=='poet_portrait':description=f'Poetry, biography and contributions by {short} on Kabita Live.'
         elif reason=='edition_cover':description=f'Read {short}: poetry in Odia, Hindi and English.'
+        elif reason=='article_illustration':description=page.description or f'{short} — an essay on Kabita Live.'
         else:description=f'{short} — Kabita Live, a journal of poetry in Odia, Hindi and English.'
         if len(description)>240: description=description[:237].rsplit(' ',1)[0]+'…'
-        entries[name]={'title':title,'description':description,'type':'article' if name.startswith('poem-') else 'profile' if reason=='poet_portrait' else 'website','url':base+('' if name=='index.html' else name),'image_url':base+asset,'asset':asset,'source':image['source'],'alt':image['alt'] or f'Artwork accompanying {short}','reason':reason}
+        entries[name]={'title':title,'description':description,'type':'article' if name.startswith('poem-') or reason=='article_illustration' else 'profile' if reason=='poet_portrait' else 'website','url':base+('' if name=='index.html' else name),'image_url':base+asset,'asset':asset,'source':image['source'],'alt':image['alt'] or f'Artwork accompanying {short}','reason':reason}
     return entries
 
 

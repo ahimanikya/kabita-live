@@ -1,0 +1,68 @@
+{
+  "recorded_at": "2026-10-05T12:24:51.319328+00:00",
+  "status": "approved_release_verified",
+  "route": "thirty-languages-and-the-journey-of-a-poem.html",
+  "preview_url": "http://127.0.0.1:8771/thirty-languages-and-the-journey-of-a-poem.html",
+  "authorization": "Based on this content, let’s create a page and we will see how we link this up.",
+  "source_package": "/Users/ahimanikya/Projects/Poem Without Borders/output/language-coverage/thirty-languages-article-publication-package.zip",
+  "provenance_manifest": "kb/artifacts/editorial/thirty-languages-2026-10-05/source-manifest.json",
+  "content_scope": "Preserve supplied English essay, Odia example, linked references, estimate caveats, AI illustration disclosures and all 30 semantic data rows. Adapt presentation only. External research has not been independently revalidated in this page-building task.",
+  "author": null,
+  "placement": "Homepage feature below Recent editions and before The editors; permanent Poetry across languages section in Our Story. Main navigation and footer unchanged.",
+  "published": false,
+  "independent_review": false,
+  "implementation": [
+    "projects/site/language_article.py",
+    "projects/site/content/articles/thirty-languages.html",
+    "projects/site/assets/language-essay.css",
+    "projects/site/social_metadata.py"
+  ],
+  "checks": {
+    "source_text": "Exact normalized supplied article text equals the rendered article body.",
+    "tables": "Two semantic tables, 12 India rows +18 worldwide rows; captions and scoped headings preserved; keyboard-scrollable regions.",
+    "browser": "1440x1000 desktop,390x844 mobile,320px overflow check; no page overflow. Light/dark contrast and table expansion reviewed; ArrowRight scrolls table. All three images loaded. Theme restored and viewport override reset.",
+    "automated_tests": "28 Node tests passed;10 Firestore emulator tests skipped by existing suite;9 Python sharing tests passed.",
+    "sharing": {
+      "result": "PASS",
+      "source": "assets/articles/thirty-languages/poetry-across-languages-hero.webp",
+      "exported_asset": "assets/social/c7db67eefea6f8d4976a.jpg",
+      "sha256": "31f03bccc5f5bf10ff81076bd37c886c11ffe6a8cd2c2c5d9a148b6079b399ed",
+      "note": "Single static OG/Twitter image, article type and supplied description;1200x630 uncropped derivative visually checked. No live platform claim."
+    },
+    "runtime": "Existing consent, services, noindex and content gates retained.",
+    "build_interruption": "One overlapping translation build interrupted generation; fresh complete build succeeded; failure log retained.",
+    "build": "PASS;1299 public pages; original content and noindex/release gates preserved",
+    "placement": "Desktop and390px phone views inspected; both Read the essay links lead to correct article; no horizontal overflow; keyboard link focus works.",
+    "release": {
+      "baseline": "6230f4ae",
+      "protected_source_and_service_files": 879,
+      "protected_changes": 0,
+      "tests": "28 passed;10 emulator tests deferred to CI;9 sharing tests passed",
+      "build": "PASS1299 public pages",
+      "scope": "Article, homepage, Our Story and related source/assets/KB only; ongoing translation drafts excluded."
+    }
+  },
+  "screenshots": [
+    "desktop.png",
+    "mobile.png",
+    "mobile-table.png",
+    "dark.png"
+  ],
+  "rules": [
+    "PAGE-01",
+    "DESIGN-01",
+    "ART-05",
+    "SHARE-01",
+    "SHARE-02",
+    "SHARE-03",
+    "SHARE-04",
+    "DELIVERY-01",
+    "DELIVERY-02",
+    "DELIVERY-03"
+  ],
+  "publication_authorization": {
+    "user_reply": "Sounds good",
+    "context": "Approved proposed two placements and publication of page with links."
+  },
+  "release_checkout": "/private/tmp/kbl-selective-portraits-20261003"
+}

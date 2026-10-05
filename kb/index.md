@@ -21,3 +21,5 @@ A poetry journal shaped by **ମାଟିର ମହକ · ମନର ସ୍ୱର
 Option A single-colour icons are selected. Next review: select motif placements; continue the existing 13 component decisions. No site-wide icon adoption or publication is recorded.
 
 - [Approved edition artwork pilot](artifacts/artwork/edition-art-pilot-2026-10-04/index.html) · [All-edition rollout](records/edition-art-rollout-2026-10-04.json)
+
+- [Thirty languages article: approved page, placement and release checks](records/thirty-languages-article-2026-10-05.json)

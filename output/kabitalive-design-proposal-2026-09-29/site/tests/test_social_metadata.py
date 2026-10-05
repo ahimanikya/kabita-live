@@ -4,6 +4,18 @@ from tempfile import TemporaryDirectory
 from social_metadata import Page, choose_image, inject, prepare, public_base, robots_text
 
 class SocialMetadataTests(unittest.TestCase):
+    def test_essay_uses_lead_art_and_supplied_description(self):
+        with TemporaryDirectory() as tmp:
+            root=Path(tmp);(root/'assets').mkdir()
+            (root/'assets/lead.webp').write_bytes(b'lead')
+            name='language-essay.html'
+            (root/name).write_text('<title>Language essay · Kabita Live</title><meta name="description" content="A supplied essay."><img src="assets/logo.png"><figure class="article-lead"><img src="assets/lead.webp" alt="Readers at a table"></figure><img src="assets/chart.png">')
+            result=prepare(root,[name],{})[name]
+            self.assertEqual(result['source'],'assets/lead.webp')
+            self.assertEqual(result['type'],'article')
+            self.assertEqual(result['description'],'A supplied essay.')
+            self.assertEqual(result['alt'],'Readers at a table')
+
     def test_poem_art_beats_small_poet_portrait(self):
         page=Page('<img class="poem-poet-portrait" src="assets/face.webp"><figure class="poem-art"><img src="assets/poem.webp" alt="A river"></figure>')
         image,reason=choose_image('poem-1.html',page,{})

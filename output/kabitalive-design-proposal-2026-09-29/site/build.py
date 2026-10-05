@@ -184,6 +184,11 @@ magazine_body=(R.parent/'revision-10-logo-trial/magazine-layout.html').read_text
 page('magazine-branding.html','Magazine logo trial',head('Logo placement · Design trial','A familiar name.<br>Room for the poetry.','The same English wordmark and leaf-and-water symbol, used with restraint across the magazine.')+magazine_body,desc='Front cover, contents and back-cover logo placement trial.')
 exec(compile((R/'design-review.py').read_text(),str(R/'design-review.py'),'exec'),globals())
 exec(compile((R/'designer-profile.py').read_text(),str(R/'designer-profile.py'),'exec'),globals())
+# User-requested essay; approved homepage and Our Story links are applied below.
+from language_article import ROUTE as language_article_route, render_language_article, finish_language_article
+language_article_metadata, language_article_body = render_language_article(R)
+page(language_article_route, language_article_metadata['title'], language_article_body, desc=language_article_metadata['excerpt'])
+finish_language_article(R, language_article_metadata)
 index=pages.copy()
 page('all-pages.html','All page designs',head('Kabita Live · identity refresh','One identity.<br>A whole journal.','Explore each page in the proposed design. Navigation, language filters, reading controls and sharing are interactive.')+'<div class="notice"><strong>Brand signature:</strong> <span lang="or">ମାଟିର ମହକ · ମନର ସ୍ୱର</span><br><strong>Literary epigraph:</strong> “Poetry is an echo, asking a shadow to dance.”<br>All public page types mapped; 47 issue records, 427 directory entries and all 16 current poem titles indexed. Full-text migration remains separate. <a class="text-link" href="site-coverage.html">See the coverage map ↗</a></div><nav class="review-materials" aria-label="Design review materials"><a href="design-system-review.html">Design system review</a><a href="branding-guide.html">Brand guide</a><a href="proposal.html">Design proposal</a><a href="editors-cheat-sheet.html">Editor’s cheat sheet</a><a href="cover-studies.html">Cover direction</a><a href="magazine-branding.html">Magazine branding</a><a href="site-coverage.html">Coverage map</a></nav><div class="page-index">'+''.join(f'<a href="{file}"><span class="number">{i:02d}</span><h2>{e(title)}</h2><p>{e(desc)}</p></a>' for i,(file,title,desc) in enumerate(index,1))+'</div>',desc='Index of every template in the design.')
 # Approved editor-page refinement after content and credits are assembled.
@@ -211,3 +216,6 @@ apply_home_views(R)
 
 from cover_layout import apply_cover_styles
 apply_cover_styles(R)
+
+from article_links import apply_article_links
+apply_article_links(R)
