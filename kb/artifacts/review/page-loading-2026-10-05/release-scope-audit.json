@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "release_commit": "fc7a72813a6d2e953f3b5789b7d8265157eb7042",
+  "baseline": "e837063223310742d97e28610e945b889f8f5e05",
+  "changed_file_count": 3825,
+  "categories": {
+    "scoped_evidence": 12,
+    "generated_html": 1308,
+    "compressed_existing_fonts": 6,
+    "loading_source_and_tests": 14,
+    "responsive_image_copies": 2485
+  },
+  "unknown_paths": [],
+  "generated_html_exact_transform_matches": 1308,
+  "generated_html_mismatches": [],
+  "html_check": "Every changed HTML file equals old live HTML transformed only by approved font URL/version replacements and the exact image-delivery renderer. For homepage only, old/new approved home-art figure and selector scripts are removed before the same exact comparison. All remaining HTML must match byte-for-byte.",
+  "protected_content_service_records_unchanged": 882,
+  "notes": "No changes to poem text, translations, runtime configuration, analytics/engagement code, cover styling, templates outside declared loading source, KB registers, publication workflow, or DNS."
+}

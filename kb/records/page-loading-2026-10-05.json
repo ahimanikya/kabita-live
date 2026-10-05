@@ -1,5 +1,5 @@
 {
-  "status": "approved_release_verified",
+  "status": "published_live_verified",
   "recorded_at": "2026-10-05T12:52:01.629077+00:00",
   "authorization": "User requested refresh/load image rotation and improvements like Singhasan page loading. Homepage main-artwork scope assumed after clarification remained unanswered; no new artwork selection.",
   "scope": [
@@ -15,7 +15,7 @@
   },
   "verification": "kb/artifacts/review/page-loading-2026-10-05/verification.json",
   "preview_url": "http://127.0.0.1:8771/index.html",
-  "published": false,
+  "published": true,
   "independent": false,
   "storage_failure": "Random view still loads; avoiding an immediate repeat cannot be guaranteed without session storage.",
   "fallbacks": "Native image markup works without JavaScript; homepage noscript uses courtyard. Failed alternate falls back once to courtyard. Back/forward cache keeps its already-rendered view.",
@@ -33,5 +33,18 @@
     "public_build": "PASS1299 pages",
     "scope": "Only loading/rotation source, derivatives, font packaging, generated pages and scoped evidence; translation drafts and unrelated cover-style change excluded.",
     "rulebook": "Updated in canonical workspace and portable handoff; unrelated unpublished translation workflow documents excluded from this release."
+  },
+  "release_commit": "fc7a72813a6d2e953f3b5789b7d8265157eb7042",
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37313706373",
+  "release_scope_audit": "kb/artifacts/review/page-loading-2026-10-05/release-scope-audit.json",
+  "approval_review": "Initial dispatch rejected because generated file count appeared broad; exact per-file audit proved all changes in scope, and reviewed retry was accepted.",
+  "verified_live_at": "2026-10-05T13:09:42.855714+00:00",
+  "live_url": "https://ahimanikya.github.io/kabita-live/",
+  "live_verification": {
+    "evidence": "kb/artifacts/review/page-loading-2026-10-05/live-verification.json",
+    "result": "PASS34 files",
+    "browser": "Fresh live loads changed bridge/courtyard/field; courtyard and field loaded. Phone poem selected480px asset with350x233 frame and no overflow.",
+    "jpeg_note": "One existing homepage share JPEG differs by cross-platform encoder only; decoded RMS<0.012/255, below0.1 tolerance. Other33files byte-identical.",
+    "workflow": "Build and deploy succeeded; Firebase rules tests passed."
   }
 }
