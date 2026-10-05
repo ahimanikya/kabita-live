@@ -68,8 +68,8 @@ async function start(section:HTMLElement){
  more.addEventListener('click',()=>void loadComments());
  form.addEventListener('submit',async event=>{
   event.preventDefault();if(!form.reportValidity())return;
-  const data=new FormData(form),name=String(data.get('name')||'').trim(),message=String(data.get('message')||'').trim();
-  if(!name||name.length>80||!message||message.length>2000){status.textContent='Please enter a name and a comment of up to 2,000 characters.';return;}
+  const data=new FormData(form),name='Reader',message=String(data.get('message')||'').trim();
+  if(!message||message.length>2000){status.textContent='Please enter a comment of up to 2,000 characters.';return;}
   const button=form.querySelector<HTMLButtonElement>('button[type="submit"]')!;button.disabled=true;status.textContent='Sending your comment for review…';
   try{
    const s=await connect(),user=await identity(s),ref=s.store.doc(s.store.collection(s.db,'commentSubmissions')),batch=s.store.writeBatch(s.db);

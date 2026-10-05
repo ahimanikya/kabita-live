@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-10-05T00:43:01.775935+00:00",
+  "status": "verified_locally",
+  "authorization": "Simplify the comments form. It should be as simple as one text box.",
+  "changes": [
+    "One comment textarea and Post comment button",
+    "Remove name entry, checkbox and secondary explanatory links",
+    "Use Reader as public display label; state publication-after-review adjacent to submit",
+    "Preserve pending moderation, 2000-character limit, anonymous browser identity, throttle and Firestore schema; rules unchanged"
+  ],
+  "checks": {
+    "public_forms": 799,
+    "application_tests": 28,
+    "public_build": "PASS"
+  },
+  "independent": false,
+  "executor": "Current assistant; Samanta implementation and Drishti self-review"
+}
