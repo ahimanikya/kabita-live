@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-05T03:16:02.709138+00:00",
-  "status": "verified_local",
+  "status": "published_live_verified",
   "authorization": "Associate one image per page for sharing previews; poet pages use the poet image and poem pages use the illustration.",
   "executor": "Current assistant; Samanta implementation and Drishti self-review",
   "independent": false,
@@ -47,8 +47,15 @@
     "https://ogp.me/"
   ],
   "limits": [
-    "A sharing service may retain an earlier cached card or choose a different layout; metadata is a request, not control over its UI.",
-    "No platform posting or messages sent; Facebook/WhatsApp end-to-end scrape not yet verified."
+    "Sharing apps control preview display and cache; actual Facebook/WhatsApp rendering has not been independently verified. No social post or message sent."
   ],
-  "review": "http://127.0.0.1:8785/kb/artifacts/review/social-previews-2026-10-04/index.html"
+  "review": "http://127.0.0.1:8785/kb/artifacts/review/social-previews-2026-10-04/index.html",
+  "release_commit": "2f4e2791",
+  "workflow_run": 37258910011,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37258910011",
+  "release_reader_source_integrity": "1453 original HTML files unchanged; no unpublished translation changes copied.",
+  "verified_at": "2026-10-05T03:29:39.659545+00:00",
+  "live_url": "https://ahimanikya.github.io/kabita-live/",
+  "live_checks": "Six representative pages have exact expected HTML, matching Open Graph/Twitter image associations and public JPEG delivery. Five image samples pixel-identical; homepage shows negligible <0.02 per-channel RMS encoder variation. Runtime, engagement, analytics and robots files match expected build.",
+  "ci": "PASS 28 application tests,8 sharing tests,Firestore checks,build and deployment."
 }

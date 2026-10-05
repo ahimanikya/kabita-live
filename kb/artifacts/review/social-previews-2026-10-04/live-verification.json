@@ -1,0 +1,96 @@
+{
+  "result": "PASS",
+  "samples": [
+    {
+      "page": "poet-49.html",
+      "url": "https://ahimanikya.github.io/kabita-live/poet-49.html",
+      "image": "https://ahimanikya.github.io/kabita-live/assets/social/8ff8aca7f03293624f5e.jpg",
+      "source": "assets/writers/49-earth-voice-v1.webp",
+      "sha256": "d15243ab76f6c503353e0155123de7fcc9a885152c2a07a08a290ff1fad4c589",
+      "local_sha256": "d15243ab76f6c503353e0155123de7fcc9a885152c2a07a08a290ff1fad4c589",
+      "pixel_equality": true,
+      "pixel_rms_0_to_255": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "page": "poem-724.html",
+      "url": "https://ahimanikya.github.io/kabita-live/poem-724.html",
+      "image": "https://ahimanikya.github.io/kabita-live/assets/social/204610ea234efe043190.jpg",
+      "source": "assets/poem-art/gift-of-dates-poetic-natural-v1.webp",
+      "sha256": "9deecf0acce9e239a15ef5ef0f73b4e9471f5e26feb875374499eed3feb6ea39",
+      "local_sha256": "9deecf0acce9e239a15ef5ef0f73b4e9471f5e26feb875374499eed3feb6ea39",
+      "pixel_equality": true,
+      "pixel_rms_0_to_255": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "page": "poem-10.html",
+      "url": "https://ahimanikya.github.io/kabita-live/poem-10.html",
+      "image": "https://ahimanikya.github.io/kabita-live/assets/social/77a26ec30c8d6ce5449a.jpg",
+      "source": "assets/covers/editions/edition-001-2022-11-poetic-natural.webp",
+      "sha256": "ce557570501750efc12ef1f0b41039f6aeb053eb24731130dc218e254bbd5ca2",
+      "local_sha256": "ce557570501750efc12ef1f0b41039f6aeb053eb24731130dc218e254bbd5ca2",
+      "pixel_equality": true,
+      "pixel_rms_0_to_255": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "page": "issue-47.html",
+      "url": "https://ahimanikya.github.io/kabita-live/issue-47.html",
+      "image": "https://ahimanikya.github.io/kabita-live/assets/social/da82f1805a02044c58d6.jpg",
+      "source": "assets/covers/editions/edition-047-2026-09-natural-b-v1.webp",
+      "sha256": "01dfada2cc921835bcfadfa61bf350e19a7031b59b7883193be8c8e7c618e5cd",
+      "local_sha256": "01dfada2cc921835bcfadfa61bf350e19a7031b59b7883193be8c8e7c618e5cd",
+      "pixel_equality": true,
+      "pixel_rms_0_to_255": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "page": "index.html",
+      "url": "https://ahimanikya.github.io/kabita-live/",
+      "image": "https://ahimanikya.github.io/kabita-live/assets/social/940e95051e7460573308.jpg",
+      "source": "assets/home/life-after-rain-poetic-natural.webp",
+      "sha256": "51b7ef2207b94072db89c2890b3e1b0d77e8a4286da3d64952f870b9de325dde",
+      "local_sha256": "f112b6ab98b1ad4686ebc0d70839086747336140706773f09b01effd0f1a58b5",
+      "pixel_equality": false,
+      "pixel_rms_0_to_255": [
+        0.011728859175816612,
+        0.006900655593423542,
+        0.0
+      ]
+    },
+    {
+      "page": "poet-233.html",
+      "url": "https://ahimanikya.github.io/kabita-live/poet-233.html",
+      "image": "https://ahimanikya.github.io/kabita-live/assets/social/c395099ab85a6d3dd888.jpg",
+      "source": "assets/writers/generic-feminine-earth-voice-v1.webp",
+      "sha256": "aa8912d626deefd5c82835cef833aaeb98317b05150c009e71938118cbb1ba85",
+      "local_sha256": "aa8912d626deefd5c82835cef833aaeb98317b05150c009e71938118cbb1ba85",
+      "pixel_equality": true,
+      "pixel_rms_0_to_255": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "additional_exact_files": [
+    "runtime-config.json",
+    "assets/engagement.js",
+    "assets/analytics.js",
+    "robots.txt"
+  ],
+  "note": "Exact HTML and runtime hashes verified. JPEG decoded pixels compared: identical for five samples; homepage has sub-0.02 RMS per-channel encoder variation (0\u2013255 scale). HTTP retrieval verified with sharing crawler user-agent; this is not an actual platform scrape or post."
+}
