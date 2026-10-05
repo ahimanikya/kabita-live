@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-05T02:51:10.497918+00:00",
-  "status": "publication_prepared",
+  "status": "published_and_live_verified",
   "authorization": "I think we remove that does not look in the front page - can you review what we can keep and may add few more",
   "scope": "Remove flower-in-palm homepage selection; curate existing set and add two source-based Poetic Natural watercolors. Local preview only.",
   "executor": "Current assistant; Samanta curation and implementation, Drishti self-review",
@@ -40,9 +40,20 @@
     "limitations": "Same-assistant visual review. Deterministic fixtures used to inspect specific artwork without changing browser storage. New artwork is interpretation, not documentary photography.",
     "session_selection": "PASS isolated script check: removed palm/tree selections recover to an active view; all four active selections persist",
     "bundle": "PASS",
-    "handoff": "Resync after final gallery screenshot and record updates; see tool verification"
+    "handoff": "Primary workspace resync after concurrent translation-source updates; release checkout excludes portable package by .gitignore",
+    "release_build": "PASS Node24, hosted base path",
+    "application_tests": "28 passed; 10 emulator-only tests deferred to workflow",
+    "release_integrity": "1463 protected poem and cover files unchanged",
+    "ci": "PASS application and Firestore tests, public build and Pages deployment",
+    "exact_live_files": "PASS 9 exact hashes; live four-view membership and noindex preserved",
+    "live_browser": "PASS bridge artwork, caption and existing homepage layout"
   },
   "review_url": "http://127.0.0.1:8785/kb/artifacts/review/home-curation-2026-10-04/index.html",
-  "publication": "Authorized by user; release preparation in progress.",
-  "publication_authorization": "push to the site"
+  "publication": "Published through manual public-only Pages preview workflow; exact live homepage, About, four new responsive image files, selector script, runtime config and representative poem page verified.",
+  "publication_authorization": "push to the site",
+  "commit": "cd79571143ac398e02be0d2cf7ca30bd289aaeef",
+  "workflow_run": 37257673796,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37257673796",
+  "verified_at": "2026-10-05T03:07:19.480610+00:00",
+  "live_url": "https://ahimanikya.github.io/kabita-live/"
 }
