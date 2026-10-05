@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-05T03:16:02.709138+00:00",
+  "status": "verified_local",
+  "authorization": "Associate one image per page for sharing previews; poet pages use the poet image and poem pages use the illustration.",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "strategy": {
+    "poet": "Use the existing full-size portrait; retain generic artwork disclosure where applicable.",
+    "poem": "Use assigned visible illustration; never use the tiny byline portrait.",
+    "text_poem": "Use that poem’s edition cover artwork when there is deliberately no illustration.",
+    "issue": "Use the edition cover artwork.",
+    "home": "Always use the courtyard; sharing image does not rotate.",
+    "other": "Use a page-specific section artwork where present, otherwise the journal courtyard."
+  },
+  "implementation": [
+    "Static Open Graph and Twitter card tags in HTML head; absolute URLs, title, description, canonical, alt and dimensions.",
+    "Deterministic uncropped 1200x630 JPEG derivatives; content-hashed filenames update automatically when source artwork changes.",
+    "Generated public assets only; no runtime script or authentication needed for metadata.",
+    "General preview indexing restriction and noindex remain. Sharing crawler exceptions are scoped to the publication path. GitHub repository-path robots cannot override account-root policy."
+  ],
+  "counts": {
+    "result": "PASS",
+    "public_pages": 1298,
+    "images": 641,
+    "mapping_counts": {
+      "page_artwork": 7,
+      "poet_portrait": 430,
+      "journal_fallback": 14,
+      "stable_homepage": 1,
+      "edition_cover": 47,
+      "text_poem_edition_cover": 139,
+      "poem_illustration": 660
+    },
+    "checks": [
+      "One Open Graph image/title/url per page, Twitter large-image metadata",
+      "Absolute hosted URLs with repository prefix",
+      "All JPEG assets exist, 1200x630, below 5MB",
+      "Reader body unchanged by metadata stage; preview noindex retained"
+    ],
+    "limits": [
+      "Preview layout is illustrative; each sharing app controls its card rendering and cache.",
+      "General robots exclusion remains; selected sharing agents are exempted within publication path. GitHub Pages repository robots.txt cannot control account-root robots policy."
+    ]
+  },
+  "tests": "28 existing application tests plus 8 new sharing tests passed; public build passed. CI Firestore tests follow on publication.",
+  "sources": [
+    "https://ogp.me/"
+  ],
+  "limits": [
+    "A sharing service may retain an earlier cached card or choose a different layout; metadata is a request, not control over its UI.",
+    "No platform posting or messages sent; Facebook/WhatsApp end-to-end scrape not yet verified."
+  ],
+  "review": "http://127.0.0.1:8785/kb/artifacts/review/social-previews-2026-10-04/index.html"
+}

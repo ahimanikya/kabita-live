@@ -3,6 +3,7 @@ import argparse,json,re,shutil,os,html as html_lib
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
+from social_metadata import prepare, inject, robots_text
 
 root=Path(__file__).resolve().parent
 parser=argparse.ArgumentParser(description=__doc__)
@@ -19,6 +20,7 @@ excluded={'credits-content.html'}
 # Book reviews are retained locally for provenance, outside the reader publication.
 excluded.update(p.name for p in root.glob('*.html') if re.fullmatch(r'reviews?(?:-\d+)?\.html', p.name))
 pages=sorted(p.name for p in root.glob('*.html') if not p.is_symlink() and p.name not in excluded)
+social=prepare(root,pages)
 refs=set()
 class Links(HTMLParser):
     def handle_starttag(self,tag,attrs):
@@ -72,7 +74,7 @@ for directory in ['.generated','.public']:
     target.mkdir()
 (root/'.generated/pages').mkdir()
 for name in pages:
-    html=(root/name).read_text().replace('<main id="main"','<main data-pagefind-body id="main"',1)
+    html=inject((root/name).read_text(),social[name]).replace('<main id="main"','<main data-pagefind-body id="main"',1)
     if args.release:
         html=html.replace('<meta name="robots" content="noindex,nofollow">','')
     (root/'.generated/pages'/name).write_text(html)
@@ -91,7 +93,8 @@ for name in pages:
         runtime['analytics']['publicPages'][base+name]=html_lib.unescape(title.group(1)).strip()
         if name=='index.html':runtime['analytics']['publicPages'][base]=html_lib.unescape(title.group(1)).strip()
 (root/'.public/runtime-config.json').write_text(json.dumps(runtime,ensure_ascii=False,indent=2)+'\n')
-(root/'.public/robots.txt').write_text('User-agent: *\nDisallow: /\n' if not args.release else 'User-agent: *\nAllow: /\n')
+(root/'.public/robots.txt').write_text(robots_text(args.release,base))
+(root/'.generated/social-previews.json').write_text(json.dumps(social,ensure_ascii=False,indent=2)+'\n')
 (root/'.generated/public-pages.json').write_text(json.dumps(pages,indent=2)+'\n')
-(root/'.generated/release-manifest.json').write_text(json.dumps({'pages':pages,'assets':sorted(assets),'content_ready':status['launch_ready'],'release':args.release},indent=2)+'\n')
+(root/'.generated/release-manifest.json').write_text(json.dumps({'pages':pages,'assets':sorted(assets | {e['asset'] for e in social.values()}),'content_ready':status['launch_ready'],'release':args.release},indent=2)+'\n')
 print(f'Public-only build inputs: {len(pages)} pages, {len(assets)} assets. Content ready: {status["launch_ready"]}.')

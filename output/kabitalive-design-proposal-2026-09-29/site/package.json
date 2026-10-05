@@ -7,13 +7,13 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "prepare:site": "python3 build.py && node tools/bundle-feedback.mjs && python3 build-public.py",
+    "prepare:site": "python3 build.py && node tools/bundle-feedback.mjs && python3 build-public.py && node tools/build-social-images.mjs",
     "build": "npm run prepare:site && astro build && pagefind --site dist",
     "dev": "npm run prepare:site && astro dev --host 127.0.0.1",
-    "test": "node --test tests/*.test.mjs",
+    "test": "node --test tests/*.test.mjs && python3 -m unittest discover -s tests -p 'test_*.py'",
     "test:rules": "firebase emulators:exec --only firestore --project demo-kabita-live 'node --test tests/*.rules.test.mjs'",
     "check:release": "python3 build-public.py --release",
-    "build:release": "npm run prepare:site && python3 build-public.py --release && astro build && pagefind --site dist"
+    "build:release": "npm run prepare:site && python3 build-public.py --release && node tools/build-social-images.mjs && astro build && pagefind --site dist"
   },
   "dependencies": {
     "astro": "7.3.5",
@@ -23,6 +23,7 @@
     "@firebase/rules-unit-testing": "5.0.2",
     "esbuild": "0.25.12",
     "firebase-tools": "15.32.0",
-    "pagefind": "1.5.2"
+    "pagefind": "1.5.2",
+    "sharp": "0.35.5"
   }
 }

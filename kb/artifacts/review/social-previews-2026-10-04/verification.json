@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "public_pages": 1298,
+  "images": 641,
+  "mapping_counts": {
+    "page_artwork": 7,
+    "poet_portrait": 430,
+    "journal_fallback": 14,
+    "stable_homepage": 1,
+    "edition_cover": 47,
+    "text_poem_edition_cover": 139,
+    "poem_illustration": 660
+  },
+  "checks": [
+    "One Open Graph image/title/url per page, Twitter large-image metadata",
+    "Absolute hosted URLs with repository prefix",
+    "All JPEG assets exist, 1200x630, below 5MB",
+    "Reader body unchanged by metadata stage; preview noindex retained"
+  ],
+  "limits": [
+    "Preview layout is illustrative; each sharing app controls its card rendering and cache.",
+    "General robots exclusion remains; selected sharing agents are exempted within publication path. GitHub Pages repository robots.txt cannot control account-root robots policy."
+  ]
+}
