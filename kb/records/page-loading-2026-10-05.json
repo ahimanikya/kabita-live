@@ -1,0 +1,37 @@
+{
+  "status": "approved_release_verified",
+  "recorded_at": "2026-10-05T12:52:01.629077+00:00",
+  "authorization": "User requested refresh/load image rotation and improvements like Singhasan page loading. Homepage main-artwork scope assumed after clarification remained unanswered; no new artwork selection.",
+  "scope": [
+    "Fresh-load homepage rotation without immediate repeats where session storage works",
+    "Direct selection avoids default-then-selected full image request",
+    "Static tiny previews and native responsive copies for literary art and portraits",
+    "Full-glyph WOFF2 font packaging; originals and licences retained"
+  ],
+  "reference": {
+    "site": "Singhasan",
+    "implementation": "/Users/ahimanikya/Projects/Poem Without Borders/output/singhasan-edition/site/progressive_images.py",
+    "adaptation": "Same inline-preview/native loading concept; Kabita adds no reveal animation and preserves established srcsets and social source identities."
+  },
+  "verification": "kb/artifacts/review/page-loading-2026-10-05/verification.json",
+  "preview_url": "http://127.0.0.1:8771/index.html",
+  "published": false,
+  "independent": false,
+  "storage_failure": "Random view still loads; avoiding an immediate repeat cannot be guaranteed without session storage.",
+  "fallbacks": "Native image markup works without JavaScript; homepage noscript uses courtyard. Failed alternate falls back once to courtyard. Back/forward cache keeps its already-rendered view.",
+  "new_artwork_generated": false,
+  "publication_authorization": {
+    "user_reply": "push it",
+    "scope": "Verified homepage rotation and page-loading improvements",
+    "recorded_at": "2026-10-05T12:56:50.710020+00:00"
+  },
+  "release_baseline": "e8370632",
+  "release_checks": {
+    "protected_source_service_files": 882,
+    "changed": 0,
+    "tests": "31 Node +12 Python passed;10 emulator-only cases run in CI",
+    "public_build": "PASS1299 pages",
+    "scope": "Only loading/rotation source, derivatives, font packaging, generated pages and scoped evidence; translation drafts and unrelated cover-style change excluded.",
+    "rulebook": "Updated in canonical workspace and portable handoff; unrelated unpublished translation workflow documents excluded from this release."
+  }
+}

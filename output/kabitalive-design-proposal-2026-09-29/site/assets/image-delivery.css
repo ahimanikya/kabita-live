@@ -1,0 +1,4 @@
+/* Static preview preserves the artwork's space; never shimmer or animate. */
+img.progressive-art{background-size:contain;background-position:center;background-repeat:no-repeat}
+img.progressive-art.image-ready{background-image:none!important}
+.home-view-fallback{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain}

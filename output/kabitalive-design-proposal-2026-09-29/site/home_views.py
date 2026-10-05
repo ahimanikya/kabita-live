@@ -6,19 +6,26 @@ from html import escape
 
 def apply_home_views(site):
     views = json.loads((site / 'data/home-views.json').read_text())
+    previews = json.loads((site / 'data/image-delivery.json').read_text())
+    views = [dict(view, preview=previews[view['src']]['preview']) for view in views]
     path = site / 'index.html'
     text = path.read_text()
     first = views[0]
     figure = ('<figure class="home-art home-views">'
-              f'<img id="home-view-image" src="{first["src"]}" srcset="{first["small"]} 768w, {first["src"]} 1536w" '
+              f'<img id="home-view-image" class="progressive-art" src="{first["preview"]}" data-artwork-source="{first["src"]}" '
               'sizes="(max-width:760px) calc(100vw - 40px), (max-width:1224px) 55vw, 640px" '
               f'alt="{escape(first["alt"])}" width="1536" height="1024" fetchpriority="high" decoding="async">'
               f'<figcaption><span id="home-view-title">{escape(first["title"])}</span></figcaption></figure>')
+    payload = json.dumps(views, ensure_ascii=False).replace('<', '\\u003c')
+    script = (site / 'assets/home-views.js').read_text()
+    fallback = (f'<noscript><style>#home-view-image{{display:none}}</style>'
+                f'<img class="home-view-fallback" src="{first["src"]}" srcset="{first["small"]} 768w, {first["src"]} 1536w" '
+                f'sizes="(max-width:760px) calc(100vw - 40px), 640px" width="1536" height="1024" alt="{escape(first["alt"])}"></noscript>')
+    figure = figure.replace('<figcaption>', fallback + '<figcaption>')
+    figure += f'<script type="application/json" id="home-view-data">{payload}</script><script>{script}</script>'
     text, count = re.subn(r'<figure class="home-art">.*?</figure>', lambda _: figure, text, count=1, flags=re.S)
     assert count == 1, 'Homepage artwork missing'
-    payload = json.dumps(views, ensure_ascii=False).replace('<', '\\u003c')
     text = text.replace('</head>', '<link rel="stylesheet" href="assets/home-views.css?v=2"></head>')
-    text = text.replace('</body>', f'<script type="application/json" id="home-view-data">{payload}</script><script defer src="assets/home-views.js?v=2"></script></body>')
     path.write_text(text)
     about = site / 'about.html'
     text = about.read_text()

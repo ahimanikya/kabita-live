@@ -1,4 +1,4 @@
-// One quiet artwork per tab visit. No controls, timer or animation.
+// Choose once per fresh document load; never move the artwork while reading.
 (() => {
   const image = document.getElementById('home-view-image');
   const data = document.getElementById('home-view-data');
@@ -6,27 +6,23 @@
   if (!image || !data || !title) return;
   const views = JSON.parse(data.textContent);
   const key = 'kabita-home-view-v1';
-  function remember(index) {
-    try { sessionStorage.setItem(key, views[index].id); } catch { /* Reading works without storage. */ }
+  let previous;
+  try { previous = sessionStorage.getItem(key); } catch {}
+  const alternatives = views.filter(view => view.id !== previous);
+  const choices = alternatives.length ? alternatives : views;
+  const chosen = choices[Math.floor(Math.random() * choices.length)];
+  function show(view) {
+    image.classList.remove('image-ready');
+    image.style.backgroundImage = `url("${view.preview}")`;
+    image.alt = view.alt;
+    title.textContent = view.title;
+    image.dataset.view = view.id;
+    image.srcset = `${view.small} 768w, ${view.src} 1536w`;
+    image.src = view.src;
+    try { sessionStorage.setItem(key, view.id); } catch {}
   }
-  async function show(index) {
-    if (index === 0) { remember(index); return; }
-    const view = views[index];
-    const next = new Image();
-    next.sizes = image.sizes;
-    next.srcset = `${view.small} 768w, ${view.src} 1536w`;
-    next.src = view.src;
-    try {
-      await next.decode();
-      image.srcset = next.srcset;
-      image.src = view.src;
-      image.alt = view.alt;
-      title.textContent = view.title;
-      remember(index);
-    } catch { /* Keep the initial artwork when another view cannot load. */ }
-  }
-  let initial = -1;
-  try { initial = views.findIndex(view => view.id === sessionStorage.getItem(key)); } catch {}
-  if (initial < 0) initial = Math.floor(Math.random() * views.length);
-  show(initial);
+  image.addEventListener('error', () => {
+    if (image.dataset.view !== views[0].id) show(views[0]);
+  });
+  show(chosen);
 })();
