@@ -1,6 +1,6 @@
 {
-  "recorded_at": "2026-10-05T00:43:01.775935+00:00",
-  "status": "verified_locally",
+  "recorded_at": "2026-10-05T00:43:01.775185+00:00",
+  "status": "published_live_verified",
   "authorization": "Simplify the comments form. It should be as simple as one text box.",
   "changes": [
     "One comment textarea and Post comment button",
@@ -11,8 +11,28 @@
   "checks": {
     "public_forms": 799,
     "application_tests": 28,
-    "public_build": "PASS"
+    "public_build": "PASS",
+    "ci_application_and_firestore_rules": "PASS",
+    "exact_live_files": [
+      "poem-724.html",
+      "assets/engagement.js",
+      "assets/engagement.css",
+      "runtime-config.json"
+    ],
+    "live_browser_form": {
+      "textareas": 1,
+      "inputs": 0,
+      "button": "Post comment"
+    },
+    "mobile_visual": "390px reviewed; no overflow; screenshot saved",
+    "public_test_submission": false
   },
   "independent": false,
-  "executor": "Current assistant; Samanta implementation and Drishti self-review"
+  "executor": "Current assistant; Samanta implementation and Drishti self-review",
+  "verified_at": "2026-10-05T01:06:49.506055+00:00",
+  "commit": "2d049895",
+  "workflow_run": 37249263940,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37249263940",
+  "live_url": "https://ahimanikya.github.io/kabita-live/poem-724.html",
+  "evidence": "kb/evidence/single-field-comments-2026-10-04/mobile.jpg"
 }
