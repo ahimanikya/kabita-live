@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-05T12:24:51.319328+00:00",
-  "status": "approved_release_verified",
+  "status": "published_live_verified",
   "route": "thirty-languages-and-the-journey-of-a-poem.html",
   "preview_url": "http://127.0.0.1:8771/thirty-languages-and-the-journey-of-a-poem.html",
   "authorization": "Based on this content, let’s create a page and we will see how we link this up.",
@@ -9,7 +9,7 @@
   "content_scope": "Preserve supplied English essay, Odia example, linked references, estimate caveats, AI illustration disclosures and all 30 semantic data rows. Adapt presentation only. External research has not been independently revalidated in this page-building task.",
   "author": null,
   "placement": "Homepage feature below Recent editions and before The editors; permanent Poetry across languages section in Our Story. Main navigation and footer unchanged.",
-  "published": false,
+  "published": true,
   "independent_review": false,
   "implementation": [
     "projects/site/language_article.py",
@@ -40,7 +40,9 @@
       "tests": "28 passed;10 emulator tests deferred to CI;9 sharing tests passed",
       "build": "PASS1299 public pages",
       "scope": "Article, homepage, Our Story and related source/assets/KB only; ongoing translation drafts excluded."
-    }
+    },
+    "live": "PASS: exact article/home/about HTML, illustration/CSS/reader-service assets and share-image hashes; runtime and robots differ only by expected hosted path prefixes. Live browser visual review passed.",
+    "workflow": "PASS: Node tests, Firebase rules emulator tests, public build and Pages deployment"
   },
   "screenshots": [
     "desktop.png",
@@ -64,5 +66,11 @@
     "user_reply": "Sounds good",
     "context": "Approved proposed two placements and publication of page with links."
   },
-  "release_checkout": "/private/tmp/kbl-selective-portraits-20261003"
+  "release_checkout": "/private/tmp/kbl-selective-portraits-20261003",
+  "release_commit": "691322228ae3d48ebcafda7948b497952849c4f9",
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37309909460",
+  "release_transport": "Initial chunked HTTP push failed; remote remained unchanged. Buffered HTTP retry succeeded normally; no force push.",
+  "published_verified_at": "2026-10-05T12:38:50.065107+00:00",
+  "live_url": "https://ahimanikya.github.io/kabita-live/thirty-languages-and-the-journey-of-a-poem.html",
+  "live_evidence": "kb/artifacts/editorial/thirty-languages-2026-10-05/live-verification.json"
 }

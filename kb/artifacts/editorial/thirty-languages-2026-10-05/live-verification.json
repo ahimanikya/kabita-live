@@ -1,0 +1,92 @@
+{
+  "result": "PASS",
+  "verified_at": "2026-10-05T12:38:14.874453+00:00",
+  "release_commit": "69132222",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "b3c6264c59595613679b00c3ae03c056daa2831682d361dfc2e067974aea205c",
+      "exact_build_match": true,
+      "note": null
+    },
+    {
+      "path": "about.html",
+      "sha256": "c9e1330295bd5b439b9daaa85feebea4f411ef8d47763d3b2153e85e2dc600dc",
+      "exact_build_match": true,
+      "note": null
+    },
+    {
+      "path": "thirty-languages-and-the-journey-of-a-poem.html",
+      "sha256": "4619c489cc3238578ee99fb458ccaa37e3606fcf5bd934db4480c5735b9424e7",
+      "exact_build_match": true,
+      "note": null
+    },
+    {
+      "path": "assets/article-links.css",
+      "sha256": "3a127831dc0bf13c7cc1b48b360b9a6ff6a2195b0380341114c9b29c59db70ac",
+      "exact_build_match": true,
+      "note": null
+    },
+    {
+      "path": "assets/language-essay.css",
+      "sha256": "f97c9615432ab261d422ff42632e02fd420223628e98245687e41397bc454ce0",
+      "exact_build_match": true,
+      "note": null
+    },
+    {
+      "path": "runtime-config.json",
+      "sha256": "c0643006cddb37ded2c9e76ee2564da9df11e6ecad3aadfe956809cafd7d8745",
+      "exact_build_match": false,
+      "note": "Only expected hosted URL prefix differs"
+    },
+    {
+      "path": "assets/analytics.js",
+      "sha256": "c9b7ca39f408f2e2a1c64056aa46fa21c87f4a29026f9dd57a2344590f487180",
+      "exact_build_match": true,
+      "note": null
+    },
+    {
+      "path": "assets/engagement.js",
+      "sha256": "5f4f0b60a896853870370bd2f3bca1a84818086bcfd9ab447e128f24f63fad69",
+      "exact_build_match": true,
+      "note": null
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "2c3bb4ee00783a1e223f15b353fcc09b99032f8569d5525018c434c575706482",
+      "exact_build_match": false,
+      "note": "Only expected hosted URL prefix differs"
+    },
+    {
+      "path": "assets/articles/thirty-languages/world-languages-30.webp",
+      "sha256": "e11a3f959fb816a37f3e66c2400091b1a3121f087c7af754a5989769d7441797",
+      "exact_build_match": true,
+      "note": null
+    },
+    {
+      "path": "assets/articles/thirty-languages/poetry-across-languages-hero-800.webp",
+      "sha256": "08b59df766db7434d1306cfe18a7a0ad71ded382a33adc44d5484b1c28fe5d88",
+      "exact_build_match": true,
+      "note": null
+    },
+    {
+      "path": "assets/articles/thirty-languages/indian-languages-table.webp",
+      "sha256": "38d95a32b5ceb8b4724d28fc6dada88a16e2b59ad4a865cf2137faee4fb92faf",
+      "exact_build_match": true,
+      "note": null
+    },
+    {
+      "path": "assets/articles/thirty-languages/poetry-across-languages-hero.webp",
+      "sha256": "628ed7090d5c3978b0f5460ce4e6e2b98b8295aacb4532461c1de72d61c623c9",
+      "exact_build_match": true,
+      "note": null
+    }
+  ],
+  "sharing": {
+    "url": "https://ahimanikya.github.io/kabita-live/assets/social/c7db67eefea6f8d4976a.jpg",
+    "source": "assets/articles/thirty-languages/poetry-across-languages-hero.webp",
+    "sha256": "31f03bccc5f5bf10ff81076bd37c886c11ffe6a8cd2c2c5d9a148b6079b399ed",
+    "local_sha256": "31f03bccc5f5bf10ff81076bd37c886c11ffe6a8cd2c2c5d9a148b6079b399ed"
+  },
+  "scope": "HTTP checks with sharing crawler user-agent; not an actual social-platform scrape."
+}
