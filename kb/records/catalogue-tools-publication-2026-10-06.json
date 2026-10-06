@@ -1,14 +1,22 @@
 {
   "title": "Catalogue and poem toolbar publication",
-  "status": "verified_preparing_release",
+  "status": "published_live_verified",
   "authorization": "User: push this, after corrected Poems catalogue preview",
   "scope": "Five toolbar implementation files and generated reader pages; catalogue and individual-poem icon consistency",
   "baseline": "35883bd1414826cdaf58d6c235043f7974f24ecb",
   "checks": {
     "integrity": "895 existing content/data files unchanged",
-    "browser": "Local320px controls,search,language links,quiet reader and keyboard tooltips PASS"
+    "browser": "Local320px controls,search,language links,quiet reader and keyboard tooltips PASS",
+    "build": "Node24 public build PASS",
+    "workflow": "Tests,Firebase rules,build and deployment PASS",
+    "live": "8 exact live files match; search returns1 result for Saswati Hota; full-collection quiet reading opens"
   },
   "evidence": "kb/artifacts/review/catalogue-tools-publication-2026-10-06",
   "independent": false,
-  "recorded_at": "2026-10-06T09:33:28.934490+00:00"
+  "recorded_at": "2026-10-06T09:33:28.934490+00:00",
+  "commit": "04556a8f03e1153cd49abd0053c0a7d65ad714ee",
+  "workflow_id": 37443910555,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37443910555",
+  "live_url": "https://ahimanikya.github.io/kabita-live/poems.html",
+  "verified_at": "2026-10-06T09:40:52.012245+00:00"
 }
