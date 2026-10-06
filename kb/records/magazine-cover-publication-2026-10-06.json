@@ -1,7 +1,7 @@
 {
   "title": "Magazine cover presentation publication",
   "authorization": "User: push it, after reviewing magazine-cover treatment",
-  "status": "verified_ready_to_publish",
+  "status": "published_live_verified",
   "baseline": "08bb79cce92b6f6f7ef67bd3d1c2c82135c10696",
   "scope": "Cover presentation on currently published47editions, homepage and archive/year routes. Separate unpublished Edition48, reader and translation work excluded.",
   "implementation": [
@@ -11,9 +11,17 @@
   "checks": {
     "html": "54 pages identical to remote baseline after removing the approved class and stylesheet",
     "tests": "31 Node and12 Python PASS;10 emulator tests run in publication workflow",
-    "public_build": "Node24 PASS"
+    "public_build": "Node24 PASS",
+    "workflow": "Build, Firebase rules and deployment succeeded",
+    "live": "6 exact live HTML/CSS comparisons PASS; sharing images reachable; noindex retained",
+    "browser": "Live edition47:320x480 cover, binding/page-edge visible, no inherited transform; screenshot saved"
   },
   "independent": false,
   "recorded_at": "2026-10-06T08:40:02.547670+00:00",
-  "evidence": "kb/artifacts/review/magazine-cover-publication-2026-10-06"
+  "evidence": "kb/artifacts/review/magazine-cover-publication-2026-10-06",
+  "commit": "2b6497f57a6a952011bf7ba0b9f70bdcf29035d3",
+  "workflow_id": 37437701415,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37437701415",
+  "live_url": "https://ahimanikya.github.io/kabita-live/",
+  "verified_at": "2026-10-06T08:46:30.943776+00:00"
 }
