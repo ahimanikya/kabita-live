@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-06T11:52:57.551604+00:00",
-  "status": "publication_authorized",
+  "status": "published_live_verified",
   "decision": "KBL-DEC-057",
   "work": "KBL-WORK-035",
   "old": "ମାଟିର ମହକ / ମନର ସ୍ୱର",
@@ -24,10 +24,12 @@
     "browser": "Homepage desktop and360px phone: exact two-line text, no horizontal overflow; issue48 desktop signature fits original cover composition. Screenshot evidence saved.",
     "pdf": "Existing CoreText builder updated and one-page sheet regenerated; renderedPNG visually checked, no clipping. Both activePDFcopies match.",
     "services": "No runtime, consent, noindex, poetry or translation source changes.",
-    "review": "Current-assistant self-review; publication not performed.",
-    "handoff": "PASS;24080entries synchronized with hash verification;storagePASS. Final saved-record sync follows."
+    "review": "Current-assistant self-review; authorized publication live-verified",
+    "handoff": "PASS;24080entries synchronized with hash verification;storagePASS. Final saved-record sync follows.",
+    "live": "PASS: homepage and all48 edition pages;exact approved tagline,no old tagline,noindex retained",
+    "workflow": "Build,Firebase rules and Pages deploy PASS"
   },
-  "published": false,
+  "published": true,
   "independent_review": false,
   "publication_authorization": "User: push it, following verified local tagline update.",
   "release_scope": "Exact tagline replacements on latest origin/main; two updated branding-sheet PDF copies. Unrelated local translations/readers excluded.",
@@ -38,5 +40,10 @@
     "protected_files": "867 content/catalogue files byte-identical to baseline",
     "diff": "All text changes are exact tagline replacements except explicit website-rulebook rule; two verified PDF copies",
     "dist": "No old tagline matches"
-  }
+  },
+  "commit": "09b84484d5aedb5ccd0ed375769e6b114f0123bd",
+  "workflow_id": 37460369055,
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37460369055",
+  "live_url": "https://ahimanikya.github.io/kabita-live/",
+  "verified_at": "2026-10-06T12:06:26.364279+00:00"
 }
