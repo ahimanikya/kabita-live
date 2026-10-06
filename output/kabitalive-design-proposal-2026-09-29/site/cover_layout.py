@@ -20,4 +20,7 @@ def apply_cover_styles(root):
         text=path.read_text()
         if 'data-cover-edition=' in text:
             text=text.replace('</head>','<link rel="stylesheet" href="assets/cover-layout-b.css?v=20261004"></head>')
+            if path.name in ('index.html','archive.html') or re.fullmatch(r'(?:issue-\d+|archive-\d{4})\.html',path.name):
+                text=re.sub(r'class="(cover photo-cover cover-b cover-\d+)(?: magazine-object)?"',r'class="\1 magazine-object"',text)
+                text=text.replace('</head>','<link rel="stylesheet" href="assets/magazine-covers.css?v=1"></head>')
             path.write_text(text)
