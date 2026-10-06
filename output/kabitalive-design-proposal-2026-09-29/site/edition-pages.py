@@ -1,14 +1,11 @@
 from poem_reader import render_reader, TRANSLATIONS
-from reader_icons import quiet_reader_icon
+from reader_icons import quiet_reader_icon, reader_action_icon
 """Render the captured publication, using edition manifests as the content authority."""
 publication_by_issue={x['number']:x for x in publication_issues}
 language_labels={'or':'ଓଡ଼ିଆ','hi':'हिन्दी','en':'English'}
 
 def discovery_mark(name):
-    import re
-    svg=(R/f'assets/icons/earth-voice-v1/ink/{name}.svg').read_text()
-    svg=re.sub(r' role="img"| aria-label="[^"]*"| aria-hidden="[^"]*"| focusable="[^"]*"','',svg)
-    return svg.replace('<svg ','<svg aria-hidden="true" focusable="false" ',1)
+    return reader_action_icon(name)
 
 discovery_styles='<link rel="stylesheet" href="assets/reading-discovery.css?v=18">'
 
@@ -95,13 +92,13 @@ def collection_tools_markup():
 
 def collection_actions(route,title,kind,editorial=False):
     metadata=e(json.dumps({'id':route.removesuffix('.html'),'reader':route,'title':title,'author':'Kabita Live','lang':'en','kind':kind},ensure_ascii=False))
-    if kind=='edition':
-        def tip(text):return f'<span class="edition-action-tip" aria-hidden="true">{text}</span>'
-        links=''
-        links+=f'<button type="button" class="edition-icon-action" data-share-collection="{metadata}" aria-label="Share edition">'+discovery_mark('share')+tip('Share edition')+'</button>'
-        links+='<button type="button" class="edition-icon-action" id="open-focus" aria-label="Read quietly">'+quiet_reader_icon()+tip('Read quietly')+'</button>'
-        return '<div class="edition-reading edition-icon-toolbar">'+collection_languages_markup(compact=True)+'<div class="edition-entry-actions" id="collection-reader-tools" role="group" aria-label="Edition reading actions">'+links+'</div></div>'
-    return '<div class="collection-actions" role="group" aria-label="Reading actions">'+collection_tools_markup()+f'<button type="button" data-share-collection="{metadata}">'+discovery_mark('share')+'<span>Share</span></button><button type="button" id="open-focus">'+quiet_reader_icon()+'<span>Read quietly</span></button>'+('<a class="text-link collection-archive" href="archive.html">All editions</a>' if kind=='edition' else '')+'</div>'
+    def tip(text):return f'<span class="edition-action-tip" aria-hidden="true">{text}</span>'
+    share_label='Share edition' if kind=='edition' else 'Share poems'
+    action_label='Edition reading actions' if kind=='edition' else 'Poems reading actions'
+    links=f'<button type="button" class="edition-icon-action" data-share-collection="{metadata}" aria-label="{share_label}">'+discovery_mark('share')+tip(share_label)+'</button>'
+    links+='<button type="button" class="edition-icon-action" id="open-focus" aria-label="Read quietly">'+quiet_reader_icon()+tip('Read quietly')+'</button>'
+    return '<div class="edition-reading edition-icon-toolbar">'+collection_languages_markup(compact=True)+f'<div class="edition-entry-actions" id="collection-reader-tools" role="group" aria-label="{action_label}">'+links+'</div></div>'
+
 
 from poem_experience import prepare_readers, enhance_poem, encoded
 import re

@@ -62,7 +62,7 @@ def page(file,title,body,active='',desc=''):
  if file!='index.html' and file not in REVIEW_FILES:
   analytics_scripts+='<link rel="stylesheet" href="assets/mobile-artwork.css?v=1">'
  if 'id="reading-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-reader.css?v=3"><script type="module" src="assets/poem-reader.js?v=7"></script>'
- if 'id="focus-edition-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-experience.css?v=20"><script type="module" src="assets/poem-experience.js?v=15"></script>'
+ if 'id="focus-edition-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-experience.css?v=21"><script type="module" src="assets/poem-experience.js?v=15"></script>'
  if file=='contact.html': analytics_scripts+='<script type="module" src="assets/private-feedback.js"></script>'
  if 'data-poem-engagement=' in body: analytics_scripts+='<link rel="stylesheet" href="assets/engagement.css?v=single-field-20261004"><script type="module" src="assets/engagement.js?v=toolbar-20261006"></script>'
  poem=publication_readers.get(file) or next((p for p in poems if file=='poem-'+p['slug']+'.html'),None)

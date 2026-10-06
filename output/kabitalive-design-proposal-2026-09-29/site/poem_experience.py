@@ -3,7 +3,7 @@ from pathlib import Path
 from html import escape
 import json,re
 from poem_reader import render_reader
-from reader_icons import quiet_reader_icon
+from reader_icons import quiet_reader_icon, reader_action_icon
 from writer_names import writer_aliases
 ROOT=Path(__file__).resolve().parent
 READING_RE=re.compile(r'(<script type="application/json" id="reading-data">)(.*?)(</script>)',re.S)
@@ -104,7 +104,7 @@ def enhance_poem(body,p,data):
     language_controls='<div class="language-front poem-language-front"><div class="reading-tabs" role="tablist" aria-label="Poem language">'+''.join(choices)+'</div></div>'
     body=body.replace('<div class="poem-actions" role="group" aria-label="Poem actions">',language_controls+'<div class="poem-actions" role="group" aria-label="Poem actions">',1)
     panel='<section id="page-bookmarks" aria-label="Reader tools" hidden><div class="page-tools-head"><strong>Reader tools</strong><button id="page-bookmarks-close" type="button" aria-label="Close reader tools">×</button></div><button id="page-save-place" type="button">Bookmark this poem</button><details id="page-saved-details"><summary>Saved places &amp; passages</summary><div id="page-saved-list"></div><div class="mark-tools"><button type="button" class="clear-marks" id="clear-marks" hidden>Clear marks</button></div></details><p class="page-tools-tip">Select words in the poem to underline them. Saved on this device.</p><span id="page-saved-status" class="sr-only" role="status"></span></section>'
-    body=body.replace('<div class="poem-actions" role="group" aria-label="Poem actions">','<div class="poem-actions" role="group" aria-label="Poem actions"><button id="page-bookmarks-button" type="button" aria-label="Bookmarks and saved passages" title="Bookmarks and saved passages" aria-expanded="false" aria-controls="page-bookmarks"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6 3.5h12v17l-6-4-6 4z"/></svg><span>Bookmarks</span></button>',1)
+    body=body.replace('<div class="poem-actions" role="group" aria-label="Poem actions">','<div class="poem-actions" role="group" aria-label="Poem actions"><button id="page-bookmarks-button" type="button" aria-label="Bookmarks and saved passages" title="Bookmarks and saved passages" aria-expanded="false" aria-controls="page-bookmarks">'+reader_action_icon('bookmark')+'<span>Bookmarks</span></button>',1)
     body,count=re.subn(r'</div></div>(<(?:figure|aside) class="poem-art)',lambda m:'</div>'+panel+'</div>'+m[1],body,count=1)
     if count!=1:raise ValueError(f'Missing reader-tools insertion point for {p["id"]}')
     body=re.sub(r'<div id="reading-panel"[^>]*>', f'<div id="reading-panel" role="tabpanel" aria-labelledby="tab-{data["source_language"]}" tabindex="0">',body,count=1)
@@ -121,6 +121,7 @@ def enhance_poem(body,p,data):
     engagement=re.sub(r'<div class="like-row">.*?</div>','',engagement,flags=re.S)
     actions=re.search(r'<div class="poem-actions"[^>]*>.*?</div>',body,re.S)
     compact=actions[0].replace('</div>',like_row+'</div>')
+    compact=re.sub(r'(<button\b[^>]*data-share="[^"]*"[^>]*>)<svg\b.*?</svg>', lambda m:m[1]+reader_action_icon('share'), compact, flags=re.S)
     compact=compact.replace('<span>Bookmarks</span>','<span class="poem-action-tip" aria-hidden="true">Bookmarks</span>').replace('<span>Share</span>','<span class="poem-action-tip" aria-hidden="true">Share</span>').replace('<span>Read quietly</span>','<span class="poem-action-tip" aria-hidden="true">Read quietly</span>')
     compact=compact.replace('data-share="', 'aria-label="Share poem" title="Share poem" data-share="').replace('aria-label="Read quietly"','aria-label="Read quietly" title="Read quietly"')
     body=body[:actions.start()]+compact+body[actions.end():]

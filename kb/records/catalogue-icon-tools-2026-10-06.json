@@ -1,0 +1,22 @@
+{
+  "title": "Poems catalogue edition-style icon tools",
+  "status": "verified_local",
+  "published": false,
+  "route": "poems.html",
+  "request": "User clarified /poems.html as the intended page",
+  "work_ref": "KBL-WORK-032",
+  "updated_at": "2026-10-06T09:28:55.789867+00:00",
+  "changes": [
+    "Reuse the exact edition icon toolbar component on Poems listing",
+    "Original reset,three script shortcuts,separator,Share poems and Read quietly; native accessible labels and hover/focus tooltips",
+    "Search,poet/edition filters,pagination and full-collection reader retained"
+  ],
+  "checks": {
+    "public_build": "Node24 PASS",
+    "mobile": "320px:6 controls44x44 at y283.875; no overflow",
+    "behavior": "English adds lang=en to poem links; search Saswati Hota returns1 poem; Original reset and full-collection quiet reader work",
+    "markup": "Single shared toolbar and reader trigger; finder/results/pagination remain"
+  },
+  "evidence": "kb/artifacts/review/catalogue-icon-tools-2026-10-06",
+  "independent": false
+}

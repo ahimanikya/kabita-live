@@ -1,0 +1,14 @@
+{
+  "title": "Catalogue and poem toolbar publication",
+  "status": "verified_preparing_release",
+  "authorization": "User: push this, after corrected Poems catalogue preview",
+  "scope": "Five toolbar implementation files and generated reader pages; catalogue and individual-poem icon consistency",
+  "baseline": "35883bd1414826cdaf58d6c235043f7974f24ecb",
+  "checks": {
+    "integrity": "895 existing content/data files unchanged",
+    "browser": "Local320px controls,search,language links,quiet reader and keyboard tooltips PASS"
+  },
+  "evidence": "kb/artifacts/review/catalogue-tools-publication-2026-10-06",
+  "independent": false,
+  "recorded_at": "2026-10-06T09:33:28.934490+00:00"
+}

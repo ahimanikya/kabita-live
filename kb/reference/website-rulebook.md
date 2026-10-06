@@ -225,3 +225,13 @@ At the top of edition contents, group all language and action controls on one li
 ### Printed magazine cover treatment — 6 October 2026
 
 Present issue covers on the home page, edition pages and archive/year pages as restrained printed magazines: a slim left binding fold, a shallow paper edge at right/bottom, and a soft static shadow. Keep the approved cover SVG, masthead, signature, complete artwork and 2:3 ratio unchanged. Apply through the shared cover renderer’s route-scoped `magazine-object` class and `assets/magazine-covers.css`; no new bitmap or script is needed. Do not add tilt animations, page-turn effects, frames around poem artwork, or this treatment to the homepage landscape. Preserve original social-preview assets and cover history. Check narrow phones, compact home cards, light/dark themes and printed output. This is a cover-only exception to the earlier borderless-inner-artwork wording; poem illustrations remain borderless.
+
+
+### Matching poem and edition tools — 6 October 2026
+
+Poem action icons use the same canonical Earth Voice assets as edition controls through `reader_icons.reader_action_icon`: Share and Read quietly must not have separately drawn variants. Bookmark uses the existing approved bookmark asset. Match 23px symbols inside 44px controls, restrained hover fill, script typefaces, tooltip spacing and focus treatment. Keep the three poem language tabs, one group separator, Bookmark, Share, Read quietly and Like on one row; only one tooltip is visible across language and action groups when keyboard focus is present. Retain the real Like service gates and existing comments.
+
+
+### Poems catalogue icon toolbar — 6 October 2026
+
+The Poems listing (`poems.html`) reuses the edition icon toolbar at the top of its contents: Original-language reset, ଅ / अ / A, a subtle group separator, Share poems and Read quietly. All six controls stay on one row with44px targets, native-name/accessibility labels and hover/focus tooltips. Preserve the search field, poet/edition filters, pagination, language-aware links and full-collection quiet reading. This supersedes the earlier instruction to keep the catalogue full-word controls unchanged.
