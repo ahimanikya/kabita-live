@@ -29,7 +29,7 @@ for(const path of selected){
  let result={path,width,mode,clipped,overflowNodes,scroll:d.documentElement.scrollWidth,brokenImages:[...d.images].filter(x=>x.complete&&!x.naturalWidth).length,deferredImages:[...d.images].filter(x=>!x.complete).length,nav};
  result.hindiFontLoaded=[...d.fonts].some(face=>face.family.replace(/['"]/g,'')==='Tiro Devanagari Hindi'&&face.status==='loaded');
  result.hindiText=[...d.querySelectorAll('body *')].filter(el=>!['SCRIPT','STYLE'].includes(el.tagName)&&[...el.childNodes].some(n=>n.nodeType===3&&/[\u0900-\u097F]/.test(n.textContent))).map(el=>({text:el.textContent.slice(0,60),family:w.getComputedStyle(el).fontFamily,weight:w.getComputedStyle(el).fontWeight}));
- result.odiaFontReady=d.fonts.check('16px "Noto Serif Oriya"','ମାଟିର ମହକ ମନର ସ୍ୱର');
+ result.odiaFontReady=d.fonts.check('16px "Noto Serif Oriya"','ମାଟିର ମହକ ହୃଦୟର ସ୍ବର');
  result.odiaText=[...d.querySelectorAll('body *')].filter(el=>!['SCRIPT','STYLE'].includes(el.tagName)&&[...el.childNodes].some(n=>n.nodeType===3&&/[\u0B00-\u0B7F]/.test(n.textContent))).map(el=>({text:el.textContent.slice(0,60),family:w.getComputedStyle(el).fontFamily}));
  const banner=d.querySelector('.page-head,.poem-opening,.writer-hero');
  if(banner){

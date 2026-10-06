@@ -114,7 +114,7 @@ for p in issues:
         '</a></h3><a href="'+x['profile']+'">'+e(x['author'])+'</a></article>' for i,x in enumerate(entries))
     page(f'issue-{n}.html',f'Issue {n}',crumb('<a href="archive.html">Archive</a> / '+str(n))+
         '<section class="issue-intro">'+cover(n)+'<div><span class="eyebrow">Issue '+str(n)+'</span><h1>'+e(p['month']+' '+p['year'])+
-        '</h1><p class="signature" lang="or">ମାଟିର ମହକ · ମନର ସ୍ୱର</p></div></section>'+coverstory(n)+
+        '</h1><p class="signature" lang="or">ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର</p></div></section>'+coverstory(n)+
         '<section class="section"><h2>Within these pages.</h2>'+contents+
         '<p class="content-status">The complete contents are not yet available here.</p></section>',active='Archive')
 

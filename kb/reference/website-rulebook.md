@@ -235,3 +235,7 @@ Poem action icons use the same canonical Earth Voice assets as edition controls 
 ### Poems catalogue icon toolbar — 6 October 2026
 
 The Poems listing (`poems.html`) reuses the edition icon toolbar at the top of its contents: Original-language reset, ଅ / अ / A, a subtle group separator, Share poems and Read quietly. All six controls stay on one row with44px targets, native-name/accessibility labels and hover/focus tooltips. Preserve the search field, poet/edition filters, pagination, language-aware links and full-collection quiet reading. This supersedes the earlier instruction to keep the catalogue full-word controls unchanged.
+
+## Odia signature — 6 October 2026
+
+Use **ମାଟିର ମହକ / ହୃଦୟର ସ୍ବର** in all current placements, preserving established line breaks or one-line separators. Historical snapshots remain unchanged. User-approved replacement; see `../records/tagline-2026-10-06.json`.

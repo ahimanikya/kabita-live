@@ -8,7 +8,7 @@ def apply_our_story(site):
     if 'class="wrap inner-artistic our-story"' in s:
         return
     old=re.search(r'<div class="side-layout"><div class="prose">(.*?)</div><aside',s,re.S).group(1)
-    new='''<h2 class="or" lang="or">ମାଟିର ମହକ · ମନର ସ୍ୱର</h2>
+    new='''<h2 class="or" lang="or">ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର</h2>
     <p class="story-signature">The fragrance of earth. The voice of the heart.</p>
     <p>Rooted in Odia, Kabita Live brings poetry in Odia, Hindi and English into a shared literary home. Each language has its own music; each poem offers another way of seeing.</p>
     <h2>Room for another voice.</h2>

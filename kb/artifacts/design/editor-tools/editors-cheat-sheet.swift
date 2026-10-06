@@ -33,7 +33,7 @@ c.beginPDFPage(nil);fill(0,0,595.28,841.89,paper)
 text("EDITOR'S BRANDING CHEAT SHEET",34,27,10,"Helvetica-Bold",rust)
 text("Kabita Live",34,52,34,displayName)
 
-text("ମାଟିର ମହକ · ମନର ସ୍ୱର",34,118,21,"NotoSerifOriya-Regular",rust)
+text("ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର",34,118,21,"NotoSerifOriya-Regular",rust)
 text("Poetry is an echo, asking a shadow to dance.",34,159,13,displayItalic)
 text("English masthead. Odia signature. Three languages, with equal care.",34,184,9.6,"Helvetica",muted)
 section("01","NAME & LANGUAGES","Use Kabita Live alone in the masthead. Keep the Odia signature separate. Put Odia, Hindi and English filters beside the poem lists, outside the header. Preserve each poem’s original script.",34,212)

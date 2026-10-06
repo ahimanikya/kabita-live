@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-10-06T11:52:57.551604+00:00",
+  "status": "publication_authorized",
+  "decision": "KBL-DEC-057",
+  "work": "KBL-WORK-035",
+  "old": "ମାଟିର ମହକ / ମନର ସ୍ୱର",
+  "approved": "ମାଟିର ମହକ / ହୃଦୟର ସ୍ବର",
+  "authority": "User requested exact replacement wherever used, with batch processing if needed.",
+  "scope": "Current site builders,48cover compositions and downloadable cover SVGs, sharing captions, branding logos/tokens/guide/printable sheet, KB current reference and portable handoff.",
+  "history": "Original magazine sources, dated source captures, old release/design snapshots, historical records and previously posted external social artwork remain historical evidence; not rewritten or reposted.",
+  "checks": {
+    "projects/site/dist": {
+      "files_scanned": 1827,
+      "old_signature_matches": []
+    },
+    "projects/site/.public": {
+      "files_scanned": 504,
+      "old_signature_matches": []
+    },
+    "covers": "48/48 current cover compositions have exact approved spelling; downloadable SVG assets updated.",
+    "node24_build": "PASS;build.log",
+    "cover_regressions": "2passed",
+    "edition_check": "PASS;48editions,810poems,848source hashes",
+    "browser": "Homepage desktop and360px phone: exact two-line text, no horizontal overflow; issue48 desktop signature fits original cover composition. Screenshot evidence saved.",
+    "pdf": "Existing CoreText builder updated and one-page sheet regenerated; renderedPNG visually checked, no clipping. Both activePDFcopies match.",
+    "services": "No runtime, consent, noindex, poetry or translation source changes.",
+    "review": "Current-assistant self-review; publication not performed.",
+    "handoff": "PASS;24080entries synchronized with hash verification;storagePASS. Final saved-record sync follows."
+  },
+  "published": false,
+  "independent_review": false,
+  "publication_authorization": "User: push it, following verified local tagline update.",
+  "release_scope": "Exact tagline replacements on latest origin/main; two updated branding-sheet PDF copies. Unrelated local translations/readers excluded.",
+  "release_verification": {
+    "baseline": "ac40d026488b5a858f82c8fb8aee4410cdc1b26b",
+    "build": "Node 24 PASS",
+    "tests": "31 passed,10 skipped;14 Python tests passed",
+    "protected_files": "867 content/catalogue files byte-identical to baseline",
+    "diff": "All text changes are exact tagline replacements except explicit website-rulebook rule; two verified PDF copies",
+    "dist": "No old tagline matches"
+  }
+}

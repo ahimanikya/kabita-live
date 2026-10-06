@@ -3,7 +3,7 @@ okf_version: "0.2"
 ---
 # Kabita Live · project knowledge
 
-A poetry journal shaped by **ମାଟିର ମହକ · ମନର ସ୍ୱର**. This knowledge base records the redesign project, not ownership of the existing magazine.
+A poetry journal shaped by **ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର**. This knowledge base records the redesign project, not ownership of the existing magazine.
 
 - [Project charter](TEAM-CHARTER.md) · [Working agreement](Working-Agreement.md)
 - [Current work and decisions](registers/DASHBOARD.md) · [Activity ledger](registers/activity.jsonl)

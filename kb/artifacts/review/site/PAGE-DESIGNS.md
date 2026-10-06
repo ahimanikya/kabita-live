@@ -6,7 +6,7 @@ Open `index.html` for the journal or `all-pages.html` for every design. `site-co
 
 ## Shared identity
 
-**କବିତା ଲାଇଭ. / Kabita Live** retains the established name. **ମାଟିର ମହକ। ମନର ସ୍ୱର।** appears in the header and footer on every journal template. The existing English epigraph remains a separate literary invitation. Warm paper, red earth, script-specific reading fonts and watercolor at the page edges connect the pages. Cover studies use realistic individual imagery, while verse sits on quiet paper.
+**କବିତା ଲାଇଭ. / Kabita Live** retains the established name. **ମାଟିର ମହକ। ହୃଦୟର ସ୍ବର।** appears in the header and footer on every journal template. The existing English epigraph remains a separate literary invitation. Warm paper, red earth, script-specific reading fonts and watercolor at the page edges connect the pages. Cover studies use realistic individual imagery, while verse sits on quiet paper.
 
 The masthead is Odia-led with a clearly readable Roman companion. Odia, Hindi and English reading choices have equal access. Language filtering never implies that a translation exists. Fonts load from Google in this preview; production should use properly licensed self-hosted files.
 

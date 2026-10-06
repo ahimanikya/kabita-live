@@ -9,7 +9,7 @@ The journal should feel like cotton paper, a quiet room and a voice close enough
 | Element | Standard |
 |---|---|
 | Identity | English-only Kabita Live masthead; the same mark on the site and magazine. |
-| Signature | ମାଟିର ମହକ / ମନର ସ୍ୱର in dark ink, with a shared left edge. No repeat in the footer. |
+| Signature | ମାଟିର ମହକ / ହୃଦୟର ସ୍ବର in dark ink, with a shared left edge. No repeat in the footer. |
 | Colour | Paper #F5EFDF; ink #263C3C; sea #125465; laterite #963F28; hearth #78643A; muted ink #655F51; pale paper #EAE1CD; rules #D2C6AC. Use colour by role, not by page. |
 | English | Cormorant Garamond 500 for display; genuine italic for large quotations. Source Serif 4 for sustained reading. |
 | Odia | Noto Serif Oriya throughout. Natural spacing and upright shaping. |

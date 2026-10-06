@@ -11,18 +11,18 @@ symbol=(r/'revision-04/kabita-live-symbol.svg').read_text().replace('#A54232',co
 paths=''.join(re.findall(r'<path[^>]+/>',symbol))
 def wordmark_svg(compact=False):
  height=180 if compact else 280
- signature='' if compact else '<text x="175" y="218" font-family="Noto Serif Oriya, serif" font-size="32" fill="#963F28">ମାଟିର ମହକ · ମନର ସ୍ୱର</text>'
+ signature='' if compact else '<text x="175" y="218" font-family="Noto Serif Oriya, serif" font-size="32" fill="#963F28">ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର</text>'
  return f'<svg xmlns="http://www.w3.org/2000/svg" width="800" height="{height}" viewBox="0 0 800 {height}" role="img" aria-label="Kabita Live"><g transform="translate(20 20) scale(.5)">{paths}</g><text x="175" y="113" font-family="Cormorant Garamond, Georgia, serif" font-weight="500" font-size="80" fill="#125465">Kabita Live</text>{signature}</svg>'
 lock=wordmark_svg()
 (a/'logo-primary.svg').write_text(lock)
 (a/'logo-ink.svg').write_text(lock.replace('#125465',colors['Ink']).replace(colors['Laterite'],colors['Ink']))
 (a/'logo-reversed.svg').write_text(lock.replace('#125465',colors['Paper']).replace(colors['Laterite'],colors['Paper']))
 (a/'logo-compact.svg').write_text(wordmark_svg(True))
-(a/'brand-tokens.json').write_text(json.dumps({'name_odia':'କବିତା ଲାଇଭ.','name_roman':'Kabita Live','signature':'ମାଟିର ମହକ · ମନର ସ୍ୱର','epigraph':'Poetry is an echo, asking a shadow to dance.','colours':colors,'fonts':{'wordmark':'Cormorant Garamond','english_display':'Cormorant Garamond','english_display_weight':500,'odia':'Noto Serif Oriya','hindi':'Tiro Devanagari Hindi','english':'Source Serif 4','interface':'Arial, system sans-serif'}},ensure_ascii=False,indent=2))
+(a/'brand-tokens.json').write_text(json.dumps({'name_odia':'କବିତା ଲାଇଭ.','name_roman':'Kabita Live','signature':'ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର','epigraph':'Poetry is an echo, asking a shadow to dance.','colours':colors,'fonts':{'wordmark':'Cormorant Garamond','english_display':'Cormorant Garamond','english_display_weight':500,'odia':'Noto Serif Oriya','hindi':'Tiro Devanagari Hindi','english':'Source Serif 4','interface':'Arial, system sans-serif'}},ensure_ascii=False,indent=2))
 def data(p,mime):return 'data:'+mime+';base64,'+base64.b64encode(p.read_bytes()).decode()
 art=data(r/'revision-02/odisha-watercolour.webp','image/webp');icons={x:data(a/f'symbol-{x}.svg','image/svg+xml') for x in ['colour','ink','reversed','small']}
 def logo(kind='colour',compact=False):
- return f'<div class="logo {"compact" if compact else ""}"><img src="{icons[kind]}" alt=""><div><div class="wordmark" lang="en">Kabita Live</div>'+('' if compact else '<div class="signature" lang="or">ମାଟିର ମହକ · ମନର ସ୍ୱର</div>')+'</div></div>'
+ return f'<div class="logo {"compact" if compact else ""}"><img src="{icons[kind]}" alt=""><div><div class="wordmark" lang="en">Kabita Live</div>'+('' if compact else '<div class="signature" lang="or">ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର</div>')+'</div></div>'
 def contrast(h):
  def lum(h):
   rgb=[int(h[i:i+2],16)/255 for i in [1,3,5]]
