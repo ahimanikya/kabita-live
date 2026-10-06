@@ -1,8 +1,8 @@
 {
   "edition": 48,
   "source_archive_id": 59,
-  "status": "integrated_verified_local",
-  "scope": "Local edition sync and repeatable playbook; publication not yet requested for this edition.",
+  "status": "published_live_verified",
+  "scope": "Issue48 content, illustrations, poet profiles and reviewed reader tools published under explicit user push it authorization.",
   "started_at": "2026-10-06T03:51:14.396337+00:00",
   "poem_ids": [
     826,
@@ -73,7 +73,7 @@
     }
   },
   "updated_at": "2026-10-06T05:30:33.709164+00:00",
-  "published": false,
+  "published": true,
   "preview_url": "http://127.0.0.1:8771/issue-48.html",
   "playbook": "kb/production/edition-sync/PLAYBOOK.md",
   "review_pack": "kb/artifacts/edition-sync/edition-48/review/index.html",
@@ -125,10 +125,9 @@
   "limitations": [
     "Translations remain drafts for poet/editor feedback; assistant review is not independent literary approval.",
     "New portrait likeness checks are self-review; publication rights for journal source photographs not independently verified.",
-    "Saswati Hota and Bani Mohanty have intentionally modest biographies because external identity matches were insufficient.",
-    "Local edition only: no Edition48 Git push or website publication has occurred."
+    "Saswati Hota and Bani Mohanty have intentionally modest biographies because external identity matches were insufficient."
   ],
-  "next_action": "Review the updated Edition48 imagery and illustrated editorial locally; publish only when requested.",
+  "next_action": "Collect poet/editor feedback for further literary refinement.",
   "handoff": {
     "status": "verified",
     "recovery_evidence": "kb/artifacts/edition-sync/edition-48/handoff-recovery/reconciliation.json",
@@ -155,5 +154,6 @@
       "record": "kb/research/edition-sync/edition-48/revision-03/scope.json",
       "authorization": "KBL-DEC-055"
     }
-  ]
+  ],
+  "publication_record": "kb/records/edition-48-publication-2026-10-06.json"
 }

@@ -1,0 +1,22 @@
+{
+  "title": "Grouped edition icon toolbar",
+  "work_ref": "KBL-WORK-032",
+  "status": "published_live_verified",
+  "published": true,
+  "independent": false,
+  "updated_at": "2026-10-06T08:11:00.564745+00:00",
+  "changes": [
+    "Single row of Original reset, Odia/Hindi/English glyphs, separator, Share and Read quietly",
+    "44px targets, native labels and focus/hover tooltips",
+    "Original fallback and language inheritance preserved; catalogue and opening links unchanged"
+  ],
+  "checks": {
+    "build": "Node24 PASS",
+    "scoped_public_checks": "PASS all48edition toolbars, existing source/art/sharing/reader checks",
+    "browser": "320px no overflow, six44px controls at same y;1280px same row; English updates links with lang=en, Original removes language query"
+  },
+  "evidence": "kb/artifacts/review/edition-icon-toolbar-2026-10-06",
+  "handoff": "Normal sync and storage PASS.",
+  "publication_record": "kb/records/edition-48-publication-2026-10-06.json",
+  "next_action": "Published; collect reader feedback."
+}

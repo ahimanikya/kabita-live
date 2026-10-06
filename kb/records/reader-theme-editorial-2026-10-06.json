@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-06",
+  "status": "published_live_verified",
+  "published": true,
+  "work_ref": "KBL-WORK-032",
+  "request": "Remove reviewed editorial draft notice; restore reader dark theme control.",
+  "changes": [
+    "Edition48 status user_reviewed; recorded Ahimanikya review and removed draft notice across Odia/English/Hindi. Editorial wording, quotations and attribution unchanged.",
+    "Restored shared System/Light/Dark toggle in existing quiet-reader bottom bar,44px target with current/next-state label.",
+    "Updated rulebook, playbook, checklist and design guide."
+  ],
+  "verification": {
+    "independent": false,
+    "build": "PASS Node24 full build after one preserved concurrent-output interruption",
+    "integrity": "PASS source/art/translation/share checks, all48 edition control checks and every public quiet-reader theme button",
+    "browser": "PASS theme cycle/synchronization/reload and320px mobile single-row footer. Original System preference restored."
+  },
+  "evidence": "kb/artifacts/review/reader-theme-editorial-2026-10-06/",
+  "next_action": "Published; collect reader feedback.",
+  "publication_record": "kb/records/edition-48-publication-2026-10-06.json"
+}

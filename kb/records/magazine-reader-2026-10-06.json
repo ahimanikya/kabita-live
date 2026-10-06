@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-06",
+  "status": "published_live_verified",
+  "published": true,
+  "work_ref": "KBL-WORK-032",
+  "request": "One reader mode with optional illustrations off by default; centered page and book positions; magazine background.",
+  "changes": [
+    "Optional assigned illustrations at poem openings, text-led assignments stay text-led. Same-size measurement placeholder avoids image requests while off.",
+    "Centered folio on each leaf and centered visible-range/total at book level; reserved folio height in pagination.",
+    "Existing cotton-paper texture, subtle gutter and leaf framing in light mode; texture-free dark mode.",
+    "Reader data shares poem-page assignments; source poems/translations/credits/art unchanged.",
+    "Updated rulebook, edition playbook, page checklist and design guide."
+  ],
+  "verification": {
+    "independent": false,
+    "build": "PASS Node24 public build",
+    "tests": "31Node and14Python passed;10emulator tests skipped",
+    "integrity": "PASS all48 editions, source/art/sharing checks, every optional illustration matches its actual poem-page image",
+    "browser": "PASS default off, optional image rendering, centered folios/progress,320px and desktop, selected poem retained in visible spread."
+  },
+  "evidence": "kb/artifacts/review/magazine-reader-2026-10-06/",
+  "next_action": "Published; collect reader feedback.",
+  "publication_record": "kb/records/edition-48-publication-2026-10-06.json"
+}

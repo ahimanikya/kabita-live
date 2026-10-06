@@ -1,0 +1,39 @@
+{
+  "title": "Printed magazine cover presentation",
+  "work_ref": "KBL-WORK-032",
+  "status": "local_review_ready",
+  "published": false,
+  "independent": false,
+  "updated_at": "2026-10-06T08:23:58.042325+00:00",
+  "scope": [
+    "Homepage recent editions",
+    "48 edition pages",
+    "Archive and five year archives"
+  ],
+  "changes": [
+    "Static binding fold, shallow page edges and soft shadow through shared CSS",
+    "Original cover artwork, full SVG composition, lettering, 2:3 ratio and social assets unchanged",
+    "No new image downloads or runtime script; print removes decorative material effects"
+  ],
+  "checks": {
+    "build": "Node24 PASS",
+    "cover_delivery_tests": "2 PASS",
+    "cover_integrity": {
+      "result": "PASS",
+      "routes": 55,
+      "unchanged_cover_instances": 339,
+      "errors": [],
+      "independent": false
+    },
+    "scoped_source_reader_sharing": "PASS",
+    "browser": "1280px edition light and archive dark;320px home/archive/edition no horizontal overflow, full2:3 covers;104px compact cards checked;390px edition inspected",
+    "public_css_sha256": "93e11920c817b9a5bf300fb3653f710622e4e33a11f8798bd8da6997f24c2724"
+  },
+  "evidence": "kb/artifacts/review/magazine-covers-2026-10-06",
+  "handoff": "Normal sync and storage PASS; 23236 entries synchronized.",
+  "publication": {
+    "status": "published_all48editions",
+    "record": "kb/records/edition-48-publication-2026-10-06.json",
+    "prior_cover_release": "kb/records/magazine-cover-publication-2026-10-06.json"
+  }
+}

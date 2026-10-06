@@ -1,0 +1,22 @@
+{
+  "title": "One grouped poem toolbar",
+  "work_ref": "KBL-WORK-032",
+  "status": "published_live_verified",
+  "published": true,
+  "independent": false,
+  "updated_at": "2026-10-06T08:05:51.266867+00:00",
+  "changes": [
+    "All three language tabs and four actions in one row",
+    "One decorative vertical separator between language and action groups",
+    "Visible Read in label removed; semantics/tooltips/44px targets retained"
+  ],
+  "checks": {
+    "build": "PASS Node24; first attempt intercepted transient generated cover-studies link during concurrent build; retry current source passed",
+    "integrity": "PASS full current scoped reader/content/art/sharing checks",
+    "browser": "PASS320px and1280px all7controls same y with44px targets, no320px overflow;390px separator verified20px; screenshots saved"
+  },
+  "evidence": "kb/artifacts/review/one-line-poem-tools-2026-10-06",
+  "handoff": "Normal sync and storage PASS after preserved, hash-guarded reconciliation of concurrent stale copies.",
+  "publication_record": "kb/records/edition-48-publication-2026-10-06.json",
+  "next_action": "Published; collect reader feedback."
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-06",
+  "status": "published_live_verified",
+  "published": true,
+  "work_ref": "KBL-WORK-032",
+  "request": "Keep Read Poems and Read Editorial on top; move the rest to top of content.",
+  "changes": [
+    "Two visible text links under edition title, editorial link only where editorial exists",
+    "Language, text-size cycle, sharing and quiet reading moved to start of poem contents",
+    "One control set per edition; quiet-reader header and editorial-only line art preserved"
+  ],
+  "verification": {
+    "independent": false,
+    "build": "PASS Node24 full build",
+    "scoped_checks": "PASS48 edition control positions, existing reader-header/source/art/translation/share checks",
+    "browser": [
+      "Opening has no language/utility controls",
+      "Content has four language choices and three utility icons",
+      "Read Poems jumps to controls and list",
+      "Language updates titles/link query; size cycles normally",
+      "390px layout has no horizontal overflow"
+    ]
+  },
+  "evidence": "kb/artifacts/review/edition-content-controls-2026-10-06/",
+  "next_action": "Published; collect reader feedback.",
+  "publication_record": "kb/records/edition-48-publication-2026-10-06.json"
+}
