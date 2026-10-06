@@ -1,0 +1,25 @@
+{
+  "title": "Issue 48 and reviewed reading experience publication",
+  "authorization": "User: push it, following report that Issue 48 was not visible",
+  "status": "verified_ready_to_publish",
+  "baseline": "806748f315426aaa00825c80951bd56f832964b5",
+  "scope": [
+    "Issue 48:11 poems,11 unique illustrations,22 translations,5 new poet profiles and portraits,three-language editorial",
+    "Reviewed compact reading tools,optional reader illustrations,theme controls and magazine presentation"
+  ],
+  "excluded": [
+    "Older collection translation revision drafts",
+    "Unrelated poem644 artwork change"
+  ],
+  "checks": {
+    "build": "Node24 public Astro build PASS",
+    "tests": "31 Node and14 Python PASS; emulator tests delegated to CI",
+    "integrity": "787 older translation entries and799 older poem reading payloads unchanged",
+    "edition": "Scoped verification PASS",
+    "mobile": "320px viewport; all7 poem tools at y293; no horizontal overflow",
+    "reader": "Illustrations off by default; theme and compact language controls present"
+  },
+  "independent": false,
+  "evidence": "kb/artifacts/review/edition-48-publication-2026-10-06",
+  "recorded_at": "2026-10-06T09:10:43.682561+00:00"
+}

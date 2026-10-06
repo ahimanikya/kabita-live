@@ -2,17 +2,17 @@
 .poem-page .poem-opening{margin-top:30px}
 .poem-page .experience-bar{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;width:100%;padding-bottom:16px;border-bottom:1px solid var(--line)}
 .poem-page .reading-tabs{display:flex;gap:6px;flex-wrap:wrap}
-.poem-page .reading-tabs button{font:18px/1.5 var(--ui);min-height:56px;padding:8px 16px;border-bottom:2px solid transparent}
-.poem-page .reading-tabs button span{display:block;font:12px/1.5 var(--ui);color:var(--muted)}
+.poem-page .reading-tabs button{font:1.125rem/1.5 var(--ui);min-height:56px;padding:8px 16px;border-bottom:2px solid transparent}
+.poem-page .reading-tabs button span{display:block;font:0.75rem/1.5 var(--ui);color:var(--muted)}
 .poem-page .reading-tabs button[aria-selected=true]{border-color:var(--rust);color:var(--rust)}
 .poem-page .reading-tabs button[lang=hi]{font-family:'Tiro Devanagari Hindi',serif}
 .poem-page .reading-tabs button[lang=or]{font-family:var(--odia)}
-.poem-page .mark-toggle{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:8px 12px;font:16px/1.5 var(--ui)}
+.poem-page .mark-toggle{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:8px 12px;font:1rem/1.5 var(--ui)}
 .poem-page .reader-tools{display:flex;justify-content:space-between;align-items:center;gap:16px;border:0;padding:0;margin:0 0 6px}
 .poem-page .mark-tools{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .poem-page .mark-toggle[aria-pressed=true]{color:var(--rust);background:color-mix(in srgb,var(--panel) 55%,transparent)}
-.poem-page .clear-marks{font:14px/1.5 var(--ui);text-decoration:underline;text-underline-offset:4px;min-height:44px;padding:8px}
-.poem-page .mark-help{position:absolute;right:0;top:100%;z-index:35;width:300px;max-width:calc(100vw - 32px);box-sizing:border-box;padding:14px 16px;font:14px/1.6 var(--ui);color:var(--ink);background:var(--paper);border:1px solid var(--line);box-shadow:0 4px 16px #0002;border-radius:4px}
+.poem-page .clear-marks{font:0.875rem/1.5 var(--ui);text-decoration:underline;text-underline-offset:4px;min-height:44px;padding:8px}
+.poem-page .mark-help{position:absolute;right:0;top:100%;z-index:35;width:300px;max-width:calc(100vw - 32px);box-sizing:border-box;padding:14px 16px;font:0.875rem/1.6 var(--ui);color:var(--ink);background:var(--paper);border:1px solid var(--line);box-shadow:0 4px 16px #0002;border-radius:4px}
 .poem-page .mark-help[hidden]{display:none}
 .poem-page .verse{margin-top:0;max-width:730px}
 .poem-page .poem-line{display:block;min-height:1.9em;line-height:1.9;overflow-wrap:anywhere}
@@ -26,7 +26,7 @@
 .poem-page .line-words{user-select:text;-webkit-user-select:text;cursor:text}
 .poem-page .selection-tools{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);z-index:30;display:flex;gap:4px;max-width:calc(100vw - 24px);padding:6px;background:var(--paper);border:1px solid var(--line);box-shadow:0 4px 20px #0002;color:var(--ink)}
 .poem-page .selection-tools[hidden]{display:none}
-.poem-page .selection-tools button{min-height:44px;padding:8px 12px;white-space:nowrap;font:15px/1.5 var(--ui)}
+.poem-page .selection-tools button{min-height:44px;padding:8px 12px;white-space:nowrap;font:0.9375rem/1.5 var(--ui)}
 .poem-page #underline-selection{color:var(--rust)}
 
 

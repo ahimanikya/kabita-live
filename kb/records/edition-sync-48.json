@@ -1,0 +1,159 @@
+{
+  "edition": 48,
+  "source_archive_id": 59,
+  "status": "integrated_verified_local",
+  "scope": "Local edition sync and repeatable playbook; publication not yet requested for this edition.",
+  "started_at": "2026-10-06T03:51:14.396337+00:00",
+  "poem_ids": [
+    826,
+    829,
+    833,
+    827,
+    824,
+    825,
+    828,
+    830,
+    831,
+    832,
+    834
+  ],
+  "new_writer_ids": [
+    473,
+    474,
+    475,
+    476,
+    477
+  ],
+  "existing_writer_ids": [
+    121,
+    337,
+    440,
+    448,
+    208,
+    446
+  ],
+  "independent": false,
+  "artwork": {
+    "cover": {
+      "status": "reviewed",
+      "prompt_path": "kb/research/edition-sync/edition-48/cover-prompt.txt",
+      "claimed_at": "2026-10-06T03:51:14.396754+00:00",
+      "returned_path": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-c30ff43c-923c-435a-8cce-933a10b37829.png",
+      "master": "kb/artifacts/edition-sync/edition-48/artwork/cover/v1.png",
+      "review": "Pass: open upper quarter, plausible uneven grass/reflections, restrained watercolor, no text; self-review only.",
+      "independent": false,
+      "sha256": "d6ed9dddb7f51235828cd7952a96227d9a0778f438d16173d1c43c862898c6de"
+    },
+    "pond-stone": {
+      "status": "reviewed",
+      "claimed_at": "2026-10-06T03:53:04.713828+00:00",
+      "returned_path": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-27fa2189-b38a-4c29-822a-5ef5d8b480e7.png",
+      "master": "kb/artifacts/edition-sync/edition-48/artwork/pond-stone/v1.png",
+      "sha256": "f313d9601bd10c37e15ce708f9a64e7d1cff8e82f4a80bf8f9917ec6b0620b1d",
+      "review": "Pass: weathered stone meets water credibly, quiet depth and open right side, watercolor retained; self-review.",
+      "independent": false
+    },
+    "parijat-earth": {
+      "status": "reviewed",
+      "claimed_at": "2026-10-06T03:54:01.563246+00:00",
+      "returned_path": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-3eee72e0-14af-418e-9c0c-423007f20b9f.png",
+      "master": "kb/artifacts/edition-sync/edition-48/artwork/parijat-earth/v1.png",
+      "sha256": "569cb639f3d5f7c52c3548b1f9d347897e6db91d4814cbbe9b5b8d9ba1179d15",
+      "review": "Pass: fallen blossoms facing mixed directions, orange tubes and matte painted edges; tenderness without a geometric arrangement; self-review.",
+      "independent": false
+    },
+    "resting-hand": {
+      "status": "reviewed",
+      "claimed_at": "2026-10-06T03:54:51.890516+00:00",
+      "returned_path": "/Users/ahimanikya/.codex/generated_images/01a0f159-e48e-7071-a26f-300966922b0c/exec-7625ed52-b260-489a-a242-8376a00a8649.png",
+      "master": "kb/artifacts/edition-sync/edition-48/artwork/resting-hand/v1.png",
+      "sha256": "44671c2eebfcaef95775ce2e09206159200432aabfd68c6fccf5279d3c6e06ac",
+      "review": "Pass: relaxed hand with plausible contact and occlusion; graphite variation and open space support unfinished nonviolence; no likeness claim. Self-review.",
+      "independent": false
+    }
+  },
+  "updated_at": "2026-10-06T05:30:33.709164+00:00",
+  "published": false,
+  "preview_url": "http://127.0.0.1:8771/issue-48.html",
+  "playbook": "kb/production/edition-sync/PLAYBOOK.md",
+  "review_pack": "kb/artifacts/edition-sync/edition-48/review/index.html",
+  "counts": {
+    "poems": 11,
+    "translation_drafts": 22,
+    "new_poet_profiles": 5,
+    "returning_poet_contributions": 6,
+    "new_watercolor_portraits": 5,
+    "cover": 1,
+    "interior_illustrations": 11,
+    "text_led_poems": 0,
+    "editorial_languages": 3,
+    "editorial_line_drawings": 3
+  },
+  "source": {
+    "homepage": "https://kabitalive.com/",
+    "edition": "https://kabitalive.com/archive-view.php?id=59",
+    "month": "October",
+    "year": 2026,
+    "snapshots": "kb/artifacts/edition-sync/edition-48/source",
+    "normalization": "kb/research/edition-sync/edition-48/normalization.json"
+  },
+  "edition_direction": "Eleven distinct poem-informed illustrations; medium selected by poem rather than a watercolor requirement. Three passage-related editorial line drawings support listening, shelter and companionship.",
+  "translation_status": "22 Poetic Natural drafts integrated after complete source/target assistant review; original poems unchanged. Independent poet/editor review pending.",
+  "profile_research": {
+    "473": "Journal biography and exact poem; uncorroborated awards omitted from polished narrative.",
+    "474": "Journal plus Bakul BhuFeSto and direct OdishaPlus interview.",
+    "475": "Journal and close reading only; no unambiguous external biography found.",
+    "476": "Journal plus identity-matched Meetkalakar artist profile.",
+    "477": "Journal and close reading only; same-name employment/social profiles not merged."
+  },
+  "verification": {
+    "content": "PASS:11 original poems,22 target payloads,4345 existing structured entries and2597 protected source/art files preserved.",
+    "authors": "PASS:434 profiles; all new and returning contribution joins; exact quotes and portrait master hashes.",
+    "sharing": "PASS:17 new pages have one OG/Twitter image; all11 poem and5 portrait source mappings checked; sample1200x630 outputs visually reviewed uncropped. No social-platform cache claim.",
+    "build": "PASS:Node24 public-only build1316pages; noindex/content gates retained.",
+    "tests": "PASS:31 Node tests,12 Python site tests,5 translation-layout tests,4 additive-sync tests.10 Firestore emulator tests skipped by existing local test suite; no new rules or runtime changes.",
+    "browser": "PASS:1280 desktop,390 and320px phone; issue/home/newprofile/text-led and illustrated reader; language switching, extra-large text and quiet-reader checked; no page overflow in tested phone views. Existing system theme preserved; standard text/original language restored and viewport reset.",
+    "runtime": "Import package does not alter Firebase,GA4,consent,DNS or security rules. Existing Firebase numeric poem IDs accept new IDs; no production submissions/likes written during review.",
+    "idempotence": "Final package dry-run reports zero changes; collision, stale destination and path-escape tests pass.",
+    "independent": false,
+    "older_translation_scope": "PASS:801 original files,632 existing recorded revisions and3148 older reader variants checked;22 new variants separately registered without claiming baseline revision coverage.",
+    "source_receipts": "PASS:24 unchanged raw source snapshots and originals matched their captured SHA256 receipts.",
+    "page_checklist": "Edition/poem/profile/homepage families checked against current website-rulebook and new-page-checklist; inherited template, typography and runtime retained. Same-assistant self-review; no deployment.",
+    "revision_02": "Eight additional reviewed artworks,11 unique poem/share images, three editorial languages, two display-title corrections and static cover story; original11 poems and22 translations unchanged. See revision-02/verification.json.",
+    "revision_03": "11 theme reviews; eight retained and three refined assignments; three line-art vignettes in all editorial languages. Source poems, translations, excerpt wording and all other edition art preserved. See revision-03/verification.json."
+  },
+  "limitations": [
+    "Translations remain drafts for poet/editor feedback; assistant review is not independent literary approval.",
+    "New portrait likeness checks are self-review; publication rights for journal source photographs not independently verified.",
+    "Saswati Hota and Bani Mohanty have intentionally modest biographies because external identity matches were insufficient.",
+    "Local edition only: no Edition48 Git push or website publication has occurred."
+  ],
+  "next_action": "Review the updated Edition48 imagery and illustrated editorial locally; publish only when requested.",
+  "handoff": {
+    "status": "verified",
+    "recovery_evidence": "kb/artifacts/edition-sync/edition-48/handoff-recovery/reconciliation.json",
+    "latest_successful_sync": "Revision03:22663 entries synchronized;2073 portable links checked. Closing records included in final sync.",
+    "entries": 22663,
+    "storage_result": "PASS",
+    "storage_evidence": "kb/research/edition-sync/edition-48/revision-03/storage-verification.json"
+  },
+  "registers": {
+    "decision": "KBL-DEC-053",
+    "work": "KBL-WORK-027",
+    "review": "KBL-REV-016",
+    "event": "KBL-EVT-744"
+  },
+  "completed_at": "2026-10-06T04:28:01.724931+00:00",
+  "revisions": [
+    {
+      "id": "revision-02",
+      "record": "kb/research/edition-sync/edition-48/revision-02/scope.json",
+      "authorization": "KBL-DEC-054"
+    },
+    {
+      "id": "revision-03",
+      "record": "kb/research/edition-sync/edition-48/revision-03/scope.json",
+      "authorization": "KBL-DEC-055"
+    }
+  ]
+}

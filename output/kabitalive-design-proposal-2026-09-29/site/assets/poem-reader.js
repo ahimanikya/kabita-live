@@ -51,6 +51,7 @@ function applySelection(remove=false){
  save(markKey(),marks);document.dispatchEvent(new CustomEvent('poem-marks-changed'));pending=[];selectionBar.hidden=true;window.getSelection()?.removeAllRanges();drawMarks();
 }
 function render(choice){
+ if(choice==='original'&&!tabs.some(t=>t.dataset.readingLanguage==='original'))choice=data.source_language;
  const code=choice==='original'?data.source_language:choice;if(!data.variants[code])return;
  pending=[];selectionBar.hidden=true;language=code;
  const v=data.variants[code];tabs.forEach(t=>{const on=t.dataset.readingLanguage===choice;t.setAttribute('aria-selected',String(on));t.tabIndex=on?0:-1;});

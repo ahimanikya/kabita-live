@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "historical_baseline": {
+    "editions": 47,
+    "captured_poems": 801,
+    "membership_before_archive_exclusions": 800,
+    "listed_before_archive_exclusions": 796
+  },
+  "imports": [
+    {
+      "edition": 48,
+      "poem_ids": [
+        826,
+        829,
+        833,
+        827,
+        824,
+        825,
+        828,
+        830,
+        831,
+        832,
+        834
+      ],
+      "listed_poem_ids": [
+        826,
+        829,
+        833,
+        827,
+        824,
+        825,
+        828,
+        830,
+        831,
+        832,
+        834
+      ],
+      "record": "records/edition-sync-48.json",
+      "package": "research/edition-sync/edition-48/integration-package.json"
+    }
+  ]
+}

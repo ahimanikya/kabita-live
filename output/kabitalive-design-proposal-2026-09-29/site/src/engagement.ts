@@ -3,20 +3,23 @@ const section=document.querySelector<HTMLElement>('[data-poem-engagement]');
 if(section) void start(section);
 async function start(section:HTMLElement){
  const poemId=section.dataset.poemEngagement!;
- const like=section.querySelector<HTMLButtonElement>('[data-like]')!;
- const likeStatus=section.querySelector<HTMLElement>('[data-like-status]')!;
+ const like=document.querySelector<HTMLButtonElement>('[data-like]')!;
+ const likeStatus=document.querySelector<HTMLElement>('[data-like-status]')!;
  const details=section.querySelector<HTMLDetailsElement>('details')!;
  const list=section.querySelector<HTMLElement>('[data-comments-list]')!;
  const more=section.querySelector<HTMLButtonElement>('[data-comments-more]')!;
  const form=section.querySelector<HTMLFormElement>('form')!;
  const status=form.querySelector<HTMLElement>('[role="status"]')!;
+ like.title='Likes are available on the published website';
+ like.setAttribute('aria-label',like.title);
  let runtime:Runtime;
  try{const response=await fetch('runtime-config.json');if(!response.ok)return;runtime=await response.json();}catch{return;}
  const f=runtime.firebase;
  if(!f?.enabled||location.protocol!=='https:'||!f.allowedHosts?.includes(location.hostname)||!/^\d{1,8}$/.test(poemId))return;
  const likesEnabled=runtime.engagement.likes===true,commentsEnabled=runtime.engagement.publicComments===true;
  if(!likesEnabled&&!commentsEnabled)return;
- section.hidden=false;like.hidden=!likesEnabled;details.hidden=!commentsEnabled;
+ section.hidden=!commentsEnabled;like.hidden=!likesEnabled;details.hidden=!commentsEnabled;
+ like.title="Like this poem";
  let service:Promise<any>|undefined;
  const connect=()=>service??=(async()=>{
   const [app,auth,store]=await Promise.all([import('firebase/app'),import('firebase/auth'),import('firebase/firestore')]);
@@ -25,7 +28,7 @@ async function start(section:HTMLElement){
  })().catch(error=>{service=undefined;throw error;});
  const identity=async(s:any)=>{const auth=s.auth.getAuth(s.instance);await auth.authStateReady();return auth.currentUser||(await s.auth.signInAnonymously(auth)).user;};
  let liked=false;
- const showLike=(count:number)=>{like.setAttribute('aria-pressed',String(liked));like.setAttribute('aria-label',(liked?'Remove your like. ':'Like this poem. ')+count+' likes');like.querySelector('[data-like-label]')!.textContent=liked?'Liked':'Like';like.querySelector('[data-like-count]')!.textContent=String(count);};
+ const showLike=(count:number)=>{like.setAttribute('aria-pressed',String(liked));like.setAttribute('aria-label',(liked?'Remove your like. ':'Like this poem. ')+count+' likes');like.title=(liked?'Remove your like':'Like this poem')+' · '+count+' likes';like.querySelector('[data-like-label]')!.textContent=like.title;like.querySelector('[data-like-count]')!.textContent=String(count);};
  // One public count read. Anonymous sign-in is reserved for a reader action.
  if(likesEnabled){like.disabled=true;connect().then(async s=>{
   const auth=s.auth.getAuth(s.instance);await auth.authStateReady();

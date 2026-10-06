@@ -1,4 +1,5 @@
 from poem_reader import render_reader, TRANSLATIONS
+from reader_icons import quiet_reader_icon
 """Render the captured publication, using edition manifests as the content authority."""
 publication_by_issue={x['number']:x for x in publication_issues}
 language_labels={'or':'ଓଡ଼ିଆ','hi':'हिन्दी','en':'English'}
@@ -9,7 +10,7 @@ def discovery_mark(name):
     svg=re.sub(r' role="img"| aria-label="[^"]*"| aria-hidden="[^"]*"| focusable="[^"]*"','',svg)
     return svg.replace('<svg ','<svg aria-hidden="true" focusable="false" ',1)
 
-discovery_styles='<link rel="stylesheet" href="assets/reading-discovery.css?v=12">'
+discovery_styles='<link rel="stylesheet" href="assets/reading-discovery.css?v=18">'
 
 def poem_route(ident):
     return sample_routes.get(ident,f'poem-{ident}.html')
@@ -81,12 +82,26 @@ def edition_rows(items,show_issue=False):
             f'<a class="edition-read" href="{route}" aria-label="Read {e(p["title"])}"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5C9 3.8 6 3.8 3 4.5v14c3-.7 6-.7 9 1 3-1.7 6-1.7 9-1v-14c-3-.7-6-.7-9 1Z"/><path d="M12 5.5v14M6 8h3m6 0h3M6 11h3m6 0h3"/></svg><span class="read-tooltip" aria-hidden="true">Read poem</span></a></article>')
     return result+'</div>'
 
-def collection_tools_markup():
-    return '<script defer src="assets/collection-reader.js?v=4"></script><div class="collection-tools-row"><div class="collection-reader-tools" id="collection-reader-tools"><button type="button" id="collection-tools-button" aria-expanded="false" aria-controls="collection-reader-panel" aria-label="Reader tools"><span class="reader-aa" aria-hidden="true">Aa</span></button><section class="collection-reader-panel" id="collection-reader-panel" aria-label="Reader tools" hidden><div class="collection-tools-head"><strong>Reader tools</strong><button type="button" id="collection-tools-close" aria-label="Close reader tools">×</button></div><p class="collection-tools-label">Language</p><div class="collection-choices" role="group" aria-label="Reading language">'+''.join(f'<button type="button" data-collection-language="{code}" aria-pressed="{str(code=="original").lower()}">{label}</button>' for code,label in [('original','Original'),('or','Odia'),('hi','Hindi'),('en','English')])+'</div><p class="collection-tools-label">Text size</p><div class="collection-choices collection-sizes" role="group" aria-label="Text size">'+''.join(f'<button type="button" data-collection-size="{code}" aria-pressed="{str(code=="standard").lower()}">{label}</button>' for code,label in [('standard','Standard'),('large','Large'),('extra-large','Extra large')])+'</div><p>Choose a language for the titles and the poems you open.</p><button class="text-link" type="button" id="collection-tools-reset">Reset reading tools</button></section></div></div>'
+def collection_languages_markup(compact=False):
+    languages='<div class="language-front collection-language-front"><span class="language-front-label">Read in</span><div class="language-choices" role="group" aria-label="Reading language">'+''.join(f'<button type="button" data-collection-language="{code}" lang="{code if code!="original" else "en"}" aria-pressed="{str(code=="original").lower()}">{label}</button>' for code,label in [('original','Original'),('or','ଓଡ଼ିଆ'),('hi','हिन्दी'),('en','English')])+'</div></div>'
+    if compact:
+        original='<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 8M4 4v6h6"/></svg>'
+        options=[('original',original,'Use each poem’s original language'),('or','ଅ','ଓଡ଼ିଆ · Odia'),('hi','अ','हिन्दी · Hindi'),('en','A','English')]
+        languages='<div class="language-front collection-language-front"><div class="language-choices" role="group" aria-label="Reading language">'+''.join(f'<button type="button" class="edition-language-icon" data-collection-language="{code}" lang="{code if code!="original" else "en"}" aria-label="{name}" title="{name}" aria-pressed="{str(code=="original").lower()}">{glyph}<span class="edition-action-tip" aria-hidden="true">{name}</span></button>' for code,glyph,name in options)+'</div></div>'
+    return '<script defer src="assets/collection-reader.js?v=7"></script>'+languages
 
-def collection_actions(route,title,kind):
+def collection_tools_markup():
+    return collection_languages_markup()
+
+def collection_actions(route,title,kind,editorial=False):
     metadata=e(json.dumps({'id':route.removesuffix('.html'),'reader':route,'title':title,'author':'Kabita Live','lang':'en','kind':kind},ensure_ascii=False))
-    return '<div class="collection-actions" role="group" aria-label="Reading actions">'+collection_tools_markup()+f'<button type="button" data-share-collection="{metadata}">'+discovery_mark('share')+'<span>Share</span></button><button type="button" id="open-focus">'+discovery_mark('footer-story')+'<span>Read quietly</span></button>'+('<a class="text-link collection-archive" href="archive.html">All editions</a>' if kind=='edition' else '')+'</div>'
+    if kind=='edition':
+        def tip(text):return f'<span class="edition-action-tip" aria-hidden="true">{text}</span>'
+        links=''
+        links+=f'<button type="button" class="edition-icon-action" data-share-collection="{metadata}" aria-label="Share edition">'+discovery_mark('share')+tip('Share edition')+'</button>'
+        links+='<button type="button" class="edition-icon-action" id="open-focus" aria-label="Read quietly">'+quiet_reader_icon()+tip('Read quietly')+'</button>'
+        return '<div class="edition-reading edition-icon-toolbar">'+collection_languages_markup(compact=True)+'<div class="edition-entry-actions" id="collection-reader-tools" role="group" aria-label="Edition reading actions">'+links+'</div></div>'
+    return '<div class="collection-actions" role="group" aria-label="Reading actions">'+collection_tools_markup()+f'<button type="button" data-share-collection="{metadata}">'+discovery_mark('share')+'<span>Share</span></button><button type="button" id="open-focus">'+quiet_reader_icon()+'<span>Read quietly</span></button>'+('<a class="text-link collection-archive" href="archive.html">All editions</a>' if kind=='edition' else '')+'</div>'
 
 from poem_experience import prepare_readers, enhance_poem, encoded
 import re
@@ -94,10 +109,31 @@ reader_portraits={}
 for p in publication_poems.values():
     portrait=re.search(r'<img src="([^"]+)"',edition_poet(p))
     if portrait:reader_portraits[p['writer_id']]=portrait[1]
-experience_readers=prepare_readers(publication_poems,publication_issues,poem_route,edition_writer_names,reader_portraits)
+poem_art_library={a['id']:a for a in json.loads((R/'data/poem-art-library.json').read_text())['artworks']}
+for artwork in poem_art_library.values():
+    if not artwork['src'].startswith(('assets/poem-art/','assets/section-art/')) or not (R/artwork['src']).is_file():
+        raise ValueError(f"Poem artwork must be a present non-cover asset: {artwork['src']}")
+poem_art_assignments=json.loads((R/'data/poem-art-assignments.json').read_text())['assignments']
+poem_art_captions=json.loads((R/'data/poem-art-captions.json').read_text())
+edition_art_path=R/'data/edition-art-direction.json'
+edition_art_direction=json.loads(edition_art_path.read_text()) if edition_art_path.exists() else {'poems':{}}
+# Quiet reading uses the same stable assignment as the poem page, never a rotating image.
+reader_artworks={}
+for p in publication_poems.values():
+    ident=p['id'];directed=edition_art_direction['poems'].get(str(ident));route=poem_route(ident)
+    if directed and directed['mode']=='text':continue
+    if directed and directed['mode']=='illustrated':record=directed
+    elif ident in sample_routes:
+        slug=sample_routes[ident].removeprefix('poem-').removesuffix('.html')
+        record={'src':f'assets/poem-art/{slug}.webp','alt':art_alts[slug],'width':1536,'height':1024}
+    else:record=poem_art_library[poem_art_assignments[str(ident)]]
+    reader_artworks[ident]={key:record[key] for key in ['src','alt','width','height']}
+experience_readers=prepare_readers(publication_poems,publication_issues,poem_route,edition_writer_names,reader_portraits,reader_artworks)
 
 def collection_reader(entries,url):
     return '<script type="application/json" id="focus-entry-data">'+encoded(experience_readers[entries[0]['id']])+'</script><script type="application/json" id="focus-edition-data">'+encoded({'url':url,'collection':True})+'</script>'+(R/'templates/quiet-reader.html').read_text()
+
+from edition_editorial import render_editorial
 
 for issue in publication_issues:
     n=issue['number'];entries=[publication_poems[pid] for pid in issue['poem_ids']]
@@ -106,12 +142,14 @@ for issue in publication_issues:
     culture=f'<div class="edition-cultural"><h3>Cultural connection</h3><p>{e(art["cultural_connection"])}</p>'+(f'<div class="edition-cover-sources">{refs}</div>' if refs else '')+'</div>'
     cover_figure='<figure class="edition-cover">'+cover(n)+'</figure>'
     current=n==current_home_issue['number']
-    issue_label=(f'<span class="eyebrow discovery-label">{discovery_mark("footer-story")}Current issue · {n}</span>' if current else f'<span class="eyebrow discovery-label">{discovery_mark("footer-story")}Issue {n}</span>')
-    jump='<a class="edition-jump" href="#edition-poems">'+discovery_mark('footer-story')+'Browse poems</a>'
+    issue_label=(f'<span class="eyebrow">Current issue · {n}</span>' if current else f'<span class="eyebrow">Issue {n}</span>')
+    editorial=render_editorial(R,n,publication_poems,edition_writer_names)
+    entry_links='<nav class="edition-opening-links" aria-label="Read this edition"><a class="edition-read-primary" href="#edition-poems">Read Poems</a>'+('<a class="edition-read-primary" href="#edition-editorial">Read Editorial</a>' if editorial else '')+'</nav>'
+    story=(f'<div class="edition-story"><h2>{e(art["title"])}</h2><p>{e(art["story"])}</p>{culture}</div>' if n==48 else f'<details class="edition-story"><summary>About this cover</summary><h2>{e(art["title"])}</h2><p>{e(art["story"])}</p>{culture}</details>')
     page(f'issue-{n}.html',f'Issue {n} · {date}',discovery_styles+crumb('<a href="archive.html">Archive</a> / '+str(n))+
-        '<section class="issue-intro edition-opening'+(' current-edition' if current else ' artistic-edition')+'">'+cover_figure+f'<div>{issue_label}<h1>{e(date)}</h1>'+jump+
-        f'<details class="edition-story"><summary>About this cover</summary><h2>{e(art["title"])}</h2><p>{e(art["story"])}</p>{culture}</details></div></section>'+
-        '<section class="section edition-contents" data-collection-reader id="edition-poems" tabindex="-1" aria-label="Poems in this edition">'+collection_actions(f'issue-{n}.html',f'{date} · Issue {n}','edition')+'<div class="edition-contents-separator" aria-hidden="true"></div>'+edition_rows(entries)+'</section>'+collection_reader(entries,f'assets/reading-editions/issue-{n}.json'),
+        '<section class="issue-intro edition-opening'+(' current-edition' if current else ' artistic-edition')+'">'+cover_figure+f'<div>{issue_label}<h1>{e(date)}</h1>'+
+        entry_links+story+'</div></section>'+
+        '<section class="section edition-contents" data-collection-reader id="edition-poems" tabindex="-1" aria-label="Poems in this edition">'+collection_actions(f'issue-{n}.html',f'{date} · Issue {n}','edition')+edition_rows(entries)+'</section>'+editorial+collection_reader(entries,f'assets/reading-editions/issue-{n}.json'),
         active='Current issue' if current else 'Archive')
 
 import re
@@ -139,14 +177,6 @@ def poem_byline(p):
     else:portrait=''
     return f'<p class="byline poem-byline"><a href="{route}">{portrait}<span>By {e(p["author"])}</span></a></p>'
 
-poem_art_library={a['id']:a for a in json.loads((R/'data/poem-art-library.json').read_text())['artworks']}
-for artwork in poem_art_library.values():
-    if not artwork['src'].startswith(('assets/poem-art/','assets/section-art/')) or not (R/artwork['src']).is_file():
-        raise ValueError(f"Poem artwork must be a present non-cover asset: {artwork['src']}")
-poem_art_assignments=json.loads((R/'data/poem-art-assignments.json').read_text())['assignments']
-poem_art_captions=json.loads((R/'data/poem-art-captions.json').read_text())
-edition_art_path=R/'data/edition-art-direction.json'
-edition_art_direction=json.loads(edition_art_path.read_text()) if edition_art_path.exists() else {'poems':{}}
 for p in publication_poems.values():
     ident=p['id'];lang=p['language'];label=language_labels[lang];n=p['edition'];route=poem_route(ident)
     issue=publication_by_issue.get(n);date=f'{issue["month"]} {issue["year"]}' if issue else 'Poetry collection'

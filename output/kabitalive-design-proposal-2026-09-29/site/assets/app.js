@@ -70,7 +70,6 @@ for(const [id,step] of [['poems-previous',-1],['poems-next',1]])$('#'+id)?.addEv
 });
 $('#open-poem-edition')?.addEventListener('click',()=>{const url=$('#poem-edition').value;if(/^issue-\d+\.html#edition-poems$/.test(url))location.href=url});
 filter();
-$$('[data-size]').forEach(b=>b.addEventListener('click',()=>{$('.verse').style.fontSize=b.dataset.size==='24'?'':b.dataset.size+'px';$$('[data-size]').forEach(s=>s.setAttribute('aria-pressed',s===b));}));
 if(!document.body.classList.contains('site-theme'))$('#appearance')?.addEventListener('click',()=>{const night=document.body.classList.toggle('night');$('#appearance').textContent=night?'Day reading':'Night reading';$('#appearance').setAttribute('aria-pressed',night);});
 $$('[data-view]').forEach(b=>b.addEventListener('click',()=>{const list=b.dataset.view==='list';$('.cover-grid').classList.toggle('archive-list',list);$$('[data-view]').forEach(x=>x.setAttribute('aria-pressed',x===b));}));
 $('#breathe')?.addEventListener('click',()=>{const art=$('.hero-art');if(matchMedia('(prefers-reduced-motion: reduce)').matches){$('#breathe').textContent='A still moment by the water';return;}art.classList.remove('drift');requestAnimationFrame(()=>{requestAnimationFrame(()=>art.classList.add('drift'));});});

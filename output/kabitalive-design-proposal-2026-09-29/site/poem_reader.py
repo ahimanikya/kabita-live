@@ -3,18 +3,19 @@ from html import escape
 from pathlib import Path
 import hashlib,json
 from poem_end_marks import end_mark_kind,end_mark_html
+from translation_layout import validate_layout
 ROOT=Path(__file__).resolve().parent
 LABELS={'hi':'हिन्दी','or':'ଓଡ଼ିଆ','en':'English'}
 TRANSLATIONS=json.loads((ROOT/'data/poem-translations.json').read_text())
 ENDINGS=json.loads((ROOT/'data/poem-endings.json').read_text())
 SPACING=json.loads((ROOT/'data/poem-spacing.json').read_text())
-def reader_stanzas(source,stanzas):
+def reader_stanzas(source,stanzas,layout=None):
  """Restore reviewed stanza breaks and omit contributor tails without changing verse or mark offsets."""
  entry=ENDINGS.get(str(source['id']));spacing=SPACING.get(str(source['id']),{})
  for record in [entry,spacing]:
   if record:assert record['source_sha256']==hashlib.sha256(source['text'].encode()).hexdigest(), 'Reviewed reader source changed'
- limit=entry['verse_line_count'] if entry else sum(map(len,stanzas))
- breaks=set(spacing.get('before_lines',[]));result=[];index=0
+ limit=layout['verse_line_count'] if layout else entry['verse_line_count'] if entry else sum(map(len,stanzas))
+ breaks=set(layout['before_lines'] if layout else spacing.get('before_lines',[]));result=[];index=0
  for stanza in stanzas:
   group=[]
   for line in stanza:
@@ -44,8 +45,9 @@ def render_reader(source):
    assert code in LABELS and code!=lang and v['stanzas']
    variants[code]={k:v[k] for k in ['label','title','kind','stanzas']}
  for code,v in variants.items():
-  v['stanzas']=reader_stanzas(source,v['stanzas'])
-  v['inline_breaks']=SPACING.get(str(source['id']),{}).get('inline_breaks',{}).get(code,[])
+  layout=validate_layout(source,translation['variants'][code]) if code!=lang else None
+  v['stanzas']=reader_stanzas(source,v['stanzas'],layout)
+  v['inline_breaks']=layout['inline_breaks'] if layout else SPACING.get(str(source['id']),{}).get('inline_breaks',{}).get(code,[])
  data={'id':source['id'],'source_language':lang,'variants':variants,'end_mark':end_mark_kind(source['id'])}
  serialized=json.dumps(data,ensure_ascii=False).replace('<','\\u003c')
  tabs=''.join(f'<button type="button" role="tab" id="tab-{code}" data-reading-language="{code}" lang="{code}" aria-selected="{str(code==lang).lower()}" aria-controls="reading-panel" tabindex="{0 if code==lang else -1}">{escape(v["label"])}<span lang="en">{v["kind"]}</span></button>' for code,v in variants.items())
@@ -65,7 +67,7 @@ def render_reader(source):
  return f'''
 <div class="reading-layout"><article class="reader">
 {language_controls}
-<div class="reader-tools"><div class="size-group" role="group" aria-label="Poem text size"><button data-size="24" aria-pressed="true" aria-label="Standard text size">A</button><button data-size="28" aria-pressed="false" aria-label="Large text">A+</button><button data-size="32" aria-pressed="false" aria-label="Extra large text">A++</button></div><div class="mark-tools"><button type="button" class="clear-marks" id="clear-marks" hidden>Clear marks</button></div></div>
+<div class="reader-tools"><div class="mark-tools"><button type="button" class="clear-marks" id="clear-marks" hidden>Clear marks</button></div></div>
 <div id="selection-tools" class="selection-tools" role="toolbar" aria-label="Selected text" hidden><button id="underline-selection" type="button">Underline selection</button><button id="erase-selection" type="button">Erase</button><button id="dismiss-selection" type="button" aria-label="Dismiss selection">×</button></div>
 <div id="reading-panel" {panel_attributes} tabindex="0"><div id="experience-verse" class="verse {lang}" lang="{lang}">{original_html}</div>{end_mark_html(source['id'])}{availability}</div>
 <noscript><p>Translations and underlining need JavaScript. The original poem remains above.</p></noscript>

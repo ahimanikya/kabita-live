@@ -3,6 +3,7 @@ from pathlib import Path
 from html import escape
 import json,re
 from poem_reader import render_reader
+from reader_icons import quiet_reader_icon
 from writer_names import writer_aliases
 ROOT=Path(__file__).resolve().parent
 READING_RE=re.compile(r'(<script type="application/json" id="reading-data">)(.*?)(</script>)',re.S)
@@ -12,7 +13,7 @@ EDITION_NEIGHBORS={}
 def encoded(data):
     return json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
 
-def prepare_readers(poems,issues,routes,names,portraits):
+def prepare_readers(poems,issues,routes,names,portraits,artworks=None):
     EDITION_NEIGHBORS.clear()
     readers={}
     for ident,p in poems.items():
@@ -20,6 +21,7 @@ def prepare_readers(poems,issues,routes,names,portraits):
         data['author']=names.get(p['writer_id'],p['author'].split('/')[0].strip()) or 'Author not recorded'
         data['route']=routes(ident)
         data['portrait']=portraits.get(p['writer_id'],'')
+        data['illustration']=(artworks or {}).get(ident)
         data['availability']='The complete poem text is awaiting confirmation.' if ident==385 else ''
         for v in data['variants'].values():
             v['hidden_lines']=[i for i,line in enumerate(l for st in v['stanzas'] for l in st) if DECORATION.fullmatch(line)]
@@ -73,7 +75,7 @@ def enhance_poem(body,p,data):
     body=re.sub(r' · <span lang="(?:or|hi|en)">.*?</span></p>','</p>',body,count=1)
     body=body.replace('By '+escape(p['author']), 'By '+escape(data['author']))
     feedback=re.search(r'<a href="contact.html\?poem=\d+">.*?</a>',body,re.S).group(0)
-    quiet='<button type="button" id="open-focus"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 5C9 3 5 4 3 5v14c3-1 6-1 9 1 3-2 6-2 9-1V5c-2-1-6-2-9 0Zm0 0v15"/></svg><span>Read quietly</span></button>'
+    quiet='<button type="button" id="open-focus" aria-label="Read quietly">'+quiet_reader_icon()+'<span>Read quietly</span></button>'
     body=body.replace(feedback,quiet,1)
     feedback=re.sub(r'<svg\b.*?</svg>','',feedback,flags=re.S)
     more=re.search(r'<a class="poem-more".*?</a>',body,re.S)
@@ -87,26 +89,41 @@ def enhance_poem(body,p,data):
         body=body.replace('<!--poem-context-->',edition_panel(p,menu),1)
     else:
         body=body.replace('</figure>',edition_panel(p,menu)+'</figure>',1)
-    # Readers without a translation retain four choices; unavailable choices are disabled.
+    # Three script shortcuts; the source-language tab is the original reading.
     choices=[]
-    for code,label in [('original','Original'),('or','Odia'),('hi','Hindi'),('en','English')]:
-        enabled=code=='original' or code in data['variants']
-        attrs='' if enabled else ' disabled title="Translation unavailable"'
-        choices.append(f'<button type="button" role="tab" id="tab-{code}" data-reading-language="{code}" aria-selected="{str(code=="original").lower()}" aria-controls="reading-panel" tabindex="{0 if code=="original" else -1}"{attrs}>{label}</button>')
+    for code,glyph,native,name in [('or','ଅ','ଓଡ଼ିଆ','Odia'),('hi','अ','हिन्दी','Hindi'),('en','A','English','English')]:
+        enabled=code in data['variants'];selected=code==data['source_language']
+        hint=native+' · '+name if native!=name else name
+        if selected:hint+=' · Original'
+        if not enabled:hint+=' · Translation unavailable'
+        attrs='' if enabled else ' disabled'
+        choices.append(f'<button type="button" role="tab" id="tab-{code}" data-reading-language="{code}" lang="{code}" aria-label="Read in {name}" title="{hint}" aria-selected="{str(selected).lower()}" aria-controls="reading-panel" tabindex="{0 if selected else -1}"{attrs}>{glyph}<span class="poem-language-tip" aria-hidden="true">{hint}</span></button>')
     old=re.search(r'(?:<div class="experience-bar">.*?)?<div class="reader-tools">.*?(?=<div id="selection-tools")',body,re.S)
     if not old:raise ValueError(f'Missing reader controls for {p["id"]}')
     body=body[:old.start()]+body[old.end():]
-    controls='<div class="experience-bar"><div class="reading-tabs" role="tablist" aria-label="Poem language">'+''.join(choices)+'</div></div>'
-    controls+='<div class="reader-tools"><div class="size-group" role="group" aria-label="Poem text size">'+''.join(f'<button data-size="{size}" aria-pressed="{str(size==24).lower()}" aria-label="{label} text size">{label}</button>' for size,label in [(24,'Standard'),(28,'Large'),(32,'Extra large')])+'</div></div>'
-    panel='<section id="page-bookmarks" aria-label="Reader tools" hidden><div class="page-tools-head"><strong>Reader tools</strong><button id="page-bookmarks-close" type="button" aria-label="Close reader tools">×</button></div>'+controls+'<button id="page-save-place" type="button">Bookmark this poem</button><details id="page-saved-details"><summary>Saved places &amp; passages</summary><div id="page-saved-list"></div><div class="mark-tools"><button type="button" class="clear-marks" id="clear-marks" hidden>Clear marks</button></div></details><p class="page-tools-tip">Select words in the poem to underline them. Saved on this device.</p><span id="page-saved-status" class="sr-only" role="status"></span></section>'
-    body=body.replace('<div class="poem-actions" role="group" aria-label="Poem actions">','<div class="poem-actions" role="group" aria-label="Poem actions"><button id="page-bookmarks-button" type="button" aria-label="Reader tools" title="Language, text size, bookmarks and more" aria-expanded="false" aria-controls="page-bookmarks"><span class="reader-aa" aria-hidden="true">Aa</span></button>',1)
+    language_controls='<div class="language-front poem-language-front"><div class="reading-tabs" role="tablist" aria-label="Poem language">'+''.join(choices)+'</div></div>'
+    body=body.replace('<div class="poem-actions" role="group" aria-label="Poem actions">',language_controls+'<div class="poem-actions" role="group" aria-label="Poem actions">',1)
+    panel='<section id="page-bookmarks" aria-label="Reader tools" hidden><div class="page-tools-head"><strong>Reader tools</strong><button id="page-bookmarks-close" type="button" aria-label="Close reader tools">×</button></div><button id="page-save-place" type="button">Bookmark this poem</button><details id="page-saved-details"><summary>Saved places &amp; passages</summary><div id="page-saved-list"></div><div class="mark-tools"><button type="button" class="clear-marks" id="clear-marks" hidden>Clear marks</button></div></details><p class="page-tools-tip">Select words in the poem to underline them. Saved on this device.</p><span id="page-saved-status" class="sr-only" role="status"></span></section>'
+    body=body.replace('<div class="poem-actions" role="group" aria-label="Poem actions">','<div class="poem-actions" role="group" aria-label="Poem actions"><button id="page-bookmarks-button" type="button" aria-label="Bookmarks and saved passages" title="Bookmarks and saved passages" aria-expanded="false" aria-controls="page-bookmarks"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6 3.5h12v17l-6-4-6 4z"/></svg><span>Bookmarks</span></button>',1)
     body,count=re.subn(r'</div></div>(<(?:figure|aside) class="poem-art)',lambda m:'</div>'+panel+'</div>'+m[1],body,count=1)
     if count!=1:raise ValueError(f'Missing reader-tools insertion point for {p["id"]}')
-    body=re.sub(r'<div id="reading-panel"[^>]*>', '<div id="reading-panel" role="tabpanel" aria-labelledby="tab-original" tabindex="0">',body,count=1)
+    body=re.sub(r'<div id="reading-panel"[^>]*>', f'<div id="reading-panel" role="tabpanel" aria-labelledby="tab-{data["source_language"]}" tabindex="0">',body,count=1)
     # No-JavaScript verse also suppresses decoration, retaining source text in hidden spans.
     body=re.sub(r'(?P<prefix><p class="stanza">|<br>)(?P<text>[*＊_—–=\-\s]{3,})(?=<br>|</p>)',lambda m:m['prefix']+'<span class="source-end-marker" hidden>'+m['text']+'</span>',body)
     dataset={'url':f'assets/reading-editions/issue-{p["edition"]}.json'} if p['edition'] else {}
     body+='<script type="application/json" id="focus-edition-data">'+encoded(dataset)+'</script>'+(ROOT/'templates/quiet-reader.html').read_text()
     engagement=(ROOT/'templates/poem-engagement.html').read_text().replace('{{POEM_ID}}',str(p['id']))
+    # One genuine Like control, moved into the toolbar; comments remain below.
+    like_row=re.search(r'<div class="like-row">.*?</div>',engagement,re.S)[0]
+    like_row=like_row.replace('data-like aria-pressed', 'data-like disabled aria-pressed').replace('aria-label="Like this poem"', 'aria-label="Like this poem" title="Like this poem"')
+    like_row=like_row.replace('<span data-like-label>', '<span data-like-label class="poem-action-tip" aria-hidden="true">').replace('<span data-like-count aria-hidden="true">', '<span data-like-count class="sr-only" aria-hidden="true">').replace('<span data-like-status role="status">','<span data-like-status class="sr-only" role="status">')
+    like_row=like_row.removeprefix('<div class="like-row">').removesuffix('</div>')
+    engagement=re.sub(r'<div class="like-row">.*?</div>','',engagement,flags=re.S)
+    actions=re.search(r'<div class="poem-actions"[^>]*>.*?</div>',body,re.S)
+    compact=actions[0].replace('</div>',like_row+'</div>')
+    compact=compact.replace('<span>Bookmarks</span>','<span class="poem-action-tip" aria-hidden="true">Bookmarks</span>').replace('<span>Share</span>','<span class="poem-action-tip" aria-hidden="true">Share</span>').replace('<span>Read quietly</span>','<span class="poem-action-tip" aria-hidden="true">Read quietly</span>')
+    compact=compact.replace('data-share="', 'aria-label="Share poem" title="Share poem" data-share="').replace('aria-label="Read quietly"','aria-label="Read quietly" title="Read quietly"')
+    body=body[:actions.start()]+compact+body[actions.end():]
+    body=body.replace(language_controls+compact,'<div class="poem-toolbar" aria-label="Poem reading tools">'+language_controls+compact+'</div>',1)
     body=body.replace('<!--poem-responses-->',engagement,1)
     return body

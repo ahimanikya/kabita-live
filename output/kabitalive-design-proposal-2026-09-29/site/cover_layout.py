@@ -7,8 +7,17 @@ _sequence=count()
 @lru_cache(maxsize=1)
 def catalogue(root):
     return json.loads((root/'data/cover-layout-b.json').read_text())
-def render_cover(root,number,alt):
+@lru_cache(maxsize=1)
+def delivery(root):
+    path=root/'data/cover-delivery.json'
+    return json.loads(path.read_text()) if path.exists() else {}
+def render_cover(root,number,alt,*,card=False):
     svg='\n'.join(line.rstrip() for line in catalogue(root)[str(number)]['svg'].splitlines() if line.strip())
+    if card:
+        source=catalogue(root)[str(number)]['artwork']
+        variant=delivery(root).get(source)
+        if variant:
+            svg=svg.replace('href="'+source+'"','href="'+variant['src']+'"')
     token=f'cover-b-{number}-{next(_sequence)}-'
     svg=re.sub(r'id="([^"]+)"',lambda m:'id="'+token+m[1]+'"',svg)
     svg=re.sub(r'url\(#([^\)]+)\)',lambda m:'url(#'+token+m[1]+')',svg)
