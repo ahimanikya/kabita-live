@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-07T15:14:17.096595+00:00",
-  "status": "verified_for_publication",
+  "status": "published_verified",
   "authorization": "User: push it, after reviewing essay changes and corrected comment rendering.",
   "base_commit": "6205bfe9647be9c827cc41cb9fab1b268668c488",
   "scope": [
@@ -24,12 +24,26 @@
     "kb_bundle": "Five pre-existing missing KB links on remote baseline; all five verified in HEAD. No new missing links. Registers/catalogue pass.",
     "public_html": "Both article routes: one comment textarea, correct separate bundle, noindex; revised title and requested deletions confirmed; no KB export.",
     "edition_checker": "Legacy remote-baseline checker fails its hard-coded 47-edition/801-poem expectations against the existing Edition48 catalogue; catalogue is byte-unchanged by this release. Exact output saved in release-editions.log.",
-    "handoff": "Isolated checkout has no ignored portable baseline. Final sync and storage verification will run in primary workspace."
+    "handoff": "Isolated checkout has no ignored portable baseline. Final sync and storage verification will run in primary workspace.",
+    "primary_handoff": "PASS:24192 entries synchronized;2073 portable links verified",
+    "primary_kb_bundle": "PASS:94 concepts,2399 local links",
+    "live": "PASS:nine HTTP200 pages/assets; runtime source fields unchanged (normal build-generated analytics page manifest/basePath added); existing poem/contact bundles byte-equal.",
+    "live_browser": "1280px desktop and390px mobile:one public-comment field,720px/350px response column,no horizontal overflow;disabled service state honest;screenshots saved."
   },
   "independent_review": false,
   "publication": {
-    "status": "pending",
-    "hosting_mode": "preview"
+    "status": "success",
+    "hosting_mode": "preview",
+    "commit": "1d1a06379a5aac0f947b45c9d91dcbcf0278744f",
+    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/37642585785",
+    "provider_incident": {
+      "url": "https://stspg.io/96smrcth8bpg",
+      "name": "Incident with Git Operations, Pull Requests and Actions",
+      "status": "investigating",
+      "checked_at": "2026-10-07T15:21:17.033414+00:00"
+    },
+    "verified_at": "2026-10-07T15:26:07.568309+00:00",
+    "live_url": "https://ahimanikya.github.io/kabita-live/thirty-languages-and-the-journey-of-a-poem.html"
   },
   "related_records": [
     "three-languages-article-2026-10-06.json",

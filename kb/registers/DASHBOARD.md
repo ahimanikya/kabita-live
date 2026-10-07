@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e9b3a235717879e056ed2efc6697bd86c849f568556a821195b4a223b58a6887`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `99d80bd7c3e45f0765a15dbb8e4e817dc2941d141873313c58545ad635339694`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -34,7 +34,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-WORK-019 · Firebase activation, Likes and moderated public comments | completed | applied | Ahimanikya Satapathy | Firebase feedback, Likes and moderated comments are live and verified. Owner reviews comments in Firebase Console. Dedicated editor inbox, reader accounts, cloud bookmarks and DNS remain deferred. | — |
 | KBL-WORK-021 · Edition-specific interior artwork pilot | completed | applied | Ahimanikya Satapathy | Pilot published and live verified at11ebcb6; all-edition expansion continues underKBL-WORK-022. | — |
 | KBL-WORK-022 · Edition-specific art across all47editions and verified publication | completed | applied | Ahimanikya Satapathy | Completed artwork heartbeat paused. All47 editions live:140 illustrations and139 text-led openings. One edition6 artwork held for geometry; existing poem art preserved. Independent editorial review remains separate. | — |
-| KBL-WORK-037 · Refocus language story on the magazine’s three languages | completed | approved | Ahimanikya Satapathy | Publish and live-verify the approved article and comment-layout release. | — |
+| KBL-WORK-037 · Refocus language story on the magazine’s three languages | completed | published | Ahimanikya Satapathy | No remaining essay/layout work. Article service activation belongs to the separate response-services work item. | — |
 
 ## Pending human review and decisions
 
@@ -123,6 +123,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-REL-006 · Repository and Firebase service foundation configured | applied | GitHub repository and dedicated Spark Firebase project; no website deployment | KBL-DEC-010 |
 | KBL-REL-007 · Complete publication archive applied locally | applied | Local primary reader site and portable source handoff | KBL-DEC-013 |
 | KBL-REL-008 · Author page system and skills applied locally | applied | Primary site and portable handoff; local Codex skill discovery links | KBL-DEC-014 |
+| KBL-REL-012 · Three-language essay and article comment layout published | published | https://ahimanikya.github.io/kabita-live/ | KBL-DEC-058 |
 
 ## Sources and assets
 

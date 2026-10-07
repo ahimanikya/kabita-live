@@ -456,16 +456,17 @@
       "id": "KBL-WORK-037",
       "title": "Refocus language story on the magazine’s three languages",
       "status": "completed",
-      "readiness": "approved",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-058",
-      "next_action": "Publish and live-verify the approved article and comment-layout release.",
+      "next_action": "No remaining essay/layout work. Article service activation belongs to the separate response-services work item.",
       "blockers": [],
       "refs": [
         "KBL-DEC-058"
       ],
       "evidence": [
-        "records/three-languages-article-2026-10-06.json"
+        "records/three-languages-article-2026-10-06.json",
+        "records/article-publication-2026-10-07.json"
       ]
     }
   ],
@@ -1489,6 +1490,19 @@
       "evidence": [
         "research/author-page-system.md",
         "records/author-page-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-REL-012",
+      "title": "Three-language essay and article comment layout published",
+      "status": "published",
+      "authorization": "KBL-DEC-058",
+      "destination": "https://ahimanikya.github.io/kabita-live/",
+      "refs": [
+        "KBL-WORK-037"
+      ],
+      "evidence": [
+        "records/article-publication-2026-10-07.json"
       ]
     }
   ],

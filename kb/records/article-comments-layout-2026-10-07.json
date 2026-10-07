@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-07T14:37:43.322477+00:00",
-  "status": "verified_local",
+  "status": "published_verified",
   "authorization": "User clarified that the comments section is not rendering correctly; earlier single-text-box comment direction retained.",
   "scope": "Shared article response template and CSS for language essay and Edition48 editorial; optional legacy-field support in article comment handler.",
   "changes": [
@@ -17,10 +17,11 @@
     "review": "Current-assistant self-review; no live submissions made"
   },
   "independent_review": false,
-  "published": false,
+  "published": true,
   "evidence": "kb/artifacts/review/article-comments-2026-10-07",
   "related_work": [
     "KBL-WORK-037",
     "KBL-WORK-036"
-  ]
+  ],
+  "publication_record": "records/article-publication-2026-10-07.json"
 }

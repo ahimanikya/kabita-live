@@ -1,10 +1,10 @@
 {
   "recorded_at": "2026-10-07T03:13:05.945270+00:00",
-  "status": "verified_local",
+  "status": "published_verified",
   "authorization": "Can we change the language story to 3 languages, since the magazine is only focusing on 3 languages?",
   "executor": "Current assistant; editorial support, implementation and self-review",
   "independent_review": false,
-  "published": false,
+  "published": true,
   "title": "Three languages and the journey of a poem",
   "languages": [
     "Odia",
@@ -36,5 +36,6 @@
     "caption_label_removal": "PASS: exact sentence removed from source and existing article outputs; remaining caption and article unchanged."
   },
   "work_id": "KBL-WORK-037",
-  "decision_id": "KBL-DEC-058"
+  "decision_id": "KBL-DEC-058",
+  "publication_record": "records/article-publication-2026-10-07.json"
 }
