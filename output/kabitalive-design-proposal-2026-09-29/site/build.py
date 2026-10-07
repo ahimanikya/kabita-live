@@ -53,6 +53,8 @@ def footer_navigation():
  return ''.join(links)
 
 def page(file,title,body,active='',desc=''):
+ from article_engagement import append_article_responses
+ body=append_article_responses(R,file,body)
  if file.startswith(('poet-','editor-')):
   for override in title_overrides.values():
    body=body.replace(e(override['source_title']),e(override['display_title']))
@@ -65,6 +67,7 @@ def page(file,title,body,active='',desc=''):
  if 'id="focus-edition-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-experience.css?v=21"><script type="module" src="assets/poem-experience.js?v=15"></script>'
  if file=='contact.html': analytics_scripts+='<script type="module" src="assets/private-feedback.js"></script>'
  if 'data-poem-engagement=' in body: analytics_scripts+='<link rel="stylesheet" href="assets/engagement.css?v=single-field-20261004"><script type="module" src="assets/engagement.js?v=toolbar-20261006"></script>'
+ if 'data-article-responses' in body: analytics_scripts+='<link rel="stylesheet" href="assets/article-engagement.css?v=20261007"><script type="module" src="assets/article-engagement.js?v=20261007"></script>'
  poem=publication_readers.get(file) or next((p for p in poems if file=='poem-'+p['slug']+'.html'),None)
  share_records=[dict(id=poem['id'],title=poem['title'],author=poem['author'],lang=poem.get('language',poem.get('lang')),issue=poem.get('edition',47),reader=file)] if poem else poems
  paper='cotton-paper'

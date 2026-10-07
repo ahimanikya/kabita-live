@@ -451,6 +451,22 @@
         "records/edition-art-checkpoint-2-1-publication-2026-10-04.json",
         "research/edition-art-rollout-2026-10-04/final-provenance-audit.json"
       ]
+    },
+    {
+      "id": "KBL-WORK-037",
+      "title": "Refocus language story on the magazine’s three languages",
+      "status": "completed",
+      "readiness": "approved",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-058",
+      "next_action": "Publish and live-verify the approved article and comment-layout release.",
+      "blockers": [],
+      "refs": [
+        "KBL-DEC-058"
+      ],
+      "evidence": [
+        "records/three-languages-article-2026-10-06.json"
+      ]
     }
   ],
   "decisions": [
@@ -1086,6 +1102,21 @@
       "evidence": [
         "records/poem-ending-deployment-2026-10-04.json"
       ]
+    },
+    {
+      "id": "KBL-DEC-058",
+      "title": "Focus the language story on Odia, Hindi and English",
+      "status": "approved",
+      "scope": "Revise language essay, homepage and Our Story descriptions for magazine’s three-language focus; preserve earlier source and live route. Local implementation. User subsequently requested push/publication of the reviewed essay and comment layout.",
+      "evidence": [
+        "records/three-languages-article-2026-10-06.json"
+      ],
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-07T03:14:38.900016+00:00",
+      "quote": "Can we change the language story to 3 languages, since the magazine is only focusing on 3 languages?"
     }
   ],
   "requirements": [

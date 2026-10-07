@@ -1,0 +1,46 @@
+{
+  "result": "FAIL",
+  "editions": 48,
+  "complete_poems": 810,
+  "archived_poems": [
+    385,
+    727
+  ],
+  "edition_assigned": 809,
+  "listed_poems": 805,
+  "supplementary_assigned_poems": 4,
+  "source_hashes_verified": 848,
+  "reciprocal_writer_links_checked": 809,
+  "checks": [
+    "Unique edition membership",
+    "Published contents order",
+    "Original capture integrity and reviewed reader verse parity",
+    "Return and next-poem links",
+    "Reciprocal writer contribution links",
+    "Raw source SHA-256"
+  ],
+  "known_gaps": {
+    "unassigned_poems": [
+      645
+    ],
+    "missing_author": [
+      30
+    ],
+    "identical_text_groups_for_editorial_review": [
+      [
+        268,
+        304
+      ],
+      [
+        645,
+        650
+      ]
+    ]
+  },
+  "errors": [
+    "Expected all 47 edition numbers",
+    "Expected 801 unique captured poems",
+    "Edition membership must exclude archived records",
+    "Unexpected contents-listed poem count"
+  ]
+}

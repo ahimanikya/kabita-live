@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-10-07T03:13:05.945270+00:00",
+  "status": "verified_local",
+  "authorization": "Can we change the language story to 3 languages, since the magazine is only focusing on 3 languages?",
+  "executor": "Current assistant; editorial support, implementation and self-review",
+  "independent_review": false,
+  "published": false,
+  "title": "Three languages and the journey of a poem",
+  "languages": [
+    "Odia",
+    "Hindi",
+    "English"
+  ],
+  "route": "thirty-languages-and-the-journey-of-a-poem.html",
+  "preview_url": "http://127.0.0.1:8771/thirty-languages-and-the-journey-of-a-poem.html",
+  "changes": [
+    "Reframed article and personal reflection around the magazine’s three-language focus",
+    "Removed population survey/tables and two demographic infographics from current article",
+    "Kept original Odia saying and translation/adaptation distinction; original human-reflection paragraphs and attribution retained",
+    "Updated homepage feature, Our Story description and article metadata; existing shared URL retained",
+    "No changes to original poems, translation drafts or service sources",
+    "User follow-up: removed About this essay heading and paragraph; lead-image caption retained.",
+    "User follow-up: removed AI-generated editorial illustration sentence from visible lead-image caption; provenance retained in metadata and KB."
+  ],
+  "evidence": "kb/artifacts/editorial/three-languages-2026-10-06",
+  "historical_record": "records/thirty-languages-article-2026-10-05.json",
+  "checks": {
+    "build": "Node24 public Astro build PASS;1316 public pages",
+    "content": "Current article, homepage feature and Our Story description focus on Odia,Hindi,English; no former thirty-language prose, tables or demographic graphics",
+    "metadata": "Title,description,OG/Twitter present with revised wording;existing canonical route retained",
+    "browser": "1280px desktop and390px phone; no horizontal overflow; hero loaded; homepage essay link opened correct updated article",
+    "history": "Exact pre-edit source and metadata preserved in evidence/before; old publication record unchanged",
+    "review": "Current-assistant self-review; not independent review",
+    "publication": "Local only; no push or deployment",
+    "note_removal": "PASS: source renderer and existing preview/staging/public article updated by exact section removal; remainder unchanged. No full rebuild needed for text deletion.",
+    "caption_label_removal": "PASS: exact sentence removed from source and existing article outputs; remaining caption and article unchanged."
+  },
+  "work_id": "KBL-WORK-037",
+  "decision_id": "KBL-DEC-058"
+}

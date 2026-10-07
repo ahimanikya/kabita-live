@@ -239,3 +239,7 @@ The Poems listing (`poems.html`) reuses the edition icon toolbar at the top of i
 ## Odia signature — 6 October 2026
 
 Use **ମାଟିର ମହକ / ହୃଦୟର ସ୍ବର** in all current placements, preserving established line breaks or one-line separators. Historical snapshots remain unchanged. User-approved replacement; see `../records/tagline-2026-10-06.json`.
+
+### Three-language essay and article comments — 7 October 2026
+
+The language essay focuses on Odia, Hindi and English while retaining its existing shared URL. Omit the About this essay paragraph and the visible AI-generated image label; retain internal provenance. Article public comments use one text box, Reader attribution and a visible moderation/publication notice. The response area follows the 720px reading column with responsive controls and a separately labelled private-feedback form. Service activation is separate from this presentation release.

@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `cfa294eeac248d2a18b0a3e3a133dc812956705082e10699bfd16efc8758fd9d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e9b3a235717879e056ed2efc6697bd86c849f568556a821195b4a223b58a6887`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -34,6 +34,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-WORK-019 · Firebase activation, Likes and moderated public comments | completed | applied | Ahimanikya Satapathy | Firebase feedback, Likes and moderated comments are live and verified. Owner reviews comments in Firebase Console. Dedicated editor inbox, reader accounts, cloud bookmarks and DNS remain deferred. | — |
 | KBL-WORK-021 · Edition-specific interior artwork pilot | completed | applied | Ahimanikya Satapathy | Pilot published and live verified at11ebcb6; all-edition expansion continues underKBL-WORK-022. | — |
 | KBL-WORK-022 · Edition-specific art across all47editions and verified publication | completed | applied | Ahimanikya Satapathy | Completed artwork heartbeat paused. All47 editions live:140 illustrations and139 text-led openings. One edition6 artwork held for geometry; existing poem art preserved. Independent editorial review remains separate. | — |
+| KBL-WORK-037 · Refocus language story on the magazine’s three languages | completed | approved | Ahimanikya Satapathy | Publish and live-verify the approved article and comment-layout release. | — |
 
 ## Pending human review and decisions
 
@@ -91,6 +92,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-DEC-047 · Apply the three approved poem closing marks to pages and the quiet reader | approved | Ahimanikya Satapathy | Apply single leaf, paired leaf and fine sprig after final verse, one stable choice per poem across languages and quiet-reader views. Preserve wording, page navigation and passage offsets. Local application; no new deployment scope. |
 | KBL-DEC-048 · Refine poem-ending spacing, neighbouring navigation and footer emphasis | approved | Ahimanikya Satapathy | Tighten the ending spacing; navigation within poem reading width with neighbouring titles; smaller lighter closing mark; quieter ownership/footer text. Preserve paper and boat artwork. Local application only. |
 | KBL-DEC-049 · Publish the approved poem closing marks and ending refinement | approved | Ahimanikya Satapathy | Publish only approved closing marks and ending refinement using the established manual public-only Pages preview workflow. Preserve current portraits, artwork, poem text, consent, runtime, noindex and DNS. |
+| KBL-DEC-058 · Focus the language story on Odia, Hindi and English | approved | Ahimanikya Satapathy | Revise language essay, homepage and Our Story descriptions for magazine’s three-language focus; preserve earlier source and live route. Local implementation. User subsequently requested push/publication of the reviewed essay and comment layout. |
 
 ## Reviews
 
@@ -165,7 +167,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-525 | 2026-10-04T15:58:31.224069+00:00 | Prepared authorized editions2/1 checkpoint:6 Human Natural / Poetic Natural interior artworks and6 text-led poem openings. All50 poems read before planning; full snapshots, exact prompts, masters/hashes and desktop/mobile self-review retained. Latest remote portraits, active Firebase engagement, analytics consent, historical covers and poetry preserved. | Build, validate, push and publish through the manual preview workflow; verify live hashes. |
 | KBL-EVT-526 | 2026-10-04T16:10:33.694964+00:00 | Published and live-verified editions2/1:6 new poem-informed Human Natural / Poetic Natural illustrations and6 text-led openings. Total140 edition illustrations now live across47 editions. All6 exact asset hashes and12 pages pass; active engagement, consent/noindex settings, historical covers, poetry and remote portraits preserved. Existing edition6 artwork hold retained separately. Desktop/mobile evidence and exact prompts retained; independent:false. | All47 editions published. Verify complete provenance and handoff, then pause the completed artwork heartbeat; one held artwork remains excluded. |
 | KBL-EVT-527 | 2026-10-04T16:10:33.747939+00:00 | Completed all47-edition artwork rollout:140 accepted illustrations and139 text-led openings published and verified.157 candidate masters retained with exact prompts, poem snapshots and hashes. One edition6 block-tower image is held after two corrections; existing poem art preserved. Final publication and provenance audit pass; independent:false. Heartbeat ready to pause after final handoff synchronization. | Synchronize handoff and pause the completed artwork heartbeat. |
 | KBL-EVT-559 | 2026-10-04T17:48:03.245464+00:00 | Published approved mastheadB on all47edition covers, homepage cards and archive/year routes. Exact47live artwork hashes, CSS and runtime checks pass;28application and10Firestore tests pass. Original artwork, portraits, interior illustrations, active services, consent, noindex and DNS preserved. Edition16reference hold remains. | Publication complete; no further cover rollout pending. |
@@ -175,6 +176,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-565 | 2026-10-05T03:07:19.480610+00:00 | Published approved four-view homepage curation at cd795711: courtyard and field retained, water and bridge added, palm and street removed from selection. Workflow37257673796 passed;9exact live file hashes and browser view verified. Existing poem/cover assets and service settings preserved. | Complete; local masters and reserved artworks preserved. |
 | KBL-EVT-566 | 2026-10-05T03:29:39.659545+00:00 | Published per-page social preview images for1298reader pages at2f4e2791:430profiles use portraits,660poems use illustrations,139text-led poems use own edition cover artwork.641uncropped JPEGs, static Open Graph/Twitter metadata and canonical URLs generated. Build/tests passed;6live page/image samples and runtime files verified. Existing1453source HTML pages unchanged; no translation rollout included. | Complete. Actual sharing-app rendering/cache remains controlled by each platform. |
 | KBL-EVT-605 | 2026-10-05T12:24:51.319328+00:00 | User approved article placement and publication. Added homepage feature below Recent editions and permanent Our Story link; navigation/footer preserved. Prepared isolated release from latest remote main with only article scope;879 content/service files unchanged, responsive link checks and application/public build passed. | Push approved release, dispatch existing manual preview workflow, verify live links/article/share image. |
+| KBL-EVT-606 | 2026-10-07T15:14:17.096595+00:00 | User requested push. Prepared three-language essay and article comment-layout release on current remote main. Separate article bundle preserves existing active poem/contact service code; article activation remains disabled. | — |
 
 ## Deferred extensions
 

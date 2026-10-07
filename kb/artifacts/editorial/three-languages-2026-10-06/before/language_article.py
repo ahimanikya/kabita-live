@@ -26,8 +26,17 @@ def render_language_article(site):
                 attrs += f' fetchpriority="high" srcset="assets/articles/thirty-languages/{name}-800.webp 800w, {image} {size["width"]}w" sizes="(max-width: 760px) calc(100vw - 40px), 960px"'
             return tag[:-1] + attrs + '>'
         body = re.sub(pattern, image_tag, body)
+    # Keep the supplied prose, sources, image disclosures and both semantic tables.
+    # The narrow-screen table regions are keyboard-scrollable and named.
+    table_number = 0
+    def table_region(match):
+        nonlocal table_number
+        table_number += 1
+        label = 'India population data' if table_number == 1 else 'Worldwide population data'
+        return f'<div class="table-wrap" tabindex="0" role="region" aria-label="{label}">'
+    body = re.sub(r'<div class="(?:table-wrap|table-scroll)">', table_region, body)
     body = body.replace('<footer class="article-notes">', '<section class="article-notes" aria-labelledby="article-notes-title">')
-    body = body.replace('<h2>About this essay</h2>', '<h2 id="article-notes-title">About this essay</h2>')
+    body = body.replace('<h2>Data and image notes</h2>', '<h2 id="article-notes-title">Data and image notes</h2>')
     body = body.replace('</footer>', '</section>')
     body = '<link rel="stylesheet" href="assets/language-essay.css?v=1">' + body
     return metadata, body

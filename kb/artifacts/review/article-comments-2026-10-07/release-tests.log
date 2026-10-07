@@ -1,0 +1,110 @@
+
+> kabita-live-site@0.1.0 test
+> node --test tests/*.test.mjs && python3 -m unittest discover -s tests -p 'test_*.py'
+
+✔ disabled, local, HTTP, unknown routes and unconsented visits never load GA (15.81275ms)
+✔ explicit consent loads once; config and page view use fixed public metadata only (6.69525ms)
+✔ share events whitelist numeric poem IDs and known methods, never form data or searches (1.775625ms)
+✔ decline disables events, clears only project cookies, persists and reloads (1.296875ms)
+✔ blocked browser storage preserves page-local consent and withdrawal without reload (0.953375ms)
+✔ a stored mode carries across page loads and is applied before content (1.396292ms)
+✔ System tracks the device; explicit modes override it; cycle returns to System (0.4625ms)
+✔ other tabs update both controls; clearing preference restores System (0.414958ms)
+✔ storage unavailable and invalid values do not break theme controls (0.515292ms)
+✔ Disabled form cannot submit or connect (0.482917ms)
+✔ Consent missing does not connect or lose draft (0.202875ms)
+✔ Invalid empty message is rejected locally (1.003667ms)
+✔ Submission preserves exact Unicode and announces pending moderation, never publication (0.303709ms)
+✔ Unknown acknowledgement retries identical ID and immutable payload (0.212792ms)
+✔ Mismatched receipt cannot claim success or clear the draft (0.142125ms)
+✔ Repeated submit while pending creates only one request (0.139208ms)
+✔ Single-field comment posts as Reader with moderation consent and safe acknowledgement (0.141ms)
+✔ both selected prose contexts have one Like/comment/private feedback group in current public build (4.464667ms)
+✔ full poems retain their numeric engagement while unavailable routes remain metadata (299.6945ms)
+✔ source: nonarticle pages do not fetch runtime (1.54525ms)
+✔ source: disabled provider leaves unavailable controls honest (0.722125ms)
+✔ source: foreign project leaves unavailable controls honest (0.162458ms)
+✔ source: missing version leaves unavailable controls honest (0.228916ms)
+✔ source: unknown version leaves unavailable controls honest (0.1645ms)
+✔ source: foreign host leaves unavailable controls honest (0.087375ms)
+✔ source: insecure origin leaves unavailable controls honest (0.076583ms)
+✔ source: runtime failure leaves reading independent (0.188959ms)
+✔ source: enabled article binds controls without provider action (0.147708ms)
+✔ bundled: nonarticle pages do not fetch runtime (0.171791ms)
+✔ bundled: disabled provider leaves unavailable controls honest (0.151459ms)
+✔ bundled: foreign project leaves unavailable controls honest (0.135083ms)
+✔ bundled: missing version leaves unavailable controls honest (0.097875ms)
+✔ bundled: unknown version leaves unavailable controls honest (0.089292ms)
+✔ bundled: foreign host leaves unavailable controls honest (0.095375ms)
+✔ bundled: insecure origin leaves unavailable controls honest (0.05575ms)
+✔ bundled: runtime failure leaves reading independent (0.113125ms)
+✔ bundled: enabled article binds controls without provider action (0.096208ms)
+✔ Trusted registration contains only two public article identities and their languages (1.115375ms)
+✔ Disabled private form never connects (0.786875ms)
+✔ Private consent and malformed email are checked before connection (1.162458ms)
+✔ Only private submission receives exact message, email, ref and separate consent (0.319834ms)
+✔ Email remains optional and invalid reasons never connect (0.290125ms)
+✔ Unknown acknowledgement retains exact private payload for retry (0.124334ms)
+✔ Public-comment receipt cannot falsely acknowledge private feedback (0.082334ms)
+✔ Repeated submit while receipt pending sends once (0.084375ms)
+✔ editorial response follows selected available language; essay remains English (1.906875ms)
+✔ language observer follows existing accessible selection without mutating prose (0.259958ms)
+✔ comment retry keeps original language/ID then next submission reads new language (0.9855ms)
+✔ article variants keep stable identity, distinct from numeric poem IDs (1.156583ms)
+✔ unknown, private, poem and unavailable-language routes reject (0.243583ms)
+✔ manifest explicitly selects only two real prose contexts (1.860208ms)
+✔ candidate stays disabled without explicit article activation and never connects (0.111542ms)
+✔ invalid identity rejects before connection (0.138208ms)
+✔ connection failure retries; settled connection reused, exact context forwarded (0.806208ms)
+✔ copied transport is pinned exactly and existing runtime does not enable candidate (0.8025ms)
+✔ wrong site project cannot construct the article transport (0.885542ms)
+✔ Disabled setup leaves reading intact and does not connect (1.803875ms)
+✔ Like loads only on action and commits desired state (0.903333ms)
+✔ Unknown like acknowledgement retries same desired state (0.666667ms)
+✔ Published text is rendered as text and cursor remains scoped (0.31375ms)
+✔ Failed pagination retains previous comments/cursor for retry (0.246417ms)
+﹣ likes toggle atomically; shared count matches two private votes (0.231667ms) # SKIP
+﹣ forged, duplicate, unpaired and unauthenticated likes cannot inflate counts (0.046625ms) # SKIP
+﹣ comment submission remains private and cannot self-publish or bypass cooldown (0.0305ms) # SKIP
+﹣ comment rules reject forged identities, extra private fields, oversized text and missing consent version (0.057042ms) # SKIP
+﹣ editor publishes only approved original fields; public queries are bounded; withdrawal removes public text (0.053291ms) # SKIP
+﹣ valid private submission; public, own-user and cross-user reads denied; editor can read (0.320042ms) # SKIP
+﹣ unauthenticated writes and forged owner denied (0.040583ms) # SKIP
+﹣ client cannot self-approve, add fields, backdate or oversize (0.081125ms) # SKIP
+﹣ cooldown and missing atomic throttle denied (0.039667ms) # SKIP
+﹣ reader cannot edit, editor can change status but not rewrite text, comments collection denied (0.039209ms) # SKIP
+✔ India midnight advances; equivalent instants and same-day reloads agree (2.602583ms)
+✔ Every poem receives a turn in source order and wraps without skipping (0.315875ms)
+✔ A single poem stays; an absent language never creates an empty card (0.156875ms)
+✔ New edition resets to its first poems; invalid or pre-edition dates use fallback (0.136416ms)
+✔ fresh loads do not repeat the previous view and request only the selected artwork (7.700125ms)
+✔ blocked storage still loads a view (0.639209ms)
+✔ failed selected image falls back once to courtyard (0.638333ms)
+✔ partial words remain partial and overlapping marks merge (18.381417ms)
+✔ erase can shorten or split an underline without touching another line (0.219791ms)
+✔ Hindi and Odia selections cannot split grapheme clusters (1.5175ms)
+✔ invalid saved marks are ignored and empty records stay empty (0.14075ms)
+✔ one selection across lines leaves independent ranges (2.056167ms)
+✔ poem and language keys isolate reader marks (0.193792ms)
+✔ marks in later stanzas use stable global line offsets (0.241333ms)
+✔ next poem fills spare space when its title and three lines fit (2.431834ms)
+✔ only two opening lines would fit: move the next poem to a new page (0.225125ms)
+✔ one- and two-line poems may fit in full (0.229667ms)
+✔ ordering, identity and every source unit survive across many pages (0.140875ms)
+✔ oversized heading keeps first line, never inserts an empty page (0.055291ms)
+✔ changed viewport recalculates the opening guard (0.076917ms)
+✔ closing mark stays with the final verse when its added height needs a page (0.266083ms)
+✔ closing space counts when deciding whether a following short poem fits (0.129959ms)
+ℹ tests 93
+ℹ suites 0
+ℹ pass 83
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 10
+ℹ todo 0
+ℹ duration_ms 397.833125
+..............
+----------------------------------------------------------------------
+Ran 14 tests in 0.004s
+
+OK

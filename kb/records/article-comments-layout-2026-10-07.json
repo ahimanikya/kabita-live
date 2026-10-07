@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-07T14:37:43.322477+00:00",
+  "status": "verified_local",
+  "authorization": "User clarified that the comments section is not rendering correctly; earlier single-text-box comment direction retained.",
+  "scope": "Shared article response template and CSS for language essay and Edition48 editorial; optional legacy-field support in article comment handler.",
+  "changes": [
+    "Align response area to720px article column; responsive350px at390px viewport",
+    "One public-comment textarea with moderation consent notice and Reader attribution",
+    "Style buttons, fields, focus, disabled states and private-feedback checkbox; remove redundant bottom border",
+    "Preserve services, content identities, retries and receipt validation; retain existing disabled article-service setting"
+  ],
+  "checks": {
+    "build": "Node24 public build PASS",
+    "tests": "22 passed: comments including single-field payload,feedback,UI,published-page coverage;807full poem response sections retained",
+    "browser": "Desktop1184px and phone390px; no overflow; one input field;720px/350px response width; screenshots inspected",
+    "public_pages": "Both article routes have one response form, one moderation note, no name/consent fields, noindex retained",
+    "review": "Current-assistant self-review; no live submissions made"
+  },
+  "independent_review": false,
+  "published": false,
+  "evidence": "kb/artifacts/review/article-comments-2026-10-07",
+  "related_work": [
+    "KBL-WORK-037",
+    "KBL-WORK-036"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-07T15:14:17.096595+00:00",
+  "status": "verified_for_publication",
+  "authorization": "User: push it, after reviewing essay changes and corrected comment rendering.",
+  "base_commit": "6205bfe9647be9c827cc41cb9fab1b268668c488",
+  "scope": [
+    "Three-language essay, homepage and Our Story references",
+    "Remove requested explanatory paragraph and visible AI-generated caption sentence",
+    "Single-box article comment layout for language essay and Edition48 editorial",
+    "Separate article-only bundle and necessary dependencies; no replacement of active poem/contact bundles"
+  ],
+  "preserved": [
+    "Translation catalogue and poems",
+    "Firebase rules and runtime activation",
+    "Analytics consent, noindex and content release gates",
+    "Concurrent local shared reader and backend work"
+  ],
+  "checks": {
+    "node_tests": "83 passed,10 emulator-only skipped",
+    "python_tests": "14 passed",
+    "browser": "Prior local desktop/mobile review saved in article-comments-layout record; release live review pending",
+    "build": "Node24 production build PASS;1316 public pages",
+    "preservation": "git diff confirms original content/editions, active poem/contact bundles, runtime-config and rules unchanged.",
+    "kb_bundle": "Five pre-existing missing KB links on remote baseline; all five verified in HEAD. No new missing links. Registers/catalogue pass.",
+    "public_html": "Both article routes: one comment textarea, correct separate bundle, noindex; revised title and requested deletions confirmed; no KB export.",
+    "edition_checker": "Legacy remote-baseline checker fails its hard-coded 47-edition/801-poem expectations against the existing Edition48 catalogue; catalogue is byte-unchanged by this release. Exact output saved in release-editions.log.",
+    "handoff": "Isolated checkout has no ignored portable baseline. Final sync and storage verification will run in primary workspace."
+  },
+  "independent_review": false,
+  "publication": {
+    "status": "pending",
+    "hosting_mode": "preview"
+  },
+  "related_records": [
+    "three-languages-article-2026-10-06.json",
+    "article-comments-layout-2026-10-07.json"
+  ]
+}
