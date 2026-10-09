@@ -64,8 +64,19 @@ for relative in list(assets):
 for relative in assets:
     p=root/relative
     if not p.is_file():raise SystemExit('Missing public asset: '+relative)
-    if p.suffix in {'.js','.css','.json'} and 'kabitalive.com' in p.read_text():
-        raise SystemExit('Old-site runtime dependency: '+relative)
+    if p.suffix in {'.js','.css','.json'}:
+        runtime_text=p.read_text()
+        if relative == 'runtime-config.json':
+            # Authorized custom-domain migration: allow host gates, not legacy URLs.
+            runtime_config=json.loads(runtime_text)
+            for service in ('analytics','firebase'):
+                section=runtime_config.get(service,{})
+                if 'allowedHosts' in section:
+                    section['allowedHosts']=[host for host in section['allowedHosts']
+                        if host not in {'kabitalive.com','www.kabitalive.com'}]
+            runtime_text=json.dumps(runtime_config)
+        if 'kabitalive.com' in runtime_text:
+            raise SystemExit('Old-site runtime dependency: '+relative)
 
 # These are exclusively generated build directories, never source or historical evidence.
 for directory in ['.generated','.public']:
