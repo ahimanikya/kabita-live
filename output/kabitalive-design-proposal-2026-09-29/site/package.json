@@ -14,7 +14,8 @@
     "test:rules": "firebase emulators:exec --only firestore --project demo-kabita-live 'node --test tests/*.rules.test.mjs'",
     "check:release": "python3 build-public.py --release",
     "build:release": "npm run prepare:site && python3 build-public.py --release && node tools/build-social-images.mjs && astro build && pagefind --site dist",
-    "prepare:images": "node tools/prepare-image-delivery.mjs && node tools/prepare-cover-delivery.mjs"
+    "prepare:images": "node tools/prepare-image-delivery.mjs && node tools/prepare-cover-delivery.mjs",
+    "build:discovery": "npm run prepare:images && python3 build.py && node tools/bundle-feedback.mjs && python3 build-public.py --discoverable && node tools/build-social-images.mjs && astro build && pagefind --site dist"
   },
   "dependencies": {
     "astro": "7.3.5",

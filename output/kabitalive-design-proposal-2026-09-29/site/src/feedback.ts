@@ -1,3 +1,4 @@
+import {ensureAppCheck} from './app-check.mjs';
 type Runtime = {firebase:{enabled:boolean,projectId:string,apiKey:string,authDomain:string,appId:string,allowedHosts:string[]}};
 const form = document.querySelector<HTMLFormElement>('form[data-feedback="private"]');
 if (form) {
@@ -38,6 +39,7 @@ if (form) {
       const [{initializeApp,getApps},{getAuth,signInAnonymously},{getFirestore,doc,collection,writeBatch,serverTimestamp}]=
         await Promise.all([import('firebase/app'),import('firebase/auth'),import('firebase/firestore')]);
       const app=getApps()[0]||initializeApp(runtime.firebase);
+      await ensureAppCheck(app,runtime.firebase);
       const auth=getAuth(app);const user=auth.currentUser||(await signInAnonymously(auth)).user;
       const db=getFirestore(app);const feedback=doc(collection(db,'feedback'));const batch=writeBatch(db);
       batch.set(feedback,{uid:user.uid,name,email,message,reason,poemPath,status:'received',

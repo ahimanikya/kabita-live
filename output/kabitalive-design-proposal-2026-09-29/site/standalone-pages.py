@@ -156,6 +156,7 @@ about=R/'about.html';text=about.read_text().replace('Reading responses are revie
 text=text.replace('</main>',author_colophon()+'</main>')
 text=text.replace('</main>', '<section class="colophon" id="privacy"><h2>A little care for your privacy.</h2>'+
     ('<p>Private feedback is stored for the editorial team. Public comments show your chosen name and words only after editorial approval. Likes and comments use an anonymous browser identifier; they do not create a reader account. Clearing browser data can reset that identifier.</p>' if json.loads((R/'runtime-config.json').read_text()).get('engagement',{}).get('publicComments') else '<p>Feedback is sent privately to the editorial desk. Public comments are not enabled.</p>')+
+    '<p>Reader response features use Google reCAPTCHA Enterprise and Firebase App Check to limit automated abuse. Google processes browser and network signals for this security check, separately from optional Analytics. Google’s <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>'+
     '<div id="analytics-settings" hidden><p>Optional Google Analytics helps us understand which pages readers visit. It is off until you choose to allow it. Messages and search terms are not sent to analytics.</p>'+
     '<button class="btn" id="allow-analytics">Allow analytics</button> <button class="btn" id="decline-analytics">Keep analytics off</button>'+
     '<p id="analytics-status" role="status"></p></div></section></main>')

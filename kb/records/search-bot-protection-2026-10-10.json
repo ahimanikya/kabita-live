@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-10-10T00:40:48.345748+00:00",
+  "request": "Yes, let's improve Bot protection and make this searchable by LLMs and search engines. Make the site LLM-friendly.",
+  "status": "implemented_verifying",
+  "independent": false,
+  "base_commit": "3b3b1da27dfe8c9d4d9f2c70aa7329b580665bf8",
+  "scope": "Published source only; index original public pages while preserving explicit source holds and editorial-release gate. No unpublished local content release.",
+  "discovery": [
+    "sitemap.xml",
+    "llms.txt",
+    "canonical metadata",
+    "WebSite/WebPage/CreativeWork/ProfilePage structured data",
+    "Google site verification"
+  ],
+  "bot_protection": {
+    "provider": "Firebase App Check with reCAPTCHA Enterprise",
+    "billing_enabled": false,
+    "enforcement": "monitoring until client verified",
+    "risk_threshold": 0.5,
+    "token_ttl_seconds": 3600
+  },
+  "crawler_policy": "Search and citation allowed; named training crawlers disallowed by default, optional user preference pending.",
+  "references": [
+    "https://developers.google.com/search/docs/appearance/ai-features",
+    "https://developers.openai.com/api/docs/bots",
+    "https://firebase.google.com/docs/app-check/web/recaptcha-enterprise-provider",
+    "https://docs.cloud.google.com/recaptcha/docs/billing-information",
+    "https://llmstxt.org/"
+  ],
+  "limitations": [
+    "Crawling/indexing/citation is not guaranteed",
+    "robots.txt is voluntary; GitHub Pages is not a configurable edge WAF",
+    "No-cost reCAPTCHA quota errors affect protected services if allowance is exhausted; static reading remains available"
+  ]
+}

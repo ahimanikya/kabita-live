@@ -9,12 +9,13 @@ on:
         required: true
         default: false
       hosting_mode:
-        description: 'Preview keeps noindex and the editorial release gate; release requires all content checks'
+        description: 'Preview stays noindex; discovery indexes public pages; release requires editorial checks'
         type: choice
         required: true
         default: preview
         options:
           - preview
+          - discovery
           - release
 
 permissions:
@@ -59,6 +60,12 @@ jobs:
       - name: Build approved hosted preview
         if: inputs.hosting_mode == 'preview'
         run: npm run build
+        env:
+          SITE_URL: ${{ steps.pages.outputs.origin }}
+          SITE_BASE: ${{ steps.pages.outputs.base_path }}
+      - name: Build searchable public website
+        if: inputs.hosting_mode == 'discovery'
+        run: npm run build:discovery
         env:
           SITE_URL: ${{ steps.pages.outputs.origin }}
           SITE_BASE: ${{ steps.pages.outputs.base_path }}

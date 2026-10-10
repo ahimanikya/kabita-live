@@ -1,3 +1,4 @@
+import {ensureAppCheck} from './app-check.mjs';
 type Runtime = {firebase:{enabled:boolean,projectId:string,apiKey:string,authDomain:string,appId:string,allowedHosts:string[]},engagement:{likes?:boolean,publicComments?:boolean}};
 const section=document.querySelector<HTMLElement>('[data-poem-engagement]');
 if(section) void start(section);
@@ -24,6 +25,7 @@ async function start(section:HTMLElement){
  const connect=()=>service??=(async()=>{
   const [app,auth,store]=await Promise.all([import('firebase/app'),import('firebase/auth'),import('firebase/firestore')]);
   const instance=app.getApps().find(a=>a.name==='kabita-engagement')||app.initializeApp(f,'kabita-engagement');
+  await ensureAppCheck(instance,f);
   return {auth,store,instance,db:store.getFirestore(instance)};
  })().catch(error=>{service=undefined;throw error;});
  const identity=async(s:any)=>{const auth=s.auth.getAuth(s.instance);await auth.authStateReady();return auth.currentUser||(await s.auth.signInAnonymously(auth)).user;};

@@ -3,11 +3,13 @@ import argparse,json,re,shutil,os,html as html_lib
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
-from social_metadata import prepare, inject, robots_text
+from social_metadata import prepare, inject, robots_text, public_base
+from discovery import enrich, write_discovery
 
 root=Path(__file__).resolve().parent
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--release',action='store_true')
+parser.add_argument('--discoverable',action='store_true',help='Index existing public content without certifying editorial release')
 args=parser.parse_args()
 status=json.loads((root/'data/content-status.json').read_text())
 if args.release and not status['launch_ready']:
@@ -84,10 +86,16 @@ for directory in ['.generated','.public']:
     if target.exists():shutil.rmtree(target)
     target.mkdir()
 (root/'.generated/pages').mkdir()
+discoverable={}
+discovery_enabled=args.discoverable or args.release
+discovery_policy=json.loads((root/'data/discovery.json').read_text())
 for name in pages:
     html=inject((root/name).read_text(),social[name]).replace('<main id="main"','<main data-pagefind-body id="main"',1)
-    if args.release:
-        html=html.replace('<meta name="robots" content="noindex,nofollow">','')
+    html,indexable=enrich(html,name,social[name],status,discovery_enabled)
+    if indexable: discoverable[name]=social[name]
+    if indexable and name=='index.html' and discovery_policy.get('googleSiteVerification'):
+        token=html_lib.escape(discovery_policy['googleSiteVerification'],quote=True)
+        html=html.replace('</head>',f'<meta name="google-site-verification" content="{token}"></head>',1)
     (root/'.generated/pages'/name).write_text(html)
 for relative in sorted(assets):
     target=root/'.public'/relative;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(root/relative,target)
@@ -104,8 +112,9 @@ for name in pages:
         runtime['analytics']['publicPages'][base+name]=html_lib.unescape(title.group(1)).strip()
         if name=='index.html':runtime['analytics']['publicPages'][base]=html_lib.unescape(title.group(1)).strip()
 (root/'.public/runtime-config.json').write_text(json.dumps(runtime,ensure_ascii=False,indent=2)+'\n')
-(root/'.public/robots.txt').write_text(robots_text(args.release,base))
+(root/'.public/robots.txt').write_text(robots_text(False,base))
+if discovery_enabled: write_discovery(root/'.public',discoverable,public_base(os.environ),discovery_policy.get('allowTrainingCrawlers',False))
 (root/'.generated/social-previews.json').write_text(json.dumps(social,ensure_ascii=False,indent=2)+'\n')
 (root/'.generated/public-pages.json').write_text(json.dumps(pages,indent=2)+'\n')
-(root/'.generated/release-manifest.json').write_text(json.dumps({'pages':pages,'assets':sorted(assets | {e['asset'] for e in social.values()}),'content_ready':status['launch_ready'],'release':args.release},indent=2)+'\n')
+(root/'.generated/release-manifest.json').write_text(json.dumps({'pages':pages,'assets':sorted(assets | {e['asset'] for e in social.values()}),'content_ready':status['launch_ready'],'release':args.release,'discoverable':discovery_enabled,'indexable_pages':sorted(discoverable)},indent=2)+'\n')
 print(f'Public-only build inputs: {len(pages)} pages, {len(assets)} assets. Content ready: {status["launch_ready"]}.')

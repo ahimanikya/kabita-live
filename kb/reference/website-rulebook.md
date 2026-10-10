@@ -243,3 +243,11 @@ Use **ମାଟିର ମହକ / ହୃଦୟର ସ୍ବର** in all current 
 ### Three-language essay and article comments — 7 October 2026
 
 The language essay focuses on Odia, Hindi and English while retaining its existing shared URL. Omit the About this essay paragraph and the visible AI-generated image label; retain internal provenance. Article public comments use one text box, Reader attribution and a visible moderation/publication notice. The response area follows the 720px reading column with responsive controls and a separately labelled private-feedback form. Service activation is separate from this presentation release.
+
+## Search and AI discovery — 10 October 2026
+
+The user explicitly authorizes searchable publication of the existing public reader site, superseding its blanket preview noindex restriction for discovery deployments. `discovery` is separate from full editorial `release`: it must not certify translations, remove draft labels, import unpublished local content or clear unresolved source records. Keep unavailable/unattributed/unassigned poem records, duplicate aliases, redirects and utility forms noindex and outside the sitemap.
+
+Generate HTTPS canonical URLs, a canonical-only sitemap, visible-content-based structured data and an `llms.txt` navigation aid. Public original text remains ordinary HTML for all readers and crawlers; never cloak or invent author/date/review metadata. Search and citation crawlers may access public pages; training-crawler policy is explicit in `data/discovery.json`. Robots directives are voluntary crawl instructions, not bot authentication or access control.
+
+Firebase bot protection uses domain-restricted reCAPTCHA Enterprise through App Check. Ship and verify all clients before enabling Firestore enforcement. Preserve private submissions, moderation, server cooldowns, Analytics opt-in and readable static pages when services fail. Keep billing disabled under the present authorization. Public security/privacy disclosure belongs in Our Story. Record quota limits, actual enforcement and verification separately from code readiness.

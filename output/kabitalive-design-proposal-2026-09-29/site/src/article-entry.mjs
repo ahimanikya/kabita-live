@@ -1,3 +1,4 @@
+import {ensureAppCheck} from './app-check.mjs';
 import {bindResponseLanguage} from './article-language.mjs';
 import {setupResponses} from './article-ui.mjs';
 import {createKabitaArticleResponses} from './article-responses.mjs';
@@ -9,7 +10,7 @@ export async function bindArticleResponses(document,location,fetcher=fetch){
  if(siteRuntimeAllowed(runtime.firebase,'kabita-live',location)){
  const transport=createKabitaArticleResponses({articleVersion:runtime.engagement?.articleResponseVersion,connect:async()=>{
  const [app,authSdk,sdk]=await Promise.all([import('firebase/app'),import('firebase/auth'),import('firebase/firestore')]);
- const instance=selectSiteApp(app,runtime.firebase,'kabita-engagement','kabita-live'),db=sdk.getFirestore(instance),auth=authSdk.getAuth(instance);
+ const instance=selectSiteApp(app,runtime.firebase,'kabita-engagement','kabita-live');await ensureAppCheck(instance,runtime.firebase);const db=sdk.getFirestore(instance),auth=authSdk.getAuth(instance);
  return {db,auth,sdk,ensureUser:()=>restoreSiteUser(authSdk,instance)};
  }});if(transport)service={connect:async()=>transport};
  }}catch{/* Honest disabled UI; reading does not depend on the provider. */}

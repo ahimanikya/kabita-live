@@ -5,7 +5,7 @@ import json
 import os
 import re
 from html.parser import HTMLParser
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, urljoin
 
 FALLBACK = 'assets/home/life-after-rain-poetic-natural.webp'
 VOID = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr','image'}
@@ -13,10 +13,11 @@ VOID = {'area','base','br','col','embed','hr','img','input','link','meta','param
 class Page(HTMLParser):
     def __init__(self, text):
         super().__init__(convert_charrefs=True)
-        self.stack=[]; self.images=[]; self.links=[]; self.title=[]; self.byline=[]; self.description=''
+        self.stack=[]; self.images=[]; self.links=[]; self.title=[]; self.byline=[]; self.description=''; self.canonical=[]
         self.feed(text)
     def handle_starttag(self, tag, attrs):
         a=dict(attrs)
+        if tag=='link' and a.get('rel')=='canonical':self.canonical.append(a.get('href',''))
         if tag=='meta' and a.get('name')=='description':self.description=a.get('content','')
         classes=set(' '.join(d.get('class','') for _,d in self.stack).split()) | set(a.get('class','').split())
         if tag in {'img','image'}:
@@ -81,6 +82,7 @@ def public_base(environ):
 def inject(text, entry):
     # Idempotent if an already prepared page is passed through this stage again.
     text=re.sub(r'<!-- social-preview:start -->.*?<!-- social-preview:end -->','',text,flags=re.S)
+    text=re.sub(r'''<link\b(?=[^>]*\brel\s*=\s*["']canonical["'])[^>]*>''','',text,flags=re.I)
     values=[('property','og:type',entry['type']),('property','og:site_name','Kabita Live'),
             ('property','og:title',entry['title']),('property','og:description',entry['description']),
             ('property','og:url',entry['url']),('property','og:image',entry['image_url']),
@@ -90,7 +92,7 @@ def inject(text, entry):
             ('name','twitter:description',entry['description']),('name','twitter:image',entry['image_url']),
             ('name','twitter:image:alt',entry['alt'])]
     tags=''.join(f'<meta {attr}="{key}" content="{html.escape(value,quote=True)}">' for attr,key,value in values)
-    tags+=f'<link rel="canonical" href="{html.escape(entry["url"],quote=True)}">'
+    tags+=f'<link rel="canonical" href="{html.escape(entry.get("canonical_url",entry["url"]),quote=True)}">'
     return text.replace('</head>','<!-- social-preview:start -->'+tags+'<!-- social-preview:end --></head>',1)
 
 
@@ -115,7 +117,10 @@ def prepare(root, names, environ=None):
         elif reason=='article_illustration':description=page.description or f'{short} — an essay on Kabita Live.'
         else:description=f'{short} — Kabita Live, a journal of poetry in Odia, Hindi and English.'
         if len(description)>240: description=description[:237].rsplit(' ',1)[0]+'…'
-        entries[name]={'title':title,'description':description,'type':'article' if name.startswith('poem-') or reason=='article_illustration' else 'profile' if reason=='poet_portrait' else 'website','url':base+('' if name=='index.html' else name),'image_url':base+asset,'asset':asset,'source':image['source'],'alt':image['alt'] or f'Artwork accompanying {short}','reason':reason}
+        if len(page.canonical)>1:raise ValueError('Multiple source canonical links: '+name)
+        canonical=urljoin(base+name,page.canonical[0]) if page.canonical else base+('' if name=='index.html' else name)
+        if urlsplit(canonical).netloc!=urlsplit(base).netloc or not canonical.startswith(base) or urlsplit(canonical).query or urlsplit(canonical).fragment:raise ValueError('Invalid source canonical: '+name)
+        entries[name]={'canonical_url':canonical,'title':title,'description':description,'type':'article' if name.startswith('poem-') or reason=='article_illustration' else 'profile' if reason=='poet_portrait' else 'website','url':base+('' if name=='index.html' else name),'image_url':base+asset,'asset':asset,'source':image['source'],'alt':image['alt'] or f'Artwork accompanying {short}','reason':reason}
     return entries
 
 
