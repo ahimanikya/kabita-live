@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-10T15:23:18.016955+00:00",
+  "pages": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "robots": "index,follow,max-image-preview:large"
+    },
+    {
+      "path": "poem-825.html",
+      "status": 200,
+      "robots": "index,follow,max-image-preview:large"
+    },
+    {
+      "path": "poet-440.html",
+      "status": 200,
+      "robots": "index,follow,max-image-preview:large"
+    },
+    {
+      "path": "issue-48.html",
+      "status": 200,
+      "robots": "index,follow,max-image-preview:large"
+    },
+    {
+      "path": "contact.html",
+      "status": 200,
+      "robots": "noindex,follow"
+    },
+    {
+      "path": "poem-30.html",
+      "status": 200,
+      "robots": "noindex,follow"
+    }
+  ],
+  "sitemap_urls": 1306,
+  "robots": "# Public reading is open to search and citation. Forms are not crawl targets.\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: *\nAllow: /\n\nSitemap: https://kabitalive.com/sitemap.xml\n",
+  "app_check_enabled": true,
+  "result": "PASS"
+}

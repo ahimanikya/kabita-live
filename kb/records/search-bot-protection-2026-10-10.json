@@ -1,7 +1,7 @@
 {
   "recorded_at": "2026-10-10T00:40:48.345748+00:00",
   "request": "Yes, let's improve Bot protection and make this searchable by LLMs and search engines. Make the site LLM-friendly.",
-  "status": "implemented_verifying",
+  "status": "published_verified_google_sitemap_fetch_pending",
   "independent": false,
   "base_commit": "3b3b1da27dfe8c9d4d9f2c70aa7329b580665bf8",
   "scope": "Published source only; index original public pages while preserving explicit source holds and editorial-release gate. No unpublished local content release.",
@@ -15,11 +15,13 @@
   "bot_protection": {
     "provider": "Firebase App Check with reCAPTCHA Enterprise",
     "billing_enabled": false,
-    "enforcement": "monitoring until client verified",
+    "enforcement": "ENFORCED for Cloud Firestore; Authentication enforcement unchanged",
     "risk_threshold": 0.5,
-    "token_ttl_seconds": 3600
+    "token_ttl_seconds": 3600,
+    "enforced_at": "2026-10-10T15:28:51.665023Z",
+    "api_setup_repair": "Enabled firebaseappcheck.googleapis.com; existing service-agent role and reCAPTCHA API verified. Attestation passed after provider refresh/propagation."
   },
-  "crawler_policy": "Search and citation allowed; named training crawlers disallowed by default, optional user preference pending.",
+  "crawler_policy": "Search and citation allowed; named training crawlers disallowed by default.",
   "references": [
     "https://developers.google.com/search/docs/appearance/ai-features",
     "https://developers.openai.com/api/docs/bots",
@@ -31,5 +33,52 @@
     "Crawling/indexing/citation is not guaranteed",
     "robots.txt is voluntary; GitHub Pages is not a configurable edge WAF",
     "No-cost reCAPTCHA quota errors affect protected services if allowance is exhausted; static reading remains available"
+  ],
+  "implementation_commit": "b921bcfaf",
+  "worktree": "/Users/ahimanikya/.codex/worktrees/search-and-bot-protection/Kabita Live",
+  "verification": {
+    "node_tests_passed": 87,
+    "node_emulator_tests_skipped_locally": 10,
+    "python_tests_passed": 19,
+    "public_pages_checked": 1316,
+    "indexable_pages": 1306,
+    "structured_metadata_and_sitemap": "PASS",
+    "editorial_gate": "Still blocks full release",
+    "private_export_boundary": "PASS",
+    "deployment": "GitHub Actions build and deploy SUCCESS",
+    "live_discovery": "PASS: six representative routes, 1306 unique sitemap URLs, robots and llms guide, runtime App Check enabled",
+    "real_appcheck_exchange": "HTTP 200; no debug tokens or bypass",
+    "post_enforcement_reads": "Like counts and public comments load in IAB and Chrome",
+    "post_enforcement_writes": "Chrome Like 0->1->0 successful; test Like removed; Firestore commit HTTP 200",
+    "unverified_firestore_read": "HTTP 403 PERMISSION_DENIED",
+    "google_live_test": "URL is available to Google; Page can be indexed",
+    "browser_limitation": "IAB anonymous sign-in aborted with auth/network-request-failed; regular Chrome completed the reversible Like test",
+    "private_feedback_submission": "Not sent; no test message to editors",
+    "billing": "disabled; verified after rollout"
+  },
+  "publication_block": {
+    "source": "automatic approval review",
+    "action": "push main and dispatch public Pages discovery deployment",
+    "reason": "Implementation and verification interpreted as authorized; explicit publication approval required.",
+    "question_pending": false,
+    "resolved_by": "Explicit user approval"
+  },
+  "search_console": {
+    "ownership": "verified via HTML tag",
+    "sitemap": "submitted successfully, retried after successful live homepage test",
+    "processing": "Google currently reports Could not fetch and 0 discovered pages; HTTPS sitemap independently returns200 valid XML with1306 URLs",
+    "next_action": "Recheck Google sitemap fetch status after its next processing cycle; indexing and AI citations are not guaranteed"
+  },
+  "publication_approval": {
+    "request": "Go ahead, approved",
+    "recorded_at": "2026-10-10T09:51:32.416270+00:00",
+    "scope": "Publish verified discovery, verify live clients, enforce Firebase App Check after successful checks, verify Search Console and submit sitemap"
+  },
+  "deployment_run": "https://github.com/ahimanikya/kabita-live/actions/runs/38042806159",
+  "completed_at": "2026-10-10T15:32:04.018531+00:00",
+  "evidence": [
+    "artifacts/review/search-bot-protection-2026-10-10/live-discovery.json",
+    "artifacts/review/search-bot-protection-2026-10-10/google-live-test.jpg",
+    "artifacts/review/search-bot-protection-2026-10-10/search-console-sitemap.jpg"
   ]
 }
