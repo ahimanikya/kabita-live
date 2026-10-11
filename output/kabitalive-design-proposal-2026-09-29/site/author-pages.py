@@ -77,12 +77,14 @@ def render_author(writer):
         path.write_text(path.read_text().replace('</head>',f'<link rel="canonical" href="{target}"></head>',1).replace('<main id="main"','<main data-pagefind-ignore="all" id="main"',1))
 
 def author_colophon():
-    credit='<section class="colophon" id="credits-writers"><h2>The voices in these pages.</h2><p class="profile-footnote">Biographies and photographs are drawn from the journal’s contributor records. Supplied biographies may describe roles held at the time they were written. Where an artistic portrait is shown, it was created with AI assistance from the writer’s supplied photograph. Pravakar Satapathy’s artistic portrait uses a photograph supplied for this redesign; the other artistic portraits use journal-supplied photographs. Portraits awaiting artistic treatment retain their original photographs. Where photographs are unavailable, shared generic watercolor figures are used and labelled; these do not depict the writers. Research references for expanded profiles appear below. Corrections are welcome through the <a href="contact.html">editorial desk</a>.</p>'
+    credit='<section class="colophon" id="credits-writers"><h2>The voices in these pages.</h2><p class="profile-footnote">Biographies and photographs are drawn from the journal’s contributor records. Supplied biographies may describe roles held at the time they were written. Where an artistic portrait is shown, it is based on the writer’s supplied photograph. Pravakar Satapathy’s artistic portrait uses a photograph supplied for this redesign; the other artistic portraits use journal-supplied photographs. Portraits awaiting artistic treatment retain their original photographs. Where photographs are unavailable, shared generic watercolor figures are used and labelled; these do not depict the writers. Research references for expanded profiles appear below. Corrections are welcome through the <a href="contact.html">editorial desk</a>.</p>'
     credit+='<details class="colophon-details"><summary>Author biography references</summary>'
     for ident,extra in writer_enrichment.items():
         name=profile_data[int(ident)]['name']
         portrait=writer_portraits.get(str(ident))
         portrait_credit=portrait.get('credit','Journal-supplied photograph') if portrait else 'Initials; no portrait photograph available'
+        portrait_credit=portrait_credit.replace('AI-assisted ', '')
+        portrait_credit=portrait_credit[:1].upper()+portrait_credit[1:]
         from datetime import date
         reviewed=date.fromisoformat(extra.get('reviewed_on','2026-09-29')).strftime('%d %B %Y').lstrip('0')
         references='; '.join(f'<a href="{e(s["url"])}" target="_blank" rel="noopener noreferrer">{e(s["label"])} ↗</a>' for s in extra.get('sources',[])) or 'Biography based on the journal’s contributor record and published poems'

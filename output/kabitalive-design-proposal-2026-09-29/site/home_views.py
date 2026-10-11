@@ -29,8 +29,8 @@ def apply_home_views(site):
     path.write_text(text)
     about = site / 'about.html'
     text = about.read_text()
-    credit = ('<p id="home-view-sources">The homepage field, water-and-hills and bridge paintings are AI-assisted Poetic Natural interpretations of Odisha photographs by Ahimanikya Satapathy. '
-              'They are artistic adaptations, not documentary photographs. The courtyard is an AI-assisted imagined scene.</p>')
+    credit = ('<p id="home-view-sources">The homepage field, water-and-hills and bridge paintings are artistic interpretations of Odisha photographs by Ahimanikya Satapathy. '
+              'They are artistic adaptations, not documentary photographs. The courtyard is an imagined scene.</p>')
     marker = '<details><summary>Artwork and image sources</summary>'
     assert marker in text, 'Artwork credits missing'
     start = text.index(marker)

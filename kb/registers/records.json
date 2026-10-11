@@ -931,6 +931,22 @@
       ],
       "blockers": [],
       "next_action": "Published and live-verified. Translation questions remain in the unlinked noindex review desk; no independent linguistic certification claimed."
+    },
+    {
+      "id": "KBL-WORK-045",
+      "title": "Clean public credits and enforce reader-only publication",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-061",
+      "refs": [
+        "KBL-DEC-061"
+      ],
+      "evidence": [
+        "records/public-site-cleanup-2026-10-11.json"
+      ],
+      "blockers": [],
+      "next_action": "Publish verified cleanup and check live credits and excluded routes."
     }
   ],
   "decisions": [
@@ -1793,6 +1809,21 @@
       },
       "recorded_at": "2026-10-11T03:02:13.244488+00:00",
       "quote": "push all of that please; Don’t label as drafts, for have a dedicated review page and keep it unlinked and out of the search index."
+    },
+    {
+      "id": "KBL-DEC-061",
+      "title": "Remove public AI credits and keep development reviews local",
+      "status": "approved",
+      "scope": "Explicit allowlist for public reader route families; development pages excluded even when regular files; Remove public AI attribution in artwork, portrait, designer profile and translation preparation copy; retain human/source/font credits; Preserve internal AI/source provenance and original poems; Keep translation-review.html as previously authorized direct-link noindex exception",
+      "evidence": [
+        "records/public-site-cleanup-2026-10-11.json"
+      ],
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-11T03:33:03.647073+00:00",
+      "quote": "During the process of development, we might have created a lot of review pages - maybe we should clean that up and remove them from the site if they are somehow published. Remove AI credit from all pages; that is unnecessary, since we are using AI as yet another tool; no credit is required."
     }
   ],
   "requirements": [
@@ -2920,6 +2951,22 @@
         "Independent linguistic review remains pending; source questions and holds preserved on unlinked noindex desk.",
         "No production feedback/comment test message sent; submission and moderation behavior verified by45 emulator checks.",
         "Site-search exclusion locally verified from generated fragments; compliant external crawlers receive noindex, not authentication."
+      ]
+    },
+    {
+      "id": "KBL-REV-059",
+      "title": "Public cleanup and export boundary verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-045"
+      ],
+      "evidence": [
+        "records/public-site-cleanup-2026-10-11.json"
+      ],
+      "limitations": [
+        "Translation review remains directly accessible by prior user request; noindex is not access control."
       ]
     }
   ],

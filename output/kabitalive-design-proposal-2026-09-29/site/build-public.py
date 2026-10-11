@@ -7,6 +7,7 @@ from urllib.parse import urlsplit,unquote
 from social_metadata import prepare, inject, robots_text, public_base
 from discovery import enrich, write_discovery
 from service_assets import service_assets
+from public_routes import is_reader_page
 
 root=Path(__file__).resolve().parent
 parser=argparse.ArgumentParser(description=__doc__)
@@ -23,7 +24,7 @@ if args.release:
 excluded={'credits-content.html'}
 # Book reviews are retained locally for provenance, outside the reader publication.
 excluded.update(p.name for p in root.glob('*.html') if re.fullmatch(r'reviews?(?:-\d+)?\.html', p.name))
-pages=sorted(p.name for p in root.glob('*.html') if not p.is_symlink() and p.name not in excluded)
+pages=sorted(p.name for p in root.glob('*.html') if not p.is_symlink() and p.name not in excluded and is_reader_page(p.name))
 social=prepare(root,pages)
 refs=set()
 class Links(HTMLParser):

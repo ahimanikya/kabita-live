@@ -91,3 +91,5 @@ Decision or rulebook update needed:
 - [ ] Reader theme immediately precedes the top menu; poem actions are four accessible tooltip icons in one row, with one genuine service-backed Like and unchanged comments/host gates. Check320px, keyboard focus and light/dark.
 
 - [ ] Poem language and action controls share one row, separated by one subtle vertical rule; no Read in label, wrapping, reduced44px targets or320px overflow.
+
+- [ ] Export includes only registered reader routes; development review files remain local even if copied as ordinary files. Public copy has no AI tool credits, while human credits, source acknowledgements and licences remain.

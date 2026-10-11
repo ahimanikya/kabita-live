@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-11T03:33:03.647073+00:00",
+  "status": "verified_pending_publication",
+  "authorization": {
+    "decision": "KBL-DEC-061",
+    "quote": "During the process of development, we might have created a lot of review pages - maybe we should clean that up and remove them from the site if they are somehow published. Remove AI credit from all pages; that is unnecessary, since we are using AI as yet another tool; no credit is required."
+  },
+  "work": "KBL-WORK-045",
+  "baseline": "c35d38aef9d52c7d385638512da4f077ffc37085",
+  "executor": "Current chat assistant; Samanta engineering and self-review",
+  "independent": false,
+  "scope": [
+    "Explicit allowlist for public reader route families; development pages excluded even when regular files",
+    "Remove public AI attribution in artwork, portrait, designer profile and translation preparation copy; retain human/source/font credits",
+    "Preserve internal AI/source provenance and original poems",
+    "Keep translation-review.html as previously authorized direct-link noindex exception"
+  ],
+  "checks": {
+    "live_before": {
+      "development_and_old_review_urls": 146,
+      "all_returned_404": true,
+      "translation_review_status": 200
+    },
+    "public_html_pages": 1317,
+    "sitemap_urls": 1306,
+    "runtime_changes": false,
+    "javascript_passed": 153,
+    "python_passed": 32,
+    "public_ai_credit_matches": 0,
+    "translation_review_unlinked_noindex": true
+  },
+  "publication": null
+}

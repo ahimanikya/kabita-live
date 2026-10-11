@@ -160,7 +160,7 @@ text=text.replace('</main>', '<section class="colophon" id="privacy"><h2>A littl
     '<div id="analytics-settings" hidden><p>Optional Google Analytics helps us understand which pages readers visit. It is off until you choose to allow it. Messages and search terms are not sent to analytics.</p>'+
     '<button class="btn" id="allow-analytics">Allow analytics</button> <button class="btn" id="decline-analytics">Keep analytics off</button>'+
     '<p id="analytics-status" role="status"></p></div></section></main>')
-text=text.replace('<details><summary>Typefaces and their makers</summary>', '<details id="credits-translations"><summary>Translations</summary><div class="colophon-details"><p>The additional Odia, Hindi and English reading versions follow each poem’s original language. See <a href="#credits-preparation">how these pages are made</a> for the preparation process. Original and translated versions are labelled in the reader. The original poems remain unchanged and belong to their respective authors.</p></div></details>'+'<details><summary>Typefaces and their makers</summary>')
+text=text.replace('<details><summary>Typefaces and their makers</summary>', '<details id="credits-translations"><summary>Translations</summary><div class="colophon-details"><p>The additional Odia, Hindi and English reading versions follow each poem’s original language. Original and translated versions are labelled in the reader. The original poems remain unchanged and belong to their respective authors.</p></div></details>'+'<details><summary>Typefaces and their makers</summary>')
 about.write_text(text)
 
 status={'schema_version':1,'complete_poem_texts':0,'excerpt_poems':len(sample_routes),'known_poem_records':len(catalogue),

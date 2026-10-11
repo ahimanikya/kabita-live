@@ -48,6 +48,7 @@ class ServiceAssets(unittest.TestCase):
   self.write('assets/reading-library.json',json.dumps({'editions':[],'poets':[]}))
   self.write('index.html','<title>Fixture</title><main id="main"><script type="module" src="assets/engagement.js"></script></main>')
   self.write('data/content-status.json',json.dumps({'launch_ready':False,'blockers':['fixture']}));self.write('data/home-views.json','[]');self.write('data/discovery.json','{}');self.write('runtime-config.json',json.dumps({'analytics':{}}))
+  self.write('poem-final-check.html','PRIVATE-REVIEW');self.write('new-prototype.html','PRIVATE-REVIEW')
   self.write('kb/private.json','PRIVATE-FIXTURE');self.write('assets/services/unrelated.js','UNRELATED-FIXTURE')
   stub=types.ModuleType('social_metadata');stub.prepare=lambda root,pages:{n:{'asset':'assets/engagement.js'}for n in pages};stub.inject=lambda html,meta:html;stub.robots_text=lambda release,base:'Disallow: /';stub.public_base=lambda env:'https://example.invalid/'
   previous=sys.modules.get('social_metadata');sys.modules['social_metadata']=stub;argv=sys.argv;sys.argv=['build-public.py']
@@ -58,6 +59,7 @@ class ServiceAssets(unittest.TestCase):
    sys.argv=argv
    if previous is None:sys.modules.pop('social_metadata',None)
    else:sys.modules['social_metadata']=previous
+  self.assertFalse((self.root/'.generated/pages/poem-final-check.html').exists());self.assertFalse((self.root/'.generated/pages/new-prototype.html').exists())
   graph=service_assets(self.root)
   for n in graph:self.assertEqual((self.root/n).read_bytes(),(self.root/'.public'/n).read_bytes())
   self.assertFalse((self.root/'.public/kb').exists());self.assertFalse((self.root/'.public/.service-build.json').exists());self.assertFalse((self.root/'.public/assets/services/unrelated.js').exists())
