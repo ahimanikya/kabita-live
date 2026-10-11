@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-10-06T03:20:09.461441+00:00",
+  "poem_ids": [
+    229
+  ],
+  "variants_read": 2,
+  "variants_changed": 2,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 229,
+      "target": "hi",
+      "reading_evidence": "Read all23 source lines and both complete targets in4/6/7/6 blocks: life not easy/not so difficult/attitude cult, repeated some learning-unlearning-rejection-acceptance/reflection-flow, brook and debris at depth/with current/left behind enabling flow, brook-to-river never back/only forward/destination sea. Preserved minimal fragments and repeated some/flow, with source cult left unresolved.",
+      "open_questions": [
+        "Cult remains provisional panth rather than an invented culture correction.",
+        "Leaving behind/makes it flow has loose source agency; retain ambiguity rather than assigning a new actor."
+      ],
+      "reason": "Render brook as a small natural stream without a drainage-channel implication, and attach sea clearly as the destination while preserving23lines.",
+      "tradeoff": "Preserve sparse source sequence and unresolved cult/debris syntax; no added philosophy. Same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 23,
+        "before_lines": [
+          4,
+          10,
+          17
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "1bb64167aed0df6744c71231a017145752d269f3bb64d5c0393dce6359107504",
+      "before_sha256": "4f6e388ce23b704d524973cbd62182d8aeb0cbb3c73173a7e43dbdd26519df28",
+      "after_sha256": "49a79881dedbd98f6556985cde4cd9921c673d49e8a145a09f6af41a0f11de15",
+      "prior_uncertainties": [
+        {
+          "note": "Four blocks [4,6,7,6] retained. Source cult translated panth, not silently changed to culture; ambiguous unusual phrasing needs linguistic review. Brook/debris-to-sea movement retained.",
+          "record": "kb/production/translations/batch-136/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 229,
+      "target": "or",
+      "reading_evidence": "Read all23 source lines and both complete targets in4/6/7/6 blocks: life not easy/not so difficult/attitude cult, repeated some learning-unlearning-rejection-acceptance/reflection-flow, brook and debris at depth/with current/left behind enabling flow, brook-to-river never back/only forward/destination sea. Preserved minimal fragments and repeated some/flow, with source cult left unresolved.",
+      "open_questions": [
+        "Cult remains provisional panth rather than an invented culture correction.",
+        "Leaving behind/makes it flow has loose source agency; retain ambiguity rather than assigning a new actor."
+      ],
+      "reason": "Use physical destination and locate it at the sea, retaining the final isolated sea line and the full stream metaphor.",
+      "tradeoff": "Preserve sparse source sequence and unresolved cult/debris syntax; no added philosophy. Same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 23,
+        "before_lines": [
+          4,
+          10,
+          17
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "1bb64167aed0df6744c71231a017145752d269f3bb64d5c0393dce6359107504",
+      "before_sha256": "3979965af4633610b3940a40faa32e0294cf4c37c010cbc73a1467999394778c",
+      "after_sha256": "972db3eb7ad5e1a0c0b7c629681ea018d0a52644999c6946651ed754a0130ac3",
+      "prior_uncertainties": [
+        {
+          "note": "Four blocks [4,6,7,6] retained. Source cult translated panth, not silently changed to culture; ambiguous unusual phrasing needs linguistic review. Brook/debris-to-sea movement retained.",
+          "record": "kb/production/translations/batch-136/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-10-05T15:18:50.265559+00:00",
+  "poem_ids": [
+    579
+  ],
+  "variants_read": 1,
+  "variants_changed": 1,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 579,
+      "target": "hi",
+      "revisit_batch": "batch-052",
+      "full_source_target_read": true,
+      "reading_evidence": "Fresh full rereading of the complete current source and Hindi draft after batch-052: mountain darkness, innocent flowers/anguish, twenty-six-tourist line, hair-parting/roof, sun/sindoor/blessing/fire, campaign and ability to shake terror, blood river, marriage/love, poison embrace, final dance and full address. Rechecked the complete sentence containing tharahara karipare against all three target lines. This is additional self-review of the same variant, not new collection coverage.",
+      "reason": "Final self-review found the earlier tharra sakta phrasing still left the causative force insufficiently explicit. Add de to use the natural compound tharra dena for making the object tremble. Supersedes the incomplete batch-052 repair without erasing its exact draft history.",
+      "open_questions": [
+        "Retaliatory language and twenty-six-tourist statement are preserved as source poetry, not verified reportage; no country or perpetrators supplied.",
+        "Agna-agni remains provisionally fiery; the damaged/unclear source spelling needs review.",
+        "Roof-ridge mathana versus current Hindi mundेर/parapet needs lexical confirmation before changing the architectural detail."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Adds one auxiliary within the existing line; all source claims, uncertain readings, target stanza boundaries, credits and draft status remain unchanged.",
+      "source_sha256": "ff39addd4878bc71aed1fc3ef0c94b8b63dc20b121a07f405e6fa146bf557dae",
+      "before_sha256": "3a069e3c57dcbd381fe879917d86721c3a5987afe0f3a79cbc0af9c10d72ccd4",
+      "after_sha256": "65a662a9f4cff45bb5a4a83649cc210daea9c77ba2c73f27eb1ec9f20516f3fe",
+      "prior_uncertainties": [
+        {
+          "note": "Violent retaliatory language and twenty-six male-tourist claim preserved as source poetry, not verified reporting or assistant endorsement. No unmentioned country or perpetrator identity supplied. Agna-agni provisionally fiery; source spelling requires review.",
+          "record": "kb/production/translations/batch-051/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

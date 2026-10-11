@@ -1,0 +1,295 @@
+{
+  "recorded_at": "2026-10-05T14:15:11.818994+00:00",
+  "poem_ids": [
+    611,
+    616,
+    630,
+    632,
+    634
+  ],
+  "variants_read": 10,
+  "variants_changed": 7,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 611,
+      "target": "hi",
+      "reading_evidence": "Read both complete stanzas: the absent witnesses and counterfactual intervention, the stripped women and ravenous eyes, reptile pronouns, burned settlements and mother/son, severed heads and relationship-haystack, clothing and remembered dances, refugee-camp question, shared ethnic grief, tears and river, remote bodily identification, women as war victims and the final demand addressed to silent Manipur. Compared all current target lines including the offensive source accusation; no historical assertion treated as checked fact.",
+      "reason": "Retain the direct accusation, public violence and question/demand sequence; Hindi participial clothing phrase already attaches naturally to the women. No independent correction justified.",
+      "open_questions": [
+        "The reptile passage leaves the referent of their bodies ambiguous; no pronoun resolved.",
+        "Printed ନଗ୍ରଜନଙ୍କ is provisionally townspeople; source spelling needs confirmation.",
+        "Phanek, innaphi, Ras Jagoi, Thang-Ta, Cholom, Kuki, Meitei, Imphal and Turel retained as supplied; no independent cultural or historical certification.",
+        "ବନ୍ଦକରେ retains stops/arrests rather than a conjectural pierces.",
+        "The current feminine speaker agreement (थी, सकती) and masculine तुम थे are not established by the ungendered Odia pronouns; retain provisionally for author/fluent review."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Do not sanitize the source insult or replace ambiguous reptile actors with a confident perpetrator/victim assignment.",
+      "full_source_target_read": true,
+      "source_sha256": "17cf25d9a6d201cf787440c4ad9c8a32b6cc1b11e318eb0071caf47eeee0fbf8",
+      "before_sha256": "27c55ebffdeb865d07ef3903258a6ac6ac62864c330652903dc20fb58d146f8c",
+      "after_sha256": "27c55ebffdeb865d07ef3903258a6ac6ac62864c330652903dc20fb58d146f8c",
+      "prior_uncertainties": [
+        {
+          "note": "Phanek, innaphi, Ras Jagoi, Thang-Ta, Cholom, Kuki, Meitei, Imphal and Turel retained as supplied; cultural/historical assertions not independently certified. Ambiguous pronouns around reptile imagery retained; ବନ୍ଦକରେ provisionally arrests/stops the heart rather than silently correcting to pierces.",
+          "record": "kb/production/translations/batch-041/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 611,
+      "target": "en",
+      "reading_evidence": "Read both complete stanzas: the absent witnesses and counterfactual intervention, the stripped women and ravenous eyes, reptile pronouns, burned settlements and mother/son, severed heads and relationship-haystack, clothing and remembered dances, refugee-camp question, shared ethnic grief, tears and river, remote bodily identification, women as war victims and the final demand addressed to silent Manipur. Compared all current target lines including the offensive source accusation; no historical assertion treated as checked fact.",
+      "reason": "Attach the clothing to the women and girls: the old sentence grammatically dressed their pain. Preserve the drift of grief and the three-line image.",
+      "open_questions": [
+        "The reptile passage leaves the referent of their bodies ambiguous; no pronoun resolved.",
+        "Printed ନଗ୍ରଜନଙ୍କ is provisionally townspeople; source spelling needs confirmation.",
+        "Phanek, innaphi, Ras Jagoi, Thang-Ta, Cholom, Kuki, Meitei, Imphal and Turel retained as supplied; no independent cultural or historical certification.",
+        "ବନ୍ଦକରେ retains stops/arrests rather than a conjectural pierces."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "A small modifier reorder removes an English dangling attachment while retaining names, grief and line count; other difficult imagery remains provisional.",
+      "full_source_target_read": true,
+      "source_sha256": "17cf25d9a6d201cf787440c4ad9c8a32b6cc1b11e318eb0071caf47eeee0fbf8",
+      "before_sha256": "311545915120bc8e789ef12e813a60b2336f7eb1bda819fce95cd14f06f131be",
+      "after_sha256": "140a8d02bbc592307309af8f43fe614c3b544a8b767621320d48ed3235071a07",
+      "prior_uncertainties": [
+        {
+          "note": "Phanek, innaphi, Ras Jagoi, Thang-Ta, Cholom, Kuki, Meitei, Imphal and Turel retained as supplied; cultural/historical assertions not independently certified. Ambiguous pronouns around reptile imagery retained; ବନ୍ଦକରେ provisionally arrests/stops the heart rather than silently correcting to pierces.",
+          "record": "kb/production/translations/batch-041/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 616,
+      "target": "hi",
+      "reading_evidence": "Read the complete Prachi elegy and contributor tail: death versus killing, allotted versus shortened life, disputed birth and shared beneficence, stones becoming shaligram and lovers offered paramapada, clay time/coloured nature/sky austerity/earth maternity, giving and departure, the slow rushing toward death’s mouth, signs and ineffective sympathy, continuing flow through love/memory/consciousness, uncounted anniversary and flight around the valley of the past.",
+      "reason": "Restore धାଉଁଥିଲା as running toward the mouth of death, preserving the source’s deliberate tension with धीरे-धीरे; जा रही थी lost that pressure.",
+      "open_questions": [
+        "ଉପସର୍ଗ remains provisional signs/symptoms beside metaphors.",
+        "The published nine-digit phone fragment and raw contributor tail are preserved without repair or enrichment.",
+        "Prachi’s personification, shaligram and paramapada retained; no external identification or historical explanation added.",
+        "Final उड़ता फिरता assumes a masculine speaker; source does not establish narrator gender."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Keep the unusual slow/running paradox instead of making it a merely gradual approach; do not infer a real river biography.",
+      "full_source_target_read": true,
+      "source_sha256": "b58a36a4d8cfbdef6121b3f903814e87fa243ec2c475e75c277438b6908f875c",
+      "before_sha256": "335d35700e81fe0775105e2e728c099d801c479b27645680210bcdb9677cb5a3",
+      "after_sha256": "1d60c44b1dc43c5b4b6eb4147a83ecc957805fed1df3f81bfadb8ecea1648062",
+      "prior_uncertainties": [
+        {
+          "note": "Published phone fragment is only nine digits; preserved exactly, not repaired or enriched. ଉପସର୍ଗ provisionally signs/symptoms beside metaphor.",
+          "record": "kb/production/translations/batch-041/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 616,
+      "target": "en",
+      "reading_evidence": "Read the complete Prachi elegy and contributor tail: death versus killing, allotted versus shortened life, disputed birth and shared beneficence, stones becoming shaligram and lovers offered paramapada, clay time/coloured nature/sky austerity/earth maternity, giving and departure, the slow rushing toward death’s mouth, signs and ineffective sympathy, continuing flow through love/memory/consciousness, uncounted anniversary and flight around the valley of the past.",
+      "reason": "Restore the recipient construction for the offered highest state; the previous fronted whoever had no grammatical link to offered.",
+      "open_questions": [
+        "ଉପସର୍ଗ remains provisional signs/symptoms beside metaphors.",
+        "The published nine-digit phone fragment and raw contributor tail are preserved without repair or enrichment.",
+        "Prachi’s personification, shaligram and paramapada retained; no external identification or historical explanation added."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "One preposition clarifies the giver/recipient relation without explaining the devotional term; slowly hastened remains intentionally paradoxical.",
+      "full_source_target_read": true,
+      "source_sha256": "b58a36a4d8cfbdef6121b3f903814e87fa243ec2c475e75c277438b6908f875c",
+      "before_sha256": "516ba7e5de64fcee45f9f0c67b8ee5e4fe52c2e697a2cfea6d50de0fecc3296c",
+      "after_sha256": "25d4d5abbfeb74151e7b8728938e9ed339e946db0f1d58a07abd60aa0d085542",
+      "prior_uncertainties": [
+        {
+          "note": "Published phone fragment is only nine digits; preserved exactly, not repaired or enriched. ଉପସର୍ଗ provisionally signs/symptoms beside metaphor.",
+          "record": "kb/production/translations/batch-041/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 630,
+      "target": "hi",
+      "reading_evidence": "Read the full continuous poem through both turns: scarce money/time, careful spending and pleasure regardless of profit, a house filled with necessary/unnecessary purchases, questioning and abstaining from shopping, feeling the desire to live die, renewed buying and tired happiness, sofa/half-sleep and a friendlike dream visitor, small joys to leave behind, Nanda and the final nonmaterial injunction. Preserved the short isolated things lines and spending/joy recurrence.",
+      "reason": "Replace the unidiomatic मुझे अनिवार्य with a natural question about whether all the things are really needed, retaining the speaker’s self-questioning and line count.",
+      "open_questions": [
+        "ଅବସ୍ତୁ ନିର୍ବନ୍ଧପରା remains a provisional nonmaterial devotion, not a settled philosophical gloss. Nanda retained as the source address.",
+        "Current feminine speaker and masculine dream-visitor agreement are provisional; Nanda or author identity alone does not establish these genders."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Everyday ज़रूरी fits the shopping voice; the difficult final philosophical register remains unglossed.",
+      "full_source_target_read": true,
+      "source_sha256": "b6a3b912fd5dbabaf77ee348cec5e38c799d194b4ee154e623112ef17f7b842a",
+      "before_sha256": "29f2d44ec07f87a9f69b7b4fb4819b7a80db29d610f69edf2cc7080f6b113c42",
+      "after_sha256": "cf559b0f9f4404ee13bd5e856915ab9c6e48180044883bea85fc89eb15cbfaa1",
+      "prior_uncertainties": [
+        {
+          "note": "Final ଅବସ୍ତୁ ନିର୍ବନ୍ଧପରା provisionally devotion to nonmaterial reality, not a confident philosophical gloss; needs native review. Nanda address retained.",
+          "record": "kb/production/translations/batch-041/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 630,
+      "target": "en",
+      "reading_evidence": "Read the full continuous poem through both turns: scarce money/time, careful spending and pleasure regardless of profit, a house filled with necessary/unnecessary purchases, questioning and abstaining from shopping, feeling the desire to live die, renewed buying and tired happiness, sofa/half-sleep and a friendlike dream visitor, small joys to leave behind, Nanda and the final nonmaterial injunction. Preserved the short isolated things lines and spending/joy recurrence.",
+      "reason": "Untangle a source-order inversion that makes the ordinary withdrawal from shops sound ceremonious; preserve the pause and three-line duration/action/place unit.",
+      "open_questions": [
+        "ଅବସ୍ତୁ ନିର୍ବନ୍ଧପରା remains a provisional nonmaterial devotion, not a settled philosophical gloss. Nanda retained as the source address."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Retain the source’s isolated things and its mundane-to-philosophical movement; the change only relocates the English verb before its destination.",
+      "full_source_target_read": true,
+      "source_sha256": "b6a3b912fd5dbabaf77ee348cec5e38c799d194b4ee154e623112ef17f7b842a",
+      "before_sha256": "9f8d252585816f50f096e192fb189f12cff75f65b1656ab7779161bda406df9e",
+      "after_sha256": "dea9b52b3a6055451f70a71560554b7f9b309d042289948003ed52a901740412",
+      "prior_uncertainties": [
+        {
+          "note": "Final ଅବସ୍ତୁ ନିର୍ବନ୍ଧପରା provisionally devotion to nonmaterial reality, not a confident philosophical gloss; needs native review. Nanda address retained.",
+          "record": "kb/production/translations/batch-041/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 632,
+      "target": "hi",
+      "reading_evidence": "Read all eight stanzas directly: joint summit ascent, relinquished and blossoming bindu, the divided sky and feet here/there, ocean made hundredfold, left ring finger/depths and right middle fingertip, sukhasana and autumn shadow/hair-parting with waiting lilies, absent Ashwin moonlight in city smoke/dust, rare vargottara ascetic and the eternal Antima sign-off. Checked finger laterality, invitation recurrence, negation, temporal shifts and the unresolved devotional/erotic overlap in each complete target.",
+      "reason": "Retain the complete draft: the remaining awkward or multivalent places depend on unresolved source syntax/technical senses, not an independently defensible correction.",
+      "open_questions": [
+        "Dense ascetic/erotic bindu/drop, fingers, atala-vitala, sukhasana and hair-parting images remain unexpanded.",
+        "ବର୍ଗୋତ୍ତର remains provisionally transcending divisions; a technical/astrological sense is unresolved.",
+        "The autumn-shadow stanza syntax and the Antima signature remain unresolved; no inferred identity for ascetic or writer.",
+        "The divided/doubtful sky sense of ଦ୍ବିଧା and the receiving/attaining relation of ତୁମ ପ୍ରାପିକା remain provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Do not turn suggestive ritual/bodily imagery into an explicit explanation, or certify the provisional final address. Retained with holds is not approval.",
+      "full_source_target_read": true,
+      "source_sha256": "7d32cf669e94a9e0594706a25d24d4111ee866a1c2e87b7ec1e3a5ed5b4fad1f",
+      "before_sha256": "8cc0cec242aac77fbe805cf48c2e113807a5cdc31f20607d59b96a645a7fbcba",
+      "after_sha256": "8cc0cec242aac77fbe805cf48c2e113807a5cdc31f20607d59b96a645a7fbcba",
+      "prior_uncertainties": [
+        {
+          "note": "Dense ascetic/erotic imagery preserved without explicit explanation: bindu/drop, fingers, sukhasana, hair parting and underworlds. ବର୍ଗୋତ୍ତର provisionally transcending divisions; technical or astrological sense unresolved.",
+          "record": "kb/production/translations/batch-041/review.json"
+        },
+        {
+          "note": "Ambiguous syntax of autumn-shadow stanza and speaker signature Antima retained. No inferred identity for ascetic or writer.",
+          "record": "kb/production/translations/batch-041/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 632,
+      "target": "en",
+      "reading_evidence": "Read all eight stanzas directly: joint summit ascent, relinquished and blossoming bindu, the divided sky and feet here/there, ocean made hundredfold, left ring finger/depths and right middle fingertip, sukhasana and autumn shadow/hair-parting with waiting lilies, absent Ashwin moonlight in city smoke/dust, rare vargottara ascetic and the eternal Antima sign-off. Checked finger laterality, invitation recurrence, negation, temporal shifts and the unresolved devotional/erotic overlap in each complete target.",
+      "reason": "Retain the complete draft: the remaining awkward or multivalent places depend on unresolved source syntax/technical senses, not an independently defensible correction.",
+      "open_questions": [
+        "Dense ascetic/erotic bindu/drop, fingers, atala-vitala, sukhasana and hair-parting images remain unexpanded.",
+        "ବର୍ଗୋତ୍ତର remains provisionally transcending divisions; a technical/astrological sense is unresolved.",
+        "The autumn-shadow stanza syntax and the Antima signature remain unresolved; no inferred identity for ascetic or writer.",
+        "The divided/doubtful sky sense of ଦ୍ବିଧା and the receiving/attaining relation of ତୁମ ପ୍ରାପିକା remain provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Do not turn suggestive ritual/bodily imagery into an explicit explanation, or certify the provisional final address. Retained with holds is not approval.",
+      "full_source_target_read": true,
+      "source_sha256": "7d32cf669e94a9e0594706a25d24d4111ee866a1c2e87b7ec1e3a5ed5b4fad1f",
+      "before_sha256": "5ccda69ade0e5dc8053da1ecc06a5d9f78df1b8e93e1c17d78bd7f9222067564",
+      "after_sha256": "5ccda69ade0e5dc8053da1ecc06a5d9f78df1b8e93e1c17d78bd7f9222067564",
+      "prior_uncertainties": [
+        {
+          "note": "Dense ascetic/erotic imagery preserved without explicit explanation: bindu/drop, fingers, sukhasana, hair parting and underworlds. ବର୍ଗୋତ୍ତର provisionally transcending divisions; technical or astrological sense unresolved.",
+          "record": "kb/production/translations/batch-041/review.json"
+        },
+        {
+          "note": "Ambiguous syntax of autumn-shadow stanza and speaker signature Antima retained. No inferred identity for ascetic or writer.",
+          "record": "kb/production/translations/batch-041/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 634,
+      "target": "hi",
+      "reading_evidence": "Read all six stanzas: spontaneous river becoming when only flow remains, a river making its own course, leaf and self-abandonment as hardest/easiest, foolishness and love, losing with a wish to win and bends, fragile versus unbroken love, repeatedly lost toy and search, blue-sky fragrance depleted yet endless and empty. Checked that losing/winning and ending contradictions survive, without rationalizing them.",
+      "reason": "Repair the nominal predicate: love means fragility, not that the meaning of love is itself a fragile object. Preserve the following question’s भंगुर recurrence.",
+      "open_questions": [
+        "ସୋରି ସୋରି remains provisionally depletion/expenditure, handful by handful; source spelling is unchanged.",
+        "ଛାଁ କୁ ଛାଁ is provisionally spontaneous/of one’s own accord; the degree of voluntary agency needs native confirmation.",
+        "Title and first-person feminine Hindi agreement remain provisional: feminine नदी does not by itself determine the speaker’s gender."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "A noun form makes the aphorism grammatical without explaining away the river/love paradoxes.",
+      "full_source_target_read": true,
+      "source_sha256": "bfbddbafcce7158ac96a8007c47364957145a9a86299b90c780f8f24237813cf",
+      "before_sha256": "ba57e1cf6516749c8e91b4436544e730f6f63d1660e28b452505dd03cfec153a",
+      "after_sha256": "d6f074c012b185dc9fd9368092eaf62714619529ae7ce62f81403991a549dec4",
+      "prior_uncertainties": [
+        {
+          "note": "River/leaf, losing/winning and difficult/easy paradoxes retained. ସୋରି ସୋରି provisionally expenditure/depletion handful by handful; source spelling not altered.",
+          "record": "kb/production/translations/batch-042/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 634,
+      "target": "en",
+      "reading_evidence": "Read all six stanzas: spontaneous river becoming when only flow remains, a river making its own course, leaf and self-abandonment as hardest/easiest, foolishness and love, losing with a wish to win and bends, fragile versus unbroken love, repeatedly lost toy and search, blue-sky fragrance depleted yet endless and empty. Checked that losing/winning and ending contradictions survive, without rationalizing them.",
+      "reason": "Carry the no-other-course idiom naturally into English, repair the comparator’s word order and the abstract predicate fragile/fragility. Keep all stanza sizes and the central contradictions.",
+      "open_questions": [
+        "ସୋରି ସୋରି remains provisionally depletion/expenditure, handful by handful; source spelling is unchanged.",
+        "ଛାଁ କୁ ଛାଁ is provisionally spontaneous/of one’s own accord; the degree of voluntary agency needs native confirmation."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "The hand expression is rendered as lack of another course rather than literal empty hands; no extra freedom, surrender or moral is added. The spontaneous/voluntary opening remains a source question.",
+      "full_source_target_read": true,
+      "source_sha256": "bfbddbafcce7158ac96a8007c47364957145a9a86299b90c780f8f24237813cf",
+      "before_sha256": "489bc20807782abc696cb0609d464d306cf9ed0630f0bab7d19ce30cb0416944",
+      "after_sha256": "571b089b3dfe40c777138b167c1059879ed0ba70d1cb36c0f6d32c499e5206b3",
+      "prior_uncertainties": [
+        {
+          "note": "River/leaf, losing/winning and difficult/easy paradoxes retained. ସୋରି ସୋରି provisionally expenditure/depletion handful by handful; source spelling not altered.",
+          "record": "kb/production/translations/batch-042/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

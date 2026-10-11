@@ -1,0 +1,137 @@
+{
+  "recorded_at": "2026-10-05T16:46:04.599566+00:00",
+  "poem_ids": [
+    488,
+    490,
+    492
+  ],
+  "variants_read": 6,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 488,
+      "target": "or",
+      "reading_evidence": "Read complete two stanzas in source and both targets: war tempests breaking peace-dove wings, sacrificed doves/vulture rulers/might-is-right, exploiting patriotism/suppressing protests/massacres, collective indifference and remote non-kin excuse, human/humane closing challenge; war expenditure/less than ten percent poverty claim, dream of peace and weapons-business final indictment. Quantifier, negations, collective responsibility and ending preserved.",
+      "reason": "Put the peace-harbinger identification with the doves before the broken wings; express cold-blooded indifference as callousness rather than literal cold blood. Expenditure claim remains the poet’s claim, not separately verified editorial research.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source argument, images, bylines/credits, raw material and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "63e878b84b740795e2501bfb7deb2ef6d2f57aa622e1406c036fa55ce692c077",
+      "before_sha256": "f6a75d5e39cf2315df3aa7b1188a7a39a667a101c73b257c33d72e18b8d312eb",
+      "after_sha256": "f0cf0a2db37571e2b472f9df1d7d7a78c457d6aa138b7e7a0f4f0cccdc35c6ea",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 488,
+      "target": "hi",
+      "reading_evidence": "Read complete two stanzas in source and both targets: war tempests breaking peace-dove wings, sacrificed doves/vulture rulers/might-is-right, exploiting patriotism/suppressing protests/massacres, collective indifference and remote non-kin excuse, human/humane closing challenge; war expenditure/less than ten percent poverty claim, dream of peace and weapons-business final indictment. Quantifier, negations, collective responsibility and ending preserved.",
+      "reason": "Repair the detached possessive/apposition in the dove opening and carry cold-blooded as callous indifference. Preserve the idiomatic might-is-right proverb and human/humane wordplay; no weakening of political charge.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source argument, images, bylines/credits, raw material and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "63e878b84b740795e2501bfb7deb2ef6d2f57aa622e1406c036fa55ce692c077",
+      "before_sha256": "e4c2ba6253dbef23d66d285ae87354756d5459e50574cd38aeb091cc5eabe4e4",
+      "after_sha256": "2adce6622e59652a2086c662608fe51b27bd2c403c9e405791cab209fdb43afe",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 490,
+      "target": "or",
+      "reading_evidence": "Read both full stanzas [10,14] in source and targets: distinctive uniform/showbiz/appearance/inheritance, perfect-mate role/ethics/beauty-brain/cherry and office authority; colleagues infer home authority, bitter smile/silence, household chores/lazing others/cooking/exhaustion/denied help, sit-at-home rebuke and entrepreneur ambition followed by gulped water/continuing. Contrast of authority at work and powerlessness at home checked.",
+      "reason": "Restore the specifically named uniform instead of generic clothing; render donning a cap as assuming the role without choosing what kind of mate the source intends.",
+      "open_questions": [
+        "rye remains provisionally wry in smiling context. Uniform/showbiz/office and perfect-mate role are left in tension; do not invent an occupation, spouse or family relationship."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source argument, images, bylines/credits, raw material and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "3851192d889763201ff3705f4b367d5fd03d812a90b7fa727a7db70bb77a68bc",
+      "before_sha256": "5b83852fc2db2097e95d512006d77f4599ddc2a6e2738c0120f28fa91d28a709",
+      "after_sha256": "0a1bac4b171a29b0f8f1a4cd604a3f86e0936a1ce3fcd681b3a3e4c284460aa8",
+      "prior_uncertainties": [
+        {
+          "note": "Both stanzas [10,14] retained. rye read provisionally as wry from smiling context; uniform/office/showbiz tension and perfect-mate metaphor preserved rather than inventing an occupation. Domestic inequity and entrepreneur ambition kept.",
+          "record": "kb/production/translations/batch-074/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 490,
+      "target": "hi",
+      "reading_evidence": "Read both full stanzas [10,14] in source and targets: distinctive uniform/showbiz/appearance/inheritance, perfect-mate role/ethics/beauty-brain/cherry and office authority; colleagues infer home authority, bitter smile/silence, household chores/lazing others/cooking/exhaustion/denied help, sit-at-home rebuke and entrepreneur ambition followed by gulped water/continuing. Contrast of authority at work and powerlessness at home checked.",
+      "reason": "Carry the English cap-of idiom as taking a role; preserve the unresolved mate relation and all domestic inequity without adding a husband.",
+      "open_questions": [
+        "rye remains provisionally wry in smiling context. Uniform/showbiz/office and perfect-mate role are left in tension; do not invent an occupation, spouse or family relationship."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source argument, images, bylines/credits, raw material and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "3851192d889763201ff3705f4b367d5fd03d812a90b7fa727a7db70bb77a68bc",
+      "before_sha256": "b9bac04f66d1e28dde5d089b2624553bf1a0dc594ccffa41e1204f16e2699668",
+      "after_sha256": "0945e976a62658a3e0bb6e4401c5b65c2f6b96003f097f8a7b9c286335df66f2",
+      "prior_uncertainties": [
+        {
+          "note": "Both stanzas [10,14] retained. rye read provisionally as wry from smiling context; uniform/office/showbiz tension and perfect-mate metaphor preserved rather than inventing an occupation. Domestic inequity and entrepreneur ambition kept.",
+          "record": "kb/production/translations/batch-074/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 492,
+      "target": "or",
+      "reading_evidence": "Read all seven source/target stanzas: desert crawling into eyes/snake returning den, fleeing dreams/storm-displaced birds, barren eyes/cactus, heart pierced/draining humanity, kindness humidity/love heat ashes/sympathy snow not falling to cool, red-eyed sun/dry mercy fountain, hiding life and death chariot without siren. All image transformations and final quiet arrival retained; awkward source grammar not treated as licence to rewrite its imagery.",
+      "reason": "Retain the whole desert-body sequence and the startling contemporary siren on a death chariot; no extra mortality explanation.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source argument, images, bylines/credits, raw material and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "fce1b3178741377d6c7b803792025bdb35f397d63f670ed83e0d29dfa7b47f2b",
+      "before_sha256": "4ba3bfe67a6d67e0fb02e70b20a06fe4c15e99a574766c4bf2463305b6f393c1",
+      "after_sha256": "4ba3bfe67a6d67e0fb02e70b20a06fe4c15e99a574766c4bf2463305b6f393c1",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 492,
+      "target": "hi",
+      "reading_evidence": "Read all seven source/target stanzas: desert crawling into eyes/snake returning den, fleeing dreams/storm-displaced birds, barren eyes/cactus, heart pierced/draining humanity, kindness humidity/love heat ashes/sympathy snow not falling to cool, red-eyed sun/dry mercy fountain, hiding life and death chariot without siren. All image transformations and final quiet arrival retained; awkward source grammar not treated as licence to rewrite its imagery.",
+      "reason": "Retain the source’s deliberate heat burning to ash and absence of cooling snow; the poem’s mixed physical metaphors are not translation defects.",
+      "open_questions": [
+        "Hindi masculine narrator agreement remains provisional; English source does not establish narrator gender."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source argument, images, bylines/credits, raw material and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "fce1b3178741377d6c7b803792025bdb35f397d63f670ed83e0d29dfa7b47f2b",
+      "before_sha256": "baa84c651755779413fb773593cebed5dd5fce2af607dc5bace06d5ec3841f79",
+      "after_sha256": "baa84c651755779413fb773593cebed5dd5fce2af607dc5bace06d5ec3841f79",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "recorded_at": "2026-10-05T11:15:59.913583+00:00",
+  "poem_ids": [
+    770,
+    771,
+    772,
+    764,
+    766,
+    767
+  ],
+  "variants_read": 12,
+  "variants_changed": 6,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 770,
+      "target": "or",
+      "reason": "Remove the unsupported deliberate self-disclosure in a source that only says too quickly revealed.",
+      "reading_evidence": "Read all18 source lines in six stanzas and every target line: stripped/scattered plumage, barren grass, betrayed Julius; ambition and early exposure versus others’ failed dreams; repeated attempted flight/dragging down; Hamlet’s existential question; worldly lies and deceptive smiles; Lear’s storm command, faith/hope/courage, phoenix from yesterday’s ashes. Keep quotations as supplied, unusual barren grass and last flight rather than rewriting mythology.",
+      "open_questions": [
+        "The source does not explain what was revealed or by whom; retain this uncertainty, not a biography of betrayal."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "ଖୋଲାପଡ଼ିଗଲି carries exposure without naming an exposer; source allusions stay unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "d9b2b6ae465aac4138a28f1a0840911bf35363030d141e49d40d8600eef51f64",
+      "before_sha256": "19c19c1338ace984cc262682d8174e233b0891f79e587951edbb1198145d09ce",
+      "after_sha256": "1ce6a7451d748f173ba594ebc443fcefc911c56bcb301c2ee324061843d3ec75",
+      "prior_uncertainties": [
+        {
+          "note": "Julius, Hamlet, Lear and Phoenix allusions and supplied quotations retained. Hindi feminine narrator is a provisional grammatical choice, not an identity assertion. Barren grass and last flight retained despite unusual imagery.",
+          "record": "kb/production/translations/batch-012/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 770,
+      "target": "hi",
+      "reason": "Retain the existing direct voice, quoted allusions and flight pattern; current feminine narrator remains a separate query.",
+      "reading_evidence": "Read all18 source lines in six stanzas and every target line: stripped/scattered plumage, barren grass, betrayed Julius; ambition and early exposure versus others’ failed dreams; repeated attempted flight/dragging down; Hamlet’s existential question; worldly lies and deceptive smiles; Lear’s storm command, faith/hope/courage, phoenix from yesterday’s ashes. Keep quotations as supplied, unusual barren grass and last flight rather than rewriting mythology.",
+      "open_questions": [
+        "The English narrator’s gender is unspecified; existing गई/थी/खड़ी remains provisional, regardless of author identity.",
+        "The source does not explain what was revealed or by whom; do not supply a biographical event."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Do not correct barren grass or last phoenix flight into a familiar myth; those are source choices.",
+      "full_source_target_read": true,
+      "source_sha256": "d9b2b6ae465aac4138a28f1a0840911bf35363030d141e49d40d8600eef51f64",
+      "before_sha256": "61539738bbd07d4b1932cd68d004419a3540f6d7232c4e4e5cc591c29dfb22b5",
+      "after_sha256": "61539738bbd07d4b1932cd68d004419a3540f6d7232c4e4e5cc591c29dfb22b5",
+      "prior_uncertainties": [
+        {
+          "note": "Julius, Hamlet, Lear and Phoenix allusions and supplied quotations retained. Hindi feminine narrator is a provisional grammatical choice, not an identity assertion. Barren grass and last flight retained despite unusual imagery.",
+          "record": "kb/production/translations/batch-012/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 771,
+      "target": "or",
+      "reason": "Restore the voices’ action upon the air; the current draft instead makes voices become entangled in air.",
+      "reading_evidence": "Read all23 source lines and all23 target lines: dream-like masquerading memories inscribed in Time’s scarred flesh; teasing friendship/brief romance/dead loved ones/heart’s old fire; hissing prose and rattling rhyme sing absences; wings/secrets/migrant musical tears/voices tangling evening air; absence’s note/sound/want traverse molecules; missing puzzles ingested, music bubbles, nothingness makes flesh/bone/sinew/muscle of nameless verse. Catalogue syntax stays suspended as in source.",
+      "open_questions": [
+        "Missing puzzles is an unusual source phrase; do not silently substitute missing puzzle pieces.",
+        "Catalogue attachments among absences, churning secrets and migrant music remain as in the source; no explanatory psychological narrative supplied."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Transitive ଛନ୍ଦି ଦେଇଥିଲେ preserves the source’s unusual agency without adding a net or other image.",
+      "full_source_target_read": true,
+      "source_sha256": "6a08992ecda603e49f92673a2ed41be8708598fc8c33b1fe74deb3638dbb800d",
+      "before_sha256": "1e5409df794897ff4985aebfe8b3aba2ca1b8bf430c0002af313cb979a7545c0",
+      "after_sha256": "01979a9435ab4b4ffdff95af570b8350e8084a87dd04036ee03f99ed212e7006",
+      "prior_uncertainties": [
+        {
+          "note": "Single 23-line movement retained, including incomplete grammatical links in the catalogue of absences. Missing puzzles not expanded into invented missing pieces. Hindi feminine narration provisional.",
+          "record": "kb/production/translations/batch-012/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 771,
+      "target": "hi",
+      "reason": "Restore voices tangling air, idiomatic bubbling music and nothingness making the poem’s body rather than merely becoming it.",
+      "reading_evidence": "Read all23 source lines and all23 target lines: dream-like masquerading memories inscribed in Time’s scarred flesh; teasing friendship/brief romance/dead loved ones/heart’s old fire; hissing prose and rattling rhyme sing absences; wings/secrets/migrant musical tears/voices tangling evening air; absence’s note/sound/want traverse molecules; missing puzzles ingested, music bubbles, nothingness makes flesh/bone/sinew/muscle of nameless verse. Catalogue syntax stays suspended as in source.",
+      "open_questions": [
+        "Missing puzzles is an unusual source phrase; do not silently substitute missing puzzle pieces.",
+        "Catalogue attachments among absences, churning secrets and migrant music remain as in the source; no explanatory psychological narrative supplied.",
+        "English narrator gender is unspecified; existing feminine उतारती remains provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "गढ़ती keeps the active creative relation. Bubbling is expressed through actual bubbles, without adding light, uplift or a moral.",
+      "full_source_target_read": true,
+      "source_sha256": "6a08992ecda603e49f92673a2ed41be8708598fc8c33b1fe74deb3638dbb800d",
+      "before_sha256": "a102bdf3f17bcbf7888f2d47b07ee56763fb6ca94aa6ae7b22ba1fad53ee461c",
+      "after_sha256": "c00408e3df94ca385a5eee11e1f878c2b04170697a15d14dd503d6f4060f15b8",
+      "prior_uncertainties": [
+        {
+          "note": "Single 23-line movement retained, including incomplete grammatical links in the catalogue of absences. Missing puzzles not expanded into invented missing pieces. Hindi feminine narration provisional.",
+          "record": "kb/production/translations/batch-012/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 772,
+      "target": "or",
+      "reason": "Retain the existing narrative and exhortatory register while recording source-level contradictions and ambiguity.",
+      "reading_evidence": "Read the complete45-line source (37/8 including introductory framing) and all45 lines of each target: open shrine/no doors/no walls,1920 and royal lovers; princess/ministers son; Jema Dei spells/sheep by day/man by night; resilient human love and later silent walls; woman chooses path/dreams/rights; exhortation to every woman, fire/rain; visitor invitation, doorless Nimuhi and final every woman who dreams. Source’s history and legendary claims are translated as poem content, not independently verified history.",
+      "open_questions": [
+        "Source says both no walls and silent walls; preserve both pending source clarification, not an architectural correction.",
+        "Sashisena/Ahi Manikya/Jema Dei/Nimuhi local orthography and source historical claims remain for author/local review; no new external historical certification.",
+        "Not spells, nor fear, could it forsake has uncertain negation/agency. Current targets interpret love resisting spells/fear; retain that reading provisionally."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Source English framing line, place/names, date and all stanzas remain. Do not turn the poem into fact-checked prose or normalize a legend from memory.",
+      "full_source_target_read": true,
+      "source_sha256": "4e1bda418c37c2ffea17a15ac064e278a1b60299b554d8770c2514c507666547",
+      "before_sha256": "e2891cff5149f04838f54c171a4ba011a6d460112b2781abad461aa1c09bf150",
+      "after_sha256": "e2891cff5149f04838f54c171a4ba011a6d460112b2781abad461aa1c09bf150",
+      "prior_uncertainties": [
+        {
+          "note": "Temple history and legends are translated as claims within the poem, not independently verified historical assertions. Both no walls and silent walls retained. Sashisena, Ahi Manikya, Jema Dei and Nimuhi names transliterated; local orthography needs review. Source HTML apostrophe entity normalized only in translations. Original English framing line retained in translation.",
+          "record": "kb/production/translations/batch-012/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 772,
+      "target": "hi",
+      "reason": "Retain the existing narrative and exhortatory register while recording source-level contradictions and ambiguity.",
+      "reading_evidence": "Read the complete45-line source (37/8 including introductory framing) and all45 lines of each target: open shrine/no doors/no walls,1920 and royal lovers; princess/ministers son; Jema Dei spells/sheep by day/man by night; resilient human love and later silent walls; woman chooses path/dreams/rights; exhortation to every woman, fire/rain; visitor invitation, doorless Nimuhi and final every woman who dreams. Source’s history and legendary claims are translated as poem content, not independently verified history.",
+      "open_questions": [
+        "Source says both no walls and silent walls; preserve both pending source clarification, not an architectural correction.",
+        "Sashisena/Ahi Manikya/Jema Dei/Nimuhi local orthography and source historical claims remain for author/local review; no new external historical certification.",
+        "Not spells, nor fear, could it forsake has uncertain negation/agency. Current targets interpret love resisting spells/fear; retain that reading provisionally."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Source English framing line, place/names, date and all stanzas remain. Do not turn the poem into fact-checked prose or normalize a legend from memory.",
+      "full_source_target_read": true,
+      "source_sha256": "4e1bda418c37c2ffea17a15ac064e278a1b60299b554d8770c2514c507666547",
+      "before_sha256": "d9bf33a7eb5cebc2d1c18b001a7427f1dabdb06a98c540b0270483147c1b0938",
+      "after_sha256": "d9bf33a7eb5cebc2d1c18b001a7427f1dabdb06a98c540b0270483147c1b0938",
+      "prior_uncertainties": [
+        {
+          "note": "Temple history and legends are translated as claims within the poem, not independently verified historical assertions. Both no walls and silent walls retained. Sashisena, Ahi Manikya, Jema Dei and Nimuhi names transliterated; local orthography needs review. Source HTML apostrophe entity normalized only in translations. Original English framing line retained in translation.",
+          "record": "kb/production/translations/batch-012/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 764,
+      "target": "or",
+      "reason": "Retain the compact, direct lyric: Odia ସଜାଅ can naturally carry the source’s present-tense address here; no definite mood error established.",
+      "reading_evidence": "Read all13 source lines and each13-line target: self-contained blooming world; beloved wind captures feelings through fragrance/innocence; hearts become one life, mutual dependence, binding thread; addressee adorns self with speaker; invitation to weave garland and twice repeated I am yours. Speaker and addressee gender remain unstated in source.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Do not force a longer auxiliary just to match the separate Hindi repair. Final repeated ମୁଁ ତୁମର remains ungendered and intimate.",
+      "full_source_target_read": true,
+      "source_sha256": "938a3f857e17990e2422eec1303b667400b8c3d7e09cfd4f4ca58f4bcc3fc6a8",
+      "before_sha256": "bfc787a2c14fbf0db63f585f02c46ba61f21bb344e11e089bb24dccfc27c205b",
+      "after_sha256": "bfc787a2c14fbf0db63f585f02c46ba61f21bb344e11e089bb24dccfc27c205b",
+      "prior_uncertainties": [
+        {
+          "note": "Hindi feminine speaker and masculine addressee are provisional grammatical choices, not inferred biographical facts. Fragrance, innocence, garland and repeated vow retained.",
+          "record": "kb/production/translations/batch-012/review.json"
+        }
+      ],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 764,
+      "target": "hi",
+      "reason": "Restore You adorn yourself as a statement before the distinct request Weave me in a garland.",
+      "reading_evidence": "Read all13 source lines and each13-line target: self-contained blooming world; beloved wind captures feelings through fragrance/innocence; hearts become one life, mutual dependence, binding thread; addressee adorns self with speaker; invitation to weave garland and twice repeated I am yours. Speaker and addressee gender remain unstated in source.",
+      "open_questions": [
+        "Existing feminine speaker and masculine addressee remain provisional; English blooming and you came establish neither gender."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "The clear request remains गूँथ लो, while the preceding assertion becomes करते हो. This corrects mood without claiming gender confirmation.",
+      "full_source_target_read": true,
+      "source_sha256": "938a3f857e17990e2422eec1303b667400b8c3d7e09cfd4f4ca58f4bcc3fc6a8",
+      "before_sha256": "95f3382dd5a3cecd6ac8dc578203c053eab8ff4ef9117d7905f5ce04aed303da",
+      "after_sha256": "52f08a78691fc2a57d4a66aeb908d0e231fcea5b25155f6304a14bd2b1bc306a",
+      "prior_uncertainties": [
+        {
+          "note": "Hindi feminine speaker and masculine addressee are provisional grammatical choices, not inferred biographical facts. Fragrance, innocence, garland and repeated vow retained.",
+          "record": "kb/production/translations/batch-012/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 766,
+      "target": "or",
+      "reason": "Restore the predatory tiger/tigress metaphor: hunts had been softened to searches for.",
+      "reading_evidence": "Read all24 lines in12 source couplets and both complete targets: love/reeling heart; mother/childhood, adolescence guide, tiger/tigress union; creator magic/partner compulsion; embrace and conjugal flight; damaged in hideous/neon scene; attraction and breath-taking union; furnace sighs/palpitations; beauty/absence mania; beseeching/closed-eye embrace; life mantra and planet embrace. Repeated compels retained; beloved her is explicit while addressee gender is not.",
+      "open_questions": [
+        "In hideous remains damaged/uncertain. Existing fear/terribleness wording is provisional; do not invent hiding as confirmed reading.",
+        "Creators magic spells leaves the grammatical action unclear. Current creator-enchantment reading remains provisional.",
+        "Holding you tight...you hide leaves the embrace agent unclear; existing targets leave an object unsaid. Final planet-embrace object you is supplied by context but not explicit in source."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "This retains the source’s uncomfortable hunting verb without adding injury, pursuit details or an explanatory sexual act.",
+      "full_source_target_read": true,
+      "source_sha256": "ea5d6ebe0fc0e8e2e41fdc44b153ab585bc30d95875085e0281b9bd4c13b824f",
+      "before_sha256": "9e430cd6f4dff8812c9483b9a19108f1705b81e59d4d1ee9e9531e8e0c399169",
+      "after_sha256": "e13d6d1ee7f85bb798a5adb03704256f8ad71b929d962f2745e53b2c5b4c2c4d",
+      "prior_uncertainties": [
+        {
+          "note": "Twelve couplets retained without attempting forced rhyme. In hideous is source-uncertain: literal fear/terribleness reading retained provisionally, not silently changed to hiding. Creators magic spells interpreted as creator casting enchantment; final held-in-embrace object supplied by target grammar. Conjugal flight and furnace images retained; author/native review needed.",
+          "record": "kb/production/translations/batch-012/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 766,
+      "target": "hi",
+      "reason": "Restore hunts in the tiger/tigress couplet rather than neutral searching.",
+      "reading_evidence": "Read all24 lines in12 source couplets and both complete targets: love/reeling heart; mother/childhood, adolescence guide, tiger/tigress union; creator magic/partner compulsion; embrace and conjugal flight; damaged in hideous/neon scene; attraction and breath-taking union; furnace sighs/palpitations; beauty/absence mania; beseeching/closed-eye embrace; life mantra and planet embrace. Repeated compels retained; beloved her is explicit while addressee gender is not.",
+      "open_questions": [
+        "In hideous remains damaged/uncertain. Existing fear/terribleness wording is provisional; do not invent hiding as confirmed reading.",
+        "Creators magic spells leaves the grammatical action unclear. Current creator-enchantment reading remains provisional.",
+        "Holding you tight...you hide leaves the embrace agent unclear; existing targets leave an object unsaid. Final planet-embrace object you is supplied by context but not explicit in source.",
+        "Beloved her is explicit, but the Hindi addressee’s masculine forms remain provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "शिकार restores the predatory metaphor; it is not an endorsement or an invented act beyond source wording.",
+      "full_source_target_read": true,
+      "source_sha256": "ea5d6ebe0fc0e8e2e41fdc44b153ab585bc30d95875085e0281b9bd4c13b824f",
+      "before_sha256": "a985be7333868671f80d51748a6802f94197981d413ee751c25cd291b52f4ecc",
+      "after_sha256": "6dc9bb823d7eb2beb1226533eaf96a3eb1bb2947acd8ccb9371af32ac7ed00ed",
+      "prior_uncertainties": [
+        {
+          "note": "Twelve couplets retained without attempting forced rhyme. In hideous is source-uncertain: literal fear/terribleness reading retained provisionally, not silently changed to hiding. Creators magic spells interpreted as creator casting enchantment; final held-in-embrace object supplied by target grammar. Conjugal flight and furnace images retained; author/native review needed.",
+          "record": "kb/production/translations/batch-012/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 767,
+      "target": "or",
+      "reason": "Retain the existing full target while preserving the source’s unresolved relations and deliberate river personification.",
+      "reading_evidence": "Read all24 source lines and each24-line target: aroma of stable, ungraspable rapport with anonymous wings; conspirator cloud/rain’s clapping fake river; dividing line/laughing bubbles; braid waves bridge banks rather than landslips; ford/shelter/bond; unseasonal wrath and bigoted river vanish; mortgaged rowing without notice; dispute/viable trace; dead river’s flat chest, fruit/flowers/fortune/affection and daughter’s defiant wild time singing delight. Preserve title and the river’s deliberate personification, not a new marriage story.",
+      "open_questions": [
+        "Opening suspended relation and agent of spreading wings remain ambiguous; current target connection is provisional.",
+        "Adorns may make the chest adorn flowers/fruit or mean a chest adorned with them. Source-order wording retained; do not reverse agency without clarification.",
+        "Viable trace and mortgaged intricacy of rowing remain unusual source formulations; their exact intended relations need author/source clarification."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "No new daughter/wedding/parent narrative, no removal of fake or bigoted river, and no botanical realism imposed on the final image.",
+      "full_source_target_read": true,
+      "source_sha256": "17c13607aaf2d9b34582a07489bb196182f35f8844e3b2c81b9120de4eff47a2",
+      "before_sha256": "ee70c21e888f3cf64d0017bfefc5dad92e407f14fbd1ae8f749efbff8161e9d5",
+      "after_sha256": "ee70c21e888f3cf64d0017bfefc5dad92e407f14fbd1ae8f749efbff8161e9d5",
+      "prior_uncertainties": [
+        {
+          "note": "Opening syntax remains suspended as in the source; no invented marriage or family narrative. Conspirator cloud, fake river, braid-waves, bigoted river and mortgaged rowing retained. Subject/object of adorns is ambiguous; source-order chest-adorns-flowers reading retained provisionally. Viable trace is unusual and rendered literally. Final time of a daughter retained without explanatory addition.",
+          "record": "kb/production/translations/batch-013/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 767,
+      "target": "hi",
+      "reason": "Retain the existing full target while preserving the source’s unresolved relations and deliberate river personification.",
+      "reading_evidence": "Read all24 source lines and each24-line target: aroma of stable, ungraspable rapport with anonymous wings; conspirator cloud/rain’s clapping fake river; dividing line/laughing bubbles; braid waves bridge banks rather than landslips; ford/shelter/bond; unseasonal wrath and bigoted river vanish; mortgaged rowing without notice; dispute/viable trace; dead river’s flat chest, fruit/flowers/fortune/affection and daughter’s defiant wild time singing delight. Preserve title and the river’s deliberate personification, not a new marriage story.",
+      "open_questions": [
+        "Opening suspended relation and agent of spreading wings remain ambiguous; current target connection is provisional.",
+        "Adorns may make the chest adorn flowers/fruit or mean a chest adorned with them. Source-order wording retained; do not reverse agency without clarification.",
+        "Viable trace and mortgaged intricacy of rowing remain unusual source formulations; their exact intended relations need author/source clarification."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "No new daughter/wedding/parent narrative, no removal of fake or bigoted river, and no botanical realism imposed on the final image.",
+      "full_source_target_read": true,
+      "source_sha256": "17c13607aaf2d9b34582a07489bb196182f35f8844e3b2c81b9120de4eff47a2",
+      "before_sha256": "3abe6a03ed09c8cc8407e07425c2011a16694fdda4b498d4522981e3b5fae784",
+      "after_sha256": "3abe6a03ed09c8cc8407e07425c2011a16694fdda4b498d4522981e3b5fae784",
+      "prior_uncertainties": [
+        {
+          "note": "Opening syntax remains suspended as in the source; no invented marriage or family narrative. Conspirator cloud, fake river, braid-waves, bigoted river and mortgaged rowing retained. Subject/object of adorns is ambiguous; source-order chest-adorns-flowers reading retained provisionally. Viable trace is unusual and rendered literally. Final time of a daughter retained without explanatory addition.",
+          "record": "kb/production/translations/batch-013/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

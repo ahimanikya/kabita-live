@@ -1,0 +1,239 @@
+{
+  "recorded_at": "2026-10-05T15:57:21.676112+00:00",
+  "poem_ids": [
+    529,
+    533,
+    530,
+    531,
+    532
+  ],
+  "variants_read": 10,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 529,
+      "target": "hi",
+      "reading_evidence": "Complete ten-stanza source and target plus ornament/address: time and acquaintance, casuarina chase, defeated thirst/gold river, chatak solitude, butterfly scratch paradox, youthful photographs, comments and suspicion, self-knowledge, disappearing sand crab. Questions and speaker perspective checked throughout.",
+      "reason": "Retain the questioning, suspicious voice and surreal butterfly-scratch image without converting either into factual accusation.",
+      "open_questions": [
+        "Hindi masculine narrator remains provisional; source taruni supports the feminine addressee but does not establish the narrator."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve stanza and line counts, raw contributor tail, source wording and credits. Same-assistant self-review; independent review remains pending.",
+      "full_source_target_read": true,
+      "source_sha256": "3e2d7f3010281560b9a3bd32c53aa2e195ef32aa4b2e8e8ba6660bbe6e88e5cf",
+      "before_sha256": "af6285bf36574d46e8f14e2b9980634f924da2321bff3b77e053fd6b9788ba97",
+      "after_sha256": "af6285bf36574d46e8f14e2b9980634f924da2321bff3b77e053fd6b9788ba97",
+      "prior_uncertainties": [
+        {
+          "note": "Chatak and casuarina imagery retained; Facebook suspicion remains speaker perspective, not advice or factual accusation. Address and closing decoration preserved. Hindi masculine speaker provisional, feminine addressee supported by source taruni.",
+          "record": "kb/production/translations/batch-063/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 529,
+      "target": "en",
+      "reading_evidence": "Complete ten-stanza source and target plus ornament/address: time and acquaintance, casuarina chase, defeated thirst/gold river, chatak solitude, butterfly scratch paradox, youthful photographs, comments and suspicion, self-knowledge, disappearing sand crab. Questions and speaker perspective checked throughout.",
+      "reason": "Restore time as the source of the joke, rather than something mocked; replace an awkward age calque with ordinary English while preserving the photograph timeframe.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "The passive joke phrase makes the genitive agency explicit; youth does not repeat the female marker, which remains explicit in the source and Hindi. No new age, relationship or motive. Verse/tail boundaries unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "3e2d7f3010281560b9a3bd32c53aa2e195ef32aa4b2e8e8ba6660bbe6e88e5cf",
+      "before_sha256": "383b6cbe11de92687dffb24d8a47fc4fab045868554a67e585c3eb3119a659c5",
+      "after_sha256": "533e1228784e9cb72f4aaf6a7b6297d0ad522ccf59c9ced5fda52a506d016b78",
+      "prior_uncertainties": [
+        {
+          "note": "Chatak and casuarina imagery retained; Facebook suspicion remains speaker perspective, not advice or factual accusation. Address and closing decoration preserved. Hindi masculine speaker provisional, feminine addressee supported by source taruni.",
+          "record": "kb/production/translations/batch-063/review.json"
+        }
+      ],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 533,
+      "target": "hi",
+      "reading_evidence": "Full three-stanza source and each target: dawn/moonlight dreams pledged to fate, dress/food desires and senses; mind-window door and broken flute, awakening curiosity/mirage; wares as support, smile/tears, hunger/thirst/future, bodily/mental burden and lighter load on head.",
+      "reason": "Use a grammatical adjective for longing senses; close the endurance statement and make the following comparison attach to the weight on her head.",
+      "open_questions": [
+        "The unusual source phrase ଇପ୍ସିତ ଇନ୍ଦ୍ରିୟ remains provisionally desiring/longing senses; whether the intended sense is desired pleasures needs source clarification. No vendor biography inferred."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve stanza and line counts, raw contributor tail, source wording and credits. Same-assistant self-review; independent review remains pending.",
+      "full_source_target_read": true,
+      "source_sha256": "9ee1ee8ccff46a54f32e7a84cc870692822ecca928275214ec65f1f1921eb5ee",
+      "before_sha256": "cf935aa14b18347fb730e93d3b5de2c9ab53d4b57048b425237ee6d8d25050e0",
+      "after_sha256": "44af1dbb3bd1e72bf2c7fd552a1489ba4128588a245dcb2613e414e8519741b6",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 533,
+      "target": "en",
+      "reading_evidence": "Full three-stanza source and each target: dawn/moonlight dreams pledged to fate, dress/food desires and senses; mind-window door and broken flute, awakening curiosity/mirage; wares as support, smile/tears, hunger/thirst/future, bodily/mental burden and lighter load on head.",
+      "reason": "Separate endurance from the final comparison: the load on her head feels light compared with her circumstances, rather than her weariness occurring before them.",
+      "open_questions": [
+        "The unusual source phrase ଇପ୍ସିତ ଇନ୍ଦ୍ରିୟ remains provisionally desiring/longing senses; whether the intended sense is desired pleasures needs source clarification. No vendor biography inferred."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve stanza and line counts, raw contributor tail, source wording and credits. Same-assistant self-review; independent review remains pending.",
+      "full_source_target_read": true,
+      "source_sha256": "9ee1ee8ccff46a54f32e7a84cc870692822ecca928275214ec65f1f1921eb5ee",
+      "before_sha256": "90a80d033d6c7640b5c02cb1dab68a4cd8dd38abe9173d2c9c0083f46ddbf77f",
+      "after_sha256": "4531e44e426e601ad1f437730b87555f37612ef654a0386e6d24d09827247ac4",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 530,
+      "target": "or",
+      "reading_evidence": "Read full four source/target stanzas: silent pain and household hopes in sari-end, inner battle and repeated resolve; tears/flames, repeated pagli and hope of rescue; oppression/river-eyes and triple wish; faded appearance, ruined garden and coloured hanging ornaments. All four refrain recurrences and feminine addressee checked.",
+      "reason": "Retain the exhortation, direct intimate address, repeated resolve and burning-sorrow image; no defensible meaning correction needed after the complete comparison.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve stanza and line counts, raw contributor tail, source wording and credits. Same-assistant self-review; independent review remains pending.",
+      "full_source_target_read": true,
+      "source_sha256": "ae3bcb517d9f3f31bd683d96959775c140dc5e2fc2511646e42d72f416ce3b0f",
+      "before_sha256": "ebbeff03a50b489a862b6971307bb823de2f248ab645e5bfdd5a3013b38ae7a4",
+      "after_sha256": "ebbeff03a50b489a862b6971307bb823de2f248ab645e5bfdd5a3013b38ae7a4",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 530,
+      "target": "en",
+      "reading_evidence": "Read full four source/target stanzas: silent pain and household hopes in sari-end, inner battle and repeated resolve; tears/flames, repeated pagli and hope of rescue; oppression/river-eyes and triple wish; faded appearance, ruined garden and coloured hanging ornaments. All four refrain recurrences and feminine addressee checked.",
+      "reason": "Retain the sustained counterfactual refrain and direct challenge; garlands can denote decorative hanging strands here and need not be replaced merely for lexical variation.",
+      "open_questions": [
+        "The force of पगली can range from familiar chiding to a sharper rebuke; foolish girl remains provisional pending a fluent/author register check."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve stanza and line counts, raw contributor tail, source wording and credits. Same-assistant self-review; independent review remains pending.",
+      "full_source_target_read": true,
+      "source_sha256": "ae3bcb517d9f3f31bd683d96959775c140dc5e2fc2511646e42d72f416ce3b0f",
+      "before_sha256": "757cf52e228382a881928fb6afe65bcf88d73e883dbbc468dfc407f558c44e08",
+      "after_sha256": "757cf52e228382a881928fb6afe65bcf88d73e883dbbc468dfc407f558c44e08",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 531,
+      "target": "or",
+      "reading_evidence": "Complete six source/target stanzas, including isolated/final refrains: Vasanti and Phagun arrival, palash/mango blossoms, kohl/body-mind colouring, remembered touch and shiver, Madan/coaxing/shyness, affection raining from beloved eyes. Refrain extra ya and closing elongation retained.",
+      "reason": "Render body and mind deeply coloured, supported by the immediately following rang diya and Phagun imagery; the inherited Odia adjective reads as exaggerated and obscures this colouring.",
+      "open_questions": [
+        "Vasanti remains ambiguous between spring personification/name/breeze; the existing English breeze is provisional. Madan remains ambiguous name/address. Extra ya in the first refrain remains a provisional repeated ending."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Retain intensity and poetic register with explicit colour wording; do not resolve Vasanti/Madan or the damaged refrain. All line/stanza boundaries unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "b8b6fbe0611c44dcccefc98b28e29f2ed04e1f7fc367a69a854e28b681056365",
+      "before_sha256": "6145edd0cf3c4839ceabdd21c832e397257aa9b228319fe29c938e85bdb2903e",
+      "after_sha256": "860a85c6dfa3151e3fe23aef03f97a1401444979e28f26e75ea2c6d9b66e0b7d",
+      "prior_uncertainties": [
+        {
+          "note": "Vasanti provisionally spring breeze; could be personification. Madan retained as ambiguous name/address. Extra ya in first refrain treated as repeated ending, not silently deleted.",
+          "record": "kb/production/translations/batch-063/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 531,
+      "target": "en",
+      "reading_evidence": "Complete six source/target stanzas, including isolated/final refrains: Vasanti and Phagun arrival, palash/mango blossoms, kohl/body-mind colouring, remembered touch and shiver, Madan/coaxing/shyness, affection raining from beloved eyes. Refrain extra ya and closing elongation retained.",
+      "reason": "Retain the colouring, remembered shiver, repetitions and affection-rain; English already carries the colour meaning. Preserve open lexical/address questions.",
+      "open_questions": [
+        "Vasanti remains ambiguous between spring personification/name/breeze; the existing English breeze is provisional. Madan remains ambiguous name/address. Extra ya in the first refrain remains a provisional repeated ending."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve stanza and line counts, raw contributor tail, source wording and credits. Same-assistant self-review; independent review remains pending.",
+      "full_source_target_read": true,
+      "source_sha256": "b8b6fbe0611c44dcccefc98b28e29f2ed04e1f7fc367a69a854e28b681056365",
+      "before_sha256": "8ea8a9b3c969f836b4f6c0ddc714df47e12dec95ae370caba7038cba161f139c",
+      "after_sha256": "8ea8a9b3c969f836b4f6c0ddc714df47e12dec95ae370caba7038cba161f139c",
+      "prior_uncertainties": [
+        {
+          "note": "Vasanti provisionally spring breeze; could be personification. Madan retained as ambiguous name/address. Extra ya in first refrain treated as repeated ending, not silently deleted.",
+          "record": "kb/production/translations/batch-063/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 532,
+      "target": "or",
+      "reading_evidence": "Read all eight source/target stanzas: assumed grasp of world/time correction, faqir/king and fingers of a hand, replacement faces, moving wheel/another beat, separation, mark before erasure and ego cage, butterflies/strings while alive, deeds remaining and final collective puppets refrain.",
+      "reason": "Retain time as puppeteer, collective refrains, imperative liberation from ego and seasonal-flower image; no added causal explanation or spiritual doctrine.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve stanza and line counts, raw contributor tail, source wording and credits. Same-assistant self-review; independent review remains pending.",
+      "full_source_target_read": true,
+      "source_sha256": "9f330f72eac7bb95618c0f305aef87226862cc2c8885a9e763cac5414ee3d293",
+      "before_sha256": "dbe1a0d3b4d338ecf81a35ede759bfb7498f098c5efef983faea8d729ef11d57",
+      "after_sha256": "dbe1a0d3b4d338ecf81a35ede759bfb7498f098c5efef983faea8d729ef11d57",
+      "prior_uncertainties": [
+        {
+          "note": "Refrains, changing plural voice and string-pulling image retained. Faqir rendered beggar in English in king contrast; spiritual nuance needs review.",
+          "record": "kb/production/translations/batch-063/review.json"
+        }
+      ],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 532,
+      "target": "en",
+      "reading_evidence": "Read all eight source/target stanzas: assumed grasp of world/time correction, faqir/king and fingers of a hand, replacement faces, moving wheel/another beat, separation, mark before erasure and ego cage, butterflies/strings while alive, deeds remaining and final collective puppets refrain.",
+      "reason": "Retain the common-hand and strings images, repeated collective refrain and deeds/identity close. Do not add philosophy beyond the poem.",
+      "open_questions": [
+        "Faqir rendered as beggar in the king contrast remains provisional: spiritual/mendicant nuance awaits a fluent or author check."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve stanza and line counts, raw contributor tail, source wording and credits. Same-assistant self-review; independent review remains pending.",
+      "full_source_target_read": true,
+      "source_sha256": "9f330f72eac7bb95618c0f305aef87226862cc2c8885a9e763cac5414ee3d293",
+      "before_sha256": "c75aeef4c8a9d20d987cd89c9bb032153c87945a8c8af08a10de56a0ed4a803c",
+      "after_sha256": "c75aeef4c8a9d20d987cd89c9bb032153c87945a8c8af08a10de56a0ed4a803c",
+      "prior_uncertainties": [
+        {
+          "note": "Refrains, changing plural voice and string-pulling image retained. Faqir rendered beggar in English in king contrast; spiritual nuance needs review.",
+          "record": "kb/production/translations/batch-063/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

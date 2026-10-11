@@ -1,7 +1,7 @@
 {
   "recorded_at": "2026-10-10T00:40:48.345748+00:00",
   "request": "Yes, let's improve Bot protection and make this searchable by LLMs and search engines. Make the site LLM-friendly.",
-  "status": "published_verified_google_sitemap_fetch_pending",
+  "status": "published_verified",
   "independent": false,
   "base_commit": "3b3b1da27dfe8c9d4d9f2c70aa7329b580665bf8",
   "scope": "Published source only; index original public pages while preserving explicit source holds and editorial-release gate. No unpublished local content release.",
@@ -66,8 +66,9 @@
   "search_console": {
     "ownership": "verified via HTML tag",
     "sitemap": "submitted successfully, retried after successful live homepage test",
-    "processing": "Google currently reports Could not fetch and 0 discovered pages; HTTPS sitemap independently returns200 valid XML with1306 URLs",
-    "next_action": "Recheck Google sitemap fetch status after its next processing cycle; indexing and AI citations are not guaranteed"
+    "processing": "Success; 1306 discovered pages; last read shown October10,2026",
+    "next_action": "No remaining setup action. Discovered URLs are not a guarantee that every page is indexed or cited.",
+    "checked_at": "2026-10-11T02:49:53.148634+00:00"
   },
   "publication_approval": {
     "request": "Go ahead, approved",
@@ -79,6 +80,7 @@
   "evidence": [
     "artifacts/review/search-bot-protection-2026-10-10/live-discovery.json",
     "artifacts/review/search-bot-protection-2026-10-10/google-live-test.jpg",
-    "artifacts/review/search-bot-protection-2026-10-10/search-console-sitemap.jpg"
+    "artifacts/review/search-bot-protection-2026-10-10/search-console-sitemap.jpg",
+    "artifacts/review/search-bot-protection-2026-10-10/sitemap-success-2026-10-11.jpg"
   ]
 }

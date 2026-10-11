@@ -1,0 +1,963 @@
+[
+  {
+    "poem_id": 763,
+    "target": "hi",
+    "reason": "Restore ବାସେ as scent within the poem’s recurrent smell image, rather than treating love and desire as merely dwelling in the colour.",
+    "reading_evidence": "Read all38 source lines in six stanzas and all38 target lines: butterflies neglect grass flowers/dew for roses; wounded fingertips and refusal of pink; red lily/closed eyes, remote moon unable to share mortality, blood, eighth note of separation and scent; ravaged mustard, yellow figure and departure; sky outlives wings; final search for dew dreams, tear intimacy, butterfly remoteness, rain regret and innocent age. Colour aversion and earth-scented girl recur through the whole poem.",
+    "open_questions": [
+      "ହଳଦୀ ବସନ୍ତ may name a yellow bird rather than a yellow spring season; the later bird/sky passage makes this consequential. Existing seasonal reading remains provisional pending source/author clarification.",
+      "The possessive relation in the sky, beloved wings and past grown on its body is not fully explicit. Preserve the existing relation provisionally rather than identify a new lover."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "The apprehensive कहीं…तो नहीं remains. Shared-sounding ବାସେ/बसते is not sufficient fidelity here.",
+    "full_source_target_read": true,
+    "source_sha256": "154be0999e58bd92910eccab150287eb058d940f233bac90da22deba6fae93ab",
+    "before_sha256": "504de77b60d0dcdde31be48254a124fc1c0047fc098fa20f3c40b20a6ab41f84",
+    "after_sha256": "5ca8d9383e31e5e1d22080860f5c3bd107f2a78dc80c103c3cba30b2dadab17e",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "धरती की गंध वाली एक लड़की के लिए",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "कुछ ताज़ा खिले गुलाबी गुलाबों के लिए,",
+          "तितलियाँ भूल गईं नारंगी घास-फूलों की मासूमियत,",
+          "हरी दूब पर डोलती ओस की बूँदों का अभिमान।"
+        ],
+        [
+          "उस दिन से गुलाबी रंग मुझ पर नहीं फबा।",
+          "भूरे काँटों की चोट से उँगलियों के पोर फट जाने के बाद,",
+          "तितलियों के पंख हटाकर उस डाल को छूने की इच्छा न हुई।",
+          "समझ में आया: मन हो तो उस पर सिलवट पड़ना तय है,",
+          "जब तक उँगली का पोर है, जीवित रहेगा",
+          "चोट लगने का मासूम डर!"
+        ],
+        [
+          "उस दिन कुमुदिनी के ताल में लाल कुमुद की आँखें खोजीं,",
+          "तो देखा, वह कब से उन्हें मूँद चुका था।",
+          "हाय, अब कौन समझाएगा?",
+          "आकाश का चाँद किसका अभिमान समझता है!",
+          "क्या वह धरती पर आ सकता है, लेकर",
+          "जन्म-मरण वाली देह!",
+          "उस दिन से लाल रंग से भी डर लगा,",
+          "कहीं इस रंग में मिल न गई हो",
+          "बहुत गहरी, गहरे रंग की रक्तधारा,",
+          "किसी न लौटने वाले प्रेमी की; फिर इसी रंग में,",
+          "विरह का आठवाँ सुर,",
+          "कहीं इसी रंग में तो प्रेम और प्रणय नहीं बसते!"
+        ],
+        [
+          "उजड़े सरसों के फूलों की",
+          "प्रेमहीनता में सूखते किसी पीले वसंत में,",
+          "उस दिन देखी किसी सुनहरी गोरी की लहूलुहान देह,",
+          "किसी के लौट जाने की न भूलने वाली स्मृति,",
+          "और आकाश के टूटकर गिरने की तपती हवा के बोझ का डर।"
+        ],
+        [
+          "तब से पीला रंग भी मेरी देह पर नहीं फबा।",
+          "समझ में आया: पक्षी न हों तो भी आकाश जीता है,",
+          "भूल जाता है प्रिय के उड़ान-लोलुप दो पंख,",
+          "और उसकी देह पर उगा कोई स्वप्निल अतीत!"
+        ],
+        [
+          "उस दिन से मैंने खोजना शुरू किया,",
+          "धरती की गंध वाली एक लड़की के लिए,",
+          "ओस के रंग का एक बूँद सपना,",
+          "गर्म आँसुओं की कुछ बूँदों के रंग की घनिष्ठता,",
+          "एक सफ़ेद तितली के पंखों की अगम्यता में,",
+          "सँभलते हुए बारिश के पानी जैसे रंग के कुछ अफ़सोस,",
+          "और एक मासूम उम्र, जिसने कभी सीखा ही नहीं",
+          "चाँद-तारों के लिए तरसना!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "धरती की गंध वाली एक लड़की के लिए",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "कुछ ताज़ा खिले गुलाबी गुलाबों के लिए,",
+          "तितलियाँ भूल गईं नारंगी घास-फूलों की मासूमियत,",
+          "हरी दूब पर डोलती ओस की बूँदों का अभिमान।"
+        ],
+        [
+          "उस दिन से गुलाबी रंग मुझ पर नहीं फबा।",
+          "भूरे काँटों की चोट से उँगलियों के पोर फट जाने के बाद,",
+          "तितलियों के पंख हटाकर उस डाल को छूने की इच्छा न हुई।",
+          "समझ में आया: मन हो तो उस पर सिलवट पड़ना तय है,",
+          "जब तक उँगली का पोर है, जीवित रहेगा",
+          "चोट लगने का मासूम डर!"
+        ],
+        [
+          "उस दिन कुमुदिनी के ताल में लाल कुमुद की आँखें खोजीं,",
+          "तो देखा, वह कब से उन्हें मूँद चुका था।",
+          "हाय, अब कौन समझाएगा?",
+          "आकाश का चाँद किसका अभिमान समझता है!",
+          "क्या वह धरती पर आ सकता है, लेकर",
+          "जन्म-मरण वाली देह!",
+          "उस दिन से लाल रंग से भी डर लगा,",
+          "कहीं इस रंग में मिल न गई हो",
+          "बहुत गहरी, गहरे रंग की रक्तधारा,",
+          "किसी न लौटने वाले प्रेमी की; फिर इसी रंग में,",
+          "विरह का आठवाँ सुर,",
+          "कहीं इसी रंग में प्रेम और प्रणय की गंध तो नहीं!"
+        ],
+        [
+          "उजड़े सरसों के फूलों की",
+          "प्रेमहीनता में सूखते किसी पीले वसंत में,",
+          "उस दिन देखी किसी सुनहरी गोरी की लहूलुहान देह,",
+          "किसी के लौट जाने की न भूलने वाली स्मृति,",
+          "और आकाश के टूटकर गिरने की तपती हवा के बोझ का डर।"
+        ],
+        [
+          "तब से पीला रंग भी मेरी देह पर नहीं फबा।",
+          "समझ में आया: पक्षी न हों तो भी आकाश जीता है,",
+          "भूल जाता है प्रिय के उड़ान-लोलुप दो पंख,",
+          "और उसकी देह पर उगा कोई स्वप्निल अतीत!"
+        ],
+        [
+          "उस दिन से मैंने खोजना शुरू किया,",
+          "धरती की गंध वाली एक लड़की के लिए,",
+          "ओस के रंग का एक बूँद सपना,",
+          "गर्म आँसुओं की कुछ बूँदों के रंग की घनिष्ठता,",
+          "एक सफ़ेद तितली के पंखों की अगम्यता में,",
+          "सँभलते हुए बारिश के पानी जैसे रंग के कुछ अफ़सोस,",
+          "और एक मासूम उम्र, जिसने कभी सीखा ही नहीं",
+          "चाँद-तारों के लिए तरसना!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 763,
+    "target": "en",
+    "reason": "Restore the final scent in the red-colour passage and preserve the bookending earth-scented title/girl.",
+    "reading_evidence": "Read all38 source lines in six stanzas and all38 target lines: butterflies neglect grass flowers/dew for roses; wounded fingertips and refusal of pink; red lily/closed eyes, remote moon unable to share mortality, blood, eighth note of separation and scent; ravaged mustard, yellow figure and departure; sky outlives wings; final search for dew dreams, tear intimacy, butterfly remoteness, rain regret and innocent age. Colour aversion and earth-scented girl recur through the whole poem.",
+    "open_questions": [
+      "ହଳଦୀ ବସନ୍ତ may name a yellow bird rather than a yellow spring season; the later bird/sky passage makes this consequential. Existing seasonal reading remains provisional pending source/author clarification.",
+      "The possessive relation in the sky, beloved wings and past grown on its body is not fully explicit. Preserve the existing relation provisionally rather than identify a new lover."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Very carries the emphasis of ହିଁ without claiming the scent exists nowhere else; no sensory object is added.",
+    "full_source_target_read": true,
+    "source_sha256": "154be0999e58bd92910eccab150287eb058d940f233bac90da22deba6fae93ab",
+    "before_sha256": "cdee699ef609fe0b1265eb7f15bf7c2694be52865383888f073f379351bf66e1",
+    "after_sha256": "07eee1929dd58f64ad13f52939335ed55df6e439dbc03cc405829b4a20440758",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "For a Girl Who Smells of Earth",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "For a few freshly opened pink roses,",
+          "the butterflies forgot the innocence of orange grass-flowers,",
+          "the wounded pride of dew trembling on green blades of durva."
+        ],
+        [
+          "From that day, pink no longer suited me.",
+          "After brown thorns tore my fingertips,",
+          "I did not wish to brush aside butterfly wings and touch that branch.",
+          "I understood: where there is a heart, a crease is certain;",
+          "as long as a fingertip remains, there lives",
+          "the innocent fear of being hurt!"
+        ],
+        [
+          "That day I searched the lily pond for the red lily’s eyes",
+          "and saw that it had closed them long ago.",
+          "Alas, who will explain now?",
+          "What wounded pride does the moon in the sky understand!",
+          "Can it come down to earth, bearing",
+          "a body of birth and death!",
+          "From that day I feared red too;",
+          "perhaps this colour has mingled",
+          "with a very deep, deep-coloured stream of blood",
+          "from some lover who never returned; and in this same colour,",
+          "the eighth note of separation,",
+          "perhaps in this colour alone dwell love and desire!"
+        ],
+        [
+          "In some yellow spring,",
+          "drying in the lovelessness",
+          "of ravaged mustard flowers, I saw that day a golden girl’s bloodied body,",
+          "the unforgettable memory of someone having gone away,",
+          "and fear of the hot wind’s weight as the sky tore and fell."
+        ],
+        [
+          "Since then, yellow too no longer suited my body.",
+          "I understood: even without birds the sky goes on living,",
+          "forgets its beloved’s flight-hungry pair of wings",
+          "and some dreaming past that had grown upon its body!"
+        ],
+        [
+          "From that day I began searching,",
+          "for a girl who smells of earth,",
+          "for a drop of dew-coloured dream,",
+          "a closeness coloured with a few drops of warm tears,",
+          "within the unreachable wings of a white butterfly,",
+          "for some rainwater-coloured regrets being stored away,",
+          "and an innocent age that had never learned",
+          "to yearn for moon or stars!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "For a Girl Who Smells of Earth",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "For a few freshly opened pink roses,",
+          "the butterflies forgot the innocence of orange grass-flowers,",
+          "the wounded pride of dew trembling on green blades of durva."
+        ],
+        [
+          "From that day, pink no longer suited me.",
+          "After brown thorns tore my fingertips,",
+          "I did not wish to brush aside butterfly wings and touch that branch.",
+          "I understood: where there is a heart, a crease is certain;",
+          "as long as a fingertip remains, there lives",
+          "the innocent fear of being hurt!"
+        ],
+        [
+          "That day I searched the lily pond for the red lily’s eyes",
+          "and saw that it had closed them long ago.",
+          "Alas, who will explain now?",
+          "What wounded pride does the moon in the sky understand!",
+          "Can it come down to earth, bearing",
+          "a body of birth and death!",
+          "From that day I feared red too;",
+          "perhaps this colour has mingled",
+          "with a very deep, deep-coloured stream of blood",
+          "from some lover who never returned; and in this same colour,",
+          "the eighth note of separation,",
+          "perhaps this very colour smells of love and desire!"
+        ],
+        [
+          "In some yellow spring,",
+          "drying in the lovelessness",
+          "of ravaged mustard flowers, I saw that day a golden girl’s bloodied body,",
+          "the unforgettable memory of someone having gone away,",
+          "and fear of the hot wind’s weight as the sky tore and fell."
+        ],
+        [
+          "Since then, yellow too no longer suited my body.",
+          "I understood: even without birds the sky goes on living,",
+          "forgets its beloved’s flight-hungry pair of wings",
+          "and some dreaming past that had grown upon its body!"
+        ],
+        [
+          "From that day I began searching,",
+          "for a girl who smells of earth,",
+          "for a drop of dew-coloured dream,",
+          "a closeness coloured with a few drops of warm tears,",
+          "within the unreachable wings of a white butterfly,",
+          "for some rainwater-coloured regrets being stored away,",
+          "and an innocent age that had never learned",
+          "to yearn for moon or stars!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 765,
+    "target": "hi",
+    "reason": "Translate the action in the named rescue plan so Hindi readers hear its joke rather than only English sounds.",
+    "reading_evidence": "Read the full source including title/byline stanza and50 verse lines, and both complete targets: night as reread book, bodily stains; counterfeit coin/roused mind and Save Red Riding Hood plan; kitchen kingdom, utensils, wife’s dawn-moon face; improbable tea turns pride to smile; crown restored; bodily intimacy, reciprocal border crossings, tea/reward; aging hair/eyes/muscles/springs/fruit and daily tea-toast ceremony. Domestic humour and erotic aging remain unsanitized.",
+    "open_questions": [
+      "Opening face has no explicit possessive; English Its provisionally attaches it to the book/night. Do not claim an unambiguous wife/book antecedent.",
+      "Source ଚାଙ୍କୁ appears damaged where current targets read her; retain original and query before final approval.",
+      "Masculine Hindi narrator is not established solely by having a wife; existing agreement remains provisional."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Red Riding Hood remains recognizable; no wolf or other fairytale action is added. Title/byline and raw source preserved.",
+    "full_source_target_read": true,
+    "source_sha256": "dd85f3d11b5e1c2091afc62e1c74119daf7097737c4ff0c904dcfea51436c3df",
+    "before_sha256": "c45cfd9e562edd81c4912afaaeabed95fc6d65385cbeb3266e637934a777e351",
+    "after_sha256": "c621ede9f2e3f5040ba4a04e5602501e109146a5839d1cb9307c514348013810",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "पत्नी के लिए एक प्याली चाय",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "पत्नी के लिए एक प्याली चाय — प्रभंजन मिश्र"
+        ],
+        [
+          "रात समाप्त हो रही है,",
+          "बार-बार पढ़ी गई एक किताब।",
+          "चेहरा गुलाबी है, लैवेंडर से लिपा।",
+          "पसीने, आँसुओं और लार के",
+          "धूसर-भूरे दाग़ पन्नों पर,",
+          "जैसे तिरस्कार।"
+        ],
+        [
+          "अपने उनींदे मन को",
+          "फिर जगाकर,",
+          "जैसे खोटा सिक्का देकर",
+          "किसी बच्चे को ठगा जाता है,",
+          "मैं अपनी योजना शुरू करता हूँ—",
+          "सेव रेड राइडिंग हुड।"
+        ],
+        [
+          "पत्नी के साम्राज्य में प्रवेश करता हूँ—",
+          "रसोईघर में।",
+          "पत्नी उठ बैठती हैं सुनकर",
+          "बर्तनों की फुसफुसाती खनखनाहट।",
+          "उनका चेहरा बहुत, बहुत लाल है,",
+          "भोर का अभिमानी चाँद।"
+        ],
+        [
+          "पर मेरे हाथ में",
+          "अविश्वसनीय चाय की प्याली देखकर,",
+          "चाय का घूँट लेते ही",
+          "उनका अभिमान",
+          "घूमते प्रवेश-द्वार की तरह मुड़ जाता है,",
+          "कठोरता की जगह मुस्कान खिलती है।"
+        ],
+        [
+          "हर घूँट के बाद",
+          "उनके चेहरे पर झिलमिलाती है",
+          "ख़ुशी की लहर,",
+          "जैसे मैंने धूल से उठाकर",
+          "उनका मुकुट फिर उन्हें",
+          "पहना दिया हो।"
+        ],
+        [
+          "वह मुझे बाँहों में लेकर",
+          "स्नेह से भिगो देती हैं,",
+          "अपनी देह की सेज पर।",
+          "उस दिन से एक-दूसरे की",
+          "सीमाएँ लाँघना हो जाता है",
+          "हमारे लिए सामान्य।"
+        ],
+        [
+          "पत्नी के राज्य में मेरा",
+          "नियमित आना-जाना,",
+          "चाय बनाना और",
+          "सुबह-शाम",
+          "उनकी बाँहों में आनंदित होना—",
+          "मैं चाय बनाता हूँ, वह पुरस्कार देती हैं।"
+        ],
+        [
+          "स्नेह की तीव्रता घटी है,",
+          "उम्र बढ़ी है, फिर भी",
+          "इच्छा की गर्माहट कम नहीं हुई—",
+          "बाल झड़े हैं, आँखों में जाले जमे हैं,",
+          "मांसपेशियाँ ढली हैं, झरने सूखे हैं,",
+          "फलों का भार झूल गया है।"
+        ],
+        [
+          "फिर भी चाय और टोस्ट",
+          "हमारे दांपत्य का रोज़ का समारोह हैं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "पत्नी के लिए एक प्याली चाय",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "पत्नी के लिए एक प्याली चाय — प्रभंजन मिश्र"
+        ],
+        [
+          "रात समाप्त हो रही है,",
+          "बार-बार पढ़ी गई एक किताब।",
+          "चेहरा गुलाबी है, लैवेंडर से लिपा।",
+          "पसीने, आँसुओं और लार के",
+          "धूसर-भूरे दाग़ पन्नों पर,",
+          "जैसे तिरस्कार।"
+        ],
+        [
+          "अपने उनींदे मन को",
+          "फिर जगाकर,",
+          "जैसे खोटा सिक्का देकर",
+          "किसी बच्चे को ठगा जाता है,",
+          "मैं अपनी योजना शुरू करता हूँ—",
+          "रेड राइडिंग हुड को बचाओ।"
+        ],
+        [
+          "पत्नी के साम्राज्य में प्रवेश करता हूँ—",
+          "रसोईघर में।",
+          "पत्नी उठ बैठती हैं सुनकर",
+          "बर्तनों की फुसफुसाती खनखनाहट।",
+          "उनका चेहरा बहुत, बहुत लाल है,",
+          "भोर का अभिमानी चाँद।"
+        ],
+        [
+          "पर मेरे हाथ में",
+          "अविश्वसनीय चाय की प्याली देखकर,",
+          "चाय का घूँट लेते ही",
+          "उनका अभिमान",
+          "घूमते प्रवेश-द्वार की तरह मुड़ जाता है,",
+          "कठोरता की जगह मुस्कान खिलती है।"
+        ],
+        [
+          "हर घूँट के बाद",
+          "उनके चेहरे पर झिलमिलाती है",
+          "ख़ुशी की लहर,",
+          "जैसे मैंने धूल से उठाकर",
+          "उनका मुकुट फिर उन्हें",
+          "पहना दिया हो।"
+        ],
+        [
+          "वह मुझे बाँहों में लेकर",
+          "स्नेह से भिगो देती हैं,",
+          "अपनी देह की सेज पर।",
+          "उस दिन से एक-दूसरे की",
+          "सीमाएँ लाँघना हो जाता है",
+          "हमारे लिए सामान्य।"
+        ],
+        [
+          "पत्नी के राज्य में मेरा",
+          "नियमित आना-जाना,",
+          "चाय बनाना और",
+          "सुबह-शाम",
+          "उनकी बाँहों में आनंदित होना—",
+          "मैं चाय बनाता हूँ, वह पुरस्कार देती हैं।"
+        ],
+        [
+          "स्नेह की तीव्रता घटी है,",
+          "उम्र बढ़ी है, फिर भी",
+          "इच्छा की गर्माहट कम नहीं हुई—",
+          "बाल झड़े हैं, आँखों में जाले जमे हैं,",
+          "मांसपेशियाँ ढली हैं, झरने सूखे हैं,",
+          "फलों का भार झूल गया है।"
+        ],
+        [
+          "फिर भी चाय और टोस्ट",
+          "हमारे दांपत्य का रोज़ का समारोह हैं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 762,
+    "target": "or",
+    "reason": "Repair the malformed Odia title to a natural heart-charming couplet title.",
+    "reading_evidence": "Read all eight source couplets and both complete target versions plus Jamshedpur tail. Follow Heer/Ranjha restlessness, breath/eyes/name, walking ahead with love behind, Veda/eye mystery, scattered hair/golden woman, suddenly hidden gaze and uncertain रामा/heart, utterance/worship and final acceptance. No claim to equivalent doha metre. All couplets and ending preserved.",
+    "open_questions": [
+      "रामा and whose heart contains खोट remain unresolved; English my heart is a provisional narrowing, not author-confirmed.",
+      "ओट can be concealment rather than an actual cloth veil. Existing English veil remains provisional; the source does not independently establish an item of clothing."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "ମନମୋହା ଦୋହା retains the stated attraction without adding an invented subject or claiming metrical equivalence.",
+    "full_source_target_read": true,
+    "title_after": "ମନମୋହା ଦୋହା",
+    "source_sha256": "87d856daa1c557f482db6b3af9d10b052d3084da59268999028f01d3a9aca2a0",
+    "before_sha256": "dc4ff9980e6ca05644a96da0461a621714b08d7f6f8da9efc1eec9d260940349",
+    "after_sha256": "333880fdc329da477d465eea5358e13a865ec2ddec73ec46171ed497f7907e76",
+    "prior_uncertainties": [
+      {
+        "note": "Eight couplets retained without claiming equivalent doha metre. ରାମା/रामा ambiguity rendered beloved; meaning and whose heart is doubtful require native review. Heer/Ranjha retained.",
+        "record": "kb/production/translations/batch-011/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ମନ ମୋହିନିଏ ଦୋହା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମନରେ ଏତେ ପ୍ରୀତି ଭରି, କେମିତି ଧୈର୍ଯ୍ୟ ଧର?",
+          "ଶୁଣ ମୋ ରାଞ୍ଝା, ବ୍ୟାକୁଳ ତୁମ ହୀର୍।"
+        ],
+        [
+          "ପ୍ରତି ଶ୍ୱାସରେ ତୁମେ ବସ, ଆଖିରେ ବି ତୁମେ;",
+          "ଏବେ ସମସ୍ତେ ମୋତେ ଡାକନ୍ତି ତୁମ ନାମରେ।"
+        ],
+        [
+          "ଆଜିଠାରୁ ମାନିନେଲି, ତୁମେ ମୋର ମିତ;",
+          "ଆଗେ ଆଗେ ତୁମେ ଚାଲ, ପଛେ ତୁମ ପ୍ରୀତି।"
+        ],
+        [
+          "ଏତେ ଗୂଢ଼ ଲାଗନ୍ତି ସେ, ଯେମିତି କେଉଁ ବେଦ;",
+          "କୁହ, କେମିତି ବୁଝିବା ଆଖିର ଏହି ଭେଦ?"
+        ],
+        [
+          "ବିଖରା ବିଖରା କେଶ, ସଜସଜ୍ଜା ନକରି;",
+          "କୋମଳ କାଞ୍ଚନ କାମିନୀ, ଭଲ ନପାଇବା କିପରି?"
+        ],
+        [
+          "ଆଖି ସହ ଆଖି ମିଶିଲେ, ତୁରନ୍ତ ପଡ଼େ ଆଢ଼ୁଆଳ।",
+          "ହାୟ! ପ୍ରିୟ ନଭାବନ୍ତୁ, ହୃଦୟରେ ଅଛି ଛଳ।"
+        ],
+        [
+          "ଏବେ କହିବାକୁ ହେବ ମନର କିଛି ଉଦ୍‌ଗାର;",
+          "ହୃଦୟ ତୁମ ଉପାସକ, ଅସହାୟ ନିରୁପାୟ।"
+        ],
+        [
+          "ପ୍ରଣୟ ନିବେଦନ କରୁଛି, କରନ୍ତୁ ସ୍ୱୀକାର;",
+          "ଆଜି ଏବେଠାରୁ ତୁମକୁ କରିନେଲି ଆପଣାର।"
+        ],
+        [
+          "∎",
+          "ଜାମସେଦପୁର"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ମନମୋହା ଦୋହା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମନରେ ଏତେ ପ୍ରୀତି ଭରି, କେମିତି ଧୈର୍ଯ୍ୟ ଧର?",
+          "ଶୁଣ ମୋ ରାଞ୍ଝା, ବ୍ୟାକୁଳ ତୁମ ହୀର୍।"
+        ],
+        [
+          "ପ୍ରତି ଶ୍ୱାସରେ ତୁମେ ବସ, ଆଖିରେ ବି ତୁମେ;",
+          "ଏବେ ସମସ୍ତେ ମୋତେ ଡାକନ୍ତି ତୁମ ନାମରେ।"
+        ],
+        [
+          "ଆଜିଠାରୁ ମାନିନେଲି, ତୁମେ ମୋର ମିତ;",
+          "ଆଗେ ଆଗେ ତୁମେ ଚାଲ, ପଛେ ତୁମ ପ୍ରୀତି।"
+        ],
+        [
+          "ଏତେ ଗୂଢ଼ ଲାଗନ୍ତି ସେ, ଯେମିତି କେଉଁ ବେଦ;",
+          "କୁହ, କେମିତି ବୁଝିବା ଆଖିର ଏହି ଭେଦ?"
+        ],
+        [
+          "ବିଖରା ବିଖରା କେଶ, ସଜସଜ୍ଜା ନକରି;",
+          "କୋମଳ କାଞ୍ଚନ କାମିନୀ, ଭଲ ନପାଇବା କିପରି?"
+        ],
+        [
+          "ଆଖି ସହ ଆଖି ମିଶିଲେ, ତୁରନ୍ତ ପଡ଼େ ଆଢ଼ୁଆଳ।",
+          "ହାୟ! ପ୍ରିୟ ନଭାବନ୍ତୁ, ହୃଦୟରେ ଅଛି ଛଳ।"
+        ],
+        [
+          "ଏବେ କହିବାକୁ ହେବ ମନର କିଛି ଉଦ୍‌ଗାର;",
+          "ହୃଦୟ ତୁମ ଉପାସକ, ଅସହାୟ ନିରୁପାୟ।"
+        ],
+        [
+          "ପ୍ରଣୟ ନିବେଦନ କରୁଛି, କରନ୍ତୁ ସ୍ୱୀକାର;",
+          "ଆଜି ଏବେଠାରୁ ତୁମକୁ କରିନେଲି ଆପଣାର।"
+        ],
+        [
+          "∎",
+          "ଜାମସେଦପୁର"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 762,
+    "target": "en",
+    "reason": "Preserve the explicit female figure in कामिनी rather than neutralizing it into an unspecified beloved.",
+    "reading_evidence": "Read all eight source couplets and both complete target versions plus Jamshedpur tail. Follow Heer/Ranjha restlessness, breath/eyes/name, walking ahead with love behind, Veda/eye mystery, scattered hair/golden woman, suddenly hidden gaze and uncertain रामा/heart, utterance/worship and final acceptance. No claim to equivalent doha metre. All couplets and ending preserved.",
+    "open_questions": [
+      "रामा and whose heart contains खोट remain unresolved; English my heart is a provisional narrowing, not author-confirmed.",
+      "ओट can be concealment rather than an actual cloth veil. Existing English veil remains provisional; the source does not independently establish an item of clothing."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Woman carries the explicit referent in this couplet, without assigning all couplets one speaker or addressee.",
+    "full_source_target_read": true,
+    "source_sha256": "87d856daa1c557f482db6b3af9d10b052d3084da59268999028f01d3a9aca2a0",
+    "before_sha256": "f68b419071e3e3ca7dd376db97e2a333385b918e734c544455182fc097cd8e39",
+    "after_sha256": "8fd24328e3eac71b8583f5a9c58387ca80e586f0776418917b685a6663317c03",
+    "prior_uncertainties": [
+      {
+        "note": "Eight couplets retained without claiming equivalent doha metre. ରାମା/रामा ambiguity rendered beloved; meaning and whose heart is doubtful require native review. Heer/Ranjha retained.",
+        "record": "kb/production/translations/batch-011/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Couplets That Charm the Heart",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "With your heart so full of love, how do you remain composed?",
+          "Listen, my Ranjha: your Heer is restless."
+        ],
+        [
+          "You dwell in every breath, you fill my eyes;",
+          "now everyone calls me by your name."
+        ],
+        [
+          "From this day I have accepted you as my beloved;",
+          "you walk ahead, your love follows behind."
+        ],
+        [
+          "They seem so profound, like some sacred Veda;",
+          "tell me, how shall one understand the eyes’ secrets?"
+        ],
+        [
+          "The locks lie scattered, they make no adornment;",
+          "tender, golden beloved—how could one not love?"
+        ],
+        [
+          "When eyes meet eyes, a veil slips into place at once.",
+          "Alas! Let the beloved not think there is deceit in my heart."
+        ],
+        [
+          "Now I must speak some stirrings of my mind;",
+          "my heart worships you, helpless and powerless."
+        ],
+        [
+          "I offer my love; please accept it.",
+          "Here and now I have taken you as my own."
+        ],
+        [
+          "∎",
+          "Jamshedpur"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Couplets That Charm the Heart",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "With your heart so full of love, how do you remain composed?",
+          "Listen, my Ranjha: your Heer is restless."
+        ],
+        [
+          "You dwell in every breath, you fill my eyes;",
+          "now everyone calls me by your name."
+        ],
+        [
+          "From this day I have accepted you as my beloved;",
+          "you walk ahead, your love follows behind."
+        ],
+        [
+          "They seem so profound, like some sacred Veda;",
+          "tell me, how shall one understand the eyes’ secrets?"
+        ],
+        [
+          "The locks lie scattered, they make no adornment;",
+          "tender, golden woman—how could one not love?"
+        ],
+        [
+          "When eyes meet eyes, a veil slips into place at once.",
+          "Alas! Let the beloved not think there is deceit in my heart."
+        ],
+        [
+          "Now I must speak some stirrings of my mind;",
+          "my heart worships you, helpless and powerless."
+        ],
+        [
+          "I offer my love; please accept it.",
+          "Here and now I have taken you as my own."
+        ],
+        [
+          "∎",
+          "Jamshedpur"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 768,
+    "target": "or",
+    "reason": "Make a folded ticket distinct from a broken one, and clarify following the loved ones rather than going backward.",
+    "reading_evidence": "Read the complete44-line source and each44-line target: mapping loved shadows/tomorrow; death/train/ticket in another hand; stolen voice/gesture; sand-clock and coin-well; feared hollow rooms and bent days; fragile paper/routes/ink; mortality’s doors/threshold; lasting walls and unread pages; final train/eyelid, maps carrying loved ones where speaker cannot follow and memory room honouring absence. Keep train and death pronoun overlap and map-writing metaphor.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "The added object of following is already them in the preceding source line; no new destination or death order supplied.",
+    "full_source_target_read": true,
+    "source_sha256": "675834d781f6d403edec9fec7cb9a558eb0af7abb3db9357ad98fa34c623f2f4",
+    "before_sha256": "a9b6a5b02411bd76cda8180e13784ef44c4a61f8b25f463d79d2e6bfb0de538c",
+    "after_sha256": "4ab0df49dc721cfbc6c48de0a0c22e04de746e062da8b3bd20ec24ee282dbe64",
+    "prior_uncertainties": [
+      {
+        "note": "All death/train/map imagery retained. Hindi narrator masculine provisional, not a biographical claim.",
+        "record": "kb/production/translations/batch-011/review.json"
+      }
+    ],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଶେଷ ମାନଚିତ୍ରକାର",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୁଁ ସେମାନଙ୍କ ଛାୟାର ଧାର ଆଙ୍କେ,",
+          "ଆସନ୍ତାକାଲିରେ କମ୍ପୁଥିବା କାନ୍ଥରେ,",
+          "ଅପହଞ୍ଚ ସ୍ଥାନର ନକ୍ସା କରେ,",
+          "ସେହି ଫାଙ୍କ ଯେଉଁଠି ଅନୁପସ୍ଥିତି ଆସିପାରେ।",
+          "ମୃତ୍ୟୁ ନୀରବ ରେଳଗାଡ଼ିରେ ଗୁଣୁଗୁଣାଏ,",
+          "ତା' ଟିକେଟ ଆଉ କାହାର ହାତରେ ଭଙ୍ଗା ହୋଇଥାଏ।",
+          "ସେ ଅତି ପାଖରେ ଅଟକେ,",
+          "ଚୋରାଇନିଏ ଏକ ସ୍ୱର, ଏକ ଭଙ୍ଗୀ,",
+          "କେବଳ ଫମ୍ପା ଗୁଞ୍ଜନ ପଛରେ ଛାଡ଼ି।",
+          "ପ୍ରତି ହସ ବାଲିର ଏକ କଣିକା,",
+          "ଏମିତି ଘଣ୍ଟାରୁ ଖସେ, ଯାହାକୁ ମୁଁ ଫେରାଇପାରେନି।",
+          "ପ୍ରତି ଚାହାଣି ଏକ ଭଙ୍ଗୁର ମୁଦ୍ରା,",
+          "କୂଅ ଭିତରେ ଫିଙ୍ଗାଯାଇଥିବା,",
+          "ଯିଏ ହୁଏତ ନୀରବରେ ତାକୁ ଗିଳିନେବ,",
+          "ପ୍ରତିଧ୍ୱନିଙ୍କୁ ଅନ୍ଧାରରେ କମ୍ପିବାକୁ ଛାଡ଼ିଦେବ।",
+          "ମୁଁ ଭୟ କରେ ସେହି ନୀରବତାକୁ,",
+          "ଯାହା ମୋ କୋଠରିମାନଙ୍କୁ ଫମ୍ପା କରିଦେବ,",
+          "ମୋ ପ୍ରିୟଜନଙ୍କ ଧୀରେ ଧୀରେ ଲିଭିଯିବାକୁ,",
+          "ଯେପରି ଗୋଟିଏ ଅନୁପସ୍ଥିତି",
+          "ସବୁ ଦିନର ଆକାର ବଙ୍କାଇଦେଇପାରେ।",
+          "ମୁଁ ସେମାନଙ୍କ ଜୀବନ ଆଙ୍କେ,",
+          "ଭଙ୍ଗୁର କାଗଜର ମାନଚିତ୍ର ପରି,",
+          "ରାସ୍ତା ଓ ଋତୁ ଦେଇ ବୁଲିଯାଉଥିବା ବାଟ,",
+          "ସେହି ବାଟ ଯାହା ହଜିଯାଇପାରେ,",
+          "ରାତିଟିଏର ଆଖିପଲକରେ।",
+          "ପ୍ରତି ରେଖା ମନେ ରଖିବାକୁ ଚାହେଁ,",
+          "ପ୍ରତି ହସ, ପ୍ରତି ଦୀର୍ଘଶ୍ୱାସ,",
+          "କାଳି ଛାୟାରେ ମଳିନ ହେବା ପୂର୍ବରୁ।",
+          "ମରଣଶୀଳତା ଦୁଆରମାନଙ୍କ ଏକ କକ୍ଷ,",
+          "ସବୁକୁ ଏକାଥରେ ଖୋଲିପାରେନି।",
+          "ମୁଁ ଦେହଳିରେ ରହିଯାଏ,",
+          "ସେମାନଙ୍କ ଉପସ୍ଥିତିର ଉଷ୍ମତାକୁ ଜାବୁଡ଼ି,",
+          "ସେମାନଙ୍କ ନକ୍ସା ଲେଖେ,",
+          "ମୋ ପରେ ବି ରହିବା କାନ୍ଥରେ,",
+          "ପ୍ରତି ସେହି ପୃଷ୍ଠା ପାଇଁ, ଯାହାକୁ ହୁଏତ କେବେ ଓଲଟାଇବିନି।",
+          "ଆଉ ଯେବେ ରେଳଗାଡ଼ି ଆସେ,",
+          "ବୁଜି ହେଉଥିବା ପଲକ ପରି ନୀରବ,",
+          "ଆଶା କରେ ମୁଁ ଆଙ୍କିଥିବା ମାନଚିତ୍ର",
+          "ସେମାନଙ୍କୁ ନେଇଯିବାକୁ ଯଥେଷ୍ଟ ହେଉ,",
+          "ସେହି ସ୍ଥାନ ଦେଇ, ଯେଉଁଠି ମୁଁ ପଛେ ଯାଇପାରେନି,",
+          "ଆଉ ସ୍ମୃତି",
+          "କୋଠରିଟିଏ ହେଉ,",
+          "ଯେଉଁଠି ଅନୁପସ୍ଥିତି କେବଳ ଏକ ଆକାର,",
+          "ଯାହାକୁ ଆଦର କରିବା ମୁଁ ଶିଖିଛି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଶେଷ ମାନଚିତ୍ରକାର",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୁଁ ସେମାନଙ୍କ ଛାୟାର ଧାର ଆଙ୍କେ,",
+          "ଆସନ୍ତାକାଲିରେ କମ୍ପୁଥିବା କାନ୍ଥରେ,",
+          "ଅପହଞ୍ଚ ସ୍ଥାନର ନକ୍ସା କରେ,",
+          "ସେହି ଫାଙ୍କ ଯେଉଁଠି ଅନୁପସ୍ଥିତି ଆସିପାରେ।",
+          "ମୃତ୍ୟୁ ନୀରବ ରେଳଗାଡ଼ିରେ ଗୁଣୁଗୁଣାଏ,",
+          "ତା' ଟିକେଟ ଆଉ କାହାର ହାତରେ ଭାଙ୍ଗି ରଖାଯାଇଛି।",
+          "ସେ ଅତି ପାଖରେ ଅଟକେ,",
+          "ଚୋରାଇନିଏ ଏକ ସ୍ୱର, ଏକ ଭଙ୍ଗୀ,",
+          "କେବଳ ଫମ୍ପା ଗୁଞ୍ଜନ ପଛରେ ଛାଡ଼ି।",
+          "ପ୍ରତି ହସ ବାଲିର ଏକ କଣିକା,",
+          "ଏମିତି ଘଣ୍ଟାରୁ ଖସେ, ଯାହାକୁ ମୁଁ ଫେରାଇପାରେନି।",
+          "ପ୍ରତି ଚାହାଣି ଏକ ଭଙ୍ଗୁର ମୁଦ୍ରା,",
+          "କୂଅ ଭିତରେ ଫିଙ୍ଗାଯାଇଥିବା,",
+          "ଯିଏ ହୁଏତ ନୀରବରେ ତାକୁ ଗିଳିନେବ,",
+          "ପ୍ରତିଧ୍ୱନିଙ୍କୁ ଅନ୍ଧାରରେ କମ୍ପିବାକୁ ଛାଡ଼ିଦେବ।",
+          "ମୁଁ ଭୟ କରେ ସେହି ନୀରବତାକୁ,",
+          "ଯାହା ମୋ କୋଠରିମାନଙ୍କୁ ଫମ୍ପା କରିଦେବ,",
+          "ମୋ ପ୍ରିୟଜନଙ୍କ ଧୀରେ ଧୀରେ ଲିଭିଯିବାକୁ,",
+          "ଯେପରି ଗୋଟିଏ ଅନୁପସ୍ଥିତି",
+          "ସବୁ ଦିନର ଆକାର ବଙ୍କାଇଦେଇପାରେ।",
+          "ମୁଁ ସେମାନଙ୍କ ଜୀବନ ଆଙ୍କେ,",
+          "ଭଙ୍ଗୁର କାଗଜର ମାନଚିତ୍ର ପରି,",
+          "ରାସ୍ତା ଓ ଋତୁ ଦେଇ ବୁଲିଯାଉଥିବା ବାଟ,",
+          "ସେହି ବାଟ ଯାହା ହଜିଯାଇପାରେ,",
+          "ରାତିଟିଏର ଆଖିପଲକରେ।",
+          "ପ୍ରତି ରେଖା ମନେ ରଖିବାକୁ ଚାହେଁ,",
+          "ପ୍ରତି ହସ, ପ୍ରତି ଦୀର୍ଘଶ୍ୱାସ,",
+          "କାଳି ଛାୟାରେ ମଳିନ ହେବା ପୂର୍ବରୁ।",
+          "ମରଣଶୀଳତା ଦୁଆରମାନଙ୍କ ଏକ କକ୍ଷ,",
+          "ସବୁକୁ ଏକାଥରେ ଖୋଲିପାରେନି।",
+          "ମୁଁ ଦେହଳିରେ ରହିଯାଏ,",
+          "ସେମାନଙ୍କ ଉପସ୍ଥିତିର ଉଷ୍ମତାକୁ ଜାବୁଡ଼ି,",
+          "ସେମାନଙ୍କ ନକ୍ସା ଲେଖେ,",
+          "ମୋ ପରେ ବି ରହିବା କାନ୍ଥରେ,",
+          "ପ୍ରତି ସେହି ପୃଷ୍ଠା ପାଇଁ, ଯାହାକୁ ହୁଏତ କେବେ ଓଲଟାଇବିନି।",
+          "ଆଉ ଯେବେ ରେଳଗାଡ଼ି ଆସେ,",
+          "ବୁଜି ହେଉଥିବା ପଲକ ପରି ନୀରବ,",
+          "ଆଶା କରେ ମୁଁ ଆଙ୍କିଥିବା ମାନଚିତ୍ର",
+          "ସେମାନଙ୍କୁ ନେଇଯିବାକୁ ଯଥେଷ୍ଟ ହେଉ,",
+          "ସେହି ସ୍ଥାନ ଦେଇ, ଯେଉଁଠି ମୁଁ ସେମାନଙ୍କ ପଛେ ଯାଇପାରେନି,",
+          "ଆଉ ସ୍ମୃତି",
+          "କୋଠରିଟିଏ ହେଉ,",
+          "ଯେଉଁଠି ଅନୁପସ୍ଥିତି କେବଳ ଏକ ଆକାର,",
+          "ଯାହାକୁ ଆଦର କରିବା ମୁଁ ଶିଖିଛି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 768,
+    "target": "hi",
+    "reason": "Clarify the object of cannot follow so पीछे does not merely mean going backward.",
+    "reading_evidence": "Read the complete44-line source and each44-line target: mapping loved shadows/tomorrow; death/train/ticket in another hand; stolen voice/gesture; sand-clock and coin-well; feared hollow rooms and bent days; fragile paper/routes/ink; mortality’s doors/threshold; lasting walls and unread pages; final train/eyelid, maps carrying loved ones where speaker cannot follow and memory room honouring absence. Keep train and death pronoun overlap and map-writing metaphor.",
+    "open_questions": [
+      "Hindi masculine narrator remains provisional; source I does not establish gender."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Their follows the immediately preceding them. Preserve absence as a shape honoured, rather than promise reunion.",
+    "full_source_target_read": true,
+    "source_sha256": "675834d781f6d403edec9fec7cb9a558eb0af7abb3db9357ad98fa34c623f2f4",
+    "before_sha256": "b04314f45a1efaaf9f9423e19820e47cdf7264c79dd416d065785cac116deddf",
+    "after_sha256": "bb8cb56c0ae33d9790bd4d717f3d1ce7a3bbe16b406db9a0bf6638e3252edff3",
+    "prior_uncertainties": [
+      {
+        "note": "All death/train/map imagery retained. Hindi narrator masculine provisional, not a biographical claim.",
+        "record": "kb/production/translations/batch-011/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "आख़िरी मानचित्रकार",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैं उनकी परछाइयों के किनारे उकेरता हूँ,",
+          "कल से काँपती दीवारों पर,",
+          "उन जगहों के नक़्शे बनाता हूँ जहाँ पहुँच नहीं सकता,",
+          "वे रिक्तियाँ जहाँ अनुपस्थिति आ सकती है।",
+          "मृत्यु एक शांत रेलगाड़ी में गुनगुनाती है,",
+          "उसका टिकट किसी और के हाथ में तह किया हुआ।",
+          "वह बहुत पास रुकती है,",
+          "चुरा लेती है एक आवाज़, एक भंगिमा,",
+          "पीछे बस खोखली गुनगुनाहट छोड़कर।",
+          "हर हँसी रेत का एक कण है,",
+          "उस घड़ी से फिसलता जिसे मैं पीछे नहीं मोड़ सकता।",
+          "हर नज़र एक नाज़ुक सिक्का है,",
+          "कुएँ में उछाला हुआ,",
+          "जो शायद उसे चुपचाप निगल जाए,",
+          "प्रतिध्वनियाँ अँधेरे में काँपने को छोड़ दे।",
+          "मुझे उस मौन से डर लगता है,",
+          "जो मेरे कमरों को खोखला कर देगा,",
+          "अपने प्रिय लोगों के धीरे-धीरे मिटने से,",
+          "इस बात से कि एक अनुपस्थिति",
+          "सभी दिनों का आकार मोड़ सकती है।",
+          "मैं उनके जीवन उकेरता हूँ,",
+          "नाज़ुक काग़ज़ पर बने नक़्शों की तरह,",
+          "गलियों और ऋतुओं से गुज़रते रास्ते,",
+          "वे रास्ते जो मिट सकते हैं,",
+          "एक रात के पलक झपकते ही।",
+          "मैं हर रेखा याद कर लेना चाहता हूँ,",
+          "हर हँसी, हर आह,",
+          "स्याही के परछाइयों में धुँधलाने से पहले।",
+          "नश्वरता दरवाज़ों का एक कक्ष है,",
+          "जिन्हें एक साथ नहीं खोल सकता।",
+          "मैं देहरी पर ठहरा रहता हूँ,",
+          "उनकी उपस्थिति की गर्माहट से चिपका,",
+          "उनके नक़्शे लिखता हुआ,",
+          "उन दीवारों पर जो मेरे बाद भी रहेंगी,",
+          "हर उस पन्ने के लिए जिसे शायद मैं कभी न पलट सकूँ।",
+          "और जब रेलगाड़ी आए,",
+          "बंद होती पलक जैसी शांत,",
+          "मुझे आशा है कि बनाए हुए मेरे नक़्शे",
+          "उन्हें ले जाने के लिए काफ़ी हों,",
+          "उन जगहों के पार जहाँ मैं पीछे नहीं जा सकता,",
+          "और स्मृति",
+          "एक कमरा बन जाए,",
+          "जहाँ अनुपस्थिति केवल एक आकार हो,",
+          "जिसका सम्मान करना मैंने सीख लिया है।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "आख़िरी मानचित्रकार",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैं उनकी परछाइयों के किनारे उकेरता हूँ,",
+          "कल से काँपती दीवारों पर,",
+          "उन जगहों के नक़्शे बनाता हूँ जहाँ पहुँच नहीं सकता,",
+          "वे रिक्तियाँ जहाँ अनुपस्थिति आ सकती है।",
+          "मृत्यु एक शांत रेलगाड़ी में गुनगुनाती है,",
+          "उसका टिकट किसी और के हाथ में तह किया हुआ।",
+          "वह बहुत पास रुकती है,",
+          "चुरा लेती है एक आवाज़, एक भंगिमा,",
+          "पीछे बस खोखली गुनगुनाहट छोड़कर।",
+          "हर हँसी रेत का एक कण है,",
+          "उस घड़ी से फिसलता जिसे मैं पीछे नहीं मोड़ सकता।",
+          "हर नज़र एक नाज़ुक सिक्का है,",
+          "कुएँ में उछाला हुआ,",
+          "जो शायद उसे चुपचाप निगल जाए,",
+          "प्रतिध्वनियाँ अँधेरे में काँपने को छोड़ दे।",
+          "मुझे उस मौन से डर लगता है,",
+          "जो मेरे कमरों को खोखला कर देगा,",
+          "अपने प्रिय लोगों के धीरे-धीरे मिटने से,",
+          "इस बात से कि एक अनुपस्थिति",
+          "सभी दिनों का आकार मोड़ सकती है।",
+          "मैं उनके जीवन उकेरता हूँ,",
+          "नाज़ुक काग़ज़ पर बने नक़्शों की तरह,",
+          "गलियों और ऋतुओं से गुज़रते रास्ते,",
+          "वे रास्ते जो मिट सकते हैं,",
+          "एक रात के पलक झपकते ही।",
+          "मैं हर रेखा याद कर लेना चाहता हूँ,",
+          "हर हँसी, हर आह,",
+          "स्याही के परछाइयों में धुँधलाने से पहले।",
+          "नश्वरता दरवाज़ों का एक कक्ष है,",
+          "जिन्हें एक साथ नहीं खोल सकता।",
+          "मैं देहरी पर ठहरा रहता हूँ,",
+          "उनकी उपस्थिति की गर्माहट से चिपका,",
+          "उनके नक़्शे लिखता हुआ,",
+          "उन दीवारों पर जो मेरे बाद भी रहेंगी,",
+          "हर उस पन्ने के लिए जिसे शायद मैं कभी न पलट सकूँ।",
+          "और जब रेलगाड़ी आए,",
+          "बंद होती पलक जैसी शांत,",
+          "मुझे आशा है कि बनाए हुए मेरे नक़्शे",
+          "उन्हें ले जाने के लिए काफ़ी हों,",
+          "उन जगहों के पार जहाँ मैं उनके पीछे नहीं जा सकता,",
+          "और स्मृति",
+          "एक कमरा बन जाए,",
+          "जहाँ अनुपस्थिति केवल एक आकार हो,",
+          "जिसका सम्मान करना मैंने सीख लिया है।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

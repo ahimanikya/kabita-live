@@ -45,6 +45,28 @@ class SocialMetadataTests(unittest.TestCase):
         self.assertEqual(once,twice);self.assertEqual(once.count('property="og:image"'),1)
         self.assertIn('&quot;poem&quot; &amp; &lt;rain&gt;',once);self.assertIn('noindex,nofollow',once)
         self.assertIn('<body>Original verse</body>',once)
+    def test_alias_canonical_preserved_once_and_injection_idempotent(self):
+        with TemporaryDirectory() as tmp:
+            root=Path(tmp);(root/'assets/home').mkdir(parents=True)
+            (root/'assets/home/life-after-rain-poetic-natural.webp').write_bytes(b'art')
+            text='<head><title>Alias</title><link rel="canonical" href="poet-192.html"></head>'
+            (root/'poet-224.html').write_text(text)
+            entry=prepare(root,['poet-224.html'],{})['poet-224.html']
+            self.assertEqual(entry['canonical_url'],'https://ahimanikya.github.io/kabita-live/poet-192.html')
+            once=inject(text,entry)
+            self.assertEqual(once,inject(once,entry))
+            self.assertEqual(once.count('rel="canonical"'),1)
+            self.assertIn('href="'+entry['canonical_url']+'"',once)
+            self.assertEqual(entry['url'],'https://ahimanikya.github.io/kabita-live/poet-224.html')
+
+    def test_external_source_canonical_rejected(self):
+        with TemporaryDirectory() as tmp:
+            root=Path(tmp);(root/'assets/home').mkdir(parents=True)
+            (root/'assets/home/life-after-rain-poetic-natural.webp').write_bytes(b'art')
+            (root/'contact.html').write_text('<head><link rel="canonical" href="https://elsewhere.test/"></head>')
+            with self.assertRaisesRegex(ValueError,'Invalid source canonical'):
+                prepare(root,['contact.html'],{})
+
     def test_changed_source_changes_cache_key(self):
         with TemporaryDirectory() as tmp:
             root=Path(tmp);(root/'assets').mkdir(); source=root/'assets/art.png'; source.write_bytes(b'original')

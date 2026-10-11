@@ -1,0 +1,241 @@
+{
+  "recorded_at": "2026-10-05T15:24:39.822743+00:00",
+  "poem_ids": [
+    560,
+    564,
+    572,
+    553,
+    562
+  ],
+  "variants_read": 10,
+  "variants_changed": 7,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 560,
+      "target": "en",
+      "reading_evidence": "Complete source and target read: ancestor/banyan/star, sun-rain presence, evening tobacco and remembering, kurei/dhangdi/dhangda/salap, leopard eyes, Sarhul/moon/aged cheek, Naxalite boots, rain-paddy tears, tangled life/hunts, clothes and tribute parenthesis.",
+      "reason": "Remove dangling chewing modifier: the remembering we already present in the poem chew after work; he is the one remembered.",
+      "open_questions": [
+        "Prior holds: damaged tribute parenthesis; youth-house interpretation; kurei/salap/dhangdi/dhangda/Sarhul cultural terms; unusual aged-cheek/sour-mango and medium-ironed images. No event verification or new cultural identity."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+      "full_source_target_read": true,
+      "source_sha256": "071385157afa781903134c61ee96119fb94556a41033063b0a3caaa3d26e92a0",
+      "before_sha256": "65f09f3e2200cffc9d5215e489faef1bcc1bd3fb8c935cbe889ceb232728cbcd",
+      "after_sha256": "106c8e788bdff8baf6e5ffbd4677750102c37f96e9fbdf4f0d8c1e665ce1af24",
+      "prior_uncertainties": [
+        {
+          "note": "Damaged final parenthesis read contextually as tribute to Ramakanta Rath; source unchanged. Dhangdi/dhangda, salap, kurei and Sarhul retained; youth-house interpretation provisional. Mature cheek / dried sour mango and medium-ironed clothes are unusual imagery retained. Naxalite boot image not converted to verified event.",
+          "record": "kb/production/translations/batch-055/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 560,
+      "target": "hi",
+      "reading_evidence": "Complete source and target read: ancestor/banyan/star, sun-rain presence, evening tobacco and remembering, kurei/dhangdi/dhangda/salap, leopard eyes, Sarhul/moon/aged cheek, Naxalite boots, rain-paddy tears, tangled life/hunts, clothes and tribute parenthesis.",
+      "reason": "Retain: the memorial chain and Hindi recollection syntax remain intelligible; do not normalize the unusual clothes or mango image.",
+      "open_questions": [
+        "Prior holds: damaged tribute parenthesis; youth-house interpretation; kurei/salap/dhangdi/dhangda/Sarhul cultural terms; unusual aged-cheek/sour-mango and medium-ironed images. No event verification or new cultural identity."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+      "full_source_target_read": true,
+      "source_sha256": "071385157afa781903134c61ee96119fb94556a41033063b0a3caaa3d26e92a0",
+      "before_sha256": "dedda4eb8549d271c644158903e3280f6bdab9a142463111e616d7b825edc152",
+      "after_sha256": "dedda4eb8549d271c644158903e3280f6bdab9a142463111e616d7b825edc152",
+      "prior_uncertainties": [
+        {
+          "note": "Damaged final parenthesis read contextually as tribute to Ramakanta Rath; source unchanged. Dhangdi/dhangda, salap, kurei and Sarhul retained; youth-house interpretation provisional. Mature cheek / dried sour mango and medium-ironed clothes are unusual imagery retained. Naxalite boot image not converted to verified event.",
+          "record": "kb/production/translations/batch-055/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 564,
+      "target": "en",
+      "reading_evidence": "Read complete forty-line source and target: empty night/bombs/flame embers, smoky sky/destruction dance, curfew/innocents/gods/skeleton throne, missing ship, dreams/dead eyes, migrating bird/peace/borders, grieving mother/womb and trembling earth/bhuma.",
+      "reason": "Make the border relation idiomatic: the bird is not stopped by the sky’s boundaries, rather than being forbidden an awkward noun phrase.",
+      "open_questions": [
+        "Bhuma remains provisionally vastness; no named war or location inferred."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+      "full_source_target_read": true,
+      "source_sha256": "6fb70d271bfca5f7a738ed5d326b0301692fa1cdbfab2e6e166e94b0b483a6ac",
+      "before_sha256": "ab1ceb461d4e0b50c9cf23a411fdc17df67920426ca922fa7575cf5d75c091cc",
+      "after_sha256": "221875ea5d6b95c40dc66a557e6178ad09f923fd7b3be4e73c6d292f4d6d7403",
+      "prior_uncertainties": [
+        {
+          "note": "Forty-line stanza retained. Bhuma provisionally vastness; no named war or location added.",
+          "record": "kb/production/translations/batch-055/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 564,
+      "target": "hi",
+      "reading_evidence": "Read complete forty-line source and target: empty night/bombs/flame embers, smoky sky/destruction dance, curfew/innocents/gods/skeleton throne, missing ship, dreams/dead eyes, migrating bird/peace/borders, grieving mother/womb and trembling earth/bhuma.",
+      "reason": "Replace the incomplete prohibition construction with a clear bird/border relation while keeping the two verse lines.",
+      "open_questions": [
+        "Bhuma remains provisionally vastness; no named war or location inferred."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+      "full_source_target_read": true,
+      "source_sha256": "6fb70d271bfca5f7a738ed5d326b0301692fa1cdbfab2e6e166e94b0b483a6ac",
+      "before_sha256": "c391bf359cbc69d74f56b7128452d0f0f5703d445bf1993bca4482c8d763a9bc",
+      "after_sha256": "2f6103fd13fe59dd3e4f17b21d77885f3b5e7e846ec8798df469ac0fab10bac5",
+      "prior_uncertainties": [
+        {
+          "note": "Forty-line stanza retained. Bhuma provisionally vastness; no named war or location added.",
+          "record": "kb/production/translations/batch-055/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 572,
+      "target": "en",
+      "reading_evidence": "Full five-stanza reading: catastrophe/earth opening/conditional fallen sky, silent celestial bodies, earth becoming desert, turbulent sea/millions of homes/pity, unbearable violence and earth’s lost endurance, freedom taken away, silent addressee’s power, raised hand against boundless lifeless emptiness.",
+      "reason": "Complete stop-earth-from construction so the prevented event is its destruction/desertification, not the earth itself being halted.",
+      "open_questions": [
+        "Opening if-not conditional is unfinished; preserve rather than supply its missing condition. Sea-wave stanza is syntactically fragmentary; current relation and cry of pity stay provisional. Final you is not assigned a named deity or person."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+      "full_source_target_read": true,
+      "source_sha256": "657a5248b7a5d5e9fa211c136c2730cebace73e1ab3cfeafabbc26af7d27f1c2",
+      "before_sha256": "51b11e26d94c0473801b3dfbe9f7c72db60f4b3cc2b06aa84547733c89205458",
+      "after_sha256": "fce2c594bd51f45ba3538877340c78c3c27e7080a5fa43e3eee534e4089fb600",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 572,
+      "target": "hi",
+      "reading_evidence": "Full five-stanza reading: catastrophe/earth opening/conditional fallen sky, silent celestial bodies, earth becoming desert, turbulent sea/millions of homes/pity, unbearable violence and earth’s lost endurance, freedom taken away, silent addressee’s power, raised hand against boundless lifeless emptiness.",
+      "reason": "Use natural save-from syntax to clarify prevention of the earth’s ruin; keep the source’s repeated closing call to stop it.",
+      "open_questions": [
+        "Opening if-not conditional is unfinished; preserve rather than supply its missing condition. Sea-wave stanza is syntactically fragmentary; current relation and cry of pity stay provisional. Final you is not assigned a named deity or person."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+      "full_source_target_read": true,
+      "source_sha256": "657a5248b7a5d5e9fa211c136c2730cebace73e1ab3cfeafabbc26af7d27f1c2",
+      "before_sha256": "0c8c84a02b4e102491978b974a30af8d6c3f3f198d01ae6e2e911d54828cf0be",
+      "after_sha256": "d0a0089858dba4eead951b5220db2f53ced4c09bcf19bf5cf52dcc20bbb143a0",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 553,
+      "target": "en",
+      "reading_evidence": "All seven stanzas and Jamshedpur tail read: morning rush/oversleep/self-reproach, crease/cobweb/tea, self-examining and reviewing, boiled-down milk/spicy food/fuss, new alternative, becoming examinee/examiner/reviewer and carefree living.",
+      "reason": "Taking an examination is the source action, not setting one. Clarify the later three roles without the incomplete become-my-own phrase.",
+      "open_questions": [
+        "Jhala/cobweb and food jhal/spicy remain regional readings; the colloquial fuss line remains potentially questioning or resigned. No invented household conflict."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+      "full_source_target_read": true,
+      "source_sha256": "ce4eafb883663f4f235d9f5fab76b335c8bbd523548d8dc324c042bbad5f4dd3",
+      "before_sha256": "60a9693356c4e835cad5d9c15bdea5e96990a13311309f6b3cdee9f04334361f",
+      "after_sha256": "849360709f8ed89ee8d6a4a5c40748690902cdd6c5b26d4280266a9802ad1365",
+      "prior_uncertainties": [
+        {
+          "note": "Jhala provisionally cobweb, jhal in food spicy; regional ambiguity flagged. Khoa retained as reduced milk. Colloquial self-address retained.",
+          "record": "kb/production/translations/batch-055/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 553,
+      "target": "or",
+      "reading_evidence": "All seven stanzas and Jamshedpur tail read: morning rush/oversleep/self-reproach, crease/cobweb/tea, self-examining and reviewing, boiled-down milk/spicy food/fuss, new alternative, becoming examinee/examiner/reviewer and carefree living.",
+      "reason": "Retain: taking examinations and the later self-evaluation roles already work in Odia; domestic humour and colloquial self-address survive.",
+      "open_questions": [
+        "Jhala/cobweb and food jhal/spicy remain regional readings; the colloquial fuss line remains potentially questioning or resigned. No invented household conflict."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+      "full_source_target_read": true,
+      "source_sha256": "ce4eafb883663f4f235d9f5fab76b335c8bbd523548d8dc324c042bbad5f4dd3",
+      "before_sha256": "107c3dd42200f8c54a9d69daf923147c1e57ea786b0da4cbaa0bd6d688926c26",
+      "after_sha256": "107c3dd42200f8c54a9d69daf923147c1e57ea786b0da4cbaa0bd6d688926c26",
+      "prior_uncertainties": [
+        {
+          "note": "Jhala provisionally cobweb, jhal in food spicy; regional ambiguity flagged. Khoa retained as reduced milk. Colloquial self-address retained.",
+          "record": "kb/production/translations/batch-055/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 562,
+      "target": "en",
+      "reading_evidence": "Complete continuous source and target plus tail: couple building home/dreams, pregnancy and kicks/sleeplessness, joyful birth/tiny fingers, growing child/steps, hopes of progress, departure and swallowed tears, promised return/settling far away, breaking dream and silent parents still dreaming of return.",
+      "reason": "Unfold the fronted finger-object into readable English and render bas as the limiting contrast with everything else unchanged, rather than an isolated exclamation.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+      "full_source_target_read": true,
+      "source_sha256": "95cd475cf305a7a96fbd6e775d0c7a0f2abb5a6912bbaf03aeff63a38497eb30",
+      "before_sha256": "4d477c38372801ed0cc4ebf15754d46ece8050f306b1a0f25a3d7e80d80585eb",
+      "after_sha256": "193a78800ceea5aaaffcc7469ba9bdd288e1ace58d451c826d6c1d886ba6438e",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 562,
+      "target": "or",
+      "reading_evidence": "Complete continuous source and target plus tail: couple building home/dreams, pregnancy and kicks/sleeplessness, joyful birth/tiny fingers, growing child/steps, hopes of progress, departure and swallowed tears, promised return/settling far away, breaking dream and silent parents still dreaming of return.",
+      "reason": "Retain: clear family actions, departure/progress contrast, repeated dream image and final wait; no need for additional gender or migration detail.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+      "full_source_target_read": true,
+      "source_sha256": "95cd475cf305a7a96fbd6e775d0c7a0f2abb5a6912bbaf03aeff63a38497eb30",
+      "before_sha256": "e14860e0de587205dbba10f7f5a95cff2ac9ddd2836ef51b0987b79d102a0437",
+      "after_sha256": "e14860e0de587205dbba10f7f5a95cff2ac9ddd2836ef51b0987b79d102a0437",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

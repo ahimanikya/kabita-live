@@ -1,0 +1,145 @@
+{
+  "recorded_at": "2026-10-06T03:03:17.523898+00:00",
+  "poem_ids": [
+    235,
+    236,
+    240
+  ],
+  "variants_read": 6,
+  "variants_changed": 2,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 235,
+      "target": "hi",
+      "reading_evidence": "Read full25-line source and both targets in23/2 blocks: initial apparent solace/sun/church bells, discovery of inward chaos and deaths at sunset/sunrise, blossoms/pallor and horizon realisation, unyielding storm/bud destruction/uprooted trees/wailed branches, empathic numbness and deja-vu of violated modesty/victim-blaming, woman and valley as seasonal cocktail followed by autumn/spring and repeated life swings. Preserved woman-valley parallel, violence and accusatory attribution without adding perpetrators, dates or biographical claims.",
+      "open_questions": [
+        "She may be a woman, personified region, or both; no single identity imposed.",
+        "Dejavu comparison and seasonal cocktail are source metaphors, not evidence of a named event or a claim of inevitable recovery."
+      ],
+      "reason": "Retain complete violence/landscape parallel and source euphemism; keep explicit blaming of the victim separate from the translators stance.",
+      "tradeoff": "Keep source emotional force and stated images without explaining trauma or supplying biography. Exact before/after drafts retained; same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "76325fd3047541e65cf7faf06518f56a50b22b3263ad1408162097f9713fdb30",
+      "before_sha256": "3f0495026f689f38623882695b51cf554bb545b93e2cf02c57c238fc7f029908",
+      "after_sha256": "3f0495026f689f38623882695b51cf554bb545b93e2cf02c57c238fc7f029908",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 235,
+      "target": "or",
+      "reading_evidence": "Read full25-line source and both targets in23/2 blocks: initial apparent solace/sun/church bells, discovery of inward chaos and deaths at sunset/sunrise, blossoms/pallor and horizon realisation, unyielding storm/bud destruction/uprooted trees/wailed branches, empathic numbness and deja-vu of violated modesty/victim-blaming, woman and valley as seasonal cocktail followed by autumn/spring and repeated life swings. Preserved woman-valley parallel, violence and accusatory attribution without adding perpetrators, dates or biographical claims.",
+      "open_questions": [
+        "She may be a woman, personified region, or both; no single identity imposed.",
+        "Dejavu comparison and seasonal cocktail are source metaphors, not evidence of a named event or a claim of inevitable recovery."
+      ],
+      "reason": "Use the contextual violation-of-modesty idiom rather than wording that can read as taking away embarrassment; retain the following victim-blaming line without new graphic detail.",
+      "tradeoff": "Keep source emotional force and stated images without explaining trauma or supplying biography. Exact before/after drafts retained; same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "76325fd3047541e65cf7faf06518f56a50b22b3263ad1408162097f9713fdb30",
+      "before_sha256": "c870a660cf0eb68e2d7b65ff6a42f8fa7721456925ad4a0c22950044e66eff0f",
+      "after_sha256": "8c39b9c030652423068acb992e835d5eae71be1b941667e72295cd77df8195b0",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 236,
+      "target": "hi",
+      "reading_evidence": "Read full12-line source and both targets in5/4/3 blocks: sought gratitude word, spring change then past fell-in-love with others/self, direct Sun address/touch/protector/heat power, future world change conditional on people becoming generous as Sun. Checked source present-to-past shift and grammatical sun gender separately from narrator; no gender in English source.",
+      "open_questions": [],
+      "reason": "Remove avoidable feminine narrator assumptions using natural first-person experiencer clauses; preserve source tense shifts and Sun protector/generosity sequence. Prior narrator-gender hold resolved for these two clauses.",
+      "tradeoff": "Keep source emotional force and stated images without explaining trauma or supplying biography. Exact before/after drafts retained; same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1fd79a09799ef9b53ebf3d91b0989f7f4bcc3faa7933d0b0fd3fcff160c36d41",
+      "before_sha256": "9f7a917c0f3d525f9da49a66ff4639988f6e130d0224b8541f0d2d21044617ac",
+      "after_sha256": "7768179a2b7f778a1f94142191f0fb835169eaa9fa3b8ad97b7d0d0aa671d063",
+      "prior_uncertainties": [
+        {
+          "note": "Blocks [5,4,3] retained. Source shifts present change to past fell-in-love, retained in targets; Hindi feminine narrator provisional.",
+          "record": "kb/production/translations/batch-132/review.json"
+        }
+      ],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 236,
+      "target": "or",
+      "reading_evidence": "Read full12-line source and both targets in5/4/3 blocks: sought gratitude word, spring change then past fell-in-love with others/self, direct Sun address/touch/protector/heat power, future world change conditional on people becoming generous as Sun. Checked source present-to-past shift and grammatical sun gender separately from narrator; no gender in English source.",
+      "open_questions": [],
+      "reason": "Retain already gender-neutral narrator and source present/past/future sequence, bodily warmth and generosity analogy.",
+      "tradeoff": "Keep source emotional force and stated images without explaining trauma or supplying biography. Exact before/after drafts retained; same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1fd79a09799ef9b53ebf3d91b0989f7f4bcc3faa7933d0b0fd3fcff160c36d41",
+      "before_sha256": "2bbcb75a38929dd6e2265a4ad10a1f65c45d8471791a6c453ca2a4b60b7881d6",
+      "after_sha256": "2bbcb75a38929dd6e2265a4ad10a1f65c45d8471791a6c453ca2a4b60b7881d6",
+      "prior_uncertainties": [
+        {
+          "note": "Blocks [5,4,3] retained. Source shifts present change to past fell-in-love, retained in targets; Hindi feminine narrator provisional.",
+          "record": "kb/production/translations/batch-132/review.json"
+        }
+      ],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 240,
+      "target": "or",
+      "reading_evidence": "Read all26 source lines and both targets: fifty-eight years and catalogue of bodily/emotional burdens, bending/cooling body, life stories/delicate interrupted midnight dreams/pillow tears/beautiful-unlovely/coloured-black-white reality, body asking morning light for relief, sleepless asthma/cold night and Lord plea, eight months private loss that burns everything, unexpected request for equal adversary ready to carry burden above life, repeated body weight and friendless-sad-cheerless isolation. Retained explicit female subject, male adversary, both quantities and abrupt emotional request.",
+      "open_questions": [
+        "Boons in bodily list may be intentional or a damaged bones reading; original and current blessing equivalents remain unchanged pending source confirmation.",
+        "Adversary is explicit; do not silently turn him into a friend, partner or helper even though carrying burden seems supportive.",
+        "Above life and private loss remain unresolved metaphors, without an invented death wish, diagnosis beyond source, or identity of the lost person."
+      ],
+      "reason": "Retain full bodily/grief sequence, explicit quantities and counterintuitive adversary request; record source questions rather than inventing a consoling resolution.",
+      "tradeoff": "Keep source emotional force and stated images without explaining trauma or supplying biography. Exact before/after drafts retained; same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "ed69295705ef6644d471f324d60a195eb91e72430cde81a128c0f47df46884ba",
+      "before_sha256": "8b7e56fe6da1d22e8c9a13feed509af9f2941e42917bc68a6c50e70691d4cd82",
+      "after_sha256": "8b7e56fe6da1d22e8c9a13feed509af9f2941e42917bc68a6c50e70691d4cd82",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 240,
+      "target": "hi",
+      "reading_evidence": "Read all26 source lines and both targets: fifty-eight years and catalogue of bodily/emotional burdens, bending/cooling body, life stories/delicate interrupted midnight dreams/pillow tears/beautiful-unlovely/coloured-black-white reality, body asking morning light for relief, sleepless asthma/cold night and Lord plea, eight months private loss that burns everything, unexpected request for equal adversary ready to carry burden above life, repeated body weight and friendless-sad-cheerless isolation. Retained explicit female subject, male adversary, both quantities and abrupt emotional request.",
+      "open_questions": [
+        "Boons in bodily list may be intentional or a damaged bones reading; original and current blessing equivalents remain unchanged pending source confirmation.",
+        "Adversary is explicit; do not silently turn him into a friend, partner or helper even though carrying burden seems supportive.",
+        "Above life and private loss remain unresolved metaphors, without an invented death wish, diagnosis beyond source, or identity of the lost person."
+      ],
+      "reason": "Retain full bodily/grief sequence, explicit quantities and counterintuitive adversary request; record source questions rather than inventing a consoling resolution.",
+      "tradeoff": "Keep source emotional force and stated images without explaining trauma or supplying biography. Exact before/after drafts retained; same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "ed69295705ef6644d471f324d60a195eb91e72430cde81a128c0f47df46884ba",
+      "before_sha256": "617be882fe47521c5ead9fc3f34fdaa38c5a61e0298abde0ce31bd2578c2a11f",
+      "after_sha256": "617be882fe47521c5ead9fc3f34fdaa38c5a61e0298abde0ce31bd2578c2a11f",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

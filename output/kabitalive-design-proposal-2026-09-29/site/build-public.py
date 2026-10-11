@@ -1,3 +1,4 @@
+from analytics_catalogue import analytics_catalogue
 """Select only public reader pages/assets for Astro; never export the project KB."""
 import argparse,json,re,shutil,os,html as html_lib
 from pathlib import Path
@@ -5,6 +6,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 from social_metadata import prepare, inject, robots_text, public_base
 from discovery import enrich, write_discovery
+from service_assets import service_assets
 
 root=Path(__file__).resolve().parent
 parser=argparse.ArgumentParser(description=__doc__)
@@ -38,12 +40,20 @@ for name in pages:
         raise SystemExit('Old-site dependency in '+name)
     Links().feed(html)
 
+# A split service candidate supplies an exact hash-checked graph, never a broad directory copy.
+validated_services=service_assets(root)
 assets={'assets/app.js','assets/analytics.js','assets/private-feedback.js','assets/poem-marks.mjs','runtime-config.json'}
+assets.update(validated_services)
 assets.update(str(p.relative_to(root)) for p in (root/'assets/fonts').glob('*-OFL.txt'))
 assets.update(str(p.relative_to(root)) for p in (root/'assets/reading-editions').glob('issue-*.json'))
 assets.add('assets/reading-library.json')
 assets.add('assets/reading-all.json')
 assets.add('assets/reader-pagination.mjs')
+assets.add('assets/utkal-reader/pagination.mjs')
+assets.add('assets/shared-reader-storage.mjs')
+assets.add('assets/shared-reader-collections.mjs')
+assets.update('assets/utkal-reader/'+name for name in ['anchors.mjs','graph.mjs','loader.mjs'])
+assets.add('assets/utkal-reader/storage.mjs')
 # Homepage views are loaded on demand, not all referenced by image markup.
 for view in json.loads((root/'data/home-views.json').read_text()):
     assets.update([view['src'],view['small']])
@@ -90,7 +100,11 @@ discoverable={}
 discovery_enabled=args.discoverable or args.release
 discovery_policy=json.loads((root/'data/discovery.json').read_text())
 for name in pages:
-    html=inject((root/name).read_text(),social[name]).replace('<main id="main"','<main data-pagefind-body id="main"',1)
+    html=inject((root/name).read_text(),social[name])
+    if name=='translation-review.html':
+        html=html.replace('<html ', '<html data-pagefind-ignore="all" ',1)
+    else:
+        html=html.replace('<main id="main"','<main data-pagefind-body id="main"',1)
     html,indexable=enrich(html,name,social[name],status,discovery_enabled)
     if indexable: discoverable[name]=social[name]
     if indexable and name=='index.html' and discovery_policy.get('googleSiteVerification'):
@@ -104,9 +118,10 @@ runtime=json.loads((root/'runtime-config.json').read_text())
 base='/' + os.environ.get('SITE_BASE','').strip('/')
 if not base.endswith('/'):base+='/'
 runtime['analytics']['basePath']=base
+runtime['analytics']['catalogue']=analytics_catalogue(root,[p for p in pages if p!='translation-review.html'])
 runtime['analytics']['publicPages']={}
 for name in pages:
-    if name in {'404.html','search.html'}:continue
+    if name in {'404.html','search.html','translation-review.html'}:continue
     title=re.search(r'<title>(.*?)</title>',(root/name).read_text(),re.S)
     if title:
         runtime['analytics']['publicPages'][base+name]=html_lib.unescape(title.group(1)).strip()

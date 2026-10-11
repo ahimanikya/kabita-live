@@ -1,0 +1,227 @@
+{
+  "recorded_at": "2026-10-05T13:38:14.353762+00:00",
+  "poem_ids": [
+    658,
+    659,
+    660,
+    667,
+    656
+  ],
+  "variants_read": 10,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 658,
+      "target": "en",
+      "reading_evidence": "Read full Hindi source and both complete targets/title and Jamshedpur/Jharkhand tail: complementary woman/man and greater strength; seed/ten-month nurturing/beauty impaired versus maternal joy; birth pain forgotten at child’s face; strength bound by tenderness and lost all for family; witch/barren/dowry/womb violence; rights and shoulder/step equality; bangled cradle hands able to lift sword. The source’s essentialist maternal claims and ten months are poetic assertions, neither endorsed nor medically corrected.",
+      "reason": "Restore the negative force of बिगड़ rather than neutral bodily alteration.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserves the source speaker’s value judgement without adding a translator’s endorsement or stronger destruction claim.",
+      "full_source_target_read": true,
+      "source_sha256": "fe8daaf78288a54868a34802e187d41f3aea601e0fca6570dd826d3a6922cc2b",
+      "before_sha256": "c914b42e1fae266e36347372113286885b156794623e106ffe1dae57ace76723",
+      "after_sha256": "91a61331d96f6bec8e504e022ae98021302aa467a15272f56b20fae3a2d2470d",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 658,
+      "target": "or",
+      "reading_evidence": "Read full Hindi source and both complete targets/title and Jamshedpur/Jharkhand tail: complementary woman/man and greater strength; seed/ten-month nurturing/beauty impaired versus maternal joy; birth pain forgotten at child’s face; strength bound by tenderness and lost all for family; witch/barren/dowry/womb violence; rights and shoulder/step equality; bangled cradle hands able to lift sword. The source’s essentialist maternal claims and ten months are poetic assertions, neither endorsed nor medically corrected.",
+      "reason": "Restore the source’s adverse change rather than neutral change in appearance.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Keeps the source speaker’s judgement, ten-month image and contrast with maternal joy; no factual revision or moral gloss.",
+      "full_source_target_read": true,
+      "source_sha256": "fe8daaf78288a54868a34802e187d41f3aea601e0fca6570dd826d3a6922cc2b",
+      "before_sha256": "aad811a9ca7f20e887e9401cb422086f3b660180c259bdf9bc0cc0512266891b",
+      "after_sha256": "b590c5378816b4fa3b6b4a2ba6a1f80cd11c2a47ca5f7d0d28c61cf1894052f7",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 659,
+      "target": "or",
+      "reading_evidence": "Read full Hindi source and both targets/title and Jamshedpur tail: memories through eternity/every moment and breath; tender schooldays/notebooks/sharpener circular shavings/peepal leaves/feathers/rose petals revived by touch; lightning fear/laughter and reported cow-dung-to-gold childhood belief; first secret letter/innocent love attained or not; returning memories brighten face through life and tokens remain. Distinguish the reported childhood belief from factual advice.",
+      "reason": "Retain accurate current wording after full comparison.",
+      "open_questions": [
+        "सोपनर provisionally read as sharpener from pencil-shaving context; supplied source spelling unchanged.",
+        "Whether perfect circles modifies shavings or following leaves remains syntactically adjacent in both targets; no physical reshaping invented."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve voice, cultural detail, repetition and existing lineation.",
+      "full_source_target_read": true,
+      "source_sha256": "1b89848b119cc2cf98f416b8d2126cbb011863275c7d6d59d8158d4a903f48b1",
+      "before_sha256": "90eb0a11bc100b252035db965b0ec69f0cc9b0f3ea0cf695b0a468013c8f2483",
+      "after_sha256": "90eb0a11bc100b252035db965b0ec69f0cc9b0f3ea0cf695b0a468013c8f2483",
+      "prior_uncertainties": [
+        {
+          "note": "ସोपनर in source is सोपनर, provisionally read as sharpener from pencil-shaving context; no extra childhood memory invented.",
+          "record": "kb/production/translations/batch-034/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 659,
+      "target": "en",
+      "reading_evidence": "Read full Hindi source and both targets/title and Jamshedpur tail: memories through eternity/every moment and breath; tender schooldays/notebooks/sharpener circular shavings/peepal leaves/feathers/rose petals revived by touch; lightning fear/laughter and reported cow-dung-to-gold childhood belief; first secret letter/innocent love attained or not; returning memories brighten face through life and tokens remain. Distinguish the reported childhood belief from factual advice.",
+      "reason": "Retain accurate current wording after full comparison.",
+      "open_questions": [
+        "सोपनर provisionally read as sharpener from pencil-shaving context; supplied source spelling unchanged.",
+        "Whether perfect circles modifies shavings or following leaves remains syntactically adjacent in both targets; no physical reshaping invented."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve voice, cultural detail, repetition and existing lineation.",
+      "full_source_target_read": true,
+      "source_sha256": "1b89848b119cc2cf98f416b8d2126cbb011863275c7d6d59d8158d4a903f48b1",
+      "before_sha256": "09f42bbd05a07fbacef7cc1f49707d08b9b118b6ed2a632aeea60dd5a35e9c39",
+      "after_sha256": "09f42bbd05a07fbacef7cc1f49707d08b9b118b6ed2a632aeea60dd5a35e9c39",
+      "prior_uncertainties": [
+        {
+          "note": "ସोपनर in source is सोपनर, provisionally read as sharpener from pencil-shaving context; no extra childhood memory invented.",
+          "record": "kb/production/translations/batch-034/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 660,
+      "target": "or",
+      "reading_evidence": "Read entire Hindi source and both targets/title and original-composition/rights tail: woman as beautiful mind beyond body, inner acceptance as tapasya; obtaining body versus woman, explicit rapist/brute force contrast; imperative touch mind/soul, descend into heart/flow veins/dwell breath, then recognize actual touch. Explicit violence and spiritual discipline register preserved, no euphemism or author-gender inference.",
+      "reason": "Retain accurate current wording after full comparison.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve voice, cultural detail, repetition and existing lineation.",
+      "full_source_target_read": true,
+      "source_sha256": "2872b18991c04a376b0b6a318f226cf7ba944be32428c0e436a131ada435f285",
+      "before_sha256": "1a59858502cf41c71e4d231d4fd6c9861b266abfe3dc5dbc372d5b1d4542877a",
+      "after_sha256": "1a59858502cf41c71e4d231d4fd6c9861b266abfe3dc5dbc372d5b1d4542877a",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 660,
+      "target": "en",
+      "reading_evidence": "Read entire Hindi source and both targets/title and original-composition/rights tail: woman as beautiful mind beyond body, inner acceptance as tapasya; obtaining body versus woman, explicit rapist/brute force contrast; imperative touch mind/soul, descend into heart/flow veins/dwell breath, then recognize actual touch. Explicit violence and spiritual discipline register preserved, no euphemism or author-gender inference.",
+      "reason": "Retain accurate current wording after full comparison.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve voice, cultural detail, repetition and existing lineation.",
+      "full_source_target_read": true,
+      "source_sha256": "2872b18991c04a376b0b6a318f226cf7ba944be32428c0e436a131ada435f285",
+      "before_sha256": "26488967558a03a1b1596a0b9953687045c5c18f8cf3275431f8c347e9de2353",
+      "after_sha256": "26488967558a03a1b1596a0b9953687045c5c18f8cf3275431f8c347e9de2353",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 667,
+      "target": "en",
+      "reading_evidence": "Read all five linked Hindi sections and both complete targets/title: unarmed killers/non-red eyes/no chase, quietly hand us mountain of craving; Crime/fifty-six delicacies-Bisleri-brands-elite schools-bank-seven generations versus mere pity toward marginalized sufferers; Woman/book/new chapter/time secrets; Freedom/refusal of kitchen work puts glorifying songs into box she sits on and breathes; Love/self-love saves speaker amid worst sadness. Preserved headings, brand, hyperbole and critique of conditional praise.",
+      "reason": "Make the charge of wrongdoing against sufferers idiomatic in English.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Remains an accusation, not merely guilty feelings or generalized sympathy; source Crime heading retained.",
+      "full_source_target_read": true,
+      "source_sha256": "14a9438f6950fbb7b1ba34cc84a1e4fa0324e0475bde1addbee33065bbaf78e3",
+      "before_sha256": "2d1d78e701c43c9e3fc27be97df47d1edbe738b969df43db6945ee1421f67150",
+      "after_sha256": "ec92a2b6d60281568ea9a80670d6bc359084b68da7f2d2ae09f595d7484ddf49",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 667,
+      "target": "or",
+      "reading_evidence": "Read all five linked Hindi sections and both complete targets/title: unarmed killers/non-red eyes/no chase, quietly hand us mountain of craving; Crime/fifty-six delicacies-Bisleri-brands-elite schools-bank-seven generations versus mere pity toward marginalized sufferers; Woman/book/new chapter/time secrets; Freedom/refusal of kitchen work puts glorifying songs into box she sits on and breathes; Love/self-love saves speaker amid worst sadness. Preserved headings, brand, hyperbole and critique of conditional praise.",
+      "reason": "Make the third negation unambiguous and carry the social margins sense.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Social margin is anchored by privilege versus suffering in the source, without assigning caste/class identities. All sectional headings and verse boundaries unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "14a9438f6950fbb7b1ba34cc84a1e4fa0324e0475bde1addbee33065bbaf78e3",
+      "before_sha256": "5d5e84b0d9610ba0696ad4d30829f6c7f7b20b7e5d30d6b007efa35bd710eac2",
+      "after_sha256": "d31c804b6aa0365508f915d1515a42f498a8d3bcba3212dfd72948a4386c600d",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 656,
+      "target": "hi",
+      "reading_evidence": "Read complete English source and both targets/title: amber dusk/leaves as whispered vows/unwritten story; seconds/chai/laughter/dust fairies, midnight to3AM words seeking company, gravity versus fire drawing stars without fall; untouched yet held/friendship thief; smoke-memory/brushing not holding/enough yet not enough; laughter bare trees/silences hopes as frost; autumn letting go hurts/clinging leaves-hearts; rain/window morning light/deep quiet unreturned never-lost love. Source speaker has no explicit gender; love unreturned is unreciprocated, not lost property.",
+      "reason": "Replace a spatial calque for not nearly enough and avoid unsupported feminine speaker agreement.",
+      "open_questions": [
+        "Story we almost wrote may suggest unrealized writing or nearly completed story; current near-written rendering remains provisional.",
+        "No relationship biography is inferred from the friendship/unreturned-love pairing."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "The present-held state keeps the laughter image while avoiding speaker gender; paired enough/too-little retains contradiction. Prior feminine-agreement uncertainty is neutralized grammatically, not resolved biographically.",
+      "full_source_target_read": true,
+      "source_sha256": "f98123d04e351a1c75ac2ef3941fdd3fa8f5d9143817d81a1a828791cd82b10b",
+      "before_sha256": "18caed20fdc0aee4984e71c1da1826313a2c6e1cd869afc635e1126d7b1279b7",
+      "after_sha256": "de84a5431e7d00e020d9a6812def325ea9ba0325d38900ba48cd3c16f25f14f1",
+      "prior_uncertainties": [
+        {
+          "note": "Hindi feminine narrator agreement is provisional; original speaker is not gender-explicit. Unreturned means unreciprocated here; no real relationship or author biography inferred.",
+          "record": "kb/production/translations/batch-034/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 656,
+      "target": "or",
+      "reading_evidence": "Read complete English source and both targets/title: amber dusk/leaves as whispered vows/unwritten story; seconds/chai/laughter/dust fairies, midnight to3AM words seeking company, gravity versus fire drawing stars without fall; untouched yet held/friendship thief; smoke-memory/brushing not holding/enough yet not enough; laughter bare trees/silences hopes as frost; autumn letting go hurts/clinging leaves-hearts; rain/window morning light/deep quiet unreturned never-lost love. Source speaker has no explicit gender; love unreturned is unreciprocated, not lost property.",
+      "reason": "Retain accurate current wording after full comparison.",
+      "open_questions": [
+        "Story we almost wrote may suggest unrealized writing or nearly completed story; current near-written rendering remains provisional.",
+        "No relationship biography is inferred from the friendship/unreturned-love pairing."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve voice, cultural detail, repetition and existing lineation.",
+      "full_source_target_read": true,
+      "source_sha256": "f98123d04e351a1c75ac2ef3941fdd3fa8f5d9143817d81a1a828791cd82b10b",
+      "before_sha256": "35c04ab75f4cad2792bc2f2f5da6a5323eae11a4d026e7b74e9ce963ec01566d",
+      "after_sha256": "35c04ab75f4cad2792bc2f2f5da6a5323eae11a4d026e7b74e9ce963ec01566d",
+      "prior_uncertainties": [
+        {
+          "note": "Hindi feminine narrator agreement is provisional; original speaker is not gender-explicit. Unreturned means unreciprocated here; no real relationship or author biography inferred.",
+          "record": "kb/production/translations/batch-034/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "recorded_at": "2026-10-05T16:04:58.610528+00:00",
+  "poem_ids": [
+    525,
+    526,
+    527,
+    528,
+    534
+  ],
+  "variants_read": 10,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 525,
+      "target": "or",
+      "reading_evidence": "Read all six numbered source/target sections: requiem/street/cormorant/golden underwater kingdom; rainy city, flying soul/prophets/shepherd/rag-picker clouds; lamp shadows and blue horses/piano-night; ballerina/gazelle, breathing waterfall and wound-field; moss house/letters/flotsam/name; lost crampons and fire-encrusted snow. First/last pronoun and plural/singular dream shifts checked.",
+      "reason": "Make flying past the buildings and song a grammatical Odia movement, preserving the unlikely pairing as the source image.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, section labels, stanza/line counts and raw tails. No invented explanations of surreal images. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "88b5bff9ddb330911985389b05803fefa04505bc0f1d687848837ed035e31ee3",
+      "before_sha256": "e6fb27c8a0be774951ebb534b20a7adf22b50d8b9040eca035a7647b32aeb026",
+      "after_sha256": "7e37d3a0fff67ed607b5275a2aa07cc4ba4e27347bdac372d4d00fb3c721f3f6",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 525,
+      "target": "hi",
+      "reading_evidence": "Read all six numbered source/target sections: requiem/street/cormorant/golden underwater kingdom; rainy city, flying soul/prophets/shepherd/rag-picker clouds; lamp shadows and blue horses/piano-night; ballerina/gazelle, breathing waterfall and wound-field; moss house/letters/flotsam/name; lost crampons and fire-encrusted snow. First/last pronoun and plural/singular dream shifts checked.",
+      "reason": "Keep the postposition with buildings/song rather than leaving a stranded genitive after the verb.",
+      "open_questions": [
+        "Hindi narrator masculine agreement remains provisional; the English I does not establish gender. The later male climber is explicit but not identified as that narrator."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, section labels, stanza/line counts and raw tails. No invented explanations of surreal images. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "88b5bff9ddb330911985389b05803fefa04505bc0f1d687848837ed035e31ee3",
+      "before_sha256": "23e69aff76367b31c92a57cdaf9c23713514692b4083b81876baad3dd2775b87",
+      "after_sha256": "de69782099551b715b46ca2e19d9c384ca0423f12bd238d3a72b9d39c0fc534f",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 526,
+      "target": "or",
+      "reading_evidence": "Complete source and both full targets read, including a separate untruncated reread of all 526 text: eight searching sections on money/alcohol/religion/ritual-luxury/humanity-relations/science/emotion/beauty, then titled street narrative with abandoned girl, oak, dogs/gnats/frogs, disappearance, mourning tree/animals and caged nestlings. Compared overlap with 552 without substituting that shorter reading for this full text.",
+      "reason": "Retain the already explicit blood/honey comparison and priest missing the blessing; preserve all added street-narrative material and source uncertainties.",
+      "open_questions": [
+        "Prior overlap with same-author poem 552 is preserved as two distinct records; toxicants atoned metabolism, folk flag, many-frame brain, shoelace empathy, roots and birth pertinent remain damaged/unclear.",
+        "Hit least remains the quoted source fragment, not repaired to hit list. Imbued/reduced/fused and Sinner Hill remain underspecified. Astra dogs is provisionally stray dogs; no invented trafficker, incident details or victim biography.",
+        "Gnats rendered as small mosquitoes is a provisional insect equivalent; exact species is not established by the source. All source allegations and disturbing images remain literary text, not independently verified claims."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, section labels, stanza/line counts and raw tails. No invented explanations of surreal images. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "3b7a61b48713801fac69d8f78ea99371982685446734539b96dc6f0beb329607",
+      "before_sha256": "a737e5ca26015dc1bc67e6c288becf96f00338b88bebc4e8151724bed3cf700b",
+      "after_sha256": "a737e5ca26015dc1bc67e6c288becf96f00338b88bebc4e8151724bed3cf700b",
+      "prior_uncertainties": [
+        {
+          "note": "Exact first eight source stanzas match same-author poem 552 Issue31. Existing draft prefix reused unchanged with all prior caveats including hit least; additional titled street narrative fully retained. Both records kept distinct. astra dogs provisionally stray dogs. Trafficking implication translated without invented incident details.",
+          "record": "kb/production/translations/batch-065/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 526,
+      "target": "hi",
+      "reading_evidence": "Complete source and both full targets read, including a separate untruncated reread of all 526 text: eight searching sections on money/alcohol/religion/ritual-luxury/humanity-relations/science/emotion/beauty, then titled street narrative with abandoned girl, oak, dogs/gnats/frogs, disappearance, mourning tree/animals and caged nestlings. Compared overlap with 552 without substituting that shorter reading for this full text.",
+      "reason": "After full current reading, remove the added mistaken-belief inference and restore the priest as the one missing the blessing, consistent with the same clear passages reviewed in 552. No blanket replacement of the shared poem.",
+      "open_questions": [
+        "Prior overlap with same-author poem 552 is preserved as two distinct records; toxicants atoned metabolism, folk flag, many-frame brain, shoelace empathy, roots and birth pertinent remain damaged/unclear.",
+        "Hit least remains the quoted source fragment, not repaired to hit list. Imbued/reduced/fused and Sinner Hill remain underspecified. Astra dogs is provisionally stray dogs; no invented trafficker, incident details or victim biography.",
+        "Gnats rendered as small mosquitoes is a provisional insect equivalent; exact species is not established by the source. All source allegations and disturbing images remain literary text, not independently verified claims."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, section labels, stanza/line counts and raw tails. No invented explanations of surreal images. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "3b7a61b48713801fac69d8f78ea99371982685446734539b96dc6f0beb329607",
+      "before_sha256": "ca609716297b1ad55b7c02a7aa56e8dd56073cdad0629aa58e97e8bc5e70824a",
+      "after_sha256": "19675d8c4ad4a25234ffae3f7d3367749175aaba4b55a064a83d58cb5a2c250f",
+      "prior_uncertainties": [
+        {
+          "note": "Exact first eight source stanzas match same-author poem 552 Issue31. Existing draft prefix reused unchanged with all prior caveats including hit least; additional titled street narrative fully retained. Both records kept distinct. astra dogs provisionally stray dogs. Trafficking implication translated without invented incident details.",
+          "record": "kb/production/translations/batch-065/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 527,
+      "target": "or",
+      "reading_evidence": "Read both five-haiku sequences and all separators/subheading: sprouts/rain curve; thunder/curling leaves; sunlit grain/wagon/blazing sky; spilled harvest/STOP/starlings; snow/stubble; grandson drawing/firefly speech; backstage dancers/snowflakes; bruised pear/Mother/atonement; two-year-old/daybed; knee-high corn/premature sparrow. All ten three-line units checked separately.",
+      "reason": "Retain compressed juxtaposition and ten three-line poems without expanding image connections; keep unresolved family terms as holds.",
+      "open_questions": [
+        "Grandson/grandpa do not establish paternal or maternal lineage: Hindi pote/dada and Odia jeje remain provisional; no family line inferred. Hindi speaker masculine agreement is also provisional.",
+        "Catching up may allude to shared napping or pace; retain juxtaposition with daybed without adding a nap explanation. Atonement may be an observance but no festival identity added."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, section labels, stanza/line counts and raw tails. No invented explanations of surreal images. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "3b0c700889c3afe75a062c68d8c32687fbcd598f97f5526e2e2644c9b690ed0f",
+      "before_sha256": "1e17c9285e60cd75d87072e5ed6dd8bd2adb427613c9c9503550549f845d5eee",
+      "after_sha256": "1e17c9285e60cd75d87072e5ed6dd8bd2adb427613c9c9503550549f845d5eee",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 527,
+      "target": "hi",
+      "reading_evidence": "Read both five-haiku sequences and all separators/subheading: sprouts/rain curve; thunder/curling leaves; sunlit grain/wagon/blazing sky; spilled harvest/STOP/starlings; snow/stubble; grandson drawing/firefly speech; backstage dancers/snowflakes; bruised pear/Mother/atonement; two-year-old/daybed; knee-high corn/premature sparrow. All ten three-line units checked separately.",
+      "reason": "Make kernels the material being poured, not the agent pouring something else; retain three lines and no named pourer.",
+      "open_questions": [
+        "Grandson/grandpa do not establish paternal or maternal lineage: Hindi pote/dada and Odia jeje remain provisional; no family line inferred. Hindi speaker masculine agreement is also provisional.",
+        "Catching up may allude to shared napping or pace; retain juxtaposition with daybed without adding a nap explanation. Atonement may be an observance but no festival identity added."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, section labels, stanza/line counts and raw tails. No invented explanations of surreal images. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "3b0c700889c3afe75a062c68d8c32687fbcd598f97f5526e2e2644c9b690ed0f",
+      "before_sha256": "f1e68e740b54d502abe21864a52d269af2d099d8fcd48ce85b0193b88dcb2bd7",
+      "after_sha256": "3088bf09f8be1ad99497cdc5f91b2ecedb5a09c26dcf1120059844a1fc9556e9",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 528,
+      "target": "or",
+      "reading_evidence": "Complete four stanzas plus bracketed calendar note read: broken slingshot/charcoal/fallen mango flowers; light drizzle/leaves/Aladdin carpet; Arabian Nights to contemporary blood-Holi and Phalguni longing; grief/aborted births/truth-fruits/vermilion/charcoal/pearl tears and mid-March gift. Repeated grieving tears and source calendar note preserved.",
+      "reason": "Retain the floral/grief and Arabian Nights/blood play. Do not silently settle the slingshot syntax or calendar inconsistency.",
+      "open_questions": [
+        "The charcoal block she aimed is likely the slingshot projectile, but the missing preposition leaves target-versus-projectile uncertain; current target-object reading is held, not certified.",
+        "Calendar note claims today 13 February begins Phalguna while verse calls mid-March: preserve the source note and timing question without presenting it as current calendar fact.",
+        "Aborted births and gone-fruits of truth remain broad poetic losses; no personal pregnancy history or specific political event inferred."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, section labels, stanza/line counts and raw tails. No invented explanations of surreal images. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "d421ef9220b0f1a39d9fca901d7d0cf384e3eb2e42717b71f2292f8c7ee5f91e",
+      "before_sha256": "a940eb09cdc87f80e6198cb0194f2d60f5d24f20e9396c2f23a99835750cfb87",
+      "after_sha256": "a940eb09cdc87f80e6198cb0194f2d60f5d24f20e9396c2f23a99835750cfb87",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 528,
+      "target": "hi",
+      "reading_evidence": "Complete four stanzas plus bracketed calendar note read: broken slingshot/charcoal/fallen mango flowers; light drizzle/leaves/Aladdin carpet; Arabian Nights to contemporary blood-Holi and Phalguni longing; grief/aborted births/truth-fruits/vermilion/charcoal/pearl tears and mid-March gift. Repeated grieving tears and source calendar note preserved.",
+      "reason": "Retain repeated grief and broken-charcoal motif; mark the possible projectile reversal for source clarification rather than impose certainty.",
+      "open_questions": [
+        "The charcoal block she aimed is likely the slingshot projectile, but the missing preposition leaves target-versus-projectile uncertain; current target-object reading is held, not certified.",
+        "Calendar note claims today 13 February begins Phalguna while verse calls mid-March: preserve the source note and timing question without presenting it as current calendar fact.",
+        "Aborted births and gone-fruits of truth remain broad poetic losses; no personal pregnancy history or specific political event inferred."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, section labels, stanza/line counts and raw tails. No invented explanations of surreal images. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "d421ef9220b0f1a39d9fca901d7d0cf384e3eb2e42717b71f2292f8c7ee5f91e",
+      "before_sha256": "6004719c767fcdb569678bd9c22b7e0a9983b1d9a0af2305e9592208e7396a3c",
+      "after_sha256": "6004719c767fcdb569678bd9c22b7e0a9983b1d9a0af2305e9592208e7396a3c",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 534,
+      "target": "or",
+      "reading_evidence": "Full source/targets read through repeated Sculptor invocations: copper moon/rainbow/finger/swan; mirror/red fish/body parts; seeing/unseeing; sari-earth vegetation and sky lap, shadows and lying mirror; crafted chest/silver smile/tail/drunken sea; Maunavati/waterbed, swimming fish and bodiless mirror kiss; winter end/aquarium/tear-sea/millennial aquatic plants. All ambiguous subject transitions checked.",
+      "reason": "Retain the sensual sculptural dream and ambiguous transformations without reconstructing a conventional scene from them.",
+      "open_questions": [
+        "Supplied English remains the source; no reconstructed Odia original or poem-specific translator credit inferred from bilingual biography.",
+        "Maunavati may be a figure, epithet or name; preserve supplied form provisionally. Swan/fish/mirror/He and tail-smile referents remain deliberately or textually ambiguous.",
+        "Hindi feminine narrator remains provisional; the fish figure and poet identity do not establish I gender."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, section labels, stanza/line counts and raw tails. No invented explanations of surreal images. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "36dbb6f264b418af64307b039cce98766025d6821ddb3ab1c2d519dcd64378c5",
+      "before_sha256": "73b444581b2d94400ddb3c2574604ee1afc11a674e8aa1fdeb6a444ddbd90c8d",
+      "after_sha256": "73b444581b2d94400ddb3c2574604ee1afc11a674e8aa1fdeb6a444ddbd90c8d",
+      "prior_uncertainties": [
+        {
+          "note": "Preserved HTML biography says author writes English and Odia; no poem-specific translator/adaptation credit found. Supplied English used as source; no reconstructed Odia Original. Maunavati and ambiguous swan/fish/mirror subjects retained. Hindi feminine narrator provisional.",
+          "record": "kb/production/translations/batch-065/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 534,
+      "target": "hi",
+      "reading_evidence": "Full source/targets read through repeated Sculptor invocations: copper moon/rainbow/finger/swan; mirror/red fish/body parts; seeing/unseeing; sari-earth vegetation and sky lap, shadows and lying mirror; crafted chest/silver smile/tail/drunken sea; Maunavati/waterbed, swimming fish and bodiless mirror kiss; winter end/aquarium/tear-sea/millennial aquatic plants. All ambiguous subject transitions checked.",
+      "reason": "Retain surreal mirror agency, repeated lying and sculptor calls, and the final aquarium limit. Gender and name questions remain external to the poem.",
+      "open_questions": [
+        "Supplied English remains the source; no reconstructed Odia original or poem-specific translator credit inferred from bilingual biography.",
+        "Maunavati may be a figure, epithet or name; preserve supplied form provisionally. Swan/fish/mirror/He and tail-smile referents remain deliberately or textually ambiguous.",
+        "Hindi feminine narrator remains provisional; the fish figure and poet identity do not establish I gender."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, section labels, stanza/line counts and raw tails. No invented explanations of surreal images. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "36dbb6f264b418af64307b039cce98766025d6821ddb3ab1c2d519dcd64378c5",
+      "before_sha256": "7d11d775f76fa168fb5493cd0edabe7535072ff8d266d38c6ebc71d05ff06237",
+      "after_sha256": "7d11d775f76fa168fb5493cd0edabe7535072ff8d266d38c6ebc71d05ff06237",
+      "prior_uncertainties": [
+        {
+          "note": "Preserved HTML biography says author writes English and Odia; no poem-specific translator/adaptation credit found. Supplied English used as source; no reconstructed Odia Original. Maunavati and ambiguous swan/fish/mirror subjects retained. Hindi feminine narrator provisional.",
+          "record": "kb/production/translations/batch-065/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

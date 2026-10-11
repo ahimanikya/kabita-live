@@ -1,0 +1,622 @@
+[
+  {
+    "poem_id": 218,
+    "target": "hi",
+    "reading_evidence": "Read all32 source lines and both complete targets as eight quatrains: distillation/death casks/poison elixir/rain salt, life-death habit and sealed firewater/poured fun, sigh smile/forgetting lies/star-grinding pain/naked-night sale, memory drinking/prostitute lips/crescent/pillow-soaked mind/ice and babble, solitude on rocks/curtains-locks/death price/borrowing life twice, leftover care/death earns life/stray love licking spilt dreams/late moment chasing train time, enslaved wagons and learned multiplication chimes, chest-pocket wine stains/aborted pain washable name outlasting aroma. Checked erotic/death/commerce register and avoided a literal diagnosis or drinking advice.",
+    "open_questions": [
+      "Fulfilled grief, forgetting lies, late moment and aborted pain are intentionally close pending source clarification; no biographical explanation supplied.",
+      "Source learned tables repeat without a named actor; target must not turn tables into agents reciting some other object.",
+      "White chest pocket/washable name/stain aroma preserve surreal compression, not a reconstructed scene."
+    ],
+    "reason": "Use intransitive seeping into the pillow and passive repetition of learned tables, correcting verb agency without changing the surreal images.",
+    "tradeoff": "Preserve source strangeness, emotional distance, imagery and repetitions; correct target-language faults without explanatory additions. Same-assistant self-review; independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "bc63c35ac686fc82094a7487b96465d380d07927d52d4b6a7568696c0e5711be",
+    "before_sha256": "1a90c06d63d14430b5bdc099fd0fba6873a50e2ca4fd5e95d58202984bf375c7",
+    "after_sha256": "2492ab8fd3eb91becdc314512cccb5fa9f48c6787f123c1b898c1a3e2923a7dc",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "जीवन का जल",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ख़ाली साँसों में जीते रहने को आसवित,",
+          "मृत्यु के पीपों में परिपक्व होने तक रखा,",
+          "सहेजा हुआ विष अमृत बनता है,",
+          "उदासी बारिश का नमक पकाती है।"
+        ],
+        [
+          "मरना जीवन की एक रोज़मर्रा की आदत है,",
+          "जीना तीखी मदिरा की तरह मुहरबंद है",
+          "धूप से दूर रखी काँच की बोतल में।",
+          "पूरी हुई व्यथा उँडेले आनंद में बुलबुलाती है।"
+        ],
+        [
+          "छिपी आह से गढ़ी एक मुस्कान",
+          "झूठ भूलने के युगों से होकर तड़पती है,",
+          "तारों को पीसती एक अपार पीड़ा,",
+          "नंगी रातें आसमान छूती क़ीमत पर बेचती है।"
+        ],
+        [
+          "यादें पुराने दर्द की महक घूँट-घूँट पीती हैं,",
+          "वेश्या के होंठ अर्धचंद्र रचते हैं,",
+          "भीगा मन तकिए में सोख जाता है,",
+          "बर्फ़ के टुकड़े जल्द नशे की बड़बड़ाहट डुबो देते हैं।"
+        ],
+        [
+          "बर्फ़ पर उँडेला सुनहरा एकांत",
+          "परदों और दरवाज़ों के तालों को मदहोश करता है;",
+          "जब मौत किसी भी क़ीमत पर बिकती हो,",
+          "अनिश्चित जीवन कौन दो बार उधार लेगा?"
+        ],
+        [
+          "बची हुई परवाह बेचकर मृत्यु जीवन कमाती है,",
+          "आवारा प्रेम छलके लापरवाह सपने चाटता है;",
+          "देर का क्षण हाँफता हुआ समय के पीछे दौड़ता है,",
+          "ख़ाली रेल की पटरी को शून्य नज़र से देखता है।"
+        ],
+        [
+          "ग़ुलाम समय के पहिएदार डिब्बे",
+          "तुक में खड़खड़ाते प्लेटफ़ॉर्म छोड़ते हैं,",
+          "सीखे हुए पहाड़े दोहराते हैं",
+          "हर बार घंटी-सी लय में।"
+        ],
+        [
+          "सीने की सफ़ेद जेब सहेजती है",
+          "पुरानी मदिरा के धुँधले निशान,",
+          "अधूरी रह गई पीड़ा का नाम धुल सकने वाला है,",
+          "जो सूखे दाग़ों की महक से अधिक जीता है।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "जीवन का जल",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ख़ाली साँसों में जीते रहने को आसवित,",
+          "मृत्यु के पीपों में परिपक्व होने तक रखा,",
+          "सहेजा हुआ विष अमृत बनता है,",
+          "उदासी बारिश का नमक पकाती है।"
+        ],
+        [
+          "मरना जीवन की एक रोज़मर्रा की आदत है,",
+          "जीना तीखी मदिरा की तरह मुहरबंद है",
+          "धूप से दूर रखी काँच की बोतल में।",
+          "पूरी हुई व्यथा उँडेले आनंद में बुलबुलाती है।"
+        ],
+        [
+          "छिपी आह से गढ़ी एक मुस्कान",
+          "झूठ भूलने के युगों से होकर तड़पती है,",
+          "तारों को पीसती एक अपार पीड़ा,",
+          "नंगी रातें आसमान छूती क़ीमत पर बेचती है।"
+        ],
+        [
+          "यादें पुराने दर्द की महक घूँट-घूँट पीती हैं,",
+          "वेश्या के होंठ अर्धचंद्र रचते हैं,",
+          "भीगा मन तकिए में रिस जाता है,",
+          "बर्फ़ के टुकड़े जल्द नशे की बड़बड़ाहट डुबो देते हैं।"
+        ],
+        [
+          "बर्फ़ पर उँडेला सुनहरा एकांत",
+          "परदों और दरवाज़ों के तालों को मदहोश करता है;",
+          "जब मौत किसी भी क़ीमत पर बिकती हो,",
+          "अनिश्चित जीवन कौन दो बार उधार लेगा?"
+        ],
+        [
+          "बची हुई परवाह बेचकर मृत्यु जीवन कमाती है,",
+          "आवारा प्रेम छलके लापरवाह सपने चाटता है;",
+          "देर का क्षण हाँफता हुआ समय के पीछे दौड़ता है,",
+          "ख़ाली रेल की पटरी को शून्य नज़र से देखता है।"
+        ],
+        [
+          "ग़ुलाम समय के पहिएदार डिब्बे",
+          "तुक में खड़खड़ाते प्लेटफ़ॉर्म छोड़ते हैं,",
+          "सीखे हुए पहाड़े दोहराए जाते हैं",
+          "हर बार घंटी-सी लय में।"
+        ],
+        [
+          "सीने की सफ़ेद जेब सहेजती है",
+          "पुरानी मदिरा के धुँधले निशान,",
+          "अधूरी रह गई पीड़ा का नाम धुल सकने वाला है,",
+          "जो सूखे दाग़ों की महक से अधिक जीता है।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 223,
+    "target": "hi",
+    "reading_evidence": "Read all30 source lines and both targets: moon/explicit her/herself/lonely journey, defiant self-made statue/struggle/ladder light/kind guide, words carve and hands type strength, solitary lunar comparison, ethics/light against darkness, self illumination, words dawn/dark side/art/insanity priority, ethical garland/earth light/universe goddess, untouched by people/unused by fake/words remake statue. Tracked explicit feminine moon separately from narrator-goddess and retained repeated statue/words/light.",
+    "open_questions": [
+      "Hindi masculine चाँद agreement weakens explicitly feminine moon personification; no replacement by moonlight or an invented moon deity accepted.",
+      "Light in ladder, unused by fake and to the light of earth are compressed source phrases; current meanings remain provisional.",
+      "Goddess supplies an explicit feminine speaker image; this does not establish biography or make all moon and narrator references identical."
+    ],
+    "reason": "Correct possessive agreement with अकेलापन while preserving image and wording; keep the separate lunar-personification issue open.",
+    "tradeoff": "Preserve source strangeness, emotional distance, imagery and repetitions; correct target-language faults without explanatory additions. Same-assistant self-review; independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "204c0622cd5b679d8546782f72af23a2be2b56cd00b93982ecc0f97229ac204e",
+    "before_sha256": "dbde19cf93f9c08a166eccf36415c6a2aec3af9961ef46a48bc6ed8ca1ef88ca",
+    "after_sha256": "41ae1a4d9ae95d076dcad12c2bdd48ab970f12f599c6e869da1feebb4975476e",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "मेरी चमकती प्रतिमा",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "चाँद और उसकी एकाकी यात्रा की तरह चमकती",
+          "अकेलेपन और आँसुओं में आनंद",
+          "भीड़ जैसी नहीं",
+          "इसलिए मैं अपनी प्रतिमा ख़ुद बनाती हूँ",
+          "जीवन का अपना संकल्प",
+          "संघर्ष का जीवन",
+          "सीढ़ी पर उजाला अपने ही बल पर",
+          "मैं ही मार्गदर्शक और करुणा का हृदय",
+          "अँधेरे में दूसरों को रोशनी देती",
+          "प्रकाश का चमकता बंधन",
+          "शब्द मेरी प्रतिमा तराशते हैं",
+          "हाथ मेरे शब्द टाइप करते हैं",
+          "मज़बूत प्रतिमा रचते हुए",
+          "कभी पीछे नहीं रही",
+          "मेरी अकेलेपन की यात्रा",
+          "ख़ुद अलग-थलग पड़े चाँद जैसी।",
+          "शब्दों की कला बनकर ब्रह्मांड में चमकती",
+          "शब्दों के प्रकाश से गरिमा पाती",
+          "अपने नैतिक मूल्यों का रूप गढ़ती",
+          "अँधेरे में जीवन उजाला खोजता है",
+          "अकेली मैं ख़ुद को रोशन कर सकती हूँ।",
+          "प्रकाश में शब्दों की सुबह",
+          "अँधेरे पक्ष के पीछे छिपती",
+          "अपनी कला की प्रतिमा बनाती",
+          "अपने विचारों के उन्माद को प्राथमिकता देती",
+          "शब्दों की नैतिक माला",
+          "अपनी प्रतिमा के चारों ओर, धरती के प्रकाश की ओर",
+          "ब्रह्मांड की देवी बनती हुई।",
+          "लोगों से अछूती, छल से इस्तेमाल न हुई",
+          "शब्द मेरी अपनी प्रतिमा बनाते हैं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "मेरी चमकती प्रतिमा",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "चाँद और उसकी एकाकी यात्रा की तरह चमकती",
+          "अकेलेपन और आँसुओं में आनंद",
+          "भीड़ जैसी नहीं",
+          "इसलिए मैं अपनी प्रतिमा ख़ुद बनाती हूँ",
+          "जीवन का अपना संकल्प",
+          "संघर्ष का जीवन",
+          "सीढ़ी पर उजाला अपने ही बल पर",
+          "मैं ही मार्गदर्शक और करुणा का हृदय",
+          "अँधेरे में दूसरों को रोशनी देती",
+          "प्रकाश का चमकता बंधन",
+          "शब्द मेरी प्रतिमा तराशते हैं",
+          "हाथ मेरे शब्द टाइप करते हैं",
+          "मज़बूत प्रतिमा रचते हुए",
+          "कभी पीछे नहीं रही",
+          "मेरे अकेलेपन की यात्रा",
+          "ख़ुद अलग-थलग पड़े चाँद जैसी।",
+          "शब्दों की कला बनकर ब्रह्मांड में चमकती",
+          "शब्दों के प्रकाश से गरिमा पाती",
+          "अपने नैतिक मूल्यों का रूप गढ़ती",
+          "अँधेरे में जीवन उजाला खोजता है",
+          "अकेली मैं ख़ुद को रोशन कर सकती हूँ।",
+          "प्रकाश में शब्दों की सुबह",
+          "अँधेरे पक्ष के पीछे छिपती",
+          "अपनी कला की प्रतिमा बनाती",
+          "अपने विचारों के उन्माद को प्राथमिकता देती",
+          "शब्दों की नैतिक माला",
+          "अपनी प्रतिमा के चारों ओर, धरती के प्रकाश की ओर",
+          "ब्रह्मांड की देवी बनती हुई।",
+          "लोगों से अछूती, छल से इस्तेमाल न हुई",
+          "शब्द मेरी अपनी प्रतिमा बनाते हैं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 223,
+    "target": "or",
+    "reading_evidence": "Read all30 source lines and both targets: moon/explicit her/herself/lonely journey, defiant self-made statue/struggle/ladder light/kind guide, words carve and hands type strength, solitary lunar comparison, ethics/light against darkness, self illumination, words dawn/dark side/art/insanity priority, ethical garland/earth light/universe goddess, untouched by people/unused by fake/words remake statue. Tracked explicit feminine moon separately from narrator-goddess and retained repeated statue/words/light.",
+    "open_questions": [
+      "Hindi masculine चाँद agreement weakens explicitly feminine moon personification; no replacement by moonlight or an invented moon deity accepted.",
+      "Light in ladder, unused by fake and to the light of earth are compressed source phrases; current meanings remain provisional.",
+      "Goddess supplies an explicit feminine speaker image; this does not establish biography or make all moon and narrator references identical."
+    ],
+    "reason": "Restore not-touched-by-people as an action, avoiding the introduced untouchable-status implication; retain source unused-by-fake ambiguity.",
+    "tradeoff": "Preserve source strangeness, emotional distance, imagery and repetitions; correct target-language faults without explanatory additions. Same-assistant self-review; independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "204c0622cd5b679d8546782f72af23a2be2b56cd00b93982ecc0f97229ac204e",
+    "before_sha256": "4b8de26068cd447d1205daddc6d0b5611411c3018bcd961d00850dba0d8a05d7",
+    "after_sha256": "b73c79f4bfd8827fe39f3fb9549e08a8fb83df8e29e2fc4890b6a3e0448ddd4f",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ମୋର ଦୀପ୍ତ ପ୍ରତିମା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଜହ୍ନ ଓ ତା' ଏକାକୀ ଯାତ୍ରା ପରି ଝଲସୁଛି",
+          "ନିର୍ଜନତା ଓ ଲୁହରେ ଆନନ୍ଦ",
+          "ଭିଡ଼ ପରି ନୁହେଁ",
+          "ତେଣୁ ମୁଁ ନିଜ ପ୍ରତିମା ନିଜେ ଗଢ଼େ",
+          "ଜୀବନର ନିଜସ୍ୱ ସଂକଳ୍ପ",
+          "ସଂଘର୍ଷର ଜୀବନ",
+          "ନିଜ ବଳରେ ସିଡ଼ିରେ ଆଲୋକ",
+          "ମୁଁ ନିଜେ ପଥପ୍ରଦର୍ଶକ ଓ ଦୟାର ହୃଦୟ",
+          "ଅନ୍ଧାରରେ ଅନ୍ୟଙ୍କୁ ଆଲୁଅ ଦେଉଛି",
+          "ଆଲୋକର ଦୀପ୍ତ ବନ୍ଧନ",
+          "ଶବ୍ଦମାନେ ମୋ ପ୍ରତିମା ଖୋଦେଇ କରନ୍ତି",
+          "ହାତ ମୋ ଶବ୍ଦ ଟାଇପ୍ କରେ",
+          "ଦୃଢ଼ ପ୍ରତିମା ଗଢ଼ିଚାଲେ",
+          "କେବେ ପଛରେ ପଡ଼ିନାହିଁ",
+          "ମୋର ନିର୍ଜନତାର ଯାତ୍ରା",
+          "ବିଚ୍ଛିନ୍ନ ଜହ୍ନ ନିଜେ ଯେମିତି।",
+          "ଶବ୍ଦର କଳା ହୋଇ ବିଶ୍ୱରେ ଝଲସୁଛି",
+          "ଶବ୍ଦର ଆଲୋକରେ ମର୍ଯ୍ୟାଦା ପାଉଛି",
+          "ନିଜ ନୀତିର ରୂପ ଗଢ଼ୁଛି",
+          "ଅନ୍ଧାରରେ ଜୀବନ ଉଜ୍ଜ୍ୱଳତା ଖୋଜେ",
+          "ଏକା ମୁଁ ନିଜକୁ ଆଲୋକିତ କରିପାରେ।",
+          "ଆଲୋକରେ ଶବ୍ଦର ସକାଳ",
+          "ଅନ୍ଧାର ପାର୍ଶ୍ୱ ପଛେ ଲୁଚୁଛି",
+          "ମୋ କଳାର ପ୍ରତିମା ଗଢ଼ୁଛି",
+          "ମୋ ବିଚାରର ଉନ୍ମାଦକୁ ଆଗରେ ରଖୁଛି",
+          "ଶବ୍ଦର ନୀତିମୟ ମାଳା",
+          "ମୋ ନିଜ ପ୍ରତିମା ଚାରିପାଖେ, ଧରାର ଆଲୋକ ଆଡ଼େ",
+          "ବିଶ୍ୱର ଦେବୀ ହେଉଛି।",
+          "ଲୋକଙ୍କ ଦ୍ୱାରା ଅସ୍ପୃଶ୍ୟ, ଛଳନାରେ ବ୍ୟବହୃତ ନୁହେଁ",
+          "ଶବ୍ଦମାନେ ମୋ ନିଜ ପ୍ରତିମା ଗଢ଼ନ୍ତି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ମୋର ଦୀପ୍ତ ପ୍ରତିମା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଜହ୍ନ ଓ ତା' ଏକାକୀ ଯାତ୍ରା ପରି ଝଲସୁଛି",
+          "ନିର୍ଜନତା ଓ ଲୁହରେ ଆନନ୍ଦ",
+          "ଭିଡ଼ ପରି ନୁହେଁ",
+          "ତେଣୁ ମୁଁ ନିଜ ପ୍ରତିମା ନିଜେ ଗଢ଼େ",
+          "ଜୀବନର ନିଜସ୍ୱ ସଂକଳ୍ପ",
+          "ସଂଘର୍ଷର ଜୀବନ",
+          "ନିଜ ବଳରେ ସିଡ଼ିରେ ଆଲୋକ",
+          "ମୁଁ ନିଜେ ପଥପ୍ରଦର୍ଶକ ଓ ଦୟାର ହୃଦୟ",
+          "ଅନ୍ଧାରରେ ଅନ୍ୟଙ୍କୁ ଆଲୁଅ ଦେଉଛି",
+          "ଆଲୋକର ଦୀପ୍ତ ବନ୍ଧନ",
+          "ଶବ୍ଦମାନେ ମୋ ପ୍ରତିମା ଖୋଦେଇ କରନ୍ତି",
+          "ହାତ ମୋ ଶବ୍ଦ ଟାଇପ୍ କରେ",
+          "ଦୃଢ଼ ପ୍ରତିମା ଗଢ଼ିଚାଲେ",
+          "କେବେ ପଛରେ ପଡ଼ିନାହିଁ",
+          "ମୋର ନିର୍ଜନତାର ଯାତ୍ରା",
+          "ବିଚ୍ଛିନ୍ନ ଜହ୍ନ ନିଜେ ଯେମିତି।",
+          "ଶବ୍ଦର କଳା ହୋଇ ବିଶ୍ୱରେ ଝଲସୁଛି",
+          "ଶବ୍ଦର ଆଲୋକରେ ମର୍ଯ୍ୟାଦା ପାଉଛି",
+          "ନିଜ ନୀତିର ରୂପ ଗଢ଼ୁଛି",
+          "ଅନ୍ଧାରରେ ଜୀବନ ଉଜ୍ଜ୍ୱଳତା ଖୋଜେ",
+          "ଏକା ମୁଁ ନିଜକୁ ଆଲୋକିତ କରିପାରେ।",
+          "ଆଲୋକରେ ଶବ୍ଦର ସକାଳ",
+          "ଅନ୍ଧାର ପାର୍ଶ୍ୱ ପଛେ ଲୁଚୁଛି",
+          "ମୋ କଳାର ପ୍ରତିମା ଗଢ଼ୁଛି",
+          "ମୋ ବିଚାରର ଉନ୍ମାଦକୁ ଆଗରେ ରଖୁଛି",
+          "ଶବ୍ଦର ନୀତିମୟ ମାଳା",
+          "ମୋ ନିଜ ପ୍ରତିମା ଚାରିପାଖେ, ଧରାର ଆଲୋକ ଆଡ଼େ",
+          "ବିଶ୍ୱର ଦେବୀ ହେଉଛି।",
+          "ଲୋକେ ଛୁଇଁନାହାନ୍ତି, ଛଳନାରେ ବ୍ୟବହୃତ ନୁହେଁ",
+          "ଶବ୍ଦମାନେ ମୋ ନିଜ ପ୍ରତିମା ଗଢ଼ନ୍ତି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 226,
+    "target": "hi",
+    "reading_evidence": "Read all20 source lines and both full targets as four quintets: Wellington Botanic Gardens mellow day and inquisitive four-year-old granddaughter hand-in-hand/seeing through her eyes, cicada crouch/lift/show parts/awe at awe, skipping/treasure pockets/duck pond/quacking/ice cream, day-off dialogue and stampede of crumb-chasing birds, delight in child discovering words and wish to be child again. Kept child agency, observed wonder and quotation timing.",
+    "open_questions": [
+      "Hindi पोती selects a paternal-grandchild relation absent in source and remains held; Odia ନାତୁଣୀ avoids that narrowing.",
+      "Hindi feminine narrator/title remains provisional: the grandchild is female but the grandparent is unspecified.",
+      "Odia ଧାଁଦୌଡ଼ conveys rushing but may weaken the childs surprising stampede word; fluent-reader refinement remains open."
+    ],
+    "reason": "Put the nested genitive into natural Hindi order, preserving the child discovering words and adult delight.",
+    "tradeoff": "Preserve source strangeness, emotional distance, imagery and repetitions; correct target-language faults without explanatory additions. Same-assistant self-review; independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "cbc879e4cdebe8d146c43a81bec1d4bc3d182d6e8c11d0305a413e7f897797a5",
+    "before_sha256": "84a8b316e496406a980a80734d945c8c27376086af46b56b91281c25ed4f95c9",
+    "after_sha256": "44d4bd5ee6fbdbafe4dfacafe60fbc33c5a0076a91d5a339542bca2556e484c8",
+    "prior_uncertainties": [
+      {
+        "note": "Four five-line blocks retained. Wellington, age four, cicada and stampede of birds preserved. Hindi poti provisionally selects paternal grandchild relation unavailable in English; needs review, Odia neutral natuni.",
+        "record": "kb/production/translations/batch-135/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "फिर से बच्ची",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "वनस्पति उद्यान में टहलते हुए",
+          "वेलिंगटन के एक सुहाने दिन,",
+          "चार साल की जिज्ञासु",
+          "पोती का हाथ थामे...",
+          "मैं उसकी आँखों से संसार देखती हूँ।"
+        ],
+        [
+          "हम सिकाडा की भनभनाहट सुनते हैं।",
+          "वह एक पत्ते के पास उकड़ूँ बैठती है,",
+          "और सिकाडा को अपने हाथ पर उठा लेती है।",
+          "वह गर्व से मुझे उसका हर अंग दिखाती है,",
+          "और मैं उसके विस्मय पर चकित होती हूँ।"
+        ],
+        [
+          "ख़ुशी से पगडंडियों पर उछलते हुए,",
+          "मिले हुए ख़ज़ानों से जेबें भरी,",
+          "हम बत्तखों के तालाब पर रुकते हैं",
+          "और उनकी क्वैक का जवाब क्वैक से देते हैं,",
+          "फिर बैठकर आइसक्रीम चाटते हैं।"
+        ],
+        [
+          "“आज हमारी छुट्टी है,” वह कहती है,",
+          "“पक्षियों की भगदड़ देखो,”",
+          "वह टुकड़ों के पीछे भागते पक्षियों को दिखाती है।",
+          "उसकी शब्दों की खोज का आनंद लेते हुए,",
+          "मैं फिर बच्ची होने का सुख चाहती हूँ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "फिर से बच्ची",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "वनस्पति उद्यान में टहलते हुए",
+          "वेलिंगटन के एक सुहाने दिन,",
+          "चार साल की जिज्ञासु",
+          "पोती का हाथ थामे...",
+          "मैं उसकी आँखों से संसार देखती हूँ।"
+        ],
+        [
+          "हम सिकाडा की भनभनाहट सुनते हैं।",
+          "वह एक पत्ते के पास उकड़ूँ बैठती है,",
+          "और सिकाडा को अपने हाथ पर उठा लेती है।",
+          "वह गर्व से मुझे उसका हर अंग दिखाती है,",
+          "और मैं उसके विस्मय पर चकित होती हूँ।"
+        ],
+        [
+          "ख़ुशी से पगडंडियों पर उछलते हुए,",
+          "मिले हुए ख़ज़ानों से जेबें भरी,",
+          "हम बत्तखों के तालाब पर रुकते हैं",
+          "और उनकी क्वैक का जवाब क्वैक से देते हैं,",
+          "फिर बैठकर आइसक्रीम चाटते हैं।"
+        ],
+        [
+          "“आज हमारी छुट्टी है,” वह कहती है,",
+          "“पक्षियों की भगदड़ देखो,”",
+          "वह टुकड़ों के पीछे भागते पक्षियों को दिखाती है।",
+          "शब्दों की उसकी खोज का आनंद लेते हुए,",
+          "मैं फिर बच्ची होने का सुख चाहती हूँ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 227,
+    "target": "or",
+    "reading_evidence": "Read all12 long source lines and both complete targets: old-page petals/withered face/dubious unsold memory, five-paise lozenge bribe/conscription/battle and sisters high ransom/child running, irresponsible words/letters/yellow teenage ashes, brother/mother/love encrypted tears, monsoon mood/jasmine atonement/piety/prayers/ascetic life, Najifa soul in bowl/loving barriers and chair/writhing muscles hearing, jasmine as converted rose. Kept named Najifa without asserting religious conversion or fabricated family narrative.",
+    "open_questions": [
+      "Loving barriers, muscles hear, unsold memory and converted title remain source uncertainties; no invented conversion narrative.",
+      "Semicolon-for-apostrophe artifacts remain untouched in original; target punctuation carries normal possessives."
+    ],
+    "reason": "Restore causes-the-child-to-run-fast instead of a malformed smoke-like verb; retain the high-ransom image and all12lines.",
+    "tradeoff": "Preserve source strangeness, emotional distance, imagery and repetitions; correct target-language faults without explanatory additions. Same-assistant self-review; independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "308a675225edcdf229a8c4be93df36d4ec4395d59112ade805b04daa91a44e1c",
+    "before_sha256": "bc81c9ebc5453f5732827fffca0c7c3532064e97311c0ee9d30c29cd39e9616b",
+    "after_sha256": "6731c7e78d132f8bafc2a2b825cf66207ec99add5e3089d4b89b2b5f974062a3",
+    "prior_uncertainties": [
+      {
+        "note": "Twelve long lines retained. Najifa preserved; no religious-conversion or family narrative invented. Ambiguous loving barriers and muscles hear kept near source. Semicolon apostrophe artifacts normalized in targets only.",
+        "record": "kb/production/translations/batch-135/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ରୂପାନ୍ତରିତ ଗୋଲାପ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ପୁରୁଣା ପୃଷ୍ଠା ମଝିରେ ଫୁଲ ପାଖୁଡ଼ା, କେବେଠୁ ଭୁଲିଯାଇଥିବା",
+          "ମଳିନ ମୁହଁ ଉଜ୍ଜ୍ୱଳ ହେଲା, ସନ୍ଦିଗ୍ଧ ସ୍ମୃତି ଅବିକ୍ରୀତ",
+          "ପାଞ୍ଚ ପଇସା, ଲଜେଞ୍ଜର ଲାଞ୍ଚ, ମହାସଂଗ୍ରାମରେ ବାଧ୍ୟତାମୂଳକ ଭର୍ତ୍ତି",
+          "ଭଉଣୀର ସ୍ନେହ, ବଡ଼ ମୁକ୍ତିପଣ, ପିଲାକୁ ଜୋରରେ ଧୁଆଁଏ",
+          "ଦାୟିତ୍ୱହୀନ କଥା, ଚିଠି, କିଶୋର ଉତ୍ସାହର ହଳଦିଆ ପାଉଁଶ",
+          "ଭାଇର ଡାକ, ମାଆର ଯତ୍ନ, ପ୍ରେମର ଆହ୍ୱାନ, ଲୁହରେ ସଂକେତବଦ୍ଧ",
+          "ମୌସୁମୀ ମେଘ ମନ ମଳିନ କରେ, ମଲ୍ଲୀ ପ୍ରାୟଶ୍ଚିତ୍ତ କରେ",
+          "ତା' ଭକ୍ତି, ତା' ପ୍ରାର୍ଥନା",
+          "ବିରାଟ ତପସ୍ୱୀ ଜୀବନ",
+          "ଗିନାରେ ଭାସୁଥିବା ନଜିଫାର ଆତ୍ମା, ଦୂର ନିକଟର ବାଧାକୁ ଭଲପାଏ",
+          "ଚଉକିରେ ବସି, ମୋଡ଼ି ହେଉଥିବା ମାଂସପେଶୀ ଶୁଣେ",
+          "ମଲ୍ଲୀ, ରୂପାନ୍ତରିତ ଗୋଲାପଟିଏ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ରୂପାନ୍ତରିତ ଗୋଲାପ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ପୁରୁଣା ପୃଷ୍ଠା ମଝିରେ ଫୁଲ ପାଖୁଡ଼ା, କେବେଠୁ ଭୁଲିଯାଇଥିବା",
+          "ମଳିନ ମୁହଁ ଉଜ୍ଜ୍ୱଳ ହେଲା, ସନ୍ଦିଗ୍ଧ ସ୍ମୃତି ଅବିକ୍ରୀତ",
+          "ପାଞ୍ଚ ପଇସା, ଲଜେଞ୍ଜର ଲାଞ୍ଚ, ମହାସଂଗ୍ରାମରେ ବାଧ୍ୟତାମୂଳକ ଭର୍ତ୍ତି",
+          "ଭଉଣୀର ସ୍ନେହ, ବଡ଼ ମୁକ୍ତିପଣ, ପିଲାକୁ ଦ୍ରୁତ ଦଉଡ଼ାଏ",
+          "ଦାୟିତ୍ୱହୀନ କଥା, ଚିଠି, କିଶୋର ଉତ୍ସାହର ହଳଦିଆ ପାଉଁଶ",
+          "ଭାଇର ଡାକ, ମାଆର ଯତ୍ନ, ପ୍ରେମର ଆହ୍ୱାନ, ଲୁହରେ ସଂକେତବଦ୍ଧ",
+          "ମୌସୁମୀ ମେଘ ମନ ମଳିନ କରେ, ମଲ୍ଲୀ ପ୍ରାୟଶ୍ଚିତ୍ତ କରେ",
+          "ତା' ଭକ୍ତି, ତା' ପ୍ରାର୍ଥନା",
+          "ବିରାଟ ତପସ୍ୱୀ ଜୀବନ",
+          "ଗିନାରେ ଭାସୁଥିବା ନଜିଫାର ଆତ୍ମା, ଦୂର ନିକଟର ବାଧାକୁ ଭଲପାଏ",
+          "ଚଉକିରେ ବସି, ମୋଡ଼ି ହେଉଥିବା ମାଂସପେଶୀ ଶୁଣେ",
+          "ମଲ୍ଲୀ, ରୂପାନ୍ତରିତ ଗୋଲାପଟିଏ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 228,
+    "target": "or",
+    "reading_evidence": "Read all27 source lines and both targets: blood hardened into heavy pain-rocks/glasshouse shattered in chest/anguish-heart chamber/knot/abyss-web, empty heart and triple sighing breaths-mind-body, echoed sorrow/agony/pulsation fades/narrator still/it makes sigh, fragments into syllables/experience rhythm/poetry ripples/word necklace/wave garland/soul expression/survival inspiration. Preserved abrupt fragments, repeated sigh and final art-to-survival movement without clinical claims.",
+    "open_questions": [
+      "Hed is provisionally Had; original source untouched.",
+      "It and weave-through-web agency remain uncertain; do not assign a new subject or narrative cause.",
+      "Hindi feminine narrator remains unconfirmed; bodily stillness is poetic depiction, not diagnosis."
+    ],
+    "reason": "Restore deliberate threefold sighing recurrence across breath, mind and body, which the condensed target had reduced to one modifier.",
+    "tradeoff": "Preserve source strangeness, emotional distance, imagery and repetitions; correct target-language faults without explanatory additions. Same-assistant self-review; independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "c27c1a369ec22dc0faf2f5ec29400785e12cf7d3791d5595121b09a166058723",
+    "before_sha256": "359b19dc6374630c2d78348774de62fc16efda7306aa8554b81423e4e37ec137",
+    "after_sha256": "ace89c8dcb53e0569ac97c1793486dc725aaba99e32deaba00d6c3c40d67579a",
+    "prior_uncertainties": [
+      {
+        "note": "All 27 lines and abrupt fragments retained. Hed read Had, without changing source. It pronoun remains unresolved; bodily stillness kept as poetic voice, not diagnosis. Hindi feminine provisional.",
+        "record": "kb/production/translations/batch-135/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଶୂନ୍ୟ ହୃଦୟର ବ୍ୟଥା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୋ ହୃଦୟର ଲାଲ ରକ୍ତ",
+          "କେବେଠୁ ବ୍ୟଥାର ପଥର ହୋଇଯାଇଥିଲା,",
+          "ମୋ ହୃଦୟର ସେହି ବ୍ୟଥାର ପଥର",
+          "ବହିବାକୁ ଅତି ଭାରୀ।",
+          "ଛାତିରେ ଭଙ୍ଗା କାଚଘର,",
+          "ମାନସିକ ଯନ୍ତ୍ରଣା, ଜୀବନର ଆଲୋଡ଼ନ,",
+          "ହୃଦୟର କୋଠରିର ବ୍ୟଥିତ ଚିତ୍କାର।",
+          "କମ୍ପିତ, ଜଟିଳ ଗଣ୍ଠିଟିଏ।",
+          "ଏମିତି ଗଭୀର ଅତଳରେ ଲୁଚି,",
+          "ସେ ଦୁଃଖର ଜାଲ ମଝିରେ ବୁଣିଚାଲେ।",
+          "ଆଜି ଶୂନ୍ୟ ହୃଦୟଟିଏ,",
+          "ଦୀର୍ଘଶ୍ୱାସମୟ ଶ୍ୱାସ, ମନ ଓ ଦେହ।",
+          "ଦୁଃଖର ପ୍ରତିଧ୍ୱନି ହୃଦୟର ଗଭୀରତାରେ ଗୁଞ୍ଜେ।",
+          "ଏ ଦୀର୍ଘଶ୍ୱାସରେ ଅଦ୍ଭୁତ ଯନ୍ତ୍ରଣା।",
+          "ହୃଦୟର ସ୍ପନ୍ଦନ ନୀରବ ହୁଏ ଆଉ",
+          "ମିଳାଇଯାଏ।",
+          "ମୁଁ ସ୍ଥିର ହୋଇଯାଏ,",
+          "ହୃଦୟର ଶୂନ୍ୟତାରେ,",
+          "ସେ ଦୀର୍ଘଶ୍ୱାସ ସୃଷ୍ଟି କରେ।",
+          "ସେହି ଭଙ୍ଗା ଖଣ୍ଡମାନେ।",
+          "ବିଛାଡ଼ି ହୋଇଥିବା ଅକ୍ଷରରେ ବଦଳନ୍ତି,",
+          "ମୋ ଅନୁଭବର ଛନ୍ଦରେ ମିଶନ୍ତି।",
+          "କବିତାର ପ୍ରତି ଢେଉ",
+          "ଶବ୍ଦର ହାର ଗଢ଼େ।",
+          "ଢେଉର ମାଳାରେ।",
+          "ମୋ ଆତ୍ମା ନିଜର ପ୍ରକାଶ ପାଏ।",
+          "ବଞ୍ଚିରହିବାର ପ୍ରେରଣା।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଶୂନ୍ୟ ହୃଦୟର ବ୍ୟଥା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୋ ହୃଦୟର ଲାଲ ରକ୍ତ",
+          "କେବେଠୁ ବ୍ୟଥାର ପଥର ହୋଇଯାଇଥିଲା,",
+          "ମୋ ହୃଦୟର ସେହି ବ୍ୟଥାର ପଥର",
+          "ବହିବାକୁ ଅତି ଭାରୀ।",
+          "ଛାତିରେ ଭଙ୍ଗା କାଚଘର,",
+          "ମାନସିକ ଯନ୍ତ୍ରଣା, ଜୀବନର ଆଲୋଡ଼ନ,",
+          "ହୃଦୟର କୋଠରିର ବ୍ୟଥିତ ଚିତ୍କାର।",
+          "କମ୍ପିତ, ଜଟିଳ ଗଣ୍ଠିଟିଏ।",
+          "ଏମିତି ଗଭୀର ଅତଳରେ ଲୁଚି,",
+          "ସେ ଦୁଃଖର ଜାଲ ମଝିରେ ବୁଣିଚାଲେ।",
+          "ଆଜି ଶୂନ୍ୟ ହୃଦୟଟିଏ,",
+          "ଦୀର୍ଘଶ୍ୱାସମୟ ଶ୍ୱାସ, ଦୀର୍ଘଶ୍ୱାସମୟ ମନ, ଦୀର୍ଘଶ୍ୱାସମୟ ଦେହ।",
+          "ଦୁଃଖର ପ୍ରତିଧ୍ୱନି ହୃଦୟର ଗଭୀରତାରେ ଗୁଞ୍ଜେ।",
+          "ଏ ଦୀର୍ଘଶ୍ୱାସରେ ଅଦ୍ଭୁତ ଯନ୍ତ୍ରଣା।",
+          "ହୃଦୟର ସ୍ପନ୍ଦନ ନୀରବ ହୁଏ ଆଉ",
+          "ମିଳାଇଯାଏ।",
+          "ମୁଁ ସ୍ଥିର ହୋଇଯାଏ,",
+          "ହୃଦୟର ଶୂନ୍ୟତାରେ,",
+          "ସେ ଦୀର୍ଘଶ୍ୱାସ ସୃଷ୍ଟି କରେ।",
+          "ସେହି ଭଙ୍ଗା ଖଣ୍ଡମାନେ।",
+          "ବିଛାଡ଼ି ହୋଇଥିବା ଅକ୍ଷରରେ ବଦଳନ୍ତି,",
+          "ମୋ ଅନୁଭବର ଛନ୍ଦରେ ମିଶନ୍ତି।",
+          "କବିତାର ପ୍ରତି ଢେଉ",
+          "ଶବ୍ଦର ହାର ଗଢ଼େ।",
+          "ଢେଉର ମାଳାରେ।",
+          "ମୋ ଆତ୍ମା ନିଜର ପ୍ରକାଶ ପାଏ।",
+          "ବଞ୍ଚିରହିବାର ପ୍ରେରଣା।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

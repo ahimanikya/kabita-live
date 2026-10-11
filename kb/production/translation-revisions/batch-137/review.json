@@ -1,0 +1,289 @@
+{
+  "recorded_at": "2026-10-06T03:09:20.486546+00:00",
+  "poem_ids": [
+    216,
+    220,
+    222,
+    224,
+    230
+  ],
+  "variants_read": 10,
+  "variants_changed": 6,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 216,
+      "target": "en",
+      "reading_evidence": "Read all35 source lines and both complete targets in6/8/8/13 blocks: being known by many yet searching oneself amid unseen attachments, changed mind/conscience/anger while seeking happiness and shared withdrawn silence as enduring love, time held in eyes now sheathless/question/insufficient burden/hot-wind leaf waiting cloud drops/trust in lightning, no heaven-gate demand and trailing sin/ghost/curtain existence/failed touch or private explanation/stumble, final unwipeable pain named fate. Checked the final negation and image attachment.",
+      "open_questions": [
+        "ଖାପ୍ ଛଡ଼ା and ନିଅଣ୍ଟିଆ ବୋଝ retain sheathless/insufficient-burden readings provisionally.",
+        "Swargadwara remains heavens gate without assuming a cremation site.",
+        "Referents of it/ତା and whether anger is personified remain unconfirmed."
+      ],
+      "reason": "Retain coherent complete source sequence and final pain/fate turn; preserve difficult source metaphors for review.",
+      "tradeoff": "Preserve deliberate imagery, rhetorical intensity and unresolved source senses; naturalise only supported target relations. AI self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "40950b9efd9ae8f9819b0885342c88bd1c2010e6b0fc295e562bca412c2a1a3a",
+      "before_sha256": "e528173bfbff07e979141761b7efc856c9155e81fac668685d6790a74c507b83",
+      "after_sha256": "e528173bfbff07e979141761b7efc856c9155e81fac668685d6790a74c507b83",
+      "prior_uncertainties": [
+        {
+          "note": "Four blocks retained. Khaap-chhada kept sheath metaphor; niantia bojha rendered insufficient/incomplete burden despite unusual pairing, for linguistic review. Swargadwara kept heaven gate, not assumed cremation site. Hindi feminine provisional.",
+          "record": "kb/production/translations/batch-133/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 216,
+      "target": "hi",
+      "reading_evidence": "Read all35 source lines and both complete targets in6/8/8/13 blocks: being known by many yet searching oneself amid unseen attachments, changed mind/conscience/anger while seeking happiness and shared withdrawn silence as enduring love, time held in eyes now sheathless/question/insufficient burden/hot-wind leaf waiting cloud drops/trust in lightning, no heaven-gate demand and trailing sin/ghost/curtain existence/failed touch or private explanation/stumble, final unwipeable pain named fate. Checked the final negation and image attachment.",
+      "open_questions": [
+        "ଖାପ୍ ଛଡ଼ା and ନିଅଣ୍ଟିଆ ବୋଝ retain sheathless/insufficient-burden readings provisionally.",
+        "Swargadwara remains heavens gate without assuming a cremation site.",
+        "Referents of it/ତା and whether anger is personified remain unconfirmed.",
+        "Feminine narrator remains provisional; not inferred from poet."
+      ],
+      "reason": "Remove unintended how-question and moving-path calque; attach cannot-be-wiped to pain rather than to the negated mystery, preserving all35lines.",
+      "tradeoff": "Preserve deliberate imagery, rhetorical intensity and unresolved source senses; naturalise only supported target relations. AI self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 35,
+        "before_lines": [
+          6,
+          14,
+          22
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "40950b9efd9ae8f9819b0885342c88bd1c2010e6b0fc295e562bca412c2a1a3a",
+      "before_sha256": "2e0c1aa94ce814c031d3f4c88f6d840724f985149b4d668cc7dca526c8214fc1",
+      "after_sha256": "0fedec9a105f5778f9c55c5003bcaf0173542910fe95786e884ff3122d20167d",
+      "prior_uncertainties": [
+        {
+          "note": "Four blocks retained. Khaap-chhada kept sheath metaphor; niantia bojha rendered insufficient/incomplete burden despite unusual pairing, for linguistic review. Swargadwara kept heaven gate, not assumed cremation site. Hindi feminine provisional.",
+          "record": "kb/production/translations/batch-133/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 220,
+      "target": "hi",
+      "reading_evidence": "Read all32 source lines and both targets in4/4/6/7/9/2 blocks: sky-earth distance/cold-war question, territorial dogs sniffing fissure, murdered flower/beak evidence/escaped accused bird/blood river/wounded white dove, fortress victor at mirror/moustache/beard/poison/true face, repeated recognition by mysterious withdrawn poet under disillusionment sheet roaming night streets, inner explosions and danger to mastermind. Tracked poet versus mirror-victor referents through final stanza.",
+      "open_questions": [
+        "Considering poisons effect may attach to mirror-victor or evaluative question; retain provisional clause without imposing agency.",
+        "निर्वेद/disillusionment may include detachment; no named political actor or event supplied."
+      ],
+      "reason": "Retain complete territorial/political metaphor and clear relative clause identifying the poets withdrawn nature.",
+      "tradeoff": "Preserve deliberate imagery, rhetorical intensity and unresolved source senses; naturalise only supported target relations. AI self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "4aff7917d1c637f7108443d4dba358f0c6f071cb4c33cf76f4c1b656d0e91eaf",
+      "before_sha256": "57e5e20eab66643e712cf8df0f48e3b519c7daaa072fc47c405ed9b286d40a54",
+      "after_sha256": "57e5e20eab66643e712cf8df0f48e3b519c7daaa072fc47c405ed9b286d40a54",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 220,
+      "target": "en",
+      "reading_evidence": "Read all32 source lines and both targets in4/4/6/7/9/2 blocks: sky-earth distance/cold-war question, territorial dogs sniffing fissure, murdered flower/beak evidence/escaped accused bird/blood river/wounded white dove, fortress victor at mirror/moustache/beard/poison/true face, repeated recognition by mysterious withdrawn poet under disillusionment sheet roaming night streets, inner explosions and danger to mastermind. Tracked poet versus mirror-victor referents through final stanza.",
+      "open_questions": [
+        "Considering poisons effect may attach to mirror-victor or evaluative question; retain provisional clause without imposing agency.",
+        "निर्वेद/disillusionment may include detachment; no named political actor or event supplied."
+      ],
+      "reason": "Make the withdrawn nature belong unambiguously to the poet, not the recognised mastermind; maintain all32lines and same stanza boundary.",
+      "tradeoff": "Preserve deliberate imagery, rhetorical intensity and unresolved source senses; naturalise only supported target relations. AI self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 32,
+        "before_lines": [
+          4,
+          8,
+          14,
+          21,
+          30
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "4aff7917d1c637f7108443d4dba358f0c6f071cb4c33cf76f4c1b656d0e91eaf",
+      "before_sha256": "b3cec9357609223d33bfe393e24e7fec82dcd208da5dea12624e3fd6865a875f",
+      "after_sha256": "6057437d003005ff2064f963a576713af5286cdb449072ccd512b0d94c09a393",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 222,
+      "target": "hi",
+      "reading_evidence": "Read all28 source lines and both full targets in1/5/5/2/5/7/3 blocks: distant tiger call and non-tiger danger question, disclaimer of zoological research, desire/rival dominion/male pride, noisy arrogance question and prowess quotation, animality/human learning, first-person roar/echo/hill/sole territory/female companions and creation, more tigers/solitary hunt/jackals expelled. Kept male domination and sexual/reproductive register without neutralising it or asserting natural history.",
+      "open_questions": [
+        "Sanskrit prowess quotation retained with existing target treatment; no claimed textual-critical correction or attribution.",
+        "Human conjecture and tiger allegory remain speaker rhetoric, not zoological facts."
+      ],
+      "reason": "Restore biting into the neck rather than cutting it; retain violence and explicitly feminine companions.",
+      "tradeoff": "Preserve deliberate imagery, rhetorical intensity and unresolved source senses; naturalise only supported target relations. AI self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1e5efb03c22c5820a7defa9ac9ca2b1b859b74b6e330406efe2c53351a6ed7de",
+      "before_sha256": "3dfccfffa554f566ddaa6210a918b08d44823d109457e8e8dc9aeb456c380fcc",
+      "after_sha256": "5dfdcdd30b4ab84fbceec34feb422c1401ec0e2de75900089b3a67246c1b5dd0",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 222,
+      "target": "en",
+      "reading_evidence": "Read all28 source lines and both full targets in1/5/5/2/5/7/3 blocks: distant tiger call and non-tiger danger question, disclaimer of zoological research, desire/rival dominion/male pride, noisy arrogance question and prowess quotation, animality/human learning, first-person roar/echo/hill/sole territory/female companions and creation, more tigers/solitary hunt/jackals expelled. Kept male domination and sexual/reproductive register without neutralising it or asserting natural history.",
+      "open_questions": [
+        "Sanskrit prowess quotation retained with existing target treatment; no claimed textual-critical correction or attribution.",
+        "Human conjecture and tiger allegory remain speaker rhetoric, not zoological facts."
+      ],
+      "reason": "Restore explicitly feminine companion plurality lost in generic companions; preserve male-pride and creation relation without added biology.",
+      "tradeoff": "Preserve deliberate imagery, rhetorical intensity and unresolved source senses; naturalise only supported target relations. AI self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1e5efb03c22c5820a7defa9ac9ca2b1b859b74b6e330406efe2c53351a6ed7de",
+      "before_sha256": "53f8dcb6bf2de46c04b0a8a661cdbfe3e21c97e92b7f4d406b4fe2dc149326e5",
+      "after_sha256": "2ff413b532e8637022c9876b4d90d26d0b9eaf46610cfec74f6251d6c2786597",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 224,
+      "target": "en",
+      "reading_evidence": "Read all20 source lines and both complete targets in3/2/3/3/3/1/5 blocks: calling name/cloudlike silence/no rain, dawn turned over/song forgetting, teeth through nights/eyes tearing stars and suffering, old memories/tomorrow/butterflies, head at feet/body temptation/love in cage, cruelty complaint then passing-over/no glance/accidental foot on chest/tongue bite and speaker-as-God reversal. Preserved devotional/intimate ambiguity and bodily register.",
+      "open_questions": [
+        "Addressee gender is not explicit in Odia; masculine target pronouns remain provisional without assigning a deity.",
+        "Final tongue-biting gesture retained; no named religious scene or relationship supplied."
+      ],
+      "reason": "Retain full physical/devotional sequence and final reversal; no explanatory gloss inside verse.",
+      "tradeoff": "Preserve deliberate imagery, rhetorical intensity and unresolved source senses; naturalise only supported target relations. AI self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "8e7db33a16ee6b5dc02c35ad8ed5771928015929dc94ce22c8848c131010b3aa",
+      "before_sha256": "50da9195edbc213ee02ad8dd9e618384e56952ffdb560f5f4cbc8247000347d8",
+      "after_sha256": "50da9195edbc213ee02ad8dd9e618384e56952ffdb560f5f4cbc8247000347d8",
+      "prior_uncertainties": [
+        {
+          "note": "Seven blocks retained. Intimate/devotional ambiguity and final reversal retained; no deity identity added. Hindi feminine provisional.",
+          "record": "kb/production/translations/batch-133/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 224,
+      "target": "hi",
+      "reading_evidence": "Read all20 source lines and both complete targets in3/2/3/3/3/1/5 blocks: calling name/cloudlike silence/no rain, dawn turned over/song forgetting, teeth through nights/eyes tearing stars and suffering, old memories/tomorrow/butterflies, head at feet/body temptation/love in cage, cruelty complaint then passing-over/no glance/accidental foot on chest/tongue bite and speaker-as-God reversal. Preserved devotional/intimate ambiguity and bodily register.",
+      "open_questions": [
+        "Addressee gender is not explicit in Odia; masculine target pronouns remain provisional without assigning a deity.",
+        "Final tongue-biting gesture retained; no named religious scene or relationship supplied."
+      ],
+      "reason": "Remove avoidable feminine narrator marking while preserving silence and self-questioned forgetting. Prior narrator-gender uncertainty resolved for the current wording; addressee remains held.",
+      "tradeoff": "Preserve deliberate imagery, rhetorical intensity and unresolved source senses; naturalise only supported target relations. AI self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "8e7db33a16ee6b5dc02c35ad8ed5771928015929dc94ce22c8848c131010b3aa",
+      "before_sha256": "d6ba76a0623809b918d65904566e1abc3afaa7e35c2f5e4674b264662c1ae755",
+      "after_sha256": "410d0340d8a4f4783a105c1abafd752444be2a3266ee568597b263deac07a1a6",
+      "prior_uncertainties": [
+        {
+          "note": "Seven blocks retained. Intimate/devotional ambiguity and final reversal retained; no deity identity added. Hindi feminine provisional.",
+          "record": "kb/production/translations/batch-133/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 230,
+      "target": "en",
+      "reading_evidence": "Read all25 source lines and both targets in5/6/6/3/2/3 blocks: woman self-assertion frees curse/Ahalya stone-to-human, straightened back/right-wrong and words knotted in sari end, societys accusation of crossing shame/convention/duty/responsibility steps, repeated ascent/rusted locked door/breathing release, verdict against uncivil civilisation-boasters, dignity in unpaid ledger demanding rights, twelve-cubit sari battle bugle protecting future women. Kept repeated steps and sari personification.",
+      "open_questions": [
+        "ମୋହର ବଜାଏ remains provisional stamp/verdict idiom; no claim that editorial source query is resolved.",
+        "Ahalya reference retained without adding story details."
+      ],
+      "reason": "Retain complete emancipation sequence, two step refrains, ledger and sari agency, with idiom uncertainty separately recorded.",
+      "tradeoff": "Preserve deliberate imagery, rhetorical intensity and unresolved source senses; naturalise only supported target relations. AI self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "192db522db95390c37076c58ce4ffd0d287928479229c3fc7a050f7414cf4340",
+      "before_sha256": "1c4259cf31a38b577869bcad65eb055a8755167ed7d40fcb2020ec5e6936049c",
+      "after_sha256": "1c4259cf31a38b577869bcad65eb055a8755167ed7d40fcb2020ec5e6936049c",
+      "prior_uncertainties": [
+        {
+          "note": "Six blocks retained. Ahalya, tied sari-end words, debt ledger and twelve-cubit sari preserved. Mohar bajae interpreted stamps verdict; idiom needs review. Repeated steps retained.",
+          "record": "kb/production/translations/batch-133/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 230,
+      "target": "hi",
+      "reading_evidence": "Read all25 source lines and both targets in5/6/6/3/2/3 blocks: woman self-assertion frees curse/Ahalya stone-to-human, straightened back/right-wrong and words knotted in sari end, societys accusation of crossing shame/convention/duty/responsibility steps, repeated ascent/rusted locked door/breathing release, verdict against uncivil civilisation-boasters, dignity in unpaid ledger demanding rights, twelve-cubit sari battle bugle protecting future women. Kept repeated steps and sari personification.",
+      "open_questions": [
+        "ମୋହର ବଜାଏ remains provisional stamp/verdict idiom; no claim that editorial source query is resolved.",
+        "Ahalya reference retained without adding story details."
+      ],
+      "reason": "Use natural genitive order for the social steps and relief-to-breathe idiom, preserving repetition, female agency and25verse lines.",
+      "tradeoff": "Preserve deliberate imagery, rhetorical intensity and unresolved source senses; naturalise only supported target relations. AI self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 25,
+        "before_lines": [
+          5,
+          11,
+          17,
+          20,
+          22
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "192db522db95390c37076c58ce4ffd0d287928479229c3fc7a050f7414cf4340",
+      "before_sha256": "8351f669d1acec72746592750cb3762310090562345ca16d7ccb58c7cace40cb",
+      "after_sha256": "68932db8c3de6711ce5dfe88681e46c7daff8f0c998a2e0c1152c4e05c37f62e",
+      "prior_uncertainties": [
+        {
+          "note": "Six blocks retained. Ahalya, tied sari-end words, debt ledger and twelve-cubit sari preserved. Mohar bajae interpreted stamps verdict; idiom needs review. Repeated steps retained.",
+          "record": "kb/production/translations/batch-133/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

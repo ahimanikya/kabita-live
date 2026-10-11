@@ -1,0 +1,193 @@
+{
+  "recorded_at": "2026-10-05T10:48:20.933469+00:00",
+  "poem_ids": [
+    775,
+    776,
+    779
+  ],
+  "variants_read": 6,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 775,
+      "target": "or",
+      "reason": "Repair the case/order of the settling-in-the-chest phrase. Keep the sound, constriction, repeated riddles and final transfer of the corpse-bearing burden.",
+      "reading_evidence": "Read all49lines in both stanzas: Betaal/static, prisoner and truth questions, humming silence settling in the reader, face/memory and claustrophobia, future heir, dying screen, time and the final Vikramaditya reversal.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "The verbal noun now serves as what is felt without a dangling genitive. No answer or explanatory moral is appended to any riddle.",
+      "full_source_target_read": true,
+      "new_findings": [
+        {
+          "category": "target_syntax",
+          "disposition": "fixed_in_local_draft",
+          "reason": "ତାକୁ … ବସିଯିବାର left a case mismatch in the nominalised sensation."
+        }
+      ],
+      "source_sha256": "7c1b3be8252a348218dc10ac7b92c50efcf075c1777c98eab0bc849a8b409b92",
+      "before_sha256": "b338e0c57f06a123d02f1e35f1b276e41ad6b2ab0c94e028365c49dd3f6c13ee",
+      "after_sha256": "f941a668e243fdbcfc60e5e743f73b6c2837c0a5f358dccceb755aad5a4de562",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 775,
+      "target": "hi",
+      "reason": "Make the clock’s sound loud and fast through adverbial phrasing; ऊँची without a sound noun could describe the clock’s physical height.",
+      "reading_evidence": "Read the complete49-line source and Hindi target: frequency/static, imprisonment, fidelity/truth, human face and memory, breathlessness, heir/future, screen, whisper and the ending where Vikramaditya no longer carries the corpse.",
+      "open_questions": [
+        "Hindi second-person masculine forms remain provisional; the English reader-address you is ungendered. Betaal’s masculine pronoun is explicit in the source and is a different matter."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "The reordered adverbs reproduce loud then fast while leaving all imagery and question timing intact.",
+      "full_source_target_read": true,
+      "new_findings": [
+        {
+          "category": "sound_and_syntax",
+          "disposition": "fixed_in_local_draft",
+          "reason": "ऊँची as a bare adjective blurred loud ticking with the clock as an object."
+        }
+      ],
+      "source_sha256": "7c1b3be8252a348218dc10ac7b92c50efcf075c1777c98eab0bc849a8b409b92",
+      "before_sha256": "70f7aee612594bfb42fb383e6081516790f4214f38bd6a18a76a6a4b9623a9a8",
+      "after_sha256": "34d253762d5843f635c3af7e23f215ce2bec9dd8090ef26f582611ee0552c28f",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 776,
+      "target": "or",
+      "reason": "Replace inherited prose-wrap points with eight target-language movements of four lines, joining grammatical dependents and preserving every source image and emotional turn.",
+      "reading_evidence": "Read the complete source and current target directly: voice/changed sky, rain/blessing/seasons, lasting love as moon, wind/music/memory, ocean-distance/starlight, kindness/dawn, silver lines/recognition, final evening/timeless light. Re-read the proposed32lines against those eight movements.",
+      "open_questions": [],
+      "finding_dispositions": {
+        "PNR-061": "fixed_in_local_draft"
+      },
+      "tradeoff": "Eight quatrains are an editorial target-language arrangement, not a claim about an authoritative source stanza layout. Wording is largely retained, with syntax reordered where a wrap had stranded a dependent; Hindi music now fills the air idiomatically. No forced rhyme.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 32,
+        "before_lines": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "05f875ca27c399beb0320910f686ba8a982e7f868cfdf110e9473f3a12984958",
+      "before_sha256": "f45ffcc538469a19a2567309c6f223d587ee60d50ab1b6484b1b1ee95a23d190",
+      "after_sha256": "e855926fe462f406f57a0bd3a3a894cbc21328925f1bd4fd2133ed386994db54",
+      "prior_uncertainties": [
+        {
+          "note": "Source uses long prose-like line wraps; all 23 source lines retained without inserting stanzas. Hindi addressee masculine provisional.",
+          "record": "kb/production/translations/batch-009/review.json"
+        }
+      ],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 776,
+      "target": "hi",
+      "reason": "Replace inherited prose-wrap points with eight target-language movements of four lines, joining grammatical dependents and preserving every source image and emotional turn.",
+      "reading_evidence": "Read the complete source and current target directly: voice/changed sky, rain/blessing/seasons, lasting love as moon, wind/music/memory, ocean-distance/starlight, kindness/dawn, silver lines/recognition, final evening/timeless light. Re-read the proposed32lines against those eight movements.",
+      "open_questions": [
+        "Hindi masculine addressee आए remains provisional; the English addressee is ungendered."
+      ],
+      "finding_dispositions": {
+        "PNR-062": "fixed_in_local_draft"
+      },
+      "tradeoff": "Eight quatrains are an editorial target-language arrangement, not a claim about an authoritative source stanza layout. Wording is largely retained, with syntax reordered where a wrap had stranded a dependent; Hindi music now fills the air idiomatically. No forced rhyme.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 32,
+        "before_lines": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "05f875ca27c399beb0320910f686ba8a982e7f868cfdf110e9473f3a12984958",
+      "before_sha256": "ae704f7c8b462da22ea376a28d328722baaddf91437304bfb2d58ee00d5cfb8c",
+      "after_sha256": "1927efc836a484c1b0c58cbcb212e2ae24881d847fd1be5b0c128c70bdeba98c",
+      "prior_uncertainties": [
+        {
+          "note": "Source uses long prose-like line wraps; all 23 source lines retained without inserting stanzas. Hindi addressee masculine provisional.",
+          "record": "kb/production/translations/batch-009/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 779,
+      "target": "or",
+      "reason": "Retain the anti-war flower transformation and the sequence from coexistence to an imagined world beyond treaties. The source’s take care if remains a documented provisional reading.",
+      "reading_evidence": "Read all five stanzas: bullets/flowers and home anywhere, cartridge/powder replaced by buds/petals, scarred fields, scent/coexistence, sirens/blood removed, earth/sky/water peace, brotherhood/battle cries, disarmament and exchanged greeting cards.",
+      "open_questions": [
+        "Source take care if is provisionally interpreted as take care of; confirm rather than silently treating the damaged wording as settled."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Odia ଫୁଟନ୍ତା carries the flower/burst association naturally; Hindi keeps the impossible bullet-firing-flowers image. Do not replace either with generic weapons-to-peace prose.",
+      "full_source_target_read": true,
+      "source_sha256": "f44a6e6d8177abba92e8d42df02a094305bcaf88f8f705c9228bc43368869194",
+      "before_sha256": "e6e23d81d8c52780aa2e0899f83c19fc9857cf9ed5bc50cb0017cbc59d9450a5",
+      "after_sha256": "e6e23d81d8c52780aa2e0899f83c19fc9857cf9ed5bc50cb0017cbc59d9450a5",
+      "prior_uncertainties": [
+        {
+          "note": "Source “take care if” provisionally interpreted as take care of. No geopolitical event or actors added.",
+          "record": "kb/production/translations/batch-009/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 779,
+      "target": "hi",
+      "reason": "Retain the anti-war flower transformation and the sequence from coexistence to an imagined world beyond treaties. The source’s take care if remains a documented provisional reading.",
+      "reading_evidence": "Read all five stanzas: bullets/flowers and home anywhere, cartridge/powder replaced by buds/petals, scarred fields, scent/coexistence, sirens/blood removed, earth/sky/water peace, brotherhood/battle cries, disarmament and exchanged greeting cards.",
+      "open_questions": [
+        "Source take care if is provisionally interpreted as take care of; confirm rather than silently treating the damaged wording as settled."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Odia ଫୁଟନ୍ତା carries the flower/burst association naturally; Hindi keeps the impossible bullet-firing-flowers image. Do not replace either with generic weapons-to-peace prose.",
+      "full_source_target_read": true,
+      "source_sha256": "f44a6e6d8177abba92e8d42df02a094305bcaf88f8f705c9228bc43368869194",
+      "before_sha256": "a20db1f0c366d5230787f68c3eef236fdebbcdaee6b25b34a602e57c030ba68e",
+      "after_sha256": "a20db1f0c366d5230787f68c3eef236fdebbcdaee6b25b34a602e57c030ba68e",
+      "prior_uncertainties": [
+        {
+          "note": "Source “take care if” provisionally interpreted as take care of. No geopolitical event or actors added.",
+          "record": "kb/production/translations/batch-009/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

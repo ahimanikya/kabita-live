@@ -1,0 +1,237 @@
+[
+  {
+    "poem_id": 822,
+    "target": "or",
+    "reason": "Complete the final object phrase before the listening verb, so the floating music remains intelligible without an unattached trailing modifier. Preserve all seven linked openings and the flower/sun/music sequence.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "new_findings": [
+      {
+        "category": "target_fluency",
+        "before": "ମୁଁ ଶୁଣେ ସଙ୍ଗୀତକୁ / ଭାସି ଚାଲିଯାଉଥିବା",
+        "status": "fixed_in_local_draft"
+      }
+    ],
+    "tradeoff": "The last verb is now listen rather than the floating modifier; the chain still begins with an invisible line and the music still floats by.",
+    "full_source_target_read": true,
+    "reading_evidence": "Read every linked three-line stanza against the source and checked its repeated opening/ending words; original handle remains in raw tail.",
+    "source_sha256": "61229acf1bfef0ac8857ae405177312b9f73f4aea4c50ec678d25cd9deaee0d6",
+    "before_sha256": "7355d44a792377c9e3ae6155d85c3d25966fbcd5482bb3815e0c9e091e9fa9d1",
+    "after_sha256": "f1875837abb1beb56822c54a91bcffbe1353cde53c65802319f480485c52ed89",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଚଲାବାଟ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଆଜି ସକାଳେ",
+          "ମୁଁ ଦେଖେ",
+          "କରବୀର ଶଙ୍କୁ"
+        ],
+        [
+          "କରବୀମାନେ ଖୋଲନ୍ତି",
+          "ନିଜର ହଳଦିଆ",
+          "ଚୁଙ୍ଗି"
+        ],
+        [
+          "ଚୁଙ୍ଗି ଡାକେ",
+          "ମହୁମାଛିଙ୍କୁ",
+          "ଦଳ ଦଳ"
+        ],
+        [
+          "ଦଳ ଦଳ ହୋଇ ସେମାନେ",
+          "ପଶନ୍ତି ଝାଲର ଭିତରକୁ",
+          "ଫୁଲମାନଙ୍କର"
+        ],
+        [
+          "ଫୁଲମାନେ",
+          "ନିଜ ମଧୁ ଢାଳନ୍ତି",
+          "ଚଲାବାଟମାନଙ୍କ ଉପରେ"
+        ],
+        [
+          "ଚଲାବାଟମାନଙ୍କ ଉପରେ",
+          "ସୂର୍ଯ୍ୟ ଟାଣେ",
+          "ଏକ ଅଦୃଶ୍ୟ ରେଖା"
+        ],
+        [
+          "ଏକ ଅଦୃଶ୍ୟ ରେଖା",
+          "ମୁଁ ଶୁଣେ ସଙ୍ଗୀତକୁ",
+          "ଭାସି ଚାଲିଯାଉଥିବା"
+        ],
+        [
+          "@gopallahiri"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଚଲାବାଟ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଆଜି ସକାଳେ",
+          "ମୁଁ ଦେଖେ",
+          "କରବୀର ଶଙ୍କୁ"
+        ],
+        [
+          "କରବୀମାନେ ଖୋଲନ୍ତି",
+          "ନିଜର ହଳଦିଆ",
+          "ଚୁଙ୍ଗି"
+        ],
+        [
+          "ଚୁଙ୍ଗି ଡାକେ",
+          "ମହୁମାଛିଙ୍କୁ",
+          "ଦଳ ଦଳ"
+        ],
+        [
+          "ଦଳ ଦଳ ହୋଇ ସେମାନେ",
+          "ପଶନ୍ତି ଝାଲର ଭିତରକୁ",
+          "ଫୁଲମାନଙ୍କର"
+        ],
+        [
+          "ଫୁଲମାନେ",
+          "ନିଜ ମଧୁ ଢାଳନ୍ତି",
+          "ଚଲାବାଟମାନଙ୍କ ଉପରେ"
+        ],
+        [
+          "ଚଲାବାଟମାନଙ୍କ ଉପରେ",
+          "ସୂର୍ଯ୍ୟ ଟାଣେ",
+          "ଏକ ଅଦୃଶ୍ୟ ରେଖା"
+        ],
+        [
+          "ଏକ ଅଦୃଶ୍ୟ ରେଖା",
+          "ଭାସି ଚାଲିଯାଉଥିବା ସଙ୍ଗୀତକୁ",
+          "ମୁଁ ଶୁଣେ"
+        ],
+        [
+          "@gopallahiri"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 822,
+    "target": "hi",
+    "reason": "Join the floating/passing participle to music and let the listening verb complete the sentence. Retain the repeated invisible line and all earlier chain links.",
+    "open_questions": [
+      "देखता हूँ / सुनता हूँ make a masculine narrator choice not specified by the English alone; retained provisionally."
+    ],
+    "finding_dispositions": {
+      "PNR-027": "fixed_in_local_draft"
+    },
+    "tradeoff": "The closing emphasis moves to listening; the movement of the music remains in the preceding complete object phrase.",
+    "full_source_target_read": true,
+    "reading_evidence": "Read all seven source/target stanzas and the raw handle; compared recurring cones, funnel, clusters, flowers, walkways and invisible line.",
+    "source_sha256": "61229acf1bfef0ac8857ae405177312b9f73f4aea4c50ec678d25cd9deaee0d6",
+    "before_sha256": "c29026d6b1e8f41d1a87681246f1a957fdc753240c56cc6a153e34a35d2b5aa6",
+    "after_sha256": "5a2aef682d60d2e3a19a2e09f778e0fb802c3c7b8b097d2bc54dbb53d01fec96",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "पगडंडी",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "आज सुबह",
+          "मैं देखता हूँ",
+          "कनेर के शंकु"
+        ],
+        [
+          "कनेर खोलते हैं",
+          "अपनी पीली",
+          "कीप"
+        ],
+        [
+          "कीप बुलाती है",
+          "मधुमक्खियों को",
+          "झुंड के झुंड"
+        ],
+        [
+          "झुंड के झुंड वे",
+          "झालरों में प्रवेश करती हैं",
+          "फूलों की"
+        ],
+        [
+          "फूल",
+          "अपना मधु उड़ेलते हैं",
+          "पगडंडियों पर"
+        ],
+        [
+          "पगडंडियों पर",
+          "सूरज खींचता है",
+          "एक अदृश्य रेखा"
+        ],
+        [
+          "एक अदृश्य रेखा",
+          "मैं सुनता हूँ संगीत को",
+          "तैरते हुए गुज़रते"
+        ],
+        [
+          "@gopallahiri"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "पगडंडी",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "आज सुबह",
+          "मैं देखता हूँ",
+          "कनेर के शंकु"
+        ],
+        [
+          "कनेर खोलते हैं",
+          "अपनी पीली",
+          "कीप"
+        ],
+        [
+          "कीप बुलाती है",
+          "मधुमक्खियों को",
+          "झुंड के झुंड"
+        ],
+        [
+          "झुंड के झुंड वे",
+          "झालरों में प्रवेश करती हैं",
+          "फूलों की"
+        ],
+        [
+          "फूल",
+          "अपना मधु उड़ेलते हैं",
+          "पगडंडियों पर"
+        ],
+        [
+          "पगडंडियों पर",
+          "सूरज खींचता है",
+          "एक अदृश्य रेखा"
+        ],
+        [
+          "एक अदृश्य रेखा",
+          "तैरकर गुज़रते संगीत को",
+          "मैं सुनता हूँ"
+        ],
+        [
+          "@gopallahiri"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

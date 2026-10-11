@@ -1,0 +1,548 @@
+[
+  {
+    "poem_id": 792,
+    "target": "hi",
+    "reason": "Restore the repeated search; the old line introduced passing time and softened the persistent act. Keep first-person possession without assigning speaker gender.",
+    "reading_evidence": "Read the potted plant, repeated search for earth, abundant branches, animals and people, mocked concern, upward glance and final reversal in full. Hindi retains the social rebuke and trees singing after humans.",
+    "open_questions": [
+      "ଜାମୁଡୋଳ remains provisionally rose-apple/jamrul; confirm the local fruit name without silently changing the original."
+    ],
+    "finding_dispositions": {
+      "PNR-028": "fixed_in_local_draft"
+    },
+    "tradeoff": "Nominal तलाश makes the speaker gender-neutral; repeated जारी है restores insistence rather than copying the source verb mechanically.",
+    "full_source_target_read": true,
+    "source_sha256": "21dbf36d17d3b53f6711624046c37d9c85c0193f352f98c391a21134bc676ef2",
+    "before_sha256": "e4ed4773e12c0be65c3ccc089c8de6576d66a0c27f146e34923566ceaca9bbb7",
+    "after_sha256": "8b39ccb9abcfae9d6e8f4a0163af354a5a09ee93d8d37f28970f81afaf8a5dfa",
+    "prior_uncertainties": [
+      {
+        "note": "ଜାମୁଡୋଳ provisionally rose-apple/jamrul; exact local fruit name needs confirmation. Deliberately preserved the opening movement from plant to fruit rather than adding a botanic explanation.",
+        "record": "kb/production/translations/batch-004/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "पेड़",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "एक छोटे-से गमले में",
+          "जामरूल ने शाखाएँ फैलाई हैं—",
+          "रसीले, मीठे, गुलाबी फलों वाला।"
+        ],
+        [
+          "उसके लिए ज़मीन का छोटा-सा टुकड़ा",
+          "ढूँढ़ते बीतता है समय—",
+          "जहाँ रोपने पर",
+          "वह हरा-भरा बढ़े,",
+          "बेवक़्त बेरहमी से काटा न जाए।"
+        ],
+        [
+          "गुच्छे-गुच्छे फूलों और फलों से",
+          "जब वह लद जाएगा,",
+          "उसकी डालियाँ झुक जाएँगी।",
+          "भँवरे गुनगुनाएँगे",
+          "फूलों की महक में।",
+          "पक्षी उसके चारों ओर",
+          "मँडराएँगे।",
+          "कभी-कभार बेपरवाह बंदर",
+          "उछलते-कूदते टहनियाँ तोड़ेंगे।",
+          "बच्चों से बूढ़ों तक सब उसकी ओर",
+          "हाथ बढ़ाएँगे।",
+          "घर छोड़ चुका संन्यासी",
+          "मुग्ध दृष्टि से देखेगा।"
+        ],
+        [
+          "लेकिन जिससे भी कहो,",
+          "वह उपहास करता है—",
+          "इंसानों के रहने की जगह नहीं है।",
+          "इन्हें पेड़ की चिंता पड़ी है!"
+        ],
+        [
+          "टुकुर-टुकुर उनकी ओर जाती है मेरी नज़र,",
+          "फिर आकाश की ओर।",
+          "आँखें बंद हो जाती हैं।"
+        ],
+        [
+          "पेड़ ही न रहे तो क्या मनुष्य रह पाएगा!"
+        ],
+        [
+          "बल्कि मनुष्य न रहे तो",
+          "पेड़ निश्चिंत होकर",
+          "सिर हिलाते हुए गीत गाएँगे।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "पेड़",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "एक छोटे-से गमले में",
+          "जामरूल ने शाखाएँ फैलाई हैं—",
+          "रसीले, मीठे, गुलाबी फलों वाला।"
+        ],
+        [
+          "उसके लिए ज़मीन का छोटा-सा टुकड़ा",
+          "मेरी तलाश जारी है, जारी है—",
+          "जहाँ रोपने पर",
+          "वह हरा-भरा बढ़े,",
+          "बेवक़्त बेरहमी से काटा न जाए।"
+        ],
+        [
+          "गुच्छे-गुच्छे फूलों और फलों से",
+          "जब वह लद जाएगा,",
+          "उसकी डालियाँ झुक जाएँगी।",
+          "भँवरे गुनगुनाएँगे",
+          "फूलों की महक में।",
+          "पक्षी उसके चारों ओर",
+          "मँडराएँगे।",
+          "कभी-कभार बेपरवाह बंदर",
+          "उछलते-कूदते टहनियाँ तोड़ेंगे।",
+          "बच्चों से बूढ़ों तक सब उसकी ओर",
+          "हाथ बढ़ाएँगे।",
+          "घर छोड़ चुका संन्यासी",
+          "मुग्ध दृष्टि से देखेगा।"
+        ],
+        [
+          "लेकिन जिससे भी कहो,",
+          "वह उपहास करता है—",
+          "इंसानों के रहने की जगह नहीं है।",
+          "इन्हें पेड़ की चिंता पड़ी है!"
+        ],
+        [
+          "टुकुर-टुकुर उनकी ओर जाती है मेरी नज़र,",
+          "फिर आकाश की ओर।",
+          "आँखें बंद हो जाती हैं।"
+        ],
+        [
+          "पेड़ ही न रहे तो क्या मनुष्य रह पाएगा!"
+        ],
+        [
+          "बल्कि मनुष्य न रहे तो",
+          "पेड़ निश्चिंत होकर",
+          "सिर हिलाते हुए गीत गाएँगे।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 794,
+    "target": "en",
+    "reason": "Clarify hunger as the cause of robbery; for hunger is a calque that jars against natural English. Preserve the parallel catalogue and unsoftened political violence.",
+    "reading_evidence": "Full reading follows the fragmentary executioner origin through dictatorship, human blood and flesh, repeated For how long, and the bedbug’s refusal to build dominion on its offspring’s blood.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "A two-word causal phrase varies the surface parallel slightly to make the first motive intelligible; riches/pleasure/power remain unchanged.",
+    "full_source_target_read": true,
+    "new_findings": [
+      {
+        "category": "idiom",
+        "before": "robbery for hunger",
+        "disposition": "fixed_in_local_draft",
+        "reason": "Causal hunger sounded like a beneficiary/purpose in the calque."
+      }
+    ],
+    "source_sha256": "15954ea937c02e0305366f04f2d3174d6ac619e9d0405fd8160a4c239a37c5e9",
+    "before_sha256": "5605c035671faaba5b3e0ebcbd6c48f07bad66f318d9e3d60cb921e9913d6391",
+    "after_sha256": "d2baac9feaf0743d1ced1c7198f8b813eab0ec2995fca5457cbadd73b392eaf6",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Bedbugs",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "From who knows how long ago,",
+          "from some executioner’s",
+          "blood,",
+          "saliva,"
+        ],
+        [
+          "upon this earth,",
+          "countless people,",
+          "countless crimes:"
+        ],
+        [
+          "robbery for hunger,",
+          "throat-cutting for riches,",
+          "rape for pleasure,",
+          "for seats and power,",
+          "sweet, sweet poison in speeches!"
+        ],
+        [
+          "In the fire of dictatorship",
+          "the earth burns."
+        ],
+        [
+          "Keeping sparrows in cages,",
+          "the vultures",
+          "are making atomic bombs."
+        ],
+        [
+          "Human flesh",
+          "is being eaten by humans."
+        ],
+        [
+          "On human blood alone",
+          "humans fatten their bellies."
+        ],
+        [
+          "For how long!",
+          "For how long!"
+        ],
+        [
+          "Leave it."
+        ],
+        [
+          "Even a bedbug",
+          "has a conscience:",
+          "it",
+          "does not drink its own offspring’s blood",
+          "to build its dominion!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Bedbugs",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "From who knows how long ago,",
+          "from some executioner’s",
+          "blood,",
+          "saliva,"
+        ],
+        [
+          "upon this earth,",
+          "countless people,",
+          "countless crimes:"
+        ],
+        [
+          "robbery out of hunger,",
+          "throat-cutting for riches,",
+          "rape for pleasure,",
+          "for seats and power,",
+          "sweet, sweet poison in speeches!"
+        ],
+        [
+          "In the fire of dictatorship",
+          "the earth burns."
+        ],
+        [
+          "Keeping sparrows in cages,",
+          "the vultures",
+          "are making atomic bombs."
+        ],
+        [
+          "Human flesh",
+          "is being eaten by humans."
+        ],
+        [
+          "On human blood alone",
+          "humans fatten their bellies."
+        ],
+        [
+          "For how long!",
+          "For how long!"
+        ],
+        [
+          "Leave it."
+        ],
+        [
+          "Even a bedbug",
+          "has a conscience:",
+          "it",
+          "does not drink its own offspring’s blood",
+          "to build its dominion!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 801,
+    "target": "hi",
+    "reason": "Return the title to the source noun, without adding the addressee or containment frame. Preserve the bracketing image in the poem and its returns.",
+    "reading_evidence": "Read all refrains and the failed departure from the past, memory as safety pin, torn mind, kiss/skeleton, temple-like forests and Yamuna passage, including the non-verse tail.",
+    "open_questions": [
+      "Source encoding damage remains unresolved: ନାହó read as ନାହିଁ, ଚିକôାର as ଚିତ୍କାର, ମନ୍ରରେ as ମନ୍ତ୍ରରେ. Confirm against an authoritative source before approval.",
+      "ମାଈସଂଜ is rendered tender/कोमल dusk provisionally; its local nuance needs source confirmation.",
+      "Hindi masculine speaker remains provisional; Odia does not specify narrator gender."
+    ],
+    "finding_dispositions": {
+      "PNR-029": "fixed_in_local_draft"
+    },
+    "tradeoff": "कोष्ठक leaves the title open until the poem addresses तुम्हारे; damaged source wording is not silently repaired.",
+    "full_source_target_read": true,
+    "title_after": "कोष्ठक",
+    "source_sha256": "7216ca82ed5f4dffaaff888189ef518caf07d342c77ea2d83e386326560e2206",
+    "before_sha256": "a334a664d311cb22be6d4ffd72a2dfdd5718343b9be3895c6febeb735af3e592",
+    "after_sha256": "fe8ecbbfa42a7594648ae5b28d134ab4c7fa0d742be558ba9f5f397663ba8465",
+    "prior_uncertainties": [
+      {
+        "note": "Source contains encoding damage: ନାହó interpreted as ନାହିଁ; ଚିକôାର provisionally ଚିତ୍କାର; ମନ୍ରରେ provisionally ମନ୍ତ୍ରରେ. Original untouched. Human source check required before publication.",
+        "record": "kb/production/translations/batch-004/review.json"
+      },
+      {
+        "note": "Hindi uses a provisional masculine speaker for idiomatic phrasing; original Odia does not specify narrator gender.",
+        "record": "kb/production/translations/batch-004/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "तुम्हारे कोष्ठक में",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "लो, सब कुछ पीछे छोड़, तुम्हारे कोष्ठक में आ पहुँचा हूँ मैं।"
+        ],
+        [
+          "पीछे छोड़ आया हूँ कितनी ही कीचड़-सनी पुरातन बातें,",
+          "छोड़ दीं वे परछाइयाँ",
+          "जो मेरे पैदल रास्ते की अभिभावक बन बैठी थीं;",
+          "छोड़ते समय,",
+          "मेरे पहचाने-पहचाने अकेलेपन ने राह नहीं रोकी।",
+          "कभी स्मृति को सेफ़्टी पिन बनाकर अपना फटा मन जोड़ा था;",
+          "वह भी साथ नहीं आया।"
+        ],
+        [
+          "क्या छोड़कर आ जाने से वह अतीत छूट जाता है!",
+          "जो कोमल साँझ में भी मुझे डराता है,",
+          "जो चुंबन की चीख़ के बीच दिखाता है",
+          "मेरी छाती का कंकाल।"
+        ],
+        [
+          "लो, सब कुछ पीछे छोड़, तुम्हारे कोष्ठक में आ पहुँचा हूँ मैं।"
+        ],
+        [
+          "पीछे छोड़ आया हूँ कितनी ही कीचड़-सनी पुरातन बातें,",
+          "छोड़ दीं वे परछाइयाँ",
+          "जो मेरे पैदल रास्ते की अभिभावक बन बैठी थीं!"
+        ],
+        [
+          "छोड़कर आते समय सोचा नहीं था",
+          "कि राह में जंगल मंदिरों की तरह मिलेंगे,",
+          "मेरे हर पदचिह्न से उठेंगी दुनिया की श्रेष्ठतम प्रेम-कविताओं की पंक्तियाँ!",
+          "नीली यमुना के उलटे प्रवाह का मंत्र मुझे भरता जाएगा।",
+          "किसी की एक पुकार, आओ, में",
+          "इतना आकर्षण हो सकता है,",
+          "मुझे पता न था!"
+        ],
+        [
+          "लो,",
+          "अब सब कुछ पीछे छोड़, तुम्हारे कोष्ठक में आ पहुँचा हूँ मैं।",
+          "∎",
+          "बालेश्वर,"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "कोष्ठक",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "लो, सब कुछ पीछे छोड़, तुम्हारे कोष्ठक में आ पहुँचा हूँ मैं।"
+        ],
+        [
+          "पीछे छोड़ आया हूँ कितनी ही कीचड़-सनी पुरातन बातें,",
+          "छोड़ दीं वे परछाइयाँ",
+          "जो मेरे पैदल रास्ते की अभिभावक बन बैठी थीं;",
+          "छोड़ते समय,",
+          "मेरे पहचाने-पहचाने अकेलेपन ने राह नहीं रोकी।",
+          "कभी स्मृति को सेफ़्टी पिन बनाकर अपना फटा मन जोड़ा था;",
+          "वह भी साथ नहीं आया।"
+        ],
+        [
+          "क्या छोड़कर आ जाने से वह अतीत छूट जाता है!",
+          "जो कोमल साँझ में भी मुझे डराता है,",
+          "जो चुंबन की चीख़ के बीच दिखाता है",
+          "मेरी छाती का कंकाल।"
+        ],
+        [
+          "लो, सब कुछ पीछे छोड़, तुम्हारे कोष्ठक में आ पहुँचा हूँ मैं।"
+        ],
+        [
+          "पीछे छोड़ आया हूँ कितनी ही कीचड़-सनी पुरातन बातें,",
+          "छोड़ दीं वे परछाइयाँ",
+          "जो मेरे पैदल रास्ते की अभिभावक बन बैठी थीं!"
+        ],
+        [
+          "छोड़कर आते समय सोचा नहीं था",
+          "कि राह में जंगल मंदिरों की तरह मिलेंगे,",
+          "मेरे हर पदचिह्न से उठेंगी दुनिया की श्रेष्ठतम प्रेम-कविताओं की पंक्तियाँ!",
+          "नीली यमुना के उलटे प्रवाह का मंत्र मुझे भरता जाएगा।",
+          "किसी की एक पुकार, आओ, में",
+          "इतना आकर्षण हो सकता है,",
+          "मुझे पता न था!"
+        ],
+        [
+          "लो,",
+          "अब सब कुछ पीछे छोड़, तुम्हारे कोष्ठक में आ पहुँचा हूँ मैं।",
+          "∎",
+          "बालेश्वर,"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 801,
+    "target": "en",
+    "reason": "Return the title to Brackets; Within Your pre-explains the opening and is absent from the source title. Retain the unsettling body imagery and repetitions.",
+    "reading_evidence": "Read every source and English line: the guardian shadows, solitudes, safety pin, failure to escape the past, returning arrival, forests/temples, footprints and call of Come.",
+    "open_questions": [
+      "Source encoding damage remains unresolved: ନାହó read as ନାହିଁ, ଚିକôାର as ଚିତ୍କାର, ମନ୍ରରେ as ମନ୍ତ୍ରରେ. Confirm against an authoritative source before approval.",
+      "ମାଈସଂଜ is rendered tender/कोमल dusk provisionally; its local nuance needs source confirmation."
+    ],
+    "finding_dispositions": {
+      "PNR-030": "fixed_in_local_draft"
+    },
+    "tradeoff": "Plural Brackets naturally names the paired punctuation without supplying a relationship in the title. Upstream chant remains provisional because the source word is damaged.",
+    "full_source_target_read": true,
+    "title_after": "Brackets",
+    "source_sha256": "7216ca82ed5f4dffaaff888189ef518caf07d342c77ea2d83e386326560e2206",
+    "before_sha256": "a4bd8e3ea2cbea84ae170b568881baa75ff9e4bec053a53d3814ccafefc77e3e",
+    "after_sha256": "5d94d413770ae1f44945951e1aed2301a113a5be0d0c4e2a8a54d7ca3dcbcdee",
+    "prior_uncertainties": [
+      {
+        "note": "Source contains encoding damage: ନାହó interpreted as ନାହିଁ; ଚିକôାର provisionally ଚିତ୍କାର; ମନ୍ରରେ provisionally ମନ୍ତ୍ରରେ. Original untouched. Human source check required before publication.",
+        "record": "kb/production/translations/batch-004/review.json"
+      },
+      {
+        "note": "Hindi uses a provisional masculine speaker for idiomatic phrasing; original Odia does not specify narrator gender.",
+        "record": "kb/production/translations/batch-004/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Within Your Brackets",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Here I am, leaving everything behind, entering your brackets."
+        ],
+        [
+          "Behind me I left so much of the mire of olden days,",
+          "left behind those shadows",
+          "that had appointed themselves guardians of the path I walked;",
+          "as I left,",
+          "my familiar solitudes did not bar the way.",
+          "Once I had used memory as a safety pin to fasten my torn heart;",
+          "even that did not come along."
+        ],
+        [
+          "Can one leave that past behind merely by leaving?",
+          "It frightens me even in the tender dusk,",
+          "and amid the scream of a kiss reveals",
+          "the skeleton of my chest."
+        ],
+        [
+          "Here I am, leaving everything behind, entering your brackets."
+        ],
+        [
+          "Behind me I left so much of the mire of olden days,",
+          "left behind those shadows",
+          "that had appointed themselves guardians of the path I walked!"
+        ],
+        [
+          "As I left, I never imagined",
+          "that forests would meet me along the way like temples,",
+          "that from each footprint of mine would rise lines of the world’s finest love poems!",
+          "I would be filled with the blue Yamuna’s upstream chant.",
+          "That in someone’s single call of Come",
+          "there could be so much attraction,",
+          "I did not know!"
+        ],
+        [
+          "Here,",
+          "now I have left everything behind and entered your brackets.",
+          "∎",
+          "Balasore,"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Brackets",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Here I am, leaving everything behind, entering your brackets."
+        ],
+        [
+          "Behind me I left so much of the mire of olden days,",
+          "left behind those shadows",
+          "that had appointed themselves guardians of the path I walked;",
+          "as I left,",
+          "my familiar solitudes did not bar the way.",
+          "Once I had used memory as a safety pin to fasten my torn heart;",
+          "even that did not come along."
+        ],
+        [
+          "Can one leave that past behind merely by leaving?",
+          "It frightens me even in the tender dusk,",
+          "and amid the scream of a kiss reveals",
+          "the skeleton of my chest."
+        ],
+        [
+          "Here I am, leaving everything behind, entering your brackets."
+        ],
+        [
+          "Behind me I left so much of the mire of olden days,",
+          "left behind those shadows",
+          "that had appointed themselves guardians of the path I walked!"
+        ],
+        [
+          "As I left, I never imagined",
+          "that forests would meet me along the way like temples,",
+          "that from each footprint of mine would rise lines of the world’s finest love poems!",
+          "I would be filled with the blue Yamuna’s upstream chant.",
+          "That in someone’s single call of Come",
+          "there could be so much attraction,",
+          "I did not know!"
+        ],
+        [
+          "Here,",
+          "now I have left everything behind and entered your brackets.",
+          "∎",
+          "Balasore,"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

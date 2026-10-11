@@ -22,7 +22,8 @@ service cloud.firestore {
         && (!exists(throttlePath()) || get(throttlePath()).data.lastSubmittedAt < request.time - duration.value(60, 's'));
       allow read, delete: if editor();
       allow update: if editor() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
-        && request.resource.data.status in ['received','reviewed','closed'];
+        && ((resource.data.status == 'received' && request.resource.data.status in ['reviewed','closed'])
+         || (resource.data.status == 'reviewed' && request.resource.data.status == 'closed'));
     }
     match /feedbackThrottle/{uid} {
       allow create, update: if signedIn() && uid == request.auth.uid
@@ -75,9 +76,16 @@ service cloud.firestore {
         && getAfter(commentThrottlePath()).data.lastCommentId == id
         && getAfter(commentThrottlePath()).data.lastSubmittedAt == request.time
         && (!exists(commentThrottlePath()) || get(commentThrottlePath()).data.lastSubmittedAt < request.time - duration.value(60, 's'));
-      allow read, delete: if editor();
+      allow read: if editor();
+      allow delete: if editor() && !existsAfter(/databases/$(database)/documents/publicComments/$(id));
       allow update: if editor() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
-        && request.resource.data.status in ['pending','published','rejected'];
+        && ((resource.data.status == 'pending' && request.resource.data.status == 'published'
+          && existsAfter(/databases/$(database)/documents/publicComments/$(id))
+          && getAfter(/databases/$(database)/documents/publicComments/$(id)).data.publishedAt == request.time)
+         || (resource.data.status == 'pending' && request.resource.data.status == 'rejected'
+          && !existsAfter(/databases/$(database)/documents/publicComments/$(id)))
+         || (resource.data.status == 'published' && request.resource.data.status == 'withdrawn'
+          && !existsAfter(/databases/$(database)/documents/publicComments/$(id))));
     }
     match /commentThrottle/{uid} {
       allow create, update: if signedIn() && uid == request.auth.uid
@@ -88,11 +96,43 @@ service cloud.firestore {
         && request.resource.data.lastCommentId.matches('^[A-Za-z0-9]{20}$');
       allow read, delete: if editor();
     }
+    match /feedbackReceipts/{uid}/items/{id} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow create: if signedIn() && request.auth.uid == uid && id.matches('^[A-Za-z0-9]{20}$')
+        && request.resource.data.keys().hasAll(['submissionId','channel','acceptedAt'])
+        && request.resource.data.keys().hasOnly(['submissionId','channel','acceptedAt'])
+        && request.resource.data.submissionId == id && request.resource.data.channel == 'feedback'
+        && request.resource.data.acceptedAt == request.time
+        && !exists(/databases/$(database)/documents/feedback/$(id))
+        && getAfter(/databases/$(database)/documents/feedback/$(id)).data.uid == uid
+        && getAfter(/databases/$(database)/documents/feedback/$(id)).data.createdAt == request.time
+        && getAfter(/databases/$(database)/documents/feedback/$(id)).data.name.toUtf8().size() <= 120
+        && getAfter(/databases/$(database)/documents/feedback/$(id)).data.email.toUtf8().size() <= 254
+        && getAfter(/databases/$(database)/documents/feedback/$(id)).data.message.toUtf8().size() <= 5000
+        && getAfter(throttlePath()).data.lastFeedbackId == id
+        && getAfter(throttlePath()).data.lastSubmittedAt == request.time;
+    }
+    // Additive receipt channel for the versioned adapter; older accepted records are preserved.
+    match /commentReceipts/{uid}/items/{id} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow create: if signedIn() && request.auth.uid == uid && id.matches('^[A-Za-z0-9]{20}$')
+        && request.resource.data.keys().hasAll(['submissionId','channel','acceptedAt'])
+        && request.resource.data.keys().hasOnly(['submissionId','channel','acceptedAt'])
+        && request.resource.data.submissionId == id && request.resource.data.channel == 'comment'
+        && request.resource.data.acceptedAt == request.time
+        && !exists(/databases/$(database)/documents/commentSubmissions/$(id))
+        && getAfter(/databases/$(database)/documents/commentSubmissions/$(id)).data.uid == uid
+        && getAfter(/databases/$(database)/documents/commentSubmissions/$(id)).data.createdAt == request.time
+        && getAfter(/databases/$(database)/documents/commentSubmissions/$(id)).data.message.toUtf8().size() <= 2000
+        && getAfter(commentThrottlePath()).data.lastCommentId == id
+        && getAfter(commentThrottlePath()).data.lastSubmittedAt == request.time;
+    }
     match /publicComments/{id} {
       // This collection contains only approved public text, never identity/contact fields.
       allow get: if true;
       allow list: if request.query.limit != null && request.query.limit <= 20;
       allow create: if editor()
+        && get(/databases/$(database)/documents/commentSubmissions/$(id)).data.status == 'pending'
         && request.resource.data.keys().hasAll(['poemId','name','message','publishedAt'])
         && request.resource.data.keys().hasOnly(['poemId','name','message','publishedAt'])
         && request.resource.data.poemId == get(/databases/$(database)/documents/commentSubmissions/$(id)).data.poemId
@@ -102,6 +142,160 @@ service cloud.firestore {
         && request.resource.data.publishedAt == request.time;
       allow delete: if editor();
     }
+    // Additive article response rules; existing poem paths stay unchanged.
+
+  function article_signedIn() { return request.auth != null; }
+  function article_published(key) {
+   return exists(/databases/$(database)/documents/responseContent/$(key))
+     && get(/databases/$(database)/documents/responseContent/$(key)).data.public == true
+     && get(/databases/$(database)/documents/responseContent/$(key)).data.kind == 'article'
+     && get(/databases/$(database)/documents/responseContent/$(key)).data.contentId in ['kabita:article:edition-48-editorial','kabita:article:language-journey'];
+  }
+  function article_stats(key) { return /databases/$(database)/documents/responseStats/$(key); }
+  function article_vote(key) { return /databases/$(database)/documents/responseLikes/$(key)/voters/$(request.auth.uid); }
+  function article_oldCount(key) { return exists(article_stats(key)) ? get(article_stats(key)).data.likes : 0; }
+  function article_wasLiked(key) { return exists(article_vote(key)) && get(article_vote(key)).data.liked; }
+  function article_countShape() {
+   return request.resource.data.keys().hasAll(['likes','updatedAt'])
+    && request.resource.data.keys().hasOnly(['likes','updatedAt'])
+    && request.resource.data.likes is int
+    && request.resource.data.likes >= 0 && request.resource.data.likes <= 9007199254740991
+    && request.resource.data.updatedAt == request.time;
+  }
+  function article_expectedCount(key) { return article_oldCount(key) + (article_wasLiked(key) ? -1 : 1); }
+  // Provisioned from the site's explicit public content manifest by trusted setup.
+  // Reader clients cannot register, change or publish a content identity.
+  match /responseContent/{key} { allow get: if resource.data.public == true; }
+  match /responseStats/{key} {
+   allow get: if article_published(key);
+   allow create, update: if article_signedIn() && article_published(key) && article_countShape()
+    && getAfter(article_vote(key)).data.updatedAt == request.time
+    && getAfter(article_vote(key)).data.liked == !article_wasLiked(key)
+    && request.resource.data.likes == article_expectedCount(key);
+  }
+  match /responseLikes/{key}/voters/{uid} {
+   allow get: if article_signedIn() && request.auth.uid == uid && article_published(key);
+   allow create, update: if article_signedIn() && request.auth.uid == uid && article_published(key)
+    && request.resource.data.keys().hasAll(['liked','updatedAt'])
+    && request.resource.data.keys().hasOnly(['liked','updatedAt'])
+    && request.resource.data.liked is bool
+    && request.resource.data.liked == !article_wasLiked(key)
+    && request.resource.data.updatedAt == request.time
+    && getAfter(article_stats(key)).data.updatedAt == request.time
+    && getAfter(article_stats(key)).data.likes == article_expectedCount(key);
+  }
+  function article_editor() { return article_signedIn() && request.auth.token.editor == true; }
+  function article_validId(id) { return id.matches('^[A-Za-z0-9]{20}$'); }
+  function article_text(value, maximum) {
+   return value is string && value.size() > 0 && value.toUtf8().size() <= maximum
+    && value.matches('[\\s\\S]*[^\\s][\\s\\S]*')
+    && !value.matches('[\\s\\S]*[\\x00-\\x08\\x0B\\x0C\\x0E-\\x1F\\x7F][\\s\\S]*');
+  }
+  function article_submission(channel, id) {
+   return channel == 'comment' ? /databases/$(database)/documents/responseCommentSubmissions/$(id)
+    : /databases/$(database)/documents/responsePrivateFeedback/$(id);
+  }
+  function article_acknowledgement(uid, channel, id) { return /databases/$(database)/documents/responseReceipts/$(uid)/$(channel)/$(id); }
+  function article_throttle(uid, channel) { return /databases/$(database)/documents/responseThrottles/$(uid)/channels/$(channel); }
+  function article_newSubmission(channel, id) {
+   return article_validId(id) && !exists(article_submission(channel,id))
+    && getAfter(article_submission(channel,id)).data.uid == request.auth.uid
+    && getAfter(article_submission(channel,id)).data.createdAt == request.time;
+  }
+  function article_pairedReceipt(channel, id) {
+   return !exists(article_acknowledgement(request.auth.uid,channel,id))
+    && getAfter(article_acknowledgement(request.auth.uid,channel,id)).data.submissionId == id
+    && getAfter(article_acknowledgement(request.auth.uid,channel,id)).data.channel == channel
+    && getAfter(article_acknowledgement(request.auth.uid,channel,id)).data.acceptedAt == request.time;
+  }
+  function article_pairedThrottle(channel, id) {
+   return getAfter(article_throttle(request.auth.uid,channel)).data.submissionId == id
+    && getAfter(article_throttle(request.auth.uid,channel)).data.lastSubmittedAt == request.time
+    && (!exists(article_throttle(request.auth.uid,channel)) || get(article_throttle(request.auth.uid,channel)).data.lastSubmittedAt <= request.time - duration.value(60,'s'));
+  }
+  function article_validRef(data) {
+   return data.contentKey is string && article_published(data.contentKey)
+    && data.contentId == get(/databases/$(database)/documents/responseContent/$(data.contentKey)).data.contentId
+    && data.kind == get(/databases/$(database)/documents/responseContent/$(data.contentKey)).data.kind
+    && data.language in get(/databases/$(database)/documents/responseContent/$(data.contentKey)).data.languages
+    && data.language is string && data.language.matches('^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$');
+  }
+  function article_publicCopy(key, id) { return /databases/$(database)/documents/responsePublicComments/$(key)/comments/$(id); }
+  match /responsePublicComments/{key}/comments/{id} {
+   allow get: if article_published(key);
+   allow list: if article_published(key) && request.query.limit != null && request.query.limit <= 20;
+   allow create: if article_editor() && article_validId(id) && article_published(key)
+    && get(article_submission('comment',id)).data.status == 'pending'
+    && get(article_submission('comment',id)).data.contentKey == key
+    && getAfter(article_submission('comment',id)).data.status == 'published'
+    && request.resource.data.keys().hasAll(['id','contentId','kind','language','displayName','message','publishedAt'])
+    && request.resource.data.keys().hasOnly(['id','contentId','kind','language','displayName','message','publishedAt'])
+    && request.resource.data.id == id
+    && request.resource.data.contentId == get(article_submission('comment',id)).data.contentId
+    && request.resource.data.kind == get(article_submission('comment',id)).data.kind
+    && request.resource.data.language == get(article_submission('comment',id)).data.language
+    && request.resource.data.displayName == get(article_submission('comment',id)).data.displayName
+    && request.resource.data.message == get(article_submission('comment',id)).data.message
+    && request.resource.data.publishedAt == request.time;
+   allow delete: if article_editor() && get(article_submission('comment',id)).data.status == 'published'
+    && get(article_submission('comment',id)).data.contentKey == key
+    && getAfter(article_submission('comment',id)).data.status == 'withdrawn';
+  }
+  match /responseCommentSubmissions/{id} {
+   allow create: if article_signedIn() && article_validId(id)
+    && request.resource.data.keys().hasAll(['uid','contentKey','contentId','kind','language','displayName','message','status','consentVersion','createdAt'])
+    && request.resource.data.keys().hasOnly(['uid','contentKey','contentId','kind','language','displayName','message','status','consentVersion','createdAt'])
+    && request.resource.data.uid == request.auth.uid && article_validRef(request.resource.data)
+    && article_text(request.resource.data.displayName,80) && article_text(request.resource.data.message,2000)
+    && request.resource.data.status == 'pending' && request.resource.data.consentVersion == 'public-comments-v1'
+    && request.resource.data.createdAt == request.time
+    && article_pairedReceipt('comment',id) && article_pairedThrottle('comment',id);
+   allow read: if article_editor();
+   allow update: if article_editor() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
+    && ((resource.data.status == 'pending' && request.resource.data.status == 'published'
+      && existsAfter(article_publicCopy(resource.data.contentKey,id))
+      && getAfter(article_publicCopy(resource.data.contentKey,id)).data.publishedAt == request.time)
+     || (resource.data.status == 'pending' && request.resource.data.status == 'rejected'
+      && !existsAfter(article_publicCopy(resource.data.contentKey,id)))
+     || (resource.data.status == 'published' && request.resource.data.status == 'withdrawn'
+      && !existsAfter(article_publicCopy(resource.data.contentKey,id))));
+  }
+  match /responsePrivateFeedback/{id} {
+   allow create: if article_signedIn() && article_validId(id)
+    && request.resource.data.keys().hasAll(['uid','contentKey','contentId','kind','language','name','message','reason','status','consentVersion','createdAt'])
+    && request.resource.data.keys().hasOnly(['uid','contentKey','contentId','kind','language','name','email','message','reason','status','consentVersion','createdAt'])
+    && request.resource.data.uid == request.auth.uid && article_validRef(request.resource.data)
+    && article_text(request.resource.data.name,120) && article_text(request.resource.data.message,5000)
+    && (!('email' in request.resource.data) || (request.resource.data.email is string && request.resource.data.email.toUtf8().size() <= 254 && (request.resource.data.email == '' || request.resource.data.email.matches('^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$'))))
+    && request.resource.data.reason in ['note','correction','submission']
+    && request.resource.data.status == 'received' && request.resource.data.consentVersion == 'private-feedback-v1'
+    && request.resource.data.createdAt == request.time
+    && article_pairedReceipt('feedback',id) && article_pairedThrottle('feedback',id);
+   allow read: if article_editor();
+   allow update: if article_editor() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
+    && ((resource.data.status == 'received' && request.resource.data.status in ['reviewed','closed'])
+     || (resource.data.status == 'reviewed' && request.resource.data.status == 'closed'));
+  }
+  match /responseReceipts/{uid}/{channel}/{id} {
+   allow get: if article_signedIn() && request.auth.uid == uid && channel in ['comment','feedback'];
+   allow create: if article_signedIn() && request.auth.uid == uid && channel in ['comment','feedback'] && article_validId(id)
+    && request.resource.data.keys().hasAll(['submissionId','channel','acceptedAt'])
+    && request.resource.data.keys().hasOnly(['submissionId','channel','acceptedAt'])
+    && request.resource.data.submissionId == id && request.resource.data.channel == channel
+    && request.resource.data.acceptedAt == request.time && article_newSubmission(channel,id) && article_pairedThrottle(channel,id);
+  }
+  match /responseThrottles/{uid}/channels/{channel} {
+   allow get: if article_signedIn() && request.auth.uid == uid && channel in ['comment','feedback'];
+   allow create, update: if article_signedIn() && request.auth.uid == uid && channel in ['comment','feedback']
+    && request.resource.data.keys().hasAll(['submissionId','lastSubmittedAt'])
+    && request.resource.data.keys().hasOnly(['submissionId','lastSubmittedAt'])
+    && request.resource.data.lastSubmittedAt == request.time
+    && (!exists(article_throttle(uid,channel)) || resource.data.lastSubmittedAt <= request.time - duration.value(60,'s'))
+    && article_newSubmission(channel,request.resource.data.submissionId) && article_pairedReceipt(channel,request.resource.data.submissionId);
+  }
+  // Rejected/withdrawn comments are terminal; private feedback has no public projection.
+  match /{document=**} { allow read, write: if false; }
+ 
     match /{document=**} { allow read, write: if false; }
   }
 }

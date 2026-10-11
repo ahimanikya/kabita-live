@@ -1,0 +1,128 @@
+{
+  "recorded_at": "2026-10-06T01:17:54.601206+00:00",
+  "poem_ids": [
+    346,
+    347
+  ],
+  "variants_read": 4,
+  "variants_changed": 3,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 346,
+      "target": "or",
+      "reading_evidence": "Read both full source/target stanzas (5/18 lines): nothingness/nihilistic freedom/spiritual emptiness/invisible silence alternatives; lotus from dark muddy water, submerged beauty waking in pristine purity, reality/eclectic spontaneity; flowering philosophy feminine amid sutra sounds; pearl-white dew on glossy dark-green lily pads, Focus/floating manifestation/scriptural finality/Display/Buddha liberating mind. Lotus and lily pads kept distinct, no imported doctrine. Checked source Amidst as a relation, not merely a nearby lexical cue.",
+      "reason": "Restore sacred femininity amid sutra sounds, rather than placing sounds around an incompletely attached fragment. Reflow three target lines without choosing the unresolved later Focus/Display syntax.",
+      "open_questions": [
+        "Prior batch108: Focus/Display/Finality syntax remains fragmentary and unresolved, not a license to supply a doctrinal sentence.",
+        "Eclectic spontaneity remains a provisional synthesis/diverse-ideas rendering; philosophical and fluent-reader review pending."
+      ],
+      "finding_dispositions": {
+        "prior_flags": "No earlier audit flags. Prior uncertainties carried forward; complete current reading performed."
+      },
+      "tradeoff": "Preserve source ambiguity and complete line sequence; independent review pending, same-assistant self-review only.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 23,
+        "before_lines": [
+          5
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "a0aff684b8ffc58d1054146433cfbe43507808673d75c39a5d96106dcf9b1b48",
+      "before_sha256": "284c5659c032e256c6e189b79d5d9087410950803a7f35493e1b648a265f7ecb",
+      "after_sha256": "9699e1a316dfd9d0a6b24079c69a9bfeb1a323992dedfc3a5be8004c8706e953",
+      "prior_uncertainties": [
+        {
+          "note": "Both blocks [5,18] retained. Abstract syntax (Focus/Display/Finality) remains deliberately fragmentary. Eclectic spontaneity provisionally rendered as spontaneous synthesis of diverse ideas; independent philosophical/linguistic review needed. Lotus flower and lily pads remain distinct source images; no Buddhist doctrine inferred.",
+          "record": "kb/production/translations/batch-108/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 346,
+      "target": "hi",
+      "reading_evidence": "Read both full source/target stanzas (5/18 lines): nothingness/nihilistic freedom/spiritual emptiness/invisible silence alternatives; lotus from dark muddy water, submerged beauty waking in pristine purity, reality/eclectic spontaneity; flowering philosophy feminine amid sutra sounds; pearl-white dew on glossy dark-green lily pads, Focus/floating manifestation/scriptural finality/Display/Buddha liberating mind. Lotus and lily pads kept distinct, no imported doctrine. Checked source Amidst as a relation, not merely a nearby lexical cue.",
+      "reason": "Restore the amidst relation and remove the broken ka-stritva-ke construction. Reflow the three lines but leave later philosophical syntax provisional.",
+      "open_questions": [
+        "Prior batch108: Focus/Display/Finality syntax remains fragmentary and unresolved, not a license to supply a doctrinal sentence.",
+        "Eclectic spontaneity remains a provisional synthesis/diverse-ideas rendering; philosophical and fluent-reader review pending."
+      ],
+      "finding_dispositions": {
+        "prior_flags": "No earlier audit flags. Prior uncertainties carried forward; complete current reading performed."
+      },
+      "tradeoff": "Preserve source ambiguity and complete line sequence; independent review pending, same-assistant self-review only.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 23,
+        "before_lines": [
+          5
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "a0aff684b8ffc58d1054146433cfbe43507808673d75c39a5d96106dcf9b1b48",
+      "before_sha256": "1732dd301af48e26e5a11eb491929af10478dc28f3bd97ac6bf5e7b4bc1808fb",
+      "after_sha256": "95da6de75bf6a8fd2931b70e9a0632e1e5282493744913bbf43a44c8d754f679",
+      "prior_uncertainties": [
+        {
+          "note": "Both blocks [5,18] retained. Abstract syntax (Focus/Display/Finality) remains deliberately fragmentary. Eclectic spontaneity provisionally rendered as spontaneous synthesis of diverse ideas; independent philosophical/linguistic review needed. Lotus flower and lily pads remain distinct source images; no Buddhist doctrine inferred.",
+          "record": "kb/production/translations/batch-108/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 347,
+      "target": "or",
+      "reading_evidence": "Read both five-line source and target stanzas: self-doubt split, first slim/desiccated, second round/confident compared to R kakima met in crowded January train, one month before diagnosis/two before death; abrupt fear-rinsing, capful of blue detergent per bucket, copper sulphate and teachers knowing this problem, overgrown anxiety bushes/garden scissors. Preserve the shifting domestic/garden images and exact timeline; no diagnosis or cause of death inferred.",
+      "reason": "Retain the complete understated translation, intact timeline and abrupt metaphor transitions. No supported further correction after full reading.",
+      "open_questions": [
+        "Kakima kept as the source address, without asserting a biological kinship or narrator relationship.",
+        "The two-part wordplay is retained in a target compound, but its exact visual/phonetic effect changes across scripts; no invented typographic solution or interpretation of R supplied."
+      ],
+      "finding_dispositions": {
+        "prior_flags": "No earlier audit flags. Prior uncertainties carried forward; complete current reading performed."
+      },
+      "tradeoff": "Preserve source ambiguity and complete line sequence; independent review pending, same-assistant self-review only.",
+      "full_source_target_read": true,
+      "source_sha256": "98ca0278032f7a2d6a1e5a6d5b781eef6d77024a1cbf8f95e4de93422e81481c",
+      "before_sha256": "39608742ee64a0ff88c23c67af4c20e2d5d80a84faa3e555cd08466bd69f99d6",
+      "after_sha256": "39608742ee64a0ff88c23c67af4c20e2d5d80a84faa3e555cd08466bd69f99d6",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 347,
+      "target": "hi",
+      "reading_evidence": "Read both five-line source and target stanzas: self-doubt split, first slim/desiccated, second round/confident compared to R kakima met in crowded January train, one month before diagnosis/two before death; abrupt fear-rinsing, capful of blue detergent per bucket, copper sulphate and teachers knowing this problem, overgrown anxiety bushes/garden scissors. Preserve the shifting domestic/garden images and exact timeline; no diagnosis or cause of death inferred.",
+      "reason": "Use neutral first-person encounter phrasing to remove unsupported feminine speaker agreement without changing the crowded-train meeting or timing.",
+      "open_questions": [
+        "Kakima kept as the source address, without asserting a biological kinship or narrator relationship.",
+        "The two-part wordplay is retained in a target compound, but its exact visual/phonetic effect changes across scripts; no invented typographic solution or interpretation of R supplied."
+      ],
+      "finding_dispositions": {
+        "prior_flags": "No earlier audit flags. Prior uncertainties carried forward; complete current reading performed."
+      },
+      "tradeoff": "Preserve source ambiguity and complete line sequence; independent review pending, same-assistant self-review only.",
+      "full_source_target_read": true,
+      "source_sha256": "98ca0278032f7a2d6a1e5a6d5b781eef6d77024a1cbf8f95e4de93422e81481c",
+      "before_sha256": "5aa74c07116bc21f89a39d27998441a005e0c20a150b7a7c39d5f1f1d9f97d78",
+      "after_sha256": "d1da63ad30903836f3288de4a5e775cb5f66e8d68bfb85774de4e02de59c9c19",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

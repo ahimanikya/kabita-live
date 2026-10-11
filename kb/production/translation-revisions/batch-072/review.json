@@ -1,0 +1,244 @@
+{
+  "recorded_at": "2026-10-05T16:25:57.602758+00:00",
+  "poem_ids": [
+    496,
+    497,
+    500,
+    498,
+    499
+  ],
+  "variants_read": 10,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 496,
+      "target": "hi",
+      "reading_evidence": "Read all six source/target stanzas: fivefold sparklers/joy/mother sharing light, tender foot blister and melting fire/longing, learning fire while heart burns, Mother/dark prohibition and foot ambiguity, moth burning/falling and lamp holding light, burning darkness/moonless flicker/heart/body-lamp and final question. No family number inferred from five shares.",
+      "reason": "Retain the fivefold repetition, fire and heart sequence and inversion of darkness prohibition; existing Hindi carries the temporal relation.",
+      "open_questions": [
+        "Mother/addressee and foot remains wording stay ambiguous. Lobha as longing/lalasa retains a possible greed resonance pending fluent review."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "4940ae6791fb016f281d4454b0de708389c7af863f583e0bea2a17580341700e",
+      "before_sha256": "825132a0b5b901987bc111914451a88e5fd55bfea95c3d0cd5a6a4751357a4e0",
+      "after_sha256": "825132a0b5b901987bc111914451a88e5fd55bfea95c3d0cd5a6a4751357a4e0",
+      "prior_uncertainties": [
+        {
+          "note": "Six stanzas retained with fivefold sharing, blister/fire, moth and lamp imagery. Mother/addressee and foot-remains ambiguity retained; no invented family count. ଲୋଭ rendered longing/lalasa in context, with greed resonance for review.",
+          "record": "kb/production/translations/batch-070/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 496,
+      "target": "en",
+      "reading_evidence": "Read all six source/target stanzas: fivefold sparklers/joy/mother sharing light, tender foot blister and melting fire/longing, learning fire while heart burns, Mother/dark prohibition and foot ambiguity, moth burning/falling and lamp holding light, burning darkness/moonless flicker/heart/body-lamp and final question. No family number inferred from five shares.",
+      "reason": "Make the by-the-time relation and already-burned heart readable, removing the dangling that clause without adding a new participant.",
+      "open_questions": [
+        "Mother/addressee and foot remains wording stay ambiguous. Lobha as longing/lalasa retains a possible greed resonance pending fluent review."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "4940ae6791fb016f281d4454b0de708389c7af863f583e0bea2a17580341700e",
+      "before_sha256": "734f269e2dbc008611ef63264ba353eaebcc27e9dd8cb109f3ddf2952bab9444",
+      "after_sha256": "db042f918540ed38ed249516ee4d2dc47c6dda204db7c08bba837c2757ce88fc",
+      "prior_uncertainties": [
+        {
+          "note": "Six stanzas retained with fivefold sharing, blister/fire, moth and lamp imagery. Mother/addressee and foot-remains ambiguity retained; no invented family count. ଲୋଭ rendered longing/lalasa in context, with greed resonance for review.",
+          "record": "kb/production/translations/batch-070/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 497,
+      "target": "hi",
+      "reading_evidence": "Complete two verse stanzas and professional tail read: trembling/falling words and earthquake ruins, baby girl protected by dead mother, words surviving landslide/ashes/bones, rain/thunder wounded words, moon/sun weaving gold-silver nets, memory-fragrance gust, lament over dead farmer and words fleeing hungry refugee, poem lines tearing themselves. Original contributor affiliation preserved.",
+      "reason": "Retain source agency of surviving, lamenting and fleeing words and the paired social images; no cause of farmer death or refugee displacement inferred.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "0efd994dea2a20034b1b2571c9fd078703d9bf28d9642bc59fd3fda6d96fc6dd",
+      "before_sha256": "d27a0202b525cf40c2a569f783061a45b08ecbae7f7b35047ad07fefd898b4c1",
+      "after_sha256": "d27a0202b525cf40c2a569f783061a45b08ecbae7f7b35047ad07fefd898b4c1",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 497,
+      "target": "en",
+      "reading_evidence": "Complete two verse stanzas and professional tail read: trembling/falling words and earthquake ruins, baby girl protected by dead mother, words surviving landslide/ashes/bones, rain/thunder wounded words, moon/sun weaving gold-silver nets, memory-fragrance gust, lament over dead farmer and words fleeing hungry refugee, poem lines tearing themselves. Original contributor affiliation preserved.",
+      "reason": "Keep the repeated alternation but remove the split possessives that make the light-weaving image unnecessarily hard to parse.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "0efd994dea2a20034b1b2571c9fd078703d9bf28d9642bc59fd3fda6d96fc6dd",
+      "before_sha256": "db26e5ce79f06bea0996392b1dd28b335ebd915d4f329f55fff80aae0ddfe5ec",
+      "after_sha256": "3d7e5cc0aab36893871e2a3c6314b0d458c1284b1170260e132fbf19476b85e4",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 500,
+      "target": "hi",
+      "reading_evidence": "Complete five source/target verse stanzas plus four-line job/address tail: ordinary-man refrain, price/weather/cricket limits, wife abuse then her wound care, quarrel/theft/liquor/queues/government parents, jasmine and renewed theft, card play/schemes, floods/drought/worker money/leisure/paid rally/opposing slogans/food-liquor-sleep. All named schemes, uncertain money token and satirical first-person agency checked.",
+      "reason": "Make the government-as-both-parents assertion grammatical without softening the narrator’s entitlement or abuse.",
+      "open_questions": [
+        "PNR-045/047 money token ପାଁଶ remains unresolved; no five/five-hundred guess.",
+        "PNR-046/048 professional designation/address remain preserved raw. Current reading-data still contains all 50 lines (46 verse plus four tail) in all languages; source-boundary/editorial reconciliation remains open, not claimed fixed.",
+        "PNR-049 English bitch remains a provisional force-equivalent for the wife-directed insult; fluent tone review required without sanitising the abusive speaker or inventing a sister-in-law.",
+        "Card terms sahib/bibi/ghulam and flood/drought wording need context review; scheme names are source satire, not verified current benefits or policy."
+      ],
+      "finding_dispositions": {
+        "PNR-045": "unresolved_source_word_hold",
+        "PNR-046": "unresolved_source_boundary_hold; raw four-line tail preserved"
+      },
+      "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "cc020422afe286d9c1e4274c32a71c3a0269e760cf252f79cc9596b5d4d13e3c",
+      "before_sha256": "da693b4e8496622ff85a513f92d7806c4f25c9ffba1d2698f5c2e39d5bc42fc4",
+      "after_sha256": "69fe2e0ff9ef5678cce05fad4705379ed70711e156a29f91a3a4edd5ff73038b",
+      "prior_uncertainties": [
+        {
+          "note": "Satirical abusive first-person speaker retained; domestic abuse not endorsed or softened. ଶାଳୀ functions as an insult to the wife here, not a newly introduced sister-in-law; English bitch is a provisional force-equivalent requiring tone review. Monetary token ପାଁଶ is unclear and retained literally in quotation marks rather than guessing five/five hundred. Scheme names and final job/address retained; no benefits/current-policy facts asserted.",
+          "record": "kb/production/translations/batch-070/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 500,
+      "target": "en",
+      "reading_evidence": "Complete five source/target verse stanzas plus four-line job/address tail: ordinary-man refrain, price/weather/cricket limits, wife abuse then her wound care, quarrel/theft/liquor/queues/government parents, jasmine and renewed theft, card play/schemes, floods/drought/worker money/leisure/paid rally/opposing slogans/food-liquor-sleep. All named schemes, uncertain money token and satirical first-person agency checked.",
+      "reason": "Restore ordinary relative-clause order in the wife’s care of the narrator’s wounds, preserving whose wounds and when; leave insult intensity held.",
+      "open_questions": [
+        "PNR-045/047 money token ପାଁଶ remains unresolved; no five/five-hundred guess.",
+        "PNR-046/048 professional designation/address remain preserved raw. Current reading-data still contains all 50 lines (46 verse plus four tail) in all languages; source-boundary/editorial reconciliation remains open, not claimed fixed.",
+        "PNR-049 English bitch remains a provisional force-equivalent for the wife-directed insult; fluent tone review required without sanitising the abusive speaker or inventing a sister-in-law.",
+        "Card terms sahib/bibi/ghulam and flood/drought wording need context review; scheme names are source satire, not verified current benefits or policy."
+      ],
+      "finding_dispositions": {
+        "PNR-047": "unresolved_source_word_hold",
+        "PNR-048": "unresolved_source_boundary_hold; raw four-line tail preserved",
+        "PNR-049": "unresolved_register_hold; abusive narrator preserved without further intensification"
+      },
+      "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "cc020422afe286d9c1e4274c32a71c3a0269e760cf252f79cc9596b5d4d13e3c",
+      "before_sha256": "65533e39f337f808d4564003977e2d4babc77d4437e1c0b04558449dda293983",
+      "after_sha256": "9ab1f6b129336b8e15e710288bbc9abc9222daa4a6e445163d2f4bdf628126fd",
+      "prior_uncertainties": [
+        {
+          "note": "Satirical abusive first-person speaker retained; domestic abuse not endorsed or softened. ଶାଳୀ functions as an insult to the wife here, not a newly introduced sister-in-law; English bitch is a provisional force-equivalent requiring tone review. Monetary token ପାଁଶ is unclear and retained literally in quotation marks rather than guessing five/five hundred. Scheme names and final job/address retained; no benefits/current-policy facts asserted.",
+          "record": "kb/production/translations/batch-070/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 498,
+      "target": "or",
+      "reading_evidence": "Read fourteen source/target verse lines and city tail: mother smiling at trunk, narrator sitting near her head and seeing childhood, elder sister doll/brother gun, red Banarasi/hidden tears, dual parent roles and father-strength saying, shoulder offered and weeping until dawn, sunrise message. No father death or garment history invented.",
+      "reason": "Retain the warm domestic sequence, source elder-sister term and unassigned collective weeping; no need to add a bereavement narrative.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "63dff6fdf2bb2481cceda40bfc0416cdfd4b040f85c96f5b7375e39043e94c66",
+      "before_sha256": "6083487a2f30d0e970cdd788e05bd72f6c69ed6f3b7c5efcca3a73b294cb928a",
+      "after_sha256": "6083487a2f30d0e970cdd788e05bd72f6c69ed6f3b7c5efcca3a73b294cb928a",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 498,
+      "target": "en",
+      "reading_evidence": "Read fourteen source/target verse lines and city tail: mother smiling at trunk, narrator sitting near her head and seeing childhood, elder sister doll/brother gun, red Banarasi/hidden tears, dual parent roles and father-strength saying, shoulder offered and weeping until dawn, sunrise message. No father death or garment history invented.",
+      "reason": "Restore the elder relationship explicitly supplied by didi and remove the added we who jointly weep until dawn; the source leaves that subject unstated.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "63dff6fdf2bb2481cceda40bfc0416cdfd4b040f85c96f5b7375e39043e94c66",
+      "before_sha256": "e8c0d72b2a31f9ef2cd4212c1bcc060edda96cb81f2229cecf2f97bf533761bf",
+      "after_sha256": "c46a0f1d923e8cf90f6e5fccb82c933bfa5d58f574e9cbb05a248dbc185f7f28",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 499,
+      "target": "or",
+      "reading_evidence": "All ten source/target stanzas read: fearlessly breaking restrictions/new path, banner/victories/milestones, unclear cruelty/stratagem/questions line, wind-dance/crowd/revolution, sky heights/sea pearls, wings/independent life, tear-dew/modesty/intoxication/poetry/worship, river/breeze/call, pen/pages/Majaz/realm, world-from-you and not-captive identity close. All imperatives and explicit negation checked.",
+      "reason": "Retain accurate exhortatory passages and record damaged clauses rather than replacing them with a smoother new poem.",
+      "open_questions": [
+        "Tu yun kar har sitam/har chaal aur sawaal is damaged or incomplete; literal instruction remains held rather than inventing withstand/answer/defy.",
+        "Majaz may be a word, address or pen-name; current quoted transliteration remains provisional, not an established proper name. Source ku is provisionally tu in the realm line.",
+        "Height-from-heights and pearl-reaching syntax remains unusual source language. No completion invented or empowerment claim used to override the explicit words."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "822a139256c218fc8222912d3b72e3deb0a40ca56199fb88d6cca4268b6986f8",
+      "before_sha256": "328ac3ce5834c44e1d70f8a2c43a49dc903276deab945aaad80122e605bf8235",
+      "after_sha256": "328ac3ce5834c44e1d70f8a2c43a49dc903276deab945aaad80122e605bf8235",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 499,
+      "target": "en",
+      "reading_evidence": "All ten source/target stanzas read: fearlessly breaking restrictions/new path, banner/victories/milestones, unclear cruelty/stratagem/questions line, wind-dance/crowd/revolution, sky heights/sea pearls, wings/independent life, tear-dew/modesty/intoxication/poetry/worship, river/breeze/call, pen/pages/Majaz/realm, world-from-you and not-captive identity close. All imperatives and explicit negation checked.",
+      "reason": "Retain clear banner/wings/tear-dew/river/pen images; the unclear cruelty and Majaz lines remain source questions, not successful fixes.",
+      "open_questions": [
+        "Tu yun kar har sitam/har chaal aur sawaal is damaged or incomplete; literal instruction remains held rather than inventing withstand/answer/defy.",
+        "Majaz may be a word, address or pen-name; current quoted transliteration remains provisional, not an established proper name. Source ku is provisionally tu in the realm line.",
+        "Height-from-heights and pearl-reaching syntax remains unusual source language. No completion invented or empowerment claim used to override the explicit words."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "822a139256c218fc8222912d3b72e3deb0a40ca56199fb88d6cca4268b6986f8",
+      "before_sha256": "7de542e34ddb087a92d53e5a7b81ba8f6b0517de981fea3c32466a789579dc0b",
+      "after_sha256": "7de542e34ddb087a92d53e5a7b81ba8f6b0517de981fea3c32466a789579dc0b",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

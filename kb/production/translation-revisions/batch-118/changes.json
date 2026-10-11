@@ -1,0 +1,515 @@
+[
+  {
+    "poem_id": 317,
+    "target": "hi",
+    "reading_evidence": "Read full source and both complete targets: five blocks of absence, eyes searching flowers/stars/word joins, fixed feet and chains versus entanglements, longest days, hypothetical nebula/pearls/dancing/plant/shadow/laughter contagion, butterfly/rainbow/moon/madness/learning, hide-and-seek and naked trembling days.",
+    "open_questions": [
+      "Absence does not necessarily mean death. Odia does not establish gender of either participant; preserve this uncertainty.",
+      "The strength comparison and the attachment of contagious to laughter remain provisional readings.",
+      "Hindi masculine speaker and absent-person grammar remain provisional."
+    ],
+    "reason": "Restore hard-to-understand rather than hard-to-traverse meaning of durbodhya; make the source first-person hypothetical flight explicit instead of allowing the absent person to inherit agency.",
+    "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "a172b17511e7962623bdccc988e41137c89bff1d1f322544c163de336bc4d2da",
+    "before_sha256": "b1bc0f315a96537e76123a014834562437fcb4dd1c7d7225e3e2b4f697d1d7f5",
+    "after_sha256": "5b5b13dcd3fab6fe38da56a19ee5d7d435aff3159d92a05e877d47146a815cd7",
+    "prior_uncertainties": [
+      {
+        "note": "All five blocks retained. Odia pronouns do not specify gender: English shifts to direct you in later stanzas to avoid assigning gender; Hindi masculine grammar provisional. Absence not asserted to mean death. Infected laughter/stricken narrator metaphor preserved.",
+        "record": "kb/production/translations/batch-113/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "अनुपस्थिति के दिन",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "कब से उसका चेहरा नहीं देखा",
+          "कितने दिन, कितने युग या कुछ क्षण",
+          "आँखें खोजती हैं फूलों की भीड़ में",
+          "नक्षत्रों के मेले में",
+          "कविता के शब्दों के जोड़ या सिहरन में",
+          "पर जो पाँवों का जोड़ा स्थिर है",
+          "वही जानता है ज़ंजीर से बढ़कर जंजाल का बल!"
+        ],
+        [
+          "उसकी अनुपस्थिति के दिन सबसे लंबे हैं",
+          "जैसे प्रेम के संवाद",
+          "दुख का विलाप",
+          "कविता में कवि के जीवन की तरह",
+          "दारुण, दुर्गम, फिर भी नितांत अपना"
+        ],
+        [
+          "वह होता तो क्या होता जो नहीं हुआ",
+          "क्या नीहारिका तक उड़ जाता",
+          "मोती या नक्षत्र खोज लाता",
+          "नृत्य से धरती चीरकर",
+          "कोई पौधा रोप देता",
+          "जिसकी डाल पर झूलती",
+          "उसकी छाया",
+          "उसकी हँसी",
+          "संक्रामक, और मैं रोगग्रस्त!"
+        ],
+        [
+          "वह सदा मेरे भीतर रह गया",
+          "कभी मुझे तितली बनाकर सजाया",
+          "कभी इंद्रधनुष",
+          "कभी आधा-अधूरा चाँद",
+          "कभी पागल, कभी विद्वान",
+          "यह लुकाछिपी का खेल बहुत थकाता है",
+          "जैसे उदास रात का",
+          "वह हाहाकार जो खोया नहीं"
+        ],
+        [
+          "अनुपस्थिति के दिन",
+          "कितने नग्न, नीरव",
+          "फिर अँधेरे के आवरण तले",
+          "कँपते, मूर्छित और मुरझाते!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "अनुपस्थिति के दिन",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "कब से उसका चेहरा नहीं देखा",
+          "कितने दिन, कितने युग या कुछ क्षण",
+          "आँखें खोजती हैं फूलों की भीड़ में",
+          "नक्षत्रों के मेले में",
+          "कविता के शब्दों के जोड़ या सिहरन में",
+          "पर जो पाँवों का जोड़ा स्थिर है",
+          "वही जानता है ज़ंजीर से बढ़कर जंजाल का बल!"
+        ],
+        [
+          "उसकी अनुपस्थिति के दिन सबसे लंबे हैं",
+          "जैसे प्रेम के संवाद",
+          "दुख का विलाप",
+          "कविता में कवि के जीवन की तरह",
+          "दारुण, दुर्बोध, फिर भी नितांत अपना"
+        ],
+        [
+          "वह होता तो क्या होता जो नहीं हुआ",
+          "क्या मैं नीहारिका तक उड़ जाता",
+          "मोती या नक्षत्र खोज लाता",
+          "नृत्य से धरती चीरकर",
+          "कोई पौधा रोप देता",
+          "जिसकी डाल पर झूलती",
+          "उसकी छाया",
+          "उसकी हँसी",
+          "संक्रामक, और मैं रोगग्रस्त!"
+        ],
+        [
+          "वह सदा मेरे भीतर रह गया",
+          "कभी मुझे तितली बनाकर सजाया",
+          "कभी इंद्रधनुष",
+          "कभी आधा-अधूरा चाँद",
+          "कभी पागल, कभी विद्वान",
+          "यह लुकाछिपी का खेल बहुत थकाता है",
+          "जैसे उदास रात का",
+          "वह हाहाकार जो खोया नहीं"
+        ],
+        [
+          "अनुपस्थिति के दिन",
+          "कितने नग्न, नीरव",
+          "फिर अँधेरे के आवरण तले",
+          "कँपते, मूर्छित और मुरझाते!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 317,
+    "target": "en",
+    "reading_evidence": "Read full source and both complete targets: five blocks of absence, eyes searching flowers/stars/word joins, fixed feet and chains versus entanglements, longest days, hypothetical nebula/pearls/dancing/plant/shadow/laughter contagion, butterfly/rainbow/moon/madness/learning, hide-and-seek and naked trembling days.",
+    "open_questions": [
+      "Absence does not necessarily mean death. Odia does not establish gender of either participant; preserve this uncertainty.",
+      "The strength comparison and the attachment of contagious to laughter remain provisional readings."
+    ],
+    "reason": "Restore the source third-person absent referent throughout using singular they; earlier direct you avoided gender but changed the poems distance and address.",
+    "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "a172b17511e7962623bdccc988e41137c89bff1d1f322544c163de336bc4d2da",
+    "before_sha256": "de352984bb4c257f68834be72c9db2840d1ef829337077cb4f5a33cd37fe0d4a",
+    "after_sha256": "4dfff203ac8cbc1f132f592708530e609e4c9c6801b7b7e4f45a81d7b3bbe8cf",
+    "prior_uncertainties": [
+      {
+        "note": "All five blocks retained. Odia pronouns do not specify gender: English shifts to direct you in later stanzas to avoid assigning gender; Hindi masculine grammar provisional. Absence not asserted to mean death. Infected laughter/stricken narrator metaphor preserved.",
+        "record": "kb/production/translations/batch-113/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Days of Absence",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "How long since I saw that face—",
+          "how many days, how many ages, or a few moments?",
+          "The eyes search among clustered flowers,",
+          "among gatherings of stars,",
+          "in the joins of a poem's words, or its shiver.",
+          "But the pair of feet that stands still",
+          "knows entanglement's strength beyond that of chains!"
+        ],
+        [
+          "The days of that absence are the longest,",
+          "like love's conversations,",
+          "sorrow's lament,",
+          "like the poet's life in a poem:",
+          "terrible, hard to fathom, yet wholly one's own."
+        ],
+        [
+          "Had you been here, what would have happened that did not?",
+          "Would I have flown as far as a nebula,",
+          "brought back pearls or stars,",
+          "split the earth with dancing",
+          "and planted a growing thing",
+          "on whose branches would sway",
+          "your shadow,",
+          "your laughter,",
+          "contagious—and I, stricken!"
+        ],
+        [
+          "You stayed within me always.",
+          "One day you fashioned me into a butterfly,",
+          "one day a rainbow,",
+          "one day a half-finished moon,",
+          "one day mad, one day learned.",
+          "This hide-and-seek is so exhausting,",
+          "like a desolate night's",
+          "outcry that has not disappeared."
+        ],
+        [
+          "The days of absence—",
+          "how naked, silent,",
+          "and beneath darkness's covering,",
+          "trembling, fainting and fading!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Days of Absence",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "How long since I saw that face—",
+          "how many days, how many ages, or a few moments?",
+          "The eyes search among clustered flowers,",
+          "among gatherings of stars,",
+          "in the joins of a poem's words, or its shiver.",
+          "But the pair of feet that stands still",
+          "knows entanglement's strength beyond that of chains!"
+        ],
+        [
+          "The days of that absence are the longest,",
+          "like love's conversations,",
+          "sorrow's lament,",
+          "like the poet's life in a poem:",
+          "terrible, hard to fathom, yet wholly one's own."
+        ],
+        [
+          "Had they been here, what would have happened that did not?",
+          "Would I have flown as far as a nebula,",
+          "brought back pearls or stars,",
+          "split the earth with dancing",
+          "and planted a growing thing",
+          "on whose branches would sway",
+          "their shadow,",
+          "their laughter,",
+          "contagious—and I, stricken!"
+        ],
+        [
+          "They stayed within me always.",
+          "One day they fashioned me into a butterfly,",
+          "one day a rainbow,",
+          "one day a half-finished moon,",
+          "one day mad, one day learned.",
+          "This hide-and-seek is so exhausting,",
+          "like a desolate night's",
+          "outcry that has not disappeared."
+        ],
+        [
+          "The days of absence—",
+          "how naked, silent,",
+          "and beneath darkness's covering,",
+          "trembling, fainting and fading!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 306,
+    "target": "en",
+    "reading_evidence": "Read all thirty source lines and each complete target: old-age threshold, belonging/existence, solitary roadside body, loving shade, lifelong care and self-denial, six repeated who-is-she questions and the final who/whose question, avoidance even of shadow, refusal of spare time, refusal to recognize despite light, final helpless-mother revelation. Female referent is explicit in Hindi; no family identity invented.",
+    "open_questions": [],
+    "reason": "Keep the explicit mother naming until the source final line instead of introducing it early; repair mechanical object displacement at recognition while retaining two lines and the refusal to see.",
+    "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "41de754ddbb80514ddac80f7ca064e59583263203e6377e9b8347e9665e3f5e7",
+    "before_sha256": "939709d8f6e0b8b8c08d1990c00a02c9e499a3bcbf4fe079894292c20896170e",
+    "after_sha256": "eb94be4072ffdc9968b913f36a50f13d6f23dd7051181d63a8b47187d2e0289b",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Who Is She?",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "On the threshold of old age....",
+          "yearning to belong,",
+          "who is she, I wonder?",
+          "With eyes grown weary...",
+          "searching for her own existence,",
+          "who is she, I wonder?",
+          "Alone, utterly alone.........",
+          "lying by the roadside,",
+          "like a lifeless thing,",
+          "who is she, I wonder?",
+          "Once she sheltered her own in a mother's loving shade...",
+          "today she pins her hope of kindness on strangers,",
+          "who is she, I wonder?",
+          "An entire lifetime spent worrying...",
+          "shaping the lives of her own,",
+          "once forgetting herself, absorbed...",
+          "in caring for those she loved,",
+          "who is she, I wonder?",
+          "Setting aside every wish of her own,",
+          "all her life she bore each pain with a smile,",
+          "who is she, I wonder?",
+          "Now no one wants to come...",
+          "face to face with her; even her shadow today...",
+          "is something everyone wants to avoid,",
+          "not even their spare time will they give her....",
+          "not even her own,",
+          "though there is light, her....",
+          "no one wishes to recognise.",
+          "Who, after all, and whose is she....",
+          "that helpless mother??"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Who Is She?",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "On the threshold of old age....",
+          "yearning to belong,",
+          "who is she, I wonder?",
+          "With eyes grown weary...",
+          "searching for her own existence,",
+          "who is she, I wonder?",
+          "Alone, utterly alone.........",
+          "lying by the roadside,",
+          "like a lifeless thing,",
+          "who is she, I wonder?",
+          "Once she spread a loving shade over her own...",
+          "today she pins her hope of kindness on strangers,",
+          "who is she, I wonder?",
+          "An entire lifetime spent worrying...",
+          "shaping the lives of her own,",
+          "once forgetting herself, absorbed...",
+          "in caring for those she loved,",
+          "who is she, I wonder?",
+          "Setting aside every wish of her own,",
+          "all her life she bore each pain with a smile,",
+          "who is she, I wonder?",
+          "Now no one wants to come...",
+          "face to face with her; even her shadow today...",
+          "is something everyone wants to avoid,",
+          "not even their spare time will they give her....",
+          "not even her own,",
+          "even in the light....",
+          "no one wishes to recognise her.",
+          "Who, after all, and whose is she....",
+          "that helpless mother??"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 304,
+    "target": "or",
+    "reading_evidence": "Read entire ten-line source and both complete targets: clock/fridge/kettle/rice-cooker personification, painful spine melting as mozzarella, jelly knees waltzing to doorbell, long three-flower laughter sequence, whispered shoreline crossing. Shoreline not expanded into death.",
+    "open_questions": [
+      "Source flower spellings and gigleds remain source issues; Alamonda species not asserted."
+    ],
+    "reason": "Use natural Odia whisper onomatopoeia in the quietly heard final invitation; preserve domestic surrealism and unexplicated shoreline.",
+    "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "5465da1f02a58121fbe871eee8be7d2c27e3f458a010b9b0a93db2d7c643d404",
+    "before_sha256": "e365c10cd40ddfeff62674d99e58809c25296fa32a981fb1d77afc1c6258c001",
+    "after_sha256": "c5004f688d89cc76e9adb5d5f760039df8861da29afbec996b4ecc2cf9db12a9",
+    "prior_uncertainties": [
+      {
+        "note": "All ten lines including single long flower line retained. Misspellings Jarbera/gigleds/fuscia/Jinia read gerbera/giggles/fuchsia/zinnia; Alamonda transliterated without identifying a species. Domestic personification and shoreline ambiguity preserved.",
+        "record": "kb/production/translations/batch-114/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପାର ହେବା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଶେଯ ପାଖ ଘଣ୍ଟା ବାଜେ",
+          "ଫ୍ରିଜ୍ ହାଇ ମାରେ",
+          "ବିଦ୍ୟୁତ୍ କେତଲି ଡାକେ",
+          "ରାଇସ୍ କୁକର ସିଟି ମାରେ",
+          "ଯନ୍ତ୍ରଣାରେ ଗୁଡ଼ା ମୋ ମେରୁଦଣ୍ଡ",
+          "ମୋଜାରେଲା ଚିଜ୍ ପରି ତରଳେ।",
+          "ଜେଲି ପରି ଆଣ୍ଠୁ କବାଟ ଘଣ୍ଟିର ସ୍ୱରରେ ୱାଲ୍ଟ୍‌ଜ୍ ନାଚେ।",
+          "ଗୋଲାପୀ ଜର୍ବେରା ହସେ, ଧଳା ଆଲାମୋଣ୍ଡା ଖିଲିଖିଲି ହସେ, ଫ୍ୟୁଶିଆ ରଙ୍ଗର ଜିନିଆ ମୁରୁକି ହସେ",
+          "କେଉଁଠି କେହି ଫୁସଫୁସ କରେ",
+          "ତଟ ପାର ହେବାର ସମୟ ହେଲାଣି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପାର ହେବା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଶେଯ ପାଖ ଘଣ୍ଟା ବାଜେ",
+          "ଫ୍ରିଜ୍ ହାଇ ମାରେ",
+          "ବିଦ୍ୟୁତ୍ କେତଲି ଡାକେ",
+          "ରାଇସ୍ କୁକର ସିଟି ମାରେ",
+          "ଯନ୍ତ୍ରଣାରେ ଗୁଡ଼ା ମୋ ମେରୁଦଣ୍ଡ",
+          "ମୋଜାରେଲା ଚିଜ୍ ପରି ତରଳେ।",
+          "ଜେଲି ପରି ଆଣ୍ଠୁ କବାଟ ଘଣ୍ଟିର ସ୍ୱରରେ ୱାଲ୍ଟ୍‌ଜ୍ ନାଚେ।",
+          "ଗୋଲାପୀ ଜର୍ବେରା ହସେ, ଧଳା ଆଲାମୋଣ୍ଡା ଖିଲିଖିଲି ହସେ, ଫ୍ୟୁଶିଆ ରଙ୍ଗର ଜିନିଆ ମୁରୁକି ହସେ",
+          "କେଉଁଠି କେହି ଫିସ୍‌ଫିସ୍‌ କରେ",
+          "ତଟ ପାର ହେବାର ସମୟ ହେଲାଣି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 305,
+    "target": "hi",
+    "reading_evidence": "Read full twenty-one-line English source and both complete targets including their opening-line titles: sunset/leaves/wind/traffic, unspent day, career worries/opportunities, distant evening tea, two middle-aged people in senility handcuffs, girl becoming earning woman/losing dreams, present moment, crowd/oblivion, present patting buddy and final sigh.",
+    "open_questions": [
+      "Source too-full/what-life-should-be and getting-dismissed phrases remain unusual and provisional; do not substitute a career narrative not stated.",
+      "Female Hindi narrator is plausible from girl/woman passage but not independently confirmed; two waiting people are not explicitly named parents."
+    ],
+    "reason": "Preserve the closing sigh as an expressive response, not merely a long breath; keep the rest of the unresolved answer intact.",
+    "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "e5bed8ce2da82c745696034d9028b3f54161bedfb0adf63ec250cf36b3174a78",
+    "before_sha256": "30179f7892a45b8ddbb8c1ef18347465d5ce5bf272348f8b29f0219de4bddc9a",
+    "after_sha256": "1352bc6b909ec8c37b00dfd1c059e03d8822febf819784de6e715efc976b8c5c",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "इस शाम के बारे में मैं लिख भी क्या सकती हूँ?",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "इस शाम के बारे में मैं लिख भी क्या सकती हूँ?",
+          "आकाश में सूर्यास्त को बिखरते देख सकती थी,",
+          "पत्ते धीरे-धीरे ख़ुद को झाड़ रहे हैं,",
+          "हल्की हवा आगे बढ़ रही है,",
+          "सैकड़ों गाड़ियाँ और लोग गुज़र रहे हैं,",
+          "और मैं, पूरे दिन को विदा होने के लिए तैयार देखने की प्रतीक्षा में।",
+          "चीज़ें बिखेर दी गई हैं,",
+          "एक सुंदर दिन युवावस्था की हज़ारों चिंताओं में खो गया है,",
+          "एक और दिन पूरी तरह जिए बिना गुज़र गया।",
+          "ये दिन बिल्कुल नीरस हैं, बहुत कुछ देते हुए",
+          "पर मैं इतनी भरी हुई हूँ कि जीवन कैसा होना चाहिए, स्वीकार नहीं कर पाती।",
+          "करियर के अवसरों की गलियों में रहते-रहते सूर्यास्त छूटते जा रहे हैं।",
+          "हज़ारों किलोमीटर दूर शाम की चाय में भी घर जैसा एहसास नहीं!",
+          "दो अधेड़ लोग प्रतीक्षा कर रहे हैं और बुढ़ापे की हथकड़ियों में ख़ुद को गिरफ़्तार होने दे रहे हैं।",
+          "उनकी आँखें अपनी छोटी-सी ‘लड़की’ को पूरी तरह कमाने वाली ‘स्त्री’ बनते देखने की प्रतीक्षा में हैं।",
+          "यहाँ वह पूरी स्त्री दिन भर अपना कौशल बढ़ाने के लिए बचपन के सारे सपने खो देती है,",
+          "कमाने, सीखने और भीड़ के समुद्र में ख़ारिज हो जाने के लिए।",
+          "हमारे हाथ में बस यही क्षण है",
+          "और हम विस्मृति के क्षितिज में ख़ुद को खो देते हैं।",
+          "वर्तमान थपथपाकर कहता है, शाबाश दोस्त, कितनी शामें अभी अनिश्चितता में जीनी बाक़ी हैं",
+          "मुझे कोई उत्तर नहीं मालूम, शायद वर्तमान को देखूँगी और एक लंबी साँस बाक़ी बात पूरी कर देगी!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "इस शाम के बारे में मैं लिख भी क्या सकती हूँ?",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "इस शाम के बारे में मैं लिख भी क्या सकती हूँ?",
+          "आकाश में सूर्यास्त को बिखरते देख सकती थी,",
+          "पत्ते धीरे-धीरे ख़ुद को झाड़ रहे हैं,",
+          "हल्की हवा आगे बढ़ रही है,",
+          "सैकड़ों गाड़ियाँ और लोग गुज़र रहे हैं,",
+          "और मैं, पूरे दिन को विदा होने के लिए तैयार देखने की प्रतीक्षा में।",
+          "चीज़ें बिखेर दी गई हैं,",
+          "एक सुंदर दिन युवावस्था की हज़ारों चिंताओं में खो गया है,",
+          "एक और दिन पूरी तरह जिए बिना गुज़र गया।",
+          "ये दिन बिल्कुल नीरस हैं, बहुत कुछ देते हुए",
+          "पर मैं इतनी भरी हुई हूँ कि जीवन कैसा होना चाहिए, स्वीकार नहीं कर पाती।",
+          "करियर के अवसरों की गलियों में रहते-रहते सूर्यास्त छूटते जा रहे हैं।",
+          "हज़ारों किलोमीटर दूर शाम की चाय में भी घर जैसा एहसास नहीं!",
+          "दो अधेड़ लोग प्रतीक्षा कर रहे हैं और बुढ़ापे की हथकड़ियों में ख़ुद को गिरफ़्तार होने दे रहे हैं।",
+          "उनकी आँखें अपनी छोटी-सी ‘लड़की’ को पूरी तरह कमाने वाली ‘स्त्री’ बनते देखने की प्रतीक्षा में हैं।",
+          "यहाँ वह पूरी स्त्री दिन भर अपना कौशल बढ़ाने के लिए बचपन के सारे सपने खो देती है,",
+          "कमाने, सीखने और भीड़ के समुद्र में ख़ारिज हो जाने के लिए।",
+          "हमारे हाथ में बस यही क्षण है",
+          "और हम विस्मृति के क्षितिज में ख़ुद को खो देते हैं।",
+          "वर्तमान थपथपाकर कहता है, शाबाश दोस्त, कितनी शामें अभी अनिश्चितता में जीनी बाक़ी हैं",
+          "मुझे कोई उत्तर नहीं मालूम, शायद वर्तमान को देखूँगी और एक लंबी आह बाक़ी बात पूरी कर देगी!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

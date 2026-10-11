@@ -1,0 +1,880 @@
+[
+  {
+    "poem_id": 463,
+    "target": "or",
+    "reading_evidence": "Read all three numbered source/target sections: closed-window hope of moon/absurdity/open window see speaker; fondness for rain/clouds/drop union/meeting necessary for love rain; sea quest must not ignore river and river thirst greater than sea. Number labels, section spacing, invitation and final thirst reversal retained.",
+    "reason": "Remove a locative calque of Hindi कहीं in the warning not to end up overlooking the river; the existing negative warning already carries its force.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source/target content, images, numbered sections, credits and stanza/line counts; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "83d29c485c073d64377dba81e3e34ccbeafb6f6d00faf7b840b3bce4def36279",
+    "before_sha256": "1ac381cb53ef74d6445d804ef576c2190f793c880b62726aa924a3ad0a31a333",
+    "after_sha256": "ce0d39485c80fb4df97568805d07ed0d98b23a3a5aa10eafd7e79b750e7b7ac7",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଆଶା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "୧."
+        ],
+        [
+          "ଶୁଣିଛି,",
+          "ତୁମେ ଝରକା ବନ୍ଦ ରଖି",
+          "କୋଠରିରେ",
+          "ଜହ୍ନକୁ ପାଇବାର",
+          "ଆଶାରେ ଅଛ।"
+        ],
+        [
+          "ଏ କିପରି ନିର୍ବୋଧତା ତୁମର?"
+        ],
+        [
+          "ଝରକା ଖୋଲିଦିଅ,",
+          "ମୁଁ ତୁମକୁ ଦିଶିଯିବି।"
+        ],
+        [
+          "୨."
+        ],
+        [
+          "ବର୍ଷା ତୁମର ଭାରି ପ୍ରିୟ, ମାନିନେଲି।",
+          "କେବେ ଭାବିଛ,",
+          "ପାଣି କିପରି ଝରେ?"
+        ],
+        [
+          "ମେଘ ବିନା",
+          "ବର୍ଷା କାହିଁ ହୁଏ?"
+        ],
+        [
+          "ବୁନ୍ଦା ବୁନ୍ଦା ମିଶି ବର୍ଷା ହୁଏ।"
+        ],
+        [
+          "ଯେବେ ବର୍ଷାର ଅସ୍ତିତ୍ୱ ବି",
+          "ମିଳନ ସହ ଯୋଡ଼ା,"
+        ],
+        [
+          "ତେବେ କୁହ,",
+          "ମୋ ସହ ନମିଶି",
+          "ପ୍ରେମର ବର୍ଷାରେ",
+          "କିପରି ଭିଜିବ?"
+        ],
+        [
+          "୩."
+        ],
+        [
+          "ସମୁଦ୍ର ପାଇବାର ଇଚ୍ଛାରେ",
+          "ନଦୀକୁ କେଉଁଠି",
+          "ଅଣଦେଖା କରିବସନାହିଁ।"
+        ],
+        [
+          "ଆରେ ପାଗଳ,",
+          "ସମୁଦ୍ରଠାରୁ ଅଧିକ",
+          "ନଦୀରେ ଶୋଷ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଆଶା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "୧."
+        ],
+        [
+          "ଶୁଣିଛି,",
+          "ତୁମେ ଝରକା ବନ୍ଦ ରଖି",
+          "କୋଠରିରେ",
+          "ଜହ୍ନକୁ ପାଇବାର",
+          "ଆଶାରେ ଅଛ।"
+        ],
+        [
+          "ଏ କିପରି ନିର୍ବୋଧତା ତୁମର?"
+        ],
+        [
+          "ଝରକା ଖୋଲିଦିଅ,",
+          "ମୁଁ ତୁମକୁ ଦିଶିଯିବି।"
+        ],
+        [
+          "୨."
+        ],
+        [
+          "ବର୍ଷା ତୁମର ଭାରି ପ୍ରିୟ, ମାନିନେଲି।",
+          "କେବେ ଭାବିଛ,",
+          "ପାଣି କିପରି ଝରେ?"
+        ],
+        [
+          "ମେଘ ବିନା",
+          "ବର୍ଷା କାହିଁ ହୁଏ?"
+        ],
+        [
+          "ବୁନ୍ଦା ବୁନ୍ଦା ମିଶି ବର୍ଷା ହୁଏ।"
+        ],
+        [
+          "ଯେବେ ବର୍ଷାର ଅସ୍ତିତ୍ୱ ବି",
+          "ମିଳନ ସହ ଯୋଡ଼ା,"
+        ],
+        [
+          "ତେବେ କୁହ,",
+          "ମୋ ସହ ନମିଶି",
+          "ପ୍ରେମର ବର୍ଷାରେ",
+          "କିପରି ଭିଜିବ?"
+        ],
+        [
+          "୩."
+        ],
+        [
+          "ସମୁଦ୍ର ପାଇବାର ଇଚ୍ଛାରେ",
+          "ନଦୀକୁ",
+          "ଅଣଦେଖା କରିବସନାହିଁ।"
+        ],
+        [
+          "ଆରେ ପାଗଳ,",
+          "ସମୁଦ୍ରଠାରୁ ଅଧିକ",
+          "ନଦୀରେ ଶୋଷ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 454,
+    "target": "or",
+    "reading_evidence": "Read all six source/target stanzas: words weighted by yesterdays/forgotten cloaks; greeting now/catching tomorrow constellations velvet sea; hope-wrapped dreams/swallow homing; resolute beacon/time tempest/self-designed stars; stride-door/breath-sunrise; present anchor/sculpting future with past whispers. Time shifts, image roles and spare lineation checked.",
+    "reason": "Attach past to whispers before the noun in the closing tool-of-sculpture phrase; keep the final image and two lines.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source/target content, images, numbered sections, credits and stanza/line counts; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "165613820ec5bc3c2418539e2fbd823282f3d7fc1ec7428761103019dc27062c",
+    "before_sha256": "f82cdcc074817f96ce303b3289c3feaf99ac4ad518118bc4b23cf0183f6fbe6b",
+    "after_sha256": "3893b73da8867997f135faa2c49c12a42ebf8e5d65becb1957cc5313d8c5b9b4",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "କାଳାତୀତ ପ୍ରତିଧ୍ୱନି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଶବ୍ଦ, ବିତିଥିବା କାଲିର",
+          "ବୋଝରେ ଭାରୀ,",
+          "ଝୁଲନ୍ତି ଯେପରି",
+          "ଭୁଲା ଚାଦର।"
+        ],
+        [
+          "ମୁଁ ଏବେକୁ ସ୍ୱାଗତ କରିବାକୁ ଉଠେ,",
+          "ବାହୁ ମେଲାଇ,",
+          "ଆସନ୍ତାକାଲିକୁ ଧରେ,",
+          "ନକ୍ଷତ୍ରମଣ୍ଡଳ ପରି",
+          "ମଖମଲି ସାଗରରେ।"
+        ],
+        [
+          "ସ୍ୱପ୍ନ,",
+          "ଆଶାରେ ଗୁଡ଼ା,",
+          "ସିଧା ଉଡ଼ନ୍ତି,",
+          "ଘରକୁ ଫେରୁଥିବା ଅବାବିଲ୍ ପରି।"
+        ],
+        [
+          "ମୁଁ ଅଟଳ ଠିଆହୁଏ,",
+          "ଆଲୋକସଙ୍କେତଟିଏ,",
+          "ସମୟର ଝଡ଼ରେ,",
+          "ତାରାମାନଙ୍କ ମାନଚିତ୍ର ଆଙ୍କି,",
+          "ମୋ ନିଜ ନକ୍ସାରେ।"
+        ],
+        [
+          "ପାଦ ପରେ ପାଦ,",
+          "ଦୁଆରଟିଏ ଖୋଲେ;",
+          "ଶ୍ୱାସ ପରେ ଶ୍ୱାସ,",
+          "ନୂଆ ସୂର୍ଯ୍ୟୋଦୟ।"
+        ],
+        [
+          "ନଙ୍ଗର ପକାଇ",
+          "ବର୍ତ୍ତମାନରେ,",
+          "ମୁଁ ଭବିଷ୍ୟତ ତରାଶେ,",
+          "ଫୁସ୍‌ଫୁସ୍ ସ୍ୱରରେ",
+          "ଅତୀତର।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "କାଳାତୀତ ପ୍ରତିଧ୍ୱନି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଶବ୍ଦ, ବିତିଥିବା କାଲିର",
+          "ବୋଝରେ ଭାରୀ,",
+          "ଝୁଲନ୍ତି ଯେପରି",
+          "ଭୁଲା ଚାଦର।"
+        ],
+        [
+          "ମୁଁ ଏବେକୁ ସ୍ୱାଗତ କରିବାକୁ ଉଠେ,",
+          "ବାହୁ ମେଲାଇ,",
+          "ଆସନ୍ତାକାଲିକୁ ଧରେ,",
+          "ନକ୍ଷତ୍ରମଣ୍ଡଳ ପରି",
+          "ମଖମଲି ସାଗରରେ।"
+        ],
+        [
+          "ସ୍ୱପ୍ନ,",
+          "ଆଶାରେ ଗୁଡ଼ା,",
+          "ସିଧା ଉଡ଼ନ୍ତି,",
+          "ଘରକୁ ଫେରୁଥିବା ଅବାବିଲ୍ ପରି।"
+        ],
+        [
+          "ମୁଁ ଅଟଳ ଠିଆହୁଏ,",
+          "ଆଲୋକସଙ୍କେତଟିଏ,",
+          "ସମୟର ଝଡ଼ରେ,",
+          "ତାରାମାନଙ୍କ ମାନଚିତ୍ର ଆଙ୍କି,",
+          "ମୋ ନିଜ ନକ୍ସାରେ।"
+        ],
+        [
+          "ପାଦ ପରେ ପାଦ,",
+          "ଦୁଆରଟିଏ ଖୋଲେ;",
+          "ଶ୍ୱାସ ପରେ ଶ୍ୱାସ,",
+          "ନୂଆ ସୂର୍ଯ୍ୟୋଦୟ।"
+        ],
+        [
+          "ନଙ୍ଗର ପକାଇ",
+          "ବର୍ତ୍ତମାନରେ,",
+          "ମୁଁ ଭବିଷ୍ୟତ ତରାଶେ,",
+          "ଅତୀତର",
+          "ଫୁସ୍‌ଫୁସ୍ ସ୍ୱରରେ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 454,
+    "target": "hi",
+    "reading_evidence": "Read all six source/target stanzas: words weighted by yesterdays/forgotten cloaks; greeting now/catching tomorrow constellations velvet sea; hope-wrapped dreams/swallow homing; resolute beacon/time tempest/self-designed stars; stride-door/breath-sunrise; present anchor/sculpting future with past whispers. Time shifts, image roles and spare lineation checked.",
+    "reason": "Place the self-designed-stars and past-whispers possessives before their nouns rather than dangling them after completed clauses.",
+    "open_questions": [
+      "Hindi feminine speaker remains provisional; source does not establish narrator gender."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source/target content, images, numbered sections, credits and stanza/line counts; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "165613820ec5bc3c2418539e2fbd823282f3d7fc1ec7428761103019dc27062c",
+    "before_sha256": "9f619daa60e5e3b4c6383b9e3b48c38990a24afd9c918643f0c93db2d76cdf2b",
+    "after_sha256": "7514114e191c79e303538bed50927affb8ef7131d3a93882be682484a4989120",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "कालातीत प्रतिध्वनियाँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "शब्द, बीते कलों के",
+          "बोझ से भारी,",
+          "झूलते हैं जैसे",
+          "भुला दिए गए चोग़े।"
+        ],
+        [
+          "मैं अभी का स्वागत करने उठती हूँ,",
+          "बाँहें फैलाकर,",
+          "आने वाले कल को पकड़ती,",
+          "जैसे तारामंडल",
+          "मखमली समुद्र में।"
+        ],
+        [
+          "सपने,",
+          "आशा में लिपटे,",
+          "सीधे उड़ते हैं,",
+          "अबाबीलों की तरह घर लौटते।"
+        ],
+        [
+          "मैं अडिग खड़ी हूँ,",
+          "एक प्रकाश-संकेत,",
+          "समय के तूफ़ान में,",
+          "तारों का मानचित्र बनाती,",
+          "अपनी ही रचना के।"
+        ],
+        [
+          "क़दम-दर-क़दम,",
+          "एक द्वार खुलता है;",
+          "साँस-दर-साँस,",
+          "एक नया सूर्योदय।"
+        ],
+        [
+          "लंगर डाले",
+          "वर्तमान में,",
+          "मैं भविष्य तराशती हूँ,",
+          "फुसफुसाहटों से",
+          "अतीत की।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "कालातीत प्रतिध्वनियाँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "शब्द, बीते कलों के",
+          "बोझ से भारी,",
+          "झूलते हैं जैसे",
+          "भुला दिए गए चोग़े।"
+        ],
+        [
+          "मैं अभी का स्वागत करने उठती हूँ,",
+          "बाँहें फैलाकर,",
+          "आने वाले कल को पकड़ती,",
+          "जैसे तारामंडल",
+          "मखमली समुद्र में।"
+        ],
+        [
+          "सपने,",
+          "आशा में लिपटे,",
+          "सीधे उड़ते हैं,",
+          "अबाबीलों की तरह घर लौटते।"
+        ],
+        [
+          "मैं अडिग खड़ी हूँ,",
+          "एक प्रकाश-संकेत,",
+          "समय के तूफ़ान में,",
+          "अपनी ही रचना के",
+          "तारों का मानचित्र बनाती।"
+        ],
+        [
+          "क़दम-दर-क़दम,",
+          "एक द्वार खुलता है;",
+          "साँस-दर-साँस,",
+          "एक नया सूर्योदय।"
+        ],
+        [
+          "लंगर डाले",
+          "वर्तमान में,",
+          "मैं भविष्य तराशती हूँ,",
+          "अतीत की",
+          "फुसफुसाहटों से।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 455,
+    "target": "or",
+    "reading_evidence": "Read entire 35-line source and both targets: fear-filled plea to Mother as only saviour, imagined heart/spring responses yet uncertain listener action; new morning/sun/twilight revealing unrecognisable burning ambulance/half-charred body and unidentified others, esteemed ruined city, adolescent dreams beneath charred colloids, glamour city desert soaked in blood/tears of immature motherhood. Speculative must/might, violent evidence and refusal of assured rescue retained.",
+    "reason": "Attach motherhood to its blood and tears before the nouns, preserving the difficult source metaphor and final soaked desert.",
+    "open_questions": [
+      "charred colloids is unclear source wording and remains a recorded lexical hold, not silently replaced with corpses/rubble. Immature motherhood metaphor and contradictory twilight/morning remain open. No event, city or victim identity inferred."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source/target content, images, numbered sections, credits and stanza/line counts; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "9e3b9d963184bee6d0063cbf2d9719892f6aaed73b15876463b8edfb52190cea",
+    "before_sha256": "cd4aa5663e31899a5b543c7a34f6115cb38fd7ab46e49e44c3984462264b9d08",
+    "after_sha256": "9d6efa62e6d93c9bff12a27ea19af353e8e475cf37b3c260b2457042fe9aaa5f",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ହଜିଯାଇଥିବା ରାଜକୁମାରୀ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଏକ ଅଜବ ଡାକ ଥିଲା ସେ,",
+          "ଭୟଭରା ଥରୁଥିବା ହୃଦୟ ସହ।",
+          "ଯେପରି ଏକ ପ୍ରାର୍ଥନା ଥିଲା,",
+          "‘ହେ ମାଆ!",
+          "ମୋ ଜୀବନ ବିପଦରେ,",
+          "ଦୟାକରି ସାହାଯ୍ୟ କର,",
+          "ମୁଁ ସଙ୍କଟରେ,",
+          "ଆଉ ମୁଁ ଜାଣେ,",
+          "ତୁମେ ହିଁ ମୋର ଏକମାତ୍ର ରକ୍ଷାକାରିଣୀ।’",
+          "ତା' ପ୍ରାର୍ଥନାର ସ୍ପନ୍ଦନ",
+          "ନିଶ୍ଚୟ କାହା ହୃଦୟକୁ ଥରାଇଥିବ।",
+          "ବସନ୍ତ ନିଶ୍ଚୟ ଥମିଯାଇଥିବ",
+          "ବର୍ଷାକୁ ଅପେକ୍ଷା କରି;",
+          "ତଥାପି ଜଣାନାହିଁ,",
+          "କେହି,",
+          "ଯିଏ ଏଇ ନିରୀହ ପ୍ରାର୍ଥନା ଶୁଣିଥିଲା,",
+          "ହିଂସାର ଏଇ ସହରରେ,",
+          "ସତରେ ଚିନ୍ତା କରିଥିଲା କି",
+          "ତାକୁ ବୃଥା ନହେବାକୁ ଦେବା ପାଇଁ।",
+          "ତା'ପରେ ନୂଆ ସକାଳଟିଏ ଆସିଲା,",
+          "ପୁଣି ସ୍ୱାଗତ କରିବାକୁ",
+          "ଦୂର ପୂର୍ବ ଦିଗନ୍ତରେ ଉଠୁଥିବା ସୂର୍ଯ୍ୟକୁ।",
+          "ଆବୁଆ ଆଲୁଅ ଚିହ୍ନିବାରେ ସାହାଯ୍ୟ କଲା",
+          "ଜଳୁଥିବା ଆମ୍ବୁଲାନ୍ସଟିଏକୁ,",
+          "ଯାହା ଆଉ ଚିହ୍ନିହେବା ଅବସ୍ଥାରେ ନଥିଲା,",
+          "ଭିତରେ ଅଧାପୋଡ଼ା ଦେହଟିଏ ନେଇ,",
+          "ଯେବେ ଆହୁରି ଅନେକ ହୁଏତ",
+          "ଅଚିହ୍ନା ରହିଯାଇଥିବେ",
+          "ଧ୍ୱଂସାବଶେଷର ସେଇ ସମ୍ମାନିତ ସହରରେ।",
+          "ଅନେକ କିଶୋରୀଙ୍କ ଅଦେଖା ସ୍ୱପ୍ନ ହୁଏତ ଅଲକ୍ଷିତ ରହିଯାଇଥିବ,",
+          "ପୋଡ଼ା କଲଏଡ୍‌ର ଗଦା ତଳେ,",
+          "ଆଉ ଚାକଚକ୍ୟର ସେଇ ସହର",
+          "ଏବେ ମରୁଭୂମି ପାଲଟିବ,",
+          "ରକ୍ତ ଓ ଲୁହରେ ଭିଜି,",
+          "ଅପରିପକ୍ୱ ମାତୃତ୍ୱର..."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ହଜିଯାଇଥିବା ରାଜକୁମାରୀ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଏକ ଅଜବ ଡାକ ଥିଲା ସେ,",
+          "ଭୟଭରା ଥରୁଥିବା ହୃଦୟ ସହ।",
+          "ଯେପରି ଏକ ପ୍ରାର୍ଥନା ଥିଲା,",
+          "‘ହେ ମାଆ!",
+          "ମୋ ଜୀବନ ବିପଦରେ,",
+          "ଦୟାକରି ସାହାଯ୍ୟ କର,",
+          "ମୁଁ ସଙ୍କଟରେ,",
+          "ଆଉ ମୁଁ ଜାଣେ,",
+          "ତୁମେ ହିଁ ମୋର ଏକମାତ୍ର ରକ୍ଷାକାରିଣୀ।’",
+          "ତା' ପ୍ରାର୍ଥନାର ସ୍ପନ୍ଦନ",
+          "ନିଶ୍ଚୟ କାହା ହୃଦୟକୁ ଥରାଇଥିବ।",
+          "ବସନ୍ତ ନିଶ୍ଚୟ ଥମିଯାଇଥିବ",
+          "ବର୍ଷାକୁ ଅପେକ୍ଷା କରି;",
+          "ତଥାପି ଜଣାନାହିଁ,",
+          "କେହି,",
+          "ଯିଏ ଏଇ ନିରୀହ ପ୍ରାର୍ଥନା ଶୁଣିଥିଲା,",
+          "ହିଂସାର ଏଇ ସହରରେ,",
+          "ସତରେ ଚିନ୍ତା କରିଥିଲା କି",
+          "ତାକୁ ବୃଥା ନହେବାକୁ ଦେବା ପାଇଁ।",
+          "ତା'ପରେ ନୂଆ ସକାଳଟିଏ ଆସିଲା,",
+          "ପୁଣି ସ୍ୱାଗତ କରିବାକୁ",
+          "ଦୂର ପୂର୍ବ ଦିଗନ୍ତରେ ଉଠୁଥିବା ସୂର୍ଯ୍ୟକୁ।",
+          "ଆବୁଆ ଆଲୁଅ ଚିହ୍ନିବାରେ ସାହାଯ୍ୟ କଲା",
+          "ଜଳୁଥିବା ଆମ୍ବୁଲାନ୍ସଟିଏକୁ,",
+          "ଯାହା ଆଉ ଚିହ୍ନିହେବା ଅବସ୍ଥାରେ ନଥିଲା,",
+          "ଭିତରେ ଅଧାପୋଡ଼ା ଦେହଟିଏ ନେଇ,",
+          "ଯେବେ ଆହୁରି ଅନେକ ହୁଏତ",
+          "ଅଚିହ୍ନା ରହିଯାଇଥିବେ",
+          "ଧ୍ୱଂସାବଶେଷର ସେଇ ସମ୍ମାନିତ ସହରରେ।",
+          "ଅନେକ କିଶୋରୀଙ୍କ ଅଦେଖା ସ୍ୱପ୍ନ ହୁଏତ ଅଲକ୍ଷିତ ରହିଯାଇଥିବ,",
+          "ପୋଡ଼ା କଲଏଡ୍‌ର ଗଦା ତଳେ,",
+          "ଆଉ ଚାକଚକ୍ୟର ସେଇ ସହର",
+          "ଏବେ ମରୁଭୂମି ପାଲଟିବ,",
+          "ଅପରିପକ୍ୱ ମାତୃତ୍ୱର",
+          "ରକ୍ତ ଓ ଲୁହରେ ଭିଜି..."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 455,
+    "target": "hi",
+    "reading_evidence": "Read entire 35-line source and both targets: fear-filled plea to Mother as only saviour, imagined heart/spring responses yet uncertain listener action; new morning/sun/twilight revealing unrecognisable burning ambulance/half-charred body and unidentified others, esteemed ruined city, adolescent dreams beneath charred colloids, glamour city desert soaked in blood/tears of immature motherhood. Speculative must/might, violent evidence and refusal of assured rescue retained.",
+    "reason": "Place the final possessive before blood/tears, preserving the violence and unresolved motherhood/colloid images.",
+    "open_questions": [
+      "charred colloids is unclear source wording and remains a recorded lexical hold, not silently replaced with corpses/rubble. Immature motherhood metaphor and contradictory twilight/morning remain open. No event, city or victim identity inferred."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source/target content, images, numbered sections, credits and stanza/line counts; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "9e3b9d963184bee6d0063cbf2d9719892f6aaed73b15876463b8edfb52190cea",
+    "before_sha256": "94367b7789b3ea9ebd9f4a4d2f4cda4ebd455e609745e8c33434f97c6fc8d498",
+    "after_sha256": "f7bdc588fd6427ec8064cc4387c54642cbc14a10908bd529de1f83b33a50f821",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "खोई हुई राजकुमारी",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "वह एक अजीब पुकार थी,",
+          "भय से भरे काँपते हृदय के साथ।",
+          "मानो वह एक प्रार्थना थी,",
+          "‘ओ माँ!",
+          "मेरा जीवन दाँव पर है,",
+          "कृपया मेरी सहायता करो,",
+          "मैं संकट में हूँ,",
+          "और मैं जानती हूँ,",
+          "तुम ही मेरी एकमात्र रक्षक हो।’",
+          "उसकी प्रार्थना की धड़कन ने",
+          "किसी का हृदय अवश्य कँपाया होगा।",
+          "वसंत ठहर गया होगा",
+          "वर्षा की प्रतीक्षा में;",
+          "फिर भी पता नहीं,",
+          "क्या किसी ने,",
+          "जिसने ये निर्दोष प्रार्थनाएँ सुनीं,",
+          "हिंसा के इस शहर में,",
+          "सचमुच परवाह की",
+          "कि वे व्यर्थ न जाएँ।",
+          "फिर एक नई सुबह आई,",
+          "फिर स्वागत करने",
+          "दूर पूर्वी क्षितिज पर उगते सूरज का।",
+          "धुँधलके ने पहचानने में सहायता की",
+          "एक जलती एम्बुलेंस को,",
+          "जो पहचान में आने की अवस्था से परे थी,",
+          "भीतर एक अधजली देह के साथ,",
+          "जबकि कई अन्य शायद",
+          "बिना पहचान के रह गए हों",
+          "खंडहरों के उस सम्मानित शहर में।",
+          "कई किशोरियों के अनदेखे सपने शायद अनदेखे रह गए हों,",
+          "जले हुए कोलॉइड के ढेरों के नीचे,",
+          "और चकाचौंध का वह शहर",
+          "अब रेगिस्तान बन जाएगा,",
+          "रक्त और आँसुओं से भीगा हुआ,",
+          "अपरिपक्व मातृत्व के..."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "खोई हुई राजकुमारी",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "वह एक अजीब पुकार थी,",
+          "भय से भरे काँपते हृदय के साथ।",
+          "मानो वह एक प्रार्थना थी,",
+          "‘ओ माँ!",
+          "मेरा जीवन दाँव पर है,",
+          "कृपया मेरी सहायता करो,",
+          "मैं संकट में हूँ,",
+          "और मैं जानती हूँ,",
+          "तुम ही मेरी एकमात्र रक्षक हो।’",
+          "उसकी प्रार्थना की धड़कन ने",
+          "किसी का हृदय अवश्य कँपाया होगा।",
+          "वसंत ठहर गया होगा",
+          "वर्षा की प्रतीक्षा में;",
+          "फिर भी पता नहीं,",
+          "क्या किसी ने,",
+          "जिसने ये निर्दोष प्रार्थनाएँ सुनीं,",
+          "हिंसा के इस शहर में,",
+          "सचमुच परवाह की",
+          "कि वे व्यर्थ न जाएँ।",
+          "फिर एक नई सुबह आई,",
+          "फिर स्वागत करने",
+          "दूर पूर्वी क्षितिज पर उगते सूरज का।",
+          "धुँधलके ने पहचानने में सहायता की",
+          "एक जलती एम्बुलेंस को,",
+          "जो पहचान में आने की अवस्था से परे थी,",
+          "भीतर एक अधजली देह के साथ,",
+          "जबकि कई अन्य शायद",
+          "बिना पहचान के रह गए हों",
+          "खंडहरों के उस सम्मानित शहर में।",
+          "कई किशोरियों के अनदेखे सपने शायद अनदेखे रह गए हों,",
+          "जले हुए कोलॉइड के ढेरों के नीचे,",
+          "और चकाचौंध का वह शहर",
+          "अब रेगिस्तान बन जाएगा,",
+          "अपरिपक्व मातृत्व के",
+          "रक्त और आँसुओं से भीगा हुआ..."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 458,
+    "target": "or",
+    "reading_evidence": "Read full 25-line source/targets: youthful woman sailing on dreams, mature recognition of schoolgirl crush, dreams give zest but require effort, real life not squandered in dream halo/exhaustion, never allowing dreams root and striving so they remain in deeds rather than ephemeral dreams. Explicit she and the source’s troubling negative hinge checked.",
+    "reason": "Attach dreams to their shimmering halo before the noun, leaving the disputed following negative untouched.",
+    "open_questions": [
+      "Never ever allowing those dreams to take root conflicts syntactically with ensuing striving; preserve the negative and record ambiguity rather than inventing an affirmative injunction."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source/target content, images, numbered sections, credits and stanza/line counts; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "c824e02206f83c4ea129074369a6db098cc9845360adaa27caf81ba67aaf67ac",
+    "before_sha256": "341a6d5973f2488077a050cc87519668db307b700b47b8fb3ebab65f801d3d11",
+    "after_sha256": "a476d7e16f4024c8bec2edc36a562dc0fa83b0bd2278e11dce17c96f09c01166",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ସ୍ୱପ୍ନର ଝଲମଲ ଆଭାରେ ହଜି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ନିଜ ଯୌବନର ଉଲ୍ଲାସରେ",
+          "ସେ ସବୁବେଳେ ସ୍ୱପ୍ନରେ ମୋହିତ ରହୁଥିଲା।",
+          "ନିଜ ସ୍ୱପ୍ନର ଭବ୍ୟ ଡେଣାରେ",
+          "ସେ ବିସ୍ମୟରେ ଭାସୁଥିଲା,",
+          "ସେମାନଙ୍କ ଆକର୍ଷଣରେ ଆନନ୍ଦମଗ୍ନ।",
+          "ବର୍ଷମାନ ବିତିବା ସହ,",
+          "ଯେବେ ତା' ଭାବନା ପରିପକ୍ୱ ହେଲା,",
+          "ସେ ଚକିତ ହେଲା,",
+          "ବୁଝିପାରିଲା କେତେ ପିଲାଳିଆ ଥିଲା ସେ,",
+          "ସ୍ୱପ୍ନ ପ୍ରତି ନିଜ ସ୍କୁଲଝିଅ ପରି ମୋହରେ।",
+          "ସତ, ସ୍ୱପ୍ନ ଜୀବନକୁ ଉତ୍ସାହ ଦିଏ,",
+          "ହେଲେ ସ୍ୱପ୍ନର ଲାଭ କ'ଣ,",
+          "ଯଦି ଆମେ କିଛି ଚେଷ୍ଟା ନକରୁ",
+          "ତାକୁ ପାଇବାକୁ?",
+          "ଜୀବନ ବାସ୍ତବ,",
+          "ତାକୁ ଝଲମଲ ଆଭାରେ ନଷ୍ଟ କରିବାକୁ ନୁହେଁ,",
+          "ସେଇ ସ୍ୱପ୍ନମାନଙ୍କର,",
+          "ଯାହା ଆମକୁ କ୍ଳାନ୍ତ ଓ ହତାଶ ଛାଡ଼େ;",
+          "କେବେ ବି ସେଇ ସ୍ୱପ୍ନମାନଙ୍କୁ ଅନୁମତି ନଦେଇ",
+          "ଆମ ମନରେ ଚେର ଧରିବାକୁ,",
+          "ଯେପରି ଆମେ ନିଷ୍ଠାରେ ଚେଷ୍ଟା କରୁ,",
+          "ଏତେ ଯେ ସେମାନେ ରହନ୍ତୁ",
+          "କ୍ଷଣସ୍ଥାୟୀ ସ୍ୱଭାବର ସ୍ୱପ୍ନ ରୂପେ ନୁହେଁ,",
+          "ବରଂ କାମରେ,",
+          "ଯାହା ଆମ ଜୀବନ ସମୃଦ୍ଧ କରିବାର ବାଟ ତିଆରି କରେ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ସ୍ୱପ୍ନର ଝଲମଲ ଆଭାରେ ହଜି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ନିଜ ଯୌବନର ଉଲ୍ଲାସରେ",
+          "ସେ ସବୁବେଳେ ସ୍ୱପ୍ନରେ ମୋହିତ ରହୁଥିଲା।",
+          "ନିଜ ସ୍ୱପ୍ନର ଭବ୍ୟ ଡେଣାରେ",
+          "ସେ ବିସ୍ମୟରେ ଭାସୁଥିଲା,",
+          "ସେମାନଙ୍କ ଆକର୍ଷଣରେ ଆନନ୍ଦମଗ୍ନ।",
+          "ବର୍ଷମାନ ବିତିବା ସହ,",
+          "ଯେବେ ତା' ଭାବନା ପରିପକ୍ୱ ହେଲା,",
+          "ସେ ଚକିତ ହେଲା,",
+          "ବୁଝିପାରିଲା କେତେ ପିଲାଳିଆ ଥିଲା ସେ,",
+          "ସ୍ୱପ୍ନ ପ୍ରତି ନିଜ ସ୍କୁଲଝିଅ ପରି ମୋହରେ।",
+          "ସତ, ସ୍ୱପ୍ନ ଜୀବନକୁ ଉତ୍ସାହ ଦିଏ,",
+          "ହେଲେ ସ୍ୱପ୍ନର ଲାଭ କ'ଣ,",
+          "ଯଦି ଆମେ କିଛି ଚେଷ୍ଟା ନକରୁ",
+          "ତାକୁ ପାଇବାକୁ?",
+          "ଜୀବନ ବାସ୍ତବ,",
+          "ତାକୁ ସେଇ ସ୍ୱପ୍ନମାନଙ୍କ ଝଲମଲ ଆଭାରେ",
+          "ନଷ୍ଟ କରିବାକୁ ନୁହେଁ,",
+          "ଯାହା ଆମକୁ କ୍ଳାନ୍ତ ଓ ହତାଶ ଛାଡ଼େ;",
+          "କେବେ ବି ସେଇ ସ୍ୱପ୍ନମାନଙ୍କୁ ଅନୁମତି ନଦେଇ",
+          "ଆମ ମନରେ ଚେର ଧରିବାକୁ,",
+          "ଯେପରି ଆମେ ନିଷ୍ଠାରେ ଚେଷ୍ଟା କରୁ,",
+          "ଏତେ ଯେ ସେମାନେ ରହନ୍ତୁ",
+          "କ୍ଷଣସ୍ଥାୟୀ ସ୍ୱଭାବର ସ୍ୱପ୍ନ ରୂପେ ନୁହେଁ,",
+          "ବରଂ କାମରେ,",
+          "ଯାହା ଆମ ଜୀବନ ସମୃଦ୍ଧ କରିବାର ବାଟ ତିଆରି କରେ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 458,
+    "target": "hi",
+    "reading_evidence": "Read full 25-line source/targets: youthful woman sailing on dreams, mature recognition of schoolgirl crush, dreams give zest but require effort, real life not squandered in dream halo/exhaustion, never allowing dreams root and striving so they remain in deeds rather than ephemeral dreams. Explicit she and the source’s troubling negative hinge checked.",
+    "reason": "Remove the stranded of-those-dreams genitive while retaining the source’s unresolved root-taking claim.",
+    "open_questions": [
+      "Never ever allowing those dreams to take root conflicts syntactically with ensuing striving; preserve the negative and record ambiguity rather than inventing an affirmative injunction."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source/target content, images, numbered sections, credits and stanza/line counts; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "c824e02206f83c4ea129074369a6db098cc9845360adaa27caf81ba67aaf67ac",
+    "before_sha256": "3c479c0b8f2f29f33ce4e84a6f2f276cf76fe0db227c1fc4f0925b7bad7cecc3",
+    "after_sha256": "33ca5e65a3f163031a4d3044007c07e79c782bd4056840c36ea9b61b01cafe4a",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "सपनों की झिलमिल आभा में खोई",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "यौवन के अपने उल्लास में",
+          "वह सदा सपनों से मोहित रहती थी।",
+          "अपने सपनों के भव्य पंखों पर",
+          "वह विस्मय में तैरती थी,",
+          "उनके आकर्षण में आनंदमग्न।",
+          "वर्षों के साथ,",
+          "जब उसके विचार परिपक्व हुए,",
+          "वह चकित हुई",
+          "यह समझकर कि कितनी बचकानी रही थी,",
+          "सपनों पर अपने स्कूली लड़की जैसे आकर्षण में।",
+          "सच है, सपने जीवन को उत्साह देते हैं,",
+          "लेकिन सपनों का क्या उपयोग",
+          "अगर हम कोई प्रयास न करें",
+          "उन्हें पाने के लिए?",
+          "जीवन वास्तविक है,",
+          "उसे झिलमिल आभामंडल में गँवाने के लिए नहीं,",
+          "उन सपनों के,",
+          "जो हमें थका और निराश छोड़ते हैं;",
+          "कभी उन सपनों को अनुमति न देते हुए",
+          "कि हमारे मन में जड़ पकड़ें,",
+          "ताकि हम लगन से प्रयास करें,",
+          "इतना कि वे रहें",
+          "क्षणभंगुर स्वभाव वाले सपनों के रूप में नहीं,",
+          "बल्कि कर्मों में,",
+          "जो हमारे जीवन को समृद्ध करने की राह बनाएँ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "सपनों की झिलमिल आभा में खोई",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "यौवन के अपने उल्लास में",
+          "वह सदा सपनों से मोहित रहती थी।",
+          "अपने सपनों के भव्य पंखों पर",
+          "वह विस्मय में तैरती थी,",
+          "उनके आकर्षण में आनंदमग्न।",
+          "वर्षों के साथ,",
+          "जब उसके विचार परिपक्व हुए,",
+          "वह चकित हुई",
+          "यह समझकर कि कितनी बचकानी रही थी,",
+          "सपनों पर अपने स्कूली लड़की जैसे आकर्षण में।",
+          "सच है, सपने जीवन को उत्साह देते हैं,",
+          "लेकिन सपनों का क्या उपयोग",
+          "अगर हम कोई प्रयास न करें",
+          "उन्हें पाने के लिए?",
+          "जीवन वास्तविक है,",
+          "उसे उन सपनों के झिलमिल आभामंडल में",
+          "गँवाने के लिए नहीं,",
+          "जो हमें थका और निराश छोड़ते हैं;",
+          "कभी उन सपनों को अनुमति न देते हुए",
+          "कि हमारे मन में जड़ पकड़ें,",
+          "ताकि हम लगन से प्रयास करें,",
+          "इतना कि वे रहें",
+          "क्षणभंगुर स्वभाव वाले सपनों के रूप में नहीं,",
+          "बल्कि कर्मों में,",
+          "जो हमारे जीवन को समृद्ध करने की राह बनाएँ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 459,
+    "target": "hi",
+    "reading_evidence": "Read all 26 source/target lines: enduring bond/seeming end/recurrent August, they weep/spirit/sun, memory rain/twenty-four on arms, love nonseasonal, anniversaries/spice/everything-anything-nothings and foamy words failing earth-root/heart-blood, breathing beloved/bird clouds/unique everything, reaching fingertips/mind pores/essence, tear-duct river to forever-with-me/August-always. Questions, they-we-I shifts and intimate ending preserved.",
+    "reason": "Restore suds as soap foam, preserving the material/word-foam parallel rather than general soap.",
+    "open_questions": [
+      "Twenty-four remains unexplained; no age/date/death circumstance inferred. Mind pores/essence punctuation remains open. Hindi feminine speaker is provisional; beloved bird/sarvasva grammatical gender does not establish Jamie’s gender."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source/target content, images, numbered sections, credits and stanza/line counts; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "c5e41ca1fd23d2329fbb81147dc40439b3bac8199f9f0a8fd5208bbc18f5c62a",
+    "before_sha256": "927051975abd5f74ed05dd593b1d3ba3481789d8f85b22d5a1e8f24d23d9c851",
+    "after_sha256": "47f1b21501b5ca6b6a55ab7698452f9d9f224ba84f098c9b58d54ca26bfecc40",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "जेमी के लिए अगस्त",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "समय का बीतना उस बंधन को घटा नहीं सकता,",
+          "जो हमने शुरुआत से इस दिखते अंत तक साझा किया।",
+          "अगस्त आता रहेगा।",
+          "वे तुम्हारे लिए रोते हैं और हर दिन तुम्हारी आत्मा महसूस करते हैं,",
+          "हर महीने जब सूरज चमकता है।",
+          "फिर अगस्त है।",
+          "यह कैसे हो सकता है?",
+          "स्मृतियों की वर्षा हो रही है और",
+          "चौबीस मेरी बाँहों पर हर ओर लिखा है।",
+          "प्रेम फीका नहीं पड़ता, न मौसम से घिसता है, न मौसमी है।",
+          "क्या हमें हर चीज़ की बरसियों पर मसाला डालना ही होगा?",
+          "किसी भी चीज़ की?",
+          "या शून्यों की?",
+          "क्या इन दिनों और महीनों पर हमें झाग मलना ही होगा,",
+          "साबुन और झागदार शब्दों से, जो नहीं पहुँचते",
+          "मिट्टी की जड़ या हृदय के रक्त तक?",
+          "मैं तुम्हें साँस में लेती हूँ।",
+          "मैं तुम्हें कभी नहीं भूल सकती,",
+          "स्वर्गीय बादलों में मेरी प्यारी चिड़िया,",
+          "जो एक अनूठा सर्वस्व था और मेरा था!",
+          "फिर एक बार अगस्त है।",
+          "हम उँगलियों के सिरों से तुम्हारी ओर बढ़ रहे हैं,",
+          "अपने मनों के रोमछिद्रों और सार में।",
+          "अश्रुनलिकाएँ नदी बनाती हैं, उस तुम तक जाती हुई,",
+          "जो सदा मेरे साथ है..",
+          "अगस्त में और हमेशा।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "जेमी के लिए अगस्त",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "समय का बीतना उस बंधन को घटा नहीं सकता,",
+          "जो हमने शुरुआत से इस दिखते अंत तक साझा किया।",
+          "अगस्त आता रहेगा।",
+          "वे तुम्हारे लिए रोते हैं और हर दिन तुम्हारी आत्मा महसूस करते हैं,",
+          "हर महीने जब सूरज चमकता है।",
+          "फिर अगस्त है।",
+          "यह कैसे हो सकता है?",
+          "स्मृतियों की वर्षा हो रही है और",
+          "चौबीस मेरी बाँहों पर हर ओर लिखा है।",
+          "प्रेम फीका नहीं पड़ता, न मौसम से घिसता है, न मौसमी है।",
+          "क्या हमें हर चीज़ की बरसियों पर मसाला डालना ही होगा?",
+          "किसी भी चीज़ की?",
+          "या शून्यों की?",
+          "क्या इन दिनों और महीनों पर हमें झाग मलना ही होगा,",
+          "साबुन के झाग और झागदार शब्दों से, जो नहीं पहुँचते",
+          "मिट्टी की जड़ या हृदय के रक्त तक?",
+          "मैं तुम्हें साँस में लेती हूँ।",
+          "मैं तुम्हें कभी नहीं भूल सकती,",
+          "स्वर्गीय बादलों में मेरी प्यारी चिड़िया,",
+          "जो एक अनूठा सर्वस्व था और मेरा था!",
+          "फिर एक बार अगस्त है।",
+          "हम उँगलियों के सिरों से तुम्हारी ओर बढ़ रहे हैं,",
+          "अपने मनों के रोमछिद्रों और सार में।",
+          "अश्रुनलिकाएँ नदी बनाती हैं, उस तुम तक जाती हुई,",
+          "जो सदा मेरे साथ है..",
+          "अगस्त में और हमेशा।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

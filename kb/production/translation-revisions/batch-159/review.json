@@ -1,0 +1,251 @@
+{
+  "recorded_at": "2026-10-06T06:00:39.461748+00:00",
+  "poem_ids": [
+    114,
+    115,
+    116,
+    117,
+    118
+  ],
+  "variants_read": 10,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 114,
+      "target": "or",
+      "reading_evidence": "Read all three source and target six-line stanzas: water everywhere/mind-depth/colourless many-coloured sea; large and small rise/fall bridging stanza, unraveling sea and changing destiny; new hope wrapped in old despair rolls as shell rainbow/bangle glitter to the final human-smallness question. Checked rise/fall repetition, paradoxical colours, shell and bangle images, destiny parallel and ending.",
+      "open_questions": [],
+      "reason": "Retain after full reading: the compact image sequence, rises/falls and final rhetorical question carry naturally. Literal source markup stays outside translated verse; original source untouched.",
+      "tradeoff": "Keep the full poem, source images and stanza/line counts; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "ae6b5c9587acc77b3cac7784d39433a14f7458613af530d3910e0fd92f4d6e84",
+      "before_sha256": "b501dac32f79259147f7e60906f207196a5df5909a6f01820fce4a9b6983f071",
+      "after_sha256": "b501dac32f79259147f7e60906f207196a5df5909a6f01820fce4a9b6983f071",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 114,
+      "target": "hi",
+      "reading_evidence": "Read all three source and target six-line stanzas: water everywhere/mind-depth/colourless many-coloured sea; large and small rise/fall bridging stanza, unraveling sea and changing destiny; new hope wrapped in old despair rolls as shell rainbow/bangle glitter to the final human-smallness question. Checked rise/fall repetition, paradoxical colours, shell and bangle images, destiny parallel and ending.",
+      "open_questions": [],
+      "reason": "Retain after full reading: the compact image sequence, rises/falls and final rhetorical question carry naturally. Literal source markup stays outside translated verse; original source untouched.",
+      "tradeoff": "Keep the full poem, source images and stanza/line counts; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "ae6b5c9587acc77b3cac7784d39433a14f7458613af530d3910e0fd92f4d6e84",
+      "before_sha256": "5be9c3443ad0f5eacc18a1fe6e7865a8c8e6a17513f1918d5a742fa71bbd9b9a",
+      "after_sha256": "5be9c3443ad0f5eacc18a1fe6e7865a8c8e6a17513f1918d5a742fa71bbd9b9a",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 115,
+      "target": "or",
+      "reading_evidence": "Read full eighteen-line source and both targets: Baba walking narrator home after final retirement celebration; denied silver effulgence, uncrowned monarch/Himalayas for his children; excessive/theatrical talk and lip twitch revealing pain/asperity, narrator trembling like poplar; three college-head tenures and uncertain next life; all merges in silver ash, bleeding heart/thinning hair/narrators pain/scant jacket. Checked parent-child relationship, walking action, speech questions, three-tenure count, silver/ash contrast and final dispersed list.",
+      "open_questions": [
+        "Exiguous jacket remains provisionally small/scant; source may emphasize thinness or inadequacy, not a confirmed size.",
+        "Hindi feminine narrator remains provisional. Current target already says poplar; old note about Hindi tree-equivalent precision is not evidence of a present wrong species.",
+        "Source literal markup preserved in original; omitted only in target."
+      ],
+      "reason": "Restore walking alongside rather than making narrator walk; identify us as Babas children, not our children.",
+      "tradeoff": "Preserves companionship and explicit source apposition; no invented caretaking or new generation.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "a6208278c4ccc7ee969153dbd9e91367d6908e538c6ea594519000ee1da7bf59",
+      "before_sha256": "5b750c333d0521ffad1de51898e60eb64fb5908d248da8ae6632c31de3303995",
+      "after_sha256": "108328fa669e406db538364c7644a475ef93f10e5f305efdb692955cc453dba5",
+      "prior_uncertainties": [
+        {
+          "note": "All eighteen lines retained; literal < p> markup omitted in target only. Retirement, three college-head tenures, silver/ash, hair, jacket and narrator’s pain preserved. exiguous provisionally small/scant jacket. Hindi female narrator provisional; poplar Hindi equivalent requires precision review.",
+          "record": "kb/production/translations/batch-155/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 115,
+      "target": "hi",
+      "reading_evidence": "Read full eighteen-line source and both targets: Baba walking narrator home after final retirement celebration; denied silver effulgence, uncrowned monarch/Himalayas for his children; excessive/theatrical talk and lip twitch revealing pain/asperity, narrator trembling like poplar; three college-head tenures and uncertain next life; all merges in silver ash, bleeding heart/thinning hair/narrators pain/scant jacket. Checked parent-child relationship, walking action, speech questions, three-tenure count, silver/ash contrast and final dispersed list.",
+      "open_questions": [
+        "Exiguous jacket remains provisionally small/scant; source may emphasize thinness or inadequacy, not a confirmed size.",
+        "Hindi feminine narrator remains provisional. Current target already says poplar; old note about Hindi tree-equivalent precision is not evidence of a present wrong species.",
+        "Source literal markup preserved in original; omitted only in target."
+      ],
+      "reason": "Make the explicitly walking accompaniment idiomatic and visible.",
+      "tradeoff": "Keep the full poem, source images and stanza/line counts; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "a6208278c4ccc7ee969153dbd9e91367d6908e538c6ea594519000ee1da7bf59",
+      "before_sha256": "35c602c598e7a5b15618607cfccebe54ba93a8668ac961ba586ad045860008d6",
+      "after_sha256": "83a04cc4f4dabfd59769fcc7e404bcf21ce38645a2195d9fd81746bdcdcc4a7f",
+      "prior_uncertainties": [
+        {
+          "note": "All eighteen lines retained; literal < p> markup omitted in target only. Retirement, three college-head tenures, silver/ash, hair, jacket and narrator’s pain preserved. exiguous provisionally small/scant jacket. Hindi female narrator provisional; poplar Hindi equivalent requires precision review.",
+          "record": "kb/production/translations/batch-155/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 116,
+      "target": "or",
+      "reading_evidence": "Read all four source/target blocks (3/6/4/5): unspoken things slowly murder beloved/ocean roaring inside shell-heart/words fail for narrators soul; safe chrysalis and others mistakes/roses versus chosen thorns/no judgment/intense heartache and love-loves repetition; ongoing search for puzzle pieces and sudoku alphabets/rain purifies soul; abandoned autumn leaves as scattered treasures/lifetimes nurturing/waking dream/end of search and completeness. Checked emotional intensity, unusual sudoku letters, competing shell/transformation images, searching tense and final complete-in-you turn.",
+      "open_questions": [
+        "Alphabet-sudoku association remains source imagery, not replaced by numbers.",
+        "Chrysalis rendered as butterfly within case is an interpretive image; exact metamorphic stage remains for source-aware review, not newly corrected zoology.",
+        "Hindi feminine narrator and masculine addressee remain provisional; no author-identity inference."
+      ],
+      "reason": "Restore continuing search; make autumn a season rather than duplicated leaf-falling wording and use natural Odia for scattered.",
+      "tradeoff": "Retains abandoned leaves and scattered treasure without relocating autumn to a specific Indian season; ongoing searching remains compatible with the final discovery.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "a20c5e1544df4d3e1730d5cf04fd4c6e35110066a4756801f6aa13ea30190f04",
+      "before_sha256": "f02280680ba339d2c9247133fed3dacefc80b2743837d78f24ff1690cc531171",
+      "after_sha256": "af4562a6f2b5d2da4f86347eaa0779d88caa1ba4971d5668140abc61f7cab9bf",
+      "prior_uncertainties": [
+        {
+          "note": "Seashell/chrysalis/thorns/letters for sudoku/autumn imagery retained, including unusual alphabet-sudoku association. Hindi female narrator provisional; intense heartache not softened into generic comfort.",
+          "record": "kb/production/translations/batch-155/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 116,
+      "target": "hi",
+      "reading_evidence": "Read all four source/target blocks (3/6/4/5): unspoken things slowly murder beloved/ocean roaring inside shell-heart/words fail for narrators soul; safe chrysalis and others mistakes/roses versus chosen thorns/no judgment/intense heartache and love-loves repetition; ongoing search for puzzle pieces and sudoku alphabets/rain purifies soul; abandoned autumn leaves as scattered treasures/lifetimes nurturing/waking dream/end of search and completeness. Checked emotional intensity, unusual sudoku letters, competing shell/transformation images, searching tense and final complete-in-you turn.",
+      "open_questions": [
+        "Alphabet-sudoku association remains source imagery, not replaced by numbers.",
+        "Chrysalis rendered as butterfly within case is an interpretive image; exact metamorphic stage remains for source-aware review, not newly corrected zoology.",
+        "Hindi feminine narrator and masculine addressee remain provisional; no author-identity inference."
+      ],
+      "reason": "Retain after complete reading: ongoing searching is already present, autumn leaves remain identifiable and intense heartache is not softened.",
+      "tradeoff": "Keep the full poem, source images and stanza/line counts; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "a20c5e1544df4d3e1730d5cf04fd4c6e35110066a4756801f6aa13ea30190f04",
+      "before_sha256": "b786b7933cb36e77cf2fd23b30a8a7fd47a058986cf9edb985c128d6c6086b35",
+      "after_sha256": "b786b7933cb36e77cf2fd23b30a8a7fd47a058986cf9edb985c128d6c6086b35",
+      "prior_uncertainties": [
+        {
+          "note": "Seashell/chrysalis/thorns/letters for sudoku/autumn imagery retained, including unusual alphabet-sudoku association. Hindi female narrator provisional; intense heartache not softened into generic comfort.",
+          "record": "kb/production/translations/batch-155/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 117,
+      "target": "or",
+      "reading_evidence": "Read complete five source/target stanzas: crowd confusion/return within/silent recovered strength for storm; strongest inner mantra and solitude-soil/hope-water/creativity-light to healthy bloom and positivity; simple beauty/refusal to give up/recovered confidence and wholeness; inner abundance/ethereal beauty/delicacy/innocence; incremental daily self-love, varying pace and natural experiential growth toward joy. Checked first-person agency, self-affirming register, plant metaphor and unforced repeated self-focus.",
+      "open_questions": [
+        "Relinquish remains interpreted as giving up in context; source syntax around uphold/embark confidence is compressed. Hindi feminine voice remains provisional."
+      ],
+      "reason": "Retain after full reading: internal feeling, storm resilience and planting metaphor remain coherent; no independent change needed.",
+      "tradeoff": "Keep the full poem, source images and stanza/line counts; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1d8745265ad7351fd14ac9ddbc0cf8ecd73d6edd4f290448b521e30be5110c06",
+      "before_sha256": "0ddf5e781f8ed6b7b34287322aa474695ac5886afac5074b0f953554fc5b8ab2",
+      "after_sha256": "0ddf5e781f8ed6b7b34287322aa474695ac5886afac5074b0f953554fc5b8ab2",
+      "prior_uncertainties": [
+        {
+          "note": "Planting metaphor of solitude/hope/creativity retained with full five-stanza progression; relinquish read as giving up in context. Hindi feminine voice provisional.",
+          "record": "kb/production/translations/batch-155/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 117,
+      "target": "hi",
+      "reading_evidence": "Read complete five source/target stanzas: crowd confusion/return within/silent recovered strength for storm; strongest inner mantra and solitude-soil/hope-water/creativity-light to healthy bloom and positivity; simple beauty/refusal to give up/recovered confidence and wholeness; inner abundance/ethereal beauty/delicacy/innocence; incremental daily self-love, varying pace and natural experiential growth toward joy. Checked first-person agency, self-affirming register, plant metaphor and unforced repeated self-focus.",
+      "open_questions": [
+        "Relinquish remains interpreted as giving up in context; source syntax around uphold/embark confidence is compressed. Hindi feminine voice remains provisional."
+      ],
+      "reason": "Express feeling lost from within, and restore strength as means for the speaker to endure rather than making strength the new fighter.",
+      "tradeoff": "Keeps existing provisional feminine voice; natural target syntax restores the speakers experience without adding an observer.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1d8745265ad7351fd14ac9ddbc0cf8ecd73d6edd4f290448b521e30be5110c06",
+      "before_sha256": "f39f151fd60a2539b267f79ccd1ad11e377b70d0abf8b3907424d1d77dc51c9b",
+      "after_sha256": "a0c0d349918dcd3ec67a88ab76b2872b96b5abdb8120d5709f19ad51c37f36f8",
+      "prior_uncertainties": [
+        {
+          "note": "Planting metaphor of solitude/hope/creativity retained with full five-stanza progression; relinquish read as giving up in context. Hindi feminine voice provisional.",
+          "record": "kb/production/translations/batch-155/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 118,
+      "target": "or",
+      "reading_evidence": "Read entire three source/target stanzas (11/5/2): repeated why-us query/ego dwarfs emotion/heart words suppressed, heart assigned only beating, false happiness cloak and imprisoned naughty tears spilling with kajal; triple ongoing caravan/life/living and increasing ointment layers on wounds; handful scattered happiness drops and triple continuing wait. Checked personified heart/tears, all deliberate repetitions, restraint behind positivity and unresolved waiting ending.",
+      "open_questions": [],
+      "reason": "Repair either/or syntax and imported beating/scattered diction in this poems existing formal heart register.",
+      "tradeoff": "Preserves the odd handful-of-scattered-drops image and every repeated phrase; no wholesale simplification.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "b0890843d406c7a49babde19e2f714ae2acda86d1a9fabd9378337bad26492de",
+      "before_sha256": "767659f425e83de82b8776a51d3053b0c94bea6cb5ee08f1e76bb1de91e402c5",
+      "after_sha256": "67131627e0c75ee5da3ad28baa44ec4d2b833ea9299421903796288b93e9a494",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 118,
+      "target": "hi",
+      "reading_evidence": "Read entire three source/target stanzas (11/5/2): repeated why-us query/ego dwarfs emotion/heart words suppressed, heart assigned only beating, false happiness cloak and imprisoned naughty tears spilling with kajal; triple ongoing caravan/life/living and increasing ointment layers on wounds; handful scattered happiness drops and triple continuing wait. Checked personified heart/tears, all deliberate repetitions, restraint behind positivity and unresolved waiting ending.",
+      "open_questions": [],
+      "reason": "Retain after complete reading: personification, kajal image, ironic concealment and all triple recurrences remain intact.",
+      "tradeoff": "Keep the full poem, source images and stanza/line counts; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "b0890843d406c7a49babde19e2f714ae2acda86d1a9fabd9378337bad26492de",
+      "before_sha256": "4381607d77dfad95649a0e8545ea10004ab62bf7de80a3c219660e97584c672a",
+      "after_sha256": "4381607d77dfad95649a0e8545ea10004ab62bf7de80a3c219660e97584c672a",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ],
+  "after_reading": {
+    "full_changed_targets_read": true,
+    "variants": 5,
+    "independent_review": false,
+    "note": "Read all five complete materialized after targets. Checked115 father/children apposition and walking,116 continued search and autumn-leaf treasure,117 internal feeling and speaker agency,118 all repeated phrases and heart/tear personification. Counts and verse boundaries unchanged; no tail offsets or source modifications."
+  }
+}

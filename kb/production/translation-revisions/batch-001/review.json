@@ -1,0 +1,305 @@
+{
+  "recorded_at": "2026-10-05T03:01:09.813230+00:00",
+  "poem_ids": [
+    777,
+    814,
+    815,
+    820,
+    821
+  ],
+  "variants_read": 10,
+  "variants_changed": 7,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 777,
+      "target": "hi",
+      "source_sha256": "4861488891d342d8cd0bd63e98f6d3353ca6cb8decd6c3644868a1ff2df62e1b",
+      "before_sha256": "1bb2a05e836e9e5bafdc912ea571f748adc00d629a707bd0d34cab2446ef1c3b",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "selected_option": "a",
+      "reason": "The translated promise contains two words. Dropping the count keeps the attention on its force and its contrast with declarations of love.",
+      "tradeoff": "The source explicitly says three. This proposal gives up that numerical detail; it is a conscious adaptation of a statement about language.",
+      "open_questions": [
+        "Does the poet attach special importance to the number three? Neither proposal can establish that intention."
+      ],
+      "prior_uncertainties": [],
+      "original_findings": [
+        "PNR-064"
+      ],
+      "after_sha256": "b3de42ab5a247296b6ddf85a29faecc8c9ab65491a47be66edf9ec9c143d2d6e",
+      "status": "revised_with_holds",
+      "changed": true,
+      "finding_dispositions": {
+        "PNR-064": "fixed_in_local_draft"
+      }
+    },
+    {
+      "poem_id": 777,
+      "target": "or",
+      "source_sha256": "4861488891d342d8cd0bd63e98f6d3353ca6cb8decd6c3644868a1ff2df62e1b",
+      "before_sha256": "cbac00c9a111942384d21744cf1071c10c7ef07525dc61393b050e11a86d2944",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "selected_option": "a",
+      "reason": "The translated promise contains two words. Dropping the count keeps the attention on its force and its contrast with declarations of love.",
+      "tradeoff": "The source explicitly says three. This proposal gives up that numerical detail; it is a conscious adaptation of a statement about language.",
+      "open_questions": [
+        "Does the poet attach special importance to the number three? Neither proposal can establish that intention."
+      ],
+      "prior_uncertainties": [],
+      "original_findings": [
+        "PNR-063"
+      ],
+      "after_sha256": "e0b1b12390dce80827d9fd1a51a126801b9f4777b9cefae93a2917aeb9eada1b",
+      "status": "revised_with_holds",
+      "changed": true,
+      "finding_dispositions": {
+        "PNR-063": "fixed_in_local_draft"
+      }
+    },
+    {
+      "poem_id": 814,
+      "target": "hi",
+      "source_sha256": "22a6e91ffee1a5417fb7b074155d1a53fad98b3f52281baabece25a0d9469df5",
+      "before_sha256": "4d833e97bd422a20797267dc98ce08e030e8b812e3a60dca432e74ba840df36b",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "selected_option": "a",
+      "reason": "The shared होने / ଥିବା structure lets absence turn into presence through a perceptible word relationship. The change stays inside the final claim.",
+      "tradeoff": "The unusual abstract nouns become verbal phrases. The source’s “thingness” has a more object-like, philosophical texture than this rendering.",
+      "open_questions": [
+        "The English leaves some uncertainty about whether Kafka or the shadows dance. Hindi currently specifies the shadows; that choice remains open.",
+        "The earlier audit overstated the Odia agency issue: ଯେଉଁମାନେ can also have an honorific reference to Kafka. It is an ambiguity to examine, not a proven misassignment."
+      ],
+      "prior_uncertainties": [],
+      "original_findings": [
+        "PNR-015",
+        "PNR-016"
+      ],
+      "after_sha256": "0d2d5666d2c573a55acb02365147b597b84205ee7adf1cb6eac824e25966015d",
+      "status": "revised_with_holds",
+      "changed": true,
+      "finding_dispositions": {
+        "PNR-015": "source_query_held",
+        "PNR-016": "fixed_in_local_draft"
+      }
+    },
+    {
+      "poem_id": 814,
+      "target": "or",
+      "source_sha256": "22a6e91ffee1a5417fb7b074155d1a53fad98b3f52281baabece25a0d9469df5",
+      "before_sha256": "28e090b82d0f418716735029c45827e93fa572e9dc2a25a266719b325401cb8e",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "selected_option": "a",
+      "reason": "The shared होने / ଥିବା structure lets absence turn into presence through a perceptible word relationship. The change stays inside the final claim.",
+      "tradeoff": "The unusual abstract nouns become verbal phrases. The source’s “thingness” has a more object-like, philosophical texture than this rendering.",
+      "open_questions": [
+        "The English leaves some uncertainty about whether Kafka or the shadows dance. Hindi currently specifies the shadows; that choice remains open.",
+        "The earlier audit overstated the Odia agency issue: ଯେଉଁମାନେ can also have an honorific reference to Kafka. It is an ambiguity to examine, not a proven misassignment."
+      ],
+      "prior_uncertainties": [],
+      "original_findings": [
+        "PNR-013",
+        "PNR-014"
+      ],
+      "after_sha256": "edb89c13141340d7106d291e6055958f318b0bcaad9d17add9eceae42d032070",
+      "status": "revised_with_holds",
+      "changed": true,
+      "finding_dispositions": {
+        "PNR-013": "qualified_source_query_not_proven_error",
+        "PNR-014": "fixed_in_local_draft"
+      }
+    },
+    {
+      "poem_id": 815,
+      "target": "en",
+      "source_sha256": "b511339828e076c4a493519467b0689a3e80872442376ac8ac81e377a66b2495",
+      "before_sha256": "9f9a72a94fc1c5a41c00d4c5d5e4b4287ffb9794ef50827844c7a443d5c5810b",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "selected_option": "a",
+      "reason": "Removes the cumbersome passive “is being drenched.” Live / lives retains the source’s repeated living words instead of polishing away the echo.",
+      "tradeoff": "“Stays wet” describes a continuing state rather than repeated soaking. “A life lives on” deliberately retains some repetition.",
+      "open_questions": [
+        "The palm-leaf expression ଲିତା ବିଲିତା remains provisional. Its existing “destinies” interpretation is preserved, not newly approved."
+      ],
+      "prior_uncertainties": [
+        {
+          "note": "Palm-leaf phrase ଲିତା ବିଲିତା interpreted as written destiny; native editorial confirmation needed.",
+          "record": "kb/production/translations/batch-001/review.json"
+        }
+      ],
+      "original_findings": [
+        "PNR-003"
+      ],
+      "after_sha256": "155e6373afa9e06a156a3b82884a649cabcc0bd10521d095eda0f11428adc0e5",
+      "status": "revised_with_holds",
+      "changed": true,
+      "finding_dispositions": {
+        "PNR-003": "fixed_in_local_draft"
+      }
+    },
+    {
+      "poem_id": 815,
+      "target": "hi",
+      "source_sha256": "b511339828e076c4a493519467b0689a3e80872442376ac8ac81e377a66b2495",
+      "before_sha256": "a00aa49eab5fa6653f6e54a0ab2c12b211004540ee8ffa57aa3f9fe94a72ccba",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "selected_option": "a",
+      "reason": "Keeps the spatial metaphor of an enduringly unreachable mystery in more natural Hindi.",
+      "tradeoff": "A preference in phrasing, not a correction of a proven meaning error.",
+      "open_questions": [
+        "The wet / living refrain remains unchanged in this Hindi proposal.",
+        "The palm-leaf phrase’s existing भाग्य interpretation still needs source confirmation."
+      ],
+      "prior_uncertainties": [
+        {
+          "note": "Palm-leaf phrase ଲିତା ବିଲିତା interpreted as written destiny; native editorial confirmation needed.",
+          "record": "kb/production/translations/batch-001/review.json"
+        }
+      ],
+      "original_findings": [
+        "PNR-002"
+      ],
+      "after_sha256": "a1a697d39e1b2fb64c8e8e83f1bc361dc38403431ef21bf752c565980a457944",
+      "status": "revised_with_holds",
+      "changed": true,
+      "finding_dispositions": {
+        "PNR-002": "fixed_in_local_draft"
+      }
+    },
+    {
+      "poem_id": 820,
+      "target": "en",
+      "source_sha256": "95f32355f2b2cff8fad8fba0df9e4fe81300ee71c53793e949c658b824adc35d",
+      "before_sha256": "366208a1c427ffa9a9c5aa683f70894174014e48577c9639205929f33d83e948",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "selected_option": "a",
+      "reason": "Restores the social-class contrast of ସର୍ବହରା / ଅଭିଜାତ. The added line gives those charged words room while keeping the lights personified.",
+      "tradeoff": "More formal than humble and grand, but the formality carries meaning already present in the source.",
+      "open_questions": [
+        "ଶିରାସନ is still unresolved. The existing “headstand” remains visible in the full draft solely for comparison; neither option is ready to publish with that reading unconfirmed."
+      ],
+      "prior_uncertainties": [
+        {
+          "note": "ଶିରାସନ provisionally interpreted as headstand/शीर्षासन; source wording needs editorial confirmation.",
+          "record": "kb/production/translations/batch-001/review.json"
+        }
+      ],
+      "original_findings": [
+        "PNR-006",
+        "PNR-007"
+      ],
+      "after_sha256": "754d5eb39f938a125458157e0886d2478f4b03674d1d6473c95076d0acdab531",
+      "status": "revised_with_holds",
+      "changed": true,
+      "finding_dispositions": {
+        "PNR-006": "fixed_in_local_draft",
+        "PNR-007": "source_query_held"
+      }
+    },
+    {
+      "poem_id": 820,
+      "target": "hi",
+      "source_sha256": "95f32355f2b2cff8fad8fba0df9e4fe81300ee71c53793e949c658b824adc35d",
+      "before_sha256": "94d31671d0c217dcef149e0c5ca252d4c2688105eda2f2d299219b1f2d29cf63",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "selected_option": "keep",
+      "reason": "सर्वहारा और अभिजात already carries the class contrast. No parallel change is needed simply because the English needs one.",
+      "tradeoff": "This is approval to inspect, not a claim that the entire Hindi translation is ready.",
+      "open_questions": [
+        "शीर्षासन remains a provisional reading of ଶିରାସନ and needs source clarification."
+      ],
+      "prior_uncertainties": [
+        {
+          "note": "ଶିରାସନ provisionally interpreted as headstand/शीर्षासन; source wording needs editorial confirmation.",
+          "record": "kb/production/translations/batch-001/review.json"
+        }
+      ],
+      "original_findings": [
+        "PNR-005"
+      ],
+      "after_sha256": "94d31671d0c217dcef149e0c5ca252d4c2688105eda2f2d299219b1f2d29cf63",
+      "status": "retained_with_holds",
+      "changed": false,
+      "finding_dispositions": {
+        "PNR-005": "source_query_held"
+      }
+    },
+    {
+      "poem_id": 821,
+      "target": "hi",
+      "source_sha256": "b9cf60b7b4a9c122afba80ff8874d8c76449541631f5e7638d6c7e37e8f9fd50",
+      "before_sha256": "db45c35836e18988a9b2aae09f0b611affbfb7e57df37490941739e25f9c7e51",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "selected_option": "hold",
+      "reason": "The current maternal term is not supported by the English alone. There is no proposed unconditional replacement: the existing line is shown as unresolved.",
+      "tradeoff": "A fluent family term requires a factual choice. Replacing it with a vague elder would erase grandmother; listing both would add a person or relation.",
+      "open_questions": [
+        "Confirm the intended grandmother with the poet or an existing authoritative source.",
+        "The Hindi feminine speaker and title also remain provisional. The author’s identity does not by itself establish the poem’s speaker."
+      ],
+      "prior_uncertainties": [
+        {
+          "note": "Gender of English narrator is unspecified; Hindi feminine voice provisional. English grandmother does not specify lineage; Hindi nani/Odia aai require author confirmation.",
+          "record": "kb/production/translations/batch-003/review.json"
+        }
+      ],
+      "original_findings": [
+        "PNR-026"
+      ],
+      "after_sha256": "db45c35836e18988a9b2aae09f0b611affbfb7e57df37490941739e25f9c7e51",
+      "status": "held",
+      "changed": false,
+      "finding_dispositions": {
+        "PNR-026": "source_query_held"
+      }
+    },
+    {
+      "poem_id": 821,
+      "target": "or",
+      "source_sha256": "b9cf60b7b4a9c122afba80ff8874d8c76449541631f5e7638d6c7e37e8f9fd50",
+      "before_sha256": "aa16a61e97d27e6d2a08c641eaec2bf569e552a5039650a6b4506e36218a80fc",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "selected_option": "hold",
+      "reason": "The current maternal term is not supported by the English alone. There is no proposed unconditional replacement: the existing line is shown as unresolved.",
+      "tradeoff": "A fluent family term requires a factual choice. Replacing it with a vague elder would erase grandmother; listing both would add a person or relation.",
+      "open_questions": [
+        "Confirm the intended grandmother with the poet or an existing authoritative source."
+      ],
+      "prior_uncertainties": [
+        {
+          "note": "Gender of English narrator is unspecified; Hindi feminine voice provisional. English grandmother does not specify lineage; Hindi nani/Odia aai require author confirmation.",
+          "record": "kb/production/translations/batch-003/review.json"
+        }
+      ],
+      "original_findings": [
+        "PNR-025"
+      ],
+      "after_sha256": "aa16a61e97d27e6d2a08c641eaec2bf569e552a5039650a6b4506e36218a80fc",
+      "status": "held",
+      "changed": false,
+      "finding_dispositions": {
+        "PNR-025": "source_query_held"
+      }
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "recorded_at": "2026-10-05T11:33:22.913443+00:00",
+  "poem_ids": [
+    754,
+    759,
+    756,
+    747,
+    751
+  ],
+  "variants_read": 10,
+  "variants_changed": 6,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 754,
+      "target": "hi",
+      "reason": "Retain the Hindi; it carries the repeated old father, human/machine reversal, promises and final practical phone call without a defensible new correction.",
+      "reading_evidence": "Read all ten source stanzas (77 lines) and the complete target: present/absent emigrant son, sold sweat/blood and human/software-engineer distinction; salary packages, remittances/house/computer/voicemail, machine/ATM recognition; parents promises and tears; wife passing, devouring wealth, exile at home and quoted bird/ocean poem; tears/sleep then final enquiries call for old-age home. Preserve narrative tense shifts, recognitions and plain tragic ending; no indictment of a country or invented abandonment episode.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve accurate existing imagery, repetitions and stanza turns; no forced rhyme or new explanation.",
+      "full_source_target_read": true,
+      "source_sha256": "c0341aedf9744c729b3c7a6eefa4e6ffa8b0d9361501595b3f36c7fe935edb51",
+      "before_sha256": "0080b82761560f42858ea4a26d18d768de5dfa53df37f442ce65e6f4cf231475",
+      "after_sha256": "0080b82761560f42858ea4a26d18d768de5dfa53df37f442ce65e6f4cf231475",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 754,
+      "target": "en",
+      "reason": "Make the choked-voice idiom natural at the point where recitation breaks into sobbing.",
+      "reading_evidence": "Read all ten source stanzas (77 lines) and the complete target: present/absent emigrant son, sold sweat/blood and human/software-engineer distinction; salary packages, remittances/house/computer/voicemail, machine/ATM recognition; parents promises and tears; wife passing, devouring wealth, exile at home and quoted bird/ocean poem; tears/sleep then final enquiries call for old-age home. Preserve narrative tense shifts, recognitions and plain tragic ending; no indictment of a country or invented abandonment episode.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Voice catches carries the source constricted throat and broken recitation without suggesting a physical choking event. The two-line pause and subsequent sobs remain.",
+      "full_source_target_read": true,
+      "source_sha256": "c0341aedf9744c729b3c7a6eefa4e6ffa8b0d9361501595b3f36c7fe935edb51",
+      "before_sha256": "56174c5360134c5b2f1c1b809f2bccc3425f5b62fcceda627e8af8407c019c72",
+      "after_sha256": "22fe48742093967bbee9d1a99b358d956413bc7113f0c9ae48ab363e67f3c09e",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 759,
+      "target": "hi",
+      "reason": "Retain the Hindi invitation and sound/food images; the uncertain wiping phrase should await source clarification.",
+      "reading_evidence": "Read all three verse stanzas plus separate Anurag/end mark/address in source and complete target: invitation to food of outcry soaked in heart sobs, helpless emptiness/earth opening/seed/many breaths; wiping with cool sari end, lullaby/green woods, earth dozing and fame/infamy; tender morning kiss in silent time garden. Preserve the unnerving nourishment image and intimate repetition; closing material unchanged.",
+      "open_questions": [
+        "Prior unusual ପୋଛି ଦିଏ ଅଭୟ remains provisionally wipe into fearlessness, not a resolved source meaning.",
+        "ଉପନୀତ ଉପବନ relation to silent time remains provisional; preserve existing garden rather than invent its location or arrival story."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve accurate existing imagery, repetitions and stanza turns; no forced rhyme or new explanation.",
+      "full_source_target_read": true,
+      "source_sha256": "a17f5084ed64ced5ff738bf3587b182345031e4f1b7a0336137b8ab5668e13ae",
+      "before_sha256": "42fae30e44d1ea838f974a2ebcbb02ed2ed06adec85a01ba9f59477219de47fa",
+      "after_sha256": "42fae30e44d1ea838f974a2ebcbb02ed2ed06adec85a01ba9f59477219de47fa",
+      "prior_uncertainties": [
+        {
+          "note": "ପଖଳା retains soaked-rice/food image; English syntax locally reorders the two adjacent food/tears lines while keeping both and stanza line count. ପୋଛି ଦିଏ ଅଭୟ is unusual and interpreted wipe into fearlessness provisionally. Anurag and postal lines retained as source closing material; no added author identity.",
+          "record": "kb/production/translations/batch-015/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 759,
+      "target": "en",
+      "reason": "Replace the abrupt Come, you! with an emphatic English invitation that fits the tender final stanza.",
+      "reading_evidence": "Read all three verse stanzas plus separate Anurag/end mark/address in source and complete target: invitation to food of outcry soaked in heart sobs, helpless emptiness/earth opening/seed/many breaths; wiping with cool sari end, lullaby/green woods, earth dozing and fame/infamy; tender morning kiss in silent time garden. Preserve the unnerving nourishment image and intimate repetition; closing material unchanged.",
+      "open_questions": [
+        "Prior unusual ପୋଛି ଦିଏ ଅଭୟ remains provisionally wipe into fearlessness, not a resolved source meaning.",
+        "ଉପନୀତ ଉପବନ relation to silent time remains provisional; preserve existing garden rather than invent its location or arrival story."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "The imperative remains emphatic but avoids an unintended brusque vocative. The target pronoun is implicit; no new intimacy or event is added.",
+      "full_source_target_read": true,
+      "source_sha256": "a17f5084ed64ced5ff738bf3587b182345031e4f1b7a0336137b8ab5668e13ae",
+      "before_sha256": "99483daf5813543d4949dfbfe7af9e9585afcab1a398e3dde65ee44e550cd8d2",
+      "after_sha256": "9670dfe4475555b91d13529d1c92a9f6303ef88b1c6535659f016e149b5e05c1",
+      "prior_uncertainties": [
+        {
+          "note": "ପଖଳା retains soaked-rice/food image; English syntax locally reorders the two adjacent food/tears lines while keeping both and stanza line count. ପୋଛି ଦିଏ ଅଭୟ is unusual and interpreted wipe into fearlessness provisionally. Anurag and postal lines retained as source closing material; no added author identity.",
+          "record": "kb/production/translations/batch-015/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 756,
+      "target": "or",
+      "reason": "Retain the Odia; the planting/affection/resolve sequence and hortatory voice remain coherent.",
+      "reading_evidence": "Read all eight source quatrains and end mark/Jamshedpur tail, independently against each full target: mind garden, dreams/soil feelings, germination/affection water/pulses, bee/bud/nectar, petals/seeds/soil/tree/forest, unceasing creation, joint resolve/tree of love, shelter/roots/heat, grief-fire lamp and continuing resolve. Preserve cycles and exhortative recurrence without claiming metre/rhyme equivalence.",
+      "open_questions": [
+        "The flying subject in stanza three is unresolved; English it/Odia unassigned subject retain that uncertainty.",
+        "The watered bodies and beside whom the shy bud is placed are not explicitly specified. Existing English their/beside it is contextual and remains provisional; no author-confirmed personification claim."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve accurate existing imagery, repetitions and stanza turns; no forced rhyme or new explanation.",
+      "full_source_target_read": true,
+      "source_sha256": "558b8f02c7ee7fbbfa520a3146e0e2c229ff10a4f1ac3cc4593eab3269ef375f",
+      "before_sha256": "a406bdaec724e8f80a404113994169e04892fbbcde92dfb2596161178d71cf49",
+      "after_sha256": "a406bdaec724e8f80a404113994169e04892fbbcde92dfb2596161178d71cf49",
+      "prior_uncertainties": [
+        {
+          "note": "Tree, seed, honey, soil and resolve progression retained; metre/rhyme not recreated. Third-stanza flying subject is ambiguous; left unassigned in Odia and English it.",
+          "record": "kb/production/translations/batch-015/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 756,
+      "target": "en",
+      "reason": "Retain the English; material compounds are supported by the source and need not be smoothed into generic sentiment.",
+      "reading_evidence": "Read all eight source quatrains and end mark/Jamshedpur tail, independently against each full target: mind garden, dreams/soil feelings, germination/affection water/pulses, bee/bud/nectar, petals/seeds/soil/tree/forest, unceasing creation, joint resolve/tree of love, shelter/roots/heat, grief-fire lamp and continuing resolve. Preserve cycles and exhortative recurrence without claiming metre/rhyme equivalence.",
+      "open_questions": [
+        "The flying subject in stanza three is unresolved; English it/Odia unassigned subject retain that uncertainty.",
+        "The watered bodies and beside whom the shy bud is placed are not explicitly specified. Existing English their/beside it is contextual and remains provisional; no author-confirmed personification claim."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve accurate existing imagery, repetitions and stanza turns; no forced rhyme or new explanation.",
+      "full_source_target_read": true,
+      "source_sha256": "558b8f02c7ee7fbbfa520a3146e0e2c229ff10a4f1ac3cc4593eab3269ef375f",
+      "before_sha256": "cf31d736dbc12211e97dae3ab95b2dd31ad2f31107d03cc82890b0e4b4840543",
+      "after_sha256": "cf31d736dbc12211e97dae3ab95b2dd31ad2f31107d03cc82890b0e4b4840543",
+      "prior_uncertainties": [
+        {
+          "note": "Tree, seed, honey, soil and resolve progression retained; metre/rhyme not recreated. Third-stanza flying subject is ambiguous; left unassigned in Odia and English it.",
+          "record": "kb/production/translations/batch-015/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 747,
+      "target": "or",
+      "reason": "Restore uniform specificity: generic clothing weakens the mothers uncertainty about military return.",
+      "reading_evidence": "Read all ten source/target stanzas: cannons/lullaby/earth crying and question-smoke; false patriotic victory and bleeding earth; mother/homecoming/uniform; fury versus compassion dialect; soldier lowering rifle and stranger risking life; nationality-free heartbeat; tolerance/help versus hatred; empathy betrayal growing war; disowned hatred and repeated cannon ending with mercy chosen. Keep antiwar argument and female earth without assigning a military side or casualty.",
+      "open_questions": [
+        "Which uniform brings the son home remains deliberately unspecified; no side, nationality, death or capture has been inferred."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Military clothing makes uniform identifiable in the war context without identifying its army, wearer or fate.",
+      "full_source_target_read": true,
+      "source_sha256": "f85f7a38d18c9d16dca588e0a55135ef0753e013452d349a8f522c29032048b1",
+      "before_sha256": "334bf3aa4a9c404aeacbce1d79e0224c9344c9fa81a7b41aefaae4d15a7ceaad",
+      "after_sha256": "731d778c1d486659a11a17fd28e540eadc4141b714eec9e34408ccb7e2a3765b",
+      "prior_uncertainties": [
+        {
+          "note": "Uniform ambiguity retained without inventing a side, enemy or casualty. Antiwar argument translated as poem, not external political assertion.",
+          "record": "kb/production/translations/batch-015/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 747,
+      "target": "hi",
+      "reason": "Replace spatial over calque with the Hindi phrase for choosing mercy in preference to false triumph.",
+      "reading_evidence": "Read all ten source/target stanzas: cannons/lullaby/earth crying and question-smoke; false patriotic victory and bleeding earth; mother/homecoming/uniform; fury versus compassion dialect; soldier lowering rifle and stranger risking life; nationality-free heartbeat; tolerance/help versus hatred; empathy betrayal growing war; disowned hatred and repeated cannon ending with mercy chosen. Keep antiwar argument and female earth without assigning a military side or casualty.",
+      "open_questions": [
+        "Which uniform brings the son home remains deliberately unspecified; no side, nationality, death or capture has been inferred."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Restores the concluding ethical choice; does not intensify the source antiwar stance.",
+      "full_source_target_read": true,
+      "source_sha256": "f85f7a38d18c9d16dca588e0a55135ef0753e013452d349a8f522c29032048b1",
+      "before_sha256": "f6117bab92393b3c06730fe2d1bf91821ec19df5cf23e22029d0f69904855327",
+      "after_sha256": "c6fd255d35835d3922161d190422fadfa868b9d91b5fd9cc74482bae6843ed25",
+      "prior_uncertainties": [
+        {
+          "note": "Uniform ambiguity retained without inventing a side, enemy or casualty. Antiwar argument translated as poem, not external political assertion.",
+          "record": "kb/production/translations/batch-015/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 751,
+      "target": "or",
+      "reason": "Restore signing rather than merely writing names.",
+      "reading_evidence": "Read entire eleven-line source and both targets: signing names on decorated evening, vows reeling within, promises circling havan, clamouring blessings; contrastive truth sleeping apart, naked under rug. Preserve marital/ceremonial irony, concealment and withheld explanation.",
+      "open_questions": [
+        "Source embellish eve is grammatically irregular; decorated evening retained provisionally. Within leaves its container unspecified. No invented legal document or explanation of the hidden truth."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Signature carries the opening act and its contrast with concealed truth; names are implicit in signing, and no document is invented.",
+      "full_source_target_read": true,
+      "source_sha256": "74b7b7d812cc2e0b2896ee0f7dbad7e95e79815f438390e7cf6c1a9eac1ea009",
+      "before_sha256": "2d6fb46cba25299e8efa03c424d2a4e84eee9604855d293f701f75cd39bdd7f6",
+      "after_sha256": "43df1fe10391996e915b46b654d2dcebb8847bf60184a77e83731f268ec72d4c",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 751,
+      "target": "hi",
+      "reason": "Restore signing rather than merely writing names.",
+      "reading_evidence": "Read entire eleven-line source and both targets: signing names on decorated evening, vows reeling within, promises circling havan, clamouring blessings; contrastive truth sleeping apart, naked under rug. Preserve marital/ceremonial irony, concealment and withheld explanation.",
+      "open_questions": [
+        "Source embellish eve is grammatically irregular; decorated evening retained provisionally. Within leaves its container unspecified. No invented legal document or explanation of the hidden truth."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Signature preserves the opening act while leaving the legal/ceremonial document unspecified.",
+      "full_source_target_read": true,
+      "source_sha256": "74b7b7d812cc2e0b2896ee0f7dbad7e95e79815f438390e7cf6c1a9eac1ea009",
+      "before_sha256": "dc72f8e28a6a25733bb0c05e72b2821a3d5909cd49cd4deb6b556a2a0c4d6f59",
+      "after_sha256": "4b75f027aa57186073aa5f649cdbfe6dae244ed4a896284577699ec883f80b9e",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

@@ -1,0 +1,716 @@
+[
+  {
+    "poem_id": 334,
+    "target": "or",
+    "reading_evidence": "Read all46lines in six stanzas (10/8/12/5/5/6): summer mango-bud smell/village orchard/watchman/friends/tangy crunchy fruit/mint chutney/granny pickles/saliva; petrichor/first rain/paper boats/friends/mother warnings; kitchen spices/mothers loving extra-food insistence once refused now missed, kheer/Jagannath temple prasad small yet ample/long wait/fresh memory; lavender beyond time/space to beloved, powdered infant scent and absent embrace sole solace; fragrances transforming past to present/indelible stories/refreshed healing feelings. No lineage or infant-beloved relationship inferred.",
+    "reason": "Use a natural return-to-childhood expression for smell-triggered reliving instead of a bare transitive live-my-childhood calque; retain the surrounding rain memory.",
+    "open_questions": [
+      "Prior batch111: granny does not establish maternal/paternal lineage; dadi/jejema remain provisional, no different kinship substituted.",
+      "Hindi female narrator remains provisional. Beloved/infant association does not establish a new relationship."
+    ],
+    "finding_dispositions": {
+      "prior_flags": "No prior audit flags; complete source/current target read and existing uncertainty notes retained."
+    },
+    "tradeoff": "Preserve source memories, tonal movement and full lineation. AI self-review only; independent author/fluent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "5b918d23f26ef36e5ef04ab97b205cc5054768322d627fb27e8a206022f20da9",
+    "before_sha256": "a7957d224a0b17143a5718874a23ad1a4861f67d0ceafa424a6b9eab33df893b",
+    "after_sha256": "843a6ad8827c4c68fc579a91c497ebd064920f920367c4dfb67e6f8e76f151cb",
+    "prior_uncertainties": [
+      {
+        "note": "All six blocks retained. Sensory mango/petrichor/kheer/Jagannath-prasad memories preserved. Grandmother rendered dadi/jejema provisionally; maternal or paternal unspecified. Hindi female narrator provisional; beloved/infant associations not assigned a new relationship.",
+        "record": "kb/production/translations/batch-111/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ସୁଗନ୍ଧ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଯେବେ ଗ୍ରୀଷ୍ମ ଦିପହର ପବନ",
+          "ଆମ୍ବ ବଉଳର ମିଠା ବାସ ବୁହାଏ",
+          "ମନ ମୋ ଗାଁର ଆମ୍ବତୋଟାକୁ ଧାଏଁ",
+          "ଯେଉଁଠି ଜଗୁଆଳିର ଆଖି ଏଡ଼ାଇ,",
+          "ପିଲାଦିନେ ସାଙ୍ଗମାନଙ୍କ ସହ ଆମ୍ବ ତୋଳୁଥିଲି,",
+          "କଡ଼ମଡ଼ ଖଟା କଞ୍ଚା ଆମ୍ବର ସ୍ୱାଦ ନେଉଥିଲି,",
+          "ଆଉ ପୋଦିନାପତ୍ର ଦିଆ ଖଟାମିଠା ମସଲା ଚଟଣିର,",
+          "ଆଖି ଆଗରେ ଆଚାର ବରଣିମାନଙ୍କ ଧାଡ଼ି ଚାଲେ",
+          "ଜେଜେମାଆଙ୍କ ସୁଆଦିଆ ପୂରଦିଆ ଆଚାରରେ ଭରା,",
+          "ତାହାର ସ୍ମୃତିରେ ବି ମୋ ପାଟିରୁ ଲାଳ ଝରେ।"
+        ],
+        [
+          "ଯେବେ ମାଟିର ସୁମଧୁର ସୋନ୍ଦା ବାସ ପବନରେ ଭାସେ",
+          "ପ୍ରଥମ ବର୍ଷାବିନ୍ଦୁର ସ୍ପର୍ଶରେ,",
+          "ମୁଁ ପୁଣି ବଞ୍ଚେ ମୋ ପିଲାଦିନ",
+          "ମୋ ଦୂର ଗାଁରେ",
+          "ଯେଉଁଠି କାଗଜଡଙ୍ଗା ତିଆରି କରି ଭସାଉଥିଲି",
+          "ଆଉ ସାଙ୍ଗମାନଙ୍କ ସହ ଘଣ୍ଟା ଘଣ୍ଟା ଖେଳୁଥିଲି",
+          "ବର୍ଷାପାଣିରେ ଭିଜି",
+          "ମାଆର ସତର୍କବାଣୀ ଅଣଶୁଣା କରି।"
+        ],
+        [
+          "ରୋଷେଇଘରର ଉତ୍ତେଜକ ମସଲା ବାସରେ",
+          "ମୋ ମନ ସ୍ନେହମୟୀ ମାଆ ପାଖକୁ ଉଡ଼ିଯାଏ",
+          "ଯିଏ ଏତେ ସ୍ନେହ ଓ ଯତ୍ନରେ ସୁଆଦିଆ ଖାଦ୍ୟ ରାନ୍ଧୁଥିଲା",
+          "ମୋ ପାଖରେ ବସି ଆଉ ଟିକେ ଖାଇବାକୁ ଜିଦ୍ କରୁଥିଲା",
+          "ଯାହାକୁ ମୁଁ ବିରକ୍ତ ହୋଇ ସବୁବେଳେ ମନା କରୁଥିଲି,",
+          "ଯାହା ଏବେ ମନେପଡ଼େ ଆଉ ମନ ଝୁରେ,",
+          "ଖିରିର ମିଠା ବାସ",
+          "ସେହି ଅମୃତର ସ୍ୱାଦ ଜଗାଇଦିଏ:",
+          "ମୋ ଗାଁ ମନ୍ଦିରରେ ପ୍ରଭୁ ଜଗନ୍ନାଥଙ୍କୁ ଲାଗି ହେଉଥିବା ପ୍ରସାଦ",
+          "ଚାଖିବାକୁ ଅଳ୍ପ, ତଥାପି ଯଥେଷ୍ଟଠାରୁ ବେଶି ଲାଗୁଥିଲା",
+          "ଯାହା ପାଇଁ ଆମେ ଘଣ୍ଟା ଘଣ୍ଟା ଅପେକ୍ଷା କରୁଥିଲୁ",
+          "ଦୂର ଅତୀତ ହେଲେ ବି ସ୍ୱାଦ ଆହୁରି ସତେଜ ହୁଏ।"
+        ],
+        [
+          "ଶାନ୍ତିଦାୟୀ ଲାଭେଣ୍ଡରର ମିଠା ବାସ",
+          "କେତେ ସୁନ୍ଦର ଓ ପବିତ୍ର ଭାବ ଜଗାଏ,",
+          "ମୋତେ ନେଇଯାଏ ଏକ ଅନନ୍ୟ ଅନୁଭବକୁ",
+          "ସମୟ ଓ ସ୍ଥାନର ପାରେ",
+          "ତୁମ ପାଖକୁ, ମୋ ପ୍ରିୟ, ଚିରମଧୁର ଓ ସତେଜ।"
+        ],
+        [
+          "ବେବି ପାଉଡର ବୋଳା ଶିଶୁର ବାସ",
+          "ତୁମ ସୁଗନ୍ଧ ଅନୁଭବ କରାଏ, ପ୍ରିୟ,",
+          "ଯଦିଓ ଏବେ ତୁମେ ମାଇଲ ମାଇଲ ଦୂରେ",
+          "ତୁମ ଉଷ୍ମ ଆଲିଙ୍ଗନର ଭାବନା",
+          "ହିଁ ସୁଖର ଏକମାତ୍ର ଉତ୍ସ ଓ ଏକମାତ୍ର ସାନ୍ତ୍ୱନା।"
+        ],
+        [
+          "ସୁଗନ୍ଧର ଶକ୍ତି ଅତି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ",
+          "ଯାହା ଅତୀତକୁ ବର୍ତ୍ତମାନ କରିପାରେ,",
+          "ଜୀବନ୍ତ ସ୍ମୃତିମାନଙ୍କୁ ପୁଣି ଜୀବନ ଦିଏ",
+          "ପ୍ରତିଟିକୁ ଅଲିଭା କାହାଣୀରେ ବଦଳାଏ,",
+          "ଏମିତି ସତେଜ ଓ ରୋମାଞ୍ଚକର ଅନୁଭୂତି ଜଗାଏ,",
+          "ଏତେ ପରିତୃପ୍ତିଦାୟୀ ଓ କ୍ଷତ ଶମନକାରୀ!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ସୁଗନ୍ଧ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଯେବେ ଗ୍ରୀଷ୍ମ ଦିପହର ପବନ",
+          "ଆମ୍ବ ବଉଳର ମିଠା ବାସ ବୁହାଏ",
+          "ମନ ମୋ ଗାଁର ଆମ୍ବତୋଟାକୁ ଧାଏଁ",
+          "ଯେଉଁଠି ଜଗୁଆଳିର ଆଖି ଏଡ଼ାଇ,",
+          "ପିଲାଦିନେ ସାଙ୍ଗମାନଙ୍କ ସହ ଆମ୍ବ ତୋଳୁଥିଲି,",
+          "କଡ଼ମଡ଼ ଖଟା କଞ୍ଚା ଆମ୍ବର ସ୍ୱାଦ ନେଉଥିଲି,",
+          "ଆଉ ପୋଦିନାପତ୍ର ଦିଆ ଖଟାମିଠା ମସଲା ଚଟଣିର,",
+          "ଆଖି ଆଗରେ ଆଚାର ବରଣିମାନଙ୍କ ଧାଡ଼ି ଚାଲେ",
+          "ଜେଜେମାଆଙ୍କ ସୁଆଦିଆ ପୂରଦିଆ ଆଚାରରେ ଭରା,",
+          "ତାହାର ସ୍ମୃତିରେ ବି ମୋ ପାଟିରୁ ଲାଳ ଝରେ।"
+        ],
+        [
+          "ଯେବେ ମାଟିର ସୁମଧୁର ସୋନ୍ଦା ବାସ ପବନରେ ଭାସେ",
+          "ପ୍ରଥମ ବର୍ଷାବିନ୍ଦୁର ସ୍ପର୍ଶରେ,",
+          "ପୁଣି ଫେରିଯାଏ ମୋ ପିଲାଦିନକୁ",
+          "ମୋ ଦୂର ଗାଁରେ",
+          "ଯେଉଁଠି କାଗଜଡଙ୍ଗା ତିଆରି କରି ଭସାଉଥିଲି",
+          "ଆଉ ସାଙ୍ଗମାନଙ୍କ ସହ ଘଣ୍ଟା ଘଣ୍ଟା ଖେଳୁଥିଲି",
+          "ବର୍ଷାପାଣିରେ ଭିଜି",
+          "ମାଆର ସତର୍କବାଣୀ ଅଣଶୁଣା କରି।"
+        ],
+        [
+          "ରୋଷେଇଘରର ଉତ୍ତେଜକ ମସଲା ବାସରେ",
+          "ମୋ ମନ ସ୍ନେହମୟୀ ମାଆ ପାଖକୁ ଉଡ଼ିଯାଏ",
+          "ଯିଏ ଏତେ ସ୍ନେହ ଓ ଯତ୍ନରେ ସୁଆଦିଆ ଖାଦ୍ୟ ରାନ୍ଧୁଥିଲା",
+          "ମୋ ପାଖରେ ବସି ଆଉ ଟିକେ ଖାଇବାକୁ ଜିଦ୍ କରୁଥିଲା",
+          "ଯାହାକୁ ମୁଁ ବିରକ୍ତ ହୋଇ ସବୁବେଳେ ମନା କରୁଥିଲି,",
+          "ଯାହା ଏବେ ମନେପଡ଼େ ଆଉ ମନ ଝୁରେ,",
+          "ଖିରିର ମିଠା ବାସ",
+          "ସେହି ଅମୃତର ସ୍ୱାଦ ଜଗାଇଦିଏ:",
+          "ମୋ ଗାଁ ମନ୍ଦିରରେ ପ୍ରଭୁ ଜଗନ୍ନାଥଙ୍କୁ ଲାଗି ହେଉଥିବା ପ୍ରସାଦ",
+          "ଚାଖିବାକୁ ଅଳ୍ପ, ତଥାପି ଯଥେଷ୍ଟଠାରୁ ବେଶି ଲାଗୁଥିଲା",
+          "ଯାହା ପାଇଁ ଆମେ ଘଣ୍ଟା ଘଣ୍ଟା ଅପେକ୍ଷା କରୁଥିଲୁ",
+          "ଦୂର ଅତୀତ ହେଲେ ବି ସ୍ୱାଦ ଆହୁରି ସତେଜ ହୁଏ।"
+        ],
+        [
+          "ଶାନ୍ତିଦାୟୀ ଲାଭେଣ୍ଡରର ମିଠା ବାସ",
+          "କେତେ ସୁନ୍ଦର ଓ ପବିତ୍ର ଭାବ ଜଗାଏ,",
+          "ମୋତେ ନେଇଯାଏ ଏକ ଅନନ୍ୟ ଅନୁଭବକୁ",
+          "ସମୟ ଓ ସ୍ଥାନର ପାରେ",
+          "ତୁମ ପାଖକୁ, ମୋ ପ୍ରିୟ, ଚିରମଧୁର ଓ ସତେଜ।"
+        ],
+        [
+          "ବେବି ପାଉଡର ବୋଳା ଶିଶୁର ବାସ",
+          "ତୁମ ସୁଗନ୍ଧ ଅନୁଭବ କରାଏ, ପ୍ରିୟ,",
+          "ଯଦିଓ ଏବେ ତୁମେ ମାଇଲ ମାଇଲ ଦୂରେ",
+          "ତୁମ ଉଷ୍ମ ଆଲିଙ୍ଗନର ଭାବନା",
+          "ହିଁ ସୁଖର ଏକମାତ୍ର ଉତ୍ସ ଓ ଏକମାତ୍ର ସାନ୍ତ୍ୱନା।"
+        ],
+        [
+          "ସୁଗନ୍ଧର ଶକ୍ତି ଅତି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ",
+          "ଯାହା ଅତୀତକୁ ବର୍ତ୍ତମାନ କରିପାରେ,",
+          "ଜୀବନ୍ତ ସ୍ମୃତିମାନଙ୍କୁ ପୁଣି ଜୀବନ ଦିଏ",
+          "ପ୍ରତିଟିକୁ ଅଲିଭା କାହାଣୀରେ ବଦଳାଏ,",
+          "ଏମିତି ସତେଜ ଓ ରୋମାଞ୍ଚକର ଅନୁଭୂତି ଜଗାଏ,",
+          "ଏତେ ପରିତୃପ୍ତିଦାୟୀ ଓ କ୍ଷତ ଶମନକାରୀ!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 334,
+    "target": "hi",
+    "reading_evidence": "Read all46lines in six stanzas (10/8/12/5/5/6): summer mango-bud smell/village orchard/watchman/friends/tangy crunchy fruit/mint chutney/granny pickles/saliva; petrichor/first rain/paper boats/friends/mother warnings; kitchen spices/mothers loving extra-food insistence once refused now missed, kheer/Jagannath temple prasad small yet ample/long wait/fresh memory; lavender beyond time/space to beloved, powdered infant scent and absent embrace sole solace; fragrances transforming past to present/indelible stories/refreshed healing feelings. No lineage or infant-beloved relationship inferred.",
+    "reason": "Correct reliving childhood to a transitive experiential phrase rather than saying the speaker comes back to life with an unattached days object.",
+    "open_questions": [
+      "Prior batch111: granny does not establish maternal/paternal lineage; dadi/jejema remain provisional, no different kinship substituted.",
+      "Hindi female narrator remains provisional. Beloved/infant association does not establish a new relationship."
+    ],
+    "finding_dispositions": {
+      "prior_flags": "No prior audit flags; complete source/current target read and existing uncertainty notes retained."
+    },
+    "tradeoff": "Preserve source memories, tonal movement and full lineation. AI self-review only; independent author/fluent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "5b918d23f26ef36e5ef04ab97b205cc5054768322d627fb27e8a206022f20da9",
+    "before_sha256": "167ce4dc07765cde14b00f6cd5512fdf68d45ec562cc9f3e02d7ff67c6edd586",
+    "after_sha256": "7ade9cd13f8b7a56fcb1aabf44950ffde370f17f1d8216915209bde4686c2e99",
+    "prior_uncertainties": [
+      {
+        "note": "All six blocks retained. Sensory mango/petrichor/kheer/Jagannath-prasad memories preserved. Grandmother rendered dadi/jejema provisionally; maternal or paternal unspecified. Hindi female narrator provisional; beloved/infant associations not assigned a new relationship.",
+        "record": "kb/production/translations/batch-111/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "सुगंध",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जब गर्मियों की दोपहर की हवा",
+          "आम के बौर की मीठी सुगंध बहाती है",
+          "मन मेरे गाँव के आम-बाग़ में दौड़ जाता है",
+          "जहाँ बचपन में पहरेदार की आँख बचाकर,",
+          "दोस्तों संग आम तोड़ा करती थी,",
+          "कुरकुरे खट्टे कच्चे आमों का स्वाद लेती थी,",
+          "और पुदीने वाली मीठी-खट्टी मसालेदार चटनी का,",
+          "आँखों के सामने अचार की बरनियाँ कतार बाँधती हैं",
+          "जिनमें दादी का बनाया स्वादिष्ट भरवाँ अचार था,",
+          "याद आते ही मुँह में पानी भर आता है।"
+        ],
+        [
+          "जब सोंधी मिट्टी की मीठी गंध हवा में तैरती है",
+          "बारिश की पहली बूँद के स्पर्श से,",
+          "फिर जी उठती हूँ बचपन के दिन",
+          "अपने दूर बसे गाँव में",
+          "जहाँ काग़ज़ की नावें बनाकर तैराती थी",
+          "और साथियों संग घंटों खेलती थी",
+          "बारिश के पानी में भीगती हुई",
+          "माँ की चेतावनियाँ अनसुनी करती हुई।"
+        ],
+        [
+          "रसोई की उत्तेजक मसालेदार गंध से",
+          "मन मेरी प्यारी माँ के पास उड़ जाता है",
+          "जो इतने प्रेम और जतन से स्वादिष्ट व्यंजन बनाती थी",
+          "पास बैठकर थोड़ा और खाने का आग्रह करती थी",
+          "जिसे मैं सदा झुँझलाकर मना कर देती थी,",
+          "जिसकी आज कमी खलती है और मन तरसता है,",
+          "खीर की मीठी महक",
+          "उस अमृत का स्वाद जगा देती है:",
+          "मेरे गाँव के मंदिर में भगवान जगन्नाथ को चढ़ाया गया प्रसाद",
+          "चखने को थोड़ा, फिर भी पर्याप्त से कहीं अधिक लगता था",
+          "जिसके लिए हम घंटों प्रतीक्षा करते थे",
+          "दूर का अतीत होते हुए भी स्वाद और ताज़ा होता जाता है।"
+        ],
+        [
+          "सुकून देते लैवेंडर की मीठी गंध",
+          "कितना सुंदर, पवित्र भाव जगाती है,",
+          "एक अनोखे अनुभव में ले जाती है",
+          "समय और स्थान के पार",
+          "तुम्हारे पास, मेरे प्रिय, सदा मधुर और ताज़ा।"
+        ],
+        [
+          "बेबी पाउडर लगे शिशु की सुगंध",
+          "तुम्हारी महक महसूस कराती है, प्रिय,",
+          "हालाँकि अब तुम मीलों दूर हो",
+          "तुम्हारे गर्म आलिंगन का ख़याल",
+          "ही सुख का एकमात्र स्रोत और एकमात्र सांत्वना है।"
+        ],
+        [
+          "सुगंध की शक्ति अत्यंत महत्त्वपूर्ण है",
+          "जो अतीत को वर्तमान बना सकती है,",
+          "जीवंत स्मृतियों को फिर जीवन देती है",
+          "हर एक को अमिट कहानी में बदलती है,",
+          "ऐसे ताज़गी भरे, रोमांचक भाव जगाती है,",
+          "इतने तृप्तिदायक और घाव भरने वाले!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "सुगंध",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जब गर्मियों की दोपहर की हवा",
+          "आम के बौर की मीठी सुगंध बहाती है",
+          "मन मेरे गाँव के आम-बाग़ में दौड़ जाता है",
+          "जहाँ बचपन में पहरेदार की आँख बचाकर,",
+          "दोस्तों संग आम तोड़ा करती थी,",
+          "कुरकुरे खट्टे कच्चे आमों का स्वाद लेती थी,",
+          "और पुदीने वाली मीठी-खट्टी मसालेदार चटनी का,",
+          "आँखों के सामने अचार की बरनियाँ कतार बाँधती हैं",
+          "जिनमें दादी का बनाया स्वादिष्ट भरवाँ अचार था,",
+          "याद आते ही मुँह में पानी भर आता है।"
+        ],
+        [
+          "जब सोंधी मिट्टी की मीठी गंध हवा में तैरती है",
+          "बारिश की पहली बूँद के स्पर्श से,",
+          "फिर से जीती हूँ बचपन के दिन",
+          "अपने दूर बसे गाँव में",
+          "जहाँ काग़ज़ की नावें बनाकर तैराती थी",
+          "और साथियों संग घंटों खेलती थी",
+          "बारिश के पानी में भीगती हुई",
+          "माँ की चेतावनियाँ अनसुनी करती हुई।"
+        ],
+        [
+          "रसोई की उत्तेजक मसालेदार गंध से",
+          "मन मेरी प्यारी माँ के पास उड़ जाता है",
+          "जो इतने प्रेम और जतन से स्वादिष्ट व्यंजन बनाती थी",
+          "पास बैठकर थोड़ा और खाने का आग्रह करती थी",
+          "जिसे मैं सदा झुँझलाकर मना कर देती थी,",
+          "जिसकी आज कमी खलती है और मन तरसता है,",
+          "खीर की मीठी महक",
+          "उस अमृत का स्वाद जगा देती है:",
+          "मेरे गाँव के मंदिर में भगवान जगन्नाथ को चढ़ाया गया प्रसाद",
+          "चखने को थोड़ा, फिर भी पर्याप्त से कहीं अधिक लगता था",
+          "जिसके लिए हम घंटों प्रतीक्षा करते थे",
+          "दूर का अतीत होते हुए भी स्वाद और ताज़ा होता जाता है।"
+        ],
+        [
+          "सुकून देते लैवेंडर की मीठी गंध",
+          "कितना सुंदर, पवित्र भाव जगाती है,",
+          "एक अनोखे अनुभव में ले जाती है",
+          "समय और स्थान के पार",
+          "तुम्हारे पास, मेरे प्रिय, सदा मधुर और ताज़ा।"
+        ],
+        [
+          "बेबी पाउडर लगे शिशु की सुगंध",
+          "तुम्हारी महक महसूस कराती है, प्रिय,",
+          "हालाँकि अब तुम मीलों दूर हो",
+          "तुम्हारे गर्म आलिंगन का ख़याल",
+          "ही सुख का एकमात्र स्रोत और एकमात्र सांत्वना है।"
+        ],
+        [
+          "सुगंध की शक्ति अत्यंत महत्त्वपूर्ण है",
+          "जो अतीत को वर्तमान बना सकती है,",
+          "जीवंत स्मृतियों को फिर जीवन देती है",
+          "हर एक को अमिट कहानी में बदलती है,",
+          "ऐसे ताज़गी भरे, रोमांचक भाव जगाती है,",
+          "इतने तृप्तिदायक और घाव भरने वाले!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 335,
+    "target": "or",
+    "reading_evidence": "Read all20lines: young Dukhiram tea cry breaks morning, youngest of eight doing adult labour without ennui/disgruntlement/inertia, dazzling smile versus sorrow-name question; uncertain angora skin/thin towel/mustard odour/sun radiance; bathing back slaps, work beyond tiny body, astonishing masonry, panta/onion/chilli luxury, narrator daughters kaleidoscope and coloured glass recovering lost childhood. Preserve child-labour tension without inserting a new moralizing explanation.",
+    "reason": "Carry raise-many-an-eyebrow as surprise at the skill; bhru-kunchana suggested frowning/disapproval rather than the source admiring astonishment.",
+    "open_questions": [
+      "Prior batch112: angora skin remains uncertain source wording; no skin-colour or texture certainty substituted.",
+      "Panta retained as the named food, not replaced with a regional equivalent."
+    ],
+    "finding_dispositions": {
+      "prior_flags": "No prior audit flags; complete source/current target read and existing uncertainty notes retained."
+    },
+    "tradeoff": "Preserve source memories, tonal movement and full lineation. AI self-review only; independent author/fluent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "d81b9283eebd58c94b40db96571eaddd36927d884232ad25f3e8cc8912688559",
+    "before_sha256": "f66284816f689a02cf7b5a3f8c4f6e99562b3ae0bb9cc6cf738a0911dd635f98",
+    "after_sha256": "57369fe01b185de8dbe57afa5e3a84cac90bf79e32ed241ab3c0f156bc19e721",
+    "prior_uncertainties": [
+      {
+        "note": "All twenty lines preserved. Panta retained, not substituted with a different regional food. Angora skin is uncertain source wording, kept as angora-like skin without silently changing to dark/fair. Child-labour and lost-childhood contrast retained; daughter remains narrator’s daughter.",
+        "record": "kb/production/translations/batch-112/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଦୁଖୀରାମ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "କପେ ଚାହା ମାଗୁଥିବା ଦୁଖୀରାମର ତୀକ୍ଷ୍ଣ ସ୍ୱର",
+          "ସକାଳର ଶାନ୍ତ ନୀରବତା ଭାଙ୍ଗେ...",
+          "ସେ, ଆଠଜଣ ଶ୍ରମିକଙ୍କ ଦଳରେ ସବୁଠୁ ସାନ",
+          "ବଡ଼ ମଣିଷ ପରି ପରିଶ୍ରମ କରୁଥିଲା",
+          "ବିନା ବିରକ୍ତି, ବିନା ଅସନ୍ତୋଷ, ବିନା ଅଳସତା",
+          "ତାହାର ସେହି ଝଲମଲ ହସ ଫୁଟାଇ",
+          "ଦୁଖୀରାମ, କିଏ ବା ତୁମର ଏମିତି ନାମ ଦେଲା?",
+          "ତା' ଅଙ୍ଗୋରା ପରି ଚର୍ମର ଅଣ୍ଟାରେ ପତଳା ଗାମୁଛା ଗୁଡ଼ାଇଥିଲା",
+          "ତା' ଦେହର ଗନ୍ଧରେ ଝାଞ୍ଜିଆ ସୋରିଷ ତେଲ ଭରିଥିଲା",
+          "ଖରାରେ ଖଟୁଥିବା,",
+          "ଦୁଖୀରାମ ଥିଲା ଈର୍ଷଣୀୟ ଦୀପ୍ତିର ସମ୍ପୂର୍ଣ୍ଣ ଛବି!",
+          "ମୁଁ ଦେଖୁଥିଲି ସେ ନିଜ ପିଠି ପିଟୁଥିଲା",
+          "ଗାଧୋଇବାବେଳେ ଗୁଞ୍ଜରିତ ଚାପୁଡ଼ାରେ...",
+          "ତା' କ୍ଷୁଦ୍ର ଦେହ ସହିବାଠାରୁ ଅଧିକ ଭାର ନେଇ,",
+          "ରାଜମିସ୍ତ୍ରି କଳାର ତା' ଅକ୍ଳାନ୍ତ ପ୍ରଦର୍ଶନ",
+          "ଅନେକଙ୍କ ଭ୍ରୂକୁଞ୍ଚନ ପାଇଁ ଯଥେଷ୍ଟ ଥିଲା!",
+          "ପିଆଜ ଓ କଞ୍ଚାଲଙ୍କାର ଅତିରିକ୍ତ ବିଳାସ ସହ ଥାଳିଏ ‘ପାନ୍ତା’ର ସ୍ୱାଦ ନେଇ",
+          "ସେ ମୋ ଝିଅର କାଲେଇଡୋସ୍କୋପ୍ ପାପୁଲିରେ ଧରେ",
+          "ଆଉ ସେହି ଅସଂଖ୍ୟ ରଙ୍ଗର କାଚ ଚମତ୍କାରରେ",
+          "ସେ ନିଜ ହଜିଲା ‘ପିଲାଦିନ’ ଖୋଜିପାଏ!!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଦୁଖୀରାମ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "କପେ ଚାହା ମାଗୁଥିବା ଦୁଖୀରାମର ତୀକ୍ଷ୍ଣ ସ୍ୱର",
+          "ସକାଳର ଶାନ୍ତ ନୀରବତା ଭାଙ୍ଗେ...",
+          "ସେ, ଆଠଜଣ ଶ୍ରମିକଙ୍କ ଦଳରେ ସବୁଠୁ ସାନ",
+          "ବଡ଼ ମଣିଷ ପରି ପରିଶ୍ରମ କରୁଥିଲା",
+          "ବିନା ବିରକ୍ତି, ବିନା ଅସନ୍ତୋଷ, ବିନା ଅଳସତା",
+          "ତାହାର ସେହି ଝଲମଲ ହସ ଫୁଟାଇ",
+          "ଦୁଖୀରାମ, କିଏ ବା ତୁମର ଏମିତି ନାମ ଦେଲା?",
+          "ତା' ଅଙ୍ଗୋରା ପରି ଚର୍ମର ଅଣ୍ଟାରେ ପତଳା ଗାମୁଛା ଗୁଡ଼ାଇଥିଲା",
+          "ତା' ଦେହର ଗନ୍ଧରେ ଝାଞ୍ଜିଆ ସୋରିଷ ତେଲ ଭରିଥିଲା",
+          "ଖରାରେ ଖଟୁଥିବା,",
+          "ଦୁଖୀରାମ ଥିଲା ଈର୍ଷଣୀୟ ଦୀପ୍ତିର ସମ୍ପୂର୍ଣ୍ଣ ଛବି!",
+          "ମୁଁ ଦେଖୁଥିଲି ସେ ନିଜ ପିଠି ପିଟୁଥିଲା",
+          "ଗାଧୋଇବାବେଳେ ଗୁଞ୍ଜରିତ ଚାପୁଡ଼ାରେ...",
+          "ତା' କ୍ଷୁଦ୍ର ଦେହ ସହିବାଠାରୁ ଅଧିକ ଭାର ନେଇ,",
+          "ରାଜମିସ୍ତ୍ରି କଳାର ତା' ଅକ୍ଳାନ୍ତ ପ୍ରଦର୍ଶନ",
+          "ଅନେକଙ୍କୁ ଚକିତ କରିବା ପାଇଁ ଯଥେଷ୍ଟ ଥିଲା!",
+          "ପିଆଜ ଓ କଞ୍ଚାଲଙ୍କାର ଅତିରିକ୍ତ ବିଳାସ ସହ ଥାଳିଏ ‘ପାନ୍ତା’ର ସ୍ୱାଦ ନେଇ",
+          "ସେ ମୋ ଝିଅର କାଲେଇଡୋସ୍କୋପ୍ ପାପୁଲିରେ ଧରେ",
+          "ଆଉ ସେହି ଅସଂଖ୍ୟ ରଙ୍ଗର କାଚ ଚମତ୍କାରରେ",
+          "ସେ ନିଜ ହଜିଲା ‘ପିଲାଦିନ’ ଖୋଜିପାଏ!!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 336,
+    "target": "or",
+    "reading_evidence": "Read all28lines: repeated she-weaved with salt/sugar/spice/sour/bitter, expanded biodiversity; tangy fawning river teaches goals, sweet foliage calm, saline earth positive belief, bitter mixed air courageous testing, dynamic spices adapting change; weaving finished, book from life to lifetimes and final book forest. Preserve taste/ecology synesthesia, repetitions and source she, not an invented identity.",
+    "reason": "Render showing us to believe as teaching trust, matching the surrounding lessons, instead of unidiomatic showing-believing grammar.",
+    "open_questions": [
+      "Prior batch112: fawning course remains affectionate/flattering river course provisionally; no ecological factual explanation supplied for poetic biodiversity."
+    ],
+    "finding_dispositions": {
+      "prior_flags": "No prior audit flags; complete source/current target read and existing uncertainty notes retained."
+    },
+    "tradeoff": "Preserve source memories, tonal movement and full lineation. AI self-review only; independent author/fluent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "faa43a00662299e0d7fc61f8de9c26505dcb1157be613e707fbbd0677b786fad",
+    "before_sha256": "6c22a9fab71912153228f9e712e2ba139199e1180dfcb4f3c3499a7ee4273f01",
+    "after_sha256": "390cae1352c4e1c8ba790fe3ae56e5d2931ceb2f293cbc5079f60501f232ed66",
+    "prior_uncertainties": [
+      {
+        "note": "All 28 lines retained including repeated weaving and short closing lines. Taste/ecology metaphor kept. Fawning course read as affectionate/flattering river course provisionally; biodiversity claims remain poetic, not scientific assertions.",
+        "record": "kb/production/translations/batch-112/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପୁସ୍ତକ ବନ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ବୁଣିଲା।",
+          "ସେ ବୁଣିଲା",
+          "ଟିକେ ଲୁଣରେ।",
+          "ସେ ବୁଣିଲା",
+          "ଟିକେ ଚିନିରେ।",
+          "ସେ ବୁଣିଲା",
+          "ଟିକେ ମସଲାରେ।",
+          "ସେ ବୁଣିଲା",
+          "ଟିକେ ଖଟାରେ।",
+          "ସେ ବୁଣିଲା",
+          "ଟିକେ ପିତାରେ।",
+          "ବୁଣିଲା ଆଉ ବୁଣିଲା ଆଉ ବୁଣିଲା।",
+          "ଯେପର୍ଯ୍ୟନ୍ତ ତାହା ଏକ ବିଶାଳ ଜୈବବିବିଧତା ହୋଇ ନ ବଢ଼ିଲା।",
+          "ଏମିତି ଏକ ଜୈବବିବିଧତା ଯେଉଁଠି",
+          "ଖଟା ନଦୀ ତା' ଆଦରଭରା ଗତିପଥ ମୋଡ଼େ...",
+          "ଆମକୁ ଲକ୍ଷ୍ୟର ପିଛା କରିବା ଶିଖାଏ।",
+          "ମିଠା ପତ୍ରରାଶି ରହସ୍ୟମୟ ଦିଗନ୍ତରେ ଛତ୍ର ତାନେ...",
+          "ଯାହା ହେଲେ ବି ଶାନ୍ତ ରହିବା ଶିଖାଏ।",
+          "ଜୀବନ ଜନ୍ମାଇବାକୁ ଲୁଣିଆ ମାଟି...",
+          "ଆମକୁ ସକାରାତ୍ମକତାରେ ବିଶ୍ୱାସ କରିବା ଦେଖାଏ।",
+          "ମିଶ୍ରିତ ଉପାଦାନର ପିତା ପବନ...",
+          "ସାହସରେ ପାର ହେବାକୁ ଆମକୁ ପରୀକ୍ଷାରେ ପକାଏ।",
+          "ଗତିଶୀଳତା ଜୀବନର ମସଲା ତିଆରି କରେ...",
+          "ପରିବର୍ତ୍ତନ ସହ ଖାପ ଖୁଆଇବାରେ ସାହାଯ୍ୟ କରେ।",
+          "ବୁଣା ସବୁ ସରିଗଲା",
+          "ସେ ଏକ ଜୀବନରୁ ଅନେକ ଜୀବନକାଳ ପର୍ଯ୍ୟନ୍ତ ପୁସ୍ତକଟିଏ ବୁଣିଲା",
+          "ଆଉ...",
+          "ଏକ ପୁସ୍ତକ ବନ ବଢ଼ିଉଠିଲା।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପୁସ୍ତକ ବନ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ବୁଣିଲା।",
+          "ସେ ବୁଣିଲା",
+          "ଟିକେ ଲୁଣରେ।",
+          "ସେ ବୁଣିଲା",
+          "ଟିକେ ଚିନିରେ।",
+          "ସେ ବୁଣିଲା",
+          "ଟିକେ ମସଲାରେ।",
+          "ସେ ବୁଣିଲା",
+          "ଟିକେ ଖଟାରେ।",
+          "ସେ ବୁଣିଲା",
+          "ଟିକେ ପିତାରେ।",
+          "ବୁଣିଲା ଆଉ ବୁଣିଲା ଆଉ ବୁଣିଲା।",
+          "ଯେପର୍ଯ୍ୟନ୍ତ ତାହା ଏକ ବିଶାଳ ଜୈବବିବିଧତା ହୋଇ ନ ବଢ଼ିଲା।",
+          "ଏମିତି ଏକ ଜୈବବିବିଧତା ଯେଉଁଠି",
+          "ଖଟା ନଦୀ ତା' ଆଦରଭରା ଗତିପଥ ମୋଡ଼େ...",
+          "ଆମକୁ ଲକ୍ଷ୍ୟର ପିଛା କରିବା ଶିଖାଏ।",
+          "ମିଠା ପତ୍ରରାଶି ରହସ୍ୟମୟ ଦିଗନ୍ତରେ ଛତ୍ର ତାନେ...",
+          "ଯାହା ହେଲେ ବି ଶାନ୍ତ ରହିବା ଶିଖାଏ।",
+          "ଜୀବନ ଜନ୍ମାଇବାକୁ ଲୁଣିଆ ମାଟି...",
+          "ଆମକୁ ସକାରାତ୍ମକତାରେ ଭରସା ରଖିବା ଶିଖାଏ।",
+          "ମିଶ୍ରିତ ଉପାଦାନର ପିତା ପବନ...",
+          "ସାହସରେ ପାର ହେବାକୁ ଆମକୁ ପରୀକ୍ଷାରେ ପକାଏ।",
+          "ଗତିଶୀଳତା ଜୀବନର ମସଲା ତିଆରି କରେ...",
+          "ପରିବର୍ତ୍ତନ ସହ ଖାପ ଖୁଆଇବାରେ ସାହାଯ୍ୟ କରେ।",
+          "ବୁଣା ସବୁ ସରିଗଲା",
+          "ସେ ଏକ ଜୀବନରୁ ଅନେକ ଜୀବନକାଳ ପର୍ଯ୍ୟନ୍ତ ପୁସ୍ତକଟିଏ ବୁଣିଲା",
+          "ଆଉ...",
+          "ଏକ ପୁସ୍ତକ ବନ ବଢ଼ିଉଠିଲା।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 336,
+    "target": "hi",
+    "reading_evidence": "Read all28lines: repeated she-weaved with salt/sugar/spice/sour/bitter, expanded biodiversity; tangy fawning river teaches goals, sweet foliage calm, saline earth positive belief, bitter mixed air courageous testing, dynamic spices adapting change; weaving finished, book from life to lifetimes and final book forest. Preserve taste/ecology synesthesia, repetitions and source she, not an invented identity.",
+    "reason": "Use idiomatic teaching to express showing how to believe; preserve the affirmative lesson and repeated nature-teaching structure.",
+    "open_questions": [
+      "Prior batch112: fawning course remains affectionate/flattering river course provisionally; no ecological factual explanation supplied for poetic biodiversity."
+    ],
+    "finding_dispositions": {
+      "prior_flags": "No prior audit flags; complete source/current target read and existing uncertainty notes retained."
+    },
+    "tradeoff": "Preserve source memories, tonal movement and full lineation. AI self-review only; independent author/fluent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "faa43a00662299e0d7fc61f8de9c26505dcb1157be613e707fbbd0677b786fad",
+    "before_sha256": "e46f95d19125b3470f21549356829504aa156c6ab30054ed592994ef9a295afd",
+    "after_sha256": "082346d1a64fb68755f6c863685e68dfaeaea5d76a4f0b1d29ed5ae50784375f",
+    "prior_uncertainties": [
+      {
+        "note": "All 28 lines retained including repeated weaving and short closing lines. Taste/ecology metaphor kept. Fawning course read as affectionate/flattering river course provisionally; biodiversity claims remain poetic, not scientific assertions.",
+        "record": "kb/production/translations/batch-112/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "पुस्तक-वन",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "बुना।",
+          "उसने बुना",
+          "थोड़े-से नमक से।",
+          "उसने बुना",
+          "थोड़ी-सी चीनी से।",
+          "उसने बुना",
+          "थोड़े-से मसालों से।",
+          "उसने बुना",
+          "थोड़ी-सी खटास से।",
+          "उसने बुना",
+          "थोड़ी-सी कड़वाहट से।",
+          "बुना और बुना और बुना।",
+          "जब तक वह एक विशाल जैव-विविधता बनकर न बढ़ गया।",
+          "एक जैव-विविधता जिसमें",
+          "खट्टी नदी अपनी लाड़ जताती धारा मोड़ती है...",
+          "हमें अपने लक्ष्य का पीछा करना सिखाती है।",
+          "मीठे पत्ते रहस्यमय क्षितिज पर छत्र बनाते हैं...",
+          "हमें हर हाल में शांत रहना सिखाते हैं।",
+          "जीवन जन्माने वाली नमकीन धरती...",
+          "हमें सकारात्मकता में विश्वास करना दिखाती है।",
+          "मिले-जुले तत्त्वों वाली कड़वी हवा...",
+          "हमें साहस से पार होने को परीक्षाओं में डालती है।",
+          "गतिशीलता जीवन के मसाले रचती है...",
+          "बदलावों के अनुकूल ढलने में मदद करती है।",
+          "बुनाई पूरी तरह संपन्न हुई",
+          "उसने एक जीवन से अनेक जीवनकालों तक की पुस्तक बुनी",
+          "और...",
+          "एक पुस्तक-वन उग आया।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "पुस्तक-वन",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "बुना।",
+          "उसने बुना",
+          "थोड़े-से नमक से।",
+          "उसने बुना",
+          "थोड़ी-सी चीनी से।",
+          "उसने बुना",
+          "थोड़े-से मसालों से।",
+          "उसने बुना",
+          "थोड़ी-सी खटास से।",
+          "उसने बुना",
+          "थोड़ी-सी कड़वाहट से।",
+          "बुना और बुना और बुना।",
+          "जब तक वह एक विशाल जैव-विविधता बनकर न बढ़ गया।",
+          "एक जैव-विविधता जिसमें",
+          "खट्टी नदी अपनी लाड़ जताती धारा मोड़ती है...",
+          "हमें अपने लक्ष्य का पीछा करना सिखाती है।",
+          "मीठे पत्ते रहस्यमय क्षितिज पर छत्र बनाते हैं...",
+          "हमें हर हाल में शांत रहना सिखाते हैं।",
+          "जीवन जन्माने वाली नमकीन धरती...",
+          "हमें सकारात्मकता पर विश्वास करना सिखाती है।",
+          "मिले-जुले तत्त्वों वाली कड़वी हवा...",
+          "हमें साहस से पार होने को परीक्षाओं में डालती है।",
+          "गतिशीलता जीवन के मसाले रचती है...",
+          "बदलावों के अनुकूल ढलने में मदद करती है।",
+          "बुनाई पूरी तरह संपन्न हुई",
+          "उसने एक जीवन से अनेक जीवनकालों तक की पुस्तक बुनी",
+          "और...",
+          "एक पुस्तक-वन उग आया।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 339,
+    "target": "hi",
+    "reading_evidence": "Read all20lines: mists/mellow fruitfulness/warming welcome, blossoms and winter preparations, birds/sun/rising with unfinished work/woollens/half-won chill battle; winter laughter/work-play/sun manna for aching bones/icecream; lights festival/cracking seasonal approach, dream-writing poets romantic dancing quills; tea-morning symbiosis/fog-froth versus Heathcliff gloom, suns clarion call out into open hall. Preserve literary echoes and seasonal incongruities rather than silently correct the source.",
+    "reason": "Give mellow fruitfulness an idiomatic ripe-fruit abundance phrase, preserving the opening image rather than the unnatural paki-phalvatta noun construction.",
+    "open_questions": [
+      "Prior batch112: rising-up subject interpreted we provisionally; half-won battle and unconventional season sequence retained.",
+      "Opening literary echo and Wuthering Heights/Heathcliff preserved without new in-poem attribution or interpretation."
+    ],
+    "finding_dispositions": {
+      "prior_flags": "No prior audit flags; complete source/current target read and existing uncertainty notes retained."
+    },
+    "tradeoff": "Preserve source memories, tonal movement and full lineation. AI self-review only; independent author/fluent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "81da9402b2fafef1419aa39dbdd0c087ab0371f2fbce698bba10c19efe324f61",
+    "before_sha256": "ad327b637cdcb45cd895a7cf9fc1ea3ab6f1d763a73a75a980cf6664052e40a8",
+    "after_sha256": "3189ef2a4b5fc878a18814a393af66bd433b7f2128dd7ca4a79bd1e43b2078ed",
+    "prior_uncertainties": [
+      {
+        "note": "All twenty lines retained. Opening Keats echo, Festival of Lights and Wuthering Heights/Heathcliff reference retained; no extra literary credit added within poem. Elliptical subject in rising up interpreted we provisionally. Source unconventional seasons and half-won battle imagery not corrected.",
+        "record": "kb/production/translations/batch-112/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "ठंड की अगवानी",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "कुहासों और पकी फलवत्ता का मौसम",
+          "आ गया है, जिसका स्वागत गरमाहट से करें—",
+          "डालियों पर फूल परम हर्ष में खिलते हैं",
+          "हम सब सर्दियों की तैयारी कर रहे हैं, हमेशा की तरह।",
+          "सर्द धूप में पेड़ों पर चहचहाते पक्षी,",
+          "उठते हैं हम, जबकि आधा काम अधूरा पड़ा है",
+          "सोचते हैं, क्या ऊनी कपड़े निकालने का समय है, मानो वही",
+          "ठंड रोक सकते हों, आधी जीती लड़ाई लड़ने को।",
+          "आनंद और हँसी का एकमात्र समय सर्दी है",
+          "काम में खेल का मेल उसके बाद ही आता है—",
+          "ऊपर सूरज की गरमाहट दुखती हड्डियों के लिए वरदान,",
+          "सर्दियों में भी आइसक्रीम कोन का मज़ा लेना सुखद है।",
+          "सर्दियाँ उछलने-कूदने के लिए हैं—",
+          "प्रकाश का पर्व चटखती आवाज़ के साथ इस मौसम की राह बनाता है,",
+          "हम, जो काग़ज़ पर शब्दों से सपने लिखते हैं,",
+          "रूमानी हो उठते हैं और अपनी कलमों को थिरकने देते हैं।",
+          "गरम चाय और सर्द सुबहों का परस्पर पोषक रिश्ता है",
+          "कोहरा और झाग ‘वदरिंग हाइट्स’ के हीथक्लिफ़ जैसे उदास कहाँ",
+          "चमकता सूरज सबको साफ़ पुकारता है",
+          "बंद जगहों से बाहर निकलो, खुले प्रांगण में खेलो"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "ठंड की अगवानी",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "कुहासों और पके फलों की भरमार का मौसम",
+          "आ गया है, जिसका स्वागत गरमाहट से करें—",
+          "डालियों पर फूल परम हर्ष में खिलते हैं",
+          "हम सब सर्दियों की तैयारी कर रहे हैं, हमेशा की तरह।",
+          "सर्द धूप में पेड़ों पर चहचहाते पक्षी,",
+          "उठते हैं हम, जबकि आधा काम अधूरा पड़ा है",
+          "सोचते हैं, क्या ऊनी कपड़े निकालने का समय है, मानो वही",
+          "ठंड रोक सकते हों, आधी जीती लड़ाई लड़ने को।",
+          "आनंद और हँसी का एकमात्र समय सर्दी है",
+          "काम में खेल का मेल उसके बाद ही आता है—",
+          "ऊपर सूरज की गरमाहट दुखती हड्डियों के लिए वरदान,",
+          "सर्दियों में भी आइसक्रीम कोन का मज़ा लेना सुखद है।",
+          "सर्दियाँ उछलने-कूदने के लिए हैं—",
+          "प्रकाश का पर्व चटखती आवाज़ के साथ इस मौसम की राह बनाता है,",
+          "हम, जो काग़ज़ पर शब्दों से सपने लिखते हैं,",
+          "रूमानी हो उठते हैं और अपनी कलमों को थिरकने देते हैं।",
+          "गरम चाय और सर्द सुबहों का परस्पर पोषक रिश्ता है",
+          "कोहरा और झाग ‘वदरिंग हाइट्स’ के हीथक्लिफ़ जैसे उदास कहाँ",
+          "चमकता सूरज सबको साफ़ पुकारता है",
+          "बंद जगहों से बाहर निकलो, खुले प्रांगण में खेलो"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

@@ -1,0 +1,271 @@
+{
+  "recorded_at": "2026-10-05T13:33:59.907703+00:00",
+  "poem_ids": [
+    661,
+    664,
+    665,
+    668,
+    674
+  ],
+  "variants_read": 10,
+  "variants_changed": 6,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 661,
+      "target": "en",
+      "reading_evidence": "Read full Odia source and both current targets/title: self-moving Sabarmati toward western sea; Jambu groves/jasmine/cuckoo, breast-water/fish/moonlight; hard-hearted person sitting in creeper bower to garland beloved’s hair-bun; continuing river/time units, celibate yogi/meditation/hut/life-fire/final offering, river embracing reflections and joining sea. Checked feminine river versus unspecified human lover and literal bun reference.",
+      "reason": "Remove unsupported male agreement for the human lover and restore the specific hair-bun image.",
+      "open_questions": [
+        "ସର୍ଫରୀ provisionally rendered little fish; species/reading remains unconfirmed.",
+        "ଲିତା retained as lita, without invented duration. Jambu geography is not expanded.",
+        "ଊର୍ଦ୍ଧ୍ୱରେତା rendered sublimated desire in English and retained in Hindi; exact ascetic nuance remains for fluent-reader review."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Singular they leaves the lover’s gender open; the female beloved remains in the source. Bun and garland recover concrete detail without adding ornament.",
+      "full_source_target_read": true,
+      "source_sha256": "9417b03229c408c5b29d69b9a2254336ddf0d33da19569254e3f92677ad5a49b",
+      "before_sha256": "dd49710e093edef0f1f85d41b45b66c77cd400d4c8229d0c29232101643124de",
+      "after_sha256": "9272f1d96f1cc20046d5f33bb73c7ada97572131b22090f6817f0f4df2cddf19",
+      "prior_uncertainties": [
+        {
+          "note": "ସର୍ଫରୀ provisionally read as small fish; ଲିତା retained as lita beside traditional time terms rather than guessing a duration. Jambu-land and westward sea preserved without geographical elaboration.",
+          "record": "kb/production/translations/batch-033/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 661,
+      "target": "hi",
+      "reading_evidence": "Read full Odia source and both current targets/title: self-moving Sabarmati toward western sea; Jambu groves/jasmine/cuckoo, breast-water/fish/moonlight; hard-hearted person sitting in creeper bower to garland beloved’s hair-bun; continuing river/time units, celibate yogi/meditation/hut/life-fire/final offering, river embracing reflections and joining sea. Checked feminine river versus unspecified human lover and literal bun reference.",
+      "reason": "Retain accurate current wording after complete source/target comparison.",
+      "open_questions": [
+        "ସର୍ଫରୀ provisionally rendered little fish; species/reading remains unconfirmed.",
+        "ଲିତା retained as lita, without invented duration. Jambu geography is not expanded.",
+        "ଊର୍ଦ୍ଧ୍ୱରେତା rendered sublimated desire in English and retained in Hindi; exact ascetic nuance remains for fluent-reader review."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve the existing imagery, repetitions, register and lineation.",
+      "full_source_target_read": true,
+      "source_sha256": "9417b03229c408c5b29d69b9a2254336ddf0d33da19569254e3f92677ad5a49b",
+      "before_sha256": "744e63e2e6b24b20238ba8dbc9c67c81f63b9a76022901e95f39792fd3930530",
+      "after_sha256": "744e63e2e6b24b20238ba8dbc9c67c81f63b9a76022901e95f39792fd3930530",
+      "prior_uncertainties": [
+        {
+          "note": "ସର୍ଫରୀ provisionally read as small fish; ଲିତା retained as lita beside traditional time terms rather than guessing a duration. Jambu-land and westward sea preserved without geographical elaboration.",
+          "record": "kb/production/translations/batch-033/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 664,
+      "target": "en",
+      "reading_evidence": "Read complete source and both targets/title: picture-garden-storm-broken butterfly nests/no return; time-wall and ash wounds; torrential rain, measured balcony rail, absent-mindedness and half-wet solitude; impossible return to dark/eyes/breast and dream skeletons lacking magician’s touch, lost stream song; last-week African stories/poverty/belief/racial discrimination; newspapers/humanity death/war/missile cremation grounds and daily shame on national progress stairs. Preserved unusual butterfly nests and negative repetition.",
+      "reason": "Distinguish absorbed absent-mindedness from an external distraction.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Keeps the abstract state leaning on the rail, with no invented person or reason for distraction.",
+      "full_source_target_read": true,
+      "source_sha256": "347ec6e3ee067b882035ec8ad440f9a803500bb8ce6550b68376e51a66e9d68c",
+      "before_sha256": "c579010b64cb1283dfaa62bfd11be6a1dc2a0d3a685b7d37065f4919da563c4e",
+      "after_sha256": "75f4bce7da77939fa5d1d763ec5064cbfae3af3cdfe2dcf62af5387d87d2edb7",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 664,
+      "target": "hi",
+      "reading_evidence": "Read complete source and both targets/title: picture-garden-storm-broken butterfly nests/no return; time-wall and ash wounds; torrential rain, measured balcony rail, absent-mindedness and half-wet solitude; impossible return to dark/eyes/breast and dream skeletons lacking magician’s touch, lost stream song; last-week African stories/poverty/belief/racial discrimination; newspapers/humanity death/war/missile cremation grounds and daily shame on national progress stairs. Preserved unusual butterfly nests and negative repetition.",
+      "reason": "Restore inability to give the magician’s touch rather than a habitual refusal or absence of giving.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "The added सकता carries source देଇହେଉନି modality, while preserving two lines and the impersonal perspective.",
+      "full_source_target_read": true,
+      "source_sha256": "347ec6e3ee067b882035ec8ad440f9a803500bb8ce6550b68376e51a66e9d68c",
+      "before_sha256": "edf53606ad50c8a4cd3faed2e02224fdd55f156076f94c80204e0e00e6af2468",
+      "after_sha256": "a1fb2da6d5bd561ddaf3c18a9f5c7e499d5ee3e5c5e7b449ee57e5e3d985de05",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 665,
+      "target": "en",
+      "reading_evidence": "Read complete source and both targets/title including marker and Ananda Nagar/Sonepur tail: aircraft/train disaster and catching breath/lifespan; lab clone of time, temple bell/conch and Mahamrityunjaya, horoscope and fate’s bhog; palm-line cosmic-body mystery, palm-leaf life and shadow/light, fear and sorrow within happiness; unknown city faces; false documents of belonging, lies proclaimed truth/victory tilak, solitary truth-liver. Reviewed personified breath rather than normalizing it away.",
+      "reason": "Make the shortening of lifespan clear while retaining the source’s personified catching breath.",
+      "open_questions": [
+        "ବ୍ରହ୍ମପିଣ୍ଡ provisionally cosmic body; regional/metaphysical referent unresolved.",
+        "ଉଝାଟ provisionally distinctly/clearly; confirm regional sense before further change."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "No added survivor or personal narrator; lifespan rather than the whole scale of life is the explicit source sense. Raw contributor tail preserved.",
+      "full_source_target_read": true,
+      "source_sha256": "f19c2b0d5a14eba0b34cce7a415d7b84e4739f9e6622a43ebb3813c7bec249f0",
+      "before_sha256": "cfef347302c18b07bc9b4a24a27628c32e83090aa483f075a471e6f4c96340ac",
+      "after_sha256": "db2589ba0e5fa387d941e9ee2ecba2c073eb9b13799942a37a01e8d75e9c29c1",
+      "prior_uncertainties": [
+        {
+          "note": "ବ୍ରହ୍ମପିଣ୍ଡ provisionally cosmic body/ब्रह्मपिंड; ଉଝାଟ provisionally distinctly. Native review needed.",
+          "record": "kb/production/translations/batch-033/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 665,
+      "target": "hi",
+      "reading_evidence": "Read complete source and both targets/title including marker and Ananda Nagar/Sonepur tail: aircraft/train disaster and catching breath/lifespan; lab clone of time, temple bell/conch and Mahamrityunjaya, horoscope and fate’s bhog; palm-line cosmic-body mystery, palm-leaf life and shadow/light, fear and sorrow within happiness; unknown city faces; false documents of belonging, lies proclaimed truth/victory tilak, solitary truth-liver. Reviewed personified breath rather than normalizing it away.",
+      "reason": "Retain accurate current wording after complete source/target comparison.",
+      "open_questions": [
+        "ବ୍ରହ୍ମପିଣ୍ଡ provisionally cosmic body; regional/metaphysical referent unresolved.",
+        "ଉଝାଟ provisionally distinctly/clearly; confirm regional sense before further change."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve the existing imagery, repetitions, register and lineation.",
+      "full_source_target_read": true,
+      "source_sha256": "f19c2b0d5a14eba0b34cce7a415d7b84e4739f9e6622a43ebb3813c7bec249f0",
+      "before_sha256": "04c5590bf519f1dd93692280bea9ab81ea7498c6be53129efaace7ada3ed0e80",
+      "after_sha256": "04c5590bf519f1dd93692280bea9ab81ea7498c6be53129efaace7ada3ed0e80",
+      "prior_uncertainties": [
+        {
+          "note": "ବ୍ରହ୍ମପିଣ୍ଡ provisionally cosmic body/ब्रह्मपिंड; ଉଝାଟ provisionally distinctly. Native review needed.",
+          "record": "kb/production/translations/batch-033/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 668,
+      "target": "en",
+      "reading_evidence": "Read complete source and both targets/title and Brahmapur tail: bird escaped cage/no compass/horizon/sleep-shelter; contentment even in rotten wild fruit, beak on branch/gratitude in tiny flower’s ear/rainbow; possible unknown-realm princess, recovered radiance/song/wing strength; cloud leaps and self-laughter, earth immense from captivity/universe small from above. Female agreement is supported by the explicit princess analogy, not poet biography.",
+      "reason": "Retain accurate current wording after complete source/target comparison.",
+      "open_questions": [
+        "ନିଦଘାରେ provisionally read as sleep overtaking the bird; supplied source spelling preserved pending confirmation."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve the existing imagery, repetitions, register and lineation.",
+      "full_source_target_read": true,
+      "source_sha256": "d71218ac80f96faa826164c39b2b2a79a05ab27585f1e8611402cd94577160ad",
+      "before_sha256": "360c040402f96aefc23acee84722ec7df7e8e2fe91b9eb95ec54f9d5fc6666a4",
+      "after_sha256": "360c040402f96aefc23acee84722ec7df7e8e2fe91b9eb95ec54f9d5fc6666a4",
+      "prior_uncertainties": [
+        {
+          "note": "ନିଦଘାରେ provisionally segmented as sleep overtakes, rather than silently changing source spelling. Bird uses feminine agreement because source explicitly offers princess analogy.",
+          "record": "kb/production/translations/batch-033/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 668,
+      "target": "hi",
+      "reading_evidence": "Read complete source and both targets/title and Brahmapur tail: bird escaped cage/no compass/horizon/sleep-shelter; contentment even in rotten wild fruit, beak on branch/gratitude in tiny flower’s ear/rainbow; possible unknown-realm princess, recovered radiance/song/wing strength; cloud leaps and self-laughter, earth immense from captivity/universe small from above. Female agreement is supported by the explicit princess analogy, not poet biography.",
+      "reason": "Retain accurate current wording after complete source/target comparison.",
+      "open_questions": [
+        "ନିଦଘାରେ provisionally read as sleep overtaking the bird; supplied source spelling preserved pending confirmation."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve the existing imagery, repetitions, register and lineation.",
+      "full_source_target_read": true,
+      "source_sha256": "d71218ac80f96faa826164c39b2b2a79a05ab27585f1e8611402cd94577160ad",
+      "before_sha256": "4c8402f2b9c946a3116d8097b0a6ec4b66dc34b39a521e11d78f540f108f1e4a",
+      "after_sha256": "4c8402f2b9c946a3116d8097b0a6ec4b66dc34b39a521e11d78f540f108f1e4a",
+      "prior_uncertainties": [
+        {
+          "note": "ନିଦଘାରେ provisionally segmented as sleep overtakes, rather than silently changing source spelling. Bird uses feminine agreement because source explicitly offers princess analogy.",
+          "record": "kb/production/translations/batch-033/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 674,
+      "target": "en",
+      "reading_evidence": "Read all eleven source stanzas and both full current targets/title: youth/savings/social standing/inward self-killing; interest debt/age-lid/needs/life treaty; helpless tears and sternness/confidence; child hopes and forgotten tastes; responsibility sea/fatherhood/burdens/kite; mother as manjha/kite knot/children’s food/roof-sky; unseen sweat/rations/travel/family honour/change versus age; sorrow cart/harvest/city-bound children; chuda-mudhi-chhatua/clothes/dolls/village-Ishan-goddess-Bauli-sharecropped plot; beard ripens like paddy/hope granary of busyness/no return/explaining to mother; ambula relish/secret tears and inability to sit defeated. Checked recurring father/mother imagery, contextual name/honour idiom and target grammar; no source/tail edits.",
+      "reason": "Repair unnatural scarcity and deepening phrases, and carry the contextual family-name honour rather than posthumous remembrance.",
+      "open_questions": [
+        "Ishan corner and Bauli cow are provisional existing readings; household/deity/name/breed interpretation is not settled.",
+        "ଆଖି ଆଢୁଆଳରେ remains a provisional sheltered/out-of-view reading; do not invent surveillance or definite absence.",
+        "Whose self-confidence is deepened is not explicitly resolved; retained without an added possessor.",
+        "Inward killing and dying heart remain figurative source language, not biographical claims."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Keeps the age-lid, schemes, busyness sacks and final dying-heart strangeness. No smoothing of cultural images or assignment of the confidence to father versus children.",
+      "full_source_target_read": true,
+      "source_sha256": "f6d38fc0f46cd6c1039aefa6659ee9a1cc9016fe8f332f1e323f491b97b7920f",
+      "before_sha256": "7f8d28267027b47042a4a8519f932ccf27b869cddc41a9aca97ac8f01e392ce3",
+      "after_sha256": "0ffd3115d8e24155389e3e8893da055e7318f06e9a9b9ac606a24265aaa1db38",
+      "prior_uncertainties": [
+        {
+          "note": "ଇଶାଣ provisionally household Ishan/northeast corner; ବଉଳି retained as Bauli rather than guessing cow breed or ownership. These cultural terms need native review.",
+          "record": "kb/production/translations/batch-033/review.json"
+        },
+        {
+          "note": "Chhatua, manjha, dried sour mango relish, sharecropping and granary images retained. Figurative inward death not recast as a literal event; ambiguous unseen/sheltered-from-view phrase kept without adding surveillance.",
+          "record": "kb/production/translations/batch-033/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 674,
+      "target": "hi",
+      "reading_evidence": "Read all eleven source stanzas and both full current targets/title: youth/savings/social standing/inward self-killing; interest debt/age-lid/needs/life treaty; helpless tears and sternness/confidence; child hopes and forgotten tastes; responsibility sea/fatherhood/burdens/kite; mother as manjha/kite knot/children’s food/roof-sky; unseen sweat/rations/travel/family honour/change versus age; sorrow cart/harvest/city-bound children; chuda-mudhi-chhatua/clothes/dolls/village-Ishan-goddess-Bauli-sharecropped plot; beard ripens like paddy/hope granary of busyness/no return/explaining to mother; ambula relish/secret tears and inability to sit defeated. Checked recurring father/mother imagery, contextual name/honour idiom and target grammar; no source/tail edits.",
+      "reason": "Make social standing and sacks of busyness grammatical, and remove an added taste description from the ambula preparation.",
+      "open_questions": [
+        "Ishan corner and Bauli cow are provisional existing readings; household/deity/name/breed interpretation is not settled.",
+        "ଆଖି ଆଢୁଆଳରେ remains a provisional sheltered/out-of-view reading; do not invent surveillance or definite absence.",
+        "Whose self-confidence is deepened is not explicitly resolved; retained without an added possessor.",
+        "Inward killing and dying heart remain figurative source language, not biographical claims."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "A social place carries the peers idiom without literal five-person arithmetic. Chutney remains the existing provisional food rendering; mixing replaces manufacture and the unsupported spicy/tangy embellishment is removed.",
+      "full_source_target_read": true,
+      "source_sha256": "f6d38fc0f46cd6c1039aefa6659ee9a1cc9016fe8f332f1e323f491b97b7920f",
+      "before_sha256": "62a351cec7322ff469cbe290b40515d16524712bce943a7726315e8ba29e5bad",
+      "after_sha256": "7599537502fd72f72de8796bcf0e08f46a2d3bc9be3c12b72f41b1001c637136",
+      "prior_uncertainties": [
+        {
+          "note": "ଇଶାଣ provisionally household Ishan/northeast corner; ବଉଳି retained as Bauli rather than guessing cow breed or ownership. These cultural terms need native review.",
+          "record": "kb/production/translations/batch-033/review.json"
+        },
+        {
+          "note": "Chhatua, manjha, dried sour mango relish, sharecropping and granary images retained. Figurative inward death not recast as a literal event; ambiguous unseen/sheltered-from-view phrase kept without adding surveillance.",
+          "record": "kb/production/translations/batch-033/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

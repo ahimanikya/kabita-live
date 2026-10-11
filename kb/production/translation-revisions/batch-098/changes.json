@@ -1,0 +1,659 @@
+[
+  {
+    "poem_id": 378,
+    "target": "en",
+    "reading_evidence": "Read title and all four source/target stanzas: distance given only in title, body Yet close/essential part of heart dwelling, boundless beloved as intoxicating wine, wished reciprocal love/God grant/drowning in love, insignificant speaker asks remembrance and dream touch while eyes await glimpse. Checked title-body relation, hum singular convention and no invented missing first line.",
+    "reason": "Restore natural complement order for part of the heart dwelling while retaining the two lines.",
+    "open_questions": [
+      "Prior poetic hum as singular I remains provisional; body opening Yet retained without inserting a duplicate title line."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "476725f70a82dd191d7ea546dc304c9bb98b8d53c6b5ac1802d9cce3c90e7f7b",
+    "before_sha256": "f7c84e0d1a4eae2f8ae2b46beaaee519e719a73ab2eea204cd10042cdc8f7d61",
+    "after_sha256": "2a4366a080497d850da1e9651eeca46ea8a4ffa2ccdc9c468c54ac6558c4d542",
+    "prior_uncertainties": [
+      {
+        "note": "Title supplies distance; original body begins Yet, retained without inserting a missing opening line. Poetic hum rendered singular speaker provisionally.",
+        "record": "kb/production/translations/batch-096/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "You Are Far from Me",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Yet you are close.",
+          "Of the heart's dwelling,",
+          "you are an essential part."
+        ],
+        [
+          "You are my boundless love;",
+          "you are the wine of love's intoxication."
+        ],
+        [
+          "Someday you too may love me—",
+          "may God grant it!",
+          "You will drown in my love."
+        ],
+        [
+          "Remember this insignificant one",
+          "sometime;",
+          "my eyes remain fixed, longing for a glimpse of you.",
+          "Come sometime in dreams and touch me."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "You Are Far from Me",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Yet you are close.",
+          "You are an essential part",
+          "of the heart's dwelling."
+        ],
+        [
+          "You are my boundless love;",
+          "you are the wine of love's intoxication."
+        ],
+        [
+          "Someday you too may love me—",
+          "may God grant it!",
+          "You will drown in my love."
+        ],
+        [
+          "Remember this insignificant one",
+          "sometime;",
+          "my eyes remain fixed, longing for a glimpse of you.",
+          "Come sometime in dreams and touch me."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 393,
+    "target": "or",
+    "reading_evidence": "Read three full eight-line source/target stanzas: winter wind chills/summer agitates/spring kindles beloved memory; direction east-west and favourable wind changes thorns to flowers; indiscriminate breath for all, then wind-running idiom of people holding influence/world bows at feet. Checked shift from literal wind to social sway.",
+    "reason": "Render spring’s sulagana as smouldering rather than merely smoking, and preserve wind-as-influence without implying someone physically controls the wind.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "82fc4fc67b6f21043edd47bdcd73c88ba53605dd6405489a186308c97e66bce1",
+    "before_sha256": "bc52f29940e4488b10a7c6f9b6c78a4402199a5d8e00033e31e07c3b5c0fb80e",
+    "after_sha256": "cde639ead00162bfddc57123959fb6e0d19101dfcdbc3297c48815dc30d4f74c",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଶୀତର ପବନ…",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଶୀତର ପବନ",
+          "ଥରାଇଦିଏ,",
+          "ଗ୍ରୀଷ୍ମର ପବନ",
+          "ଆକୁଳ କରେ,",
+          "ବସନ୍ତର ପବନ",
+          "ଧୂମାୟିତ କରେ,",
+          "ପ୍ରିୟତମର",
+          "ମଧୁର ସ୍ମୃତି ଜଗାଏ।"
+        ],
+        [
+          "ପବନ ପ୍ରାୟତଃ",
+          "ଦିଗ ବଦଳାଏ,",
+          "କେବେ ପୂର୍ବରୁ, କେବେ",
+          "ପଶ୍ଚିମରୁ ବହେ।",
+          "ପବନ ଯଦି ଅନୁକୂଳ",
+          "ହୋଇଯାଏ,",
+          "ଜୀବନ କଣ୍ଟାରୁ",
+          "ଫୁଲ ହୋଇଯାଏ।"
+        ],
+        [
+          "ପବନ ବିନା ଭେଦଭାବରେ",
+          "ବହେ,",
+          "ପ୍ରତ୍ୟେକଙ୍କର",
+          "ନିଃଶ୍ୱାସ ହୁଏ।",
+          "ପବନ ଯାହାର",
+          "ପ୍ରଭାବରେ ବହେ,",
+          "ଦୁନିଆ ତା' ପାଦ",
+          "ତଳେ ନଇଁଯାଏ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଶୀତର ପବନ…",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଶୀତର ପବନ",
+          "ଥରାଇଦିଏ,",
+          "ଗ୍ରୀଷ୍ମର ପବନ",
+          "ଆକୁଳ କରେ,",
+          "ବସନ୍ତର ପବନ",
+          "ଧିକିଧିକି ଜଳାଏ,",
+          "ପ୍ରିୟତମର",
+          "ମଧୁର ସ୍ମୃତି ଜଗାଏ।"
+        ],
+        [
+          "ପବନ ପ୍ରାୟତଃ",
+          "ଦିଗ ବଦଳାଏ,",
+          "କେବେ ପୂର୍ବରୁ, କେବେ",
+          "ପଶ୍ଚିମରୁ ବହେ।",
+          "ପବନ ଯଦି ଅନୁକୂଳ",
+          "ହୋଇଯାଏ,",
+          "ଜୀବନ କଣ୍ଟାରୁ",
+          "ଫୁଲ ହୋଇଯାଏ।"
+        ],
+        [
+          "ପବନ ବିନା ଭେଦଭାବରେ",
+          "ବହେ,",
+          "ପ୍ରତ୍ୟେକଙ୍କର",
+          "ନିଃଶ୍ୱାସ ହୁଏ।",
+          "ଯାହାର ପ୍ରଭାବର ପବନ",
+          "ବହେ,",
+          "ଦୁନିଆ ତା' ପାଦ",
+          "ତଳେ ନଇଁଯାଏ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 383,
+    "target": "or",
+    "reading_evidence": "Read all six source/target stanzas: fading life palette/deep cherished love, canvas unfolds sky/cosmos, refolding but cannot confine love, plural shimmer and framed beloved in black coat/red tie/smile, butterfly love/affection boundaries break golden frame/warhorse flight/tugged whipped reins, pacification and caged-parrot wing-clipping restraint. Checked literal male beloved against unestablished narrator gender and preserved source’s awkward changing plural subjects.",
+    "reason": "Group golden-frame possessive with its confines in natural Odia order without changing the boundary-break image.",
+    "open_questions": [
+      "Prior If/It, from/form, there/their readings remain provisional; unclear they and reins-whipped attachment retained. No bereavement biography invented. Hindi feminine narrator remains provisional."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "ea8dc9bbc273b3a2bfb22d80aa844db488c8f3fa7b421571da73ba3fb159eb7f",
+    "before_sha256": "a15305cda738661c0a6e3afdc501c1d9bac5dfff60afee6f63e47f553dd60e5e",
+    "after_sha256": "2831dbad28aeb23855dce3115c775728a4204ca7cfeb9907d16a413e81f80633",
+    "prior_uncertainties": [
+      {
+        "note": "Six stanzas retained. If unfurls read It unfurls, from read form, there read their provisionally; original untouched. Unclear plural pronoun and reins being whipped retained rather than repaired; no invented bereavement biography.",
+        "record": "kb/production/translations/batch-096/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ସୁନେଲି ଫ୍ରେମ୍ ଭିତରେ ମୋ ପ୍ରେମ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଧୀରେ ଧୀରେ ଜୀବନର ରଙ୍ଗପଟା",
+          "ଫିକା ପଡ଼ିବା ଆରମ୍ଭ କରିଛି।",
+          "ଯାହା ମୋର ପ୍ରିୟ,",
+          "ହୃଦୟର ଗଭୀରତାରେ ବସା ବାନ୍ଧିଥିବା,",
+          "ତାକୁ ମୁଁ ଅତି ଯତ୍ନରେ କୋଳେଇ ରଖିଛି।"
+        ],
+        [
+          "କେବେ କେବେ, ଅଜାଣତରେ,",
+          "ତାହା ମେଲିଯାଇ ବଦଳିଯାଏ",
+          "ଏକ ବିଶାଳ କାନଭାସରେ,",
+          "ଆକାଶର ବିସ୍ତାର ପରି।",
+          "ତା' ଭିତରେ ରଙ୍ଗୀନ ନକ୍ସା ପରି",
+          "ସ୍ନେହ ବସେ,",
+          "ଗ୍ରହ ଆଉ ତାରାଙ୍କର ଏକ ବ୍ରହ୍ମାଣ୍ଡ!"
+        ],
+        [
+          "ମୁଁ ଏ କାନଭାସକୁ ପୁଣି ଗୁଡ଼ାଇଦିଏ।",
+          "କିନ୍ତୁ ପ୍ରେମ କ'ଣ କେବେ ବନ୍ଦୀ ହୋଇପାରେ?"
+        ],
+        [
+          "ସେମାନେ ଶାଶ୍ୱତ ଲୟରେ ଝିଲମିଲ କରନ୍ତି,",
+          "ରାତିର ଆକାଶୀୟ କାନଭାସ ପରି,",
+          "ସୁନେଲି ଫ୍ରେମ୍ ଭିତରେ ଆବଦ୍ଧ,",
+          "ମୋ ପ୍ରିୟଙ୍କ ଛବିରେ,",
+          "କଳା କୋଟ୍ ଆଉ ନାଲି ଟାଇ ପିନ୍ଧି,",
+          "ମୁହଁକୁ ସଜାଉଥିବା ହସଟିଏ ନେଇ।"
+        ],
+        [
+          "ଯେଉଁଠି ପ୍ରେମ ପ୍ରଜାପତିର ରୂପ ନିଏ।",
+          "ମୋ ସ୍ନେହର ସୀମାମାନେ",
+          "ବନ୍ଧନରୁ ମୁକ୍ତ ହୋଇଯାଆନ୍ତି",
+          "ସୁନେଲି ଫ୍ରେମ୍‌ର,",
+          "ଯୁଦ୍ଧଘୋଡ଼ା ପରି ଦୌଡ଼ିଯାଆନ୍ତି,",
+          "ଲଗାମ ଟଣା ଆଉ ଚାବୁକ ମରା ହେଉଥିବା ବେଳେ।"
+        ],
+        [
+          "ଶାନ୍ତ କରିବାକୁ ବହୁ ଚେଷ୍ଟା ଲାଗେ,",
+          "ସେ ଅବାଧ ଆତ୍ମାକୁ ଲଗାମ ଦେବାକୁ।",
+          "ତଥାପି, ଲଗାତାର,",
+          "ମୁଁ ପ୍ରେମକୁ ତା' ସୀମାରେ ବନ୍ଦୀ କରେ,",
+          "ପଞ୍ଜୁରିର ଶୁଆ ପରି,",
+          "ଡେଣା କାଟି,",
+          "ତା' ଉଡ଼ାଣ ରୋକି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ସୁନେଲି ଫ୍ରେମ୍ ଭିତରେ ମୋ ପ୍ରେମ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଧୀରେ ଧୀରେ ଜୀବନର ରଙ୍ଗପଟା",
+          "ଫିକା ପଡ଼ିବା ଆରମ୍ଭ କରିଛି।",
+          "ଯାହା ମୋର ପ୍ରିୟ,",
+          "ହୃଦୟର ଗଭୀରତାରେ ବସା ବାନ୍ଧିଥିବା,",
+          "ତାକୁ ମୁଁ ଅତି ଯତ୍ନରେ କୋଳେଇ ରଖିଛି।"
+        ],
+        [
+          "କେବେ କେବେ, ଅଜାଣତରେ,",
+          "ତାହା ମେଲିଯାଇ ବଦଳିଯାଏ",
+          "ଏକ ବିଶାଳ କାନଭାସରେ,",
+          "ଆକାଶର ବିସ୍ତାର ପରି।",
+          "ତା' ଭିତରେ ରଙ୍ଗୀନ ନକ୍ସା ପରି",
+          "ସ୍ନେହ ବସେ,",
+          "ଗ୍ରହ ଆଉ ତାରାଙ୍କର ଏକ ବ୍ରହ୍ମାଣ୍ଡ!"
+        ],
+        [
+          "ମୁଁ ଏ କାନଭାସକୁ ପୁଣି ଗୁଡ଼ାଇଦିଏ।",
+          "କିନ୍ତୁ ପ୍ରେମ କ'ଣ କେବେ ବନ୍ଦୀ ହୋଇପାରେ?"
+        ],
+        [
+          "ସେମାନେ ଶାଶ୍ୱତ ଲୟରେ ଝିଲମିଲ କରନ୍ତି,",
+          "ରାତିର ଆକାଶୀୟ କାନଭାସ ପରି,",
+          "ସୁନେଲି ଫ୍ରେମ୍ ଭିତରେ ଆବଦ୍ଧ,",
+          "ମୋ ପ୍ରିୟଙ୍କ ଛବିରେ,",
+          "କଳା କୋଟ୍ ଆଉ ନାଲି ଟାଇ ପିନ୍ଧି,",
+          "ମୁହଁକୁ ସଜାଉଥିବା ହସଟିଏ ନେଇ।"
+        ],
+        [
+          "ଯେଉଁଠି ପ୍ରେମ ପ୍ରଜାପତିର ରୂପ ନିଏ।",
+          "ମୋ ସ୍ନେହର ସୀମାମାନେ",
+          "ସୁନେଲି ଫ୍ରେମ୍‌ର",
+          "ବନ୍ଧନରୁ ମୁକ୍ତ ହୋଇଯାଆନ୍ତି,",
+          "ଯୁଦ୍ଧଘୋଡ଼ା ପରି ଦୌଡ଼ିଯାଆନ୍ତି,",
+          "ଲଗାମ ଟଣା ଆଉ ଚାବୁକ ମରା ହେଉଥିବା ବେଳେ।"
+        ],
+        [
+          "ଶାନ୍ତ କରିବାକୁ ବହୁ ଚେଷ୍ଟା ଲାଗେ,",
+          "ସେ ଅବାଧ ଆତ୍ମାକୁ ଲଗାମ ଦେବାକୁ।",
+          "ତଥାପି, ଲଗାତାର,",
+          "ମୁଁ ପ୍ରେମକୁ ତା' ସୀମାରେ ବନ୍ଦୀ କରେ,",
+          "ପଞ୍ଜୁରିର ଶୁଆ ପରି,",
+          "ଡେଣା କାଟି,",
+          "ତା' ଉଡ଼ାଣ ରୋକି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 383,
+    "target": "hi",
+    "reading_evidence": "Read all six source/target stanzas: fading life palette/deep cherished love, canvas unfolds sky/cosmos, refolding but cannot confine love, plural shimmer and framed beloved in black coat/red tie/smile, butterfly love/affection boundaries break golden frame/warhorse flight/tugged whipped reins, pacification and caged-parrot wing-clipping restraint. Checked literal male beloved against unestablished narrator gender and preserved source’s awkward changing plural subjects.",
+    "reason": "Attach golden-frame confines in natural Hindi order while preserving the two lines.",
+    "open_questions": [
+      "Prior If/It, from/form, there/their readings remain provisional; unclear they and reins-whipped attachment retained. No bereavement biography invented. Hindi feminine narrator remains provisional."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "ea8dc9bbc273b3a2bfb22d80aa844db488c8f3fa7b421571da73ba3fb159eb7f",
+    "before_sha256": "c2a380a3a49189a5893dbeb53cb90dcc5a85916bef6b61a4eb1d4fa196ddcb0c",
+    "after_sha256": "98bb442d50fade583da2a94d47a2f89076617b5036fde9c1b2d48b9721d064e8",
+    "prior_uncertainties": [
+      {
+        "note": "Six stanzas retained. If unfurls read It unfurls, from read form, there read their provisionally; original untouched. Unclear plural pronoun and reins being whipped retained rather than repaired; no invented bereavement biography.",
+        "record": "kb/production/translations/batch-096/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "सुनहरे फ़्रेम में मेरा प्रेम",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "धीरे-धीरे जीवन की रंगपट्टिका",
+          "फीकी पड़ने लगी है।",
+          "जो मुझे प्रिय है,",
+          "हृदय की गहराइयों में बसा,",
+          "उसे मैंने बड़े जतन से सँभाला है।"
+        ],
+        [
+          "कभी-कभी, अनजाने,",
+          "वह खुलकर बदल जाता है",
+          "एक विशाल कैनवास में,",
+          "आकाश के विस्तार जैसा।",
+          "उसमें रंगीन आकृतियों की तरह",
+          "स्नेह बसता है,",
+          "ग्रहों और तारों का एक ब्रह्मांड!"
+        ],
+        [
+          "मैं इस कैनवास को फिर समेट लेती हूँ।",
+          "पर क्या प्रेम कभी बँध सकता है?"
+        ],
+        [
+          "वे शाश्वत लय में झिलमिलाते हैं,",
+          "रात के आकाशीय कैनवास जैसे,",
+          "सुनहरे फ़्रेम में बंद,",
+          "मेरे प्रिय की छवि में,",
+          "काले कोट और लाल टाई में सजे,",
+          "चेहरे को सँवारती मुस्कान लिए।"
+        ],
+        [
+          "जहाँ प्रेम तितलियों का रूप लेता है।",
+          "मेरे स्नेह की सीमाएँ",
+          "आज़ाद हो जाती हैं बंधनों से",
+          "सुनहरे फ़्रेम के,",
+          "युद्ध के घोड़ों-सी सरपट भागतीं,",
+          "लगामें खींची और चाबुक से मारी जाती हुईं।"
+        ],
+        [
+          "शांत करने में बहुत प्रयत्न लगता है,",
+          "उस बेलगाम आत्मा को लगाम देने में।",
+          "फिर भी, लगातार,",
+          "मैं प्रेम को उसकी सीमाओं में क़ैद करती हूँ,",
+          "जैसे पिंजरे में तोता,",
+          "पंख काटती हुई,",
+          "उसकी उड़ान रोकती हुई।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "सुनहरे फ़्रेम में मेरा प्रेम",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "धीरे-धीरे जीवन की रंगपट्टिका",
+          "फीकी पड़ने लगी है।",
+          "जो मुझे प्रिय है,",
+          "हृदय की गहराइयों में बसा,",
+          "उसे मैंने बड़े जतन से सँभाला है।"
+        ],
+        [
+          "कभी-कभी, अनजाने,",
+          "वह खुलकर बदल जाता है",
+          "एक विशाल कैनवास में,",
+          "आकाश के विस्तार जैसा।",
+          "उसमें रंगीन आकृतियों की तरह",
+          "स्नेह बसता है,",
+          "ग्रहों और तारों का एक ब्रह्मांड!"
+        ],
+        [
+          "मैं इस कैनवास को फिर समेट लेती हूँ।",
+          "पर क्या प्रेम कभी बँध सकता है?"
+        ],
+        [
+          "वे शाश्वत लय में झिलमिलाते हैं,",
+          "रात के आकाशीय कैनवास जैसे,",
+          "सुनहरे फ़्रेम में बंद,",
+          "मेरे प्रिय की छवि में,",
+          "काले कोट और लाल टाई में सजे,",
+          "चेहरे को सँवारती मुस्कान लिए।"
+        ],
+        [
+          "जहाँ प्रेम तितलियों का रूप लेता है।",
+          "मेरे स्नेह की सीमाएँ",
+          "सुनहरे फ़्रेम के",
+          "बंधनों से आज़ाद हो जाती हैं,",
+          "युद्ध के घोड़ों-सी सरपट भागतीं,",
+          "लगामें खींची और चाबुक से मारी जाती हुईं।"
+        ],
+        [
+          "शांत करने में बहुत प्रयत्न लगता है,",
+          "उस बेलगाम आत्मा को लगाम देने में।",
+          "फिर भी, लगातार,",
+          "मैं प्रेम को उसकी सीमाओं में क़ैद करती हूँ,",
+          "जैसे पिंजरे में तोता,",
+          "पंख काटती हुई,",
+          "उसकी उड़ान रोकती हुई।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 400,
+    "target": "or",
+    "reading_evidence": "Read full thirty-two verse lines plus Sai of Shirdi tribute in source and both targets: no principles but honesty/no steadiness but word keeping/wild trees grateful soil, restless world shaping/uncared stone mud, simple food/drink/napkin hair/ankle wind/fathomless heart/empty giving hands, uncertain next meal/bed/sleep/shelter across faiths, living God hones us born beasts/devils into humans, begging/unassuming small-things Lord, wick rolling/crumbling home/grand universe plans, worn small coin not gold/diamond gives peace, near friend not remote stars/rice plate and reed mat. Checked embodied ankles, transformation agent/object and full attribution retained.",
+    "reason": "Correct heels to ankles and clarify us as those transformed into humans, preserving the carving metaphor and tribute.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "979dba9bec5ddde682829678794a274c89d33c7ee09ca961763405a9ad6de36d",
+    "before_sha256": "2d039736bc1fb05d6de79341382f82f90f1fccdf601ac27d72670afe3ab2e7de",
+    "after_sha256": "69baea66d9a11b163f560bfec712b5cd8ab622b9823e93df42f8fa41157aa7b4",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ବନ୍ୟ ମଣିଷ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ନା ନୀତି, ନା ଶୃଙ୍ଖଳା,",
+          "ନିଜ ସଚ୍ଚୋଟତା ଛଡ଼ା; କେବେ ସ୍ଥିର ନୁହେଁ,",
+          "ନିଜ କଥାରେ ଅଟଳ ରହିବା ଛଡ଼ା,",
+          "ବଣର ଗଛ ପରି, ମାଟି ପ୍ରତି କୃତଜ୍ଞ।",
+          "ଅସ୍ଥିର, ଅଧୀର, ଏକ ଉଦ୍ଦୀପନାରେ ଭରା,",
+          "ବାହାରିଯାଇ ପୃଥିବୀକୁ ଆକାର ଦେବାର,",
+          "ଯାହା ଖଣ୍ଡଖଣ୍ଡ, ଅନାଥ, ଅବହେଳିତ ପଡ଼ିଛି,",
+          "ଅମଜା ପଥର, ସନ୍ତସନ୍ତିଆ କାଦୁଅ।",
+          "ଯାହା ଖାଦ୍ୟ, ଯାହା ପାନୀୟ, ରୁମାଲରେ ବନ୍ଧା କେଶ,",
+          "ଗୋଇଠି ଚାରିପାଖରେ ପବନ, ଆଉ ହୃଦୟଟିଏ",
+          "ଅଥଳ; ହାତ ଖାଲି,",
+          "ସବୁ ଦେଇଦେବା ପରେ, ଶେଷ ତମ୍ବା ମୁଦ୍ରାଟି ବି।",
+          "ପରଦିନ ଖାଇବାକୁ ମିଳିବ କି?",
+          "ଶେଯରେ ରେଜେଇ ଥିବ ନା ଖାଲି ଚଟାଣ?",
+          "ସେ ଶୋଇବ କି, ଢୁଳାଇବାକୁ ବି ସମୟ ପାଇବ କି?",
+          "ମନ୍ଦିର, ଦରଗାହ, ଗିର୍ଜା ନା କବରସ୍ଥାନ?",
+          "ତା' ଭିତରେ ଆମେ ଜୀବନ୍ତ ଈଶ୍ୱରକୁ ପାଉ, ସେ",
+          "ଆମକୁ ମଣିଷ ଗଢ଼େ, ଯେଉଁମାନେ ପଶୁ, ପିଶାଚ ହୋଇ ଜନ୍ମିଥିଲୁ;",
+          "ଖାଦ୍ୟ ମାଗିଛି, ନା ଅଭିଯୋଗ, ନା ଅପରାଧବୋଧ;",
+          "ଛୋଟ କଥାମାନଙ୍କର ଆମ ନିରାଡ଼ମ୍ବର ପ୍ରଭୁ।",
+          "ନିଜ ଭାଙ୍ଗୁଥିବା ଘରର ଖାଲି ଚଟାଣରେ ବସି",
+          "ସେ ମାଟି ଦୀପ ପାଇଁ ତୁଳା ବଳିତା ବଳେ,",
+          "ଯେବେ ନିଜ ବ୍ରହ୍ମାଣ୍ଡର ବଡ଼ ଯୋଜନା କରୁନଥାଏ, ବୋଧହୁଏ,",
+          "ସେ ନିରାଡ଼ମ୍ବର ବିଚାରକ, ନୀରବ ଉଦ୍ଧାରକ।",
+          "ସୁନା ମୁଦ୍ରା ନୁହେଁ, ଚକଚକ ହୀରା ନୁହେଁ,",
+          "ବରଂ ବହୁ ଆଙ୍ଗୁଠିରେ ଘଷା ଛୋଟ ମୁଦ୍ରାଟିଏ,",
+          "ବାରମ୍ବାର ଅଳ୍ପକ୍ଷଣ ପାଇଁ ଗୋଟିଏ ହାତରୁ",
+          "ଅନ୍ୟ ହାତକୁ ଯାଇ ସୁଖ, ଶାନ୍ତି ଯୋଗାଏ।",
+          "ଉଜ୍ଜ୍ୱଳ ତାରା ନୁହେଁ, ସର୍ପିଳ ନୀହାରିକା ନୁହେଁ, କାରଣ",
+          "ଆଲୋକବର୍ଷ ଦୂରରେ ରହି ଲାଭ କ'ଣ? ସେ",
+          "ପଡ଼ୋଶୀ ବନ୍ଧୁ, ପେଟପୂରା ଖାଇବା ଦେଉଥିବା",
+          "ଭାତଥାଳି, ଥକା ଦେହ ପାଇଁ ନଳର ମସିଣା।",
+          "(ଶିରିଡ଼ିର ସାଇଙ୍କୁ ଶ୍ରଦ୍ଧାଞ୍ଜଳି)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ବନ୍ୟ ମଣିଷ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ନା ନୀତି, ନା ଶୃଙ୍ଖଳା,",
+          "ନିଜ ସଚ୍ଚୋଟତା ଛଡ଼ା; କେବେ ସ୍ଥିର ନୁହେଁ,",
+          "ନିଜ କଥାରେ ଅଟଳ ରହିବା ଛଡ଼ା,",
+          "ବଣର ଗଛ ପରି, ମାଟି ପ୍ରତି କୃତଜ୍ଞ।",
+          "ଅସ୍ଥିର, ଅଧୀର, ଏକ ଉଦ୍ଦୀପନାରେ ଭରା,",
+          "ବାହାରିଯାଇ ପୃଥିବୀକୁ ଆକାର ଦେବାର,",
+          "ଯାହା ଖଣ୍ଡଖଣ୍ଡ, ଅନାଥ, ଅବହେଳିତ ପଡ଼ିଛି,",
+          "ଅମଜା ପଥର, ସନ୍ତସନ୍ତିଆ କାଦୁଅ।",
+          "ଯାହା ଖାଦ୍ୟ, ଯାହା ପାନୀୟ, ରୁମାଲରେ ବନ୍ଧା କେଶ,",
+          "ଗୋଡ଼ଗଣ୍ଠି ଚାରିପାଖରେ ପବନ, ଆଉ ହୃଦୟଟିଏ",
+          "ଅଥଳ; ହାତ ଖାଲି,",
+          "ସବୁ ଦେଇଦେବା ପରେ, ଶେଷ ତମ୍ବା ମୁଦ୍ରାଟି ବି।",
+          "ପରଦିନ ଖାଇବାକୁ ମିଳିବ କି?",
+          "ଶେଯରେ ରେଜେଇ ଥିବ ନା ଖାଲି ଚଟାଣ?",
+          "ସେ ଶୋଇବ କି, ଢୁଳାଇବାକୁ ବି ସମୟ ପାଇବ କି?",
+          "ମନ୍ଦିର, ଦରଗାହ, ଗିର୍ଜା ନା କବରସ୍ଥାନ?",
+          "ତା' ଭିତରେ ଆମେ ଜୀବନ୍ତ ଈଶ୍ୱରକୁ ପାଉ, ସେ",
+          "ଆମେ ଯେଉଁମାନେ ପଶୁ, ପିଶାଚ ହୋଇ ଜନ୍ମିଥିଲୁ, ଆମକୁ ମଣିଷ କରି ଗଢ଼େ;",
+          "ଖାଦ୍ୟ ମାଗିଛି, ନା ଅଭିଯୋଗ, ନା ଅପରାଧବୋଧ;",
+          "ଛୋଟ କଥାମାନଙ୍କର ଆମ ନିରାଡ଼ମ୍ବର ପ୍ରଭୁ।",
+          "ନିଜ ଭାଙ୍ଗୁଥିବା ଘରର ଖାଲି ଚଟାଣରେ ବସି",
+          "ସେ ମାଟି ଦୀପ ପାଇଁ ତୁଳା ବଳିତା ବଳେ,",
+          "ଯେବେ ନିଜ ବ୍ରହ୍ମାଣ୍ଡର ବଡ଼ ଯୋଜନା କରୁନଥାଏ, ବୋଧହୁଏ,",
+          "ସେ ନିରାଡ଼ମ୍ବର ବିଚାରକ, ନୀରବ ଉଦ୍ଧାରକ।",
+          "ସୁନା ମୁଦ୍ରା ନୁହେଁ, ଚକଚକ ହୀରା ନୁହେଁ,",
+          "ବରଂ ବହୁ ଆଙ୍ଗୁଠିରେ ଘଷା ଛୋଟ ମୁଦ୍ରାଟିଏ,",
+          "ବାରମ୍ବାର ଅଳ୍ପକ୍ଷଣ ପାଇଁ ଗୋଟିଏ ହାତରୁ",
+          "ଅନ୍ୟ ହାତକୁ ଯାଇ ସୁଖ, ଶାନ୍ତି ଯୋଗାଏ।",
+          "ଉଜ୍ଜ୍ୱଳ ତାରା ନୁହେଁ, ସର୍ପିଳ ନୀହାରିକା ନୁହେଁ, କାରଣ",
+          "ଆଲୋକବର୍ଷ ଦୂରରେ ରହି ଲାଭ କ'ଣ? ସେ",
+          "ପଡ଼ୋଶୀ ବନ୍ଧୁ, ପେଟପୂରା ଖାଇବା ଦେଉଥିବା",
+          "ଭାତଥାଳି, ଥକା ଦେହ ପାଇଁ ନଳର ମସିଣା।",
+          "(ଶିରିଡ଼ିର ସାଇଙ୍କୁ ଶ୍ରଦ୍ଧାଞ୍ଜଳି)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 400,
+    "target": "hi",
+    "reading_evidence": "Read full thirty-two verse lines plus Sai of Shirdi tribute in source and both targets: no principles but honesty/no steadiness but word keeping/wild trees grateful soil, restless world shaping/uncared stone mud, simple food/drink/napkin hair/ankle wind/fathomless heart/empty giving hands, uncertain next meal/bed/sleep/shelter across faiths, living God hones us born beasts/devils into humans, begging/unassuming small-things Lord, wick rolling/crumbling home/grand universe plans, worn small coin not gold/diamond gives peace, near friend not remote stars/rice plate and reed mat. Checked embodied ankles, transformation agent/object and full attribution retained.",
+    "reason": "Clarify who was born beast/devil and who is shaped into human; retain honing as tarashna rather than dropping the transformation.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "979dba9bec5ddde682829678794a274c89d33c7ee09ca961763405a9ad6de36d",
+    "before_sha256": "0e13072b697479ac6139065d8d4cb24bb9ab62c8d69515866ee3b66986e1c4ca",
+    "after_sha256": "176afd5c8d5e5d48c55c5861587453b6f3fd162e09f555798573af47b867183d",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "बनैला मनुष्य",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "न सिद्धांत, न अनुशासन,",
+          "सिवा अपनी ईमानदारी के; कभी स्थिर नहीं,",
+          "सिवा अपनी बात पर टिकने के,",
+          "जंगल के पेड़ों-सा, मिट्टी का कृतज्ञ।",
+          "बेचैन, अधीर, एक उमंग से भरा,",
+          "बाहर निकलकर दुनिया को आकार देने की,",
+          "जो बिखरी, अनाथ, उपेक्षित पड़ी है,",
+          "अनगढ़ पत्थर, दलदली कीचड़।",
+          "कुछ भी खाना, कुछ भी पीना, रूमाल में बँधे बाल,",
+          "टखनों के आसपास हवा, और एक हृदय",
+          "अथाह; हाथ खाली,",
+          "सब दे देने के बाद, आख़िरी ताँबे का सिक्का भी।",
+          "क्या अगले दिन भोजन मिलेगा?",
+          "बिस्तर पर रज़ाई होगी या नंगी ज़मीन?",
+          "क्या सोएगा, क्या झपकी का भी समय मिलेगा?",
+          "मंदिर, दरगाह, चर्च या कब्रिस्तान?",
+          "उसमें हम अपना जीवित ईश्वर पाते हैं, वह",
+          "हमें मनुष्य गढ़ता है, जो पशु, शैतान जन्मे थे;",
+          "भोजन माँगता रहा, न शिकायत, न अपराधबोध;",
+          "छोटी चीज़ों का हमारा विनम्र प्रभु।",
+          "अपने ढहते घर की नंगी ज़मीन पर बैठकर",
+          "वह मिट्टी के दीयों के लिए रूई की बत्तियाँ बनाता है,",
+          "जब अपने ब्रह्मांड की बड़ी योजनाएँ नहीं बना रहा होता, शायद,",
+          "वह विनम्र निर्णायक, मौन उद्धारक।",
+          "न सोने का सिक्का, न चमकता हीरा,",
+          "बल्कि बहुत हाथों से घिसा छोटा सिक्का,",
+          "बार-बार, क्षणिक रूप से, एक हाथ से",
+          "दूसरे में जाता, सुविधा और शांति देता।",
+          "न चमकीला तारा, न सर्पिल नीहारिका, क्योंकि",
+          "प्रकाशवर्षों दूर होने का क्या लाभ? वह है",
+          "पड़ोस का मित्र, भरपेट भोजन देती",
+          "चावल की थाली, थकी देह के लिए सरकंडे की चटाई।",
+          "(शिरडी के साईं को श्रद्धांजलि)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "बनैला मनुष्य",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "न सिद्धांत, न अनुशासन,",
+          "सिवा अपनी ईमानदारी के; कभी स्थिर नहीं,",
+          "सिवा अपनी बात पर टिकने के,",
+          "जंगल के पेड़ों-सा, मिट्टी का कृतज्ञ।",
+          "बेचैन, अधीर, एक उमंग से भरा,",
+          "बाहर निकलकर दुनिया को आकार देने की,",
+          "जो बिखरी, अनाथ, उपेक्षित पड़ी है,",
+          "अनगढ़ पत्थर, दलदली कीचड़।",
+          "कुछ भी खाना, कुछ भी पीना, रूमाल में बँधे बाल,",
+          "टखनों के आसपास हवा, और एक हृदय",
+          "अथाह; हाथ खाली,",
+          "सब दे देने के बाद, आख़िरी ताँबे का सिक्का भी।",
+          "क्या अगले दिन भोजन मिलेगा?",
+          "बिस्तर पर रज़ाई होगी या नंगी ज़मीन?",
+          "क्या सोएगा, क्या झपकी का भी समय मिलेगा?",
+          "मंदिर, दरगाह, चर्च या कब्रिस्तान?",
+          "उसमें हम अपना जीवित ईश्वर पाते हैं, वह",
+          "हम जो पशु, शैतान जन्मे थे, हमें तराशकर मनुष्य बनाता है;",
+          "भोजन माँगता रहा, न शिकायत, न अपराधबोध;",
+          "छोटी चीज़ों का हमारा विनम्र प्रभु।",
+          "अपने ढहते घर की नंगी ज़मीन पर बैठकर",
+          "वह मिट्टी के दीयों के लिए रूई की बत्तियाँ बनाता है,",
+          "जब अपने ब्रह्मांड की बड़ी योजनाएँ नहीं बना रहा होता, शायद,",
+          "वह विनम्र निर्णायक, मौन उद्धारक।",
+          "न सोने का सिक्का, न चमकता हीरा,",
+          "बल्कि बहुत हाथों से घिसा छोटा सिक्का,",
+          "बार-बार, क्षणिक रूप से, एक हाथ से",
+          "दूसरे में जाता, सुविधा और शांति देता।",
+          "न चमकीला तारा, न सर्पिल नीहारिका, क्योंकि",
+          "प्रकाशवर्षों दूर होने का क्या लाभ? वह है",
+          "पड़ोस का मित्र, भरपेट भोजन देती",
+          "चावल की थाली, थकी देह के लिए सरकंडे की चटाई।",
+          "(शिरडी के साईं को श्रद्धांजलि)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

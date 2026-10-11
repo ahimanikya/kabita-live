@@ -1,0 +1,800 @@
+[
+  {
+    "poem_id": 754,
+    "target": "en",
+    "reason": "Make the choked-voice idiom natural at the point where recitation breaks into sobbing.",
+    "reading_evidence": "Read all ten source stanzas (77 lines) and the complete target: present/absent emigrant son, sold sweat/blood and human/software-engineer distinction; salary packages, remittances/house/computer/voicemail, machine/ATM recognition; parents promises and tears; wife passing, devouring wealth, exile at home and quoted bird/ocean poem; tears/sleep then final enquiries call for old-age home. Preserve narrative tense shifts, recognitions and plain tragic ending; no indictment of a country or invented abandonment episode.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Voice catches carries the source constricted throat and broken recitation without suggesting a physical choking event. The two-line pause and subsequent sobs remain.",
+    "full_source_target_read": true,
+    "source_sha256": "c0341aedf9744c729b3c7a6eefa4e6ffa8b0d9361501595b3f36c7fe935edb51",
+    "before_sha256": "56174c5360134c5b2f1c1b809f2bccc3425f5b62fcceda627e8af8407c019c72",
+    "after_sha256": "22fe48742093967bbee9d1a99b358d956413bc7113f0c9ae48ab363e67f3c09e",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "The Plot of a Story",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "This plot is about an old father,",
+          "the plot of an old father’s story."
+        ],
+        [
+          "The old man had a son.",
+          "Had? He has one.",
+          "He is there, and not there too,",
+          "as though present even in his absence.",
+          "That means the old man’s son",
+          "is abroad now."
+        ],
+        [
+          "Selling his own sweat,",
+          "selling his own blood,",
+          "the old man tried to make his son a human being.",
+          "Now the old man wonders: did he really",
+          "want to make his son a human being,",
+          "or, like other fathers,",
+          "did he need a software engineer?"
+        ],
+        [
+          "Companies have taken all the sons away",
+          "with handsome salary packages;",
+          "therefore,",
+          "the old man too wanted his son",
+          "to be taken by some company",
+          "on a good package.",
+          "And, sure enough, the old man’s",
+          "dream is coming true;",
+          "so his son is flying abroad."
+        ],
+        [
+          "Having flown there, he",
+          "sends bundles upon bundles of money.",
+          "He has built a palace-like house,",
+          "installed a computer,",
+          "chats through voicemail.",
+          "His son is fulfilling his duties properly,",
+          "the old man thinks."
+        ],
+        [
+          "Sometimes the old man thinks",
+          "other thoughts about his son.",
+          "It occurs to him",
+          "that he himself has turned his son",
+          "into a machine."
+        ],
+        [
+          "When the old man",
+          "withdraws money from the ATM,",
+          "at that very moment",
+          "the ATM machine looks to him",
+          "like his son,",
+          "that same son who",
+          "from abroad sends bundles",
+          "of money."
+        ],
+        [
+          "The old man grows older and older.",
+          "He talks with his old wife.",
+          "The old man says:",
+          "You must not leave me and go.",
+          "His wife says:",
+          "You must not leave me and go. Thus",
+          "they speak to one another,",
+          "vowing",
+          "to die together,",
+          "swearing oaths, and",
+          "both quietly shed tears."
+        ],
+        [
+          "Then, suddenly, his wife passes away.",
+          "All the abundance,",
+          "the palace-like house,",
+          "pursues the old man to devour him.",
+          "In his own home, he feels",
+          "he is serving a sentence of exile, and",
+          "he remembers a poem",
+          "he read in childhood.",
+          "He recites the poem very loudly:",
+          "“If only I had the wings of a bird,",
+          "I would fly across the ocean’s breast...”",
+          "Then his throat",
+          "chokes,",
+          "and he breaks into loud sobs."
+        ],
+        [
+          "Weeping, he",
+          "falls asleep.",
+          "When his eyes open,",
+          "he makes a phone call",
+          "and says—",
+          "Hello, Enquiries,",
+          "could you give me the address",
+          "of the old-age home in this town?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "The Plot of a Story",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "This plot is about an old father,",
+          "the plot of an old father’s story."
+        ],
+        [
+          "The old man had a son.",
+          "Had? He has one.",
+          "He is there, and not there too,",
+          "as though present even in his absence.",
+          "That means the old man’s son",
+          "is abroad now."
+        ],
+        [
+          "Selling his own sweat,",
+          "selling his own blood,",
+          "the old man tried to make his son a human being.",
+          "Now the old man wonders: did he really",
+          "want to make his son a human being,",
+          "or, like other fathers,",
+          "did he need a software engineer?"
+        ],
+        [
+          "Companies have taken all the sons away",
+          "with handsome salary packages;",
+          "therefore,",
+          "the old man too wanted his son",
+          "to be taken by some company",
+          "on a good package.",
+          "And, sure enough, the old man’s",
+          "dream is coming true;",
+          "so his son is flying abroad."
+        ],
+        [
+          "Having flown there, he",
+          "sends bundles upon bundles of money.",
+          "He has built a palace-like house,",
+          "installed a computer,",
+          "chats through voicemail.",
+          "His son is fulfilling his duties properly,",
+          "the old man thinks."
+        ],
+        [
+          "Sometimes the old man thinks",
+          "other thoughts about his son.",
+          "It occurs to him",
+          "that he himself has turned his son",
+          "into a machine."
+        ],
+        [
+          "When the old man",
+          "withdraws money from the ATM,",
+          "at that very moment",
+          "the ATM machine looks to him",
+          "like his son,",
+          "that same son who",
+          "from abroad sends bundles",
+          "of money."
+        ],
+        [
+          "The old man grows older and older.",
+          "He talks with his old wife.",
+          "The old man says:",
+          "You must not leave me and go.",
+          "His wife says:",
+          "You must not leave me and go. Thus",
+          "they speak to one another,",
+          "vowing",
+          "to die together,",
+          "swearing oaths, and",
+          "both quietly shed tears."
+        ],
+        [
+          "Then, suddenly, his wife passes away.",
+          "All the abundance,",
+          "the palace-like house,",
+          "pursues the old man to devour him.",
+          "In his own home, he feels",
+          "he is serving a sentence of exile, and",
+          "he remembers a poem",
+          "he read in childhood.",
+          "He recites the poem very loudly:",
+          "“If only I had the wings of a bird,",
+          "I would fly across the ocean’s breast...”",
+          "Then his voice",
+          "catches,",
+          "and he breaks into loud sobs."
+        ],
+        [
+          "Weeping, he",
+          "falls asleep.",
+          "When his eyes open,",
+          "he makes a phone call",
+          "and says—",
+          "Hello, Enquiries,",
+          "could you give me the address",
+          "of the old-age home in this town?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 759,
+    "target": "en",
+    "reason": "Replace the abrupt Come, you! with an emphatic English invitation that fits the tender final stanza.",
+    "reading_evidence": "Read all three verse stanzas plus separate Anurag/end mark/address in source and complete target: invitation to food of outcry soaked in heart sobs, helpless emptiness/earth opening/seed/many breaths; wiping with cool sari end, lullaby/green woods, earth dozing and fame/infamy; tender morning kiss in silent time garden. Preserve the unnerving nourishment image and intimate repetition; closing material unchanged.",
+    "open_questions": [
+      "Prior unusual ପୋଛି ଦିଏ ଅଭୟ remains provisionally wipe into fearlessness, not a resolved source meaning.",
+      "ଉପନୀତ ଉପବନ relation to silent time remains provisional; preserve existing garden rather than invent its location or arrival story."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "The imperative remains emphatic but avoids an unintended brusque vocative. The target pronoun is implicit; no new intimacy or event is added.",
+    "full_source_target_read": true,
+    "source_sha256": "a17f5084ed64ced5ff738bf3587b182345031e4f1b7a0336137b8ab5668e13ae",
+    "before_sha256": "99483daf5813543d4949dfbfe7af9e9585afcab1a398e3dde65ee44e550cd8d2",
+    "after_sha256": "9670dfe4475555b91d13529d1c92a9f6303ef88b1c6535659f016e149b5e05c1",
+    "prior_uncertainties": [
+      {
+        "note": "ପଖଳା retains soaked-rice/food image; English syntax locally reorders the two adjacent food/tears lines while keeping both and stanza line count. ପୋଛି ଦିଏ ଅଭୟ is unusual and interpreted wipe into fearlessness provisionally. Anurag and postal lines retained as source closing material; no added author identity.",
+        "record": "kb/production/translations/batch-015/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Come, If You Can",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Come!",
+          "Let me serve you",
+          "some unruly grains of anguish,",
+          "soaked in the heart’s sobs.",
+          "In the emptiness of being unable to do anything,",
+          "let the earth’s breast split open,",
+          "let a seed sprout",
+          "in the thick heat of countless breaths."
+        ],
+        [
+          "Come!",
+          "Let me wipe you into fearlessness",
+          "with my cool sari-end.",
+          "Singing a lullaby,",
+          "let me lull you to sleep in the green",
+          "woodland.",
+          "Laying her head towards the sky,",
+          "let the earth doze",
+          "on this soil’s breast, discoloured",
+          "by fame and infamy,",
+          "within forgotten boundaries."
+        ],
+        [
+          "Come, you!",
+          "With the morning sun’s tender rays,",
+          "let me draw a kiss",
+          "in the garden that has come into being",
+          "in my silenced, soundless time."
+        ],
+        [
+          "Anurag",
+          "∎",
+          "B/10, Pratibha Enclave",
+          "BJB Nagar",
+          "Bhubaneswar"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Come, If You Can",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Come!",
+          "Let me serve you",
+          "some unruly grains of anguish,",
+          "soaked in the heart’s sobs.",
+          "In the emptiness of being unable to do anything,",
+          "let the earth’s breast split open,",
+          "let a seed sprout",
+          "in the thick heat of countless breaths."
+        ],
+        [
+          "Come!",
+          "Let me wipe you into fearlessness",
+          "with my cool sari-end.",
+          "Singing a lullaby,",
+          "let me lull you to sleep in the green",
+          "woodland.",
+          "Laying her head towards the sky,",
+          "let the earth doze",
+          "on this soil’s breast, discoloured",
+          "by fame and infamy,",
+          "within forgotten boundaries."
+        ],
+        [
+          "Do come!",
+          "With the morning sun’s tender rays,",
+          "let me draw a kiss",
+          "in the garden that has come into being",
+          "in my silenced, soundless time."
+        ],
+        [
+          "Anurag",
+          "∎",
+          "B/10, Pratibha Enclave",
+          "BJB Nagar",
+          "Bhubaneswar"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 747,
+    "target": "or",
+    "reason": "Restore uniform specificity: generic clothing weakens the mothers uncertainty about military return.",
+    "reading_evidence": "Read all ten source/target stanzas: cannons/lullaby/earth crying and question-smoke; false patriotic victory and bleeding earth; mother/homecoming/uniform; fury versus compassion dialect; soldier lowering rifle and stranger risking life; nationality-free heartbeat; tolerance/help versus hatred; empathy betrayal growing war; disowned hatred and repeated cannon ending with mercy chosen. Keep antiwar argument and female earth without assigning a military side or casualty.",
+    "open_questions": [
+      "Which uniform brings the son home remains deliberately unspecified; no side, nationality, death or capture has been inferred."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Military clothing makes uniform identifiable in the war context without identifying its army, wearer or fate.",
+    "full_source_target_read": true,
+    "source_sha256": "f85f7a38d18c9d16dca588e0a55135ef0753e013452d349a8f522c29032048b1",
+    "before_sha256": "334bf3aa4a9c404aeacbce1d79e0224c9344c9fa81a7b41aefaae4d15a7ceaad",
+    "after_sha256": "731d778c1d486659a11a17fd28e540eadc4141b714eec9e34408ccb7e2a3765b",
+    "prior_uncertainties": [
+      {
+        "note": "Uniform ambiguity retained without inventing a side, enemy or casualty. Antiwar argument translated as poem, not external political assertion.",
+        "record": "kb/production/translations/batch-015/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଯେବେ ତୋପ ଆକାଶ ଚିରେ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଯେବେ ତୋପ ଆକାଶ ଚିରେ,",
+          "ନିଜ ନାନାବାୟା ଗୀତ ଭୁଲି ପୃଥିବୀ ଅସହାୟ ହୋଇ କାନ୍ଦେ।",
+          "ଧୂଆଁ, ଯୁଦ୍ଧର କଳା ପଡ଼ିଥିବା ନିଶ୍ୱାସ, ଆକାଶକୁ କୁଣ୍ଡଳୀ ହୋଇ ଉଠେ,",
+          "ଏପରି ଏକ ପ୍ରଶ୍ନ ପରି, ଯାହାର ଉତ୍ତର ଦେବାକୁ କେହି ସାହସ କରେନା।"
+        ],
+        [
+          "ସୀମାନ୍ତ ନିଆଁରେ ଜଳେ।",
+          "ତାକୁ ଦେଶପ୍ରେମ, ନ୍ୟାୟ କି ବିଜୟ କୁହ,",
+          "କିନ୍ତୁ ଆକାଶ ମିଛ ବିଜୟୋଲ୍ଲାସରେ ଜଳେ,",
+          "ଆଉ ଧରିତ୍ରୀ ନିରୋଳା ଯନ୍ତ୍ରଣାରେ ରକ୍ତ ଝରାଏ।"
+        ],
+        [
+          "ସେଇ ଗର୍ଜନ ତଳେ କେଉଁଠି,",
+          "ଜଣେ ମାଆ ଏବେ ବି ଘରବାହୁଡ଼ା ଗୀତ ଗୁଣୁଗୁଣାଏ,",
+          "ଦୂର ଦେଶରୁ ତା' ପୁଅର ଫେରିବା ପାଇଁ,",
+          "କେଉଁ ପୋଷାକ ତାକୁ ଘରକୁ ଆଣିବ, ସେ ଜାଣେ ନାହିଁ।"
+        ],
+        [
+          "ଯୁଦ୍ଧ କ୍ରୋଧର ଭାଷା ଶିଖାଏ:",
+          "ଉଚ୍ଚ, ଉଗ୍ର, ପ୍ରଶ୍ନର ଊର୍ଦ୍ଧ୍ୱରେ।",
+          "ଆଉ କରୁଣାର କୋମଳ କଥାଭାଷା",
+          "ସେଇଟି, ଯାହା କହିବାକୁ ଆମେ ଭୁଲିଯାଉ।"
+        ],
+        [
+          "ସେ ବଞ୍ଚେ ସେଇ ସୈନିକ ଭିତରେ",
+          "ଯିଏ ଏକ ଶିଶୁ ପାଇଁ ନିଜ ବନ୍ଧୁକ ନୁଆଁଇଦିଏ,",
+          "ସେଇ ଅଜଣା ଲୋକ ଭିତରେ",
+          "ଯିଏ ଆହତଙ୍କ ପାଇଁ ନିଜ ଜୀବନକୁ ବିପଦରେ ପକାଏ।"
+        ],
+        [
+          "ସେଇ ମୁହୂର୍ତ୍ତରେ",
+          "ଯେବେ କେହି ବୁଝିପାରେ",
+          "ଯେ ହୃଦ୍‌ସ୍ପନ୍ଦନ କୌଣସି ଜାତୀୟତା ଜାଣେ ନାହିଁ।"
+        ],
+        [
+          "କାରଣ ସହନଶୀଳତା ଦୁର୍ବଳତା ନୁହେଁ,",
+          "ସେ ହେଉଛି ସାହସ",
+          "କାହା ଆଡ଼କୁ ସାହାଯ୍ୟର ହାତ ବଢ଼ାଇବାର,",
+          "ଯେବେ ଘୃଣା ତୁମକୁ ମୁହଁ ଫେରାଇବାକୁ ଆଦେଶ ଦିଏ।"
+        ],
+        [
+          "କାରଣ ଯୁଦ୍ଧ ଲଢ଼ାଯାଏ ନାହିଁ",
+          "କେବଳ ବୋମା ଓ ଗୁଳିରେ—",
+          "ସେମାନେ ଚୁପ୍‌ଚାପ୍ ବଢ଼ନ୍ତି, ଅଙ୍କୁରିତ ହୁଅନ୍ତି",
+          "ସମାନୁଭୂତି ପ୍ରତି ଏକ ଛୋଟ ବିଶ୍ୱାସଘାତରୁ।"
+        ],
+        [
+          "ଆଉ ଯେକୌଣସି ଯୁଗର ସତ୍ୟତମ ବିଜୟ",
+          "ଆମେ ଜିଣିଥିବା ଭୂମି ନୁହେଁ,",
+          "ବରଂ ସେଇ ଭୟଙ୍କର ଘୃଣା",
+          "ଯାହାକୁ ଆମେ ଆପଣାଇବାକୁ ମନା କରୁ।"
+        ],
+        [
+          "ତେଣୁ, ଯେବେ ତୋପ ପୁଣି ଆକାଶ ଚିରିବ,",
+          "ଆମେ ମୃଦୁ ସ୍ୱରରେ ଉତ୍ତର ଦେବା—",
+          "ଏପରି ହୃଦୟ ନେଇ, ଯାହା ଦୟାକୁ ବାଛେ",
+          "ଘୃଣାର ମିଛ ବିଜୟ ବଦଳରେ!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଯେବେ ତୋପ ଆକାଶ ଚିରେ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଯେବେ ତୋପ ଆକାଶ ଚିରେ,",
+          "ନିଜ ନାନାବାୟା ଗୀତ ଭୁଲି ପୃଥିବୀ ଅସହାୟ ହୋଇ କାନ୍ଦେ।",
+          "ଧୂଆଁ, ଯୁଦ୍ଧର କଳା ପଡ଼ିଥିବା ନିଶ୍ୱାସ, ଆକାଶକୁ କୁଣ୍ଡଳୀ ହୋଇ ଉଠେ,",
+          "ଏପରି ଏକ ପ୍ରଶ୍ନ ପରି, ଯାହାର ଉତ୍ତର ଦେବାକୁ କେହି ସାହସ କରେନା।"
+        ],
+        [
+          "ସୀମାନ୍ତ ନିଆଁରେ ଜଳେ।",
+          "ତାକୁ ଦେଶପ୍ରେମ, ନ୍ୟାୟ କି ବିଜୟ କୁହ,",
+          "କିନ୍ତୁ ଆକାଶ ମିଛ ବିଜୟୋଲ୍ଲାସରେ ଜଳେ,",
+          "ଆଉ ଧରିତ୍ରୀ ନିରୋଳା ଯନ୍ତ୍ରଣାରେ ରକ୍ତ ଝରାଏ।"
+        ],
+        [
+          "ସେଇ ଗର୍ଜନ ତଳେ କେଉଁଠି,",
+          "ଜଣେ ମାଆ ଏବେ ବି ଘରବାହୁଡ଼ା ଗୀତ ଗୁଣୁଗୁଣାଏ,",
+          "ଦୂର ଦେଶରୁ ତା' ପୁଅର ଫେରିବା ପାଇଁ,",
+          "କେଉଁ ସାମରିକ ପୋଷାକ ତାକୁ ଘରକୁ ଆଣିବ, ସେ ଜାଣେ ନାହିଁ।"
+        ],
+        [
+          "ଯୁଦ୍ଧ କ୍ରୋଧର ଭାଷା ଶିଖାଏ:",
+          "ଉଚ୍ଚ, ଉଗ୍ର, ପ୍ରଶ୍ନର ଊର୍ଦ୍ଧ୍ୱରେ।",
+          "ଆଉ କରୁଣାର କୋମଳ କଥାଭାଷା",
+          "ସେଇଟି, ଯାହା କହିବାକୁ ଆମେ ଭୁଲିଯାଉ।"
+        ],
+        [
+          "ସେ ବଞ୍ଚେ ସେଇ ସୈନିକ ଭିତରେ",
+          "ଯିଏ ଏକ ଶିଶୁ ପାଇଁ ନିଜ ବନ୍ଧୁକ ନୁଆଁଇଦିଏ,",
+          "ସେଇ ଅଜଣା ଲୋକ ଭିତରେ",
+          "ଯିଏ ଆହତଙ୍କ ପାଇଁ ନିଜ ଜୀବନକୁ ବିପଦରେ ପକାଏ।"
+        ],
+        [
+          "ସେଇ ମୁହୂର୍ତ୍ତରେ",
+          "ଯେବେ କେହି ବୁଝିପାରେ",
+          "ଯେ ହୃଦ୍‌ସ୍ପନ୍ଦନ କୌଣସି ଜାତୀୟତା ଜାଣେ ନାହିଁ।"
+        ],
+        [
+          "କାରଣ ସହନଶୀଳତା ଦୁର୍ବଳତା ନୁହେଁ,",
+          "ସେ ହେଉଛି ସାହସ",
+          "କାହା ଆଡ଼କୁ ସାହାଯ୍ୟର ହାତ ବଢ଼ାଇବାର,",
+          "ଯେବେ ଘୃଣା ତୁମକୁ ମୁହଁ ଫେରାଇବାକୁ ଆଦେଶ ଦିଏ।"
+        ],
+        [
+          "କାରଣ ଯୁଦ୍ଧ ଲଢ଼ାଯାଏ ନାହିଁ",
+          "କେବଳ ବୋମା ଓ ଗୁଳିରେ—",
+          "ସେମାନେ ଚୁପ୍‌ଚାପ୍ ବଢ଼ନ୍ତି, ଅଙ୍କୁରିତ ହୁଅନ୍ତି",
+          "ସମାନୁଭୂତି ପ୍ରତି ଏକ ଛୋଟ ବିଶ୍ୱାସଘାତରୁ।"
+        ],
+        [
+          "ଆଉ ଯେକୌଣସି ଯୁଗର ସତ୍ୟତମ ବିଜୟ",
+          "ଆମେ ଜିଣିଥିବା ଭୂମି ନୁହେଁ,",
+          "ବରଂ ସେଇ ଭୟଙ୍କର ଘୃଣା",
+          "ଯାହାକୁ ଆମେ ଆପଣାଇବାକୁ ମନା କରୁ।"
+        ],
+        [
+          "ତେଣୁ, ଯେବେ ତୋପ ପୁଣି ଆକାଶ ଚିରିବ,",
+          "ଆମେ ମୃଦୁ ସ୍ୱରରେ ଉତ୍ତର ଦେବା—",
+          "ଏପରି ହୃଦୟ ନେଇ, ଯାହା ଦୟାକୁ ବାଛେ",
+          "ଘୃଣାର ମିଛ ବିଜୟ ବଦଳରେ!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 747,
+    "target": "hi",
+    "reason": "Replace spatial over calque with the Hindi phrase for choosing mercy in preference to false triumph.",
+    "reading_evidence": "Read all ten source/target stanzas: cannons/lullaby/earth crying and question-smoke; false patriotic victory and bleeding earth; mother/homecoming/uniform; fury versus compassion dialect; soldier lowering rifle and stranger risking life; nationality-free heartbeat; tolerance/help versus hatred; empathy betrayal growing war; disowned hatred and repeated cannon ending with mercy chosen. Keep antiwar argument and female earth without assigning a military side or casualty.",
+    "open_questions": [
+      "Which uniform brings the son home remains deliberately unspecified; no side, nationality, death or capture has been inferred."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Restores the concluding ethical choice; does not intensify the source antiwar stance.",
+    "full_source_target_read": true,
+    "source_sha256": "f85f7a38d18c9d16dca588e0a55135ef0753e013452d349a8f522c29032048b1",
+    "before_sha256": "f6117bab92393b3c06730fe2d1bf91821ec19df5cf23e22029d0f69904855327",
+    "after_sha256": "c6fd255d35835d3922161d190422fadfa868b9d91b5fd9cc74482bae6843ed25",
+    "prior_uncertainties": [
+      {
+        "note": "Uniform ambiguity retained without inventing a side, enemy or casualty. Antiwar argument translated as poem, not external political assertion.",
+        "record": "kb/production/translations/batch-015/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "जब तोपें आकाश चीरती हैं",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जब तोपें आकाश चीरती हैं,",
+          "अपनी लोरियाँ भूलकर पृथ्वी असहाय रोती है।",
+          "धुआँ, युद्ध की काली साँस, आकाश में बल खाता उठता है,",
+          "उस प्रश्न की तरह जिसका उत्तर देने का साहस किसी में नहीं।"
+        ],
+        [
+          "सीमाएँ आग से धधकती हैं।",
+          "उसे देशप्रेम, न्याय या विजय कह लो,",
+          "पर आकाश झूठे जयघोष से जलता है,",
+          "और धरती तीव्र पीड़ा में रक्त बहाती है।"
+        ],
+        [
+          "कहीं इस गर्जन के नीचे,",
+          "एक माँ अब भी घर लौटने का गीत गुनगुनाती है,",
+          "दूर देश से अपने बेटे की वापसी के लिए,",
+          "अनजान कि कौन-सी वर्दी उसे घर लाएगी।"
+        ],
+        [
+          "युद्ध क्रोध की भाषा सिखाता है:",
+          "ऊँची, उग्र, जिस पर कोई प्रश्न न हो।",
+          "और करुणा की कोमल बोली",
+          "वही है जिसे बोलना हम भूल जाते हैं।"
+        ],
+        [
+          "वह उस सैनिक में बसती है",
+          "जो एक बच्चे के लिए अपनी बंदूक नीचे कर लेता है,",
+          "उस अजनबी में",
+          "जो घायल के लिए अपनी जान जोखिम में डालता है।"
+        ],
+        [
+          "उस क्षण में",
+          "जब कोई समझता है",
+          "कि धड़कन किसी राष्ट्रीयता को नहीं जानती।"
+        ],
+        [
+          "क्योंकि सहिष्णुता कमज़ोरी नहीं,",
+          "वह साहस है",
+          "किसी की ओर सहायता का हाथ बढ़ाने का,",
+          "जब घृणा तुम्हें मुँह फेरने का आदेश दे।"
+        ],
+        [
+          "क्योंकि युद्ध नहीं लड़े जाते",
+          "केवल बमों और गोलियों से—",
+          "वे चुपचाप बढ़ते हैं, अंकुरित होते हैं",
+          "समानुभूति से किए गए छोटे-से विश्वासघात में।"
+        ],
+        [
+          "और किसी भी युग की सबसे सच्ची विजय",
+          "वह भूमि नहीं जिसे हम जीत लेते हैं,",
+          "बल्कि वह भयानक घृणा है",
+          "जिसे अपनाने से हम इनकार करते हैं।"
+        ],
+        [
+          "तो जब तोपें फिर आकाश चीरें,",
+          "हम धीरे से उत्तर दें—",
+          "उन हृदयों से जो दया चुनते हैं,",
+          "घृणा की झूठी विजय के ऊपर!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "जब तोपें आकाश चीरती हैं",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जब तोपें आकाश चीरती हैं,",
+          "अपनी लोरियाँ भूलकर पृथ्वी असहाय रोती है।",
+          "धुआँ, युद्ध की काली साँस, आकाश में बल खाता उठता है,",
+          "उस प्रश्न की तरह जिसका उत्तर देने का साहस किसी में नहीं।"
+        ],
+        [
+          "सीमाएँ आग से धधकती हैं।",
+          "उसे देशप्रेम, न्याय या विजय कह लो,",
+          "पर आकाश झूठे जयघोष से जलता है,",
+          "और धरती तीव्र पीड़ा में रक्त बहाती है।"
+        ],
+        [
+          "कहीं इस गर्जन के नीचे,",
+          "एक माँ अब भी घर लौटने का गीत गुनगुनाती है,",
+          "दूर देश से अपने बेटे की वापसी के लिए,",
+          "अनजान कि कौन-सी वर्दी उसे घर लाएगी।"
+        ],
+        [
+          "युद्ध क्रोध की भाषा सिखाता है:",
+          "ऊँची, उग्र, जिस पर कोई प्रश्न न हो।",
+          "और करुणा की कोमल बोली",
+          "वही है जिसे बोलना हम भूल जाते हैं।"
+        ],
+        [
+          "वह उस सैनिक में बसती है",
+          "जो एक बच्चे के लिए अपनी बंदूक नीचे कर लेता है,",
+          "उस अजनबी में",
+          "जो घायल के लिए अपनी जान जोखिम में डालता है।"
+        ],
+        [
+          "उस क्षण में",
+          "जब कोई समझता है",
+          "कि धड़कन किसी राष्ट्रीयता को नहीं जानती।"
+        ],
+        [
+          "क्योंकि सहिष्णुता कमज़ोरी नहीं,",
+          "वह साहस है",
+          "किसी की ओर सहायता का हाथ बढ़ाने का,",
+          "जब घृणा तुम्हें मुँह फेरने का आदेश दे।"
+        ],
+        [
+          "क्योंकि युद्ध नहीं लड़े जाते",
+          "केवल बमों और गोलियों से—",
+          "वे चुपचाप बढ़ते हैं, अंकुरित होते हैं",
+          "समानुभूति से किए गए छोटे-से विश्वासघात में।"
+        ],
+        [
+          "और किसी भी युग की सबसे सच्ची विजय",
+          "वह भूमि नहीं जिसे हम जीत लेते हैं,",
+          "बल्कि वह भयानक घृणा है",
+          "जिसे अपनाने से हम इनकार करते हैं।"
+        ],
+        [
+          "तो जब तोपें फिर आकाश चीरें,",
+          "हम धीरे से उत्तर दें—",
+          "उन हृदयों से जो दया चुनते हैं,",
+          "घृणा की झूठी विजय के बजाय!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 751,
+    "target": "or",
+    "reason": "Restore signing rather than merely writing names.",
+    "reading_evidence": "Read entire eleven-line source and both targets: signing names on decorated evening, vows reeling within, promises circling havan, clamouring blessings; contrastive truth sleeping apart, naked under rug. Preserve marital/ceremonial irony, concealment and withheld explanation.",
+    "open_questions": [
+      "Source embellish eve is grammatically irregular; decorated evening retained provisionally. Within leaves its container unspecified. No invented legal document or explanation of the hidden truth."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Signature carries the opening act and its contrast with concealed truth; names are implicit in signing, and no document is invented.",
+    "full_source_target_read": true,
+    "source_sha256": "74b7b7d812cc2e0b2896ee0f7dbad7e95e79815f438390e7cf6c1a9eac1ea009",
+    "before_sha256": "2d6fb46cba25299e8efa03c424d2a4e84eee9604855d293f701f75cd39bdd7f6",
+    "after_sha256": "43df1fe10391996e915b46b654d2dcebb8847bf60184a77e83731f268ec72d4c",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ବିବାହ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ସେମାନେ ନିଜ ନାମ ଲେଖିଲେ",
+          "ଏକ ସଜାହୋଇଥିବା ସନ୍ଧ୍ୟାରେ:",
+          "ଚିରକାଳର ପ୍ରତିଜ୍ଞା",
+          "ଭିତରେ ଘୂରିବୁଲୁଥିଲା।",
+          "ପ୍ରତିଶ୍ରୁତି ଚକ୍ର କାଟୁଥିଲା",
+          "ଭବ୍ୟ ହୋମର ଚାରିପାଖେ:",
+          "ଆଶୀର୍ବାଦର କୋଳାହଳ,",
+          "କିନ୍ତୁ ସତ୍ୟ",
+          "ଅଲଗା ଶୋଇଥିଲା,",
+          "ସବୁଥର ପରି ନିର୍ବସ୍ତ୍ର,",
+          "ଏକ ଗାଲିଚା ତଳେ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ବିବାହ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ସେମାନେ ଦସ୍ତଖତ କଲେ",
+          "ଏକ ସଜାହୋଇଥିବା ସନ୍ଧ୍ୟାରେ:",
+          "ଚିରକାଳର ପ୍ରତିଜ୍ଞା",
+          "ଭିତରେ ଘୂରିବୁଲୁଥିଲା।",
+          "ପ୍ରତିଶ୍ରୁତି ଚକ୍ର କାଟୁଥିଲା",
+          "ଭବ୍ୟ ହୋମର ଚାରିପାଖେ:",
+          "ଆଶୀର୍ବାଦର କୋଳାହଳ,",
+          "କିନ୍ତୁ ସତ୍ୟ",
+          "ଅଲଗା ଶୋଇଥିଲା,",
+          "ସବୁଥର ପରି ନିର୍ବସ୍ତ୍ର,",
+          "ଏକ ଗାଲିଚା ତଳେ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 751,
+    "target": "hi",
+    "reason": "Restore signing rather than merely writing names.",
+    "reading_evidence": "Read entire eleven-line source and both targets: signing names on decorated evening, vows reeling within, promises circling havan, clamouring blessings; contrastive truth sleeping apart, naked under rug. Preserve marital/ceremonial irony, concealment and withheld explanation.",
+    "open_questions": [
+      "Source embellish eve is grammatically irregular; decorated evening retained provisionally. Within leaves its container unspecified. No invented legal document or explanation of the hidden truth."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Signature preserves the opening act while leaving the legal/ceremonial document unspecified.",
+    "full_source_target_read": true,
+    "source_sha256": "74b7b7d812cc2e0b2896ee0f7dbad7e95e79815f438390e7cf6c1a9eac1ea009",
+    "before_sha256": "dc72f8e28a6a25733bb0c05e72b2821a3d5909cd49cd4deb6b556a2a0c4d6f59",
+    "after_sha256": "4b75f027aa57186073aa5f649cdbfe6dae244ed4a896284577699ec883f80b9e",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "विवाह",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "उन्होंने अपने नाम लिखे",
+          "एक सजी हुई संध्या में:",
+          "अनंत साथ की प्रतिज्ञाएँ",
+          "भीतर घूमती रहीं।",
+          "वचन चक्कर काटते रहे",
+          "भव्य हवन के चारों ओर:",
+          "आशीर्वादों का कोलाहल,",
+          "पर सत्य",
+          "अलग सोता रहा,",
+          "हमेशा की तरह निर्वस्त्र,",
+          "एक गलीचे के नीचे।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "विवाह",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "उन्होंने हस्ताक्षर किए",
+          "एक सजी हुई संध्या में:",
+          "अनंत साथ की प्रतिज्ञाएँ",
+          "भीतर घूमती रहीं।",
+          "वचन चक्कर काटते रहे",
+          "भव्य हवन के चारों ओर:",
+          "आशीर्वादों का कोलाहल,",
+          "पर सत्य",
+          "अलग सोता रहा,",
+          "हमेशा की तरह निर्वस्त्र,",
+          "एक गलीचे के नीचे।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

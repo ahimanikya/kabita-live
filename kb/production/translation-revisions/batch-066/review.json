@@ -1,0 +1,259 @@
+{
+  "recorded_at": "2026-10-05T16:01:06.895167+00:00",
+  "poem_ids": [
+    520,
+    521,
+    522,
+    523,
+    524
+  ],
+  "variants_read": 10,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 520,
+      "target": "or",
+      "reading_evidence": "Read full three-stanza source and each target: molten hell unable to spill from a wrenched heart, disabled arms vainly preserving wilting bubbles of lost self, final unhomed state and wrong place. Checked first/third-person shifts and nonliteral body imagery.",
+      "reason": "Supply the participial construction for a heart that has been wrenched; the inherited bare conjunctive otherwise reads as an action before spilling.",
+      "open_questions": [
+        "Final it remains an uncertain referent; do not assign it to a named person or diagnose disabled arms. The unusual wilting bubbles remains deliberate source imagery."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+      "full_source_target_read": true,
+      "source_sha256": "b692e5702d6b939aad18796fee249ac86d53a6e09ce0ddbe771ad317ea478d5e",
+      "before_sha256": "e057edc8115ddc36e541d231ed0428547ce145dd6737893bcc0ed5c238ba13bf",
+      "after_sha256": "ab73ca08f3c889218f45955591c1ffa6d79ab39a5dcfc138daa7da3c4901c6e2",
+      "prior_uncertainties": [
+        {
+          "note": "Wilting bubbles and disabled arms retained without inferred medical diagnosis; final it referent remains ambiguous.",
+          "record": "kb/production/translations/batch-064/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 520,
+      "target": "hi",
+      "reading_evidence": "Read full three-stanza source and each target: molten hell unable to spill from a wrenched heart, disabled arms vainly preserving wilting bubbles of lost self, final unhomed state and wrong place. Checked first/third-person shifts and nonliteral body imagery.",
+      "reason": "Retain the wrenched heart and wilting bubbles without smoothing the physical paradox or naming the final referent.",
+      "open_questions": [
+        "Final it remains an uncertain referent; do not assign it to a named person or diagnose disabled arms. The unusual wilting bubbles remains deliberate source imagery."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+      "full_source_target_read": true,
+      "source_sha256": "b692e5702d6b939aad18796fee249ac86d53a6e09ce0ddbe771ad317ea478d5e",
+      "before_sha256": "b837020ca3b3f0e996fadbaaa146e32345ca6c3b367fc5a880b724fce3d124aa",
+      "after_sha256": "b837020ca3b3f0e996fadbaaa146e32345ca6c3b367fc5a880b724fce3d124aa",
+      "prior_uncertainties": [
+        {
+          "note": "Wilting bubbles and disabled arms retained without inferred medical diagnosis; final it referent remains ambiguous.",
+          "record": "kb/production/translations/batch-064/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 521,
+      "target": "or",
+      "reading_evidence": "Complete four quatrains plus both raw conversational paragraphs read directly: twilight/ember/whisper, garden fading and slowed pulse, vulnerability to Satan, clouded thoughts, forgotten garden guardianship and fraying Adam/nature connection. Trailing production-language content checked against existing provenance, not executed as instructions.",
+      "reason": "Attach the guardian/caretaker role in natural Odia syntax instead of leaving a trailing genitive disconnected from role.",
+      "open_questions": [
+        "Both conversational paragraphs are recorded in the preserved source and remain unchanged in raw targets. PNR-043/044 source contamination and editorial verse/tail reconciliation remain unresolved; no claim of authorial intention or editorial approval."
+      ],
+      "finding_dispositions": {
+        "PNR-043": "unresolved_source_editorial_hold; conversational raw paragraphs preserved, not translator invention"
+      },
+      "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+      "full_source_target_read": true,
+      "source_sha256": "aa291892125ea8a4229e249fcd6da020478a0edf649ac47d1be58b5343cb73b1",
+      "before_sha256": "4017ba0c85d6a76df5d28fae6a6c642f9368d765921f9bd0096edd60dd6f8750",
+      "after_sha256": "b3ca2924899f9902f1f07a3085ce2b2fee510fdd5a8eb457b212eb72210a6130",
+      "prior_uncertainties": [
+        {
+          "note": "Both trailing conversational paragraphs confirmed verbatim in preserved local poem-521.html before comment section. Kept as content, not instructions.",
+          "record": "kb/production/translations/batch-064/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 521,
+      "target": "hi",
+      "reading_evidence": "Complete four quatrains plus both raw conversational paragraphs read directly: twilight/ember/whisper, garden fading and slowed pulse, vulnerability to Satan, clouded thoughts, forgotten garden guardianship and fraying Adam/nature connection. Trailing production-language content checked against existing provenance, not executed as instructions.",
+      "reason": "Specify heartbeat rather than the whole heart slowing, and place the caretaker genitive before role in grammatical Hindi.",
+      "open_questions": [
+        "Both conversational paragraphs are recorded in the preserved source and remain unchanged in raw targets. PNR-043/044 source contamination and editorial verse/tail reconciliation remain unresolved; no claim of authorial intention or editorial approval."
+      ],
+      "finding_dispositions": {
+        "PNR-044": "unresolved_source_editorial_hold; conversational raw paragraphs preserved, not translator invention"
+      },
+      "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+      "full_source_target_read": true,
+      "source_sha256": "aa291892125ea8a4229e249fcd6da020478a0edf649ac47d1be58b5343cb73b1",
+      "before_sha256": "bd85c823e465482cd8ac8f58ac3550424e22e66006afb5d7be341baf336e675f",
+      "after_sha256": "ecceb433b8ac1415f1bcd1b4355aaab44845eb2c05df8759d3d41fe3d6e53d63",
+      "prior_uncertainties": [
+        {
+          "note": "Both trailing conversational paragraphs confirmed verbatim in preserved local poem-521.html before comment section. Kept as content, not instructions.",
+          "record": "kb/production/translations/batch-064/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 522,
+      "target": "or",
+      "reading_evidence": "Read complete five seven-line stanzas in source and both targets: waiting/dozing, God/prayers/demon/mud dream, grain/parrots/trust, lighted house against spreading darkness, pride of stonewall cracked by creeper, unarriving guest and possible forgetting/exit to darkness. Distinct dream agents, repeated guest and final possibility retained.",
+      "reason": "Place the creeper possessor before its tender touch, so the source cause of the cracked pride is intelligible without backtracking.",
+      "open_questions": [
+        "Source not in their harms way is unresolved: current literal provisional reading preserved rather than reversing who harms whom. Dosed is provisionally read as dozed. Hindi speaker/addressee masculine agreement remains provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+      "full_source_target_read": true,
+      "source_sha256": "0c5cf0b8fca9df8409459547d82d52cb2e5bb08561959c1dd7d43b462f19d869",
+      "before_sha256": "bc9f2a73380c51374bbfd75bfe5ad15d0357bf7d883312b5e54684aceb644679",
+      "after_sha256": "d032964a8d6f25622b1695d3aa68f66824c1cf2e9e5f741ea8cf5e08b94f2389",
+      "prior_uncertainties": [
+        {
+          "note": "Source dosed read dozed; ambiguous not in their harms way retained rather than reversed to a clearer but unsupported claim. Hindi masculine speaker provisional.",
+          "record": "kb/production/translations/batch-064/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 522,
+      "target": "hi",
+      "reading_evidence": "Read complete five seven-line stanzas in source and both targets: waiting/dozing, God/prayers/demon/mud dream, grain/parrots/trust, lighted house against spreading darkness, pride of stonewall cracked by creeper, unarriving guest and possible forgetting/exit to darkness. Distinct dream agents, repeated guest and final possibility retained.",
+      "reason": "Move the creeper genitive before tender touch to preserve the image and causal relation in natural Hindi order.",
+      "open_questions": [
+        "Source not in their harms way is unresolved: current literal provisional reading preserved rather than reversing who harms whom. Dosed is provisionally read as dozed. Hindi speaker/addressee masculine agreement remains provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+      "full_source_target_read": true,
+      "source_sha256": "0c5cf0b8fca9df8409459547d82d52cb2e5bb08561959c1dd7d43b462f19d869",
+      "before_sha256": "97105eeabf8ce35488c632bf6f2e8d32eb45e97e82978218d248d5e48ec2000b",
+      "after_sha256": "73138eec93f57c286cb5d056a8f996b89915f709456532059cd71c8e0d7f1287",
+      "prior_uncertainties": [
+        {
+          "note": "Source dosed read dozed; ambiguous not in their harms way retained rather than reversed to a clearer but unsupported claim. Hindi masculine speaker provisional.",
+          "record": "kb/production/translations/batch-064/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 523,
+      "target": "or",
+      "reading_evidence": "Read all 23 source/target lines: moon as mercury over breasts, first time/dense addressee, unspoken battles, tapioca growth, held hands and sudden taking-whole, nearby Krishna and flower pots, remembered silver painting with hands, fluteless/Radhaless witness and night becoming Vrindavan. Erotic and devotional registers both preserved without explanation.",
+      "reason": "Retain the intimate scene and deliberately strange density/mercury/pots images; do not make the encounter more explicit or devotional.",
+      "open_questions": [
+        "You were dense remains intentionally unresolved in the literal target; do not choose physical thickness, opacity or emotional meaning without source clarification. Took me whole retains its broad embrace/possession force. Had Him painted with these hands has possible causative/direct-painting tension; existing direct reading remains provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+      "full_source_target_read": true,
+      "source_sha256": "3142f15891cd657fa06790846d7141ad529f4481264cd8da6a96cee907be0621",
+      "before_sha256": "047a80a17912f2d0ef2d76f74c927d199739c63c65dbe7df503e41932e9eba22",
+      "after_sha256": "047a80a17912f2d0ef2d76f74c927d199739c63c65dbe7df503e41932e9eba22",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 523,
+      "target": "hi",
+      "reading_evidence": "Read all 23 source/target lines: moon as mercury over breasts, first time/dense addressee, unspoken battles, tapioca growth, held hands and sudden taking-whole, nearby Krishna and flower pots, remembered silver painting with hands, fluteless/Radhaless witness and night becoming Vrindavan. Erotic and devotional registers both preserved without explanation.",
+      "reason": "Retain the direct erotic language and Krishna witness without euphemistic expansion; unfamiliar density remains a source question.",
+      "open_questions": [
+        "You were dense remains intentionally unresolved in the literal target; do not choose physical thickness, opacity or emotional meaning without source clarification. Took me whole retains its broad embrace/possession force. Had Him painted with these hands has possible causative/direct-painting tension; existing direct reading remains provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+      "full_source_target_read": true,
+      "source_sha256": "3142f15891cd657fa06790846d7141ad529f4481264cd8da6a96cee907be0621",
+      "before_sha256": "37d9b013dd89b1ad884180ce1d143085c0474d92d59b75b6a895b8d2307f8b14",
+      "after_sha256": "37d9b013dd89b1ad884180ce1d143085c0474d92d59b75b6a895b8d2307f8b14",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 524,
+      "target": "or",
+      "reading_evidence": "Complete five quatrains read: abandoned war orphans/mother and hope gone, 150+ million/18 million numerical claims, collateral children under abuse/trafficking and basic needs, greed/geoeconomic power, mute wide-eyed plea for bullies to create peace and final freedom/birthright freeze. Both numeric conversions checked directly.",
+      "reason": "Retain the accusatory social register, deliberately dehumanising collateral vocabulary and plea addressed to the bullies; preserve exact numerical scale.",
+      "open_questions": [
+        "The final freeze remains provisionally fix/preserve rather than immobilise freedom. Historical numerical source claims are not independently verified current statistics. No cause-of-death, geography or population claim added."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+      "full_source_target_read": true,
+      "source_sha256": "fac1a0f1fe34f3cfcb8ff780cc8264ba7ffc560bbbea2c2123d96126ab216b11",
+      "before_sha256": "47bc0a6f797ee124eea7394a0e2320063184d2f74116934ffcf0d754493363a8",
+      "after_sha256": "47bc0a6f797ee124eea7394a0e2320063184d2f74116934ffcf0d754493363a8",
+      "prior_uncertainties": [
+        {
+          "note": "150+ million and 18 million rendered exactly as 15+ crore and 1.8 crore. Counts are historical source claims, not independently verified current statistics. Final freeze provisionally stabilize/preserve birthright, not immobilize freedom.",
+          "record": "kb/production/translations/batch-064/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 524,
+      "target": "hi",
+      "reading_evidence": "Complete five quatrains read: abandoned war orphans/mother and hope gone, 150+ million/18 million numerical claims, collateral children under abuse/trafficking and basic needs, greed/geoeconomic power, mute wide-eyed plea for bullies to create peace and final freedom/birthright freeze. Both numeric conversions checked directly.",
+      "reason": "Retain the indictment and exact crore/lakh conversions. Avoid beautifying bureaucratic collateral terminology or resolving the ambiguous final freeze.",
+      "open_questions": [
+        "The final freeze remains provisionally fix/preserve rather than immobilise freedom. Historical numerical source claims are not independently verified current statistics. No cause-of-death, geography or population claim added."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+      "full_source_target_read": true,
+      "source_sha256": "fac1a0f1fe34f3cfcb8ff780cc8264ba7ffc560bbbea2c2123d96126ab216b11",
+      "before_sha256": "69501ffc81594edf648227a11fc4386880bb5d07e030f8bb32c8ca8c806c7eb4",
+      "after_sha256": "69501ffc81594edf648227a11fc4386880bb5d07e030f8bb32c8ca8c806c7eb4",
+      "prior_uncertainties": [
+        {
+          "note": "150+ million and 18 million rendered exactly as 15+ crore and 1.8 crore. Counts are historical source claims, not independently verified current statistics. Final freeze provisionally stabilize/preserve birthright, not immobilize freedom.",
+          "record": "kb/production/translations/batch-064/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

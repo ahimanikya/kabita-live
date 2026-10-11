@@ -1,0 +1,446 @@
+[
+  {
+    "poem_id": 495,
+    "target": "or",
+    "reading_evidence": "Read all five verse stanzas plus complete Salabega/DIY footnote in source and both targets: naked deity/love/maverick versus sky clothing/fire kohl/challenged commands; Kabir cloth/Tuka hammock/Mira lullabies/Salabega cross-stitch; childhood toys/father dust silhouette and made-easy moksha courier delivering empty DIY kit; impassive Lord teasing jerk/Mona Lisa lesser puzzle/fig leaf; insecure deity/doppelganger/tongue-bite/shrunken Lord loved as naked toddler. Product joke, irreverence, all names and note content checked.",
+    "reason": "Remove the broken HTML token from the generated explanatory note, preserving its full content and source record.",
+    "open_questions": [
+      "Source broken br> remains untouched; only generated-target markup residue removed. The rebuke, bite-my-tongue image and figure of love as toddler remain unexpanded. Hindi masculine narrator remains provisional; source does not establish narrator sex."
+    ],
+    "finding_dispositions": {
+      "PNR-072": "fixed_target_markup_only_source_preserved"
+    },
+    "tradeoff": "Preserve source images, cultural anchors, repetitions, stanza/line counts and full notes. Same-assistant self-review; independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "a9dff480a3135509e289f3cd9e97bc5801bd8b71502f7a1001773c01b8e515ab",
+    "before_sha256": "36e4aea36fe086b4815f15944dc54ff92de1cbba7804a41b7eb4f57c9a5b7c0b",
+    "after_sha256": "637e3716ac705844ba73ffe56b70cb94b62271c56d1ba0f5f5e68f769f47dfc7",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଡିମିରି ପତ୍ର",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୋ ଈଶ୍ୱର କିଛି ପିନ୍ଧନ୍ତି ନାହିଁ।",
+          "ମୋ ପ୍ରେମ କିଛି ପିନ୍ଧେ ନାହିଁ।",
+          "ମୋ ଦେବାଳୟରେ ରହୁଥିବା",
+          "ସ୍ୱଚ୍ଛନ୍ଦ ଜଣକ କିଛି ପିନ୍ଧନ୍ତି ନାହିଁ।",
+          "ହେଲେ ମୁଁ ଆକାଶ ପିନ୍ଧେ, ମୋର ବସ୍ତ୍ର,",
+          "ନିଆଁ, ମୋ ଆଖିର କଜ୍ଜଳ।",
+          "ମୁଁ ଈଶ୍ୱରଙ୍କର ବି",
+          "ଅଲଙ୍ଘ୍ୟ ଆଦେଶକୁ ପ୍ରଶ୍ନ କରେ।"
+        ],
+        [
+          "କବୀରଙ୍କଠାରୁ ମୋ ଚାଦର ପାଇଁ ଟିକିଏ କପଡ଼ା ନେଲି,",
+          "ତୁକାଙ୍କଠାରୁ ମୋ ଦୋଳି ଝୁଲାଇବାର ଦଉଡ଼ି,",
+          "ମୀରାଙ୍କ ନାନାବାୟା ଗୀତ ମୋତେ ଗଭୀର ନିଦରେ ଶୁଆଏ,",
+          "ସାଲବେଗ* ମୋ ଭକ୍ତିରେ ଛକି ସିଲେଇ କଲେ।"
+        ],
+        [
+          "ମୁଁ ସ୍ମୃତିର ଗଳିରେ ବୁଲେ,",
+          "ସରଳତା ତଳେ ପୋତିଥିବା ଖେଳନା ଖୋଜି,",
+          "ଆମ ଗ୍ରାମୀଣ ମାଟିରେ। ମୁଁ ପ୍ରାୟ ଦେଖେ",
+          "ମୋ ବାପାଙ୍କ ଛାୟା ଧୂଳିର ଘୂର୍ଣ୍ଣିରୁ",
+          "ବାହାରି ଆସୁଛି।",
+          "ମୁଁ ଈଶ୍ୱରଙ୍କୁ ମୋକ୍ଷର ‘ସହଜ କରାଯାଇଥିବା’ କିଟ୍ ମାଗେ,",
+          "ପୁଣି ଚଳାଇବା, ଆନନ୍ଦ ନେବା ଓ ଆପଣାଇବାକୁ ପ୍ରସ୍ତୁତ।",
+          "କୁରିଅର୍ ପହଞ୍ଚାଇବାରେ କିଛି ଦୁଷ୍ଟାମି—",
+          "ମୋତେ ମିଳିଲା ଶୂନ୍ୟତାଭରା ‘ଡିଆଇୱାଇ’ କିଟ୍*।"
+        ],
+        [
+          "ମୋ ଦେବାଳୟରେ ସବୁବେଳେ ନିର୍ବିକାର ପ୍ରଭୁ",
+          "ଥଟ୍ଟା ପିନ୍ଧନ୍ତି, “ଠିକ୍ ହେଲା, ମୂର୍ଖ, ତୋର ଏହା ହିଁ ପ୍ରାପ୍ୟ।”",
+          "ଏ ପହେଳି ମୋନା ଲିସାକୁ",
+          "ଛୋଟ ପ୍ରହେଳିକା କରିଦିଏ, ତା'ର ଡିମିରି ପତ୍ର ଦିଶୁଛି।"
+        ],
+        [
+          "ସେ ସେତିକି ଅସୁରକ୍ଷିତ, ସେତିକି ଅନିଶ୍ଚିତ ଦିଶନ୍ତି,",
+          "ନିଜ ରହସ୍ୟମୟ ଅବତାରରେ, ପ୍ରାୟ ତା'ର ଅବିକଳ ପ୍ରତିରୂପ।",
+          "ମୁଁ ଜିଭ କାମୁଡ଼େ, “ଓହୋ, ପ୍ରଭୁ, ତୁମକୁ ଛୋଟ କରିଦେଲି।”",
+          "ହେଲେ ମୁଁ ତୁମକୁ ଲଙ୍ଗଳା, ଅସୁରକ୍ଷିତ କୁନି ପିଲା ପରି ଭଲପାଏ।"
+        ],
+        [
+          "(ସାଲବେଗ*—ପ୍ରଭୁ ଜଗନ୍ନାଥଙ୍କ ପରମ ଭକ୍ତ, ଜଣେ",
+          "ବ୍ରାହ୍ମଣ ମାଆ ଓ ମୁସଲମାନ ବାପାଙ୍କଠାରୁ ଜନ୍ମିତ, ସପ୍ତଦଶ ଶତାବ୍ଦୀର ପୁରୀର ଭକ୍ତିକବି br>। ଡିଆଇୱାଇ କିଟ୍* ହେଉଛି ଯନ୍ତ୍ରାଂଶର କିଟ୍, ଯାହାକୁ ‘ନିଜେ କରନ୍ତୁ’",
+          "ଅବା ଯାହାର ଯନ୍ତ୍ରାଂଶ ନିଜେ ଯୋଡ଼ନ୍ତୁ।)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଡିମିରି ପତ୍ର",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୋ ଈଶ୍ୱର କିଛି ପିନ୍ଧନ୍ତି ନାହିଁ।",
+          "ମୋ ପ୍ରେମ କିଛି ପିନ୍ଧେ ନାହିଁ।",
+          "ମୋ ଦେବାଳୟରେ ରହୁଥିବା",
+          "ସ୍ୱଚ୍ଛନ୍ଦ ଜଣକ କିଛି ପିନ୍ଧନ୍ତି ନାହିଁ।",
+          "ହେଲେ ମୁଁ ଆକାଶ ପିନ୍ଧେ, ମୋର ବସ୍ତ୍ର,",
+          "ନିଆଁ, ମୋ ଆଖିର କଜ୍ଜଳ।",
+          "ମୁଁ ଈଶ୍ୱରଙ୍କର ବି",
+          "ଅଲଙ୍ଘ୍ୟ ଆଦେଶକୁ ପ୍ରଶ୍ନ କରେ।"
+        ],
+        [
+          "କବୀରଙ୍କଠାରୁ ମୋ ଚାଦର ପାଇଁ ଟିକିଏ କପଡ଼ା ନେଲି,",
+          "ତୁକାଙ୍କଠାରୁ ମୋ ଦୋଳି ଝୁଲାଇବାର ଦଉଡ଼ି,",
+          "ମୀରାଙ୍କ ନାନାବାୟା ଗୀତ ମୋତେ ଗଭୀର ନିଦରେ ଶୁଆଏ,",
+          "ସାଲବେଗ* ମୋ ଭକ୍ତିରେ ଛକି ସିଲେଇ କଲେ।"
+        ],
+        [
+          "ମୁଁ ସ୍ମୃତିର ଗଳିରେ ବୁଲେ,",
+          "ସରଳତା ତଳେ ପୋତିଥିବା ଖେଳନା ଖୋଜି,",
+          "ଆମ ଗ୍ରାମୀଣ ମାଟିରେ। ମୁଁ ପ୍ରାୟ ଦେଖେ",
+          "ମୋ ବାପାଙ୍କ ଛାୟା ଧୂଳିର ଘୂର୍ଣ୍ଣିରୁ",
+          "ବାହାରି ଆସୁଛି।",
+          "ମୁଁ ଈଶ୍ୱରଙ୍କୁ ମୋକ୍ଷର ‘ସହଜ କରାଯାଇଥିବା’ କିଟ୍ ମାଗେ,",
+          "ପୁଣି ଚଳାଇବା, ଆନନ୍ଦ ନେବା ଓ ଆପଣାଇବାକୁ ପ୍ରସ୍ତୁତ।",
+          "କୁରିଅର୍ ପହଞ୍ଚାଇବାରେ କିଛି ଦୁଷ୍ଟାମି—",
+          "ମୋତେ ମିଳିଲା ଶୂନ୍ୟତାଭରା ‘ଡିଆଇୱାଇ’ କିଟ୍*।"
+        ],
+        [
+          "ମୋ ଦେବାଳୟରେ ସବୁବେଳେ ନିର୍ବିକାର ପ୍ରଭୁ",
+          "ଥଟ୍ଟା ପିନ୍ଧନ୍ତି, “ଠିକ୍ ହେଲା, ମୂର୍ଖ, ତୋର ଏହା ହିଁ ପ୍ରାପ୍ୟ।”",
+          "ଏ ପହେଳି ମୋନା ଲିସାକୁ",
+          "ଛୋଟ ପ୍ରହେଳିକା କରିଦିଏ, ତା'ର ଡିମିରି ପତ୍ର ଦିଶୁଛି।"
+        ],
+        [
+          "ସେ ସେତିକି ଅସୁରକ୍ଷିତ, ସେତିକି ଅନିଶ୍ଚିତ ଦିଶନ୍ତି,",
+          "ନିଜ ରହସ୍ୟମୟ ଅବତାରରେ, ପ୍ରାୟ ତା'ର ଅବିକଳ ପ୍ରତିରୂପ।",
+          "ମୁଁ ଜିଭ କାମୁଡ଼େ, “ଓହୋ, ପ୍ରଭୁ, ତୁମକୁ ଛୋଟ କରିଦେଲି।”",
+          "ହେଲେ ମୁଁ ତୁମକୁ ଲଙ୍ଗଳା, ଅସୁରକ୍ଷିତ କୁନି ପିଲା ପରି ଭଲପାଏ।"
+        ],
+        [
+          "(ସାଲବେଗ*—ପ୍ରଭୁ ଜଗନ୍ନାଥଙ୍କ ପରମ ଭକ୍ତ, ଜଣେ",
+          "ବ୍ରାହ୍ମଣ ମାଆ ଓ ମୁସଲମାନ ବାପାଙ୍କଠାରୁ ଜନ୍ମିତ, ସପ୍ତଦଶ ଶତାବ୍ଦୀର ପୁରୀର ଭକ୍ତିକବି। ଡିଆଇୱାଇ କିଟ୍* ହେଉଛି ଯନ୍ତ୍ରାଂଶର କିଟ୍, ଯାହାକୁ ‘ନିଜେ କରନ୍ତୁ’",
+          "ଅବା ଯାହାର ଯନ୍ତ୍ରାଂଶ ନିଜେ ଯୋଡ଼ନ୍ତୁ।)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 495,
+    "target": "hi",
+    "reading_evidence": "Read all five verse stanzas plus complete Salabega/DIY footnote in source and both targets: naked deity/love/maverick versus sky clothing/fire kohl/challenged commands; Kabir cloth/Tuka hammock/Mira lullabies/Salabega cross-stitch; childhood toys/father dust silhouette and made-easy moksha courier delivering empty DIY kit; impassive Lord teasing jerk/Mona Lisa lesser puzzle/fig leaf; insecure deity/doppelganger/tongue-bite/shrunken Lord loved as naked toddler. Product joke, irreverence, all names and note content checked.",
+    "reason": "Keep the consumer-product joke as a natural quoted Hindi product label; preserve specific cross-stitch rather than implying haphazard embroidery; remove target-only broken markup.",
+    "open_questions": [
+      "Source broken br> remains untouched; only generated-target markup residue removed. The rebuke, bite-my-tongue image and figure of love as toddler remain unexpanded. Hindi masculine narrator remains provisional; source does not establish narrator sex."
+    ],
+    "finding_dispositions": {
+      "PNR-073": "fixed_target_markup_only_source_preserved",
+      "PNR-074": "revised_product_label_preserving_moksha_kit_joke"
+    },
+    "tradeoff": "Preserve source images, cultural anchors, repetitions, stanza/line counts and full notes. Same-assistant self-review; independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "a9dff480a3135509e289f3cd9e97bc5801bd8b71502f7a1001773c01b8e515ab",
+    "before_sha256": "e58cdd5590b9a26997f98795271617801dd654bbf3bedf343e41338b22ddfa0a",
+    "after_sha256": "0f867813a58395cdcb62ff76d9493de3fe5ba641a15da70a1e4b5555b02dba42",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "अंजीर का पत्ता",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मेरा ईश्वर कुछ नहीं पहनता।",
+          "मेरा प्रेम कुछ नहीं पहनता।",
+          "मेरे देवालय में रहने वाला",
+          "वह स्वच्छंद कुछ नहीं पहनता।",
+          "लेकिन मैं आकाश पहनता हूँ, अपना वस्त्र,",
+          "आग, मेरी आँखों का काजल।",
+          "मैं ईश्वर के भी",
+          "अटल आदेशों पर सवाल उठाता हूँ।"
+        ],
+        [
+          "कबीर से मैंने अपनी चादर के लिए थोड़ा कपड़ा लिया,",
+          "तुका से अपना झूला टाँगने की रस्सियाँ,",
+          "मीरा की लोरियाँ मुझे गहरी नींद में सुलाती हैं,",
+          "सालबेग* ने मेरी भक्ति में आड़ी-तिरछी कढ़ाई की।"
+        ],
+        [
+          "मैं अपनी स्मृतियों की गलियों में भटकता हूँ,",
+          "वे खिलौने खोजता जिन्हें भोलेपन के नीचे दबाया था,",
+          "अपनी देहाती धरती में। अक्सर देखता हूँ",
+          "अपने पिता की छाया धूल के भँवरों से",
+          "बाहर आती हुई।",
+          "मैं ईश्वर से मोक्ष की ‘आसान बनाया गया’ किट माँगता हूँ,",
+          "फिर चलाने, आनंद लेने और अपनाने को तैयार।",
+          "कूरियर की सुपुर्दगी में कुछ शरारत हुई—",
+          "मुझे खालीपन से भरी ‘डीआईवाई’ किट* मिली।"
+        ],
+        [
+          "मेरे देवालय में सदा निर्विकार प्रभु",
+          "छेड़ते हैं, “अच्छा हुआ, मूर्ख, यही तुम्हारे लायक था।”",
+          "यह पहेली मोना लिसा को",
+          "छोटी पहेली बना देती है, उसका अंजीर का पत्ता दिखता है।"
+        ],
+        [
+          "वह उतने ही असुरक्षित, उतने ही अनिश्चित लगते हैं,",
+          "अपने रहस्यमय अवतार में, लगभग उसके हमशक्ल।",
+          "मैं अपनी जीभ काटता हूँ, “ओह, प्रभु, मैंने तुम्हें छोटा कर दिया।”",
+          "लेकिन मैं तुम्हें निर्वस्त्र, असुरक्षित नन्हे बच्चे की तरह प्यार करता हूँ।"
+        ],
+        [
+          "(सालबेग*—भगवान जगन्नाथ के अनन्य भक्त, एक",
+          "ब्राह्मण माँ और मुस्लिम पिता से जन्मे, सत्रहवीं शताब्दी ईस्वी में पुरी के भक्ति कवि br>। डीआईवाई किट* पुर्ज़ों की ऐसी किट है जिसे ‘स्वयं करें’",
+          "या जिसके पुर्ज़े स्वयं जोड़ें।)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "अंजीर का पत्ता",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मेरा ईश्वर कुछ नहीं पहनता।",
+          "मेरा प्रेम कुछ नहीं पहनता।",
+          "मेरे देवालय में रहने वाला",
+          "वह स्वच्छंद कुछ नहीं पहनता।",
+          "लेकिन मैं आकाश पहनता हूँ, अपना वस्त्र,",
+          "आग, मेरी आँखों का काजल।",
+          "मैं ईश्वर के भी",
+          "अटल आदेशों पर सवाल उठाता हूँ।"
+        ],
+        [
+          "कबीर से मैंने अपनी चादर के लिए थोड़ा कपड़ा लिया,",
+          "तुका से अपना झूला टाँगने की रस्सियाँ,",
+          "मीरा की लोरियाँ मुझे गहरी नींद में सुलाती हैं,",
+          "सालबेग* ने मेरी भक्ति पर क्रॉस-स्टिच के टाँके लगाए।"
+        ],
+        [
+          "मैं अपनी स्मृतियों की गलियों में भटकता हूँ,",
+          "वे खिलौने खोजता जिन्हें भोलेपन के नीचे दबाया था,",
+          "अपनी देहाती धरती में। अक्सर देखता हूँ",
+          "अपने पिता की छाया धूल के भँवरों से",
+          "बाहर आती हुई।",
+          "मैं ईश्वर से ‘मोक्ष हुआ आसान’ किट माँगता हूँ,",
+          "फिर चलाने, आनंद लेने और अपनाने को तैयार।",
+          "कूरियर की सुपुर्दगी में कुछ शरारत हुई—",
+          "मुझे खालीपन से भरी ‘डीआईवाई’ किट* मिली।"
+        ],
+        [
+          "मेरे देवालय में सदा निर्विकार प्रभु",
+          "छेड़ते हैं, “अच्छा हुआ, मूर्ख, यही तुम्हारे लायक था।”",
+          "यह पहेली मोना लिसा को",
+          "छोटी पहेली बना देती है, उसका अंजीर का पत्ता दिखता है।"
+        ],
+        [
+          "वह उतने ही असुरक्षित, उतने ही अनिश्चित लगते हैं,",
+          "अपने रहस्यमय अवतार में, लगभग उसके हमशक्ल।",
+          "मैं अपनी जीभ काटता हूँ, “ओह, प्रभु, मैंने तुम्हें छोटा कर दिया।”",
+          "लेकिन मैं तुम्हें निर्वस्त्र, असुरक्षित नन्हे बच्चे की तरह प्यार करता हूँ।"
+        ],
+        [
+          "(सालबेग*—भगवान जगन्नाथ के अनन्य भक्त, एक",
+          "ब्राह्मण माँ और मुस्लिम पिता से जन्मे, सत्रहवीं शताब्दी ईस्वी में पुरी के भक्ति कवि। डीआईवाई किट* पुर्ज़ों की ऐसी किट है जिसे ‘स्वयं करें’",
+          "या जिसके पुर्ज़े स्वयं जोड़ें।)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 486,
+    "target": "or",
+    "reading_evidence": "Read complete three source/target stanzas: day bleeding into day/robotic repetition/cold air/fetid space/no respite/cloud curse/bright day turning bleak; time and balmy/torrid contrast, unanswered why, slither/seatherny/doomed kite; long hair framing fine-boned face seeking slight air/fine drizzle/misty oeuvre/dawn songs/delight and beatific whispers. Source obscurities distinguished from clear bodily description.",
+    "reason": "Render the delicate facial structure as a natural face description and slight air as light gusts, rather than literal small bones and visual glimpses. Bone terminology is traded for the visible delicacy it conveys.",
+    "open_questions": [
+      "seatherny remains verbatim unresolved, not guessed as serenity. fessing up no palpable respite has uncertain syntax; current reading is provisional and not claimed repaired. sirimiri/fine drizzle and beatific remain prior provisional senses. Hindi feminine narrator is not established by source and remains held."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source images, cultural anchors, repetitions, stanza/line counts and full notes. Same-assistant self-review; independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "c5e3878da7525f1c2f81471be1c058235a952ddec29831f710afaaa3930f47ce",
+    "before_sha256": "118ec2c24e2bfb25647b162cd210be6a038a06b3be2344a94884b219d23933da",
+    "after_sha256": "274a3b27035622fad72c37f2f0cc206930a9dbc284b8fd1dd768623b159d9f3a",
+    "prior_uncertainties": [
+      {
+        "note": "All three stanzas retained. Unresolved seatherny token kept verbatim, not guessed as serenity. sirimiri interpreted as fine drizzle; aubade as dawn song, jouissance as delight. Idiom/native review needed, especially fessing up and seatherny.",
+        "record": "kb/production/translations/batch-073/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ମୋ କ୍ଷତିକୁ ନେଇ ମୁଁ ଶୋକ କରେ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଯେବେ ଗୋଟିଏ ଦିନ ଆଉ ଗୋଟିକରେ ରକ୍ତ ପରି ମିଶିଯାଏ,",
+          "ଯାନ୍ତ୍ରିକ ରୋବଟ୍‌ର ଅଭ୍ୟାସ ପରି,",
+          "ଜୀବନର ବେଢ଼ଙ୍ଗ, ଦୁର୍ଗନ୍ଧମୟ ସ୍ଥାନରେ ଶୀତଳ ପବନ ବହେ,",
+          "କୌଣସି ସ୍ପଷ୍ଟ ଆଶ୍ୱସ୍ତି ସ୍ୱୀକାର ନକରି;",
+          "କଳା ମେଘ ଘୂରିବୁଲେ",
+          "ବିଶାଳ ବିସ୍ତାରର ଇନ୍ଦ୍ରଧନୁରଙ୍ଗ ଉପରେ ଅଭିଶାପ ପରି,",
+          "ମୋ ଉଜ୍ଜ୍ୱଳ ଦିନ ଉନ୍ମତ୍ତ ବେଗରେ ବିଷଣ୍ଣ ରାତି ପାଲଟେ।"
+        ],
+        [
+          "କେତେ ଶୀଘ୍ର ସବୁ ବଦଳିଯାଏ",
+          "ସମୟର ଆଦେଶରେ!",
+          "ସେତେବେଳେ ତାହା ସୁଖଦ ଥିଲା, ଏବେ ଏହା ତପ୍ତ।",
+          "ହେଲେ ସବୁବେଳେ ମୋ ସହ ଏପରି କାହିଁକି ହୁଏ!",
+          "ମୁଁ ପ୍ରାୟ କିଛି ବୁଝିପାରେନାହିଁ, ବିଶ୍ୱାସ କର;",
+          "ସେଇ ଖସିବା ମୋତେ ‘seatherny’ଠାରୁ ଦୂରକୁ ନିଏ,",
+          "ଆଉ ମୁଁ ଅଭିଶପ୍ତ ଗୁଡ଼ି ପରି ତଳକୁ ଖସେ।"
+        ],
+        [
+          "ଲମ୍ବା ଲହରିଆ କେଶଘେରା ମୋ ସୂକ୍ଷ୍ମ ହାଡ଼ର ମୁହଁ",
+          "ପବନର ଛୋଟ ଝଲକରେ ସାନ୍ତ୍ୱନା ଖୋଜେ,",
+          "ଝିପିଝିପି ବର୍ଷା ଓ ପ୍ରକୃତିର କୁହୁଡ଼ିଢଙ୍କା ସୃଷ୍ଟିରେ ମଗ୍ନ ହେବାକୁ,",
+          "ଉଲ୍ଲାସର ପ୍ରଭାତୀ ଗୀତର କିଛି ଲୟ ଗୁଣୁଗୁଣେଇବାକୁ,",
+          "ପରମାନନ୍ଦର ଫୁସ୍‌ଫୁସ୍ ସ୍ୱରରେ ମୋ ଭୋରକୁ ସଜେଇବାକୁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ମୋ କ୍ଷତିକୁ ନେଇ ମୁଁ ଶୋକ କରେ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଯେବେ ଗୋଟିଏ ଦିନ ଆଉ ଗୋଟିକରେ ରକ୍ତ ପରି ମିଶିଯାଏ,",
+          "ଯାନ୍ତ୍ରିକ ରୋବଟ୍‌ର ଅଭ୍ୟାସ ପରି,",
+          "ଜୀବନର ବେଢ଼ଙ୍ଗ, ଦୁର୍ଗନ୍ଧମୟ ସ୍ଥାନରେ ଶୀତଳ ପବନ ବହେ,",
+          "କୌଣସି ସ୍ପଷ୍ଟ ଆଶ୍ୱସ୍ତି ସ୍ୱୀକାର ନକରି;",
+          "କଳା ମେଘ ଘୂରିବୁଲେ",
+          "ବିଶାଳ ବିସ୍ତାରର ଇନ୍ଦ୍ରଧନୁରଙ୍ଗ ଉପରେ ଅଭିଶାପ ପରି,",
+          "ମୋ ଉଜ୍ଜ୍ୱଳ ଦିନ ଉନ୍ମତ୍ତ ବେଗରେ ବିଷଣ୍ଣ ରାତି ପାଲଟେ।"
+        ],
+        [
+          "କେତେ ଶୀଘ୍ର ସବୁ ବଦଳିଯାଏ",
+          "ସମୟର ଆଦେଶରେ!",
+          "ସେତେବେଳେ ତାହା ସୁଖଦ ଥିଲା, ଏବେ ଏହା ତପ୍ତ।",
+          "ହେଲେ ସବୁବେଳେ ମୋ ସହ ଏପରି କାହିଁକି ହୁଏ!",
+          "ମୁଁ ପ୍ରାୟ କିଛି ବୁଝିପାରେନାହିଁ, ବିଶ୍ୱାସ କର;",
+          "ସେଇ ଖସିବା ମୋତେ ‘seatherny’ଠାରୁ ଦୂରକୁ ନିଏ,",
+          "ଆଉ ମୁଁ ଅଭିଶପ୍ତ ଗୁଡ଼ି ପରି ତଳକୁ ଖସେ।"
+        ],
+        [
+          "ଲମ୍ବା ଲହରିଆ କେଶଘେରା ମୋ ସୁକୁମାର ମୁହଁ",
+          "ପବନର ହାଲୁକା ଝୋକାରେ ସାନ୍ତ୍ୱନା ଖୋଜେ,",
+          "ଝିପିଝିପି ବର୍ଷା ଓ ପ୍ରକୃତିର କୁହୁଡ଼ିଢଙ୍କା ସୃଷ୍ଟିରେ ମଗ୍ନ ହେବାକୁ,",
+          "ଉଲ୍ଲାସର ପ୍ରଭାତୀ ଗୀତର କିଛି ଲୟ ଗୁଣୁଗୁଣେଇବାକୁ,",
+          "ପରମାନନ୍ଦର ଫୁସ୍‌ଫୁସ୍ ସ୍ୱରରେ ମୋ ଭୋରକୁ ସଜେଇବାକୁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 486,
+    "target": "hi",
+    "reading_evidence": "Read complete three source/target stanzas: day bleeding into day/robotic repetition/cold air/fetid space/no respite/cloud curse/bright day turning bleak; time and balmy/torrid contrast, unanswered why, slither/seatherny/doomed kite; long hair framing fine-boned face seeking slight air/fine drizzle/misty oeuvre/dawn songs/delight and beatific whispers. Source obscurities distinguished from clear bodily description.",
+    "reason": "Restore fine-boned as delicate facial features rather than an anatomical description; title now names the speaker’s loss rather than ambiguously the speaker becoming lost.",
+    "open_questions": [
+      "seatherny remains verbatim unresolved, not guessed as serenity. fessing up no palpable respite has uncertain syntax; current reading is provisional and not claimed repaired. sirimiri/fine drizzle and beatific remain prior provisional senses. Hindi feminine narrator is not established by source and remains held."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source images, cultural anchors, repetitions, stanza/line counts and full notes. Same-assistant self-review; independent review pending.",
+    "full_source_target_read": true,
+    "title_after": "मैं अपनी क्षति का शोक मनाती हूँ",
+    "source_sha256": "c5e3878da7525f1c2f81471be1c058235a952ddec29831f710afaaa3930f47ce",
+    "before_sha256": "62c231799273ab183c0001b7013f26085ec4f8bcf138502d158549fd80d53c16",
+    "after_sha256": "200b589922a7add5ada951b2356d4a084969f1d306ce92715232ae4fdf56ffd3",
+    "prior_uncertainties": [
+      {
+        "note": "All three stanzas retained. Unresolved seatherny token kept verbatim, not guessed as serenity. sirimiri interpreted as fine drizzle; aubade as dawn song, jouissance as delight. Idiom/native review needed, especially fessing up and seatherny.",
+        "record": "kb/production/translations/batch-073/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "मैं अपने खोने का शोक मनाती हूँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जब एक दिन अगले में रिसता जाता है,",
+          "किसी यांत्रिक रोबोटिक अभ्यास की तरह,",
+          "जीवन की बेढंगी, दुर्गंधभरी जगह में ठंडी हवा बहती है,",
+          "कोई ठोस राहत स्वीकार न करती हुई;",
+          "काले बादल मँडराते हैं",
+          "विस्तृत फैलाव के इंद्रधनुषी रंगों पर, अभिशाप की तरह,",
+          "मेरा उजला दिन उन्मत्त वेग से उदास रात बन जाता है।"
+        ],
+        [
+          "कितनी जल्दी चीज़ें बदलती हैं",
+          "समय के आदेश पर!",
+          "वह तब सुहावना था और यह इन दिनों तपता हुआ है।",
+          "लेकिन मेरे साथ हर बार ऐसा क्यों होता है!",
+          "मैं कमोबेश अनजान हूँ, विश्वास करो;",
+          "वह फिसलन मुझे ‘seatherny’ से दूर ले जाती है,",
+          "और मैं अभिशप्त पतंग की तरह नीचे गिरती हूँ।"
+        ],
+        [
+          "लंबे लहराते बालों से घिरा मेरा नाज़ुक हड्डियों वाला चेहरा",
+          "हवा के छोटे झोंकों में सांत्वना खोजता है,",
+          "महीन फुहार और प्रकृति की धुँध ओढ़ी रचना में मग्न होने को,",
+          "उल्लास के प्रभातगीत की कुछ लय गुनगुनाने को,",
+          "आनंदमय की फुसफुसाहटों में अपनी भोर सजाने को।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "मैं अपनी क्षति का शोक मनाती हूँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जब एक दिन अगले में रिसता जाता है,",
+          "किसी यांत्रिक रोबोटिक अभ्यास की तरह,",
+          "जीवन की बेढंगी, दुर्गंधभरी जगह में ठंडी हवा बहती है,",
+          "कोई ठोस राहत स्वीकार न करती हुई;",
+          "काले बादल मँडराते हैं",
+          "विस्तृत फैलाव के इंद्रधनुषी रंगों पर, अभिशाप की तरह,",
+          "मेरा उजला दिन उन्मत्त वेग से उदास रात बन जाता है।"
+        ],
+        [
+          "कितनी जल्दी चीज़ें बदलती हैं",
+          "समय के आदेश पर!",
+          "वह तब सुहावना था और यह इन दिनों तपता हुआ है।",
+          "लेकिन मेरे साथ हर बार ऐसा क्यों होता है!",
+          "मैं कमोबेश अनजान हूँ, विश्वास करो;",
+          "वह फिसलन मुझे ‘seatherny’ से दूर ले जाती है,",
+          "और मैं अभिशप्त पतंग की तरह नीचे गिरती हूँ।"
+        ],
+        [
+          "लंबे लहराते बालों से घिरा मेरा नाज़ुक नैन-नक्श वाला चेहरा",
+          "हवा के छोटे झोंकों में सांत्वना खोजता है,",
+          "महीन फुहार और प्रकृति की धुँध ओढ़ी रचना में मग्न होने को,",
+          "उल्लास के प्रभातगीत की कुछ लय गुनगुनाने को,",
+          "आनंदमय की फुसफुसाहटों में अपनी भोर सजाने को।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

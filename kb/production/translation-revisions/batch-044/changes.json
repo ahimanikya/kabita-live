@@ -1,0 +1,652 @@
+[
+  {
+    "poem_id": 614,
+    "target": "or",
+    "reading_evidence": "Read all five source/target stanzas: sleeping in Mother’s lap without sleep, her silence and absent lullaby, laughing flowers and vanished butterflies, blood and culpability, children as her regrets/sorrows, Gaza/Ukraine/Murshidabad cries explaining silence, and the final shameless sleep with open eyes while silence may last forever. Preserved the collective indictment and paradox rather than treating sleep as a factual inconsistency.",
+    "reason": "In this indictment, बेधड़क describes untroubled indifference. Replace fearlessly with without a care so the continued sleep is not mistaken for courage.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "The target loses the positive implication of fearlessness and retains the collective failure to respond; no identity for Mother or historical fact is supplied.",
+    "full_source_target_read": true,
+    "source_sha256": "83cb71f87cf0b315fe696bd6d60b1036a7e0e8a379ba3ad3cc21cafaac010cc4",
+    "before_sha256": "0df75a43743d56c7f7af5f01b96846c7082229fd66fa028d2d9cc2bf2d32a48d",
+    "after_sha256": "e16efe450e5b59b11a6fbb0a524cfed71a6d4b011bdaf591f3a6f280d19c7e5e",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ସୁଷୁପ୍ତି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଆମେ ଏବେ ବି ଶୋଇଛୁ,",
+          "ତୁମ କୋଳରେ ମାଆ,",
+          "କିନ୍ତୁ ନିଦ ଆସୁନି।",
+          "ତୁମେ ଏତେ ଚୁପ୍ କାହିଁକି ମାଆ,",
+          "ନାନାବାୟା ବି ଗାଉନାହଁ?"
+        ],
+        [
+          "କ'ଣ ହୋଇଗଲା,",
+          "ସେ ଖିଲିଖିଲି ହସୁଥିବା ଫୁଲଙ୍କର?",
+          "କୁଆଡ଼େ ଗଲେ ସେ ପ୍ରଜାପତିମାନେ?",
+          "ରକ୍ତରେ ଲହୁଲୁହାଣ ତୁମ ମାଟି,",
+          "କାହାର ଏ ଭୁଲ୍?"
+        ],
+        [
+          "ତୁମେ ହିଁ ଆମକୁ ଜନ୍ମ ଦେଇଛ,",
+          "ତୁମରି ସନ୍ତାନ ଆମେ।",
+          "କିନ୍ତୁ ଭାଗ୍ୟ ଦେଖ,",
+          "ଆମେ ହିଁ ତୁମ ଅନୁତାପ,",
+          "ଆମେ ହିଁ ତୁମ ଦୁଃଖ!"
+        ],
+        [
+          "ଗାଜାର ଗଳିର ଚିତ୍କାର,",
+          "ତ୍ରସ୍ତ ୟୁକ୍ରେନ୍‌ର ଅସହାୟତା,",
+          "ମୁର୍ଶିଦାବାଦର ଆର୍ତ୍ତନାଦ,",
+          "କହିଦିଏ,",
+          "ତୁମ ନୀରବତାର କାରଣ!"
+        ],
+        [
+          "ଆମେ ନିର୍ଭୟରେ ଶୋଇରହିବୁ,",
+          "ଗଭୀର ନିଦରେ,",
+          "କିନ୍ତୁ ଆଖି ଖୋଲା ଥିବ,",
+          "ଆଉ ହୁଏତ ତୁମ ନୀରବତା,",
+          "ଜାରି ରହିବ,",
+          "ସବୁଦିନ ପାଇଁ!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ସୁଷୁପ୍ତି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଆମେ ଏବେ ବି ଶୋଇଛୁ,",
+          "ତୁମ କୋଳରେ ମାଆ,",
+          "କିନ୍ତୁ ନିଦ ଆସୁନି।",
+          "ତୁମେ ଏତେ ଚୁପ୍ କାହିଁକି ମାଆ,",
+          "ନାନାବାୟା ବି ଗାଉନାହଁ?"
+        ],
+        [
+          "କ'ଣ ହୋଇଗଲା,",
+          "ସେ ଖିଲିଖିଲି ହସୁଥିବା ଫୁଲଙ୍କର?",
+          "କୁଆଡ଼େ ଗଲେ ସେ ପ୍ରଜାପତିମାନେ?",
+          "ରକ୍ତରେ ଲହୁଲୁହାଣ ତୁମ ମାଟି,",
+          "କାହାର ଏ ଭୁଲ୍?"
+        ],
+        [
+          "ତୁମେ ହିଁ ଆମକୁ ଜନ୍ମ ଦେଇଛ,",
+          "ତୁମରି ସନ୍ତାନ ଆମେ।",
+          "କିନ୍ତୁ ଭାଗ୍ୟ ଦେଖ,",
+          "ଆମେ ହିଁ ତୁମ ଅନୁତାପ,",
+          "ଆମେ ହିଁ ତୁମ ଦୁଃଖ!"
+        ],
+        [
+          "ଗାଜାର ଗଳିର ଚିତ୍କାର,",
+          "ତ୍ରସ୍ତ ୟୁକ୍ରେନ୍‌ର ଅସହାୟତା,",
+          "ମୁର୍ଶିଦାବାଦର ଆର୍ତ୍ତନାଦ,",
+          "କହିଦିଏ,",
+          "ତୁମ ନୀରବତାର କାରଣ!"
+        ],
+        [
+          "ଆମେ ବିନା ଚିନ୍ତାରେ ଶୋଇରହିବୁ,",
+          "ଗଭୀର ନିଦରେ,",
+          "କିନ୍ତୁ ଆଖି ଖୋଲା ଥିବ,",
+          "ଆଉ ହୁଏତ ତୁମ ନୀରବତା,",
+          "ଜାରି ରହିବ,",
+          "ସବୁଦିନ ପାଇଁ!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 614,
+    "target": "en",
+    "reading_evidence": "Read all five source/target stanzas: sleeping in Mother’s lap without sleep, her silence and absent lullaby, laughing flowers and vanished butterflies, blood and culpability, children as her regrets/sorrows, Gaza/Ukraine/Murshidabad cries explaining silence, and the final shameless sleep with open eyes while silence may last forever. Preserved the collective indictment and paradox rather than treating sleep as a factual inconsistency.",
+    "reason": "Use a natural English predicate for बयान करता है; speak the reason is an introduced calque. Keep the three place-linked cries as the explaining subject.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Revealing remains the work of the cries, not an added narrator explanation; stanza and line counts unchanged.",
+    "full_source_target_read": true,
+    "source_sha256": "83cb71f87cf0b315fe696bd6d60b1036a7e0e8a379ba3ad3cc21cafaac010cc4",
+    "before_sha256": "a906faa8033489a108e9161538c808fe49623ec9278acd913bdce1c04cc6e82a",
+    "after_sha256": "ded7dfd34f7a9a430898d9b206a17a51a49cff4b899a090d6680faca06a12055",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Deep Slumber",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "We still lie sleeping",
+          "in your lap, Mother,",
+          "yet sleep does not come.",
+          "Why are you so silent, Mother,",
+          "why do you not sing a lullaby?"
+        ],
+        [
+          "What has happened",
+          "to those laughing flowers?",
+          "Where have those butterflies gone?",
+          "Your earth is drenched in blood—",
+          "whose wrongs are these?"
+        ],
+        [
+          "You alone gave us birth,",
+          "we are your children.",
+          "But look at our fate:",
+          "we ourselves are your regrets,",
+          "we ourselves your sorrows!"
+        ],
+        [
+          "The scream from Gaza's lanes,",
+          "the helplessness of stricken Ukraine,",
+          "the lament of Murshidabad",
+          "speak",
+          "the reason for your silence!"
+        ],
+        [
+          "We will keep sleeping without a care,",
+          "in deep sleep,",
+          "but our eyes will be open,",
+          "and perhaps your silence",
+          "will continue",
+          "forever!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Deep Slumber",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "We still lie sleeping",
+          "in your lap, Mother,",
+          "yet sleep does not come.",
+          "Why are you so silent, Mother,",
+          "why do you not sing a lullaby?"
+        ],
+        [
+          "What has happened",
+          "to those laughing flowers?",
+          "Where have those butterflies gone?",
+          "Your earth is drenched in blood—",
+          "whose wrongs are these?"
+        ],
+        [
+          "You alone gave us birth,",
+          "we are your children.",
+          "But look at our fate:",
+          "we ourselves are your regrets,",
+          "we ourselves your sorrows!"
+        ],
+        [
+          "The scream from Gaza's lanes,",
+          "the helplessness of stricken Ukraine,",
+          "the lament of Murshidabad",
+          "reveal",
+          "the reason for your silence!"
+        ],
+        [
+          "We will keep sleeping without a care,",
+          "in deep sleep,",
+          "but our eyes will be open,",
+          "and perhaps your silence",
+          "will continue",
+          "forever!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 636,
+    "target": "en",
+    "reading_evidence": "Read both complete twenty-line stanzas: refusal of chiming bangles then tinkling anklets, their repeated binding/bonds feeling, request for roses then tuberoses, fragrance filling the inner self, and repeated consciousness of freedom. Retain the contrast and deliberately near-identical recurrence; no marriage or biographical circumstance is inferred.",
+    "reason": "Give the repeated request normal English verb/object order; To me, just give was an unnecessary inversion. Both complete refrains examined individually and changed consistently.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Retain bound/bonds and fragrance/scent repetition because those are in the source. No simplification of the repeated freedom ending or line-count change.",
+    "full_source_target_read": true,
+    "source_sha256": "6bdeebc98e723e3ae6158f0bea04083ebe83be7f52e9b47fb28ce5b96bced383",
+    "before_sha256": "9891b34243341b538de99a8cb64a2264269eade21bab84991f4ad372d0e6c8bb",
+    "after_sha256": "c99523646109b75bc029b15d76b3776e8a01b902daec36f974cc5b869b30ca76",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Tuberose",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Listen!",
+          "Do not give me,",
+          "in love,",
+          "chiming bangles.",
+          "They make me",
+          "feel",
+          "bound in bonds.",
+          "To me,",
+          "just give,",
+          "in love,",
+          "some fragrant",
+          "rose flowers,",
+          "whose fragrance",
+          "will fill with scent",
+          "my inner mind,",
+          "and let me",
+          "feel",
+          "a sense",
+          "of my own",
+          "freedom."
+        ],
+        [
+          "Listen!",
+          "Do not give me,",
+          "in love,",
+          "tinkling anklets.",
+          "They make me",
+          "feel",
+          "bound in bonds.",
+          "To me,",
+          "just give,",
+          "in love,",
+          "some fragrant",
+          "tuberose flowers,",
+          "whose fragrance",
+          "will fill with scent",
+          "my inner mind,",
+          "and let me",
+          "feel",
+          "a sense",
+          "of my own",
+          "freedom."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Tuberose",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Listen!",
+          "Do not give me,",
+          "in love,",
+          "chiming bangles.",
+          "They make me",
+          "feel",
+          "bound in bonds.",
+          "You need only",
+          "give me,",
+          "in love,",
+          "some fragrant",
+          "rose flowers,",
+          "whose fragrance",
+          "will fill with scent",
+          "my inner mind,",
+          "and let me",
+          "feel",
+          "a sense",
+          "of my own",
+          "freedom."
+        ],
+        [
+          "Listen!",
+          "Do not give me,",
+          "in love,",
+          "tinkling anklets.",
+          "They make me",
+          "feel",
+          "bound in bonds.",
+          "You need only",
+          "give me,",
+          "in love,",
+          "some fragrant",
+          "tuberose flowers,",
+          "whose fragrance",
+          "will fill with scent",
+          "my inner mind,",
+          "and let me",
+          "feel",
+          "a sense",
+          "of my own",
+          "freedom."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 637,
+    "target": "or",
+    "reading_evidence": "Read five four-line stanzas and the Jamshedpur tail: complaint to an unmoved traveller, searching eyes and tired tears, feet rushing at every sound, unspoken longing and invitation to plumb the heart, letters addressed with the heart, dyer/colour request, red gulmohar and yellow amaltas, green earth and seven-coloured veil. Checked the source’s feminine expressions without inventing a relationship history.",
+    "reason": "Replace two unadapted Hindi lexical carryovers with ordinary Odia pain and sound while preserving the body’s anxious responses.",
+    "open_questions": [
+      "मिली नहीं remains provisionally not meeting the traveller; the unexpressed object/attachment is unresolved.",
+      "Rangrez is retained as dyer/colourer without asserting a religious figure or hidden identity."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "ବେଦନା is less sharply onomatopoeic than टीस; the aching eyes/tears context carries the hurt. ଶବ୍ଦ retains an unspecified audible cue without inventing footsteps.",
+    "full_source_target_read": true,
+    "source_sha256": "41d9d354470aaa1639301db7fdaefbf56d5878a828a6c7f37df18e9475dbfe01",
+    "before_sha256": "3491a38f4885dd5ccb88b202d1f0a073b0b2cd4460f792891fcbfbbdab5b3d8b",
+    "after_sha256": "d95722a797142c0f78cf9a79d5452d4fcc9d361189b1d247c66d0205c219ada5",
+    "prior_uncertainties": [
+      {
+        "note": "ମିଳିନଥିବା/never met is a provisional reading of मिली नहीं; no backstory added. Rangrez/dyer and flower colours preserved. Closing address retained.",
+        "record": "kb/production/translations/batch-042/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ହେ ନିର୍ମୋହୀ, ଶୁଣିଯାଅ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଶୁଣିଯାଅ, ହେ ନିର୍ମୋହୀ ପଥିକ,",
+          "କାହିଁକି କଲ ହୃଦୟକୁ ବିଭ୍ରାନ୍ତ?",
+          "ନୟନ ଏବେ ତୁମକୁ ଖୋଜୁଛି,",
+          "ମୋତେ ଭୁଲି କାହିଁକି ଆନନ୍ଦିତ?"
+        ],
+        [
+          "ମନର ଟିସ୍ ତୁମ ପାଖେ ପହଞ୍ଚିଲାନି,",
+          "ଲୁହ ଶୁଖିଗଲା, ଆଖି ଥକିଗଲା।",
+          "ପ୍ରତି ଆହଟରେ ଏ ପାଦ ଦୌଡ଼ିଲା,",
+          "ଆଖି ପଥର ହେଲା, ଅପଲକ ଦେଖୁଛି।"
+        ],
+        [
+          "ଦେଖା ହେଲାନି, ତଥାପି ଲୁଚିଛି ଆକାଂକ୍ଷା,",
+          "ମୋ ଦୀର୍ଘଶ୍ୱାସ କ'ଣ ଶୁଣିଲନି?",
+          "କହି ନ ପାରେ, ତଥାପି ପ୍ରତି ମୁହୂର୍ତ୍ତ,",
+          "ପଥିକ, ମୋ ହୃଦୟର ଗଭୀରତା ମାପିଯାଅ।"
+        ],
+        [
+          "କେତେ କେତେ ଚିଠି ଲେଖିଦେଲି,",
+          "ଠିକଣାରେ କେବଳ ହୃଦୟ ରଖିଦେଲି।",
+          "ହେ ରଙ୍ଗକାର, ଏବେ ରଙ୍ଗ ଭରିଦିଅ,",
+          "ମିଳିଲା କି ସେ ହୃଦୟଭରା ଚିଠି?"
+        ],
+        [
+          "ରକ୍ତାଭ କୃଷ୍ଣଚୂଡ଼ା ପରି ରଙ୍ଗ ଭର,",
+          "ବସନ୍ତୀ ସୁନାରୀ ପରି ଦେହ କରିଦିଅ।",
+          "ଧାନୀ ଧରା ପରି ଦୋଳିବି, ଲାଜେଇବି,",
+          "ଏବେ ମୋ ଓଢ଼ଣିକୁ ସାତରଙ୍ଗୀ କରିଦିଅ।"
+        ],
+        [
+          "∎",
+          "ଜାମଶେଦପୁର"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ହେ ନିର୍ମୋହୀ, ଶୁଣିଯାଅ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଶୁଣିଯାଅ, ହେ ନିର୍ମୋହୀ ପଥିକ,",
+          "କାହିଁକି କଲ ହୃଦୟକୁ ବିଭ୍ରାନ୍ତ?",
+          "ନୟନ ଏବେ ତୁମକୁ ଖୋଜୁଛି,",
+          "ମୋତେ ଭୁଲି କାହିଁକି ଆନନ୍ଦିତ?"
+        ],
+        [
+          "ମନର ବେଦନା ତୁମ ପାଖେ ପହଞ୍ଚିଲାନି,",
+          "ଲୁହ ଶୁଖିଗଲା, ଆଖି ଥକିଗଲା।",
+          "ପ୍ରତି ଶବ୍ଦରେ ଏ ପାଦ ଦୌଡ଼ିଲା,",
+          "ଆଖି ପଥର ହେଲା, ଅପଲକ ଦେଖୁଛି।"
+        ],
+        [
+          "ଦେଖା ହେଲାନି, ତଥାପି ଲୁଚିଛି ଆକାଂକ୍ଷା,",
+          "ମୋ ଦୀର୍ଘଶ୍ୱାସ କ'ଣ ଶୁଣିଲନି?",
+          "କହି ନ ପାରେ, ତଥାପି ପ୍ରତି ମୁହୂର୍ତ୍ତ,",
+          "ପଥିକ, ମୋ ହୃଦୟର ଗଭୀରତା ମାପିଯାଅ।"
+        ],
+        [
+          "କେତେ କେତେ ଚିଠି ଲେଖିଦେଲି,",
+          "ଠିକଣାରେ କେବଳ ହୃଦୟ ରଖିଦେଲି।",
+          "ହେ ରଙ୍ଗକାର, ଏବେ ରଙ୍ଗ ଭରିଦିଅ,",
+          "ମିଳିଲା କି ସେ ହୃଦୟଭରା ଚିଠି?"
+        ],
+        [
+          "ରକ୍ତାଭ କୃଷ୍ଣଚୂଡ଼ା ପରି ରଙ୍ଗ ଭର,",
+          "ବସନ୍ତୀ ସୁନାରୀ ପରି ଦେହ କରିଦିଅ।",
+          "ଧାନୀ ଧରା ପରି ଦୋଳିବି, ଲାଜେଇବି,",
+          "ଏବେ ମୋ ଓଢ଼ଣିକୁ ସାତରଙ୍ଗୀ କରିଦିଅ।"
+        ],
+        [
+          "∎",
+          "ଜାମଶେଦପୁର"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 637,
+    "target": "en",
+    "reading_evidence": "Read five four-line stanzas and the Jamshedpur tail: complaint to an unmoved traveller, searching eyes and tired tears, feet rushing at every sound, unspoken longing and invitation to plumb the heart, letters addressed with the heart, dyer/colour request, red gulmohar and yellow amaltas, green earth and seven-coloured veil. Checked the source’s feminine expressions without inventing a relationship history.",
+    "reason": "In the repeated accusation of forgetting the speaker and ignoring pain, निर्मोही addresses emotional unresponsiveness. Unattached can imply relationship status or admirable renunciation, weakening the complaint; revise title and opening together.",
+    "open_questions": [
+      "मिली नहीं remains provisionally not meeting the traveller; the unexpressed object/attachment is unresolved.",
+      "Rangrez is retained as dyer/colourer without asserting a religious figure or hidden identity.",
+      "निर्मोही can also carry detachment/renunciation; unfeeling is the contextual complaint reading, not author-confirmed."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Unfeeling sharpens the ordinary English complaint while avoiding the harsher heartless; preserve dyer and cultural flowers without explanation.",
+    "full_source_target_read": true,
+    "title_after": "O Unfeeling One, Listen",
+    "source_sha256": "41d9d354470aaa1639301db7fdaefbf56d5878a828a6c7f37df18e9475dbfe01",
+    "before_sha256": "e5f6c43f1b7b868020e6cee6ed37269c7eff8e4603de516673b98c6a95be6d77",
+    "after_sha256": "1d1a7f4bf5655477e8790b77319a3eae2ebac8cc19e70dbde724ad843f29e96a",
+    "prior_uncertainties": [
+      {
+        "note": "ମିଳିନଥିବା/never met is a provisional reading of मिली नहीं; no backstory added. Rangrez/dyer and flower colours preserved. Closing address retained.",
+        "record": "kb/production/translations/batch-042/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "O Unattached One, Listen",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Listen as you go, O unattached traveller,",
+          "why did you bewilder my heart?",
+          "My eyes now search for you;",
+          "why are you glad, having forgotten me?"
+        ],
+        [
+          "The ache within never reached you;",
+          "tears dried, eyes grew tired.",
+          "At every sound these feet ran;",
+          "my eyes turned to stone, I gaze unblinking."
+        ],
+        [
+          "I did not meet you, yet longing lies concealed;",
+          "did you not hear my sigh?",
+          "I cannot speak of it, yet every moment,",
+          "traveller, keep sounding the depths of my heart."
+        ],
+        [
+          "So many letters I wrote,",
+          "put only my heart in the address.",
+          "O dyer, now fill it with colour;",
+          "did that heart-filled letter reach you?"
+        ],
+        [
+          "Fill it with the blood-red of gulmohar,",
+          "make my body like spring-yellow amaltas.",
+          "Let me sway and blush like the green earth;",
+          "now make my veil seven-coloured."
+        ],
+        [
+          "∎",
+          "Jamshedpur"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "O Unfeeling One, Listen",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Listen as you go, O unfeeling traveller,",
+          "why did you bewilder my heart?",
+          "My eyes now search for you;",
+          "why are you glad, having forgotten me?"
+        ],
+        [
+          "The ache within never reached you;",
+          "tears dried, eyes grew tired.",
+          "At every sound these feet ran;",
+          "my eyes turned to stone, I gaze unblinking."
+        ],
+        [
+          "I did not meet you, yet longing lies concealed;",
+          "did you not hear my sigh?",
+          "I cannot speak of it, yet every moment,",
+          "traveller, keep sounding the depths of my heart."
+        ],
+        [
+          "So many letters I wrote,",
+          "put only my heart in the address.",
+          "O dyer, now fill it with colour;",
+          "did that heart-filled letter reach you?"
+        ],
+        [
+          "Fill it with the blood-red of gulmohar,",
+          "make my body like spring-yellow amaltas.",
+          "Let me sway and blush like the green earth;",
+          "now make my veil seven-coloured."
+        ],
+        [
+          "∎",
+          "Jamshedpur"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 612,
+    "target": "or",
+    "reading_evidence": "Read the two cloud stanzas and closing couplet: repeated Time is a dense cloud, many rains and earth’s sure-footed reassurance/gusto, a gust dissolving the cloud and unlived breaths, wisps conveying sky’s illusion/gloom, then countless versus cipher holding many lives/deaths. Compared negation, capability, sound clusters and the earth/sky opposition in the full current target.",
+    "reason": "Render gust as a sudden movement of wind; the existing ଝାଙ୍କ wording does not naturally name that action. Preserve mere touch and immediate vanishing.",
+    "open_questions": [
+      "Unlived breaths remains intentionally strange; the exact reach of unlived/ଅଜିଆଁ awaits fluent review, not normalized to unbreathed or dead."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "ଦଲକା keeps the wind movement concrete without adding a storm. The source’s cipher is read as zero in the countless contrast, not decoded as a secret message.",
+    "full_source_target_read": true,
+    "source_sha256": "b6d0d314e7eb47740fe1c8b5c365fdb0bea33f82f3240818c07b47fe2c021fb0",
+    "before_sha256": "635bf7d5791500afce794a984e108b0d9d60e6842dc31c79f405150ee5bbdf0c",
+    "after_sha256": "2589412cb79f541d65e18e97b4768c7c44dc10569c6e0371bac3a5c2dba3f227",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଅନେକ ଜୀବନ, ଅନେକ ମୃତ୍ୟୁ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ସମୟ ଏକ ଘନ ମେଘ, ଯାହା",
+          "ଅଗଣିତ ଥର ବରଷିପାରେ,",
+          "ଟପଟପ ଶବ୍ଦରେ ପ୍ରତିଧ୍ୱନିତ ହୁଏ",
+          "ପୃଥିବୀର ବାସ୍ତବତା—",
+          "ସ୍ଥିର ପାଦର ଭରସାର",
+          "ଗୁଞ୍ଜରିତ ଆଶ୍ୱାସନ;",
+          "ଉଲ୍ଲସିତ ଉତ୍ସାହ।"
+        ],
+        [
+          "ସମୟ ଏକ ଘନ ମେଘ, ଯାହା",
+          "ପବନ ଝାଙ୍କର ମାତ୍ର",
+          "ସ୍ପର୍ଶରେ ମୁହୂର୍ତ୍ତକେ ମିଳାଇପାରେ—",
+          "ଅଜିଆଁ ନିଃଶ୍ୱାସମାନଙ୍କର",
+          "ହଠାତ୍ ଫୁଟିପଡ଼ିବା,",
+          "ମେଘର ଖଣ୍ଡମାନେ ବୋହନ୍ତି",
+          "ଆକାଶର ଭ୍ରମ;",
+          "କୁଟୁରି ଖାଉଥିବା ବିଷାଦ।"
+        ],
+        [
+          "ଅଗଣିତ ଓ ଶୂନ୍ୟ ମଝିରେ,",
+          "ରହିଛି ଅନେକ ଜୀବନ, ଅନେକ ମୃତ୍ୟୁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଅନେକ ଜୀବନ, ଅନେକ ମୃତ୍ୟୁ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ସମୟ ଏକ ଘନ ମେଘ, ଯାହା",
+          "ଅଗଣିତ ଥର ବରଷିପାରେ,",
+          "ଟପଟପ ଶବ୍ଦରେ ପ୍ରତିଧ୍ୱନିତ ହୁଏ",
+          "ପୃଥିବୀର ବାସ୍ତବତା—",
+          "ସ୍ଥିର ପାଦର ଭରସାର",
+          "ଗୁଞ୍ଜରିତ ଆଶ୍ୱାସନ;",
+          "ଉଲ୍ଲସିତ ଉତ୍ସାହ।"
+        ],
+        [
+          "ସମୟ ଏକ ଘନ ମେଘ, ଯାହା",
+          "ପବନର ଦଲକାର ମାତ୍ର",
+          "ସ୍ପର୍ଶରେ ମୁହୂର୍ତ୍ତକେ ମିଳାଇପାରେ—",
+          "ଅଜିଆଁ ନିଃଶ୍ୱାସମାନଙ୍କର",
+          "ହଠାତ୍ ଫୁଟିପଡ଼ିବା,",
+          "ମେଘର ଖଣ୍ଡମାନେ ବୋହନ୍ତି",
+          "ଆକାଶର ଭ୍ରମ;",
+          "କୁଟୁରି ଖାଉଥିବା ବିଷାଦ।"
+        ],
+        [
+          "ଅଗଣିତ ଓ ଶୂନ୍ୟ ମଝିରେ,",
+          "ରହିଛି ଅନେକ ଜୀବନ, ଅନେକ ମୃତ୍ୟୁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

@@ -1,0 +1,304 @@
+{
+  "recorded_at": "2026-10-05T10:43:34.855647+00:00",
+  "poem_ids": [
+    774,
+    780,
+    781,
+    778,
+    773
+  ],
+  "variants_read": 10,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 774,
+      "target": "hi",
+      "reason": "Repair the oblique you-and-me construction and use मेल at the intimate ending. Join the isolated auxiliary to its verb instead of copying the broken source line.",
+      "reading_evidence": "Read the complete18-line source and Hindi target: garden and thousand thoughts, a single-word poem becoming flowers, exhausted dancing, gestures, flower meanings/fallen futility, burden, distance from words and the two-flower ending.",
+      "open_questions": [
+        "Damaged source spellings remain provisional: प्रगल्भित/exuberant garden, could write, gathering, and futility readings require source confirmation; the original is unchanged.",
+        "Hindi masculine narrator remains provisional; Odia does not specify narrator gender."
+      ],
+      "finding_dispositions": {
+        "PNR-058": "fixed_in_local_draft"
+      },
+      "tradeoff": "मेल gives the final togetherness a less technical voice; the earlier समुच्चय of a thousand flowers remains compatible with the elevated garden diction. No blanket synonym replacement.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 17,
+        "before_lines": [
+          7
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "e2f2f27a0f34807bf334431999394cc3d7725b0e8a7fe343a143d60c56a75154",
+      "before_sha256": "e501d5ab716a7f9eb4cf39f40cecc8817b6e0ee0819cb6f86e77006edd5db72d",
+      "after_sha256": "fa964f7cec4c0630c6d67711735d2c6a0401bec0e682939ce6d4679946857c41",
+      "prior_uncertainties": [
+        {
+          "note": "Source spelling damage provisionally read as exuberant garden, could write, gathering, and futility; original unchanged. Final two-flower metaphor retained. Hindi masculine narrator provisional.",
+          "record": "kb/production/translations/batch-008/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 774,
+      "target": "en",
+      "reason": "Remove could tell you, which duplicates make you understand to fill a source auxiliary line. The gesture now directly governs the flower meanings.",
+      "reading_evidence": "Read every source and English line, including the wish to become flowers, gesture after exhausted dancing, fallen futility, uncomprehended burden and final petals of two flowers.",
+      "open_questions": [
+        "Damaged source spellings remain provisional: प्रगल्भित/exuberant garden, could write, gathering, and futility readings require source confirmation; the original is unchanged."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Seventeen target verse lines instead of eighteen; no second act of telling is added. Preserve the strange concluding gathering and all source uncertainties.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 17,
+        "before_lines": [
+          7
+        ],
+        "inline_breaks": []
+      },
+      "new_findings": [
+        {
+          "category": "addition_and_lineation",
+          "disposition": "fixed_in_local_draft",
+          "reason": "could tell you restated the prior clause rather than translating additional source content."
+        }
+      ],
+      "source_sha256": "e2f2f27a0f34807bf334431999394cc3d7725b0e8a7fe343a143d60c56a75154",
+      "before_sha256": "ab9dbfb25aef50fe94e658260f4980f9bfa1c14bf6e61e3cd94b89887559c6a1",
+      "after_sha256": "3e94b69307a9d91db3a70c370715993be7ca6abca6505ef3c1fa2ff68d0d8eeb",
+      "prior_uncertainties": [
+        {
+          "note": "Source spelling damage provisionally read as exuberant garden, could write, gathering, and futility; original unchanged. Final two-flower metaphor retained. Hindi masculine narrator provisional.",
+          "record": "kb/production/translations/batch-008/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 780,
+      "target": "hi",
+      "reason": "Retain the sustained love-runs-out refrain, violence and final contradiction. Do not soften the political images or replace the poem’s particular mythic account with a conventional retelling.",
+      "reading_evidence": "Read the entire six-stanza poem and raw contributor tail directly: perfume/empty vial, Hiroshima/Nagasaki and Konark, darkness/intolerance/commodity, prison newborn and paddy/husks, Krishna names, terrorists questioning faith, slaughter/impalement and Kathajodi/Mahanadi presence against lovelessness.",
+      "open_questions": [
+        "ଅଷ୍ଟ ପାଟବଂଶୀ remains provisionally eight chief queens; do not infer author-confirmed mythic terminology from remembered stories."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "The ending’s absence of lovelessness is deliberately abstract; preserve its contrast with repeated deaths of love. No contemporary event identification is supplied, and raw contact text remains preserved outside rendered verse.",
+      "full_source_target_read": true,
+      "source_sha256": "e6989c55752374fb8a8b51568a059de4025dba56ef7b55ebafa1c0414c37cbae",
+      "before_sha256": "04199cda518cab44a8341900b0e993cd88f865c5025f165a52d766b7186c0365",
+      "after_sha256": "04199cda518cab44a8341900b0e993cd88f865c5025f165a52d766b7186c0365",
+      "prior_uncertainties": [
+        {
+          "note": "Violence, religious and mythic references retained as the poet’s imagery without identifying a contemporary event. Kathajodi/Mahanadi names retained. ଅଷ୍ଟ ପାଟବଂଶୀ provisionally read as eight chief queens; requires native review. Existing printed contact line retained exactly, not validated or made into a new link.",
+          "record": "kb/production/translations/batch-008/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 780,
+      "target": "en",
+      "reason": "Retain the sustained love-runs-out refrain, violence and final contradiction. Do not soften the political images or replace the poem’s particular mythic account with a conventional retelling.",
+      "reading_evidence": "Read the entire six-stanza poem and raw contributor tail directly: perfume/empty vial, Hiroshima/Nagasaki and Konark, darkness/intolerance/commodity, prison newborn and paddy/husks, Krishna names, terrorists questioning faith, slaughter/impalement and Kathajodi/Mahanadi presence against lovelessness.",
+      "open_questions": [
+        "ଅଷ୍ଟ ପାଟବଂଶୀ remains provisionally eight chief queens; do not infer author-confirmed mythic terminology from remembered stories."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "The ending’s absence of lovelessness is deliberately abstract; preserve its contrast with repeated deaths of love. No contemporary event identification is supplied, and raw contact text remains preserved outside rendered verse.",
+      "full_source_target_read": true,
+      "source_sha256": "e6989c55752374fb8a8b51568a059de4025dba56ef7b55ebafa1c0414c37cbae",
+      "before_sha256": "9c0dfbd9ce20611e5654cafe4259d0f0d0d7fd85f41577cc62ee9c9c7691689e",
+      "after_sha256": "9c0dfbd9ce20611e5654cafe4259d0f0d0d7fd85f41577cc62ee9c9c7691689e",
+      "prior_uncertainties": [
+        {
+          "note": "Violence, religious and mythic references retained as the poet’s imagery without identifying a contemporary event. Kathajodi/Mahanadi names retained. ଅଷ୍ଟ ପାଟବଂଶୀ provisionally read as eight chief queens; requires native review. Existing printed contact line retained exactly, not validated or made into a new link.",
+          "record": "kb/production/translations/batch-008/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 781,
+      "target": "hi",
+      "reason": "Restore मुक्ति नहीं / बल्कि मोक्ष: the source excludes one term in favour of the other, while केवल and भी made the second additive.",
+      "reading_evidence": "Read all twelve stanzas: society’s bodily-love accusation, invitation in old age, lac house, breasts, cataracts, forty-nine winds, Ganga water, touch/kiss and liberation in the beloved’s arms.",
+      "open_questions": [
+        "Mukti and moksha are distinguished by the poet; the philosophical relation remains a source question. Preserve the explicit not/rather contrast instead of explaining it.",
+        "Feminine narrator in रहूँगी remains provisional. Bodily imagery is not independent confirmation of narrator gender."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Keep culturally anchored Ganga water, forty-nine winds and lac house unexplained inside the verse. This repairs contrast without claiming a doctrinal interpretation.",
+      "full_source_target_read": true,
+      "new_findings": [
+        {
+          "category": "negation_and_contrast",
+          "disposition": "fixed_in_local_draft",
+          "reason": "केवल / भी changed not/rather into not-only/also."
+        }
+      ],
+      "source_sha256": "5eed35b28a4bec447ce92dfe9cbbb39294a87cef18c2e7743bca03db526e8cf2",
+      "before_sha256": "3e42e7ae4dddaf716a0e9b9b01054493914ab4d256e4db2d0c941d20c2a81eb0",
+      "after_sha256": "dbe8b040820086e30650c5b841eb641cd2381c0bec159dad9b1c20eb6cf35fd8",
+      "prior_uncertainties": [
+        {
+          "note": "Forty-nine winds, lac house and Ganga water imagery retained; no explanation inserted into verse. Release/moksha distinction retained provisionally. Hindi feminine narrator follows explicit bodily imagery, subject to editorial review.",
+          "record": "kb/production/translations/batch-008/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 781,
+      "target": "en",
+      "reason": "Remove unsupported must from the repeated future arrival, and merely from not release. Preserve the source’s future address and its not/rather distinction.",
+      "reading_evidence": "Read every source and English stanza: accusation that love is bodily, imagined arrival after youth and physical decline, held winds and sacred water, final touch and kiss, and moksha in the embrace.",
+      "open_questions": [
+        "Mukti and moksha are distinguished by the poet; the philosophical relation remains a source question. Preserve the explicit not/rather contrast instead of explaining it."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Will retains the future form without adding obligation; the invitation remains in the poem’s repeated address. Release/moksha remains provisional, without a verse explanation.",
+      "full_source_target_read": true,
+      "new_findings": [
+        {
+          "category": "modality",
+          "disposition": "fixed_in_local_draft",
+          "reason": "must added obligation to the repeated future coming."
+        },
+        {
+          "category": "negation",
+          "disposition": "fixed_in_local_draft",
+          "reason": "merely softened the explicit exclusion into a scale of degrees."
+        }
+      ],
+      "source_sha256": "5eed35b28a4bec447ce92dfe9cbbb39294a87cef18c2e7743bca03db526e8cf2",
+      "before_sha256": "8614d9024f76ba59365a59c0b1c054519aa4254d3c1258d7f3c338eacd4c483d",
+      "after_sha256": "73c83b005d66cc180a76b16d69bda6eaf00cc6f09c6f220cb87f01d096256eea",
+      "prior_uncertainties": [
+        {
+          "note": "Forty-nine winds, lac house and Ganga water imagery retained; no explanation inserted into verse. Release/moksha distinction retained provisionally. Hindi feminine narrator follows explicit bodily imagery, subject to editorial review.",
+          "record": "kb/production/translations/batch-008/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 778,
+      "target": "or",
+      "reason": "Retain the garment conceit, compassionate embodiment and rebuke to biographical dissection. Record the unusual reading instruction separately.",
+      "reading_evidence": "Read seven quatrains and the preserved end marker/location: poems as garments, आचमन, the collective dedication, Sharada/brush/bone-marrow-blood, Damini/kinnar/sex worker, putting on another’s pain and the closing postmortem warning.",
+      "open_questions": [
+        "कलेवर लगाकर पढ़ो is an unusual instruction about reading/form; current clothing/form interpretation remains provisional, rather than a confirmed idiom."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "ଆଚମନ, ଶାରଦା and କିନ୍ନର remain recognizable cultural anchors; no additional biography or explanatory gloss is inserted.",
+      "full_source_target_read": true,
+      "source_sha256": "e393b46eb5e944366dd680122ece1209f7bb4806af774146f9753a753ce06043",
+      "before_sha256": "86c30698f2b608e8f1a877158d3b3512f8ce33695f70bbe1dcff4073c1b93412",
+      "after_sha256": "86c30698f2b608e8f1a877158d3b3512f8ce33695f70bbe1dcff4073c1b93412",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 778,
+      "target": "en",
+      "reason": "Retain the sustained clothing metaphor and explicitly feminine poet supported by the Hindi later in the poem. Keep the violent brush/body metaphor and protective ending.",
+      "reading_evidence": "Read all28verse lines plus tail: covering and ritual sip, private-life warning, collective offering, Sharada and blood, characters’ pain and worn sorrow, societal feelings, empathy and the injunction against postmortem reading.",
+      "open_questions": [
+        "कलेवर लगाकर पढ़ो is an unusual instruction about reading/form; current clothing/form interpretation remains provisional, rather than a confirmed idiom."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "The feminine she follows explicit source होती, not the author’s presumed gender. The existing ritual-sip rendering carries आचमन lightly without replacing its ritual scene.",
+      "full_source_target_read": true,
+      "source_sha256": "e393b46eb5e944366dd680122ece1209f7bb4806af774146f9753a753ce06043",
+      "before_sha256": "358fbbe46dd4f6be415db9aed9e6c40f60cd0484ac7e7bd32f2abcbb66489d1a",
+      "after_sha256": "358fbbe46dd4f6be415db9aed9e6c40f60cd0484ac7e7bd32f2abcbb66489d1a",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 773,
+      "target": "or",
+      "reason": "Retain provisionally and record the unclear subject chain. Preserve the repeated Peace personification and the final move through Gratitude to Hope.",
+      "reading_evidence": "Read all fourteen long source and Odia lines: despondent window, tired thoughts/body, Gaza tents and hunger, troubled faces and disease, betrayed blue Hormuz water, dark depths and Peace/Gratitude/Hope.",
+      "open_questions": [
+        "The chill and hunger, weather beaten and parched shining bright leaves the subject of its modifiers unresolved. Do not invent a new subject or call the literal chain confirmed meaning."
+      ],
+      "finding_dispositions": {
+        "PNR-059": "source_query_held"
+      },
+      "tradeoff": "Do not change the repeated Peace into another virtue or treat poetic Gaza/Hormuz references as newly verified reporting.",
+      "full_source_target_read": true,
+      "source_sha256": "d3162e8fb7d51ebdac55defaff593653fbfdc3dd68c24d3ad8b69777cf4cb7a9",
+      "before_sha256": "9580d51660c3de3cb6d4a29362c9aa48a37a98fbb2714a99576a714eb5076470",
+      "after_sha256": "9580d51660c3de3cb6d4a29362c9aa48a37a98fbb2714a99576a714eb5076470",
+      "prior_uncertainties": [
+        {
+          "note": "Fragmented long lines and repeated personification of Peace retained. Hindi masculine narrator provisional; source does not specify. Gaza/Hormuz are poetic references, not newly verified reporting.",
+          "record": "kb/production/translations/batch-008/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 773,
+      "target": "hi",
+      "reason": "Retain the poem’s unresolved fragment and the return of Peace; no defensible subject correction is available without source evidence.",
+      "reading_evidence": "Read the full source and Hindi draft, tracing despondency, war/tents, ambiguous weather-beaten/shining chain, deprivation and illness, water/betrayal and the concluding reassurance of Hope.",
+      "open_questions": [
+        "The chill and hunger, weather beaten and parched shining bright leaves the subject of its modifiers unresolved. Do not invent a new subject or call the literal chain confirmed meaning.",
+        "Hindi masculine narrator in स्तब्ध था remains provisional; English narrator gender is unspecified."
+      ],
+      "finding_dispositions": {
+        "PNR-060": "source_query_held"
+      },
+      "tradeoff": "Keep the complete fragmented scene without polishing it into an invented account; retain personification and the source’s change of emotional direction.",
+      "full_source_target_read": true,
+      "source_sha256": "d3162e8fb7d51ebdac55defaff593653fbfdc3dd68c24d3ad8b69777cf4cb7a9",
+      "before_sha256": "b10b851457dbe89c40b071ae755fa761f65f680a9ad53fa2645a83f6a9d5a234",
+      "after_sha256": "b10b851457dbe89c40b071ae755fa761f65f680a9ad53fa2645a83f6a9d5a234",
+      "prior_uncertainties": [
+        {
+          "note": "Fragmented long lines and repeated personification of Peace retained. Hindi masculine narrator provisional; source does not specify. Gaza/Hormuz are poetic references, not newly verified reporting.",
+          "record": "kb/production/translations/batch-008/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

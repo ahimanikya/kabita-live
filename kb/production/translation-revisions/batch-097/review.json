@@ -1,0 +1,243 @@
+{
+  "recorded_at": "2026-10-06T00:14:49.083834+00:00",
+  "poem_ids": [
+    395,
+    382,
+    386,
+    388,
+    377
+  ],
+  "variants_read": 10,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 395,
+      "target": "hi",
+      "reading_evidence": "Read six complete source/target stanzas: single endless-thirst poem infects like Chaitra virus/forces speaker to kneel like sacrificial goat and fall like dry leaves; life suradhuni/rain-wind woven song/new kanchan leaves and flowers/net-bound life/hot wind green sprouting; Vishnu waking/Shiva lovemaking/Ganesha tandava/Buddha nirvana/continuous sad flute; restless envy of living/tears-seed life; hoofprint-sized pooled water/dub tuft/burnt wound and repeated endless creation anew. Checked poem as infecting/forcing agent and speaker as goat-like object.",
+      "reason": "Retain the bodily, divine and botanical imagery with existing compound uncertainties.",
+      "open_questions": [
+        "Prior suradhuni celestial-river and ashru-virya tears/seed interpretations remain provisional; retain Ganesha tandava as written, no deity substitution."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, target stanza/line counts and deliberate imagery; contextual correction and same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "e9dd1e694a822015f61ba7794842e9353bc5611f81db5840b0d02a414050d8e9",
+      "before_sha256": "a2c8ab7f40a5b692d7f7c2f96f1180a03a03a5facbc6273308fac59f1026d4ce",
+      "after_sha256": "a2c8ab7f40a5b692d7f7c2f96f1180a03a03a5facbc6273308fac59f1026d4ce",
+      "prior_uncertainties": [
+        {
+          "note": "Six stanzas retained. Suradhuni rendered celestial river; unusual Ganesha tandava retained, not reassigned to Shiva. Ashru-virya compound rendered tears/seed or tears/virya provisionally; quadruped hoofprint image retained.",
+          "record": "kb/production/translations/batch-095/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 395,
+      "target": "en",
+      "reading_evidence": "Read six complete source/target stanzas: single endless-thirst poem infects like Chaitra virus/forces speaker to kneel like sacrificial goat and fall like dry leaves; life suradhuni/rain-wind woven song/new kanchan leaves and flowers/net-bound life/hot wind green sprouting; Vishnu waking/Shiva lovemaking/Ganesha tandava/Buddha nirvana/continuous sad flute; restless envy of living/tears-seed life; hoofprint-sized pooled water/dub tuft/burnt wound and repeated endless creation anew. Checked poem as infecting/forcing agent and speaker as goat-like object.",
+      "reason": "Attach goat and dry-leaf comparisons to the forced/fallen speaker instead of appearing to make them the agents; retain the four lines and both images.",
+      "open_questions": [
+        "Prior suradhuni celestial-river and ashru-virya tears/seed interpretations remain provisional; retain Ganesha tandava as written, no deity substitution."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, target stanza/line counts and deliberate imagery; contextual correction and same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "e9dd1e694a822015f61ba7794842e9353bc5611f81db5840b0d02a414050d8e9",
+      "before_sha256": "975e57d31a83ad1d6a0c0424e2fceaa7a1467524a27c07fd72a0fb2c0c89d144",
+      "after_sha256": "32b85111dd3b3594f8817f790692d53bb7b72be285a5a61f0ee0a029b3cc66fd",
+      "prior_uncertainties": [
+        {
+          "note": "Six stanzas retained. Suradhuni rendered celestial river; unusual Ganesha tandava retained, not reassigned to Shiva. Ashru-virya compound rendered tears/seed or tears/virya provisionally; quadruped hoofprint image retained.",
+          "record": "kb/production/translations/batch-095/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 382,
+      "target": "hi",
+      "reading_evidence": "Read both numbered sections and every source/target stanza: falling-leaf tree as meditating Buddha/Siddhartha passage, kin/tradition/notions shed from consciousness like ripe leaves and green possibility of wisdom-awareness-Buddhahood; tree as Valmiki/Ratnakara passage, no family sharing sin/self-awareness/letting kin go, chanting Mara-Rama-Rama name and composing green Ramayana love. Checked repetition and distinct Buddhist/Valmiki sections, without adding narrative beyond source.",
+      "reason": "Retain the shedding and awakening parallels and Mara/Rama sequence.",
+      "open_questions": [
+        "Hindi masculine first-person speaker remains provisional; source does not establish gender."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, target stanza/line counts and deliberate imagery; contextual correction and same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "e59b0a263b942507fa5272cfa8aaca10c53f0541e9131cc0a624b3c76ce2bf5d",
+      "before_sha256": "53b2227b78e655e482fe219872281fae92033296fa7c57884dac37839be59866",
+      "after_sha256": "53b2227b78e655e482fe219872281fae92033296fa7c57884dac37839be59866",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 382,
+      "target": "en",
+      "reading_evidence": "Read both numbered sections and every source/target stanza: falling-leaf tree as meditating Buddha/Siddhartha passage, kin/tradition/notions shed from consciousness like ripe leaves and green possibility of wisdom-awareness-Buddhahood; tree as Valmiki/Ratnakara passage, no family sharing sin/self-awareness/letting kin go, chanting Mara-Rama-Rama name and composing green Ramayana love. Checked repetition and distinct Buddhist/Valmiki sections, without adding narrative beyond source.",
+      "reason": "Place the governing green possibility before its three objects so the phrase reads naturally in English, retaining the four-line stanza.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, target stanza/line counts and deliberate imagery; contextual correction and same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "e59b0a263b942507fa5272cfa8aaca10c53f0541e9131cc0a624b3c76ce2bf5d",
+      "before_sha256": "8d7d46a23448d6491518bc847df065d74f406ab165d19153c3bb18fa32260e60",
+      "after_sha256": "ab1a1b9010f78825d18a3b8926920eecd857635eefc20c59b43188759ae4b492",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 386,
+      "target": "hi",
+      "reading_evidence": "Read five complete source/target stanzas: road distance/sky expanse withheld and flowers bloom through not understanding; Phalguna poem swing/mountain silent explosion/flute and wild anklets; sari-end wipes darkness/moonlit comparison, bird joins dust to pole star, dew as grass royal clothing; wish tree/ocean/horizon/nowhere-looking star/seasons-pulsation/spiderweb remain unknown; doubled flute-play and flower-bloom refrain. Checked recurring not-understanding as cause rather than failed explanation.",
+      "reason": "Retain the repeated mystery and natural-object personification without rationalising its causal paradox.",
+      "open_questions": [
+        "The source’s final list leaves some attachment of seasons/pulsation/web open; retain rather than assigning a single scientific or allegorical reading."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, target stanza/line counts and deliberate imagery; contextual correction and same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "5e0847c1cfcc5ed5b8b81e2bbf960b3d670f8f6c234fab25578f163357ef3c91",
+      "before_sha256": "af533644212ee4c07b1f309afad5f83c4a3d88f6e03d7fa6cd53b47d85d935a3",
+      "after_sha256": "af533644212ee4c07b1f309afad5f83c4a3d88f6e03d7fa6cd53b47d85d935a3",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 386,
+      "target": "en",
+      "reading_evidence": "Read five complete source/target stanzas: road distance/sky expanse withheld and flowers bloom through not understanding; Phalguna poem swing/mountain silent explosion/flute and wild anklets; sari-end wipes darkness/moonlit comparison, bird joins dust to pole star, dew as grass royal clothing; wish tree/ocean/horizon/nowhere-looking star/seasons-pulsation/spiderweb remain unknown; doubled flute-play and flower-bloom refrain. Checked recurring not-understanding as cause rather than failed explanation.",
+      "reason": "Retain the repeated mystery and natural-object personification without rationalising its causal paradox.",
+      "open_questions": [
+        "The source’s final list leaves some attachment of seasons/pulsation/web open; retain rather than assigning a single scientific or allegorical reading."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, target stanza/line counts and deliberate imagery; contextual correction and same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "5e0847c1cfcc5ed5b8b81e2bbf960b3d670f8f6c234fab25578f163357ef3c91",
+      "before_sha256": "15cdd4917a7c59c81c59424bc91f7c516a30b9a03851f892c92c50fda0e7c79a",
+      "after_sha256": "15cdd4917a7c59c81c59424bc91f7c516a30b9a03851f892c92c50fda0e7c79a",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 388,
+      "target": "hi",
+      "reading_evidence": "Read nine complete source/target stanzas: yesterday chains/today wall/tomorrow buildings/day-after death, urban civilisation oath to kill fields/build domain; acres killed instead of hunger/body entrail shock; seed-gold now dust; writhing/dead fields and unwanted growth; city-building accepted but asks why always fields and suggests vertical/intercity alternatives; judge sees daylight murder through window gap but silent; exact fields-rice-hunger-stomach-human chain; mutual certain death and repeated accusation. Checked chronology, systemic target and deliberately unconventional causal chain.",
+      "reason": "Render a physical window gap instead of the distracting abstract/time-interval sense of antaraal.",
+      "open_questions": [
+        "Prior survey-chain possibility, oath idiom and agadhia coarse-weed interpretation remain provisional. Hindi masculine narrator not established by Odia source. Rice/hunger sequence remains exactly the poem’s, not rationalized."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, target stanza/line counts and deliberate imagery; contextual correction and same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "53f318696d345861142fd7f86e04dcc23dd0c7c7ce3820d3535f5f702a249960",
+      "before_sha256": "772f0cac49980a2735d16bb05307fa93277cc3490a4f97799939da2db7856c96",
+      "after_sha256": "1a3e4f0ec137398e1e22a2ae100ab1920d40e78a6e836ca90ce9f02edfc992f4",
+      "prior_uncertainties": [
+        {
+          "note": "Nine stanzas retained. Survey chain interpretation left open as chains; niyama khaichi read sworn oath. Agadhia interpreted coarse weeds provisionally. Rice/hunger/stomach chain retained exactly, not rationalised.",
+          "record": "kb/production/translations/batch-095/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 388,
+      "target": "en",
+      "reading_evidence": "Read nine complete source/target stanzas: yesterday chains/today wall/tomorrow buildings/day-after death, urban civilisation oath to kill fields/build domain; acres killed instead of hunger/body entrail shock; seed-gold now dust; writhing/dead fields and unwanted growth; city-building accepted but asks why always fields and suggests vertical/intercity alternatives; judge sees daylight murder through window gap but silent; exact fields-rice-hunger-stomach-human chain; mutual certain death and repeated accusation. Checked chronology, systemic target and deliberately unconventional causal chain.",
+      "reason": "Retain field-personification, urban accusation and repeated bodily food chain with prior source questions external.",
+      "open_questions": [
+        "Prior survey-chain possibility, oath idiom and agadhia coarse-weed interpretation remain provisional. Hindi masculine narrator not established by Odia source. Rice/hunger sequence remains exactly the poem’s, not rationalized."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, target stanza/line counts and deliberate imagery; contextual correction and same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "53f318696d345861142fd7f86e04dcc23dd0c7c7ce3820d3535f5f702a249960",
+      "before_sha256": "8caaa46fafbffafacf3eaa6ed89e6c4ca5ea6ecc988083634265f994325f9f21",
+      "after_sha256": "8caaa46fafbffafacf3eaa6ed89e6c4ca5ea6ecc988083634265f994325f9f21",
+      "prior_uncertainties": [
+        {
+          "note": "Nine stanzas retained. Survey chain interpretation left open as chains; niyama khaichi read sworn oath. Agadhia interpreted coarse weeds provisionally. Rice/hunger/stomach chain retained exactly, not rationalised.",
+          "record": "kb/production/translations/batch-095/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 377,
+      "target": "or",
+      "reading_evidence": "Read all sixteen source/target lines of Holi: recurring fragrance/colour everywhere and colourless element felt only, colour cannot coat speaker but shines through it, earth/sky/particles/inescapable bodily breath, nature sound and unexpressed feeling wave, bin-rang/rang-bin reversal, unseen element-link, flying gulal/spring-colour sari-end and opening refrain repeated. Checked unnamed elemental speaker and exact repeated opening/ending.",
+      "reason": "Express colour brightening in natural Odia while keeping its relation to the unnamed speaker; preserve surrounding refrain.",
+      "open_questions": [
+        "Prior bin-rang/rang-bin wordplay remains approximate; do not name the speaker as air or supply a doctrinal explanation."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, target stanza/line counts and deliberate imagery; contextual correction and same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "7799ed65a1b743f8b2635e5fb33e358a5cc60124d531ab032d581b38d592a789",
+      "before_sha256": "810d551315e443f49ae6e5a46d4dabc1527c4f5083ca8621a688347308d7b1a6",
+      "after_sha256": "e22b38e8128685b835cce78e4fdc9ef0682927e5a86d032fb3ad68b6aceea5c3",
+      "prior_uncertainties": [
+        {
+          "note": "Sixteen lines retained. Bin-rang/rang-bin word-order distinction represented but semantic wordplay remains approximate; speaker not explicitly identified as air.",
+          "record": "kb/production/translations/batch-096/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 377,
+      "target": "en",
+      "reading_evidence": "Read all sixteen source/target lines of Holi: recurring fragrance/colour everywhere and colourless element felt only, colour cannot coat speaker but shines through it, earth/sky/particles/inescapable bodily breath, nature sound and unexpressed feeling wave, bin-rang/rang-bin reversal, unseen element-link, flying gulal/spring-colour sari-end and opening refrain repeated. Checked unnamed elemental speaker and exact repeated opening/ending.",
+      "reason": "Retain elemental paradox and existing colourless/without-colour approximation rather than inventing an explanation.",
+      "open_questions": [
+        "Prior bin-rang/rang-bin wordplay remains approximate; do not name the speaker as air or supply a doctrinal explanation."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, target stanza/line counts and deliberate imagery; contextual correction and same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "7799ed65a1b743f8b2635e5fb33e358a5cc60124d531ab032d581b38d592a789",
+      "before_sha256": "80cdf14ef946d7f41c86e084d9f53d89280ce4e96481a4a5ffe7d33d401a89c8",
+      "after_sha256": "80cdf14ef946d7f41c86e084d9f53d89280ce4e96481a4a5ffe7d33d401a89c8",
+      "prior_uncertainties": [
+        {
+          "note": "Sixteen lines retained. Bin-rang/rang-bin word-order distinction represented but semantic wordplay remains approximate; speaker not explicitly identified as air.",
+          "record": "kb/production/translations/batch-096/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

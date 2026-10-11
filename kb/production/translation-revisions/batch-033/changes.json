@@ -1,0 +1,593 @@
+[
+  {
+    "poem_id": 677,
+    "target": "or",
+    "reason": "Restore the nights as what the imagined skin is stitched with, rather than when stitching occurred.",
+    "reading_evidence": "Read complete English source and both targets/title, seven stanzas: silence gnawing walls/insect words knowing wounds, unnamed girl found under banyan/folded prayer paper/newspaper shame-shock/breath in dirt, dusk hand/ash/apology, blind lamps/puddles/fearful city/silent dogs, stated age fifteen/unknown name/story as smoke into unwilling lungs/stuttered voice, writing rather than touching/guilt splitting arms/skin stitched with refused nights, full page/shadow/no forgiveness needed/half-dark-half-dawn/waiting for name. Preserve witness guilt and disturbing metaphors without supplying perpetrator, attack details, biography or an absolution ending.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Keeps nights as the image’s material through ନେଇ, removing the temporal-locative ambiguity. No added violence or account of how the girl was harmed.",
+    "full_source_target_read": true,
+    "source_sha256": "831c0a783bd1b30e0e640691e22c351e4d18a17b05cbaa623263131e5a930fd1",
+    "before_sha256": "a00c4e09fae15ffae143ab6198868a165c23e35f7d5498d1adca08d35fe9ebfa",
+    "after_sha256": "c0b9455c013ee3a0e8ee2b1db61fa3b105d0c95cbc9ed116cbd0a2a31b9c543e",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ମୋ କାଳିରେ ଚାଲୁଥିବା ଝିଅଟି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୁଁ ଲେଖେ, କାରଣ ନୀରବତା କାନ୍ଥକୁ କୁଟୁରି ଖାଏ।",
+          "ଶବ୍ଦମାନେ ପୋକଙ୍କ ପରି ଆସନ୍ତି—",
+          "କ୍ଷତ କେଉଁଠି ଅଛି ସେମାନେ ଜାଣନ୍ତି।"
+        ],
+        [
+          "କେଉଁଠି ଝିଅଟିଏ ମିଳିଥିଲା",
+          "ବରଗଛର ଅଧା ଆଲୁଅରେ,",
+          "ତା' ଛୋଟ ଦେହ ପ୍ରାର୍ଥନା ଲେଖା ଚିରା କାଗଜ ପରି ମୋଡ଼ି ହୋଇଥିଲା।",
+          "ଖବରକାଗଜ କିଛି ନୂଆ କହିଲେ ନାହିଁ—",
+          "କେବଳ ଲଜ୍ଜା ଓ ସ୍ତବ୍ଧତାର ଚିହ୍ନା ଅକ୍ଷର।",
+          "ତଥାପି ତା' ନିଃଶ୍ୱାସ ନ ଶୁଣି ମୁଁ ଶୋଇପାରେନି,",
+          "ଯାହା ମାଟିରେ ଅଟକି ରହିଛି।"
+        ],
+        [
+          "ତା' ହାତ ସଞ୍ଜରେ ଗଢ଼ା ଥିଲା।",
+          "ତାକୁ କେମିତି ଧରିବି?",
+          "ପ୍ରତିଥର ଚେଷ୍ଟା କଲେ,",
+          "ମୋ ଆଙ୍ଗୁଠି କେବଳ ପାଉଁଶ ଓ କ୍ଷମାଯାଚନା ଛୁଏଁ।"
+        ],
+        [
+          "ବାହାରେ ରାସ୍ତାମାନେ ଅନ୍ଧ ଦୀପରେ ପଲକ ପକାନ୍ତି,",
+          "ପାଣିଗାଡ଼ରେ ସେମାନଙ୍କ ଆଲୁଅ ଥରେ,",
+          "ଯେମିତି ସହର ନିଜେ ଦେଖିବାକୁ ଡରୁଛି।",
+          "କୁକୁରମାନେ ବି ଭୁକିବା ବନ୍ଦ କରିଦେଇଛନ୍ତି।"
+        ],
+        [
+          "ସେମାନେ କହିଲେ, ତାକୁ ପନ୍ଦର ବର୍ଷ ହୋଇଥିଲା।",
+          "ମୁଁ ତା' ନାଁ ଜାଣେନି,",
+          "କେବଳ ଜାଣେ ତା' କାହାଣୀ କିପରି ମୋ କାହାଣୀରେ ପଶିଲା—",
+          "ନିଃଶ୍ୱାସ ନେବାକୁ କେବେ ମାଗି ନ ଥିବା ଫୁସ୍‌ଫୁସ୍‌ରେ ଧୂଆଁ ପରି।",
+          "ତା' ପାଖରେ ଆଉ ସ୍ୱର ନ ଥିଲା,",
+          "ତେଣୁ ମୋ ସ୍ୱର ଖନେଇବାକୁ ଲାଗିଲା।"
+        ],
+        [
+          "ମୁଁ ତାକୁ ଲେଖେ, କାରଣ ତାକୁ ଛୁଇଁପାରେନି।",
+          "କାରଣ ଯଦି ଛୁଇଁଦିଏ,",
+          "ମୋ ଅପରାଧବୋଧର ଭାର ମୋ ବାହୁକୁ ଚିରିଦେବ।",
+          "କାରଣ ମୋ ମନରେ ତା' ଚର୍ମ",
+          "ସେସବୁ ରାତିରେ ସିଲେଇ ହୋଇଛି, ଯାହାକୁ ଦେଖିବାକୁ ଆମେ ମନା କରିଥିଲୁ।"
+        ],
+        [
+          "ଆଉ ପୃଷ୍ଠାଟି ଭରିଗଲେ,",
+          "ମୁଁ ଦେଖେ ତା' ଛାଇ ନଇଁପଡ଼ୁଛି",
+          "ମୋ ରଚିତ ପ୍ରତିଟି ଶବ୍ଦ ଉପରେ।",
+          "ସେ ମୋତେ କ୍ଷମା କରେନି।",
+          "ତା'ର କରିବା ଦରକାର ବି ନାହିଁ।",
+          "ସେ କେବଳ ସେଠି ଠିଆ ରହେ,",
+          "ଅଧା ଅନ୍ଧାର, ଅଧା ପାହାନ୍ତା,",
+          "ଆଉ ମୋତେ ଅପେକ୍ଷା କରେ,",
+          "ମୁଁ ତା' ନାଁ ଲେଖି ସାରିବା ଯାଏଁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ମୋ କାଳିରେ ଚାଲୁଥିବା ଝିଅଟି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୁଁ ଲେଖେ, କାରଣ ନୀରବତା କାନ୍ଥକୁ କୁଟୁରି ଖାଏ।",
+          "ଶବ୍ଦମାନେ ପୋକଙ୍କ ପରି ଆସନ୍ତି—",
+          "କ୍ଷତ କେଉଁଠି ଅଛି ସେମାନେ ଜାଣନ୍ତି।"
+        ],
+        [
+          "କେଉଁଠି ଝିଅଟିଏ ମିଳିଥିଲା",
+          "ବରଗଛର ଅଧା ଆଲୁଅରେ,",
+          "ତା' ଛୋଟ ଦେହ ପ୍ରାର୍ଥନା ଲେଖା ଚିରା କାଗଜ ପରି ମୋଡ଼ି ହୋଇଥିଲା।",
+          "ଖବରକାଗଜ କିଛି ନୂଆ କହିଲେ ନାହିଁ—",
+          "କେବଳ ଲଜ୍ଜା ଓ ସ୍ତବ୍ଧତାର ଚିହ୍ନା ଅକ୍ଷର।",
+          "ତଥାପି ତା' ନିଃଶ୍ୱାସ ନ ଶୁଣି ମୁଁ ଶୋଇପାରେନି,",
+          "ଯାହା ମାଟିରେ ଅଟକି ରହିଛି।"
+        ],
+        [
+          "ତା' ହାତ ସଞ୍ଜରେ ଗଢ଼ା ଥିଲା।",
+          "ତାକୁ କେମିତି ଧରିବି?",
+          "ପ୍ରତିଥର ଚେଷ୍ଟା କଲେ,",
+          "ମୋ ଆଙ୍ଗୁଠି କେବଳ ପାଉଁଶ ଓ କ୍ଷମାଯାଚନା ଛୁଏଁ।"
+        ],
+        [
+          "ବାହାରେ ରାସ୍ତାମାନେ ଅନ୍ଧ ଦୀପରେ ପଲକ ପକାନ୍ତି,",
+          "ପାଣିଗାଡ଼ରେ ସେମାନଙ୍କ ଆଲୁଅ ଥରେ,",
+          "ଯେମିତି ସହର ନିଜେ ଦେଖିବାକୁ ଡରୁଛି।",
+          "କୁକୁରମାନେ ବି ଭୁକିବା ବନ୍ଦ କରିଦେଇଛନ୍ତି।"
+        ],
+        [
+          "ସେମାନେ କହିଲେ, ତାକୁ ପନ୍ଦର ବର୍ଷ ହୋଇଥିଲା।",
+          "ମୁଁ ତା' ନାଁ ଜାଣେନି,",
+          "କେବଳ ଜାଣେ ତା' କାହାଣୀ କିପରି ମୋ କାହାଣୀରେ ପଶିଲା—",
+          "ନିଃଶ୍ୱାସ ନେବାକୁ କେବେ ମାଗି ନ ଥିବା ଫୁସ୍‌ଫୁସ୍‌ରେ ଧୂଆଁ ପରି।",
+          "ତା' ପାଖରେ ଆଉ ସ୍ୱର ନ ଥିଲା,",
+          "ତେଣୁ ମୋ ସ୍ୱର ଖନେଇବାକୁ ଲାଗିଲା।"
+        ],
+        [
+          "ମୁଁ ତାକୁ ଲେଖେ, କାରଣ ତାକୁ ଛୁଇଁପାରେନି।",
+          "କାରଣ ଯଦି ଛୁଇଁଦିଏ,",
+          "ମୋ ଅପରାଧବୋଧର ଭାର ମୋ ବାହୁକୁ ଚିରିଦେବ।",
+          "କାରଣ ମୋ ମନରେ ତା' ଚର୍ମ",
+          "ସେସବୁ ରାତିକୁ ନେଇ ସିଲେଇ ହୋଇଛି, ଯାହାକୁ ଦେଖିବାକୁ ଆମେ ମନା କରିଥିଲୁ।"
+        ],
+        [
+          "ଆଉ ପୃଷ୍ଠାଟି ଭରିଗଲେ,",
+          "ମୁଁ ଦେଖେ ତା' ଛାଇ ନଇଁପଡ଼ୁଛି",
+          "ମୋ ରଚିତ ପ୍ରତିଟି ଶବ୍ଦ ଉପରେ।",
+          "ସେ ମୋତେ କ୍ଷମା କରେନି।",
+          "ତା'ର କରିବା ଦରକାର ବି ନାହିଁ।",
+          "ସେ କେବଳ ସେଠି ଠିଆ ରହେ,",
+          "ଅଧା ଅନ୍ଧାର, ଅଧା ପାହାନ୍ତା,",
+          "ଆଉ ମୋତେ ଅପେକ୍ଷା କରେ,",
+          "ମୁଁ ତା' ନାଁ ଲେଖି ସାରିବା ଯାଏଁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 677,
+    "target": "hi",
+    "reason": "Repair the noun agreement in half-darkness, half-dawn while preserving the female figure.",
+    "reading_evidence": "Read complete English source and both targets/title, seven stanzas: silence gnawing walls/insect words knowing wounds, unnamed girl found under banyan/folded prayer paper/newspaper shame-shock/breath in dirt, dusk hand/ash/apology, blind lamps/puddles/fearful city/silent dogs, stated age fifteen/unknown name/story as smoke into unwilling lungs/stuttered voice, writing rather than touching/guilt splitting arms/skin stitched with refused nights, full page/shadow/no forgiveness needed/half-dark-half-dawn/waiting for name. Preserve witness guilt and disturbing metaphors without supplying perpetrator, attack details, biography or an absolution ending.",
+    "open_questions": [
+      "Feminine narrator remains a provisional target choice; the girl’s explicit gender does not establish the speaker’s gender."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "आधा agrees with अँधेरा, आधी with भोर; the girl’s feminine pronouns and personification remain intact. This is not a change to the figure’s identity.",
+    "full_source_target_read": true,
+    "source_sha256": "831c0a783bd1b30e0e640691e22c351e4d18a17b05cbaa623263131e5a930fd1",
+    "before_sha256": "2fd34922a3ae8d95958b459b21e4f3031d629418c4c73bdee673904e0b341809",
+    "after_sha256": "fc75257198b7287fc9c103e8c1322042c96c13ace0b9e34c11de38c297070304",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "मेरी स्याही में चलती वह लड़की",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैं लिखती हूँ क्योंकि चुप्पी दीवारों को कुतरती है।",
+          "शब्द कीड़ों की तरह आते हैं—",
+          "उन्हें पता है घाव कहाँ हैं।"
+        ],
+        [
+          "कहीं एक लड़की मिली थी",
+          "बरगद की अधरोशनी में,",
+          "उसकी नन्ही देह प्रार्थना लिखे फटे काग़ज़ की तरह मुड़ी हुई।",
+          "अख़बारों ने कुछ नया नहीं कहा—",
+          "बस शर्म और सदमे के परिचित अक्षर।",
+          "फिर भी, मिट्टी में अटकी उसकी साँस सुने बिना",
+          "मैं सो नहीं पाती।"
+        ],
+        [
+          "उसका हाथ साँझ से बना था।",
+          "मैं उसे कैसे थामूँगी?",
+          "हर बार कोशिश करती हूँ,",
+          "मेरी उँगलियाँ बस राख और क्षमायाचना छूती हैं।"
+        ],
+        [
+          "बाहर सड़कें अंधे दीयों से पलकें झपकाती हैं,",
+          "उनकी रोशनी पानी के गड्ढों पर काँपती है,",
+          "जैसे शहर स्वयं देखने से डर रहा हो।",
+          "कुत्तों ने भी भौंकना छोड़ दिया है।"
+        ],
+        [
+          "उन्होंने कहा, वह पंद्रह की थी।",
+          "मैं उसका नाम नहीं जानती,",
+          "बस यह कि उसकी कहानी मेरी कहानी में कैसे आई—",
+          "उस धुएँ की तरह, उन फेफड़ों में जिन्होंने कभी साँस माँगी ही नहीं।",
+          "उसके पास कोई आवाज़ नहीं बची थी,",
+          "सो मेरी आवाज़ हकलाने लगी।"
+        ],
+        [
+          "मैं उसे लिखती हूँ क्योंकि उसे छू नहीं सकती।",
+          "क्योंकि अगर छू लूँ,",
+          "मेरे अपराधबोध का भार मेरी बाँहें चीर देगा।",
+          "क्योंकि मेरे मन में उसकी त्वचा",
+          "उन सारी रातों से सिली है जिन्हें देखने से हमने इनकार किया।"
+        ],
+        [
+          "और जब पन्ना भर जाता है,",
+          "मैं उसकी परछाईं झुकती देखती हूँ",
+          "मेरे रचे हर शब्द पर।",
+          "वह मुझे क्षमा नहीं करती।",
+          "उसे करने की ज़रूरत नहीं।",
+          "वह बस वहाँ खड़ी रहती है,",
+          "आधी अँधेरा, आधी भोर,",
+          "और मेरी प्रतीक्षा करती है",
+          "कि मैं उसका नाम लिखना पूरा करूँ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "मेरी स्याही में चलती वह लड़की",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैं लिखती हूँ क्योंकि चुप्पी दीवारों को कुतरती है।",
+          "शब्द कीड़ों की तरह आते हैं—",
+          "उन्हें पता है घाव कहाँ हैं।"
+        ],
+        [
+          "कहीं एक लड़की मिली थी",
+          "बरगद की अधरोशनी में,",
+          "उसकी नन्ही देह प्रार्थना लिखे फटे काग़ज़ की तरह मुड़ी हुई।",
+          "अख़बारों ने कुछ नया नहीं कहा—",
+          "बस शर्म और सदमे के परिचित अक्षर।",
+          "फिर भी, मिट्टी में अटकी उसकी साँस सुने बिना",
+          "मैं सो नहीं पाती।"
+        ],
+        [
+          "उसका हाथ साँझ से बना था।",
+          "मैं उसे कैसे थामूँगी?",
+          "हर बार कोशिश करती हूँ,",
+          "मेरी उँगलियाँ बस राख और क्षमायाचना छूती हैं।"
+        ],
+        [
+          "बाहर सड़कें अंधे दीयों से पलकें झपकाती हैं,",
+          "उनकी रोशनी पानी के गड्ढों पर काँपती है,",
+          "जैसे शहर स्वयं देखने से डर रहा हो।",
+          "कुत्तों ने भी भौंकना छोड़ दिया है।"
+        ],
+        [
+          "उन्होंने कहा, वह पंद्रह की थी।",
+          "मैं उसका नाम नहीं जानती,",
+          "बस यह कि उसकी कहानी मेरी कहानी में कैसे आई—",
+          "उस धुएँ की तरह, उन फेफड़ों में जिन्होंने कभी साँस माँगी ही नहीं।",
+          "उसके पास कोई आवाज़ नहीं बची थी,",
+          "सो मेरी आवाज़ हकलाने लगी।"
+        ],
+        [
+          "मैं उसे लिखती हूँ क्योंकि उसे छू नहीं सकती।",
+          "क्योंकि अगर छू लूँ,",
+          "मेरे अपराधबोध का भार मेरी बाँहें चीर देगा।",
+          "क्योंकि मेरे मन में उसकी त्वचा",
+          "उन सारी रातों से सिली है जिन्हें देखने से हमने इनकार किया।"
+        ],
+        [
+          "और जब पन्ना भर जाता है,",
+          "मैं उसकी परछाईं झुकती देखती हूँ",
+          "मेरे रचे हर शब्द पर।",
+          "वह मुझे क्षमा नहीं करती।",
+          "उसे करने की ज़रूरत नहीं।",
+          "वह बस वहाँ खड़ी रहती है,",
+          "आधा अँधेरा, आधी भोर,",
+          "और मेरी प्रतीक्षा करती है",
+          "कि मैं उसका नाम लिखना पूरा करूँ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 680,
+    "target": "or",
+    "reason": "Repair the flutist-playing construction with the natural continuing participle.",
+    "reading_evidence": "Read complete English source and both targets/title, eleven blocks: flute dream serenading still night, fragment melody/wounded air, Radha possible beloved mischief and Mira divine fingers, sleepy vision forest woman/helpless rooted trees and dew, unnamed ascetic bamboo bow/hut/predators, nostalgic morning/guilt/three women’s pain, Radha summer breath/rage preserving youth, Mira folded memories/joy-awaited grave, Sita betrayal/king’s subjects weighed against her, tender politics/chimeral logo/tongues/time rubric. Preserve speculation and poem-specific bow/grave images; do not replace them with another mythic account.",
+    "open_questions": [
+      "Chimeral nuances, tongues and strange rubric retain provisional meanings; tongues not silently turned into languages.",
+      "Source ascetic not named; Mira’s grave and bamboo bow retained as supplied imagery, not asserted historical or religious facts."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "The same unnamed flutist is heard playing somewhere; the revision does not identify the player as a deity or add an instrument beyond the established flute.",
+    "full_source_target_read": true,
+    "source_sha256": "a7b3a6879b7b36cf4bf51bf30af94cd072bc471868953b39b41688c1003c3f2d",
+    "before_sha256": "f575eda7ce1ae63176785df9153a470a1f2e7b6bed9daebb0d72a0e68071d1eb",
+    "after_sha256": "79ea8f83389d1b6a753e3f814f2b1ed2c9d79ba8b4d8c4d3008e42552317f1ac",
+    "prior_uncertainties": [
+      {
+        "note": "chimeral nuances and strange rubric rendered as elusive/mayavi meanings and temporal rules; tongues stays bodily rather than silently selecting languages. Hindi masculine narrator agreement is provisional, not identity verification.",
+        "record": "kb/production/translations/batch-031/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପ୍ରତୀକଚିହ୍ନ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୁଁ ବଂଶୀର ସ୍ୱପ୍ନ ଦେଖିଲି,",
+          "କେଉଁଠି ଜଣେ ବଂଶୀବାଦକଙ୍କୁ ବଜାଇବା ଶୁଣିଲି,",
+          "ନିଶ୍ଚଳ ରାତିକୁ ପ୍ରେମଗୀତ ଶୁଣାଉଥିଲେ।"
+        ],
+        [
+          "ସୁରର ଖଣ୍ଡିଏ ଅଂଶ",
+          "ନୀରବ ପବନରେ ଘୂରିବୁଲୁଥିଲା,",
+          "ତା' କ୍ଷତକୁ ଆଉଁସି ଦେଉଥିଲା।"
+        ],
+        [
+          "ରାଧା ହୁଏତ ତାକୁ ଭାବିଥିବେ",
+          "ନିଜ ପ୍ରିୟର ଚଞ୍ଚଳ ଦୁଷ୍ଟାମି,",
+          "ମୀରା ନିଜ ପ୍ରଭୁଙ୍କ ସାନ୍ତ୍ୱନାଦାୟୀ ଆଙ୍ଗୁଠି।"
+        ],
+        [
+          "ପୁଣି ନିଦରେ ଭାରୀ ମୋ ଆଖି ଦେଖିଲା",
+          "ବନରେ ଜଣେ ଏକାକିନୀ ନାରୀ କାନ୍ଦୁଛନ୍ତି, ଚାରିପାଖ ଗଛମାନେ ଅସହାୟ ନିଃଶ୍ୱାସ ରୋକିଛନ୍ତି।"
+        ],
+        [
+          "ଆଙ୍ଗୁଠିଟିଏ ବି ଉଠାଇବାକୁ ଅକ୍ଷମ, ନିଜ ଚୁକ୍ତିର",
+          "କଠୋର ସର୍ତ୍ତରେ ମାଟିରେ ମୂଳବନ୍ଧା,",
+          "ତଥାପି ତାଙ୍କ ଲୁହକୁ ଶାନ୍ତ କରିବାକୁ ସେମାନେ କାକର ଝରାନ୍ତି।"
+        ],
+        [
+          "ବାଉଁଶ ଧନୁ ଧରିଥିବା ଜଣେ ବୃଦ୍ଧ ତପସ୍ୱୀ",
+          "ନିଜ କୁଟୀରରେ ତାଙ୍କ ଅସହାୟତାକୁ ଆଶ୍ରୟ ଦେଲେ,",
+          "ତାଙ୍କ ଧନୁ ହିଂସ୍ର ପଶୁଙ୍କୁ ଦୂରେ ରଖୁଥିଲା।"
+        ],
+        [
+          "ମୁଁ ସ୍ମୃତିଭରା ସକାଳରେ ଜାଗିଲି।",
+          "ରାଧା, ମୀରା ଓ ସୀତାଙ୍କ ଯନ୍ତ୍ରଣା",
+          "ଦହନ୍ତା ଅଙ୍ଗାର ପରି ମୋ ଅପରାଧବୋଧକୁ ଘାରିଲା।"
+        ],
+        [
+          "ରାଧାଙ୍କ ଏକାକୀ ଲୁହ ବଦଳୁଥିଲା",
+          "ଗ୍ରୀଷ୍ମର ଉତ୍ତପ୍ତ ଓ ଗୁଳୁଗୁଳିଆ ନିଃଶ୍ୱାସରେ।",
+          "ତାଙ୍କ ରୋଷ ତାଙ୍କ ବ୍ୟାକୁଳ ଯୌବନକୁ ଉଦ୍ଧାର କରୁଥିଲା।"
+        ],
+        [
+          "ମୀରା ନିଜ ସ୍ମୃତି ସାଉଁଟି ଭାଙ୍ଗି ରଖିଲେ",
+          "ହୃଦୟରେ, ସାଙ୍ଗରେ ନେଇଯିବାକୁ",
+          "ନିଜ କବର ଯାଏଁ, ଯାହାକୁ ସେ ଆନନ୍ଦରେ ଅପେକ୍ଷା କରିଥିଲେ।"
+        ],
+        [
+          "ସୀତା ବିଶ୍ୱାସଘାତ ଅନୁଭବ କଲେ, କିନ୍ତୁ ତାଙ୍କ ସ୍ୱାମୀ",
+          "ଜଣେ ରାଜା ଥିଲେ। ତାଙ୍କ ତରାଜୁରେ ହଜାର ହଜାର ପ୍ରଜାଙ୍କ ବିପକ୍ଷରେ ସେ ଥିଲେ।"
+        ],
+        [
+          "ପ୍ରେମ ବି ଏକ କୋମଳ ରାଜନୀତି ହୋଇ ରହିଛି,",
+          "ତା' ପ୍ରତୀକଚିହ୍ନ ନେଉଛି ମାୟାମୟ ଅର୍ଥଛଟା ଓ",
+          "ଜିହ୍ୱା, ସମୟର ଅଦ୍ଭୁତ ନିୟମାବଳୀରୁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପ୍ରତୀକଚିହ୍ନ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୁଁ ବଂଶୀର ସ୍ୱପ୍ନ ଦେଖିଲି,",
+          "କେଉଁଠି ଜଣେ ବଂଶୀବାଦକ ବଜାଉଥିବା ଶୁଣିଲି,",
+          "ନିଶ୍ଚଳ ରାତିକୁ ପ୍ରେମଗୀତ ଶୁଣାଉଥିଲେ।"
+        ],
+        [
+          "ସୁରର ଖଣ୍ଡିଏ ଅଂଶ",
+          "ନୀରବ ପବନରେ ଘୂରିବୁଲୁଥିଲା,",
+          "ତା' କ୍ଷତକୁ ଆଉଁସି ଦେଉଥିଲା।"
+        ],
+        [
+          "ରାଧା ହୁଏତ ତାକୁ ଭାବିଥିବେ",
+          "ନିଜ ପ୍ରିୟର ଚଞ୍ଚଳ ଦୁଷ୍ଟାମି,",
+          "ମୀରା ନିଜ ପ୍ରଭୁଙ୍କ ସାନ୍ତ୍ୱନାଦାୟୀ ଆଙ୍ଗୁଠି।"
+        ],
+        [
+          "ପୁଣି ନିଦରେ ଭାରୀ ମୋ ଆଖି ଦେଖିଲା",
+          "ବନରେ ଜଣେ ଏକାକିନୀ ନାରୀ କାନ୍ଦୁଛନ୍ତି, ଚାରିପାଖ ଗଛମାନେ ଅସହାୟ ନିଃଶ୍ୱାସ ରୋକିଛନ୍ତି।"
+        ],
+        [
+          "ଆଙ୍ଗୁଠିଟିଏ ବି ଉଠାଇବାକୁ ଅକ୍ଷମ, ନିଜ ଚୁକ୍ତିର",
+          "କଠୋର ସର୍ତ୍ତରେ ମାଟିରେ ମୂଳବନ୍ଧା,",
+          "ତଥାପି ତାଙ୍କ ଲୁହକୁ ଶାନ୍ତ କରିବାକୁ ସେମାନେ କାକର ଝରାନ୍ତି।"
+        ],
+        [
+          "ବାଉଁଶ ଧନୁ ଧରିଥିବା ଜଣେ ବୃଦ୍ଧ ତପସ୍ୱୀ",
+          "ନିଜ କୁଟୀରରେ ତାଙ୍କ ଅସହାୟତାକୁ ଆଶ୍ରୟ ଦେଲେ,",
+          "ତାଙ୍କ ଧନୁ ହିଂସ୍ର ପଶୁଙ୍କୁ ଦୂରେ ରଖୁଥିଲା।"
+        ],
+        [
+          "ମୁଁ ସ୍ମୃତିଭରା ସକାଳରେ ଜାଗିଲି।",
+          "ରାଧା, ମୀରା ଓ ସୀତାଙ୍କ ଯନ୍ତ୍ରଣା",
+          "ଦହନ୍ତା ଅଙ୍ଗାର ପରି ମୋ ଅପରାଧବୋଧକୁ ଘାରିଲା।"
+        ],
+        [
+          "ରାଧାଙ୍କ ଏକାକୀ ଲୁହ ବଦଳୁଥିଲା",
+          "ଗ୍ରୀଷ୍ମର ଉତ୍ତପ୍ତ ଓ ଗୁଳୁଗୁଳିଆ ନିଃଶ୍ୱାସରେ।",
+          "ତାଙ୍କ ରୋଷ ତାଙ୍କ ବ୍ୟାକୁଳ ଯୌବନକୁ ଉଦ୍ଧାର କରୁଥିଲା।"
+        ],
+        [
+          "ମୀରା ନିଜ ସ୍ମୃତି ସାଉଁଟି ଭାଙ୍ଗି ରଖିଲେ",
+          "ହୃଦୟରେ, ସାଙ୍ଗରେ ନେଇଯିବାକୁ",
+          "ନିଜ କବର ଯାଏଁ, ଯାହାକୁ ସେ ଆନନ୍ଦରେ ଅପେକ୍ଷା କରିଥିଲେ।"
+        ],
+        [
+          "ସୀତା ବିଶ୍ୱାସଘାତ ଅନୁଭବ କଲେ, କିନ୍ତୁ ତାଙ୍କ ସ୍ୱାମୀ",
+          "ଜଣେ ରାଜା ଥିଲେ। ତାଙ୍କ ତରାଜୁରେ ହଜାର ହଜାର ପ୍ରଜାଙ୍କ ବିପକ୍ଷରେ ସେ ଥିଲେ।"
+        ],
+        [
+          "ପ୍ରେମ ବି ଏକ କୋମଳ ରାଜନୀତି ହୋଇ ରହିଛି,",
+          "ତା' ପ୍ରତୀକଚିହ୍ନ ନେଉଛି ମାୟାମୟ ଅର୍ଥଛଟା ଓ",
+          "ଜିହ୍ୱା, ସମୟର ଅଦ୍ଭୁତ ନିୟମାବଳୀରୁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 681,
+    "target": "or",
+    "reason": "Use picture frames rather than doorframes and preserve the source million as ten lakh.",
+    "reading_evidence": "Read complete16-line English source and both targets/title: waking thinking of addressee/tune, relationship absorbed in lyrics and singing intonation, tone/tenor/ballad, words running/heart rhyme/quivering lips, silent millionfold name, picture in differing frames/face in waves, lyrical web’s game/words beneath words. Preserve song response as a poem, no audio or named song introduced; no gender inferred from lyric addressee.",
+    "open_questions": [
+      "Tenor is read as expressive character rather than a specified vocal register; connect picture in different frames remains a compressed source metaphor."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "The count remains rhetorical hyperbole, not a measured utterance tally. Ten lakh preserves its stated magnitude; picture-frame loanword avoids relocating the image to architectural doorframes.",
+    "full_source_target_read": true,
+    "source_sha256": "987bf092b6a13fb870d2b0e5f920377df0c2dcf2ca606770c120683356bc36c7",
+    "before_sha256": "6f4d6c143e079df31fd38028c5d9ed450de5e9d51890caa51c8004409386bc60",
+    "after_sha256": "2daf8c0fbecac337c25eb89fcc1143736ab9f1a132598c49d1e0de34138bbe7f",
+    "prior_uncertainties": [
+      {
+        "note": "Hindi feminine agreement is a provisional narrative voice choice; gender is not explicit in original. No audio, romantic biography or song identity added.",
+        "record": "kb/production/translations/batch-031/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ତୁମ କଥା ଭାବି ଜାଗିଲି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୁଁ ତୁମ କଥା ଭାବି ଜାଗିଲି",
+          "ଆଉ ତୁମ ସୁମଧୁର ସୁର କଥା",
+          "କେତେ ସୁନ୍ଦର ଭାବେ ତୁମେ ଆମ ସମ୍ପର୍କକୁ ସମାହିତ କରିଛ",
+          "ଗୀତର କଥାରେ ଓ ଗାୟନର ସ୍ୱରଭଙ୍ଗୀରେ ବି",
+          "ସ୍ୱରଟି ଲାଳିତ୍ୟମୟ",
+          "ତା' ଭାବଟି ସୁରୁଚିପୂର୍ଣ୍ଣ",
+          "ସେ ଗୀତିମୟ ଗାଥା ମନମୋହକ",
+          "ସେ ଶବ୍ଦମାନେ ମୋ ମନରେ ଦୌଡ଼ନ୍ତି",
+          "ହୃଦୟ ତୁକ ଗାଏ",
+          "ଓଠ ରହିରହି ଥରେ",
+          "ନୀରବରେ ତୁମ ନାଁ ଲକ୍ଷେ ଥର ଉଚ୍ଚାରେ",
+          "ଭିନ୍ନ ଭିନ୍ନ ଚଉକାଠରେ ତୁମ ଛବି ଯୋଡ଼େ",
+          "ଭିନ୍ନ ଭିନ୍ନ ଲହରୀରେ ତୁମ ମୁହଁ ଦେଖେ",
+          "ଗୀତର ଜାଲ ଖେଳ ଖେଳୁଛି",
+          "ମୋତେ ଖୋଜିବାକୁ ପ୍ରେରେ",
+          "ଶବ୍ଦ ତଳର ଶବ୍ଦମାନଙ୍କୁ"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ତୁମ କଥା ଭାବି ଜାଗିଲି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୁଁ ତୁମ କଥା ଭାବି ଜାଗିଲି",
+          "ଆଉ ତୁମ ସୁମଧୁର ସୁର କଥା",
+          "କେତେ ସୁନ୍ଦର ଭାବେ ତୁମେ ଆମ ସମ୍ପର୍କକୁ ସମାହିତ କରିଛ",
+          "ଗୀତର କଥାରେ ଓ ଗାୟନର ସ୍ୱରଭଙ୍ଗୀରେ ବି",
+          "ସ୍ୱରଟି ଲାଳିତ୍ୟମୟ",
+          "ତା' ଭାବଟି ସୁରୁଚିପୂର୍ଣ୍ଣ",
+          "ସେ ଗୀତିମୟ ଗାଥା ମନମୋହକ",
+          "ସେ ଶବ୍ଦମାନେ ମୋ ମନରେ ଦୌଡ଼ନ୍ତି",
+          "ହୃଦୟ ତୁକ ଗାଏ",
+          "ଓଠ ରହିରହି ଥରେ",
+          "ନୀରବରେ ତୁମ ନାଁ ଦଶ ଲକ୍ଷ ଥର ଉଚ୍ଚାରେ",
+          "ଭିନ୍ନ ଭିନ୍ନ ଫ୍ରେମ୍‌ରେ ତୁମ ଛବି ଯୋଡ଼େ",
+          "ଭିନ୍ନ ଭିନ୍ନ ଲହରୀରେ ତୁମ ମୁହଁ ଦେଖେ",
+          "ଗୀତର ଜାଲ ଖେଳ ଖେଳୁଛି",
+          "ମୋତେ ଖୋଜିବାକୁ ପ୍ରେରେ",
+          "ଶବ୍ଦ ତଳର ଶବ୍ଦମାନଙ୍କୁ"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 681,
+    "target": "hi",
+    "reason": "Use the natural picture-frame term and preserve million as ten lakh.",
+    "reading_evidence": "Read complete16-line English source and both targets/title: waking thinking of addressee/tune, relationship absorbed in lyrics and singing intonation, tone/tenor/ballad, words running/heart rhyme/quivering lips, silent millionfold name, picture in differing frames/face in waves, lyrical web’s game/words beneath words. Preserve song response as a poem, no audio or named song introduced; no gender inferred from lyric addressee.",
+    "open_questions": [
+      "Tenor is read as expressive character rather than a specified vocal register; connect picture in different frames remains a compressed source metaphor.",
+      "Hindi feminine narrator remains provisional, including the title; author identity does not establish it."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "लाखों already conveys hyperbole but is less precise; दस लाख preserves the source magnitude. फ़्रेम keeps the visual frame metaphor without importing doorways.",
+    "full_source_target_read": true,
+    "source_sha256": "987bf092b6a13fb870d2b0e5f920377df0c2dcf2ca606770c120683356bc36c7",
+    "before_sha256": "477890a0f71c7a0c3fbabef9e113014a787f688ee34e35efba6b03cb8c4b5af5",
+    "after_sha256": "04bb940d0d4f235c1ae30812264838e52f4282a2a7e05c7724cb667b773dba42",
+    "prior_uncertainties": [
+      {
+        "note": "Hindi feminine agreement is a provisional narrative voice choice; gender is not explicit in original. No audio, romantic biography or song identity added.",
+        "record": "kb/production/translations/batch-031/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "तुम्हें सोचते हुए जागी",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैं तुम्हें सोचते हुए जागी",
+          "और तुम्हारी मधुर धुन के बारे में",
+          "कितनी सुंदरता से तुमने हमारा रिश्ता समेट लिया",
+          "गीत के बोलों में और गाने के स्वर-विन्यास में भी",
+          "स्वर में गरिमा है",
+          "उसका भाव सुघड़ है",
+          "यह लयात्मक गाथा मोह लेती है",
+          "वे शब्द मेरे मन में दौड़ते हैं",
+          "हृदय तुक गाता है",
+          "होंठ रह-रहकर काँपते हैं",
+          "चुप्पी में तुम्हारा नाम लाखों बार कहती हूँ",
+          "अलग-अलग चौखटों में तुम्हारी तस्वीर जोड़ती हूँ",
+          "अलग-अलग लहरों में तुम्हारा चेहरा देखती हूँ",
+          "गीत का जाल खेल रच रहा है",
+          "मुझे खोजने को उकसाता",
+          "शब्दों के नीचे के शब्द"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "तुम्हें सोचते हुए जागी",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैं तुम्हें सोचते हुए जागी",
+          "और तुम्हारी मधुर धुन के बारे में",
+          "कितनी सुंदरता से तुमने हमारा रिश्ता समेट लिया",
+          "गीत के बोलों में और गाने के स्वर-विन्यास में भी",
+          "स्वर में गरिमा है",
+          "उसका भाव सुघड़ है",
+          "यह लयात्मक गाथा मोह लेती है",
+          "वे शब्द मेरे मन में दौड़ते हैं",
+          "हृदय तुक गाता है",
+          "होंठ रह-रहकर काँपते हैं",
+          "चुप्पी में तुम्हारा नाम दस लाख बार कहती हूँ",
+          "अलग-अलग फ़्रेमों में तुम्हारी तस्वीर जोड़ती हूँ",
+          "अलग-अलग लहरों में तुम्हारा चेहरा देखती हूँ",
+          "गीत का जाल खेल रच रहा है",
+          "मुझे खोजने को उकसाता",
+          "शब्दों के नीचे के शब्द"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

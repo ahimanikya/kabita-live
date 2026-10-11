@@ -1,0 +1,237 @@
+{
+  "recorded_at": "2026-10-05T15:39:51.850814+00:00",
+  "poem_ids": [
+    548,
+    550,
+    546,
+    547,
+    551
+  ],
+  "variants_read": 10,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 548,
+      "target": "hi",
+      "reading_evidence": "Full three source/target stanzas and Rasol tail: life behind blind bolt, mirror/lost motherhood/lap warmth/sought happiness, familiar soul face/leaking pitcher/roadside flower/little care, other world’s green sari end, remaining lifespan blessing and happy child.",
+      "reason": "Retain the spare parental blessing and vulnerable flower image; do not resolve the opening family narrative by adding context.",
+      "open_questions": [
+        "Opening lost motherhood and someone-else’s happiness are fragmentary; neither adoption nor a specific family relationship is inferred. Green sari-end/other world remains literal imagery."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "ea7cc02f21547674336c75715ee7a7652d4cb942b3a04bb50f1eb528ac29d618",
+      "before_sha256": "0f13be51ef3f0c9b31d9bdae705d820309e6ce53079f6db66b3ec7fc74b4ced7",
+      "after_sha256": "0f13be51ef3f0c9b31d9bdae705d820309e6ce53079f6db66b3ec7fc74b4ced7",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 548,
+      "target": "en",
+      "reading_evidence": "Full three source/target stanzas and Rasol tail: life behind blind bolt, mirror/lost motherhood/lap warmth/sought happiness, familiar soul face/leaking pitcher/roadside flower/little care, other world’s green sari end, remaining lifespan blessing and happy child.",
+      "reason": "Retain the spare parental blessing and vulnerable flower image; do not resolve the opening family narrative by adding context.",
+      "open_questions": [
+        "Opening lost motherhood and someone-else’s happiness are fragmentary; neither adoption nor a specific family relationship is inferred. Green sari-end/other world remains literal imagery."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "ea7cc02f21547674336c75715ee7a7652d4cb942b3a04bb50f1eb528ac29d618",
+      "before_sha256": "1942f87b852a4047ec8cf49b84750b4282701450ce7a9473bddcc3474bdf7713",
+      "after_sha256": "1942f87b852a4047ec8cf49b84750b4282701450ce7a9473bddcc3474bdf7713",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 550,
+      "target": "hi",
+      "reading_evidence": "Full three source/target stanzas: two lips becoming four, rustling autumn/wind, remembered fingers/green mangoes/games, groves/four eyes/bed/bodily years, one body/bodilessness, unwound clock/silent veena, still frenzy, lips/adhar, separation, ageing/coffin/unseen rope/free bird/sky cage/chosen death. Literal br> in source and targets inspected.",
+      "reason": "Remove the confirmed stray HTML fragment from the generated target without changing its line or any poetic wording.",
+      "open_questions": [
+        "Natu-chori remains provisionally spinning-top theft; erotic intimacy and chosen-death imagery preserved without biography. Original source br> remains a source-cleanup question; only generated drafts are cleaned."
+      ],
+      "finding_dispositions": {
+        "PNR-069": "fixed_in_generated_target_only; original_source_markup_question_remains"
+      },
+      "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "3eea66067740999790d8b93a55c28a7ff84469db4cabd332101c3ffac40703cf",
+      "before_sha256": "8944cfc4a14704d139adb7cbff2c542b0df3efd2d386d3164b254a424a12d2df",
+      "after_sha256": "f5f66bff21c32ce1ed5afb62b52234d7ba679b26235c332ed8c152e1b6f773ed",
+      "prior_uncertainties": [
+        {
+          "note": "Literal stray br> retained for explicit editorial cleanup, original unchanged. Natu-chori provisionally spinning-top theft; adhar poetic synonym for lips retained in English transliteration because word-register change is the image. Erotic intimacy, ageing and chosen-death imagery retained without biographical inference.",
+          "record": "kb/production/translations/batch-059/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 550,
+      "target": "en",
+      "reading_evidence": "Full three source/target stanzas: two lips becoming four, rustling autumn/wind, remembered fingers/green mangoes/games, groves/four eyes/bed/bodily years, one body/bodilessness, unwound clock/silent veena, still frenzy, lips/adhar, separation, ageing/coffin/unseen rope/free bird/sky cage/chosen death. Literal br> in source and targets inspected.",
+      "reason": "Remove target markup contamination. Retain adhar provisionally rather than invent rose/beauty imagery to manufacture an English register contrast.",
+      "open_questions": [
+        "Natu-chori remains provisionally spinning-top theft; erotic intimacy and chosen-death imagery preserved without biography. Original source br> remains a source-cleanup question; only generated drafts are cleaned.",
+        "PNR-071 remains unresolved: adhar conveys a poetic synonym for lips but an English reader cannot experience the register shift from unexplained transliteration. A gloss or new image would change the line; fluent editorial choice pending."
+      ],
+      "finding_dispositions": {
+        "PNR-070": "fixed_in_generated_target_only; original_source_markup_question_remains",
+        "PNR-071": "confirmed_target_register_limitation; unresolved_editorial_choice_held"
+      },
+      "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "3eea66067740999790d8b93a55c28a7ff84469db4cabd332101c3ffac40703cf",
+      "before_sha256": "518954e2086fa87ade7fc2e72c1a10103cf8f1a739145447670e2a92a181fd4b",
+      "after_sha256": "909d321fbd98f370acd3c731b949a58dc75f5d20f3904d64ba9367cdad292177",
+      "prior_uncertainties": [
+        {
+          "note": "Literal stray br> retained for explicit editorial cleanup, original unchanged. Natu-chori provisionally spinning-top theft; adhar poetic synonym for lips retained in English transliteration because word-register change is the image. Erotic intimacy, ageing and chosen-death imagery retained without biographical inference.",
+          "record": "kb/production/translations/batch-059/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 546,
+      "target": "en",
+      "reading_evidence": "Complete thirty source/target lines and title: hypnotized circular walk/void/falling, first point/journey, balloon-like transparent net/stumbling/restarting, repeated seasons/night/evening/Phagun, distant subtle mind’s gestures deliberately ignored, meaningless action/reaction and centuries-long burden.",
+      "reason": "Ignoring the understood gestures need not be a physical act of averting the eyes; restore the source’s deliberate disregard.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "df4995d27ea8bc95bea58dea605513e389361dbbaa5ee4e4ea7505a3e14d8729",
+      "before_sha256": "54a550baf702ad77bc83461ffceee89649db561881a8c40139f73357830dd949",
+      "after_sha256": "0bd740eb5f4f3d2569a695aa9899dce44573533fb6506f8d3db864ae4ec4b90a",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 546,
+      "target": "or",
+      "reading_evidence": "Complete thirty source/target lines and title: hypnotized circular walk/void/falling, first point/journey, balloon-like transparent net/stumbling/restarting, repeated seasons/night/evening/Phagun, distant subtle mind’s gestures deliberately ignored, meaningless action/reaction and centuries-long burden.",
+      "reason": "Retain: cyclical repetition, Phagun, net and ignored inner-mind gestures are already clear without smoothing the obsessive return.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "df4995d27ea8bc95bea58dea605513e389361dbbaa5ee4e4ea7505a3e14d8729",
+      "before_sha256": "30cd919d3af4080e72e38d29936cf5bf8b7107f0be22568f0f5fa81fa68aa95e",
+      "after_sha256": "30cd919d3af4080e72e38d29936cf5bf8b7107f0be22568f0f5fa81fa68aa95e",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 547,
+      "target": "en",
+      "reading_evidence": "Full twenty-line source and each target plus Jamshedpur: afternoon/night, waiting woman/earthen phrase, laughing biting snake-locks, empty home/bed/smiling heart/startle, fragrant braid garlands/bee/pollen, sunlight cupped in hands, moths/nectar and scattered flowers/golden body.",
+      "reason": "Keep locks attached to the waiting woman and avoid narrowing aahat to definite footsteps.",
+      "open_questions": [
+        "Mrnmeyi remains ambiguous between earth-made woman and eyes; English earthen-woman reading remains provisional. Sunlight after night and distinct bees/moths are source features, not silently reconciled."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "5057bd380100c78f24881c3c4a8ee25035ab1d7ae44a3503b40e6d49570245a9",
+      "before_sha256": "ac7a237330d462d59df2a44285f94e7532b44eeb4bb29addd176e7c069339162",
+      "after_sha256": "0be53c0421cca4aaf7fe4cc864e9cc4636b0717d426eb179d583d74dc4ad2b43",
+      "prior_uncertainties": [
+        {
+          "note": "Mrnmeyi ambiguously earth-made woman/eyes; English uses earthen woman provisionally. Bee and moth imagery not conflated. Sunlight in cupped hands retained despite night opening.",
+          "record": "kb/production/translations/batch-059/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 547,
+      "target": "or",
+      "reading_evidence": "Full twenty-line source and each target plus Jamshedpur: afternoon/night, waiting woman/earthen phrase, laughing biting snake-locks, empty home/bed/smiling heart/startle, fragrant braid garlands/bee/pollen, sunlight cupped in hands, moths/nectar and scattered flowers/golden body.",
+      "reason": "Preserve the startled response to a sound without supplying definite approaching footsteps.",
+      "open_questions": [
+        "Mrnmeyi remains ambiguous between earth-made woman and eyes; English earthen-woman reading remains provisional. Sunlight after night and distinct bees/moths are source features, not silently reconciled."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "5057bd380100c78f24881c3c4a8ee25035ab1d7ae44a3503b40e6d49570245a9",
+      "before_sha256": "810a5fd7970125c6be3195347c2f62fa7799854ae18b562cb6518b0409c4dfe0",
+      "after_sha256": "a1bddbf102a0993acd455677037b8e4b2f04aa73e7f6586a7aed9e82635e72fa",
+      "prior_uncertainties": [
+        {
+          "note": "Mrnmeyi ambiguously earth-made woman/eyes; English uses earthen woman provisionally. Bee and moth imagery not conflated. Sunlight in cupped hands retained despite night opening.",
+          "record": "kb/production/translations/batch-059/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 551,
+      "target": "or",
+      "reading_evidence": "Complete ten couplets including repeated opening/closing: Odisha/new creation/Puri/Sanatan, Utkal/Kalinga/temples/Shri Hari, King Od/Bhagirath/hills, bay/paddy, architecture/science, war/Dhauli/refuge formula, craft/sari/foods, maternal rivers and named writers/devotion/workplace.",
+      "reason": "Retain the repeated self-identification and place/food/writer anchors. The poem’s explicit cultural claims should not be silently fact-corrected or expanded.",
+      "open_questions": [
+        "King Od and Bhagirath lineage, Sanatan’s exact referent and cultural/historical assertions are retained as source poetry, not independently verified. No unmentioned dynasty or doctrinal term added."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "697de31cefcd36dbcd2db5d6844042e79e6c92698719a7353ba1c624b2614ff5",
+      "before_sha256": "e583fd62d59b9eb80183aeeb8eb0b822f54dc30f51b5dd37622043a333a5157f",
+      "after_sha256": "e583fd62d59b9eb80183aeeb8eb0b822f54dc30f51b5dd37622043a333a5157f",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 551,
+      "target": "en",
+      "reading_evidence": "Complete ten couplets including repeated opening/closing: Odisha/new creation/Puri/Sanatan, Utkal/Kalinga/temples/Shri Hari, King Od/Bhagirath/hills, bay/paddy, architecture/science, war/Dhauli/refuge formula, craft/sari/foods, maternal rivers and named writers/devotion/workplace.",
+      "reason": "Retain the repeated self-identification and place/food/writer anchors. The poem’s explicit cultural claims should not be silently fact-corrected or expanded.",
+      "open_questions": [
+        "King Od and Bhagirath lineage, Sanatan’s exact referent and cultural/historical assertions are retained as source poetry, not independently verified. No unmentioned dynasty or doctrinal term added."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "697de31cefcd36dbcd2db5d6844042e79e6c92698719a7353ba1c624b2614ff5",
+      "before_sha256": "2276698452b92937d101315e074b0402d303f295172854f6aad100f9e93c48bb",
+      "after_sha256": "2276698452b92937d101315e074b0402d303f295172854f6aad100f9e93c48bb",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

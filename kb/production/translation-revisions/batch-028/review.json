@@ -1,0 +1,67 @@
+{
+  "recorded_at": "2026-10-05T12:36:29.416675+00:00",
+  "poem_ids": [
+    691
+  ],
+  "variants_read": 2,
+  "variants_changed": 2,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 691,
+      "target": "or",
+      "reason": "Clarify acting without thought, and repair the separation of the emphatic particle ବି from the verb in Mohan’s unspoken response.",
+      "reading_evidence": "Complete Hindi source and complete English and Odia targets read separately, including title and all 38 mixed prose/verse blocks and Jamshedpur tail. Followed the opening Kali/mango-tree memory, 25–35 interval and six/seven visits, family intimacy and car dialogue, June temple scene and vermilion, reciprocal looking/closed eyes/wrist refusal, hidden mark and unspoken desire, separate weddings and palm-reader dialogue, years of responsibilities, wedding file becoming ten-year diary, quoted confession and unasked question, unnamed later visitor/Papa dialogue, return to mango tree and leaving diary, attributed Kumar Vishwas excerpt, balcony river/quiet acceptance and paradoxical heartbeat, final paths/imprints/returning moments. Read directly against Hindi, retaining long prose lines rather than verseifying or abridging; target cadence and pronoun transitions checked. AI self-review only.",
+      "open_questions": [
+        "The opening age interval does not name its subject; later उन्होंने/वह is unnamed. Existing he/ସେ retained without inventing a spouse name or resolving relationships from presumed biography.",
+        "The temple फ़लक is uncertain: current panel/ଫଳକ remains provisional; removing the added English sacred does not establish the physical object.",
+        "Office dialogue ऑफिस छोड़ दे may mean drop me at the office or leave the office/work; existing leave-office reading remains provisional pending source clarification.",
+        "Final heartbeat both returns and had not beaten that day; preserve the paradox and chronology without inventing a retrospective explanation. Palm-reading assertion remains fictional dialogue, not a factual marriage determination."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Without thinking remains spontaneous action, not absence of feeling. The second edit separates could not even say from a misleading future-form reading; register, silence and all original block boundaries remain.",
+      "full_source_target_read": true,
+      "source_sha256": "eb93820c35f5f1d0226df24368f7264d98e3e1ed45c27c18c6102d85472210e2",
+      "before_sha256": "358694fbc06af27f479a068a663a078b07b45e4614988bc7e83c3c65e08504eb",
+      "after_sha256": "c7a920d9918806068ad42cf6716ff07ee88711c60be771e58af71c88d86c6816",
+      "prior_uncertainties": [
+        {
+          "note": "Source is explicitly a short novella in mixed prose/verse, not an ordinary lyric. All 38 source blocks and their line counts preserved, including long prose lines, diary quotation, attributed Kumar Vishwas excerpt and address. No conversion to artificial verse or dropped prose. Opening age interval subject, later he/उन्होंने referent, temple फलक and paradoxical final heartbeat remain ambiguous; no new spouse name or relationship history added. Palm-reading assertion remains fictional dialogue, not factual certification. Ending and chronology preserved without reconciling inconsistencies.",
+          "record": "kb/production/translations/batch-026/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 691,
+      "target": "en",
+      "reason": "Remove an unsupported reverential adjective from the uncertain temple object and make the diary apology idiomatic without assigning an agent of hurt.",
+      "reading_evidence": "Complete Hindi source and complete English and Odia targets read separately, including title and all 38 mixed prose/verse blocks and Jamshedpur tail. Followed the opening Kali/mango-tree memory, 25–35 interval and six/seven visits, family intimacy and car dialogue, June temple scene and vermilion, reciprocal looking/closed eyes/wrist refusal, hidden mark and unspoken desire, separate weddings and palm-reader dialogue, years of responsibilities, wedding file becoming ten-year diary, quoted confession and unasked question, unnamed later visitor/Papa dialogue, return to mango tree and leaving diary, attributed Kumar Vishwas excerpt, balcony river/quiet acceptance and paradoxical heartbeat, final paths/imprints/returning moments. Read directly against Hindi, retaining long prose lines rather than verseifying or abridging; target cadence and pronoun transitions checked. AI self-review only.",
+      "open_questions": [
+        "The opening age interval does not name its subject; later उन्होंने/वह is unnamed. Existing he/ସେ retained without inventing a spouse name or resolving relationships from presumed biography.",
+        "The temple फ़लक is uncertain: current panel/ଫଳକ remains provisional; removing the added English sacred does not establish the physical object.",
+        "Office dialogue ऑफिस छोड़ दे may mean drop me at the office or leave the office/work; existing leave-office reading remains provisional pending source clarification.",
+        "Final heartbeat both returns and had not beaten that day; preserve the paradox and chronology without inventing a retrospective explanation. Palm-reading assertion remains fictional dialogue, not a factual marriage determination."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Panel stays provisional. The apology preserves inward emotional hurt and its conditional force; it does not introduce I hurt you, intensify the confession, or resolve the unnamed later he.",
+      "full_source_target_read": true,
+      "source_sha256": "eb93820c35f5f1d0226df24368f7264d98e3e1ed45c27c18c6102d85472210e2",
+      "before_sha256": "2c17e5f5bf6a31d80dcbcfb1b20ab06006e77fa1f6af6d379fa9381aaab08de6",
+      "after_sha256": "0018af6c36aa60235092298ed83e4b80d1325b4c6258856a2f943f2bbf99e5fa",
+      "prior_uncertainties": [
+        {
+          "note": "Source is explicitly a short novella in mixed prose/verse, not an ordinary lyric. All 38 source blocks and their line counts preserved, including long prose lines, diary quotation, attributed Kumar Vishwas excerpt and address. No conversion to artificial verse or dropped prose. Opening age interval subject, later he/उन्होंने referent, temple फलक and paradoxical final heartbeat remain ambiguous; no new spouse name or relationship history added. Palm-reading assertion remains fictional dialogue, not factual certification. Ending and chronology preserved without reconciling inconsistencies.",
+          "record": "kb/production/translations/batch-026/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "recorded_at": "2026-10-06T07:43:25.817967+00:00",
+  "poem_ids": [
+    36,
+    37,
+    38
+  ],
+  "variants_read": 6,
+  "variants_changed": 3,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 36,
+      "target": "hi",
+      "reading_evidence": "Read complete36-line Odia source and each complete target: now sorrow to sorrow versus remembered movement between joy/dream/fragrance; solitary amid clamour, silent/motionless and loss of dearest memory; roadside unblinking/leafless fruit-laden tree and incongruity repeated inside speaker; unreadable letters on branches and sky; stolen enchantment of letter-conversation; repeated solitude, sleepless-night torment and pale dreams. Checked repetition and negated memory, scene versus gaze attachment, and sky as visual setting rather than structural foundation.",
+      "open_questions": [
+        "Prior nispalaka/unblinking attachment remains unresolved: tree appearance versus observing gaze; preserve current unusual wording pending source clarification. Hindi feminine narrator remains provisional; author identity does not establish narrator gender."
+      ],
+      "reason": "Retain after full reading: sorrow/joy parallelism, letters, incongruity and final drained dreams remain coherent; uncertain gaze and speaker gender held.",
+      "tradeoff": "Preserve complete poem, imagery, lineation, raw contributor tails and draft credits. Same-assistant self-review; independent fluent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "9cdf95dff44d895627ffd024e02515ad448b754657a811c34740b7a03abec603",
+      "before_sha256": "8618c38c36011d9be254d5287eed5982cb8dc77ca2ed543896742868ebe6feaa",
+      "after_sha256": "8618c38c36011d9be254d5287eed5982cb8dc77ca2ed543896742868ebe6feaa",
+      "prior_uncertainties": [
+        {
+          "note": "36 lines retained. Nispalaka gaze syntactically ambiguous, unblinking preserved. Hindi female narrator provisional.",
+          "record": "kb/production/translations/batch-169/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 36,
+      "target": "en",
+      "reading_evidence": "Read complete36-line Odia source and each complete target: now sorrow to sorrow versus remembered movement between joy/dream/fragrance; solitary amid clamour, silent/motionless and loss of dearest memory; roadside unblinking/leafless fruit-laden tree and incongruity repeated inside speaker; unreadable letters on branches and sky; stolen enchantment of letter-conversation; repeated solitude, sleepless-night torment and pale dreams. Checked repetition and negated memory, scene versus gaze attachment, and sky as visual setting rather than structural foundation.",
+      "open_questions": [
+        "Prior nispalaka/unblinking attachment remains unresolved: tree appearance versus observing gaze; preserve current unusual wording pending source clarification. Hindi feminine narrator remains provisional; author identity does not establish narrator gender."
+      ],
+      "reason": "Remove redundant time calque, use countable joy in the remembered movement, and render sky backdrop naturally.",
+      "tradeoff": "Joy retains sukha and repeated from/to structure; a time when retains remembered past without redundant one day. Backdrop carries visual bhittibhumi in this scene, consistent with letters seen against sky; no extra image. Ambiguous unblinking remains held, not silently reassigned.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "9cdf95dff44d895627ffd024e02515ad448b754657a811c34740b7a03abec603",
+      "before_sha256": "da8d4dcf46dfc98de4655a49b8248421d0c76101edce9e10f68d976c847868f4",
+      "after_sha256": "e3ccd585a0a8e501d22efe32fccf9fad860fd5402cba9bcebd4ecc858462f040",
+      "prior_uncertainties": [
+        {
+          "note": "36 lines retained. Nispalaka gaze syntactically ambiguous, unblinking preserved. Hindi female narrator provisional.",
+          "record": "kb/production/translations/batch-169/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 37,
+      "target": "hi",
+      "reading_evidence": "Read full11-block source and both full current targets including final Mukul Mishra/Balangir byline: refusing darkness/night pact and sleepless illumination; midnight poem innocent opening bud; far anguished human/dog cry and innocent/cruel night; wished treehood withdrawn for fear of losing light; silence prompts tune then memory strikes chest like pellet across years; nectar/poison mortality image; dreamed death/tears/ash/ember-name and colourless world under repeated reported-speech qualifiers; dream dismissed as lie/luxury; kitchen frothing urad, water-swollen chickpeas, setting curd likened to jhoti; disorder packed like toys into chest and ripening into ordered dawn as poem. Checked imaginary-death framing, no invented action/instruction, colloquial self-interruption, food order and concluding ripening metaphor.",
+      "open_questions": [
+        "Hindi feminine narrator remains provisional. Retain jhoti cultural term; no replacement with unrelated decorative tradition. Pakala/ripening links person to kitchen processes, not an error to flatten into maturity. Prior mortality passage remains literary dream/image, not a factual event."
+      ],
+      "reason": "Retain after full reading: source sequence, colloquial interruptions, dream qualifiers, food imagery and final ripening are preserved.",
+      "tradeoff": "Preserve complete poem, imagery, lineation, raw contributor tails and draft credits. Same-assistant self-review; independent fluent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "85de8d5cfbe41e37486fd18b0cd98b67b45fb3b2a0c63f0341ff7963f82da621",
+      "before_sha256": "232f8399f18869f9a111d36ccd1fa0e909d89051d2e872e77e317f3e8bad6ec7",
+      "after_sha256": "232f8399f18869f9a111d36ccd1fa0e909d89051d2e872e77e317f3e8bad6ec7",
+      "prior_uncertainties": [
+        {
+          "note": "All11blocks retained. Jhoti named cultural motif; urad/chickpea/curd sequence exact. Mortality passage and dream explicit literary source, no added instructions. Hindi female narrator provisional.",
+          "record": "kb/production/translations/batch-169/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 37,
+      "target": "en",
+      "reading_evidence": "Read full11-block source and both full current targets including final Mukul Mishra/Balangir byline: refusing darkness/night pact and sleepless illumination; midnight poem innocent opening bud; far anguished human/dog cry and innocent/cruel night; wished treehood withdrawn for fear of losing light; silence prompts tune then memory strikes chest like pellet across years; nectar/poison mortality image; dreamed death/tears/ash/ember-name and colourless world under repeated reported-speech qualifiers; dream dismissed as lie/luxury; kitchen frothing urad, water-swollen chickpeas, setting curd likened to jhoti; disorder packed like toys into chest and ripening into ordered dawn as poem. Checked imaginary-death framing, no invented action/instruction, colloquial self-interruption, food order and concluding ripening metaphor.",
+      "open_questions": [
+        "Hindi feminine narrator remains provisional. Retain jhoti cultural term; no replacement with unrelated decorative tradition. Pakala/ripening links person to kitchen processes, not an error to flatten into maturity. Prior mortality passage remains literary dream/image, not a factual event."
+      ],
+      "reason": "Make comparison of cry ownership parallel and repair memory-strike syntax without changing embodied image.",
+      "tradeoff": "Person/dog now both possessors of the cry. Struck me supplies the recipient already established by source chest; chest avoids unnecessarily gendered anatomical reading. Keep all60 raw lines,58 verse lines and two contributor lines; no stanza changes.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "85de8d5cfbe41e37486fd18b0cd98b67b45fb3b2a0c63f0341ff7963f82da621",
+      "before_sha256": "7958e85dfb4e65cb695c87ae614bafc1a364eedb11b083c87d733f4d9bd9b29b",
+      "after_sha256": "44d3f3848a72157b1602f87234ca2332da77d55a1480579f88f8d7599262f731",
+      "prior_uncertainties": [
+        {
+          "note": "All11blocks retained. Jhoti named cultural motif; urad/chickpea/curd sequence exact. Mortality passage and dream explicit literary source, no added instructions. Hindi female narrator provisional.",
+          "record": "kb/production/translations/batch-169/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 38,
+      "target": "hi",
+      "reading_evidence": "Read entire seven-block34-line source and complete Hindi/English targets: sarcastic question about woman happiness; all time pledged/folded hands; honey-adorned moments versus intoxicated flying beloved, dishes/body gift/sixteen offerings and incessant dissatisfaction; countless Gopa women versus demanded binding, unequal happiness without inward resonance/seven eye colours; tied hands/feet and folded supplication expose false lover claim; recipient remains poor/beggar/destitute while woman full with child/gold-bearing gives/forgives/preserves disordered geography for heir; final tathastu posture and effortless request for nirvana. Checked accusatory sarcasm and bodily/devotional register, gift direction, woman as giver rather than recipient and unchanged seven-stanza argument.",
+      "open_questions": [
+        "Gopa women/gopis allusion retained as existing reading without identifying a literal place or supplying a named lover/myth. Full pregnancy/gold-bearing and disordered geography are figurative possibilities, not biographical assertions. Bhikshu interpreted as beggar in poverty context remains provisional versus mendicant; no doctrinal explanation added. Bound hands alongside folded hands retained as source rhetorical tension."
+      ],
+      "reason": "Replace misleading medical/posthumous देहदान compound with bodily offering in the intimate sequence.",
+      "tradeoff": "Deh ka samarpan retains bodily giving beside food and worship-service while avoiding the dominant institutional body-donation association of dehdaan. Erotic/devotional tension, number sixteen and accusatory register retained; no sanitisation or added act.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "6f41ae72146c75cfb5024aa9063e272044b95a0e287fbe624e7ae4cee1445af8",
+      "before_sha256": "e7255731b6301b611cae28d7009ef1cc30bd87eec3a0a11a8c64d762edde6335",
+      "after_sha256": "d366b955e9dd398af4bab959f691175bfe29e722f1afd8be00bd5a35f10af2b1",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 38,
+      "target": "en",
+      "reading_evidence": "Read entire seven-block34-line source and complete Hindi/English targets: sarcastic question about woman happiness; all time pledged/folded hands; honey-adorned moments versus intoxicated flying beloved, dishes/body gift/sixteen offerings and incessant dissatisfaction; countless Gopa women versus demanded binding, unequal happiness without inward resonance/seven eye colours; tied hands/feet and folded supplication expose false lover claim; recipient remains poor/beggar/destitute while woman full with child/gold-bearing gives/forgives/preserves disordered geography for heir; final tathastu posture and effortless request for nirvana. Checked accusatory sarcasm and bodily/devotional register, gift direction, woman as giver rather than recipient and unchanged seven-stanza argument.",
+      "open_questions": [
+        "Gopa women/gopis allusion retained as existing reading without identifying a literal place or supplying a named lover/myth. Full pregnancy/gold-bearing and disordered geography are figurative possibilities, not biographical assertions. Bhikshu interpreted as beggar in poverty context remains provisional versus mendicant; no doctrinal explanation added. Bound hands alongside folded hands retained as source rhetorical tension."
+      ],
+      "reason": "Retain after full reading: gift of her body already carries intended intimate offering, and satire, asymmetry, poverty versus giving and final boon remain clear.",
+      "tradeoff": "Preserve complete poem, imagery, lineation, raw contributor tails and draft credits. Same-assistant self-review; independent fluent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "6f41ae72146c75cfb5024aa9063e272044b95a0e287fbe624e7ae4cee1445af8",
+      "before_sha256": "c3930d602c29ada61af4ff2218e79f156b775e136e214172bbc6fe1bce0dd617",
+      "after_sha256": "c3930d602c29ada61af4ff2218e79f156b775e136e214172bbc6fe1bce0dd617",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ],
+  "after_reading_evidence": "All three complete changed after variants directly read:36 English36lines,37 English60rawlines including byline,38Hindi34lines. Full36 English reread after final remembered-time adjustment. All source/current targets still match snapshots; source questions remain outside poems. Same-assistant self-review only.",
+  "skill": {
+    "path": "/Users/ahimanikya/.codex/skills/human-natural-translation/SKILL.md",
+    "sha256": "3954053f286bb38f21fff16020c27fefe933942532a2083a8b3e7eae9c1ccc17",
+    "mode": "Poetic Natural",
+    "adopted_companion": "kb/reference/adopted-human-natural/editorial.md"
+  }
+}

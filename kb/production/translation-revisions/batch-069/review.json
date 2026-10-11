@@ -1,0 +1,231 @@
+{
+  "recorded_at": "2026-10-05T16:13:15.336284+00:00",
+  "poem_ids": [
+    515,
+    516,
+    517,
+    518,
+    519
+  ],
+  "variants_read": 10,
+  "variants_changed": 6,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 515,
+      "target": "or",
+      "reading_evidence": "Read all six source/target stanzas: keepsake request, sixteen monsoons and shared youth, recurring request, doors/walls/courtyard/threshold creased with touch, warming/listening, trial challenge, spiritual memories/winter sun/monsoon drops and stored inheritance/pages replacing keepsake. Speaker/addressee changes checked against Hindi verbs.",
+      "reason": "Remove the unsupported narrowing of aahat to footsteps; retain the returning sound and domestic traces without identifying its source.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "8c3739f4673f5fd74ffe02669c0a854c2a55abc722d21ee5228afb44dd37a339",
+      "before_sha256": "9a5f640858f72136b23d90dbe8cf604e6000b40b7beb041e1ab4e066c94f2d17",
+      "after_sha256": "4fef206fbe364a8848ff686c60fbccebaef39db0d71641b2c55fb2756de4a8ef",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 515,
+      "target": "en",
+      "reading_evidence": "Read all six source/target stanzas: keepsake request, sixteen monsoons and shared youth, recurring request, doors/walls/courtyard/threshold creased with touch, warming/listening, trial challenge, spiritual memories/winter sun/monsoon drops and stored inheritance/pages replacing keepsake. Speaker/addressee changes checked against Hindi verbs.",
+      "reason": "Keep the sound unspecified rather than inventing footsteps; preserve the speaker’s challenge and final refusal to demand a keepsake.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "8c3739f4673f5fd74ffe02669c0a854c2a55abc722d21ee5228afb44dd37a339",
+      "before_sha256": "caac669f4b5fc8b5b2ae3d4480bf916449f2e0715a85312b72ba2b495a2e0b17",
+      "after_sha256": "aaa5c28479b13fe3890592942e124e4a476ab9cab5199541b09c0e5397bcc45b",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 516,
+      "target": "or",
+      "reading_evidence": "Complete nine tercets read in source and each target: sense/peace as drifting debris, dry unshed grief, lost everyday objects, eyes/breath/sari and empty morgue, moon/wind as proxies, silences chasing shoreline, crumbling ego reaching beloved harbour, blue feathers/ripples/petals/shared poem, add The end or smile/sulk and wishes-horses-beggar close.",
+      "reason": "Retain the marine grief and the linked horses/beggar proverb allusion rather than substituting a different idiom or explaining the ending.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "43d1acdcf97a89421e41dab3a88cbe104bfcb96a62635ca8d482723dc205e10e",
+      "before_sha256": "f1704ae28d3cb5169fe87298867b42cbf150639ede118e6c9ecace4ddf891ab3",
+      "after_sha256": "f1704ae28d3cb5169fe87298867b42cbf150639ede118e6c9ecace4ddf891ab3",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 516,
+      "target": "hi",
+      "reading_evidence": "Complete nine tercets read in source and each target: sense/peace as drifting debris, dry unshed grief, lost everyday objects, eyes/breath/sari and empty morgue, moon/wind as proxies, silences chasing shoreline, crumbling ego reaching beloved harbour, blue feathers/ripples/petals/shared poem, add The end or smile/sulk and wishes-horses-beggar close.",
+      "reason": "Retain tercet pacing, material remnants and the wishes/horses/beggar close; the proverb’s connected images survive without explanatory additions.",
+      "open_questions": [
+        "Hindi masculine narrator remains provisional; sari establishes an image of the addressee, not narrator gender."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "43d1acdcf97a89421e41dab3a88cbe104bfcb96a62635ca8d482723dc205e10e",
+      "before_sha256": "4ef0405fe133df16e14d75a74341f78588c005f0e22316954f03f2d9484f86b0",
+      "after_sha256": "4ef0405fe133df16e14d75a74341f78588c005f0e22316954f03f2d9484f86b0",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 517,
+      "target": "or",
+      "reading_evidence": "Full thirteen-couplet source and both targets read, with a separate untruncated reread of 517: question/answer light, opaque/daylight paradox, poise/repute, churning nectar and immortality, Deva/Asura carrying and four places, archetypal treasures, Chandra/Parijata/Airavata, Lakshmi/Meru/Vasuki, Shiva taking poison, Nandini/coalfields/granite and closing catalogue of love.",
+      "reason": "Retain all thirteen couplets, the source mythological objects and granite metaphor; do not substitute remembered legend details.",
+      "open_questions": [
+        "Agenda of the light, question pronouns, adamant attachment and archetypes/complements remain uncertain; no rewritten cosmology or resolved speaker assignment.",
+        "Meru, four tusks, all four places, Nandini/Lakshmi and granite remain source choices. Mythology/history is translated without fact correction or certification."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "1689837361fdc5d02b1ee72b7ff96ca7d21a7ecacd3d6b0295c41c6207166336",
+      "before_sha256": "a9811d009bb0c7821f7bed4fb1e87d8dd22961aaa90ec8afbc39003a4073f369",
+      "after_sha256": "a9811d009bb0c7821f7bed4fb1e87d8dd22961aaa90ec8afbc39003a4073f369",
+      "prior_uncertainties": [
+        {
+          "note": "All thirteen couplets preserved. agenda of the light rendered as the purpose of light; unusual phrasing remains uncertain. Joined source words segmented for meaning only. Meru, four tusks, the four named places, Nandini and Lakshmi retained exactly in substance; mythology/history not fact-corrected or independently certified. Coalfields/granite comparison kept without replacing granite with diamond. Pronoun/adamant attachment and complements/archetypes passage need independent review.",
+          "record": "kb/production/translations/batch-067/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 517,
+      "target": "hi",
+      "reading_evidence": "Full thirteen-couplet source and both targets read, with a separate untruncated reread of 517: question/answer light, opaque/daylight paradox, poise/repute, churning nectar and immortality, Deva/Asura carrying and four places, archetypal treasures, Chandra/Parijata/Airavata, Lakshmi/Meru/Vasuki, Shiva taking poison, Nandini/coalfields/granite and closing catalogue of love.",
+      "reason": "Correct feminine agreement with treasures and possessive placement; restore glory/glee belonging to me, your Lakshmi, rather than replacing the genitive with in-me. The obscure archetype relation remains held.",
+      "open_questions": [
+        "Agenda of the light, question pronouns, adamant attachment and archetypes/complements remain uncertain; no rewritten cosmology or resolved speaker assignment.",
+        "Meru, four tusks, all four places, Nandini/Lakshmi and granite remain source choices. Mythology/history is translated without fact correction or certification."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "1689837361fdc5d02b1ee72b7ff96ca7d21a7ecacd3d6b0295c41c6207166336",
+      "before_sha256": "841f0ffc3597c0516a7479b89deefde883237fba89e0243c62e15b99da08cf58",
+      "after_sha256": "460ac9f167a64431ae15a00ada8299c4c4414050c3eff3ea35e36d2e7257267e",
+      "prior_uncertainties": [
+        {
+          "note": "All thirteen couplets preserved. agenda of the light rendered as the purpose of light; unusual phrasing remains uncertain. Joined source words segmented for meaning only. Meru, four tusks, the four named places, Nandini and Lakshmi retained exactly in substance; mythology/history not fact-corrected or independently certified. Coalfields/granite comparison kept without replacing granite with diamond. Pronoun/adamant attachment and complements/archetypes passage need independent review.",
+          "record": "kb/production/translations/batch-067/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 518,
+      "target": "or",
+      "reading_evidence": "Read complete 30-line source and both targets: Dharama midnight jump and recognition avoidance, pinnacle solution, mother/father contrast and twelve thousand craftsmen/twelve years, Socrates and questioning, dissatisfied Socrates/satisfied pig, Shiva/hemlock, uncompromising sacrifice for future, home/society/power and privileged forcing plural Dharmas/Socrates aside. Retained source title residue !<.",
+      "reason": "Put setting the pinnacle before the puzzle noun so the genitive is intelligible without backtracking.",
+      "open_questions": [
+        "Unusual title !< and source twelve-thousand/twelve-year legend details remain unchanged. These are source assertions, not independently certified history. Plural final names retain representative force, not newly identified people."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "40919e9a73d9300d679ef2106a771a41f6038e79f98e959e132bd008397905c1",
+      "before_sha256": "51656c6eedc63207a05d3015091ce4dd295d5f735f7c9dbabbd74d456fe81c09",
+      "after_sha256": "fb3492543d22aa766859e3986f2829d809265229d8369b4bc16a1b9ca8442c73",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 518,
+      "target": "hi",
+      "reading_evidence": "Read complete 30-line source and both targets: Dharama midnight jump and recognition avoidance, pinnacle solution, mother/father contrast and twelve thousand craftsmen/twelve years, Socrates and questioning, dissatisfied Socrates/satisfied pig, Shiva/hemlock, uncompromising sacrifice for future, home/society/power and privileged forcing plural Dharmas/Socrates aside. Retained source title residue !<.",
+      "reason": "Restore the identifying gesture supported by certify/prodigy rather than the accusation idiom; attach pinnacle-setting to puzzle in normal Hindi order.",
+      "open_questions": [
+        "Unusual title !< and source twelve-thousand/twelve-year legend details remain unchanged. These are source assertions, not independently certified history. Plural final names retain representative force, not newly identified people."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "40919e9a73d9300d679ef2106a771a41f6038e79f98e959e132bd008397905c1",
+      "before_sha256": "c50d07259d9311ef71c352bb60944f6445afb2b14cdc4f0c3adce9880f718555",
+      "after_sha256": "099b18f6f8c27a7084ac9a463c54a43886af8b4478456d05cea42961afe3e76d",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 519,
+      "target": "or",
+      "reading_evidence": "Read all eight source/target stanzas: writing without duty, invisible poet/grass/brook, mature word as mountain and lifesize image, grazing/bleating/frogs/consciousness-stream, water-word-meditation depth, self-distance/leaf wings/sky limit, hives/ants/lesser-God children, flower-opening eyes and child/tree/body/ocean/sand-temple/traces, find/write/be poem close. Imperatives remain literary content.",
+      "reason": "Retain the unusual animal/poetry and body-water images and repeated commands without explaining away the source metaphor.",
+      "open_questions": [
+        "Children of the lesser God retains the difficult source metaphor; marginalisation and dignity need independent fluent review without importing a named religion or a biographical category."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "43c0568a2cb67e400d1df2c40b267ae77b9b4830a3b28dbd0f8b4f14a22838ce",
+      "before_sha256": "5ed250370d0848e765e7060769359ec18fa7b6b718ab5bdba16e3223dcd5bb05",
+      "after_sha256": "5ed250370d0848e765e7060769359ec18fa7b6b718ab5bdba16e3223dcd5bb05",
+      "prior_uncertainties": [
+        {
+          "note": "All eight stanzas and line counts retained. Imperatives are poem content, not workflow instructions. Grazing/bleating, beehives, water/word/meditation depth and sand-temple destruction imagery preserved. children of the lesser God kept as a deliberately difficult metaphor; native-language review should assess dignity, idiom and the sense of marginalization without replacing it with a named religion.",
+          "record": "kb/production/translations/batch-067/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 519,
+      "target": "hi",
+      "reading_evidence": "Read all eight source/target stanzas: writing without duty, invisible poet/grass/brook, mature word as mountain and lifesize image, grazing/bleating/frogs/consciousness-stream, water-word-meditation depth, self-distance/leaf wings/sky limit, hives/ants/lesser-God children, flower-opening eyes and child/tree/body/ocean/sand-temple/traces, find/write/be poem close. Imperatives remain literary content.",
+      "reason": "Replace the English-shaped life-size compound with ordinary Hindi for an image at the object’s own size; retain the concrete image rather than interpreting it as lifelike realism.",
+      "open_questions": [
+        "Children of the lesser God retains the difficult source metaphor; marginalisation and dignity need independent fluent review without importing a named religion or a biographical category."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "43c0568a2cb67e400d1df2c40b267ae77b9b4830a3b28dbd0f8b4f14a22838ce",
+      "before_sha256": "7a73b8185e7e687d1460af0e29f3050af87eacf4827bbd6f962ea1a851d10658",
+      "after_sha256": "713def1d4a508a28c3770895abb5bb6ba754db18014122a8e857b71e373b93f2",
+      "prior_uncertainties": [
+        {
+          "note": "All eight stanzas and line counts retained. Imperatives are poem content, not workflow instructions. Grazing/bleating, beehives, water/word/meditation depth and sand-temple destruction imagery preserved. children of the lesser God kept as a deliberately difficult metaphor; native-language review should assess dignity, idiom and the sense of marginalization without replacing it with a named religion.",
+          "record": "kb/production/translations/batch-067/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

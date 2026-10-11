@@ -1,0 +1,646 @@
+[
+  {
+    "poem_id": 577,
+    "target": "en",
+    "reading_evidence": "Read all three source stanzas and the complete target: exchange of sky/sea, fish becoming stars, clouds becoming submerged mountains, suspended Trishanku humanity, territorial divisions, mother-earth losing form/voice and the final blind contentment. Repeated yours/mine claims and the mother’s lap survive.",
+    "reason": "Replace the calqued connective “Thus and thus” with the cumulative English “And so”; the repeated territorial claims already enact the accumulation.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "The source’s doubled connective becomes a natural English transition; all substantive repeated claims remain intact.",
+    "full_source_target_read": true,
+    "source_sha256": "0726208cbcbb9d52aef6fa43e39fdc05807332ac1168c08fc3703e826c7ee067",
+    "before_sha256": "e8843232ed8394caddc36552dcf6f970364e2123cd5e2890c4298824c209a8b7",
+    "after_sha256": "f495af645520eab1cfa18b39ecb7192ef152b8cece813e6ea73af0187394db7c",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Human Beings",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "That day the sky was below and",
+          "The sea was in the sky's place",
+          "Now, by the rule that everything must change places",
+          "All the fish were to come to the sky",
+          "They came and",
+          "Became stars",
+          "Now the clouds were to go to the sea",
+          "All the clouds went to the sea and",
+          "Became mountains, hiding in its womb"
+        ],
+        [
+          "The difficult problem was with human beings—",
+          "Who hung suspended like Trishanku",
+          "For they had no earth they could call their own",
+          "The earth",
+          "Which they call mother",
+          "Under different names, in different ways and stratagems",
+          "They had already divided",
+          "This is yours, this is mine",
+          "This is my country, that is yours",
+          "This is my state, that is yours",
+          "This is my territory, that is yours",
+          "This is my region, that is yours...",
+          "Thus and thus they had transformed",
+          "The earth, and because of this",
+          "The earth had lost her own form and voice",
+          "And had become mute",
+          "So she could not call human beings into her lap..."
+        ],
+        [
+          "Even so, humanity was so blind",
+          "It could understand none of this",
+          "And, taking Trishanku's suspended state for the proper state",
+          "Was quite at peace..."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Human Beings",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "That day the sky was below and",
+          "The sea was in the sky's place",
+          "Now, by the rule that everything must change places",
+          "All the fish were to come to the sky",
+          "They came and",
+          "Became stars",
+          "Now the clouds were to go to the sea",
+          "All the clouds went to the sea and",
+          "Became mountains, hiding in its womb"
+        ],
+        [
+          "The difficult problem was with human beings—",
+          "Who hung suspended like Trishanku",
+          "For they had no earth they could call their own",
+          "The earth",
+          "Which they call mother",
+          "Under different names, in different ways and stratagems",
+          "They had already divided",
+          "This is yours, this is mine",
+          "This is my country, that is yours",
+          "This is my state, that is yours",
+          "This is my territory, that is yours",
+          "This is my region, that is yours...",
+          "And so they had transformed",
+          "The earth, and because of this",
+          "The earth had lost her own form and voice",
+          "And had become mute",
+          "So she could not call human beings into her lap..."
+        ],
+        [
+          "Even so, humanity was so blind",
+          "It could understand none of this",
+          "And, taking Trishanku's suspended state for the proper state",
+          "Was quite at peace..."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 579,
+    "target": "hi",
+    "reading_evidence": "Read the entire source and target, including opening hidden darkness/innocent flowers, the twenty-six male-tourist statement, hair parting as dry river, roof of trust, forehead/sun/sindoor, blessing becoming fire, attack/campaign/terror, retaliatory river of blood, poison-embrace, final fierce dance and address.",
+    "reason": "Restore idiomatic transitive causation: sindoor can make the reign of terror shake; the former construction uses the intransitive thartharana with an object.",
+    "open_questions": [
+      "Retaliatory language and twenty-six-tourist statement are preserved as source poetry, not verified reportage; no country or perpetrators supplied.",
+      "Agna-agni remains provisionally fiery; the damaged/unclear source spelling needs review.",
+      "Roof-ridge mathana versus current Hindi mundेर/parapet needs lexical confirmation before changing the architectural detail."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Existing images, register, stanza boundaries and contributor tail preserved.",
+    "full_source_target_read": true,
+    "source_sha256": "ff39addd4878bc71aed1fc3ef0c94b8b63dc20b121a07f405e6fa146bf557dae",
+    "before_sha256": "d724aaea99345f7d014fd8444f9aa760bf2b957250e031e0e180b1987ae7e4be",
+    "after_sha256": "3a069e3c57dcbd381fe879917d86721c3a5987afe0f3a79cbc0af9c10d72ccd4",
+    "prior_uncertainties": [
+      {
+        "note": "Violent retaliatory language and twenty-six male-tourist claim preserved as source poetry, not verified reporting or assistant endorsement. No unmentioned country or perpetrator identity supplied. Agna-agni provisionally fiery; source spelling requires review.",
+        "record": "kb/production/translations/batch-051/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "आयुष्मान सिंदूर (पहलगाम)",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "पहाड़ों के पेट तले छिपे थे",
+          "कुछ निर्दयी, निर्भीक अँधेरे।",
+          "पहलगाम की बर्फ़ की सेज पर",
+          "खिलखिलाकर खेल रहे थे, नाच रहे थे, गा रहे थे",
+          "सैकड़ों निर्दोष फूल",
+          "धरती के स्वर्ग में गूँज रहा था महाआनंद का कुहू-नाद।"
+        ],
+        [
+          "अचानक",
+          "अस्थिर, व्याकुल हो उठा हर कोमल और निष्पाप हृदय।",
+          "बर्फ़ीले पहाड़ों, पानी, हवा, जंगल में आर्तनाद",
+          "छाती फाड़ती सिसकियाँ, हृदयविदारक विवश विलाप।"
+        ],
+        [
+          "साँझ का गहरा होना निश्चित है",
+          "रात का काले वस्त्र पहनना निश्चित है।"
+        ],
+        [
+          "लेकिन",
+          "सिंदूर का क्या दोष था?"
+        ],
+        [
+          "खून से लिपा था पहलगाम का आँगन",
+          "उस मिट्टी पर गिर पड़े",
+          "छब्बीस निर्दोष पुरुष पर्यटकों के पार्थिव शरीर।"
+        ],
+        [
+          "सूखी नदी-सी दिखती थी माँग",
+          "विश्वास का छप्पर पल भर में मुँडेर से उड़ गया।"
+        ],
+        [
+          "एक स्त्री पति को सूर्य की तरह माथे पर धारण करती है",
+          "क्या वह केवल लाल रंग का चूर्ण है?",
+          "प्रेम और विश्वास की दीर्घायु का प्रतीक।"
+        ],
+        [
+          "सिंदूर की यह भाषा",
+          "या लाल रंग की उदारता",
+          "दांपत्य जीवन की पवित्रता",
+          "तुम कभी नहीं समझ पाओगे",
+          "नरहंता राक्षसो।"
+        ],
+        [
+          "सिंदूर का दूसरा नाम",
+          "है आयुष्मान होने का आशीर्वाद",
+          "कभी धू-धू जलती आग।"
+        ],
+        [
+          "वह आक्रमण करता है",
+          "अभियान करता है",
+          "आतंकराज को थरथरा सकता है।"
+        ],
+        [
+          "तुमने सिंदूर को चुनौती दी है",
+          "इस बार खून की नदी होकर बहेगा सिंदूर",
+          "पानी के लिए हाहाकार करेगा तुम्हारा देश",
+          "तुम्हें केवल तुम्हारा अपना खून मिलेगा।"
+        ],
+        [
+          "सिंदूर को तुम कभी समझ नहीं पाओगे",
+          "क्योंकि दांपत्य और प्रेम क्या हैं",
+          "कभी तुम जान नहीं पाओगे, है न?"
+        ],
+        [
+          "तुम केवल निष्पाप जीवन काटना जानते हो",
+          "आलिंगन तुम्हारे लिए आकंठ ज़हर है।"
+        ],
+        [
+          "इस बार देखो सिंदूर का तांडव",
+          "तुम्हारी नींद और भूख छीनकर वह कैसे राज कर रहा है",
+          "तुम्हारी छाती के हर आगभरे कोने-अंतरे पर क़ब्ज़ा करके।",
+          "∎",
+          "साई सर्जना",
+          "बालिकुदा",
+          "जगन्नाथ कॉलोनी",
+          "कटक-753011"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "आयुष्मान सिंदूर (पहलगाम)",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "पहाड़ों के पेट तले छिपे थे",
+          "कुछ निर्दयी, निर्भीक अँधेरे।",
+          "पहलगाम की बर्फ़ की सेज पर",
+          "खिलखिलाकर खेल रहे थे, नाच रहे थे, गा रहे थे",
+          "सैकड़ों निर्दोष फूल",
+          "धरती के स्वर्ग में गूँज रहा था महाआनंद का कुहू-नाद।"
+        ],
+        [
+          "अचानक",
+          "अस्थिर, व्याकुल हो उठा हर कोमल और निष्पाप हृदय।",
+          "बर्फ़ीले पहाड़ों, पानी, हवा, जंगल में आर्तनाद",
+          "छाती फाड़ती सिसकियाँ, हृदयविदारक विवश विलाप।"
+        ],
+        [
+          "साँझ का गहरा होना निश्चित है",
+          "रात का काले वस्त्र पहनना निश्चित है।"
+        ],
+        [
+          "लेकिन",
+          "सिंदूर का क्या दोष था?"
+        ],
+        [
+          "खून से लिपा था पहलगाम का आँगन",
+          "उस मिट्टी पर गिर पड़े",
+          "छब्बीस निर्दोष पुरुष पर्यटकों के पार्थिव शरीर।"
+        ],
+        [
+          "सूखी नदी-सी दिखती थी माँग",
+          "विश्वास का छप्पर पल भर में मुँडेर से उड़ गया।"
+        ],
+        [
+          "एक स्त्री पति को सूर्य की तरह माथे पर धारण करती है",
+          "क्या वह केवल लाल रंग का चूर्ण है?",
+          "प्रेम और विश्वास की दीर्घायु का प्रतीक।"
+        ],
+        [
+          "सिंदूर की यह भाषा",
+          "या लाल रंग की उदारता",
+          "दांपत्य जीवन की पवित्रता",
+          "तुम कभी नहीं समझ पाओगे",
+          "नरहंता राक्षसो।"
+        ],
+        [
+          "सिंदूर का दूसरा नाम",
+          "है आयुष्मान होने का आशीर्वाद",
+          "कभी धू-धू जलती आग।"
+        ],
+        [
+          "वह आक्रमण करता है",
+          "अभियान करता है",
+          "आतंकराज को थर्रा सकता है।"
+        ],
+        [
+          "तुमने सिंदूर को चुनौती दी है",
+          "इस बार खून की नदी होकर बहेगा सिंदूर",
+          "पानी के लिए हाहाकार करेगा तुम्हारा देश",
+          "तुम्हें केवल तुम्हारा अपना खून मिलेगा।"
+        ],
+        [
+          "सिंदूर को तुम कभी समझ नहीं पाओगे",
+          "क्योंकि दांपत्य और प्रेम क्या हैं",
+          "कभी तुम जान नहीं पाओगे, है न?"
+        ],
+        [
+          "तुम केवल निष्पाप जीवन काटना जानते हो",
+          "आलिंगन तुम्हारे लिए आकंठ ज़हर है।"
+        ],
+        [
+          "इस बार देखो सिंदूर का तांडव",
+          "तुम्हारी नींद और भूख छीनकर वह कैसे राज कर रहा है",
+          "तुम्हारी छाती के हर आगभरे कोने-अंतरे पर क़ब्ज़ा करके।",
+          "∎",
+          "साई सर्जना",
+          "बालिकुदा",
+          "जगन्नाथ कॉलोनी",
+          "कटक-753011"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 581,
+    "target": "hi",
+    "reading_evidence": "Read all six source stanzas and both complete targets plus Sundargarh tail: saw/regrets/sawdust, wrinkled age, medical bitterness/lifespan of air, duty/certificate/desk-glass/superior, thresholds/ten arms/saved affection, self-arranged ghee and wick burning lamp/deity, bodiless smell and empty pain inside four walls.",
+    "reason": "Use the natural institutional term for the superior officer; literal “officer above” is unnecessary spatial phrasing in this office scene.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Existing images, register, stanza boundaries and contributor tail preserved.",
+    "full_source_target_read": true,
+    "source_sha256": "e9d9e6ced4ddfbcb32d028cdf91829602c4e87618ea96e9cd59348ee0c4087a5",
+    "before_sha256": "e1cffab7c4a1dbb8e3dc47ff61423ae507cb80b9cdacda795d850a08def738e0",
+    "after_sha256": "5784d89a49deae99df1bcbeae0bb161cb348edf8a8cdba5339a636622489df4f",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "जली हुई बाती",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "इधर-उधर चलती रहती है आरे की धार",
+          "थोड़ा-थोड़ा चिरता रहता है सीना",
+          "सारे सूखे अफ़सोस झुर-झुर झरते रहते हैं",
+          "बुरादे की तरह",
+          "समय के साथ झुर्रीदार उम्र भी",
+          "तिरछी निगाह से देखकर उपहास में हँस देती है",
+          "चेहरे से प्रसाधन पोंछते समय..."
+        ],
+        [
+          "डॉक्टरी रिपोर्ट, सलाह और",
+          "बूँद-बूँद दवा की कड़वाहट के साथ",
+          "जीवन हवा की आयु मापता रहता है।"
+        ],
+        [
+          "कर्तव्य की जवाबदेही में",
+          "प्रमाणपत्र पेश करना होता है",
+          "दफ़्तर की मेज़ के काँच पर, जहाँ",
+          "ऊपर के अधिकारी की",
+          "नाराज़गी का साफ़ प्रतिबिंब",
+          "दिखाई देता रहता है।"
+        ],
+        [
+          "घर की देहरी के इस पार, उस पार",
+          "कहीं भी एक पूरा पदचिह्न",
+          "रखा नहीं जा पाता जीवन भर में",
+          "फिर भी",
+          "वे पाँव हाँफते हुए दौड़ते रहते हैं",
+          "दस भुजाएँ भी कम पड़ती हैं",
+          "सारी सामर्थ्य समेट लेने को",
+          "कभी किसी ताक में थोड़ा-थोड़ा सँजोए",
+          "सुख और स्नेह पर भी",
+          "असमर्थता की मैल-धूल जमकर उन्हें मलीन कर देती है।"
+        ],
+        [
+          "प्रेम, प्रार्थना सब निराधार लगते हैं",
+          "जब अपने ही सजाए हुए",
+          "घी और बाती जलते-जलते",
+          "दीपक और देवता को भी जला देते हैं।"
+        ],
+        [
+          "अनेक बातों के अनसुलझे आवेग, शिकायतें",
+          "और",
+          "जली बाती की अशरीरी गंध",
+          "चार दीवारों के भीतर की",
+          "रिक्त पीड़ा भोगती रहती हैं।",
+          "∎",
+          "सुंदरगढ़।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "जली हुई बाती",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "इधर-उधर चलती रहती है आरे की धार",
+          "थोड़ा-थोड़ा चिरता रहता है सीना",
+          "सारे सूखे अफ़सोस झुर-झुर झरते रहते हैं",
+          "बुरादे की तरह",
+          "समय के साथ झुर्रीदार उम्र भी",
+          "तिरछी निगाह से देखकर उपहास में हँस देती है",
+          "चेहरे से प्रसाधन पोंछते समय..."
+        ],
+        [
+          "डॉक्टरी रिपोर्ट, सलाह और",
+          "बूँद-बूँद दवा की कड़वाहट के साथ",
+          "जीवन हवा की आयु मापता रहता है।"
+        ],
+        [
+          "कर्तव्य की जवाबदेही में",
+          "प्रमाणपत्र पेश करना होता है",
+          "दफ़्तर की मेज़ के काँच पर, जहाँ",
+          "वरिष्ठ अधिकारी की",
+          "नाराज़गी का साफ़ प्रतिबिंब",
+          "दिखाई देता रहता है।"
+        ],
+        [
+          "घर की देहरी के इस पार, उस पार",
+          "कहीं भी एक पूरा पदचिह्न",
+          "रखा नहीं जा पाता जीवन भर में",
+          "फिर भी",
+          "वे पाँव हाँफते हुए दौड़ते रहते हैं",
+          "दस भुजाएँ भी कम पड़ती हैं",
+          "सारी सामर्थ्य समेट लेने को",
+          "कभी किसी ताक में थोड़ा-थोड़ा सँजोए",
+          "सुख और स्नेह पर भी",
+          "असमर्थता की मैल-धूल जमकर उन्हें मलीन कर देती है।"
+        ],
+        [
+          "प्रेम, प्रार्थना सब निराधार लगते हैं",
+          "जब अपने ही सजाए हुए",
+          "घी और बाती जलते-जलते",
+          "दीपक और देवता को भी जला देते हैं।"
+        ],
+        [
+          "अनेक बातों के अनसुलझे आवेग, शिकायतें",
+          "और",
+          "जली बाती की अशरीरी गंध",
+          "चार दीवारों के भीतर की",
+          "रिक्त पीड़ा भोगती रहती हैं।",
+          "∎",
+          "सुंदरगढ़।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 583,
+    "target": "en",
+    "reading_evidence": "Read both numbered parts and every source/target stanza including address: female classmate and exam blanks, indebtedness, slipping hand/shoulder, mother’s curse/Gayapala/Shravan Kumar/death implication, childhood throne, forty years/four days, evening-lamp separation, horizon, voice filling ether and the desired final blank.",
+    "reason": "Remove the added exact-anniversary implication of “today”; the source locates the visit forty years before the present without establishing a calendar anniversary.",
+    "open_questions": [
+      "Prior source damage in arrival/why remains contextually read, not repaired in the original; Gayapala spelling and the strength of the abbreviated expletive need source review."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserves the forty-year/four-day contrast and stanza line count; narrows only unsupported date precision.",
+    "full_source_target_read": true,
+    "source_sha256": "5c9c9415e515185ae71504c5bb5591e46bddc96c73a9eb40c5876eb94fc386b2",
+    "before_sha256": "85b67cb17288842cf43391a209952b89bf8115f4091c138c48200974051bbdcf",
+    "after_sha256": "5fafe580849c338c418d3067f9a6f6d983da858db78b43fada46ce480ad407c3",
+    "prior_uncertainties": [
+      {
+        "note": "Two numbered parts retained. Gayapala place transliterated; death implication and mild source expletive retained. Source encoding damage in final part read contextually as arrival/why; originals unchanged. Hindi grammatical speaker/addressee gender provisional.",
+        "record": "kb/production/translations/batch-051/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Blank Spaces",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "।। One ।।"
+        ],
+        [
+          "Some girl from my class",
+          "Was asking, as though into outer space,",
+          "How many fill-in-the-blanks have you done",
+          "And how many left?",
+          "To whom shall I return an answer,",
+          "When everywhere there are only blank spaces?"
+        ],
+        [
+          "It is these unfillable blank spaces",
+          "That let me pass so effortlessly",
+          "The difficult examination of my life!"
+        ],
+        [
+          "Everything changed with time",
+          "But I could not change",
+          "Cannot rise",
+          "Above a burden of indebtedness!"
+        ],
+        [
+          "Again and again my hand slips",
+          "Lend me your shoulder a little, friend",
+          "Your mother used to say",
+          "Go, go and die",
+          "In that Gayapala field",
+          "My mother too curses me in anger",
+          "But you, damn you, were Shravan Kumar",
+          "You obeyed your mother word for word",
+          "Not once did you think that I am only a line",
+          "And you the answer to all my blank spaces!"
+        ],
+        [
+          "Trust is an empty throne",
+          "Where, like a king, sits",
+          "My childhood."
+        ],
+        [
+          "।। Two ।।"
+        ],
+        [
+          "Love is a summer noon",
+          "A boiling hour of blazing heat."
+        ],
+        [
+          "Forty years ago today you",
+          "Came to our village",
+          "For four days of love",
+          "Forty years of separation!",
+          "I said, will you fill it now?"
+        ],
+        [
+          "That same unbearable silence",
+          "That smile, that shyness",
+          "That clever answer",
+          "It is very easy to burn up in love, poet",
+          "But, like the evening lamp,",
+          "To burn yourself a little every day—that is separation."
+        ],
+        [
+          "A blank space of forty years",
+          "Was stretching to touch the distant horizon."
+        ],
+        [
+          "Why so eager to arrive, poet",
+          "Why so impatient",
+          "To fill every blank space in the world?",
+          "The emptiness of the ether is filled",
+          "By your voice.",
+          "In my full book of life",
+          "Let your blank space alone remain."
+        ],
+        [
+          "∎",
+          "Plot No. 513, Nuasahi",
+          "Nayapalli-Bhubaneswar-12"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Blank Spaces",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "।। One ।।"
+        ],
+        [
+          "Some girl from my class",
+          "Was asking, as though into outer space,",
+          "How many fill-in-the-blanks have you done",
+          "And how many left?",
+          "To whom shall I return an answer,",
+          "When everywhere there are only blank spaces?"
+        ],
+        [
+          "It is these unfillable blank spaces",
+          "That let me pass so effortlessly",
+          "The difficult examination of my life!"
+        ],
+        [
+          "Everything changed with time",
+          "But I could not change",
+          "Cannot rise",
+          "Above a burden of indebtedness!"
+        ],
+        [
+          "Again and again my hand slips",
+          "Lend me your shoulder a little, friend",
+          "Your mother used to say",
+          "Go, go and die",
+          "In that Gayapala field",
+          "My mother too curses me in anger",
+          "But you, damn you, were Shravan Kumar",
+          "You obeyed your mother word for word",
+          "Not once did you think that I am only a line",
+          "And you the answer to all my blank spaces!"
+        ],
+        [
+          "Trust is an empty throne",
+          "Where, like a king, sits",
+          "My childhood."
+        ],
+        [
+          "।। Two ।।"
+        ],
+        [
+          "Love is a summer noon",
+          "A boiling hour of blazing heat."
+        ],
+        [
+          "Forty years ago you",
+          "Came to our village",
+          "For four days of love",
+          "Forty years of separation!",
+          "I said, will you fill it now?"
+        ],
+        [
+          "That same unbearable silence",
+          "That smile, that shyness",
+          "That clever answer",
+          "It is very easy to burn up in love, poet",
+          "But, like the evening lamp,",
+          "To burn yourself a little every day—that is separation."
+        ],
+        [
+          "A blank space of forty years",
+          "Was stretching to touch the distant horizon."
+        ],
+        [
+          "Why so eager to arrive, poet",
+          "Why so impatient",
+          "To fill every blank space in the world?",
+          "The emptiness of the ether is filled",
+          "By your voice.",
+          "In my full book of life",
+          "Let your blank space alone remain."
+        ],
+        [
+          "∎",
+          "Plot No. 513, Nuasahi",
+          "Nayapalli-Bhubaneswar-12"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

@@ -1,8 +1,7 @@
-import {build} from 'esbuild';
-await build({entryPoints:['src/feedback.ts'],outfile:'assets/private-feedback.js',bundle:true,format:'esm',
-  splitting:false,target:'es2022',minify:true,legalComments:'eof'});
+// Build both preserved entry URLs together so provider chunks can be shared and deferred.
+import {spawnSync} from 'node:child_process';
+const result=spawnSync(process.execPath,['tools/bundle-services.mjs','--outdir','.'],{stdio:'inherit'});
+if(result.status!==0)throw result.error??Error('Service bundle build failed');
 
-await build({entryPoints:['src/engagement.ts'],outfile:'assets/engagement.js',bundle:true,format:'esm',splitting:false,target:'es2022',minify:true,legalComments:'eof'});
-
-// Keep the article interface independent of the published poem and contact services.
-await build({entryPoints:['src/article-entry.mjs'],outfile:'assets/article-engagement.js',bundle:true,format:'esm',splitting:false,target:'es2022',minify:true,legalComments:'eof'});
+const analytics=spawnSync(process.execPath,['tools/bundle-analytics.mjs'],{stdio:'inherit'});
+if(analytics.status!==0)throw analytics.error??Error('Analytics bundle build failed');

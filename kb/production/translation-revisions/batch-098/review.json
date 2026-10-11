@@ -1,0 +1,223 @@
+{
+  "recorded_at": "2026-10-06T00:18:25.122802+00:00",
+  "poem_ids": [
+    378,
+    392,
+    393,
+    383,
+    400
+  ],
+  "variants_read": 10,
+  "variants_changed": 6,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 378,
+      "target": "or",
+      "reading_evidence": "Read title and all four source/target stanzas: distance given only in title, body Yet close/essential part of heart dwelling, boundless beloved as intoxicating wine, wished reciprocal love/God grant/drowning in love, insignificant speaker asks remembrance and dream touch while eyes await glimpse. Checked title-body relation, hum singular convention and no invented missing first line.",
+      "reason": "Retain direct longing and title-to-body contrast.",
+      "open_questions": [
+        "Prior poetic hum as singular I remains provisional; body opening Yet retained without inserting a duplicate title line."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "476725f70a82dd191d7ea546dc304c9bb98b8d53c6b5ac1802d9cce3c90e7f7b",
+      "before_sha256": "6b2843bbf6bf6dff48f5a79648ad279928e7e32eb2f65f7d418cc4e9b4aef830",
+      "after_sha256": "6b2843bbf6bf6dff48f5a79648ad279928e7e32eb2f65f7d418cc4e9b4aef830",
+      "prior_uncertainties": [
+        {
+          "note": "Title supplies distance; original body begins Yet, retained without inserting a missing opening line. Poetic hum rendered singular speaker provisionally.",
+          "record": "kb/production/translations/batch-096/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 378,
+      "target": "en",
+      "reading_evidence": "Read title and all four source/target stanzas: distance given only in title, body Yet close/essential part of heart dwelling, boundless beloved as intoxicating wine, wished reciprocal love/God grant/drowning in love, insignificant speaker asks remembrance and dream touch while eyes await glimpse. Checked title-body relation, hum singular convention and no invented missing first line.",
+      "reason": "Restore natural complement order for part of the heart dwelling while retaining the two lines.",
+      "open_questions": [
+        "Prior poetic hum as singular I remains provisional; body opening Yet retained without inserting a duplicate title line."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "476725f70a82dd191d7ea546dc304c9bb98b8d53c6b5ac1802d9cce3c90e7f7b",
+      "before_sha256": "f7c84e0d1a4eae2f8ae2b46beaaee519e719a73ab2eea204cd10042cdc8f7d61",
+      "after_sha256": "2a4366a080497d850da1e9651eeca46ea8a4ffa2ccdc9c468c54ac6558c4d542",
+      "prior_uncertainties": [
+        {
+          "note": "Title supplies distance; original body begins Yet, retained without inserting a missing opening line. Poetic hum rendered singular speaker provisionally.",
+          "record": "kb/production/translations/batch-096/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 392,
+      "target": "or",
+      "reading_evidence": "Read all seven source/target stanzas: life as spirit/free smile concealing myriad sorrows, smile-face special definition/joy flowers in sorrow mud, enters other hearts and fixes difficult tasks quickly, small precious smile helps success, inner-self expression/indelible impression, free divine gift used generously, expanded closing repeats opening counsel. Checked didactic register and retained repeated closing rather than embellishing it.",
+      "reason": "Retain straightforward counsel, full refrain and smile imagery; no target-only meaning error found.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "2f0e66ade874ce91ed87ccd1dc961727082396d2c6592b9c2d0c9c67cdcc0b76",
+      "before_sha256": "b769717a43b92af0ba2a0f50c078f2c8ab778322a5e8c2208de3f9f377e8e704",
+      "after_sha256": "b769717a43b92af0ba2a0f50c078f2c8ab778322a5e8c2208de3f9f377e8e704",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 392,
+      "target": "en",
+      "reading_evidence": "Read all seven source/target stanzas: life as spirit/free smile concealing myriad sorrows, smile-face special definition/joy flowers in sorrow mud, enters other hearts and fixes difficult tasks quickly, small precious smile helps success, inner-self expression/indelible impression, free divine gift used generously, expanded closing repeats opening counsel. Checked didactic register and retained repeated closing rather than embellishing it.",
+      "reason": "Retain straightforward counsel, full refrain and smile imagery; no target-only meaning error found.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "2f0e66ade874ce91ed87ccd1dc961727082396d2c6592b9c2d0c9c67cdcc0b76",
+      "before_sha256": "58f116fe476a05a07e87b461f5570956f013cfd830a5735f82a56338f153e52d",
+      "after_sha256": "58f116fe476a05a07e87b461f5570956f013cfd830a5735f82a56338f153e52d",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 393,
+      "target": "or",
+      "reading_evidence": "Read three full eight-line source/target stanzas: winter wind chills/summer agitates/spring kindles beloved memory; direction east-west and favourable wind changes thorns to flowers; indiscriminate breath for all, then wind-running idiom of people holding influence/world bows at feet. Checked shift from literal wind to social sway.",
+      "reason": "Render spring’s sulagana as smouldering rather than merely smoking, and preserve wind-as-influence without implying someone physically controls the wind.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "82fc4fc67b6f21043edd47bdcd73c88ba53605dd6405489a186308c97e66bce1",
+      "before_sha256": "bc52f29940e4488b10a7c6f9b6c78a4402199a5d8e00033e31e07c3b5c0fb80e",
+      "after_sha256": "cde639ead00162bfddc57123959fb6e0d19101dfcdbc3297c48815dc30d4f74c",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 393,
+      "target": "en",
+      "reading_evidence": "Read three full eight-line source/target stanzas: winter wind chills/summer agitates/spring kindles beloved memory; direction east-west and favourable wind changes thorns to flowers; indiscriminate breath for all, then wind-running idiom of people holding influence/world bows at feet. Checked shift from literal wind to social sway.",
+      "reason": "Retain smouldering spring and explicit holds-sway bridge from wind to influence.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "82fc4fc67b6f21043edd47bdcd73c88ba53605dd6405489a186308c97e66bce1",
+      "before_sha256": "0cfcdd449e3c53c4ff9fd2b048214d594a60715d58dfb10bfa88091520503e92",
+      "after_sha256": "0cfcdd449e3c53c4ff9fd2b048214d594a60715d58dfb10bfa88091520503e92",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 383,
+      "target": "or",
+      "reading_evidence": "Read all six source/target stanzas: fading life palette/deep cherished love, canvas unfolds sky/cosmos, refolding but cannot confine love, plural shimmer and framed beloved in black coat/red tie/smile, butterfly love/affection boundaries break golden frame/warhorse flight/tugged whipped reins, pacification and caged-parrot wing-clipping restraint. Checked literal male beloved against unestablished narrator gender and preserved source’s awkward changing plural subjects.",
+      "reason": "Group golden-frame possessive with its confines in natural Odia order without changing the boundary-break image.",
+      "open_questions": [
+        "Prior If/It, from/form, there/their readings remain provisional; unclear they and reins-whipped attachment retained. No bereavement biography invented. Hindi feminine narrator remains provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "ea8dc9bbc273b3a2bfb22d80aa844db488c8f3fa7b421571da73ba3fb159eb7f",
+      "before_sha256": "a15305cda738661c0a6e3afdc501c1d9bac5dfff60afee6f63e47f553dd60e5e",
+      "after_sha256": "2831dbad28aeb23855dce3115c775728a4204ca7cfeb9907d16a413e81f80633",
+      "prior_uncertainties": [
+        {
+          "note": "Six stanzas retained. If unfurls read It unfurls, from read form, there read their provisionally; original untouched. Unclear plural pronoun and reins being whipped retained rather than repaired; no invented bereavement biography.",
+          "record": "kb/production/translations/batch-096/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 383,
+      "target": "hi",
+      "reading_evidence": "Read all six source/target stanzas: fading life palette/deep cherished love, canvas unfolds sky/cosmos, refolding but cannot confine love, plural shimmer and framed beloved in black coat/red tie/smile, butterfly love/affection boundaries break golden frame/warhorse flight/tugged whipped reins, pacification and caged-parrot wing-clipping restraint. Checked literal male beloved against unestablished narrator gender and preserved source’s awkward changing plural subjects.",
+      "reason": "Attach golden-frame confines in natural Hindi order while preserving the two lines.",
+      "open_questions": [
+        "Prior If/It, from/form, there/their readings remain provisional; unclear they and reins-whipped attachment retained. No bereavement biography invented. Hindi feminine narrator remains provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "ea8dc9bbc273b3a2bfb22d80aa844db488c8f3fa7b421571da73ba3fb159eb7f",
+      "before_sha256": "c2a380a3a49189a5893dbeb53cb90dcc5a85916bef6b61a4eb1d4fa196ddcb0c",
+      "after_sha256": "98bb442d50fade583da2a94d47a2f89076617b5036fde9c1b2d48b9721d064e8",
+      "prior_uncertainties": [
+        {
+          "note": "Six stanzas retained. If unfurls read It unfurls, from read form, there read their provisionally; original untouched. Unclear plural pronoun and reins being whipped retained rather than repaired; no invented bereavement biography.",
+          "record": "kb/production/translations/batch-096/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 400,
+      "target": "or",
+      "reading_evidence": "Read full thirty-two verse lines plus Sai of Shirdi tribute in source and both targets: no principles but honesty/no steadiness but word keeping/wild trees grateful soil, restless world shaping/uncared stone mud, simple food/drink/napkin hair/ankle wind/fathomless heart/empty giving hands, uncertain next meal/bed/sleep/shelter across faiths, living God hones us born beasts/devils into humans, begging/unassuming small-things Lord, wick rolling/crumbling home/grand universe plans, worn small coin not gold/diamond gives peace, near friend not remote stars/rice plate and reed mat. Checked embodied ankles, transformation agent/object and full attribution retained.",
+      "reason": "Correct heels to ankles and clarify us as those transformed into humans, preserving the carving metaphor and tribute.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "979dba9bec5ddde682829678794a274c89d33c7ee09ca961763405a9ad6de36d",
+      "before_sha256": "2d039736bc1fb05d6de79341382f82f90f1fccdf601ac27d72670afe3ab2e7de",
+      "after_sha256": "69baea66d9a11b163f560bfec712b5cd8ab622b9823e93df42f8fa41157aa7b4",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 400,
+      "target": "hi",
+      "reading_evidence": "Read full thirty-two verse lines plus Sai of Shirdi tribute in source and both targets: no principles but honesty/no steadiness but word keeping/wild trees grateful soil, restless world shaping/uncared stone mud, simple food/drink/napkin hair/ankle wind/fathomless heart/empty giving hands, uncertain next meal/bed/sleep/shelter across faiths, living God hones us born beasts/devils into humans, begging/unassuming small-things Lord, wick rolling/crumbling home/grand universe plans, worn small coin not gold/diamond gives peace, near friend not remote stars/rice plate and reed mat. Checked embodied ankles, transformation agent/object and full attribution retained.",
+      "reason": "Clarify who was born beast/devil and who is shaped into human; retain honing as tarashna rather than dropping the transformation.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve sources, credits, raw closing dedication where present and target line/stanza counts. Contextual repairs only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "979dba9bec5ddde682829678794a274c89d33c7ee09ca961763405a9ad6de36d",
+      "before_sha256": "0e13072b697479ac6139065d8d4cb24bb9ab62c8d69515866ee3b66986e1c4ca",
+      "after_sha256": "176afd5c8d5e5d48c55c5861587453b6f3fd162e09f555798573af47b867183d",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

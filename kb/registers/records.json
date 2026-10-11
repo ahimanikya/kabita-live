@@ -77,7 +77,8 @@
       "blockers": [],
       "evidence": [
         "reference/design-system.md",
-        "review/page-type-checklist.md"
+        "review/page-type-checklist.md",
+        "records/human-natural-site-review-2026-10-03.json"
       ],
       "persona_routing": {
         "coordination": "KBL-ASG-001",
@@ -169,11 +170,13 @@
       "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-009",
-      "next_action": "Connect a remote repository and Pages configuration; full editorial content remains required before release.",
+      "next_action": "Hosted preview is live and verified. Future DNS records, cutover and rollback are documented; confirm the domain and export provider settings before a separately approved migration.",
       "blockers": [],
       "evidence": [
         "reference/site-architecture.md",
-        "records/github-pages-verification.json"
+        "records/github-pages-verification.json",
+        "records/github-pages-preview-deployment.json",
+        "records/dns-cutover-plan.json"
       ]
     },
     {
@@ -182,11 +185,12 @@
       "status": "completed",
       "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
-      "authorization": "KBL-DEC-010",
+      "authorization": "KBL-DEC-038",
       "next_action": "Firebase feedback, Likes and moderated comments are live and verified. Owner reviews comments in Firebase Console. Dedicated editor inbox, reader accounts, cloud bookmarks and DNS remain deferred.",
       "blockers": [],
       "evidence": [
         "records/account-setup.json",
+        "records/service-activation-2026-10-02.json",
         "records/engagement-activation-2026-10-04.json"
       ]
     },
@@ -417,13 +421,32 @@
       ]
     },
     {
+      "id": "KBL-WORK-020",
+      "title": "Poetic Natural artwork recreation loop",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-040",
+      "next_action": "Completed artwork heartbeat paused: 72 verified, 0 pending, 1 hold (cover-016, identified likeness reference needed). Review gallery for separately authorized placement/publication; originals preserved.",
+      "blockers": [],
+      "refs": [
+        "KBL-WORK-004"
+      ],
+      "evidence": [
+        "records/poetic-natural-loop.json",
+        "research/poetic-natural/queue.json",
+        "research/poetic-natural/inventory.json",
+        "research/poetic-natural/final-verification.json"
+      ]
+    },
+    {
       "id": "KBL-WORK-021",
       "title": "Edition-specific interior artwork pilot",
       "status": "completed",
       "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-045",
-      "next_action": "Pilot published and live verified at11ebcb6; all-edition expansion continues underKBL-WORK-022.",
+      "next_action": "Pilot deployed and live verified at11ebcb6. Full edition rollout active underKBL-WORK-022.",
       "blockers": [],
       "refs": [
         "KBL-WORK-004"
@@ -453,6 +476,299 @@
       ]
     },
     {
+      "id": "KBL-WORK-023",
+      "title": "Poetic Natural revision of every saved translation",
+      "status": "completed",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-051",
+      "next_action": "Local revision complete:1574 examined,818 revised,744 retained,12 held unchanged;1312 variants retain questions/provisional choices. Independent review pending;24 missing targets and22 external Edition48 variants separate. No publication authorized.",
+      "blockers": [],
+      "refs": [],
+      "evidence": [
+        "records/translation-revision-loop-2026-10-04.json",
+        "production/translation-revisions/queue.json",
+        "production/translation-revisions/WORKFLOW.md",
+        "production/translation-revisions/batch-022/verification.json",
+        "production/translation-revisions/COMPLETION.md",
+        "production/translation-revisions/completion-2026-10-06.json",
+        "production/translation-revisions/unresolved-questions-final.json",
+        "production/translation-revisions/batch-185/verification.json"
+      ],
+      "user_directed_checkpoint": "Poem628 fixes verified locally in batch-022; awaiting further poet feedback; no publication."
+    },
+    {
+      "id": "KBL-WORK-024",
+      "title": "Adopt common website rulebook and local extensions",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-052",
+      "next_action": "Continue separately verified performance and common reader/service adoption.",
+      "blockers": [],
+      "refs": [
+        "KBL-DEC-052",
+        "KBL-REV-013"
+      ],
+      "evidence": [
+        "reference/website-extensions.md",
+        "records/website-adoption.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-025",
+      "title": "Measure current public-build loading baseline",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-052",
+      "next_action": "Compare the same capture conditions/window after scoped performance changes; retain unfinished load states and production-verification limits.",
+      "blockers": [],
+      "refs": [
+        "KBL-DEC-052",
+        "KBL-REV-014"
+      ],
+      "evidence": [
+        "records/performance-baseline-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-026",
+      "title": "Install opt-in common design foundations and local theme adapter",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-052",
+      "next_action": "Consume the pinned foundation in shared reader/service components; retain local palettes, font faces and editorial designs.",
+      "blockers": [],
+      "refs": [
+        "KBL-DEC-052",
+        "KBL-REV-015"
+      ],
+      "evidence": [
+        "records/shared-design-foundations-2026-10-06.json",
+        "reference/fleet-theme.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-027",
+      "title": "First incremental edition sync: Edition48 and playbook",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-053",
+      "next_action": "Review local edition and22 translation drafts; publish the verified issue scope when requested.",
+      "blockers": [],
+      "refs": [
+        "KBL-DEC-053",
+        "KBL-REV-016"
+      ],
+      "evidence": [
+        "records/edition-sync-48.json",
+        "production/edition-sync/PLAYBOOK.md"
+      ]
+    },
+    {
+      "id": "KBL-WORK-028",
+      "title": "Complete Edition48 imagery and Durga Puja editorial",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-054",
+      "next_action": "Review Edition48 editorial draft locally; publication remains a separately authorized step.",
+      "blockers": [],
+      "refs": [
+        "KBL-DEC-054",
+        "KBL-REV-017"
+      ],
+      "evidence": [
+        "research/edition-sync/edition-48/revision-02/scope.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-029",
+      "title": "Deliver appropriately sized cover-card artwork with comparable loading checks",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-052",
+      "next_action": "Continue remaining fleet performance tasks and shared reader contracts.",
+      "blockers": [],
+      "refs": [
+        "KBL-DEC-052",
+        "KBL-REV-018"
+      ],
+      "evidence": [
+        "records/performance-cover-card-delivery-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-030",
+      "title": "Refine Edition48 thematic imagery and editorial line art",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-055",
+      "next_action": "Local preview ready; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "KBL-DEC-055",
+        "KBL-REV-019"
+      ],
+      "evidence": [
+        "research/edition-sync/edition-48/revision-03/scope.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-031",
+      "title": "Finish shared reader/service loading after adapter integration",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-052",
+      "blockers": [],
+      "next_action": "Local four-site loading acceptance is complete; retain production headers/compression and real-user measurements as release dependencies.",
+      "refs": [
+        "KBL-DEC-052",
+        "KBL-REV-040"
+      ],
+      "evidence": [
+        "records/performance-residual-loading-2026-10-06.json",
+        "records/reader-residual-loading-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-032",
+      "title": "Make reading language immediately discoverable",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-056",
+      "next_action": "Local preview and portable handoff verified; publish only within an authorized release.",
+      "blockers": [],
+      "refs": [
+        "KBL-DEC-056",
+        "KBL-REV-020"
+      ],
+      "evidence": [
+        "records/visible-reading-language-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-033",
+      "title": "Adopt common Human Natural companion and representative journal audit",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-052",
+      "refs": [
+        "KBL-DEC-052",
+        "KBL-REV-021"
+      ],
+      "evidence": [
+        "records/human-natural-adoption-2026-10-06.json",
+        "reference/human-natural-editorial.md"
+      ],
+      "blockers": [],
+      "next_action": "Preserve existing poet-feedback holds and active domain loops; continue other fleet site audits."
+    },
+    {
+      "id": "KBL-WORK-034",
+      "title": "Adopt common reader through native journal adapters",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-052",
+      "refs": [
+        "KBL-DEC-052",
+        "KBL-REV-022",
+        "KBL-REV-023",
+        "KBL-REV-024",
+        "KBL-REV-025"
+      ],
+      "evidence": [
+        "records/shared-reader-adapter-2026-10-06.json",
+        "records/shared-reader-storage-2026-10-06.json",
+        "records/shared-reader-collections-2026-10-06.json",
+        "records/shared-reader-browser-2026-10-06.json"
+      ],
+      "blockers": [],
+      "next_action": "Continue fleet Utkal collection reader; final cross-browser/loading release checks remain separate."
+    },
+    {
+      "id": "KBL-WORK-035",
+      "title": "Replace the Odia journal signature in all current placements",
+      "status": "completed",
+      "readiness": "published",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-057",
+      "next_action": "Published and live-verified on homepage and all48 editions; historical sources preserved.",
+      "blockers": [],
+      "refs": [
+        "KBL-DEC-057"
+      ],
+      "evidence": [
+        "records/tagline-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-036",
+      "title": "Adopt shared Firebase process with Kabita Live response compatibility",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-052",
+      "next_action": "Audit and complete Singhasan poem/article response coverage next. Kabita local response coverage is verified; live article activation and pending portable internal-record copy remain separate dependencies.",
+      "blockers": [],
+      "refs": [
+        "KBL-DEC-052",
+        "KBL-REV-026",
+        "KBL-REV-027",
+        "KBL-REV-028",
+        "KBL-REV-029",
+        "KBL-REV-030",
+        "KBL-REV-031",
+        "KBL-REV-032",
+        "KBL-REV-033",
+        "KBL-REV-034",
+        "KBL-REV-035",
+        "KBL-REV-036",
+        "KBL-REV-037",
+        "KBL-REV-038",
+        "KBL-REV-039",
+        "KBL-REV-041",
+        "KBL-REV-042",
+        "KBL-REV-043",
+        "KBL-REV-044",
+        "KBL-REV-045",
+        "KBL-REV-046",
+        "KBL-REV-047"
+      ],
+      "evidence": [
+        "records/firebase-engagement-boundary-2026-10-06.json",
+        "records/firebase-feedback-identity-2026-10-06.json",
+        "records/firebase-like-retry-2026-10-06.json",
+        "records/firebase-comment-receipts-2026-10-06.json",
+        "records/firebase-comment-form-retry-2026-10-06.json",
+        "records/firebase-feedback-receipts-2026-10-06.json",
+        "records/firebase-feedback-form-retry-2026-10-06.json",
+        "records/firebase-editor-compatibility-2026-10-06.json",
+        "records/firebase-browser-auth-verification-2026-10-06.json",
+        "records/firebase-server-read-verification-2026-10-06.json",
+        "records/firebase-provider-loading-comparison-2026-10-06.json",
+        "records/firebase-service-export-verification-2026-10-06.json",
+        "records/firebase-packaged-browser-verification-2026-10-06.json",
+        "records/firebase-local-integration-verification-2026-10-06.json",
+        "records/response-coverage-audit-2026-10-07.json",
+        "records/article-response-foundation-2026-10-07.json",
+        "records/article-response-ui-integration-2026-10-07.json",
+        "records/article-response-language-integration-2026-10-07.json",
+        "records/article-response-browser-verification-2026-10-07.json",
+        "records/article-response-rules-verification-2026-10-07.json",
+        "records/article-response-entry-verification-2026-10-07.json"
+      ]
+    },
+    {
       "id": "KBL-WORK-037",
       "title": "Refocus language story on the magazine’s three languages",
       "status": "completed",
@@ -468,6 +784,153 @@
         "records/three-languages-article-2026-10-06.json",
         "records/article-publication-2026-10-07.json"
       ]
+    },
+    {
+      "id": "KBL-WORK-038",
+      "title": "Adopt Blueprint Analytics process with dedicated Kabita property",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-052",
+      "refs": [
+        "KBL-DEC-052",
+        "KBL-REV-048",
+        "KBL-REV-049",
+        "KBL-REV-050",
+        "KBL-REV-051",
+        "KBL-REV-052",
+        "KBL-REV-053"
+      ],
+      "next_action": "Continue Utkal Analytics adapter adoption next. Retain Kabita live-provider background/withdrawal, account enhanced-measurement and DebugView checks as explicit release dependencies;existing source property and consent must remain unchanged.",
+      "blockers": [],
+      "evidence": [
+        "records/analytics-privacy-foundation-2026-10-07.json",
+        "records/analytics-public-catalogue-2026-10-07.json",
+        "records/analytics-share-integration-2026-10-07.json",
+        "records/analytics-reading-integration-2026-10-07.json",
+        "records/analytics-browser-loading-2026-10-07.json",
+        "records/analytics-public-build-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-039",
+      "title": "Verify sharing images and preserve canonical alias destinations",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-052",
+      "refs": [
+        "KBL-DEC-052",
+        "KBL-REV-054"
+      ],
+      "evidence": [
+        "records/sharing-image-coverage-2026-10-08.json"
+      ],
+      "blockers": [],
+      "next_action": "Local1316page/659image coverage verified. Check actual deployed HTTPS retrieval and platform previews at release.",
+      "local_integration": {
+        "status": "verified",
+        "record": "records/sharing-image-coverage-2026-10-08.json",
+        "release_status": "public_https_and_platform_checks_pending"
+      }
+    },
+    {
+      "id": "KBL-WORK-040",
+      "title": "Complete poem and article share controls",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-052",
+      "refs": [
+        "KBL-DEC-052",
+        "KBL-REV-055"
+      ],
+      "evidence": [
+        "records/share-controls-coverage-2026-10-08.json"
+      ],
+      "blockers": [],
+      "next_action": "All 814 poem/article routes have sharing controls. Real OS sheets and deployed routes remain release checks.",
+      "local_integration": {
+        "status": "verified",
+        "record": "records/share-controls-coverage-2026-10-08.json",
+        "release_status": "deployed_routes_and_os_share_checks_pending"
+      }
+    },
+    {
+      "id": "KBL-WORK-041",
+      "title": "Consolidate preparation explanation and preserve credits",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-052",
+      "refs": [
+        "KBL-DEC-052",
+        "KBL-REV-056"
+      ],
+      "evidence": [
+        "records/ai-explanation-2026-10-08.json"
+      ],
+      "blockers": [],
+      "next_action": "One preparation explanation in existing Our Story colophon; all current public pages link to credits or redirect to a credited destination. Final regression and publication remain separate.",
+      "local_integration": {
+        "status": "verified",
+        "record": "records/ai-explanation-2026-10-08.json",
+        "release_status": "final_regression_and_publication_pending"
+      }
+    },
+    {
+      "id": "KBL-WORK-042",
+      "title": "Verify clean local release regression",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-052",
+      "refs": [
+        "KBL-DEC-052",
+        "KBL-REV-057"
+      ],
+      "evidence": [
+        "records/fleet-regression-2026-10-08.json"
+      ],
+      "blockers": [],
+      "next_action": "Finish fleet regression and prepare release handoff; live setup and publication remain separate.",
+      "local_integration": {
+        "status": "verified",
+        "record": "records/fleet-regression-2026-10-08.json",
+        "release_status": "live_configuration_platform_checks_and_publication_pending"
+      }
+    },
+    {
+      "id": "KBL-WORK-043",
+      "title": "Enable search discovery and Firebase bot protection",
+      "status": "completed",
+      "readiness": "published",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-059",
+      "refs": [
+        "KBL-DEC-059"
+      ],
+      "evidence": [
+        "records/search-bot-protection-2026-10-10.json"
+      ],
+      "blockers": [],
+      "next_action": "Search Console sitemap Success with1306 discovered pages verified11October2026. Discovery and bot protection rollout complete; indexing/citation decisions remain external."
+    },
+    {
+      "id": "KBL-WORK-044",
+      "title": "Publish remaining translations and reader services with separate review desk",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-060",
+      "refs": [
+        "KBL-DEC-060"
+      ],
+      "evidence": [
+        "records/remaining-site-publication-2026-10-11.json"
+      ],
+      "blockers": [],
+      "next_action": "Verify and publish approved combined candidate; retain independent linguistic review in unlinked noindex review desk."
     }
   ],
   "decisions": [
@@ -993,6 +1456,77 @@
       ]
     },
     {
+      "id": "KBL-DEC-038",
+      "title": "Complete service configuration and document Blueprint and generation skills",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "We also have google analytics, firebase etc. if they have not configured let's do that. It is using Kalinga Blueprint; explain the blueprint too. All the skills we are using for the generation - document that too",
+      "scope": "Configure and verify the existing Kabita Live Firebase and Google Analytics integrations; extend the technical handover with Blueprint and skill documentation. Retain privacy, release, billing and DNS boundaries.",
+      "evidence": [
+        "records/service-activation-2026-10-02.json",
+        "records/technical-handover-2026-10-02.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-039",
+      "title": "Activate Firebase and add Likes and public comments",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Can we activate firebase? And add like button? and add public comment?",
+      "scope": "Prepare and activate private feedback, reversible Likes and public comments on Kabita Live. Supersedes earlier no-public-comments scope. Moderation defaults to editor approval while optional preference is pending. Broader CLI OAuth access still requires explicit approval. No billing or DNS changes.",
+      "evidence": [
+        "records/reader-engagement-2026-10-02.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-040",
+      "title": "Unattended Human Natural artwork recreation",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "This is good. Can we recreate all the images in the same skill - identify all images and run this as a batch job- and keep a loop instead of waiting for my approval.",
+      "scope": "Recreate all 73 identified non-portrait artwork identities using Human Natural / Poetic Natural, automatic self-review in sequential batches of five, preserving originals and exact provenance. Versioned local output; no publication. Existing portrait scope retained while clarification is pending. No per-image or batch approval required.",
+      "evidence": [
+        "records/poetic-natural-loop.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-041",
+      "title": "Publish reviewed Poetic Natural artwork to website and Facebook",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Update the website and facebook page",
+      "scope": "Apply 71 reviewed website artworks and Facebook cover. Preserve cover-016 identity hold, original assets and live portrait baseline. Commit/push artwork-only change and use existing manual preview-mode Pages deployment; DNS and runtime services unchanged.",
+      "evidence": [
+        "records/poetic-natural-publication-2026-10-03.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-042",
+      "title": "Human Natural watercolor refinement for editors and Pravakar",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Update portraits for editor and Pravakar Satapathy with Human Natural and water color",
+      "scope": "Refine Pradeep Biswal, Paresh Kumar Pattnaik and Pravakar Satapathy from saved identified source photos; preserve originals and prior versions. Explicit exception to no retroactive regeneration for these three only. Local portrait integration and final rollout deployment gate retained.",
+      "evidence": [
+        "research/writers/editor-pravakar-human-natural-2026-10-03/review.json"
+      ]
+    },
+    {
       "id": "KBL-DEC-043",
       "title": "Deploy completed poet portraits and editor refinements now",
       "status": "approved",
@@ -1018,20 +1552,6 @@
       "scope": "Regenerate and source-review the thirteen retrospective shortlist candidates, retain only improvements, preserve originals and prior versions, commit and push scoped changes and deploy through the existing manual public-only Pages preview workflow. Nine source-review cases and existing holds excluded. No full-library regeneration, DNS or runtime-service changes. Temporary portrait-schedule hold prevents overlapping generation; restore afterward.",
       "evidence": [
         "records/selective-portrait-fixes-2026-10-03.json"
-      ]
-    },
-    {
-      "id": "KBL-DEC-039",
-      "title": "Activate Firebase and add Likes and public comments",
-      "status": "approved",
-      "actor": {
-        "kind": "human",
-        "name": "Ahimanikya Satapathy"
-      },
-      "quote": "Can we activate firebase? And add like button? and add public comment?",
-      "scope": "Prepare and activate private feedback, reversible Likes and public comments on Kabita Live. Supersedes earlier no-public-comments scope. Moderation defaults to editor approval while optional preference is pending. Broader CLI OAuth access still requires explicit approval. No billing or DNS changes.",
-      "evidence": [
-        "records/reader-engagement-2026-10-02.json"
       ]
     },
     {
@@ -1105,10 +1625,135 @@
       ]
     },
     {
+      "id": "KBL-DEC-050",
+      "title": "Simplify poem endings to the closing mark",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Since we have it in the editor - let's remove the footer navigation that is becoming messy over there, we just create a poem ending icon",
+      "scope": "Local removal of repeated poem-ending navigation; edition/context navigation, closing mark, reader responses and site footer retained. Supersedes previous end-navigation placement.",
+      "evidence": [
+        "records/poem-ending-simplification-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-051",
+      "title": "Revise the full translation collection in Poetic Natural batches",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "This is very good and huge improvement - can we fix all such findings in our translations? You can do this in batched so that we cover all ground",
+      "scope": "Full source/target review and local revisions of all existing translation variants; sequential same-chat batches using the existing translation heartbeat. Preserve originals and unresolved source questions. No publication or independent-review certification.",
+      "evidence": [
+        "records/translation-revision-loop-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-052",
+      "title": "Inherit common website rules with project-local extensions",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "the rulebook can mostly live in Blueprint and be extended with project-specific things - the common rules come from Blueprint.",
+      "scope": "Local versioned website-rule inheritance and bounded fleet implementation; no automatic publication or feature-completion claim.",
+      "recorded_at": "2026-10-06T03:43:12.424931+00:00",
+      "evidence": [
+        "records/website-adoption.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-053",
+      "title": "Sync Edition48 and establish a repeatable edition playbook",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Let's analyze and see if we can bring the content and apply all our rules for the edition ... let's create Edition Sync Playbook",
+      "scope": "Local Edition48 capture, poetry, translations, researched poet profiles, watercolor portraits, cover/interior art and integrated page review; reusable incremental-sync playbook. No new publication or schedule.",
+      "recorded_at": "2026-10-06T04:24:00.873048+00:00",
+      "evidence": [
+        "records/edition-sync-48.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-054",
+      "title": "Edition48: unique art for every poem and an Odia-first editorial",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "This time, instead of just 3 unique images, let’s give each poem its own unique image. ... create a positive yet grounded editorial note ... Start with Odia thinking ... Fix the all-caps issue ...",
+      "scope": "Local Edition48 revision: eight more images, Odia-first editorial with English/Hindi, two display-title casing corrections and visible cover story. No publication.",
+      "recorded_at": "2026-10-06T05:02:06.690517+00:00",
+      "evidence": [
+        "research/edition-sync/edition-48/revision-02/scope.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-055",
+      "title": "Theme-led poem illustration with open media; passage-specific editorial line art",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "The illustrations should match the poem’s theme ... why do we have to use watercolor? ... Keep them Human Natural, Poetic Natural. On the editorial note, we can have line art to explain the passage or note.",
+      "scope": "Local Edition48 theme review, three image assignment updates and three editorial vignettes. Medium-open poem imagery rule; separate portrait watercolor unchanged. No publication.",
+      "recorded_at": "2026-10-06T05:29:31.267005+00:00",
+      "evidence": [
+        "research/edition-sync/edition-48/revision-03/scope.json"
+      ],
+      "follow_up": {
+        "quote": "Also, update the playbook so we follow the same rule next time.",
+        "scope": "Promote the Edition48 poem-first image and editorial line-art workflow into future edition-sync defaults; preserve older editions.",
+        "evidence": [
+          "production/edition-sync/PLAYBOOK.md"
+        ]
+      }
+    },
+    {
+      "id": "KBL-DEC-056",
+      "title": "Show language choices before secondary reading settings",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "language selection should be up front on the edition and poem pages. even in the reader",
+      "scope": "Visible language controls on edition/poem pages and quiet reader; secondary text size/tools; local implementation and future playbook rule. No deployment.",
+      "recorded_at": "2026-10-06T05:47:17.357721+00:00",
+      "evidence": [
+        "records/visible-reading-language-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-057",
+      "title": "Use the heart-voice Odia signature everywhere current",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "ମାଟିର ମହକ / ହୃଦୟର ସ୍ବର — all the places wherever we have",
+      "scope": "Current site builders,48cover compositions and downloadable cover SVGs, sharing captions, branding logos/tokens/guide/printable sheet, KB current reference and portable handoff.",
+      "recorded_at": "2026-10-06T11:52:57.551604+00:00",
+      "evidence": [
+        "records/tagline-2026-10-06.json"
+      ]
+    },
+    {
       "id": "KBL-DEC-058",
       "title": "Focus the language story on Odia, Hindi and English",
       "status": "approved",
-      "scope": "Revise language essay, homepage and Our Story descriptions for magazine’s three-language focus; preserve earlier source and live route. Local implementation. User subsequently requested push/publication of the reviewed essay and comment layout.",
+      "scope": "Revise language essay, homepage and Our Story descriptions for magazine’s three-language focus; preserve earlier source and live route. Local implementation.",
       "evidence": [
         "records/three-languages-article-2026-10-06.json"
       ],
@@ -1118,6 +1763,36 @@
       },
       "recorded_at": "2026-10-07T03:14:38.900016+00:00",
       "quote": "Can we change the language story to 3 languages, since the magazine is only focusing on 3 languages?"
+    },
+    {
+      "id": "KBL-DEC-059",
+      "title": "Improve bot protection and search/AI discovery",
+      "status": "approved",
+      "scope": "Implement, verify and publish search discovery and Firebase bot protection. User explicitly approved publication and verified enforcement with “Go ahead, approved” on 2026-10-10.",
+      "evidence": [
+        "records/search-bot-protection-2026-10-10.json"
+      ],
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-10T00:42:41.253708+00:00",
+      "quote": "Yes, let's improve Bot protection and make this searchable by LLMs and search engines. Make the site LLM-friendly."
+    },
+    {
+      "id": "KBL-DEC-060",
+      "title": "Publish remaining site changes and separate translation review notes",
+      "status": "approved",
+      "scope": "Publish the previously identified local translation, reader/share, feedback/comment/Like, article response, consented analytics, Our Story and poem644 artwork changes. Place linguistic review information on an unlinked noindex review page.",
+      "evidence": [
+        "records/remaining-site-publication-2026-10-11.json"
+      ],
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-11T03:02:13.244488+00:00",
+      "quote": "push all of that please; Don’t label as drafts, for have a dedicated review page and keep it unlinked and out of the search index."
     }
   ],
   "requirements": [
@@ -1371,6 +2046,863 @@
         "review/poem-experience.md",
         "records/poem-experience-verification.json"
       ]
+    },
+    {
+      "id": "KBL-REV-013",
+      "title": "Inheritance and local extension documentation checks",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-024"
+      ],
+      "limitations": [
+        "Documentation-only local adoption; runtime feature coverage not certified.",
+        "Pinned candidate remains unpublished; common governance baseline and existing site permissions unchanged."
+      ],
+      "evidence": [
+        "records/website-inheritance-verification.json"
+      ]
+    },
+    {
+      "id": "KBL-REV-014",
+      "title": "Loading baseline measurement checks",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-025"
+      ],
+      "limitations": [
+        "Local current-build observations with source/artifact hashes, not production real-user metrics.",
+        "External services blocked; bounded capture window leaves some loads incomplete.",
+        "Network throttle settings requested; effective localhost latency not certified."
+      ],
+      "evidence": [
+        "records/performance-baseline-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "KBL-REV-015",
+      "title": "Shared foundation scope, surface and reading checks",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-026"
+      ],
+      "limitations": [
+        "Opt-in shared components only; existing pages retain their approved implementation. Reader/runtime adapters follow in later fleet tasks.",
+        "Styles are installed in maintained source; no new public build/import or deployment claimed.",
+        "Existing font files, faces and licences are retained; script-family roles do not certify font delivery/glyph coverage.",
+        "Cotton/earth/sea are new semantic slots for shared components; existing artwork-backed surfaces and saved settings remain unchanged."
+      ],
+      "evidence": [
+        "records/shared-design-foundations-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "KBL-REV-016",
+      "title": "Edition48 content, portraits, sharing and reader review",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; editorial and implementation self-review",
+      "refs": [
+        "KBL-WORK-027"
+      ],
+      "limitations": [
+        "Translations remain drafts for poet/editor feedback; assistant review is not independent literary approval.",
+        "New portrait likeness checks are self-review; publication rights for journal source photographs not independently verified.",
+        "Saswati Hota and Bani Mohanty have intentionally modest biographies because external identity matches were insufficient.",
+        "Local edition only: no Edition48 Git push or website publication has occurred."
+      ],
+      "evidence": [
+        "research/edition-sync/edition-48/verification.json",
+        "records/edition-sync-48.json",
+        "artifacts/edition-sync/edition-48/review/index.html"
+      ]
+    },
+    {
+      "id": "KBL-REV-017",
+      "title": "Edition48 complete imagery and three-language editorial",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; literary, visual and implementation self-review",
+      "refs": [
+        "KBL-WORK-028"
+      ],
+      "limitations": [
+        "Editorial/translation drafts await editor feedback.",
+        "Local only; no publication."
+      ],
+      "evidence": [
+        "research/edition-sync/edition-48/revision-02/verification.json",
+        "research/edition-sync/edition-48/revision-02/editorial-review.json",
+        "artifacts/edition-sync/edition-48/review/index.html"
+      ]
+    },
+    {
+      "id": "KBL-REV-018",
+      "title": "Cover delivery, vector layout, sharing source and content integrity",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-029"
+      ],
+      "limitations": [
+        "Asset-byte reduction is not an overall speed claim; FCP is an early paint observation, not full artwork/reader completion or final LCP.",
+        "6500ms windows can end before complete assets; file sizes come from exact local delivery inventory, not assumed transfer completion.",
+        "Homepage view/caption rotates using the existing approved logic; no artwork selection or randomizer changed.",
+        "Static localhost, no compression, providers blocked; requested latency is not a certified production RTT.",
+        "Shared build collision was recovered using an isolated copy of current generated public inputs; primary source integration preserved, no concurrent dist overwrite.",
+        "Exploratory captures from the earlier incomplete card scope and after captures overlapping UI verification are excluded.",
+        "Content-hashed card URLs support invalidation; production cache headers and live deployment remain release dependencies."
+      ],
+      "evidence": [
+        "records/performance-cover-card-delivery-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "KBL-REV-019",
+      "title": "Edition48 image-to-poem fidelity, editorial layout and preserved content",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant",
+      "refs": [
+        "KBL-WORK-030"
+      ],
+      "limitations": [
+        "Image and literary review is assistant self-review, not independent poet/editor approval.",
+        "Local preview only; editorial draft label retained."
+      ],
+      "evidence": [
+        "research/edition-sync/edition-48/revision-03/verification.json",
+        "research/edition-sync/edition-48/revision-03/browser-review.json"
+      ]
+    },
+    {
+      "id": "KBL-REV-020",
+      "title": "Visible language, inherited choices and narrow-screen reader controls",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant",
+      "refs": [
+        "KBL-WORK-032"
+      ],
+      "limitations": [
+        "Representative browser checks are not a complete accessibility audit.",
+        "Local build only; no deployment."
+      ],
+      "evidence": [
+        "records/visible-reading-language-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "KBL-REV-021",
+      "title": "Current-source literary effect and assigned artwork audit",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-033"
+      ],
+      "evidence": [
+        "records/human-natural-adoption-2026-10-06.json",
+        "reference/human-natural-editorial.md"
+      ],
+      "limitations": [
+        "Representative self-review only; no fluent certification or author approval.",
+        "Existing gender/local-expression/source holds retained.",
+        "Global portable sync may remain held by concurrent domain artifacts."
+      ]
+    },
+    {
+      "id": "KBL-REV-022",
+      "title": "Shared pagination equivalence and public packaging",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-034"
+      ],
+      "evidence": [
+        "records/shared-reader-adapter-2026-10-06.json"
+      ],
+      "limitations": [
+        "Pagination extraction checkpoint only; graph/source revisions, safe storage/legacy decoding and lazy collection adapters remain pending.",
+        "Native reader browser regression and enlarged text/theme/illustration checks pending after adapter completion.",
+        "No local translation/artwork loop changes, release-gate changes or publication."
+      ]
+    },
+    {
+      "id": "KBL-REV-023",
+      "title": "Shared storage native-key compatibility checkpoint",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-034"
+      ],
+      "evidence": [
+        "records/shared-reader-storage-2026-10-06.json"
+      ],
+      "limitations": [
+        "Five storage module checks and eight pagination tests passed; changed native reader interactions not yet browser-verified.",
+        "Native graph/revision mapping and shared lazy collection validation pending.",
+        "Existing saved-position and inline-break encodings retained; no silent conversion to shared anchors.",
+        "Standalone poem renderer has its separate marks store; its compatibility bridge remains to be checked.",
+        "No deployment, publication, service or literary-content edits."
+      ]
+    },
+    {
+      "id": "KBL-REV-024",
+      "title": "Shared collection source identity and lazy-loading checkpoint",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-034"
+      ],
+      "evidence": [
+        "records/shared-reader-collections-2026-10-06.json"
+      ],
+      "limitations": [
+        "Six collection module checks passed; integrated native reader browser regression remains pending.",
+        "Stable graph revisions describe exact native units and inline/hidden line metadata; old native saves are retained without silent anchor migration.",
+        "Public eligibility comes from the native build and public reading catalogue; no editorial release flags changed.",
+        "Public catalogue is now loaded lazily on first collection request; comparable loading measurements belong to FLEET-009.",
+        "Standalone poem marks-store compatibility and browser flow remain pending.",
+        "No publication, deployment or literary-content edits."
+      ]
+    },
+    {
+      "id": "KBL-REV-025",
+      "title": "Shared native journal reader browser adoption",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-034"
+      ],
+      "evidence": [
+        "records/shared-reader-browser-2026-10-06.json"
+      ],
+      "limitations": [
+        "Local isolated Chrome at390/1280px; cross-browser and enlarged-reading regression belongs to fleet release checks.",
+        "Actual HTTP failure/cancellation walkthrough remains final loading-regression work; module retry/invalid-route tests already pass.",
+        "Native saved-unit encodings retained; no browser-data migration, media/content rewrite or production publication.",
+        "No measured speed-improvement claim; catalogue-first lazy loading included in final comparable performance audit."
+      ]
+    },
+    {
+      "id": "KBL-REV-026",
+      "title": "Shared poem Firebase configuration and identity boundary",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-engagement-boundary-2026-10-06.json"
+      ],
+      "limitations": [
+        "Poem engagement source only: preserved named kabita-engagement app, numeric poem IDs, stored schemas and reader identity. Feedback source/default-app compatibility is not yet changed.",
+        "Eight shared-helper/real-SDK checks and ten existing emulator rules cases pass with no skips. Isolated service build passes; production bundles/configuration/rules unchanged.",
+        "Actual browser action/restoration, feedback default-app compatibility, response retries/receipts, server-only reads and final provider loading remain subsequent integration work. No cloud deployment or live-adoption claim."
+      ]
+    },
+    {
+      "id": "KBL-REV-027",
+      "title": "Private feedback legacy identity compatibility",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-feedback-identity-2026-10-06.json"
+      ],
+      "limitations": [
+        "Local legacy extension explicitly preserves persisted default feedback app identity, or sole existing kabita-engagement instance. Multiple known apps fail visibly; no silent namespace migration. Shared named-only helper remains unchanged.",
+        "Fourteen helper/real-SDK/actual-source UI checks pass without skips; isolated service build passes. Ten unchanged rules emulator cases from batch068 retained rather than rerun.",
+        "Production bundles, runtime configuration and Firestore rules unchanged. Actual browser authentication, retry receipts, final server reads/loading and other site adoption remain open. Email fallback remains existing behaviour; no automatic email sending."
+      ]
+    },
+    {
+      "id": "KBL-REV-028",
+      "title": "Desired-state Like retry and concurrency compatibility",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-like-retry-2026-10-06.json"
+      ],
+      "limitations": [
+        "Desired-state Like adapter uses shared hash-pinned transition and bounded transaction retry; stored numeric IDs, private voters and public counts are preserved.",
+        "Fourteen actual emulator cases and sixteen adapter/SDK/UI checks pass without skips. Lost accepted results replay the same intended choice; concurrent likes/unlikes retain correct nonnegative counts.",
+        "Local source and isolated build only. Production bundles/configuration/rules unchanged. Actual browser authentication, comment/feedback retry receipts, server reads/loading and other sites remain open."
+      ]
+    },
+    {
+      "id": "KBL-REV-029",
+      "title": "Private comment receipt privacy and retry compatibility",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-comment-receipts-2026-10-06.json"
+      ],
+      "limitations": [
+        "Private comment adapter and additive receipt rules candidate locally verified. Reader form not yet wired/activated; older two-write clients and accepted records remain compatible.",
+        "Twenty actual emulator checks pass, including six comment receipt cases; sixteen unchanged adapter/SDK/UI checks also pass. Own minimal receipts cannot be listed, forged, edited or deleted; confirmed replay retains original ID and exact Unicode/spacing.",
+        "Source candidate and isolated build only. No cloud rule deployment, public bundle change, runtime flag or data migration. Form retry integration, feedback receipts, editor compatibility, actual browser auth and final loading remain open."
+      ]
+    },
+    {
+      "id": "KBL-REV-030",
+      "title": "Version-gated comment form retry and input retention",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-comment-form-retry-2026-10-06.json"
+      ],
+      "limitations": [
+        "Comment form wired to receipt adapter only when engagement.commentReceiptVersion equals1; current configuration has no flag, preserving legacy submissions.",
+        "Twenty-three adapter/SDK/UI checks pass including seven comment-form cases: exact Unicode/spacing, original-ID replay, unavailable receipt, UTF8 bounds, edits after lost acknowledgement, edits during sending, duplicate-submit prevention and legacy mode.",
+        "Twenty unchanged rules emulator checks retained from batch071; isolated build passes. No runtime activation, production bundle or cloud-rule deployment. Feedback receipt/UI, editor compatibility, actual browser auth and final loading remain open."
+      ]
+    },
+    {
+      "id": "KBL-REV-031",
+      "title": "Private feedback receipt privacy and compatibility",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-feedback-receipts-2026-10-06.json"
+      ],
+      "limitations": [
+        "Private feedback adapter and additive receipt rules locally verified. Feedback form not yet wired/activated. Existing schema/contact, note/correction/submission reasons, local path context and accepted records remain compatible.",
+        "Twenty-seven actual emulator cases pass, including seven feedback receipt checks; twenty-three existing adapter/SDK/UI checks pass. Receipts expose only ID/channel/time to their owner, cannot be listed/forged/edited/deleted, and original-ID replay recovers lost acknowledgement.",
+        "Source candidate and isolated build only; no cloud rules, public bundles, runtime flags or data migration. Feedback form retries/input retention, editor compatibility, actual browser auth and final integration/loading remain open."
+      ]
+    },
+    {
+      "id": "KBL-REV-032",
+      "title": "Version-gated private feedback retry and input retention",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-feedback-form-retry-2026-10-06.json"
+      ],
+      "limitations": [
+        "Private feedback form wired to receipt adapter only when engagement.feedbackReceiptVersion equals1; current configuration has no flag. Legacy feedback/email-draft fallback and default-app identity extension remain compatible.",
+        "Twenty-nine adapter/SDK/UI checks pass including six feedback receipt form cases: exact contact/text, original-ID retry, unavailable receipt, changed contact/context, edits while sending, duplicate submission and UTF8 bounds.",
+        "Twenty-seven unchanged rules emulator checks retained from batch073; isolated service build passes. No receipt activation, cloud rule deployment, public bundle change or data migration. Editor compatibility, actual browser auth and final loading/integration remain open."
+      ]
+    },
+    {
+      "id": "KBL-REV-033",
+      "title": "Private editor moderation and response compatibility",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-editor-compatibility-2026-10-06.json"
+      ],
+      "limitations": [
+        "Private editor adapter and strengthened moderation rules locally verified; no public editor page/inbox or private queue export. Exact existing public fields and private source/contact retained.",
+        "Thirty-three actual emulator cases and twenty-nine adapter/SDK/UI checks pass. Paired publication/withdrawal, terminal rejection/closed feedback, forged claims and conflicting editor decisions verified. Private editor built only in isolated candidate.",
+        "Legacy editor deletion of a public projection remains allowed for removal compatibility; new adapter withdrawal is atomic and records status. Private deletion cannot leave a public copy. Rules/editor workflow review and authorized deployment remain dependencies.",
+        "No cloud deployment, receipt activation, public bundles or data migration. Actual browser auth/restoration, server reads/provider loading, matching generated service artifacts and other sites remain open."
+      ]
+    },
+    {
+      "id": "KBL-REV-034",
+      "title": "Browser reader identity restoration",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-browser-auth-verification-2026-10-06.json"
+      ],
+      "limitations": [
+        "Seventeen actual browser checks passed using Firebase12.19.0 and a local Auth emulator with synthetic provider configuration. Named engagement and preserved legacy default feedback identities restore separately across reloads; repeated actions reuse them.",
+        "HTTP localhost SDK/helper fixture; not production HTTPS or full site UI verification. Existing editor checkpoint retained; production rules deployment, receipt activation, server-read/loading and matching generated-service integration remain dependencies.",
+        "Prior thirty-three rule emulator and twenty-nine adapter/SDK/UI checks retained from batch075; not rerun in this authentication-only batch. Public bundles/runtime configuration unchanged. No cloud operation, deployment, migration or identity values in evidence."
+      ]
+    },
+    {
+      "id": "KBL-REV-035",
+      "title": "Fresh server response reads and lazy initialization",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-server-read-verification-2026-10-06.json"
+      ],
+      "limitations": [
+        "Fresh server reads now required for public count, restored own vote and published-comment pagination. Failed count/comment reads show retry without cached fallback or invented empty success.",
+        "Thirty-five adapter/SDK/source-UI checks freshly pass, including six new read/loading cases. Thirty-three rule emulator and seventeen actual authentication browser checks retained from prior batches; not rerun for this source-only read change.",
+        "Source fixture verifies provider initialization is deferred for a comments-only page, not network bytes: current non-splitting bundler embeds Firebase in each service asset. Final generated artifacts and comparable provider loading measurements remain open.",
+        "Isolated candidate build only; public service assets and runtime config unchanged. Cloud rules review/deployment, receipt activation and full production UI remain dependencies. No service migration or publication."
+      ]
+    },
+    {
+      "id": "KBL-REV-036",
+      "title": "Comparable Firebase provider packaging inventory",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-provider-loading-comparison-2026-10-06.json"
+      ],
+      "limitations": [
+        "Identical-source baseline/split ES2022 minified builds compared across five import-closure scenarios. Feedback pre-action raw JavaScript754609→9144bytes; comments-only756399→10866bytes. Full combined provider closure1511008→784950bytes.",
+        "Like-enabled initial count still requires provider load: raw756399→779518bytes, estimated gzip219519→219928bytes. No claim of overall page speed improvement; split files add request/parse overhead and production caching/compression remain unmeasured.",
+        "All generated import targets verified present. Existing public exporter does not traverse JavaScript dependencies; splitting cannot be safely adopted until explicit hashed public export graph support is implemented and tested.",
+        "Measurement-only isolated candidates. Site source, public bundles/runtime config unchanged. Prior35source-UI/33rule/17browser checks retained, not rerun. Actual request/timing and matching generated-service integration still open; no cloud operations or publication."
+      ]
+    },
+    {
+      "id": "KBL-REV-037",
+      "title": "Hash-checked public service dependency export",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-service-export-verification-2026-10-06.json"
+      ],
+      "limitations": [
+        "Nine public export-boundary cases pass, including actual isolated exporter selection with a real seven-file split Firebase graph. Byte-identical required chunks copied; private fixture, build manifest and unrelated/stale service assets excluded.",
+        "Thirty-five existing adapter/SDK/source-UI checks freshly pass. Thirty-three rules and seventeen actual auth browser checks retained, not rerun for build-only change. Generated imports all resolve in isolated candidate.",
+        "Legacy public bundler and runtime config preserved; a concurrent project build regenerated monolithic public service assets, which this batch does not overwrite; optional split builder is candidate-only. Public export validates an exact bounded service path/hash/dependency graph when supplied; no broad directory copying.",
+        "Initial real build validation exposed esbuild index.esm chunk names; validator corrected to accept safe dot-bearing filenames and actual candidate/export fixture rerun successfully. New packaging still needs browser request verification and adoption before a loading improvement is claimed.",
+        "No cloud operations, receipt activation, production publication or unrelated article/translation/art edits. Existing concurrent article decision058/event864 preserved."
+      ]
+    },
+    {
+      "id": "KBL-REV-038",
+      "title": "Packaged Firebase browser request verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-packaged-browser-verification-2026-10-06.json"
+      ],
+      "limitations": [
+        "Thirty-eight actual packaged-provider browser checks pass across six cold-cache baseline/split scenarios. Split feedback pre-action raw9144bytes versus754609; comments pre-open10866versus756399. Required chunks load after actions; no local dependency failures or uncaught exceptions.",
+        "Like-enabled initial count still loads all providers immediately: split779518rawbytes versus756399baseline. No overall page-speed claim. Raw script inventory derived from actual browser responses, not compressed transfer/timing.",
+        "All non-local test-target requests intercepted and blocked before network; synthetic local HTTPS forms/config only. Failed external feedback preserves words. No real submissions, identity success, editor flow or live UI claim. Prior17auth-emulator/35source-UI/33rules/9export checks retained, not rerun.",
+        "Initial fixture detected optional favicon404 as a dependency failure; narrowed exclusion to /favicon.ico only and reran all38checks. Durable preparation rebuilt and all browser-tested JS hashes matched. Test server/disposable browser stopped.",
+        "Split packaging remains isolated candidate pending default bundler/generated artifact adoption and public export regression. Production cloud rules, receipt activation/caching and other sites remain separate. Concurrent article edits and refreshed monoliths preserved."
+      ]
+    },
+    {
+      "id": "KBL-REV-039",
+      "title": "Local shared service packaging adoption",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current assistant; Drishti self-review role pass",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/firebase-local-integration-verification-2026-10-06.json"
+      ],
+      "limitations": [
+        "Verified split packaging adopted into Kabita default local service build. Both existing entry URLs retained; seven generated assets and hash/dependency manifest exactly match browser-verified candidate. Actual public export/dist include every chunk byte-identically and exclude internal manifest/KB.",
+        "Astro preview public build passes for1316pages; Pagefind stage passed. Nine export-boundary and thirty-five source/SDK/UI checks freshly pass. Prior38packaged-browser/17auth-browser/33rule-emulator checks retained, not rerun because adopted artifacts hash-match browser candidate.",
+        "Runtime config, receipt flags, service source inputs and translation data hashes preserved. Existing project cloud configuration remains dedicated; no identity/schema migration, new receipt activation or cloud-rule deployment. Local editor adapter remains private.",
+        "Feedback pre-action provider deferral verified previously with comparable build/browser inventory. Like-enabled initial count still loads providers immediately. Production compression/cache headers and live UI observations are release dependencies; no overall speed percentage claim.",
+        "Local service packaging/export integration checkpoint verified; rules review/authorized cloud deployment and receipt activation remain publication dependencies. Singhasan final integration and Free to Dream/Utkal adapters remain actionable fleet work."
+      ]
+    },
+    {
+      "id": "KBL-REV-040",
+      "title": "Current public reader residual loading and cache verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-031"
+      ],
+      "evidence": [
+        "records/reader-residual-loading-2026-10-07.json"
+      ],
+      "limitations": [
+        "Current public-build reader assets matching native source hashes and74browser checks on6cold-cache scenarios: home and poem834 at390/1280, plus real edition and library failures/retries. Within-page reopening reuses edition/library payloads. All external target requests blocked before network.",
+        "No new performance change or timing comparison in this batch. Existing matched-build cover improvements remain separately supported. This is loading/cache regression evidence, not a speed percentage or production cache-header check.",
+        "Existing active service/consent settings preserved. Prior synthetic provider failure/Auth/rules evidence retained. No recording fetch, source/art/music changes, submission, cloud write, deployment or independent-review claim.",
+        "All four sites have residual loading/cache evidence; FLEET009 local acceptance can close. Production header/compression and real-user observations remain release dependencies."
+      ]
+    },
+    {
+      "id": "KBL-REV-041",
+      "title": "Current poem and prose response coverage audit",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/response-coverage-audit-2026-10-07.json"
+      ],
+      "limitations": [
+        "Current saved1316-page artifact inspected:807full poem pages each have one Like, comment form and stable numeric poem context plus private editor-note link. Two routes are explicitly metadata-only with unavailable poem text; do not treat them as full reading pages or invent recovered poems.",
+        "Two known prose response gaps: issue48 editorial and the standalone three-language article at its retained thirty-languages route. Additive stable article context needed; existing numeric poem schema is not an article identity. No GitHub issue-submit handoff found.",
+        "Read-only source/artifact audit with exact source hashes; not a fresh build, browser test or live service check. Existing poem runtime flags/configuration, legacy required-email private feedback schema, author/translation/artwork work and all content preserved. Common receipt activation remains separately pending."
+      ]
+    },
+    {
+      "id": "KBL-REV-042",
+      "title": "Stable article response identity and guarded transport foundation",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/article-response-foundation-2026-10-07.json"
+      ],
+      "limitations": [
+        "Explicit identity manifest selects issue48 editorial (or/en/hi) and existing language essay (en), with stable article IDs across variants and route/title changes. Numeric poem schema and existing reader source remain unchanged.",
+        "Exact hash-pinned common transport copied; candidate article adapter rejects wrong project, unknown/private/poem/unavailable-language contexts before reads. Connection remains deferred, retries failures and reuses successful transport; no automatic activation.22 affected source/module regression checks pass, including8new article cases.",
+        "Source foundation only: generated controls, provider packaging, dedicated article rules/identity provisioning and browser integration remain next. No public build or live service claim. Active runtime-config and poem UI/SDK schemas unchanged; portable source sync will follow verified article UI integration. No deployment, source-text, image, translation or cloud changes."
+      ]
+    },
+    {
+      "id": "KBL-REV-043",
+      "title": "Article response controls and public provider integration",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/article-response-ui-integration-2026-10-07.json"
+      ],
+      "limitations": [
+        "Both explicit prose pages now receive one Like/comment/private feedback group in fresh public build;807full poem controls and2unavailable-text metadata routes preserved. Reused verified comment/feedback/UI helpers with exact local contract imports; separate consent, private optional contact, frozen retry and receipt checks.",
+        "52affected checks pass:41module/UI/identity/poem-read checks,2fresh article/full-poem coverage checks,9public service export graph tests. Fresh1316page public build and provider bundling pass with7service assets; no broad private source copying. Initial export test used old system Node and failed; rerun with required Node24 passes.",
+        "Article entry is bundled into preserved engagement entry and loads modular providers only for enabled candidate action. Existing kabita-engagement app/UID and dedicated project guards retained. Article candidate stays disabled; active poem and Analytics runtime configuration unchanged.",
+        "Actual article browser verification, current editorial-language context adaptation and additive rule/identity provisioning remain next. Original-language article context currently rendered. Source/UI local integration is not live activation. Portable handoff synced with24168entries and verified hashes; no source text, artwork, translation, cloud write or deployment."
+      ]
+    },
+    {
+      "id": "KBL-REV-044",
+      "title": "Editorial reading language and immutable article retry context",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/article-response-language-integration-2026-10-07.json"
+      ],
+      "limitations": [
+        "Article response language follows existing editorial aria-current selection using an observer; standalone essay remains English and unavailable languages fall back to original. New comment/private feedback validates the current language at submission; pending payload/ID remains frozen across later reading-language changes. Pending like desired-state retry retains its original ref.",
+        "41 affected checks pass:30source/helper/language cases,2fresh article/full-poem coverage checks,9strict public service export tests. Fresh1316page build succeeds. Initial artifact check ran during rebuilding and found missing output; repeated after completion passes. No site repair was needed for that transient verification failure.",
+        "Concurrent language essay edits and actual project events872–873 detected and preserved. No source essay/image/translation or active runtime config changed. Portable handoff uses existing divergence-aware sync. Candidate article sending remains disabled, existing numeric poem engagement active.",
+        "Actual browser language-change and transport verification, dedicated additive article rules/contexts and Singhasan response coverage remain subsequent batches. Module/build checks do not imply live cloud adoption. No deployment, provider writes, independent review or performance comparison."
+      ]
+    },
+    {
+      "id": "KBL-REV-045",
+      "title": "Native article forms and language switching browser verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/article-response-browser-verification-2026-10-07.json"
+      ],
+      "limitations": [
+        "90 native browser checks pass across6scenarios:43public comment and47private feedback, disabled at390px and enabled at390/1280px. Exact built Kabita editorial/response sections with actual UI/helper/language modules and native editorial language controller, synthetic receipts. Not complete site provider/Auth/rules verification.",
+        "Native consent, exact Odia/literal markup draft retention, English language selection, frozen original language/ID retry, next submission current language, duplicate guard, readonly pending fields and moderation/private receipt wording verified. Wrong public receipt cannot confirm private feedback; optional private contact retained. No storage writes or uncaught browser exceptions.",
+        "Only localhost fixture target traffic allowed. Figure assets intentionally omitted, so no visual/art delivery claim. Both owned browser/server processes stopped. No source changes or live writes in this batch; existing active poem service and disabled article candidate preserved.",
+        "Automatic approval review rejected combined local recording and internal-record/test-artifact synchronization to portable handoff because exact export authorization was not established. Local KB recording proceeds independently; no rejected handoff copy attempted. Rules/provisioning and Singhasan coverage remain actionable."
+      ]
+    },
+    {
+      "id": "KBL-REV-046",
+      "title": "Additive article rules and legacy poem compatibility verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/article-response-rules-verification-2026-10-07.json"
+      ],
+      "limitations": [
+        "Additive article rules integrated into local firestore.rules with all pre-existing poem rule body preserved and new function names prefixed. Shared response paths admit only the two registered Kabita article IDs, require published article metadata and metadata-listed languages. Readers cannot register/edit/enumerate identities.",
+        "36 local emulator checks pass:31article transport/boundary and legacy comment/feedback/editor cases plus5existing poem engagement cases. Tests cover desired-state likes, idempotent receipt replay, lost acknowledgement, Unicode/private contact retention, bounded pagination, unavailable language/context denial, private-record isolation, atomic exact-source publication and rejection of UID/email leakage.",
+        "Existing runtime-config hash unchanged from audited source; active poem service remains preserved and article candidate disabled. Emulators stopped successfully. Initial attempts selected old Java and a wrong Java21 directory, failing before checks; resolved existing JDK21 runtime runs pass. Corrected copied test rules path before execution. No live provider writes or deployment.",
+        "Local implementation only; new metadata and additive rules require actual trusted cloud provisioning/deployment authorization before article activation. Final packaged entry guard verification remains next, followed by Singhasan coverage. Pending portable internal-record copy remains untouched after prior automatic-review rejection; no handoff synchronization attempted."
+      ]
+    },
+    {
+      "id": "KBL-REV-047",
+      "title": "Article entry guards and public registration input verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-036"
+      ],
+      "evidence": [
+        "records/article-response-entry-verification-2026-10-07.json"
+      ],
+      "limitations": [
+        "19 new source/bundled entry and registration checks plus33 current response/helper/build-coverage checks pass (52 total). The entry bundle is generated in memory from current source; this is entry/component verification, not an additional native-browser or live-provider test.",
+        "Concurrent KBL-EVT-877 article-layout and single-field comment edits preserved; current form checks include that interface. Earlier native browser and rule evidence remains separately scoped.",
+        "Registration generator emits only two public article identities and available languages; it performs no admin/cloud writes. Article activation remains disabled. Live additive rules deployment, trusted registration and authorized activation remain release dependencies.",
+        "Portable KB/test-artifact synchronization still awaits exact authorization after prior auto-review rejection; no copy attempted. No publication or deploy."
+      ]
+    },
+    {
+      "id": "KBL-REV-048",
+      "title": "Analytics browser-privacy and cross-tab consent foundation",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-038"
+      ],
+      "evidence": [
+        "records/analytics-privacy-foundation-2026-10-07.json"
+      ],
+      "limitations": [
+        "Eight actual Analytics source tests pass, including original five regression cases. VM-based adapter tests; native provider/network/browser verification remains pending. No full public rebuild in this bounded source patch; generated dist may lag.",
+        "This is a privacy foundation, not complete Blueprint Analytics adoption: common event/catalogue module, correct completion triggers, provider loading/withdrawal races, enhanced-measurement settings and four-site browser checks remain.",
+        "Storage-blocked page-local withdrawal preserves the prior no-reload behaviour; actual provider background requests remain unverified and need a safe stop strategy before adoption acceptance.",
+        "Dedicated live property G-CEWHV75WS7 and runtime source configuration unchanged. Generated public config inspected:1316 exact public routes, fixed titles and root base. No account setting, publication, deployment or live request changed.",
+        "Primary project only. Portable copy/internal records remain pending exact authorization after prior automatic-review rejection; no handoff sync or export attempted. Self-review only."
+      ]
+    },
+    {
+      "id": "KBL-REV-049",
+      "title": "Public Analytics catalogue and shared validator foundation",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-038"
+      ],
+      "evidence": [
+        "records/analytics-public-catalogue-2026-10-07.json"
+      ],
+      "limitations": [
+        "13 source checks pass:8 existing consent regressions and5 common validator/current catalogue checks. Public-only exporter passes1316pages/3531assets; generated catalogue includes810poems,2articles,476collections and zero recordings. No full Astro/public dist rebuild or native provider/network claim.",
+        "Catalogue contains only stable identities, kinds, languages and ordered membership, excluding titles/source text/form data. Content is selected by actual public pages; article identities/languages cross-checked against response registry. Vendor exact hash pin identifies unpublished Blueprint candidate.",
+        "Common validator is integrated in source and catalogue in generated public runtime config. Current classic Analytics tracker still uses legacy share vocabulary; actual reader/language/copy/native completion hooks, bundled adapter and provider consent races remain pending. Recording events deliberately unavailable until actual recording registry exists.",
+        "Existing dedicated property and source runtime-config remain unchanged. No live account settings, cloud requests, publication or deployment. Generated public build remains content_ready:false; do not override that gate.",
+        "Canonical primary KB only; portable internal-record copy remains pending exact authorization after prior automatic-review rejection. No handoff sync attempted. Same-assistant self-review."
+      ]
+    },
+    {
+      "id": "KBL-REV-050",
+      "title": "Packaged shared Analytics validator and successful sharing hooks",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-038"
+      ],
+      "evidence": [
+        "records/analytics-share-integration-2026-10-07.json"
+      ],
+      "limitations": [
+        "17 checks pass:8 consent/common packaged-adapter tests,5 real-catalogue/pin checks,4 actual sharing-handler tests. Tests execute generated IIFE and source handlers with synthetic APIs; native browser/provider-network verification remains pending.",
+        "Successful link copy and native share emit common completion names with frozen pre-await poem/language context. Failed/cancelled actions, caption copies, collection copies and external social-link opens emit no poem completion. Common validator rejects private fields, unknown context and legacy share vocabulary.",
+        "Source entry and normal build bundler now reproduce assets/analytics.js using exact-pinned Blueprint validator. Existing consent key, dedicated property and source config preserved. Prior public catalogue exporter checkpoint retained; no fresh Astro/dist rebuild or live tracking change.",
+        "Reader/content/language/article hooks, actual provider consent/loading races, storage-blocked withdrawal and four-site integration remain pending. Local feature checkpoint only; no full FLEET020 acceptance.",
+        "Primary canonical KB only. No portable internal-record export or handoff sync, publication, deployment or independent review."
+      ]
+    },
+    {
+      "id": "KBL-REV-051",
+      "title": "Packaged Analytics reading identity and lifecycle integration",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-038"
+      ],
+      "evidence": [
+        "records/analytics-reading-integration-2026-10-07.json"
+      ],
+      "limitations": [
+        "23 checks pass:8 packaged consent/adapter checks,5 real-catalogue/pin checks,4 sharing-handler checks and6 reading lifecycle/DOM extraction checks. Native browser/provider-network verification remains pending; same-assistant self-review.",
+        "Actual Analytics entry observes displayed poem/article language and quiet reader DOM. No pre-consent event queue. Consent grant reports current view only; duplicate mutation/repagination does not double count variant views or reader opens. Returning to a previously seen language still records a language change.",
+        "Reader entry/exit carries registered collection/content/language/mode. Exit uses the last displayed context. Source text, marks, search, line/page position and saved device records are absent from event fields. Existing reader source, settings and persistence were not edited.",
+        "Generated Analytics IIFE consumes shared validator and reading observer. Article plural attribute/selected language and actual quiet-reader lang/data-poem-id markup inspected. Tests use synthetic DOM/APIs; real native lifecycle, late grant, withdrawal/background traffic, provider-loading races and full public build remain pending.",
+        "Dedicated property, source runtime configuration and reader content unchanged. No live requests, publication, deployment, portable handoff export or independent review. Other site adapters remain pending."
+      ]
+    },
+    {
+      "id": "KBL-REV-052",
+      "title": "Native Analytics provider loading and actual reader verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-038"
+      ],
+      "evidence": [
+        "records/analytics-browser-loading-2026-10-07.json"
+      ],
+      "limitations": [
+        "25 source/packaged checks pass, including delayed loading, withdrawal before completion, explicit regrant and provider failure/retry. Initial test assertion failed only due to cross-VM Array prototypes; corrected comparison and full rerun pass.",
+        "33 final-bundle native browser checks pass across4scenarios:current actual poem HTML/assets at390/1280, privacy override390 and storage-blocked withdrawal390. Actual language switch and quiet reader open/close verified. Added consent controls and synthetic dedicated HTTPS config used; all requests intercepted.",
+        "Google script requests are observed then failed or fulfilled with inert local JavaScript. No live provider payloads or cloud/account writes. This verifies native script loading, adapter gating/commands and actual reader DOM, not real Google background traffic or DebugView/enhanced-measurement settings.",
+        "Provider-load events are no longer queued:track stays inactive until onload. Withdrawal rejects late-load events; failure clears the own pending command queue and permits explicit retry. Successful page view counts once; pre-consent events are not replayed. Existing source property/configuration preserved.",
+        "Remaining Kabita acceptance:actual article browser/lifecycle verification, fresh complete public build and real provider/background-withdrawal assurance including storage-blocked loaded provider. Other site adapters remain pending. Browser stopped via Browser.close; launch recovered from startup connection-refused before tests.",
+        "Primary KB only;no portable export/handoff sync, publication, deployment or independent review."
+      ]
+    },
+    {
+      "id": "KBL-REV-053",
+      "title": "Fresh public Analytics build and native article verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-038"
+      ],
+      "evidence": [
+        "records/analytics-public-build-2026-10-07.json"
+      ],
+      "limitations": [
+        "Fresh complete current public build passes:1316public routes,3531selected assets,1312Pagefind indexed pages. Content readiness remains false; preview/noindex and existing release gate preserved. Source and dist Analytics asset bytes match;protected source adapter/observer/config hashes unchanged.",
+        "36native article browser checks pass across4fresh Astro artifact scenarios:both registered prose pages at390/1280. Exact article identities/languages, initial consent gating, no provider-load queue, one page view, editorial Hindi and return-to-Odia changes without duplicate variant views, reading/response controls and private query/hash exclusion verified.",
+        "Native article tests add consent controls and synthetic dedicated HTTPS config, intercept all requests and fulfil Google script with inert local JavaScript. No live Analytics payload, Google background traffic, Firebase write or account setting verification. Browser stopped via Browser.close.",
+        "Prior25source/packaged and33native poem/reader/loading checks retained separately. Kabita local interface/build integration checkpoint verified;real loaded-provider background withdrawal (including storage-blocked mode), enhanced-measurement/account settings and live DebugView remain actual release checks. Do not equate inert provider fixtures to real Google traffic validation.",
+        "Existing dedicated source property G-CEWHV75WS7, runtime configuration, reader originals/settings and concurrent editorial work preserved. No deploy/publication, portable internal-record copy/handoff sync or independent review. Other three site Analytics adapters remain pending."
+      ]
+    },
+    {
+      "id": "KBL-REV-054",
+      "title": "Local sharing image coverage verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-039"
+      ],
+      "evidence": [
+        "records/sharing-image-coverage-2026-10-08.json"
+      ],
+      "limitations": [
+        "Localartifactaudit only;actual deployedHTTPSretrieval andsocialpreview/cachechecks remain release verification.",
+        "Four duplicatecanonical links corrected while preservingauthoralias/searchdestinations;freshpublicbuild verified. No new imagery,poem/translation edits orpublication. Representative image visual inspection supports intent,not literary/native/human approval.",
+        "Portable internal KB export remains separately blocked by priorautomaticapprovalreview;not retried. Source records remaincanonical."
+      ]
+    },
+    {
+      "id": "KBL-REV-055",
+      "title": "Local share controls coverage verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-040"
+      ],
+      "evidence": [
+        "records/share-controls-coverage-2026-10-08.json"
+      ],
+      "limitations": [
+        "Two metadata-only poem pages retain their missing-text state; sharing their page is not evidence of a complete poetry archive.",
+        "Real OS share sheets, physical device clipboard permissions, deployed links and social-app previews remain release verification.",
+        "Native/clipboard controlled in actual Chrome pages; runtime services disabled and external traffic blocked. Existing real GA/Firebase source configuration preserved.",
+        "Portable internal KB export remains held on the prior automatic-review rejection; canonical own-project KB evidence retained."
+      ]
+    },
+    {
+      "id": "KBL-REV-056",
+      "title": "Local single-colophon and credits preservation verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-041"
+      ],
+      "evidence": [
+        "records/ai-explanation-2026-10-08.json"
+      ],
+      "limitations": [
+        "Local public build and generated HTML checks do not certify independent editorial review or deployment. Existing content-ready/translation draft gates remain.",
+        "Specific portrait/home-art sources and substantive AI discussion remain as content context; the preparation explanation is centralized.",
+        "Canonical KB evidence only; prior portable internal-export hold remains separate and was not retried."
+      ]
+    },
+    {
+      "id": "KBL-REV-057",
+      "title": "Clean artifact and local regression checkpoint",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-042"
+      ],
+      "evidence": [
+        "records/fleet-regression-2026-10-08.json"
+      ],
+      "limitations": [
+        "Current content-ready gate remains false; two metadata-only poem routes retain unavailable-text state. Missing writer biographies/reviews and editorial/linguistic review remain release dependencies.",
+        "Full local build is a review candidate with noindex/content restrictions; not approval or publication.",
+        "Browser sharing tests use controlled share/clipboard APIs, disabled services and external requests blocked; physical devices, real OS sheets, deployed HTTPS and social caches remain release checks.",
+        "Firestore uses synthetic authenticated emulator contexts; no cloud writes or deployment and no new anonymous Auth/account verification.",
+        "Prior portable internal-KB export hold remains open; no sync_handoff or internal export attempted.",
+        "Same-assistant Samanta/Drishti role passes are self-review. No independent literary/cultural review or new performance improvement claimed.",
+        "Utkal regression and fleet release handoff remain."
+      ]
     }
   ],
   "releases": [
@@ -1493,6 +3025,45 @@
       ]
     },
     {
+      "id": "KBL-REL-009",
+      "title": "Approved pre-DNS GitHub Pages preview",
+      "status": "applied",
+      "authorization": "KBL-DEC-037",
+      "destination": "https://ahimanikya.github.io/kabita-live/",
+      "refs": [
+        "KBL-WORK-010"
+      ],
+      "evidence": [
+        "records/github-pages-preview-deployment.json"
+      ]
+    },
+    {
+      "id": "KBL-REL-010",
+      "title": "Poetic Natural artwork published on website and Facebook",
+      "status": "applied",
+      "authorization": "KBL-DEC-041",
+      "destination": "https://ahimanikya.github.io/kabita-live/ and Facebook Kabita Live page",
+      "refs": [
+        "KBL-WORK-020"
+      ],
+      "evidence": [
+        "records/poetic-natural-publication-2026-10-03.json"
+      ]
+    },
+    {
+      "id": "KBL-REL-011",
+      "title": "Approved Odia signature published across current website",
+      "status": "published",
+      "authorization": "KBL-DEC-057",
+      "destination": "https://ahimanikya.github.io/kabita-live/",
+      "refs": [
+        "KBL-WORK-035"
+      ],
+      "evidence": [
+        "records/tagline-2026-10-06.json"
+      ]
+    },
+    {
       "id": "KBL-REL-012",
       "title": "Three-language essay and article comment layout published",
       "status": "published",
@@ -1503,6 +3074,19 @@
       ],
       "evidence": [
         "records/article-publication-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "KBL-REL-013",
+      "title": "Search and AI discovery published with verified Firestore bot protection",
+      "status": "published",
+      "authorization": "KBL-DEC-059",
+      "destination": "https://kabitalive.com/",
+      "refs": [
+        "KBL-WORK-043"
+      ],
+      "evidence": [
+        "records/search-bot-protection-2026-10-10.json"
       ]
     }
   ],

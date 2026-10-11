@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-11T03:02:13.244488+00:00",
+  "status": "verification_in_progress",
+  "authorization": {
+    "decision": "KBL-DEC-060",
+    "quotes": [
+      "push all of that please",
+      "Don’t label as drafts, for have a dedicated review page and keep it unlinked and out of the search index."
+    ],
+    "scope": "Publish the previously identified local translation, reader/share, feedback/comment/Like, article response, consented analytics, Our Story and poem644 artwork changes. Place linguistic review information on an unlinked noindex review page."
+  },
+  "work": "KBL-WORK-044",
+  "baseline": "1edc6c4e648229cdeea783c068680c90e392a3db",
+  "review": {
+    "independent": false,
+    "linguistic_certification": false,
+    "route": "translation-review.html",
+    "excluded_from": [
+      "reader navigation",
+      "site search",
+      "sitemap",
+      "LLM guide",
+      "analytics catalogue"
+    ],
+    "source_holds_preserved": true
+  },
+  "checks": {
+    "firestore_emulator": {
+      "passed": 45,
+      "failed": 0
+    },
+    "site": "in_progress"
+  },
+  "publication": {
+    "status": "pending"
+  },
+  "portable_sync": "pending"
+}

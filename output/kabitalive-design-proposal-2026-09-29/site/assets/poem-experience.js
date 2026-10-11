@@ -1,8 +1,11 @@
+import {createNativeLoader} from './shared-reader-collections.mjs';
+import {getNativeStore} from './shared-reader-storage.mjs';
 import {normalized,subtract} from './poem-marks.mjs?v=2';
 import {packReadingPages} from './reader-pagination.mjs?v=1';
 (()=>{
 'use strict';
 const $=s=>document.querySelector(s), query=new URLSearchParams(location.search);
+const nativeStore=getNativeStore({getItem:key=>localStorage.getItem(key),setItem:(key,value)=>localStorage.setItem(key,value)},status=>{if(status==='session'||status==='invalid'){const message=status==='session'?'Device storage is unavailable; this change lasts for this visit.':'A saved record could not be read; its original data has been kept.';for(const id of ['focus-announcement','page-saved-status']){const node=$('#'+id);if(node)node.textContent=message}}});
 
 // One contents-and-links panel follows the viewport without duplicate destinations.
 const secondaryLinks=$('#poem-secondary-links'),editionPanel=$('.edition-glance'),widePoem=matchMedia('(min-width:761px)');
@@ -28,15 +31,8 @@ function fillContents(){
 }
 fillContents();let opening=false;
 let showIllustrations=false; // Text-first on every new page load; optional for this reading session.
-const collectionCache=new Map();
-async function fetchCollection(url){
- if(url!=='assets/reading-all.json'&&!/^assets\/reading-(?:editions\/issue-|authors\/poet-)\d+\.json$/.test(url))throw Error('Invalid collection');
- if(collectionCache.has(url))return collectionCache.get(url);
- const pending=(async()=>{const response=await fetch(url);if(!response.ok)throw Error('Collection unavailable');const value=await response.json();
-  if(!Array.isArray(value.poems)||!value.poems.length||value.poems.some(p=>!p.variants?.[p.source_language]))throw Error('Invalid collection');return value;
- })();collectionCache.set(url,pending);
- try{return await pending}catch(error){collectionCache.delete(url);throw error}
-}
+const collectionLoader=createNativeLoader(url=>fetch(url));
+async function fetchCollection(url){return collectionLoader.load(url)}
 async function loadEdition(){
  savedKey='kabita-live-quiet-reader-v1:'+(dataset.url||pageData.id);
  try{const edition=dataset.url?await fetchCollection(dataset.url):{poems:[pageData]};
@@ -116,7 +112,7 @@ function unitNode(unit,measuring=false){
  return line;
 }
 function currentPosition(){return pages[pageIndex]?.[0]||{poemIndex,index:-1,code:chosen()}}
-function save(){const at=currentPosition();try{localStorage.setItem(savedKey,JSON.stringify({id:poems[at.poemIndex].id,language,unit:at.index}))}catch{}}
+function save(){const at=currentPosition();writeJSON(savedKey,{id:poems[at.poemIndex].id,language,unit:at.index})}
 function currentUnit(){return currentPosition().index}
 function paginate(anchor=-1){
  if(!dialog.open)return;
@@ -184,7 +180,7 @@ async function openReader(){
  poemIndex=Math.max(0,poems.findIndex(p=>p.id===pageData.id));pageIndex=0;
  language=document.querySelector('[data-reading-language][aria-selected="true"]')?.dataset.readingLanguage||$('[data-collection-reader]')?.dataset.readingLanguage||'original';
  let anchor=-1;
- try{const saved=JSON.parse(localStorage.getItem(savedKey));if(saved?.id===pageData.id&&saved.language===language){anchor=Number.isInteger(saved.unit)?saved.unit:-1}}catch{}
+ try{const saved=readJSON(savedKey,null);if(saved?.id===pageData.id&&saved.language===language){anchor=Number.isInteger(saved.unit)?saved.unit:-1}}catch{}
  syncEffects();dialog.showModal();document.body.style.overflow='hidden';await document.fonts.ready;paginate(anchor);area.focus();opening=false;
  $('#focus-load-note').hidden=loaded;$('#focus-load-note').textContent=loaded?'':'The edition could not be loaded. You can still read this poem; close and reopen to retry.';
 }
@@ -234,8 +230,8 @@ document.fonts.addEventListener('loadingdone',()=>{if(dialog.open)paginate(curre
 // Device-local preferences and passages never modify publication text.
 const prefKey='kabita-live-quiet-tools-v1',bookKey='kabita-live-quiet-bookmarks-v1';
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-function readJSON(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}}
-function writeJSON(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{$('#focus-announcement').textContent='Device storage is unavailable; this change lasts for this visit.';return false}}
+function readJSON(key,fallback){return nativeStore.get(key,fallback)??fallback}
+function writeJSON(key,value){return nativeStore.set(key,value)}
 const storedEffects=readJSON(prefKey,{}),effects={motion:storedEffects.motion===true,sound:storedEffects.sound===true};
 let audioContext,selectionCuts=[],selectionTimer,turnLayer=null,turnFrame=0;
 const selectionTools=$('#focus-selection-tools');
@@ -344,7 +340,7 @@ function isHere(b){return pages.slice(pageIndex,pageIndex+spread).some(pg=>pg.so
 function updateBookmark(){const active=bookmarks().some(isHere),button=$('#focus-bookmark');button.setAttribute('aria-pressed',String(active));button.setAttribute('aria-label',active?'Remove page bookmark':'Bookmark this page');button.title=button.getAttribute('aria-label')}
 $('#focus-bookmark').onclick=()=>{
  let list=allBookmarks();const active=list.some(isHere);list=active?list.filter(b=>!isHere(b)):list.concat({id:poems[poemIndex].id,language:chosen(),unit:currentUnit()});
- writeJSON(bookKey,list);updateBookmark();$('#focus-announcement').textContent=active?'Bookmark removed.':'Page bookmarked.';
+ const durable=writeJSON(bookKey,list);updateBookmark();$('#focus-announcement').textContent=durable?(active?'Bookmark removed.':'Page bookmarked.'):'Device storage is unavailable; this change lasts for this visit.';
 };
 function jumpSaved(id,code,unit){clearSelection();poemIndex=poems.findIndex(p=>p.id===id);language=code;settings.hidden=true;$('#focus-settings-button').setAttribute('aria-expanded','false');paginate(unit);save();area.focus({preventScroll:true});announcePoem()}
 function renderSaved(){
@@ -390,7 +386,7 @@ function renderPageSaved(){
 }
 savedButton.onclick=()=>{const open=savedPanel.hidden;savedPanel.hidden=!open;savedButton.setAttribute('aria-expanded',String(open));if(open){renderPageSaved();placePageMenu();savedPanel.querySelector('#page-save-place')?.focus({preventScroll:true})}};
 $('#page-bookmarks-close').onclick=()=>closeSavedPage(true);
-$('#page-save-place').onclick=()=>{const code=pageCode(),saved=pageBooks(),exists=saved.some(b=>b.language===code);writeJSON(pageBookKey,exists?saved.filter(b=>b.language!==code):saved.concat({id:pageData.id,language:code,line:currentPageLine()}));renderPageSaved();refreshSavedButton();$('#page-saved-status').textContent=exists?'Bookmark removed.':'Bookmarked. Your reading place will follow as you read.'};
+$('#page-save-place').onclick=()=>{const code=pageCode(),saved=pageBooks(),exists=saved.some(b=>b.language===code);const durable=writeJSON(pageBookKey,exists?saved.filter(b=>b.language!==code):saved.concat({id:pageData.id,language:code,line:currentPageLine()}));renderPageSaved();refreshSavedButton();$('#page-saved-status').textContent=durable?(exists?'Bookmark removed.':'Bookmarked. Your reading place will follow as you read.'):'Device storage is unavailable; this change lasts for this visit.'};
 document.addEventListener('click',e=>{if(!savedPanel.hidden&&!savedPanel.contains(e.target)&&!savedButton.contains(e.target))closeSavedPage()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!savedPanel.hidden){e.preventDefault();e.stopPropagation();closeSavedPage(true)}});
 document.addEventListener('poem-marks-changed',()=>{refreshSavedButton();if(!savedPanel.hidden)renderPageSaved()});

@@ -1,3 +1,4 @@
+import {getNativeStore} from './shared-reader-storage.mjs';
 import {snap as snapRange, normalized as normalizeRanges, subtract, poemMarkKey, stanzaLines} from "./poem-marks.mjs?v=2";
 (()=>{
 'use strict';
@@ -7,9 +8,9 @@ const tabs=[...document.querySelectorAll('[data-reading-language]:not(:disabled)
 const clear=document.querySelector('#clear-marks');
 let language=data.source_language,marks=[],pending=[],storageOK=true;
 const selectionBar=document.querySelector('#selection-tools');
-const memory={};
-function read(key,fallback){try{const v=localStorage.getItem(key);return v?JSON.parse(v):fallback;}catch{storageOK=false;return memory[key]??fallback;}}
-function save(key,value){memory[key]=value;try{localStorage.setItem(key,JSON.stringify(value));}catch{storageOK=false;}}
+const nativeStore=getNativeStore({getItem:key=>localStorage.getItem(key),setItem:(key,value)=>localStorage.setItem(key,value)},status=>{if(status==='session')storageOK=false});
+function read(key,fallback){return nativeStore.get(key,fallback)??fallback}
+function save(key,value){if(!nativeStore.set(key,value))storageOK=false;}
 function markKey(){return poemMarkKey(data.id,language);}
 function lines(){return stanzaLines(data.variants[language]);}
 function snap(text,start,end){return snapRange(text,start,end,language);}

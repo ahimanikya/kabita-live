@@ -1,0 +1,835 @@
+[
+  {
+    "poem_id": 110,
+    "target": "or",
+    "reading_evidence": "Read all four source/target quatrains: first eager walk contrasted with present reluctance; crowds/talkative relations and snaking roads merging like veins with face turns; familiar cooperative/competitive reticent companion; shadow pursuit then inner poet whose concern is world, narrator now follows as silhouette, friendless road as identity/means/self. Checked double negatives, road agency, final reversal and inner-poet pronouns.",
+    "open_questions": [
+      "Face-ward turns remains compressed source syntax. Talkative relations may signify relatives or personified relationships; current abstract rendering remains provisional.",
+      "First walk may be literal childhood walking or beginning a wider journey; avoid changing its scale without author evidence. Hindi narrator gender remains provisional."
+    ],
+    "reason": "Remove double negative that reverses unwillingness to step out into unwillingness not to step out.",
+    "tradeoff": "Retains unwillingness as noun and removes only the negation on the action; the contrast with first eager walking becomes accurate.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "cefc8c73747577f744fbd33a1aa6f8ed08ba12d824cd37e0ba0d0e72ca14ab39",
+    "before_sha256": "a1b13133834b231e3e6c37fc7b9a486a46f7b7b6e6efeedb1d11b96d79fd1906",
+    "after_sha256": "97651b5df267a26c7c5268a27ae1d81628cb8c4d7e698c869fb3009ebc34fc38",
+    "prior_uncertainties": [
+      {
+        "note": "Companion is the poet within narrator; final reversal narrator-following-poet retained. face-ward turns syntax remains provisional.",
+        "record": "kb/production/translations/batch-154/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ବାଛିଥିବା ବାଟ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଏଯାଏଁ ସ୍ମୃତିରେ ଝଲସେ:",
+          "ଏକ ବଡ଼, ଅର୍ଥପୂର୍ଣ୍ଣ ପାର୍ଥକ୍ୟ ଧରାପଡ଼ିଛି",
+          "ମୋ ପ୍ରଥମ ଚାଲିବାର ଉତ୍ସାହୀ ଦିନ",
+          "ଆଉ ଆଜି ଆଉ ପାଦ ବାହାର ନ କରିବାର ଅନିଚ୍ଛା ଭିତରେ।"
+        ],
+        [
+          "ଭିଡ଼ ଜମାଉଥିବା ସାଥୀ, ବାକ୍‌ପଟୁ ସମ୍ପର୍କ",
+          "ସେବେ ଭିନ୍ନ ଦିଗରେ ସାପ ପରି ବଙ୍କେଇଥିବା ଅସଂଖ୍ୟ ନୂଆ ବାଟ,",
+          "ଆଜି ବିଶ୍ୱାସ ଜନ୍ମାଇ ଶିଖାନ୍ତି: ଶିରା ପରି ବାଟମାନେ",
+          "ପରସ୍ପରରେ ମିଶନ୍ତି; ଦିଗ: ମୋ ମୁହଁ ଯୁଆଡ଼େ ମୋଡ଼େ।"
+        ],
+        [
+          "ଆଜିକାଲି ଯେଉଁ ବାଟରେ ମୁଁ ପାଦ ରଖେ",
+          "ସେ ପାଏ ଏକ ସହଯୋଗୀ ଅଥଚ ପ୍ରତିଦ୍ୱନ୍ଦ୍ୱୀ ସାଥୀ",
+          "ଯାହାକୁ ବହୁଦିନରୁ ମୁଁ ଭଲଭାବେ ଜାଣେ:",
+          "ଅଳ୍ପଭାଷୀ, ଅବିରାମ, ଅନ୍ୟମନସ୍କ, ସବୁବେଳେ ଭାବନାରେ।"
+        ],
+        [
+          "ଛାଇ ପରି ପିଛା କରେ, ଓଠ ବନ୍ଦ, ଅନ୍ତର କଥା କ୍ୱଚିତ୍ ବାଣ୍ଟେ",
+          "ମୋ ଭିତରର କବି ମୋର ନୁହେଁ, ତା' ଚିନ୍ତା ଘେରେ",
+          "ସାରା ଦୁନିଆ, ସାହାରା ଦେଉଥିବା ଛାଇଟିଏ, ତା' ପଛେ ଚାଲେ ମୁଁ",
+          "ବନ୍ଧୁହୀନ ବାଛିଥିବା ବାଟ: ମୋର ଏକମାତ୍ର ପରିଚୟ, ସମ୍ବଳ ଓ ମୁଁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ବାଛିଥିବା ବାଟ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଏଯାଏଁ ସ୍ମୃତିରେ ଝଲସେ:",
+          "ଏକ ବଡ଼, ଅର୍ଥପୂର୍ଣ୍ଣ ପାର୍ଥକ୍ୟ ଧରାପଡ଼ିଛି",
+          "ମୋ ପ୍ରଥମ ଚାଲିବାର ଉତ୍ସାହୀ ଦିନ",
+          "ଆଉ ଆଜି ଆଉ ପାଦ ବାହାର କରିବାର ଅନିଚ୍ଛା ଭିତରେ।"
+        ],
+        [
+          "ଭିଡ଼ ଜମାଉଥିବା ସାଥୀ, ବାକ୍‌ପଟୁ ସମ୍ପର୍କ",
+          "ସେବେ ଭିନ୍ନ ଦିଗରେ ସାପ ପରି ବଙ୍କେଇଥିବା ଅସଂଖ୍ୟ ନୂଆ ବାଟ,",
+          "ଆଜି ବିଶ୍ୱାସ ଜନ୍ମାଇ ଶିଖାନ୍ତି: ଶିରା ପରି ବାଟମାନେ",
+          "ପରସ୍ପରରେ ମିଶନ୍ତି; ଦିଗ: ମୋ ମୁହଁ ଯୁଆଡ଼େ ମୋଡ଼େ।"
+        ],
+        [
+          "ଆଜିକାଲି ଯେଉଁ ବାଟରେ ମୁଁ ପାଦ ରଖେ",
+          "ସେ ପାଏ ଏକ ସହଯୋଗୀ ଅଥଚ ପ୍ରତିଦ୍ୱନ୍ଦ୍ୱୀ ସାଥୀ",
+          "ଯାହାକୁ ବହୁଦିନରୁ ମୁଁ ଭଲଭାବେ ଜାଣେ:",
+          "ଅଳ୍ପଭାଷୀ, ଅବିରାମ, ଅନ୍ୟମନସ୍କ, ସବୁବେଳେ ଭାବନାରେ।"
+        ],
+        [
+          "ଛାଇ ପରି ପିଛା କରେ, ଓଠ ବନ୍ଦ, ଅନ୍ତର କଥା କ୍ୱଚିତ୍ ବାଣ୍ଟେ",
+          "ମୋ ଭିତରର କବି ମୋର ନୁହେଁ, ତା' ଚିନ୍ତା ଘେରେ",
+          "ସାରା ଦୁନିଆ, ସାହାରା ଦେଉଥିବା ଛାଇଟିଏ, ତା' ପଛେ ଚାଲେ ମୁଁ",
+          "ବନ୍ଧୁହୀନ ବାଛିଥିବା ବାଟ: ମୋର ଏକମାତ୍ର ପରିଚୟ, ସମ୍ବଳ ଓ ମୁଁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 110,
+    "target": "hi",
+    "reading_evidence": "Read all four source/target quatrains: first eager walk contrasted with present reluctance; crowds/talkative relations and snaking roads merging like veins with face turns; familiar cooperative/competitive reticent companion; shadow pursuit then inner poet whose concern is world, narrator now follows as silhouette, friendless road as identity/means/self. Checked double negatives, road agency, final reversal and inner-poet pronouns.",
+    "open_questions": [
+      "Face-ward turns remains compressed source syntax. Talkative relations may signify relatives or personified relationships; current abstract rendering remains provisional.",
+      "First walk may be literal childhood walking or beginning a wider journey; avoid changing its scale without author evidence. Hindi narrator gender remains provisional."
+    ],
+    "reason": "Remove double negative in reluctance line; retain surrounding recollection and contrast.",
+    "tradeoff": "Preserve complete sequence, existing lineation and draft status; independent fluent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "cefc8c73747577f744fbd33a1aa6f8ed08ba12d824cd37e0ba0d0e72ca14ab39",
+    "before_sha256": "407aa7921339eda45e29e4840fb8d5fc1e750fa035050bd9669fe35034426913",
+    "after_sha256": "b77f359348a161702681461e51dbe3378838fca9172a4eccaa578b5d2338ee2d",
+    "prior_uncertainties": [
+      {
+        "note": "Companion is the poet within narrator; final reversal narrator-following-poet retained. face-ward turns syntax remains provisional.",
+        "record": "kb/production/translations/batch-154/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "चुनी हुई राह",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "अब तक स्मृति में चमकता है:",
+          "एक बड़ा, अर्थपूर्ण अंतर दिखा",
+          "मेरी पहली यात्रा के उत्साही दिन",
+          "और आज फिर बाहर पाँव न रखने की अनिच्छा के बीच।"
+        ],
+        [
+          "भीड़ लगाते साथी, बातूनी संबंध",
+          "तब अलग दिशाओं में बल खाती अनगिनत नई राहें,",
+          "आज विश्वास दिलाकर सिखाती हैं: नसों जैसी राहें",
+          "एक-दूसरे में घुलती हैं; दिशाएँ: जिधर मेरा मुख मुड़े।"
+        ],
+        [
+          "इन दिनों जिस राह पर मैं पाँव रखता हूँ",
+          "उसे एक सहयोगी, पर प्रतिस्पर्धी साथी मिलता है",
+          "जिसे मैं बहुत पहले से भलीभाँति जानता हूँ:",
+          "अल्पभाषी, अनवरत, खोया हुआ, सदा चिंतन में।"
+        ],
+        [
+          "छाया की तरह पीछा करता, होंठ बंद, मन की बात मुश्किल से बाँटता",
+          "मेरे भीतर का कवि मेरा नहीं, उसकी चिंताएँ समेटती हैं",
+          "सारा संसार; एक सहारा देती छाया, उसके पीछे चलता हूँ मैं",
+          "मित्रहीन चुनी हुई राह: मेरी एकमात्र पहचान, साधन और मैं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "चुनी हुई राह",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "अब तक स्मृति में चमकता है:",
+          "एक बड़ा, अर्थपूर्ण अंतर दिखा",
+          "मेरी पहली यात्रा के उत्साही दिन",
+          "और आज फिर बाहर पाँव रखने की अनिच्छा के बीच।"
+        ],
+        [
+          "भीड़ लगाते साथी, बातूनी संबंध",
+          "तब अलग दिशाओं में बल खाती अनगिनत नई राहें,",
+          "आज विश्वास दिलाकर सिखाती हैं: नसों जैसी राहें",
+          "एक-दूसरे में घुलती हैं; दिशाएँ: जिधर मेरा मुख मुड़े।"
+        ],
+        [
+          "इन दिनों जिस राह पर मैं पाँव रखता हूँ",
+          "उसे एक सहयोगी, पर प्रतिस्पर्धी साथी मिलता है",
+          "जिसे मैं बहुत पहले से भलीभाँति जानता हूँ:",
+          "अल्पभाषी, अनवरत, खोया हुआ, सदा चिंतन में।"
+        ],
+        [
+          "छाया की तरह पीछा करता, होंठ बंद, मन की बात मुश्किल से बाँटता",
+          "मेरे भीतर का कवि मेरा नहीं, उसकी चिंताएँ समेटती हैं",
+          "सारा संसार; एक सहारा देती छाया, उसके पीछे चलता हूँ मैं",
+          "मित्रहीन चुनी हुई राह: मेरी एकमात्र पहचान, साधन और मैं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 111,
+    "target": "hi",
+    "reading_evidence": "Read complete three source/target blocks: deeper breath/incense mother might have burned/seven mystics/olfactory blessing; lavish soothing rainbow colours and four flower names/meditative fold/showers/souls rainbow embracing; differently named celebration/divinity/rainbow sky blessing/same light/subtle prisms/heavens smile/psalms draw us to Him/unreserved rainbow. Checked spiritual personification, tentative mother inference, non-specific faith and all floral names.",
+    "open_questions": [
+      "Seven mystics and meditative fold remain opaque, not rewritten into seven colours or a named religious rite.",
+      "Prior note mentions Hindi kumudini for lilies, but current complete target actually reads lili; no species correction is needed or claimed.",
+      "Evocative rendered memory-evoking is a plausible narrowing; retain pending source-aware tonal review."
+    ],
+    "reason": "Correct postpositional agreement for plural masculine chhinton.",
+    "tradeoff": "Preserve complete sequence, existing lineation and draft status; independent fluent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "627abebc897c512bfe6f89bb5845d7f96555fdbc18c0c6ca20889fcaa3c11c16",
+    "before_sha256": "98acf83549f37166c28971bbd33198721852c6bf3a264878b5c1131f17fb339f",
+    "after_sha256": "4bae3e01542c984657ea466dc1cd8c67cebcffd04afda0e513c3b9f1f76cb51b",
+    "prior_uncertainties": [
+      {
+        "note": "Seven mystics and meditative fold retained as opaque spiritual imagery, not silently changed to seven colours. Floral names preserved; Hindi lilies provisionally kumudini, species uncertain. No particular festival or faith invented.",
+        "record": "kb/production/translations/batch-154/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "इंद्रधनुष",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैंने और गहरी साँसें लीं,",
+          "सुगंध हर ओर थी।",
+          "शायद माँ ने कुछ धूप जलाई होगी, मैंने सोचा।",
+          "मेरी दृष्टि में सात रहस्यदर्शी बहते हैं,",
+          "सुगंध का आशीर्वाद!"
+        ],
+        [
+          "सुकून देते, स्मृतियाँ जगाते इंद्रधनुषी रंग लुटाते,",
+          "लैवेंडर, रजनीगंधा, लिली",
+          "प्रिमरोज़",
+          "ध्यानमग्न तह का मधुर चाप घेर लेता है।",
+          "बौछारों की छींटों के बाद",
+          "मेरी आत्मा का इंद्रधनुष खुलता है",
+          "एक और विस्तृत, सबको समेटते आलिंगन में..."
+        ],
+        [
+          "सभी उत्सव मनाने वाले उस दिन को अलग नामों से पुकारते हैं।",
+          "इंद्रधनुष के फूलों में रंग भरते हैं।",
+          "वे दिव्यता को पूजते हैं।",
+          "देखो इंद्रधनुष को",
+          "आकाश के आशीर्वाद की तरह",
+          "विभिन्न रंगों में, उसी एक प्रकाश में तुम्हें डुबोता हुआ",
+          "सूक्ष्म प्रिज़्मों में रहस्य फैलाता हुआ।",
+          "तुम स्वर्ग की मुस्कान देखते हो,",
+          "सारे स्तुति-गीत हमें उसके पास समेट लेते हैं",
+          "इंद्रधनुष बिना किसी संकोच के उभर आता है!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "इंद्रधनुष",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैंने और गहरी साँसें लीं,",
+          "सुगंध हर ओर थी।",
+          "शायद माँ ने कुछ धूप जलाई होगी, मैंने सोचा।",
+          "मेरी दृष्टि में सात रहस्यदर्शी बहते हैं,",
+          "सुगंध का आशीर्वाद!"
+        ],
+        [
+          "सुकून देते, स्मृतियाँ जगाते इंद्रधनुषी रंग लुटाते,",
+          "लैवेंडर, रजनीगंधा, लिली",
+          "प्रिमरोज़",
+          "ध्यानमग्न तह का मधुर चाप घेर लेता है।",
+          "बौछारों के छींटों के बाद",
+          "मेरी आत्मा का इंद्रधनुष खुलता है",
+          "एक और विस्तृत, सबको समेटते आलिंगन में..."
+        ],
+        [
+          "सभी उत्सव मनाने वाले उस दिन को अलग नामों से पुकारते हैं।",
+          "इंद्रधनुष के फूलों में रंग भरते हैं।",
+          "वे दिव्यता को पूजते हैं।",
+          "देखो इंद्रधनुष को",
+          "आकाश के आशीर्वाद की तरह",
+          "विभिन्न रंगों में, उसी एक प्रकाश में तुम्हें डुबोता हुआ",
+          "सूक्ष्म प्रिज़्मों में रहस्य फैलाता हुआ।",
+          "तुम स्वर्ग की मुस्कान देखते हो,",
+          "सारे स्तुति-गीत हमें उसके पास समेट लेते हैं",
+          "इंद्रधनुष बिना किसी संकोच के उभर आता है!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 112,
+    "target": "or",
+    "reading_evidence": "Read all five source/target quatrains: stolen glimpse/days as decades/misty-eyed query; door knocks and anticipated warm embrace/delayed dream; fallen maple leaves harmonious rustle/remembered union; Siachen cold/Thar heat/national protection and waiting stars; dream embrace/plea against remote posting, dawn recognition of explicitly soldier-wife strength. Checked named places, wife voice, sensory maple analogy, waiting recurrence and wish versus waking duty.",
+    "open_questions": [
+      "Misty eyes may suggest tears without explicitly stating them; retained existing mist image.",
+      "Maple harmony rendered as union in Odia emphasizes the following reunion image; source-aware musical nuance review remains open."
+    ],
+    "reason": "Make delayed dream idiomatic as a dream still unfulfilled rather than an abstract delayed object.",
+    "tradeoff": "Connects delay to awaited fulfillment; no new duration or promise introduced.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "0b956e06e353412fa08ace7a5eda122825a8fe501879fec956d9cffd9cff30e4",
+    "before_sha256": "882925a06d39ae94eef375e77fc4ef0a10407c3d560d05529f20213aa4ae609b",
+    "after_sha256": "1c16869c30a1d338af7df192f20b79d9dbf63bedfecfff0facf958cd09f93acc",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ସ୍ୱପ୍ନରେ ତୁମକୁ କୋଳେଇ ନିଏ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ତୁମର ଝଲକଟିଏ ଚୋରାଇ ଦେଖିବାକୁ ଅପେକ୍ଷା କରି",
+          "ଦିନମାନ ଦଶନ୍ଧି ପରି ବିତିଯାଆନ୍ତି,",
+          "ତୁମେ ଆସିବ କି ଆସିବନି?",
+          "ମୋ ଧୂଆଁଳିଆ ଆଖିରେ ଏକମାତ୍ର ପ୍ରଶ୍ନ।"
+        ],
+        [
+          "ଦୁଆରର ଠକ୍‌ଠକ୍‌ର ଉତ୍ତର ଦେଲାବେଳେ",
+          "ଏ ଆକୁଳ ହୃଦୟ ତୁମ ଛଡ଼ା ଆଉ କାହାକୁ ଲୋଡ଼େନି,",
+          "ଭିତରକୁ ଆସି ମୋତେ ତୁମ ଉଷୁମ ବାହୁରେ ଗୁଡ଼ାଇବାକୁ",
+          "ମୋ ବିଳମ୍ବିତ ସ୍ୱପ୍ନ ସତ ହେଉ ବୋଲି ପ୍ରାର୍ଥନା କରେ।"
+        ],
+        [
+          "ମେପଲର ଝରା ପତ୍ର ପରି",
+          "ମାଟିରେ ମର୍ମରି ମିଳନର ସ୍ତୁତି ଗାଇ,",
+          "ବିଗତ ବର୍ଷର ଆମ ମିଳନର କାହାଣୀ",
+          "ବିତିଯାଇ ବି ମଧୁର ସ୍ୱର ବିଛୁରେ।"
+        ],
+        [
+          "ସିଆଚେନର କାଟୁଥିବା ଶୀତ ସହି",
+          "କିମ୍ବା ଥରର ଜଳନ୍ତା ଉତ୍ତାପ ସହି,",
+          "ତୁମେ ସବୁ ଶକ୍ତି ଦେଇ ଆମ ଦେଶକୁ ରକ୍ଷା କର",
+          "ଆଉ ମୁଁ ତାରା ଗଣି ଅପେକ୍ଷା କରିଚାଲେ।"
+        ],
+        [
+          "ଅନେକଥର ସ୍ୱପ୍ନରେ ତୁମକୁ କୋଳେଇ ନିଏ",
+          "ମିନତି କରେ, ଦୂରଦୂରାନ୍ତ ନିଯୁକ୍ତିକୁ ଯାଅନାହିଁ,",
+          "ତଥାପି ଭୋର ହେଲେ ବୁଝିଯାଏ",
+          "ମୁଁ ସୈନିକର ପତ୍ନୀ, ଦୃଢ଼ ରହିବାକୁ ଜନ୍ମିଛି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ସ୍ୱପ୍ନରେ ତୁମକୁ କୋଳେଇ ନିଏ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ତୁମର ଝଲକଟିଏ ଚୋରାଇ ଦେଖିବାକୁ ଅପେକ୍ଷା କରି",
+          "ଦିନମାନ ଦଶନ୍ଧି ପରି ବିତିଯାଆନ୍ତି,",
+          "ତୁମେ ଆସିବ କି ଆସିବନି?",
+          "ମୋ ଧୂଆଁଳିଆ ଆଖିରେ ଏକମାତ୍ର ପ୍ରଶ୍ନ।"
+        ],
+        [
+          "ଦୁଆରର ଠକ୍‌ଠକ୍‌ର ଉତ୍ତର ଦେଲାବେଳେ",
+          "ଏ ଆକୁଳ ହୃଦୟ ତୁମ ଛଡ଼ା ଆଉ କାହାକୁ ଲୋଡ଼େନି,",
+          "ଭିତରକୁ ଆସି ମୋତେ ତୁମ ଉଷୁମ ବାହୁରେ ଗୁଡ଼ାଇବାକୁ",
+          "ମୋ ଏଯାଏଁ ଅପୂର୍ଣ୍ଣ ସ୍ୱପ୍ନ ସତ ହେଉ ବୋଲି ପ୍ରାର୍ଥନା କରେ।"
+        ],
+        [
+          "ମେପଲର ଝରା ପତ୍ର ପରି",
+          "ମାଟିରେ ମର୍ମରି ମିଳନର ସ୍ତୁତି ଗାଇ,",
+          "ବିଗତ ବର୍ଷର ଆମ ମିଳନର କାହାଣୀ",
+          "ବିତିଯାଇ ବି ମଧୁର ସ୍ୱର ବିଛୁରେ।"
+        ],
+        [
+          "ସିଆଚେନର କାଟୁଥିବା ଶୀତ ସହି",
+          "କିମ୍ବା ଥରର ଜଳନ୍ତା ଉତ୍ତାପ ସହି,",
+          "ତୁମେ ସବୁ ଶକ୍ତି ଦେଇ ଆମ ଦେଶକୁ ରକ୍ଷା କର",
+          "ଆଉ ମୁଁ ତାରା ଗଣି ଅପେକ୍ଷା କରିଚାଲେ।"
+        ],
+        [
+          "ଅନେକଥର ସ୍ୱପ୍ନରେ ତୁମକୁ କୋଳେଇ ନିଏ",
+          "ମିନତି କରେ, ଦୂରଦୂରାନ୍ତ ନିଯୁକ୍ତିକୁ ଯାଅନାହିଁ,",
+          "ତଥାପି ଭୋର ହେଲେ ବୁଝିଯାଏ",
+          "ମୁଁ ସୈନିକର ପତ୍ନୀ, ଦୃଢ଼ ରହିବାକୁ ଜନ୍ମିଛି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 112,
+    "target": "hi",
+    "reading_evidence": "Read all five source/target quatrains: stolen glimpse/days as decades/misty-eyed query; door knocks and anticipated warm embrace/delayed dream; fallen maple leaves harmonious rustle/remembered union; Siachen cold/Thar heat/national protection and waiting stars; dream embrace/plea against remote posting, dawn recognition of explicitly soldier-wife strength. Checked named places, wife voice, sensory maple analogy, waiting recurrence and wish versus waking duty.",
+    "open_questions": [
+      "Misty eyes may suggest tears without explicitly stating them; retained existing mist image.",
+      "Maple harmony rendered as union in Odia emphasizes the following reunion image; source-aware musical nuance review remains open."
+    ],
+    "reason": "Correct late-arriving dream calque so delay attaches to fulfillment, not to the act of dreaming.",
+    "tradeoff": "Preserve complete sequence, existing lineation and draft status; independent fluent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "0b956e06e353412fa08ace7a5eda122825a8fe501879fec956d9cffd9cff30e4",
+    "before_sha256": "a9cbff50474976987221c83fc42b5140cfd2157501c009aed11d6466ccfbe74c",
+    "after_sha256": "e3eebfad2753fa754ee9b102dbaa1464247a78955280da2468411c08876c65e9",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "सपनों में तुम्हें गले लगाती हूँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "तुम्हारी एक झलक चुराने की प्रतीक्षा में",
+          "दिन दशकों जैसे बीतते हैं,",
+          "तुम आओगे या नहीं आओगे?",
+          "मेरी धुँधली आँखों में बस यही प्रश्न है।"
+        ],
+        [
+          "दरवाज़े की दस्तक का उत्तर देते हुए",
+          "यह तरसता हृदय तुम्हारे सिवा किसी की आस नहीं रखता,",
+          "कि तुम भीतर आओ, अपनी गरम बाँहों में लपेट लो",
+          "मैं अपने देर से आने वाले सपने के सच होने की प्रार्थना करती हूँ।"
+        ],
+        [
+          "मेपल के गिरे पत्तों की तरह",
+          "जो धरती पर सरसराकर सामंजस्य का गीत गाते हैं,",
+          "बीते वर्षों के हमारे मिलन की कथाएँ",
+          "गुज़रकर भी मधुर स्वर बिखेरती हैं।"
+        ],
+        [
+          "सियाचिन की काटती ठंड सहते हुए",
+          "या थार की धधकती गरमी झेलते हुए,",
+          "तुम अपनी पूरी शक्ति से हमारे राष्ट्र की रक्षा करते हो",
+          "और मैं तारे गिनते प्रतीक्षा करती रहती हूँ।"
+        ],
+        [
+          "अक्सर सपनों में तुम्हें गले लगाती हूँ",
+          "विनती करती हूँ, दूरदराज़ की तैनातियों पर मत जाओ,",
+          "फिर भी भोर होते ही समझ जाती हूँ",
+          "मैं सैनिक की पत्नी हूँ, दृढ़ रहने के लिए जन्मी हूँ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "सपनों में तुम्हें गले लगाती हूँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "तुम्हारी एक झलक चुराने की प्रतीक्षा में",
+          "दिन दशकों जैसे बीतते हैं,",
+          "तुम आओगे या नहीं आओगे?",
+          "मेरी धुँधली आँखों में बस यही प्रश्न है।"
+        ],
+        [
+          "दरवाज़े की दस्तक का उत्तर देते हुए",
+          "यह तरसता हृदय तुम्हारे सिवा किसी की आस नहीं रखता,",
+          "कि तुम भीतर आओ, अपनी गरम बाँहों में लपेट लो",
+          "मैं अपने अब तक अधूरे सपने के सच होने की प्रार्थना करती हूँ।"
+        ],
+        [
+          "मेपल के गिरे पत्तों की तरह",
+          "जो धरती पर सरसराकर सामंजस्य का गीत गाते हैं,",
+          "बीते वर्षों के हमारे मिलन की कथाएँ",
+          "गुज़रकर भी मधुर स्वर बिखेरती हैं।"
+        ],
+        [
+          "सियाचिन की काटती ठंड सहते हुए",
+          "या थार की धधकती गरमी झेलते हुए,",
+          "तुम अपनी पूरी शक्ति से हमारे राष्ट्र की रक्षा करते हो",
+          "और मैं तारे गिनते प्रतीक्षा करती रहती हूँ।"
+        ],
+        [
+          "अक्सर सपनों में तुम्हें गले लगाती हूँ",
+          "विनती करती हूँ, दूरदराज़ की तैनातियों पर मत जाओ,",
+          "फिर भी भोर होते ही समझ जाती हूँ",
+          "मैं सैनिक की पत्नी हूँ, दृढ़ रहने के लिए जन्मी हूँ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 113,
+    "target": "or",
+    "reading_evidence": "Read entire two-poem source and both complete thirteen-block targets, including headings: Journey forest of Time/birth/ancient temporary settlers/neverending unknown beginning, creatures peace and harmony, unseen hidden Time-treasures/night-womb and lonely return; Self-indulgence repeated need for it, beloveds world/home, nowhere man/no-mans-land, shared dream not made memorable, recalled self-indulgence injunction and dear love. Checked section boundaries, unidentified it, paradox of beginning, repeated need and direct-address ending; source markup remains original only.",
+    "open_questions": [
+      "Source literal markup remains preserved in source and omitted from translated heading only; no source cleanup authorized.",
+      "Self-indulgence rendered atmatrupti/atmatusti remains provisional between self-gratification and complacency; not normalized to self-care. Hindi addressee gender remains provisional.",
+      "It remains unspecified; no invented home, sex or other referent."
+    ],
+    "reason": "Attach hidden clearly to treasures rather than Time while retaining the two-line phrase.",
+    "tradeoff": "Preserve complete sequence, existing lineation and draft status; independent fluent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "66b6120ccc950b77071ad97a05bd6fbe4564a88aef17c244c602fdf8cc85d7d5",
+    "before_sha256": "35b52f6ce3afac1d74b9068ffa3eb197a83998fdf96f25b78e5ce46a32181121",
+    "after_sha256": "2115ac59378fd8f61fa399944a261d67493083da4decacce2a3faefe892d07c6",
+    "prior_uncertainties": [
+      {
+        "note": "Both explicitly grouped same-author poems retained in a single record, all thirteen blocks; source literal < p> markup omitted from translated heading only. Self-indulgence rendered self-gratification, not self-care. Hindi addressee gender provisional.",
+        "record": "kb/production/translations/batch-154/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଦୁଇଟି କବିତା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଯାତ୍ରା"
+        ],
+        [
+          "ସମୟର ଗଭୀର ଜଙ୍ଗଲ ଦେଇ ଯାଇଥିବା ସରୁ ବାଟଟିଏ",
+          "ମୋ ଜନ୍ମଠାରୁ, ପ୍ରାଚୀନ ସଭ୍ୟତାମାନଙ୍କ ପାଦଚିହ୍ନ ପାର ହୋଇ",
+          "ଯାହାକୁ ଗଢ଼ିଥିଲେ ପୃଥିବୀର କ୍ଷଣସ୍ଥାୟୀ ବାସିନ୍ଦା।"
+        ],
+        [
+          "ଏହା କେବେ ସରେନି,",
+          "କେବେ ଆରମ୍ଭ ହେଲା ମୁଁ ଜାଣେନି।"
+        ],
+        [
+          "ବନ ଓ ଜୀବନ୍ତ ପଶୁ, ଏହି ସଜୀବ ପୃଥିବୀର",
+          "ଅଦ୍ଭୁତ ପ୍ରାଣୀମାନେ କିଛି ଲୋଡ଼ନ୍ତିନି କେବଳ",
+          "ପ୍ରେମ ଓ ଶାନ୍ତି ଛଡ଼ା,",
+          "ପ୍ରକୃତି ଓ ମଣିଷର ସମନ୍ୱୟ.."
+        ],
+        [
+          "ମୁଁ ଦେଖିଛି ଅଦେଖା ଓ",
+          "ଲୁକ୍କାୟିତ ସମୟର ସମ୍ପଦ",
+          "ଯେବେଠାରୁ ମୋ ଯାତ୍ରା ଆରମ୍ଭ ହେଲା",
+          "ରାତିର ଗର୍ଭ ଦେଇ.."
+        ],
+        [
+          "ବାରମ୍ବାର",
+          "ମୁଁ ଏକା ଫେରେ!"
+        ],
+        [
+          "(୨) ଆତ୍ମତୃପ୍ତି"
+        ],
+        [
+          "ମୋର ଏହା ଦରକାର ଥିଲା",
+          "କେବଳ ଏଥିପାଇଁ",
+          "ତୁମେ ଏ ଦୁନିଆକୁ କରିବାକୁ ଚାହୁଁଥିଲ",
+          "ନିଜର,",
+          "ତୁମ ମନ ପସନ୍ଦର।"
+        ],
+        [
+          "ନିଜ ଘର ପାଇବାର ଯୋଗ୍ୟ ତୁମେ।",
+          "ମୋର କିଛି ଧାରଣା ନାହିଁ",
+          "କେଉଁଥିରେ ଘରଟିଏ ହୁଏ!"
+        ],
+        [
+          "ତୁମକୁ ଦେବାକୁ ମୋର କିଛି ନ ଥିଲା—",
+          "ମୁଁ କେଉଁଠିର ବି ମଣିଷ ନୁହେଁ,",
+          "ମୁଁ କାହାର ବି ନ ଥିବା ଭୂମିର!"
+        ],
+        [
+          "ତଥାପି",
+          "ମୋର ଏହା ଦରକାର ଥିଲା।"
+        ],
+        [
+          "କେବଳ ଏଥିପାଇଁ",
+          "ଆମର ସ୍ୱପ୍ନଟିଏ ଥିଲା,",
+          "କିନ୍ତୁ ଶିଖି ନ ଥିଲୁ କେମିତି କରିବା",
+          "ସ୍ୱପ୍ନଟିଏକୁ ଆହୁରି ସ୍ମରଣୀୟ",
+          "ଆମ ଦୁହିଁଙ୍କ ପାଇଁ.."
+        ],
+        [
+          "ଏ ସମୟର ଆବଶ୍ୟକତା",
+          "ଆତ୍ମତୃପ୍ତି—",
+          "ଥରେ ତୁମେ କହିଥିଲ",
+          "ପ୍ରିୟ ପ୍ରେମ…।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଦୁଇଟି କବିତା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଯାତ୍ରା"
+        ],
+        [
+          "ସମୟର ଗଭୀର ଜଙ୍ଗଲ ଦେଇ ଯାଇଥିବା ସରୁ ବାଟଟିଏ",
+          "ମୋ ଜନ୍ମଠାରୁ, ପ୍ରାଚୀନ ସଭ୍ୟତାମାନଙ୍କ ପାଦଚିହ୍ନ ପାର ହୋଇ",
+          "ଯାହାକୁ ଗଢ଼ିଥିଲେ ପୃଥିବୀର କ୍ଷଣସ୍ଥାୟୀ ବାସିନ୍ଦା।"
+        ],
+        [
+          "ଏହା କେବେ ସରେନି,",
+          "କେବେ ଆରମ୍ଭ ହେଲା ମୁଁ ଜାଣେନି।"
+        ],
+        [
+          "ବନ ଓ ଜୀବନ୍ତ ପଶୁ, ଏହି ସଜୀବ ପୃଥିବୀର",
+          "ଅଦ୍ଭୁତ ପ୍ରାଣୀମାନେ କିଛି ଲୋଡ଼ନ୍ତିନି କେବଳ",
+          "ପ୍ରେମ ଓ ଶାନ୍ତି ଛଡ଼ା,",
+          "ପ୍ରକୃତି ଓ ମଣିଷର ସମନ୍ୱୟ.."
+        ],
+        [
+          "ମୁଁ ଦେଖିଛି ଅଦେଖା ଓ",
+          "ସମୟର ଲୁକ୍କାୟିତ ସମ୍ପଦ",
+          "ଯେବେଠାରୁ ମୋ ଯାତ୍ରା ଆରମ୍ଭ ହେଲା",
+          "ରାତିର ଗର୍ଭ ଦେଇ.."
+        ],
+        [
+          "ବାରମ୍ବାର",
+          "ମୁଁ ଏକା ଫେରେ!"
+        ],
+        [
+          "(୨) ଆତ୍ମତୃପ୍ତି"
+        ],
+        [
+          "ମୋର ଏହା ଦରକାର ଥିଲା",
+          "କେବଳ ଏଥିପାଇଁ",
+          "ତୁମେ ଏ ଦୁନିଆକୁ କରିବାକୁ ଚାହୁଁଥିଲ",
+          "ନିଜର,",
+          "ତୁମ ମନ ପସନ୍ଦର।"
+        ],
+        [
+          "ନିଜ ଘର ପାଇବାର ଯୋଗ୍ୟ ତୁମେ।",
+          "ମୋର କିଛି ଧାରଣା ନାହିଁ",
+          "କେଉଁଥିରେ ଘରଟିଏ ହୁଏ!"
+        ],
+        [
+          "ତୁମକୁ ଦେବାକୁ ମୋର କିଛି ନ ଥିଲା—",
+          "ମୁଁ କେଉଁଠିର ବି ମଣିଷ ନୁହେଁ,",
+          "ମୁଁ କାହାର ବି ନ ଥିବା ଭୂମିର!"
+        ],
+        [
+          "ତଥାପି",
+          "ମୋର ଏହା ଦରକାର ଥିଲା।"
+        ],
+        [
+          "କେବଳ ଏଥିପାଇଁ",
+          "ଆମର ସ୍ୱପ୍ନଟିଏ ଥିଲା,",
+          "କିନ୍ତୁ ଶିଖି ନ ଥିଲୁ କେମିତି କରିବା",
+          "ସ୍ୱପ୍ନଟିଏକୁ ଆହୁରି ସ୍ମରଣୀୟ",
+          "ଆମ ଦୁହିଁଙ୍କ ପାଇଁ.."
+        ],
+        [
+          "ଏ ସମୟର ଆବଶ୍ୟକତା",
+          "ଆତ୍ମତୃପ୍ତି—",
+          "ଥରେ ତୁମେ କହିଥିଲ",
+          "ପ୍ରିୟ ପ୍ରେମ…।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 113,
+    "target": "hi",
+    "reading_evidence": "Read entire two-poem source and both complete thirteen-block targets, including headings: Journey forest of Time/birth/ancient temporary settlers/neverending unknown beginning, creatures peace and harmony, unseen hidden Time-treasures/night-womb and lonely return; Self-indulgence repeated need for it, beloveds world/home, nowhere man/no-mans-land, shared dream not made memorable, recalled self-indulgence injunction and dear love. Checked section boundaries, unidentified it, paradox of beginning, repeated need and direct-address ending; source markup remains original only.",
+    "open_questions": [
+      "Source literal markup remains preserved in source and omitted from translated heading only; no source cleanup authorized.",
+      "Self-indulgence rendered atmatrupti/atmatusti remains provisional between self-gratification and complacency; not normalized to self-care. Hindi addressee gender remains provisional.",
+      "It remains unspecified; no invented home, sex or other referent."
+    ],
+    "reason": "Attach hidden to Times treasures rather than to Time itself.",
+    "tradeoff": "Preserve complete sequence, existing lineation and draft status; independent fluent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "66b6120ccc950b77071ad97a05bd6fbe4564a88aef17c244c602fdf8cc85d7d5",
+    "before_sha256": "36dbb0cc1eb7f8769dd98f8a125b83da2c6803169a3258100f4fe0620d32db00",
+    "after_sha256": "721fb8cb59ac4c9406eea66ff65f69bb7cf623e79e03d8b60094cdb9cbc0811f",
+    "prior_uncertainties": [
+      {
+        "note": "Both explicitly grouped same-author poems retained in a single record, all thirteen blocks; source literal < p> markup omitted from translated heading only. Self-indulgence rendered self-gratification, not self-care. Hindi addressee gender provisional.",
+        "record": "kb/production/translations/batch-154/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "दो कविताएँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "यात्रा"
+        ],
+        [
+          "समय के गहरे वन से गुज़रता एक सँकरा रास्ता",
+          "मेरे जन्म से, उन प्राचीन सभ्यताओं के पदचिह्नों को पार करता",
+          "जिन्हें पृथ्वी के क्षणिक निवासियों ने रचा।"
+        ],
+        [
+          "यह कभी समाप्त नहीं होता,",
+          "मुझे नहीं पता कब आरंभ हुआ।"
+        ],
+        [
+          "वन और जीवित प्राणी, इस जीवंत धरती के",
+          "अद्भुत जीवों को कुछ नहीं चाहिए सिवा",
+          "प्रेम और शांति के,",
+          "प्रकृति और मनुष्यों के सामंजस्य के.."
+        ],
+        [
+          "मैंने देखे हैं अनदेखे और",
+          "छिपे हुए समय के ख़ज़ाने",
+          "जब से मेरी यात्रा आरंभ हुई",
+          "रात के गर्भ से होकर.."
+        ],
+        [
+          "बार-बार",
+          "मैं अकेला लौटता हूँ!"
+        ],
+        [
+          "(२) आत्मतुष्टि"
+        ],
+        [
+          "मुझे इसकी आवश्यकता थी",
+          "केवल इसलिए",
+          "कि तुम इस संसार को बनाना चाहते थे",
+          "अपना,",
+          "जैसा तुम्हें पसंद हो।"
+        ],
+        [
+          "तुम अपने घर के अधिकारी हो।",
+          "मुझे कुछ पता नहीं",
+          "कि घर किससे बनता है!"
+        ],
+        [
+          "तुम्हें देने को मेरे पास कुछ न था—",
+          "मैं कहीं का नहीं हूँ,",
+          "मैं किसी का न होने वाली भूमि का हूँ!"
+        ],
+        [
+          "फिर भी",
+          "मुझे इसकी आवश्यकता थी।"
+        ],
+        [
+          "केवल इसलिए",
+          "कि हमने एक सपना देखा था,",
+          "पर नहीं सीखा कि कैसे बनाएँ",
+          "एक सपने को अधिक यादगार",
+          "हम दोनों के लिए.."
+        ],
+        [
+          "इस घड़ी की आवश्यकता",
+          "आत्मतुष्टि है—",
+          "एक बार तुमने कहा था",
+          "प्रिय प्रेम…।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "दो कविताएँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "यात्रा"
+        ],
+        [
+          "समय के गहरे वन से गुज़रता एक सँकरा रास्ता",
+          "मेरे जन्म से, उन प्राचीन सभ्यताओं के पदचिह्नों को पार करता",
+          "जिन्हें पृथ्वी के क्षणिक निवासियों ने रचा।"
+        ],
+        [
+          "यह कभी समाप्त नहीं होता,",
+          "मुझे नहीं पता कब आरंभ हुआ।"
+        ],
+        [
+          "वन और जीवित प्राणी, इस जीवंत धरती के",
+          "अद्भुत जीवों को कुछ नहीं चाहिए सिवा",
+          "प्रेम और शांति के,",
+          "प्रकृति और मनुष्यों के सामंजस्य के.."
+        ],
+        [
+          "मैंने देखे हैं अनदेखे और",
+          "समय के छिपे हुए ख़ज़ाने",
+          "जब से मेरी यात्रा आरंभ हुई",
+          "रात के गर्भ से होकर.."
+        ],
+        [
+          "बार-बार",
+          "मैं अकेला लौटता हूँ!"
+        ],
+        [
+          "(२) आत्मतुष्टि"
+        ],
+        [
+          "मुझे इसकी आवश्यकता थी",
+          "केवल इसलिए",
+          "कि तुम इस संसार को बनाना चाहते थे",
+          "अपना,",
+          "जैसा तुम्हें पसंद हो।"
+        ],
+        [
+          "तुम अपने घर के अधिकारी हो।",
+          "मुझे कुछ पता नहीं",
+          "कि घर किससे बनता है!"
+        ],
+        [
+          "तुम्हें देने को मेरे पास कुछ न था—",
+          "मैं कहीं का नहीं हूँ,",
+          "मैं किसी का न होने वाली भूमि का हूँ!"
+        ],
+        [
+          "फिर भी",
+          "मुझे इसकी आवश्यकता थी।"
+        ],
+        [
+          "केवल इसलिए",
+          "कि हमने एक सपना देखा था,",
+          "पर नहीं सीखा कि कैसे बनाएँ",
+          "एक सपने को अधिक यादगार",
+          "हम दोनों के लिए.."
+        ],
+        [
+          "इस घड़ी की आवश्यकता",
+          "आत्मतुष्टि है—",
+          "एक बार तुमने कहा था",
+          "प्रिय प्रेम…।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

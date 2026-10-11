@@ -1,0 +1,263 @@
+{
+  "recorded_at": "2026-10-06T01:57:13.099725+00:00",
+  "poem_ids": [
+    284,
+    297,
+    303,
+    288,
+    291
+  ],
+  "variants_read": 10,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 284,
+      "target": "hi",
+      "reading_evidence": "Read full twenty-line source and both targets across4blocks: returning/staying, greening in relationships, affectionate world stolen into breast pocket, new/full moon on walls/fences/doorways, wishes wings and power to fly, heart suppression/own will and repeated cannot-understand despite no compulsion.",
+      "open_questions": [],
+      "reason": "Remove unsupported female narrator agreement through natural impersonal Hindi while retaining the first-person experience and repeated inability to understand. Preserve returning-willingly/reluctance contradiction.",
+      "tradeoff": "Preserve imagery, repetitions and emotional turns. Source uncertainties remain outside poems; this is same-assistant self-review, not independent approval.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "a2bc5227f902fd088cf8f32cabd5045dda9b523a65233ca0da7eefe8f531fe06",
+      "before_sha256": "72ae4d901587b7a7647b080bdf97d5fd71dc4371ef42b0852e94a3176a9d11cb",
+      "after_sha256": "90df69e9e5acb96cadf6e358950458e952f26310d0201e8b04e83285416d1123",
+      "prior_uncertainties": [
+        {
+          "note": "Four blocks retained. Returning willingly versus suppressing heart tension retained. Hindi female speaker provisional.",
+          "record": "kb/production/translations/batch-117/review.json"
+        }
+      ],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 284,
+      "target": "en",
+      "reading_evidence": "Read full twenty-line source and both targets across4blocks: returning/staying, greening in relationships, affectionate world stolen into breast pocket, new/full moon on walls/fences/doorways, wishes wings and power to fly, heart suppression/own will and repeated cannot-understand despite no compulsion.",
+      "open_questions": [],
+      "reason": "Render hand/control idiom and man-mari reluctance naturally while retaining wishes, heart and the paradox of returning of ones own will; no change to line boundaries.",
+      "tradeoff": "Preserve imagery, repetitions and emotional turns. Source uncertainties remain outside poems; this is same-assistant self-review, not independent approval.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 20,
+        "before_lines": [
+          4,
+          11,
+          14
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "a2bc5227f902fd088cf8f32cabd5045dda9b523a65233ca0da7eefe8f531fe06",
+      "before_sha256": "a852cc93cfbd09ffac2995c1bc5b9bb3ea2b71948f3ae4456e9d50aa128e5e0d",
+      "after_sha256": "73fa2db9b047dad75d2ff9d2beb5988355224461407a57ec974235905b1fd508",
+      "prior_uncertainties": [
+        {
+          "note": "Four blocks retained. Returning willingly versus suppressing heart tension retained. Hindi female speaker provisional.",
+          "record": "kb/production/translations/batch-117/review.json"
+        }
+      ],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 297,
+      "target": "hi",
+      "reading_evidence": "Read all four source blocks and both full targets: dew/green carpet, shameless moon borrowing blush, flowers stealing fragrance and composing unheard words for bee, shy face waking sun, cotton-soft body making sea water honey-sweet, eloquent river and intoxicated lost wind colliding with hill. Beloved femininity supported by title, observer gender not established.",
+      "open_questions": [
+        "Kadambari provisionally read wine from intoxication context; no novel/person identity asserted. Washing-body clause agency and hill scale remain source-conditioned readings.",
+        "Masculine observer in देखता हूँ remains unconfirmed."
+      ],
+      "reason": "Retain sensory hyperbole and animated landscape; no simplification of extravagant praise.",
+      "tradeoff": "Preserve imagery, repetitions and emotional turns. Source uncertainties remain outside poems; this is same-assistant self-review, not independent approval.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "4d71222473af415572a5070be1c7d39282fec67a2c8b37cb027efd4439ec3402",
+      "before_sha256": "708b2a23f53f38000d37a6df44ced775b4a5072b8d525d4aec875514d2c65aff",
+      "after_sha256": "708b2a23f53f38000d37a6df44ced775b4a5072b8d525d4aec875514d2c65aff",
+      "prior_uncertainties": [
+        {
+          "note": "All four blocks retained. Kadambari read intoxicating drink from context rather than novel/person; patalima read blush. Source sensory hyperbole preserved. Hindi observer masculine provisional.",
+          "record": "kb/production/translations/batch-117/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 297,
+      "target": "en",
+      "reading_evidence": "Read all four source blocks and both full targets: dew/green carpet, shameless moon borrowing blush, flowers stealing fragrance and composing unheard words for bee, shy face waking sun, cotton-soft body making sea water honey-sweet, eloquent river and intoxicated lost wind colliding with hill. Beloved femininity supported by title, observer gender not established.",
+      "open_questions": [
+        "Kadambari provisionally read wine from intoxication context; no novel/person identity asserted. Washing-body clause agency and hill scale remain source-conditioned readings."
+      ],
+      "reason": "Remove unnatural lost-for-direction wording and restore the wind crashing against the hill in a readable clause, without implying a separate self-beating act; three lines retained.",
+      "tradeoff": "Preserve imagery, repetitions and emotional turns. Source uncertainties remain outside poems; this is same-assistant self-review, not independent approval.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 25,
+        "before_lines": [
+          6,
+          13,
+          19
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "4d71222473af415572a5070be1c7d39282fec67a2c8b37cb027efd4439ec3402",
+      "before_sha256": "dfc9fd9d7c819f74be4d3b7ec208323cbfb7a96a2d93ffbde5b6571b79756220",
+      "after_sha256": "f63df36ec87b6036fd9919a4fa0b194a697f05c492fa2b4a973ee35cf3f610db",
+      "prior_uncertainties": [
+        {
+          "note": "All four blocks retained. Kadambari read intoxicating drink from context rather than novel/person; patalima read blush. Source sensory hyperbole preserved. Hindi observer masculine provisional.",
+          "record": "kb/production/translations/batch-117/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 303,
+      "target": "hi",
+      "reading_evidence": "Read complete six-block source and both full targets: enchantment question, paired love/hate sin/virtue fame/disgrace, eloquence/silence, full/new moon love/separation and wakefulness, river/surrender/non-swimmer, restless sea/daring, childhood dust/youth filigree/twilight return/seven knots, birth-after-birth age torment and moksha/murchhana ending.",
+      "open_questions": [
+        "Dheu-bhange/daring line agency is not settled: waves breaking daring versus daring breaking into waves. Do not invent certainty.",
+        "Murchhidie relinquishing and murchhana swoon/musical-resonance readings remain provisional; final wordplay retained through existing cognate/dual phrase.",
+        "Female speaker and male addressee grammar remain provisional."
+      ],
+      "reason": "Retain intense paradox, repeated enchantment and final resonance; no death wish substituted for old-age torment.",
+      "tradeoff": "Preserve imagery, repetitions and emotional turns. Source uncertainties remain outside poems; this is same-assistant self-review, not independent approval.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "a02121ee0cc5324721e4d31bbd0f6b42b0e737f9977ab9dcfa654c8997674411",
+      "before_sha256": "399c260fdd13e02a29ee044239aa5b042f754ea4ab0e9ba0b8a849185ff2778e",
+      "after_sha256": "399c260fdd13e02a29ee044239aa5b042f754ea4ab0e9ba0b8a849185ff2778e",
+      "prior_uncertainties": [
+        {
+          "note": "Six blocks retained. Murchhidie read relinquishes; murchhana has swoon/musical-resonance ambiguity retained in English phrase and Hindi cognate. Birth-after-birth old-age request not replaced with death wish. Hindi genders provisional.",
+          "record": "kb/production/translations/batch-117/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 303,
+      "target": "en",
+      "reading_evidence": "Read complete six-block source and both full targets: enchantment question, paired love/hate sin/virtue fame/disgrace, eloquence/silence, full/new moon love/separation and wakefulness, river/surrender/non-swimmer, restless sea/daring, childhood dust/youth filigree/twilight return/seven knots, birth-after-birth age torment and moksha/murchhana ending.",
+      "open_questions": [
+        "Dheu-bhange/daring line agency is not settled: waves breaking daring versus daring breaking into waves. Do not invent certainty.",
+        "Murchhidie relinquishing and murchhana swoon/musical-resonance readings remain provisional; final wordplay retained through existing cognate/dual phrase."
+      ],
+      "reason": "Retain passionate repetitions and musical/physical ambiguity; source questions remain explicit and uncorrected.",
+      "tradeoff": "Preserve imagery, repetitions and emotional turns. Source uncertainties remain outside poems; this is same-assistant self-review, not independent approval.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "a02121ee0cc5324721e4d31bbd0f6b42b0e737f9977ab9dcfa654c8997674411",
+      "before_sha256": "1dee3563c4bf62137cc2de3fb9ebfc7fa3c39017288ce6daa7417c4b4b3f5bc2",
+      "after_sha256": "1dee3563c4bf62137cc2de3fb9ebfc7fa3c39017288ce6daa7417c4b4b3f5bc2",
+      "prior_uncertainties": [
+        {
+          "note": "Six blocks retained. Murchhidie read relinquishes; murchhana has swoon/musical-resonance ambiguity retained in English phrase and Hindi cognate. Birth-after-birth old-age request not replaced with death wish. Hindi genders provisional.",
+          "record": "kb/production/translations/batch-117/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 288,
+      "target": "or",
+      "reading_evidence": "Read source title and complete nine-line body in five blocks and each target/title: love becoming hate in title, moon/sorrows, flowing/hidden reflection, smiling paper boat/crying expensive toys, huts fulfilled dreams/palaces buried dreams, white-red and coloured-white drapes. Title is preserved as source title, not silently prepended to body.",
+      "open_questions": [
+        "Flowing reflection and hiding reflection syntax remain ambiguous; cloth colours not assigned a marriage/widowhood or violence story absent from source."
+      ],
+      "reason": "Make the source passive being-coloured explicit in Odia rather than leaving the observer potentially watching an unspecified act of colouring; preserve recurring I-have-seen cadence.",
+      "tradeoff": "Preserve imagery, repetitions and emotional turns. Source uncertainties remain outside poems; this is same-assistant self-review, not independent approval.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "adc94c186d2d884cf8c86fb49cdee6b480bfc395b489e79b5a1605c1d10f7993",
+      "before_sha256": "4c05918c09c8bf05cfd76c416a5e8e0d8dd8962d2ede24c336990c20d53b0f96",
+      "after_sha256": "64e05ed1f567a3622b288eb70289bea20c3dd9c1467ea1efbb2c6fee5eb59fe0",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 288,
+      "target": "hi",
+      "reading_evidence": "Read source title and complete nine-line body in five blocks and each target/title: love becoming hate in title, moon/sorrows, flowing/hidden reflection, smiling paper boat/crying expensive toys, huts fulfilled dreams/palaces buried dreams, white-red and coloured-white drapes. Title is preserved as source title, not silently prepended to body.",
+      "open_questions": [
+        "Flowing reflection and hiding reflection syntax remain ambiguous; cloth colours not assigned a marriage/widowhood or violence story absent from source."
+      ],
+      "reason": "Retain source contrasts, passive colour transition and I-have-seen repetition.",
+      "tradeoff": "Preserve imagery, repetitions and emotional turns. Source uncertainties remain outside poems; this is same-assistant self-review, not independent approval.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "adc94c186d2d884cf8c86fb49cdee6b480bfc395b489e79b5a1605c1d10f7993",
+      "before_sha256": "97eebc3082b11bcaff082bb01beb8a53eeaa7e5d555f33c9aff6e1f685715857",
+      "after_sha256": "97eebc3082b11bcaff082bb01beb8a53eeaa7e5d555f33c9aff6e1f685715857",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 291,
+      "target": "or",
+      "reading_evidence": "Read all twelve source lines and both targets across five blocks: buried/razed then tree, ended story retold, continuity and troubled stars shining, past moon/current sun, life caravan and self-worship threatening identity. First-person feminine present in Hindi, not assigned from author identity.",
+      "open_questions": [
+        "हम may be singular poetic self or a collective turn; current I reading remains provisional. Gardish carries troubled-fortune/orbit resonance partly reduced in targets; no ungrounded astrological elaboration."
+      ],
+      "reason": "Retain self-reconstruction and the caution against pride without adding a moral; current singular reading and wordplay tradeoff held for source/fluent review.",
+      "tradeoff": "Preserve imagery, repetitions and emotional turns. Source uncertainties remain outside poems; this is same-assistant self-review, not independent approval.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "3c464cc4aa5fc6ecb18d98c804287183b6610f5e2a2fab46ed122fdd37c2d51a",
+      "before_sha256": "44488aaec8fdddc37163016f04c9549b90eb3c15b1e73d0982cc5839a43d9ecc",
+      "after_sha256": "44488aaec8fdddc37163016f04c9549b90eb3c15b1e73d0982cc5839a43d9ecc",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 291,
+      "target": "en",
+      "reading_evidence": "Read all twelve source lines and both targets across five blocks: buried/razed then tree, ended story retold, continuity and troubled stars shining, past moon/current sun, life caravan and self-worship threatening identity. First-person feminine present in Hindi, not assigned from author identity.",
+      "open_questions": [
+        "हम may be singular poetic self or a collective turn; current I reading remains provisional. Gardish carries troubled-fortune/orbit resonance partly reduced in targets; no ungrounded astrological elaboration."
+      ],
+      "reason": "Retain self-reconstruction and the caution against pride without adding a moral; current singular reading and wordplay tradeoff held for source/fluent review.",
+      "tradeoff": "Preserve imagery, repetitions and emotional turns. Source uncertainties remain outside poems; this is same-assistant self-review, not independent approval.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "3c464cc4aa5fc6ecb18d98c804287183b6610f5e2a2fab46ed122fdd37c2d51a",
+      "before_sha256": "0980dfdfb1525e0d11a917e4ea917421f1c2271d0e0386ea3337573d4cff49a9",
+      "after_sha256": "0980dfdfb1525e0d11a917e4ea917421f1c2271d0e0386ea3337573d4cff49a9",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

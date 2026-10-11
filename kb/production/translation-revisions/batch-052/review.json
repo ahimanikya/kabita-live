@@ -1,0 +1,245 @@
+{
+  "recorded_at": "2026-10-05T15:06:26.406118+00:00",
+  "poem_ids": [
+    577,
+    578,
+    579,
+    581,
+    583
+  ],
+  "variants_read": 10,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 577,
+      "target": "hi",
+      "reading_evidence": "Read all three source stanzas and the complete target: exchange of sky/sea, fish becoming stars, clouds becoming submerged mountains, suspended Trishanku humanity, territorial divisions, mother-earth losing form/voice and the final blind contentment. Repeated yours/mine claims and the mother’s lap survive.",
+      "reason": "Retain: coherent Hindi syntax carries the transformations and bitterly peaceful ending without explaining away Trishanku.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Existing images, register, stanza boundaries and contributor tail preserved.",
+      "full_source_target_read": true,
+      "source_sha256": "0726208cbcbb9d52aef6fa43e39fdc05807332ac1168c08fc3703e826c7ee067",
+      "before_sha256": "09cd3be4e18611ea453115aad464f6de1071e8ab5e78972e99c96b546c126813",
+      "after_sha256": "09cd3be4e18611ea453115aad464f6de1071e8ab5e78972e99c96b546c126813",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 577,
+      "target": "en",
+      "reading_evidence": "Read all three source stanzas and the complete target: exchange of sky/sea, fish becoming stars, clouds becoming submerged mountains, suspended Trishanku humanity, territorial divisions, mother-earth losing form/voice and the final blind contentment. Repeated yours/mine claims and the mother’s lap survive.",
+      "reason": "Replace the calqued connective “Thus and thus” with the cumulative English “And so”; the repeated territorial claims already enact the accumulation.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "The source’s doubled connective becomes a natural English transition; all substantive repeated claims remain intact.",
+      "full_source_target_read": true,
+      "source_sha256": "0726208cbcbb9d52aef6fa43e39fdc05807332ac1168c08fc3703e826c7ee067",
+      "before_sha256": "e8843232ed8394caddc36552dcf6f970364e2123cd5e2890c4298824c209a8b7",
+      "after_sha256": "f495af645520eab1cfa18b39ecb7192ef152b8cece813e6ea73af0187394db7c",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 578,
+      "target": "hi",
+      "reading_evidence": "Read the complete four-stanza source and both complete target texts including address: guarded perfume-like beauty, the sister-in-law question, moonlight/birds/light/darkness, flowerpot/thorn-curtain/brazier, wind opening a path through watchers, unchanged location, peacock-plume/seed-drop and the unresolved future butter-cloud fragment.",
+      "reason": "Retain provisionally: the translations preserve the enclosure/desire imagery and deliberately broken final syntax. Uncertain lexical readings do not justify a confident rewrite.",
+      "open_questions": [
+        "Prior holds remain: iti-anla is not botanically identified; uhmhei/brazier and reta/seed or seminal drop are provisional. The final fragment and peacock-plume image need fluent source review.",
+        "Phulei may personify the speaker rather than denote a literal coy flower; retain the current reading provisionally, without inventing a referent.",
+        "Bhauj is retained as sister-in-law/bhabhi; exact family relation and Hindi feminine speaker agreement require source/context confirmation."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Existing images, register, stanza boundaries and contributor tail preserved.",
+      "full_source_target_read": true,
+      "source_sha256": "4c2ed40792ad391523ec0d62c3c902ef5ff2fbf08389238fe6bfa64702dbf36d",
+      "before_sha256": "5e8c0725c68177cf3ccb93c519f8a8f0afc7dadc32f2b44b394c0978e13d157e",
+      "after_sha256": "5e8c0725c68177cf3ccb93c519f8a8f0afc7dadc32f2b44b394c0978e13d157e",
+      "prior_uncertainties": [
+        {
+          "note": "Dense and uncertain imagery requires close linguistic review: iti-anla transliterated, not botanically identified; uhmhei read as brazier, reta as seed/seminal drop. Fragmentary butter-cloud stanza and peacock-plume imagery retained without explanatory reconstruction. Address and closing mark retained.",
+          "record": "kb/production/translations/batch-051/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 578,
+      "target": "en",
+      "reading_evidence": "Read the complete four-stanza source and both complete target texts including address: guarded perfume-like beauty, the sister-in-law question, moonlight/birds/light/darkness, flowerpot/thorn-curtain/brazier, wind opening a path through watchers, unchanged location, peacock-plume/seed-drop and the unresolved future butter-cloud fragment.",
+      "reason": "Retain provisionally: the translations preserve the enclosure/desire imagery and deliberately broken final syntax. Uncertain lexical readings do not justify a confident rewrite.",
+      "open_questions": [
+        "Prior holds remain: iti-anla is not botanically identified; uhmhei/brazier and reta/seed or seminal drop are provisional. The final fragment and peacock-plume image need fluent source review.",
+        "Phulei may personify the speaker rather than denote a literal coy flower; retain the current reading provisionally, without inventing a referent.",
+        "Bhauj is retained as sister-in-law/bhabhi; exact family relation and Hindi feminine speaker agreement require source/context confirmation."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Existing images, register, stanza boundaries and contributor tail preserved.",
+      "full_source_target_read": true,
+      "source_sha256": "4c2ed40792ad391523ec0d62c3c902ef5ff2fbf08389238fe6bfa64702dbf36d",
+      "before_sha256": "fce230f8833fcbe35ac5cd5ecca00c14f56a42245afdf75f42a49b5bf116f1ad",
+      "after_sha256": "fce230f8833fcbe35ac5cd5ecca00c14f56a42245afdf75f42a49b5bf116f1ad",
+      "prior_uncertainties": [
+        {
+          "note": "Dense and uncertain imagery requires close linguistic review: iti-anla transliterated, not botanically identified; uhmhei read as brazier, reta as seed/seminal drop. Fragmentary butter-cloud stanza and peacock-plume imagery retained without explanatory reconstruction. Address and closing mark retained.",
+          "record": "kb/production/translations/batch-051/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 579,
+      "target": "hi",
+      "reading_evidence": "Read the entire source and target, including opening hidden darkness/innocent flowers, the twenty-six male-tourist statement, hair parting as dry river, roof of trust, forehead/sun/sindoor, blessing becoming fire, attack/campaign/terror, retaliatory river of blood, poison-embrace, final fierce dance and address.",
+      "reason": "Restore idiomatic transitive causation: sindoor can make the reign of terror shake; the former construction uses the intransitive thartharana with an object.",
+      "open_questions": [
+        "Retaliatory language and twenty-six-tourist statement are preserved as source poetry, not verified reportage; no country or perpetrators supplied.",
+        "Agna-agni remains provisionally fiery; the damaged/unclear source spelling needs review.",
+        "Roof-ridge mathana versus current Hindi mundेर/parapet needs lexical confirmation before changing the architectural detail."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Existing images, register, stanza boundaries and contributor tail preserved.",
+      "full_source_target_read": true,
+      "source_sha256": "ff39addd4878bc71aed1fc3ef0c94b8b63dc20b121a07f405e6fa146bf557dae",
+      "before_sha256": "d724aaea99345f7d014fd8444f9aa760bf2b957250e031e0e180b1987ae7e4be",
+      "after_sha256": "3a069e3c57dcbd381fe879917d86721c3a5987afe0f3a79cbc0af9c10d72ccd4",
+      "prior_uncertainties": [
+        {
+          "note": "Violent retaliatory language and twenty-six male-tourist claim preserved as source poetry, not verified reporting or assistant endorsement. No unmentioned country or perpetrator identity supplied. Agna-agni provisionally fiery; source spelling requires review.",
+          "record": "kb/production/translations/batch-051/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 579,
+      "target": "en",
+      "reading_evidence": "Read the entire source and target, including opening hidden darkness/innocent flowers, the twenty-six male-tourist statement, hair parting as dry river, roof of trust, forehead/sun/sindoor, blessing becoming fire, attack/campaign/terror, retaliatory river of blood, poison-embrace, final fierce dance and address.",
+      "reason": "Retain: the English preserves the subject causing terror to tremble and the poem’s violent figurative progression. Keep the unusual poison/embrace image rather than resolving it by invention.",
+      "open_questions": [
+        "Retaliatory language and twenty-six-tourist statement are preserved as source poetry, not verified reportage; no country or perpetrators supplied.",
+        "Agna-agni remains provisionally fiery; the damaged/unclear source spelling needs review."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Existing images, register, stanza boundaries and contributor tail preserved.",
+      "full_source_target_read": true,
+      "source_sha256": "ff39addd4878bc71aed1fc3ef0c94b8b63dc20b121a07f405e6fa146bf557dae",
+      "before_sha256": "8451c967600379e46a359a2eca2824c546710d1b63b687cc08e8cb942b9ce673",
+      "after_sha256": "8451c967600379e46a359a2eca2824c546710d1b63b687cc08e8cb942b9ce673",
+      "prior_uncertainties": [
+        {
+          "note": "Violent retaliatory language and twenty-six male-tourist claim preserved as source poetry, not verified reporting or assistant endorsement. No unmentioned country or perpetrator identity supplied. Agna-agni provisionally fiery; source spelling requires review.",
+          "record": "kb/production/translations/batch-051/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 581,
+      "target": "hi",
+      "reading_evidence": "Read all six source stanzas and both complete targets plus Sundargarh tail: saw/regrets/sawdust, wrinkled age, medical bitterness/lifespan of air, duty/certificate/desk-glass/superior, thresholds/ten arms/saved affection, self-arranged ghee and wick burning lamp/deity, bodiless smell and empty pain inside four walls.",
+      "reason": "Use the natural institutional term for the superior officer; literal “officer above” is unnecessary spatial phrasing in this office scene.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Existing images, register, stanza boundaries and contributor tail preserved.",
+      "full_source_target_read": true,
+      "source_sha256": "e9d9e6ced4ddfbcb32d028cdf91829602c4e87618ea96e9cd59348ee0c4087a5",
+      "before_sha256": "e1cffab7c4a1dbb8e3dc47ff61423ae507cb80b9cdacda795d850a08def738e0",
+      "after_sha256": "5784d89a49deae99df1bcbeae0bb161cb348edf8a8cdba5339a636622489df4f",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 581,
+      "target": "en",
+      "reading_evidence": "Read all six source stanzas and both complete targets plus Sundargarh tail: saw/regrets/sawdust, wrinkled age, medical bitterness/lifespan of air, duty/certificate/desk-glass/superior, thresholds/ten arms/saved affection, self-arranged ghee and wick burning lamp/deity, bodiless smell and empty pain inside four walls.",
+      "reason": "Retain: the demanding personifications and the agency of ghee/wick destroying their own lamp/deity are already carried clearly; the closing subject remains the feelings/grievance and smell.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Existing images, register, stanza boundaries and contributor tail preserved.",
+      "full_source_target_read": true,
+      "source_sha256": "e9d9e6ced4ddfbcb32d028cdf91829602c4e87618ea96e9cd59348ee0c4087a5",
+      "before_sha256": "58b250118e979fa35f1cc1b290ba7fd144ba4b17d79932755ea1805416209fb1",
+      "after_sha256": "58b250118e979fa35f1cc1b290ba7fd144ba4b17d79932755ea1805416209fb1",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 583,
+      "target": "hi",
+      "reading_evidence": "Read both numbered parts and every source/target stanza including address: female classmate and exam blanks, indebtedness, slipping hand/shoulder, mother’s curse/Gayapala/Shravan Kumar/death implication, childhood throne, forty years/four days, evening-lamp separation, horizon, voice filling ether and the desired final blank.",
+      "reason": "Retain: the two-part blank-space motif, mother’s curse and distinction between burning up and daily lamp-burning remain audible. Gender/expletive uncertainties stay open.",
+      "open_questions": [
+        "Prior source damage in arrival/why remains contextually read, not repaired in the original; Gayapala spelling and the strength of the abbreviated expletive need source review.",
+        "Hindi grammatical speaker/addressee gender remains provisional; do not infer it from poet identity or Shravan Kumar allusion."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Existing images, register, stanza boundaries and contributor tail preserved.",
+      "full_source_target_read": true,
+      "source_sha256": "5c9c9415e515185ae71504c5bb5591e46bddc96c73a9eb40c5876eb94fc386b2",
+      "before_sha256": "2cd744ea89d2b77c323049345cfc3fc5e94aa584f375dd8e05af23b5f17e3251",
+      "after_sha256": "2cd744ea89d2b77c323049345cfc3fc5e94aa584f375dd8e05af23b5f17e3251",
+      "prior_uncertainties": [
+        {
+          "note": "Two numbered parts retained. Gayapala place transliterated; death implication and mild source expletive retained. Source encoding damage in final part read contextually as arrival/why; originals unchanged. Hindi grammatical speaker/addressee gender provisional.",
+          "record": "kb/production/translations/batch-051/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 583,
+      "target": "en",
+      "reading_evidence": "Read both numbered parts and every source/target stanza including address: female classmate and exam blanks, indebtedness, slipping hand/shoulder, mother’s curse/Gayapala/Shravan Kumar/death implication, childhood throne, forty years/four days, evening-lamp separation, horizon, voice filling ether and the desired final blank.",
+      "reason": "Remove the added exact-anniversary implication of “today”; the source locates the visit forty years before the present without establishing a calendar anniversary.",
+      "open_questions": [
+        "Prior source damage in arrival/why remains contextually read, not repaired in the original; Gayapala spelling and the strength of the abbreviated expletive need source review."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserves the forty-year/four-day contrast and stanza line count; narrows only unsupported date precision.",
+      "full_source_target_read": true,
+      "source_sha256": "5c9c9415e515185ae71504c5bb5591e46bddc96c73a9eb40c5876eb94fc386b2",
+      "before_sha256": "85b67cb17288842cf43391a209952b89bf8115f4091c138c48200974051bbdcf",
+      "after_sha256": "5fafe580849c338c418d3067f9a6f6d983da858db78b43fada46ce480ad407c3",
+      "prior_uncertainties": [
+        {
+          "note": "Two numbered parts retained. Gayapala place transliterated; death implication and mild source expletive retained. Source encoding damage in final part read contextually as arrival/why; originals unchanged. Hindi grammatical speaker/addressee gender provisional.",
+          "record": "kb/production/translations/batch-051/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

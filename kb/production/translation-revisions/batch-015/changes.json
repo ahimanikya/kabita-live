@@ -1,0 +1,678 @@
+[
+  {
+    "poem_id": 748,
+    "target": "en",
+    "reason": "Repair the awkward wonder whether/must construction while retaining uncertainty about the faces conversing.",
+    "reading_evidence": "Read all nine source stanzas and the complete target including end mark/address: disappearing love/distrust; changing mirror/river/face; steadfast mountain and departing birds; album/trunk; ageless faces talking in silence; trapped emotions; repeated outside with weapons/murderous moon/iced fish; termites/memory; next dream/mirror/restless river. Preserve political menace and unanswered questions.",
+    "open_questions": [
+      "The guilt/sorrow in ମୋଠୁ ଦୂରେଇ ଯିବାର ଗ୍ଲାନି leaves ownership unclear; existing English sorrow and Hindi glani remain provisional."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "The simpler embedded question loses the modal must but better preserves the source speculative tag; no certainty is added.",
+    "full_source_target_read": true,
+    "source_sha256": "89b135a884a226af770d285b0bbbe62388e031189380dc1ccea8ca34d81cb9d3",
+    "before_sha256": "1d13a8a96b00b5586d39c0b9d6804889149f38380341381c9aa2d159dfb8452d",
+    "after_sha256": "7176b153e3d3f33b1bf121bc4ea42022729ec4305fa4d25d648c0f67c2ae331e",
+    "prior_uncertainties": [
+      {
+        "note": "All source lines retained including end mark and address. Sthitaprajna rendered steadfast in wisdom, without importing a religious exposition. Guilt/sorrow of birds leaving is ambiguous; English sorrow provisional, Hindi glani retained.",
+        "record": "kb/production/translations/batch-014/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "A World of Love Is Slipping Away",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "A world of love is slipping away,",
+          "I am heading towards ruin.",
+          "All faces are unfamiliar,",
+          "neither words nor a smile upon the lips.",
+          "The poem I wrote about the eyes is blurred now;",
+          "a world of distrust keeps growing."
+        ],
+        [
+          "Wiped clean each day, the mirror seeks a new face.",
+          "The river water flows on.",
+          "I look at my face,",
+          "but this is not the same water,",
+          "and the face is different too."
+        ],
+        [
+          "I am a mountain, steadfast in wisdom,",
+          "standing still.",
+          "They climb over me to touch the summit;",
+          "I keep all their footprints safe.",
+          "The birds’ wings, their flights,",
+          "the daily search for newer skies, and",
+          "the sorrow of their moving away from me",
+          "weigh upon me."
+        ],
+        [
+          "If silence is a forest, it surrounds me;",
+          "if the city is a clamour, it is moving away from me.",
+          "I have put all the faces in an album.",
+          "Now and then, I look at them,",
+          "then put it back inside the trunk.",
+          "I wonder whether the faces in the album",
+          "must be talking to one another inside the trunk!"
+        ],
+        [
+          "How is it that they never grow older,",
+          "remaining still?",
+          "How, without saying anything to anyone,",
+          "do they converse?",
+          "A lifetime passes in a single shirt.",
+          "Time stands still, no questions, no answers;",
+          "everyone is without an answer."
+        ],
+        [
+          "They understand one another well;",
+          "emotion, happiness and sorrow",
+          "are entangled in one particular moment."
+        ],
+        [
+          "Outside, darkness and light play hide-and-seek.",
+          "Outside, weapons change hands.",
+          "Outside, the murderous moon.",
+          "Outside, false smiles, false love,",
+          "the life of a fish covered in ice.",
+          "Outside, the market, the crowd, the buzzing flies."
+        ],
+        [
+          "Can anyone, by remembering another,",
+          "keep them alive in memory?",
+          "Do termites eat the wooden chest of love?"
+        ],
+        [
+          "The figures who visit my dreams at night",
+          "vanish at the break of dawn.",
+          "I wait for another night,",
+          "another dream,",
+          "another mirror, and",
+          "a restless river flowing past.",
+          "∎",
+          "Tikrapada, Post/District Balangir, 767001"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "A World of Love Is Slipping Away",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "A world of love is slipping away,",
+          "I am heading towards ruin.",
+          "All faces are unfamiliar,",
+          "neither words nor a smile upon the lips.",
+          "The poem I wrote about the eyes is blurred now;",
+          "a world of distrust keeps growing."
+        ],
+        [
+          "Wiped clean each day, the mirror seeks a new face.",
+          "The river water flows on.",
+          "I look at my face,",
+          "but this is not the same water,",
+          "and the face is different too."
+        ],
+        [
+          "I am a mountain, steadfast in wisdom,",
+          "standing still.",
+          "They climb over me to touch the summit;",
+          "I keep all their footprints safe.",
+          "The birds’ wings, their flights,",
+          "the daily search for newer skies, and",
+          "the sorrow of their moving away from me",
+          "weigh upon me."
+        ],
+        [
+          "If silence is a forest, it surrounds me;",
+          "if the city is a clamour, it is moving away from me.",
+          "I have put all the faces in an album.",
+          "Now and then, I look at them,",
+          "then put it back inside the trunk.",
+          "I wonder if the faces in the album",
+          "are talking to one another inside the trunk!"
+        ],
+        [
+          "How is it that they never grow older,",
+          "remaining still?",
+          "How, without saying anything to anyone,",
+          "do they converse?",
+          "A lifetime passes in a single shirt.",
+          "Time stands still, no questions, no answers;",
+          "everyone is without an answer."
+        ],
+        [
+          "They understand one another well;",
+          "emotion, happiness and sorrow",
+          "are entangled in one particular moment."
+        ],
+        [
+          "Outside, darkness and light play hide-and-seek.",
+          "Outside, weapons change hands.",
+          "Outside, the murderous moon.",
+          "Outside, false smiles, false love,",
+          "the life of a fish covered in ice.",
+          "Outside, the market, the crowd, the buzzing flies."
+        ],
+        [
+          "Can anyone, by remembering another,",
+          "keep them alive in memory?",
+          "Do termites eat the wooden chest of love?"
+        ],
+        [
+          "The figures who visit my dreams at night",
+          "vanish at the break of dawn.",
+          "I wait for another night,",
+          "another dream,",
+          "another mirror, and",
+          "a restless river flowing past.",
+          "∎",
+          "Tikrapada, Post/District Balangir, 767001"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 749,
+    "target": "en",
+    "reason": "Repair for whose eyes to open into a grammatical relative clause that links the dream chicks to the arrogant expectation.",
+    "reading_evidence": "Read all five stanzas in source and full target: curse/fall/stain/smell; time sandstorm, last bone and sky wrestling demon; dream chicks and arrogance; empty throne, servants, ceremonial implements and erased memorials; wounded earth declaring renewal. Preserve the violent political denunciation, chicks image and final feminine earth.",
+    "open_questions": [
+      "Prior dialect/damaged-reading questions remain: ପାଟି as buried, ଡୁମୁରା as putrid, ଶୁଭାଦର as honours. No conjectural replacement.",
+      "The final your suffering is read as suffering inflicted on earth; contextual but not author-confirmed. Punarnava renewal/possible plant resonance remains outside the poem."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Makes the source causal expectation legible in English without adding a new dream, victim or moral. Existing servants/slaves wording retains the collective servile household, pending nuance review.",
+    "full_source_target_read": true,
+    "source_sha256": "f76429c0fadb5f09c363a8a961763e0b2b85c07b38c3288349540f379d799591",
+    "before_sha256": "3840097e3922bc66c6009875297c98a7a98accca984ac1ba4e42299ca1a9e4e9",
+    "after_sha256": "8e7ae9a765ce384a7cc47f070f3b0beb54036ad36e6139aaf5db1012062d9291",
+    "prior_uncertainties": [
+      {
+        "note": "Source ପାଟି contextually read as being buried; ଡୁମୁରା interpreted putrid smell provisionally and needs dialect review. Dream-chicks metaphor retained. ଶୁଭାଦର read honours; ceremonial alat/chamara distinction retained. Punarnava carries renewal and possible plant associations; no plant added.",
+        "record": "kb/production/translations/batch-014/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Renewed",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Under the curse of all your sins,",
+          "one day you will fall to earth,",
+          "buried beneath the heap of your downfall.",
+          "Not a character on the pages of history,",
+          "you will remain a stain,",
+          "with a putrid smell."
+        ],
+        [
+          "The sandstorm of time will cover",
+          "all your footprints;",
+          "the wind will carry away",
+          "the handful of ash from your last remaining bone.",
+          "The sky will look clear that day,",
+          "as though it has just defeated",
+          "the demon of dark clouds in a wrestling match."
+        ],
+        [
+          "All those chicks of your dreams,",
+          "for whose eyes to open one day",
+          "you show so much arrogance—",
+          "one day they will become blind death’s food.",
+          "It will crumble into particles,",
+          "your artificial tower, one day."
+        ],
+        [
+          "One day your royal throne will stand empty,",
+          "the line of servants and slaves will perish.",
+          "The ceremonial fans and fly-whisks will taste dust;",
+          "no trace of you will remain—",
+          "songs of victory, inscriptions,",
+          "memories, honours."
+        ],
+        [
+          "Declaring one day",
+          "all the suffering you cause unbearable,",
+          "the earth will shake herself free.",
+          "In a deluge she will wash away",
+          "all her wounds and bloodstains.",
+          "One day, amid a new chorus of voices,",
+          "she will proclaim—",
+          "I am “Renewed.”"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Renewed",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Under the curse of all your sins,",
+          "one day you will fall to earth,",
+          "buried beneath the heap of your downfall.",
+          "Not a character on the pages of history,",
+          "you will remain a stain,",
+          "with a putrid smell."
+        ],
+        [
+          "The sandstorm of time will cover",
+          "all your footprints;",
+          "the wind will carry away",
+          "the handful of ash from your last remaining bone.",
+          "The sky will look clear that day,",
+          "as though it has just defeated",
+          "the demon of dark clouds in a wrestling match."
+        ],
+        [
+          "All those chicks of your dreams,",
+          "whose eyes you expect to open one day—",
+          "the reason for all your arrogance—",
+          "one day they will become blind death’s food.",
+          "It will crumble into particles,",
+          "your artificial tower, one day."
+        ],
+        [
+          "One day your royal throne will stand empty,",
+          "the line of servants and slaves will perish.",
+          "The ceremonial fans and fly-whisks will taste dust;",
+          "no trace of you will remain—",
+          "songs of victory, inscriptions,",
+          "memories, honours."
+        ],
+        [
+          "Declaring one day",
+          "all the suffering you cause unbearable,",
+          "the earth will shake herself free.",
+          "In a deluge she will wash away",
+          "all her wounds and bloodstains.",
+          "One day, amid a new chorus of voices,",
+          "she will proclaim—",
+          "I am “Renewed.”"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 750,
+    "target": "hi",
+    "reason": "Remove the supplied axe: the source describes a cut-struck branch without identifying the instrument.",
+    "reading_evidence": "Read all three source stanzas and complete target/tail: speaker frightening humans, vocal wounds and sleeping senses; torn cloud cry, burning dung-cake grief, clods of time, father absence, nearby trust and moon/jasmine tears; cut branch/days, acquaintance, autumn rice, self-cutting branches/base/roots and seed/soil/birth/death recognition. Preserve pain, social exclusion, unusual material imagery and self-questioning.",
+    "open_questions": [
+      "Fatherlessness, thrown clods and earth not waking occur in an ambiguous causal sequence: current because/therefore attachment to earth remains provisional.",
+      "Dialectal ରାଆ and ଘଷିମୁଣ୍ଡା are read cry/dung-cake in context; require source-fluent confirmation. ଚିହ୍ନିଲାଯାଏଁ recognition agency remains provisional.",
+      "Masculine speaker and मूल rendered तना remain provisional; do not infer identity or exact botanical distinction."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Keeps the wound/cut image and existing lineation but avoids inventing an axe.",
+    "full_source_target_read": true,
+    "source_sha256": "3e00167a7b414a35a535892752cea0bbda68001b1238284848303e87485fe144",
+    "before_sha256": "b7420abd0796bfe2896cfeb9034989196fbf4172639c37d7780316c90765820f",
+    "after_sha256": "7198892c3db804a3007ceef29fe942eeba6fb6069c09579076e680b9695834bf",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "आधा पागल",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैं मनुष्य होकर भी",
+          "मनुष्यों को डरा देता हूँ।",
+          "बोलते-बोलते सारे घाव मुखर हो उठते हैं।",
+          "झुकी पलकों वाली आँखें,",
+          "सो गए कान,",
+          "नींद के कीचड़ से उठ नहीं पाते",
+          "यातना के विकराल उजले उत्सव तक।"
+        ],
+        [
+          "आँसुओं से भरे बादल की",
+          "टूटी पुकार लौटने से पहले,",
+          "आदिम पीड़ा का उपला जलने से पहले,",
+          "वे समय के ढेले खोज लाते हैं",
+          "मुझ पर फेंकने को।",
+          "मेरा पिता नहीं है, इसलिए",
+          "मेरी सिसकियों से पृथ्वी की नींद नहीं टूटती।",
+          "कुछ लोग पास बैठ जाते हैं,",
+          "कंधे पर विश्वास रख देते हैं,",
+          "एक चाँद हरसिंगार की छाती पर आँसू बहाता है,",
+          "अचानक।"
+        ],
+        [
+          "कुल्हाड़ी की चोट खाई बड़ी डाल जैसे दिखते हैं",
+          "मेरे सारे दिन।",
+          "रास्ते से आते-जाते परिचित कहते हैं:",
+          "मैं उदास खेत में शरद की धान की बाली हूँ,",
+          "मैं एक शहरी आधा पागल हूँ",
+          "जो काटता रहता है",
+          "अपनी डाल, तना, जड़ें,",
+          "जब तक पहचान न लूँ: मेरा बीज, मेरी मिट्टी,",
+          "मेरा जन्म, मेरी मृत्यु।",
+          "∎",
+          "एरोड्रोम एरिया, भुवनेश्वर ७५१०२०"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "आधा पागल",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैं मनुष्य होकर भी",
+          "मनुष्यों को डरा देता हूँ।",
+          "बोलते-बोलते सारे घाव मुखर हो उठते हैं।",
+          "झुकी पलकों वाली आँखें,",
+          "सो गए कान,",
+          "नींद के कीचड़ से उठ नहीं पाते",
+          "यातना के विकराल उजले उत्सव तक।"
+        ],
+        [
+          "आँसुओं से भरे बादल की",
+          "टूटी पुकार लौटने से पहले,",
+          "आदिम पीड़ा का उपला जलने से पहले,",
+          "वे समय के ढेले खोज लाते हैं",
+          "मुझ पर फेंकने को।",
+          "मेरा पिता नहीं है, इसलिए",
+          "मेरी सिसकियों से पृथ्वी की नींद नहीं टूटती।",
+          "कुछ लोग पास बैठ जाते हैं,",
+          "कंधे पर विश्वास रख देते हैं,",
+          "एक चाँद हरसिंगार की छाती पर आँसू बहाता है,",
+          "अचानक।"
+        ],
+        [
+          "चोट खाई बड़ी डाल जैसे दिखते हैं",
+          "मेरे सारे दिन।",
+          "रास्ते से आते-जाते परिचित कहते हैं:",
+          "मैं उदास खेत में शरद की धान की बाली हूँ,",
+          "मैं एक शहरी आधा पागल हूँ",
+          "जो काटता रहता है",
+          "अपनी डाल, तना, जड़ें,",
+          "जब तक पहचान न लूँ: मेरा बीज, मेरी मिट्टी,",
+          "मेरा जन्म, मेरी मृत्यु।",
+          "∎",
+          "एरोड्रोम एरिया, भुवनेश्वर ७५१०२०"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 750,
+    "target": "en",
+    "reason": "Remove the invented axe and repair the inverted opening of the final stanza. Keep the narrator in first-person possession through self-cutting without assigning man.",
+    "reading_evidence": "Read all three source stanzas and complete target/tail: speaker frightening humans, vocal wounds and sleeping senses; torn cloud cry, burning dung-cake grief, clods of time, father absence, nearby trust and moon/jasmine tears; cut branch/days, acquaintance, autumn rice, self-cutting branches/base/roots and seed/soil/birth/death recognition. Preserve pain, social exclusion, unusual material imagery and self-questioning.",
+    "open_questions": [
+      "Fatherlessness, thrown clods and earth not waking occur in an ambiguous causal sequence: current because/therefore attachment to earth remains provisional.",
+      "Dialectal ରାଆ and ଘଷିମୁଣ୍ଡା are read cry/dung-cake in context; require source-fluent confirmation. ଚିହ୍ନିଲାଯାଏଁ recognition agency remains provisional."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserves urban half-mad self-description and bodily/tree violence without an unsupported instrument or English male label. Redistributes the existing two opening lines; verse boundary explicitly checked.",
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 27,
+      "before_lines": [
+        7,
+        18
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "3e00167a7b414a35a535892752cea0bbda68001b1238284848303e87485fe144",
+    "before_sha256": "7e77c3e81b3acf032d8773088d035357ecd982b0a7268926b193a29251bb2ffe",
+    "after_sha256": "fe00c3bd21e0761e112c8e5258e7710ff72bb15917c51f1669c2bcab048e3cdf",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Half-Mad",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Though I am human,",
+          "I frighten other humans.",
+          "As I speak, all the wounds grow vocal.",
+          "Eyes with lowered lids,",
+          "ears that have fallen asleep,",
+          "cannot rise from the mire of slumber",
+          "to pain’s fierce, radiant festival."
+        ],
+        [
+          "Before the torn cry",
+          "of the tear-laden cloud returns,",
+          "before the dung-cake of primal grief catches fire,",
+          "they find clods of time",
+          "to fling at me.",
+          "Because I have no father,",
+          "my sobbing does not wake the earth.",
+          "Some sit beside me,",
+          "place their trust upon my shoulder;",
+          "a moon sheds tears on the night-jasmine’s breast,",
+          "suddenly."
+        ],
+        [
+          "Like a grown branch struck by an axe",
+          "my days appear.",
+          "An acquaintance passing on the road says:",
+          "I am an autumn ear of rice in a desolate field,",
+          "I am an urban half-mad man",
+          "who keeps hacking away",
+          "his own branches, base and roots,",
+          "until I recognise: my seed, my soil,",
+          "my birth, my death.",
+          "∎",
+          "Aerodrome Area, Bhubaneswar 751020"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Half-Mad",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Though I am human,",
+          "I frighten other humans.",
+          "As I speak, all the wounds grow vocal.",
+          "Eyes with lowered lids,",
+          "ears that have fallen asleep,",
+          "cannot rise from the mire of slumber",
+          "to pain’s fierce, radiant festival."
+        ],
+        [
+          "Before the torn cry",
+          "of the tear-laden cloud returns,",
+          "before the dung-cake of primal grief catches fire,",
+          "they find clods of time",
+          "to fling at me.",
+          "Because I have no father,",
+          "my sobbing does not wake the earth.",
+          "Some sit beside me,",
+          "place their trust upon my shoulder;",
+          "a moon sheds tears on the night-jasmine’s breast,",
+          "suddenly."
+        ],
+        [
+          "My days look like",
+          "a full-grown branch gashed by blows.",
+          "An acquaintance passing on the road says:",
+          "I am an autumn ear of rice in a desolate field,",
+          "I am half-mad, a city dweller",
+          "who keeps hacking away",
+          "at my own branches, base and roots,",
+          "until I recognise: my seed, my soil,",
+          "my birth, my death.",
+          "∎",
+          "Aerodrome Area, Bhubaneswar 751020"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 27,
+        "before_lines": [
+          7,
+          18
+        ],
+        "inline_breaks": [],
+        "source_sha256": "3e00167a7b414a35a535892752cea0bbda68001b1238284848303e87485fe144",
+        "stanzas_sha256": "13a2d41a841a1e761819e596c8a9d63d1be7af4402a38034dfa35503828989e9"
+      }
+    }
+  },
+  {
+    "poem_id": 752,
+    "target": "en",
+    "reason": "Repair a hanging mango-scent noun phrase into a when-clause so the half-written poem remains the main-clause subject.",
+    "reading_evidence": "Read both complete source/target stanzas: fragrance/sky canvas/labour sweat; questions about writing and poet identity; koel afternoons, dust-coated mango scent and wounded half-poem striking sill; ink/body, coaxing words/beloved/daylight fireflies; scrap shop/morgue ice/market noise; failed poet trapped in lanes, stuffed sack and concluding question. Preserve repeated poetry and the resistant images rather than explain them.",
+    "open_questions": [
+      "ଆମ୍ବ ନସି remains provisionally mango blossom; regional sense unresolved. ଅମଣ as unwilling/unruly is provisional.",
+      "The relationship between coaxed words/illusory beloved and catching fireflies spans enjambed clauses; current attachment is provisional, not a verified single reading."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Keeps the three-line breath and every image; changes only the clause structure so an English reader need not reconstruct source syntax.",
+    "full_source_target_read": true,
+    "source_sha256": "7d222dc932e8e54a730fba35c482afe90d037eedf9ecc20cf3e2fd4f97b69be3",
+    "before_sha256": "9368b0d4c531ff29715806b53a1d27a30b7a3068f06cf2cdd49fe9b7ac5d5cf4",
+    "after_sha256": "b6727668e1de6ccad4820cf340378c2350d72effdf8928e2dfd1cf4cff0f3252",
+    "prior_uncertainties": [
+      {
+        "note": "ଆମ୍ବ ନସି provisionally mango blossom; regional meaning requires native review. ଅମଣ read unruly/unwilling, not a claim about the author. Source enjambment preserved without claiming identical syntax across languages.",
+        "record": "kb/production/translations/batch-014/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "The One Who Writes Poetry",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "The fragrance of a flower is poetry.",
+          "On the canvas of the sky’s blue curtain",
+          "poetry can be written.",
+          "In the labourer’s dripping sweat",
+          "poetry flows, rich with its scent.",
+          "Can poetry truly be written?",
+          "Can the one who writes it",
+          "name themselves a poet?",
+          "In the koel’s call",
+          "many an afternoon",
+          "feels fresh, not weary.",
+          "The scent of mango blossom,",
+          "coated with a layer of flying dust,",
+          "when it draws near me,",
+          "a half-written poem,",
+          "bearing a raw wound,",
+          "strikes against my windowsill."
+        ],
+        [
+          "In the ink of the pen",
+          "poetry rubs its body.",
+          "All the unruly words,",
+          "dressed as an illusory beloved,",
+          "have to be coaxed;",
+          "one must catch",
+          "fireflies in daylight.",
+          "Poetry is now waste paper in the scrap dealer’s shop.",
+          "Poetry, in a chamber where corpses are kept,",
+          "is about to turn to ice.",
+          "Clusters upon clusters of poems,",
+          "in the dreadful roar of the marketplaces,",
+          "have fallen silent.",
+          "The one who writes poetry?",
+          "Neither became a poet",
+          "nor could drag themselves free",
+          "of poetry’s lanes and alleys.",
+          "How much more can be crammed into an overstuffed sack?",
+          "If one sits down to write poetry, will it become poetry?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "The One Who Writes Poetry",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "The fragrance of a flower is poetry.",
+          "On the canvas of the sky’s blue curtain",
+          "poetry can be written.",
+          "In the labourer’s dripping sweat",
+          "poetry flows, rich with its scent.",
+          "Can poetry truly be written?",
+          "Can the one who writes it",
+          "name themselves a poet?",
+          "In the koel’s call",
+          "many an afternoon",
+          "feels fresh, not weary.",
+          "When the scent of mango blossom,",
+          "coated with a layer of flying dust,",
+          "draws near me,",
+          "a half-written poem,",
+          "bearing a raw wound,",
+          "strikes against my windowsill."
+        ],
+        [
+          "In the ink of the pen",
+          "poetry rubs its body.",
+          "All the unruly words,",
+          "dressed as an illusory beloved,",
+          "have to be coaxed;",
+          "one must catch",
+          "fireflies in daylight.",
+          "Poetry is now waste paper in the scrap dealer’s shop.",
+          "Poetry, in a chamber where corpses are kept,",
+          "is about to turn to ice.",
+          "Clusters upon clusters of poems,",
+          "in the dreadful roar of the marketplaces,",
+          "have fallen silent.",
+          "The one who writes poetry?",
+          "Neither became a poet",
+          "nor could drag themselves free",
+          "of poetry’s lanes and alleys.",
+          "How much more can be crammed into an overstuffed sack?",
+          "If one sits down to write poetry, will it become poetry?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

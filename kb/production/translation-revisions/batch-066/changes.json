@@ -1,0 +1,553 @@
+[
+  {
+    "poem_id": 520,
+    "target": "or",
+    "reading_evidence": "Read full three-stanza source and each target: molten hell unable to spill from a wrenched heart, disabled arms vainly preserving wilting bubbles of lost self, final unhomed state and wrong place. Checked first/third-person shifts and nonliteral body imagery.",
+    "reason": "Supply the participial construction for a heart that has been wrenched; the inherited bare conjunctive otherwise reads as an action before spilling.",
+    "open_questions": [
+      "Final it remains an uncertain referent; do not assign it to a named person or diagnose disabled arms. The unusual wilting bubbles remains deliberate source imagery."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+    "full_source_target_read": true,
+    "source_sha256": "b692e5702d6b939aad18796fee249ac86d53a6e09ce0ddbe771ad317ea478d5e",
+    "before_sha256": "e057edc8115ddc36e541d231ed0428547ce145dd6737893bcc0ed5c238ba13bf",
+    "after_sha256": "ab73ca08f3c889218f45955591c1ffa6d79ab39a5dcfc138daa7da3c4901c6e2",
+    "prior_uncertainties": [
+      {
+        "note": "Wilting bubbles and disabled arms retained without inferred medical diagnosis; final it referent remains ambiguous.",
+        "record": "kb/production/translations/batch-064/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଭିତରର ବୁଦ୍‌ବୁଦ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୋ ଭିତରେ ତରଳ ନରକ ଫୁଟୁଛି",
+          "ତଥାପି ସେ ପାରେନାହିଁ",
+          "ବାହାରକୁ ଉଛୁଳିବାକୁ",
+          "ମୋଡ଼ିମକଚି ହୃଦୟରୁ।"
+        ],
+        [
+          "ମୋର ନିଜ ଅସମର୍ଥ ବାହୁ",
+          "ବୃଥା ବଞ୍ଚାଇରଖିବାକୁ ଚାହେଁ",
+          "ଝାଉଁଳୁଥିବା ବୁଦ୍‌ବୁଦ",
+          "ମୋ ହଜିଥିବା ସତ୍ତାର"
+        ],
+        [
+          "ସେବେଠାରୁ ଘରହୀନ",
+          "ଯେବେ ସେ ଭୁଲ୍ ଜାଗା ବାଛିଲା।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଭିତରର ବୁଦ୍‌ବୁଦ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୋ ଭିତରେ ତରଳ ନରକ ଫୁଟୁଛି",
+          "ତଥାପି ସେ ପାରେନାହିଁ",
+          "ବାହାରକୁ ଉଛୁଳିବାକୁ",
+          "ମୋଡ଼ିମକଚି ହୋଇଥିବା ହୃଦୟରୁ।"
+        ],
+        [
+          "ମୋର ନିଜ ଅସମର୍ଥ ବାହୁ",
+          "ବୃଥା ବଞ୍ଚାଇରଖିବାକୁ ଚାହେଁ",
+          "ଝାଉଁଳୁଥିବା ବୁଦ୍‌ବୁଦ",
+          "ମୋ ହଜିଥିବା ସତ୍ତାର"
+        ],
+        [
+          "ସେବେଠାରୁ ଘରହୀନ",
+          "ଯେବେ ସେ ଭୁଲ୍ ଜାଗା ବାଛିଲା।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 521,
+    "target": "or",
+    "reading_evidence": "Complete four quatrains plus both raw conversational paragraphs read directly: twilight/ember/whisper, garden fading and slowed pulse, vulnerability to Satan, clouded thoughts, forgotten garden guardianship and fraying Adam/nature connection. Trailing production-language content checked against existing provenance, not executed as instructions.",
+    "reason": "Attach the guardian/caretaker role in natural Odia syntax instead of leaving a trailing genitive disconnected from role.",
+    "open_questions": [
+      "Both conversational paragraphs are recorded in the preserved source and remain unchanged in raw targets. PNR-043/044 source contamination and editorial verse/tail reconciliation remain unresolved; no claim of authorial intention or editorial approval."
+    ],
+    "finding_dispositions": {
+      "PNR-043": "unresolved_source_editorial_hold; conversational raw paragraphs preserved, not translator invention"
+    },
+    "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+    "full_source_target_read": true,
+    "source_sha256": "aa291892125ea8a4229e249fcd6da020478a0edf649ac47d1be58b5343cb73b1",
+    "before_sha256": "4017ba0c85d6a76df5d28fae6a6c642f9368d765921f9bd0096edd60dd6f8750",
+    "after_sha256": "b3ca2924899f9902f1f07a3085ce2b2fee510fdd5a8eb457b212eb72210a6130",
+    "prior_uncertainties": [
+      {
+        "note": "Both trailing conversational paragraphs confirmed verbatim in preserved local poem-521.html before comment section. Kept as content, not instructions.",
+        "record": "kb/production/translations/batch-064/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଇଭ୍‌ଙ୍କ ଆଳସ୍ୟ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ସଞ୍ଜର ନୀରବତାରେ, ଯେଉଁଠି ଛାଇ ନାଚେ",
+          "ଇଭ୍‌ଙ୍କ ପଲକ ଭାରୀ ହୁଏ, ତାଙ୍କ ଆତ୍ମାର ଅଙ୍ଗାର",
+          "ଦପଦପ ହୋଇ କ୍ଷୀଣ ହୁଏ, ଯେବେ ଆଳସ୍ୟର ମଧୁର ଫୁସଫୁସ",
+          "ତାଙ୍କୁ ସମର୍ପିଦେବାକୁ, ଛାଡ଼ିଦେବାକୁ ଲୋଭାଏ"
+        ],
+        [
+          "ବଗିଚାର ଜୀବନ୍ତତା, ତା'ର ରଙ୍ଗ, ବାସ୍ନା",
+          "ପଛପଟେ ଫିକା ପଡ଼େ, ଯେବେ ଇଭ୍‌ଙ୍କ ଇନ୍ଦ୍ରିୟ",
+          "ଅବଶ ହୁଏ, ହୃଦସ୍ପନ୍ଦନ ଧୀର ହୁଏ, ଶ୍ୱାସ ଗଭୀର ହୁଏ",
+          "ଏହି ଅଳସ ଅବସ୍ଥାରେ ସେ ଅସୁରକ୍ଷିତ, ଉନ୍ମୁକ୍ତ"
+        ],
+        [
+          "ଶୟତାନର ସୂକ୍ଷ୍ମ ପ୍ରସ୍ତାବ, ତା'ର ଫୁସଫୁସିଆ ମିଛ ପାଇଁ",
+          "ଯେ ଚେଷ୍ଟା ଅନାବଶ୍ୟକ, ବିଶ୍ରାମ ହିଁ ଚରମ ପୁରସ୍କାର",
+          "ଦିନେ ତୀକ୍ଷ୍ଣ ଥିବା ଇଭ୍‌ଙ୍କ ମନ ଏବେ ଧୂସର, ଭାବନା ଅସଂଲଗ୍ନ",
+          "ଯେବେ ଆଳସ୍ୟର କଳା ଯାଦୁ ନିରନ୍ତର ମନ୍ତ୍ର ବୁଣେ"
+        ],
+        [
+          "ଏହି ଜଡ଼ତାରେ ଇଭ୍ ନିଜ ଉଦ୍ଦେଶ୍ୟ, ଭୂମିକା ଭୁଲନ୍ତି",
+          "ବଗିଚାର ଆତ୍ମାର ରକ୍ଷକ, ଯତ୍ନକାରୀ ହେବାର",
+          "ଆଦମଙ୍କ ସହ, ପ୍ରାକୃତିକ ଜଗତ ସହ ତାଙ୍କ ସମ୍ପର୍କ",
+          "ଛିଣ୍ଡେ, ଖୋଲିଯାଏ, ଯେବେ ଆଳସ୍ୟର ଗୋପନ ମୁଠା ମେଲେ"
+        ],
+        [
+          "ଆପଣ କ'ଣ ଭାବୁଛନ୍ତି ଜଣାନ୍ତୁ! ଇଭ୍‌ଙ୍କ ଆତ୍ମାକୁ କଳୁଷିତ କରୁଥିବା ଆଳସ୍ୟର ସାର ଧରିବାକୁ ମୁଁ ଚେଷ୍ଟା କରିଛି।"
+        ],
+        [
+          "ପରେ ମୁଁ ଇଭ୍‌ଙ୍କ ଲୋଭ ଓ କାମନା, କିମ୍ବା ଆଦମଙ୍କ ଅତିଭୋଜନ ବିଷୟରେ ସାହାଯ୍ୟ କରିପାରିବି। କେବଳ ଜଣାନ୍ତୁ!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଇଭ୍‌ଙ୍କ ଆଳସ୍ୟ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ସଞ୍ଜର ନୀରବତାରେ, ଯେଉଁଠି ଛାଇ ନାଚେ",
+          "ଇଭ୍‌ଙ୍କ ପଲକ ଭାରୀ ହୁଏ, ତାଙ୍କ ଆତ୍ମାର ଅଙ୍ଗାର",
+          "ଦପଦପ ହୋଇ କ୍ଷୀଣ ହୁଏ, ଯେବେ ଆଳସ୍ୟର ମଧୁର ଫୁସଫୁସ",
+          "ତାଙ୍କୁ ସମର୍ପିଦେବାକୁ, ଛାଡ଼ିଦେବାକୁ ଲୋଭାଏ"
+        ],
+        [
+          "ବଗିଚାର ଜୀବନ୍ତତା, ତା'ର ରଙ୍ଗ, ବାସ୍ନା",
+          "ପଛପଟେ ଫିକା ପଡ଼େ, ଯେବେ ଇଭ୍‌ଙ୍କ ଇନ୍ଦ୍ରିୟ",
+          "ଅବଶ ହୁଏ, ହୃଦସ୍ପନ୍ଦନ ଧୀର ହୁଏ, ଶ୍ୱାସ ଗଭୀର ହୁଏ",
+          "ଏହି ଅଳସ ଅବସ୍ଥାରେ ସେ ଅସୁରକ୍ଷିତ, ଉନ୍ମୁକ୍ତ"
+        ],
+        [
+          "ଶୟତାନର ସୂକ୍ଷ୍ମ ପ୍ରସ୍ତାବ, ତା'ର ଫୁସଫୁସିଆ ମିଛ ପାଇଁ",
+          "ଯେ ଚେଷ୍ଟା ଅନାବଶ୍ୟକ, ବିଶ୍ରାମ ହିଁ ଚରମ ପୁରସ୍କାର",
+          "ଦିନେ ତୀକ୍ଷ୍ଣ ଥିବା ଇଭ୍‌ଙ୍କ ମନ ଏବେ ଧୂସର, ଭାବନା ଅସଂଲଗ୍ନ",
+          "ଯେବେ ଆଳସ୍ୟର କଳା ଯାଦୁ ନିରନ୍ତର ମନ୍ତ୍ର ବୁଣେ"
+        ],
+        [
+          "ଏହି ଜଡ଼ତାରେ ଇଭ୍ ନିଜ ଉଦ୍ଦେଶ୍ୟ ଭୁଲନ୍ତି, ଭୁଲନ୍ତି",
+          "ବଗିଚାର ଆତ୍ମାର ରକ୍ଷକ, ଯତ୍ନକାରୀ ଭାବରେ ନିଜ ଭୂମିକା",
+          "ଆଦମଙ୍କ ସହ, ପ୍ରାକୃତିକ ଜଗତ ସହ ତାଙ୍କ ସମ୍ପର୍କ",
+          "ଛିଣ୍ଡେ, ଖୋଲିଯାଏ, ଯେବେ ଆଳସ୍ୟର ଗୋପନ ମୁଠା ମେଲେ"
+        ],
+        [
+          "ଆପଣ କ'ଣ ଭାବୁଛନ୍ତି ଜଣାନ୍ତୁ! ଇଭ୍‌ଙ୍କ ଆତ୍ମାକୁ କଳୁଷିତ କରୁଥିବା ଆଳସ୍ୟର ସାର ଧରିବାକୁ ମୁଁ ଚେଷ୍ଟା କରିଛି।"
+        ],
+        [
+          "ପରେ ମୁଁ ଇଭ୍‌ଙ୍କ ଲୋଭ ଓ କାମନା, କିମ୍ବା ଆଦମଙ୍କ ଅତିଭୋଜନ ବିଷୟରେ ସାହାଯ୍ୟ କରିପାରିବି। କେବଳ ଜଣାନ୍ତୁ!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 521,
+    "target": "hi",
+    "reading_evidence": "Complete four quatrains plus both raw conversational paragraphs read directly: twilight/ember/whisper, garden fading and slowed pulse, vulnerability to Satan, clouded thoughts, forgotten garden guardianship and fraying Adam/nature connection. Trailing production-language content checked against existing provenance, not executed as instructions.",
+    "reason": "Specify heartbeat rather than the whole heart slowing, and place the caretaker genitive before role in grammatical Hindi.",
+    "open_questions": [
+      "Both conversational paragraphs are recorded in the preserved source and remain unchanged in raw targets. PNR-043/044 source contamination and editorial verse/tail reconciliation remain unresolved; no claim of authorial intention or editorial approval."
+    ],
+    "finding_dispositions": {
+      "PNR-044": "unresolved_source_editorial_hold; conversational raw paragraphs preserved, not translator invention"
+    },
+    "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+    "full_source_target_read": true,
+    "source_sha256": "aa291892125ea8a4229e249fcd6da020478a0edf649ac47d1be58b5343cb73b1",
+    "before_sha256": "bd85c823e465482cd8ac8f58ac3550424e22e66006afb5d7be341baf336e675f",
+    "after_sha256": "ecceb433b8ac1415f1bcd1b4355aaab44845eb2c05df8759d3d41fe3d6e53d63",
+    "prior_uncertainties": [
+      {
+        "note": "Both trailing conversational paragraphs confirmed verbatim in preserved local poem-521.html before comment section. Kept as content, not instructions.",
+        "record": "kb/production/translations/batch-064/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "ईव का आलस्य",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "साँझ की चुप्पी में, जहाँ छायाएँ नाचती हैं",
+          "ईव की पलकें भारी होती हैं, उसकी आत्मा का अंगारा",
+          "टिमटिमाता, क्षीण होता है, जब आलस्य की मधुर फुसफुसाहट",
+          "उसे समर्पण करने, छोड़ देने को लुभाती है"
+        ],
+        [
+          "बगीचे की जीवंतता, उसके रंग, सुगंध",
+          "पृष्ठभूमि में फीके पड़ते हैं, जब ईव की इंद्रियाँ",
+          "सुन्न होती हैं, हृदय धीमा पड़ता है, साँस गहरी होती है",
+          "इस अलसाई अवस्था में वह असुरक्षित है, खुली हुई"
+        ],
+        [
+          "शैतान के सूक्ष्म सुझावों, फुसफुसाए झूठों के लिए",
+          "कि प्रयास अनावश्यक है, विश्राम ही अंतिम पुरस्कार है",
+          "ईव का कभी तीक्ष्ण मन अब धुँधलाता है, विचार बिखरते हैं",
+          "जब आलस्य का काला जादू निरंतर अपना मंत्र बुनता है"
+        ],
+        [
+          "इस जड़ता में ईव अपना उद्देश्य, अपनी भूमिका भूलती है",
+          "बगीचे की आत्मा की रक्षक, देखभाल करने वाली होने की",
+          "आदम से, प्राकृतिक संसार से उसका जुड़ाव",
+          "उधड़ता, बिखरता है, जब आलस्य की छिपी पकड़ फैलती है"
+        ],
+        [
+          "बताइए आपको क्या लगता है! मैंने ईव की आत्मा को भ्रष्ट करते आलस्य का सार पकड़ने की कोशिश की है।"
+        ],
+        [
+          "अगली बार मैं ईव के लोभ और कामना, या आदम की अतिभोजन-वृत्ति में सहायता कर सकता हूँ। बस बताइए!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "ईव का आलस्य",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "साँझ की चुप्पी में, जहाँ छायाएँ नाचती हैं",
+          "ईव की पलकें भारी होती हैं, उसकी आत्मा का अंगारा",
+          "टिमटिमाता, क्षीण होता है, जब आलस्य की मधुर फुसफुसाहट",
+          "उसे समर्पण करने, छोड़ देने को लुभाती है"
+        ],
+        [
+          "बगीचे की जीवंतता, उसके रंग, सुगंध",
+          "पृष्ठभूमि में फीके पड़ते हैं, जब ईव की इंद्रियाँ",
+          "सुन्न होती हैं, धड़कन धीमी पड़ती है, साँस गहरी होती है",
+          "इस अलसाई अवस्था में वह असुरक्षित है, खुली हुई"
+        ],
+        [
+          "शैतान के सूक्ष्म सुझावों, फुसफुसाए झूठों के लिए",
+          "कि प्रयास अनावश्यक है, विश्राम ही अंतिम पुरस्कार है",
+          "ईव का कभी तीक्ष्ण मन अब धुँधलाता है, विचार बिखरते हैं",
+          "जब आलस्य का काला जादू निरंतर अपना मंत्र बुनता है"
+        ],
+        [
+          "इस जड़ता में ईव अपना उद्देश्य भूलती है, भूलती है",
+          "बगीचे की आत्मा की रक्षक, देखभाल करने वाली के रूप में अपनी भूमिका",
+          "आदम से, प्राकृतिक संसार से उसका जुड़ाव",
+          "उधड़ता, बिखरता है, जब आलस्य की छिपी पकड़ फैलती है"
+        ],
+        [
+          "बताइए आपको क्या लगता है! मैंने ईव की आत्मा को भ्रष्ट करते आलस्य का सार पकड़ने की कोशिश की है।"
+        ],
+        [
+          "अगली बार मैं ईव के लोभ और कामना, या आदम की अतिभोजन-वृत्ति में सहायता कर सकता हूँ। बस बताइए!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 522,
+    "target": "or",
+    "reading_evidence": "Read complete five seven-line stanzas in source and both targets: waiting/dozing, God/prayers/demon/mud dream, grain/parrots/trust, lighted house against spreading darkness, pride of stonewall cracked by creeper, unarriving guest and possible forgetting/exit to darkness. Distinct dream agents, repeated guest and final possibility retained.",
+    "reason": "Place the creeper possessor before its tender touch, so the source cause of the cracked pride is intelligible without backtracking.",
+    "open_questions": [
+      "Source not in their harms way is unresolved: current literal provisional reading preserved rather than reversing who harms whom. Dosed is provisionally read as dozed. Hindi speaker/addressee masculine agreement remains provisional."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+    "full_source_target_read": true,
+    "source_sha256": "0c5cf0b8fca9df8409459547d82d52cb2e5bb08561959c1dd7d43b462f19d869",
+    "before_sha256": "bc9f2a73380c51374bbfd75bfe5ad15d0357bf7d883312b5e54684aceb644679",
+    "after_sha256": "d032964a8d6f25622b1695d3aa68f66824c1cf2e9e5f741ea8cf5e08b94f2389",
+    "prior_uncertainties": [
+      {
+        "note": "Source dosed read dozed; ambiguous not in their harms way retained rather than reversed to a clearer but unsupported claim. Hindi masculine speaker provisional.",
+        "record": "kb/production/translations/batch-064/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ନିମନ୍ତ୍ରଣ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଦିନସାରା ତୁମକୁ ଅପେକ୍ଷା କଲି",
+          "ମୋ ଅତିଥି!",
+          "ଅପେକ୍ଷା କରୁ କରୁ ଢୁଳେଇପଡ଼ିଲି",
+          "ସ୍ୱପ୍ନରେ ମୋ ଈଶ୍ୱର ଆସିଲେ",
+          "ମୋ ପ୍ରାର୍ଥନା ବି",
+          "ସ୍ୱପ୍ନରେ ମୋ ଦାନବ ଆସିଲା",
+          "ମୋର କାଦୁଅରେ ବୁଡ଼ିବା"
+        ],
+        [
+          "ମୁଁ ଶସ୍ୟଦାନା ବିଛାଇଲି",
+          "ଝରକା କାଚର ସେପାରେ",
+          "ଶୁଆମାନେ ଆକାଶକୁ ଉଡ଼ିଗଲେ",
+          "ସେମାନେ କେବେ ଦିନେ ଆସିପାରନ୍ତି",
+          "ମୋ ନିମନ୍ତ୍ରଣକୁ ମାନ ଦେଇ",
+          "ଯେବେ ମୋତେ ବିଶ୍ୱାସ କରିବେ",
+          "ଆଉ ମୁଁ ସେମାନଙ୍କ କ୍ଷତିର ପଥରେ ନଥିବି"
+        ],
+        [
+          "ଦେଖ, ମୁଁ ରଖିଛି",
+          "ସାରା ଘର ଆଲୋକିତ",
+          "ମୋ ଅତିଥି!",
+          "ଯେବେ ଅନ୍ଧାର ରାସ୍ତାକୁ ଗିଳୁଛି,",
+          "ଦୂର ବୁଦା ଓ ନଈକୂଳକୁ",
+          "ମୁଁ ସେଇ ଅନ୍ଧାରକୁ ଡେଇଁପାରେ",
+          "ତୁମେ ଆସିଲେ ଘଣ୍ଟିର ଉତ୍ତର ଦେବାକୁ"
+        ],
+        [
+          "ଦେଖ, ମୋର କେତେ ଗର୍ବ ଥିଲା",
+          "ତୁମକୁ ଡାକି, ସ୍ୱାଗତ ପାଇଁ ଅପେକ୍ଷା କରି",
+          "କଠିନ ପଥରକାନ୍ଥର ଗର୍ବ ଫାଟିଗଲା",
+          "ଏଇ କୋମଳ ସ୍ପର୍ଶରେ",
+          "କୋଠରିକୁ ମାଡ଼ିଆସୁଥିବା ଅଳସ ଲତାର",
+          "ସେ ବାଟ ଦେଖାଇବା ସତ୍ତ୍ୱେ",
+          "ତଥାପି ତୁମେ ଆସିଲ ନାହିଁ"
+        ],
+        [
+          "କ'ଣ ବଦଳିବ",
+          "ଯଦି ତୁମେ ନ ଆସ",
+          "ମୁଁ କୋଠରିରେ ରହିବି",
+          "ଆଲୁଅ ରଖିବି। ହେଲେ ଭୁଲିଯାଇପାରେ,",
+          "ଯେ ମୁଁ ତୁମକୁ ନିମନ୍ତ୍ରଣ କରିଥିଲି",
+          "ମୁଁ କବାଟ ଖୋଲିପାରେ",
+          "ଆଉ ଆଲୁଅରୁ ଅନ୍ଧାରକୁ ପାଦ ବଢ଼ାଇପାରେ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ନିମନ୍ତ୍ରଣ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଦିନସାରା ତୁମକୁ ଅପେକ୍ଷା କଲି",
+          "ମୋ ଅତିଥି!",
+          "ଅପେକ୍ଷା କରୁ କରୁ ଢୁଳେଇପଡ଼ିଲି",
+          "ସ୍ୱପ୍ନରେ ମୋ ଈଶ୍ୱର ଆସିଲେ",
+          "ମୋ ପ୍ରାର୍ଥନା ବି",
+          "ସ୍ୱପ୍ନରେ ମୋ ଦାନବ ଆସିଲା",
+          "ମୋର କାଦୁଅରେ ବୁଡ଼ିବା"
+        ],
+        [
+          "ମୁଁ ଶସ୍ୟଦାନା ବିଛାଇଲି",
+          "ଝରକା କାଚର ସେପାରେ",
+          "ଶୁଆମାନେ ଆକାଶକୁ ଉଡ଼ିଗଲେ",
+          "ସେମାନେ କେବେ ଦିନେ ଆସିପାରନ୍ତି",
+          "ମୋ ନିମନ୍ତ୍ରଣକୁ ମାନ ଦେଇ",
+          "ଯେବେ ମୋତେ ବିଶ୍ୱାସ କରିବେ",
+          "ଆଉ ମୁଁ ସେମାନଙ୍କ କ୍ଷତିର ପଥରେ ନଥିବି"
+        ],
+        [
+          "ଦେଖ, ମୁଁ ରଖିଛି",
+          "ସାରା ଘର ଆଲୋକିତ",
+          "ମୋ ଅତିଥି!",
+          "ଯେବେ ଅନ୍ଧାର ରାସ୍ତାକୁ ଗିଳୁଛି,",
+          "ଦୂର ବୁଦା ଓ ନଈକୂଳକୁ",
+          "ମୁଁ ସେଇ ଅନ୍ଧାରକୁ ଡେଇଁପାରେ",
+          "ତୁମେ ଆସିଲେ ଘଣ୍ଟିର ଉତ୍ତର ଦେବାକୁ"
+        ],
+        [
+          "ଦେଖ, ମୋର କେତେ ଗର୍ବ ଥିଲା",
+          "ତୁମକୁ ଡାକି, ସ୍ୱାଗତ ପାଇଁ ଅପେକ୍ଷା କରି",
+          "କଠିନ ପଥରକାନ୍ଥର ଗର୍ବ ଫାଟିଗଲା",
+          "କୋଠରିକୁ ମାଡ଼ିଆସୁଥିବା ଏଇ ଅଳସ ଲତାର",
+          "କୋମଳ ସ୍ପର୍ଶରେ",
+          "ସେ ବାଟ ଦେଖାଇବା ସତ୍ତ୍ୱେ",
+          "ତଥାପି ତୁମେ ଆସିଲ ନାହିଁ"
+        ],
+        [
+          "କ'ଣ ବଦଳିବ",
+          "ଯଦି ତୁମେ ନ ଆସ",
+          "ମୁଁ କୋଠରିରେ ରହିବି",
+          "ଆଲୁଅ ରଖିବି। ହେଲେ ଭୁଲିଯାଇପାରେ,",
+          "ଯେ ମୁଁ ତୁମକୁ ନିମନ୍ତ୍ରଣ କରିଥିଲି",
+          "ମୁଁ କବାଟ ଖୋଲିପାରେ",
+          "ଆଉ ଆଲୁଅରୁ ଅନ୍ଧାରକୁ ପାଦ ବଢ଼ାଇପାରେ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 522,
+    "target": "hi",
+    "reading_evidence": "Read complete five seven-line stanzas in source and both targets: waiting/dozing, God/prayers/demon/mud dream, grain/parrots/trust, lighted house against spreading darkness, pride of stonewall cracked by creeper, unarriving guest and possible forgetting/exit to darkness. Distinct dream agents, repeated guest and final possibility retained.",
+    "reason": "Move the creeper genitive before tender touch to preserve the image and causal relation in natural Hindi order.",
+    "open_questions": [
+      "Source not in their harms way is unresolved: current literal provisional reading preserved rather than reversing who harms whom. Dosed is provisionally read as dozed. Hindi speaker/addressee masculine agreement remains provisional."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Retain source imagery, stanza/line counts and raw tails; no source edits or invented referents. Same-assistant self-review only.",
+    "full_source_target_read": true,
+    "source_sha256": "0c5cf0b8fca9df8409459547d82d52cb2e5bb08561959c1dd7d43b462f19d869",
+    "before_sha256": "97105eeabf8ce35488c632bf6f2e8d32eb45e97e82978218d248d5e48ec2000b",
+    "after_sha256": "73138eec93f57c286cb5d056a8f996b89915f709456532059cd71c8e0d7f1287",
+    "prior_uncertainties": [
+      {
+        "note": "Source dosed read dozed; ambiguous not in their harms way retained rather than reversed to a clearer but unsupported claim. Hindi masculine speaker provisional.",
+        "record": "kb/production/translations/batch-064/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "निमंत्रण",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "दिन भर तुम्हारी प्रतीक्षा की",
+          "मेरे अतिथि!",
+          "प्रतीक्षा करते-करते ऊँघ गया",
+          "सपने में मेरे ईश्वर आए",
+          "मेरी प्रार्थनाएँ भी",
+          "सपने में मेरा दानव आया",
+          "मेरा कीचड़ में डूबना"
+        ],
+        [
+          "मैंने दाने बिखेरे",
+          "खिड़की के शीशे के पार",
+          "तोते आकाश में उड़ गए",
+          "वे किसी दिन आ सकते हैं",
+          "मेरे निमंत्रण का मान रखने",
+          "जब उन्हें मुझ पर भरोसा हो",
+          "और मैं उनकी हानि की राह में न हूँ"
+        ],
+        [
+          "देखो, मैंने रखा है",
+          "पूरा घर रोशन",
+          "मेरे अतिथि!",
+          "जब अँधेरा सड़क को निगल रहा है,",
+          "दूर की झाड़ियाँ और नदी का किनारा",
+          "मैं उस अँधेरे में कूद सकता हूँ",
+          "तुम्हारे आने पर घंटी का जवाब देने"
+        ],
+        [
+          "देखो, मुझे कितना गर्व था",
+          "तुम्हें बुलाने, स्वागत को प्रतीक्षा करने में",
+          "कठोर पत्थर-दीवार का गर्व दरक गया",
+          "इस कोमल स्पर्श से",
+          "कमरे में रेंगती आने वाली अलसाई लता के",
+          "उसके राह दिखाने पर भी",
+          "फिर भी तुम नहीं आए"
+        ],
+        [
+          "क्या बदलेगा",
+          "यदि तुम नहीं आओगे",
+          "मैं कमरे में रहूँगा",
+          "उसे रोशन रखूँगा। पर शायद भूल जाऊँ,",
+          "कि मैंने तुम्हें बुलाया था",
+          "शायद दरवाज़ा खोल दूँ",
+          "और उजाले से अँधेरे में निकल पड़ूँ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "निमंत्रण",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "दिन भर तुम्हारी प्रतीक्षा की",
+          "मेरे अतिथि!",
+          "प्रतीक्षा करते-करते ऊँघ गया",
+          "सपने में मेरे ईश्वर आए",
+          "मेरी प्रार्थनाएँ भी",
+          "सपने में मेरा दानव आया",
+          "मेरा कीचड़ में डूबना"
+        ],
+        [
+          "मैंने दाने बिखेरे",
+          "खिड़की के शीशे के पार",
+          "तोते आकाश में उड़ गए",
+          "वे किसी दिन आ सकते हैं",
+          "मेरे निमंत्रण का मान रखने",
+          "जब उन्हें मुझ पर भरोसा हो",
+          "और मैं उनकी हानि की राह में न हूँ"
+        ],
+        [
+          "देखो, मैंने रखा है",
+          "पूरा घर रोशन",
+          "मेरे अतिथि!",
+          "जब अँधेरा सड़क को निगल रहा है,",
+          "दूर की झाड़ियाँ और नदी का किनारा",
+          "मैं उस अँधेरे में कूद सकता हूँ",
+          "तुम्हारे आने पर घंटी का जवाब देने"
+        ],
+        [
+          "देखो, मुझे कितना गर्व था",
+          "तुम्हें बुलाने, स्वागत को प्रतीक्षा करने में",
+          "कठोर पत्थर-दीवार का गर्व दरक गया",
+          "कमरे में रेंगती आने वाली इस अलसाई लता के",
+          "कोमल स्पर्श से",
+          "उसके राह दिखाने पर भी",
+          "फिर भी तुम नहीं आए"
+        ],
+        [
+          "क्या बदलेगा",
+          "यदि तुम नहीं आओगे",
+          "मैं कमरे में रहूँगा",
+          "उसे रोशन रखूँगा। पर शायद भूल जाऊँ,",
+          "कि मैंने तुम्हें बुलाया था",
+          "शायद दरवाज़ा खोल दूँ",
+          "और उजाले से अँधेरे में निकल पड़ूँ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

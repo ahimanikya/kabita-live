@@ -1,0 +1,250 @@
+{
+  "recorded_at": "2026-10-05T03:19:34.362233+00:00",
+  "poem_ids": [
+    809,
+    818,
+    823,
+    810,
+    812
+  ],
+  "variants_read": 10,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 809,
+      "target": "hi",
+      "source_sha256": "b0717425d43f4a53c1c8437c213107014742a01815cc467e8a074261f1fe0573",
+      "before_sha256": "1d1f963c7b96f597bbedaf08ed8cdaf7268a3004d6f2590aa3ed876b2854bdb8",
+      "after_sha256": "1d1f963c7b96f597bbedaf08ed8cdaf7268a3004d6f2590aa3ed876b2854bdb8",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "reason": "The Hindi retains the sealed shop, school/food losses, absent care and the brothers’ later recovery without adding a new cultural explanation.",
+      "tradeoff": "Meaningful source images and cultural anchors are retained; no relocation or added explanation.",
+      "open_questions": [],
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "finding_dispositions": {},
+      "new_findings": [],
+      "reading_evidence": "Complete source and current target read; compared agency, imagery, repetition, emotional turn and ending. No independent fluent-reader review."
+    },
+    {
+      "poem_id": 809,
+      "target": "en",
+      "source_sha256": "b0717425d43f4a53c1c8437c213107014742a01815cc467e8a074261f1fe0573",
+      "before_sha256": "45509b8cccfb0f459bd8793da8437da55ae571aec1bbd4f08b865a4820e13429",
+      "after_sha256": "f64fa1853104a16e3d4d72ec2c50f80c6f8bf03097ad9886524491fa2964d562",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "reason": "Replace quickening with liveliness, matching the child’s lost animation in the plain domestic register. The final recovery and food names remain intact.",
+      "tradeoff": "Meaningful source images and cultural anchors are retained; no relocation or added explanation.",
+      "open_questions": [],
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "finding_dispositions": {
+        "PNR-001": "fixed_in_local_draft"
+      },
+      "new_findings": [],
+      "reading_evidence": "Complete source and current target read; compared agency, imagery, repetition, emotional turn and ending. No independent fluent-reader review."
+    },
+    {
+      "poem_id": 818,
+      "target": "hi",
+      "source_sha256": "3a0a474bf9b9b0f61cefcf6693a338cb5925c693b51a845a1d8a0d541f68808a",
+      "before_sha256": "62196f2566caa6f2171c1929dd940a663b6b50da829daa085c411325e19be42b",
+      "after_sha256": "62196f2566caa6f2171c1929dd940a663b6b50da829daa085c411325e19be42b",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "reason": "The भूल / भूल से भी wording already carries the bitter rebuke; retain the poet’s cosmic imagery and the final self-implicating turn.",
+      "tradeoff": "Meaningful source images and cultural anchors are retained; no relocation or added explanation.",
+      "open_questions": [
+        "The first-person भूल गया हूँ makes a masculine speaker choice not established by the Odia alone; retained provisionally.",
+        "ଫୁକିଆ ତାରା provisionally rendered as morning star; native editorial confirmation needed."
+      ],
+      "prior_uncertainties": [
+        {
+          "note": "ଫୁକିଆ ତାରା provisionally rendered as morning star; native editorial confirmation needed.",
+          "record": "kb/production/translations/batch-001/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "finding_dispositions": {},
+      "new_findings": [
+        {
+          "category": "speaker_uncertainty",
+          "status": "held",
+          "note": "The first-person भूल गया हूँ makes a masculine speaker choice not established by the Odia alone; retained provisionally."
+        }
+      ],
+      "reading_evidence": "Complete source and current target read; compared agency, imagery, repetition, emotional turn and ending. No independent fluent-reader review."
+    },
+    {
+      "poem_id": 818,
+      "target": "en",
+      "source_sha256": "3a0a474bf9b9b0f61cefcf6693a338cb5925c693b51a845a1d8a0d541f68808a",
+      "before_sha256": "e4dc73bc33fe96fdf2e59379bb158f4475f417bdb004785d005af320465fe5fa",
+      "after_sha256": "edbf57c4dc66dd8d59248c77fd3daab6a7b6195e8fa1d68b6cc0db274384ded1",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "reason": "Restore the pointed not-even-by-mistake phrasing instead of the awkward chance to remember; retain the closing admission of forgetting within the poet’s rhythms.",
+      "tradeoff": "Meaningful source images and cultural anchors are retained; no relocation or added explanation.",
+      "open_questions": [
+        "ଫୁକିଆ ତାରା provisionally rendered as morning star; native editorial confirmation needed."
+      ],
+      "prior_uncertainties": [
+        {
+          "note": "ଫୁକିଆ ତାରା provisionally rendered as morning star; native editorial confirmation needed.",
+          "record": "kb/production/translations/batch-001/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "finding_dispositions": {
+        "PNR-004": "fixed_in_local_draft"
+      },
+      "new_findings": [],
+      "reading_evidence": "Complete source and current target read; compared agency, imagery, repetition, emotional turn and ending. No independent fluent-reader review."
+    },
+    {
+      "poem_id": 823,
+      "target": "hi",
+      "source_sha256": "f0af9cf6a658abc7d0e57a6ff09f09cd78ada7a18a22b3491e9259dd7fcd8ea3",
+      "before_sha256": "ca03ca5253fe699948706a6638ec94f8cf8e345d423ebb2be0bbd5cee74fc83c",
+      "after_sha256": "ca03ca5253fe699948706a6638ec94f8cf8e345d423ebb2be0bbd5cee74fc83c",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "reason": "Retain the compact pauses, wind/flute transformation and the source’s sudden me rather than resolve its speaker transition.",
+      "tradeoff": "Meaningful source images and cultural anchors are retained; no relocation or added explanation.",
+      "open_questions": [
+        "The implicit subject around ମତେ / ପୁନର୍ଜନ୍ମ ଲଭେ remains interpretive; no new assignment of the speaker is made."
+      ],
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "finding_dispositions": {},
+      "new_findings": [
+        {
+          "category": "speaker_uncertainty",
+          "status": "held",
+          "note": "The implicit subject around ମତେ / ପୁନର୍ଜନ୍ମ ଲଭେ remains interpretive; no new assignment of the speaker is made."
+        }
+      ],
+      "reading_evidence": "Complete source and current target read; compared agency, imagery, repetition, emotional turn and ending. No independent fluent-reader review."
+    },
+    {
+      "poem_id": 823,
+      "target": "en",
+      "source_sha256": "f0af9cf6a658abc7d0e57a6ff09f09cd78ada7a18a22b3491e9259dd7fcd8ea3",
+      "before_sha256": "e54c31a3536dcce93f47c193f2359195629d5383193e76f62b521890ee800482",
+      "after_sha256": "9417a5182a087c7ef653aa83cc88a309ad6ab6c6c7939f689177f833bf4379d0",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "reason": "Let the opening read as an English sentence and join the stranded preposition to your hands. Preserve the source’s pause before when and its sudden me.",
+      "tradeoff": "Uses thirteen target lines rather than fourteen, with explicit target stanza boundaries; the me/it shift remains provisional.",
+      "open_questions": [
+        "The implicit subject around ମତେ / ପୁନର୍ଜନ୍ମ ଲଭେ remains interpretive; no new assignment of the speaker is made."
+      ],
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "finding_dispositions": {
+        "PNR-008": "fixed_in_local_draft"
+      },
+      "new_findings": [
+        {
+          "category": "speaker_uncertainty",
+          "status": "held",
+          "note": "The implicit subject around ମତେ / ପୁନର୍ଜନ୍ମ ଲଭେ remains interpretive; no new assignment of the speaker is made."
+        }
+      ],
+      "reading_evidence": "Complete source and current target read; compared agency, imagery, repetition, emotional turn and ending. No independent fluent-reader review."
+    },
+    {
+      "poem_id": 810,
+      "target": "or",
+      "source_sha256": "90aa0fe273e413d1484344ae2fb226bea466c7b2ca22bcd4adc2db7bdaf62b75",
+      "before_sha256": "02d7bb4ccdc1067d923878934566305f5a350ece5573f66e65df1f97499ef66a",
+      "after_sha256": "02d7bb4ccdc1067d923878934566305f5a350ece5573f66e65df1f97499ef66a",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "reason": "The empty platform, shelter-like rain image, tremor of the train and open-ended waiting remain intact. No material revision needed in this reading.",
+      "tradeoff": "Meaningful source images and cultural anchors are retained; no relocation or added explanation.",
+      "open_questions": [],
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "finding_dispositions": {},
+      "new_findings": [],
+      "reading_evidence": "Complete source and current target read; compared agency, imagery, repetition, emotional turn and ending. No independent fluent-reader review."
+    },
+    {
+      "poem_id": 810,
+      "target": "en",
+      "source_sha256": "90aa0fe273e413d1484344ae2fb226bea466c7b2ca22bcd4adc2db7bdaf62b75",
+      "before_sha256": "3d702027bc4dddf06eccadab28da59e3630ee4f2b4e9545e9507589221e48957",
+      "after_sha256": "3d702027bc4dddf06eccadab28da59e3630ee4f2b4e9545e9507589221e48957",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "reason": "Retain the shade of falling raindrops as the source’s image, not a calque to flatten. The quiet return and unanswered waiting work in English.",
+      "tradeoff": "Meaningful source images and cultural anchors are retained; no relocation or added explanation.",
+      "open_questions": [],
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "finding_dispositions": {},
+      "new_findings": [],
+      "reading_evidence": "Complete source and current target read; compared agency, imagery, repetition, emotional turn and ending. No independent fluent-reader review."
+    },
+    {
+      "poem_id": 812,
+      "target": "or",
+      "source_sha256": "7c05d71c93355cb85bdbb34157a7b14df36059f3ec25a620495d00336b80c0e9",
+      "before_sha256": "656fcebb95209333dd7fa6981075e874dac32eed586ef4d3e01a0ea63e700fd1",
+      "after_sha256": "656fcebb95209333dd7fa6981075e874dac32eed586ef4d3e01a0ea63e700fd1",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "reason": "The Hindi explicitly says दादी, so paternal grandmother is supported here. Retain the mother/daughter turn and the familiar chest/stone idiom.",
+      "tradeoff": "Meaningful source images and cultural anchors are retained; no relocation or added explanation.",
+      "open_questions": [],
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "finding_dispositions": {},
+      "new_findings": [],
+      "reading_evidence": "Complete source and current target read; compared agency, imagery, repetition, emotional turn and ending. No independent fluent-reader review."
+    },
+    {
+      "poem_id": 812,
+      "target": "en",
+      "source_sha256": "7c05d71c93355cb85bdbb34157a7b14df36059f3ec25a620495d00336b80c0e9",
+      "before_sha256": "e070d30c196bca130dc0ebeaf64f674a54bee1a2bbf108895f881491c9083611",
+      "after_sha256": "ca0ff042fd76825c8f337108671195f9a79274f16b11d843c237f331a50f09da",
+      "full_source_target_read": true,
+      "independent_review": false,
+      "mode": "Poetic Natural",
+      "reason": "Render the mother’s painful act of resolve as steeling her heart, preserving the farewell and the final courtyard/bouquet image.",
+      "tradeoff": "Drops the literal stone image to carry the idiom’s action of painful resolve; courtyard and bouquet images are retained.",
+      "open_questions": [],
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "finding_dispositions": {
+        "PNR-009": "fixed_in_local_draft"
+      },
+      "new_findings": [],
+      "reading_evidence": "Complete source and current target read; compared agency, imagery, repetition, emotional turn and ending. No independent fluent-reader review."
+    }
+  ]
+}

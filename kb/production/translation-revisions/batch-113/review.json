@@ -1,0 +1,299 @@
+{
+  "recorded_at": "2026-10-06T01:24:33.730699+00:00",
+  "poem_ids": [
+    322,
+    337,
+    326,
+    338,
+    323
+  ],
+  "variants_read": 10,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 322,
+      "target": "hi",
+      "reading_evidence": "Read all41 lines in five stanzas: Baisakh42degree heat, cyclone/urbanisation/modernity victim God; power-hungry big pandas seek darkness for naked-desire palace and God fears it; city drenched in attachment wine/white deceit outshining moon/scorched earth, God dust-covered searching for crystal-clear loving heart; Buddha transforming hunger into nirvana, hunger shops and prosperous officials, no nirvana wish, God awaiting Gautama forgetting hunger/thirst; failed heart calls/broken mind bridge/joy wave, God missing from false-fraternity/envious human hearts. Repeated stanza-ending God retained.",
+      "reason": "Retain clear existing Hindi personification, list rhythm and recurring Ishwar. Source-dependent terms remain held rather than replaced.",
+      "open_questions": [
+        "Prior batch109: panda/pande denotes a priestly or figurative powerful figure, not zoological pandas; precise scope remains uncertain, so existing term retained pending culturally informed review.",
+        "Tantri remains provisional tantrics/tantrik; final damaged niruddhishta read as missing in context. Buddha and personified-God assertions remain source poetry, no doctrinal corrections."
+      ],
+      "finding_dispositions": {
+        "prior_flags": "No earlier flags; complete current source and target read. Existing uncertainty records preserved."
+      },
+      "tradeoff": "Preserve image, voice, argument and repetitions; same-assistant self-review only, independent review pending. No original or authored translation edits.",
+      "full_source_target_read": true,
+      "source_sha256": "a8a1be2395fec9c2a37f5278e9b8b215ab93dbc80770c41159b9ff56ce610eac",
+      "before_sha256": "87396919a5319366f99b109f068e207c8e99295256066f5b36546ff63aa1ad81",
+      "after_sha256": "87396919a5319366f99b109f068e207c8e99295256066f5b36546ff63aa1ad81",
+      "prior_uncertainties": [
+        {
+          "note": "Five blocks retained. Pundas rendered pandas/pande, not zoological pandas; tantri provisionally tantrics. Final source niruddhishta read as missing in context. Personified God and Buddha assertions remain poetic claims.",
+          "record": "kb/production/translations/batch-109/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 322,
+      "target": "en",
+      "reading_evidence": "Read all41 lines in five stanzas: Baisakh42degree heat, cyclone/urbanisation/modernity victim God; power-hungry big pandas seek darkness for naked-desire palace and God fears it; city drenched in attachment wine/white deceit outshining moon/scorched earth, God dust-covered searching for crystal-clear loving heart; Buddha transforming hunger into nirvana, hunger shops and prosperous officials, no nirvana wish, God awaiting Gautama forgetting hunger/thirst; failed heart calls/broken mind bridge/joy wave, God missing from false-fraternity/envious human hearts. Repeated stanza-ending God retained.",
+      "reason": "Attach dust to the searching God rather than the sought heart; restore khoju-khoju repetition while preserving the stanza-final God.",
+      "open_questions": [
+        "Prior batch109: panda/pande denotes a priestly or figurative powerful figure, not zoological pandas; precise scope remains uncertain, so existing term retained pending culturally informed review.",
+        "Tantri remains provisional tantrics/tantrik; final damaged niruddhishta read as missing in context. Buddha and personified-God assertions remain source poetry, no doctrinal corrections."
+      ],
+      "finding_dispositions": {
+        "prior_flags": "No earlier flags; complete current source and target read. Existing uncertainty records preserved."
+      },
+      "tradeoff": "Preserve image, voice, argument and repetitions; same-assistant self-review only, independent review pending. No original or authored translation edits.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 41,
+        "before_lines": [
+          7,
+          14,
+          24,
+          35
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "a8a1be2395fec9c2a37f5278e9b8b215ab93dbc80770c41159b9ff56ce610eac",
+      "before_sha256": "f85cbf2f7691df48cea19011f676c771792164f3fcbfa9cc9b7980c082d97e44",
+      "after_sha256": "ab9dcdd9d3f527d9a4501f49c120edf5b16fa9e23b583a3a001aae4e8b31f63a",
+      "prior_uncertainties": [
+        {
+          "note": "Five blocks retained. Pundas rendered pandas/pande, not zoological pandas; tantri provisionally tantrics. Final source niruddhishta read as missing in context. Personified God and Buddha assertions remain poetic claims.",
+          "record": "kb/production/translations/batch-109/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 337,
+      "target": "hi",
+      "reading_evidence": "Read complete51lines in six stanzas: prepared director/audience/stage and separate protagonists; hoofbeats/wakeful sleeping roles, king/Manika/ring/curd/horse and milkmaid payment, king sorrow/milkmaid joy/bhava-abhava balance; matchstick burning and Ravana ten heads, jubilant crowd questioned for purity; he/you/I/we under other direction, namabali/death applause/thorn road/lac house/kalisi with fire-smoke/cloud play/sea/Konark leap; selves slipping from soft palms; dark-light/false-true world road, meetings/predetermined dates/scenes and left-right/king-commoner reversals.",
+      "reason": "Complete the natural Hindi elliptical parallel: each is protagonist of their own play. No additional role or plot supplied.",
+      "open_questions": [
+        "Prior batch109: Manika/ring/curd/king and Konark allusions left unexpanded; namabali and kalisi retained without invented ritual detail.",
+        "Bhava/abhava remains feeling/want provisionally; first matchstick burning subject/mode unresolved. English He is an inherited gendered rendering of se, not confirmed narrator identity."
+      ],
+      "finding_dispositions": {
+        "prior_flags": "No earlier flags; complete current source and target read. Existing uncertainty records preserved."
+      },
+      "tradeoff": "Preserve image, voice, argument and repetitions; same-assistant self-review only, independent review pending. No original or authored translation edits.",
+      "full_source_target_read": true,
+      "source_sha256": "54b531120f0decc44a0fdaca554d89d80a6a7c2394b6c2f9b6f67b72cd90f531",
+      "before_sha256": "1197ad20b51912072ed616efd80b670d83b67c25f37ba7304118214a6792826f",
+      "after_sha256": "25b5c5de5f96ef3be9eeae6685f873038258bbd959ff5c474691344f1646f59d",
+      "prior_uncertainties": [
+        {
+          "note": "Six blocks and all cultural allusions preserved. Manika, curd, ring and king kept without added legend. Namabali and kalisi retained; Konark summit/leap allusion unexpanded. Bhaba/abhaba provisionally feeling/want; first matchstick line retains first-person burning ambiguity.",
+          "record": "kb/production/translations/batch-109/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 337,
+      "target": "en",
+      "reading_evidence": "Read complete51lines in six stanzas: prepared director/audience/stage and separate protagonists; hoofbeats/wakeful sleeping roles, king/Manika/ring/curd/horse and milkmaid payment, king sorrow/milkmaid joy/bhava-abhava balance; matchstick burning and Ravana ten heads, jubilant crowd questioned for purity; he/you/I/we under other direction, namabali/death applause/thorn road/lac house/kalisi with fire-smoke/cloud play/sea/Konark leap; selves slipping from soft palms; dark-light/false-true world road, meetings/predetermined dates/scenes and left-right/king-commoner reversals.",
+      "reason": "Retain the theatrical motif and pointed purity/self-destruction questions; unresolved allusive and pronominal details are not confident correction targets.",
+      "open_questions": [
+        "Prior batch109: Manika/ring/curd/king and Konark allusions left unexpanded; namabali and kalisi retained without invented ritual detail.",
+        "Bhava/abhava remains feeling/want provisionally; first matchstick burning subject/mode unresolved. English He is an inherited gendered rendering of se, not confirmed narrator identity."
+      ],
+      "finding_dispositions": {
+        "prior_flags": "No earlier flags; complete current source and target read. Existing uncertainty records preserved."
+      },
+      "tradeoff": "Preserve image, voice, argument and repetitions; same-assistant self-review only, independent review pending. No original or authored translation edits.",
+      "full_source_target_read": true,
+      "source_sha256": "54b531120f0decc44a0fdaca554d89d80a6a7c2394b6c2f9b6f67b72cd90f531",
+      "before_sha256": "cb6838b83ad20a479ec9416588541fe04d36592c6f827ab9c34c03770c21ef27",
+      "after_sha256": "cb6838b83ad20a479ec9416588541fe04d36592c6f827ab9c34c03770c21ef27",
+      "prior_uncertainties": [
+        {
+          "note": "Six blocks and all cultural allusions preserved. Manika, curd, ring and king kept without added legend. Namabali and kalisi retained; Konark summit/leap allusion unexpanded. Bhaba/abhaba provisionally feeling/want; first matchstick line retains first-person burning ambiguity.",
+          "record": "kb/production/translations/batch-109/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 326,
+      "target": "or",
+      "reading_evidence": "Read full22lines in five stanzas: unbearable pain/back-stabbing refrain; people wounding the very heart they dwell in; burning desires/fate-deception/faces within faces; helpless psyche, social rituals/vows, thirst and tear oceans; deceitful nature/plunder craving/hatred in every pore and false affection display; return to opening couplet. All six occurrences of back-dagger refrain kept. Both source and targets read in full.",
+      "reason": "Repair the disconnected relative structure: the speaker sees those who wound the heart while inhabiting it. Preserve two lines and repeated betrayal refrain.",
+      "open_questions": [
+        "Kismat ko bhi chhalte dekha can leave agency of deceiving/fate uncertain; current fate-deceives reading retained provisionally rather than asserted as settled."
+      ],
+      "finding_dispositions": {
+        "prior_flags": "No earlier flags; complete current source and target read. Existing uncertainty records preserved."
+      },
+      "tradeoff": "Preserve image, voice, argument and repetitions; same-assistant self-review only, independent review pending. No original or authored translation edits.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 22,
+        "before_lines": [
+          5,
+          10,
+          15,
+          20
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "7cdfe2b70187b14cb9839cc8425e090f61cee39c25c90969d5444244e9007fcc",
+      "before_sha256": "eeb255aa871c81b3571740dee655aeb62287f86492ad223f8176ff0abfecabc3",
+      "after_sha256": "7944b9dac8ac4b3b5271d3bef64b40c631ad071affb04f4ebf6c757ebd67ca17",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 326,
+      "target": "en",
+      "reading_evidence": "Read full22lines in five stanzas: unbearable pain/back-stabbing refrain; people wounding the very heart they dwell in; burning desires/fate-deception/faces within faces; helpless psyche, social rituals/vows, thirst and tear oceans; deceitful nature/plunder craving/hatred in every pore and false affection display; return to opening couplet. All six occurrences of back-dagger refrain kept. Both source and targets read in full.",
+      "reason": "Retain plain anaphoric seen, betrayal refrain and escalating images, with fate agency explicitly unresolved.",
+      "open_questions": [
+        "Kismat ko bhi chhalte dekha can leave agency of deceiving/fate uncertain; current fate-deceives reading retained provisionally rather than asserted as settled."
+      ],
+      "finding_dispositions": {
+        "prior_flags": "No earlier flags; complete current source and target read. Existing uncertainty records preserved."
+      },
+      "tradeoff": "Preserve image, voice, argument and repetitions; same-assistant self-review only, independent review pending. No original or authored translation edits.",
+      "full_source_target_read": true,
+      "source_sha256": "7cdfe2b70187b14cb9839cc8425e090f61cee39c25c90969d5444244e9007fcc",
+      "before_sha256": "301e49c0eeb959058ae2015997b977b4efa235ef1fce54b1f9802244c0af33b1",
+      "after_sha256": "301e49c0eeb959058ae2015997b977b4efa235ef1fce54b1f9802244c0af33b1",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 338,
+      "target": "or",
+      "reading_evidence": "Read all35lines in eight stanzas: love not heavy like weapons but flower-light/fragrant/airborne, not heart-burden but soul-dweller; soul pervading universe gathers love and rains on thirsty-heart earth; saying I love you insufficient, unsaid understanding and gentle heart-entry; every pore/breath/life nectar; difficult love yet not impossible test, fluid childlike mind; humility not right, compassion summons barefoot love instantly, choosing beyond conventions/staying, final empty fragrant palms. Opening interrogative compared directly to Hindi.",
+      "reason": "Retain opening rhetorical question, spiritual imagery and affirmative imperative rhythm. The original Hindi ghazal label is retained without imposing a different form.",
+      "open_questions": [],
+      "finding_dispositions": {
+        "prior_flags": "No earlier flags; complete current source and target read. Existing uncertainty records preserved."
+      },
+      "tradeoff": "Preserve image, voice, argument and repetitions; same-assistant self-review only, independent review pending. No original or authored translation edits.",
+      "full_source_target_read": true,
+      "source_sha256": "da27a07013f2699c7ba0e691171ec469ca465dd77c62bc5c9fea9d80a20db721",
+      "before_sha256": "cc26085728b3cf70f4ed309bae3c742c30d935b6430230d792c9515da2ff5009",
+      "after_sha256": "cc26085728b3cf70f4ed309bae3c742c30d935b6430230d792c9515da2ff5009",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 338,
+      "target": "en",
+      "reading_evidence": "Read all35lines in eight stanzas: love not heavy like weapons but flower-light/fragrant/airborne, not heart-burden but soul-dweller; soul pervading universe gathers love and rains on thirsty-heart earth; saying I love you insufficient, unsaid understanding and gentle heart-entry; every pore/breath/life nectar; difficult love yet not impossible test, fluid childlike mind; humility not right, compassion summons barefoot love instantly, choosing beyond conventions/staying, final empty fragrant palms. Opening interrogative compared directly to Hindi.",
+      "reason": "Restore rhetorical contrast: weapons are heavy and love is light. The earlier like-weapons construction mistakenly suggested shared lightness.",
+      "open_questions": [],
+      "finding_dispositions": {
+        "prior_flags": "No earlier flags; complete current source and target read. Existing uncertainty records preserved."
+      },
+      "tradeoff": "Preserve image, voice, argument and repetitions; same-assistant self-review only, independent review pending. No original or authored translation edits.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 35,
+        "before_lines": [
+          6,
+          11,
+          16,
+          21,
+          25,
+          29,
+          34
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "da27a07013f2699c7ba0e691171ec469ca465dd77c62bc5c9fea9d80a20db721",
+      "before_sha256": "a3bc89ce02680310b7c78fcd5a177af7c79da410ccf6565d42effa0aa2dc32ee",
+      "after_sha256": "af88e56d4bc90b82f5ee233b9eabe7b69f61a57a807665244ca84428882a778f",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 323,
+      "target": "or",
+      "reading_evidence": "Read all20lines/five quatrains: dark hour/scar/gullible heart returning to flame; solitude yet togetherness/eternity/silence to hear love and prolong time; darkness with open eyes, constrained situation, beloved primping/tiptoeing and heart agitation; white blankness for portrait/potholed road recalling body curves; desired absence for peace/vim, dream/situation, do-not-return and heart portrait preferred to remembered reality. Preserved desire/absence tension and sensual body image.",
+      "reason": "Use grammatical participles for watching the beloved prepare and arrive; render the hearts rising agitation naturally rather than a malformed abstract uprising noun.",
+      "open_questions": [
+        "Prior batch109: inverted Desire I, silence/darkness/white addresses and situation/lid phrase remain source-awkward or ambiguous; no invented cause of separation."
+      ],
+      "finding_dispositions": {
+        "prior_flags": "No earlier flags; complete current source and target read. Existing uncertainty records preserved."
+      },
+      "tradeoff": "Preserve image, voice, argument and repetitions; same-assistant self-review only, independent review pending. No original or authored translation edits.",
+      "full_source_target_read": true,
+      "source_sha256": "9f0445923d0d7f4567dd03e2437aa22ae952642c02e8e3d9080af61d11f0f2a7",
+      "before_sha256": "e16d0ad4242e7bef49abe2ddd4d8c9042ad9b26bec28337d64254781978a7585",
+      "after_sha256": "dc5be37d20af6b932cee9474c152cebb174735361ed6b1370528e4bd3e0d0a85",
+      "prior_uncertainties": [
+        {
+          "note": "Five quatrains retained. Source inverted Desire I syntax interpreted as I desire; silence/darkness/white ambiguities and absent beloved preserved. Hindi speaker grammatical masculine is provisional; source English does not determine gender.",
+          "record": "kb/production/translations/batch-109/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 323,
+      "target": "hi",
+      "reading_evidence": "Read all20lines/five quatrains: dark hour/scar/gullible heart returning to flame; solitude yet togetherness/eternity/silence to hear love and prolong time; darkness with open eyes, constrained situation, beloved primping/tiptoeing and heart agitation; white blankness for portrait/potholed road recalling body curves; desired absence for peace/vim, dream/situation, do-not-return and heart portrait preferred to remembered reality. Preserved desire/absence tension and sensual body image.",
+      "reason": "Retain existing emotional contrasts and direct closing refusal; inherited masculine narrator remains a source question.",
+      "open_questions": [
+        "Prior batch109: inverted Desire I, silence/darkness/white addresses and situation/lid phrase remain source-awkward or ambiguous; no invented cause of separation.",
+        "Prior Hindi masculine speaker remains provisional; English source does not establish gender."
+      ],
+      "finding_dispositions": {
+        "prior_flags": "No earlier flags; complete current source and target read. Existing uncertainty records preserved."
+      },
+      "tradeoff": "Preserve image, voice, argument and repetitions; same-assistant self-review only, independent review pending. No original or authored translation edits.",
+      "full_source_target_read": true,
+      "source_sha256": "9f0445923d0d7f4567dd03e2437aa22ae952642c02e8e3d9080af61d11f0f2a7",
+      "before_sha256": "031c785c88e04a453f37d803ebfd3c21e8a03665522ba8018b3db7f65d2e9adf",
+      "after_sha256": "031c785c88e04a453f37d803ebfd3c21e8a03665522ba8018b3db7f65d2e9adf",
+      "prior_uncertainties": [
+        {
+          "note": "Five quatrains retained. Source inverted Desire I syntax interpreted as I desire; silence/darkness/white ambiguities and absent beloved preserved. Hindi speaker grammatical masculine is provisional; source English does not determine gender.",
+          "record": "kb/production/translations/batch-109/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

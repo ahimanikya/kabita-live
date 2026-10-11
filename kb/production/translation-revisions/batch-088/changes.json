@@ -1,0 +1,551 @@
+[
+  {
+    "poem_id": 437,
+    "target": "en",
+    "reading_evidence": "Read the complete fifteen-line source and both targets: lifetime accumulated love, sudden arrival, termination of memory circulation, withdrawal from one birth history; two had-you-not-come conditions, poem ending before final line and waiting as remaining extinguished incense stick on hurt-pride ashes. Checked counterfactual sequence and ending rather than making it a straightforward departure narrative.",
+    "reason": "Remove unsupported forever from the imminent ending and repair the count/mass syntax of the incense-stick residue.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source, credits, stanza and line counts, imagery, repetitions and ambiguity; same-assistant self-review with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "ddb49c6228f9e156254e9ddaf508ecbc2b209afd30f785601da652627e24f919",
+    "before_sha256": "a102fad2a49069a51910bebf88e56651337e94f25731d0188fd26c282a87efb8",
+    "after_sha256": "f6bdc363b58bd8cd03e04fa0d694dd189458d9e6473e4faf43228c8029385206",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Utterly Spent",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "With the love gathered",
+          "through an entire lifetime,",
+          "you arrived suddenly.",
+          "Ending the movement",
+          "of every memory, you returned,",
+          "withdrawing",
+          "from the history of a birth.",
+          "Had you not come, perhaps the poem",
+          "would have ended before its final line,",
+          "forever on the verge of ending.",
+          "Had you not come,",
+          "upon the ashes of hurt pride",
+          "I would have waited,",
+          "the remaining stick",
+          "of an extinguished incense."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Utterly Spent",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "With the love gathered",
+          "through an entire lifetime,",
+          "you arrived suddenly.",
+          "Ending the movement",
+          "of every memory, you returned,",
+          "withdrawing",
+          "from the history of a birth.",
+          "Had you not come, perhaps the poem",
+          "would have ended before its final line,",
+          "on the verge of ending.",
+          "Had you not come,",
+          "upon the ashes of hurt pride",
+          "I would have waited,",
+          "what remains of a stick",
+          "of extinguished incense."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 426,
+    "target": "or",
+    "reading_evidence": "Read all four full source/target stanzas and literal separator: recalled after long absence as aid to drowning person, living with absent beloved; wind-borne bodily presence/fragrance absent for ages/winds changed, repeated each-moment complaint; anger at hard-hearted beloved and God, love worshipped then own God nameless; nights turning/lonely bed/talk of beloved/punishment/seeing beloved in tears. Checked Hindi hum as intimate singular register and recurring complaint unchanged.",
+    "reason": "Render the gust as moving air and Hindi por-por as throughout the body, rather than a visual flash and untranslated bodily idiom.",
+    "open_questions": [
+      "The source making our God gumnam remains figuratively unresolved (nameless/unknown/effaced); preserve the existing literal reading pending poet clarification. Raw separator retained."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source, credits, stanza and line counts, imagery, repetitions and ambiguity; same-assistant self-review with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "fa7ee6e8726abc179072b43946f9b98df9858e3366214e2931d5f21c0bc9d23c",
+    "before_sha256": "f137fe047f00241167843fd03a683372830df12e1c156c262ceb0470997c5487",
+    "after_sha256": "6435f9fc31e73af7d47884be8c2dd9982c56f4cf29983ea1b31c943fa403ef3b",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ମୁଁ ଅଭିମାନ କରିଛି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଏତେଦିନ ପରେ ମୋତେ ମନେ ପକାଇଲ ଯେ,",
+          "ଲାଗିଲା ବୁଡ଼ୁଥିବା ଜଣକୁ ଆଶ୍ରା ଦେଲ।",
+          "କେବେ ଭାବ, ତୁମ ବିନା କିପରି ମୁହୂର୍ତ୍ତ କାଟିଲି;",
+          "ତୁମ ବିନା ବି ତୁମ ସହ ବଞ୍ଚିଲି।",
+          "¬¬¬",
+          "ପବନର ଝଲକ ସହ ଆସୁଥିଲ, ପୋରେ ପୋରେ ଓହ୍ଲାଉଥିଲ।",
+          "ତୁମ ବାସ୍ନା ଅନୁଭବ କରିବାର ଯୁଗ ବିତିଗଲା।",
+          "ସମୟ ସହ ପବନର ଦିଗ ବି ବଦଳାଇଦେଲ;",
+          "ତୁମ ବିନା ପ୍ରତି କ୍ଷଣ କିପରି କାଟିଲି, ତୁମେ କ'ଣ ଜାଣ?"
+        ],
+        [
+          "ତୁମ ଉପରେ ଅଭିମାନ, ପାଷାଣହୃଦୟ, ଈଶ୍ୱରଙ୍କ ଉପରେ ବି।",
+          "ମନପ୍ରାଣରେ ପ୍ରେମ କଲି, ପ୍ରେମକୁ ଈଶ୍ୱର ମାନିଲି।",
+          "ପୁଣି ମୋ ଈଶ୍ୱରଙ୍କୁ ମୋ ପାଇଁ ନାମହୀନ କରିଦେଲ।",
+          "ତୁମ ବିନା ପ୍ରତି କ୍ଷଣ କିପରି କାଟିଲି, ତୁମେ କ'ଣ ଜାଣ?"
+        ],
+        [
+          "କଡ଼ ଲେଉଟାଇ ଲେଉଟାଇ ମୋର ପ୍ରତି ରାତି ବିତେ;",
+          "ବିଛଣାରେ ଏକାକୀତ୍ୱ ଅଛି, ଆଉ ତୁମ କଥା।",
+          "କେଜାଣି ପ୍ରେମରେ କି ଦଣ୍ଡ ଦେଇଛ,",
+          "ବହୁଥିବା ଲୁହରେ ବି ତୁମକୁ ଦେଖିଛି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ମୁଁ ଅଭିମାନ କରିଛି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଏତେଦିନ ପରେ ମୋତେ ମନେ ପକାଇଲ ଯେ,",
+          "ଲାଗିଲା ବୁଡ଼ୁଥିବା ଜଣକୁ ଆଶ୍ରା ଦେଲ।",
+          "କେବେ ଭାବ, ତୁମ ବିନା କିପରି ମୁହୂର୍ତ୍ତ କାଟିଲି;",
+          "ତୁମ ବିନା ବି ତୁମ ସହ ବଞ୍ଚିଲି।",
+          "¬¬¬",
+          "ପବନର ଦଲକା ସହ ଆସୁଥିଲ, ଅଙ୍ଗେ ଅଙ୍ଗେ ଓହ୍ଲାଉଥିଲ।",
+          "ତୁମ ବାସ୍ନା ଅନୁଭବ କରିବାର ଯୁଗ ବିତିଗଲା।",
+          "ସମୟ ସହ ପବନର ଦିଗ ବି ବଦଳାଇଦେଲ;",
+          "ତୁମ ବିନା ପ୍ରତି କ୍ଷଣ କିପରି କାଟିଲି, ତୁମେ କ'ଣ ଜାଣ?"
+        ],
+        [
+          "ତୁମ ଉପରେ ଅଭିମାନ, ପାଷାଣହୃଦୟ, ଈଶ୍ୱରଙ୍କ ଉପରେ ବି।",
+          "ମନପ୍ରାଣରେ ପ୍ରେମ କଲି, ପ୍ରେମକୁ ଈଶ୍ୱର ମାନିଲି।",
+          "ପୁଣି ମୋ ଈଶ୍ୱରଙ୍କୁ ମୋ ପାଇଁ ନାମହୀନ କରିଦେଲ।",
+          "ତୁମ ବିନା ପ୍ରତି କ୍ଷଣ କିପରି କାଟିଲି, ତୁମେ କ'ଣ ଜାଣ?"
+        ],
+        [
+          "କଡ଼ ଲେଉଟାଇ ଲେଉଟାଇ ମୋର ପ୍ରତି ରାତି ବିତେ;",
+          "ବିଛଣାରେ ଏକାକୀତ୍ୱ ଅଛି, ଆଉ ତୁମ କଥା।",
+          "କେଜାଣି ପ୍ରେମରେ କି ଦଣ୍ଡ ଦେଇଛ,",
+          "ବହୁଥିବା ଲୁହରେ ବି ତୁମକୁ ଦେଖିଛି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 426,
+    "target": "en",
+    "reading_evidence": "Read all four full source/target stanzas and literal separator: recalled after long absence as aid to drowning person, living with absent beloved; wind-borne bodily presence/fragrance absent for ages/winds changed, repeated each-moment complaint; anger at hard-hearted beloved and God, love worshipped then own God nameless; nights turning/lonely bed/talk of beloved/punishment/seeing beloved in tears. Checked Hindi hum as intimate singular register and recurring complaint unchanged.",
+    "reason": "Carry habitual arrival and whole-body saturation naturally; por-por is not the English anatomical pore.",
+    "open_questions": [
+      "The source making our God gumnam remains figuratively unresolved (nameless/unknown/effaced); preserve the existing literal reading pending poet clarification. Raw separator retained."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source, credits, stanza and line counts, imagery, repetitions and ambiguity; same-assistant self-review with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "fa7ee6e8726abc179072b43946f9b98df9858e3366214e2931d5f21c0bc9d23c",
+    "before_sha256": "082352fc9d097667f7a299502ae30c2006a6bbdd04f447c89bc47bace2dc1b49",
+    "after_sha256": "387c9db7c1b7adfaa3a8fe18c03fafb1d2b36a3b54e9aa5aa54f69d47c29e33b",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "I Am Hurt",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "When you remembered me after so long,",
+          "it felt as though you had saved one drowning.",
+          "Think sometimes how I passed those moments without you;",
+          "even without you, I lived with you.",
+          "¬¬¬",
+          "You came with the wind's gust and sank into every pore.",
+          "Ages have passed since I felt your fragrance.",
+          "With time you changed even the direction of the winds;",
+          "what do you know of how I passed each moment without you?"
+        ],
+        [
+          "I am hurt by you, hard-hearted one, and by God too.",
+          "I loved intensely; I regarded love as God.",
+          "Then you made my own God nameless to me.",
+          "What do you know of how I passed each moment without you?"
+        ],
+        [
+          "Every night of mine passes in turning from side to side;",
+          "on the bed there is loneliness, and talk of you.",
+          "Who knows what punishment you have given me in love,",
+          "for even in flowing tears I have seen you."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "I Am Hurt",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "When you remembered me after so long,",
+          "it felt as though you had saved one drowning.",
+          "Think sometimes how I passed those moments without you;",
+          "even without you, I lived with you.",
+          "¬¬¬",
+          "You would come with a gust of wind and sink into every part of me.",
+          "Ages have passed since I felt your fragrance.",
+          "With time you changed even the direction of the winds;",
+          "what do you know of how I passed each moment without you?"
+        ],
+        [
+          "I am hurt by you, hard-hearted one, and by God too.",
+          "I loved intensely; I regarded love as God.",
+          "Then you made my own God nameless to me.",
+          "What do you know of how I passed each moment without you?"
+        ],
+        [
+          "Every night of mine passes in turning from side to side;",
+          "on the bed there is loneliness, and talk of you.",
+          "Who knows what punishment you have given me in love,",
+          "for even in flowing tears I have seen you."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 427,
+    "target": "or",
+    "reading_evidence": "Read complete twenty-nine-line source and targets: wished-for peaceful nest/laughter/relationships, lonely nests and inward private lives, single house with thousands of walls, I cloak and heat/itch/love of patched cloak, self as God/fear of God, outer candour/fearlessness against inner fear/weariness, remedies and proud life formulas, ego prisons pretending free thought, cramped books of thought and starving love/sympathy in arrogance cave. Checked sustained clothing/enclosure imagery and satire.",
+    "reason": "Restore outspoken candour for bebaak, keeping the distinct fearless second adjective instead of two fearlessness synonyms.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source, credits, stanza and line counts, imagery, repetitions and ambiguity; same-assistant self-review with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "ceae262c03b9f05b65123e7650978c56305cb172e3700944714eccebd4f50ce4",
+    "before_sha256": "40723319695c8079232baf3ef43ddfd12cf9f33111e48c20b48d096708a6031d",
+    "after_sha256": "eb6dc6abf6ce80975bfb52c95d996d019f01bf827ab8c6160ad544532b90f7d2",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପୁଣି ଚାଲ ସେଇ ନୀଡ଼କୁ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ପୁଣି ଚାଲ ସେଇ ନୀଡ଼କୁ,",
+          "ଯାହା ଶାନ୍ତିର ଚାଦର ଓଢ଼ିଥିବ,",
+          "ହସଖୁସିର ନରମ ବିଛଣା,",
+          "ଆଉ ସମ୍ପର୍କର ସାନ୍ତ୍ୱନା ସାଇତିଥିବ।",
+          "ହେଲେ ନୀଡ଼ମାନେ ଏବେ ଏକାକୀ,",
+          "ସମ୍ପର୍କ ଏବେ ଅର୍ଥହୀନ।",
+          "ସମସ୍ତଙ୍କ ନିଜ ଜୀବନ ଅଛି,",
+          "ଯାହା ନିଜକୁ ନିଜ ଭିତରେ ସାଉଁଟେ।",
+          "ଗୋଟିଏ ଘର ଭିତରେ",
+          "ହଜାର ହଜାର ପାଚେରି।",
+          "ପ୍ରତି ମଣିଷ ‘ମୁଁ’ର ଚୋଗା ପିନ୍ଧିଛି,",
+          "କୁଢ଼େ, ଗରମରେ ଜଳେ,",
+          "ଚିଡ଼ଚିଡ଼ାପଣର କୁଣ୍ଡିଆରେ ବିବ୍ରତ,",
+          "ତଥାପି ସେ ତାଳିପକା ଚୋଗାକୁ ଅସୀମ ଭଲପାଏ।",
+          "ନିଜକୁ ଈଶ୍ୱର ଭାବେ,",
+          "ହେଲେ ମନେମନେ ଈଶ୍ୱରଙ୍କୁ ଡରେ।",
+          "ବାହାରୁ ନିର୍ଭୀକ, ନିର୍ଭୟ,",
+          "ହେଲେ ଭିତରୁ ଭୀତ, କ୍ଳାନ୍ତ।",
+          "ସମସ୍ତଙ୍କ ନିଜ ନିଜ ଦେଶୀ ବିଦେଶୀ ଚିକିତ୍ସା ଅଛି,",
+          "ତଥାପି ଅସହାୟ।",
+          "ସମସ୍ତଙ୍କ ବଞ୍ଚିବାର ଦାମ୍ଭିକ ସୂତ୍ର ଅଛି।",
+          "ପ୍ରତ୍ୟେକ ମଣିଷ ଭାରି ବନ୍ଦୀ,",
+          "ନିଜଗଢ଼ା ଅହଂର ବାଡ଼ ଭିତରେ,",
+          "ହେଲେ ନିଜକୁ ଭାରି ମୁକ୍ତଚିନ୍ତକ ଦେଖାଏ।",
+          "ଏଇ ସଙ୍କୁଚିତ, କୁଞ୍ଚିତ ଭାବନାର ପୋଥିରେ",
+          "ମୁଣ୍ଡ ଖଟାଉଥିବା ମଣିଷଜାତି",
+          "ପ୍ରେମ ଓ ସହାନୁଭୂତି ପାଇଁ ଭାରି ଭୋକିଲା,",
+          "ତଥାପି ଦମ୍ଭର ଗୁମ୍ଫାରେ ବସି,",
+          "ଭାରି ଏକାକୀ, ରୋଗୀ ଓ ଦୁଃଖିତ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପୁଣି ଚାଲ ସେଇ ନୀଡ଼କୁ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ପୁଣି ଚାଲ ସେଇ ନୀଡ଼କୁ,",
+          "ଯାହା ଶାନ୍ତିର ଚାଦର ଓଢ଼ିଥିବ,",
+          "ହସଖୁସିର ନରମ ବିଛଣା,",
+          "ଆଉ ସମ୍ପର୍କର ସାନ୍ତ୍ୱନା ସାଇତିଥିବ।",
+          "ହେଲେ ନୀଡ଼ମାନେ ଏବେ ଏକାକୀ,",
+          "ସମ୍ପର୍କ ଏବେ ଅର୍ଥହୀନ।",
+          "ସମସ୍ତଙ୍କ ନିଜ ଜୀବନ ଅଛି,",
+          "ଯାହା ନିଜକୁ ନିଜ ଭିତରେ ସାଉଁଟେ।",
+          "ଗୋଟିଏ ଘର ଭିତରେ",
+          "ହଜାର ହଜାର ପାଚେରି।",
+          "ପ୍ରତି ମଣିଷ ‘ମୁଁ’ର ଚୋଗା ପିନ୍ଧିଛି,",
+          "କୁଢ଼େ, ଗରମରେ ଜଳେ,",
+          "ଚିଡ଼ଚିଡ଼ାପଣର କୁଣ୍ଡିଆରେ ବିବ୍ରତ,",
+          "ତଥାପି ସେ ତାଳିପକା ଚୋଗାକୁ ଅସୀମ ଭଲପାଏ।",
+          "ନିଜକୁ ଈଶ୍ୱର ଭାବେ,",
+          "ହେଲେ ମନେମନେ ଈଶ୍ୱରଙ୍କୁ ଡରେ।",
+          "ବାହାରୁ ସ୍ପଷ୍ଟବାଦୀ, ନିର୍ଭୟ,",
+          "ହେଲେ ଭିତରୁ ଭୀତ, କ୍ଳାନ୍ତ।",
+          "ସମସ୍ତଙ୍କ ନିଜ ନିଜ ଦେଶୀ ବିଦେଶୀ ଚିକିତ୍ସା ଅଛି,",
+          "ତଥାପି ଅସହାୟ।",
+          "ସମସ୍ତଙ୍କ ବଞ୍ଚିବାର ଦାମ୍ଭିକ ସୂତ୍ର ଅଛି।",
+          "ପ୍ରତ୍ୟେକ ମଣିଷ ଭାରି ବନ୍ଦୀ,",
+          "ନିଜଗଢ଼ା ଅହଂର ବାଡ଼ ଭିତରେ,",
+          "ହେଲେ ନିଜକୁ ଭାରି ମୁକ୍ତଚିନ୍ତକ ଦେଖାଏ।",
+          "ଏଇ ସଙ୍କୁଚିତ, କୁଞ୍ଚିତ ଭାବନାର ପୋଥିରେ",
+          "ମୁଣ୍ଡ ଖଟାଉଥିବା ମଣିଷଜାତି",
+          "ପ୍ରେମ ଓ ସହାନୁଭୂତି ପାଇଁ ଭାରି ଭୋକିଲା,",
+          "ତଥାପି ଦମ୍ଭର ଗୁମ୍ଫାରେ ବସି,",
+          "ଭାରି ଏକାକୀ, ରୋଗୀ ଓ ଦୁଃଖିତ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 427,
+    "target": "en",
+    "reading_evidence": "Read complete twenty-nine-line source and targets: wished-for peaceful nest/laughter/relationships, lonely nests and inward private lives, single house with thousands of walls, I cloak and heat/itch/love of patched cloak, self as God/fear of God, outer candour/fearlessness against inner fear/weariness, remedies and proud life formulas, ego prisons pretending free thought, cramped books of thought and starving love/sympathy in arrogance cave. Checked sustained clothing/enclosure imagery and satire.",
+    "reason": "Render dimaag khapaata as strenuous thought in natural English while keeping the books-of-thought setting and satirical effort.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source, credits, stanza and line counts, imagery, repetitions and ambiguity; same-assistant self-review with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "ceae262c03b9f05b65123e7650978c56305cb172e3700944714eccebd4f50ce4",
+    "before_sha256": "085bb81fdd013f65d349367f6f6d402c6d47418a616ca0be6b01a44cbc282983",
+    "after_sha256": "a2fb5192f1c906febbb2c5c0d3aa2ea21766315dd421d3354846deea33f587fd",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Let Us Return to That Nest",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Let us return to that nest",
+          "which wears a shawl of peace,",
+          "a soft bed of laughter and joy,",
+          "and gathers the comfort of relationships.",
+          "But nests are lonely now;",
+          "relationships are meaningless now.",
+          "Everyone has a life of their own,",
+          "wrapped within themselves.",
+          "Within a single house",
+          "there are thousands of enclosing walls.",
+          "Every person wears a cloak of I,",
+          "frets, burns in its heat,",
+          "is troubled by the itch of irritability,",
+          "yet loves that patched cloak beyond measure.",
+          "Thinks the self is God,",
+          "yet inwardly fears God.",
+          "Outwardly outspoken, fearless,",
+          "but inwardly frightened, weary.",
+          "Everyone has their own local and foreign remedies,",
+          "yet remains helpless.",
+          "Everyone has proud prescriptions for living.",
+          "Every person is deeply imprisoned",
+          "within self-made enclosures of ego,",
+          "yet poses as so free-thinking.",
+          "In these cramped, crumpled books of thought,",
+          "humankind spends its mind,",
+          "hungry indeed for love and sympathy,",
+          "yet sitting in the cave of arrogance,",
+          "so lonely, sick and sorrowful."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Let Us Return to That Nest",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Let us return to that nest",
+          "which wears a shawl of peace,",
+          "a soft bed of laughter and joy,",
+          "and gathers the comfort of relationships.",
+          "But nests are lonely now;",
+          "relationships are meaningless now.",
+          "Everyone has a life of their own,",
+          "wrapped within themselves.",
+          "Within a single house",
+          "there are thousands of enclosing walls.",
+          "Every person wears a cloak of I,",
+          "frets, burns in its heat,",
+          "is troubled by the itch of irritability,",
+          "yet loves that patched cloak beyond measure.",
+          "Thinks the self is God,",
+          "yet inwardly fears God.",
+          "Outwardly outspoken, fearless,",
+          "but inwardly frightened, weary.",
+          "Everyone has their own local and foreign remedies,",
+          "yet remains helpless.",
+          "Everyone has proud prescriptions for living.",
+          "Every person is deeply imprisoned",
+          "within self-made enclosures of ego,",
+          "yet poses as so free-thinking.",
+          "In these cramped, crumpled books of thought,",
+          "humankind racks its brains,",
+          "hungry indeed for love and sympathy,",
+          "yet sitting in the cave of arrogance,",
+          "so lonely, sick and sorrowful."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 428,
+    "target": "or",
+    "reading_evidence": "Read six complete source/target quatrains: noon long light/no shadow/relentless sun, asphalt heat ripples and peepal whispering leaves/no dark twin, mocking hollow mirrors/seared yellow grass, circular wandering and consumed presence/past ghosts, shadowless identity/turning earth and lost self, conditional evening return/wholeness. Checked shade versus shadow, peepal/aswattha and tentative maybe ending.",
+    "reason": "Give whispering leaves a grammatical participial action and yellow-seared grass a complete modifier, preserving the personification and heat.",
+    "open_questions": [
+      "Noon long-light source image retained without optics correction; Hindi feminine speaker remains provisional, as previously recorded."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source, credits, stanza and line counts, imagery, repetitions and ambiguity; same-assistant self-review with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "e99223ce80b6f7a2e819e716496ccd87f3c56cf92bf3450bc0c6c496d69ebe38",
+    "before_sha256": "43ae32c8781b4b488156a35b0c3aaa79367f2f22a47ee739d8affd3baa4b62ec",
+    "after_sha256": "82aa83f563c85d6c51b5af204c01867cbb079ee028e7ef9106507bfbe1ba76ca",
+    "prior_uncertainties": [
+      {
+        "note": "Six quatrains retained. Noon long-light phrasing kept as poetic source, not corrected for physical optics. Peepal identified as aswattha in Odia. Hindi feminine grammatical speaker is provisional.",
+        "record": "kb/production/translations/batch-086/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଯେବେ ମୋ ଛାଇ ହଜାଇଲି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଦୁଇପହରେ, ଯେଉଁଠି ଆଲୋକ ଲମ୍ବିଯାଏ,",
+          "ମୁଁ ମୋ ଛାଇ ଖୋଜେ, ଯାହା ଝଲସାରେ ଧରାଦିଏନାହିଁ।",
+          "ନିର୍ଦ୍ଦୟ ସୂର୍ଯ୍ୟ ମୋତେ ଛାଇ ଦିଏନାହିଁ,",
+          "ମାଟିର ଝଲସା ସହ ମୋତେ ଏକା ଛାଡ଼େ।"
+        ],
+        [
+          "ପିଚୁ ରାସ୍ତାରେ ଉତ୍ତାପ ଲହରାଏ,",
+          "ଲହରି ବିକୃତ କରେ ସେ ସ୍ଥାନ, ଯେଉଁଠି ମୁଁ ରହିବା କଥା।",
+          "ଅଶ୍ୱତ୍ଥର ଫୁସ୍‌ଫୁସ୍ ପତ୍ର ତଳେ,",
+          "ସେଠି ବି କୌଣସି ଅନ୍ଧାର ଯାଆଁଳା ପଛେ ଆସେନାହିଁ।"
+        ],
+        [
+          "ଦର୍ପଣରେ ମୁଁ ଚିହ୍ନଟିଏ ଖୋଜେ,",
+          "ହେଲେ ସେମାନେ ଫମ୍ପା ପ୍ରତିବିମ୍ବରେ ମୋତେ ଥଟ୍ଟା କରନ୍ତି।",
+          "ଝାଉଁଳି ହଳଦିଆ ଘାସ ଆବରଣ ଦିଏନାହିଁ,",
+          "ପରିଚିତ ଛାୟାର ଇଙ୍ଗିତ ବି ନୁହେଁ।"
+        ],
+        [
+          "ମୁଁ ବୁଲେ, ଗୋଲାକାରେ ପାଦଚିହ୍ନ ଆଙ୍କି,",
+          "ଯେପରି ସୂର୍ଯ୍ୟ ନିଜେ ମୋ ଉପସ୍ଥିତିକୁ ଖାଉଛି।",
+          "ବିତିଥିବା କାଲିର ପ୍ରେତ ସ୍ମୃତିରେ ରହନ୍ତି,",
+          "ଏକଦା ଯାହା ଥିଲା, ତା'ର କ୍ଷଣିକ ଝଲକ।"
+        ],
+        [
+          "ଯଦି ମୁଁ ଛାଇହୀନ, ମୁଁ କିଏ?",
+          "ପୃଥିବୀ ଘୂରେ, ଆଲୋକକୁ ସାଥିରେ ଟାଣି,",
+          "ଯେବେ ମୁଁ ରହିଯାଏ, ଖରାର ପଥିକ,",
+          "ମୋ ଅସ୍ତିତ୍ୱର ହଜିଥିବା ଅଂଶ ଖୋଜି।"
+        ],
+        [
+          "ସନ୍ଧ୍ୟା ଆସିବ, କୋମଳ ଓ କ୍ଷମାଶୀଳ,",
+          "ଆଉ ହୁଏତ ସେତେବେଳେ, ଗୋଧୂଳିର ଆଲିଙ୍ଗନରେ,",
+          "ମୁଁ ପୁଣି ମୋ ଛାଇ ପାଇବି,",
+          "ଆଉ ନିଜକୁ ପୁଣି ସମ୍ପୂର୍ଣ୍ଣ ଜାଣିବି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଯେବେ ମୋ ଛାଇ ହଜାଇଲି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଦୁଇପହରେ, ଯେଉଁଠି ଆଲୋକ ଲମ୍ବିଯାଏ,",
+          "ମୁଁ ମୋ ଛାଇ ଖୋଜେ, ଯାହା ଝଲସାରେ ଧରାଦିଏନାହିଁ।",
+          "ନିର୍ଦ୍ଦୟ ସୂର୍ଯ୍ୟ ମୋତେ ଛାଇ ଦିଏନାହିଁ,",
+          "ମାଟିର ଝଲସା ସହ ମୋତେ ଏକା ଛାଡ଼େ।"
+        ],
+        [
+          "ପିଚୁ ରାସ୍ତାରେ ଉତ୍ତାପ ଲହରାଏ,",
+          "ଲହରି ବିକୃତ କରେ ସେ ସ୍ଥାନ, ଯେଉଁଠି ମୁଁ ରହିବା କଥା।",
+          "ଅଶ୍ୱତ୍ଥର ଫୁସୁଫୁସୁ କରୁଥିବା ପତ୍ର ତଳେ,",
+          "ସେଠି ବି କୌଣସି ଅନ୍ଧାର ଯାଆଁଳା ପଛେ ଆସେନାହିଁ।"
+        ],
+        [
+          "ଦର୍ପଣରେ ମୁଁ ଚିହ୍ନଟିଏ ଖୋଜେ,",
+          "ହେଲେ ସେମାନେ ଫମ୍ପା ପ୍ରତିବିମ୍ବରେ ମୋତେ ଥଟ୍ଟା କରନ୍ତି।",
+          "ଝାଉଁଳି ହଳଦିଆ ପଡ଼ିଥିବା ଘାସ ଆବରଣ ଦିଏନାହିଁ,",
+          "ପରିଚିତ ଛାୟାର ଇଙ୍ଗିତ ବି ନୁହେଁ।"
+        ],
+        [
+          "ମୁଁ ବୁଲେ, ଗୋଲାକାରେ ପାଦଚିହ୍ନ ଆଙ୍କି,",
+          "ଯେପରି ସୂର୍ଯ୍ୟ ନିଜେ ମୋ ଉପସ୍ଥିତିକୁ ଖାଉଛି।",
+          "ବିତିଥିବା କାଲିର ପ୍ରେତ ସ୍ମୃତିରେ ରହନ୍ତି,",
+          "ଏକଦା ଯାହା ଥିଲା, ତା'ର କ୍ଷଣିକ ଝଲକ।"
+        ],
+        [
+          "ଯଦି ମୁଁ ଛାଇହୀନ, ମୁଁ କିଏ?",
+          "ପୃଥିବୀ ଘୂରେ, ଆଲୋକକୁ ସାଥିରେ ଟାଣି,",
+          "ଯେବେ ମୁଁ ରହିଯାଏ, ଖରାର ପଥିକ,",
+          "ମୋ ଅସ୍ତିତ୍ୱର ହଜିଥିବା ଅଂଶ ଖୋଜି।"
+        ],
+        [
+          "ସନ୍ଧ୍ୟା ଆସିବ, କୋମଳ ଓ କ୍ଷମାଶୀଳ,",
+          "ଆଉ ହୁଏତ ସେତେବେଳେ, ଗୋଧୂଳିର ଆଲିଙ୍ଗନରେ,",
+          "ମୁଁ ପୁଣି ମୋ ଛାଇ ପାଇବି,",
+          "ଆଉ ନିଜକୁ ପୁଣି ସମ୍ପୂର୍ଣ୍ଣ ଜାଣିବି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

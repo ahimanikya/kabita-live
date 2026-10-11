@@ -1,0 +1,794 @@
+[
+  {
+    "poem_id": 263,
+    "target": "hi",
+    "reading_evidence": "Read complete44-line source and both targets in seven blocks8/4/4/6/5/5/12: absent beloved/night sky/morning earth, sleepless eyes and zari mannequin dreams, handwoven laughter bird/branch arms, absence as presence/day/night, distance and unjumped shadow; train wheels/power canal/feeling/cage/tearful eyes; wounded dove/assailant eyes/feet as khadau/unearthly forest and invisible branch; different kite/sky; writing versus child drawing, birds gathered into poems, shared earth/life, brimming pitcher/dry pond/leaves/final white-paper search. Preserved long prose-like lines and all source repetitions.",
+    "open_questions": [
+      "Final ଆୟୁଷ,ପ୍ରେମ may coordinate lifetime and love or address love; current ending remains provisional.",
+      "Accident and drowning images are not assigned literal biography, intention or self-harm motive.",
+      "Power canal retained as supplied image/name; no added geographical identification.",
+      "Masculine narrator and addressee agreement remains provisional; poet identity does not resolve it."
+    ],
+    "reason": "Place the tearful-eyes genitive with its innocence before the predicate, making the image immediately readable while preserving all six lines of this stanza and its cage turn.",
+    "tradeoff": "Preserve full imagery, source shifts and emotional distance; only supported target repairs. Same-assistant self-review, independent fluent/author review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 44,
+      "before_lines": [
+        8,
+        12,
+        16,
+        22,
+        27,
+        32
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "37a8c7481069ed31a84623fb322ca27bd6cf38c379c8d1382691186c54c7f931",
+    "before_sha256": "28a0c3ddcaa4fcd2dba50ee8541f1baa527bc32ba674e5ff51144324eea91c38",
+    "after_sha256": "9d3bd8f9db83ff04d48377d17a0e31f5a74a56192b52e1ec631db6c96a11f762",
+    "prior_uncertainties": [
+      {
+        "note": "Seven blocks retained including very long prose-like lines. Mannequin/zari, power canal, khadau, kite and drawing-book imagery preserved. Death/accident images not assigned literal biography or self-harm motive. Hindi genders provisional.",
+        "record": "kb/production/translations/batch-125/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "जीने की कला ही तो जीवन है",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "तुम्हारे बिना रात का आकाश होता है या नहीं, नहीं जानता",
+          "तुम्हारे बिना सुबह की पृथ्वी होती है या नहीं, नहीं जानता।",
+          "आँखों में नींद बिलकुल नहीं होती, सपने ज़री लगे रेशम में बंद, पास के मॉल में",
+          "पुतले की तरह खड़े रहते हैं।",
+          "तुम्हारी हँसी हाथबुने रूमाल जैसी गिरती रहती है और मैं उसे समेटने में व्यस्त रहता हूँ, पर वह पकड़ में आए बिना पक्षी बन उड़ जाती है,",
+          "कितने पंख हैं उस हँसी के, मैं उसकी ओर अपनी डालों जैसी दोनों बाँहें झुका देता हूँ,",
+          "वह हँसी-पक्षी मेरी डाल पर बैठता है या नहीं,",
+          "मैं नहीं जानता।"
+        ],
+        [
+          "न होते हुए भी तुम मेरे भीतर होते हो, जैसे जीवन होता है मृत्यु के साथ।",
+          "तुम्हारी अनुपस्थिति ही तुम्हारी उपस्थिति है,",
+          "हर दिन वचन देकर मेरे पास लौटती है",
+          "दिन बनकर, रात बनकर।"
+        ],
+        [
+          "एक निश्चित दूरी पर तुम खड़े होते हो",
+          "और मैं तुम तक पहुँच नहीं पाता,",
+          "पहुँचते-पहुँचते उम्र बीत जाएगी, मैं जानता हूँ।",
+          "अब तक अपनी छाया लाँघ नहीं पाया, तुम्हें कैसे लाँघ जाऊँ।"
+        ],
+        [
+          "रेल के पहियों तले दबकर उम्र समाप्त हो जाती है",
+          "नहाने गया आवेग पावर चैनल से नहीं लौटता",
+          "उड़ते-उड़ते हँसी के पंख राह भूल जाते हैं,",
+          "पिंजरे के प्रेम में",
+          "उजागर हो जाती है सारी मासूमियत",
+          "दो सजल आँखों की।"
+        ],
+        [
+          "कबूतर का हृदय हमेशा घायल क्यों है,",
+          "तुम्हारी आँखें हमेशा आततायी की आँखें क्यों हैं!",
+          "अपने दोनों पाँव खड़ाऊँ की तरह सजाकर रख देता हूँ और किसी अलौकिक वन में जाकर खो जाता हूँ,",
+          "जाल का भय नहीं होता, शिकारी का भय नहीं होता",
+          "क्योंकि तुम आसपास किसी अदृश्य डाल पर होते हो, हँसी के पंखों पर उड़ते रहते हो"
+        ],
+        [
+          "मैं अब पतंग नहीं उड़ाता",
+          "तुम्हारा आकाश मेरी पतंग के लिए काफ़ी नहीं।",
+          "अब मैं किसी दूसरे आकाश की खोज में हूँ",
+          "तुम किसी दूसरी पतंग की खोज में",
+          "फिर भी जीवन जारी है।"
+        ],
+        [
+          "जीवन तो जीने की एक कला है!",
+          "मैं कविता लिख रहा हूँ, तुम बच्चे के साथ चित्र-पुस्तिका में नए-नए चित्र बनाते जाते हो, रंग भरते, मिटाते, नए चित्र, नए रंग, नई हँसी",
+          "बनाए हुए सारे पक्षी अब तुम्हारे आँगन में हैं,",
+          "पेड़ की डालों पर चहचहा रहे हैं,",
+          "मैं उन्हें कविता में समेट लाता हूँ।",
+          "एक पृथ्वी पर रहते, एक आकाशी छत के नीचे होकर",
+          "हम एक ही जीवन अलग-अलग ढंग से जीते हैं।",
+          "भरा कलश छलकता जा रहा है",
+          "सूखा पोखर अब पानी से भरा, नदी की ओर उन्मुख",
+          "तुम्हारी उँगलियों के स्पर्श से नई-नई पत्तियाँ निकलती हैं।",
+          "हँसी होंठ खोजती है, कविता शब्द खोजती है",
+          "एक सफ़ेद काग़ज़ की तलाश में उम्र बीत जाती है, प्रेम।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "जीने की कला ही तो जीवन है",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "तुम्हारे बिना रात का आकाश होता है या नहीं, नहीं जानता",
+          "तुम्हारे बिना सुबह की पृथ्वी होती है या नहीं, नहीं जानता।",
+          "आँखों में नींद बिलकुल नहीं होती, सपने ज़री लगे रेशम में बंद, पास के मॉल में",
+          "पुतले की तरह खड़े रहते हैं।",
+          "तुम्हारी हँसी हाथबुने रूमाल जैसी गिरती रहती है और मैं उसे समेटने में व्यस्त रहता हूँ, पर वह पकड़ में आए बिना पक्षी बन उड़ जाती है,",
+          "कितने पंख हैं उस हँसी के, मैं उसकी ओर अपनी डालों जैसी दोनों बाँहें झुका देता हूँ,",
+          "वह हँसी-पक्षी मेरी डाल पर बैठता है या नहीं,",
+          "मैं नहीं जानता।"
+        ],
+        [
+          "न होते हुए भी तुम मेरे भीतर होते हो, जैसे जीवन होता है मृत्यु के साथ।",
+          "तुम्हारी अनुपस्थिति ही तुम्हारी उपस्थिति है,",
+          "हर दिन वचन देकर मेरे पास लौटती है",
+          "दिन बनकर, रात बनकर।"
+        ],
+        [
+          "एक निश्चित दूरी पर तुम खड़े होते हो",
+          "और मैं तुम तक पहुँच नहीं पाता,",
+          "पहुँचते-पहुँचते उम्र बीत जाएगी, मैं जानता हूँ।",
+          "अब तक अपनी छाया लाँघ नहीं पाया, तुम्हें कैसे लाँघ जाऊँ।"
+        ],
+        [
+          "रेल के पहियों तले दबकर उम्र समाप्त हो जाती है",
+          "नहाने गया आवेग पावर चैनल से नहीं लौटता",
+          "उड़ते-उड़ते हँसी के पंख राह भूल जाते हैं,",
+          "पिंजरे के प्रेम में",
+          "दो सजल आँखों की सारी मासूमियत",
+          "उजागर हो जाती है।"
+        ],
+        [
+          "कबूतर का हृदय हमेशा घायल क्यों है,",
+          "तुम्हारी आँखें हमेशा आततायी की आँखें क्यों हैं!",
+          "अपने दोनों पाँव खड़ाऊँ की तरह सजाकर रख देता हूँ और किसी अलौकिक वन में जाकर खो जाता हूँ,",
+          "जाल का भय नहीं होता, शिकारी का भय नहीं होता",
+          "क्योंकि तुम आसपास किसी अदृश्य डाल पर होते हो, हँसी के पंखों पर उड़ते रहते हो"
+        ],
+        [
+          "मैं अब पतंग नहीं उड़ाता",
+          "तुम्हारा आकाश मेरी पतंग के लिए काफ़ी नहीं।",
+          "अब मैं किसी दूसरे आकाश की खोज में हूँ",
+          "तुम किसी दूसरी पतंग की खोज में",
+          "फिर भी जीवन जारी है।"
+        ],
+        [
+          "जीवन तो जीने की एक कला है!",
+          "मैं कविता लिख रहा हूँ, तुम बच्चे के साथ चित्र-पुस्तिका में नए-नए चित्र बनाते जाते हो, रंग भरते, मिटाते, नए चित्र, नए रंग, नई हँसी",
+          "बनाए हुए सारे पक्षी अब तुम्हारे आँगन में हैं,",
+          "पेड़ की डालों पर चहचहा रहे हैं,",
+          "मैं उन्हें कविता में समेट लाता हूँ।",
+          "एक पृथ्वी पर रहते, एक आकाशी छत के नीचे होकर",
+          "हम एक ही जीवन अलग-अलग ढंग से जीते हैं।",
+          "भरा कलश छलकता जा रहा है",
+          "सूखा पोखर अब पानी से भरा, नदी की ओर उन्मुख",
+          "तुम्हारी उँगलियों के स्पर्श से नई-नई पत्तियाँ निकलती हैं।",
+          "हँसी होंठ खोजती है, कविता शब्द खोजती है",
+          "एक सफ़ेद काग़ज़ की तलाश में उम्र बीत जाती है, प्रेम।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 44,
+        "before_lines": [
+          8,
+          12,
+          16,
+          22,
+          27,
+          32
+        ],
+        "inline_breaks": [],
+        "source_sha256": "37a8c7481069ed31a84623fb322ca27bd6cf38c379c8d1382691186c54c7f931",
+        "stanzas_sha256": "132d69c5638a3e3439b4cd603395ee7d33e952b5b403ccf17f887c3c89597824"
+      }
+    }
+  },
+  {
+    "poem_id": 263,
+    "target": "en",
+    "reading_evidence": "Read complete44-line source and both targets in seven blocks8/4/4/6/5/5/12: absent beloved/night sky/morning earth, sleepless eyes and zari mannequin dreams, handwoven laughter bird/branch arms, absence as presence/day/night, distance and unjumped shadow; train wheels/power canal/feeling/cage/tearful eyes; wounded dove/assailant eyes/feet as khadau/unearthly forest and invisible branch; different kite/sky; writing versus child drawing, birds gathered into poems, shared earth/life, brimming pitcher/dry pond/leaves/final white-paper search. Preserved long prose-like lines and all source repetitions.",
+    "open_questions": [
+      "Final ଆୟୁଷ,ପ୍ରେମ may coordinate lifetime and love or address love; current ending remains provisional.",
+      "Accident and drowning images are not assigned literal biography, intention or self-harm motive.",
+      "Power canal retained as supplied image/name; no added geographical identification."
+    ],
+    "reason": "Repair a dangling of-phrase in English; keep the cage image, eyes and complete44-line poem with checked target stanza map.",
+    "tradeoff": "Preserve full imagery, source shifts and emotional distance; only supported target repairs. Same-assistant self-review, independent fluent/author review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 44,
+      "before_lines": [
+        8,
+        12,
+        16,
+        22,
+        27,
+        32
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "37a8c7481069ed31a84623fb322ca27bd6cf38c379c8d1382691186c54c7f931",
+    "before_sha256": "c2b223b626548ce971c8b792b8d576f0b50811ed5550aa2cc441b1ebbda8f87d",
+    "after_sha256": "d3c396743a3966ae8ce59e0de3773f4a7f4c00e3a1472fa0b1a7218d3489546b",
+    "prior_uncertainties": [
+      {
+        "note": "Seven blocks retained including very long prose-like lines. Mannequin/zari, power canal, khadau, kite and drawing-book imagery preserved. Death/accident images not assigned literal biography or self-harm motive. Hindi genders provisional.",
+        "record": "kb/production/translations/batch-125/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "The Art of Living Is Life",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Without you, whether the night has a sky or not, I do not know.",
+          "Without you, whether the morning has an earth or not, I do not know.",
+          "There is no sleep at all in the eyes; dreams are shut in zari-trimmed silk, in the nearby mall,",
+          "standing like a mannequin.",
+          "Your laughter keeps falling like a handwoven handkerchief and I am busy gathering it, but, eluding my grasp, it becomes a bird and flies away.",
+          "So many wings that laughter has; I bend my two branch-like arms towards it.",
+          "Whether that laughter-bird sits upon my branch,",
+          "I do not know."
+        ],
+        [
+          "Even when absent you are within me, as life is with death.",
+          "Your absence itself is your presence,",
+          "returning to me with a promise every day,",
+          "as day, as night."
+        ],
+        [
+          "You stand at a certain distance,",
+          "and I cannot reach you.",
+          "By the time I reach you, life will be over, I know.",
+          "I have not yet leapt over my own shadow; how could I leap beyond you?"
+        ],
+        [
+          "A lifetime ends, crushed beneath a train's wheels.",
+          "Feeling goes to bathe and does not return from the power canal.",
+          "In flight, laughter's wings lose their way;",
+          "in love with the cage,",
+          "all the innocence is laid bare",
+          "of two tearful eyes."
+        ],
+        [
+          "Why is the dove's heart always wounded?",
+          "Why are your eyes always an assailant's eyes!",
+          "I set my two feet aside like wooden sandals and enter some unearthly forest, losing myself.",
+          "There is no fear of nets, no fear of the hunter,",
+          "for you are somewhere nearby upon an invisible branch, flying on laughter's wings."
+        ],
+        [
+          "I no longer fly kites.",
+          "Your sky is not enough for my kite.",
+          "I am now seeking another sky,",
+          "you are seeking some other kite,",
+          "yet life continues."
+        ],
+        [
+          "Life is an art of living!",
+          "I am writing poems; with the child you keep drawing new pictures in the drawing book, colouring, erasing, new pictures, new colours, new laughter.",
+          "All the birds you drew are now in your courtyard,",
+          "chirping on the branches of trees;",
+          "I gather them into poems.",
+          "Dwelling on one earth, beneath one roof of sky,",
+          "we live one life in different ways.",
+          "The brimming pitcher overflows.",
+          "The dry pond is now full of water, turning towards the river.",
+          "New leaves unfold at the touch of your fingers.",
+          "Laughter seeks lips, poetry seeks words;",
+          "in search of a sheet of white paper, a lifetime passes, love."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "The Art of Living Is Life",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Without you, whether the night has a sky or not, I do not know.",
+          "Without you, whether the morning has an earth or not, I do not know.",
+          "There is no sleep at all in the eyes; dreams are shut in zari-trimmed silk, in the nearby mall,",
+          "standing like a mannequin.",
+          "Your laughter keeps falling like a handwoven handkerchief and I am busy gathering it, but, eluding my grasp, it becomes a bird and flies away.",
+          "So many wings that laughter has; I bend my two branch-like arms towards it.",
+          "Whether that laughter-bird sits upon my branch,",
+          "I do not know."
+        ],
+        [
+          "Even when absent you are within me, as life is with death.",
+          "Your absence itself is your presence,",
+          "returning to me with a promise every day,",
+          "as day, as night."
+        ],
+        [
+          "You stand at a certain distance,",
+          "and I cannot reach you.",
+          "By the time I reach you, life will be over, I know.",
+          "I have not yet leapt over my own shadow; how could I leap beyond you?"
+        ],
+        [
+          "A lifetime ends, crushed beneath a train's wheels.",
+          "Feeling goes to bathe and does not return from the power canal.",
+          "In flight, laughter's wings lose their way;",
+          "in love with the cage,",
+          "all the innocence of two tearful eyes",
+          "is laid bare."
+        ],
+        [
+          "Why is the dove's heart always wounded?",
+          "Why are your eyes always an assailant's eyes!",
+          "I set my two feet aside like wooden sandals and enter some unearthly forest, losing myself.",
+          "There is no fear of nets, no fear of the hunter,",
+          "for you are somewhere nearby upon an invisible branch, flying on laughter's wings."
+        ],
+        [
+          "I no longer fly kites.",
+          "Your sky is not enough for my kite.",
+          "I am now seeking another sky,",
+          "you are seeking some other kite,",
+          "yet life continues."
+        ],
+        [
+          "Life is an art of living!",
+          "I am writing poems; with the child you keep drawing new pictures in the drawing book, colouring, erasing, new pictures, new colours, new laughter.",
+          "All the birds you drew are now in your courtyard,",
+          "chirping on the branches of trees;",
+          "I gather them into poems.",
+          "Dwelling on one earth, beneath one roof of sky,",
+          "we live one life in different ways.",
+          "The brimming pitcher overflows.",
+          "The dry pond is now full of water, turning towards the river.",
+          "New leaves unfold at the touch of your fingers.",
+          "Laughter seeks lips, poetry seeks words;",
+          "in search of a sheet of white paper, a lifetime passes, love."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 44,
+        "before_lines": [
+          8,
+          12,
+          16,
+          22,
+          27,
+          32
+        ],
+        "inline_breaks": [],
+        "source_sha256": "37a8c7481069ed31a84623fb322ca27bd6cf38c379c8d1382691186c54c7f931",
+        "stanzas_sha256": "16005793706fc5d28cd7708a05df248cd8cf1040fd919cf33d012fe8da8ea949"
+      }
+    }
+  },
+  {
+    "poem_id": 266,
+    "target": "en",
+    "reading_evidence": "Read full30-line Odia source and both complete targets: rebuilding house on relationship homestead, deeds/receipts of lost trust, reaching hand and nothing-nothing refrain, thousand fairs/krishnachura shade/flowering time, ghee-pitha sweetness/fragrance, sulking regret hidden in madhumalati laughter and year-round mango blossom dreams; questions about inner lamp/road, lantern soot and sorrow cleaned, inner presence urging butterflies then emerging to count stars. Retained the final self-discovery as a question.",
+    "open_questions": [
+      "The caller/inner presence remains unnamed; no divine, romantic or therapeutic identity assigned.",
+      "ଭିଟାମାଟି is the relationship homestead image; current ancestral-ground wording does not certify a paternal lineage."
+    ],
+    "reason": "Restore natural English subject/predicate order without changing who disappears or what conceals regret; preserve the flowering plant and sulking personification.",
+    "tradeoff": "Preserve full imagery, source shifts and emotional distance; only supported target repairs. Same-assistant self-review, independent fluent/author review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 30,
+      "before_lines": [],
+      "inline_breaks": []
+    },
+    "source_sha256": "5df1cbc8d4bf7aab6ec560ca466a5267f4b92ab38b022322005ec02ab13a6a65",
+    "before_sha256": "937e36e860b9b9e297fdaf4c0b6049ad46def97bf69e81a685c2d6c0b0c09bbe",
+    "after_sha256": "35b39d8a21e7b965c9e6513f3d5abbf7d7dc7d36e65d42c45324ed049817a2ea",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "With Myself",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Here, on that relationship's ancestral ground,",
+          "someone is once again, afresh,",
+          "building a house,",
+          "finding the deeds and receipts of lost trust,",
+          "insisting that this relationship is ours.",
+          "Here, someone reaches out a hand and calls,",
+          "saying: You say there is nothing in life, don't you?",
+          "Before life ends in this nothing, nothing,",
+          "come, take my hand and visit life's thousand fairs.",
+          "Stand beneath the krishnachura shade of feeling",
+          "and wait for a time full of flowers.",
+          "Truly, with that presence I taste life's sweetness,",
+          "sense life's fragrance like the scent of ghee-pitha.",
+          "My time grows fragrant;",
+          "in madhumalati's laughter disappears",
+          "the regret sitting in the courtyard, sulking,",
+          "and dreams turn into",
+          "the blossoms of a year-round mango tree.",
+          "Then who is this,",
+          "who lights a lamp in my dark mind",
+          "and brightens the road of dreams like this?",
+          "Who is this,",
+          "who, as if wiping soot from a lantern's glass,",
+          "cleans sorrow from my breast?",
+          "Can this be the one",
+          "who lives within me,",
+          "who sometimes urges me to run all day",
+          "behind a fluttering butterfly,",
+          "and who sometimes steps out from within me",
+          "to count the sky's stars all night?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "With Myself",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Here, on that relationship's ancestral ground,",
+          "someone is once again, afresh,",
+          "building a house,",
+          "finding the deeds and receipts of lost trust,",
+          "insisting that this relationship is ours.",
+          "Here, someone reaches out a hand and calls,",
+          "saying: You say there is nothing in life, don't you?",
+          "Before life ends in this nothing, nothing,",
+          "come, take my hand and visit life's thousand fairs.",
+          "Stand beneath the krishnachura shade of feeling",
+          "and wait for a time full of flowers.",
+          "Truly, with that presence I taste life's sweetness,",
+          "sense life's fragrance like the scent of ghee-pitha.",
+          "My time grows fragrant;",
+          "the regret sulking in the courtyard",
+          "disappears in madhumalati's laughter,",
+          "and dreams turn into",
+          "the blossoms of a year-round mango tree.",
+          "Then who is this,",
+          "who lights a lamp in my dark mind",
+          "and brightens the road of dreams like this?",
+          "Who is this,",
+          "who, as if wiping soot from a lantern's glass,",
+          "cleans sorrow from my breast?",
+          "Can this be the one",
+          "who lives within me,",
+          "who sometimes urges me to run all day",
+          "behind a fluttering butterfly,",
+          "and who sometimes steps out from within me",
+          "to count the sky's stars all night?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 30,
+        "before_lines": [],
+        "inline_breaks": [],
+        "source_sha256": "5df1cbc8d4bf7aab6ec560ca466a5267f4b92ab38b022322005ec02ab13a6a65",
+        "stanzas_sha256": "0699b883d1030e2541d719be483090132f31be7d01886f79d8ae7620c283b16c"
+      }
+    }
+  },
+  {
+    "poem_id": 261,
+    "target": "hi",
+    "reading_evidence": "Read complete30-line source and both targets in nine blocks3/3/4/3/3/4/1/5/4: demands/time current, son carrying burden in pocket/running home, lost toy-shop mind, former school facts versus prices/bills/EMI and forgotten medicine name, mothers former date scolding versus forgiving missed medicine, direct mother/simple-meaning line, childhood taken by earth and shadow search, family home applying smile/wiping ache and son standing again. Checked explicit son/first-person shifts and quoted mothers speech.",
+    "open_questions": [
+      "ନୂଆ ନୂଆ ଘର may describe newly running a home or new households; current newly-running-home reading is provisional.",
+      "Mother as ସରଳାର୍ଥ evokes plain meaning and school explication; no added explanatory school scene inside the poem.",
+      "The mothers medicine remark is retained as character speech, not medical advice."
+    ],
+    "reason": "Give the source home-smearing-smile image its missing target recipient and a natural object/verb, preserving the homes personification and final return to son.",
+    "tradeoff": "Preserve full imagery, source shifts and emotional distance; only supported target repairs. Same-assistant self-review, independent fluent/author review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "5af5ca2f752777a598a21b229c00d873e93ff29c4ac195a9b1118528af6a18cd",
+    "before_sha256": "2c4452c85b72116ac46cc9a266759f4875bb374fe38d02ac08d0ad734f50af2b",
+    "after_sha256": "8865541a763ec76b7cbe2e98d414ddf65e30e6622f66e5647bbb7794629682ef",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "बेटा",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "थके बिना,",
+          "ढेर-दर-ढेर फ़रमाइशें पूरी करने की",
+          "याद दिलाती है समय की धारा!"
+        ],
+        [
+          "जितने भारी बोझ हैं",
+          "जेब में छिपाकर",
+          "नया-नया घर चला रहा है बेटा!"
+        ],
+        [
+          "न जाने तारीख़ों की किताब में,",
+          "कहाँ वह मन छूट गया!",
+          "बाज़ार की खिलौनों की दुकान,",
+          "आँखों के आगे से कौन ले गया!"
+        ],
+        [
+          "अब याद नहीं रखना पड़ता",
+          "प्लासी का युद्ध या पृथ्वी का नक़्शा",
+          "कहाँ झरना है और कहाँ क्षेत्रफल का सूत्र!"
+        ],
+        [
+          "अब रट गए हैं",
+          "सब्ज़ियों के भाव, बिजली का बिल, ईएमआई का गणित",
+          "फिर भी माँ की नई दवा का नाम याद नहीं!"
+        ],
+        [
+          "साल याद न रखने पर",
+          "माँ कभी डाँटती थी",
+          "आज उसकी दवा भूल जाऊँ तो कहती है—",
+          "हाँ, एक दिन न खाऊँ तो कोई ख़ास परेशानी नहीं होगी!"
+        ],
+        [
+          "माँ—तुम ऐसा सरलार्थ हो जिसे मैं कभी लिख नहीं पाया!"
+        ],
+        [
+          "इन सबके बीच,",
+          "आकाश में उड़ने का अब मन नहीं,",
+          "धरती पर हर बार अपनी छाया खोजी है मैंने",
+          "उम्र की कहानी सुनाकर न जाने कब से",
+          "यह मिट्टी मेरा बचपन ले गई है!"
+        ],
+        [
+          "राह बहुत दूर तक है,",
+          "मुझे बैठते देखकर, मुझे थकते देखकर",
+          "घर हँसी लाकर लगा देता है, घुटता दुख पोंछ देता है",
+          "ख़ुद को सँभालकर फिर खड़ा होता है बेटा!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "बेटा",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "थके बिना,",
+          "ढेर-दर-ढेर फ़रमाइशें पूरी करने की",
+          "याद दिलाती है समय की धारा!"
+        ],
+        [
+          "जितने भारी बोझ हैं",
+          "जेब में छिपाकर",
+          "नया-नया घर चला रहा है बेटा!"
+        ],
+        [
+          "न जाने तारीख़ों की किताब में,",
+          "कहाँ वह मन छूट गया!",
+          "बाज़ार की खिलौनों की दुकान,",
+          "आँखों के आगे से कौन ले गया!"
+        ],
+        [
+          "अब याद नहीं रखना पड़ता",
+          "प्लासी का युद्ध या पृथ्वी का नक़्शा",
+          "कहाँ झरना है और कहाँ क्षेत्रफल का सूत्र!"
+        ],
+        [
+          "अब रट गए हैं",
+          "सब्ज़ियों के भाव, बिजली का बिल, ईएमआई का गणित",
+          "फिर भी माँ की नई दवा का नाम याद नहीं!"
+        ],
+        [
+          "साल याद न रखने पर",
+          "माँ कभी डाँटती थी",
+          "आज उसकी दवा भूल जाऊँ तो कहती है—",
+          "हाँ, एक दिन न खाऊँ तो कोई ख़ास परेशानी नहीं होगी!"
+        ],
+        [
+          "माँ—तुम ऐसा सरलार्थ हो जिसे मैं कभी लिख नहीं पाया!"
+        ],
+        [
+          "इन सबके बीच,",
+          "आकाश में उड़ने का अब मन नहीं,",
+          "धरती पर हर बार अपनी छाया खोजी है मैंने",
+          "उम्र की कहानी सुनाकर न जाने कब से",
+          "यह मिट्टी मेरा बचपन ले गई है!"
+        ],
+        [
+          "राह बहुत दूर तक है,",
+          "मुझे बैठते देखकर, मुझे थकते देखकर",
+          "घर मुझ पर मुस्कान मल देता है, घुटता दुख पोंछ देता है",
+          "ख़ुद को सँभालकर फिर खड़ा होता है बेटा!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 261,
+    "target": "en",
+    "reading_evidence": "Read complete30-line source and both targets in nine blocks3/3/4/3/3/4/1/5/4: demands/time current, son carrying burden in pocket/running home, lost toy-shop mind, former school facts versus prices/bills/EMI and forgotten medicine name, mothers former date scolding versus forgiving missed medicine, direct mother/simple-meaning line, childhood taken by earth and shadow search, family home applying smile/wiping ache and son standing again. Checked explicit son/first-person shifts and quoted mothers speech.",
+    "open_questions": [
+      "ନୂଆ ନୂଆ ଘର may describe newly running a home or new households; current newly-running-home reading is provisional.",
+      "Mother as ସରଳାର୍ଥ evokes plain meaning and school explication; no added explanatory school scene inside the poem.",
+      "The mothers medicine remark is retained as character speech, not medical advice."
+    ],
+    "reason": "Naturalise the reminder clause and contrast between memorised expenses and forgotten medicine name; make the mother/plain-meaning line speak naturally while keeping its intentionally metaphorical noun. Preserve all third-person to first-person shifts and30-line stanza layout.",
+    "tradeoff": "Preserve full imagery, source shifts and emotional distance; only supported target repairs. Same-assistant self-review, independent fluent/author review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 30,
+      "before_lines": [
+        3,
+        6,
+        10,
+        13,
+        16,
+        20,
+        21,
+        26
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "5af5ca2f752777a598a21b229c00d873e93ff29c4ac195a9b1118528af6a18cd",
+    "before_sha256": "7e37799ec69fffceac77d06752fcdee237b0561732aee02d34d5e11b9c79db12",
+    "after_sha256": "987a65daa19f127a859118957ea69eff95e31dcc17e9b58cbd01076477c92749",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Son",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Without tiring,",
+          "to fulfil demands stacked upon demands—",
+          "the current of time reminds him!"
+        ],
+        [
+          "Hiding every heavy burden",
+          "inside his pocket,",
+          "the son has only just begun to run a home!"
+        ],
+        [
+          "Who knows where, in the book of dates,",
+          "that heart was left behind!",
+          "The toy shop in the market—",
+          "who took it away from before his eyes!"
+        ],
+        [
+          "No longer must he remember",
+          "the Battle of Plassey or the map of the world,",
+          "where the waterfall is, where the formula for area!"
+        ],
+        [
+          "Now learned by heart are",
+          "vegetable prices, electricity bills, the arithmetic of EMIs;",
+          "yet Mother's new medicine's name is not remembered!"
+        ],
+        [
+          "If I failed to remember a year,",
+          "Mother once scolded me.",
+          "Today, if I forget her medicine, she says:",
+          "Yes, missing it one day will not cause much trouble!"
+        ],
+        [
+          "Mother—you are a plain meaning I could never write!"
+        ],
+        [
+          "Amid all this,",
+          "I no longer wish to fly in the sky.",
+          "Each time I have sought my own shadow on the earth;",
+          "telling stories of age, who knows how long ago",
+          "this earth carried off my childhood!"
+        ],
+        [
+          "The road goes far ahead.",
+          "Seeing me sit down, seeing me grow weary,",
+          "home brings a smile and spreads it over me, wipes away the ache;",
+          "composing himself, the son stands again!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Son",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "The current of time reminds him",
+          "to fulfil demands stacked upon demands,",
+          "without tiring!"
+        ],
+        [
+          "Hiding every heavy burden",
+          "inside his pocket,",
+          "the son has only just begun to run a home!"
+        ],
+        [
+          "Who knows where, in the book of dates,",
+          "that heart was left behind!",
+          "The toy shop in the market—",
+          "who took it away from before his eyes!"
+        ],
+        [
+          "No longer must he remember",
+          "the Battle of Plassey or the map of the world,",
+          "where the waterfall is, where the formula for area!"
+        ],
+        [
+          "Now he knows by heart",
+          "vegetable prices, electricity bills, the arithmetic of EMIs;",
+          "yet not the name of Mother's new medicine!"
+        ],
+        [
+          "If I failed to remember a year,",
+          "Mother once scolded me.",
+          "Today, if I forget her medicine, she says:",
+          "Yes, missing it one day will not cause much trouble!"
+        ],
+        [
+          "Mother—you are a simple meaning I could never put into words!"
+        ],
+        [
+          "Amid all this,",
+          "I no longer wish to fly in the sky.",
+          "Each time I have sought my own shadow on the earth;",
+          "telling stories of age, who knows how long ago",
+          "this earth carried off my childhood!"
+        ],
+        [
+          "The road goes far ahead.",
+          "Seeing me sit down, seeing me grow weary,",
+          "home brings a smile and spreads it over me, wipes away the ache;",
+          "composing himself, the son stands again!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 30,
+        "before_lines": [
+          3,
+          6,
+          10,
+          13,
+          16,
+          20,
+          21,
+          26
+        ],
+        "inline_breaks": [],
+        "source_sha256": "5af5ca2f752777a598a21b229c00d873e93ff29c4ac195a9b1118528af6a18cd",
+        "stanzas_sha256": "cbf46ea130efcc778e29ddc44e8e1767fe1f081a5ee91b78161b5610979e85e4"
+      }
+    }
+  }
+]

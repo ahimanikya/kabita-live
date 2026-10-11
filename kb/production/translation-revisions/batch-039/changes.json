@@ -1,0 +1,753 @@
+[
+  {
+    "poem_id": 643,
+    "target": "en",
+    "reading_evidence": "Read complete Odia source and both targets/title: fearful time/unsettled mind; wandering vast forest without drop of light/road/feet; life addressed about further sights and sorrow blows, bowed head/cupped happiness; silent scream cannot cross mountains-clouds-sky-horizon, returned wounded abhiman/letters/affection as self-piercing arrows; road and handful of water asked of cloud, stumbling into dense darkness/becoming darker. Preserve paradoxes and direct address.",
+    "reason": "Remove accidental wounded-hurt redundancy while keeping the returning emotional wound.",
+    "open_questions": [
+      "ଅଭିମାନ may combine hurt, wounded pride and affectionate grievance; English feelings remains broad, not a settled pride-only reading.",
+      "Hindi feminine speaker is provisional narrative grammar; original does not establish gender."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Feelings preserves broad emotional injury without claiming that pride alone is meant.",
+    "full_source_target_read": true,
+    "source_sha256": "7535bf0e23fa5f8f1af71f7e07817d6cdf8946388b4273cf9e62166a6b5ca1f8",
+    "before_sha256": "f0e9b41cd99a22a9569e5a7a447088720efa7c44cb630c56bcff1eebf2467a41",
+    "after_sha256": "f85eebc5e651a2d207f506543deb96f2b56278da45ec1d90fdd47ebed3b89f9b",
+    "prior_uncertainties": [
+      {
+        "note": "Ambiguous wounded ଅଭିମାନ rendered as hurt/आहत अभिमान; darkness transformation and silent scream kept literal. Hindi feminine narrator is a provisional grammatical voice.",
+        "record": "kb/production/translations/batch-037/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Dense Darkness",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "These times are filled with fear,",
+          "this mind unsettled."
+        ],
+        [
+          "I wander",
+          "this way, that way,",
+          "as though in a vast forest.",
+          "Not a drop of light,",
+          "the road invisible—",
+          "where will my feet go?!"
+        ],
+        [
+          "Ah, life,",
+          "what other sights",
+          "remain for me to see?",
+          "With what further blow of sorrow",
+          "will you strike me?",
+          "Because I have bowed my head in silence,",
+          "where is my happiness",
+          "to hold in cupped hands?"
+        ],
+        [
+          "I scream in silence.",
+          "My call cannot reach beyond those mountains, clouds,",
+          "sky, horizon,",
+          "to the other side.",
+          "My wounded hurt returns,",
+          "my countless letters return,",
+          "words filled with affection",
+          "become arrows and pierce me alone."
+        ],
+        [
+          "Tell me, life,",
+          "where is my road?",
+          "From which cloud will a handful of water-drops fall?",
+          "Ahead lies such darkness,",
+          "dense, deep.",
+          "Stumbling into it,",
+          "I turn to darkness, still more darkness."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Dense Darkness",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "These times are filled with fear,",
+          "this mind unsettled."
+        ],
+        [
+          "I wander",
+          "this way, that way,",
+          "as though in a vast forest.",
+          "Not a drop of light,",
+          "the road invisible—",
+          "where will my feet go?!"
+        ],
+        [
+          "Ah, life,",
+          "what other sights",
+          "remain for me to see?",
+          "With what further blow of sorrow",
+          "will you strike me?",
+          "Because I have bowed my head in silence,",
+          "where is my happiness",
+          "to hold in cupped hands?"
+        ],
+        [
+          "I scream in silence.",
+          "My call cannot reach beyond those mountains, clouds,",
+          "sky, horizon,",
+          "to the other side.",
+          "My wounded feelings return,",
+          "my countless letters return,",
+          "words filled with affection",
+          "become arrows and pierce me alone."
+        ],
+        [
+          "Tell me, life,",
+          "where is my road?",
+          "From which cloud will a handful of water-drops fall?",
+          "Ahead lies such darkness,",
+          "dense, deep.",
+          "Stumbling into it,",
+          "I turn to darkness, still more darkness."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 648,
+    "target": "hi",
+    "reading_evidence": "Read full source and both complete targets/title and MahanadiVihar/Cuttack tail: performed patriotism versus boy’s tearful eyes; MiddleEast refugee tag/unknown destination/war-peace-arrogance question; looking back for country, sister’s hand and road with dream-colour orchids, autumn-school-friends destroyed/headless corpses; arrogance-fire drowns cries, mother parts her heart and cannot promise safe return/applecake-ricepudding; earth wounded by children’s missiles/burning sari-end landscapes, former golden lap/Om lotuses/butterflies/soil/leaves weaving amritayan. Checked boy versus orchid agency and mother-earth distinction.",
+    "reason": "Attach holding the sister’s hand to the boy rather than the orchids.",
+    "open_questions": [
+      "ଅମୃତାୟନ remains provisionally passage into nectar/amrita path; fluent review required.",
+      "Modern advanced human rendered with implicit irony; no specific war, country or perpetrator added.",
+      "Mother parting heart from breast is preserved as the source image, not a literal medical event.",
+      "Hindi feminine first-person narrator remains provisional; the boy’s gender is source-supported."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Adds only the boy pronoun and clause verb required by source context; flowers still bloom along the road.",
+    "full_source_target_read": true,
+    "source_sha256": "d399cf8fd2890c861a413ea18a7b649a7775ed81219f072b345dac9fab1629fd",
+    "before_sha256": "ffecb210d93abc0893cd43fd8f477790b24839bcaf6318fe2b4843b78b2ce3fb",
+    "after_sha256": "098d641a5058b781d512669e1c621562a586208731f9cac5db2afc88c448662c",
+    "prior_uncertainties": [
+      {
+        "note": "ଅମୃତାୟନ provisionally passage into nectar/amrita path; native review needed. Body fragments, sari-end earth image and food references retained.",
+        "record": "kb/production/translations/batch-037/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "देश की बात",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "तिरंगा लहराकर, ताली बजाकर, जनगणमन गाकर,",
+          "मैं अपना देशप्रेम प्रमाणित कर चुकी थी।",
+          "फिर भी देश की जो बात बाकी रह गई,",
+          "एक निर्दोष किशोर की आँखों में छलछला रही थी।"
+        ],
+        [
+          "पीठ पर शरणार्थी का ठप्पा ढोता,",
+          "मध्यपूर्व की मिट्टी से आगे पाँव बढ़ा रहा था,",
+          "ठिकाना अनजाना।",
+          "उसके चंचल मन में एक अनबूझ प्रश्न:",
+          "युद्ध शायद शांति है,",
+          "या आधुनिक, उन्नत कहलाने वाले मनुष्य के दर्प की कीमत?",
+          "पीछे बार-बार मुड़ती उसकी असहाय आँखें",
+          "युद्ध की लपटों में एक देश खोज रही थीं।",
+          "नीला आकाश, स्वच्छ हवा, लंबी सँकरी सड़क,",
+          "जहाँ छोटी बहन का हाथ थामे,",
+          "उस सड़क के किनारे-किनारे",
+          "अनेक स्वप्नरंगी ऑर्किड खिल उठते थे।",
+          "एक पतझड़ी संध्या, स्कूल का घर, साथी-मित्र—",
+          "आज सब ध्वस्त।",
+          "सोचता है, मुट्ठी भर देश कहकर उठा ले,",
+          "पर हर ओर गिरे शवों के सिरहीन धड़ हैं।"
+        ],
+        [
+          "गोला-बारूद नहीं, मानो,",
+          "धधकते अहंकार की चटचटाती धूनी में",
+          "विलीन हो रहा है",
+          "सहमे प्राणियों का करुण क्रंदन।",
+          "वहीं,",
+          "छाती से कलेजा अलग करती व्याकुल माँ",
+          "यह वचन नहीं दे पाती:",
+          "सकुशल जा, मेरे बच्चे; लौटने पर",
+          "तेरा मनपसंद एप्पल केक, राइस पुडिंग खिलाऊँगी।"
+        ],
+        [
+          "अपनी ही संतान के प्रक्षेपास्त्रों से",
+          "घायल, विवश धरती,",
+          "सारा शरीर लहूलुहान।",
+          "बारूद की आँच में सिकुड़-सिकुड़कर जलता उसका आँचल—",
+          "वनपथ, नदियाँ, सुनहरी सुबहें, सूरजमुखी, चहचहाहट।",
+          "कभी उसकी सुनहरी गोद में",
+          "ओंकार उठाते कमल खिलते थे,",
+          "तितलियों का अबाध विचरण था,",
+          "मिट्टी की सुगंध थी।",
+          "पुलकित पत्ते खिड़की पर झूल-झूलकर",
+          "अमृत का पथ बुन देते थे।",
+          "∎",
+          "महानदी विहार",
+          "(कटक)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "देश की बात",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "तिरंगा लहराकर, ताली बजाकर, जनगणमन गाकर,",
+          "मैं अपना देशप्रेम प्रमाणित कर चुकी थी।",
+          "फिर भी देश की जो बात बाकी रह गई,",
+          "एक निर्दोष किशोर की आँखों में छलछला रही थी।"
+        ],
+        [
+          "पीठ पर शरणार्थी का ठप्पा ढोता,",
+          "मध्यपूर्व की मिट्टी से आगे पाँव बढ़ा रहा था,",
+          "ठिकाना अनजाना।",
+          "उसके चंचल मन में एक अनबूझ प्रश्न:",
+          "युद्ध शायद शांति है,",
+          "या आधुनिक, उन्नत कहलाने वाले मनुष्य के दर्प की कीमत?",
+          "पीछे बार-बार मुड़ती उसकी असहाय आँखें",
+          "युद्ध की लपटों में एक देश खोज रही थीं।",
+          "नीला आकाश, स्वच्छ हवा, लंबी सँकरी सड़क,",
+          "जहाँ वह छोटी बहन का हाथ थामे था,",
+          "उस सड़क के किनारे-किनारे",
+          "अनेक स्वप्नरंगी ऑर्किड खिल उठते थे।",
+          "एक पतझड़ी संध्या, स्कूल का घर, साथी-मित्र—",
+          "आज सब ध्वस्त।",
+          "सोचता है, मुट्ठी भर देश कहकर उठा ले,",
+          "पर हर ओर गिरे शवों के सिरहीन धड़ हैं।"
+        ],
+        [
+          "गोला-बारूद नहीं, मानो,",
+          "धधकते अहंकार की चटचटाती धूनी में",
+          "विलीन हो रहा है",
+          "सहमे प्राणियों का करुण क्रंदन।",
+          "वहीं,",
+          "छाती से कलेजा अलग करती व्याकुल माँ",
+          "यह वचन नहीं दे पाती:",
+          "सकुशल जा, मेरे बच्चे; लौटने पर",
+          "तेरा मनपसंद एप्पल केक, राइस पुडिंग खिलाऊँगी।"
+        ],
+        [
+          "अपनी ही संतान के प्रक्षेपास्त्रों से",
+          "घायल, विवश धरती,",
+          "सारा शरीर लहूलुहान।",
+          "बारूद की आँच में सिकुड़-सिकुड़कर जलता उसका आँचल—",
+          "वनपथ, नदियाँ, सुनहरी सुबहें, सूरजमुखी, चहचहाहट।",
+          "कभी उसकी सुनहरी गोद में",
+          "ओंकार उठाते कमल खिलते थे,",
+          "तितलियों का अबाध विचरण था,",
+          "मिट्टी की सुगंध थी।",
+          "पुलकित पत्ते खिड़की पर झूल-झूलकर",
+          "अमृत का पथ बुन देते थे।",
+          "∎",
+          "महानदी विहार",
+          "(कटक)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 648,
+    "target": "en",
+    "reading_evidence": "Read full source and both complete targets/title and MahanadiVihar/Cuttack tail: performed patriotism versus boy’s tearful eyes; MiddleEast refugee tag/unknown destination/war-peace-arrogance question; looking back for country, sister’s hand and road with dream-colour orchids, autumn-school-friends destroyed/headless corpses; arrogance-fire drowns cries, mother parts her heart and cannot promise safe return/applecake-ricepudding; earth wounded by children’s missiles/burning sari-end landscapes, former golden lap/Om lotuses/butterflies/soil/leaves weaving amritayan. Checked boy versus orchid agency and mother-earth distinction.",
+    "reason": "Repair dangling agency and restore the concrete heart-from-breast image.",
+    "open_questions": [
+      "ଅମୃତାୟନ remains provisionally passage into nectar/amrita path; fluent review required.",
+      "Modern advanced human rendered with implicit irony; no specific war, country or perpetrator added.",
+      "Mother parting heart from breast is preserved as the source image, not a literal medical event."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "The boy holds the hand; orchids bloom. Heart is an idiomatic figurative rendering of kalija here, without claiming literal anatomy.",
+    "full_source_target_read": true,
+    "source_sha256": "d399cf8fd2890c861a413ea18a7b649a7775ed81219f072b345dac9fab1629fd",
+    "before_sha256": "f03990fe320ed583da10706603297deaef7bf872304fbd1954652684269efc80",
+    "after_sha256": "7f122de3479da6fb2d9cdf11cf46ece50b2e3f71aaf163fe31c9f0a1b61b6ed0",
+    "prior_uncertainties": [
+      {
+        "note": "ଅମୃତାୟନ provisionally passage into nectar/amrita path; native review needed. Body fragments, sari-end earth image and food references retained.",
+        "record": "kb/production/translations/batch-037/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Speaking of Country",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Waving the tricolour, clapping, singing Jana Gana Mana,",
+          "I had already proved my patriotism.",
+          "Yet what remained unsaid of country",
+          "welled in an innocent adolescent's eyes."
+        ],
+        [
+          "Carrying the tag of refugee on his back,",
+          "he stepped onward from the soil of the Middle East,",
+          "his destination unknown.",
+          "In his restless young mind, an uncomprehending question:",
+          "perhaps war is peace,",
+          "or is it the price of the arrogance of the supposedly advanced modern human?",
+          "Turning back again and again, his helpless eyes",
+          "searched the flames of war for a country.",
+          "Blue sky, clean air, a long narrow road,",
+          "where, holding his little sister's hand,",
+          "along the roadside",
+          "orchids of countless dream-colours had bloomed.",
+          "An autumn evening, the schoolhouse, friends—",
+          "all destroyed today.",
+          "He thinks to gather a handful and call it country,",
+          "but everywhere lie the headless trunks of fallen bodies."
+        ],
+        [
+          "Not ammunition, then,",
+          "but in the crackling fire of blazing arrogance,",
+          "there fade away",
+          "the pitiful cries of cowering creatures.",
+          "There,",
+          "a distraught mother, parting the very life from her breast,",
+          "cannot promise:",
+          "Go safely, my child; when you return,",
+          "I will feed you your favourite apple cake and rice pudding."
+        ],
+        [
+          "Wounded by her own children's missiles,",
+          "the earth lies helpless,",
+          "her whole body drenched in blood.",
+          "Her sari's end curls and burns in the blast of gunpowder—",
+          "forest paths, rivers, golden mornings, sunflowers, birdsong.",
+          "Once, in her golden lap,",
+          "lotuses bloomed, raising the sound of Om.",
+          "Butterflies wandered freely;",
+          "there was the fragrance of soil.",
+          "Thrilled leaves, swaying at the window,",
+          "wove a passage into nectar.",
+          "∎",
+          "Mahanadi Vihar",
+          "(Cuttack)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Speaking of Country",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Waving the tricolour, clapping, singing Jana Gana Mana,",
+          "I had already proved my patriotism.",
+          "Yet what remained unsaid of country",
+          "welled in an innocent adolescent's eyes."
+        ],
+        [
+          "Carrying the tag of refugee on his back,",
+          "he stepped onward from the soil of the Middle East,",
+          "his destination unknown.",
+          "In his restless young mind, an uncomprehending question:",
+          "perhaps war is peace,",
+          "or is it the price of the arrogance of the supposedly advanced modern human?",
+          "Turning back again and again, his helpless eyes",
+          "searched the flames of war for a country.",
+          "Blue sky, clean air, a long narrow road,",
+          "where he held his little sister's hand—",
+          "along the roadside",
+          "orchids of countless dream-colours had bloomed.",
+          "An autumn evening, the schoolhouse, friends—",
+          "all destroyed today.",
+          "He thinks to gather a handful and call it country,",
+          "but everywhere lie the headless trunks of fallen bodies."
+        ],
+        [
+          "Not ammunition, then,",
+          "but in the crackling fire of blazing arrogance,",
+          "there fade away",
+          "the pitiful cries of cowering creatures.",
+          "There,",
+          "a distraught mother, parting her heart from her breast,",
+          "cannot promise:",
+          "Go safely, my child; when you return,",
+          "I will feed you your favourite apple cake and rice pudding."
+        ],
+        [
+          "Wounded by her own children's missiles,",
+          "the earth lies helpless,",
+          "her whole body drenched in blood.",
+          "Her sari's end curls and burns in the blast of gunpowder—",
+          "forest paths, rivers, golden mornings, sunflowers, birdsong.",
+          "Once, in her golden lap,",
+          "lotuses bloomed, raising the sound of Om.",
+          "Butterflies wandered freely;",
+          "there was the fragrance of soil.",
+          "Thrilled leaves, swaying at the window,",
+          "wove a passage into nectar.",
+          "∎",
+          "Mahanadi Vihar",
+          "(Cuttack)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 641,
+    "target": "en",
+    "reading_evidence": "Read all ten Hindi stanzas and both targets/title: September ninth-month seasonal bridge/memory lamps; birthday plus sapphire-sky/cloud pearls/topaz sun; laughing branches and unhusked maize kernels; rustling whisper/first quiet kiss/shiver; turmeric-sandalwood bridal preparation; washed trees/youth/grain courtship; autumn’s smiling question; migrant birds/ancestor courtyard/PitruPaksha/Ganesh/Mother/embracing gardens; nine-month birth analogy/creation-remembrance/new radiance; endless beauty ending. Festivals and agricultural imagery retained without calendar verification or deity substitution.",
+    "reason": "Let the kiss simile follow natural English syntax.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Two lines remain two; the untouched cheek, first kiss and subsequent heart-shiver are unchanged.",
+    "full_source_target_read": true,
+    "source_sha256": "37ebc460fa19f1f290f629c4b6722862b01b1ed74587080ec9625785d312de7e",
+    "before_sha256": "352f4914fcc79e6d44fecceed9c75b526bf6d4b840cc51e211bfee3a7c83e571",
+    "after_sha256": "74b7d869712ea0a373f4b4e1eb8920704a8221035377ed2fbb6ff38b569c6ea8",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Your Arrival",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "September… ah!",
+          "The ninth month, a bridge where seasons meet,",
+          "where lamps of memory burn",
+          "and the shadows of seasons",
+          "embrace one another."
+        ],
+        [
+          "No, what makes it special",
+          "is not only my birthday,",
+          "but this sapphire of the sky,",
+          "upon which are scattered the clouds'",
+          "white pearls,",
+          "and, shining like topaz,",
+          "the golden sun."
+        ],
+        [
+          "A glance through the window makes it seem",
+          "as though the branches have burst into laughter,",
+          "as, when the husk is drawn from a cob,",
+          "the grains of maize",
+          "break into gleeful cries."
+        ],
+        [
+          "September whispers in the ears,",
+          "that rustle-filled voice,",
+          "like upon an untouched cheek",
+          "a first, quiet kiss,",
+          "which awakens a shiver",
+          "in the heart and flees."
+        ],
+        [
+          "This month is",
+          "as though a maiden,",
+          "anointed with turmeric and sandalwood paste,",
+          "were being adorned",
+          "for her wedding day."
+        ],
+        [
+          "Gentle sunlight after the rains,",
+          "upon washed-clean trees",
+          "a flowering of youth,",
+          "the ears of rice, maize and pearl millet",
+          "as though speaking words of love."
+        ],
+        [
+          "And autumn, softly,",
+          "smiles into the ears and says,",
+          "“Having found me,",
+          "have you not blossomed still more?”"
+        ],
+        [
+          "This is the very time",
+          "when migrant birds return",
+          "to their ancestors' courtyards,",
+          "when Pitru Paksha begins",
+          "and the ancestors arrive,",
+          "when Ganesh festivities resound,",
+          "the Mother is welcomed,",
+          "and gardens filled with flowers,",
+          "spreading their arms,",
+          "long to gather humankind",
+          "into their affection."
+        ],
+        [
+          "As, after nine months of waiting,",
+          "a newborn life, a baby,",
+          "comes into a mother's lap,",
+          "so September is",
+          "the month of creation and remembrance,",
+          "the arrival of happiness,",
+          "the proclamation of new radiance."
+        ],
+        [
+          "September…",
+          "ah, the living form",
+          "of endless beauty!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Your Arrival",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "September… ah!",
+          "The ninth month, a bridge where seasons meet,",
+          "where lamps of memory burn",
+          "and the shadows of seasons",
+          "embrace one another."
+        ],
+        [
+          "No, what makes it special",
+          "is not only my birthday,",
+          "but this sapphire of the sky,",
+          "upon which are scattered the clouds'",
+          "white pearls,",
+          "and, shining like topaz,",
+          "the golden sun."
+        ],
+        [
+          "A glance through the window makes it seem",
+          "as though the branches have burst into laughter,",
+          "as, when the husk is drawn from a cob,",
+          "the grains of maize",
+          "break into gleeful cries."
+        ],
+        [
+          "September whispers in the ears,",
+          "that rustle-filled voice,",
+          "like a first, quiet kiss",
+          "on an untouched cheek,",
+          "which awakens a shiver",
+          "in the heart and flees."
+        ],
+        [
+          "This month is",
+          "as though a maiden,",
+          "anointed with turmeric and sandalwood paste,",
+          "were being adorned",
+          "for her wedding day."
+        ],
+        [
+          "Gentle sunlight after the rains,",
+          "upon washed-clean trees",
+          "a flowering of youth,",
+          "the ears of rice, maize and pearl millet",
+          "as though speaking words of love."
+        ],
+        [
+          "And autumn, softly,",
+          "smiles into the ears and says,",
+          "“Having found me,",
+          "have you not blossomed still more?”"
+        ],
+        [
+          "This is the very time",
+          "when migrant birds return",
+          "to their ancestors' courtyards,",
+          "when Pitru Paksha begins",
+          "and the ancestors arrive,",
+          "when Ganesh festivities resound,",
+          "the Mother is welcomed,",
+          "and gardens filled with flowers,",
+          "spreading their arms,",
+          "long to gather humankind",
+          "into their affection."
+        ],
+        [
+          "As, after nine months of waiting,",
+          "a newborn life, a baby,",
+          "comes into a mother's lap,",
+          "so September is",
+          "the month of creation and remembrance,",
+          "the arrival of happiness,",
+          "the proclamation of new radiance."
+        ],
+        [
+          "September…",
+          "ah, the living form",
+          "of endless beauty!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 639,
+    "target": "or",
+    "reading_evidence": "Read all three English stanzas and both targets/title: ImperialBower trump loses sheen becomes non-jesting/clowning Joker, changes colour/caste/creed with bad luck; suitless black/red pairs shuffled/dealt/discarded/retrieved as lost-card replacement and adopted identity, fools journey/wildcard/excuse; synthetic smile/smirk, identity/unfazed waiting/chameleon changes at player’s will, powerless empowers player/stronger hand/win. Card/social doubleness retained; no factual card-history correction supplied.",
+    "reason": "Make the second negative action read naturally as nor does it clown.",
+    "open_questions": [
+      "Excuse may have a specialized card-game sense beyond everyday pretext; existing बहाना/ବାହାନା remains provisional pending source/context confirmation.",
+      "Fools journey may allude to a named card sequence; no specific tradition asserted.",
+      "Imperial Bower historical assertion retained as source claim without independent fact-check."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Keeps the parallel denial without introducing a question or changing the subsequent power reversal.",
+    "full_source_target_read": true,
+    "source_sha256": "3354b55ca0567e567063d03148c7d6fe5a3ae35c83bb323ec30b985f5bcdb0e3",
+    "before_sha256": "7ac63899df4585ded91abab6e54c5b6dc63c6b3333c3c69c73a93572dc9f07eb",
+    "after_sha256": "a578fd94239369ed54a9216e85dea69a4d56398ed82c770c02d70cbee58548bf",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ତାସ ଗୋଛାର ଜୋକର୍",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଇମ୍ପିରିଆଲ୍ ବାୱର୍,",
+          "ଯିଏ ସବୁ ପତାକୁ କାଟୁଥିଲା,",
+          "ସମୟକ୍ରମେ",
+          "ନିଜ ଚମକ ହରାଏ,",
+          "ଆଉ ବଦଳିଯାଏ",
+          "ସେ ଜୋକର୍‌ରେ ଯିଏ ଥଟ୍ଟା କରେନା,",
+          "କି ଭାଣ୍ଡାମି କରେନା,",
+          "କିନ୍ତୁ ନିଜ ରଙ୍ଗ ବଦଳାଏ,",
+          "ଜାତି ଓ ଧର୍ମ,",
+          "ଯେତେବେଳେ ତୁମ ଭାଗ୍ୟ ସାଥ୍ ଦିଏନା।"
+        ],
+        [
+          "ସେମାନେ କୌଣସି ତାସ ଚିହ୍ନର ଅନ୍ତର୍ଭୁକ୍ତ ନୁହନ୍ତି,",
+          "ତଥାପି ଦେଖାଦିଅନ୍ତି,",
+          "ଗୋଛାରେ ଅଧିକାଂଶ ସମୟ ଯୋଡ଼ାରେ,",
+          "କଳା ଓ ଲାଲ୍,",
+          "ଆଉ ଫେଣ୍ଟା ଓ ବଣ୍ଟା ହୁଅନ୍ତି,",
+          "ଅନ୍ୟ ପତା ପରି,",
+          "ଯଦିଓ କେବେ ଫିଙ୍ଗିଦିଆଯାଆନ୍ତି,",
+          "ନିର୍ଦ୍ଦୟ ଭାବେ, ଅନାବଶ୍ୟକ",
+          "ଓ ଅତିରିକ୍ତ ବୋଲି,",
+          "ପୁଣି ଫେରାଇ ଅଣାଯାଆନ୍ତି,",
+          "ବଦଳ ପତା ହେବାକୁ,",
+          "ହଜିଲା କି ନଷ୍ଟ ହୋଇଥିବା ପତାର,",
+          "ତା' ପରିଚୟ ନେଇ।",
+          "କିନ୍ତୁ ନିଜ ନିର୍ବୋଧଙ୍କ ଯାତ୍ରାରେ,",
+          "ସେମାନେ କେବେ ଚମକନ୍ତି, ଜୀବନ୍ତ ହୁଅନ୍ତି,",
+          "ୱାଇଲ୍ଡ କାର୍ଡ ଭାବେ ଖେଳାଯିବାବେଳେ,",
+          "କିମ୍ବା ଏକ ବାହାନା ଭାବେ ବି।"
+        ],
+        [
+          "କୃତ୍ରିମ ହସ,",
+          "ଯାହା ଭିତରେ ଲୁଚିଛି ବଙ୍କା ହସ,",
+          "ସେମିତି ହିଁ ରହେ,",
+          "ଆଉ ନିଜ",
+          "ପରିଚୟ ଖୋଜୁଥିବାବେଳେ,",
+          "ଜୋକର୍ ଅବିଚଳ ରହେ,",
+          "ନିଜ ପାଳିକୁ ଅପେକ୍ଷା କରେ,",
+          "ନିଜ ରଙ୍ଗ ବଦଳାଇବାକୁ,",
+          "ଏଣ୍ଡୁଅ ପରି,",
+          "କିନ୍ତୁ ନିଜ ଇଚ୍ଛାରେ ନୁହେଁ,",
+          "ତୁମେ ଯେମିତି ଚାହଁ ସେମିତି,",
+          "ଆଉ ନିଜ ଶକ୍ତିହୀନତାରେ,",
+          "ସେ ତୁମକୁ ଶକ୍ତି ଦିଏ,",
+          "ତୁମ ହାତର ପତାକୁ",
+          "ଆହୁରି ବଳିଷ୍ଠ କରେ,",
+          "ଆଉ ତୁମକୁ ବିଜୟୀ କରେ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ତାସ ଗୋଛାର ଜୋକର୍",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଇମ୍ପିରିଆଲ୍ ବାୱର୍,",
+          "ଯିଏ ସବୁ ପତାକୁ କାଟୁଥିଲା,",
+          "ସମୟକ୍ରମେ",
+          "ନିଜ ଚମକ ହରାଏ,",
+          "ଆଉ ବଦଳିଯାଏ",
+          "ସେ ଜୋକର୍‌ରେ ଯିଏ ଥଟ୍ଟା କରେନା,",
+          "ଭାଣ୍ଡାମି ବି କରେନା,",
+          "କିନ୍ତୁ ନିଜ ରଙ୍ଗ ବଦଳାଏ,",
+          "ଜାତି ଓ ଧର୍ମ,",
+          "ଯେତେବେଳେ ତୁମ ଭାଗ୍ୟ ସାଥ୍ ଦିଏନା।"
+        ],
+        [
+          "ସେମାନେ କୌଣସି ତାସ ଚିହ୍ନର ଅନ୍ତର୍ଭୁକ୍ତ ନୁହନ୍ତି,",
+          "ତଥାପି ଦେଖାଦିଅନ୍ତି,",
+          "ଗୋଛାରେ ଅଧିକାଂଶ ସମୟ ଯୋଡ଼ାରେ,",
+          "କଳା ଓ ଲାଲ୍,",
+          "ଆଉ ଫେଣ୍ଟା ଓ ବଣ୍ଟା ହୁଅନ୍ତି,",
+          "ଅନ୍ୟ ପତା ପରି,",
+          "ଯଦିଓ କେବେ ଫିଙ୍ଗିଦିଆଯାଆନ୍ତି,",
+          "ନିର୍ଦ୍ଦୟ ଭାବେ, ଅନାବଶ୍ୟକ",
+          "ଓ ଅତିରିକ୍ତ ବୋଲି,",
+          "ପୁଣି ଫେରାଇ ଅଣାଯାଆନ୍ତି,",
+          "ବଦଳ ପତା ହେବାକୁ,",
+          "ହଜିଲା କି ନଷ୍ଟ ହୋଇଥିବା ପତାର,",
+          "ତା' ପରିଚୟ ନେଇ।",
+          "କିନ୍ତୁ ନିଜ ନିର୍ବୋଧଙ୍କ ଯାତ୍ରାରେ,",
+          "ସେମାନେ କେବେ ଚମକନ୍ତି, ଜୀବନ୍ତ ହୁଅନ୍ତି,",
+          "ୱାଇଲ୍ଡ କାର୍ଡ ଭାବେ ଖେଳାଯିବାବେଳେ,",
+          "କିମ୍ବା ଏକ ବାହାନା ଭାବେ ବି।"
+        ],
+        [
+          "କୃତ୍ରିମ ହସ,",
+          "ଯାହା ଭିତରେ ଲୁଚିଛି ବଙ୍କା ହସ,",
+          "ସେମିତି ହିଁ ରହେ,",
+          "ଆଉ ନିଜ",
+          "ପରିଚୟ ଖୋଜୁଥିବାବେଳେ,",
+          "ଜୋକର୍ ଅବିଚଳ ରହେ,",
+          "ନିଜ ପାଳିକୁ ଅପେକ୍ଷା କରେ,",
+          "ନିଜ ରଙ୍ଗ ବଦଳାଇବାକୁ,",
+          "ଏଣ୍ଡୁଅ ପରି,",
+          "କିନ୍ତୁ ନିଜ ଇଚ୍ଛାରେ ନୁହେଁ,",
+          "ତୁମେ ଯେମିତି ଚାହଁ ସେମିତି,",
+          "ଆଉ ନିଜ ଶକ୍ତିହୀନତାରେ,",
+          "ସେ ତୁମକୁ ଶକ୍ତି ଦିଏ,",
+          "ତୁମ ହାତର ପତାକୁ",
+          "ଆହୁରି ବଳିଷ୍ଠ କରେ,",
+          "ଆଉ ତୁମକୁ ବିଜୟୀ କରେ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

@@ -1,0 +1,461 @@
+{
+  "recorded_at": "2026-10-06T09:16:09.501112+00:00",
+  "status": "completed_local_revision_independent_review_pending",
+  "work_id": "KBL-WORK-023",
+  "decision_id": "KBL-DEC-051",
+  "authorization_quote": "This is very good and huge improvement - can we fix all such findings in our translations? You can do this in batched so that we cover all ground",
+  "mode": "Human Natural Translation / Poetic Natural",
+  "execution": "Sequential same-chat batches; no subagents",
+  "automation_id": "kabita-live-translation-loop",
+  "automation_status": "DELETED",
+  "scope": "All 1574 saved translation variants, including issues without earlier flags. Source originals unchanged. Missing targets tracked separately.",
+  "batch_size": "About five poems / ten variants, smaller when needed",
+  "queue": "kb/production/translation-revisions/queue.json",
+  "workflow": "kb/production/translation-revisions/WORKFLOW.md",
+  "completed_batch": "batch-185",
+  "progress": {
+    "total": 1574,
+    "examined": 1574,
+    "revised_local_drafts": 818,
+    "pending": 0,
+    "counts": {
+      "retained": 118,
+      "revised": 144,
+      "revised_with_holds": 674,
+      "retained_with_holds": 626,
+      "held": 12
+    }
+  },
+  "publication_authorized": true,
+  "independent_review": false,
+  "next_action": "Authorized baseline local revision completed. Resolve indexed source questions and obtain independent fluent/author review; missing targets and external Edition48 remain separate. No publication authorized.",
+  "automation_interval_minutes": 10,
+  "edition_checkpoints": {
+    "47": {
+      "variants_examined": 32,
+      "revised_local_drafts": 16,
+      "retained": 12,
+      "held_unchanged": 4,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-47-checkpoint.md"
+    },
+    "46": {
+      "variants_examined": 38,
+      "revised_local_drafts": 21,
+      "retained": 15,
+      "held_unchanged": 2,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-46-checkpoint.md"
+    },
+    "45": {
+      "variants_examined": 28,
+      "revised_local_drafts": 15,
+      "retained": 11,
+      "held_unchanged": 2,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-45-checkpoint.md"
+    },
+    "44": {
+      "variants_examined": 22,
+      "revised_local_drafts": 13,
+      "retained": 9,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-44-checkpoint.md"
+    },
+    "43": {
+      "variants_examined": 30,
+      "revised_local_drafts": 16,
+      "retained": 14,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-43-checkpoint.md"
+    },
+    "42": {
+      "variants_examined": 28,
+      "revised_local_drafts": 14,
+      "retained": 12,
+      "held_unchanged": 2,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-42-checkpoint.md"
+    },
+    "41": {
+      "variants_examined": 20,
+      "revised_local_drafts": 10,
+      "retained": 10,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-41-checkpoint.md"
+    },
+    "40": {
+      "variants_examined": 28,
+      "revised_local_drafts": 17,
+      "retained": 11,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-40-checkpoint.md"
+    },
+    "39": {
+      "variants_examined": 34,
+      "revised_local_drafts": 14,
+      "retained": 18,
+      "held_unchanged": 2,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-39-checkpoint.md"
+    },
+    "38": {
+      "variants_examined": 26,
+      "revised_local_drafts": 16,
+      "retained": 10,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-38-checkpoint.md"
+    },
+    "37": {
+      "variants_examined": 38,
+      "revised_local_drafts": 20,
+      "retained": 18,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-37-checkpoint.md"
+    },
+    "36": {
+      "variants_examined": 34,
+      "revised_local_drafts": 18,
+      "retained": 16,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-36-checkpoint.md"
+    },
+    "35": {
+      "variants_examined": 54,
+      "revised_local_drafts": 37,
+      "retained": 17,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-35-checkpoint.md"
+    },
+    "34": {
+      "variants_examined": 38,
+      "revised_local_drafts": 24,
+      "retained": 14,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-34-checkpoint.md"
+    },
+    "33": {
+      "variants_examined": 38,
+      "revised_local_drafts": 15,
+      "retained": 23,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-33-checkpoint.md"
+    },
+    "32": {
+      "variants_examined": 38,
+      "revised_local_drafts": 24,
+      "retained": 14,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-32-checkpoint.md"
+    },
+    "31": {
+      "variants_examined": 14,
+      "revised_local_drafts": 7,
+      "retained": 7,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-31-checkpoint.md"
+    },
+    "30": {
+      "variants_examined": 16,
+      "revised_local_drafts": 4,
+      "retained": 12,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-30-checkpoint.md"
+    },
+    "29": {
+      "variants_examined": 36,
+      "revised_local_drafts": 17,
+      "retained": 19,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-29-checkpoint.md"
+    },
+    "28": {
+      "variants_examined": 10,
+      "revised_local_drafts": 6,
+      "retained": 4,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-28-checkpoint.md"
+    },
+    "27": {
+      "variants_examined": 16,
+      "revised_local_drafts": 11,
+      "retained": 5,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-27-checkpoint.md"
+    },
+    "26": {
+      "variants_examined": 20,
+      "revised_local_drafts": 10,
+      "retained": 10,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-26-checkpoint.md"
+    },
+    "25": {
+      "variants_examined": 26,
+      "revised_local_drafts": 10,
+      "retained": 16,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-25-checkpoint.md"
+    },
+    "24": {
+      "variants_examined": 34,
+      "revised_local_drafts": 17,
+      "retained": 17,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-24-checkpoint.md"
+    },
+    "23": {
+      "variants_examined": 22,
+      "revised_local_drafts": 14,
+      "retained": 8,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-23-checkpoint.md"
+    },
+    "22": {
+      "variants_examined": 24,
+      "revised_local_drafts": 11,
+      "retained": 13,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-22-checkpoint.md"
+    },
+    "21": {
+      "variants_examined": 34,
+      "revised_local_drafts": 15,
+      "retained": 19,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-21-checkpoint.md"
+    },
+    "20": {
+      "variants_examined": 22,
+      "revised_local_drafts": 8,
+      "retained": 14,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-20-checkpoint.md"
+    },
+    "19": {
+      "variants_examined": 24,
+      "revised_local_drafts": 11,
+      "retained": 13,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-19-checkpoint.md"
+    },
+    "18": {
+      "variants_examined": 46,
+      "revised_local_drafts": 23,
+      "retained": 23,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-18-checkpoint.md"
+    },
+    "17": {
+      "variants_examined": 38,
+      "revised_local_drafts": 21,
+      "retained": 17,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-17-checkpoint.md"
+    },
+    "16": {
+      "variants_examined": 20,
+      "revised_local_drafts": 12,
+      "retained": 8,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-16-checkpoint.md"
+    },
+    "15": {
+      "variants_examined": 14,
+      "revised_local_drafts": 9,
+      "retained": 5,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-15-checkpoint.md"
+    },
+    "14": {
+      "variants_examined": 34,
+      "revised_local_drafts": 18,
+      "retained": 16,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-14-checkpoint.md"
+    },
+    "13": {
+      "variants_examined": 34,
+      "revised_local_drafts": 15,
+      "retained": 19,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-13-checkpoint.md"
+    },
+    "12": {
+      "variants_examined": 34,
+      "revised_local_drafts": 14,
+      "retained": 20,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-12-checkpoint.md"
+    },
+    "11": {
+      "variants_examined": 34,
+      "revised_local_drafts": 16,
+      "retained": 18,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-11-checkpoint.md"
+    },
+    "10": {
+      "variants_examined": 46,
+      "revised_local_drafts": 21,
+      "retained": 25,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-10-checkpoint.md"
+    },
+    "9": {
+      "variants_examined": 26,
+      "revised_local_drafts": 13,
+      "retained": 13,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-9-checkpoint.md"
+    },
+    "8": {
+      "variants_examined": 32,
+      "revised_local_drafts": 17,
+      "retained": 15,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-8-checkpoint.md"
+    },
+    "7": {
+      "variants_examined": 38,
+      "revised_local_drafts": 15,
+      "retained": 23,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-7-checkpoint.md"
+    },
+    "6": {
+      "variants_examined": 46,
+      "revised_local_drafts": 14,
+      "retained": 32,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-6-checkpoint.md"
+    },
+    "5": {
+      "variants_examined": 36,
+      "revised_local_drafts": 16,
+      "retained": 20,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-5-checkpoint.md"
+    },
+    "4": {
+      "variants_examined": 84,
+      "revised_local_drafts": 50,
+      "retained": 34,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-4-checkpoint.md"
+    },
+    "3": {
+      "variants_examined": 88,
+      "revised_local_drafts": 56,
+      "retained": 32,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-3-checkpoint.md",
+      "verification_status": "verified_local_drafts"
+    },
+    "2": {
+      "variants_examined": 60,
+      "revised_local_drafts": 36,
+      "retained": 24,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-2-checkpoint.md"
+    },
+    "1": {
+      "variants_examined": 38,
+      "revised_local_drafts": 19,
+      "retained": 19,
+      "held_unchanged": 0,
+      "source_questions_remain": true,
+      "report": "kb/production/translation-revisions/issue-1-checkpoint.md"
+    }
+  },
+  "user_directed_checkpoint": {
+    "batch": "batch-022",
+    "poem_id": 628,
+    "status": "verified_local_drafts",
+    "recorded_at": "2026-10-05T12:03:35.126551+00:00",
+    "author_refinement_pending": true,
+    "note": "User-requested exception ahead of edition order. Do not repeat or revert these two variants when edition35 is reached; reload their review fingerprints and open questions. Separate batch021 ownership/progress preserved."
+  },
+  "last_integrated_batch": "batch-185",
+  "external_variants_preserved_not_reviewed": {
+    "edition": 48,
+    "variants": 22,
+    "record": "kb/production/translation-revisions/external-catalogue-additions.json",
+    "note": "Separate concurrent import after1574-variant authorization baseline; no revision coverage credit."
+  },
+  "prepared_batches": [],
+  "completion": {
+    "recorded_at": "2026-10-06T09:14:52.805952+00:00",
+    "status": "completed_local_revision_independent_review_pending",
+    "baseline_variants": 1574,
+    "examined": 1574,
+    "revised": 818,
+    "retained": 744,
+    "held_unchanged": 12,
+    "pending": 0,
+    "variants_carrying_unresolved_questions": 1312,
+    "missing_targets": 24,
+    "external_edition48_variants_excluded": 22,
+    "independent_review": false,
+    "published": false,
+    "batches": 185,
+    "last_verified_batch": "batch-185",
+    "queue_sha256": "4b92454e74c67e4bb85ff95ff1408b46839c8809bf9d9c7c5ddf20e87d3cb87b",
+    "unresolved_questions": "unresolved-questions-final.json",
+    "automation_action": "deleted after completion and saved-record sync/storage PASS"
+  },
+  "automation_completion": {
+    "recorded_at": "2026-10-06T09:16:09.501112+00:00",
+    "action": "Deleted completed heartbeat through automation_update",
+    "result": "deleted",
+    "preserved_configuration": "kb/production/translation-revisions/completed-automation.toml",
+    "reason": "All authorized baseline variants examined and verified; no further automatic revision remains."
+  },
+  "publication_authorization": {
+    "decision": "KBL-DEC-060",
+    "record": "kb/records/remaining-site-publication-2026-10-11.json",
+    "status": "approved_pending_deployment",
+    "independent_review": false
+  }
+}

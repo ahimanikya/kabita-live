@@ -1,0 +1,622 @@
+[
+  {
+    "poem_id": 370,
+    "target": "or",
+    "reading_evidence": "Read all5/6/5/7-line source/target stanzas: wind gathering clouds above turban/young fortune dreams lost frozen rain; adolescent discouragement/section hatred/night steals confidence/eyelids still/mother lap supper absence; frantic moments cause fear psychosis in budding minds and flight to dark from materiality; strong heart-soul bond believes time/tide turn favourable, unison singing wind carries mother/motherland grandeur. Checked nested minds-of-budding-souls relation and kept rough source imagery unassigned to real conflict.",
+    "reason": "Restore native possessive order for young souls’ minds receiving fear; keep agency and five-line stanza.",
+    "open_questions": [
+      "Prior turban not assigned region/event; fear psychosis is poetic wording, not diagnosis. Unruffled eyelids and mother/supper omission remain ambiguous source syntax."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 23,
+      "before_lines": [
+        5,
+        11,
+        16
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "6fd333fc55794fcf85a1362c94a084eab87e5223abc03f73e21a0bd6fbf757a4",
+    "before_sha256": "f76fe6ec7e0a99af3aab5a5755e261d6f5b325199f190449d1b541bed63ac31c",
+    "after_sha256": "65ad67b036965a1dea2d84d88d3ef6cccda484b1017d74dd5b1248c6443988b0",
+    "prior_uncertainties": [
+      {
+        "note": "Four stanzas retained. Turban kept literal; not assigned a regional/political event. Fear psychosis remains poetic wording, not a diagnosis. Unruffled eyelids and absence of mother/supper preserved despite ambiguous syntax.",
+        "record": "kb/production/translations/batch-103/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଜମିଥିବା ବର୍ଷା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ହଠାତ୍,",
+          "ଯେବେ ପବନ ମେଘ ସାଉଁଟେ",
+          "ପଗଡ଼ିର ଉପରେ,",
+          "ଭଲ ଭାଗ୍ୟର ତରୁଣ ସ୍ୱପ୍ନମାନେ",
+          "ଜମିଥିବା ବର୍ଷାରେ ହଜିଯାଆନ୍ତି।"
+        ],
+        [
+          "କିଶୋର ମନରେ ନିରାଶା ବଢ଼େ,",
+          "ଯାହା ବର୍ଗମାନଙ୍କ ମଝିରେ ଘୃଣା ବିସ୍ତାର କରେ।",
+          "ରାତି ଆତ୍ମବିଶ୍ୱାସ ଓ ଆସ୍ଥା ଚୋରାଇନିଏ,",
+          "ଆଉ ତାଙ୍କ ପଲକକୁ ନିଶ୍ଚଳ ଛାଡ଼ିଦିଏ,",
+          "ଯେଉଁଠି ମାଆର କୋଳ ଓ ରାତିଭୋଜନ ଟେବୁଲ",
+          "ଉଲ୍ଲେଖ ହରାଇବସେ।"
+        ],
+        [
+          "ଉନ୍ମତ୍ତ ମୁହୂର୍ତ୍ତର ବିସ୍ତାର",
+          "ଭୟର ଉନ୍ମାଦ ଆଣେ ମନକୁ",
+          "ଉଦୀୟମାନ ଆତ୍ମାମାନଙ୍କର,",
+          "ଯାହା ତାଙ୍କୁ ଅନ୍ଧାର ଆଡ଼େ ପଳାଇବାକୁ ନିଏ,",
+          "ସମଗ୍ର ଭୌତିକତାଠାରୁ ଦୂରେ।"
+        ],
+        [
+          "ତଥାପି ହୃଦୟ ଓ ଆତ୍ମାର ଦୃଢ଼ ବନ୍ଧନ",
+          "ତାଙ୍କୁ ବିଶ୍ୱାସ କରାଏ",
+          "ଯେ ଦିନେ ସମୟ ଆଉ ଜୁଆର",
+          "ତାଙ୍କ ସପକ୍ଷରେ ଫେରିବ,",
+          "ଆଉ ସେମାନେ ଏକ ସ୍ୱରରେ ମିଶି ଗାଇବେ",
+          "ବହୁଥିବା ପବନ ସହ, ଯାହା ବୋହିନିଏ",
+          "ତାଙ୍କ ମାଆ ଓ ମାତୃଭୂମିର ଗୌରବ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଜମିଥିବା ବର୍ଷା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ହଠାତ୍,",
+          "ଯେବେ ପବନ ମେଘ ସାଉଁଟେ",
+          "ପଗଡ଼ିର ଉପରେ,",
+          "ଭଲ ଭାଗ୍ୟର ତରୁଣ ସ୍ୱପ୍ନମାନେ",
+          "ଜମିଥିବା ବର୍ଷାରେ ହଜିଯାଆନ୍ତି।"
+        ],
+        [
+          "କିଶୋର ମନରେ ନିରାଶା ବଢ଼େ,",
+          "ଯାହା ବର୍ଗମାନଙ୍କ ମଝିରେ ଘୃଣା ବିସ୍ତାର କରେ।",
+          "ରାତି ଆତ୍ମବିଶ୍ୱାସ ଓ ଆସ୍ଥା ଚୋରାଇନିଏ,",
+          "ଆଉ ତାଙ୍କ ପଲକକୁ ନିଶ୍ଚଳ ଛାଡ଼ିଦିଏ,",
+          "ଯେଉଁଠି ମାଆର କୋଳ ଓ ରାତିଭୋଜନ ଟେବୁଲ",
+          "ଉଲ୍ଲେଖ ହରାଇବସେ।"
+        ],
+        [
+          "ଉନ୍ମତ୍ତ ମୁହୂର୍ତ୍ତର ବିସ୍ତାର",
+          "ଉଦୀୟମାନ ଆତ୍ମାମାନଙ୍କ ମନରେ",
+          "ଭୟର ଉନ୍ମାଦ ଆଣେ,",
+          "ଯାହା ତାଙ୍କୁ ଅନ୍ଧାର ଆଡ଼େ ପଳାଇବାକୁ ନିଏ,",
+          "ସମଗ୍ର ଭୌତିକତାଠାରୁ ଦୂରେ।"
+        ],
+        [
+          "ତଥାପି ହୃଦୟ ଓ ଆତ୍ମାର ଦୃଢ଼ ବନ୍ଧନ",
+          "ତାଙ୍କୁ ବିଶ୍ୱାସ କରାଏ",
+          "ଯେ ଦିନେ ସମୟ ଆଉ ଜୁଆର",
+          "ତାଙ୍କ ସପକ୍ଷରେ ଫେରିବ,",
+          "ଆଉ ସେମାନେ ଏକ ସ୍ୱରରେ ମିଶି ଗାଇବେ",
+          "ବହୁଥିବା ପବନ ସହ, ଯାହା ବୋହିନିଏ",
+          "ତାଙ୍କ ମାଆ ଓ ମାତୃଭୂମିର ଗୌରବ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 23,
+        "before_lines": [
+          5,
+          11,
+          16
+        ],
+        "inline_breaks": [],
+        "source_sha256": "6fd333fc55794fcf85a1362c94a084eab87e5223abc03f73e21a0bd6fbf757a4",
+        "stanzas_sha256": "46f78590073a30c7a0b543987ce9297af74f686b667c3ad1332f1fccc4e46eb9"
+      }
+    }
+  },
+  {
+    "poem_id": 370,
+    "target": "hi",
+    "reading_evidence": "Read all5/6/5/7-line source/target stanzas: wind gathering clouds above turban/young fortune dreams lost frozen rain; adolescent discouragement/section hatred/night steals confidence/eyelids still/mother lap supper absence; frantic moments cause fear psychosis in budding minds and flight to dark from materiality; strong heart-soul bond believes time/tide turn favourable, unison singing wind carries mother/motherland grandeur. Checked nested minds-of-budding-souls relation and kept rough source imagery unassigned to real conflict.",
+    "reason": "Place possessive before minds and verb after the object phrase, removing mechanically detached genitive.",
+    "open_questions": [
+      "Prior turban not assigned region/event; fear psychosis is poetic wording, not diagnosis. Unruffled eyelids and mother/supper omission remain ambiguous source syntax."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 23,
+      "before_lines": [
+        5,
+        11,
+        16
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "6fd333fc55794fcf85a1362c94a084eab87e5223abc03f73e21a0bd6fbf757a4",
+    "before_sha256": "ed02c37176e7c146ed631ff016610dda66f908e33b62bb2996674b07ca9d41c5",
+    "after_sha256": "35b417fb53ec463e0cebd32cff3b37613d5ece4bc7ff406f7cb95a2dee159a2d",
+    "prior_uncertainties": [
+      {
+        "note": "Four stanzas retained. Turban kept literal; not assigned a regional/political event. Fear psychosis remains poetic wording, not a diagnosis. Unruffled eyelids and absence of mother/supper preserved despite ambiguous syntax.",
+        "record": "kb/production/translations/batch-103/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "जमी हुई बारिश",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "अचानक,",
+          "जब हवा बादल समेटती है",
+          "पगड़ी के ऊपर,",
+          "बेहतर भाग्य के युवा सपने",
+          "जमी हुई बारिश में खो जाते हैं।"
+        ],
+        [
+          "किशोर मन में निराशा बढ़ती है,",
+          "जो वर्गों में घृणा फैलाती है।",
+          "रात आत्मविश्वास और आस्थाएँ चुरा लेती है,",
+          "और उनकी पलकें अविचल छोड़ जाती है,",
+          "जहाँ माँ की गोद और रात के खाने की मेज़",
+          "का उल्लेख मिट जाता है।"
+        ],
+        [
+          "उन्मत्त क्षणों के विस्तार",
+          "भय का उन्माद लाते हैं मनों में",
+          "उभरती आत्माओं के,",
+          "जो उन्हें अँधेरे की ओर भागने को ले जाता है,",
+          "समूचे भौतिक जगत से दूर।"
+        ],
+        [
+          "फिर भी हृदय और आत्मा का दृढ़ बंधन",
+          "उन्हें विश्वास दिलाता है",
+          "कि एक दिन समय और ज्वार",
+          "उनके पक्ष में मुड़ेंगे,",
+          "और वे एक स्वर में संगत होकर गाएँगे",
+          "बहती हवा के साथ, जो ले चलती है",
+          "उनकी माँ और मातृभूमि का गौरव।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "जमी हुई बारिश",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "अचानक,",
+          "जब हवा बादल समेटती है",
+          "पगड़ी के ऊपर,",
+          "बेहतर भाग्य के युवा सपने",
+          "जमी हुई बारिश में खो जाते हैं।"
+        ],
+        [
+          "किशोर मन में निराशा बढ़ती है,",
+          "जो वर्गों में घृणा फैलाती है।",
+          "रात आत्मविश्वास और आस्थाएँ चुरा लेती है,",
+          "और उनकी पलकें अविचल छोड़ जाती है,",
+          "जहाँ माँ की गोद और रात के खाने की मेज़",
+          "का उल्लेख मिट जाता है।"
+        ],
+        [
+          "उन्मत्त क्षणों के विस्तार",
+          "उभरती आत्माओं के मनों में",
+          "भय का उन्माद भर देते हैं,",
+          "जो उन्हें अँधेरे की ओर भागने को ले जाता है,",
+          "समूचे भौतिक जगत से दूर।"
+        ],
+        [
+          "फिर भी हृदय और आत्मा का दृढ़ बंधन",
+          "उन्हें विश्वास दिलाता है",
+          "कि एक दिन समय और ज्वार",
+          "उनके पक्ष में मुड़ेंगे,",
+          "और वे एक स्वर में संगत होकर गाएँगे",
+          "बहती हवा के साथ, जो ले चलती है",
+          "उनकी माँ और मातृभूमि का गौरव।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 23,
+        "before_lines": [
+          5,
+          11,
+          16
+        ],
+        "inline_breaks": [],
+        "source_sha256": "6fd333fc55794fcf85a1362c94a084eab87e5223abc03f73e21a0bd6fbf757a4",
+        "stanzas_sha256": "eae383b4b63b5f351f4ced26bfe6c3e9683ca8bd1ebb7dc3731dbe52cba5f64c"
+      }
+    }
+  },
+  {
+    "poem_id": 372,
+    "target": "or",
+    "reading_evidence": "Read full8/5-line source/target stanzas: Earth explicitly herself as faithful beloved loves Sky/his distinctions blossom her layers, skin harvest owes Sky rain filling her veins/Ceres obligation to Apollo; Earth unbewildered celebrates physical and spiritual union/divine marriage Supreme Power beyond both partners control. Checked gendered Earth/Sky agency where both target pronouns collapse his/her, and celebration object order.",
+    "reason": "Name Sky as possessor of qualities and Earth as recipient; restore celebratory physical/spiritual relation object order.",
+    "open_questions": [
+      "Ceres/Apollo obligation is the poem’s comparison, retained without importing or correcting mythology. Physical/spiritual union and Supreme Power remain source viewpoint."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 13,
+      "before_lines": [
+        8
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "66e74430875d4e9d644be90440d05f140239f1578d5ae22b796a1c26f042baa3",
+    "before_sha256": "cc3bbb895be4fc9d4814241004f239e9bea7712b2095072c9f63189b7f05ab2c",
+    "after_sha256": "7f20d46c67815a2f675f348d928e0d942806d50df56a97f46a2efd58ab3e9a17",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପୃଥିବୀ ଓ ଆକାଶ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ପୃଥିବୀ ନିଜେ କହିପାରେ କାହିଁକି ସେ,",
+          "ବିଶ୍ୱସ୍ତ ପ୍ରେମିକା ପରି, ଆକାଶକୁ ଭଲପାଏ।",
+          "ସେ ବିଶ୍ୱାସ କରେ, ତା'ର କିଛି ବିଶେଷ ଗୁଣ",
+          "ମିଶି ତା' ସ୍ତରମାନଙ୍କୁ ଫୁଟାନ୍ତି।",
+          "ସେ ଭାବେ ତା' ଚର୍ମର ଫସଲ",
+          "ଆକାଶ ଦେଉଥିବା ବର୍ଷାର ଋଣୀ,",
+          "ଯାହା ତା' ଶିରାକୁ ପୂର୍ଣ୍ଣ କରେ,",
+          "ଯେମିତି ସେରେସ୍ ଆପୋଲୋର ଋଣୀ।"
+        ],
+        [
+          "ସେ କେବେ ବିଭ୍ରାନ୍ତ ନୁହେଁ, ପାଳେ ନିଜର ଦୁଇ ପ୍ରକାର",
+          "ଶାରୀରିକ ଓ ଆଧ୍ୟାତ୍ମିକ ସମ୍ପର୍କ ତା' ସହ,",
+          "ତାକୁ ଦିବ୍ୟ ବିବାହ ଭାବେ, ଯାହା",
+          "ନିଜେ ପରମ ଶକ୍ତିଙ୍କ କାର୍ଯ୍ୟ,",
+          "ତା'ର ଓ ତା' ଆକାଶର ସବୁ ନିୟନ୍ତ୍ରଣ ବାହାରେ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପୃଥିବୀ ଓ ଆକାଶ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ପୃଥିବୀ ନିଜେ କହିପାରେ କାହିଁକି ସେ,",
+          "ବିଶ୍ୱସ୍ତ ପ୍ରେମିକା ପରି, ଆକାଶକୁ ଭଲପାଏ।",
+          "ସେ ବିଶ୍ୱାସ କରେ, ଆକାଶର କିଛି ବିଶେଷ ଗୁଣ",
+          "ମିଶି ପୃଥିବୀର ସ୍ତରମାନଙ୍କୁ ଫୁଟାନ୍ତି।",
+          "ସେ ଭାବେ ତା' ଚର୍ମର ଫସଲ",
+          "ଆକାଶ ଦେଉଥିବା ବର୍ଷାର ଋଣୀ,",
+          "ଯାହା ତା' ଶିରାକୁ ପୂର୍ଣ୍ଣ କରେ,",
+          "ଯେମିତି ସେରେସ୍ ଆପୋଲୋର ଋଣୀ।"
+        ],
+        [
+          "ସେ କେବେ ବିଭ୍ରାନ୍ତ ନୁହେଁ, ଆନନ୍ଦରେ ପାଳେ",
+          "ତା' ସହ ନିଜ ଶାରୀରିକ ଓ ଆଧ୍ୟାତ୍ମିକ ସମ୍ପର୍କକୁ,",
+          "ତାକୁ ଦିବ୍ୟ ବିବାହ ଭାବେ, ଯାହା",
+          "ନିଜେ ପରମ ଶକ୍ତିଙ୍କ କାର୍ଯ୍ୟ,",
+          "ତା'ର ଓ ତା' ଆକାଶର ସବୁ ନିୟନ୍ତ୍ରଣ ବାହାରେ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 13,
+        "before_lines": [
+          8
+        ],
+        "inline_breaks": [],
+        "source_sha256": "66e74430875d4e9d644be90440d05f140239f1578d5ae22b796a1c26f042baa3",
+        "stanzas_sha256": "a8c5b7c72dd955fd7c24f47392fa9c9ed2ca92c975bed8bd93b23998dc71181b"
+      }
+    }
+  },
+  {
+    "poem_id": 372,
+    "target": "hi",
+    "reading_evidence": "Read full8/5-line source/target stanzas: Earth explicitly herself as faithful beloved loves Sky/his distinctions blossom her layers, skin harvest owes Sky rain filling her veins/Ceres obligation to Apollo; Earth unbewildered celebrates physical and spiritual union/divine marriage Supreme Power beyond both partners control. Checked gendered Earth/Sky agency where both target pronouns collapse his/her, and celebration object order.",
+    "reason": "Recover explicit his-Sky/her-Earth relationship and natural celebration syntax rather than ambiguous possessives and broken modifier sequence.",
+    "open_questions": [
+      "Ceres/Apollo obligation is the poem’s comparison, retained without importing or correcting mythology. Physical/spiritual union and Supreme Power remain source viewpoint."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 13,
+      "before_lines": [
+        8
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "66e74430875d4e9d644be90440d05f140239f1578d5ae22b796a1c26f042baa3",
+    "before_sha256": "654b21fab6c5d51bd1ce5a11df9c5dca442b5683aba41388e8474765f855bca8",
+    "after_sha256": "4d7d55aaa26ae3bbfd0b2cc9ff15b3f587f170200e53193e3873391c855f07eb",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "धरती और आकाश",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "धरती स्वयं कह सकती है कि क्यों वह,",
+          "निष्ठावान प्रेयसी की तरह, आकाश से प्रेम करती है।",
+          "वह मानती है, उसके कुछ विशिष्ट गुण",
+          "उसकी परतें खिलाने में मिलकर लगते हैं।",
+          "वह मानती है अपनी त्वचा की फ़सल",
+          "आकाश की दी हुई वर्षा की ऋणी है,",
+          "जो उसकी नसें पूरी भर देती है,",
+          "जैसे सीरीज़ अपोलो की ऋणी हो।"
+        ],
+        [
+          "वह कभी भ्रमित नहीं, मनाती है अपना दोनों तरह का",
+          "शारीरिक और आध्यात्मिक संबंध उससे,",
+          "उसे दिव्य विवाह मानती है, जो",
+          "स्वयं परम शक्ति का कर्म है,",
+          "उसके और उसके आकाश के हर नियंत्रण से परे।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "धरती और आकाश",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "धरती स्वयं कह सकती है कि क्यों वह,",
+          "निष्ठावान प्रेयसी की तरह, आकाश से प्रेम करती है।",
+          "वह मानती है, आकाश के कुछ विशिष्ट गुण",
+          "धरती की परतें खिलाने में मिलकर लगते हैं।",
+          "वह मानती है अपनी त्वचा की फ़सल",
+          "आकाश की दी हुई वर्षा की ऋणी है,",
+          "जो उसकी नसें पूरी भर देती है,",
+          "जैसे सीरीज़ अपोलो की ऋणी हो।"
+        ],
+        [
+          "वह कभी भ्रमित नहीं, उल्लास मनाती है",
+          "उससे अपने शारीरिक और आध्यात्मिक संबंध का,",
+          "उसे दिव्य विवाह मानती है, जो",
+          "स्वयं परम शक्ति का कर्म है,",
+          "उसके और उसके आकाश के हर नियंत्रण से परे।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 13,
+        "before_lines": [
+          8
+        ],
+        "inline_breaks": [],
+        "source_sha256": "66e74430875d4e9d644be90440d05f140239f1578d5ae22b796a1c26f042baa3",
+        "stanzas_sha256": "3cd8b433af3947288c006ccdf600bf78208f9d04ecd08a9236a4ef4862bed008"
+      }
+    }
+  },
+  {
+    "poem_id": 374,
+    "target": "or",
+    "reading_evidence": "Read all twenty-two source/target lines: conditional death serving motherland with countrymen hearts revolution fire means no regret, death causing cowards courage accepted smiling; contrast anger subsiding inward burning them and coward flight at death, direct beloved-countrymen address refuses such death. Checked conditions and opposition without converting to exhortation or erasing political intensity.",
+    "reason": "Restore native possessive order for motherland service, country’s cowards and fellows’ anger while preserving twenty-two lines and conditional turns.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 22,
+      "before_lines": [],
+      "inline_breaks": []
+    },
+    "source_sha256": "77da22dfc9f3e8af12d149686b3dc18c48be99461732e4cde73dac6fb516ee2b",
+    "before_sha256": "f1f43c4f7552c026b08cca260764c1110faf8de32bb9a8938984e26646a7757e",
+    "after_sha256": "c919680071f7dc3948807a827e5b4a2beed2c5b4b78dc73c37d6b89fb9a33bab",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଯଦି ମୁଁ ମରେ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଯଦି ମୁଁ ମରେ",
+          "ସେବାରେ",
+          "ମାତୃଭୂମିର,",
+          "ଆଉ ମୋ ଦେଶବାସୀଙ୍କ ହୃଦୟ",
+          "ଭରିଯାଏ",
+          "ବିପ୍ଳବର ଅଗ୍ନିରେ,",
+          "ନିଜ ମୃତ୍ୟୁ ପାଇଁ ମୁଁ ଅନୁତାପ କରିବିନି।",
+          "ଯେବେ ମୁଁ ମରେ,",
+          "ଯଦି ଭୀରୁ ଲୋକମାନେ",
+          "ମୋ ଦେଶର",
+          "ସାହସୀ ହୋଇଯାଆନ୍ତି,",
+          "ମୁଁ ନିଜ ମୃତ୍ୟୁକୁ ଗ୍ରହଣ କରିବି",
+          "ମୁହଁରେ ହସ ନେଇ।",
+          "କିନ୍ତୁ ଯଦି କ୍ରୋଧର ଅଗ୍ନି",
+          "ମୋ ସାଥୀମାନଙ୍କର",
+          "ତାଙ୍କ ହୃଦୟ ଭିତରେ ହିଁ ଦବିଯାଏ,",
+          "ତାଙ୍କୁ ନିଜେ ଜାଳି,",
+          "ଆଉ ଭୀରୁମାନେ ଡରି ପଳାନ୍ତି",
+          "ମୋ ମୃତ୍ୟୁ ଦେଖି,",
+          "ମୋ ପ୍ରିୟ ଦେଶବାସୀ,",
+          "ମୁଁ କେବେ ଚାହେଁନା",
+          "ଏମିତି ମୃତ୍ୟୁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଯଦି ମୁଁ ମରେ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଯଦି ମୁଁ ମରେ",
+          "ମାତୃଭୂମିର",
+          "ସେବାରେ,",
+          "ଆଉ ମୋ ଦେଶବାସୀଙ୍କ ହୃଦୟ",
+          "ଭରିଯାଏ",
+          "ବିପ୍ଳବର ଅଗ୍ନିରେ,",
+          "ନିଜ ମୃତ୍ୟୁ ପାଇଁ ମୁଁ ଅନୁତାପ କରିବିନି।",
+          "ଯେବେ ମୁଁ ମରେ,",
+          "ଯଦି ମୋ ଦେଶର",
+          "ଭୀରୁ ଲୋକମାନେ",
+          "ସାହସୀ ହୋଇଯାଆନ୍ତି,",
+          "ମୁଁ ନିଜ ମୃତ୍ୟୁକୁ ଗ୍ରହଣ କରିବି",
+          "ମୁହଁରେ ହସ ନେଇ।",
+          "କିନ୍ତୁ ଯଦି ମୋ ସାଥୀମାନଙ୍କ",
+          "କ୍ରୋଧର ଅଗ୍ନି",
+          "ତାଙ୍କ ହୃଦୟ ଭିତରେ ହିଁ ଦବିଯାଏ,",
+          "ତାଙ୍କୁ ନିଜେ ଜାଳି,",
+          "ଆଉ ଭୀରୁମାନେ ଡରି ପଳାନ୍ତି",
+          "ମୋ ମୃତ୍ୟୁ ଦେଖି,",
+          "ମୋ ପ୍ରିୟ ଦେଶବାସୀ,",
+          "ମୁଁ କେବେ ଚାହେଁନା",
+          "ଏମିତି ମୃତ୍ୟୁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 22,
+        "before_lines": [],
+        "inline_breaks": [],
+        "source_sha256": "77da22dfc9f3e8af12d149686b3dc18c48be99461732e4cde73dac6fb516ee2b",
+        "stanzas_sha256": "14995d9ac812988735571a70a5e421ef40e4bf8c6c00df8be6a11a2c04b0ba12"
+      }
+    }
+  },
+  {
+    "poem_id": 374,
+    "target": "hi",
+    "reading_evidence": "Read all twenty-two source/target lines: conditional death serving motherland with countrymen hearts revolution fire means no regret, death causing cowards courage accepted smiling; contrast anger subsiding inward burning them and coward flight at death, direct beloved-countrymen address refuses such death. Checked conditions and opposition without converting to exhortation or erasing political intensity.",
+    "reason": "Untangle country/people and fellows/anger genitives while keeping firm final refusal.",
+    "open_questions": [
+      "Hindi masculine narrator remains provisional; source does not establish gender."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 22,
+      "before_lines": [],
+      "inline_breaks": []
+    },
+    "source_sha256": "77da22dfc9f3e8af12d149686b3dc18c48be99461732e4cde73dac6fb516ee2b",
+    "before_sha256": "06a1a637b883723c5bd9af390e71b2f2bc76f932381431b298f73ec56115e761",
+    "after_sha256": "10d49224ab265dcd766600bdc9a077f61fdd0c2b6d797c070cb96dda47297d52",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "यदि मैं मरूँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "यदि मैं मरूँ",
+          "मातृभूमि की",
+          "सेवा में,",
+          "और मेरे देशवासियों के हृदय",
+          "भर जाएँ",
+          "क्रांति की आग से,",
+          "मुझे अपनी मृत्यु का पछतावा नहीं होगा।",
+          "जब मैं मरूँ,",
+          "यदि कायर लोग",
+          "मेरे देश के",
+          "साहसी हो जाएँ,",
+          "मैं अपनी मृत्यु स्वीकार करूँगा",
+          "चेहरे पर मुस्कान लिए।",
+          "पर यदि क्रोध की आग",
+          "मेरे साथियों की",
+          "उनके हृदय के भीतर ही दब जाए,",
+          "उन्हें स्वयं जलाती हुई,",
+          "और कायर डरकर भाग जाएँ",
+          "मेरी मृत्यु देखकर,",
+          "मेरे प्यारे देशवासियो,",
+          "मैं कभी नहीं चाहता",
+          "ऐसी मृत्यु।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "यदि मैं मरूँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "यदि मैं मरूँ",
+          "मातृभूमि की",
+          "सेवा में,",
+          "और मेरे देशवासियों के हृदय",
+          "भर जाएँ",
+          "क्रांति की आग से,",
+          "मुझे अपनी मृत्यु का पछतावा नहीं होगा।",
+          "जब मैं मरूँ,",
+          "यदि मेरे देश के",
+          "कायर लोग",
+          "साहसी हो जाएँ,",
+          "मैं अपनी मृत्यु स्वीकार करूँगा",
+          "चेहरे पर मुस्कान लिए।",
+          "पर यदि मेरे साथियों के",
+          "क्रोध की आग",
+          "उनके हृदय के भीतर ही दब जाए,",
+          "उन्हें स्वयं जलाती हुई,",
+          "और कायर डरकर भाग जाएँ",
+          "मेरी मृत्यु देखकर,",
+          "मेरे प्यारे देशवासियो,",
+          "मैं कभी नहीं चाहता",
+          "ऐसी मृत्यु।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 22,
+        "before_lines": [],
+        "inline_breaks": [],
+        "source_sha256": "77da22dfc9f3e8af12d149686b3dc18c48be99461732e4cde73dac6fb516ee2b",
+        "stanzas_sha256": "a2ab3f0b257a5f07fad6156f8ec32457bb0e511778bfc6ad5492824b332a008a"
+      }
+    }
+  }
+]

@@ -1,0 +1,247 @@
+{
+  "recorded_at": "2026-10-06T04:39:05.320031+00:00",
+  "poem_ids": [
+    151,
+    152,
+    164,
+    165,
+    160
+  ],
+  "variants_read": 10,
+  "variants_changed": 6,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 151,
+      "target": "hi",
+      "reading_evidence": "Read complete five-block Odia source and each full target: inner picture lifts green morning/seeing criminal; silent hope and spinning top, reflection fear; shifting sandbank mountain sorrow repeats scattered old promises; trusted companion voluntarily stops halfway; bound triangle and unfindable self in changing sorrow/tears. Preserved uncertain triangle and hope agency, no invented love-triangle narrative.",
+      "open_questions": [
+        "Hindi masculine speaker and companion remain provisional; source does not specify their gender.",
+        "Silent hope is the provisional referent of fearing its reflection; triangle is unexplained."
+      ],
+      "reason": "Repair awkward lead-along collocation without changing companion promise or halfway abandonment.",
+      "tradeoff": "Preserve stanza turns, register, images and deliberate strangeness. Current-assistant self-review only; independent fluent/author review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "08b9813479ac8732004c6d449a5e0cbdf600a052667634445ca10e38001896e9",
+      "before_sha256": "9b10ed0c525b5385ff59d4f3e7d752b7e47704d02ca58d7794292ed18d563fc2",
+      "after_sha256": "05eec7594f6f05c84b734b4a209894389fc1c9b663ba11082d433d03c8a46245",
+      "prior_uncertainties": [
+        {
+          "note": "Five blocks retained. Silent hope fears its reflection; final missing self retained. Hindi masculine provisional; English companion gender unspecified.",
+          "record": "kb/production/translations/batch-146/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 151,
+      "target": "en",
+      "reading_evidence": "Read complete five-block Odia source and each full target: inner picture lifts green morning/seeing criminal; silent hope and spinning top, reflection fear; shifting sandbank mountain sorrow repeats scattered old promises; trusted companion voluntarily stops halfway; bound triangle and unfindable self in changing sorrow/tears. Preserved uncertain triangle and hope agency, no invented love-triangle narrative.",
+      "open_questions": [
+        "Silent hope is the provisional referent of fearing its reflection; triangle is unexplained."
+      ],
+      "reason": "Retain restrained green-morning opening, scattered promises, voluntary halfway stop and missing-self ending; companion remains gender-unspecified.",
+      "tradeoff": "Preserve stanza turns, register, images and deliberate strangeness. Current-assistant self-review only; independent fluent/author review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "08b9813479ac8732004c6d449a5e0cbdf600a052667634445ca10e38001896e9",
+      "before_sha256": "f11d27de93c119a0426700c15dcc47b60ff838d6d0d9741504eafe1c5ba7d0ce",
+      "after_sha256": "f11d27de93c119a0426700c15dcc47b60ff838d6d0d9741504eafe1c5ba7d0ce",
+      "prior_uncertainties": [
+        {
+          "note": "Five blocks retained. Silent hope fears its reflection; final missing self retained. Hindi masculine provisional; English companion gender unspecified.",
+          "record": "kb/production/translations/batch-146/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 152,
+      "target": "hi",
+      "reading_evidence": "Read full seven-block Odia source and both targets: woman/river primal beauty, harsh sun and fenced flowing feet obstructed/dying/cursed and wounded girl baffled by time; address/name changes through peak/plain/tributary/care-of; affection sacrifice endurance and green banks; desired ocean-man welcomes winding swan-like river over mountain walls; estuary surrender/invitation/heavenly love earthly version, final fulfilled name erasure. Checked feminine river and masculine ocean throughout, preserving authorial analogy without endorsement or explanation.",
+      "open_questions": [
+        "Prior batch146 lexical hold: nua kuan rendered new sprouts on green banks; this meaning remains provisional and is not resolved by smoothing the target verb.",
+        "Ocean-man invitation and feminine river follow source personification; no named deity, marriage detail or moral supplied."
+      ],
+      "reason": "Repair unnatural sprout-opening collocation within existing provisional reading, and welcoming-affection syntax; preserve name-erasure ending.",
+      "tradeoff": "Sprout verb becomes natural Hindi growth while the uncertain source noun stays explicitly held. Apnapan retains welcome rather than an added moral about union.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "328723258ca2fd532fa0bebb24c541038ffa65d80cd92dc75407ccd7a3ecdba9",
+      "before_sha256": "a6634859c4fb8a1edfcd6a27fd8a7e51547bf0052e2e5a5d8c21864e6e7727f5",
+      "after_sha256": "6af4f0f7750bc9ad66148af4d8f44db802869dffdd0211cb42c52258c3d31513",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 152,
+      "target": "en",
+      "reading_evidence": "Read full seven-block Odia source and both targets: woman/river primal beauty, harsh sun and fenced flowing feet obstructed/dying/cursed and wounded girl baffled by time; address/name changes through peak/plain/tributary/care-of; affection sacrifice endurance and green banks; desired ocean-man welcomes winding swan-like river over mountain walls; estuary surrender/invitation/heavenly love earthly version, final fulfilled name erasure. Checked feminine river and masculine ocean throughout, preserving authorial analogy without endorsement or explanation.",
+      "open_questions": [
+        "Prior batch146 lexical hold: nua kuan rendered new sprouts on green banks; this meaning remains provisional and is not resolved by smoothing the target verb.",
+        "Ocean-man invitation and feminine river follow source personification; no named deity, marriage detail or moral supplied."
+      ],
+      "reason": "Repair opens-sprouts collocation while retaining the provisional new-shoots image and river agency.",
+      "tradeoff": "Puts out shoots is idiomatic growth; it does not certify the uncertain Odia noun. Preserve address/care-of metaphor and troubling final erasure.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "328723258ca2fd532fa0bebb24c541038ffa65d80cd92dc75407ccd7a3ecdba9",
+      "before_sha256": "e92fce1915d6d747c68e8d3f1ecfd1b0ecdc184a07f9a1e738116318567cf6b6",
+      "after_sha256": "ca6128fbef4279655c95623301b6c643b65e451803222362b95b818c9d07da86",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 164,
+      "target": "hi",
+      "reading_evidence": "Read all four blocks including isolated closing line: jewelled altar lamp burns/dies, whose name Gopa lanes nagara dibidibi, goddess gesture all times dance; bodily coils cover artha/paramartha, blue eyes swallow worldful pride/ocean distrust; one step ahead seven back, deeds/misdeeds sin/merit, heaven and even hell, eyes stand guard. Preserved devotional/erotic overlap, numbers and final delayed eyes rather than assigning deity or relationship.",
+      "open_questions": [
+        "Hindi masculine speaker provisional; feminine beloved/goddess explicit.",
+        "Gopa, nagara and altar not assigned to a specific deity; artha/paramartha meanings remain layered."
+      ],
+      "reason": "Restore natural possessive in worldful-pride phrase; keep source Sanskritic word pairing.",
+      "tradeoff": "Preserve stanza turns, register, images and deliberate strangeness. Current-assistant self-review only; independent fluent/author review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "6fec24d39f8fe9c8d04c14a8c878d32908ac1bb05143a4a525c8faa4b1e5a1c8",
+      "before_sha256": "691d6460bcd527d5bfba2bdb22aa4f3ec9d2f6f8d1ea0a256c687cb81d26036a",
+      "after_sha256": "f68f1abb5392cb6e56cdea8b074d7a8cf816b06b66b5c17d2af2e177e2edc330",
+      "prior_uncertainties": [
+        {
+          "note": "Four blocks including single closing line retained. Gopa, nagara sound, jewelled altar retained without assigning specific deity. Hindi masculine speaker provisional.",
+          "record": "kb/production/translations/batch-146/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 164,
+      "target": "en",
+      "reading_evidence": "Read all four blocks including isolated closing line: jewelled altar lamp burns/dies, whose name Gopa lanes nagara dibidibi, goddess gesture all times dance; bodily coils cover artha/paramartha, blue eyes swallow worldful pride/ocean distrust; one step ahead seven back, deeds/misdeeds sin/merit, heaven and even hell, eyes stand guard. Preserved devotional/erotic overlap, numbers and final delayed eyes rather than assigning deity or relationship.",
+      "open_questions": [
+        "Gopa, nagara and altar not assigned to a specific deity; worldly meaning/higher purpose interpret layered artha/paramartha."
+      ],
+      "reason": "Carry Hindi/Odia heaven-of-course idiom into natural English so even hell supplies the intended escalation.",
+      "tradeoff": "Retain delayed final eyes-stand-guard line; of course expresses the expected heaven before the surprising hell, without explaining divine omnipresence.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "6fec24d39f8fe9c8d04c14a8c878d32908ac1bb05143a4a525c8faa4b1e5a1c8",
+      "before_sha256": "8954fc367af80c26b8748a34ec0765932de3a86fadb6fd85359686c9c2f03029",
+      "after_sha256": "9f5359d15f06c188ba21bedaca1f483924e3a82961f60367e08f376a06d857b8",
+      "prior_uncertainties": [
+        {
+          "note": "Four blocks including single closing line retained. Gopa, nagara sound, jewelled altar retained without assigning specific deity. Hindi masculine speaker provisional.",
+          "record": "kb/production/translations/batch-146/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 165,
+      "target": "hi",
+      "reading_evidence": "Read complete16-line source and both complete targets: invisible face/inaudible call, one heard word variously Shabda Brahman/beloved/God; heart realization guru God/you supreme; absorbed yet detached in existence, dear-word disillusion showing inward state, lost feminine ekakini following word/presence in search of Lord. Checked source-explicit feminine speaker and preserved absorbed/detached paradox and sound/word spiritual register.",
+      "open_questions": [
+        "Dear-word relation to breaking illusion remains syntactically/causally uncertain; do not resolve as rejection or revelation.",
+        "Shabda carries sound/word resonance; named Shabda Brahman retained without doctrinal expansion."
+      ],
+      "reason": "Retain all16 lines and devotional uncertainty; no independent defensible wording correction required.",
+      "tradeoff": "Preserve stanza turns, register, images and deliberate strangeness. Current-assistant self-review only; independent fluent/author review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "41f0ea70f41415feac5a7871eb73db553033d9624bc44ccc0bad642ce820f64c",
+      "before_sha256": "b2932733c574cb64ac1cde899f6e5e13eb31133d35741518e8c7675799fe9265",
+      "after_sha256": "b2932733c574cb64ac1cde899f6e5e13eb31133d35741518e8c7675799fe9265",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 165,
+      "target": "en",
+      "reading_evidence": "Read complete16-line source and both complete targets: invisible face/inaudible call, one heard word variously Shabda Brahman/beloved/God; heart realization guru God/you supreme; absorbed yet detached in existence, dear-word disillusion showing inward state, lost feminine ekakini following word/presence in search of Lord. Checked source-explicit feminine speaker and preserved absorbed/detached paradox and sound/word spiritual register.",
+      "open_questions": [
+        "Dear-word relation to breaking illusion remains syntactically/causally uncertain; do not resolve as rejection or revelation.",
+        "Shabda carries sound/word resonance; named Shabda Brahman retained without doctrinal expansion."
+      ],
+      "reason": "Retain all16 lines and devotional uncertainty; no independent defensible wording correction required.",
+      "tradeoff": "Preserve stanza turns, register, images and deliberate strangeness. Current-assistant self-review only; independent fluent/author review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "41f0ea70f41415feac5a7871eb73db553033d9624bc44ccc0bad642ce820f64c",
+      "before_sha256": "03f3f80e2896f3c921d130ad74ba7e59b8ff0e422e5416fa8bb2f85c7c8dc729",
+      "after_sha256": "03f3f80e2896f3c921d130ad74ba7e59b8ff0e422e5416fa8bb2f85c7c8dc729",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 160,
+      "target": "or",
+      "reading_evidence": "Read all six source blocks and both targets: maternal grandfather buys red plastic soap dish at fair; local soap/ghat morning swagger; age/soap and gusalkhana-to-bathroom shift but dish unchanged; expensive shower branded gels and hoped harmony; dish/old fixed thinking cannot gel; lonely-island misfit in corner and delayed self at social gatherings. Checked nana lineage, masculine Hindi speaker, soap-gel/gel pun and colonial-language/register change, no inference from poet identity.",
+      "open_questions": [],
+      "reason": "Retain ajā maternal-grandfather term, gusalkhana/bathroom register shift, gel plus minimal mixing wording and delayed personal ending.",
+      "tradeoff": "Preserve stanza turns, register, images and deliberate strangeness. Current-assistant self-review only; independent fluent/author review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "0691a929614c2f0c9e2aba1390010ca1723a60ba77aa3f80902efb1dff6367ea",
+      "before_sha256": "461470ec90bfca6e2dc91b18a106f4c807296c9effadfc67b82f9dbc1c3d605b",
+      "after_sha256": "461470ec90bfca6e2dc91b18a106f4c807296c9effadfc67b82f9dbc1c3d605b",
+      "prior_uncertainties": [
+        {
+          "note": "Six blocks retained. Maternal grandfather precise; gel/shower-gel pun preserved with transliteration and gloss in Odia. Gusalkhana/bathroom register change retained.",
+          "record": "kb/production/translations/batch-146/review.json"
+        }
+      ],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 160,
+      "target": "en",
+      "reading_evidence": "Read all six source blocks and both targets: maternal grandfather buys red plastic soap dish at fair; local soap/ghat morning swagger; age/soap and gusalkhana-to-bathroom shift but dish unchanged; expensive shower branded gels and hoped harmony; dish/old fixed thinking cannot gel; lonely-island misfit in corner and delayed self at social gatherings. Checked nana lineage, masculine Hindi speaker, soap-gel/gel pun and colonial-language/register change, no inference from poet identity.",
+      "open_questions": [],
+      "reason": "Restore source gusalkhana/bathroom language contrast; generic English washroom/bathroom synonyms erased the generational register change.",
+      "tradeoff": "Keep culturally situated gusalkhana intelligible through bathing context; no explanatory footnote inside poem. Native English gel pun and maternal lineage remain exact.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "0691a929614c2f0c9e2aba1390010ca1723a60ba77aa3f80902efb1dff6367ea",
+      "before_sha256": "c52c0a4b196fcfebf2396ee30424fea7d44692b4d3af96b8a710f24c8804e419",
+      "after_sha256": "4bada664b570084a8efc9f4121dccb5186847aa9820b65ce66012110a7f899df",
+      "prior_uncertainties": [
+        {
+          "note": "Six blocks retained. Maternal grandfather precise; gel/shower-gel pun preserved with transliteration and gloss in Odia. Gusalkhana/bathroom register change retained.",
+          "record": "kb/production/translations/batch-146/review.json"
+        }
+      ],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

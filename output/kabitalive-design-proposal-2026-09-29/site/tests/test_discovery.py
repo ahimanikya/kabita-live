@@ -17,7 +17,7 @@ class DiscoveryTests(unittest.TestCase):
   again,_=enrich(text,'poem-1.html',self.entry(),{},True);self.assertEqual(text,again)
  def test_holds_aliases_and_preview_remain_noindex(self):
   source='<head></head><h1>Poem</h1>'
-  for name,status,entry in [('poem-1.html',{'missing_author_names':[1]},self.entry()),('404.html',{},self.entry('404.html')),('poet-2.html',{},dict(self.entry('poet-2.html'),canonical_url='https://kabitalive.com/poet-1.html'))]:
+  for name,status,entry in [('poem-1.html',{'missing_author_names':[1]},self.entry()),('404.html',{},self.entry('404.html')),('translation-review.html',{},self.entry('translation-review.html')),('poet-2.html',{},dict(self.entry('poet-2.html'),canonical_url='https://kabitalive.com/poet-1.html'))]:
    result,index=enrich(source,name,entry,status,True);self.assertFalse(index);self.assertIn('noindex,follow',result)
   result,index=enrich(source,'poem-1.html',self.entry(),{},False);self.assertFalse(index);self.assertIn('noindex,nofollow',result)
  def test_search_allowed_training_blocked(self):
@@ -30,7 +30,7 @@ class DiscoveryTests(unittest.TestCase):
    root=Path(tmp);write_discovery(root,{'poem-1.html':self.entry()},'https://kabitalive.com/')
    xml=ET.parse(root/'sitemap.xml');self.assertEqual(len(xml.getroot()),1)
    self.assertIn('https://kabitalive.com/poem-1.html',(root/'sitemap.xml').read_text())
-   self.assertNotIn('/kb/',(root/'llms.txt').read_text());self.assertIn('not independently reviewed',(root/'llms.txt').read_text())
+   self.assertNotIn('/kb/',(root/'llms.txt').read_text());self.assertNotIn('translation-review.html',(root/'llms.txt').read_text())
  def test_json_cannot_close_script(self):
   entry=self.entry();entry['description']='</script><script>alert(1)</script>'
   out,_=enrich('<head></head>','poem-1.html',entry,{},True)

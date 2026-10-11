@@ -1,0 +1,646 @@
+[
+  {
+    "poem_id": 496,
+    "target": "en",
+    "reading_evidence": "Read all six source/target stanzas: fivefold sparklers/joy/mother sharing light, tender foot blister and melting fire/longing, learning fire while heart burns, Mother/dark prohibition and foot ambiguity, moth burning/falling and lamp holding light, burning darkness/moonless flicker/heart/body-lamp and final question. No family number inferred from five shares.",
+    "reason": "Make the by-the-time relation and already-burned heart readable, removing the dangling that clause without adding a new participant.",
+    "open_questions": [
+      "Mother/addressee and foot remains wording stay ambiguous. Lobha as longing/lalasa retains a possible greed resonance pending fluent review."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "4940ae6791fb016f281d4454b0de708389c7af863f583e0bea2a17580341700e",
+    "before_sha256": "734f269e2dbc008611ef63264ba353eaebcc27e9dd8cb109f3ddf2952bab9444",
+    "after_sha256": "db042f918540ed38ed249516ee4d2dc47c6dda204db7c08bba837c2757ce88fc",
+    "prior_uncertainties": [
+      {
+        "note": "Six stanzas retained with fivefold sharing, blister/fire, moth and lamp imagery. Mother/addressee and foot-remains ambiguity retained; no invented family count. ଲୋଭ rendered longing/lalasa in context, with greed resonance for review.",
+        "record": "kb/production/translations/batch-070/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Whirlpool—21",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Five shares of sparklers,",
+          "five shares of joy;",
+          "as Mother divides herself into five shares,",
+          "every share is light, nothing but light."
+        ],
+        [
+          "Inside that blister on a tender foot,",
+          "scalded by an exploding firework,",
+          "the fire that keeps melting",
+          "is a longing!"
+        ],
+        [
+          "While learning that fire means burning,",
+          "that the heart has already burned like paper—",
+          "how could a tender soul understand!"
+        ],
+        [
+          "Do not go into the dark, Mother!",
+          "Whether the foot stays or not,",
+          "as though someone had cast a spell, right there",
+          "the darkness stops.",
+          "With Mother there, darkness is forbidden to me,",
+          "and I am forbidden to darkness."
+        ],
+        [
+          "The moth's burning,",
+          "the moth's falling—all are merely love of light!",
+          "Even the loveliest lamp gathers one little streak of light",
+          "into its lap, making it everything."
+        ],
+        [
+          "Only darkness is created by burning darkness.",
+          "In the darkness of the moonless night,",
+          "where the intoxication of flickering flame",
+          "burns the heart",
+          "and makes a lamp of the body,",
+          "who asks after light there!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Whirlpool—21",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Five shares of sparklers,",
+          "five shares of joy;",
+          "as Mother divides herself into five shares,",
+          "every share is light, nothing but light."
+        ],
+        [
+          "Inside that blister on a tender foot,",
+          "scalded by an exploding firework,",
+          "the fire that keeps melting",
+          "is a longing!"
+        ],
+        [
+          "By the time one learns that fire means burning,",
+          "the heart has already burned like paper—",
+          "how could a tender soul understand!"
+        ],
+        [
+          "Do not go into the dark, Mother!",
+          "Whether the foot stays or not,",
+          "as though someone had cast a spell, right there",
+          "the darkness stops.",
+          "With Mother there, darkness is forbidden to me,",
+          "and I am forbidden to darkness."
+        ],
+        [
+          "The moth's burning,",
+          "the moth's falling—all are merely love of light!",
+          "Even the loveliest lamp gathers one little streak of light",
+          "into its lap, making it everything."
+        ],
+        [
+          "Only darkness is created by burning darkness.",
+          "In the darkness of the moonless night,",
+          "where the intoxication of flickering flame",
+          "burns the heart",
+          "and makes a lamp of the body,",
+          "who asks after light there!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 497,
+    "target": "en",
+    "reading_evidence": "Complete two verse stanzas and professional tail read: trembling/falling words and earthquake ruins, baby girl protected by dead mother, words surviving landslide/ashes/bones, rain/thunder wounded words, moon/sun weaving gold-silver nets, memory-fragrance gust, lament over dead farmer and words fleeing hungry refugee, poem lines tearing themselves. Original contributor affiliation preserved.",
+    "reason": "Keep the repeated alternation but remove the split possessives that make the light-weaving image unnecessarily hard to parse.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "0efd994dea2a20034b1b2571c9fd078703d9bf28d9642bc59fd3fda6d96fc6dd",
+    "before_sha256": "db26e5ce79f06bea0996392b1dd28b335ebd915d4f329f55fff80aae0ddfe5ec",
+    "after_sha256": "3d7e5cc0aab36893871e2a3c6314b0d458c1284b1170260e132fbf19476b85e4",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "From the First Line",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Sometimes words tremble",
+          "from the very first line of a poem.",
+          "Some words fall down, farther down—",
+          "can they be found",
+          "beneath the earth collapsed in an earthquake,",
+          "among the ruins?"
+        ],
+        [
+          "Like a baby girl kept safe",
+          "in the embrace of her dead mother,",
+          "some words remain alive.",
+          "They have to be sought",
+          "in the darkness after a landslide,",
+          "among ashes, like bones after cremation.",
+          "From the very first line,",
+          "sometimes in rain, sometimes in thunder and lightning,",
+          "the words are wounded;",
+          "sometimes in the moon's, sometimes in the sun's",
+          "light, they weave nets of gold and silver.",
+          "From the beginning itself, sometimes words tremble",
+          "in a gust of wind,",
+          "like the fragrance of your memory",
+          "that touches me and vanishes.",
+          "When words gather round a farmer's dead body in a paddy field",
+          "and sing their lament,",
+          "when words flee",
+          "from a starving refugee's pale lips,",
+          "the lines of the poem tear open by themselves."
+        ],
+        [
+          "Former Professor of English, B. J. B. Autonomous College, Bhubaneswar"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "From the First Line",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Sometimes words tremble",
+          "from the very first line of a poem.",
+          "Some words fall down, farther down—",
+          "can they be found",
+          "beneath the earth collapsed in an earthquake,",
+          "among the ruins?"
+        ],
+        [
+          "Like a baby girl kept safe",
+          "in the embrace of her dead mother,",
+          "some words remain alive.",
+          "They have to be sought",
+          "in the darkness after a landslide,",
+          "among ashes, like bones after cremation.",
+          "From the very first line,",
+          "sometimes in rain, sometimes in thunder and lightning,",
+          "the words are wounded;",
+          "Sometimes in moonlight, sometimes in sunlight,",
+          "they weave nets of gold and silver.",
+          "From the beginning itself, sometimes words tremble",
+          "in a gust of wind,",
+          "like the fragrance of your memory",
+          "that touches me and vanishes.",
+          "When words gather round a farmer's dead body in a paddy field",
+          "and sing their lament,",
+          "when words flee",
+          "from a starving refugee's pale lips,",
+          "the lines of the poem tear open by themselves."
+        ],
+        [
+          "Former Professor of English, B. J. B. Autonomous College, Bhubaneswar"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 500,
+    "target": "hi",
+    "reading_evidence": "Complete five source/target verse stanzas plus four-line job/address tail: ordinary-man refrain, price/weather/cricket limits, wife abuse then her wound care, quarrel/theft/liquor/queues/government parents, jasmine and renewed theft, card play/schemes, floods/drought/worker money/leisure/paid rally/opposing slogans/food-liquor-sleep. All named schemes, uncertain money token and satirical first-person agency checked.",
+    "reason": "Make the government-as-both-parents assertion grammatical without softening the narrator’s entitlement or abuse.",
+    "open_questions": [
+      "PNR-045/047 money token ପାଁଶ remains unresolved; no five/five-hundred guess.",
+      "PNR-046/048 professional designation/address remain preserved raw. Current reading-data still contains all 50 lines (46 verse plus four tail) in all languages; source-boundary/editorial reconciliation remains open, not claimed fixed.",
+      "PNR-049 English bitch remains a provisional force-equivalent for the wife-directed insult; fluent tone review required without sanitising the abusive speaker or inventing a sister-in-law.",
+      "Card terms sahib/bibi/ghulam and flood/drought wording need context review; scheme names are source satire, not verified current benefits or policy."
+    ],
+    "finding_dispositions": {
+      "PNR-045": "unresolved_source_word_hold",
+      "PNR-046": "unresolved_source_boundary_hold; raw four-line tail preserved"
+    },
+    "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "cc020422afe286d9c1e4274c32a71c3a0269e760cf252f79cc9596b5d4d13e3c",
+    "before_sha256": "da693b4e8496622ff85a513f92d7806c4f25c9ffba1d2698f5c2e39d5bc42fc4",
+    "after_sha256": "69fe2e0ff9ef5678cce05fad4705379ed70711e156a29f91a3a4edd5ff73038b",
+    "prior_uncertainties": [
+      {
+        "note": "Satirical abusive first-person speaker retained; domestic abuse not endorsed or softened. ଶାଳୀ functions as an insult to the wife here, not a newly introduced sister-in-law; English bitch is a provisional force-equivalent requiring tone review. Monetary token ପାଁଶ is unclear and retained literally in quotation marks rather than guessing five/five hundred. Scheme names and final job/address retained; no benefits/current-policy facts asserted.",
+        "record": "kb/production/translations/batch-070/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "मैं एक साधारण आदमी हूँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैं एक साधारण आदमी हूँ",
+          "जो कुछ असाधारण नहीं करता;",
+          "दाम, मौसम, ज़्यादा-से-ज़्यादा",
+          "क्रिकेट मैच—इनके अलावा",
+          "ज़्यादा कुछ जानना नहीं चाहता।"
+        ],
+        [
+          "मैं हर रात अपनी बीवी को पीटता हूँ,",
+          "जो सुबह मेरे घावों पर",
+          "मरहम लगाती है।",
+          "उससे झगड़ा लगाकर उसके पैसे के डिब्बे से",
+          "चुराता हूँ और शराब पीता हूँ।",
+          "चाहे संघ हो या योजना,",
+          "उसे ले जाकर क़तार में खड़ा करता हूँ,",
+          "सरकार से पैसे लाता हूँ।",
+          "सरकार हमारी माँ-बाप है,",
+          "वह पैसे नहीं देगी तो कौन देगा?",
+          "मैं एक साधारण आदमी हूँ।"
+        ],
+        [
+          "मेरी बीवी पिछली रात की",
+          "मार भूल जाती है;",
+          "शाम को एक बित्ता मोगरे की माला पर",
+          "साली फिर मेरे प्यार में पड़ जाती है,",
+          "मैं फिर उसके पैसे का डिब्बा लूटता हूँ।"
+        ],
+        [
+          "दोपहर के ख़ाली समय में",
+          "चौराहे पर ताश पीटता हूँ,",
+          "साहब बीबी ग़ुलाम खेलता हूँ,",
+          "कभी जीतता हूँ, कभी हारता हूँ।",
+          "लेकिन कभी नहीं हारता",
+          "अन्नपूर्णा, सुभद्रा या मधुबाबू योजना में।",
+          "मैं साधारण आदमी हूँ,",
+          "मेरे लिए ये हमेशा",
+          "खड़ी हैं।"
+        ],
+        [
+          "मैं साधारण आदमी हूँ,",
+          "न बाढ़ में रहता हूँ, न सूखे में;",
+          "मेरी सरकार है,",
+          "जो मेहनत-मज़दूरी करने वालों से लेकर",
+          "मुझे पालती है।",
+          "मैं आराम करता हूँ।",
+          "आराम से उठकर ‘ପାଁଶ’ रुपये के लिए",
+          "रैली में जाता हूँ,",
+          "कभी सरकार के ख़िलाफ़,",
+          "कभी उसके पक्ष में।",
+          "फिर भी नहीं जानता किसके लिए ज़िंदाबाद,",
+          "किसके लिए मुर्दाबाद करता हूँ।",
+          "रात को रोटी, चिकन, विदेशी शराब मिलती है,",
+          "घर आकर सो जाता हूँ।",
+          "मैं एक साधारण आदमी हूँ,",
+          "ज़्यादा बातें सोचने का समय नहीं होता।"
+        ],
+        [
+          "लेखा एवं हिसाब अधिकारी",
+          "क्षेत्रीय निदेशक का कार्यालय",
+          "(उच्च माध्यमिक शिक्षा)",
+          "अईंठापाली, संबलपुर"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "मैं एक साधारण आदमी हूँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैं एक साधारण आदमी हूँ",
+          "जो कुछ असाधारण नहीं करता;",
+          "दाम, मौसम, ज़्यादा-से-ज़्यादा",
+          "क्रिकेट मैच—इनके अलावा",
+          "ज़्यादा कुछ जानना नहीं चाहता।"
+        ],
+        [
+          "मैं हर रात अपनी बीवी को पीटता हूँ,",
+          "जो सुबह मेरे घावों पर",
+          "मरहम लगाती है।",
+          "उससे झगड़ा लगाकर उसके पैसे के डिब्बे से",
+          "चुराता हूँ और शराब पीता हूँ।",
+          "चाहे संघ हो या योजना,",
+          "उसे ले जाकर क़तार में खड़ा करता हूँ,",
+          "सरकार से पैसे लाता हूँ।",
+          "सरकार हमारी माँ भी है और बाप भी,",
+          "वह पैसे नहीं देगी तो कौन देगा?",
+          "मैं एक साधारण आदमी हूँ।"
+        ],
+        [
+          "मेरी बीवी पिछली रात की",
+          "मार भूल जाती है;",
+          "शाम को एक बित्ता मोगरे की माला पर",
+          "साली फिर मेरे प्यार में पड़ जाती है,",
+          "मैं फिर उसके पैसे का डिब्बा लूटता हूँ।"
+        ],
+        [
+          "दोपहर के ख़ाली समय में",
+          "चौराहे पर ताश पीटता हूँ,",
+          "साहब बीबी ग़ुलाम खेलता हूँ,",
+          "कभी जीतता हूँ, कभी हारता हूँ।",
+          "लेकिन कभी नहीं हारता",
+          "अन्नपूर्णा, सुभद्रा या मधुबाबू योजना में।",
+          "मैं साधारण आदमी हूँ,",
+          "मेरे लिए ये हमेशा",
+          "खड़ी हैं।"
+        ],
+        [
+          "मैं साधारण आदमी हूँ,",
+          "न बाढ़ में रहता हूँ, न सूखे में;",
+          "मेरी सरकार है,",
+          "जो मेहनत-मज़दूरी करने वालों से लेकर",
+          "मुझे पालती है।",
+          "मैं आराम करता हूँ।",
+          "आराम से उठकर ‘ପାଁଶ’ रुपये के लिए",
+          "रैली में जाता हूँ,",
+          "कभी सरकार के ख़िलाफ़,",
+          "कभी उसके पक्ष में।",
+          "फिर भी नहीं जानता किसके लिए ज़िंदाबाद,",
+          "किसके लिए मुर्दाबाद करता हूँ।",
+          "रात को रोटी, चिकन, विदेशी शराब मिलती है,",
+          "घर आकर सो जाता हूँ।",
+          "मैं एक साधारण आदमी हूँ,",
+          "ज़्यादा बातें सोचने का समय नहीं होता।"
+        ],
+        [
+          "लेखा एवं हिसाब अधिकारी",
+          "क्षेत्रीय निदेशक का कार्यालय",
+          "(उच्च माध्यमिक शिक्षा)",
+          "अईंठापाली, संबलपुर"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 500,
+    "target": "en",
+    "reading_evidence": "Complete five source/target verse stanzas plus four-line job/address tail: ordinary-man refrain, price/weather/cricket limits, wife abuse then her wound care, quarrel/theft/liquor/queues/government parents, jasmine and renewed theft, card play/schemes, floods/drought/worker money/leisure/paid rally/opposing slogans/food-liquor-sleep. All named schemes, uncertain money token and satirical first-person agency checked.",
+    "reason": "Restore ordinary relative-clause order in the wife’s care of the narrator’s wounds, preserving whose wounds and when; leave insult intensity held.",
+    "open_questions": [
+      "PNR-045/047 money token ପାଁଶ remains unresolved; no five/five-hundred guess.",
+      "PNR-046/048 professional designation/address remain preserved raw. Current reading-data still contains all 50 lines (46 verse plus four tail) in all languages; source-boundary/editorial reconciliation remains open, not claimed fixed.",
+      "PNR-049 English bitch remains a provisional force-equivalent for the wife-directed insult; fluent tone review required without sanitising the abusive speaker or inventing a sister-in-law.",
+      "Card terms sahib/bibi/ghulam and flood/drought wording need context review; scheme names are source satire, not verified current benefits or policy."
+    ],
+    "finding_dispositions": {
+      "PNR-047": "unresolved_source_word_hold",
+      "PNR-048": "unresolved_source_boundary_hold; raw four-line tail preserved",
+      "PNR-049": "unresolved_register_hold; abusive narrator preserved without further intensification"
+    },
+    "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "cc020422afe286d9c1e4274c32a71c3a0269e760cf252f79cc9596b5d4d13e3c",
+    "before_sha256": "65533e39f337f808d4564003977e2d4babc77d4437e1c0b04558449dda293983",
+    "after_sha256": "9ab1f6b129336b8e15e710288bbc9abc9222daa4a6e445163d2f4bdf628126fd",
+    "prior_uncertainties": [
+      {
+        "note": "Satirical abusive first-person speaker retained; domestic abuse not endorsed or softened. ଶାଳୀ functions as an insult to the wife here, not a newly introduced sister-in-law; English bitch is a provisional force-equivalent requiring tone review. Monetary token ପାଁଶ is unclear and retained literally in quotation marks rather than guessing five/five hundred. Scheme names and final job/address retained; no benefits/current-policy facts asserted.",
+        "record": "kb/production/translations/batch-070/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "I Am an Ordinary Man",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "I am an ordinary man",
+          "who does nothing extraordinary;",
+          "prices, the weather, at most",
+          "a cricket match—apart from these,",
+          "I do not care to know much."
+        ],
+        [
+          "Every night I give my wife a beating,",
+          "she who, in the morning, on my wounded places",
+          "puts ointment.",
+          "I pick a quarrel with her, steal from her money box",
+          "and drink liquor.",
+          "Whether a group or a scheme,",
+          "I take her there and make her stand in line",
+          "to get money from the government.",
+          "The government is our mother and father;",
+          "if it will not give money, who will?",
+          "I am an ordinary man."
+        ],
+        [
+          "My wife forgets last night's",
+          "beating;",
+          "in the evening, for a span of jasmine garland,",
+          "the bitch falls in love with me again,",
+          "and I loot her money box again."
+        ],
+        [
+          "In the idle hours of afternoon,",
+          "I play cards at the street corner,",
+          "play sahib, queen and knave,",
+          "sometimes win, sometimes lose.",
+          "But I never lose out on",
+          "Annapurna, Subhadra or the Madhubabu scheme.",
+          "I am an ordinary man;",
+          "for me, these are always",
+          "standing by."
+        ],
+        [
+          "I am an ordinary man,",
+          "neither in flood nor drought do I remain;",
+          "I have my government,",
+          "which takes from those who toil",
+          "and feeds me.",
+          "I take my ease.",
+          "When I rise from my rest, for ‘ପାଁଶ’ rupees",
+          "I go to a rally,",
+          "sometimes against the government,",
+          "sometimes in its favour.",
+          "Yet I do not know for whom I shout ‘Long live!’",
+          "or for whom I shout ‘Down with!’",
+          "At night I get roti, chicken and foreign liquor,",
+          "come home and fall asleep.",
+          "I am an ordinary man;",
+          "I have no time to think too much."
+        ],
+        [
+          "Accounts Officer",
+          "Office of the Regional Director",
+          "(Higher Secondary Education)",
+          "Ainthapali, Sambalpur"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "I Am an Ordinary Man",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "I am an ordinary man",
+          "who does nothing extraordinary;",
+          "prices, the weather, at most",
+          "a cricket match—apart from these,",
+          "I do not care to know much."
+        ],
+        [
+          "Every night I give my wife a beating,",
+          "who puts ointment on my wounds",
+          "in the morning.",
+          "I pick a quarrel with her, steal from her money box",
+          "and drink liquor.",
+          "Whether a group or a scheme,",
+          "I take her there and make her stand in line",
+          "to get money from the government.",
+          "The government is our mother and father;",
+          "if it will not give money, who will?",
+          "I am an ordinary man."
+        ],
+        [
+          "My wife forgets last night's",
+          "beating;",
+          "in the evening, for a span of jasmine garland,",
+          "the bitch falls in love with me again,",
+          "and I loot her money box again."
+        ],
+        [
+          "In the idle hours of afternoon,",
+          "I play cards at the street corner,",
+          "play sahib, queen and knave,",
+          "sometimes win, sometimes lose.",
+          "But I never lose out on",
+          "Annapurna, Subhadra or the Madhubabu scheme.",
+          "I am an ordinary man;",
+          "for me, these are always",
+          "standing by."
+        ],
+        [
+          "I am an ordinary man,",
+          "neither in flood nor drought do I remain;",
+          "I have my government,",
+          "which takes from those who toil",
+          "and feeds me.",
+          "I take my ease.",
+          "When I rise from my rest, for ‘ପାଁଶ’ rupees",
+          "I go to a rally,",
+          "sometimes against the government,",
+          "sometimes in its favour.",
+          "Yet I do not know for whom I shout ‘Long live!’",
+          "or for whom I shout ‘Down with!’",
+          "At night I get roti, chicken and foreign liquor,",
+          "come home and fall asleep.",
+          "I am an ordinary man;",
+          "I have no time to think too much."
+        ],
+        [
+          "Accounts Officer",
+          "Office of the Regional Director",
+          "(Higher Secondary Education)",
+          "Ainthapali, Sambalpur"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 498,
+    "target": "en",
+    "reading_evidence": "Read fourteen source/target verse lines and city tail: mother smiling at trunk, narrator sitting near her head and seeing childhood, elder sister doll/brother gun, red Banarasi/hidden tears, dual parent roles and father-strength saying, shoulder offered and weeping until dawn, sunrise message. No father death or garment history invented.",
+    "reason": "Restore the elder relationship explicitly supplied by didi and remove the added we who jointly weep until dawn; the source leaves that subject unstated.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve originals, credits, raw contributor tails, stanza/line counts and unresolved source readings. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "63dff6fdf2bb2481cceda40bfc0416cdfd4b040f85c96f5b7375e39043e94c66",
+    "before_sha256": "e8c0d72b2a31f9ef2cd4212c1bcc060edda96cb81f2229cecf2f97bf533761bf",
+    "after_sha256": "c46a0f1d923e8cf90f6e5fccb82c933bfa5d58f574e9cbb05a248dbc185f7f28",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Mother's Trunk",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Who knows what my mother would put away in that box.",
+          "Whenever she opened it, my mother would smile.",
+          "I too sat by her pillow when she opened the box.",
+          "I saw my childhood in it—a bagful of memories.",
+          "In one was my sister's doll, and my brother's gun.",
+          "All those bygone moments had filled the trunk.",
+          "Hiding her eyes from the children, when she saw the red Banarasi,",
+          "the tears at the corners of her eyes told the state of her heart.",
+          "How had she managed both roles, mother and father?",
+          "Fathers are strong, after all; that was why she hid her tears.",
+          "Cry now, Mother, to your heart's content; rest your head on this shoulder.",
+          "These shoulders were drenched; weeping, we reached the dawn.",
+          "From the east the sun rose again and gave everyone a message:",
+          "the days of sorrow are but fleeting; life is precious indeed."
+        ],
+        [
+          "Jamshedpur"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Mother's Trunk",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Who knows what my mother would put away in that box.",
+          "Whenever she opened it, my mother would smile.",
+          "I too sat by her pillow when she opened the box.",
+          "I saw my childhood in it—a bagful of memories.",
+          "In one was my elder sister's doll, and my brother's gun.",
+          "All those bygone moments had filled the trunk.",
+          "Hiding her eyes from the children, when she saw the red Banarasi,",
+          "the tears at the corners of her eyes told the state of her heart.",
+          "How had she managed both roles, mother and father?",
+          "Fathers are strong, after all; that was why she hid her tears.",
+          "Cry now, Mother, to your heart's content; rest your head on this shoulder.",
+          "These shoulders were drenched; dawn came amid the weeping.",
+          "From the east the sun rose again and gave everyone a message:",
+          "the days of sorrow are but fleeting; life is precious indeed."
+        ],
+        [
+          "Jamshedpur"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+import test from 'node:test';import assert from 'node:assert/strict';import * as appSdk from 'firebase/app';
+import {readFileSync} from 'node:fs';import {transform} from 'esbuild';import {runInNewContext} from 'node:vm';
+import {selectKabitaFeedbackApp} from '../src/feedback-app.mjs';import {siteRuntimeAllowed,restoreSiteUser} from '../src/vendor/utkal-responses/firebase-site.mjs';
+const config={enabled:true,projectId:'kabita-live',apiKey:'synthetic-key',authDomain:'demo.example.invalid',appId:'synthetic-app',allowedHosts:['kabita.example.invalid']},location={protocol:'https:',hostname:'kabita.example.invalid',origin:'https://kabita.example.invalid',href:''};
+test('Real SDK preserves explicit default feedback namespace and restores the same app',async()=>{
+ const app=selectKabitaFeedbackApp(appSdk,config,location);try{assert.equal(app.name,'[DEFAULT]');assert.equal(selectKabitaFeedbackApp(appSdk,config,location),app);assert.deepEqual(Object.keys(app.options).sort(),['apiKey','appId','authDomain','projectId']);}finally{await appSdk.deleteApp(app);}
+});
+test('Real SDK preserves sole engagement app; unrelated app order cannot redirect feedback',async()=>{
+ const unrelated=appSdk.initializeApp({...config,projectId:'other'},'unrelated');const engagement=appSdk.initializeApp(config,'kabita-engagement');try{assert.equal(selectKabitaFeedbackApp(appSdk,config,location),engagement);}finally{await appSdk.deleteApp(engagement);await appSdk.deleteApp(unrelated);}
+});
+test('Ambiguous identities, foreign default, changed configuration and unapproved runtime fail closed',()=>{
+ const existing={name:'[DEFAULT]',options:config};const sdk={getApps:()=>[existing],initializeApp:()=>{throw Error('unexpected init');}};
+ for(const bad of [{...config,projectId:'other'},{...config,apiKey:'changed'},{...config,appId:''},{...config,allowedHosts:[]}])assert.throws(()=>selectKabitaFeedbackApp(sdk,bad,location));
+ assert.throws(()=>selectKabitaFeedbackApp({...sdk,getApps:()=>[existing,{name:'kabita-engagement',options:config}]},config,location),/Ambiguous/);
+ assert.throws(()=>selectKabitaFeedbackApp({...sdk,getApps:()=>[{...existing,options:{...config,projectId:'other'}}]},config,location),/mismatch/);
+});
+const source=readFileSync(new URL('../src/feedback.ts',import.meta.url),'utf8').replace(/^import .*;$/gm,'').replace(/import\('firebase\/(app|auth|firestore)'\)/g,"Promise.resolve(services['$1'])");const {code}=await transform(source,{loader:'ts',format:'esm'});const tick=()=>new Promise(r=>setImmediate(r));
+async function fixture({apps=[],extra={},fail=false}={}){
+ let handler,resets=0,signins=0,imports=0;const writes=[],status={textContent:''},button={},values={name:'Reader',email:'reader@example.test',message:'A private note',reason:'note',poem:'https://kabita.example.invalid/poem-809.html'};
+ const form={querySelector:s=>s.includes('role=')?status:s.includes('button')?button:{textContent:''},reportValidity:()=>true,addEventListener:(_,f)=>handler=f,reset:()=>resets++};
+ const auth={currentUser:null,authStateReady:async()=>{auth.currentUser={uid:'restored-reader'};}};
+ runInNewContext(code,{ensureAppCheck:async()=>{},siteRuntimeAllowed,restoreSiteUser,selectKabitaFeedbackApp,document:{querySelector:()=>form},URL,location:{...location},fetch:async()=>({ok:true,json:async()=>({firebase:{...config,...extra}})}),FormData:class{get(k){return values[k]}},services:{app:{getApps:()=>{imports++;return apps;},initializeApp:(options,name)=>({options,name})},auth:{getAuth:instance=>{auth.app=instance;return auth},signInAnonymously:async()=>{signins++;return {user:{uid:'new'}}}},firestore:{getFirestore:()=>({}),collection:(_,n)=>n,doc:(...a)=>({id:'test-id',path:a.join('/')}),writeBatch:()=>({set:(ref,data)=>writes.push({ref,data}),commit:async()=>{if(fail)throw Error('offline')}}),serverTimestamp:()=>123}}});await tick();return{submit:()=>handler({preventDefault(){}}),writes,status,values,resets:()=>resets,signins:()=>signins,imports:()=>imports,button};
+}
+test('Actual feedback source restores UID, keeps existing private schema and confirms only committed writes',async()=>{const f=await fixture();assert.equal(f.imports(),0);await f.submit();assert.equal(f.signins(),0);assert.equal(f.writes.length,2);assert.equal(f.writes[0].data.uid,'restored-reader');assert.equal(f.writes[0].data.poemPath,'/poem-809.html');assert.equal(f.writes[0].data.status,'received');assert.equal(f.resets(),1);assert.match(f.status.textContent,/saved/);});
+test('Actual feedback source preserves entered words on app collision, ambiguity or failed commit',async()=>{for(const options of [{apps:[{name:'[DEFAULT]',options:{...config,projectId:'other'}}]},{apps:[{name:'[DEFAULT]',options:config},{name:'kabita-engagement',options:config}]},{fail:true}]){const f=await fixture(options);await f.submit();assert.equal(f.resets(),0);assert.equal(f.values.message,'A private note');assert.equal(f.button.disabled,false);assert.match(f.status.textContent,/could not be saved/);}});
+test('Invalid project configuration loads no Firebase app and makes no writes',async()=>{const f=await fixture({extra:{projectId:'other'}});await f.submit();assert.equal(f.imports(),0);assert.equal(f.writes.length,0);assert.equal(f.resets(),0);});

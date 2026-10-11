@@ -1,0 +1,251 @@
+{
+  "recorded_at": "2026-10-05T23:51:12.824845+00:00",
+  "poem_ids": [
+    424,
+    415,
+    422,
+    423,
+    414
+  ],
+  "variants_read": 10,
+  "variants_changed": 2,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 424,
+      "target": "or",
+      "reading_evidence": "Read complete source and both targets from admonition to hide youth through predatory male gaze/force, discarded victim and unashamed return to society, shame assigned only to women, public/home taunts about clothing/confinement, and woman addressing Madam Poet to reject fault and name punishment for being born female; beautiful self versus ugly gaze and beauty-as-curse conclusion. Checked source plural-men to singular-he shifts, satirical shame statement and final rebuttal without sanitizing violence.",
+      "reason": "Retain the shifting quoted social blame and woman’s explicit rebuttal; no explanatory moral or softening of violence.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source poems, credits, target lineation, tone and deliberate strangeness; same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "b4082163338caa7357a6e2ee5f22929dd6f2085998a85d65742d5ab7b752f812",
+      "before_sha256": "c0a009347744e6752902af5d8670157652341043a2fa96656e98b4fa0098bc47",
+      "after_sha256": "c0a009347744e6752902af5d8670157652341043a2fa96656e98b4fa0098bc47",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 424,
+      "target": "en",
+      "reading_evidence": "Read complete source and both targets from admonition to hide youth through predatory male gaze/force, discarded victim and unashamed return to society, shame assigned only to women, public/home taunts about clothing/confinement, and woman addressing Madam Poet to reject fault and name punishment for being born female; beautiful self versus ugly gaze and beauty-as-curse conclusion. Checked source plural-men to singular-he shifts, satirical shame statement and final rebuttal without sanitizing violence.",
+      "reason": "Retain the shifting quoted social blame and woman’s explicit rebuttal; no explanatory moral or softening of violence.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source poems, credits, target lineation, tone and deliberate strangeness; same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "b4082163338caa7357a6e2ee5f22929dd6f2085998a85d65742d5ab7b752f812",
+      "before_sha256": "4472bfe59af5fd47e61e254b5f6feab7a907bd3e3d03115f2ccfc5eb9aaee6ca",
+      "after_sha256": "4472bfe59af5fd47e61e254b5f6feab7a907bd3e3d03115f2ccfc5eb9aaee6ca",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 415,
+      "target": "hi",
+      "reading_evidence": "Read eight full source/target stanzas: city temperature down two-and-half degrees/prayer answered, own small town red television name, ash jasmine/gulmohar and actual root smoke not lovelorn yaksha, mother water bowl/five-day missing birds/father fear, wish birds drink at addressee balcony, sleepless midnight meets noon/sweating sun digging lost reflection/half-burnt ring dream, single hot-wave line, fear of not recognising crossing beloved/April darkness and imagined traffic-junction vigil since departure. Checked temperature comparator and dream causality without rationalising place.",
+      "reason": "Remove the accidental duplicated here phrase without changing the insistence that trees really smoke locally.",
+      "open_questions": [
+        "Final imagined location remains as written; Hindi feminine speaker and masculine addressee are provisional, not inferred from author identity."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source poems, credits, target lineation, tone and deliberate strangeness; same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "e18ca781990aca124f4d4354052f83c0cd990275c919d2bbce522645706c43aa",
+      "before_sha256": "704badbfce427bd85439caf742a9bd68d9d2c4089ae8a02ec78e63f9ac7e4086",
+      "after_sha256": "49a7a6e2ff0ffb3ebb6c864ee4464f9a152044c09b0b9f79b6f8a25a55a3a9cb",
+      "prior_uncertainties": [
+        {
+          "note": "All eight stanzas and heat/sun/dream imagery retained. Yaksha and gulmohar retained; final imagined traffic-junction location not rationalised. Hindi feminine voice provisional.",
+          "record": "kb/production/translations/batch-089/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 415,
+      "target": "en",
+      "reading_evidence": "Read eight full source/target stanzas: city temperature down two-and-half degrees/prayer answered, own small town red television name, ash jasmine/gulmohar and actual root smoke not lovelorn yaksha, mother water bowl/five-day missing birds/father fear, wish birds drink at addressee balcony, sleepless midnight meets noon/sweating sun digging lost reflection/half-burnt ring dream, single hot-wave line, fear of not recognising crossing beloved/April darkness and imagined traffic-junction vigil since departure. Checked temperature comparator and dream causality without rationalising place.",
+      "reason": "Retain heat, imaginary noon encounter and ring-dream imagery; no target-only semantic correction needed.",
+      "open_questions": [
+        "Final imagined location remains as written; Hindi feminine speaker and masculine addressee are provisional, not inferred from author identity."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source poems, credits, target lineation, tone and deliberate strangeness; same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "e18ca781990aca124f4d4354052f83c0cd990275c919d2bbce522645706c43aa",
+      "before_sha256": "9f88511b029201a2447f875896af4efd26ce2a5bcc4c3a74c7a5f2d3d6d5472d",
+      "after_sha256": "9f88511b029201a2447f875896af4efd26ce2a5bcc4c3a74c7a5f2d3d6d5472d",
+      "prior_uncertainties": [
+        {
+          "note": "All eight stanzas and heat/sun/dream imagery retained. Yaksha and gulmohar retained; final imagined traffic-junction location not rationalised. Hindi feminine voice provisional.",
+          "record": "kb/production/translations/batch-089/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 422,
+      "target": "hi",
+      "reading_evidence": "Read full nine-line and five-line source/target stanzas: dark night ended but isolated star turns from Milky Way to make own cosmos, unwitting meteor-like exhaustion/fall fate, speaker asks punctuation remnant and two lips answer assertively, hopeful question mark surviving after full stop. Checked personification and persistence beyond apparent ending; source title separators remain normalized only in targets.",
+      "reason": "Retain the extended star-to-punctuation image and question mark beyond finality without inventing a referent.",
+      "open_questions": [
+        "Assertive/defiant nuance of source dambhilapana remains for native review, as previously recorded; Hindi feminine speaker is not established by source."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source poems, credits, target lineation, tone and deliberate strangeness; same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "5a471a523869268cc805b705e2a95e728d53fd3b118d562b327f7a4319eb84f9",
+      "before_sha256": "8b526c36aaf5e17fe94f59466b48cc8dba7e2b23f5361df668efacb2dadb44ce",
+      "after_sha256": "8b526c36aaf5e17fe94f59466b48cc8dba7e2b23f5361df668efacb2dadb44ce",
+      "prior_uncertainties": [
+        {
+          "note": "Nine/five-line stanzas retained; title underscores treated as word separators in translations only. Meteor and punctuation metaphors retained; defiant/assertive tone needs native review.",
+          "record": "kb/production/translations/batch-089/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 422,
+      "target": "en",
+      "reading_evidence": "Read full nine-line and five-line source/target stanzas: dark night ended but isolated star turns from Milky Way to make own cosmos, unwitting meteor-like exhaustion/fall fate, speaker asks punctuation remnant and two lips answer assertively, hopeful question mark surviving after full stop. Checked personification and persistence beyond apparent ending; source title separators remain normalized only in targets.",
+      "reason": "Retain the extended star-to-punctuation image and question mark beyond finality without inventing a referent.",
+      "open_questions": [
+        "Assertive/defiant nuance of source dambhilapana remains for native review, as previously recorded; Hindi feminine speaker is not established by source."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source poems, credits, target lineation, tone and deliberate strangeness; same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "5a471a523869268cc805b705e2a95e728d53fd3b118d562b327f7a4319eb84f9",
+      "before_sha256": "f5dbfedce8363dc723a19ef8c357511b0278da5957500a659cdbd0c4d25c61e6",
+      "after_sha256": "f5dbfedce8363dc723a19ef8c357511b0278da5957500a659cdbd0c4d25c61e6",
+      "prior_uncertainties": [
+        {
+          "note": "Nine/five-line stanzas retained; title underscores treated as word separators in translations only. Meteor and punctuation metaphors retained; defiant/assertive tone needs native review.",
+          "record": "kb/production/translations/batch-089/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 423,
+      "target": "hi",
+      "reading_evidence": "Read all three source/target stanzas: mother hand once brought sleep in Aunt Sleep sari-end darkness with stars/moon/kamini scent; present darkness/stumbling and fleeing sari-end, breathlessness in fleshy odour and bloody mirror; drawer sleeping-pill search for artificial darkness/lost sari-end, cavern drag and wish mother-like figure seize/discard pills/push speaker out. Checked sleep-personification, shift from remembered touch to rescue wish and retained full ending.",
+      "reason": "Give the temporal clause its possessive subject so Mother lays the hand and the following I gathers darkness; repair the dangling tum construction without changing the touch or two lines.",
+      "open_questions": [
+        "Raw/fleshy odour reading remains provisional, as previously recorded. Hindi masculine narrator is not established by Odia first person. No medical or biographical cause inferred."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source poems, credits, target lineation, tone and deliberate strangeness; same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "a6f1317a062bf5d0509c555a1ea1258a1b8c5fd3204ce31923147181f28a7787",
+      "before_sha256": "a61443195e97d8fc5b32a5b4fc034040f163d83c4f0b98191ac550dfe318f4d7",
+      "after_sha256": "73f43d319842d4e7821f5e77c2ccd58e053d7da6ef9bf958b834d353dfd835da",
+      "prior_uncertainties": [
+        {
+          "note": "Aunt Sleep, sari-end and kamini flower retained. Raw/fleshy odour interpretation provisional. Sleeping-pill cavern and rescue wish are source poetry; no dosage or instructions added.",
+          "record": "kb/production/translations/batch-089/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 423,
+      "target": "en",
+      "reading_evidence": "Read all three source/target stanzas: mother hand once brought sleep in Aunt Sleep sari-end darkness with stars/moon/kamini scent; present darkness/stumbling and fleeing sari-end, breathlessness in fleshy odour and bloody mirror; drawer sleeping-pill search for artificial darkness/lost sari-end, cavern drag and wish mother-like figure seize/discard pills/push speaker out. Checked sleep-personification, shift from remembered touch to rescue wish and retained full ending.",
+      "reason": "Retain Aunt Sleep, sari-end, kamini, mirror shock and conditional rescue wish without explaining the poem clinically.",
+      "open_questions": [
+        "Raw/fleshy odour reading remains provisional, as previously recorded. Hindi masculine narrator is not established by Odia first person. No medical or biographical cause inferred."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source poems, credits, target lineation, tone and deliberate strangeness; same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "a6f1317a062bf5d0509c555a1ea1258a1b8c5fd3204ce31923147181f28a7787",
+      "before_sha256": "83a24e74be3283a71117614a696e325e86eacca7b6903e9b1b7df5692b95b615",
+      "after_sha256": "83a24e74be3283a71117614a696e325e86eacca7b6903e9b1b7df5692b95b615",
+      "prior_uncertainties": [
+        {
+          "note": "Aunt Sleep, sari-end and kamini flower retained. Raw/fleshy odour interpretation provisional. Sleeping-pill cavern and rescue wish are source poetry; no dosage or instructions added.",
+          "record": "kb/production/translations/batch-089/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 414,
+      "target": "or",
+      "reading_evidence": "Read six complete source/target stanzas: stolen glance at soft sombre old woman/tears on weathered cheeks, sudden broad smile and reminiscence relief, full moon clarity, past preoccupation and scant attention to speaker, neither bond nor barrier yet melted heart, final emotions beyond comprehension despite seeing/feeling and inability to say. Checked woman versus observing speaker and ending that refuses explanation.",
+      "reason": "Retain the unobtrusive observation and unsolved sympathy rather than explaining the old woman’s past.",
+      "open_questions": [
+        "Hindi feminine observing speaker remains provisional; woman subject does not establish narrator gender. Weathered-cheek wording retains the existing time/weather exposure interpretation without added biography."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source poems, credits, target lineation, tone and deliberate strangeness; same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "82fdeb5ca29742092bb9a64285e1fc23ec6f8084dcbb9e0288548c9bd00d96e6",
+      "before_sha256": "eac8de445e57c9ba9d3d5f02d2f0ea0fd3cae840fce97c68f07114494761a4f0",
+      "after_sha256": "eac8de445e57c9ba9d3d5f02d2f0ea0fd3cae840fce97c68f07114494761a4f0",
+      "prior_uncertainties": [
+        {
+          "note": "Six stanzas retained. Weathered cheeks idiom translated as marks of time; Hindi feminine speaker provisional.",
+          "record": "kb/production/translations/batch-089/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 414,
+      "target": "hi",
+      "reading_evidence": "Read six complete source/target stanzas: stolen glance at soft sombre old woman/tears on weathered cheeks, sudden broad smile and reminiscence relief, full moon clarity, past preoccupation and scant attention to speaker, neither bond nor barrier yet melted heart, final emotions beyond comprehension despite seeing/feeling and inability to say. Checked woman versus observing speaker and ending that refuses explanation.",
+      "reason": "Retain the unobtrusive observation and unsolved sympathy rather than explaining the old woman’s past.",
+      "open_questions": [
+        "Hindi feminine observing speaker remains provisional; woman subject does not establish narrator gender. Weathered-cheek wording retains the existing time/weather exposure interpretation without added biography."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve source poems, credits, target lineation, tone and deliberate strangeness; same-assistant self-review only, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "82fdeb5ca29742092bb9a64285e1fc23ec6f8084dcbb9e0288548c9bd00d96e6",
+      "before_sha256": "afc5c707d59dfe87638e7857252f638304a2c18dece3e5baa7288b2242c06f28",
+      "after_sha256": "afc5c707d59dfe87638e7857252f638304a2c18dece3e5baa7288b2242c06f28",
+      "prior_uncertainties": [
+        {
+          "note": "Six stanzas retained. Weathered cheeks idiom translated as marks of time; Hindi feminine speaker provisional.",
+          "record": "kb/production/translations/batch-089/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

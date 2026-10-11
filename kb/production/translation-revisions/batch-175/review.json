@@ -1,0 +1,284 @@
+{
+  "recorded_at": "2026-10-06T07:56:28.380250+00:00",
+  "poem_ids": [
+    27,
+    39,
+    40,
+    41,
+    42
+  ],
+  "variants_read": 10,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 27,
+      "target": "or",
+      "reading_evidence": "Read full four-stanza13-line English source and both full targets: lucid words/cloud/prisms/versed contradiction and wobbling poetic impotence; looked around/scarce dollops of insanity/creeps of webbed catastrophe/deformed slings stripping in shame; lost hunch/intuitive notions wake and silent screams hammer, repeated delight, tired breath and cursed culpability; answered denials and arrogant faith struggling to believe. Checked fragmentary syntax, contradictions, repeated delight and unresolved actors rather than supplying a narrative.",
+      "open_questions": [
+        "Source attachment of cloud/wobbled, creeps and slings is unresolved. Current targets choose verb-cloud, creeping catastrophe and slingshots; Odia reptilian motion may over-specify creeps. Hold those phrases for author clarification rather than inventing a new creature/motion. Culpability versus existing fault rendering, and impotence intensity, require contextual review; not marked fixed."
+      ],
+      "reason": "Retain provisionally after full reading; fragmentary source admits material competing parses and concrete slang/image senses. Record specific holds, not a claim of confirmed fidelity.",
+      "tradeoff": "Preserve all images, full stanzas and contributor tails; same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "6c0fa7de38951cb1a8fbf51bdf3886609853e62d65ca1e2890ad734fe6658cf7",
+      "before_sha256": "2bc3c2a6c22b811c36cff4ce6cce24c30fbfd96a962b30a46289a474e6ed616c",
+      "after_sha256": "2bc3c2a6c22b811c36cff4ce6cce24c30fbfd96a962b30a46289a474e6ed616c",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 27,
+      "target": "hi",
+      "reading_evidence": "Read full four-stanza13-line English source and both full targets: lucid words/cloud/prisms/versed contradiction and wobbling poetic impotence; looked around/scarce dollops of insanity/creeps of webbed catastrophe/deformed slings stripping in shame; lost hunch/intuitive notions wake and silent screams hammer, repeated delight, tired breath and cursed culpability; answered denials and arrogant faith struggling to believe. Checked fragmentary syntax, contradictions, repeated delight and unresolved actors rather than supplying a narrative.",
+      "open_questions": [
+        "Source attachment of cloud/wobbled, creeps and slings is unresolved. Current targets choose verb-cloud, creeping catastrophe and slingshots; Odia reptilian motion may over-specify creeps. Hold those phrases for author clarification rather than inventing a new creature/motion. Culpability versus existing fault rendering, and impotence intensity, require contextual review; not marked fixed."
+      ],
+      "reason": "Retain provisionally after full reading; fragmentary source admits material competing parses and concrete slang/image senses. Record specific holds, not a claim of confirmed fidelity.",
+      "tradeoff": "Preserve all images, full stanzas and contributor tails; same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "6c0fa7de38951cb1a8fbf51bdf3886609853e62d65ca1e2890ad734fe6658cf7",
+      "before_sha256": "6b2fecfa6c498333ebe07eaecd4238df446c1564e532dc8fe573986ec613891c",
+      "after_sha256": "6b2fecfa6c498333ebe07eaecd4238df446c1564e532dc8fe573986ec613891c",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 39,
+      "target": "hi",
+      "reading_evidence": "Read six three-line English stanzas plus separator/copyright and both complete targets: asks addressee future ten years ahead but refuses own; delight in sudden river turn with enjambment, unkempt room/injured mirror; green leaves hide-and-seek then brown in front; young earth/us resisting future lure and mathematical steps; accepts dark future and invokes colours to illuminate. Checked time horizon, refusal, stanza-crossing syntax, deliberate injured mirror and final colour agency; exact copyright retained.",
+      "open_questions": [
+        "Prior Hindi masculine narrator remains provisional. Mathematical steps keeps the source metaphor without choosing literal walking versus calculated life plans. Stanza-crossing river phrase is reordered for target grammar, not removed."
+      ],
+      "reason": "Repair river enjambment syntax and retain mathematical as an adjective rather than a possessive calque.",
+      "tradeoff": "Keeps six three-line stanzas and a suspended phrase across the same boundary, but target river modifier precedes its noun. Mathematical stays intentionally unusual; no invented plan.18 verse lines plus separator/copyright retained.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 18,
+        "before_lines": [
+          3,
+          6,
+          9,
+          12,
+          15
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "ac2cc755f3a99131cff57ebee33b98f8ba9769e64f282ed8e3d15029bc3c29e2",
+      "before_sha256": "77ca5d272ebb067437b7f9f26d0cc238ec1efa81fd5ad45f3c457b645c79f6c8",
+      "after_sha256": "03019534bbd413b335569ccaa6f53bb7bd0f9f42ff8340370342bc7be3e753c8",
+      "prior_uncertainties": [
+        {
+          "note": "Source enjambment across stanza boundaries and copyright line preserved. Hindi male narrator provisional.",
+          "record": "kb/production/translations/batch-170/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 39,
+      "target": "or",
+      "reading_evidence": "Read six three-line English stanzas plus separator/copyright and both complete targets: asks addressee future ten years ahead but refuses own; delight in sudden river turn with enjambment, unkempt room/injured mirror; green leaves hide-and-seek then brown in front; young earth/us resisting future lure and mathematical steps; accepts dark future and invokes colours to illuminate. Checked time horizon, refusal, stanza-crossing syntax, deliberate injured mirror and final colour agency; exact copyright retained.",
+      "open_questions": [
+        "Prior Hindi masculine narrator remains provisional. Mathematical steps keeps the source metaphor without choosing literal walking versus calculated life plans. Stanza-crossing river phrase is reordered for target grammar, not removed."
+      ],
+      "reason": "Repair the stranded river modifier and distinguish steps from anatomical feet.",
+      "tradeoff": "Padakshepa carries a step/action while retaining mathematical metaphor. River enjambment stays across same stanza boundary with idiomatic noun attachment. All raw lines/copyright retained.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 18,
+        "before_lines": [
+          3,
+          6,
+          9,
+          12,
+          15
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "ac2cc755f3a99131cff57ebee33b98f8ba9769e64f282ed8e3d15029bc3c29e2",
+      "before_sha256": "6594974f711f1cb328dadf7ac3eb2e0a5eabace50bbeda52a96ddf5c986bdb77",
+      "after_sha256": "eaffa8776347bcd2aa219ce13df111507c31334611b7f9a3723f1ce705e92500",
+      "prior_uncertainties": [
+        {
+          "note": "Source enjambment across stanza boundaries and copyright line preserved. Hindi male narrator provisional.",
+          "record": "kb/production/translations/batch-170/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 40,
+      "target": "hi",
+      "reading_evidence": "Read complete16-line three-stanza English source and both full targets: unknown number of invisible city gates/walls yet certainty of their existence; smells of apartheid/closure, salt spray/dried fish, camphor/sandalwood; midnight crosses dunes casting black wall shadows, time-halted cities, solitude horseback patrol and extravagant sunlight; singular different city autumn evening cleans mirror to reflect lotus, misty mountain blue and hovering closed eyelids. Checked city repetition, unknown versus certain contrast, sensory images and unnamed geography.",
+      "open_questions": [
+        "Prior closure rendered restriction remains provisional versus enclosure/shutting; no named real cities inferred from smells or lotus. Hindi gender assumption removed by neutral first-person expression; author identity not used."
+      ],
+      "reason": "Use natural gender-neutral not-knowing expression, preserving first-person stance.",
+      "tradeoff": "Mujhe nahin maloom conveys the same uncertainty without unsupported feminine narrator; all images and rhythms otherwise retained. Closure remains held.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "d23979b9f69823e6817e23d5b2e0542c49290c9c779b6bb154304eb03c2423a5",
+      "before_sha256": "68a9b41f57d5405090b314726a5153ef7b3d3c4f3c198f6ee5c114a8ec16b449",
+      "after_sha256": "9442b06bc77561a58aa66fae1c23f62d326489f6b85297f29540099ed729fe4a",
+      "prior_uncertainties": [
+        {
+          "note": "All city images retained; no specific real cities assigned. Hindi female first person provisional; closure rendered restriction.",
+          "record": "kb/production/translations/batch-170/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 40,
+      "target": "or",
+      "reading_evidence": "Read complete16-line three-stanza English source and both full targets: unknown number of invisible city gates/walls yet certainty of their existence; smells of apartheid/closure, salt spray/dried fish, camphor/sandalwood; midnight crosses dunes casting black wall shadows, time-halted cities, solitude horseback patrol and extravagant sunlight; singular different city autumn evening cleans mirror to reflect lotus, misty mountain blue and hovering closed eyelids. Checked city repetition, unknown versus certain contrast, sensory images and unnamed geography.",
+      "open_questions": [
+        "Prior closure rendered restriction remains provisional versus enclosure/shutting; no named real cities inferred from smells or lotus. Hindi gender assumption removed by neutral first-person expression; author identity not used."
+      ],
+      "reason": "Retain after full reading: sensory city contrasts, time/solitude personification and hovering final vision conveyed; closure ambiguity held.",
+      "tradeoff": "Preserve all images, full stanzas and contributor tails; same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "d23979b9f69823e6817e23d5b2e0542c49290c9c779b6bb154304eb03c2423a5",
+      "before_sha256": "dfe93a2cadb4d9dbc330f98f206d239913051516889d900007ffdc3874f65541",
+      "after_sha256": "dfe93a2cadb4d9dbc330f98f206d239913051516889d900007ffdc3874f65541",
+      "prior_uncertainties": [
+        {
+          "note": "All city images retained; no specific real cities assigned. Hindi female first person provisional; closure rendered restriction.",
+          "record": "kb/production/translations/batch-170/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 41,
+      "target": "hi",
+      "reading_evidence": "Read all three six-line English stanzas plus byline and both full targets: depressing Time fold, mind hibernation/fog blankets/apathetic torpor despite half-dead earth trepidation; waits and waits until dark-night death, rays beat smog/day opens eyes/fireball rolling stooping sky dusk to dawn; refreshing Life fold, inward renewal/light footprints/glowing meaning drawn from dark moments scattered in hazy maizes made by Time. Checked repeated waiting, contrast Life/Time and source anomalies without correcting original.",
+      "open_questions": [
+        "Carry prior source maizes provisionally read mazes, with original unchanged; maize/maze ambiguity unresolved. Preserve unusual dusk-to-dawn fireball chronology. Trepidation may combine fear/trembling; current shaking interpretation remains provisional."
+      ],
+      "reason": "Restore emphatic repetition of waits and waits.",
+      "tradeoff": "Repeated verb makes prolonged waiting audible as in source, without changing endpoint. No repair of source maizes or nightward sun; raw byline preserved.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "13aa14032df44fd19d86b58842f207c2ebb2e45b182e86f834418287442f3f81",
+      "before_sha256": "0bb7d7432012d82f84ff69d55c6faeb654aefcbb0a383047294c7b5641d54b6d",
+      "after_sha256": "2be19492c4454e8b9c5287377355d6eb19e7ff01d9ce9b5d5d2ea016fa543e84",
+      "prior_uncertainties": [
+        {
+          "note": "Source maizes provisionally read mazes from context and explicitly flagged. Original spelling unchanged; sunset-to-dawn rolling sun image retained without correction.",
+          "record": "kb/production/translations/batch-170/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 41,
+      "target": "or",
+      "reading_evidence": "Read all three six-line English stanzas plus byline and both full targets: depressing Time fold, mind hibernation/fog blankets/apathetic torpor despite half-dead earth trepidation; waits and waits until dark-night death, rays beat smog/day opens eyes/fireball rolling stooping sky dusk to dawn; refreshing Life fold, inward renewal/light footprints/glowing meaning drawn from dark moments scattered in hazy maizes made by Time. Checked repeated waiting, contrast Life/Time and source anomalies without correcting original.",
+      "open_questions": [
+        "Carry prior source maizes provisionally read mazes, with original unchanged; maize/maze ambiguity unresolved. Preserve unusual dusk-to-dawn fireball chronology. Trepidation may combine fear/trembling; current shaking interpretation remains provisional."
+      ],
+      "reason": "Retain after full reading: repeated wait already present, fold and light images remain; source anomalies explicitly held.",
+      "tradeoff": "Preserve all images, full stanzas and contributor tails; same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "13aa14032df44fd19d86b58842f207c2ebb2e45b182e86f834418287442f3f81",
+      "before_sha256": "05125e72888ea1287688bf5c9757f1147cca05490781bbc0cf5965b1fe6ddf2b",
+      "after_sha256": "05125e72888ea1287688bf5c9757f1147cca05490781bbc0cf5965b1fe6ddf2b",
+      "prior_uncertainties": [
+        {
+          "note": "Source maizes provisionally read mazes from context and explicitly flagged. Original spelling unchanged; sunset-to-dawn rolling sun image retained without correction.",
+          "record": "kb/production/translations/batch-170/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 42,
+      "target": "hi",
+      "reading_evidence": "Read both twelve-line English blocks and full targets: foundation/compact/concealer/highlighter/pause, cheekbone blush, strokes/tones, brows/eyelids/mascara/kohl/winged eyeliner/lips/perfume; difficult makeup craft turns through age lines/crows-feet to mask and social hypocrisy, true friend, age-with-grace advice contradicted by beauty-shaming, philosophical pride in flaws/scars then final makeup/star. Checked product order, imperative register, social accusation and unresolved final irony rather than adding beauty advice.",
+      "open_questions": [
+        "Prior Hindi feminine beauty addressee remains provisional. Final pride in flaws versus wearing makeup retained as source tension, not harmonised into a moral. Cosmetic names retained as terms; no practical product advice added."
+      ],
+      "reason": "Repair cheekbone phrasing, corner agreement and literal feathered eyeliner wording.",
+      "tradeoff": "High cheekbones become natural ubhri haddiyan; crow-feet located at eye corners with correct agreement. Pankhakar denotes wing shape rather than feathers; sadhi hui conveys controlled perfect stroke.24lines retained, social irony unchanged.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1c8261dcb54adbd6a1ff20a49efa5f29ed33705b8f5f0674ad72b02049900f9e",
+      "before_sha256": "814b31ac19db70c1d58fa34c287c50addb802ef579a3ca73c295254f3f641770",
+      "after_sha256": "8307851baf765270298e6501150df479af1b53e7f7462d4d7a5c6acfa55d46d9",
+      "prior_uncertainties": [
+        {
+          "note": "Cosmetic product names transliterated. Social hypocrisy and final irony retained; source advice not added recommendations. Hindi beauty-address feminine provisional.",
+          "record": "kb/production/translations/batch-171/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 42,
+      "target": "or",
+      "reading_evidence": "Read both twelve-line English blocks and full targets: foundation/compact/concealer/highlighter/pause, cheekbone blush, strokes/tones, brows/eyelids/mascara/kohl/winged eyeliner/lips/perfume; difficult makeup craft turns through age lines/crows-feet to mask and social hypocrisy, true friend, age-with-grace advice contradicted by beauty-shaming, philosophical pride in flaws/scars then final makeup/star. Checked product order, imperative register, social accusation and unresolved final irony rather than adding beauty advice.",
+      "open_questions": [
+        "Prior Hindi feminine beauty addressee remains provisional. Final pride in flaws versus wearing makeup retained as source tension, not harmonised into a moral. Cosmetic names retained as terms; no practical product advice added."
+      ],
+      "reason": "Retain after full reading: eye corners and wing-like stroke already clear; product sequence, hypocrisy and contradictory ending retained.",
+      "tradeoff": "Preserve all images, full stanzas and contributor tails; same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1c8261dcb54adbd6a1ff20a49efa5f29ed33705b8f5f0674ad72b02049900f9e",
+      "before_sha256": "2d4ac02bfdebda9f91c793a68cbd799bdad8956e7956f94a862e45c7af0a6982",
+      "after_sha256": "2d4ac02bfdebda9f91c793a68cbd799bdad8956e7956f94a862e45c7af0a6982",
+      "prior_uncertainties": [
+        {
+          "note": "Cosmetic product names transliterated. Social hypocrisy and final irony retained; source advice not added recommendations. Hindi beauty-address feminine provisional.",
+          "record": "kb/production/translations/batch-171/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ],
+  "after_reading_evidence": "All five complete changed after targets directly read:39 Hindi/Odia,40Hindi,41Hindi,42Hindi. River enjambment rechecked and six three-line stanza map explicitly separates18verse lines from separator/copyright; other line/stanza counts and tails preserved. Exact snapshots rechecked before integration; source uncertainties retained, self-review only.",
+  "skill": {
+    "path": "/Users/ahimanikya/.codex/skills/human-natural-translation/SKILL.md",
+    "sha256": "3954053f286bb38f21fff16020c27fefe933942532a2083a8b3e7eae9c1ccc17",
+    "mode": "Poetic Natural",
+    "adopted_companion": "kb/reference/adopted-human-natural/editorial.md"
+  }
+}

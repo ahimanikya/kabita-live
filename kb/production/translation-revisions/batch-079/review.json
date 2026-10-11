@@ -1,0 +1,221 @@
+{
+  "recorded_at": "2026-10-05T16:59:30.393632+00:00",
+  "poem_ids": [
+    469,
+    473,
+    476,
+    478,
+    479
+  ],
+  "variants_read": 10,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 469,
+      "target": "or",
+      "reading_evidence": "Read both source/target stanzas: life platter of balanced joy/woe and light/dark, pious and lustful faces under same roof, polluted minds breathing among altruists/sages; address to humankind/reflection/infamous elements uprooted/sorrows eased/irrevocable wrongdoing renounced/honesty and piety joined against diabolical designs. Rhetorical questions and moral contrast preserved.",
+      "reason": "Carry sharing a roof as living beneath the same roof, keeping faces as personified inhabitants rather than literally dividing the roof.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full sources, targets, cultural anchors, stanza/line counts and credits. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "699c0d3b6f8c7a44e210d82963aadcbca4fb406bc21ccba87fc3c1425398b33f",
+      "before_sha256": "83f286f5b1b1ca06ff6bcb9371999d2409a9e891a4566bbfbbb800bf133f8e28",
+      "after_sha256": "a8bb8e9b8f391a9fc534c898641144a55163b54a519acef22129f24848b3c327",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 469,
+      "target": "hi",
+      "reading_evidence": "Read both source/target stanzas: life platter of balanced joy/woe and light/dark, pious and lustful faces under same roof, polluted minds breathing among altruists/sages; address to humankind/reflection/infamous elements uprooted/sorrows eased/irrevocable wrongdoing renounced/honesty and piety joined against diabolical designs. Rhetorical questions and moral contrast preserved.",
+      "reason": "Use the natural shared-roof idiom while preserving the moral juxtaposition and personification of faces.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full sources, targets, cultural anchors, stanza/line counts and credits. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "699c0d3b6f8c7a44e210d82963aadcbca4fb406bc21ccba87fc3c1425398b33f",
+      "before_sha256": "450f62924dd51fff7acefb9f89fcc4606708c6bb22c173d96225fda2d3c56c1d",
+      "after_sha256": "2059661845b5749920a4b2037937bcb2da030b8ae76b88cf86f94f33a7954d8d",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 473,
+      "target": "or",
+      "reading_evidence": "Read all 24 lines, opening/closing born-different statement: wilderness/wood melody/echoes/night/groove/binging wind/dirt storm; inner grass/molehill/branch flowers/sunshine-rhyme/verse shelter/engraving norms; wings/cloud/radius/eye hurricane/contestant feet and 4x100 relay, unaccustomed hips/extra-mile ache/ointment, pause/brain-cap tap/unnamed three-letter comfort. Ambiguous source tokens retained rather than inferred from surrounding imagery.",
+      "reason": "Restore soothing as relief rather than an unsupported cooling property; do not use clear correction as permission to resolve damaged source phrases.",
+      "open_questions": [
+        "groove remains unresolved, not guessed as grove. Binging/engraving norms/brain cap and unnamed three-letter word remain source questions. Molehill equivalents are approximate pending lexical review. Hindi feminine speaker remains provisional; source alone does not establish sex."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full sources, targets, cultural anchors, stanza/line counts and credits. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "3b595a9a492de79e4202593056e7c86e28cf5c0f404ffa64136abd7b781c7631",
+      "before_sha256": "398ace200b3289267d5773989515e1f4801efa5a5211486bc9b811e26914e634",
+      "after_sha256": "cc495cc334c576f0f73aa82fde103d5d93cccc8445dc84d215c676810984319f",
+      "prior_uncertainties": [
+        {
+          "note": "Single 24-line stanza retained. Same-assistant review removed conjectural grove reading: ambiguous groove now retained verbatim; possible rhythmic or woodland typo meanings unresolved. binging kept as excessive enjoyment, not guessed as singing. Three-letter word remains unnamed. Hindi/Odia molehill equivalents are approximate and require lexical review. brain cap and engraving norms retained literally.",
+          "record": "kb/production/translations/batch-077/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 473,
+      "target": "hi",
+      "reading_evidence": "Read all 24 lines, opening/closing born-different statement: wilderness/wood melody/echoes/night/groove/binging wind/dirt storm; inner grass/molehill/branch flowers/sunshine-rhyme/verse shelter/engraving norms; wings/cloud/radius/eye hurricane/contestant feet and 4x100 relay, unaccustomed hips/extra-mile ache/ointment, pause/brain-cap tap/unnamed three-letter comfort. Ambiguous source tokens retained rather than inferred from surrounding imagery.",
+      "reason": "Make track explicitly the athletic running track established by the next relay line, avoiding an unintended railway reading.",
+      "open_questions": [
+        "groove remains unresolved, not guessed as grove. Binging/engraving norms/brain cap and unnamed three-letter word remain source questions. Molehill equivalents are approximate pending lexical review. Hindi feminine speaker remains provisional; source alone does not establish sex."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full sources, targets, cultural anchors, stanza/line counts and credits. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "3b595a9a492de79e4202593056e7c86e28cf5c0f404ffa64136abd7b781c7631",
+      "before_sha256": "e80220cbef234579dc9c340d4ef61ac3b904132de0559f4c127b598bb3278077",
+      "after_sha256": "937e717c39bc1cca677929cc9fd60ad704d2ae2362178cf26f2d47569e1fcac1",
+      "prior_uncertainties": [
+        {
+          "note": "Single 24-line stanza retained. Same-assistant review removed conjectural grove reading: ambiguous groove now retained verbatim; possible rhythmic or woodland typo meanings unresolved. binging kept as excessive enjoyment, not guessed as singing. Three-letter word remains unnamed. Hindi/Odia molehill equivalents are approximate and require lexical review. brain cap and engraving norms retained literally.",
+          "record": "kb/production/translations/batch-077/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 476,
+      "target": "or",
+      "reading_evidence": "Read entire eleven-line source and both targets: approaching seductive clouds/dark wings/whispers/mystic snare, arms/hands, empty moments/time disorder, intoxicating kisses/sway, entwined trembling-free souls/tangled hair, passion surrender to memories/futile quest and sweet deceit. Erotic register and unresolved closing disillusion preserved.",
+      "reason": "Retain the single flowing erotic stanza and memory/deceit turn; no invented narrative explaining the lovers or cryptic sway.",
+      "open_questions": [
+        "seal our sway remains uncertain between bodily motion/influence; existing motion reading is provisional. Enchanted/snare attachment is left fragmentary. Hindi feminine speaker remains provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full sources, targets, cultural anchors, stanza/line counts and credits. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "1dedf970e2e7e734d8e62a997eede5cae6b16cfcdd74af820f0a51919e65b6be",
+      "before_sha256": "9b8e217ef8db1fb9554335f50f8a3229d06678ff82f01f2994cb127c7004c801",
+      "after_sha256": "9b8e217ef8db1fb9554335f50f8a3229d06678ff82f01f2994cb127c7004c801",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 476,
+      "target": "hi",
+      "reading_evidence": "Read entire eleven-line source and both targets: approaching seductive clouds/dark wings/whispers/mystic snare, arms/hands, empty moments/time disorder, intoxicating kisses/sway, entwined trembling-free souls/tangled hair, passion surrender to memories/futile quest and sweet deceit. Erotic register and unresolved closing disillusion preserved.",
+      "reason": "Retain intimate bodily images and final deception without smoothing source fragments into new causal claims.",
+      "open_questions": [
+        "seal our sway remains uncertain between bodily motion/influence; existing motion reading is provisional. Enchanted/snare attachment is left fragmentary. Hindi feminine speaker remains provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full sources, targets, cultural anchors, stanza/line counts and credits. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "1dedf970e2e7e734d8e62a997eede5cae6b16cfcdd74af820f0a51919e65b6be",
+      "before_sha256": "338e819f8ca6483b6866a8de90a1df72c49ad4db71ddefe2a3f6ca6df2518693",
+      "after_sha256": "338e819f8ca6483b6866a8de90a1df72c49ad4db71ddefe2a3f6ca6df2518693",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 478,
+      "target": "or",
+      "reading_evidence": "Read both six-line stanzas: thin wall crack seeking expansion/eating paint/hiding old wounds; pair drifting along fault lines and celluloid laughter no longer bold enough to heal. Crack/fault/healing linkage, no named wounded object and final incomplete breath checked.",
+      "reason": "Retain the pared-back wall/relationship analogy and withheld object of healing, keeping ambiguous paint/crack attachment outside the poem.",
+      "open_questions": [
+        "hiding old wounds may modify the paint or crack; current crack attachment is provisional. Celluloid laughter remains metaphorically open, not asserted to be a film photograph or falseness."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full sources, targets, cultural anchors, stanza/line counts and credits. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "3b0b35df2f589c479545f470fabde15b4844efe63bb2f5c783819d5101d5a2c2",
+      "before_sha256": "d83d8c96cc502555870c14fcd2cb1b26eb8a49c9d7758b96467fe98ca97f92f9",
+      "after_sha256": "d83d8c96cc502555870c14fcd2cb1b26eb8a49c9d7758b96467fe98ca97f92f9",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 478,
+      "target": "hi",
+      "reading_evidence": "Read both six-line stanzas: thin wall crack seeking expansion/eating paint/hiding old wounds; pair drifting along fault lines and celluloid laughter no longer bold enough to heal. Crack/fault/healing linkage, no named wounded object and final incomplete breath checked.",
+      "reason": "Retain the fragmentary close and celluloid wording, with no explanatory relationship diagnosis.",
+      "open_questions": [
+        "hiding old wounds may modify the paint or crack; current crack attachment is provisional. Celluloid laughter remains metaphorically open, not asserted to be a film photograph or falseness."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full sources, targets, cultural anchors, stanza/line counts and credits. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "3b0b35df2f589c479545f470fabde15b4844efe63bb2f5c783819d5101d5a2c2",
+      "before_sha256": "3d11c88d43216e911b5bea75902fae8ad6234275a000bb0f33e8f5011643f41f",
+      "after_sha256": "3d11c88d43216e911b5bea75902fae8ad6234275a000bb0f33e8f5011643f41f",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 479,
+      "target": "or",
+      "reading_evidence": "Read all six quatrains in source/targets: ecstatic recollection/toddler-adult, desperate flashes and cherished moments, mornings/humid days/sweet-sour candy resolution/contemplation, learning lighthouse/new challenges/barriers, pink-green-grey colours/value addition, flying time/footprints/embrace and welcoming transition. Source changes of mood and mixed business/metaphoric register retained.",
+      "reason": "Retain the six-stage recollection and source’s unusual resolution/value-addition diction; do not substitute a tidier life lesson.",
+      "open_questions": [
+        "Sweet Sour Candy Resolution has uncertain attachment/sense; current resolve reading provisional. Welcoming versus welcome transition is not silently changed. Hindi feminine speaker not established by English source."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full sources, targets, cultural anchors, stanza/line counts and credits. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "2d8cb373b4804e30194b189c35ece11f343a3ed939109951c74cffcebaa34ccb",
+      "before_sha256": "fdfa238725785dd693d9272f0ee84af78aca4a928ea8258431683a8120296420",
+      "after_sha256": "fdfa238725785dd693d9272f0ee84af78aca4a928ea8258431683a8120296420",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 479,
+      "target": "hi",
+      "reading_evidence": "Read all six quatrains in source/targets: ecstatic recollection/toddler-adult, desperate flashes and cherished moments, mornings/humid days/sweet-sour candy resolution/contemplation, learning lighthouse/new challenges/barriers, pink-green-grey colours/value addition, flying time/footprints/embrace and welcoming transition. Source changes of mood and mixed business/metaphoric register retained.",
+      "reason": "Retain the mood shifts and ambiguous candy-resolution phrase rather than inventing a new metaphor; final welcoming remains the supplied adjective.",
+      "open_questions": [
+        "Sweet Sour Candy Resolution has uncertain attachment/sense; current resolve reading provisional. Welcoming versus welcome transition is not silently changed. Hindi feminine speaker not established by English source."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve full sources, targets, cultural anchors, stanza/line counts and credits. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "2d8cb373b4804e30194b189c35ece11f343a3ed939109951c74cffcebaa34ccb",
+      "before_sha256": "ed4ed65ef0448eb07ecb861464af8a88db439acc57c877085d43357d029f1464",
+      "after_sha256": "ed4ed65ef0448eb07ecb861464af8a88db439acc57c877085d43357d029f1464",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

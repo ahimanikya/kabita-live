@@ -1,0 +1,264 @@
+{
+  "recorded_at": "2026-10-05T11:27:20.128916+00:00",
+  "poem_ids": [
+    748,
+    749,
+    750,
+    752,
+    753
+  ],
+  "variants_read": 10,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 748,
+      "target": "hi",
+      "reason": "Retain the current Hindi; its recurring outside, stored faces and final waiting carry the source without an independently defensible wording correction.",
+      "reading_evidence": "Read all nine source stanzas and the complete target including end mark/address: disappearing love/distrust; changing mirror/river/face; steadfast mountain and departing birds; album/trunk; ageless faces talking in silence; trapped emotions; repeated outside with weapons/murderous moon/iced fish; termites/memory; next dream/mirror/restless river. Preserve political menace and unanswered questions.",
+      "open_questions": [
+        "The guilt/sorrow in ମୋଠୁ ଦୂରେଇ ଯିବାର ଗ୍ଲାନି leaves ownership unclear; existing English sorrow and Hindi glani remain provisional.",
+        "Masculine speaker agreement is not established by the Odia narrator; it remains provisional, not inferred from the author."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve accurate existing images, stanza turns and repetition; no forced rhyme or explanatory expansion.",
+      "full_source_target_read": true,
+      "source_sha256": "89b135a884a226af770d285b0bbbe62388e031189380dc1ccea8ca34d81cb9d3",
+      "before_sha256": "a2abd7c49da3b4f0e575e0438565e2a51e1947652f546fe5a15b8fb05a02664d",
+      "after_sha256": "a2abd7c49da3b4f0e575e0438565e2a51e1947652f546fe5a15b8fb05a02664d",
+      "prior_uncertainties": [
+        {
+          "note": "All source lines retained including end mark and address. Sthitaprajna rendered steadfast in wisdom, without importing a religious exposition. Guilt/sorrow of birds leaving is ambiguous; English sorrow provisional, Hindi glani retained.",
+          "record": "kb/production/translations/batch-014/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 748,
+      "target": "en",
+      "reason": "Repair the awkward wonder whether/must construction while retaining uncertainty about the faces conversing.",
+      "reading_evidence": "Read all nine source stanzas and the complete target including end mark/address: disappearing love/distrust; changing mirror/river/face; steadfast mountain and departing birds; album/trunk; ageless faces talking in silence; trapped emotions; repeated outside with weapons/murderous moon/iced fish; termites/memory; next dream/mirror/restless river. Preserve political menace and unanswered questions.",
+      "open_questions": [
+        "The guilt/sorrow in ମୋଠୁ ଦୂରେଇ ଯିବାର ଗ୍ଲାନି leaves ownership unclear; existing English sorrow and Hindi glani remain provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "The simpler embedded question loses the modal must but better preserves the source speculative tag; no certainty is added.",
+      "full_source_target_read": true,
+      "source_sha256": "89b135a884a226af770d285b0bbbe62388e031189380dc1ccea8ca34d81cb9d3",
+      "before_sha256": "1d13a8a96b00b5586d39c0b9d6804889149f38380341381c9aa2d159dfb8452d",
+      "after_sha256": "7176b153e3d3f33b1bf121bc4ea42022729ec4305fa4d25d648c0f67c2ae331e",
+      "prior_uncertainties": [
+        {
+          "note": "All source lines retained including end mark and address. Sthitaprajna rendered steadfast in wisdom, without importing a religious exposition. Guilt/sorrow of birds leaving is ambiguous; English sorrow provisional, Hindi glani retained.",
+          "record": "kb/production/translations/batch-014/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 749,
+      "target": "hi",
+      "reason": "Retain the full Hindi: accusation, dream chicks, ceremonial objects and earth renewal remain coherent; uncertain source senses need clarification rather than polishing.",
+      "reading_evidence": "Read all five stanzas in source and full target: curse/fall/stain/smell; time sandstorm, last bone and sky wrestling demon; dream chicks and arrogance; empty throne, servants, ceremonial implements and erased memorials; wounded earth declaring renewal. Preserve the violent political denunciation, chicks image and final feminine earth.",
+      "open_questions": [
+        "Prior dialect/damaged-reading questions remain: ପାଟି as buried, ଡୁମୁରା as putrid, ଶୁଭାଦର as honours. No conjectural replacement.",
+        "The final your suffering is read as suffering inflicted on earth; contextual but not author-confirmed. Punarnava renewal/possible plant resonance remains outside the poem.",
+        "Masculine addressee agreement remains provisional; no identity is supplied by the source."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve accurate existing images, stanza turns and repetition; no forced rhyme or explanatory expansion.",
+      "full_source_target_read": true,
+      "source_sha256": "f76429c0fadb5f09c363a8a961763e0b2b85c07b38c3288349540f379d799591",
+      "before_sha256": "03fd6adacfc1f7f16bd8f2e7947cc99b4081692e10063696b9c52435853820ab",
+      "after_sha256": "03fd6adacfc1f7f16bd8f2e7947cc99b4081692e10063696b9c52435853820ab",
+      "prior_uncertainties": [
+        {
+          "note": "Source ପାଟି contextually read as being buried; ଡୁମୁରା interpreted putrid smell provisionally and needs dialect review. Dream-chicks metaphor retained. ଶୁଭାଦର read honours; ceremonial alat/chamara distinction retained. Punarnava carries renewal and possible plant associations; no plant added.",
+          "record": "kb/production/translations/batch-014/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 749,
+      "target": "en",
+      "reason": "Repair for whose eyes to open into a grammatical relative clause that links the dream chicks to the arrogant expectation.",
+      "reading_evidence": "Read all five stanzas in source and full target: curse/fall/stain/smell; time sandstorm, last bone and sky wrestling demon; dream chicks and arrogance; empty throne, servants, ceremonial implements and erased memorials; wounded earth declaring renewal. Preserve the violent political denunciation, chicks image and final feminine earth.",
+      "open_questions": [
+        "Prior dialect/damaged-reading questions remain: ପାଟି as buried, ଡୁମୁରା as putrid, ଶୁଭାଦର as honours. No conjectural replacement.",
+        "The final your suffering is read as suffering inflicted on earth; contextual but not author-confirmed. Punarnava renewal/possible plant resonance remains outside the poem."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Makes the source causal expectation legible in English without adding a new dream, victim or moral. Existing servants/slaves wording retains the collective servile household, pending nuance review.",
+      "full_source_target_read": true,
+      "source_sha256": "f76429c0fadb5f09c363a8a961763e0b2b85c07b38c3288349540f379d799591",
+      "before_sha256": "3840097e3922bc66c6009875297c98a7a98accca984ac1ba4e42299ca1a9e4e9",
+      "after_sha256": "8e7ae9a765ce384a7cc47f070f3b0beb54036ad36e6139aaf5db1012062d9291",
+      "prior_uncertainties": [
+        {
+          "note": "Source ପାଟି contextually read as being buried; ଡୁମୁରା interpreted putrid smell provisionally and needs dialect review. Dream-chicks metaphor retained. ଶୁଭାଦର read honours; ceremonial alat/chamara distinction retained. Punarnava carries renewal and possible plant associations; no plant added.",
+          "record": "kb/production/translations/batch-014/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 750,
+      "target": "hi",
+      "reason": "Remove the supplied axe: the source describes a cut-struck branch without identifying the instrument.",
+      "reading_evidence": "Read all three source stanzas and complete target/tail: speaker frightening humans, vocal wounds and sleeping senses; torn cloud cry, burning dung-cake grief, clods of time, father absence, nearby trust and moon/jasmine tears; cut branch/days, acquaintance, autumn rice, self-cutting branches/base/roots and seed/soil/birth/death recognition. Preserve pain, social exclusion, unusual material imagery and self-questioning.",
+      "open_questions": [
+        "Fatherlessness, thrown clods and earth not waking occur in an ambiguous causal sequence: current because/therefore attachment to earth remains provisional.",
+        "Dialectal ରାଆ and ଘଷିମୁଣ୍ଡା are read cry/dung-cake in context; require source-fluent confirmation. ଚିହ୍ନିଲାଯାଏଁ recognition agency remains provisional.",
+        "Masculine speaker and मूल rendered तना remain provisional; do not infer identity or exact botanical distinction."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Keeps the wound/cut image and existing lineation but avoids inventing an axe.",
+      "full_source_target_read": true,
+      "source_sha256": "3e00167a7b414a35a535892752cea0bbda68001b1238284848303e87485fe144",
+      "before_sha256": "b7420abd0796bfe2896cfeb9034989196fbf4172639c37d7780316c90765820f",
+      "after_sha256": "7198892c3db804a3007ceef29fe942eeba6fb6069c09579076e680b9695834bf",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 750,
+      "target": "en",
+      "reason": "Remove the invented axe and repair the inverted opening of the final stanza. Keep the narrator in first-person possession through self-cutting without assigning man.",
+      "reading_evidence": "Read all three source stanzas and complete target/tail: speaker frightening humans, vocal wounds and sleeping senses; torn cloud cry, burning dung-cake grief, clods of time, father absence, nearby trust and moon/jasmine tears; cut branch/days, acquaintance, autumn rice, self-cutting branches/base/roots and seed/soil/birth/death recognition. Preserve pain, social exclusion, unusual material imagery and self-questioning.",
+      "open_questions": [
+        "Fatherlessness, thrown clods and earth not waking occur in an ambiguous causal sequence: current because/therefore attachment to earth remains provisional.",
+        "Dialectal ରାଆ and ଘଷିମୁଣ୍ଡା are read cry/dung-cake in context; require source-fluent confirmation. ଚିହ୍ନିଲାଯାଏଁ recognition agency remains provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserves urban half-mad self-description and bodily/tree violence without an unsupported instrument or English male label. Redistributes the existing two opening lines; verse boundary explicitly checked.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 27,
+        "before_lines": [
+          7,
+          18
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "3e00167a7b414a35a535892752cea0bbda68001b1238284848303e87485fe144",
+      "before_sha256": "7e77c3e81b3acf032d8773088d035357ecd982b0a7268926b193a29251bb2ffe",
+      "after_sha256": "fe00c3bd21e0761e112c8e5258e7710ff72bb15917c51f1669c2bcab048e3cdf",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 752,
+      "target": "hi",
+      "reason": "Retain the current Hindi, whose mango-scent subordinate clause and contrast between living poetry and writing remain coherent.",
+      "reading_evidence": "Read both complete source/target stanzas: fragrance/sky canvas/labour sweat; questions about writing and poet identity; koel afternoons, dust-coated mango scent and wounded half-poem striking sill; ink/body, coaxing words/beloved/daylight fireflies; scrap shop/morgue ice/market noise; failed poet trapped in lanes, stuffed sack and concluding question. Preserve repeated poetry and the resistant images rather than explain them.",
+      "open_questions": [
+        "ଆମ୍ବ ନସି remains provisionally mango blossom; regional sense unresolved. ଅମଣ as unwilling/unruly is provisional.",
+        "The relationship between coaxed words/illusory beloved and catching fireflies spans enjambed clauses; current attachment is provisional, not a verified single reading."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve accurate existing images, stanza turns and repetition; no forced rhyme or explanatory expansion.",
+      "full_source_target_read": true,
+      "source_sha256": "7d222dc932e8e54a730fba35c482afe90d037eedf9ecc20cf3e2fd4f97b69be3",
+      "before_sha256": "ad96f063d42885d5ba051bf0c9b24008ed21c97f1a6da21460e6eb6fb73c7af8",
+      "after_sha256": "ad96f063d42885d5ba051bf0c9b24008ed21c97f1a6da21460e6eb6fb73c7af8",
+      "prior_uncertainties": [
+        {
+          "note": "ଆମ୍ବ ନସି provisionally mango blossom; regional meaning requires native review. ଅମଣ read unruly/unwilling, not a claim about the author. Source enjambment preserved without claiming identical syntax across languages.",
+          "record": "kb/production/translations/batch-014/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 752,
+      "target": "en",
+      "reason": "Repair a hanging mango-scent noun phrase into a when-clause so the half-written poem remains the main-clause subject.",
+      "reading_evidence": "Read both complete source/target stanzas: fragrance/sky canvas/labour sweat; questions about writing and poet identity; koel afternoons, dust-coated mango scent and wounded half-poem striking sill; ink/body, coaxing words/beloved/daylight fireflies; scrap shop/morgue ice/market noise; failed poet trapped in lanes, stuffed sack and concluding question. Preserve repeated poetry and the resistant images rather than explain them.",
+      "open_questions": [
+        "ଆମ୍ବ ନସି remains provisionally mango blossom; regional sense unresolved. ଅମଣ as unwilling/unruly is provisional.",
+        "The relationship between coaxed words/illusory beloved and catching fireflies spans enjambed clauses; current attachment is provisional, not a verified single reading."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Keeps the three-line breath and every image; changes only the clause structure so an English reader need not reconstruct source syntax.",
+      "full_source_target_read": true,
+      "source_sha256": "7d222dc932e8e54a730fba35c482afe90d037eedf9ecc20cf3e2fd4f97b69be3",
+      "before_sha256": "9368b0d4c531ff29715806b53a1d27a30b7a3068f06cf2cdd49fe9b7ac5d5cf4",
+      "after_sha256": "b6727668e1de6ccad4820cf340378c2350d72effdf8928e2dfd1cf4cff0f3252",
+      "prior_uncertainties": [
+        {
+          "note": "ଆମ୍ବ ନସି provisionally mango blossom; regional meaning requires native review. ଅମଣ read unruly/unwilling, not a claim about the author. Source enjambment preserved without claiming identical syntax across languages.",
+          "record": "kb/production/translations/batch-014/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 753,
+      "target": "hi",
+      "reason": "Retain the self-directed current Hindi and title; no correction is warranted merely to smooth deliberate theatrical and water metaphors.",
+      "reading_evidence": "Read all nine stanzas in source and target: boat without oar, current/landing/whirlpool, forgotten dependence, dismissed boatman, own deeds, stage/character/strings, chest-water grief, solitary washing at temple/cremation ground, relinquished external steering and becoming whole. Read feminine title alongside first-person boat image; preserve defiance, karma/merit register, recurrence and open questions.",
+      "open_questions": [
+        "Sutradhara may carry narrator/director and literal string-holder/puppeteer senses. English puppeteer is supported by later string but narrows the allusion; keep provisional pending source explanation.",
+        "The scope of the feminine title to the lyric speaker and gender of boatman remain contextual rather than author-confirmed. Hindi feminine speaker is retained because the title supports that reading, not because of poet identity."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve accurate existing images, stanza turns and repetition; no forced rhyme or explanatory expansion.",
+      "full_source_target_read": true,
+      "source_sha256": "ebfd304eb31a5aa583c37f91119378e913ce9e1bd1a29ef228382510135c4a4f",
+      "before_sha256": "018fb3c3a401f55cbcd6c93fffc4e446359b3289cd767fb76faafd365de6a730",
+      "after_sha256": "018fb3c3a401f55cbcd6c93fffc4e446359b3289cd767fb76faafd365de6a730",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 753,
+      "target": "en",
+      "reason": "Retain the English: it follows the boat/stage/water transitions and final desire for wholeness. Title Wholly Herself interprets the feminine source title; retain as a contextual choice.",
+      "reading_evidence": "Read all nine stanzas in source and target: boat without oar, current/landing/whirlpool, forgotten dependence, dismissed boatman, own deeds, stage/character/strings, chest-water grief, solitary washing at temple/cremation ground, relinquished external steering and becoming whole. Read feminine title alongside first-person boat image; preserve defiance, karma/merit register, recurrence and open questions.",
+      "open_questions": [
+        "Sutradhara may carry narrator/director and literal string-holder/puppeteer senses. English puppeteer is supported by later string but narrows the allusion; keep provisional pending source explanation.",
+        "The scope of the feminine title to the lyric speaker and gender of boatman remain contextual rather than author-confirmed. Hindi feminine speaker is retained because the title supports that reading, not because of poet identity."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve accurate existing images, stanza turns and repetition; no forced rhyme or explanatory expansion.",
+      "full_source_target_read": true,
+      "source_sha256": "ebfd304eb31a5aa583c37f91119378e913ce9e1bd1a29ef228382510135c4a4f",
+      "before_sha256": "a2529515d5ebd9f7962f5a288f2166b9b2fc70f7fc116fc64a78b09d91423d11",
+      "after_sha256": "a2529515d5ebd9f7962f5a288f2166b9b2fc70f7fc116fc64a78b09d91423d11",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "recorded_at": "2026-10-05T16:36:38.679273+00:00",
+  "poem_ids": [
+    494,
+    483,
+    484,
+    491,
+    485
+  ],
+  "variants_read": 10,
+  "variants_changed": 2,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 494,
+      "target": "hi",
+      "reading_evidence": "Complete 26-line source/targets read: harmonium not made out-of-tune by Labangalata singing, once/twice challenged by lifelong playing, hurled corpses like slingstones and back marks, failed explanation/night tears/earth/closed room/eye ruby, morning brimming eyes and wounds/harsh word not softened by love. Negative harmonium claim and final two negations checked.",
+      "reason": "Place Labangalata’s genitive before singing so the harmonium claim is grammatical; leave the source corpses and uncertain narrator gender held.",
+      "open_questions": [
+        "Source ଶବମାନଙ୍କୁ literally corpses is striking beside harsh words; a possible damaged word for words cannot be substituted without source evidence. Labangalata remains supplied name. Hindi masculine speaker remains provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve original text, imagery, bylines/credits, raw tails and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "73e53f5cedfb6411e100b98c633335c8d5822a093a66eec4eff8121ee7ea32d5",
+      "before_sha256": "53835d95c5d70e4370a2d94aae4b81261606beba8998b17b3a8358c35cf21a66",
+      "after_sha256": "c5864450da631d70c5e45e914e19bf3520cb04974c538488fe6aa0b00fc47583",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 494,
+      "target": "en",
+      "reading_evidence": "Complete 26-line source/targets read: harmonium not made out-of-tune by Labangalata singing, once/twice challenged by lifelong playing, hurled corpses like slingstones and back marks, failed explanation/night tears/earth/closed room/eye ruby, morning brimming eyes and wounds/harsh word not softened by love. Negative harmonium claim and final two negations checked.",
+      "reason": "Retain the clear negative opening and ending, violent slingstone image and tears/ruby imagery; no source-driven correction can responsibly turn corpses into words.",
+      "open_questions": [
+        "Source ଶବମାନଙ୍କୁ literally corpses is striking beside harsh words; a possible damaged word for words cannot be substituted without source evidence. Labangalata remains supplied name. Hindi masculine speaker remains provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve original text, imagery, bylines/credits, raw tails and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "73e53f5cedfb6411e100b98c633335c8d5822a093a66eec4eff8121ee7ea32d5",
+      "before_sha256": "1d48523608aa5a272f0acef291b408bf0585a9963f574c1a010ae979b80ac329",
+      "after_sha256": "1d48523608aa5a272f0acef291b408bf0585a9963f574c1a010ae979b80ac329",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 483,
+      "target": "hi",
+      "reading_evidence": "Full eleven source/target stanzas read: stone-women/statue denial, elemental body, curse as rain/lightning and desire leading salvation-bearing men astray, angry roar/mad laughter, petals/body/suppleness, self-sufficient existence/royal pleasures, lovemaking veins/sunlight, dawn colours, summons to Indra/Gautama/Rama, desire/wishing/unclear token/commitment and story, memory bath/listening to festival songs. Female agency and erotic register checked throughout.",
+      "reason": "Retain the woman’s active desire and defiance without moralising; previously flagged lexical questions remain open.",
+      "open_questions": [
+        "ଈଶିକାର remains unresolved and quoted; no acceptance/arrow/denial guess. ସର ଦେହ as creamy body remains provisional pending exact-source and fluent confirmation. No remembered myth overrides the poem’s agency."
+      ],
+      "finding_dispositions": {
+        "PNR-050": "unresolved_source_word_hold",
+        "PNR-051": "unresolved_source_reading_hold"
+      },
+      "tradeoff": "Preserve original text, imagery, bylines/credits, raw tails and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "f08d72748b3becbe9af1f76e865dae1ea43d4e72e9938abaae4ccc3cb09405c5",
+      "before_sha256": "822019e818120fd9a6fd0e61f1b46d6c1d551d4ada07392f0b0f60511adc301c",
+      "after_sha256": "822019e818120fd9a6fd0e61f1b46d6c1d551d4ada07392f0b0f60511adc301c",
+      "prior_uncertainties": [
+        {
+          "note": "All eleven stanzas retained, including erotic agency and Indra/Gautama/Shri Rama; no mythological correction or moralizing. ଈଶିକାର is unclear and retained verbatim rather than guessed as acceptance/arrow/denial. ସର ଦେହ read as creamy body, subject to source/native review.",
+          "record": "kb/production/translations/batch-072/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 483,
+      "target": "en",
+      "reading_evidence": "Full eleven source/target stanzas read: stone-women/statue denial, elemental body, curse as rain/lightning and desire leading salvation-bearing men astray, angry roar/mad laughter, petals/body/suppleness, self-sufficient existence/royal pleasures, lovemaking veins/sunlight, dawn colours, summons to Indra/Gautama/Rama, desire/wishing/unclear token/commitment and story, memory bath/listening to festival songs. Female agency and erotic register checked throughout.",
+      "reason": "Attach desire’s fragrance to the speaker’s act of leading astray, rather than leaving it apparently attached to the men coming with deliverance.",
+      "open_questions": [
+        "ଈଶିକାର remains unresolved and quoted; no acceptance/arrow/denial guess. ସର ଦେହ as creamy body remains provisional pending exact-source and fluent confirmation. No remembered myth overrides the poem’s agency."
+      ],
+      "finding_dispositions": {
+        "PNR-052": "unresolved_source_word_hold",
+        "PNR-053": "unresolved_source_reading_hold"
+      },
+      "tradeoff": "Preserve original text, imagery, bylines/credits, raw tails and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "f08d72748b3becbe9af1f76e865dae1ea43d4e72e9938abaae4ccc3cb09405c5",
+      "before_sha256": "68f51724fa3a5b73960a9227254604f86840c30e1261d59411eae31078f3f837",
+      "after_sha256": "1da0e698717714b4934b860e933e0b32cd6bc2714010be777ef7fa0bcaa78f9e",
+      "prior_uncertainties": [
+        {
+          "note": "All eleven stanzas retained, including erotic agency and Indra/Gautama/Shri Rama; no mythological correction or moralizing. ଈଶିକାର is unclear and retained verbatim rather than guessed as acceptance/arrow/denial. ସର ଦେହ read as creamy body, subject to source/native review.",
+          "record": "kb/production/translations/batch-072/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 484,
+      "target": "hi",
+      "reading_evidence": "Read full four source/target stanzas including address: interrogator/turnings/colourless house/debts and suffering, cobwebs/pride/desire/books/unpaid lists, child smile as earnings and unageing loyal darkness-sibling, absent hospitality/tumorous want/silence shawl, exclusions of hills/trees/squirrel/two dogs/smile, compassionate sir and final truth/falsehood inversion. Counts and negated do-not-write preserved.",
+      "reason": "Retain interview challenge, eerie sibling darkness and refusal to record the landscape; lexical and final modifier ambiguities require source review.",
+      "open_questions": [
+        "ଅର୍ବୁଦତା remains provisionally tumorous growth, not normalised to poverty/absurdity. Final no-one-has-seen may attach to the child or its smile; present child reading is provisional, not a resolved paradox. Address remains preserved."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve original text, imagery, bylines/credits, raw tails and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "b660d2171ff9f68caa4f9890efc6524f7c06ff8cad7e05d51b12bca2f2bfec64",
+      "before_sha256": "50c6bcfe96580ad8b2d2e62f1949de845989b30aa2c9d633c3e7d0cdc2635ddb",
+      "after_sha256": "50c6bcfe96580ad8b2d2e62f1949de845989b30aa2c9d633c3e7d0cdc2635ddb",
+      "prior_uncertainties": [
+        {
+          "note": "All four stanzas including postal address retained. ଅର୍ବୁଦତା read provisionally as tumorous growth; highly unusual context needs native review, not silently normalized to poverty or absurdity. Last child/true-false paradox retained.",
+          "record": "kb/production/translations/batch-072/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 484,
+      "target": "en",
+      "reading_evidence": "Read full four source/target stanzas including address: interrogator/turnings/colourless house/debts and suffering, cobwebs/pride/desire/books/unpaid lists, child smile as earnings and unageing loyal darkness-sibling, absent hospitality/tumorous want/silence shawl, exclusions of hills/trees/squirrel/two dogs/smile, compassionate sir and final truth/falsehood inversion. Counts and negated do-not-write preserved.",
+      "reason": "Retain the child-smile/earnings and falsehood/truth turns without explaining them or silently reattaching the disputed final modifier.",
+      "open_questions": [
+        "ଅର୍ବୁଦତା remains provisionally tumorous growth, not normalised to poverty/absurdity. Final no-one-has-seen may attach to the child or its smile; present child reading is provisional, not a resolved paradox. Address remains preserved."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve original text, imagery, bylines/credits, raw tails and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "b660d2171ff9f68caa4f9890efc6524f7c06ff8cad7e05d51b12bca2f2bfec64",
+      "before_sha256": "aa50088d542c4997279b1bcd479d3635315a795d23594029d17479b435c97d68",
+      "after_sha256": "aa50088d542c4997279b1bcd479d3635315a795d23594029d17479b435c97d68",
+      "prior_uncertainties": [
+        {
+          "note": "All four stanzas including postal address retained. ଅର୍ବୁଦତା read provisionally as tumorous growth; highly unusual context needs native review, not silently normalized to poverty or absurdity. Last child/true-false paradox retained.",
+          "record": "kb/production/translations/batch-072/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 491,
+      "target": "hi",
+      "reading_evidence": "Read full two source/target stanzas: death bag of age/illness/war/pestilence/earthquakes/accidents contrasted with narrator bundle of mother sari-end, six literary titles, Taj/Konark/pyramids and earth-sky Savitri address; shared smile perhaps fire-tested gold above birth/cremation as moment-memory. All listed names and perhaps preserved.",
+      "reason": "Retain the list-driven resistance to death and qualified radiance in the shared smile; source pronoun and Savitri questions remain external.",
+      "open_questions": [
+        "Savitri retains literary/mythic ambiguity. Hindi masculine narrator/death agreement is provisional: Odia pronoun does not establish either sex. No invented encounter dialogue or interpretation of named works."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve original text, imagery, bylines/credits, raw tails and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "a22115d36270ea9cca56790d71e822f2a5b67bf4efbcbf84ee6e8845742bcccd",
+      "before_sha256": "e3f2b29fc91eba89f5bee8eaa363cc202e0f716ca167d38cbe75e107632be2d8",
+      "after_sha256": "e3f2b29fc91eba89f5bee8eaa363cc202e0f716ca167d38cbe75e107632be2d8",
+      "prior_uncertainties": [
+        {
+          "note": "Two stanzas preserved, with all named literary/art references transliterated, not turned into explanatory notes. Savitri kept ambiguous between literary/mythic reference. Enclosed death encounter has no invented dialogue. English adjacent mother/horizon and Savitri/address lines reordered for grammar with all source coverage.",
+          "record": "kb/production/translations/batch-072/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 491,
+      "target": "en",
+      "reading_evidence": "Read full two source/target stanzas: death bag of age/illness/war/pestilence/earthquakes/accidents contrasted with narrator bundle of mother sari-end, six literary titles, Taj/Konark/pyramids and earth-sky Savitri address; shared smile perhaps fire-tested gold above birth/cremation as moment-memory. All listed names and perhaps preserved.",
+      "reason": "Retain the physical bundles and literary/art inventory, with existing adjacent-line reordering preserving image relations; do not explain Savitri.",
+      "open_questions": [
+        "Savitri remains an unresolved literary/mythic reference; the source does not choose an explanatory gloss."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve original text, imagery, bylines/credits, raw tails and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "a22115d36270ea9cca56790d71e822f2a5b67bf4efbcbf84ee6e8845742bcccd",
+      "before_sha256": "73d1a1439ef1371fcc068bbde9bbad31390106844fa338ce0373bd96b2b4ac71",
+      "after_sha256": "73d1a1439ef1371fcc068bbde9bbad31390106844fa338ce0373bd96b2b4ac71",
+      "prior_uncertainties": [
+        {
+          "note": "Two stanzas preserved, with all named literary/art references transliterated, not turned into explanatory notes. Savitri kept ambiguous between literary/mythic reference. Enclosed death encounter has no invented dialogue. English adjacent mother/horizon and Savitri/address lines reordered for grammar with all source coverage.",
+          "record": "kb/production/translations/batch-072/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 485,
+      "target": "or",
+      "reading_evidence": "All seven source/target stanzas read: six when-were-you-not refrains, universe fibres/self atoms, sleeping time/first infant/heart pulse, sun/cloud/moon/star/shade/light/colour, smile/tears/fragrance/love geography/separation-union, body/temple/illusion/church/dargah/reality-delusion/ease-labour/penance/emptiness, aeons/creation-dissolution/dark-light/faith/renunciation and existence beyond nothing. Title and inclusive religious terms checked.",
+      "reason": "Retain the repeated intimate you and parallel cosmic/bodily pairings; the lover/divine openness is preserved rather than assigned a religious identity.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve original text, imagery, bylines/credits, raw tails and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "799d49491a04652a15832c668e8e722d9fcb54f2c8dbb05f821531e2c539092b",
+      "before_sha256": "051d7bc6adc6c055312311c221b221122ffd5ffe7e30c7ba233c5c3e5d1381b1",
+      "after_sha256": "051d7bc6adc6c055312311c221b221122ffd5ffe7e30c7ba233c5c3e5d1381b1",
+      "prior_uncertainties": [
+        {
+          "note": "Seven stanzas, refrains and divine/lover ambiguity retained. Temple/church/dargah all retained. No religious identity assigned to the addressee. Stray title quotation mark normalized in target titles only.",
+          "record": "kb/production/translations/batch-072/review.json"
+        }
+      ],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 485,
+      "target": "en",
+      "reading_evidence": "All seven source/target stanzas read: six when-were-you-not refrains, universe fibres/self atoms, sleeping time/first infant/heart pulse, sun/cloud/moon/star/shade/light/colour, smile/tears/fragrance/love geography/separation-union, body/temple/illusion/church/dargah/reality-delusion/ease-labour/penance/emptiness, aeons/creation-dissolution/dark-light/faith/renunciation and existence beyond nothing. Title and inclusive religious terms checked.",
+      "reason": "Retain anaphora, intentional verbless parallels and the final existence refrain; no stylistic variation is needed for these source repetitions.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve original text, imagery, bylines/credits, raw tails and stanza/line counts. Same-assistant self-review; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "799d49491a04652a15832c668e8e722d9fcb54f2c8dbb05f821531e2c539092b",
+      "before_sha256": "d5f81215f1b524f0c3b395bcea7c7d0b73fab7b98f60ec27860a34c8cbab2393",
+      "after_sha256": "d5f81215f1b524f0c3b395bcea7c7d0b73fab7b98f60ec27860a34c8cbab2393",
+      "prior_uncertainties": [
+        {
+          "note": "Seven stanzas, refrains and divine/lover ambiguity retained. Temple/church/dargah all retained. No religious identity assigned to the addressee. Stray title quotation mark normalized in target titles only.",
+          "record": "kb/production/translations/batch-072/review.json"
+        }
+      ],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

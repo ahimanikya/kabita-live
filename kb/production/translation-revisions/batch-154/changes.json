@@ -1,0 +1,873 @@
+[
+  {
+    "poem_id": 145,
+    "target": "or",
+    "reading_evidence": "Read complete Hindi source and complete current target directly: all20 lines, all three Kash wishes, border walls/land-water lines/open sky/humanity beyond religion, daughters flight/clothing/time/inner life, screen-fragmented household/children and elders/love, religion-caste hostility and Vasudhaiva Kutumbakam close. Checked title, repeated wish, plural daughters, negations and no invented policy or conclusion.",
+    "open_questions": [
+      "Clothing line leaves the exact social pressure/subject relation compressed; retained its open wording rather than adding a policing agent. Final conditional syntax is compressed in the source.",
+      "Retained title/refrain କାଶ୍ as existing Hindi borrowing; fluent Odia/editor review should assess this register, not a confirmed mistranslation."
+    ],
+    "reason": "Replace a Hindi-shaped flight collocation with a direct Odia verb while preserving fearlessness and the daughters as agents.",
+    "tradeoff": "Natural Odia flight verb keeps the metaphor without adding wings, destinations or new freedoms.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "124d04cde04e6a3a92e7a854ee6416138e18bf9a67d852420b2910e2b993922f",
+    "before_sha256": "bd15f56c5b30363365fa772b4ecb6443da5d9bab33969849490c6c9ed985e61e",
+    "after_sha256": "c7c3a2192ee0088f1de9352f0a05427fd7ec0f85aff42e97faf24f595463a134",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "କାଶ୍",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "କାଶ୍",
+          "ନ ଥାଆନ୍ତା ସରହଦର ଏ ପାଚେରି",
+          "ମାଟି ପାଣିରେ ନ ଥାଆନ୍ତା ରେଖା",
+          "ଆକାଶ ପରି ଖୋଲା ଥାଆନ୍ତା ଏ ଜଗତ",
+          "ଧର୍ମର ଊର୍ଦ୍ଧ୍ୱରେ ଥାଆନ୍ତା କେବଳ ମଣିଷ।",
+          "ଭୟ ବିନା ଝିଅମାନେ ଉଡ଼ାଣ ଭରୁଥାଆନ୍ତେ",
+          "ପିନ୍ଧିବା ଓଢ଼ିବାରେ ଚିନ୍ତା ନ ଥାଆନ୍ତା",
+          "ମନ ଚାହୁଁଥିବା କାମ କରନ୍ତେ, ସମୟର ବନ୍ଧନ ନ ଥାଆନ୍ତା",
+          "ବୁଝାଯାଉଥାଆନ୍ତା ଭାବନା ଓ ଅନ୍ତର୍ମନ।",
+          "କାଶ୍",
+          "ଗୋଟିଏ ଘର ପରିବାର ଖଣ୍ଡଖଣ୍ଡ ନ ହୁଅନ୍ତା",
+          "ହାତରେ ନିଜ ନିଜ ପରଦା ଧରି",
+          "ସମ୍ପର୍କଠାରୁ ଦୂରେ ନ ପଳାନ୍ତେ ପିଲାଏ, ବଡ଼ମାନେ",
+          "ପ୍ରେମର ମହତ୍ତ୍ୱ ଏବେ ସେମାନେ ବୁଝନ୍ତେ।",
+          "କାଶ୍",
+          "ସମାଜରୁ ଶତ୍ରୁତା, ଧର୍ମ, ଜାତିର",
+          "ବିଦ୍ୱେଷ ଏବେ ଲିଭିଯାଆନ୍ତା",
+          "ଏ ଧରା କେବେ ଖିଲିଖିଲି ହସନ୍ତା",
+          "ବସୁଧୈବ କୁଟୁମ୍ବକମ୍‌ର ପରମ୍ପରା",
+          "ହୋଇଯାଆନ୍ତା।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "କାଶ୍",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "କାଶ୍",
+          "ନ ଥାଆନ୍ତା ସରହଦର ଏ ପାଚେରି",
+          "ମାଟି ପାଣିରେ ନ ଥାଆନ୍ତା ରେଖା",
+          "ଆକାଶ ପରି ଖୋଲା ଥାଆନ୍ତା ଏ ଜଗତ",
+          "ଧର୍ମର ଊର୍ଦ୍ଧ୍ୱରେ ଥାଆନ୍ତା କେବଳ ମଣିଷ।",
+          "ନିର୍ଭୟରେ ଝିଅମାନେ ଉଡ଼ୁଥାଆନ୍ତେ",
+          "ପିନ୍ଧିବା ଓଢ଼ିବାରେ ଚିନ୍ତା ନ ଥାଆନ୍ତା",
+          "ମନ ଚାହୁଁଥିବା କାମ କରନ୍ତେ, ସମୟର ବନ୍ଧନ ନ ଥାଆନ୍ତା",
+          "ବୁଝାଯାଉଥାଆନ୍ତା ଭାବନା ଓ ଅନ୍ତର୍ମନ।",
+          "କାଶ୍",
+          "ଗୋଟିଏ ଘର ପରିବାର ଖଣ୍ଡଖଣ୍ଡ ନ ହୁଅନ୍ତା",
+          "ହାତରେ ନିଜ ନିଜ ପରଦା ଧରି",
+          "ସମ୍ପର୍କଠାରୁ ଦୂରେ ନ ପଳାନ୍ତେ ପିଲାଏ, ବଡ଼ମାନେ",
+          "ପ୍ରେମର ମହତ୍ତ୍ୱ ଏବେ ସେମାନେ ବୁଝନ୍ତେ।",
+          "କାଶ୍",
+          "ସମାଜରୁ ଶତ୍ରୁତା, ଧର୍ମ, ଜାତିର",
+          "ବିଦ୍ୱେଷ ଏବେ ଲିଭିଯାଆନ୍ତା",
+          "ଏ ଧରା କେବେ ଖିଲିଖିଲି ହସନ୍ତା",
+          "ବସୁଧୈବ କୁଟୁମ୍ବକମ୍‌ର ପରମ୍ପରା",
+          "ହୋଇଯାଆନ୍ତା।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 145,
+    "target": "en",
+    "reading_evidence": "Read complete Hindi source and complete current target directly: all20 lines, all three Kash wishes, border walls/land-water lines/open sky/humanity beyond religion, daughters flight/clothing/time/inner life, screen-fragmented household/children and elders/love, religion-caste hostility and Vasudhaiva Kutumbakam close. Checked title, repeated wish, plural daughters, negations and no invented policy or conclusion.",
+    "open_questions": [
+      "Clothing line leaves the exact social pressure/subject relation compressed; retained its open wording rather than adding a policing agent. Final conditional syntax is compressed in the source."
+    ],
+    "reason": "Use the ordinary English compound for the same physical/political image.",
+    "tradeoff": "Condenses a calque without changing the wish or removing the following land/water boundary image.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "124d04cde04e6a3a92e7a854ee6416138e18bf9a67d852420b2910e2b993922f",
+    "before_sha256": "8b7989afe5b14a2c59f14dab4b36b97a582baafe0f214eb5e5932052ad42d57a",
+    "after_sha256": "996f42112d13c41d1027a377191e41f084a74dc62694e8db312cc7e39bb9e0c7",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "If Only",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "If only",
+          "there were no walls of borders",
+          "no lines upon land and water",
+          "this world were open like the sky",
+          "beyond religion, there were simply human beings.",
+          "daughters took flight without terror",
+          "untroubled about what to wear or cover themselves with",
+          "free to do as they wished, without restrictions of time",
+          "their feelings and inner lives were understood.",
+          "If only",
+          "one household, one family were not split into pieces",
+          "each holding a screen in their hands",
+          "children and elders did not flee from relationships",
+          "and now understood the value of love.",
+          "If only",
+          "from society, enmity and the hostility of religion and caste",
+          "would now be erased",
+          "this earth might laugh freely someday",
+          "and the tradition of the world as one family",
+          "come to be."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "If Only",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "If only",
+          "there were no border walls",
+          "no lines upon land and water",
+          "this world were open like the sky",
+          "beyond religion, there were simply human beings.",
+          "daughters took flight without terror",
+          "untroubled about what to wear or cover themselves with",
+          "free to do as they wished, without restrictions of time",
+          "their feelings and inner lives were understood.",
+          "If only",
+          "one household, one family were not split into pieces",
+          "each holding a screen in their hands",
+          "children and elders did not flee from relationships",
+          "and now understood the value of love.",
+          "If only",
+          "from society, enmity and the hostility of religion and caste",
+          "would now be erased",
+          "this earth might laugh freely someday",
+          "and the tradition of the world as one family",
+          "come to be."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 133,
+    "target": "hi",
+    "reading_evidence": "Read complete two-stanza source and target (4+7 lines): dusk of mind misunderstood; crumpled heart and departure beyond reach; shove of motionless body/accident; shy wind carrying incomprehensible messages; seven let/remain clauses from unsaid words and unsung songs through darkness, untasted joy, conditions, broken heart and earth on its axis. Checked no invented death or departure motive and preserved resigned ending.",
+    "open_questions": [],
+    "reason": "Replace the awkward nominal phrase for remaining heartbroken with natural Hindi while preserving an indefinite person.",
+    "tradeoff": "Preserves heartbreak as a continuing condition; does not assign gender or make the earth respond sympathetically.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "1ad50ad83129210fafc880b8b2f7c98f48412841f39490e1200cf69de8979828",
+    "before_sha256": "89c99292dc4171fc78e74d6a8d2bfe9e3a46f69d631ec4427616d12144969d5e",
+    "after_sha256": "0dfc1a1a550883d792a8e667423b97bec115981548d0bfa5ff4c9d2f291e0771",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "जैसे कोई न हो",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जैसे कोई मेरे मन की साँझ न समझे",
+          "जैसे हृदय के मुचड़ने पर कोई पहुँच से दूर चला जाए",
+          "जैसे कोई निश्चल देह को धक्का दे—दुर्घटना के उस क्षण जैसा",
+          "जैसे संकोची हवा अबूझ संदेश बहा ले जाए"
+        ],
+        [
+          "कुछ बातें अनकही रहें",
+          "कुछ गीत गाए न जाएँ",
+          "कुछ दुख अँधेरे में डूब जाएँ",
+          "कुछ सुख भोगे न जाएँ",
+          "कुछ शर्तें रखी न जाएँ",
+          "कोई एक हृदय टूटने के साथ रहे",
+          "पृथ्वी वैसी ही रहे अपनी धुरी पर"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "जैसे कोई न हो",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जैसे कोई मेरे मन की साँझ न समझे",
+          "जैसे हृदय के मुचड़ने पर कोई पहुँच से दूर चला जाए",
+          "जैसे कोई निश्चल देह को धक्का दे—दुर्घटना के उस क्षण जैसा",
+          "जैसे संकोची हवा अबूझ संदेश बहा ले जाए"
+        ],
+        [
+          "कुछ बातें अनकही रहें",
+          "कुछ गीत गाए न जाएँ",
+          "कुछ दुख अँधेरे में डूब जाएँ",
+          "कुछ सुख भोगे न जाएँ",
+          "कुछ शर्तें रखी न जाएँ",
+          "कोई टूटे दिल के साथ रहे",
+          "पृथ्वी वैसी ही रहे अपनी धुरी पर"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 133,
+    "target": "en",
+    "reading_evidence": "Read complete two-stanza source and target (4+7 lines): dusk of mind misunderstood; crumpled heart and departure beyond reach; shove of motionless body/accident; shy wind carrying incomprehensible messages; seven let/remain clauses from unsaid words and unsung songs through darkness, untasted joy, conditions, broken heart and earth on its axis. Checked no invented death or departure motive and preserved resigned ending.",
+    "open_questions": [],
+    "reason": "Remove an unnecessary inability reading from the opening; source states non-understanding without explaining why.",
+    "tradeoff": "Keeps the recurring As though and dusk image; neither blames nor excuses the unspecified person.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "1ad50ad83129210fafc880b8b2f7c98f48412841f39490e1200cf69de8979828",
+    "before_sha256": "874528294ab239fe20b0b158f6127d894371323393eea0e285d5ca8b7ac56c29",
+    "after_sha256": "7e735808301776dda5597b483ba40360ccc97b9b2735c946a0d75710e51f60e0",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "As Though Someone Were Absent",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "As though someone could not understand the dusk of my mind",
+          "As though, when the heart crumpled, someone left for an unreachable distance",
+          "As though someone shoved a motionless body—like the moment of an accident",
+          "As though a shy wind carried away messages not understood"
+        ],
+        [
+          "Let some words remain unsaid",
+          "Let some songs remain unsung",
+          "Let some sorrows drown in darkness",
+          "Let some joys remain untasted",
+          "Let some conditions not be laid down",
+          "Let someone remain brokenhearted",
+          "Let the earth remain as it is upon its axis"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "As Though Someone Were Absent",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "As though someone did not understand the dusk of my mind",
+          "As though, when the heart crumpled, someone left for an unreachable distance",
+          "As though someone shoved a motionless body—like the moment of an accident",
+          "As though a shy wind carried away messages not understood"
+        ],
+        [
+          "Let some words remain unsaid",
+          "Let some songs remain unsung",
+          "Let some sorrows drown in darkness",
+          "Let some joys remain untasted",
+          "Let some conditions not be laid down",
+          "Let someone remain brokenhearted",
+          "Let the earth remain as it is upon its axis"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 134,
+    "target": "hi",
+    "reading_evidence": "Read all10 source/target blocks including isolated Your eyes refrains and final liberation: moonlit night/fragrance boat; eyes/kohl expression/old letter; swayamvara, dice,18-day war and blood-river corpse of antiwar lover; lifting into eyes and sleeping below eyelids; repeated tears accusation/birth/kiss/death/dream/sunlight; sea made fish by kohl/Ganges liberation/defeated persons address/weaverbird in rain; first poet/naming in love-defeat-cataclysm/Gods doorway; gesture making human and life as love/satyagraha. Preserved strange transformations, political-love turn and all repetitions.",
+    "open_questions": [
+      "Prior basna/fragrance reading may carry desire resonance; not resolved by these edits.",
+      "Prior କଜଳପାତି/kohl-case reading remains provisional; cultural/lexical referent needs source-aware confirmation. No alternate referent invented.",
+      "Poem does not establish addressee gender; existing feminine Hindi verbs retained provisionally. English remains ungendered."
+    ],
+    "reason": "Repair Hindi noun relationship in the kiss-as-streak image.",
+    "tradeoff": "Keeps the poets death upon the lips and the line/streak image; no added erotic explanation.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "db46921cc88e7bc21269f06316caccb7595a61fa323cf461905f4d9f2cd3e686",
+    "before_sha256": "e0230b314b1e3a281e327502871d6ad5bc5a4b1c27b943e053f94ef9b44fdf18",
+    "after_sha256": "b663682e80a70400493e4cc258e68d3e15338b9c8221eb9bf0100954533445af",
+    "prior_uncertainties": [
+      {
+        "note": "Retains swayamvara/dice/eighteen-day war, blood river, Ganges water, weaverbird and satyagraha. basna interpreted fragrance, potentially carrying desire as well; kohl-case reading provisional. Hindi feminine addressee is a grammatical choice, not confirmed identity.",
+        "record": "kb/production/translations/batch-150/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "आँखें : सत्याग्रह",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "आँखें।",
+          "चाँदनी रात।",
+          "सुगंध की नाव।"
+        ],
+        [
+          "कैसी हैं तेरी आँखें?",
+          "चाँदनी रात की काजलदानी या सुगंध की पुरानी चिट्ठी?",
+          "तेरी आँखों में मैं देखता हूँ",
+          "स्वयंवर, द्यूत, अठारह दिन का युद्ध और रक्तनदी",
+          "मैं बहता आता हूँ रक्तनदी में",
+          "युद्ध का विरोध करने वाले अकेले प्रेमी का शव",
+          "तू मुझे आँखों में उठा लेती है",
+          "तू मुझे अपनी पलकों तले सुला देती है।"
+        ],
+        [
+          "तेरी आँखों में आँसू दिए, यही तेरा बार-बार का उलाहना",
+          "तेरी आँखों से मैं अश्रुधार बनकर जन्मा हूँ",
+          "और तेरे होंठों पर एक रेखा चुंबन बनकर मरा हूँ",
+          "स्वप्न बन डोला हूँ सारी नींद में और सुबह",
+          "द्वार पर पड़ा हूँ बूँद-बूँद धूप",
+          "तेरी आँखों में रहता हूँ मैं",
+          "कभी आँसू, कभी दुख का प्रहार बनकर।"
+        ],
+        [
+          "तेरी आँखें।"
+        ],
+        [
+          "समुद्र को मछली बना देने वाली काजल की एक रेखा",
+          "मृत्यु को मोक्ष बना देने वाली गंगाजल की एक बूँद",
+          "हारते हुए मनुष्य का एक निर्जन पता",
+          "मूसलाधार वर्षा में बया का घोंसला।"
+        ],
+        [
+          "तेरी आँखें।"
+        ],
+        [
+          "तेरी आँखों पर पहली कविता लिखने वाला कवि",
+          "मैं ही था",
+          "मैंने तेरा नाम रखा था प्रेम में, पराजय में, प्रलय में",
+          "तेरी आँखें मेरी पृथ्वी हैं",
+          "यह मैंने ईश्वर के द्वार पर लिख दिया था।"
+        ],
+        [
+          "तेरी आँखें।"
+        ],
+        [
+          "मुझे मनुष्य बनाया था तेरे इशारे ने",
+          "तेरे संकेत से मेरा जीवन",
+          "प्रेम और सत्याग्रह है।"
+        ],
+        [
+          "मेरी मुक्ति : तेरी आँखें।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "आँखें : सत्याग्रह",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "आँखें।",
+          "चाँदनी रात।",
+          "सुगंध की नाव।"
+        ],
+        [
+          "कैसी हैं तेरी आँखें?",
+          "चाँदनी रात की काजलदानी या सुगंध की पुरानी चिट्ठी?",
+          "तेरी आँखों में मैं देखता हूँ",
+          "स्वयंवर, द्यूत, अठारह दिन का युद्ध और रक्तनदी",
+          "मैं बहता आता हूँ रक्तनदी में",
+          "युद्ध का विरोध करने वाले अकेले प्रेमी का शव",
+          "तू मुझे आँखों में उठा लेती है",
+          "तू मुझे अपनी पलकों तले सुला देती है।"
+        ],
+        [
+          "तेरी आँखों में आँसू दिए, यही तेरा बार-बार का उलाहना",
+          "तेरी आँखों से मैं अश्रुधार बनकर जन्मा हूँ",
+          "और तेरे होंठों पर चुंबन की एक रेखा बनकर मरा हूँ",
+          "स्वप्न बन डोला हूँ सारी नींद में और सुबह",
+          "द्वार पर पड़ा हूँ बूँद-बूँद धूप",
+          "तेरी आँखों में रहता हूँ मैं",
+          "कभी आँसू, कभी दुख का प्रहार बनकर।"
+        ],
+        [
+          "तेरी आँखें।"
+        ],
+        [
+          "समुद्र को मछली बना देने वाली काजल की एक रेखा",
+          "मृत्यु को मोक्ष बना देने वाली गंगाजल की एक बूँद",
+          "हारते हुए मनुष्य का एक निर्जन पता",
+          "मूसलाधार वर्षा में बया का घोंसला।"
+        ],
+        [
+          "तेरी आँखें।"
+        ],
+        [
+          "तेरी आँखों पर पहली कविता लिखने वाला कवि",
+          "मैं ही था",
+          "मैंने तेरा नाम रखा था प्रेम में, पराजय में, प्रलय में",
+          "तेरी आँखें मेरी पृथ्वी हैं",
+          "यह मैंने ईश्वर के द्वार पर लिख दिया था।"
+        ],
+        [
+          "तेरी आँखें।"
+        ],
+        [
+          "मुझे मनुष्य बनाया था तेरे इशारे ने",
+          "तेरे संकेत से मेरा जीवन",
+          "प्रेम और सत्याग्रह है।"
+        ],
+        [
+          "मेरी मुक्ति : तेरी आँखें।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 134,
+    "target": "en",
+    "reading_evidence": "Read all10 source/target blocks including isolated Your eyes refrains and final liberation: moonlit night/fragrance boat; eyes/kohl expression/old letter; swayamvara, dice,18-day war and blood-river corpse of antiwar lover; lifting into eyes and sleeping below eyelids; repeated tears accusation/birth/kiss/death/dream/sunlight; sea made fish by kohl/Ganges liberation/defeated persons address/weaverbird in rain; first poet/naming in love-defeat-cataclysm/Gods doorway; gesture making human and life as love/satyagraha. Preserved strange transformations, political-love turn and all repetitions.",
+    "open_questions": [
+      "Prior basna/fragrance reading may carry desire resonance; not resolved by these edits.",
+      "Prior କଜଳପାତି/kohl-case reading remains provisional; cultural/lexical referent needs source-aware confirmation. No alternate referent invented."
+    ],
+    "reason": "Replace bidding, which suggests an instruction or command, with a sign matching the source gesture/hint.",
+    "tradeoff": "Keeps the relation to the beloveds gesture without adding obedience or identifying a deity; source satyagraha remains untranslated.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "db46921cc88e7bc21269f06316caccb7595a61fa323cf461905f4d9f2cd3e686",
+    "before_sha256": "3f4be81e84b21869c4cfa2e551499cd9ef85e887e2850ad3d3a23a2480032cd5",
+    "after_sha256": "829f584180ca5508b9cc252e52b5ee3d1374c4aa3b10ae2b1f22981eafb95fee",
+    "prior_uncertainties": [
+      {
+        "note": "Retains swayamvara/dice/eighteen-day war, blood river, Ganges water, weaverbird and satyagraha. basna interpreted fragrance, potentially carrying desire as well; kohl-case reading provisional. Hindi feminine addressee is a grammatical choice, not confirmed identity.",
+        "record": "kb/production/translations/batch-150/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Eyes: Satyagraha",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Eyes.",
+          "A moonlit night.",
+          "A boat of fragrance."
+        ],
+        [
+          "What are your eyes like?",
+          "A moonlit night’s kohl case, or an old letter of fragrance?",
+          "In your eyes I see",
+          "a swayamvara, a game of dice, eighteen days of war and a river of blood",
+          "I come floating down the river of blood",
+          "the corpse of the only lover who opposed the war",
+          "you lift me into your eyes",
+          "you lay me to sleep beneath your eyelids."
+        ],
+        [
+          "Again and again you complain that I have brought tears to your eyes",
+          "From your eyes I was born as a stream of tears",
+          "and died upon your lips as a streak of kisses",
+          "I have rippled as a dream through your sleep, and in the morning",
+          "lain at your door as drops of sunlight",
+          "I live in your eyes",
+          "sometimes as tears, sometimes as the blows of grief."
+        ],
+        [
+          "Your eyes."
+        ],
+        [
+          "A line of kohl that turns the sea into a fish",
+          "a drop of Ganges water that turns death into liberation",
+          "a solitary address for someone losing the struggle",
+          "a weaverbird’s nest in a fierce downpour."
+        ],
+        [
+          "Your eyes."
+        ],
+        [
+          "The poet who wrote the first poem about your eyes",
+          "was I alone",
+          "I named you in love, in defeat, in cataclysm",
+          "Your eyes are my earth—",
+          "I wrote this upon God’s doorway."
+        ],
+        [
+          "Your eyes."
+        ],
+        [
+          "Your gesture made me human",
+          "At your bidding my life is",
+          "love and satyagraha."
+        ],
+        [
+          "My liberation: your eyes."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Eyes: Satyagraha",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Eyes.",
+          "A moonlit night.",
+          "A boat of fragrance."
+        ],
+        [
+          "What are your eyes like?",
+          "A moonlit night’s kohl case, or an old letter of fragrance?",
+          "In your eyes I see",
+          "a swayamvara, a game of dice, eighteen days of war and a river of blood",
+          "I come floating down the river of blood",
+          "the corpse of the only lover who opposed the war",
+          "you lift me into your eyes",
+          "you lay me to sleep beneath your eyelids."
+        ],
+        [
+          "Again and again you complain that I have brought tears to your eyes",
+          "From your eyes I was born as a stream of tears",
+          "and died upon your lips as a streak of kisses",
+          "I have rippled as a dream through your sleep, and in the morning",
+          "lain at your door as drops of sunlight",
+          "I live in your eyes",
+          "sometimes as tears, sometimes as the blows of grief."
+        ],
+        [
+          "Your eyes."
+        ],
+        [
+          "A line of kohl that turns the sea into a fish",
+          "a drop of Ganges water that turns death into liberation",
+          "a solitary address for someone losing the struggle",
+          "a weaverbird’s nest in a fierce downpour."
+        ],
+        [
+          "Your eyes."
+        ],
+        [
+          "The poet who wrote the first poem about your eyes",
+          "was I alone",
+          "I named you in love, in defeat, in cataclysm",
+          "Your eyes are my earth—",
+          "I wrote this upon God’s doorway."
+        ],
+        [
+          "Your eyes."
+        ],
+        [
+          "Your gesture made me human",
+          "At a sign from you, my life is",
+          "love and satyagraha."
+        ],
+        [
+          "My liberation: your eyes."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 135,
+    "target": "en",
+    "reading_evidence": "Read complete4 source/target blocks (10/12/9/10 lines): friend will come refrain, burning chest/stumbling feet/backyard lemon tree neglected for days/lemon water; durva and jujube leaf/neighbour Ludo invitation/refusal/question/door shut; hearth/rice-lentils-salt-turmeric/well chilli/doorway-thatch cobweb cleaning/footwashing pitcher; affection-Ganges inner cleansing/anger sulking jealousy envy/emotion water/laughter shawl on lips/wait. Checked switch from domestic preparation to inner hospitality, colloquial exchange and absent final arrival.",
+    "open_questions": [
+      "Prior malformed internal punctuation remains contextual reading only; source untouched.",
+      "ନୁଆବୋଉ may function as a social/household address beyond literal newlywed; retained existing new-bride rendering for source-aware confirmation.",
+      "Durva keraye quantity/form and exact face-flick gesture remain culturally nuanced; no ritual purpose invented."
+    ],
+    "reason": "Render the neighbours expressive face gesture idiomatically instead of a literal spatial movement.",
+    "tradeoff": "Keeps irritation/nonverbal response without specifying a contemptuous motive or turning the expression into a smile. Friend remains gender-neutral.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "60cb9426610771053b652ea7a52e00a17a95582192706b425368c31c23d978d6",
+    "before_sha256": "7ef32ea5dddbce28180f1d60a2425fa2e90cdf331d46ca251cc9cc3d61ddc4f3",
+    "after_sha256": "93ea2d0cbf911dd51c54b5baeb6ce92610d8481f139013d0a635c90b2747d58b",
+    "prior_uncertainties": [
+      {
+        "note": "Durva, jujube, Ludo, hearth and ritual hospitality preserved. English friend gender left open; Hindi feminine speaker provisional. Malformed punctuation in source words read contextually without editing original.",
+        "record": "kb/production/translations/batch-150/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "A Friend",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "A friend will come",
+          "my chest is afire",
+          "my feet are stumbling",
+          "in a single breath I ran",
+          "towards the lemon tree in the backyard,",
+          "it has been many days",
+          "since I went to that tree or brought back",
+          "a lemon,",
+          "a friend will come",
+          "I must at least offer a little lemon water!"
+        ],
+        [
+          "A sprig of durva grass, a jujube leaf",
+          "I plucked",
+          "the new bride next door was calling",
+          "come, let us play Ludo,",
+          "I refused: I have work, I cannot come",
+          "turning up her face, she said—",
+          "what work, then?",
+          "I replied",
+          "a friend will come",
+          "why so many questions!",
+          "With a bang I pushed shut",
+          "the backyard door."
+        ],
+        [
+          "Setting water on the hearth, I felt about for",
+          "rice, lentils, salt, turmeric",
+          "I ran to the well",
+          "for a green chilli",
+          "the front doorway, the veranda",
+          "all the cobwebs in the thatch",
+          "I swept and wiped clean",
+          "a friend will come and wash their feet",
+          "I set down a pitcher of water."
+        ],
+        [
+          "At last",
+          "with affection and fondness as",
+          "Ganges water, I sprinkled my mind clean",
+          "anger, sulking, jealousy, envy of another’s good fortune",
+          "I washed them all away",
+          "with a pitcher of feeling’s water",
+          "hanging a shawl of laughter",
+          "upon my lips",
+          "I waited",
+          "for a friend to come."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "A Friend",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "A friend will come",
+          "my chest is afire",
+          "my feet are stumbling",
+          "in a single breath I ran",
+          "towards the lemon tree in the backyard,",
+          "it has been many days",
+          "since I went to that tree or brought back",
+          "a lemon,",
+          "a friend will come",
+          "I must at least offer a little lemon water!"
+        ],
+        [
+          "A sprig of durva grass, a jujube leaf",
+          "I plucked",
+          "the new bride next door was calling",
+          "come, let us play Ludo,",
+          "I refused: I have work, I cannot come",
+          "making a face, she said—",
+          "what work, then?",
+          "I replied",
+          "a friend will come",
+          "why so many questions!",
+          "With a bang I pushed shut",
+          "the backyard door."
+        ],
+        [
+          "Setting water on the hearth, I felt about for",
+          "rice, lentils, salt, turmeric",
+          "I ran to the well",
+          "for a green chilli",
+          "the front doorway, the veranda",
+          "all the cobwebs in the thatch",
+          "I swept and wiped clean",
+          "a friend will come and wash their feet",
+          "I set down a pitcher of water."
+        ],
+        [
+          "At last",
+          "with affection and fondness as",
+          "Ganges water, I sprinkled my mind clean",
+          "anger, sulking, jealousy, envy of another’s good fortune",
+          "I washed them all away",
+          "with a pitcher of feeling’s water",
+          "hanging a shawl of laughter",
+          "upon my lips",
+          "I waited",
+          "for a friend to come."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 136,
+    "target": "hi",
+    "reading_evidence": "Read all8 numbered source/target units and long lines directly: search99/100 light, one light dead amid99 blemishes/night and dead moon; lotus hair/black cobra venom/congealed night/death ghazal; sindoor-bangles/waited footsteps sounding flute in anothers bower; regret blown/sorrow paper boat/Fani returning destruction; fragrant love versus enduring promise lamp; mirror preparation and shattering; smile/pain/betrayal sword/blood/bare hill/deceit palaces/triumph; beauty mind-or-eyes/lifelong waiting/enchanted mind/nothing else beautiful/God until death. Checked numerals, negation, uncertain pronouns and section endings; no factual cyclone claim added.",
+    "open_questions": [
+      "Prior nonstandard number spelling remains provisional ninety-nine interpretation.",
+      "Fani retained without choosing between named destructive/cyclone image and serpent resonance; no external historical identification claimed.",
+      "Gender and pronoun antecedents across independent sections remain open; feminine readings and relational mirror interpretation retained provisionally, not author-confirmed.",
+      "Final ଈଶ୍ୱରଙ୍କୁ ଭୋଗି ହେଉଥାଏ has experiential/devotional nuance needing source-aware review; God-experience wording remains provisional."
+    ],
+    "reason": "Remove avoidable obligation from the ending while preserving the ongoing experience and prior semantic hold.",
+    "tradeoff": "Continued experience replaces the implication one must keep experiencing; does not resolve the deeper sense of bhogi or add a doctrinal claim.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "05bb1020a7cdfefb1ed74dd54b91d1db3f2ed1999b25ee9e28427ed6770550f1",
+    "before_sha256": "62180a4b660bbfc3dd39a80cc9a8f8b4ddef8b34a0b10f347157aa0da830037f",
+    "after_sha256": "b0ec55848691b7b240008f59150116700e4da9bf1d92e2779b16c2b82a826027",
+    "prior_uncertainties": [
+      {
+        "note": "Eight numbered source sections and long lines retained. Nonstandard number spelling interpreted ninety-nine. Fani retained as named destructive image, likely cyclone with serpent resonance; no external claim added. Ambiguous pronouns and final God-experience line need native review. Hindi feminine/male relational readings provisional.",
+        "record": "kb/production/translations/batch-150/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "जीवन अष्टक",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "चाँद में सौ में से निन्यानवे हिस्से प्रकाश की खोज चल रही थी..",
+          "पर एक हिस्सा प्रकाश निन्यानवे हिस्से कलंक में मरा पड़ा था, अब वहाँ रात का शासन है..चाँद की मृत्यु से आकाश विवर्ण! १।"
+        ],
+        [
+          "जूड़े में कमलमाला सजाए वह महमह महक रही थी",
+          "उसकी पंखुड़ी छूने के बाद देह भर काले नाग का विष..आँखों के आगे जमी हुई रात और कान के पास मृत्यु की ग़ज़ल! २।"
+        ],
+        [
+          "माँग में सिंदूर, हाथों में चूड़ियाँ पहने",
+          "वह परिचित पदचाप की प्रतीक्षा कर रही थी,",
+          "जो ध्वनि उसका जीवन निःशब्द करके किसी और के कुंज में बाँसुरी में स्वर भर रही थी! ३।"
+        ],
+        [
+          "उसने फुर्र से हवा में उड़ा दिया था पछतावा, दुख की काग़ज़ की नाव बनाकर नदी में बहा दी थी..।",
+          "नहीं जानती थी कि वे एक दिन ‘फ़णि’ बनकर",
+          "उसका अस्तित्व उजाड़ देंगे! ४।"
+        ],
+        [
+          "‘प्रेम’.. आजकल एक सुगंधित फूल है, जब तक सुगंध है, मुग्ध रखता है!",
+          "प्रतिज्ञा.. अग्निशिखा की एक धार,",
+          "अखंड दीप की तरह चुपचाप जलती रहती है। ५।"
+        ],
+        [
+          "वह उसके लिए सजने को आईना देखती है",
+          "उसके आने पर उसका मुख परखती है, फिर आईने के काँच की तरह टूट जाती है..! ६।"
+        ],
+        [
+          "वह हँसी!! कौन जाने कितनी वेदना, कितने विश्वासघात की तलवार की धार पर बहा सीने का रक्त, छल के सहारे",
+          "पार किया हुआ वह नंगा पहाड़,",
+          "प्रवंचना से रचा गया एक-एक मायामहल..",
+          "छल की जीत हर युग में, फिर हर क्षण में!! ७।"
+        ],
+        [
+          "सुंदरता कहाँ रहती है, मन में या आँखों में!",
+          "किसके लिए जन्म भर प्रतीक्षा!",
+          "एक बार वह मोहक सुंदरता मन मोह जाए",
+          "तो क्या फिर कुछ और सुंदर रह जाता है..!!",
+          "मृत्यु तक ईश्वर को अनुभव करते रहना होता है!! ८।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "जीवन अष्टक",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "चाँद में सौ में से निन्यानवे हिस्से प्रकाश की खोज चल रही थी..",
+          "पर एक हिस्सा प्रकाश निन्यानवे हिस्से कलंक में मरा पड़ा था, अब वहाँ रात का शासन है..चाँद की मृत्यु से आकाश विवर्ण! १।"
+        ],
+        [
+          "जूड़े में कमलमाला सजाए वह महमह महक रही थी",
+          "उसकी पंखुड़ी छूने के बाद देह भर काले नाग का विष..आँखों के आगे जमी हुई रात और कान के पास मृत्यु की ग़ज़ल! २।"
+        ],
+        [
+          "माँग में सिंदूर, हाथों में चूड़ियाँ पहने",
+          "वह परिचित पदचाप की प्रतीक्षा कर रही थी,",
+          "जो ध्वनि उसका जीवन निःशब्द करके किसी और के कुंज में बाँसुरी में स्वर भर रही थी! ३।"
+        ],
+        [
+          "उसने फुर्र से हवा में उड़ा दिया था पछतावा, दुख की काग़ज़ की नाव बनाकर नदी में बहा दी थी..।",
+          "नहीं जानती थी कि वे एक दिन ‘फ़णि’ बनकर",
+          "उसका अस्तित्व उजाड़ देंगे! ४।"
+        ],
+        [
+          "‘प्रेम’.. आजकल एक सुगंधित फूल है, जब तक सुगंध है, मुग्ध रखता है!",
+          "प्रतिज्ञा.. अग्निशिखा की एक धार,",
+          "अखंड दीप की तरह चुपचाप जलती रहती है। ५।"
+        ],
+        [
+          "वह उसके लिए सजने को आईना देखती है",
+          "उसके आने पर उसका मुख परखती है, फिर आईने के काँच की तरह टूट जाती है..! ६।"
+        ],
+        [
+          "वह हँसी!! कौन जाने कितनी वेदना, कितने विश्वासघात की तलवार की धार पर बहा सीने का रक्त, छल के सहारे",
+          "पार किया हुआ वह नंगा पहाड़,",
+          "प्रवंचना से रचा गया एक-एक मायामहल..",
+          "छल की जीत हर युग में, फिर हर क्षण में!! ७।"
+        ],
+        [
+          "सुंदरता कहाँ रहती है, मन में या आँखों में!",
+          "किसके लिए जन्म भर प्रतीक्षा!",
+          "एक बार वह मोहक सुंदरता मन मोह जाए",
+          "तो क्या फिर कुछ और सुंदर रह जाता है..!!",
+          "मृत्यु तक ईश्वर का अनुभव होता रहता है!! ८।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

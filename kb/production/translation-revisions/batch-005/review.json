@@ -1,0 +1,264 @@
+{
+  "recorded_at": "2026-10-05T03:39:35.412922+00:00",
+  "poem_ids": [
+    792,
+    794,
+    801,
+    803,
+    788
+  ],
+  "variants_read": 10,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 792,
+      "target": "hi",
+      "reason": "Restore the repeated search; the old line introduced passing time and softened the persistent act. Keep first-person possession without assigning speaker gender.",
+      "reading_evidence": "Read the potted plant, repeated search for earth, abundant branches, animals and people, mocked concern, upward glance and final reversal in full. Hindi retains the social rebuke and trees singing after humans.",
+      "open_questions": [
+        "ଜାମୁଡୋଳ remains provisionally rose-apple/jamrul; confirm the local fruit name without silently changing the original."
+      ],
+      "finding_dispositions": {
+        "PNR-028": "fixed_in_local_draft"
+      },
+      "tradeoff": "Nominal तलाश makes the speaker gender-neutral; repeated जारी है restores insistence rather than copying the source verb mechanically.",
+      "full_source_target_read": true,
+      "source_sha256": "21dbf36d17d3b53f6711624046c37d9c85c0193f352f98c391a21134bc676ef2",
+      "before_sha256": "e4ed4773e12c0be65c3ccc089c8de6576d66a0c27f146e34923566ceaca9bbb7",
+      "after_sha256": "8b39ccb9abcfae9d6e8f4a0163af354a5a09ee93d8d37f28970f81afaf8a5dfa",
+      "prior_uncertainties": [
+        {
+          "note": "ଜାମୁଡୋଳ provisionally rose-apple/jamrul; exact local fruit name needs confirmation. Deliberately preserved the opening movement from plant to fruit rather than adding a botanic explanation.",
+          "record": "kb/production/translations/batch-004/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 792,
+      "target": "en",
+      "reason": "Retain: searching and searching already carries the insistence, and the ending keeps the trees’ freedom from human threat.",
+      "reading_evidence": "Read all seven stanzas directly against Odia, including monkey damage, the renunciant, ridicule and the final reversal.",
+      "open_questions": [
+        "ଜାମୁଡୋଳ remains provisionally rose-apple/jamrul; confirm the local fruit name without silently changing the original."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Keep rose-apple provisional and preserve the plant-to-fruit opening rather than inserting botanical explanation.",
+      "full_source_target_read": true,
+      "source_sha256": "21dbf36d17d3b53f6711624046c37d9c85c0193f352f98c391a21134bc676ef2",
+      "before_sha256": "5a06cfc456b704d840b59d134f2efbca179473c2b22e5909defd91d27b0d2161",
+      "after_sha256": "5a06cfc456b704d840b59d134f2efbca179473c2b22e5909defd91d27b0d2161",
+      "prior_uncertainties": [
+        {
+          "note": "ଜାମୁଡୋଳ provisionally rose-apple/jamrul; exact local fruit name needs confirmation. Deliberately preserved the opening movement from plant to fruit rather than adding a botanic explanation.",
+          "record": "kb/production/translations/batch-004/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 794,
+      "target": "hi",
+      "reason": "Retain the accusatory catalogue and bedbug reversal. The repeated blood and humans carry the polemic; no euphemism or added moral is needed.",
+      "reading_evidence": "Read the executioner opening, hunger/wealth/pleasure/power catalogue, caged sparrows, bomb-making vultures, human cannibalism and conscience of the bedbug.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Keep elevated रक्त/विवेक/प्रभुत्व because the source’s political accusation supports this register.",
+      "full_source_target_read": true,
+      "source_sha256": "15954ea937c02e0305366f04f2d3174d6ac619e9d0405fd8160a4c239a37c5e9",
+      "before_sha256": "e9ef4b36ba6da39a6db3e16c4297c9ff4908838cd0be1164bbebca8d3abb0510",
+      "after_sha256": "e9ef4b36ba6da39a6db3e16c4297c9ff4908838cd0be1164bbebca8d3abb0510",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 794,
+      "target": "en",
+      "reason": "Clarify hunger as the cause of robbery; for hunger is a calque that jars against natural English. Preserve the parallel catalogue and unsoftened political violence.",
+      "reading_evidence": "Full reading follows the fragmentary executioner origin through dictatorship, human blood and flesh, repeated For how long, and the bedbug’s refusal to build dominion on its offspring’s blood.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "A two-word causal phrase varies the surface parallel slightly to make the first motive intelligible; riches/pleasure/power remain unchanged.",
+      "full_source_target_read": true,
+      "new_findings": [
+        {
+          "category": "idiom",
+          "before": "robbery for hunger",
+          "disposition": "fixed_in_local_draft",
+          "reason": "Causal hunger sounded like a beneficiary/purpose in the calque."
+        }
+      ],
+      "source_sha256": "15954ea937c02e0305366f04f2d3174d6ac619e9d0405fd8160a4c239a37c5e9",
+      "before_sha256": "5605c035671faaba5b3e0ebcbd6c48f07bad66f318d9e3d60cb921e9913d6391",
+      "after_sha256": "d2baac9feaf0743d1ced1c7198f8b813eab0ec2995fca5457cbadd73b392eaf6",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 801,
+      "target": "hi",
+      "reason": "Return the title to the source noun, without adding the addressee or containment frame. Preserve the bracketing image in the poem and its returns.",
+      "reading_evidence": "Read all refrains and the failed departure from the past, memory as safety pin, torn mind, kiss/skeleton, temple-like forests and Yamuna passage, including the non-verse tail.",
+      "open_questions": [
+        "Source encoding damage remains unresolved: ନାହó read as ନାହିଁ, ଚିକôାର as ଚିତ୍କାର, ମନ୍ରରେ as ମନ୍ତ୍ରରେ. Confirm against an authoritative source before approval.",
+        "ମାଈସଂଜ is rendered tender/कोमल dusk provisionally; its local nuance needs source confirmation.",
+        "Hindi masculine speaker remains provisional; Odia does not specify narrator gender."
+      ],
+      "finding_dispositions": {
+        "PNR-029": "fixed_in_local_draft"
+      },
+      "tradeoff": "कोष्ठक leaves the title open until the poem addresses तुम्हारे; damaged source wording is not silently repaired.",
+      "full_source_target_read": true,
+      "title_after": "कोष्ठक",
+      "source_sha256": "7216ca82ed5f4dffaaff888189ef518caf07d342c77ea2d83e386326560e2206",
+      "before_sha256": "a334a664d311cb22be6d4ffd72a2dfdd5718343b9be3895c6febeb735af3e592",
+      "after_sha256": "fe8ecbbfa42a7594648ae5b28d134ab4c7fa0d742be558ba9f5f397663ba8465",
+      "prior_uncertainties": [
+        {
+          "note": "Source contains encoding damage: ନାହó interpreted as ନାହିଁ; ଚିକôାର provisionally ଚିତ୍କାର; ମନ୍ରରେ provisionally ମନ୍ତ୍ରରେ. Original untouched. Human source check required before publication.",
+          "record": "kb/production/translations/batch-004/review.json"
+        },
+        {
+          "note": "Hindi uses a provisional masculine speaker for idiomatic phrasing; original Odia does not specify narrator gender.",
+          "record": "kb/production/translations/batch-004/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 801,
+      "target": "en",
+      "reason": "Return the title to Brackets; Within Your pre-explains the opening and is absent from the source title. Retain the unsettling body imagery and repetitions.",
+      "reading_evidence": "Read every source and English line: the guardian shadows, solitudes, safety pin, failure to escape the past, returning arrival, forests/temples, footprints and call of Come.",
+      "open_questions": [
+        "Source encoding damage remains unresolved: ନାହó read as ନାହିଁ, ଚିକôାର as ଚିତ୍କାର, ମନ୍ରରେ as ମନ୍ତ୍ରରେ. Confirm against an authoritative source before approval.",
+        "ମାଈସଂଜ is rendered tender/कोमल dusk provisionally; its local nuance needs source confirmation."
+      ],
+      "finding_dispositions": {
+        "PNR-030": "fixed_in_local_draft"
+      },
+      "tradeoff": "Plural Brackets naturally names the paired punctuation without supplying a relationship in the title. Upstream chant remains provisional because the source word is damaged.",
+      "full_source_target_read": true,
+      "title_after": "Brackets",
+      "source_sha256": "7216ca82ed5f4dffaaff888189ef518caf07d342c77ea2d83e386326560e2206",
+      "before_sha256": "a4bd8e3ea2cbea84ae170b568881baa75ff9e4bec053a53d3814ccafefc77e3e",
+      "after_sha256": "5d94d413770ae1f44945951e1aed2301a113a5be0d0c4e2a8a54d7ca3dcbcdee",
+      "prior_uncertainties": [
+        {
+          "note": "Source contains encoding damage: ନାହó interpreted as ନାହିଁ; ଚିକôାର provisionally ଚିତ୍କାର; ମନ୍ରରେ provisionally ମନ୍ତ୍ରରେ. Original untouched. Human source check required before publication.",
+          "record": "kb/production/translations/batch-004/review.json"
+        },
+        {
+          "note": "Hindi uses a provisional masculine speaker for idiomatic phrasing; original Odia does not specify narrator gender.",
+          "record": "kb/production/translations/batch-004/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 803,
+      "target": "hi",
+      "reason": "Retain the blood/redness repetition, bodily unease and unanswered question about desire. Literal physical friction here is part of the source’s discomfort, not a reason to prettify it.",
+      "reading_evidence": "Read the blooming rose, silence, stumble, evil eye, blood-Holi, breathless body, unsolved equations, vanishing union and the final bodily question returning to the garden.",
+      "open_questions": [
+        "ପକ୍ଷପାତ ରୋଗୀ remains provisionally interpreted as a paralysed patient, possibly intended ପକ୍ଷାଘାତ; original retained, source confirmation pending."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Keep अकिंचन and रक्तिमा within the source’s heightened diction, alongside colloquial नज़र लग जाती है.",
+      "full_source_target_read": true,
+      "source_sha256": "aa5497aad883ca1ebd8849d07ae52a178514976d9b080e657cf51bbc1391ea31",
+      "before_sha256": "0f1f9ae63d09efdd419bfb9268952fc9e3177f13d0d165f11ace1309797cc57f",
+      "after_sha256": "0f1f9ae63d09efdd419bfb9268952fc9e3177f13d0d165f11ace1309797cc57f",
+      "prior_uncertainties": [
+        {
+          "note": "ପକ୍ଷପାତ ରୋଗୀ contextually interpreted as paralysed patient, likely intended ପକ୍ଷାଘାତ. Original untouched; native source confirmation required. Preserved blood/rose/Holi imagery and emphatic exclamations.",
+          "record": "kb/production/translations/batch-004/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 803,
+      "target": "en",
+      "reason": "Retain the recurring rose/blood imagery and direct physical question. No source-independent polish is warranted merely to smooth the poem’s discomfort.",
+      "reading_evidence": "Read all three stanzas directly: silence from eyes to soul, bleeding petals, evil eye, blood-Holi, breath, sand, union/daydream and bodies rubbing together before the garden return.",
+      "open_questions": [
+        "ପକ୍ଷପାତ ରୋଗୀ remains provisionally interpreted as a paralysed patient, possibly intended ପକ୍ଷାଘାତ; original retained, source confirmation pending."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Whole body is an idiomatic reading of the embodied totality; preserve Holi rather than replacing the cultural scene.",
+      "full_source_target_read": true,
+      "source_sha256": "aa5497aad883ca1ebd8849d07ae52a178514976d9b080e657cf51bbc1391ea31",
+      "before_sha256": "8c465ae7d746f678c7aeb6bf2c2fe8b2b0ff2dff46193f7ffc0df4c8b53bb53b",
+      "after_sha256": "8c465ae7d746f678c7aeb6bf2c2fe8b2b0ff2dff46193f7ffc0df4c8b53bb53b",
+      "prior_uncertainties": [
+        {
+          "note": "ପକ୍ଷପାତ ରୋଗୀ contextually interpreted as paralysed patient, likely intended ପକ୍ଷାଘାତ. Original untouched; native source confirmation required. Preserved blood/rose/Holi imagery and emphatic exclamations.",
+          "record": "kb/production/translations/batch-004/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 788,
+      "target": "or",
+      "reason": "Retain: the astronomical images move coherently into words offered for the reader’s affection; no invented explanation or narrator gender.",
+      "reading_evidence": "Read heart/universes, orbiting thoughts, falling stars, moon-cool memories, sun-like desires, wandering mind and the three-line reader address. End marker and Jamshedpur are preserved outside rendered verse.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "ଓହ୍ଲାଇ ଆସେ carries the descent into words; no forced rhyme or more ornate cosmology.",
+      "full_source_target_read": true,
+      "source_sha256": "c63085492876a8ab4aa9656707b90a3ee106853b545350952514d74532a5e518",
+      "before_sha256": "480562c86b00c7b658d1caf16d34966bb95b2543fd8fb97cea8bb1343b574121",
+      "after_sha256": "480562c86b00c7b658d1caf16d34966bb95b2543fd8fb97cea8bb1343b574121",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 788,
+      "target": "en",
+      "reason": "Retain the simple speaking voice and change of scale from universes to an intimate offering to the reader.",
+      "reading_evidence": "Read every Hindi and English line; planets revolve, thoughts scatter as falling stars, memories linger coolly, desires blaze, and what becomes words comes to the reader for affection.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Finds its way into words is idiomatic while retaining emergence into language; no extra poetic metaphor is needed.",
+      "full_source_target_read": true,
+      "source_sha256": "c63085492876a8ab4aa9656707b90a3ee106853b545350952514d74532a5e518",
+      "before_sha256": "b2a4e0a2418d39d3ef11b731e57a588eed7ab3c102a274697d704a389b59e51c",
+      "after_sha256": "b2a4e0a2418d39d3ef11b731e57a588eed7ab3c102a274697d704a389b59e51c",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

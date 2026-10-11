@@ -1,0 +1,251 @@
+{
+  "recorded_at": "2026-10-06T00:06:56.315794+00:00",
+  "poem_ids": [
+    408,
+    409,
+    403,
+    410,
+    412
+  ],
+  "variants_read": 10,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 408,
+      "target": "hi",
+      "reading_evidence": "Read complete twenty-seven-line source/targets: sour belch soaking unspoken words/awkward breath and air inside-outside, counting countless/sowing time/stale words and thick sounds, cheapened confession as self-punishment, question garment/exposed skin/unhidden unseen, kali more alive/past or coming time, today corpse in white sheet fresh only as today/now. Checked temporal ambiguity against English idiomatic other day and repeated only ending.",
+      "reason": "Retain kal ambiguity and time/corpse paradox without making its objects concrete.",
+      "open_questions": [
+        "Odia kali remains yesterday/tomorrow ambiguous; another day avoids the conventional past implication of the other day without choosing a direction. Unhidden/unseen bodily paradoxes retained. Hindi feminine narrator provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target lines/stanzas, repetitions and unresolved imagery. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "91344334dd294272b270f2de5c8a6a49c976add7ac45cedb0ebc9af0da101cfa",
+      "before_sha256": "774970814001b1b398d7da88878852ae57683fe1bd292c83ff0cda3b34fe42de",
+      "after_sha256": "774970814001b1b398d7da88878852ae57683fe1bd292c83ff0cda3b34fe42de",
+      "prior_uncertainties": [
+        {
+          "note": "Twenty-seven lines retained. Odia kali can mean yesterday/tomorrow: English other day leaves direction open, Hindi kal retains ambiguity. Countable/countless and fresh corpse paradoxes retained.",
+          "record": "kb/production/translations/batch-093/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 408,
+      "target": "en",
+      "reading_evidence": "Read complete twenty-seven-line source/targets: sour belch soaking unspoken words/awkward breath and air inside-outside, counting countless/sowing time/stale words and thick sounds, cheapened confession as self-punishment, question garment/exposed skin/unhidden unseen, kali more alive/past or coming time, today corpse in white sheet fresh only as today/now. Checked temporal ambiguity against English idiomatic other day and repeated only ending.",
+      "reason": "Avoid the habitual English past reference of that other day while leaving the source yesterday/tomorrow direction unresolved.",
+      "open_questions": [
+        "Odia kali remains yesterday/tomorrow ambiguous; another day avoids the conventional past implication of the other day without choosing a direction. Unhidden/unseen bodily paradoxes retained. Hindi feminine narrator provisional."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target lines/stanzas, repetitions and unresolved imagery. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "91344334dd294272b270f2de5c8a6a49c976add7ac45cedb0ebc9af0da101cfa",
+      "before_sha256": "ad0e050238d07d7c198f61694686db97957fbaf97ca400e2950c6a15ac2993bf",
+      "after_sha256": "a75d830677be596812c560f3e872bf42962df93f19aae639d47f1f5460f38aee",
+      "prior_uncertainties": [
+        {
+          "note": "Twenty-seven lines retained. Odia kali can mean yesterday/tomorrow: English other day leaves direction open, Hindi kal retains ambiguity. Countable/countless and fresh corpse paradoxes retained.",
+          "record": "kb/production/translations/batch-093/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 409,
+      "target": "hi",
+      "reading_evidence": "Read eight full source/target stanzas: reportedly star-conversing girl in sky sari/darkness friendship/sorrow kohl/laughter-tears; kitchen spices self-reflection/smoke future/prayer flowers word-stringing/skylight soul; no disguise/performer yet pretended nonseeing, ceaseless poet deaths/questions; words lover/Lord and dreams as breath/laughter/sulks; clouds/darkness recognition versus public praise/home rebuke/character labels; little speech/thought/false praise/feeling necklace wealth; others sorrow/injustice/thought life/simple-hearted report; suffocating rules/God-human interchange/own mental rule/poetry lived and repeated lives like herself ending. Checked explicit girl subject, reported they say and repeated refrains.",
+      "reason": "Retain domestic/public contrasts, girl-centred repetitions and deliberate performer/pretending paradox. The generic poet line retains the source switch in phrasing.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target lines/stanzas, repetitions and unresolved imagery. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "fa9d90c5bf4197f8bd4292ced904060e0884bda932b6b85f914e0e2674244312",
+      "before_sha256": "0cb90bd084657078bb6ce29c6728303f46663617412e77239d6d8ef3c75b75e9",
+      "after_sha256": "0cb90bd084657078bb6ce29c6728303f46663617412e77239d6d8ef3c75b75e9",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 409,
+      "target": "en",
+      "reading_evidence": "Read eight full source/target stanzas: reportedly star-conversing girl in sky sari/darkness friendship/sorrow kohl/laughter-tears; kitchen spices self-reflection/smoke future/prayer flowers word-stringing/skylight soul; no disguise/performer yet pretended nonseeing, ceaseless poet deaths/questions; words lover/Lord and dreams as breath/laughter/sulks; clouds/darkness recognition versus public praise/home rebuke/character labels; little speech/thought/false praise/feeling necklace wealth; others sorrow/injustice/thought life/simple-hearted report; suffocating rules/God-human interchange/own mental rule/poetry lived and repeated lives like herself ending. Checked explicit girl subject, reported they say and repeated refrains.",
+      "reason": "Replace awkward laughs greatly and incomplete lover/Lord complement with natural English while preserving intensity and words as intimate/devotional companions.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target lines/stanzas, repetitions and unresolved imagery. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "fa9d90c5bf4197f8bd4292ced904060e0884bda932b6b85f914e0e2674244312",
+      "before_sha256": "20497acc1ad571c2a6f309ed9399ad84906ee41678741d3630caa5930abf9767",
+      "after_sha256": "5c1e7a3f7b1fdca3c0ae9131fe5c43b4ea437708eea26b2472c351be81604e1b",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 403,
+      "target": "or",
+      "reading_evidence": "Read all twenty-nine source/target lines: woman watering love/untangling problem threads, rosy desires set aside for thorn paths/family status, discord crossed to companionship despite eventual separations, renunciant under maya and action, fiery utterance/tender-word suppleness/iron feeling in flesh, stri long-i mark bearing burdens/betrayals and drawn out skilfully/gracefully/tenderly/philosophically. Checked vowel-mark wordplay in both targets and preserved source characterisation as poetic voice.",
+      "reason": "Retain the extended thread and vowel-mark metaphors and philosophical ending without replacing them with a general empowerment paraphrase.",
+      "open_questions": [
+        "The long-i drawing-out/burden wordplay is necessarily explicit in the targets; no equivalent Latin-script visual pun asserted."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target lines/stanzas, repetitions and unresolved imagery. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "66d9face06e79e0699f669a7c3707ac86720cbd2ae0fbcaf13132c2ffd668505",
+      "before_sha256": "7c88af38554dd0cdd3762c7048cd29c8f334a4d8b4d652762246aaaacc27ed4a",
+      "after_sha256": "7c88af38554dd0cdd3762c7048cd29c8f334a4d8b4d652762246aaaacc27ed4a",
+      "prior_uncertainties": [
+        {
+          "note": "All twenty-nine lines retained. Wordplay on long ī mark in strī made explicit within the same line, preserving the extended-vowel/burden metaphor. Gendered characterisations remain the poem’s speaker, not site editorial assertions.",
+          "record": "kb/production/translations/batch-093/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 403,
+      "target": "en",
+      "reading_evidence": "Read all twenty-nine source/target lines: woman watering love/untangling problem threads, rosy desires set aside for thorn paths/family status, discord crossed to companionship despite eventual separations, renunciant under maya and action, fiery utterance/tender-word suppleness/iron feeling in flesh, stri long-i mark bearing burdens/betrayals and drawn out skilfully/gracefully/tenderly/philosophically. Checked vowel-mark wordplay in both targets and preserved source characterisation as poetic voice.",
+      "reason": "Retain the extended thread and vowel-mark metaphors and philosophical ending without replacing them with a general empowerment paraphrase.",
+      "open_questions": [
+        "The long-i drawing-out/burden wordplay is necessarily explicit in the targets; no equivalent Latin-script visual pun asserted."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target lines/stanzas, repetitions and unresolved imagery. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "66d9face06e79e0699f669a7c3707ac86720cbd2ae0fbcaf13132c2ffd668505",
+      "before_sha256": "a1f83d7cbdc6fe7c9786e079ccdb5ed6764dd32bdeae36bf555a52f1a3310831",
+      "after_sha256": "a1f83d7cbdc6fe7c9786e079ccdb5ed6764dd32bdeae36bf555a52f1a3310831",
+      "prior_uncertainties": [
+        {
+          "note": "All twenty-nine lines retained. Wordplay on long ī mark in strī made explicit within the same line, preserving the extended-vowel/burden metaphor. Gendered characterisations remain the poem’s speaker, not site editorial assertions.",
+          "record": "kb/production/translations/batch-093/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 410,
+      "target": "or",
+      "reading_evidence": "Read all five source/target stanzas: sleepless night and failed love/faith with dream, desire to meet but inability; window glimpse/lowered gaze/stopped heart/no eye-love shown; living beloved/dying/descending and name lamps in dark heart/uncontained words risking upheaval; mahua moonlight meeting vow/dew-light touch/eyelash-path wait/thorns; form and gaze/nothing without beloved/evening and woman ascetic/everything versus nothing/immovable years and repeated meet refrain. Checked dream as relationship object rather than dream setting.",
+      "reason": "Restore love maintained with a dream, not occurring inside one; remove nibhāna calque that reads as extinguishing in Odia.",
+      "open_questions": [
+        "Prior shaam evening versus Shyam hold retained without spelling correction. Shabnam/Jyoti dew/light may be names; kaaten interpreted thorns contextually. Do not resolve these source questions from assumed devotional context."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target lines/stanzas, repetitions and unresolved imagery. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "8ff7a69f30ce7d08b429fefe87df05b20d6692c0f4dfe5335dd9081ebd812cce",
+      "before_sha256": "f4b3b79f5eb08a6b529484e5a70b15cf2698457c01fcc5c22117f1385e4d81ef",
+      "after_sha256": "c40858c207c530f758e078bb083e4d1b05a984c761b9245529111d5b28a8ac46",
+      "prior_uncertainties": [
+        {
+          "note": "Five stanzas retained. Source शाम rendered evening, not silently changed to Shyam. शबनम and ज्योति read dew and light provisionally; could be names, needs editorial review. Source काटें read thorns in path context; original spelling preserved.",
+          "record": "kb/production/translations/batch-093/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 410,
+      "target": "en",
+      "reading_evidence": "Read all five source/target stanzas: sleepless night and failed love/faith with dream, desire to meet but inability; window glimpse/lowered gaze/stopped heart/no eye-love shown; living beloved/dying/descending and name lamps in dark heart/uncontained words risking upheaval; mahua moonlight meeting vow/dew-light touch/eyelash-path wait/thorns; form and gaze/nothing without beloved/evening and woman ascetic/everything versus nothing/immovable years and repeated meet refrain. Checked dream as relationship object rather than dream setting.",
+      "reason": "Restore the dream as the partner of faith/love, preserving failure to sustain the bond rather than relocating love inside dreaming.",
+      "open_questions": [
+        "Prior shaam evening versus Shyam hold retained without spelling correction. Shabnam/Jyoti dew/light may be names; kaaten interpreted thorns contextually. Do not resolve these source questions from assumed devotional context."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target lines/stanzas, repetitions and unresolved imagery. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "8ff7a69f30ce7d08b429fefe87df05b20d6692c0f4dfe5335dd9081ebd812cce",
+      "before_sha256": "59a8b2abc0a21d3a5a87fea065b9b2faec664f97ad1b63f6a7d77e99f479db11",
+      "after_sha256": "e98482fd4e8a763a8361af8001e7c63f8820e5363d91d0d5e4f8582a805035bf",
+      "prior_uncertainties": [
+        {
+          "note": "Five stanzas retained. Source शाम rendered evening, not silently changed to Shyam. शबनम and ज्योति read dew and light provisionally; could be names, needs editorial review. Source काटें read thorns in path context; original spelling preserved.",
+          "record": "kb/production/translations/batch-093/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 412,
+      "target": "or",
+      "reading_evidence": "Read all six source/target quatrains and gendered title: formerly own heart then friend arrives/golden dreams, mutual belonging and insatiable heart/choosing beloved from beloved, growing in eyes/evil eye/kohl offering/contemplation, closed eyes unique image/speaking-listening, formerly empty heart courtyard now flower garden, beloved colour darkens body-mind/fair complexion rejected/Shyam hue. Checked idiomatic man na bharna and source title/body gender mismatch without normalizing it.",
+      "reason": "Retain natural mana bhare nahin idiom, kohl gesture and colour sequence with source uncertainties outside poem.",
+      "open_questions": [
+        "Prior feminine title/body-address mismatch and suna/soona empty reading remain. Shyam/dark-hue divine-versus-colour resonance remains provisional; no certainty about a named devotional addressee."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target lines/stanzas, repetitions and unresolved imagery. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "e22bfa7f1d93385b384fb56c7df26b604de2aaf837b41544ad66e76ac54a22b7",
+      "before_sha256": "c86f065ccfb1909d33676c745ab1cb75657e1f9a3d0c0b5301b8fdd40dba09a2",
+      "after_sha256": "c86f065ccfb1909d33676c745ab1cb75657e1f9a3d0c0b5301b8fdd40dba09a2",
+      "prior_uncertainties": [
+        {
+          "note": "Six quatrains retained. Original title’s feminine subject differs from body address, retained without normalising. Source सुना read सूना/empty provisionally. Kajal warding-off gesture and Shyam/dark hue double sense preserved; Hindi poetic hum interpreted singular I.",
+          "record": "kb/production/translations/batch-093/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 412,
+      "target": "en",
+      "reading_evidence": "Read all six source/target quatrains and gendered title: formerly own heart then friend arrives/golden dreams, mutual belonging and insatiable heart/choosing beloved from beloved, growing in eyes/evil eye/kohl offering/contemplation, closed eyes unique image/speaking-listening, formerly empty heart courtyard now flower garden, beloved colour darkens body-mind/fair complexion rejected/Shyam hue. Checked idiomatic man na bharna and source title/body gender mismatch without normalizing it.",
+      "reason": "Render man nahin bharta as continuing appetite for the beloved, not emotional emptiness or dissatisfaction after finding them.",
+      "open_questions": [
+        "Prior feminine title/body-address mismatch and suna/soona empty reading remain. Shyam/dark-hue divine-versus-colour resonance remains provisional; no certainty about a named devotional addressee."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target lines/stanzas, repetitions and unresolved imagery. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "e22bfa7f1d93385b384fb56c7df26b604de2aaf837b41544ad66e76ac54a22b7",
+      "before_sha256": "9dc39a4a648bf1124039091fd3c2598e9dff328e50dbfa085f93e9c263bb6ccd",
+      "after_sha256": "2196a7706563b16e1f7b8241900aac766359da203cf01659360ab3c933dc323a",
+      "prior_uncertainties": [
+        {
+          "note": "Six quatrains retained. Original title’s feminine subject differs from body address, retained without normalising. Source सुना read सूना/empty provisionally. Kajal warding-off gesture and Shyam/dark hue double sense preserved; Hindi poetic hum interpreted singular I.",
+          "record": "kb/production/translations/batch-093/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

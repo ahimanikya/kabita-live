@@ -1,0 +1,41 @@
+{
+  "recorded_at": "2026-10-06T00:55:14.494297+00:00",
+  "poem_ids": [
+    372
+  ],
+  "variants_read": 1,
+  "variants_changed": 1,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 372,
+      "target": "hi",
+      "revisit_batch": "batch-107",
+      "reading_evidence": "Reread complete current13-line source and Hindi after107: Earth faithful beloved loves Sky, his qualities blossom her layers, skin harvest owes rain filling veins, Ceres/Apollo comparison; unbewildered Earth celebrates physical/spiritual connection as divine marriage beyond both control. Browser self-reading showed ullas-manati was an awkward new collocation; use conventional utsav-manati for celebrates. Rechecked full target after correction, retaining explicit named Earth/Sky roles and feminine Earth agreement.",
+      "reason": "Correct a collocation introduced in107 during final same-assistant rereading: utsav manana naturally expresses celebrating the relationship; no new literal festival or event is asserted. Prior107 snapshots remain intact.",
+      "open_questions": [
+        "Ceres/Apollo obligation remains the source comparison, without mythological supplementation. Source divine marriage and Supreme Power viewpoint retained."
+      ],
+      "finding_dispositions": {
+        "batch-107 Hindi372 celebration collocation": "Corrected in follow-up108; earlier technical/browser verification did not constitute independent literary approval."
+      },
+      "tradeoff": "Single existing variant revisited, not additional unique coverage. Keep full13lines and8/5stanzas; refresh explicit target-layout fingerprint. Independent review pending.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 13,
+        "before_lines": [
+          8
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "66e74430875d4e9d644be90440d05f140239f1578d5ae22b796a1c26f042baa3",
+      "before_sha256": "4d7d55aaa26ae3bbfd0b2cc9ff15b3f587f170200e53193e3873391c855f07eb",
+      "after_sha256": "7e1516fa32bcec74947a3668c10972654f4822b97d7521d882f5c25f38cf25ce",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "recorded_at": "2026-10-06T00:03:06.074442+00:00",
+  "poem_ids": [
+    401,
+    402,
+    404,
+    405,
+    406
+  ],
+  "variants_read": 10,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 401,
+      "target": "hi",
+      "reading_evidence": "Read ten complete source/target stanzas: departing spring throws sun-abir, reunion with Balangir/dust hands and plucked rose/tears, city warm embrace and exposed back, unvisited waterfall/sal-wood demoness loving killer, unasked history and lover-separation heat, distance to own lover city, unbought daughter clothes, unwalked lanes/unfelt body, return to own equally hot city, promised winter return/demoness/poet-self in waterfall and repeated things to say. Checked personified city, unfulfilled actions and no named local myth added.",
+      "reason": "Retain the sensuous city encounter, refused/unfinished visits and promised return without supplying local mythology.",
+      "open_questions": [
+        "Source damaged killer wording remains contextual; do not name or explain the demoness. Hindi feminine narrator and masculine city personification remain provisional; source does not explicitly settle their grammatical gender. Dress-fabric set/pair wording remains contextual."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "b7adeb8bf0e7d3c84fa6e5e55da1952839579de1eab41cf8c32c390401382bdd",
+      "before_sha256": "ead4e253eed1e8e86e864b5c101758e7bf69fe68ff1c75684e1455f4aa771213",
+      "after_sha256": "ead4e253eed1e8e86e864b5c101758e7bf69fe68ff1c75684e1455f4aa771213",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 401,
+      "target": "en",
+      "reading_evidence": "Read ten complete source/target stanzas: departing spring throws sun-abir, reunion with Balangir/dust hands and plucked rose/tears, city warm embrace and exposed back, unvisited waterfall/sal-wood demoness loving killer, unasked history and lover-separation heat, distance to own lover city, unbought daughter clothes, unwalked lanes/unfelt body, return to own equally hot city, promised winter return/demoness/poet-self in waterfall and repeated things to say. Checked personified city, unfulfilled actions and no named local myth added.",
+      "reason": "Retain the sensuous city encounter, refused/unfinished visits and promised return without supplying local mythology.",
+      "open_questions": [
+        "Source damaged killer wording remains contextual; do not name or explain the demoness. Hindi feminine narrator and masculine city personification remain provisional; source does not explicitly settle their grammatical gender. Dress-fabric set/pair wording remains contextual."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "b7adeb8bf0e7d3c84fa6e5e55da1952839579de1eab41cf8c32c390401382bdd",
+      "before_sha256": "603f2bf472f6539a66e5bfdeb943a1d681fa361fb1ccee844daa2f2e7dd85a74",
+      "after_sha256": "603f2bf472f6539a66e5bfdeb943a1d681fa361fb1ccee844daa2f2e7dd85a74",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 402,
+      "target": "hi",
+      "reading_evidence": "Read all three numbered source poems in four stanzas and both full targets: half-page notebook plane full of corpses falls/crowd of silence, lifeless sums/pictures/poems/crossed-out two-line letter/ink; empty-half-full brass tumbler/perforated leaf plate/pudding/dub grass shade and no escape pitcher thirst/pot hunger/own sun; faces inevitably summoned, paint cheeks/noses/foreheads, waistcloth/boat head/swimming, threatened barefoot thorn/quicksand/heat journey wiping blood/tears, memorised taught song and garland-bowed neck. Checked plural collective list and preserved impossible boat-swimming image.",
+      "reason": "Make lifeless agree with the whole mixed-gender plural list rather than only ink; render quicksand in natural Hindi instead of an unexplained source-language calque.",
+      "open_questions": [
+        "Prior joga chance/possibility title and kariya waistcloth interpretation remain provisional. No forced equivalence with religious yoga and no physical explanation for boat-carrying swimmers."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "89eca53e396b8385b19e36244b79d11bc2d2a901956211db39ffa9cc114a3772",
+      "before_sha256": "883bccd1e23442b5167ac52cacc380811da0bfbfa75ff41c7f3d9513d8ef52e8",
+      "after_sha256": "d18f8e098bd7acdddf08b55c7e9f9b98ce93146c283129436ff689bf3e7306b4",
+      "prior_uncertainties": [
+        {
+          "note": "Three numbered poems preserved in four source stanzas. Yoga/joga read chance/possibility; kariya interpreted waistcloth provisionally. Dub grass and boat carried while swimming retained without rationalisation.",
+          "record": "kb/production/translations/batch-092/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 402,
+      "target": "en",
+      "reading_evidence": "Read all three numbered source poems in four stanzas and both full targets: half-page notebook plane full of corpses falls/crowd of silence, lifeless sums/pictures/poems/crossed-out two-line letter/ink; empty-half-full brass tumbler/perforated leaf plate/pudding/dub grass shade and no escape pitcher thirst/pot hunger/own sun; faces inevitably summoned, paint cheeks/noses/foreheads, waistcloth/boat head/swimming, threatened barefoot thorn/quicksand/heat journey wiping blood/tears, memorised taught song and garland-bowed neck. Checked plural collective list and preserved impossible boat-swimming image.",
+      "reason": "Retain the numbered sequence, vessel hunger/thirst and coercive procession with its final garlands.",
+      "open_questions": [
+        "Prior joga chance/possibility title and kariya waistcloth interpretation remain provisional. No forced equivalence with religious yoga and no physical explanation for boat-carrying swimmers."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "89eca53e396b8385b19e36244b79d11bc2d2a901956211db39ffa9cc114a3772",
+      "before_sha256": "24800d51667c2196657fc70f8d2e5f916da269ed1441f766d2b633d2ed00b13a",
+      "after_sha256": "24800d51667c2196657fc70f8d2e5f916da269ed1441f766d2b633d2ed00b13a",
+      "prior_uncertainties": [
+        {
+          "note": "Three numbered poems preserved in four source stanzas. Yoga/joga read chance/possibility; kariya interpreted waistcloth provisionally. Dub grass and boat carried while swimming retained without rationalisation.",
+          "record": "kb/production/translations/batch-092/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 404,
+      "target": "hi",
+      "reading_evidence": "Read all ten source/target stanzas: milliseconds to vanish into love, wound-blood-moment-scar flashes, blood unsure burial or body stain, arranged stains/white-stain blank paper, sinking/night/sleep/rice phrase/green evergreen stain and refusal of account, palm lacking return line, no death in lovelessness, addressee able to drown speaker/trusting desire to sink, reassurance and longest juncture close. Checked causative dubaaiba versus intransitive sinking and all paradoxes.",
+      "reason": "Retain difficult source paradoxes and existing causative drowning verb without explanatory paraphrase.",
+      "open_questions": [
+        "Prior arranged/sponsored stains, rice-and-sleep phrase and final long-juncture paradox remain provisional. Hindi feminine speaker and masculine addressee are not established by source."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "60143e143b1cf3794cbf0a30efe0004af32ea70b8a129bcc9e1ffbbf2a43cd97",
+      "before_sha256": "85a7dcf1633743b534b3e3740fa58dd64e9b4e0c441b023d718297f9068c92b3",
+      "after_sha256": "85a7dcf1633743b534b3e3740fa58dd64e9b4e0c441b023d718297f9068c92b3",
+      "prior_uncertainties": [
+        {
+          "note": "Ten stanzas retained. Sponsored/arranged stains, rice-and-sleep phrase and final long-juncture paradox provisional; no explanation inserted. Love/death imagery retained as poetry.",
+          "record": "kb/production/translations/batch-092/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 404,
+      "target": "en",
+      "reading_evidence": "Read all ten source/target stanzas: milliseconds to vanish into love, wound-blood-moment-scar flashes, blood unsure burial or body stain, arranged stains/white-stain blank paper, sinking/night/sleep/rice phrase/green evergreen stain and refusal of account, palm lacking return line, no death in lovelessness, addressee able to drown speaker/trusting desire to sink, reassurance and longest juncture close. Checked causative dubaaiba versus intransitive sinking and all paradoxes.",
+      "reason": "Restore the source causative agency: the addressee can drown the trusting speaker, rather than merely knowing how to drown themselves.",
+      "open_questions": [
+        "Prior arranged/sponsored stains, rice-and-sleep phrase and final long-juncture paradox remain provisional. Hindi feminine speaker and masculine addressee are not established by source."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "60143e143b1cf3794cbf0a30efe0004af32ea70b8a129bcc9e1ffbbf2a43cd97",
+      "before_sha256": "1c30caf6cb92c2cd4d8bb8720dcee36326080d67bb809165c8fb6308c46a27bc",
+      "after_sha256": "6d7744f31e1158e97013e03f0334c83f2ec03652f3d7af85c68d18d69735289e",
+      "prior_uncertainties": [
+        {
+          "note": "Ten stanzas retained. Sponsored/arranged stains, rice-and-sleep phrase and final long-juncture paradox provisional; no explanation inserted. Love/death imagery retained as poetry.",
+          "record": "kb/production/translations/batch-092/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 405,
+      "target": "hi",
+      "reading_evidence": "Read all eight source/target stanzas: midnight wish-birds/expectation sky with no gourd-flower moon or slender stars/page wind/illusory clouds and free love plea; word-river dream washing/affection shower/night gain-lack/birth death own funerals; passion/pride/kisses/body scent/simmered thirst/love in floral dark sari-end; sunrise lit wall/love planted in trust/liar cloud/feeling tears blood/sprouting life song; return to oil-salt livelihood and crippled other side; no fragrance/jasmine garland/fire afternoon; life asked for clean air; repeated I run out. Checked repeated endings, physical metaphors and no softening of source disability metaphor.",
+      "reason": "Attach affection naturally to its shower and make the already established word-river the filling location, preserving the measured shower image.",
+      "open_questions": [
+        "Hindi feminine voice remains provisional; the expectation-sky attachment and oil/salt staking phrase remain contextual. Do not replace source dark-side imagery with an explanatory life lesson."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "9459591d45a97ed1292de9153a93b5f2dea7dd88477ca1ea9fa3fb908ea9d0a2",
+      "before_sha256": "592eebc7d0e3a160effdf4fca5d2f58cc4866642d79b1fbba333c2b5a95f4410",
+      "after_sha256": "abedb921e751e1aeeb4e5c3702af148977c4179f20f38b29bfc80aa9d9af85ed",
+      "prior_uncertainties": [
+        {
+          "note": "Eight stanzas retained. Ridge-gourd blossom moon, simmering feelings, repeated own funeral and oil/salt livelihood imagery retained. Crippled metaphor comes from source; Hindi feminine speaker provisional.",
+          "record": "kb/production/translations/batch-092/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 405,
+      "target": "en",
+      "reading_evidence": "Read all eight source/target stanzas: midnight wish-birds/expectation sky with no gourd-flower moon or slender stars/page wind/illusory clouds and free love plea; word-river dream washing/affection shower/night gain-lack/birth death own funerals; passion/pride/kisses/body scent/simmered thirst/love in floral dark sari-end; sunrise lit wall/love planted in trust/liar cloud/feeling tears blood/sprouting life song; return to oil-salt livelihood and crippled other side; no fragrance/jasmine garland/fire afternoon; life asked for clean air; repeated I run out. Checked repeated endings, physical metaphors and no softening of source disability metaphor.",
+      "reason": "Retain the sustained dream/water/seed image and repeated self-exhaustion ending.",
+      "open_questions": [
+        "Hindi feminine voice remains provisional; the expectation-sky attachment and oil/salt staking phrase remain contextual. Do not replace source dark-side imagery with an explanatory life lesson."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "9459591d45a97ed1292de9153a93b5f2dea7dd88477ca1ea9fa3fb908ea9d0a2",
+      "before_sha256": "00353a4fc6d174eff56df47cca75014bc60ac0e2221bd92b3d2b25178e35c984",
+      "after_sha256": "00353a4fc6d174eff56df47cca75014bc60ac0e2221bd92b3d2b25178e35c984",
+      "prior_uncertainties": [
+        {
+          "note": "Eight stanzas retained. Ridge-gourd blossom moon, simmering feelings, repeated own funeral and oil/salt livelihood imagery retained. Crippled metaphor comes from source; Hindi feminine speaker provisional.",
+          "record": "kb/production/translations/batch-092/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 406,
+      "target": "hi",
+      "reading_evidence": "Read all four source stanzas despite missing word spaces and both full targets: hilltop looking at ray-moistened brown earth face, interior flowers/trees/earth scent/open sky/pink evening/days sent on last bus/nights kissed before fading, tears spring/rain eyes/boat solitude/disappointed-lover wind shadow/helpless insufficiency despite assembly, mixed colours into white essence of colour-form-scent/snow/heron wing/sleeping shellfish back/cold death touch. Checked modifier of earth face and actual subject of white-essence arrival.",
+      "reason": "Retain segmented source reading and the white/cold final series without geographical or scientific corrections.",
+      "open_questions": [
+        "Prior missing-space source, rat-rata evening gloss and poetic hill/colour assertions remain unchanged and provisional. Hindi masculine narrator not determined by source."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "91f26e1b7d3ef90b40a311bee31aa587c1b16ca855d002fc7569e2a301415f8b",
+      "before_sha256": "7eb39d49c339ba4573941a3e6620ae4df3fcc3c1e6f08685da9ffcab9bdaca68",
+      "after_sha256": "7eb39d49c339ba4573941a3e6620ae4df3fcc3c1e6f08685da9ffcab9bdaca68",
+      "prior_uncertainties": [
+        {
+          "note": "Source has extensive missing word spaces, retained unchanged. Segmented only for translation; rat-rata evening interpreted flushed/glowing provisionally. Bhitarkanika title retained without adding geographical facts; steep-hill and white-colour claims remain poetic.",
+          "record": "kb/production/translations/batch-092/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 406,
+      "target": "en",
+      "reading_evidence": "Read all four source stanzas despite missing word spaces and both full targets: hilltop looking at ray-moistened brown earth face, interior flowers/trees/earth scent/open sky/pink evening/days sent on last bus/nights kissed before fading, tears spring/rain eyes/boat solitude/disappointed-lover wind shadow/helpless insufficiency despite assembly, mixed colours into white essence of colour-form-scent/snow/heron wing/sleeping shellfish back/cold death touch. Checked modifier of earth face and actual subject of white-essence arrival.",
+      "reason": "Attach ray-moistened to earth face rather than the speaker, and give colour/form/scent their explicit subject position instead of an accidental imperative. Preserve all line counts.",
+      "open_questions": [
+        "Prior missing-space source, rat-rata evening gloss and poetic hill/colour assertions remain unchanged and provisional. Hindi masculine narrator not determined by source."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "91f26e1b7d3ef90b40a311bee31aa587c1b16ca855d002fc7569e2a301415f8b",
+      "before_sha256": "ef0f0c27369d3cfddddac3424abed04c1f538b20a8316f1728536e9da089acac",
+      "after_sha256": "7c976d770f0c232a93065fcc83b0aefcfb93361dcc6a755600888ab960306072",
+      "prior_uncertainties": [
+        {
+          "note": "Source has extensive missing word spaces, retained unchanged. Segmented only for translation; rat-rata evening interpreted flushed/glowing provisionally. Bhitarkanika title retained without adding geographical facts; steep-hill and white-colour claims remain poetic.",
+          "record": "kb/production/translations/batch-092/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

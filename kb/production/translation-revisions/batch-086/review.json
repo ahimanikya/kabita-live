@@ -1,0 +1,100 @@
+{
+  "recorded_at": "2026-10-05T17:28:29.828842+00:00",
+  "poem_ids": [
+    451,
+    453
+  ],
+  "variants_read": 4,
+  "variants_changed": 2,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 451,
+      "target": "or",
+      "reading_evidence": "Read full six source/target stanzas: poet/empty streets/no companion for tears, broken benches/hunger/anger/platform last drop and never crying for another; isolated how-did-we-leave-each-other question; white harsh dreamlessness/indifference; madness/poppy-seed deep sleep without germination-water-hope; song already heard and repeated absences through failure, mountain walking within sleeping pair; isolated unfinished We. All negative repetitions and actual incomplete ending retained.",
+      "reason": "Retain the genuine unfinished ending, accusation and dreamless inward mountain; no fluency repair of uncertain event sequence.",
+      "open_questions": [
+        "Hunger/anger/platform-walking syntax remains ambiguous, as previously recorded; no invented sequence or extension of never. Hindi feminine speaker/masculine poet remains provisional. No completion of final We."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete original and targets, credits, stanza/line counts, negatives and withheld endings; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "58f6c90040ca2a211e079f896957efb0251f929ff033ff654c946b26cc980b2d",
+      "before_sha256": "074bcdc7bfecd3aee3be85bab87c2b3ed9bceb366bb969606c9e3e881fb47331",
+      "after_sha256": "074bcdc7bfecd3aee3be85bab87c2b3ed9bceb366bb969606c9e3e881fb47331",
+      "prior_uncertainties": [
+        {
+          "note": "All six stanzas including the standalone question, repeated negatives and unfinished final We retained; no invented completion. Ambiguous hunger/anger/walking syntax left fragmentary rather than recast as new events. Poppy sleep/germination image preserved.",
+          "record": "kb/production/translations/batch-084/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 451,
+      "target": "hi",
+      "reading_evidence": "Read full six source/target stanzas: poet/empty streets/no companion for tears, broken benches/hunger/anger/platform last drop and never crying for another; isolated how-did-we-leave-each-other question; white harsh dreamlessness/indifference; madness/poppy-seed deep sleep without germination-water-hope; song already heard and repeated absences through failure, mountain walking within sleeping pair; isolated unfinished We. All negative repetitions and actual incomplete ending retained.",
+      "reason": "Retain the suspended grammar and litany of absences as the poem’s form, not a missing ending to fill.",
+      "open_questions": [
+        "Hunger/anger/platform-walking syntax remains ambiguous, as previously recorded; no invented sequence or extension of never. Hindi feminine speaker/masculine poet remains provisional. No completion of final We."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete original and targets, credits, stanza/line counts, negatives and withheld endings; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "58f6c90040ca2a211e079f896957efb0251f929ff033ff654c946b26cc980b2d",
+      "before_sha256": "ed4c56c3d518a1a0d8c2e72db15866d88ec427d100132ddf01ab7cc654b6ac58",
+      "after_sha256": "ed4c56c3d518a1a0d8c2e72db15866d88ec427d100132ddf01ab7cc654b6ac58",
+      "prior_uncertainties": [
+        {
+          "note": "All six stanzas including the standalone question, repeated negatives and unfinished final We retained; no invented completion. Ambiguous hunger/anger/walking syntax left fragmentary rather than recast as new events. Poppy sleep/germination image preserved.",
+          "record": "kb/production/translations/batch-084/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 453,
+      "target": "or",
+      "reading_evidence": "Read four complete source/target quatrains: several olive branches in closed-palm hollow distributed to bloodthirsty wolves dressed human; white doves from lap into fearful war zones; repeated failed peace target/no miraculous symbols; realisation peace only through involved people holding hands in unbreakable love. Number more-than-one, negative miracle claim and shift to human agency checked.",
+      "reason": "Attach olive-tree branches and palm hollow in natural order while retaining all three lines and deferred wolf recipients.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete original and targets, credits, stanza/line counts, negatives and withheld endings; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "1d058d2bd1f26198e887f12e90d95c44ad51528b49d26aa90a8a2f58ff080ca7",
+      "before_sha256": "3509c6db59afac1f9df8a240a6371d0f250a4a5673357b09c3c177111380a6f5",
+      "after_sha256": "4744497fabfc77470bf2e5475929784b2bf9820b8c41815a8f394ca00d123a34",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 453,
+      "target": "hi",
+      "reading_evidence": "Read four complete source/target quatrains: several olive branches in closed-palm hollow distributed to bloodthirsty wolves dressed human; white doves from lap into fearful war zones; repeated failed peace target/no miraculous symbols; realisation peace only through involved people holding hands in unbreakable love. Number more-than-one, negative miracle claim and shift to human agency checked.",
+      "reason": "Clarify opening possessive and make the involved people explicitly the agents of achieving peace rather than its suppliers; retain collective-hand ending.",
+      "open_questions": [
+        "Hindi masculine narrator remains provisional; English source does not establish speaker sex."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete original and targets, credits, stanza/line counts, negatives and withheld endings; same-assistant self-review, independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "1d058d2bd1f26198e887f12e90d95c44ad51528b49d26aa90a8a2f58ff080ca7",
+      "before_sha256": "ea050bd15faae291e6b958ca74cf3e4ef0d029f0251e27743e5743b77d5f6341",
+      "after_sha256": "d9049114666778cdaaf7d679c74d1055501b0ed996e3d04b99d6db2ed9c6bc6f",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

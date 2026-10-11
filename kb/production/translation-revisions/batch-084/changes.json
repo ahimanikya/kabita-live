@@ -1,0 +1,583 @@
+[
+  {
+    "poem_id": 443,
+    "target": "hi",
+    "reading_evidence": "Read seven complete source/target stanzas: reasonless desire to cry, person/event/sorrow remembered, two tears or closed-eye inner scream, innocent child/veined elder hands/black burdened back/muddy feet/alms hands, humans not sole mourners, imagined fish/bird/tiger crying, final sobbing at kindness. Recurrent crying, at-least and not-only logic and final emotional turn checked.",
+    "reason": "Use natural veined-hands phrasing and clarify the alternate elder reference within the existing provisional reading.",
+    "open_questions": [
+      "ବୁଦ୍ଧ-ବୃଦ୍ଧା remains provisional old man/woman from veined-hands context; no Buddha identity invented. Animal crying remains poetic speculation. Hindi masculine narrator remains provisional."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve originals, complete targets, credits, culturally specific images and stanza/line counts; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "c7c3b986c8c179f4233bd44b1197bad6a72eff73c39dc789e5521675ab143914",
+    "before_sha256": "bb00ccbd0f1c0a0c589b28a4f0bd6cc31137ee302d928b2048228879e6a990df",
+    "after_sha256": "be62195051c45a317366db8c454e42517f6f8aaf50ba9511f9320ed075074309",
+    "prior_uncertainties": [
+      {
+        "note": "All seven stanzas retained. Source ବୁଦ୍ଧ-ବୃଦ୍ଧା read provisionally as old man/woman from veined-hands context, likely spelling damage; no Buddha reference introduced. Imagined animal weeping kept as poetic speculation, not zoological fact.",
+        "record": "kb/production/translations/batch-082/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "कभी-कभी",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "कभी-कभी,",
+          "बिना कारण भी रोने का मन होता है।"
+        ],
+        [
+          "बहुत मन होता है रोने का,",
+          "किसी को याद करके,",
+          "किसी घटना को लेकर,",
+          "किसी के दुःख को याद करके—",
+          "रोने का मन होता है।"
+        ],
+        [
+          "भले ज़ोर से नहीं,",
+          "कम-से-कम दो बूँद आँसू बहाकर,",
+          "या आँखें बंद करके,",
+          "मन के भीतर चीखकर,",
+          "रोने का मन होता है।"
+        ],
+        [
+          "रोने का मन होता है,",
+          "किसी निर्दोष बच्चे को याद करके,",
+          "किसी बूढ़े-बूढ़ी के नसों भरे हाथों को सोचकर,",
+          "किसी की काली चमकती, बोझ ढोती पीठ,",
+          "किसी के कीचड़ सने दोनों पाँव,",
+          "भीख के लिए फैले किसी के दोनों हाथ—",
+          "किसी-न-किसी बात पर",
+          "कभी-कभी बहुत मन होता है रोने का…"
+        ],
+        [
+          "और ऐसा भी नहीं कि,",
+          "दुःख पाकर, दुःख को याद करके,",
+          "केवल मनुष्य ही रो सकता है, रो देता है…"
+        ],
+        [
+          "सोचता हूँ, मछली भी गहरे पानी में जाकर रोती होगी;",
+          "पक्षी भी डाल पर बैठकर या",
+          "आकाश में उड़ते-उड़ते रोते होंगे;",
+          "बाघ भी गुफ़ा में बिना गरजे रोता होगा…"
+        ],
+        [
+          "जैसे मैं भी कभी-कभी रो देता हूँ,",
+          "किसी का उपकार पाकर, फूट-फूटकर।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "कभी-कभी",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "कभी-कभी,",
+          "बिना कारण भी रोने का मन होता है।"
+        ],
+        [
+          "बहुत मन होता है रोने का,",
+          "किसी को याद करके,",
+          "किसी घटना को लेकर,",
+          "किसी के दुःख को याद करके—",
+          "रोने का मन होता है।"
+        ],
+        [
+          "भले ज़ोर से नहीं,",
+          "कम-से-कम दो बूँद आँसू बहाकर,",
+          "या आँखें बंद करके,",
+          "मन के भीतर चीखकर,",
+          "रोने का मन होता है।"
+        ],
+        [
+          "रोने का मन होता है,",
+          "किसी निर्दोष बच्चे को याद करके,",
+          "किसी बूढ़े या बूढ़ी के उभरी नसों वाले हाथों को सोचकर,",
+          "किसी की काली चमकती, बोझ ढोती पीठ,",
+          "किसी के कीचड़ सने दोनों पाँव,",
+          "भीख के लिए फैले किसी के दोनों हाथ—",
+          "किसी-न-किसी बात पर",
+          "कभी-कभी बहुत मन होता है रोने का…"
+        ],
+        [
+          "और ऐसा भी नहीं कि,",
+          "दुःख पाकर, दुःख को याद करके,",
+          "केवल मनुष्य ही रो सकता है, रो देता है…"
+        ],
+        [
+          "सोचता हूँ, मछली भी गहरे पानी में जाकर रोती होगी;",
+          "पक्षी भी डाल पर बैठकर या",
+          "आकाश में उड़ते-उड़ते रोते होंगे;",
+          "बाघ भी गुफ़ा में बिना गरजे रोता होगा…"
+        ],
+        [
+          "जैसे मैं भी कभी-कभी रो देता हूँ,",
+          "किसी का उपकार पाकर, फूट-फूटकर।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 444,
+    "target": "en",
+    "reading_evidence": "Read all nine source/target stanzas: mother cradles son/milk/fever kiss/name Mother, teaching heart-winning/love, stay small lest son become man and words harsh; repeated perhaps and who-knows distinctions between own mother’s honour/body protection and objectified other women; wet dreams and censored threat contrasting what-mother-needs; sari-end cover making road safer for some mothers. Maternal speaker, limited some-sons claim, uncertainty and explicit sexual-political accusation preserved.",
+    "reason": "Restore broad body-part sense of ଅଙ୍ଗ in sexual objectification; limbs incorrectly narrows it to arms/legs. Preserve censored threat as unresolved.",
+    "open_questions": [
+      "Censored ବେ** remains censored; exact insult and force across Hindi वे** / English b** are unconfirmed and not silently expanded to a guessed slur. No reduction of the source’s threatening speech."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve originals, complete targets, credits, culturally specific images and stanza/line counts; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "97b0a0bb1c7ada4720df2ab192b4ae023edb4faef0b83af7536dfc45cb2aceaa",
+    "before_sha256": "d1fb71b51706050b1d75ce7464a89064dc2396dc51e1156a510ae5bc26410e48",
+    "after_sha256": "ad6b1edefc11aa94da3d966aad6eb6ec815d12852859c9d5cd0ff2803bc2c359",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "For Some Unruly Sons",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Come, son, let me hold you in my lap.",
+          "Come, darling, let me bring a store of milk to your lips.",
+          "Stay, darling, upon your fever-heated forehead",
+          "let me place a loving kiss.",
+          "Call me, son, call me Mother."
+        ],
+        [
+          "I shall teach you",
+          "the art of winning hearts,",
+          "shall teach you to love me."
+        ],
+        [
+          "Stay little, son,",
+          "stay little just like this.",
+          "When they grow, some sons no longer remain sons;",
+          "they become men.",
+          "Their childish words all turn harsh."
+        ],
+        [
+          "Perhaps",
+          "then you too will merely utter",
+          "‘Mother’,",
+          "but forget what that word means."
+        ],
+        [
+          "Perhaps",
+          "then, in your eyes, only",
+          "I will be Mother—who knows—",
+          "and",
+          "all other women merely bodies."
+        ],
+        [
+          "Perhaps",
+          "then you will guard",
+          "only my honour—who knows—",
+          "and",
+          "look for limbs beneath another's clothes."
+        ],
+        [
+          "Perhaps,",
+          "so that no one can touch me,",
+          "you will become a sentinel—who knows—",
+          "and",
+          "others will be merely your wet dreams."
+        ],
+        [
+          "Perhaps",
+          "with the same mouth that asks me,",
+          "‘Mother, do you need anything?’",
+          "you will say to another,",
+          "‘Wait, b**—I'll give it to you. You need it.’"
+        ],
+        [
+          "Better this instead:",
+          "come, son, let me cover you",
+          "with the end of my sari.",
+          "If your face stays covered,",
+          "walking the road will be easier for some mothers."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "For Some Unruly Sons",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Come, son, let me hold you in my lap.",
+          "Come, darling, let me bring a store of milk to your lips.",
+          "Stay, darling, upon your fever-heated forehead",
+          "let me place a loving kiss.",
+          "Call me, son, call me Mother."
+        ],
+        [
+          "I shall teach you",
+          "the art of winning hearts,",
+          "shall teach you to love me."
+        ],
+        [
+          "Stay little, son,",
+          "stay little just like this.",
+          "When they grow, some sons no longer remain sons;",
+          "they become men.",
+          "Their childish words all turn harsh."
+        ],
+        [
+          "Perhaps",
+          "then you too will merely utter",
+          "‘Mother’,",
+          "but forget what that word means."
+        ],
+        [
+          "Perhaps",
+          "then, in your eyes, only",
+          "I will be Mother—who knows—",
+          "and",
+          "all other women merely bodies."
+        ],
+        [
+          "Perhaps",
+          "then you will guard",
+          "only my honour—who knows—",
+          "and",
+          "look for body parts beneath another's clothes."
+        ],
+        [
+          "Perhaps,",
+          "so that no one can touch me,",
+          "you will become a sentinel—who knows—",
+          "and",
+          "others will be merely your wet dreams."
+        ],
+        [
+          "Perhaps",
+          "with the same mouth that asks me,",
+          "‘Mother, do you need anything?’",
+          "you will say to another,",
+          "‘Wait, b**—I'll give it to you. You need it.’"
+        ],
+        [
+          "Better this instead:",
+          "come, son, let me cover you",
+          "with the end of my sari.",
+          "If your face stays covered,",
+          "walking the road will be easier for some mothers."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 442,
+    "target": "en",
+    "reading_evidence": "Read three full source/target stanzas: lament for former rain/cool showers, chance encounter/fresh vegetation/waterfalls/butterflies; pollen-intoxicated bees/wind trees/children rain festival/paper boats/swift runoff/doubled joy/own childhood; discarded paper trembling/pleasure/boat urge, perhaps unchanged rain/allure and inward correction of viewpoint. Child joy and self-correcting final turn preserved.",
+    "reason": "Express coincidence naturally, avoiding a chance/opportunity reading; all rain and childhood images retained.",
+    "open_questions": [
+      "Source सद्म:स्नाता treated provisionally as freshly bathed in context; original damaged-looking spelling remains untouched. Butterfly sense of प्रजापति retained from flower-hovering context."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve originals, complete targets, credits, culturally specific images and stanza/line counts; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "88ee8b6c760e4d1e7c38ac51e1dd2e771f27ea140770758b3f1a430761dd9746",
+    "before_sha256": "7802b5d3600279f2658986e899797bba0cfc5a697305ff186c4d6d3bbd07156f",
+    "after_sha256": "c80904525e050714a3f440e62b088beddee06ac3f020b4092b36a7b23b4aa5e8",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Memory",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Where is that rain of earlier days now,",
+          "the pull of sinking into the coolness of showers?",
+          "It was only a chance that",
+          "today I found myself here:",
+          "freshly bathed, green vegetation,",
+          "a row of waterfalls bursting forth,",
+          "butterflies hovering over open flowers."
+        ],
+        [
+          "Rows of bees, entranced and wandering in pollen's fragrant intoxication,",
+          "rows of trees trembling in the whistling wind,",
+          "a very special festival for little children,",
+          "joyfully getting wet, leaping and jumping.",
+          "They ran with paper boats in their hands,",
+          "floating them in water, making merry.",
+          "The leftover rainwater flowed swiftly,",
+          "doubling the joy of sailing boats upon it.",
+          "My own childhood was just like this;",
+          "we too made merry and raised a joyful din."
+        ],
+        [
+          "I tossed a piece of paper into the water, just like that;",
+          "it trembled there for a long while.",
+          "It felt good, so very good;",
+          "the wish to sail a paper boat awoke.",
+          "Perhaps the rain was still as it had been,",
+          "fragrant in its showers, its allure calling.",
+          "Yes, everything was the same, just as before;",
+          "only my own outlook needed setting right.",
+          "I had to keep changing my thoughts,",
+          "repairing, tending my way of seeing…"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Memory",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Where is that rain of earlier days now,",
+          "the pull of sinking into the coolness of showers?",
+          "It was only by chance that",
+          "today I found myself here:",
+          "freshly bathed, green vegetation,",
+          "a row of waterfalls bursting forth,",
+          "butterflies hovering over open flowers."
+        ],
+        [
+          "Rows of bees, entranced and wandering in pollen's fragrant intoxication,",
+          "rows of trees trembling in the whistling wind,",
+          "a very special festival for little children,",
+          "joyfully getting wet, leaping and jumping.",
+          "They ran with paper boats in their hands,",
+          "floating them in water, making merry.",
+          "The leftover rainwater flowed swiftly,",
+          "doubling the joy of sailing boats upon it.",
+          "My own childhood was just like this;",
+          "we too made merry and raised a joyful din."
+        ],
+        [
+          "I tossed a piece of paper into the water, just like that;",
+          "it trembled there for a long while.",
+          "It felt good, so very good;",
+          "the wish to sail a paper boat awoke.",
+          "Perhaps the rain was still as it had been,",
+          "fragrant in its showers, its allure calling.",
+          "Yes, everything was the same, just as before;",
+          "only my own outlook needed setting right.",
+          "I had to keep changing my thoughts,",
+          "repairing, tending my way of seeing…"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 452,
+    "target": "en",
+    "reading_evidence": "Read all 37 source/target lines: outside real/fake/colour/bougainvillea beautiful afar scentless-paper near, high-rises and sobbing hut enclosures/no equality, multidimensional people, inside conflicts/family/self, mind-window infinite universe/houses/windows blown open by desire, enslaved wandering mind/worldly wind/latch, visible-world assimilation/bowing creation/self-merging/conquest/self-realisation. Repeated windows and outer-to-inner argument checked.",
+    "reason": "Repair the incomplete as-though comparison without changing the papery/scentless imagery or philosophical ending.",
+    "open_questions": [
+      "उसके सृजन refers to creation in the source; no divine creator or metaphysical doctrine added. Ramraj retained as supplied ideal, not expanded into current politics."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve originals, complete targets, credits, culturally specific images and stanza/line counts; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "8dfdb17887c529c696f17c805916bda92feab23d6576bec5dd9607b36569aa91",
+    "before_sha256": "cc89ee3828745aeb5a0e2a5b47ecc7e99cc2ea3da936d6e5f8fcfec18d2a217d",
+    "after_sha256": "831b35dfd258418f3f1338958dff9ea1ae31a36876281d051ac59d3f46737daf",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "The World Outside My Window",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "The world outside my window—",
+          "how real, how unreal,",
+          "how colourful, how colourless,",
+          "as though bougainvillea flowers:",
+          "beautiful from afar,",
+          "scentless and papery up close.",
+          "Somewhere, many-storeyed buildings;",
+          "somewhere, the sobbing,",
+          "cracking enclosures of huts.",
+          "No socialism,",
+          "no Ramraj,",
+          "no right to equality at all.",
+          "A many-dimensional world,",
+          "many-dimensional people.",
+          "But inside the window too,",
+          "is the world familiar and equal?",
+          "Here too there is conflict,",
+          "here too there is war:",
+          "some within the family,",
+          "some with one's own self.",
+          "Within the mind's window too,",
+          "a different world roams,",
+          "perhaps vaster and more infinite than this one,",
+          "holding many universes.",
+          "The houses of the mind's world are strange indeed;",
+          "their windows are difficult to close,",
+          "for the gale-like wind of wishes and aspirations",
+          "opens them again and again.",
+          "And the mind is a slave to desires,",
+          "wandering then according to them.",
+          "Rocked by the world's scheming wind,",
+          "the mind wanders in its own world.",
+          "To fasten a latch upon it is not easy;",
+          "yet, absorbing the visible world,",
+          "bowing to its creation,",
+          "merging into the self and conquering the mind,",
+          "to realise the self is the ultimate aim."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "The World Outside My Window",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "The world outside my window—",
+          "how real, how unreal,",
+          "how colourful, how colourless,",
+          "like bougainvillea flowers:",
+          "beautiful from afar,",
+          "scentless and papery up close.",
+          "Somewhere, many-storeyed buildings;",
+          "somewhere, the sobbing,",
+          "cracking enclosures of huts.",
+          "No socialism,",
+          "no Ramraj,",
+          "no right to equality at all.",
+          "A many-dimensional world,",
+          "many-dimensional people.",
+          "But inside the window too,",
+          "is the world familiar and equal?",
+          "Here too there is conflict,",
+          "here too there is war:",
+          "some within the family,",
+          "some with one's own self.",
+          "Within the mind's window too,",
+          "a different world roams,",
+          "perhaps vaster and more infinite than this one,",
+          "holding many universes.",
+          "The houses of the mind's world are strange indeed;",
+          "their windows are difficult to close,",
+          "for the gale-like wind of wishes and aspirations",
+          "opens them again and again.",
+          "And the mind is a slave to desires,",
+          "wandering then according to them.",
+          "Rocked by the world's scheming wind,",
+          "the mind wanders in its own world.",
+          "To fasten a latch upon it is not easy;",
+          "yet, absorbing the visible world,",
+          "bowing to its creation,",
+          "merging into the self and conquering the mind,",
+          "to realise the self is the ultimate aim."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 445,
+    "target": "hi",
+    "reading_evidence": "Read all three quatrains in source/targets: night word-waves/book shores/meaning froth/feeling foam, ocean scooped into mind-cup/lapping on being sands, morning discovery in dream-waves of shared wavelengths. Wave family and final intellectual/intimate wavelength play preserved.",
+    "reason": "Correct masculine plural agreement of तरंगदैर्घ्य while retaining the scientific/intimate wavelength wordplay.",
+    "open_questions": [
+      "Hindi masculine narrator and addressee grammar remain provisional; English source does not establish either sex."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve originals, complete targets, credits, culturally specific images and stanza/line counts; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "aeaf5246c336b2894374a4d2b01f0835acc9616ea44de316ec2e6b17c2844f61",
+    "before_sha256": "c2ae134d7ce9027fbef035a9357fbdb42cb6fdbcadbd5c9e44f50f10b4b5db78",
+    "after_sha256": "c32cb8e7d064269f6c25373a3136a676a8974691b01b75577d62cf32769ec88c",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "लहरें",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "रात में शब्दों की लहरें आती हैं",
+          "तुम्हारी किताबों के किनारों से,",
+          "अर्थों में उफनती हुई,",
+          "भावनाओं के झाग के साथ।"
+        ],
+        [
+          "मैं एक समुद्र भर लेता हूँ",
+          "अपने मन के प्याले में;",
+          "तुम उसकी थपकियाँ सुन सकते हो",
+          "मेरे अस्तित्व की रेत पर।"
+        ],
+        [
+          "सुबह-सुबह,",
+          "जब जागता हूँ, पाता हूँ",
+          "अपने सपनों की लहरों में",
+          "हमारी तरंगदैर्घ्य एक थी।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "लहरें",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "रात में शब्दों की लहरें आती हैं",
+          "तुम्हारी किताबों के किनारों से,",
+          "अर्थों में उफनती हुई,",
+          "भावनाओं के झाग के साथ।"
+        ],
+        [
+          "मैं एक समुद्र भर लेता हूँ",
+          "अपने मन के प्याले में;",
+          "तुम उसकी थपकियाँ सुन सकते हो",
+          "मेरे अस्तित्व की रेत पर।"
+        ],
+        [
+          "सुबह-सुबह,",
+          "जब जागता हूँ, पाता हूँ",
+          "अपने सपनों की लहरों में",
+          "हमारे तरंगदैर्घ्य एक थे।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

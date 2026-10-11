@@ -1,0 +1,236 @@
+{
+  "recorded_at": "2026-10-06T01:46:10.290411+00:00",
+  "poem_ids": [
+    317,
+    306,
+    315,
+    304,
+    305
+  ],
+  "variants_read": 10,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 317,
+      "target": "hi",
+      "reading_evidence": "Read full source and both complete targets: five blocks of absence, eyes searching flowers/stars/word joins, fixed feet and chains versus entanglements, longest days, hypothetical nebula/pearls/dancing/plant/shadow/laughter contagion, butterfly/rainbow/moon/madness/learning, hide-and-seek and naked trembling days.",
+      "open_questions": [
+        "Absence does not necessarily mean death. Odia does not establish gender of either participant; preserve this uncertainty.",
+        "The strength comparison and the attachment of contagious to laughter remain provisional readings.",
+        "Hindi masculine speaker and absent-person grammar remain provisional."
+      ],
+      "reason": "Restore hard-to-understand rather than hard-to-traverse meaning of durbodhya; make the source first-person hypothetical flight explicit instead of allowing the absent person to inherit agency.",
+      "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "a172b17511e7962623bdccc988e41137c89bff1d1f322544c163de336bc4d2da",
+      "before_sha256": "b1bc0f315a96537e76123a014834562437fcb4dd1c7d7225e3e2b4f697d1d7f5",
+      "after_sha256": "5b5b13dcd3fab6fe38da56a19ee5d7d435aff3159d92a05e877d47146a815cd7",
+      "prior_uncertainties": [
+        {
+          "note": "All five blocks retained. Odia pronouns do not specify gender: English shifts to direct you in later stanzas to avoid assigning gender; Hindi masculine grammar provisional. Absence not asserted to mean death. Infected laughter/stricken narrator metaphor preserved.",
+          "record": "kb/production/translations/batch-113/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 317,
+      "target": "en",
+      "reading_evidence": "Read full source and both complete targets: five blocks of absence, eyes searching flowers/stars/word joins, fixed feet and chains versus entanglements, longest days, hypothetical nebula/pearls/dancing/plant/shadow/laughter contagion, butterfly/rainbow/moon/madness/learning, hide-and-seek and naked trembling days.",
+      "open_questions": [
+        "Absence does not necessarily mean death. Odia does not establish gender of either participant; preserve this uncertainty.",
+        "The strength comparison and the attachment of contagious to laughter remain provisional readings."
+      ],
+      "reason": "Restore the source third-person absent referent throughout using singular they; earlier direct you avoided gender but changed the poems distance and address.",
+      "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "a172b17511e7962623bdccc988e41137c89bff1d1f322544c163de336bc4d2da",
+      "before_sha256": "de352984bb4c257f68834be72c9db2840d1ef829337077cb4f5a33cd37fe0d4a",
+      "after_sha256": "4dfff203ac8cbc1f132f592708530e609e4c9c6801b7b7e4f45a81d7b3bbe8cf",
+      "prior_uncertainties": [
+        {
+          "note": "All five blocks retained. Odia pronouns do not specify gender: English shifts to direct you in later stanzas to avoid assigning gender; Hindi masculine grammar provisional. Absence not asserted to mean death. Infected laughter/stricken narrator metaphor preserved.",
+          "record": "kb/production/translations/batch-113/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 306,
+      "target": "or",
+      "reading_evidence": "Read all thirty source lines and each complete target: old-age threshold, belonging/existence, solitary roadside body, loving shade, lifelong care and self-denial, six repeated who-is-she questions and the final who/whose question, avoidance even of shadow, refusal of spare time, refusal to recognize despite light, final helpless-mother revelation. Female referent is explicit in Hindi; no family identity invented.",
+      "open_questions": [],
+      "reason": "Retain repeated questioning, accumulating abandonment, tenderness and the final mother revelation; source-conditioned inversions remain intelligible.",
+      "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "41de754ddbb80514ddac80f7ca064e59583263203e6377e9b8347e9665e3f5e7",
+      "before_sha256": "89f97a991ca9b158f30999796104a88b2aea84a8a7af5a1cf1c1b4694a0fd0b7",
+      "after_sha256": "89f97a991ca9b158f30999796104a88b2aea84a8a7af5a1cf1c1b4694a0fd0b7",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 306,
+      "target": "en",
+      "reading_evidence": "Read all thirty source lines and each complete target: old-age threshold, belonging/existence, solitary roadside body, loving shade, lifelong care and self-denial, six repeated who-is-she questions and the final who/whose question, avoidance even of shadow, refusal of spare time, refusal to recognize despite light, final helpless-mother revelation. Female referent is explicit in Hindi; no family identity invented.",
+      "open_questions": [],
+      "reason": "Keep the explicit mother naming until the source final line instead of introducing it early; repair mechanical object displacement at recognition while retaining two lines and the refusal to see.",
+      "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "41de754ddbb80514ddac80f7ca064e59583263203e6377e9b8347e9665e3f5e7",
+      "before_sha256": "939709d8f6e0b8b8c08d1990c00a02c9e499a3bcbf4fe079894292c20896170e",
+      "after_sha256": "eb94be4072ffdc9968b913f36a50f13d6f23dd7051181d63a8b47187d2e0289b",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 315,
+      "target": "or",
+      "reading_evidence": "Read all five complete source blocks and both targets: sorrows/uncounted joys, keep/set aside, lost dreams/pain, buried wishes/unspoken words, limitless love/betrayals, feelings/waiting, restrictions/questions/efforts, finding own path and life showing/misleading the way; every cannot-understand recurrence preserved.",
+      "open_questions": [
+        "उसे may refer to a recipient or back to the feeling/waiting; existing target recipient reading remains provisional."
+      ],
+      "reason": "Retain the accumulating refrain and plain questioning register; no added answer or forced wisdom.",
+      "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1c060c66f117f0ae6d3ad0076dc1853276d77ed97445849b6e2db226e13c0ca4",
+      "before_sha256": "658675685a7419bc9820f1ab7d43e794469649729cff3dce7c513a24e1723feb",
+      "after_sha256": "658675685a7419bc9820f1ab7d43e794469649729cff3dce7c513a24e1723feb",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 315,
+      "target": "en",
+      "reading_evidence": "Read all five complete source blocks and both targets: sorrows/uncounted joys, keep/set aside, lost dreams/pain, buried wishes/unspoken words, limitless love/betrayals, feelings/waiting, restrictions/questions/efforts, finding own path and life showing/misleading the way; every cannot-understand recurrence preserved.",
+      "open_questions": [
+        "उसे may refer to a recipient or back to the feeling/waiting; existing target recipient reading remains provisional."
+      ],
+      "reason": "Retain the accumulating refrain and plain questioning register; no added answer or forced wisdom.",
+      "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1c060c66f117f0ae6d3ad0076dc1853276d77ed97445849b6e2db226e13c0ca4",
+      "before_sha256": "b1fd40c69ca88f220d430032ecd280391a0dd056460f699db2078cba7c0523be",
+      "after_sha256": "b1fd40c69ca88f220d430032ecd280391a0dd056460f699db2078cba7c0523be",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 304,
+      "target": "or",
+      "reading_evidence": "Read entire ten-line source and both complete targets: clock/fridge/kettle/rice-cooker personification, painful spine melting as mozzarella, jelly knees waltzing to doorbell, long three-flower laughter sequence, whispered shoreline crossing. Shoreline not expanded into death.",
+      "open_questions": [
+        "Source flower spellings and gigleds remain source issues; Alamonda species not asserted."
+      ],
+      "reason": "Use natural Odia whisper onomatopoeia in the quietly heard final invitation; preserve domestic surrealism and unexplicated shoreline.",
+      "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "5465da1f02a58121fbe871eee8be7d2c27e3f458a010b9b0a93db2d7c643d404",
+      "before_sha256": "e365c10cd40ddfeff62674d99e58809c25296fa32a981fb1d77afc1c6258c001",
+      "after_sha256": "c5004f688d89cc76e9adb5d5f760039df8861da29afbec996b4ecc2cf9db12a9",
+      "prior_uncertainties": [
+        {
+          "note": "All ten lines including single long flower line retained. Misspellings Jarbera/gigleds/fuscia/Jinia read gerbera/giggles/fuchsia/zinnia; Alamonda transliterated without identifying a species. Domestic personification and shoreline ambiguity preserved.",
+          "record": "kb/production/translations/batch-114/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 304,
+      "target": "hi",
+      "reading_evidence": "Read entire ten-line source and both complete targets: clock/fridge/kettle/rice-cooker personification, painful spine melting as mozzarella, jelly knees waltzing to doorbell, long three-flower laughter sequence, whispered shoreline crossing. Shoreline not expanded into death.",
+      "open_questions": [
+        "Source flower spellings and gigleds remain source issues; Alamonda species not asserted."
+      ],
+      "reason": "Retain domestic surrealism, audible flower distinctions and the quiet final invitation without narrowing its meaning.",
+      "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "5465da1f02a58121fbe871eee8be7d2c27e3f458a010b9b0a93db2d7c643d404",
+      "before_sha256": "7d74d6087e496051379c272d50e1f8e5a61ab9d562222e563a2585b742167f1f",
+      "after_sha256": "7d74d6087e496051379c272d50e1f8e5a61ab9d562222e563a2585b742167f1f",
+      "prior_uncertainties": [
+        {
+          "note": "All ten lines including single long flower line retained. Misspellings Jarbera/gigleds/fuscia/Jinia read gerbera/giggles/fuchsia/zinnia; Alamonda transliterated without identifying a species. Domestic personification and shoreline ambiguity preserved.",
+          "record": "kb/production/translations/batch-114/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 305,
+      "target": "or",
+      "reading_evidence": "Read full twenty-one-line English source and both complete targets including their opening-line titles: sunset/leaves/wind/traffic, unspent day, career worries/opportunities, distant evening tea, two middle-aged people in senility handcuffs, girl becoming earning woman/losing dreams, present moment, crowd/oblivion, present patting buddy and final sigh.",
+      "open_questions": [
+        "Source too-full/what-life-should-be and getting-dismissed phrases remain unusual and provisional; do not substitute a career narrative not stated.",
+        "Female Hindi narrator is plausible from girl/woman passage but not independently confirmed; two waiting people are not explicitly named parents."
+      ],
+      "reason": "Retain long conversational lines, career-versus-lived-evening tension, disturbing handcuffs and final sigh.",
+      "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "e5bed8ce2da82c745696034d9028b3f54161bedfb0adf63ec250cf36b3174a78",
+      "before_sha256": "16308c3085577b3014fc5afbbeeb6b6f75677c4e0e6df5455577f789d63c14df",
+      "after_sha256": "16308c3085577b3014fc5afbbeeb6b6f75677c4e0e6df5455577f789d63c14df",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 305,
+      "target": "hi",
+      "reading_evidence": "Read full twenty-one-line English source and both complete targets including their opening-line titles: sunset/leaves/wind/traffic, unspent day, career worries/opportunities, distant evening tea, two middle-aged people in senility handcuffs, girl becoming earning woman/losing dreams, present moment, crowd/oblivion, present patting buddy and final sigh.",
+      "open_questions": [
+        "Source too-full/what-life-should-be and getting-dismissed phrases remain unusual and provisional; do not substitute a career narrative not stated.",
+        "Female Hindi narrator is plausible from girl/woman passage but not independently confirmed; two waiting people are not explicitly named parents."
+      ],
+      "reason": "Preserve the closing sigh as an expressive response, not merely a long breath; keep the rest of the unresolved answer intact.",
+      "tradeoff": "Keep the whole poem and its emotional turns; local corrections do not resolve unrelated source questions. Same-assistant literary self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "e5bed8ce2da82c745696034d9028b3f54161bedfb0adf63ec250cf36b3174a78",
+      "before_sha256": "30179f7892a45b8ddbb8c1ef18347465d5ce5bf272348f8b29f0219de4bddc9a",
+      "after_sha256": "1352bc6b909ec8c37b00dfd1c059e03d8822febf819784de6e715efc976b8c5c",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

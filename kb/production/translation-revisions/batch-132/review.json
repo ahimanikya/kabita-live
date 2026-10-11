@@ -1,0 +1,247 @@
+{
+  "recorded_at": "2026-10-06T02:45:06.118591+00:00",
+  "poem_ids": [
+    244,
+    245,
+    246,
+    247,
+    250
+  ],
+  "variants_read": 10,
+  "variants_changed": 8,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 244,
+      "target": "or",
+      "reading_evidence": "Read full25-line source and both targets in five blocks5/5/7/3/5: repeated anger-go-away address, hatred house/eye fear/not sacred, diagnosis/problem versus solution and mental pollution, rude interpreter/mind destroyer/cigar-scar/war, misleading and repeated straying/fires/no apology to prey, no permission/loss of control/no limit/deviousness and retirement demand. Checked permission possessor versus recipient and retained the reprimanding voice.",
+      "open_questions": [
+        "Cant be diagnosed with a problem is unusual source wording; current close diagnosis relation remains provisional, not silently repaired into a clinical claim."
+      ],
+      "reason": "Correct permission agency: anger needs no permission, rather than nobody needing angers permission. Preserve the direct informal address.",
+      "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "bc32fc84ae0970c6973eea24eb6f5332aa1a98ac9eb8edbac521d202be61243d",
+      "before_sha256": "2ed6b343c69d059659ee1bb557a09edb1a22b581ac5715e09fb3686bb3ef190c",
+      "after_sha256": "31cd28c019b9166a50fdd0295d7ef19b2808f1f776ce18f528989338ff403c5a",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 244,
+      "target": "hi",
+      "reading_evidence": "Read full25-line source and both targets in five blocks5/5/7/3/5: repeated anger-go-away address, hatred house/eye fear/not sacred, diagnosis/problem versus solution and mental pollution, rude interpreter/mind destroyer/cigar-scar/war, misleading and repeated straying/fires/no apology to prey, no permission/loss of control/no limit/deviousness and retirement demand. Checked permission possessor versus recipient and retained the reprimanding voice.",
+      "open_questions": [
+        "Cant be diagnosed with a problem is unusual source wording; current close diagnosis relation remains provisional, not silently repaired into a clinical claim."
+      ],
+      "reason": "Retain the reprimand, repetitions, cigar and prey metaphors; permission agency already matches source, diagnosis wording remains held.",
+      "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "bc32fc84ae0970c6973eea24eb6f5332aa1a98ac9eb8edbac521d202be61243d",
+      "before_sha256": "49551a71e9ab39241e8cead452cfbcb255b9742106a2f38cf3d588482b59143f",
+      "after_sha256": "49551a71e9ab39241e8cead452cfbcb255b9742106a2f38cf3d588482b59143f",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 245,
+      "target": "or",
+      "reading_evidence": "Read all20 source lines and both full targets: beloved/poetry marvel written by moving finger on soft golden Lei-Yang paper, Byzantine sailor anchored to black obsidian while gazing at fantasy coastline, felt import of essence/grace, plump-word texture resisting scrutiny, delicate/fragile sheen threatened by one analytic pen stroke. Kept actual named references and the admiring-to-questioning turn without explaining allusions.",
+      "open_questions": [
+        "Lei-Yang/Byzantine/obsidian and moving-finger images are retained as source literary references, not asserted historical facts or reassigned identities."
+      ],
+      "reason": "Naturalise the fantasy-coastline genitive and restore helps-me-appreciate rather than introduced teaching. Keep the single analytic-pen stroke and all20lines.",
+      "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 20,
+        "before_lines": [],
+        "inline_breaks": []
+      },
+      "source_sha256": "7430655050ef27ace72dd8c05cb23e0751bc473c49a16846ea85e17b6866b8ff",
+      "before_sha256": "1f10c1f355183704e4523eb0ba71cbd08fda481bbffc31ec4e191903813de006",
+      "after_sha256": "5e526b99c781a7e7017f2163abd5fc33ea0c8666be6c2d79ea65c84144a0592e",
+      "prior_uncertainties": [
+        {
+          "note": "Twenty lines retained. Lei-Yang, Byzantine and obsidian transliterated, not substituted. Plump words and analytic pen metaphor preserved; Hindi narrator gender provisional.",
+          "record": "kb/production/translations/batch-128/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 245,
+      "target": "hi",
+      "reading_evidence": "Read all20 source lines and both full targets: beloved/poetry marvel written by moving finger on soft golden Lei-Yang paper, Byzantine sailor anchored to black obsidian while gazing at fantasy coastline, felt import of essence/grace, plump-word texture resisting scrutiny, delicate/fragile sheen threatened by one analytic pen stroke. Kept actual named references and the admiring-to-questioning turn without explaining allusions.",
+      "open_questions": [
+        "Lei-Yang/Byzantine/obsidian and moving-finger images are retained as source literary references, not asserted historical facts or reassigned identities."
+      ],
+      "reason": "Naturalise the coastline genitive and use a gender-neutral felt-meaning clause where source supplies no narrator gender, keeping the poems imagery and argument intact.",
+      "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 20,
+        "before_lines": [],
+        "inline_breaks": []
+      },
+      "source_sha256": "7430655050ef27ace72dd8c05cb23e0751bc473c49a16846ea85e17b6866b8ff",
+      "before_sha256": "7462e774809b2d0f7ea9e08b008740f8dac623aae083ce6b7d265bc0854a3862",
+      "after_sha256": "a23950bd6daf36af20f488bf85459197c0f18c88b9984c468b19ec5ac595c135",
+      "prior_uncertainties": [
+        {
+          "note": "Twenty lines retained. Lei-Yang, Byzantine and obsidian transliterated, not substituted. Plump words and analytic pen metaphor preserved; Hindi narrator gender provisional.",
+          "record": "kb/production/translations/batch-128/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 246,
+      "target": "or",
+      "reading_evidence": "Read all16 source lines and both targets in four quatrains: unborn girl alert in mothers womb, concern for both safety, birth/tomb/family preference, appeal to live/laugh/feel and inability to fight, promised achievement/care/study/earnings/parents praise, womens-rights world that will never know her, endangered-species metaphor and undeserved societal condemnation. Explicit female voice preserved; advocacy remains unsoftened.",
+      "open_questions": [],
+      "reason": "Retain the complete direct appeal, source female speaker, promise and final undeserved plight; no new correction needed.",
+      "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "8cfe00e20a4163ebb0cbaa04bf1e556d84db57198ba80e378731c22c470eede0",
+      "before_sha256": "6773760e9996e4f5c40f0cfdca4485dbf964e16a1bc7f1756851a5c97ac30458",
+      "after_sha256": "6773760e9996e4f5c40f0cfdca4485dbf964e16a1bc7f1756851a5c97ac30458",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 246,
+      "target": "hi",
+      "reading_evidence": "Read all16 source lines and both targets in four quatrains: unborn girl alert in mothers womb, concern for both safety, birth/tomb/family preference, appeal to live/laugh/feel and inability to fight, promised achievement/care/study/earnings/parents praise, womens-rights world that will never know her, endangered-species metaphor and undeserved societal condemnation. Explicit female voice preserved; advocacy remains unsoftened.",
+      "open_questions": [],
+      "reason": "Make the faultless-plight relation idiomatic: suffering despite no fault, without treating plight itself as a moral agent or adding a cause.",
+      "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "8cfe00e20a4163ebb0cbaa04bf1e556d84db57198ba80e378731c22c470eede0",
+      "before_sha256": "16863776dc8b56c86947690ca1c2186d6d6fb65f9ee732cad984e72a9df2e40e",
+      "after_sha256": "ed2511676624d4e28d076712c80a4365292ea4cabb92884a93ac1b652c9045ee",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 247,
+      "target": "or",
+      "reading_evidence": "Read full28-line source and both targets across seven quatrains: shutting door/leaving window, hope despite anticipated ending and black clouds/moon, renewed anxiety, spontaneity versus changing self and pointed someone-less retort, soft talk escalating to abrupt argument/yelling, throwing/crying/leaving/vowing separation then yearning, self-rebuke and repeated closed-door/open-window ending. Preserved conflicted cycle without prescribing a relationship outcome.",
+      "open_questions": [
+        "Someone less stays deliberately pointed and elliptical; do not resolve it solely into easier-to-handle or inferior-person meaning.",
+        "Stray source semicolons serve quotation marks in existing targets; source punctuation unchanged."
+      ],
+      "reason": "Restore the title as a window deliberately left open rather than one that merely remains open; body already preserves the recurring action.",
+      "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "title_after": "ଖୋଲା ଛାଡ଼ିଥିବା ଝରକାଟିଏ",
+      "source_sha256": "50bf5dd513526d6ecb3d0419d9d5ec532640934165af79ae385c6cb1a43d962c",
+      "before_sha256": "154c5459ea7938c79f0174dd281a7a498d61ee2945fec4128bbb3a19e15fa80c",
+      "after_sha256": "361dbe54959d9c387fd7b301724bb1cad62b2505542d5b4181b1dbe43a77866e",
+      "prior_uncertainties": [
+        {
+          "note": "Seven quatrains retained. Stray semicolons serving quotation marks normalized only in translations; Hindi feminine narrator provisional. Someone less remains deliberately pointed and elliptical.",
+          "record": "kb/production/translations/batch-128/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 247,
+      "target": "hi",
+      "reading_evidence": "Read full28-line source and both targets across seven quatrains: shutting door/leaving window, hope despite anticipated ending and black clouds/moon, renewed anxiety, spontaneity versus changing self and pointed someone-less retort, soft talk escalating to abrupt argument/yelling, throwing/crying/leaving/vowing separation then yearning, self-rebuke and repeated closed-door/open-window ending. Preserved conflicted cycle without prescribing a relationship outcome.",
+      "open_questions": [
+        "Someone less stays deliberately pointed and elliptical; do not resolve it solely into easier-to-handle or inferior-person meaning.",
+        "Stray source semicolons serve quotation marks in existing targets; source punctuation unchanged.",
+        "Feminine narrator and masculine addressee agreement in body remain provisional; title no longer adds first-person gender."
+      ],
+      "reason": "Restore source noun-phrase title without introducing a first-person feminine sentence; retain full body and record unresolved participant gender.",
+      "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "title_after": "खुली छोड़ी हुई एक खिड़की",
+      "source_sha256": "50bf5dd513526d6ecb3d0419d9d5ec532640934165af79ae385c6cb1a43d962c",
+      "before_sha256": "ded8b33e725b346297f42ce63b529b3b8c4aabfc626d54c454dfcfd848945dc8",
+      "after_sha256": "b9d87b947cd587409338effa2e878fc18c13c4cb257dad769a7a14263118d3a1",
+      "prior_uncertainties": [
+        {
+          "note": "Seven quatrains retained. Stray semicolons serving quotation marks normalized only in translations; Hindi feminine narrator provisional. Someone less remains deliberately pointed and elliptical.",
+          "record": "kb/production/translations/batch-128/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 250,
+      "target": "or",
+      "reading_evidence": "Read full38-line source and both targets in ten blocks3/4/4/4/4/4/4/4/4/3: dawn sleep deprivation/disorientation, harsh morning duties and others uniformed for school, school/Anganwadi question and painful prod, mother-taught mogra venis with rosebuds for working women, gajras/youngest sibling/red signal/car selling, recurring dream, harsh sun/sweat/cracked heels/half-empty stomach/hope, years becoming mothers premature ageing and harsh sales voice, grey pavements/dead dreams/monotone dawn-dusk. Preserved denied education and unrelieved ending without cheerful rescue.",
+      "open_questions": [
+        "Current youngest-household-child wording avoids inventing sibling gender but loses exact sibling kinship and straddling posture; these remain a recorded target/source-expression hold, not certified equivalent."
+      ],
+      "reason": "Restore the specific school uniform rather than generic clothing, preserving the visible contrast with the working child. Keep the sibling wording limitation separately recorded.",
+      "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "4b514a9cd89e6131631037d6618ec11553083fe6233749149abacd8eb8365b0f",
+      "before_sha256": "31ba61fbbb3426083a02f2e3db4352e48f6d1b7f06c767cd0c2a7e2dfd75dd5c",
+      "after_sha256": "2fc64f3251806c7f0abec80d2cbbb8968e4725336cf858b773eb44094ab259cc",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 250,
+      "target": "hi",
+      "reading_evidence": "Read full38-line source and both targets in ten blocks3/4/4/4/4/4/4/4/4/3: dawn sleep deprivation/disorientation, harsh morning duties and others uniformed for school, school/Anganwadi question and painful prod, mother-taught mogra venis with rosebuds for working women, gajras/youngest sibling/red signal/car selling, recurring dream, harsh sun/sweat/cracked heels/half-empty stomach/hope, years becoming mothers premature ageing and harsh sales voice, grey pavements/dead dreams/monotone dawn-dusk. Preserved denied education and unrelieved ending without cheerful rescue.",
+      "open_questions": [
+        "Current youngest-household-child wording avoids inventing sibling gender but loses exact sibling kinship and straddling posture; these remain a recorded target/source-expression hold, not certified equivalent."
+      ],
+      "reason": "Restore the small rosebuds interspersed within the flower garlands, rather than garlands placed between rosebuds; use the natural urban traffic-signal phrase in the translated title.",
+      "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "title_after": "ट्रैफ़िक सिग्नल पर जीवन",
+      "source_sha256": "4b514a9cd89e6131631037d6618ec11553083fe6233749149abacd8eb8365b0f",
+      "before_sha256": "ea4975f124971a62b353d3fe62f278990343a072014fc1b5beaf65bc2e7777a9",
+      "after_sha256": "99aed82d7c9ef528aff283720ed237156cc9001856c96bd06abfb2a296e7e6e3",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

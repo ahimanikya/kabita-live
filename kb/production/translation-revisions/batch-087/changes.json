@@ -1,0 +1,501 @@
+[
+  {
+    "poem_id": 429,
+    "target": "hi",
+    "reading_evidence": "Read all eight source and target stanzas: reciprocal bed/sky looking, solitary relationship, morning blue/evening red/night moon-stars-meteors and inscrutable tangled-line figure, planes/birds/moon and frying sun, gold-winged fairies seized by hairy hand/night waking, jealous female neighbour wall, mentally drawn sky objects and addressed face, final wall made sky. Checked the last list as coordinated objects of drawing.",
+    "reason": "Mark the shift from the sky seeing to its pictured scene; preserve the image and voice.",
+    "open_questions": [
+      "Unusual bed-griddle/yellow-spatula cooking vocabulary remains contextual and provisional; no diagnosis supplied for fairies or hand. Hindi masculine speaker is not established by the Odia first person."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve original and target stanza/line counts, credits, imagery and unresolved readings; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "900861f4e6c3933d8132e979c23a0098c6aac1946e78ea1afe9f0c6ecbe44d06",
+    "before_sha256": "65f580fbba883794c262c1b3ae58dc8f23cb1756f48ec07fd2d02374bc8bfde0",
+    "after_sha256": "ac3b0e6025a760553058ca04ab6d185b6914526f70471c0ebbb033661c96029a",
+    "prior_uncertainties": [
+      {
+        "note": "Eight stanzas including final wall/sky line retained. Bed-as-griddle and yellow-spatula reading is contextual/provisional for unusual cooking terms. Fairies, hairy hand and neighbour wall preserved without diagnosing the speaker.",
+        "record": "kb/production/translations/batch-085/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "बाहर से भीतर",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "पहले अपने बिस्तर पर लेटता था तो",
+          "आकाश मुझे देखता था,",
+          "और मैं आकाश को।"
+        ],
+        [
+          "इतना ही था संबंध:",
+          "अकेले समय में",
+          "हम एक-दूसरे को देखते थे।"
+        ],
+        [
+          "मैं देखता था सुबह का आसमानी नीला,",
+          "शाम का लाल,",
+          "रात का अँधेरा, चाँद, तारे,",
+          "और गिरते उल्कापिंड।",
+          "वह देखता था कुछ उलझी रेखाओं से बने",
+          "दुर्बोध चित्र जैसा कोई बिस्तर पर पड़ा है।"
+        ],
+        [
+          "कभी मैं हवाई जहाज़ देखता,",
+          "तो कभी पक्षियों का झुंड।",
+          "कभी वहाँ से झाँककर चाँद मुझे देखता,",
+          "कभी लंबी दोपहर का ऊबा हुआ सूरज,",
+          "मेरे बिस्तर के तवे पर,",
+          "अपनी लंबी, तपती, पीली कलछी से मुझे तलता।"
+        ],
+        [
+          "कभी उस एकांत आसमानी कैनवस पर",
+          "सुनहरे पंखों वाली उड़ती परियों का झुंड",
+          "कोई बना देता था।",
+          "एक काला, रोएँदार हाथ,",
+          "धरती से बढ़कर जब उन्हें पकड़ने लगता,",
+          "आधी रात मेरी नींद टूट जाती।"
+        ],
+        [
+          "वह आकाश अब दिखाई नहीं देता,",
+          "सारे संबंध टूट गए हैं।",
+          "अब हम दोनों के बीच",
+          "ईर्ष्यालु पड़ोसिन की गंदगी पुती",
+          "ऊँची दीवार है।"
+        ],
+        [
+          "आजकल अपने बिस्तर पर लेटे,",
+          "दिन भर, रात भर,",
+          "उन गंदे निशानों के बदलते रूप देखता हूँ।",
+          "बिस्तर पर पड़े मन-ही-मन उस दीवार पर,",
+          "चाँद, तारे, पक्षी, मनुष्य और परियों के साथ,",
+          "हवाई जहाज़, उल्कापिंड,",
+          "और तुम्हारे चेहरे का चित्र बनाता हूँ।"
+        ],
+        [
+          "दीवार को आकाश बना दिया है।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "बाहर से भीतर",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "पहले अपने बिस्तर पर लेटता था तो",
+          "आकाश मुझे देखता था,",
+          "और मैं आकाश को।"
+        ],
+        [
+          "इतना ही था संबंध:",
+          "अकेले समय में",
+          "हम एक-दूसरे को देखते थे।"
+        ],
+        [
+          "मैं देखता था सुबह का आसमानी नीला,",
+          "शाम का लाल,",
+          "रात का अँधेरा, चाँद, तारे,",
+          "और गिरते उल्कापिंड।",
+          "वह देखता था: कुछ उलझी रेखाओं से बने",
+          "दुर्बोध चित्र जैसा कोई बिस्तर पर पड़ा है।"
+        ],
+        [
+          "कभी मैं हवाई जहाज़ देखता,",
+          "तो कभी पक्षियों का झुंड।",
+          "कभी वहाँ से झाँककर चाँद मुझे देखता,",
+          "कभी लंबी दोपहर का ऊबा हुआ सूरज,",
+          "मेरे बिस्तर के तवे पर,",
+          "अपनी लंबी, तपती, पीली कलछी से मुझे तलता।"
+        ],
+        [
+          "कभी उस एकांत आसमानी कैनवस पर",
+          "सुनहरे पंखों वाली उड़ती परियों का झुंड",
+          "कोई बना देता था।",
+          "एक काला, रोएँदार हाथ,",
+          "धरती से बढ़कर जब उन्हें पकड़ने लगता,",
+          "आधी रात मेरी नींद टूट जाती।"
+        ],
+        [
+          "वह आकाश अब दिखाई नहीं देता,",
+          "सारे संबंध टूट गए हैं।",
+          "अब हम दोनों के बीच",
+          "ईर्ष्यालु पड़ोसिन की गंदगी पुती",
+          "ऊँची दीवार है।"
+        ],
+        [
+          "आजकल अपने बिस्तर पर लेटे,",
+          "दिन भर, रात भर,",
+          "उन गंदे निशानों के बदलते रूप देखता हूँ।",
+          "बिस्तर पर पड़े मन-ही-मन उस दीवार पर,",
+          "चाँद, तारे, पक्षी, मनुष्य और परियों के साथ,",
+          "हवाई जहाज़, उल्कापिंड,",
+          "और तुम्हारे चेहरे का चित्र बनाता हूँ।"
+        ],
+        [
+          "दीवार को आकाश बना दिया है।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 429,
+    "target": "en",
+    "reading_evidence": "Read all eight source and target stanzas: reciprocal bed/sky looking, solitary relationship, morning blue/evening red/night moon-stars-meteors and inscrutable tangled-line figure, planes/birds/moon and frying sun, gold-winged fairies seized by hairy hand/night waking, jealous female neighbour wall, mentally drawn sky objects and addressed face, final wall made sky. Checked the last list as coordinated objects of drawing.",
+    "reason": "Use natural relational idiom and restore the sky objects and your face as coequal things drawn, rather than subordinating the entire list to a face portrait.",
+    "open_questions": [
+      "Unusual bed-griddle/yellow-spatula cooking vocabulary remains contextual and provisional; no diagnosis supplied for fairies or hand. Hindi masculine speaker is not established by the Odia first person."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve original and target stanza/line counts, credits, imagery and unresolved readings; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "900861f4e6c3933d8132e979c23a0098c6aac1946e78ea1afe9f0c6ecbe44d06",
+    "before_sha256": "60ee1f815f1f51c1993462ac61ac82effa128ca44d2160ec13f9c7a9c2dd57d0",
+    "after_sha256": "0da66220aa47cad71627ca94d7bf598c6b095752c2b24452965978ad8c63468a",
+    "prior_uncertainties": [
+      {
+        "note": "Eight stanzas including final wall/sky line retained. Bed-as-griddle and yellow-spatula reading is contextual/provisional for unusual cooking terms. Fairies, hairy hand and neighbour wall preserved without diagnosing the speaker.",
+        "record": "kb/production/translations/batch-085/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "From Outside to Within",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Earlier, when I lay on my bed,",
+          "the sky looked at me,",
+          "and I looked at the sky."
+        ],
+        [
+          "That was all our relationship:",
+          "in our lonely hours",
+          "we looked at each other."
+        ],
+        [
+          "I watched the morning's sky-blue,",
+          "the evening's red,",
+          "night's darkness, moon, stars,",
+          "and falling meteors.",
+          "It saw someone lying on a bed like an inscrutable picture",
+          "drawn with a few tangled lines."
+        ],
+        [
+          "Sometimes I watched an aeroplane,",
+          "sometimes a flock of birds.",
+          "Sometimes the moon peeped from there and looked at me;",
+          "sometimes the bored sun of a long afternoon,",
+          "on the griddle of my bed,",
+          "fried me with its long, hot, yellow spatula."
+        ],
+        [
+          "Sometimes on that solitary sky-blue canvas",
+          "someone painted a flock of flying fairies",
+          "with golden wings.",
+          "As a black, hairy hand",
+          "reached up from earth to seize them,",
+          "I woke in the middle of the night."
+        ],
+        [
+          "That sky is visible no longer;",
+          "all relationship is severed.",
+          "Now between the two of us",
+          "stands a jealous neighbour woman's dirt-smeared,",
+          "tall wall."
+        ],
+        [
+          "These days, lying on my bed,",
+          "all day, all night,",
+          "I watch the changing shapes of those dirty marks.",
+          "Lying in bed, upon that wall, in my mind,",
+          "with moon, stars, birds, humans and fairies,",
+          "aeroplanes, meteors,",
+          "I draw the picture of your face."
+        ],
+        [
+          "I have made the wall a sky."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "From Outside to Within",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Earlier, when I lay on my bed,",
+          "the sky looked at me,",
+          "and I looked at the sky."
+        ],
+        [
+          "That was all our relationship:",
+          "in our lonely hours",
+          "we looked at each other."
+        ],
+        [
+          "I watched the morning's sky-blue,",
+          "the evening's red,",
+          "night's darkness, moon, stars,",
+          "and falling meteors.",
+          "It saw someone lying on a bed like an inscrutable picture",
+          "drawn with a few tangled lines."
+        ],
+        [
+          "Sometimes I watched an aeroplane,",
+          "sometimes a flock of birds.",
+          "Sometimes the moon peeped from there and looked at me;",
+          "sometimes the bored sun of a long afternoon,",
+          "on the griddle of my bed,",
+          "fried me with its long, hot, yellow spatula."
+        ],
+        [
+          "Sometimes on that solitary sky-blue canvas",
+          "someone painted a flock of flying fairies",
+          "with golden wings.",
+          "As a black, hairy hand",
+          "reached up from earth to seize them,",
+          "I woke in the middle of the night."
+        ],
+        [
+          "That sky is visible no longer;",
+          "all ties are severed.",
+          "Now between the two of us",
+          "stands a jealous neighbour woman's dirt-smeared,",
+          "tall wall."
+        ],
+        [
+          "These days, lying on my bed,",
+          "all day, all night,",
+          "I watch the changing shapes of those dirty marks.",
+          "Lying in bed, I draw upon that wall in my mind:",
+          "moon, stars, birds, humans and fairies,",
+          "aeroplanes, meteors,",
+          "and your face."
+        ],
+        [
+          "I have made the wall a sky."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 436,
+    "target": "en",
+    "reading_evidence": "Read fourteen complete source/target stanzas: body merging with earth; unnamed voice and war call; hungry earth, food defeated and chariot bogged; impatience and mantra forgetting; rise from death/cast birth at field; dust-face fragments; continual shaping; old-calendar hanging and discarded breaths; body falling through fire/river/religion/sound; flaw and hunger-filled space; strung horizons/ripe-orange morning sun; universe in hungry mouth; Mother addressed and earth-coloured hunger call. Checked actual impatience, not patience, and no named deity.",
+    "reason": "Repair an unidiomatic inversion while preserving hunger as what fills the empty space and retaining the three-line stanza.",
+    "open_questions": [
+      "Hindi feminine speaker remains provisional as already recorded. Unusual source falling/slumping verb retained contextually; birth/body attachment remains poetic and is not expanded into a named myth."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve original and target stanza/line counts, credits, imagery and unresolved readings; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "076e727f16507d47651bec6097525a7e390140cb4551e63b2b722f1b656ac4bf",
+    "before_sha256": "931dd5e451fa0721b8ff65c0cc5cf291634ded25c7eed15fd22dfabe98b349da",
+    "after_sha256": "d764a2859d71428a2654490298730929e10bb81b5848edad9b9a7f4d03ace5b9",
+    "prior_uncertainties": [
+      {
+        "note": "Fourteen stanzas retained. Hunger/earth/open-mouth cosmic image kept without identifying a deity. Impatience and forgetting mantra retained as written, not corrected to patience. Hindi feminine grammatical voice provisional; English body/slumping two lines reordered for syntax.",
+        "record": "kb/production/translations/batch-085/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Earth-Coloured Hunger",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Look,",
+          "somewhere here,",
+          "silently, without stir,",
+          "my body is merging into the earth."
+        ],
+        [
+          "Someone says to me—"
+        ],
+        [
+          "You are calling for war, are you?",
+          "Wait a little;",
+          "for a few moments,",
+          "upon this hungry earth,",
+          "let there be pictured",
+          "the defeat of food…",
+          "Let the chariot wheels stop",
+          "in hunger's mire."
+        ],
+        [
+          "Learn also",
+          "to be able to grow impatient."
+        ],
+        [
+          "Learn, for a few moments,",
+          "the formless art",
+          "of forgetting the mantra!"
+        ],
+        [
+          "Now rise from your own death;",
+          "come, having cast your birth away",
+          "like a hungry body",
+          "at the edge of a field of grain!"
+        ],
+        [
+          "I am troubled—",
+          "in every grain of dust,",
+          "fragments of my face."
+        ],
+        [
+          "Who is shaping me,",
+          "moment after moment?"
+        ],
+        [
+          "Like an old calendar,",
+          "perhaps somewhere I am being hung;",
+          "stored away are",
+          "my discarded breaths."
+        ],
+        [
+          "In fire, in rivers,",
+          "in religion, in sound,",
+          "in screams, in disorder,",
+          "my body, cast away for ages,",
+          "slumps down."
+        ],
+        [
+          "Still a flaw remains;",
+          "with hunger fills",
+          "the empty space…"
+        ],
+        [
+          "As though someone,",
+          "stringing round horizons together,",
+          "is ready to pull down,",
+          "like a ripe orange,",
+          "the tender morning sun."
+        ],
+        [
+          "Still,",
+          "in my hunger-gripped, open mouth,",
+          "you saw the universe."
+        ],
+        [
+          "What is my fault, Mother,",
+          "if,",
+          "again and again, I am called",
+          "by earth-coloured hunger!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Earth-Coloured Hunger",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Look,",
+          "somewhere here,",
+          "silently, without stir,",
+          "my body is merging into the earth."
+        ],
+        [
+          "Someone says to me—"
+        ],
+        [
+          "You are calling for war, are you?",
+          "Wait a little;",
+          "for a few moments,",
+          "upon this hungry earth,",
+          "let there be pictured",
+          "the defeat of food…",
+          "Let the chariot wheels stop",
+          "in hunger's mire."
+        ],
+        [
+          "Learn also",
+          "to be able to grow impatient."
+        ],
+        [
+          "Learn, for a few moments,",
+          "the formless art",
+          "of forgetting the mantra!"
+        ],
+        [
+          "Now rise from your own death;",
+          "come, having cast your birth away",
+          "like a hungry body",
+          "at the edge of a field of grain!"
+        ],
+        [
+          "I am troubled—",
+          "in every grain of dust,",
+          "fragments of my face."
+        ],
+        [
+          "Who is shaping me,",
+          "moment after moment?"
+        ],
+        [
+          "Like an old calendar,",
+          "perhaps somewhere I am being hung;",
+          "stored away are",
+          "my discarded breaths."
+        ],
+        [
+          "In fire, in rivers,",
+          "in religion, in sound,",
+          "in screams, in disorder,",
+          "my body, cast away for ages,",
+          "slumps down."
+        ],
+        [
+          "Still a flaw remains;",
+          "hunger fills",
+          "the empty space…"
+        ],
+        [
+          "As though someone,",
+          "stringing round horizons together,",
+          "is ready to pull down,",
+          "like a ripe orange,",
+          "the tender morning sun."
+        ],
+        [
+          "Still,",
+          "in my hunger-gripped, open mouth,",
+          "you saw the universe."
+        ],
+        [
+          "What is my fault, Mother,",
+          "if,",
+          "again and again, I am called",
+          "by earth-coloured hunger!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

@@ -1,0 +1,251 @@
+{
+  "recorded_at": "2026-10-05T03:25:30.621477+00:00",
+  "poem_ids": [
+    808,
+    811,
+    813,
+    816,
+    817
+  ],
+  "variants_read": 10,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 808,
+      "target": "or",
+      "reason": "Retain the repeated soil question, explicit paternal grandfather, maternal ancestors and final Mother Earth recognition. HTML apostrophe was correctly interpreted in translation; original remains untouched.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserves source scene, cultural references, sequence and ending.",
+      "full_source_target_read": true,
+      "reading_evidence": "Complete original and target read; checked the human situation, agency, imagery, register, recurrence and closing turn.",
+      "source_sha256": "98f4f6440166cbaa5b89671d5f35d948933848234b37d2dcc5639f791d092e88",
+      "before_sha256": "a70cb1faf3aa828bf4bb8411e87632d80e8b41dcabe405eff9c744db7c724e6a",
+      "after_sha256": "a70cb1faf3aa828bf4bb8411e87632d80e8b41dcabe405eff9c744db7c724e6a",
+      "prior_uncertainties": [
+        {
+          "note": "Literal HTML apostrophe entity in source interpreted as apostrophe for translation only. No source correction. Hindi feminine narrator follows the autobiographical author context; editorial confirmation pending.",
+          "record": "kb/production/translations/batch-002/review.json"
+        }
+      ],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 808,
+      "target": "hi",
+      "reason": "Retain the repeated questions and rootedness across places; a global gender rewrite would require a speaker decision or a more invasive recast.",
+      "open_questions": [
+        "जहाँ मैं बड़ी हुई makes a feminine speaker choice; the English does not establish this. Author identity is insufficient confirmation."
+      ],
+      "finding_dispositions": {
+        "PNR-010": "source_query_held"
+      },
+      "tradeoff": "Preserves source scene, cultural references, sequence and ending.",
+      "full_source_target_read": true,
+      "reading_evidence": "Complete original and target read; checked the human situation, agency, imagery, register, recurrence and closing turn.",
+      "source_sha256": "98f4f6440166cbaa5b89671d5f35d948933848234b37d2dcc5639f791d092e88",
+      "before_sha256": "99023535dd371bba1104549a7097ee0461acdb641a72e77e436121fc35245e50",
+      "after_sha256": "99023535dd371bba1104549a7097ee0461acdb641a72e77e436121fc35245e50",
+      "prior_uncertainties": [
+        {
+          "note": "Literal HTML apostrophe entity in source interpreted as apostrophe for translation only. No source correction. Hindi feminine narrator follows the autobiographical author context; editorial confirmation pending.",
+          "record": "kb/production/translations/batch-002/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 811,
+      "target": "or",
+      "reason": "Restore the source’s hunter occupation instead of adding Jara’s community identity. The expansive devotional imagery is present in the source and is retained.",
+      "open_questions": [],
+      "finding_dispositions": {
+        "PNR-011": "fixed_in_local_draft"
+      },
+      "tradeoff": "Preserves source scene, cultural references, sequence and ending.",
+      "full_source_target_read": true,
+      "reading_evidence": "Complete original and target read; checked the human situation, agency, imagery, register, recurrence and closing turn.",
+      "source_sha256": "654f7554cc9ae9f416b540810c490190a7d7f512ec22e28dd67e11756fa6e72b",
+      "before_sha256": "298b75382e6718e414762f9d9d943a0b48c306400835af6c4ba4325abfa4861e",
+      "after_sha256": "787eac6f6171e758448d7b3f38096731aa5967e5bb1cdbceaa4aecb429c90b17",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 811,
+      "target": "hi",
+      "reason": "व्याध already identifies the hunter without the extra community identity. Retain the blue/Krishna imagery and the source’s deliberately expansive devotional voice.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserves source scene, cultural references, sequence and ending.",
+      "full_source_target_read": true,
+      "reading_evidence": "Complete original and target read; checked the human situation, agency, imagery, register, recurrence and closing turn.",
+      "source_sha256": "654f7554cc9ae9f416b540810c490190a7d7f512ec22e28dd67e11756fa6e72b",
+      "before_sha256": "2d7b2591855ddb48f665fad291c482e1c107c2a8448df344ec84a7d17f57f158",
+      "after_sha256": "2d7b2591855ddb48f665fad291c482e1c107c2a8448df344ec84a7d17f57f158",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 813,
+      "target": "or",
+      "reason": "Use damp-weather mould rather than mushrooms, preserving the earthy smell image and the source’s irregular compressed movement.",
+      "open_questions": [
+        "The native register of the lichen term remains provisional.",
+        "Footsteps of buried and beneath is compressed and uncertain in the English; preserve the query rather than invent a scene."
+      ],
+      "finding_dispositions": {
+        "PNR-012": "fixed_in_local_draft"
+      },
+      "tradeoff": "Preserves source scene, cultural references, sequence and ending.",
+      "full_source_target_read": true,
+      "reading_evidence": "Complete original and target read; checked the human situation, agency, imagery, register, recurrence and closing turn.",
+      "source_sha256": "36dc0498bdc6985097d86c922c301e28f8fe42b887e43b0e859a9fabd1a0916a",
+      "before_sha256": "a5c8d69982606e631a77fb5ae83a7806cb3a12fd309f0e3bcec96dbc37ad3286",
+      "after_sha256": "d2ac26a6f807070a71fed4211872cad620dd3c126e634bc896b44a13eb5a3eef",
+      "prior_uncertainties": [
+        {
+          "note": "Source has compressed or irregular syntax. Rendered buried/beneath footsteps and centre holding fragments without inventing a concrete scene. Mold/lichen terminology needs native review.",
+          "record": "kb/production/translations/batch-002/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 813,
+      "target": "hi",
+      "reason": "Retain the mould/lichen pairing and the fragments held by the centre; do not normalise the source’s buried-footsteps image into a new concrete scene.",
+      "open_questions": [
+        "Footsteps of buried and beneath remains semantically compressed; पगचिह्न is a provisional image choice."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserves source scene, cultural references, sequence and ending.",
+      "full_source_target_read": true,
+      "reading_evidence": "Complete original and target read; checked the human situation, agency, imagery, register, recurrence and closing turn.",
+      "source_sha256": "36dc0498bdc6985097d86c922c301e28f8fe42b887e43b0e859a9fabd1a0916a",
+      "before_sha256": "d69a54b96754d21269046babab3e465987ae95ba76690f7b35110856586c48cd",
+      "after_sha256": "d69a54b96754d21269046babab3e465987ae95ba76690f7b35110856586c48cd",
+      "prior_uncertainties": [
+        {
+          "note": "Source has compressed or irregular syntax. Rendered buried/beneath footsteps and centre holding fragments without inventing a concrete scene. Mold/lichen terminology needs native review.",
+          "record": "kb/production/translations/batch-002/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 816,
+      "target": "or",
+      "reason": "Retain the gift of place, old souls, healing and the cultivation/wildness contrast. The grounded-farm expression needs interpretation rather than a confident substitute.",
+      "open_questions": [
+        "Grounded farm may refer to emotional grounding as well as earth; ମାଟିସଂଲଗ୍ନ remains provisional."
+      ],
+      "finding_dispositions": {
+        "PNR-017": "source_query_held"
+      },
+      "tradeoff": "Preserves source scene, cultural references, sequence and ending.",
+      "full_source_target_read": true,
+      "reading_evidence": "Complete original and target read; checked the human situation, agency, imagery, register, recurrence and closing turn.",
+      "source_sha256": "eca9a6730440a3b8decc7c7acc275a093dcee46166c6dfe09bd72cef05454293",
+      "before_sha256": "1b8c17c929c8ce45a2d218c899df0074dfb97e8c8d66a40cc2c538022dc78fd1",
+      "after_sha256": "1b8c17c929c8ce45a2d218c899df0074dfb97e8c8d66a40cc2c538022dc78fd1",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 816,
+      "target": "hi",
+      "reason": "Give the wild a natural noun phrase in the farm context while retaining the cultivation/wildness contrast.",
+      "open_questions": [
+        "Grounded farm may refer to emotional grounding; मिट्टी से जुड़े खेत remains provisional."
+      ],
+      "finding_dispositions": {
+        "PNR-018": "source_query_held",
+        "PNR-019": "fixed_in_local_draft"
+      },
+      "tradeoff": "Names the place’s wildness as a quality rather than an unspecified wild area; does not add a forest, species or new landscape.",
+      "full_source_target_read": true,
+      "reading_evidence": "Complete original and target read; checked the human situation, agency, imagery, register, recurrence and closing turn.",
+      "source_sha256": "eca9a6730440a3b8decc7c7acc275a093dcee46166c6dfe09bd72cef05454293",
+      "before_sha256": "582b275e2d987543a6ecc738b8f73ddbbe4b9a95746a49a1ce99701ab5fbf58e",
+      "after_sha256": "5fa6a4d87f903ed88d5d53abd7f5ff1913a90c6658854febfff1ff8af1db1e25",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 817,
+      "target": "or",
+      "reason": "Use the gender-neutral learner term for bright student. Preserve the quiet admiration, cricket metaphor, acceptance of distance and the morning still beginning.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "ଶିକ୍ଷାର୍ଥୀ is somewhat more formal than ଛାତ୍ରୀ, but avoids an unsupported gender choice without changing the school setting.",
+      "full_source_target_read": true,
+      "reading_evidence": "Complete original and target read; checked the human situation, agency, imagery, register, recurrence and closing turn.",
+      "source_sha256": "d128fcbee7aa3ad40dbed0c324dd97510c7bdfcdc687fe3cc9daa1b2827a3004",
+      "before_sha256": "b74f900f69763cfe5f4da1392c1e9f4ef834f9ee0b056fc2ce8e9e0eb36d9457",
+      "after_sha256": "a3935f571d01a7c383cca388be787567103d2de3f22c898265f69f470ad5bc22",
+      "prior_uncertainties": [
+        {
+          "note": "Cricket pitch/ball/boundary metaphor retained. Long second and third stanzas kept rather than introducing new stanza breaks. Hindi female addressee and male narrator are provisional, not inferred biography.",
+          "record": "kb/production/translations/batch-003/review.json"
+        }
+      ],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 817,
+      "target": "hi",
+      "reason": "Use दोस्तों for friends without specifying an exclusively female group. Preserve the long reflective movement and final present-tense memory.",
+      "open_questions": [
+        "Female addressee and male narrator remain provisional across the full Hindi poem; a bob haircut and author identity do not establish either."
+      ],
+      "finding_dispositions": {
+        "PNR-020": "partially_fixed_friends_gender; speaker_and_addressee_query_held"
+      },
+      "tradeoff": "Preserves source scene, cultural references, sequence and ending.",
+      "full_source_target_read": true,
+      "reading_evidence": "Complete original and target read; checked the human situation, agency, imagery, register, recurrence and closing turn.",
+      "source_sha256": "d128fcbee7aa3ad40dbed0c324dd97510c7bdfcdc687fe3cc9daa1b2827a3004",
+      "before_sha256": "6d343266bf835d638da3110b2f29369048eb9116b5b75f2b7b65117593acb1e9",
+      "after_sha256": "6ed7311c664199d431ea43e747ed28fab57fb7a33f0dd3c426171b23f0f15f70",
+      "prior_uncertainties": [
+        {
+          "note": "Cricket pitch/ball/boundary metaphor retained. Long second and third stanzas kept rather than introducing new stanza breaks. Hindi female addressee and male narrator are provisional, not inferred biography.",
+          "record": "kb/production/translations/batch-003/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

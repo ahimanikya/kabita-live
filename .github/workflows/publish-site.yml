@@ -55,8 +55,6 @@ jobs:
       - uses: actions/configure-pages@v5
         id: pages
       - run: npm ci
-      - run: npm test
-      - run: npm run test:rules
       - name: Build approved hosted preview
         if: inputs.hosting_mode == 'preview'
         run: npm run build
@@ -75,6 +73,8 @@ jobs:
         env:
           SITE_URL: ${{ steps.pages.outputs.origin }}
           SITE_BASE: ${{ steps.pages.outputs.base_path }}
+      - run: npm test
+      - run: npm run test:rules
       - uses: actions/upload-pages-artifact@v4
         with:
           path: projects/site/dist

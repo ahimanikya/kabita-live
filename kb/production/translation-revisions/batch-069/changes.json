@@ -1,0 +1,707 @@
+[
+  {
+    "poem_id": 515,
+    "target": "or",
+    "reading_evidence": "Read all six source/target stanzas: keepsake request, sixteen monsoons and shared youth, recurring request, doors/walls/courtyard/threshold creased with touch, warming/listening, trial challenge, spiritual memories/winter sun/monsoon drops and stored inheritance/pages replacing keepsake. Speaker/addressee changes checked against Hindi verbs.",
+    "reason": "Remove the unsupported narrowing of aahat to footsteps; retain the returning sound and domestic traces without identifying its source.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "8c3739f4673f5fd74ffe02669c0a854c2a55abc722d21ee5228afb44dd37a339",
+    "before_sha256": "9a5f640858f72136b23d90dbe8cf604e6000b40b7beb041e1ab4e066c94f2d17",
+    "after_sha256": "4fef206fbe364a8848ff686c60fbccebaef39db0d71641b2c55fb2756de4a8ef",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପାଖକୁ ଆସିବା ପାଇଁ ଟିକିଏ ଦୂରତା ଲୋଡ଼ା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ତୁମେ କହୁଛ, କିଛି ସ୍ମୃତିଚିହ୍ନ ଦେଇଯାଅ,",
+          "ତୁମ ବିନା ଏବେ କିଛି ଦିନ କାଟିବାକୁ ହେବ।",
+          "ଯେବେ ଆସିଥିଲି, ଷୋହଳ ଶ୍ରାବଣ ବିତିଥିଲା,",
+          "ତୁମ ସାଥିରେ ହିଁ ବିତିଗଲା ସାରା ଯୌବନ।"
+        ],
+        [
+          "ତଥାପି କହୁଛ, କିଛି ସ୍ମୃତିଚିହ୍ନ ଦେଇଯାଅ?"
+        ],
+        [
+          "ଏଇ ଦୁଆର କାନ୍ଥ, ଏଇ ଅଗଣା, ଏଇ ଏରୁଣ୍ଡି—",
+          "ସବୁଠି ଲାଗିରହିଛି ଆମ ସ୍ପର୍ଶର ଭାଙ୍ଗ।",
+          "ନିଜ କୋମଳ ହାତରେ ସେସବୁକୁ ଉଷୁମ କର,",
+          "କାନ ଦେଇ ଶୁଣ, ସେଇ ପାଦଶବ୍ଦ ଶୁଭିବ।"
+        ],
+        [
+          "ଚାହିଁଲେ ଏବେଠାରୁ ପରଖିବା ଆରମ୍ଭ କର,",
+          "ତଥାପି କହିବ, କିଛି ସ୍ମୃତିଚିହ୍ନ ଦେଇଯାଅ?"
+        ],
+        [
+          "ମୋତେ ବି ତୁମ ବିନା କିଛି ଦିନ କାଟିବାକୁ ହେବ,",
+          "ହେଲେ ମୋ ପାଖେ ଅଛି କେତେ ଆତ୍ମାର ସ୍ମୃତି।",
+          "ଶୀତର ନରମ ଖରା, ସେଇ ଶ୍ରାବଣର ବୁନ୍ଦା—",
+          "ସାଇତିଛି ସେଇ ସବୁ ମୁହୂର୍ତ୍ତର କାହାଣୀ।"
+        ],
+        [
+          "ତୁମେ ହିଁ ତ ମୋର ସାରା ଜୀବନ,",
+          "ମୋ ପାଖେ ଅଛି ସାଇତା ପୁରୁଣା ସମ୍ପଦ।",
+          "ସ୍ମୃତିର ସେଇ ସବୁ ପୃଷ୍ଠା ଓଲଟାଇବି,",
+          "ତେବେ କାହିଁକି ମାଗିବି, ମୋତେ କିଛି ସ୍ମୃତିଚିହ୍ନ ଦିଅ?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପାଖକୁ ଆସିବା ପାଇଁ ଟିକିଏ ଦୂରତା ଲୋଡ଼ା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ତୁମେ କହୁଛ, କିଛି ସ୍ମୃତିଚିହ୍ନ ଦେଇଯାଅ,",
+          "ତୁମ ବିନା ଏବେ କିଛି ଦିନ କାଟିବାକୁ ହେବ।",
+          "ଯେବେ ଆସିଥିଲି, ଷୋହଳ ଶ୍ରାବଣ ବିତିଥିଲା,",
+          "ତୁମ ସାଥିରେ ହିଁ ବିତିଗଲା ସାରା ଯୌବନ।"
+        ],
+        [
+          "ତଥାପି କହୁଛ, କିଛି ସ୍ମୃତିଚିହ୍ନ ଦେଇଯାଅ?"
+        ],
+        [
+          "ଏଇ ଦୁଆର କାନ୍ଥ, ଏଇ ଅଗଣା, ଏଇ ଏରୁଣ୍ଡି—",
+          "ସବୁଠି ଲାଗିରହିଛି ଆମ ସ୍ପର୍ଶର ଭାଙ୍ଗ।",
+          "ନିଜ କୋମଳ ହାତରେ ସେସବୁକୁ ଉଷୁମ କର,",
+          "କାନ ଦେଇ ଶୁଣ, ସେଇ ଶବ୍ଦ ଶୁଭିବ।"
+        ],
+        [
+          "ଚାହିଁଲେ ଏବେଠାରୁ ପରଖିବା ଆରମ୍ଭ କର,",
+          "ତଥାପି କହିବ, କିଛି ସ୍ମୃତିଚିହ୍ନ ଦେଇଯାଅ?"
+        ],
+        [
+          "ମୋତେ ବି ତୁମ ବିନା କିଛି ଦିନ କାଟିବାକୁ ହେବ,",
+          "ହେଲେ ମୋ ପାଖେ ଅଛି କେତେ ଆତ୍ମାର ସ୍ମୃତି।",
+          "ଶୀତର ନରମ ଖରା, ସେଇ ଶ୍ରାବଣର ବୁନ୍ଦା—",
+          "ସାଇତିଛି ସେଇ ସବୁ ମୁହୂର୍ତ୍ତର କାହାଣୀ।"
+        ],
+        [
+          "ତୁମେ ହିଁ ତ ମୋର ସାରା ଜୀବନ,",
+          "ମୋ ପାଖେ ଅଛି ସାଇତା ପୁରୁଣା ସମ୍ପଦ।",
+          "ସ୍ମୃତିର ସେଇ ସବୁ ପୃଷ୍ଠା ଓଲଟାଇବି,",
+          "ତେବେ କାହିଁକି ମାଗିବି, ମୋତେ କିଛି ସ୍ମୃତିଚିହ୍ନ ଦିଅ?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 515,
+    "target": "en",
+    "reading_evidence": "Read all six source/target stanzas: keepsake request, sixteen monsoons and shared youth, recurring request, doors/walls/courtyard/threshold creased with touch, warming/listening, trial challenge, spiritual memories/winter sun/monsoon drops and stored inheritance/pages replacing keepsake. Speaker/addressee changes checked against Hindi verbs.",
+    "reason": "Keep the sound unspecified rather than inventing footsteps; preserve the speaker’s challenge and final refusal to demand a keepsake.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "8c3739f4673f5fd74ffe02669c0a854c2a55abc722d21ee5228afb44dd37a339",
+    "before_sha256": "caac669f4b5fc8b5b2ae3d4480bf916449f2e0715a85312b72ba2b495a2e0b17",
+    "after_sha256": "aaa5c28479b13fe3890592942e124e4a476ab9cab5199541b09c0e5397bcc45b",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "A Little Distance Is Needed to Draw Close",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "You say, leave me some keepsake,",
+          "Without you I must spend a few days now.",
+          "When I came, sixteen monsoons had passed;",
+          "With you alone all my youth has passed."
+        ],
+        [
+          "And still you say, leave me some keepsake?"
+        ],
+        [
+          "These doors and walls, this courtyard, this threshold—",
+          "Everywhere they bear the creases of our touch.",
+          "With your gentle hands, warm them;",
+          "Listen closely: that same footfall will return."
+        ],
+        [
+          "If you wish, begin trying it this very moment.",
+          "Will you still say, leave me some keepsake?"
+        ],
+        [
+          "I too must spend a few days without you,",
+          "But I have so many memories of the soul:",
+          "Winter's mild sunlight, those monsoon drops—",
+          "I have gathered the story of all those moments."
+        ],
+        [
+          "You alone are my whole life;",
+          "I have an old inheritance, lovingly kept.",
+          "I shall turn all those pages of memory—",
+          "Why, then, should I ask you to leave me some keepsake?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "A Little Distance Is Needed to Draw Close",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "You say, leave me some keepsake,",
+          "Without you I must spend a few days now.",
+          "When I came, sixteen monsoons had passed;",
+          "With you alone all my youth has passed."
+        ],
+        [
+          "And still you say, leave me some keepsake?"
+        ],
+        [
+          "These doors and walls, this courtyard, this threshold—",
+          "Everywhere they bear the creases of our touch.",
+          "With your gentle hands, warm them;",
+          "Listen closely: that same sound will return."
+        ],
+        [
+          "If you wish, begin trying it this very moment.",
+          "Will you still say, leave me some keepsake?"
+        ],
+        [
+          "I too must spend a few days without you,",
+          "But I have so many memories of the soul:",
+          "Winter's mild sunlight, those monsoon drops—",
+          "I have gathered the story of all those moments."
+        ],
+        [
+          "You alone are my whole life;",
+          "I have an old inheritance, lovingly kept.",
+          "I shall turn all those pages of memory—",
+          "Why, then, should I ask you to leave me some keepsake?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 517,
+    "target": "hi",
+    "reading_evidence": "Full thirteen-couplet source and both targets read, with a separate untruncated reread of 517: question/answer light, opaque/daylight paradox, poise/repute, churning nectar and immortality, Deva/Asura carrying and four places, archetypal treasures, Chandra/Parijata/Airavata, Lakshmi/Meru/Vasuki, Shiva taking poison, Nandini/coalfields/granite and closing catalogue of love.",
+    "reason": "Correct feminine agreement with treasures and possessive placement; restore glory/glee belonging to me, your Lakshmi, rather than replacing the genitive with in-me. The obscure archetype relation remains held.",
+    "open_questions": [
+      "Agenda of the light, question pronouns, adamant attachment and archetypes/complements remain uncertain; no rewritten cosmology or resolved speaker assignment.",
+      "Meru, four tusks, all four places, Nandini/Lakshmi and granite remain source choices. Mythology/history is translated without fact correction or certification."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "1689837361fdc5d02b1ee72b7ff96ca7d21a7ecacd3d6b0295c41c6207166336",
+    "before_sha256": "841f0ffc3597c0516a7479b89deefde883237fba89e0243c62e15b99da08cf58",
+    "after_sha256": "460ac9f167a64431ae15a00ada8299c4c4414050c3eff3ea35e36d2e7257267e",
+    "prior_uncertainties": [
+      {
+        "note": "All thirteen couplets preserved. agenda of the light rendered as the purpose of light; unusual phrasing remains uncertain. Joined source words segmented for meaning only. Meru, four tusks, the four named places, Nandini and Lakshmi retained exactly in substance; mythology/history not fact-corrected or independently certified. Coalfields/granite comparison kept without replacing granite with diamond. Pronoun/adamant attachment and complements/archetypes passage need independent review.",
+        "record": "kb/production/translations/batch-067/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "मंथन—एक ग़ज़ल",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "फिर तुमने मुझसे पूछा, मैं इतनी उजली क्यों चमकती हूँ?",
+          "मैंने कहा, प्रिय, क्योंकि मैं तुम्हारे प्रकाश का प्रयोजन हूँ!"
+        ],
+        [
+          "फिर तुमने सोचा, मेरा प्रेम इतना आनंद कैसे हो सकता है!",
+          "मैंने शांत स्वर में कहा, क्योंकि प्रेम एक साथ अपारदर्शी है और निर्मल दिन का उजाला।"
+        ],
+        [
+          "तुम सोच में पड़े, “कोई कैसे, कोई कैसे",
+          "तुम्हारे ठहराव, तुम्हारी प्रतिष्ठा का प्रेमी हो सकता है!!”"
+        ],
+        [
+          "मैंने कहा, समुद्र मंथन अमृत, उस दिव्य सुधा को निकालने के लिए",
+          "किया गया था, जिसमें देवों और दानवों ने भाग लिया।"
+        ],
+        [
+          "रस्साकशी की उस चुनौती में सागर के तल से अमृत मथकर निकालना था,",
+          "अमरता और शोक-वियोग से परे अनंत जीवन पाना था।"
+        ],
+        [
+          "मध्यकालीन हिंदू धर्मचिंतन में यह कथा समाई है",
+          "कि दृढ़निश्चयी देव असुरों से अमृत दूर ले जा रहे थे।"
+        ],
+        [
+          "धरती पर चार स्थानों पर अमृत की बूँदें गिरीं—हरिद्वार, प्रयाग (प्रयागराज),",
+          "त्र्यंबक (नाशिक) और उज्जैन में, अपने दिव्य अधिकार से।"
+        ],
+        [
+          "समुद्र के मंथन में मनोहर निधियाँ, अपने धरती और स्वर्ग के",
+          "पूरक रूपों के आदिरूप, निकाले गए।"
+        ],
+        [
+          "सागर की गहराइयों से आए चंद्र, चाँद; सुगंधित पारिजात वृक्ष;",
+          "चार दाँतों वाला हाथी ऐरावत, भगवान इंद्र का वाहन।"
+        ],
+        [
+          "मुझमें, तुम्हारी लक्ष्मी में, उस सारे गौरव और उल्लास के बीच तुमने हमारा भाग्य मथा,",
+          "मेरु पर्वत को मथानी और सर्पराज वासुकि को रस्सी बनाकर।"
+        ],
+        [
+          "तुम भगवान शिव बने, तुमने विष को निगलना चुना, उसे पी लिया।",
+          "मेरे ‘मंथन’ में तुमने मेरे लिए गौरव चुना और अपने लिए विष रखा।"
+        ],
+        [
+          "नंदिनी का अनुमान—प्रेम ने मुझे मथा, यह प्रेम मेरा ‘मंथन’ था।",
+          "प्रेम मुझे कोयला-खदानों के अँधेरे से बाहर लाया, ग्रेनाइट की तरह।"
+        ],
+        [
+          "मेरे प्रिय, प्रेम अंगारा है, प्रेम ग्रेनाइट, प्रेम धुँधला कंकड़, प्रेम—चमकता पत्थर।",
+          "प्रेम भक्ति, प्रेम त्याग, प्रेम विलय, प्रेम—हृदय की प्रार्थना।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "मंथन—एक ग़ज़ल",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "फिर तुमने मुझसे पूछा, मैं इतनी उजली क्यों चमकती हूँ?",
+          "मैंने कहा, प्रिय, क्योंकि मैं तुम्हारे प्रकाश का प्रयोजन हूँ!"
+        ],
+        [
+          "फिर तुमने सोचा, मेरा प्रेम इतना आनंद कैसे हो सकता है!",
+          "मैंने शांत स्वर में कहा, क्योंकि प्रेम एक साथ अपारदर्शी है और निर्मल दिन का उजाला।"
+        ],
+        [
+          "तुम सोच में पड़े, “कोई कैसे, कोई कैसे",
+          "तुम्हारे ठहराव, तुम्हारी प्रतिष्ठा का प्रेमी हो सकता है!!”"
+        ],
+        [
+          "मैंने कहा, समुद्र मंथन अमृत, उस दिव्य सुधा को निकालने के लिए",
+          "किया गया था, जिसमें देवों और दानवों ने भाग लिया।"
+        ],
+        [
+          "रस्साकशी की उस चुनौती में सागर के तल से अमृत मथकर निकालना था,",
+          "अमरता और शोक-वियोग से परे अनंत जीवन पाना था।"
+        ],
+        [
+          "मध्यकालीन हिंदू धर्मचिंतन में यह कथा समाई है",
+          "कि दृढ़निश्चयी देव असुरों से अमृत दूर ले जा रहे थे।"
+        ],
+        [
+          "धरती पर चार स्थानों पर अमृत की बूँदें गिरीं—हरिद्वार, प्रयाग (प्रयागराज),",
+          "त्र्यंबक (नाशिक) और उज्जैन में, अपने दिव्य अधिकार से।"
+        ],
+        [
+          "समुद्र के मंथन में मनोहर निधियाँ, धरती और स्वर्ग के अपने",
+          "पूरक रूपों के आदिरूप, निकाली गईं।"
+        ],
+        [
+          "सागर की गहराइयों से आए चंद्र, चाँद; सुगंधित पारिजात वृक्ष;",
+          "चार दाँतों वाला हाथी ऐरावत, भगवान इंद्र का वाहन।"
+        ],
+        [
+          "मेरे, तुम्हारी लक्ष्मी के, उस सारे गौरव और उल्लास के बीच तुमने हमारा भाग्य मथा,",
+          "मेरु पर्वत को मथानी और सर्पराज वासुकि को रस्सी बनाकर।"
+        ],
+        [
+          "तुम भगवान शिव बने, तुमने विष को निगलना चुना, उसे पी लिया।",
+          "मेरे ‘मंथन’ में तुमने मेरे लिए गौरव चुना और अपने लिए विष रखा।"
+        ],
+        [
+          "नंदिनी का अनुमान—प्रेम ने मुझे मथा, यह प्रेम मेरा ‘मंथन’ था।",
+          "प्रेम मुझे कोयला-खदानों के अँधेरे से बाहर लाया, ग्रेनाइट की तरह।"
+        ],
+        [
+          "मेरे प्रिय, प्रेम अंगारा है, प्रेम ग्रेनाइट, प्रेम धुँधला कंकड़, प्रेम—चमकता पत्थर।",
+          "प्रेम भक्ति, प्रेम त्याग, प्रेम विलय, प्रेम—हृदय की प्रार्थना।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 518,
+    "target": "or",
+    "reading_evidence": "Read complete 30-line source and both targets: Dharama midnight jump and recognition avoidance, pinnacle solution, mother/father contrast and twelve thousand craftsmen/twelve years, Socrates and questioning, dissatisfied Socrates/satisfied pig, Shiva/hemlock, uncompromising sacrifice for future, home/society/power and privileged forcing plural Dharmas/Socrates aside. Retained source title residue !<.",
+    "reason": "Put setting the pinnacle before the puzzle noun so the genitive is intelligible without backtracking.",
+    "open_questions": [
+      "Unusual title !< and source twelve-thousand/twelve-year legend details remain unchanged. These are source assertions, not independently certified history. Plural final names retain representative force, not newly identified people."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "40919e9a73d9300d679ef2106a771a41f6038e79f98e959e132bd008397905c1",
+    "before_sha256": "51656c6eedc63207a05d3015091ce4dd295d5f735f7c9dbabbd74d456fe81c09",
+    "after_sha256": "fb3492543d22aa766859e3986f2829d809265229d8369b4bc16a1b9ca8442c73",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପ୍ରହେଳିକା !<",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ସେ ଚାଲିଯିବାର ବହୁ ପରେ ବି ମୋତେ ଦ୍ୱନ୍ଦ୍ୱରେ ପକାଏ,",
+          "ଧର୍ମା, ସେଇ ଅସାଧାରଣ କିଶୋର,",
+          "ଯିଏ କୋଣାର୍କର କଳା ଦେଉଳରୁ ଡେଇଁପଡ଼ିଲା",
+          "ନିଶୂନ ରାତିରେ,",
+          "ଯେପରି ସକାଳ ହେଲେ କେହି ତା' ଆଡ଼କୁ ଆଙ୍ଗୁଠି ଦେଖାଇ",
+          "କହିପାରିବେ ନାହିଁ ଯେ ସେଇ ଥିଲା ଅସାଧାରଣ ପ୍ରତିଭା,",
+          "ଯିଏ ଶେଷରେ ସମାଧାନ କରିଥିଲା ସେଇ ପ୍ରହେଳିକା,",
+          "ମନ୍ଦିର ଶିଖର ବସାଇବାର।",
+          "ସେ ଥିଲା ବିସ୍ମୟ ବାଳକ,",
+          "(ମା'ର ଗେହ୍ଲା, ବାପାଙ୍କ ସ୍ନେହରୁ ବଞ୍ଚିତ)",
+          "ବାର ହଜାର ଶିଳ୍ପୀ ଓ କାରିଗରଙ୍କ ସୁନାମ ରଖିବାକୁ ଚେଷ୍ଟା କରିଥିଲା,",
+          "ଯେଉଁମାନେ ବାର ବର୍ଷ ଧରି ରକ୍ତ ଓ ଝାଳ ଦେଇଥିଲେ,",
+          "ନିଜ ଘରଦ୍ୱାର ଭୁଲି।",
+          "ସେଇ ଡିଆଁର ଶହ ଶହ ବର୍ଷ ପରେ ବି ସେ ମୋତେ ବ୍ୟଥିତ କରେ,",
+          "ଆଉ ଏକ ପ୍ରହେଳିକା, ସକ୍ରେଟିସ୍‌ଙ୍କ ପରି,",
+          "ତାଙ୍କର ଭୁଲ ଥିଲା ଜ୍ଞାନ ପଛରେ ପାଗଳ ହେବା,",
+          "ଯୁବକମାନଙ୍କୁ ଜ୍ଞାନ ପାଇଁ ପାଗଳ କରିବା,",
+          "ଆଖିରେ ପଡ଼ୁଥିବା ସବୁକୁ, ସତ୍ୟର ଅନ୍ୱେଷଣରେ ସବୁକୁ ପ୍ରଶ୍ନ କରିବା,",
+          "ସଦା ଅତୃପ୍ତ ସକ୍ରେଟିସ୍ ହୋଇ ରହିବା,",
+          "ତୃପ୍ତ କି ସୁଖରେ ସନ୍ତୁଷ୍ଟ ଘୁଷୁରି ନହେବା,",
+          "ବରଂ ଆମ ଆରାଧ୍ୟ ଶିବଙ୍କ ପରି ନାୟକ ହେବା,",
+          "ହେମଲକ୍ ବିଷକୁ ଶେଷ ବୁନ୍ଦାଯାଏ ପିଇଯିବା,",
+          "ନିଜ ଅନ୍ୱେଷଣକୁ ଜୀବନ୍ତ ରଖିବାକୁ, ଖୋଜିବାର ପଦ୍ଧତିକୁ ଯୁଗ ଯୁଗ ବଞ୍ଚାଇବାକୁ।",
+          "ସେମାନେ ପ୍ରହେଳିକା, କାରଣ ସାଲିସ କରିବା, ଉପରଠାଉରିଆ ଭାବେ ସବୁକୁ ମାନିନେବା ଜାଣିନଥିଲେ,",
+          "ତାଙ୍କ ବଳିଦାନ କେବଳ ସମକାଳ ପାଇଁ ନଥିଲା, ଥିଲା ଭବିଷ୍ୟତ ପାଇଁ।",
+          "ଘରଠାରୁ ସମାଜ, ସାରା ପୃଥିବୀର କ୍ଷମତାର ସମଗ୍ର ଜଗତଯାଏ,",
+          "ଆମେ କ'ଣ ଦେଖୁନାହୁଁ ରୂଢ଼ିବାଦ ଓ ଅହଂକାର,",
+          "ସ୍ଥିତାବସ୍ଥାର ସମର୍ଥକ, ସବୁକଥାରେ ନା କହୁଥିବା ଲୋକଙ୍କୁ,",
+          "ନିଜ ଆରାମ ଓ ବିଳାସରେ ବିଶେଷାଧିକାର ପାଇଥିବା ଲୋକଙ୍କୁ,",
+          "ଯେଉଁମାନେ ଧର୍ମା ଓ ସକ୍ରେଟିସ୍‌ମାନଙ୍କୁ ନିଜ ପାଇଁ ବାଟ ଛାଡ଼ିଦେବାକୁ ବାଧ୍ୟ କରନ୍ତି!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ପ୍ରହେଳିକା !<",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ସେ ଚାଲିଯିବାର ବହୁ ପରେ ବି ମୋତେ ଦ୍ୱନ୍ଦ୍ୱରେ ପକାଏ,",
+          "ଧର୍ମା, ସେଇ ଅସାଧାରଣ କିଶୋର,",
+          "ଯିଏ କୋଣାର୍କର କଳା ଦେଉଳରୁ ଡେଇଁପଡ଼ିଲା",
+          "ନିଶୂନ ରାତିରେ,",
+          "ଯେପରି ସକାଳ ହେଲେ କେହି ତା' ଆଡ଼କୁ ଆଙ୍ଗୁଠି ଦେଖାଇ",
+          "କହିପାରିବେ ନାହିଁ ଯେ ସେଇ ଥିଲା ଅସାଧାରଣ ପ୍ରତିଭା,",
+          "ଯିଏ ଶେଷରେ ମନ୍ଦିର ଶିଖର ବସାଇବାର",
+          "ସେଇ ପ୍ରହେଳିକା ସମାଧାନ କରିଥିଲା।",
+          "ସେ ଥିଲା ବିସ୍ମୟ ବାଳକ,",
+          "(ମା'ର ଗେହ୍ଲା, ବାପାଙ୍କ ସ୍ନେହରୁ ବଞ୍ଚିତ)",
+          "ବାର ହଜାର ଶିଳ୍ପୀ ଓ କାରିଗରଙ୍କ ସୁନାମ ରଖିବାକୁ ଚେଷ୍ଟା କରିଥିଲା,",
+          "ଯେଉଁମାନେ ବାର ବର୍ଷ ଧରି ରକ୍ତ ଓ ଝାଳ ଦେଇଥିଲେ,",
+          "ନିଜ ଘରଦ୍ୱାର ଭୁଲି।",
+          "ସେଇ ଡିଆଁର ଶହ ଶହ ବର୍ଷ ପରେ ବି ସେ ମୋତେ ବ୍ୟଥିତ କରେ,",
+          "ଆଉ ଏକ ପ୍ରହେଳିକା, ସକ୍ରେଟିସ୍‌ଙ୍କ ପରି,",
+          "ତାଙ୍କର ଭୁଲ ଥିଲା ଜ୍ଞାନ ପଛରେ ପାଗଳ ହେବା,",
+          "ଯୁବକମାନଙ୍କୁ ଜ୍ଞାନ ପାଇଁ ପାଗଳ କରିବା,",
+          "ଆଖିରେ ପଡ଼ୁଥିବା ସବୁକୁ, ସତ୍ୟର ଅନ୍ୱେଷଣରେ ସବୁକୁ ପ୍ରଶ୍ନ କରିବା,",
+          "ସଦା ଅତୃପ୍ତ ସକ୍ରେଟିସ୍ ହୋଇ ରହିବା,",
+          "ତୃପ୍ତ କି ସୁଖରେ ସନ୍ତୁଷ୍ଟ ଘୁଷୁରି ନହେବା,",
+          "ବରଂ ଆମ ଆରାଧ୍ୟ ଶିବଙ୍କ ପରି ନାୟକ ହେବା,",
+          "ହେମଲକ୍ ବିଷକୁ ଶେଷ ବୁନ୍ଦାଯାଏ ପିଇଯିବା,",
+          "ନିଜ ଅନ୍ୱେଷଣକୁ ଜୀବନ୍ତ ରଖିବାକୁ, ଖୋଜିବାର ପଦ୍ଧତିକୁ ଯୁଗ ଯୁଗ ବଞ୍ଚାଇବାକୁ।",
+          "ସେମାନେ ପ୍ରହେଳିକା, କାରଣ ସାଲିସ କରିବା, ଉପରଠାଉରିଆ ଭାବେ ସବୁକୁ ମାନିନେବା ଜାଣିନଥିଲେ,",
+          "ତାଙ୍କ ବଳିଦାନ କେବଳ ସମକାଳ ପାଇଁ ନଥିଲା, ଥିଲା ଭବିଷ୍ୟତ ପାଇଁ।",
+          "ଘରଠାରୁ ସମାଜ, ସାରା ପୃଥିବୀର କ୍ଷମତାର ସମଗ୍ର ଜଗତଯାଏ,",
+          "ଆମେ କ'ଣ ଦେଖୁନାହୁଁ ରୂଢ଼ିବାଦ ଓ ଅହଂକାର,",
+          "ସ୍ଥିତାବସ୍ଥାର ସମର୍ଥକ, ସବୁକଥାରେ ନା କହୁଥିବା ଲୋକଙ୍କୁ,",
+          "ନିଜ ଆରାମ ଓ ବିଳାସରେ ବିଶେଷାଧିକାର ପାଇଥିବା ଲୋକଙ୍କୁ,",
+          "ଯେଉଁମାନେ ଧର୍ମା ଓ ସକ୍ରେଟିସ୍‌ମାନଙ୍କୁ ନିଜ ପାଇଁ ବାଟ ଛାଡ଼ିଦେବାକୁ ବାଧ୍ୟ କରନ୍ତି!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 518,
+    "target": "hi",
+    "reading_evidence": "Read complete 30-line source and both targets: Dharama midnight jump and recognition avoidance, pinnacle solution, mother/father contrast and twelve thousand craftsmen/twelve years, Socrates and questioning, dissatisfied Socrates/satisfied pig, Shiva/hemlock, uncompromising sacrifice for future, home/society/power and privileged forcing plural Dharmas/Socrates aside. Retained source title residue !<.",
+    "reason": "Restore the identifying gesture supported by certify/prodigy rather than the accusation idiom; attach pinnacle-setting to puzzle in normal Hindi order.",
+    "open_questions": [
+      "Unusual title !< and source twelve-thousand/twelve-year legend details remain unchanged. These are source assertions, not independently certified history. Plural final names retain representative force, not newly identified people."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "40919e9a73d9300d679ef2106a771a41f6038e79f98e959e132bd008397905c1",
+    "before_sha256": "c50d07259d9311ef71c352bb60944f6445afb2b14cdc4f0c3adce9880f718555",
+    "after_sha256": "099b18f6f8c27a7084ac9a463c54a43886af8b4478456d05cea42961afe3e76d",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "पहेलियाँ !<",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "उसके चले जाने के बहुत बाद भी वह मुझे उलझाता है,",
+          "धर्मा, वह असाधारण किशोर,",
+          "जो कोणार्क, काले देवालय से कूद पड़ा",
+          "आधी रात के सन्नाटे में,",
+          "ताकि दिन निकलने पर कोई उसकी ओर उँगली न उठा सके",
+          "और यह न कह सके कि वही विलक्षण बालक था,",
+          "जिसने आख़िरकार पहेली सुलझाई थी,",
+          "शिखर को स्थापित करने की।",
+          "वह अद्भुत बालक था,",
+          "(माँ का दुलारा, पिता के प्यार से वंचित)",
+          "जिसने बारह हज़ार शिल्पियों और कारीगरों की प्रतिष्ठा बचाने की कोशिश की,",
+          "जिन्होंने बारह वर्षों तक अपना ख़ून-पसीना दिया था,",
+          "अपने घर-चूल्हे भुलाकर।",
+          "उस छलाँग के सैकड़ों साल बाद भी वह मुझे बेचैन करता है,",
+          "एक और पहेली, सुकरात की तरह,",
+          "जिसकी भूल यह थी कि वह ज्ञान का दीवाना था,",
+          "उसने युवाओं को ज्ञान का दीवाना बनाया,",
+          "नज़र में आने वाली हर चीज़ पर, सत्य की खोज में हर बात पर सवाल उठाना सिखाया,",
+          "सदा अतृप्त सुकरात बने रहना,",
+          "कोई तृप्त या सुखपूर्वक संतुष्ट सूअर नहीं,",
+          "बल्कि हमारे आराध्य शिव जैसा नायक,",
+          "हेमलॉक का विष आख़िरी घूँट तक पी जाना,",
+          "ताकि उसकी खोज जीवित रहे और खोज की विधि युगों तक बनी रहे।",
+          "वे पहेलियाँ हैं क्योंकि वे समझौते करना, चीज़ों को ऊपरी रूप में स्वीकारना नहीं जानते थे,",
+          "उनका बलिदान केवल समकालीनों के लिए नहीं, भविष्य के लिए था।",
+          "घर से समाज तक, दुनिया भर में सत्ता के समूचे संसार तक,",
+          "क्या हमें रूढ़ियाँ और अहंकार दिखाई नहीं देते,",
+          "यथास्थिति के समर्थक, हर बात को नकारने वाले,",
+          "अपनी सुविधाओं और विलासिता में विशेषाधिकार पाए हुए,",
+          "जो धर्माओं और सुकरातों को अपने लिए रास्ता छोड़ने को विवश करते हैं!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "पहेलियाँ !<",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "उसके चले जाने के बहुत बाद भी वह मुझे उलझाता है,",
+          "धर्मा, वह असाधारण किशोर,",
+          "जो कोणार्क, काले देवालय से कूद पड़ा",
+          "आधी रात के सन्नाटे में,",
+          "ताकि दिन निकलने पर कोई उसकी ओर इशारा न कर सके",
+          "और यह न कह सके कि वही विलक्षण बालक था,",
+          "जिसने आख़िरकार शिखर को स्थापित करने की",
+          "पहेली सुलझाई थी।",
+          "वह अद्भुत बालक था,",
+          "(माँ का दुलारा, पिता के प्यार से वंचित)",
+          "जिसने बारह हज़ार शिल्पियों और कारीगरों की प्रतिष्ठा बचाने की कोशिश की,",
+          "जिन्होंने बारह वर्षों तक अपना ख़ून-पसीना दिया था,",
+          "अपने घर-चूल्हे भुलाकर।",
+          "उस छलाँग के सैकड़ों साल बाद भी वह मुझे बेचैन करता है,",
+          "एक और पहेली, सुकरात की तरह,",
+          "जिसकी भूल यह थी कि वह ज्ञान का दीवाना था,",
+          "उसने युवाओं को ज्ञान का दीवाना बनाया,",
+          "नज़र में आने वाली हर चीज़ पर, सत्य की खोज में हर बात पर सवाल उठाना सिखाया,",
+          "सदा अतृप्त सुकरात बने रहना,",
+          "कोई तृप्त या सुखपूर्वक संतुष्ट सूअर नहीं,",
+          "बल्कि हमारे आराध्य शिव जैसा नायक,",
+          "हेमलॉक का विष आख़िरी घूँट तक पी जाना,",
+          "ताकि उसकी खोज जीवित रहे और खोज की विधि युगों तक बनी रहे।",
+          "वे पहेलियाँ हैं क्योंकि वे समझौते करना, चीज़ों को ऊपरी रूप में स्वीकारना नहीं जानते थे,",
+          "उनका बलिदान केवल समकालीनों के लिए नहीं, भविष्य के लिए था।",
+          "घर से समाज तक, दुनिया भर में सत्ता के समूचे संसार तक,",
+          "क्या हमें रूढ़ियाँ और अहंकार दिखाई नहीं देते,",
+          "यथास्थिति के समर्थक, हर बात को नकारने वाले,",
+          "अपनी सुविधाओं और विलासिता में विशेषाधिकार पाए हुए,",
+          "जो धर्माओं और सुकरातों को अपने लिए रास्ता छोड़ने को विवश करते हैं!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 519,
+    "target": "hi",
+    "reading_evidence": "Read all eight source/target stanzas: writing without duty, invisible poet/grass/brook, mature word as mountain and lifesize image, grazing/bleating/frogs/consciousness-stream, water-word-meditation depth, self-distance/leaf wings/sky limit, hives/ants/lesser-God children, flower-opening eyes and child/tree/body/ocean/sand-temple/traces, find/write/be poem close. Imperatives remain literary content.",
+    "reason": "Replace the English-shaped life-size compound with ordinary Hindi for an image at the object’s own size; retain the concrete image rather than interpreting it as lifelike realism.",
+    "open_questions": [
+      "Children of the lesser God retains the difficult source metaphor; marginalisation and dignity need independent fluent review without importing a named religion or a biographical category."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve full source, images, stanza/line counts, repetitions and credits. Same-assistant self-review; all targets draft with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "43c0568a2cb67e400d1df2c40b267ae77b9b4830a3b28dbd0f8b4f14a22838ce",
+    "before_sha256": "7a73b8185e7e687d1460af0e29f3050af87eacf4827bbd6f962ea1a851d10658",
+    "after_sha256": "713def1d4a508a28c3770895abb5bb6ba754db18014122a8e857b71e373b93f2",
+    "prior_uncertainties": [
+      {
+        "note": "All eight stanzas and line counts retained. Imperatives are poem content, not workflow instructions. Grazing/bleating, beehives, water/word/meditation depth and sand-temple destruction imagery preserved. children of the lesser God kept as a deliberately difficult metaphor; native-language review should assess dignity, idiom and the sense of marginalization without replacing it with a named religion.",
+        "record": "kb/production/translations/batch-067/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "स्वयं कविता बनो",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "कविता लिखना कोई गृहकार्य नहीं,",
+          "और कोई लिखने को कर्तव्य से बँधा नहीं।",
+          "आकाश एक कविता है,",
+          "समुद्र एक कविता है,",
+          "कवि एक अदृश्य सत्ता है,",
+          "जो लिखे बिना कविता लिखता है,",
+          "जिस तरह घास का एक तिनका अंकुराता है,",
+          "जिस तरह कलकल करता झरना बहता है।"
+        ],
+        [
+          "एक परिपक्व शब्द खड़ा करो और उसे पर्वत नाम दो,",
+          "कविता किसी वस्तु की जीवन-आकार छवि है।",
+          "उस उचित क्षण की प्रतीक्षा करो जब कविता",
+          "हृदय की सुनसान गली में आए।"
+        ],
+        [
+          "कविता सारी घास और खरपतवार चर जाती है,",
+          "देखो, कान मिमियाने की आवाज़ के प्रति सजग रहें।",
+          "विचलित मत हो,",
+          "कविता में मेंढक टर्राते ही हैं जब आकाश वर्षा के बादलों से भर जाता है।",
+          "कविता चेतना की धारा है जो शब्दों, पानी, काग़ज़ की नावों की तरह बहती है",
+          "और मछलियों की तरह तैरती है।"
+        ],
+        [
+          "कविता जल जितनी गहरी है,",
+          "कविता शब्द जितनी गहरी है,",
+          "कविता ध्यान जितनी गहरी है,",
+          "तन, मन और आत्मा एक हो जाते हैं।"
+        ],
+        [
+          "बस कुछ देर के लिए ही सही, अपने आप से दूर चले जाओ,",
+          "टहलो, पेड़ से बात करो, पत्तों को अपने पंख बनाओ और उड़ो,",
+          "आकाश ही सीमा है।"
+        ],
+        [
+          "मधुमक्खियों के छत्ते और चींटियाँ कविता रचते हैं,",
+          "विशाल पेड़, गगनचुंबी इमारतें नहीं,",
+          "कविता सदा कमतर ईश्वर की संतानों के साथ है।"
+        ],
+        [
+          "अपनी आँखें खोलो जैसे फूल अपनी पंखुड़ियाँ खोलता है,",
+          "एक नवजात शिशु से बात करो,",
+          "एक बूढ़े बीमार पेड़ से बात करो,",
+          "एक मृत देह से बात करो,",
+          "स्वयं सागर बनो,",
+          "अपनी ज्वारीय लहरें रचो,",
+          "अपने किनारे बनाओ,",
+          "रेत का मंदिर बनाओ और ढहा दो,",
+          "अपने पाँवों से अपने निशान बनाओ और मिटा दो।"
+        ],
+        [
+          "बीच-बीच में कोई कविता खोजो,",
+          "बीच-बीच में कोई कविता लिखो,",
+          "और यदि खोज न पाओ,",
+          "तो स्वयं कविता बनो।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "स्वयं कविता बनो",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "कविता लिखना कोई गृहकार्य नहीं,",
+          "और कोई लिखने को कर्तव्य से बँधा नहीं।",
+          "आकाश एक कविता है,",
+          "समुद्र एक कविता है,",
+          "कवि एक अदृश्य सत्ता है,",
+          "जो लिखे बिना कविता लिखता है,",
+          "जिस तरह घास का एक तिनका अंकुराता है,",
+          "जिस तरह कलकल करता झरना बहता है।"
+        ],
+        [
+          "एक परिपक्व शब्द खड़ा करो और उसे पर्वत नाम दो,",
+          "कविता किसी वस्तु की उसी के आकार की छवि है।",
+          "उस उचित क्षण की प्रतीक्षा करो जब कविता",
+          "हृदय की सुनसान गली में आए।"
+        ],
+        [
+          "कविता सारी घास और खरपतवार चर जाती है,",
+          "देखो, कान मिमियाने की आवाज़ के प्रति सजग रहें।",
+          "विचलित मत हो,",
+          "कविता में मेंढक टर्राते ही हैं जब आकाश वर्षा के बादलों से भर जाता है।",
+          "कविता चेतना की धारा है जो शब्दों, पानी, काग़ज़ की नावों की तरह बहती है",
+          "और मछलियों की तरह तैरती है।"
+        ],
+        [
+          "कविता जल जितनी गहरी है,",
+          "कविता शब्द जितनी गहरी है,",
+          "कविता ध्यान जितनी गहरी है,",
+          "तन, मन और आत्मा एक हो जाते हैं।"
+        ],
+        [
+          "बस कुछ देर के लिए ही सही, अपने आप से दूर चले जाओ,",
+          "टहलो, पेड़ से बात करो, पत्तों को अपने पंख बनाओ और उड़ो,",
+          "आकाश ही सीमा है।"
+        ],
+        [
+          "मधुमक्खियों के छत्ते और चींटियाँ कविता रचते हैं,",
+          "विशाल पेड़, गगनचुंबी इमारतें नहीं,",
+          "कविता सदा कमतर ईश्वर की संतानों के साथ है।"
+        ],
+        [
+          "अपनी आँखें खोलो जैसे फूल अपनी पंखुड़ियाँ खोलता है,",
+          "एक नवजात शिशु से बात करो,",
+          "एक बूढ़े बीमार पेड़ से बात करो,",
+          "एक मृत देह से बात करो,",
+          "स्वयं सागर बनो,",
+          "अपनी ज्वारीय लहरें रचो,",
+          "अपने किनारे बनाओ,",
+          "रेत का मंदिर बनाओ और ढहा दो,",
+          "अपने पाँवों से अपने निशान बनाओ और मिटा दो।"
+        ],
+        [
+          "बीच-बीच में कोई कविता खोजो,",
+          "बीच-बीच में कोई कविता लिखो,",
+          "और यदि खोज न पाओ,",
+          "तो स्वयं कविता बनो।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

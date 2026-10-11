@@ -1,0 +1,960 @@
+[
+  {
+    "poem_id": 244,
+    "target": "or",
+    "reading_evidence": "Read full25-line source and both targets in five blocks5/5/7/3/5: repeated anger-go-away address, hatred house/eye fear/not sacred, diagnosis/problem versus solution and mental pollution, rude interpreter/mind destroyer/cigar-scar/war, misleading and repeated straying/fires/no apology to prey, no permission/loss of control/no limit/deviousness and retirement demand. Checked permission possessor versus recipient and retained the reprimanding voice.",
+    "open_questions": [
+      "Cant be diagnosed with a problem is unusual source wording; current close diagnosis relation remains provisional, not silently repaired into a clinical claim."
+    ],
+    "reason": "Correct permission agency: anger needs no permission, rather than nobody needing angers permission. Preserve the direct informal address.",
+    "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "bc32fc84ae0970c6973eea24eb6f5332aa1a98ac9eb8edbac521d202be61243d",
+    "before_sha256": "2ed6b343c69d059659ee1bb557a09edb1a22b581ac5715e09fb3686bb3ef190c",
+    "after_sha256": "31cd28c019b9166a50fdd0295d7ef19b2808f1f776ce18f528989338ff403c5a",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "କ୍ରୋଧ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "କ୍ରୋଧ, କ୍ରୋଧ, ଦୂରେ ଚାଲିଯା",
+          "ତୁ ନିଜ ଢଙ୍ଗରେ ଜଳୁ",
+          "ତୁ ଘୃଣାର ଘରେ ରହୁ",
+          "ପ୍ରତି ଆଖିରେ ମୁଁ ଭୟ ଦେଖେ",
+          "ତୁ ପବିତ୍ର ନୁହେଁ"
+        ],
+        [
+          "ତୋ ପାଖେ କୌଣସି ସମସ୍ୟାର",
+          "ନିଦାନ ହୋଇପାରେନା",
+          "ତୁ ସମାଧାନ ନୁହେଁ",
+          "ପ୍ରକୃତରେ ତୁ କାରଣ",
+          "ମନର ସବୁ ପ୍ରଦୂଷଣର"
+        ],
+        [
+          "ତୁ ଅଶିଷ୍ଟ ବ୍ୟାଖ୍ୟାକାର",
+          "ତୁ ମନର ବିନାଶକ",
+          "ତୁ ଜଳନ୍ତା ସିଗାର",
+          "ଯିଏ ସୌନ୍ଦର୍ଯ୍ୟ ନଷ୍ଟ କରେ",
+          "ପଛରେ ଦାଗ ଛାଡ଼ିଯାଏ",
+          "ତୁ ବେଳେବେଳେ କାରଣ ହେଉ",
+          "ଯୁଦ୍ଧ ପରି ବିନାଶକାରୀ ପରିଣାମର"
+        ],
+        [
+          "ତୁ ବାଟବଣା କରୁ ଆଉ ବାଟବଣା ହେଉଥାଉ",
+          "ତୁ ନିଆଁ ଉପରେ ନିଆଁ ଲଗାଉ",
+          "ନିଜ ଶିକାରକୁ କେବେ କ୍ଷମା ମାଗୁନାହିଁ"
+        ],
+        [
+          "ହେ କ୍ରୋଧ, ତୋର ଅନୁମତି ଲୋଡ଼ା ନାହିଁ",
+          "ଯେବେ ତୁ ଆୟତ୍ତ ବାହାରକୁ ଯାଉ",
+          "କୌଣସି ସୀମା ରହେନା",
+          "ତୁ ଏତେ କୁଟିଳ",
+          "ଏବେ ଅବସର ନେଇ ବିଦାୟ ନେ!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "କ୍ରୋଧ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "କ୍ରୋଧ, କ୍ରୋଧ, ଦୂରେ ଚାଲିଯା",
+          "ତୁ ନିଜ ଢଙ୍ଗରେ ଜଳୁ",
+          "ତୁ ଘୃଣାର ଘରେ ରହୁ",
+          "ପ୍ରତି ଆଖିରେ ମୁଁ ଭୟ ଦେଖେ",
+          "ତୁ ପବିତ୍ର ନୁହେଁ"
+        ],
+        [
+          "ତୋ ପାଖେ କୌଣସି ସମସ୍ୟାର",
+          "ନିଦାନ ହୋଇପାରେନା",
+          "ତୁ ସମାଧାନ ନୁହେଁ",
+          "ପ୍ରକୃତରେ ତୁ କାରଣ",
+          "ମନର ସବୁ ପ୍ରଦୂଷଣର"
+        ],
+        [
+          "ତୁ ଅଶିଷ୍ଟ ବ୍ୟାଖ୍ୟାକାର",
+          "ତୁ ମନର ବିନାଶକ",
+          "ତୁ ଜଳନ୍ତା ସିଗାର",
+          "ଯିଏ ସୌନ୍ଦର୍ଯ୍ୟ ନଷ୍ଟ କରେ",
+          "ପଛରେ ଦାଗ ଛାଡ଼ିଯାଏ",
+          "ତୁ ବେଳେବେଳେ କାରଣ ହେଉ",
+          "ଯୁଦ୍ଧ ପରି ବିନାଶକାରୀ ପରିଣାମର"
+        ],
+        [
+          "ତୁ ବାଟବଣା କରୁ ଆଉ ବାଟବଣା ହେଉଥାଉ",
+          "ତୁ ନିଆଁ ଉପରେ ନିଆଁ ଲଗାଉ",
+          "ନିଜ ଶିକାରକୁ କେବେ କ୍ଷମା ମାଗୁନାହିଁ"
+        ],
+        [
+          "ହେ କ୍ରୋଧ, ତୋତେ ଅନୁମତି ଲୋଡ଼ା ନାହିଁ",
+          "ଯେବେ ତୁ ଆୟତ୍ତ ବାହାରକୁ ଯାଉ",
+          "କୌଣସି ସୀମା ରହେନା",
+          "ତୁ ଏତେ କୁଟିଳ",
+          "ଏବେ ଅବସର ନେଇ ବିଦାୟ ନେ!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 245,
+    "target": "or",
+    "reading_evidence": "Read all20 source lines and both full targets: beloved/poetry marvel written by moving finger on soft golden Lei-Yang paper, Byzantine sailor anchored to black obsidian while gazing at fantasy coastline, felt import of essence/grace, plump-word texture resisting scrutiny, delicate/fragile sheen threatened by one analytic pen stroke. Kept actual named references and the admiring-to-questioning turn without explaining allusions.",
+    "open_questions": [
+      "Lei-Yang/Byzantine/obsidian and moving-finger images are retained as source literary references, not asserted historical facts or reassigned identities."
+    ],
+    "reason": "Naturalise the fantasy-coastline genitive and restore helps-me-appreciate rather than introduced teaching. Keep the single analytic-pen stroke and all20lines.",
+    "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 20,
+      "before_lines": [],
+      "inline_breaks": []
+    },
+    "source_sha256": "7430655050ef27ace72dd8c05cb23e0751bc473c49a16846ea85e17b6866b8ff",
+    "before_sha256": "1f10c1f355183704e4523eb0ba71cbd08fda481bbffc31ec4e191903813de006",
+    "after_sha256": "5e526b99c781a7e7017f2163abd5fc33ea0c8666be6c2d79ea65c84144a0592e",
+    "prior_uncertainties": [
+      {
+        "note": "Twenty lines retained. Lei-Yang, Byzantine and obsidian transliterated, not substituted. Plump words and analytic pen metaphor preserved; Hindi narrator gender provisional.",
+        "record": "kb/production/translations/batch-128/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ବିସ୍ମୟ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୋ ପାଇଁ ତୁମେ ଏକ ବିସ୍ମୟ,",
+          "କବିତାର ଏକ ଅପୂର୍ବ ସୃଷ୍ଟି,",
+          "ଚଳମାନ ଆଙ୍ଗୁଠିରେ ଲେଖା",
+          "କୋମଳ ସୁନେଲି କାଗଜର ଫର୍ଦ୍ଦଟିଏ ଉପରେ",
+          "ଯାହା ଲେଇ-ୟାଙ୍ଗରୁ ଅଣାହୋଇଥିଲା,",
+          "ବାଇଜାଣ୍ଟାଇନ୍‌ର ସେହି ନାବିକ ଦ୍ୱାରା",
+          "ଯିଏ ଦୈବାତ୍,",
+          "ନିଜ ଲଙ୍ଗର ପକାଇଥିଲା",
+          "କଳା ଅବ୍‌ସିଡିଆନ୍ ଉପରେ",
+          "ଆଉ ତା' ଚାହାଣି ଥିଲା ଉପକୂଳରେ",
+          "ମୋର କଳ୍ପନାର।",
+          "ମୁଁ ତୁମ ସତ୍ତାର ସମ୍ପୂର୍ଣ୍ଣ ଅର୍ଥ ଅନୁଭବ କରେ",
+          "ଯାହା ତୁମ ଲାବଣ୍ୟକୁ ଆଦର କରିବା ଶିଖାଏ।",
+          "ମୁଁ ବିସ୍ମିତ, କାହିଁକି ତୁମ",
+          "ପୁଷ୍ଟ ଶବ୍ଦମାନଙ୍କର ବୁଣାଣ,",
+          "ସମାଲୋଚନାତ୍ମକ ପରଖକୁ ବାଧା ଦିଏ?",
+          "ସେ କ'ଣ ଏତେ କୋମଳ ଓ ଭଙ୍ଗୁର",
+          "ଯେ ତୁମେ ଆଶଙ୍କା କର",
+          "ସେ ନିଜ ଔଜ୍ଜ୍ୱଲ୍ୟ ହରାଇବ",
+          "ବିଶ୍ଳେଷଣର କଲମର ଗୋଟିଏ ଆଘାତରେ?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ବିସ୍ମୟ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୋ ପାଇଁ ତୁମେ ଏକ ବିସ୍ମୟ,",
+          "କବିତାର ଏକ ଅପୂର୍ବ ସୃଷ୍ଟି,",
+          "ଚଳମାନ ଆଙ୍ଗୁଠିରେ ଲେଖା",
+          "କୋମଳ ସୁନେଲି କାଗଜର ଫର୍ଦ୍ଦଟିଏ ଉପରେ",
+          "ଯାହା ଲେଇ-ୟାଙ୍ଗରୁ ଅଣାହୋଇଥିଲା,",
+          "ବାଇଜାଣ୍ଟାଇନ୍‌ର ସେହି ନାବିକ ଦ୍ୱାରା",
+          "ଯିଏ ଦୈବାତ୍,",
+          "ନିଜ ଲଙ୍ଗର ପକାଇଥିଲା",
+          "କଳା ଅବ୍‌ସିଡିଆନ୍ ଉପରେ",
+          "ଆଉ ତା' ଚାହାଣି ଥିଲା ମୋ କଳ୍ପନାର",
+          "ଉପକୂଳରେ।",
+          "ମୁଁ ତୁମ ସତ୍ତାର ସମ୍ପୂର୍ଣ୍ଣ ଅର୍ଥ ଅନୁଭବ କରେ",
+          "ଯାହା ମୋତେ ତୁମ ଲାବଣ୍ୟର ମୂଲ୍ୟ ବୁଝିବାରେ ସାହାଯ୍ୟ କରେ।",
+          "ମୁଁ ବିସ୍ମିତ, କାହିଁକି ତୁମ",
+          "ପୁଷ୍ଟ ଶବ୍ଦମାନଙ୍କର ବୁଣାଣ,",
+          "ସମାଲୋଚନାତ୍ମକ ପରଖକୁ ବାଧା ଦିଏ?",
+          "ସେ କ'ଣ ଏତେ କୋମଳ ଓ ଭଙ୍ଗୁର",
+          "ଯେ ତୁମେ ଆଶଙ୍କା କର",
+          "ସେ ନିଜ ଔଜ୍ଜ୍ୱଲ୍ୟ ହରାଇବ",
+          "ବିଶ୍ଳେଷଣର କଲମର ଗୋଟିଏ ଆଘାତରେ?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 20,
+        "before_lines": [],
+        "inline_breaks": [],
+        "source_sha256": "7430655050ef27ace72dd8c05cb23e0751bc473c49a16846ea85e17b6866b8ff",
+        "stanzas_sha256": "223f8cfe3f15808866893a0481c6d62f34d30c63dc0f7da165149b8e56f8a136"
+      }
+    }
+  },
+  {
+    "poem_id": 245,
+    "target": "hi",
+    "reading_evidence": "Read all20 source lines and both full targets: beloved/poetry marvel written by moving finger on soft golden Lei-Yang paper, Byzantine sailor anchored to black obsidian while gazing at fantasy coastline, felt import of essence/grace, plump-word texture resisting scrutiny, delicate/fragile sheen threatened by one analytic pen stroke. Kept actual named references and the admiring-to-questioning turn without explaining allusions.",
+    "open_questions": [
+      "Lei-Yang/Byzantine/obsidian and moving-finger images are retained as source literary references, not asserted historical facts or reassigned identities."
+    ],
+    "reason": "Naturalise the coastline genitive and use a gender-neutral felt-meaning clause where source supplies no narrator gender, keeping the poems imagery and argument intact.",
+    "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 20,
+      "before_lines": [],
+      "inline_breaks": []
+    },
+    "source_sha256": "7430655050ef27ace72dd8c05cb23e0751bc473c49a16846ea85e17b6866b8ff",
+    "before_sha256": "7462e774809b2d0f7ea9e08b008740f8dac623aae083ce6b7d265bc0854a3862",
+    "after_sha256": "a23950bd6daf36af20f488bf85459197c0f18c88b9984c468b19ec5ac595c135",
+    "prior_uncertainties": [
+      {
+        "note": "Twenty lines retained. Lei-Yang, Byzantine and obsidian transliterated, not substituted. Plump words and analytic pen metaphor preserved; Hindi narrator gender provisional.",
+        "record": "kb/production/translations/batch-128/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "विस्मय",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मेरे लिए तुम एक विस्मय हो,",
+          "कविता की एक अद्भुत रचना,",
+          "चलती हुई उँगली से लिखी हुई",
+          "नरम सुनहरे काग़ज़ के एक पन्ने पर",
+          "जो लेई-यांग से लाया गया,",
+          "बाइज़ेंटाइन के उस नाविक द्वारा",
+          "जिसने संयोग से,",
+          "अपना लंगर डाला",
+          "काले ऑब्सिडियन पर",
+          "और जिसकी नज़र थी तटरेखा पर",
+          "मेरी कल्पना की।",
+          "मैं तुम्हारे सार का पूरा अर्थ महसूस करता हूँ",
+          "जो तुम्हारे लावण्य को सराहने में मेरी मदद करता है।",
+          "मुझे विस्मय है कि क्यों तुम्हारे",
+          "भरे-पूरे शब्दों की बनावट,",
+          "आलोचनात्मक परख का प्रतिरोध करती है?",
+          "क्या वह इतनी नाज़ुक और भंगुर है",
+          "कि तुम्हें आशंका है",
+          "वह अपनी चमक खो देगी",
+          "विश्लेषण करती क़लम के एक ही वार से?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "विस्मय",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मेरे लिए तुम एक विस्मय हो,",
+          "कविता की एक अद्भुत रचना,",
+          "चलती हुई उँगली से लिखी हुई",
+          "नरम सुनहरे काग़ज़ के एक पन्ने पर",
+          "जो लेई-यांग से लाया गया,",
+          "बाइज़ेंटाइन के उस नाविक द्वारा",
+          "जिसने संयोग से,",
+          "अपना लंगर डाला",
+          "काले ऑब्सिडियन पर",
+          "और जिसकी नज़र थी मेरी कल्पना की",
+          "तटरेखा पर।",
+          "मुझे तुम्हारे सार के पूरे अर्थ का एहसास है",
+          "जो तुम्हारे लावण्य को सराहने में मेरी मदद करता है।",
+          "मुझे विस्मय है कि क्यों तुम्हारे",
+          "भरे-पूरे शब्दों की बनावट,",
+          "आलोचनात्मक परख का प्रतिरोध करती है?",
+          "क्या वह इतनी नाज़ुक और भंगुर है",
+          "कि तुम्हें आशंका है",
+          "वह अपनी चमक खो देगी",
+          "विश्लेषण करती क़लम के एक ही वार से?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 20,
+        "before_lines": [],
+        "inline_breaks": [],
+        "source_sha256": "7430655050ef27ace72dd8c05cb23e0751bc473c49a16846ea85e17b6866b8ff",
+        "stanzas_sha256": "fa81034000699e533ae9c83c040c6c7b36ee3209ee12188cf7c67b5305805ad6"
+      }
+    }
+  },
+  {
+    "poem_id": 246,
+    "target": "hi",
+    "reading_evidence": "Read all16 source lines and both targets in four quatrains: unborn girl alert in mothers womb, concern for both safety, birth/tomb/family preference, appeal to live/laugh/feel and inability to fight, promised achievement/care/study/earnings/parents praise, womens-rights world that will never know her, endangered-species metaphor and undeserved societal condemnation. Explicit female voice preserved; advocacy remains unsoftened.",
+    "open_questions": [],
+    "reason": "Make the faultless-plight relation idiomatic: suffering despite no fault, without treating plight itself as a moral agent or adding a cause.",
+    "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "8cfe00e20a4163ebb0cbaa04bf1e556d84db57198ba80e378731c22c470eede0",
+    "before_sha256": "16863776dc8b56c86947690ca1c2186d6d6fb65f9ee732cad984e72a9df2e40e",
+    "after_sha256": "ed2511676624d4e28d076712c80a4365292ea4cabb92884a93ac1b652c9045ee",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "संकटग्रस्त",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैं अपनी माँ के गर्भ में जागती पड़ी हूँ,",
+          "अपनी और उनकी सुरक्षा की चिंता में।",
+          "जन्मी तो मुझे मेरी क़ब्र दिखा दी जाएगी,",
+          "मेरे परिवार को लड़की पसंद नहीं।"
+        ],
+        [
+          "पर मैं जीना, हँसना और महसूस करना चाहती हूँ",
+          "कृपया मेरा अधिकार मत छीनो!",
+          "क्या मुझे कम-से-कम अपील का अवसर मिलेगा?",
+          "जब मैं लड़ नहीं सकती, मेरी हत्या मत करो।"
+        ],
+        [
+          "तुम्हारे बेटे जो बनने का वादा करते हैं, वह मैं बनूँगी,",
+          "तुम्हारे बुढ़ापे में मैं तुम्हारे पास रहूँगी,",
+          "मन लगाकर पढ़ूँगी और अच्छा पैसा कमाऊँगी,",
+          "मेरी उपलब्धियों पर तुम्हारी प्रशंसा होगी।"
+        ],
+        [
+          "दुनिया महिलाओं के अधिकारों के लिए लड़ रही है,",
+          "पर वे मुझे कभी नहीं जानेंगे, न मैं उन्हें।",
+          "एक संकटग्रस्त प्रजाति, मेरी बेदोष दुर्दशा,",
+          "और समाज लगातार मुझे ही दोषी ठहराता है!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "संकटग्रस्त",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मैं अपनी माँ के गर्भ में जागती पड़ी हूँ,",
+          "अपनी और उनकी सुरक्षा की चिंता में।",
+          "जन्मी तो मुझे मेरी क़ब्र दिखा दी जाएगी,",
+          "मेरे परिवार को लड़की पसंद नहीं।"
+        ],
+        [
+          "पर मैं जीना, हँसना और महसूस करना चाहती हूँ",
+          "कृपया मेरा अधिकार मत छीनो!",
+          "क्या मुझे कम-से-कम अपील का अवसर मिलेगा?",
+          "जब मैं लड़ नहीं सकती, मेरी हत्या मत करो।"
+        ],
+        [
+          "तुम्हारे बेटे जो बनने का वादा करते हैं, वह मैं बनूँगी,",
+          "तुम्हारे बुढ़ापे में मैं तुम्हारे पास रहूँगी,",
+          "मन लगाकर पढ़ूँगी और अच्छा पैसा कमाऊँगी,",
+          "मेरी उपलब्धियों पर तुम्हारी प्रशंसा होगी।"
+        ],
+        [
+          "दुनिया महिलाओं के अधिकारों के लिए लड़ रही है,",
+          "पर वे मुझे कभी नहीं जानेंगे, न मैं उन्हें।",
+          "एक संकटग्रस्त प्रजाति—बिना दोष के मेरी यह दुर्दशा,",
+          "और समाज लगातार मुझे ही दोषी ठहराता है!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 247,
+    "target": "or",
+    "reading_evidence": "Read full28-line source and both targets across seven quatrains: shutting door/leaving window, hope despite anticipated ending and black clouds/moon, renewed anxiety, spontaneity versus changing self and pointed someone-less retort, soft talk escalating to abrupt argument/yelling, throwing/crying/leaving/vowing separation then yearning, self-rebuke and repeated closed-door/open-window ending. Preserved conflicted cycle without prescribing a relationship outcome.",
+    "open_questions": [
+      "Someone less stays deliberately pointed and elliptical; do not resolve it solely into easier-to-handle or inferior-person meaning.",
+      "Stray source semicolons serve quotation marks in existing targets; source punctuation unchanged."
+    ],
+    "reason": "Restore the title as a window deliberately left open rather than one that merely remains open; body already preserves the recurring action.",
+    "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "title_after": "ଖୋଲା ଛାଡ଼ିଥିବା ଝରକାଟିଏ",
+    "source_sha256": "50bf5dd513526d6ecb3d0419d9d5ec532640934165af79ae385c6cb1a43d962c",
+    "before_sha256": "154c5459ea7938c79f0174dd281a7a498d61ee2945fec4128bbb3a19e15fa80c",
+    "after_sha256": "361dbe54959d9c387fd7b301724bb1cad62b2505542d5b4181b1dbe43a77866e",
+    "prior_uncertainties": [
+      {
+        "note": "Seven quatrains retained. Stray semicolons serving quotation marks normalized only in translations; Hindi feminine narrator provisional. Someone less remains deliberately pointed and elliptical.",
+        "record": "kb/production/translations/batch-128/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଝରକାଟିଏ ଖୋଲା ରହିଯାଏ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ପ୍ରତିଥର ମୁଁ ଦୁଆର ବନ୍ଦ କଲେ",
+          "ଝରକାଟିଏ ଖୋଲା ଛାଡ଼ିଦିଏ",
+          "ମନେମନେ ଏବେ ବି ଆଶା କରେ",
+          "ଏଥର ହୁଏତ କିଛି ଘଟିପାରେ"
+        ],
+        [
+          "ଯଦିଓ ଆରମ୍ଭରୁ ଜାଣିଛି",
+          "ଏହା ଶୀଘ୍ର ଶେଷ ହୋଇଯିବ",
+          "ଚାରିଆଡ଼େ ଘନ କଳା ମେଘ ବିଛାଡ଼ି ହୋଇଛି",
+          "ମୁଁ ମୋ ଉଜ୍ଜ୍ୱଳ ଜହ୍ନକୁ ଖୋଜୁଛି"
+        ],
+        [
+          "ମୋ ଭିତରର ଛୋଟ ଅଂଶଟିଏ ଏବେ ବି ଭାବେ",
+          "ଏଥର କଥା କିଛି ଅଲଗା ହୋଇପାରେ",
+          "ଏହା ମୋ ଉଦ୍‌ବେଗ ଓ ଯନ୍ତ୍ରଣା ବଢ଼ାଏ",
+          "ପ୍ରଥମଥର ପରି ମୋତେ କଲବଲ କରେ"
+        ],
+        [
+          "ପ୍ରେମ ହେଲେ ତାହା ସ୍ୱତଃସ୍ଫୂର୍ତ୍ତ ହେବା ଦରକାର",
+          "ପ୍ରଭାବିତ କରିବା ପାଇଁ ମୁଁ ଅନ୍ୟ କେହି ହୋଇପାରିବିନାହିଁ",
+          "ତୁମେ କହିଚାଲ, “ତୁମକୁ ସମ୍ଭାଳିବା ବଡ଼ କଷ୍ଟ”",
+          "ମୁଁ କହେ, “ତେବେ ମୋଠାରୁ କମ୍ କାହାକୁ ଖୋଜ”"
+        ],
+        [
+          "ଏମିତି ଯୁକ୍ତିତର୍କ ଯାହାର ଶେଷ ନାହିଁ",
+          "କିନ୍ତୁ ଆମେ ସବୁବେଳେ ତାକୁ ହଠାତ୍ ଶେଷ କରିଦେଉ",
+          "ଶେଷରେ ପରସ୍ପରକୁ ଚିତ୍କାର କରୁ",
+          "ଯଦିଓ ଧୀରେ କଥା ଆରମ୍ଭ କରୁ"
+        ],
+        [
+          "ଆମେ ଜିନିଷ ଫୋପାଡ଼ୁ, କାନ୍ଦୁ, ଚାଲିଯାଉ",
+          "ପରସ୍ପରର ସଙ୍ଗ ଛାଡ଼ିବାକୁ ଶପଥ କରୁ",
+          "ପରମୁହୂର୍ତ୍ତରେ ଫେରିବାକୁ ବ୍ୟାକୁଳ ହେଉ",
+          "ଏହା ହିଁ ଆମ ପ୍ରେମର ନୈରାଶ୍ୟଭରା ବିଡ଼ମ୍ବନା"
+        ],
+        [
+          "ମୁଁ ନିଜକୁ ଧମକାଇଲି, “ନା! ଏଥର ନୁହେଁ”",
+          "ଏଥର ମୁଁ ଏମିତି ହେବାକୁ ଦେବିନାହିଁ",
+          "ପୁଣି ଦୁଆରକୁ ଜୋରରେ ବନ୍ଦ କଲି",
+          "କିନ୍ତୁ ଝରକାଟିଏ ଏବେ ବି ଖୋଲା ଛାଡ଼ିଦିଏ..."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଖୋଲା ଛାଡ଼ିଥିବା ଝରକାଟିଏ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ପ୍ରତିଥର ମୁଁ ଦୁଆର ବନ୍ଦ କଲେ",
+          "ଝରକାଟିଏ ଖୋଲା ଛାଡ଼ିଦିଏ",
+          "ମନେମନେ ଏବେ ବି ଆଶା କରେ",
+          "ଏଥର ହୁଏତ କିଛି ଘଟିପାରେ"
+        ],
+        [
+          "ଯଦିଓ ଆରମ୍ଭରୁ ଜାଣିଛି",
+          "ଏହା ଶୀଘ୍ର ଶେଷ ହୋଇଯିବ",
+          "ଚାରିଆଡ଼େ ଘନ କଳା ମେଘ ବିଛାଡ଼ି ହୋଇଛି",
+          "ମୁଁ ମୋ ଉଜ୍ଜ୍ୱଳ ଜହ୍ନକୁ ଖୋଜୁଛି"
+        ],
+        [
+          "ମୋ ଭିତରର ଛୋଟ ଅଂଶଟିଏ ଏବେ ବି ଭାବେ",
+          "ଏଥର କଥା କିଛି ଅଲଗା ହୋଇପାରେ",
+          "ଏହା ମୋ ଉଦ୍‌ବେଗ ଓ ଯନ୍ତ୍ରଣା ବଢ଼ାଏ",
+          "ପ୍ରଥମଥର ପରି ମୋତେ କଲବଲ କରେ"
+        ],
+        [
+          "ପ୍ରେମ ହେଲେ ତାହା ସ୍ୱତଃସ୍ଫୂର୍ତ୍ତ ହେବା ଦରକାର",
+          "ପ୍ରଭାବିତ କରିବା ପାଇଁ ମୁଁ ଅନ୍ୟ କେହି ହୋଇପାରିବିନାହିଁ",
+          "ତୁମେ କହିଚାଲ, “ତୁମକୁ ସମ୍ଭାଳିବା ବଡ଼ କଷ୍ଟ”",
+          "ମୁଁ କହେ, “ତେବେ ମୋଠାରୁ କମ୍ କାହାକୁ ଖୋଜ”"
+        ],
+        [
+          "ଏମିତି ଯୁକ୍ତିତର୍କ ଯାହାର ଶେଷ ନାହିଁ",
+          "କିନ୍ତୁ ଆମେ ସବୁବେଳେ ତାକୁ ହଠାତ୍ ଶେଷ କରିଦେଉ",
+          "ଶେଷରେ ପରସ୍ପରକୁ ଚିତ୍କାର କରୁ",
+          "ଯଦିଓ ଧୀରେ କଥା ଆରମ୍ଭ କରୁ"
+        ],
+        [
+          "ଆମେ ଜିନିଷ ଫୋପାଡ଼ୁ, କାନ୍ଦୁ, ଚାଲିଯାଉ",
+          "ପରସ୍ପରର ସଙ୍ଗ ଛାଡ଼ିବାକୁ ଶପଥ କରୁ",
+          "ପରମୁହୂର୍ତ୍ତରେ ଫେରିବାକୁ ବ୍ୟାକୁଳ ହେଉ",
+          "ଏହା ହିଁ ଆମ ପ୍ରେମର ନୈରାଶ୍ୟଭରା ବିଡ଼ମ୍ବନା"
+        ],
+        [
+          "ମୁଁ ନିଜକୁ ଧମକାଇଲି, “ନା! ଏଥର ନୁହେଁ”",
+          "ଏଥର ମୁଁ ଏମିତି ହେବାକୁ ଦେବିନାହିଁ",
+          "ପୁଣି ଦୁଆରକୁ ଜୋରରେ ବନ୍ଦ କଲି",
+          "କିନ୍ତୁ ଝରକାଟିଏ ଏବେ ବି ଖୋଲା ଛାଡ଼ିଦିଏ..."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 247,
+    "target": "hi",
+    "reading_evidence": "Read full28-line source and both targets across seven quatrains: shutting door/leaving window, hope despite anticipated ending and black clouds/moon, renewed anxiety, spontaneity versus changing self and pointed someone-less retort, soft talk escalating to abrupt argument/yelling, throwing/crying/leaving/vowing separation then yearning, self-rebuke and repeated closed-door/open-window ending. Preserved conflicted cycle without prescribing a relationship outcome.",
+    "open_questions": [
+      "Someone less stays deliberately pointed and elliptical; do not resolve it solely into easier-to-handle or inferior-person meaning.",
+      "Stray source semicolons serve quotation marks in existing targets; source punctuation unchanged.",
+      "Feminine narrator and masculine addressee agreement in body remain provisional; title no longer adds first-person gender."
+    ],
+    "reason": "Restore source noun-phrase title without introducing a first-person feminine sentence; retain full body and record unresolved participant gender.",
+    "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "title_after": "खुली छोड़ी हुई एक खिड़की",
+    "source_sha256": "50bf5dd513526d6ecb3d0419d9d5ec532640934165af79ae385c6cb1a43d962c",
+    "before_sha256": "ded8b33e725b346297f42ce63b529b3b8c4aabfc626d54c454dfcfd848945dc8",
+    "after_sha256": "b9d87b947cd587409338effa2e878fc18c13c4cb257dad769a7a14263118d3a1",
+    "prior_uncertainties": [
+      {
+        "note": "Seven quatrains retained. Stray semicolons serving quotation marks normalized only in translations; Hindi feminine narrator provisional. Someone less remains deliberately pointed and elliptical.",
+        "record": "kb/production/translations/batch-128/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "एक खिड़की खुली छोड़ देती हूँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "हर बार जब मैं दरवाज़ा बंद करती हूँ",
+          "एक खिड़की खुली छोड़ देती हूँ",
+          "मन-ही-मन अब भी आशा करती हूँ",
+          "इस बार शायद कुछ हो जाए"
+        ],
+        [
+          "हालाँकि शुरू से जानती हूँ",
+          "कि यह जल्द ही ख़त्म हो जाएगा",
+          "घने काले बादल चारों ओर बिखरे हैं",
+          "मैं अपना उज्ज्वल चाँद खोज रही हूँ"
+        ],
+        [
+          "मेरे भीतर का एक छोटा हिस्सा अब भी सोचता है",
+          "इस बार बातें कुछ अलग हो सकती हैं",
+          "इससे मेरी चिंता और व्यथा बढ़ती है",
+          "मुझे पहली बार की तरह तड़पाती है"
+        ],
+        [
+          "प्रेम है तो उसे सहज होना चाहिए",
+          "प्रभावित करने के लिए मैं कोई और नहीं बन सकती",
+          "तुम कहते रहते हो, “तुम्हें संभालना बहुत मुश्किल है”",
+          "मैं कहती हूँ, “तो किसी कम को ढूँढ़ लो”"
+        ],
+        [
+          "एक बहस जिसका कोई अंत नहीं",
+          "पर हम उसे हमेशा अचानक ख़त्म कर देते हैं",
+          "आख़िर हम एक-दूसरे पर चिल्लाने लगते हैं",
+          "हालाँकि बात धीरे से शुरू करते हैं"
+        ],
+        [
+          "हम चीज़ें फेंकते हैं, रोते हैं, चले जाते हैं",
+          "एक-दूसरे का साथ छोड़ने की क़सम खाते हैं",
+          "अगले ही पल लौटने को तरसते हैं",
+          "यही हमारे प्रेम की हताश विडंबना है"
+        ],
+        [
+          "मैंने ख़ुद को डाँटा, “नहीं! इस बार नहीं”",
+          "इस बार मैं ऐसा नहीं होने दूँगी",
+          "फिर मैंने दरवाज़ा कसकर बंद किया",
+          "पर एक खिड़की अब भी खुली छोड़ देती हूँ..."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "खुली छोड़ी हुई एक खिड़की",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "हर बार जब मैं दरवाज़ा बंद करती हूँ",
+          "एक खिड़की खुली छोड़ देती हूँ",
+          "मन-ही-मन अब भी आशा करती हूँ",
+          "इस बार शायद कुछ हो जाए"
+        ],
+        [
+          "हालाँकि शुरू से जानती हूँ",
+          "कि यह जल्द ही ख़त्म हो जाएगा",
+          "घने काले बादल चारों ओर बिखरे हैं",
+          "मैं अपना उज्ज्वल चाँद खोज रही हूँ"
+        ],
+        [
+          "मेरे भीतर का एक छोटा हिस्सा अब भी सोचता है",
+          "इस बार बातें कुछ अलग हो सकती हैं",
+          "इससे मेरी चिंता और व्यथा बढ़ती है",
+          "मुझे पहली बार की तरह तड़पाती है"
+        ],
+        [
+          "प्रेम है तो उसे सहज होना चाहिए",
+          "प्रभावित करने के लिए मैं कोई और नहीं बन सकती",
+          "तुम कहते रहते हो, “तुम्हें संभालना बहुत मुश्किल है”",
+          "मैं कहती हूँ, “तो किसी कम को ढूँढ़ लो”"
+        ],
+        [
+          "एक बहस जिसका कोई अंत नहीं",
+          "पर हम उसे हमेशा अचानक ख़त्म कर देते हैं",
+          "आख़िर हम एक-दूसरे पर चिल्लाने लगते हैं",
+          "हालाँकि बात धीरे से शुरू करते हैं"
+        ],
+        [
+          "हम चीज़ें फेंकते हैं, रोते हैं, चले जाते हैं",
+          "एक-दूसरे का साथ छोड़ने की क़सम खाते हैं",
+          "अगले ही पल लौटने को तरसते हैं",
+          "यही हमारे प्रेम की हताश विडंबना है"
+        ],
+        [
+          "मैंने ख़ुद को डाँटा, “नहीं! इस बार नहीं”",
+          "इस बार मैं ऐसा नहीं होने दूँगी",
+          "फिर मैंने दरवाज़ा कसकर बंद किया",
+          "पर एक खिड़की अब भी खुली छोड़ देती हूँ..."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 250,
+    "target": "or",
+    "reading_evidence": "Read full38-line source and both targets in ten blocks3/4/4/4/4/4/4/4/4/3: dawn sleep deprivation/disorientation, harsh morning duties and others uniformed for school, school/Anganwadi question and painful prod, mother-taught mogra venis with rosebuds for working women, gajras/youngest sibling/red signal/car selling, recurring dream, harsh sun/sweat/cracked heels/half-empty stomach/hope, years becoming mothers premature ageing and harsh sales voice, grey pavements/dead dreams/monotone dawn-dusk. Preserved denied education and unrelieved ending without cheerful rescue.",
+    "open_questions": [
+      "Current youngest-household-child wording avoids inventing sibling gender but loses exact sibling kinship and straddling posture; these remain a recorded target/source-expression hold, not certified equivalent."
+    ],
+    "reason": "Restore the specific school uniform rather than generic clothing, preserving the visible contrast with the working child. Keep the sibling wording limitation separately recorded.",
+    "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "4b514a9cd89e6131631037d6618ec11553083fe6233749149abacd8eb8365b0f",
+    "before_sha256": "31ba61fbbb3426083a02f2e3db4352e48f6d1b7f06c767cd0c2a7e2dfd75dd5c",
+    "after_sha256": "2fc64f3251806c7f0abec80d2cbbb8968e4725336cf858b773eb44094ab259cc",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଟ୍ରାଫିକ୍ ସିଗ୍ନାଲରେ ଜୀବନ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ପାହାନ୍ତି ପହରରେ ସେ ଜାଗିଯାଏ",
+          "ନିଦବିହୀନ ଆଖି ତା'ର କ୍ଷଣକ ପାଇଁ ଦିଗହରା ଦିଶେ",
+          "ଆବୁଅନ୍ଧାରରେ ସେ ନଜର ସ୍ଥିର କରିବାକୁ ଚେଷ୍ଟା କରେ।"
+        ],
+        [
+          "ସେ ସକାଳର କାମରେ ଲାଗିଯାଏ",
+          "କର୍କଶ ସ୍ୱର ଓ ନିତିଦିନିଆ କଥା ତାକୁ ସ୍ୱାଗତ କରେ",
+          "ସହର ନିଜକୁ ଠେଲି ଜାଗିବାକୁ ଲାଗିଲାବେଳେ",
+          "ତା' ଶିଶୁସୁଲଭ ଆଖି ପୋଷାକ ପିନ୍ଧି ସ୍କୁଲ ଯାଉଥିବା ‘ଅନ୍ୟମାନଙ୍କୁ’ ଦେଖେ।"
+        ],
+        [
+          "ତା' ଚଞ୍ଚଳ ମନ ପଚାରେ, “ସ୍କୁଲ କ'ଣ ଅଙ୍ଗନବାଡ଼ି ପରି?”",
+          "ଦୀର୍ଘଶ୍ୱାସଟିଏ ବାହାରିଯାଏ, ସେ କେବେ ଜାଣିପାରିବନାହିଁ",
+          "ରୁକ୍ଷ ଧକ୍କାଟିଏ ତା' କୃଶ ଦେହରେ ବିନ୍ଧେ",
+          "ଏବେ ଆଉ ତାକୁ ବାଧେନାହିଁ।"
+        ],
+        [
+          "ସେ ଶୀଘ୍ର ଧଳା ‘ମୋଗରା’ ଫୁଲ ଉଠାଏ",
+          "ମାଆ ତାକୁ ସେସବୁ ଗୁନ୍ଥିବା ଶିଖାଇଛି",
+          "ଛୋଟ ଗୋଲାପ କଢ଼ି ଖଞ୍ଜା ‘ବେଣୀ’",
+          "ନିଜନିଜ କାମକୁ ଧାଉଁଥିବା ମହିଳାଙ୍କ ପାଇଁ ସେସବୁ।"
+        ],
+        [
+          "ଗାଡ଼ିମଟରର ଭିଡ଼ ବଢ଼େ",
+          "ବାହୁଭରା ‘ଗଜରା’ ଓ ତାକୁ ଜାବୁଡ଼ିଥିବା ଘରର ସବୁଠୁ ସାନ ପିଲାଟି ସହ",
+          "ସେ ସିଗ୍ନାଲ ଲାଲ ହେବାକୁ ଅପେକ୍ଷା କରେ",
+          "ତା'ପରେ କାର୍‌ମାନଙ୍କ ମଝିରେ ପଶି ନୂଆ ଗୁନ୍ଥା ଅଳଙ୍କାର ବିକେ।"
+        ],
+        [
+          "ଗାଡ଼ିମଟର ଚାଲେ ଆଉ ବେଗ ବଢ଼େ",
+          "ନିଜ ଅବସ୍ଥା ବଦଳିବାକୁ ସେ ଧୈର୍ଯ୍ୟରେ ଅପେକ୍ଷା କରେ",
+          "ତା' ବଡ଼ ବଡ଼ ମହୁରଙ୍ଗୀ ଆଖିରେ ବାରମ୍ବାର ସ୍ୱପ୍ନଟିଏ ଆସେ",
+          "ସେ କ'ଣ ତାହା ପୂରଣ କରିପାରିବ?"
+        ],
+        [
+          "ସେ ସ୍ୱପ୍ନ ଦେଖିବାକୁ ସାହସ କରିଛି",
+          "ଏକ ଅସମ୍ଭବ ସ୍ୱପ୍ନ",
+          "ସୂର୍ଯ୍ୟ ତା' ଉପରେ ନିର୍ଦ୍ଦୟ ହୋଇ ଜଳେ",
+          "ଝାଳବିନ୍ଦୁ ତା' ଦୁର୍ବଳ ଦେହରେ ବହେ।"
+        ],
+        [
+          "କର୍କଶ ଶବ୍ଦ ତାକୁ ଘେରିଯାଏ",
+          "ତା' ଫଟା ଗୋଇଠିରେ ଧୂଳି ଜମେ",
+          "ଅଧାଖାଲି ପେଟରେ",
+          "ତା' ଆଶା ତାକୁ ଜାବୁଡ଼ି ରହେ।"
+        ],
+        [
+          "ଦିନ ବିତେ ବର୍ଷ ବିତେ, ତା' ଦେହରେ ସେସବୁର ଛାପ ପଡ଼େ",
+          "ଏବେ ସେ ଅକାଳରେ ଜରାଗ୍ରସ୍ତ ମାଆର ପ୍ରତିରୂପ",
+          "ତା' ରୁକ୍ଷ ସ୍ୱର ଗୁଞ୍ଜିଉଠେ",
+          "ନିଜ ଜିନିଷ ବିକୁଥିବା ବେଳେ।"
+        ],
+        [
+          "ଧୂସର ଛାୟା ଧୂସର ପାଦଚଲା ପଥକୁ ଢାଙ୍କିଦିଏ",
+          "ସ୍ୱପ୍ନମାନେ ଆପଣା ଛାଏଁ ମରିସାରିଛନ୍ତି",
+          "ଭୋର ଓ ସଞ୍ଜ ଏକ ନୀରସ ସ୍ୱରରେ ମିଶିଯାଆନ୍ତି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଟ୍ରାଫିକ୍ ସିଗ୍ନାଲରେ ଜୀବନ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ପାହାନ୍ତି ପହରରେ ସେ ଜାଗିଯାଏ",
+          "ନିଦବିହୀନ ଆଖି ତା'ର କ୍ଷଣକ ପାଇଁ ଦିଗହରା ଦିଶେ",
+          "ଆବୁଅନ୍ଧାରରେ ସେ ନଜର ସ୍ଥିର କରିବାକୁ ଚେଷ୍ଟା କରେ।"
+        ],
+        [
+          "ସେ ସକାଳର କାମରେ ଲାଗିଯାଏ",
+          "କର୍କଶ ସ୍ୱର ଓ ନିତିଦିନିଆ କଥା ତାକୁ ସ୍ୱାଗତ କରେ",
+          "ସହର ନିଜକୁ ଠେଲି ଜାଗିବାକୁ ଲାଗିଲାବେଳେ",
+          "ତା' ଶିଶୁସୁଲଭ ଆଖି ୟୁନିଫର୍ମ ପିନ୍ଧି ସ୍କୁଲ ଯାଉଥିବା ‘ଅନ୍ୟମାନଙ୍କୁ’ ଦେଖେ।"
+        ],
+        [
+          "ତା' ଚଞ୍ଚଳ ମନ ପଚାରେ, “ସ୍କୁଲ କ'ଣ ଅଙ୍ଗନବାଡ଼ି ପରି?”",
+          "ଦୀର୍ଘଶ୍ୱାସଟିଏ ବାହାରିଯାଏ, ସେ କେବେ ଜାଣିପାରିବନାହିଁ",
+          "ରୁକ୍ଷ ଧକ୍କାଟିଏ ତା' କୃଶ ଦେହରେ ବିନ୍ଧେ",
+          "ଏବେ ଆଉ ତାକୁ ବାଧେନାହିଁ।"
+        ],
+        [
+          "ସେ ଶୀଘ୍ର ଧଳା ‘ମୋଗରା’ ଫୁଲ ଉଠାଏ",
+          "ମାଆ ତାକୁ ସେସବୁ ଗୁନ୍ଥିବା ଶିଖାଇଛି",
+          "ଛୋଟ ଗୋଲାପ କଢ଼ି ଖଞ୍ଜା ‘ବେଣୀ’",
+          "ନିଜନିଜ କାମକୁ ଧାଉଁଥିବା ମହିଳାଙ୍କ ପାଇଁ ସେସବୁ।"
+        ],
+        [
+          "ଗାଡ଼ିମଟରର ଭିଡ଼ ବଢ଼େ",
+          "ବାହୁଭରା ‘ଗଜରା’ ଓ ତାକୁ ଜାବୁଡ଼ିଥିବା ଘରର ସବୁଠୁ ସାନ ପିଲାଟି ସହ",
+          "ସେ ସିଗ୍ନାଲ ଲାଲ ହେବାକୁ ଅପେକ୍ଷା କରେ",
+          "ତା'ପରେ କାର୍‌ମାନଙ୍କ ମଝିରେ ପଶି ନୂଆ ଗୁନ୍ଥା ଅଳଙ୍କାର ବିକେ।"
+        ],
+        [
+          "ଗାଡ଼ିମଟର ଚାଲେ ଆଉ ବେଗ ବଢ଼େ",
+          "ନିଜ ଅବସ୍ଥା ବଦଳିବାକୁ ସେ ଧୈର୍ଯ୍ୟରେ ଅପେକ୍ଷା କରେ",
+          "ତା' ବଡ଼ ବଡ଼ ମହୁରଙ୍ଗୀ ଆଖିରେ ବାରମ୍ବାର ସ୍ୱପ୍ନଟିଏ ଆସେ",
+          "ସେ କ'ଣ ତାହା ପୂରଣ କରିପାରିବ?"
+        ],
+        [
+          "ସେ ସ୍ୱପ୍ନ ଦେଖିବାକୁ ସାହସ କରିଛି",
+          "ଏକ ଅସମ୍ଭବ ସ୍ୱପ୍ନ",
+          "ସୂର୍ଯ୍ୟ ତା' ଉପରେ ନିର୍ଦ୍ଦୟ ହୋଇ ଜଳେ",
+          "ଝାଳବିନ୍ଦୁ ତା' ଦୁର୍ବଳ ଦେହରେ ବହେ।"
+        ],
+        [
+          "କର୍କଶ ଶବ୍ଦ ତାକୁ ଘେରିଯାଏ",
+          "ତା' ଫଟା ଗୋଇଠିରେ ଧୂଳି ଜମେ",
+          "ଅଧାଖାଲି ପେଟରେ",
+          "ତା' ଆଶା ତାକୁ ଜାବୁଡ଼ି ରହେ।"
+        ],
+        [
+          "ଦିନ ବିତେ ବର୍ଷ ବିତେ, ତା' ଦେହରେ ସେସବୁର ଛାପ ପଡ଼େ",
+          "ଏବେ ସେ ଅକାଳରେ ଜରାଗ୍ରସ୍ତ ମାଆର ପ୍ରତିରୂପ",
+          "ତା' ରୁକ୍ଷ ସ୍ୱର ଗୁଞ୍ଜିଉଠେ",
+          "ନିଜ ଜିନିଷ ବିକୁଥିବା ବେଳେ।"
+        ],
+        [
+          "ଧୂସର ଛାୟା ଧୂସର ପାଦଚଲା ପଥକୁ ଢାଙ୍କିଦିଏ",
+          "ସ୍ୱପ୍ନମାନେ ଆପଣା ଛାଏଁ ମରିସାରିଛନ୍ତି",
+          "ଭୋର ଓ ସଞ୍ଜ ଏକ ନୀରସ ସ୍ୱରରେ ମିଶିଯାଆନ୍ତି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 250,
+    "target": "hi",
+    "reading_evidence": "Read full38-line source and both targets in ten blocks3/4/4/4/4/4/4/4/4/3: dawn sleep deprivation/disorientation, harsh morning duties and others uniformed for school, school/Anganwadi question and painful prod, mother-taught mogra venis with rosebuds for working women, gajras/youngest sibling/red signal/car selling, recurring dream, harsh sun/sweat/cracked heels/half-empty stomach/hope, years becoming mothers premature ageing and harsh sales voice, grey pavements/dead dreams/monotone dawn-dusk. Preserved denied education and unrelieved ending without cheerful rescue.",
+    "open_questions": [
+      "Current youngest-household-child wording avoids inventing sibling gender but loses exact sibling kinship and straddling posture; these remain a recorded target/source-expression hold, not certified equivalent."
+    ],
+    "reason": "Restore the small rosebuds interspersed within the flower garlands, rather than garlands placed between rosebuds; use the natural urban traffic-signal phrase in the translated title.",
+    "tradeoff": "Preserve the full source and its register, with natural target syntax and no invented biography, gender or culture substitution. Same-assistant self-review only, independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "title_after": "ट्रैफ़िक सिग्नल पर जीवन",
+    "source_sha256": "4b514a9cd89e6131631037d6618ec11553083fe6233749149abacd8eb8365b0f",
+    "before_sha256": "ea4975f124971a62b353d3fe62f278990343a072014fc1b5beaf65bc2e7777a9",
+    "after_sha256": "99aed82d7c9ef528aff283720ed237156cc9001856c96bd06abfb2a296e7e6e3",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "यातायात के संकेत पर जीवन",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "वह पौ फटते ही जाग जाती है",
+          "नींद से वंचित उसकी आँखें पल-भर को दिशाहीन लगती हैं",
+          "धुँधलके में वह नज़र जमाने की कोशिश करती है।"
+        ],
+        [
+          "वह सुबह के काम में लग जाती है",
+          "कठोर स्वर और रोज़मर्रा के शब्द उसका स्वागत करते हैं",
+          "जब शहर ख़ुद को ठेलकर जागने लगता है",
+          "उसकी बालसुलभ आँखें वर्दी में स्कूल जाते ‘दूसरों’ को देखती हैं।"
+        ],
+        [
+          "उसका चपल मन पूछता है, “क्या स्कूल आँगनवाड़ी जैसा होता है?”",
+          "एक आह निकलती है, वह कभी नहीं जान पाएगी",
+          "एक रूखा धक्का उसके दुबले शरीर में चुभता है",
+          "अब उसे दर्द नहीं होता।"
+        ],
+        [
+          "जल्दी से वह सफ़ेद ‘मोगरे’ उठाती है",
+          "उसकी माँ ने उन्हें गूँथना सिखाया है",
+          "छोटी गुलाब की कलियों के बीच गुँथी ‘वेणियाँ’",
+          "वे अपने-अपने काम पर भागती महिलाओं के लिए हैं।"
+        ],
+        [
+          "यातायात बढ़ता जाता है",
+          "बाँहों में ‘गजरे’ और उससे चिपका घर का सबसे छोटा बच्चा",
+          "वह संकेत लाल होने की प्रतीक्षा करती है",
+          "फिर कारों के बीच से गुज़रकर अपने ताज़ा गूँथे आभूषण बेचती है।"
+        ],
+        [
+          "यातायात चल पड़ता है और तेज़ हो जाता है",
+          "वह धैर्य से अपनी स्थिति बदलने की प्रतीक्षा करती है",
+          "उसकी बड़ी शहद-भूरी आँखों में एक सपना बार-बार आता है",
+          "क्या वह उसे पूरा कर पाएगी?"
+        ],
+        [
+          "उसने सपना देखने का साहस किया है",
+          "एक असंभव सपना",
+          "सूरज उस पर निर्दयता से चमकता है",
+          "पसीने की बूँदें उसके कमज़ोर शरीर पर बहती हैं।"
+        ],
+        [
+          "कर्कश आवाज़ उसे घेर लेती है",
+          "उसकी फटी एड़ियों पर धूल जमती है",
+          "आधे ख़ाली पेट के साथ",
+          "उसकी आशा उससे लिपटी रहती है।"
+        ],
+        [
+          "दिन बीतते हैं, साल बीतते हैं, उनका असर उस पर चढ़ता जाता है",
+          "अब वह समय से पहले झुर्राई अपनी माँ की प्रतिछवि है",
+          "उसका खुरदुरा स्वर गूँजता है",
+          "जब वह अपना सामान बेचती है।"
+        ],
+        [
+          "धूसर छायाएँ धूसर फुटपाथों को ढक लेती हैं",
+          "सपने अपनी मौत मर चुके हैं",
+          "भोर और साँझ एक ही नीरस स्वर में मिल जाते हैं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "ट्रैफ़िक सिग्नल पर जीवन",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "वह पौ फटते ही जाग जाती है",
+          "नींद से वंचित उसकी आँखें पल-भर को दिशाहीन लगती हैं",
+          "धुँधलके में वह नज़र जमाने की कोशिश करती है।"
+        ],
+        [
+          "वह सुबह के काम में लग जाती है",
+          "कठोर स्वर और रोज़मर्रा के शब्द उसका स्वागत करते हैं",
+          "जब शहर ख़ुद को ठेलकर जागने लगता है",
+          "उसकी बालसुलभ आँखें वर्दी में स्कूल जाते ‘दूसरों’ को देखती हैं।"
+        ],
+        [
+          "उसका चपल मन पूछता है, “क्या स्कूल आँगनवाड़ी जैसा होता है?”",
+          "एक आह निकलती है, वह कभी नहीं जान पाएगी",
+          "एक रूखा धक्का उसके दुबले शरीर में चुभता है",
+          "अब उसे दर्द नहीं होता।"
+        ],
+        [
+          "जल्दी से वह सफ़ेद ‘मोगरे’ उठाती है",
+          "उसकी माँ ने उन्हें गूँथना सिखाया है",
+          "बीच-बीच में गुलाब की नन्ही कलियों से गुँथी ‘वेणियाँ’",
+          "वे अपने-अपने काम पर भागती महिलाओं के लिए हैं।"
+        ],
+        [
+          "यातायात बढ़ता जाता है",
+          "बाँहों में ‘गजरे’ और उससे चिपका घर का सबसे छोटा बच्चा",
+          "वह संकेत लाल होने की प्रतीक्षा करती है",
+          "फिर कारों के बीच से गुज़रकर अपने ताज़ा गूँथे आभूषण बेचती है।"
+        ],
+        [
+          "यातायात चल पड़ता है और तेज़ हो जाता है",
+          "वह धैर्य से अपनी स्थिति बदलने की प्रतीक्षा करती है",
+          "उसकी बड़ी शहद-भूरी आँखों में एक सपना बार-बार आता है",
+          "क्या वह उसे पूरा कर पाएगी?"
+        ],
+        [
+          "उसने सपना देखने का साहस किया है",
+          "एक असंभव सपना",
+          "सूरज उस पर निर्दयता से चमकता है",
+          "पसीने की बूँदें उसके कमज़ोर शरीर पर बहती हैं।"
+        ],
+        [
+          "कर्कश आवाज़ उसे घेर लेती है",
+          "उसकी फटी एड़ियों पर धूल जमती है",
+          "आधे ख़ाली पेट के साथ",
+          "उसकी आशा उससे लिपटी रहती है।"
+        ],
+        [
+          "दिन बीतते हैं, साल बीतते हैं, उनका असर उस पर चढ़ता जाता है",
+          "अब वह समय से पहले झुर्राई अपनी माँ की प्रतिछवि है",
+          "उसका खुरदुरा स्वर गूँजता है",
+          "जब वह अपना सामान बेचती है।"
+        ],
+        [
+          "धूसर छायाएँ धूसर फुटपाथों को ढक लेती हैं",
+          "सपने अपनी मौत मर चुके हैं",
+          "भोर और साँझ एक ही नीरस स्वर में मिल जाते हैं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

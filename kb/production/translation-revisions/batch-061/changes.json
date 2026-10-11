@@ -1,0 +1,516 @@
+[
+  {
+    "poem_id": 550,
+    "target": "hi",
+    "reading_evidence": "Full three source/target stanzas: two lips becoming four, rustling autumn/wind, remembered fingers/green mangoes/games, groves/four eyes/bed/bodily years, one body/bodilessness, unwound clock/silent veena, still frenzy, lips/adhar, separation, ageing/coffin/unseen rope/free bird/sky cage/chosen death. Literal br> in source and targets inspected.",
+    "reason": "Remove the confirmed stray HTML fragment from the generated target without changing its line or any poetic wording.",
+    "open_questions": [
+      "Natu-chori remains provisionally spinning-top theft; erotic intimacy and chosen-death imagery preserved without biography. Original source br> remains a source-cleanup question; only generated drafts are cleaned."
+    ],
+    "finding_dispositions": {
+      "PNR-069": "fixed_in_generated_target_only; original_source_markup_question_remains"
+    },
+    "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+    "full_source_target_read": true,
+    "source_sha256": "3eea66067740999790d8b93a55c28a7ff84469db4cabd332101c3ffac40703cf",
+    "before_sha256": "8944cfc4a14704d139adb7cbff2c542b0df3efd2d386d3164b254a424a12d2df",
+    "after_sha256": "f5f66bff21c32ce1ed5afb62b52234d7ba679b26235c332ed8c152e1b6f773ed",
+    "prior_uncertainties": [
+      {
+        "note": "Literal stray br> retained for explicit editorial cleanup, original unchanged. Natu-chori provisionally spinning-top theft; adhar poetic synonym for lips retained in English transliteration because word-register change is the image. Erotic intimacy, ageing and chosen-death imagery retained without biographical inference.",
+        "record": "kb/production/translations/batch-059/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "देह से विदेह",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "दो होंठों की दुख-सुख की कहानी",
+          "पिछवाड़े खसखस—कौन?",
+          "हेमंत का पत्तझर, या हवा की खड़खड़?",
+          "याद है चार होंठ हो जाने की सिहरन,",
+          "अविस्मरणीय उँगलियों की नई-नई गुदगुदी",
+          "स्मृति बटोरती है नन्हीं अंबियाँ, देह",
+          "खेलती है लुकाछिपी, लट्टू-चोरी।"
+        ],
+        [
+          "बीत गई आम, ताड़, तमाल वन की अधीरता",
+          "दो-दो मिलकर चार आँखों की आतुरता",
+          "एक घर में, एक खाट पर",
+          "देह-पुलक के दिन-महीने बरस होते गए",
+          "दो देहों से एक देह की अविस्मरणीय कहानी",
+          "कभी फिर विदेह। प्रेम,",
+          "शब्द का अस्तित्व खोना, बाढ़ में एकाकार।"
+        ],
+        [
+          "विधुर दोपहर चाबी भरना भूल गई,",
+          "दीवार-घड़ी स्थिर, प्रबुद्ध, निःशब्द।",
+          "अदृश्य तार पर वीणा का निःशब्द स्वर।",
+          "मंथन-मुक्त अधीर देह, स्थिर उन्मत्त मन।",
+          "हेमंत का पत्तझर स्थविर, बधिर!",
+          "होंठ आज कविता में अधर बन गए हैं",
+          "सघन सान्निध्य विरह का गीत गाता है br>",
+          "यह कहानी दो होंठों से चार होंठ होने की",
+          "दो देहों से एक देह, फिर विदेह",
+          "बूढ़ी होती हवा, हेमंत, पत्तझर",
+          "देह-मन में अस्थिरता का शवाधार",
+          "सान्निध्य, अनदेखी रस्सी की सघनता",
+          "अनेक बंधनों के बीच मुक्त पक्षी",
+          "अनंत आकाश का पिंजरा, स्वेच्छामृत्यु।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "देह से विदेह",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "दो होंठों की दुख-सुख की कहानी",
+          "पिछवाड़े खसखस—कौन?",
+          "हेमंत का पत्तझर, या हवा की खड़खड़?",
+          "याद है चार होंठ हो जाने की सिहरन,",
+          "अविस्मरणीय उँगलियों की नई-नई गुदगुदी",
+          "स्मृति बटोरती है नन्हीं अंबियाँ, देह",
+          "खेलती है लुकाछिपी, लट्टू-चोरी।"
+        ],
+        [
+          "बीत गई आम, ताड़, तमाल वन की अधीरता",
+          "दो-दो मिलकर चार आँखों की आतुरता",
+          "एक घर में, एक खाट पर",
+          "देह-पुलक के दिन-महीने बरस होते गए",
+          "दो देहों से एक देह की अविस्मरणीय कहानी",
+          "कभी फिर विदेह। प्रेम,",
+          "शब्द का अस्तित्व खोना, बाढ़ में एकाकार।"
+        ],
+        [
+          "विधुर दोपहर चाबी भरना भूल गई,",
+          "दीवार-घड़ी स्थिर, प्रबुद्ध, निःशब्द।",
+          "अदृश्य तार पर वीणा का निःशब्द स्वर।",
+          "मंथन-मुक्त अधीर देह, स्थिर उन्मत्त मन।",
+          "हेमंत का पत्तझर स्थविर, बधिर!",
+          "होंठ आज कविता में अधर बन गए हैं",
+          "सघन सान्निध्य विरह का गीत गाता है",
+          "यह कहानी दो होंठों से चार होंठ होने की",
+          "दो देहों से एक देह, फिर विदेह",
+          "बूढ़ी होती हवा, हेमंत, पत्तझर",
+          "देह-मन में अस्थिरता का शवाधार",
+          "सान्निध्य, अनदेखी रस्सी की सघनता",
+          "अनेक बंधनों के बीच मुक्त पक्षी",
+          "अनंत आकाश का पिंजरा, स्वेच्छामृत्यु।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 550,
+    "target": "en",
+    "reading_evidence": "Full three source/target stanzas: two lips becoming four, rustling autumn/wind, remembered fingers/green mangoes/games, groves/four eyes/bed/bodily years, one body/bodilessness, unwound clock/silent veena, still frenzy, lips/adhar, separation, ageing/coffin/unseen rope/free bird/sky cage/chosen death. Literal br> in source and targets inspected.",
+    "reason": "Remove target markup contamination. Retain adhar provisionally rather than invent rose/beauty imagery to manufacture an English register contrast.",
+    "open_questions": [
+      "Natu-chori remains provisionally spinning-top theft; erotic intimacy and chosen-death imagery preserved without biography. Original source br> remains a source-cleanup question; only generated drafts are cleaned.",
+      "PNR-071 remains unresolved: adhar conveys a poetic synonym for lips but an English reader cannot experience the register shift from unexplained transliteration. A gloss or new image would change the line; fluent editorial choice pending."
+    ],
+    "finding_dispositions": {
+      "PNR-070": "fixed_in_generated_target_only; original_source_markup_question_remains",
+      "PNR-071": "confirmed_target_register_limitation; unresolved_editorial_choice_held"
+    },
+    "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+    "full_source_target_read": true,
+    "source_sha256": "3eea66067740999790d8b93a55c28a7ff84469db4cabd332101c3ffac40703cf",
+    "before_sha256": "518954e2086fa87ade7fc2e72c1a10103cf8f1a739145447670e2a92a181fd4b",
+    "after_sha256": "909d321fbd98f370acd3c731b949a58dc75f5d20f3904d64ba9367cdad292177",
+    "prior_uncertainties": [
+      {
+        "note": "Literal stray br> retained for explicit editorial cleanup, original unchanged. Natu-chori provisionally spinning-top theft; adhar poetic synonym for lips retained in English transliteration because word-register change is the image. Erotic intimacy, ageing and chosen-death imagery retained without biographical inference.",
+        "record": "kb/production/translations/batch-059/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "From Body to Bodilessness",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "The tale of two lips, of sorrow and joy",
+          "A rustle in the backyard—who?",
+          "Late autumn's falling leaves, or the wind's rattle?",
+          "I remember the shiver of becoming four lips,",
+          "The ever-new tickling of unforgettable fingers",
+          "Memory gathers tiny green mangoes, the body",
+          "Plays hide-and-seek, spinning-top theft."
+        ],
+        [
+          "Gone is the restlessness of mango, palm and tamala groves",
+          "The yearning of four eyes, two and two together",
+          "In one house, upon one bed",
+          "Days and months of bodily delight becoming years",
+          "The unforgettable tale of two bodies becoming one",
+          "At times bodiless again. Love,",
+          "The word losing its existence, merged into one in the flood."
+        ],
+        [
+          "The bereft afternoon has forgotten to wind it,",
+          "The wall clock stands still, awakened, soundless.",
+          "On unseen strings, the veena's soundless resonance.",
+          "Restless body freed from churning, still and frenzied mind.",
+          "Late autumn's leaf-fall, motionless, deaf!",
+          "Lips today have become adhar in poetry",
+          "Dense closeness sings the song of separation br>",
+          "This tale of two lips becoming four lips",
+          "Two bodies becoming one, then bodiless",
+          "The ageing wind, late autumn, falling leaves",
+          "The coffin of restlessness in body and mind",
+          "Closeness, the density of an unseen rope",
+          "A free bird amid many bonds",
+          "The cage of infinite sky, a chosen death."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "From Body to Bodilessness",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "The tale of two lips, of sorrow and joy",
+          "A rustle in the backyard—who?",
+          "Late autumn's falling leaves, or the wind's rattle?",
+          "I remember the shiver of becoming four lips,",
+          "The ever-new tickling of unforgettable fingers",
+          "Memory gathers tiny green mangoes, the body",
+          "Plays hide-and-seek, spinning-top theft."
+        ],
+        [
+          "Gone is the restlessness of mango, palm and tamala groves",
+          "The yearning of four eyes, two and two together",
+          "In one house, upon one bed",
+          "Days and months of bodily delight becoming years",
+          "The unforgettable tale of two bodies becoming one",
+          "At times bodiless again. Love,",
+          "The word losing its existence, merged into one in the flood."
+        ],
+        [
+          "The bereft afternoon has forgotten to wind it,",
+          "The wall clock stands still, awakened, soundless.",
+          "On unseen strings, the veena's soundless resonance.",
+          "Restless body freed from churning, still and frenzied mind.",
+          "Late autumn's leaf-fall, motionless, deaf!",
+          "Lips today have become adhar in poetry",
+          "Dense closeness sings the song of separation",
+          "This tale of two lips becoming four lips",
+          "Two bodies becoming one, then bodiless",
+          "The ageing wind, late autumn, falling leaves",
+          "The coffin of restlessness in body and mind",
+          "Closeness, the density of an unseen rope",
+          "A free bird amid many bonds",
+          "The cage of infinite sky, a chosen death."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 546,
+    "target": "en",
+    "reading_evidence": "Complete thirty source/target lines and title: hypnotized circular walk/void/falling, first point/journey, balloon-like transparent net/stumbling/restarting, repeated seasons/night/evening/Phagun, distant subtle mind’s gestures deliberately ignored, meaningless action/reaction and centuries-long burden.",
+    "reason": "Ignoring the understood gestures need not be a physical act of averting the eyes; restore the source’s deliberate disregard.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+    "full_source_target_read": true,
+    "source_sha256": "df4995d27ea8bc95bea58dea605513e389361dbbaa5ee4e4ea7505a3e14d8729",
+    "before_sha256": "54a550baf702ad77bc83461ffceee89649db561881a8c40139f73357830dd949",
+    "after_sha256": "0bd740eb5f4f3d2569a695aa9899dce44573533fb6506f8d3db864ae4ec4b90a",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "I Am Within a Circular Enchanted Boundary",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "I go on walking, as if hypnotized",
+          "That same void upon which, again and again,",
+          "I fall, drained of light",
+          "Yes, that is the very first point",
+          "From which perhaps I begin",
+          "A journey's auspicious opening",
+          "But ah! This uncomprehending mind!",
+          "Each time, wandering round and round",
+          "In that balloon-like transparent net",
+          "I stumble,",
+          "And once again, from the beginning,",
+          "Begin",
+          "These circular seasonal surroundings",
+          "The same night,",
+          "The same evening,",
+          "The same springtime play,",
+          "But a subtle, unspoken mind...",
+          "Stands far away, watching it all.",
+          "Only like a silent spectator...",
+          "Sometimes it makes a few gestures too,",
+          "And even seeing and understanding them,",
+          "I simply look away.",
+          "Again and again, “I”",
+          "Perform that same meaningless act,",
+          "Again endure its reaction too",
+          "Ah, I go on walking in vain!!",
+          "Setting out from that void",
+          "I wander back to that very void.",
+          "Alas, carrying only a burden,",
+          "I have been walking for centuries!!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "I Am Within a Circular Enchanted Boundary",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "I go on walking, as if hypnotized",
+          "That same void upon which, again and again,",
+          "I fall, drained of light",
+          "Yes, that is the very first point",
+          "From which perhaps I begin",
+          "A journey's auspicious opening",
+          "But ah! This uncomprehending mind!",
+          "Each time, wandering round and round",
+          "In that balloon-like transparent net",
+          "I stumble,",
+          "And once again, from the beginning,",
+          "Begin",
+          "These circular seasonal surroundings",
+          "The same night,",
+          "The same evening,",
+          "The same springtime play,",
+          "But a subtle, unspoken mind...",
+          "Stands far away, watching it all.",
+          "Only like a silent spectator...",
+          "Sometimes it makes a few gestures too,",
+          "And even seeing and understanding them,",
+          "I simply ignore them.",
+          "Again and again, “I”",
+          "Perform that same meaningless act,",
+          "Again endure its reaction too",
+          "Ah, I go on walking in vain!!",
+          "Setting out from that void",
+          "I wander back to that very void.",
+          "Alas, carrying only a burden,",
+          "I have been walking for centuries!!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 547,
+    "target": "en",
+    "reading_evidence": "Full twenty-line source and each target plus Jamshedpur: afternoon/night, waiting woman/earthen phrase, laughing biting snake-locks, empty home/bed/smiling heart/startle, fragrant braid garlands/bee/pollen, sunlight cupped in hands, moths/nectar and scattered flowers/golden body.",
+    "reason": "Keep locks attached to the waiting woman and avoid narrowing aahat to definite footsteps.",
+    "open_questions": [
+      "Mrnmeyi remains ambiguous between earth-made woman and eyes; English earthen-woman reading remains provisional. Sunlight after night and distinct bees/moths are source features, not silently reconciled."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+    "full_source_target_read": true,
+    "source_sha256": "5057bd380100c78f24881c3c4a8ee25035ab1d7ae44a3503b40e6d49570245a9",
+    "before_sha256": "ac7a237330d462d59df2a44285f94e7532b44eeb4bb29addd176e7c069339162",
+    "after_sha256": "0be53c0421cca4aaf7fe4cc864e9cc4636b0717d426eb179d583d74dc4ad2b43",
+    "prior_uncertainties": [
+      {
+        "note": "Mrnmeyi ambiguously earth-made woman/eyes; English uses earthen woman provisionally. Bee and moth imagery not conflated. Sunlight in cupped hands retained despite night opening.",
+        "record": "kb/production/translations/batch-059/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Your Colours",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "The humming afternoon has waned,",
+          "Cold, dense night has arrived.",
+          "The earthen woman bears waiting in her eyes,",
+          "A restless beloved, awaiting.",
+          "Dark tresses now laugh,",
+          "They bite at the face.",
+          "Their locks are like she-serpents,",
+          "Tangling for no reason.",
+          "Come, for the woman in separation watches,",
+          "In the empty home the bed is laid.",
+          "There is waiting, yet the heart smiles,",
+          "At every footfall she starts.",
+          "Garlands in the braid are fragrant,",
+          "Chirping to meet the bee.",
+          "The honey-drinker drinks pollen from the garland,",
+          "I stand with cupped hands full of sunlight.",
+          "Moths stand behind the garland,",
+          "Determined to drink its nectar.",
+          "Flowers scattered from the braid,",
+          "The body glowed, becoming gold."
+        ],
+        [
+          "Jamshedpur"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Your Colours",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "The humming afternoon has waned,",
+          "Cold, dense night has arrived.",
+          "The earthen woman bears waiting in her eyes,",
+          "A restless beloved, awaiting.",
+          "Dark tresses now laugh,",
+          "They bite at the face.",
+          "Her locks are like she-serpents,",
+          "Tangling for no reason.",
+          "Come, for the woman in separation watches,",
+          "In the empty home the bed is laid.",
+          "There is waiting, yet the heart smiles,",
+          "At every sound she starts.",
+          "Garlands in the braid are fragrant,",
+          "Chirping to meet the bee.",
+          "The honey-drinker drinks pollen from the garland,",
+          "I stand with cupped hands full of sunlight.",
+          "Moths stand behind the garland,",
+          "Determined to drink its nectar.",
+          "Flowers scattered from the braid,",
+          "The body glowed, becoming gold."
+        ],
+        [
+          "Jamshedpur"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 547,
+    "target": "or",
+    "reading_evidence": "Full twenty-line source and each target plus Jamshedpur: afternoon/night, waiting woman/earthen phrase, laughing biting snake-locks, empty home/bed/smiling heart/startle, fragrant braid garlands/bee/pollen, sunlight cupped in hands, moths/nectar and scattered flowers/golden body.",
+    "reason": "Preserve the startled response to a sound without supplying definite approaching footsteps.",
+    "open_questions": [
+      "Mrnmeyi remains ambiguous between earth-made woman and eyes; English earthen-woman reading remains provisional. Sunlight after night and distinct bees/moths are source features, not silently reconciled."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source images, target verse/stanza boundaries, bylines and raw tails. Source originals remain unchanged.",
+    "full_source_target_read": true,
+    "source_sha256": "5057bd380100c78f24881c3c4a8ee25035ab1d7ae44a3503b40e6d49570245a9",
+    "before_sha256": "810a5fd7970125c6be3195347c2f62fa7799854ae18b562cb6518b0409c4dfe0",
+    "after_sha256": "a1bddbf102a0993acd455677037b8e4b2f04aa73e7f6586a7aed9e82635e72fa",
+    "prior_uncertainties": [
+      {
+        "note": "Mrnmeyi ambiguously earth-made woman/eyes; English uses earthen woman provisionally. Bee and moth imagery not conflated. Sunlight in cupped hands retained despite night opening.",
+        "record": "kb/production/translations/batch-059/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ତୁମ ରଙ୍ଗ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଗୁଣୁଗୁଣୁ ଦିପହର ଢଳିସାରିଛି,",
+          "ଶୀତଳ ଘନ ଯାମିନୀ ଆସିଛି।",
+          "ମୃଣ୍ମୟୀ ଆଖିରେ ଅପେକ୍ଷା ନେଇ,",
+          "ପ୍ରତୀକ୍ଷାରତ ବିକଳ କାମିନୀ।",
+          "କଳା କେଶ ଏବେ ହସୁଛି,",
+          "ମୁହଁକୁ ସେ ଦଂଶୁଛି।",
+          "ନାଗୁଣୀ ପରି ତା'ର ଅଳକା,",
+          "ଅକାରଣେ ସେ ଜଟ ହେଉଛି।",
+          "ଆସ, ବିରହିଣୀ ବାଟ ଚାହେଁ,",
+          "ଶୂନ୍ୟ ନିଳୟରେ ଶେଯ ସଜା।",
+          "ଅପେକ୍ଷା ଅଛି, ତଥାପି ହୃଦୟ ସସ୍ମିତ,",
+          "ପ୍ରତି ପାଦଶବ୍ଦରେ ଚକିତ ହୁଏ।",
+          "ବେଣୀର ଫୁଲମାଳ ମହକୁଛି,",
+          "ଭ୍ରମରକୁ ଭେଟିବାକୁ ଚହକୁଛି।",
+          "ମାଳରୁ ପରାଗ ମଧୁପ ପିଏ,",
+          "ଠିଆହୋଇଛି ଆଞ୍ଜୁଳାଏ ଖରା ନେଇ।",
+          "ପତଙ୍ଗ ଫୁଲମାଳ ଆଢ଼ୁଆଳରେ ଠିଆ,",
+          "ରସ ପିଇବାକୁ ଅଡ଼ିବସିଛି।",
+          "ବେଣୀରୁ ଫୁଲ ବିଛାଡ଼ିହୋଇଗଲା,",
+          "କାୟା କାଞ୍ଚନ ହୋଇ ଝଲସିଉଠିଲା।"
+        ],
+        [
+          "ଜାମସେଦପୁର"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ତୁମ ରଙ୍ଗ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଗୁଣୁଗୁଣୁ ଦିପହର ଢଳିସାରିଛି,",
+          "ଶୀତଳ ଘନ ଯାମିନୀ ଆସିଛି।",
+          "ମୃଣ୍ମୟୀ ଆଖିରେ ଅପେକ୍ଷା ନେଇ,",
+          "ପ୍ରତୀକ୍ଷାରତ ବିକଳ କାମିନୀ।",
+          "କଳା କେଶ ଏବେ ହସୁଛି,",
+          "ମୁହଁକୁ ସେ ଦଂଶୁଛି।",
+          "ନାଗୁଣୀ ପରି ତା'ର ଅଳକା,",
+          "ଅକାରଣେ ସେ ଜଟ ହେଉଛି।",
+          "ଆସ, ବିରହିଣୀ ବାଟ ଚାହେଁ,",
+          "ଶୂନ୍ୟ ନିଳୟରେ ଶେଯ ସଜା।",
+          "ଅପେକ୍ଷା ଅଛି, ତଥାପି ହୃଦୟ ସସ୍ମିତ,",
+          "ପ୍ରତି ଶବ୍ଦରେ ଚକିତ ହୁଏ।",
+          "ବେଣୀର ଫୁଲମାଳ ମହକୁଛି,",
+          "ଭ୍ରମରକୁ ଭେଟିବାକୁ ଚହକୁଛି।",
+          "ମାଳରୁ ପରାଗ ମଧୁପ ପିଏ,",
+          "ଠିଆହୋଇଛି ଆଞ୍ଜୁଳାଏ ଖରା ନେଇ।",
+          "ପତଙ୍ଗ ଫୁଲମାଳ ଆଢ଼ୁଆଳରେ ଠିଆ,",
+          "ରସ ପିଇବାକୁ ଅଡ଼ିବସିଛି।",
+          "ବେଣୀରୁ ଫୁଲ ବିଛାଡ଼ିହୋଇଗଲା,",
+          "କାୟା କାଞ୍ଚନ ହୋଇ ଝଲସିଉଠିଲା।"
+        ],
+        [
+          "ଜାମସେଦପୁର"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

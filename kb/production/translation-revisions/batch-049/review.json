@@ -1,0 +1,228 @@
+{
+  "recorded_at": "2026-10-05T14:49:41.723860+00:00",
+  "poem_ids": [
+    605,
+    597,
+    599,
+    609,
+    591
+  ],
+  "variants_read": 10,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 605,
+      "target": "hi",
+      "reading_evidence": "Read all nine stanzas: prescribed bed/sleep and plate/rice without need, blindness/directions and deaf/mute royal-praise questions, monkey news versus weaverbird home knowledge, new night meaning as lover meeting rather than wine/cupbearer, rice freed from food-prison into labourer hunger/belly/hands, garden possession versus creation/child teeth, colours freed from religion and new word-meanings assembly, closing plate/bed recurrence. Checked each redefinition and actor.",
+      "reason": "Retain the definitions and labourer attachment already clear in Hindi.",
+      "open_questions": [
+        "Rajgan remains provisional royal praise and asar assembly.",
+        "Garden/animals and food-prison images remain unexplained; no political characters assigned.",
+        "Feminine speaker and masculine प्रेमी remain provisional; source does not establish participant genders."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve plain repeated imperatives and surreal child-teeth flowers rather than explaining them.",
+      "full_source_target_read": true,
+      "source_sha256": "a66c4a63ed353775e028ba667e0b103bc5405aa1d04e70901f6b170aff465f8a",
+      "before_sha256": "8c15a07bbfcab109e15443f85fd7b488edad22523492972b7370814ae972d400",
+      "after_sha256": "8c15a07bbfcab109e15443f85fd7b488edad22523492972b7370814ae972d400",
+      "prior_uncertainties": [
+        {
+          "note": "Retains rice/hunger distinction, monkey and weaverbird, religious colours and child teeth images. Source rajgan provisionally rendered royal praise; asar as assembly. Hindi feminine speaker is provisional; source does not grammatically specify gender.",
+          "record": "kb/production/translations/batch-048/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 605,
+      "target": "en",
+      "reading_evidence": "Read all nine stanzas: prescribed bed/sleep and plate/rice without need, blindness/directions and deaf/mute royal-praise questions, monkey news versus weaverbird home knowledge, new night meaning as lover meeting rather than wine/cupbearer, rice freed from food-prison into labourer hunger/belly/hands, garden possession versus creation/child teeth, colours freed from religion and new word-meanings assembly, closing plate/bed recurrence. Checked each redefinition and actor.",
+      "reason": "Attach day-long labour and weariness to the returning worker, not the speaker performing the metaphorical weaving.",
+      "open_questions": [
+        "Rajgan remains provisional royal praise and asar assembly.",
+        "Garden/animals and food-prison images remain unexplained; no political characters assigned."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Same two lines and same bodily image; no separate actor or moral added.",
+      "full_source_target_read": true,
+      "source_sha256": "a66c4a63ed353775e028ba667e0b103bc5405aa1d04e70901f6b170aff465f8a",
+      "before_sha256": "ce0914df5eabee3ef8ce62e201fe41911de0a4833877363ae3a18b183c4331b0",
+      "after_sha256": "61d56613832a93646817cd92a1385b95f2dee31ec3cf05c1ac6362d9a41de733",
+      "prior_uncertainties": [
+        {
+          "note": "Retains rice/hunger distinction, monkey and weaverbird, religious colours and child teeth images. Source rajgan provisionally rendered royal praise; asar as assembly. Hindi feminine speaker is provisional; source does not grammatically specify gender.",
+          "record": "kb/production/translations/batch-048/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 597,
+      "target": "or",
+      "reading_evidence": "Read the continuous lyric and Jamshedpur tail: dense darkness/dry-wet eyes and unfathomed heart; four kohl-ink-letter refrains; mutual Krishna/Radha inhabitation and treasured keeping; earrings/thorn adornment, wax-bound wick/lover warmth, startled running/returning and dark hair tormenting the face. Counted four refrains and checked the gaze, sounds and feminine speaker forms in Hindi source.",
+      "reason": "Keep आहट an unspecified sound rather than adding definite footsteps.",
+      "open_questions": [
+        "Wax/wick/melting subject remains a compressed source metaphor; not rationalized into candle mechanics.",
+        "Dark-tress agency and its face-torment remain the source image without added touch narrative."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "The startle and return remain; no source refrain altered.",
+      "full_source_target_read": true,
+      "source_sha256": "a1da7329f33e676fc2159ab54a43ba34ce49744ba373c046a894b4065227dcf5",
+      "before_sha256": "9bccf7fb7c331428e5fc6aef7f43c834689b7204dca63b14777f27a4d8cfafda",
+      "after_sha256": "9b1cf690b32a4c58494781f0fa231fd8ffd269b56bb35a761083bf5a4fd0e408",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 597,
+      "target": "en",
+      "reading_evidence": "Read the continuous lyric and Jamshedpur tail: dense darkness/dry-wet eyes and unfathomed heart; four kohl-ink-letter refrains; mutual Krishna/Radha inhabitation and treasured keeping; earrings/thorn adornment, wax-bound wick/lover warmth, startled running/returning and dark hair tormenting the face. Counted four refrains and checked the gaze, sounds and feminine speaker forms in Hindi source.",
+      "reason": "Render mutual थाती as treasures entrusted to each other in natural English, and remove the footstep restriction added to आहट.",
+      "open_questions": [
+        "Wax/wick/melting subject remains a compressed source metaphor; not rationalized into candle mechanics.",
+        "Dark-tress agency and its face-torment remain the source image without added touch narrative."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Treasures retains cherished trust without importing inheritance history; all four refrain lines unchanged.",
+      "full_source_target_read": true,
+      "source_sha256": "a1da7329f33e676fc2159ab54a43ba34ce49744ba373c046a894b4065227dcf5",
+      "before_sha256": "0d64690648dffd3a92fe6cadf3d1997d3e769ec18275df3bcc0456ca13f69287",
+      "after_sha256": "37a13e69de35e5e6af5181e1ff83fdb2d6d76497c571b726059fafd1f9c0e846",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 599,
+      "target": "or",
+      "reading_evidence": "Read all nine lines: wrinkles marked more by experience than years, aged youth/new collapsing building, more built structures than years, head-load of brick/stone/sand, concrete civilization weight without tremor/heartbeat, ending soulless garment. Checked Hindi possessive agreement against nouns rather than inferring worker gender.",
+      "reason": "Retain the neutral worker reference, premature-age paradox, material load and garment close.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "No biography or worksite incident supplied; meaning remains compact.",
+      "full_source_target_read": true,
+      "source_sha256": "b89f56e290e81549c04790bb701e201c8dd2e3eb9c82ac5f01ebc473f6bfc1bd",
+      "before_sha256": "5beee61090b5045f7c8db882aab0edf634b64e78c65a688f4b78287ace0e41a5",
+      "after_sha256": "5beee61090b5045f7c8db882aab0edf634b64e78c65a688f4b78287ace0e41a5",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 599,
+      "target": "en",
+      "reading_evidence": "Read all nine lines: wrinkles marked more by experience than years, aged youth/new collapsing building, more built structures than years, head-load of brick/stone/sand, concrete civilization weight without tremor/heartbeat, ending soulless garment. Checked Hindi possessive agreement against nouns rather than inferring worker gender.",
+      "reason": "Remove unsupported male identity: source possessives/participles agree with wrinkles, youth, buildings and carried objects, not conclusively with a male worker.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Singular they retains one worker, including one head, without selecting another gender. No change to the final metaphor.",
+      "full_source_target_read": true,
+      "source_sha256": "b89f56e290e81549c04790bb701e201c8dd2e3eb9c82ac5f01ebc473f6bfc1bd",
+      "before_sha256": "4b923159a612e4f18fba6d7af236179a5a149b63512b8d3dfac564051fc73b3b",
+      "after_sha256": "c5fd379f5f7a903cf06cd6514cddb352fb4e38ae2546f1ddcdf55d1e81ad0109",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 609,
+      "target": "or",
+      "reading_evidence": "Read all three stanzas: collective words weeping/laughing, understanding yet not understanding/being forgotten; failed explanation, speaking/fear/exhaustion, plea for understanding and freedom to speak; turn to singular self-examination; who-you/who-I riddle, renewed birth, understanding life/you, page ink/new colours and writing own story in you. Kept repetitions and we-to-I transition.",
+      "reason": "Retain the complete target after checking plea, repetition and pronoun shifts; no independent correction needed.",
+      "open_questions": [
+        "Final filling with/in new colours leaves its object uncertain; current versions remain provisional about ink/pages/self.",
+        "The shifts between collective words and singular speaker are intentional textual shifts, not normalized to one number."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Do not specify the addressee or explain the final writing-in-you image.",
+      "full_source_target_read": true,
+      "source_sha256": "c455959a89c25b0f7adbb9b9a59314053a58fabe761c27adf265baa55e75125e",
+      "before_sha256": "f04cdd8ce236879811b063d45950f264fb6a6cf104ba2bffeba64aeceb690372",
+      "after_sha256": "f04cdd8ce236879811b063d45950f264fb6a6cf104ba2bffeba64aeceb690372",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 609,
+      "target": "en",
+      "reading_evidence": "Read all three stanzas: collective words weeping/laughing, understanding yet not understanding/being forgotten; failed explanation, speaking/fear/exhaustion, plea for understanding and freedom to speak; turn to singular self-examination; who-you/who-I riddle, renewed birth, understanding life/you, page ink/new colours and writing own story in you. Kept repetitions and we-to-I transition.",
+      "reason": "Retain the complete target after checking plea, repetition and pronoun shifts; no independent correction needed.",
+      "open_questions": [
+        "Final filling with/in new colours leaves its object uncertain; current versions remain provisional about ink/pages/self.",
+        "The shifts between collective words and singular speaker are intentional textual shifts, not normalized to one number."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Do not specify the addressee or explain the final writing-in-you image.",
+      "full_source_target_read": true,
+      "source_sha256": "c455959a89c25b0f7adbb9b9a59314053a58fabe761c27adf265baa55e75125e",
+      "before_sha256": "1f83aedfd9e4fd3110f2cee6301c0ca2563cafd188f493b5aabf4e150aa916b3",
+      "after_sha256": "1f83aedfd9e4fd3110f2cee6301c0ca2563cafd188f493b5aabf4e150aa916b3",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 591,
+      "target": "or",
+      "reading_evidence": "Read all five stanzas: vanished childhood place remaining in memory, siblings entering responsibility, breeze/water/greenery preserving colour and sweetness, protective shadows, changed people and bonds beneath the tree in a search for friends. Checked temporal switches and the last passive loss.",
+      "reason": "Preserve bonds left behind without explicitly making the speaker choose to abandon them.",
+      "open_questions": [
+        "Source trees/its/this tree number and shadow antecedent remain loose; no additional tree identified."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Remained behind keeps loss and location while not assigning intention; new-friend search remains unexpanded.",
+      "full_source_target_read": true,
+      "source_sha256": "18290fbf5d652a3f6bf7d8b6f58605f9f2d6691e647755eb46ff9d07c03ca422",
+      "before_sha256": "a00d843bb4ed188e1ec89b4a6d3ed8cba0eea59c92cbed8636870f02e3f13605",
+      "after_sha256": "1a22476cd8a7b6ffb1e58746e843d8eb8fb7472d77ed3ad3832748919b8fa1bf",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 591,
+      "target": "hi",
+      "reading_evidence": "Read all five stanzas: vanished childhood place remaining in memory, siblings entering responsibility, breeze/water/greenery preserving colour and sweetness, protective shadows, changed people and bonds beneath the tree in a search for friends. Checked temporal switches and the last passive loss.",
+      "reason": "Retain the sensory memories, changed siblings and passive छूट गए; no independent correction needed.",
+      "open_questions": [
+        "Source trees/its/this tree number and shadow antecedent remain loose; no additional tree identified."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "No imposed regret, deliberate betrayal or invented childhood event.",
+      "full_source_target_read": true,
+      "source_sha256": "18290fbf5d652a3f6bf7d8b6f58605f9f2d6691e647755eb46ff9d07c03ca422",
+      "before_sha256": "ab97436ab0742d38ab9abcd5fc9f843fbd50f0705fe3dc9c2f67478a2db87b15",
+      "after_sha256": "ab97436ab0742d38ab9abcd5fc9f843fbd50f0705fe3dc9c2f67478a2db87b15",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

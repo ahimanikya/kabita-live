@@ -1,0 +1,404 @@
+[
+  {
+    "poem_id": 474,
+    "target": "or",
+    "reading_evidence": "Read five source/target stanzas and five refrains: joy/sorrow/tea/childhood, tree shade/rain/song/forgetting sorrow, no complaints and wealth-poverty barrier, talkers/trust/two companions despite others, no grief at separation/hearts/storms/standing together. Repeated casual invitation and friendship register checked.",
+    "reason": "Express standing by each other naturally in Odia rather than importing the Hindi nibhana construction; keep the shared invitation and all refrains.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source voice, cultural objects, recurrent lines, full content and line/stanza counts; same-assistant self-review with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "2e17cd347d490195205324b70a0a1b4e99de432b3fd9fd864023030e0422fe79",
+    "before_sha256": "37f9b3aade965ff5a0832c678f9f8115cec3f39ae2f871cb41f614cfb62f9d3f",
+    "after_sha256": "dfde75929b09209a9d4bce9c123d0b52c040043c1b9b2fba59ff699b00a83977",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଆସ, କେବେ ଏମିତି ଭେଟିବା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ସୁଖଦୁଃଖର କଥା ହେବା,",
+          "ଚାହା ଢୋକେ ଢୋକେ ପିଇବା,",
+          "ପିଲାଦିନର ସ୍ମୃତି ତାଜା କରିବା।",
+          "ଆସ, କେବେ ଏମିତି ଭେଟିବା—"
+        ],
+        [
+          "କୌଣସି ଗଛ ଛାଇରେ ବସିବା,",
+          "ଅବା ଝିପିଝିପି ବର୍ଷାରେ ଭିଜିବା,",
+          "ମିଶିକରି କେଉଁ ଗୀତ ଗାଇବା।",
+          "ଚାଲ, ଦୁଃଖ ଭୁଲି ହସିବା।",
+          "ଆସ, କେବେ ଏମିତି ଭେଟିବା—"
+        ],
+        [
+          "ନଥାଉ ଅଭିମାନ, ନଥାଉ ଅଭିଯୋଗ,",
+          "କେବଳ ସ୍ନେହଭରା ଭେଟଟିଏ ହେଉ।",
+          "ଧନୀପଣ କି ଦାରିଦ୍ର୍ୟ ମଝିରେ ନଆସୁ,",
+          "କେବଳ ନିର୍ମଳ ସ୍ୱଚ୍ଛ ବନ୍ଧୁତା ରହୁ।",
+          "ଆସ, କେବେ ଏମିତି ଭେଟିବା—"
+        ],
+        [
+          "କହିବା ଲୋକ ଯାହା କହୁଥାନ୍ତୁ,",
+          "ପରସ୍ପର ପ୍ରତି ଆମର ପୂର୍ଣ୍ଣ ବିଶ୍ୱାସ ଥାଉ।",
+          "ସବୁ ଅବସ୍ଥାରେ ଆମେ ଦୁହେଁ ସାଥିରେ ରହିବା,",
+          "କିଏ ଆମ ସାଥିରେ ଥାଉ କି ନଥାଉ।",
+          "ଆସ, କେବେ ଏମିତି ଭେଟିବା—"
+        ],
+        [
+          "ବିଛେଦର କିଛି ଦୁଃଖ ନାହିଁ,",
+          "ପରସ୍ପର ହୃଦୟରେ ରହିବା।",
+          "ଝଡ଼ ଆସୁ କି ତୋଫାନ ଆସୁ,",
+          "ପରସ୍ପରର ସାଥି ନିଭାଇବା।",
+          "ଆସ, କେବେ ଏମିତି ଭେଟିବା—"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଆସ, କେବେ ଏମିତି ଭେଟିବା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ସୁଖଦୁଃଖର କଥା ହେବା,",
+          "ଚାହା ଢୋକେ ଢୋକେ ପିଇବା,",
+          "ପିଲାଦିନର ସ୍ମୃତି ତାଜା କରିବା।",
+          "ଆସ, କେବେ ଏମିତି ଭେଟିବା—"
+        ],
+        [
+          "କୌଣସି ଗଛ ଛାଇରେ ବସିବା,",
+          "ଅବା ଝିପିଝିପି ବର୍ଷାରେ ଭିଜିବା,",
+          "ମିଶିକରି କେଉଁ ଗୀତ ଗାଇବା।",
+          "ଚାଲ, ଦୁଃଖ ଭୁଲି ହସିବା।",
+          "ଆସ, କେବେ ଏମିତି ଭେଟିବା—"
+        ],
+        [
+          "ନଥାଉ ଅଭିମାନ, ନଥାଉ ଅଭିଯୋଗ,",
+          "କେବଳ ସ୍ନେହଭରା ଭେଟଟିଏ ହେଉ।",
+          "ଧନୀପଣ କି ଦାରିଦ୍ର୍ୟ ମଝିରେ ନଆସୁ,",
+          "କେବଳ ନିର୍ମଳ ସ୍ୱଚ୍ଛ ବନ୍ଧୁତା ରହୁ।",
+          "ଆସ, କେବେ ଏମିତି ଭେଟିବା—"
+        ],
+        [
+          "କହିବା ଲୋକ ଯାହା କହୁଥାନ୍ତୁ,",
+          "ପରସ୍ପର ପ୍ରତି ଆମର ପୂର୍ଣ୍ଣ ବିଶ୍ୱାସ ଥାଉ।",
+          "ସବୁ ଅବସ୍ଥାରେ ଆମେ ଦୁହେଁ ସାଥିରେ ରହିବା,",
+          "କିଏ ଆମ ସାଥିରେ ଥାଉ କି ନଥାଉ।",
+          "ଆସ, କେବେ ଏମିତି ଭେଟିବା—"
+        ],
+        [
+          "ବିଛେଦର କିଛି ଦୁଃଖ ନାହିଁ,",
+          "ପରସ୍ପର ହୃଦୟରେ ରହିବା।",
+          "ଝଡ଼ ଆସୁ କି ତୋଫାନ ଆସୁ,",
+          "ପରସ୍ପରର ସାଥି ହୋଇ ରହିବା।",
+          "ଆସ, କେବେ ଏମିତି ଭେଟିବା—"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 475,
+    "target": "or",
+    "reading_evidence": "Read all five source/target quatrains: grand buildings/fashion/splendour; electric heaven/concealed swindlers/grand shops/two into ten/stone cities; astonished witness/city racing at risk/clock hands/no discernment or peace; abandoned village livelihoods and shops/regret/fields/threshing floors; all-Hindustan migration/cremation grounds and people of stone. Irony and repeated stone withheld until conclusion preserved.",
+    "reason": "Carry imposing shop-front display rather than literal vertical height; the contrast with lurking swindlers remains. Two into ten retains the source’s unspecified profiteering image.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source voice, cultural objects, recurrent lines, full content and line/stanza counts; same-assistant self-review with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "7d361bdefeb2c815d772b8a7d9d14a10b08e4a70fb06e7703979df25c5e62871",
+    "before_sha256": "e1e5c60f9c16224afa28a66af6cac6913957998fdbee0dd64a1d449ba4b873dc",
+    "after_sha256": "36d9ac4b178d470c25b734ddff64ecfa4ccf684b67f0f641985e115e11587b29",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ନଗରୀକରଣ…",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଉଚ୍ଚ ଉଚ୍ଚ ଅଟ୍ଟାଳିକା, ବଡ଼ ବଡ଼ ଘର,",
+          "ଅତି ସୁନ୍ଦର ଆଉ ବଡ଼ ଭବ୍ୟ;",
+          "ଫେସନ୍‌ପ୍ରିୟ ଲୋକଙ୍କ ନିଆରା ସାଜସଜ୍ଜା,",
+          "ସୁନ୍ଦର ସଜାଣି, ଅନନ୍ୟ ଠାଣିମାଣି।"
+        ],
+        [
+          "ଝଲମଲ ବିଜୁଳି ଆଲୁଅ, ମାଟିକୁ ଓହ୍ଲାଇଛି ଆକାଶ;",
+          "ଛକି ବସିଛନ୍ତି ଠକ, ଉଚ୍ଚ ଦୋକାନ।",
+          "ଦୁଇକୁ ଦଶ କରିବାରେ ଟିକିଏ ଲାଜ ନାହିଁ;",
+          "ଏ ପଥର ସହରମାନଙ୍କ ଅଦ୍ଭୁତ ଗରିମା।"
+        ],
+        [
+          "ନଗର ଦେଖି ଜାଣି ମୁଁ ଚକିତ ରହିଗଲି;",
+          "ସାରା ନଗର ଦୌଡ଼େ, ପାପୁଲିରେ ଜୀବନ ରଖି।",
+          "ଘଣ୍ଟାର କଣ୍ଟା ସହ ସବୁ କାମ କରନ୍ତି;",
+          "ବିବେକ କାହିଁ, ସୁଖଶାନ୍ତି କାହିଁ, ଟିକିଏ ବୋଧ ନାହିଁ।"
+        ],
+        [
+          "କେମିତି ସମୟ ଆସିଥିଲା, ନିଜ ଗାଁଘର ଛାଡ଼ି,",
+          "ନିଜେ ଉଜାଡ଼ିଦେଇଥିଲେ ଜୀବିକା, ଦୋକାନ।",
+          "ନଗରର ଆକର୍ଷଣ ଥିଲା ବଡ଼ ରଙ୍ଗିନ;",
+          "ଏବେ ମୁଣ୍ଡ ପିଟି ପସ୍ତାନ୍ତି—କାହିଁ ଗାଁ, କ୍ଷେତ, ଖଳା?"
+        ],
+        [
+          "ଏ ଗୋଟିଏ ନଗରର କଥା ନୁହେଁ, ସାରା ହିନ୍ଦୁସ୍ତାନର:",
+          "ଗାଁ ଛାଡ଼ି ସହରକୁ ଧାଆଁନ୍ତି, ଶ୍ମଶାନରେ ବସିବାକୁ ପଡ଼େ।",
+          "ଏପରି ସମୟ ଆସିବ ବୋଲି କେହି ଜାଣିନଥିଲେ:",
+          "ପଥର ସହରରେ ବସିବେ ପଥର ମଣିଷ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ନଗରୀକରଣ…",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଉଚ୍ଚ ଉଚ୍ଚ ଅଟ୍ଟାଳିକା, ବଡ଼ ବଡ଼ ଘର,",
+          "ଅତି ସୁନ୍ଦର ଆଉ ବଡ଼ ଭବ୍ୟ;",
+          "ଫେସନ୍‌ପ୍ରିୟ ଲୋକଙ୍କ ନିଆରା ସାଜସଜ୍ଜା,",
+          "ସୁନ୍ଦର ସଜାଣି, ଅନନ୍ୟ ଠାଣିମାଣି।"
+        ],
+        [
+          "ଝଲମଲ ବିଜୁଳି ଆଲୁଅ, ମାଟିକୁ ଓହ୍ଲାଇଛି ଆକାଶ;",
+          "ଛକି ବସିଛନ୍ତି ଠକ, ତାଙ୍କ ଦୋକାନର ବଡ଼ ଠାଟ।",
+          "ଦୁଇକୁ ଦଶ କରିବାରେ ଟିକିଏ ଲାଜ ନାହିଁ;",
+          "ଏ ପଥର ସହରମାନଙ୍କ ଅଦ୍ଭୁତ ଗରିମା।"
+        ],
+        [
+          "ନଗର ଦେଖି ଜାଣି ମୁଁ ଚକିତ ରହିଗଲି;",
+          "ସାରା ନଗର ଦୌଡ଼େ, ପାପୁଲିରେ ଜୀବନ ରଖି।",
+          "ଘଣ୍ଟାର କଣ୍ଟା ସହ ସବୁ କାମ କରନ୍ତି;",
+          "ବିବେକ କାହିଁ, ସୁଖଶାନ୍ତି କାହିଁ, ଟିକିଏ ବୋଧ ନାହିଁ।"
+        ],
+        [
+          "କେମିତି ସମୟ ଆସିଥିଲା, ନିଜ ଗାଁଘର ଛାଡ଼ି,",
+          "ନିଜେ ଉଜାଡ଼ିଦେଇଥିଲେ ଜୀବିକା, ଦୋକାନ।",
+          "ନଗରର ଆକର୍ଷଣ ଥିଲା ବଡ଼ ରଙ୍ଗିନ;",
+          "ଏବେ ମୁଣ୍ଡ ପିଟି ପସ୍ତାନ୍ତି—କାହିଁ ଗାଁ, କ୍ଷେତ, ଖଳା?"
+        ],
+        [
+          "ଏ ଗୋଟିଏ ନଗରର କଥା ନୁହେଁ, ସାରା ହିନ୍ଦୁସ୍ତାନର:",
+          "ଗାଁ ଛାଡ଼ି ସହରକୁ ଧାଆଁନ୍ତି, ଶ୍ମଶାନରେ ବସିବାକୁ ପଡ଼େ।",
+          "ଏପରି ସମୟ ଆସିବ ବୋଲି କେହି ଜାଣିନଥିଲେ:",
+          "ପଥର ସହରରେ ବସିବେ ପଥର ମଣିଷ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 475,
+    "target": "en",
+    "reading_evidence": "Read all five source/target quatrains: grand buildings/fashion/splendour; electric heaven/concealed swindlers/grand shops/two into ten/stone cities; astonished witness/city racing at risk/clock hands/no discernment or peace; abandoned village livelihoods and shops/regret/fields/threshing floors; all-Hindustan migration/cremation grounds and people of stone. Irony and repeated stone withheld until conclusion preserved.",
+    "reason": "Carry the life-in-palm idiom as risking life in the city rush; do not leave a literal hand image that hides the danger. City/stone and cremation-ground images remain as authored.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source voice, cultural objects, recurrent lines, full content and line/stanza counts; same-assistant self-review with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "7d361bdefeb2c815d772b8a7d9d14a10b08e4a70fb06e7703979df25c5e62871",
+    "before_sha256": "c0a86d86fd2f4a1131411f0923c33ff4e9082cc28f84c25121b2a6d7c1b421d5",
+    "after_sha256": "0d232f1163d1e3ca2777483efd792d53e81a8cb7a227e2dd7f8bb9a4cd249925",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Urbanisation…",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Tall, tall buildings, great, great houses,",
+          "extremely beautiful and grand;",
+          "fashionable people in their singular finery,",
+          "lovely decorations, a distinctive splendour."
+        ],
+        [
+          "Glittering lights: heaven descended to earth;",
+          "swindlers lie in wait, their shops imposing.",
+          "They feel no shame in turning two into ten;",
+          "wondrous is the glory of these cities of stone."
+        ],
+        [
+          "I saw and came to know the cities, and was amazed:",
+          "the whole city runs with life held in its palm.",
+          "All its work follows the hands of the clock;",
+          "where is discernment, where happiness and peace—not a trace of awareness."
+        ],
+        [
+          "What a time it was: leaving village homes,",
+          "people themselves laid waste their livelihoods and shops.",
+          "The city's attraction was so colourful;",
+          "now they beat their heads in regret—where are village, fields and threshing floors?"
+        ],
+        [
+          "This is not one city's story, but all Hindustan's:",
+          "leaving villages, fleeing to cities, compelled to settle in cremation grounds.",
+          "No one knew such a time would come:",
+          "in cities of stone, people of stone would dwell."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Urbanisation…",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Tall, tall buildings, great, great houses,",
+          "extremely beautiful and grand;",
+          "fashionable people in their singular finery,",
+          "lovely decorations, a distinctive splendour."
+        ],
+        [
+          "Glittering lights: heaven descended to earth;",
+          "swindlers lie in wait, their shops imposing.",
+          "They feel no shame in turning two into ten;",
+          "wondrous is the glory of these cities of stone."
+        ],
+        [
+          "I saw and came to know the cities, and was amazed:",
+          "the whole city races with its life at stake.",
+          "All its work follows the hands of the clock;",
+          "where is discernment, where happiness and peace—not a trace of awareness."
+        ],
+        [
+          "What a time it was: leaving village homes,",
+          "people themselves laid waste their livelihoods and shops.",
+          "The city's attraction was so colourful;",
+          "now they beat their heads in regret—where are village, fields and threshing floors?"
+        ],
+        [
+          "This is not one city's story, but all Hindustan's:",
+          "leaving villages, fleeing to cities, compelled to settle in cremation grounds.",
+          "No one knew such a time would come:",
+          "in cities of stone, people of stone would dwell."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 481,
+    "target": "or",
+    "reading_evidence": "Read five full stanzas and all fathoming refrains: arrival met with silence/leaving with unawareness; preening swaying river thirsty for centuries/not seeking darya; promised return/open heart/threshold unblinking wait; veena strings/resonance; undefined unexpressed epic and invitation to become Kalidasa. Beloved address, thirst contradiction and final literary allusion retained.",
+    "reason": "Remove added laziness: the river flaunts its bearing and curves, rather than drifting languidly. Preserve unresolved river/sea relation.",
+    "open_questions": [
+      "दरिया may mean river or sea; sea remains contextual provisional choice, not a confirmed source gloss. Third-stanza था in refrain is treated as likely damaged थाह by repetition; original remains untouched."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source voice, cultural objects, recurrent lines, full content and line/stanza counts; same-assistant self-review with independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "6c51ecdfcfecd199114d6b0ae92024e49e0f70a33f7a87a26ed3eef3c6f95b6a",
+    "before_sha256": "82deb42cce16a8c8511cade54f269c33398bed6037315cff6406b5ce03e43a80",
+    "after_sha256": "e272d7bd067922b81534d083c7eddcf4238bad391d723e600acfb5ae03ba236a",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "କିପରି ତୁମ ଥଳ ପାଇବି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୁଁ ଆସିଲେ ସେପଟେ ନୀରବ,",
+          "ଯିବି ବୋଲି କହିଲେ ବେଖବର।",
+          "କିପରି ଭାବ ବୁଝିବି, ପ୍ରିୟ?",
+          "କିପରି ତୁମ ଥଳ ପାଇବି, ପ୍ରିୟ?"
+        ],
+        [
+          "ଅଳସ ଭଙ୍ଗୀରେ ବାଙ୍କି ବହୁଥିବା ନଦୀଟିଏ,",
+          "ତଥାପି ଶୋଷିଲା, ଯେପରି ଅନେକ ଶତାବ୍ଦୀ ଧରି,",
+          "ସାଗର ସହ ମିଶିବାକୁ ଇଚ୍ଛା ନାହିଁ—",
+          "ବୁଝ, ଏ ପ୍ରବାହ କ'ଣ, ପ୍ରିୟ।",
+          "କିପରି ତୁମ ଥଳ ପାଇବି, ପ୍ରିୟ?"
+        ],
+        [
+          "କହୁଥିଲ, ଫେରି ଆସିବି,",
+          "ହୃଦୟ ଖୋଲି ଦେଖାଇବି।",
+          "ଆଖି ଏରୁଣ୍ଡିକୁ ଚାହିଁଛି,",
+          "ଅନିମେଷ ସେଇଠି ଉଙ୍କିମାରୁଛି।",
+          "ଅପଲକେ ବାଟ ଚାହେଁ, ପ୍ରିୟ।",
+          "କିପରି ତୁମ ଥଳ ପାଇବି, ପ୍ରିୟ?"
+        ],
+        [
+          "ମନର ବୀଣାର ତାର ତୁମେ,",
+          "ଝଙ୍କୃତ କରିଦିଅ, ଝଙ୍କାର ତୁମେ।",
+          "ପୁଣି ଗୁଞ୍ଜିବ ସେଇ ବାଦ୍ୟ, ପ୍ରିୟ।",
+          "କିପରି ତୁମ ଥଳ ପାଇବି, ପ୍ରିୟ?"
+        ],
+        [
+          "ଅସୀମ, ଅନନ୍ତ, ଅପରିଭାଷିତ,",
+          "ଅବ୍ୟକ୍ତ ମହାକାବ୍ୟ ପରି;",
+          "ପୁଣି ଏକ ମହାକାବ୍ୟ ରଚି,",
+          "କାଳିଦାସ ହୋଇଯାଅ, ପ୍ରିୟ।",
+          "କିପରି ତୁମ ଥଳ ପାଇବି, ପ୍ରିୟ?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "କିପରି ତୁମ ଥଳ ପାଇବି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ମୁଁ ଆସିଲେ ସେପଟେ ନୀରବ,",
+          "ଯିବି ବୋଲି କହିଲେ ବେଖବର।",
+          "କିପରି ଭାବ ବୁଝିବି, ପ୍ରିୟ?",
+          "କିପରି ତୁମ ଥଳ ପାଇବି, ପ୍ରିୟ?"
+        ],
+        [
+          "ନିଜ ଠାଣି ଦେଖାଇ ବାଙ୍କି ବହୁଥିବା ନଦୀଟିଏ,",
+          "ତଥାପି ଶୋଷିଲା, ଯେପରି ଅନେକ ଶତାବ୍ଦୀ ଧରି,",
+          "ସାଗର ସହ ମିଶିବାକୁ ଇଚ୍ଛା ନାହିଁ—",
+          "ବୁଝ, ଏ ପ୍ରବାହ କ'ଣ, ପ୍ରିୟ।",
+          "କିପରି ତୁମ ଥଳ ପାଇବି, ପ୍ରିୟ?"
+        ],
+        [
+          "କହୁଥିଲ, ଫେରି ଆସିବି,",
+          "ହୃଦୟ ଖୋଲି ଦେଖାଇବି।",
+          "ଆଖି ଏରୁଣ୍ଡିକୁ ଚାହିଁଛି,",
+          "ଅନିମେଷ ସେଇଠି ଉଙ୍କିମାରୁଛି।",
+          "ଅପଲକେ ବାଟ ଚାହେଁ, ପ୍ରିୟ।",
+          "କିପରି ତୁମ ଥଳ ପାଇବି, ପ୍ରିୟ?"
+        ],
+        [
+          "ମନର ବୀଣାର ତାର ତୁମେ,",
+          "ଝଙ୍କୃତ କରିଦିଅ, ଝଙ୍କାର ତୁମେ।",
+          "ପୁଣି ଗୁଞ୍ଜିବ ସେଇ ବାଦ୍ୟ, ପ୍ରିୟ।",
+          "କିପରି ତୁମ ଥଳ ପାଇବି, ପ୍ରିୟ?"
+        ],
+        [
+          "ଅସୀମ, ଅନନ୍ତ, ଅପରିଭାଷିତ,",
+          "ଅବ୍ୟକ୍ତ ମହାକାବ୍ୟ ପରି;",
+          "ପୁଣି ଏକ ମହାକାବ୍ୟ ରଚି,",
+          "କାଳିଦାସ ହୋଇଯାଅ, ପ୍ରିୟ।",
+          "କିପରି ତୁମ ଥଳ ପାଇବି, ପ୍ରିୟ?"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

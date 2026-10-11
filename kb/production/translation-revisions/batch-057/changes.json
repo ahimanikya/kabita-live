@@ -1,0 +1,864 @@
+[
+  {
+    "poem_id": 560,
+    "target": "en",
+    "reading_evidence": "Complete source and target read: ancestor/banyan/star, sun-rain presence, evening tobacco and remembering, kurei/dhangdi/dhangda/salap, leopard eyes, Sarhul/moon/aged cheek, Naxalite boots, rain-paddy tears, tangled life/hunts, clothes and tribute parenthesis.",
+    "reason": "Remove dangling chewing modifier: the remembering we already present in the poem chew after work; he is the one remembered.",
+    "open_questions": [
+      "Prior holds: damaged tribute parenthesis; youth-house interpretation; kurei/salap/dhangdi/dhangda/Sarhul cultural terms; unusual aged-cheek/sour-mango and medium-ironed images. No event verification or new cultural identity."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+    "full_source_target_read": true,
+    "source_sha256": "071385157afa781903134c61ee96119fb94556a41033063b0a3caaa3d26e92a0",
+    "before_sha256": "65f09f3e2200cffc9d5215e489faef1bcc1bd3fb8c935cbe889ceb232728cbcd",
+    "after_sha256": "106c8e788bdff8baf6e5ffbd4677750102c37f96e9fbdf4f0d8c1e665ce1af24",
+    "prior_uncertainties": [
+      {
+        "note": "Damaged final parenthesis read contextually as tribute to Ramakanta Rath; source unchanged. Dhangdi/dhangda, salap, kurei and Sarhul retained; youth-house interpretation provisional. Mature cheek / dried sour mango and medium-ironed clothes are unusual imagery retained. Naxalite boot image not converted to verified event.",
+        "record": "kb/production/translations/batch-055/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "That Man",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "From now on he is",
+          "An ancestor, a spreading banyan",
+          "Standing in a hollow",
+          "Of the hills, above the elephant-headed",
+          "Crest of a bare hill",
+          "The shining evening star.",
+          "Though he is not beside us, we",
+          "Know he must be drenched in sun and rain.",
+          "After work, in the evening's leisure,",
+          "Chewing a couple of mouthfuls of tobacco leaf,",
+          "He will come to mind like a flash of lightning.",
+          "In the twilight intoxicated",
+          "By the scent of kurei flowers, in the youth-house, in the honey",
+          "Of a dhangdi's lips, upon a frenzied dhangda's lips",
+          "He will flare into words, in the scent of salap.",
+          "In the dim light of the first lunar evening, by a forest",
+          "Spring, beneath a bush, eyes blazing,",
+          "On meeting a leopard, he will come to mind.",
+          "In the smooth smile of fresh sal leaves will throb",
+          "The forest's breast, on Sarhul's moonlit night,",
+          "He will be there then, when that same moon",
+          "Again turns, like an aged cheek, into a dried sour-mango stone.",
+          "That night will again, with reckless Naxalite bootfalls,",
+          "Be bloodied over and over, in the city a procession of questions.",
+          "Once he said, when rainwater rolls down",
+          "From the hillock and gathers in the paddy field,",
+          "The earth glitters, all tears.",
+          "So many words, in so many layers",
+          "Life becomes wrapped, in tangled thread!",
+          "In how many doubtful hunts will arrows",
+          "Pierce and leave it wounded and torn!",
+          "In many such chambers he will remain",
+          "And always keep saying something or other",
+          "Wearing a moderately pressed dhoti and shirt,",
+          "That man.",
+          "(A tribute to poet Ramakanta Rath)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "That Man",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "From now on he is",
+          "An ancestor, a spreading banyan",
+          "Standing in a hollow",
+          "Of the hills, above the elephant-headed",
+          "Crest of a bare hill",
+          "The shining evening star.",
+          "Though he is not beside us, we",
+          "Know he must be drenched in sun and rain.",
+          "After work, in the evening's leisure,",
+          "As we chew a couple of mouthfuls of tobacco leaf,",
+          "He will come to mind like a flash of lightning.",
+          "In the twilight intoxicated",
+          "By the scent of kurei flowers, in the youth-house, in the honey",
+          "Of a dhangdi's lips, upon a frenzied dhangda's lips",
+          "He will flare into words, in the scent of salap.",
+          "In the dim light of the first lunar evening, by a forest",
+          "Spring, beneath a bush, eyes blazing,",
+          "On meeting a leopard, he will come to mind.",
+          "In the smooth smile of fresh sal leaves will throb",
+          "The forest's breast, on Sarhul's moonlit night,",
+          "He will be there then, when that same moon",
+          "Again turns, like an aged cheek, into a dried sour-mango stone.",
+          "That night will again, with reckless Naxalite bootfalls,",
+          "Be bloodied over and over, in the city a procession of questions.",
+          "Once he said, when rainwater rolls down",
+          "From the hillock and gathers in the paddy field,",
+          "The earth glitters, all tears.",
+          "So many words, in so many layers",
+          "Life becomes wrapped, in tangled thread!",
+          "In how many doubtful hunts will arrows",
+          "Pierce and leave it wounded and torn!",
+          "In many such chambers he will remain",
+          "And always keep saying something or other",
+          "Wearing a moderately pressed dhoti and shirt,",
+          "That man.",
+          "(A tribute to poet Ramakanta Rath)"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 564,
+    "target": "en",
+    "reading_evidence": "Read complete forty-line source and target: empty night/bombs/flame embers, smoky sky/destruction dance, curfew/innocents/gods/skeleton throne, missing ship, dreams/dead eyes, migrating bird/peace/borders, grieving mother/womb and trembling earth/bhuma.",
+    "reason": "Make the border relation idiomatic: the bird is not stopped by the sky’s boundaries, rather than being forbidden an awkward noun phrase.",
+    "open_questions": [
+      "Bhuma remains provisionally vastness; no named war or location inferred."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+    "full_source_target_read": true,
+    "source_sha256": "6fb70d271bfca5f7a738ed5d326b0301692fa1cdbfab2e6e166e94b0b483a6ac",
+    "before_sha256": "ab1ceb461d4e0b50c9cf23a411fdc17df67920426ca922fa7575cf5d75c091cc",
+    "after_sha256": "221875ea5d6b95c40dc66a557e6178ad09f923fd7b3be4e73c6d292f4d6d7403",
+    "prior_uncertainties": [
+      {
+        "note": "Forty-line stanza retained. Bhuma provisionally vastness; no named war or location added.",
+        "record": "kb/production/translations/batch-055/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "War",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "In night's empty watch",
+          "Unblinking eyelids!",
+          "Under the tremendous assault",
+          "Of destructive bombs",
+          "The breast trembles",
+          "The sleeping world starts awake.",
+          "Through the window appear",
+          "Fire and more fire",
+          "Everywhere the fire of annihilation",
+          "A thousand embers fly",
+          "Tens of thousands of embers",
+          "A storm of sparks spreads",
+          "In every direction.",
+          "The sky's blue breast",
+          "Is smoky with sorrow",
+          "Scattering flowers of flame",
+          "Destruction dances its fierce tandava.",
+          "Curfew in the city",
+          "Hundreds of innocents are bound",
+          "The gods remain silent",
+          "To conquer a realm one needs",
+          "A high throne of piled skeletons.",
+          "In the middle of the sea a ship goes",
+          "Missing",
+          "The desolate wind loses its way",
+          "Dreams cling to dead eyes",
+          "Tears hide in the heat of unseen blood.",
+          "The bird flies into the sky",
+          "In search of a grain of peace",
+          "Changing its address",
+          "The bird is not forbidden",
+          "The sky's frontier bounds.",
+          "The mother breaks into lament",
+          "Blames her fate, her womb",
+          "Striking with her own palms, she curses",
+          "Her accursed, mocked motherhood.",
+          "The breast trembles",
+          "The earth, the vastness tremble",
+          "So grievous, so heart-piercing",
+          "That mother's cry of anguish."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "War",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "In night's empty watch",
+          "Unblinking eyelids!",
+          "Under the tremendous assault",
+          "Of destructive bombs",
+          "The breast trembles",
+          "The sleeping world starts awake.",
+          "Through the window appear",
+          "Fire and more fire",
+          "Everywhere the fire of annihilation",
+          "A thousand embers fly",
+          "Tens of thousands of embers",
+          "A storm of sparks spreads",
+          "In every direction.",
+          "The sky's blue breast",
+          "Is smoky with sorrow",
+          "Scattering flowers of flame",
+          "Destruction dances its fierce tandava.",
+          "Curfew in the city",
+          "Hundreds of innocents are bound",
+          "The gods remain silent",
+          "To conquer a realm one needs",
+          "A high throne of piled skeletons.",
+          "In the middle of the sea a ship goes",
+          "Missing",
+          "The desolate wind loses its way",
+          "Dreams cling to dead eyes",
+          "Tears hide in the heat of unseen blood.",
+          "The bird flies into the sky",
+          "In search of a grain of peace",
+          "Changing its address",
+          "The sky's borders",
+          "Do not bar the bird.",
+          "The mother breaks into lament",
+          "Blames her fate, her womb",
+          "Striking with her own palms, she curses",
+          "Her accursed, mocked motherhood.",
+          "The breast trembles",
+          "The earth, the vastness tremble",
+          "So grievous, so heart-piercing",
+          "That mother's cry of anguish."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 564,
+    "target": "hi",
+    "reading_evidence": "Read complete forty-line source and target: empty night/bombs/flame embers, smoky sky/destruction dance, curfew/innocents/gods/skeleton throne, missing ship, dreams/dead eyes, migrating bird/peace/borders, grieving mother/womb and trembling earth/bhuma.",
+    "reason": "Replace the incomplete prohibition construction with a clear bird/border relation while keeping the two verse lines.",
+    "open_questions": [
+      "Bhuma remains provisionally vastness; no named war or location inferred."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+    "full_source_target_read": true,
+    "source_sha256": "6fb70d271bfca5f7a738ed5d326b0301692fa1cdbfab2e6e166e94b0b483a6ac",
+    "before_sha256": "c391bf359cbc69d74f56b7128452d0f0f5703d445bf1993bca4482c8d763a9bc",
+    "after_sha256": "2f6103fd13fe59dd3e4f17b21d77885f3b5e7e846ec8798df469ac0fab10bac5",
+    "prior_uncertainties": [
+      {
+        "note": "Forty-line stanza retained. Bhuma provisionally vastness; no named war or location added.",
+        "record": "kb/production/translations/batch-055/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "युद्ध",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "रात के सूने पहर में",
+          "निर्निमेष पलकें!",
+          "विनाशकारी बमों के",
+          "प्रचंड प्रहार से",
+          "छाती काँप जाती है",
+          "सोता संसार चौंक उठता है।",
+          "खिड़की से दिखती है",
+          "आग और आग",
+          "चारों ओर प्रलय की अग्नि",
+          "हज़ारों चिंगारियाँ उड़ रही हैं",
+          "अयुत-सहस्र आग के कण",
+          "स्फुलिंगों का तूफ़ान फैल रहा है",
+          "दिशा-दिशा में।",
+          "आकाश का नीला वक्ष",
+          "विषाद में धुआँ-धुआँ",
+          "अग्नि के फूल बिखेरकर",
+          "ध्वंस उग्र तांडव नाचता है।",
+          "शहर में कर्फ़्यू",
+          "सैकड़ों निरपराध बाँधे जाते हैं",
+          "ईश्वर मौन रहते हैं",
+          "राज्य जीतने के लिए चाहिए",
+          "कंकालों के ढेर का ऊँचा सिंहासन।",
+          "समुद्र के बीच पोत हो जाता है",
+          "लापता",
+          "उदास हवा दिशा खो देती है",
+          "मृत आँखों में स्वप्न चिपके रहते हैं",
+          "अनदेखे लहू की तपन में आँसू छिपते हैं।",
+          "पक्षी आकाश में उड़ जाता है",
+          "शांति का दाना खोजते हुए",
+          "अपना पता बदलकर",
+          "पक्षी को मनाही नहीं",
+          "आकाश की सरहदों की।",
+          "माँ विलाप कर उठती है",
+          "अपने भाग्य, अपने गर्भ को दोष देती है",
+          "अपनी हथेलियों से पीट-पीटकर धिक्कारती है",
+          "अपने अभिशप्त, उपहास बने मातृत्व को।",
+          "छाती काँप उठती है",
+          "भूमि और अनंत विस्तार काँप उठते हैं",
+          "बहुत करुण, बहुत मर्मभेदी है",
+          "माँ के उस हाहाकार का स्वर।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "युद्ध",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "रात के सूने पहर में",
+          "निर्निमेष पलकें!",
+          "विनाशकारी बमों के",
+          "प्रचंड प्रहार से",
+          "छाती काँप जाती है",
+          "सोता संसार चौंक उठता है।",
+          "खिड़की से दिखती है",
+          "आग और आग",
+          "चारों ओर प्रलय की अग्नि",
+          "हज़ारों चिंगारियाँ उड़ रही हैं",
+          "अयुत-सहस्र आग के कण",
+          "स्फुलिंगों का तूफ़ान फैल रहा है",
+          "दिशा-दिशा में।",
+          "आकाश का नीला वक्ष",
+          "विषाद में धुआँ-धुआँ",
+          "अग्नि के फूल बिखेरकर",
+          "ध्वंस उग्र तांडव नाचता है।",
+          "शहर में कर्फ़्यू",
+          "सैकड़ों निरपराध बाँधे जाते हैं",
+          "ईश्वर मौन रहते हैं",
+          "राज्य जीतने के लिए चाहिए",
+          "कंकालों के ढेर का ऊँचा सिंहासन।",
+          "समुद्र के बीच पोत हो जाता है",
+          "लापता",
+          "उदास हवा दिशा खो देती है",
+          "मृत आँखों में स्वप्न चिपके रहते हैं",
+          "अनदेखे लहू की तपन में आँसू छिपते हैं।",
+          "पक्षी आकाश में उड़ जाता है",
+          "शांति का दाना खोजते हुए",
+          "अपना पता बदलकर",
+          "पक्षी को नहीं रोकतीं",
+          "आकाश की सरहदें।",
+          "माँ विलाप कर उठती है",
+          "अपने भाग्य, अपने गर्भ को दोष देती है",
+          "अपनी हथेलियों से पीट-पीटकर धिक्कारती है",
+          "अपने अभिशप्त, उपहास बने मातृत्व को।",
+          "छाती काँप उठती है",
+          "भूमि और अनंत विस्तार काँप उठते हैं",
+          "बहुत करुण, बहुत मर्मभेदी है",
+          "माँ के उस हाहाकार का स्वर।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 572,
+    "target": "en",
+    "reading_evidence": "Full five-stanza reading: catastrophe/earth opening/conditional fallen sky, silent celestial bodies, earth becoming desert, turbulent sea/millions of homes/pity, unbearable violence and earth’s lost endurance, freedom taken away, silent addressee’s power, raised hand against boundless lifeless emptiness.",
+    "reason": "Complete stop-earth-from construction so the prevented event is its destruction/desertification, not the earth itself being halted.",
+    "open_questions": [
+      "Opening if-not conditional is unfinished; preserve rather than supply its missing condition. Sea-wave stanza is syntactically fragmentary; current relation and cry of pity stay provisional. Final you is not assigned a named deity or person."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+    "full_source_target_read": true,
+    "source_sha256": "657a5248b7a5d5e9fa211c136c2730cebace73e1ab3cfeafabbc26af7d27f1c2",
+    "before_sha256": "51b11e26d94c0473801b3dfbe9f7c72db60f4b3cc2b06aa84547733c89205458",
+    "after_sha256": "fce2c594bd51f45ba3538877340c78c3c27e7080a5fa43e3eee534e4089fb600",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Cataclysm",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "When cataclysm came",
+          "When at destruction's dreadful roar",
+          "The earth split and gaped",
+          "Then even the lifeless sky",
+          "Would have torn loose and fallen",
+          "Upon the violated earth.",
+          "If not........?"
+        ],
+        [
+          "Then why",
+          "Do sun, moon, stars, planets and constellations stay silent",
+          "Before cataclysm!",
+          "Someone could surely have stopped",
+          "This innocent earth",
+          "Before, shattered and mingled with dust,",
+          "It turned into a desert",
+          "Someone could surely have stopped it!"
+        ],
+        [
+          "The sea's turbulent waves",
+          "Before millions of dwellings",
+          "Were swallowed up",
+          "Someone might have spared a little cry of pity."
+        ],
+        [
+          "So many dreams, anger, hatred",
+          "Loathing and pride",
+          "Of rape and plunder",
+          "The weight is so great",
+          "The will to endure",
+          "The earth is losing.",
+          "It is snatching away",
+          "The freedom to live.",
+          "This world is yours",
+          "You too have the strength",
+          "To stand before it and stop it",
+          "Yet why are you silent?"
+        ],
+        [
+          "If you raised your hand just once",
+          "This world would not suffer this lifeless",
+          "Earth's desolate, boundless emptiness."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Cataclysm",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "When cataclysm came",
+          "When at destruction's dreadful roar",
+          "The earth split and gaped",
+          "Then even the lifeless sky",
+          "Would have torn loose and fallen",
+          "Upon the violated earth.",
+          "If not........?"
+        ],
+        [
+          "Then why",
+          "Do sun, moon, stars, planets and constellations stay silent",
+          "Before cataclysm!",
+          "Someone could surely have stopped",
+          "This innocent earth",
+          "From being shattered, reduced to dust,",
+          "And turned into a desert",
+          "Someone could surely have stopped it!"
+        ],
+        [
+          "The sea's turbulent waves",
+          "Before millions of dwellings",
+          "Were swallowed up",
+          "Someone might have spared a little cry of pity."
+        ],
+        [
+          "So many dreams, anger, hatred",
+          "Loathing and pride",
+          "Of rape and plunder",
+          "The weight is so great",
+          "The will to endure",
+          "The earth is losing.",
+          "It is snatching away",
+          "The freedom to live.",
+          "This world is yours",
+          "You too have the strength",
+          "To stand before it and stop it",
+          "Yet why are you silent?"
+        ],
+        [
+          "If you raised your hand just once",
+          "This world would not suffer this lifeless",
+          "Earth's desolate, boundless emptiness."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 572,
+    "target": "hi",
+    "reading_evidence": "Full five-stanza reading: catastrophe/earth opening/conditional fallen sky, silent celestial bodies, earth becoming desert, turbulent sea/millions of homes/pity, unbearable violence and earth’s lost endurance, freedom taken away, silent addressee’s power, raised hand against boundless lifeless emptiness.",
+    "reason": "Use natural save-from syntax to clarify prevention of the earth’s ruin; keep the source’s repeated closing call to stop it.",
+    "open_questions": [
+      "Opening if-not conditional is unfinished; preserve rather than supply its missing condition. Sea-wave stanza is syntactically fragmentary; current relation and cry of pity stay provisional. Final you is not assigned a named deity or person."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+    "full_source_target_read": true,
+    "source_sha256": "657a5248b7a5d5e9fa211c136c2730cebace73e1ab3cfeafabbc26af7d27f1c2",
+    "before_sha256": "0c8c84a02b4e102491978b974a30af8d6c3f3f198d01ae6e2e911d54828cf0be",
+    "after_sha256": "d0a0089858dba4eead951b5220db2f53ced4c09bcf19bf5cf52dcc20bbb143a0",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "प्रलय",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जब प्रलय आया",
+          "जब ध्वंस के कराल गर्जन से",
+          "धरती फटकर मुँह खोल गई",
+          "तब तो निर्जीव आकाश भी",
+          "टूटकर गिर पड़ता",
+          "इस बलात्कृत धरती पर।",
+          "अगर नहीं........?"
+        ],
+        [
+          "तो फिर क्यों",
+          "सूर्य, चंद्र, तारे, ग्रह और नक्षत्र चुप रहते हैं",
+          "प्रलय के सामने!",
+          "कोई तो रोक सकता था",
+          "इस निर्दोष पृथ्वी को",
+          "तहस-नहस होकर मिट्टी में मिलकर",
+          "मरुभूमि बन जाने से पहले",
+          "कोई तो रोक सकता था!"
+        ],
+        [
+          "समुद्र की उत्ताल तरंगों को",
+          "करोड़ों बसेरे",
+          "लीन हो जाने से पहले",
+          "किसी के मन में तो ज़रा आह उठती।"
+        ],
+        [
+          "कितने स्वप्न, क्रोध, द्वेष",
+          "घृणा और अहंकार",
+          "बलात्कार, लूटपाट का",
+          "भार इतना अधिक है",
+          "सहने की मनःस्थिति",
+          "खोती जा रही है मिट्टी।",
+          "छीन रही है",
+          "जीने की स्वतंत्रता।",
+          "यह विश्व तुम्हारा है",
+          "तुममें भी तो ताक़त है",
+          "सामने से रोक लेने की",
+          "लेकिन तुम चुप क्यों हो?"
+        ],
+        [
+          "एक बार हाथ उठा देते",
+          "तो यह विश्व न भोगता इस जीवनहीन",
+          "पृथ्वी की सूनी, असीम शून्यता।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "प्रलय",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जब प्रलय आया",
+          "जब ध्वंस के कराल गर्जन से",
+          "धरती फटकर मुँह खोल गई",
+          "तब तो निर्जीव आकाश भी",
+          "टूटकर गिर पड़ता",
+          "इस बलात्कृत धरती पर।",
+          "अगर नहीं........?"
+        ],
+        [
+          "तो फिर क्यों",
+          "सूर्य, चंद्र, तारे, ग्रह और नक्षत्र चुप रहते हैं",
+          "प्रलय के सामने!",
+          "कोई तो बचा सकता था",
+          "इस निर्दोष पृथ्वी को",
+          "तहस-नहस होकर मिट्टी में मिलने",
+          "और मरुभूमि बन जाने से",
+          "कोई तो रोक सकता था!"
+        ],
+        [
+          "समुद्र की उत्ताल तरंगों को",
+          "करोड़ों बसेरे",
+          "लीन हो जाने से पहले",
+          "किसी के मन में तो ज़रा आह उठती।"
+        ],
+        [
+          "कितने स्वप्न, क्रोध, द्वेष",
+          "घृणा और अहंकार",
+          "बलात्कार, लूटपाट का",
+          "भार इतना अधिक है",
+          "सहने की मनःस्थिति",
+          "खोती जा रही है मिट्टी।",
+          "छीन रही है",
+          "जीने की स्वतंत्रता।",
+          "यह विश्व तुम्हारा है",
+          "तुममें भी तो ताक़त है",
+          "सामने से रोक लेने की",
+          "लेकिन तुम चुप क्यों हो?"
+        ],
+        [
+          "एक बार हाथ उठा देते",
+          "तो यह विश्व न भोगता इस जीवनहीन",
+          "पृथ्वी की सूनी, असीम शून्यता।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 553,
+    "target": "en",
+    "reading_evidence": "All seven stanzas and Jamshedpur tail read: morning rush/oversleep/self-reproach, crease/cobweb/tea, self-examining and reviewing, boiled-down milk/spicy food/fuss, new alternative, becoming examinee/examiner/reviewer and carefree living.",
+    "reason": "Taking an examination is the source action, not setting one. Clarify the later three roles without the incomplete become-my-own phrase.",
+    "open_questions": [
+      "Jhala/cobweb and food jhal/spicy remain regional readings; the colloquial fuss line remains potentially questioning or resigned. No invented household conflict."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+    "full_source_target_read": true,
+    "source_sha256": "ce4eafb883663f4f235d9f5fab76b335c8bbd523548d8dc324c042bbad5f4dd3",
+    "before_sha256": "60a9693356c4e835cad5d9c15bdea5e96990a13311309f6b3cdee9f04334361f",
+    "after_sha256": "849360709f8ed89ee8d6a4a5c40748690902cdd6c5b26d4280266a9802ad1365",
+    "prior_uncertainties": [
+      {
+        "note": "Jhala provisionally cobweb, jhal in food spicy; regional ambiguity flagged. Khoa retained as reduced milk. Colloquial self-address retained.",
+        "record": "kb/production/translations/batch-055/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Carefree",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "As soon as morning comes, the rush",
+          "Did my eyes close a little too long?",
+          "I curse myself a thousand times",
+          "Always striving to come first."
+        ],
+        [
+          "A little crease remains in the bed",
+          "A little cobweb has formed,",
+          "Come, make the tea first",
+          "The competition is with myself."
+        ],
+        [
+          "We keep setting ourselves examinations",
+          "Then assessing and reviewing",
+          "We must evaluate ourselves",
+          "When is there a wish to live for ourselves?"
+        ],
+        [
+          "The milk boiled down into khoa",
+          "Never mind, what can the wretched thing spoil,",
+          "The vegetable dish turned a little hot",
+          "What to do, let there be a fuss."
+        ],
+        [
+          "Since I found an alternative",
+          "My problems have grown few",
+          "There is no rush now",
+          "When and how, what examination?"
+        ],
+        [
+          "Examinee, examiner, reviewer,",
+          "I have become my own, all by myself",
+          "Once I took this to heart",
+          "What power did other people have?"
+        ],
+        [
+          "Now I live carefree",
+          "I have learned the way to live."
+        ],
+        [
+          "Jamshedpur"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Carefree",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "As soon as morning comes, the rush",
+          "Did my eyes close a little too long?",
+          "I curse myself a thousand times",
+          "Always striving to come first."
+        ],
+        [
+          "A little crease remains in the bed",
+          "A little cobweb has formed,",
+          "Come, make the tea first",
+          "The competition is with myself."
+        ],
+        [
+          "We keep taking examinations ourselves",
+          "Then assessing and reviewing",
+          "We must evaluate ourselves",
+          "When is there a wish to live for ourselves?"
+        ],
+        [
+          "The milk boiled down into khoa",
+          "Never mind, what can the wretched thing spoil,",
+          "The vegetable dish turned a little hot",
+          "What to do, let there be a fuss."
+        ],
+        [
+          "Since I found an alternative",
+          "My problems have grown few",
+          "There is no rush now",
+          "When and how, what examination?"
+        ],
+        [
+          "Examinee, examiner, reviewer—",
+          "Now I am all three for myself",
+          "Once I took this to heart",
+          "What power did other people have?"
+        ],
+        [
+          "Now I live carefree",
+          "I have learned the way to live."
+        ],
+        [
+          "Jamshedpur"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 562,
+    "target": "en",
+    "reading_evidence": "Complete continuous source and target plus tail: couple building home/dreams, pregnancy and kicks/sleeplessness, joyful birth/tiny fingers, growing child/steps, hopes of progress, departure and swallowed tears, promised return/settling far away, breaking dream and silent parents still dreaming of return.",
+    "reason": "Unfold the fronted finger-object into readable English and render bas as the limiting contrast with everything else unchanged, rather than an isolated exclamation.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve all images, stanza/line counts, bylines and raw contributor tail; local syntax changes only.",
+    "full_source_target_read": true,
+    "source_sha256": "95cd475cf305a7a96fbd6e775d0c7a0f2abb5a6912bbaf03aeff63a38497eb30",
+    "before_sha256": "4d477c38372801ed0cc4ebf15754d46ece8050f306b1a0f25a3d7e80d80585eb",
+    "after_sha256": "193a78800ceea5aaaffcc7469ba9bdd288e1ace58d451c826d6c1d886ba6438e",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Dreams Began to Break",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Together we built a home",
+          "Adorned it with hardworking hands",
+          "Together we began weaving dreams",
+          "Then brought you into the world.",
+          "When you were growing in your mother's womb",
+          "I too could not sleep",
+          "You would kick inside the womb",
+          "Your mother would smile too.",
+          "When you came into this world",
+          "Tears of joy spilled over",
+          "Those tiny, tiny fingers we",
+          "Began to touch with great love.",
+          "You were growing very quickly",
+          "Clothes and shoes were growing small",
+          "Holding on to my fingers",
+          "You were taking your steps.",
+          "You lived among us",
+          "For you alone we lived",
+          "May you go further than us",
+          "That was what we both wanted.",
+          "A day came too",
+          "When you went ahead, leaving us behind",
+          "We were watching you go",
+          "Choking down our tears.",
+          "“I will come back,” you had said.",
+          "You went far away and settled there",
+          "The home built with dreams",
+          "Slowly its dream was breaking.",
+          "Everything was as before",
+          "Only! We both fell silent",
+          "One day you would return",
+          "Now that was the dream we were dreaming.",
+          "∎",
+          "Jamshedpur, Jharkhand."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Dreams Began to Break",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Together we built a home",
+          "Adorned it with hardworking hands",
+          "Together we began weaving dreams",
+          "Then brought you into the world.",
+          "When you were growing in your mother's womb",
+          "I too could not sleep",
+          "You would kick inside the womb",
+          "Your mother would smile too.",
+          "When you came into this world",
+          "Tears of joy spilled over",
+          "We began, with such love,",
+          "To touch those tiny, tiny fingers.",
+          "You were growing very quickly",
+          "Clothes and shoes were growing small",
+          "Holding on to my fingers",
+          "You were taking your steps.",
+          "You lived among us",
+          "For you alone we lived",
+          "May you go further than us",
+          "That was what we both wanted.",
+          "A day came too",
+          "When you went ahead, leaving us behind",
+          "We were watching you go",
+          "Choking down our tears.",
+          "“I will come back,” you had said.",
+          "You went far away and settled there",
+          "The home built with dreams",
+          "Slowly its dream was breaking.",
+          "Everything was as before",
+          "Only the two of us fell silent",
+          "One day you would return",
+          "Now that was the dream we were dreaming.",
+          "∎",
+          "Jamshedpur, Jharkhand."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

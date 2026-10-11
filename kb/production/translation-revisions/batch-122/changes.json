@@ -1,0 +1,257 @@
+[
+  {
+    "poem_id": 295,
+    "target": "or",
+    "reading_evidence": "Read all21lines in two blocks and both complete targets: still-seeming beating heart/obedient pet, rustling rebellion/drenched gait, blood escaping through eyes, restless heavy running, weary months-long traveller, rock leap, destination unawareness, weighing sun heat/measuring rock and walking as purpose.",
+    "open_questions": [
+      "Its/it shifts between heart, blood and imagined traveller remain source ambiguity; drenched gait and blood through eyes are poetic images, not medical assertions."
+    ],
+    "reason": "Render being unaware of ones destination as natural Odia, avoiding wording that makes the traveller unknown about a goal; preserve repeated forward movement.",
+    "tradeoff": "Read each target directly against the full source; preserve political/devotional register and unresolved source wording. Same-assistant self-review only.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "5f991774bd452bf521a9b9e0696de104df16ab563d104b5817b1a7b55a28149c",
+    "before_sha256": "d29503f2973404b342d5cb800489b522af5e7b1f4e604f1f38ddc7b728dcc0dd",
+    "after_sha256": "18f9c96d2d0f0ee6d1f24b30c23d2e6bbf673c3bd745608acbcfa283a2fbbcbf",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଅନନ୍ୟ ଚାଲି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ହୃଦୟ ସ୍ଥିର ପରି ଲାଗିବାକୁ ଲାଗିଛି",
+          "ଯଦିଓ ସେ ସ୍ପନ୍ଦିତ ହୁଏ",
+          "ନିଜ ବେଗରେ",
+          "ଆଉ ଚାଲିଥାଏ",
+          "କୌଣସି ଆଜ୍ଞାକାରୀ ପୋଷା ପଶୁ ପରି"
+        ],
+        [
+          "ହଁ, କିନ୍ତୁ",
+          "ବିଦ୍ରୋହ ବି ତା' ଭିତରେ ପ୍ରାୟ ସରସର ହୁଏ",
+          "ତା' ଚାଲି ଭିଜିଯାଏ",
+          "ତା' ଭିତରେ ବହୁଥିବା ରକ୍ତ",
+          "ନିଜ ବାଟ ଖୋଜିନିଏ",
+          "ଆଖିର ଦୁଆର ଦେଇ",
+          "ଅଶାନ୍ତ ବ୍ୟାକୁଳ ହୋଇ ଧାଇଁବାକୁ ଲାଗେ ସେ",
+          "ଭାରୀ ପାଦରେ",
+          "ଯେମିତି ବହୁ ମାସର କ୍ଳାନ୍ତ ପଥିକ",
+          "ଆଗକୁ ବଢ଼ିଚାଲେ",
+          "ଯେମିତି ତାକୁ ପଥର ଲଂଘିବାକୁ ଅଛି",
+          "ନିଜ ଲକ୍ଷ୍ୟ ବିଷୟରେ ଅଜଣା",
+          "କେବେ ସୂର୍ଯ୍ୟର ତାପ ତଉଲେ",
+          "ତ କେବେ ପଥରର ଲମ୍ବ ମାପେ",
+          "ଆଗକୁ ବଢ଼ିଚାଲେ",
+          "ଯେମିତି ଚାଲିବା ହିଁ ତା' ଉଦ୍ଦେଶ୍ୟ"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଅନନ୍ୟ ଚାଲି",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ହୃଦୟ ସ୍ଥିର ପରି ଲାଗିବାକୁ ଲାଗିଛି",
+          "ଯଦିଓ ସେ ସ୍ପନ୍ଦିତ ହୁଏ",
+          "ନିଜ ବେଗରେ",
+          "ଆଉ ଚାଲିଥାଏ",
+          "କୌଣସି ଆଜ୍ଞାକାରୀ ପୋଷା ପଶୁ ପରି"
+        ],
+        [
+          "ହଁ, କିନ୍ତୁ",
+          "ବିଦ୍ରୋହ ବି ତା' ଭିତରେ ପ୍ରାୟ ସରସର ହୁଏ",
+          "ତା' ଚାଲି ଭିଜିଯାଏ",
+          "ତା' ଭିତରେ ବହୁଥିବା ରକ୍ତ",
+          "ନିଜ ବାଟ ଖୋଜିନିଏ",
+          "ଆଖିର ଦୁଆର ଦେଇ",
+          "ଅଶାନ୍ତ ବ୍ୟାକୁଳ ହୋଇ ଧାଇଁବାକୁ ଲାଗେ ସେ",
+          "ଭାରୀ ପାଦରେ",
+          "ଯେମିତି ବହୁ ମାସର କ୍ଳାନ୍ତ ପଥିକ",
+          "ଆଗକୁ ବଢ଼ିଚାଲେ",
+          "ଯେମିତି ତାକୁ ପଥର ଲଂଘିବାକୁ ଅଛି",
+          "ନିଜ ଗନ୍ତବ୍ୟ ନ ଜାଣି",
+          "କେବେ ସୂର୍ଯ୍ୟର ତାପ ତଉଲେ",
+          "ତ କେବେ ପଥରର ଲମ୍ବ ମାପେ",
+          "ଆଗକୁ ବଢ଼ିଚାଲେ",
+          "ଯେମିତି ଚାଲିବା ହିଁ ତା' ଉଦ୍ଦେଶ୍ୟ"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 301,
+    "target": "en",
+    "reading_evidence": "Read all42source lines and both targets across ten quatrains plus repeated final couplet: sky/body/desire, lustful bees, Panchali/Sita/Ravana, Ganga/Gita/Gayatri/tulsi/Vrindavan, Gargi/Kashi/Kaaba, bodily adornment/dharma/culture, hair/eyelids/dreams, earth bracelet/resolve kohl/tripundra/octave, saffron/Rannachandi/bud-Kali, Tripurasundari/Chhinnamastika and virtue. Preserve the source religious contrast and admonitory gendered register, not endorsement or factual myth correction.",
+    "open_questions": [
+      "Sati in the ruin line may refer to virtue/chastity or a figure; existing abstraction remains provisional.",
+      "Sanvaran/kaya-maya attachment and the unexpressed recipient of pride remain source questions. Bud/Kali sound-play has only partial target transfer; no explanatory lines added."
+    ],
+    "reason": "Remove an unsupported age assignment from feminine री मूरख while preserving the rebuke; the source does not specify a girl rather than an adult addressee.",
+    "tradeoff": "Read each target directly against the full source; preserve political/devotional register and unresolved source wording. Same-assistant self-review only.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "7bd410998e3abe69c4b7a95d84f5c3c2fea48909f8693d8df7f89181c7acc6c8",
+    "before_sha256": "a4e15000c630e27846ed7e61622684002480b215dc75b91bded3cc17a4c87a01",
+    "after_sha256": "bf357a41f5dde4919f765cb90bf580b10bcf538cefc2d3b7673dac846f117aca",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Chhinnamastika",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "For a new creation, a piece of sky",
+          "gazes at your face each moment.",
+          "Foolish girl, give up this obstinacy now;",
+          "this body is an ocean of desire."
+        ],
+        [
+          "Do not be enchanted by the songs",
+          "of lustful bees circling every moment;",
+          "they corrupt the path and corrupt your dharma,",
+          "and you may lose your very life."
+        ],
+        [
+          "You are no chaste Panchali,",
+          "whose garment keeps growing;",
+          "where is Sita left within you,",
+          "whose blade of grass could frighten Ravana?"
+        ],
+        [
+          "You are sandalwood grown",
+          "in the land of Ganga, Gita and Gayatri;",
+          "you are a cluster of tulsi blossoms—",
+          "wherever it falls becomes Vrindavan."
+        ],
+        [
+          "Become Gargi and add to our pride,",
+          "but do not grow lustful and add to the heat.",
+          "You belong to Kashi, not Kaaba;",
+          "no longer bring chastity to ruin."
+        ],
+        [
+          "Abandon the greed to adorn the body,",
+          "to clothe the body in illusion.",
+          "Do not forget the verses of your own dharma;",
+          "do not shame your culture."
+        ],
+        [
+          "Those who, holding the cord of your curls,",
+          "have slipped behind your eyelids—",
+          "the imagined dreams of spring,",
+          "sweep them away with your own lashes."
+        ],
+        [
+          "Wear the earth as your bracelet,",
+          "resolve as kohl in your eyes;",
+          "wear the tripundra upon your brow,",
+          "set the octave's strings vibrating."
+        ],
+        [
+          "Wear a saffron veil,",
+          "enter battle as Rannachandi;",
+          "from a bud become Kali,",
+          "clip the insolent ones' wings with courage."
+        ],
+        [
+          "If becoming Tripurasundari",
+          "is the longing in your heart,",
+          "then Chhinnamastika too",
+          "you must become for your own virtue's sake."
+        ],
+        [
+          "Then Chhinnamastika too",
+          "you must become for your own virtue's sake."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Chhinnamastika",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "For a new creation, a piece of sky",
+          "gazes at your face each moment.",
+          "Foolish one, give up this obstinacy now;",
+          "this body is an ocean of desire."
+        ],
+        [
+          "Do not be enchanted by the songs",
+          "of lustful bees circling every moment;",
+          "they corrupt the path and corrupt your dharma,",
+          "and you may lose your very life."
+        ],
+        [
+          "You are no chaste Panchali,",
+          "whose garment keeps growing;",
+          "where is Sita left within you,",
+          "whose blade of grass could frighten Ravana?"
+        ],
+        [
+          "You are sandalwood grown",
+          "in the land of Ganga, Gita and Gayatri;",
+          "you are a cluster of tulsi blossoms—",
+          "wherever it falls becomes Vrindavan."
+        ],
+        [
+          "Become Gargi and add to our pride,",
+          "but do not grow lustful and add to the heat.",
+          "You belong to Kashi, not Kaaba;",
+          "no longer bring chastity to ruin."
+        ],
+        [
+          "Abandon the greed to adorn the body,",
+          "to clothe the body in illusion.",
+          "Do not forget the verses of your own dharma;",
+          "do not shame your culture."
+        ],
+        [
+          "Those who, holding the cord of your curls,",
+          "have slipped behind your eyelids—",
+          "the imagined dreams of spring,",
+          "sweep them away with your own lashes."
+        ],
+        [
+          "Wear the earth as your bracelet,",
+          "resolve as kohl in your eyes;",
+          "wear the tripundra upon your brow,",
+          "set the octave's strings vibrating."
+        ],
+        [
+          "Wear a saffron veil,",
+          "enter battle as Rannachandi;",
+          "from a bud become Kali,",
+          "clip the insolent ones' wings with courage."
+        ],
+        [
+          "If becoming Tripurasundari",
+          "is the longing in your heart,",
+          "then Chhinnamastika too",
+          "you must become for your own virtue's sake."
+        ],
+        [
+          "Then Chhinnamastika too",
+          "you must become for your own virtue's sake."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

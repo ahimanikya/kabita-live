@@ -1,0 +1,104 @@
+{
+  "recorded_at": "2026-10-05T14:04:35.993146+00:00",
+  "poem_ids": [
+    654,
+    655
+  ],
+  "variants_read": 4,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 654,
+      "target": "or",
+      "reading_evidence": "Read full30-line English source and both targets/title: heartbeat hush/breath memory/love shadows smoke/old-glass light; unspoken hurts nest beneath ribs where laughter lived and torn enduring soul carried silence; music honours rather than fills silence, twilight notes-sighs/lyric echoes after voice; small stories containing lifetimes, lingering glance/trembling touch/meaningful silence; time-tenderness-wise sorrow-hope stitch these together, hope still quietly waiting in darkness. Preserve low emotional volume and isolated waiting effect without an uplifting resolution.",
+      "reason": "Make time, tenderness, sorrow and hope the agents stitching the small stories together.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Active phrasing removes an in-time/in-tenderness reading and restores together explicitly. Four lines remain four; hope continues into the unchanged waiting ending.",
+      "full_source_target_read": true,
+      "source_sha256": "88d3cda40ee5dccd5563320bcbda0f5934cb3e14e9d406b01099beb8e6f2ae4f",
+      "before_sha256": "10c5c888e80437873fed6d9dbdc969be7e8e954934a6126cae6d6ef8fc052a17",
+      "after_sha256": "baba2bd22559eaf3a6958703b6759b02124b50f2f1cbcc971b6a3ff77d0fe4e7",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 654,
+      "target": "hi",
+      "reading_evidence": "Read full30-line English source and both targets/title: heartbeat hush/breath memory/love shadows smoke/old-glass light; unspoken hurts nest beneath ribs where laughter lived and torn enduring soul carried silence; music honours rather than fills silence, twilight notes-sighs/lyric echoes after voice; small stories containing lifetimes, lingering glance/trembling touch/meaningful silence; time-tenderness-wise sorrow-hope stitch these together, hope still quietly waiting in darkness. Preserve low emotional volume and isolated waiting effect without an uplifting resolution.",
+      "reason": "Let the stitching verb agree with the full coordinated list of agents.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Time, tenderness, sorrow and hope remain equally part of the stitching; no image or emotional interpretation added.",
+      "full_source_target_read": true,
+      "source_sha256": "88d3cda40ee5dccd5563320bcbda0f5934cb3e14e9d406b01099beb8e6f2ae4f",
+      "before_sha256": "8796230d9ae661e107dd5890beda5dc782d1fa849cb01489ffbbceca9f3f8eae",
+      "after_sha256": "3b0089174cc84759341ec2991e64d1c089b4610cc1bfa2e3b998b395a824fc46",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 655,
+      "target": "hi",
+      "reading_evidence": "Read all four source stanzas and both targets/title: sun absent behind darkness/stars stare at dry eyes of girl who wanted river; jazzy water/aquatic excitement/unseen stream/boat not pushed across, abandoned floral anchal shining on alluvial island; moonlight sprinkled/moon leaves/indifferent wind carries night-jasmine cry; devoted girl waits riverside/seeks trisul/becomes Durga. Preserve unusual aquatic syntax and transformation, without explaining a real event or replacing Durga.",
+      "reason": "Keep the thrown-object relative clause adjacent to the anchal in the existing provisional reading.",
+      "open_questions": [
+        "Compressed aquatic syntax and jazzy as visually bright remain provisional.",
+        "Anchal as the object thrown remains the existing provisional interpretation; repositioned relative clause clarifies that reading, not author confirmation of source attachment.",
+        "Flowery anchal could be patterned or otherwise flower-decorated; Odia floral-print reading remains provisional.",
+        "Night jasmine species not established; existing generic rendering retained without botanical substitution."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Reorders the same three lines without adding action, interpretation of aquatic passage or source certainty. Island remains the place where the cloth shines.",
+      "full_source_target_read": true,
+      "source_sha256": "2a2cecbffcef3e8f51b1075eb93467c2dbc6e193e99e25bc095f18e5d19fba71",
+      "before_sha256": "17cb8f4a86c0cb77b086376e1a4ccd01aff94083b833899f9c127c6d461fbbd1",
+      "after_sha256": "ecf15bf756161810368e122e8efcaa0bdf65209b8f9831aaecc6023ae54bf41c",
+      "prior_uncertainties": [
+        {
+          "note": "Compressed aquatic syntax is provisional: jazzy as visually bright, boat does not cross, abandoned floral anchal on alluvial island. Requires native/editorial review.",
+          "record": "kb/production/translations/batch-040/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 655,
+      "target": "or",
+      "reading_evidence": "Read all four source stanzas and both targets/title: sun absent behind darkness/stars stare at dry eyes of girl who wanted river; jazzy water/aquatic excitement/unseen stream/boat not pushed across, abandoned floral anchal shining on alluvial island; moonlight sprinkled/moon leaves/indifferent wind carries night-jasmine cry; devoted girl waits riverside/seeks trisul/becomes Durga. Preserve unusual aquatic syntax and transformation, without explaining a real event or replacing Durga.",
+      "reason": "Clarify the existing cloth-relative relation without suggesting that the island was thrown.",
+      "open_questions": [
+        "Compressed aquatic syntax and jazzy as visually bright remain provisional.",
+        "Anchal as the object thrown remains the existing provisional interpretation; repositioned relative clause clarifies that reading, not author confirmation of source attachment.",
+        "Flowery anchal could be patterned or otherwise flower-decorated; Odia floral-print reading remains provisional.",
+        "Night jasmine species not established; existing generic rendering retained without botanical substitution."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Same three target lines reordered; uncertain source imagery remains explicitly held outside the poem.",
+      "full_source_target_read": true,
+      "source_sha256": "2a2cecbffcef3e8f51b1075eb93467c2dbc6e193e99e25bc095f18e5d19fba71",
+      "before_sha256": "fc74b5c9e4775c9455b76392447a4cd391d7a5bb29168208a0111fd1a47b36bc",
+      "after_sha256": "cf27f66df876b6487e5abbfa3ea075aae9c43540d0a01ccd7cc3318376c96858",
+      "prior_uncertainties": [
+        {
+          "note": "Compressed aquatic syntax is provisional: jazzy as visually bright, boat does not cross, abandoned floral anchal on alluvial island. Requires native/editorial review.",
+          "record": "kb/production/translations/batch-040/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

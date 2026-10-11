@@ -1,0 +1,291 @@
+{
+  "recorded_at": "2026-10-06T05:51:27.158802+00:00",
+  "poem_ids": [
+    147,
+    105,
+    106,
+    107,
+    108
+  ],
+  "variants_read": 10,
+  "variants_changed": 7,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 147,
+      "target": "or",
+      "reading_evidence": "Read full four source and target stanzas (5/5/5/6): border walls/land-water lines/open sky and humanity; daughters flight/clothes/time/inner lives; screens and fragmented household/relationships/love; caste-religion enmity and earth laughing/world-family. Independently read this distinct version despite overlap with145; its additional refrain and four stanzas preserved.",
+      "open_questions": [
+        "Clothing line compresses daughters agency and social restrictions; do not invent who imposes a dress code. Final conditional grammar remains compressed in source.",
+        "Odia Kash borrowing remains a register question for fluent review, not assumed mistranslation."
+      ],
+      "reason": "Replace imported flight-filling collocation with idiomatic flying without fear.",
+      "tradeoff": "Preserve source imagery, register, stanza and line counts; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "bdb7a9b6b2e124631dc173bef2cf282b5b7150362cbffea70122fe46f49bea83",
+      "before_sha256": "ef5ea84ae5ef084142412ba8670d9d83607cce6f5fa48e05f673ccaf45c49860",
+      "after_sha256": "17f8ad7df65f1d368a9f2efb80324defcf866297da817601ba9d0f1976b48046",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 147,
+      "target": "en",
+      "reading_evidence": "Read full four source and target stanzas (5/5/5/6): border walls/land-water lines/open sky and humanity; daughters flight/clothes/time/inner lives; screens and fragmented household/relationships/love; caste-religion enmity and earth laughing/world-family. Independently read this distinct version despite overlap with145; its additional refrain and four stanzas preserved.",
+      "open_questions": [
+        "Clothing line compresses daughters agency and social restrictions; do not invent who imposes a dress code. Final conditional grammar remains compressed in source.",
+        "Odia Kash borrowing remains a register question for fluent review, not assumed mistranslation."
+      ],
+      "reason": "Remove redundant border-wall nominal calque; preserve wish and plural walls.",
+      "tradeoff": "Preserve source imagery, register, stanza and line counts; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "bdb7a9b6b2e124631dc173bef2cf282b5b7150362cbffea70122fe46f49bea83",
+      "before_sha256": "862c35dd9541c1f102a2212ff06014084b8a6d43fafdae2a63e2b79f2d12a442",
+      "after_sha256": "f932527bc2665bde1ace91269fe5069141e7dc5469550e39b7928dcd5bcb1cb3",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 105,
+      "target": "or",
+      "reading_evidence": "Read all nine complete source/target blocks: broad vacuum trench separating present/future; parallel definitions of being/doing/wishing; cliff fall/routine as settlement; question and nothingness/Ashoka analogy; hapless smile and alternate self-made future/Siddhartha analogy; prevention question/dream rope; steady faith/effort and dark settled lives; confident refusal to fall and contented smile. Checked all dialogue turns, either/or alternatives, present-future parallels, sharp rope and settlement recurrence.",
+      "open_questions": [
+        "Historical names and transformations are the sources philosophical analogies, not newly verified history.",
+        "Hindi masculine dialogue voices remain provisional; source identifies questioner as he, but not narrator gender.",
+        "Nobody/nowhere and full-of-yourself carry philosophical and idiomatic tension; retain without inventing a doctrinal explanation."
+      ],
+      "reason": "Place the between phrase in natural Odia order while preserving its four-line suspension; repair malformed either/or construction.",
+      "tradeoff": "The alternative now explicitly refers back to accepting nothingness; this makes the implicit instruction grammatical without changing either route. Four opening lines retained, no tail offsets.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 59,
+        "before_lines": [
+          10,
+          14,
+          18,
+          27,
+          32,
+          39,
+          47,
+          56
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "0413245982f22bf317a78168c40d45b056afc59e49e1be54c36b6a89fd9d4878",
+      "before_sha256": "63d2985f35c18ca1ce0fce5426f74b05a70e0f416854f1dd87316020e651a7fd",
+      "after_sha256": "481f864f6820ce049089e3ea8c886db05492459d05cc09f977406742ab023793",
+      "prior_uncertainties": [
+        {
+          "note": "Present/future trench, settlement double sense, rope and all dialogue preserved. ChandAshoka/DharmAshoka and Siddhartha/Shakyamuni claims are source analogies, not newly verified history. Hindi male dialogue voices provisional.",
+          "record": "kb/production/translations/batch-153/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 105,
+      "target": "hi",
+      "reading_evidence": "Read all nine complete source/target blocks: broad vacuum trench separating present/future; parallel definitions of being/doing/wishing; cliff fall/routine as settlement; question and nothingness/Ashoka analogy; hapless smile and alternate self-made future/Siddhartha analogy; prevention question/dream rope; steady faith/effort and dark settled lives; confident refusal to fall and contented smile. Checked all dialogue turns, either/or alternatives, present-future parallels, sharp rope and settlement recurrence.",
+      "open_questions": [
+        "Historical names and transformations are the sources philosophical analogies, not newly verified history.",
+        "Hindi masculine dialogue voices remain provisional; source identifies questioner as he, but not narrator gender.",
+        "Nobody/nowhere and full-of-yourself carry philosophical and idiomatic tension; retain without inventing a doctrinal explanation."
+      ],
+      "reason": "Repair inverted English-shaped postposition while retaining the four-line pause.",
+      "tradeoff": "Preserve source imagery, register, stanza and line counts; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 59,
+        "before_lines": [
+          10,
+          14,
+          18,
+          27,
+          32,
+          39,
+          47,
+          56
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "0413245982f22bf317a78168c40d45b056afc59e49e1be54c36b6a89fd9d4878",
+      "before_sha256": "0dbacb07e0634a67f507480e57d78f78f495d35dce2d257b148f6f744864c63e",
+      "after_sha256": "1d90dc746cd7d86e45248324b11d32ad59ecd9b26b9a6e6fcab39964328e808a",
+      "prior_uncertainties": [
+        {
+          "note": "Present/future trench, settlement double sense, rope and all dialogue preserved. ChandAshoka/DharmAshoka and Siddhartha/Shakyamuni claims are source analogies, not newly verified history. Hindi male dialogue voices provisional.",
+          "record": "kb/production/translations/batch-153/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 106,
+      "target": "or",
+      "reading_evidence": "Read all eleven complete source/target couplets: dawn/saffron reflections; living/nonliving glow; plants/afforestation and osmosis foodmaking; seed-to-tree growth; mother nature/species; endless creation and daily work; divine nature/provider; equality versus segregation; service/saving humanity and balance; ant-to-elephant shared planet; civilization and equality. Checked coupled lineation, profession/passion personification, biological wording and collective ethical ending.",
+      "open_questions": [
+        "Source osmosis food-making claim remains held for editorial reconciliation; never silently change it to photosynthesis.",
+        "Closure is provisionally interpreted as closer; author confirmation remains necessary. Source afforestation-as-agent and tiny-seed timescale remain source peculiarities."
+      ],
+      "reason": "Retain after complete reading: existing target carries the couplets and ethical argument; source scientific/lexical questions do not justify rewriting the poem.",
+      "tradeoff": "Preserve source imagery, register, stanza and line counts; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "cf0f92c203bf938349a1c583da9678401d2f2f4d3960c5a13677798a99981d07",
+      "before_sha256": "0a0dc6ca649998bc38bb610e279e03b2e72d9684c9e3d9eaa5ea8347850ac044",
+      "after_sha256": "0a0dc6ca649998bc38bb610e279e03b2e72d9684c9e3d9eaa5ea8347850ac044",
+      "prior_uncertainties": [
+        {
+          "note": "Source osmosis used for food-making retained rather than silently corrected to photosynthesis; botanical claim requires editorial reconciliation. closure provisionally read closer; saffon/afforetation spelling normalized only in translations. Eleven couplets retained.",
+          "record": "kb/production/translations/batch-153/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 106,
+      "target": "hi",
+      "reading_evidence": "Read all eleven complete source/target couplets: dawn/saffron reflections; living/nonliving glow; plants/afforestation and osmosis foodmaking; seed-to-tree growth; mother nature/species; endless creation and daily work; divine nature/provider; equality versus segregation; service/saving humanity and balance; ant-to-elephant shared planet; civilization and equality. Checked coupled lineation, profession/passion personification, biological wording and collective ethical ending.",
+      "open_questions": [
+        "Source osmosis food-making claim remains held for editorial reconciliation; never silently change it to photosynthesis.",
+        "Closure is provisionally interpreted as closer; author confirmation remains necessary. Source afforestation-as-agent and tiny-seed timescale remain source peculiarities."
+      ],
+      "reason": "Retain after complete reading: existing target carries the couplets and ethical argument; source scientific/lexical questions do not justify rewriting the poem.",
+      "tradeoff": "Preserve source imagery, register, stanza and line counts; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "cf0f92c203bf938349a1c583da9678401d2f2f4d3960c5a13677798a99981d07",
+      "before_sha256": "fda94671fc38bec644364f908bda4f8cc201c745207e0256cbda3a966652103a",
+      "after_sha256": "fda94671fc38bec644364f908bda4f8cc201c745207e0256cbda3a966652103a",
+      "prior_uncertainties": [
+        {
+          "note": "Source osmosis used for food-making retained rather than silently corrected to photosynthesis; botanical claim requires editorial reconciliation. closure provisionally read closer; saffon/afforetation spelling normalized only in translations. Eleven couplets retained.",
+          "record": "kb/production/translations/batch-153/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 107,
+      "target": "or",
+      "reading_evidence": "Read all nine source/target triplets: evening invitation after a long gap; all-night wait with morning enjambment; poem about absent poem; waiting/nonarrival/absence; explicitly denied child/brick-pillow pathos; denied emotional manipulation/blandness; nothing-happens paradox; poem waiting for us; all poems asleep on bricks dreaming of new poet. Checked personification, negations, repeated arrival/wait, return of previously negated child image and both perhaps qualifications.",
+      "open_questions": [
+        "Hindi masculine narrator remains provisional; no inference from author identity."
+      ],
+      "reason": "Restore ongoing waiting in has been awaiting, rather than completed past waiting.",
+      "tradeoff": "Preserve source imagery, register, stanza and line counts; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "9b7c04b9735591a9d011e2b01506baa881f797fd5762e7bfbffc498f138ffdf1",
+      "before_sha256": "d790e429d467e01d7fb8eaf808740d37c4f03f5d0bca06d7866218e7f3943f35",
+      "after_sha256": "5676352aa16ad953319575add64f27ad31bdc51e5ae33544e2a2d0e5f6f81127",
+      "prior_uncertainties": [
+        {
+          "note": "Nine triplets retained, including the morning enjambment, negated child image returning in the last stanza and nothing-happens paradox. Hindi male narrator provisional.",
+          "record": "kb/production/translations/batch-153/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 107,
+      "target": "hi",
+      "reading_evidence": "Read all nine source/target triplets: evening invitation after a long gap; all-night wait with morning enjambment; poem about absent poem; waiting/nonarrival/absence; explicitly denied child/brick-pillow pathos; denied emotional manipulation/blandness; nothing-happens paradox; poem waiting for us; all poems asleep on bricks dreaming of new poet. Checked personification, negations, repeated arrival/wait, return of previously negated child image and both perhaps qualifications.",
+      "open_questions": [
+        "Hindi masculine narrator remains provisional; no inference from author identity."
+      ],
+      "reason": "Restore ongoing waiting; express pathos of the childs condition rather than the childs own compassion.",
+      "tradeoff": "Keeps the denial of pathos before the brick image returns; does not add a social explanation or heighten the final metaphor.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "9b7c04b9735591a9d011e2b01506baa881f797fd5762e7bfbffc498f138ffdf1",
+      "before_sha256": "865b04dfa60e2e07b2103a7ebe3abdc80a4f921a14e0283969764651331fb2da",
+      "after_sha256": "c77f3618c81dedea1fa854c25c25cd5677c28bee347ba3f79c154593f58ca042",
+      "prior_uncertainties": [
+        {
+          "note": "Nine triplets retained, including the morning enjambment, negated child image returning in the last stanza and nothing-happens paradox. Hindi male narrator provisional.",
+          "record": "kb/production/translations/batch-153/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 108,
+      "target": "or",
+      "reading_evidence": "Read all six full source/target blocks: rain no longer natural as childhood; whimsical drizzle despite earths need/farmers agony; black attire/torrent/hail/thunder laughter/lightning victims/sighs uprooting banyans and towers; innocent infant/blue blanket/indifferent meditating rishi amid cries; childhood fields/drizzle/storm and singing farmers/plough-stick/bullocks/childrens fearless pleasure, reporters/forecasters/government; regular-cycle refrain. Checked rain personification throughout, earth-mother, storm violence, nostalgia and media passage without imposing a climate diagnosis.",
+      "open_questions": [
+        "Narrator gender is unspecified; existing Hindi masculine childhood wording remains provisional.",
+        "Final government-preparation coordination in source is syntactically compressed; Hindi reads absence under having no, Odia retains and-fragment. Source-aware confirmation required rather than inventing the authors policy position.",
+        "Strike down retains existing lethal reading; source does not separately spell out each victims fate."
+      ],
+      "reason": "Retain after full reading: rain remains the active personified agent through anger, violence, sleep and remembered childhood; compressed final coordination held separately.",
+      "tradeoff": "Preserve source imagery, register, stanza and line counts; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "57479b3a737dc94725e190166b56937c9ba027ca8c2a4bd4d5f54644279054dd",
+      "before_sha256": "34310cff287ea49724a4fa8cd57a30b085c3d284e894c590b04ff07aee895979",
+      "after_sha256": "34310cff287ea49724a4fa8cd57a30b085c3d284e894c590b04ff07aee895979",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 108,
+      "target": "hi",
+      "reading_evidence": "Read all six full source/target blocks: rain no longer natural as childhood; whimsical drizzle despite earths need/farmers agony; black attire/torrent/hail/thunder laughter/lightning victims/sighs uprooting banyans and towers; innocent infant/blue blanket/indifferent meditating rishi amid cries; childhood fields/drizzle/storm and singing farmers/plough-stick/bullocks/childrens fearless pleasure, reporters/forecasters/government; regular-cycle refrain. Checked rain personification throughout, earth-mother, storm violence, nostalgia and media passage without imposing a climate diagnosis.",
+      "open_questions": [
+        "Narrator gender is unspecified; existing Hindi masculine childhood wording remains provisional.",
+        "Final government-preparation coordination in source is syntactically compressed; Hindi reads absence under having no, Odia retains and-fragment. Source-aware confirmation required rather than inventing the authors policy position.",
+        "Strike down retains existing lethal reading; source does not separately spell out each victims fate."
+      ],
+      "reason": "Keep rain as feminine agent through the storm actions and correct feminine minar agreement.",
+      "tradeoff": "Correct agreement with chosen rain noun, without assigning the English personification a biological gender; preserve anger as its attribute rather than switching the acting subject to anger.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "57479b3a737dc94725e190166b56937c9ba027ca8c2a4bd4d5f54644279054dd",
+      "before_sha256": "f37dbc0ca8eb795f50484c614997e307435688b2a49368f92a3539e194207ef0",
+      "after_sha256": "c7841c352a6016641925a60dedf359447bb88eb17cc8f4c8982125c83393ad61",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ],
+  "after_reading": {
+    "full_changed_targets_read": true,
+    "variants": 7,
+    "independent_review": false,
+    "note": "Read all seven complete materialized after targets. Rechecked all four refrains in147, all dialogue/nine blocks in105, child-image return and present waiting in107, and rain agreement throughout108. Explicit105 layout maps all verse lines and nine stanza starts; no contributor tails or inline offsets. Other counts unchanged."
+  }
+}

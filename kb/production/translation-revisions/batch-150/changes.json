@@ -1,0 +1,752 @@
+[
+  {
+    "poem_id": 151,
+    "target": "hi",
+    "reading_evidence": "Read complete five-block Odia source and each full target: inner picture lifts green morning/seeing criminal; silent hope and spinning top, reflection fear; shifting sandbank mountain sorrow repeats scattered old promises; trusted companion voluntarily stops halfway; bound triangle and unfindable self in changing sorrow/tears. Preserved uncertain triangle and hope agency, no invented love-triangle narrative.",
+    "open_questions": [
+      "Hindi masculine speaker and companion remain provisional; source does not specify their gender.",
+      "Silent hope is the provisional referent of fearing its reflection; triangle is unexplained."
+    ],
+    "reason": "Repair awkward lead-along collocation without changing companion promise or halfway abandonment.",
+    "tradeoff": "Preserve stanza turns, register, images and deliberate strangeness. Current-assistant self-review only; independent fluent/author review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "08b9813479ac8732004c6d449a5e0cbdf600a052667634445ca10e38001896e9",
+    "before_sha256": "9b10ed0c525b5385ff59d4f3e7d752b7e47704d02ca58d7794292ed18d563fc2",
+    "after_sha256": "05eec7594f6f05c84b734b4a209894389fc1c9b663ba11082d433d03c8a46245",
+    "prior_uncertainties": [
+      {
+        "note": "Five blocks retained. Silent hope fears its reflection; final missing self retained. Hindi masculine provisional; English companion gender unspecified.",
+        "record": "kb/production/translations/batch-146/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "आधा रास्ता",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मेरे भीतर जो चित्र",
+          "एक हरी सुबह",
+          "उठा लाता था,",
+          "उसे देखना",
+          "एक अपराध ही था।"
+        ],
+        [
+          "जिस मौन आशा को लेकर",
+          "लट्टू की तरह घूमता रहा,",
+          "उसमें कुछ समझने को नहीं था;",
+          "अपना प्रतिबिंब देखकर वह ख़ुद से डरती थी।"
+        ],
+        [
+          "खिसकते रेतीले तट पर",
+          "दुःख का एक पहाड़",
+          "खड़ा हो जाता है और",
+          "तुम्हारे बिखरे हुए,",
+          "बहुत पुराने",
+          "वचनों को दोहराता है।"
+        ],
+        [
+          "जो साथी बनकर",
+          "राह दिखा ले चलेगा कहकर",
+          "बार-बार विश्वास भरता था,",
+          "वह अब अपनी इच्छा से",
+          "आधे रास्ते ही ठहर गया।"
+        ],
+        [
+          "मैं बँधा हूँ",
+          "त्रिभुज की सीमारेखा में,",
+          "कहीं भी नहीं मिलता,",
+          "न बदलते दुःख में,",
+          "न तुम्हारे आँसुओं की धार में।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "आधा रास्ता",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मेरे भीतर जो चित्र",
+          "एक हरी सुबह",
+          "उठा लाता था,",
+          "उसे देखना",
+          "एक अपराध ही था।"
+        ],
+        [
+          "जिस मौन आशा को लेकर",
+          "लट्टू की तरह घूमता रहा,",
+          "उसमें कुछ समझने को नहीं था;",
+          "अपना प्रतिबिंब देखकर वह ख़ुद से डरती थी।"
+        ],
+        [
+          "खिसकते रेतीले तट पर",
+          "दुःख का एक पहाड़",
+          "खड़ा हो जाता है और",
+          "तुम्हारे बिखरे हुए,",
+          "बहुत पुराने",
+          "वचनों को दोहराता है।"
+        ],
+        [
+          "जो साथी बनकर",
+          "राह दिखाकर ले चलने की बात कहकर",
+          "बार-बार विश्वास भरता था,",
+          "वह अब अपनी इच्छा से",
+          "आधे रास्ते ही ठहर गया।"
+        ],
+        [
+          "मैं बँधा हूँ",
+          "त्रिभुज की सीमारेखा में,",
+          "कहीं भी नहीं मिलता,",
+          "न बदलते दुःख में,",
+          "न तुम्हारे आँसुओं की धार में।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 152,
+    "target": "hi",
+    "reading_evidence": "Read full seven-block Odia source and both targets: woman/river primal beauty, harsh sun and fenced flowing feet obstructed/dying/cursed and wounded girl baffled by time; address/name changes through peak/plain/tributary/care-of; affection sacrifice endurance and green banks; desired ocean-man welcomes winding swan-like river over mountain walls; estuary surrender/invitation/heavenly love earthly version, final fulfilled name erasure. Checked feminine river and masculine ocean throughout, preserving authorial analogy without endorsement or explanation.",
+    "open_questions": [
+      "Prior batch146 lexical hold: nua kuan rendered new sprouts on green banks; this meaning remains provisional and is not resolved by smoothing the target verb.",
+      "Ocean-man invitation and feminine river follow source personification; no named deity, marriage detail or moral supplied."
+    ],
+    "reason": "Repair unnatural sprout-opening collocation within existing provisional reading, and welcoming-affection syntax; preserve name-erasure ending.",
+    "tradeoff": "Sprout verb becomes natural Hindi growth while the uncertain source noun stays explicitly held. Apnapan retains welcome rather than an added moral about union.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "328723258ca2fd532fa0bebb24c541038ffa65d80cd92dc75407ccd7a3ecdba9",
+    "before_sha256": "a6634859c4fb8a1edfcd6a27fd8a7e51547bf0052e2e5a5d8c21864e6e7727f5",
+    "after_sha256": "6af4f0f7750bc9ad66148af4d8f44db802869dffdd0211cb42c52258c3d31513",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "नारी की तरह मरती है नदी",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "नदी और नारी,",
+          "दोनों एक जैसी।",
+          "विधाता ने दोनों को गढ़ा है",
+          "आद्याशक्ति, श्रीमयी,",
+          "परम सुंदरी बनाकर।"
+        ],
+        [
+          "फिर भी,",
+          "जब कोई",
+          "धूप की रूखी यातना देकर,",
+          "उसके बहते श्रीचरणों पर",
+          "बाड़ बाँधकर राह रोकता है,",
+          "अवरुद्ध बेचारी नदी",
+          "नारी की तरह मरती रहती है;",
+          "मृत नदी, अभिशप्त नदी,",
+          "पीड़ित बालिका की तरह",
+          "समय की चतुराई",
+          "कुछ समझ नहीं पाती।"
+        ],
+        [
+          "नदी का भी नारी की तरह",
+          "पता बदलता है।",
+          "झरने से निर्झरिणी बनकर,",
+          "शिखर से मैदान होकर,",
+          "निचले छोर को छूते-छूते,",
+          "शाखा नदी, उपनदी बनकर,",
+          "मोड़ों और घुमावों पर,",
+          "एक और नए नाम, नए मार्फ़त",
+          "पहचान होती है।"
+        ],
+        [
+          "नारी की तरह नदी फिर,",
+          "सृजन से जन्मी होकर,",
+          "स्नेह, प्रेम, त्याग, तितिक्षा से",
+          "संबंधों में हरा सुहाग लाकर",
+          "श्यामल तटों पर नए अंकुर खोलती है।"
+        ],
+        [
+          "इच्छित पुरुष से मिलन की कामना",
+          "नारी की तरह नदी की भी होती है।",
+          "देखो, समुद्र-पुरुष के “आओ” में",
+          "वही अपनाना होता है, इसलिए कैसे",
+          "किसी दूर शिखर से,",
+          "पहाड़ की दीवारें लाँघकर,",
+          "वह राजहंसिनी, सर्पिलगामिनी,",
+          "राह काटती दौड़ी आती है!"
+        ],
+        [
+          "आह! अद्भुत वह मुहाना, मिलनस्थल!",
+          "समर्पण, आमंत्रण,",
+          "स्वर्गीय प्रेमबंध का",
+          "पृथ्वी पर संस्करण!"
+        ],
+        [
+          "पूर्णता में नारी की तरह नदी का भी नाम मिट जाता है।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "नारी की तरह मरती है नदी",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "नदी और नारी,",
+          "दोनों एक जैसी।",
+          "विधाता ने दोनों को गढ़ा है",
+          "आद्याशक्ति, श्रीमयी,",
+          "परम सुंदरी बनाकर।"
+        ],
+        [
+          "फिर भी,",
+          "जब कोई",
+          "धूप की रूखी यातना देकर,",
+          "उसके बहते श्रीचरणों पर",
+          "बाड़ बाँधकर राह रोकता है,",
+          "अवरुद्ध बेचारी नदी",
+          "नारी की तरह मरती रहती है;",
+          "मृत नदी, अभिशप्त नदी,",
+          "पीड़ित बालिका की तरह",
+          "समय की चतुराई",
+          "कुछ समझ नहीं पाती।"
+        ],
+        [
+          "नदी का भी नारी की तरह",
+          "पता बदलता है।",
+          "झरने से निर्झरिणी बनकर,",
+          "शिखर से मैदान होकर,",
+          "निचले छोर को छूते-छूते,",
+          "शाखा नदी, उपनदी बनकर,",
+          "मोड़ों और घुमावों पर,",
+          "एक और नए नाम, नए मार्फ़त",
+          "पहचान होती है।"
+        ],
+        [
+          "नारी की तरह नदी फिर,",
+          "सृजन से जन्मी होकर,",
+          "स्नेह, प्रेम, त्याग, तितिक्षा से",
+          "संबंधों में हरा सुहाग लाकर",
+          "श्यामल तटों पर नए अंकुर उगाती है।"
+        ],
+        [
+          "इच्छित पुरुष से मिलन की कामना",
+          "नारी की तरह नदी की भी होती है।",
+          "देखो, समुद्र-पुरुष के “आओ” में",
+          "वही अपनापन है—तभी तो",
+          "किसी दूर शिखर से,",
+          "पहाड़ की दीवारें लाँघकर,",
+          "वह राजहंसिनी, सर्पिलगामिनी,",
+          "राह काटती दौड़ी आती है!"
+        ],
+        [
+          "आह! अद्भुत वह मुहाना, मिलनस्थल!",
+          "समर्पण, आमंत्रण,",
+          "स्वर्गीय प्रेमबंध का",
+          "पृथ्वी पर संस्करण!"
+        ],
+        [
+          "पूर्णता में नारी की तरह नदी का भी नाम मिट जाता है।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 152,
+    "target": "en",
+    "reading_evidence": "Read full seven-block Odia source and both targets: woman/river primal beauty, harsh sun and fenced flowing feet obstructed/dying/cursed and wounded girl baffled by time; address/name changes through peak/plain/tributary/care-of; affection sacrifice endurance and green banks; desired ocean-man welcomes winding swan-like river over mountain walls; estuary surrender/invitation/heavenly love earthly version, final fulfilled name erasure. Checked feminine river and masculine ocean throughout, preserving authorial analogy without endorsement or explanation.",
+    "open_questions": [
+      "Prior batch146 lexical hold: nua kuan rendered new sprouts on green banks; this meaning remains provisional and is not resolved by smoothing the target verb.",
+      "Ocean-man invitation and feminine river follow source personification; no named deity, marriage detail or moral supplied."
+    ],
+    "reason": "Repair opens-sprouts collocation while retaining the provisional new-shoots image and river agency.",
+    "tradeoff": "Puts out shoots is idiomatic growth; it does not certify the uncertain Odia noun. Preserve address/care-of metaphor and troubling final erasure.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "328723258ca2fd532fa0bebb24c541038ffa65d80cd92dc75407ccd7a3ecdba9",
+    "before_sha256": "e92fce1915d6d747c68e8d3f1ecfd1b0ecdc184a07f9a1e738116318567cf6b6",
+    "after_sha256": "ca6128fbef4279655c95623301b6c643b65e451803222362b95b818c9d07da86",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "The River Dies Like a Woman",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "River and woman,",
+          "both alike.",
+          "Fate has fashioned them both",
+          "as primal power, radiant with grace,",
+          "supremely beautiful."
+        ],
+        [
+          "Even so,",
+          "when someone,",
+          "inflicting the sun's harsh torment,",
+          "fences her flowing, sacred feet",
+          "and blocks the path,",
+          "the poor obstructed river",
+          "dies like a woman;",
+          "the dead river, the accursed river,",
+          "like a wounded girl,",
+          "cannot understand anything",
+          "of time's cunning."
+        ],
+        [
+          "The river's address too,",
+          "like a woman's, changes.",
+          "From a spring becoming a flowing stream,",
+          "from the peak through the plain,",
+          "by the time she touches the lower reaches,",
+          "becoming branch-river, tributary,",
+          "at bends and turns,",
+          "under another new name, another care-of,",
+          "she is known."
+        ],
+        [
+          "Like a woman, the river again,",
+          "born of creation,",
+          "with affection, love, sacrifice and endurance,",
+          "brings green tenderness into relationships",
+          "and opens new sprouts upon the verdant banks."
+        ],
+        [
+          "A longing to unite with the desired man,",
+          "the river too has, like a woman.",
+          "Look, in the ocean-man's call of “Come,”",
+          "because that welcome is there,",
+          "from some distant summit,",
+          "leaping the walls of mountains,",
+          "that swan-like, winding traveller",
+          "cuts a path and comes running!"
+        ],
+        [
+          "Ah, wondrous estuary, place of union!",
+          "Surrender, invitation,",
+          "an earthly version",
+          "of a heavenly bond of love!"
+        ],
+        [
+          "In fulfilment, like a woman's, the river's name too is erased."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "The River Dies Like a Woman",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "River and woman,",
+          "both alike.",
+          "Fate has fashioned them both",
+          "as primal power, radiant with grace,",
+          "supremely beautiful."
+        ],
+        [
+          "Even so,",
+          "when someone,",
+          "inflicting the sun's harsh torment,",
+          "fences her flowing, sacred feet",
+          "and blocks the path,",
+          "the poor obstructed river",
+          "dies like a woman;",
+          "the dead river, the accursed river,",
+          "like a wounded girl,",
+          "cannot understand anything",
+          "of time's cunning."
+        ],
+        [
+          "The river's address too,",
+          "like a woman's, changes.",
+          "From a spring becoming a flowing stream,",
+          "from the peak through the plain,",
+          "by the time she touches the lower reaches,",
+          "becoming branch-river, tributary,",
+          "at bends and turns,",
+          "under another new name, another care-of,",
+          "she is known."
+        ],
+        [
+          "Like a woman, the river again,",
+          "born of creation,",
+          "with affection, love, sacrifice and endurance,",
+          "brings green tenderness into relationships",
+          "and puts out new shoots along the verdant banks."
+        ],
+        [
+          "A longing to unite with the desired man,",
+          "the river too has, like a woman.",
+          "Look, in the ocean-man's call of “Come,”",
+          "because that welcome is there,",
+          "from some distant summit,",
+          "leaping the walls of mountains,",
+          "that swan-like, winding traveller",
+          "cuts a path and comes running!"
+        ],
+        [
+          "Ah, wondrous estuary, place of union!",
+          "Surrender, invitation,",
+          "an earthly version",
+          "of a heavenly bond of love!"
+        ],
+        [
+          "In fulfilment, like a woman's, the river's name too is erased."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 164,
+    "target": "hi",
+    "reading_evidence": "Read all four blocks including isolated closing line: jewelled altar lamp burns/dies, whose name Gopa lanes nagara dibidibi, goddess gesture all times dance; bodily coils cover artha/paramartha, blue eyes swallow worldful pride/ocean distrust; one step ahead seven back, deeds/misdeeds sin/merit, heaven and even hell, eyes stand guard. Preserved devotional/erotic overlap, numbers and final delayed eyes rather than assigning deity or relationship.",
+    "open_questions": [
+      "Hindi masculine speaker provisional; feminine beloved/goddess explicit.",
+      "Gopa, nagara and altar not assigned to a specific deity; artha/paramartha meanings remain layered."
+    ],
+    "reason": "Restore natural possessive in worldful-pride phrase; keep source Sanskritic word pairing.",
+    "tradeoff": "Preserve stanza turns, register, images and deliberate strangeness. Current-assistant self-review only; independent fluent/author review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "6fec24d39f8fe9c8d04c14a8c878d32908ac1bb05143a4a525c8faa4b1e5a1c8",
+    "before_sha256": "691d6460bcd527d5bfba2bdb22aa4f3ec9d2f6f8d1ea0a256c687cb81d26036a",
+    "after_sha256": "f68f1abb5392cb6e56cdea8b074d7a8cf816b06b66b5c17d2af2e177e2edc330",
+    "prior_uncertainties": [
+      {
+        "note": "Four blocks including single closing line retained. Gopa, nagara sound, jewelled altar retained without assigning specific deity. Hindi masculine speaker provisional.",
+        "record": "kb/production/translations/batch-146/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "प्रियतमा",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "रत्नवेदी पर",
+          "कौन-सा दीप जलता है, फिर बुझता है?...",
+          "किसके नाम पर",
+          "गोप की गलियों में डिबिडिबि नगाड़ा बजता है?...",
+          "हे ईश्वरी!",
+          "तेरे इशारे पर ही तो",
+          "मेरा यह काल, वह काल,",
+          "और सारा काल नाचता है—"
+        ],
+        [
+          "तेरी देह की कुंडली",
+          "ढँके रहती है",
+          "मेरा अर्थ और परमार्थ...",
+          "तेरी नीली आँखों की माया",
+          "निगल जाती है",
+          "मेरा संसार-भर अभिमान",
+          "और समुद्र-भर अविश्वास—"
+        ],
+        [
+          "मुझे कौन-सी राह दिखती है?...",
+          "एक पाँव आगे बढ़े तो",
+          "सात पाँव पीछे लौटता हूँ...",
+          "मेरे जितने कर्म-अकर्म,",
+          "मेरे जो पाप-पुण्य,",
+          "प्रियतमा!",
+          "मैं क्या वर्णन करूँ?",
+          "स्वर्ग तो स्वर्ग,",
+          "नरक में भी"
+        ],
+        [
+          "तेरी आँखें पहरा देती हैं—"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "प्रियतमा",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "रत्नवेदी पर",
+          "कौन-सा दीप जलता है, फिर बुझता है?...",
+          "किसके नाम पर",
+          "गोप की गलियों में डिबिडिबि नगाड़ा बजता है?...",
+          "हे ईश्वरी!",
+          "तेरे इशारे पर ही तो",
+          "मेरा यह काल, वह काल,",
+          "और सारा काल नाचता है—"
+        ],
+        [
+          "तेरी देह की कुंडली",
+          "ढँके रहती है",
+          "मेरा अर्थ और परमार्थ...",
+          "तेरी नीली आँखों की माया",
+          "निगल जाती है",
+          "मेरा संसार-भर का अभिमान",
+          "और समुद्र-भर अविश्वास—"
+        ],
+        [
+          "मुझे कौन-सी राह दिखती है?...",
+          "एक पाँव आगे बढ़े तो",
+          "सात पाँव पीछे लौटता हूँ...",
+          "मेरे जितने कर्म-अकर्म,",
+          "मेरे जो पाप-पुण्य,",
+          "प्रियतमा!",
+          "मैं क्या वर्णन करूँ?",
+          "स्वर्ग तो स्वर्ग,",
+          "नरक में भी"
+        ],
+        [
+          "तेरी आँखें पहरा देती हैं—"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 164,
+    "target": "en",
+    "reading_evidence": "Read all four blocks including isolated closing line: jewelled altar lamp burns/dies, whose name Gopa lanes nagara dibidibi, goddess gesture all times dance; bodily coils cover artha/paramartha, blue eyes swallow worldful pride/ocean distrust; one step ahead seven back, deeds/misdeeds sin/merit, heaven and even hell, eyes stand guard. Preserved devotional/erotic overlap, numbers and final delayed eyes rather than assigning deity or relationship.",
+    "open_questions": [
+      "Gopa, nagara and altar not assigned to a specific deity; worldly meaning/higher purpose interpret layered artha/paramartha."
+    ],
+    "reason": "Carry Hindi/Odia heaven-of-course idiom into natural English so even hell supplies the intended escalation.",
+    "tradeoff": "Retain delayed final eyes-stand-guard line; of course expresses the expected heaven before the surprising hell, without explaining divine omnipresence.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "6fec24d39f8fe9c8d04c14a8c878d32908ac1bb05143a4a525c8faa4b1e5a1c8",
+    "before_sha256": "8954fc367af80c26b8748a34ec0765932de3a86fadb6fd85359686c9c2f03029",
+    "after_sha256": "9f5359d15f06c188ba21bedaca1f483924e3a82961f60367e08f376a06d857b8",
+    "prior_uncertainties": [
+      {
+        "note": "Four blocks including single closing line retained. Gopa, nagara sound, jewelled altar retained without assigning specific deity. Hindi masculine speaker provisional.",
+        "record": "kb/production/translations/batch-146/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Beloved",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "On the jewelled altar,",
+          "which lamp burns and then goes out?...",
+          "In whose name",
+          "does the nagara drum beat dibidibi in Gopa's lanes?...",
+          "O goddess!",
+          "At your gesture,",
+          "this time of mine, that time,",
+          "and all time dances—"
+        ],
+        [
+          "The coils of your body",
+          "keep covered",
+          "my worldly meaning and higher purpose...",
+          "The enchantment of your blue eyes",
+          "swallows",
+          "my worldful of wounded pride",
+          "and an ocean of mistrust—"
+        ],
+        [
+          "What path can I see?...",
+          "When I take one step forward,",
+          "I return seven steps back...",
+          "All my deeds and misdeeds,",
+          "whatever my sin and merit,",
+          "beloved!",
+          "What can I describe?",
+          "Heaven is heaven,",
+          "but even in hell,"
+        ],
+        [
+          "your eyes stand guard—"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Beloved",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "On the jewelled altar,",
+          "which lamp burns and then goes out?...",
+          "In whose name",
+          "does the nagara drum beat dibidibi in Gopa's lanes?...",
+          "O goddess!",
+          "At your gesture,",
+          "this time of mine, that time,",
+          "and all time dances—"
+        ],
+        [
+          "The coils of your body",
+          "keep covered",
+          "my worldly meaning and higher purpose...",
+          "The enchantment of your blue eyes",
+          "swallows",
+          "my worldful of wounded pride",
+          "and an ocean of mistrust—"
+        ],
+        [
+          "What path can I see?...",
+          "When I take one step forward,",
+          "I return seven steps back...",
+          "All my deeds and misdeeds,",
+          "whatever my sin and merit,",
+          "beloved!",
+          "What can I describe?",
+          "In heaven, of course,",
+          "but even in hell,"
+        ],
+        [
+          "your eyes stand guard—"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 160,
+    "target": "en",
+    "reading_evidence": "Read all six source blocks and both targets: maternal grandfather buys red plastic soap dish at fair; local soap/ghat morning swagger; age/soap and gusalkhana-to-bathroom shift but dish unchanged; expensive shower branded gels and hoped harmony; dish/old fixed thinking cannot gel; lonely-island misfit in corner and delayed self at social gatherings. Checked nana lineage, masculine Hindi speaker, soap-gel/gel pun and colonial-language/register change, no inference from poet identity.",
+    "open_questions": [],
+    "reason": "Restore source gusalkhana/bathroom language contrast; generic English washroom/bathroom synonyms erased the generational register change.",
+    "tradeoff": "Keep culturally situated gusalkhana intelligible through bathing context; no explanatory footnote inside poem. Native English gel pun and maternal lineage remain exact.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "0691a929614c2f0c9e2aba1390010ca1723a60ba77aa3f80902efb1dff6367ea",
+    "before_sha256": "c52c0a4b196fcfebf2396ee30424fea7d44692b4d3af96b8a710f24c8804e419",
+    "after_sha256": "4bada664b570084a8efc9f4121dccb5186847aa9820b65ce66012110a7f899df",
+    "prior_uncertainties": [
+      {
+        "note": "Six blocks retained. Maternal grandfather precise; gel/shower-gel pun preserved with transliteration and gloss in Odia. Gusalkhana/bathroom register change retained.",
+        "record": "kb/production/translations/batch-146/review.json"
+      }
+    ],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Misfit",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "In childhood, my maternal grandfather",
+          "bought me, from a fair,",
+          "a red plastic soap dish.",
+          "Keeping a bar of local soap in it,",
+          "every morning, in style,",
+          "I bathed at the ghat."
+        ],
+        [
+          "Age changed, soap changed,",
+          "the era of the washroom became that of the bathroom;",
+          "what did not change was that red soap dish."
+        ],
+        [
+          "Even today, into an expensive shower room,",
+          "I take that soap dish",
+          "along with me.",
+          "With all the branded shower gels placed there,",
+          "I want it to find some harmony;"
+        ],
+        [
+          "but that soap dish,",
+          "like my old, fixed thinking,",
+          "cannot “gel” with anyone."
+        ],
+        [
+          "A misfit everywhere,",
+          "that red soap dish,",
+          "like a lonely island,",
+          "remains apart in a far corner,",
+          "just like..."
+        ],
+        [
+          "me at today's “social gatherings”..."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Misfit",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "In childhood, my maternal grandfather",
+          "bought me, from a fair,",
+          "a red plastic soap dish.",
+          "Keeping a bar of local soap in it,",
+          "every morning, in style,",
+          "I bathed at the ghat."
+        ],
+        [
+          "Age changed, soap changed,",
+          "the gusalkhana gave way to the “bathroom”;",
+          "what did not change was that red soap dish."
+        ],
+        [
+          "Even today, into an expensive shower room,",
+          "I take that soap dish",
+          "along with me.",
+          "With all the branded shower gels placed there,",
+          "I want it to find some harmony;"
+        ],
+        [
+          "but that soap dish,",
+          "like my old, fixed thinking,",
+          "cannot “gel” with anyone."
+        ],
+        [
+          "A misfit everywhere,",
+          "that red soap dish,",
+          "like a lonely island,",
+          "remains apart in a far corner,",
+          "just like..."
+        ],
+        [
+          "me at today's “social gatherings”..."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

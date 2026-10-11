@@ -1,0 +1,271 @@
+{
+  "recorded_at": "2026-10-06T00:51:04.184238+00:00",
+  "poem_ids": [
+    366,
+    370,
+    371,
+    372,
+    374
+  ],
+  "variants_read": 10,
+  "variants_changed": 6,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 366,
+      "target": "or",
+      "reading_evidence": "Read all six5/8/4/5/4/4-line source/target stanzas: heart freedom unstealable/boundless spirit not body despite circumstance; historical soul suppression/bondage violence versus calm torture/death/Buddha Jesus prophet Mahatma; soul song choked words appears eyes/smiles-tears/pen-sword-protest-silence; inner sanctuary untouched chains/soaring spirit; doubt shackles/fear walls cannot stop persevering heart/key being; repeated free to dance sweetness/embrace daily beauty/unbridled winding journey. Checked distinctions body-spirit, song/freedom and repeated free; preserve source inspirational register.",
+      "reason": "Retain sustained affirmation, repeated freedom and source spiritual comparisons without adding doctrine.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "ebdc976b73212db15fe4993c1bee8cb3d20a7c06ebc86638b5331edf5caff04b",
+      "before_sha256": "c3ad8520c0690f5cc8df5c3baaf6150030dac113fca1d8f493c8d983cd4ebdea",
+      "after_sha256": "c3ad8520c0690f5cc8df5c3baaf6150030dac113fca1d8f493c8d983cd4ebdea",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 366,
+      "target": "hi",
+      "reading_evidence": "Read all six5/8/4/5/4/4-line source/target stanzas: heart freedom unstealable/boundless spirit not body despite circumstance; historical soul suppression/bondage violence versus calm torture/death/Buddha Jesus prophet Mahatma; soul song choked words appears eyes/smiles-tears/pen-sword-protest-silence; inner sanctuary untouched chains/soaring spirit; doubt shackles/fear walls cannot stop persevering heart/key being; repeated free to dance sweetness/embrace daily beauty/unbridled winding journey. Checked distinctions body-spirit, song/freedom and repeated free; preserve source inspirational register.",
+      "reason": "Retain sustained affirmation, repeated freedom and source spiritual comparisons without adding doctrine.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "ebdc976b73212db15fe4993c1bee8cb3d20a7c06ebc86638b5331edf5caff04b",
+      "before_sha256": "ea22201f8d1ecc2e32c050d506892b2b8762254ae4fb3ca1dd8f4d4d04dca4d1",
+      "after_sha256": "ea22201f8d1ecc2e32c050d506892b2b8762254ae4fb3ca1dd8f4d4d04dca4d1",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 370,
+      "target": "or",
+      "reading_evidence": "Read all5/6/5/7-line source/target stanzas: wind gathering clouds above turban/young fortune dreams lost frozen rain; adolescent discouragement/section hatred/night steals confidence/eyelids still/mother lap supper absence; frantic moments cause fear psychosis in budding minds and flight to dark from materiality; strong heart-soul bond believes time/tide turn favourable, unison singing wind carries mother/motherland grandeur. Checked nested minds-of-budding-souls relation and kept rough source imagery unassigned to real conflict.",
+      "reason": "Restore native possessive order for young souls’ minds receiving fear; keep agency and five-line stanza.",
+      "open_questions": [
+        "Prior turban not assigned region/event; fear psychosis is poetic wording, not diagnosis. Unruffled eyelids and mother/supper omission remain ambiguous source syntax."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 23,
+        "before_lines": [
+          5,
+          11,
+          16
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "6fd333fc55794fcf85a1362c94a084eab87e5223abc03f73e21a0bd6fbf757a4",
+      "before_sha256": "f76fe6ec7e0a99af3aab5a5755e261d6f5b325199f190449d1b541bed63ac31c",
+      "after_sha256": "65ad67b036965a1dea2d84d88d3ef6cccda484b1017d74dd5b1248c6443988b0",
+      "prior_uncertainties": [
+        {
+          "note": "Four stanzas retained. Turban kept literal; not assigned a regional/political event. Fear psychosis remains poetic wording, not a diagnosis. Unruffled eyelids and absence of mother/supper preserved despite ambiguous syntax.",
+          "record": "kb/production/translations/batch-103/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 370,
+      "target": "hi",
+      "reading_evidence": "Read all5/6/5/7-line source/target stanzas: wind gathering clouds above turban/young fortune dreams lost frozen rain; adolescent discouragement/section hatred/night steals confidence/eyelids still/mother lap supper absence; frantic moments cause fear psychosis in budding minds and flight to dark from materiality; strong heart-soul bond believes time/tide turn favourable, unison singing wind carries mother/motherland grandeur. Checked nested minds-of-budding-souls relation and kept rough source imagery unassigned to real conflict.",
+      "reason": "Place possessive before minds and verb after the object phrase, removing mechanically detached genitive.",
+      "open_questions": [
+        "Prior turban not assigned region/event; fear psychosis is poetic wording, not diagnosis. Unruffled eyelids and mother/supper omission remain ambiguous source syntax."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 23,
+        "before_lines": [
+          5,
+          11,
+          16
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "6fd333fc55794fcf85a1362c94a084eab87e5223abc03f73e21a0bd6fbf757a4",
+      "before_sha256": "ed02c37176e7c146ed631ff016610dda66f908e33b62bb2996674b07ca9d41c5",
+      "after_sha256": "35b417fb53ec463e0cebd32cff3b37613d5ece4bc7ff406f7cb95a2dee159a2d",
+      "prior_uncertainties": [
+        {
+          "note": "Four stanzas retained. Turban kept literal; not assigned a regional/political event. Fear psychosis remains poetic wording, not a diagnosis. Unruffled eyelids and absence of mother/supper preserved despite ambiguous syntax.",
+          "record": "kb/production/translations/batch-103/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 371,
+      "target": "or",
+      "reading_evidence": "Read all7/4/3-line source/target stanzas: body tool directed inner divinity seeks universal wings/eternal roses/human colours/sublime springs; repeated spirit sustains inner-outer vitality/nurtures heart/answers harmony-bliss; truth in speech/action releases flowing glowing heaven dispelling all dark cloud forms. Checked repeated spirit and alliterative elevated register without simplifying source belief.",
+      "reason": "Retain parallel spirit refrains and elevated abstract images.",
+      "open_questions": [
+        "Prior springs rendered water-springs provisionally rather than season; source spiritual claims retained as viewpoint."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "244fd9b918848f035aac1f46b11faab14c671c9eb29992d1e43ba72eb91642fa",
+      "before_sha256": "06f69ae9e1cd690d1356e2a834b92aa2e29f36c449292e7d2009606f9e9088e9",
+      "after_sha256": "06f69ae9e1cd690d1356e2a834b92aa2e29f36c449292e7d2009606f9e9088e9",
+      "prior_uncertainties": [
+        {
+          "note": "Three stanzas retained. Springs read water-springs provisionally; inner-divine claims remain source viewpoint.",
+          "record": "kb/production/translations/batch-104/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 371,
+      "target": "hi",
+      "reading_evidence": "Read all7/4/3-line source/target stanzas: body tool directed inner divinity seeks universal wings/eternal roses/human colours/sublime springs; repeated spirit sustains inner-outer vitality/nurtures heart/answers harmony-bliss; truth in speech/action releases flowing glowing heaven dispelling all dark cloud forms. Checked repeated spirit and alliterative elevated register without simplifying source belief.",
+      "reason": "Retain parallel spirit refrains and elevated abstract images.",
+      "open_questions": [
+        "Prior springs rendered water-springs provisionally rather than season; source spiritual claims retained as viewpoint."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "source_sha256": "244fd9b918848f035aac1f46b11faab14c671c9eb29992d1e43ba72eb91642fa",
+      "before_sha256": "f43be2a929f6cd0b72b8eac75f40c81cb01e6ab754654fd01d19f0936efb42ac",
+      "after_sha256": "f43be2a929f6cd0b72b8eac75f40c81cb01e6ab754654fd01d19f0936efb42ac",
+      "prior_uncertainties": [
+        {
+          "note": "Three stanzas retained. Springs read water-springs provisionally; inner-divine claims remain source viewpoint.",
+          "record": "kb/production/translations/batch-104/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 372,
+      "target": "or",
+      "reading_evidence": "Read full8/5-line source/target stanzas: Earth explicitly herself as faithful beloved loves Sky/his distinctions blossom her layers, skin harvest owes Sky rain filling her veins/Ceres obligation to Apollo; Earth unbewildered celebrates physical and spiritual union/divine marriage Supreme Power beyond both partners control. Checked gendered Earth/Sky agency where both target pronouns collapse his/her, and celebration object order.",
+      "reason": "Name Sky as possessor of qualities and Earth as recipient; restore celebratory physical/spiritual relation object order.",
+      "open_questions": [
+        "Ceres/Apollo obligation is the poem’s comparison, retained without importing or correcting mythology. Physical/spiritual union and Supreme Power remain source viewpoint."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 13,
+        "before_lines": [
+          8
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "66e74430875d4e9d644be90440d05f140239f1578d5ae22b796a1c26f042baa3",
+      "before_sha256": "cc3bbb895be4fc9d4814241004f239e9bea7712b2095072c9f63189b7f05ab2c",
+      "after_sha256": "7f20d46c67815a2f675f348d928e0d942806d50df56a97f46a2efd58ab3e9a17",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 372,
+      "target": "hi",
+      "reading_evidence": "Read full8/5-line source/target stanzas: Earth explicitly herself as faithful beloved loves Sky/his distinctions blossom her layers, skin harvest owes Sky rain filling her veins/Ceres obligation to Apollo; Earth unbewildered celebrates physical and spiritual union/divine marriage Supreme Power beyond both partners control. Checked gendered Earth/Sky agency where both target pronouns collapse his/her, and celebration object order.",
+      "reason": "Recover explicit his-Sky/her-Earth relationship and natural celebration syntax rather than ambiguous possessives and broken modifier sequence.",
+      "open_questions": [
+        "Ceres/Apollo obligation is the poem’s comparison, retained without importing or correcting mythology. Physical/spiritual union and Supreme Power remain source viewpoint."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 13,
+        "before_lines": [
+          8
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "66e74430875d4e9d644be90440d05f140239f1578d5ae22b796a1c26f042baa3",
+      "before_sha256": "654b21fab6c5d51bd1ce5a11df9c5dca442b5683aba41388e8474765f855bca8",
+      "after_sha256": "4d7d55aaa26ae3bbfd0b2cc9ff15b3f587f170200e53193e3873391c855f07eb",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 374,
+      "target": "or",
+      "reading_evidence": "Read all twenty-two source/target lines: conditional death serving motherland with countrymen hearts revolution fire means no regret, death causing cowards courage accepted smiling; contrast anger subsiding inward burning them and coward flight at death, direct beloved-countrymen address refuses such death. Checked conditions and opposition without converting to exhortation or erasing political intensity.",
+      "reason": "Restore native possessive order for motherland service, country’s cowards and fellows’ anger while preserving twenty-two lines and conditional turns.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 22,
+        "before_lines": [],
+        "inline_breaks": []
+      },
+      "source_sha256": "77da22dfc9f3e8af12d149686b3dc18c48be99461732e4cde73dac6fb516ee2b",
+      "before_sha256": "f1f43c4f7552c026b08cca260764c1110faf8de32bb9a8938984e26646a7757e",
+      "after_sha256": "c919680071f7dc3948807a827e5b4a2beed2c5b4b78dc73c37d6b89fb9a33bab",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 374,
+      "target": "hi",
+      "reading_evidence": "Read all twenty-two source/target lines: conditional death serving motherland with countrymen hearts revolution fire means no regret, death causing cowards courage accepted smiling; contrast anger subsiding inward burning them and coward flight at death, direct beloved-countrymen address refuses such death. Checked conditions and opposition without converting to exhortation or erasing political intensity.",
+      "reason": "Untangle country/people and fellows/anger genitives while keeping firm final refusal.",
+      "open_questions": [
+        "Hindi masculine narrator remains provisional; source does not establish gender."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve complete source, target stanza/line counts, rhetoric and cultural references; explicit target mapping for rearranged lines. Same-assistant self-review only; independent review pending.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 22,
+        "before_lines": [],
+        "inline_breaks": []
+      },
+      "source_sha256": "77da22dfc9f3e8af12d149686b3dc18c48be99461732e4cde73dac6fb516ee2b",
+      "before_sha256": "06a1a637b883723c5bd9af390e71b2f2bc76f932381431b298f73ec56115e761",
+      "after_sha256": "10d49224ab265dcd766600bdc9a077f61fdd0c2b6d797c070cb96dda47297d52",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "recorded_at": "2026-10-06T02:54:35.398494+00:00",
+  "poem_ids": [
+    241,
+    242,
+    233,
+    237,
+    238
+  ],
+  "variants_read": 10,
+  "variants_changed": 6,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 241,
+      "target": "en",
+      "reading_evidence": "Read complete34-line Odia source and both targets: country/defiance-courage-self-respect identity, unnamed blood-for-freedom speaker and lightning in crumbling spine, flesh/bone road-filling and self-interest charioteer expelled from Nandighosha, Do-or-die surge across country, repeated country question and time-ending surge, bright stars in unwanted dream seeking humanity beyond fame/money/power/luxury, world rescued from destruction, awakening and returning stars witnessing helpless commemorative word merchants. Retained the political accusation and shifts singular leader to plural stars.",
+      "open_questions": [
+        "Source spelling ସ୍ପଦ୍ର୍ଧା and split ଅନତି କ୍ରମଣୀୟ remain unchanged; exact defiance/competition and untransgressable sense provisional.",
+        "କାଳାନ୍ତକ କଲ୍ଲୋଳ admits time-ending/overcoming resonance; existing English defies-times-end remains provisional, not an established gloss.",
+        "Historical slogans remain the poems allusions without adding named speakers or certifying historical detail."
+      ],
+      "reason": "Attach lightning to the electrifying voice rather than leaving through-a-spine modifying speech; keep all34verse lines and final critique.",
+      "tradeoff": "Preserve source argument, imagery, repetitions and cultural anchors; correct only defensible target phrasing. Same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 34,
+        "before_lines": [],
+        "inline_breaks": []
+      },
+      "source_sha256": "f5d2dcede88fe02a604493839372d6a942ec01b30691351fe29f0d58a2c0c2bf",
+      "before_sha256": "1fdab4d98ef70a9c7acc138c94dd6f98c1333b7b618868af3df09bb8d2a9e880",
+      "after_sha256": "e62589c0001770b8d3b330cf336bbf46ce0371f2b5529237217d142fc4759f55",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 241,
+      "target": "hi",
+      "reading_evidence": "Read complete34-line Odia source and both targets: country/defiance-courage-self-respect identity, unnamed blood-for-freedom speaker and lightning in crumbling spine, flesh/bone road-filling and self-interest charioteer expelled from Nandighosha, Do-or-die surge across country, repeated country question and time-ending surge, bright stars in unwanted dream seeking humanity beyond fame/money/power/luxury, world rescued from destruction, awakening and returning stars witnessing helpless commemorative word merchants. Retained the political accusation and shifts singular leader to plural stars.",
+      "open_questions": [
+        "Source spelling ସ୍ପଦ୍ର୍ଧା and split ଅନତି କ୍ରମଣୀୟ remain unchanged; exact defiance/competition and untransgressable sense provisional.",
+        "କାଳାନ୍ତକ କଲ୍ଲୋଳ admits time-ending/overcoming resonance; existing English defies-times-end remains provisional, not an established gloss.",
+        "Historical slogans remain the poems allusions without adding named speakers or certifying historical detail."
+      ],
+      "reason": "Correct feminine हुंकार agreement, use idiomatic बेकाबू and keep the worlds rescue within the teaching clause in natural Hindi order.",
+      "tradeoff": "Preserve source argument, imagery, repetitions and cultural anchors; correct only defensible target phrasing. Same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 34,
+        "before_lines": [],
+        "inline_breaks": []
+      },
+      "source_sha256": "f5d2dcede88fe02a604493839372d6a942ec01b30691351fe29f0d58a2c0c2bf",
+      "before_sha256": "01f4ea4cf4937b52ddba3cc446ef437b1ac9208222908d8b3cc71aa6f8515b8a",
+      "after_sha256": "f4048bf84c4ba2bdc0f1f12a52c60b672386671ecbe33ce414d3850766cacf77",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 242,
+      "target": "en",
+      "reading_evidence": "Read all30 lines of Dhauli Hill and both targets: sleeping Buddha amid vendors/photographers/tourists/local monkeys, blood-soaked earth and Chandashoka-to-Dharmashoka/Daya river turn, stupa and silent hill, road beckoning by hand more than destination, unknown wandering travellers not returned, refusal of Buddhahood and world as grazing ground, recurring questions/visits/return and final never-rise/perhaps-after-world-sleeps turn. Did not historicise the poetic depiction.",
+      "open_questions": [
+        "Chandashoka/Dharmashoka and Daya names remain poem allusions; the mercy association is not explained inside verse.",
+        "Wandering travellers who did not return remain unidentified, and the Buddha sleeping is poetic depiction rather than historical assertion."
+      ],
+      "reason": "Restore the roads human beckoning-hand gesture, preserving the source personification and final uncertainty.",
+      "tradeoff": "Preserve source argument, imagery, repetitions and cultural anchors; correct only defensible target phrasing. Same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1c6e1b4c3420e7e79a012f5a57abdab69f95defc10af752d7bce62ad0a71f15b",
+      "before_sha256": "1287ea66cac076ee0d78418d108215d6104d0c04578f49b4f40329ed3f695418",
+      "after_sha256": "2a1d01a4962c48256bedfd49864531da6c3bed7fe953f53e498837e4d7bf90b5",
+      "prior_uncertainties": [
+        {
+          "note": "30 lines retained. Daya remains river name with mercy association; Chandashoka/Dharmashoka contrast retained. Buddha sleeping remains poetic depiction, not historical assertion. Hindi feminine narrator provisional.",
+          "record": "kb/production/translations/batch-130/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 242,
+      "target": "hi",
+      "reading_evidence": "Read all30 lines of Dhauli Hill and both targets: sleeping Buddha amid vendors/photographers/tourists/local monkeys, blood-soaked earth and Chandashoka-to-Dharmashoka/Daya river turn, stupa and silent hill, road beckoning by hand more than destination, unknown wandering travellers not returned, refusal of Buddhahood and world as grazing ground, recurring questions/visits/return and final never-rise/perhaps-after-world-sleeps turn. Did not historicise the poetic depiction.",
+      "open_questions": [
+        "Chandashoka/Dharmashoka and Daya names remain poem allusions; the mercy association is not explained inside verse.",
+        "Wandering travellers who did not return remain unidentified, and the Buddha sleeping is poetic depiction rather than historical assertion.",
+        "Feminine narrator agreement is unconfirmed; retain provisionally rather than assigning identity from author."
+      ],
+      "reason": "Retain coherent thirty-line voice, road gesture, grazing-ground image and the final reversal; gender remains an explicit external hold.",
+      "tradeoff": "Preserve source argument, imagery, repetitions and cultural anchors; correct only defensible target phrasing. Same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1c6e1b4c3420e7e79a012f5a57abdab69f95defc10af752d7bce62ad0a71f15b",
+      "before_sha256": "efefddbb48ecd7cabff543c7723c1c988c7aa1a379c8666278ab9b512cce31f2",
+      "after_sha256": "efefddbb48ecd7cabff543c7723c1c988c7aa1a379c8666278ab9b512cce31f2",
+      "prior_uncertainties": [
+        {
+          "note": "30 lines retained. Daya remains river name with mercy association; Chandashoka/Dharmashoka contrast retained. Buddha sleeping remains poetic depiction, not historical assertion. Hindi feminine narrator provisional.",
+          "record": "kb/production/translations/batch-130/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 233,
+      "target": "or",
+      "reading_evidence": "Read all20 Hindi lines and both full targets as ten ghazal couplets: guide/destination question, divine pain without medicine, compassion without refuge, painter God and stars, lost traveller/duty, invitation without address, enduring absurd talk versus answering back, sleeve-snake betrayal, universal cleverness and rejected advice, Kiran/magician cloud hiding moon. Checked independent couplet turns and repeated withholding, without supplying rhyme or flattening reproach.",
+      "open_questions": [
+        "Hindi switches first-person feminine खटखटाती to masculine देता; preserve original and record inconsistent agreement without inferring poet/speaker identity.",
+        "English sleeve-snake image retains source betrayal metaphor but may need a fluent-reader check for immediate idiomatic effect."
+      ],
+      "reason": "Remove misleading that-is-your-duty attachment to becoming lost; let the next lines guidance supply the duty, as in the source.",
+      "tradeoff": "Preserve source argument, imagery, repetitions and cultural anchors; correct only defensible target phrasing. Same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "a5e592a69c1f8b04b62774573bc9212d42a776281747af833c1eba36503f454c",
+      "before_sha256": "fe43d4665756f288156ddb3c54704d080676ad34bc171405ff316394770b7dea",
+      "after_sha256": "dd4e81173a2f0338e68c129bfdf07171a08f436dbccd140fb32309b29bb2339d",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 233,
+      "target": "en",
+      "reading_evidence": "Read all20 Hindi lines and both full targets as ten ghazal couplets: guide/destination question, divine pain without medicine, compassion without refuge, painter God and stars, lost traveller/duty, invitation without address, enduring absurd talk versus answering back, sleeve-snake betrayal, universal cleverness and rejected advice, Kiran/magician cloud hiding moon. Checked independent couplet turns and repeated withholding, without supplying rhyme or flattening reproach.",
+      "open_questions": [
+        "Hindi switches first-person feminine खटखटाती to masculine देता; preserve original and record inconsistent agreement without inferring poet/speaker identity.",
+        "English sleeve-snake image retains source betrayal metaphor but may need a fluent-reader check for immediate idiomatic effect."
+      ],
+      "reason": "Carry the knowing-better irony of सयाने in its advice-refusal context; retain the other nine complete couplets and imagery.",
+      "tradeoff": "Preserve source argument, imagery, repetitions and cultural anchors; correct only defensible target phrasing. Same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "a5e592a69c1f8b04b62774573bc9212d42a776281747af833c1eba36503f454c",
+      "before_sha256": "038d0e4d778ed42afd03b959ac0dda214c59aab96c3998b5d221c7ce94d3c170",
+      "after_sha256": "74577b07670db7ab7079455f14dc8c36dbb0c43a1bf04b8eed0bddbcf4b5f5d4",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 237,
+      "target": "or",
+      "reading_evidence": "Read complete28-line Hindi source and both full targets: endless figures for population/life-death/science/business, nothing beyond counting and peoples compulsory inclusion, lifelong registers/computer screens/English alphabetical names, exhausted bill payer/earning/eating without satisfaction, lifelong cycle from birth certificate to death certificate and intervening statistical truth. Checked impersonal register and repeated counting/name/person sequence.",
+      "open_questions": [
+        "Final कितने आंकड़ों का सच is syntactically loose: targets keep the statistical-truth sense without deciding a precise quantified object."
+      ],
+      "reason": "Retain full bureaucratic cycle and measured repetition; no defensible new lexical or agency correction needed.",
+      "tradeoff": "Preserve source argument, imagery, repetitions and cultural anchors; correct only defensible target phrasing. Same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "79142ac17f6d9c86e4853ea2bde6ee3f9c0b9157d198457fda3d0723eb646139",
+      "before_sha256": "c905f5183194443beda481e7c710bda7ddd104e97e2deeab2db42ad9feac2e0d",
+      "after_sha256": "c905f5183194443beda481e7c710bda7ddd104e97e2deeab2db42ad9feac2e0d",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 237,
+      "target": "en",
+      "reading_evidence": "Read complete28-line Hindi source and both full targets: endless figures for population/life-death/science/business, nothing beyond counting and peoples compulsory inclusion, lifelong registers/computer screens/English alphabetical names, exhausted bill payer/earning/eating without satisfaction, lifelong cycle from birth certificate to death certificate and intervening statistical truth. Checked impersonal register and repeated counting/name/person sequence.",
+      "open_questions": [
+        "Final कितने आंकड़ों का सच is syntactically loose: targets keep the statistical-truth sense without deciding a precise quantified object."
+      ],
+      "reason": "Retain full bureaucratic cycle and measured repetition; no defensible new lexical or agency correction needed.",
+      "tradeoff": "Preserve source argument, imagery, repetitions and cultural anchors; correct only defensible target phrasing. Same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "79142ac17f6d9c86e4853ea2bde6ee3f9c0b9157d198457fda3d0723eb646139",
+      "before_sha256": "3127595dcecf3488c5ed185351a14f433e0500952ff50ea726ac660b7c92f02b",
+      "after_sha256": "3127595dcecf3488c5ed185351a14f433e0500952ff50ea726ac660b7c92f02b",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 238,
+      "target": "en",
+      "reading_evidence": "Read all44 source lines and both targets across eleven quatrains: seven seas/cart/shop/fair purchases; sack of childhood-eyelid dreams/grams night-tress darkness; litres monsoon water/two fairy wings; kilowatts solar heat/dew softness; pao stars and diamond status; blue-sky free offer; handful sand/handspan field; seeds/grass bag corners; sorting nature at home and sharing; flower colours in instalments poured into relationships; ordered hope/smiles, door knock and doubled parcel arrival. Preserved feminine source voice without inventing gender marking where unnecessary, mixed measurements and domestic/commercial play.",
+      "open_questions": [
+        "पाओ does not establish whether the intended measure is modern quarter-kilogram or historical quarter-seer; existing quarter-seer remains provisional and Odia ପାଏ unexpanded.",
+        "Fairy-wing सिफारिश is provisionally pleading/intercession; the precise intermediary relationship is unspecified."
+      ],
+      "reason": "Remove imported Hindi inversion and road-encounter calque while preserving every whimsical purchase, measurement and repeated parcel ending.",
+      "tradeoff": "Preserve source argument, imagery, repetitions and cultural anchors; correct only defensible target phrasing. Same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 44,
+        "before_lines": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36,
+          40
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "72662a3877f013400c50b31e413710b2134d81925e014ffafdfbb4fb4dd409f5",
+      "before_sha256": "cee14421b58befad6a7cc2f40acd9fa8ad848b174dbd33be5b513fb24d789ede",
+      "after_sha256": "bdb81a22ab6c6e5ae2983d7c18ebb8f3447a50785eedbe36c45a370dca47be27",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 238,
+      "target": "or",
+      "reading_evidence": "Read all44 source lines and both targets across eleven quatrains: seven seas/cart/shop/fair purchases; sack of childhood-eyelid dreams/grams night-tress darkness; litres monsoon water/two fairy wings; kilowatts solar heat/dew softness; pao stars and diamond status; blue-sky free offer; handful sand/handspan field; seeds/grass bag corners; sorting nature at home and sharing; flower colours in instalments poured into relationships; ordered hope/smiles, door knock and doubled parcel arrival. Preserved feminine source voice without inventing gender marking where unnecessary, mixed measurements and domestic/commercial play.",
+      "open_questions": [
+        "पाओ does not establish whether the intended measure is modern quarter-kilogram or historical quarter-seer; existing quarter-seer remains provisional and Odia ପାଏ unexpanded.",
+        "Fairy-wing सिफारिश is provisionally pleading/intercession; the precise intermediary relationship is unspecified."
+      ],
+      "reason": "Retain natural shopping voice and culture-specific measures, fairy wings, fractional field, sharing and delivery refrain without forcing rhyme or explanations.",
+      "tradeoff": "Preserve source argument, imagery, repetitions and cultural anchors; correct only defensible target phrasing. Same-assistant self-review, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "72662a3877f013400c50b31e413710b2134d81925e014ffafdfbb4fb4dd409f5",
+      "before_sha256": "e580e246eae8f9b5553a3f406fa89cbeba324db5959fa298f995aac8f0aa6271",
+      "after_sha256": "e580e246eae8f9b5553a3f406fa89cbeba324db5959fa298f995aac8f0aa6271",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

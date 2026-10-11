@@ -1,0 +1,527 @@
+[
+  {
+    "poem_id": 293,
+    "target": "or",
+    "reading_evidence": "Read complete30-line source and both targets in4/18/8blocks: pond/60-watt bulb/ghosts/haggard garden, long winters and scarce clothes, drowsy bulb/clay oven/sister cooking for siblings, window gaps/cold winds, children approaching oven and elder sister, round oven/bread comparison, ghosts repelled, present ample clothes/lost warmth and final pond view.",
+    "open_questions": [
+      "Tool read as stool from sitting context; bread as roti remains provisional. Lost sister/oven/garden and ghost play are not assigned literal death or specific supernatural facts."
+    ],
+    "reason": "Reflow the cooking clause and clarify warmth from both stove and sister, not movement away from them. Preserve30verse lines and the three emotional blocks with explicit target mapping.",
+    "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 30,
+      "before_lines": [
+        4,
+        22
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "c004e24f62085c1abcc3caf18954b2ee9a9027f0d3ec984d4e8b4cd3d7829660",
+    "before_sha256": "f26bb179bcfd618937217e96b0fbcf1b7debbc4105c22e0bc2465b0c70592764",
+    "after_sha256": "058249d554893c885f31cf18af2a9fb1edae0b5522727e83e809b660458dd2d3",
+    "prior_uncertainties": [
+      {
+        "note": "Three blocks [4,18,8] retained. Tool read stool in sitting context; bread rendered roti. Ghosts/garden and vanished sister remain ambiguous, not assigned a literal death.",
+        "record": "kb/production/translations/batch-119/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଉଷ୍ମତା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ସବୁଜ ପୋଖରୀ",
+          "ଆଉ ଝୁଲୁଥିବା ଷାଠିଏ ୱାଟ୍ ବଲ୍‌ବ ମଝିରେ,",
+          "ରହୁଥିଲେ ଭୂତମାନେ ଆଉ",
+          "ଜରାଜୀର୍ଣ୍ଣ ବଗିଚା।"
+        ],
+        [
+          "ଶୀତ ଲମ୍ବା ଓ ନିଷ୍ଠୁର ଥିଲା,",
+          "ଗରମ ପୋଷାକ ବେଶି ନ ଥିଲା।",
+          "ଢୁଳାଉଥିବା ବଲ୍‌ବ ତଳେ ରୋଷେଇଘରର",
+          "ମାଟିଚୁଲି",
+          "ପ୍ରତି ସନ୍ଧ୍ୟାରେ ଲାଲ ହେଉଥିଲା ଯେବେ ମୋ",
+          "ଭଉଣୀ ଷ୍ଟୁଲ୍‌ରେ ବସୁଥିଲା ରୁଟି",
+          "ଓ ତରକାରି ରାନ୍ଧିବାକୁ ଭାଇଭଉଣୀଙ୍କ ପାଇଁ।",
+          "ଏକମାତ୍ର ଝରକାର କାଠ ଚଉକାଠରେ",
+          "ଉଦାର ଫାଙ୍କ ଦେଇ କମ୍ପାଉଥିବା,",
+          "ଥଣ୍ଡା ପବନ ପଶୁଥିଲା।",
+          "ଆଉ ପିଲାମାନେ ଉଷ୍ମତା ପାଇଁ ଧୀରେ ପାଖକୁ ଘୁଞ୍ଚୁଥିଲେ,",
+          "ଚୁଲି ଓ ବଡ଼ଭଉଣୀ ପାଖରୁ।",
+          "ସେମାନେ ମାପିବାକୁ ବି ଚେଷ୍ଟା କରୁଥିଲେ: କେଉଁଟି",
+          "ଆହୁରି ଗୋଲ ଆକାରର—",
+          "ଲାଲ ଚୁଲି",
+          "ନା ହାତତିଆରି ରୁଟି।",
+          "ଭୂତମାନେ ଆସିବାକୁ ସାହସ କରୁନଥିଲେ",
+          "ଜଳୁଥିବା ମାଟିଚୁଲି ପାଖକୁ।"
+        ],
+        [
+          "ଶୀତ ଏବେ ବି ଲମ୍ବା ଓ କମ୍ପନଭରା।",
+          "ଆମ ପାଖରେ ଯଥେଷ୍ଟ ଗରମ ପୋଷାକ ଅଛି।",
+          "କିନ୍ତୁ ଲାଲ ମାଟିଚୁଲି, ଗରମ ରୁଟି ଓ",
+          "ଭଉଣୀ ଅସଜଡ଼ା ବଗିଚାରେ ହଜିଛନ୍ତି।",
+          "ଏବେ ଭୂତମାନେ ଖେଳନ୍ତି",
+          "ସବୁ ଉଷ୍ମତା ସହ, ଯେବେ ଆମେ ଚାହୁଁ",
+          "ଝରକା ଫାଙ୍କ ଦେଇ",
+          "ରହସ୍ୟମୟ ସବୁଜ ପୋଖରୀ ଆଡ଼କୁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଉଷ୍ମତା",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ସବୁଜ ପୋଖରୀ",
+          "ଆଉ ଝୁଲୁଥିବା ଷାଠିଏ ୱାଟ୍ ବଲ୍‌ବ ମଝିରେ,",
+          "ରହୁଥିଲେ ଭୂତମାନେ ଆଉ",
+          "ଜରାଜୀର୍ଣ୍ଣ ବଗିଚା।"
+        ],
+        [
+          "ଶୀତ ଲମ୍ବା ଓ ନିଷ୍ଠୁର ଥିଲା,",
+          "ଗରମ ପୋଷାକ ବେଶି ନ ଥିଲା।",
+          "ଢୁଳାଉଥିବା ବଲ୍‌ବ ତଳେ ରୋଷେଇଘରର",
+          "ମାଟିଚୁଲି",
+          "ପ୍ରତି ସନ୍ଧ୍ୟାରେ ଲାଲ ହେଉଥିଲା, ଯେବେ ମୋ ଭଉଣୀ",
+          "ଷ୍ଟୁଲ୍‌ରେ ବସି ନିଜ ଭାଇଭଉଣୀଙ୍କ ପାଇଁ",
+          "ରୁଟି ଓ ତରକାରି ରାନ୍ଧୁଥିଲା।",
+          "ଏକମାତ୍ର ଝରକାର କାଠ ଚଉକାଠରେ",
+          "ଉଦାର ଫାଙ୍କ ଦେଇ କମ୍ପାଉଥିବା,",
+          "ଥଣ୍ଡା ପବନ ପଶୁଥିଲା।",
+          "ଆଉ ପିଲାମାନେ ଧୀରେ ଆହୁରି ପାଖକୁ ଘୁଞ୍ଚୁଥିଲେ,",
+          "ଚୁଲି ଓ ବଡ଼ଭଉଣୀର ଉଷ୍ମତା ପାଇଁ।",
+          "ସେମାନେ ମାପିବାକୁ ବି ଚେଷ୍ଟା କରୁଥିଲେ: କେଉଁଟି",
+          "ଆହୁରି ଗୋଲ ଆକାରର—",
+          "ଲାଲ ଚୁଲି",
+          "ନା ହାତତିଆରି ରୁଟି।",
+          "ଭୂତମାନେ ଆସିବାକୁ ସାହସ କରୁନଥିଲେ",
+          "ଜଳୁଥିବା ମାଟିଚୁଲି ପାଖକୁ।"
+        ],
+        [
+          "ଶୀତ ଏବେ ବି ଲମ୍ବା ଓ କମ୍ପନଭରା।",
+          "ଆମ ପାଖରେ ଯଥେଷ୍ଟ ଗରମ ପୋଷାକ ଅଛି।",
+          "କିନ୍ତୁ ଲାଲ ମାଟିଚୁଲି, ଗରମ ରୁଟି ଓ",
+          "ଭଉଣୀ ଅସଜଡ଼ା ବଗିଚାରେ ହଜିଛନ୍ତି।",
+          "ଏବେ ଭୂତମାନେ ଖେଳନ୍ତି",
+          "ସବୁ ଉଷ୍ମତା ସହ, ଯେବେ ଆମେ ଚାହୁଁ",
+          "ଝରକା ଫାଙ୍କ ଦେଇ",
+          "ରହସ୍ୟମୟ ସବୁଜ ପୋଖରୀ ଆଡ଼କୁ।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 30,
+        "before_lines": [
+          4,
+          22
+        ],
+        "inline_breaks": [],
+        "source_sha256": "c004e24f62085c1abcc3caf18954b2ee9a9027f0d3ec984d4e8b4cd3d7829660",
+        "stanzas_sha256": "fbe1170fc882b5bfdfd5fef375eb20aac0e50e43a2775bbe6e6e6aae3784b00b"
+      }
+    }
+  },
+  {
+    "poem_id": 293,
+    "target": "hi",
+    "reading_evidence": "Read complete30-line source and both targets in4/18/8blocks: pond/60-watt bulb/ghosts/haggard garden, long winters and scarce clothes, drowsy bulb/clay oven/sister cooking for siblings, window gaps/cold winds, children approaching oven and elder sister, round oven/bread comparison, ghosts repelled, present ample clothes/lost warmth and final pond view.",
+    "open_questions": [
+      "Tool read as stool from sitting context; bread as roti remains provisional. Lost sister/oven/garden and ghost play are not assigned literal death or specific supernatural facts."
+    ],
+    "reason": "Repair mechanical clause breaks around sister/bread and warmth/from; retain the double source of warmth and all images with explicit30line mapping.",
+    "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 30,
+      "before_lines": [
+        4,
+        22
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "c004e24f62085c1abcc3caf18954b2ee9a9027f0d3ec984d4e8b4cd3d7829660",
+    "before_sha256": "de061938fb63e0258660390fd8ba9f5f14990c24a6625e1c52cdfd88dcf3fada",
+    "after_sha256": "09f277a5fc76fe9f56d393e0f565e2166c5dd44d1e5b88e68c70b99abe8a1e09",
+    "prior_uncertainties": [
+      {
+        "note": "Three blocks [4,18,8] retained. Tool read stool in sitting context; bread rendered roti. Ghosts/garden and vanished sister remain ambiguous, not assigned a literal death.",
+        "record": "kb/production/translations/batch-119/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "गरमाहट",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "हरे तालाब",
+          "और लटकते साठ वॉट के बल्ब के बीच,",
+          "रहते थे भूत और",
+          "उजड़ा हुआ बाग़।"
+        ],
+        [
+          "सर्दियाँ लंबी और निर्दयी थीं,",
+          "गरम कपड़े बहुत कम थे।",
+          "ऊँघते बल्ब के नीचे रसोई का",
+          "मिट्टी का चूल्हा",
+          "हर शाम लाल हो जाता, जब मेरी",
+          "बहन एक स्टूल पर बैठती रोटी",
+          "और तरकारी बनाने अपने भाई-बहनों के लिए।",
+          "इकलौती खिड़की के लकड़ी के चौखटे में",
+          "ख़ूब चौड़ी दरारें थीं, जिनसे कंपकँपाती,",
+          "ठंडी हवाएँ आती थीं।",
+          "और बच्चे गरमाहट पाने धीरे-धीरे पास सरकते,",
+          "चूल्हे और बड़ी बहन से।",
+          "वे यह भी नापने की कोशिश करते: कौन",
+          "ज़्यादा गोल था—",
+          "लाल चूल्हा",
+          "या हाथ की बनी रोटी।",
+          "भूत साहस नहीं करते थे आने का",
+          "जलते मिट्टी के चूल्हे के पास।"
+        ],
+        [
+          "सर्दियाँ अब भी लंबी और कंपकँपाती हैं।",
+          "हमारे पास काफ़ी गरम कपड़े हैं।",
+          "पर लाल मिट्टी का चूल्हा, गरम रोटी और",
+          "बहन बेतरतीब बाग़ में खो गए हैं।",
+          "अब भूत खेलते हैं",
+          "सारी गरमाहट से, जबकि हम झाँकते हैं",
+          "खिड़की की दरारों से",
+          "उस रहस्यमय हरे तालाब की ओर।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "गरमाहट",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "हरे तालाब",
+          "और लटकते साठ वॉट के बल्ब के बीच,",
+          "रहते थे भूत और",
+          "उजड़ा हुआ बाग़।"
+        ],
+        [
+          "सर्दियाँ लंबी और निर्दयी थीं,",
+          "गरम कपड़े बहुत कम थे।",
+          "ऊँघते बल्ब के नीचे रसोई का",
+          "मिट्टी का चूल्हा",
+          "हर शाम लाल हो जाता, जब मेरी बहन",
+          "स्टूल पर बैठकर अपने भाई-बहनों के लिए",
+          "रोटी और तरकारी बनाती।",
+          "इकलौती खिड़की के लकड़ी के चौखटे में",
+          "ख़ूब चौड़ी दरारें थीं, जिनसे कंपकँपाती,",
+          "ठंडी हवाएँ आती थीं।",
+          "और बच्चे धीरे-धीरे और पास सरकते,",
+          "चूल्हे और बड़ी बहन की गरमाहट पाने।",
+          "वे यह भी नापने की कोशिश करते: कौन",
+          "ज़्यादा गोल था—",
+          "लाल चूल्हा",
+          "या हाथ की बनी रोटी।",
+          "भूत साहस नहीं करते थे आने का",
+          "जलते मिट्टी के चूल्हे के पास।"
+        ],
+        [
+          "सर्दियाँ अब भी लंबी और कंपकँपाती हैं।",
+          "हमारे पास काफ़ी गरम कपड़े हैं।",
+          "पर लाल मिट्टी का चूल्हा, गरम रोटी और",
+          "बहन बेतरतीब बाग़ में खो गए हैं।",
+          "अब भूत खेलते हैं",
+          "सारी गरमाहट से, जबकि हम झाँकते हैं",
+          "खिड़की की दरारों से",
+          "उस रहस्यमय हरे तालाब की ओर।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 30,
+        "before_lines": [
+          4,
+          22
+        ],
+        "inline_breaks": [],
+        "source_sha256": "c004e24f62085c1abcc3caf18954b2ee9a9027f0d3ec984d4e8b4cd3d7829660",
+        "stanzas_sha256": "0adc6c51ab307af71805c67fdaf71157293ea5e88e659df0f222f408625adf59"
+      }
+    }
+  },
+  {
+    "poem_id": 294,
+    "target": "hi",
+    "reading_evidence": "Read full20-line tribute and both targets: death/farewell, wheels/physics immobility, named poet teaching physics and poetry, metaphors/irony/satire/feelings, earthly humility/fragrance/renown, role model/peace/star, award claim, subliming fumes, inadequate words and illuminated literary garden.",
+    "open_questions": [
+      "The sources first-Indian Sahitya Academy Award claim requires editorial/source verification; it is not silently corrected or independently certified here.",
+      "Stationery is read stationary from physics context; subliming fumes remains an unusual technical/funerary metaphor, not normalised to a literal event."
+    ],
+    "reason": "Repair the Hindi coordination and agreement of fragrance spreading and conferring renown without altering the source praise or factual claim.",
+    "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "c4966c76dbd4408368e2897dbed77b6f665fba4936a00aec656aa0fa28386405",
+    "before_sha256": "49606a86c6538c2b7dec24514e04fa49ff50e5788b4f0d17bf655994b4021bc6",
+    "after_sha256": "b29467b7971586e021054f73c2e0fdecac36184d579d7d5531992354753954d7",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "जयंत महापात्र को श्रद्धांजलि",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मृत्यु अपरिहार्य है",
+          "और हम सबको नश्वर संसार से विदा लेनी है",
+          "पर यह बहुत पीड़ादायक है",
+          "मान लेना कि कोई अब हमारे साथ नहीं है।",
+          "वह अब जीवन के पहियों के साथ हमारे संग आगे नहीं बढ़ेगा",
+          "वह स्थिर, निष्क्रिय हो गया है, न संवेग, न बल, न आकर्षण, न विकर्षण.....",
+          "बस जड़, न कान, न आँखें, न स्वर",
+          "आज हमने खोया है एक प्रतिष्ठित व्यक्तित्व, एक किंवदंती",
+          "डॉ. जयंत महापात्र को, जिन्होंने भौतिकी और कविता सिखाई",
+          "जिनकी कविताएँ रूपकों, विडंबना और व्यंग्य में नहाती थीं",
+          "जिन्होंने मानवीय भावनाओं के बारे में लिखा",
+          "धरती से जुड़े व्यक्ति, जिनके व्यक्तित्व ने सबको मुग्ध किया",
+          "जिनकी सुगंध साहित्य-जगत में फैली और उन्हें एक चमकती हस्ती बनाया।",
+          "विश्व-साहित्य और भाषा के पथप्रवर्तक, आदर्श।",
+          "उनकी आत्मा को शांति मिले",
+          "हमने आकाशगंगा का एक तारा खो दिया",
+          "साहित्य अकादमी पुरस्कार पाने वाले पहले भारतीय",
+          "उस प्रसिद्ध कवि के ऊर्ध्वपातित धुएँ",
+          "उस महान आदर्श का वर्णन करने में मेरे शब्द कम पड़ते हैं",
+          "उनकी कविता सदा साहित्य के उद्यान को सुंदरता से आलोकित करे।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "जयंत महापात्र को श्रद्धांजलि",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मृत्यु अपरिहार्य है",
+          "और हम सबको नश्वर संसार से विदा लेनी है",
+          "पर यह बहुत पीड़ादायक है",
+          "मान लेना कि कोई अब हमारे साथ नहीं है।",
+          "वह अब जीवन के पहियों के साथ हमारे संग आगे नहीं बढ़ेगा",
+          "वह स्थिर, निष्क्रिय हो गया है, न संवेग, न बल, न आकर्षण, न विकर्षण.....",
+          "बस जड़, न कान, न आँखें, न स्वर",
+          "आज हमने खोया है एक प्रतिष्ठित व्यक्तित्व, एक किंवदंती",
+          "डॉ. जयंत महापात्र को, जिन्होंने भौतिकी और कविता सिखाई",
+          "जिनकी कविताएँ रूपकों, विडंबना और व्यंग्य में नहाती थीं",
+          "जिन्होंने मानवीय भावनाओं के बारे में लिखा",
+          "धरती से जुड़े व्यक्ति, जिनके व्यक्तित्व ने सबको मुग्ध किया",
+          "जिनकी सुगंध साहित्य-जगत में फैली और उन्हें एक चमकती हस्ती बना गई।",
+          "विश्व-साहित्य और भाषा के पथप्रवर्तक, आदर्श।",
+          "उनकी आत्मा को शांति मिले",
+          "हमने आकाशगंगा का एक तारा खो दिया",
+          "साहित्य अकादमी पुरस्कार पाने वाले पहले भारतीय",
+          "उस प्रसिद्ध कवि के ऊर्ध्वपातित धुएँ",
+          "उस महान आदर्श का वर्णन करने में मेरे शब्द कम पड़ते हैं",
+          "उनकी कविता सदा साहित्य के उद्यान को सुंदरता से आलोकित करे।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 296,
+    "target": "hi",
+    "reading_evidence": "Read complete16-line source and both targets in3/3/3/3/2/2blocks: I/you/we/they knowing versus not knowing, four sometimes recurrences, intent empty of content and reality/illusion beauty. No participant gender established in English.",
+    "open_questions": [],
+    "reason": "Use parallel natural Hindi knowing constructions without unsupported male participants. Preserve all four pronoun oppositions, negations and short-line recurrence rather than varying synonyms.",
+    "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "4d0d9eeb568c6b384cefa10a26bd65ed706e455fd78e85f4cf8cb3c3a783169f",
+    "before_sha256": "a09e4133e6904758080c5d842eac8ffd200b1a0aa4b65ecb13d2dbf8efab64b2",
+    "after_sha256": "e917321ccbedcfdf6e6a8f127c658de9c0571c8966a8d81b87b91d6d3606b3bd",
+    "prior_uncertainties": [
+      {
+        "note": "All six brief blocks retained; knowing/not-knowing alternation exact. Hindi grammatical masculine provisional; original unspecified.",
+        "record": "kb/production/translations/batch-119/review.json"
+      }
+    ],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "माया—भ्रम",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "कभी-कभी",
+          "मैं जानता हूँ,",
+          "तुम नहीं।"
+        ],
+        [
+          "कभी-कभी",
+          "तुम जानते हो,",
+          "मैं नहीं।"
+        ],
+        [
+          "कभी-कभी",
+          "हम जानते हैं,",
+          "वे नहीं।"
+        ],
+        [
+          "कभी-कभी",
+          "वे जानते हैं,",
+          "हम नहीं।"
+        ],
+        [
+          "ऐसा है आशय,",
+          "विषय से रिक्त।"
+        ],
+        [
+          "ऐसी है वास्तविकता,",
+          "भ्रम का सौंदर्य।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "माया—भ्रम",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "कभी-कभी",
+          "मुझे पता है,",
+          "तुम्हें नहीं।"
+        ],
+        [
+          "कभी-कभी",
+          "तुम्हें पता है,",
+          "मुझे नहीं।"
+        ],
+        [
+          "कभी-कभी",
+          "हमें पता है,",
+          "उन्हें नहीं।"
+        ],
+        [
+          "कभी-कभी",
+          "उन्हें पता है,",
+          "हमें नहीं।"
+        ],
+        [
+          "ऐसा है आशय,",
+          "विषय से रिक्त।"
+        ],
+        [
+          "ऐसी है वास्तविकता,",
+          "भ्रम का सौंदर्य।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 299,
+    "target": "hi",
+    "reading_evidence": "Read all16source lines and both targets: chalk/duster right hand/books held with left, corridor walk, expected turn/look back before classroom, air-passage emptiness/milk-white movement/scent, repeated certainty, sea of eyes and sunrise class. Female subject explicit; observers gender and relationship unspecified; encoded apostrophe read normally.",
+    "open_questions": [
+      "Take a grand class may mean attend/learn or conduct; target lesson/class wording remains provisional. No teacher-student or romantic relationship invented; milk-white movement retained."
+    ],
+    "reason": "Remove unsupported male observer agreement while keeping first-person perception and explicit female walking subject. Preserve repeated expectation and all16lines.",
+    "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "2829c98ae981f7e7206a8858e7aa85bf64aa1c2722ae29792882b49242180bf0",
+    "before_sha256": "289a3ef7343e7d2af2433699a78b50398f1cffa84b9ad5ca49bf6579cb5afa0c",
+    "after_sha256": "95384b645a72e18f6b00d06b26954c11dfd403583469462df4fbd1ac59877955",
+    "prior_uncertainties": [
+      {
+        "note": "Sixteen lines retained. Encoded apostrophe in she&#39;ll read normally in translation; original untouched. Milk-white motion and sunrise lesson kept metaphorically, without inventing relationship. Hindi masculine observer provisional.",
+        "record": "kb/production/translations/batch-119/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "सूर्योदय",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "दाएँ हाथ में चॉक और डस्टर",
+          "और किताबें धीरे से सीने से लगाए",
+          "बाएँ हाथ से",
+          "वह गलियारे में चलती जाती है",
+          "मैं जानता हूँ वह ज़रूर मुड़ेगी",
+          "मैं जानता हूँ कम से कम एक बार पीछे देखेगी",
+          "कक्षा में प्रवेश करने से पहले",
+          "हवा के रास्ते में एक ख़ालीपन है",
+          "गलियारे में दूध-सी सफ़ेद एक हलचल है",
+          "और मैं उसे तेज़ी से गुज़रते देखता हूँ",
+          "चॉक, डस्टर और किताबों के साथ",
+          "मेरे चारों ओर एक सुगंध फैलाती हुई",
+          "मुझे यक़ीन है वह ज़रूर पीछे मुड़ेगी",
+          "जब उसकी आँखों के शांत समुद्र में",
+          "मुझे भी एक भव्य कक्षा लेनी है",
+          "सूर्योदय की!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "सूर्योदय",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "दाएँ हाथ में चॉक और डस्टर",
+          "और किताबें धीरे से सीने से लगाए",
+          "बाएँ हाथ से",
+          "वह गलियारे में चलती जाती है",
+          "मुझे पता है वह ज़रूर मुड़ेगी",
+          "मुझे पता है कम से कम एक बार पीछे देखेगी",
+          "कक्षा में प्रवेश करने से पहले",
+          "हवा के रास्ते में एक ख़ालीपन है",
+          "गलियारे में दूध-सी सफ़ेद एक हलचल है",
+          "और मुझे वह तेज़ी से गुज़रती दिखती है",
+          "चॉक, डस्टर और किताबों के साथ",
+          "मेरे चारों ओर एक सुगंध फैलाती हुई",
+          "मुझे यक़ीन है वह ज़रूर पीछे मुड़ेगी",
+          "जब उसकी आँखों के शांत समुद्र में",
+          "मुझे भी एक भव्य कक्षा लेनी है",
+          "सूर्योदय की!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

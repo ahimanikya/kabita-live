@@ -1,0 +1,514 @@
+[
+  {
+    "poem_id": 501,
+    "target": "hi",
+    "reading_evidence": "Read all eight source/target stanzas: winter twilight curtain and her platter of vapour, swirling fog/eyelashes/caress/eye feast, green canopy/blue hills, winding wet road, cotton clouds/cumulus/blankets, repeated Barial/Jatinga/DimaHasao, road/fog/forest/time, streams/whispering trees and Jatinga on Haflong storybook throne giving tranquillity. Personification checked from her in opening through final actions.",
+    "reason": "Restore the source’s explicit her personification in both final Jatinga verbs. This follows the poem, not assumptions about a place name or poet.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source wording, imagery, stanza/line counts, provenance and credits. Same-assistant self-review only; all variants remain draft pending independent review.",
+    "full_source_target_read": true,
+    "source_sha256": "7346ccc325922a632ede8e16f918094327438afaa053179540af33eba38a7358",
+    "before_sha256": "6ce51a442a3e9799ebf3de11ffafbeb212aca5bcc34552d37fea6b3c84d5b291",
+    "after_sha256": "d51fca4e34c4cbf06a53020d2c28685283497cf85fa570e525e44fc34dc4cb31",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "जटिंगा का धुँध भरा विस्तार",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जब सर्दियों की गोधूलि के ढलते दिन",
+          "काले पर्दे में बदल जाते हैं,",
+          "जटिंगा की थाली में धुँध का भोज परोसा जाता है।"
+        ],
+        [
+          "घूमता कोहरा भारी होकर लटकता है,",
+          "घनी पलकों से छिपकर तुम्हें बुलाता हुआ;",
+          "ठिठुरती ठंड तुम्हें कोमल दुलार से छूती है,",
+          "आँखों के लिए दावत परोसती है।",
+          "रहस्यमय सन्नाटा और सफ़ेद घुँघरालापन",
+          "आँख की पुतली के सामने रहस्यमय दृश्य रचते हैं।"
+        ],
+        [
+          "हरी छतरी और नीली पहाड़ियाँ प्रतिध्वनि गुँजाती हैं,",
+          "जब प्रकृति उल्लास में नहाती है।",
+          "कोहरे के पलों का रसभरा रोमांच स्वादिष्ट भोज है, परीकथा के दृश्यों की रेखाओं सहित।"
+        ],
+        [
+          "घुमावदार सड़क तुम्हें पहाड़ी पर ऊपर या नीचे ले जाती है,",
+          "गीले, फिसलते स्पर्शों से सहलाती हुई",
+          "तुम्हारी त्वचा को,",
+          "विशेषकर तुम्हारे चेहरे को।"
+        ],
+        [
+          "बादलों से ढकी पहाड़ियाँ",
+          "रुई के फाहे पहनती हैं,",
+          "और तुम अपने को कपासी बादलों की गोद में पा सकते हो।",
+          "सफ़ेद कंबल चोटियों को ढकते हैं",
+          "और धीरे-धीरे उड़ते हैं।"
+        ],
+        [
+          "जब तुम पहाड़ियों के बुलावे की बात करते हो,",
+          "बारियाल एक महिमामय चित्र की तरह हमारे मन पर अंकित होता है;",
+          "हाँ, जटिंगा का बारियाल,",
+          "दीमा हसाओ का बारियाल,",
+          "जिसका प्रेमभरा आलिंगन तुम सँजोओगे।"
+        ],
+        [
+          "जटिंगा की सर्पीली सड़क,",
+          "जटिंगा का धुँधला, अछूता कोहरा,",
+          "जटिंगा का वह दूर का जंगल,",
+          "जो तुम्हें मोहक शांति की पंखुड़ियों में भिगोता है,",
+          "समय गिनने की पागल दौड़ मिटा देता है।"
+        ],
+        [
+          "मधुर स्वर वाली धाराएँ अपने आनंदमय छींटों से तुम्हें भिगोती हैं,",
+          "सरसराते पेड़ फुसफुसाहटें बिखेरते हैं, जिन्हें तुम समझने की कोशिश करते हो।",
+          "इस तरह जटिंगा आनंद से सिंहासन पर बैठता है,",
+          "हाफ़लोंग की कहानी की किताब के किसी एक पन्ने पर,",
+          "जब तुम उसके द्वार पहुँचते हो, टोकरी भर शांति बरसाता है।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "जटिंगा का धुँध भरा विस्तार",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जब सर्दियों की गोधूलि के ढलते दिन",
+          "काले पर्दे में बदल जाते हैं,",
+          "जटिंगा की थाली में धुँध का भोज परोसा जाता है।"
+        ],
+        [
+          "घूमता कोहरा भारी होकर लटकता है,",
+          "घनी पलकों से छिपकर तुम्हें बुलाता हुआ;",
+          "ठिठुरती ठंड तुम्हें कोमल दुलार से छूती है,",
+          "आँखों के लिए दावत परोसती है।",
+          "रहस्यमय सन्नाटा और सफ़ेद घुँघरालापन",
+          "आँख की पुतली के सामने रहस्यमय दृश्य रचते हैं।"
+        ],
+        [
+          "हरी छतरी और नीली पहाड़ियाँ प्रतिध्वनि गुँजाती हैं,",
+          "जब प्रकृति उल्लास में नहाती है।",
+          "कोहरे के पलों का रसभरा रोमांच स्वादिष्ट भोज है, परीकथा के दृश्यों की रेखाओं सहित।"
+        ],
+        [
+          "घुमावदार सड़क तुम्हें पहाड़ी पर ऊपर या नीचे ले जाती है,",
+          "गीले, फिसलते स्पर्शों से सहलाती हुई",
+          "तुम्हारी त्वचा को,",
+          "विशेषकर तुम्हारे चेहरे को।"
+        ],
+        [
+          "बादलों से ढकी पहाड़ियाँ",
+          "रुई के फाहे पहनती हैं,",
+          "और तुम अपने को कपासी बादलों की गोद में पा सकते हो।",
+          "सफ़ेद कंबल चोटियों को ढकते हैं",
+          "और धीरे-धीरे उड़ते हैं।"
+        ],
+        [
+          "जब तुम पहाड़ियों के बुलावे की बात करते हो,",
+          "बारियाल एक महिमामय चित्र की तरह हमारे मन पर अंकित होता है;",
+          "हाँ, जटिंगा का बारियाल,",
+          "दीमा हसाओ का बारियाल,",
+          "जिसका प्रेमभरा आलिंगन तुम सँजोओगे।"
+        ],
+        [
+          "जटिंगा की सर्पीली सड़क,",
+          "जटिंगा का धुँधला, अछूता कोहरा,",
+          "जटिंगा का वह दूर का जंगल,",
+          "जो तुम्हें मोहक शांति की पंखुड़ियों में भिगोता है,",
+          "समय गिनने की पागल दौड़ मिटा देता है।"
+        ],
+        [
+          "मधुर स्वर वाली धाराएँ अपने आनंदमय छींटों से तुम्हें भिगोती हैं,",
+          "सरसराते पेड़ फुसफुसाहटें बिखेरते हैं, जिन्हें तुम समझने की कोशिश करते हो।",
+          "इस तरह जटिंगा आनंद से सिंहासन पर बैठती है,",
+          "हाफ़लोंग की कहानी की किताब के किसी एक पन्ने पर,",
+          "जब तुम उसके द्वार पहुँचते हो, टोकरी भर शांति बरसाती है।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 502,
+    "target": "or",
+    "reading_evidence": "Complete three source/target stanzas: growth/beauty/empirical attitude versus historical erasure through animosity/prestige, objective cosmopolitan excellence across six domains versus prejudiced footsteps, despots unable to achieve a remembered monument during power turning to past/predecessor faults while ignoring good, old men of mettle/monuments/pride. Attachment of to be remembered checked against the whole final sentence.",
+    "reason": "Put the animosity/prestige genitive with display, and attach remembrance to the absent achievement rather than supplying it as the motive for going to the past. Render ride in power as tenure in power.",
+    "open_questions": [
+      "Century old men remains temporally broad, not automatically centenarians. Political criticism stays general; no named current politician, event or factual allegation added."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source wording, imagery, stanza/line counts, provenance and credits. Same-assistant self-review only; all variants remain draft pending independent review.",
+    "full_source_target_read": true,
+    "source_sha256": "34cf41db417fe7b3c2bbceae05662b6a6e9b57a09c62a8e63cf5e9e0f1b0085d",
+    "before_sha256": "f058d8863716938f66cd178ca678088ed4119b250fb530d103e54af0edf624b7",
+    "after_sha256": "829ebc9f7455fb6b0fe227fc27e8029420682cf0590dd811a9c4c17919cb4924",
+    "prior_uncertainties": [
+      {
+        "note": "All three stanzas retained. General political criticism translated without attaching it to any named present-day leader or event. century old men kept temporally ambiguous rather than substituting centenarians.",
+        "record": "kb/production/translations/batch-071/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଗର୍ବ ଓ ବିଦ୍ୱେଷ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଆମ ଗର୍ବ ବଡ଼ ହେବାରେ,",
+          "ସତରେ ବଡ଼ ଓ ସୁନ୍ଦର ହେବାରେ,",
+          "ଜୀବନ ପ୍ରତି ଅନୁଭବଭିତ୍ତିକ ଦୃଷ୍ଟି ନେଇ;",
+          "ଐତିହାସିକ ପ୍ରକ୍ରିୟାକୁ ଲିଭାଇଦେବାରେ ନୁହେଁ,",
+          "ଆମ ସକ୍ରିୟ ପ୍ରଦର୍ଶନରେ",
+          "ବିଦ୍ୱେଷ ଓ ମିଥ୍ୟା ପ୍ରତିଷ୍ଠାର।"
+        ],
+        [
+          "ଆମ ନିରପେକ୍ଷତାରେ ସ୍ୱତନ୍ତ୍ର ହୋଇ",
+          "ଆଉ ବିଶ୍ୱନାଗରିକ ସୃଜନଶୀଳ ପ୍ରତିଭାରେ",
+          "ଆମେ ନିଜ ପୃଥିବୀରେ ଉତ୍କର୍ଷ ପାଇପାରୁ,",
+          "ପ୍ରତି କ୍ଷେତ୍ରରେ—କଳା, ଶିଳ୍ପ, ସାହିତ୍ୟ,",
+          "ବିଜ୍ଞାନ, ପ୍ରଯୁକ୍ତି ଓ ସ୍ଥାପତ୍ୟରେ,",
+          "ଯେପରି ପୁରୁଣା ଦିନରେ ଉତ୍କର୍ଷ ପାଇଥିଲୁ;",
+          "ଆଖିବୁଜି ଚାଲିବା ପରିବର୍ତ୍ତେ",
+          "ପୂର୍ବାଗ୍ରହୀଙ୍କ ପାଦଚିହ୍ନରେ।"
+        ],
+        [
+          "ସେଇ ମୂର୍ଖ, ଦାମ୍ଭିକ ସ୍ୱେଚ୍ଛାଚାରୀମାନେ,",
+          "ଯେଉଁମାନେ କୌଣସି ସ୍ମରଣୀୟ ମହାନ କାମ କରିପାରନ୍ତି ନାହିଁ",
+          "ନିଜ କ୍ଷମତାର ଯାତ୍ରାରେ,",
+          "ମନେ ରହିବା ପାଇଁ ଅତୀତକୁ ଯାଆନ୍ତି",
+          "ଆଉ ନିଜ ପୂର୍ବସୂରୀଙ୍କୁ ନିନ୍ଦନ୍ତି,",
+          "ସେମାନଙ୍କ ଦୁର୍ବଳ ଦିଗକୁ ଚିହ୍ନାଇ,",
+          "ସେମାନଙ୍କ ସବୁ ଭଲ କାମକୁ ଉପେକ୍ଷା କରନ୍ତି।",
+          "ସେମାନେ ଶତବର୍ଷ ପୁରୁଣା ସାହସୀ ମଣିଷଙ୍କୁ ବି ନିନ୍ଦନ୍ତି,",
+          "ସେମାନଙ୍କ ସ୍ମାରକକୁ ବିକୃତ ଓ ଧ୍ୱଂସ କରନ୍ତି,",
+          "ଆଉ ଦମ୍ଭରେ ଗର୍ବର ସ୍ୱାଦ ଚାଖନ୍ତି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ଗର୍ବ ଓ ବିଦ୍ୱେଷ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଆମ ଗର୍ବ ବଡ଼ ହେବାରେ,",
+          "ସତରେ ବଡ଼ ଓ ସୁନ୍ଦର ହେବାରେ,",
+          "ଜୀବନ ପ୍ରତି ଅନୁଭବଭିତ୍ତିକ ଦୃଷ୍ଟି ନେଇ;",
+          "ଐତିହାସିକ ପ୍ରକ୍ରିୟାକୁ ଲିଭାଇଦେବାରେ ନୁହେଁ,",
+          "ବିଦ୍ୱେଷ ଓ ମିଥ୍ୟା ପ୍ରତିଷ୍ଠାର",
+          "ଆମ ସକ୍ରିୟ ପ୍ରଦର୍ଶନରେ।"
+        ],
+        [
+          "ଆମ ନିରପେକ୍ଷତାରେ ସ୍ୱତନ୍ତ୍ର ହୋଇ",
+          "ଆଉ ବିଶ୍ୱନାଗରିକ ସୃଜନଶୀଳ ପ୍ରତିଭାରେ",
+          "ଆମେ ନିଜ ପୃଥିବୀରେ ଉତ୍କର୍ଷ ପାଇପାରୁ,",
+          "ପ୍ରତି କ୍ଷେତ୍ରରେ—କଳା, ଶିଳ୍ପ, ସାହିତ୍ୟ,",
+          "ବିଜ୍ଞାନ, ପ୍ରଯୁକ୍ତି ଓ ସ୍ଥାପତ୍ୟରେ,",
+          "ଯେପରି ପୁରୁଣା ଦିନରେ ଉତ୍କର୍ଷ ପାଇଥିଲୁ;",
+          "ଆଖିବୁଜି ଚାଲିବା ପରିବର୍ତ୍ତେ",
+          "ପୂର୍ବାଗ୍ରହୀଙ୍କ ପାଦଚିହ୍ନରେ।"
+        ],
+        [
+          "ସେଇ ମୂର୍ଖ, ଦାମ୍ଭିକ ସ୍ୱେଚ୍ଛାଚାରୀମାନେ,",
+          "ଯେଉଁମାନେ ନିଜ କ୍ଷମତାକାଳରେ ଏପରି କୌଣସି ମହାନ କାମ କରିପାରନ୍ତି ନାହିଁ",
+          "ଯାହା ପାଇଁ ସେମାନେ ମନେ ରହିବେ,",
+          "ଅତୀତକୁ ଯାଆନ୍ତି",
+          "ଆଉ ନିଜ ପୂର୍ବସୂରୀଙ୍କୁ ନିନ୍ଦନ୍ତି,",
+          "ସେମାନଙ୍କ ଦୁର୍ବଳ ଦିଗକୁ ଚିହ୍ନାଇ,",
+          "ସେମାନଙ୍କ ସବୁ ଭଲ କାମକୁ ଉପେକ୍ଷା କରନ୍ତି।",
+          "ସେମାନେ ଶତବର୍ଷ ପୁରୁଣା ସାହସୀ ମଣିଷଙ୍କୁ ବି ନିନ୍ଦନ୍ତି,",
+          "ସେମାନଙ୍କ ସ୍ମାରକକୁ ବିକୃତ ଓ ଧ୍ୱଂସ କରନ୍ତି,",
+          "ଆଉ ଦମ୍ଭରେ ଗର୍ବର ସ୍ୱାଦ ଚାଖନ୍ତି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 502,
+    "target": "hi",
+    "reading_evidence": "Complete three source/target stanzas: growth/beauty/empirical attitude versus historical erasure through animosity/prestige, objective cosmopolitan excellence across six domains versus prejudiced footsteps, despots unable to achieve a remembered monument during power turning to past/predecessor faults while ignoring good, old men of mettle/monuments/pride. Attachment of to be remembered checked against the whole final sentence.",
+    "reason": "Repair the display genitive and place to be remembered with the rulers’ missing achievement, preserving the accusatory consequence of turning against predecessors.",
+    "open_questions": [
+      "Century old men remains temporally broad, not automatically centenarians. Political criticism stays general; no named current politician, event or factual allegation added."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source wording, imagery, stanza/line counts, provenance and credits. Same-assistant self-review only; all variants remain draft pending independent review.",
+    "full_source_target_read": true,
+    "source_sha256": "34cf41db417fe7b3c2bbceae05662b6a6e9b57a09c62a8e63cf5e9e0f1b0085d",
+    "before_sha256": "596f90deef93ca871152eb4a89f29927d8d811aa15b7f0912cd4eb68b9dff211",
+    "after_sha256": "fd7d66e3824d4780f92857590a30d1e0b10b97acbb483c6d584f5d7a4a3f5963",
+    "prior_uncertainties": [
+      {
+        "note": "All three stanzas retained. General political criticism translated without attaching it to any named present-day leader or event. century old men kept temporally ambiguous rather than substituting centenarians.",
+        "record": "kb/production/translations/batch-071/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "गर्व और वैमनस्य",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "हमारा गर्व बड़ा बनने में है,",
+          "सचमुच बड़ा और सुंदर बनने में,",
+          "जीवन के प्रति अनुभवपरक दृष्टि के साथ;",
+          "ऐतिहासिक प्रक्रिया को मिटाने में नहीं,",
+          "अपने सक्रिय प्रदर्शन में",
+          "वैमनस्य और झूठी प्रतिष्ठा के।"
+        ],
+        [
+          "अपनी वस्तुनिष्ठता में विशिष्ट होकर",
+          "और विश्वनागरिक सृजनशील प्रतिभा से",
+          "हम अपनी दुनिया में उत्कृष्ट हो सकते हैं,",
+          "हर क्षेत्र में—कला, शिल्प, साहित्य,",
+          "विज्ञान, प्रौद्योगिकी और वास्तुकला में,",
+          "जैसे पुराने दिनों में उत्कृष्ट हुए थे;",
+          "बजाय आँख मूँदकर चलने के",
+          "पूर्वाग्रहियों के पदचिह्नों पर।"
+        ],
+        [
+          "वे मूर्ख, दंभी निरंकुश शासक,",
+          "जो कोई स्मरणीय महान काम नहीं कर सकते",
+          "सत्ता की अपनी सवारी में,",
+          "याद रखे जाने के लिए अतीत में जाते हैं",
+          "और अपने पूर्ववर्तियों को बदनाम करते हैं,",
+          "उनकी कमज़ोरियों को गिनाते हुए,",
+          "उनके किए सारे अच्छे कामों की अनदेखी करते हैं।",
+          "वे सदी-पुराने साहसी पुरुषों को भी बदनाम करते हैं,",
+          "उनके स्मारकों को विरूप करते और तोड़ते हैं,",
+          "और शेख़ी से गर्व का स्वाद चखते हैं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "गर्व और वैमनस्य",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "हमारा गर्व बड़ा बनने में है,",
+          "सचमुच बड़ा और सुंदर बनने में,",
+          "जीवन के प्रति अनुभवपरक दृष्टि के साथ;",
+          "ऐतिहासिक प्रक्रिया को मिटाने में नहीं,",
+          "वैमनस्य और झूठी प्रतिष्ठा के",
+          "अपने सक्रिय प्रदर्शन में।"
+        ],
+        [
+          "अपनी वस्तुनिष्ठता में विशिष्ट होकर",
+          "और विश्वनागरिक सृजनशील प्रतिभा से",
+          "हम अपनी दुनिया में उत्कृष्ट हो सकते हैं,",
+          "हर क्षेत्र में—कला, शिल्प, साहित्य,",
+          "विज्ञान, प्रौद्योगिकी और वास्तुकला में,",
+          "जैसे पुराने दिनों में उत्कृष्ट हुए थे;",
+          "बजाय आँख मूँदकर चलने के",
+          "पूर्वाग्रहियों के पदचिह्नों पर।"
+        ],
+        [
+          "वे मूर्ख, दंभी निरंकुश शासक,",
+          "जो सत्ता में रहते कोई ऐसा महान काम नहीं कर सकते",
+          "जिसके लिए उन्हें याद रखा जाए,",
+          "अतीत में जाते हैं",
+          "और अपने पूर्ववर्तियों को बदनाम करते हैं,",
+          "उनकी कमज़ोरियों को गिनाते हुए,",
+          "उनके किए सारे अच्छे कामों की अनदेखी करते हैं।",
+          "वे सदी-पुराने साहसी पुरुषों को भी बदनाम करते हैं,",
+          "उनके स्मारकों को विरूप करते और तोड़ते हैं,",
+          "और शेख़ी से गर्व का स्वाद चखते हैं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 505,
+    "target": "or",
+    "reading_evidence": "Complete three source/target stanzas [10,4,3] read: son in mother tear, uncertain genesis/hormone and sublime joy attribution, wriggling bundle as own, years and breath just outside body/air indispensability, risking son eye-roll on autumn day/trees farewell, every moment of motherhood worthwhile and best poem. Mother narrator and son explicit in source.",
+    "reason": "Make the mother the natural grammatical subject of inhaling while preserving the son-as-breath outside the body.",
+    "open_questions": [
+      "Odia ଆଖି ବୁଲାଇପାର carries the gesture provisionally; the affectionate eye-roll rather than merely looking around needs a fluent idiom check. Do not intensify it into anger."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source wording, imagery, stanza/line counts, provenance and credits. Same-assistant self-review only; all variants remain draft pending independent review.",
+    "full_source_target_read": true,
+    "source_sha256": "a90da4a3fd6b469d1accb4ae933b9829c1ea6a2cab579ab5d551f2f263ee25a2",
+    "before_sha256": "a845c8fafb0bbb0aadd8629b28089a38c639708942f9b0584797be2d01cdde8f",
+    "after_sha256": "53bf5fd00783f7394a37a8529e7a0c978b524c1fa3df5ff774f103b80d61b397",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ମୋ ପୁଅ ପାଇଁ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "କାରଣ ତୁମେ ସେଇଠି ଅଛ,",
+          "ସେଇ ଗୋଲ ଲୁହବୁନ୍ଦାର ମଝିରେ,",
+          "ଯାହା ନାଜୁକ ଭାବେ ଝୁଲେ",
+          "ମାଆର ଆଖି କୋଣରେ।",
+          "ମୁଁ ଜାଣେନାହିଁ ଲୁହର ଉତ୍ପତ୍ତି।",
+          "ମୁଁ ତାକୁ ମାତୃତ୍ୱର ଯନ୍ତ୍ରଣା ବୋଲି ଧରେ—",
+          "ହର୍ମୋନ୍‌ର ଅନିୟମିତ ଖେଳ,",
+          "ଦିବ୍ୟ ଆନନ୍ଦର ସାମାନ୍ୟ ଝଲକ ମିଶା—",
+          "ଛଟପଟ ପୁଟୁଳିଟିଏ କୋଳେ ଧରିବା,",
+          "ତାକୁ ନିଜର ବୋଲି କହିବା।"
+        ],
+        [
+          "ପଛକୁ ଚାହିଁଲେ,",
+          "ମୁଁ ଦେଖେ ବିତିଯାଇଥିବା ବର୍ଷମାନଙ୍କୁ,",
+          "ଯେବେ ତୁମେ କେବଳ ମୋ ନିଆଯାଉଥିବା ଶ୍ୱାସ ଥିଲ, ମୋ ଦେହଠାରୁ ଟିକିଏ ଅଧିକ ଦୂରେ।",
+          "ସେତିକି ସହଜ, ଫୁସ୍‌ଫୁସ୍‌ରେ ବହୁଥିବା ପବନ ପରି ସେତିକି ଅଲକ୍ଷିତ, ମୋ ଆତ୍ମା ପାଇଁ ସେତିକି ସ୍ୱାଭାବିକ ଭାବେ ଅପରିହାର୍ଯ୍ୟ।"
+        ],
+        [
+          "ତୁମେ ଆଖି ବୁଲାଇପାର ବୋଲି ଜାଣି ବି ଶରତର ଏକ ନିର୍ମଳ ଦିନରେ ତୁମକୁ ଏକଥା କହେ—ପତ୍ରଝଡ଼ା ଋତୁ, ଯେବେ ଗଛମାନେ ପତ୍ରଙ୍କୁ ବିଦାୟପତ୍ର ଲେଖନ୍ତି,",
+          "ତୁମ ମାଆ ବୋଲାଇବା ପ୍ରତି ମୁହୂର୍ତ୍ତରେ ସାର୍ଥକ ଥିଲା,",
+          "ତୁମେ ମୋ ପାଖକୁ ଆସିଥିବା ଶ୍ରେଷ୍ଠ କବିତା।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ମୋ ପୁଅ ପାଇଁ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "କାରଣ ତୁମେ ସେଇଠି ଅଛ,",
+          "ସେଇ ଗୋଲ ଲୁହବୁନ୍ଦାର ମଝିରେ,",
+          "ଯାହା ନାଜୁକ ଭାବେ ଝୁଲେ",
+          "ମାଆର ଆଖି କୋଣରେ।",
+          "ମୁଁ ଜାଣେନାହିଁ ଲୁହର ଉତ୍ପତ୍ତି।",
+          "ମୁଁ ତାକୁ ମାତୃତ୍ୱର ଯନ୍ତ୍ରଣା ବୋଲି ଧରେ—",
+          "ହର୍ମୋନ୍‌ର ଅନିୟମିତ ଖେଳ,",
+          "ଦିବ୍ୟ ଆନନ୍ଦର ସାମାନ୍ୟ ଝଲକ ମିଶା—",
+          "ଛଟପଟ ପୁଟୁଳିଟିଏ କୋଳେ ଧରିବା,",
+          "ତାକୁ ନିଜର ବୋଲି କହିବା।"
+        ],
+        [
+          "ପଛକୁ ଚାହିଁଲେ,",
+          "ମୁଁ ଦେଖେ ବିତିଯାଇଥିବା ବର୍ଷମାନଙ୍କୁ,",
+          "ଯେବେ ତୁମେ କେବଳ ମୁଁ ନେଉଥିବା ଶ୍ୱାସ ଥିଲ, ମୋ ଦେହଠାରୁ ଟିକିଏ ଅଧିକ ଦୂରେ।",
+          "ସେତିକି ସହଜ, ଫୁସ୍‌ଫୁସ୍‌ରେ ବହୁଥିବା ପବନ ପରି ସେତିକି ଅଲକ୍ଷିତ, ମୋ ଆତ୍ମା ପାଇଁ ସେତିକି ସ୍ୱାଭାବିକ ଭାବେ ଅପରିହାର୍ଯ୍ୟ।"
+        ],
+        [
+          "ତୁମେ ଆଖି ବୁଲାଇପାର ବୋଲି ଜାଣି ବି ଶରତର ଏକ ନିର୍ମଳ ଦିନରେ ତୁମକୁ ଏକଥା କହେ—ପତ୍ରଝଡ଼ା ଋତୁ, ଯେବେ ଗଛମାନେ ପତ୍ରଙ୍କୁ ବିଦାୟପତ୍ର ଲେଖନ୍ତି,",
+          "ତୁମ ମାଆ ବୋଲାଇବା ପ୍ରତି ମୁହୂର୍ତ୍ତରେ ସାର୍ଥକ ଥିଲା,",
+          "ତୁମେ ମୋ ପାଖକୁ ଆସିଥିବା ଶ୍ରେଷ୍ଠ କବିତା।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 505,
+    "target": "hi",
+    "reading_evidence": "Complete three source/target stanzas [10,4,3] read: son in mother tear, uncertain genesis/hormone and sublime joy attribution, wriggling bundle as own, years and breath just outside body/air indispensability, risking son eye-roll on autumn day/trees farewell, every moment of motherhood worthwhile and best poem. Mother narrator and son explicit in source.",
+    "reason": "Make the possible eye-roll the son’s response, not an action the mother risks doing to his eyes; retain affectionate willingness to say the sentiment anyway.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source wording, imagery, stanza/line counts, provenance and credits. Same-assistant self-review only; all variants remain draft pending independent review.",
+    "full_source_target_read": true,
+    "source_sha256": "a90da4a3fd6b469d1accb4ae933b9829c1ea6a2cab579ab5d551f2f263ee25a2",
+    "before_sha256": "099f726d29c2ee9627e96ce44ca76940c318035e91dbc8e179cf43c66786bbbb",
+    "after_sha256": "00078b325661151d04ac2efa59f6bab260357941c38954667a6f498659664d8c",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "मेरे बेटे के लिए",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "क्योंकि तुम वहीं हो,",
+          "उस गोल अश्रुबिंदु के बीचोंबीच,",
+          "जो नाज़ुक-सा टँगा है",
+          "माँ की आँखों के किनारे।",
+          "मुझे आँसुओं का उद्गम नहीं मालूम।",
+          "मैं इसे मातृत्व की टीस मानती हूँ—",
+          "हार्मोनों का अनियमित खेल,",
+          "दिव्य आनंद की एक झलक से मिला हुआ—",
+          "एक कुलबुलाती गठरी को थामना,",
+          "उसे अपना कहना।"
+        ],
+        [
+          "जब पीछे मुड़कर देखती हूँ,",
+          "दिखते हैं वे वर्ष जो बीत गए,",
+          "जब तुम बस मेरी ली हुई साँस थे, मेरे शरीर से थोड़ा और दूर।",
+          "उतने ही सहज, उतने ही अनलक्षित जैसे फेफड़े में बहती हवा, मेरी आत्मा के लिए उतने ही स्वभावतः अनिवार्य।"
+        ],
+        [
+          "तुम्हारी आँखें घुमाने का जोखिम लेकर मैं यह तुमसे शरद के एक निर्मल दिन में कहती हूँ—पतझड़ का मौसम, जब पेड़ पत्तों को विदाई-पत्र लिखते हैं,",
+          "तुम्हारी माँ कहलाना हर पल सार्थक था,",
+          "तुम मेरे पास आई सबसे अच्छी कविता हो।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "मेरे बेटे के लिए",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "क्योंकि तुम वहीं हो,",
+          "उस गोल अश्रुबिंदु के बीचोंबीच,",
+          "जो नाज़ुक-सा टँगा है",
+          "माँ की आँखों के किनारे।",
+          "मुझे आँसुओं का उद्गम नहीं मालूम।",
+          "मैं इसे मातृत्व की टीस मानती हूँ—",
+          "हार्मोनों का अनियमित खेल,",
+          "दिव्य आनंद की एक झलक से मिला हुआ—",
+          "एक कुलबुलाती गठरी को थामना,",
+          "उसे अपना कहना।"
+        ],
+        [
+          "जब पीछे मुड़कर देखती हूँ,",
+          "दिखते हैं वे वर्ष जो बीत गए,",
+          "जब तुम बस मेरी ली हुई साँस थे, मेरे शरीर से थोड़ा और दूर।",
+          "उतने ही सहज, उतने ही अनलक्षित जैसे फेफड़े में बहती हवा, मेरी आत्मा के लिए उतने ही स्वभावतः अनिवार्य।"
+        ],
+        [
+          "तुम शायद आँखें घुमाओ, फिर भी मैं यह तुमसे शरद के एक निर्मल दिन में कहती हूँ—पतझड़ का मौसम, जब पेड़ पत्तों को विदाई-पत्र लिखते हैं,",
+          "तुम्हारी माँ कहलाना हर पल सार्थक था,",
+          "तुम मेरे पास आई सबसे अच्छी कविता हो।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

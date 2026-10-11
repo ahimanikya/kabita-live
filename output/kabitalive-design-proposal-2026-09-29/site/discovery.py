@@ -29,7 +29,7 @@ class ReaderPage(HTMLParser):
                 self.authors.append((anchor['href'],data))
 
 def eligible(name, entry, page, status):
-    if name in {'404.html','search.html','contact.html','submit.html'} or page.redirect: return False
+    if name in {'404.html','search.html','contact.html','submit.html','translation-review.html'} or page.redirect: return False
     if entry.get('canonical_url',entry['url']) != entry['url']: return False
     held=set(status.get('archived_poem_records',[])+status.get('unassigned_poems',[])+status.get('missing_author_names',[]))
     match=re.fullmatch(r'poem-(\d+)\.html',name)
@@ -93,7 +93,7 @@ def write_discovery(root, entries, base, training=False):
     lines=['# Kabita Live','', '> A monthly poetry journal in Odia, Hindi and English.','',
            '## Reading and citation','',
            'Use each page’s canonical URL. Credit the named poet and any named translator. Preserve original language, line breaks and stanza boundaries when quoting.',
-           'Language adaptations marked as drafts are not independently reviewed translations. Consult the original poem and its visible attribution. Poetry belongs to its respective authors; this guide does not grant republication or training rights.',
+           'Consult the original poem and its visible attribution alongside additional language versions. Poetry belongs to its respective authors; this guide does not grant republication or training rights.',
            'This file is a navigation aid. The linked HTML pages are authoritative; no login or JavaScript is required to read their original text.','', '## Journal','']
     for name,label in [('index.html','Home'),('poems.html','Poems'),('poets.html','Poets'),('archive.html','Edition archive'),('editorial-team.html','Editors'),('about.html','Our story and credits')]:
         if name in entries: lines.append(f'- [{label}]({entries[name]["canonical_url"]})')

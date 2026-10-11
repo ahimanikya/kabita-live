@@ -1,0 +1,259 @@
+{
+  "recorded_at": "2026-10-06T08:34:06.930399+00:00",
+  "poem_ids": [
+    17,
+    18,
+    24,
+    22,
+    26
+  ],
+  "variants_read": 10,
+  "variants_changed": 4,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 17,
+      "target": "hi",
+      "reading_evidence": "Read all33raw source lines (30verse plus separator/address) and full Hindi/English targets: Chaitra carpet/hasanta image/blue lotus feet, grape-dark silk in wind, oceanic sleep/five restless breaths/separation, dishevelled hair/turmeric lips/faint smile; cherished Mona leaves bed at Brahma hour, abhisarika attire does not suit; jealous sandalwood body/bearing and gaze/one in crore; seven flute holes/melancholy breeze/dense humming, repeated whose and final demand to open heart. Checked intimate address versus respect and preserved difficult opening image rather than confidently reinterpreting.",
+      "open_questions": [
+        "Carry hasanta barna unresolved: halant/unvowelled consonant is provisional, not confirmed smiling colour. Grape-dark garment/turmeric lips/five breaths and Brahma hour preserved. Hindi crore idiom retained as equivalent praise; speaker gender not established."
+      ],
+      "reason": "Restore intimate cherished address instead of formal respected address.",
+      "tradeoff": "Adarini here addresses cherished Mona amid intimate longing; pyari restores affection without adding relationship or changing possession/questioning tone.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "9790d39c69697e7ffeae95d104b608621b73aa5aa845b2bd8f168932f1c0dbee",
+      "before_sha256": "9c55646fa03c2a160cd5c52bdc978cc93ab612e307c94010af3fc4686634f2ed",
+      "after_sha256": "f3194fbaddde61ee588a3df5cdc5e3959af4f4051320f35f80cb8cfd95a77c63",
+      "prior_uncertainties": [
+        {
+          "note": "Hasanta barna is difficult image: provisionally halant/unvowelled consonant shape; explicitly needs Odia review, not confidently smiling colour. Grape-dark sari and turmeric lips literal; five breaths, Brahma hour and abhisarika retained, original33lines/address unchanged.",
+          "record": "kb/production/translations/batch-174/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 17,
+      "target": "en",
+      "reading_evidence": "Read all33raw source lines (30verse plus separator/address) and full Hindi/English targets: Chaitra carpet/hasanta image/blue lotus feet, grape-dark silk in wind, oceanic sleep/five restless breaths/separation, dishevelled hair/turmeric lips/faint smile; cherished Mona leaves bed at Brahma hour, abhisarika attire does not suit; jealous sandalwood body/bearing and gaze/one in crore; seven flute holes/melancholy breeze/dense humming, repeated whose and final demand to open heart. Checked intimate address versus respect and preserved difficult opening image rather than confidently reinterpreting.",
+      "open_questions": [
+        "Carry hasanta barna unresolved: halant/unvowelled consonant is provisional, not confirmed smiling colour. Grape-dark garment/turmeric lips/five breaths and Brahma hour preserved. Hindi crore idiom retained as equivalent praise; speaker gender not established."
+      ],
+      "reason": "Retain complete English target: cherished address, longing and repeated possessive question carry; difficult opening remains held.",
+      "tradeoff": "Preserve the source images, sequence and voice; unresolved readings remain provisional outside the poem.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "9790d39c69697e7ffeae95d104b608621b73aa5aa845b2bd8f168932f1c0dbee",
+      "before_sha256": "811d4fa36a9e051ba92b72a8ecd8ae43e2da7232fe5311ec48c05f7d48a74254",
+      "after_sha256": "811d4fa36a9e051ba92b72a8ecd8ae43e2da7232fe5311ec48c05f7d48a74254",
+      "prior_uncertainties": [
+        {
+          "note": "Hasanta barna is difficult image: provisionally halant/unvowelled consonant shape; explicitly needs Odia review, not confidently smiling colour. Grape-dark sari and turmeric lips literal; five breaths, Brahma hour and abhisarika retained, original33lines/address unchanged.",
+          "record": "kb/production/translations/batch-174/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 18,
+      "target": "hi",
+      "reading_evidence": "Read all45raw Odia lines and full Hindi/English targets: unconscious search for love/kinship/surrender; dissolved stars/waning fortnight/barren white clouds/blue sky voice; hunger-thirst, separation-half union, lovemaking-renunciation, bondage-nirvana, life-death require completeness; earth/people/country identity, child prayer/adolescent emotion/youth abandon, priceless loss; past breast/Vidarbha/Kalidasa/seventh note/creation/spring; seasonal body/sorrow-joy trade/defeated dialogues/dust bed, forest flowers/faith-Vishwamitra, sickbed oasis; bleeding shadows/fortune scratches/extinguished lamps and unfinished earth grief. Checked uncertainty of dense allusive syntax without inventing a myth; closing images and raw tail retained.",
+      "open_questions": [
+        "Carry unresolved vigata baksha, Vidarbha/desire/Kalidasa, biswasa Biswamitra, seventh taan and related dense syntax. No inferred mythological narrative. Hindi narrator gender remains provisional. Jati is not confidently a caste here; existing Hindi jati and English people remain open for source review."
+      ],
+      "reason": "Retain after full reading; dense source uncertainties do not support a confident independent rewrite.",
+      "tradeoff": "Preserve the source images, sequence and voice; unresolved readings remain provisional outside the poem.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "574b01069504733e813154e663d31b57012a23adbe22adca8ca06a1bc7d48384",
+      "before_sha256": "30f3dbd9f2c63c9d4c8a043db841575cbf9c8203c11afe707ac8b25a0226acd2",
+      "after_sha256": "30f3dbd9f2c63c9d4c8a043db841575cbf9c8203c11afe707ac8b25a0226acd2",
+      "prior_uncertainties": [
+        {
+          "note": "Dense uncertain compounds/syntax: vigata baksha, Vidarbha/desire/Kalidasa, biswasa Biswamitra and seventh taan rendered provisionally; no invented myth narrative. Requires explicit linguistic reconciliation. All45lines; jati people not assumed caste; Hindi female narrator provisional.",
+          "record": "kb/production/translations/batch-174/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 18,
+      "target": "en",
+      "reading_evidence": "Read all45raw Odia lines and full Hindi/English targets: unconscious search for love/kinship/surrender; dissolved stars/waning fortnight/barren white clouds/blue sky voice; hunger-thirst, separation-half union, lovemaking-renunciation, bondage-nirvana, life-death require completeness; earth/people/country identity, child prayer/adolescent emotion/youth abandon, priceless loss; past breast/Vidarbha/Kalidasa/seventh note/creation/spring; seasonal body/sorrow-joy trade/defeated dialogues/dust bed, forest flowers/faith-Vishwamitra, sickbed oasis; bleeding shadows/fortune scratches/extinguished lamps and unfinished earth grief. Checked uncertainty of dense allusive syntax without inventing a myth; closing images and raw tail retained.",
+      "open_questions": [
+        "Carry unresolved vigata baksha, Vidarbha/desire/Kalidasa, biswasa Biswamitra, seventh taan and related dense syntax. No inferred mythological narrative. Hindi narrator gender remains provisional. Jati is not confidently a caste here; existing Hindi jati and English people remain open for source review."
+      ],
+      "reason": "Make the opening searching question natural while retaining its troubled state.",
+      "tradeoff": "Prana carries the inner life/soul here; turmoil conveys bihwalita without inventing a search object. The rhetorical question remains unanswered and source contrasts stay intact.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "574b01069504733e813154e663d31b57012a23adbe22adca8ca06a1bc7d48384",
+      "before_sha256": "ae368fc26670486f6b0a2b352c82a61ab06d628aab3f6a4703842060d54df063",
+      "after_sha256": "c6626ddfd7bbcfd6b5486ad74002f81e924b952cd01e7a0f63afb36a39e5bc7c",
+      "prior_uncertainties": [
+        {
+          "note": "Dense uncertain compounds/syntax: vigata baksha, Vidarbha/desire/Kalidasa, biswasa Biswamitra and seventh taan rendered provisionally; no invented myth narrative. Requires explicit linguistic reconciliation. All45lines; jati people not assumed caste; Hindi female narrator provisional.",
+          "record": "kb/production/translations/batch-174/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 24,
+      "target": "hi",
+      "reading_evidence": "Read all28verse lines plus two address lines and complete Hindi/English targets: hurt/indifference/complaint to fate or time; waiting seed in sad moment, last-watch fate speaks/sun cleaves dark/time returns longing/butterflies of desire; life madhumalati colour or painful moonlit night, peace with life and bow to destiny, struggle heading and tainted chapter; faith wall/music/emptiness dream, reassuring bird fits feathers to wounded wings, life on faith steps/time saves enraptured memory. Checked gentle questioning, concrete recurring images and movement toward reassurance without adding a moral.",
+      "open_questions": [],
+      "reason": "Retain after full reading: rhetorical questions, waiting seed, contrasting life images and bird/faith ending carry naturally.",
+      "tradeoff": "Preserve the source images, sequence and voice; unresolved readings remain provisional outside the poem.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "367f11687d4df7b860c900b006cb485c236d820bc7a8880932b267b016415d91",
+      "before_sha256": "08a85348510af1045b06fce09df84ca35abbac35958ab4bc7618959d58123676",
+      "after_sha256": "08a85348510af1045b06fce09df84ca35abbac35958ab4bc7618959d58123676",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 24,
+      "target": "en",
+      "reading_evidence": "Read all28verse lines plus two address lines and complete Hindi/English targets: hurt/indifference/complaint to fate or time; waiting seed in sad moment, last-watch fate speaks/sun cleaves dark/time returns longing/butterflies of desire; life madhumalati colour or painful moonlit night, peace with life and bow to destiny, struggle heading and tainted chapter; faith wall/music/emptiness dream, reassuring bird fits feathers to wounded wings, life on faith steps/time saves enraptured memory. Checked gentle questioning, concrete recurring images and movement toward reassurance without adding a moral.",
+      "open_questions": [],
+      "reason": "Remove unidiomatic hurt-with construction and count article before music.",
+      "tradeoff": "Upset with keeps relational hurt without assigning a perpetrator or escalating into resentment. Music stays music and remains sung; only the unnatural count article is removed.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "367f11687d4df7b860c900b006cb485c236d820bc7a8880932b267b016415d91",
+      "before_sha256": "3032d2dc6a43b7f52b3ce80ddb7a4c5689e61e9578a32ee2188600326132dd85",
+      "after_sha256": "1e22d86a407313bff7b48629fd7a12fe9fd2541301cb56abbc4a15e5119b6c71",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 22,
+      "target": "hi",
+      "reading_evidence": "Read both numbered pieces,31verse/number lines plus four separator/name/address/PIN tail lines, and full targets: poetry not cosmos/thousand suns, opens like lips/stalk flower/temple lion gate so entrant sees own wondrous form; poetry will not release speaker nor speaker flee, nests at navel; sweat/blood/life entwining increases incomprehension; affectionate back pat and active-versus-spontaneous understanding close. Checked intimate tu/dhana, personification, rejected grandiosity, opening unfolding and final wordplay in each language.",
+      "open_questions": [
+        "Carry provisional English by effort explanation of bujhajaena/bujhihoijae; effort is inferred from preceding sweat/blood, not explicit in closing couplet. Retain pending fluent review of wordplay, not declared solved. Specific temple not identified. Hindi masculine speaker and pyare address remain provisional; poet identity is not evidence."
+      ],
+      "reason": "Retain full variant: images and two-part turn preserved; final English wordplay and participant gender remain specific review questions.",
+      "tradeoff": "Preserve the source images, sequence and voice; unresolved readings remain provisional outside the poem.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "6ce7ed92d325f5375f600a0119e440bce40274baa54a28eee4cf604ec73cf1b0",
+      "before_sha256": "472410ffc28a1daeadd784acf3ed21cd7a6d1903c6ff52482d1280c4ec4b2237",
+      "after_sha256": "472410ffc28a1daeadd784acf3ed21cd7a6d1903c6ff52482d1280c4ec4b2237",
+      "prior_uncertainties": [
+        {
+          "note": "Two numbered pieces in single35lineblock preserved; final active/receptive understanding wordplay made explicit in English by effort, provisional. Temple lion gate retained without assigning specific temple.",
+          "record": "kb/production/translations/batch-174/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 22,
+      "target": "en",
+      "reading_evidence": "Read both numbered pieces,31verse/number lines plus four separator/name/address/PIN tail lines, and full targets: poetry not cosmos/thousand suns, opens like lips/stalk flower/temple lion gate so entrant sees own wondrous form; poetry will not release speaker nor speaker flee, nests at navel; sweat/blood/life entwining increases incomprehension; affectionate back pat and active-versus-spontaneous understanding close. Checked intimate tu/dhana, personification, rejected grandiosity, opening unfolding and final wordplay in each language.",
+      "open_questions": [
+        "Carry provisional English by effort explanation of bujhajaena/bujhihoijae; effort is inferred from preceding sweat/blood, not explicit in closing couplet. Retain pending fluent review of wordplay, not declared solved. Specific temple not identified. Hindi masculine speaker and pyare address remain provisional; poet identity is not evidence."
+      ],
+      "reason": "Retain full variant: images and two-part turn preserved; final English wordplay and participant gender remain specific review questions.",
+      "tradeoff": "Preserve the source images, sequence and voice; unresolved readings remain provisional outside the poem.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "6ce7ed92d325f5375f600a0119e440bce40274baa54a28eee4cf604ec73cf1b0",
+      "before_sha256": "2312aaf8c44025f636be36afac133832c963c4ad67f7388a0f06baa1bc514a21",
+      "after_sha256": "2312aaf8c44025f636be36afac133832c963c4ad67f7388a0f06baa1bc514a21",
+      "prior_uncertainties": [
+        {
+          "note": "Two numbered pieces in single35lineblock preserved; final active/receptive understanding wordplay made explicit in English by effort, provisional. Temple lion gate retained without assigning specific temple.",
+          "record": "kb/production/translations/batch-174/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 26,
+      "target": "hi",
+      "reading_evidence": "Read all42verse lines plus separator/locality/postal tail and full targets: ageing earth/sky/sea/dub grass/sadhaba bohu still beautiful; broken bridge/broken hearts/eyes reading breaths/cough/cane-palm uncertainty/words retreat/silence/death road/disappearing home; father wall/lime, mother bag and returned shraddha photo seeking wall; self carried seeks wall/branch/sky, daily little death/hanger-leaf-vetala-rainbow; colourful clothes/dyed hair/lip laughter/boots while words/path/knees/breath slip and birds/sky escape fist/earth beckons. Checked ageing rather than childhood growth, humour-mortality tension, parental photo metaphors and intact source tails.",
+      "open_questions": [
+        "Carry sadhaba bohu provisional red velvet mite and alinda provisional heart chamber rather than porch; no new biological or anatomical certainty. Father picture/wall lime metaphor, shraddha and vetala preserved; Hindi male speaker provisional. Hanging/mortality imagery remains literary, without added action details."
+      ],
+      "reason": "Specify advancing age through title and three recurrences, avoiding childhood growing-up reading.",
+      "tradeoff": "Umar badhne ke sath names ageing without adding a numerical age or making the opening beauty pessimistic. Same verse boundaries; title follows the recurring source phrase.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "title_after": "उम्र बढ़ने के साथ",
+      "source_sha256": "853bf937d65c58c7b019acc1810384341083f090d3408f3cf92cc6d88148621d",
+      "before_sha256": "ea5c2896afdc1e5becc1253e78d1cc2b4328c1031b063f40df488f81c687e7f9",
+      "after_sha256": "b945d0c04056e12ec11e04270cc7552507343915b906cb85147e753d6109a422",
+      "prior_uncertainties": [
+        {
+          "note": "Sadhaba bohu read red velvet mite, cultural term needs review. Alinda provisionally heart atrium rather than porch. Father picture/wall lime metaphor kept. Shraddha and vetala retained; mortality/hanging images literary, no added instruction. All46lines.",
+          "record": "kb/production/translations/batch-174/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 26,
+      "target": "en",
+      "reading_evidence": "Read all42verse lines plus separator/locality/postal tail and full targets: ageing earth/sky/sea/dub grass/sadhaba bohu still beautiful; broken bridge/broken hearts/eyes reading breaths/cough/cane-palm uncertainty/words retreat/silence/death road/disappearing home; father wall/lime, mother bag and returned shraddha photo seeking wall; self carried seeks wall/branch/sky, daily little death/hanger-leaf-vetala-rainbow; colourful clothes/dyed hair/lip laughter/boots while words/path/knees/breath slip and birds/sky escape fist/earth beckons. Checked ageing rather than childhood growth, humour-mortality tension, parental photo metaphors and intact source tails.",
+      "open_questions": [
+        "Carry sadhaba bohu provisional red velvet mite and alinda provisional heart chamber rather than porch; no new biological or anatomical certainty. Father picture/wall lime metaphor, shraddha and vetala preserved; Hindi male speaker provisional. Hanging/mortality imagery remains literary, without added action details."
+      ],
+      "reason": "Retain full English variant: grow older already carries ageing and closing erosion, with cultural/anatomical ambiguities preserved.",
+      "tradeoff": "Preserve the source images, sequence and voice; unresolved readings remain provisional outside the poem.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "853bf937d65c58c7b019acc1810384341083f090d3408f3cf92cc6d88148621d",
+      "before_sha256": "e48ccf02f291812d1036fa45df554cd9d01dd38cc14edbb737e65b317ba70970",
+      "after_sha256": "e48ccf02f291812d1036fa45df554cd9d01dd38cc14edbb737e65b317ba70970",
+      "prior_uncertainties": [
+        {
+          "note": "Sadhaba bohu read red velvet mite, cultural term needs review. Alinda provisionally heart atrium rather than porch. Father picture/wall lime metaphor kept. Shraddha and vetala retained; mortality/hanging images literary, no added instruction. All46lines.",
+          "record": "kb/production/translations/batch-174/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ],
+  "after_reading_evidence": "All four complete changed after variants read directly. Checked intimate Mona address, troubled search question, relational hurt/music article, ageing title and three recurrences. Full raw tails, verse counts and source questions preserved; six retained variants also fully read directly. AI self-review only.",
+  "skill": {
+    "path": "/Users/ahimanikya/.codex/skills/human-natural-translation/SKILL.md",
+    "sha256": "3954053f286bb38f21fff16020c27fefe933942532a2083a8b3e7eae9c1ccc17",
+    "mode": "Poetic Natural",
+    "adopted_companion": "kb/reference/adopted-human-natural/editorial.md"
+  }
+}

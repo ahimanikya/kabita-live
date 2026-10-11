@@ -1,0 +1,335 @@
+{
+  "recorded_at": "2026-10-06T06:27:30.804348+00:00",
+  "poem_ids": [
+    95,
+    97,
+    99,
+    100,
+    101
+  ],
+  "variants_read": 10,
+  "variants_changed": 6,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 95,
+      "target": "hi",
+      "reading_evidence": "Read complete four-stanza source and each target: video-call rakhi/brothers wrist and blurred eyes; home bustle after two years set against fathers Dussehra-strained pocket; mothers asthma and Diwali-smoke ambulance journey; monthly budget shaking beneath festival contributions. Checked all four identical corona-was-better refrains, first-person inward voice, contrast between reunion and social cost, medical circumstance without treating ironic refrain as medical advice.",
+      "open_questions": [],
+      "reason": "Retain after complete reading: ordinary household particulars carry the bitter refrain without added moral or explanation; Hindi and English preserve both affection and cost.",
+      "tradeoff": "Preserve original source, target voice, stanza sequence and cultural imagery; all targets remain drafts, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "7dbfe588872d7d38ac987941e4904d2c3b72baa1ef825fa95923c0b44bd39b5b",
+      "before_sha256": "493b09e699c3fd3f2c0d82f862b44129ea52a581bbe03b1ca62d339a2d530991",
+      "after_sha256": "493b09e699c3fd3f2c0d82f862b44129ea52a581bbe03b1ca62d339a2d530991",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 95,
+      "target": "en",
+      "reading_evidence": "Read complete four-stanza source and each target: video-call rakhi/brothers wrist and blurred eyes; home bustle after two years set against fathers Dussehra-strained pocket; mothers asthma and Diwali-smoke ambulance journey; monthly budget shaking beneath festival contributions. Checked all four identical corona-was-better refrains, first-person inward voice, contrast between reunion and social cost, medical circumstance without treating ironic refrain as medical advice.",
+      "open_questions": [],
+      "reason": "Retain after complete reading: ordinary household particulars carry the bitter refrain without added moral or explanation; Hindi and English preserve both affection and cost.",
+      "tradeoff": "Preserve original source, target voice, stanza sequence and cultural imagery; all targets remain drafts, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "7dbfe588872d7d38ac987941e4904d2c3b72baa1ef825fa95923c0b44bd39b5b",
+      "before_sha256": "ef58a057588a5aaa09e148d775342e97d334588be0d080df7117a74dbf048e1e",
+      "after_sha256": "ef58a057588a5aaa09e148d775342e97d334588be0d080df7117a74dbf048e1e",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 97,
+      "target": "hi",
+      "reading_evidence": "Read all twenty-two source and target blocks, including isolated questions and negative fragments: driving life/water/heat from body/river/fire; tools gathering soil or pain; curse versus naked body/tasted lips/reptile desire; hidden thatch water/moon/khirikoli tree; stolen solitude/shadow; lotus-bud secrets/lost anklet pair at empty bathing place/kamandalu water; petal-stalk-stamen story; engraved beloved feet and darkness threshold; mystery cluster/remnant noose; fire in love/dew in rebellion; fugitive/undulating wonder; stair-back/darkness shoulder/patting; cause of passion/rebellion/war; neither understood nor explained wartime-love likeness; mustard-oil sting versus sin/shame/stigma. Checked intimacy, questions, recurring you and delayed paradox without inventing a single allegorical answer.",
+      "open_questions": [
+        "Kanka tool remains uncertain: prior note says rake, English has rake, but Hindi currently has kaante. Record this discrepancy for regional clarification rather than applying an assumed shared tool meaning. Khirikoli tree remains transliterated.",
+        "Beloved-feet engraving, lotus-bud secrecy and kamandalu-water relationships remain provisional. Droh retains existing Hindi droh/English rebellion; precise intended sense and personified addressee remain open.",
+        "Hindi masculine you remains provisional; speaker gender not inferred from poet or lost anklets. Stair/ladder image allows stairway, but exact physical type and patting agency remain source questions."
+      ],
+      "reason": "Repair lost-pair agreement and syntactic attachment; retain first-person loss without assigning speaker gender.",
+      "tradeoff": "Two-line recasting makes feminine jodi control khoi; speaker still ungendered. Keeps all twenty-two blocks and explicit target verse boundaries.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 54,
+        "before_lines": [
+          1,
+          2,
+          3,
+          4,
+          10,
+          15,
+          20,
+          22,
+          29,
+          31,
+          33,
+          36,
+          38,
+          39,
+          40,
+          45,
+          46,
+          47,
+          48,
+          49,
+          51
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "0af6f318cd0010cd6b5d3fc12d10fb92852b63c2982cdd5728cc11c0b635c3a8",
+      "before_sha256": "17e47f66fa3fed595736d46b02cb1cda497d06ccbf8c9b38a0ea5de75a7b023e",
+      "after_sha256": "139649d5fc7c1d0df81eb55264ef2c31a984d3a966ed70f43fd2bc4b480de43d",
+      "prior_uncertainties": [
+        {
+          "note": "22 source blocks retained, including isolated questions and negative fragments. kanka interpreted rake, khirikoli tree transliterated; uncertain regional terms need native review. Intimate/reptile/fire/dew imagery not softened.",
+          "record": "kb/production/translations/batch-160/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 97,
+      "target": "en",
+      "reading_evidence": "Read all twenty-two source and target blocks, including isolated questions and negative fragments: driving life/water/heat from body/river/fire; tools gathering soil or pain; curse versus naked body/tasted lips/reptile desire; hidden thatch water/moon/khirikoli tree; stolen solitude/shadow; lotus-bud secrets/lost anklet pair at empty bathing place/kamandalu water; petal-stalk-stamen story; engraved beloved feet and darkness threshold; mystery cluster/remnant noose; fire in love/dew in rebellion; fugitive/undulating wonder; stair-back/darkness shoulder/patting; cause of passion/rebellion/war; neither understood nor explained wartime-love likeness; mustard-oil sting versus sin/shame/stigma. Checked intimacy, questions, recurring you and delayed paradox without inventing a single allegorical answer.",
+      "open_questions": [
+        "Kanka tool remains uncertain: prior note says rake, English has rake, but Hindi currently has kaante. Record this discrepancy for regional clarification rather than applying an assumed shared tool meaning. Khirikoli tree remains transliterated.",
+        "Beloved-feet engraving, lotus-bud secrecy and kamandalu-water relationships remain provisional. Droh retains existing Hindi droh/English rebellion; precise intended sense and personified addressee remain open.",
+        "Hindi masculine you remains provisional; speaker gender not inferred from poet or lost anklets. Stair/ladder image allows stairway, but exact physical type and patting agency remain source questions."
+      ],
+      "reason": "Restore natural question word order and render the offered back as a stairway rather than one stair.",
+      "tradeoff": "Reorders two lines while preserving question and list. Stairway retains the climbing image without choosing a particular ladder construction. Patting phrase retained as an idiomatic action, not treated as a factual new agent.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 54,
+        "before_lines": [
+          1,
+          2,
+          3,
+          4,
+          10,
+          15,
+          20,
+          22,
+          29,
+          31,
+          33,
+          36,
+          38,
+          39,
+          40,
+          45,
+          46,
+          47,
+          48,
+          49,
+          51
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "0af6f318cd0010cd6b5d3fc12d10fb92852b63c2982cdd5728cc11c0b635c3a8",
+      "before_sha256": "9c290ec8905c655d6b6764579337794f821419455b30d22158f1d1105060da25",
+      "after_sha256": "4f89fd9885ed435965f35dbad5e0cfa69a69e6f8788a3eccda7f0f43810645a8",
+      "prior_uncertainties": [
+        {
+          "note": "22 source blocks retained, including isolated questions and negative fragments. kanka interpreted rake, khirikoli tree transliterated; uncertain regional terms need native review. Intimate/reptile/fire/dew imagery not softened.",
+          "record": "kb/production/translations/batch-160/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 99,
+      "target": "hi",
+      "reading_evidence": "Read complete eight-stanza source and each target: accusation to scene-maker over sceneless creation; abducted childhood returning hope/faith to grief-stricken age; unknown blood at capital crossroads; two-year-old boy on black kasta as hungry mothers begging bowl; sixteen-year-old foreign girl enthralled by kites in new sky; two hands/two rotis against thousand hot-griddle palms; dream-price complaint and ruling-party import of rare sleep; repeated accusation ending with forever-open eyes moving forever. Checked quantities, child as bowl metaphor, political satire, contrasting visitor gaze and framing scene/sight wordplay.",
+      "open_questions": [
+        "Black kasta remains provisionally black cloth; regional material requires confirmation.",
+        "Drushyahina may mean bereft of scenes/visibility rather than literally blind. English sightless and Hindi drishyahin are provisional within the scene-maker/eyes frame; no unilateral explanation imposed. No real party or violent event identified."
+      ],
+      "reason": "Retain after full reading: public-scene contrasts and dream/sleep satire remain coherent; keep source questions separate.",
+      "tradeoff": "Preserve original source, target voice, stanza sequence and cultural imagery; all targets remain drafts, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "7912268c3ad06bb0645d6d162dfb2f81d84ea4c0a392638d8dcd2d5419fd49a7",
+      "before_sha256": "ddfc294f24ecce8d73253187b89a8fe53d7f382ec645729e1b90fff339996105",
+      "after_sha256": "ddfc294f24ecce8d73253187b89a8fe53d7f382ec645729e1b90fff339996105",
+      "prior_uncertainties": [
+        {
+          "note": "Child on black kasta rendered black cloth provisionally. Sixteen-year-old visitor, blood, begging and dream/sleep political satire preserved without attaching real parties or events.",
+          "record": "kb/production/translations/batch-160/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 99,
+      "target": "en",
+      "reading_evidence": "Read complete eight-stanza source and each target: accusation to scene-maker over sceneless creation; abducted childhood returning hope/faith to grief-stricken age; unknown blood at capital crossroads; two-year-old boy on black kasta as hungry mothers begging bowl; sixteen-year-old foreign girl enthralled by kites in new sky; two hands/two rotis against thousand hot-griddle palms; dream-price complaint and ruling-party import of rare sleep; repeated accusation ending with forever-open eyes moving forever. Checked quantities, child as bowl metaphor, political satire, contrasting visitor gaze and framing scene/sight wordplay.",
+      "open_questions": [
+        "Black kasta remains provisionally black cloth; regional material requires confirmation.",
+        "Drushyahina may mean bereft of scenes/visibility rather than literally blind. English sightless and Hindi drishyahin are provisional within the scene-maker/eyes frame; no unilateral explanation imposed. No real party or violent event identified."
+      ],
+      "reason": "Attach the new sky to the kites in natural English word order, keeping the visitors wonder.",
+      "tradeoff": "Same three lines and image; removes momentary reading that the girl herself is in the sky, without adding tourism or a new location.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 32,
+        "before_lines": [
+          2,
+          5,
+          8,
+          12,
+          15,
+          20,
+          27
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "7912268c3ad06bb0645d6d162dfb2f81d84ea4c0a392638d8dcd2d5419fd49a7",
+      "before_sha256": "a9a4ca9719044f26601542935f3f2111b77485638e1fd1383b426737a1a7e11d",
+      "after_sha256": "dabb480f236e7245108f4739895be5a8ae8e8ce20d3755d09bc6ebdfa5f2b113",
+      "prior_uncertainties": [
+        {
+          "note": "Child on black kasta rendered black cloth provisionally. Sixteen-year-old visitor, blood, begging and dream/sleep political satire preserved without attaching real parties or events.",
+          "record": "kb/production/translations/batch-160/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 100,
+      "target": "hi",
+      "reading_evidence": "Read all nine source/target blocks including standalone section2: lone exhausted figure under lamp-post in lifeless bright city; past rainbow/familiar homes and people/sea-wave life/night alphabet/day festival; citys dreams of river territory/green forests/hope-ocean valleys; open-sky flight filling body with strength; current worm-eaten roads/embankments/fences, dry lips/mind, fallen dream towers and grey sky; lamps extinguished, tears wiped/eye-signal and ending time of abiding; false expectation of perpetual city brightness/dream-scattering lamps; future darkness and city forgetting existence. Checked second-person continuity, past-present-future turn, city personification and all lamp recurrences.",
+      "open_questions": [
+        "Tear-wiping/eye-signal agent unresolved; English city interpretation remains provisional and Hindi omitted subject preserved.",
+        "Kitadrashta spelling and worm-eaten reading remain provisional; Hindi grammar repair does not certify a source emendation. Abori-basiba can suggest surrounding/embracing/occupying; existing renderings remain open."
+      ],
+      "reason": "Correct inverted insect-eating construction and feminine plural minar agreement.",
+      "tradeoff": "Retains existing worm-eaten interpretation while making who eats what clear; feminine tower grammar does not assign the city or speaker a gender.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1ae38a06d176223bbb3fef8a10c75623061084fb5ac3eb2854bb389b666ec6d8",
+      "before_sha256": "683ccdf06eb42400e24b5a10d1df8afc89de037b3b2e0211b4131fcf257c7773",
+      "after_sha256": "1b5f2532dff9773772dd68f3ecc04ddabe29cde62193c98d1387ebcbc3c7d087",
+      "prior_uncertainties": [
+        {
+          "note": "Nine source blocks including standalone -2- retained. Ambiguous subject of tear-wiping/eye-signal preserved as city in English; requires review.",
+          "record": "kb/production/translations/batch-160/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 100,
+      "target": "en",
+      "reading_evidence": "Read all nine source/target blocks including standalone section2: lone exhausted figure under lamp-post in lifeless bright city; past rainbow/familiar homes and people/sea-wave life/night alphabet/day festival; citys dreams of river territory/green forests/hope-ocean valleys; open-sky flight filling body with strength; current worm-eaten roads/embankments/fences, dry lips/mind, fallen dream towers and grey sky; lamps extinguished, tears wiped/eye-signal and ending time of abiding; false expectation of perpetual city brightness/dream-scattering lamps; future darkness and city forgetting existence. Checked second-person continuity, past-present-future turn, city personification and all lamp recurrences.",
+      "open_questions": [
+        "Tear-wiping/eye-signal agent unresolved; English city interpretation remains provisional and Hindi omitted subject preserved.",
+        "Kitadrashta spelling and worm-eaten reading remain provisional; Hindi grammar repair does not certify a source emendation. Abori-basiba can suggest surrounding/embracing/occupying; existing renderings remain open."
+      ],
+      "reason": "Retain after full reading: time sequence and city personification are coherent; agency and abiding phrase remain source questions rather than guessed rewrites.",
+      "tradeoff": "Preserve original source, target voice, stanza sequence and cultural imagery; all targets remain drafts, independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "1ae38a06d176223bbb3fef8a10c75623061084fb5ac3eb2854bb389b666ec6d8",
+      "before_sha256": "79a2a6bc353f1568fe293b4f70a84cfc8623f089876b98f620bb8368f486db43",
+      "after_sha256": "79a2a6bc353f1568fe293b4f70a84cfc8623f089876b98f620bb8368f486db43",
+      "prior_uncertainties": [
+        {
+          "note": "Nine source blocks including standalone -2- retained. Ambiguous subject of tear-wiping/eye-signal preserved as city in English; requires review.",
+          "record": "kb/production/translations/batch-160/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 101,
+      "target": "hi",
+      "reading_evidence": "Read full single twenty-line source and target, verses0–4: tomorrows flowers humming love and society reversing wrong/good verdict; no sorrow over having or not having beloved because both exist at same time on earth; separation across equator and continual meetings on memory road; star-torch/moon image/familiar footnote in unwritten dreams; beloveds understanding of relationships worth and returning flowers humming song. Checked title against its exact repeated source phrase in verse1, simultaneous present existence versus past-once reading, negation, equator separation and final love-to-song recurrence.",
+      "open_questions": [
+        "Hindi masculine addressee remains provisional; no participant gender inferred from poet. Verse numbering0–4 and one continuous twenty-line block preserved."
+      ],
+      "reason": "Make title express simultaneity already explicit in the matching verse, preserving the actual title rather than inventing one.",
+      "tradeoff": "The source title repeats the coexisting-on-earth line; hi strengthens same-time relation with hi as already used in body. No verse changes.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "title_after": "एक ही समय में, इसी पृथ्वी पर",
+      "source_sha256": "7fcdc5c60b1e79176e269cf164b0a39d940fdee6b5dbc6c5fcef5a36fcdc8551",
+      "before_sha256": "17b4c46a47d47c30c3108a8395038682b822859820555563197e696f16973efe",
+      "after_sha256": "ffcf3f80dbd7765f5f6b9caf0428177dd3338398a6bcf8c31d0982f04a9e7189",
+      "prior_uncertainties": [
+        {
+          "note": "Single 20-line song block and verse numbers 0–4 retained; no new stanza breaks. Equator, torch, moon and footnote metaphors preserved. Hindi addressee masculine provisional.",
+          "record": "kb/production/translations/batch-160/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 101,
+      "target": "en",
+      "reading_evidence": "Read full single twenty-line source and target, verses0–4: tomorrows flowers humming love and society reversing wrong/good verdict; no sorrow over having or not having beloved because both exist at same time on earth; separation across equator and continual meetings on memory road; star-torch/moon image/familiar footnote in unwritten dreams; beloveds understanding of relationships worth and returning flowers humming song. Checked title against its exact repeated source phrase in verse1, simultaneous present existence versus past-once reading, negation, equator separation and final love-to-song recurrence.",
+      "open_questions": [
+        "Hindi masculine addressee remains provisional; no participant gender inferred from poet. Verse numbering0–4 and one continuous twenty-line block preserved."
+      ],
+      "reason": "Correct title idiom: at one time can imply once in the past; the matching source verse means existing simultaneously.",
+      "tradeoff": "Carries contextual sense of actual title and its repeated line; avoids false past-tense frame. No new title image or verse changes.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "title_after": "At the Same Time, on This Earth",
+      "source_sha256": "7fcdc5c60b1e79176e269cf164b0a39d940fdee6b5dbc6c5fcef5a36fcdc8551",
+      "before_sha256": "6f2cafcf8d75eb3119bf215a664c2d28081343579de0723da0ba779c42ae778d",
+      "after_sha256": "57f85dfa5476894dce0dc582a6baefc2af8de71fa41dabb1e5087ab290c94f4c",
+      "prior_uncertainties": [
+        {
+          "note": "Single 20-line song block and verse numbers 0–4 retained; no new stanza breaks. Equator, torch, moon and footnote metaphors preserved. Hindi addressee masculine provisional.",
+          "record": "kb/production/translations/batch-160/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ],
+  "after_reading_evidence": "All six changed complete after variants read directly in an untruncated output:97hi/en,99en,100hi,101hi/en. Rechecked twenty-two question fragments, lost pair agreement, city time sequence, political satire and twenty-line numbered song; retained targets read fully against source. AI self-review only.",
+  "skill": {
+    "path": "/Users/ahimanikya/.codex/skills/human-natural-translation/SKILL.md",
+    "sha256": "3954053f286bb38f21fff16020c27fefe933942532a2083a8b3e7eae9c1ccc17",
+    "mode": "Poetic Natural",
+    "adopted_companion": "kb/reference/adopted-human-natural/editorial.md"
+  }
+}

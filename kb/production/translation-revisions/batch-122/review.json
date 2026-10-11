@@ -1,0 +1,223 @@
+{
+  "recorded_at": "2026-10-06T02:00:30.183111+00:00",
+  "poem_ids": [
+    295,
+    301,
+    285,
+    289,
+    290
+  ],
+  "variants_read": 10,
+  "variants_changed": 2,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 295,
+      "target": "or",
+      "reading_evidence": "Read all21lines in two blocks and both complete targets: still-seeming beating heart/obedient pet, rustling rebellion/drenched gait, blood escaping through eyes, restless heavy running, weary months-long traveller, rock leap, destination unawareness, weighing sun heat/measuring rock and walking as purpose.",
+      "open_questions": [
+        "Its/it shifts between heart, blood and imagined traveller remain source ambiguity; drenched gait and blood through eyes are poetic images, not medical assertions."
+      ],
+      "reason": "Render being unaware of ones destination as natural Odia, avoiding wording that makes the traveller unknown about a goal; preserve repeated forward movement.",
+      "tradeoff": "Read each target directly against the full source; preserve political/devotional register and unresolved source wording. Same-assistant self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "5f991774bd452bf521a9b9e0696de104df16ab563d104b5817b1a7b55a28149c",
+      "before_sha256": "d29503f2973404b342d5cb800489b522af5e7b1f4e604f1f38ddc7b728dcc0dd",
+      "after_sha256": "18f9c96d2d0f0ee6d1f24b30c23d2e6bbf673c3bd745608acbcfa283a2fbbcbf",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 295,
+      "target": "en",
+      "reading_evidence": "Read all21lines in two blocks and both complete targets: still-seeming beating heart/obedient pet, rustling rebellion/drenched gait, blood escaping through eyes, restless heavy running, weary months-long traveller, rock leap, destination unawareness, weighing sun heat/measuring rock and walking as purpose.",
+      "open_questions": [
+        "Its/it shifts between heart, blood and imagined traveller remain source ambiguity; drenched gait and blood through eyes are poetic images, not medical assertions."
+      ],
+      "reason": "Retain contradictory stillness/running, heavy steps and unsettling embodied imagery without imposing a single antecedent.",
+      "tradeoff": "Read each target directly against the full source; preserve political/devotional register and unresolved source wording. Same-assistant self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "5f991774bd452bf521a9b9e0696de104df16ab563d104b5817b1a7b55a28149c",
+      "before_sha256": "06db1e00e44669f5d9c4f01d21efcb3594d65cb6f8a2b31011558d547c38fc3a",
+      "after_sha256": "06db1e00e44669f5d9c4f01d21efcb3594d65cb6f8a2b31011558d547c38fc3a",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 301,
+      "target": "or",
+      "reading_evidence": "Read all42source lines and both targets across ten quatrains plus repeated final couplet: sky/body/desire, lustful bees, Panchali/Sita/Ravana, Ganga/Gita/Gayatri/tulsi/Vrindavan, Gargi/Kashi/Kaaba, bodily adornment/dharma/culture, hair/eyelids/dreams, earth bracelet/resolve kohl/tripundra/octave, saffron/Rannachandi/bud-Kali, Tripurasundari/Chhinnamastika and virtue. Preserve the source religious contrast and admonitory gendered register, not endorsement or factual myth correction.",
+      "open_questions": [
+        "Sati in the ruin line may refer to virtue/chastity or a figure; existing abstraction remains provisional.",
+        "Sanvaran/kaya-maya attachment and the unexpressed recipient of pride remain source questions. Bud/Kali sound-play has only partial target transfer; no explanatory lines added."
+      ],
+      "reason": "Retain forceful address, cultural anchors and repeated conclusion; no sanitizing of the source religious or sexual morality.",
+      "tradeoff": "Read each target directly against the full source; preserve political/devotional register and unresolved source wording. Same-assistant self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "7bd410998e3abe69c4b7a95d84f5c3c2fea48909f8693d8df7f89181c7acc6c8",
+      "before_sha256": "dbdb7be8bed4d378d91967b4365b59afc59568e35fab552f7c118e76e35a6c6a",
+      "after_sha256": "dbdb7be8bed4d378d91967b4365b59afc59568e35fab552f7c118e76e35a6c6a",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 301,
+      "target": "en",
+      "reading_evidence": "Read all42source lines and both targets across ten quatrains plus repeated final couplet: sky/body/desire, lustful bees, Panchali/Sita/Ravana, Ganga/Gita/Gayatri/tulsi/Vrindavan, Gargi/Kashi/Kaaba, bodily adornment/dharma/culture, hair/eyelids/dreams, earth bracelet/resolve kohl/tripundra/octave, saffron/Rannachandi/bud-Kali, Tripurasundari/Chhinnamastika and virtue. Preserve the source religious contrast and admonitory gendered register, not endorsement or factual myth correction.",
+      "open_questions": [
+        "Sati in the ruin line may refer to virtue/chastity or a figure; existing abstraction remains provisional.",
+        "Sanvaran/kaya-maya attachment and the unexpressed recipient of pride remain source questions. Bud/Kali sound-play has only partial target transfer; no explanatory lines added."
+      ],
+      "reason": "Remove an unsupported age assignment from feminine री मूरख while preserving the rebuke; the source does not specify a girl rather than an adult addressee.",
+      "tradeoff": "Read each target directly against the full source; preserve political/devotional register and unresolved source wording. Same-assistant self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "7bd410998e3abe69c4b7a95d84f5c3c2fea48909f8693d8df7f89181c7acc6c8",
+      "before_sha256": "a4e15000c630e27846ed7e61622684002480b215dc75b91bded3cc17a4c87a01",
+      "after_sha256": "bf357a41f5dde4919f765cb90bf580b10bcf538cefc2d3b7673dac846f117aca",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 285,
+      "target": "or",
+      "reading_evidence": "Read full18-line source and both targets in6/5/3/4blocks: monuments/shrines/tourism/pilgrimage/business, justice and creative feats, culture/civilization/great minds versus stone/concrete vanity, aesthetic-intellectual-spiritual wealth cemented by love/care, final challenge to ritual-bound patrons about meanness/malice/average thinking.",
+      "open_questions": [],
+      "reason": "Retain the critical rhetorical question and contrast between structures and cultivated minds; existing targets preserve argument and register without added sermon.",
+      "tradeoff": "Read each target directly against the full source; preserve political/devotional register and unresolved source wording. Same-assistant self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "878ad604b41b07a1cef2b80a189a20d2bcc21d1f34bd252afce9c996045da717",
+      "before_sha256": "36879cd6132fe9ddf5fa9e23adc37a81fd21a1968eb0754400baa551cf5b78fc",
+      "after_sha256": "36879cd6132fe9ddf5fa9e23adc37a81fd21a1968eb0754400baa551cf5b78fc",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 285,
+      "target": "hi",
+      "reading_evidence": "Read full18-line source and both targets in6/5/3/4blocks: monuments/shrines/tourism/pilgrimage/business, justice and creative feats, culture/civilization/great minds versus stone/concrete vanity, aesthetic-intellectual-spiritual wealth cemented by love/care, final challenge to ritual-bound patrons about meanness/malice/average thinking.",
+      "open_questions": [],
+      "reason": "Retain the critical rhetorical question and contrast between structures and cultivated minds; existing targets preserve argument and register without added sermon.",
+      "tradeoff": "Read each target directly against the full source; preserve political/devotional register and unresolved source wording. Same-assistant self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "878ad604b41b07a1cef2b80a189a20d2bcc21d1f34bd252afce9c996045da717",
+      "before_sha256": "42456833f5722bd0cb5eafca0f0db6fc91130404a53ada6dbb7303c543726ee6",
+      "after_sha256": "42456833f5722bd0cb5eafca0f0db6fc91130404a53ada6dbb7303c543726ee6",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 289,
+      "target": "or",
+      "reading_evidence": "Read all16source lines and both targets: fearless sea walk, warm embrace/horizon, thoughts filtered and settling, ally since two-year-old holding fathers hand, recognizing friend, inclement/sunny weather and repeated meeting. Title inexorable/sea and explicit male friend pronoun distinguished from unstated narrator gender.",
+      "open_questions": [],
+      "reason": "Retain warm ocean friendship and father memory; no self-harm or bereavement interpretation imposed.",
+      "tradeoff": "Read each target directly against the full source; preserve political/devotional register and unresolved source wording. Same-assistant self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "5c65254cdbd61f42623ea76a5943035f91846af301fc7a5b6e95eb1e8b352941",
+      "before_sha256": "f53d77dd12f850e843caf9edcbc87a34c27061ab69dbf5c5145a513b79ebefad",
+      "after_sha256": "f53d77dd12f850e843caf9edcbc87a34c27061ab69dbf5c5145a513b79ebefad",
+      "prior_uncertainties": [
+        {
+          "note": "Sixteen lines retained. Ocean friendship and childhood father memory not assigned self-harm meaning. Hindi feminine narrator provisional; source has no explicit gender.",
+          "record": "kb/production/translations/batch-118/review.json"
+        }
+      ],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 289,
+      "target": "hi",
+      "reading_evidence": "Read all16source lines and both targets: fearless sea walk, warm embrace/horizon, thoughts filtered and settling, ally since two-year-old holding fathers hand, recognizing friend, inclement/sunny weather and repeated meeting. Title inexorable/sea and explicit male friend pronoun distinguished from unstated narrator gender.",
+      "open_questions": [
+        "Feminine narrator and बच्ची remain provisional; English does not specify narrator gender. Male sea-friend has explicit source him."
+      ],
+      "reason": "Retain friendship, embodied filtering and childhood memory; keep unsupported narrator gender as a question rather than infer from author.",
+      "tradeoff": "Read each target directly against the full source; preserve political/devotional register and unresolved source wording. Same-assistant self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "5c65254cdbd61f42623ea76a5943035f91846af301fc7a5b6e95eb1e8b352941",
+      "before_sha256": "41ff5d40fc0868863d90c6dd240533eeff4d83c2498cf9cd76006b008fe3848e",
+      "after_sha256": "41ff5d40fc0868863d90c6dd240533eeff4d83c2498cf9cd76006b008fe3848e",
+      "prior_uncertainties": [
+        {
+          "note": "Sixteen lines retained. Ocean friendship and childhood father memory not assigned self-harm meaning. Hindi feminine narrator provisional; source has no explicit gender.",
+          "record": "kb/production/translations/batch-118/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 290,
+      "target": "or",
+      "reading_evidence": "Read entire12-line source and both targets: observation/questions, listening/answers, keen observation, hearing-versus-listening, inner volcano/settling, self-friendship/ego/thirst, own-thought web/misunderstanding, final hear-and-observe rather than only listen.",
+      "open_questions": [
+        "Source explicitly privileges hearing over listening, counter to a common distinction; targets shift hearing to ability-to-hear. Intended distinction needs author/source clarification, not an automatic reversal.",
+        "Sattle with your volcano and satisfy the quench are damaged expressions; settlement and thirst readings remain provisional."
+      ],
+      "reason": "Retain the coherent observation/self-friendship sequence while holding the decisive hearing/listening contrast; do not silently rewrite the source maxim.",
+      "tradeoff": "Read each target directly against the full source; preserve political/devotional register and unresolved source wording. Same-assistant self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "66f970a7d0688c1f78130d29a693907660fcc4660df278be7433e78c890ed5b6",
+      "before_sha256": "55c3bab023b8c58ec6153bd20b898c43e215108e55b61267f14c8fa209568bcd",
+      "after_sha256": "55c3bab023b8c58ec6153bd20b898c43e215108e55b61267f14c8fa209568bcd",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 290,
+      "target": "hi",
+      "reading_evidence": "Read entire12-line source and both targets: observation/questions, listening/answers, keen observation, hearing-versus-listening, inner volcano/settling, self-friendship/ego/thirst, own-thought web/misunderstanding, final hear-and-observe rather than only listen.",
+      "open_questions": [
+        "Source explicitly privileges hearing over listening, counter to a common distinction; targets shift hearing to ability-to-hear. Intended distinction needs author/source clarification, not an automatic reversal.",
+        "Sattle with your volcano and satisfy the quench are damaged expressions; settlement and thirst readings remain provisional."
+      ],
+      "reason": "Retain the coherent observation/self-friendship sequence while holding the decisive hearing/listening contrast; do not silently rewrite the source maxim.",
+      "tradeoff": "Read each target directly against the full source; preserve political/devotional register and unresolved source wording. Same-assistant self-review only.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "66f970a7d0688c1f78130d29a693907660fcc4660df278be7433e78c890ed5b6",
+      "before_sha256": "1575eb513f0d8636fc14f8d7baca3ad27b534637ab621fa93d058500c7fffdde",
+      "after_sha256": "1575eb513f0d8636fc14f8d7baca3ad27b534637ab621fa93d058500c7fffdde",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

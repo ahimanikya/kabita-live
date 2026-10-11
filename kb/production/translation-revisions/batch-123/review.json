@@ -1,0 +1,255 @@
+{
+  "recorded_at": "2026-10-06T02:04:49.255286+00:00",
+  "poem_ids": [
+    292,
+    293,
+    294,
+    296,
+    299
+  ],
+  "variants_read": 10,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 292,
+      "target": "or",
+      "reading_evidence": "Read all29source lines and both complete targets: hill climb/Balaji/Birla, hearts filled with bliss, hilltop sights/Hussain Sagar/Buddha/bus travellers, Ambedkar constitution maker, Smruti chihanam/heroes/Telangana/amarajyothi, white secretariat/domes, Ravindra Bharati/artists/dramatists/poets, historical Bagyanagar and modern Hyderabad. Distinct source version read directly, not copied from similar354 review.",
+      "open_questions": [],
+      "reason": "Retain the cumulative sightseeing cadence and source attributions; Balaji remains the explicit agent filling hearts. Literary fidelity check, not independent verification of the tourism/history claims.",
+      "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "e5cfc963ec771912ec18890f1fb5fad352f5daff8e236d0b66a2b7fcc295c8ae",
+      "before_sha256": "a7287ef820d298025564594d1e45d6ff0407f0c1d9f73c114ac6c17dd1c961a0",
+      "after_sha256": "a7287ef820d298025564594d1e45d6ff0407f0c1d9f73c114ac6c17dd1c961a0",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 292,
+      "target": "hi",
+      "reading_evidence": "Read all29source lines and both complete targets: hill climb/Balaji/Birla, hearts filled with bliss, hilltop sights/Hussain Sagar/Buddha/bus travellers, Ambedkar constitution maker, Smruti chihanam/heroes/Telangana/amarajyothi, white secretariat/domes, Ravindra Bharati/artists/dramatists/poets, historical Bagyanagar and modern Hyderabad. Distinct source version read directly, not copied from similar354 review.",
+      "open_questions": [],
+      "reason": "Retain the cumulative sightseeing cadence and source attributions; Balaji remains the explicit agent filling hearts. Literary fidelity check, not independent verification of the tourism/history claims.",
+      "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "e5cfc963ec771912ec18890f1fb5fad352f5daff8e236d0b66a2b7fcc295c8ae",
+      "before_sha256": "d613119a38dcba81efe3debe36fcc543347e114b27a8f6b9dfcb0b136b28f2dd",
+      "after_sha256": "d613119a38dcba81efe3debe36fcc543347e114b27a8f6b9dfcb0b136b28f2dd",
+      "prior_uncertainties": [],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 293,
+      "target": "or",
+      "reading_evidence": "Read complete30-line source and both targets in4/18/8blocks: pond/60-watt bulb/ghosts/haggard garden, long winters and scarce clothes, drowsy bulb/clay oven/sister cooking for siblings, window gaps/cold winds, children approaching oven and elder sister, round oven/bread comparison, ghosts repelled, present ample clothes/lost warmth and final pond view.",
+      "open_questions": [
+        "Tool read as stool from sitting context; bread as roti remains provisional. Lost sister/oven/garden and ghost play are not assigned literal death or specific supernatural facts."
+      ],
+      "reason": "Reflow the cooking clause and clarify warmth from both stove and sister, not movement away from them. Preserve30verse lines and the three emotional blocks with explicit target mapping.",
+      "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 30,
+        "before_lines": [
+          4,
+          22
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "c004e24f62085c1abcc3caf18954b2ee9a9027f0d3ec984d4e8b4cd3d7829660",
+      "before_sha256": "f26bb179bcfd618937217e96b0fbcf1b7debbc4105c22e0bc2465b0c70592764",
+      "after_sha256": "058249d554893c885f31cf18af2a9fb1edae0b5522727e83e809b660458dd2d3",
+      "prior_uncertainties": [
+        {
+          "note": "Three blocks [4,18,8] retained. Tool read stool in sitting context; bread rendered roti. Ghosts/garden and vanished sister remain ambiguous, not assigned a literal death.",
+          "record": "kb/production/translations/batch-119/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 293,
+      "target": "hi",
+      "reading_evidence": "Read complete30-line source and both targets in4/18/8blocks: pond/60-watt bulb/ghosts/haggard garden, long winters and scarce clothes, drowsy bulb/clay oven/sister cooking for siblings, window gaps/cold winds, children approaching oven and elder sister, round oven/bread comparison, ghosts repelled, present ample clothes/lost warmth and final pond view.",
+      "open_questions": [
+        "Tool read as stool from sitting context; bread as roti remains provisional. Lost sister/oven/garden and ghost play are not assigned literal death or specific supernatural facts."
+      ],
+      "reason": "Repair mechanical clause breaks around sister/bread and warmth/from; retain the double source of warmth and all images with explicit30line mapping.",
+      "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 30,
+        "before_lines": [
+          4,
+          22
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "c004e24f62085c1abcc3caf18954b2ee9a9027f0d3ec984d4e8b4cd3d7829660",
+      "before_sha256": "de061938fb63e0258660390fd8ba9f5f14990c24a6625e1c52cdfd88dcf3fada",
+      "after_sha256": "09f277a5fc76fe9f56d393e0f565e2166c5dd44d1e5b88e68c70b99abe8a1e09",
+      "prior_uncertainties": [
+        {
+          "note": "Three blocks [4,18,8] retained. Tool read stool in sitting context; bread rendered roti. Ghosts/garden and vanished sister remain ambiguous, not assigned a literal death.",
+          "record": "kb/production/translations/batch-119/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 294,
+      "target": "or",
+      "reading_evidence": "Read full20-line tribute and both targets: death/farewell, wheels/physics immobility, named poet teaching physics and poetry, metaphors/irony/satire/feelings, earthly humility/fragrance/renown, role model/peace/star, award claim, subliming fumes, inadequate words and illuminated literary garden.",
+      "open_questions": [
+        "The sources first-Indian Sahitya Academy Award claim requires editorial/source verification; it is not silently corrected or independently certified here.",
+        "Stationery is read stationary from physics context; subliming fumes remains an unusual technical/funerary metaphor, not normalised to a literal event."
+      ],
+      "reason": "Retain memorial voice and physics-poetry metaphors; biographical accuracy questions remain separate from translation.",
+      "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "c4966c76dbd4408368e2897dbed77b6f665fba4936a00aec656aa0fa28386405",
+      "before_sha256": "e30482b9fca83981dd9875752d93f271ee6126c0523f54adc27a9a8db3442500",
+      "after_sha256": "e30482b9fca83981dd9875752d93f271ee6126c0523f54adc27a9a8db3442500",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 294,
+      "target": "hi",
+      "reading_evidence": "Read full20-line tribute and both targets: death/farewell, wheels/physics immobility, named poet teaching physics and poetry, metaphors/irony/satire/feelings, earthly humility/fragrance/renown, role model/peace/star, award claim, subliming fumes, inadequate words and illuminated literary garden.",
+      "open_questions": [
+        "The sources first-Indian Sahitya Academy Award claim requires editorial/source verification; it is not silently corrected or independently certified here.",
+        "Stationery is read stationary from physics context; subliming fumes remains an unusual technical/funerary metaphor, not normalised to a literal event."
+      ],
+      "reason": "Repair the Hindi coordination and agreement of fragrance spreading and conferring renown without altering the source praise or factual claim.",
+      "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "c4966c76dbd4408368e2897dbed77b6f665fba4936a00aec656aa0fa28386405",
+      "before_sha256": "49606a86c6538c2b7dec24514e04fa49ff50e5788b4f0d17bf655994b4021bc6",
+      "after_sha256": "b29467b7971586e021054f73c2e0fdecac36184d579d7d5531992354753954d7",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 296,
+      "target": "or",
+      "reading_evidence": "Read complete16-line source and both targets in3/3/3/3/2/2blocks: I/you/we/they knowing versus not knowing, four sometimes recurrences, intent empty of content and reality/illusion beauty. No participant gender established in English.",
+      "open_questions": [],
+      "reason": "Retain exact alternating participants, negations and restrained final paradox.",
+      "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "4d0d9eeb568c6b384cefa10a26bd65ed706e455fd78e85f4cf8cb3c3a783169f",
+      "before_sha256": "8c439ece79050468e9f0379050c4626e97c03f53f24f54618e37b8e715d07bdf",
+      "after_sha256": "8c439ece79050468e9f0379050c4626e97c03f53f24f54618e37b8e715d07bdf",
+      "prior_uncertainties": [
+        {
+          "note": "All six brief blocks retained; knowing/not-knowing alternation exact. Hindi grammatical masculine provisional; original unspecified.",
+          "record": "kb/production/translations/batch-119/review.json"
+        }
+      ],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 296,
+      "target": "hi",
+      "reading_evidence": "Read complete16-line source and both targets in3/3/3/3/2/2blocks: I/you/we/they knowing versus not knowing, four sometimes recurrences, intent empty of content and reality/illusion beauty. No participant gender established in English.",
+      "open_questions": [],
+      "reason": "Use parallel natural Hindi knowing constructions without unsupported male participants. Preserve all four pronoun oppositions, negations and short-line recurrence rather than varying synonyms.",
+      "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "4d0d9eeb568c6b384cefa10a26bd65ed706e455fd78e85f4cf8cb3c3a783169f",
+      "before_sha256": "a09e4133e6904758080c5d842eac8ffd200b1a0aa4b65ecb13d2dbf8efab64b2",
+      "after_sha256": "e917321ccbedcfdf6e6a8f127c658de9c0571c8966a8d81b87b91d6d3606b3bd",
+      "prior_uncertainties": [
+        {
+          "note": "All six brief blocks retained; knowing/not-knowing alternation exact. Hindi grammatical masculine provisional; original unspecified.",
+          "record": "kb/production/translations/batch-119/review.json"
+        }
+      ],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 299,
+      "target": "or",
+      "reading_evidence": "Read all16source lines and both targets: chalk/duster right hand/books held with left, corridor walk, expected turn/look back before classroom, air-passage emptiness/milk-white movement/scent, repeated certainty, sea of eyes and sunrise class. Female subject explicit; observers gender and relationship unspecified; encoded apostrophe read normally.",
+      "open_questions": [
+        "Take a grand class may mean attend/learn or conduct; target lesson/class wording remains provisional. No teacher-student or romantic relationship invented; milk-white movement retained."
+      ],
+      "reason": "Retain anticipatory repetitions, source hand assignments and final eyes/sunrise metaphor without inventing observer identity.",
+      "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "2829c98ae981f7e7206a8858e7aa85bf64aa1c2722ae29792882b49242180bf0",
+      "before_sha256": "31cc6dc630c41ea301abc50b6c49dfab52471795dcac32ed724811ccdab7fa29",
+      "after_sha256": "31cc6dc630c41ea301abc50b6c49dfab52471795dcac32ed724811ccdab7fa29",
+      "prior_uncertainties": [
+        {
+          "note": "Sixteen lines retained. Encoded apostrophe in she&#39;ll read normally in translation; original untouched. Milk-white motion and sunrise lesson kept metaphorically, without inventing relationship. Hindi masculine observer provisional.",
+          "record": "kb/production/translations/batch-119/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 299,
+      "target": "hi",
+      "reading_evidence": "Read all16source lines and both targets: chalk/duster right hand/books held with left, corridor walk, expected turn/look back before classroom, air-passage emptiness/milk-white movement/scent, repeated certainty, sea of eyes and sunrise class. Female subject explicit; observers gender and relationship unspecified; encoded apostrophe read normally.",
+      "open_questions": [
+        "Take a grand class may mean attend/learn or conduct; target lesson/class wording remains provisional. No teacher-student or romantic relationship invented; milk-white movement retained."
+      ],
+      "reason": "Remove unsupported male observer agreement while keeping first-person perception and explicit female walking subject. Preserve repeated expectation and all16lines.",
+      "tradeoff": "Preserve full source, imagery, tone and repetition; precise before/after evidence and self-review only. No independent certification.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "2829c98ae981f7e7206a8858e7aa85bf64aa1c2722ae29792882b49242180bf0",
+      "before_sha256": "289a3ef7343e7d2af2433699a78b50398f1cffa84b9ad5ca49bf6579cb5afa0c",
+      "after_sha256": "95384b645a72e18f6b00d06b26954c11dfd403583469462df4fbd1ac59877955",
+      "prior_uncertainties": [
+        {
+          "note": "Sixteen lines retained. Encoded apostrophe in she&#39;ll read normally in translation; original untouched. Milk-white motion and sunrise lesson kept metaphorically, without inventing relationship. Hindi masculine observer provisional.",
+          "record": "kb/production/translations/batch-119/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

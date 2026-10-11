@@ -53,21 +53,26 @@ def footer_navigation():
  return ''.join(links)
 
 def page(file,title,body,active='',desc=''):
- from article_engagement import append_article_responses
- body=append_article_responses(R,file,body)
  if file.startswith(('poet-','editor-')):
   for override in title_overrides.values():
    body=body.replace(e(override['source_title']),e(override['display_title']))
+ from article_engagement import append_article_responses
+ body=append_article_responses(R,file,body)
+ if file in ('issue-48.html','thirty-languages-and-the-journey-of-a-poem.html','poem-385.html','poem-727.html'):
+  from article_engagement import CONTEXTS
+  content_id,language=CONTEXTS.get(file,('', 'or'))
+  body+=f'<section class="article-responses" data-page-sharing data-content-id="{content_id}" data-title="{e(title)}" lang="{language}" aria-label="Share this page"><div class="response-actions"><button type="button" data-share-page>Share</button><button type="button" data-copy-page>Copy link</button></div><p role="status" aria-live="polite"></p><label data-share-manual hidden>Page link<input readonly aria-label="Page link"></label></section>'
  if file=='search.html':active='Poems'
  if file not in REVIEW_FILES: body=reader_copy(body)
  analytics_scripts='' if file in REVIEW_FILES else '<script defer src="assets/analytics.js"></script>'
  if file!='index.html' and file not in REVIEW_FILES:
   analytics_scripts+='<link rel="stylesheet" href="assets/mobile-artwork.css?v=1">'
- if 'id="reading-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-reader.css?v=3"><script type="module" src="assets/poem-reader.js?v=7"></script>'
- if 'id="focus-edition-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-experience.css?v=21"><script type="module" src="assets/poem-experience.js?v=15"></script>'
+ if 'id="reading-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-reader.css?v=3"><script type="module" src="assets/poem-reader.js?v=8"></script>'
+ if 'id="focus-edition-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-experience.css?v=21"><script type="module" src="assets/poem-experience.js?v=18"></script>'
  if file=='contact.html': analytics_scripts+='<script type="module" src="assets/private-feedback.js"></script>'
+ if 'data-page-sharing' in body: analytics_scripts+='<link rel="stylesheet" href="assets/article-engagement.css"><script defer src="assets/page-share.js"></script>'
+ if 'data-article-responses' in body: analytics_scripts+='<link rel="stylesheet" href="assets/article-engagement.css"><script type="module" src="assets/engagement.js?v=articles-20261007"></script>'
  if 'data-poem-engagement=' in body: analytics_scripts+='<link rel="stylesheet" href="assets/engagement.css?v=single-field-20261004"><script type="module" src="assets/engagement.js?v=toolbar-20261006"></script>'
- if 'data-article-responses' in body: analytics_scripts+='<link rel="stylesheet" href="assets/article-engagement.css?v=20261007"><script type="module" src="assets/article-engagement.js?v=20261007"></script>'
  poem=publication_readers.get(file) or next((p for p in poems if file=='poem-'+p['slug']+'.html'),None)
  share_records=[dict(id=poem['id'],title=poem['title'],author=poem['author'],lang=poem.get('language',poem.get('lang')),issue=poem.get('edition',47),reader=file)] if poem else poems
  paper='cotton-paper'
@@ -234,3 +239,7 @@ apply_article_links(R)
 
 from image_delivery import apply_image_delivery
 apply_image_delivery(R)
+
+# Direct-link editorial reference, deliberately absent from navigation and page indexes.
+from translation_review import render_translation_review
+page("translation-review.html", "Translation review", render_translation_review(R), desc="Editorial translation review status and source questions.")

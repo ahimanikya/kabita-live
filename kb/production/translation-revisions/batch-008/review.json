@@ -1,0 +1,274 @@
+{
+  "recorded_at": "2026-10-05T10:30:03.077583+00:00",
+  "poem_ids": [
+    798,
+    799,
+    800,
+    802
+  ],
+  "variants_read": 8,
+  "variants_changed": 6,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 798,
+      "target": "or",
+      "reason": "Distinguish the reflected face in a flyblown mirror from the mirror’s own face. Join the demonstrative to its noun on the next line in the window/crack image.",
+      "reading_evidence": "Read all four source and target stanzas: rain on landscape and thought, stars hiding sparkle in August, bleeding clouds and dissolving shadows, window runnels and cracked face, then mirror/portraits fading on worn canvas.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "ଦିଶୁଥିବା lightly makes the in-the-mirror relation idiomatic; does not invent a new person or explain whose face it is. Keep the cracked/window image’s strangeness.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 25,
+        "before_lines": [
+          8,
+          14,
+          19
+        ],
+        "inline_breaks": []
+      },
+      "new_findings": [
+        {
+          "category": "image_relation",
+          "disposition": "fixed_in_local_draft",
+          "reason": "ଦର୍ପଣର ମୁହଁ could mean the mirror’s surface rather than the face reflected in it."
+        },
+        {
+          "category": "lineation",
+          "disposition": "fixed_in_local_draft",
+          "reason": "Demonstrative belongs with the broken face rather than stranded after the arch."
+        }
+      ],
+      "source_sha256": "9c083dfa6b0cd7db65b4eb1be2140567928ab9e521b53b20e3b93ec11130d17b",
+      "before_sha256": "d098e28a48ca3933e3cefab9d8d60b149fcd0bd548a4e982ab211495ae3bd6e3",
+      "after_sha256": "19937e51d0cfcbf758f04679d8d49b1c351ebc43c18c71ee5a3ba15cfcc334e3",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 798,
+      "target": "hi",
+      "reason": "Restore the face in the mirror and give उस to the broken-face phrase on the next line. Preserve the rain refrain and paintings dissolving on threadbare canvas.",
+      "reading_evidence": "Read all25lines against English, including stars seeking a niche, water/woe bleeding, brown dissolving shadows and the window-glass to mirror/canvas turn.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "A slightly longer mirror line keeps the actual spatial relation. The source’s shimmering arch remains an image, not an explanation of a diagnosis or event.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 25,
+        "before_lines": [
+          8,
+          14,
+          19
+        ],
+        "inline_breaks": []
+      },
+      "new_findings": [
+        {
+          "category": "image_relation",
+          "disposition": "fixed_in_local_draft",
+          "reason": "आईने के चेहरे shifted face in a mirror to face of a mirror."
+        },
+        {
+          "category": "lineation",
+          "disposition": "fixed_in_local_draft",
+          "reason": "Move उस to its noun while retaining the existing stanza boundary."
+        }
+      ],
+      "source_sha256": "9c083dfa6b0cd7db65b4eb1be2140567928ab9e521b53b20e3b93ec11130d17b",
+      "before_sha256": "ef7dcf26e776f9c49708e28d50aa0658f4253e24cf8bddf4c55144beec675da4",
+      "after_sha256": "77e95e6b0e88069ea6d01afac59c1e8800abee3261bc3b36837b7b0b1d7b046f",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 799,
+      "target": "or",
+      "reason": "Order this sight / memory / fragrance according to Odia genitive syntax, preserving the slow three-line accumulation and the choice to take no water.",
+      "reading_evidence": "Read the full28-line encounter: no original search for love, recognition of homeland within the being, bow to soul, oasis, refused water, and only a remembered fragrance taken away.",
+      "open_questions": [
+        "Final I hope no land will / never mind offering contains a double negative. Current targets read the likely intended absence of objection, but source confirmation is still needed."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "The disclosure order shifts for idiomatic Odia; the carried gift is still fragrance of the memory, never water. The earlier Hindi gender note does not apply to this Odia variant.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 28,
+        "before_lines": [],
+        "inline_breaks": []
+      },
+      "new_findings": [
+        {
+          "category": "syntax_and_lineation",
+          "disposition": "fixed_in_local_draft",
+          "reason": "Two English-order postmodifiers left ସୁବାସ suspended backwards from its genitives."
+        }
+      ],
+      "source_sha256": "eb383ca62d439cc8725095677572bc8dfdebdf8c063d92518580d88f29e71982",
+      "before_sha256": "7204c1994a2a4e19d3cad7fcdeb62208687cda85c52933001e6107953cdf01a3",
+      "after_sha256": "f537884dc3b368f6542fca566e174448d2bc3f47333a363f3a4919e7ed4957ee",
+      "prior_uncertainties": [
+        {
+          "note": "Homeland/oasis and taking memory rather than water retained. Hindi masculine speaker provisional.",
+          "record": "kb/production/translations/batch-006/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 799,
+      "target": "hi",
+      "reason": "Give the closing three-line memory/fragrance phrase natural Hindi genitive order without turning the oasis into an explanatory allegory.",
+      "reading_evidence": "Read all28source and Hindi lines including no search even for love, familiar land, intimate being/soul, oasis and refusal to take water before the memory-fragrance offering.",
+      "open_questions": [
+        "Final I hope no land will / never mind offering contains a double negative. Current targets read the likely intended absence of objection, but source confirmation is still needed.",
+        "Hindi masculine speaker remains provisional; English does not establish gender."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Preserve the short breath units while reversing genitive order; leave the source’s direct address हे जीव and emphatic exclamations intact.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 28,
+        "before_lines": [],
+        "inline_breaks": []
+      },
+      "new_findings": [
+        {
+          "category": "syntax_and_lineation",
+          "disposition": "fixed_in_local_draft",
+          "reason": "महक / स्मृति की / इस दृश्य की followed English noun-first nesting mechanically."
+        }
+      ],
+      "source_sha256": "eb383ca62d439cc8725095677572bc8dfdebdf8c063d92518580d88f29e71982",
+      "before_sha256": "ca7f3e4d3af14e89f1e415ccd794142efe1b9a797304fc1936b2826fa17034a1",
+      "after_sha256": "43d581090879efa193d4056ddd5a1c9f222ceb39a89974c9fdee730ea9980ae2",
+      "prior_uncertainties": [
+        {
+          "note": "Homeland/oasis and taking memory rather than water retained. Hindi masculine speaker provisional.",
+          "record": "kb/production/translations/batch-006/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 800,
+      "target": "or",
+      "reason": "Retain the spare withdrawal and final sleep metaphor. The poem does not call for added psychological explanation.",
+      "reading_evidence": "Read all ten lines: unanswered calls, slow walking, difficulty with social complexities, reluctance to receive guests/join a group, chosen darkness, remembered joy and the final endless sleep.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Keep the plain sequence and ellipsis without adding hope, advice or a diagnosis. The source’s reflective meditational wording is retained.",
+      "full_source_target_read": true,
+      "source_sha256": "9d880f928a5c9cff069ba125863c9391bd97e930678be1e62b4e32a452e22673",
+      "before_sha256": "ba7e151c1f58d98e0608c6df9e6faa1e16f848dde4f54ec91ed234f501b31a06",
+      "after_sha256": "ba7e151c1f58d98e0608c6df9e6faa1e16f848dde4f54ec91ed234f501b31a06",
+      "prior_uncertainties": [
+        {
+          "note": "Final sleep metaphor retained without diagnosing the speaker. Hindi masculine speaker provisional.",
+          "record": "kb/production/translations/batch-006/review.json"
+        }
+      ],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 800,
+      "target": "hi",
+      "reason": "Retain the restrained first-person list and final sleep image; do not heighten it with an invented explanation or resolve its ambiguity.",
+      "reading_evidence": "Read each of ten source and Hindi lines, checking negation and the move from calls/walking/social hesitation into remembered joy and silent sleep forever.",
+      "open_questions": [
+        "Hindi masculine speaker remains provisional; the English narrator’s gender is unspecified."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Keep the quiet cadence and linked participles at the end. A gender-neutral recast of the entire first-person voice requires separate editorial judgment, not blanket replacement.",
+      "full_source_target_read": true,
+      "source_sha256": "9d880f928a5c9cff069ba125863c9391bd97e930678be1e62b4e32a452e22673",
+      "before_sha256": "c1ee8d7fe537176d7018c9689c11bed4c8bba5c1179a700035e989bd723ae850",
+      "after_sha256": "c1ee8d7fe537176d7018c9689c11bed4c8bba5c1179a700035e989bd723ae850",
+      "prior_uncertainties": [
+        {
+          "note": "Final sleep metaphor retained without diagnosing the speaker. Hindi masculine speaker provisional.",
+          "record": "kb/production/translations/batch-006/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 802,
+      "target": "or",
+      "reason": "Render being touched/tantalised as a received state, not touching and awakening desire in someone else. Render beyond the busy mind as beyond its busyness, avoiding ahead as forward-looking vision.",
+      "reading_evidence": "Read all four stanzas: the small wish among millions, moon versus its unstable reflection held by river-water, fascination, muted protest at the busy mind and two requests to go home alone while music continues.",
+      "open_questions": [],
+      "finding_dispositions": {
+        "PNR-039": "fixed_in_local_draft"
+      },
+      "tradeoff": "The passive adjectives are compact and literary. The final complaint makes the immediately preceding busyness the limit being crossed; this is a contextual reading, not a claim about future vision.",
+      "full_source_target_read": true,
+      "new_findings": [
+        {
+          "category": "agency",
+          "disposition": "fixed_in_local_draft",
+          "reason": "ଛୁଇଁଯାଇ, ଲୋଭ ଜଗାଇ used active effects where source Touched and tantalised names the observer’s received state."
+        }
+      ],
+      "source_sha256": "7c4636b7bf0a55a94719dd8e4fd4d08ad6599b83b812753d4a945d8938655db1",
+      "before_sha256": "63fb739d794010d7d1db06da7b0c692f03d0213179fc3311cf0bd595dcf5dbff",
+      "after_sha256": "f107c17f8bbc84949f79737c19e69a730b25ed13efd2b882f7ddd57b82b39f6c",
+      "prior_uncertainties": [
+        {
+          "note": "River and moon reflection distinguished. Repeated final home request retained. Hindi masculine speaker provisional.",
+          "record": "kb/production/translations/batch-006/review.json"
+        }
+      ],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 802,
+      "target": "hi",
+      "reason": "Replace looking ahead with looking beyond the mind’s busyness; the emotional complaint concerns the addressee’s attention. Keep the moon/reflection distinction and retreating refrain.",
+      "reading_evidence": "Read every line in all four stanzas, including wish/people, wily water holding/hiding/scattering the reflection, tantalised looking, restrained protest and repeated home request.",
+      "open_questions": [
+        "Hindi masculine speaker in छुआ/ललचाया/अकेला remains provisional; source does not specify gender."
+      ],
+      "finding_dispositions": {
+        "PNR-040": "fixed_in_local_draft"
+      },
+      "tradeoff": "व्यस्तता makes the limit implicit in busy-bee mind explicit; it avoids adding a wider moral such as selfishness or indifference to everyone.",
+      "full_source_target_read": true,
+      "source_sha256": "7c4636b7bf0a55a94719dd8e4fd4d08ad6599b83b812753d4a945d8938655db1",
+      "before_sha256": "e529ba01ffbbfbfaaa721e7eda0148871e16abde284e8c35a6c94b04eef12056",
+      "after_sha256": "bc9b938e3896ee30dfac1fe310462c4dd7f6e333224a67934c86d4a29934c57b",
+      "prior_uncertainties": [
+        {
+          "note": "River and moon reflection distinguished. Repeated final home request retained. Hindi masculine speaker provisional.",
+          "record": "kb/production/translations/batch-006/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

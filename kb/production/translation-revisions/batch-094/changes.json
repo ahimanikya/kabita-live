@@ -1,0 +1,556 @@
+[
+  {
+    "poem_id": 402,
+    "target": "hi",
+    "reading_evidence": "Read all three numbered source poems in four stanzas and both full targets: half-page notebook plane full of corpses falls/crowd of silence, lifeless sums/pictures/poems/crossed-out two-line letter/ink; empty-half-full brass tumbler/perforated leaf plate/pudding/dub grass shade and no escape pitcher thirst/pot hunger/own sun; faces inevitably summoned, paint cheeks/noses/foreheads, waistcloth/boat head/swimming, threatened barefoot thorn/quicksand/heat journey wiping blood/tears, memorised taught song and garland-bowed neck. Checked plural collective list and preserved impossible boat-swimming image.",
+    "reason": "Make lifeless agree with the whole mixed-gender plural list rather than only ink; render quicksand in natural Hindi instead of an unexplained source-language calque.",
+    "open_questions": [
+      "Prior joga chance/possibility title and kariya waistcloth interpretation remain provisional. No forced equivalence with religious yoga and no physical explanation for boat-carrying swimmers."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "89eca53e396b8385b19e36244b79d11bc2d2a901956211db39ffa9cc114a3772",
+    "before_sha256": "883bccd1e23442b5167ac52cacc380811da0bfbfa75ff41c7f3d9513d8ef52e8",
+    "after_sha256": "d18f8e098bd7acdddf08b55c7e9f9b98ce93146c283129436ff689bf3e7306b4",
+    "prior_uncertainties": [
+      {
+        "note": "Three numbered poems preserved in four source stanzas. Yoga/joga read chance/possibility; kariya interpreted waistcloth provisionally. Dub grass and boat carried while swimming retained without rationalisation.",
+        "record": "kb/production/translations/batch-092/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "तीन छोटी कविताएँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "1. शव",
+          "आकाश से गिर पड़ा",
+          "कॉपी से फाड़े गए",
+          "आधे पन्ने का हवाई जहाज़,",
+          "शवों से भरा;",
+          "ज़मीन पर",
+          "ख़ामोशी की भीड़।"
+        ],
+        [
+          "हल किए गए सवाल,",
+          "बनाए गए चित्र,",
+          "उँडेल दी गई कविताएँ,",
+          "लिखकर काट दी गई",
+          "दो पंक्तियों की चिट्ठी,",
+          "और छलकी हुई स्याही",
+          "निर्जीव पड़ी थीं।"
+        ],
+        [
+          "2. संयोग",
+          "खाली, आधा या भरा?",
+          "पीतल का गिलास मत बढ़ाओ जी।",
+          "खीर परोसनी है तो",
+          "छेद वाली पत्तल मत बिछाओ।",
+          "दूब के नीचे की छाँह का",
+          "लोभ मत दिखाओ।",
+          "बच निकलने का संयोग नहीं",
+          "घड़े की प्यास से,",
+          "हाँडी की भूख से,",
+          "अपने हिस्से की धूप से।"
+        ],
+        [
+          "3. वे आएँगे",
+          "वे चेहरे",
+          "आएँगे ही आएँगे",
+          "एक पुकार पर।",
+          "काला पोतो, नीला पोतो—",
+          "दिखा देंगे",
+          "गाल, नाक, माथा।",
+          "कमर का कपड़ा लपेटकर,",
+          "नाव सिर पर उठाकर,",
+          "तैरते-तैरते आएँगे।",
+          "डरा दो,",
+          "गिरते-उठते नंगे पाँव दौड़ेंगे,",
+          "काँटों के वन, चोरबालू,",
+          "तेज़ धूप पार करते,",
+          "आँसू और रक्त पोंछते।",
+          "तुम्हारा सिखाया गीत",
+          "ज़रूर कंठस्थ करके आएँगे।",
+          "फूलमालाओं से तुम्हारी गर्दन",
+          "झुक गई होगी।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "तीन छोटी कविताएँ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "1. शव",
+          "आकाश से गिर पड़ा",
+          "कॉपी से फाड़े गए",
+          "आधे पन्ने का हवाई जहाज़,",
+          "शवों से भरा;",
+          "ज़मीन पर",
+          "ख़ामोशी की भीड़।"
+        ],
+        [
+          "हल किए गए सवाल,",
+          "बनाए गए चित्र,",
+          "उँडेल दी गई कविताएँ,",
+          "लिखकर काट दी गई",
+          "दो पंक्तियों की चिट्ठी,",
+          "और छलकी हुई स्याही",
+          "निर्जीव पड़े थे।"
+        ],
+        [
+          "2. संयोग",
+          "खाली, आधा या भरा?",
+          "पीतल का गिलास मत बढ़ाओ जी।",
+          "खीर परोसनी है तो",
+          "छेद वाली पत्तल मत बिछाओ।",
+          "दूब के नीचे की छाँह का",
+          "लोभ मत दिखाओ।",
+          "बच निकलने का संयोग नहीं",
+          "घड़े की प्यास से,",
+          "हाँडी की भूख से,",
+          "अपने हिस्से की धूप से।"
+        ],
+        [
+          "3. वे आएँगे",
+          "वे चेहरे",
+          "आएँगे ही आएँगे",
+          "एक पुकार पर।",
+          "काला पोतो, नीला पोतो—",
+          "दिखा देंगे",
+          "गाल, नाक, माथा।",
+          "कमर का कपड़ा लपेटकर,",
+          "नाव सिर पर उठाकर,",
+          "तैरते-तैरते आएँगे।",
+          "डरा दो,",
+          "गिरते-उठते नंगे पाँव दौड़ेंगे,",
+          "काँटों के वन, धँसती रेत,",
+          "तेज़ धूप पार करते,",
+          "आँसू और रक्त पोंछते।",
+          "तुम्हारा सिखाया गीत",
+          "ज़रूर कंठस्थ करके आएँगे।",
+          "फूलमालाओं से तुम्हारी गर्दन",
+          "झुक गई होगी।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 404,
+    "target": "en",
+    "reading_evidence": "Read all ten source/target stanzas: milliseconds to vanish into love, wound-blood-moment-scar flashes, blood unsure burial or body stain, arranged stains/white-stain blank paper, sinking/night/sleep/rice phrase/green evergreen stain and refusal of account, palm lacking return line, no death in lovelessness, addressee able to drown speaker/trusting desire to sink, reassurance and longest juncture close. Checked causative dubaaiba versus intransitive sinking and all paradoxes.",
+    "reason": "Restore the source causative agency: the addressee can drown the trusting speaker, rather than merely knowing how to drown themselves.",
+    "open_questions": [
+      "Prior arranged/sponsored stains, rice-and-sleep phrase and final long-juncture paradox remain provisional. Hindi feminine speaker and masculine addressee are not established by source."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "60143e143b1cf3794cbf0a30efe0004af32ea70b8a129bcc9e1ffbbf2a43cd97",
+    "before_sha256": "1c30caf6cb92c2cd4d8bb8720dcee36326080d67bb809165c8fb6308c46a27bc",
+    "after_sha256": "6d7744f31e1158e97013e03f0334c83f2ec03652f3d7af85c68d18d69735289e",
+    "prior_uncertainties": [
+      {
+        "note": "Ten stanzas retained. Sponsored/arranged stains, rice-and-sleep phrase and final long-juncture paradox provisional; no explanation inserted. Love/death imagery retained as poetry.",
+        "record": "kb/production/translations/batch-092/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Reassurance",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "How many milliseconds does it take",
+          "to vanish into love?"
+        ],
+        [
+          "Wound,",
+          "blood in the wound,",
+          "the moment blood wells up,",
+          "the scar gathering behind that moment—",
+          "all a matter of time's sudden flashes."
+        ],
+        [
+          "Not every wound gives blood.",
+          "Even the last drop of blood does not know",
+          "whether it will dig into the earth and be buried, or stain the body."
+        ],
+        [
+          "Just think:",
+          "after learning that some stains are arranged,",
+          "why would paper not turn blank after drinking a white stain!"
+        ],
+        [
+          "How long did I take",
+          "to fall in love!",
+          "How long did it take",
+          "to sink,",
+          "or in how many plunges",
+          "did I find night,",
+          "sleep like night's intense darkness,",
+          "love like rice and sleep,",
+          "like love of a deep green colour,",
+          "a lush evergreen stain—",
+          "do not seek an account."
+        ],
+        [
+          "Not even one line",
+          "of being able to return from love",
+          "has been etched into my palm."
+        ],
+        [
+          "There is no death for me in lovelessness."
+        ],
+        [
+          "You know how to drown;",
+          "in trust, I am dying to sink."
+        ],
+        [
+          "This alone is reassurance!"
+        ],
+        [
+          "To cross over by a single way;",
+          "a moment of juncture stretched to the longest length."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Reassurance",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "How many milliseconds does it take",
+          "to vanish into love?"
+        ],
+        [
+          "Wound,",
+          "blood in the wound,",
+          "the moment blood wells up,",
+          "the scar gathering behind that moment—",
+          "all a matter of time's sudden flashes."
+        ],
+        [
+          "Not every wound gives blood.",
+          "Even the last drop of blood does not know",
+          "whether it will dig into the earth and be buried, or stain the body."
+        ],
+        [
+          "Just think:",
+          "after learning that some stains are arranged,",
+          "why would paper not turn blank after drinking a white stain!"
+        ],
+        [
+          "How long did I take",
+          "to fall in love!",
+          "How long did it take",
+          "to sink,",
+          "or in how many plunges",
+          "did I find night,",
+          "sleep like night's intense darkness,",
+          "love like rice and sleep,",
+          "like love of a deep green colour,",
+          "a lush evergreen stain—",
+          "do not seek an account."
+        ],
+        [
+          "Not even one line",
+          "of being able to return from love",
+          "has been etched into my palm."
+        ],
+        [
+          "There is no death for me in lovelessness."
+        ],
+        [
+          "You know how to drown me;",
+          "in trust, I am dying to sink."
+        ],
+        [
+          "This alone is reassurance!"
+        ],
+        [
+          "To cross over by a single way;",
+          "a moment of juncture stretched to the longest length."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 405,
+    "target": "hi",
+    "reading_evidence": "Read all eight source/target stanzas: midnight wish-birds/expectation sky with no gourd-flower moon or slender stars/page wind/illusory clouds and free love plea; word-river dream washing/affection shower/night gain-lack/birth death own funerals; passion/pride/kisses/body scent/simmered thirst/love in floral dark sari-end; sunrise lit wall/love planted in trust/liar cloud/feeling tears blood/sprouting life song; return to oil-salt livelihood and crippled other side; no fragrance/jasmine garland/fire afternoon; life asked for clean air; repeated I run out. Checked repeated endings, physical metaphors and no softening of source disability metaphor.",
+    "reason": "Attach affection naturally to its shower and make the already established word-river the filling location, preserving the measured shower image.",
+    "open_questions": [
+      "Hindi feminine voice remains provisional; the expectation-sky attachment and oil/salt staking phrase remain contextual. Do not replace source dark-side imagery with an explanatory life lesson."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "9459591d45a97ed1292de9153a93b5f2dea7dd88477ca1ea9fa3fb908ea9d0a2",
+    "before_sha256": "592eebc7d0e3a160effdf4fca5d2f58cc4866642d79b1fbba333c2b5a95f4410",
+    "after_sha256": "abedb921e751e1aeeb4e5c3702af148977c4179f20f38b29bfc80aa9d9af85ed",
+    "prior_uncertainties": [
+      {
+        "note": "Eight stanzas retained. Ridge-gourd blossom moon, simmering feelings, repeated own funeral and oil/salt livelihood imagery retained. Crippled metaphor comes from source; Hindi feminine speaker provisional.",
+        "record": "kb/production/translations/batch-092/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "ठीक रात के बारह बजते ही",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ठीक रात के बारह बजते ही",
+          "मेरी इच्छाएँ पक्षियों-सी उड़ जाती हैं",
+          "तुम्हारी प्रतीक्षा के आकाश में।",
+          "उस आकाश में तोरई के फूल के रंग का चाँद नहीं,",
+          "छरहरे तारों का निशान नहीं;",
+          "हवा का पन्ना नहीं पलटता।",
+          "कुछ बेरंग बादल होते हैं—",
+          "बादल यानी भ्रम, केवल भ्रम!",
+          "देखो, पक्षी कैसे खुले मन से प्रेम माँग बैठते हैं!"
+        ],
+        [
+          "तुम्हारे शब्दों की पतली नदी में सपने धोती हूँ;",
+          "पानी कम पड़े तो एक बौछार अनुराग भर देती हूँ।",
+          "रात पाने और न पाने के बोध से चित्रित है।",
+          "तुम्हारे अनजाने जन्म लेती हूँ,",
+          "मृत्यु भी होती है मेरी,",
+          "स्वयं शव होकर अपने शव का हज़ार बार संस्कार करती हूँ।"
+        ],
+        [
+          "रात के जितने राग और रोमांच,",
+          "मान और चुंबन,",
+          "अंकुरित आकर्षण,",
+          "देह की बूँद-बूँद गंध—",
+          "पुरानी अनुभूतियों की तरल प्यास आत्मा में औंटाई।",
+          "क्या सब प्रेम बन गया!",
+          "उस प्रेम को अँधेरे के फूलदार आँचल में बाँधती हूँ।"
+        ],
+        [
+          "मैं उठती हूँ, सूरज उगता है;",
+          "कोमल किरणों में सुंदर है",
+          "खिड़की के उस पार की दीवार।",
+          "आँचल में बँधे प्रेम को",
+          "विश्वास की ज़मीन में गाड़ दिया।",
+          "यह बादल बड़ा झूठा है!",
+          "अँजुरी भर भाव, आँसू, रक्त उँडेला।",
+          "क्या प्रेम अंकुराकर मेरे जीने का गीत बनेगा?"
+        ],
+        [
+          "उलझनों भरी दुनिया में पाँव लौटाती हूँ,",
+          "तेल-नमक पर जीवन दाँव लगाती हूँ।",
+          "सचमुच, अँधेरे का दूसरा पार कितना विकलांग है!"
+        ],
+        [
+          "मैं कब महकी,",
+          "न जीवन को गूँथकर चमेली की माला बना पाई।",
+          "जीवन तो जीवन नहीं,",
+          "आग लगी एक निर्मम दोपहर है!"
+        ],
+        [
+          "जीवन, ओ जीवन, यह जीवन—",
+          "मेरी साँसों को मुट्ठी भर निर्मल हवा दे।"
+        ],
+        [
+          "इस जीवन के टुकड़े करते-करते",
+          "मैं चुक जाती हूँ,",
+          "मैं चुक जाती हूँ!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "ठीक रात के बारह बजते ही",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ठीक रात के बारह बजते ही",
+          "मेरी इच्छाएँ पक्षियों-सी उड़ जाती हैं",
+          "तुम्हारी प्रतीक्षा के आकाश में।",
+          "उस आकाश में तोरई के फूल के रंग का चाँद नहीं,",
+          "छरहरे तारों का निशान नहीं;",
+          "हवा का पन्ना नहीं पलटता।",
+          "कुछ बेरंग बादल होते हैं—",
+          "बादल यानी भ्रम, केवल भ्रम!",
+          "देखो, पक्षी कैसे खुले मन से प्रेम माँग बैठते हैं!"
+        ],
+        [
+          "तुम्हारे शब्दों की पतली नदी में सपने धोती हूँ;",
+          "पानी कम पड़े तो उसमें अनुराग की एक बौछार भर देती हूँ।",
+          "रात पाने और न पाने के बोध से चित्रित है।",
+          "तुम्हारे अनजाने जन्म लेती हूँ,",
+          "मृत्यु भी होती है मेरी,",
+          "स्वयं शव होकर अपने शव का हज़ार बार संस्कार करती हूँ।"
+        ],
+        [
+          "रात के जितने राग और रोमांच,",
+          "मान और चुंबन,",
+          "अंकुरित आकर्षण,",
+          "देह की बूँद-बूँद गंध—",
+          "पुरानी अनुभूतियों की तरल प्यास आत्मा में औंटाई।",
+          "क्या सब प्रेम बन गया!",
+          "उस प्रेम को अँधेरे के फूलदार आँचल में बाँधती हूँ।"
+        ],
+        [
+          "मैं उठती हूँ, सूरज उगता है;",
+          "कोमल किरणों में सुंदर है",
+          "खिड़की के उस पार की दीवार।",
+          "आँचल में बँधे प्रेम को",
+          "विश्वास की ज़मीन में गाड़ दिया।",
+          "यह बादल बड़ा झूठा है!",
+          "अँजुरी भर भाव, आँसू, रक्त उँडेला।",
+          "क्या प्रेम अंकुराकर मेरे जीने का गीत बनेगा?"
+        ],
+        [
+          "उलझनों भरी दुनिया में पाँव लौटाती हूँ,",
+          "तेल-नमक पर जीवन दाँव लगाती हूँ।",
+          "सचमुच, अँधेरे का दूसरा पार कितना विकलांग है!"
+        ],
+        [
+          "मैं कब महकी,",
+          "न जीवन को गूँथकर चमेली की माला बना पाई।",
+          "जीवन तो जीवन नहीं,",
+          "आग लगी एक निर्मम दोपहर है!"
+        ],
+        [
+          "जीवन, ओ जीवन, यह जीवन—",
+          "मेरी साँसों को मुट्ठी भर निर्मल हवा दे।"
+        ],
+        [
+          "इस जीवन के टुकड़े करते-करते",
+          "मैं चुक जाती हूँ,",
+          "मैं चुक जाती हूँ!"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 406,
+    "target": "en",
+    "reading_evidence": "Read all four source stanzas despite missing word spaces and both full targets: hilltop looking at ray-moistened brown earth face, interior flowers/trees/earth scent/open sky/pink evening/days sent on last bus/nights kissed before fading, tears spring/rain eyes/boat solitude/disappointed-lover wind shadow/helpless insufficiency despite assembly, mixed colours into white essence of colour-form-scent/snow/heron wing/sleeping shellfish back/cold death touch. Checked modifier of earth face and actual subject of white-essence arrival.",
+    "reason": "Attach ray-moistened to earth face rather than the speaker, and give colour/form/scent their explicit subject position instead of an accidental imperative. Preserve all line counts.",
+    "open_questions": [
+      "Prior missing-space source, rat-rata evening gloss and poetic hill/colour assertions remain unchanged and provisional. Hindi masculine narrator not determined by source."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve originals, credits, target line/stanza counts and cultural imagery. Contextual corrections only; same-assistant self-review, independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "91f26e1b7d3ef90b40a311bee31aa587c1b16ca855d002fc7569e2a301415f8b",
+    "before_sha256": "ef0f0c27369d3cfddddac3424abed04c1f538b20a8316f1728536e9da089acac",
+    "after_sha256": "7c976d770f0c232a93065fcc83b0aefcfb93361dcc6a755600888ab960306072",
+    "prior_uncertainties": [
+      {
+        "note": "Source has extensive missing word spaces, retained unchanged. Segmented only for translation; rat-rata evening interpreted flushed/glowing provisionally. Bhitarkanika title retained without adding geographical facts; steep-hill and white-colour claims remain poetic.",
+        "record": "kb/production/translations/batch-092/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Bhitarkanika",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "From a steep hilltop I look",
+          "moist with gentle rays,",
+          "at the bright face of brown earth."
+        ],
+        [
+          "Within me are flowers, trees, the scent of earth,",
+          "the openness of the sky,",
+          "the flushed pink face of evening.",
+          "And the habit of seating the days on the last bus,",
+          "waving a hand and returning,",
+          "the habit of kissing the nights before they fade."
+        ],
+        [
+          "Within me, a hot spring of countless tears,",
+          "rain's brimming eyes; at a lonely river landing,",
+          "the solitude of a forlorn boat; like a disappointed lover,",
+          "the shadow of wind wandering distractedly; even after fitting",
+          "everything together, a feeling of helpless insufficiency."
+        ],
+        [
+          "When all the colours are mixed,",
+          "arrive at a white essence—",
+          "colour, form and scent.",
+          "White snow, a heron's wing.",
+          "The still back of a sleeping shellfish,",
+          "the cold touch of death."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Bhitarkanika",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "From a steep hilltop I look",
+          "at the bright face of brown earth,",
+          "moist with gentle rays."
+        ],
+        [
+          "Within me are flowers, trees, the scent of earth,",
+          "the openness of the sky,",
+          "the flushed pink face of evening.",
+          "And the habit of seating the days on the last bus,",
+          "waving a hand and returning,",
+          "the habit of kissing the nights before they fade."
+        ],
+        [
+          "Within me, a hot spring of countless tears,",
+          "rain's brimming eyes; at a lonely river landing,",
+          "the solitude of a forlorn boat; like a disappointed lover,",
+          "the shadow of wind wandering distractedly; even after fitting",
+          "everything together, a feeling of helpless insufficiency."
+        ],
+        [
+          "When all the colours are mixed,",
+          "colour, form and scent",
+          "arrive at a white essence.",
+          "White snow, a heron's wing.",
+          "The still back of a sleeping shellfish,",
+          "the cold touch of death."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

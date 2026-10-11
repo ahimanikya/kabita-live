@@ -1,0 +1,70 @@
+{
+  "recorded_at": "2026-10-05T12:01:15.609981+00:00",
+  "poem_ids": [
+    628
+  ],
+  "variants_read": 2,
+  "variants_changed": 2,
+  "independent_review": false,
+  "authorization": "Let's apply the fixes as well, and we will wait for her feedback for further refinement.",
+  "scope_exception": "User-requested poem628 ahead of normal edition order; preserve separate active batch and its resume point.",
+  "reviews": [
+    {
+      "poem_id": 628,
+      "target": "hi",
+      "source_sha256": "a32d31d6d0aa8ed97cc1fd03e14027e64d3a6f7a30b51479a10eeaf2fac8d4a2",
+      "before_sha256": "4577b22dff4cdb695f479b365b9dbe1140af656a2bbf6f9a6738e2ed21001d06",
+      "after_sha256": "6e1668b532b941efffef77fe652ce5f29af4dc8ee337108729981ab618a88691",
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false,
+      "full_source_target_read": true,
+      "reading_evidence": "Read complete ten-stanza Odia and both current targets in the source-linked review and rechecked exact hashes: water/chalk map; peepal/red flag/Budhi Maa; fields/dung/cowshed/granary; carts/divided measures/walls; separation of hearts; double door and water-eaten memory; village as bride/beloved with wounds and want; tree/name/leaf and lifted feet; mahua/kadamba/winter/leaf touch; invitation and absent I. Compared all recurring Hindi village references and grammatical heads. Originals and ambiguous participant identities remain unchanged.",
+      "reason": "Apply user-authorized Hindi refinements following relayed poet feedback: contextual टोली throughout title and village references, feminine central stanza, neutral absence phrase; repair wall syntax, water-damaged memory phrasing and winter leaf-fall construction. Keep masculine मानचित्र possessive and plural tree agreement where required.",
+      "open_questions": [
+        "Intended relation between person/tree/name/leaf in stanza8.",
+        "Does गउणि/ଗଉଣି here mean a grain measure/vessel, divided provision, or another local sense? Dictionary meanings do not establish this particular line.",
+        "Are the lyric speaker and addressee intended to be gendered? The existing Hindi first-person feminine and second-person masculine remain provisional.",
+        "Wall/door spatial relation remains provisional; water से गली emphasizes decay and awaits poet feedback.",
+        "The regional settlement sense of टोली follows relayed author suggestion; final contextual wording remains open."
+      ],
+      "finding_dispositions": {},
+      "prior_uncertainties": [
+        {
+          "note": "Tree/name/leaf saying and measure unresolved; remaining Hindi participant-gender choices provisional.",
+          "record": "kb/production/translations/batch-041/review.json"
+        }
+      ],
+      "tradeoff": "Targeted fixes authorized by user; no claim of poet approval of complete revised translation. Stanza and verse boundaries preserved."
+    },
+    {
+      "poem_id": 628,
+      "target": "en",
+      "source_sha256": "a32d31d6d0aa8ed97cc1fd03e14027e64d3a6f7a30b51479a10eeaf2fac8d4a2",
+      "before_sha256": "c5568a0aa7180fc50e33665558c3476102f47c10ae5b11e2d02c9cb5a430ac33",
+      "after_sha256": "57289437b9bb0a680c2e32ebf84692028849097a27ea0d5165a956a092e88995",
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false,
+      "full_source_target_read": true,
+      "reading_evidence": "Read complete ten-stanza Odia and both current targets in the source-linked review and rechecked exact hashes: water/chalk map; peepal/red flag/Budhi Maa; fields/dung/cowshed/granary; carts/divided measures/walls; separation of hearts; double door and water-eaten memory; village as bride/beloved with wounds and want; tree/name/leaf and lifted feet; mahua/kadamba/winter/leaf touch; invitation and absent I. Compared all recurring Hindi village references and grammatical heads. Originals and ambiguous participant identities remain unchanged.",
+      "reason": "Apply user-authorized English stanza personification She/herself and idiomatic lane/bend invitation from the shareable PDF; preserve wounds and want, secret beloved, water-eaten wood and other imagery.",
+      "open_questions": [
+        "Intended relation between person/tree/name/leaf in stanza8.",
+        "Does गउणि/ଗଉଣି here mean a grain measure/vessel, divided provision, or another local sense? Dictionary meanings do not establish this particular line.",
+        "Are the lyric speaker and addressee intended to be gendered? The existing Hindi first-person feminine and second-person masculine remain provisional.",
+        "Existing tree/name relation remains provisional; no guessed meaning inserted."
+      ],
+      "finding_dispositions": {},
+      "prior_uncertainties": [
+        {
+          "note": "Tree/name/leaf saying and measure unresolved; remaining Hindi participant-gender choices provisional.",
+          "record": "kb/production/translations/batch-041/review.json"
+        }
+      ],
+      "tradeoff": "Targeted fixes authorized by user; no claim of poet approval of complete revised translation. Stanza and verse boundaries preserved."
+    }
+  ]
+}

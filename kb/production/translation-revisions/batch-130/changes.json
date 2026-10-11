@@ -1,0 +1,622 @@
+[
+  {
+    "poem_id": 264,
+    "target": "hi",
+    "reading_evidence": "Read complete42-line source and both full targets: country prompting father memory, empty wheelchair and wall photograph, dust/rust/time/absent presence, seeing/hearing without registering, father smiling at doctor like warrior at weak opponent, foil-wrapped pills talking unheard, silence/unfamiliar world, family not listening then listening to themselves, new life/discipline definitions and self-interest chautisha, elder distracted/household-country decline and return to father. Checked smile agency against the preceding father subject, and did not treat poetic illness description as medical fact.",
+    "open_questions": [
+      "Initial p> is markup residue omitted only from the target; original source remains unchanged.",
+      "Chautisha retained as the source cultural/formal image; no substituted generic song or factual account of illness course."
+    ],
+    "reason": "Remove avoidable unsupported feminine narrator agreement and make Father explicitly the person smiling at the arriving doctor; source does not assign the warrior smile to the doctor.",
+    "tradeoff": "Preserve source political bite, tenderness, sensory imagery and deliberate recurrence. Same-assistant self-review only; independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "8bf72bf96eab90bcf178a0a9874b6c36c60266d485709376a655102d22e3768c",
+    "before_sha256": "8f8c592fcea60f92c4aa270507dc59b1f75b2b7f4af23148e467956679456cdc",
+    "after_sha256": "1c8091d2e793a9f2ca944ab621588c34345e1204a9ce6541ac4e8acaa16dd26d",
+    "prior_uncertainties": [
+      {
+        "note": "42 lines retained. Initial p> treated as markup residue in translation only; original untouched. Chautisha cultural form retained. Disease/course and doctor-warrior imagery translated as narrator’s poetic recollection, not medical facts. Hindi speaker feminine provisional.",
+        "record": "kb/production/translations/batch-126/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "अल्ज़ाइमर्स",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जब मैं अपने देश के बारे में सोचती हूँ",
+          "तब पिता याद आते हैं",
+          "बरामदे में पड़ी",
+          "व्हीलचेयर अब ख़ाली है",
+          "हिसाब नहीं रखा",
+          "कब से पिता कुर्सी छोड़कर",
+          "तस्वीर बन दीवार पर लटक रहे हैं।",
+          "अब वह कुर्सी वहीं है",
+          "ऊपरी मंज़िल की उसी बालकनी के कोने में",
+          "धूल जम गई है, ज़ंग लग गया है",
+          "समय बस इतना ही तो देता है",
+          "कभी-कभी उस ख़ाली कुर्सी में",
+          "वह अनुपस्थित व्यक्ति दिखाई देता है।",
+          "उन दिनों पिता",
+          "कुछ देखते हुए भी देख नहीं पाते थे",
+          "सुनते हुए भी सुन नहीं पाते थे",
+          "चुपचाप शून्य को ताकते बैठे रहते थे।",
+          "डॉक्टर आते तो उन्हें देखकर हँसते थे।",
+          "जैसे कमज़ोर प्रतिद्वंद्वी को देखकर",
+          "वीर पुरुष हँसता है।",
+          "एल्यूमिनियम की चादर ओढ़े",
+          "तिपाई पर पड़ी गोलियाँ",
+          "जब आपस में कहती थीं",
+          "जानते हो न, उन्हें अल्ज़ाइमर्स है!",
+          "पिता को उनकी बातें सुनाई नहीं देती थीं",
+          "धीरे-धीरे पिता मूक हो गए",
+          "जगत को अजनबी पाया",
+          "जैसा हमेशा होता है",
+          "जब बीमारी दीर्घजीवी हो जाए",
+          "जब पिता कुछ कहते थे",
+          "तब हम उन्हें सुनते नहीं थे",
+          "और जब पिता मौन हो गए",
+          "तब कुछ सुनने के बहाने",
+          "हम अपनी ही बातें सुनते रहे",
+          "ख़ुद ही रचीं जीवन और",
+          "अनुशासन की नई परिभाषाएँ",
+          "स्वार्थ और संबंधों की नई चौतीसा",
+          "मुखिया का ध्यान भटक जाए तो",
+          "शायद ऐसे ही संसार बिगड़ता है",
+          "जैसे मेरा देश",
+          "आजकल देश के बारे में सोचूँ तो",
+          "पिता बहुत याद आते हैं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "अल्ज़ाइमर्स",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "जब मुझे अपने देश का ख़याल आता है",
+          "तब पिता याद आते हैं",
+          "बरामदे में पड़ी",
+          "व्हीलचेयर अब ख़ाली है",
+          "हिसाब नहीं रखा",
+          "कब से पिता कुर्सी छोड़कर",
+          "तस्वीर बन दीवार पर लटक रहे हैं।",
+          "अब वह कुर्सी वहीं है",
+          "ऊपरी मंज़िल की उसी बालकनी के कोने में",
+          "धूल जम गई है, ज़ंग लग गया है",
+          "समय बस इतना ही तो देता है",
+          "कभी-कभी उस ख़ाली कुर्सी में",
+          "वह अनुपस्थित व्यक्ति दिखाई देता है।",
+          "उन दिनों पिता",
+          "कुछ देखते हुए भी देख नहीं पाते थे",
+          "सुनते हुए भी सुन नहीं पाते थे",
+          "चुपचाप शून्य को ताकते बैठे रहते थे।",
+          "डॉक्टर आते तो पिता उन्हें देखकर हँसते थे।",
+          "जैसे कमज़ोर प्रतिद्वंद्वी को देखकर",
+          "वीर पुरुष हँसता है।",
+          "एल्यूमिनियम की चादर ओढ़े",
+          "तिपाई पर पड़ी गोलियाँ",
+          "जब आपस में कहती थीं",
+          "जानते हो न, उन्हें अल्ज़ाइमर्स है!",
+          "पिता को उनकी बातें सुनाई नहीं देती थीं",
+          "धीरे-धीरे पिता मूक हो गए",
+          "जगत को अजनबी पाया",
+          "जैसा हमेशा होता है",
+          "जब बीमारी दीर्घजीवी हो जाए",
+          "जब पिता कुछ कहते थे",
+          "तब हम उन्हें सुनते नहीं थे",
+          "और जब पिता मौन हो गए",
+          "तब कुछ सुनने के बहाने",
+          "हम अपनी ही बातें सुनते रहे",
+          "ख़ुद ही रचीं जीवन और",
+          "अनुशासन की नई परिभाषाएँ",
+          "स्वार्थ और संबंधों की नई चौतीसा",
+          "मुखिया का ध्यान भटक जाए तो",
+          "शायद ऐसे ही संसार बिगड़ता है",
+          "जैसे मेरा देश",
+          "आजकल देश के बारे में सोचूँ तो",
+          "पिता बहुत याद आते हैं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 264,
+    "target": "en",
+    "reading_evidence": "Read complete42-line source and both full targets: country prompting father memory, empty wheelchair and wall photograph, dust/rust/time/absent presence, seeing/hearing without registering, father smiling at doctor like warrior at weak opponent, foil-wrapped pills talking unheard, silence/unfamiliar world, family not listening then listening to themselves, new life/discipline definitions and self-interest chautisha, elder distracted/household-country decline and return to father. Checked smile agency against the preceding father subject, and did not treat poetic illness description as medical fact.",
+    "open_questions": [
+      "Initial p> is markup residue omitted only from the target; original source remains unchanged.",
+      "Chautisha retained as the source cultural/formal image; no substituted generic song or factual account of illness course."
+    ],
+    "reason": "Clarify Father as smiler and recast the pills/foil/when clause into natural English dependency order; preserve the personified pills and all42 verse lines.",
+    "tradeoff": "Preserve source political bite, tenderness, sensory imagery and deliberate recurrence. Same-assistant self-review only; independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 42,
+      "before_lines": [],
+      "inline_breaks": []
+    },
+    "source_sha256": "8bf72bf96eab90bcf178a0a9874b6c36c60266d485709376a655102d22e3768c",
+    "before_sha256": "46e933dace7dd999aae5c6ca598c692bfa567848db9da98ffe49f6486c282dbb",
+    "after_sha256": "8934792ba79e2c580f54dd768e6bc6f055f67081362ce6e5909176c4ce949bb8",
+    "prior_uncertainties": [
+      {
+        "note": "42 lines retained. Initial p> treated as markup residue in translation only; original untouched. Chautisha cultural form retained. Disease/course and doctor-warrior imagery translated as narrator’s poetic recollection, not medical facts. Hindi speaker feminine provisional.",
+        "record": "kb/production/translations/batch-126/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Alzheimer's",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "When I think of my country,",
+          "I remember Father.",
+          "The wheelchair standing",
+          "on the veranda is empty now.",
+          "I have kept no account",
+          "of how long since Father left the chair",
+          "to hang upon the wall as a photograph.",
+          "Now that chair is still there,",
+          "in that corner of the upstairs balcony;",
+          "dust has gathered, rust has taken hold.",
+          "Time gives only that much.",
+          "Sometimes, in that empty chair,",
+          "the absent person appears.",
+          "In those days Father,",
+          "though seeing things, could not see,",
+          "though hearing, could not hear;",
+          "he sat silently staring into emptiness.",
+          "When the doctor came, he smiled at him,",
+          "as a warrior smiles",
+          "upon seeing a weak opponent.",
+          "Wrapped in sheets of aluminium,",
+          "the pills lying on the little table,",
+          "when they spoke among themselves—",
+          "You know, don't you, he has Alzheimer's!",
+          "Father could not hear their words.",
+          "Gradually Father became mute,",
+          "found the world unfamiliar,",
+          "as always happens",
+          "when an illness lives long.",
+          "When Father said something,",
+          "we did not listen to him.",
+          "And when Father fell silent,",
+          "under the pretence of hearing something,",
+          "we listened only to ourselves.",
+          "We ourselves devised new definitions of life",
+          "and discipline,",
+          "a new chautisha of self-interest and relationships.",
+          "When the elder grows absent-minded,",
+          "perhaps this is how a household goes awry,",
+          "like my country.",
+          "These days, thinking of the country,",
+          "I remember Father so much."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Alzheimer's",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "When I think of my country,",
+          "I remember Father.",
+          "The wheelchair standing",
+          "on the veranda is empty now.",
+          "I have kept no account",
+          "of how long since Father left the chair",
+          "to hang upon the wall as a photograph.",
+          "Now that chair is still there,",
+          "in that corner of the upstairs balcony;",
+          "dust has gathered, rust has taken hold.",
+          "Time gives only that much.",
+          "Sometimes, in that empty chair,",
+          "the absent person appears.",
+          "In those days Father,",
+          "though seeing things, could not see,",
+          "though hearing, could not hear;",
+          "he sat silently staring into emptiness.",
+          "When the doctor came, Father smiled at him,",
+          "as a warrior smiles",
+          "upon seeing a weak opponent.",
+          "When the pills on the little table,",
+          "wrapped in sheets of aluminium,",
+          "spoke among themselves—",
+          "You know, don't you, he has Alzheimer's!",
+          "Father could not hear their words.",
+          "Gradually Father became mute,",
+          "found the world unfamiliar,",
+          "as always happens",
+          "when an illness lives long.",
+          "When Father said something,",
+          "we did not listen to him.",
+          "And when Father fell silent,",
+          "under the pretence of hearing something,",
+          "we listened only to ourselves.",
+          "We ourselves devised new definitions of life",
+          "and discipline,",
+          "a new chautisha of self-interest and relationships.",
+          "When the elder grows absent-minded,",
+          "perhaps this is how a household goes awry,",
+          "like my country.",
+          "These days, thinking of the country,",
+          "I remember Father so much."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 42,
+        "before_lines": [],
+        "inline_breaks": [],
+        "source_sha256": "8bf72bf96eab90bcf178a0a9874b6c36c60266d485709376a655102d22e3768c",
+        "stanzas_sha256": "601dd01fe4fc5a035cc11d29dbe53d74487673a47a24a76d465321b6c5efff81"
+      }
+    }
+  },
+  {
+    "poem_id": 265,
+    "target": "en",
+    "reading_evidence": "Read all28 Hindi source lines and both targets: flowing wind/tune/absorbed sky, bird chorus creating sweetness, sun leaving/moon eager, waiting nature, clapping leaves and adorning flowers, dusk between heat and darkness, homecoming flock/bee eager for flowers, evening in twilight shawl, stars asking signal, repeated wind/tune/sky close. Preserved punctuation stretches and personified nature without adding a location.",
+    "open_questions": [],
+    "reason": "Render the sweet bird kalrav as chorus rather than clamour and the sky as rapt, a natural standalone rendering of magan. Preserve the repeated opening/closing phrase and the quiet joyful register.",
+    "tradeoff": "Preserve source political bite, tenderness, sensory imagery and deliberate recurrence. Same-assistant self-review only; independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "fbdacb7b8c7eda0f4963eade9f6fa8e1bab0bf5e9c040068c5479a805e49ffb2",
+    "before_sha256": "deafe40f9b16de6ce9b40fe4626703763cebb76892d6466d66754ce685647201",
+    "after_sha256": "e5d099016f0f264dea10e5f8ad86932459c97dd33e025b2478e101d054ff027e",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Twilight",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "The wind is flowing,",
+          "in melody.....................",
+          "the sky is absorbed,",
+          "the clamour of birds....",
+          "is creating sweetness.",
+          "The sun is ready to leave,",
+          "the moon impatient to come,",
+          "nature waits.........",
+          "eager, who knows since when.",
+          "The leaves, delighted.........",
+          "are clapping,",
+          "flowers adorn.......",
+          "the earth.",
+          "The hour of twilight.....",
+          "looks somehow different,",
+          "there is neither the sun's heat..",
+          "nor night's darkness.",
+          "The birds returning home....",
+          "are absorbed in their flocks,",
+          "to meet the flowers......",
+          "the bee seems eager.",
+          "Evening has draped itself...",
+          "in twilight's shawl;",
+          "to enter the sky, the stars....",
+          "are asking for a signal.",
+          "The wind is flowing,",
+          "in melody.........................",
+          "the sky is absorbed."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Twilight",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "The wind is flowing,",
+          "in melody.....................",
+          "the sky is rapt,",
+          "the chorus of birds....",
+          "is creating sweetness.",
+          "The sun is ready to leave,",
+          "the moon impatient to come,",
+          "nature waits.........",
+          "eager, who knows since when.",
+          "The leaves, delighted.........",
+          "are clapping,",
+          "flowers adorn.......",
+          "the earth.",
+          "The hour of twilight.....",
+          "looks somehow different,",
+          "there is neither the sun's heat..",
+          "nor night's darkness.",
+          "The birds returning home....",
+          "are absorbed in their flocks,",
+          "to meet the flowers......",
+          "the bee seems eager.",
+          "Evening has draped itself...",
+          "in twilight's shawl;",
+          "to enter the sky, the stars....",
+          "are asking for a signal.",
+          "The wind is flowing,",
+          "in melody.........................",
+          "the sky is rapt."
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 248,
+    "target": "or",
+    "reading_evidence": "Read complete26-line Hindi source and both targets in six blocks4/4/4/6/4/4: collective female rejection from womb onward, own people/estrangement; birthplace and childhood home denied belonging; play/learning replaced by housekeeping and hearth-burnt dreams; child marriage/kanyadaan/compelled live-here-die-here vow; new home without belonging; daughter as another wealth in natal home and renewed sting in marital home. Preserved explicit female and child-bride context, coercion and rhetorical rather than chronological why.",
+    "open_questions": [],
+    "reason": "Keep the question about belonging in the childhood home rather than literal third-party ownership, and render after-all as a rhetorical challenge rather than finally in time. Preserve the repeated natal/marital exclusion.",
+    "tradeoff": "Preserve source political bite, tenderness, sensory imagery and deliberate recurrence. Same-assistant self-review only; independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "source_sha256": "4bdcc33a00ba6645fc2edd71ad71b58e8ce0ac62992d99eb5b5f8b7a4c84f88f",
+    "before_sha256": "2519b957e60fc016614ca7a75a91d3dc9e360409631acb01cce03a0fd6a82a89",
+    "after_sha256": "73f434fc315f636e368d2344e4606e3b9d9b2acb493fcaa23d1e5c4f166ec10a",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "କାହିଁକି—ପରପଣର ଦଂଶନ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "କେବେ ଗର୍ଭରେ ମାରିଦିଆଗଲା",
+          "କେବେ ଦୁନିଆ ଦୂରେଇଦେଲା",
+          "କେବେ ଆପଣା ଲୋକଙ୍କ ଭିତରେ ରହି",
+          "ପରପଣର ଦଂଶନ ଯନ୍ତ୍ରଣା ଦେଲା"
+        ],
+        [
+          "କେବେ ଭାବିବାକୁ ବାଧ୍ୟ କଲା",
+          "ଯେଉଁ ଅଗଣାରେ ଜନ୍ମ ନେଲି",
+          "ଯେଉଁ ଘରେ ବଢ଼ିଲି",
+          "ତାହା କେମିତି ପରର??"
+        ],
+        [
+          "ଖେଳିବା କୁଦିବା ପଢ଼ିବା ଲେଖିବା ବୟସରେ",
+          "ଘରସଂସାରର ଢଙ୍ଗ ଶିଖାଇଲେ",
+          "ଚୁଲିର ନିଆଁରେ",
+          "ସ୍ୱପ୍ନକୁ ପୋଡ଼ି ପାଉଁଶ କଲେ"
+        ],
+        [
+          "ବାଳିକା ବଧୂ କରି",
+          "ମୋ ପ୍ରତି ଘୋର ଅନ୍ୟାୟ କଲେ",
+          "କନ୍ୟାଦାନ ନାମରେ",
+          "ଅନ୍ୟ ହାତରେ ଦେଇଦେଲେ",
+          "“ଏଠି ବଞ୍ଚିବା ଏଠି ମରିବା”",
+          "ଏକ ବଚନ ମୁଖସ୍ଥ କରାଇଲେ"
+        ],
+        [
+          "ଶେଷରେ କାହିଁକି…",
+          "ନୂଆ ଘର ନିଜର ନୁହେଁ??",
+          "ଆପଣା ଲୋକଙ୍କ ଭିତରେ ରହି ବି",
+          "ଆପଣାପଣ ନାହିଁ!"
+        ],
+        [
+          "ଏ କେମିତି ପରପଣ…",
+          "ବାପଘରେ ପରଧନ ଥିଲି",
+          "ଶାଶୁଘରେ ପୁଣି",
+          "ପରପଣର ଦଂଶନ କାହିଁକି??"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "କାହିଁକି—ପରପଣର ଦଂଶନ",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "କେବେ ଗର୍ଭରେ ମାରିଦିଆଗଲା",
+          "କେବେ ଦୁନିଆ ଦୂରେଇଦେଲା",
+          "କେବେ ଆପଣା ଲୋକଙ୍କ ଭିତରେ ରହି",
+          "ପରପଣର ଦଂଶନ ଯନ୍ତ୍ରଣା ଦେଲା"
+        ],
+        [
+          "କେବେ ଭାବିବାକୁ ବାଧ୍ୟ କଲା",
+          "ଯେଉଁ ଅଗଣାରେ ଜନ୍ମ ନେଲି",
+          "ଯେଉଁ ଘରେ ବଢ଼ିଲି",
+          "ସେ ଘର କେମିତି ମୋର ନୁହେଁ??"
+        ],
+        [
+          "ଖେଳିବା କୁଦିବା ପଢ଼ିବା ଲେଖିବା ବୟସରେ",
+          "ଘରସଂସାରର ଢଙ୍ଗ ଶିଖାଇଲେ",
+          "ଚୁଲିର ନିଆଁରେ",
+          "ସ୍ୱପ୍ନକୁ ପୋଡ଼ି ପାଉଁଶ କଲେ"
+        ],
+        [
+          "ବାଳିକା ବଧୂ କରି",
+          "ମୋ ପ୍ରତି ଘୋର ଅନ୍ୟାୟ କଲେ",
+          "କନ୍ୟାଦାନ ନାମରେ",
+          "ଅନ୍ୟ ହାତରେ ଦେଇଦେଲେ",
+          "“ଏଠି ବଞ୍ଚିବା ଏଠି ମରିବା”",
+          "ଏକ ବଚନ ମୁଖସ୍ଥ କରାଇଲେ"
+        ],
+        [
+          "ତେବେ କାହିଁକି…",
+          "ନୂଆ ଘର ନିଜର ନୁହେଁ??",
+          "ଆପଣା ଲୋକଙ୍କ ଭିତରେ ରହି ବି",
+          "ଆପଣାପଣ ନାହିଁ!"
+        ],
+        [
+          "ଏ କେମିତି ପରପଣ…",
+          "ବାପଘରେ ପରଧନ ଥିଲି",
+          "ଶାଶୁଘରେ ପୁଣି",
+          "ପରପଣର ଦଂଶନ କାହିଁକି??"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 248,
+    "target": "en",
+    "reading_evidence": "Read complete26-line Hindi source and both targets in six blocks4/4/4/6/4/4: collective female rejection from womb onward, own people/estrangement; birthplace and childhood home denied belonging; play/learning replaced by housekeeping and hearth-burnt dreams; child marriage/kanyadaan/compelled live-here-die-here vow; new home without belonging; daughter as another wealth in natal home and renewed sting in marital home. Preserved explicit female and child-bride context, coercion and rhetorical rather than chronological why.",
+    "open_questions": [],
+    "reason": "Restore the emotional belonging question and remove the dangling modifier that made injustice the apparent child bride; preserve passive coercion and the two-line injustice statement.",
+    "tradeoff": "Preserve source political bite, tenderness, sensory imagery and deliberate recurrence. Same-assistant self-review only; independent review pending.",
+    "finding_dispositions": {},
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 26,
+      "before_lines": [
+        4,
+        8,
+        12,
+        18,
+        22
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "4bdcc33a00ba6645fc2edd71ad71b58e8ce0ac62992d99eb5b5f8b7a4c84f88f",
+    "before_sha256": "2f5ab9ac16437d56dbb681715b19c2fae253807134f2418c67ba0127f749e9d4",
+    "after_sha256": "f32a50e0f1e2d3ff45f15a59bc6831182f8d0a2e605411e5fef9a8b91bdb69ba",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Why, After All—the Sting of Not Belonging",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Sometimes killed in the womb,",
+          "sometimes rejected by the world,",
+          "sometimes, living among my own,",
+          "tormented by the sting of not belonging."
+        ],
+        [
+          "Sometimes compelled to wonder:",
+          "the courtyard where I was born,",
+          "the house where I grew up—",
+          "how can it be someone else's??"
+        ],
+        [
+          "At the age for playing, reading and writing,",
+          "I was taught the ways of housekeeping.",
+          "In the hearth's fire,",
+          "my dream was scorched to ashes."
+        ],
+        [
+          "Made a child bride,",
+          "a grave injustice was done to me.",
+          "In the name of giving away a daughter,",
+          "I was handed to others.",
+          "“Live here, die here”—",
+          "a vow I was made to memorise."
+        ],
+        [
+          "Why, after all…",
+          "is the new house not my own??",
+          "Even living among my own,",
+          "there is no belonging!"
+        ],
+        [
+          "What is this estrangement…",
+          "In my parents' home I was another's wealth;",
+          "then, in my marital home,",
+          "why this sting of not belonging??"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Why, After All—the Sting of Not Belonging",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "Sometimes killed in the womb,",
+          "sometimes rejected by the world,",
+          "sometimes, living among my own,",
+          "tormented by the sting of not belonging."
+        ],
+        [
+          "Sometimes compelled to wonder:",
+          "the courtyard where I was born,",
+          "the house where I grew up—",
+          "how can that home not be my own??"
+        ],
+        [
+          "At the age for playing, reading and writing,",
+          "I was taught the ways of housekeeping.",
+          "In the hearth's fire,",
+          "my dream was scorched to ashes."
+        ],
+        [
+          "I was made a child bride—",
+          "a grave injustice done to me.",
+          "In the name of giving away a daughter,",
+          "I was handed to others.",
+          "“Live here, die here”—",
+          "a vow I was made to memorise."
+        ],
+        [
+          "Why, after all…",
+          "is the new house not my own??",
+          "Even living among my own,",
+          "there is no belonging!"
+        ],
+        [
+          "What is this estrangement…",
+          "In my parents' home I was another's wealth;",
+          "then, in my marital home,",
+          "why this sting of not belonging??"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 26,
+        "before_lines": [
+          4,
+          8,
+          12,
+          18,
+          22
+        ],
+        "inline_breaks": [],
+        "source_sha256": "4bdcc33a00ba6645fc2edd71ad71b58e8ce0ac62992d99eb5b5f8b7a4c84f88f",
+        "stanzas_sha256": "19ab628c14d36e6dfbf58220e90d4a35727bdc563f61c8cad51ae34c21803274"
+      }
+    }
+  }
+]

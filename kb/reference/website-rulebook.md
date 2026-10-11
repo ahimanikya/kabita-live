@@ -238,11 +238,17 @@ The Poems listing (`poems.html`) reuses the edition icon toolbar at the top of i
 
 ## Odia signature — 6 October 2026
 
-Use **ମାଟିର ମହକ / ହୃଦୟର ସ୍ବର** in all current placements, preserving established line breaks or one-line separators. Historical snapshots remain unchanged. User-approved replacement; see `../records/tagline-2026-10-06.json`.
+Use the exact approved wording **ମାଟିର ମହକ / ହୃଦୟର ସ୍ବର** everywhere the journal signature appears. Preserve each placement’s established two-line or single-line layout; the spelling of ସ୍ବର is explicit. Applies to website, edition covers, generated cards/captions and current branding assets. Historical source captures, dated decision evidence and earlier delivery snapshots remain preserved. See [tagline update](../records/tagline-2026-10-06.json).
 
-### Three-language essay and article comments — 7 October 2026
 
-The language essay focuses on Odia, Hindi and English while retaining its existing shared URL. Omit the About this essay paragraph and the visible AI-generated image label; retain internal provenance. Article public comments use one text box, Reader attribution and a visible moderation/publication notice. The response area follows the 720px reading column with responsive controls and a separately labelled private-feedback form. Service activation is separate from this presentation release.
+## Language essay scope — 6 October 2026
+
+The journal’s language essay focuses on Odia, Hindi and English. Use “Three languages and the journey of a poem” in its visible title, homepage feature and sharing metadata. Retain cultural-detail and translation/adaptation discussion; omit the former worldwide language survey and population infographics. Preserve the earlier supplied article and artwork as provenance. The published article route stays stable for existing links. See [current revision](../records/three-languages-article-2026-10-06.json).
+
+
+### Article response presentation — 7 October 2026
+
+Article comments follow the approved single-text-box form: publish as “Reader” after moderation, with the publication-consent notice beside the submit action. Match the essay’s reading-column width, site colours and44px minimum controls; avoid a full-width unstyled block. Keep private feedback distinct and preserve service/receipt gates. See [verified correction](../records/article-comments-layout-2026-10-07.json).
 
 ## Search and AI discovery — 10 October 2026
 
@@ -251,3 +257,10 @@ The user explicitly authorizes searchable publication of the existing public rea
 Generate HTTPS canonical URLs, a canonical-only sitemap, visible-content-based structured data and an `llms.txt` navigation aid. Public original text remains ordinary HTML for all readers and crawlers; never cloak or invent author/date/review metadata. Search and citation crawlers may access public pages; training-crawler policy is explicit in `data/discovery.json`. Robots directives are voluntary crawl instructions, not bot authentication or access control.
 
 Firebase bot protection uses domain-restricted reCAPTCHA Enterprise through App Check. Ship and verify all clients before enabling Firestore enforcement. Preserve private submissions, moderation, server cooldowns, Analytics opt-in and readable static pages when services fail. Keep billing disabled under the present authorization. Public security/privacy disclosure belongs in Our Story. Record quota limits, actual enforcement and verification separately from code readiness.
+
+
+## Translation publication and separate review desk — 11 October 2026
+
+The user authorizes publishing the remaining local changes, including the 818 revised translation variants. Reader pages must not label these translations as drafts or display pending-review notices. Keep original/translation identification, contributor credits and the centralized preparation explanation. Preserve actual review states, source holds and before/after evidence in the KB; this presentation decision does not assert independent linguistic certification or clear the full editorial release gate.
+
+Publish a dedicated `translation-review.html` reference with actual review status and source questions. Keep it unlinked from public navigation and other reader pages, noindex, outside the sitemap, site-search index, Analytics route catalogue and LLM guide. Crawlers must be able to fetch its noindex directive; do not block that URL in robots.txt. Direct-link availability is not access control. This instruction supersedes the earlier draft-label preservation requirement for this scope.

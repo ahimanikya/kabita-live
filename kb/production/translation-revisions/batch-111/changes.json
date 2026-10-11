@@ -1,0 +1,865 @@
+[
+  {
+    "poem_id": 340,
+    "target": "hi",
+    "reading_evidence": "Read all eight verse blocks (54 lines), black-circle separator and three contact/address lines, each full target: shrimp enclosure replacing a wood by timid river; bena mound/banyan/village goddess, clods of belief and stone deification, strongman bowed/five gates; justice/feasts/horse dance/cattle/washer ghat/boats/nets, wind-flute and linked hearts; river as shy village girl flowering/dressing/singing/calling sea; mother-bird banyan, earthen altar turning stone and goddess losing splendour; religious bustle and hypocrisy-herons, pleasure-seekers rasa play and nets-as-wings; Barunabanta/city beasts/fire; axe of time erasing tree/calls/paradise. River feminine personification checked across whole Hindi.",
+    "reason": "Carry the vulnerable/timid river without the dismissive cowardly colouring of darpok; preserve feminine village-girl personification.",
+    "open_questions": [
+      "Prior batch107: Barunabanta allusion remains unexpanded; Gobari Pat and bena mound retained without supplying geography or botany.",
+      "Baimaṇa remains provisionally wandering/bawra mind; chandua net remains canopy-net reading. Dharma-baka hypocrisy metaphor retained without assigning a religious group; five gates not doctrinally explained."
+    ],
+    "finding_dispositions": {
+      "prior_flags": "No earlier flags; complete current source and target examined. Prior source uncertainties retained outside poem."
+    },
+    "tradeoff": "Preserve imagery, argument, repetitions and complete raw contributor tails. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "6f968d5a313af0871c887cfe958556b99a9a2491b2773b07074d82dbb1d9ca48",
+    "before_sha256": "2e084e703967fff9ce53e258803c874501d02f4b33d568f18ee0f3af8776cb97",
+    "after_sha256": "668a3675481051309cf512c36489ab49e431355e6d4bc803ca5566ce8b34d62a",
+    "prior_uncertainties": [
+      {
+        "note": "Eight blocks retained, including source contact/address and symbols. Gobari Pat, bena mound and Barunabanta retained; Barunabanta allusion remains unexpanded. Baimaṇa interpreted wandering/bawra mind provisionally; chandua net read canopy net. Dharma-baka hypocrisy metaphor retained without assigning a religious group.",
+        "record": "kb/production/translations/batch-107/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "जिस उजड़े स्वर्ग की वे बात करते हैं, उसका छायाचित्र",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "गोबरी पाट के दक्षिणी कोने में",
+          "जो झींगे का घेरा दिखता है,",
+          "बहुत पहले वहाँ था",
+          "डरपोक नदी की रखवाली करता वन।",
+          "उसके पार बेना घास का टीला,",
+          "टीले पर बरगद,",
+          "पेड़ के नीचे ग्रामदेवी।"
+        ],
+        [
+          "जाने किसने वहाँ बनाया",
+          "मिट्टी का विशाल वेदीस्थल!",
+          "रखा ढेला-ढेला विश्वास,",
+          "पत्थर को देवी बनाया,",
+          "बाहुबली का सिर झुकाया,",
+          "हवा में बाँध बाँधकर गाया-नाचा,",
+          "पाँच द्वार बंद किए।"
+        ],
+        [
+          "यहीं न्याय-फ़ैसले,",
+          "भोज-भात-मौज,",
+          "नाच, तमाशा, घोड़ा-नाच,",
+          "गायों के झुंड, धोबीघाट,",
+          "नावें, डोंगियाँ, चँदोवे-से जाल,",
+          "शाम-सवेरे,",
+          "हँसी-हताशा के चेहरे,",
+          "सच-झूठ का धुँधला चित्रण।",
+          "हवा की बाँसुरी के स्वर से",
+          "बच्चे बावरे मन का जीवन सुनते।",
+          "कलकल में हृदय खुलता,",
+          "यहीं मन से मन की गाँठ पड़ती।"
+        ],
+        [
+          "गाँव की लड़की जैसी",
+          "नदी सब सुनती,",
+          "चाँदनी रात में बौराती,",
+          "नया वस्त्र पहनती,",
+          "लाज से मरी जाती,",
+          "गीले होंठों से गीत गाती,",
+          "समुद्र को बुलाती।"
+        ],
+        [
+          "माँ चिड़िया की तरह",
+          "बरगद और पंख फैलाता।",
+          "समय पकता,",
+          "मिट्टी की वेदी पत्थर होती,",
+          "ग्रामदेवी श्रीहीन।"
+        ],
+        [
+          "जब से कोलाहल बढ़ा—",
+          "चहल-पहल, मठ, मंदिर, धूनीघर,",
+          "भजन, कीर्तन, प्रवचन—",
+          "बाँध के नीचे धर्म-बगुलों ने बसेरे बनाए।"
+        ],
+        [
+          "नदी को लेकर",
+          "भोगियों ने रासक्रीड़ा रची।",
+          "जालों को पंख बनाकर",
+          "नावें उड़ गईं।",
+          "बारुणावंत—वन की छाती में",
+          "आग जलाकर देह सेंकते",
+          "शहरी जानवर।"
+        ],
+        [
+          "समय की कुल्हाड़ी के वार से",
+          "कहाँ खो गया बरगद,",
+          "कलरव और पुकारें?",
+          "स्वर्ग नष्ट हो गया,",
+          "धीरे-धीरे।",
+          "⚫",
+          "मार्फ़त -•✓ कवि कैलाश राय,",
+          "आनिलांचल, मारुति नगर,",
+          "पुरी - 2।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "जिस उजड़े स्वर्ग की वे बात करते हैं, उसका छायाचित्र",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "गोबरी पाट के दक्षिणी कोने में",
+          "जो झींगे का घेरा दिखता है,",
+          "बहुत पहले वहाँ था",
+          "सहमी नदी की रखवाली करता वन।",
+          "उसके पार बेना घास का टीला,",
+          "टीले पर बरगद,",
+          "पेड़ के नीचे ग्रामदेवी।"
+        ],
+        [
+          "जाने किसने वहाँ बनाया",
+          "मिट्टी का विशाल वेदीस्थल!",
+          "रखा ढेला-ढेला विश्वास,",
+          "पत्थर को देवी बनाया,",
+          "बाहुबली का सिर झुकाया,",
+          "हवा में बाँध बाँधकर गाया-नाचा,",
+          "पाँच द्वार बंद किए।"
+        ],
+        [
+          "यहीं न्याय-फ़ैसले,",
+          "भोज-भात-मौज,",
+          "नाच, तमाशा, घोड़ा-नाच,",
+          "गायों के झुंड, धोबीघाट,",
+          "नावें, डोंगियाँ, चँदोवे-से जाल,",
+          "शाम-सवेरे,",
+          "हँसी-हताशा के चेहरे,",
+          "सच-झूठ का धुँधला चित्रण।",
+          "हवा की बाँसुरी के स्वर से",
+          "बच्चे बावरे मन का जीवन सुनते।",
+          "कलकल में हृदय खुलता,",
+          "यहीं मन से मन की गाँठ पड़ती।"
+        ],
+        [
+          "गाँव की लड़की जैसी",
+          "नदी सब सुनती,",
+          "चाँदनी रात में बौराती,",
+          "नया वस्त्र पहनती,",
+          "लाज से मरी जाती,",
+          "गीले होंठों से गीत गाती,",
+          "समुद्र को बुलाती।"
+        ],
+        [
+          "माँ चिड़िया की तरह",
+          "बरगद और पंख फैलाता।",
+          "समय पकता,",
+          "मिट्टी की वेदी पत्थर होती,",
+          "ग्रामदेवी श्रीहीन।"
+        ],
+        [
+          "जब से कोलाहल बढ़ा—",
+          "चहल-पहल, मठ, मंदिर, धूनीघर,",
+          "भजन, कीर्तन, प्रवचन—",
+          "बाँध के नीचे धर्म-बगुलों ने बसेरे बनाए।"
+        ],
+        [
+          "नदी को लेकर",
+          "भोगियों ने रासक्रीड़ा रची।",
+          "जालों को पंख बनाकर",
+          "नावें उड़ गईं।",
+          "बारुणावंत—वन की छाती में",
+          "आग जलाकर देह सेंकते",
+          "शहरी जानवर।"
+        ],
+        [
+          "समय की कुल्हाड़ी के वार से",
+          "कहाँ खो गया बरगद,",
+          "कलरव और पुकारें?",
+          "स्वर्ग नष्ट हो गया,",
+          "धीरे-धीरे।",
+          "⚫",
+          "मार्फ़त -•✓ कवि कैलाश राय,",
+          "आनिलांचल, मारुति नगर,",
+          "पुरी - 2।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 341,
+    "target": "en",
+    "reading_evidence": "Read six verse stanzas (42 lines) and six-line address in source and each target: hand touch melting beloved into cloud/rain moistening mind-sky, half-dead scorched dreams leafing; dark sky/golden lightning, touch thawing chunks of tender hurt-pride ice; fate/forehead meeting; reserved posture, barred room/knock, darkness/terror/bright strip, pale face/flaring old burn, constricted throat and lips stitching sorrow with smiling seal; captive Malaya breeze spreading earth, absorbed speaker holding hand as nothing untoward, blue stars and faint delight-fire.",
+    "reason": "Restore chunks as the form of ice before melting, rather than the result or manner of melting; keep the pride/ice image.",
+    "open_questions": [
+      "Prior batch107 Baisakh heat and Malaya breeze readings remain provisional; do not choose seasonal-storm or mythological explanation without source support.",
+      "No relationship history supplied."
+    ],
+    "finding_dispositions": {
+      "prior_flags": "No earlier flags; complete current source and target examined. Prior source uncertainties retained outside poem."
+    },
+    "tradeoff": "Preserve imagery, argument, repetitions and complete raw contributor tails. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 42,
+      "before_lines": [
+        6,
+        9,
+        15,
+        19,
+        32
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "a8042b96bd59ed1c42f547a4b2350c1d031f5dcb3faba5236e67d374de640bfd",
+    "before_sha256": "9ec3cf1ba269376ae2452103d9d6ef5c34f46ef629d0cf6d68f185eef7cf4ead",
+    "after_sha256": "48ecda84af33c827604fd65283016776a0991db16cf96665e2bfcedd63c5cdaf",
+    "prior_uncertainties": [
+      {
+        "note": "Seven blocks including six-line existing source address retained. Baisakh heat and Malaya breeze rendered provisionally. Long fourth line of penultimate stanza retained; no invented relationship history.",
+        "record": "kb/production/translations/batch-107/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "English",
+      "title": "Meeting",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "How could I have known",
+          "that if I touched your hand,",
+          "you would melt and spread,",
+          "become a cloud and rain,",
+          "moistening my",
+          "dry sky of mind!"
+        ],
+        [
+          "Half-dead dreams scorched",
+          "in time's Baisakh heat were bound",
+          "to put forth leaves!"
+        ],
+        [
+          "In the dark-hued sky,",
+          "waves of golden lightning",
+          "would flash and gleam.",
+          "In the warmth of touch,",
+          "the ice of tender hurt pride",
+          "would melt in pieces!"
+        ],
+        [
+          "Or had destiny, long before,",
+          "arranged such a coincidence?",
+          "Our sudden meeting",
+          "was written on our brows."
+        ],
+        [
+          "You stood in great reserve,",
+          "in an unmoving, still posture.",
+          "As if someone knocked at the door",
+          "of a room long shut and barred,",
+          "in the pitch-black night,",
+          "in the darkness of terror, fear and despair,",
+          "as if a strip of bright light suddenly flashed,",
+          "on the faded, forlorn, pale face,",
+          "all the burning of many days",
+          "flared at once and went out.",
+          "Conflict, shame, hesitation, reserve squeezed the throat;",
+          "the lips stitched up all the grief within,",
+          "sealed with a smile."
+        ],
+        [
+          "You burst free like a captive southern breeze,",
+          "spread across the whole earth.",
+          "I was absorbed, transfixed;",
+          "very gently, with an eager, humbled heart, I stood holding your hand,",
+          "as though nothing untoward had happened",
+          "between us.",
+          "In my eyes shone",
+          "the stars' blue, blue light,",
+          "and within you,",
+          "the faint fire of delight."
+        ],
+        [
+          "K-430",
+          "Trident Galaxy",
+          "Paikarpur",
+          "Ghatikia",
+          "Bhubaneswar",
+          "PIN - 751029"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "English",
+      "title": "Meeting",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "How could I have known",
+          "that if I touched your hand,",
+          "you would melt and spread,",
+          "become a cloud and rain,",
+          "moistening my",
+          "dry sky of mind!"
+        ],
+        [
+          "Half-dead dreams scorched",
+          "in time's Baisakh heat were bound",
+          "to put forth leaves!"
+        ],
+        [
+          "In the dark-hued sky,",
+          "waves of golden lightning",
+          "would flash and gleam.",
+          "In the warmth of touch,",
+          "the icy chunks of tender hurt pride",
+          "would melt!"
+        ],
+        [
+          "Or had destiny, long before,",
+          "arranged such a coincidence?",
+          "Our sudden meeting",
+          "was written on our brows."
+        ],
+        [
+          "You stood in great reserve,",
+          "in an unmoving, still posture.",
+          "As if someone knocked at the door",
+          "of a room long shut and barred,",
+          "in the pitch-black night,",
+          "in the darkness of terror, fear and despair,",
+          "as if a strip of bright light suddenly flashed,",
+          "on the faded, forlorn, pale face,",
+          "all the burning of many days",
+          "flared at once and went out.",
+          "Conflict, shame, hesitation, reserve squeezed the throat;",
+          "the lips stitched up all the grief within,",
+          "sealed with a smile."
+        ],
+        [
+          "You burst free like a captive southern breeze,",
+          "spread across the whole earth.",
+          "I was absorbed, transfixed;",
+          "very gently, with an eager, humbled heart, I stood holding your hand,",
+          "as though nothing untoward had happened",
+          "between us.",
+          "In my eyes shone",
+          "the stars' blue, blue light,",
+          "and within you,",
+          "the faint fire of delight."
+        ],
+        [
+          "K-430",
+          "Trident Galaxy",
+          "Paikarpur",
+          "Ghatikia",
+          "Bhubaneswar",
+          "PIN - 751029"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 42,
+        "before_lines": [
+          6,
+          9,
+          15,
+          19,
+          32
+        ],
+        "inline_breaks": [],
+        "source_sha256": "a8042b96bd59ed1c42f547a4b2350c1d031f5dcb3faba5236e67d374de640bfd",
+        "stanzas_sha256": "ecb98f457f7d7a4c4ec52df50d987b66c92c46fa0d2e12d645f0d8ce0bcdb1c3"
+      }
+    }
+  },
+  {
+    "poem_id": 343,
+    "target": "hi",
+    "reading_evidence": "Read all 20 source/target lines including title repeated as opening: son preference and unwelcome daughter, childhood segregation/lifelong isolation, few higher education/posts, unequal wages/property, religious priesthood/entry exclusion, dress freedom contrast, male governance/low female representation, dependence on male decision, emphatic appeal to love sisters/daughters ending discrimination. Preserve source position even where generalized; this is literary fidelity, not verification of legal/social claims.",
+    "reason": "Use an idiomatic expression for the daughter facing displeasure, keeping the daughter as the person affected rather than abstractly receiving displeasure.",
+    "open_questions": [],
+    "finding_dispositions": {
+      "prior_flags": "No earlier flags; complete current source and target examined. Prior source uncertainties retained outside poem."
+    },
+    "tradeoff": "Preserve imagery, argument, repetitions and complete raw contributor tails. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "3e0e17fb8c8d2ca25de4014f8680d15dd541311f665cd92ce19d54080fd25b06",
+    "before_sha256": "f53f35067105827c1d1038312c6cc6e8ea4e5b50adfbf23d1657afa1e21c5c0b",
+    "after_sha256": "d3fe97452c67756a94fc0077c3075a0e538652826abb8e7a756a22049255b703",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "समानता घर से शुरू होनी चाहिए",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "समानता घर से शुरू होनी चाहिए।",
+          "जब माता-पिता बेटे की चाह रखते हैं,",
+          "जन्मी बेटी को अप्रसन्नता मिलती है।",
+          "बचपन से वह भेदभाव झेलती है,",
+          "जीवन भर अलगाव में रहती है।",
+          "बहुत कम को उच्च शिक्षा मिलती है,",
+          "इसलिए ऊँचे पदों पर कम नियुक्त होती हैं।",
+          "उसी श्रम का उसे पुरुष से कम वेतन मिलता है।",
+          "बहुत कम को पारिवारिक संपत्ति में बराबर हिस्सा मिलता है।",
+          "धर्म सबसे बुरा भेदभाव दिखाता है:",
+          "वह पुरोहित नहीं बन सकती, यहाँ तक कि",
+          "ईश्वर के घर में प्रवेश से भी वंचित है।",
+          "कितना दुखद, वह अपनी पोशाक नहीं चुन सकती,",
+          "जबकि वह पुरुष जो चाहे पहनता है!",
+          "वह पुरुष दुनिया पर राज करता है, और",
+          "स्त्री का प्रतिनिधित्व बहुत कम है",
+          "सरकारों और क़ानून बनाने वाली संस्थाओं में।",
+          "जब तक पुरुष न तय करे, उसका उत्थान नहीं हो सकता।",
+          "अपनी बहनों और बेटियों से प्रेम करो,",
+          "तब भेदभाव नहीं रहेगा।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "समानता घर से शुरू होनी चाहिए",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "समानता घर से शुरू होनी चाहिए।",
+          "जब माता-पिता बेटे की चाह रखते हैं,",
+          "जन्म लेते ही बेटी नाराज़गी झेलती है।",
+          "बचपन से वह भेदभाव झेलती है,",
+          "जीवन भर अलगाव में रहती है।",
+          "बहुत कम को उच्च शिक्षा मिलती है,",
+          "इसलिए ऊँचे पदों पर कम नियुक्त होती हैं।",
+          "उसी श्रम का उसे पुरुष से कम वेतन मिलता है।",
+          "बहुत कम को पारिवारिक संपत्ति में बराबर हिस्सा मिलता है।",
+          "धर्म सबसे बुरा भेदभाव दिखाता है:",
+          "वह पुरोहित नहीं बन सकती, यहाँ तक कि",
+          "ईश्वर के घर में प्रवेश से भी वंचित है।",
+          "कितना दुखद, वह अपनी पोशाक नहीं चुन सकती,",
+          "जबकि वह पुरुष जो चाहे पहनता है!",
+          "वह पुरुष दुनिया पर राज करता है, और",
+          "स्त्री का प्रतिनिधित्व बहुत कम है",
+          "सरकारों और क़ानून बनाने वाली संस्थाओं में।",
+          "जब तक पुरुष न तय करे, उसका उत्थान नहीं हो सकता।",
+          "अपनी बहनों और बेटियों से प्रेम करो,",
+          "तब भेदभाव नहीं रहेगा।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 344,
+    "target": "hi",
+    "reading_evidence": "Read all 35 source/target lines: Ganga murmurs and sleeping/dreaming Kashi; unnamed passion/desire/hope in fire, wind through smoking pyre, lulled souls/caress/oblivion and life/death questions; bells and hurried feet circling flames, bowed heads and silent prayer/desires; sorrowful torch hands burning dreams into cold ashes under indifferent feet; awakening city of prayer bells/conch and funeral chants, hawker/boatman bargaining, piety priced and bottled Ganga, all sound drowned by murmur. Retain simultaneous devotion, mortality and commerce.",
+    "reason": "Restore source passive caress instead of introducing an active caresser, leaving attachment open. Replace administrative sounding sending-feet-quickly with a bodily hurry image.",
+    "open_questions": [
+      "Source Caressed by the waves / Floating into oblivion has an unresolved attachment to souls or wind; preserve passive caress without claiming a definitive referent.",
+      "The source price-for-piety sequence remains deliberately fragmentary; do not invent a sale or speaker beyond the juxtaposition."
+    ],
+    "finding_dispositions": {
+      "prior_flags": "No earlier flags; complete current source and target examined. Prior source uncertainties retained outside poem."
+    },
+    "tradeoff": "Preserve imagery, argument, repetitions and complete raw contributor tails. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "source_sha256": "09e7d615d7e5914fc05bab1dd4698435a277ec6aee47befb941dc38e860d52fa",
+    "before_sha256": "87d4fa867856987f1bfb2075f538b5449d06d1f1b7d5fc38921daf8a2dce8a20",
+    "after_sha256": "1829f4aee3b06819e9320f1fd5274121b63b62c3011a761a7f9270e2b9483e51",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "काशी के लिए एक स्तुतिगीत",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "गंगा की कोमल कलकल के साथ",
+          "काशी सपने देखते सोती है।",
+          "आख़िर वे सपने क्या हैं?",
+          "अनाम आवेग, अनगिनत इच्छाएँ,",
+          "असंख्य आशाएँ, आग में जलतीं।",
+          "हवा धुआँती चिता से छनती है,",
+          "अशांत आत्माओं को सुलाती,",
+          "गंगा की लहरों से सहलाती,",
+          "विस्मृति में तैरती हुई।",
+          "यह जीवन है? यह मृत्यु है?",
+          "मंदिर की घंटियाँ बजती हैं,",
+          "अनगिनत पाँवों को जल्दी भेजतीं",
+          "घूमती लपटें देखने।",
+          "भक्ति में सिर झुकते हैं,",
+          "होंठ बुदबुदाते मौन प्रार्थनाएँ",
+          "और हृदय की उत्कट इच्छाएँ।",
+          "दुखी हाथ मशाल लेते हैं,",
+          "लाखों सपनों को आग लगाते,",
+          "अनगिनत आशाओं और इच्छाओं को,",
+          "जिन्हें उदासीन पाँव रौंदते हैं",
+          "ठंडी राख के ढेरों तले।",
+          "काशी जीवंत होती है",
+          "हज़ार मिले-जुले स्वरों से,",
+          "प्रार्थना की घंटियों और शंखों के,",
+          "श्रद्धालुओं को बुलाते हुए,",
+          "और गंभीर अंतिम-यात्रा मंत्र,",
+          "मृतकों को ले जाते",
+          "चटखती चिताओं तक।",
+          "मोलभाव करते फेरीवाले और नाविक पुकारते हैं",
+          "प्रार्थना करते भक्तों को,",
+          "जीवन भर की भक्ति का मूल्य,",
+          "गंगा का पवित्र जल",
+          "एक बोतल में बंद,",
+          "पर हज़ार मिले-जुले स्वर डूब जाते हैं",
+          "गंगा की कलकल में।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "काशी के लिए एक स्तुतिगीत",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "गंगा की कोमल कलकल के साथ",
+          "काशी सपने देखते सोती है।",
+          "आख़िर वे सपने क्या हैं?",
+          "अनाम आवेग, अनगिनत इच्छाएँ,",
+          "असंख्य आशाएँ, आग में जलतीं।",
+          "हवा धुआँती चिता से छनती है,",
+          "अशांत आत्माओं को सुलाती,",
+          "गंगा की लहरों से सहलाई हुई,",
+          "विस्मृति में तैरती हुई।",
+          "यह जीवन है? यह मृत्यु है?",
+          "मंदिर की घंटियाँ बजती हैं,",
+          "अनगिनत पाँवों को दौड़ातीं",
+          "घूमती लपटें देखने।",
+          "भक्ति में सिर झुकते हैं,",
+          "होंठ बुदबुदाते मौन प्रार्थनाएँ",
+          "और हृदय की उत्कट इच्छाएँ।",
+          "दुखी हाथ मशाल लेते हैं,",
+          "लाखों सपनों को आग लगाते,",
+          "अनगिनत आशाओं और इच्छाओं को,",
+          "जिन्हें उदासीन पाँव रौंदते हैं",
+          "ठंडी राख के ढेरों तले।",
+          "काशी जीवंत होती है",
+          "हज़ार मिले-जुले स्वरों से,",
+          "प्रार्थना की घंटियों और शंखों के,",
+          "श्रद्धालुओं को बुलाते हुए,",
+          "और गंभीर अंतिम-यात्रा मंत्र,",
+          "मृतकों को ले जाते",
+          "चटखती चिताओं तक।",
+          "मोलभाव करते फेरीवाले और नाविक पुकारते हैं",
+          "प्रार्थना करते भक्तों को,",
+          "जीवन भर की भक्ति का मूल्य,",
+          "गंगा का पवित्र जल",
+          "एक बोतल में बंद,",
+          "पर हज़ार मिले-जुले स्वर डूब जाते हैं",
+          "गंगा की कलकल में।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 345,
+    "target": "or",
+    "reading_evidence": "Read all three source/target stanzas (18/14/2 lines): speaker is vacant emptiness bounded by four and many walls, accommodating pleasant light/fragrance/togetherness/giggle echoes/groans/mourning silent yells yet full exuberance; strangers or known uninvited enter nooks, devour/strip walls layer by layer, beauty patch/feeding emptiness; walls dull bare weaker dumb devoid; scentless stink/sinister void. Preserve the odd inversions, repetitions and compressed line breaks, no invented house occupants.",
+    "reason": "Give four its explicit wall referent in natural target syntax, and restore moaning rather than generic sorrowful sound.",
+    "open_questions": [
+      "Like a patch of beauty and Feeding on emptiness have uncertain attachments in the source; preserve existing line sequence without assigning an agent.",
+      "Mourning of yells in silence and fragrance-less stink remain deliberate or source-awkward paradoxes, not silently normalized."
+    ],
+    "finding_dispositions": {
+      "prior_flags": "No earlier flags; complete current source and target examined. Prior source uncertainties retained outside poem."
+    },
+    "tradeoff": "Preserve imagery, argument, repetitions and complete raw contributor tails. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 34,
+      "before_lines": [
+        18,
+        32
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "0ff004bb632ed05b472e32c871a7205d1c3d01c883db366a2f00c1f7e84288d1",
+    "before_sha256": "4e3e339f9b4459168d8400179ddafdc1347cfbe7444587120960ad12789aa2d5",
+    "after_sha256": "9b4c48701a88257c1b90542e2bff33ea30f787557579c25922a05f2700031f10",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ନମସ୍କାର",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଏ ମୁଁ,",
+          "ଶୂନ୍ୟ ଖାଲିପଣ,",
+          "ଚାରିଟିରେ ଘେରା",
+          "ଆଉ ଆହୁରି ଅନେକ କାନ୍ଥରେ,",
+          "ଠାଇ ଦେଉଥିବା",
+          "ଆଲୋକର ସୁଖଦତାକୁ,",
+          "ସୁଗନ୍ଧକୁ,",
+          "ଆଉ",
+          "ଏକ ଅନୁଭବକୁ",
+          "ଏକାଠି ରହିବାର,",
+          "ସହିତ",
+          "ଖିଲିଖିଲି ହସର ପ୍ରତିଧ୍ୱନି,",
+          "ଭିନ୍ନ ଭିନ୍ନ ସ୍ୱରରୁ,",
+          "କରୁଣ ଧ୍ୱନି,",
+          "ଆଉ ନୀରବତାରେ ଚିତ୍କାରର ଶୋକ,",
+          "ତଥାପି,",
+          "ସହିତ",
+          "ଉଛୁଳା ଉଲ୍ଲାସ।"
+        ],
+        [
+          "କିନ୍ତୁ...",
+          "ଅଜଣା ଲୋକ,",
+          "କିମ୍ବା ଜଣାଶୁଣା, ଅନିମନ୍ତ୍ରିତ,",
+          "ପଶିଆସନ୍ତି",
+          "କୋଣ ଓ ଆଢ଼ୁଆଳରୁ,",
+          "କାନ୍ଥକୁ ଗିଳି,",
+          "ଆଉ ଉଲଗ୍ନ କରି",
+          "ସେମାନଙ୍କୁ ପରସ୍ତ ପରସ୍ତ,",
+          "ସୌନ୍ଦର୍ଯ୍ୟର ଖଣ୍ଡଟିଏ ପରି,",
+          "ଶୂନ୍ୟତାକୁ ଖାଇ।",
+          "କାନ୍ଥମାନେ ଠିଆ,",
+          "ମଳିନ ଆଉ ଉଲଗ୍ନ,",
+          "ଗଢ଼ିହୋଇ ଆହୁରି ଦୁର୍ବଳ,",
+          "ମୂକ ଆଉ ରିକ୍ତ।"
+        ],
+        [
+          "ସୁଗନ୍ଧର ଅଭାବରେ ଦୁର୍ଗନ୍ଧମୟ,",
+          "ଅଶୁଭ ଶୂନ୍ୟତା ଧାରଣ କରି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "ଓଡ଼ିଆ",
+      "title": "ନମସ୍କାର",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "ଏ ମୁଁ,",
+          "ଶୂନ୍ୟ ଖାଲିପଣ,",
+          "ଚାରି କାନ୍ଥରେ ଘେରା",
+          "ଆଉ ଆହୁରି ଅନେକ କାନ୍ଥରେ,",
+          "ଠାଇ ଦେଉଥିବା",
+          "ଆଲୋକର ସୁଖଦତାକୁ,",
+          "ସୁଗନ୍ଧକୁ,",
+          "ଆଉ",
+          "ଏକ ଅନୁଭବକୁ",
+          "ଏକାଠି ରହିବାର,",
+          "ସହିତ",
+          "ଖିଲିଖିଲି ହସର ପ୍ରତିଧ୍ୱନି,",
+          "ଭିନ୍ନ ଭିନ୍ନ ସ୍ୱରରୁ,",
+          "ଗୋଙ୍ଗାଣିର ସ୍ୱର,",
+          "ଆଉ ନୀରବତାରେ ଚିତ୍କାରର ଶୋକ,",
+          "ତଥାପି,",
+          "ସହିତ",
+          "ଉଛୁଳା ଉଲ୍ଲାସ।"
+        ],
+        [
+          "କିନ୍ତୁ...",
+          "ଅଜଣା ଲୋକ,",
+          "କିମ୍ବା ଜଣାଶୁଣା, ଅନିମନ୍ତ୍ରିତ,",
+          "ପଶିଆସନ୍ତି",
+          "କୋଣ ଓ ଆଢ଼ୁଆଳରୁ,",
+          "କାନ୍ଥକୁ ଗିଳି,",
+          "ଆଉ ଉଲଗ୍ନ କରି",
+          "ସେମାନଙ୍କୁ ପରସ୍ତ ପରସ୍ତ,",
+          "ସୌନ୍ଦର୍ଯ୍ୟର ଖଣ୍ଡଟିଏ ପରି,",
+          "ଶୂନ୍ୟତାକୁ ଖାଇ।",
+          "କାନ୍ଥମାନେ ଠିଆ,",
+          "ମଳିନ ଆଉ ଉଲଗ୍ନ,",
+          "ଗଢ଼ିହୋଇ ଆହୁରି ଦୁର୍ବଳ,",
+          "ମୂକ ଆଉ ରିକ୍ତ।"
+        ],
+        [
+          "ସୁଗନ୍ଧର ଅଭାବରେ ଦୁର୍ଗନ୍ଧମୟ,",
+          "ଅଶୁଭ ଶୂନ୍ୟତା ଧାରଣ କରି।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 34,
+        "before_lines": [
+          18,
+          32
+        ],
+        "inline_breaks": [],
+        "source_sha256": "0ff004bb632ed05b472e32c871a7205d1c3d01c883db366a2f00c1f7e84288d1",
+        "stanzas_sha256": "2b8c5af4bdd6b82d649531eb403415f395f7127bf1faa435be2ed515135826a8"
+      }
+    }
+  },
+  {
+    "poem_id": 345,
+    "target": "hi",
+    "reading_evidence": "Read all three source/target stanzas (18/14/2 lines): speaker is vacant emptiness bounded by four and many walls, accommodating pleasant light/fragrance/togetherness/giggle echoes/groans/mourning silent yells yet full exuberance; strangers or known uninvited enter nooks, devour/strip walls layer by layer, beauty patch/feeding emptiness; walls dull bare weaker dumb devoid; scentless stink/sinister void. Preserve the odd inversions, repetitions and compressed line breaks, no invented house occupants.",
+    "reason": "Attach four to walls without losing the source expansion from four to many; retain spare fragmented voice.",
+    "open_questions": [
+      "Like a patch of beauty and Feeding on emptiness have uncertain attachments in the source; preserve existing line sequence without assigning an agent.",
+      "Mourning of yells in silence and fragrance-less stink remain deliberate or source-awkward paradoxes, not silently normalized."
+    ],
+    "finding_dispositions": {
+      "prior_flags": "No earlier flags; complete current source and target examined. Prior source uncertainties retained outside poem."
+    },
+    "tradeoff": "Preserve imagery, argument, repetitions and complete raw contributor tails. Same-assistant self-review only; independent review pending.",
+    "full_source_target_read": true,
+    "reader_layout": {
+      "verse_line_count": 34,
+      "before_lines": [
+        18,
+        32
+      ],
+      "inline_breaks": []
+    },
+    "source_sha256": "0ff004bb632ed05b472e32c871a7205d1c3d01c883db366a2f00c1f7e84288d1",
+    "before_sha256": "850084edb8d28bf744c02d03e1416cfb3453a11a552c2ebd0bb0b0168b8d2d48",
+    "after_sha256": "ba2469c5aeecae986728de7ce289e67b7e717055b0f1198c72538ca23ecc6c90",
+    "prior_uncertainties": [],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "नमस्कार",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "यह मैं हूँ,",
+          "सूना ख़ालीपन,",
+          "चार से घिरा",
+          "और अनेक दीवारों से,",
+          "जगह देता हुआ",
+          "प्रकाश की सुखदता को,",
+          "सुगंध को,",
+          "और",
+          "एक अनुभूति को",
+          "साथ होने की,",
+          "साथ",
+          "खिलखिलाहट की प्रतिध्वनियों के,",
+          "अलग-अलग आवाज़ों से,",
+          "कराहों के स्वर,",
+          "और मौन में चीखों का शोक,",
+          "फिर भी,",
+          "साथ",
+          "लबालब उमंग के।"
+        ],
+        [
+          "लेकिन...",
+          "अजनबी,",
+          "या शायद परिचित, बिन बुलाए,",
+          "घुस आते हैं",
+          "कोनों और नुक्कड़ों से,",
+          "दीवारें निगलते,",
+          "और निर्वस्त्र करते",
+          "उन्हें परत-दर-परत,",
+          "सुंदरता के एक टुकड़े की तरह,",
+          "ख़ालीपन को खाते।",
+          "दीवारें खड़ी हैं,",
+          "मंद और नंगी,",
+          "बनती जातीं और कमज़ोर,",
+          "गूँगी और रिक्त।"
+        ],
+        [
+          "सुगंध के अभाव से सड़ाँध मारतीं,",
+          "एक अशुभ शून्यता धारण करतीं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "नमस्कार",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "यह मैं हूँ,",
+          "सूना ख़ालीपन,",
+          "चार दीवारों से घिरा",
+          "और भी अनेक दीवारों से,",
+          "जगह देता हुआ",
+          "प्रकाश की सुखदता को,",
+          "सुगंध को,",
+          "और",
+          "एक अनुभूति को",
+          "साथ होने की,",
+          "साथ",
+          "खिलखिलाहट की प्रतिध्वनियों के,",
+          "अलग-अलग आवाज़ों से,",
+          "कराहों के स्वर,",
+          "और मौन में चीखों का शोक,",
+          "फिर भी,",
+          "साथ",
+          "लबालब उमंग के।"
+        ],
+        [
+          "लेकिन...",
+          "अजनबी,",
+          "या शायद परिचित, बिन बुलाए,",
+          "घुस आते हैं",
+          "कोनों और नुक्कड़ों से,",
+          "दीवारें निगलते,",
+          "और निर्वस्त्र करते",
+          "उन्हें परत-दर-परत,",
+          "सुंदरता के एक टुकड़े की तरह,",
+          "ख़ालीपन को खाते।",
+          "दीवारें खड़ी हैं,",
+          "मंद और नंगी,",
+          "बनती जातीं और कमज़ोर,",
+          "गूँगी और रिक्त।"
+        ],
+        [
+          "सुगंध के अभाव से सड़ाँध मारतीं,",
+          "एक अशुभ शून्यता धारण करतीं।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft",
+      "reader_layout": {
+        "verse_line_count": 34,
+        "before_lines": [
+          18,
+          32
+        ],
+        "inline_breaks": [],
+        "source_sha256": "0ff004bb632ed05b472e32c871a7205d1c3d01c883db366a2f00c1f7e84288d1",
+        "stanzas_sha256": "2ac87e895a76de4603cb16cad68fdbfffbfddc2ebf1e6b59602d5d37357e9958"
+      }
+    }
+  }
+]

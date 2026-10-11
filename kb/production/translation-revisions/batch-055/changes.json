@@ -1,0 +1,239 @@
+[
+  {
+    "poem_id": 576,
+    "target": "hi",
+    "reading_evidence": "Full reading of all 576 source/target stanzas: explicit refusal of salvation, prince/phoenix/own ashes, moth circling lamp, correlated living/vanishing and lamp burning/dying, endless cycle until shared doomsday, three comes/two goes and final circling image. No added doctrinal explanation.",
+    "reason": "Clarify that living/vanishing follows the lamp’s burning/extinction; the former jaise construction primarily sounds like a comparison rather than the ongoing relation expressed by as.",
+    "open_questions": [],
+    "finding_dispositions": {},
+    "tradeoff": "Preserve source imagery, stanza boundaries, repeated wording and credits.",
+    "full_source_target_read": true,
+    "source_sha256": "e8d606dfd4c5ba4069a6e4ad0c963dd6f223f781843423e67f8520a4fa3b4aa0",
+    "before_sha256": "8d6235aaf163d770ae8a2be07707dffc6dd2ed5184ef5add71dc5355ec3d1a7a",
+    "after_sha256": "82f2a683cc1949afb20bd66bcf4debab6100e480204722965e6038358fc1d35b",
+    "prior_uncertainties": [],
+    "status": "revised",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "मोक्ष",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मोक्ष!",
+          "कौन चाहता है इसे?"
+        ],
+        [
+          "मैं?",
+          "निश्चय ही नहीं।"
+        ],
+        [
+          "मुझे राजकुमार की तरह जीने दो",
+          "और फ़ीनिक्स की तरह मरने दो",
+          "फिर जीवन में लौटने के लिए",
+          "अपनी ही राख से।"
+        ],
+        [
+          "और दीपक के चारों ओर घूमने दो",
+          "पतंगे की तरह,"
+        ],
+        [
+          "और जीने या मिट जाने दो",
+          "जैसे दीपक जले या बुझे"
+        ],
+        [
+          "एक कभी न समाप्त होने वाले चक्र में",
+          "जब तक पतंगा और दीपक",
+          "एक साथ न मर जाएँ",
+          "प्रलय के दिन।"
+        ],
+        [
+          "तब तक",
+          "मुझे आने दो, जाने दो, आने दो",
+          "और जाने दो, आने दो"
+        ],
+        [
+          "दीपक के चारों ओर घूमते पतंगे की तरह।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "मोक्ष",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "मोक्ष!",
+          "कौन चाहता है इसे?"
+        ],
+        [
+          "मैं?",
+          "निश्चय ही नहीं।"
+        ],
+        [
+          "मुझे राजकुमार की तरह जीने दो",
+          "और फ़ीनिक्स की तरह मरने दो",
+          "फिर जीवन में लौटने के लिए",
+          "अपनी ही राख से।"
+        ],
+        [
+          "और दीपक के चारों ओर घूमने दो",
+          "पतंगे की तरह,"
+        ],
+        [
+          "और जीने या मिट जाने दो",
+          "दीपक के जलने या बुझने के साथ"
+        ],
+        [
+          "एक कभी न समाप्त होने वाले चक्र में",
+          "जब तक पतंगा और दीपक",
+          "एक साथ न मर जाएँ",
+          "प्रलय के दिन।"
+        ],
+        [
+          "तब तक",
+          "मुझे आने दो, जाने दो, आने दो",
+          "और जाने दो, आने दो"
+        ],
+        [
+          "दीपक के चारों ओर घूमते पतंगे की तरह।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  },
+  {
+    "poem_id": 585,
+    "target": "hi",
+    "reading_evidence": "Full reading of all eight 585 source/target stanzas: silence/loss, cheers/closeness, pieces-of-you poems and muted memories, voice as calm drowning in quiet/psalms, limited request to stay as male listener, abrupt radio turn, duplicated opening radio line, grieving child, gold medalist and protest against injustice. Source continuity and male listener versus unspecified speaker distinguished.",
+    "reason": "Use natural agreement for the abstract ullas and remove unsupported feminine speaker marking in two places using ordinary gender-neutral Hindi constructions. The explicitly male listener stays male.",
+    "open_questions": [
+      "Prior possible joined-piece/source contamination hold remains: all radio stanzas and duplicated line belong to the current recorded source, which must not be split or reattributed without editorial reconciliation. Local prior check found no separate matching radio poem."
+    ],
+    "finding_dispositions": {},
+    "tradeoff": "The request uses a natural past perfect formulation rather than the former progressive; neither construction identifies the speaker’s gender. This resolves draft gender imposition, not the source-continuity question.",
+    "full_source_target_read": true,
+    "source_sha256": "5566cdeac0f68efb023d1587492072428a359f9f4f1d0ed392c763437ddfe553",
+    "before_sha256": "d1e7aca392ca3d55505c5098d8ce32d20354fc87424c4c9033631f9216692127",
+    "after_sha256": "a0220cec1f5e75cf3629c42674fa8e193198074822295ed0dcbc1a645460094e",
+    "prior_uncertainties": [
+      {
+        "note": "Abrupt shift after five stanzas to three radio stanzas retained in full; repeated first radio line retained. Needs explicit editorial reconciliation of possible joined pieces, not silently split. Hindi feminine speaker provisional; original explicitly male listener retained.",
+        "record": "kb/production/translations/batch-054/review.json"
+      },
+      {
+        "note": "Local poem-585.html confirms entire combined text under this title and author. Search of local poem records finds no separate matching radio text. Preserved without inferred split or new authorship.",
+        "record": "kb/production/translations/batch-054/review.json"
+      }
+    ],
+    "status": "revised_with_holds",
+    "changed": true,
+    "mode": "Poetic Natural",
+    "independent_review": false,
+    "before": {
+      "label": "हिन्दी",
+      "title": "तुम्हारी अनुगूँजें?",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "यह चुप्पी मुझे बहुत तोड़ रही है।",
+          "कैसे भूलूँ उसे",
+          "जो मेरे जीवन, मेरी कहानी और न जाने कितनी बातों का हिस्सा था?"
+        ],
+        [
+          "वे उल्लास और वह निकटता",
+          "मुझे उनकी कमी खलती है...",
+          "क्या तुम्हें मेरी बातें याद नहीं आतीं?"
+        ],
+        [
+          "तुम्हारे टुकड़ों से जो कविताएँ लिखीं",
+          "क्या वे अब भी तुम्हारे दिल में गूँजती हैं",
+          "या हर याद को भी तुमने मौन कर दिया है?"
+        ],
+        [
+          "तुमने कभी कहा था कि मेरा स्वर तुम्हारा सुकून है",
+          "अब वह तुम्हारी चुप्पी में डूबता है",
+          "जबकि मैं हर स्तुतिगीत में तुम्हारी परछाईं खोजती हूँ।"
+        ],
+        [
+          "मैं सदा के साथ की माँग नहीं कर रही थी...",
+          "बस यह कि तुम थोड़ा और ठहरो",
+          "उस आदमी की तरह जो कभी सुनता था।"
+        ],
+        [
+          "अगर रेडियो बोल सकता",
+          "अगर रेडियो बोल सकता;",
+          "तो वह बच्चे की तरह रोता",
+          "किसी के शोक में।"
+        ],
+        [
+          "अगर रेडियो बोल सकता;",
+          "तो वह जयकार के साथ उछल पड़ता",
+          "उस स्वर्ण पदक विजेता के लिए।"
+        ],
+        [
+          "अगर रेडियो बोल सकता;",
+          "तो वह अपना स्वर उठाता",
+          "हर अन्याय के विरुद्ध।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    },
+    "after": {
+      "label": "हिन्दी",
+      "title": "तुम्हारी अनुगूँजें?",
+      "kind": "Translation",
+      "stanzas": [
+        [
+          "यह चुप्पी मुझे बहुत तोड़ रही है।",
+          "कैसे भूलूँ उसे",
+          "जो मेरे जीवन, मेरी कहानी और न जाने कितनी बातों का हिस्सा था?"
+        ],
+        [
+          "वह उल्लास और वह निकटता",
+          "मुझे उनकी कमी खलती है...",
+          "क्या तुम्हें मेरी बातें याद नहीं आतीं?"
+        ],
+        [
+          "तुम्हारे टुकड़ों से जो कविताएँ लिखीं",
+          "क्या वे अब भी तुम्हारे दिल में गूँजती हैं",
+          "या हर याद को भी तुमने मौन कर दिया है?"
+        ],
+        [
+          "तुमने कभी कहा था कि मेरा स्वर तुम्हारा सुकून है",
+          "अब वह तुम्हारी चुप्पी में डूबता है",
+          "जबकि मैं हर स्तुतिगीत में तुम्हारी परछाईं की तलाश में हूँ।"
+        ],
+        [
+          "मैंने सदा का साथ नहीं माँगा था...",
+          "बस यह कि तुम थोड़ा और ठहरो",
+          "उस आदमी की तरह जो कभी सुनता था।"
+        ],
+        [
+          "अगर रेडियो बोल सकता",
+          "अगर रेडियो बोल सकता;",
+          "तो वह बच्चे की तरह रोता",
+          "किसी के शोक में।"
+        ],
+        [
+          "अगर रेडियो बोल सकता;",
+          "तो वह जयकार के साथ उछल पड़ता",
+          "उस स्वर्ण पदक विजेता के लिए।"
+        ],
+        [
+          "अगर रेडियो बोल सकता;",
+          "तो वह अपना स्वर उठाता",
+          "हर अन्याय के विरुद्ध।"
+        ]
+      ],
+      "credit": "AI-assisted translation.",
+      "status": "draft"
+    }
+  }
+]

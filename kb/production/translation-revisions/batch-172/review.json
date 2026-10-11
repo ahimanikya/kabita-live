@@ -1,0 +1,268 @@
+{
+  "recorded_at": "2026-10-06T07:20:20.213688+00:00",
+  "poem_ids": [
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "variants_read": 10,
+  "variants_changed": 6,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 28,
+      "target": "hi",
+      "reading_evidence": "Read full25-line Odia source and both current Hindi/English targets: repeated who calls you unlettered, language beyond sentence/grammar and mysterious gaze; fear of unseen eye-darkness reading life sorrows/joys/loss/gain, polished moments put to sleep behind cover, invisible hands and reassuring touch during harsh summer; restless time unable to wait, doubting sensitivity and mocking through argument; repeated fear then faint heartbeat in endless feeling, yours or mine question. Checked intimate tu then tama address variation, personification/reading paradox, summer locative and unresolved heartbeat identity.",
+      "open_questions": [
+        "Unstated recipient of enveloping touch and relative-clause attachment to eye-darkness/gaze remain implicit; do not invent a new person. Stimit eyes may be subdued/dim/still; current readings provisional. Source feminine nirakshara maintained in Hindi title; English unlettered need not add gender."
+      ],
+      "reason": "Retain after complete reading: eye-language paradox, emotional uncertainty and final heartbeat question remain; summer is correctly locative. Implicit touch recipient and subdued-eye nuance remain queries.",
+      "tradeoff": "Preserve source voice, images, credits and raw contributor tails; all drafts, same-assistant self-review only and independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "fd31483cda46af38faadd96a40b1867b298928b0c2196501285b618a3879303a",
+      "before_sha256": "2d18401094e7a809c627ba8e0c4a6c5c7edbb92b6737b90d7222ab1979dd9b03",
+      "after_sha256": "2d18401094e7a809c627ba8e0c4a6c5c7edbb92b6737b90d7222ab1979dd9b03",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 28,
+      "target": "en",
+      "reading_evidence": "Read full25-line Odia source and both current Hindi/English targets: repeated who calls you unlettered, language beyond sentence/grammar and mysterious gaze; fear of unseen eye-darkness reading life sorrows/joys/loss/gain, polished moments put to sleep behind cover, invisible hands and reassuring touch during harsh summer; restless time unable to wait, doubting sensitivity and mocking through argument; repeated fear then faint heartbeat in endless feeling, yours or mine question. Checked intimate tu then tama address variation, personification/reading paradox, summer locative and unresolved heartbeat identity.",
+      "open_questions": [
+        "Unstated recipient of enveloping touch and relative-clause attachment to eye-darkness/gaze remain implicit; do not invent a new person. Stimit eyes may be subdued/dim/still; current readings provisional. Source feminine nirakshara maintained in Hindi title; English unlettered need not add gender."
+      ],
+      "reason": "Restore summer as the setting for reassuring touch rather than the object being wrapped.",
+      "tradeoff": "Embrace carries enveloping touch without supplying an unstated recipient; summer is locative as in source -re. Two lines redistributed,25-line mapping checked; no claim that the heat itself is being comforted.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 25,
+        "before_lines": [],
+        "inline_breaks": []
+      },
+      "source_sha256": "fd31483cda46af38faadd96a40b1867b298928b0c2196501285b618a3879303a",
+      "before_sha256": "c93a77725f2b555f108ed70a58d824ca1c7d1f42c0b0c6c32accdfd91f5e6642",
+      "after_sha256": "b1d0b601c100a1bc4a04571a0a41fdccd68063b47de57ec5b6f9b94deaaf464a",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 29,
+      "target": "hi",
+      "reading_evidence": "Read all five full source/target stanzas and preserved separator/address: water-rich fertile land exchanged for industrialisation/displacement, city outcry and three named people's lost sleep/village-mountain darkness; tears/blood worth and changed colour; deserted sky/sun news/gamucha cave/sweat-soaked industrialist assurances and grief cry; hunger-grey song/unseasonal lightning/fire oath, named people fall before time while seasons tire waiting compensation; land-affection/cultivation lost, lifetime whirlpool floundering like person in swift current clutching straw. Checked economic and political force without identifying an unstated party, fertile versus fruit-only land, premature fall, compensation delay and exact contributor tail.",
+      "open_questions": [
+        "Prior Kaenru transliteration, gamucha cave image and blood-colour political metaphor remain provisional; no party or caste assigned to names. Timing/subject in staring-sky/assurances stanza stays elliptical; no new witness invented."
+      ],
+      "reason": "Use fertile for suphala and untimely for akalare, avoiding an unintended famine noun.",
+      "tradeoff": "Upajau does not narrow the farmland to fruit; asamay carries premature collapse while hunger remains in surrounding lines. Names, raw address and all verse/tail boundaries unchanged.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "b5c971ff354f1c0de649fbf7d99a5247eb9de97ab87ced8681898f5661566b8e",
+      "before_sha256": "0b4aa928af5a4828bccec37ac6efbe7aa0c85b5a1a49aad69efc7d8b57e16ebf",
+      "after_sha256": "5bc8d4703bf75682bd700cb69fbc710b14c78431162f84ff6c3ecedbd069f9d9",
+      "prior_uncertainties": [
+        {
+          "note": "Names and existing address retained. Gamucha cave image retained literally; blood colour political metaphor not expanded. Kaenru transliteration provisional.",
+          "record": "kb/production/translations/batch-168/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 29,
+      "target": "en",
+      "reading_evidence": "Read all five full source/target stanzas and preserved separator/address: water-rich fertile land exchanged for industrialisation/displacement, city outcry and three named people's lost sleep/village-mountain darkness; tears/blood worth and changed colour; deserted sky/sun news/gamucha cave/sweat-soaked industrialist assurances and grief cry; hunger-grey song/unseasonal lightning/fire oath, named people fall before time while seasons tire waiting compensation; land-affection/cultivation lost, lifetime whirlpool floundering like person in swift current clutching straw. Checked economic and political force without identifying an unstated party, fertile versus fruit-only land, premature fall, compensation delay and exact contributor tail.",
+      "open_questions": [
+        "Prior Kaenru transliteration, gamucha cave image and blood-colour political metaphor remain provisional; no party or caste assigned to names. Timing/subject in staring-sky/assurances stanza stays elliptical; no new witness invented."
+      ],
+      "reason": "Restore fertile land and idiomatic premature collapse/floundering.",
+      "tradeoff": "Well-watered does not specify irrigation; fertile keeps suphala's productive land. Before their time preserves death implication without asserting a new cause; flounders sustains the whirlpool/current image naturally. Raw address unchanged.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "b5c971ff354f1c0de649fbf7d99a5247eb9de97ab87ced8681898f5661566b8e",
+      "before_sha256": "5f2955a044fc632686b7194cefa732133524c7068361f09a227aacb3d1100dfc",
+      "after_sha256": "984cc89dc426fd1a1af01c36c7b425debccd9192359a87542154749f260811bd",
+      "prior_uncertainties": [
+        {
+          "note": "Names and existing address retained. Gamucha cave image retained literally; blood colour political metaphor not expanded. Kaenru transliteration provisional.",
+          "record": "kb/production/translations/batch-168/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 30,
+      "target": "hi",
+      "reading_evidence": "Read all six full source/target blocks: endurance silences tiger and petrifies thunderbolt; wild dusk/forest mist becomes noon and breast-overflowing grief cloud clusters; rejecting fire/smoke/sobs as keepsakes, knowing afternoon shadows leave, tears now smiling/patting back; love enables endurance of human/inhuman, love/lovelessness still more; lifelong watered sapling, fruit arrives but speaker cannot climb, garden seen by passers-by addressed honourably, not a small thing; repeated because-love learns laughter/life. Checked long lines, comparisons, lack of self-pity, horticultural reward shared without adding charitable sermon.",
+      "open_questions": [
+        "Preserve missing author metadata hold, Hindi masculine speaker provisional, mananiya addressee identity unspecified. Untamed dusk and human/inhuman may be figurative; no named person or monster invented."
+      ],
+      "reason": "Retain after full reading: endurance/repetition/comparisons and garden seen by passers-by remain clear; source/identity questions retained.",
+      "tradeoff": "Preserve source voice, images, credits and raw contributor tails; all drafts, same-assistant self-review only and independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "d7c1ad368a2b38c3aac0aad6f8c12bb3c75532b1af58a8f84250342642b88764",
+      "before_sha256": "1cbf2a7c9047a85143c4eb49b31d186d3e49570bc7bcae4c59f76bfa88055f42",
+      "after_sha256": "1cbf2a7c9047a85143c4eb49b31d186d3e49570bc7bcae4c59f76bfa88055f42",
+      "prior_uncertainties": [
+        {
+          "note": "Missing author metadata remains unresolved and unchanged; full poem present. Long lines retained. Hindi masculine narrator provisional; honorific mananiya not assigned identity.",
+          "record": "kb/production/translations/batch-168/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 30,
+      "target": "en",
+      "reading_evidence": "Read all six full source/target blocks: endurance silences tiger and petrifies thunderbolt; wild dusk/forest mist becomes noon and breast-overflowing grief cloud clusters; rejecting fire/smoke/sobs as keepsakes, knowing afternoon shadows leave, tears now smiling/patting back; love enables endurance of human/inhuman, love/lovelessness still more; lifelong watered sapling, fruit arrives but speaker cannot climb, garden seen by passers-by addressed honourably, not a small thing; repeated because-love learns laughter/life. Checked long lines, comparisons, lack of self-pity, horticultural reward shared without adding charitable sermon.",
+      "open_questions": [
+        "Preserve missing author metadata hold, Hindi masculine speaker provisional, mananiya addressee identity unspecified. Untamed dusk and human/inhuman may be figurative; no named person or monster invented."
+      ],
+      "reason": "Repair the dangling sapling/roots construction and smooth the love/lovelessness comparison.",
+      "tradeoff": "Endure governs human/inhuman and love/lovelessness; even more still compares lovelessness with love. Source explicitly pours water at roots; relative construction restores that relation. Actual25-line target map, no contributor tail.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 25,
+        "before_lines": [
+          3,
+          6,
+          11,
+          15,
+          22
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "d7c1ad368a2b38c3aac0aad6f8c12bb3c75532b1af58a8f84250342642b88764",
+      "before_sha256": "7129d70cc5c1aa785ef98122f4b842cdc14a15d7209ce8e8c40520b4d099d573",
+      "after_sha256": "412b6844920a250b30d682554658058e9c47f9eb807fcdd9232db29966b0a739",
+      "prior_uncertainties": [
+        {
+          "note": "Missing author metadata remains unresolved and unchanged; full poem present. Long lines retained. Hindi masculine narrator provisional; honorific mananiya not assigned identity.",
+          "record": "kb/production/translations/batch-168/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 31,
+      "target": "hi",
+      "reading_evidence": "Read all54 source/current-target lines including five-line byline/address: sleepless turning versus dreams of you/who, presence/absence in breath/blood, first-person self-question and intimate second-person inner reply; pain/night waking, empty tears/roti burns/scorched hand, repeated seeking/warm breath at neck; storm disruption/fear/wish departure, lasting lamp/light/morning-star presence, trembling whispered mine, years-held beloved within; hypothetical reader calls poem pageli's, self asks love/illusion/belief. Checked person and self-address shifts, title-supported feminine self-label separately from unknown beloved gender, burn not later scar, ambiguity of real/imagined beloved, every contributor-tail line retained.",
+      "open_questions": [
+        "Prior beloved gender unspecified; Hindi masculine agreement remains provisional. Halan street transliteration unverified. Pageli is source literary self-description, not diagnosis. Source spelling nigaku and other compressed wording provisionally read in context; source unchanged."
+      ],
+      "reason": "Preserve the immediate cooking burn rather than substituting a scar or mark.",
+      "tradeoff": "Jhulas carries source chenka burn at the moment of distraction, without adding treatment or changing its severity. All54 raw lines and author/address tail retained.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "d11d8c6c2260747a87afdc19d214c006fff6791fbf332c500628f70d1dc5a5f4",
+      "before_sha256": "6b1e8b59906987d5a9594a1b102c6c56c1e558741ec56f1e12b509d584afc91e",
+      "after_sha256": "826b8dc3d97f7f51036e92d4bd13e2b1aa2ad071bdaa256b1262475deb57072d",
+      "prior_uncertainties": [
+        {
+          "note": "All54 lines including existing address retained. Source self-address and first-person shifts preserved; pageli rendered literary madwoman not diagnosis. Beloved gender unspecified in English, Hindi masculine provisional. Halan transliteration not independently verified.",
+          "record": "kb/production/translations/batch-168/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 31,
+      "target": "en",
+      "reading_evidence": "Read all54 source/current-target lines including five-line byline/address: sleepless turning versus dreams of you/who, presence/absence in breath/blood, first-person self-question and intimate second-person inner reply; pain/night waking, empty tears/roti burns/scorched hand, repeated seeking/warm breath at neck; storm disruption/fear/wish departure, lasting lamp/light/morning-star presence, trembling whispered mine, years-held beloved within; hypothetical reader calls poem pageli's, self asks love/illusion/belief. Checked person and self-address shifts, title-supported feminine self-label separately from unknown beloved gender, burn not later scar, ambiguity of real/imagined beloved, every contributor-tail line retained.",
+      "open_questions": [
+        "Prior beloved gender unspecified; Hindi masculine agreement remains provisional. Halan street transliteration unverified. Pageli is source literary self-description, not diagnosis. Source spelling nigaku and other compressed wording provisionally read in context; source unchanged."
+      ],
+      "reason": "Use natural gender-neutral personal reference for the repeatedly unnamed beloved, preserving uncertainty about reality and identity.",
+      "tradeoff": "Singular they follows source someone and avoids impersonal its without choosing male/female or claiming physical presence. Deliberate repetition and I/you shifts retained; no global substitutions.54 lines and tail unchanged.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "d11d8c6c2260747a87afdc19d214c006fff6791fbf332c500628f70d1dc5a5f4",
+      "before_sha256": "f3a12688efe24944aca6aef9dd3f06724ed9c71371d4c9feae6298a77df45d00",
+      "after_sha256": "dba1ab82fbdf78c717717d5b737236a201ed93558908e36b14b8ce26b54f0271",
+      "prior_uncertainties": [
+        {
+          "note": "All54 lines including existing address retained. Source self-address and first-person shifts preserved; pageli rendered literary madwoman not diagnosis. Beloved gender unspecified in English, Hindi masculine provisional. Halan transliteration not independently verified.",
+          "record": "kb/production/translations/batch-168/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 32,
+      "target": "hi",
+      "reading_evidence": "Read all source/target verse blocks plus separator/address: repeated wait/not-now, merely cast out/scorned, allow more shame, bodily breaking/bony back against rough stone and sweat harvest seized; soul crying/mother-wife-daughter on street/only house burned; repeated stillness/not-now; descendants who revolt only at very end when all is over. Checked accumulating ironic postponement rather than sincere patience advice, repeated only/not now, domestic burning and dispossession, satirical final timing and exact contributor tail.",
+      "open_questions": [
+        "Rugudi stone texture may mean rough/gravelly stone; current rough/jagged rendering provisional rather than claiming a precise geological material. No external event or community identity inferred from satire."
+      ],
+      "reason": "Retain after full reading: satirical repeated delay, escalating harms and final too-late revolt stay forceful, not softened into advice; raw tail preserved.",
+      "tradeoff": "Preserve source voice, images, credits and raw contributor tails; all drafts, same-assistant self-review only and independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "30e6f1ab17f80a006fedc7e3d3ab277d7346cf6c8731e407e58bc0d9119b34f0",
+      "before_sha256": "ec9a08318a0a1b3c99c965bde050b3f0d3f0b6b23ccbeb95516d8464f3a5395b",
+      "after_sha256": "ec9a08318a0a1b3c99c965bde050b3f0d3f0b6b23ccbeb95516d8464f3a5395b",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 32,
+      "target": "en",
+      "reading_evidence": "Read all source/target verse blocks plus separator/address: repeated wait/not-now, merely cast out/scorned, allow more shame, bodily breaking/bony back against rough stone and sweat harvest seized; soul crying/mother-wife-daughter on street/only house burned; repeated stillness/not-now; descendants who revolt only at very end when all is over. Checked accumulating ironic postponement rather than sincere patience advice, repeated only/not now, domestic burning and dispossession, satirical final timing and exact contributor tail.",
+      "open_questions": [
+        "Rugudi stone texture may mean rough/gravelly stone; current rough/jagged rendering provisional rather than claiming a precise geological material. No external event or community identity inferred from satire."
+      ],
+      "reason": "Retain after full reading: satirical repeated delay, escalating harms and final too-late revolt stay forceful, not softened into advice; raw tail preserved.",
+      "tradeoff": "Preserve source voice, images, credits and raw contributor tails; all drafts, same-assistant self-review only and independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "30e6f1ab17f80a006fedc7e3d3ab277d7346cf6c8731e407e58bc0d9119b34f0",
+      "before_sha256": "afd8f74cc6d86b9b4210761e356c205bdd24dc11b8587627739826fb93873d25",
+      "after_sha256": "afd8f74cc6d86b9b4210761e356c205bdd24dc11b8587627739826fb93873d25",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ],
+  "after_reading_evidence": "Ten complete sources and current Hindi/English targets and six full changed after variants read directly during continuous review; all snapshots freshly checked after batch171 final saved-record sync/storage passed. Preserved exact29/31 contributor tails and two25-line explicit maps; self-review only.",
+  "skill": {
+    "path": "/Users/ahimanikya/.codex/skills/human-natural-translation/SKILL.md",
+    "sha256": "3954053f286bb38f21fff16020c27fefe933942532a2083a8b3e7eae9c1ccc17",
+    "mode": "Poetic Natural",
+    "adopted_companion": "kb/reference/adopted-human-natural/editorial.md"
+  }
+}

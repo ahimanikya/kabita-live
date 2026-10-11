@@ -1,0 +1,264 @@
+{
+  "recorded_at": "2026-10-06T03:27:30.883644+00:00",
+  "poem_ids": [
+    190,
+    191,
+    193,
+    196,
+    198
+  ],
+  "variants_read": 10,
+  "variants_changed": 3,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 190,
+      "target": "en",
+      "reading_evidence": "Read all20 Odia lines and both targets in five quatrains: bee unable to know body/ache while flower knowingly bears sorrow in trust, love retaining sorrow as source of forest joy/fragrance, suffering branch/petal fall/unbroken stalk, grief-song flower and wind not returning from its breath, direct knowingly-give-sorrow request and repeated ending when sorrow ends. Kept pain/love paradox without endorsing literal harm or explaining metaphor.",
+      "open_questions": [
+        "Wind not returning and stalk not breaking remain deliberate source paradoxes without causal explanation."
+      ],
+      "reason": "Retain complete flower/bee sequence and doubled ending; no new defensible correction.",
+      "tradeoff": "Preserve source cadence, ambiguity, imagery and rhetorical force; revise only defensible target errors. Same-assistant self-review; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "9a19ab95a4d1c5dc564ba5b67f87f0af5469a9d84a73aa0d8287ab69f62baf29",
+      "before_sha256": "23174029952232c1b722f84a8d2a9c36c67567c38614ab4f19f90e1408452a80",
+      "after_sha256": "23174029952232c1b722f84a8d2a9c36c67567c38614ab4f19f90e1408452a80",
+      "prior_uncertainties": [
+        {
+          "note": "Five quatrains and repeated ending retained. Bee/flower suffering metaphor kept without explanation; Hindi masculine provisional.",
+          "record": "kb/production/translations/batch-137/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 190,
+      "target": "hi",
+      "reading_evidence": "Read all20 Odia lines and both targets in five quatrains: bee unable to know body/ache while flower knowingly bears sorrow in trust, love retaining sorrow as source of forest joy/fragrance, suffering branch/petal fall/unbroken stalk, grief-song flower and wind not returning from its breath, direct knowingly-give-sorrow request and repeated ending when sorrow ends. Kept pain/love paradox without endorsing literal harm or explaining metaphor.",
+      "open_questions": [
+        "Wind not returning and stalk not breaking remain deliberate source paradoxes without causal explanation.",
+        "Masculine narrator ending remains provisional; author identity is not evidence of lyric gender."
+      ],
+      "reason": "Retain full sorrow recurrence and closing conditional while recording participant gender separately.",
+      "tradeoff": "Preserve source cadence, ambiguity, imagery and rhetorical force; revise only defensible target errors. Same-assistant self-review; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "9a19ab95a4d1c5dc564ba5b67f87f0af5469a9d84a73aa0d8287ab69f62baf29",
+      "before_sha256": "bf1f8ac93bf7a296dcd369a72afdfcd5c61ed88b363d72dccce053b6f4f04d28",
+      "after_sha256": "bf1f8ac93bf7a296dcd369a72afdfcd5c61ed88b363d72dccce053b6f4f04d28",
+      "prior_uncertainties": [
+        {
+          "note": "Five quatrains and repeated ending retained. Bee/flower suffering metaphor kept without explanation; Hindi masculine provisional.",
+          "record": "kb/production/translations/batch-137/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 191,
+      "target": "en",
+      "reading_evidence": "Read all23 source lines and both targets in4/4/4/6/5 blocks: claiming palm fate-line/uncertain life, hidden desire turning untimely/truth-falsehood petrification, sorrow-so-be-it/dead-dream earth/silent goddess, currentless river/eye pupils/stored unread sealed-letter silence through final journey/words unable to unlock life-Veda, final dry-earth dream-seed/pure-love watering/waiting question. Checked modifier scope and unresolved first-person quoted possession.",
+      "open_questions": [
+        "First palm/fate-line possession remains source ambiguity: English currently interprets addressee claiming narrators palm; Hindi retains claim-my wording.",
+        "River-eye metaphor and truth/falsehood petrification remain compressed; no anatomy or named religious scene added.",
+        "Hindi masculine addressee agreement remains provisional."
+      ],
+      "reason": "Attach currentless to river, preserving its eye personification, and use a natural dream-seed genitive; retain line count and full waiting question.",
+      "tradeoff": "Preserve source cadence, ambiguity, imagery and rhetorical force; revise only defensible target errors. Same-assistant self-review; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "79e77199edb9ff1dfc4b8ef1b2b82be74601c3569214eb42c08225bb2842a1b4",
+      "before_sha256": "c996cc53b1ab1b2f39d526bd797eb3c624ba2b1dc9e1bc500146a31f3ae3b42c",
+      "after_sha256": "23ca1844b83310aa6171439068a11c1085da30573d547a11397f8926f120d3ba",
+      "prior_uncertainties": [
+        {
+          "note": "Five blocks retained. First-line possession interpreted addressee claiming narrator’s palm; Hindi leaves original ambiguity. Goddess silence and life-Veda preserved.",
+          "record": "kb/production/translations/batch-137/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 191,
+      "target": "hi",
+      "reading_evidence": "Read all23 source lines and both targets in4/4/4/6/5 blocks: claiming palm fate-line/uncertain life, hidden desire turning untimely/truth-falsehood petrification, sorrow-so-be-it/dead-dream earth/silent goddess, currentless river/eye pupils/stored unread sealed-letter silence through final journey/words unable to unlock life-Veda, final dry-earth dream-seed/pure-love watering/waiting question. Checked modifier scope and unresolved first-person quoted possession.",
+      "open_questions": [
+        "First palm/fate-line possession remains source ambiguity: English currently interprets addressee claiming narrators palm; Hindi retains claim-my wording.",
+        "River-eye metaphor and truth/falsehood petrification remain compressed; no anatomy or named religious scene added.",
+        "Hindi masculine addressee agreement remains provisional."
+      ],
+      "reason": "Retain complete goddess/silence/dry-earth movement and ambiguity; no unsupported reallocation of fate-line ownership.",
+      "tradeoff": "Preserve source cadence, ambiguity, imagery and rhetorical force; revise only defensible target errors. Same-assistant self-review; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "79e77199edb9ff1dfc4b8ef1b2b82be74601c3569214eb42c08225bb2842a1b4",
+      "before_sha256": "2f3ebdd84cd91ec7ce53852fd2850209d605f65c7530e5ce3c34be91231e3209",
+      "after_sha256": "2f3ebdd84cd91ec7ce53852fd2850209d605f65c7530e5ce3c34be91231e3209",
+      "prior_uncertainties": [
+        {
+          "note": "Five blocks retained. First-line possession interpreted addressee claiming narrator’s palm; Hindi leaves original ambiguity. Goddess silence and life-Veda preserved.",
+          "record": "kb/production/translations/batch-137/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 193,
+      "target": "hi",
+      "reading_evidence": "Read all48 source lines and both full targets in4/6/5/6/9/4/3/8/3 blocks: wedding guests gone by greeting, wifes first labour and daughter suddenly noting a new mole, evening news of centenarian fathers death/younger son family train/Puja, watering flowers/bodyless shadow/future visitors, crossing field/mahua/Shravan river/tiger cave/desert and rolling familiar corpses/sending bird-mantras/departing body, repeated foot/eyes/hand ending road/scene/dream, unknown sleep events and midnight calls/lifespans/human-cockroach rates/summons messenger, final life beyond lifespan question. Preserved impossible time compression and explicit family relationships without inventing chronology.",
+      "open_questions": [
+        "Birth-bed/cord image retains source entudi context provisionally; no ritual details added.",
+        "Puja remains unspecified festival occasion.",
+        "Summons messenger and future visitors remain unidentified; no literal biography or cause of death inferred."
+      ],
+      "reason": "Retain complete compressed lifespan and final existential question, quantities, explicit father/daughter/younger-son relationships and deliberately impossible temporal movement.",
+      "tradeoff": "Preserve source cadence, ambiguity, imagery and rhetorical force; revise only defensible target errors. Same-assistant self-review; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "5697dcd70e326ab338988ee23381646d6fbfafa6c907e9d2e37a7991d619bdb7",
+      "before_sha256": "c5a729b1c40acf9f5669091ecf803702eda98b40fa3073137d34fb50b5798af3",
+      "after_sha256": "c5a729b1c40acf9f5669091ecf803702eda98b40fa3073137d34fb50b5798af3",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 193,
+      "target": "en",
+      "reading_evidence": "Read all48 source lines and both full targets in4/6/5/6/9/4/3/8/3 blocks: wedding guests gone by greeting, wifes first labour and daughter suddenly noting a new mole, evening news of centenarian fathers death/younger son family train/Puja, watering flowers/bodyless shadow/future visitors, crossing field/mahua/Shravan river/tiger cave/desert and rolling familiar corpses/sending bird-mantras/departing body, repeated foot/eyes/hand ending road/scene/dream, unknown sleep events and midnight calls/lifespans/human-cockroach rates/summons messenger, final life beyond lifespan question. Preserved impossible time compression and explicit family relationships without inventing chronology.",
+      "open_questions": [
+        "Birth-bed/cord image retains source entudi context provisionally; no ritual details added.",
+        "Puja remains unspecified festival occasion.",
+        "Summons messenger and future visitors remain unidentified; no literal biography or cause of death inferred."
+      ],
+      "reason": "Retain complete compressed lifespan and final existential question, quantities, explicit father/daughter/younger-son relationships and deliberately impossible temporal movement.",
+      "tradeoff": "Preserve source cadence, ambiguity, imagery and rhetorical force; revise only defensible target errors. Same-assistant self-review; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "5697dcd70e326ab338988ee23381646d6fbfafa6c907e9d2e37a7991d619bdb7",
+      "before_sha256": "dbb2bd1939a73193dc689384a1b7281c2cabb5812bee1a625e696d23aee7ca8f",
+      "after_sha256": "dbb2bd1939a73193dc689384a1b7281c2cabb5812bee1a625e696d23aee7ca8f",
+      "prior_uncertainties": [],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 196,
+      "target": "en",
+      "reading_evidence": "Read complete long source and both targets, every question through final Prasanna refrain: carried curiosities/woman-earth/lover fire-walk; story passion/life deceit/butter poetry/betrayal; mothers burnt feet/fathers tortoises; books adolescent letters/applause versus farm levelling or spring breeze; rivers sea and askew girls gaze; wind-emperor invisibility; fragrant skin/hungers exceeding stomachs; serpent jewel/womb mine/sweat/love defeats/darkness/light birds/relationship doubt/map lie coordinates; whirlwind anklets/cloud handwriting; wife-beloved/fate-action/dream-waking/maya-moksha/stars-moonnight/kadamba-grave; life-status/love-wait/tear-wave/renunciation-closeness; inability to write or say desire/tree-stalk versus death-flower scent. Preserved question saturation, erotic and rural details and self-naming close.",
+      "open_questions": [
+        "ଟେରୀ physical-eye expression needs source-fluent review; English wandering eyes can add an unintended flirtation implication and remains a recorded target hold.",
+        "ଛନ୍ଦ in guile/deceit pair and cultivation-versus-soil-levelling phrasing remain provisional; no blanket sense substitution.",
+        "Jhamu retained as the fire-walk term from source context without assigning a community or historical ritual account.",
+        "Hindi masculine self-named narrator is provisional; no independent identity approval claimed."
+      ],
+      "reason": "Remove possessive construction that could make Jhamu a persons name; retain ritual term and full fire ordeal without adding lore.",
+      "tradeoff": "Preserve source cadence, ambiguity, imagery and rhetorical force; revise only defensible target errors. Same-assistant self-review; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "6cc796663aef043fb5f67b92825c9bf95f0d9c99a0f9d3bd307c6febd202d3f0",
+      "before_sha256": "52734e163ec488aa135be287be764954c5ba4b6b160651196b8f50d9dd4a3965",
+      "after_sha256": "feeca250ee2cf79d57e506d2acb52718f4817a0cef2c4cbc70e6817a6ec8d9a9",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 196,
+      "target": "hi",
+      "reading_evidence": "Read complete long source and both targets, every question through final Prasanna refrain: carried curiosities/woman-earth/lover fire-walk; story passion/life deceit/butter poetry/betrayal; mothers burnt feet/fathers tortoises; books adolescent letters/applause versus farm levelling or spring breeze; rivers sea and askew girls gaze; wind-emperor invisibility; fragrant skin/hungers exceeding stomachs; serpent jewel/womb mine/sweat/love defeats/darkness/light birds/relationship doubt/map lie coordinates; whirlwind anklets/cloud handwriting; wife-beloved/fate-action/dream-waking/maya-moksha/stars-moonnight/kadamba-grave; life-status/love-wait/tear-wave/renunciation-closeness; inability to write or say desire/tree-stalk versus death-flower scent. Preserved question saturation, erotic and rural details and self-naming close.",
+      "open_questions": [
+        "ଟେରୀ physical-eye expression needs source-fluent review; English wandering eyes can add an unintended flirtation implication and remains a recorded target hold.",
+        "ଛନ୍ଦ in guile/deceit pair and cultivation-versus-soil-levelling phrasing remain provisional; no blanket sense substitution.",
+        "Jhamu retained as the fire-walk term from source context without assigning a community or historical ritual account.",
+        "Hindi masculine self-named narrator is provisional; no independent identity approval claimed."
+      ],
+      "reason": "Remove introduced moving-path calque while preserving the travellers harsh-betrayal question and every other question/refrain.",
+      "tradeoff": "Preserve source cadence, ambiguity, imagery and rhetorical force; revise only defensible target errors. Same-assistant self-review; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "6cc796663aef043fb5f67b92825c9bf95f0d9c99a0f9d3bd307c6febd202d3f0",
+      "before_sha256": "31329d6fbba14c2b2268f0ada67c65e18f3b546ec4fe2a9a511a29314d8d07af",
+      "after_sha256": "eab2e8e4d57b082a4ab95e62d897bc193f900850fd4265e2a1897ee168925c0e",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 198,
+      "target": "hi",
+      "reading_evidence": "Read all27 source lines and both targets in10/9/8 blocks: mahua gust carrying Dhangidi song, smiling moon/evening someone distracting narrator into tear poem, drenched arrival/unseasonable rain/drying in darkness embrace, dream smeared into eyes and words escaping hands, thought-riverbank/trust fishing rod/day after day waiting/comes-does-not-come/secret drifting current. Preserved elusive poetic encounter and uncertainty rather than inventing a lover identity.",
+      "open_questions": [
+        "Odia se gender remains unconfirmed; existing feminine personification is provisional, not inferred solely from Dhangidi woman in opening.",
+        "Dhangidi remains cultural young-woman term without an invented specific community.",
+        "Final କାଳେ may carry apprehensive lest rather than English neutral perhaps; source-directed refinement pending, not certified as equivalent."
+      ],
+      "reason": "Retain full atmospheric encounter and fishing metaphor; preserve gender and final modality holds outside verse rather than resolve by an invented relationship.",
+      "tradeoff": "Preserve source cadence, ambiguity, imagery and rhetorical force; revise only defensible target errors. Same-assistant self-review; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "b33d94b6fd3a7441d9fcd54d47546a19d4a2029853b57a807faab60b41819857",
+      "before_sha256": "c3d6bd4b536649bd4ab8849611b5968e12665486bd47fe982e9782c59cac0494",
+      "after_sha256": "c3d6bd4b536649bd4ab8849611b5968e12665486bd47fe982e9782c59cac0494",
+      "prior_uncertainties": [
+        {
+          "note": "Three blocks retained. Dhangidi retained as cultural term for young woman, no specific community invented. Odia se gender ambiguous; feminine personification provisional in targets. Banishi rendered fishing rod from river context.",
+          "record": "kb/production/translations/batch-137/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 198,
+      "target": "en",
+      "reading_evidence": "Read all27 source lines and both targets in10/9/8 blocks: mahua gust carrying Dhangidi song, smiling moon/evening someone distracting narrator into tear poem, drenched arrival/unseasonable rain/drying in darkness embrace, dream smeared into eyes and words escaping hands, thought-riverbank/trust fishing rod/day after day waiting/comes-does-not-come/secret drifting current. Preserved elusive poetic encounter and uncertainty rather than inventing a lover identity.",
+      "open_questions": [
+        "Odia se gender remains unconfirmed; existing feminine personification is provisional, not inferred solely from Dhangidi woman in opening.",
+        "Dhangidi remains cultural young-woman term without an invented specific community.",
+        "Final କାଳେ may carry apprehensive lest rather than English neutral perhaps; source-directed refinement pending, not certified as equivalent."
+      ],
+      "reason": "Retain full atmospheric encounter and fishing metaphor; preserve gender and final modality holds outside verse rather than resolve by an invented relationship.",
+      "tradeoff": "Preserve source cadence, ambiguity, imagery and rhetorical force; revise only defensible target errors. Same-assistant self-review; independent review pending.",
+      "finding_dispositions": {},
+      "full_source_target_read": true,
+      "source_sha256": "b33d94b6fd3a7441d9fcd54d47546a19d4a2029853b57a807faab60b41819857",
+      "before_sha256": "d1bd544afe5afb40a1accc5440db4f57b1e4bd6081261c04c5c2dedb54bacd82",
+      "after_sha256": "d1bd544afe5afb40a1accc5440db4f57b1e4bd6081261c04c5c2dedb54bacd82",
+      "prior_uncertainties": [
+        {
+          "note": "Three blocks retained. Dhangidi retained as cultural term for young woman, no specific community invented. Odia se gender ambiguous; feminine personification provisional in targets. Banishi rendered fishing rod from river context.",
+          "record": "kb/production/translations/batch-137/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

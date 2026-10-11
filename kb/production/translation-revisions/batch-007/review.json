@@ -1,0 +1,261 @@
+{
+  "recorded_at": "2026-10-05T10:26:02.727625+00:00",
+  "poem_ids": [
+    791,
+    793,
+    795,
+    796
+  ],
+  "variants_read": 8,
+  "variants_changed": 6,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 791,
+      "target": "or",
+      "revisit_batch": "batch-006",
+      "reason": "Record explicit target verse and stanza boundaries for the already-read rearranged guilt/weight phrasing in batch-006. No additional literary wording change.",
+      "reading_evidence": "Read all four long stanzas and every current Odia line: 1970s school romance, entrusted letters and jealousy, river destruction, mutual waiting, unmarried adulthood, confession, restrained grief, invitation and imaginary school walk through the final claim.",
+      "open_questions": [
+        "The trusted classmate / another girl most likely names one intermediary distinct from the beloved, but the English can also be read as two. Current targets leave a two-intermediary reading possible; confirm rather than silently resolve.",
+        "Later come / let us walk addresses someone after the intermediary’s confession; do not invent the beloved’s physical return or a literal reunion."
+      ],
+      "finding_dispositions": {
+        "PNR-033": "source_query_held"
+      },
+      "tradeoff": "The current shape happens to match the source, but explicit target mappings document the revised breath and prevent inherited boundaries from becoming an implicit dependency.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 70,
+        "before_lines": [
+          24,
+          43,
+          54
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "e800f5710be380a99a444dee056d531e6074a598e21fa33ee01c72d21c85e40e",
+      "before_sha256": "6145ceacfbc3e4085127ff368e51d8993bf23c969b761d4e7f46472cf9fae9d8",
+      "after_sha256": "34621695cb9e7125980852b83efac0f68bd4477c137f57616859cc8a5c7734b3",
+      "prior_uncertainties": [
+        {
+          "note": "Explicit boy/girl identities and unresolved later addressee preserved. No invented reunion added.",
+          "record": "kb/production/translations/batch-005/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 791,
+      "target": "hi",
+      "revisit_batch": "batch-006",
+      "reason": "Record explicit target verse and stanza boundaries for the already-read rearranged guilt/weight phrasing in batch-006. No additional literary wording change.",
+      "reading_evidence": "Read all four English and Hindi stanzas, tracing the lovers and intermediary, letter destruction, mistaken rejection, unmarried life, three-decade confession, tearless grief, invitation and imagined ending. Source quotation/entity damage is already cleanly rendered; original remains unchanged.",
+      "open_questions": [
+        "The trusted classmate / another girl most likely names one intermediary distinct from the beloved, but the English can also be read as two. Current targets leave a two-intermediary reading possible; confirm rather than silently resolve.",
+        "Later come / let us walk addresses someone after the intermediary’s confession; do not invent the beloved’s physical return or a literal reunion."
+      ],
+      "finding_dispositions": {
+        "PNR-034": "source_query_held"
+      },
+      "tradeoff": "The current shape happens to match the source, but explicit target mappings document the revised breath and prevent inherited boundaries from becoming an implicit dependency.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 70,
+        "before_lines": [
+          24,
+          43,
+          54
+        ],
+        "inline_breaks": []
+      },
+      "source_sha256": "e800f5710be380a99a444dee056d531e6074a598e21fa33ee01c72d21c85e40e",
+      "before_sha256": "366f8ecd498373d1591749fe711ea26037b1014ddcec54c65971d374d8430018",
+      "after_sha256": "8e34bfd6a2620ac4439032bca377aa764c43b026b2a4e8be069a189c69fbff6c",
+      "prior_uncertainties": [
+        {
+          "note": "Explicit boy/girl identities and unresolved later addressee preserved. No invented reunion added.",
+          "record": "kb/production/translations/batch-005/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 793,
+      "target": "or",
+      "reason": "Bring the village genitive before its frame, removing an English-order afterthought while preserving canvas, storm damage and the passion-built village.",
+      "reading_evidence": "Read all nineteen source and target lines: uncharted memory walk, stretched canvas, wounded flowers/leaves, quiet village frame, hand-in-hand freedom, no codes/photos and the unfinished closing image of wholehearted love.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Same two lines, with the village now introduced before the containing frame; preserve the source’s unresolved final fragment rather than supplying a predicate.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 19,
+        "before_lines": [],
+        "inline_breaks": []
+      },
+      "new_findings": [
+        {
+          "category": "syntax_and_lineation",
+          "disposition": "fixed_in_local_draft",
+          "reason": "A trailing ଗାଁର copied the English postmodifying of a village and left the frame relation suspended awkwardly."
+        }
+      ],
+      "source_sha256": "e4b690161ad9540d7e5580b43e40e0c6698227d4a0e47c012a1e58b67beea6da",
+      "before_sha256": "074ea81bd68c7b6aadd1fd43a8a318d4eb00c436553549ac8710edee42c7fc89",
+      "after_sha256": "84206bcd9875ff71652b86796ad1b9b10706ea5241d71b85045146a6fee73749",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 793,
+      "target": "hi",
+      "reason": "Use Hindi genitive order for the frame of the village instead of appending एक गाँव के after its noun. Preserve the quiet archive image and the closing fragment.",
+      "reading_evidence": "Read all nineteen lines directly against the source, including hurricane wounds, beauty surviving in the frame, unrestricted handholding, absence of hidden codes/photos and the soul laid bare.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "Reorder the two-line image for Hindi breath; keep अभिलेखागार and the formal soul imagery because the source supports them.",
+      "full_source_target_read": true,
+      "reader_layout": {
+        "verse_line_count": 19,
+        "before_lines": [],
+        "inline_breaks": []
+      },
+      "new_findings": [
+        {
+          "category": "syntax_and_lineation",
+          "disposition": "fixed_in_local_draft",
+          "reason": "चौखटे में / एक गाँव के copied the English of-phrase order instead of giving Hindi a coherent noun phrase."
+        }
+      ],
+      "source_sha256": "e4b690161ad9540d7e5580b43e40e0c6698227d4a0e47c012a1e58b67beea6da",
+      "before_sha256": "da605b24b916e46c79d1e86283d5b994c7c260061dc0010eaa8106223ca63911",
+      "after_sha256": "1493b121fd66f47dc1c12f5b2a0c371d8c41d02368391b47c4d05488f47c8c72",
+      "prior_uncertainties": [],
+      "status": "revised",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 795,
+      "target": "or",
+      "reason": "Hold unchanged: title and several central images depend on unclear experimental source collocations. The current literal draft is provisional, not a settled reading.",
+      "reading_evidence": "Read all five tercets, including throbs/credence/balms, rosy vibes and baby address, mended emotions and wrapped whispers, rust chamber/crystal longings, nerves/time/proxy hug; verified end marker and Jajpur/Odisha tail.",
+      "open_questions": [
+        "Gingery cares, concave balms and proxy hug remain unresolved experimental expressions. Do not assume the spicy/sharp-care interpretation or substitute a literal surrogate hug as author-confirmed meaning.",
+        "Baby becomes literary ପ୍ରିୟ; its colloquial intimacy and addressee register need to be reviewed with the source intent."
+      ],
+      "finding_dispositions": {
+        "PNR-035": "source_query_held"
+      },
+      "tradeoff": "Do not exchange strange source imagery for invented emotional clarity. Hindi-specific narrator note in prior provenance does not apply to the Odia draft.",
+      "full_source_target_read": true,
+      "hold_entire_variant": true,
+      "source_sha256": "0e264558d6bf6a142e67754e677bf15a07faccb93e2a1b35155ac8accf7664ac",
+      "before_sha256": "24435e0472f9ce3f557f3c4d658031a34e7a495ff84d4b9818994bddf1565d24",
+      "after_sha256": "24435e0472f9ce3f557f3c4d658031a34e7a495ff84d4b9818994bddf1565d24",
+      "prior_uncertainties": [
+        {
+          "note": "Experimental English has ambiguous gingery cares, concave balms and proxy hug. Draft intentionally provisional; images carried literally, with spicy/sharp care interpretation. Author clarification recommended before publication.",
+          "record": "kb/production/translations/batch-005/review.json"
+        },
+        {
+          "note": "Hindi first-person masculine form provisional; original does not specify narrator gender.",
+          "record": "kb/production/translations/batch-005/review.json"
+        }
+      ],
+      "status": "held",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 795,
+      "target": "hi",
+      "reason": "Hold unchanged: replacing बदले with a chosen proxy interpretation would settle an unresolved source phrase. The current wording remains flagged, not endorsed.",
+      "reading_evidence": "Read all five tercets directly against English, including sharp care, concave balms, bouncing moves, wrapped whispers, blind swagger, pitter patter, crystal longings and final wish.",
+      "open_questions": [
+        "Gingery cares, concave balms and proxy hug remain unresolved experimental expressions. Do not assume the spicy/sharp-care interpretation or substitute a literal surrogate hug as author-confirmed meaning.",
+        "बदले के आलिंगन risks exchange/revenge rather than proxy; settle the intended proxy relation before final wording.",
+        "Masculine speaker and the literary/feminine address प्रिये are not established by the English baby."
+      ],
+      "finding_dispositions": {
+        "PNR-036": "source_query_held"
+      },
+      "tradeoff": "A fluent paraphrase without source clarification could be more misleading than a visibly provisional draft; preserve it outside approval.",
+      "full_source_target_read": true,
+      "hold_entire_variant": true,
+      "source_sha256": "0e264558d6bf6a142e67754e677bf15a07faccb93e2a1b35155ac8accf7664ac",
+      "before_sha256": "e214ac16ee24aed96f7ebcfdf41f96b94f089ad11755945d8026fa301d7401a6",
+      "after_sha256": "e214ac16ee24aed96f7ebcfdf41f96b94f089ad11755945d8026fa301d7401a6",
+      "prior_uncertainties": [
+        {
+          "note": "Experimental English has ambiguous gingery cares, concave balms and proxy hug. Draft intentionally provisional; images carried literally, with spicy/sharp care interpretation. Author clarification recommended before publication.",
+          "record": "kb/production/translations/batch-005/review.json"
+        },
+        {
+          "note": "Hindi first-person masculine form provisional; original does not specify narrator gender.",
+          "record": "kb/production/translations/batch-005/review.json"
+        }
+      ],
+      "status": "held",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 796,
+      "target": "or",
+      "reason": "Restore bodily love-making rather than generic loving, and remove the explanatory creation qualifier from seminal. Keep seed imagery open to generative and bodily resonance.",
+      "reading_evidence": "Read all26lines: solitary desire among unknowing creatures, God known only through human intellect, colours/venom/honey, sea/moon/stars/wind, the beloved laid upon the speaker like jasmine on dark hair, fragrance and fluid night, unending desire and Time’s slow fire.",
+      "open_questions": [
+        "Clock the bend has an unresolved time/turn sense; existing literal timing wording remains provisional. The source no none is read as no one without changing the original."
+      ],
+      "finding_dispositions": {
+        "PNR-037": "revised_with_recorded_tradeoff"
+      },
+      "tradeoff": "ରତି restores the source’s physical register. ବୀଜମୟ is compact and generative but cannot reproduce every English sense of seminal; independent literary review remains pending. No extra sexual act is invented.",
+      "full_source_target_read": true,
+      "source_sha256": "0aebb060ebb83f5aac5d8607cee4f8df675fbdfd3429375744f5f64e4c2bca15",
+      "before_sha256": "e2c4eca767f101c97ac4d92f3e8a697ea4700dcfd5b6e6a5ba8f496d74f6fd11",
+      "after_sha256": "b260b5127fe76bf8c56ed4d4b67a6285163f4727ab3ec7de14a39a5d62f9e804",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 796,
+      "target": "hi",
+      "reason": "Render lay as लिटाने in this bodily scene; restore making love as रति and remove the explanatory सृजन from the seed image.",
+      "reading_evidence": "Read the entire source and Hindi draft: recurrence of desire, creatures unaware of human God-concepts or their own gifts, cosmic becoming, wind drapery, body/jasmine/fragrance/fluid-night passage, endless desires and vagabond Time.",
+      "open_questions": [
+        "Clock the bend has an unresolved time/turn sense; existing literal timing wording remains provisional. The source no none is read as no one without changing the original."
+      ],
+      "finding_dispositions": {
+        "PNR-038": "revised_with_recorded_tradeoff"
+      },
+      "tradeoff": "रति is literary and physical, matching the source’s elevated erotic voice; बीजमय keeps generative seed resonance without the added abstract creation explanation. The full seminal double meaning remains a tradeoff for independent review.",
+      "full_source_target_read": true,
+      "source_sha256": "0aebb060ebb83f5aac5d8607cee4f8df675fbdfd3429375744f5f64e4c2bca15",
+      "before_sha256": "f088d98cf488f0c70b50806cc34cdfe7e9892c67ab86e21f4db8fb4f90b4e8c9",
+      "after_sha256": "d1138432e4522c91450ee09676b653ae2c9d0c30cdd5d07d8edac9331c69139b",
+      "prior_uncertainties": [],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}

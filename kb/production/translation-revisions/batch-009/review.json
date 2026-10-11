@@ -1,0 +1,254 @@
+{
+  "recorded_at": "2026-10-05T10:33:35.348436+00:00",
+  "poem_ids": [
+    804,
+    805,
+    806,
+    807
+  ],
+  "variants_read": 8,
+  "variants_changed": 5,
+  "independent_review": false,
+  "reviews": [
+    {
+      "poem_id": 804,
+      "target": "or",
+      "reason": "Restore harbour in the title instead of the broader shelter. The unlikely combination of wings and harbour connects with waves and the guiding blade in the body; do not remove that mixed image.",
+      "reading_evidence": "Read all35lines: escape from sharp tongues into pine/green quiet, invisible wings, water and steering, unpolished country singing, unnamed flowers, inquiry into self/earth, joyful campfire and the isolated nowhere-ending line.",
+      "open_questions": [
+        "Guiding blade remains provisionally a steering oar. Confirm the intended nautical object rather than assigning a more specific part."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "ବନ୍ଦରହୀନ is more literally maritime than ଆଶ୍ରୟହୀନ; the source deliberately places wings beside harbour and water. No change to that imaginative combination.",
+      "full_source_target_read": true,
+      "title_after": "ବନ୍ଦରହୀନ ଡେଣା",
+      "new_findings": [
+        {
+          "category": "title_image",
+          "disposition": "fixed_in_local_draft",
+          "reason": "Shelter had generalized away the title’s specific harbour image."
+        }
+      ],
+      "source_sha256": "9512d7a978fe62d8b1fabfeaa09a27a9aca8b2be4e2343f6cf25c917186e089c",
+      "before_sha256": "8a81b51d32470d592887df6e547b0ce04f4149c39e81c6c97f90618d14c4637a",
+      "after_sha256": "565ae4e5c1c0e731d1fd0d536e7d03ae187d759e6524ec891b17b6bc4b658975",
+      "prior_uncertainties": [
+        {
+          "note": "Guiding blade interpreted as steering oar. Pine retained as pine in Odia and chir in Hindi, without substituting cedar. Final isolated line retained. Hindi masculine speaker provisional.",
+          "record": "kb/production/translations/batch-007/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 804,
+      "target": "hi",
+      "reason": "Make the self a quoted nominal मैं so the self-question reads naturally without losing its questioning distance. Keep the wanderer’s exuberance and isolated last line.",
+      "reading_evidence": "Read the entire35-line source and Hindi target: companions, woods/open ground, invisible ascent, wave pulse, oar, off-key tunes, unnamed flowers, self/purpose/earth questions, fire and tracks from nowhere to nowhere.",
+      "open_questions": [
+        "Guiding blade remains provisionally a steering oar. Confirm the intended nautical object rather than assigning a more specific part.",
+        "Hindi masculine first-person voice remains provisional; English speaker gender is unspecified."
+      ],
+      "finding_dispositions": {
+        "PNR-041": "fixed_in_local_draft"
+      },
+      "tradeoff": "Quotation marks let मैं name the self as an object of inquiry; the surrounding wondering keeps uncertainty even with idiomatic कौन है.",
+      "full_source_target_read": true,
+      "source_sha256": "9512d7a978fe62d8b1fabfeaa09a27a9aca8b2be4e2343f6cf25c917186e089c",
+      "before_sha256": "901a4d4be25cbcd33f64d379e2637dbf7f20f38cf41a1acb4e14bb54a517eab8",
+      "after_sha256": "24a0b6e09271d4cc2882f3840856033cecd68f91d21733a12f9d642a1f27bc1e",
+      "prior_uncertainties": [
+        {
+          "note": "Guiding blade interpreted as steering oar. Pine retained as pine in Odia and chir in Hindi, without substituting cedar. Final isolated line retained. Hindi masculine speaker provisional.",
+          "record": "kb/production/translations/batch-007/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 805,
+      "target": "or",
+      "reason": "Retain the intimate repeated filling and the alternation between eyes, face, gloom and artistic hand. The repeated fullness belongs to the source, not a defect to remove.",
+      "reading_evidence": "Read all14lines: rare feeling of blue splendour, different smile, gloom and pleasure in the firmament, philosopher’s stone in the hand, long absence, tenderness and motivating emotion filling the mind.",
+      "open_questions": [],
+      "finding_dispositions": {},
+      "tradeoff": "ପରଶମଣି is a familiar equivalent of philosopher’s stone without relocating the scene. Hindi addressee gender uncertainty in shared prior notes does not apply to this Odia variant.",
+      "full_source_target_read": true,
+      "source_sha256": "48b9fd29f8499cd664b836e2c362cfecb6d171659801f88d5e4a58a0d26eeb09",
+      "before_sha256": "8e78a9a7f6c2e967b24783294088357c4deae4a18be2c0ebd6ecf19ba04b8b20",
+      "after_sha256": "8e78a9a7f6c2e967b24783294088357c4deae4a18be2c0ebd6ecf19ba04b8b20",
+      "prior_uncertainties": [
+        {
+          "note": "Philosopher’s stone translated with familiar paras/parashamani term. Repeated fullness retained. Hindi addressee gender provisional.",
+          "record": "kb/production/translations/batch-007/review.json"
+        }
+      ],
+      "status": "retained",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 805,
+      "target": "hi",
+      "reason": "Remove the accidental भरपूर भर echo while retaining the source’s repeated filling and the final degree of fullness.",
+      "reading_evidence": "Read all three source and Hindi stanzas: differing feelings, gloom/pleasantness, artistic hand and paras stone, absence and the two repeated acts of filling the mind.",
+      "open_questions": [
+        "Hindi थे gives the addressee a provisional gender not established by the English."
+      ],
+      "finding_dispositions": {
+        "PNR-042": "fixed_in_local_draft"
+      },
+      "tradeoff": "पूरी तरह retains the final intensifier; the earlier भर देती है remains, preserving intentional repetition across lines instead of varying it away.",
+      "full_source_target_read": true,
+      "source_sha256": "48b9fd29f8499cd664b836e2c362cfecb6d171659801f88d5e4a58a0d26eeb09",
+      "before_sha256": "d86eb42c9783286dc8194b357ea84f71e1f61a183aedc4f6e54ed305cc101da1",
+      "after_sha256": "1716e46034c78e0b3f9c86870d3ff3c1273f7b4b5b76acd85e320297d9d48a26",
+      "prior_uncertainties": [
+        {
+          "note": "Philosopher’s stone translated with familiar paras/parashamani term. Repeated fullness retained. Hindi addressee gender provisional.",
+          "record": "kb/production/translations/batch-007/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 806,
+      "target": "or",
+      "reason": "Retain the palms-of-dusk and river/beloved images. Record the tactile-agency uncertainty rather than silently treating the current interpretation as definitive.",
+      "reading_evidence": "Read all ten lines in both stanzas: afternoon shedding into dusk’s palms, remembered caring face, ceaseless river, fingers, laughing/talking like her, river touching the bosom and being held in the moonlit meadow.",
+      "open_questions": [
+        "I feel it touching by my fingers has uncertain tactile agency: touching with the fingers or feeling it touch them. Current active-touch rendering remains provisional; do not assign the alternative without source confirmation."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Keep the river/beloved comparison and chest image unexpanded. Source explicitly has her, while the narrator’s gender need not be specified in Odia.",
+      "full_source_target_read": true,
+      "new_findings": [
+        {
+          "category": "source_agency",
+          "disposition": "source_query_held",
+          "reason": "Unusual by my fingers leaves the direction of touch unsettled."
+        }
+      ],
+      "source_sha256": "1970e69a5d51291943b1e42d4a9ee11c7d6feb66808b3eecf066735e295a2789",
+      "before_sha256": "ebcbc9a527c0cf0f98b488ea6a981f4894efb19c2df46e3dd221df4add018573",
+      "after_sha256": "ebcbc9a527c0cf0f98b488ea6a981f4894efb19c2df46e3dd221df4add018573",
+      "prior_uncertainties": [
+        {
+          "note": "Afternoon falling into dusk’s palms and river/beloved parallel preserved. Hindi masculine narrator provisional.",
+          "record": "kb/production/translations/batch-007/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 806,
+      "target": "hi",
+      "reason": "Retain the river’s personified voice and the remembered face; add an explicit hold on the direction of touch.",
+      "reading_evidence": "Read every source and target line: two dusk palms, caring face/river, murmuring flow, fingers, laughing like her, touching/holding bosom and the closing moonlit meadow.",
+      "open_questions": [
+        "I feel it touching by my fingers has uncertain tactile agency: touching with the fingers or feeling it touch them. Current active-touch rendering remains provisional; do not assign the alternative without source confirmation.",
+        "Hindi masculine narrator in महसूस करता हूँ remains provisional; the source’s her identifies the beloved, not the narrator."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "Do not let the explicitly feminine beloved determine the narrator’s gender or settle the ambiguous fingers line.",
+      "full_source_target_read": true,
+      "new_findings": [
+        {
+          "category": "source_agency",
+          "disposition": "source_query_held",
+          "reason": "Current छूकर selects the speaker as toucher, while the source syntax is not decisive."
+        }
+      ],
+      "source_sha256": "1970e69a5d51291943b1e42d4a9ee11c7d6feb66808b3eecf066735e295a2789",
+      "before_sha256": "25091fccac6dd923b687140a47e4c11fd142337827765fa10e5364c014426cc9",
+      "after_sha256": "25091fccac6dd923b687140a47e4c11fd142337827765fa10e5364c014426cc9",
+      "prior_uncertainties": [
+        {
+          "note": "Afternoon falling into dusk’s palms and river/beloved parallel preserved. Hindi masculine narrator provisional.",
+          "record": "kb/production/translations/batch-007/review.json"
+        }
+      ],
+      "status": "retained_with_holds",
+      "changed": false,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 807,
+      "target": "or",
+      "reason": "Restore angels as ଦେବଦୂତ rather than the distinct fairy figure ପରୀ. Keep the elevated rain personification and both delight and disaster.",
+      "reading_evidence": "Read all five stanzas: poetic drops into granite/flower, joy-tears and parched earth, famine imagery and ambrosial heartbeat, rainbow necklace and rain angels, magical rural renewal, and flood victims alongside exhilaration.",
+      "open_questions": [
+        "Final to measure phrase has uncertain attachment across rain, ravages, depression and exhilaration; preserve the source’s unresolved connection rather than supplying a new causal conclusion."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "ଦେବଦୂତ preserves the named celestial role without assigning a religion or importing a mythic story. Its elevated register fits ambrosia and primordial tranquillity.",
+      "full_source_target_read": true,
+      "new_findings": [
+        {
+          "category": "cultural_role",
+          "disposition": "fixed_in_local_draft",
+          "reason": "The current target substituted fairies for the source angels; no cultural relocation was requested."
+        }
+      ],
+      "source_sha256": "319293d12e1e40b394866d3e27044c04e0820e51a66b7aef8d3decaf02bcd93f",
+      "before_sha256": "6cb49da9491f78db675012a944fcf36a8f50afe90868a3a4765bcdfbe309edbb",
+      "after_sha256": "8d19bd5e282475f8744d3c89217b1f502dfc6b913f215aa24a0964888d1bd2ac",
+      "prior_uncertainties": [
+        {
+          "note": "Joy and disaster remain paired throughout. Final syntactic ambiguity retained rather than supplying a new causal conclusion.",
+          "record": "kb/production/translations/batch-007/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    },
+    {
+      "poem_id": 807,
+      "target": "hi",
+      "reason": "Keep the celestial figure as देवदूत rather than fairies. Retain sensuality, flood devastation and the unresolved final measure phrase together.",
+      "reading_evidence": "Read all32lines across five stanzas: granite made flower, dark clouds’ joyful tears, drought hunger, ambrosia reviving earth, rainbow metaphor and angels, pastoral enchantment and the last movement through flood grief and exhilaration.",
+      "open_questions": [
+        "Final to measure phrase has uncertain attachment across rain, ravages, depression and exhilaration; preserve the source’s unresolved connection rather than supplying a new causal conclusion."
+      ],
+      "finding_dispositions": {},
+      "tradeoff": "देवदूत is a closer role equivalent and suits the already elevated diction. Do not introduce a particular faith or remove the rain’s embodied sensuality.",
+      "full_source_target_read": true,
+      "new_findings": [
+        {
+          "category": "cultural_role",
+          "disposition": "fixed_in_local_draft",
+          "reason": "परियाँ changed the source’s angel figures; restore the role without added mythology."
+        }
+      ],
+      "source_sha256": "319293d12e1e40b394866d3e27044c04e0820e51a66b7aef8d3decaf02bcd93f",
+      "before_sha256": "d97dd74403075bbfea0ae296c21290d58d8ae9e783163116dd162247fbd902aa",
+      "after_sha256": "c882732c7898d1a656693454ddbf46e448b241844f6cf7043c0d28ce64847bfc",
+      "prior_uncertainties": [
+        {
+          "note": "Joy and disaster remain paired throughout. Final syntactic ambiguity retained rather than supplying a new causal conclusion.",
+          "record": "kb/production/translations/batch-007/review.json"
+        }
+      ],
+      "status": "revised_with_holds",
+      "changed": true,
+      "mode": "Poetic Natural",
+      "independent_review": false
+    }
+  ]
+}
