@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-11T03:33:03.647073+00:00",
-  "status": "verified_pending_publication",
+  "status": "published_verified",
   "authorization": {
     "decision": "KBL-DEC-061",
     "quote": "During the process of development, we might have created a lot of review pages - maybe we should clean that up and remove them from the site if they are somehow published. Remove AI credit from all pages; that is unnecessary, since we are using AI as yet another tool; no credit is required."
@@ -27,7 +27,21 @@
     "javascript_passed": 153,
     "python_passed": 32,
     "public_ai_credit_matches": 0,
-    "translation_review_unlinked_noindex": true
+    "translation_review_unlinked_noindex": true,
+    "firestore_ci_passed": 45,
+    "live_credit_pages_match_build": true,
+    "live_146_excluded_urls_404": true,
+    "pagefind_review_fragments": 0,
+    "browser_credits_layout": "passed",
+    "bundle": "passed",
+    "storage": "passed",
+    "portable_sync": "verified"
   },
-  "publication": null
+  "publication": {
+    "commit": "08c87008a01717169b7f48a3706c5606979e3382",
+    "workflow": "https://github.com/ahimanikya/kabita-live/actions/runs/38108795143",
+    "conclusion": "success",
+    "live_checks": "artifacts/review/public-site-cleanup-2026-10-11/live-verification.json",
+    "screenshot": "artifacts/review/public-site-cleanup-2026-10-11/live-credits.png"
+  }
 }

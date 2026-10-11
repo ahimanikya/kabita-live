@@ -935,8 +935,8 @@
     {
       "id": "KBL-WORK-045",
       "title": "Clean public credits and enforce reader-only publication",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-061",
       "refs": [
@@ -946,7 +946,7 @@
         "records/public-site-cleanup-2026-10-11.json"
       ],
       "blockers": [],
-      "next_action": "Publish verified cleanup and check live credits and excluded routes."
+      "next_action": "No remaining cleanup work; apply explicit route boundary to future pages and preserve the authorized translation review exception."
     }
   ],
   "decisions": [
@@ -3166,6 +3166,19 @@
       ],
       "evidence": [
         "records/remaining-site-publication-2026-10-11.json"
+      ]
+    },
+    {
+      "id": "KBL-REL-015",
+      "title": "Remove public AI credits and enforce reader-only export",
+      "status": "published",
+      "authorization": "KBL-DEC-061",
+      "destination": "https://kabitalive.com/",
+      "refs": [
+        "KBL-WORK-045"
+      ],
+      "evidence": [
+        "records/public-site-cleanup-2026-10-11.json"
       ]
     }
   ],
