@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-11T03:02:13.244488+00:00",
-  "status": "verification_in_progress",
+  "status": "published_verified",
   "authorization": {
     "decision": "KBL-DEC-060",
     "quotes": [
@@ -29,10 +29,71 @@
       "passed": 45,
       "failed": 0
     },
-    "site": "in_progress"
+    "site": "in_progress",
+    "javascript": {
+      "passed": 153,
+      "failed": 0
+    },
+    "python": {
+      "passed": 30,
+      "failed": 0
+    },
+    "public_build": {
+      "pages": 1317,
+      "indexable": 1306,
+      "search_fragments": 1312,
+      "review_in_search": false,
+      "inbound_review_links": 0,
+      "private_data_exported": false
+    },
+    "visual": {
+      "desktop_width": 1280,
+      "phone_width": 390,
+      "horizontal_overflow": false,
+      "independent": false
+    },
+    "live_browser": {
+      "poem_like": "0 → 1 → 0; cleanup confirmed",
+      "article_like": "0 → 1 → 0; cleanup confirmed",
+      "poem_comments": "loaded empty state",
+      "article_comments": "loaded empty state",
+      "translated_verse": "English revised Dokana displayed",
+      "review": "1574 entries; noindex verified",
+      "production_messages_submitted": 0
+    },
+    "billing_enabled": false,
+    "firestore_appcheck": "ENFORCED",
+    "live_followup_fixes": [
+      "Removed remaining draft-reference sentence in source language essay.",
+      "Cleared unavailable status when article response service is enabled."
+    ],
+    "live_http_evidence": "artifacts/review/remaining-site-publication-2026-10-11/live-verification.json",
+    "unverified_firestore_read": 403,
+    "final_essay": {
+      "draft_notice": false,
+      "enabled_article_status": "empty_ready",
+      "browser_cache_temporarily_disabled_then_restored": true
+    }
   },
   "publication": {
-    "status": "pending"
+    "status": "published_verified",
+    "commit": "99eb8265883d79355a6e80f49e70ef37e08620db",
+    "workflow": "https://github.com/ahimanikya/kabita-live/actions/runs/38107369200",
+    "final_correction_commit": "af50a7a097ff10a3cb13ba4cc382d5de9f824a78",
+    "final_workflow": "https://github.com/ahimanikya/kabita-live/actions/runs/38107817312",
+    "final_result": "success"
   },
-  "portable_sync": "pending"
+  "portable_sync": "synchronized and storage parity verified",
+  "backend": {
+    "firestore_rules": "deployed_verified",
+    "registered_article_contexts": [
+      "kabita:article:edition-48-editorial",
+      "kabita:article:language-journey"
+    ],
+    "receipt_versions": "1",
+    "article_version": "1",
+    "appcheck_enforcement": "preserved"
+  },
+  "completed_at": "2026-10-11T03:23:15.771673+00:00",
+  "artwork_scope": "Older poem644 fallback reassignment is committed; newer approved edition36 bench illustration retains rendering precedence and was live-verified. No regression of the edition-specific rollout."
 }

@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2485b7d7043527f5f8a07c480185e695b21bebc0911b1ba484f5b1f5fd6e3653`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `691bc8bd1df81e0347321ffd9d226dbb0d7bd0ca5d21e1bc79c4e037f8c5fac8`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -35,7 +35,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-WORK-020 · Poetic Natural artwork recreation loop | completed | reviewed | Ahimanikya Satapathy | Completed artwork heartbeat paused: 72 verified, 0 pending, 1 hold (cover-016, identified likeness reference needed). Review gallery for separately authorized placement/publication; originals preserved. | — |
 | KBL-WORK-021 · Edition-specific interior artwork pilot | completed | applied | Ahimanikya Satapathy | Pilot deployed and live verified at11ebcb6. Full edition rollout active underKBL-WORK-022. | — |
 | KBL-WORK-022 · Edition-specific art across all47editions and verified publication | completed | applied | Ahimanikya Satapathy | Completed artwork heartbeat paused. All47 editions live:140 illustrations and139 text-led openings. One edition6 artwork held for geometry; existing poem art preserved. Independent editorial review remains separate. | — |
-| KBL-WORK-023 · Poetic Natural revision of every saved translation | completed | draft | Ahimanikya Satapathy | Local revision complete:1574 examined,818 revised,744 retained,12 held unchanged;1312 variants retain questions/provisional choices. Independent review pending;24 missing targets and22 external Edition48 variants separate. No publication authorized. | — |
+| KBL-WORK-023 · Poetic Natural revision of every saved translation | completed | published | Ahimanikya Satapathy | 818 revised variants published under KBL-DEC-060. 1574 examined;744 retained;12 held unchanged;1312 variants retain questions. Independent review remains in unlinked noindex translation-review.html;24 missing targets and22 separate Edition48 variants unchanged. | — |
 | KBL-WORK-024 · Adopt common website rulebook and local extensions | completed | applied | Ahimanikya Satapathy | Continue separately verified performance and common reader/service adoption. | — |
 | KBL-WORK-025 · Measure current public-build loading baseline | completed | reviewed | Ahimanikya Satapathy | Compare the same capture conditions/window after scoped performance changes; retain unfinished load states and production-verification limits. | — |
 | KBL-WORK-026 · Install opt-in common design foundations and local theme adapter | completed | reviewed | Ahimanikya Satapathy | Consume the pinned foundation in shared reader/service components; retain local palettes, font faces and editorial designs. | — |
@@ -56,7 +56,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-WORK-041 · Consolidate preparation explanation and preserve credits | in_progress | draft | Ahimanikya Satapathy | One preparation explanation in existing Our Story colophon; all current public pages link to credits or redirect to a credited destination. Final regression and publication remain separate. | — |
 | KBL-WORK-042 · Verify clean local release regression | in_progress | draft | Ahimanikya Satapathy | Finish fleet regression and prepare release handoff; live setup and publication remain separate. | — |
 | KBL-WORK-043 · Enable search discovery and Firebase bot protection | completed | published | Ahimanikya Satapathy | Search Console sitemap Success with1306 discovered pages verified11October2026. Discovery and bot protection rollout complete; indexing/citation decisions remain external. | — |
-| KBL-WORK-044 · Publish remaining translations and reader services with separate review desk | in_progress | draft | Ahimanikya Satapathy | Verify and publish approved combined candidate; retain independent linguistic review in unlinked noindex review desk. | — |
+| KBL-WORK-044 · Publish remaining translations and reader services with separate review desk | completed | published | Ahimanikya Satapathy | Published and live-verified. Translation questions remain in the unlinked noindex review desk; no independent linguistic certification claimed. | — |
 
 ## Pending human review and decisions
 
@@ -191,6 +191,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-REV-055 | pass_with_limitations | False | Two metadata-only poem pages retain their missing-text state; sharing their page is not evidence of a complete poetry archive.; Real OS share sheets, physical device clipboard permissions, deployed links and social-app previews remain release verification.; Native/clipboard controlled in actual Chrome pages; runtime services disabled and external traffic blocked. Existing real GA/Firebase source configuration preserved.; Portable internal KB export remains held on the prior automatic-review rejection; canonical own-project KB evidence retained. |
 | KBL-REV-056 | pass_with_limitations | False | Local public build and generated HTML checks do not certify independent editorial review or deployment. Existing content-ready/translation draft gates remain.; Specific portrait/home-art sources and substantive AI discussion remain as content context; the preparation explanation is centralized.; Canonical KB evidence only; prior portable internal-export hold remains separate and was not retried. |
 | KBL-REV-057 | pass_with_limitations | False | Current content-ready gate remains false; two metadata-only poem routes retain unavailable-text state. Missing writer biographies/reviews and editorial/linguistic review remain release dependencies.; Full local build is a review candidate with noindex/content restrictions; not approval or publication.; Browser sharing tests use controlled share/clipboard APIs, disabled services and external requests blocked; physical devices, real OS sheets, deployed HTTPS and social caches remain release checks.; Firestore uses synthetic authenticated emulator contexts; no cloud writes or deployment and no new anonymous Auth/account verification.; Prior portable internal-KB export hold remains open; no sync_handoff or internal export attempted.; Same-assistant Samanta/Drishti role passes are self-review. No independent literary/cultural review or new performance improvement claimed.; Utkal regression and fleet release handoff remain. |
+| KBL-REV-058 | pass_with_limitations | False | Independent linguistic review remains pending; source questions and holds preserved on unlinked noindex desk.; No production feedback/comment test message sent; submission and moderation behavior verified by45 emulator checks.; Site-search exclusion locally verified from generated fragments; compliant external crawlers receive noindex, not authentication. |
 
 ## Publication and application history
 
@@ -209,6 +210,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-REL-011 · Approved Odia signature published across current website | published | https://ahimanikya.github.io/kabita-live/ | KBL-DEC-057 |
 | KBL-REL-012 · Three-language essay and article comment layout published | published | https://ahimanikya.github.io/kabita-live/ | KBL-DEC-058 |
 | KBL-REL-013 · Search and AI discovery published with verified Firestore bot protection | published | https://kabitalive.com/ | KBL-DEC-059 |
+| KBL-REL-014 · Revised translations and reader services with separate review desk | published | https://kabitalive.com/ | KBL-DEC-060 |
 
 ## Sources and assets
 
@@ -253,7 +255,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-884 | 2026-10-07T17:14:28.804839+00:00 | Analytics delayed-load consent/failure recovery corrected;25source and33native browser checks pass on actual poem/language/reader at390/1280. Google traffic intercepted;actual provider background/article/full build checks remain. No publication/export. | — |
 | KBL-EVT-885 | 2026-10-07T17:28:58.408085+00:00 | Fresh full public build and36native article browser checks pass;source/dist Analytics parity and dedicated property preserved. Kabita local interface/build checkpoint verified with actual provider/account release checks explicit. Other site adoption next;no publication/export. | — |
 | KBL-EVT-886 | 2026-10-08T00:15:34.458321+00:00 | 1316publicpages and659sharingimages verified;11tests and freshpublicbuild pass. Fourduplicatecanonical linksfixed withaliasdestinations preserved. Existingselectedart preserved. PublicHTTPS/cache verification remains release work. | — |
 | KBL-EVT-887 | 2026-10-08T01:14:38.810670+00:00 | Added sharing controls on essay, current editorial and two metadata-only poem pages. All 814 poem/article routes covered. Fresh public build, four existing handler tests and 37 native Chrome checks pass. Prior content, artwork and runtime service configuration preserved. Real OS sheets and deployed routes remain release checks. | — |
@@ -263,6 +264,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-891 | 2026-10-10T00:42:41.253708+00:00 | Verified discovery build:1316pages,1306canonical indexable URLs and schema entries;87Node/19Python tests pass. Domain-restricted no-billing App Check registered and Firestore monitoring configured. Public deployment rejected by automatic approval review; explicit publication question pending. Existing live site unchanged; enforcement off pending client verification. | — |
 | KBL-EVT-892 | 2026-10-10T15:32:04.018531+00:00 | Explicit user approval received. Published b921bcfaf via successful manual discovery run38042806159. Live1306-URL sitemap/schema/crawl policy verified. Fixed missing App Check API, verified real attestation, enforced Firestore, confirmed unverified403 and Chrome Like0→1→0 cleanup. Google ownership verified and live homepage indexability PASS; sitemap submitted but Google fetch status remains pending/error. Billing disabled; editorial/private-data/consent boundaries retained. | — |
 | KBL-EVT-893 | 2026-10-11T02:49:53.148634+00:00 | Read-only follow-up confirms Google Search Console sitemap Success and1306discovered pages. Previous fetch error cleared; WORK043 completed. No website deployment or security changes. Discovery does not certify all pages indexed. | — |
+| KBL-EVT-894 | 2026-10-11T03:23:15.771673+00:00 | Published818revised variants across552poems and reader/share/receipt/article/Analytics improvements. Removed public draft notices;1574-entry review desk unlinked,noindex and excluded from site search/sitemap/LLM/Analytics.153JS,30Python,45Firestore checks and manualPages38107817312 pass. Live protected poem/article Like0→1→0 cleanup, comments reads, service graph and reading payload verified;1306sitemapURLs preserved,unverifiedFirestore403,billingoff. Independent linguistic review remains. | — |
 
 ## Deferred extensions
 

@@ -438,7 +438,7 @@
     "missing_targets": 24,
     "external_edition48_variants_excluded": 22,
     "independent_review": false,
-    "published": false,
+    "published": true,
     "batches": 185,
     "last_verified_batch": "batch-185",
     "queue_sha256": "4b92454e74c67e4bb85ff95ff1408b46839c8809bf9d9c7c5ddf20e87d3cb87b",
@@ -455,7 +455,8 @@
   "publication_authorization": {
     "decision": "KBL-DEC-060",
     "record": "kb/records/remaining-site-publication-2026-10-11.json",
-    "status": "approved_pending_deployment",
-    "independent_review": false
+    "status": "published_verified",
+    "independent_review": false,
+    "commit": "af50a7a097ff10a3cb13ba4cc382d5de9f824a78"
   }
 }

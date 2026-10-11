@@ -479,10 +479,10 @@
       "id": "KBL-WORK-023",
       "title": "Poetic Natural revision of every saved translation",
       "status": "completed",
-      "readiness": "draft",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-051",
-      "next_action": "Local revision complete:1574 examined,818 revised,744 retained,12 held unchanged;1312 variants retain questions/provisional choices. Independent review pending;24 missing targets and22 external Edition48 variants separate. No publication authorized.",
+      "next_action": "818 revised variants published under KBL-DEC-060. 1574 examined;744 retained;12 held unchanged;1312 variants retain questions. Independent review remains in unlinked noindex translation-review.html;24 missing targets and22 separate Edition48 variants unchanged.",
       "blockers": [],
       "refs": [],
       "evidence": [
@@ -919,8 +919,8 @@
     {
       "id": "KBL-WORK-044",
       "title": "Publish remaining translations and reader services with separate review desk",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-060",
       "refs": [
@@ -930,7 +930,7 @@
         "records/remaining-site-publication-2026-10-11.json"
       ],
       "blockers": [],
-      "next_action": "Verify and publish approved combined candidate; retain independent linguistic review in unlinked noindex review desk."
+      "next_action": "Published and live-verified. Translation questions remain in the unlinked noindex review desk; no independent linguistic certification claimed."
     }
   ],
   "decisions": [
@@ -2903,6 +2903,24 @@
         "Same-assistant Samanta/Drishti role passes are self-review. No independent literary/cultural review or new performance improvement claimed.",
         "Utkal regression and fleet release handoff remain."
       ]
+    },
+    {
+      "id": "KBL-REV-058",
+      "title": "Remaining site publication verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant",
+      "refs": [
+        "KBL-WORK-044"
+      ],
+      "evidence": [
+        "records/remaining-site-publication-2026-10-11.json"
+      ],
+      "limitations": [
+        "Independent linguistic review remains pending; source questions and holds preserved on unlinked noindex desk.",
+        "No production feedback/comment test message sent; submission and moderation behavior verified by45 emulator checks.",
+        "Site-search exclusion locally verified from generated fragments; compliant external crawlers receive noindex, not authentication."
+      ]
     }
   ],
   "releases": [
@@ -3087,6 +3105,20 @@
       ],
       "evidence": [
         "records/search-bot-protection-2026-10-10.json"
+      ]
+    },
+    {
+      "id": "KBL-REL-014",
+      "title": "Revised translations and reader services with separate review desk",
+      "status": "published",
+      "authorization": "KBL-DEC-060",
+      "destination": "https://kabitalive.com/",
+      "refs": [
+        "KBL-WORK-044",
+        "KBL-WORK-023"
+      ],
+      "evidence": [
+        "records/remaining-site-publication-2026-10-11.json"
       ]
     }
   ],
