@@ -10,7 +10,7 @@ export function setupResponses(root,service){
  const controls=[like,comments,more];
  const lock=flag=>{busy=flag;for(const button of controls)button.disabled=flag||!service;};
  if(!service){lock(false);status.textContent='Likes and comments are not available yet.';return;}
- lock(false);more.hidden=true;
+ lock(false);more.hidden=true;status.textContent="";
  like.addEventListener('click',async()=>{
   if(busy)return;lock(true);status.textContent='Updating your like…';
   try{const transport=await service.connect();if(desired===null){pendingRef=getRef();desired=!(await transport.readLikeState(pendingRef)).liked;}
