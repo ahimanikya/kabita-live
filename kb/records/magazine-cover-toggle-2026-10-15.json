@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "verified_local",
+  "status": "published_live_verified",
   "request": "Do not display front and back simultaneously; keep back cover optional.",
   "supersedes": "Initial side-by-side display in magazine-covers-2026-10-15.json; back-cover masters and reader entry remain.",
   "changes": [
@@ -24,6 +24,12 @@
     "artifacts/review/magazine-cover-toggle-2026-10-15/tests.log",
     "artifacts/review/magazine-cover-toggle-2026-10-15/build.log"
   ],
-  "publication": "Not pushed or deployed.",
+  "publication": {
+    "pushed": true,
+    "deployed": true,
+    "commit": "3dad5af80893ddc6e708aa66ab48118cbe270c24",
+    "record": "records/pending-publication-2026-10-15.json",
+    "verified_at": "2026-10-14T21:54:56.547087+00:00"
+  },
   "handoff": "Run final sync and storage check after this record."
 }

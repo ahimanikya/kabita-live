@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "implemented_verified_locally",
+  "status": "published_with_front_only_optional_back_refinement",
   "request": "For each edition, show front and back covers like a real magazine; clicking either enters the reader. Create the missing back covers.",
   "executor": "Current chat assistant; Samanta implementation and Drishti self-review",
   "independent": false,
@@ -53,8 +53,11 @@
   ],
   "masters": "artifacts/design/magazine-back-covers-2026-10-15/issue-N-back-v1.svg",
   "publication": {
-    "pushed": false,
-    "deployed": false
+    "pushed": true,
+    "deployed": true,
+    "commit": "3dad5af80893ddc6e708aa66ab48118cbe270c24",
+    "record": "records/pending-publication-2026-10-15.json",
+    "verified_at": "2026-10-14T21:54:56.547087+00:00"
   },
   "handoff": "Final sync after refreshing desktop screenshot; check_storage result recorded in review evidence."
 }

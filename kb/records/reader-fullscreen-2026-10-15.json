@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-14T20:54:20.141896+00:00",
-  "status": "implemented_locally_native_fullscreen_verification_pending",
+  "status": "published_native_fullscreen_manual_verification_pending",
   "authority": "User requested bringing full-screen mode and keyboard shortcuts from Pradeep Biswal site to Kabita Live.",
   "source_reference": {
     "path": "/Users/ahimanikya/Projects/Pradeep Biswal/github/dist/collection-reader.js",
@@ -52,7 +52,14 @@
     "build": "PASS: Node24 public build,1317 pages and Pagefind; exported reader-controls.mjs exactly matches source."
   },
   "evidence_directory": "kb/artifacts/review/reader-fullscreen-2026-10-15",
-  "published": false,
-  "push_or_deployment": false,
-  "content_changes": "No poem, translation, portrait, runtime-service or consent source edits."
+  "published": true,
+  "push_or_deployment": true,
+  "content_changes": "No poem, translation, portrait, runtime-service or consent source edits.",
+  "publication": {
+    "pushed": true,
+    "deployed": true,
+    "commit": "3dad5af80893ddc6e708aa66ab48118cbe270c24",
+    "record": "records/pending-publication-2026-10-15.json",
+    "verified_at": "2026-10-14T21:54:56.547087+00:00"
+  }
 }

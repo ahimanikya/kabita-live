@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "verified_ready_to_publish",
+  "status": "published_live_verified",
   "authorization": "User: publish everything pending",
   "baseline": "6ceba2bd9",
   "scope": [
@@ -21,10 +21,34 @@
     "sitemap_urls": 1306,
     "local_browser": "Desktop/mobile/keyboard/language and cover-reader return focus verified in prerequisite records.",
     "limitation": "Native fullscreen could not be entered by automated Chrome; fallback and unit tests passed. No independent editorial or linguistic certification.",
-    "repository_history_note": "Remote repository is a partial historical KB snapshot with309pre-existing missing evidence paths. Full KB structure/register/storage checks run against the canonical local KB; website build/tests pass in the clean release. No bulk historical backfill included."
+    "repository_history_note": "Remote repository is a partial historical KB snapshot with309pre-existing missing evidence paths. Full KB structure/register/storage checks run against the canonical local KB; website build/tests pass in the clean release. No bulk historical backfill included.",
+    "live": {
+      "http_requests": 59,
+      "editions_with_optional_hidden_back": 48,
+      "exact_asset_hash_matches": 5,
+      "sitemap_urls": 1306,
+      "review_noindex": true,
+      "private_design_route": 404,
+      "browser": [
+        "Edition48 front only initially; optional back/front toggle works.",
+        "Back-cover Enter opens quiet reader; ArrowRight advances1–2 to3–4.",
+        "Exit returns focus to the activating back-cover link.",
+        "Homepage links to issue48; original front restored on edition page."
+      ],
+      "independent": false
+    },
+    "firebase_rules_ci": "Passed"
   },
   "evidence": "artifacts/review/pending-publication-2026-10-15",
   "publication": {
-    "status": "pending"
-  }
+    "status": "success_live_verified",
+    "commit": "3dad5af80893ddc6e708aa66ab48118cbe270c24",
+    "workflow_id": 38642976058,
+    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/38642976058",
+    "hosting_mode": "discovery",
+    "site": "https://kabitalive.com/",
+    "push_note": "Initial HTTP400 transfer failed without updating remote; buffered HTTP/1.1 normal push succeeded.",
+    "verified_at": "2026-10-14T21:54:56.547087+00:00"
+  },
+  "handoff": "Canonical KB and portable handoff synchronized; structure and storage checks passed before deployment and repeated after recording live evidence."
 }
