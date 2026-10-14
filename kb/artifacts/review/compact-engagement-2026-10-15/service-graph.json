@@ -1,0 +1,54 @@
+{
+  "reason": "CI and local build assign different content-hashed dependency filenames. All code in the complete imported graph matches after only import filename normalization.",
+  "checks": [
+    {
+      "local": "engagement.js",
+      "live": "engagement.js",
+      "local_sha256": "03a4d7fe3ace435e0ee72d538d0e4fa30fc42914607dd99df823bed1e5495c8f",
+      "live_sha256": "3e254c2eb23dd2c566610678c1e6b5201d599641715b5b2315aac96493722771",
+      "identical_except_import_filenames": true
+    },
+    {
+      "local": "services/chunk-EKLV7FFI.js",
+      "live": "services/chunk-TXKYYZZ4.js",
+      "local_sha256": "d037324170a9945d63118d8fe56d62064d4d0eed8545adc6ae129036c5008c55",
+      "live_sha256": "08a532d8f133bddbb9d1f7dbd2522035937b3f78356ae55fcfc2a61b66f9aed6",
+      "identical_except_import_filenames": true
+    },
+    {
+      "local": "services/index.esm-SXA23RL5.js",
+      "live": "services/index.esm-AUXEAJIJ.js",
+      "local_sha256": "cbf02e6f699c19575c42a458af9fc9d301b26f32b6f32cf346698be808f49224",
+      "live_sha256": "397ff3ff30c263ff44b52caf8c9129fc80125cf968f5b5a7057e50b3794769e7",
+      "identical_except_import_filenames": true
+    },
+    {
+      "local": "services/index.esm-YCUSUKU6.js",
+      "live": "services/index.esm-4PGPPUQJ.js",
+      "local_sha256": "6c134812398f985d76b96f90c113d542a33666d5e5fa41a0c2377f3a4e47e16a",
+      "live_sha256": "9f08c2bb70cf9a061121ccabacbe7f2ace8f5af0b41f6af512ca4332d0f0a20a",
+      "identical_except_import_filenames": true
+    },
+    {
+      "local": "services/index.esm-XYMQK32Z.js",
+      "live": "services/index.esm-VPDWZM7T.js",
+      "local_sha256": "553d99bb442e4a292bc7e23b23142a5fe6fc2a66af92f5a7f22879126bc7dd1e",
+      "live_sha256": "96a54615e0c9b74a897085ccd9bbad338d38c5cc90916ed3c134fc4f155c6943",
+      "identical_except_import_filenames": true
+    },
+    {
+      "local": "services/index.esm-OMBRLELR.js",
+      "live": "services/index.esm-YEBFRJBB.js",
+      "local_sha256": "e341b5da72eb87f91c57607e18af63a92960b78629af446a2f3ca20785073d4e",
+      "live_sha256": "aac8807e4b0fdfd91946050f8cb8b8227dfdbee08fb563243845d6291953ea54",
+      "identical_except_import_filenames": true
+    },
+    {
+      "local": "services/chunk-4GS2K3TI.js",
+      "live": "services/chunk-5KANG7P5.js",
+      "local_sha256": "4f43faabf0d4dc39d0d2e9008bb37d816e5639353e11a3952b26d03727efeff9",
+      "live_sha256": "4f43faabf0d4dc39d0d2e9008bb37d816e5639353e11a3952b26d03727efeff9",
+      "identical_except_import_filenames": true
+    }
+  ]
+}

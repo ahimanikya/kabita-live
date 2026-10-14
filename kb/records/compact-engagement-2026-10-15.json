@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "verified_local",
+  "status": "published_live_verified",
   "request": "Unify comments, private feedback, Like and Share in an icon-only footer to save reading space.",
   "changes": [
     "One shared compact icon row, 44px targets, hover/focus tooltips and accessible names.",
@@ -21,8 +21,21 @@
       "Article private feedback opens and Escape closes, focus restored; closed comments/forms absent from accessibility tree."
     ],
     "public_export": "app.js, engagement.css and page-share.js bytes match source.",
-    "limitation": "Live service mutation not exercised: localhost intentionally keeps Firebase controls disabled. Existing service regression tests pass; no production comments or Likes were written.",
-    "clean_release": "Discovery build and166JavaScript/34Python checks passed on latest published baseline."
+    "limitation": "No production Likes, comments or feedback were submitted as tests. Read-only live UI/service verification completed.",
+    "clean_release": "Discovery build and166JavaScript/34Python checks passed on latest published baseline.",
+    "live": {
+      "http": "4 representative poem/article/edition pages have one compact footer and initially closed comments.",
+      "assets": "4 exact hashes (app.js, engagement.css, page-share.js, runtime configuration). Engagement bundle plus6dependencies match code exactly after dependency filename normalization; CI uses different chunk names.",
+      "browser": [
+        "Poem comments load from the live service; Escape closes and restores trigger focus.",
+        "Toolbar and footer Like controls share the same restored state/count; no test vote written.",
+        "Article feedback opens with enabled fields; switching to comments hides feedback; comments load successfully; Escape closes.",
+        "Live poem share dialog contains the correct canonical URL and current language; closing restores footer trigger.",
+        "Default poem response row is44px tall."
+      ],
+      "firebase_rules_ci": "passed",
+      "independent": false
+    }
   },
   "source_hashes": {
     "engagement_footer.py": "d7391476f289f5ea2cbc1d1b4fb8094b1eba9a7b8da592c232c78dc10c85dcbc",
@@ -43,10 +56,15 @@
   "rulebook": "reference/website-rulebook.md#6-keep-responses-simple-and-consent-meaningful",
   "publication": {
     "authorization": "User: push it",
-    "status": "verified_ready_to_push",
+    "status": "success_live_verified",
     "baseline": "54ceb3518693d8eb6ddb8eca7f4ef7cddabee4b4",
     "hosting_mode": "discovery",
-    "release_checkout": "/private/tmp/kbl-footer-release-20261015"
+    "release_checkout": "/private/tmp/kbl-footer-release-20261015",
+    "commit": "186596be6fda511f39e9ee93e11c5da7cdb33279",
+    "workflow_id": 38646248840,
+    "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/38646248840",
+    "verified_at": "2026-10-14T22:22:08.475666+00:00",
+    "site": "https://kabitalive.com/"
   },
-  "handoff": "Final synchronization and storage verification follows this record."
+  "handoff": "Canonical registers/bundle and portable synchronization/storage verification repeated at completion."
 }
