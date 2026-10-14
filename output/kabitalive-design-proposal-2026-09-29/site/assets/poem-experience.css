@@ -366,6 +366,13 @@ body.night .focus-page{box-shadow:none}
 .focus-bottom #focus-prev{margin-left:0}
 @media(max-width:360px){.focus-top{padding-inline:4px;gap:4px}.focus-top-tools{gap:0}}
 
+/* Full screen stays in the existing header; narrow phones use the menu. */
+#focus-fullscreen{display:inline-flex;align-items:center;justify-content:center;flex:0 0 44px;width:44px;height:44px;padding:8px}
+#focus-fullscreen-menu{display:none;align-items:center;gap:10px;min-height:44px;color:var(--muted);margin-bottom:12px}
+[data-reader-fullscreen][hidden]{display:none!important}
+[data-reader-fullscreen][aria-pressed=true]{color:var(--rust)}
+@media(max-width:400px){#focus-fullscreen{display:none}#focus-fullscreen-menu:not([hidden]){display:inline-flex}}
+
 /* All poem tools share one row: language first, then reading actions. */
 .poem-page .poem-toolbar{display:flex;align-items:center;flex-wrap:nowrap;gap:12px;margin-top:16px}
 .poem-page .poem-toolbar .poem-language-front{flex:0 0 auto;margin:0;padding:0;gap:0}

@@ -1,0 +1,20 @@
+{
+  "baseline": "6ceba2bd9",
+  "site_sources": [
+    "build.py",
+    "archive_directory.py",
+    "cover_layout.py",
+    "build-public.py",
+    "edition-pages.py",
+    "tests/test_magazine_covers.py",
+    "tests/reader-controls.test.mjs",
+    "tests/test_service_assets.py",
+    "templates/quiet-reader.html",
+    "assets/poem-experience.js",
+    "assets/reader-controls.mjs",
+    "assets/magazine-covers.css",
+    "assets/poem-experience.css",
+    "assets/app.js"
+  ],
+  "excluded_local_only": "Unreferenced historical art, optional foundation prototypes and old service chunks; retained locally. Existing live source/service/poetry data preserved."
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-15",
+  "status": "implemented_verified_locally",
+  "request": "For each edition, show front and back covers like a real magazine; clicking either enters the reader. Create the missing back covers.",
+  "executor": "Current chat assistant; Samanta implementation and Drishti self-review",
+  "independent": false,
+  "scope": {
+    "editions": 48,
+    "surfaces": [
+      "edition pages",
+      "homepage recent editions",
+      "archive and year archive pages"
+    ],
+    "reader": "Existing quiet reader; no new reader mode or pagination change"
+  },
+  "design": {
+    "back": "New native SVG companion cover with edition-specific existing artwork, existing cover-story title/opening extract, date, masthead, exact signature and URL. Not historical reconstruction.",
+    "artwork": "Same uncropped source as that edition front; card variant reuses existing responsive resource. No added raster download, no image generation.",
+    "interaction": "Two separate named native links with full cover targets; local edition activation intercepts only ordinary clicks, retains selected language and returns focus. Listings use existing focus=1 URL. Title links still reach contents.",
+    "originals": "All 1467 snapshotted content/cover files unchanged; sharing retains existing front artwork."
+  },
+  "implementation": [
+    "projects/site/cover_layout.py",
+    "projects/site/assets/magazine-covers.css",
+    "projects/site/build.py",
+    "projects/site/edition-pages.py",
+    "projects/site/archive_directory.py",
+    "projects/site/assets/poem-experience.js"
+  ],
+  "checks": {
+    "automated": "162 JS tests and34 Python tests passed; full Node24 public build passed (1317 pages;1312 indexed).",
+    "integrity": "artifacts/review/magazine-covers-2026-10-15/integrity.json",
+    "browser": [
+      "Edition48 front click and back Enter open the reader; focus returns to exact activating cover.",
+      "Edition48 English selection retained on back-cover reader entry.",
+      "Archive2022 filter works; issue1 back opens November2022 reader.",
+      "Homepage issue47 back opens September2026 reader.",
+      "Desktop,390px and320px; no horizontal overflow;44px targets exceeded by full-cover links; light/dark checked."
+    ],
+    "limitations": [
+      "Back-cover copy scales as printed cover artwork; full narrative remains readable as edition-page prose.",
+      "Native fullscreen remains subject to the earlier separate browser restriction; this cover change does not modify it."
+    ],
+    "review_type": "same-assistant self-review",
+    "handoff_retry": "First storage check detected only the desktop screenshot refreshed during sync. Re-synchronizing this documented source change; no divergent handoff edits."
+  },
+  "evidence": [
+    "artifacts/review/magazine-covers-2026-10-15/edition-desktop.png",
+    "artifacts/review/magazine-covers-2026-10-15/edition-mobile.png",
+    "artifacts/review/magazine-covers-2026-10-15/mobile-dark-320.png",
+    "artifacts/review/magazine-covers-2026-10-15/tests.log",
+    "artifacts/review/magazine-covers-2026-10-15/build.log"
+  ],
+  "masters": "artifacts/design/magazine-back-covers-2026-10-15/issue-N-back-v1.svg",
+  "publication": {
+    "pushed": false,
+    "deployed": false
+  },
+  "handoff": "Final sync after refreshing desktop screenshot; check_storage result recorded in review evidence."
+}

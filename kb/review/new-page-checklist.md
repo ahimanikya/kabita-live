@@ -31,6 +31,7 @@ Use with the [website rulebook](../reference/website-rulebook.md) for a new page
 - [ ] Desktop and phone presentation checked; long content, theme, keyboard and enlarged text considered.
 - [ ] Image dimensions and responsive candidates checked; key artwork loads promptly, below-fold images retain lazy loading, static previews and WOFF2 fonts preserve design.
 - [ ] Links and affected reading/form actions work; decoration does not obscure the action.
+- [ ] Edition cover views have the correct issue identity, uncropped art and accessible full-cover reader links. Home/archive are front-only; edition pages start on the front and swap one side at a time through a keyboard-accessible control. Keyboard entry, language retention and focus return work. Title links retain contents access and sharing still selects the front artwork.
 - [ ] Exactly one intentional sharing image; title, description, alt and canonical URL checked in initial HTML.
 - [ ] Absolute image URL uses the hosting base correctly; image is in the public export and uncropped.
 - [ ] Portrait, illustration, edition-cover or fallback mapping verified for this page family.
@@ -83,6 +84,7 @@ Decision or rulebook update needed:
 - [ ] No site text-size selectors or stored sizing overrides remain. Browser font enlargement and narrow reflow preserve readable poetry; bookmarks, languages and quiet-reader settings still work. See the 6 October browser-managed sizing rule, which supersedes earlier Aa requirements.
 
 - [ ] Quiet reader retains its shared theme toggle; reviewed editorial notices follow recorded human review without changing poem/release status.
+- [ ] Full-screen controls and F shortcut follow browser support, preserve the reading anchor, handle rejection and exit ownership safely; check actual native entry separately from unit tests. Arrow/Page keys do not intercept editing, modifiers, IME, repeat events, menus or selections. At 320px, full screen moves into settings without shrinking header targets.
 
 - [ ] One reader, illustrations off by default, assigned image/alt only at poem openings; toggling retains the reading anchor. Individual folios and overall range/total centered; light paper and clean dark surfaces verified at desktop and320px.
 

@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-15",
+  "status": "verified_ready_to_publish",
+  "authorization": "User: publish everything pending",
+  "baseline": "6ceba2bd9",
+  "scope": [
+    "Quiet-reader fullscreen and F shortcut; protected arrow/Page shortcuts.",
+    "Front-only home/archive; optional in-place front/back switch on each of48edition pages; visible covers open reader."
+  ],
+  "preserved": [
+    "Latest remote source, all poetry/translations, portraits and artwork assignments.",
+    "Discovery hosting mode,1306sitemapURLs, active Firebase/GA4 safeguards, custom domain.",
+    "Unlinked noindex translation-review exception and public reader-only export."
+  ],
+  "checks": {
+    "node": "24.15.0",
+    "build": "1317public pages;1312indexed pages",
+    "javascript_tests": 162,
+    "python_tests": 34,
+    "cover_pages_checked": 48,
+    "sitemap_urls": 1306,
+    "local_browser": "Desktop/mobile/keyboard/language and cover-reader return focus verified in prerequisite records.",
+    "limitation": "Native fullscreen could not be entered by automated Chrome; fallback and unit tests passed. No independent editorial or linguistic certification.",
+    "repository_history_note": "Remote repository is a partial historical KB snapshot with309pre-existing missing evidence paths. Full KB structure/register/storage checks run against the canonical local KB; website build/tests pass in the clean release. No bulk historical backfill included."
+  },
+  "evidence": "artifacts/review/pending-publication-2026-10-15",
+  "publication": {
+    "status": "pending"
+  }
+}

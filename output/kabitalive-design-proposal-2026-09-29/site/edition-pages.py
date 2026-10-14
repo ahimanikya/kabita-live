@@ -137,7 +137,7 @@ for issue in publication_issues:
     date=f'{issue["month"]} {issue["year"]}';art=cover_by_number[n]
     refs=' '.join(f'<a class="text-link" href="{e(ref["url"])}" target="_blank" rel="noopener noreferrer">{e(ref["label"])} ↗</a>' for ref in art.get('sources',[]))
     culture=f'<div class="edition-cultural"><h3>Cultural connection</h3><p>{e(art["cultural_connection"])}</p>'+(f'<div class="edition-cover-sources">{refs}</div>' if refs else '')+'</div>'
-    cover_figure='<figure class="edition-cover">'+cover(n)+'</figure>'
+    cover_figure='<figure class="edition-cover">'+coverpair(n,local=True)+'<figcaption>Select the cover to read</figcaption></figure>'
     current=n==current_home_issue['number']
     issue_label=(f'<span class="eyebrow">Current issue · {n}</span>' if current else f'<span class="eyebrow">Issue {n}</span>')
     editorial=render_editorial(R,n,publication_poems,edition_writer_names)

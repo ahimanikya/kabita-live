@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-15",
+  "status": "verified_local",
+  "request": "Do not display front and back simultaneously; keep back cover optional.",
+  "supersedes": "Initial side-by-side display in magazine-covers-2026-10-15.json; back-cover masters and reader entry remain.",
+  "changes": [
+    "Home and archive show front covers only, with no back-cover control.",
+    "Edition page defaults to front. A View back cover / View front cover button swaps in place without animation. Only the visible face is focusable.",
+    "Clicking either displayed face opens the same reader; keyboard operation and focus restoration preserved.",
+    "Restored original cover widths, edition columns and compact mobile homepage layout."
+  ],
+  "review": {
+    "independent": false,
+    "browser": [
+      "Desktop default, keyboard toggle both ways, back-cover reader entry and return focus passed.",
+      "390px back-only view with no horizontal overflow passed.",
+      "Archive48fronts/zero backs; home3fronts/zero backs."
+    ],
+    "automated": "162 JavaScript tests and34 Python tests pass; Node24 public build passes; all48source/public edition pages have one initially hidden back; listings contain no back;1467 original source/cover files unchanged."
+  },
+  "evidence": [
+    "artifacts/review/magazine-cover-toggle-2026-10-15/front-default.png",
+    "artifacts/review/magazine-cover-toggle-2026-10-15/back-mobile.png",
+    "artifacts/review/magazine-cover-toggle-2026-10-15/tests.log",
+    "artifacts/review/magazine-cover-toggle-2026-10-15/build.log"
+  ],
+  "publication": "Not pushed or deployed.",
+  "handoff": "Run final sync and storage check after this record."
+}

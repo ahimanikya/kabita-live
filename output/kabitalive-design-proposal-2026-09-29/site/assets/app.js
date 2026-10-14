@@ -103,3 +103,18 @@ async function revealCreditSource(){
 }
 window.addEventListener('hashchange',revealCreditSource);
 revealCreditSource();
+
+// One cover at a time. Back covers are an optional edition-page view.
+document.querySelectorAll('[data-cover-view]').forEach(view=>{
+ const toggle=view.querySelector('[data-cover-toggle]');
+ const front=view.querySelector('[data-cover-face="front"]');
+ const back=view.querySelector('[data-cover-face="back"]');
+ const issue=front.querySelector('[data-cover-edition]').dataset.coverEdition;
+ toggle.hidden=false;
+ toggle.addEventListener('click',()=>{
+  const showBack=back.hidden;
+  front.hidden=showBack;back.hidden=!showBack;
+  toggle.textContent=showBack?'View front cover':'View back cover';
+  toggle.setAttribute('aria-label',`${toggle.textContent} of issue ${issue}`);
+ });
+});

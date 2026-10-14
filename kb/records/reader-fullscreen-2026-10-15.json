@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-14T20:54:20.141896+00:00",
+  "status": "implemented_locally_native_fullscreen_verification_pending",
+  "authority": "User requested bringing full-screen mode and keyboard shortcuts from Pradeep Biswal site to Kabita Live.",
+  "source_reference": {
+    "path": "/Users/ahimanikya/Projects/Pradeep Biswal/github/dist/collection-reader.js",
+    "sha256": "7c6b8f5bd5fbc41cf235c5ec73b18e54e2340327572655c51fa5efeb365faefb",
+    "observed_features": [
+      "Full-screen toggle with Fullscreen API",
+      "Arrow-key page navigation with editing/modifier guards"
+    ]
+  },
+  "changes": [
+    "Full-screen toggle before theme/menu on larger screens; in settings at 400px and below",
+    "F toggles full screen while reading; Left/Right and PageUp/PageDown have shortcut hints",
+    "No shortcut interception for modifiers, handled/repeated/IME events, editing controls, open menus or selections",
+    "Preserve passage underlining; full-screen rejection announces a safe fallback",
+    "Viewport changes retain reading anchor; close exits only reader-owned full screen"
+  ],
+  "files": {
+    "assets/reader-controls.mjs": "1d214609b633476f1468fa936689ef85a975159cee879d0c8fa0abcabfd5c55d",
+    "assets/poem-experience.js": "2813bd85c572ec90f386bf5a4caf62bb3f3f022d72bb3dd5a3c273ad2d73e828",
+    "assets/poem-experience.css": "d1272b0848604bfc065ede343e883fd43c6c90f0df69f2d1070c6c4ba186a8c0",
+    "templates/quiet-reader.html": "2286fa90b508d3ea530b6ed6e366f7231e8bcac59a78511aa8bedd63ebeb2055",
+    "build.py": "db96309f19cc78975d90e45c9fc3976a636913855910fcaca10577a5a0db6bb4",
+    "tests/reader-controls.test.mjs": "65055b2f0130d22c1e6cdf6d58f30c189e4ea8b2504ff78ab927d364359e4661",
+    "build-public.py": "5ec534379a454e014eda07c8d413f3ddeefbdf021d44cd87cf108981152636ac"
+  },
+  "routes_checked": [
+    "poem-829.html",
+    "issue-48.html",
+    "poems.html"
+  ],
+  "preview": "http://127.0.0.1:8771/issue-48.html",
+  "review": {
+    "independent": false,
+    "automated": "162 JavaScript tests and32 Python tests passed, including9 new reader-control cases; final build recorded separately",
+    "browser": [
+      "Desktop arrow keys advance one spread",
+      "Edition PageDown/PageUp advances and returns correctly",
+      "320px header: seven44px controls in one row, no overflow; full-screen menu control present",
+      "500px header fits within viewport",
+      "Odia and English reading, mobile dark theme, desktop light theme checked",
+      "Settings input F leaves page unchanged; Escape dismisses settings",
+      "Exit restores focus to original Read quietly button",
+      "Poem, edition and catalogue entrypoints expose shared controls",
+      "Browser refusal leaves reader usable and communicates fallback"
+    ],
+    "limitation": "Chrome returned TypeError: not granted to automated full-screen entry, both click and F; no successful native fullscreen entry/exit claimed. Unit tests cover success, browser exit, ownership, request races, unsupported and rejection paths. Manual native entry check remains.",
+    "export_fix": "Added new reader-controls.mjs explicitly to public asset allowlist; final exported bytes match source.",
+    "handoff_retry": "First storage check found only the actively changing build.log; final sync runs after build completion, preserving divergent handoff safeguards.",
+    "build": "PASS: Node24 public build,1317 pages and Pagefind; exported reader-controls.mjs exactly matches source."
+  },
+  "evidence_directory": "kb/artifacts/review/reader-fullscreen-2026-10-15",
+  "published": false,
+  "push_or_deployment": false,
+  "content_changes": "No poem, translation, portrait, runtime-service or consent source edits."
+}

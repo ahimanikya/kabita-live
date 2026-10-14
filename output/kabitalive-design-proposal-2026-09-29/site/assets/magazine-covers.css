@@ -1,4 +1,15 @@
 /* Printed issue presentation. The approved, uncropped cover remains untouched. */
+.magazine-view{min-width:0;text-align:center}
+.magazine-cover-link{display:block;min-width:0;color:var(--ink)}
+.magazine-view [hidden]{display:none!important}
+.magazine-cover-toggle{min-height:44px;padding:10px 8px;margin-top:10px;font:0.875rem/1.5 var(--ui);color:var(--muted);text-decoration:underline;text-underline-offset:4px}
+.magazine-cover-toggle:hover{color:var(--rust)}
+#main .magazine-view .cover{width:100%;max-width:none;min-height:0;padding:0;aspect-ratio:2/3}
+.magazine-back{display:block;position:relative;isolation:isolate;border:0;border-radius:2px 1px 1px 2px;background:#f5efdf;box-shadow:0 2px 3px rgb(23 30 27 / .16),-5px 10px 18px -10px rgb(23 30 27 / .3)}
+.magazine-back>svg{display:block;width:100%;height:auto;border-radius:inherit}
+.magazine-back::before{content:"";position:absolute;inset:0 0 0 auto;width:4.5%;background:linear-gradient(270deg,rgb(12 22 19 / .15),transparent);pointer-events:none}
+.magazine-back::after{display:none}
+#main .edition-cover figcaption{text-align:center;margin-top:0;font-size:0.8125rem}
 .cover.photo-cover.cover-b.magazine-object{
   position:relative;
   overflow:visible;

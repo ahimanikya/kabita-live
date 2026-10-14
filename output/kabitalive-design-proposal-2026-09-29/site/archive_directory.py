@@ -9,7 +9,7 @@ def render_archive(site, issues, cover, year='all'):
     cards=[]
     for issue in issues:
         n=issue['number'];date=escape(f"{issue['month']} {issue['year']}")
-        cards.append(f'<article class="issue-card" data-issue-year="{issue["year"]}"><a href="issue-{n}.html" aria-label="Open issue {n}">{cover(n)}</a><div class="edition-identity"><h2><a href="issue-{n}.html">{date}</a></h2><p>Issue {n} · {len(issue["poem_ids"])} poems</p></div></article>')
+        cards.append(f'<article class="issue-card" data-issue-year="{issue["year"]}">{cover(n)}<div class="edition-identity"><h2><a href="issue-{n}.html">{date}</a></h2><p>Issue {n} · {len(issue["poem_ids"])} poems</p></div></article>')
     return ('<link rel="stylesheet" href="assets/archive-directory.css?v=1"><script defer src="assets/archive-directory.js?v=1"></script>'
         f'<div class="archive-directory" data-initial-year="{year}"><section class="archive-opening"><div><span class="eyebrow artistic-eyebrow">'+icon+
         f' The archive</span><h1>Past editions</h1><p>Browse {len(issues)} editions, from {issues[-1]["month"]} {issues[-1]["year"]} to {issues[0]["month"]} {issues[0]["year"]}.</p></div><img src="assets/section-art/archive-640.webp" width="640" height="427" alt=""></section>'

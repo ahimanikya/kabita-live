@@ -2,6 +2,7 @@ import {createNativeLoader} from './shared-reader-collections.mjs';
 import {getNativeStore} from './shared-reader-storage.mjs';
 import {normalized,subtract} from './poem-marks.mjs?v=2';
 import {packReadingPages} from './reader-pagination.mjs?v=1';
+import {readerKeyAction,createReaderFullscreen} from './reader-controls.mjs?v=1';
 (()=>{
 'use strict';
 const $=s=>document.querySelector(s), query=new URLSearchParams(location.search);
@@ -25,6 +26,17 @@ const previous=$('#focus-prev'),next=$('#focus-next'),progress=$('#focus-progres
 let poemIndex=0,language='original',pageIndex=0,pages=[],units=[],spread=1,returnFocus,returnScroll=0;
 let savedKey='kabita-live-quiet-reader-v1:'+ (dataset.url||pageData.id);
 const languageNames={or:'Odia',hi:'Hindi',en:'English'};
+const fullscreenButtons=[...dialog.querySelectorAll('[data-reader-fullscreen]')];
+const fullscreen=createReaderFullscreen({document,root:document.documentElement,isOpen:()=>dialog.open,
+ announce:message=>{$('#focus-announcement').textContent=message},
+ onChange:active=>{
+  const label=active?'Exit full screen':'Enter full screen';
+  fullscreenButtons.forEach(button=>{button.setAttribute('aria-label',label);button.setAttribute('aria-pressed',String(active));button.title=label+' (F)';button.querySelector('.focus-fullscreen-label').textContent=label;});
+  if(dialog.open){clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>paginate(currentUnit()),100)}
+ }});
+fullscreenButtons.forEach(button=>{button.hidden=!fullscreen.supported;button.addEventListener('click',()=>{dismissQuietSettings();fullscreen.toggle();area.focus({preventScroll:true})})});
+$('#focus-fullscreen-hint').hidden=!fullscreen.supported;
+previous.setAttribute('aria-keyshortcuts','ArrowLeft PageUp');next.setAttribute('aria-keyshortcuts','ArrowRight PageDown');
 function fillContents(){
  $('#focus-poem').replaceChildren();
  poems.forEach((p,i)=>{const option=document.createElement('option');option.value=i;option.textContent=`${i+1}. ${p.variants[p.source_language].title}`;$('#focus-poem').append(option)});
@@ -156,7 +168,7 @@ function render(){
  progress.textContent=`${pageIndex+1}${end>pageIndex+1?'–'+end:''} / ${pages.length}`;
  previous.disabled=pageIndex===0;next.disabled=end===pages.length;
  previous.textContent='←';next.textContent='→';
- previous.setAttribute('aria-label','Previous page');next.setAttribute('aria-label','Next page');previous.title='Previous page';next.title='Next page';
+ previous.setAttribute('aria-label','Previous page');next.setAttribute('aria-label','Next page');previous.title='Previous page (← or Page Up)';next.title='Next page (→ or Page Down)';
  updateBookmark();
  area.dataset.page=pageIndex;area.dataset.pageCount=pages.length;area.dataset.poemId=poems[poemIndex].id;area.dataset.lineCount=units.filter(u=>u.type==='line').length;
 }
@@ -181,13 +193,17 @@ async function openReader(){
  language=document.querySelector('[data-reading-language][aria-selected="true"]')?.dataset.readingLanguage||$('[data-collection-reader]')?.dataset.readingLanguage||'original';
  let anchor=-1;
  try{const saved=readJSON(savedKey,null);if(saved?.id===pageData.id&&saved.language===language){anchor=Number.isInteger(saved.unit)?saved.unit:-1}}catch{}
- syncEffects();dialog.showModal();document.body.style.overflow='hidden';await document.fonts.ready;paginate(anchor);area.focus();opening=false;
+ syncEffects();dialog.showModal();document.body.style.overflow='hidden';await document.fonts.ready;paginate(anchor);fullscreen.sync();area.focus();opening=false;
  $('#focus-load-note').hidden=loaded;$('#focus-load-note').textContent=loaded?'':'The edition could not be loaded. You can still read this poem; close and reopen to retry.';
 }
 
 function closeReader(){cancelPaperTurn();clearSelection();save();settings.hidden=true;$('#focus-settings-button').setAttribute('aria-expanded','false');dialog.close()}
-$('#open-focus').addEventListener('click',openReader);$('#close-focus').addEventListener('click',closeReader);
-dialog.addEventListener('close',()=>{cancelPaperTurn();save();document.body.style.overflow='';window.scrollTo(0,returnScroll);returnFocus?.focus({preventScroll:true})});
+$('#open-focus').addEventListener('click',openReader);
+document.querySelectorAll('[data-open-edition-reader]').forEach(link=>link.addEventListener('click',event=>{
+ if(event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+ event.preventDefault();openReader();
+}));$('#close-focus').addEventListener('click',closeReader);
+dialog.addEventListener('close',()=>{fullscreen.leave();cancelPaperTurn();save();document.body.style.overflow='';window.scrollTo(0,returnScroll);returnFocus?.focus({preventScroll:true})});
 $('#focus-settings-button').addEventListener('click',()=>{settings.hidden=!settings.hidden;$('#focus-settings-button').setAttribute('aria-expanded',String(!settings.hidden));if(!settings.hidden){clearSelection();renderSaved();settings.querySelector('[data-focus-language=original]').focus();settings.scrollTop=0}});
 function dismissQuietSettings(restoreFocus=false){
  const hadFocus=settings.contains(document.activeElement);
@@ -200,15 +216,18 @@ dialog.addEventListener('pointerdown',e=>{
  dismissQuietSettings();
 });
 dialog.addEventListener('cancel',e=>{
- if(settings.hidden)return;
- e.preventDefault();dismissQuietSettings(true);
+ if(!settings.hidden){e.preventDefault();dismissQuietSettings(true);return}
+ if(fullscreen.active()){e.preventDefault();fullscreen.toggle();}
 });
 document.querySelectorAll('[data-focus-language]').forEach(button=>button.addEventListener('click',()=>{clearSelection();language=button.dataset.focusLanguage;paginate();save();announcePoem();if(browseCollection)filterPoems()}));
 $('#focus-poem').addEventListener('change',e=>{clearSelection();poemIndex=Number(e.target.value);paginate();save();announcePoem()});
 previous.addEventListener('click',()=>turn(-1));next.addEventListener('click',()=>turn(1));
-dialog.addEventListener('keydown',e=>{if(e.target.closest('select,input')||!settings.hidden)return;
- if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='u'&&captureSelection().length){e.preventDefault();markSelection(false);return;}
- if(e.shiftKey||!getSelection().isCollapsed)return;if(e.key==='ArrowRight'||e.key==='PageDown'){e.preventDefault();turn(1)}if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();turn(-1)}});
+dialog.addEventListener('keydown',e=>{
+ if(!e.defaultPrevented&&!e.isComposing&&!e.repeat&&!e.altKey&&!e.shiftKey&&!e.target.isContentEditable&&!e.target.closest('input,select,textarea,[role=textbox]')&&settings.hidden&&(e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='u'&&captureSelection().length){e.preventDefault();markSelection(false);return;}
+ const action=readerKeyAction(e,{open:dialog.open,settingsOpen:!settings.hidden||!selectionTools.hidden,selectionActive:!getSelection().isCollapsed});
+ if(!action||action==='fullscreen'&&!fullscreen.supported)return;
+ e.preventDefault();if(action==='fullscreen')fullscreen.toggle();else turn(action==='next'?1:-1);
+});
 let pointer=null;area.addEventListener('touchstart',e=>{if(e.touches.length===1)pointer={x:e.touches[0].clientX,y:e.touches[0].clientY}},{passive:true});
 area.addEventListener('touchend',e=>{if(!pointer||!getSelection().isCollapsed)return;const dx=e.changedTouches[0].clientX-pointer.x,dy=e.changedTouches[0].clientY-pointer.y;pointer=null;if(Math.abs(dx)>70&&Math.abs(dy)<40)turn(dx<0?1:-1)},{passive:true});
 // Treat horizontal trackpad momentum as one gesture, not repeated page turns.
