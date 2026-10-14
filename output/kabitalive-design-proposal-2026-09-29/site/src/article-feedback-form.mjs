@@ -5,6 +5,7 @@ export function setupFeedbackForm(form,service,ref,idFactory=newSubmissionId){
  const {name,email,message,reason,consent,send,status}=fields;let pending=null,busy=false;
  const state=()=>{send.disabled=busy||!service;for(const input of[name,email,message]){input.disabled=!service;input.readOnly=!!pending;}reason.disabled=consent.disabled=!service||!!pending;send.textContent=pending?'Retry this feedback':'Send private feedback';};state();
  if(!service){status.textContent='Private feedback is not available yet.';return;}
+ status.textContent='';
  form.addEventListener('submit',async event=>{
   event.preventDefault();if(busy)return;
   try{if(!pending){if(!consent.checked){status.textContent='Please agree to send this message privately to the editorial team.';return;}

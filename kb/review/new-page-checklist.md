@@ -95,3 +95,9 @@ Decision or rulebook update needed:
 - [ ] Poem language and action controls share one row, separated by one subtle vertical rule; no Read in label, wrapping, reduced44px targets or320px overflow.
 
 - [ ] Export includes only registered reader routes; development review files remain local even if copied as ordinary files. Public copy has no AI tool credits, while human credits, source acknowledgements and licences remain.
+
+## Compact engagement footer — 15 October 2026
+
+- Where engagement is enabled, check one icon row (Like, Comments, Private feedback, separator, Share), 44px targets, names/tooltips and narrow-screen fit.
+- Verify closed panels at first load, one open panel at a time, retained drafts, Escape/focus return, existing moderation/privacy wording and no duplicate submissions from toolbar/footer Like controls.
+- Check share dialog/native sharing/copy fallback without an extra permanent sharing row. Unsupported service controls remain honestly unavailable; do not enable additional backend contexts as part of layout work.

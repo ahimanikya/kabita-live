@@ -4,6 +4,7 @@ from html import escape
 import json,re
 from poem_reader import render_reader
 from reader_icons import quiet_reader_icon, reader_action_icon
+from engagement_footer import poem_actions
 from writer_names import writer_aliases
 ROOT=Path(__file__).resolve().parent
 READING_RE=re.compile(r'(<script type="application/json" id="reading-data">)(.*?)(</script>)',re.S)
@@ -112,7 +113,7 @@ def enhance_poem(body,p,data):
     body=re.sub(r'(?P<prefix><p class="stanza">|<br>)(?P<text>[*＊_—–=\-\s]{3,})(?=<br>|</p>)',lambda m:m['prefix']+'<span class="source-end-marker" hidden>'+m['text']+'</span>',body)
     dataset={'url':f'assets/reading-editions/issue-{p["edition"]}.json'} if p['edition'] else {}
     body+='<script type="application/json" id="focus-edition-data">'+encoded(dataset)+'</script>'+(ROOT/'templates/quiet-reader.html').read_text()
-    engagement=(ROOT/'templates/poem-engagement.html').read_text().replace('{{POEM_ID}}',str(p['id']))
+    engagement=(ROOT/'templates/poem-engagement.html').read_text().replace('{{POEM_ID}}',str(p['id'])).replace('{{RESPONSE_ACTIONS}}',poem_actions(p['id']))
     # One genuine Like control, moved into the toolbar; comments remain below.
     like_row=re.search(r'<div class="like-row">.*?</div>',engagement,re.S)[0]
     like_row=like_row.replace('data-like aria-pressed', 'data-like disabled aria-pressed').replace('aria-label="Like this poem"', 'aria-label="Like this poem" title="Like this poem"')

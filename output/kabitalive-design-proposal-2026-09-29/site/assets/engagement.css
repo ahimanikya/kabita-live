@@ -12,3 +12,23 @@
 .poem-engagement article p{white-space:pre-wrap;margin:8px 0;font-size:18px}
 .poem-engagement form{margin-top:24px;max-width:620px}
 .poem-engagement textarea{min-height:130px}
+
+/* Shared response footer: quiet icons until the reader asks to respond. */
+.response-footer{width:100%;max-width:760px;margin:20px auto;padding:0;border:0;font:16px/1.65 var(--ui);color:var(--ink)}
+.response-footer .response-actions{display:flex;align-items:center;flex-wrap:nowrap;gap:4px;min-height:44px}
+.response-footer .response-icon{position:relative;display:inline-flex;align-items:center;justify-content:center;flex:0 0 44px;width:44px;height:44px;min-height:44px;padding:10px;border:0;border-radius:0;background:transparent;color:var(--ink);text-decoration:none;cursor:pointer}
+.response-footer .response-icon svg{display:block;width:24px;height:24px;flex:none}
+.response-footer .response-icon:disabled{opacity:.45;cursor:not-allowed}
+.response-footer .response-icon:is(:hover,:focus-visible,[aria-expanded="true"],[aria-pressed="true"]){color:var(--rust,var(--laterite));background:transparent}
+.response-footer .response-icon[aria-pressed="true"] svg{fill:currentColor}
+.response-footer .response-icon:focus-visible{outline:2px solid var(--rust,var(--laterite));outline-offset:2px}
+.response-footer .response-divider{height:20px;width:1px;background:var(--line);margin:0 6px;flex:none}
+.response-footer .response-tip{position:absolute;z-index:8;bottom:calc(100% + 6px);left:0;width:max-content;max-width:min(230px,75vw);padding:5px 8px;background:var(--ink);color:var(--paper);font:13px/1.4 var(--ui);white-space:normal;pointer-events:none;visibility:hidden;opacity:0}
+.response-footer .response-icon:is(:hover,:focus-visible) .response-tip{visibility:visible;opacity:1}
+.response-footer [hidden]{display:none!important}
+.response-footer [data-response-panel]{margin:12px 0 0;padding:0;border:0}
+.response-footer [data-response-panel]>summary{display:none}
+.response-footer [role="status"]:empty{display:none}
+.response-footer [role="status"]{font:14px/1.5 var(--ui);color:var(--muted);margin:8px 0}
+.response-footer [data-share-manual] input{width:100%;font:inherit;min-height:44px}
+.response-footer form{margin:12px 0 20px}

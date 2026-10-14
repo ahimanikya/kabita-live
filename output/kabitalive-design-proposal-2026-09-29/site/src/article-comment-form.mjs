@@ -6,6 +6,7 @@ export function setupCommentForm(form,service,ref,idFactory=newSubmissionId){
  let pending=null,busy=false;
  const state=()=>{send.disabled=busy||!service;message.disabled=!service;message.readOnly=!!pending;if(name){name.disabled=!service;name.readOnly=!!pending;}if(consent)consent.disabled=!service||!!pending;send.textContent=pending?'Retry this comment':'Send comment';};state();
  if(!service){status.textContent='Comment submission is not available yet.';return;}
+ status.textContent='';
  form.addEventListener('submit',async event=>{
   event.preventDefault();if(busy)return;
   try{if(!pending){if(consent&&!consent.checked){status.textContent='Please agree to publication after moderation.';return;}

@@ -118,3 +118,33 @@ document.querySelectorAll('[data-cover-view]').forEach(view=>{
   toggle.setAttribute('aria-label',`${toggle.textContent} of issue ${issue}`);
  });
 });
+
+// A single, compact response row. Panels retain drafts when closed or switched.
+(()=>{
+ for(const root of document.querySelectorAll('.response-footer')){
+  const toggles=[...root.querySelectorAll('[data-response-toggle]')];
+  function setPanel(button,open){
+   const panel=document.getElementById(button.getAttribute('aria-controls'));
+   if(!panel)return;
+   button.setAttribute('aria-expanded',String(open));panel.hidden=!open;
+   if(panel.tagName==='DETAILS')panel.open=open;
+  }
+  toggles.forEach(button=>button.addEventListener('click',()=>{
+   const open=button.getAttribute('aria-expanded')!=='true';
+   toggles.forEach(other=>setPanel(other,other===button&&open));
+  },true));
+  root.addEventListener('keydown',event=>{
+   if(event.key!=='Escape'||event.defaultPrevented)return;
+   const active=toggles.find(button=>button.getAttribute('aria-expanded')==='true');
+   if(!active)return;setPanel(active,false);active.focus();event.preventDefault();event.stopPropagation();
+  });
+  const proxy=root.querySelector('[data-like-proxy]'),like=document.querySelector('[data-like]');
+  if(proxy&&like){
+   const sync=()=>{proxy.disabled=like.disabled;proxy.hidden=like.hidden;proxy.setAttribute('aria-pressed',like.getAttribute('aria-pressed')||'false');const label=like.getAttribute('aria-label')||'Like this poem';proxy.setAttribute('aria-label',label);proxy.title=like.title||label;proxy.querySelector('.response-tip').textContent=proxy.title;};
+   sync();new MutationObserver(sync).observe(like,{attributes:true,attributeFilter:['aria-pressed','aria-label','title','disabled','hidden']});
+   proxy.addEventListener('click',()=>like.click());
+   const source=document.querySelector('[data-like-status]'),status=root.querySelector('[data-footer-like-status]');
+   if(source&&status)new MutationObserver(()=>{status.textContent=source.textContent;}).observe(source,{childList:true,subtree:true,characterData:true});
+  }
+ }
+})();

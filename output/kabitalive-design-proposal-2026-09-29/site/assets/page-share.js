@@ -1,7 +1,7 @@
 "use strict";
 (() => {
  for (const panel of document.querySelectorAll('[data-page-sharing]')) {
-  const share=panel.querySelector('[data-share-page]'),copy=panel.querySelector('[data-copy-page]'),status=panel.querySelector('[role=status]'),manual=panel.querySelector('[data-share-manual]'),field=panel.querySelector('input');
+  const share=panel.querySelector('[data-share-page]'),copy=panel.querySelector('[data-copy-page]'),status=panel.querySelector('[data-share-status]')||panel.querySelector('[role=status]'),manual=panel.querySelector('[data-share-manual]'),field=panel.querySelector('[data-share-field]')||panel.querySelector('input');
   function target(){
    const editorial=document.querySelector('.editorial-prose:not([hidden])'),language=editorial?.lang||panel.lang,title=editorial?.querySelector('h2')?.textContent||panel.dataset.title;
    const url=new URL(location.pathname,location.origin);
@@ -14,12 +14,12 @@
    try{await navigator.clipboard.writeText(snapshot.url);status.textContent='Link copied.';manual.hidden=true;track('copy_link_complete',snapshot);}
    catch{manual.hidden=false;field.focus();field.select();status.textContent='Select and copy the page link below.';}
   }
-  copy.addEventListener('click',()=>copyLink(target()));
+  copy?.addEventListener('click',()=>copyLink(target()));
   share.addEventListener('click',async()=>{
    const snapshot=target();field.value=snapshot.url;
    if(typeof navigator.share!=='function'){await copyLink(snapshot);return;}
    try{await navigator.share({title:snapshot.title,text:snapshot.title+' · Kabita Live',url:snapshot.url});status.textContent='Sharing opened.';track('share_complete',snapshot);}
-   catch(error){status.textContent=error?.name==='AbortError'?'Sharing cancelled.':'Sharing is unavailable here. You can use Copy link.';}
+   catch(error){if(error?.name==='AbortError')status.textContent='Sharing cancelled.';else await copyLink(snapshot);}
   });
  }
 })();

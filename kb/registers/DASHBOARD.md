@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b1dec83cc4228419769181ec85abc4f0069d61701f13f5734ff02bd66b4526e2`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5581952eca062f078c8a64de04cff31278633a883cdd118ccfec26c06a9457a8`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -259,7 +259,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-892 | 2026-10-10T15:32:04.018531+00:00 | Explicit user approval received. Published b921bcfaf via successful manual discovery run38042806159. Live1306-URL sitemap/schema/crawl policy verified. Fixed missing App Check API, verified real attestation, enforced Firestore, confirmed unverified403 and Chrome Like0→1→0 cleanup. Google ownership verified and live homepage indexability PASS; sitemap submitted but Google fetch status remains pending/error. Billing disabled; editorial/private-data/consent boundaries retained. | — |
 | KBL-EVT-893 | 2026-10-11T02:49:53.148634+00:00 | Read-only follow-up confirms Google Search Console sitemap Success and1306discovered pages. Previous fetch error cleared; WORK043 completed. No website deployment or security changes. Discovery does not certify all pages indexed. | — |
 | KBL-EVT-894 | 2026-10-11T03:23:15.771673+00:00 | Published818revised variants across552poems and reader/share/receipt/article/Analytics improvements. Removed public draft notices;1574-entry review desk unlinked,noindex and excluded from site search/sitemap/LLM/Analytics.153JS,30Python,45Firestore checks and manualPages38107817312 pass. Live protected poem/article Like0→1→0 cleanup, comments reads, service graph and reading payload verified;1306sitemapURLs preserved,unverifiedFirestore403,billingoff. Independent linguistic review remains. | — |
 | KBL-EVT-895 | 2026-10-11T03:33:03.647073+00:00 | 146 development/book-review URLs already404. Added explicit reader-route export boundary and removed public AI credits while retaining human/source/font attribution and internal provenance. Translation review exception retained unlinked/noindex. Preparing authorized deployment. | — |
@@ -269,6 +268,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-903 | 2026-10-14T21:12:37.354815+00:00 | Simplified magazine covers following user correction: listings front-only; edition pages show one face at a time with optional back/front switch. Reader entry preserved. Tests/build and browser checks passed; local only. | — |
 | KBL-EVT-904 | 2026-10-14T21:43:59.084398+00:00 | User authorized publishing all pending completed website changes. Clean release based on latest remote6ceba2bd9 passes162JS/34Python tests and discovery build. Reader controls and front-only/optional-back cover design ready; unresolved editorial/portrait items preserved. | — |
 | KBL-EVT-905 | 2026-10-14T21:54:56.547087+00:00 | Published all completed pending website changes at3dad5af80 through successful manual discovery workflow38642976058. All48optional back-cover controls and5asset hashes live-verified; reader keyboard navigation and focus return passed. Existing editorial/portrait holds preserved; native fullscreen manual confirmation remains separate. | — |
+| KBL-EVT-906 | 2026-10-14T22:09:55.694011+00:00 | Consolidated poem and enabled article responses into a compact icon footer. Comments/private feedback open on demand; shared Like state and sharing fallback preserved.166JS/34Python checks, public build and desktop/mobile/theme review passed. Local only. | — |
 
 ## Deferred extensions
 

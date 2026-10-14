@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-15",
+  "status": "verified_local",
+  "request": "Unify comments, private feedback, Like and Share in an icon-only footer to save reading space.",
+  "changes": [
+    "One shared compact icon row, 44px targets, hover/focus tooltips and accessible names.",
+    "Public comments and private feedback stay closed until requested; one panel open at a time, Escape restores trigger focus, drafts retained.",
+    "Removed separate article sharing row and standalone Copy link button; Share retains native sharing and clipboard/manual fallback.",
+    "Poem footer Like delegates to the existing genuine toolbar control and mirrors state; no additional vote or authentication flow.",
+    "Poem private feedback keeps its contextual contact route. Article contexts retain inline private feedback forms.",
+    "Backend identities, moderation, consent, throttles and all literary content preserved."
+  ],
+  "checks": {
+    "independent": false,
+    "build": "Node24 public build passed:1317 pages;1312 indexed.",
+    "tests": "166 JavaScript and34 Python passed, including panel/draft/focus, single-share fallback, no rereads on close, and single genuine Like per poem.",
+    "browser": [
+      "Poem footer44px tall with four44px targets, fits320px without horizontal overflow.",
+      "Desktop light/dark and mobile visual checks passed.",
+      "Poem share opens correct current-language link, closing restores footer trigger.",
+      "Article private feedback opens and Escape closes, focus restored; closed comments/forms absent from accessibility tree."
+    ],
+    "public_export": "app.js, engagement.css and page-share.js bytes match source.",
+    "limitation": "Live service mutation not exercised: localhost intentionally keeps Firebase controls disabled. Existing service regression tests pass; no production comments or Likes were written.",
+    "clean_release": "Discovery build and166JavaScript/34Python checks passed on latest published baseline."
+  },
+  "source_hashes": {
+    "engagement_footer.py": "d7391476f289f5ea2cbc1d1b4fb8094b1eba9a7b8da592c232c78dc10c85dcbc",
+    "article_engagement.py": "7ae21c5c2b8850638e2778fedac9debba2cfe3ff84d174fec6c678c01d20594b",
+    "build.py": "3a1d3fa97905e52e1dbdbb16d0a320db28c81addd500f3b4391c0f9c33494d73",
+    "poem_experience.py": "1fd5190ba093600c4e28796da7ca94936baf74d38305f41c57cb2c209a9597f1",
+    "templates/article-engagement.html": "fd2e1a7dc9a5ee10d3bb0ec905a207ea1b92d63b6cd32e2c8c77b41c89635a3e",
+    "templates/poem-engagement.html": "4aa8185e3cfe04fe4162fe1d30c39ca915051d03be8806a4024dcb05e5ddfea8",
+    "src/engagement.ts": "4aba64d69b9aa74003e4b12ae685e90bb9f726d49d86b1504e49a19748bb375d",
+    "src/article-ui.mjs": "5390b3f82cc4fb361ca61327d7d597acc0c79a738db5ef8459005ad7308b5a45",
+    "src/article-comment-form.mjs": "d3bf85e0013170203b5fb834d6d3e1c4d01f4944be6cafc45e18a2e511fcdb3b",
+    "src/article-feedback-form.mjs": "d064c8ba61af8dfd8180beb117575c5e2e1427cb01a4d65186ff08f37a5aacae",
+    "assets/app.js": "74aa84d65b28751b81db736902f54d87bac3c753bf1118b2c12991ec3d9792ef",
+    "assets/engagement.css": "1ca148d9ca04935b98dbd1a1dd6cc7ccd6306613888434559bee09acaa28cdaa",
+    "assets/page-share.js": "18a5a6a1ad7ba8c351f768443d31b44d02e28d05f41fa28a4e1c57075af0ca9a"
+  },
+  "evidence": "artifacts/review/compact-engagement-2026-10-15",
+  "rulebook": "reference/website-rulebook.md#6-keep-responses-simple-and-consent-meaningful",
+  "publication": {
+    "authorization": "User: push it",
+    "status": "verified_ready_to_push",
+    "baseline": "54ceb3518693d8eb6ddb8eca7f4ef7cddabee4b4",
+    "hosting_mode": "discovery",
+    "release_checkout": "/private/tmp/kbl-footer-release-20261015"
+  },
+  "handoff": "Final synchronization and storage verification follows this record."
+}

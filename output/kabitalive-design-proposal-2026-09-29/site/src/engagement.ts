@@ -23,7 +23,9 @@ async function start(section:HTMLElement){
  if(!siteRuntimeAllowed(f,'kabita-live',location)||!/^\d{1,8}$/.test(poemId))return;
  const likesEnabled=runtime.engagement.likes===true,commentsEnabled=runtime.engagement.publicComments===true;
  if(!likesEnabled&&!commentsEnabled)return;
- section.hidden=!commentsEnabled;like.hidden=!likesEnabled;details.hidden=!commentsEnabled;
+ section.hidden=false;like.hidden=!likesEnabled;
+ const commentToggle=section.querySelector<HTMLButtonElement>('[data-response-toggle="comments"]');
+ if(commentToggle)commentToggle.disabled=!commentsEnabled;
  like.title="Like this poem";
  let service:Promise<any>|undefined;
  const connect=()=>service??=(async()=>{
