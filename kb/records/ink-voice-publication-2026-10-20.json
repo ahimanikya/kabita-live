@@ -76,7 +76,7 @@
     "verified_at": "2026-10-20T00:26:25.830765+00:00",
     "live_http": "artifacts/review/ink-voice-publication-2026-10-20/live-http-checks.json",
     "live_browser": "artifacts/review/ink-voice-publication-2026-10-20/live-browser-checks.json",
-    "verification_receipt_storage": "Canonical KB and portable handoff; repository upload explicitly approved by the user on 20 October 2026 after the prior automatic-review hold. Website deployment remains successful; this upload is documentation only."
+    "verification_receipt_storage": "Uploaded to the existing GitHub repository under KBL-DEC-083; canonical local KB and portable handoff verified. Website deployment remains unchanged."
   },
   "completed_at": "2026-10-20T00:26:25.830765+00:00",
   "handoff": {
@@ -97,6 +97,11 @@
     "scope": "27 held KB evidence/register files plus this approval and its review record; no website source, service settings or deployment.",
     "review": "Current assistant self-review; common credential patterns found no exposed tokens. Git checkout authorization is masked; the setup-java password field is only the GITHUB_TOKEN environment variable name. Screenshots show the public site without reader submissions.",
     "independent": false,
-    "evidence": "artifacts/review/ink-voice-publication-2026-10-20/upload-review.json"
+    "evidence": "artifacts/review/ink-voice-publication-2026-10-20/upload-review.json",
+    "status": "uploaded_verified",
+    "commit": "828dc1eb15844dc7384df340d442dd3ae7a47bb0",
+    "verified_at": "2026-10-20T01:03:15.390242+00:00",
+    "files": 28,
+    "handoff_storage_check": "PASS"
   }
 }

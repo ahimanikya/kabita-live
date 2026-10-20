@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `abf21d61bfd7164f7ff4dcb280b43a3db1fd9edc88c62906e767644f5d9bcf81`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3920397c01259d1bd2bc7a38ba895ac2dbd13f86f1f0b7e20ed894c8953896af`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -315,7 +315,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-925 | 2026-10-19T05:32:58.203458+00:00 | Confirmed exact current logo as favicon on all 1,317 public pages. Added the missing search-redirect favicon and a content-derived version plus explicit SVG type/size. Node 24 build and 205 tests pass; source/export artwork matches and 607 protected files unchanged. Browser-linked SVG rendered; no public deployment. | — |
 | KBL-EVT-926 | 2026-10-19T05:49:43.453857+00:00 | Applied approved theme-coloured small ornaments, English editorial display headings, restrained homepage panel-edge wash and duplicate stylesheet cleanup. Fresh local visual/computed checks; historical artwork preserved. | — |
 | KBL-EVT-927 | 2026-10-19T05:49:43.453857+00:00 | Made Original and its source language visible beside the two translation choices on 810 poem pages and in quiet reading. Mixed-source openings and resize anchors verified; 211 tests pass, public export runtime checked. No publication. | — |
 | KBL-EVT-928 | 2026-10-19T05:58:13.223231+00:00 | Applied user clarification for smaller uppercase badging: ORIGINAL above the aligned source-language symbol; 44px controls remain on one row on phones. Final public export, 810 badges, 211 tests and edition checks pass. Earlier stacked and (O) studies superseded. No deployment. | — |
@@ -325,6 +324,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-932 | 2026-10-20T00:12:13.474318+00:00 | User authorized publication of the completed Ink & Voice redesign. Prepared isolated latest-main release; scoped source transfer preserves all poetry and current service settings. Build and release checks in progress. | — |
 | KBL-EVT-933 | 2026-10-20T00:26:25.830765+00:00 | Published Ink & Voice from latest main at21e9ba1e0 through manual discovery workflow39346758248. Hosted build,211local tests and hosted Firestore rule checks passed. Live checked28URLs/assets, desktop and320/360/390px reading, both themes, Original badges, cover navigation, rotation and comments layout. Source content, artwork, service configuration, consent, DNS and editorial gates preserved. No native-device or independent-review claim. | — |
 | KBL-EVT-934 | 2026-10-20T01:01:33.749739+00:00 | User approved uploading the held publication verification records after the automatic-review notice. Checked the scoped logs for exposed credentials and the screenshots for private submissions; prepared a documentation-only repository update. Website publication remains successful; no new deployment. | — |
+| KBL-EVT-935 | 2026-10-20T01:03:15.390242+00:00 | Uploaded 28 approved documentation/evidence files to GitHub main in 828dc1eb15844dc7384df340d442dd3ae7a47bb0 and verified the remote commit. Bundle and portable storage checks passed. No website changes or redeployment. Prior automatic-review hold is resolved by explicit user approval. | — |
 
 ## Deferred extensions
 
