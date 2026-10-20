@@ -1,0 +1,112 @@
+{
+  "status": "verified_local_drafts",
+  "variants_read": 10,
+  "variants_revised": 3,
+  "variants_retained": 7,
+  "checks": {
+    "edition_check": {
+      "result": "PASS",
+      "editions": 48,
+      "complete_poems": 810,
+      "archived_poems": [
+        385,
+        727
+      ],
+      "edition_assigned": 809,
+      "listed_poems": 805,
+      "supplementary_assigned_poems": 4,
+      "source_hashes_verified": 848,
+      "reciprocal_writer_links_checked": 809,
+      "checks": [
+        "Unique edition membership",
+        "Published contents order",
+        "Original capture integrity and reviewed reader verse parity",
+        "Return and next-poem links",
+        "Reciprocal writer contribution links",
+        "Raw source SHA-256"
+      ],
+      "known_gaps": {
+        "unassigned_poems": [
+          645
+        ],
+        "missing_author": [
+          30
+        ],
+        "identical_text_groups_for_editorial_review": [
+          [
+            268,
+            304
+          ],
+          [
+            645,
+            650
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "translation_revision_check": {
+      "result": "PASS",
+      "original_files_unchanged": 801,
+      "recorded_revisions": 632,
+      "reader_variants_checked_preview_and_public_build": 3148,
+      "external_variants_preserved_not_reviewed": 22,
+      "independent_linguistic_review": false
+    },
+    "layout_tests": "5 passed",
+    "queue_regression_tests": "10 passed, including six concurrent-import scope safeguards",
+    "full_site_build": "PASS; Node24.15.0; exit0; build-resume.log after concurrent Edition48 integration.",
+    "browser": "No browser inspection claimed. Poem170 Hindi/Odia target body intentionally changes21 to20 lines; explicit source/stanza hashes, verse_line_count20, before_lines[] and inline_breaks[] validated. Both complete two-line copyright/location tails match before versions exactly. Preview and public-build payloads passed full reader_stanzas parity. This uses the existing mapped-tail layout class covered by layout regression tests; other revised target175 preserves lineation.",
+    "scope_reconciliation": "22 imported Edition48 targets matched exactly to integration package; recorded separately, not counted as literary review. Original1574 baseline unchanged. Six negative/positive scope tests passed along with four queue tests.",
+    "prior_handoff_evidence": "verification-before-edition48-reconciliation.json and handoff-interruption.json",
+    "records_and_bundle": {
+      "result": "PASS",
+      "concepts": 85,
+      "local_links": 2032,
+      "errors": [],
+      "configuration_checked": true,
+      "scope": "Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness."
+    },
+    "latest_storage": {
+      "result": "FAIL",
+      "exit_code": 1,
+      "recorded_at": "2026-10-06T04:20:27.996849+00:00",
+      "errors": [
+        "Source/handoff mismatch: kb/records/website-adoption.json",
+        "Source/handoff mismatch: kb/records/shared-design-foundations-2026-10-06.json",
+        "Source/handoff mismatch: kb/registers/DASHBOARD.md",
+        "Source/handoff mismatch: kb/registers/records.json",
+        "Source/handoff mismatch: kb/registers/activity.jsonl"
+      ]
+    },
+    "latest_sync": {
+      "exit_code": 1,
+      "result": "FAIL",
+      "recorded_at": "2026-10-06T04:21:16.331405+00:00",
+      "error": "AssertionError: tools/check_edition_sync.py",
+      "note": "Source changed during sync; portable may contain interrupted-copy divergence. Preserve and compare both copies before reconciliation; do not initialize or overwrite blindly."
+    },
+    "latest_storage_retry": {
+      "result": "FAIL",
+      "exit_code": 1,
+      "recorded_at": "2026-10-06T04:28:37.392897+00:00",
+      "errors": [
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/storage-verification.json",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/handoff-verified.log"
+      ],
+      "note": "Unrelated final import verification evidence created during check; source and portable import records were identical at previous inspection."
+    },
+    "storage": {
+      "result": "PASS",
+      "moved_files": 479,
+      "website_files_preserved": 459,
+      "portable_links_checked": 2073,
+      "migration_hashes_checked": false,
+      "errors": []
+    },
+    "handoff": "PASS; synchronized with hashes verified, then final synchronization after saving verification."
+  },
+  "independent_review": false,
+  "published": false,
+  "recorded_at": "2026-10-06T04:28:41.491088+00:00"
+}

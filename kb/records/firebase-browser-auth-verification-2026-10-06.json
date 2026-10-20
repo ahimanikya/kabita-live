@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-07T02:40:40.850117+00:00",
+  "status": "browser_authentication_checkpoint",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review role passes",
+  "checks": {
+    "actual_browser_checks_passed": 17,
+    "browser_checks_skipped": 0,
+    "retained_rules_emulator_tests": 33,
+    "retained_adapter_sdk_ui_tests": 29,
+    "versions": {
+      "firebase": "12.19.0",
+      "firebase_cli": "15.32.0"
+    },
+    "browser_evidence": "records/firebase-browser-auth-evidence-2026-10-06.json"
+  },
+  "limitations": [
+    "Seventeen actual browser checks passed using Firebase12.19.0 and a local Auth emulator with synthetic provider configuration. Named engagement and preserved legacy default feedback identities restore separately across reloads; repeated actions reuse them.",
+    "HTTP localhost SDK/helper fixture; not production HTTPS or full site UI verification. Existing editor checkpoint retained; production rules deployment, receipt activation, server-read/loading and matching generated-service integration remain dependencies.",
+    "Prior thirty-three rule emulator and twenty-nine adapter/SDK/UI checks retained from batch075; not rerun in this authentication-only batch. Public bundles/runtime configuration unchanged. No cloud operation, deployment, migration or identity values in evidence."
+  ],
+  "unchanged_inputs": {
+    "runtime-config.json": "bc0f7bf28b7b5378f110979a79dae273f81cd5070a78a92fbbe37500324f5955",
+    "assets/engagement.js": "e4b54b8c9877ddf7a0a17dabbde8e076aae839dd815359c78101371cd8eeaa54",
+    "assets/private-feedback.js": "3e41c39ae39baa1aec481dec9ee9266873e0b34c60fc0f9475220f49fdef9e69"
+  },
+  "recovery": "/Users/ahimanikya/Projects/Poem Without Borders/output/fleet-alignment/batch-process/results/batch-076-recovery/manifest.json"
+}

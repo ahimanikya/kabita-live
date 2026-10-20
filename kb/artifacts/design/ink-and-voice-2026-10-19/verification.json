@@ -1,0 +1,68 @@
+{
+  "review": "Current assistant self-review",
+  "runtime": "Node v24.15.0",
+  "tests": {
+    "javascript_pass": 168,
+    "python_pass": 34,
+    "failures": 0,
+    "log": "tests.log"
+  },
+  "edition_integrity": {
+    "result": "PASS",
+    "editions": 48,
+    "source_hashes": 848,
+    "log": "editions.log"
+  },
+  "preserved_files": {
+    "result": "PASS",
+    "count": 1017,
+    "log": "preserved-content-check.json"
+  },
+  "browser": {
+    "report": "browser-checks.json",
+    "screenshots": [
+      "home-desktop.png",
+      "home-phone.png",
+      "home-tablet.png",
+      "home-dark.png",
+      "profile-desktop.png",
+      "essay-desktop.png",
+      "edition-dark.png",
+      "reader-dark.png"
+    ],
+    "saved_theme": "Original Dark preference restored after checks"
+  },
+  "contrast_ratios": {
+    "light_ink_on_page": 14.62,
+    "muted_on_soft_rose": 5.0,
+    "mulberry_on_soft_rose": 6.49,
+    "white_on_mulberry": 8.54,
+    "dark_ink_on_page": 14.58,
+    "dark_muted_on_panel": 7.23,
+    "dark_accent_on_panel": 7.03
+  },
+  "limitations": [
+    "Representative browser checks, not a visual inspection of every page",
+    "Local host-gated Like/comment controls kept disabled; no live service write",
+    "Full editorial release is still gated; no push or deployment",
+    "Print palette statically checked to override both light and saved dark mode; no print-dialog visual check"
+  ],
+  "pending": [],
+  "build": {
+    "result": "PASS",
+    "public_html": 1317,
+    "styled_reader_pages": 1316,
+    "log": "build.log",
+    "export": "export-checks.json"
+  },
+  "font_delivery": "Local preview server confirmed HTTP 200 for regular and italic Newsreader and Literata WOFF2; no external font stylesheet in exported pages.",
+  "handoff_preflight": {
+    "result": "PASS",
+    "entries": 24488,
+    "storage_log": "storage-check.json",
+    "note": "Verified before final directory font-token correction and completion records; final sync follows."
+  },
+  "completed_at": "2026-10-19T03:45:52.448121+00:00",
+  "final_export_parity": "PASS, including the directory reading-font token and explicit light print palette.",
+  "final_delivery_check": "Registers/catalogue, bundle, portable sync and storage checks run after these completion records; exact final receipt is returned by the verification command."
+}

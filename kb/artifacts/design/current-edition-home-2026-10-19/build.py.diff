@@ -1,0 +1,19 @@
+--- before/build.py
++++ after/build.py
+@@ -136,7 +136,7 @@
+  return result+'</div>'
+ def homepage_covercards():
+  result='<div class="cover-grid">'
+- for i,issue in enumerate(homepage_issues[:3]):
++ for i,issue in enumerate(homepage_issues[1:4]):
+   n=issue['number']
+   p=cover_by_number[n];url=f'issue-{n}.html'
+   compact=' compact-on-phone' if i else ''
+@@ -256,4 +256,6 @@
+ 
+ # Apply the approved website theme last, after all page-family styles/content.
+ from ink_voice import apply_ink_voice
+-apply_ink_voice(R, [name for name, *_ in pages])
++apply_ink_voice(R, [name for name, *_ in pages],
++ current_edition={**cover_by_number[current_home_issue['number']], 'poem_count':len(current_home_issue['poem_ids'])},
++ current_cover=coverpair(current_home_issue['number'],card=True))

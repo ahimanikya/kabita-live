@@ -44,13 +44,19 @@ def main():
     archived={p['id'] for p in poems if p.get('status')=='archived'}
     rules=load(SITE/'data/poem-reconciliation.json')['rules']
     need(archived=={int(i) for i,r in rules.items() if r['action']=='archive'},'Archive status differs from approved corrections')
-    need(sorted(i['number'] for i in issues)==list(range(1,48)), 'Expected all 47 edition numbers')
-    need(len(poems)==len(by_id)==801, 'Expected 801 unique captured poems')
+    imports=load(ROOT/'kb/production/edition-sync/imports.json')['imports']
+    additional=[pid for entry in imports for pid in entry['poem_ids']]
+    additional_listed=[pid for entry in imports for pid in entry['listed_poem_ids']]
+    need(sorted(i['number'] for i in issues)==list(range(1,48))+sorted(e['edition'] for e in imports), 'Edition numbers differ from historical baseline plus registered imports')
+    for entry in imports:
+        actual=next((i for i in issues if i['number']==entry['edition']),None)
+        need(actual is not None and actual['poem_ids']==entry['poem_ids'] and actual['listed_poem_ids']==entry['listed_poem_ids'],f'Edition {entry["edition"]}: sync registry differs')
+    need(len(poems)==len(by_id)==801+len(additional), 'Captured poem count differs from historical baseline plus imports')
     memberships=[pid for i in issues for pid in i['poem_ids']]
-    need(len(memberships)==len(set(memberships))==800-len(archived), 'Edition membership must exclude archived records')
+    need(len(memberships)==len(set(memberships))==800+len(additional)-len(archived), 'Edition membership must exclude archived records')
     need(set(by_id)-set(memberships)=={645}|archived, 'Unexpected unassigned or archived poem')
     listed=sum(len(i['listed_poem_ids']) for i in issues)
-    need(listed==796-len(archived), 'Unexpected contents-listed poem count')
+    need(listed==796+len(additional_listed)-len(archived), 'Unexpected contents-listed poem count')
     for issue in issues:
         n=issue['number']; html=(SITE/f'issue-{n}.html').read_text()
         need(load(CONTENT/f'issue-{n:02d}/edition.json')==issue,f'Issue {n}: manifest mismatch')

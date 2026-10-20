@@ -1,0 +1,3 @@
+/* A quiet image and caption; all views share a stable uncropped frame. */
+.home-refined .home-views>img{height:auto;aspect-ratio:3/2;object-fit:contain;object-position:center}
+.site-theme .home-views figcaption{justify-content:flex-start;text-align:left}

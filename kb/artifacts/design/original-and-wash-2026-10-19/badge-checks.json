@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "supersedes": "Initial stacked full-word and small-screen (O) treatments; latest user asks for a smaller uppercase badge.",
+  "checks": [
+    {
+      "badge": {
+        "bottom": 312.4140625,
+        "height": 12.921875,
+        "left": 1.7109375,
+        "right": 50.2890625,
+        "top": 299.4921875,
+        "width": 48.578125,
+        "x": 1.7109375,
+        "y": 299.4921875
+      },
+      "badgeFont": "8.5px",
+      "badgeTextTransform": "uppercase",
+      "buttons": [
+        {
+          "label": "Original · Odia",
+          "right": 48,
+          "top": 302.4921875,
+          "width": 44
+        },
+        {
+          "label": "Hindi translation",
+          "right": 92,
+          "top": 302.4921875,
+          "width": 44
+        },
+        {
+          "label": "English translation",
+          "right": 136,
+          "top": 302.4921875,
+          "width": 44
+        },
+        {
+          "label": "Bookmarks and saved passages",
+          "right": 184,
+          "top": 302.4921875,
+          "width": 44
+        },
+        {
+          "label": "Share poem",
+          "right": 228,
+          "top": 302.4921875,
+          "width": 44
+        },
+        {
+          "label": "Read quietly",
+          "right": 272,
+          "top": 302.4921875,
+          "width": 44
+        },
+        {
+          "label": "Likes are available on the published website",
+          "right": 316,
+          "top": 302.4921875,
+          "width": 44
+        }
+      ],
+      "case": "320px badged poem controls",
+      "scroll": 320,
+      "width": 320
+    },
+    {
+      "badgeFont": "8.5px",
+      "buttons": [
+        {
+          "label": "Exit reading mode",
+          "right": 48,
+          "top": 8,
+          "width": 44
+        },
+        {
+          "label": "Original · Odia",
+          "right": 96,
+          "top": 8,
+          "width": 44
+        },
+        {
+          "label": "Hindi translation",
+          "right": 140,
+          "top": 8,
+          "width": 44
+        },
+        {
+          "label": "English translation",
+          "right": 184,
+          "top": 8,
+          "width": 44
+        },
+        {
+          "label": "Bookmark this page",
+          "right": 228,
+          "top": 8,
+          "width": 44
+        },
+        {
+          "label": "Theme: System. Switch to Light.",
+          "right": 272,
+          "top": 8,
+          "width": 44
+        },
+        {
+          "label": "Reading settings",
+          "right": 316,
+          "top": 8,
+          "width": 44
+        }
+      ],
+      "case": "320px badged quiet controls",
+      "scroll": 320,
+      "width": 320
+    },
+    {
+      "case": "Hindi source badge",
+      "glyph": "अ",
+      "source": "Original · Hindi"
+    },
+    {
+      "case": "390px English-source quiet badge",
+      "glyph": "A",
+      "scroll": 390,
+      "source": "Original · English",
+      "width": 390
+    },
+    {
+      "badgeSize": "8.5px",
+      "case": "Final public export badge",
+      "glyph": "ଅ",
+      "label": "Original · Odia",
+      "open": true,
+      "symbolSize": "20px"
+    }
+  ]
+}

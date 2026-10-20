@@ -1,0 +1,9 @@
+.home-language-essay{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:center;border-top:1px solid var(--line);padding-top:36px}
+.home-language-essay figure{margin:0}.home-language-essay img{width:100%;height:auto;object-fit:contain;border:0;box-shadow:none}
+.home-language-essay .eyebrow{display:block;margin-bottom:12px;color:var(--rust)}
+.home-language-essay h2{font:500 clamp(30px,3.3vw,42px)/1.15 'Cormorant Garamond',serif;text-wrap:balance}
+.home-language-essay p{font:18px/1.7 var(--serif);margin-top:18px;margin-bottom:16px}
+.home-language-essay .text-link,.story-language-essay .text-link{display:inline-flex;align-items:center;min-height:44px}
+.story-language-essay{border-top:1px solid var(--line);margin-top:32px;padding-top:26px}
+.our-story .story-language-essay h2{margin-top:0}.story-language-essay p{margin:16px 0}
+@media(max-width:760px){.home-language-essay{grid-template-columns:1fr;gap:22px;padding-top:26px}.home-language-essay h2{font-size:34px}.home-language-essay p{font-size:18px}.story-language-essay{margin-top:26px;padding-top:22px}}

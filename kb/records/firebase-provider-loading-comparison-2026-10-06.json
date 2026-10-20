@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-07T03:08:27.429796+00:00",
+  "status": "provider_packaging_comparison_checkpoint",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review role passes",
+  "checks": {
+    "comparison_scenarios": 5,
+    "all_generated_import_targets_exist": true,
+    "isolated_baseline": "/private/tmp/kbl-services078-baseline",
+    "isolated_split": "/private/tmp/kbl-services078-split",
+    "retained_adapter_sdk_ui_tests": 35,
+    "retained_rules_emulator_tests": 33,
+    "retained_actual_auth_browser_checks": 17
+  },
+  "limitations": [
+    "Identical-source baseline/split ES2022 minified builds compared across five import-closure scenarios. Feedback pre-action raw JavaScript754609\u21929144bytes; comments-only756399\u219210866bytes. Full combined provider closure1511008\u2192784950bytes.",
+    "Like-enabled initial count still requires provider load: raw756399\u2192779518bytes, estimated gzip219519\u2192219928bytes. No claim of overall page speed improvement; split files add request/parse overhead and production caching/compression remain unmeasured.",
+    "All generated import targets verified present. Existing public exporter does not traverse JavaScript dependencies; splitting cannot be safely adopted until explicit hashed public export graph support is implemented and tested.",
+    "Measurement-only isolated candidates. Site source, public bundles/runtime config unchanged. Prior35source-UI/33rule/17browser checks retained, not rerun. Actual request/timing and matching generated-service integration still open; no cloud operations or publication."
+  ],
+  "unchanged_inputs": {
+    "runtime-config.json": "bc0f7bf28b7b5378f110979a79dae273f81cd5070a78a92fbbe37500324f5955",
+    "assets/engagement.js": "e4b54b8c9877ddf7a0a17dabbde8e076aae839dd815359c78101371cd8eeaa54",
+    "assets/private-feedback.js": "3e41c39ae39baa1aec481dec9ee9266873e0b34c60fc0f9475220f49fdef9e69"
+  },
+  "recovery": "/Users/ahimanikya/Projects/Poem Without Borders/output/fleet-alignment/batch-process/results/batch-078-recovery/manifest.json"
+}

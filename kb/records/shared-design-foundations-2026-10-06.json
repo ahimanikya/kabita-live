@@ -1,0 +1,202 @@
+{
+  "version": "0.1.0-fleet.1",
+  "recorded_at": "2026-10-06T04:19:47.105412+00:00",
+  "status": "installed_opt_in",
+  "canonical_package": "@utkal/design-system",
+  "canonical_source": "Utkal Project projects/design-system/fleet",
+  "native_package_version": "0.1.0-rc.5 (unchanged)",
+  "theme_source": "kb/reference/fleet-theme.json",
+  "theme_sha256": "8edfd60be09bfeb735d6aeef8e07f4df1cacfe618f1b21c598de2e6c8d454872",
+  "install_path": "projects/site/assets/utkal-fleet",
+  "manifest": {
+    "package": "@utkal/design-system",
+    "foundation_version": "0.1.0-fleet.1",
+    "site": "kbl",
+    "mode": "installed_opt_in",
+    "files": {
+      "fleet/foundations.css": "d4f47e10e5efdc3e8d92ae3594d90c2317d2070105f9b0bb470bb4a81b35c88d",
+      "fleet/foundations.json": "031e7d111000837ca71359a9f1b313d428f33b9b0e37616230ef0bc8933d0c9f",
+      "fleet/theme.mjs": "152bd4905e3a34341886bff2944ce8fff2c08c2929bfe31789695f87ee465929",
+      "fleet/README.md": "50a42448937a9252a1f86276e73e8bf3b401fb2dd3d09de9f54daacc9f28f616",
+      "icons/index.mjs": "e5c3f25bbd97d9cdd02ed58737acd957f022664e7ca65aa3f330806665487ca0",
+      "icons/paths.json": "01de81d3bf1f6832899fc5e6bfd2ae2e1a68d657a98bc56c8debfa5480d0b870",
+      "theme.json": "8edfd60be09bfeb735d6aeef8e07f4df1cacfe618f1b21c598de2e6c8d454872",
+      "theme.css": "fad4ff7318e72bee60feaff98f101dc346fd7fb558714e3e77eb4605ee7a122d"
+    },
+    "maintenance": "Common fleet/icons files are generated copies. Change upstream, then rerun tools/install-fleet.mjs with this site’s theme source. Runtime adoption is separate."
+  },
+  "verification": {
+    "unit_tests": "4 passed in canonical package",
+    "browser": {
+      "engine": "Chrome/154.0.8037.98",
+      "runs": [
+        {
+          "viewport": 320,
+          "rootFont": "16px",
+          "adapter": {
+            "site": "kbl",
+            "background": "rgb(245, 239, 223)",
+            "ink": "rgb(38, 60, 60)",
+            "odiaFont": "\"Noto Serif Oriya\", serif",
+            "verseWhitespace": "pre-wrap",
+            "urduDirection": "rtl",
+            "englishDirection": "ltr",
+            "target": {
+              "width": 96.25,
+              "height": 44.390625
+            },
+            "outsideColour": "rgb(1, 2, 3)",
+            "surfaces": {
+              "cotton": {
+                "image": "radial-gradient(rgba(130, 110, 75, 0.04) 0.6px, rgba(0, 0, 0, 0) 0.6px)",
+                "background": "rgb(245, 239, 223)",
+                "text": "rgb(38, 60, 60)",
+                "button": "rgb(234, 225, 205)"
+              },
+              "earth": {
+                "image": "linear-gradient(rgba(145, 70, 47, 0.04), rgba(145, 70, 47, 0.04))",
+                "background": "rgb(245, 239, 223)",
+                "text": "rgb(38, 60, 60)",
+                "button": "rgb(234, 225, 205)"
+              },
+              "sea": {
+                "image": "linear-gradient(rgba(18, 84, 101, 0.04), rgba(18, 84, 101, 0.04))",
+                "background": "rgb(245, 239, 223)",
+                "text": "rgb(38, 60, 60)",
+                "button": "rgb(234, 225, 205)"
+              },
+              "quiet": {
+                "image": "none",
+                "background": "rgb(245, 239, 223)",
+                "text": "rgb(38, 60, 60)",
+                "button": "rgb(234, 225, 205)"
+              },
+              "night": {
+                "image": "none",
+                "background": "rgb(28, 41, 43)",
+                "text": "rgb(243, 234, 219)",
+                "button": "rgb(38, 56, 58)"
+              }
+            },
+            "sourceUnchanged": true,
+            "pageOverflow": false
+          }
+        },
+        {
+          "viewport": 390,
+          "rootFont": "16px",
+          "adapter": {
+            "site": "kbl",
+            "background": "rgb(245, 239, 223)",
+            "ink": "rgb(38, 60, 60)",
+            "odiaFont": "\"Noto Serif Oriya\", serif",
+            "verseWhitespace": "pre-wrap",
+            "urduDirection": "rtl",
+            "englishDirection": "ltr",
+            "target": {
+              "width": 96.25,
+              "height": 44.390625
+            },
+            "outsideColour": "rgb(1, 2, 3)",
+            "surfaces": {
+              "cotton": {
+                "image": "radial-gradient(rgba(130, 110, 75, 0.04) 0.6px, rgba(0, 0, 0, 0) 0.6px)",
+                "background": "rgb(245, 239, 223)",
+                "text": "rgb(38, 60, 60)",
+                "button": "rgb(234, 225, 205)"
+              },
+              "earth": {
+                "image": "linear-gradient(rgba(145, 70, 47, 0.04), rgba(145, 70, 47, 0.04))",
+                "background": "rgb(245, 239, 223)",
+                "text": "rgb(38, 60, 60)",
+                "button": "rgb(234, 225, 205)"
+              },
+              "sea": {
+                "image": "linear-gradient(rgba(18, 84, 101, 0.04), rgba(18, 84, 101, 0.04))",
+                "background": "rgb(245, 239, 223)",
+                "text": "rgb(38, 60, 60)",
+                "button": "rgb(234, 225, 205)"
+              },
+              "quiet": {
+                "image": "none",
+                "background": "rgb(245, 239, 223)",
+                "text": "rgb(38, 60, 60)",
+                "button": "rgb(234, 225, 205)"
+              },
+              "night": {
+                "image": "none",
+                "background": "rgb(28, 41, 43)",
+                "text": "rgb(243, 234, 219)",
+                "button": "rgb(38, 56, 58)"
+              }
+            },
+            "sourceUnchanged": true,
+            "pageOverflow": false
+          }
+        },
+        {
+          "viewport": 1440,
+          "rootFont": "32px",
+          "adapter": {
+            "site": "kbl",
+            "background": "rgb(245, 239, 223)",
+            "ink": "rgb(38, 60, 60)",
+            "odiaFont": "\"Noto Serif Oriya\", serif",
+            "verseWhitespace": "pre-wrap",
+            "urduDirection": "rtl",
+            "englishDirection": "ltr",
+            "target": {
+              "width": 190.5,
+              "height": 88
+            },
+            "outsideColour": "rgb(1, 2, 3)",
+            "surfaces": {
+              "cotton": {
+                "image": "radial-gradient(rgba(130, 110, 75, 0.04) 0.6px, rgba(0, 0, 0, 0) 0.6px)",
+                "background": "rgb(245, 239, 223)",
+                "text": "rgb(38, 60, 60)",
+                "button": "rgb(234, 225, 205)"
+              },
+              "earth": {
+                "image": "linear-gradient(rgba(145, 70, 47, 0.04), rgba(145, 70, 47, 0.04))",
+                "background": "rgb(245, 239, 223)",
+                "text": "rgb(38, 60, 60)",
+                "button": "rgb(234, 225, 205)"
+              },
+              "sea": {
+                "image": "linear-gradient(rgba(18, 84, 101, 0.04), rgba(18, 84, 101, 0.04))",
+                "background": "rgb(245, 239, 223)",
+                "text": "rgb(38, 60, 60)",
+                "button": "rgb(234, 225, 205)"
+              },
+              "quiet": {
+                "image": "none",
+                "background": "rgb(245, 239, 223)",
+                "text": "rgb(38, 60, 60)",
+                "button": "rgb(234, 225, 205)"
+              },
+              "night": {
+                "image": "none",
+                "background": "rgb(28, 41, 43)",
+                "text": "rgb(243, 234, 219)",
+                "button": "rgb(38, 56, 58)"
+              }
+            },
+            "sourceUnchanged": true,
+            "pageOverflow": false
+          }
+        }
+      ],
+      "scope": "Private isolated foundation pilot; no native @font-face loaded in specimen. Computed family/RTL/verse/surface/control behaviour verified, not full font glyph certification."
+    },
+    "hash_check": "Exact canonical files and generated site CSS verified by install-fleet.mjs --check"
+  },
+  "limitations": [
+    "Opt-in shared components only; existing pages retain their approved implementation. Reader/runtime adapters follow in later fleet tasks.",
+    "Styles are installed in maintained source; no new public build/import or deployment claimed.",
+    "Existing font files, faces and licences are retained; script-family roles do not certify font delivery/glyph coverage.",
+    "Cotton/earth/sea are new semantic slots for shared components; existing artwork-backed surfaces and saved settings remain unchanged."
+  ],
+  "maintenance": "Edit this site’s theme source; adopt canonical changes by rerunning tools/install-fleet.mjs and --check before component integration.",
+  "recovery": "Use batch-007 recovery manifest; remove only newly listed files with matching hashes, restore backed-up record files, and preserve subsequent concurrent edits."
+}

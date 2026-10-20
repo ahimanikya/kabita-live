@@ -1,0 +1,33 @@
+{
+  "status": "integrated_verified_local",
+  "started_at": "2026-10-06T04:46:21.205105+00:00",
+  "authorization": "User requests one unique illustration for each Edition48 poem, an Odia-first Durga Puja editorial with English/Hindi renderings, normalized all-caps display titles and a non-collapsible cover story.",
+  "publication": false,
+  "independent": false,
+  "updated_at": "2026-10-06T05:04:36.602700+00:00",
+  "counts": {
+    "poems": 11,
+    "unique_poem_images": 11,
+    "new_images": 8,
+    "retained_images": 3,
+    "editorial_languages": 3,
+    "title_corrections": 2
+  },
+  "preview": "http://127.0.0.1:8771/issue-48.html#edition-editorial",
+  "gallery": "kb/artifacts/edition-sync/edition-48/review/index.html",
+  "verification": "kb/research/edition-sync/edition-48/revision-02/verification.json",
+  "browser": {
+    "desktop": "1280 and default viewport, light and dark inherited system themes",
+    "mobile": "390 and320px no horizontal overflow in reviewed editorial; poem824 at390px",
+    "languages": "Odia/English/Hindi each displayed; final switch returns section to24px with instant scroll",
+    "cover": "Visible story, no disclosure",
+    "evidence": "kb/artifacts/edition-sync/edition-48/revision-02"
+  },
+  "limitations": [
+    "New editorial and its translations are drafts for editor feedback; no human byline or independent literary approval.",
+    "Images reviewed by same assistant; two photographic first candidates retained and corrected to watercolor.",
+    "Local only, no push or deploy."
+  ],
+  "tests": "31 Node tests and12 Python tests passed;10 existing Firebase emulator tests skipped.",
+  "legacy_audit_note": "The broad historical check_editions.py audit still expects removed Next links and older rendered-stanza structures:612 stanza,612 verse and574 Next-link mismatches. It ran during regeneration and also saw one transient poem827 reciprocal-link mismatch; that exact link passed a post-build parse. No old poem was changed to satisfy this audit. Scoped revision verifier passes."
+}

@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-04T16:22:16.585402+00:00",
+  "authorization": "Let's try and let me preview",
+  "status": "preview_only",
+  "executor": "Current assistant; Samanta design and Drishti self-review",
+  "independent": false,
+  "tool": "built-in image_gen",
+  "source": "kb/artifacts/artwork/home-natural-2026-10-04/cover-subtle-v1.png",
+  "source_sha256": "25e6beb1afabe9c3cf331bacb4b3b4d25b9de9b199d82f27450462b81d71d56f",
+  "master": "kb/artifacts/artwork/home-natural-2026-10-04/cover-subtle-v2.png",
+  "master_sha256": "f8ff194f48ee5f84e9f68aee4b668f2b8ffd6bb89e4799545b7a2cc1c98a5b8f",
+  "prompt": "kb/research/home-natural-2026-10-04/cover-subtle-v2-prompt.txt",
+  "typeset_cover": "kb/artifacts/artwork/home-natural-2026-10-04/cover-subtle-v2-typeset.svg",
+  "preview": "kb/artifacts/artwork/home-natural-2026-10-04/refined.html",
+  "evidence": "kb/artifacts/review/home-natural-2026-10-04/cover-refined-v2.jpg",
+  "changes": [
+    "Flower rests lower with overlapping petals and fewer reflective droplets",
+    "Pale local masthead wash supports dark lettering; approved fonts and Odia signature retained",
+    "Quiet paper strip for issue metadata"
+  ],
+  "verification": [
+    "Source/master visually compared",
+    "Complete1280px browser preview checked; no overflow and both covers present",
+    "Typography and image rendered correctly"
+  ],
+  "limitations": [
+    "Generated artistic interpretation, not documentary photograph",
+    "Same-assistant visual review; no print proof"
+  ],
+  "publication": "No reader-site cover changed and no deployment."
+}

@@ -1,0 +1,25 @@
+{
+  "batch": "batch-122",
+  "task": "FLEET-018",
+  "at": "2026-10-07T14:12:56.574940+00:00",
+  "status": "kabita_article_response_browser_verification",
+  "checks": {
+    "native_browser_checks_passed": 90,
+    "comment_checks": 43,
+    "private_feedback_checks": 47,
+    "scenarios": 6,
+    "widths": [
+      390,
+      1280
+    ],
+    "test_processes_stopped": true,
+    "candidate_activation_disabled": true
+  },
+  "limitations": [
+    "90 native browser checks pass across6scenarios:43public comment and47private feedback, disabled at390px and enabled at390/1280px. Exact built Kabita editorial/response sections with actual UI/helper/language modules and native editorial language controller, synthetic receipts. Not complete site provider/Auth/rules verification.",
+    "Native consent, exact Odia/literal markup draft retention, English language selection, frozen original language/ID retry, next submission current language, duplicate guard, readonly pending fields and moderation/private receipt wording verified. Wrong public receipt cannot confirm private feedback; optional private contact retained. No storage writes or uncaught browser exceptions.",
+    "Only localhost fixture target traffic allowed. Figure assets intentionally omitted, so no visual/art delivery claim. Both owned browser/server processes stopped. No source changes or live writes in this batch; existing active poem service and disabled article candidate preserved.",
+    "Automatic approval review rejected combined local recording and internal-record/test-artifact synchronization to portable handoff because exact export authorization was not established. Local KB recording proceeds independently; no rejected handoff copy attempted. Rules/provisioning and Singhasan coverage remain actionable."
+  ],
+  "next_action": "Verify actual Kabita article controls and language switching in browser, then test additive article rules/provisioning. Continue Singhasan coverage; candidate live activation remains separate."
+}

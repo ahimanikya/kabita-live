@@ -1,0 +1,118 @@
+{
+  "id": "KBL-DEC-071",
+  "work": "KBL-WORK-053",
+  "title": "Rotate homepage featured originals on each visit",
+  "recorded_at": "2026-10-19T04:48:33.795411+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "user_quote": "The poem in the home page should not be fixed",
+  "status": "verified_local",
+  "implementation": {
+    "selection": "Random starting original per language, then advance on each fresh document load using only edition/poem IDs in session storage. Keep the selected cards still while reading and switching language.",
+    "pool": "Keep all eligible current-edition originals; fill languages with fewer than three candidates from older editions, newest first and in publication order. The current pool contains three Odia, three Hindi and seven English originals.",
+    "recent_additions": [
+      {
+        "poem_id": 810,
+        "issue": 47,
+        "writer_id": 337,
+        "title": "क्षणिका"
+      },
+      {
+        "poem_id": 812,
+        "issue": 47,
+        "writer_id": 165,
+        "title": "बचपन की याद"
+      }
+    ],
+    "preserved": "All 11 existing current-edition card bodies unchanged; original poetry, approved excerpt formatting, display-title overrides, bylines, portraits, poem/profile links, language choices, quiet reader, header, edition cover navigation, consent and service settings preserved.",
+    "ancillary_check_fix": "Replace the article-coverage test’s stale fixed cache-version expectation with a valid versioned module assertion; no engagement runtime behavior changed."
+  },
+  "checklist": {
+    "route": "index.html; existing homepage featured poem component",
+    "purpose": "Offer a different source-backed original when returning or refreshing; read the poem or visit its poet.",
+    "source_relationships": "Eleven current Issue 48 originals plus two Hindi originals from Issue 47; no generated translations added.",
+    "layout_art_and_sharing": "Existing card markup, portraits, styles, sharing metadata and current-edition cover preserved. No new visual design or artwork.",
+    "rules": [
+      "READ-01",
+      "READ-03",
+      "DELIVERY-01",
+      "DELIVERY-02",
+      "DELIVERY-03",
+      "DELIVERY-05"
+    ],
+    "browser": "Not executed: supported browser tool approval-review infrastructure unavailable. Fixture selection/language tests and exported-content checks are not a visual or full accessibility review.",
+    "scope_omissions": "No new page family, form behavior, reading typography or services. Runtime and source hash checks retained; no production submissions.",
+    "handoff": "Final synchronization and storage check follow this saved record.",
+    "publication": "Local only; no push or deployment."
+  },
+  "executor": "Current chat assistant; Samanta implementation/Drishti self-review",
+  "independent": false,
+  "evidence": [
+    "artifacts/design/home-poem-rotation-2026-10-19/verification.json",
+    "artifacts/design/home-poem-rotation-2026-10-19/source-card-evidence.json",
+    "artifacts/design/home-poem-rotation-2026-10-19/actual-pool-rotation.json"
+  ],
+  "checks": {
+    "status": "pass_with_limitations",
+    "self_review": true,
+    "independent": false,
+    "tests": {
+      "javascript": 169,
+      "python": 34,
+      "failed": 0,
+      "order": "Final full test suite ran after the completed public build."
+    },
+    "build": {
+      "node": "24.15.0",
+      "exit_code": 0,
+      "public_html_pages": 1317,
+      "pagefind_pages": 1312,
+      "content_ready": false
+    },
+    "export": {
+      "status": "pass",
+      "candidate_counts": {
+        "or": 3,
+        "hi": 3,
+        "en": 7
+      },
+      "unchanged_current_edition_cards": 11,
+      "added_recent_originals": [
+        810,
+        812
+      ],
+      "source_excerpts_byline_title_and_links_checked": 13,
+      "protected_files": {
+        "checked": 1017,
+        "changed": []
+      },
+      "local_protected_files": {
+        "checked": 5,
+        "changed": []
+      },
+      "exported_script_matches_source": true,
+      "edition": 48,
+      "source_display_format": "Existing four-line format retained, including the previously approved Odia display-only punctuation handling."
+    },
+    "rotation": {
+      "consecutive_visits": 21,
+      "immediate_repeats": 0,
+      "unique_originals_seen": 13,
+      "method": "Actual selection function with IDs parsed from the exported homepage. Unit fixtures cover document replacement, storage, edition resets and language selection; not a native browser session."
+    },
+    "browser": {
+      "status": "not_tested",
+      "reason": "The supported browser documentation request failed because the automatic approval review model was at capacity. Infrastructure failure, not an unsafe-action rejection; no alternate access used."
+    },
+    "validation_corrections": [
+      "First full test run exposed a stale article-coverage assertion tied to the previous engagement script cache version. Updated it to require the versioned module inclusion and reran all tests after the final build. Original failure log retained.",
+      "Export check initially compared two approved display-case titles directly to raw uppercase source titles. The evidence check now validates the existing source/display override record. No title or poem was changed."
+    ],
+    "limitations": [
+      "Session storage unavailable or corrupt: a fresh random choice remains usable, but repeat avoidance cannot be guaranteed.",
+      "Back/forward restoration may retain the previous document; no timed changes while reading.",
+      "No-JavaScript content retains the static current-edition fallback.",
+      "No fresh visual, keyboard-in-browser or production provider check; existing layout and controls retained."
+    ],
+    "publication": "Local preview only; no push or deployment."
+  }
+}

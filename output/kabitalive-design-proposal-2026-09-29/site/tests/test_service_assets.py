@@ -42,7 +42,7 @@ class ServiceAssets(unittest.TestCase):
   import subprocess,types,contextlib,io,os,shutil
   site=Path(__file__).resolve().parents[1]
   subprocess.run([os.environ.get('KABITA_NODE') or shutil.which('node'),str(site/'tools/bundle-services.mjs'),'--outdir',str(self.root)],cwd=site,check=True,capture_output=True)
-  required=['assets/app.js','assets/analytics.js','assets/poem-marks.mjs','assets/reading-library.json','assets/reading-all.json','assets/reader-pagination.mjs','assets/reader-controls.mjs','assets/utkal-reader/pagination.mjs','assets/shared-reader-storage.mjs','assets/shared-reader-collections.mjs','assets/utkal-reader/anchors.mjs','assets/utkal-reader/graph.mjs','assets/utkal-reader/loader.mjs','assets/utkal-reader/storage.mjs']
+  required=['assets/app.js','assets/analytics.js','assets/poem-marks.mjs','assets/reading-library.json','assets/reading-all.json','assets/reader-pagination.mjs','assets/reader-controls.mjs','assets/reader-language.mjs','assets/utkal-reader/pagination.mjs','assets/shared-reader-storage.mjs','assets/shared-reader-collections.mjs','assets/utkal-reader/anchors.mjs','assets/utkal-reader/graph.mjs','assets/utkal-reader/loader.mjs','assets/utkal-reader/storage.mjs']
   for n in required:self.write(n,'{}')
   self.write('assets/reading-all.json',json.dumps({'poems':[]}))
   self.write('assets/reading-library.json',json.dumps({'editions':[],'poets':[]}))

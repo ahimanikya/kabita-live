@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-06",
+  "status": "local_review_ready",
+  "published": false,
+  "work_ref": "KBL-WORK-032",
+  "request": "Remove site text-size tool; support browser-controlled font enlargement.",
+  "changes": [
+    "Removed edition/catalogue size controls and regular/quiet-reader sizing controls and saved-size overrides.",
+    "Preserved languages, bookmarks, sharing, reader settings and pagination.",
+    "Converted core reading typography to rem at unchanged 16px default proportions; masthead wordmark wraps at enlarged narrow widths.",
+    "Updated website rulebook, page checklist, edition playbook and design guide."
+  ],
+  "verification": {
+    "independent": false,
+    "tests": "31 Node tests and 14 Python tests passed; 10 emulator-dependent tests skipped.",
+    "browser": "PASS representative edition/poem/quiet reader with default and doubled preferred fonts, 320px reflow, language, bookmarks and pagination. Browser font preferences and viewport restored.",
+    "build": "PASS final Node24 full public build",
+    "note": "One verifier was invoked before final build completed and encountered missing transient dist/poem-826.html; rerun only after build completes.",
+    "scoped_checks": "PASS48 editions and every public reader checked for removed controls; source/art/translation/sharing integrity retained"
+  },
+  "evidence": "kb/artifacts/review/browser-text-sizing-2026-10-06/",
+  "next_action": "Local review; no publication performed."
+}

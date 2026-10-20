@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-10-06T07:11:00.081998+00:00",
+  "exit_code": 1,
+  "result": "FAIL",
+  "operation": "python3 tools/sync_handoff.py",
+  "error": "AssertionError: kb/registers/DASHBOARD.md at final copied-file digest validation",
+  "note": "Guard detected continued concurrent KB writes. No forced copy, reinitialization or overwrite of divergent handoff. Resume after current reader-header/editorial-art work settles."
+}

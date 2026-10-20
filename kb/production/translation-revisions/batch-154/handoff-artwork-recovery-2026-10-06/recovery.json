@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-06T05:24:10.489554+00:00",
+  "reason": "Recovered interrupted-copy portable versions. Artwork canonical retains all old fields except forward status transitions and adds provenance/review evidence; translation loop adds only exact last-sync-error. Both versions preserved and file contents rechecked before copying. Source artwork/review choices untouched.",
+  "files": [
+    {
+      "path": "kb/research/edition-sync/edition-48/revision-03/artwork.json",
+      "canonical_sha256": "cb4d00e02a6dc366582157cf4a7239e9ba7b7645991d4e389941dc1b00b452f2",
+      "portable_sha256": "c996906698f6c1ce819f374052d94f4160ec7c0c03f21a8fb533ae1c695bb005"
+    },
+    {
+      "path": "kb/records/translation-revision-loop-2026-10-04.json",
+      "canonical_sha256": "4cda320c41f432f6df18cad747dff7822ee6b6f0ac143a25b983206e7db6ca76",
+      "portable_sha256": "4851c2140a3a8b7de49684abd7ce464b5d351ae3bf1802a0a4dd77db481f335e"
+    }
+  ]
+}

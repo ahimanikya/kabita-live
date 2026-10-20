@@ -1,0 +1,99 @@
+{
+  "recorded_at": "2026-10-19T05:49:43.453857+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "status": "verified_local",
+  "reviewer": "Current chat assistant; implementation and self-review",
+  "independent": false,
+  "verification": {
+    "status": "PASS",
+    "recorded_at": "2026-10-19T05:58:13.223231+00:00",
+    "build": "Node 24.15.0 full build, then final CSS/JS refresh in generated .public and successful Astro/Pagefind rebuild. Export bytes checked against current sources.",
+    "tests": {
+      "javascript": 175,
+      "python": 36,
+      "failed": 0
+    },
+    "editions": "PASS",
+    "integrity": {
+      "result": "PASS",
+      "public_pages": 1317,
+      "poem_pages_checked": 810,
+      "source_languages": {
+        "en": 490,
+        "or": 216,
+        "hi": 104
+      },
+      "exact_favicon_pages": 1317,
+      "protected_current_files": 36,
+      "changed_current": [],
+      "protected_previous_files": 607,
+      "changed_previous": [],
+      "errors": [],
+      "status": "PASS",
+      "final_badge_export_checked_at": "2026-10-19T05:57:39.997354+00:00",
+      "final_badged_poem_pages": 810,
+      "final_asset_bytes_match": true
+    },
+    "browser": "Original/source labels, three choices, keyboard, language deep links, missing translations, mixed-source quiet pages, translation/source transitions, phone resizing, both themes, public-export runtime; home edge wash, English/script headings, profile ornament, archive footer, print and reduced motion.",
+    "resolved_during_verification": [
+      "Mixed-source quiet page resize initially anchored a preceding tail; now anchors the current opening/poem.",
+      "Explicit public export initially omitted the new reader-language module; added it to the existing allowlist and added export coverage. Updated the isolated export-test fixture accordingly."
+    ],
+    "limitations": [
+      "Implementation and browser checks are same-assistant self-review, not independent accessibility certification.",
+      "Phone layouts were checked at 320/390px through live DOM measurements; the IAB screenshot compositor scaled phone captures. Desktop screenshots are usable visual evidence.",
+      "No website push or deployment. Existing public services were preserved, not retested with public writes."
+    ],
+    "final_badge": "Final user clarification applied: small uppercase ORIGINAL badge above the aligned source-language symbol; one-row controls verified at 320/390px, source glyph updates across all three languages, exported runtime checked.",
+    "final_build_evidence": [
+      "artifacts/design/original-and-wash-2026-10-19/final-astro.log",
+      "artifacts/design/original-and-wash-2026-10-19/final-pagefind.log"
+    ]
+  },
+  "evidence": [
+    "artifacts/design/original-and-wash-2026-10-19/verification.json",
+    "artifacts/design/original-and-wash-2026-10-19/integrity.json",
+    "artifacts/design/original-and-wash-2026-10-19/browser-checks.json",
+    "artifacts/design/original-and-wash-2026-10-19/build.log",
+    "artifacts/design/original-and-wash-2026-10-19/tests.log",
+    "artifacts/design/original-and-wash-2026-10-19/editions-check.log",
+    "artifacts/design/original-and-wash-2026-10-19/badge-checks.json",
+    "artifacts/design/original-and-wash-2026-10-19/original-badge.png"
+  ],
+  "limitations": [
+    "Implementation and browser checks are same-assistant self-review, not independent accessibility certification.",
+    "Phone layouts were checked at 320/390px through live DOM measurements; the IAB screenshot compositor scaled phone captures. Desktop screenshots are usable visual evidence.",
+    "No website push or deployment. Existing public services were preserved, not retested with public writes."
+  ],
+  "id": "KBL-DEC-078",
+  "work": "KBL-WORK-060",
+  "review": "KBL-REV-073",
+  "title": "Visible Original choice and two translations",
+  "user_quote": "We have to have the Original option and the other two, can't unify - the reader should know which one is original",
+  "implementation": {
+    "normal_poem": "Source-first Original choice uses the source-language symbol with a small uppercase ORIGINAL badge; the two translation symbols keep their usual size and alignment. Full Original/language names and translation availability stay in accessible labels/tooltips.",
+    "quiet_reader": "Original moved from settings to the visible top controls. Exactly three choices for the current poem; source-named shortcut is hidden. Each opening identifies Original or translation and source language.",
+    "preference": "Original follows each poem; named target-language preferences survive a source change. Disabled translations use existing original fallback, visibly identified.",
+    "mixed_page": "Controls follow the visible opening or continuing poem. Reading position/bookmark anchors match that context, preserving position during repagination.",
+    "compatibility": "Source-language URLs and saved page bookmarks map to Original; native language storage keys and passage offsets unchanged.",
+    "responsive": "All three language buttons are 44px wide/high. The ORIGINAL badge uses the interface font at 8.5px, with the source glyph at 20px aligned with the other two glyphs. One-row regular and quiet controls verified at 320px; English-source quiet reading also checked at 390px.",
+    "unchanged": "Poetry, authored translations/credits, data catalogue, edition/catalogue controls, homepage language selection, compact masthead/menu, comments/likes services, consent and release gates."
+  },
+  "checklist": {
+    "scope": "Poem and quiet-reader version selection; no source/translation text changes.",
+    "source": "Original refers to the preserved published/source variant, including any authored translation already identified by its credit. No earlier-language text is inferred.",
+    "verification": "All 810 exported interactive poem pages checked for exactly Original plus the two other languages; 175 JS and 36 Python checks pass; public export opened and switched into a translated quiet reader.",
+    "limitations": [
+      "Implementation and browser checks are same-assistant self-review, not independent accessibility certification.",
+      "Phone layouts were checked at 320/390px through live DOM measurements; the IAB screenshot compositor scaled phone captures. Desktop screenshots are usable visual evidence.",
+      "No website push or deployment. Existing public services were preserved, not retested with public writes."
+    ]
+  },
+  "user_followups": [
+    "If the text is too big, we could use abbreviation or simply (O)",
+    "Stay beneath it- what does that mean?",
+    "Kind of badging - the language tool should not look bad along with it, maybe use an email font and caps for badging?",
+    "smaller font"
+  ],
+  "final_badge_decision": "The final clarification asks for smaller-font uppercase badging. Use ORIGINAL in the existing interface font above the source symbol; supersedes intermediate full-word/source-name stacking and phone (O) abbreviation."
+}

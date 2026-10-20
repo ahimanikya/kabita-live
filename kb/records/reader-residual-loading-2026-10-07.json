@@ -1,0 +1,910 @@
+{
+  "batch": "batch-101",
+  "task": "FLEET-009",
+  "at": "2026-10-07T08:57:17.976264+00:00",
+  "status": "kabita_residual_loading_locally_verified",
+  "source_parity": [
+    {
+      "path": "/assets/poem-experience.css",
+      "sha256": "dda06414d88ed4f992ffe71c33abdb22bcec16c0dfc7119c6746b6f7798cde91"
+    },
+    {
+      "path": "/assets/poem-experience.js",
+      "sha256": "71a27af1c9872aff10a9dd6e9677504e3289965ff5ed3b077cb97ce81bfdec03"
+    },
+    {
+      "path": "/assets/poem-reader.css",
+      "sha256": "ecb4a190c6fd4d20aafc8df2547d78bdaca315b34e12fd5096fdfc58d22109e6"
+    },
+    {
+      "path": "/assets/poem-reader.js",
+      "sha256": "bd97b78ad0dbd07beea53a4be89620ff8b112cbc17ebb16420f5cc25ff9a3d98"
+    },
+    {
+      "path": "/assets/reader-pagination.mjs",
+      "sha256": "ff2670363df344a29c789bbc30645220ec26d0f489750b831ad427f85475052d"
+    },
+    {
+      "path": "/assets/reading-editions/issue-48.json",
+      "sha256": "7eb31979ee78be2e991482d7c74b715c737ced6c57eb76d5f850ad75150fa901"
+    },
+    {
+      "path": "/assets/reading-library.json",
+      "sha256": "d59d3802c9b5b2dac3dc8b0fcc19432780db3e29a44d17fb16dbe9440ba29d4e"
+    },
+    {
+      "path": "/assets/shared-reader-collections.mjs",
+      "sha256": "ddd16fb35e26a5f1fb633e91813d228d7aee1208a3975d2612d0959f06507e35"
+    },
+    {
+      "path": "/assets/shared-reader-storage.mjs",
+      "sha256": "1af2f522456deaf87932619f164003b406acfad8370e6ef171fbc48bdf5f08c1"
+    },
+    {
+      "path": "/assets/utkal-reader/anchors.mjs",
+      "sha256": "e1c65bdbaba38881a00387ec1b1b6fa132f8759565e14aab0b89baa88856c91f"
+    },
+    {
+      "path": "/assets/utkal-reader/graph.mjs",
+      "sha256": "6ffc963c082bf0ac6484145a767371284e23b2a114fe3343a550120271530a71"
+    },
+    {
+      "path": "/assets/utkal-reader/loader.mjs",
+      "sha256": "46a6de94925d4d170efe0238b3eff4196ceb100b83b39f6d07e9718eee54f63f"
+    },
+    {
+      "path": "/assets/utkal-reader/pagination.mjs",
+      "sha256": "392a9b017969393d98c5919159b54dacbdc3a570c1fc1aae0c72ec1483551397"
+    },
+    {
+      "path": "/assets/utkal-reader/storage.mjs",
+      "sha256": "4dfce49f3603ab77f043b8feb1475e4cfa59a782b0b590a16aed0b82b7cc1a26"
+    }
+  ],
+  "checks": {
+    "reader_module_tests_passed": 19,
+    "browser_checks_passed": 74,
+    "cold_cache_scenarios": 6,
+    "public_build": "Existing public artifact used;14reader asset hashes match current source",
+    "external_target_requests_blocked": true
+  },
+  "browser_evidence": {
+    "status": "passed",
+    "runs": [
+      {
+        "route": "/index.html",
+        "width": 390,
+        "failure": null,
+        "checks": [
+          {
+            "name": "Page heading readable",
+            "pass": true
+          },
+          {
+            "name": "Reader edition/library payloads deferred",
+            "pass": true
+          },
+          {
+            "name": "No recordings downloaded",
+            "pass": true
+          },
+          {
+            "name": "No external service before action",
+            "pass": true
+          },
+          {
+            "name": "No missing local assets",
+            "pass": true
+          },
+          {
+            "name": "No uncaught errors",
+            "pass": true
+          },
+          {
+            "name": "All response traffic remains local",
+            "pass": true
+          }
+        ],
+        "initial_requests": [
+          "/index.html",
+          "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "/assets/style.css",
+          "/assets/app.js",
+          "/assets/analytics.js",
+          "/assets/home-artistic.css",
+          "/assets/human-natural.css",
+          "/assets/home-views.css",
+          "/assets/cover-layout-b.css",
+          "/assets/magazine-covers.css",
+          "/assets/article-links.css",
+          "/assets/image-delivery.css",
+          "/assets/image-delivery.js",
+          "/assets/appearance.js",
+          "/assets/kabita-live-symbol.svg",
+          "/assets/home-featured.js",
+          "image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAwBACdASoYABAAPxFysFAsJqSisAgBgCIJaAC1IUAA2Y8hwr93/j1QZgAA/j//GGJxzh0RbAXJcXrSedwsDQLtiUzrXqLPvDPSRSmhKi5qIk08ZOxz0d7wiG9aW0iL3lCxReiz2wthxj5SzEjy3PO1Ac0yJskxierQQ6DTp7ATNkuR886+aSGgeL4HtD089/V+M3KSyAA=",
+          "/assets/home/water-poetic-natural-v1-768.webp",
+          "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+          "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+          "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+          "/runtime-config.json",
+          "image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQBACdASoYABAAPxFysFAsJqSisAgBgCIJYwC06CPuOvwXR5/+p8QNwAD+30zQDjzqRqJLEAE5gkaxxR8yQmAsd+QduBbspzuMPBywnDdiyZn/NMVWliQC+AAAAA==",
+          "/assets/poetic-waterline.svg",
+          "image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoYAA4APxFysFAsJqSisAgBgCIJaACdMoR3ACjGvIM3+VBW2ZgAAP6L2vhsv88UU8UB+Cbjzk0qvIXlZsXpipfoovYlO5Kd/zGHSzXvJ32cw5A+5x5XKBZq4nPLN2MBLyHilVQNYxZJpzUZyyByS16qJupBYp/nT+/C62grGHGytNOC2pQAAA==",
+          "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "/assets/fonts/SourceSerif4-Italic-Variable.woff2",
+          "/assets/fonts/CormorantGaramond-Italic-Variable.woff2",
+          "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "/assets/fonts/SourceSerif4-Variable.woff2",
+          "/assets/responsive/ce32e085683a8df1-96.webp",
+          "/assets/responsive/e1387178784b1dbd-96.webp",
+          "/assets/responsive/64ba08d989e4cc1c-96.webp"
+        ],
+        "final_requests": [
+          "/index.html",
+          "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "/assets/style.css",
+          "/assets/app.js",
+          "/assets/analytics.js",
+          "/assets/home-artistic.css",
+          "/assets/human-natural.css",
+          "/assets/home-views.css",
+          "/assets/cover-layout-b.css",
+          "/assets/magazine-covers.css",
+          "/assets/article-links.css",
+          "/assets/image-delivery.css",
+          "/assets/image-delivery.js",
+          "/assets/appearance.js",
+          "/assets/kabita-live-symbol.svg",
+          "/assets/home-featured.js",
+          "image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAwBACdASoYABAAPxFysFAsJqSisAgBgCIJaAC1IUAA2Y8hwr93/j1QZgAA/j//GGJxzh0RbAXJcXrSedwsDQLtiUzrXqLPvDPSRSmhKi5qIk08ZOxz0d7wiG9aW0iL3lCxReiz2wthxj5SzEjy3PO1Ac0yJskxierQQ6DTp7ATNkuR886+aSGgeL4HtD089/V+M3KSyAA=",
+          "/assets/home/water-poetic-natural-v1-768.webp",
+          "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+          "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+          "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+          "/runtime-config.json",
+          "image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQBACdASoYABAAPxFysFAsJqSisAgBgCIJYwC06CPuOvwXR5/+p8QNwAD+30zQDjzqRqJLEAE5gkaxxR8yQmAsd+QduBbspzuMPBywnDdiyZn/NMVWliQC+AAAAA==",
+          "/assets/poetic-waterline.svg",
+          "image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoYAA4APxFysFAsJqSisAgBgCIJaACdMoR3ACjGvIM3+VBW2ZgAAP6L2vhsv88UU8UB+Cbjzk0qvIXlZsXpipfoovYlO5Kd/zGHSzXvJ32cw5A+5x5XKBZq4nPLN2MBLyHilVQNYxZJpzUZyyByS16qJupBYp/nT+/C62grGHGytNOC2pQAAA==",
+          "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "/assets/fonts/SourceSerif4-Italic-Variable.woff2",
+          "/assets/fonts/CormorantGaramond-Italic-Variable.woff2",
+          "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "/assets/fonts/SourceSerif4-Variable.woff2",
+          "/assets/responsive/ce32e085683a8df1-96.webp",
+          "/assets/responsive/e1387178784b1dbd-96.webp",
+          "/assets/responsive/64ba08d989e4cc1c-96.webp"
+        ],
+        "blocked_origins": []
+      },
+      {
+        "route": "/poem-834.html",
+        "width": 390,
+        "failure": null,
+        "checks": [
+          {
+            "name": "Page heading readable",
+            "pass": true
+          },
+          {
+            "name": "Reader edition/library payloads deferred",
+            "pass": true
+          },
+          {
+            "name": "No recordings downloaded",
+            "pass": true
+          },
+          {
+            "name": "No external service before action",
+            "pass": true
+          },
+          {
+            "name": "Reader opens",
+            "pass": true
+          },
+          {
+            "name": "Text-first reader has no illustrations",
+            "pass": true
+          },
+          {
+            "name": "Edition loads all11 poems",
+            "pass": true
+          },
+          {
+            "name": "Reopen reuses edition payload",
+            "pass": true
+          },
+          {
+            "name": "Library loads valid collections",
+            "pass": true
+          },
+          {
+            "name": "Library reopen reuses successful payloads",
+            "pass": true
+          },
+          {
+            "name": "Reader/library do not download recordings",
+            "pass": true
+          },
+          {
+            "name": "No missing local assets",
+            "pass": true
+          },
+          {
+            "name": "No uncaught errors",
+            "pass": true
+          },
+          {
+            "name": "All response traffic remains local",
+            "pass": true
+          }
+        ],
+        "initial_requests": [
+          "/poem-834.html",
+          "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "/assets/style.css",
+          "/assets/app.js",
+          "/assets/analytics.js",
+          "/assets/mobile-artwork.css",
+          "/assets/poem-reader.css",
+          "/assets/poem-reader.js",
+          "/assets/poem-experience.css",
+          "/assets/poem-experience.js",
+          "/assets/engagement.css",
+          "/assets/engagement.js",
+          "/assets/human-natural.css",
+          "/assets/image-delivery.css",
+          "/assets/image-delivery.js",
+          "/assets/appearance.js",
+          "/assets/kabita-live-symbol.svg",
+          "/assets/writers/446-earth-voice-v1-64.webp",
+          "/assets/responsive/33fae8d9ece7bb4c-480.webp",
+          "/assets/shared-reader-storage.mjs",
+          "/assets/poem-marks.mjs",
+          "/assets/shared-reader-collections.mjs",
+          "/assets/reader-pagination.mjs",
+          "/assets/backgrounds/monsoon-wash.webp",
+          "/assets/services/chunk-BUE2HC7S.js",
+          "image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoYABAAPxFysFAsJqSisAgBgCIJYwC/OBhINa/HSb3wnd6AAP7bOMTa85nx4UvzrYx6qwAEBfEJKwAR9AtW0fV7k+ex8p5s300YkLAk21Xq9iXFIjBoTgMhQ/gs+J9MxV0nlmEleDqwhSB+4szKAA==",
+          "/assets/poem-end-sprig.svg",
+          "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "/assets/fonts/SourceSerif4-Variable.woff2",
+          "/assets/utkal-reader/storage.mjs",
+          "/assets/utkal-reader/graph.mjs",
+          "/assets/utkal-reader/loader.mjs",
+          "/assets/utkal-reader/pagination.mjs",
+          "/runtime-config.json",
+          "/assets/utkal-reader/anchors.mjs",
+          "/runtime-config.json"
+        ],
+        "final_requests": [
+          "/poem-834.html",
+          "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "/assets/style.css",
+          "/assets/app.js",
+          "/assets/analytics.js",
+          "/assets/mobile-artwork.css",
+          "/assets/poem-reader.css",
+          "/assets/poem-reader.js",
+          "/assets/poem-experience.css",
+          "/assets/poem-experience.js",
+          "/assets/engagement.css",
+          "/assets/engagement.js",
+          "/assets/human-natural.css",
+          "/assets/image-delivery.css",
+          "/assets/image-delivery.js",
+          "/assets/appearance.js",
+          "/assets/kabita-live-symbol.svg",
+          "/assets/writers/446-earth-voice-v1-64.webp",
+          "/assets/responsive/33fae8d9ece7bb4c-480.webp",
+          "/assets/shared-reader-storage.mjs",
+          "/assets/poem-marks.mjs",
+          "/assets/shared-reader-collections.mjs",
+          "/assets/reader-pagination.mjs",
+          "/assets/backgrounds/monsoon-wash.webp",
+          "/assets/services/chunk-BUE2HC7S.js",
+          "image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoYABAAPxFysFAsJqSisAgBgCIJYwC/OBhINa/HSb3wnd6AAP7bOMTa85nx4UvzrYx6qwAEBfEJKwAR9AtW0fV7k+ex8p5s300YkLAk21Xq9iXFIjBoTgMhQ/gs+J9MxV0nlmEleDqwhSB+4szKAA==",
+          "/assets/poem-end-sprig.svg",
+          "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "/assets/fonts/SourceSerif4-Variable.woff2",
+          "/assets/utkal-reader/storage.mjs",
+          "/assets/utkal-reader/graph.mjs",
+          "/assets/utkal-reader/loader.mjs",
+          "/assets/utkal-reader/pagination.mjs",
+          "/runtime-config.json",
+          "/assets/utkal-reader/anchors.mjs",
+          "/runtime-config.json",
+          "/assets/reading-library.json",
+          "/assets/reading-editions/issue-48.json",
+          "/assets/poem-end-leaf.svg",
+          "/assets/poetic-waterline.svg",
+          "/assets/poem-end-paired.svg",
+          "/assets/reading-library.json"
+        ],
+        "blocked_origins": []
+      },
+      {
+        "route": "/index.html",
+        "width": 1280,
+        "failure": null,
+        "checks": [
+          {
+            "name": "Page heading readable",
+            "pass": true
+          },
+          {
+            "name": "Reader edition/library payloads deferred",
+            "pass": true
+          },
+          {
+            "name": "No recordings downloaded",
+            "pass": true
+          },
+          {
+            "name": "No external service before action",
+            "pass": true
+          },
+          {
+            "name": "No missing local assets",
+            "pass": true
+          },
+          {
+            "name": "No uncaught errors",
+            "pass": true
+          },
+          {
+            "name": "All response traffic remains local",
+            "pass": true
+          }
+        ],
+        "initial_requests": [
+          "/index.html",
+          "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "/assets/style.css",
+          "/assets/app.js",
+          "/assets/analytics.js",
+          "/assets/home-artistic.css",
+          "/assets/human-natural.css",
+          "/assets/home-views.css",
+          "/assets/cover-layout-b.css",
+          "/assets/magazine-covers.css",
+          "/assets/article-links.css",
+          "/assets/image-delivery.css",
+          "/assets/image-delivery.js",
+          "/assets/appearance.js",
+          "/assets/kabita-live-symbol.svg",
+          "/assets/home-featured.js",
+          "/assets/backgrounds/cotton-paper.webp",
+          "image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAwBACdASoYABAAPxFysFAsJqSisAgBgCIJaAC1IUAA2Y8hwr93/j1QZgAA/j//GGJxzh0RbAXJcXrSedwsDQLtiUzrXqLPvDPSRSmhKi5qIk08ZOxz0d7wiG9aW0iL3lCxReiz2wthxj5SzEjy3PO1Ac0yJskxierQQ6DTp7ATNkuR886+aSGgeL4HtD089/V+M3KSyAA=",
+          "/assets/home/bridge-poetic-natural-v1-768.webp",
+          "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+          "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+          "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+          "/runtime-config.json",
+          "image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBACdASoYABAAPxFysFAsJqSisAgBgCIJaAC/OCIJ2l5HtSW/vVHTQAAA/ucYLnrCna5LBDKvvzfvkwkU/A1GUeUiZYg2wowqvEme4jCkcQ8O3OYfJozE3WOI8GUM4cY0QAggMUOo4g+aJogAAA==",
+          "/assets/poetic-waterline.svg",
+          "image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoYAA4APxFysFAsJqSisAgBgCIJaACdMoR3ACjGvIM3+VBW2ZgAAP6L2vhsv88UU8UB+Cbjzk0qvIXlZsXpipfoovYlO5Kd/zGHSzXvJ32cw5A+5x5XKBZq4nPLN2MBLyHilVQNYxZJpzUZyyByS16qJupBYp/nT+/C62grGHGytNOC2pQAAA==",
+          "/assets/odisha-watercolour-poetic-natural.webp",
+          "/assets/fonts/SourceSerif4-Italic-Variable.woff2",
+          "/assets/fonts/CormorantGaramond-Italic-Variable.woff2",
+          "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "/assets/fonts/SourceSerif4-Variable.woff2",
+          "/assets/responsive/ce32e085683a8df1-96.webp",
+          "/assets/responsive/e1387178784b1dbd-96.webp",
+          "/assets/responsive/64ba08d989e4cc1c-96.webp"
+        ],
+        "final_requests": [
+          "/index.html",
+          "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "/assets/style.css",
+          "/assets/app.js",
+          "/assets/analytics.js",
+          "/assets/home-artistic.css",
+          "/assets/human-natural.css",
+          "/assets/home-views.css",
+          "/assets/cover-layout-b.css",
+          "/assets/magazine-covers.css",
+          "/assets/article-links.css",
+          "/assets/image-delivery.css",
+          "/assets/image-delivery.js",
+          "/assets/appearance.js",
+          "/assets/kabita-live-symbol.svg",
+          "/assets/home-featured.js",
+          "/assets/backgrounds/cotton-paper.webp",
+          "image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAwBACdASoYABAAPxFysFAsJqSisAgBgCIJaAC1IUAA2Y8hwr93/j1QZgAA/j//GGJxzh0RbAXJcXrSedwsDQLtiUzrXqLPvDPSRSmhKi5qIk08ZOxz0d7wiG9aW0iL3lCxReiz2wthxj5SzEjy3PO1Ac0yJskxierQQ6DTp7ATNkuR886+aSGgeL4HtD089/V+M3KSyAA=",
+          "/assets/home/bridge-poetic-natural-v1-768.webp",
+          "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+          "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+          "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+          "/runtime-config.json",
+          "image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBACdASoYABAAPxFysFAsJqSisAgBgCIJaAC/OCIJ2l5HtSW/vVHTQAAA/ucYLnrCna5LBDKvvzfvkwkU/A1GUeUiZYg2wowqvEme4jCkcQ8O3OYfJozE3WOI8GUM4cY0QAggMUOo4g+aJogAAA==",
+          "/assets/poetic-waterline.svg",
+          "image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoYAA4APxFysFAsJqSisAgBgCIJaACdMoR3ACjGvIM3+VBW2ZgAAP6L2vhsv88UU8UB+Cbjzk0qvIXlZsXpipfoovYlO5Kd/zGHSzXvJ32cw5A+5x5XKBZq4nPLN2MBLyHilVQNYxZJpzUZyyByS16qJupBYp/nT+/C62grGHGytNOC2pQAAA==",
+          "/assets/odisha-watercolour-poetic-natural.webp",
+          "/assets/fonts/SourceSerif4-Italic-Variable.woff2",
+          "/assets/fonts/CormorantGaramond-Italic-Variable.woff2",
+          "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "/assets/fonts/SourceSerif4-Variable.woff2",
+          "/assets/responsive/ce32e085683a8df1-96.webp",
+          "/assets/responsive/e1387178784b1dbd-96.webp",
+          "/assets/responsive/64ba08d989e4cc1c-96.webp"
+        ],
+        "blocked_origins": []
+      },
+      {
+        "route": "/poem-834.html",
+        "width": 1280,
+        "failure": null,
+        "checks": [
+          {
+            "name": "Page heading readable",
+            "pass": true
+          },
+          {
+            "name": "Reader edition/library payloads deferred",
+            "pass": true
+          },
+          {
+            "name": "No recordings downloaded",
+            "pass": true
+          },
+          {
+            "name": "No external service before action",
+            "pass": true
+          },
+          {
+            "name": "Reader opens",
+            "pass": true
+          },
+          {
+            "name": "Text-first reader has no illustrations",
+            "pass": true
+          },
+          {
+            "name": "Edition loads all11 poems",
+            "pass": true
+          },
+          {
+            "name": "Reopen reuses edition payload",
+            "pass": true
+          },
+          {
+            "name": "Library loads valid collections",
+            "pass": true
+          },
+          {
+            "name": "Library reopen reuses successful payloads",
+            "pass": true
+          },
+          {
+            "name": "Reader/library do not download recordings",
+            "pass": true
+          },
+          {
+            "name": "No missing local assets",
+            "pass": true
+          },
+          {
+            "name": "No uncaught errors",
+            "pass": true
+          },
+          {
+            "name": "All response traffic remains local",
+            "pass": true
+          }
+        ],
+        "initial_requests": [
+          "/poem-834.html",
+          "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "/assets/style.css",
+          "/assets/app.js",
+          "/assets/analytics.js",
+          "/assets/mobile-artwork.css",
+          "/assets/poem-reader.css",
+          "/assets/poem-reader.js",
+          "/assets/poem-experience.css",
+          "/assets/poem-experience.js",
+          "/assets/engagement.css",
+          "/assets/engagement.js",
+          "/assets/human-natural.css",
+          "/assets/image-delivery.css",
+          "/assets/image-delivery.js",
+          "/assets/appearance.js",
+          "/assets/kabita-live-symbol.svg",
+          "/assets/writers/446-earth-voice-v1-64.webp",
+          "/assets/responsive/33fae8d9ece7bb4c-960.webp",
+          "/assets/shared-reader-storage.mjs",
+          "/assets/poem-marks.mjs",
+          "/assets/shared-reader-collections.mjs",
+          "/assets/reader-pagination.mjs",
+          "/assets/services/chunk-BUE2HC7S.js",
+          "/runtime-config.json",
+          "/assets/utkal-reader/storage.mjs",
+          "/assets/utkal-reader/pagination.mjs",
+          "/assets/utkal-reader/graph.mjs",
+          "/assets/utkal-reader/loader.mjs",
+          "image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoYABAAPxFysFAsJqSisAgBgCIJYwC/OBhINa/HSb3wnd6AAP7bOMTa85nx4UvzrYx6qwAEBfEJKwAR9AtW0fV7k+ex8p5s300YkLAk21Xq9iXFIjBoTgMhQ/gs+J9MxV0nlmEleDqwhSB+4szKAA==",
+          "/assets/poem-end-sprig.svg",
+          "/assets/odisha-watercolour-poetic-natural.webp",
+          "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "/assets/fonts/SourceSerif4-Variable.woff2",
+          "/assets/utkal-reader/anchors.mjs",
+          "/runtime-config.json"
+        ],
+        "final_requests": [
+          "/poem-834.html",
+          "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "/assets/style.css",
+          "/assets/app.js",
+          "/assets/analytics.js",
+          "/assets/mobile-artwork.css",
+          "/assets/poem-reader.css",
+          "/assets/poem-reader.js",
+          "/assets/poem-experience.css",
+          "/assets/poem-experience.js",
+          "/assets/engagement.css",
+          "/assets/engagement.js",
+          "/assets/human-natural.css",
+          "/assets/image-delivery.css",
+          "/assets/image-delivery.js",
+          "/assets/appearance.js",
+          "/assets/kabita-live-symbol.svg",
+          "/assets/writers/446-earth-voice-v1-64.webp",
+          "/assets/responsive/33fae8d9ece7bb4c-960.webp",
+          "/assets/shared-reader-storage.mjs",
+          "/assets/poem-marks.mjs",
+          "/assets/shared-reader-collections.mjs",
+          "/assets/reader-pagination.mjs",
+          "/assets/services/chunk-BUE2HC7S.js",
+          "/runtime-config.json",
+          "/assets/utkal-reader/storage.mjs",
+          "/assets/utkal-reader/pagination.mjs",
+          "/assets/utkal-reader/graph.mjs",
+          "/assets/utkal-reader/loader.mjs",
+          "image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoYABAAPxFysFAsJqSisAgBgCIJYwC/OBhINa/HSb3wnd6AAP7bOMTa85nx4UvzrYx6qwAEBfEJKwAR9AtW0fV7k+ex8p5s300YkLAk21Xq9iXFIjBoTgMhQ/gs+J9MxV0nlmEleDqwhSB+4szKAA==",
+          "/assets/poem-end-sprig.svg",
+          "/assets/odisha-watercolour-poetic-natural.webp",
+          "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "/assets/fonts/SourceSerif4-Variable.woff2",
+          "/assets/utkal-reader/anchors.mjs",
+          "/runtime-config.json",
+          "/assets/reading-library.json",
+          "/assets/reading-editions/issue-48.json",
+          "/assets/poem-end-leaf.svg",
+          "/assets/poetic-waterline.svg",
+          "/assets/poem-end-paired.svg",
+          "/assets/reading-library.json"
+        ],
+        "blocked_origins": []
+      },
+      {
+        "route": "/poem-834.html",
+        "width": 390,
+        "failure": "edition",
+        "checks": [
+          {
+            "name": "Page heading readable",
+            "pass": true
+          },
+          {
+            "name": "Reader edition/library payloads deferred",
+            "pass": true
+          },
+          {
+            "name": "No recordings downloaded",
+            "pass": true
+          },
+          {
+            "name": "No external service before action",
+            "pass": true
+          },
+          {
+            "name": "Reader opens",
+            "pass": true
+          },
+          {
+            "name": "Text-first reader has no illustrations",
+            "pass": true
+          },
+          {
+            "name": "Edition failure exercised",
+            "pass": true
+          },
+          {
+            "name": "Edition fallback keeps poem readable and offers retry",
+            "pass": true
+          },
+          {
+            "name": "Edition loads all11 poems",
+            "pass": true
+          },
+          {
+            "name": "Reopen reuses edition payload",
+            "pass": true
+          },
+          {
+            "name": "Library loads valid collections",
+            "pass": true
+          },
+          {
+            "name": "Library reopen reuses successful payloads",
+            "pass": true
+          },
+          {
+            "name": "Reader/library do not download recordings",
+            "pass": true
+          },
+          {
+            "name": "No missing local assets",
+            "pass": true
+          },
+          {
+            "name": "No uncaught errors",
+            "pass": true
+          },
+          {
+            "name": "All response traffic remains local",
+            "pass": true
+          }
+        ],
+        "initial_requests": [
+          "/poem-834.html",
+          "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "/assets/style.css",
+          "/assets/app.js",
+          "/assets/analytics.js",
+          "/assets/mobile-artwork.css",
+          "/assets/poem-reader.css",
+          "/assets/poem-reader.js",
+          "/assets/poem-experience.css",
+          "/assets/poem-experience.js",
+          "/assets/engagement.css",
+          "/assets/engagement.js",
+          "/assets/human-natural.css",
+          "/assets/image-delivery.css",
+          "/assets/image-delivery.js",
+          "/assets/appearance.js",
+          "/assets/kabita-live-symbol.svg",
+          "/assets/writers/446-earth-voice-v1-64.webp",
+          "/assets/responsive/33fae8d9ece7bb4c-480.webp",
+          "/assets/backgrounds/monsoon-wash.webp",
+          "/assets/shared-reader-storage.mjs",
+          "/assets/poem-marks.mjs",
+          "/assets/services/chunk-BUE2HC7S.js",
+          "/assets/shared-reader-collections.mjs",
+          "/assets/reader-pagination.mjs",
+          "/runtime-config.json",
+          "/assets/utkal-reader/storage.mjs",
+          "/assets/utkal-reader/graph.mjs",
+          "/assets/utkal-reader/loader.mjs",
+          "/assets/utkal-reader/pagination.mjs",
+          "image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoYABAAPxFysFAsJqSisAgBgCIJYwC/OBhINa/HSb3wnd6AAP7bOMTa85nx4UvzrYx6qwAEBfEJKwAR9AtW0fV7k+ex8p5s300YkLAk21Xq9iXFIjBoTgMhQ/gs+J9MxV0nlmEleDqwhSB+4szKAA==",
+          "/assets/poem-end-sprig.svg",
+          "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "/assets/fonts/SourceSerif4-Variable.woff2",
+          "/assets/utkal-reader/anchors.mjs",
+          "/runtime-config.json"
+        ],
+        "final_requests": [
+          "/poem-834.html",
+          "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "/assets/style.css",
+          "/assets/app.js",
+          "/assets/analytics.js",
+          "/assets/mobile-artwork.css",
+          "/assets/poem-reader.css",
+          "/assets/poem-reader.js",
+          "/assets/poem-experience.css",
+          "/assets/poem-experience.js",
+          "/assets/engagement.css",
+          "/assets/engagement.js",
+          "/assets/human-natural.css",
+          "/assets/image-delivery.css",
+          "/assets/image-delivery.js",
+          "/assets/appearance.js",
+          "/assets/kabita-live-symbol.svg",
+          "/assets/writers/446-earth-voice-v1-64.webp",
+          "/assets/responsive/33fae8d9ece7bb4c-480.webp",
+          "/assets/backgrounds/monsoon-wash.webp",
+          "/assets/shared-reader-storage.mjs",
+          "/assets/poem-marks.mjs",
+          "/assets/services/chunk-BUE2HC7S.js",
+          "/assets/shared-reader-collections.mjs",
+          "/assets/reader-pagination.mjs",
+          "/runtime-config.json",
+          "/assets/utkal-reader/storage.mjs",
+          "/assets/utkal-reader/graph.mjs",
+          "/assets/utkal-reader/loader.mjs",
+          "/assets/utkal-reader/pagination.mjs",
+          "image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoYABAAPxFysFAsJqSisAgBgCIJYwC/OBhINa/HSb3wnd6AAP7bOMTa85nx4UvzrYx6qwAEBfEJKwAR9AtW0fV7k+ex8p5s300YkLAk21Xq9iXFIjBoTgMhQ/gs+J9MxV0nlmEleDqwhSB+4szKAA==",
+          "/assets/poem-end-sprig.svg",
+          "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "/assets/fonts/SourceSerif4-Variable.woff2",
+          "/assets/utkal-reader/anchors.mjs",
+          "/runtime-config.json",
+          "/assets/reading-library.json",
+          "/assets/reading-editions/issue-48.json",
+          "/assets/reading-editions/issue-48.json",
+          "/assets/poem-end-leaf.svg",
+          "/assets/poetic-waterline.svg",
+          "/assets/poem-end-paired.svg",
+          "/assets/reading-library.json"
+        ],
+        "blocked_origins": []
+      },
+      {
+        "route": "/poem-834.html",
+        "width": 1280,
+        "failure": "library",
+        "checks": [
+          {
+            "name": "Page heading readable",
+            "pass": true
+          },
+          {
+            "name": "Reader edition/library payloads deferred",
+            "pass": true
+          },
+          {
+            "name": "No recordings downloaded",
+            "pass": true
+          },
+          {
+            "name": "No external service before action",
+            "pass": true
+          },
+          {
+            "name": "Reader opens",
+            "pass": true
+          },
+          {
+            "name": "Text-first reader has no illustrations",
+            "pass": true
+          },
+          {
+            "name": "Edition loads all11 poems",
+            "pass": true
+          },
+          {
+            "name": "Reopen reuses edition payload",
+            "pass": true
+          },
+          {
+            "name": "Library failure exercised",
+            "pass": true
+          },
+          {
+            "name": "Library failure preserves current reading",
+            "pass": true
+          },
+          {
+            "name": "Library loads valid collections",
+            "pass": true
+          },
+          {
+            "name": "Library reopen reuses successful payloads",
+            "pass": true
+          },
+          {
+            "name": "Reader/library do not download recordings",
+            "pass": true
+          },
+          {
+            "name": "No missing local assets",
+            "pass": true
+          },
+          {
+            "name": "No uncaught errors",
+            "pass": true
+          },
+          {
+            "name": "All response traffic remains local",
+            "pass": true
+          }
+        ],
+        "initial_requests": [
+          "/poem-834.html",
+          "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "/assets/style.css",
+          "/assets/app.js",
+          "/assets/analytics.js",
+          "/assets/mobile-artwork.css",
+          "/assets/poem-reader.css",
+          "/assets/poem-reader.js",
+          "/assets/poem-experience.css",
+          "/assets/poem-experience.js",
+          "/assets/engagement.css",
+          "/assets/engagement.js",
+          "/assets/human-natural.css",
+          "/assets/image-delivery.css",
+          "/assets/image-delivery.js",
+          "/assets/appearance.js",
+          "/assets/kabita-live-symbol.svg",
+          "/assets/writers/446-earth-voice-v1-64.webp",
+          "/assets/responsive/33fae8d9ece7bb4c-960.webp",
+          "/assets/shared-reader-storage.mjs",
+          "/assets/poem-marks.mjs",
+          "/assets/shared-reader-collections.mjs",
+          "/assets/reader-pagination.mjs",
+          "/assets/services/chunk-BUE2HC7S.js",
+          "/runtime-config.json",
+          "image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoYABAAPxFysFAsJqSisAgBgCIJYwC/OBhINa/HSb3wnd6AAP7bOMTa85nx4UvzrYx6qwAEBfEJKwAR9AtW0fV7k+ex8p5s300YkLAk21Xq9iXFIjBoTgMhQ/gs+J9MxV0nlmEleDqwhSB+4szKAA==",
+          "/assets/poem-end-sprig.svg",
+          "/assets/odisha-watercolour-poetic-natural.webp",
+          "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "/assets/fonts/SourceSerif4-Variable.woff2",
+          "/assets/utkal-reader/storage.mjs",
+          "/assets/utkal-reader/graph.mjs",
+          "/assets/utkal-reader/loader.mjs",
+          "/assets/utkal-reader/pagination.mjs",
+          "/assets/utkal-reader/anchors.mjs",
+          "/runtime-config.json"
+        ],
+        "final_requests": [
+          "/poem-834.html",
+          "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "/assets/style.css",
+          "/assets/app.js",
+          "/assets/analytics.js",
+          "/assets/mobile-artwork.css",
+          "/assets/poem-reader.css",
+          "/assets/poem-reader.js",
+          "/assets/poem-experience.css",
+          "/assets/poem-experience.js",
+          "/assets/engagement.css",
+          "/assets/engagement.js",
+          "/assets/human-natural.css",
+          "/assets/image-delivery.css",
+          "/assets/image-delivery.js",
+          "/assets/appearance.js",
+          "/assets/kabita-live-symbol.svg",
+          "/assets/writers/446-earth-voice-v1-64.webp",
+          "/assets/responsive/33fae8d9ece7bb4c-960.webp",
+          "/assets/shared-reader-storage.mjs",
+          "/assets/poem-marks.mjs",
+          "/assets/shared-reader-collections.mjs",
+          "/assets/reader-pagination.mjs",
+          "/assets/services/chunk-BUE2HC7S.js",
+          "/runtime-config.json",
+          "image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoYABAAPxFysFAsJqSisAgBgCIJYwC/OBhINa/HSb3wnd6AAP7bOMTa85nx4UvzrYx6qwAEBfEJKwAR9AtW0fV7k+ex8p5s300YkLAk21Xq9iXFIjBoTgMhQ/gs+J9MxV0nlmEleDqwhSB+4szKAA==",
+          "/assets/poem-end-sprig.svg",
+          "/assets/odisha-watercolour-poetic-natural.webp",
+          "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "/assets/fonts/SourceSerif4-Variable.woff2",
+          "/assets/utkal-reader/storage.mjs",
+          "/assets/utkal-reader/graph.mjs",
+          "/assets/utkal-reader/loader.mjs",
+          "/assets/utkal-reader/pagination.mjs",
+          "/assets/utkal-reader/anchors.mjs",
+          "/runtime-config.json",
+          "/assets/reading-library.json",
+          "/assets/reading-editions/issue-48.json",
+          "/assets/poem-end-leaf.svg",
+          "/assets/poetic-waterline.svg",
+          "/assets/poem-end-paired.svg",
+          "/assets/reading-library.json",
+          "/assets/reading-library.json"
+        ],
+        "blocked_origins": []
+      }
+    ],
+    "scope": "Current Kabita public build with hash-matching native reader source. Cold browser network cache; within-page edition/library reuse and failed fetch retry. External target requests blocked before network. Loading behaviour and raw request inventory only; no timing or speed claim."
+  },
+  "limitations": [
+    "Current public-build reader assets matching native source hashes and74browser checks on6cold-cache scenarios: home and poem834 at390/1280, plus real edition and library failures/retries. Within-page reopening reuses edition/library payloads. All external target requests blocked before network.",
+    "No new performance change or timing comparison in this batch. Existing matched-build cover improvements remain separately supported. This is loading/cache regression evidence, not a speed percentage or production cache-header check.",
+    "Existing active service/consent settings preserved. Prior synthetic provider failure/Auth/rules evidence retained. No recording fetch, source/art/music changes, submission, cloud write, deployment or independent-review claim.",
+    "All four sites have residual loading/cache evidence; FLEET009 local acceptance can close. Production header/compression and real-user observations remain release dependencies."
+  ],
+  "next_action": "Local four-site loading acceptance is complete; retain production headers/compression and real-user measurements as release dependencies."
+}

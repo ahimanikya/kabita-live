@@ -1,0 +1,67 @@
+{
+  "id": "KBL-DEC-079",
+  "work": "KBL-WORK-061",
+  "review": "KBL-REV-074",
+  "release": "KBL-REL-017",
+  "title": "Restore illustrated Facebook banner with current brand colours",
+  "recorded_at": "2026-10-19T06:05:27.149062+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "user_quote": "The older FB banner was good, we just wanted to change text color and logo, the plain one is not looking good",
+  "supersedes": "KBL-DEC-075 plain rose-paper Facebook cover only; retains current profile logo and aqua-drop decision.",
+  "scope": "Restore prior river-and-veranda illustrated Facebook cover with mulberry text and leaves, aqua drop. Preserve exact wording, layout and historical masters. No website or daily-posting changes.",
+  "status": "published_verified",
+  "source": "artifacts/social/facebook-2026-10-14/cover-tagline-v1.png",
+  "design": {
+    "text_and_leaves": "#713B55",
+    "drop": "#327E80",
+    "text": [
+      "Kabita Live",
+      "ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର",
+      "Monthly poetry · Odia, Hindi & English"
+    ],
+    "composition": "Retain prior complete river, hills, sky, sunset, trees, veranda, notebook, brass vessel, flowers and cloth. Do not substitute a plain banner.",
+    "dimensions": [
+      1918,
+      820
+    ],
+    "profile": "Retain already published mulberry/aqua symbol."
+  },
+  "method": "Built-in image_gen precise-object-edit using original banner and current logo reference. Exact prompt and hashes preserved.",
+  "verification": {
+    "result": "PASS",
+    "facebook": {
+      "status": "published_verified",
+      "page_id": "61594946730649",
+      "page_url": "https://www.facebook.com/profile.php?id=61594946730649",
+      "authority": "User correction in originating Facebook branding task: retain older illustrated banner, change text colour and logo only.",
+      "identity": "Manage Page — Kabita Live, correct Page ID; existing mulberry/aqua profile logo visible.",
+      "file": "kb/artifacts/social/facebook-illustrated-restore-2026-10-19/cover-v1.png",
+      "sha256": "f02499b3c64d3d88e0005aae50f25fd560f29ca9a10d88a439fabc6267621d6f",
+      "previous_cover_url": "https://www.facebook.com/photo/?fbid=122112148779498224&set=a.122096972637498224",
+      "save_attempt_at": "2026-10-19T06:04:13.143393+00:00",
+      "crop_review": "Complete three-line lettering and logo visible; river and veranda artwork retained in desktop cover preview.",
+      "profile_change": false,
+      "verified_at": "2026-10-19T06:05:27.149062+00:00",
+      "photo_url": "https://www.facebook.com/photo/?fbid=122112158283498224&set=a.122096972637498224",
+      "confirmation": "Save controls closed; new cover photo ID and restored illustrated banner visible on Kabita Live Page.",
+      "evidence": "page-published.png"
+    },
+    "historical_assets": "Original banner, plain banner and logo masters retained.",
+    "site": "No implementation or deployment changes; site tests not applicable."
+  },
+  "reviewer": "Current chat assistant; Samanta implementation / Drishti self-review",
+  "independent": false,
+  "limitations": [
+    "Visual self-review by current assistant, not independent review.",
+    "Built-in generative image edit preserves the composition visually; exact background pixel identity is not claimed.",
+    "Facebook desktop crop reviewed; native phone-app rendering not separately checked."
+  ],
+  "evidence": [
+    "artifacts/social/facebook-illustrated-restore-2026-10-19/cover-v1.png",
+    "artifacts/social/facebook-illustrated-restore-2026-10-19/prompt.txt",
+    "artifacts/social/facebook-illustrated-restore-2026-10-19/provenance.json",
+    "artifacts/social/facebook-illustrated-restore-2026-10-19/publication-receipt.json",
+    "artifacts/social/facebook-illustrated-restore-2026-10-19/page-published.png"
+  ],
+  "next_action": "Corrected illustrated cover is published and visually verified."
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-06",
+  "work_ref": "KBL-WORK-030",
+  "status": "local_review_ready",
+  "published": false,
+  "authorization": "User requested a simpler information hierarchy and line art in the open right-hand area.",
+  "hierarchy": [
+    "Issue identity and date",
+    "Visible reading language",
+    "Read poems primary; Editorial note secondary",
+    "Reading tools disclosure: text size, sharing, quiet reader"
+  ],
+  "scope": {
+    "edition_controls": 48,
+    "line_art_placement": "Edition48: move existing listening-chairs vignette below the cover in the right column; retain two passage vignettes in each editorial language",
+    "new_artwork": 0
+  },
+  "preservation": [
+    "All11 Edition48 originals and22 translations verified",
+    "Three exact excerpts, all11 contributor links and editorial wording preserved",
+    "Existing cover/poem art hashes and sharing associations verified",
+    "Full-width editorial, borderless contents, active language and focus cues retained"
+  ],
+  "verification": {
+    "independent": false,
+    "build": "PASS Node24 full public build",
+    "integrity": "PASS scoped verifier including all48 edition control sets",
+    "browser": [
+      "Desktop dark1200x1000",
+      "Mobile light390px",
+      "Narrow320px no overflow;44px language targets",
+      "Language updates poem links and editorial",
+      "Text-size change/reset",
+      "Share dialog opens with correct issue",
+      "Quiet reader opens and restores focus to visible Reading tools on exit",
+      "Enter/Escape toggles tools panel"
+    ],
+    "evidence": "kb/artifacts/review/edition-hierarchy-2026-10-06/"
+  },
+  "next_action": "User review of local preview; publication remains separate."
+}

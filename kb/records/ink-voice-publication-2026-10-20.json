@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-20T00:10:49.229146+00:00",
+  "status": "release_checks_passed_pending_publication",
+  "authorization": {
+    "decision": "KBL-DEC-082",
+    "quote": "OK, let's pubish",
+    "interpretation": "Publish the completed approved Ink & Voice redesign and audit corrections, following the status handover."
+  },
+  "work": "KBL-WORK-064",
+  "review": "KBL-REV-077",
+  "release": "KBL-REL-018",
+  "baseline": "864ae6795a5ec3379f67938b5938ccaf54143f60",
+  "release_checkout": "/Users/ahimanikya/.codex/worktrees/ink-voice-publication/Kabita Live",
+  "hosting_mode": "discovery",
+  "executor": "Current chat assistant; Samanta implementation / Drishti self-review",
+  "independent": false,
+  "scope": [
+    "Approved Ink & Voice website and quiet-reader design; Newsreader/Literata with existing Indic fonts",
+    "Compact English masthead, mulberry/aqua logo and favicon",
+    "Current-edition homepage cover and root sharing preview; per-visit featured originals",
+    "Edition-page cover links; quiet idle engagement status",
+    "Original badge, two translation choices and narrow-screen alignment",
+    "Whole-site audit fixes and their build/test dependencies"
+  ],
+  "preserved": [
+    "Original poetry, translations and source holds",
+    "Edition artwork, cover designs, portraits and credits",
+    "Live service configuration, consent, discovery/noindex exceptions, full editorial release gate and DNS",
+    "Unrelated local and remote changes"
+  ],
+  "evidence": [
+    "artifacts/review/ink-voice-publication-2026-10-20/approved-source.patch",
+    "artifacts/review/ink-voice-publication-2026-10-20/site-source-paths.json"
+  ],
+  "limitations": [
+    "Existing editorial and source questions remain. Local review was Chromium-based and same-assistant; no Safari/Firefox or native-device certification."
+  ],
+  "checks": {
+    "build": "Node24.15.0 discovery build passed",
+    "tests": {
+      "javascript": 175,
+      "python": 36,
+      "failed": 0
+    },
+    "design": "All1317exported routes passed",
+    "preservation": "669 protected files unchanged",
+    "content_gate": "Preserved; discovery mode, not full editorial release",
+    "evidence": "artifacts/review/ink-voice-publication-2026-10-20/release-checks.json",
+    "edition_integrity": "PASS:48 editions,848 source hashes,809 reciprocal writer links",
+    "release_bundle": "PASS:49 concepts",
+    "scope_diff": "No changes to source content, runtime config or manual publication workflow"
+  },
+  "release_notes": [
+    "Latest-main checkout had an older 47-edition checker; included the existing current import-aware checker and verified48editions.",
+    "Restored already-referenced historical KB evidence and pinned references from canonical local copies to keep release records resolvable; no new editorial decisions."
+  ]
+}

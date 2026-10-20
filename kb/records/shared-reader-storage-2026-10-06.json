@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-06T10:15:09.342417+00:00",
+  "status": "storage_module_verified_browser_pending",
+  "execution": "Current assistant; Samanta implementation and Drishti self-review, independent false",
+  "reader_version": "0.1.0-rc.1",
+  "checks": {
+    "storage_tests": 5,
+    "pagination_tests": 8,
+    "js_syntax": "PASS",
+    "native_build": "Created 1330 linked pages.",
+    "public_inputs": "Public-only build inputs: 1316 pages, 3523 assets. Content ready: False.",
+    "private_boundary": "No KB paths in public manifest; storage wrapper and pinned runtime explicitly included.",
+    "public_module_hashes": "Shared wrapper,storage module and native reader match exported .public hashes.",
+    "null_fallback": "Native null-coalescing readJSON fallback preserved."
+  },
+  "changes": "Shared storage retains native keys, uses current session values after quota denial, protects malformed records, and reports visit-only bookmarks. Saved reading uses same safe store on close/reopen. Runtime cache version16.",
+  "limitations": [
+    "Five storage module checks and eight pagination tests passed; changed native reader interactions not yet browser-verified.",
+    "Native graph/revision mapping and shared lazy collection validation pending.",
+    "Existing saved-position and inline-break encodings retained; no silent conversion to shared anchors.",
+    "Standalone poem renderer has its separate marks store; its compatibility bridge remains to be checked.",
+    "No deployment, publication, service or literary-content edits."
+  ],
+  "portable_sync": "PASS:23980entries hash-verified after stable-source retry; completion receipt parity and baseline hashes updated.",
+  "recovery": "/Users/ahimanikya/Projects/Poem Without Borders/output/fleet-alignment/batch-process/results/batch-031-recovery/manifest.json"
+}

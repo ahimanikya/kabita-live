@@ -1,0 +1,102 @@
+{
+  "recorded_at": "2026-10-19T05:49:43.453857+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "status": "verified_local",
+  "reviewer": "Current chat assistant; implementation and self-review",
+  "independent": false,
+  "verification": {
+    "status": "PASS",
+    "recorded_at": "2026-10-19T05:58:13.223231+00:00",
+    "build": "Node 24.15.0 full build, then final CSS/JS refresh in generated .public and successful Astro/Pagefind rebuild. Export bytes checked against current sources.",
+    "tests": {
+      "javascript": 175,
+      "python": 36,
+      "failed": 0
+    },
+    "editions": "PASS",
+    "integrity": {
+      "result": "PASS",
+      "public_pages": 1317,
+      "poem_pages_checked": 810,
+      "source_languages": {
+        "en": 490,
+        "or": 216,
+        "hi": 104
+      },
+      "exact_favicon_pages": 1317,
+      "protected_current_files": 36,
+      "changed_current": [],
+      "protected_previous_files": 607,
+      "changed_previous": [],
+      "errors": [],
+      "status": "PASS",
+      "final_badge_export_checked_at": "2026-10-19T05:57:39.997354+00:00",
+      "final_badged_poem_pages": 810,
+      "final_asset_bytes_match": true
+    },
+    "browser": "Original/source labels, three choices, keyboard, language deep links, missing translations, mixed-source quiet pages, translation/source transitions, phone resizing, both themes, public-export runtime; home edge wash, English/script headings, profile ornament, archive footer, print and reduced motion.",
+    "resolved_during_verification": [
+      "Mixed-source quiet page resize initially anchored a preceding tail; now anchors the current opening/poem.",
+      "Explicit public export initially omitted the new reader-language module; added it to the existing allowlist and added export coverage. Updated the isolated export-test fixture accordingly."
+    ],
+    "limitations": [
+      "Implementation and browser checks are same-assistant self-review, not independent accessibility certification.",
+      "Phone layouts were checked at 320/390px through live DOM measurements; the IAB screenshot compositor scaled phone captures. Desktop screenshots are usable visual evidence.",
+      "No website push or deployment. Existing public services were preserved, not retested with public writes."
+    ],
+    "final_badge": "Final user clarification applied: small uppercase ORIGINAL badge above the aligned source-language symbol; one-row controls verified at 320/390px, source glyph updates across all three languages, exported runtime checked.",
+    "final_build_evidence": [
+      "artifacts/design/original-and-wash-2026-10-19/final-astro.log",
+      "artifacts/design/original-and-wash-2026-10-19/final-pagefind.log"
+    ]
+  },
+  "evidence": [
+    "artifacts/design/original-and-wash-2026-10-19/verification.json",
+    "artifacts/design/original-and-wash-2026-10-19/integrity.json",
+    "artifacts/design/original-and-wash-2026-10-19/browser-checks.json",
+    "artifacts/design/original-and-wash-2026-10-19/build.log",
+    "artifacts/design/original-and-wash-2026-10-19/tests.log",
+    "artifacts/design/original-and-wash-2026-10-19/editions-check.log"
+  ],
+  "limitations": [
+    "Implementation and browser checks are same-assistant self-review, not independent accessibility certification.",
+    "Phone layouts were checked at 320/390px through live DOM measurements; the IAB screenshot compositor scaled phone captures. Desktop screenshots are usable visual evidence.",
+    "No website push or deployment. Existing public services were preserved, not retested with public writes."
+  ],
+  "id": "KBL-DEC-077",
+  "work": "KBL-WORK-059",
+  "review": "KBL-REV-072",
+  "title": "Apply approved artistic-wash refinements",
+  "user_quote": "approved",
+  "approval_context": "User approval while the artistic-wash audit HTML was open; follows their request for an artistic touch/wash audit. The audit document and its original limitations remain history.",
+  "source_audit": "records/artistic-wash-audit-2026-10-19.json",
+  "dispositions": [
+    {
+      "finding": "KBL-ART-AUD-001",
+      "status": "resolved",
+      "change": "Scoped theme masks reuse waterline SVG; inline header leaf/vein follows mulberry. Exact historical SVGs and artwork are unchanged."
+    },
+    {
+      "finding": "KBL-ART-AUD-002",
+      "status": "resolved",
+      "change": "English editorial h2 uses Newsreader; explicit Odia/Hindi families preserved."
+    },
+    {
+      "finding": "KBL-ART-AUD-003",
+      "status": "implemented_after_approval",
+      "change": "Static 10–12px edge wash on the homepage featured-poem panel; flat verse/control area, no body wash, hidden in print."
+    },
+    {
+      "finding": "KBL-ART-AUD-004",
+      "status": "resolved",
+      "change": "Shared article-engagement stylesheet emitted once when either sharing or responses is present; service scripts unchanged."
+    }
+  ],
+  "checklist": {
+    "scope": "Existing decorative delivery, editorial typography and featured panel only.",
+    "artwork": "607 prior protected artwork/data files and 36 current data/brand files unchanged.",
+    "sharing": "Current issue cover remains homepage share image; cover links still open issue pages.",
+    "visual": "Fresh local light/dark homepage and archive-footer inspection, issue 47 opening, issue 48 English editorial and computed per-script fonts, profile mask, 390px home, print/reduced-motion. Not an exhaustive every-page visual certification.",
+    "release": "Local preview only."
+  }
+}

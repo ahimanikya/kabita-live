@@ -1,0 +1,63 @@
+{
+  "recorded_at": "2026-10-09T13:29:50.764760+00:00",
+  "request": "can we fix this and send a note that I can send to the provider",
+  "executor": "Current chat assistant; Samanta Chandrasekhar implementation and self-review",
+  "independent": false,
+  "scope": "Repair custom-domain hosting using existing published content; preserve unpublished local work and preview/editorial/consent gates.",
+  "before": {
+    "domain": "kabitalive.com",
+    "a": [
+      "185.199.108.153"
+    ],
+    "www_cname": "ahimanikya.github.io",
+    "github_cname": null,
+    "https": "certificate mismatch",
+    "http": 404
+  },
+  "changes": {
+    "github_cname": "kabitalive.com",
+    "runtime_allowlists": [
+      "kabitalive.com",
+      "www.kabitalive.com"
+    ],
+    "commit": "1289f9c25c31ab3dcda7b2c849f88c1b424dfe0b",
+    "base_commit": "ed7d7ac5c11a2fd6c27f5a3d14b8ce897022aec8",
+    "workflow": "https://github.com/ahimanikya/kabita-live/actions/runs/37937615108",
+    "exporter_commit": "3b3b1da27dfe8c9d4d9f2c70aa7329b580665bf8",
+    "https_enforced": true
+  },
+  "status": "deployed_https_live_verified",
+  "provider_followup": "Complete four apex A records; preserve www CNAME and mail records.",
+  "review_limits": [
+    "No independent editorial review",
+    "No provider DNS writes",
+    "No public comment or feedback submitted"
+  ],
+  "certificate": {
+    "state": "approved",
+    "domains": [
+      "kabitalive.com",
+      "www.kabitalive.com"
+    ],
+    "expires_at": "2027-01-07"
+  },
+  "checks": {
+    "focused_exporter_safeguard_checks": 4,
+    "first_deployment": "blocked safely by legacy-host runtime check before publication",
+    "https_apex": 200,
+    "https_www": "301 to https://kabitalive.com/",
+    "bundle": "PASS",
+    "storage": "PASS before final record update",
+    "deployment": "success",
+    "http_apex": "301 to https://kabitalive.com/",
+    "live_pages": 5,
+    "representative_asset_checks": 60,
+    "asset_errors": 0,
+    "canonical_and_sharing_urls": "HTTPS custom domain",
+    "old_base_references": 0,
+    "browser": "Homepage and poem825 verified; Like enabled; Comments panel present; no console warnings/errors",
+    "services": "Host configuration verified; no feedback/comment submitted; Analytics consent not changed"
+  },
+  "completed_at": "2026-10-09T13:39:22.446485+00:00",
+  "evidence": "artifacts/evidence/domain-cutover-2026-10-09"
+}

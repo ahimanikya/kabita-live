@@ -1,0 +1,185 @@
+{
+  "at": "2026-10-07T17:14:28.804839+00:00",
+  "batch": "batch-134",
+  "task": "FLEET-020",
+  "status": "kabita_native_loading_and_reader_checkpoint_verified",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "checks": {
+    "source_and_packaged_tests_passed": 25,
+    "native_browser_checks": 33,
+    "native_scenarios": 4,
+    "final_bundle_browser_tested": true,
+    "test_browser_stopped": true,
+    "live_google_payload_verified": false
+  },
+  "browser_results": {
+    "runs": [
+      {
+        "width": 390,
+        "mode": "normal",
+        "checks": [
+          {
+            "name": "No Google request before explicit consent",
+            "pass": true
+          },
+          {
+            "name": "Actual native poem rendered",
+            "pass": true
+          },
+          {
+            "name": "One intercepted provider request after grant",
+            "pass": true
+          },
+          {
+            "name": "No events queued while provider loads",
+            "pass": true
+          },
+          {
+            "name": "Provider failure leaves no event queue",
+            "pass": true
+          },
+          {
+            "name": "Explicit retry creates one new provider request",
+            "pass": true
+          },
+          {
+            "name": "One explicit page view after successful load",
+            "pass": true
+          },
+          {
+            "name": "Displayed poem recorded",
+            "pass": true
+          },
+          {
+            "name": "Actual language switch recorded",
+            "pass": true
+          },
+          {
+            "name": "Private query and hash excluded from all commands",
+            "pass": true
+          },
+          {
+            "name": "Actual quiet reader opened and recorded",
+            "pass": true
+          },
+          {
+            "name": "Actual reader close recorded once",
+            "pass": true
+          }
+        ]
+      },
+      {
+        "width": 1280,
+        "mode": "normal",
+        "checks": [
+          {
+            "name": "No Google request before explicit consent",
+            "pass": true
+          },
+          {
+            "name": "Actual native poem rendered",
+            "pass": true
+          },
+          {
+            "name": "One intercepted provider request after grant",
+            "pass": true
+          },
+          {
+            "name": "No events queued while provider loads",
+            "pass": true
+          },
+          {
+            "name": "Provider failure leaves no event queue",
+            "pass": true
+          },
+          {
+            "name": "Explicit retry creates one new provider request",
+            "pass": true
+          },
+          {
+            "name": "One explicit page view after successful load",
+            "pass": true
+          },
+          {
+            "name": "Displayed poem recorded",
+            "pass": true
+          },
+          {
+            "name": "Actual language switch recorded",
+            "pass": true
+          },
+          {
+            "name": "Private query and hash excluded from all commands",
+            "pass": true
+          },
+          {
+            "name": "Actual quiet reader opened and recorded",
+            "pass": true
+          },
+          {
+            "name": "Actual reader close recorded once",
+            "pass": true
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "mode": "gpc",
+        "checks": [
+          {
+            "name": "No Google request before explicit consent",
+            "pass": true
+          },
+          {
+            "name": "Actual native poem rendered",
+            "pass": true
+          },
+          {
+            "name": "Browser privacy overrides saved and explicit consent",
+            "pass": true
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "mode": "blocked",
+        "checks": [
+          {
+            "name": "No Google request before explicit consent",
+            "pass": true
+          },
+          {
+            "name": "Actual native poem rendered",
+            "pass": true
+          },
+          {
+            "name": "One intercepted provider request after grant",
+            "pass": true
+          },
+          {
+            "name": "No events queued while provider loads",
+            "pass": true
+          },
+          {
+            "name": "Withdrawal during delayed loading emits no events",
+            "pass": true
+          },
+          {
+            "name": "Storage-blocked withdrawal preserves readable poem",
+            "pass": true
+          }
+        ]
+      }
+    ],
+    "scope": "Actual current native poem HTML/assets and observer, added consent controls, synthetic dedicated HTTPS config; Google provider requests intercepted/failure or inert fixture fulfilment. No live provider payloads or cloud writes."
+  },
+  "limitations": [
+    "25 source/packaged checks pass, including delayed loading, withdrawal before completion, explicit regrant and provider failure/retry. Initial test assertion failed only due to cross-VM Array prototypes; corrected comparison and full rerun pass.",
+    "33 final-bundle native browser checks pass across4scenarios:current actual poem HTML/assets at390/1280, privacy override390 and storage-blocked withdrawal390. Actual language switch and quiet reader open/close verified. Added consent controls and synthetic dedicated HTTPS config used; all requests intercepted.",
+    "Google script requests are observed then failed or fulfilled with inert local JavaScript. No live provider payloads or cloud/account writes. This verifies native script loading, adapter gating/commands and actual reader DOM, not real Google background traffic or DebugView/enhanced-measurement settings.",
+    "Provider-load events are no longer queued:track stays inactive until onload. Withdrawal rejects late-load events; failure clears the own pending command queue and permits explicit retry. Successful page view counts once; pre-consent events are not replayed. Existing source property/configuration preserved.",
+    "Remaining Kabita acceptance:actual article browser/lifecycle verification, fresh complete public build and real provider/background-withdrawal assurance including storage-blocked loaded provider. Other site adapters remain pending. Browser stopped via Browser.close; launch recovered from startup connection-refused before tests.",
+    "Primary KB only;no portable export/handoff sync, publication, deployment or independent review."
+  ],
+  "next_action": "Complete actual article browser and fresh public build verification; resolve loaded-provider background/withdrawal guarantees and account measurement settings separately, then adopt other sites."
+}

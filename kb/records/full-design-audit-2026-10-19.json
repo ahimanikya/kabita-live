@@ -1,0 +1,102 @@
+{
+  "recorded_at": "2026-10-19T06:33:33.662194+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "status": "verified_local",
+  "authorization": {
+    "decision": "KBL-DEC-080",
+    "quote": "Audit the whole site to ensure the new design system is applied everywhere - color, typography, etc.",
+    "scope": "Audit and correct application of the already approved Ink & Voice design; no new visual direction or publication."
+  },
+  "reviewer": "Current chat assistant; Samanta implementation / Drishti self-review",
+  "independent": false,
+  "work": "KBL-WORK-062",
+  "review": "KBL-REV-075",
+  "coverage": {
+    "exported_routes": 1317,
+    "full_pages_computed_both_themes": 1316,
+    "mobile_representative_routes_both_themes": 32,
+    "desktop_width": 1280,
+    "narrow_width": 320,
+    "visual_phone_width": 390,
+    "redirect_fallback": 1
+  },
+  "findings_fixed": [
+    {
+      "id": "IV-AUD-01",
+      "title": "Share dialog carried the historical logo",
+      "before": "The dynamically created share card used the old teal symbol asset.",
+      "after": "It now uses the current theme-aware mulberry leaf mark and aqua water drop, with the current SVG as fallback.",
+      "files": [
+        "assets/app.js",
+        "assets/ink-voice.css"
+      ]
+    },
+    {
+      "id": "IV-AUD-02",
+      "title": "Shared overlays retained blue-green shading",
+      "before": "Dialog and menu backdrops retained an old teal scrim; page-turn shadow also retained a teal tint.",
+      "after": "Backdrops use the charcoal Ink & Voice scrim; the fold shadow uses the existing theme shadow token.",
+      "files": [
+        "assets/ink-voice.css"
+      ]
+    },
+    {
+      "id": "IV-AUD-03",
+      "title": "Search redirect fallback lacked the shared theme",
+      "before": "The redirect’s visible fallback did not load the complete design system.",
+      "after": "The fallback has the shared palette, fonts, spacing, saved/system theme and current favicon. Search still preserves the query when redirecting to Poems.",
+      "files": [
+        "edition-pages.py",
+        "build.py",
+        "ink_voice.py"
+      ]
+    },
+    {
+      "id": "IV-AUD-04",
+      "title": "English quotations inherited an editorial’s script font",
+      "before": "An English source quotation within a Hindi or Odia editorial inherited the surrounding script family.",
+      "after": "English quotation blocks explicitly use Literata, while Hindi and Odia quotations keep their own script families.",
+      "files": [
+        "assets/edition-editorial.css",
+        "edition_editorial.py"
+      ]
+    },
+    {
+      "id": "IV-AUD-05",
+      "title": "Text enlargement broke the masthead and badge spacing",
+      "before": "At a 200% root text size, the masthead could split Kabita within the word and the Original badge could overlap a neighbouring language control.",
+      "after": "The masthead wraps at word boundaries; controls may add rows when necessary, and the Original target grows with enlarged text. Normal-size compact layouts are retained.",
+      "files": [
+        "assets/ink-voice.css"
+      ]
+    },
+    {
+      "id": "IV-AUD-06",
+      "title": "Quiet-reader Original badge inherited the poem language",
+      "before": "The quiet reader’s English badge inherited the original Hindi/Odia script language and font.",
+      "after": "An explicit English language attribute keeps the small uppercase badge in the interface font; the source-language glyph retains its own script font.",
+      "files": [
+        "templates/quiet-reader.html"
+      ]
+    }
+  ],
+  "verification": "artifacts/design/full-design-audit-2026-10-19/verification.json",
+  "report": "artifacts/design/full-design-audit-2026-10-19/audit.html",
+  "regression_check": "tools/check_design_system.py",
+  "exceptions": [
+    "Historical edition-cover composition, Cormorant cover typography and artwork colours intentionally retained.",
+    "Original poetry, translations, credits, portraits, font assets, runtime configuration and release/consent safeguards preserved.",
+    "Old literal colours in historical or overridden CSS are not evidence of rendered drift; no blanket substitution applied."
+  ],
+  "limitations": [
+    "Whole-site inspection is automated computed-style/overflow coverage; detailed visual and interaction review samples representative page families.",
+    "200% text check temporarily enlarged the root font in the local browser; it is not a native browser-zoom or full accessibility certification.",
+    "Local Chromium/IAB review only; Safari, Firefox and native mobile apps were not separately tested.",
+    "Runtime service submissions and public Likes/comments were not sent during this design audit. Existing edition-check editorial gaps remain unchanged.",
+    "Not an independent review. No push or publication performed."
+  ],
+  "handoff": {
+    "status": "PASS",
+    "receipt": "artifacts/design/full-design-audit-2026-10-19/handoff-verification.json"
+  }
+}

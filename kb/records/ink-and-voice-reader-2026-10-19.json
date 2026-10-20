@@ -1,0 +1,253 @@
+{
+  "id": "KBL-DEC-067",
+  "work": "KBL-WORK-049",
+  "title": "Ink & Voice reading room and detailed local audit",
+  "recorded_at": "2026-10-19T04:05:18.282280+00:00",
+  "status": "verified_local_with_limitations",
+  "human_authority": "Ahimanikya Satapathy",
+  "user_quote": "Also, the reader should be updated. After update do a detail audit",
+  "basis": "Extends approved Ink & Voice implementation KBL-DEC-066 into the quiet reader and ordinary poem controls.",
+  "executor": "Current chat assistant; Samanta implementation and Drishti quality role passes, self-review only.",
+  "independent": false,
+  "implementation": {
+    "quiet_reader": "Soft rose surround, clean paper leaves, Newsreader journal identifier/headings, Literata English reading, retained Indic fonts, wider desktop margins, mobile one-page layout, mulberry folios and visible keyboard focus.",
+    "controls": "Existing language, bookmarks, fullscreen, theme/menu order and pagination preserved. Settings disclosures have 44px minimum targets; field boundaries use contrasting muted ink.",
+    "ordinary_poem": "Poem language and action rail uses shared fine rules and rose selected-language background.",
+    "preservation": "No reader JavaScript, poem/translation/credit data, artwork, service configuration, storage keys or publication gates changed."
+  },
+  "checks": {
+    "status": "pass_with_limitations",
+    "independent": false,
+    "date": "2026-10-19",
+    "scope": "Ink & Voice quiet reader and ordinary poem controls; detailed local site audit",
+    "implementation_files": [
+      "projects/site/assets/ink-voice.css",
+      "projects/site/templates/quiet-reader.html",
+      "projects/site/ink_voice.py"
+    ],
+    "tests": {
+      "javascript": 168,
+      "python": 34,
+      "failed": 0,
+      "build": "Node 24 full Astro build passed"
+    },
+    "integrity": {
+      "source_poem_hashes": 848,
+      "editions": 48,
+      "preserved_files": 1017,
+      "changed_preserved_files": 0
+    },
+    "public_export": {
+      "html_pages": 1317,
+      "local_link_references": 35719,
+      "asset_references": 34198,
+      "broken_files": 0,
+      "broken_fragments": 0,
+      "duplicate_ids": 0,
+      "images_without_alt": 0,
+      "missing_titles": 0,
+      "noindex_preserved": true,
+      "themed_pages": 1316,
+      "intentional_redirect": "search.html"
+    },
+    "reader_pagination": {
+      "edition": 48,
+      "poems": 11,
+      "runs": [
+        "English desktop",
+        "Hindi desktop",
+        "Odia desktop",
+        "Mixed originals phone"
+      ],
+      "logical_pages_checked": 109,
+      "exact_ordered_line_comparisons": 1208,
+      "missing_or_duplicate_lines": 0,
+      "unexpected_overflow": 0
+    },
+    "browser": {
+      "engine": "Chromium in-app browser",
+      "families": 10,
+      "widths": [
+        320,
+        390,
+        768,
+        1000,
+        1101,
+        1280,
+        1440
+      ],
+      "landscape": [
+        844,
+        390
+      ],
+      "enlargement": "Temporary 200% root text-size emulation, restored after checks; does not certify every OS/browser zoom implementation.",
+      "controls": [
+        "ArrowRight and PageUp",
+        "Escape and exit focus return",
+        "explicit-language bookmark return to exact verse unit",
+        "word underline, page-turn persistence and removal",
+        "collection filter versus Read all",
+        "single-poem selection",
+        "optional illustration load",
+        "F full-screen entry and exit"
+      ],
+      "edge_cases": [
+        "66-character title on poem 772: 10px vertical overflow uses intentional scroll fallback at 320x568",
+        "134-line poem 396: opening checked",
+        "734-character source line / inline-break poem 9: opening checked",
+        "poem 797: unavailable Odia/Hindi tabs disabled"
+      ]
+    },
+    "fixed_findings": [
+      {
+        "id": "RA-01",
+        "severity": "design",
+        "finding": "Quiet reader retained the previous book surface and spacing.",
+        "resolution": "Rose surround, clean paper leaves, Newsreader journal/title treatment, wider desktop margins, compact mobile controls, mulberry folios and visible focus states."
+      },
+      {
+        "id": "RA-02",
+        "severity": "accessibility",
+        "finding": "Reader disclosure targets inherited 32–36px minimum heights.",
+        "resolution": "Settings summaries now have a 44px minimum."
+      },
+      {
+        "id": "RA-03",
+        "severity": "accessibility",
+        "finding": "Settings field outlines inherited the low-contrast decorative rule colour.",
+        "resolution": "Use the muted text colour for select/search boundaries in both themes; theme contrast checked."
+      }
+    ],
+    "contrast": [
+      {
+        "theme": "light",
+        "foreground": "ink",
+        "background": "paper",
+        "ratio": 14.62
+      },
+      {
+        "theme": "light",
+        "foreground": "ink",
+        "background": "panel",
+        "ratio": 11.83
+      },
+      {
+        "theme": "light",
+        "foreground": "muted",
+        "background": "paper",
+        "ratio": 6.18
+      },
+      {
+        "theme": "light",
+        "foreground": "muted",
+        "background": "panel",
+        "ratio": 5.0
+      },
+      {
+        "theme": "light",
+        "foreground": "accent",
+        "background": "paper",
+        "ratio": 8.02
+      },
+      {
+        "theme": "light",
+        "foreground": "accent",
+        "background": "panel",
+        "ratio": 6.49
+      },
+      {
+        "theme": "dark",
+        "foreground": "ink",
+        "background": "paper",
+        "ratio": 14.58
+      },
+      {
+        "theme": "dark",
+        "foreground": "ink",
+        "background": "panel",
+        "ratio": 12.11
+      },
+      {
+        "theme": "dark",
+        "foreground": "muted",
+        "background": "paper",
+        "ratio": 8.7
+      },
+      {
+        "theme": "dark",
+        "foreground": "muted",
+        "background": "panel",
+        "ratio": 7.23
+      },
+      {
+        "theme": "dark",
+        "foreground": "accent",
+        "background": "paper",
+        "ratio": 8.47
+      },
+      {
+        "theme": "dark",
+        "foreground": "accent",
+        "background": "panel",
+        "ratio": 7.03
+      }
+    ],
+    "exported_asset_parity": {
+      "assets/ink-voice.css": true,
+      "assets/fonts/Newsreader-Variable.woff2": true,
+      "assets/fonts/Newsreader-Italic-Variable.woff2": true,
+      "assets/fonts/Literata-Variable.woff2": true,
+      "assets/fonts/Literata-Italic-Variable.woff2": true
+    },
+    "limitations": [
+      "Self-review in one Chromium browser; not independent accessibility certification or native-device testing.",
+      "Full-edition line comparison covers Issue 48 in all three languages, not a literary review of the complete archive. Four additional historical edge cases checked at their openings.",
+      "No production Like/comment/private-feedback writes; localhost host restrictions remain. Existing mocked service tests pass.",
+      "Print-dialog output, screen-reader speech and real-phone gestures not exercised.",
+      "Existing editorial/source/translation questions and release gates are unchanged. No push or deployment.",
+      "Additional reduced-motion browser emulation and console-log inspection were not executed: automatic approval review was unavailable due to model capacity on two attempts. Existing reduced-motion implementation remains unchanged; no safety rejection occurred."
+    ],
+    "evidence": [
+      "tests.log",
+      "build.log",
+      "editions.log",
+      "preserved-check.json",
+      "export-audit.json",
+      "line-coverage.json",
+      "pagination-browser.json",
+      "reader-interactions.json",
+      "reader-edge-cases.json",
+      "page-families.json",
+      "reader-desktop-light.png",
+      "reader-desktop-dark.png",
+      "reader-phone.png",
+      "home-200-percent-text.png"
+    ],
+    "knowledge_checks": "Design reference, registers, catalogue and bundle PASS (94 concepts, 2,401 local links)."
+  },
+  "evidence": [
+    "artifacts/design/ink-and-voice-reader-2026-10-19/verification.json",
+    "artifacts/design/ink-and-voice-reader-2026-10-19/audit.html"
+  ],
+  "checklist": {
+    "families": [
+      "quiet reader",
+      "ordinary poem",
+      "shared website theme"
+    ],
+    "source_relationships": "Existing edition/poet reading payloads unchanged.",
+    "rules": [
+      "DESIGN-01",
+      "DESIGN-02",
+      "READ-01",
+      "READ-03",
+      "READ-04",
+      "DELIVERY-01",
+      "DELIVERY-02",
+      "DELIVERY-03"
+    ],
+    "publication": "Local only; no push or deployment.",
+    "handoff": "Portable synchronization completed with 24,517 entries and verified hashes. A final synchronization includes the completed receipt; final storage validation is required after that synchronization."
+  },
+  "next_action": "Review local reader at http://127.0.0.1:8771/poem-831.html?focus=1; publication remains separate."
+}

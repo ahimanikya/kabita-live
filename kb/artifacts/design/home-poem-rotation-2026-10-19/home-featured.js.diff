@@ -1,0 +1,63 @@
+--- before/assets/home-featured.js
++++ after/assets/home-featured.js
+@@ -1,28 +1,33 @@
+-// Advance once per India calendar day. No randomness, storage or remote requests.
+-const DAY=86400000,IST_OFFSET=19800000;
+-export function editionDay(date,anchor){
+- const instant=new Date(date).getTime(),start=Date.parse(anchor+'T00:00:00Z');
+- if(!Number.isFinite(instant)||!Number.isFinite(start))return 0;
+- return Math.max(0,Math.floor((instant+IST_OFFSET)/DAY)-Math.floor(start/DAY));
+-}
+-export function dailySelection(groups,date,anchor){
+- const day=editionDay(date,anchor);
++// Choose a fresh original on each document load, then keep the reading session still.
++const STORAGE_KEY='kabita.home-featured-poems.v1';
++export function visitSelection(groups,previous=[],random=Math.random){
+  return ['or','hi','en'].flatMap(lang=>{
+   const items=groups[lang]||[];
+-  return items.length?[items[day%items.length]]:[];
++  if(!items.length)return [];
++  const last=items.findIndex(id=>previous.includes(id));
++  const next=last<0?Math.floor(random()*items.length):(last+1)%items.length;
++  return [items[next]];
+  });
+ }
+-export function renderDailyFeatures(doc,date=new Date()){
++export function renderVisitFeatures(doc,storage,random=Math.random){
+  const target=doc.querySelector('#daily-featured-poems'),pool=doc.querySelector('#featured-poem-pool');
+  if(!target||!pool)return [];
+- const groups={or:[],hi:[],en:[]};
++ const groups={or:[],hi:[],en:[]},templates=new Map();
+  for(const template of pool.querySelectorAll('template[data-featured-language]')){
+-  groups[template.dataset.featuredLanguage]?.push(template);
++  const group=groups[template.dataset.featuredLanguage];
++  if(group){group.push(template.dataset.poemId);templates.set(template.dataset.poemId,template);}
+  }
+- const selected=dailySelection(groups,date,target.dataset.rotationStart);
++ if(storage===undefined){try{storage=globalThis.sessionStorage;}catch{}}
++ let previous=[];
++ try{
++  const saved=JSON.parse(storage?.getItem(STORAGE_KEY)||'null');
++  if(saved?.edition===target.dataset.edition&&Array.isArray(saved.poems))previous=saved.poems;
++ }catch{}
++ const selected=visitSelection(groups,previous,random);
+  if(!selected.length)return [];
+- target.replaceChildren(...selected.map(template=>template.content.cloneNode(true)));
+- return selected.map(template=>template.dataset.poemId);
++ target.replaceChildren(...selected.map(id=>templates.get(id).content.cloneNode(true)));
++ try{storage?.setItem(STORAGE_KEY,JSON.stringify({edition:target.dataset.edition,poems:selected}));}catch{}
++ return selected;
+ }
+ export function enhanceFeaturedLanguages(doc){
+  const feature=doc.querySelector('.ink-feature'),target=doc.querySelector('#daily-featured-poems');
+@@ -46,8 +51,8 @@
+  picker.hidden=available.size<2;
+  target.setAttribute('aria-live','polite');
+ }
+-// Keep an open reading session still; next visit/reload uses the new India date.
++// No timer or automatic replacement while reading; back/forward may restore its saved document.
+ if(typeof document!=='undefined'){
+- renderDailyFeatures(document);
++ renderVisitFeatures(document);
+  enhanceFeaturedLanguages(document);
+ }

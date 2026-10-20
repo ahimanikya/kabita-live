@@ -4,22 +4,58 @@
   "signature": "ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର",
   "epigraph": "Poetry is an echo, asking a shadow to dance.",
   "colours": {
-    "Paper": "#F5EFDF",
-    "Laterite": "#963F28",
-    "Sea blue": "#125465",
-    "Hearth": "#78643A",
-    "Ink": "#263C3C",
-    "Muted ink": "#655F51",
-    "Pale paper": "#EAE1CD",
-    "Rule": "#D2C6AC"
+    "Paper": "#FAF7F7",
+    "Mulberry": "#713B55",
+    "Ink": "#27222A",
+    "Muted ink": "#655A62",
+    "Soft rose": "#EADDE3",
+    "Rule": "#D4C8CF",
+    "Accent inverse": "#FFFFFF"
   },
   "fonts": {
-    "wordmark": "Cormorant Garamond",
-    "english_display": "Cormorant Garamond",
+    "wordmark": "Newsreader",
+    "english_display": "Newsreader",
     "english_display_weight": 500,
     "odia": "Noto Serif Oriya",
     "hindi": "Tiro Devanagari Hindi",
-    "english": "Source Serif 4",
+    "english": "Literata",
     "interface": "Arial, system sans-serif"
-  }
+  },
+  "legacy_2026_09_29": {
+    "colours": {
+      "Paper": "#F5EFDF",
+      "Laterite": "#963F28",
+      "Sea blue": "#125465",
+      "Hearth": "#78643A",
+      "Ink": "#263C3C",
+      "Muted ink": "#655F51",
+      "Pale paper": "#EAE1CD",
+      "Rule": "#D2C6AC"
+    },
+    "fonts": {
+      "wordmark": "Cormorant Garamond",
+      "english_display": "Cormorant Garamond",
+      "english_display_weight": 500,
+      "odia": "Noto Serif Oriya",
+      "hindi": "Tiro Devanagari Hindi",
+      "english": "Source Serif 4",
+      "interface": "Arial, system sans-serif"
+    },
+    "use": "Historical studies and magazine covers; retained, not regenerated."
+  },
+  "website_dark": {
+    "Paper": "#211D23",
+    "Panel": "#342A32",
+    "Ink": "#F6EEF3",
+    "Muted ink": "#C8B7C2",
+    "Accent": "#E2A9C4",
+    "Rule": "#5E4C58",
+    "Accent inverse": "#211D23"
+  },
+  "magazine_cover": {
+    "wordmark": "Cormorant Garamond",
+    "weight": 600,
+    "status": "Preserved separately approved cover compositions"
+  },
+  "decision": "KBL-DEC-066"
 }

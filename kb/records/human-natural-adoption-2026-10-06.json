@@ -1,0 +1,101 @@
+{
+  "recorded_at": "2026-10-06T06:16:58.561113+00:00",
+  "status": "representative_audit_recorded",
+  "scope": "Complete poem628 Odia source, current Hindi and English targets, edition35 assigned doorway artwork with original/corrected production history. Not a collection-wide rereview.",
+  "modes": {
+    "image": "Poetic Natural",
+    "translation": "Poetic Natural"
+  },
+  "audience": "Kabita Live literary readers in Hindi and English; preserve the Odia village, intimate invitation and unsettling absence.",
+  "fingerprints": {
+    "source_text_sha256": "a32d31d6d0aa8ed97cc1fd03e14027e64d3a6f7a30b51479a10eeaf2fac8d4a2",
+    "target_full_variant_sha256": {
+      "en": "57289437b9bb0a680c2e32ebf84692028849097a27ea0d5165a956a092e88995",
+      "hi": "6e1668b532b941efffef77fe652ce5f29af4dc8ee337108729981ab618a88691"
+    },
+    "target_algorithm": "SHA256 UTF8 JSON ensure_ascii=False sort_keys=True; matches existing revision loop.",
+    "source_file_sha256": "1640c545758df296cd2ae87a6791983486f99f64ddb551f724b64603a09b1450",
+    "art_public_sha256": "cb119fc3523a18a607db61189c8c2d163daaf9241a4a8b56da1c249fdc1a7228",
+    "art_master_sha256": "c850740ccd8f3acb5f2d38bbde3ea06c5f5ede6acbd642dbb0e1410326b0ce1b",
+    "art_direction_sha256": "3e235d4ab5b68e6e14045f6939406774065450ca3b809db76c4fb75677539eac"
+  },
+  "blueprint_companion": {
+    "version": "draft.1",
+    "sha256": "868c901033e467f238b8832507330df7893e05d7db0a4ee838abb7ef5d185765",
+    "copy": "reference/adopted-human-natural/editorial.md",
+    "upstream": "Unpublished local Blueprint companion; base website pin remains unchanged."
+  },
+  "full_unit_read": {
+    "source_stanzas": 10,
+    "targets": {
+      "hi": 10,
+      "en": 10
+    },
+    "coverage": "Stream/chalk map; peepal/red flag/Budhi Maa; dung/cowshed/granary; carts/divided measure/walls; separation question; double door/water-eaten memory; bride/beloved with wounds and want; tree/name/leaf; lifted feet/winter/leaf touch; invitation and absent I."
+  },
+  "findings": [
+    {
+      "kind": "confirmed_feedback_preserved",
+      "evidence": "Current Hindi title and village references use contextual टोली; खिलखिलाती, पहनती, सजती and final की preserve feminine personification. English She/herself retains bride/secret beloved.",
+      "judgment": "These are already integrated batch022 fixes, not new edits. Relayed poet feedback supports this exact context; no universal गाँव-to-टोली rule or complete author approval inferred."
+    },
+    {
+      "kind": "preserved_effect",
+      "evidence": "Both targets keep wounds and want as ornaments, the heart-to-heart question, rural smell/material, feet lifting with thought of you, and final marked I/absence.",
+      "judgment": "Do not sanitize hardship, turn the question into instruction or assert that absence necessarily means death. Literary strangeness may be deliberate."
+    },
+    {
+      "kind": "existing_source_holds_preserved",
+      "evidence": [
+        "Intended relation between person/tree/name/leaf in stanza8.",
+        "Does गउणि/ଗଉଣି here mean a grain measure/vessel, divided provision, or another local sense? Dictionary meanings do not establish this particular line.",
+        "Are the lyric speaker and addressee intended to be gendered? The existing Hindi first-person feminine and second-person masculine remain provisional.",
+        "Wall/door spatial relation remains provisional; water से गली emphasizes decay and awaits poet feedback.",
+        "The regional settlement sense of टोली follows relayed author suggestion; final contextual wording remains open."
+      ],
+      "judgment": "Hindi छू जाऊँगी and गुज़रोगे/सकोगे still specify participants provisionally. Village femininity does not settle participant gender. Budhi Maa deity context, tree/name/leaf and divided measure remain source-context questions; Hindi water से गली and doorway relation remain provisional."
+    },
+    {
+      "kind": "art_association_verified",
+      "evidence": "edition-pages.py selects edition-art-direction before legacy quiet-path assignment. Current source points to two-leaves-of-a-door-v1.webp, whose filename retains v1 although bytes derive from selected master v2.",
+      "judgment": "Review the effective association and actual hash, not legacy assignment or filename version alone."
+    },
+    {
+      "kind": "image_visual_self_review",
+      "evidence": "Original master v1 and current public artwork compared at normal size. Current image removes paired invented wavy/triangular marks, retains rectangular joinery, plausible attached hinges/latch, unequal door angles, lower wood wear, soft courtyard light and pale wall space.",
+      "judgment": "Doorway evokes one remembered stanza without illustrating every noun or inventing the actual village, sacred symbols or people. Human absence is a purposeful interpretation, not a missing translation line. Material wear arises from old wood; avoid escalating decay as an aesthetic recipe."
+    }
+  ],
+  "existing_evidence": [
+    "production/translation-revisions/batch-022/review.json",
+    "production/translation-revisions/author-feedback/poem-628-review-2026-10-05/review.json",
+    "research/edition-art-rollout-2026-10-04/batches/edition-35/batch.json"
+  ],
+  "release_state": {
+    "translation_status": {
+      "en": "draft",
+      "hi": "draft"
+    },
+    "prior_revision_status": "revised_with_holds",
+    "new_author_approval": false,
+    "art_publication": "Existing separate art rollout records publication; this audit does not publish translations or certify current live target parity."
+  },
+  "review": {
+    "independent": false,
+    "executor": "Current assistant; Anvesha editorial and Drishti self-review role passes",
+    "fluent_reader_certification": false,
+    "visual_method": "Normal-size original/current comparison; no generation or editing."
+  },
+  "next_action": "Leave literary refinements with the active translation loop and poet-feedback holds. Continue fleet adoption in Free to Dream and Utkal Project.",
+  "publication": "Private KB adoption only; no public text, artwork, release flags, counters or domain queue changes.",
+  "skills": {
+    "human-natural-image": {
+      "path": "/Users/ahimanikya/.codex/skills/human-natural-image-skill/SKILL.md",
+      "sha256": "4ea2a5e084336bd678351cc20f4b7644843bf18abf9a80a65dca118ca25fac03"
+    },
+    "human-natural-translation": {
+      "path": "/Users/ahimanikya/.codex/skills/human-natural-translation/SKILL.md",
+      "sha256": "3954053f286bb38f21fff16020c27fefe933942532a2083a8b3e7eae9c1ccc17"
+    }
+  }
+}

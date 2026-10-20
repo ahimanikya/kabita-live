@@ -1,0 +1,22 @@
+{
+  "batch": "batch-121",
+  "task": "FLEET-018",
+  "at": "2026-10-07T13:57:29.607227+00:00",
+  "status": "kabita_article_response_language_integration",
+  "checks": {
+    "affected_tests_passed": 41,
+    "language_cases": 3,
+    "public_pages": 1316,
+    "article_groups": 2,
+    "full_poems_preserved": 807,
+    "public_build": "PASS",
+    "candidate_activation_disabled": true
+  },
+  "limitations": [
+    "Article response language follows existing editorial aria-current selection using an observer; standalone essay remains English and unavailable languages fall back to original. New comment/private feedback validates the current language at submission; pending payload/ID remains frozen across later reading-language changes. Pending like desired-state retry retains its original ref.",
+    "41 affected checks pass:30source/helper/language cases,2fresh article/full-poem coverage checks,9strict public service export tests. Fresh1316page build succeeds. Initial artifact check ran during rebuilding and found missing output; repeated after completion passes. No site repair was needed for that transient verification failure.",
+    "Concurrent language essay edits and actual project events872\u2013873 detected and preserved. No source essay/image/translation or active runtime config changed. Portable handoff uses existing divergence-aware sync. Candidate article sending remains disabled, existing numeric poem engagement active.",
+    "Actual browser language-change and transport verification, dedicated additive article rules/contexts and Singhasan response coverage remain subsequent batches. Module/build checks do not imply live cloud adoption. No deployment, provider writes, independent review or performance comparison."
+  ],
+  "next_action": "Verify actual Kabita article controls and language switching in browser, then test additive article rules/provisioning. Continue Singhasan coverage; candidate live activation remains separate."
+}

@@ -1,0 +1,106 @@
+{
+  "id": "KBL-DEC-075",
+  "work": "KBL-WORK-057",
+  "review": "KBL-REV-070",
+  "title": "Ink & Voice Facebook branding and aqua logo water",
+  "recorded_at": "2026-10-19T05:27:54.691130+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "user_quotes": [
+    "Update the Facebook page with a new color theme and logo. Also update the cover page with the new color theme.",
+    "Keep the water coming out of the river in the logo aqua color or something that matches with the theme"
+  ],
+  "scope": "Update Kabita Live Facebook Page profile and cover branding; apply aqua droplet to the shared website logo locally. Facebook cover means the Page banner; magazine covers and the homepage current-edition cover rule remain unchanged.",
+  "status": "facebook_published_verified_website_verified_local",
+  "design": {
+    "palette": {
+      "leaves_light": "#713B55",
+      "leaves_dark": "#E2A9C4",
+      "water_light": "#327E80",
+      "water_dark": "#8ECAC9",
+      "paper": "#FAF7F7",
+      "rose": "#EADDE3",
+      "text": "#27222A"
+    },
+    "symbol": "Original three path geometries preserved. Leaves remain mulberry; the small water droplet is aqua. In-site manual dark theme controls the header; standalone favicon follows the system theme.",
+    "sizing": "Unchanged compact masthead and 1.2em symbol sizing from KBL-DEC-074.",
+    "facebook_profile": "1024×1024 PNG on soft white, ample circular crop margin.",
+    "facebook_cover": "1640×624 PNG; restrained rose paper gradient, Newsreader masthead, Noto Serif Oriya signature, three-language line and thin aqua/mulberry water lines. Text fits the observed Facebook banner without truncation.",
+    "creation": "Code-native SVG brand composition using established logo paths and licensed local fonts. No image generation or alteration of historical raster art. Browser-rendered final cover corrects Sharp font fallback; fallback retained as rejected evidence.",
+    "preserved": "Historical logo and Facebook cover assets, magazine covers, poetry, credits, site runtime settings, consent and publication gates."
+  },
+  "facebook": {
+    "page_id": "61594946730649",
+    "page_url": "https://www.facebook.com/profile.php?id=61594946730649",
+    "authorized_by": "Ahimanikya Satapathy — explicit Facebook logo and cover update; subsequent aqua water direction",
+    "identity_verification": "Switched into Kabita Live Page; Page-specific management and edit cover/profile controls visible",
+    "started_at": "2026-10-19T05:23:21.763507+00:00",
+    "before": {
+      "cover_photo_url": "https://www.facebook.com/photo/?fbid=122109969423498224&set=a.122096972637498224",
+      "profile_photo_url": "https://www.facebook.com/photo/?fbid=122096970177498224&set=a.122096969715498224"
+    },
+    "profile": {
+      "status": "published_verified",
+      "file": "kb/artifacts/social/facebook-ink-voice-2026-10-19/profile.png",
+      "sha256": "e24a80e3295678ac3d8ab64b38ab5311e28150fd00466e6c31ef8d850b5e9cbc",
+      "save_attempt_at": "2026-10-19T05:24:04.174334+00:00",
+      "verified_at": "2026-10-19T05:25:09.354662+00:00",
+      "confirmation": "Your profile picture has been updated",
+      "evidence": "profile-saved.png",
+      "photo_url": "https://www.facebook.com/photo?fbid=122112148683498224&set=a.122096969715498224"
+    },
+    "cover": {
+      "status": "published_verified",
+      "file": "kb/artifacts/social/facebook-ink-voice-2026-10-19/cover.png",
+      "sha256": "e77163a9653a527eac97005a4923c5e063eb03e6eefe07e711816db64ef4199b",
+      "save_attempt_at": "2026-10-19T05:25:26.675161+00:00",
+      "photo_url": "https://www.facebook.com/photo/?fbid=122112148779498224&set=a.122096972637498224",
+      "verified_at": "2026-10-19T05:26:59.726813+00:00",
+      "confirmation": "Edit controls closed; new cover and new photo ID visible on the Kabita Live Page.",
+      "evidence": "page-updated.png"
+    },
+    "scope": "Only Page profile picture and cover photo. Website logo aqua refinement remains local. No daily-poem post or automation changes."
+  },
+  "verification": {
+    "status": "PASS",
+    "public_pages": 1317,
+    "headers_with_aqua_drop": 1316,
+    "protected_files_unchanged": 607,
+    "original_geometry_unchanged": true,
+    "node": "24.15.0",
+    "tests": {
+      "javascript": 169,
+      "python": 36,
+      "failed": 0
+    },
+    "build": "PASS",
+    "edition_integrity": "PASS",
+    "browser": "Computed colours verified at 816px and 390px, light and dark; no horizontal overflow. Browser renders saved. Temporary viewport and theme changes reset.",
+    "facebook": "Profile and cover published and verified on Page 61594946730649; receipt retains source hashes and actual photo URLs.",
+    "rendering": "Cover final PNG captured from Chromium with embedded licensed fonts after initial Sharp raster fell back. Final full cover visually checked before upload. Profile PNG rendered directly from SVG paths."
+  },
+  "reviewer": "Current chat assistant; Samanta implementation / Drishti self-review",
+  "independent": false,
+  "limitations": [
+    "Facebook desktop Page view and circular/canvas crop inspected; no native Facebook phone-app verification.",
+    "Website checked in one Chromium engine at 816px and 390px; no new screen-reader or browser-chrome favicon cache check.",
+    "Website changes remain local; no Git push/deployment. Daily poem automation and posting ledger were not changed."
+  ],
+  "evidence": [
+    "artifacts/social/facebook-ink-voice-2026-10-19/publication-receipt.json",
+    "artifacts/social/facebook-ink-voice-2026-10-19/verification.json",
+    "artifacts/social/facebook-ink-voice-2026-10-19/page-updated.png",
+    "artifacts/social/facebook-ink-voice-2026-10-19/cover.png",
+    "artifacts/social/facebook-ink-voice-2026-10-19/profile.png",
+    "artifacts/social/facebook-ink-voice-2026-10-19/browser-checks.json",
+    "artifacts/social/facebook-ink-voice-2026-10-19/site-phone-light.png",
+    "artifacts/social/facebook-ink-voice-2026-10-19/site-phone-dark.png",
+    "artifacts/social/facebook-ink-voice-2026-10-19/build.log",
+    "artifacts/social/facebook-ink-voice-2026-10-19/tests.log"
+  ],
+  "next_action": "Facebook branding is live. Website aqua refinement is available in the stable local preview; website publication remains separate.",
+  "subsequent_cover_correction": {
+    "decision": "KBL-DEC-079",
+    "record": "records/facebook-illustrated-restore-2026-10-19.json",
+    "note": "User rejected plain background; restored older illustrated banner with only branding colour updates. This original publication receipt remains historical."
+  }
+}

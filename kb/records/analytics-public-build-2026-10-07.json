@@ -1,0 +1,204 @@
+{
+  "at": "2026-10-07T17:28:58.408085+00:00",
+  "batch": "batch-135",
+  "task": "FLEET-020",
+  "status": "kabita_local_interface_build_checkpoint_verified",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "checks": {
+    "public_build_passed": true,
+    "public_routes": 1316,
+    "selected_assets": 3531,
+    "pagefind_indexed_pages": 1312,
+    "native_article_browser_checks": 36,
+    "native_scenarios": 4,
+    "source_dist_bundle_parity": true,
+    "protected_source_hashes_preserved": true,
+    "test_browser_stopped": true,
+    "live_google_payload_verified": false
+  },
+  "browser_results": {
+    "runs": [
+      {
+        "width": 390,
+        "editorial": true,
+        "fileName": "issue-48.html",
+        "checks": [
+          {
+            "name": "Public article response identity rendered",
+            "pass": true
+          },
+          {
+            "name": "No provider request before consent",
+            "pass": true
+          },
+          {
+            "name": "One intercepted provider request",
+            "pass": true
+          },
+          {
+            "name": "No event queue before provider ready",
+            "pass": true
+          },
+          {
+            "name": "Built article view has registered identity and language",
+            "pass": true
+          },
+          {
+            "name": "One explicit page view",
+            "pass": true
+          },
+          {
+            "name": "Actual editorial switch reports Hindi",
+            "pass": true
+          },
+          {
+            "name": "Returning to Odia reports language change without duplicate variant view",
+            "pass": true
+          },
+          {
+            "name": "Private URL data excluded from all commands",
+            "pass": true
+          },
+          {
+            "name": "Reading and response controls remain present",
+            "pass": true
+          }
+        ]
+      },
+      {
+        "width": 1280,
+        "editorial": true,
+        "fileName": "issue-48.html",
+        "checks": [
+          {
+            "name": "Public article response identity rendered",
+            "pass": true
+          },
+          {
+            "name": "No provider request before consent",
+            "pass": true
+          },
+          {
+            "name": "One intercepted provider request",
+            "pass": true
+          },
+          {
+            "name": "No event queue before provider ready",
+            "pass": true
+          },
+          {
+            "name": "Built article view has registered identity and language",
+            "pass": true
+          },
+          {
+            "name": "One explicit page view",
+            "pass": true
+          },
+          {
+            "name": "Actual editorial switch reports Hindi",
+            "pass": true
+          },
+          {
+            "name": "Returning to Odia reports language change without duplicate variant view",
+            "pass": true
+          },
+          {
+            "name": "Private URL data excluded from all commands",
+            "pass": true
+          },
+          {
+            "name": "Reading and response controls remain present",
+            "pass": true
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "editorial": false,
+        "fileName": "thirty-languages-and-the-journey-of-a-poem.html",
+        "checks": [
+          {
+            "name": "Public article response identity rendered",
+            "pass": true
+          },
+          {
+            "name": "No provider request before consent",
+            "pass": true
+          },
+          {
+            "name": "One intercepted provider request",
+            "pass": true
+          },
+          {
+            "name": "No event queue before provider ready",
+            "pass": true
+          },
+          {
+            "name": "Built article view has registered identity and language",
+            "pass": true
+          },
+          {
+            "name": "One explicit page view",
+            "pass": true
+          },
+          {
+            "name": "Private URL data excluded from all commands",
+            "pass": true
+          },
+          {
+            "name": "Reading and response controls remain present",
+            "pass": true
+          }
+        ]
+      },
+      {
+        "width": 1280,
+        "editorial": false,
+        "fileName": "thirty-languages-and-the-journey-of-a-poem.html",
+        "checks": [
+          {
+            "name": "Public article response identity rendered",
+            "pass": true
+          },
+          {
+            "name": "No provider request before consent",
+            "pass": true
+          },
+          {
+            "name": "One intercepted provider request",
+            "pass": true
+          },
+          {
+            "name": "No event queue before provider ready",
+            "pass": true
+          },
+          {
+            "name": "Built article view has registered identity and language",
+            "pass": true
+          },
+          {
+            "name": "One explicit page view",
+            "pass": true
+          },
+          {
+            "name": "Private URL data excluded from all commands",
+            "pass": true
+          },
+          {
+            "name": "Reading and response controls remain present",
+            "pass": true
+          }
+        ]
+      }
+    ],
+    "scope": "Fresh actual Astro public article HTML/assets; added consent buttons and synthetic dedicated HTTPS config; Google requests intercepted and fulfilled with inert script. No live provider/account activity."
+  },
+  "limitations": [
+    "Fresh complete current public build passes:1316public routes,3531selected assets,1312Pagefind indexed pages. Content readiness remains false; preview/noindex and existing release gate preserved. Source and dist Analytics asset bytes match;protected source adapter/observer/config hashes unchanged.",
+    "36native article browser checks pass across4fresh Astro artifact scenarios:both registered prose pages at390/1280. Exact article identities/languages, initial consent gating, no provider-load queue, one page view, editorial Hindi and return-to-Odia changes without duplicate variant views, reading/response controls and private query/hash exclusion verified.",
+    "Native article tests add consent controls and synthetic dedicated HTTPS config, intercept all requests and fulfil Google script with inert local JavaScript. No live Analytics payload, Google background traffic, Firebase write or account setting verification. Browser stopped via Browser.close.",
+    "Prior25source/packaged and33native poem/reader/loading checks retained separately. Kabita local interface/build integration checkpoint verified;real loaded-provider background withdrawal (including storage-blocked mode), enhanced-measurement/account settings and live DebugView remain actual release checks. Do not equate inert provider fixtures to real Google traffic validation.",
+    "Existing dedicated source property G-CEWHV75WS7, runtime configuration, reader originals/settings and concurrent editorial work preserved. No deploy/publication, portable internal-record copy/handoff sync or independent review. Other three site Analytics adapters remain pending."
+  ],
+  "next_action": "Continue Utkal Analytics adapter adoption next. Retain Kabita live-provider background/withdrawal, account enhanced-measurement and DebugView checks as explicit release dependencies;existing source property and consent must remain unchanged."
+}

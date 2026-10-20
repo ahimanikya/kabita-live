@@ -1,0 +1,41 @@
+{
+  "status": "pass_with_limitations",
+  "self_review": true,
+  "public_pages": 1317,
+  "compact_headers_without_signature": 1316,
+  "edition_page_cover_links": 388,
+  "broken_targets_or_duplicate_ids": [],
+  "homepage": {
+    "current_edition": 48,
+    "poem_count": 11,
+    "cover_order": [
+      "48",
+      "47",
+      "46",
+      "45"
+    ],
+    "standalone_atmospheric_image": false,
+    "cover_signature_preserved": true,
+    "featured_poem_and_invitation_preserved": true
+  },
+  "protected_files": {
+    "baseline": "kb/artifacts/design/ink-and-voice-reader-2026-10-19/preserved-before.json",
+    "checked": 1017,
+    "changed": []
+  },
+  "tests": {
+    "javascript": 168,
+    "python": 34,
+    "failed": 0
+  },
+  "build": {
+    "node": "24.15.0",
+    "exit_code": 0,
+    "exported_css_matches_source": true
+  },
+  "browser": {
+    "status": "not_tested",
+    "reason": "Automatic approval review could not run because its selected model was at capacity on two attempts. This is an infrastructure failure, not an unsafe-action rejection. No alternate access used."
+  },
+  "publication": "Local only; no push or deployment."
+}

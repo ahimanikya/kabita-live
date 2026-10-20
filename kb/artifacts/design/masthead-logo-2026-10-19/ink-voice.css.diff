@@ -1,0 +1,27 @@
+--- before/assets/ink-voice.css
++++ after/assets/ink-voice.css
+@@ -27,9 +27,9 @@
+ /* Keep type embedded in edition-cover compositions independent of the web masthead. */
+ .site-theme .photo-cover .cover-logo .cover-title,.site-theme .magazine-mini-brand{font-family:'Cormorant Garamond',Georgia,serif}
+ .site-theme .ink-header .masthead{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:22px 28px;padding:32px 0 0}
+-.site-theme .ink-header .brand{width:fit-content;gap:16px;max-width:100%}
+-.site-theme .ink-header .brand img{width:38px;height:38px;flex-shrink:0}
+-.site-theme .ink-header .brand-title{font-size:clamp(2.75rem,6.5vw,5.375rem);line-height:1.05;letter-spacing:-.035em;overflow-wrap:normal}
++.site-theme .ink-header .brand{--masthead-size:clamp(2.75rem,6.5vw,5.375rem);width:fit-content;gap:16px;max-width:100%}
++.site-theme .ink-header .brand img{width:var(--masthead-size);height:var(--masthead-size);object-fit:contain;flex-shrink:0}
++.site-theme .ink-header .brand-title{font-size:var(--masthead-size);line-height:1.05;letter-spacing:-.035em;overflow-wrap:normal}
+ .site-theme .ink-signature{margin:0;font:400 .9375rem/1.85 var(--odia);letter-spacing:0;color:var(--ink)}
+ .site-theme .ink-header .nav{grid-column:1/-1;display:flex;justify-content:flex-start;gap:6px 30px;flex-wrap:wrap;border-block:1px solid var(--line);padding:0;width:100%}
+ .site-theme .ink-header .nav a{min-height:48px;font-size:1rem;padding:9px 0}
+@@ -70,9 +70,8 @@
+ .site-theme .home-editor-grid{padding-top:10px}
+ @media(max-width:1100px){
+  .site-theme .ink-header .masthead{grid-template-columns:minmax(0,1fr) 44px 44px;gap:16px 8px;padding-top:22px}
+- .site-theme .ink-header .brand{gap:10px;grid-column:1;grid-row:1}
+- .site-theme .ink-header .brand-title{font-size:clamp(1.625rem,7vw,3rem);letter-spacing:-.025em}
+- .site-theme .ink-header .brand img{width:24px;height:24px}
++ .site-theme .ink-header .brand{--masthead-size:clamp(1.625rem,7vw,3rem);gap:10px;flex-wrap:wrap;grid-column:1;grid-row:1}
++ .site-theme .ink-header .brand-title{letter-spacing:-.025em}
+  .site-theme .ink-header .masthead>.appearance-toggle{grid-column:2;grid-row:1;margin:0}
+  .site-theme .ink-header .menu{display:block;grid-column:3;grid-row:1;width:44px;min-width:44px}
+  .site-theme .ink-signature{grid-column:1/-1;font-size:.875rem;padding-bottom:18px;border-bottom:1px solid var(--line)}

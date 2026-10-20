@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-05T01:06:49.506055+00:00",
+  "status": "literary_review_in_progress",
+  "authorization": "Use Human Natural Poetic Natural to review all translations and flag issues to improve future translation skills.",
+  "executor": "Current assistant; Anvesha Acharya role pass, self-review",
+  "coverage": {
+    "scope": "All currently saved translation variants; original poem text is not edited.",
+    "draft_poems": 787,
+    "draft_variants": 1574,
+    "target_counts": {
+      "hi": 684,
+      "en": 315,
+      "or": 575
+    },
+    "screening_complete": 1574,
+    "literary_review_complete": 112,
+    "literary_review_pending": 1462,
+    "screening_flags": 895,
+    "flag_categories": {
+      "previously_recorded_uncertainty": 858,
+      "numeric_difference": 22,
+      "markup_in_verse": 4,
+      "conversational_residue": 5,
+      "unexpected_odia_script": 6
+    },
+    "missing_targets_in_active_poems": 24,
+    "fingerprint_algorithm": "Source: SHA256 UTF-8 source.text; target: SHA256 JSON variant ensure_ascii=False sort_keys=True.",
+    "limitations": "Structural checks and prior notes do not certify semantic accuracy or Poetic Natural quality. Literary review tracked separately; no independent/native review claimed."
+  },
+  "fresh_editorial_flags": 74,
+  "full_read_editions": [
+    47,
+    46,
+    45
+  ],
+  "older_poems_read": [
+    521,
+    500,
+    483,
+    460,
+    214,
+    550,
+    495
+  ],
+  "report": "kb/research/translation-poetic-natural-review-2026-10-04/REVIEW.md",
+  "review_desk": "kb/research/translation-poetic-natural-review-2026-10-04/index.html",
+  "skill_updated": "/Users/ahimanikya/.codex/skills/human-natural-translation/SKILL.md",
+  "translation_changes": 0,
+  "independent_review": false,
+  "automation_created": false,
+  "next_action": "Full-collection fixes authorized under KBL-DEC-051; use the revision queue. Coverage above is the historical audit checkpoint, not current corrected-version coverage.",
+  "revision_pilot": "kb/records/translation-poetic-natural-pilot-2026-10-04.json",
+  "latest_phase": "kb/records/translation-revision-loop-2026-10-04.json"
+}

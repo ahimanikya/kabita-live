@@ -1,0 +1,23 @@
+{
+  "batch": "batch-120",
+  "task": "FLEET-018",
+  "at": "2026-10-07T13:42:56.776524+00:00",
+  "status": "kabita_article_response_ui_integration",
+  "checks": {
+    "affected_tests_passed": 52,
+    "public_pages": 1316,
+    "article_groups": 2,
+    "full_poems_preserved": 807,
+    "public_service_assets": 7,
+    "public_build": "PASS",
+    "portable_handoff_sync": "24168 entries; hashes verified",
+    "candidate_activation_disabled": true
+  },
+  "limitations": [
+    "Both explicit prose pages now receive one Like/comment/private feedback group in fresh public build;807full poem controls and2unavailable-text metadata routes preserved. Reused verified comment/feedback/UI helpers with exact local contract imports; separate consent, private optional contact, frozen retry and receipt checks.",
+    "52affected checks pass:41module/UI/identity/poem-read checks,2fresh article/full-poem coverage checks,9public service export graph tests. Fresh1316page public build and provider bundling pass with7service assets; no broad private source copying. Initial export test used old system Node and failed; rerun with required Node24 passes.",
+    "Article entry is bundled into preserved engagement entry and loads modular providers only for enabled candidate action. Existing kabita-engagement app/UID and dedicated project guards retained. Article candidate stays disabled; active poem and Analytics runtime configuration unchanged.",
+    "Actual article browser verification, current editorial-language context adaptation and additive rule/identity provisioning remain next. Original-language article context currently rendered. Source/UI local integration is not live activation. Portable handoff synced with24168entries and verified hashes; no source text, artwork, translation, cloud write or deployment."
+  ],
+  "next_action": "Verify actual Kabita article controls in browser, ensure current editorial language follows the article response context without changing a pending payload, and test additive article rules/provisioning. Continue Singhasan coverage afterwards; live article activation remains separate."
+}

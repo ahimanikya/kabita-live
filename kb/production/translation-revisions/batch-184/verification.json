@@ -1,0 +1,103 @@
+{
+  "status": "verified_local_drafts",
+  "variants_read": 10,
+  "variants_revised": 3,
+  "variants_retained": 7,
+  "checks": {
+    "edition_check": {
+      "result": "PASS",
+      "editions": 48,
+      "complete_poems": 810,
+      "archived_poems": [
+        385,
+        727
+      ],
+      "edition_assigned": 809,
+      "listed_poems": 805,
+      "supplementary_assigned_poems": 4,
+      "source_hashes_verified": 848,
+      "reciprocal_writer_links_checked": 809,
+      "checks": [
+        "Unique edition membership",
+        "Published contents order",
+        "Original capture integrity and reviewed reader verse parity",
+        "Return and next-poem links",
+        "Reciprocal writer contribution links",
+        "Raw source SHA-256"
+      ],
+      "known_gaps": {
+        "unassigned_poems": [
+          645
+        ],
+        "missing_author": [
+          30
+        ],
+        "identical_text_groups_for_editorial_review": [
+          [
+            268,
+            304
+          ],
+          [
+            645,
+            650
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "translation_revision_check": {
+      "result": "PASS",
+      "original_files_unchanged": 801,
+      "recorded_revisions": 816,
+      "reader_variants_checked_preview_and_public_build": 3148,
+      "external_variants_preserved_not_reviewed": 22,
+      "independent_linguistic_review": false
+    },
+    "layout_tests": "5 passed",
+    "queue_regression_tests": "10 passed, including six concurrent-import scope safeguards",
+    "full_site_build": "PASS; Node24.15.0; exit0; build.log saved.",
+    "browser": "No new layout/script case: edits preserve stanza/line counts and checked verse/tail boundaries; rendered payload parity checked.",
+    "records_and_bundle": {
+      "result": "PASS",
+      "concepts": 93,
+      "local_links": 2391,
+      "errors": [],
+      "configuration_checked": true,
+      "scope": "Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness."
+    },
+    "handoff": "PASS; final normal sync23943entries and storagePASS, exit0. Earlier saved-record check raced concurrent Edition48 publication record/mobile screenshot; immediate normal resync recovered without overwrite.",
+    "storage": {
+      "result": "PASS",
+      "moved_files": 479,
+      "website_files_preserved": 459,
+      "portable_links_checked": 2073,
+      "migration_hashes_checked": false,
+      "errors": []
+    }
+  },
+  "independent_review": false,
+  "published": false,
+  "recorded_at": "2026-10-06T09:05:43.189109+00:00",
+  "handoff_failure": {
+    "recorded_at": "2026-10-06T09:04:53.044821+00:00",
+    "reason": "Storage mismatch after successful sync: concurrent Edition48 release evidence changed in six files (published-translations-before.json, copied-inputs.json, prepare-release.py, verify.py, protected-before.json, build.log). No unrelated files overwritten. Retry normal sync/storage after writes settle."
+  },
+  "handoff_retry_failures": [
+    {
+      "recorded_at": "2026-10-06T09:05:34.880060+00:00",
+      "reason": "Normal synchronization encountered ongoing Edition48 release build.log write; sync assertion. No forced copy or publication from translation work."
+    },
+    {
+      "recorded_at": "2026-10-06T09:07:48.411844+00:00",
+      "reason": "Subsequent sync stopped on five divergent own/generated records; every diff read, both versions preserved under recovery, proved stale portable records reconciled."
+    },
+    {
+      "recorded_at": "2026-10-06T09:07:48.411844+00:00",
+      "reason": "Concurrent copied-inputs manifest differed only by two additive template paths. Both versions preserved, additive source-primary version synchronized. Latest normal sync interrupted by concurrent release-integrity.json write. No complete storage verification; stop retrying while release is active."
+    },
+    {
+      "reason": "Saved-record sync23941 passed, storage found concurrent Edition48 publication record and poem-mobile screenshot changes. Normal resync23943 and storagePASS recovered; no content reapplication."
+    }
+  ],
+  "recovered_at": "2026-10-06T09:10:17.807163+00:00"
+}

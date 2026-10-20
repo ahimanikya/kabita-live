@@ -1,0 +1,36 @@
+{
+  "status": "prepared_visually_reviewed",
+  "recorded_at": "2026-10-19T06:03:29.378908+00:00",
+  "method": "built-in image_gen precise-object-edit",
+  "inputs": [
+    {
+      "file": "kb/artifacts/social/facebook-2026-10-14/cover-tagline-v1.png",
+      "sha256": "59fab61895abc0cdf4cc43de1ed2b04bebd08276ed88186cab539d71ce2d35ff",
+      "dimensions": [
+        1918,
+        820
+      ]
+    },
+    {
+      "file": "kb/artifacts/social/facebook-ink-voice-2026-10-19/profile.png",
+      "sha256": "e24a80e3295678ac3d8ab64b38ab5311e28150fd00466e6c31ef8d850b5e9cbc",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "kb/artifacts/social/facebook-illustrated-restore-2026-10-19/cover-v1.png",
+      "sha256": "f02499b3c64d3d88e0005aae50f25fd560f29ca9a10d88a439fabc6267621d6f",
+      "dimensions": [
+        1918,
+        820
+      ]
+    }
+  ],
+  "scope": "Restore illustrated Facebook cover; change text and leaf colour to mulberry, droplet aqua. Existing Page profile stays unchanged.",
+  "self_review": {
+    "independent": false,
+    "result": "Original composition, complete landscape, exact text and logo recolour visually checked. Image edit is generative; background pixel identity is not claimed."
+  }
+}

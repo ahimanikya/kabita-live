@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0-draft.5",
+  "artifact_kind": "instance",
+  "site": "Kabita Live",
+  "status": "rules_adopted_locally_implementation_pending",
+  "human_owner": "Ahimanikya Satapathy",
+  "decision_reference": "KBL-DEC-052",
+  "standard": {
+    "version": "0.1.0-draft.5",
+    "source_commit": null,
+    "artifact_sha256": "d44dcf4b70e2cee6f4f0499bee8aa291810a21615094a0edf3a2129bf4319ed5"
+  },
+  "design_system": {
+    "version": null,
+    "canonical_source": "utkal-project/projects/design-system",
+    "source_commit": null,
+    "artifact_sha256": null
+  },
+  "editorial_guidance": {
+    "image_skill": {
+      "version_or_sha256": null,
+      "reference": null
+    },
+    "translation_skill": {
+      "version_or_sha256": null,
+      "reference": null
+    }
+  },
+  "theme": {
+    "source_path": "reference/fleet-theme.json",
+    "sha256": "8edfd60be09bfeb735d6aeef8e07f4df1cacfe618f1b21c598de2e6c8d454872",
+    "overrides": [
+      "Site-owned native palette, display/reading/UI/script roles; current approved pages and masthead remain unchanged."
+    ]
+  },
+  "page_families": [],
+  "checks": [
+    {
+      "scope": "Implementation and live feature parity",
+      "result": "not_checked",
+      "reason": "Documentation-only adoption; dedicated fleet implementation tasks remain."
+    }
+  ],
+  "release": {
+    "deployment_status": "not_deployed",
+    "commit": null,
+    "evidence": []
+  },
+  "recovery": {
+    "previous_version": null,
+    "instructions": null
+  },
+  "next_action": "Verify local inheritance; continue performance and shared-module implementation batches.",
+  "notes": [
+    "Fill observed site values and actual decisions. Template fields do not create adoption or publication approval.",
+    "For checks use passed, failed, not_checked or not_applicable; give evidence or a reason.",
+    "For each page family record exact routes, component coverage, intentional differences and remaining work."
+  ],
+  "reader_services": {
+    "provider": "firebase",
+    "configuration_reference": null,
+    "moderation_reference": null,
+    "content_id_contract": null,
+    "migration_reference": null,
+    "shared_process_reference": null,
+    "site_firebase_project_reference": null,
+    "access_rule_verification_reference": null
+  },
+  "sharing": {
+    "page_image_manifest_reference": null,
+    "content_share_action_checks": []
+  },
+  "ai_use": {
+    "explanation_page": null,
+    "repeated_notice_cleanup_reference": null,
+    "attribution_exceptions": []
+  },
+  "blueprint_structure": {
+    "baseline_version": null,
+    "adoption_decision": null,
+    "kb_entrypoint": null,
+    "persona_definitions_reference": null,
+    "actual_assignments_reference": null,
+    "maintenance_tools_reference": null,
+    "site_workspace": null,
+    "compatibility_paths": [],
+    "migration_status": "not_applied",
+    "instance_model": "independent_project",
+    "kb_ownership": "project_local",
+    "persona_model_ownership": "project_local"
+  },
+  "inheritance": {
+    "base_definition": "Utkal Blueprint",
+    "base_rulebook_reference": "reference/adopted-website/reference/website-standard.md",
+    "base_version": "0.1.0-draft.5",
+    "local_extension_rulebook": "reference/website-extensions.md",
+    "overrides": [
+      {
+        "base_rule": "WEB-TYPE-01",
+        "local_value": "Cormorant display, Source Serif 4 English reading, Noto Serif Oriya Odia and Tiro Devanagari Hindi; approved local sizes",
+        "rationale": "Preserve established project behavior while adopting common foundations.",
+        "decision_reference": "kb/artifacts/design/brand-guide/DESIGN-SYSTEM.md",
+        "decision_basis": "Existing project controlling source; not a newly invented human approval.",
+        "adopted_base_version": "0.1.0-draft.5"
+      },
+      {
+        "base_rule": "WEB-DESIGN-01",
+        "local_value": "Approved English-only website masthead/signature; cover masthead remains separate",
+        "rationale": "Preserve established project behavior while adopting common foundations.",
+        "decision_reference": "kb/reference/website-rulebook.md",
+        "decision_basis": "Existing project controlling source; not a newly invented human approval.",
+        "adopted_base_version": "0.1.0-draft.5"
+      },
+      {
+        "base_rule": "WEB-READER-02",
+        "local_value": "Journal edition navigation and Quiet pagination; animation/sound default off",
+        "rationale": "Preserve established project behavior while adopting common foundations.",
+        "decision_reference": "kb/reference/website-rulebook.md",
+        "decision_basis": "Existing project controlling source; not a newly invented human approval.",
+        "adopted_base_version": "0.1.0-draft.5"
+      },
+      {
+        "base_rule": "WEB-SHARE-01",
+        "local_value": "Text-led poems intentionally use their edition cover for sharing",
+        "rationale": "Preserve established project behavior while adopting common foundations.",
+        "decision_reference": "kb/reference/website-rulebook.md",
+        "decision_basis": "Existing project controlling source; not a newly invented human approval.",
+        "adopted_base_version": "0.1.0-draft.5"
+      }
+    ],
+    "extensions": [
+      "Edition covers/cover stories, author/editor profiles, archive coverage and roughly three purposeful interior artworks per edition remain journal-specific. Current Firebase moderation and opt-in Analytics configurations are retained; common adapter adoption must preserve their behavior."
+    ],
+    "pinned_reference_copies": [
+      {
+        "source_path": "kb/reference/website-standard.md",
+        "local_path": "kb/reference/adopted-website/reference/website-standard.md",
+        "sha256": "d44dcf4b70e2cee6f4f0499bee8aa291810a21615094a0edf3a2129bf4319ed5"
+      },
+      {
+        "source_path": "kb/reference/website-platform-contracts.md",
+        "local_path": "kb/reference/adopted-website/reference/website-platform-contracts.md",
+        "sha256": "6557bc3cd76bda8bbde95ed23e66bbc5580ce7c2ac276bbde54a8420a7834dce"
+      },
+      {
+        "source_path": "kb/review/website-page-checklist.md",
+        "local_path": "kb/reference/adopted-website/review/website-page-checklist.md",
+        "sha256": "d3a0fc413ab9ed6e07a68040fd8aa269e36f14506e06f38963ffff907feefbb5"
+      },
+      {
+        "source_path": "kb/templates/website-adoption.json",
+        "local_path": "kb/reference/adopted-website/templates/website-adoption.json",
+        "sha256": "3fc6ef6efa3af455e7bb20de0abe5e786b81cf1eb752bde04c451743f980c2bb"
+      }
+    ]
+  },
+  "analytics": {
+    "provider": "google_analytics_4",
+    "shared_process_reference": null,
+    "site_property_reference": null,
+    "site_stream_reference": null,
+    "measurement_configuration_reference": null,
+    "event_contract_version": null,
+    "consent_verification": null,
+    "payload_verification_reference": null
+  },
+  "contracts": {
+    "version": "0.1.0-draft.1",
+    "reference": "reference/adopted-website/reference/website-platform-contracts.md",
+    "artifact_sha256": "6557bc3cd76bda8bbde95ed23e66bbc5580ce7c2ac276bbde54a8420a7834dce"
+  },
+  "modules": {
+    "reader": {
+      "version": null,
+      "canonical_source": null,
+      "adapter_reference": null,
+      "content_contract_reference": null,
+      "legacy_persistence_reference": null,
+      "collection_coverage": []
+    },
+    "design_foundations": {
+      "version": "0.1.0-fleet.1",
+      "canonical_source": "Utkal Project projects/design-system/fleet",
+      "manifest_reference": "projects/site/assets/utkal-fleet/manifest.json",
+      "verification_reference": "records/shared-design-foundations-2026-10-06.json",
+      "status": "installed_opt_in"
+    }
+  },
+  "performance": {
+    "baseline_reference": "records/performance-baseline-2026-10-06.json",
+    "comparison_reference": "records/performance-cover-card-delivery-2026-10-06.json",
+    "conditions_reference": "records/performance-baseline-2026-10-06.json",
+    "budgets": [],
+    "checks": [
+      {
+        "result": "passed",
+        "scope": "Bounded local laboratory measurement baseline",
+        "evidence": "records/performance-baseline-2026-10-06.json"
+      },
+      {
+        "result": "not_checked",
+        "scope": "Production real-user loading and provider network performance",
+        "reason": "No deployment/provider traffic or real-user measurement in this batch."
+      },
+      {
+        "result": "passed",
+        "scope": "Cover cards, SVG layout, sharing source preservation and matching-build loading",
+        "evidence": "records/performance-cover-card-delivery-2026-10-06.json"
+      },
+      {
+        "result": "pending",
+        "scope": "Final reader/provider loading after common adapters",
+        "evidence": "records/performance-residual-loading-2026-10-06.json",
+        "dependencies": [
+          "FLEET-012",
+          "FLEET-013",
+          "FLEET-017"
+        ]
+      }
+    ]
+  },
+  "human_natural": {
+    "reference": "reference/human-natural-editorial.md",
+    "record": "records/human-natural-adoption-2026-10-06.json",
+    "status": "representative_self_review",
+    "scope": "Poem628 current Odia/Hindi/English and assigned doorway original/current artwork; domain loops preserved."
+  }
+}

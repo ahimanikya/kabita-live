@@ -1,0 +1,76 @@
+{
+  "recorded_at": "2026-10-19T06:46:32.954855+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "status": "verified_local",
+  "authorization": "KBL-DEC-081",
+  "quotes": [
+    "The original has a white background; could we instead have a mulberry background with white text?",
+    "Also there is alignment issue in small screen"
+  ],
+  "work": "KBL-WORK-063",
+  "review": "KBL-REV-076",
+  "changes": [
+    "Original badge background/border #713B55 with white #FFFFFF text in both themes, regular poem pages and quiet reader.",
+    "Badge width matches its own control; retain 8.5px interface lettering and the separate source-language symbol.",
+    "Poem toolbar aligns with text gutters. At 320px the action group uses a second row, retaining 44px targets. Single row retained where it fits; narrow two-row layout omits the inter-group separator.",
+    "Design-system source and website rulebook updated."
+  ],
+  "verification": {
+    "build": "Node 24.15.0 source generation, public export, Astro and Pagefind PASS",
+    "export_routes": 1317,
+    "shared_stylesheet_source_equals_export": true,
+    "regular_poem_cases": 18,
+    "quiet_reader_cases": 6,
+    "widths": [
+      320,
+      360,
+      390
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "original_languages": [
+      "Odia",
+      "Hindi",
+      "English"
+    ],
+    "contrast_white_on_mulberry": 8.54,
+    "horizontal_overflow": false,
+    "badge_within_control": true,
+    "targets_at_least_44px": true,
+    "screenshots": [
+      "artifacts/design/original-mulberry-2026-10-19/aligned-poem-light.png",
+      "artifacts/design/original-mulberry-2026-10-19/aligned-poem-dark.png",
+      "artifacts/design/original-mulberry-2026-10-19/aligned-reader-light.png",
+      "artifacts/design/original-mulberry-2026-10-19/aligned-reader-dark.png"
+    ],
+    "evidence": [
+      "artifacts/design/original-mulberry-2026-10-19/alignment-checks.json",
+      "artifacts/design/original-mulberry-2026-10-19/quiet-alignment-checks.json",
+      "artifacts/design/original-mulberry-2026-10-19/browser-checks.json",
+      "artifacts/design/original-mulberry-2026-10-19/export-check.json",
+      "artifacts/design/original-mulberry-2026-10-19/build.log",
+      "artifacts/design/original-mulberry-2026-10-19/changes.patch"
+    ]
+  },
+  "reviewer": "Current chat assistant; Samanta implementation / Drishti self-review",
+  "independent": false,
+  "limitations": [
+    "Scoped CSS change verified in Chromium responsive viewports; no fresh all-site visual audit, native mobile or cross-browser certification.",
+    "No website push/deployment. Existing content, artwork and reader/service behaviour unchanged."
+  ],
+  "handoff": {
+    "status": "PASS",
+    "sync": "Handoff synchronized: 24834 entries; relative aliases rebased; hashes verified.",
+    "storage": {
+      "result": "PASS",
+      "moved_files": 479,
+      "website_files_preserved": 459,
+      "portable_links_checked": 2073,
+      "migration_hashes_checked": false,
+      "errors": []
+    },
+    "recorded_at": "2026-10-19T06:48:03.578650+00:00"
+  }
+}

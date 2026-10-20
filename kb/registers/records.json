@@ -947,6 +947,294 @@
       ],
       "blockers": [],
       "next_action": "No remaining cleanup work; apply explicit route boundary to future pages and preserve the authorized translation review exception."
+    },
+    {
+      "id": "KBL-WORK-048",
+      "title": "Apply Ink & Voice to the reader website",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-066",
+      "next_action": "Review the updated local Ink & Voice website; no push or deployment performed.",
+      "blockers": [],
+      "refs": [
+        "KBL-DEC-066"
+      ],
+      "evidence": [
+        "records/ink-and-voice-site-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-WORK-049",
+      "title": "Update the Ink & Voice reader and audit the local site",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-067",
+      "refs": [
+        "KBL-DEC-067",
+        "KBL-REV-062"
+      ],
+      "evidence": [
+        "records/ink-and-voice-reader-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Review the local reader; reduced-motion emulation remains untested because automatic approval review was unavailable. No publication performed."
+    },
+    {
+      "id": "KBL-WORK-050",
+      "title": "Match the website logo size to the masthead",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-068",
+      "refs": [
+        "KBL-DEC-068",
+        "KBL-REV-063"
+      ],
+      "evidence": [
+        "records/masthead-logo-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Review the refreshed localhost preview visually when browser inspection is available; no publication performed."
+    },
+    {
+      "id": "KBL-WORK-051",
+      "title": "Current edition focus, familiar compact header and edition-page cover links",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-069",
+      "refs": [
+        "KBL-DEC-069",
+        "KBL-REV-064"
+      ],
+      "evidence": [
+        "records/current-edition-home-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Review local appearance when browser inspection is available; publication remains separate."
+    },
+    {
+      "id": "KBL-WORK-052",
+      "title": "Remove idle Likes/comments availability announcement",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-070",
+      "refs": [
+        "KBL-DEC-070",
+        "KBL-REV-065"
+      ],
+      "evidence": [
+        "records/engagement-notice-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Refresh local preview; production configuration unchanged and no publication performed."
+    },
+    {
+      "id": "KBL-WORK-053",
+      "title": "Rotate homepage featured originals on each visit",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-071",
+      "refs": [
+        "KBL-DEC-071",
+        "KBL-REV-066"
+      ],
+      "evidence": [
+        "records/home-poem-rotation-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Refresh the stable local preview to see another original; no publication performed."
+    },
+    {
+      "id": "KBL-WORK-054",
+      "title": "Current edition cover for homepage and website sharing",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-072",
+      "refs": [
+        "KBL-DEC-072",
+        "KBL-REV-067"
+      ],
+      "evidence": [
+        "records/home-cover-rule-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Keep homepage and root sharing tied to the current edition on future imports. Local implementation verified; no publication performed."
+    },
+    {
+      "id": "KBL-WORK-055",
+      "title": "Artistic touch and wash audit",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-073",
+      "refs": [
+        "KBL-DEC-073",
+        "KBL-REV-068"
+      ],
+      "evidence": [
+        "records/artistic-wash-audit-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Findings delivered: palette/type consistency corrections and optional localized wash preview; fresh browser verification remains outstanding due approval-review capacity."
+    },
+    {
+      "id": "KBL-WORK-056",
+      "title": "Theme-coloured logo balanced with the compact masthead",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-074",
+      "refs": [
+        "KBL-DEC-074",
+        "KBL-REV-069"
+      ],
+      "evidence": [
+        "records/logo-ink-voice-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Review the updated stable local preview. Publication remains separate."
+    },
+    {
+      "id": "KBL-WORK-057",
+      "title": "Ink & Voice Facebook branding and aqua logo water",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-075",
+      "refs": [
+        "KBL-DEC-075",
+        "KBL-REV-070"
+      ],
+      "evidence": [
+        "records/facebook-ink-voice-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Facebook branding is live. Website aqua refinement is available in the stable local preview; website publication remains separate."
+    },
+    {
+      "id": "KBL-WORK-058",
+      "title": "Use the current logo as the website favicon",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-076",
+      "refs": [
+        "KBL-DEC-076",
+        "KBL-REV-071"
+      ],
+      "evidence": [
+        "records/favicon-logo-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Current logo favicon is ready in the local preview and verified public build."
+    },
+    {
+      "id": "KBL-WORK-059",
+      "title": "Apply approved artistic-wash refinements",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-077",
+      "refs": [
+        "KBL-DEC-077",
+        "KBL-REV-072"
+      ],
+      "evidence": [
+        "records/artistic-wash-approved-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Local preview and public build verified; publication remains separate."
+    },
+    {
+      "id": "KBL-WORK-060",
+      "title": "Visible Original choice and two translations",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-078",
+      "refs": [
+        "KBL-DEC-078",
+        "KBL-REV-073"
+      ],
+      "evidence": [
+        "records/visible-original-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Local preview and public build verified; publication remains separate."
+    },
+    {
+      "id": "KBL-WORK-061",
+      "title": "Restore illustrated Facebook banner with current brand colours",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-079",
+      "refs": [
+        "KBL-DEC-079",
+        "KBL-REV-074"
+      ],
+      "evidence": [
+        "records/facebook-illustrated-restore-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Corrected illustrated cover is published and visually verified."
+    },
+    {
+      "id": "KBL-WORK-062",
+      "title": "Complete whole-site Ink & Voice consistency audit",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-080",
+      "refs": [
+        "KBL-DEC-080",
+        "KBL-REV-075"
+      ],
+      "evidence": [
+        "records/full-design-audit-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Local audit and six corrections verified. Publication remains separate."
+    },
+    {
+      "id": "KBL-WORK-063",
+      "title": "Apply mulberry Original badge and fix phone alignment",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-081",
+      "refs": [
+        "KBL-DEC-081",
+        "KBL-REV-076"
+      ],
+      "evidence": [
+        "records/original-mulberry-2026-10-19.json"
+      ],
+      "blockers": [],
+      "next_action": "Verified in local preview; public deployment remains separate."
+    },
+    {
+      "id": "KBL-WORK-064",
+      "title": "Publish and live-check Ink & Voice",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "KBL-DEC-082",
+      "refs": [
+        "KBL-DEC-082",
+        "KBL-REV-077"
+      ],
+      "evidence": [
+        "records/ink-voice-publication-2026-10-20.json"
+      ],
+      "blockers": [],
+      "next_action": "Complete clean-release checks, publish through the manual discovery workflow, verify live and sync the handoff."
     }
   ],
   "decisions": [
@@ -1824,6 +2112,333 @@
       },
       "recorded_at": "2026-10-11T03:33:03.647073+00:00",
       "quote": "During the process of development, we might have created a lot of review pages - maybe we should clean that up and remove them from the site if they are somehow published. Remove AI credit from all pages; that is unnecessary, since we are using AI as yet another tool; no credit is required."
+    },
+    {
+      "id": "KBL-DEC-065",
+      "title": "Select Ink & Voice for the Kabita Live website redesign",
+      "status": "approved",
+      "scope": "Website direction and demonstrated mulberry palette selected; distinct typography proposed and not yet approved or implemented. Publication remains separate.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T03:09:01.187010+00:00",
+      "quote": "OK, let's go with Ink & Voice - are we using a separate variety of fonts from Project Odisha?",
+      "evidence": [
+        "records/ink-and-voice-direction-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-066",
+      "title": "Apply the approved Ink & Voice website and distinct English fonts",
+      "status": "approved",
+      "scope": "Implement the approved preview across local reader pages with Newsreader display, Literata English reading and retained Indic families; preserve covers, content, services and publication safeguards.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T03:35:52.275485+00:00",
+      "quote": "Good, let's update the site",
+      "refs": [
+        "KBL-DEC-065"
+      ],
+      "evidence": [
+        "records/ink-and-voice-site-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-067",
+      "title": "Extend Ink & Voice to the reader and conduct a detailed audit",
+      "status": "approved",
+      "scope": "Update quiet reading and regular poem controls, audit the local site, preserve source content and services. Publication remains separate.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T04:05:18.282280+00:00",
+      "quote": "Also, the reader should be updated. After update do a detail audit",
+      "refs": [
+        "KBL-DEC-066"
+      ],
+      "evidence": [
+        "records/ink-and-voice-reader-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-068",
+      "title": "Match the website logo size to the masthead",
+      "status": "approved",
+      "scope": "Size the existing symbol to match the shared Ink & Voice masthead; preserve logo artwork and responsive navigation. Local implementation.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T04:14:00.084106+00:00",
+      "quote": "Can the logo size match the master header text?",
+      "refs": [
+        "KBL-DEC-066"
+      ],
+      "evidence": [
+        "records/masthead-logo-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-069",
+      "title": "Current edition focus, familiar compact header and edition-page cover links",
+      "status": "approved",
+      "scope": "Restore compact header/menu, omit shared header signature, feature the current edition and make cover links open edition pages. Preserve Ink & Voice fonts/colours, cover signatures, reading services and publication boundaries.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T04:34:04.401329+00:00",
+      "quote": "Should we drop the random abstract image and instead highlight the current edition?\nAlso the menu and heading was perfect before, keep that\nwe don't have to have \"ମାଟିର ମହକ ହୃଦୟର ସ୍ବର\" on top - we have that in each editon cover anyway\nOn clicking on the cover it should not automatically to the reader, it should take it to the edition page",
+      "refs": [
+        "KBL-DEC-066",
+        "KBL-DEC-068"
+      ],
+      "evidence": [
+        "records/current-edition-home-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-070",
+      "title": "Remove idle Likes/comments availability announcement",
+      "status": "approved",
+      "scope": "Remove permanent unavailable-yet announcement without changing service gates or real action feedback.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T04:37:16.777501+00:00",
+      "quote": "Likes and comments are not available yet. remove that - when it works - it will work, not sure why they are not availble",
+      "refs": [],
+      "evidence": [
+        "records/engagement-notice-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-071",
+      "title": "Rotate homepage featured originals on each visit",
+      "status": "approved",
+      "scope": "Replace fixed/daily homepage selections with visit-based rotation while preserving source poems and existing presentation.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T04:48:33.795411+00:00",
+      "quote": "The poem in the home page should not be fixed",
+      "refs": [],
+      "evidence": [
+        "records/home-poem-rotation-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-072",
+      "title": "Current edition cover for homepage and website sharing",
+      "status": "approved",
+      "scope": "The homepage’s principal image and root/homepage sharing preview always use the current catalogue edition’s complete approved front cover, including masthead, Odia signature, issue/date and artwork. Featured-poem rotation is independent. The cover changes automatically on current-edition promotion. A missing/stale current cover is a build error, never a generic-artwork fallback.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T04:58:13.310420+00:00",
+      "quote": "The image attached to the website/home page should always be the current edition cover. Make that a rule.",
+      "refs": [],
+      "evidence": [
+        "records/home-cover-rule-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-073",
+      "title": "Audit the artistic touch and wash across website page families",
+      "status": "recorded_direction",
+      "scope": "Read-only artistic audit of existing Ink & Voice pages. Recommendations do not approve a new wash, artwork treatment or publication.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T05:08:27.676868+00:00",
+      "quote": "Audit for artistic touch and wash for the home page, edition page etc",
+      "refs": [
+        "KBL-DEC-066",
+        "KBL-DEC-069",
+        "KBL-DEC-072"
+      ],
+      "evidence": [
+        "records/artistic-wash-audit-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-074",
+      "title": "Theme-coloured logo balanced with the compact masthead",
+      "status": "approved",
+      "scope": "Interpret the ongoing design request as a local refinement of colour and relative icon size. Keep the established logo geometry and compact header; no new identity or public deployment.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T05:15:59.657530+00:00",
+      "quote": "Should we update logo based on current color scheme and also should we match the size of the icon with master head text, icon is smaller than the text",
+      "refs": [
+        "KBL-DEC-066",
+        "KBL-DEC-068",
+        "KBL-DEC-069"
+      ],
+      "evidence": [
+        "records/logo-ink-voice-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-075",
+      "title": "Ink & Voice Facebook branding and aqua logo water",
+      "status": "approved",
+      "scope": "Update Kabita Live Facebook Page profile and cover branding; apply aqua droplet to the shared website logo locally. Facebook cover means the Page banner; magazine covers and the homepage current-edition cover rule remain unchanged.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T05:27:54.691130+00:00",
+      "quote": "Update the Facebook page with a new color theme and logo. Also update the cover page with the new color theme. / Keep the water coming out of the river in the logo aqua color or something that matches with the theme",
+      "refs": [
+        "KBL-DEC-074"
+      ],
+      "evidence": [
+        "records/facebook-ink-voice-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-076",
+      "title": "Use the current logo as the website favicon",
+      "status": "approved",
+      "scope": "Exact existing mulberry-leaf/aqua-water logo as the favicon across all public reader routes. No artwork changes or public deployment.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T05:32:58.203458+00:00",
+      "quote": "Use the logo for favicon too",
+      "refs": [
+        "KBL-DEC-074",
+        "KBL-DEC-075"
+      ],
+      "evidence": [
+        "records/favicon-logo-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-077",
+      "title": "Apply approved artistic-wash refinements",
+      "status": "approved",
+      "scope": "Local website refinement; no public deployment.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T05:49:43.453857+00:00",
+      "quote": "approved",
+      "refs": [
+        "KBL-DEC-065"
+      ],
+      "evidence": [
+        "records/artistic-wash-approved-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-078",
+      "title": "Visible Original choice and two translations",
+      "status": "approved",
+      "scope": "Local website refinement; no public deployment.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T05:49:43.453857+00:00",
+      "quote": "We have to have the Original option and the other two, can't unify - the reader should know which one is original",
+      "refs": [
+        "KBL-DEC-065"
+      ],
+      "evidence": [
+        "records/visible-original-2026-10-19.json"
+      ],
+      "clarification": "User clarified small-font uppercase badging. The source glyph carries an ORIGINAL badge; same 44px controls and one-row phone layout. Full Original/source-language accessibility labels retained."
+    },
+    {
+      "id": "KBL-DEC-079",
+      "title": "Restore illustrated Facebook banner with current brand colours",
+      "status": "approved",
+      "scope": "Restore prior river-and-veranda illustrated Facebook cover with mulberry text and leaves, aqua drop. Preserve exact wording, layout and historical masters. No website or daily-posting changes.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T06:05:27.149062+00:00",
+      "quote": "The older FB banner was good, we just wanted to change text color and logo, the plain one is not looking good",
+      "refs": [
+        "KBL-DEC-075"
+      ],
+      "evidence": [
+        "records/facebook-illustrated-restore-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-080",
+      "title": "Audit the entire website against the approved Ink & Voice system",
+      "status": "approved",
+      "scope": "Verify colours, typography, shared identity and responsive design across all website routes; correct inconsistencies in the existing approved design. Local only; no new design direction or website publication.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T06:34:41.182545+00:00",
+      "quote": "Audit the whole site to ensure the new design system is applied everywhere - color, typography, etc.",
+      "refs": [
+        "KBL-DEC-067",
+        "KBL-DEC-077",
+        "KBL-DEC-078"
+      ],
+      "evidence": [
+        "records/full-design-audit-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-081",
+      "title": "Solid mulberry Original badge and narrow-screen alignment",
+      "status": "approved",
+      "scope": "Use white text on mulberry for the small Original badge in both reading modes; correct reported small-screen alignment while preserving accessible targets. Local implementation only.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-19T06:46:32.954855+00:00",
+      "quote": "The original has a white background; could we instead have a mulberry background with white text?\nAlso there is alignment issue in small screen",
+      "refs": [
+        "KBL-DEC-078",
+        "KBL-DEC-080"
+      ],
+      "evidence": [
+        "records/original-mulberry-2026-10-19.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-082",
+      "title": "Publish the approved Ink & Voice website redesign",
+      "status": "approved",
+      "scope": "Push the scoped completed redesign from latest remote main, publish the public-only discovery build and verify it live. Preserve content, services, consent, DNS and full editorial release gates.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-20T00:12:13.474318+00:00",
+      "quote": "OK, let's pubish",
+      "refs": [
+        "KBL-DEC-066",
+        "KBL-DEC-080",
+        "KBL-DEC-081"
+      ],
+      "evidence": [
+        "records/ink-voice-publication-2026-10-20.json"
+      ]
     }
   ],
   "requirements": [
@@ -2968,6 +3583,353 @@
       "limitations": [
         "Translation review remains directly accessible by prior user request; noindex is not access control."
       ]
+    },
+    {
+      "id": "KBL-REV-061",
+      "title": "Ink & Voice local website verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; Samanta design self-review",
+      "refs": [
+        "KBL-WORK-048"
+      ],
+      "evidence": [
+        "records/ink-and-voice-site-2026-10-19.json",
+        "artifacts/design/ink-and-voice-2026-10-19/verification.json"
+      ],
+      "limitations": [
+        "Representative browser checks; no claim of visual review of every page.",
+        "No live response submissions, independent linguistic review or publication. Existing release and source holds remain.",
+        "Print palette checked statically; no print-dialog visual check."
+      ]
+    },
+    {
+      "id": "KBL-REV-062",
+      "title": "Detailed Ink & Voice reader and local-site audit",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; Drishti quality self-review",
+      "refs": [
+        "KBL-WORK-049"
+      ],
+      "evidence": [
+        "records/ink-and-voice-reader-2026-10-19.json",
+        "artifacts/design/ink-and-voice-reader-2026-10-19/verification.json"
+      ],
+      "limitations": [
+        "Self-review in one Chromium browser; not independent accessibility certification or native-device testing.",
+        "Full-edition line comparison covers Issue 48 in all three languages, not a literary review of the complete archive. Four additional historical edge cases checked at their openings.",
+        "No production Like/comment/private-feedback writes; localhost host restrictions remain. Existing mocked service tests pass.",
+        "Print-dialog output, screen-reader speech and real-phone gestures not exercised.",
+        "Existing editorial/source/translation questions and release gates are unchanged. No push or deployment.",
+        "Additional reduced-motion browser emulation and console-log inspection were not executed: automatic approval review was unavailable due to model capacity on two attempts. Existing reduced-motion implementation remains unchanged; no safety rejection occurred."
+      ]
+    },
+    {
+      "id": "KBL-REV-063",
+      "title": "Shared masthead logo sizing implementation checks",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; design implementation self-review",
+      "refs": [
+        "KBL-WORK-050"
+      ],
+      "evidence": [
+        "records/masthead-logo-2026-10-19.json",
+        "artifacts/design/masthead-logo-2026-10-19/verification.json"
+      ],
+      "limitations": [
+        "Browser visual/reflow verification could not run: the automatic approval review service reported model capacity on three attempts. No unsafe-action rejection occurred; no alternate browser access was used.",
+        "Static CSS and export checks do not establish visual alignment or browser reflow."
+      ]
+    },
+    {
+      "id": "KBL-REV-064",
+      "title": "Current-edition feature, compact header and cover destination checks",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; Drishti quality self-review",
+      "refs": [
+        "KBL-WORK-051"
+      ],
+      "evidence": [
+        "records/current-edition-home-2026-10-19.json",
+        "artifacts/design/current-edition-home-2026-10-19/verification.json"
+      ],
+      "limitations": [
+        "Automatic approval review could not run because its selected model was at capacity on two attempts. This is an infrastructure failure, not an unsafe-action rejection. No alternate access used.",
+        "Generated HTML/link/integrity checks do not certify visual reflow, browser clicks or independent accessibility review."
+      ]
+    },
+    {
+      "id": "KBL-REV-065",
+      "title": "Quiet unavailable engagement state",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; Drishti self-review",
+      "refs": [
+        "KBL-WORK-052"
+      ],
+      "evidence": [
+        "records/engagement-notice-2026-10-19.json",
+        "artifacts/design/engagement-notice-2026-10-19/verification.json"
+      ],
+      "limitations": [
+        "Source/bundled UI fixtures and exported files checked; no browser visual check or live provider submissions.",
+        "Local host gating explains the preview notice; production service health was not tested."
+      ]
+    },
+    {
+      "id": "KBL-REV-066",
+      "title": "Homepage original rotation and source integrity",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; Drishti self-review",
+      "refs": [
+        "KBL-WORK-053"
+      ],
+      "evidence": [
+        "records/home-poem-rotation-2026-10-19.json",
+        "artifacts/design/home-poem-rotation-2026-10-19/verification.json"
+      ],
+      "limitations": [
+        "Session storage unavailable or corrupt: a fresh random choice remains usable, but repeat avoidance cannot be guaranteed.",
+        "Back/forward restoration may retain the previous document; no timed changes while reading.",
+        "No-JavaScript content retains the static current-edition fallback.",
+        "No fresh visual, keyboard-in-browser or production provider check; existing layout and controls retained."
+      ]
+    },
+    {
+      "id": "KBL-REV-067",
+      "title": "Current-cover sharing rule and rendered image",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; Drishti self-review",
+      "refs": [
+        "KBL-WORK-054"
+      ],
+      "evidence": [
+        "records/home-cover-rule-2026-10-19.json",
+        "artifacts/design/home-cover-rule-2026-10-19/verification.json"
+      ],
+      "limitations": [
+        "No public deployment or live platform sharing/cache test. A generated static sharing image is verified separately from Facebook/WhatsApp cache display.",
+        "Existing page layout is unchanged; visual self-review covered the exported sharing raster, not a new browser layout audit."
+      ]
+    },
+    {
+      "id": "KBL-REV-068",
+      "title": "Ink & Voice artistic cohesion — findings remain open",
+      "status": "fail",
+      "independent": false,
+      "reviewer": "Current chat assistant; Drishti self-review",
+      "refs": [
+        "KBL-WORK-055"
+      ],
+      "evidence": [
+        "records/artistic-wash-audit-2026-10-19.json",
+        "artifacts/design/artistic-wash-audit-2026-10-19/source-inventory.json"
+      ],
+      "limitations": [
+        "Two source consistency findings remain open; this is not an artistic acceptance pass.",
+        "Browser inspection was attempted twice; both calls were not executed because automatic approval review reported: Selected model is at capacity. This is an infrastructure review failure, not an unsafe-action determination. No alternate browser route was used.",
+        "Saved screenshots from earlier on 19 October were directly inspected for edition, profile, essay and reader treatment. They predate the compact-header restoration/current-edition homepage revision and are not proof of the current header or homepage layout.",
+        "This is a source-based artistic audit with selected historical visual evidence, not a fresh full-site visual, accessibility, interaction or publication certification. No current computed-style measurements or mobile screenshots were obtained.",
+        "No site implementation, artwork, source poetry, service settings, publication or design rules were changed. Optional wash remains a proposal."
+      ]
+    },
+    {
+      "id": "KBL-REV-069",
+      "title": "Logo palette, optical size and responsive header",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; Samanta implementation / Drishti self-review",
+      "refs": [
+        "KBL-WORK-056"
+      ],
+      "evidence": [
+        "artifacts/design/logo-ink-voice-2026-10-19/browser-checks.json",
+        "artifacts/design/logo-ink-voice-2026-10-19/export-check.json",
+        "artifacts/design/logo-ink-voice-2026-10-19/desktop-light.png",
+        "artifacts/design/logo-ink-voice-2026-10-19/phone-light.png",
+        "artifacts/design/logo-ink-voice-2026-10-19/phone-dark.png",
+        "records/logo-ink-voice-2026-10-19.json"
+      ],
+      "limitations": [
+        "One Chromium desktop engine with responsive viewports; no fresh 200-percent browser text-enlargement, screen-reader speech or native-phone test.",
+        "Favicon file and export verified; actual OS/browser chrome icon cache not inspected.",
+        "No public deployment. Earlier artistic-audit findings about separator colours and editorial type remain open; this request changed the logo only."
+      ]
+    },
+    {
+      "id": "KBL-REV-070",
+      "title": "Facebook branding and aqua logo verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; Samanta implementation / Drishti self-review",
+      "refs": [
+        "KBL-WORK-057"
+      ],
+      "evidence": [
+        "artifacts/social/facebook-ink-voice-2026-10-19/publication-receipt.json",
+        "artifacts/social/facebook-ink-voice-2026-10-19/verification.json",
+        "artifacts/social/facebook-ink-voice-2026-10-19/page-updated.png",
+        "artifacts/social/facebook-ink-voice-2026-10-19/cover.png",
+        "artifacts/social/facebook-ink-voice-2026-10-19/profile.png",
+        "artifacts/social/facebook-ink-voice-2026-10-19/browser-checks.json",
+        "artifacts/social/facebook-ink-voice-2026-10-19/site-phone-light.png",
+        "artifacts/social/facebook-ink-voice-2026-10-19/site-phone-dark.png",
+        "artifacts/social/facebook-ink-voice-2026-10-19/build.log",
+        "artifacts/social/facebook-ink-voice-2026-10-19/tests.log"
+      ],
+      "limitations": [
+        "Facebook desktop Page view and circular/canvas crop inspected; no native Facebook phone-app verification.",
+        "Website checked in one Chromium engine at 816px and 390px; no new screen-reader or browser-chrome favicon cache check.",
+        "Website changes remain local; no Git push/deployment. Daily poem automation and posting ledger were not changed."
+      ]
+    },
+    {
+      "id": "KBL-REV-071",
+      "title": "Exact favicon artwork, coverage and export",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; implementation and self-review",
+      "refs": [
+        "KBL-WORK-058"
+      ],
+      "evidence": [
+        "artifacts/design/favicon-logo-2026-10-19/verification.json",
+        "artifacts/design/favicon-logo-2026-10-19/browser-check.json",
+        "artifacts/design/favicon-logo-2026-10-19/favicon-preview.png",
+        "artifacts/design/favicon-logo-2026-10-19/build.log",
+        "artifacts/design/favicon-logo-2026-10-19/tests.log"
+      ],
+      "limitations": [
+        "Linked icon file and page metadata verified in Chromium; cache behavior in other browsers and browser-chrome icon display not independently tested.",
+        "No website publication."
+      ]
+    },
+    {
+      "id": "KBL-REV-072",
+      "title": "Apply approved artistic-wash refinements verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; implementation and self-review",
+      "refs": [
+        "KBL-WORK-059"
+      ],
+      "evidence": [
+        "records/artistic-wash-approved-2026-10-19.json",
+        "artifacts/design/original-and-wash-2026-10-19/verification.json",
+        "artifacts/design/original-and-wash-2026-10-19/browser-checks.json"
+      ],
+      "limitations": [
+        "Implementation and browser checks are same-assistant self-review, not independent accessibility certification.",
+        "Phone layouts were checked at 320/390px through live DOM measurements; the IAB screenshot compositor scaled phone captures. Desktop screenshots are usable visual evidence.",
+        "No website push or deployment. Existing public services were preserved, not retested with public writes."
+      ]
+    },
+    {
+      "id": "KBL-REV-073",
+      "title": "Visible Original choice and two translations verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; implementation and self-review",
+      "refs": [
+        "KBL-WORK-060"
+      ],
+      "evidence": [
+        "records/visible-original-2026-10-19.json",
+        "artifacts/design/original-and-wash-2026-10-19/verification.json",
+        "artifacts/design/original-and-wash-2026-10-19/browser-checks.json"
+      ],
+      "limitations": [
+        "Implementation and browser checks are same-assistant self-review, not independent accessibility certification.",
+        "Phone layouts were checked at 320/390px through live DOM measurements; the IAB screenshot compositor scaled phone captures. Desktop screenshots are usable visual evidence.",
+        "No website push or deployment. Existing public services were preserved, not retested with public writes."
+      ]
+    },
+    {
+      "id": "KBL-REV-074",
+      "title": "Illustrated Facebook banner correction verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; Samanta implementation / Drishti self-review",
+      "refs": [
+        "KBL-WORK-061"
+      ],
+      "evidence": [
+        "artifacts/social/facebook-illustrated-restore-2026-10-19/cover-v1.png",
+        "artifacts/social/facebook-illustrated-restore-2026-10-19/prompt.txt",
+        "artifacts/social/facebook-illustrated-restore-2026-10-19/provenance.json",
+        "artifacts/social/facebook-illustrated-restore-2026-10-19/publication-receipt.json",
+        "artifacts/social/facebook-illustrated-restore-2026-10-19/page-published.png"
+      ],
+      "limitations": [
+        "Visual self-review by current assistant, not independent review.",
+        "Built-in generative image edit preserves the composition visually; exact background pixel identity is not claimed.",
+        "Facebook desktop crop reviewed; native phone-app rendering not separately checked."
+      ]
+    },
+    {
+      "id": "KBL-REV-075",
+      "title": "Whole-site colour, typography and shared-component audit",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; Samanta implementation / Drishti self-review",
+      "refs": [
+        "KBL-WORK-062"
+      ],
+      "evidence": [
+        "records/full-design-audit-2026-10-19.json",
+        "artifacts/design/full-design-audit-2026-10-19/audit.html",
+        "artifacts/design/full-design-audit-2026-10-19/verification.json",
+        "artifacts/design/full-design-audit-2026-10-19/static-final.json",
+        "artifacts/design/full-design-audit-2026-10-19/interaction-checks.json"
+      ],
+      "limitations": [
+        "Automated computed-style audit covers 1,316 full routes in each theme; visual/interaction review samples page families.",
+        "Final shared enlargement and badge-language fixes rechecked on 32 representative routes in each theme and at desktop/phone widths.",
+        "Local Chromium review and simulated 200% root text enlargement; no independent accessibility or cross-browser certification.",
+        "No runtime form/engagement submission, push or deployment."
+      ]
+    },
+    {
+      "id": "KBL-REV-076",
+      "title": "Original badge colour and phone alignment verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; Samanta implementation / Drishti self-review",
+      "refs": [
+        "KBL-WORK-063"
+      ],
+      "evidence": [
+        "records/original-mulberry-2026-10-19.json",
+        "artifacts/design/original-mulberry-2026-10-19/alignment-checks.json",
+        "artifacts/design/original-mulberry-2026-10-19/quiet-alignment-checks.json",
+        "artifacts/design/original-mulberry-2026-10-19/export-check.json"
+      ],
+      "limitations": [
+        "Scoped CSS change verified in Chromium responsive viewports; no fresh all-site visual audit, native mobile or cross-browser certification.",
+        "No website push/deployment. Existing content, artwork and reader/service behaviour unchanged."
+      ]
+    },
+    {
+      "id": "KBL-REV-077",
+      "title": "Ink & Voice release and live verification",
+      "status": "pass_with_limitations",
+      "independent": false,
+      "reviewer": "Current chat assistant; Samanta implementation / Drishti self-review",
+      "refs": [
+        "KBL-WORK-064"
+      ],
+      "evidence": [
+        "records/ink-voice-publication-2026-10-20.json"
+      ],
+      "limitations": [
+        "Chromium review only; existing editorial/source questions remain.",
+        "Clean-release build and tests passed; publication/live verification pending."
+      ]
     }
   ],
   "releases": [
@@ -3179,6 +4141,36 @@
       ],
       "evidence": [
         "records/public-site-cleanup-2026-10-11.json"
+      ]
+    },
+    {
+      "id": "KBL-REL-016",
+      "title": "Ink & Voice Facebook profile and cover branding",
+      "status": "published",
+      "authorization": "KBL-DEC-075",
+      "destination": "https://www.facebook.com/profile.php?id=61594946730649",
+      "refs": [
+        "KBL-WORK-057"
+      ],
+      "evidence": [
+        "records/facebook-ink-voice-2026-10-19.json",
+        "artifacts/social/facebook-ink-voice-2026-10-19/publication-receipt.json",
+        "artifacts/social/facebook-ink-voice-2026-10-19/page-updated.png"
+      ]
+    },
+    {
+      "id": "KBL-REL-017",
+      "title": "Restore illustrated Facebook banner with current brand colours",
+      "status": "published",
+      "authorization": "KBL-DEC-079",
+      "destination": "https://www.facebook.com/profile.php?id=61594946730649",
+      "refs": [
+        "KBL-WORK-061"
+      ],
+      "evidence": [
+        "records/facebook-illustrated-restore-2026-10-19.json",
+        "artifacts/social/facebook-illustrated-restore-2026-10-19/publication-receipt.json",
+        "artifacts/social/facebook-illustrated-restore-2026-10-19/page-published.png"
       ]
     }
   ],

@@ -1,0 +1,165 @@
+{
+  "id": "KBL-DEC-073",
+  "work": "KBL-WORK-055",
+  "review": "KBL-REV-068",
+  "title": "Ink & Voice artistic touch and wash audit",
+  "recorded_at": "2026-10-19T05:08:27.676868+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "user_quote": "Audit for artistic touch and wash for the home page, edition page etc",
+  "status": "audit_findings_recorded_visual_followup_required",
+  "scope": "Audit of current local sources across 15 representative routes, shared art/wash styles and selected saved visual evidence. No new design approval inferred.",
+  "reviewer": "Current chat assistant; Drishti review role with Samanta source inspection; same-assistant review",
+  "independent": false,
+  "summary": "The visual foundation is coherent and deliberately clean. Artistic emphasis should remain in covers, portraits and poem-related illustrations. Two current source inconsistencies are actionable: old fixed colours in small ornaments and English editorial headings using Literata. A localized homepage panel-edge wash is an optional refinement.",
+  "findings": [
+    {
+      "id": "KBL-ART-AUD-001",
+      "priority": "medium",
+      "kind": "confirmed_source_inconsistency",
+      "title": "Small decorative marks retain the previous palette",
+      "evidence": [
+        "projects/site/assets/poetic-waterline.svg:1",
+        "projects/site/assets/header-separator-connected.svg:4",
+        "projects/site/assets/style.css:743",
+        "projects/site/assets/poem-experience.css:227",
+        "projects/site/assets/reading-discovery.css:88"
+      ],
+      "observation": "The waterline has fixed rust #983e30, slate #263d4b and olive #65665d. The restored inline header separator contains #963F28 and #78643A. These colours bypass the Ink & Voice mulberry/rose tokens. The content waterline is referenced by poet openings, quiet-reader titles and edition contents; utility openings suppress it intentionally. Current browser appearance has not been reverified.",
+      "recommendation": "Retain the established shapes and placement. Make decorative strokes respond to Ink & Voice light/dark colours through scoped styles or a theme-aware delivery of the existing vector. Preserve the historical SVG originals and do not recolour cover paintings, portraits or the original logo.",
+      "state": "open"
+    },
+    {
+      "id": "KBL-ART-AUD-002",
+      "priority": "medium",
+      "kind": "confirmed_source_inconsistency",
+      "title": "English edition-editorial headings use the prose font",
+      "evidence": [
+        "projects/site/assets/edition-editorial.css:7",
+        "projects/site/assets/style.css:344",
+        "projects/site/assets/ink-voice.css:10",
+        "kb/artifacts/design/brand-guide/DESIGN-SYSTEM.md:11"
+      ],
+      "observation": "#main .editorial-prose h2 uses var(--serif), now Literata. Its ID specificity wins over the general Newsreader heading selector. This makes the English editorial subheadings an exception to the current website display-type rule. Odia/Hindi have explicit script-family rules and must remain intact.",
+      "recommendation": "Use the approved display family for English editorial headings, preserving script-specific Odia/Hindi overrides, then inspect actual wrapping. No need to change magazine-cover mastheads.",
+      "state": "open"
+    },
+    {
+      "id": "KBL-ART-AUD-003",
+      "priority": "design_opportunity",
+      "kind": "optional_refinement",
+      "title": "Homepage featured-poem panel could have a more tactile edge",
+      "evidence": [
+        "projects/site/assets/ink-voice.css:39",
+        "projects/site/assets/ink-voice.css:57"
+      ],
+      "observation": "The featured poem is defined as a flat, rectangular soft-rose panel. The current-edition section has straight rules and a clean page background. This follows the approved clean-surface design; it is not a broken or missing wash. The current homepage layout has not been freshly rendered in this audit.",
+      "recommendation": "Preview one faint rose/mulberry wash restricted to the outer edge or empty margin of the poem panel. Leave verse and language controls on an even surface. Keep the complete current-edition cover as the homepage image and sharing image. Avoid a second atmospheric illustration, global texture, random motifs or wash behind every section. This is a proposal, not an approved implementation.",
+      "state": "proposal"
+    },
+    {
+      "id": "KBL-ART-AUD-004",
+      "priority": "low",
+      "kind": "maintenance_observation",
+      "title": "Two sampled pages repeat a stylesheet link",
+      "evidence": [
+        "projects/site/issue-48.html",
+        "projects/site/thirty-languages-and-the-journey-of-a-poem.html"
+      ],
+      "observation": "Both pages include article-engagement.css twice. This does not create a doubled wash or double the CSS effect. It is ancillary source cleanup, not an artistic defect.",
+      "recommendation": "Remove duplicate emission in its responsible generator during a later approved maintenance pass; preserve active engagement behaviour.",
+      "state": "open_low_priority"
+    }
+  ],
+  "page_matrix": [
+    {
+      "area": "Homepage",
+      "assessment": "The current edition is the right artistic anchor. Featured poetry rotates independently. The main panel is intentionally flat rose.",
+      "recommendation": "Keep the cover and compact header. Preview a restrained edge wash on the featured-poem area only.",
+      "evidence_level": "Current source; no fresh homepage rendering."
+    },
+    {
+      "area": "Current and archive edition pages",
+      "assessment": "The full cover, its story, poet portraits and contents already give the issue a distinct identity. Current edition editorial includes nine vignette figures.",
+      "recommendation": "Preserve cover art. Harmonize small marks; correct the English editorial heading family. Avoid another full-page wash competing with the cover.",
+      "evidence_level": "Current sources for issues 48/47; earlier issue-48 dark screenshot reviewed."
+    },
+    {
+      "area": "Poem pages and quiet reader",
+      "assessment": "The ordinary page has a clean background. Quiet-reader leaves use cotton paper at 2.5% opacity; dark mode explicitly hides that layer.",
+      "recommendation": "Keep sustained reading quiet and stable. Match the existing small opening ornament to the palette; leave verse backgrounds even.",
+      "evidence_level": "Current poem/reader CSS plus earlier desktop light reader screenshot."
+    },
+    {
+      "area": "Poet profiles and editorial team",
+      "assessment": "Watercolour portraits supply the artistic colour. Profile framing is restrained paper, thin border and mulberry edge.",
+      "recommendation": "Retain portraits and breathing room; no extra decorative wash behind biography. Harmonize the existing small waterline.",
+      "evidence_level": "Current profile/team source plus earlier profile screenshot."
+    },
+    {
+      "area": "Poems, poets and archive directories",
+      "assessment": "Text-led openings intentionally omit old decorative banners/waterlines; covers and portraits provide visual interest.",
+      "recommendation": "Keep search and browsing clear. Do not restore a wash to every directory opening. Retain the archive-only footer boat.",
+      "evidence_level": "Current source; fresh mobile/dark appearance pending."
+    },
+    {
+      "area": "Essay and About",
+      "assessment": "The essay has a relevant editorial image, generous text column and restrained captions. The article image is distinct from the homepage’s current-cover requirement.",
+      "recommendation": "Keep article art tied to its subject; use quiet section spacing instead of decorative panels behind prose.",
+      "evidence_level": "Current source plus earlier essay screenshot; About source only."
+    },
+    {
+      "area": "Contact, feedback and submissions",
+      "assessment": "Practical text-led openings follow the approved restraint rule.",
+      "recommendation": "Keep fields and actions on flat high-contrast surfaces; no decorative wash around form controls.",
+      "evidence_level": "Current source only."
+    }
+  ],
+  "confirmed_preserve": [
+    "Compact masthead/menu and original logo",
+    "Current complete edition cover as homepage and root sharing image",
+    "Original poem selection rotation and exact poem wording",
+    "Cover mastheads in Cormorant, independent of website Newsreader",
+    "Existing paintings, portrait identities, artwork provenance and credits",
+    "Flat utility/forms; restrained light reader paper and no dark reader texture",
+    "Reader services, consent and release gates"
+  ],
+  "ruled_out": [
+    "Historical cotton-paper/monsoon-wash body classes do not mean visible wash: Ink & Voice disables the body pseudo-element.",
+    "Old Cormorant declarations in language-essay.css do not establish a current heading leak: the stronger shared heading selector sets Newsreader for English. The ID-based edition-editorial selector is the actual exception.",
+    "The footer asset is transparent, not an opaque cream rectangle. Diagnostic primary-colour fringe pixels had no alpha above 32/255; the local image viewer alone is not evidence of a visible browser fringe. Fresh light/dark footer rendering is still pending.",
+    "Magazine cover cream page edges are part of the approved physical cover treatment, not a reason to recolour the cover artwork."
+  ],
+  "evidence": [
+    "artifacts/design/artistic-wash-audit-2026-10-19/source-inventory.json",
+    "artifacts/design/artistic-wash-audit-2026-10-19/audit.html",
+    "artifacts/design/ink-and-voice-2026-10-19/edition-dark.png",
+    "artifacts/design/ink-and-voice-2026-10-19/profile-desktop.png",
+    "artifacts/design/ink-and-voice-2026-10-19/essay-desktop.png",
+    "artifacts/design/ink-and-voice-reader-2026-10-19/reader-desktop-light.png"
+  ],
+  "limitations": [
+    "Browser inspection was attempted twice; both calls were not executed because automatic approval review reported: Selected model is at capacity. This is an infrastructure review failure, not an unsafe-action determination. No alternate browser route was used.",
+    "Saved screenshots from earlier on 19 October were directly inspected for edition, profile, essay and reader treatment. They predate the compact-header restoration/current-edition homepage revision and are not proof of the current header or homepage layout.",
+    "This is a source-based artistic audit with selected historical visual evidence, not a fresh full-site visual, accessibility, interaction or publication certification. No current computed-style measurements or mobile screenshots were obtained.",
+    "No site implementation, artwork, source poetry, service settings, publication or design rules were changed. Optional wash remains a proposal."
+  ],
+  "next_visual_checks": [
+    "Current homepage at desktop/phone widths, including different featured-poem lengths",
+    "Issue 48 and 47 opening/contents/editorial in light and dark",
+    "Profile and archive footer against both page colours",
+    "Any proposed wash at full size, reduced motion and print; no reading contrast loss"
+  ],
+  "checklist": {
+    "scope": "Read-only audit of existing page families; no new page or design-rule change.",
+    "artwork": "Existing full covers, portraits, decorations and reader texture inspected in source; selected saved screenshots and footer asset viewed directly.",
+    "sharing": "Current-cover rule preserved.",
+    "typography": "Two palette/type consistency findings recorded with exact selectors.",
+    "review": "Same-assistant; fresh browser inspection unavailable.",
+    "delivery": "No site build rerun needed because no implementation changed. Previous test results are not represented as this audit’s results."
+  },
+  "subsequent_resolution": {
+    "authorization": "KBL-DEC-077",
+    "record": "records/artistic-wash-approved-2026-10-19.json",
+    "note": "User approved this audit in the same chat. Implementation and fresh browser evidence are recorded separately; this original audit and its historical limitations remain unchanged."
+  }
+}

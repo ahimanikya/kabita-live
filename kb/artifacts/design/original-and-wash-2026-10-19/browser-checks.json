@@ -1,0 +1,252 @@
+{
+  "original": [
+    {
+      "case": "Mixed page: English opening after Hindi tail",
+      "choices": [
+        {
+          "label": "Original · English",
+          "selected": "true"
+        },
+        {
+          "label": "Odia translation",
+          "selected": "false"
+        },
+        {
+          "label": "Hindi translation",
+          "selected": "false"
+        }
+      ],
+      "labels": [
+        "Original · English"
+      ],
+      "poem": "824"
+    },
+    {
+      "case": "Hindi translation selected",
+      "labels": [
+        "Hindi translation · Original: English"
+      ],
+      "selected": "Hindi translation"
+    },
+    {
+      "case": "390px resize retains English original",
+      "poem": "824",
+      "scroll": 390,
+      "selected": "Original · English",
+      "width": 390
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "name": "Exit reading mode",
+          "right": 48,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Original · English",
+          "right": 155,
+          "width": 78
+        },
+        {
+          "height": 44,
+          "name": "Odia translation",
+          "right": 199,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Hindi translation",
+          "right": 243,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Bookmark this page",
+          "right": 184,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Theme: System. Switch to Light.",
+          "right": 272,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Reading settings",
+          "right": 316,
+          "width": 44
+        }
+      ],
+      "case": "320px quiet controls",
+      "scroll": 320,
+      "width": 320
+    },
+    {
+      "case": "320px regular poem",
+      "controls": [
+        {
+          "height": 44,
+          "label": "Original · Odia",
+          "right": 98,
+          "width": 78
+        },
+        {
+          "height": 44,
+          "label": "Hindi translation",
+          "right": 142,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "label": "English translation",
+          "right": 186,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "label": "Bookmarks and saved passages",
+          "right": 64,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "label": "Share poem",
+          "right": 108,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "label": "Read quietly",
+          "right": 152,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "label": "Likes are available on the published website",
+          "right": 196,
+          "width": 44
+        }
+      ],
+      "scroll": 320,
+      "width": 320
+    },
+    {
+      "case": "Keyboard selects Hindi",
+      "language": "hi",
+      "selected": "Hindi translation"
+    },
+    {
+      "case": "Hindi source URL keeps Original",
+      "language": "hi",
+      "selected": "Original · Hindi"
+    },
+    {
+      "case": "Unavailable translations",
+      "choices": [
+        {
+          "disabled": false,
+          "label": "Original · English",
+          "selected": "true"
+        },
+        {
+          "disabled": true,
+          "label": "Odia translation unavailable",
+          "selected": "false"
+        },
+        {
+          "disabled": true,
+          "label": "Hindi translation unavailable",
+          "selected": "false"
+        }
+      ]
+    },
+    {
+      "background": "rgb(52, 42, 50)",
+      "case": "English source URL and dark theme",
+      "color": "rgb(226, 169, 196)",
+      "selected": "Original · English"
+    },
+    {
+      "case": "Public export runtime",
+      "open": true,
+      "selected": "English translation",
+      "title": "Devi Paksha",
+      "version": "English translation · Original: Odia"
+    }
+  ],
+  "wash": [
+    {
+      "case": "Home light",
+      "cover": "issue-48.html",
+      "leaf": "rgb(113, 59, 85)",
+      "panel": "rgb(234, 221, 227)",
+      "scroll": 816,
+      "wash": "radial-gradient(at 0px 25%, color(srgb 0.443137 0.231373 0.333333 / 0.16), rgba(0, 0, 0, 0) 68%), radial-gradient(at 100% 85%, color(srgb 0.443137 0.231373 0.333333 / 0.1), rgba(0, 0, 0, 0) 70%)",
+      "washSize": "12px 100%, 10px 100%",
+      "width": 816
+    },
+    {
+      "body": "none",
+      "case": "Home dark",
+      "leaf": "rgb(226, 169, 196)",
+      "panel": "rgb(52, 42, 50)",
+      "wash": "12px 100%, 10px 100%"
+    },
+    {
+      "case": "Edition 48 typography",
+      "engagementStyles": 1,
+      "headings": [
+        {
+          "font": "\"Noto Serif Oriya\", serif",
+          "lang": "or"
+        },
+        {
+          "font": "Newsreader, \"Noto Serif Oriya\", \"Tiro Devanagari Hindi\", Georgia, serif",
+          "lang": "en"
+        },
+        {
+          "font": "\"Tiro Devanagari Hindi\", serif",
+          "lang": "hi"
+        }
+      ],
+      "ornaments": []
+    },
+    {
+      "case": "Poet ornament",
+      "color": "rgb(113, 59, 85)",
+      "mask": "url(\"http://127.0.0.1:8771/assets/poetic-waterline.svg\")"
+    },
+    {
+      "case": "Home 390px",
+      "padding": "24px 20px",
+      "scroll": 390,
+      "washSize": "12px 100%, 10px 100%",
+      "width": 390
+    },
+    {
+      "case": "Print excludes wash",
+      "wash": "none"
+    },
+    {
+      "animation": "none",
+      "case": "Reduced motion"
+    },
+    {
+      "case": "Issue 47 opening",
+      "coverLinks": [],
+      "leaf": "rgb(113, 59, 85)",
+      "overflow": false
+    },
+    {
+      "case": "Archive footer light/dark",
+      "result": "Viewed and captured; transparent artwork has no opaque rectangle"
+    }
+  ],
+  "limitations": [
+    "Phone emulation dimensions and controls verified in DOM; screenshot compositor scaled the phone capture. Desktop screenshots accurately reflect viewport.",
+    "Local browser self-review; no independent accessibility review or live publication."
+  ]
+}

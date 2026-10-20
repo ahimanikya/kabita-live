@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-06T04:16:10.809760+00:00",
+  "command": "python3 tools/check_storage.py",
+  "exit_code": 1,
+  "result": "FAIL",
+  "moved_files": 479,
+  "website_files_preserved": 459,
+  "portable_links_checked": 2073,
+  "migration_hashes_checked": false,
+  "errors": [
+    "Source/handoff mismatch: kb/assets/imagery-catalogue.json",
+    "Source/handoff mismatch: kb/artifacts/review/site/all-pages.html",
+    "Source/handoff mismatch: kb/artifacts/review/site/design-system-review.html",
+    "Source/handoff mismatch: kb/artifacts/review/site/magazine-branding.html",
+    "Source/handoff mismatch: kb/artifacts/review/site/cover-studies.html",
+    "Source/handoff mismatch: kb/artifacts/review/site/site-coverage.html",
+    "Source/handoff mismatch: kb/research/writers/portrait-edits.json",
+    "Source/handoff mismatch: kb/research/writers/portrait-sources.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/integration-package.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/integration-before.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/integration-receipt.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/integrate-package.py",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/build.log",
+    "Source/handoff mismatch: kb/research/writers/enrichment/477.json",
+    "Source/handoff mismatch: kb/research/writers/enrichment/476.json",
+    "Source/handoff mismatch: kb/research/writers/enrichment/473.json",
+    "Source/handoff mismatch: kb/research/writers/enrichment/475.json",
+    "Source/handoff mismatch: kb/research/writers/enrichment/474.json",
+    "Source/handoff mismatch: tools/test_edition_sync.py",
+    "Source/handoff mismatch: tools/edition_sync.py"
+  ],
+  "scope": "Concurrent Edition48 integration; source changes preserved. Batch147 remains content-verified, final handoff pending. Earlier completed145/146 checks remain historical successes."
+}

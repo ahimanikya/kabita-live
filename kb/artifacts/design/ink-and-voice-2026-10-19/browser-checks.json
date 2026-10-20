@@ -1,0 +1,124 @@
+{
+  "checks": [
+    {
+      "route": "archive.html",
+      "font": "Newsreader, \"Noto Serif Oriya\", \"Tiro Devanagari Hindi\", Georgia, serif",
+      "header": true,
+      "paper": "#faf7f7",
+      "scrollWidth": 1440,
+      "title": "Past editions",
+      "width": 1440
+    },
+    {
+      "route": "poems.html",
+      "font": "Newsreader, \"Noto Serif Oriya\", \"Tiro Devanagari Hindi\", Georgia, serif",
+      "header": true,
+      "paper": "#faf7f7",
+      "scrollWidth": 1440,
+      "title": "Find a poem",
+      "width": 1440
+    },
+    {
+      "route": "poets.html",
+      "font": "Newsreader, \"Noto Serif Oriya\", \"Tiro Devanagari Hindi\", Georgia, serif",
+      "header": true,
+      "paper": "#faf7f7",
+      "scrollWidth": 1440,
+      "title": "Poets",
+      "width": 1440
+    },
+    {
+      "route": "about.html",
+      "font": "Newsreader, \"Noto Serif Oriya\", \"Tiro Devanagari Hindi\", Georgia, serif",
+      "header": true,
+      "paper": "#faf7f7",
+      "scrollWidth": 1440,
+      "title": "A familiar name.A living literary home.",
+      "width": 1440
+    },
+    {
+      "route": "submit.html",
+      "font": "Newsreader, \"Noto Serif Oriya\", \"Tiro Devanagari Hindi\", Georgia, serif",
+      "header": true,
+      "paper": "#faf7f7",
+      "scrollWidth": 1440,
+      "title": "Send a poem",
+      "width": 1440
+    },
+    {
+      "route": "thirty-languages-and-the-journey-of-a-poem.html",
+      "font": "Newsreader, \"Noto Serif Oriya\", \"Tiro Devanagari Hindi\", Georgia, serif",
+      "header": true,
+      "paper": "#faf7f7",
+      "scrollWidth": 1440,
+      "title": "Three languages and the journey of a poem",
+      "width": 1440
+    },
+    {
+      "route": "archive.html",
+      "menuVisible": true,
+      "scrollWidth": 320,
+      "title": "Past editions",
+      "width": 320
+    },
+    {
+      "route": "poems.html",
+      "menuVisible": true,
+      "scrollWidth": 320,
+      "title": "Find a poem",
+      "width": 320
+    },
+    {
+      "route": "poets.html",
+      "menuVisible": true,
+      "scrollWidth": 320,
+      "title": "Poets",
+      "width": 320
+    },
+    {
+      "route": "poet-476.html",
+      "menuVisible": true,
+      "scrollWidth": 320,
+      "title": "Akash Naik",
+      "width": 320
+    },
+    {
+      "route": "issue-48.html",
+      "menuVisible": true,
+      "scrollWidth": 320,
+      "title": "October 2026",
+      "width": 320
+    },
+    {
+      "route": "thirty-languages-and-the-journey-of-a-poem.html",
+      "menuVisible": true,
+      "scrollWidth": 320,
+      "title": "Three languages and the journey of a poem",
+      "width": 320
+    },
+    {
+      "route": "index.html",
+      "menuVisible": true,
+      "navDisplay": "none",
+      "scrollWidth": 1024,
+      "width": 1024
+    }
+  ],
+  "interactions": [
+    "Home English/Hindi/Odia selection shows exactly one original card",
+    "390px modal menu opens and closes with focus return",
+    "320px quiet reader page forward works",
+    "1440px quiet reader reflows to two pages",
+    "Saved theme changes System \u2192 Light \u2192 Dark; dark preference persists on edition navigation"
+  ],
+  "limits": [
+    "Local comments and likes remain host-gated; no live submissions",
+    "Representative self-review, not every page visually inspected"
+  ],
+  "directory_script_fonts": {
+    "en": "Literata",
+    "or": "Noto Serif Oriya",
+    "hi": "Tiro Devanagari Hindi"
+  },
+  "original_theme_restored": "Dark"
+}

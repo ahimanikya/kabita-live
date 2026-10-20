@@ -1,0 +1,14 @@
+--- before/build.py
++++ after/build.py
+@@ -76,9 +76,9 @@
+  if 'id="focus-edition-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-experience.css?v=22"><script type="module" src="assets/poem-experience.js?v=20"></script>'
+  if file=='contact.html': analytics_scripts+='<script type="module" src="assets/private-feedback.js"></script>'
+  if 'data-page-sharing' in body: analytics_scripts+='<link rel="stylesheet" href="assets/article-engagement.css?v=compact-20261015"><script defer src="assets/page-share.js?v=compact-20261015"></script>'
+- if 'data-article-responses' in body: analytics_scripts+='<link rel="stylesheet" href="assets/article-engagement.css?v=compact-20261015"><script type="module" src="assets/engagement.js?v=compact-20261015"></script>'
++ if 'data-article-responses' in body: analytics_scripts+='<link rel="stylesheet" href="assets/article-engagement.css?v=compact-20261015"><script type="module" src="assets/engagement.js?v=quiet-status-20261019"></script>'
+  if 'data-article-responses' in body or 'data-page-sharing' in body: analytics_scripts+='<link rel="stylesheet" href="assets/engagement.css?v=compact-20261015">'
+- if 'data-poem-engagement=' in body: analytics_scripts+='<link rel="stylesheet" href="assets/engagement.css?v=compact-20261015"><script type="module" src="assets/engagement.js?v=compact-20261015"></script>'
++ if 'data-poem-engagement=' in body: analytics_scripts+='<link rel="stylesheet" href="assets/engagement.css?v=compact-20261015"><script type="module" src="assets/engagement.js?v=quiet-status-20261019"></script>'
+  poem=publication_readers.get(file) or next((p for p in poems if file=='poem-'+p['slug']+'.html'),None)
+  share_records=[dict(id=poem['id'],title=poem['title'],author=poem['author'],lang=poem.get('language',poem.get('lang')),issue=poem.get('edition',47),reader=file)] if poem else poems
+  paper='cotton-paper'

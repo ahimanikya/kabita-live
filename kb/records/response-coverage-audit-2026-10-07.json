@@ -1,0 +1,20 @@
+{
+  "batch": "batch-118",
+  "task": "FLEET-018",
+  "at": "2026-10-07T13:12:03.107894+00:00",
+  "status": "kabita_coverage_audited",
+  "checks": {
+    "public_pages_audited": 1316,
+    "full_poems_complete": 807,
+    "metadata_only_routes": 2,
+    "known_article_gaps": 2,
+    "github_submit_links": 0
+  },
+  "audit_evidence": "results/batch-118-kabita-audit.json",
+  "limitations": [
+    "Current saved1316-page artifact inspected:807full poem pages each have one Like, comment form and stable numeric poem context plus private editor-note link. Two routes are explicitly metadata-only with unavailable poem text; do not treat them as full reading pages or invent recovered poems.",
+    "Two known prose response gaps: issue48 editorial and the standalone three-language article at its retained thirty-languages route. Additive stable article context needed; existing numeric poem schema is not an article identity. No GitHub issue-submit handoff found.",
+    "Read-only source/artifact audit with exact source hashes; not a fresh build, browser test or live service check. Existing poem runtime flags/configuration, legacy required-email private feedback schema, author/translation/artwork work and all content preserved. Common receipt activation remains separately pending."
+  ],
+  "next_action": "Implement explicit editorial article identities and additive article response UI/adapter, with disabled candidate activation until reviewed rule provisioning. Preserve active poem controls and verify generated coverage plus browser behaviour."
+}

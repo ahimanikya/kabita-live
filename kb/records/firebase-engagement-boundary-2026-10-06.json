@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-07T00:40:53.944321+00:00",
+  "status": "engagement_boundary_source_checkpoint",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review role passes",
+  "checks": {
+    "adapter_tests_passed": 8,
+    "existing_rules_emulator_tests_passed": 10,
+    "skipped": 0,
+    "isolated_build": "/private/tmp/kbl-services068-build",
+    "project_guards": "Dedicated kabita-live project, required provider fields, HTTPS/approved host, matching named app and authenticated app instance; restored UID before anonymous action sign-in."
+  },
+  "limitations": [
+    "Poem engagement source only: preserved named kabita-engagement app, numeric poem IDs, stored schemas and reader identity. Feedback source/default-app compatibility is not yet changed.",
+    "Eight shared-helper/real-SDK checks and ten existing emulator rules cases pass with no skips. Isolated service build passes; production bundles/configuration/rules unchanged.",
+    "Actual browser action/restoration, feedback default-app compatibility, response retries/receipts, server-only reads and final provider loading remain subsequent integration work. No cloud deployment or live-adoption claim."
+  ],
+  "unchanged_inputs": {
+    "src/feedback.ts": "7d88e34b713a88c473df6f31ac9dbaa42abefede42c1ca18c6e433bb77b9d491",
+    "firestore.rules": "2bf212208fe639f409a562af257497f051c04b0d217c046d99911eba8aecc2e9",
+    "runtime-config.json": "bc0f7bf28b7b5378f110979a79dae273f81cd5070a78a92fbbe37500324f5955",
+    "assets/engagement.js": "e4b54b8c9877ddf7a0a17dabbde8e076aae839dd815359c78101371cd8eeaa54",
+    "assets/private-feedback.js": "3e41c39ae39baa1aec481dec9ee9266873e0b34c60fc0f9475220f49fdef9e69"
+  },
+  "recovery": "/Users/ahimanikya/Projects/Poem Without Borders/output/fleet-alignment/batch-process/results/batch-068-recovery/manifest.json"
+}

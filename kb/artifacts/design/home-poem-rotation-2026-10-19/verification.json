@@ -1,0 +1,64 @@
+{
+  "status": "pass_with_limitations",
+  "self_review": true,
+  "independent": false,
+  "tests": {
+    "javascript": 169,
+    "python": 34,
+    "failed": 0,
+    "order": "Final full test suite ran after the completed public build."
+  },
+  "build": {
+    "node": "24.15.0",
+    "exit_code": 0,
+    "public_html_pages": 1317,
+    "pagefind_pages": 1312,
+    "content_ready": false
+  },
+  "export": {
+    "status": "pass",
+    "candidate_counts": {
+      "or": 3,
+      "hi": 3,
+      "en": 7
+    },
+    "unchanged_current_edition_cards": 11,
+    "added_recent_originals": [
+      810,
+      812
+    ],
+    "source_excerpts_byline_title_and_links_checked": 13,
+    "protected_files": {
+      "checked": 1017,
+      "changed": []
+    },
+    "local_protected_files": {
+      "checked": 5,
+      "changed": []
+    },
+    "exported_script_matches_source": true,
+    "edition": 48,
+    "source_display_format": "Existing four-line format retained, including the previously approved Odia display-only punctuation handling."
+  },
+  "rotation": {
+    "consecutive_visits": 21,
+    "immediate_repeats": 0,
+    "unique_originals_seen": 13,
+    "method": "Actual selection function with IDs parsed from the exported homepage. Unit fixtures cover document replacement, storage, edition resets and language selection; not a native browser session."
+  },
+  "browser": {
+    "status": "not_tested",
+    "reason": "The supported browser documentation request failed because the automatic approval review model was at capacity. Infrastructure failure, not an unsafe-action rejection; no alternate access used."
+  },
+  "validation_corrections": [
+    "First full test run exposed a stale article-coverage assertion tied to the previous engagement script cache version. Updated it to require the versioned module inclusion and reran all tests after the final build. Original failure log retained.",
+    "Export check initially compared two approved display-case titles directly to raw uppercase source titles. The evidence check now validates the existing source/display override record. No title or poem was changed."
+  ],
+  "limitations": [
+    "Session storage unavailable or corrupt: a fresh random choice remains usable, but repeat avoidance cannot be guaranteed.",
+    "Back/forward restoration may retain the previous document; no timed changes while reading.",
+    "No-JavaScript content retains the static current-edition fallback.",
+    "No fresh visual, keyboard-in-browser or production provider check; existing layout and controls retained."
+  ],
+  "publication": "Local preview only; no push or deployment."
+}

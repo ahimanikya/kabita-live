@@ -1,0 +1,58 @@
+{
+  "id": "KBL-DEC-070",
+  "work": "KBL-WORK-052",
+  "title": "Remove idle Likes/comments availability announcement",
+  "recorded_at": "2026-10-19T04:37:16.777501+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "user_quote": "Likes and comments are not available yet. remove that - when it works - it will work, not sure why they are not availble",
+  "status": "verified_local",
+  "implementation": "Empty the no-service article response status and refresh the engagement script URL. Existing CSS hides empty status. Preserve disabled controls, host/HTTPS/version gates, explicit action feedback and all service configuration.",
+  "diagnosis": "Local preview uses http://127.0.0.1:8771. siteRuntimeAllowed requires HTTPS and an exact allowed production host. Runtime Likes, publicComments and articleResponseVersion remain enabled. This explains the local notice; no live provider health claim.",
+  "checklist": {
+    "scope": "Existing article response footer; no layout, poetry, runtime configuration, submission or moderation change.",
+    "rules": [
+      "SERVICE-01",
+      "SERVICE-02",
+      "SERVICE-04",
+      "DELIVERY-01",
+      "DELIVERY-02"
+    ],
+    "browser": "No fresh browser session or production engagement writes; fixture and bundle checks only.",
+    "handoff": "Final synchronization follows verification.",
+    "publication": "No push or deployment."
+  },
+  "executor": "Current chat assistant; Samanta implementation/Drishti self-review",
+  "independent": false,
+  "evidence": [
+    "artifacts/design/engagement-notice-2026-10-19/verification.json"
+  ],
+  "checks": {
+    "status": "pass_with_limitations",
+    "scope": "Remove the idle article Likes/comments availability notice only.",
+    "tests": {
+      "javascript": 168,
+      "python": 34,
+      "failed": 0,
+      "coverage": "Unavailable source and packaged entry states remain disabled with empty status; action success/failure and retry tests retained."
+    },
+    "protected_service_files": {
+      "checked": 7,
+      "changed": []
+    },
+    "diagnosis": "Local preview uses http://127.0.0.1:8771. siteRuntimeAllowed requires HTTPS and an exact allowed production host. Runtime Likes, publicComments and articleResponseVersion remain enabled. This explains the local notice; no live provider health claim.",
+    "browser": "No fresh browser session or production engagement writes; fixture and bundle checks only.",
+    "publication": "Local only.",
+    "build": {
+      "node": "24.15.0",
+      "exit_code": 0,
+      "updated_script_routes": 812,
+      "old_notice_matches_in_export": [],
+      "exported_bundle_matches_source": true
+    }
+  },
+  "follow_up_validation": {
+    "recorded_at": "2026-10-19T04:48:33.795411+00:00",
+    "record": "records/home-poem-rotation-2026-10-19.json",
+    "note": "Fresh exported-build testing in KBL-WORK-053 found the article-coverage test still expected the pre-notice-change cache version. The earlier suite had passed against the prior dist. The assertion now requires a versioned module inclusion, and all 203 tests pass after a fresh build. Runtime notice behavior is unchanged."
+  }
+}

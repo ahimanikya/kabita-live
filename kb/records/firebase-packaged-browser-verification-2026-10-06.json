@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-07T03:41:11.689142+00:00",
+  "status": "packaged_browser_checkpoint",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review role passes",
+  "checks": {
+    "actual_packaged_browser_checks_passed": 38,
+    "cold_cache_scenarios": 6,
+    "reproducible_fixture_rebuild_hashes_match": true,
+    "external_test_target_requests_blocked": true,
+    "test_services_stopped": true,
+    "retained_public_export_tests": 9,
+    "retained_adapter_sdk_ui_tests": 35,
+    "retained_rules_emulator_tests": 33,
+    "retained_auth_browser_checks": 17
+  },
+  "limitations": [
+    "Thirty-eight actual packaged-provider browser checks pass across six cold-cache baseline/split scenarios. Split feedback pre-action raw9144bytes versus754609; comments pre-open10866versus756399. Required chunks load after actions; no local dependency failures or uncaught exceptions.",
+    "Like-enabled initial count still loads all providers immediately: split779518rawbytes versus756399baseline. No overall page-speed claim. Raw script inventory derived from actual browser responses, not compressed transfer/timing.",
+    "All non-local test-target requests intercepted and blocked before network; synthetic local HTTPS forms/config only. Failed external feedback preserves words. No real submissions, identity success, editor flow or live UI claim. Prior17auth-emulator/35source-UI/33rules/9export checks retained, not rerun.",
+    "Initial fixture detected optional favicon404 as a dependency failure; narrowed exclusion to /favicon.ico only and reran all38checks. Durable preparation rebuilt and all browser-tested JS hashes matched. Test server/disposable browser stopped.",
+    "Split packaging remains isolated candidate pending default bundler/generated artifact adoption and public export regression. Production cloud rules, receipt activation/caching and other sites remain separate. Concurrent article edits and refreshed monoliths preserved."
+  ],
+  "observed_public_inputs": {
+    "runtime-config.json": "bc0f7bf28b7b5378f110979a79dae273f81cd5070a78a92fbbe37500324f5955",
+    "assets/engagement.js": "8f7cc7bbd4e97f605efa4502f3ab6fe9f4d1f1ebe0cd41494f3cac60442873b9",
+    "assets/private-feedback.js": "6fd1d0533d479e5708ec5feb1ed5805e83af087488adffbe4924077dff25583f"
+  },
+  "recovery": "/Users/ahimanikya/Projects/Poem Without Borders/output/fleet-alignment/batch-process/results/batch-080-recovery/manifest.json"
+}

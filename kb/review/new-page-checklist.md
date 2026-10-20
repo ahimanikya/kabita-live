@@ -31,7 +31,7 @@ Use with the [website rulebook](../reference/website-rulebook.md) for a new page
 - [ ] Desktop and phone presentation checked; long content, theme, keyboard and enlarged text considered.
 - [ ] Image dimensions and responsive candidates checked; key artwork loads promptly, below-fold images retain lazy loading, static previews and WOFF2 fonts preserve design.
 - [ ] Links and affected reading/form actions work; decoration does not obscure the action.
-- [ ] Edition cover views have the correct issue identity, uncropped art and accessible full-cover reader links. Home/archive are front-only; edition pages start on the front and swap one side at a time through a keyboard-accessible control. Keyboard entry, language retention and focus return work. Title links retain contents access and sharing still selects the front artwork.
+- [ ] Edition cover views have the correct issue identity, uncropped art and accessible edition-page cover links. Home/archive are front-only; edition pages start on the front and swap one side at a time through a keyboard-accessible control. Keyboard entry, language retention and focus return work. Title links retain contents access and sharing still selects the front artwork.
 - [ ] Exactly one intentional sharing image; title, description, alt and canonical URL checked in initial HTML.
 - [ ] Absolute image URL uses the hosting base correctly; image is in the public export and uncropped.
 - [ ] Portrait, illustration, edition-cover or fallback mapping verified for this page family.
@@ -101,3 +101,7 @@ Decision or rulebook update needed:
 - Where engagement is enabled, check one icon row (Like, Comments, Private feedback, separator, Share), 44px targets, names/tooltips and narrow-screen fit.
 - Verify closed panels at first load, one open panel at a time, retained drafts, Escape/focus return, existing moderation/privacy wording and no duplicate submissions from toolbar/footer Like controls.
 - Check share dialog/native sharing/copy fallback without an extra permanent sharing row. Unsupported service controls remain honestly unavailable; do not enable additional backend contexts as part of layout work.
+
+- [ ] Cover links open their edition page without automatic quiet reading. The compact website header omits the Odia signature; original edition covers retain it. The homepage current-edition feature derives its cover, date, count and link from the catalogue.
+
+- [ ] Homepage and root-URL sharing use the current catalogue edition’s complete front cover. Check masthead/signature/issue/date, matching static Open Graph/Twitter image tags, a changed image cache key after edition promotion, and build failure for a missing or stale current cover. Featured-poem rotation must not affect it.

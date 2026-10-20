@@ -1,0 +1,1155 @@
+--- a/build.py
++++ b/build.py
+@@ -72,13 +72,13 @@
+  analytics_scripts='' if file in REVIEW_FILES else '<script defer src="assets/analytics.js"></script>'
+  if file!='index.html' and file not in REVIEW_FILES:
+   analytics_scripts+='<link rel="stylesheet" href="assets/mobile-artwork.css?v=1">'
+- if 'id="reading-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-reader.css?v=3"><script type="module" src="assets/poem-reader.js?v=8"></script>'
+- if 'id="focus-edition-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-experience.css?v=22"><script type="module" src="assets/poem-experience.js?v=20"></script>'
++ if 'id="reading-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-reader.css?v=3"><script type="module" src="assets/poem-reader.js?v=9"></script>'
++ if 'id="focus-edition-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-experience.css?v=25"><script type="module" src="assets/poem-experience.js?v=22"></script>'
+  if file=='contact.html': analytics_scripts+='<script type="module" src="assets/private-feedback.js"></script>'
+- if 'data-page-sharing' in body: analytics_scripts+='<link rel="stylesheet" href="assets/article-engagement.css?v=compact-20261015"><script defer src="assets/page-share.js?v=compact-20261015"></script>'
+- if 'data-article-responses' in body: analytics_scripts+='<link rel="stylesheet" href="assets/article-engagement.css?v=compact-20261015"><script type="module" src="assets/engagement.js?v=compact-20261015"></script>'
+- if 'data-article-responses' in body or 'data-page-sharing' in body: analytics_scripts+='<link rel="stylesheet" href="assets/engagement.css?v=compact-20261015">'
+- if 'data-poem-engagement=' in body: analytics_scripts+='<link rel="stylesheet" href="assets/engagement.css?v=compact-20261015"><script type="module" src="assets/engagement.js?v=compact-20261015"></script>'
++ if 'data-page-sharing' in body: analytics_scripts+='<script defer src="assets/page-share.js?v=compact-20261015"></script>'
++ if 'data-article-responses' in body: analytics_scripts+='<script type="module" src="assets/engagement.js?v=quiet-status-20261019"></script>'
++ if 'data-article-responses' in body or 'data-page-sharing' in body: analytics_scripts+='<link rel="stylesheet" href="assets/article-engagement.css?v=compact-20261015"><link rel="stylesheet" href="assets/engagement.css?v=compact-20261015">'
++ if 'data-poem-engagement=' in body: analytics_scripts+='<link rel="stylesheet" href="assets/engagement.css?v=compact-20261015"><script type="module" src="assets/engagement.js?v=quiet-status-20261019"></script>'
+  poem=publication_readers.get(file) or next((p for p in poems if file=='poem-'+p['slug']+'.html'),None)
+  share_records=[dict(id=poem['id'],title=poem['title'],author=poem['author'],lang=poem.get('language',poem.get('lang')),issue=poem.get('edition',47),reader=file)] if poem else poems
+  paper='cotton-paper'
+@@ -93,7 +93,7 @@
+   start=body.index('class="writer-hero"');end=body.index('</section>',start);body=body[:end]+'</div>'+site_art(file)+body[end:]
+  else:
+   body=body.replace(site_art(),site_art(file),1)
+- doc=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{e(title)} · Kabita Live</title><link rel="preload" href="assets/fonts/NotoSerifOriya-Variable.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" href="assets/kabita-live-symbol.svg"><link rel="stylesheet" href="assets/style.css?revision=browser-font-20261006"><script defer src="assets/app.js?revision=responses-20261015"></script>{analytics_scripts}</head><body class="journal-paper {paper}{' site-theme' if file not in REVIEW_FILES else ''}{' poem-page' if poem else ''}">{'<script src="assets/appearance.js"></script>' if file not in REVIEW_FILES else ''}<a class="skip" href="#main">Skip to content</a><header class="wrap site-header"><div class="masthead"><a class="brand" href="index.html" aria-label="Kabita Live home"><img src="assets/kabita-live-symbol.svg" alt=""><span><span class="brand-title">Kabita Live</span></span></a><button type="button" class="menu menu-icon" aria-label="Open menu" aria-expanded="false" aria-controls="navigation"><svg class="menu-open-mark" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 6H20M4 12H20M4 18H16"/></svg><svg class="menu-close-mark" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 6L18 18M18 6L6 18"/></svg></button><nav class="nav" id="navigation" aria-label="Main navigation">{nav}</nav></div><div class="header-separator" aria-hidden="true">{header_separator}</div></header><main id="main" class="wrap{' home-refined' if file=='index.html' else ''}" tabindex="-1">{body}</main><footer id="footer" class="wrap footer footer-simple"><div class="earth-edge" aria-hidden="true"></div><div class="footer-line"><p class="footer-credit">Poetry belongs to its respective authors.</p><nav class="footer-links" aria-label="Footer">{footer_navigation()}</nav></div></footer><dialog id="share-dialog" aria-labelledby="share-heading"><div class="dialog-head"><h2 id="share-heading">Let a poem travel.</h2><button data-close aria-label="Close sharing">×</button></div><p class="small muted">Share the poem with its title and poet intact.</p><div id="share-card" class="quote-card"></div><div class="share-options"><button class="btn solid" id="copy-link">Copy link</button><button class="btn" id="native-share">Share…</button><button class="btn" id="copy-caption">Copy caption</button></div><div class="share-options"><a id="whatsapp" class="text-link" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a id="facebook" class="text-link" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div><label class="label" for="share-url">Poem link</label><input id="share-url" readonly><p class="status" id="share-status" role="status"></p></dialog><script type="application/json" id="poem-data">{json.dumps(share_records,ensure_ascii=False).replace(chr(60), chr(92)+"u003c")}</script></body></html>'''
++ doc=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{e(title)} · Kabita Live</title><link rel="preload" href="assets/fonts/NotoSerifOriya-Variable.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" href="assets/kabita-live-symbol.svg"><link rel="stylesheet" href="assets/style.css?revision=browser-font-20261006"><script defer src="assets/app.js?revision=ink-voice-audit-20261019"></script>{analytics_scripts}</head><body class="journal-paper {paper}{' site-theme' if file not in REVIEW_FILES else ''}{' poem-page' if poem else ''}">{'<script src="assets/appearance.js"></script>' if file not in REVIEW_FILES else ''}<a class="skip" href="#main">Skip to content</a><header class="wrap site-header"><div class="masthead"><a class="brand" href="index.html" aria-label="Kabita Live home"><img src="assets/kabita-live-symbol.svg" alt=""><span><span class="brand-title">Kabita Live</span></span></a><button type="button" class="menu menu-icon" aria-label="Open menu" aria-expanded="false" aria-controls="navigation"><svg class="menu-open-mark" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 6H20M4 12H20M4 18H16"/></svg><svg class="menu-close-mark" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 6L18 18M18 6L6 18"/></svg></button><nav class="nav" id="navigation" aria-label="Main navigation">{nav}</nav></div><div class="header-separator" aria-hidden="true">{header_separator}</div></header><main id="main" class="wrap{' home-refined' if file=='index.html' else ''}" tabindex="-1">{body}</main><footer id="footer" class="wrap footer footer-simple"><div class="earth-edge" aria-hidden="true"></div><div class="footer-line"><p class="footer-credit">Poetry belongs to its respective authors.</p><nav class="footer-links" aria-label="Footer">{footer_navigation()}</nav></div></footer><dialog id="share-dialog" aria-labelledby="share-heading"><div class="dialog-head"><h2 id="share-heading">Let a poem travel.</h2><button data-close aria-label="Close sharing">×</button></div><p class="small muted">Share the poem with its title and poet intact.</p><div id="share-card" class="quote-card"></div><div class="share-options"><button class="btn solid" id="copy-link">Copy link</button><button class="btn" id="native-share">Share…</button><button class="btn" id="copy-caption">Copy caption</button></div><div class="share-options"><a id="whatsapp" class="text-link" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a id="facebook" class="text-link" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div><label class="label" for="share-url">Poem link</label><input id="share-url" readonly><p class="status" id="share-status" role="status"></p></dialog><script type="application/json" id="poem-data">{json.dumps(share_records,ensure_ascii=False).replace(chr(60), chr(92)+"u003c")}</script></body></html>'''
+  # One-page footer trial explicitly requested; wider rollout awaits review.
+  if file=='archive.html':
+   art='<div class="footer-art-row" aria-hidden="true"><div class="footer-watercolor-boat"></div></div>'
+@@ -136,7 +136,7 @@
+  return result+'</div>'
+ def homepage_covercards():
+  result='<div class="cover-grid">'
+- for i,issue in enumerate(homepage_issues[:3]):
++ for i,issue in enumerate(homepage_issues[1:4]):
+   n=issue['number']
+   p=cover_by_number[n];url=f'issue-{n}.html'
+   compact=' compact-on-phone' if i else ''
+@@ -152,7 +152,7 @@
+  return '\n'.join(lines)
+ def cards():
+  from home_features import render_home_features
+- return render_home_features(R,current_home_issue,publication_poems,profile_routes,sample_routes,home_excerpt)
++ return render_home_features(R,current_home_issue,publication_poems,profile_routes,sample_routes,home_excerpt,editions=homepage_issues)
+ 
+ editors=json.loads((R/'editor-profiles.json').read_text())
+ def editorial_people():
+@@ -253,3 +253,9 @@
+ # Direct-link editorial reference, deliberately absent from navigation and page indexes.
+ from translation_review import render_translation_review
+ page("translation-review.html", "Translation review", render_translation_review(R), desc="Editorial translation review status and source questions.")
++
++# Apply the approved website theme last, after all page-family styles/content.
++from ink_voice import apply_ink_voice
++apply_ink_voice(R, [name for name, *_ in pages] + ['search.html'],
++ current_edition={**cover_by_number[current_home_issue['number']], 'poem_count':len(current_home_issue['poem_ids'])},
++ current_cover=coverpair(current_home_issue['number'],card=True))
+--- a/ink_voice.py
++++ b/ink_voice.py
+@@ -0,0 +1,76 @@
++"""Apply the approved Ink & Voice website design after page assembly.
++
++Magazine covers and source poetry are deliberately left intact.
++"""
++import re
++from html import escape
++from hashlib import sha256
++
++
++def favicon_link(site):
++    """Use the current logo and refresh the browser cache when its artwork changes."""
++    asset = 'assets/kabita-live-symbol-ink-voice.svg'
++    revision = sha256((site / asset).read_bytes()).hexdigest()[:12]
++    return f'<link rel="icon" type="image/svg+xml" sizes="any" href="{asset}?v={revision}">'
++
++
++def redesign_home(text, edition, cover_markup):
++    opening = re.search(r'<section class="home-opening\b.*?</section>', text, re.S)
++    featured = re.search(r'<section id="featured-poems".*?</section>', text, re.S)
++    assert opening and featured, 'Homepage source sections missing'
++    action = re.search(r'<a class="btn solid".*?</a>', opening.group(), re.S).group()
++    issue = re.search(r'<span class="eyebrow home-artistic-label">.*?</span>', opening.group(), re.S).group()
++    issue = re.sub(r'<svg\b.*?</svg>', '', issue, flags=re.S)
++    issue = issue.replace('eyebrow home-artistic-label', 'ink-issue-note')
++    # Reuse the existing full, source-backed candidate pool and visit selection.
++    candidates = featured.group().split('<div class="three"', 1)[1].removesuffix('</section>')
++    candidates = '<div class="three"' + candidates
++    number = edition['number']
++    # Reuse the reviewed front cover and its explicit edition-page link.
++    cover_markup = cover_markup.replace(f'cover-b cover-{number}"', f'cover-b cover-{number} magazine-object"')
++    current = (f'<section class="ink-current-edition" aria-labelledby="ink-edition-title">'
++               '<div class="ink-edition-copy"><span class="eyebrow">Current edition</span>'
++               f'<h2 id="ink-edition-title">Issue {number}</h2>'
++               f'<p class="ink-edition-meta">{escape(edition["date"])} · {edition["poem_count"]} poems</p>'
++               f'<h3>{escape(edition["title"])}</h3><p class="ink-edition-story">{escape(edition["story"])}</p>'
++               f'<a class="btn solid" href="issue-{number}.html">Read this edition <span aria-hidden="true">↗</span></a>'
++               '</div><div class="ink-edition-cover">' + cover_markup + '</div></section>')
++    new = (f'<section class="ink-opening" aria-labelledby="ink-home-title">'
++           '<div class="ink-invitation"><span class="eyebrow">ODIA · HINDI · ENGLISH</span>'
++           '<h1 id="ink-home-title">Poems to<br><em>keep close.</em></h1>'
++           '<p class="ink-home-deck">A monthly journal of poetry.</p>' + action + issue + '</div>'
++           '<section id="featured-poems" class="ink-feature" aria-labelledby="ink-feature-title">'
++           '<h2 id="ink-feature-title">A poem to begin with</h2>'
++           '<div class="ink-language" role="group" aria-label="Featured original language" hidden>'
++           '<button type="button" data-feature-language="en" aria-pressed="false">English</button>'
++           '<button type="button" data-feature-language="hi" lang="hi" aria-pressed="false">हिन्दी</button>'
++           '<button type="button" data-feature-language="or" lang="or" aria-pressed="false">ଓଡ଼ିଆ</button>'
++           '</div>' + candidates + '</section></section>' + current)
++    return text.replace(opening.group(), new, 1).replace(featured.group(), '', 1)
++
++
++def apply_ink_voice(site, filenames, *, current_edition, current_cover):
++    # Keep the original leaf/stream geometry; the website mark inherits its theme.
++    symbol = (site / 'assets/kabita-live-symbol-ink-voice.svg').read_text()
++    paths = ''.join(re.findall(r'<path\b[^>]+/>', symbol))
++    mark = ('<svg class="brand-symbol" viewBox="0 0 256 256" '
++            'width="41" height="41" aria-hidden="true" focusable="false">' + paths + '</svg>')
++    count = 0
++    for name in set(filenames):
++        path = site / name
++        if path.is_symlink():
++            continue
++        text = path.read_text()
++        if not re.search(r'<body class="[^"]*\bsite-theme\b', text):
++            continue
++        if 'assets/ink-voice.css' in text:
++            continue
++        text = text.replace('</head>', '<link rel="preload" href="assets/fonts/Newsreader-Variable.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="assets/ink-voice.css?v=20261019-original-mulberry-aligned"></head>', 1)
++        text = text.replace('<img src="assets/kabita-live-symbol.svg" alt=""><span><span class="brand-title">', mark + '<span><span class="brand-title">', 1)
++        text = text.replace('<link rel="icon" href="assets/kabita-live-symbol.svg">', favicon_link(site), 1)
++        # Keep the established compact masthead/menu markup. The signature belongs on covers.
++        if name == 'index.html':
++            text = redesign_home(text, current_edition, current_cover)
++        path.write_text(text)
++        count += 1
++    print(f'Ink & Voice: {count} assembled reader pages styled; cover artwork unchanged.')
+--- a/poem_experience.py
++++ b/poem_experience.py
+@@ -90,15 +90,17 @@
+         body=body.replace('<!--poem-context-->',edition_panel(p,menu),1)
+     else:
+         body=body.replace('</figure>',edition_panel(p,menu)+'</figure>',1)
+-    # Three script shortcuts; the source-language tab is the original reading.
++    # Original is a distinct, visible choice; the other two are translations.
+     choices=[]
+-    for code,glyph,native,name in [('or','ଅ','ଓଡ଼ିଆ','Odia'),('hi','अ','हिन्दी','Hindi'),('en','A','English','English')]:
++    languages=[('or','ଅ','ଓଡ଼ିଆ','Odia'),('hi','अ','हिन्दी','Hindi'),('en','A','English','English')]
++    languages.sort(key=lambda item:item[0]!=data['source_language'])
++    for code,glyph,native,name in languages:
+         enabled=code in data['variants'];selected=code==data['source_language']
+-        hint=native+' · '+name if native!=name else name
+-        if selected:hint+=' · Original'
+-        if not enabled:hint+=' · Translation unavailable'
++        choice='original' if selected else code
++        hint=f'Original · {name}' if selected else f'{name} translation'+(' unavailable' if not enabled else '')
++        label=f'<span class="original-label" lang="en">Original</span><span class="original-language" lang="{code}">{glyph}</span>' if selected else glyph
+         attrs='' if enabled else ' disabled'
+-        choices.append(f'<button type="button" role="tab" id="tab-{code}" data-reading-language="{code}" lang="{code}" aria-label="Read in {name}" title="{hint}" aria-selected="{str(selected).lower()}" aria-controls="reading-panel" tabindex="{0 if selected else -1}"{attrs}>{glyph}<span class="poem-language-tip" aria-hidden="true">{hint}</span></button>')
++        choices.append(f'<button type="button" role="tab" id="tab-{choice}" data-reading-language="{choice}" lang="{code}" aria-label="{hint}" title="{hint}" aria-selected="{str(selected).lower()}" aria-controls="reading-panel" tabindex="{0 if selected else -1}"{attrs}>{label}<span class="poem-language-tip" aria-hidden="true">{hint}</span></button>')
+     old=re.search(r'(?:<div class="experience-bar">.*?)?<div class="reader-tools">.*?(?=<div id="selection-tools")',body,re.S)
+     if not old:raise ValueError(f'Missing reader controls for {p["id"]}')
+     body=body[:old.start()]+body[old.end():]
+@@ -108,7 +110,7 @@
+     body=body.replace('<div class="poem-actions" role="group" aria-label="Poem actions">','<div class="poem-actions" role="group" aria-label="Poem actions"><button id="page-bookmarks-button" type="button" aria-label="Bookmarks and saved passages" title="Bookmarks and saved passages" aria-expanded="false" aria-controls="page-bookmarks">'+reader_action_icon('bookmark')+'<span>Bookmarks</span></button>',1)
+     body,count=re.subn(r'</div></div>(<(?:figure|aside) class="poem-art)',lambda m:'</div>'+panel+'</div>'+m[1],body,count=1)
+     if count!=1:raise ValueError(f'Missing reader-tools insertion point for {p["id"]}')
+-    body=re.sub(r'<div id="reading-panel"[^>]*>', f'<div id="reading-panel" role="tabpanel" aria-labelledby="tab-{data["source_language"]}" tabindex="0">',body,count=1)
++    body=re.sub(r'<div id="reading-panel"[^>]*>', '<div id="reading-panel" role="tabpanel" aria-labelledby="tab-original" tabindex="0">',body,count=1)
+     # No-JavaScript verse also suppresses decoration, retaining source text in hidden spans.
+     body=re.sub(r'(?P<prefix><p class="stanza">|<br>)(?P<text>[*＊_—–=\-\s]{3,})(?=<br>|</p>)',lambda m:m['prefix']+'<span class="source-end-marker" hidden>'+m['text']+'</span>',body)
+     dataset={'url':f'assets/reading-editions/issue-{p["edition"]}.json'} if p['edition'] else {}
+--- a/home_features.py
++++ b/home_features.py
+@@ -1,19 +1,29 @@
+-"""Current-edition homepage candidates; source excerpts stay in publication records."""
+-from datetime import datetime
++"""Recent homepage originals; source excerpts stay in publication records."""
+ from html import escape, unescape
+ import json
+ 
+ 
+-def render_home_features(root, issue, source_poems, profile_routes, sample_routes, format_excerpt):
++def render_home_features(root, issue, source_poems, profile_routes, sample_routes, format_excerpt, *, editions=()):
+     portraits=json.loads((root/'data/writer-portraits.json').read_text())
+     from writer_names import load_writer_profiles
+     names={p['id']:p['name'] for p in load_writer_profiles(root)}
+     approved=json.loads((root/'data/home-featured.json').read_text())
+     labels={'or':'ଓଡ଼ିଆ','hi':'हिन्दी','en':'English'}
+     groups={lang:[] for lang in labels}
+-    for ident in issue['poem_ids']:
++    candidates=[]
++    counts={lang:0 for lang in labels}
++    recent=[issue]+sorted((other for other in editions if other['number']<issue['number']),key=lambda other:other['number'],reverse=True)
++    for edition in recent:
++        for ident in edition['poem_ids']:
++            p=source_poems[ident];lang=p['language']
++            if ident in candidates or lang not in groups or p.get('status')!='captured_full_text' or not p['text'].strip():continue
++            # Keep every current-edition original; fill small language pools from recent issues.
++            if edition['number']!=issue['number'] and counts[lang]>=3:continue
++            candidates.append(ident)
++            counts[lang]+=1
++        if all(count>=3 for count in counts.values()):break
++    for ident in candidates:
+         p=source_poems[ident];lang=p['language']
+-        if lang not in groups or p.get('status')!='captured_full_text' or not p['text'].strip():continue
+         author=names.get(p['writer_id'],p['author']).split('/')[0].strip()
+         # Keep the approved display names and small portraits for the original three cards.
+         f=approved.get(str(ident),{})
+@@ -33,8 +43,7 @@
+               f'<div class="card-identity">{picture}<div class="card-identity-copy"><h3 class="{lang}" lang="{lang}"><a href="{route}">{escape(unescape(p["title"]))}</a></h3><a class="byline" href="{profile}">{escape(author)}</a></div></div>'
+               f'<p class="excerpt {lang}" lang="{lang}">{escape(excerpt)}</p><a class="text-link" href="{route}">Read the poem</a></article>')
+         groups[lang].append((ident,card))
+-    anchor=datetime.strptime(f'{issue["year"]} {issue["month"]}', '%Y %B').strftime('%Y-%m-01')
+     fallback=''.join(items[0][1] for items in groups.values() if items)
+     templates=''.join(f'<template data-featured-language="{lang}" data-poem-id="{ident}" data-pagefind-ignore>{card}</template>' for lang,items in groups.items() for ident,card in items)
+-    return (f'<div class="three" id="daily-featured-poems" data-rotation-start="{anchor}" data-edition="{issue["number"]}">{fallback}</div>'
+-            f'<div hidden id="featured-poem-pool" data-pagefind-ignore>{templates}</div><script type="module" src="assets/home-featured.js?v=1"></script>')
++    return (f'<div class="three" id="daily-featured-poems" data-rotation="visit" data-edition="{issue["number"]}">{fallback}</div>'
++            f'<div hidden id="featured-poem-pool" data-pagefind-ignore>{templates}</div><script type="module" src="assets/home-featured.js?v=visit-20261019"></script>')
+--- a/cover_layout.py
++++ b/cover_layout.py
+@@ -48,15 +48,14 @@
+     return f'<div class="cover magazine-back" data-back-cover-edition="{number}">{svg}</div>'
+ 
+ def render_cover_pair(root,number,alt,title,story,date,*,card=False,local=False):
+-    href=f'issue-{number}.html?focus=1'
+-    local_attr=' data-open-edition-reader' if local else ''
++    href=f'issue-{number}.html'
+     front=render_cover(root,number,alt,card=card)
+     if not local:
+         return f'<a class="magazine-cover-link" href="{href}" aria-label="Read issue {number} — front cover">{front}</a>'
+     token=f'cover-view-{number}-{next(_sequence)}'
+     sides=[('front',front),('back',render_back_cover(root,number,title,story,date,card=card))]
+     return (f'<div class="magazine-view" data-cover-view role="group" aria-label="Issue {number} cover">'+''.join(
+-        f'<a id="{token}-{side}" class="magazine-cover-link" data-cover-face="{side}"'+(' hidden' if side=='back' else '')+f' href="{href}"{local_attr} aria-label="Read issue {number} — {side} cover">{art}</a>'
++        f'<a id="{token}-{side}" class="magazine-cover-link" data-cover-face="{side}"'+(' hidden' if side=='back' else '')+f' href="{href}" aria-label="Read issue {number} — {side} cover">{art}</a>'
+         for side,art in sides)+f'<button type="button" class="magazine-cover-toggle" data-cover-toggle aria-controls="{token}-front {token}-back" aria-label="View back cover of issue {number}" hidden>View back cover</button></div>')
+ def apply_cover_styles(root):
+     for path in root.glob('*.html'):
+--- a/social_metadata.py
++++ b/social_metadata.py
+@@ -8,18 +8,21 @@
+ from urllib.parse import urlsplit, urljoin
+ 
+ FALLBACK = 'assets/home/life-after-rain-poetic-natural.webp'
++COVER_FONTS = ['assets/fonts/CormorantGaramond-Variable.ttf', 'assets/fonts/NotoSerifOriya-Variable.ttf']
+ VOID = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr','image'}
+ 
+ class Page(HTMLParser):
+     def __init__(self, text):
+         super().__init__(convert_charrefs=True)
+-        self.stack=[]; self.images=[]; self.links=[]; self.title=[]; self.byline=[]; self.description=''; self.canonical=[]
++        self.stack=[]; self.images=[]; self.links=[]; self.title=[]; self.byline=[]; self.description=''; self.canonical=[]; self.current_covers=[]
+         self.feed(text)
+     def handle_starttag(self, tag, attrs):
+         a=dict(attrs)
+         if tag=='link' and a.get('rel')=='canonical':self.canonical.append(a.get('href',''))
+         if tag=='meta' and a.get('name')=='description':self.description=a.get('content','')
+         classes=set(' '.join(d.get('class','') for _,d in self.stack).split()) | set(a.get('class','').split())
++        if 'ink-current-edition' in classes and 'data-cover-edition' in a:
++            self.current_covers.append(a['data-cover-edition'])
+         if tag in {'img','image'}:
+             src=a.get('src') or a.get('href') or a.get('xlink:href','')
+             if src.startswith('assets/') and src.lower().endswith(('.webp','.jpg','.jpeg','.png')):
+@@ -40,7 +43,7 @@
+ 
+ def clean(value): return ' '.join(value.split())
+ 
+-def choose_image(name, page, pages):
++def choose_image(name, page, pages, home_cover=None):
+     def match(classes):return next((i for i in page.images if i['classes'] & classes),None)
+     reason='page_artwork'; image=None
+     if name.startswith('poem-'):
+@@ -57,7 +60,8 @@
+     elif re.fullmatch(r'issue-\d+\.html',name):
+         image=match({'edition-cover'}); reason='edition_cover'
+     elif name=='index.html':
+-        image=next((i for i in page.images if i['source']==FALLBACK),None); reason='stable_homepage'
++        if not home_cover:raise ValueError('Homepage sharing requires the current edition front cover')
++        image=home_cover; reason='current_edition_front_cover'
+     elif match({'article-lead'}):
+         image=match({'article-lead'}); reason='article_illustration'
+     else:
+@@ -66,6 +70,17 @@
+         image={'source':FALLBACK,'alt':'An imagined rain-washed courtyard beside an indigo doorway, opening onto a pond and green fields.'}
+         reason='journal_fallback'
+     return image,reason
++
++
++def current_home_cover(root, page):
++    issues=json.loads((root/'content/editions/index.json').read_text())
++    if not issues:raise ValueError('Homepage sharing requires a current edition')
++    number=max(issue['number'] for issue in issues)
++    if page.current_covers != [str(number)]:
++        raise ValueError('Homepage visible cover does not match the current edition')
++    cover=json.loads((root/'data/cover-layout-b.json').read_text())[str(number)]
++    return {'source':cover['artwork'],'alt':f'Kabita Live — Issue {number}, {cover["date"]}. Complete front cover.',
++            'edition':number,'cover_svg':cover['svg'],'cover_fonts':COVER_FONTS}
+ 
+ 
+ def public_base(environ):
+@@ -101,11 +116,15 @@
+     parsed={name:Page((root/name).read_text()) for name in names}
+     entries={}
+     for name,page in parsed.items():
+-        image,reason=choose_image(name,page,parsed)
++        image,reason=choose_image(name,page,parsed,current_home_cover(root,page) if name=='index.html' else None)
+         source=root/image['source']
+         if not source.is_file():raise ValueError('Missing sharing image: '+str(source))
+         # Digest protects social caches when an assigned image is revised.
+-        digest=hashlib.sha256(b'social-jpeg-contain-1200x630-v1\0'+source.read_bytes()).hexdigest()[:20]
++        fingerprint=b'social-jpeg-contain-1200x630-v1\0'+source.read_bytes()
++        if reason=='current_edition_front_cover':
++            fingerprint+=b'\0front-cover-v1\0'+image['cover_svg'].encode()
++            for font in image['cover_fonts']:fingerprint+=(root/font).read_bytes()
++        digest=hashlib.sha256(fingerprint).hexdigest()[:20]
+         asset='assets/social/'+digest+'.jpg'
+         title=clean(''.join(page.title)) or 'Kabita Live'
+         short=title.removesuffix(' · Kabita Live')
+@@ -121,6 +140,8 @@
+         canonical=urljoin(base+name,page.canonical[0]) if page.canonical else base+('' if name=='index.html' else name)
+         if urlsplit(canonical).netloc!=urlsplit(base).netloc or not canonical.startswith(base) or urlsplit(canonical).query or urlsplit(canonical).fragment:raise ValueError('Invalid source canonical: '+name)
+         entries[name]={'canonical_url':canonical,'title':title,'description':description,'type':'article' if name.startswith('poem-') or reason=='article_illustration' else 'profile' if reason=='poet_portrait' else 'website','url':base+('' if name=='index.html' else name),'image_url':base+asset,'asset':asset,'source':image['source'],'alt':image['alt'] or f'Artwork accompanying {short}','reason':reason}
++        if reason=='current_edition_front_cover':
++            entries[name].update({key:image[key] for key in ['edition','cover_svg','cover_fonts']})
+     return entries
+ 
+ 
+--- a/build-public.py
++++ b/build-public.py
+@@ -51,6 +51,7 @@
+ assets.add('assets/reading-all.json')
+ assets.add('assets/reader-pagination.mjs')
+ assets.add('assets/reader-controls.mjs')
++assets.add('assets/reader-language.mjs')
+ assets.add('assets/utkal-reader/pagination.mjs')
+ assets.add('assets/shared-reader-storage.mjs')
+ assets.add('assets/shared-reader-collections.mjs')
+--- a/edition-pages.py
++++ b/edition-pages.py
+@@ -221,7 +221,8 @@
+         '<section class="section edition-contents collection-contents" aria-label="Find and read poems">'+collection_actions('poems.html','Poems · Kabita Live','collection')+poem_finder+'<div class="finder-summary"><p class="filter-status" id="filter-status" role="status" aria-live="polite" aria-atomic="true"></p><button type="button" id="filter-reset" class="text-link" hidden>Clear search</button></div>'+edition_rows(all_publication_poems,True).replace('<div class="poem-list edition-poem-list">','<div class="poem-list edition-poem-list" id="poem-results">',1)+'<p class="empty" id="empty-results" hidden>No poem found. Try another word, poet or edition, or clear your search.</p>' +'<nav id="poem-pagination" class="poem-pagination" aria-label="Poem results pages" hidden><button type="button" class="btn" id="poems-previous">Previous</button><span id="poems-page" aria-live="polite"></span><button type="button" class="btn" id="poems-next">Next</button></nav><noscript><p>All poems are available below without JavaScript. You can also <a href="archive.html">browse by edition</a>.</p></noscript></section></div>'+collection_reader(all_publication_poems,'assets/reading-all.json'),active='Poems')
+ 
+ # Retain old bookmarks without maintaining a second poem catalogue.
+-(R/'search.html').write_text('''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Find a poem · Kabita Live</title><link rel="canonical" href="poems.html"><script src="assets/search-redirect.js"></script><noscript><meta http-equiv="refresh" content="0;url=poems.html"></noscript></head><body data-pagefind-ignore><p>Browse and search in <a href="poems.html">Poems</a>.</p></body></html>''')
++from ink_voice import favicon_link
++(R/'search.html').write_text('''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Find a poem · Kabita Live</title><link rel="canonical" href="poems.html"><script src="assets/search-redirect.js"></script><noscript><meta http-equiv="refresh" content="0;url=poems.html"></noscript>''' + favicon_link(R) + '''<link rel="stylesheet" href="assets/style.css?revision=browser-font-20261006"></head><body class="site-theme search-redirect" data-pagefind-ignore><script src="assets/appearance.js"></script><main id="main" class="wrap"><h1>Find a poem</h1><p>Browse and search in <a href="poems.html">Poems</a>.</p></main></body></html>''')
+ 
+ # Include source-linked contributors found in editions but absent from the directory capture.
+ extra_writers=[w for w in writer_profiles if w['id'] not in {x['id'] for x in json.loads((R/'data/writer-profiles.json').read_text())}]
+--- a/edition_editorial.py
++++ b/edition_editorial.py
+@@ -11,7 +11,7 @@
+     draft={'or':'ସମ୍ପାଦକୀୟ ଚିଠା · ସମ୍ପାଦକଙ୍କ ସମୀକ୍ଷା ପାଇଁ','en':'Editorial draft · for editor review','hi':'संपादकीय प्रारूप · संपादक की समीक्षा के लिए'}
+     translated={'or':'ଏଠାରେ ଅନୁବାଦ','en':'Excerpt in translation','hi':'अंश का अनुवाद'}
+     links={'or':'ଏହି ପ୍ରସଙ୍ଗର କବିତା','en':'Poems in this passage','hi':'इस प्रसंग की कविताएँ'}
+-    parts=['<link rel="stylesheet" href="assets/edition-editorial.css?v=5"><script defer src="assets/edition-editorial.js?v=2"></script><section class="section edition-editorial" id="edition-editorial" aria-label="Editorial note" tabindex="-1">', '<nav class="editorial-languages" aria-label="Editorial language">']
++    parts=['<link rel="stylesheet" href="assets/edition-editorial.css?v=7"><script defer src="assets/edition-editorial.js?v=2"></script><section class="section edition-editorial" id="edition-editorial" aria-label="Editorial note" tabindex="-1">', '<nav class="editorial-languages" aria-label="Editorial language">']
+     for lang,label in labels.items():parts.append(f'<a href="#editorial-{lang}" lang="{lang}" data-editorial-language="{lang}">{label}</a>')
+     parts.append('</nav>')
+     for lang,v in data['variants'].items():
+--- a/assets/ink-voice.css
++++ b/assets/ink-voice.css
+@@ -0,0 +1,200 @@
++/* Ink & Voice — approved website redesign, 19 October 2026.
++   The legacy stylesheet remains the source of reader behaviour and cover styling. */
++@font-face{font-family:'Newsreader';font-style:normal;font-weight:200 800;font-display:swap;src:url('fonts/Newsreader-Variable.woff2') format('woff2')}
++@font-face{font-family:'Newsreader';font-style:italic;font-weight:200 800;font-display:swap;src:url('fonts/Newsreader-Italic-Variable.woff2') format('woff2')}
++@font-face{font-family:'Literata';font-style:normal;font-weight:200 900;font-display:swap;src:url('fonts/Literata-Variable.woff2') format('woff2')}
++@font-face{font-family:'Literata';font-style:italic;font-weight:200 900;font-display:swap;src:url('fonts/Literata-Italic-Variable.woff2') format('woff2')}
++body.site-theme{
++ --paper:#faf7f7;--panel:#eadde3;--ink:#27222a;--muted:#655a62;
++ --rust:#713b55;--sea:#713b55;--hearth:#655a62;--line:#d4c8cf;--white:#fff;
++ --display:'Newsreader','Noto Serif Oriya','Tiro Devanagari Hindi',Georgia,serif;
++ --serif:'Literata',Georgia,'Noto Serif Oriya','Tiro Devanagari Hindi',serif;
++ --reading:var(--serif);
++ --accent-inverse:#fff;--accent-hover:#542a3e;--view-shadow:#27222a12;
++ font-optical-sizing:auto;color-scheme:light;
++}
++body.site-theme.night{
++ --paper:#211d23;--panel:#342a32;--ink:#f6eef3;--muted:#c8b7c2;
++ --rust:#e2a9c4;--sea:#e2a9c4;--hearth:#c8b7c2;--line:#5e4c58;--white:#292229;
++ --accent-inverse:#211d23;--accent-hover:#efc4d8;--view-shadow:#0003;color-scheme:dark;
++}
++body.site-theme.journal-paper::before{display:none}
++.site-theme .brand-title{color:var(--ink);font-family:var(--display);font-weight:500}
++.site-theme .brand{--masthead-size:2.125rem;font-size:var(--masthead-size)}
++.site-theme .brand-title{font-size:inherit}
++.site-theme .brand-symbol{display:block;width:1.2em;height:1.2em;flex:0 0 1.2em;color:var(--rust);fill:currentColor}
++@media(max-width:760px){.site-theme .brand{--masthead-size:1.875rem}}
++@media(max-width:370px){.site-theme .brand{--masthead-size:1.75rem}}
++.site-theme .btn.solid{background:var(--rust);border-color:var(--rust);color:var(--accent-inverse)}
++.site-theme .btn.solid:hover{background:var(--accent-hover);border-color:var(--accent-hover)}
++.site-theme .author-quote blockquote:lang(en),.site-theme .edition-story h2{font-family:var(--display)}
++.site-theme .home-art>img{outline-color:var(--line)}
++/* Keep type embedded in edition-cover compositions independent of the web masthead. */
++.site-theme .photo-cover .cover-logo .cover-title,.site-theme .magazine-mini-brand{font-family:'Cormorant Garamond',Georgia,serif}
++/* The compact masthead and menu retain their established layout in style.css. */
++/* The approved opening: invitation beside one chosen original-language poem. */
++.site-theme .ink-opening{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.15fr);gap:48px;padding:48px 0;align-items:start}
++.site-theme .ink-invitation{min-width:0;padding:12px 0}
++.site-theme #ink-home-title{font:400 clamp(3rem,5.7vw,4.625rem)/1.04 var(--display);letter-spacing:-.025em;margin:26px 0 24px}
++.site-theme .ink-invitation h1 em{color:var(--rust);font-weight:400}
++.site-theme .ink-home-deck{font:1.1875rem/1.7 var(--serif);color:var(--muted);margin-bottom:24px}
++.site-theme .ink-invitation .btn{gap:14px}
++.site-theme .ink-invitation .home-artistic-mark{width:20px;height:20px;color:inherit}
++.site-theme .ink-issue-note{display:block;font:.8125rem/1.6 var(--ui);color:var(--muted);margin-top:18px}
++.site-theme .ink-feature{min-width:0;background:var(--panel);padding:28px 30px;scroll-margin-top:24px}
++.site-theme #ink-feature-title{font:400 .75rem/1.5 var(--ui);text-transform:uppercase;letter-spacing:.1em}
++.site-theme .ink-language{display:flex;gap:18px;border-bottom:1px solid var(--line);margin:12px 0 24px}
++.site-theme .ink-language button{font:.9375rem/1.6 var(--ui);color:var(--muted);min-width:44px;min-height:44px;padding:6px 0;border-bottom:2px solid transparent}
++.site-theme .ink-language button:lang(or){font-family:var(--odia)}
++.site-theme .ink-language button:lang(hi){font-family:'Tiro Devanagari Hindi',serif}
++.site-theme .ink-language button[aria-pressed=true]{color:var(--rust);border-color:var(--rust)}
++.site-theme .ink-feature .three{display:block}
++.site-theme .ink-feature .language-card{border:0;padding:20px 0 0;min-width:0;background:transparent}
++.site-theme .ink-feature.is-enhanced .language-card{padding:0}
++.site-theme .ink-feature.is-enhanced .language-label{display:none}
++.site-theme .ink-feature .card-identity{display:block;min-height:0}
++.site-theme .ink-feature .card-portrait{display:none}
++.site-theme .ink-feature h3{font-size:2rem;line-height:1.3;margin-bottom:8px;overflow-wrap:anywhere}
++.site-theme .ink-feature h3:lang(or),.site-theme .ink-feature h3:lang(hi){font-size:1.75rem;line-height:1.7}
++.site-theme .ink-feature a.byline{font:.9375rem/1.6 var(--ui);color:var(--muted);min-height:44px;display:inline-flex;align-items:center}
++.site-theme .ink-feature .excerpt{font-size:1.3125rem;line-height:1.85;white-space:pre-line;display:block;max-height:none;height:auto;overflow:visible;-webkit-line-clamp:unset;margin:20px 0;min-height:0}
++.site-theme .ink-feature .text-link{color:var(--rust)}
++.site-theme .ink-current-edition{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,360px);gap:clamp(24px,6vw,80px);align-items:center;padding:48px 0;border-block:1px solid var(--line)}
++.site-theme .ink-edition-copy{min-width:0;max-width:600px}
++.site-theme #ink-edition-title{font-size:clamp(2.5rem,4.5vw,4rem);line-height:1.1;margin:18px 0 12px}
++.site-theme .ink-edition-meta{color:var(--muted);font-size:1rem;margin-bottom:28px}
++.site-theme .ink-edition-copy h3{font:500 clamp(1.75rem,2.5vw,2.25rem)/1.2 var(--display);margin-bottom:16px}
++.site-theme .ink-edition-story{font:1.1875rem/1.75 var(--serif);margin-bottom:28px}
++.site-theme .ink-edition-cover{min-width:0;width:100%;max-width:360px;justify-self:center}
++.site-theme .ink-edition-cover .magazine-cover-link{display:block;width:100%}
++.site-theme .home-refined>.section{padding-block:44px}
++.site-theme .home-editor-grid{padding-top:10px}
++@media(max-width:760px){
++ .site-theme .ink-opening{grid-template-columns:minmax(0,1fr);gap:28px;padding:28px 0 32px}
++ .site-theme .ink-invitation{padding:0}
++ .site-theme #ink-home-title{font-size:clamp(2.875rem,9vw,4rem);margin:20px 0}
++ .site-theme .ink-feature{padding:24px 20px}
++ .site-theme .ink-feature h3{font-size:1.875rem}
++ .site-theme .ink-feature .excerpt{font-size:1.25rem}
++ .site-theme .ink-current-edition{grid-template-columns:minmax(0,1fr);gap:32px;padding:32px 0}
++ .site-theme .ink-edition-cover{max-width:280px}
++ .site-theme .ink-edition-story{font-size:1.125rem}
++ .site-theme .home-refined>.section{padding-block:32px}
++}
++@media print{
++ body.site-theme,body.site-theme.night{--paper:#fff;--ink:#27222a;--muted:#655a62;--panel:#fff;--rust:#713b55;--sea:#713b55;--line:#d4c8cf;--accent-inverse:#fff;background:#fff;color:#27222a;color-scheme:light}
++ .site-theme .site-header .nav,.site-theme .site-header .menu,.site-theme .ink-language{display:none}
++ .site-theme .ink-opening,.site-theme .ink-current-edition{display:block}
++ .site-theme .ink-feature{margin-top:24px}
++}
++
++/* Ink & Voice reading room: the same journal, with space for the poem. */
++.site-theme #focus-reader{background:var(--panel)}
++.site-theme .focus-top,.site-theme .focus-bottom{width:min(100%,1360px);align-self:center;padding-inline:24px}
++.site-theme .focus-top{border-bottom:1px solid var(--line);min-height:64px}
++.site-theme .focus-journal{margin:0 auto 0 28px;font:500 1.5rem/1 var(--display);color:var(--ink)}
++.site-theme .focus-journal span{display:inline-block;margin-left:16px;font:.75rem/1.4 var(--ui);color:var(--muted)}
++.site-theme #focus-pages{padding:24px;gap:1px}
++.site-theme .focus-page{padding:32px 40px 0;border-radius:0;box-shadow:none;background:var(--paper);font-weight:400}
++.site-theme .focus-page+.focus-page{padding-left:40px;box-shadow:none;border:0}
++.site-theme .focus-page::before{opacity:.025}
++.site-theme .focus-page h1{font-weight:500;letter-spacing:-.015em}
++.site-theme .focus-title:lang(or) h1,.site-theme .focus-title:lang(hi) h1{font-weight:400;letter-spacing:normal}
++.site-theme .focus-author{margin-bottom:22px;line-height:1.6}
++.site-theme .focus-folio{min-height:40px;padding:12px 0;color:var(--rust);font-variant-numeric:tabular-nums}
++.site-theme .focus-bottom{min-height:64px;padding-top:0}
++.site-theme #focus-progress{color:var(--ink);font-variant-numeric:tabular-nums}
++.site-theme :is(.focus-top,.focus-bottom) button{border-radius:3px;color:var(--ink)}
++.site-theme :is(.focus-top,.focus-bottom) button:hover:not(:disabled){background:color-mix(in srgb,var(--rust) 9%,transparent)}
++.site-theme .focus-language-icons button[aria-pressed=true]{background:var(--paper);color:var(--rust)}
++.site-theme #focus-bookmark[aria-pressed=true]{color:var(--rust);background:var(--paper)}
++.site-theme #focus-settings{top:68px;right:max(16px,calc((100% - 1312px)/2));width:360px;padding:20px;border-top:3px solid var(--rust);box-shadow:0 12px 40px var(--view-shadow)}
++.site-theme #focus-settings label{font-size:.8125rem}
++.site-theme #focus-settings :is(summary,.focus-original-language){min-height:44px;align-content:center}
++.site-theme #focus-settings :is(select,input[type=search]){border-color:var(--muted)}
++.site-theme #focus-reader :is(button,input,select,summary):focus-visible{outline:2px solid var(--rust);outline-offset:2px}
++.site-theme #focus-pages:focus-visible{outline:2px solid var(--rust);outline-offset:-4px}
++.site-theme #focus-selection-tools{border-color:var(--rust);box-shadow:0 6px 22px var(--view-shadow)}
++/* The ordinary poem page shares the reading room's quiet control rail. */
++.site-theme.poem-page .poem-toolbar{padding-block:8px;border-block:1px solid var(--line)}
++.site-theme.poem-page .poem-toolbar [aria-selected=true]{background:var(--panel)}
++.site-theme.poem-page #page-bookmarks{border-top:3px solid var(--rust);box-shadow:0 12px 40px var(--view-shadow)}
++@media(min-width:1000px) and (min-height:500px){
++ .site-theme .focus-page{padding-inline:48px}
++ .site-theme .focus-page+.focus-page{padding-left:48px}
++}
++@media(max-width:900px){.site-theme .focus-journal{display:none}}
++@media(max-width:600px){
++ .site-theme .focus-top,.site-theme .focus-bottom{padding-inline:12px;min-height:60px}
++ .site-theme #focus-pages{padding:8px 8px 0}
++ .site-theme .focus-page{padding:20px 20px 0}
++ .site-theme .focus-folio{min-height:32px;padding:8px 0}
++ .site-theme #focus-settings{top:64px;padding:16px}
++}
++@media(max-width:360px){
++ .site-theme .focus-top{padding-inline:4px}
++ .site-theme #focus-pages{padding-inline:0}
++ .site-theme .focus-page{padding-inline:16px}
++}
++@media(max-height:499px){
++ .site-theme .focus-top,.site-theme .focus-bottom{min-height:48px;padding-block:2px}
++ .site-theme #focus-pages{padding-block:4px}
++ .site-theme .focus-page{padding-top:16px}
++ .site-theme #focus-settings{top:50px;max-height:calc(100% - 56px)}
++}
++
++/* Aqua keeps the water distinct within the original leaf-and-stream mark. */
++body.site-theme{--logo-water:#327e80}
++body.site-theme.night{--logo-water:#8ecac9}
++
++/* Approved audit: reuse the original ornament geometry as a themed alpha mask. */
++.site-theme :is(.page-head,.page-head-copy,.author-profile-opening>div:first-child,.archive-opening>div,.poets-opening>div:first-child,.submission-opening>div)::after,
++.site-theme :is(.current-edition,.artistic-edition) .edition-story::before,
++.site-theme .focus-title.after-poem::before,
++.site-theme .edition-contents-separator{
++ background:var(--rust);
++ -webkit-mask:url('poetic-waterline.svg') left center/100% 100% no-repeat;
++ mask:url('poetic-waterline.svg') left center/100% 100% no-repeat;
++}
++.site-theme .header-separator>svg path[fill]{fill:var(--rust)}
++.site-theme .header-separator>svg path[stroke="#78643A"]{stroke:var(--rust)}
++
++/* The wash stays inside the empty outer margin; text retains a flat panel. */
++.site-theme .ink-feature{position:relative;isolation:isolate}
++.site-theme .ink-feature::before{
++ content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
++ background:radial-gradient(ellipse at 0 25%,color-mix(in srgb,var(--rust) 16%,transparent),transparent 68%) left/12px 100% no-repeat,
++ radial-gradient(ellipse at 100% 85%,color-mix(in srgb,var(--rust) 10%,transparent),transparent 70%) right/10px 100% no-repeat;
++}
++@media print{
++ .site-theme .ink-feature::before{display:none}
++ .site-theme .edition-contents-separator,.site-theme .focus-title.after-poem::before{background:none;mask:none;-webkit-mask:none}
++}
++.site-theme .brand-symbol .logo-water{fill:var(--logo-water)}
++
++/* Shared overlays and redirect fallback belong to the same web palette. */
++body.site-theme{--scrim:#27222aaa}
++.site-theme dialog::backdrop,.site-theme .app-drawer::backdrop{background:var(--scrim)}
++.site-theme #share-card .brand-symbol{width:28px;height:28px}
++.site-theme .turn-fold-paper{filter:drop-shadow(8px 3px 10px var(--view-shadow))}
++.site-theme.search-redirect main{padding-block:40px}
++/* Text enlargement may add rows; keep words and the Original badge intact. */
++.site-theme .masthead{flex-wrap:wrap}
++.site-theme .brand-title{overflow-wrap:normal}
++.site-theme .poem-toolbar,.site-theme .focus-top{flex-wrap:wrap}
++.site-theme.poem-page .poem-language-front .reading-tabs [data-reading-language="original"],
++.site-theme .focus-language-icons [data-focus-language="original"]{
++ min-width:max(44px,2.75rem);min-height:max(44px,2.75rem);flex-basis:max(44px,2.75rem)
++}
++
++/* Approved solid Original badge: keep mulberry/white in both themes. */
++.site-theme .focus-language-icons .original-label,
++.site-theme.poem-page .reading-tabs button .original-label{
++ background:#713b55;color:#fff;border-color:#713b55;
++ width:100%;padding-inline:0;letter-spacing:0;text-align:center;
++}
++/* Align narrow poem tools to the text gutter; keep each group intact. */
++.site-theme.poem-page .poem-toolbar{margin-inline:0}
++@media(max-width:351px){
++ .site-theme.poem-page .poem-toolbar .poem-actions::before{display:none}
++}
+--- a/assets/edition-editorial.css
++++ b/assets/edition-editorial.css
+@@ -5,7 +5,7 @@
+ .editorial-languages a:focus-visible{outline:2px solid var(--rust);outline-offset:3px}
+ .editorial-prose[hidden]{display:none}
+ .editorial-prose{scroll-margin-top:24px;font-family:var(--serif)}
+-#main .editorial-prose h2{font:600 clamp(1.875rem,4vw,2.75rem)/1.4 var(--serif);margin:12px 0}
++#main .editorial-prose h2{font:600 clamp(1.875rem,4vw,2.75rem)/1.4 var(--display,var(--serif));margin:12px 0}
+ #main .editorial-prose:lang(or) h2{font-family:'Noto Serif Oriya',serif}
+ #main .editorial-prose:lang(hi) h2{font-family:'Tiro Devanagari Hindi',serif}
+ .editorial-prose p{font-size:1.3125rem;line-height:1.85;margin:22px 0;overflow-wrap:break-word}
+@@ -14,6 +14,7 @@
+ .editorial-prose .editorial-status{font-size:0.875rem;color:var(--muted);margin:8px 0 28px}
+ .editorial-excerpt{margin:28px 0;padding:4px 0 4px 24px;border:0}
+ .editorial-excerpt blockquote{margin:0;padding:0;border:0}
++.editorial-excerpt blockquote:lang(en){font-family:var(--serif)}
+ .editorial-excerpt blockquote p{margin:8px 0}
+ .editorial-excerpt .excerpt-translation{font-size:1.1875rem;margin:12px 0}
+ .editorial-excerpt small,.editorial-excerpt figcaption,.editorial-prose .editorial-poem-links{font:0.875rem/1.7 var(--ui);color:var(--muted)}
+--- a/assets/poem-experience.css
++++ b/assets/poem-experience.css
+@@ -380,3 +380,23 @@
+ .poem-page .poem-toolbar .poem-actions::before{content:"";position:absolute;left:-7px;top:12px;height:20px;width:1px;background:var(--line);pointer-events:none}
+ .poem-page .poem-toolbar .reading-tabs{margin:0;padding:0}
+ @media(max-width:360px){.poem-page .poem-toolbar{gap:4px;margin-inline:-16px}.poem-page .poem-toolbar .poem-actions::before{left:-3px}}
++
++/* The original is a distinct choice with a small interface-font badge.
++   Its language symbol shares the other two controls' size and baseline. */
++.poem-page .poem-language-front .reading-tabs [data-reading-language="original"],
++.focus-language-icons [data-focus-language="original"]{
++ position:relative;display:inline-flex;justify-content:center;align-items:center;
++ width:44px;flex:0 0 44px;padding:4px;
++}
++.original-label,.poem-page .reading-tabs button .original-label{
++ position:absolute;top:-3px;left:50%;transform:translateX(-50%);z-index:1;
++ font:600 .53125rem/1.05 var(--ui);letter-spacing:.015em;text-transform:uppercase;
++ white-space:nowrap;padding:1px 2px;border:1px solid var(--line);border-radius:2px;
++ color:var(--rust);background:var(--paper);
++}
++.original-language,.poem-page .reading-tabs button .original-language{font:inherit;line-height:inherit;color:inherit}
++.original-language:lang(or){font-family:var(--odia)}
++.original-language:lang(hi){font-family:'Tiro Devanagari Hindi',serif}
++.focus-language-icons [hidden]{display:none!important}
++
++.focus-title .focus-version{font:.75rem/1.5 var(--ui);color:var(--muted);margin:8px 0 16px}
+--- a/assets/poem-experience.js
++++ b/assets/poem-experience.js
+@@ -3,6 +3,7 @@
+ import {normalized,subtract} from './poem-marks.mjs?v=2';
+ import {packReadingPages} from './reader-pagination.mjs?v=1';
+ import {readerKeyAction,createReaderFullscreen} from './reader-controls.mjs?v=1';
++import {readingCode,poemChoice,readerChoices,versionLabel,readingPosition,languageNames,languageGlyphs} from './reader-language.mjs';
+ (()=>{
+ 'use strict';
+ const $=s=>document.querySelector(s), query=new URLSearchParams(location.search);
+@@ -25,7 +26,6 @@
+ const previous=$('#focus-prev'),next=$('#focus-next'),progress=$('#focus-progress');
+ let poemIndex=0,language='original',pageIndex=0,pages=[],units=[],spread=1,returnFocus,returnScroll=0;
+ let savedKey='kabita-live-quiet-reader-v1:'+ (dataset.url||pageData.id);
+-const languageNames={or:'Odia',hi:'Hindi',en:'English'};
+ const fullscreenButtons=[...dialog.querySelectorAll('[data-reader-fullscreen]')];
+ const fullscreen=createReaderFullscreen({document,root:document.documentElement,isOpen:()=>dialog.open,
+  announce:message=>{$('#focus-announcement').textContent=message},
+@@ -110,10 +110,10 @@
+ }
+ readOne.addEventListener('click',()=>startCollection(true));readAll.addEventListener('click',()=>startCollection(false));
+ 
+-function chosen(index=poemIndex){const p=poems[index];return language==='original'||!p.variants[language]?p.source_language:language}
++function chosen(index=poemIndex){return readingCode(poems[index],language)}
+ function unitNode(unit,measuring=false){
+  const p=poems[unit.poemIndex],v=p.variants[unit.code];
+- if(unit.type==='title'){const group=document.createElement('div'),title=document.createElement('h1'),by=document.createElement('p');group.className='focus-title'+(unit.poemIndex>0?' after-poem':'');group.lang=unit.code;group.dataset.poemId=p.id;title.textContent=v.title;by.className='focus-author';if(p.portrait){const portrait=document.createElement(measuring?'span':'img');if(!measuring){portrait.src=p.portrait;portrait.alt='';portrait.width=44;portrait.height=44}portrait.className='focus-poet-portrait';by.append(portrait)}const name=document.createElement('span');name.textContent=p.author;by.append(name);group.append(title,by);if(showIllustrations&&p.illustration){const art=document.createElement(measuring?'div':'img');art.className='focus-illustration';if(!measuring){art.src=p.illustration.src;art.alt=p.illustration.alt;art.width=p.illustration.width;art.height=p.illustration.height;art.decoding='async'}group.append(art)}if(p.availability){const note=document.createElement('p');note.className='page-tools-tip';note.textContent=p.availability;group.append(note)}return group;}
++ if(unit.type==='title'){const group=document.createElement('div'),title=document.createElement('h1'),by=document.createElement('p');group.className='focus-title'+(unit.poemIndex>0?' after-poem':'');group.lang=unit.code;group.dataset.poemId=p.id;title.textContent=v.title;by.className='focus-author';if(p.portrait){const portrait=document.createElement(measuring?'span':'img');if(!measuring){portrait.src=p.portrait;portrait.alt='';portrait.width=44;portrait.height=44}portrait.className='focus-poet-portrait';by.append(portrait)}const name=document.createElement('span');name.textContent=p.author;by.append(name);group.append(title,by);const version=document.createElement('p');version.className='focus-version';version.lang='en';version.textContent=versionLabel(p,unit.code);group.append(version);if(showIllustrations&&p.illustration){const art=document.createElement(measuring?'div':'img');art.className='focus-illustration';if(!measuring){art.src=p.illustration.src;art.alt=p.illustration.alt;art.width=p.illustration.width;art.height=p.illustration.height;art.decoding='async'}group.append(art)}if(p.availability){const note=document.createElement('p');note.className='page-tools-tip';note.textContent=p.availability;group.append(note)}return group;}
+  const line=document.createElement('div');line.className='focus-line'+(unit.stanza?' stanza-start':'');line.lang=unit.code;line.dataset.unit=unit.index;
+  line.dataset.poemIndex=unit.poemIndex;line.dataset.poemId=p.id;line.dataset.language=unit.code;line.dataset.sourceLine=unit.sourceLine;line.dataset.start=unit.start;
+  let cursor=0;for(const m of readMarks(unit.poemIndex,unit.code).filter(m=>m.line===unit.sourceLine)){
+@@ -123,7 +123,7 @@
+  if(unit.endMark){const mark=document.createElement('span');mark.className='poem-closing-mark';mark.dataset.endMark=p.end_mark;mark.setAttribute('aria-hidden','true');line.append(mark)}
+  return line;
+ }
+-function currentPosition(){return pages[pageIndex]?.[0]||{poemIndex,index:-1,code:chosen()}}
++function currentPosition(){return readingPosition(pages.slice(pageIndex,pageIndex+spread).flat(),poemIndex)||{poemIndex,index:-1,code:chosen()}}
+ function save(){const at=currentPosition();writeJSON(savedKey,{id:poems[at.poemIndex].id,language,unit:at.index})}
+ function currentUnit(){return currentPosition().index}
+ function paginate(anchor=-1){
+@@ -161,8 +161,20 @@
+ function render(){
+  cancelPaperTurn();
+  const visible=pages.slice(pageIndex,pageIndex+spread).flat();
+- poemIndex=visible[0]?.poemIndex??0;$('#focus-poem').value=String(poemIndex);
+- for(const button of document.querySelectorAll('[data-focus-language]')){const code=button.dataset.focusLanguage;button.disabled=code!=='original'&&!poems.some(p=>p.variants[code]);button.setAttribute('aria-pressed',String(code==='original'?language==='original':code===(language==='original'?chosen():language)));}
++ // When a new poem begins below a preceding poem's tail, its heading supplies
++ // the context for the three choices. Each opening also names its own source.
++ poemIndex=(visible.find(unit=>unit.type==='title')||visible[0])?.poemIndex??0;$('#focus-poem').value=String(poemIndex);
++ const choices=readerChoices(poems[poemIndex],language);
++ for(const button of document.querySelectorAll('[data-focus-language]')){
++  const choice=choices.find(item=>item.choice===button.dataset.focusLanguage);button.hidden=!choice;
++  button.setAttribute('aria-pressed',String(!!choice?.selected));
++  if(!choice)continue;
++  button.disabled=!choice.available;button.lang=choice.code;
++  const label=choice.original?'Original · '+languageNames[choice.code]:languageNames[choice.code]+' translation'+(choice.available?'':' unavailable');
++  button.setAttribute('aria-label',label);button.title=label;
++  button.querySelector('.focus-language-tip').textContent=label;
++  if(choice.original){const name=button.querySelector('.original-language');name.textContent=languageGlyphs[choice.code];name.lang=choice.code;}
++ }
+  [...area.children].forEach((slot,i)=>{const content=slot.querySelector('.focus-page-content'),folio=slot.querySelector('.focus-folio');content.replaceChildren();const pg=pages[pageIndex+i];slot.setAttribute('aria-label',pg?`Page ${pageIndex+i+1} of ${pages.length}`:'End of collection');slot.classList.toggle('focus-empty',!pg);if(pg)pg.forEach(u=>content.append(unitNode(u)));folio.textContent=pg?String(pageIndex+i+1):'';content.scrollTop=0});
+  const end=Math.min(pageIndex+spread,pages.length);
+  progress.textContent=`${pageIndex+1}${end>pageIndex+1?'–'+end:''} / ${pages.length}`;
+@@ -204,7 +216,7 @@
+  event.preventDefault();openReader();
+ }));$('#close-focus').addEventListener('click',closeReader);
+ dialog.addEventListener('close',()=>{fullscreen.leave();cancelPaperTurn();save();document.body.style.overflow='';window.scrollTo(0,returnScroll);returnFocus?.focus({preventScroll:true})});
+-$('#focus-settings-button').addEventListener('click',()=>{settings.hidden=!settings.hidden;$('#focus-settings-button').setAttribute('aria-expanded',String(!settings.hidden));if(!settings.hidden){clearSelection();renderSaved();settings.querySelector('[data-focus-language=original]').focus();settings.scrollTop=0}});
++$('#focus-settings-button').addEventListener('click',()=>{settings.hidden=!settings.hidden;$('#focus-settings-button').setAttribute('aria-expanded',String(!settings.hidden));if(!settings.hidden){clearSelection();renderSaved();$('#focus-poem').focus();settings.scrollTop=0}});
+ function dismissQuietSettings(restoreFocus=false){
+  const hadFocus=settings.contains(document.activeElement);
+  settings.hidden=true;$('#focus-settings-button').setAttribute('aria-expanded','false');
+@@ -392,7 +404,7 @@
+ }
+ window.addEventListener('resize',placePageMenu);
+ $('#page-saved-details').addEventListener('toggle',placePageMenu);
+-function jumpPage(code,line){$(`[data-reading-language="${code}"]`).click();closeSavedPage();const target=pageVerse.querySelector(`[data-line="${line}"]`);if(target){target.tabIndex=-1;target.scrollIntoView({block:'center',behavior:'auto'});target.focus({preventScroll:true})}}
++function jumpPage(code,line){$(`[data-reading-language="${poemChoice(pageData,code)}"]`).click();closeSavedPage();const target=pageVerse.querySelector(`[data-line="${line}"]`);if(target){target.tabIndex=-1;target.scrollIntoView({block:'center',behavior:'auto'});target.focus({preventScroll:true})}}
+ function renderPageSaved(){
+  const list=$('#page-saved-list');list.replaceChildren();const current=pageBooks().find(b=>b.language===pageCode());$('#page-save-place').textContent=current?'Remove bookmark':'Bookmark this poem';
+  function row(label,detail,go,remove){const node=document.createElement('div'),button=document.createElement('button'),del=document.createElement('button');node.className='focus-saved-row';button.textContent=label;button.setAttribute('aria-label',label+' · '+detail);button.onclick=go;del.textContent='×';del.setAttribute('aria-label','Remove '+detail);del.onclick=()=>{remove();renderPageSaved();refreshSavedButton()};node.append(button,del);list.append(node)}
+@@ -417,5 +429,5 @@
+ document.querySelector('[data-share]').addEventListener('click',()=>closeSavedPage(),true);
+ }
+ initPageTools();
+-window.addEventListener('load',()=>{const requested=query.get('lang'),code=requested==='original'?pageData.source_language:requested;if(['or','hi','en'].includes(code))$(`[data-reading-language="${code}"]`)?.click();if(query.get('focus')==='1')openReader()});
++window.addEventListener('load',()=>{const requested=query.get('lang'),code=poemChoice(pageData,requested);if(['original','or','hi','en'].includes(code))$(`[data-reading-language="${code}"]`)?.click();if(query.get('focus')==='1')openReader()});
+ })();
+--- a/assets/poem-reader.js
++++ b/assets/poem-reader.js
+@@ -1,4 +1,5 @@
+ import {getNativeStore} from './shared-reader-storage.mjs';
++import {poemChoice} from './reader-language.mjs';
+ import {snap as snapRange, normalized as normalizeRanges, subtract, poemMarkKey, stanzaLines} from "./poem-marks.mjs?v=2";
+ (()=>{
+ 'use strict';
+@@ -52,6 +53,7 @@
+  save(markKey(),marks);document.dispatchEvent(new CustomEvent('poem-marks-changed'));pending=[];selectionBar.hidden=true;window.getSelection()?.removeAllRanges();drawMarks();
+ }
+ function render(choice){
++ if(tabs.some(t=>t.dataset.readingLanguage==='original'))choice=poemChoice(data,choice);
+  if(choice==='original'&&!tabs.some(t=>t.dataset.readingLanguage==='original'))choice=data.source_language;
+  const code=choice==='original'?data.source_language:choice;if(!data.variants[code])return;
+  pending=[];selectionBar.hidden=true;language=code;
+--- a/assets/home-featured.js
++++ b/assets/home-featured.js
+@@ -1,28 +1,58 @@
+-// Advance once per India calendar day. No randomness, storage or remote requests.
+-const DAY=86400000,IST_OFFSET=19800000;
+-export function editionDay(date,anchor){
+- const instant=new Date(date).getTime(),start=Date.parse(anchor+'T00:00:00Z');
+- if(!Number.isFinite(instant)||!Number.isFinite(start))return 0;
+- return Math.max(0,Math.floor((instant+IST_OFFSET)/DAY)-Math.floor(start/DAY));
+-}
+-export function dailySelection(groups,date,anchor){
+- const day=editionDay(date,anchor);
++// Choose a fresh original on each document load, then keep the reading session still.
++const STORAGE_KEY='kabita.home-featured-poems.v1';
++export function visitSelection(groups,previous=[],random=Math.random){
+  return ['or','hi','en'].flatMap(lang=>{
+   const items=groups[lang]||[];
+-  return items.length?[items[day%items.length]]:[];
++  if(!items.length)return [];
++  const last=items.findIndex(id=>previous.includes(id));
++  const next=last<0?Math.floor(random()*items.length):(last+1)%items.length;
++  return [items[next]];
+  });
+ }
+-export function renderDailyFeatures(doc,date=new Date()){
++export function renderVisitFeatures(doc,storage,random=Math.random){
+  const target=doc.querySelector('#daily-featured-poems'),pool=doc.querySelector('#featured-poem-pool');
+  if(!target||!pool)return [];
+- const groups={or:[],hi:[],en:[]};
++ const groups={or:[],hi:[],en:[]},templates=new Map();
+  for(const template of pool.querySelectorAll('template[data-featured-language]')){
+-  groups[template.dataset.featuredLanguage]?.push(template);
++  const group=groups[template.dataset.featuredLanguage];
++  if(group){group.push(template.dataset.poemId);templates.set(template.dataset.poemId,template);}
+  }
+- const selected=dailySelection(groups,date,target.dataset.rotationStart);
++ if(storage===undefined){try{storage=globalThis.sessionStorage;}catch{}}
++ let previous=[];
++ try{
++  const saved=JSON.parse(storage?.getItem(STORAGE_KEY)||'null');
++  if(saved?.edition===target.dataset.edition&&Array.isArray(saved.poems))previous=saved.poems;
++ }catch{}
++ const selected=visitSelection(groups,previous,random);
+  if(!selected.length)return [];
+- target.replaceChildren(...selected.map(template=>template.content.cloneNode(true)));
+- return selected.map(template=>template.dataset.poemId);
++ target.replaceChildren(...selected.map(id=>templates.get(id).content.cloneNode(true)));
++ try{storage?.setItem(STORAGE_KEY,JSON.stringify({edition:target.dataset.edition,poems:selected}));}catch{}
++ return selected;
+ }
+-// Keep an open reading session still; next visit/reload uses the new India date.
+-if(typeof document!=='undefined')renderDailyFeatures(document);
++export function enhanceFeaturedLanguages(doc){
++ const feature=doc.querySelector('.ink-feature'),target=doc.querySelector('#daily-featured-poems');
++ if(!feature||!target)return;
++ const picker=feature.querySelector('.ink-language');
++ if(!picker)return;
++ const cards=[...target.querySelectorAll('[data-featured-poem]')];
++ const buttons=[...picker.querySelectorAll('[data-feature-language]')];
++ if(!cards.length)return;
++ const available=new Set(cards.map(card=>card.dataset.lang));
++ const choose=lang=>{
++  for(const card of cards)card.hidden=card.dataset.lang!==lang;
++  for(const button of buttons)button.setAttribute('aria-pressed',String(button.dataset.featureLanguage===lang));
++ };
++ for(const button of buttons){
++  button.hidden=!available.has(button.dataset.featureLanguage);
++  button.addEventListener('click',()=>choose(button.dataset.featureLanguage));
++ }
++ choose(available.has('en')?'en':cards[0].dataset.lang);
++ feature.classList.add('is-enhanced');
++ picker.hidden=available.size<2;
++ target.setAttribute('aria-live','polite');
++}
++// No timer or automatic replacement while reading; back/forward may restore its saved document.
++if(typeof document!=='undefined'){
++ renderVisitFeatures(document);
++ enhanceFeaturedLanguages(document);
++}
+--- a/assets/app.js
++++ b/assets/app.js
+@@ -76,7 +76,7 @@
+ let selected=null,shareTrigger=null;const dialog=$('#share-dialog');
+ dialog?.addEventListener('close',()=>shareTrigger?.focus({preventScroll:true}));
+ const shareContext=p=>p&&!p.kind?{contentId:'kbl:'+p.id,language:p.readingLanguage||p.lang}:null;
+-$$('[data-share],[data-share-collection]').forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.shareCollection?JSON.parse(b.dataset.shareCollection):poems.find(p=>String(p.id)===b.dataset.share);if(!selected)return;shareTrigger=b;const reading=JSON.parse($('#reading-data')?.textContent||'null'),code=$('#experience-verse')?.lang;if(reading?.id===selected.id&&reading.variants[code])selected={...selected,title:reading.variants[code].title,author:reading.author||selected.author,lang:code,readingLanguage:code};const collection=!!selected.kind;$('#share-heading').textContent=collection?'Let poetry travel.':'Let a poem travel.';dialog.querySelector('.small.muted').textContent=collection?'Share this '+(selected.kind==='edition'?'edition':'collection')+' with another reader.':'Share the poem with its title and poet intact.';dialog.querySelector('label[for="share-url"]').textContent=collection?'Reading link':'Poem link';const url=poemURL(selected);$('#share-url').value=url;$('#share-status').textContent='';const card=$('#share-card');card.replaceChildren();const image=document.createElement('img');image.src='assets/kabita-live-symbol.svg';image.alt='';const title=document.createElement('h3');title.textContent=selected.title;title.lang=selected.lang;title.className=selected.lang;const by=document.createElement('p');by.textContent=selected.author+(selected.issue?' · Issue '+selected.issue:'');const brand=document.createElement('p');brand.textContent='କବିତା ଲାଇଭ. · Kabita Live';const signature=document.createElement('p');signature.textContent='ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର';signature.lang='or';signature.className='signature';card.append(image,title,by,brand,signature);$('#whatsapp').href='https://wa.me/?text='+encodeURIComponent(selected.title+' — '+selected.author+'\n'+url);$('#facebook').href='https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(url);$('#native-share').hidden=!navigator.share;dialog.showModal();}));
++$$('[data-share],[data-share-collection]').forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.shareCollection?JSON.parse(b.dataset.shareCollection):poems.find(p=>String(p.id)===b.dataset.share);if(!selected)return;shareTrigger=b;const reading=JSON.parse($('#reading-data')?.textContent||'null'),code=$('#experience-verse')?.lang;if(reading?.id===selected.id&&reading.variants[code])selected={...selected,title:reading.variants[code].title,author:reading.author||selected.author,lang:code,readingLanguage:code};const collection=!!selected.kind;$('#share-heading').textContent=collection?'Let poetry travel.':'Let a poem travel.';dialog.querySelector('.small.muted').textContent=collection?'Share this '+(selected.kind==='edition'?'edition':'collection')+' with another reader.':'Share the poem with its title and poet intact.';dialog.querySelector('label[for="share-url"]').textContent=collection?'Reading link':'Poem link';const url=poemURL(selected);$('#share-url').value=url;$('#share-status').textContent='';const card=$('#share-card');card.replaceChildren();const image=document.querySelector('.brand-symbol')?.cloneNode(true)||document.createElement('img');if(image.tagName.toLowerCase()==='img'){image.src='assets/kabita-live-symbol-ink-voice.svg';image.alt='';}image.setAttribute('aria-hidden','true');const title=document.createElement('h3');title.textContent=selected.title;title.lang=selected.lang;title.className=selected.lang;const by=document.createElement('p');by.textContent=selected.author+(selected.issue?' · Issue '+selected.issue:'');const brand=document.createElement('p');brand.textContent='କବିତା ଲାଇଭ. · Kabita Live';const signature=document.createElement('p');signature.textContent='ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର';signature.lang='or';signature.className='signature';card.append(image,title,by,brand,signature);$('#whatsapp').href='https://wa.me/?text='+encodeURIComponent(selected.title+' — '+selected.author+'\n'+url);$('#facebook').href='https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(url);$('#native-share').hidden=!navigator.share;dialog.showModal();}));
+ dialog?.addEventListener('keydown',event=>{if(event.key!=='Tab')return;const targets=[...dialog.querySelectorAll('a[href],button,input,select,textarea,[tabindex="0"]')].filter(el=>!el.disabled&&!el.hidden&&el.getClientRects().length);const first=targets[0],last=targets.at(-1);if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();}else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}});
+ $('[data-close]')?.addEventListener('click',()=>dialog.close());dialog?.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
+ async function copy(text,success){const context=shareContext(selected);try{await navigator.clipboard.writeText(text);$('#share-status').textContent=success;if(context&&!success.startsWith('Caption'))window.kabitaAnalytics?.track('copy_link_complete',context);}catch{$('#share-status').textContent='Select the text below and copy it.';$('#share-url').value=text;$('#share-url').focus();$('#share-url').select();}}
+--- a/templates/quiet-reader.html
++++ b/templates/quiet-reader.html
+@@ -1,8 +1,7 @@
+ <dialog id="focus-reader" aria-label="Quiet poetry reader">
+  <div class="focus-shell">
+-  <header class="focus-top"><button id="close-focus" aria-label="Exit reading mode">← <span>Exit reading</span></button><div class="focus-top-tools"><div class="focus-language-icons" role="group" aria-label="Reader language"><button type="button" data-focus-language="or" lang="or" aria-label="Read in Odia" title="ଓଡ଼ିଆ" aria-pressed="false">ଅ<span class="focus-language-tip" aria-hidden="true">ଓଡ଼ିଆ</span></button><button type="button" data-focus-language="hi" lang="hi" aria-label="Read in Hindi" title="हिन्दी" aria-pressed="false">अ<span class="focus-language-tip" aria-hidden="true">हिन्दी</span></button><button type="button" data-focus-language="en" lang="en" aria-label="Read in English" title="English" aria-pressed="false">A<span class="focus-language-tip" aria-hidden="true">English</span></button></div><button id="focus-bookmark" aria-label="Bookmark this page" aria-pressed="false" title="Bookmark this page"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6 3.5h12v17l-6-4-6 4z"/></svg></button><button type="button" id="focus-fullscreen" data-reader-fullscreen aria-label="Enter full screen" title="Enter full screen (F)" aria-keyshortcuts="f" aria-pressed="false" hidden><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5"/></svg><span class="focus-fullscreen-label sr-only">Enter full screen</span></button><button type="button" id="focus-theme-toggle" class="appearance-toggle" data-theme-toggle aria-label="Theme: System. Switch to Light." title="Theme: System. Switch to Light." data-theme="system" hidden><svg class="theme-system" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="1.5"/><path d="M9 21h6m-3-4v4"/></svg><svg class="theme-moon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.3 14.4A8.7 8.7 0 0 1 9.6 3.7 8.7 8.7 0 1 0 20.3 14.4Z"/></svg><svg class="theme-sun" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4L19 5"/></svg><span class="appearance-label">Theme: System</span></button><button id="focus-settings-button" aria-expanded="false" aria-controls="focus-settings" aria-label="Reading settings" title="Reading settings"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 6H20M4 12H20M4 18H16"/></svg></button></div></header>
++  <header class="focus-top"><button id="close-focus" aria-label="Exit reading mode">← <span>Exit reading</span></button><p class="focus-journal" aria-hidden="true">Kabita Live <span>Quiet reading</span></p><div class="focus-top-tools"><div class="focus-language-icons" role="group" aria-label="Reader language"><button type="button" data-focus-language="original" aria-label="Original" aria-pressed="true"><span class="original-label" lang="en">Original</span><span class="original-language"></span><span class="focus-language-tip" aria-hidden="true">Original</span></button><button type="button" data-focus-language="or" lang="or" aria-label="Read in Odia" title="ଓଡ଼ିଆ" aria-pressed="false">ଅ<span class="focus-language-tip" aria-hidden="true">ଓଡ଼ିଆ</span></button><button type="button" data-focus-language="hi" lang="hi" aria-label="Read in Hindi" title="हिन्दी" aria-pressed="false">अ<span class="focus-language-tip" aria-hidden="true">हिन्दी</span></button><button type="button" data-focus-language="en" lang="en" aria-label="Read in English" title="English" aria-pressed="false">A<span class="focus-language-tip" aria-hidden="true">English</span></button></div><button id="focus-bookmark" aria-label="Bookmark this page" aria-pressed="false" title="Bookmark this page"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6 3.5h12v17l-6-4-6 4z"/></svg></button><button type="button" id="focus-fullscreen" data-reader-fullscreen aria-label="Enter full screen" title="Enter full screen (F)" aria-keyshortcuts="f" aria-pressed="false" hidden><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5"/></svg><span class="focus-fullscreen-label sr-only">Enter full screen</span></button><button type="button" id="focus-theme-toggle" class="appearance-toggle" data-theme-toggle aria-label="Theme: System. Switch to Light." title="Theme: System. Switch to Light." data-theme="system" hidden><svg class="theme-system" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="1.5"/><path d="M9 21h6m-3-4v4"/></svg><svg class="theme-moon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.3 14.4A8.7 8.7 0 0 1 9.6 3.7 8.7 8.7 0 1 0 20.3 14.4Z"/></svg><svg class="theme-sun" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4L19 5"/></svg><span class="appearance-label">Theme: System</span></button><button id="focus-settings-button" aria-expanded="false" aria-controls="focus-settings" aria-label="Reading settings" title="Reading settings"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 6H20M4 12H20M4 18H16"/></svg></button></div></header>
+   <section id="focus-settings" hidden aria-label="Reading settings">
+-   <button type="button" class="focus-original-language" data-focus-language="original" aria-pressed="true">Use each poem’s original language</button>
+    <button type="button" id="focus-fullscreen-menu" data-reader-fullscreen aria-label="Enter full screen" title="Enter full screen (F)" aria-keyshortcuts="f" aria-pressed="false" hidden><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5"/></svg><span class="focus-fullscreen-label">Enter full screen</span></button>
+    <details id="focus-library"><summary>Choose an edition or poet</summary>
+     <label>Browse by <select id="focus-browse-kind"><option value="editions">Edition</option><option value="poets">Poet</option></select></label>
+--- a/src/article-ui.mjs
++++ b/src/article-ui.mjs
+@@ -9,7 +9,7 @@
+  let busy=false,desired=null,pendingRef=null,cursor=null,started=false;
+  const controls=[like,comments,more];
+  const lock=flag=>{busy=flag;for(const button of controls)button.disabled=flag||!service;};
+- if(!service){lock(false);status.textContent='Likes and comments are not available yet.';return;}
++ if(!service){lock(false);status.textContent='';return;}
+  lock(false);more.hidden=true;status.textContent="";
+  like.addEventListener('click',async()=>{
+   if(busy)return;lock(true);status.textContent='Updating your like…';
+--- a/tests/article-entry.test.mjs
++++ b/tests/article-entry.test.mjs
+@@ -11,8 +11,8 @@
+  test(`${name}: nonarticle pages do not fetch runtime`,async()=>{let calls=0;await entry({querySelectorAll:()=>[]},{},()=>{calls++;});assert.equal(calls,0);});
+  for(const [label,edit,location]of[
+  ['disabled provider',c=>c.firebase.enabled=false],['foreign project',c=>c.firebase.projectId='another-site'],['missing version',c=>delete c.engagement.articleResponseVersion],['unknown version',c=>c.engagement.articleResponseVersion='2'],['foreign host',()=>{}, {protocol:'https:',hostname:'other.example'}],['insecure origin',()=>{},{protocol:'http:',hostname:'journal.example'}]]){
+- test(`${name}: ${label} leaves unavailable controls honest`,async()=>{const{nodes,doc}=fixture();const c=structuredClone(config);edit(c);await entry(doc,location??{protocol:'https:',hostname:'journal.example'},async()=>({ok:true,json:async()=>c}));assert.equal(nodes.like.disabled,true);assert.equal(nodes.comments.disabled,true);assert.match(nodes.status.textContent,/not available/);assert.equal(Object.keys(nodes.like.listeners).length,0);});}
+- test(`${name}: runtime failure leaves reading independent`,async()=>{const{nodes,doc}=fixture();await entry(doc,{},async()=>{throw Error('offline')});assert.equal(nodes.like.disabled,true);assert.match(nodes.status.textContent,/not available/);});
++ test(`${name}: ${label} leaves unavailable controls honest`,async()=>{const{nodes,doc}=fixture();const c=structuredClone(config);edit(c);await entry(doc,location??{protocol:'https:',hostname:'journal.example'},async()=>({ok:true,json:async()=>c}));assert.equal(nodes.like.disabled,true);assert.equal(nodes.comments.disabled,true);assert.equal(nodes.status.textContent,'');assert.equal(Object.keys(nodes.like.listeners).length,0);});}
++ test(`${name}: runtime failure leaves reading independent`,async()=>{const{nodes,doc}=fixture();await entry(doc,{},async()=>{throw Error('offline')});assert.equal(nodes.like.disabled,true);assert.equal(nodes.status.textContent,'');});
+  test(`${name}: enabled article binds controls without provider action`,async()=>{const{nodes,doc}=fixture();await entry(doc,{protocol:'https:',hostname:'journal.example'},async()=>({ok:true,json:async()=>config}));assert.equal(nodes.like.disabled,false);assert.equal(typeof nodes.like.listeners.click,'function');assert.equal(typeof nodes.comments.listeners.click,'function');assert.equal(nodes.status.textContent,'');});
+ }
+ test('Trusted registration contains only two public article identities and their languages',()=>{const records=registrationRecords();assert.equal(records.length,2);assert.deepEqual(records.map(r=>r.data.languages),[['or','en','hi'],['en']]);for(const r of records){assert.match(r.path,/^responseContent\//);assert.equal(r.data.kind,'article');assert.equal(r.data.public,true);assert.deepEqual(Object.keys(r.data).sort(),['contentId','kind','languages','public']);}});
+--- a/tests/test_social_metadata.py
++++ b/tests/test_social_metadata.py
+@@ -1,9 +1,48 @@
+ import unittest
++import json
+ from pathlib import Path
+ from tempfile import TemporaryDirectory
+ from social_metadata import Page, choose_image, inject, prepare, public_base, robots_text
+ 
+ class SocialMetadataTests(unittest.TestCase):
++    def home_fixture(self, root, number=48):
++        (root/'content/editions').mkdir(parents=True,exist_ok=True)
++        (root/'data').mkdir(exist_ok=True)
++        (root/'assets/fonts').mkdir(parents=True,exist_ok=True)
++        for name in ['CormorantGaramond-Variable.ttf','NotoSerifOriya-Variable.ttf']:
++            (root/'assets/fonts'/name).write_bytes(b'font')
++        (root/'assets/current.webp').write_bytes(b'current cover art')
++        (root/'content/editions/index.json').write_text(json.dumps([{'number':number},{'number':47}]))
++        svg=f'<svg><image href="assets/current.webp"/><text>Issue {number}</text></svg>'
++        (root/'data/cover-layout-b.json').write_text(json.dumps({str(number):{'artwork':'assets/current.webp','date':'October 2026','svg':svg}}))
++        (root/'index.html').write_text(f'<head><title>Home</title></head><img src="assets/portrait.webp"><div class="ink-current-edition"><div data-cover-edition="{number}"><image href="assets/responsive-copy.webp"/></div></div><div data-cover-edition="47"><image href="assets/older.webp"/></div>')
++
++    def test_home_uses_complete_current_cover_and_updates_on_next_edition(self):
++        with TemporaryDirectory() as tmp:
++            root=Path(tmp);self.home_fixture(root)
++            before=prepare(root,['index.html'],{})['index.html']
++            self.assertEqual(before['edition'],48)
++            self.assertEqual(before['reason'],'current_edition_front_cover')
++            self.assertEqual(before['source'],'assets/current.webp')
++            self.assertIn('<text>Issue 48</text>',before['cover_svg'])
++            self.assertIn('Issue 48',before['alt'])
++            self.home_fixture(root,49)
++            after=prepare(root,['index.html'],{'SITE_URL':'https://kabitalive.com'})['index.html']
++            self.assertEqual(after['edition'],49)
++            self.assertNotEqual(before['asset'],after['asset'])
++            self.assertTrue(after['image_url'].startswith('https://kabitalive.com/assets/social/'))
++            self.assertEqual(after['url'],'https://kabitalive.com/')
++
++    def test_home_rejects_missing_or_stale_visible_cover_instead_of_generic_fallback(self):
++        with TemporaryDirectory() as tmp:
++            root=Path(tmp);self.home_fixture(root)
++            for markup in ['<img src="assets/home/life-after-rain-poetic-natural.webp">','<div class="ink-current-edition"><div data-cover-edition="47"></div></div>']:
++                (root/'index.html').write_text(markup)
++                with self.assertRaisesRegex(ValueError,'visible cover'):
++                    prepare(root,['index.html'],{})
++        with self.assertRaisesRegex(ValueError,'current edition front cover'):
++            choose_image('index.html',Page(''),{})
++
+     def test_essay_uses_lead_art_and_supplied_description(self):
+         with TemporaryDirectory() as tmp:
+             root=Path(tmp);(root/'assets').mkdir()
+--- a/tests/reader-language.test.mjs
++++ b/tests/reader-language.test.mjs
+@@ -0,0 +1,43 @@
++import test from 'node:test';
++import assert from 'node:assert/strict';
++import {readFileSync} from 'node:fs';
++import {readingCode, poemChoice, readerChoices, versionLabel, readingPosition} from '../assets/reader-language.mjs';
++
++const poem = source_language => ({source_language, variants:{or:{},hi:{},en:{}}});
++test('public export includes the exact shared language module', () => {
++  assert.equal(readFileSync('dist/assets/reader-language.mjs','utf8'),readFileSync('assets/reader-language.mjs','utf8'));
++});
++test('every source has exactly Original and the two other languages', () => {
++  for(const source of ['or','hi','en']){
++    const p=poem(source), choices=readerChoices(p);
++    assert.deepEqual(choices.map(c=>c.choice),['original',...['or','hi','en'].filter(c=>c!==source)]);
++    assert.equal(choices.filter(c=>c.selected).length,1);
++    assert.equal(choices[0].code,source);
++    assert.equal(poemChoice(p,source),'original');
++  }
++});
++test('Original follows changing source languages; named translation preferences persist', () => {
++  for(const source of ['or','hi','en'])assert.equal(readingCode(poem(source),'original'),source);
++  for(const source of ['or','hi','en'])assert.equal(readingCode(poem(source),'en'),'en');
++  assert.equal(readerChoices(poem('en'),'en').find(c=>c.selected).choice,'original');
++  assert.equal(readerChoices(poem('hi'),'en').find(c=>c.selected).choice,'en');
++});
++test('missing translations are disabled and source fallback is identified as Original', () => {
++  const p={source_language:'hi',variants:{hi:{},en:{}}};
++  const choices=readerChoices(p,'or');
++  assert.equal(choices.find(c=>c.choice==='or').available,false);
++  assert.equal(choices.find(c=>c.selected).choice,'original');
++  assert.equal(readingCode(p,'or'),'hi');
++});
++test('each opening identifies its own source, including mixed-poem spreads', () => {
++  assert.equal(versionLabel(poem('or'),'or'),'Original · Odia');
++  assert.equal(versionLabel(poem('hi'),'hi'),'Original · Hindi');
++  assert.equal(versionLabel(poem('en'),'en'),'Original · English');
++  assert.equal(versionLabel(poem('or'),'en'),'English translation · Original: Odia');
++});
++test('resizing and bookmarks anchor the selected opening, not the previous poem tail', () => {
++  const tail={poemIndex:3,index:22}, opening={poemIndex:4,index:-1}, line={poemIndex:4,index:0};
++  assert.equal(readingPosition([tail,opening,line],4),opening);
++  assert.equal(readingPosition([line],4),line);
++  assert.equal(readingPosition([tail],4),tail);
++});
+--- a/tests/test_magazine_covers.py
++++ b/tests/test_magazine_covers.py
+@@ -37,9 +37,9 @@
+                 self.assertFalse(links.nested)
+                 self.assertEqual(len(links.links), 2)
+                 for side, link in zip(('front', 'back'), links.links):
+-                    self.assertEqual(link['href'], f'issue-{n}.html?focus=1')
++                    self.assertEqual(link['href'], f'issue-{n}.html')
+                     self.assertIn(side, link['aria-label'])
+-                    self.assertIn('data-open-edition-reader', link)
++                    self.assertNotIn('data-open-edition-reader', link)
+                     self.assertEqual('hidden' in link, side == 'back')
+                 page = Page('<figure class="edition-cover">' + pair + '</figure>')
+                 image, reason = choose_image(f'issue-{n}.html', page, {})
+@@ -51,6 +51,7 @@
+         pair = render_cover_pair(ROOT, 48, 'Artwork', '<A & B>', 'A "quiet" <beginning>. More.', 'October 2026', card=True)
+         self.assertNotIn('data-open-edition-reader', pair)
+         self.assertEqual(len(Links(pair).links), 1)
++        self.assertEqual(Links(pair).links[0]['href'], 'issue-48.html')
+         self.assertNotIn('data-back-cover-edition', pair)
+         pair = render_cover_pair(ROOT, 48, 'Artwork', '<A & B>', 'A \"quiet\" <beginning>. More.', 'October 2026', local=True)
+         self.assertNotIn('<A & B>', pair)
+--- a/tests/home-featured.test.mjs
++++ b/tests/home-featured.test.mjs
+@@ -1,26 +1,67 @@
+ import test from 'node:test';
+ import assert from 'node:assert/strict';
+-import {editionDay,dailySelection} from '../assets/home-featured.js';
++import {visitSelection,renderVisitFeatures,enhanceFeaturedLanguages} from '../assets/home-featured.js';
+ const groups={or:[809,815,818,820,823],hi:[810,812],en:[808,811,813,814,816,817,819,821,822]};
+-const anchor='2026-09-01';
+-test('India midnight advances; equivalent instants and same-day reloads agree',()=>{
+- assert.equal(editionDay('2026-09-01T18:29:59.999Z',anchor),0);
+- assert.equal(editionDay('2026-09-01T18:30:00Z',anchor),1);
+- assert.deepEqual(dailySelection(groups,'2026-09-02T00:00:00+05:30',anchor),[815,812,811]);
+- assert.deepEqual(dailySelection(groups,'2026-09-02T18:29:59Z',anchor),[815,812,811]);
++test('A fresh visit chooses a starting poem; a reload advances each available language',()=>{
++ const first=visitSelection(groups,[],()=>0);
++ assert.deepEqual(first,[809,810,808]);
++ assert.deepEqual(visitSelection(groups,first,()=>0),[815,812,811]);
++ assert.deepEqual(visitSelection(groups,[],()=>.999),[823,812,822]);
+ });
+-test('Every poem receives a turn in source order and wraps without skipping',()=>{
+- for(let day=0;day<45;day++){
+-  const date=new Date(Date.UTC(2026,8,1+day));
+-  assert.deepEqual(dailySelection(groups,date,anchor),[groups.or[day%5],groups.hi[day%2],groups.en[day%9]]);
++test('Repeated visits give every source poem a turn without immediate repeats',()=>{
++ let previous=[];const seen=new Set();
++ for(let visit=0;visit<45;visit++){
++  const selected=visitSelection(groups,previous,()=>0);
++  for(const id of selected){assert.ok(!previous.includes(id));seen.add(id);}
++  previous=selected;
+  }
++ assert.deepEqual([...seen].sort(),Object.values(groups).flat().sort());
+ });
+-test('A single poem stays; an absent language never creates an empty card',()=>{
+- assert.deepEqual(dailySelection({or:[7],hi:[],en:[8]},'2026-12-01',anchor),[7,8]);
+- assert.deepEqual(dailySelection({},'2026-12-01',anchor),[]);
++test('One available poem remains valid; missing languages do not create empty cards',()=>{
++ assert.deepEqual(visitSelection({or:[7],hi:[],en:[8]},[7,8]),[7,8]);
++ assert.deepEqual(visitSelection({},[]),[]);
+ });
+-test('New edition resets to its first poems; invalid or pre-edition dates use fallback',()=>{
+- assert.deepEqual(dailySelection(groups,'2026-10-01T00:00:00Z','2026-10-01'),[809,810,808]);
+- assert.equal(editionDay('2026-08-01',anchor),0);
+- assert.equal(editionDay('invalid',anchor),0);
++function visitFixture(edition='48'){
++ const templates=[['or','826'],['or','829'],['hi','827'],['en','824'],['en','825']].map(([lang,id])=>({dataset:{featuredLanguage:lang,poemId:id},content:{cloneNode:()=>({id,original:'Exact source excerpt '+id})}}));
++ const target={dataset:{edition},children:[],replaceChildren(...children){this.children=children}};
++ const pool={querySelectorAll:()=>templates};
++ return {target,doc:{querySelector:s=>s==='#daily-featured-poems'?target:pool}};
++}
++test('Saved visit advances on reload and a new edition starts from its own candidates',()=>{
++ const state=new Map(),storage={getItem:k=>state.get(k),setItem:(k,v)=>state.set(k,v)};
++ const first=visitFixture();assert.deepEqual(renderVisitFeatures(first.doc,storage,()=>0),['826','827','824']);
++ assert.deepEqual(first.target.children.map(c=>c.original),['Exact source excerpt 826','Exact source excerpt 827','Exact source excerpt 824']);
++ assert.deepEqual(renderVisitFeatures(visitFixture().doc,storage,()=>0),['829','827','825']);
++ assert.deepEqual(renderVisitFeatures(visitFixture('49').doc,storage,()=>0),['826','827','824']);
+ });
++test('Corrupt or blocked session storage never prevents a source-backed feature',()=>{
++ const stores=[{getItem:()=>'{broken',setItem(){}},{getItem(){throw Error('blocked')},setItem(){throw Error('blocked')}},{getItem:()=>JSON.stringify({edition:'48',poems:'invalid'}),setItem(){}}];
++ for(const storage of stores){const f=visitFixture();assert.deepEqual(renderVisitFeatures(f.doc,storage,()=>.999),['829','827','825']);assert.equal(f.target.children.length,3);}
++});
++
++function featureFixture(languages){
++ const cards=languages.map(lang=>({dataset:{lang},hidden:false}));
++ const buttons=['en','hi','or'].map(lang=>({dataset:{featureLanguage:lang},hidden:false,attributes:{},setAttribute(k,v){this.attributes[k]=v},addEventListener(event,callback){this[event]=callback}}));
++ const picker={hidden:true,querySelectorAll:()=>buttons};
++ const feature={querySelector:()=>picker,classList:{add(){}}};
++ const target={querySelectorAll:()=>cards,setAttribute(){}};
++ const doc={querySelector:selector=>selector==='.ink-feature'?feature:target};
++ return {doc,cards,buttons,picker};
++}
++test('Featured-language controls show one original and maintain the selected state',()=>{
++ const f=featureFixture(['or','hi','en']);
++ enhanceFeaturedLanguages(f.doc);
++ assert.deepEqual(f.cards.filter(c=>!c.hidden).map(c=>c.dataset.lang),['en']);
++ f.buttons.find(b=>b.dataset.featureLanguage==='or').click();
++ assert.deepEqual(f.cards.filter(c=>!c.hidden).map(c=>c.dataset.lang),['or']);
++ assert.equal(f.buttons.find(b=>b.dataset.featureLanguage==='or').attributes['aria-pressed'],'true');
++ assert.equal(f.buttons.find(b=>b.dataset.featureLanguage==='en').attributes['aria-pressed'],'false');
++ assert.equal(f.picker.hidden,false);
++});
++test('Editions without English use an available original; one language needs no selector',()=>{
++ const f=featureFixture(['hi']);
++ enhanceFeaturedLanguages(f.doc);
++ assert.equal(f.cards[0].hidden,false);
++ assert.equal(f.picker.hidden,true);
++ assert.equal(f.buttons.find(b=>b.dataset.featureLanguage==='en').hidden,true);
++});
+--- a/tests/article-coverage.test.mjs
++++ b/tests/article-coverage.test.mjs
+@@ -1,6 +1,6 @@
+ import test from 'node:test';import assert from 'node:assert/strict';import{readFileSync,readdirSync}from'node:fs';import{ARTICLE_CONTEXTS}from'../src/article-responses.mjs';
+ test('both selected prose contexts have one Like/comment/private feedback group in current public build',()=>{
+- for(const item of ARTICLE_CONTEXTS){const s=readFileSync('dist/'+item.route,'utf8');assert.equal((s.match(/data-article-responses/g)||[]).length,1);assert.ok(s.includes('data-content-id="'+item.contentId+'"'));for(const marker of ['data-response-like','data-response-form','data-feedback-form'])assert.equal(s.split(marker).length-1,1);assert.ok(s.includes('assets/engagement.js?v=compact-20261015'));assert.equal((s.match(/response-footer/g)||[]).length,1);assert.equal((s.match(/data-share-page/g)||[]).length,1);assert.ok(s.includes('data-response-panel="comments" hidden'));assert.ok(s.includes('data-response-panel="feedback" hidden'));}
++ for(const item of ARTICLE_CONTEXTS){const s=readFileSync('dist/'+item.route,'utf8');assert.equal((s.match(/data-article-responses/g)||[]).length,1);assert.ok(s.includes('data-content-id="'+item.contentId+'"'));for(const marker of ['data-response-like','data-response-form','data-feedback-form'])assert.equal(s.split(marker).length-1,1);assert.match(s, /<script type="module" src="assets\/engagement\.js\?v=[^"]+"><\/script>/);assert.equal((s.match(/response-footer/g)||[]).length,1);assert.equal((s.match(/data-share-page/g)||[]).length,1);assert.ok(s.includes('data-response-panel="comments" hidden'));assert.ok(s.includes('data-response-panel="feedback" hidden'));}
+ });
+ test('full poems retain their numeric engagement while unavailable routes remain metadata',()=>{
+  let count=0;for(const name of readdirSync('dist').filter(n=>/^poem-\d+\.html$/.test(n))){const s=readFileSync('dist/'+name,'utf8');assert.ok(!s.includes('data-article-responses'));if(s.includes('The poem text is currently unavailable.'))continue;count++;assert.equal((s.match(/data-public-comment/g)||[]).length,1);assert.equal((s.match(/data-like(?=\s|>)/g)||[]).length,1);assert.equal((s.match(/data-like-proxy/g)||[]).length,1);assert.ok(s.includes('data-response-panel="comments" hidden'));}assert.equal(count,807);
+--- a/tests/article-ui.test.mjs
++++ b/tests/article-ui.test.mjs
+@@ -1,7 +1,7 @@
+ import test from 'node:test';import assert from 'node:assert/strict';import {setupResponses} from '../src/article-ui.mjs';
+ function element(){return {textContent:'',hidden:false,disabled:true,children:[],listeners:{},attrs:{},addEventListener(n,f){this.listeners[n]=f;},setAttribute(n,v){this.attrs[n]=v;},append(...x){this.children.push(...x);},replaceChildren(){this.children=[];}};}
+ function fixture(service){const nodes=Object.fromEntries(['like','comments','more','status','list'].map(k=>[k,element()]));const root={dataset:{contentId:'pwb:original',contentKind:'poem',contentLanguage:'or'},ownerDocument:{createElement:element},querySelector:s=>nodes[s.match(/data-response-(.+)\]/)?.[1]]??null};setupResponses(root,service);return nodes;}
+-test('Disabled setup leaves reading intact and does not connect',()=>{const n=fixture(null);assert.equal(n.like.disabled,true);assert.match(n.status.textContent,/not available/);assert.equal(Object.keys(n.like.listeners).length,0);});
++test('Disabled setup leaves reading intact and does not connect',()=>{const n=fixture(null);assert.equal(n.like.disabled,true);assert.equal(n.status.textContent,'');assert.equal(Object.keys(n.like.listeners).length,0);});
+ test('Like loads only on action and commits desired state',async()=>{let connections=0,writes=[];const n=fixture({connect:async()=>{connections++;return {readLikeState:async()=>({liked:false,count:0}),setLikeState:async(_,desired)=>{writes.push(desired);return {liked:true,count:1};}};}});assert.equal(connections,0);await n.like.listeners.click();assert.deepEqual(writes,[true]);assert.equal(n.like.attrs['aria-pressed'],'true');assert.equal(n.like.disabled,false);});
+ test('Unknown like acknowledgement retries same desired state',async()=>{let reads=0,writes=[];const n=fixture({connect:async()=>({readLikeState:async()=>{reads++;return {liked:false,count:0};},setLikeState:async(_,desired)=>{writes.push(desired);if(writes.length===1)throw Error('ack lost');return {liked:true,count:1};}})});await n.like.listeners.click();assert.match(n.status.textContent,/could not be confirmed/);await n.like.listeners.click();assert.deepEqual(writes,[true,true]);assert.equal(reads,1);});
+ test('Published text is rendered as text and cursor remains scoped',async()=>{const cursor={},requests=[];const n=fixture({connect:async()=>({listPublicComments:async(_,c)=>{requests.push(c);return {items:[{displayName:'<img>',message:'<script>private</script>'}],cursor:requests.length===1?cursor:null};}})});await n.comments.listeners.click();assert.equal(n.list.children[0].children[0].textContent,'<img>');assert.equal(n.list.children[0].children[1].textContent,'<script>private</script>');await n.more.listeners.click();assert.deepEqual(requests,[null,cursor]);assert.equal(n.more.hidden,true);});
+--- a/tests/test_service_assets.py
++++ b/tests/test_service_assets.py
+@@ -42,7 +42,7 @@
+   import subprocess,types,contextlib,io,os,shutil
+   site=Path(__file__).resolve().parents[1]
+   subprocess.run([os.environ.get('KABITA_NODE') or shutil.which('node'),str(site/'tools/bundle-services.mjs'),'--outdir',str(self.root)],cwd=site,check=True,capture_output=True)
+-  required=['assets/app.js','assets/analytics.js','assets/poem-marks.mjs','assets/reading-library.json','assets/reading-all.json','assets/reader-pagination.mjs','assets/reader-controls.mjs','assets/utkal-reader/pagination.mjs','assets/shared-reader-storage.mjs','assets/shared-reader-collections.mjs','assets/utkal-reader/anchors.mjs','assets/utkal-reader/graph.mjs','assets/utkal-reader/loader.mjs','assets/utkal-reader/storage.mjs']
++  required=['assets/app.js','assets/analytics.js','assets/poem-marks.mjs','assets/reading-library.json','assets/reading-all.json','assets/reader-pagination.mjs','assets/reader-controls.mjs','assets/reader-language.mjs','assets/utkal-reader/pagination.mjs','assets/shared-reader-storage.mjs','assets/shared-reader-collections.mjs','assets/utkal-reader/anchors.mjs','assets/utkal-reader/graph.mjs','assets/utkal-reader/loader.mjs','assets/utkal-reader/storage.mjs']
+   for n in required:self.write(n,'{}')
+   self.write('assets/reading-all.json',json.dumps({'poems':[]}))
+   self.write('assets/reading-library.json',json.dumps({'editions':[],'poets':[]}))
+--- a/tools/build-social-images.mjs
++++ b/tools/build-social-images.mjs
+@@ -1,13 +1,30 @@
+ import fs from 'node:fs/promises';
+ import path from 'node:path';
+-import sharp from 'sharp';
+ 
+ const entries=Object.values(JSON.parse(await fs.readFile('.generated/social-previews.json','utf8')));
+-const images=new Map(entries.map(e=>[e.asset,e.source]));
+-for (const [asset,source] of images) {
++// Use the cover's licensed Indic and masthead fonts when rasterizing its exact SVG.
++if(entries.some(e=>e.cover_svg)){
++  const xml=value=>value.replaceAll('&','&amp;').replaceAll('<','&lt;');
++  const fontConfig=path.resolve('.generated/social-fonts.conf');
++  const systemFonts=process.platform==='darwin'?'<dir>/System/Library/Fonts</dir><dir>/Library/Fonts</dir>':'';
++  await fs.writeFile(fontConfig,`<?xml version="1.0"?><!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd"><fontconfig><include ignore_missing="yes">/etc/fonts/fonts.conf</include>${systemFonts}<dir>${xml(path.resolve('assets/fonts'))}</dir><cachedir>${xml(path.resolve('.generated/font-cache'))}</cachedir></fontconfig>`);
++  process.env.FONTCONFIG_FILE=fontConfig;
++}
++const {default:sharp}=await import('sharp');
++const images=new Map(entries.map(e=>[e.asset,e]));
++for (const [asset,entry] of images) {
++  const source=entry.source;
+   const destination=path.join('.public',asset);
+   await fs.mkdir(path.dirname(destination),{recursive:true});
+-  await sharp(source).rotate().resize(1200,630,{fit:'contain',background:'#f6f0e4'})
++  let input=source;
++  if(entry.cover_svg){
++    const mime={'.webp':'image/webp','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png'}[path.extname(source).toLowerCase()];
++    if(!mime||!entry.cover_svg.includes(`href="${source}"`))throw Error('Current cover artwork does not match its SVG');
++    // librsvg does not consistently decode WebP inside SVG images; embed lossless PNG.
++    const uri=`data:image/png;base64,${(await sharp(source).png().toBuffer()).toString('base64')}`;
++    input=Buffer.from(entry.cover_svg.replaceAll(`href="${source}"`,`href="${uri}"`));
++  }
++  await sharp(input).rotate().resize(1200,630,{fit:'contain',background:'#f6f0e4'})
+     .flatten({background:'#f6f0e4'}).jpeg({quality:88,mozjpeg:true}).toFile(destination);
+ }
+ console.log(`Sharing previews: ${entries.length} pages, ${images.size} JPEG images; portraits and artwork kept uncropped.`);
+--- a/assets/reader-language.mjs
++++ b/assets/reader-language.mjs
+@@ -0,0 +1,24 @@
++export const languageNames = {or: 'Odia', hi: 'Hindi', en: 'English'};
++export const languageGlyphs = {or: 'ଅ', hi: 'अ', en: 'A'};
++
++// Keep the preference distinct from the language actually rendered. Original
++// follows each poem; a named-language preference survives source changes.
++export function readingCode(poem, preference = 'original') {
++  return preference === 'original' || !poem.variants[preference] ? poem.source_language : preference;
++}
++export function poemChoice(poem, code) {
++  return code === poem.source_language ? 'original' : code;
++}
++export function versionLabel(poem, code) {
++  return code === poem.source_language ? 'Original · ' + languageNames[code] : languageNames[code] + ' translation · Original: ' + languageNames[poem.source_language];
++}
++export function readingPosition(visible, poemIndex) {
++  return visible.find(unit => unit.poemIndex === poemIndex) || visible[0];
++}
++export function readerChoices(poem, preference = 'original') {
++  const selected = poemChoice(poem, readingCode(poem, preference));
++  return ['original', ...Object.keys(languageNames).filter(code => code !== poem.source_language)].map(choice => {
++    const code = choice === 'original' ? poem.source_language : choice;
++    return {choice, code, original: choice === 'original', selected: choice === selected, available: !!poem.variants[code]};
++  });
++}
+--- a/assets/kabita-live-symbol-ink-voice.svg
++++ b/assets/kabita-live-symbol-ink-voice.svg
+@@ -0,0 +1,8 @@
++<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
++<title id="title">Kabita Live — leaf and stream</title>
++<desc id="desc">The original leaf-and-stream symbol in the Ink and Voice palette.</desc>
++<style>svg{color:#713b55}.logo-water{fill:#327e80}@media(prefers-color-scheme:dark){svg{color:#e2a9c4}.logo-water{fill:#8ecac9}}</style>
++<path fill="currentColor" d="M125 25C72 47 36 93 42 144c4 37 30 66 67 73-15-25-23-49-13-77 11-33 39-57 29-115Z"/>
++<path fill="currentColor" d="M154 36c26 39 5 69-15 94-23 30-25 55-14 86 48-9 83-46 83-91 0-38-22-69-54-89Z"/>
++<path class="logo-water" fill="#327e80" d="M123 218c-8 9-11 13-11 18a11 11 0 0 0 22 0c0-5-4-11-11-18Z"/>
++</svg>

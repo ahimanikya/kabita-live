@@ -9,8 +9,27 @@ Derived from [the canonical KB design source](../artifacts/design/brand-guide/DE
 
 Design system by **Ahimanikya Satapathy**.
 
+For new pages and maintenance, start with the website rulebook (`kb/reference/website-rulebook.md`) and page checklist (`kb/review/new-page-checklist.md`). They consolidate current rules, including later decisions that supersede dated examples below. This file retains detailed tokens and decision history.
+
 The journal should feel like cotton paper, a quiet room and a voice close enough to hear. Art creates atmosphere; poems, names and navigation stay clear. This document separates approved decisions from the component work still to review.
 
+## Ink & Voice website — applied locally 19 October 2026
+
+KBL-DEC-065 selected the palette; after the font preview was updated, Ahimanikya instructed “Good, let's update the site”. KBL-DEC-066 applies Newsreader to the English website masthead/headings/large quotations and Literata to English poetry/prose. Noto Serif Oriya and Tiro Devanagari Hindi retain their script roles. Fonts are self-hosted with original files, OFL licences and conversion provenance.
+
+Use page `#FAF7F7`, ink `#27222A`, mulberry `#713B55`, soft rose `#EADDE3`, muted text `#655A62`, rules `#D4C8CF` and white on accent. Dark mode uses page `#211D23`, panel `#342A32`, ink `#F6EEF3`, muted `#C8B7C2`, accent `#E2A9C4` and rules `#5E4C58`. Keep existing saved theme behaviour and readable sizes.
+
+The website has a clean page surface and retains the familiar compact English masthead, original symbol and menu layout. The Odia signature appears on edition covers, not in the shared website header. The homepage places “Poems to keep close.” beside a soft-rose featured poem with three original-language choices. The source-backed selection changes on each fresh visit or reload and remains still while reading; a current-edition feature replaces the separate atmospheric image below the opening, followed by earlier editions, essay and editors. Use the actual cover, catalogue date, poem count, cover narrative and edition-page link. No poem is rewritten for this design.
+
+The later 19 October direction restores the compact masthead/menu, superseding the enlarged masthead and matching-logo trial (KBL-DEC-068). Keep the approved Newsreader font and Ink & Voice colours. Cover clicks open the relevant edition page; quiet reading remains an explicit action. See `kb/records/current-edition-home-2026-10-19.json` (KBL-DEC-069).
+
+This current specification supersedes older website font, palette, wash and header-ornament notes below. Preserve artwork, cover designs, credits, reader/response services, consent and publication gates. Historical source files remain. Evidence: `kb/records/ink-and-voice-site-2026-10-19.json`. Local implementation is not a live publication receipt.
+
+## Website logo refinement — 19 October 2026
+
+KBL-DEC-074 updates the existing leaf-and-stream website symbol to the Ink & Voice accent, without changing its paths. Use mulberry `#713B55` in light mode and rose `#E2A9C4` in dark mode; the later KBL-DEC-075 direction keeps the water distinct with an aqua droplet (`#327E80` light, `#8ECAC9` dark). The header mark is inline SVG and inherits the page’s selected theme. Its 256-unit square box is `1.2em` beside the unchanged compact Newsreader masthead, compensating for internal whitespace: approximately 41px beside 34px lettering on desktop, 36px beside 30px on phones and 33.6px beside 28px at the narrowest breakpoint. Both scale with the reader’s base font size. Keep the existing menu, spacing, English-only name and cover designs.
+
+The matching favicon is `site/assets/kabita-live-symbol-ink-voice.svg`; its standalone colour follows the browser system appearance. The original teal/rust `kabita-live-symbol.svg` and earlier brand-guide lockups remain historical assets, not the current website header specimen. See `kb/records/logo-ink-voice-2026-10-19.json` and its desktop/phone screenshots.
 
 ## Magazine cover masthead B — approved 4 October 2026
 
@@ -20,23 +39,37 @@ The approved47-cover collection uses a text-only Kabita Live masthead in Cormora
 
 | Element | Standard |
 |---|---|
-| Identity | English-only Kabita Live masthead; the same mark on the site and magazine. |
-| Signature | ମାଟିର ମହକ / ହୃଦୟର ସ୍ବର in dark ink, with a shared left edge. No repeat in the footer. |
-| Colour | Paper #F5EFDF; ink #263C3C; sea #125465; laterite #963F28; hearth #78643A; muted ink #655F51; pale paper #EAE1CD; rules #D2C6AC. Use colour by role, not by page. |
-| English | Cormorant Garamond 500 for display; genuine italic for large quotations. Source Serif 4 for sustained reading. |
+| Identity | English-only Kabita Live website masthead in Newsreader with the original symbol; magazine-cover masthead remains Cormorant. |
+| Signature | ମାଟିର ମହକ / ହୃଦୟର ସ୍ବର remains on edition covers. Do not repeat it in the shared website header or footer. |
+| Colour | Ink & Voice website palette above; use colour by role. Earlier colours remain in historical cover/study sources. |
+| English | Newsreader 500 for website masthead/headings, 400 for the homepage invitation; genuine italic for quotations. Literata 400 for sustained reading. |
 | Odia | Noto Serif Oriya throughout. Natural spacing and upright shaping. |
 | Hindi | Tiro Devanagari Hindi 400 upright. Natural spacing; no synthetic bold or slant. |
 | Reading | Poems 24px desktop / 22px mobile, with 1.8–2 line height. Preserve verse and stanza breaks. Reader enlargement offers 28px and 32px. |
 | Interface | Clear sans serif with approved script fallbacks. Main navigation 17px; primary navigation targets 48px. |
 | Page openings | Shared masthead. Most inner-page banners use 60% text on the left, 40% unique art on the right; stack without clipping on phones. |
-| Surface | Cotton paper at 16%. Poem pages vary deterministically between monsoon and earth wash at 18%, softened to 12.6% on phones. Night reading has no texture. |
+| Surface | Clean soft-white website surface; dark mode has no texture. Quiet-reader leaves retain their separate restrained paper treatment. Historical washes are preserved as assets. |
 | Footer | One desktop row: ownership left, links right. Two clean left-aligned rows on small screens. No repeated design credit. |
-| Ornament | One small artistic header separator. Use restrained section rules, quiet external-link marks and no duplicate decorative dividers. |
+| Ornament | Restore the familiar compact header separator with the established menu layout; keep existing poem ornaments and quiet external-link marks. |
 | Art | A distinct cultural narrative per cover; protect the focal point and keep typography separate from artwork. Preserve historical originals. |
+
+## Human Natural restraint pass — 3 October 2026
+
+The user approved the remaining naturalness-review suggestions, while deferring signed editorial notes to future editions. These rules supersede the older page-opening and copy instructions below for the named pages. Applied locally; publication is a separate step.
+
+- Poems, Poets, Archive (including saved year routes), Contact, Feedback and Send a poem use compact, text-led openings. Their former decorative illustrations remain preserved in the asset library and KB. Search, filters, forms and email actions arrive promptly. Omit the repeated content waterline on these practical openings; preserve the masthead and footer.
+- Use direct titles: Find a poem, Poets, Past editions, Contact the editors, Write to the editors, Send a poem, Submission details. Counts/dates come from the catalogue. Profile contributions use Poems in Kabita Live. Keep researched biography and poem wording intact.
+- Poet directory cards use a top rule and paper background rather than filled panels. Keep portraits, names, attributed excerpts, contributions and accessible links.
+- Quiet-reader paper turns and sound both default off. Explicit saved opt-in remains valid; reduced-motion always wins over animation.
+- Edition cover shading concentrates behind masthead/signature and bottom metadata, leaving the central scene clear. Keep all 47 artwork identities and full cultural narratives. About this cover is a native disclosure, initially open above760px and closed on phones; the reader controls it afterwards.
+- Three new illustrations are tied specifically to poem724 (gift of dates),644 (carpenter’s craft) and786 (river return). Preserve all previous assets and all other assignments; no random rotations or claims of documentary depiction.
+- The existing35-icon single-ink family remains. Familiar functional icons use20–24px within at least44px targets. Cultural motifs need36–48px for their detail; preserve approved footer24px sizing. Prefer a subject-specific monsoon/Chilika/Deomali/Sambalpuri motif only when useful, not an ornament beside every section. Keep logo, paper surface and footer boat; Pipili remains reserved.
+
+Evidence: `kb/records/poetic-natural-variety-2026-10-03.json`; artwork and icon specimen gallery under `kb/artifacts/artwork/studies/poetic-natural-variety-2026-10-03/`. Same-assistant visual review is not independent editorial or accessibility certification.
 
 ## Current artistic page system — consolidated 2 October 2026
 
-**Use this section for new work and maintenance.** It consolidates the approved refinements already applied to the reader pages. The dated entries later in this document preserve decision history; where they differ, use the current rules here and the cited later application record. This consolidation introduces no new visual direction and does not close outstanding editorial, accessibility or release checks.
+**Historical consolidation from 2 October; consult the current website rulebook first.** It consolidates the approved refinements already applied to the reader pages. The dated entries later in this document preserve decision history; where they differ, use the current rules here and the cited later application record. This consolidation introduces no new visual direction and does not close outstanding editorial, accessibility or release checks.
 
 ### A shared language, with room for each page
 
@@ -50,7 +83,7 @@ Write poetic invitations where they help a reader enter the page, and plain labe
 
 | Page family | Current artistic treatment | Reading or action pattern |
 |---|---|---|
-| Home | Preserve the English masthead, Odia signature, approved opening artwork and its fine warm keyline. Small kendu, manuscript and pen marks accompany selected labels/headings; the compact waterline closes the opening. | “A poem to begin with.”, “Pages to return to.” and “The people tending the pages.” introduce the sections. Use “Read this edition”. Show four non-empty excerpt lines, removing Odia danda in the homepage excerpt only. Keep daily per-language selection stable within the same India calendar day; never alter the full source poem. |
+| Home | Keep the compact English masthead/menu and the current edition’s complete front cover. The website header omits the Odia signature; it remains on the cover. Website/homepage sharing uses this same current cover, including its lettering, under SHARE-06. | Use “Read this edition” for the edition page. Featured originals rotate per fresh visit/reload in each language and stay still while reading. Preserve the approved four-line excerpt formatting, credits and full source poems. |
 | Current issue and all editions | Compact breadcrumb, issue/date and Browse poems link; cover story and Cultural connection share the text column beside the borderless cover. No duplicate caption beneath the cover. Retain the full cultural narrative and source references. | Aa, Share and Read quietly precede the list. Omit “Within these pages.” Keep All editions at the right of this action row and the compact waterline immediately below. Browse poems targets the accessible named contents section. Poems remain in publication order. |
 | Poems | “Find a poem. Stay a little longer.” with the approved artistic label, existing opening watercolor and short waterline. Reuse edition-style poem rows/cards; show the small edition context needed for a collection spanning issues. | Aa, Share and Read quietly sit above Keyword, Poet and Edition choices. Combine the three choices, show live results and Clear search, and paginate 12 matches. No “Within these pages.” or catalogue All editions link. Language is a reader setting, not a catalogue filter. The old Search destination redirects here. |
 | Individual poem | A centered desktop reading area, up to 1040px, puts verse on the left and relevant, caption-free artwork on the right. Use a circular linked poet portrait and one byline. Cap title size at 48px desktop / 32px mobile, with 42px desktop treatment for long titles. | Aa, Share and Read quietly stay top-level. Beneath desktop art, the soft edition panel lists five nearby poems and the current item. Put More by this poet and Write to the editor inside it, with the approved explanatory lines. On mobile the panel moves into Aa; full-width art follows the verse. Preserve the closing poetic navigation and sprig. |
@@ -75,7 +108,7 @@ Generic generated-art and translation disclosure, design/font credits, portrait 
 |---|---|---|
 | Masthead separator | Preserve the approved header ornament and its own geometry. | Replacing it with the small content waterline. |
 | Opening waterline | Reuse `assets/poetic-waterline.svg`, 115 × 23px, left-aligned, usually with 24px top spacing below copy or a poet quotation. Home and edition-story placement retain their template-specific spacing. | Redrawing or stretching it full-width; adding it after every paragraph. |
-| Edition contents transition | The same 115 × 23px waterline directly after reading actions, with 4px bottom margin. Keep the contents heading removed. | Restoring “Within these pages.” to make room for the ornament. |
+| Edition contents transition | Use breathing room without a repeated divider; keep contents rows unboxed on desktop and mobile. | Restoring redundant headings or decorative separators. |
 | Between poems in quiet reading | The small colored waterline plus a 44px circular poet portrait; both count toward measured pagination. | A full website footer, large artwork panel or blank page between poems. |
 | Editorial marks | Reuse the existing kendu, manuscript and pen geometry at approved headings/actions. One color per symbol; current approved placements may use theme-aware laterite. | Treating approval of a placement as permission to add motifs everywhere or revive multicolor icon studies. |
 | Reading actions | Aa, Share and Read quietly use laterite icons with neutral labels on poem, Poems and edition pages. | Generic replacement artwork or shrinking targets to save space. |
@@ -349,7 +382,7 @@ User-supplied credit appears once in Our Story → Credits & colophon: “With t
 Following the reviewed mockup, homepage poem previews select four nonempty verse lines. The Odia excerpt omits danda marks (`।`, `॥`, `|`) for this compact display. Preserve original wording, source snippets, full poem punctuation and stanza spacing. Validate the raw excerpt against its source before applying display formatting. Allow wrapped lines to grow without clipping; desktop reading links align, phone cards size to content. Use “Read this edition” and “All editions” in homepage calls to action. Derive current-edition metadata and the three recent editions from the publication catalogue. Evidence: `kb/records/homepage-polish-applied.json`.
 
 
-## Daily homepage poems · 1 October 2026
+## Daily homepage poems · 1 October 2026 (cadence superseded 19 October)
 
 Approved: feature one original-language poem in Odia, Hindi and English from the current edition. Each language advances through publication order once per India calendar day, anchored to the first day of the edition month. Selections remain stable on same-day visits; do not replace cards while a reader is on the page. One candidate persists; absent languages do not produce empty cards. Static no-JavaScript fallback uses the first available poem per language. Current edition has5 Odia,2 Hindi,9 English candidates. Keep the approved four-line excerpt formatting, portraits, writer links and typography. No rotation controls or labels. Implementation and verification: `kb/records/homepage-daily-rotation.json`.
 
@@ -505,6 +538,14 @@ Ahimanikya clarified that the editors’ watercolor artwork treatment applies to
 
 Apply the reviewed concise journal narrative, lighter editorial sidebar and consolidated credits with four disclosures: artwork/image sources, translations, typefaces, and poet/portrait/biography references. Reuse existing kendu, pen, manuscript and letter marks on the story heading, editorial/credit labels and invitations. Keep the existing house watercolor and compact opening waterline. Preserve reference IDs and open enclosing disclosures on a direct credit link. Remove the two user-specified sample-illustration/Pipili and editor-portrait explanation paragraphs; retain actual editor sources and other acknowledgements. Privacy follows credits, then journal navigation. Evidence: `kb/records/our-story-polish-applied.json`.
 
+## Reader responses · prepared 2 October 2026
+
+The user requested Likes and public comments. The prepared poem-end section reuses existing paper, fonts, form fields and separators: a labelled heart button with a reversible pressed state and count, followed by a Comments disclosure. Public name and comment fields include explicit consent to publication; private editorial feedback remains a separate link. Controls keep 48px targets, text-only comment rendering and live status messages. The default flow queues comments for editor approval. This implementation is not yet activated on the hosted site; see `kb/records/reader-engagement-2026-10-02.json`.
+
+## Generic missing-photo artwork — 2026-10-04
+
+User-authorized exception to initials fallback: profiles233,258 and416 share a faceless feminine watercolor avatar on ivory paper, based on existing biography pronouns. Label “Generic artwork · photograph unavailable” on each profile and use non-likeness alt text and Our Story credits. It is a generic placeholder, not a portrait reconstruction; no facial features, complexion, age or jewelry are invented. Preserve source-photo holds and all other portraits. Canonical prompt, master hash and verification: `kb/records/generic-portrait-placeholders-2026-10-04.json`.
+
 ## Poem closing marks · approved 4 October 2026
 
 Use one small botanical mark beneath the final stanza: single leaf most often, with paired leaf and fine sprig as restrained variations. Assign by poem identity, shared by original, translations and the quiet reader; allow explicit editorial overrides. Use original vector shapes at28×22px in the existing hearth colour, without added rules or motion. Hide decoration from assistive technology. In the paginated reader, measure the mark together with the final visible line so it cannot occupy a page alone. Do not signal a completed ending for text awaiting confirmation. Sources, verse, navigation, saved offsets and historical artwork remain intact. Approval and verification: `kb/records/poem-end-marks-applied-2026-10-04.json`.
@@ -515,6 +556,18 @@ After the closing mark, place Previous/Next within the poem reading column, with
 
 On phones, keep the ending navigation directly after verse and before companion artwork; preserve existing art-before openings.
 
+## Mobile footer artwork · approved 4 October 2026
+
+Hide the decorative footer boat at viewport widths up to760px, including the Archive artwork row. Keep footer navigation and ownership text; retain existing artwork on larger screens. This supersedes prior boat-retention instructions for mobile only. Approval and verification: `kb/records/mobile-footer-boat-2026-10-04.json`.
+
+## Poetic Natural homepage views · approved 4 October 2026
+
+Use four views: the existing courtyard and three artistic adaptations of Ahimanikya’s Odisha field, flower-in-palm and rainy-street photographs. Pick one per tab session and keep it stable through navigation and reload; offer a44px keyboard-accessible Another view control. No timer or animation. Use a consistent uncropped3:2frame, matched captions/alt text and consolidated source credits. Two September cover studies remain comparison-only; no edition cover replacement is approved. Evidence: `kb/records/home-natural-views-2026-10-04.json`.
+
+## Poem ending simplification · 4 October 2026
+
+Remove the repeated Previous/Next navigation row beneath individual poems. Keep only the existing small botanical closing mark after the verse, with edition navigation available in the desktop companion panel and mobile reader tools. Preserve Likes/comments, More by this poet, Write to the editor and the global footer. The response section uses its own insertion slot, independent of navigation. This supersedes the earlier poem-ending navigation refinement; mark styling and quiet-reader pagination are unchanged. Applied locally; see `kb/records/poem-ending-simplification-2026-10-04.json`.
+
 
 ## Homepage restraint · 4 October 2026
 
@@ -524,3 +577,119 @@ User direction: remove the homepage “Artwork & sources” link and “Another 
 ## Homepage image curation · 4 October 2026
 
 Following the user’s request to remove the flower-in-palm opening, the local homepage set is courtyard, field, water-and-hills and bridge. The last two are Poetic Natural watercolor interpretations of Ahimanikya’s Odisha photographs. Palm and rainy-street art remain archived for future appropriate editorial use; they are no longer in the homepage selection. Keep one view per tab visit, uncropped 3:2 imagery, short captions and consolidated source credits. No art controls or animation. This supersedes the four-image membership above, not historical artwork provenance. Local implementation and review: `kb/records/home-curation-2026-10-04.json`.
+
+## Loading and fresh-load homepage rotation · 5 October 2026
+
+The user requested homepage rotation on refresh/load and Singhasan-style loading improvements. This supersedes the earlier once-per-tab selection rule: choose one of the same four approved views per fresh document load, avoid the last view when storage permits, then remain still. Back/forward restores its saved document. Select the requested image directly, without first downloading the default artwork. Keep poem/portrait/essay associations and social previews stable. Static tiny previews, native responsive copies, explicit dimensions and full-glyph WOFF2 fonts improve delivery without changing art, typography or adding animation. Sources and licences remain intact. Local verification: `kb/records/page-loading-2026-10-05.json`. Publication remains separate.
+
+## Visible reading language — approved 6 October 2026
+
+Supersedes earlier directions grouping language inside Aa. Show Original, ଓଡ଼ିଆ, हिन्दी and English as a visible row near the poem/edition reading actions and at the top of the quiet reader. Use native-script labels, a clear active underline and 44px touch targets. Text size is a labelled secondary control; bookmarks and other settings remain there. Edition language changes carry into titles, poem links, quiet reading and available editorial versions. Preserve source-language fallback and unavailable-translation states. Evidence: `kb/records/visible-reading-language-2026-10-06.json`.
+
+### Edition opening hierarchy — 6 October 2026
+
+Issue/date → visible language choices → Read poems, optional Editorial note, and quiet Reading tools disclosure. The disclosure contains text size, Share edition and Read quietly; focus returns to its visible trigger after quiet reading closes. Keep 44px targets. Existing archive navigation need not repeat in this row. An edition-specific line drawing can occupy the right-column space below the cover, shown once and flowing below the cover on phones. Editorial prose uses the full content width inside standard gutters. This supersedes older descriptions of all collection actions appearing side by side.
+
+### Direct edition icons — superseding the tools pop-up, 6 October 2026
+
+The user's subsequent review replaces the edition Reading tools disclosure with direct 44px icon controls beside the primary Read poems link: pen for Editorial note where present, Aa for text size, Share, and Read quietly. Language remains visible above. Aa cycles Standard → Large → Extra large → Standard, exposes the current/next value in its accessible name and tooltip, and announces each change. Tooltips appear on hover or keyboard focus; keyboard focus takes precedence so labels do not overlap. Quiet reading returns focus to its visible icon. No edition tools panel, close button or reset action is needed. This supersedes the preceding disclosure/focus-to-menu rule; shared Poems/search and individual-poem settings remain unchanged.
+
+### Quiet-reader space and editorial-only line art — 6 October 2026
+
+Quiet reading uses one top bar, with three script buttons ଅ / अ / A immediately left of the bookmark, followed by the compact Aa settings icon. Do not add a separate language row or a visible Text size label to that header. Keep language names in accessible labels/tooltips, a selected-state underline and 44px targets. The original-per-poem mode remains available in reading settings; source fallback and unavailable-translation handling remain. Edition and regular poem language rows stay unchanged.
+
+Line-art vignettes belong only inside the editorial, beside the quoted passages on the right; do not place them under the edition cover or in its opening. Edition48 pairs listening chairs with Saswati Hota’s silence excerpt, fallen flowers with Sabita Singh Meera’s excerpt, and shared tea with Bishnu Charan Parida’s love excerpt. Keep exact quotes/translations/attribution intact and move art below its quote on phones when side-by-side placement would crowd verse. This supersedes the earlier opening-vignette placement and quiet-reader language-row rules.
+
+### Edition links and content controls — 6 October 2026
+
+Only Read Poems and, where an editorial exists, Read Editorial remain beneath the edition title. Both are visible text links. Move reading language, Aa, Share and Quiet reading to the top of the poem contents, before its first entry. Keep one set of controls per edition, with existing accessible labels/tooltips, text-size cycling and language inheritance. This supersedes earlier placement of controls in the edition opening; quiet-reader and editorial quotation-art rules remain unchanged.
+
+
+## Browser-managed text sizing — 6 October 2026
+
+The user removed the site-specific text-size tool. Do not add Aa size buttons, Standard/Large/Extra large selectors, size popups or stored font-size overrides to editions, the Poems catalogue, poem pages or quiet reading. This supersedes all earlier sizing-control requirements, including the Aa control in the quiet-reader header. Browser zoom and preferred-font enlargement own sizing; use relative units for reading text, allow wrapping, retain stanza boundaries and never disable zoom. Quiet reading must repaginate on viewport changes and remain scrollable when a passage exceeds the available height.
+
+Keep language choices, bookmarks/saved passages, sharing and quiet reading. The regular poem bookmark panel uses a bookmark icon; quiet-reader settings use the existing menu icon for library, original-language mode and saved reading preferences. Keep Read Poems / Read Editorial above, language and remaining actions at the top of edition contents, and line art only beside editorial quotations. Verify default and enlarged text, narrow reflow, focus return, language changes and reader pagination.
+
+
+### Reviewed editorial and reader appearance — 6 October 2026
+
+After Ahimanikya explicitly reviews an editorial and asks to remove its draft notice, record that user review and suppress the review notice in all language versions. Preserve the text, excerpts and provenance; do not infer publication-editor approval or clear other content-release gates. Edition48 is user-reviewed under this instruction.
+
+Quiet reading retains a directly accessible shared System/Light/Dark theme control in its existing bottom bar. Use the site preference and established icons, accessible current/next-state labels and 44px targets; do not add another toolbar row. Verify theme changes inside the modal, after exit and across reloads, plus narrow layouts.
+
+
+### One magazine reader with optional illustrations — 6 October 2026
+
+Keep one quiet-reader experience. Show illustrations is an optional Reading settings switch, off on each new page load; switching it repaginates around the current poem/reading anchor. When enabled, show only the existing assigned poem-page image at that poem's opening, with its recorded alt text. Text-led poems remain text-led. No random imagery or newly generated art is needed. Do not load illustration images while the option is off; measurement uses a same-sized placeholder.
+
+Use subtle existing cotton-paper texture and a restrained gutter/page shadow in light mode, with clean texture-free leaves in dark mode. Center each folio beneath its own page and center the overall visible-page range/total across the full book, independently of the theme/arrow controls. Reserve folio space during pagination; oversized text remains scrollable. Two pages on wide screens, one on phones, with existing languages, bookmarks, theme, reader settings and source text preserved. Page totals are responsive reading positions, not historical print pagination.
+
+
+### Consistent reader actions and poem-language shortcuts — 6 October 2026
+
+A reader action always uses the same canonical icon across page types. Read quietly uses the approved footer-story manuscript icon through reader_icons.quiet_reader_icon() on editions, the Poems catalogue and poem pages; do not draw a separate book icon for the same action. Different accessible labels must not disguise the same action as a different symbol.
+
+Poem pages use exactly three language shortcuts: ଅ / अ / A, matching the quiet-reader script vocabulary, with language-name hover/focus tooltips, accessible tab names and 44px targets. Initially select the actual source language and identify Original in its tooltip; unavailable translations remain disabled. Keep keyboard tab navigation, translated titles/verse, bookmarks and existing lang=original links working. Edition collection language labels remain unchanged. This supersedes earlier four-choice poem-page language rows.
+
+
+### Compact poem actions and top reader theme — 6 October 2026
+
+Place the quiet-reader System/Light/Dark toggle immediately before the menu/settings icon in its existing top row. Keep 44px targets and a single row at 320px; the bottom bar contains only pagination, centered across the book. This supersedes its earlier bottom placement.
+
+Regular poem-page actions are icon-only: bookmark, share, canonical Read quietly and Like, with hover/focus tooltips and accessible names. Keep one actual Like button backed by the existing reversible Firebase transaction; count/state belong in its tooltip and accessible feedback. Comments remain below the verse. Preserve host/HTTPS/service gates: local previews show a disabled Like and explain availability; do not enable production writes for preview testing. Language stays visible as ଅ / अ / A. No text-size controls return.
+
+
+### One combined poem toolbar — 6 October 2026
+
+The three language shortcuts and four action icons share one horizontal row: ଅ, अ, A, bookmark, share, Read quietly, Like. Use one subtle vertical separator between language and action groups. Omit the visible Read in label; retain language tab semantics, action groups and tooltips. Preserve44px targets at320px by using the available page gutters, with no wrapping or page overflow. This supersedes the separate language/action rows.
+
+
+### Edition icon toolbar — 6 October 2026
+
+At the top of edition contents, group all language and action controls on one line with44px targets and one subtle vertical separator. Use Original-language reset icon, ଅ, अ, A, then Share and the canonical Read quietly icon. Accessible names and hover/focus tooltips explain every control; retain per-poem original fallback, translated links, and editorial/reader language inheritance. Read Poems and Read Editorial remain text links in the opening. The Poems catalogue keeps its current controls. This supersedes the full-word edition language labels and separated action placement.
+
+
+### Printed magazine cover treatment — 6 October 2026
+
+Present issue covers on the home page, edition pages and archive/year pages as restrained printed magazines: a slim left binding fold, a shallow paper edge at right/bottom, and a soft static shadow. Keep the approved cover SVG, masthead, signature, complete artwork and 2:3 ratio unchanged. Apply through the shared cover renderer’s route-scoped `magazine-object` class and `assets/magazine-covers.css`; no new bitmap or script is needed. Do not add tilt animations, page-turn effects, frames around poem artwork, or this treatment to the homepage landscape. Preserve original social-preview assets and cover history. Check narrow phones, compact home cards, light/dark themes and printed output. This is a cover-only exception to the earlier borderless-inner-artwork wording; poem illustrations remain borderless.
+
+## Signature wording update — 6 October 2026
+
+The approved signature is ମାଟିର ମହକ / ହୃଦୟର ସ୍ବର. Use exactly this spelling in all current placements, retaining established line breaks or one-line separators. This supersedes the former signature wording; preserve historical source and decision evidence.
+
+## Ink & Voice quiet reader — 19 October 2026
+
+KBL-DEC-067 extends the approved website theme to the quiet reader: soft rose surround, clean paper leaves, a small Newsreader journal identifier on wide screens, generous desktop margins and compact phone spacing. Keep existing per-script reading fonts, poem ornaments, portraits, optional illustration behavior and continuous collection flow. Folios and focus indicators use mulberry; settings fields use a contrasting boundary and disclosures retain at least 44px targets. The normal poem toolbar uses fine rules and a soft rose selected-language background.
+
+Keep all reading logic, saved data keys, verse and stanza boundaries, original/translation availability, theme/menu order, consent and release gates. Oversized openings retain the accessible per-page scroll fallback. Detailed local self-review and limitations: `kb/records/ink-and-voice-reader-2026-10-19.json`. No publication is implied.
+
+## Homepage poems on each visit — 19 October 2026
+
+KBL-DEC-071 supersedes the once-per-India-day cadence. Keep all current-edition originals and fill languages with fewer than three choices from recent editions. Choose an initial poem per available original language, then advance through that language’s publication order on each fresh document load. Session storage remembers only the edition and selected poem IDs to avoid immediate repeats and give every candidate a turn. If storage is unavailable, choose afresh without blocking the page. Never replace the poem on a timer or while the reader switches languages; preserve the restored document on browser back/forward. If the archive has only one eligible original in a language, it necessarily repeats. Preserve the static no-script fallback, exact existing excerpt formatting, credits and poem/profile links. No new controls, remote calls or analytics. See `kb/records/home-poem-rotation-2026-10-19.json`.
+
+## Current edition cover as homepage identity — 19 October 2026
+
+KBL-DEC-072 makes the current edition’s complete approved front cover the permanent rule for both the visible homepage image and the image attached when sharing the website/root or homepage URL. Derive the current edition from the publication catalogue; preserve the front-cover artwork, masthead, Odia signature and issue/date. Use a static uncropped sharing copy with matching Open Graph/Twitter tags and an image URL that changes when its cover changes. Featured-poem rotation is independent. Missing or stale current-cover data must fail verification rather than fall back to the historical courtyard image. Keep older page-specific previews and all artwork history. This supersedes former homepage landscape/rotation and stable-courtyard sharing instructions. See `kb/records/home-cover-rule-2026-10-19.json` and website rule SHARE-06.
+
+## Facebook Ink & Voice branding — 19 October 2026
+
+KBL-DEC-079 corrects the Facebook cover direction: retain the earlier illustrated river-and-veranda banner, including its typography, wording and layout; change only text and leaves to mulberry `#713B55`, with an aqua `#327E80` water drop. Do not replace the illustration with a plain background. Preserve “Kabita Live”, “ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର” and “Monthly poetry · Odia, Hindi & English”. The 1918×820 restored master and publication receipt live in `kb/artifacts/social/facebook-illustrated-restore-2026-10-19`. This supersedes KBL-DEC-075’s plain rose-paper cover, while retaining its 1024×1024 mulberry/aqua profile logo. The Page banner is separate from the homepage and website sharing image, which continue to use the complete current edition cover. Preserve all earlier Facebook imagery and receipts as history.
+
+Favicon direction (KBL-DEC-076): use this exact leaf-and-aqua-water SVG on all public routes, including redirects. Declare `image/svg+xml`, `sizes="any"` and a content-derived version in the icon URL. Retain the original geometry and system-aware favicon colours; no separate favicon drawing.
+## Original labels and restrained edge wash — 19 October 2026
+
+Poem and quiet-reader controls show a small uppercase ORIGINAL badge above the source-language symbol, followed by the two other language shortcuts. Original follows the source as the reader moves between poems. A translated opening also names its original language. Use the same interface font at 8.5px for the badge; retain 20px language symbols aligned on the same baseline, full accessible Original/language labels and tooltips, 44px targets and one-row phone toolbars. Source poems and authored translator credits remain unchanged. KBL-DEC-078 / `kb/records/visible-original-2026-10-19.json`.
+
+Small existing waterline/leaf ornaments use the Ink & Voice accent in both themes while their original SVG masters remain unchanged. English editorial subheadings use Newsreader; script-specific heading fonts remain. The homepage poem panel has a static wash confined to its empty 10–12px outer edge, with flat paper behind text and controls; no wash in print. KBL-DEC-077 / `kb/records/artistic-wash-approved-2026-10-19.json`.
+
+
+## Whole-site consistency audit — 19 October 2026
+
+The current Ink & Voice palette and font roles are verified across all 1,317 exported routes; see `kb/records/full-design-audit-2026-10-19.json` and the local full-design-audit report. Shared overlays use the charcoal scrim, share cards use the current mulberry/aqua mark, and redirect fallback pages use the same theme. English quotations retain Literata within other-script editorials. Explicit English language metadata keeps the Original badge in the interface font in both reading modes. Normal-size header/toolbar layouts remain compact; enlarged text may wrap whole words or add rows and expand targets to avoid clipping or overlap. Cover composition typography and artwork colours remain intentional exceptions.
+
+## Solid Original badge — 19 October 2026
+
+KBL-DEC-081: the small uppercase ORIGINAL badge uses mulberry `#713B55` with white `#FFFFFF` lettering and a matching border in both themes. Retain the interface type, 8.5px default badge text, separate source-language glyph and existing targets/layout. Apply consistently to regular poem pages and the quiet reader. This supersedes its earlier paper background.
+
+The same change fixes the user-reported small-screen alignment: the badge fits the full width of its own target, and poem toolbars align with the text gutter. Language choices remain together; action icons wrap to a second row when the available width cannot fit both groups with 44px targets (including 320px screens). Remove the between-group vertical rule on that narrow two-row layout. The compact single row remains where it fits, and quiet-reader header targets retain their existing positions. This responsive correction supersedes the earlier unconditional one-row phone-toolbar requirement.

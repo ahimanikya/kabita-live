@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/ahimanikya/utkal-project",
+  "commit": "3e3a385077f25be9ee97dd1b505c91d5669dbd30",
+  "retrieved_at": "2026-10-02T19:24:20.393364+00:00",
+  "purpose": "User-requested Kalinga Project service alignment; reference IDs must not be reused in Kabita Live.",
+  "files": [
+    {
+      "local": "analytics.md",
+      "upstream": "kb/research/technology/analytics.md",
+      "sha256": "b6c86d819ef0605e0cc202fcf7e2cdc21c554663bc551203eb95986b72fcb39f"
+    },
+    {
+      "local": "analytics-setup.json",
+      "upstream": "kb/records/evidence/visitor-readiness-2026-10-01/analytics-setup.json",
+      "sha256": "da2edfcf1b65aa4dbfcad94a9ae4c1223ea340b9a9c51b71616cc26ceefc00bf"
+    },
+    {
+      "local": "analytics.mjs",
+      "upstream": "projects/site/src/lib/analytics.mjs",
+      "sha256": "3cd198fc1a6a73c853435094a6b1d819a487bae2a43c6d18dbc001b649e0be4d"
+    },
+    {
+      "local": "architecture.md",
+      "upstream": "kb/research/technology/architecture.md",
+      "sha256": "8b879d0d9da3498b241f967aaaee3b498b9adc03447f5dc12b6e1611abb04189"
+    }
+  ]
+}

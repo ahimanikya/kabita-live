@@ -1,0 +1,3113 @@
+{
+  "recorded_at": "2026-10-06T05:24:01.511567+00:00",
+  "status": "verified_local_cover_card_delivery",
+  "scope": "Kabita portion of FLEET-009; remaining fleet audits pending.",
+  "comparison": {
+    "status": "verified_local",
+    "browser": "Chrome/154.0.8037.98",
+    "conditions": {
+      "viewport": "390x844",
+      "dpr": 1,
+      "cpuSlowdown": 4,
+      "latencyMs": 150,
+      "downloadBytesPerSecond": 200000,
+      "uploadBytesPerSecond": 93750,
+      "cache": "disabled; new incognito context each run",
+      "observationWindowMs": 6500,
+      "delivery": "Python static localhost; no compression; Cache-Control no-store",
+      "externalRequests": "HTTPS blocked to isolate public artifact and avoid provider writes",
+      "repeats": 3
+    },
+    "paired_observations": 12,
+    "selected_cover_sources": 48,
+    "selected_source_bytes": 13965096,
+    "card_delivery_bytes": 5680550,
+    "card_delivery_reduction_percent": 59.32,
+    "current_home_three_source_bytes": 691700,
+    "current_home_three_card_bytes": 277548,
+    "observations": [
+      {
+        "family": "home",
+        "before": {
+          "fcp_ms_median": 1660,
+          "local_request_counts": [
+            31,
+            29,
+            29
+          ],
+          "card_resource_urls": [
+            "/assets/covers/editions/edition-046-2026-08-poetic-natural.webp",
+            "/assets/covers/editions/edition-047-2026-09-natural-b-v1.webp",
+            "/assets/covers/editions/edition-048-2026-10-poetic-natural.webp"
+          ],
+          "http_errors": 0,
+          "js_exceptions": 0
+        },
+        "after": {
+          "fcp_ms_median": 1492,
+          "local_request_counts": [
+            31,
+            29,
+            29
+          ],
+          "card_resource_urls": [
+            "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp"
+          ],
+          "http_errors": 0,
+          "js_exceptions": 0
+        }
+      },
+      {
+        "family": "archive",
+        "before": {
+          "fcp_ms_median": 1876,
+          "local_request_counts": [
+            65,
+            65,
+            65
+          ],
+          "card_resource_urls": [
+            "/assets/covers/editions/edition-001-2022-11-poetic-natural.webp",
+            "/assets/covers/editions/edition-002-2022-12-poetic-natural.webp",
+            "/assets/covers/editions/edition-003-2023-01-poetic-natural.webp",
+            "/assets/covers/editions/edition-004-2023-02-poetic-natural.webp",
+            "/assets/covers/editions/edition-005-2023-03-poetic-natural.webp",
+            "/assets/covers/editions/edition-006-2023-04-poetic-natural.webp",
+            "/assets/covers/editions/edition-007-2023-05-poetic-natural.webp",
+            "/assets/covers/editions/edition-008-2023-06-poetic-natural.webp",
+            "/assets/covers/editions/edition-009-2023-07-poetic-natural.webp",
+            "/assets/covers/editions/edition-010-2023-08-poetic-natural.webp",
+            "/assets/covers/editions/edition-011-2023-09-poetic-natural.webp",
+            "/assets/covers/editions/edition-012-2023-10-poetic-natural.webp",
+            "/assets/covers/editions/edition-013-2023-11-poetic-natural.webp",
+            "/assets/covers/editions/edition-014-2023-12-poetic-natural.webp",
+            "/assets/covers/editions/edition-015-2024-01-poetic-natural.webp",
+            "/assets/covers/editions/edition-016-2024-02.webp",
+            "/assets/covers/editions/edition-017-2024-03-poetic-natural.webp",
+            "/assets/covers/editions/edition-018-2024-04-poetic-natural.webp",
+            "/assets/covers/editions/edition-019-2024-05-poetic-natural.webp",
+            "/assets/covers/editions/edition-020-2024-06-poetic-natural.webp",
+            "/assets/covers/editions/edition-021-2024-07-poetic-natural.webp",
+            "/assets/covers/editions/edition-022-2024-08-poetic-natural.webp",
+            "/assets/covers/editions/edition-023-2024-09-poetic-natural.webp",
+            "/assets/covers/editions/edition-024-2024-10-poetic-natural.webp",
+            "/assets/covers/editions/edition-025-2024-11-poetic-natural.webp",
+            "/assets/covers/editions/edition-026-2024-12-poetic-natural.webp",
+            "/assets/covers/editions/edition-027-2025-01-poetic-natural.webp",
+            "/assets/covers/editions/edition-028-2025-02-poetic-natural.webp",
+            "/assets/covers/editions/edition-029-2025-03-poetic-natural.webp",
+            "/assets/covers/editions/edition-030-2025-04-poetic-natural.webp",
+            "/assets/covers/editions/edition-031-2025-05-poetic-natural.webp",
+            "/assets/covers/editions/edition-032-2025-06-poetic-natural.webp",
+            "/assets/covers/editions/edition-033-2025-07-poetic-natural.webp",
+            "/assets/covers/editions/edition-034-2025-08-poetic-natural.webp",
+            "/assets/covers/editions/edition-035-2025-09-poetic-natural.webp",
+            "/assets/covers/editions/edition-036-2025-10-poetic-natural.webp",
+            "/assets/covers/editions/edition-037-2025-11-poetic-natural.webp",
+            "/assets/covers/editions/edition-038-2025-12-poetic-natural.webp",
+            "/assets/covers/editions/edition-039-2026-01-poetic-natural.webp",
+            "/assets/covers/editions/edition-040-2026-02-poetic-natural.webp",
+            "/assets/covers/editions/edition-041-2026-03-poetic-natural.webp",
+            "/assets/covers/editions/edition-042-2026-04-poetic-natural.webp",
+            "/assets/covers/editions/edition-043-2026-05-poetic-natural.webp",
+            "/assets/covers/editions/edition-044-2026-06-poetic-natural.webp",
+            "/assets/covers/editions/edition-045-2026-07-poetic-natural.webp",
+            "/assets/covers/editions/edition-046-2026-08-poetic-natural.webp",
+            "/assets/covers/editions/edition-047-2026-09-natural-b-v1.webp",
+            "/assets/covers/editions/edition-048-2026-10-poetic-natural.webp"
+          ],
+          "http_errors": 0,
+          "js_exceptions": 0
+        },
+        "after": {
+          "fcp_ms_median": 1852,
+          "local_request_counts": [
+            65,
+            66,
+            65
+          ],
+          "card_resource_urls": [
+            "/assets/responsive/cover-006d6b1a2bedc8cb-768-q82.webp",
+            "/assets/responsive/cover-00d7fd5499e48ab2-768-q82.webp",
+            "/assets/responsive/cover-0257a09141f8220d-768-q82.webp",
+            "/assets/responsive/cover-0aaa4bf230e40ee5-768-q82.webp",
+            "/assets/responsive/cover-1d34cd24dbd58138-768-q82.webp",
+            "/assets/responsive/cover-21bc9b71ca86e6f1-768-q82.webp",
+            "/assets/responsive/cover-258685a443334323-768-q82.webp",
+            "/assets/responsive/cover-25f224d992f4e6eb-768-q82.webp",
+            "/assets/responsive/cover-2704877c34fa3afe-768-q82.webp",
+            "/assets/responsive/cover-2cc1f3e921554b0b-768-q82.webp",
+            "/assets/responsive/cover-2ff4f4498e9fb54a-768-q82.webp",
+            "/assets/responsive/cover-3cbc70adf3b430ed-768-q82.webp",
+            "/assets/responsive/cover-431c9fe59950c699-768-q82.webp",
+            "/assets/responsive/cover-5ebd26a3719ea2e7-768-q82.webp",
+            "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "/assets/responsive/cover-66707a112cdb43a7-768-q82.webp",
+            "/assets/responsive/cover-66d38bf090236fcf-768-q82.webp",
+            "/assets/responsive/cover-6e94a6cdf583c658-768-q82.webp",
+            "/assets/responsive/cover-78edb0f47d058cf7-768-q82.webp",
+            "/assets/responsive/cover-828595900e6e03d0-768-q82.webp",
+            "/assets/responsive/cover-837d69e7f04fecff-768-q82.webp",
+            "/assets/responsive/cover-86a9c9249ff17b69-768-q82.webp",
+            "/assets/responsive/cover-8ece99bc0ced9edc-768-q82.webp",
+            "/assets/responsive/cover-8fb8e72a643a0fbd-768-q82.webp",
+            "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "/assets/responsive/cover-96f60d1a7a2317a7-768-q82.webp",
+            "/assets/responsive/cover-96f9bebf72c66bf9-768-q82.webp",
+            "/assets/responsive/cover-9be8d38793918e98-768-q82.webp",
+            "/assets/responsive/cover-9f0d302b894926fe-768-q82.webp",
+            "/assets/responsive/cover-a16f63eff143e21a-768-q82.webp",
+            "/assets/responsive/cover-a2b259e04bae9f1e-768-q82.webp",
+            "/assets/responsive/cover-a37cbadcade36ffe-768-q82.webp",
+            "/assets/responsive/cover-a4c5b9116bbc1229-768-q82.webp",
+            "/assets/responsive/cover-a7d01780208431e1-768-q82.webp",
+            "/assets/responsive/cover-acf027ea60b1379c-768-q82.webp",
+            "/assets/responsive/cover-b0a9fcaadafe644a-768-q82.webp",
+            "/assets/responsive/cover-c1f879aa740d1785-768-q82.webp",
+            "/assets/responsive/cover-c2a3b3f44c81f506-768-q82.webp",
+            "/assets/responsive/cover-c2c35eb23dd0b3ac-768-q82.webp",
+            "/assets/responsive/cover-c76bb14abde83fea-768-q82.webp",
+            "/assets/responsive/cover-cec3ff39824d7b17-768-q82.webp",
+            "/assets/responsive/cover-d8850f7fbe645c53-768-q82.webp",
+            "/assets/responsive/cover-e42e6dd625d15dae-768-q82.webp",
+            "/assets/responsive/cover-eb26651db5b7694c-768-q82.webp",
+            "/assets/responsive/cover-ee547b4ab8a8f444-768-q82.webp",
+            "/assets/responsive/cover-f25706629edbd829-768-q82.webp",
+            "/assets/responsive/cover-fbefd18da1b5c8ae-768-q82.webp",
+            "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp"
+          ],
+          "http_errors": 0,
+          "js_exceptions": 0
+        }
+      }
+    ],
+    "limits": [
+      "Asset-byte reduction is not an overall speed claim; FCP is an early paint observation, not full artwork/reader completion or final LCP.",
+      "6500ms windows can end before complete assets; file sizes come from exact local delivery inventory, not assumed transfer completion.",
+      "Homepage view/caption rotates using the existing approved logic; no artwork selection or randomizer changed.",
+      "Static localhost, no compression, providers blocked; requested latency is not a certified production RTT.",
+      "Shared build collision was recovered using an isolated copy of current generated public inputs; primary source integration preserved, no concurrent dist overwrite.",
+      "Exploratory captures from the earlier incomplete card scope and after captures overlapping UI verification are excluded.",
+      "Content-hashed card URLs support invalidation; production cache headers and live deployment remain release dependencies."
+    ]
+  },
+  "browser": {
+    "browser": "Chrome/154.0.8037.98",
+    "runs": [
+      {
+        "route": "/index.html",
+        "width": 390,
+        "dpr": 1,
+        "covers": [
+          {
+            "edition": "48",
+            "src": "assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 48 · OCTOBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 48. Pale kans grass leans beside a quiet river beneath an open autumn sky with two distant birds.",
+            "width": 340,
+            "height": 510
+          },
+          {
+            "edition": "47",
+            "src": "assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 47 · SEPTEMBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 47. A single fallen ivory frangipani flower on wet red laterite earth, small deep teal puddle reflecting an overcast sky, exquisite low macro perspective.",
+            "width": 104,
+            "height": 156
+          },
+          {
+            "edition": "46",
+            "src": "assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 46 · AUGUST 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 46. An artist uses a fine brush to paint an original floral border on cloth, inspired by Raghurajpur.",
+            "width": 104,
+            "height": 156
+          }
+        ],
+        "overflow": false,
+        "metadata": "https://ahimanikya.github.io/kabita-live/assets/social/940e95051e7460573308.jpg",
+        "images": [
+          {
+            "src": "/assets/cover-layout-b.css",
+            "bytes": 560
+          },
+          {
+            "src": "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "bytes": 120352
+          },
+          {
+            "src": "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "bytes": 82286
+          },
+          {
+            "src": "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "bytes": 74910
+          }
+        ]
+      },
+      {
+        "route": "/archive.html",
+        "width": 390,
+        "dpr": 1,
+        "covers": [
+          {
+            "edition": "48",
+            "src": "assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 48 · OCTOBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 48. Pale kans grass leans beside a quiet river beneath an open autumn sky with two distant birds.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "47",
+            "src": "assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 47 · SEPTEMBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 47. A single fallen ivory frangipani flower on wet red laterite earth, small deep teal puddle reflecting an overcast sky, exquisite low macro perspective.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "46",
+            "src": "assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 46 · AUGUST 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 46. An artist uses a fine brush to paint an original floral border on cloth, inspired by Raghurajpur.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "45",
+            "src": "assets/responsive/cover-b0a9fcaadafe644a-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 45 · JULY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 45. A single empty narrow wooden fishing boat among sparse reeds on a tranquil Odisha lagoon at blue hour, wide quiet water seen in a vertical composition, ochre rope on the bow.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "44",
+            "src": "assets/responsive/cover-acf027ea60b1379c-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 44 · JUNE 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 44. A simple earthen Odisha courtyard threshold with delicate white rice-paste Jhoti drawing, monsoon rain, a brass water vessel beside a laterite-red wall, no people.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "43",
+            "src": "assets/responsive/cover-2cc1f3e921554b0b-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 43 · MAY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 43. Three handmade terracotta water pitchers drying beside a low mud wall, an indigo cotton cloth, a small pool of window light in a traditional Odisha pottery workspace.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "42",
+            "src": "assets/responsive/cover-2704877c34fa3afe-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 42 · APRIL 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 42. A windswept casuarina on an empty Odisha coastal beach, deep sea-blue waves beyond, pale sand, muted ochre needles, quiet midday haze.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "41",
+            "src": "assets/responsive/cover-9f0d302b894926fe-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 41 · MARCH 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 41. A few rust-red palasha blossoms on a slender branch against a distant hazy Odisha hillside, dry ochre grasses and blue shadow, realistic botanical intimacy.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "40",
+            "src": "assets/responsive/cover-828595900e6e03d0-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 40 · FEBRUARY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 40. A handloom with restrained ivory, rust and deep teal ikat cotton threads in an Odisha weaving room, shallow focus, tactile wood and soft side light, no lettering and no people.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "39",
+            "src": "assets/responsive/cover-8fb8e72a643a0fbd-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 39 · JANUARY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 39. An ivory veil of dawn mist above harvested paddy fields, one low haystack and a distant palm in rural Odisha, muted ochre stubble and blue-green shadows.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "38",
+            "src": "assets/responsive/cover-96f9bebf72c66bf9-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 38 · DECEMBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 38. A tiny unlit terracotta oil lamp on a timeworn laterite niche beside an ivory wall, deep blue twilight outside, understated warm ambient light without theatrical glow.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "37",
+            "src": "assets/responsive/cover-c2a3b3f44c81f506-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 37 · NOVEMBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 37. Two handmade paper boats with a single marigold each resting near the edge of an Odisha river at dawn, Kartika seasonal mood, teal reflection and ochre silt, intimate still life.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "36",
+            "src": "assets/responsive/cover-a16f63eff143e21a-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 36 · OCTOBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 36. Kans grass plumes beside a narrow rural path after the rains in Odisha, ivory feathery grasses against deep blue-green distance, a small patch of rust-red soil.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "35",
+            "src": "assets/responsive/cover-00d7fd5499e48ab2-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 35 · SEPTEMBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 35. An ivory lotus bud rising through broad rain-speckled lotus leaves on a quiet Odisha pond, teal water and subdued earthy reflections, close natural study.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "34",
+            "src": "assets/responsive/cover-258685a443334323-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 34 · AUGUST 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 34. Rain running down the edge of old terracotta roof tiles above an Odisha courtyard, gentle teal distant blur, an ivory cloth drying in shelter, quietly realistic.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "33",
+            "src": "assets/responsive/cover-78edb0f47d058cf7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 33 · JULY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 33. A softly gleaming kansa bowl, a resting hand and a hammer on a workshop bench.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "32",
+            "src": "assets/responsive/cover-431c9fe59950c699-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 32 · JUNE 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 32. First rain touching parched red earth in an Odisha village lane, small puddles, ochre dust becoming mud, low intimate perspective, teal-grey cloud reflection.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "31",
+            "src": "assets/responsive/cover-c1f879aa740d1785-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 31 · MAY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 31. Green mangoes and one ripe ochre mango in a small woven palm basket under a tree, mottled ivory sunlight on red earth, quiet Odisha summer afternoon.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "30",
+            "src": "assets/responsive/cover-2ff4f4498e9fb54a-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 30 · APRIL 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 30. An ivory cotton gamucha with red checks dries on a wooden rail beside the sea.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "29",
+            "src": "assets/responsive/cover-fbefd18da1b5c8ae-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 29 · MARCH 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 29. A narrow path passes through kendu woodland beneath rounded green leaves.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "28",
+            "src": "assets/responsive/cover-837d69e7f04fecff-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 28 · FEBRUARY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 28. A teal Sambalpuri bandha-inspired sari with ivory woven patterns and a red border draped over a stool.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "27",
+            "src": "assets/responsive/cover-ee547b4ab8a8f444-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 27 · JANUARY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 27. A neatly coiled ochre fishing net on the edge of a small wooden boat in an Odisha coastal village, deep blue water and weathered terracotta-toned wood, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "26",
+            "src": "assets/responsive/cover-c76bb14abde83fea-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 26 · DECEMBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 26. A simple rural Odisha earthen cooking hearth, a clay pot, delicate real smoke drifting into cool window light, warm ochre straw and soot-blue shadows, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "25",
+            "src": "assets/responsive/cover-96f60d1a7a2317a7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 25 · NOVEMBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 25. Quiet old stone steps descending to an Odisha river at early morning, one small brass vessel, deep teal water, soft ivory sky reflection, laterite embankment.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "24",
+            "src": "assets/responsive/cover-e42e6dd625d15dae-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 24 · OCTOBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 24. A short unfinished thread of muted saffron marigolds laid on an old blue wooden ledge, ivory cotton and red clay floor, natural intimate still life in Odisha.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "23",
+            "src": "assets/responsive/cover-6e94a6cdf583c658-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 23 · SEPTEMBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 23. A flooded paddy field reflecting pale monsoon sky, young rice rows and a small ochre earthen bund cutting a graceful curve through teal water, rural Odisha.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "22",
+            "src": "assets/responsive/cover-006d6b1a2bedc8cb-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 22 · AUGUST 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 22. A weathered ordinary bicycle resting against an old laterite village wall, a faded sea-blue door, monsoon foliage and a single ivory towel, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "21",
+            "src": "assets/responsive/cover-5ebd26a3719ea2e7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 21 · JULY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 21. A broad banana leaf holding clear raindrops above an Odisha courtyard, deep teal-green shade and a blurred red earthen wall, sculptural close photographic composition.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "20",
+            "src": "assets/responsive/cover-8ece99bc0ced9edc-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 20 · JUNE 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 20. An empty simple rope swing beneath a large rural Odisha tree before monsoon, ochre rope, muted indigo shadows, reddish earth and ivory humid sky, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "19",
+            "src": "assets/responsive/cover-cec3ff39824d7b17-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 19 · MAY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 19. A freshly cut small section of jackfruit on a dark wooden board beside a brass bowl, natural ochre fruit, cool sea-blue window shadow, quiet Odisha home still life.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "18",
+            "src": "assets/responsive/cover-f25706629edbd829-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 18 · APRIL 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 18. A handwoven palm-leaf fan resting on an ivory cotton mat by a low red-earth threshold, hot afternoon softened by deep teal doorway shade, lived-in Odisha home.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "17",
+            "src": "assets/responsive/cover-0aaa4bf230e40ee5-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 17 · MARCH 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 17. Small orchids, ferns and a mossy tree beside a rocky forest stream, an imagined Similipal scene.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "16",
+            "src": "assets/responsive/cover-a4c5b9116bbc1229-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 16 · FEBRUARY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 16. An interpretive portrait of Fakir Mohan Senapati, with swept white hair, an attentive gaze and a dark coat.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "15",
+            "src": "assets/responsive/cover-1d34cd24dbd58138-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 15 · JANUARY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 15. A carefully tied small sheaf of harvested rice resting on a red laterite courtyard floor, low winter sunlight, ivory husks and cool sea-blue shade, tactile natural detail.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "14",
+            "src": "assets/responsive/cover-25f224d992f4e6eb-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 14 · DECEMBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 14. A simple handwoven ochre and ivory shawl draped over an old wooden chair next to a deep sea-blue door in an Odisha home, winter morning light, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "13",
+            "src": "assets/responsive/cover-c2c35eb23dd0b3ac-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 13 · NOVEMBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 13. A shallow Odisha lagoon under a pale rising moon, a few gentle ripples and distant reeds, deep sea-blue, ivory reflections, almost abstract but photographically realistic.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "12",
+            "src": "assets/responsive/cover-9be8d38793918e98-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 12 · OCTOBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 12. A delicate white shiuli flower with rust-orange stem resting beside others on a damp laterite-red garden path, autumn morning, intimate realistic low viewpoint.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "11",
+            "src": "assets/responsive/cover-a7d01780208431e1-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 11 · SEPTEMBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 11. Rain-laden water droplets along the edge of a thatched Odisha veranda, soft teal pond beyond, an ochre woven mat rolled in the corner, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "10",
+            "src": "assets/responsive/cover-66707a112cdb43a7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 10 · AUGUST 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 10. A close artistic study of a carved chariot wheel at Konark with weathered stone and warm side light.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "9",
+            "src": "assets/responsive/cover-21bc9b71ca86e6f1-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 9 · JULY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 9. A quiet bend in a broad Odisha river viewed from a high ochre bank, pale ivory mist, deep teal river ribbon and a distant modest fishing boat, no identifiable monument.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "8",
+            "src": "assets/responsive/cover-a37cbadcade36ffe-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 8 · JUNE 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 8. A small terracotta bowl with soaked rice seedlings on a wet courtyard ledge, muted sea-blue background and ivory cloudy light, realistic rural Odisha seasonal still life.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "7",
+            "src": "assets/responsive/cover-3cbc70adf3b430ed-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 7 · MAY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 7. A large tamarind tree shading an empty red-earth path in rural Odisha, weathered ochre bench, soft pale summer haze, deep teal foliage shade.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "6",
+            "src": "assets/responsive/cover-d8850f7fbe645c53-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 6 · APRIL 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 6. An old brass bowl filled with clear water and one ivory flower on a laterite ledge, sea-blue reflected sky, delicate natural light, minimal Odisha domestic still life.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "5",
+            "src": "assets/responsive/cover-86a9c9249ff17b69-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 5 · MARCH 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 5. Broad grass-covered Deomali ridges beneath moving clouds, with layered hills beyond.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "4",
+            "src": "assets/responsive/cover-a2b259e04bae9f1e-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 4 · FEBRUARY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 4. A single delicate Odisha-style silver filigree leaf earring resting on deep teal cotton with an ivory thread and a warm ochre wooden tabletop, restrained macro still life, no text.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "3",
+            "src": "assets/responsive/cover-eb26651db5b7694c-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 3 · JANUARY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 3. A single conch shell beside the gentle foam line of an empty Odisha beach at winter sunrise, sea blue, ivory foam, muted ochre sand and soft rust horizon.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "2",
+            "src": "assets/responsive/cover-66d38bf090236fcf-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 2 · DECEMBER 2022\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 2. Small woven bamboo grain baskets beneath a thatched rural Odisha veranda, ivory husks, ochre straw and a distant deep sea-blue door, quiet winter evening.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "1",
+            "src": "assets/responsive/cover-0257a09141f8220d-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 1 · NOVEMBER 2022\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 1. A fresh small terracotta cup on an ivory cotton cloth beside an open unmarked notebook, sea-blue wooden table near a rural Odisha window, soft morning light, no visible writing.",
+            "width": 0,
+            "height": 0
+          }
+        ],
+        "overflow": false,
+        "metadata": "https://ahimanikya.github.io/kabita-live/assets/social/940e95051e7460573308.jpg",
+        "images": [
+          {
+            "src": "/assets/cover-layout-b.css",
+            "bytes": 560
+          },
+          {
+            "src": "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "bytes": 120352
+          },
+          {
+            "src": "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "bytes": 74910
+          },
+          {
+            "src": "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "bytes": 82286
+          },
+          {
+            "src": "/assets/responsive/cover-acf027ea60b1379c-768-q82.webp",
+            "bytes": 166402
+          },
+          {
+            "src": "/assets/responsive/cover-b0a9fcaadafe644a-768-q82.webp",
+            "bytes": 110966
+          },
+          {
+            "src": "/assets/responsive/cover-2cc1f3e921554b0b-768-q82.webp",
+            "bytes": 78444
+          },
+          {
+            "src": "/assets/responsive/cover-2704877c34fa3afe-768-q82.webp",
+            "bytes": 133824
+          },
+          {
+            "src": "/assets/responsive/cover-9f0d302b894926fe-768-q82.webp",
+            "bytes": 84644
+          },
+          {
+            "src": "/assets/responsive/cover-828595900e6e03d0-768-q82.webp",
+            "bytes": 117390
+          },
+          {
+            "src": "/assets/responsive/cover-8fb8e72a643a0fbd-768-q82.webp",
+            "bytes": 130316
+          },
+          {
+            "src": "/assets/responsive/cover-96f9bebf72c66bf9-768-q82.webp",
+            "bytes": 78026
+          },
+          {
+            "src": "/assets/responsive/cover-c2a3b3f44c81f506-768-q82.webp",
+            "bytes": 71008
+          },
+          {
+            "src": "/assets/responsive/cover-00d7fd5499e48ab2-768-q82.webp",
+            "bytes": 82978
+          },
+          {
+            "src": "/assets/responsive/cover-a16f63eff143e21a-768-q82.webp",
+            "bytes": 135080
+          },
+          {
+            "src": "/assets/responsive/cover-258685a443334323-768-q82.webp",
+            "bytes": 88588
+          },
+          {
+            "src": "/assets/responsive/cover-78edb0f47d058cf7-768-q82.webp",
+            "bytes": 72336
+          },
+          {
+            "src": "/assets/responsive/cover-2ff4f4498e9fb54a-768-q82.webp",
+            "bytes": 100698
+          },
+          {
+            "src": "/assets/responsive/cover-c1f879aa740d1785-768-q82.webp",
+            "bytes": 110658
+          },
+          {
+            "src": "/assets/responsive/cover-fbefd18da1b5c8ae-768-q82.webp",
+            "bytes": 199452
+          },
+          {
+            "src": "/assets/responsive/cover-431c9fe59950c699-768-q82.webp",
+            "bytes": 116398
+          },
+          {
+            "src": "/assets/responsive/cover-ee547b4ab8a8f444-768-q82.webp",
+            "bytes": 155284
+          },
+          {
+            "src": "/assets/responsive/cover-c76bb14abde83fea-768-q82.webp",
+            "bytes": 81908
+          },
+          {
+            "src": "/assets/responsive/cover-837d69e7f04fecff-768-q82.webp",
+            "bytes": 121606
+          },
+          {
+            "src": "/assets/responsive/cover-96f60d1a7a2317a7-768-q82.webp",
+            "bytes": 122122
+          },
+          {
+            "src": "/assets/responsive/cover-e42e6dd625d15dae-768-q82.webp",
+            "bytes": 80204
+          },
+          {
+            "src": "/assets/responsive/cover-6e94a6cdf583c658-768-q82.webp",
+            "bytes": 156214
+          },
+          {
+            "src": "/assets/responsive/cover-5ebd26a3719ea2e7-768-q82.webp",
+            "bytes": 95706
+          },
+          {
+            "src": "/assets/responsive/cover-006d6b1a2bedc8cb-768-q82.webp",
+            "bytes": 186484
+          },
+          {
+            "src": "/assets/responsive/cover-cec3ff39824d7b17-768-q82.webp",
+            "bytes": 88422
+          },
+          {
+            "src": "/assets/responsive/cover-8ece99bc0ced9edc-768-q82.webp",
+            "bytes": 178230
+          },
+          {
+            "src": "/assets/responsive/cover-0aaa4bf230e40ee5-768-q82.webp",
+            "bytes": 218772
+          },
+          {
+            "src": "/assets/responsive/cover-f25706629edbd829-768-q82.webp",
+            "bytes": 120810
+          },
+          {
+            "src": "/assets/responsive/cover-a4c5b9116bbc1229-768-q82.webp",
+            "bytes": 108604
+          },
+          {
+            "src": "/assets/responsive/cover-1d34cd24dbd58138-768-q82.webp",
+            "bytes": 128794
+          },
+          {
+            "src": "/assets/responsive/cover-c2c35eb23dd0b3ac-768-q82.webp",
+            "bytes": 65566
+          },
+          {
+            "src": "/assets/responsive/cover-25f224d992f4e6eb-768-q82.webp",
+            "bytes": 83738
+          },
+          {
+            "src": "/assets/responsive/cover-9be8d38793918e98-768-q82.webp",
+            "bytes": 97126
+          },
+          {
+            "src": "/assets/responsive/cover-a7d01780208431e1-768-q82.webp",
+            "bytes": 125346
+          },
+          {
+            "src": "/assets/responsive/cover-66707a112cdb43a7-768-q82.webp",
+            "bytes": 184910
+          },
+          {
+            "src": "/assets/responsive/cover-21bc9b71ca86e6f1-768-q82.webp",
+            "bytes": 137470
+          },
+          {
+            "src": "/assets/responsive/cover-3cbc70adf3b430ed-768-q82.webp",
+            "bytes": 198388
+          },
+          {
+            "src": "/assets/responsive/cover-a37cbadcade36ffe-768-q82.webp",
+            "bytes": 83186
+          },
+          {
+            "src": "/assets/responsive/cover-86a9c9249ff17b69-768-q82.webp",
+            "bytes": 152190
+          },
+          {
+            "src": "/assets/responsive/cover-d8850f7fbe645c53-768-q82.webp",
+            "bytes": 105334
+          },
+          {
+            "src": "/assets/responsive/cover-a2b259e04bae9f1e-768-q82.webp",
+            "bytes": 84232
+          },
+          {
+            "src": "/assets/responsive/cover-eb26651db5b7694c-768-q82.webp",
+            "bytes": 131132
+          },
+          {
+            "src": "/assets/responsive/cover-66d38bf090236fcf-768-q82.webp",
+            "bytes": 131204
+          },
+          {
+            "src": "/assets/responsive/cover-0257a09141f8220d-768-q82.webp",
+            "bytes": 102812
+          }
+        ]
+      },
+      {
+        "route": "/issue-48.html",
+        "width": 390,
+        "dpr": 1,
+        "covers": [
+          {
+            "edition": "48",
+            "src": "assets/covers/editions/edition-048-2026-10-poetic-natural.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 48 · OCTOBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 48. Pale kans grass leans beside a quiet river beneath an open autumn sky with two distant birds.",
+            "width": 350,
+            "height": 525
+          }
+        ],
+        "overflow": false,
+        "metadata": "https://ahimanikya.github.io/kabita-live/assets/social/c3175243df9a33e05af2.jpg",
+        "images": [
+          {
+            "src": "/assets/cover-layout-b.css",
+            "bytes": 560
+          },
+          {
+            "src": "/assets/covers/editions/edition-048-2026-10-poetic-natural.webp",
+            "bytes": 311294
+          }
+        ]
+      },
+      {
+        "route": "/index.html",
+        "width": 390,
+        "dpr": 2,
+        "covers": [
+          {
+            "edition": "48",
+            "src": "assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 48 · OCTOBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 48. Pale kans grass leans beside a quiet river beneath an open autumn sky with two distant birds.",
+            "width": 340,
+            "height": 510
+          },
+          {
+            "edition": "47",
+            "src": "assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 47 · SEPTEMBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 47. A single fallen ivory frangipani flower on wet red laterite earth, small deep teal puddle reflecting an overcast sky, exquisite low macro perspective.",
+            "width": 104,
+            "height": 156
+          },
+          {
+            "edition": "46",
+            "src": "assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 46 · AUGUST 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 46. An artist uses a fine brush to paint an original floral border on cloth, inspired by Raghurajpur.",
+            "width": 104,
+            "height": 156
+          }
+        ],
+        "overflow": false,
+        "metadata": "https://ahimanikya.github.io/kabita-live/assets/social/940e95051e7460573308.jpg",
+        "images": [
+          {
+            "src": "/assets/cover-layout-b.css",
+            "bytes": 560
+          },
+          {
+            "src": "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "bytes": 120352
+          },
+          {
+            "src": "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "bytes": 82286
+          },
+          {
+            "src": "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "bytes": 74910
+          }
+        ]
+      },
+      {
+        "route": "/archive.html",
+        "width": 390,
+        "dpr": 2,
+        "covers": [
+          {
+            "edition": "48",
+            "src": "assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 48 · OCTOBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 48. Pale kans grass leans beside a quiet river beneath an open autumn sky with two distant birds.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "47",
+            "src": "assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 47 · SEPTEMBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 47. A single fallen ivory frangipani flower on wet red laterite earth, small deep teal puddle reflecting an overcast sky, exquisite low macro perspective.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "46",
+            "src": "assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 46 · AUGUST 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 46. An artist uses a fine brush to paint an original floral border on cloth, inspired by Raghurajpur.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "45",
+            "src": "assets/responsive/cover-b0a9fcaadafe644a-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 45 · JULY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 45. A single empty narrow wooden fishing boat among sparse reeds on a tranquil Odisha lagoon at blue hour, wide quiet water seen in a vertical composition, ochre rope on the bow.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "44",
+            "src": "assets/responsive/cover-acf027ea60b1379c-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 44 · JUNE 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 44. A simple earthen Odisha courtyard threshold with delicate white rice-paste Jhoti drawing, monsoon rain, a brass water vessel beside a laterite-red wall, no people.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "43",
+            "src": "assets/responsive/cover-2cc1f3e921554b0b-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 43 · MAY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 43. Three handmade terracotta water pitchers drying beside a low mud wall, an indigo cotton cloth, a small pool of window light in a traditional Odisha pottery workspace.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "42",
+            "src": "assets/responsive/cover-2704877c34fa3afe-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 42 · APRIL 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 42. A windswept casuarina on an empty Odisha coastal beach, deep sea-blue waves beyond, pale sand, muted ochre needles, quiet midday haze.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "41",
+            "src": "assets/responsive/cover-9f0d302b894926fe-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 41 · MARCH 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 41. A few rust-red palasha blossoms on a slender branch against a distant hazy Odisha hillside, dry ochre grasses and blue shadow, realistic botanical intimacy.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "40",
+            "src": "assets/responsive/cover-828595900e6e03d0-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 40 · FEBRUARY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 40. A handloom with restrained ivory, rust and deep teal ikat cotton threads in an Odisha weaving room, shallow focus, tactile wood and soft side light, no lettering and no people.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "39",
+            "src": "assets/responsive/cover-8fb8e72a643a0fbd-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 39 · JANUARY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 39. An ivory veil of dawn mist above harvested paddy fields, one low haystack and a distant palm in rural Odisha, muted ochre stubble and blue-green shadows.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "38",
+            "src": "assets/responsive/cover-96f9bebf72c66bf9-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 38 · DECEMBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 38. A tiny unlit terracotta oil lamp on a timeworn laterite niche beside an ivory wall, deep blue twilight outside, understated warm ambient light without theatrical glow.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "37",
+            "src": "assets/responsive/cover-c2a3b3f44c81f506-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 37 · NOVEMBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 37. Two handmade paper boats with a single marigold each resting near the edge of an Odisha river at dawn, Kartika seasonal mood, teal reflection and ochre silt, intimate still life.",
+            "width": 350,
+            "height": 525
+          },
+          {
+            "edition": "36",
+            "src": "assets/responsive/cover-a16f63eff143e21a-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 36 · OCTOBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 36. Kans grass plumes beside a narrow rural path after the rains in Odisha, ivory feathery grasses against deep blue-green distance, a small patch of rust-red soil.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "35",
+            "src": "assets/responsive/cover-00d7fd5499e48ab2-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 35 · SEPTEMBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 35. An ivory lotus bud rising through broad rain-speckled lotus leaves on a quiet Odisha pond, teal water and subdued earthy reflections, close natural study.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "34",
+            "src": "assets/responsive/cover-258685a443334323-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 34 · AUGUST 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 34. Rain running down the edge of old terracotta roof tiles above an Odisha courtyard, gentle teal distant blur, an ivory cloth drying in shelter, quietly realistic.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "33",
+            "src": "assets/responsive/cover-78edb0f47d058cf7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 33 · JULY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 33. A softly gleaming kansa bowl, a resting hand and a hammer on a workshop bench.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "32",
+            "src": "assets/responsive/cover-431c9fe59950c699-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 32 · JUNE 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 32. First rain touching parched red earth in an Odisha village lane, small puddles, ochre dust becoming mud, low intimate perspective, teal-grey cloud reflection.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "31",
+            "src": "assets/responsive/cover-c1f879aa740d1785-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 31 · MAY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 31. Green mangoes and one ripe ochre mango in a small woven palm basket under a tree, mottled ivory sunlight on red earth, quiet Odisha summer afternoon.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "30",
+            "src": "assets/responsive/cover-2ff4f4498e9fb54a-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 30 · APRIL 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 30. An ivory cotton gamucha with red checks dries on a wooden rail beside the sea.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "29",
+            "src": "assets/responsive/cover-fbefd18da1b5c8ae-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 29 · MARCH 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 29. A narrow path passes through kendu woodland beneath rounded green leaves.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "28",
+            "src": "assets/responsive/cover-837d69e7f04fecff-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 28 · FEBRUARY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 28. A teal Sambalpuri bandha-inspired sari with ivory woven patterns and a red border draped over a stool.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "27",
+            "src": "assets/responsive/cover-ee547b4ab8a8f444-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 27 · JANUARY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 27. A neatly coiled ochre fishing net on the edge of a small wooden boat in an Odisha coastal village, deep blue water and weathered terracotta-toned wood, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "26",
+            "src": "assets/responsive/cover-c76bb14abde83fea-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 26 · DECEMBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 26. A simple rural Odisha earthen cooking hearth, a clay pot, delicate real smoke drifting into cool window light, warm ochre straw and soot-blue shadows, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "25",
+            "src": "assets/responsive/cover-96f60d1a7a2317a7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 25 · NOVEMBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 25. Quiet old stone steps descending to an Odisha river at early morning, one small brass vessel, deep teal water, soft ivory sky reflection, laterite embankment.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "24",
+            "src": "assets/responsive/cover-e42e6dd625d15dae-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 24 · OCTOBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 24. A short unfinished thread of muted saffron marigolds laid on an old blue wooden ledge, ivory cotton and red clay floor, natural intimate still life in Odisha.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "23",
+            "src": "assets/responsive/cover-6e94a6cdf583c658-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 23 · SEPTEMBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 23. A flooded paddy field reflecting pale monsoon sky, young rice rows and a small ochre earthen bund cutting a graceful curve through teal water, rural Odisha.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "22",
+            "src": "assets/responsive/cover-006d6b1a2bedc8cb-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 22 · AUGUST 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 22. A weathered ordinary bicycle resting against an old laterite village wall, a faded sea-blue door, monsoon foliage and a single ivory towel, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "21",
+            "src": "assets/responsive/cover-5ebd26a3719ea2e7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 21 · JULY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 21. A broad banana leaf holding clear raindrops above an Odisha courtyard, deep teal-green shade and a blurred red earthen wall, sculptural close photographic composition.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "20",
+            "src": "assets/responsive/cover-8ece99bc0ced9edc-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 20 · JUNE 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 20. An empty simple rope swing beneath a large rural Odisha tree before monsoon, ochre rope, muted indigo shadows, reddish earth and ivory humid sky, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "19",
+            "src": "assets/responsive/cover-cec3ff39824d7b17-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 19 · MAY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 19. A freshly cut small section of jackfruit on a dark wooden board beside a brass bowl, natural ochre fruit, cool sea-blue window shadow, quiet Odisha home still life.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "18",
+            "src": "assets/responsive/cover-f25706629edbd829-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 18 · APRIL 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 18. A handwoven palm-leaf fan resting on an ivory cotton mat by a low red-earth threshold, hot afternoon softened by deep teal doorway shade, lived-in Odisha home.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "17",
+            "src": "assets/responsive/cover-0aaa4bf230e40ee5-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 17 · MARCH 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 17. Small orchids, ferns and a mossy tree beside a rocky forest stream, an imagined Similipal scene.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "16",
+            "src": "assets/responsive/cover-a4c5b9116bbc1229-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 16 · FEBRUARY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 16. An interpretive portrait of Fakir Mohan Senapati, with swept white hair, an attentive gaze and a dark coat.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "15",
+            "src": "assets/responsive/cover-1d34cd24dbd58138-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 15 · JANUARY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 15. A carefully tied small sheaf of harvested rice resting on a red laterite courtyard floor, low winter sunlight, ivory husks and cool sea-blue shade, tactile natural detail.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "14",
+            "src": "assets/responsive/cover-25f224d992f4e6eb-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 14 · DECEMBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 14. A simple handwoven ochre and ivory shawl draped over an old wooden chair next to a deep sea-blue door in an Odisha home, winter morning light, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "13",
+            "src": "assets/responsive/cover-c2c35eb23dd0b3ac-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 13 · NOVEMBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 13. A shallow Odisha lagoon under a pale rising moon, a few gentle ripples and distant reeds, deep sea-blue, ivory reflections, almost abstract but photographically realistic.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "12",
+            "src": "assets/responsive/cover-9be8d38793918e98-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 12 · OCTOBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 12. A delicate white shiuli flower with rust-orange stem resting beside others on a damp laterite-red garden path, autumn morning, intimate realistic low viewpoint.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "11",
+            "src": "assets/responsive/cover-a7d01780208431e1-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 11 · SEPTEMBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 11. Rain-laden water droplets along the edge of a thatched Odisha veranda, soft teal pond beyond, an ochre woven mat rolled in the corner, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "10",
+            "src": "assets/responsive/cover-66707a112cdb43a7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 10 · AUGUST 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 10. A close artistic study of a carved chariot wheel at Konark with weathered stone and warm side light.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "9",
+            "src": "assets/responsive/cover-21bc9b71ca86e6f1-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 9 · JULY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 9. A quiet bend in a broad Odisha river viewed from a high ochre bank, pale ivory mist, deep teal river ribbon and a distant modest fishing boat, no identifiable monument.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "8",
+            "src": "assets/responsive/cover-a37cbadcade36ffe-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 8 · JUNE 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 8. A small terracotta bowl with soaked rice seedlings on a wet courtyard ledge, muted sea-blue background and ivory cloudy light, realistic rural Odisha seasonal still life.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "7",
+            "src": "assets/responsive/cover-3cbc70adf3b430ed-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 7 · MAY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 7. A large tamarind tree shading an empty red-earth path in rural Odisha, weathered ochre bench, soft pale summer haze, deep teal foliage shade.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "6",
+            "src": "assets/responsive/cover-d8850f7fbe645c53-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 6 · APRIL 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 6. An old brass bowl filled with clear water and one ivory flower on a laterite ledge, sea-blue reflected sky, delicate natural light, minimal Odisha domestic still life.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "5",
+            "src": "assets/responsive/cover-86a9c9249ff17b69-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 5 · MARCH 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 5. Broad grass-covered Deomali ridges beneath moving clouds, with layered hills beyond.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "4",
+            "src": "assets/responsive/cover-a2b259e04bae9f1e-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 4 · FEBRUARY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 4. A single delicate Odisha-style silver filigree leaf earring resting on deep teal cotton with an ivory thread and a warm ochre wooden tabletop, restrained macro still life, no text.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "3",
+            "src": "assets/responsive/cover-eb26651db5b7694c-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 3 · JANUARY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 3. A single conch shell beside the gentle foam line of an empty Odisha beach at winter sunrise, sea blue, ivory foam, muted ochre sand and soft rust horizon.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "2",
+            "src": "assets/responsive/cover-66d38bf090236fcf-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 2 · DECEMBER 2022\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 2. Small woven bamboo grain baskets beneath a thatched rural Odisha veranda, ivory husks, ochre straw and a distant deep sea-blue door, quiet winter evening.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "1",
+            "src": "assets/responsive/cover-0257a09141f8220d-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 1 · NOVEMBER 2022\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 1. A fresh small terracotta cup on an ivory cotton cloth beside an open unmarked notebook, sea-blue wooden table near a rural Odisha window, soft morning light, no visible writing.",
+            "width": 0,
+            "height": 0
+          }
+        ],
+        "overflow": false,
+        "metadata": "https://ahimanikya.github.io/kabita-live/assets/social/940e95051e7460573308.jpg",
+        "images": [
+          {
+            "src": "/assets/cover-layout-b.css",
+            "bytes": 560
+          },
+          {
+            "src": "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "bytes": 120352
+          },
+          {
+            "src": "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "bytes": 82286
+          },
+          {
+            "src": "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "bytes": 74910
+          },
+          {
+            "src": "/assets/responsive/cover-b0a9fcaadafe644a-768-q82.webp",
+            "bytes": 110966
+          },
+          {
+            "src": "/assets/responsive/cover-acf027ea60b1379c-768-q82.webp",
+            "bytes": 166402
+          },
+          {
+            "src": "/assets/responsive/cover-2cc1f3e921554b0b-768-q82.webp",
+            "bytes": 78444
+          },
+          {
+            "src": "/assets/responsive/cover-2704877c34fa3afe-768-q82.webp",
+            "bytes": 133824
+          },
+          {
+            "src": "/assets/responsive/cover-9f0d302b894926fe-768-q82.webp",
+            "bytes": 84644
+          },
+          {
+            "src": "/assets/responsive/cover-828595900e6e03d0-768-q82.webp",
+            "bytes": 117390
+          },
+          {
+            "src": "/assets/responsive/cover-8fb8e72a643a0fbd-768-q82.webp",
+            "bytes": 130316
+          },
+          {
+            "src": "/assets/responsive/cover-96f9bebf72c66bf9-768-q82.webp",
+            "bytes": 78026
+          },
+          {
+            "src": "/assets/responsive/cover-c2a3b3f44c81f506-768-q82.webp",
+            "bytes": 71008
+          },
+          {
+            "src": "/assets/responsive/cover-a16f63eff143e21a-768-q82.webp",
+            "bytes": 135080
+          },
+          {
+            "src": "/assets/responsive/cover-00d7fd5499e48ab2-768-q82.webp",
+            "bytes": 82978
+          },
+          {
+            "src": "/assets/responsive/cover-431c9fe59950c699-768-q82.webp",
+            "bytes": 116398
+          },
+          {
+            "src": "/assets/responsive/cover-78edb0f47d058cf7-768-q82.webp",
+            "bytes": 72336
+          },
+          {
+            "src": "/assets/responsive/cover-258685a443334323-768-q82.webp",
+            "bytes": 88588
+          },
+          {
+            "src": "/assets/responsive/cover-2ff4f4498e9fb54a-768-q82.webp",
+            "bytes": 100698
+          },
+          {
+            "src": "/assets/responsive/cover-c1f879aa740d1785-768-q82.webp",
+            "bytes": 110658
+          },
+          {
+            "src": "/assets/responsive/cover-837d69e7f04fecff-768-q82.webp",
+            "bytes": 121606
+          },
+          {
+            "src": "/assets/responsive/cover-fbefd18da1b5c8ae-768-q82.webp",
+            "bytes": 199452
+          },
+          {
+            "src": "/assets/responsive/cover-ee547b4ab8a8f444-768-q82.webp",
+            "bytes": 155284
+          },
+          {
+            "src": "/assets/responsive/cover-c76bb14abde83fea-768-q82.webp",
+            "bytes": 81908
+          },
+          {
+            "src": "/assets/responsive/cover-96f60d1a7a2317a7-768-q82.webp",
+            "bytes": 122122
+          },
+          {
+            "src": "/assets/responsive/cover-e42e6dd625d15dae-768-q82.webp",
+            "bytes": 80204
+          },
+          {
+            "src": "/assets/responsive/cover-6e94a6cdf583c658-768-q82.webp",
+            "bytes": 156214
+          },
+          {
+            "src": "/assets/responsive/cover-006d6b1a2bedc8cb-768-q82.webp",
+            "bytes": 186484
+          },
+          {
+            "src": "/assets/responsive/cover-5ebd26a3719ea2e7-768-q82.webp",
+            "bytes": 95706
+          },
+          {
+            "src": "/assets/responsive/cover-8ece99bc0ced9edc-768-q82.webp",
+            "bytes": 178230
+          },
+          {
+            "src": "/assets/responsive/cover-cec3ff39824d7b17-768-q82.webp",
+            "bytes": 88422
+          },
+          {
+            "src": "/assets/responsive/cover-f25706629edbd829-768-q82.webp",
+            "bytes": 120810
+          },
+          {
+            "src": "/assets/responsive/cover-a4c5b9116bbc1229-768-q82.webp",
+            "bytes": 108604
+          },
+          {
+            "src": "/assets/responsive/cover-0aaa4bf230e40ee5-768-q82.webp",
+            "bytes": 218772
+          },
+          {
+            "src": "/assets/responsive/cover-1d34cd24dbd58138-768-q82.webp",
+            "bytes": 128794
+          },
+          {
+            "src": "/assets/responsive/cover-25f224d992f4e6eb-768-q82.webp",
+            "bytes": 83738
+          },
+          {
+            "src": "/assets/responsive/cover-c2c35eb23dd0b3ac-768-q82.webp",
+            "bytes": 65566
+          },
+          {
+            "src": "/assets/responsive/cover-9be8d38793918e98-768-q82.webp",
+            "bytes": 97126
+          },
+          {
+            "src": "/assets/responsive/cover-a7d01780208431e1-768-q82.webp",
+            "bytes": 125346
+          },
+          {
+            "src": "/assets/responsive/cover-66707a112cdb43a7-768-q82.webp",
+            "bytes": 184910
+          },
+          {
+            "src": "/assets/responsive/cover-a37cbadcade36ffe-768-q82.webp",
+            "bytes": 83186
+          },
+          {
+            "src": "/assets/responsive/cover-21bc9b71ca86e6f1-768-q82.webp",
+            "bytes": 137470
+          },
+          {
+            "src": "/assets/responsive/cover-3cbc70adf3b430ed-768-q82.webp",
+            "bytes": 198388
+          },
+          {
+            "src": "/assets/responsive/cover-d8850f7fbe645c53-768-q82.webp",
+            "bytes": 105334
+          },
+          {
+            "src": "/assets/responsive/cover-a2b259e04bae9f1e-768-q82.webp",
+            "bytes": 84232
+          },
+          {
+            "src": "/assets/responsive/cover-86a9c9249ff17b69-768-q82.webp",
+            "bytes": 152190
+          },
+          {
+            "src": "/assets/responsive/cover-0257a09141f8220d-768-q82.webp",
+            "bytes": 102812
+          },
+          {
+            "src": "/assets/responsive/cover-66d38bf090236fcf-768-q82.webp",
+            "bytes": 131204
+          },
+          {
+            "src": "/assets/responsive/cover-eb26651db5b7694c-768-q82.webp",
+            "bytes": 131132
+          }
+        ]
+      },
+      {
+        "route": "/issue-48.html",
+        "width": 390,
+        "dpr": 2,
+        "covers": [
+          {
+            "edition": "48",
+            "src": "assets/covers/editions/edition-048-2026-10-poetic-natural.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 48 · OCTOBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 48. Pale kans grass leans beside a quiet river beneath an open autumn sky with two distant birds.",
+            "width": 350,
+            "height": 525
+          }
+        ],
+        "overflow": false,
+        "metadata": "https://ahimanikya.github.io/kabita-live/assets/social/c3175243df9a33e05af2.jpg",
+        "images": [
+          {
+            "src": "/assets/cover-layout-b.css",
+            "bytes": 560
+          },
+          {
+            "src": "/assets/covers/editions/edition-048-2026-10-poetic-natural.webp",
+            "bytes": 311294
+          }
+        ]
+      },
+      {
+        "route": "/index.html",
+        "width": 1440,
+        "dpr": 1,
+        "covers": [
+          {
+            "edition": "48",
+            "src": "assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 48 · OCTOBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 48. Pale kans grass leans beside a quiet river beneath an open autumn sky with two distant birds.",
+            "width": 361.328125,
+            "height": 541.984375
+          },
+          {
+            "edition": "47",
+            "src": "assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 47 · SEPTEMBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 47. A single fallen ivory frangipani flower on wet red laterite earth, small deep teal puddle reflecting an overcast sky, exquisite low macro perspective.",
+            "width": 361.328125,
+            "height": 541.984375
+          },
+          {
+            "edition": "46",
+            "src": "assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 46 · AUGUST 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 46. An artist uses a fine brush to paint an original floral border on cloth, inspired by Raghurajpur.",
+            "width": 361.34375,
+            "height": 542.015625
+          }
+        ],
+        "overflow": false,
+        "metadata": "https://ahimanikya.github.io/kabita-live/assets/social/940e95051e7460573308.jpg",
+        "images": [
+          {
+            "src": "/assets/cover-layout-b.css",
+            "bytes": 560
+          },
+          {
+            "src": "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "bytes": 120352
+          },
+          {
+            "src": "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "bytes": 82286
+          },
+          {
+            "src": "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "bytes": 74910
+          }
+        ]
+      },
+      {
+        "route": "/archive.html",
+        "width": 1440,
+        "dpr": 1,
+        "covers": [
+          {
+            "edition": "48",
+            "src": "assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 48 · OCTOBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 48. Pale kans grass leans beside a quiet river beneath an open autumn sky with two distant birds.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "47",
+            "src": "assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 47 · SEPTEMBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 47. A single fallen ivory frangipani flower on wet red laterite earth, small deep teal puddle reflecting an overcast sky, exquisite low macro perspective.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "46",
+            "src": "assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 46 · AUGUST 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 46. An artist uses a fine brush to paint an original floral border on cloth, inspired by Raghurajpur.",
+            "width": 369.34375,
+            "height": 554.015625
+          },
+          {
+            "edition": "45",
+            "src": "assets/responsive/cover-b0a9fcaadafe644a-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 45 · JULY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 45. A single empty narrow wooden fishing boat among sparse reeds on a tranquil Odisha lagoon at blue hour, wide quiet water seen in a vertical composition, ochre rope on the bow.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "44",
+            "src": "assets/responsive/cover-acf027ea60b1379c-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 44 · JUNE 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 44. A simple earthen Odisha courtyard threshold with delicate white rice-paste Jhoti drawing, monsoon rain, a brass water vessel beside a laterite-red wall, no people.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "43",
+            "src": "assets/responsive/cover-2cc1f3e921554b0b-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 43 · MAY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 43. Three handmade terracotta water pitchers drying beside a low mud wall, an indigo cotton cloth, a small pool of window light in a traditional Odisha pottery workspace.",
+            "width": 369.34375,
+            "height": 554.015625
+          },
+          {
+            "edition": "42",
+            "src": "assets/responsive/cover-2704877c34fa3afe-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 42 · APRIL 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 42. A windswept casuarina on an empty Odisha coastal beach, deep sea-blue waves beyond, pale sand, muted ochre needles, quiet midday haze.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "41",
+            "src": "assets/responsive/cover-9f0d302b894926fe-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 41 · MARCH 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 41. A few rust-red palasha blossoms on a slender branch against a distant hazy Odisha hillside, dry ochre grasses and blue shadow, realistic botanical intimacy.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "40",
+            "src": "assets/responsive/cover-828595900e6e03d0-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 40 · FEBRUARY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 40. A handloom with restrained ivory, rust and deep teal ikat cotton threads in an Odisha weaving room, shallow focus, tactile wood and soft side light, no lettering and no people.",
+            "width": 369.34375,
+            "height": 554.015625
+          },
+          {
+            "edition": "39",
+            "src": "assets/responsive/cover-8fb8e72a643a0fbd-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 39 · JANUARY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 39. An ivory veil of dawn mist above harvested paddy fields, one low haystack and a distant palm in rural Odisha, muted ochre stubble and blue-green shadows.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "38",
+            "src": "assets/responsive/cover-96f9bebf72c66bf9-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 38 · DECEMBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 38. A tiny unlit terracotta oil lamp on a timeworn laterite niche beside an ivory wall, deep blue twilight outside, understated warm ambient light without theatrical glow.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "37",
+            "src": "assets/responsive/cover-c2a3b3f44c81f506-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 37 · NOVEMBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 37. Two handmade paper boats with a single marigold each resting near the edge of an Odisha river at dawn, Kartika seasonal mood, teal reflection and ochre silt, intimate still life.",
+            "width": 369.34375,
+            "height": 554.015625
+          },
+          {
+            "edition": "36",
+            "src": "assets/responsive/cover-a16f63eff143e21a-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 36 · OCTOBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 36. Kans grass plumes beside a narrow rural path after the rains in Odisha, ivory feathery grasses against deep blue-green distance, a small patch of rust-red soil.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "35",
+            "src": "assets/responsive/cover-00d7fd5499e48ab2-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 35 · SEPTEMBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 35. An ivory lotus bud rising through broad rain-speckled lotus leaves on a quiet Odisha pond, teal water and subdued earthy reflections, close natural study.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "34",
+            "src": "assets/responsive/cover-258685a443334323-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 34 · AUGUST 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 34. Rain running down the edge of old terracotta roof tiles above an Odisha courtyard, gentle teal distant blur, an ivory cloth drying in shelter, quietly realistic.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "33",
+            "src": "assets/responsive/cover-78edb0f47d058cf7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 33 · JULY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 33. A softly gleaming kansa bowl, a resting hand and a hammer on a workshop bench.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "32",
+            "src": "assets/responsive/cover-431c9fe59950c699-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 32 · JUNE 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 32. First rain touching parched red earth in an Odisha village lane, small puddles, ochre dust becoming mud, low intimate perspective, teal-grey cloud reflection.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "31",
+            "src": "assets/responsive/cover-c1f879aa740d1785-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 31 · MAY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 31. Green mangoes and one ripe ochre mango in a small woven palm basket under a tree, mottled ivory sunlight on red earth, quiet Odisha summer afternoon.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "30",
+            "src": "assets/responsive/cover-2ff4f4498e9fb54a-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 30 · APRIL 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 30. An ivory cotton gamucha with red checks dries on a wooden rail beside the sea.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "29",
+            "src": "assets/responsive/cover-fbefd18da1b5c8ae-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 29 · MARCH 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 29. A narrow path passes through kendu woodland beneath rounded green leaves.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "28",
+            "src": "assets/responsive/cover-837d69e7f04fecff-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 28 · FEBRUARY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 28. A teal Sambalpuri bandha-inspired sari with ivory woven patterns and a red border draped over a stool.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "27",
+            "src": "assets/responsive/cover-ee547b4ab8a8f444-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 27 · JANUARY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 27. A neatly coiled ochre fishing net on the edge of a small wooden boat in an Odisha coastal village, deep blue water and weathered terracotta-toned wood, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "26",
+            "src": "assets/responsive/cover-c76bb14abde83fea-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 26 · DECEMBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 26. A simple rural Odisha earthen cooking hearth, a clay pot, delicate real smoke drifting into cool window light, warm ochre straw and soot-blue shadows, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "25",
+            "src": "assets/responsive/cover-96f60d1a7a2317a7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 25 · NOVEMBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 25. Quiet old stone steps descending to an Odisha river at early morning, one small brass vessel, deep teal water, soft ivory sky reflection, laterite embankment.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "24",
+            "src": "assets/responsive/cover-e42e6dd625d15dae-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 24 · OCTOBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 24. A short unfinished thread of muted saffron marigolds laid on an old blue wooden ledge, ivory cotton and red clay floor, natural intimate still life in Odisha.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "23",
+            "src": "assets/responsive/cover-6e94a6cdf583c658-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 23 · SEPTEMBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 23. A flooded paddy field reflecting pale monsoon sky, young rice rows and a small ochre earthen bund cutting a graceful curve through teal water, rural Odisha.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "22",
+            "src": "assets/responsive/cover-006d6b1a2bedc8cb-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 22 · AUGUST 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 22. A weathered ordinary bicycle resting against an old laterite village wall, a faded sea-blue door, monsoon foliage and a single ivory towel, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "21",
+            "src": "assets/responsive/cover-5ebd26a3719ea2e7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 21 · JULY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 21. A broad banana leaf holding clear raindrops above an Odisha courtyard, deep teal-green shade and a blurred red earthen wall, sculptural close photographic composition.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "20",
+            "src": "assets/responsive/cover-8ece99bc0ced9edc-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 20 · JUNE 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 20. An empty simple rope swing beneath a large rural Odisha tree before monsoon, ochre rope, muted indigo shadows, reddish earth and ivory humid sky, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "19",
+            "src": "assets/responsive/cover-cec3ff39824d7b17-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 19 · MAY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 19. A freshly cut small section of jackfruit on a dark wooden board beside a brass bowl, natural ochre fruit, cool sea-blue window shadow, quiet Odisha home still life.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "18",
+            "src": "assets/responsive/cover-f25706629edbd829-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 18 · APRIL 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 18. A handwoven palm-leaf fan resting on an ivory cotton mat by a low red-earth threshold, hot afternoon softened by deep teal doorway shade, lived-in Odisha home.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "17",
+            "src": "assets/responsive/cover-0aaa4bf230e40ee5-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 17 · MARCH 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 17. Small orchids, ferns and a mossy tree beside a rocky forest stream, an imagined Similipal scene.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "16",
+            "src": "assets/responsive/cover-a4c5b9116bbc1229-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 16 · FEBRUARY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 16. An interpretive portrait of Fakir Mohan Senapati, with swept white hair, an attentive gaze and a dark coat.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "15",
+            "src": "assets/responsive/cover-1d34cd24dbd58138-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 15 · JANUARY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 15. A carefully tied small sheaf of harvested rice resting on a red laterite courtyard floor, low winter sunlight, ivory husks and cool sea-blue shade, tactile natural detail.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "14",
+            "src": "assets/responsive/cover-25f224d992f4e6eb-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 14 · DECEMBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 14. A simple handwoven ochre and ivory shawl draped over an old wooden chair next to a deep sea-blue door in an Odisha home, winter morning light, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "13",
+            "src": "assets/responsive/cover-c2c35eb23dd0b3ac-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 13 · NOVEMBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 13. A shallow Odisha lagoon under a pale rising moon, a few gentle ripples and distant reeds, deep sea-blue, ivory reflections, almost abstract but photographically realistic.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "12",
+            "src": "assets/responsive/cover-9be8d38793918e98-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 12 · OCTOBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 12. A delicate white shiuli flower with rust-orange stem resting beside others on a damp laterite-red garden path, autumn morning, intimate realistic low viewpoint.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "11",
+            "src": "assets/responsive/cover-a7d01780208431e1-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 11 · SEPTEMBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 11. Rain-laden water droplets along the edge of a thatched Odisha veranda, soft teal pond beyond, an ochre woven mat rolled in the corner, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "10",
+            "src": "assets/responsive/cover-66707a112cdb43a7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 10 · AUGUST 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 10. A close artistic study of a carved chariot wheel at Konark with weathered stone and warm side light.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "9",
+            "src": "assets/responsive/cover-21bc9b71ca86e6f1-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 9 · JULY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 9. A quiet bend in a broad Odisha river viewed from a high ochre bank, pale ivory mist, deep teal river ribbon and a distant modest fishing boat, no identifiable monument.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "8",
+            "src": "assets/responsive/cover-a37cbadcade36ffe-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 8 · JUNE 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 8. A small terracotta bowl with soaked rice seedlings on a wet courtyard ledge, muted sea-blue background and ivory cloudy light, realistic rural Odisha seasonal still life.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "7",
+            "src": "assets/responsive/cover-3cbc70adf3b430ed-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 7 · MAY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 7. A large tamarind tree shading an empty red-earth path in rural Odisha, weathered ochre bench, soft pale summer haze, deep teal foliage shade.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "6",
+            "src": "assets/responsive/cover-d8850f7fbe645c53-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 6 · APRIL 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 6. An old brass bowl filled with clear water and one ivory flower on a laterite ledge, sea-blue reflected sky, delicate natural light, minimal Odisha domestic still life.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "5",
+            "src": "assets/responsive/cover-86a9c9249ff17b69-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 5 · MARCH 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 5. Broad grass-covered Deomali ridges beneath moving clouds, with layered hills beyond.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "4",
+            "src": "assets/responsive/cover-a2b259e04bae9f1e-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 4 · FEBRUARY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 4. A single delicate Odisha-style silver filigree leaf earring resting on deep teal cotton with an ivory thread and a warm ochre wooden tabletop, restrained macro still life, no text.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "3",
+            "src": "assets/responsive/cover-eb26651db5b7694c-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 3 · JANUARY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 3. A single conch shell beside the gentle foam line of an empty Odisha beach at winter sunrise, sea blue, ivory foam, muted ochre sand and soft rust horizon.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "2",
+            "src": "assets/responsive/cover-66d38bf090236fcf-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 2 · DECEMBER 2022\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 2. Small woven bamboo grain baskets beneath a thatched rural Odisha veranda, ivory husks, ochre straw and a distant deep sea-blue door, quiet winter evening.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "1",
+            "src": "assets/responsive/cover-0257a09141f8220d-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 1 · NOVEMBER 2022\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 1. A fresh small terracotta cup on an ivory cotton cloth beside an open unmarked notebook, sea-blue wooden table near a rural Odisha window, soft morning light, no visible writing.",
+            "width": 0,
+            "height": 0
+          }
+        ],
+        "overflow": false,
+        "metadata": "https://ahimanikya.github.io/kabita-live/assets/social/940e95051e7460573308.jpg",
+        "images": [
+          {
+            "src": "/assets/cover-layout-b.css",
+            "bytes": 560
+          },
+          {
+            "src": "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "bytes": 120352
+          },
+          {
+            "src": "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "bytes": 82286
+          },
+          {
+            "src": "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "bytes": 74910
+          },
+          {
+            "src": "/assets/responsive/cover-b0a9fcaadafe644a-768-q82.webp",
+            "bytes": 110966
+          },
+          {
+            "src": "/assets/responsive/cover-acf027ea60b1379c-768-q82.webp",
+            "bytes": 166402
+          },
+          {
+            "src": "/assets/responsive/cover-2cc1f3e921554b0b-768-q82.webp",
+            "bytes": 78444
+          },
+          {
+            "src": "/assets/responsive/cover-2704877c34fa3afe-768-q82.webp",
+            "bytes": 133824
+          },
+          {
+            "src": "/assets/responsive/cover-828595900e6e03d0-768-q82.webp",
+            "bytes": 117390
+          },
+          {
+            "src": "/assets/responsive/cover-9f0d302b894926fe-768-q82.webp",
+            "bytes": 84644
+          },
+          {
+            "src": "/assets/responsive/cover-96f9bebf72c66bf9-768-q82.webp",
+            "bytes": 78026
+          },
+          {
+            "src": "/assets/responsive/cover-8fb8e72a643a0fbd-768-q82.webp",
+            "bytes": 130316
+          },
+          {
+            "src": "/assets/responsive/cover-a16f63eff143e21a-768-q82.webp",
+            "bytes": 135080
+          },
+          {
+            "src": "/assets/responsive/cover-c2a3b3f44c81f506-768-q82.webp",
+            "bytes": 71008
+          },
+          {
+            "src": "/assets/responsive/cover-00d7fd5499e48ab2-768-q82.webp",
+            "bytes": 82978
+          },
+          {
+            "src": "/assets/responsive/cover-258685a443334323-768-q82.webp",
+            "bytes": 88588
+          },
+          {
+            "src": "/assets/responsive/cover-78edb0f47d058cf7-768-q82.webp",
+            "bytes": 72336
+          },
+          {
+            "src": "/assets/responsive/cover-431c9fe59950c699-768-q82.webp",
+            "bytes": 116398
+          },
+          {
+            "src": "/assets/responsive/cover-c1f879aa740d1785-768-q82.webp",
+            "bytes": 110658
+          },
+          {
+            "src": "/assets/responsive/cover-fbefd18da1b5c8ae-768-q82.webp",
+            "bytes": 199452
+          },
+          {
+            "src": "/assets/responsive/cover-2ff4f4498e9fb54a-768-q82.webp",
+            "bytes": 100698
+          },
+          {
+            "src": "/assets/responsive/cover-837d69e7f04fecff-768-q82.webp",
+            "bytes": 121606
+          },
+          {
+            "src": "/assets/responsive/cover-ee547b4ab8a8f444-768-q82.webp",
+            "bytes": 155284
+          },
+          {
+            "src": "/assets/responsive/cover-c76bb14abde83fea-768-q82.webp",
+            "bytes": 81908
+          },
+          {
+            "src": "/assets/responsive/cover-96f60d1a7a2317a7-768-q82.webp",
+            "bytes": 122122
+          },
+          {
+            "src": "/assets/responsive/cover-e42e6dd625d15dae-768-q82.webp",
+            "bytes": 80204
+          },
+          {
+            "src": "/assets/responsive/cover-6e94a6cdf583c658-768-q82.webp",
+            "bytes": 156214
+          },
+          {
+            "src": "/assets/responsive/cover-5ebd26a3719ea2e7-768-q82.webp",
+            "bytes": 95706
+          },
+          {
+            "src": "/assets/responsive/cover-8ece99bc0ced9edc-768-q82.webp",
+            "bytes": 178230
+          },
+          {
+            "src": "/assets/responsive/cover-006d6b1a2bedc8cb-768-q82.webp",
+            "bytes": 186484
+          },
+          {
+            "src": "/assets/responsive/cover-cec3ff39824d7b17-768-q82.webp",
+            "bytes": 88422
+          },
+          {
+            "src": "/assets/responsive/cover-f25706629edbd829-768-q82.webp",
+            "bytes": 120810
+          },
+          {
+            "src": "/assets/responsive/cover-0aaa4bf230e40ee5-768-q82.webp",
+            "bytes": 218772
+          },
+          {
+            "src": "/assets/responsive/cover-1d34cd24dbd58138-768-q82.webp",
+            "bytes": 128794
+          },
+          {
+            "src": "/assets/responsive/cover-a4c5b9116bbc1229-768-q82.webp",
+            "bytes": 108604
+          },
+          {
+            "src": "/assets/responsive/cover-25f224d992f4e6eb-768-q82.webp",
+            "bytes": 83738
+          },
+          {
+            "src": "/assets/responsive/cover-c2c35eb23dd0b3ac-768-q82.webp",
+            "bytes": 65566
+          },
+          {
+            "src": "/assets/responsive/cover-a7d01780208431e1-768-q82.webp",
+            "bytes": 125346
+          },
+          {
+            "src": "/assets/responsive/cover-66707a112cdb43a7-768-q82.webp",
+            "bytes": 184910
+          },
+          {
+            "src": "/assets/responsive/cover-9be8d38793918e98-768-q82.webp",
+            "bytes": 97126
+          },
+          {
+            "src": "/assets/responsive/cover-21bc9b71ca86e6f1-768-q82.webp",
+            "bytes": 137470
+          },
+          {
+            "src": "/assets/responsive/cover-a37cbadcade36ffe-768-q82.webp",
+            "bytes": 83186
+          },
+          {
+            "src": "/assets/responsive/cover-d8850f7fbe645c53-768-q82.webp",
+            "bytes": 105334
+          },
+          {
+            "src": "/assets/responsive/cover-3cbc70adf3b430ed-768-q82.webp",
+            "bytes": 198388
+          },
+          {
+            "src": "/assets/responsive/cover-a2b259e04bae9f1e-768-q82.webp",
+            "bytes": 84232
+          },
+          {
+            "src": "/assets/responsive/cover-86a9c9249ff17b69-768-q82.webp",
+            "bytes": 152190
+          },
+          {
+            "src": "/assets/responsive/cover-eb26651db5b7694c-768-q82.webp",
+            "bytes": 131132
+          },
+          {
+            "src": "/assets/responsive/cover-66d38bf090236fcf-768-q82.webp",
+            "bytes": 131204
+          },
+          {
+            "src": "/assets/responsive/cover-0257a09141f8220d-768-q82.webp",
+            "bytes": 102812
+          }
+        ]
+      },
+      {
+        "route": "/issue-48.html",
+        "width": 1440,
+        "dpr": 1,
+        "covers": [
+          {
+            "edition": "48",
+            "src": "assets/covers/editions/edition-048-2026-10-poetic-natural.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 48 · OCTOBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 48. Pale kans grass leans beside a quiet river beneath an open autumn sky with two distant birds.",
+            "width": 320,
+            "height": 480
+          }
+        ],
+        "overflow": false,
+        "metadata": "https://ahimanikya.github.io/kabita-live/assets/social/c3175243df9a33e05af2.jpg",
+        "images": [
+          {
+            "src": "/assets/cover-layout-b.css",
+            "bytes": 560
+          },
+          {
+            "src": "/assets/covers/editions/edition-048-2026-10-poetic-natural.webp",
+            "bytes": 311294
+          }
+        ]
+      },
+      {
+        "route": "/index.html",
+        "width": 1440,
+        "dpr": 2,
+        "covers": [
+          {
+            "edition": "48",
+            "src": "assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 48 · OCTOBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 48. Pale kans grass leans beside a quiet river beneath an open autumn sky with two distant birds.",
+            "width": 361.328125,
+            "height": 541.984375
+          },
+          {
+            "edition": "47",
+            "src": "assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 47 · SEPTEMBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 47. A single fallen ivory frangipani flower on wet red laterite earth, small deep teal puddle reflecting an overcast sky, exquisite low macro perspective.",
+            "width": 361.328125,
+            "height": 541.984375
+          },
+          {
+            "edition": "46",
+            "src": "assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 46 · AUGUST 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 46. An artist uses a fine brush to paint an original floral border on cloth, inspired by Raghurajpur.",
+            "width": 361.34375,
+            "height": 542.015625
+          }
+        ],
+        "overflow": false,
+        "metadata": "https://ahimanikya.github.io/kabita-live/assets/social/940e95051e7460573308.jpg",
+        "images": [
+          {
+            "src": "/assets/cover-layout-b.css",
+            "bytes": 560
+          },
+          {
+            "src": "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "bytes": 82286
+          },
+          {
+            "src": "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "bytes": 120352
+          },
+          {
+            "src": "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "bytes": 74910
+          }
+        ]
+      },
+      {
+        "route": "/archive.html",
+        "width": 1440,
+        "dpr": 2,
+        "covers": [
+          {
+            "edition": "48",
+            "src": "assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 48 · OCTOBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 48. Pale kans grass leans beside a quiet river beneath an open autumn sky with two distant birds.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "47",
+            "src": "assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 47 · SEPTEMBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 47. A single fallen ivory frangipani flower on wet red laterite earth, small deep teal puddle reflecting an overcast sky, exquisite low macro perspective.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "46",
+            "src": "assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 46 · AUGUST 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 46. An artist uses a fine brush to paint an original floral border on cloth, inspired by Raghurajpur.",
+            "width": 369.34375,
+            "height": 554.015625
+          },
+          {
+            "edition": "45",
+            "src": "assets/responsive/cover-b0a9fcaadafe644a-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 45 · JULY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 45. A single empty narrow wooden fishing boat among sparse reeds on a tranquil Odisha lagoon at blue hour, wide quiet water seen in a vertical composition, ochre rope on the bow.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "44",
+            "src": "assets/responsive/cover-acf027ea60b1379c-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 44 · JUNE 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 44. A simple earthen Odisha courtyard threshold with delicate white rice-paste Jhoti drawing, monsoon rain, a brass water vessel beside a laterite-red wall, no people.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "43",
+            "src": "assets/responsive/cover-2cc1f3e921554b0b-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 43 · MAY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 43. Three handmade terracotta water pitchers drying beside a low mud wall, an indigo cotton cloth, a small pool of window light in a traditional Odisha pottery workspace.",
+            "width": 369.34375,
+            "height": 554.015625
+          },
+          {
+            "edition": "42",
+            "src": "assets/responsive/cover-2704877c34fa3afe-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 42 · APRIL 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 42. A windswept casuarina on an empty Odisha coastal beach, deep sea-blue waves beyond, pale sand, muted ochre needles, quiet midday haze.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "41",
+            "src": "assets/responsive/cover-9f0d302b894926fe-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 41 · MARCH 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 41. A few rust-red palasha blossoms on a slender branch against a distant hazy Odisha hillside, dry ochre grasses and blue shadow, realistic botanical intimacy.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "40",
+            "src": "assets/responsive/cover-828595900e6e03d0-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 40 · FEBRUARY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 40. A handloom with restrained ivory, rust and deep teal ikat cotton threads in an Odisha weaving room, shallow focus, tactile wood and soft side light, no lettering and no people.",
+            "width": 369.34375,
+            "height": 554.015625
+          },
+          {
+            "edition": "39",
+            "src": "assets/responsive/cover-8fb8e72a643a0fbd-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 39 · JANUARY 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 39. An ivory veil of dawn mist above harvested paddy fields, one low haystack and a distant palm in rural Odisha, muted ochre stubble and blue-green shadows.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "38",
+            "src": "assets/responsive/cover-96f9bebf72c66bf9-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 38 · DECEMBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 38. A tiny unlit terracotta oil lamp on a timeworn laterite niche beside an ivory wall, deep blue twilight outside, understated warm ambient light without theatrical glow.",
+            "width": 369.328125,
+            "height": 553.984375
+          },
+          {
+            "edition": "37",
+            "src": "assets/responsive/cover-c2a3b3f44c81f506-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 37 · NOVEMBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 37. Two handmade paper boats with a single marigold each resting near the edge of an Odisha river at dawn, Kartika seasonal mood, teal reflection and ochre silt, intimate still life.",
+            "width": 369.34375,
+            "height": 554.015625
+          },
+          {
+            "edition": "36",
+            "src": "assets/responsive/cover-a16f63eff143e21a-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 36 · OCTOBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 36. Kans grass plumes beside a narrow rural path after the rains in Odisha, ivory feathery grasses against deep blue-green distance, a small patch of rust-red soil.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "35",
+            "src": "assets/responsive/cover-00d7fd5499e48ab2-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 35 · SEPTEMBER 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 35. An ivory lotus bud rising through broad rain-speckled lotus leaves on a quiet Odisha pond, teal water and subdued earthy reflections, close natural study.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "34",
+            "src": "assets/responsive/cover-258685a443334323-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 34 · AUGUST 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 34. Rain running down the edge of old terracotta roof tiles above an Odisha courtyard, gentle teal distant blur, an ivory cloth drying in shelter, quietly realistic.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "33",
+            "src": "assets/responsive/cover-78edb0f47d058cf7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 33 · JULY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 33. A softly gleaming kansa bowl, a resting hand and a hammer on a workshop bench.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "32",
+            "src": "assets/responsive/cover-431c9fe59950c699-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 32 · JUNE 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 32. First rain touching parched red earth in an Odisha village lane, small puddles, ochre dust becoming mud, low intimate perspective, teal-grey cloud reflection.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "31",
+            "src": "assets/responsive/cover-c1f879aa740d1785-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 31 · MAY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 31. Green mangoes and one ripe ochre mango in a small woven palm basket under a tree, mottled ivory sunlight on red earth, quiet Odisha summer afternoon.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "30",
+            "src": "assets/responsive/cover-2ff4f4498e9fb54a-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 30 · APRIL 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 30. An ivory cotton gamucha with red checks dries on a wooden rail beside the sea.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "29",
+            "src": "assets/responsive/cover-fbefd18da1b5c8ae-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 29 · MARCH 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 29. A narrow path passes through kendu woodland beneath rounded green leaves.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "28",
+            "src": "assets/responsive/cover-837d69e7f04fecff-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 28 · FEBRUARY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 28. A teal Sambalpuri bandha-inspired sari with ivory woven patterns and a red border draped over a stool.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "27",
+            "src": "assets/responsive/cover-ee547b4ab8a8f444-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 27 · JANUARY 2025\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 27. A neatly coiled ochre fishing net on the edge of a small wooden boat in an Odisha coastal village, deep blue water and weathered terracotta-toned wood, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "26",
+            "src": "assets/responsive/cover-c76bb14abde83fea-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 26 · DECEMBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 26. A simple rural Odisha earthen cooking hearth, a clay pot, delicate real smoke drifting into cool window light, warm ochre straw and soot-blue shadows, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "25",
+            "src": "assets/responsive/cover-96f60d1a7a2317a7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 25 · NOVEMBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 25. Quiet old stone steps descending to an Odisha river at early morning, one small brass vessel, deep teal water, soft ivory sky reflection, laterite embankment.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "24",
+            "src": "assets/responsive/cover-e42e6dd625d15dae-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 24 · OCTOBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 24. A short unfinished thread of muted saffron marigolds laid on an old blue wooden ledge, ivory cotton and red clay floor, natural intimate still life in Odisha.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "23",
+            "src": "assets/responsive/cover-6e94a6cdf583c658-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 23 · SEPTEMBER 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 23. A flooded paddy field reflecting pale monsoon sky, young rice rows and a small ochre earthen bund cutting a graceful curve through teal water, rural Odisha.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "22",
+            "src": "assets/responsive/cover-006d6b1a2bedc8cb-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 22 · AUGUST 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 22. A weathered ordinary bicycle resting against an old laterite village wall, a faded sea-blue door, monsoon foliage and a single ivory towel, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "21",
+            "src": "assets/responsive/cover-5ebd26a3719ea2e7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 21 · JULY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 21. A broad banana leaf holding clear raindrops above an Odisha courtyard, deep teal-green shade and a blurred red earthen wall, sculptural close photographic composition.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "20",
+            "src": "assets/responsive/cover-8ece99bc0ced9edc-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 20 · JUNE 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 20. An empty simple rope swing beneath a large rural Odisha tree before monsoon, ochre rope, muted indigo shadows, reddish earth and ivory humid sky, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "19",
+            "src": "assets/responsive/cover-cec3ff39824d7b17-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 19 · MAY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 19. A freshly cut small section of jackfruit on a dark wooden board beside a brass bowl, natural ochre fruit, cool sea-blue window shadow, quiet Odisha home still life.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "18",
+            "src": "assets/responsive/cover-f25706629edbd829-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 18 · APRIL 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 18. A handwoven palm-leaf fan resting on an ivory cotton mat by a low red-earth threshold, hot afternoon softened by deep teal doorway shade, lived-in Odisha home.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "17",
+            "src": "assets/responsive/cover-0aaa4bf230e40ee5-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 17 · MARCH 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 17. Small orchids, ferns and a mossy tree beside a rocky forest stream, an imagined Similipal scene.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "16",
+            "src": "assets/responsive/cover-a4c5b9116bbc1229-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 16 · FEBRUARY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 16. An interpretive portrait of Fakir Mohan Senapati, with swept white hair, an attentive gaze and a dark coat.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "15",
+            "src": "assets/responsive/cover-1d34cd24dbd58138-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 15 · JANUARY 2024\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 15. A carefully tied small sheaf of harvested rice resting on a red laterite courtyard floor, low winter sunlight, ivory husks and cool sea-blue shade, tactile natural detail.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "14",
+            "src": "assets/responsive/cover-25f224d992f4e6eb-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 14 · DECEMBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 14. A simple handwoven ochre and ivory shawl draped over an old wooden chair next to a deep sea-blue door in an Odisha home, winter morning light, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "13",
+            "src": "assets/responsive/cover-c2c35eb23dd0b3ac-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 13 · NOVEMBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 13. A shallow Odisha lagoon under a pale rising moon, a few gentle ripples and distant reeds, deep sea-blue, ivory reflections, almost abstract but photographically realistic.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "12",
+            "src": "assets/responsive/cover-9be8d38793918e98-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 12 · OCTOBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 12. A delicate white shiuli flower with rust-orange stem resting beside others on a damp laterite-red garden path, autumn morning, intimate realistic low viewpoint.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "11",
+            "src": "assets/responsive/cover-a7d01780208431e1-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 11 · SEPTEMBER 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 11. Rain-laden water droplets along the edge of a thatched Odisha veranda, soft teal pond beyond, an ochre woven mat rolled in the corner, no people.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "10",
+            "src": "assets/responsive/cover-66707a112cdb43a7-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 10 · AUGUST 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 10. A close artistic study of a carved chariot wheel at Konark with weathered stone and warm side light.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "9",
+            "src": "assets/responsive/cover-21bc9b71ca86e6f1-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 9 · JULY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 9. A quiet bend in a broad Odisha river viewed from a high ochre bank, pale ivory mist, deep teal river ribbon and a distant modest fishing boat, no identifiable monument.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "8",
+            "src": "assets/responsive/cover-a37cbadcade36ffe-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 8 · JUNE 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 8. A small terracotta bowl with soaked rice seedlings on a wet courtyard ledge, muted sea-blue background and ivory cloudy light, realistic rural Odisha seasonal still life.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "7",
+            "src": "assets/responsive/cover-3cbc70adf3b430ed-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 7 · MAY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 7. A large tamarind tree shading an empty red-earth path in rural Odisha, weathered ochre bench, soft pale summer haze, deep teal foliage shade.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "6",
+            "src": "assets/responsive/cover-d8850f7fbe645c53-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 6 · APRIL 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 6. An old brass bowl filled with clear water and one ivory flower on a laterite ledge, sea-blue reflected sky, delicate natural light, minimal Odisha domestic still life.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "5",
+            "src": "assets/responsive/cover-86a9c9249ff17b69-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 5 · MARCH 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 5. Broad grass-covered Deomali ridges beneath moving clouds, with layered hills beyond.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "4",
+            "src": "assets/responsive/cover-a2b259e04bae9f1e-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 4 · FEBRUARY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 4. A single delicate Odisha-style silver filigree leaf earring resting on deep teal cotton with an ivory thread and a warm ochre wooden tabletop, restrained macro still life, no text.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "3",
+            "src": "assets/responsive/cover-eb26651db5b7694c-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 3 · JANUARY 2023\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 3. A single conch shell beside the gentle foam line of an empty Odisha beach at winter sunrise, sea blue, ivory foam, muted ochre sand and soft rust horizon.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "2",
+            "src": "assets/responsive/cover-66d38bf090236fcf-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 2 · DECEMBER 2022\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 2. Small woven bamboo grain baskets beneath a thatched rural Odisha veranda, ivory husks, ochre straw and a distant deep sea-blue door, quiet winter evening.",
+            "width": 0,
+            "height": 0
+          },
+          {
+            "edition": "1",
+            "src": "assets/responsive/cover-0257a09141f8220d-768-q82.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 1 · NOVEMBER 2022\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 1. A fresh small terracotta cup on an ivory cotton cloth beside an open unmarked notebook, sea-blue wooden table near a rural Odisha window, soft morning light, no visible writing.",
+            "width": 0,
+            "height": 0
+          }
+        ],
+        "overflow": false,
+        "metadata": "https://ahimanikya.github.io/kabita-live/assets/social/940e95051e7460573308.jpg",
+        "images": [
+          {
+            "src": "/assets/cover-layout-b.css",
+            "bytes": 560
+          },
+          {
+            "src": "/assets/responsive/cover-91297e1812c66358-768-q82.webp",
+            "bytes": 120352
+          },
+          {
+            "src": "/assets/responsive/cover-fd20ec8044fb3f89-768-q82.webp",
+            "bytes": 82286
+          },
+          {
+            "src": "/assets/responsive/cover-618ea0191e9994ab-768-q82.webp",
+            "bytes": 74910
+          },
+          {
+            "src": "/assets/responsive/cover-b0a9fcaadafe644a-768-q82.webp",
+            "bytes": 110966
+          },
+          {
+            "src": "/assets/responsive/cover-2cc1f3e921554b0b-768-q82.webp",
+            "bytes": 78444
+          },
+          {
+            "src": "/assets/responsive/cover-2704877c34fa3afe-768-q82.webp",
+            "bytes": 133824
+          },
+          {
+            "src": "/assets/responsive/cover-acf027ea60b1379c-768-q82.webp",
+            "bytes": 166402
+          },
+          {
+            "src": "/assets/responsive/cover-828595900e6e03d0-768-q82.webp",
+            "bytes": 117390
+          },
+          {
+            "src": "/assets/responsive/cover-8fb8e72a643a0fbd-768-q82.webp",
+            "bytes": 130316
+          },
+          {
+            "src": "/assets/responsive/cover-9f0d302b894926fe-768-q82.webp",
+            "bytes": 84644
+          },
+          {
+            "src": "/assets/responsive/cover-96f9bebf72c66bf9-768-q82.webp",
+            "bytes": 78026
+          },
+          {
+            "src": "/assets/responsive/cover-c2a3b3f44c81f506-768-q82.webp",
+            "bytes": 71008
+          },
+          {
+            "src": "/assets/responsive/cover-00d7fd5499e48ab2-768-q82.webp",
+            "bytes": 82978
+          },
+          {
+            "src": "/assets/responsive/cover-a16f63eff143e21a-768-q82.webp",
+            "bytes": 135080
+          },
+          {
+            "src": "/assets/responsive/cover-258685a443334323-768-q82.webp",
+            "bytes": 88588
+          },
+          {
+            "src": "/assets/responsive/cover-78edb0f47d058cf7-768-q82.webp",
+            "bytes": 72336
+          },
+          {
+            "src": "/assets/responsive/cover-431c9fe59950c699-768-q82.webp",
+            "bytes": 116398
+          },
+          {
+            "src": "/assets/responsive/cover-c1f879aa740d1785-768-q82.webp",
+            "bytes": 110658
+          },
+          {
+            "src": "/assets/responsive/cover-2ff4f4498e9fb54a-768-q82.webp",
+            "bytes": 100698
+          },
+          {
+            "src": "/assets/responsive/cover-fbefd18da1b5c8ae-768-q82.webp",
+            "bytes": 199452
+          },
+          {
+            "src": "/assets/responsive/cover-ee547b4ab8a8f444-768-q82.webp",
+            "bytes": 155284
+          },
+          {
+            "src": "/assets/responsive/cover-837d69e7f04fecff-768-q82.webp",
+            "bytes": 121606
+          },
+          {
+            "src": "/assets/responsive/cover-c76bb14abde83fea-768-q82.webp",
+            "bytes": 81908
+          },
+          {
+            "src": "/assets/responsive/cover-96f60d1a7a2317a7-768-q82.webp",
+            "bytes": 122122
+          },
+          {
+            "src": "/assets/responsive/cover-e42e6dd625d15dae-768-q82.webp",
+            "bytes": 80204
+          },
+          {
+            "src": "/assets/responsive/cover-6e94a6cdf583c658-768-q82.webp",
+            "bytes": 156214
+          },
+          {
+            "src": "/assets/responsive/cover-006d6b1a2bedc8cb-768-q82.webp",
+            "bytes": 186484
+          },
+          {
+            "src": "/assets/responsive/cover-5ebd26a3719ea2e7-768-q82.webp",
+            "bytes": 95706
+          },
+          {
+            "src": "/assets/responsive/cover-8ece99bc0ced9edc-768-q82.webp",
+            "bytes": 178230
+          },
+          {
+            "src": "/assets/responsive/cover-f25706629edbd829-768-q82.webp",
+            "bytes": 120810
+          },
+          {
+            "src": "/assets/responsive/cover-cec3ff39824d7b17-768-q82.webp",
+            "bytes": 88422
+          },
+          {
+            "src": "/assets/responsive/cover-0aaa4bf230e40ee5-768-q82.webp",
+            "bytes": 218772
+          },
+          {
+            "src": "/assets/responsive/cover-a4c5b9116bbc1229-768-q82.webp",
+            "bytes": 108604
+          },
+          {
+            "src": "/assets/responsive/cover-1d34cd24dbd58138-768-q82.webp",
+            "bytes": 128794
+          },
+          {
+            "src": "/assets/responsive/cover-c2c35eb23dd0b3ac-768-q82.webp",
+            "bytes": 65566
+          },
+          {
+            "src": "/assets/responsive/cover-25f224d992f4e6eb-768-q82.webp",
+            "bytes": 83738
+          },
+          {
+            "src": "/assets/responsive/cover-9be8d38793918e98-768-q82.webp",
+            "bytes": 97126
+          },
+          {
+            "src": "/assets/responsive/cover-a7d01780208431e1-768-q82.webp",
+            "bytes": 125346
+          },
+          {
+            "src": "/assets/responsive/cover-66707a112cdb43a7-768-q82.webp",
+            "bytes": 184910
+          },
+          {
+            "src": "/assets/responsive/cover-21bc9b71ca86e6f1-768-q82.webp",
+            "bytes": 137470
+          },
+          {
+            "src": "/assets/responsive/cover-a37cbadcade36ffe-768-q82.webp",
+            "bytes": 83186
+          },
+          {
+            "src": "/assets/responsive/cover-d8850f7fbe645c53-768-q82.webp",
+            "bytes": 105334
+          },
+          {
+            "src": "/assets/responsive/cover-86a9c9249ff17b69-768-q82.webp",
+            "bytes": 152190
+          },
+          {
+            "src": "/assets/responsive/cover-a2b259e04bae9f1e-768-q82.webp",
+            "bytes": 84232
+          },
+          {
+            "src": "/assets/responsive/cover-eb26651db5b7694c-768-q82.webp",
+            "bytes": 131132
+          },
+          {
+            "src": "/assets/responsive/cover-3cbc70adf3b430ed-768-q82.webp",
+            "bytes": 198388
+          },
+          {
+            "src": "/assets/responsive/cover-66d38bf090236fcf-768-q82.webp",
+            "bytes": 131204
+          },
+          {
+            "src": "/assets/responsive/cover-0257a09141f8220d-768-q82.webp",
+            "bytes": 102812
+          }
+        ]
+      },
+      {
+        "route": "/issue-48.html",
+        "width": 1440,
+        "dpr": 2,
+        "covers": [
+          {
+            "edition": "48",
+            "src": "assets/covers/editions/edition-048-2026-10-poetic-natural.webp",
+            "viewBox": "0 0 1024 1536",
+            "text": "\n \n Kabita Live\n ମାଟିର ମହକ · ମନର ସ୍ୱର\n ISSUE 48 · OCTOBER 2026\n ODIA · HINDI · ENGLISH\n ",
+            "alt": "Kabita Live issue 48. Pale kans grass leans beside a quiet river beneath an open autumn sky with two distant birds.",
+            "width": 320,
+            "height": 480
+          }
+        ],
+        "overflow": false,
+        "metadata": "https://ahimanikya.github.io/kabita-live/assets/social/c3175243df9a33e05af2.jpg",
+        "images": [
+          {
+            "src": "/assets/cover-layout-b.css",
+            "bytes": 560
+          },
+          {
+            "src": "/assets/covers/editions/edition-048-2026-10-poetic-natural.webp",
+            "bytes": 311294
+          }
+        ]
+      }
+    ]
+  },
+  "content_integrity": {
+    "construction": "Two matching current-source Astro artifacts. Before reverses only SVG card bitmap hrefs; all text, vector mastheads/geometry, scripts, source metadata, provider config and assets identical. No source reversion.",
+    "changed_html": [
+      "archive-2022.html",
+      "index.html",
+      "archive-2023.html",
+      "archive-2024.html",
+      "archive-2025.html",
+      "archive-2026.html",
+      "archive.html"
+    ],
+    "sources": 48,
+    "source_bytes": 13965096,
+    "card_bytes": 5680550,
+    "original_sources_preserved": true
+  },
+  "verification": [
+    "14 targeted cover/image delivery and sharing metadata tests pass.",
+    "Isolated Astro public build passes: 1316 pages. Shared second build collided with another builder; isolated snapshots used without overwriting concurrent dist.",
+    "Seven homepage/archive/year pages differ only in SVG raster hrefs; vector lettering, gradients, composition, labels and native edition artwork preserved.",
+    "48 source hashes match recovery; deterministic cached derivatives; only currently selected cover sources processed, historical studies excluded.",
+    "12 viewport/DPR checks across home, archive and native issue pages; no overflow and same SVG aspect/labels.",
+    "12 paired performance observations under identical conditions; first exploratory artifact excluded."
+  ],
+  "evidence_root": "artifacts/performance/cover-card-delivery-2026-10-06",
+  "execution": "Current chat assistant; Samanta engineering and Drishti self-review role passes; independent false.",
+  "release": "Local source integration and isolated public candidate only; no push/deploy/merge.",
+  "maintenance": "npm prepare:images runs selected-cover delivery. 768px quality82 copies only in card contexts, sufficient for current <=384px cards at DPR2. SVG mastheads stay vector. Native sources remain on edition/download/share paths; unusually smaller originals kept. Content-hashed URLs support invalidation, hosting cache-header verification deferred to release."
+}

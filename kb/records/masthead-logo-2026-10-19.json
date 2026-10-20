@@ -1,0 +1,41 @@
+{
+  "id": "KBL-DEC-068",
+  "work": "KBL-WORK-050",
+  "title": "Match the website logo size to the masthead",
+  "recorded_at": "2026-10-19T04:14:00.084106+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "user_quote": "Can the logo size match the master header text?",
+  "status": "applied_local_with_visual_check_pending",
+  "basis": "Approved Ink & Voice shared header refinement.",
+  "implementation": {
+    "desktop": "One shared clamp(2.75rem,6.5vw,5.375rem) for logo box and masthead text.",
+    "compact": "One shared clamp(1.625rem,7vw,3rem); brand wrapping allows enlarged text to reflow.",
+    "asset": "Original 256x256 logo unchanged; object-fit:contain preserves its aspect ratio.",
+    "cache_version": "20261019-logo"
+  },
+  "checklist": {
+    "scope": "Existing shared header; no route, content, image selection, metadata or service changes.",
+    "rules": [
+      "DESIGN-01",
+      "DESIGN-02",
+      "DELIVERY-01",
+      "DELIVERY-02",
+      "DELIVERY-03"
+    ],
+    "content": "1,017 source/config/cover baseline hashes unchanged.",
+    "browser": "Browser visual/reflow verification could not run: the automatic approval review service reported model capacity on three attempts. No unsafe-action rejection occurred; no alternate browser access was used.",
+    "handoff": "Final synchronization and storage validation follow the completed records.",
+    "build": {
+      "node": "24.15.0",
+      "result": "pass",
+      "completion": "Astro Complete and final Pagefind Finished markers present.",
+      "styled_header_pages": 1316,
+      "stale_style_references": [],
+      "exported_css_matches_source": true
+    }
+  },
+  "evidence": [
+    "artifacts/design/masthead-logo-2026-10-19/verification.json"
+  ],
+  "publication": "No push or deployment."
+}

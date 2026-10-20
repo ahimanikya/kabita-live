@@ -1,13 +1,30 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import sharp from 'sharp';
 
 const entries=Object.values(JSON.parse(await fs.readFile('.generated/social-previews.json','utf8')));
-const images=new Map(entries.map(e=>[e.asset,e.source]));
-for (const [asset,source] of images) {
+// Use the cover's licensed Indic and masthead fonts when rasterizing its exact SVG.
+if(entries.some(e=>e.cover_svg)){
+  const xml=value=>value.replaceAll('&','&amp;').replaceAll('<','&lt;');
+  const fontConfig=path.resolve('.generated/social-fonts.conf');
+  const systemFonts=process.platform==='darwin'?'<dir>/System/Library/Fonts</dir><dir>/Library/Fonts</dir>':'';
+  await fs.writeFile(fontConfig,`<?xml version="1.0"?><!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd"><fontconfig><include ignore_missing="yes">/etc/fonts/fonts.conf</include>${systemFonts}<dir>${xml(path.resolve('assets/fonts'))}</dir><cachedir>${xml(path.resolve('.generated/font-cache'))}</cachedir></fontconfig>`);
+  process.env.FONTCONFIG_FILE=fontConfig;
+}
+const {default:sharp}=await import('sharp');
+const images=new Map(entries.map(e=>[e.asset,e]));
+for (const [asset,entry] of images) {
+  const source=entry.source;
   const destination=path.join('.public',asset);
   await fs.mkdir(path.dirname(destination),{recursive:true});
-  await sharp(source).rotate().resize(1200,630,{fit:'contain',background:'#f6f0e4'})
+  let input=source;
+  if(entry.cover_svg){
+    const mime={'.webp':'image/webp','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png'}[path.extname(source).toLowerCase()];
+    if(!mime||!entry.cover_svg.includes(`href="${source}"`))throw Error('Current cover artwork does not match its SVG');
+    // librsvg does not consistently decode WebP inside SVG images; embed lossless PNG.
+    const uri=`data:image/png;base64,${(await sharp(source).png().toBuffer()).toString('base64')}`;
+    input=Buffer.from(entry.cover_svg.replaceAll(`href="${source}"`,`href="${uri}"`));
+  }
+  await sharp(input).rotate().resize(1200,630,{fit:'contain',background:'#f6f0e4'})
     .flatten({background:'#f6f0e4'}).jpeg({quality:88,mozjpeg:true}).toFile(destination);
 }
 console.log(`Sharing previews: ${entries.length} pages, ${images.size} JPEG images; portraits and artwork kept uncropped.`);

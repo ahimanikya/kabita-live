@@ -1,0 +1,26 @@
+[
+  {
+    "path": "kb/artifacts/review/consistent-reader-controls-2026-10-06/build.log",
+    "source_sha256": "786494dded46924e60e183a41cd01855e8afcd1f1a864c6f006b3697bc656ecb",
+    "portable_sha256": "b0d788b4c1b4348fb1a9cfeb5bba89bc6973e9f923bbe76dd63f28debcef712f",
+    "evidence": "Portable exact prefix; source adds recorded concurrent work."
+  },
+  {
+    "path": "kb/registers/DASHBOARD.md",
+    "source_sha256": "7adee120ec304a30e0fe3a5cdbee2a5035ebe8926038ba85fc9a97f5b2ea3bef",
+    "portable_sha256": "4e9369cfa8e6455ae6f5496f04288d5e7c5bf517c23680be803bd9045d2bad1d",
+    "evidence": "Generated dashboard checked current; only hash and sliding event window differ."
+  },
+  {
+    "path": "kb/registers/activity.jsonl",
+    "source_sha256": "3c98c99d45ce6809623317a067185960bff876b7e585d8e285d95ed66eec6857",
+    "portable_sha256": "126c8eafb258087933f94d21abadecb4721ac76929f0531d8eddbe6b656da99a",
+    "evidence": "Portable exact prefix; source adds recorded concurrent work."
+  },
+  {
+    "path": "site/assets/poem-experience.css",
+    "source_sha256": "0413483c2fc80cc1130477378524955e111f8a4fc44ff98cb5fa188846f1a8ef",
+    "portable_sha256": "e6b9eb254d921ae43510e80d5c1d5e3026522836d74a806eb96aa291a451b4a7",
+    "evidence": "Portable exact prefix; source adds recorded concurrent work."
+  }
+]

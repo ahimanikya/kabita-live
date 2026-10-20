@@ -1,0 +1,70 @@
+--- before/ink_voice.py
++++ after/ink_voice.py
+@@ -3,14 +3,13 @@
+ Magazine covers and source poetry are deliberately left intact.
+ """
+ import re
++from html import escape
+ 
+ 
+-def redesign_home(text):
++def redesign_home(text, edition, cover_markup):
+     opening = re.search(r'<section class="home-opening\b.*?</section>', text, re.S)
+     featured = re.search(r'<section id="featured-poems".*?</section>', text, re.S)
+     assert opening and featured, 'Homepage source sections missing'
+-    artwork = opening.group().split('<figure class="home-art', 1)[1].removesuffix('</section>')
+-    artwork = '<figure class="home-art' + artwork
+     action = re.search(r'<a class="btn solid".*?</a>', opening.group(), re.S).group()
+     issue = re.search(r'<span class="eyebrow home-artistic-label">.*?</span>', opening.group(), re.S).group()
+     issue = re.sub(r'<svg\b.*?</svg>', '', issue, flags=re.S)
+@@ -18,6 +17,16 @@
+     # Reuse the existing full, source-backed candidate pool and daily selection.
+     candidates = featured.group().split('<div class="three"', 1)[1].removesuffix('</section>')
+     candidates = '<div class="three"' + candidates
++    number = edition['number']
++    # Reuse the reviewed front cover and its explicit edition-page link.
++    cover_markup = cover_markup.replace(f'cover-b cover-{number}"', f'cover-b cover-{number} magazine-object"')
++    current = (f'<section class="ink-current-edition" aria-labelledby="ink-edition-title">'
++               '<div class="ink-edition-copy"><span class="eyebrow">Current edition</span>'
++               f'<h2 id="ink-edition-title">Issue {number}</h2>'
++               f'<p class="ink-edition-meta">{escape(edition["date"])} · {edition["poem_count"]} poems</p>'
++               f'<h3>{escape(edition["title"])}</h3><p class="ink-edition-story">{escape(edition["story"])}</p>'
++               f'<a class="btn solid" href="issue-{number}.html">Read this edition <span aria-hidden="true">↗</span></a>'
++               '</div><div class="ink-edition-cover">' + cover_markup + '</div></section>')
+     new = (f'<section class="ink-opening" aria-labelledby="ink-home-title">'
+            '<div class="ink-invitation"><span class="eyebrow">ODIA · HINDI · ENGLISH</span>'
+            '<h1 id="ink-home-title">Poems to<br><em>keep close.</em></h1>'
+@@ -28,15 +37,11 @@
+            '<button type="button" data-feature-language="en" aria-pressed="false">English</button>'
+            '<button type="button" data-feature-language="hi" lang="hi" aria-pressed="false">हिन्दी</button>'
+            '<button type="button" data-feature-language="or" lang="or" aria-pressed="false">ଓଡ଼ିଆ</button>'
+-           '</div>' + candidates + '</section></section>'
+-           '<section class="ink-view" aria-label="A view from the journal">'
+-           '<div class="ink-view-copy"><span class="eyebrow">From the journal</span>'
+-           '<p class="epigraph">“Poetry is an echo,<br>asking a shadow to dance.”</p>'
+-           '<a class="text-link" href="poems.html">Find a poem</a></div>' + artwork + '</section>')
++           '</div>' + candidates + '</section></section>' + current)
+     return text.replace(opening.group(), new, 1).replace(featured.group(), '', 1)
+ 
+ 
+-def apply_ink_voice(site, filenames):
++def apply_ink_voice(site, filenames, *, current_edition, current_cover):
+     count = 0
+     for name in set(filenames):
+         path = site / name
+@@ -47,12 +52,10 @@
+             continue
+         if 'assets/ink-voice.css' in text:
+             continue
+-        text = text.replace('</head>', '<link rel="preload" href="assets/fonts/Newsreader-Variable.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="assets/ink-voice.css?v=20261019-logo"></head>', 1)
+-        text = text.replace('<header class="wrap site-header">', '<header class="wrap site-header ink-header">', 1)
+-        signature = '<p class="ink-signature" lang="or">ମାଟିର ମହକ<br>ହୃଦୟର ସ୍ବର</p>'
+-        text = text.replace('<button type="button" class="menu menu-icon"', signature + '<button type="button" class="menu menu-icon"', 1)
++        text = text.replace('</head>', '<link rel="preload" href="assets/fonts/Newsreader-Variable.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="assets/ink-voice.css?v=20261019-edition"></head>', 1)
++        # Keep the established compact masthead/menu markup. The signature belongs on covers.
+         if name == 'index.html':
+-            text = redesign_home(text)
++            text = redesign_home(text, current_edition, current_cover)
+         path.write_text(text)
+         count += 1
+     print(f'Ink & Voice: {count} assembled reader pages styled; cover artwork unchanged.')

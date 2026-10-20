@@ -1,0 +1,18 @@
+{
+  "batch": "batch-119",
+  "task": "FLEET-018",
+  "at": "2026-10-07T13:27:00.938184+00:00",
+  "status": "kabita_article_response_foundation",
+  "checks": {
+    "affected_tests_passed": 22,
+    "new_article_cases": 8,
+    "explicit_article_contexts": 2,
+    "candidate_activation_disabled": true
+  },
+  "limitations": [
+    "Explicit identity manifest selects issue48 editorial (or/en/hi) and existing language essay (en), with stable article IDs across variants and route/title changes. Numeric poem schema and existing reader source remain unchanged.",
+    "Exact hash-pinned common transport copied; candidate article adapter rejects wrong project, unknown/private/poem/unavailable-language contexts before reads. Connection remains deferred, retries failures and reuses successful transport; no automatic activation.22 affected source/module regression checks pass, including8new article cases.",
+    "Source foundation only: generated controls, provider packaging, dedicated article rules/identity provisioning and browser integration remain next. No public build or live service claim. Active runtime-config and poem UI/SDK schemas unchanged; portable source sync will follow verified article UI integration. No deployment, source-text, image, translation or cloud changes."
+  ],
+  "next_action": "Integrate article Like/comment/private feedback controls and provider packaging for both prose contexts; verify fresh public build, rules and browser behaviour. Keep candidate activation disabled until reviewed provisioning; preserve active poem service and portable handoff."
+}

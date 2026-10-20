@@ -1,0 +1,24 @@
+{
+  "title": "Compact poem toolbar and top reader theme",
+  "work_ref": "KBL-WORK-032",
+  "status": "local_review_ready",
+  "published": false,
+  "independent": false,
+  "updated_at": "2026-10-06T07:59:33.649551+00:00",
+  "executor": "Current chat assistant; Samanta implementation and Drishti self-review",
+  "authorization": "User request: theme before menu at top; poem toolbar icons with tooltips and Like.",
+  "changes": [
+    "Reader theme moved before settings in top row; centered pagination preserved",
+    "Four icon-only poem actions with accessible labels and focus/hover tooltips",
+    "Single existing Like moved to toolbar; comments remain below; no service/consent/host changes"
+  ],
+  "checks": {
+    "node24_build": "PASS",
+    "scoped_public_integrity": "PASS",
+    "tests": "31 Node and14 Python passed;10 emulator-only skipped",
+    "like_mock": "PASS count load, no sign-in before click, add and undo, aria/tooltip/status, localhost guard; no live write",
+    "browser": "PASS desktop and320px, four44px actions single row, reader theme before menu, all7 header controls44px single row, light/dark/system, keyboard tooltip; page progress center160px at320px"
+  },
+  "evidence": "kb/artifacts/review/compact-poem-toolbar-2026-10-06",
+  "handoff": "Normal sync and storage PASS; preserved and reconciled stale concurrent snapshots with exact hash guards. Translation workflow retains its own resume status."
+}

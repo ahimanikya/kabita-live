@@ -1,0 +1,62 @@
+{
+  "id": "KBL-DEC-065",
+  "title": "Ink & Voice website direction selected",
+  "recorded_at": "2026-10-19T03:09:01.187010+00:00",
+  "status": "direction_approved_typography_proposed",
+  "human_authority": "Ahimanikya Satapathy",
+  "user_quote": "OK, let's go with Ink & Voice - are we using a separate variety of fonts from Project Odisha?",
+  "scope": "Selected website design direction and demonstrated palette. Typography remains a proposal for discussion; no site-wide implementation or publication has occurred.",
+  "direction": {
+    "name": "Ink & Voice",
+    "character": [
+      "Intimate literary presentation",
+      "Generous space around poetry",
+      "Restrained mulberry emphasis"
+    ],
+    "palette": {
+      "page": "#FAF7F7",
+      "ink": "#27222A",
+      "accent": "#713B55",
+      "soft_fill": "#EADDE3",
+      "muted": "#655A62",
+      "rule": "#D4C8CF",
+      "accent_inverse": "#FFFFFF"
+    }
+  },
+  "preview": {
+    "path": "/Users/ahimanikya/.codex/visualizations/2026/09/29/01a0ee81-0265-7673-a63c-04f6bf884d2d/kabita-live-theme-colours.html",
+    "selected_variant": "Ink & Voice",
+    "fonts": [
+      "Cormorant Garamond",
+      "Source Serif 4",
+      "Noto Serif Oriya",
+      "Tiro Devanagari Hindi",
+      "Arial"
+    ],
+    "note": "The approved preview demonstrated colour and composition, not a distinct font pairing."
+  },
+  "font_comparison": {
+    "shared_with_project_odisha": [
+      "Cormorant Garamond",
+      "Source Serif 4",
+      "Noto Serif Oriya"
+    ],
+    "kabita_evidence": "projects/site/assets/style.css",
+    "project_odisha_evidence": "/Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-fieldwork-pack/kb/records/design-system-fonts.json"
+  },
+  "proposed_typography": {
+    "status": "not_yet_approved_or_implemented",
+    "english_masthead_and_headings": "Newsreader",
+    "english_poems_and_prose": "Literata",
+    "odia_reading": "Retain Noto Serif Oriya",
+    "hindi_reading": "Retain Tiro Devanagari Hindi",
+    "sources": [
+      "https://productiontype.com/font/newsreader",
+      "https://www.typetogether.com/custom-fonts/literata-3-0"
+    ]
+  },
+  "preservation": "Retain historical design decisions, magazine covers, logo, Odia signature, artwork, verse, reader services and release safeguards. The new direction applies to the forthcoming website redesign; it does not replace magazine-cover decisions.",
+  "next_action": "Review the proposed font pairing in the selected Ink & Voice direction before applying new families across the website.",
+  "review": "Current assistant source inspection and design recommendation; no independent review claimed.",
+  "subsequent_implementation": "KBL-DEC-066 / records/ink-and-voice-site-2026-10-19.json: later user instruction applies the updated Newsreader/Literata preview."
+}

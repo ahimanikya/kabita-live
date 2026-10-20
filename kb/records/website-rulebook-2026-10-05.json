@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-10-05T10:35:48.270754+00:00",
+  "status": "documented_verified",
+  "authorization": "User requested a rulebook for future new pages based on accumulated website decisions.",
+  "version": "1.0",
+  "executor": "Current assistant; Samanta documentation and Drishti self-review",
+  "independent": false,
+  "artifacts": [
+    "kb/reference/website-rulebook.md",
+    "kb/review/new-page-checklist.md"
+  ],
+  "scope": [
+    "Consolidate current page-family, typography, meaningful artwork, sharing-image, reader, runtime-service and publication rules.",
+    "Add reusable scoped page checklist and link from AGENTS.md, README, KB and design entrypoints.",
+    "Clarify that older disabled-service notes and dated design consolidations are historical."
+  ],
+  "preservation": [
+    "No new design or service behavior; no website build or deployment for this documentation-only change.",
+    "Retain historical decisions and open review findings. Preserve concurrent translation work.",
+    "Reuse existing authorization; no new per-page approval gate."
+  ],
+  "verification": {
+    "local_rulebook_links": "All local Markdown references in rulebook/checklist resolve; none missing.",
+    "enforcement": "Existing sharing tests and builds remain implementation checks. Rulebook/checklist require applicable review; documentation does not automatically enforce every design rule.",
+    "project_checks": {
+      "design_knowledge": "PASS",
+      "registers": "PASS",
+      "catalogue": "PASS",
+      "bundle": "PASS — 848 local links, zero errors",
+      "portable_handoff": "PASS — synchronized and hashes verified",
+      "storage": "PASS — zero errors",
+      "site_build": "Not run: documentation-only change"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-06",
+  "status": "local_review_ready",
+  "published": false,
+  "work_refs": [
+    "KBL-WORK-030",
+    "KBL-WORK-032"
+  ],
+  "request": "Remove extra quiet-reader language row and Text size label; use Odia/Hindi/English letters left of bookmark; keep line art only in editorial to right of quoted poems.",
+  "changes": [
+    "One quiet-reader header with ଅ / अ / A before bookmark; compact Aa settings icon, no Text size label",
+    "44px targets, full language accessible labels/tooltips and active underline; original-per-poem mode retained in settings",
+    "Active script state updates as original-language reading advances across poems",
+    "All three line-art assets moved to editorial quote groups; none in opening or under cover",
+    "Desktop quote/art columns; phone art below quote to preserve verse width"
+  ],
+  "art_mapping": {
+    "829": "listening chairs, silence and being heard",
+    "827": "fallen flowers, shelter in the earth",
+    "824": "shared tea, love and companionship"
+  },
+  "verification": {
+    "independent": false,
+    "build": "PASS Node24 full public build; initial concurrent missing-public-asset failure retained in build.log",
+    "content": "PASS scoped integrity check:11 original poems,22 translations,3 excerpts, artwork and sharing hashes,48 edition controls and all exported quiet-reader headers",
+    "browser": [
+      "Desktop one60px header with expanded reading area",
+      "320px phone one60px header, all controls fit,619px page area at740px viewport",
+      "Odia/Hindi/English switching and original-per-poem mode",
+      "Extra-large size selection and standard reset",
+      "No edition-opening line art; three quote-art groups per editorial version",
+      "390px quote/art flow without overflow"
+    ]
+  },
+  "evidence": "kb/artifacts/review/reader-header-editorial-art-2026-10-06/",
+  "next_action": "User review locally; publication remains separate."
+}

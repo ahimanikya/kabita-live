@@ -1,0 +1,29 @@
+--- before/assets/ink-voice.css
++++ after/assets/ink-voice.css
+@@ -186,3 +186,15 @@
+ .site-theme .focus-language-icons [data-focus-language="original"]{
+  min-width:max(44px,2.75rem);min-height:max(44px,2.75rem);flex-basis:max(44px,2.75rem)
+ }
++
++/* Approved solid Original badge: keep mulberry/white in both themes. */
++.site-theme .focus-language-icons .original-label,
++.site-theme.poem-page .reading-tabs button .original-label{
++ background:#713b55;color:#fff;border-color:#713b55;
++ width:100%;padding-inline:0;letter-spacing:0;text-align:center;
++}
++/* Align narrow poem tools to the text gutter; keep each group intact. */
++.site-theme.poem-page .poem-toolbar{margin-inline:0}
++@media(max-width:351px){
++ .site-theme.poem-page .poem-toolbar .poem-actions::before{display:none}
++}
+--- before/ink_voice.py
++++ after/ink_voice.py
+@@ -65,7 +65,7 @@
+             continue
+         if 'assets/ink-voice.css' in text:
+             continue
+-        text = text.replace('</head>', '<link rel="preload" href="assets/fonts/Newsreader-Variable.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="assets/ink-voice.css?v=20261019-complete-audit"></head>', 1)
++        text = text.replace('</head>', '<link rel="preload" href="assets/fonts/Newsreader-Variable.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="assets/ink-voice.css?v=20261019-original-mulberry-aligned"></head>', 1)
+         text = text.replace('<img src="assets/kabita-live-symbol.svg" alt=""><span><span class="brand-title">', mark + '<span><span class="brand-title">', 1)
+         text = text.replace('<link rel="icon" href="assets/kabita-live-symbol.svg">', favicon_link(site), 1)
+         # Keep the established compact masthead/menu markup. The signature belongs on covers.

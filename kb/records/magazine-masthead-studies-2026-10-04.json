@@ -1,0 +1,43 @@
+{
+  "recorded_at": "2026-10-04T16:35:25.687142+00:00",
+  "authorization": "We need to work on the masthead - change the font if required. In the magazine, should we use an icon or just text?",
+  "status": "options_for_review",
+  "executor": "Current assistant; Samanta design and Drishti self-review",
+  "independent": false,
+  "scope": "Magazine cover masthead studies only; no website identity or publication change.",
+  "variants": [
+    {
+      "id": "A",
+      "font": "Cormorant Garamond 500",
+      "icon": true,
+      "description": "Current masthead on the refined full-bleed cover"
+    },
+    {
+      "id": "B",
+      "font": "Cormorant Garamond 600",
+      "icon": false,
+      "description": "Larger text-only literary masthead; assistant recommendation"
+    },
+    {
+      "id": "C",
+      "font": "Source Serif 4 600",
+      "icon": false,
+      "description": "Text-only sturdier alternative using an existing licensed local font"
+    }
+  ],
+  "preserved": [
+    "Full-bleed cover photograph",
+    "Odia signature",
+    "Issue metadata",
+    "Prior variants and public covers"
+  ],
+  "preview": "kb/artifacts/artwork/home-natural-2026-10-04/mastheads.html",
+  "generator": "kb/research/home-natural-2026-10-04/build_masthead_studies.py",
+  "evidence": "kb/artifacts/review/home-natural-2026-10-04/masthead-studies.jpg",
+  "verification": [
+    "All3rendered covers and115px thumbnails visually checked",
+    "No horizontal overflow at1280px",
+    "All masthead text fits inside its cover"
+  ],
+  "recommendation": "B: text-only magazine masthead; retain symbol for website/avatar/colophon contexts, subject to user choice."
+}

@@ -1,0 +1,11 @@
+--- before/ink_voice.py
++++ after/ink_voice.py
+@@ -47,7 +47,7 @@
+             continue
+         if 'assets/ink-voice.css' in text:
+             continue
+-        text = text.replace('</head>', '<link rel="preload" href="assets/fonts/Newsreader-Variable.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="assets/ink-voice.css?v=20261019-reader"></head>', 1)
++        text = text.replace('</head>', '<link rel="preload" href="assets/fonts/Newsreader-Variable.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="assets/ink-voice.css?v=20261019-logo"></head>', 1)
+         text = text.replace('<header class="wrap site-header">', '<header class="wrap site-header ink-header">', 1)
+         signature = '<p class="ink-signature" lang="or">ମାଟିର ମହକ<br>ହୃଦୟର ସ୍ବର</p>'
+         text = text.replace('<button type="button" class="menu menu-icon"', signature + '<button type="button" class="menu menu-icon"', 1)

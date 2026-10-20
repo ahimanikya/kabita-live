@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-02T19:57:39.104489+00:00",
+  "user_direction": "Deploy the website too",
+  "status": "blocked_by_automatic_approval_review",
+  "pull_request": "https://github.com/ahimanikya/kabita-live/pull/1",
+  "checkpoint_head": "89054c69b029193a2d1feb227788f0541bdfd021",
+  "main_at_verification": "5e170dddca37e6e11c09b4f9e772c206421ffac8",
+  "proposed_hosting_mode": "preview",
+  "checks": {
+    "mergeable": true,
+    "combined_clean_build": "PASS",
+    "application_tests": "26 passed; 5 Firestore emulator cases deferred to deployment workflow",
+    "public_export": "PASS: no KB/review pages; noindex and robots Disallow retained",
+    "new_portrait_asset": "PASS",
+    "analytics": "Existing separately authorized main configuration preserved",
+    "firebase": "Disabled"
+  },
+  "rejection": {
+    "action": "Merge PR 1 into main",
+    "reason": "Automatic approval review considers prior final-deployment-only portrait gate binding until actionable portraits complete",
+    "required_clarification": "Explicitly confirm deploying current checkpoint now with 153 portraits ready and 270 actionable photographs remaining, overriding earlier wait-until-finished condition for this deployment"
+  },
+  "merge_executed": false,
+  "workflow_dispatched": false,
+  "independent": false,
+  "resume": "After explicit confirmation, recheck PR head/base, merge PR 1 without bypassing protections, dispatch existing manual Publish Kabita Live workflow with hosting_mode preview, then verify workflow and live pages/assets. Preserve latest separately authorized analytics configuration and unchanged DNS."
+}

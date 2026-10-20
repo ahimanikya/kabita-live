@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-07T01:23:21.899366+00:00",
+  "status": "comment_receipts_adapter_checkpoint",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review role passes",
+  "checks": {
+    "rules_emulator_tests_passed": 20,
+    "adapter_sdk_ui_tests_passed": 16,
+    "new_comment_receipt_emulator_cases": 6,
+    "isolated_build": "/private/tmp/kbl-services071-build",
+    "skipped": 0
+  },
+  "limitations": [
+    "Private comment adapter and additive receipt rules candidate locally verified. Reader form not yet wired/activated; older two-write clients and accepted records remain compatible.",
+    "Twenty actual emulator checks pass, including six comment receipt cases; sixteen unchanged adapter/SDK/UI checks also pass. Own minimal receipts cannot be listed, forged, edited or deleted; confirmed replay retains original ID and exact Unicode/spacing.",
+    "Source candidate and isolated build only. No cloud rule deployment, public bundle change, runtime flag or data migration. Form retry integration, feedback receipts, editor compatibility, actual browser auth and final loading remain open."
+  ],
+  "unchanged_inputs": {
+    "runtime-config.json": "bc0f7bf28b7b5378f110979a79dae273f81cd5070a78a92fbbe37500324f5955",
+    "assets/engagement.js": "e4b54b8c9877ddf7a0a17dabbde8e076aae839dd815359c78101371cd8eeaa54",
+    "assets/private-feedback.js": "3e41c39ae39baa1aec481dec9ee9266873e0b34c60fc0f9475220f49fdef9e69"
+  },
+  "recovery": "/Users/ahimanikya/Projects/Poem Without Borders/output/fleet-alignment/batch-process/results/batch-071-recovery/manifest.json"
+}

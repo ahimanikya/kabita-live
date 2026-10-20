@@ -1,0 +1,79 @@
+{
+  "recorded_at": "2026-10-05T10:58:52.723990+00:00",
+  "status": "verified_local_drafts",
+  "variants_read": 10,
+  "variants_revised": 5,
+  "variants_retained": 3,
+  "variants_held_unchanged": 2,
+  "checks": {
+    "layout_tests": "5 passed",
+    "full_site_build": "PASS;Node24;1298 pages",
+    "edition_check": {
+      "result": "PASS",
+      "editions": 47,
+      "complete_poems": 799,
+      "archived_poems": [
+        385,
+        727
+      ],
+      "edition_assigned": 798,
+      "listed_poems": 794,
+      "supplementary_assigned_poems": 4,
+      "source_hashes_verified": 848,
+      "reciprocal_writer_links_checked": 798,
+      "checks": [
+        "Unique edition membership",
+        "Published contents order",
+        "Original capture integrity and reviewed reader verse parity",
+        "Return and next-poem links",
+        "Reciprocal writer contribution links",
+        "Raw source SHA-256"
+      ],
+      "known_gaps": {
+        "unassigned_poems": [
+          645
+        ],
+        "missing_author": [
+          30
+        ],
+        "identical_text_groups_for_editorial_review": [
+          [
+            268,
+            304
+          ],
+          [
+            645,
+            650
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "translation_revision_check": {
+      "result": "PASS",
+      "original_files_unchanged": 801,
+      "recorded_revisions": 52,
+      "reader_variants_checked_preview_and_public_build": 3148,
+      "independent_linguistic_review": false
+    },
+    "browser": "No new layout case in batch012; unchanged line/stanza counts, same reader pattern. Batch011 includes desktop/mobile Hindi/Odia visual evidence for relineation.",
+    "records_and_bundle": {
+      "result": "PASS",
+      "concepts": 41,
+      "local_links": 881,
+      "errors": [],
+      "configuration_checked": true,
+      "scope": "Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness."
+    },
+    "handoff": "PASS;18090 entries;relative aliases rebased;hashes verified",
+    "storage": {
+      "result": "PASS",
+      "portable_links_checked": 2073,
+      "errors": []
+    }
+  },
+  "final_literary_self_review": "Complete prepared changed targets re-read after edits; complete unchanged targets read against each source. Current snapshot and detailed reading evidence retained. No independent reviewer involved.",
+  "published": false,
+  "independent_review": false,
+  "verification_record_sync_note": "Initial handoff/storage checks passed. Saving this completed verification record changed its manifest hash; a subsequent check correctly reported this one-file drift. Re-run sync_handoff and check_storage after saving this note; do not alter the record again after that final sync."
+}

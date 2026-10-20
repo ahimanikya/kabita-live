@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-06T10:00:02.004076+00:00",
+  "status": "native_adapter_local_integration_verified",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "execution": "Current assistant; Samanta implementation and Drishti self-review role passes; independent false",
+  "reader_version": "0.1.0-rc.1",
+  "checks": {
+    "pagination_tests": 8,
+    "source_compatibility": "Native previous module SHA256 matched pinned shared pagination byte-for-byte before re-export substitution.",
+    "public_build": "1316 pages,3521 assets; content_ready false retained. Shared runtime module exported; no kb/ paths in public manifest.",
+    "runtime_scope": "Only pagination module included, preserving native controls, browser-managed text sizing, optional illustrations and saved keys."
+  },
+  "limitations": [
+    "Pagination extraction checkpoint only; graph/source revisions, safe storage/legacy decoding and lazy collection adapters remain pending.",
+    "Native reader browser regression and enlarged text/theme/illustration checks pending after adapter completion.",
+    "No local translation/artwork loop changes, release-gate changes or publication."
+  ],
+  "portable_sync": "Full safe handoff sync PASS:23975 entries hash-verified; this completion receipt synchronized and both baseline hashes updated.",
+  "recovery": "/Users/ahimanikya/Projects/Poem Without Borders/output/fleet-alignment/batch-process/results/batch-030-recovery/manifest.json",
+  "storage_checkpoint": "shared-reader-storage-2026-10-06.json",
+  "collections_checkpoint": "shared-reader-collections-2026-10-06.json",
+  "browser_checkpoint": "shared-reader-browser-2026-10-06.json"
+}

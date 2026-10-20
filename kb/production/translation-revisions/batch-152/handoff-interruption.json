@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-06T04:58:25.904174+00:00",
+  "command": "python3 tools/check_storage.py",
+  "exit_code": 1,
+  "result": "FAIL",
+  "moved_files": 479,
+  "website_files_preserved": 459,
+  "portable_links_checked": 2073,
+  "migration_hashes_checked": false,
+  "errors": [
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/editorial-three-languages.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/editorial-review.json"
+  ],
+  "note": "Concurrent Edition48 editorial writes preserved. The preceding sync succeeded (22475 entries); final parity is pending. No further translation integration after this failure.",
+  "subsequent_attempts": [
+    {
+      "recorded_at": "2026-10-06T04:59:25.525228+00:00",
+      "sync_exit_code": 0,
+      "sync_entries": 22479,
+      "storage_exit_code": 1,
+      "errors": [
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/editorial-three-languages.json"
+      ],
+      "note": "Bounded final retry still raced with concurrent editorial work. Exact resume saved; no further translation integration. Batch153 prepared only."
+    },
+    {
+      "recorded_at": "2026-10-06T05:00:08.811081+00:00",
+      "command": "python3 tools/sync_handoff.py",
+      "exit_code": 1,
+      "error": "AssertionError: site/assets/edition-editorial.css",
+      "note": "Concurrent Edition48 CSS changed during final copy verification. Do not overwrite portable divergence blindly; inspect source/portable/manifest for this path before retry. Latest resume evidence is canonical locally; final portable parity unverified."
+    },
+    {
+      "recorded_at": "2026-10-06T05:02:21.027811+00:00",
+      "sync_exit_code": 0,
+      "sync_entries": 22492,
+      "storage_exit_code": 1,
+      "errors": [
+        "Source/handoff mismatch: kb/artifacts/edition-sync/edition-48/review/index.html",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/make-review.py",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/verify.py"
+      ],
+      "note": "Four interrupted-copy divergences reconciled with both versions preserved and exact narrow-difference assertions; sync then passed. Concurrent Edition48 review generation still changed during storage check. No translation integration this heartbeat;153 remains prepared only."
+    },
+    {
+      "recorded_at": "2026-10-06T05:03:22.797610+00:00",
+      "sync_exit_code": 0,
+      "sync_entries": 22493,
+      "storage_exit_code": 1,
+      "errors": [
+        "Source/handoff mismatch: kb/artifacts/edition-sync/edition-48/revision-02/editorial-odia-mobile.png",
+        "Source/handoff mismatch: kb/artifacts/edition-sync/edition-48/revision-02/editorial-english-desktop.png",
+        "Source/handoff mismatch: kb/artifacts/edition-sync/edition-48/revision-02/editorial-hindi-mobile.png",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/verification.json"
+      ],
+      "note": "Concurrent visual verification created new evidence after successful sync. Stop repeated unchanged concurrent-write retries; preserve exact pending resume."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "recorded_at": "2026-10-06T05:45:46.977990+00:00",
+  "status": "implementation_dependency_recorded",
+  "scope": "Kabita residual FLEET-009 loading scope; preceding measured cover optimization remains verified.",
+  "findings": [
+    {
+      "site": "KBL",
+      "finding": "src/engagement.ts expresses dynamic Firebase imports, but bundle-feedback.mjs uses splitting:false and a single output file. The initial engagement module is 750886 bytes; private-feedback is 748641 bytes. Runtime HTTPS/allowed-host guard protects activation, but cannot defer the SDK bytes already bundled in the initial module.",
+      "action": "Preserve live counts/comment/private-feedback behavior; implement common provider-loading boundary in FLEET-016/017 with cold/disabled/failure checks and comparable new measurements. Do not silently remove live count reads to claim on-click-only loading."
+    },
+    {
+      "site": "KBL",
+      "finding": "Collection payloads have an allowlist, in-memory Promise cache and eviction on failed fetch. The library loads when its details section opens. Preserve retry and active-reading fallback when extracting reader.",
+      "action": "Validate loading again after FLEET-012/013 adapters, including continuous articles."
+    }
+  ],
+  "source_fingerprints": [
+    {
+      "site": "KBL",
+      "path": "/Users/ahimanikya/Projects/Kabita Live/output/kabitalive-design-proposal-2026-09-29/site/tools/bundle-feedback.mjs",
+      "bytes": 379,
+      "sha256": "b452e479bd77621338d1e0cc4a05d35ff82c29f0888619248a2fec597f18db45"
+    },
+    {
+      "site": "KBL",
+      "path": "/Users/ahimanikya/Projects/Kabita Live/output/kabitalive-design-proposal-2026-09-29/site/src/engagement.ts",
+      "bytes": 6495,
+      "sha256": "33979c2aafef61502cb3edbd35b1ffa0992389ce1034bc6dc56c156933dc7f30"
+    },
+    {
+      "site": "KBL",
+      "path": "/Users/ahimanikya/Projects/Kabita Live/output/kabitalive-design-proposal-2026-09-29/site/assets/poem-experience.js",
+      "bytes": 37798,
+      "sha256": "6fd2dbfde65c3a2844264a4faa2eb73963ea660f18bae9b7c1500f1f899f1d1f"
+    },
+    {
+      "site": "KBL",
+      "path": "/Users/ahimanikya/Projects/Kabita Live/output/kabitalive-design-proposal-2026-09-29/site/assets/engagement.js",
+      "bytes": 750886,
+      "sha256": "5f4f0b60a896853870370bd2f3bca1a84818086bcfd9ab447e128f24f63fad69"
+    },
+    {
+      "site": "KBL",
+      "path": "/Users/ahimanikya/Projects/Kabita Live/output/kabitalive-design-proposal-2026-09-29/site/assets/private-feedback.js",
+      "bytes": 748641,
+      "sha256": "3e41c39ae39baa1aec481dec9ee9266873e0b34c60fc0f9475220f49fdef9e69"
+    }
+  ],
+  "dependencies": [
+    "FLEET-012",
+    "FLEET-013",
+    "FLEET-016",
+    "FLEET-017"
+  ],
+  "review": {
+    "independent": false,
+    "executor": "Current assistant; Samanta engineering and Drishti self-review passes",
+    "checks": "Exact source/bundle inspection; no change to source code or live services, and no new speed/behavior improvement claimed."
+  },
+  "next_action": "Preserve runtime guards, counts, comments, private feedback and retry; split SDK delivery in shared service adoption, measure matching cold/disabled/error states and final reader adapters.",
+  "release": "Internal local record; no push/deploy or cloud changes."
+}

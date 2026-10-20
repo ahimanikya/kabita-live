@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-04T17:53:55.987903+00:00",
+  "authorization": "We can now work on the website masterhead.",
+  "status": "options_for_review",
+  "executor": "Current assistant; Samanta design and Drishti self-review",
+  "independent": false,
+  "recommended": "B",
+  "variants": {
+    "A": "Existing symbol and Cormorant500",
+    "B": "Text-only Cormorant600,42px desktop and34–36px phone; existing sea colour",
+    "C": "Smaller existing symbol with Cormorant600,40px desktop and32–34px phone"
+  },
+  "gallery": "kb/artifacts/artwork/home-natural-2026-10-04/website-mastheads/index.html",
+  "full_previews": [
+    "kb/artifacts/artwork/home-natural-2026-10-04/website-mastheads/a.html",
+    "kb/artifacts/artwork/home-natural-2026-10-04/website-mastheads/b.html",
+    "kb/artifacts/artwork/home-natural-2026-10-04/website-mastheads/c.html"
+  ],
+  "builder": "kb/research/website-masthead-2026-10-04/build.py",
+  "scope": "Isolated local HTML previews; website source header and published masthead unchanged. No publication authorization inferred.",
+  "preserved": [
+    "Website palette",
+    "Homepage Odia signature",
+    "Header separator",
+    "Navigation and theme/menu controls",
+    "Approved magazine covers"
+  ],
+  "checks": [
+    "Browser desktop and360px visual review",
+    "320px B/C overflow check",
+    "Mobile B menu opens and closes with expected navigation",
+    "Local-only specimens exclude analytics; homepage illustration held constant for comparison"
+  ],
+  "evidence": "kb/artifacts/review/website-masthead-2026-10-04",
+  "next_action": "User selects website masthead direction."
+}

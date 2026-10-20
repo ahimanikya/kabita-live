@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-10-03T06:27:25.842915+00:00",
+  "updated_at": "2026-10-03T11:00:07.771672+00:00",
+  "work_ref": "KBL-WORK-020",
+  "decision_ref": "KBL-DEC-040",
+  "user_quote": "This is good. Can we recreate all the images in the same skill - identify all images and run this as a batch job- and keep a loop instead of waiting for my approval.",
+  "status": "PAUSED",
+  "scope": "Recreate all 73 identified non-portrait artwork identities using Human Natural / Poetic Natural, automatic self-review in sequential batches of five, preserving originals and exact provenance. Versioned local output; no publication.",
+  "schedule": "Every 10 minutes in this chat (active automation schedule verified on 2026-10-03; no per-image delay)",
+  "queue": "research/poetic-natural/queue.json",
+  "inventory": "research/poetic-natural/inventory.json",
+  "automation_id": "kabita-live-poetic-natural-artwork",
+  "portrait_scope": "Clarified by user on 2026-10-03: apply Human Natural principles to pending portraits within the separate watercolor loop from portrait-038 onward. Do not duplicate or regenerate completed portraits; non-portrait queue unchanged.",
+  "source_protection": "Historical originals, screenshots/evidence, logos, icons and functional paper textures remain preserved; alternate resolutions/aliases are not new generation tasks.",
+  "completion": "All actionable artworks generated and visually verified or explicitly held; report totals and holds, sync handoff, pause this heartbeat.",
+  "review": "Same-assistant self-review, not independent review.",
+  "excluded": [
+    "subagents",
+    "overlapping batches",
+    "paid API fallback",
+    "public/social uploads",
+    "push/deploy",
+    "unrelated services/content changes"
+  ],
+  "counts": {
+    "total": 73,
+    "verified": 72,
+    "pending": 0,
+    "holds": 1
+  },
+  "resume_batch": null,
+  "resume_id": null,
+  "progress_gallery": "artifacts/artwork/poetic-natural/index.html",
+  "after_each_batch": [
+    "Run python3 tools/poetic_natural_status.py to check original/result hashes and refresh the comparison gallery.",
+    "Refresh queue counts and next_id; update this rollout record.",
+    "Regenerate registers/catalogue, check bundle, synchronize handoff and check storage."
+  ],
+  "completion_status": "all_actionable_verified_with_one_identity_reference_hold",
+  "final_verification": "research/poetic-natural/final-verification.json",
+  "completed_at": "2026-10-03T11:00:07.771672+00:00",
+  "pause_reason": "All actionable entries verified; cover-016 explicitly held for identified likeness reference.",
+  "final_handoff": {
+    "result": "PASS",
+    "verified_artifacts": 72,
+    "portable_mismatches": 0,
+    "storage_links_checked": 1946
+  }
+}

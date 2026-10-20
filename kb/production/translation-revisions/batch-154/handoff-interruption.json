@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-06T05:20:54.419607+00:00",
+  "command": "python3 tools/sync_handoff.py",
+  "exit_code": 1,
+  "error": "AssertionError: kb/research/edition-sync/edition-48/revision-03/artwork.json",
+  "note": "Concurrent new Edition48 revision03 artwork writes occurred during sync. All translation layout/scope tests, Node24 retry, edition and translation-revision checks passed. Final portable parity remains unverified; preserve concurrent work.",
+  "latest_attempt": {
+    "recorded_at": "2026-10-06T05:22:03.950604+00:00",
+    "command": "python3 tools/sync_handoff.py",
+    "exit_code": 1,
+    "error": "Handoff has divergent edits: kb/research/edition-sync/edition-48/revision-03/artwork.json",
+    "note": "Own five interrupted-copy checkpoint records recovered with exact checks and both versions preserved in handoff-recovery-2026-10-06. Remaining divergence is concurrent unrelated artwork; preserve both versions and reconcile after work settles. No next batch started."
+  },
+  "followup_attempts": [
+    {
+      "recorded_at": "2026-10-06T05:27:53.489608+00:00",
+      "command": "python3 tools/sync_handoff.py",
+      "exit_code": 1,
+      "divergent_paths": [
+        "kb/research/edition-sync/edition-48/revision-03/artwork.json",
+        "kb/records/translation-revision-loop-2026-10-04.json",
+        "kb/registers/DASHBOARD.md",
+        "kb/registers/records.json",
+        "kb/registers/activity.jsonl"
+      ],
+      "note": "Concurrent handoff writes continue. Exact artwork and loop recovery from start of this heartbeat preserved in handoff-artwork-recovery-2026-10-06. Prepared155 saved after full readings; not integrated. Inspect both canonical/portable versions before reconciliation; never initialize or blanket overwrite."
+    }
+  ]
+}

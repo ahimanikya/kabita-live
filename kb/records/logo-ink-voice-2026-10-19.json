@@ -1,0 +1,84 @@
+{
+  "id": "KBL-DEC-074",
+  "work": "KBL-WORK-056",
+  "review": "KBL-REV-069",
+  "title": "Theme-coloured logo balanced with the compact masthead",
+  "recorded_at": "2026-10-19T05:15:59.657530+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "user_quote": "Should we update logo based on current color scheme and also should we match the size of the icon with master head text, icon is smaller than the text",
+  "status": "verified_local",
+  "scope": "Interpret the ongoing design request as a local refinement of colour and relative icon size. Keep the established logo geometry and compact header; no new identity or public deployment.",
+  "implementation": {
+    "symbol": "Original three paths unchanged; new versioned SVG uses a single Ink & Voice accent. The shared header inlines its paths with currentColor.",
+    "colours": {
+      "light": "#713B55",
+      "dark": "#E2A9C4"
+    },
+    "sizing": "1.2em icon square relative to unchanged 34/30/28px Newsreader masthead text; optical compensation for original SVG whitespace.",
+    "favicon": "Matching versioned SVG; standalone prefers-color-scheme follows system appearance, independently of the in-site manual theme toggle.",
+    "source_files": [
+      "projects/site/ink_voice.py",
+      "projects/site/assets/ink-voice.css",
+      "projects/site/assets/kabita-live-symbol-ink-voice.svg"
+    ],
+    "preserved": "Original teal/rust symbol and all three path geometries, compact navigation/spacing, cover designs, poetry, runtime settings and sharing rules."
+  },
+  "checklist": {
+    "page_family": "Shared website masthead, applied to all assembled reader page families; favicon.",
+    "purpose": "Recognizable home link with balanced symbol and English name.",
+    "rules": [
+      "PAGE-01",
+      "DESIGN-01",
+      "DESIGN-02",
+      "DESIGN-03",
+      "DESIGN-04"
+    ],
+    "artwork": "Versioned recolour of existing SVG paths; no generated artwork or historical overwrite.",
+    "accessibility": "Decorative inline SVG aria-hidden and nonfocusable; existing Kabita Live home name retained. 48px menu target retained.",
+    "browser": "Inspected home at 1280/1000/760/390/320px, phone light/dark and edition header; menu opens, Escape closes and focus returns; home-link navigation verified.",
+    "content": "Edition/source check passed; 607 protected files unchanged; cover/share mappings unchanged by this scope.",
+    "publication": "Local preview only."
+  },
+  "verification": {
+    "build": {
+      "node": "24.15.0",
+      "status": "PASS",
+      "pages": 1317,
+      "pagefind_pages": 1312
+    },
+    "tests": {
+      "javascript": 169,
+      "python": 36,
+      "failed": 0,
+      "note": "Initial tests started before the build finished and encountered missing dist files; that log is retained. Final full suite rerun after build completion passed."
+    },
+    "exports": {
+      "result": "PASS",
+      "public_pages": 1317,
+      "public_shared_headers": 1316,
+      "symbol_path_geometry_unchanged": true,
+      "protected_files_unchanged": 607,
+      "new_favicon_exported": true,
+      "source_integrity_check": "editions-check.json",
+      "browser": "browser-checks.json",
+      "publication": "Local only"
+    },
+    "reviewer": "Current chat assistant; Samanta implementation / Drishti self-review",
+    "independent": false,
+    "limits": [
+      "One Chromium desktop engine with responsive viewports; no fresh 200-percent browser text-enlargement, screen-reader speech or native-phone test.",
+      "Favicon file and export verified; actual OS/browser chrome icon cache not inspected.",
+      "No public deployment. Earlier artistic-audit findings about separator colours and editorial type remain open; this request changed the logo only."
+    ]
+  },
+  "evidence": [
+    "artifacts/design/logo-ink-voice-2026-10-19/browser-checks.json",
+    "artifacts/design/logo-ink-voice-2026-10-19/export-check.json",
+    "artifacts/design/logo-ink-voice-2026-10-19/desktop-light.png",
+    "artifacts/design/logo-ink-voice-2026-10-19/phone-light.png",
+    "artifacts/design/logo-ink-voice-2026-10-19/phone-dark.png",
+    "artifacts/design/logo-ink-voice-2026-10-19/build.log",
+    "artifacts/design/logo-ink-voice-2026-10-19/tests.log"
+  ],
+  "next_action": "Review the updated stable local preview. Publication remains separate."
+}

@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-02T21:04:32.994489+00:00",
+  "status": "updated_and_verified",
+  "work_refs": [
+    "KBL-WORK-018",
+    "KBL-WORK-019"
+  ],
+  "request": "Update technical handover and earlier PPT/PDF for the latest work.",
+  "executor": "Current assistant; Samanta documentation and Drishti self-review",
+  "independent": false,
+  "credit": "Ahimanikya Satapathy — redesign, design system and project direction",
+  "outputs": [
+    {
+      "path": "artifacts/design/technical-handover-2026-10-02/delivery/Kabita-Live-Technical-Handover.pdf",
+      "sha256": "a092c19b901c1bd37d01b1834497a8d0d3b9647a59b08f4c09846b2bf692f185",
+      "bytes": 165653
+    },
+    {
+      "path": "artifacts/design/value-and-creativity-2026-10-02/delivery/Kabita-Live-Value-and-Creativity-Presenter-Updated.pdf",
+      "sha256": "b4004a9744a71b864ec1e5ab26803f9ec755943b9bf5f61f9afc486e1905c1e4",
+      "bytes": 4665177
+    },
+    {
+      "path": "artifacts/design/value-and-creativity-2026-10-02/delivery/Kabita-Live-Value-and-Creativity-Presenter-Updated.pptx",
+      "sha256": "88904e9f9243301eaecee6b0f09ca3abe0bd75b8f58614c1e60677c6ecb48a8c",
+      "bytes": 3999944
+    }
+  ],
+  "technical_pdf_pages": 40,
+  "story_pdf_pages": 10,
+  "presentation_slides": 13,
+  "previous_sharing_revision": "records/presenter-credit-2026-10-02.json",
+  "previous_original_story": "records/illustrated-project-story-2026-10-02.json (retained as historical; later value/creativity versions supersede it for sharing)",
+  "content": [
+    "Timeline retained and latest 2 October milestones added",
+    "Verified consent-based GA4 and limits of early visitor data",
+    "Deployed but hidden Likes and moderated comment code; Firebase cloud access and live verification pending",
+    "Kalinga Blueprint, design knowledge, AI skills/rulebook and maintainer continuity",
+    "Technical moderation/activation/data contracts and recovery; existing DNS instructions retained"
+  ],
+  "checks": {
+    "pdf": "Both PDFs rendered; all ten illustrated pages and every changed/new technical page visually inspected; bounds and extracted text pass",
+    "presentation": "13 slides rendered and individually reviewed; source design/images/editable text retained; corrected numbering checked; finalizer reports zero findings and zero warnings",
+    "presenter_credit": "Verified on every slide and PDF page",
+    "token_accounting": "Original 18:25 UTC dated snapshot preserved; not claimed as current total",
+    "powerpoint_native": "Not tested; final package validated and rendered using Artifact Tool",
+    "source_preservation": "Technical v1.4, earlier presenter files and original story preserved"
+  },
+  "limitations": [
+    "Fonts referenced, not embedded in PPTX.",
+    "No new Firebase cloud operation, website deployment, DNS change or messaging performed in this document update."
+  ],
+  "website_changes": false,
+  "publication": false
+}

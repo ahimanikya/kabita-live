@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-06T04:46:57.183467+00:00",
+  "command": "python3 tools/check_storage.py",
+  "exit_code": 1,
+  "result": "FAIL",
+  "moved_files": 479,
+  "website_files_preserved": 459,
+  "portable_links_checked": 2073,
+  "migration_hashes_checked": false,
+  "errors": [
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-830-source.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/baseline-poems.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-825-source.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/scope.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-826-source.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/artwork.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-833-source.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-834-source.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-828-source.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/baseline-art-direction.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-824-source.json",
+    "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-832-source.json"
+  ],
+  "note": "Concurrent Edition48 revision02 research/artwork records created during check; preserved all unrelated work. No user action required.",
+  "subsequent_attempts": [
+    {
+      "heartbeat_trigger": "2026-10-06T04:47:17.326Z",
+      "sync_exit_code": 0,
+      "sync_entries": 22416,
+      "storage_exit_code": 1,
+      "errors": [
+        "Source/handoff mismatch: kb/artifacts/edition-sync/edition-48/artwork/space-within/v1.png",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/artwork.json"
+      ],
+      "note": "Preserved concurrent artwork and continued prepared-only literary readings in152/153. No new translation integration."
+    }
+  ]
+}

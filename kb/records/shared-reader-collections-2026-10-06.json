@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-06T10:30:39.161608+00:00",
+  "status": "collection_modules_verified_browser_pending",
+  "execution": "Current assistant; Samanta implementation and Drishti self-review, independent false",
+  "reader_version": "0.1.0-rc.1",
+  "checks": {
+    "collection_tests": 6,
+    "all_poems": 810,
+    "source_identity": "Exact text and ordered IDs for every current public variant; source object unchanged.",
+    "revision": "SHA256 UTF8 JSON.stringify algorithm kbl-reader-blocks-v1,language,title,blocks,inlineBreaks,hiddenLines.",
+    "native_build": "Created 1330 linked pages.",
+    "public_inputs": "Public-only build inputs: 1316 pages, 3527 assets. Content ready: False.",
+    "private_boundary": "No KB paths in public manifest; all imported shared modules explicitly included.",
+    "combined_modules": "19 tests pass:6collection,5storage,8pagination."
+  },
+  "changes": "Shared lazy collection loader deduplicates pending loads, rejects noncatalogue routes, evicts failures for retry, and validates native graph before replacing reader collections. Named poem routes retained. Cache version17.",
+  "limitations": [
+    "Six collection module checks passed; integrated native reader browser regression remains pending.",
+    "Stable graph revisions describe exact native units and inline/hidden line metadata; old native saves are retained without silent anchor migration.",
+    "Public eligibility comes from the native build and public reading catalogue; no editorial release flags changed.",
+    "Public catalogue is now loaded lazily on first collection request; comparable loading measurements belong to FLEET-009.",
+    "Standalone poem marks-store compatibility and browser flow remain pending.",
+    "No publication, deployment or literary-content edits."
+  ],
+  "portable_sync": "PASS:23989entries hash-verified; completion receipt and portable test paths synchronized with baseline hashes.",
+  "recovery": "/Users/ahimanikya/Projects/Poem Without Borders/output/fleet-alignment/batch-process/results/batch-032-recovery/manifest.json"
+}

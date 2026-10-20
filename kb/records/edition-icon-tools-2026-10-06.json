@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-06",
+  "work_ref": "KBL-WORK-032",
+  "status": "local_review_ready",
+  "published": false,
+  "request": "The pop-up is more complicated than required. Keep more icons with tool tip.",
+  "changes": [
+    "Removed edition Reading tools popup",
+    "Kept Read poems as primary text link and language choices upfront",
+    "Direct pen/editorial, Aa/text size, Share and quiet-reading icons with existing artwork",
+    "Aa cycles Standard/Large/Extra large/Standard; announces value with current/next accessible name",
+    "Hover and focus tooltips; focus tooltip takes precedence over hover",
+    "No changes to Poems catalogue or individual poem settings"
+  ],
+  "checks": {
+    "independent": false,
+    "editions": 48,
+    "build": "PASS Node24 full build (retry after concurrent generated poet-directory interruption; failure log retained)",
+    "integrity": "PASS Edition48 poems, translations, excerpts, art and sharing preservation; all48 edition controls",
+    "browser": [
+      "No edition tools popup",
+      "Size cycle large/extra-large/standard",
+      "Direct Share and quiet reader open; quiet close returns focus to open-focus",
+      "Language selection works",
+      "320px all five actions fit one row, no horizontal overflow, targets at least44px",
+      "Desktop keyboard tooltip visible without overlapping hover tooltip",
+      "Poems catalogue legacy size panel remains functional"
+    ]
+  },
+  "evidence": "kb/artifacts/review/edition-icon-tools-2026-10-06/",
+  "next_action": "Review local icon toolbar; publication remains separate."
+}

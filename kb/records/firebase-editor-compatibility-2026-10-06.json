@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-07T02:23:32.111015+00:00",
+  "status": "editor_compatibility_source_checkpoint",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review role passes",
+  "checks": {
+    "rules_emulator_tests_passed": 33,
+    "adapter_sdk_ui_tests_passed": 29,
+    "new_editor_emulator_cases": 6,
+    "isolated_build": "/private/tmp/kbl-services075-build;private editor entry isolated only",
+    "skipped": 0
+  },
+  "limitations": [
+    "Private editor adapter and strengthened moderation rules locally verified; no public editor page/inbox or private queue export. Exact existing public fields and private source/contact retained.",
+    "Thirty-three actual emulator cases and twenty-nine adapter/SDK/UI checks pass. Paired publication/withdrawal, terminal rejection/closed feedback, forged claims and conflicting editor decisions verified. Private editor built only in isolated candidate.",
+    "Legacy editor deletion of a public projection remains allowed for removal compatibility; new adapter withdrawal is atomic and records status. Private deletion cannot leave a public copy. Rules/editor workflow review and authorized deployment remain dependencies.",
+    "No cloud deployment, receipt activation, public bundles or data migration. Actual browser auth/restoration, server reads/provider loading, matching generated service artifacts and other sites remain open."
+  ],
+  "unchanged_inputs": {
+    "runtime-config.json": "bc0f7bf28b7b5378f110979a79dae273f81cd5070a78a92fbbe37500324f5955",
+    "assets/engagement.js": "e4b54b8c9877ddf7a0a17dabbde8e076aae839dd815359c78101371cd8eeaa54",
+    "assets/private-feedback.js": "3e41c39ae39baa1aec481dec9ee9266873e0b34c60fc0f9475220f49fdef9e69"
+  },
+  "recovery": "/Users/ahimanikya/Projects/Poem Without Borders/output/fleet-alignment/batch-process/results/batch-075-recovery/manifest.json"
+}

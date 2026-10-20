@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-06",
+  "status": "applied_locally",
+  "published": false,
+  "requests": [
+    "Editorial at 100% width",
+    "Remove repeated separators for smooth top-to-bottom page flow"
+  ],
+  "changes": [
+    "Editorial fills parent content width with normal page gutters",
+    "Edition list has no repeated row rules or mobile card borders",
+    "Removed decorative contents divider and editorial/quote borders",
+    "Retained language selection, focus indicators, all text and line art"
+  ],
+  "review": {
+    "independent": false,
+    "desktop_width": 1078,
+    "desktop_editorial_width": 1078,
+    "mobile_width": 390,
+    "mobile_content_and_editorial_width": 350,
+    "horizontal_overflow": false,
+    "editorial_source_unchanged": true,
+    "editorial_sha256": "0446fb9bb40cacc9d6964612c94af6f5200c8f71998f91c3c78a2f6cc759fe35"
+  },
+  "evidence": "kb/artifacts/review/edition-flow-2026-10-06",
+  "build": "Preview generation passed (1330 pages). Full public build attempted twice but interrupted by missing generated paths: .public/assets/social output, then .generated/public-pages.json. Shared workspace generation is changing concurrently; no further identical retries. Desktop/mobile visual checks passed; public build remains unverified."
+}

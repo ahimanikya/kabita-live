@@ -1,0 +1,24 @@
+/* Keep prose responses aligned with the article's reading column. */
+.article-responses{width:100%;max-width:720px;margin:32px auto 24px;padding:24px 0;border-top:1px solid var(--line);font:16px/1.65 var(--ui);color:var(--ink);overflow-wrap:anywhere}
+.article-responses [hidden]{display:none!important}
+.article-responses .response-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+.article-responses button{font:inherit;min-height:44px;padding:8px 16px;border:1px solid var(--line);border-radius:4px;color:var(--ink);background:transparent;cursor:pointer}
+.article-responses button:disabled{color:var(--muted);cursor:not-allowed}
+.article-responses button[aria-pressed="true"]{color:var(--rust);background:var(--panel)}
+.article-responses :is(button,summary,input,textarea,select):focus-visible{outline:2px solid var(--rust);outline-offset:4px}
+.article-responses p{margin:12px 0;white-space:normal}
+.article-responses :is([role="status"],.response-note){font:14px/1.65 var(--ui);color:var(--muted)}
+.article-responses [role="status"]:empty{display:none}
+.article-responses details{margin:16px 0 0;border-top:1px solid var(--line)}
+.article-responses summary{cursor:pointer;min-height:48px;padding:12px 0;font:18px/1.5 var(--ui)}
+.article-responses form{margin:12px 0 24px}
+.article-responses label{display:block;margin:16px 0}
+.article-responses label>span{display:block;margin-bottom:8px}
+.article-responses input:not([type=checkbox]),.article-responses textarea,.article-responses select{display:block;width:100%;max-width:100%;box-sizing:border-box;font:inherit;line-height:1.6;min-height:44px;padding:12px;margin:6px 0 0;border:1px solid var(--line);border-radius:4px;background:var(--white);color:var(--ink)}
+.article-responses textarea{min-height:140px;resize:vertical}
+.article-responses textarea::placeholder{color:var(--muted);opacity:1}
+.article-responses input[type=checkbox]{display:inline-block;width:18px;height:18px;min-height:0;margin:0 8px 0 0;padding:0;vertical-align:middle;accent-color:var(--rust)}
+.article-responses [data-response-list]{list-style:none;margin:0;padding:0}
+.article-responses [data-response-list]>li{padding:16px 0;border-bottom:1px solid var(--line)}
+.article-responses [data-response-list] p{white-space:pre-wrap}
+@media(max-width:760px){.article-responses{margin-top:24px;padding-top:20px}.article-responses .response-actions{gap:8px}.article-responses form{margin-bottom:20px}}

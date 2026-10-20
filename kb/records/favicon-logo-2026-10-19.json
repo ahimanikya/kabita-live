@@ -1,0 +1,60 @@
+{
+  "id": "KBL-DEC-076",
+  "work": "KBL-WORK-058",
+  "review": "KBL-REV-071",
+  "title": "Use the current logo as the website favicon",
+  "recorded_at": "2026-10-19T05:32:58.203458+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "user_quote": "Use the logo for favicon too",
+  "status": "verified_local",
+  "scope": "Exact existing mulberry-leaf/aqua-water logo as the favicon across all public reader routes. No artwork changes or public deployment.",
+  "implementation": {
+    "before": "1,316 of 1,317 exported pages already referenced the current SVG, without a cache key or explicit type/size; search redirect lacked an icon.",
+    "after": "Shared favicon_link helper returns the exact SVG with image/svg+xml, sizes=any and a source SHA-256 version. Search redirect uses the same helper. The approved symbol is byte-for-byte unchanged.",
+    "source_files": [
+      "projects/site/ink_voice.py",
+      "projects/site/edition-pages.py"
+    ],
+    "theme": "Favicon standalone SVG follows system appearance; website manual theme remains independent.",
+    "preserved": "Historical logos, cover artwork, poem/source content, compact header layout, runtime services, consent and release gates."
+  },
+  "verification": {
+    "status": "PASS",
+    "public_pages_with_exact_logo_favicon": 1317,
+    "link": "<link rel=\"icon\" type=\"image/svg+xml\" sizes=\"any\" href=\"assets/kabita-live-symbol-ink-voice.svg?v=659b8bcd628e\">",
+    "exported_svg_matches_source": true,
+    "protected_files_unchanged": 607,
+    "search_redirect_included": true,
+    "node": "24.15.0",
+    "build": "PASS",
+    "browser": "Linked SVG rendered with mulberry leaves and aqua water; local preview favicon tag matches the build. Existing icon artwork unchanged.",
+    "tests": {
+      "javascript": 169,
+      "python": 36,
+      "failed": 0
+    }
+  },
+  "checklist": {
+    "applicable_rules": [
+      "PAGE-01",
+      "DESIGN-02"
+    ],
+    "scope": "Browser icon across all public routes; no page content/layout or reader controls changed.",
+    "not_applicable": "No new poem, illustration, typography, interaction or service behavior. No new full page/accessibility audit needed for icon-link metadata.",
+    "publication": "Local preview/public build only."
+  },
+  "reviewer": "Current chat assistant; implementation and self-review",
+  "independent": false,
+  "limitations": [
+    "Linked icon file and page metadata verified in Chromium; cache behavior in other browsers and browser-chrome icon display not independently tested.",
+    "No website publication."
+  ],
+  "evidence": [
+    "artifacts/design/favicon-logo-2026-10-19/verification.json",
+    "artifacts/design/favicon-logo-2026-10-19/browser-check.json",
+    "artifacts/design/favicon-logo-2026-10-19/favicon-preview.png",
+    "artifacts/design/favicon-logo-2026-10-19/build.log",
+    "artifacts/design/favicon-logo-2026-10-19/tests.log"
+  ],
+  "next_action": "Current logo favicon is ready in the local preview and verified public build."
+}

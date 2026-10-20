@@ -1,0 +1,89 @@
+--- before/social_metadata.py
++++ after/social_metadata.py
+@@ -8,18 +8,21 @@
+ from urllib.parse import urlsplit, urljoin
+ 
+ FALLBACK = 'assets/home/life-after-rain-poetic-natural.webp'
++COVER_FONTS = ['assets/fonts/CormorantGaramond-Variable.ttf', 'assets/fonts/NotoSerifOriya-Variable.ttf']
+ VOID = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr','image'}
+ 
+ class Page(HTMLParser):
+     def __init__(self, text):
+         super().__init__(convert_charrefs=True)
+-        self.stack=[]; self.images=[]; self.links=[]; self.title=[]; self.byline=[]; self.description=''; self.canonical=[]
++        self.stack=[]; self.images=[]; self.links=[]; self.title=[]; self.byline=[]; self.description=''; self.canonical=[]; self.current_covers=[]
+         self.feed(text)
+     def handle_starttag(self, tag, attrs):
+         a=dict(attrs)
+         if tag=='link' and a.get('rel')=='canonical':self.canonical.append(a.get('href',''))
+         if tag=='meta' and a.get('name')=='description':self.description=a.get('content','')
+         classes=set(' '.join(d.get('class','') for _,d in self.stack).split()) | set(a.get('class','').split())
++        if 'ink-current-edition' in classes and 'data-cover-edition' in a:
++            self.current_covers.append(a['data-cover-edition'])
+         if tag in {'img','image'}:
+             src=a.get('src') or a.get('href') or a.get('xlink:href','')
+             if src.startswith('assets/') and src.lower().endswith(('.webp','.jpg','.jpeg','.png')):
+@@ -40,7 +43,7 @@
+ 
+ def clean(value): return ' '.join(value.split())
+ 
+-def choose_image(name, page, pages):
++def choose_image(name, page, pages, home_cover=None):
+     def match(classes):return next((i for i in page.images if i['classes'] & classes),None)
+     reason='page_artwork'; image=None
+     if name.startswith('poem-'):
+@@ -57,7 +60,8 @@
+     elif re.fullmatch(r'issue-\d+\.html',name):
+         image=match({'edition-cover'}); reason='edition_cover'
+     elif name=='index.html':
+-        image=next((i for i in page.images if i['source']==FALLBACK),None); reason='stable_homepage'
++        if not home_cover:raise ValueError('Homepage sharing requires the current edition front cover')
++        image=home_cover; reason='current_edition_front_cover'
+     elif match({'article-lead'}):
+         image=match({'article-lead'}); reason='article_illustration'
+     else:
+@@ -66,6 +70,17 @@
+         image={'source':FALLBACK,'alt':'An imagined rain-washed courtyard beside an indigo doorway, opening onto a pond and green fields.'}
+         reason='journal_fallback'
+     return image,reason
++
++
++def current_home_cover(root, page):
++    issues=json.loads((root/'content/editions/index.json').read_text())
++    if not issues:raise ValueError('Homepage sharing requires a current edition')
++    number=max(issue['number'] for issue in issues)
++    if page.current_covers != [str(number)]:
++        raise ValueError('Homepage visible cover does not match the current edition')
++    cover=json.loads((root/'data/cover-layout-b.json').read_text())[str(number)]
++    return {'source':cover['artwork'],'alt':f'Kabita Live — Issue {number}, {cover["date"]}. Complete front cover.',
++            'edition':number,'cover_svg':cover['svg'],'cover_fonts':COVER_FONTS}
+ 
+ 
+ def public_base(environ):
+@@ -101,11 +116,15 @@
+     parsed={name:Page((root/name).read_text()) for name in names}
+     entries={}
+     for name,page in parsed.items():
+-        image,reason=choose_image(name,page,parsed)
++        image,reason=choose_image(name,page,parsed,current_home_cover(root,page) if name=='index.html' else None)
+         source=root/image['source']
+         if not source.is_file():raise ValueError('Missing sharing image: '+str(source))
+         # Digest protects social caches when an assigned image is revised.
+-        digest=hashlib.sha256(b'social-jpeg-contain-1200x630-v1\0'+source.read_bytes()).hexdigest()[:20]
++        fingerprint=b'social-jpeg-contain-1200x630-v1\0'+source.read_bytes()
++        if reason=='current_edition_front_cover':
++            fingerprint+=b'\0front-cover-v1\0'+image['cover_svg'].encode()
++            for font in image['cover_fonts']:fingerprint+=(root/font).read_bytes()
++        digest=hashlib.sha256(fingerprint).hexdigest()[:20]
+         asset='assets/social/'+digest+'.jpg'
+         title=clean(''.join(page.title)) or 'Kabita Live'
+         short=title.removesuffix(' · Kabita Live')
+@@ -121,6 +140,8 @@
+         canonical=urljoin(base+name,page.canonical[0]) if page.canonical else base+('' if name=='index.html' else name)
+         if urlsplit(canonical).netloc!=urlsplit(base).netloc or not canonical.startswith(base) or urlsplit(canonical).query or urlsplit(canonical).fragment:raise ValueError('Invalid source canonical: '+name)
+         entries[name]={'canonical_url':canonical,'title':title,'description':description,'type':'article' if name.startswith('poem-') or reason=='article_illustration' else 'profile' if reason=='poet_portrait' else 'website','url':base+('' if name=='index.html' else name),'image_url':base+asset,'asset':asset,'source':image['source'],'alt':image['alt'] or f'Artwork accompanying {short}','reason':reason}
++        if reason=='current_edition_front_cover':
++            entries[name].update({key:image[key] for key in ['edition','cover_svg','cover_fonts']})
+     return entries
+ 
+ 

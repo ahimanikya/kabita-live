@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-07T03:54:50.235838+00:00",
+  "status": "local_service_integration_checkpoint",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review role passes",
+  "checks": {
+    "public_export_boundary_tests_passed": 9,
+    "adapter_sdk_ui_tests_passed": 35,
+    "skipped": 0,
+    "astro_public_pages_built": 1316,
+    "pagefind_stage": "PASS",
+    "adopted_service_graph_files": 7,
+    "dist_chunks_match_browser_candidate": true,
+    "retained_packaged_browser_checks": 38,
+    "retained_rules_emulator_tests": 33,
+    "retained_auth_browser_checks": 17
+  },
+  "limitations": [
+    "Verified split packaging adopted into Kabita default local service build. Both existing entry URLs retained; seven generated assets and hash/dependency manifest exactly match browser-verified candidate. Actual public export/dist include every chunk byte-identically and exclude internal manifest/KB.",
+    "Astro preview public build passes for1316pages; Pagefind stage passed. Nine export-boundary and thirty-five source/SDK/UI checks freshly pass. Prior38packaged-browser/17auth-browser/33rule-emulator checks retained, not rerun because adopted artifacts hash-match browser candidate.",
+    "Runtime config, receipt flags, service source inputs and translation data hashes preserved. Existing project cloud configuration remains dedicated; no identity/schema migration, new receipt activation or cloud-rule deployment. Local editor adapter remains private.",
+    "Feedback pre-action provider deferral verified previously with comparable build/browser inventory. Like-enabled initial count still loads providers immediately. Production compression/cache headers and live UI observations are release dependencies; no overall speed percentage claim.",
+    "Local service packaging/export integration checkpoint verified; rules review/authorized cloud deployment and receipt activation remain publication dependencies. Singhasan final integration and Free to Dream/Utkal adapters remain actionable fleet work."
+  ],
+  "observed_public_inputs": {
+    "runtime-config.json": "bc0f7bf28b7b5378f110979a79dae273f81cd5070a78a92fbbe37500324f5955",
+    "assets/engagement.js": "de13c61d7a8d176656ce2dc7e931c5000b854b49ef79b370d7da4310b2a8b962",
+    "assets/private-feedback.js": "2d62749c81212e2b1800c3bf0aaca8a0147cea11471187564141e2279a6aa908"
+  },
+  "recovery": "/Users/ahimanikya/Projects/Poem Without Borders/output/fleet-alignment/batch-process/results/batch-081-recovery/manifest.json"
+}

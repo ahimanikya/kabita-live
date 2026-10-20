@@ -1,0 +1,47 @@
+{
+  "verified_at": "2026-10-02T21:04:32.994489+00:00",
+  "pdf_sha256": "a092c19b901c1bd37d01b1834497a8d0d3b9647a59b08f4c09846b2bf692f185",
+  "pages": 40,
+  "words": 10930,
+  "page_size": "A4 portrait",
+  "diagrams": {
+    "4": "functional reader journey",
+    "5": "architecture and runtime boundaries",
+    "7": "content architecture",
+    "11": "private feedback flow",
+    "16": "AI operating process",
+    "30": "Blueprint record lifecycle",
+    "38": "Gated Likes, private submissions and approved public-comment flow"
+  },
+  "visual_review": {
+    "method": "All 40 pages rendered. Changed pages 1,2,3,4,5,9,12,26,34 and new pages 38–40 inspected individually. Remaining page text matches v1.4 exactly and retains verified layout.",
+    "result": "PASS",
+    "independent": false
+  },
+  "checks": {
+    "page_count": true,
+    "presenter_credit_every_page": true,
+    "token_totals_reproduced": true,
+    "token_arithmetic": true,
+    "no_cumulative_resets": true,
+    "first_counter_has_no_inherited_usage": true,
+    "layout_overflow": [],
+    "external_links": 12,
+    "dns_record_values_match_plan": true,
+    "token_snapshot_unchanged": true,
+    "dns_pages_unchanged": true,
+    "changed_existing_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      12,
+      26,
+      34
+    ]
+  },
+  "scope": "Documentation update only. GA4 live; deployed Firebase engagement code hidden pending activation. No service or DNS changes.",
+  "version": "1.5"
+}

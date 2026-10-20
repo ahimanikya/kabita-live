@@ -1,0 +1,106 @@
+{
+  "status": "verified_local_drafts",
+  "variants_read": 10,
+  "variants_revised": 7,
+  "variants_retained": 3,
+  "checks": {
+    "edition_check": {
+      "result": "PASS",
+      "editions": 48,
+      "complete_poems": 810,
+      "archived_poems": [
+        385,
+        727
+      ],
+      "edition_assigned": 809,
+      "listed_poems": 805,
+      "supplementary_assigned_poems": 4,
+      "source_hashes_verified": 848,
+      "reciprocal_writer_links_checked": 809,
+      "checks": [
+        "Unique edition membership",
+        "Published contents order",
+        "Original capture integrity and reviewed reader verse parity",
+        "Return and next-poem links",
+        "Reciprocal writer contribution links",
+        "Raw source SHA-256"
+      ],
+      "known_gaps": {
+        "unassigned_poems": [
+          645
+        ],
+        "missing_author": [
+          30
+        ],
+        "identical_text_groups_for_editorial_review": [
+          [
+            268,
+            304
+          ],
+          [
+            645,
+            650
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "translation_revision_check": {
+      "result": "PASS",
+      "original_files_unchanged": 801,
+      "recorded_revisions": 652,
+      "reader_variants_checked_preview_and_public_build": 3148,
+      "external_variants_preserved_not_reviewed": 22,
+      "independent_linguistic_review": false
+    },
+    "layout_tests": "5 passed",
+    "queue_regression_tests": "10 passed, including six concurrent-import scope safeguards",
+    "full_site_build": "PASS; Node24.15.0; exit0; build.log saved.",
+    "browser": "No new layout/script case: edits preserve stanza/line counts and checked verse/tail boundaries; rendered payload parity checked.",
+    "records_and_bundle": {
+      "result": "PASS",
+      "concepts": 86,
+      "local_links": 2078,
+      "errors": [],
+      "configuration_checked": true,
+      "scope": "Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness."
+    },
+    "latest_storage": {
+      "recorded_at": "2026-10-06T04:46:57.183467+00:00",
+      "command": "python3 tools/check_storage.py",
+      "exit_code": 1,
+      "result": "FAIL",
+      "moved_files": 479,
+      "website_files_preserved": 459,
+      "portable_links_checked": 2073,
+      "migration_hashes_checked": false,
+      "errors": [
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-830-source.json",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/baseline-poems.json",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-825-source.json",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/scope.json",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-826-source.json",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/artwork.json",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-833-source.json",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-834-source.json",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-828-source.json",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/baseline-art-direction.json",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-824-source.json",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/poem-832-source.json"
+      ],
+      "note": "Concurrent Edition48 revision02 research/artwork records created during check; preserved all unrelated work. No user action required."
+    },
+    "handoff": "PASS; synchronized with hashes verified, then final synchronization after saving verification.",
+    "storage": {
+      "result": "PASS",
+      "moved_files": 479,
+      "website_files_preserved": 459,
+      "portable_links_checked": 2073,
+      "migration_hashes_checked": false,
+      "errors": []
+    }
+  },
+  "independent_review": false,
+  "published": false,
+  "recorded_at": "2026-10-06T04:54:40.843348+00:00"
+}

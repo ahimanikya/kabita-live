@@ -1,0 +1,32 @@
+{
+  "status": "verified_local",
+  "started_at": "2026-10-06T05:16:05.302224+00:00",
+  "authorization": "User clarifies poem-theme fidelity and medium freedom under Human Natural/Poetic Natural; requests passage-related line art in editorial.",
+  "publication": false,
+  "independent": false,
+  "registers": {
+    "decision": "KBL-DEC-055",
+    "work": "KBL-WORK-030",
+    "review": "KBL-REV-019"
+  },
+  "counts": {
+    "poems_reviewed": 11,
+    "retained": 8,
+    "changed": 3,
+    "new_poem_images": 2,
+    "reused_saved_candidate": 1,
+    "new_editorial_vignettes": 3
+  },
+  "rules": "Poem theme determines subject and expressive medium; Human Natural/Poetic Natural is not a watercolor requirement.",
+  "next_action": "Local review; no push or deployment requested.",
+  "verified_at": "2026-10-06T05:30:57.878047+00:00",
+  "verification": "kb/research/edition-sync/edition-48/revision-03/verification.json",
+  "browser_review": "kb/research/edition-sync/edition-48/revision-03/browser-review.json",
+  "completed_at": "2026-10-06T05:33:19.191238+00:00",
+  "handoff": {
+    "result": "PASS",
+    "entries": 22663,
+    "reconciliation": "kb/artifacts/edition-sync/edition-48/revision-03/handoff-reconciliation/reconciliation.json",
+    "storage": "kb/research/edition-sync/edition-48/revision-03/storage-verification.json"
+  }
+}

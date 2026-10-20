@@ -1,0 +1,42 @@
+{
+  "status": "pass_with_limitations",
+  "scope": "Shared website masthead logo sizing only",
+  "independent": false,
+  "implementation": {
+    "desktop": "One shared clamp(2.75rem,6.5vw,5.375rem) for logo box and masthead text.",
+    "compact": "One shared clamp(1.625rem,7vw,3rem); brand wrapping allows enlarged text to reflow.",
+    "asset": "Original 256x256 logo unchanged; object-fit:contain preserves its aspect ratio.",
+    "cache_version": "20261019-logo"
+  },
+  "tests": {
+    "javascript": 168,
+    "python": 34,
+    "failed": 0
+  },
+  "source_integrity": {
+    "editions_check": "pass",
+    "preserved_files": 1017,
+    "changed": 0
+  },
+  "browser": {
+    "status": "not_tested",
+    "limitation": "Browser visual/reflow verification could not run: the automatic approval review service reported model capacity on three attempts. No unsafe-action rejection occurred; no alternate browser access was used."
+  },
+  "publication": "local_only",
+  "evidence": [
+    "ink-voice.css.diff",
+    "ink_voice.py.diff",
+    "tests.log",
+    "build.log",
+    "editions.log",
+    "preserved-check.json"
+  ],
+  "build": {
+    "node": "24.15.0",
+    "result": "pass",
+    "completion": "Astro Complete and final Pagefind Finished markers present.",
+    "styled_header_pages": 1316,
+    "stale_style_references": [],
+    "exported_css_matches_source": true
+  }
+}

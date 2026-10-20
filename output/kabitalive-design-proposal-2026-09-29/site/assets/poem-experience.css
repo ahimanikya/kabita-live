@@ -380,3 +380,23 @@ body.night .focus-page{box-shadow:none}
 .poem-page .poem-toolbar .poem-actions::before{content:"";position:absolute;left:-7px;top:12px;height:20px;width:1px;background:var(--line);pointer-events:none}
 .poem-page .poem-toolbar .reading-tabs{margin:0;padding:0}
 @media(max-width:360px){.poem-page .poem-toolbar{gap:4px;margin-inline:-16px}.poem-page .poem-toolbar .poem-actions::before{left:-3px}}
+
+/* The original is a distinct choice with a small interface-font badge.
+   Its language symbol shares the other two controls' size and baseline. */
+.poem-page .poem-language-front .reading-tabs [data-reading-language="original"],
+.focus-language-icons [data-focus-language="original"]{
+ position:relative;display:inline-flex;justify-content:center;align-items:center;
+ width:44px;flex:0 0 44px;padding:4px;
+}
+.original-label,.poem-page .reading-tabs button .original-label{
+ position:absolute;top:-3px;left:50%;transform:translateX(-50%);z-index:1;
+ font:600 .53125rem/1.05 var(--ui);letter-spacing:.015em;text-transform:uppercase;
+ white-space:nowrap;padding:1px 2px;border:1px solid var(--line);border-radius:2px;
+ color:var(--rust);background:var(--paper);
+}
+.original-language,.poem-page .reading-tabs button .original-language{font:inherit;line-height:inherit;color:inherit}
+.original-language:lang(or){font-family:var(--odia)}
+.original-language:lang(hi){font-family:'Tiro Devanagari Hindi',serif}
+.focus-language-icons [hidden]{display:none!important}
+
+.focus-title .focus-version{font:.75rem/1.5 var(--ui);color:var(--muted);margin:8px 0 16px}

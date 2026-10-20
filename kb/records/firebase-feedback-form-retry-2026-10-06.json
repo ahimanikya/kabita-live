@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-07T02:08:53.315729+00:00",
+  "status": "feedback_form_retry_source_checkpoint",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "executor": "Current assistant; Samanta implementation and Drishti self-review role passes",
+  "checks": {
+    "adapter_sdk_ui_tests_passed": 29,
+    "new_feedback_form_tests": 6,
+    "retained_rules_emulator_tests_passed": 27,
+    "isolated_build": "/private/tmp/kbl-services074-build",
+    "skipped": 0
+  },
+  "limitations": [
+    "Private feedback form wired to receipt adapter only when engagement.feedbackReceiptVersion equals1; current configuration has no flag. Legacy feedback/email-draft fallback and default-app identity extension remain compatible.",
+    "Twenty-nine adapter/SDK/UI checks pass including six feedback receipt form cases: exact contact/text, original-ID retry, unavailable receipt, changed contact/context, edits while sending, duplicate submission and UTF8 bounds.",
+    "Twenty-seven unchanged rules emulator checks retained from batch073; isolated service build passes. No receipt activation, cloud rule deployment, public bundle change or data migration. Editor compatibility, actual browser auth and final loading/integration remain open."
+  ],
+  "unchanged_inputs": {
+    "runtime-config.json": "bc0f7bf28b7b5378f110979a79dae273f81cd5070a78a92fbbe37500324f5955",
+    "assets/engagement.js": "e4b54b8c9877ddf7a0a17dabbde8e076aae839dd815359c78101371cd8eeaa54",
+    "assets/private-feedback.js": "3e41c39ae39baa1aec481dec9ee9266873e0b34c60fc0f9475220f49fdef9e69"
+  },
+  "recovery": "/Users/ahimanikya/Projects/Poem Without Borders/output/fleet-alignment/batch-process/results/batch-074-recovery/manifest.json"
+}

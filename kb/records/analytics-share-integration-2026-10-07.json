@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-07T16:41:53.219541+00:00",
+  "batch": "batch-132",
+  "task": "FLEET-020",
+  "status": "kabita_common_share_adapter_verified_adoption_incomplete",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "checks": {
+    "source_and_packaged_tests_passed": 17,
+    "share_handler_tests": 4,
+    "generated_analytics_bundle_verified": true,
+    "native_provider_network_verified": false
+  },
+  "limitations": [
+    "17 checks pass:8 consent/common packaged-adapter tests,5 real-catalogue/pin checks,4 actual sharing-handler tests. Tests execute generated IIFE and source handlers with synthetic APIs; native browser/provider-network verification remains pending.",
+    "Successful link copy and native share emit common completion names with frozen pre-await poem/language context. Failed/cancelled actions, caption copies, collection copies and external social-link opens emit no poem completion. Common validator rejects private fields, unknown context and legacy share vocabulary.",
+    "Source entry and normal build bundler now reproduce assets/analytics.js using exact-pinned Blueprint validator. Existing consent key, dedicated property and source config preserved. Prior public catalogue exporter checkpoint retained; no fresh Astro/dist rebuild or live tracking change.",
+    "Reader/content/language/article hooks, actual provider consent/loading races, storage-blocked withdrawal and four-site integration remain pending. Local feature checkpoint only; no full FLEET020 acceptance.",
+    "Primary canonical KB only. No portable internal-record export or handoff sync, publication, deployment or independent review."
+  ],
+  "next_action": "Integrate actual public content/language and reader lifecycle hooks, then verify native provider network behaviour, storage-blocked withdrawal and retries; proceed to remaining site adapters."
+}

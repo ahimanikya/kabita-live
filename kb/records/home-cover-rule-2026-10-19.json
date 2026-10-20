@@ -1,0 +1,114 @@
+{
+  "id": "KBL-DEC-072",
+  "work": "KBL-WORK-054",
+  "title": "Current edition cover for homepage and website sharing",
+  "recorded_at": "2026-10-19T04:58:13.310420+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "user_quote": "The image attached to the website/home page should always be the current edition cover. Make that a rule.",
+  "status": "verified_local",
+  "rule": "The homepage’s principal image and root/homepage sharing preview always use the current catalogue edition’s complete approved front cover, including masthead, Odia signature, issue/date and artwork. Featured-poem rotation is independent. The cover changes automatically on current-edition promotion. A missing/stale current cover is a build error, never a generic-artwork fallback.",
+  "implementation": {
+    "metadata": "Select the newest edition using the publication catalogue, matching the visible ink-current-edition cover. Read the canonical cover-layout composition; static OG/Twitter tags point to one content-hashed JPEG. Cache identity includes artwork, composition/lettering and required local cover fonts.",
+    "rendering": "Rasterize the canonical front SVG with local licensed masthead/Indic fonts. Embed the original artwork as lossless PNG for SVG renderer compatibility. Preserve the full 2:3 cover on the existing 1200×630 paper sharing canvas; no new artwork or cover redesign.",
+    "current_edition": 48,
+    "guidance": [
+      "AGENTS.md",
+      "kb/reference/website-rulebook.md (ART-06 / SHARE-06 and page mapping)",
+      "kb/artifacts/design/brand-guide/DESIGN-SYSTEM.md",
+      "kb/reference/site-architecture.md",
+      "kb/review/new-page-checklist.md",
+      "kb/production/edition-sync/PLAYBOOK.md"
+    ],
+    "preserved": "Other page-specific preview mappings and all 659 other raster images remain identical. Original covers, poems, credits, font files, runtime services, consent, release gates and featured-poem rotation remain unchanged."
+  },
+  "checklist": {
+    "route": "index.html and its canonical root URL; existing homepage family",
+    "source": "Same current edition as the visible homepage; canonical cover-layout-b SVG and artwork.",
+    "artwork": "Complete approved current front cover, no cropped-away lettering or borrowed portrait. Historical courtyard remains preserved for other established uses/history.",
+    "sharing": "One matching static OG/Twitter image; edition/date alt; cache changes on promotion; repository-path and domain-root URL behavior covered.",
+    "rules": [
+      "PAGE-01",
+      "PAGE-02",
+      "ART-06",
+      "SHARE-01",
+      "SHARE-02",
+      "SHARE-03",
+      "SHARE-04",
+      "SHARE-05",
+      "SHARE-06",
+      "DELIVERY-02",
+      "DELIVERY-03",
+      "DELIVERY-05"
+    ],
+    "review": "Exported JPEG inspected directly and its dimensions/artwork region checked. No browser layout change, live provider submission or platform-cache test.",
+    "handoff": "Final synchronization/storage check follows saved canonical records.",
+    "publication": "Local implementation only."
+  },
+  "executor": "Current chat assistant; Samanta implementation/Drishti self-review",
+  "independent": false,
+  "evidence": [
+    "artifacts/design/home-cover-rule-2026-10-19/verification.json",
+    "artifacts/design/home-cover-rule-2026-10-19/homepage-share.jpg",
+    "artifacts/design/home-cover-rule-2026-10-19/after-home-metadata.json"
+  ],
+  "checks": {
+    "status": "pass_with_limitations",
+    "self_review": true,
+    "independent": false,
+    "build": {
+      "node": "24.15.0",
+      "exit_code": 0,
+      "public_pages": 1317,
+      "pagefind_pages": 1312,
+      "content_ready": false
+    },
+    "tests": {
+      "javascript": 169,
+      "python": 36,
+      "failed": 0,
+      "order": "Full suite ran after the final completed build.",
+      "new_regressions": "Current full front cover wins over portraits/responsive/older images; edition promotion changes its cache key even with unchanged artwork; stale/missing visible current cover is rejected."
+    },
+    "export": {
+      "status": "pass",
+      "current_edition": 48,
+      "changed_page_associations": [
+        "index.html"
+      ],
+      "other_page_associations_preserved": 1316,
+      "other_sharing_images_unchanged": 659,
+      "protected_files": 6,
+      "historical_protected_files": 1017,
+      "complete_cover_svg_matches_canonical": true,
+      "new_image_cache_key": true,
+      "image_bytes": 55796,
+      "image_asset": "assets/social/12dea1ca608f4810576a.jpg",
+      "image_url": "https://ahimanikya.github.io/kabita-live/assets/social/12dea1ca608f4810576a.jpg",
+      "alt": "Kabita Live — Issue 48, October 2026. Complete front cover.",
+      "initial_html_og_and_twitter_match": true,
+      "originals_and_runtime_unchanged": true,
+      "publication": "Local only; no push/deployment or platform cache request."
+    },
+    "image": {
+      "status": "pass",
+      "width": 1200,
+      "height": 630,
+      "format": "jpeg",
+      "central_artwork_channel_deviations": [
+        51.13641834133532,
+        46.39410306778019,
+        47.41075135493621
+      ],
+      "visual_self_review": "Complete front cover directly inspected: riverbank artwork, masthead, Odia signature and issue/date present and uncropped, on paper surround. Not a live social-platform cache test."
+    },
+    "resolved_findings": [
+      "First raster candidate retained lettering but omitted the embedded WebP artwork. Replaced the SVG image data with a lossless PNG encoding of the same source before rasterizing; rebuilt and directly inspected the finished complete cover. First failed candidate retained as evidence.",
+      "An initial bare-node command resolved to the obsolete system runtime. All final build/test commands explicitly use Node 24.15.0."
+    ],
+    "limits": [
+      "No public deployment or live platform sharing/cache test. A generated static sharing image is verified separately from Facebook/WhatsApp cache display.",
+      "Existing page layout is unchanged; visual self-review covered the exported sharing raster, not a new browser layout audit."
+    ],
+    "publication": "Local only; no push, deployment or platform-cache request."
+  }
+}

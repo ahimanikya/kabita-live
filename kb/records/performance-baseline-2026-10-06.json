@@ -1,0 +1,5799 @@
+{
+  "site": "KBL",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "artifact_root_relative": "projects/site/dist",
+  "conditions": {
+    "viewport": "390x844",
+    "dpr": 1,
+    "cpuSlowdown": 4,
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "uploadBytesPerSecond": 93750,
+    "cache": "disabled; new incognito context each run",
+    "observationWindowMs": 6500,
+    "delivery": "Python static localhost; no compression; Cache-Control no-store",
+    "externalRequests": "HTTPS blocked to isolate public artifact and avoid provider writes",
+    "repeats": 3
+  },
+  "reader_conditions": {
+    "viewport": "390x844",
+    "dpr": 1,
+    "cpuSlowdown": 4,
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "uploadBytesPerSecond": 93750,
+    "cache": "disabled; new incognito context each run",
+    "observationWindowMs": 20000,
+    "delivery": "Python static localhost; no compression; Cache-Control no-store",
+    "externalRequests": "HTTPS blocked to isolate public artifact and avoid provider writes",
+    "repeats": 3
+  },
+  "browser": "Chrome/154.0.8037.98",
+  "rows": [
+    {
+      "site": "KBL",
+      "family": "home",
+      "route": "/index.html",
+      "repeats": 3,
+      "window_ms": 6500,
+      "fcp_median_ms": 1600,
+      "observed_lcp_median_ms": 4028,
+      "cls_window_median": 0,
+      "DOMContentLoaded_median_ms": 1513.4,
+      "load_completed_samples": 0,
+      "finished_local_bytes_median": 429281,
+      "local_request_count_median": 29,
+      "http_errors": [],
+      "runtime_exception_count": 0
+    },
+    {
+      "site": "KBL",
+      "family": "poem",
+      "route": "/poem-dokana.html",
+      "repeats": 3,
+      "window_ms": 6500,
+      "fcp_median_ms": 2380,
+      "observed_lcp_median_ms": 2408,
+      "cls_window_median": 0.0,
+      "DOMContentLoaded_median_ms": null,
+      "load_completed_samples": 0,
+      "finished_local_bytes_median": 722529,
+      "local_request_count_median": 26,
+      "http_errors": [],
+      "runtime_exception_count": 0
+    },
+    {
+      "site": "KBL",
+      "family": "article",
+      "route": "/thirty-languages-and-the-journey-of-a-poem.html",
+      "repeats": 3,
+      "window_ms": 6500,
+      "fcp_median_ms": 1924,
+      "observed_lcp_median_ms": 2000,
+      "cls_window_median": 0.04,
+      "DOMContentLoaded_median_ms": 1926.2,
+      "load_completed_samples": 2,
+      "finished_local_bytes_median": 1077702,
+      "local_request_count_median": 17,
+      "http_errors": [],
+      "runtime_exception_count": 0
+    },
+    {
+      "site": "KBL",
+      "family": "reader",
+      "route": "/poem-dokana.html?focus=1",
+      "repeats": 3,
+      "window_ms": 20000,
+      "fcp_median_ms": 2380,
+      "observed_lcp_median_ms": 2448,
+      "cls_window_median": 0.0,
+      "DOMContentLoaded_median_ms": 9437.8,
+      "load_completed_samples": 3,
+      "finished_local_bytes_median": 2156762,
+      "local_request_count_median": 32,
+      "http_errors": [],
+      "runtime_exception_count": 0
+    }
+  ],
+  "runs": [
+    {
+      "site": "KBL",
+      "family": "home",
+      "route": "/index.html",
+      "repeat": 1,
+      "started": "2026-10-06T03:59:29.246Z",
+      "metrics": {
+        "ready": "interactive",
+        "title": "Home \u00b7 Kabita Live",
+        "textLength": 1535,
+        "readerActive": "journal-paper cotton-paper site-theme night",
+        "nav": [
+          {
+            "domContentLoaded": 1731.0999999046326,
+            "load": 0,
+            "responseStart": 1.5999999046325684,
+            "domInteractive": 1723.5
+          }
+        ],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 1536
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 2292
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 2292,
+            "size": 17690,
+            "tag": "P",
+            "url": null
+          },
+          {
+            "startTime": 4164,
+            "size": 81900,
+            "tag": "IMG",
+            "url": "/assets/home/field-poetic-natural-v1-768.webp"
+          }
+        ],
+        "shifts": [],
+        "resources": [
+          {
+            "path": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+            "type": "link",
+            "start": 173.5,
+            "duration": 1339.7000000476837,
+            "transfer": 90968,
+            "decoded": 90668
+          },
+          {
+            "path": "/assets/app.js",
+            "type": "script",
+            "start": 174.90000009536743,
+            "duration": 850.0999999046326,
+            "transfer": 14883,
+            "decoded": 14583
+          },
+          {
+            "path": "/assets/style.css",
+            "type": "link",
+            "start": 174.90000009536743,
+            "duration": 1329.1999998092651,
+            "transfer": 89570,
+            "decoded": 89270
+          },
+          {
+            "path": "/assets/home-artistic.css",
+            "type": "link",
+            "start": 175.5,
+            "duration": 182.09999990463257,
+            "transfer": 1307,
+            "decoded": 1007
+          },
+          {
+            "path": "/assets/analytics.js",
+            "type": "script",
+            "start": 175.5,
+            "duration": 826.7000000476837,
+            "transfer": 4613,
+            "decoded": 4313
+          },
+          {
+            "path": "/assets/human-natural.css",
+            "type": "link",
+            "start": 175.59999990463257,
+            "duration": 226.70000004768372,
+            "transfer": 2189,
+            "decoded": 1889
+          },
+          {
+            "path": "/assets/home-views.css",
+            "type": "link",
+            "start": 175.79999995231628,
+            "duration": 196.10000014305115,
+            "transfer": 556,
+            "decoded": 256
+          },
+          {
+            "path": "/assets/cover-layout-b.css",
+            "type": "link",
+            "start": 176,
+            "duration": 361.40000009536743,
+            "transfer": 860,
+            "decoded": 560
+          },
+          {
+            "path": "/assets/article-links.css",
+            "type": "link",
+            "start": 176,
+            "duration": 383.2000000476837,
+            "transfer": 1397,
+            "decoded": 1097
+          },
+          {
+            "path": "/assets/image-delivery.css",
+            "type": "link",
+            "start": 176,
+            "duration": 413.59999990463257,
+            "transfer": 637,
+            "decoded": 337
+          },
+          {
+            "path": "/assets/image-delivery.js",
+            "type": "script",
+            "start": 176,
+            "duration": 773.5,
+            "transfer": 751,
+            "decoded": 451
+          },
+          {
+            "path": "/assets/appearance.js",
+            "type": "script",
+            "start": 179.29999995231628,
+            "duration": 551.5,
+            "transfer": 2016,
+            "decoded": 1716
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "img",
+            "start": 179.40000009536743,
+            "duration": 589.6999998092651,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/home-featured.js",
+            "type": "script",
+            "start": 326.09999990463257,
+            "duration": 436.10000014305115,
+            "transfer": 1681,
+            "decoded": 1381
+          },
+          {
+            "path": "/assets/home/field-poetic-natural-v1-768.webp",
+            "type": "img",
+            "start": 1540,
+            "duration": 2612.5999999046326,
+            "transfer": 86720,
+            "decoded": 86420
+          },
+          {
+            "path": "/assets/poetic-waterline.svg",
+            "type": "css",
+            "start": 1574.2000000476837,
+            "duration": 170.39999985694885,
+            "transfer": 774,
+            "decoded": 474
+          },
+          {
+            "path": "/assets/fonts/CormorantGaramond-Italic-Variable.woff2",
+            "type": "css",
+            "start": 1578.2000000476837,
+            "duration": 4449.200000047684,
+            "transfer": 144216,
+            "decoded": 143916
+          },
+          {
+            "path": "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+            "type": "css",
+            "start": 1578.7999999523163,
+            "duration": 4545.799999952316,
+            "transfer": 141780,
+            "decoded": 141480
+          },
+          {
+            "path": "/assets/writers/82-earth-voice-v1-64.webp",
+            "type": "img",
+            "start": 1681.9000000953674,
+            "duration": 4682.599999904633,
+            "transfer": 2054,
+            "decoded": 1754
+          },
+          {
+            "path": "/assets/writers/337-earth-voice-v1-64.webp",
+            "type": "img",
+            "start": 1682,
+            "duration": 4922.900000095367,
+            "transfer": 2020,
+            "decoded": 1720
+          }
+        ]
+      },
+      "network": [
+        {
+          "url": "/index.html",
+          "type": "Document",
+          "started": 1245407.126944,
+          "status": 200,
+          "mime": "text/html",
+          "bytes": 48356,
+          "finished": 1245407.723516
+        },
+        {
+          "url": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "type": "Font",
+          "started": 1245407.299622,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 90882,
+          "finished": 1245408.639725
+        },
+        {
+          "url": "/assets/style.css",
+          "type": "Stylesheet",
+          "started": 1245407.301366,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 89482,
+          "finished": 1245408.630555
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "Script",
+          "started": 1245407.301409,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 14802,
+          "finished": 1245408.151496
+        },
+        {
+          "url": "/assets/analytics.js",
+          "type": "Script",
+          "started": 1245407.301453,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 4531,
+          "finished": 1245408.128745
+        },
+        {
+          "url": "/assets/home-artistic.css",
+          "type": "Stylesheet",
+          "started": 1245407.30201,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1218,
+          "finished": 1245407.484054
+        },
+        {
+          "url": "/assets/human-natural.css",
+          "type": "Stylesheet",
+          "started": 1245407.302028,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 2100,
+          "finished": 1245407.528786
+        },
+        {
+          "url": "/assets/home-views.css",
+          "type": "Stylesheet",
+          "started": 1245407.302302,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 466,
+          "finished": 1245407.498403
+        },
+        {
+          "url": "/assets/cover-layout-b.css",
+          "type": "Stylesheet",
+          "started": 1245407.302455,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 770,
+          "finished": 1245407.663907
+        },
+        {
+          "url": "/assets/article-links.css",
+          "type": "Stylesheet",
+          "started": 1245407.302481,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1308,
+          "finished": 1245407.685634
+        },
+        {
+          "url": "/assets/image-delivery.css",
+          "type": "Stylesheet",
+          "started": 1245407.302504,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 547,
+          "finished": 1245407.716147
+        },
+        {
+          "url": "/assets/image-delivery.js",
+          "type": "Script",
+          "started": 1245407.302517,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 668,
+          "finished": 1245408.075983
+        },
+        {
+          "url": "/assets/appearance.js",
+          "type": "Script",
+          "started": 1245407.305473,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1934,
+          "finished": 1245407.857336
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Image",
+          "started": 1245407.305839,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245407.895645
+        },
+        {
+          "url": "/assets/home-featured.js",
+          "type": "Script",
+          "started": 1245407.452511,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1599,
+          "finished": 1245407.888735
+        },
+        {
+          "url": "/assets/home/field-poetic-natural-v1-768.webp",
+          "type": "Image",
+          "started": 1245408.666435,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 86634,
+          "finished": 1245411.27916
+        },
+        {
+          "url": "/assets/covers/editions/edition-047-2026-09-natural-b-v1.webp",
+          "type": "Image",
+          "started": 1245408.670097,
+          "status": 200,
+          "mime": "image/webp"
+        },
+        {
+          "url": "/assets/poetic-waterline.svg",
+          "type": "Image",
+          "started": 1245408.70054,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 689,
+          "finished": 1245408.871056
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Italic-Variable.woff2",
+          "type": "Font",
+          "started": 1245408.704553
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Italic-Variable.woff2",
+          "type": "Font",
+          "started": 1245408.704603,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 144131,
+          "finished": 1245413.153949
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "type": "Font",
+          "started": 1245408.704628
+        },
+        {
+          "url": "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "type": "Font",
+          "started": 1245408.705288,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 141695,
+          "finished": 1245413.251058
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Variable.woff2",
+          "type": "Font",
+          "started": 1245408.705316
+        },
+        {
+          "url": "/assets/writers/82-earth-voice-v1-64.webp",
+          "type": "Image",
+          "started": 1245408.808444,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 1967,
+          "finished": 1245413.491058
+        },
+        {
+          "url": "/assets/writers/337-earth-voice-v1-64.webp",
+          "type": "Image",
+          "started": 1245408.808494,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 1933,
+          "finished": 1245413.731351
+        },
+        {
+          "url": "/assets/responsive/96e9738483bd7530-96.webp",
+          "type": "Image",
+          "started": 1245408.80851
+        },
+        {
+          "url": "/assets/covers/editions/edition-046-2026-08-poetic-natural.webp",
+          "type": "Image",
+          "started": 1245408.813945
+        },
+        {
+          "url": "/assets/covers/editions/edition-045-2026-07-poetic-natural.webp",
+          "type": "Image",
+          "started": 1245408.814254
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245408.854702,
+          "status": 200,
+          "mime": "application/json"
+        },
+        {
+          "url": "/assets/responsive/c62f29f8c748683f-96.webp",
+          "type": "Image",
+          "started": 1245409.42479
+        },
+        {
+          "url": "/assets/responsive/3e2409c55f739156-96.webp",
+          "type": "Image",
+          "started": 1245409.425908
+        }
+      ],
+      "externalBlocked": [],
+      "exceptionCount": 0,
+      "observationWindowMs": 6500
+    },
+    {
+      "site": "KBL",
+      "family": "home",
+      "route": "/index.html",
+      "repeat": 2,
+      "started": "2026-10-06T03:59:36.352Z",
+      "metrics": {
+        "ready": "interactive",
+        "title": "Home \u00b7 Kabita Live",
+        "textLength": 1532,
+        "readerActive": "journal-paper cotton-paper site-theme night",
+        "nav": [
+          {
+            "domContentLoaded": 1442.3999998569489,
+            "load": 0,
+            "responseStart": 2.0999999046325684,
+            "domInteractive": 1435.7000000476837
+          }
+        ],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 1596
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 1596
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 1596,
+            "size": 17690,
+            "tag": "P",
+            "url": null
+          },
+          {
+            "startTime": 3968,
+            "size": 81900,
+            "tag": "IMG",
+            "url": "/assets/home/bridge-poetic-natural-v1-768.webp"
+          }
+        ],
+        "shifts": [],
+        "resources": [
+          {
+            "path": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+            "type": "link",
+            "start": 169.89999985694885,
+            "duration": 1341.9000000953674,
+            "transfer": 90968,
+            "decoded": 90668
+          },
+          {
+            "path": "/assets/home-artistic.css",
+            "type": "link",
+            "start": 171,
+            "duration": 171.09999990463257,
+            "transfer": 1307,
+            "decoded": 1007
+          },
+          {
+            "path": "/assets/home-views.css",
+            "type": "link",
+            "start": 171,
+            "duration": 186.29999995231628,
+            "transfer": 556,
+            "decoded": 256
+          },
+          {
+            "path": "/assets/cover-layout-b.css",
+            "type": "link",
+            "start": 171,
+            "duration": 193.20000004768372,
+            "transfer": 860,
+            "decoded": 560
+          },
+          {
+            "path": "/assets/human-natural.css",
+            "type": "link",
+            "start": 171,
+            "duration": 215.20000004768372,
+            "transfer": 2189,
+            "decoded": 1889
+          },
+          {
+            "path": "/assets/analytics.js",
+            "type": "script",
+            "start": 171,
+            "duration": 680.0999999046326,
+            "transfer": 4613,
+            "decoded": 4313
+          },
+          {
+            "path": "/assets/app.js",
+            "type": "script",
+            "start": 171,
+            "duration": 793.0999999046326,
+            "transfer": 14883,
+            "decoded": 14583
+          },
+          {
+            "path": "/assets/style.css",
+            "type": "link",
+            "start": 171,
+            "duration": 1250.5,
+            "transfer": 89570,
+            "decoded": 89270
+          },
+          {
+            "path": "/assets/article-links.css",
+            "type": "link",
+            "start": 171.09999990463257,
+            "duration": 342.7999999523163,
+            "transfer": 1397,
+            "decoded": 1097
+          },
+          {
+            "path": "/assets/image-delivery.css",
+            "type": "link",
+            "start": 171.70000004768372,
+            "duration": 364.59999990463257,
+            "transfer": 637,
+            "decoded": 337
+          },
+          {
+            "path": "/assets/image-delivery.js",
+            "type": "script",
+            "start": 171.70000004768372,
+            "duration": 710.5999999046326,
+            "transfer": 751,
+            "decoded": 451
+          },
+          {
+            "path": "/assets/appearance.js",
+            "type": "script",
+            "start": 179.70000004768372,
+            "duration": 401.2999999523163,
+            "transfer": 2016,
+            "decoded": 1716
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "img",
+            "start": 179.89999985694885,
+            "duration": 521.6000001430511,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/home-featured.js",
+            "type": "script",
+            "start": 326.5,
+            "duration": 390.39999985694885,
+            "transfer": 1681,
+            "decoded": 1381
+          },
+          {
+            "path": "/assets/home/bridge-poetic-natural-v1-768.webp",
+            "type": "img",
+            "start": 1431.8999998569489,
+            "duration": 2531.9000000953674,
+            "transfer": 81172,
+            "decoded": 80872
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 1440.0999999046326,
+            "duration": 2748.7000000476837,
+            "transfer": 88096,
+            "decoded": 87796
+          }
+        ]
+      },
+      "network": [
+        {
+          "url": "/index.html",
+          "type": "Document",
+          "started": 1245414.234039,
+          "status": 200,
+          "mime": "text/html",
+          "bytes": 48356,
+          "finished": 1245414.755483
+        },
+        {
+          "url": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "type": "Font",
+          "started": 1245414.40365,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 90882,
+          "finished": 1245415.745476
+        },
+        {
+          "url": "/assets/style.css",
+          "type": "Stylesheet",
+          "started": 1245414.404653,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 89482,
+          "finished": 1245415.655264
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "Script",
+          "started": 1245414.404686,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 14802,
+          "finished": 1245415.197814
+        },
+        {
+          "url": "/assets/analytics.js",
+          "type": "Script",
+          "started": 1245414.404719,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 4531,
+          "finished": 1245415.084774
+        },
+        {
+          "url": "/assets/home-artistic.css",
+          "type": "Stylesheet",
+          "started": 1245414.404732,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1218,
+          "finished": 1245414.575759
+        },
+        {
+          "url": "/assets/human-natural.css",
+          "type": "Stylesheet",
+          "started": 1245414.404747,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 2100,
+          "finished": 1245414.619918
+        },
+        {
+          "url": "/assets/home-views.css",
+          "type": "Stylesheet",
+          "started": 1245414.404759,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 466,
+          "finished": 1245414.591017
+        },
+        {
+          "url": "/assets/cover-layout-b.css",
+          "type": "Stylesheet",
+          "started": 1245414.404771,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 770,
+          "finished": 1245414.597938
+        },
+        {
+          "url": "/assets/article-links.css",
+          "type": "Stylesheet",
+          "started": 1245414.404789,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1308,
+          "finished": 1245414.74768
+        },
+        {
+          "url": "/assets/image-delivery.css",
+          "type": "Stylesheet",
+          "started": 1245414.405344,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 547,
+          "finished": 1245414.770072
+        },
+        {
+          "url": "/assets/image-delivery.js",
+          "type": "Script",
+          "started": 1245414.405357,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 668,
+          "finished": 1245415.116001
+        },
+        {
+          "url": "/assets/appearance.js",
+          "type": "Script",
+          "started": 1245414.413383,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1934,
+          "finished": 1245414.814722
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Image",
+          "started": 1245414.413525,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245414.935268
+        },
+        {
+          "url": "/assets/home-featured.js",
+          "type": "Script",
+          "started": 1245414.560264,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1599,
+          "finished": 1245414.950571
+        },
+        {
+          "url": "/assets/home/bridge-poetic-natural-v1-768.webp",
+          "type": "Image",
+          "started": 1245415.665387,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 81086,
+          "finished": 1245418.197502
+        },
+        {
+          "url": "/assets/covers/editions/edition-047-2026-09-natural-b-v1.webp",
+          "type": "Image",
+          "started": 1245415.66796,
+          "status": 200,
+          "mime": "image/webp"
+        },
+        {
+          "url": "/assets/covers/editions/edition-046-2026-08-poetic-natural.webp",
+          "type": "Image",
+          "started": 1245415.668642,
+          "status": 200,
+          "mime": "image/webp"
+        },
+        {
+          "url": "/assets/covers/editions/edition-045-2026-07-poetic-natural.webp",
+          "type": "Image",
+          "started": 1245415.668691,
+          "status": 200,
+          "mime": "image/webp"
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245415.673773,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245418.422431
+        },
+        {
+          "url": "/assets/poetic-waterline.svg",
+          "type": "Image",
+          "started": 1245415.692406
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "type": "Font",
+          "started": 1245415.697404
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Italic-Variable.woff2",
+          "type": "Font",
+          "started": 1245415.698212
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Italic-Variable.woff2",
+          "type": "Font",
+          "started": 1245415.698238
+        },
+        {
+          "url": "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "type": "Font",
+          "started": 1245415.698273
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Variable.woff2",
+          "type": "Font",
+          "started": 1245415.698289
+        },
+        {
+          "url": "/assets/writers/82-earth-voice-v1-64.webp",
+          "type": "Image",
+          "started": 1245415.816399
+        },
+        {
+          "url": "/assets/responsive/c62f29f8c748683f-96.webp",
+          "type": "Image",
+          "started": 1245415.816449
+        },
+        {
+          "url": "/assets/responsive/3e2409c55f739156-96.webp",
+          "type": "Image",
+          "started": 1245415.816467
+        }
+      ],
+      "externalBlocked": [],
+      "exceptionCount": 0,
+      "observationWindowMs": 6500
+    },
+    {
+      "site": "KBL",
+      "family": "home",
+      "route": "/index.html",
+      "repeat": 3,
+      "started": "2026-10-06T03:59:43.293Z",
+      "metrics": {
+        "ready": "interactive",
+        "title": "Home \u00b7 Kabita Live",
+        "textLength": 1532,
+        "readerActive": "journal-paper cotton-paper site-theme night",
+        "nav": [
+          {
+            "domContentLoaded": 1513.3999998569489,
+            "load": 0,
+            "responseStart": 1.5,
+            "domInteractive": 1507.7999999523163
+          }
+        ],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 1600
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 1600
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 1600,
+            "size": 17690,
+            "tag": "P",
+            "url": null
+          },
+          {
+            "startTime": 4028,
+            "size": 81900,
+            "tag": "IMG",
+            "url": "/assets/home/bridge-poetic-natural-v1-768.webp"
+          }
+        ],
+        "shifts": [],
+        "resources": [
+          {
+            "path": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+            "type": "link",
+            "start": 166.89999985694885,
+            "duration": 1341,
+            "transfer": 90968,
+            "decoded": 90668
+          },
+          {
+            "path": "/assets/style.css",
+            "type": "link",
+            "start": 167.89999985694885,
+            "duration": 1326.4000000953674,
+            "transfer": 89570,
+            "decoded": 89270
+          },
+          {
+            "path": "/assets/home-artistic.css",
+            "type": "link",
+            "start": 168,
+            "duration": 164.09999990463257,
+            "transfer": 1307,
+            "decoded": 1007
+          },
+          {
+            "path": "/assets/home-views.css",
+            "type": "link",
+            "start": 168,
+            "duration": 193.39999985694885,
+            "transfer": 556,
+            "decoded": 256
+          },
+          {
+            "path": "/assets/human-natural.css",
+            "type": "link",
+            "start": 168,
+            "duration": 223.19999980926514,
+            "transfer": 2189,
+            "decoded": 1889
+          },
+          {
+            "path": "/assets/cover-layout-b.css",
+            "type": "link",
+            "start": 168,
+            "duration": 343.69999980926514,
+            "transfer": 860,
+            "decoded": 560
+          },
+          {
+            "path": "/assets/article-links.css",
+            "type": "link",
+            "start": 168,
+            "duration": 373.2999999523163,
+            "transfer": 1397,
+            "decoded": 1097
+          },
+          {
+            "path": "/assets/image-delivery.css",
+            "type": "link",
+            "start": 168,
+            "duration": 403.69999980926514,
+            "transfer": 637,
+            "decoded": 337
+          },
+          {
+            "path": "/assets/image-delivery.js",
+            "type": "script",
+            "start": 168,
+            "duration": 756.5,
+            "transfer": 751,
+            "decoded": 451
+          },
+          {
+            "path": "/assets/analytics.js",
+            "type": "script",
+            "start": 168,
+            "duration": 816.2999999523163,
+            "transfer": 4613,
+            "decoded": 4313
+          },
+          {
+            "path": "/assets/app.js",
+            "type": "script",
+            "start": 168,
+            "duration": 845.1999998092651,
+            "transfer": 14883,
+            "decoded": 14583
+          },
+          {
+            "path": "/assets/appearance.js",
+            "type": "script",
+            "start": 176.19999980926514,
+            "duration": 530.6000001430511,
+            "transfer": 2016,
+            "decoded": 1716
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "img",
+            "start": 176.29999995231628,
+            "duration": 575.7999999523163,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/home-featured.js",
+            "type": "script",
+            "start": 324.09999990463257,
+            "duration": 411.7000000476837,
+            "transfer": 1681,
+            "decoded": 1381
+          },
+          {
+            "path": "/assets/home/bridge-poetic-natural-v1-768.webp",
+            "type": "img",
+            "start": 1503.7999999523163,
+            "duration": 2517.399999856949,
+            "transfer": 81172,
+            "decoded": 80872
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 1511,
+            "duration": 2735.899999856949,
+            "transfer": 88096,
+            "decoded": 87796
+          },
+          {
+            "path": "/assets/poetic-waterline.svg",
+            "type": "css",
+            "start": 1528.5999999046326,
+            "duration": 190.79999995231628,
+            "transfer": 774,
+            "decoded": 474
+          }
+        ]
+      },
+      "network": [
+        {
+          "url": "/index.html",
+          "type": "Document",
+          "started": 1245421.173319,
+          "status": 200,
+          "mime": "text/html",
+          "bytes": 48356,
+          "finished": 1245421.774921
+        },
+        {
+          "url": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "type": "Font",
+          "started": 1245421.339756,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 90882,
+          "finished": 1245422.680893
+        },
+        {
+          "url": "/assets/style.css",
+          "type": "Stylesheet",
+          "started": 1245421.340814,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 89482,
+          "finished": 1245422.667152
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "Script",
+          "started": 1245421.340844,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 14802,
+          "finished": 1245422.186116
+        },
+        {
+          "url": "/assets/analytics.js",
+          "type": "Script",
+          "started": 1245421.340872,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 4531,
+          "finished": 1245422.157219
+        },
+        {
+          "url": "/assets/home-artistic.css",
+          "type": "Stylesheet",
+          "started": 1245421.340885,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1218,
+          "finished": 1245421.504985
+        },
+        {
+          "url": "/assets/human-natural.css",
+          "type": "Stylesheet",
+          "started": 1245421.340901,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 2100,
+          "finished": 1245421.56414
+        },
+        {
+          "url": "/assets/home-views.css",
+          "type": "Stylesheet",
+          "started": 1245421.340917,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 466,
+          "finished": 1245421.5343
+        },
+        {
+          "url": "/assets/cover-layout-b.css",
+          "type": "Stylesheet",
+          "started": 1245421.340928,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 770,
+          "finished": 1245421.68453
+        },
+        {
+          "url": "/assets/article-links.css",
+          "type": "Stylesheet",
+          "started": 1245421.340943,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1308,
+          "finished": 1245421.714167
+        },
+        {
+          "url": "/assets/image-delivery.css",
+          "type": "Stylesheet",
+          "started": 1245421.340955,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 547,
+          "finished": 1245421.744603
+        },
+        {
+          "url": "/assets/image-delivery.js",
+          "type": "Script",
+          "started": 1245421.340966,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 668,
+          "finished": 1245422.097415
+        },
+        {
+          "url": "/assets/appearance.js",
+          "type": "Script",
+          "started": 1245421.348335,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1934,
+          "finished": 1245421.879694
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Image",
+          "started": 1245421.349195,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245421.924953
+        },
+        {
+          "url": "/assets/home-featured.js",
+          "type": "Script",
+          "started": 1245421.496896,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1599,
+          "finished": 1245421.908775
+        },
+        {
+          "url": "/assets/home/bridge-poetic-natural-v1-768.webp",
+          "type": "Image",
+          "started": 1245422.676633,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 81086,
+          "finished": 1245425.194086
+        },
+        {
+          "url": "/assets/covers/editions/edition-047-2026-09-natural-b-v1.webp",
+          "type": "Image",
+          "started": 1245422.679936,
+          "status": 200,
+          "mime": "image/webp"
+        },
+        {
+          "url": "/assets/covers/editions/edition-046-2026-08-poetic-natural.webp",
+          "type": "Image",
+          "started": 1245422.679981,
+          "status": 200,
+          "mime": "image/webp"
+        },
+        {
+          "url": "/assets/covers/editions/edition-045-2026-07-poetic-natural.webp",
+          "type": "Image",
+          "started": 1245422.679995,
+          "status": 200,
+          "mime": "image/webp"
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245422.683868,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245425.41977
+        },
+        {
+          "url": "/assets/poetic-waterline.svg",
+          "type": "Image",
+          "started": 1245422.701354,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 689,
+          "finished": 1245422.892327
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "type": "Font",
+          "started": 1245422.706292
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Italic-Variable.woff2",
+          "type": "Font",
+          "started": 1245422.706997
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Italic-Variable.woff2",
+          "type": "Font",
+          "started": 1245422.707011
+        },
+        {
+          "url": "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "type": "Font",
+          "started": 1245422.707043
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Variable.woff2",
+          "type": "Font",
+          "started": 1245422.707061
+        },
+        {
+          "url": "/assets/writers/82-earth-voice-v1-64.webp",
+          "type": "Image",
+          "started": 1245422.766512
+        },
+        {
+          "url": "/assets/responsive/c62f29f8c748683f-96.webp",
+          "type": "Image",
+          "started": 1245422.76656
+        },
+        {
+          "url": "/assets/responsive/3e2409c55f739156-96.webp",
+          "type": "Image",
+          "started": 1245422.766575
+        }
+      ],
+      "externalBlocked": [],
+      "exceptionCount": 0,
+      "observationWindowMs": 6500
+    },
+    {
+      "site": "KBL",
+      "family": "poem",
+      "route": "/poem-dokana.html",
+      "repeat": 1,
+      "started": "2026-10-06T03:59:50.293Z",
+      "metrics": {
+        "ready": "interactive",
+        "title": "\u0b26\u0b4b\u0b15\u0b3e\u0b28 \u00b7 Kabita Live",
+        "textLength": 1059,
+        "readerActive": "journal-paper monsoon-wash site-theme poem-page night",
+        "nav": [
+          {
+            "domContentLoaded": 0,
+            "load": 0,
+            "responseStart": 1.3999998569488525,
+            "domInteractive": 2359.5999999046326
+          }
+        ],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 2292
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 2676
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 2676,
+            "size": 5040,
+            "tag": "SPAN",
+            "url": null
+          },
+          {
+            "startTime": 2676,
+            "size": 38646,
+            "tag": "SPAN",
+            "url": null
+          }
+        ],
+        "shifts": [
+          {
+            "value": 6.967325704550834e-05,
+            "startTime": 6064.199999809265
+          }
+        ],
+        "resources": [
+          {
+            "path": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+            "type": "link",
+            "start": 164.5,
+            "duration": 2136.5,
+            "transfer": 90968,
+            "decoded": 90668
+          },
+          {
+            "path": "/assets/app.js",
+            "type": "script",
+            "start": 165.5,
+            "duration": 1627.0999999046326,
+            "transfer": 14883,
+            "decoded": 14583
+          },
+          {
+            "path": "/assets/style.css",
+            "type": "link",
+            "start": 165.5,
+            "duration": 2112.699999809265,
+            "transfer": 89570,
+            "decoded": 89270
+          },
+          {
+            "path": "/assets/analytics.js",
+            "type": "script",
+            "start": 165.59999990463257,
+            "duration": 1827.5999999046326,
+            "transfer": 4613,
+            "decoded": 4313
+          },
+          {
+            "path": "/assets/mobile-artwork.css",
+            "type": "link",
+            "start": 166.09999990463257,
+            "duration": 170.79999995231628,
+            "transfer": 1450,
+            "decoded": 1150
+          },
+          {
+            "path": "/assets/poem-reader.css",
+            "type": "link",
+            "start": 166.09999990463257,
+            "duration": 275.59999990463257,
+            "transfer": 4739,
+            "decoded": 4439
+          },
+          {
+            "path": "/assets/poem-reader.js",
+            "type": "script",
+            "start": 166.09999990463257,
+            "duration": 627.9000000953674,
+            "transfer": 7247,
+            "decoded": 6947
+          },
+          {
+            "path": "/assets/poem-experience.css",
+            "type": "link",
+            "start": 166.19999980926514,
+            "duration": 583,
+            "transfer": 21408,
+            "decoded": 21108
+          },
+          {
+            "path": "/assets/engagement.css",
+            "type": "link",
+            "start": 166.29999995231628,
+            "duration": 326.89999985694885,
+            "transfer": 1539,
+            "decoded": 1239
+          },
+          {
+            "path": "/assets/human-natural.css",
+            "type": "link",
+            "start": 166.29999995231628,
+            "duration": 386.7999999523163,
+            "transfer": 2189,
+            "decoded": 1889
+          },
+          {
+            "path": "/assets/image-delivery.css",
+            "type": "link",
+            "start": 166.29999995231628,
+            "duration": 455.5,
+            "transfer": 637,
+            "decoded": 337
+          },
+          {
+            "path": "/assets/poem-experience.js",
+            "type": "script",
+            "start": 166.29999995231628,
+            "duration": 1520,
+            "transfer": 37992,
+            "decoded": 37692
+          },
+          {
+            "path": "/assets/image-delivery.js",
+            "type": "script",
+            "start": 166.29999995231628,
+            "duration": 1999.8999998569489,
+            "transfer": 751,
+            "decoded": 451
+          },
+          {
+            "path": "/assets/appearance.js",
+            "type": "script",
+            "start": 176.39999985694885,
+            "duration": 797.7000000476837,
+            "transfer": 2016,
+            "decoded": 1716
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "img",
+            "start": 176.39999985694885,
+            "duration": 812.5,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/writers/82-earth-voice-v1-64.webp",
+            "type": "img",
+            "start": 194.09999990463257,
+            "duration": 2017.2000000476837,
+            "transfer": 2054,
+            "decoded": 1754
+          },
+          {
+            "path": "/assets/responsive/f754a3afdaac955f-480.webp",
+            "type": "img",
+            "start": 209.09999990463257,
+            "duration": 1814.7999999523163,
+            "transfer": 32864,
+            "decoded": 32564
+          },
+          {
+            "path": "/assets/poem-marks.mjs",
+            "type": "script",
+            "start": 794.6999998092651,
+            "duration": 411.5,
+            "transfer": 1827,
+            "decoded": 1527
+          },
+          {
+            "path": "/assets/reader-pagination.mjs",
+            "type": "script",
+            "start": 1688.3999998569489,
+            "duration": 298.10000014305115,
+            "transfer": 1280,
+            "decoded": 980
+          },
+          {
+            "path": "/assets/poem-end-sprig.svg",
+            "type": "css",
+            "start": 2301.0999999046326,
+            "duration": 165.59999990463257,
+            "transfer": 582,
+            "decoded": 282
+          },
+          {
+            "path": "/assets/fonts/CormorantGaramond-Variable.woff2",
+            "type": "css",
+            "start": 2302.699999809265,
+            "duration": 3747.600000143051,
+            "transfer": 209512,
+            "decoded": 209212
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 2371,
+            "duration": 1917.8999998569489,
+            "transfer": 88096,
+            "decoded": 87796
+          }
+        ]
+      },
+      "network": [
+        {
+          "url": "/poem-dokana.html",
+          "type": "Document",
+          "started": 1245428.172946,
+          "status": 200,
+          "mime": "text/html",
+          "bytes": 32728,
+          "finished": 1245428.486224
+        },
+        {
+          "url": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "type": "Font",
+          "started": 1245428.336861,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 90882,
+          "finished": 1245430.473364
+        },
+        {
+          "url": "/assets/style.css",
+          "type": "Stylesheet",
+          "started": 1245428.337881,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 89482,
+          "finished": 1245430.450647
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "Script",
+          "started": 1245428.337918,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 14802,
+          "finished": 1245429.964978
+        },
+        {
+          "url": "/assets/analytics.js",
+          "type": "Script",
+          "started": 1245428.337947,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 4531,
+          "finished": 1245430.165679
+        },
+        {
+          "url": "/assets/mobile-artwork.css",
+          "type": "Stylesheet",
+          "started": 1245428.337963,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1361,
+          "finished": 1245428.509301
+        },
+        {
+          "url": "/assets/poem-reader.css",
+          "type": "Stylesheet",
+          "started": 1245428.338462,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 4650,
+          "finished": 1245428.614177
+        },
+        {
+          "url": "/assets/poem-reader.js",
+          "type": "Script",
+          "started": 1245428.338477,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 7165,
+          "finished": 1245428.966323
+        },
+        {
+          "url": "/assets/poem-experience.css",
+          "type": "Stylesheet",
+          "started": 1245428.338613,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 21320,
+          "finished": 1245428.921588
+        },
+        {
+          "url": "/assets/poem-experience.js",
+          "type": "Script",
+          "started": 1245428.338634,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 37911,
+          "finished": 1245429.858713
+        },
+        {
+          "url": "/assets/engagement.css",
+          "type": "Stylesheet",
+          "started": 1245428.338646,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1450,
+          "finished": 1245428.665614
+        },
+        {
+          "url": "/assets/engagement.js",
+          "type": "Script",
+          "started": 1245428.338656
+        },
+        {
+          "url": "/assets/human-natural.css",
+          "type": "Stylesheet",
+          "started": 1245428.338669,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 2100,
+          "finished": 1245428.725488
+        },
+        {
+          "url": "/assets/image-delivery.css",
+          "type": "Stylesheet",
+          "started": 1245428.338685,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 547,
+          "finished": 1245428.794198
+        },
+        {
+          "url": "/assets/image-delivery.js",
+          "type": "Script",
+          "started": 1245428.338699,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 668,
+          "finished": 1245430.33861
+        },
+        {
+          "url": "/assets/appearance.js",
+          "type": "Script",
+          "started": 1245428.348718,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1934,
+          "finished": 1245429.146471
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Image",
+          "started": 1245428.348793,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245429.161217
+        },
+        {
+          "url": "/assets/writers/82-earth-voice-v1-64.webp",
+          "type": "Image",
+          "started": 1245428.366462,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 1967,
+          "finished": 1245430.383714
+        },
+        {
+          "url": "/assets/responsive/f754a3afdaac955f-480.webp",
+          "type": "Image",
+          "started": 1245428.38152,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 32778,
+          "finished": 1245430.196301
+        },
+        {
+          "url": "/assets/poem-marks.mjs",
+          "type": "Script",
+          "started": 1245428.967108,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1745,
+          "finished": 1245429.378675
+        },
+        {
+          "url": "/assets/reader-pagination.mjs",
+          "type": "Script",
+          "started": 1245429.860073,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1197,
+          "finished": 1245430.158926
+        },
+        {
+          "url": "/assets/poem-end-sprig.svg",
+          "type": "Image",
+          "started": 1245430.473456,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 497,
+          "finished": 1245430.639097
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Variable.woff2",
+          "type": "Font",
+          "started": 1245430.474853
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "type": "Font",
+          "started": 1245430.47505,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 209427,
+          "finished": 1245434.222611
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245430.5432,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245432.461278
+        }
+      ],
+      "externalBlocked": [],
+      "exceptionCount": 0,
+      "observationWindowMs": 6500
+    },
+    {
+      "site": "KBL",
+      "family": "poem",
+      "route": "/poem-dokana.html",
+      "repeat": 2,
+      "started": "2026-10-06T03:59:57.193Z",
+      "metrics": {
+        "ready": "interactive",
+        "title": "\u0b26\u0b4b\u0b15\u0b3e\u0b28 \u00b7 Kabita Live",
+        "textLength": 1059,
+        "readerActive": "journal-paper monsoon-wash site-theme poem-page night",
+        "nav": [
+          {
+            "domContentLoaded": 0,
+            "load": 0,
+            "responseStart": 1.5,
+            "domInteractive": 2386
+          }
+        ],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 2336
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 2376
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 2376,
+            "size": 7095,
+            "tag": "SPAN",
+            "url": null
+          },
+          {
+            "startTime": 2408,
+            "size": 38646,
+            "tag": "SPAN",
+            "url": null
+          }
+        ],
+        "shifts": [
+          {
+            "value": 6.967325704550834e-05,
+            "startTime": 6458.900000095367
+          }
+        ],
+        "resources": [
+          {
+            "path": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+            "type": "link",
+            "start": 170,
+            "duration": 2148,
+            "transfer": 90968,
+            "decoded": 90668
+          },
+          {
+            "path": "/assets/style.css",
+            "type": "link",
+            "start": 170.10000014305115,
+            "duration": 2125.5,
+            "transfer": 89570,
+            "decoded": 89270
+          },
+          {
+            "path": "/assets/mobile-artwork.css",
+            "type": "link",
+            "start": 170.79999995231628,
+            "duration": 167.60000014305115,
+            "transfer": 1450,
+            "decoded": 1150
+          },
+          {
+            "path": "/assets/poem-reader.css",
+            "type": "link",
+            "start": 170.79999995231628,
+            "duration": 264.7000000476837,
+            "transfer": 4739,
+            "decoded": 4439
+          },
+          {
+            "path": "/assets/poem-reader.js",
+            "type": "script",
+            "start": 170.79999995231628,
+            "duration": 625.1000001430511,
+            "transfer": 7247,
+            "decoded": 6947
+          },
+          {
+            "path": "/assets/app.js",
+            "type": "script",
+            "start": 170.79999995231628,
+            "duration": 1629.9000000953674,
+            "transfer": 14883,
+            "decoded": 14583
+          },
+          {
+            "path": "/assets/analytics.js",
+            "type": "script",
+            "start": 170.79999995231628,
+            "duration": 1817.1000001430511,
+            "transfer": 4613,
+            "decoded": 4313
+          },
+          {
+            "path": "/assets/poem-experience.css",
+            "type": "link",
+            "start": 170.90000009536743,
+            "duration": 586.7999999523163,
+            "transfer": 21408,
+            "decoded": 21108
+          },
+          {
+            "path": "/assets/poem-experience.js",
+            "type": "script",
+            "start": 171.70000004768372,
+            "duration": 1516.4000000953674,
+            "transfer": 37992,
+            "decoded": 37692
+          },
+          {
+            "path": "/assets/engagement.css",
+            "type": "link",
+            "start": 171.79999995231628,
+            "duration": 323.10000014305115,
+            "transfer": 1539,
+            "decoded": 1239
+          },
+          {
+            "path": "/assets/human-natural.css",
+            "type": "link",
+            "start": 171.79999995231628,
+            "duration": 384.5,
+            "transfer": 2189,
+            "decoded": 1889
+          },
+          {
+            "path": "/assets/image-delivery.css",
+            "type": "link",
+            "start": 171.79999995231628,
+            "duration": 444.30000019073486,
+            "transfer": 637,
+            "decoded": 337
+          },
+          {
+            "path": "/assets/image-delivery.js",
+            "type": "script",
+            "start": 171.79999995231628,
+            "duration": 1996.3000001907349,
+            "transfer": 751,
+            "decoded": 451
+          },
+          {
+            "path": "/assets/appearance.js",
+            "type": "script",
+            "start": 175.5,
+            "duration": 808,
+            "transfer": 2016,
+            "decoded": 1716
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "img",
+            "start": 175.60000014305115,
+            "duration": 814.6999998092651,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/writers/82-earth-voice-v1-64.webp",
+            "type": "img",
+            "start": 197,
+            "duration": 2015.7999999523163,
+            "transfer": 2054,
+            "decoded": 1754
+          },
+          {
+            "path": "/assets/responsive/f754a3afdaac955f-480.webp",
+            "type": "img",
+            "start": 210.79999995231628,
+            "duration": 1815.3000001907349,
+            "transfer": 32864,
+            "decoded": 32564
+          },
+          {
+            "path": "/assets/poem-marks.mjs",
+            "type": "script",
+            "start": 797.9000000953674,
+            "duration": 418,
+            "transfer": 1827,
+            "decoded": 1527
+          },
+          {
+            "path": "/assets/reader-pagination.mjs",
+            "type": "script",
+            "start": 1689.2999999523163,
+            "duration": 305.7000000476837,
+            "transfer": 1280,
+            "decoded": 980
+          },
+          {
+            "path": "/assets/backgrounds/monsoon-wash.webp",
+            "type": "css",
+            "start": 2300.9000000953674,
+            "duration": 1922.5,
+            "transfer": 74630,
+            "decoded": 74330
+          },
+          {
+            "path": "/assets/fonts/CormorantGaramond-Variable.woff2",
+            "type": "css",
+            "start": 2342.4000000953674,
+            "duration": 4100.599999904633,
+            "transfer": 209512,
+            "decoded": 209212
+          },
+          {
+            "path": "/assets/poem-end-sprig.svg",
+            "type": "css",
+            "start": 2376.600000143051,
+            "duration": 189.09999990463257,
+            "transfer": 582,
+            "decoded": 282
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 2391.100000143051,
+            "duration": 2259.5,
+            "transfer": 88096,
+            "decoded": 87796
+          }
+        ]
+      },
+      "network": [
+        {
+          "url": "/poem-dokana.html",
+          "type": "Document",
+          "started": 1245435.073603,
+          "status": 200,
+          "mime": "text/html",
+          "bytes": 32728,
+          "finished": 1245435.38947
+        },
+        {
+          "url": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "type": "Font",
+          "started": 1245435.243248,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 90882,
+          "finished": 1245437.391231
+        },
+        {
+          "url": "/assets/style.css",
+          "type": "Stylesheet",
+          "started": 1245435.243368,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 89482,
+          "finished": 1245437.3689
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "Script",
+          "started": 1245435.244011,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 14802,
+          "finished": 1245436.873951
+        },
+        {
+          "url": "/assets/analytics.js",
+          "type": "Script",
+          "started": 1245435.24404,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 4531,
+          "finished": 1245437.061232
+        },
+        {
+          "url": "/assets/mobile-artwork.css",
+          "type": "Stylesheet",
+          "started": 1245435.244056,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1361,
+          "finished": 1245435.411666
+        },
+        {
+          "url": "/assets/poem-reader.css",
+          "type": "Stylesheet",
+          "started": 1245435.244074,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 4650,
+          "finished": 1245435.508812
+        },
+        {
+          "url": "/assets/poem-reader.js",
+          "type": "Script",
+          "started": 1245435.244087,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 7165,
+          "finished": 1245435.869142
+        },
+        {
+          "url": "/assets/poem-experience.css",
+          "type": "Stylesheet",
+          "started": 1245435.244173,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 21320,
+          "finished": 1245435.830985
+        },
+        {
+          "url": "/assets/poem-experience.js",
+          "type": "Script",
+          "started": 1245435.244981,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 37911,
+          "finished": 1245436.761391
+        },
+        {
+          "url": "/assets/engagement.css",
+          "type": "Stylesheet",
+          "started": 1245435.245019,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1450,
+          "finished": 1245435.568284
+        },
+        {
+          "url": "/assets/engagement.js",
+          "type": "Script",
+          "started": 1245435.245036
+        },
+        {
+          "url": "/assets/human-natural.css",
+          "type": "Stylesheet",
+          "started": 1245435.245049,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 2100,
+          "finished": 1245435.629627
+        },
+        {
+          "url": "/assets/image-delivery.css",
+          "type": "Stylesheet",
+          "started": 1245435.245063,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 547,
+          "finished": 1245435.689372
+        },
+        {
+          "url": "/assets/image-delivery.js",
+          "type": "Script",
+          "started": 1245435.245082,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 668,
+          "finished": 1245437.241338
+        },
+        {
+          "url": "/assets/appearance.js",
+          "type": "Script",
+          "started": 1245435.248768,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1934,
+          "finished": 1245436.056873
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Image",
+          "started": 1245435.248826,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245436.063541
+        },
+        {
+          "url": "/assets/writers/82-earth-voice-v1-64.webp",
+          "type": "Image",
+          "started": 1245435.270279,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 1967,
+          "finished": 1245437.286029
+        },
+        {
+          "url": "/assets/responsive/f754a3afdaac955f-480.webp",
+          "type": "Image",
+          "started": 1245435.284068,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 32778,
+          "finished": 1245437.099422
+        },
+        {
+          "url": "/assets/poem-marks.mjs",
+          "type": "Script",
+          "started": 1245435.871163,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1745,
+          "finished": 1245436.289189
+        },
+        {
+          "url": "/assets/reader-pagination.mjs",
+          "type": "Script",
+          "started": 1245436.762635,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1197,
+          "finished": 1245437.068256
+        },
+        {
+          "url": "/assets/backgrounds/monsoon-wash.webp",
+          "type": "Image",
+          "started": 1245437.374171,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 74544,
+          "finished": 1245439.296748
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Variable.woff2",
+          "type": "Font",
+          "started": 1245437.415301
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "type": "Font",
+          "started": 1245437.415711,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 209427,
+          "finished": 1245441.516341
+        },
+        {
+          "url": "/assets/poem-end-sprig.svg",
+          "type": "Image",
+          "started": 1245437.449941,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 497,
+          "finished": 1245437.638966
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245437.46441,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245439.723891
+        }
+      ],
+      "externalBlocked": [],
+      "exceptionCount": 0,
+      "observationWindowMs": 6500
+    },
+    {
+      "site": "KBL",
+      "family": "poem",
+      "route": "/poem-dokana.html",
+      "repeat": 3,
+      "started": "2026-10-06T04:00:04.093Z",
+      "metrics": {
+        "ready": "interactive",
+        "title": "\u0b26\u0b4b\u0b15\u0b3e\u0b28 \u00b7 Kabita Live",
+        "textLength": 1059,
+        "readerActive": "journal-paper monsoon-wash site-theme poem-page night",
+        "nav": [
+          {
+            "domContentLoaded": 0,
+            "load": 0,
+            "responseStart": 1.5,
+            "domInteractive": 2269
+          }
+        ],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 2260
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 2380
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 2380,
+            "size": 36624,
+            "tag": "SPAN",
+            "url": null
+          }
+        ],
+        "shifts": [
+          {
+            "value": 6.967325704550834e-05,
+            "startTime": 6446
+          }
+        ],
+        "resources": [
+          {
+            "path": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+            "type": "link",
+            "start": 168.20000004768372,
+            "duration": 2217.7000000476837,
+            "transfer": 90968,
+            "decoded": 90668
+          },
+          {
+            "path": "/assets/app.js",
+            "type": "script",
+            "start": 168.80000019073486,
+            "duration": 1543.5,
+            "transfer": 14883,
+            "decoded": 14583
+          },
+          {
+            "path": "/assets/style.css",
+            "type": "link",
+            "start": 168.80000019073486,
+            "duration": 2051,
+            "transfer": 89570,
+            "decoded": 89270
+          },
+          {
+            "path": "/assets/mobile-artwork.css",
+            "type": "link",
+            "start": 169.10000014305115,
+            "duration": 169,
+            "transfer": 1450,
+            "decoded": 1150
+          },
+          {
+            "path": "/assets/analytics.js",
+            "type": "script",
+            "start": 169.10000014305115,
+            "duration": 1834.0999999046326,
+            "transfer": 4613,
+            "decoded": 4313
+          },
+          {
+            "path": "/assets/poem-reader.css",
+            "type": "link",
+            "start": 169.20000004768372,
+            "duration": 244.40000009536743,
+            "transfer": 4739,
+            "decoded": 4439
+          },
+          {
+            "path": "/assets/engagement.css",
+            "type": "link",
+            "start": 169.30000019073486,
+            "duration": 184.09999990463257,
+            "transfer": 1539,
+            "decoded": 1239
+          },
+          {
+            "path": "/assets/human-natural.css",
+            "type": "link",
+            "start": 169.30000019073486,
+            "duration": 342.5,
+            "transfer": 2189,
+            "decoded": 1889
+          },
+          {
+            "path": "/assets/poem-experience.css",
+            "type": "link",
+            "start": 169.30000019073486,
+            "duration": 498.2999999523163,
+            "transfer": 21408,
+            "decoded": 21108
+          },
+          {
+            "path": "/assets/poem-reader.js",
+            "type": "script",
+            "start": 169.30000019073486,
+            "duration": 550.5999999046326,
+            "transfer": 7247,
+            "decoded": 6947
+          },
+          {
+            "path": "/assets/poem-experience.js",
+            "type": "script",
+            "start": 169.30000019073486,
+            "duration": 1482.0999999046326,
+            "transfer": 37992,
+            "decoded": 37692
+          },
+          {
+            "path": "/assets/image-delivery.css",
+            "type": "link",
+            "start": 169.60000014305115,
+            "duration": 348.39999985694885,
+            "transfer": 637,
+            "decoded": 337
+          },
+          {
+            "path": "/assets/image-delivery.js",
+            "type": "script",
+            "start": 169.60000014305115,
+            "duration": 1856.8999998569489,
+            "transfer": 751,
+            "decoded": 451
+          },
+          {
+            "path": "/assets/appearance.js",
+            "type": "script",
+            "start": 177.5,
+            "duration": 715,
+            "transfer": 2016,
+            "decoded": 1716
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "img",
+            "start": 177.60000014305115,
+            "duration": 738.7000000476837,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/writers/82-earth-voice-v1-64.webp",
+            "type": "img",
+            "start": 195.30000019073486,
+            "duration": 1957.8999998569489,
+            "transfer": 2054,
+            "decoded": 1754
+          },
+          {
+            "path": "/assets/responsive/f754a3afdaac955f-480.webp",
+            "type": "img",
+            "start": 212.40000009536743,
+            "duration": 1731.5,
+            "transfer": 32864,
+            "decoded": 32564
+          },
+          {
+            "path": "/assets/poem-marks.mjs",
+            "type": "script",
+            "start": 721.6000001430511,
+            "duration": 396.89999985694885,
+            "transfer": 1827,
+            "decoded": 1527
+          },
+          {
+            "path": "/assets/reader-pagination.mjs",
+            "type": "script",
+            "start": 1653.6000001430511,
+            "duration": 184.70000004768372,
+            "transfer": 1280,
+            "decoded": 980
+          },
+          {
+            "path": "/assets/backgrounds/monsoon-wash.webp",
+            "type": "css",
+            "start": 2227.100000143051,
+            "duration": 1914.2000000476837,
+            "transfer": 74630,
+            "decoded": 74330
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 2274.2000000476837,
+            "duration": 2242,
+            "transfer": 88096,
+            "decoded": 87796
+          },
+          {
+            "path": "/assets/poem-end-sprig.svg",
+            "type": "css",
+            "start": 2284,
+            "duration": 176.90000009536743,
+            "transfer": 582,
+            "decoded": 282
+          },
+          {
+            "path": "/assets/fonts/CormorantGaramond-Variable.woff2",
+            "type": "css",
+            "start": 2286,
+            "duration": 4142.800000190735,
+            "transfer": 209512,
+            "decoded": 209212
+          }
+        ]
+      },
+      "network": [
+        {
+          "url": "/poem-dokana.html",
+          "type": "Document",
+          "started": 1245441.97251,
+          "status": 200,
+          "mime": "text/html",
+          "bytes": 32728,
+          "finished": 1245442.288447
+        },
+        {
+          "url": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "type": "Font",
+          "started": 1245442.140279,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 90882,
+          "finished": 1245444.35799
+        },
+        {
+          "url": "/assets/style.css",
+          "type": "Stylesheet",
+          "started": 1245442.14087,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 89482,
+          "finished": 1245444.191982
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "Script",
+          "started": 1245442.140899,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 14802,
+          "finished": 1245443.684385
+        },
+        {
+          "url": "/assets/analytics.js",
+          "type": "Script",
+          "started": 1245442.141141,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 4531,
+          "finished": 1245443.97527
+        },
+        {
+          "url": "/assets/mobile-artwork.css",
+          "type": "Stylesheet",
+          "started": 1245442.141158,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1361,
+          "finished": 1245442.310165
+        },
+        {
+          "url": "/assets/poem-reader.css",
+          "type": "Stylesheet",
+          "started": 1245442.141332,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 4650,
+          "finished": 1245442.385664
+        },
+        {
+          "url": "/assets/poem-reader.js",
+          "type": "Script",
+          "started": 1245442.141347,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 7165,
+          "finished": 1245442.692036
+        },
+        {
+          "url": "/assets/poem-experience.css",
+          "type": "Stylesheet",
+          "started": 1245442.141363,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 21320,
+          "finished": 1245442.639744
+        },
+        {
+          "url": "/assets/poem-experience.js",
+          "type": "Script",
+          "started": 1245442.141381,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 37911,
+          "finished": 1245443.623533
+        },
+        {
+          "url": "/assets/engagement.css",
+          "type": "Stylesheet",
+          "started": 1245442.141393,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1450,
+          "finished": 1245442.325517
+        },
+        {
+          "url": "/assets/engagement.js",
+          "type": "Script",
+          "started": 1245442.141404
+        },
+        {
+          "url": "/assets/human-natural.css",
+          "type": "Stylesheet",
+          "started": 1245442.141415,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 2100,
+          "finished": 1245442.483826
+        },
+        {
+          "url": "/assets/image-delivery.css",
+          "type": "Stylesheet",
+          "started": 1245442.141738,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 547,
+          "finished": 1245442.490098
+        },
+        {
+          "url": "/assets/image-delivery.js",
+          "type": "Script",
+          "started": 1245442.14175,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 668,
+          "finished": 1245443.998614
+        },
+        {
+          "url": "/assets/appearance.js",
+          "type": "Script",
+          "started": 1245442.149566,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1934,
+          "finished": 1245442.864534
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Image",
+          "started": 1245442.1497,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245442.888469
+        },
+        {
+          "url": "/assets/writers/82-earth-voice-v1-64.webp",
+          "type": "Image",
+          "started": 1245442.167304,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 1967,
+          "finished": 1245444.125372
+        },
+        {
+          "url": "/assets/responsive/f754a3afdaac955f-480.webp",
+          "type": "Image",
+          "started": 1245442.184412,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 32778,
+          "finished": 1245443.916022
+        },
+        {
+          "url": "/assets/poem-marks.mjs",
+          "type": "Script",
+          "started": 1245442.693622,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1745,
+          "finished": 1245443.090544
+        },
+        {
+          "url": "/assets/reader-pagination.mjs",
+          "type": "Script",
+          "started": 1245443.625731,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1197,
+          "finished": 1245443.810431
+        },
+        {
+          "url": "/assets/backgrounds/monsoon-wash.webp",
+          "type": "Image",
+          "started": 1245444.199172,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 74544,
+          "finished": 1245446.113358
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245444.245675,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245446.488327
+        },
+        {
+          "url": "/assets/poem-end-sprig.svg",
+          "type": "Image",
+          "started": 1245444.256074,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 497,
+          "finished": 1245444.433046
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Variable.woff2",
+          "type": "Font",
+          "started": 1245444.257486
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "type": "Font",
+          "started": 1245444.258038,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 209427,
+          "finished": 1245448.400871
+        }
+      ],
+      "externalBlocked": [],
+      "exceptionCount": 0,
+      "observationWindowMs": 6500
+    },
+    {
+      "site": "KBL",
+      "family": "article",
+      "route": "/thirty-languages-and-the-journey-of-a-poem.html",
+      "repeat": 1,
+      "started": "2026-10-06T04:00:32.299Z",
+      "metrics": {
+        "ready": "complete",
+        "title": "Thirty languages and the journey of a poem \u00b7 Kabita Live",
+        "textLength": 9319,
+        "readerActive": "journal-paper cotton-paper site-theme night",
+        "nav": [
+          {
+            "domContentLoaded": 1926.2000000476837,
+            "load": 5613.400000095367,
+            "responseStart": 1.2999999523162842,
+            "domInteractive": 1916.2000000476837
+          }
+        ],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 1800
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 1924
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 1924,
+            "size": 62084,
+            "tag": "P",
+            "url": null
+          },
+          {
+            "startTime": 2000,
+            "size": 68950,
+            "tag": "IMG",
+            "url": "/assets/articles/thirty-languages/poetry-across-languages-hero-800.webp"
+          }
+        ],
+        "shifts": [
+          {
+            "value": 0.04114713772714,
+            "startTime": 4522.799999952316
+          },
+          {
+            "value": 0.000739085098993906,
+            "startTime": 5629.5
+          }
+        ],
+        "resources": [
+          {
+            "path": "/assets/app.js",
+            "type": "script",
+            "start": 175,
+            "duration": 694.2999999523163,
+            "transfer": 14883,
+            "decoded": 14583
+          },
+          {
+            "path": "/assets/style.css",
+            "type": "link",
+            "start": 175,
+            "duration": 1609.7999999523163,
+            "transfer": 89570,
+            "decoded": 89270
+          },
+          {
+            "path": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+            "type": "link",
+            "start": 175,
+            "duration": 1623.9000000953674,
+            "transfer": 90968,
+            "decoded": 90668
+          },
+          {
+            "path": "/assets/analytics.js",
+            "type": "script",
+            "start": 175.09999990463257,
+            "duration": 702,
+            "transfer": 4613,
+            "decoded": 4313
+          },
+          {
+            "path": "/assets/mobile-artwork.css",
+            "type": "link",
+            "start": 175.79999995231628,
+            "duration": 160.79999995231628,
+            "transfer": 1450,
+            "decoded": 1150
+          },
+          {
+            "path": "/assets/image-delivery.css",
+            "type": "link",
+            "start": 175.79999995231628,
+            "duration": 184.5,
+            "transfer": 637,
+            "decoded": 337
+          },
+          {
+            "path": "/assets/human-natural.css",
+            "type": "link",
+            "start": 175.79999995231628,
+            "duration": 199.10000014305115,
+            "transfer": 2189,
+            "decoded": 1889
+          },
+          {
+            "path": "/assets/image-delivery.js",
+            "type": "script",
+            "start": 175.79999995231628,
+            "duration": 798.9000000953674,
+            "transfer": 751,
+            "decoded": 451
+          },
+          {
+            "path": "/assets/appearance.js",
+            "type": "script",
+            "start": 183,
+            "duration": 341.7999999523163,
+            "transfer": 2016,
+            "decoded": 1716
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "img",
+            "start": 187,
+            "duration": 374.40000009536743,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/language-essay.css",
+            "type": "link",
+            "start": 193.79999995231628,
+            "duration": 600.2000000476837,
+            "transfer": 3510,
+            "decoded": 3210
+          },
+          {
+            "path": "/assets/articles/thirty-languages/poetry-across-languages-hero-800.webp",
+            "type": "img",
+            "start": 202,
+            "duration": 1761.2999999523163,
+            "transfer": 108464,
+            "decoded": 108164
+          },
+          {
+            "path": "/assets/fonts/CormorantGaramond-Variable.woff2",
+            "type": "css",
+            "start": 1810.2000000476837,
+            "duration": 2689.7000000476837,
+            "transfer": 209512,
+            "decoded": 209212
+          },
+          {
+            "path": "/assets/fonts/SourceSerif4-Variable.woff2",
+            "type": "css",
+            "start": 1810.7000000476837,
+            "duration": 3790,
+            "transfer": 427920,
+            "decoded": 427620
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 1923.5999999046326,
+            "duration": 1474,
+            "transfer": 88096,
+            "decoded": 87796
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "other",
+            "start": 5690,
+            "duration": 158.70000004768372,
+            "transfer": 912,
+            "decoded": 612
+          }
+        ]
+      },
+      "network": [
+        {
+          "url": "/thirty-languages-and-the-journey-of-a-poem.html",
+          "type": "Document",
+          "started": 1245470.178917,
+          "status": 200,
+          "mime": "text/html",
+          "bytes": 32663,
+          "finished": 1245470.501896
+        },
+        {
+          "url": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "type": "Font",
+          "started": 1245470.353418,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 90882,
+          "finished": 1245471.977417
+        },
+        {
+          "url": "/assets/style.css",
+          "type": "Stylesheet",
+          "started": 1245470.353526,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 89482,
+          "finished": 1245471.963276
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "Script",
+          "started": 1245470.35355,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 14802,
+          "finished": 1245471.047874
+        },
+        {
+          "url": "/assets/analytics.js",
+          "type": "Script",
+          "started": 1245470.35358,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 4531,
+          "finished": 1245471.055575
+        },
+        {
+          "url": "/assets/mobile-artwork.css",
+          "type": "Stylesheet",
+          "started": 1245470.354277,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1361,
+          "finished": 1245470.515158
+        },
+        {
+          "url": "/assets/human-natural.css",
+          "type": "Stylesheet",
+          "started": 1245470.354293,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 2100,
+          "finished": 1245470.553354
+        },
+        {
+          "url": "/assets/image-delivery.css",
+          "type": "Stylesheet",
+          "started": 1245470.354307,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 547,
+          "finished": 1245470.538756
+        },
+        {
+          "url": "/assets/image-delivery.js",
+          "type": "Script",
+          "started": 1245470.354319,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 668,
+          "finished": 1245471.153257
+        },
+        {
+          "url": "/assets/appearance.js",
+          "type": "Script",
+          "started": 1245470.361513,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1934,
+          "finished": 1245470.703263
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Image",
+          "started": 1245470.365461,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245470.739862
+        },
+        {
+          "url": "/assets/language-essay.css",
+          "type": "Stylesheet",
+          "started": 1245470.37223,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 3421,
+          "finished": 1245470.972505
+        },
+        {
+          "url": "/assets/articles/thirty-languages/poetry-across-languages-hero-800.webp",
+          "type": "Image",
+          "started": 1245470.380515,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 108379,
+          "finished": 1245472.141772
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "type": "Font",
+          "started": 1245471.98864,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 209427,
+          "finished": 1245474.678406
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Variable.woff2",
+          "type": "Font",
+          "started": 1245471.989248,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 427835,
+          "finished": 1245475.779233
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245472.101872,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245473.576104
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Other",
+          "started": 1245475.868422,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245476.027262
+        }
+      ],
+      "externalBlocked": [],
+      "exceptionCount": 0,
+      "observationWindowMs": 6500
+    },
+    {
+      "site": "KBL",
+      "family": "article",
+      "route": "/thirty-languages-and-the-journey-of-a-poem.html",
+      "repeat": 2,
+      "started": "2026-10-06T04:00:39.413Z",
+      "metrics": {
+        "ready": "complete",
+        "title": "Thirty languages and the journey of a poem \u00b7 Kabita Live",
+        "textLength": 9319,
+        "readerActive": "journal-paper cotton-paper site-theme night",
+        "nav": [
+          {
+            "domContentLoaded": 2025.4000000953674,
+            "load": 5627,
+            "responseStart": 4.300000190734863,
+            "domInteractive": 2015.5
+          }
+        ],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 1816
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 1988
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 1988,
+            "size": 62084,
+            "tag": "P",
+            "url": null
+          },
+          {
+            "startTime": 2024,
+            "size": 68950,
+            "tag": "IMG",
+            "url": "/assets/articles/thirty-languages/poetry-across-languages-hero-800.webp"
+          }
+        ],
+        "shifts": [
+          {
+            "value": 0.04114713772714,
+            "startTime": 4552.100000143051
+          },
+          {
+            "value": 0.000739085098993906,
+            "startTime": 5647.600000143051
+          }
+        ],
+        "resources": [
+          {
+            "path": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+            "type": "link",
+            "start": 177.60000014305115,
+            "duration": 1635.8999998569489,
+            "transfer": 90968,
+            "decoded": 90668
+          },
+          {
+            "path": "/assets/mobile-artwork.css",
+            "type": "link",
+            "start": 178.30000019073486,
+            "duration": 165,
+            "transfer": 1450,
+            "decoded": 1150
+          },
+          {
+            "path": "/assets/app.js",
+            "type": "script",
+            "start": 178.30000019073486,
+            "duration": 691,
+            "transfer": 14883,
+            "decoded": 14583
+          },
+          {
+            "path": "/assets/analytics.js",
+            "type": "script",
+            "start": 178.30000019073486,
+            "duration": 704.5999999046326,
+            "transfer": 4613,
+            "decoded": 4313
+          },
+          {
+            "path": "/assets/style.css",
+            "type": "link",
+            "start": 178.30000019073486,
+            "duration": 1604.3999998569489,
+            "transfer": 89570,
+            "decoded": 89270
+          },
+          {
+            "path": "/assets/image-delivery.css",
+            "type": "link",
+            "start": 178.40000009536743,
+            "duration": 180.59999990463257,
+            "transfer": 637,
+            "decoded": 337
+          },
+          {
+            "path": "/assets/human-natural.css",
+            "type": "link",
+            "start": 178.40000009536743,
+            "duration": 202.59999990463257,
+            "transfer": 2189,
+            "decoded": 1889
+          },
+          {
+            "path": "/assets/image-delivery.js",
+            "type": "script",
+            "start": 178.40000009536743,
+            "duration": 795.5,
+            "transfer": 751,
+            "decoded": 451
+          },
+          {
+            "path": "/assets/appearance.js",
+            "type": "script",
+            "start": 181.30000019073486,
+            "duration": 342.39999985694885,
+            "transfer": 2016,
+            "decoded": 1716
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "img",
+            "start": 181.70000004768372,
+            "duration": 386.60000014305115,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/language-essay.css",
+            "type": "link",
+            "start": 193.80000019073486,
+            "duration": 600.1999998092651,
+            "transfer": 3510,
+            "decoded": 3210
+          },
+          {
+            "path": "/assets/articles/thirty-languages/poetry-across-languages-hero-800.webp",
+            "type": "img",
+            "start": 201.60000014305115,
+            "duration": 1768.8999998569489,
+            "transfer": 108464,
+            "decoded": 108164
+          },
+          {
+            "path": "/assets/fonts/CormorantGaramond-Variable.woff2",
+            "type": "css",
+            "start": 1825.7000000476837,
+            "duration": 2687.9000000953674,
+            "transfer": 209512,
+            "decoded": 209212
+          },
+          {
+            "path": "/assets/fonts/SourceSerif4-Variable.woff2",
+            "type": "css",
+            "start": 1825.9000000953674,
+            "duration": 3789.4000000953674,
+            "transfer": 427920,
+            "decoded": 427620
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 2022.8000001907349,
+            "duration": 1471.5999999046326,
+            "transfer": 88096,
+            "decoded": 87796
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "other",
+            "start": 5652.700000047684,
+            "duration": 157.70000004768372,
+            "transfer": 912,
+            "decoded": 612
+          }
+        ]
+      },
+      "network": [
+        {
+          "url": "/thirty-languages-and-the-journey-of-a-poem.html",
+          "type": "Document",
+          "started": 1245477.293845,
+          "status": 200,
+          "mime": "text/html",
+          "bytes": 32663,
+          "finished": 1245477.614757
+        },
+        {
+          "url": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "type": "Font",
+          "started": 1245477.470621,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 90882,
+          "finished": 1245479.10657
+        },
+        {
+          "url": "/assets/style.css",
+          "type": "Stylesheet",
+          "started": 1245477.471399,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 89482,
+          "finished": 1245479.075709
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "Script",
+          "started": 1245477.471446,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 14802,
+          "finished": 1245478.162361
+        },
+        {
+          "url": "/assets/analytics.js",
+          "type": "Script",
+          "started": 1245477.471466,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 4531,
+          "finished": 1245478.176057
+        },
+        {
+          "url": "/assets/mobile-artwork.css",
+          "type": "Stylesheet",
+          "started": 1245477.471481,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1361,
+          "finished": 1245477.636417
+        },
+        {
+          "url": "/assets/human-natural.css",
+          "type": "Stylesheet",
+          "started": 1245477.471497,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 2100,
+          "finished": 1245477.674168
+        },
+        {
+          "url": "/assets/image-delivery.css",
+          "type": "Stylesheet",
+          "started": 1245477.471508,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 547,
+          "finished": 1245477.652016
+        },
+        {
+          "url": "/assets/image-delivery.js",
+          "type": "Script",
+          "started": 1245477.471519,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 668,
+          "finished": 1245478.267034
+        },
+        {
+          "url": "/assets/appearance.js",
+          "type": "Script",
+          "started": 1245477.47432,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1934,
+          "finished": 1245477.81673
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Image",
+          "started": 1245477.474788,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245477.861321
+        },
+        {
+          "url": "/assets/language-essay.css",
+          "type": "Stylesheet",
+          "started": 1245477.486842,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 3421,
+          "finished": 1245478.087026
+        },
+        {
+          "url": "/assets/articles/thirty-languages/poetry-across-languages-hero-800.webp",
+          "type": "Image",
+          "started": 1245477.494711,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 108379,
+          "finished": 1245479.263563
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "type": "Font",
+          "started": 1245479.118846,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 209427,
+          "finished": 1245481.806683
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Variable.woff2",
+          "type": "Font",
+          "started": 1245479.1189,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 427835,
+          "finished": 1245482.90844
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245479.315659,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245480.787562
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Other",
+          "started": 1245482.944687,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245483.103503
+        }
+      ],
+      "externalBlocked": [],
+      "exceptionCount": 0,
+      "observationWindowMs": 6500
+    },
+    {
+      "site": "KBL",
+      "family": "article",
+      "route": "/thirty-languages-and-the-journey-of-a-poem.html",
+      "repeat": 3,
+      "started": "2026-10-06T04:00:46.480Z",
+      "metrics": {
+        "ready": "interactive",
+        "title": "Thirty languages and the journey of a poem \u00b7 Kabita Live",
+        "textLength": 9319,
+        "readerActive": "journal-paper cotton-paper site-theme night",
+        "nav": [
+          {
+            "domContentLoaded": 1829.5,
+            "load": 0,
+            "responseStart": 2.5,
+            "domInteractive": 1822.7000000476837
+          }
+        ],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 1812
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 1888
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 1888,
+            "size": 62800,
+            "tag": "H1",
+            "url": null
+          },
+          {
+            "startTime": 1996,
+            "size": 68950,
+            "tag": "IMG",
+            "url": "/assets/articles/thirty-languages/poetry-across-languages-hero-800.webp"
+          }
+        ],
+        "shifts": [
+          {
+            "value": 0.04114713772714,
+            "startTime": 5601.700000047684
+          }
+        ],
+        "resources": [
+          {
+            "path": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+            "type": "link",
+            "start": 171.10000014305115,
+            "duration": 1623.2000000476837,
+            "transfer": 90968,
+            "decoded": 90668
+          },
+          {
+            "path": "/assets/mobile-artwork.css",
+            "type": "link",
+            "start": 171.60000014305115,
+            "duration": 162,
+            "transfer": 1450,
+            "decoded": 1150
+          },
+          {
+            "path": "/assets/app.js",
+            "type": "script",
+            "start": 171.60000014305115,
+            "duration": 686.2999999523163,
+            "transfer": 14883,
+            "decoded": 14583
+          },
+          {
+            "path": "/assets/analytics.js",
+            "type": "script",
+            "start": 171.60000014305115,
+            "duration": 708.5,
+            "transfer": 4613,
+            "decoded": 4313
+          },
+          {
+            "path": "/assets/style.css",
+            "type": "link",
+            "start": 171.60000014305115,
+            "duration": 1615.7999999523163,
+            "transfer": 89570,
+            "decoded": 89270
+          },
+          {
+            "path": "/assets/human-natural.css",
+            "type": "link",
+            "start": 171.90000009536743,
+            "duration": 204.79999995231628,
+            "transfer": 2189,
+            "decoded": 1889
+          },
+          {
+            "path": "/assets/image-delivery.css",
+            "type": "link",
+            "start": 172,
+            "duration": 183.30000019073486,
+            "transfer": 637,
+            "decoded": 337
+          },
+          {
+            "path": "/assets/image-delivery.js",
+            "type": "script",
+            "start": 172.10000014305115,
+            "duration": 783.0999999046326,
+            "transfer": 751,
+            "decoded": 451
+          },
+          {
+            "path": "/assets/appearance.js",
+            "type": "script",
+            "start": 179.5,
+            "duration": 325.5,
+            "transfer": 2016,
+            "decoded": 1716
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "img",
+            "start": 181.20000004768372,
+            "duration": 383.2999999523163,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/language-essay.css",
+            "type": "link",
+            "start": 189.90000009536743,
+            "duration": 584.5,
+            "transfer": 3510,
+            "decoded": 3210
+          },
+          {
+            "path": "/assets/articles/thirty-languages/poetry-across-languages-hero-800.webp",
+            "type": "img",
+            "start": 196.80000019073486,
+            "duration": 1777.1999998092651,
+            "transfer": 108464,
+            "decoded": 108164
+          },
+          {
+            "path": "/assets/backgrounds/cotton-paper.webp",
+            "type": "css",
+            "start": 1793.7000000476837,
+            "duration": 4074,
+            "transfer": 243478,
+            "decoded": 243178
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 1828.9000000953674,
+            "duration": 1901.0999999046326,
+            "transfer": 88096,
+            "decoded": 87796
+          },
+          {
+            "path": "/assets/fonts/CormorantGaramond-Variable.woff2",
+            "type": "css",
+            "start": 1836.7000000476837,
+            "duration": 3731.100000143051,
+            "transfer": 209512,
+            "decoded": 209212
+          }
+        ]
+      },
+      "network": [
+        {
+          "url": "/thirty-languages-and-the-journey-of-a-poem.html",
+          "type": "Document",
+          "started": 1245484.362185,
+          "status": 200,
+          "mime": "text/html",
+          "bytes": 32663,
+          "finished": 1245484.678094
+        },
+        {
+          "url": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "type": "Font",
+          "started": 1245484.532182,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 90882,
+          "finished": 1245486.155835
+        },
+        {
+          "url": "/assets/style.css",
+          "type": "Stylesheet",
+          "started": 1245484.532754,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 89482,
+          "finished": 1245486.149011
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "Script",
+          "started": 1245484.533224,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 14802,
+          "finished": 1245485.219478
+        },
+        {
+          "url": "/assets/analytics.js",
+          "type": "Script",
+          "started": 1245484.53325,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 4531,
+          "finished": 1245485.241639
+        },
+        {
+          "url": "/assets/mobile-artwork.css",
+          "type": "Stylesheet",
+          "started": 1245484.533264,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1361,
+          "finished": 1245484.69521
+        },
+        {
+          "url": "/assets/human-natural.css",
+          "type": "Stylesheet",
+          "started": 1245484.53351,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 2100,
+          "finished": 1245484.738358
+        },
+        {
+          "url": "/assets/image-delivery.css",
+          "type": "Stylesheet",
+          "started": 1245484.533524,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 547,
+          "finished": 1245484.716978
+        },
+        {
+          "url": "/assets/image-delivery.js",
+          "type": "Script",
+          "started": 1245484.533536,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 668,
+          "finished": 1245485.316785
+        },
+        {
+          "url": "/assets/appearance.js",
+          "type": "Script",
+          "started": 1245484.541083,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1934,
+          "finished": 1245484.866601
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Image",
+          "started": 1245484.542798,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245484.926112
+        },
+        {
+          "url": "/assets/language-essay.css",
+          "type": "Stylesheet",
+          "started": 1245484.551489,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 3421,
+          "finished": 1245485.135979
+        },
+        {
+          "url": "/assets/articles/thirty-languages/poetry-across-languages-hero-800.webp",
+          "type": "Image",
+          "started": 1245484.558382,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 108379,
+          "finished": 1245486.335651
+        },
+        {
+          "url": "/assets/backgrounds/cotton-paper.webp",
+          "type": "Image",
+          "started": 1245486.155241,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 243393,
+          "finished": 1245490.229301
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245486.190298,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245488.09163
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "type": "Font",
+          "started": 1245486.198285,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 209427,
+          "finished": 1245489.929454
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Variable.woff2",
+          "type": "Font",
+          "started": 1245486.198321
+        }
+      ],
+      "externalBlocked": [],
+      "exceptionCount": 0,
+      "observationWindowMs": 6500
+    },
+    {
+      "site": "KBL",
+      "family": "reader",
+      "route": "/poem-dokana.html?focus=1",
+      "repeat": 1,
+      "started": "2026-10-06T04:03:41.588Z",
+      "metrics": {
+        "ready": "complete",
+        "title": "\u0b26\u0b4b\u0b15\u0b3e\u0b28 \u00b7 Kabita Live",
+        "textLength": 1412,
+        "readerActive": "journal-paper monsoon-wash site-theme poem-page night",
+        "openDialogs": [
+          "focus-reader"
+        ],
+        "fontsStatus": "loaded",
+        "nav": [
+          {
+            "domContentLoaded": 9454.300000190735,
+            "load": 9462.700000047684,
+            "responseStart": 4.6000001430511475,
+            "domInteractive": 2417.300000190735
+          }
+        ],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 2340
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 2416
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 2416,
+            "size": 7095,
+            "tag": "SPAN",
+            "url": null
+          },
+          {
+            "startTime": 2448,
+            "size": 38646,
+            "tag": "SPAN",
+            "url": null
+          }
+        ],
+        "shifts": [
+          {
+            "value": 6.967325704550834e-05,
+            "startTime": 6115.400000095367
+          }
+        ],
+        "resources": [
+          {
+            "path": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+            "type": "link",
+            "start": 189.30000019073486,
+            "duration": 2151.899999856949,
+            "transfer": 90968,
+            "decoded": 90668
+          },
+          {
+            "path": "/assets/app.js",
+            "type": "script",
+            "start": 190.10000014305115,
+            "duration": 1632.7000000476837,
+            "transfer": 14883,
+            "decoded": 14583
+          },
+          {
+            "path": "/assets/analytics.js",
+            "type": "script",
+            "start": 190.10000014305115,
+            "duration": 1820.2000000476837,
+            "transfer": 4613,
+            "decoded": 4313
+          },
+          {
+            "path": "/assets/style.css",
+            "type": "link",
+            "start": 190.10000014305115,
+            "duration": 2128.0999999046326,
+            "transfer": 89570,
+            "decoded": 89270
+          },
+          {
+            "path": "/assets/mobile-artwork.css",
+            "type": "link",
+            "start": 190.80000019073486,
+            "duration": 178.59999990463257,
+            "transfer": 1450,
+            "decoded": 1150
+          },
+          {
+            "path": "/assets/poem-reader.css",
+            "type": "link",
+            "start": 190.90000009536743,
+            "duration": 274.5,
+            "transfer": 4739,
+            "decoded": 4439
+          },
+          {
+            "path": "/assets/poem-experience.css",
+            "type": "link",
+            "start": 190.90000009536743,
+            "duration": 596.9000000953674,
+            "transfer": 21408,
+            "decoded": 21108
+          },
+          {
+            "path": "/assets/poem-reader.js",
+            "type": "script",
+            "start": 190.90000009536743,
+            "duration": 619.5,
+            "transfer": 7247,
+            "decoded": 6947
+          },
+          {
+            "path": "/assets/poem-experience.js",
+            "type": "script",
+            "start": 190.90000009536743,
+            "duration": 1519.7000000476837,
+            "transfer": 37992,
+            "decoded": 37692
+          },
+          {
+            "path": "/assets/engagement.css",
+            "type": "link",
+            "start": 191,
+            "duration": 312.10000014305115,
+            "transfer": 1539,
+            "decoded": 1239
+          },
+          {
+            "path": "/assets/human-natural.css",
+            "type": "link",
+            "start": 191,
+            "duration": 387.40000009536743,
+            "transfer": 2189,
+            "decoded": 1889
+          },
+          {
+            "path": "/assets/image-delivery.css",
+            "type": "link",
+            "start": 191,
+            "duration": 447.5,
+            "transfer": 637,
+            "decoded": 337
+          },
+          {
+            "path": "/assets/engagement.js",
+            "type": "script",
+            "start": 191,
+            "duration": 9214.200000047684,
+            "transfer": 751186,
+            "decoded": 750886
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "img",
+            "start": 191.70000004768372,
+            "duration": 814.5,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/appearance.js",
+            "type": "script",
+            "start": 191.70000004768372,
+            "duration": 829.2999999523163,
+            "transfer": 2016,
+            "decoded": 1716
+          },
+          {
+            "path": "/assets/image-delivery.js",
+            "type": "script",
+            "start": 191.70000004768372,
+            "duration": 1999.7000000476837,
+            "transfer": 751,
+            "decoded": 451
+          },
+          {
+            "path": "/assets/writers/82-earth-voice-v1-64.webp",
+            "type": "img",
+            "start": 202.80000019073486,
+            "duration": 2033.3999998569489,
+            "transfer": 2054,
+            "decoded": 1754
+          },
+          {
+            "path": "/assets/responsive/f754a3afdaac955f-480.webp",
+            "type": "img",
+            "start": 220.40000009536743,
+            "duration": 1835.5999999046326,
+            "transfer": 32864,
+            "decoded": 32564
+          },
+          {
+            "path": "/assets/poem-marks.mjs",
+            "type": "script",
+            "start": 812,
+            "duration": 425.5,
+            "transfer": 1827,
+            "decoded": 1527
+          },
+          {
+            "path": "/assets/reader-pagination.mjs",
+            "type": "script",
+            "start": 1712,
+            "duration": 305.60000014305115,
+            "transfer": 1280,
+            "decoded": 980
+          },
+          {
+            "path": "/assets/poem-end-sprig.svg",
+            "type": "css",
+            "start": 2357.800000190735,
+            "duration": 163.09999990463257,
+            "transfer": 582,
+            "decoded": 282
+          },
+          {
+            "path": "/assets/fonts/SourceSerif4-Variable.woff2",
+            "type": "css",
+            "start": 2358.600000143051,
+            "duration": 5936.099999904633,
+            "transfer": 427920,
+            "decoded": 427620
+          },
+          {
+            "path": "/assets/fonts/CormorantGaramond-Variable.woff2",
+            "type": "css",
+            "start": 2359.2000000476837,
+            "duration": 3745.7000000476837,
+            "transfer": 209512,
+            "decoded": 209212
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 2423.800000190735,
+            "duration": 1919.6999998092651,
+            "transfer": 88096,
+            "decoded": 87796
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 9449.400000095367,
+            "duration": 1027.7000000476837,
+            "transfer": 88096,
+            "decoded": 87796
+          },
+          {
+            "path": "/assets/reading-editions/issue-47.json",
+            "type": "fetch",
+            "start": 9462.700000047684,
+            "duration": 1074.5,
+            "transfer": 97406,
+            "decoded": 97106
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "other",
+            "start": 9469.600000143051,
+            "duration": 167.79999995231628,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/poetic-waterline.svg",
+            "type": "css",
+            "start": 10583.5,
+            "duration": 156.20000004768372,
+            "transfer": 774,
+            "decoded": 474
+          },
+          {
+            "path": "/assets/poem-end-leaf.svg",
+            "type": "css",
+            "start": 10599.700000047684,
+            "duration": 155,
+            "transfer": 784,
+            "decoded": 484
+          },
+          {
+            "path": "/assets/poem-end-paired.svg",
+            "type": "css",
+            "start": 10614.400000095367,
+            "duration": 155.5,
+            "transfer": 669,
+            "decoded": 369
+          },
+          {
+            "path": "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+            "type": "css",
+            "start": 10634.300000190735,
+            "duration": 862.7999999523163,
+            "transfer": 141780,
+            "decoded": 141480
+          }
+        ]
+      },
+      "network": [
+        {
+          "url": "/poem-dokana.html",
+          "type": "Document",
+          "started": 1245659.479375,
+          "status": 200,
+          "mime": "text/html",
+          "bytes": 32728,
+          "finished": 1245659.800867
+        },
+        {
+          "url": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "type": "Font",
+          "started": 1245659.665931,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 90882,
+          "finished": 1245661.819301
+        },
+        {
+          "url": "/assets/style.css",
+          "type": "Stylesheet",
+          "started": 1245659.668189,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 89482,
+          "finished": 1245661.796235
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "Script",
+          "started": 1245659.668219,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 14802,
+          "finished": 1245661.300863
+        },
+        {
+          "url": "/assets/analytics.js",
+          "type": "Script",
+          "started": 1245659.668247,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 4531,
+          "finished": 1245661.488457
+        },
+        {
+          "url": "/assets/mobile-artwork.css",
+          "type": "Stylesheet",
+          "started": 1245659.668261,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1361,
+          "finished": 1245659.847589
+        },
+        {
+          "url": "/assets/poem-reader.css",
+          "type": "Stylesheet",
+          "started": 1245659.668949,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 4650,
+          "finished": 1245659.943488
+        },
+        {
+          "url": "/assets/poem-reader.js",
+          "type": "Script",
+          "started": 1245659.668974,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 7165,
+          "finished": 1245660.288494
+        },
+        {
+          "url": "/assets/poem-experience.css",
+          "type": "Stylesheet",
+          "started": 1245659.668996,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 21320,
+          "finished": 1245660.265853
+        },
+        {
+          "url": "/assets/poem-experience.js",
+          "type": "Script",
+          "started": 1245659.66902,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 37911,
+          "finished": 1245661.188681
+        },
+        {
+          "url": "/assets/engagement.css",
+          "type": "Stylesheet",
+          "started": 1245659.669035,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1450,
+          "finished": 1245659.981225
+        },
+        {
+          "url": "/assets/engagement.js",
+          "type": "Script",
+          "started": 1245659.669048,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 751106,
+          "finished": 1245668.883325
+        },
+        {
+          "url": "/assets/human-natural.css",
+          "type": "Stylesheet",
+          "started": 1245659.66906,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 2100,
+          "finished": 1245660.056453
+        },
+        {
+          "url": "/assets/image-delivery.css",
+          "type": "Stylesheet",
+          "started": 1245659.669073,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 547,
+          "finished": 1245660.116591
+        },
+        {
+          "url": "/assets/image-delivery.js",
+          "type": "Script",
+          "started": 1245659.669731,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 668,
+          "finished": 1245661.669512
+        },
+        {
+          "url": "/assets/appearance.js",
+          "type": "Script",
+          "started": 1245659.669756,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1934,
+          "finished": 1245660.499141
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Image",
+          "started": 1245659.669782,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245660.484308
+        },
+        {
+          "url": "/assets/writers/82-earth-voice-v1-64.webp",
+          "type": "Image",
+          "started": 1245659.680831,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 1967,
+          "finished": 1245661.714279
+        },
+        {
+          "url": "/assets/responsive/f754a3afdaac955f-480.webp",
+          "type": "Image",
+          "started": 1245659.697721,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 32778,
+          "finished": 1245661.534058
+        },
+        {
+          "url": "/assets/poem-marks.mjs",
+          "type": "Script",
+          "started": 1245660.29,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1745,
+          "finished": 1245660.715631
+        },
+        {
+          "url": "/assets/reader-pagination.mjs",
+          "type": "Script",
+          "started": 1245661.190076,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1197,
+          "finished": 1245661.495666
+        },
+        {
+          "url": "/assets/poem-end-sprig.svg",
+          "type": "Image",
+          "started": 1245661.835852,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 497,
+          "finished": 1245661.999053
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Variable.woff2",
+          "type": "Font",
+          "started": 1245661.836695,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 427835,
+          "finished": 1245667.772721
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "type": "Font",
+          "started": 1245661.837317,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 209427,
+          "finished": 1245665.582951
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245661.901697,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245663.821542
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245668.926778,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245669.955231
+        },
+        {
+          "url": "/assets/reading-editions/issue-47.json",
+          "type": "Fetch",
+          "started": 1245668.940774,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 97326,
+          "finished": 1245670.015338
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Other",
+          "started": 1245668.947641,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245669.115451
+        },
+        {
+          "url": "/assets/poetic-waterline.svg",
+          "type": "Image",
+          "started": 1245670.061616,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 689,
+          "finished": 1245670.217782
+        },
+        {
+          "url": "/assets/poem-end-leaf.svg",
+          "type": "Image",
+          "started": 1245670.077687,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 699,
+          "finished": 1245670.23282
+        },
+        {
+          "url": "/assets/poem-end-paired.svg",
+          "type": "Image",
+          "started": 1245670.091957,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 584,
+          "finished": 1245670.248023
+        },
+        {
+          "url": "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "type": "Font",
+          "started": 1245670.112283,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 141695,
+          "finished": 1245670.975162
+        }
+      ],
+      "externalBlocked": [],
+      "exceptionCount": 0,
+      "observationWindowMs": 20000
+    },
+    {
+      "site": "KBL",
+      "family": "reader",
+      "route": "/poem-dokana.html?focus=1",
+      "repeat": 2,
+      "started": "2026-10-06T04:04:02.523Z",
+      "metrics": {
+        "ready": "complete",
+        "title": "\u0b26\u0b4b\u0b15\u0b3e\u0b28 \u00b7 Kabita Live",
+        "textLength": 1412,
+        "readerActive": "journal-paper monsoon-wash site-theme poem-page night",
+        "openDialogs": [
+          "focus-reader"
+        ],
+        "fontsStatus": "loaded",
+        "nav": [
+          {
+            "domContentLoaded": 9436.5,
+            "load": 9446.700000047684,
+            "responseStart": 1.2000000476837158,
+            "domInteractive": 2302.800000190735
+          }
+        ],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 2240
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 2308
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 2308,
+            "size": 5040,
+            "tag": "SPAN",
+            "url": null
+          },
+          {
+            "startTime": 2328,
+            "size": 36624,
+            "tag": "SPAN",
+            "url": null
+          },
+          {
+            "startTime": 11672,
+            "size": 37290,
+            "tag": "DIV",
+            "url": null
+          }
+        ],
+        "shifts": [
+          {
+            "value": 6.967325704550834e-05,
+            "startTime": 6007.700000047684
+          }
+        ],
+        "resources": [
+          {
+            "path": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+            "type": "link",
+            "start": 170.80000019073486,
+            "duration": 2221.899999856949,
+            "transfer": 90968,
+            "decoded": 90668
+          },
+          {
+            "path": "/assets/style.css",
+            "type": "link",
+            "start": 170.90000009536743,
+            "duration": 2056.5,
+            "transfer": 89570,
+            "decoded": 89270
+          },
+          {
+            "path": "/assets/mobile-artwork.css",
+            "type": "link",
+            "start": 171,
+            "duration": 166.80000019073486,
+            "transfer": 1450,
+            "decoded": 1150
+          },
+          {
+            "path": "/assets/poem-reader.css",
+            "type": "link",
+            "start": 171,
+            "duration": 249.90000009536743,
+            "transfer": 4739,
+            "decoded": 4439
+          },
+          {
+            "path": "/assets/poem-experience.css",
+            "type": "link",
+            "start": 171,
+            "duration": 512.3000001907349,
+            "transfer": 21408,
+            "decoded": 21108
+          },
+          {
+            "path": "/assets/poem-reader.js",
+            "type": "script",
+            "start": 171,
+            "duration": 556.4000000953674,
+            "transfer": 7247,
+            "decoded": 6947
+          },
+          {
+            "path": "/assets/poem-experience.js",
+            "type": "script",
+            "start": 171,
+            "duration": 1471.8000001907349,
+            "transfer": 37992,
+            "decoded": 37692
+          },
+          {
+            "path": "/assets/app.js",
+            "type": "script",
+            "start": 171,
+            "duration": 1555.4000000953674,
+            "transfer": 14883,
+            "decoded": 14583
+          },
+          {
+            "path": "/assets/analytics.js",
+            "type": "script",
+            "start": 171,
+            "duration": 1778.9000000953674,
+            "transfer": 4613,
+            "decoded": 4313
+          },
+          {
+            "path": "/assets/engagement.css",
+            "type": "link",
+            "start": 172,
+            "duration": 188.5,
+            "transfer": 1539,
+            "decoded": 1239
+          },
+          {
+            "path": "/assets/human-natural.css",
+            "type": "link",
+            "start": 172,
+            "duration": 339.30000019073486,
+            "transfer": 2189,
+            "decoded": 1889
+          },
+          {
+            "path": "/assets/image-delivery.css",
+            "type": "link",
+            "start": 172,
+            "duration": 346.7000000476837,
+            "transfer": 637,
+            "decoded": 337
+          },
+          {
+            "path": "/assets/image-delivery.js",
+            "type": "script",
+            "start": 172,
+            "duration": 1927.9000000953674,
+            "transfer": 751,
+            "decoded": 451
+          },
+          {
+            "path": "/assets/engagement.js",
+            "type": "script",
+            "start": 172,
+            "duration": 9210.800000190735,
+            "transfer": 751186,
+            "decoded": 750886
+          },
+          {
+            "path": "/assets/appearance.js",
+            "type": "script",
+            "start": 174.30000019073486,
+            "duration": 734.1999998092651,
+            "transfer": 2016,
+            "decoded": 1716
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "img",
+            "start": 175.40000009536743,
+            "duration": 747.5999999046326,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/writers/82-earth-voice-v1-64.webp",
+            "type": "img",
+            "start": 196.10000014305115,
+            "duration": 1964.5999999046326,
+            "transfer": 2054,
+            "decoded": 1754
+          },
+          {
+            "path": "/assets/responsive/f754a3afdaac955f-480.webp",
+            "type": "img",
+            "start": 211.10000014305115,
+            "duration": 1754.5999999046326,
+            "transfer": 32864,
+            "decoded": 32564
+          },
+          {
+            "path": "/assets/poem-marks.mjs",
+            "type": "script",
+            "start": 728.9000000953674,
+            "duration": 411,
+            "transfer": 1827,
+            "decoded": 1527
+          },
+          {
+            "path": "/assets/reader-pagination.mjs",
+            "type": "script",
+            "start": 1645.1000001430511,
+            "duration": 275.7000000476837,
+            "transfer": 1280,
+            "decoded": 980
+          },
+          {
+            "path": "/assets/poem-end-sprig.svg",
+            "type": "css",
+            "start": 2246.600000143051,
+            "duration": 183.59999990463257,
+            "transfer": 582,
+            "decoded": 282
+          },
+          {
+            "path": "/assets/fonts/SourceSerif4-Variable.woff2",
+            "type": "css",
+            "start": 2247.600000143051,
+            "duration": 5935.5,
+            "transfer": 427920,
+            "decoded": 427620
+          },
+          {
+            "path": "/assets/fonts/CormorantGaramond-Variable.woff2",
+            "type": "css",
+            "start": 2247.7000000476837,
+            "duration": 3745,
+            "transfer": 209512,
+            "decoded": 209212
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 2307.5,
+            "duration": 1915.6000001430511,
+            "transfer": 88096,
+            "decoded": 87796
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 9432.5,
+            "duration": 1029.9000000953674,
+            "transfer": 88096,
+            "decoded": 87796
+          },
+          {
+            "path": "/assets/reading-editions/issue-47.json",
+            "type": "fetch",
+            "start": 9446.700000047684,
+            "duration": 1076,
+            "transfer": 97406,
+            "decoded": 97106
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "other",
+            "start": 9455.100000143051,
+            "duration": 175.89999985694885,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/poetic-waterline.svg",
+            "type": "css",
+            "start": 10564.800000190735,
+            "duration": 160.19999980926514,
+            "transfer": 774,
+            "decoded": 474
+          },
+          {
+            "path": "/assets/poem-end-leaf.svg",
+            "type": "css",
+            "start": 10585.5,
+            "duration": 154,
+            "transfer": 784,
+            "decoded": 484
+          },
+          {
+            "path": "/assets/poem-end-paired.svg",
+            "type": "css",
+            "start": 10602,
+            "duration": 160.60000014305115,
+            "transfer": 669,
+            "decoded": 369
+          },
+          {
+            "path": "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+            "type": "css",
+            "start": 10622.900000095367,
+            "duration": 860.2999999523163,
+            "transfer": 141780,
+            "decoded": 141480
+          }
+        ]
+      },
+      "network": [
+        {
+          "url": "/poem-dokana.html",
+          "type": "Document",
+          "started": 1245680.400969,
+          "status": 200,
+          "mime": "text/html",
+          "bytes": 32728,
+          "finished": 1245680.716799
+        },
+        {
+          "url": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "type": "Font",
+          "started": 1245680.571369,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 90882,
+          "finished": 1245682.793366
+        },
+        {
+          "url": "/assets/style.css",
+          "type": "Stylesheet",
+          "started": 1245680.571495,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 89482,
+          "finished": 1245682.628064
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "Script",
+          "started": 1245680.571533,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 14802,
+          "finished": 1245682.126965
+        },
+        {
+          "url": "/assets/analytics.js",
+          "type": "Script",
+          "started": 1245680.571558,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 4531,
+          "finished": 1245682.350454
+        },
+        {
+          "url": "/assets/mobile-artwork.css",
+          "type": "Stylesheet",
+          "started": 1245680.571572,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1361,
+          "finished": 1245680.738345
+        },
+        {
+          "url": "/assets/poem-reader.css",
+          "type": "Stylesheet",
+          "started": 1245680.571586,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 4650,
+          "finished": 1245680.821438
+        },
+        {
+          "url": "/assets/poem-reader.js",
+          "type": "Script",
+          "started": 1245680.571598,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 7165,
+          "finished": 1245681.128052
+        },
+        {
+          "url": "/assets/poem-experience.css",
+          "type": "Stylesheet",
+          "started": 1245680.571614,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 21320,
+          "finished": 1245681.083855
+        },
+        {
+          "url": "/assets/poem-experience.js",
+          "type": "Script",
+          "started": 1245680.57163,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 37911,
+          "finished": 1245682.043479
+        },
+        {
+          "url": "/assets/engagement.css",
+          "type": "Stylesheet",
+          "started": 1245680.571642,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1450,
+          "finished": 1245680.761142
+        },
+        {
+          "url": "/assets/engagement.js",
+          "type": "Script",
+          "started": 1245680.572554,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 751106,
+          "finished": 1245689.78336
+        },
+        {
+          "url": "/assets/human-natural.css",
+          "type": "Stylesheet",
+          "started": 1245680.572565,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 2100,
+          "finished": 1245680.911813
+        },
+        {
+          "url": "/assets/image-delivery.css",
+          "type": "Stylesheet",
+          "started": 1245680.572576,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 547,
+          "finished": 1245680.919377
+        },
+        {
+          "url": "/assets/image-delivery.js",
+          "type": "Script",
+          "started": 1245680.572588,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 668,
+          "finished": 1245682.500518
+        },
+        {
+          "url": "/assets/appearance.js",
+          "type": "Script",
+          "started": 1245680.574817,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1934,
+          "finished": 1245681.309079
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Image",
+          "started": 1245680.575988,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245681.323602
+        },
+        {
+          "url": "/assets/writers/82-earth-voice-v1-64.webp",
+          "type": "Image",
+          "started": 1245680.59666,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 1967,
+          "finished": 1245682.56129
+        },
+        {
+          "url": "/assets/responsive/f754a3afdaac955f-480.webp",
+          "type": "Image",
+          "started": 1245680.611677,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 32778,
+          "finished": 1245682.366296
+        },
+        {
+          "url": "/assets/poem-marks.mjs",
+          "type": "Script",
+          "started": 1245681.129412,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1745,
+          "finished": 1245681.54048
+        },
+        {
+          "url": "/assets/reader-pagination.mjs",
+          "type": "Script",
+          "started": 1245682.045597,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1197,
+          "finished": 1245682.321365
+        },
+        {
+          "url": "/assets/poem-end-sprig.svg",
+          "type": "Image",
+          "started": 1245682.647183,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 497,
+          "finished": 1245682.830824
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Variable.woff2",
+          "type": "Font",
+          "started": 1245682.648221,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 427835,
+          "finished": 1245688.583735
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "type": "Font",
+          "started": 1245682.648302,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 209427,
+          "finished": 1245686.393304
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245682.708096,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245684.623736
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245689.832978,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245690.86293
+        },
+        {
+          "url": "/assets/reading-editions/issue-47.json",
+          "type": "Fetch",
+          "started": 1245689.847278,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 97326,
+          "finished": 1245690.923287
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Other",
+          "started": 1245689.855621,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245690.031625
+        },
+        {
+          "url": "/assets/poetic-waterline.svg",
+          "type": "Image",
+          "started": 1245690.965317,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 689,
+          "finished": 1245691.125636
+        },
+        {
+          "url": "/assets/poem-end-leaf.svg",
+          "type": "Image",
+          "started": 1245690.986129,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 699,
+          "finished": 1245691.140092
+        },
+        {
+          "url": "/assets/poem-end-paired.svg",
+          "type": "Image",
+          "started": 1245691.002664,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 584,
+          "finished": 1245691.163275
+        },
+        {
+          "url": "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "type": "Font",
+          "started": 1245691.023467,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 141695,
+          "finished": 1245691.883803
+        }
+      ],
+      "externalBlocked": [],
+      "exceptionCount": 0,
+      "observationWindowMs": 20000
+    },
+    {
+      "site": "KBL",
+      "family": "reader",
+      "route": "/poem-dokana.html?focus=1",
+      "repeat": 3,
+      "started": "2026-10-06T04:04:23.400Z",
+      "metrics": {
+        "ready": "complete",
+        "title": "\u0b26\u0b4b\u0b15\u0b3e\u0b28 \u00b7 Kabita Live",
+        "textLength": 1412,
+        "readerActive": "journal-paper monsoon-wash site-theme poem-page night",
+        "openDialogs": [
+          "focus-reader"
+        ],
+        "fontsStatus": "loaded",
+        "nav": [
+          {
+            "domContentLoaded": 9437.799999952316,
+            "load": 9445.299999952316,
+            "responseStart": 1.7000000476837158,
+            "domInteractive": 2373.899999856949
+          }
+        ],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 2304
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 2380
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 2380,
+            "size": 5040,
+            "tag": "SPAN",
+            "url": null
+          },
+          {
+            "startTime": 2404,
+            "size": 38646,
+            "tag": "SPAN",
+            "url": null
+          }
+        ],
+        "shifts": [
+          {
+            "value": 6.967325704550834e-05,
+            "startTime": 6075.5
+          }
+        ],
+        "resources": [
+          {
+            "path": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+            "type": "link",
+            "start": 179.70000004768372,
+            "duration": 2144.399999856949,
+            "transfer": 90968,
+            "decoded": 90668
+          },
+          {
+            "path": "/assets/app.js",
+            "type": "script",
+            "start": 179.89999985694885,
+            "duration": 1627,
+            "transfer": 14883,
+            "decoded": 14583
+          },
+          {
+            "path": "/assets/analytics.js",
+            "type": "script",
+            "start": 179.89999985694885,
+            "duration": 1814.6000001430511,
+            "transfer": 4613,
+            "decoded": 4313
+          },
+          {
+            "path": "/assets/style.css",
+            "type": "link",
+            "start": 179.89999985694885,
+            "duration": 2113.600000143051,
+            "transfer": 89570,
+            "decoded": 89270
+          },
+          {
+            "path": "/assets/mobile-artwork.css",
+            "type": "link",
+            "start": 180.89999985694885,
+            "duration": 170.5,
+            "transfer": 1450,
+            "decoded": 1150
+          },
+          {
+            "path": "/assets/poem-reader.css",
+            "type": "link",
+            "start": 180.89999985694885,
+            "duration": 268.10000014305115,
+            "transfer": 4739,
+            "decoded": 4439
+          },
+          {
+            "path": "/assets/poem-experience.css",
+            "type": "link",
+            "start": 180.89999985694885,
+            "duration": 583.4000000953674,
+            "transfer": 21408,
+            "decoded": 21108
+          },
+          {
+            "path": "/assets/poem-reader.js",
+            "type": "script",
+            "start": 180.89999985694885,
+            "duration": 628.6000001430511,
+            "transfer": 7247,
+            "decoded": 6947
+          },
+          {
+            "path": "/assets/poem-experience.js",
+            "type": "script",
+            "start": 180.89999985694885,
+            "duration": 1513.6000001430511,
+            "transfer": 37992,
+            "decoded": 37692
+          },
+          {
+            "path": "/assets/engagement.css",
+            "type": "link",
+            "start": 181,
+            "duration": 320.39999985694885,
+            "transfer": 1539,
+            "decoded": 1239
+          },
+          {
+            "path": "/assets/human-natural.css",
+            "type": "link",
+            "start": 181.09999990463257,
+            "duration": 381.40000009536743,
+            "transfer": 2189,
+            "decoded": 1889
+          },
+          {
+            "path": "/assets/image-delivery.css",
+            "type": "link",
+            "start": 181.09999990463257,
+            "duration": 449.5,
+            "transfer": 637,
+            "decoded": 337
+          },
+          {
+            "path": "/assets/appearance.js",
+            "type": "script",
+            "start": 181.09999990463257,
+            "duration": 808.1000001430511,
+            "transfer": 2016,
+            "decoded": 1716
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "img",
+            "start": 181.09999990463257,
+            "duration": 823.7000000476837,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/image-delivery.js",
+            "type": "script",
+            "start": 181.09999990463257,
+            "duration": 1993.1000001430511,
+            "transfer": 751,
+            "decoded": 451
+          },
+          {
+            "path": "/assets/engagement.js",
+            "type": "script",
+            "start": 181.09999990463257,
+            "duration": 9208.600000143051,
+            "transfer": 751186,
+            "decoded": 750886
+          },
+          {
+            "path": "/assets/writers/82-earth-voice-v1-64.webp",
+            "type": "img",
+            "start": 201.70000004768372,
+            "duration": 2017.3999998569489,
+            "transfer": 2054,
+            "decoded": 1754
+          },
+          {
+            "path": "/assets/responsive/f754a3afdaac955f-480.webp",
+            "type": "img",
+            "start": 217.5,
+            "duration": 1821.5,
+            "transfer": 32864,
+            "decoded": 32564
+          },
+          {
+            "path": "/assets/poem-marks.mjs",
+            "type": "script",
+            "start": 810.5,
+            "duration": 411.39999985694885,
+            "transfer": 1827,
+            "decoded": 1527
+          },
+          {
+            "path": "/assets/reader-pagination.mjs",
+            "type": "script",
+            "start": 1696.3999998569489,
+            "duration": 304.7000000476837,
+            "transfer": 1280,
+            "decoded": 980
+          },
+          {
+            "path": "/assets/poem-end-sprig.svg",
+            "type": "css",
+            "start": 2314.899999856949,
+            "duration": 166,
+            "transfer": 582,
+            "decoded": 282
+          },
+          {
+            "path": "/assets/fonts/CormorantGaramond-Variable.woff2",
+            "type": "css",
+            "start": 2316.7000000476837,
+            "duration": 3748.899999856949,
+            "transfer": 209512,
+            "decoded": 209212
+          },
+          {
+            "path": "/assets/fonts/SourceSerif4-Variable.woff2",
+            "type": "css",
+            "start": 2316.7000000476837,
+            "duration": 5939.099999904633,
+            "transfer": 427920,
+            "decoded": 427620
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 2379.399999856949,
+            "duration": 1917.5,
+            "transfer": 88096,
+            "decoded": 87796
+          },
+          {
+            "path": "/runtime-config.json",
+            "type": "fetch",
+            "start": 9435.200000047684,
+            "duration": 1041,
+            "transfer": 88096,
+            "decoded": 87796
+          },
+          {
+            "path": "/assets/reading-editions/issue-47.json",
+            "type": "fetch",
+            "start": 9444.5,
+            "duration": 1084.8999998569489,
+            "transfer": 97406,
+            "decoded": 97106
+          },
+          {
+            "path": "/assets/kabita-live-symbol.svg",
+            "type": "other",
+            "start": 9449.599999904633,
+            "duration": 172.5,
+            "transfer": 912,
+            "decoded": 612
+          },
+          {
+            "path": "/assets/poetic-waterline.svg",
+            "type": "css",
+            "start": 10575.899999856949,
+            "duration": 163.40000009536743,
+            "transfer": 774,
+            "decoded": 474
+          },
+          {
+            "path": "/assets/poem-end-leaf.svg",
+            "type": "css",
+            "start": 10595.700000047684,
+            "duration": 159.79999995231628,
+            "transfer": 784,
+            "decoded": 484
+          },
+          {
+            "path": "/assets/poem-end-paired.svg",
+            "type": "css",
+            "start": 10616.299999952316,
+            "duration": 161,
+            "transfer": 669,
+            "decoded": 369
+          },
+          {
+            "path": "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+            "type": "css",
+            "start": 10635.700000047684,
+            "duration": 861.1999998092651,
+            "transfer": 141780,
+            "decoded": 141480
+          }
+        ]
+      },
+      "network": [
+        {
+          "url": "/poem-dokana.html",
+          "type": "Document",
+          "started": 1245701.27658,
+          "status": 200,
+          "mime": "text/html",
+          "bytes": 32728,
+          "finished": 1245701.59839
+        },
+        {
+          "url": "/assets/fonts/NotoSerifOriya-Variable.woff2",
+          "type": "Font",
+          "started": 1245701.455904,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 90882,
+          "finished": 1245703.600267
+        },
+        {
+          "url": "/assets/style.css",
+          "type": "Stylesheet",
+          "started": 1245701.456071,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 89482,
+          "finished": 1245703.569665
+        },
+        {
+          "url": "/assets/app.js",
+          "type": "Script",
+          "started": 1245701.456108,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 14802,
+          "finished": 1245703.083081
+        },
+        {
+          "url": "/assets/analytics.js",
+          "type": "Script",
+          "started": 1245701.456129,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 4531,
+          "finished": 1245703.270659
+        },
+        {
+          "url": "/assets/mobile-artwork.css",
+          "type": "Stylesheet",
+          "started": 1245701.456143,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1361,
+          "finished": 1245701.62759
+        },
+        {
+          "url": "/assets/poem-reader.css",
+          "type": "Stylesheet",
+          "started": 1245701.457099,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 4650,
+          "finished": 1245701.72526
+        },
+        {
+          "url": "/assets/poem-reader.js",
+          "type": "Script",
+          "started": 1245701.457126,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 7165,
+          "finished": 1245702.08574
+        },
+        {
+          "url": "/assets/poem-experience.css",
+          "type": "Stylesheet",
+          "started": 1245701.457149,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 21320,
+          "finished": 1245702.040493
+        },
+        {
+          "url": "/assets/poem-experience.js",
+          "type": "Script",
+          "started": 1245701.457173,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 37911,
+          "finished": 1245702.970742
+        },
+        {
+          "url": "/assets/engagement.css",
+          "type": "Stylesheet",
+          "started": 1245701.457188,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 1450,
+          "finished": 1245701.777643
+        },
+        {
+          "url": "/assets/engagement.js",
+          "type": "Script",
+          "started": 1245701.457201,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 751106,
+          "finished": 1245710.665848
+        },
+        {
+          "url": "/assets/human-natural.css",
+          "type": "Stylesheet",
+          "started": 1245701.457211,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 2100,
+          "finished": 1245701.838696
+        },
+        {
+          "url": "/assets/image-delivery.css",
+          "type": "Stylesheet",
+          "started": 1245701.457223,
+          "status": 200,
+          "mime": "text/css",
+          "bytes": 547,
+          "finished": 1245701.906803
+        },
+        {
+          "url": "/assets/image-delivery.js",
+          "type": "Script",
+          "started": 1245701.457235,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 668,
+          "finished": 1245703.450358
+        },
+        {
+          "url": "/assets/appearance.js",
+          "type": "Script",
+          "started": 1245701.457247,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1934,
+          "finished": 1245702.265389
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Image",
+          "started": 1245701.457268,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245702.280996
+        },
+        {
+          "url": "/assets/writers/82-earth-voice-v1-64.webp",
+          "type": "Image",
+          "started": 1245701.477897,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 1967,
+          "finished": 1245703.495294
+        },
+        {
+          "url": "/assets/responsive/f754a3afdaac955f-480.webp",
+          "type": "Image",
+          "started": 1245701.493671,
+          "status": 200,
+          "mime": "image/webp",
+          "bytes": 32778,
+          "finished": 1245703.315272
+        },
+        {
+          "url": "/assets/poem-marks.mjs",
+          "type": "Script",
+          "started": 1245702.086679,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1745,
+          "finished": 1245702.498187
+        },
+        {
+          "url": "/assets/reader-pagination.mjs",
+          "type": "Script",
+          "started": 1245702.972624,
+          "status": 200,
+          "mime": "text/javascript",
+          "bytes": 1197,
+          "finished": 1245703.277327
+        },
+        {
+          "url": "/assets/poem-end-sprig.svg",
+          "type": "Image",
+          "started": 1245703.590671,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 497,
+          "finished": 1245703.757114
+        },
+        {
+          "url": "/assets/fonts/SourceSerif4-Variable.woff2",
+          "type": "Font",
+          "started": 1245703.592848,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 427835,
+          "finished": 1245709.532041
+        },
+        {
+          "url": "/assets/fonts/CormorantGaramond-Variable.woff2",
+          "type": "Font",
+          "started": 1245703.592931,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 209427,
+          "finished": 1245707.341806
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245703.654869,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245705.573125
+        },
+        {
+          "url": "/runtime-config.json",
+          "type": "Fetch",
+          "started": 1245710.710989,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 88016,
+          "finished": 1245711.752374
+        },
+        {
+          "url": "/assets/reading-editions/issue-47.json",
+          "type": "Fetch",
+          "started": 1245710.72072,
+          "status": 200,
+          "mime": "application/json",
+          "bytes": 97326,
+          "finished": 1245711.805612
+        },
+        {
+          "url": "/assets/kabita-live-symbol.svg",
+          "type": "Other",
+          "started": 1245710.725709,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 827,
+          "finished": 1245710.898302
+        },
+        {
+          "url": "/assets/poetic-waterline.svg",
+          "type": "Image",
+          "started": 1245711.851611,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 689,
+          "finished": 1245712.015562
+        },
+        {
+          "url": "/assets/poem-end-leaf.svg",
+          "type": "Image",
+          "started": 1245711.871947,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 699,
+          "finished": 1245712.031691
+        },
+        {
+          "url": "/assets/poem-end-paired.svg",
+          "type": "Image",
+          "started": 1245711.892488,
+          "status": 200,
+          "mime": "image/svg+xml",
+          "bytes": 584,
+          "finished": 1245712.053471
+        },
+        {
+          "url": "/assets/fonts/TiroDevanagariHindi-Regular.woff2",
+          "type": "Font",
+          "started": 1245711.911836,
+          "status": 200,
+          "mime": "font/woff2",
+          "bytes": 141695,
+          "finished": 1245712.773094
+        }
+      ],
+      "externalBlocked": [],
+      "exceptionCount": 0,
+      "observationWindowMs": 20000
+    }
+  ],
+  "observed_assets": {
+    "assets/analytics.js": {
+      "bytes": 4313,
+      "sha256": "c9b7ca39f408f2e2a1c64056aa46fa21c87f4a29026f9dd57a2344590f487180"
+    },
+    "assets/app.js": {
+      "bytes": 14583,
+      "sha256": "a00d9166ac3b69979c7287c66bfb3192bf67cf5db4cf836900010ce89afdf996"
+    },
+    "assets/appearance.js": {
+      "bytes": 1716,
+      "sha256": "043c93b0d4d22d18d50dbc2b00b5f7bed3386a937eb64d87ef55ef3fc0bad3a5"
+    },
+    "assets/article-links.css": {
+      "bytes": 1097,
+      "sha256": "3a127831dc0bf13c7cc1b48b360b9a6ff6a2195b0380341114c9b29c59db70ac"
+    },
+    "assets/articles/thirty-languages/poetry-across-languages-hero-800.webp": {
+      "bytes": 108164,
+      "sha256": "08b59df766db7434d1306cfe18a7a0ad71ded382a33adc44d5484b1c28fe5d88"
+    },
+    "assets/backgrounds/cotton-paper.webp": {
+      "bytes": 243178,
+      "sha256": "8421aad2056e58278680b5c0a5b3230704211aaa83171a54c8a6f34177b5a77b"
+    },
+    "assets/backgrounds/monsoon-wash.webp": {
+      "bytes": 74330,
+      "sha256": "6a6b384d4b210c4a4870163037df0103166f28f25fe22d7038a68f9ff7d971f8"
+    },
+    "assets/cover-layout-b.css": {
+      "bytes": 560,
+      "sha256": "dc567f3d8122c716b2a3686cf92b7348d69494e34116878a4f3a74effc6b43da"
+    },
+    "assets/covers/editions/edition-045-2026-07-poetic-natural.webp": {
+      "bytes": 275382,
+      "sha256": "b0a9fcaadafe644ad4d96041010efdc45132f74a731bd1a2c70bba42ed5af568"
+    },
+    "assets/covers/editions/edition-046-2026-08-poetic-natural.webp": {
+      "bytes": 186592,
+      "sha256": "618ea0191e9994ab51e4145b91c6b3685aa86d62c83d61a9a8d5feb4d84eeeb4"
+    },
+    "assets/covers/editions/edition-047-2026-09-natural-b-v1.webp": {
+      "bytes": 193814,
+      "sha256": "fd20ec8044fb3f89dc851481ddc46b4b6b556f2ee9e0864358e6822fe9db8353"
+    },
+    "assets/engagement.css": {
+      "bytes": 1239,
+      "sha256": "017ac7a60b2b9cf45d6866d1615bbb25853a5c588b6ed7686a38a346687e2e75"
+    },
+    "assets/engagement.js": {
+      "bytes": 750886,
+      "sha256": "5f4f0b60a896853870370bd2f3bca1a84818086bcfd9ab447e128f24f63fad69"
+    },
+    "assets/fonts/CormorantGaramond-Italic-Variable.woff2": {
+      "bytes": 143916,
+      "sha256": "4fddbd45eafb1fafad3ca17e5a3a005642a522d1c6dc946afaa24c5b663e3be4"
+    },
+    "assets/fonts/CormorantGaramond-Variable.woff2": {
+      "bytes": 209212,
+      "sha256": "c4140897582970e92a97c3bb501909324c1ac735d80fb098a5449d83102100c9"
+    },
+    "assets/fonts/NotoSerifOriya-Variable.woff2": {
+      "bytes": 90668,
+      "sha256": "fe8c35bd7fe3c60a93822ffde479e97ed11979056dfba402ef4c6a4b8c663ec9"
+    },
+    "assets/fonts/SourceSerif4-Italic-Variable.woff2": {
+      "bytes": 346312,
+      "sha256": "d9059cc63af2f3779d32bd85a00c62bb354db66ef18e77cc1996924a22b74399"
+    },
+    "assets/fonts/SourceSerif4-Variable.woff2": {
+      "bytes": 427620,
+      "sha256": "17dbb1e5a9b22b12764db89774a2ecafc58eabb97a622185826d2b08fec80e03"
+    },
+    "assets/fonts/TiroDevanagariHindi-Regular.woff2": {
+      "bytes": 141480,
+      "sha256": "c6724a06f5985238e62efd5bee14e8b84f2f87eff06416de09ab8d9e4685f712"
+    },
+    "assets/home-artistic.css": {
+      "bytes": 1007,
+      "sha256": "e1c81d7e43b65d02520515c8e32ced4ceda36ee7ed405b5eeb75d1373fbbc286"
+    },
+    "assets/home-featured.js": {
+      "bytes": 1381,
+      "sha256": "44142a8372862d96ef17a9e5e52af12210da5085c96ab857e7390dd46f2821c1"
+    },
+    "assets/home-views.css": {
+      "bytes": 256,
+      "sha256": "ebde49a35b3c9e1f4347f7c19086c124ab3e76b2c89b4b4506f77bd1fcc97ab4"
+    },
+    "assets/home/bridge-poetic-natural-v1-768.webp": {
+      "bytes": 80872,
+      "sha256": "04127c08e781e51b7bdd9eced39a28c2e54586a373b66be11679e3e3431e1305"
+    },
+    "assets/home/field-poetic-natural-v1-768.webp": {
+      "bytes": 86420,
+      "sha256": "042f7078d09e684f1903dfb5fd0040d5acb15b652ff8ece6f5c1e78dc8007c40"
+    },
+    "assets/human-natural.css": {
+      "bytes": 1889,
+      "sha256": "0e3d633df2b7ff40bcf3e6b3854c51c7a3250226e193ce0e2f0b44f080b56cc1"
+    },
+    "assets/image-delivery.css": {
+      "bytes": 337,
+      "sha256": "39b072cc121a8f32ce261a78614958cedddf3d6a8cdb05c0799b4f2f92ee3d6e"
+    },
+    "assets/image-delivery.js": {
+      "bytes": 451,
+      "sha256": "bf5c495619150a88c8246b31d29df4e26f3750cb0053c499b45923ce02f699b1"
+    },
+    "assets/kabita-live-symbol.svg": {
+      "bytes": 612,
+      "sha256": "621f06255f5512e76ff1f13c4383fbb705e7ce671bc36265cd149bb0e5758ff6"
+    },
+    "assets/language-essay.css": {
+      "bytes": 3210,
+      "sha256": "f97c9615432ab261d422ff42632e02fd420223628e98245687e41397bc454ce0"
+    },
+    "assets/mobile-artwork.css": {
+      "bytes": 1150,
+      "sha256": "6d6cee815759186e2605d12220c30e324aa515102194cf293de85aafdefd861e"
+    },
+    "assets/poem-end-leaf.svg": {
+      "bytes": 484,
+      "sha256": "858500bf64af1bde29d2004dc041d96f1179a48a9ac1b82e4f5a037101f4861f"
+    },
+    "assets/poem-end-paired.svg": {
+      "bytes": 369,
+      "sha256": "7805c3e0d963bd4d848baea8407d36798e441e8562fce06ee77ea7afc4e6e62d"
+    },
+    "assets/poem-end-sprig.svg": {
+      "bytes": 282,
+      "sha256": "d8983e34f3a70205adcbaada97e9fc876aca91161afe1a940f5b2c80f8ef1dc1"
+    },
+    "assets/poem-experience.css": {
+      "bytes": 21108,
+      "sha256": "407bac7943e6769ee68c500fb955c1af7f923c4c19284b9f5988e49f4364d753"
+    },
+    "assets/poem-experience.js": {
+      "bytes": 37692,
+      "sha256": "9f30f4844ba3775458ed061f03ded553a7f4eb1f54d7926d46574de308fcb074"
+    },
+    "assets/poem-marks.mjs": {
+      "bytes": 1527,
+      "sha256": "5a321eacad7b746ba095488dc7892af5ca0e09ca6fcb7cbcbd061cf960cfb22f"
+    },
+    "assets/poem-reader.css": {
+      "bytes": 4439,
+      "sha256": "e0df1465e2749b83c3c458d679d69f0984df71bc29ac45e4567fc591eb15149d"
+    },
+    "assets/poem-reader.js": {
+      "bytes": 6947,
+      "sha256": "5294fed2d7cfeded8a9d23ec4b8e79172582c8b44f99cf30fea5011028db3952"
+    },
+    "assets/poetic-waterline.svg": {
+      "bytes": 474,
+      "sha256": "694af22896efe94bb23b219c38b3d7bd174342a01e259d4c1faa26f3b38f4c66"
+    },
+    "assets/reader-pagination.mjs": {
+      "bytes": 980,
+      "sha256": "392a9b017969393d98c5919159b54dacbdc3a570c1fc1aae0c72ec1483551397"
+    },
+    "assets/reading-editions/issue-47.json": {
+      "bytes": 97106,
+      "sha256": "8888951376a9e8bcee6c64da21c918cd32d5b00c4294820f1adbadbd349af8b0"
+    },
+    "assets/responsive/3e2409c55f739156-96.webp": {
+      "bytes": 2776,
+      "sha256": "997ad80c7587d595129d33f079feaab6afc9ff23f7fb61762b01190caba31a6e"
+    },
+    "assets/responsive/96e9738483bd7530-96.webp": {
+      "bytes": 2372,
+      "sha256": "354eb315ca10d9b22e076f6ed52d758f83b48239fab26c55ff8bb60eadc9588e"
+    },
+    "assets/responsive/c62f29f8c748683f-96.webp": {
+      "bytes": 2572,
+      "sha256": "5c0c0883f0235e6f1d5e9b9d881ddabca385a770280f7a1416edf3c9d9a7dba3"
+    },
+    "assets/responsive/f754a3afdaac955f-480.webp": {
+      "bytes": 32564,
+      "sha256": "4b07c91519ecd493cee79fbac71092715ee8fd1981d38e43e4b639df8a52df9c"
+    },
+    "assets/style.css": {
+      "bytes": 89270,
+      "sha256": "2a3c3563f8cd9df91eac3d764e15de4a692ec21da8f7c5805590642fbf62053c"
+    },
+    "assets/writers/337-earth-voice-v1-64.webp": {
+      "bytes": 1720,
+      "sha256": "290feb6ad09871d6279f06d69348e4bef8d779b704c2d5fca63a2c9c3459bc39"
+    },
+    "assets/writers/82-earth-voice-v1-64.webp": {
+      "bytes": 1754,
+      "sha256": "6dd7ea469c9ebe8a69b15d4117b3024ea3bb19155d0585e1f28f4b9ecf7fa9a1"
+    },
+    "index.html": {
+      "bytes": 48143,
+      "sha256": "33ccea185ac10db27160ffcf3d56b5c32f3f55961c7e4762db38e1bd720d638c"
+    },
+    "poem-dokana.html": {
+      "bytes": 32515,
+      "sha256": "b6a07a2511735be04ea792bf5c5010efed832b851f051f57c5b09132183d82c2"
+    },
+    "runtime-config.json": {
+      "bytes": 87796,
+      "sha256": "add065f2fa9e0d00cf5449e27264dde7127c49094d7bc364aa82afdc2f6ce1c0"
+    },
+    "thirty-languages-and-the-journey-of-a-poem.html": {
+      "bytes": 32450,
+      "sha256": "62f47434e640c41a78c578c3b9acf1b82e61aa63cb1d5159472db9120a1c4b7c"
+    }
+  },
+  "artifact_bytes_by_extension": {
+    ".html": 43785608,
+    ".json": 13898297,
+    ".txt": 17769,
+    ".js": 2015199,
+    ".pagefind": 140939,
+    ".css": 217768,
+    ".pf_meta": 9623,
+    ".webp": 171877322,
+    ".mjs": 2507,
+    ".svg": 2893,
+    ".png": 23756738,
+    ".jpg": 61637332,
+    ".woff2": 1359208,
+    ".pf_fragment": 1870409,
+    ".pf_index": 1081386
+  },
+  "notes": [
+    "Current existing public builds measured, with artifact hashes and dirty-source revisions; no source rebuild performed.",
+    "These are laboratory observations of local uncompressed static delivery with CPU/network throttle settings requested through CDP; not production Core Web Vitals or real-user results.",
+    "Requested network latency is not treated as a verified effective localhost latency; observed navigation response timings are retained.",
+    "Paint/LCP/CLS values cover the observation window, not a complete session. A zero load event means loading had not completed when sampled; no final load time is inferred.",
+    "External HTTPS provider requests blocked; Analytics/Firebase live behavior and external media delivery are not measured.",
+    "Free to Dream and Utkal do not yet implement the common reader; poem/collection-entry baselines cover their future entry paths without claiming reader mode.",
+    "Three initial Kabita reader samples used an unsupported parameter and are excluded from the summary; corrected focus=1 samples use a documented 20-second window."
+  ],
+  "source_files_changed": false
+}

@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-10-05T09:56:23.448958+00:00",
+  "status": "verified_local_drafts",
+  "variants_read": 6,
+  "variants_revised": 2,
+  "original_files_unchanged": 801,
+  "checks": {
+    "layout_tests": "5 passed",
+    "full_site_build": "passed; Node 24; 1298 pages",
+    "editions": "PASS; 47 editions, 848 source hashes",
+    "preview_and_public_reader_variants": "3148 passed"
+  },
+  "layout_followup": "Same line/stanza counts and no inherited spacing offsets; add explicit mappings for the rearranged line-break phrasing in batch-007 for complete target-boundary provenance.",
+  "independent_review": false,
+  "published": false,
+  "housekeeping": {
+    "bundle": "PASS; 37 concepts;781 local links",
+    "handoff": "PASS;18009 entries; hashes verified",
+    "storage": "PASS;2073 portable links;no errors"
+  },
+  "layout_followup_resolution": "Completed in batch-007: explicit source/stanza hashes,70 target verse lines,stanza boundaries [24,43,54] and no inherited inline offsets; full reader parity passed."
+}

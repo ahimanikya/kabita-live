@@ -1,0 +1,60 @@
+{
+  "status": "pass_with_limitations",
+  "self_review": true,
+  "independent": false,
+  "build": {
+    "node": "24.15.0",
+    "exit_code": 0,
+    "public_pages": 1317,
+    "pagefind_pages": 1312,
+    "content_ready": false
+  },
+  "tests": {
+    "javascript": 169,
+    "python": 36,
+    "failed": 0,
+    "order": "Full suite ran after the final completed build.",
+    "new_regressions": "Current full front cover wins over portraits/responsive/older images; edition promotion changes its cache key even with unchanged artwork; stale/missing visible current cover is rejected."
+  },
+  "export": {
+    "status": "pass",
+    "current_edition": 48,
+    "changed_page_associations": [
+      "index.html"
+    ],
+    "other_page_associations_preserved": 1316,
+    "other_sharing_images_unchanged": 659,
+    "protected_files": 6,
+    "historical_protected_files": 1017,
+    "complete_cover_svg_matches_canonical": true,
+    "new_image_cache_key": true,
+    "image_bytes": 55796,
+    "image_asset": "assets/social/12dea1ca608f4810576a.jpg",
+    "image_url": "https://ahimanikya.github.io/kabita-live/assets/social/12dea1ca608f4810576a.jpg",
+    "alt": "Kabita Live — Issue 48, October 2026. Complete front cover.",
+    "initial_html_og_and_twitter_match": true,
+    "originals_and_runtime_unchanged": true,
+    "publication": "Local only; no push/deployment or platform cache request."
+  },
+  "image": {
+    "status": "pass",
+    "width": 1200,
+    "height": 630,
+    "format": "jpeg",
+    "central_artwork_channel_deviations": [
+      51.13641834133532,
+      46.39410306778019,
+      47.41075135493621
+    ],
+    "visual_self_review": "Complete front cover directly inspected: riverbank artwork, masthead, Odia signature and issue/date present and uncropped, on paper surround. Not a live social-platform cache test."
+  },
+  "resolved_findings": [
+    "First raster candidate retained lettering but omitted the embedded WebP artwork. Replaced the SVG image data with a lossless PNG encoding of the same source before rasterizing; rebuilt and directly inspected the finished complete cover. First failed candidate retained as evidence.",
+    "An initial bare-node command resolved to the obsolete system runtime. All final build/test commands explicitly use Node 24.15.0."
+  ],
+  "limits": [
+    "No public deployment or live platform sharing/cache test. A generated static sharing image is verified separately from Facebook/WhatsApp cache display.",
+    "Existing page layout is unchanged; visual self-review covered the exported sharing raster, not a new browser layout audit."
+  ],
+  "publication": "Local only; no push, deployment or platform-cache request."
+}

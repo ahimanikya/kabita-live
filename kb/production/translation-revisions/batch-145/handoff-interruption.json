@@ -1,0 +1,51 @@
+{
+  "recorded_at": "2026-10-06T03:53:07.241073+00:00",
+  "status": "content_verified_handoff_pending",
+  "content_checks": "PASS; actual Node24 build exited0; five layout and four queue tests; edition and translation-revision checks passed.",
+  "handoff_attempts": [
+    {
+      "stage": "checkpoint final storage",
+      "result": "FAIL",
+      "cause": "Concurrent Edition48 source acquisition changed source files after sync."
+    },
+    {
+      "stage": "storage recovery check",
+      "result": "FAIL",
+      "evidence": "storage-recovery-check.json",
+      "cause": "Concurrent Edition48 normalization changes plus diagnostic output file created before check. Subsequent recovery uses capture-before-write."
+    },
+    {
+      "stage": "final sync recovery",
+      "result": "FAIL",
+      "exit_code": 1,
+      "stderr": "AssertionError: kb/records/edition-sync-48.json",
+      "cause": "Source changed during hash-checked handoff sync; no unrelated source was reverted."
+    }
+  ],
+  "next_action": "Resume batch-145 final handoff verification first. Content/build/layout checks passed; interrupted portable Edition48 record was reconciled with exact snapshots preserved, and one subsequent full sync/storage pair passed. Final checkpoint recheck then caught new concurrent writer476 portrait/portraits.json writes. Do not overwrite or revert Edition48 work. When writes settle, sync/check storage and update verification with actual results; rerun content checks/build if concurrent site changes warrant. Then integrate and fully verify prepared batches146,147,148,149 sequentially (10/10/10/6 variants,2/3/4/3 proposed changes). All remaining Edition6 complete sources, current targets and proposed after variants were read directly; no prepared-only variant has coverage credit. Batch147 poem170 explicitly maps20 verse lines and preserves2 contributor lines. No Edition5 sources read yet.",
+  "prepared_only": [
+    "batch-146",
+    "batch-147",
+    "batch-148",
+    "batch-149"
+  ],
+  "independent_review": false,
+  "published": false,
+  "updated_at": "2026-10-06T04:02:18.775857+00:00",
+  "recovery_this_turn": {
+    "divergent_copy": "Reconciled interrupted portable edition-sync-48.json after preserving both exact snapshots and checking all unchanged fields.",
+    "successful_point_in_time": "sync_handoff.py and check_storage.py both exited0 before saving recovery checkpoint.",
+    "latest_failure": {
+      "result": "FAIL",
+      "recorded_at": "2026-10-06T04:02:18.775857+00:00",
+      "errors": [
+        "Source/handoff mismatch: kb/artifacts/artwork/writer-portraits/476-earth-voice-v1.png",
+        "Source/handoff mismatch: kb/research/edition-sync/edition-48/portraits.json"
+      ],
+      "note": "Checkpoint final storage changed after successful sync/storage during active unrelated portrait generation. Earlier PASS evidence is point-in-time only."
+    },
+    "prepared_variants": 36,
+    "prepared_revisions": 12,
+    "counted_as_integrated": false
+  }
+}

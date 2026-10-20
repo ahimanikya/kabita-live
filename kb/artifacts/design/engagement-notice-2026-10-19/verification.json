@@ -1,0 +1,24 @@
+{
+  "status": "pass_with_limitations",
+  "scope": "Remove the idle article Likes/comments availability notice only.",
+  "tests": {
+    "javascript": 168,
+    "python": 34,
+    "failed": 0,
+    "coverage": "Unavailable source and packaged entry states remain disabled with empty status; action success/failure and retry tests retained."
+  },
+  "protected_service_files": {
+    "checked": 7,
+    "changed": []
+  },
+  "diagnosis": "Local preview uses http://127.0.0.1:8771. siteRuntimeAllowed requires HTTPS and an exact allowed production host. Runtime Likes, publicComments and articleResponseVersion remain enabled. This explains the local notice; no live provider health claim.",
+  "browser": "No fresh browser session or production engagement writes; fixture and bundle checks only.",
+  "publication": "Local only.",
+  "build": {
+    "node": "24.15.0",
+    "exit_code": 0,
+    "updated_script_routes": 812,
+    "old_notice_matches_in_export": [],
+    "exported_bundle_matches_source": true
+  }
+}

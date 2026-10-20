@@ -1,0 +1,253 @@
+[
+  {
+    "case": "reader settings dark phone",
+    "data": {
+      "controls": [
+        {
+          "h": 44,
+          "label": "Original · Hindi",
+          "w": 44
+        },
+        {
+          "h": 44,
+          "label": "Odia translation",
+          "w": 44
+        },
+        {
+          "h": 0,
+          "label": "Read in Hindi",
+          "w": 0
+        },
+        {
+          "h": 44,
+          "label": "English translation",
+          "w": 44
+        }
+      ],
+      "overflow": false
+    }
+  },
+  {
+    "case": "reader Escape restores focus",
+    "data": {
+      "focus": "Read quietly",
+      "openDialogs": 0
+    }
+  },
+  {
+    "case": "share light",
+    "data": {
+      "backdrop": "rgba(39, 34, 42, 0.667)",
+      "logo": true,
+      "overflow": false
+    }
+  },
+  {
+    "case": "menu Escape restores focus",
+    "data": {
+      "focus": "Open menu",
+      "openDialogs": 0
+    }
+  },
+  {
+    "case": "phone 200 percent root text",
+    "data": {
+      "overflow": false,
+      "root": "32px",
+      "title": {
+        "bottom": 465.78125,
+        "height": 185.59375,
+        "left": 20,
+        "right": 370,
+        "top": 280.1875,
+        "width": 350,
+        "x": 20,
+        "y": 280.1875
+      },
+      "viewport": 390
+    }
+  },
+  {
+    "case": "enlarged reader 390",
+    "data": {
+      "controls": [
+        {
+          "label": "Original · Hindi",
+          "rect": {
+            "bottom": 96,
+            "height": 88,
+            "left": 64,
+            "right": 152,
+            "top": 8,
+            "width": 88,
+            "x": 64,
+            "y": 8
+          }
+        },
+        {
+          "label": "Odia translation",
+          "rect": {
+            "bottom": 74,
+            "height": 44,
+            "left": 152,
+            "right": 196,
+            "top": 30,
+            "width": 44,
+            "x": 152,
+            "y": 30
+          }
+        },
+        {
+          "label": "Read in Hindi",
+          "rect": {
+            "bottom": 0,
+            "height": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "label": "English translation",
+          "rect": {
+            "bottom": 74,
+            "height": 44,
+            "left": 196,
+            "right": 240,
+            "top": 30,
+            "width": 44,
+            "x": 196,
+            "y": 30
+          }
+        }
+      ],
+      "overflow": false,
+      "root": "32px"
+    }
+  },
+  {
+    "case": "enlarged reader 320",
+    "data": {
+      "overflow": false,
+      "root": "32px",
+      "top": {
+        "bottom": 159.5,
+        "height": 159.5,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  {
+    "case": "English quotations within Hindi and Odia editorial",
+    "data": [
+      {
+        "font": "\"Noto Serif Oriya\", serif",
+        "lang": "or",
+        "parentLang": "or",
+        "text": "କାହାକୁ ଶୁଭେନିମୋ ମୌନତାରେ ଅହରହବାଜୁଥିବା ବେଦନାର କୋଳାହଳ।"
+      },
+      {
+        "font": "\"Tiro Devanagari Hindi\", serif",
+        "lang": "hi",
+        "parentLang": "hi",
+        "text": "शाखा से छूटना अंत नहीं है,"
+      },
+      {
+        "font": "Literata, Georgia, \"Noto Serif Oriya\", \"Tiro Devanagari Hindi\", serif",
+        "lang": "en",
+        "parentLang": "en",
+        "text": "I love, I hardly hate"
+      },
+      {
+        "font": "\"Noto Serif Oriya\", serif",
+        "lang": "or",
+        "parentLang": "or",
+        "text": "କାହାକୁ ଶୁଭେନିମୋ ମୌନତାରେ ଅହରହବାଜୁଥିବା ବେଦନାର କୋଳାହଳ।"
+      },
+      {
+        "font": "\"Tiro Devanagari Hindi\", serif",
+        "lang": "hi",
+        "parentLang": "hi",
+        "text": "शाखा से छूटना अंत नहीं है,"
+      },
+      {
+        "font": "Literata, Georgia, \"Noto Serif Oriya\", \"Tiro Devanagari Hindi\", serif",
+        "lang": "en",
+        "parentLang": "en",
+        "text": "I love, I hardly hate"
+      },
+      {
+        "font": "\"Noto Serif Oriya\", serif",
+        "lang": "or",
+        "parentLang": "or",
+        "text": "କାହାକୁ ଶୁଭେନିମୋ ମୌନତାରେ ଅହରହବାଜୁଥିବା ବେଦନାର କୋଳାହଳ।"
+      },
+      {
+        "font": "\"Tiro Devanagari Hindi\", serif",
+        "lang": "hi",
+        "parentLang": "hi",
+        "text": "शाखा से छूटना अंत नहीं है,"
+      },
+      {
+        "font": "Literata, Georgia, \"Noto Serif Oriya\", \"Tiro Devanagari Hindi\", serif",
+        "lang": "en",
+        "parentLang": "en",
+        "text": "I love, I hardly hate"
+      }
+    ]
+  },
+  {
+    "case": "search redirect script unavailable fallback",
+    "data": {
+      "link": "poems.html",
+      "overflow": false,
+      "paper": "rgb(250, 247, 247)",
+      "path": "/search.html",
+      "title": "Newsreader, \"Noto Serif Oriya\", \"Tiro Devanagari Hindi\", Georgia, serif"
+    }
+  },
+  {
+    "case": "desktop 200 percent root text",
+    "data": {
+      "overflow": false,
+      "root": "32px",
+      "viewport": 1280
+    }
+  },
+  {
+    "case": "final reader badge",
+    "data": {
+      "font": "Arial, \"Noto Serif Oriya\", \"Tiro Devanagari Hindi\", sans-serif",
+      "lang": "en",
+      "overflow": false
+    }
+  },
+  {
+    "case": "final reader three visible choices",
+    "data": [
+      {
+        "height": 44,
+        "label": "Original · Hindi",
+        "width": 44
+      },
+      {
+        "height": 44,
+        "label": "Odia translation",
+        "width": 44
+      },
+      {
+        "height": 44,
+        "label": "English translation",
+        "width": 44
+      }
+    ]
+  }
+]

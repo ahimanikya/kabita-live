@@ -1,0 +1,100 @@
+{
+  "id": "KBL-DEC-069",
+  "work": "KBL-WORK-051",
+  "title": "Current edition focus, familiar compact header and edition-page cover links",
+  "recorded_at": "2026-10-19T04:34:04.401329+00:00",
+  "status": "applied_local_with_browser_check_pending",
+  "human_authority": "Ahimanikya Satapathy",
+  "user_quotes": [
+    "Should we drop the random abstract image and instead highlight the current edition?",
+    "Also the menu and heading was perfect before, keep that",
+    "we don't have to have \"ମାଟିର ମହକ ହୃଦୟର ସ୍ବର\" on top - we have that in each editon cover anyway",
+    "On clicking on the cover it should not automatically to the reader, it should take it to the edition page"
+  ],
+  "interpretation": "Restore the pre-redesign compact header/menu layout while retaining the selected Ink & Voice palette, Newsreader/Literata fonts and reader refinements. The follow-up continues the discussed current-edition feature.",
+  "implementation": {
+    "header": "Removed enlarged Ink & Voice header overrides and signature injection; existing compact brand/menu/theme-control/ornament markup and CSS restored.",
+    "home": "Featured source-backed poem retained above a new catalogue-driven current-edition feature. Issue 48 cover/date/11-poem count/cover narrative/read action replace standalone courtyard image and detached quotation. Recent editions show 47, 46 and 45 without repeating 48. Historical image and sharing metadata source retained.",
+    "cover_navigation": "All generated front/back cover links open issue-N.html. Removed focus query and automatic-reader attribute; explicit Read quietly controls and existing reader code retained.",
+    "sources": [
+      "projects/site/ink_voice.py",
+      "projects/site/assets/ink-voice.css",
+      "projects/site/build.py",
+      "projects/site/cover_layout.py",
+      "projects/site/tests/test_magazine_covers.py"
+    ],
+    "preservation": "1,017 content/config/cover baseline files unchanged; existing cover composition and Odia signature preserved. No poetry, attribution, runtime service or consent changes."
+  },
+  "supersedes": {
+    "KBL-DEC-068": "Enlarged header/logo size trial.",
+    "KBL-DEC-066": "Large masthead, shared header signature and separate homepage atmospheric image only; palette/fonts/reader remain."
+  },
+  "checks": {
+    "status": "pass_with_limitations",
+    "self_review": true,
+    "public_pages": 1317,
+    "compact_headers_without_signature": 1316,
+    "edition_page_cover_links": 388,
+    "broken_targets_or_duplicate_ids": [],
+    "homepage": {
+      "current_edition": 48,
+      "poem_count": 11,
+      "cover_order": [
+        "48",
+        "47",
+        "46",
+        "45"
+      ],
+      "standalone_atmospheric_image": false,
+      "cover_signature_preserved": true,
+      "featured_poem_and_invitation_preserved": true
+    },
+    "protected_files": {
+      "baseline": "kb/artifacts/design/ink-and-voice-reader-2026-10-19/preserved-before.json",
+      "checked": 1017,
+      "changed": []
+    },
+    "tests": {
+      "javascript": 168,
+      "python": 34,
+      "failed": 0
+    },
+    "build": {
+      "node": "24.15.0",
+      "exit_code": 0,
+      "exported_css_matches_source": true
+    },
+    "browser": {
+      "status": "not_tested",
+      "reason": "Automatic approval review could not run because its selected model was at capacity on two attempts. This is an infrastructure failure, not an unsafe-action rejection. No alternate access used."
+    },
+    "publication": "Local only; no push or deployment."
+  },
+  "checklist": {
+    "scope": "Shared header, homepage edition feature and all generated cover links.",
+    "page_purpose": "Find the current edition and arrive at its contents before choosing quiet reading.",
+    "rules": [
+      "PAGE-01",
+      "PAGE-02",
+      "DESIGN-01",
+      "DESIGN-02",
+      "ART-01",
+      "DELIVERY-01",
+      "DELIVERY-02",
+      "DELIVERY-03"
+    ],
+    "art_and_sharing": "Existing front cover reused unchanged with its current text/alt and signature. Homepage sharing identity retained; no new image generation.",
+    "navigation": "388 actual exported cover links resolve to edition pages with no implicit-reader trigger.",
+    "browser": {
+      "status": "not_tested",
+      "reason": "Automatic approval review could not run because its selected model was at capacity on two attempts. This is an infrastructure failure, not an unsafe-action rejection. No alternate access used."
+    },
+    "handoff": "Final synchronization and storage check follow completion records.",
+    "publication": "Local only; no push or deployment."
+  },
+  "evidence": [
+    "artifacts/design/current-edition-home-2026-10-19/verification.json"
+  ],
+  "executor": "Current chat assistant; Samanta implementation and Drishti self-review",
+  "independent": false
+}

@@ -1,0 +1,69 @@
+--- before/assets/ink-voice.css
++++ after/assets/ink-voice.css
+@@ -26,15 +26,7 @@
+ .site-theme .home-art>img{outline-color:var(--line)}
+ /* Keep type embedded in edition-cover compositions independent of the web masthead. */
+ .site-theme .photo-cover .cover-logo .cover-title,.site-theme .magazine-mini-brand{font-family:'Cormorant Garamond',Georgia,serif}
+-.site-theme .ink-header .masthead{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:22px 28px;padding:32px 0 0}
+-.site-theme .ink-header .brand{--masthead-size:clamp(2.75rem,6.5vw,5.375rem);width:fit-content;gap:16px;max-width:100%}
+-.site-theme .ink-header .brand img{width:var(--masthead-size);height:var(--masthead-size);object-fit:contain;flex-shrink:0}
+-.site-theme .ink-header .brand-title{font-size:var(--masthead-size);line-height:1.05;letter-spacing:-.035em;overflow-wrap:normal}
+-.site-theme .ink-signature{margin:0;font:400 .9375rem/1.85 var(--odia);letter-spacing:0;color:var(--ink)}
+-.site-theme .ink-header .nav{grid-column:1/-1;display:flex;justify-content:flex-start;gap:6px 30px;flex-wrap:wrap;border-block:1px solid var(--line);padding:0;width:100%}
+-.site-theme .ink-header .nav a{min-height:48px;font-size:1rem;padding:9px 0}
+-.site-theme .ink-header .nav .appearance-toggle{margin-left:auto}
+-.site-theme .ink-header .menu,.site-theme .ink-header .header-separator{display:none}
++/* The compact masthead and menu retain their established layout in style.css. */
+ /* The approved opening: invitation beside one chosen original-language poem. */
+ .site-theme .ink-opening{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.15fr);gap:48px;padding:48px 0;align-items:start}
+ .site-theme .ink-invitation{min-width:0;padding:12px 0}
+@@ -62,21 +54,16 @@
+ .site-theme .ink-feature a.byline{font:.9375rem/1.6 var(--ui);color:var(--muted);min-height:44px;display:inline-flex;align-items:center}
+ .site-theme .ink-feature .excerpt{font-size:1.3125rem;line-height:1.85;white-space:pre-line;display:block;max-height:none;height:auto;overflow:visible;-webkit-line-clamp:unset;margin:20px 0;min-height:0}
+ .site-theme .ink-feature .text-link{color:var(--rust)}
+-.site-theme .ink-view{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:48px;align-items:center;padding:32px 0 48px;border-top:1px solid var(--line)}
+-.site-theme .ink-view .home-art{max-width:100%;min-width:0}
+-.site-theme .ink-view .home-art>img{height:auto;aspect-ratio:3/2;object-fit:contain}
+-.site-theme .ink-view .epigraph{font:italic 400 clamp(1.75rem,2.6vw,2.5rem)/1.35 var(--display);color:var(--rust);margin:20px 0}
++.site-theme .ink-current-edition{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,360px);gap:clamp(24px,6vw,80px);align-items:center;padding:48px 0;border-block:1px solid var(--line)}
++.site-theme .ink-edition-copy{min-width:0;max-width:600px}
++.site-theme #ink-edition-title{font-size:clamp(2.5rem,4.5vw,4rem);line-height:1.1;margin:18px 0 12px}
++.site-theme .ink-edition-meta{color:var(--muted);font-size:1rem;margin-bottom:28px}
++.site-theme .ink-edition-copy h3{font:500 clamp(1.75rem,2.5vw,2.25rem)/1.2 var(--display);margin-bottom:16px}
++.site-theme .ink-edition-story{font:1.1875rem/1.75 var(--serif);margin-bottom:28px}
++.site-theme .ink-edition-cover{min-width:0;width:100%;max-width:360px;justify-self:center}
++.site-theme .ink-edition-cover .magazine-cover-link{display:block;width:100%}
+ .site-theme .home-refined>.section{padding-block:44px}
+ .site-theme .home-editor-grid{padding-top:10px}
+-@media(max-width:1100px){
+- .site-theme .ink-header .masthead{grid-template-columns:minmax(0,1fr) 44px 44px;gap:16px 8px;padding-top:22px}
+- .site-theme .ink-header .brand{--masthead-size:clamp(1.625rem,7vw,3rem);gap:10px;flex-wrap:wrap;grid-column:1;grid-row:1}
+- .site-theme .ink-header .brand-title{letter-spacing:-.025em}
+- .site-theme .ink-header .masthead>.appearance-toggle{grid-column:2;grid-row:1;margin:0}
+- .site-theme .ink-header .menu{display:block;grid-column:3;grid-row:1;width:44px;min-width:44px}
+- .site-theme .ink-signature{grid-column:1/-1;font-size:.875rem;padding-bottom:18px;border-bottom:1px solid var(--line)}
+- .site-theme .ink-header .nav{display:none;border-top:0;padding-bottom:12px;gap:6px 24px}
+-}
+ @media(max-width:760px){
+  .site-theme .ink-opening{grid-template-columns:minmax(0,1fr);gap:28px;padding:28px 0 32px}
+  .site-theme .ink-invitation{padding:0}
+@@ -84,14 +71,15 @@
+  .site-theme .ink-feature{padding:24px 20px}
+  .site-theme .ink-feature h3{font-size:1.875rem}
+  .site-theme .ink-feature .excerpt{font-size:1.25rem}
+- .site-theme .ink-view{grid-template-columns:minmax(0,1fr);gap:20px;padding:28px 0}
+- .site-theme .ink-view .epigraph{margin:12px 0}
++ .site-theme .ink-current-edition{grid-template-columns:minmax(0,1fr);gap:32px;padding:32px 0}
++ .site-theme .ink-edition-cover{max-width:280px}
++ .site-theme .ink-edition-story{font-size:1.125rem}
+  .site-theme .home-refined>.section{padding-block:32px}
+ }
+ @media print{
+  body.site-theme,body.site-theme.night{--paper:#fff;--ink:#27222a;--muted:#655a62;--panel:#fff;--rust:#713b55;--sea:#713b55;--line:#d4c8cf;--accent-inverse:#fff;background:#fff;color:#27222a;color-scheme:light}
+- .site-theme .ink-header .nav,.site-theme .ink-header .menu,.site-theme .ink-language{display:none}
+- .site-theme .ink-opening,.site-theme .ink-view{display:block}
++ .site-theme .site-header .nav,.site-theme .site-header .menu,.site-theme .ink-language{display:none}
++ .site-theme .ink-opening,.site-theme .ink-current-edition{display:block}
+  .site-theme .ink-feature{margin-top:24px}
+ }
+ 

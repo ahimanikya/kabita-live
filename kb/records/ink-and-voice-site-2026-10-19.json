@@ -1,0 +1,71 @@
+{
+  "id": "KBL-DEC-066",
+  "work": "KBL-WORK-048",
+  "title": "Apply Ink & Voice to the Kabita Live reader website",
+  "recorded_at": "2026-10-19T03:35:52.275485+00:00",
+  "status": "verified_local",
+  "human_authority": "Ahimanikya Satapathy",
+  "user_quote": "Good, let's update the site",
+  "basis": "Follows the approved Ink & Voice direction and the updated Newsreader/Literata preview in this chat.",
+  "scope": "Apply the approved website design locally across the existing reader page families; publication remains separate.",
+  "reviewer": "Current chat assistant in Samanta design role; self-review, not independent review.",
+  "implementation": {
+    "shared": "Last-stage ink_voice.py applies ink-voice.css to assembled reader pages, preserving historic source generators and cover art.",
+    "fonts": {
+      "display": "Newsreader",
+      "english_reading": "Literata",
+      "odia": "Noto Serif Oriya (retained)",
+      "hindi": "Tiro Devanagari Hindi (retained)"
+    },
+    "home": "Invitation beside an original-language featured poem; existing deterministic India-day selection and source-backed candidate pool retained. Three language choices show one card at a time. Without JavaScript all three remain available. Existing artwork, editions, essay and editors preserved.",
+    "header": "Original symbol, English masthead, exact two-line Odia signature, navigation rule; existing 1100px modal menu and saved theme behaviour retained.",
+    "dark": "Readable theme-derived dark palette with existing System/Light/Dark persistence.",
+    "font_delivery": "Four official full-glyph WOFF2 fonts, original TTFs and OFL notices; glyphs, shaping and axes verified."
+  },
+  "evidence": [
+    "artifacts/design/ink-and-voice-2026-10-19/font-provenance.json",
+    "artifacts/design/ink-and-voice-2026-10-19/preserved-content-check.json",
+    "artifacts/design/ink-and-voice-2026-10-19/tests.log",
+    "artifacts/design/ink-and-voice-2026-10-19/build.log",
+    "artifacts/design/ink-and-voice-2026-10-19/editions.log",
+    "artifacts/design/ink-and-voice-2026-10-19/browser-checks.json",
+    "artifacts/design/ink-and-voice-2026-10-19/export-checks.json",
+    "artifacts/design/ink-and-voice-2026-10-19/home-desktop.png",
+    "artifacts/design/ink-and-voice-2026-10-19/home-phone.png",
+    "artifacts/design/ink-and-voice-2026-10-19/reader-dark.png",
+    "artifacts/design/ink-and-voice-2026-10-19/verification.json"
+  ],
+  "page_checklist": {
+    "families": [
+      "home",
+      "edition",
+      "poem",
+      "poet/editor profile",
+      "archive/directory",
+      "essay",
+      "contact/submission/story"
+    ],
+    "purpose": "Give Kabita Live its approved literary identity while retaining reading and navigation.",
+    "existing_components": "All original content, covers, portraits, source-backed daily feature rotation, reader, services, footer and sharing metadata reused.",
+    "rule_scope": [
+      "DESIGN-01",
+      "DESIGN-02",
+      "DESIGN-03",
+      "READ-01",
+      "SHARE-01"
+    ],
+    "content_check": "All 1,017 captured content/catalogue/runtime/cover files unchanged; 848 source hashes and 48 editions pass integrity checks.",
+    "tests": "168 JavaScript and 34 Python tests pass.",
+    "browser": "Home, poem, edition, profile, archive, poem/poet directories, story, submission and essay inspected using browser; 320/390/1024/1280/1440px representative checks. Home language switch, modal menu, quiet pagination and dark preference verified.",
+    "publication": "Not pushed or deployed. Existing release/noindex gates preserved.",
+    "limitations": [
+      "No live Like/comment/feedback submissions. Local host gating keeps unsupported actions disabled.",
+      "No independent editorial or linguistic review claimed; existing source holds are untouched."
+    ],
+    "build": "Node 24 build passes; 1,317 public pages. CSS/font/license parity and no external font stylesheets checked.",
+    "contrast": "Seven principal foreground/background combinations checked: minimum 5.00:1 (muted on soft rose); details in verification.",
+    "handoff": "Portable synchronization and storage preflight pass; final metadata synchronization/check follows this completion record."
+  },
+  "next_action": "Review the updated local site at http://127.0.0.1:8771/. Live publication remains a separate action.",
+  "completed_at": "2026-10-19T03:45:52.448121+00:00"
+}

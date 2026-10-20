@@ -1,0 +1,51 @@
+--- before/tests/test_social_metadata.py
++++ after/tests/test_social_metadata.py
+@@ -1,9 +1,48 @@
+ import unittest
++import json
+ from pathlib import Path
+ from tempfile import TemporaryDirectory
+ from social_metadata import Page, choose_image, inject, prepare, public_base, robots_text
+ 
+ class SocialMetadataTests(unittest.TestCase):
++    def home_fixture(self, root, number=48):
++        (root/'content/editions').mkdir(parents=True,exist_ok=True)
++        (root/'data').mkdir(exist_ok=True)
++        (root/'assets/fonts').mkdir(parents=True,exist_ok=True)
++        for name in ['CormorantGaramond-Variable.ttf','NotoSerifOriya-Variable.ttf']:
++            (root/'assets/fonts'/name).write_bytes(b'font')
++        (root/'assets/current.webp').write_bytes(b'current cover art')
++        (root/'content/editions/index.json').write_text(json.dumps([{'number':number},{'number':47}]))
++        svg=f'<svg><image href="assets/current.webp"/><text>Issue {number}</text></svg>'
++        (root/'data/cover-layout-b.json').write_text(json.dumps({str(number):{'artwork':'assets/current.webp','date':'October 2026','svg':svg}}))
++        (root/'index.html').write_text(f'<head><title>Home</title></head><img src="assets/portrait.webp"><div class="ink-current-edition"><div data-cover-edition="{number}"><image href="assets/responsive-copy.webp"/></div></div><div data-cover-edition="47"><image href="assets/older.webp"/></div>')
++
++    def test_home_uses_complete_current_cover_and_updates_on_next_edition(self):
++        with TemporaryDirectory() as tmp:
++            root=Path(tmp);self.home_fixture(root)
++            before=prepare(root,['index.html'],{})['index.html']
++            self.assertEqual(before['edition'],48)
++            self.assertEqual(before['reason'],'current_edition_front_cover')
++            self.assertEqual(before['source'],'assets/current.webp')
++            self.assertIn('<text>Issue 48</text>',before['cover_svg'])
++            self.assertIn('Issue 48',before['alt'])
++            self.home_fixture(root,49)
++            after=prepare(root,['index.html'],{'SITE_URL':'https://kabitalive.com'})['index.html']
++            self.assertEqual(after['edition'],49)
++            self.assertNotEqual(before['asset'],after['asset'])
++            self.assertTrue(after['image_url'].startswith('https://kabitalive.com/assets/social/'))
++            self.assertEqual(after['url'],'https://kabitalive.com/')
++
++    def test_home_rejects_missing_or_stale_visible_cover_instead_of_generic_fallback(self):
++        with TemporaryDirectory() as tmp:
++            root=Path(tmp);self.home_fixture(root)
++            for markup in ['<img src="assets/home/life-after-rain-poetic-natural.webp">','<div class="ink-current-edition"><div data-cover-edition="47"></div></div>']:
++                (root/'index.html').write_text(markup)
++                with self.assertRaisesRegex(ValueError,'visible cover'):
++                    prepare(root,['index.html'],{})
++        with self.assertRaisesRegex(ValueError,'current edition front cover'):
++            choose_image('index.html',Page(''),{})
++
+     def test_essay_uses_lead_art_and_supplied_description(self):
+         with TemporaryDirectory() as tmp:
+             root=Path(tmp);(root/'assets').mkdir()

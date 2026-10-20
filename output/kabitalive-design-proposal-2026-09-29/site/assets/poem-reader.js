@@ -1,4 +1,5 @@
 import {getNativeStore} from './shared-reader-storage.mjs';
+import {poemChoice} from './reader-language.mjs';
 import {snap as snapRange, normalized as normalizeRanges, subtract, poemMarkKey, stanzaLines} from "./poem-marks.mjs?v=2";
 (()=>{
 'use strict';
@@ -52,6 +53,7 @@ function applySelection(remove=false){
  save(markKey(),marks);document.dispatchEvent(new CustomEvent('poem-marks-changed'));pending=[];selectionBar.hidden=true;window.getSelection()?.removeAllRanges();drawMarks();
 }
 function render(choice){
+ if(tabs.some(t=>t.dataset.readingLanguage==='original'))choice=poemChoice(data,choice);
  if(choice==='original'&&!tabs.some(t=>t.dataset.readingLanguage==='original'))choice=data.source_language;
  const code=choice==='original'?data.source_language:choice;if(!data.variants[code])return;
  pending=[];selectionBar.hidden=true;language=code;

@@ -1,0 +1,25 @@
+{
+  "skill_root": "/Users/ahimanikya/.codex/skills/human-natural-translation",
+  "changes": [
+    {
+      "path": "SKILL.md",
+      "before_sha256": "2b291f7ba901f765598b88dd035047b59908d553eb0d707b4d01a8ff20e11065",
+      "after_sha256": "620ff268c2ff444e290638ceef792a91d03c37096d431325ac6c045572f03da0"
+    },
+    {
+      "path": "references/poetic-review-lessons.md",
+      "before_sha256": "2586c459d6f8ac2f6e7c0b44470bc2545c0b20b02ee82d0971a3f83525090585",
+      "after_sha256": "038c692f116ca1680d828e141bdd3b585df5b1d4356576a708f1eae3aa9e1f92"
+    }
+  ],
+  "recorded_at": "2026-10-05T10:50:47.577902+00:00",
+  "status": "installed_verified",
+  "authorization": "User: Also we can update this to our Human Natural Tarnslation skill",
+  "verification": {
+    "installed_hashes": "PASS",
+    "reference_links": "PASS",
+    "review": "Focused self-review; no independent model/linguistic review. Frontmatter and invocation policy unchanged.",
+    "quick_validate": "Unavailable: both system and bundled Python lack PyYAML. No dependencies installed.",
+    "manual_validation": "PASS: unchanged two-field frontmatter, valid name/description, no scaffold placeholders, linked references resolve, installed hashes match reviewed files."
+  }
+}

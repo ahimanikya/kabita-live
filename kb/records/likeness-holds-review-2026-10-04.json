@@ -1,0 +1,21 @@
+{
+  "recorded_at": "2026-10-04T06:10:25.055195+00:00",
+  "work_ref": "KBL-WORK-004",
+  "user_request": "35 likeness holds - create a review page and help me understand why they are on hold?",
+  "status": "review_page_created_verified",
+  "independent": false,
+  "review": "artifacts/review/likeness-holds-2026-10-04/index.html",
+  "local_url": "http://127.0.0.1:8771/portrait-holds-review.html",
+  "manifest": "research/writers/likeness-holds-review-2026-10-04/manifest.json",
+  "verification": "research/writers/likeness-holds-review-2026-10-04/verification.json",
+  "counts": {
+    "source": 14,
+    "crop": 10,
+    "colour": 6,
+    "marks": 5
+  },
+  "explanation": "14 source-evidence limitations;21 generated-result concerns (10 crop/accessory,6 hair/skin colour,5 facial marks/texture). These are primary reasons, with overlap described per writer. A hold is not necessarily a wrong face; conservative detail-level cases await user/author/editor judgment.",
+  "preservation": "All35 original photos remain selected.79 source/candidate files unchanged. No regeneration, integration, deployment or queue/automation changes.",
+  "review_notes": "Browser-local choices and notes, exportable JSON. No choice automatically changes or publishes a portrait.",
+  "next_action": "User compares sources and saved attempts, records acceptable versions or requests clearer photos/targeted correction. Portrait080 remains next in generation queue."
+}

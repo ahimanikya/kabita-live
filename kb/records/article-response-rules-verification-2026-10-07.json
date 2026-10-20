@@ -1,0 +1,22 @@
+{
+  "batch": "batch-123",
+  "task": "FLEET-018",
+  "at": "2026-10-07T14:29:03.930076+00:00",
+  "status": "kabita_article_response_rules_verification",
+  "checks": {
+    "local_emulator_checks_passed": 36,
+    "article_and_legacy_adapter_checks": 31,
+    "existing_poem_engagement_checks": 5,
+    "legacy_rule_body_preserved": true,
+    "runtime_config_unchanged": true,
+    "test_processes_stopped": true,
+    "candidate_activation_disabled": true
+  },
+  "limitations": [
+    "Additive article rules integrated into local firestore.rules with all pre-existing poem rule body preserved and new function names prefixed. Shared response paths admit only the two registered Kabita article IDs, require published article metadata and metadata-listed languages. Readers cannot register/edit/enumerate identities.",
+    "36 local emulator checks pass:31article transport/boundary and legacy comment/feedback/editor cases plus5existing poem engagement cases. Tests cover desired-state likes, idempotent receipt replay, lost acknowledgement, Unicode/private contact retention, bounded pagination, unavailable language/context denial, private-record isolation, atomic exact-source publication and rejection of UID/email leakage.",
+    "Existing runtime-config hash unchanged from audited source; active poem service remains preserved and article candidate disabled. Emulators stopped successfully. Initial attempts selected old Java and a wrong Java21 directory, failing before checks; resolved existing JDK21 runtime runs pass. Corrected copied test rules path before execution. No live provider writes or deployment.",
+    "Local implementation only; new metadata and additive rules require actual trusted cloud provisioning/deployment authorization before article activation. Final packaged entry guard verification remains next, followed by Singhasan coverage. Pending portable internal-record copy remains untouched after prior automatic-review rejection; no handoff synchronization attempted."
+  ],
+  "next_action": "Verify final packaged article entry disabled/service guards and prepare explicit public article provisioning metadata; then complete Singhasan coverage. Portable internal-record copy awaits pending exact authorization. Live article rules deployment/identity provisioning remain separate."
+}

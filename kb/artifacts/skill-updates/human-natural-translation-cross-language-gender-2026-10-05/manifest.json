@@ -1,0 +1,27 @@
+{
+  "skill_root": "/Users/ahimanikya/.codex/skills/human-natural-translation",
+  "authorization": "User requested adding the cross-language gender/personification guidance to the skill.",
+  "changes": [
+    {
+      "path": "SKILL.md",
+      "before_sha256": "620ff268c2ff444e290638ceef792a91d03c37096d431325ac6c045572f03da0",
+      "after_sha256": "f652d15e9fb17ba35056db13bf2646fcc18f6fe84d6d953882995d316da4d4f8"
+    },
+    {
+      "path": "references/languages.md",
+      "before_sha256": "188d0535d301ec77900007f297666420f59a208bdf64e36d2b8639575642fbf3",
+      "after_sha256": "723ad56427d8dba3425ff22772f8740c66f1ef01faace2deea786b1184a6cacd"
+    }
+  ],
+  "recorded_at": "2026-10-05T10:58:06.064045+00:00",
+  "status": "installed_verified",
+  "independent": false,
+  "verification": {
+    "installed_hashes": "PASS",
+    "relative_links_and_heading_anchors": "PASS after both files installed",
+    "frontmatter": "Unchanged",
+    "scaffold_placeholders": "None",
+    "quick_validate": "Known unavailable: system/bundled Python lack PyYAML. Manual structural validation used.",
+    "scope": "Two skill files only; prior personification lesson preserved. No poem or website modifications."
+  }
+}

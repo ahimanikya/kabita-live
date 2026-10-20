@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-10-03T14:04:53.562027+00:00",
+  "user_quote": "I am liking the new one we are generating - so let us review all the old we generated and see where we could redo instead redoing for all",
+  "work_id": "KBL-WORK-012",
+  "status": "review_complete_selective_shortlist_proposed",
+  "executor": "Current assistant; Drishti visual self-review and Samanta comparison artifact preparation",
+  "independent": false,
+  "review": "research/writers/portrait-retrospective-2026-10-03/review.json",
+  "shortlist": "research/writers/portrait-retrospective-2026-10-03/shortlist.json",
+  "gallery": "artifacts/review/portrait-retrospective-2026-10-03/index.html",
+  "counts": {
+    "keep": 251,
+    "selective_redo_candidate": 13,
+    "source_review_needed": 9,
+    "existing_hold": 2
+  },
+  "preservation": "Originals, generated masters, current selected portraits and pending portrait queue preserved. No image generation, integration, publication or automation mutation.",
+  "checks": {
+    "all_275_screened": true,
+    "enlarged_flagged_pairs": 28,
+    "source_and_portrait_hashes": "Recorded per reviewed item",
+    "independent_likeness_review": "pending"
+  },
+  "next_action": "Review selective shortlist; compare any future new candidate with source and existing portrait before selecting it."
+}

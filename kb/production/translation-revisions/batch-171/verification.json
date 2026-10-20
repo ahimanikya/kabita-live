@@ -1,0 +1,169 @@
+{
+  "status": "verified_local_drafts",
+  "variants_read": 12,
+  "variants_revised": 11,
+  "variants_retained": 1,
+  "checks": {
+    "edition_check": {
+      "result": "PASS",
+      "editions": 48,
+      "complete_poems": 810,
+      "archived_poems": [
+        385,
+        727
+      ],
+      "edition_assigned": 809,
+      "listed_poems": 805,
+      "supplementary_assigned_poems": 4,
+      "source_hashes_verified": 848,
+      "reciprocal_writer_links_checked": 809,
+      "checks": [
+        "Unique edition membership",
+        "Published contents order",
+        "Original capture integrity and reviewed reader verse parity",
+        "Return and next-poem links",
+        "Reciprocal writer contribution links",
+        "Raw source SHA-256"
+      ],
+      "known_gaps": {
+        "unassigned_poems": [
+          645
+        ],
+        "missing_author": [
+          30
+        ],
+        "identical_text_groups_for_editorial_review": [
+          [
+            268,
+            304
+          ],
+          [
+            645,
+            650
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "translation_revision_check": {
+      "result": "PASS",
+      "original_files_unchanged": 801,
+      "recorded_revisions": 761,
+      "reader_variants_checked_preview_and_public_build": 3148,
+      "external_variants_preserved_not_reviewed": 22,
+      "independent_linguistic_review": false
+    },
+    "layout_tests": "5 passed",
+    "queue_regression_tests": "10 passed, including six concurrent-import scope safeguards",
+    "full_site_build": "PASS; Node24.15.0; exit0; build.log saved.",
+    "browser": "No new layout/script case: edits preserve stanza/line counts and checked verse/tail boundaries; rendered payload parity checked.",
+    "records_and_bundle": {
+      "result": "PASS",
+      "concepts": 91,
+      "local_links": 2293,
+      "errors": [],
+      "configuration_checked": true,
+      "scope": "Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness."
+    },
+    "storage_attempt_1": {
+      "result": "FAIL",
+      "moved_files": 479,
+      "website_files_preserved": 459,
+      "portable_links_checked": 2073,
+      "migration_hashes_checked": false,
+      "errors": [
+        "Source/handoff mismatch: kb/artifacts/review/browser-text-sizing-2026-10-06/verification.json",
+        "Source/handoff mismatch: kb/artifacts/review/browser-text-sizing-2026-10-06/check.log"
+      ]
+    },
+    "storage": {
+      "result": "PASS",
+      "moved_files": 479,
+      "website_files_preserved": 459,
+      "portable_links_checked": 2073,
+      "migration_hashes_checked": false,
+      "errors": []
+    },
+    "handoff": "Normal sync/storage passed after completed concurrent browser-managed text-sizing work. Exact prior failures retained. Final saved-record sync/storage follows.",
+    "storage_attempt_2": {
+      "result": "FAIL",
+      "moved_files": 479,
+      "website_files_preserved": 459,
+      "portable_links_checked": 2073,
+      "migration_hashes_checked": false,
+      "errors": [
+        "Source/handoff mismatch: kb/artifacts/review/browser-text-sizing-2026-10-06/mobile.png"
+      ]
+    },
+    "final_storage": {
+      "result": "FAIL",
+      "moved_files": 479,
+      "website_files_preserved": 459,
+      "portable_links_checked": 2073,
+      "migration_hashes_checked": false,
+      "errors": [
+        "Source/handoff mismatch: kb/artifacts/review/browser-text-sizing-2026-10-06/build-final.log"
+      ]
+    },
+    "storage_resume": {
+      "result": "PASS",
+      "moved_files": 479,
+      "website_files_preserved": 459,
+      "portable_links_checked": 2073,
+      "migration_hashes_checked": false,
+      "errors": []
+    },
+    "edition_check_resume": {
+      "result": "PASS",
+      "editions": 48,
+      "complete_poems": 810,
+      "archived_poems": [
+        385,
+        727
+      ],
+      "edition_assigned": 809,
+      "listed_poems": 805,
+      "supplementary_assigned_poems": 4,
+      "source_hashes_verified": 848,
+      "reciprocal_writer_links_checked": 809,
+      "checks": [
+        "Unique edition membership",
+        "Published contents order",
+        "Original capture integrity and reviewed reader verse parity",
+        "Return and next-poem links",
+        "Reciprocal writer contribution links",
+        "Raw source SHA-256"
+      ],
+      "known_gaps": {
+        "unassigned_poems": [
+          645
+        ],
+        "missing_author": [
+          30
+        ],
+        "identical_text_groups_for_editorial_review": [
+          [
+            268,
+            304
+          ],
+          [
+            645,
+            650
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "translation_revision_check_resume": {
+      "result": "PASS",
+      "original_files_unchanged": 801,
+      "recorded_revisions": 761,
+      "reader_variants_checked_preview_and_public_build": 3148,
+      "external_variants_preserved_not_reviewed": 22,
+      "independent_linguistic_review": false
+    }
+  },
+  "independent_review": false,
+  "published": false,
+  "recorded_at": "2026-10-06T07:28:07.819202+00:00"
+}

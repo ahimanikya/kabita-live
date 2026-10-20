@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-07T16:57:50.033701+00:00",
+  "batch": "batch-133",
+  "task": "FLEET-020",
+  "status": "kabita_reading_hooks_verified_adoption_incomplete",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "checks": {
+    "source_and_packaged_tests_passed": 23,
+    "reading_lifecycle_dom_checks": 6,
+    "generated_analytics_bundle_verified": true,
+    "native_provider_network_verified": false
+  },
+  "limitations": [
+    "23 checks pass:8 packaged consent/adapter checks,5 real-catalogue/pin checks,4 sharing-handler checks and6 reading lifecycle/DOM extraction checks. Native browser/provider-network verification remains pending; same-assistant self-review.",
+    "Actual Analytics entry observes displayed poem/article language and quiet reader DOM. No pre-consent event queue. Consent grant reports current view only; duplicate mutation/repagination does not double count variant views or reader opens. Returning to a previously seen language still records a language change.",
+    "Reader entry/exit carries registered collection/content/language/mode. Exit uses the last displayed context. Source text, marks, search, line/page position and saved device records are absent from event fields. Existing reader source, settings and persistence were not edited.",
+    "Generated Analytics IIFE consumes shared validator and reading observer. Article plural attribute/selected language and actual quiet-reader lang/data-poem-id markup inspected. Tests use synthetic DOM/APIs; real native lifecycle, late grant, withdrawal/background traffic, provider-loading races and full public build remain pending.",
+    "Dedicated property, source runtime configuration and reader content unchanged. No live requests, publication, deployment, portable handoff export or independent review. Other site adapters remain pending."
+  ],
+  "next_action": "Verify the actual packaged adapter in the native browser, including current public build, reader/article language contexts and real provider/network interception. Resolve storage-blocked withdrawal and loading races, then adopt the remaining sites."
+}

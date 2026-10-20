@@ -1,0 +1,42 @@
+{
+  "site": "kbl",
+  "foundation_version": "0.1.0-fleet.1",
+  "bindings": {
+    "paper": "var(--paper, #f5efdf)",
+    "surface": "var(--panel, #eae1cd)",
+    "ink": "var(--ink, #263c3c)",
+    "muted": "var(--muted, #655f51)",
+    "sea": "var(--sea, #125465)",
+    "earth": "var(--rust, #963f28)",
+    "rule": "var(--line, #d2c6ac)",
+    "type-display": "var(--display, \"Cormorant Garamond\", Georgia, serif)",
+    "type-reading": "var(--serif, \"Source Serif 4\", Georgia, serif)",
+    "type-ui": "var(--ui, Arial, sans-serif)",
+    "type-or": "var(--odia, \"Noto Serif Oriya\", serif)",
+    "type-hi": "\"Tiro Devanagari Hindi\", serif",
+    "type-bn": "\"Noto Serif Bengali\", serif",
+    "type-ta": "\"Noto Serif Tamil\", serif",
+    "type-te": "\"Noto Serif Telugu\", serif",
+    "type-ml": "\"Noto Serif Malayalam\", serif",
+    "type-kn": "\"Noto Serif Kannada\", serif",
+    "type-gu": "\"Noto Serif Gujarati\", serif",
+    "type-ur": "\"Noto Nastaliq Urdu\", serif",
+    "focus": "var(--sea, #125465)",
+    "action": "var(--sea, #125465)",
+    "reading-measure": "68ch",
+    "earth-wash": "rgb(145 70 47 / .04)",
+    "sea-wash": "rgb(18 84 101 / .04)",
+    "cotton-texture": "radial-gradient(rgb(130 110 75 / .04) .6px, transparent .6px)",
+    "night-paper": "#1c292b",
+    "night-panel": "#26383a",
+    "night-ink": "#f3eadb",
+    "night-rule": "#4e5e5d",
+    "night-focus": "#eeaa8b"
+  },
+  "scope": "New opt-in shared components only; approved native pages unchanged.",
+  "surface_aliases": {
+    "cloth": "cotton",
+    "monsoon": "sea"
+  },
+  "font_delivery": "Site-owned existing fonts and licences. Family mappings are roles, not certification of installed glyph/font coverage. Free to Dream keeps existing font inheritance pending a specimen."
+}

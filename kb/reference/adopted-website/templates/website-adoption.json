@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0-draft.5",
+  "artifact_kind": "template",
+  "site": null,
+  "status": "not_adopted",
+  "human_owner": null,
+  "decision_reference": null,
+  "standard": {
+    "version": null,
+    "source_commit": null,
+    "artifact_sha256": null
+  },
+  "design_system": {
+    "version": null,
+    "canonical_source": "utkal-project/projects/design-system",
+    "source_commit": null,
+    "artifact_sha256": null
+  },
+  "editorial_guidance": {
+    "image_skill": {
+      "version_or_sha256": null,
+      "reference": null
+    },
+    "translation_skill": {
+      "version_or_sha256": null,
+      "reference": null
+    }
+  },
+  "theme": {
+    "source_path": null,
+    "sha256": null,
+    "overrides": []
+  },
+  "page_families": [],
+  "checks": [],
+  "release": {
+    "deployment_status": "not_deployed",
+    "commit": null,
+    "evidence": []
+  },
+  "recovery": {
+    "previous_version": null,
+    "instructions": null
+  },
+  "next_action": null,
+  "notes": [
+    "Fill observed site values and actual decisions. Template fields do not create adoption or publication approval.",
+    "For checks use passed, failed, not_checked or not_applicable; give evidence or a reason.",
+    "For each page family record exact routes, component coverage, intentional differences and remaining work."
+  ],
+  "reader_services": {
+    "provider": "firebase",
+    "configuration_reference": null,
+    "moderation_reference": null,
+    "content_id_contract": null,
+    "migration_reference": null,
+    "shared_process_reference": null,
+    "site_firebase_project_reference": null,
+    "access_rule_verification_reference": null
+  },
+  "sharing": {
+    "page_image_manifest_reference": null,
+    "content_share_action_checks": []
+  },
+  "ai_use": {
+    "explanation_page": null,
+    "repeated_notice_cleanup_reference": null,
+    "attribution_exceptions": []
+  },
+  "blueprint_structure": {
+    "baseline_version": null,
+    "adoption_decision": null,
+    "kb_entrypoint": null,
+    "persona_definitions_reference": null,
+    "actual_assignments_reference": null,
+    "maintenance_tools_reference": null,
+    "site_workspace": null,
+    "compatibility_paths": [],
+    "migration_status": "not_applied",
+    "instance_model": "independent_project",
+    "kb_ownership": "project_local",
+    "persona_model_ownership": "project_local"
+  },
+  "inheritance": {
+    "base_definition": "Utkal Blueprint",
+    "base_rulebook_reference": null,
+    "base_version": null,
+    "local_extension_rulebook": null,
+    "overrides": [],
+    "extensions": [],
+    "pinned_reference_copies": []
+  },
+  "analytics": {
+    "provider": "google_analytics_4",
+    "shared_process_reference": null,
+    "site_property_reference": null,
+    "site_stream_reference": null,
+    "measurement_configuration_reference": null,
+    "event_contract_version": null,
+    "consent_verification": null,
+    "payload_verification_reference": null
+  },
+  "contracts": {
+    "version": null,
+    "reference": null,
+    "artifact_sha256": null
+  },
+  "modules": {
+    "reader": {
+      "version": null,
+      "canonical_source": null,
+      "adapter_reference": null,
+      "content_contract_reference": null,
+      "legacy_persistence_reference": null,
+      "collection_coverage": []
+    }
+  },
+  "performance": {
+    "baseline_reference": null,
+    "comparison_reference": null,
+    "conditions_reference": null,
+    "budgets": [],
+    "checks": []
+  }
+}

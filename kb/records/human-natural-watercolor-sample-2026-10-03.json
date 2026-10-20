@@ -1,0 +1,43 @@
+{
+  "recorded_at": "2026-10-03T06:46:33.707509+00:00",
+  "work_id": "KBL-WORK-012",
+  "request": "Keep Human Natural principles for the watercolor portrait too; explain face reconstruction",
+  "interpretation": "Human Natural is art direction compatible with watercolor; retain source uncertainty and avoid beautification",
+  "writer_id": 82,
+  "name": "Narmada Nilotpala",
+  "status": "sample_created_awaiting_user_review",
+  "tool": "built-in image_gen",
+  "mode": "Human Natural / Poetic Natural watercolor",
+  "executor": "Current assistant; Samanta creation and Drishti self-review",
+  "independent": false,
+  "source": {
+    "writer_id": 82,
+    "name": "Narmada Nilotpala / ନର୍ମଦା ନୀଳୋତ୍ପଳା",
+    "source_page": "https://kabitalive.com/contri-view.php?id=82",
+    "source_image": "https://kabitalive.com/poetry_panel/photo/Pic_05122022151016223.jpg",
+    "file": "artifacts/artwork/portrait-sources/writers/82-journal-original.webp",
+    "content_type": "image/webp",
+    "rights": "Journal-supplied image; publication rights not independently verified"
+  },
+  "source_sha256": "20db2207d28c5013c52b16368123137fc99fd77b988cabd4894b727bc585bf02",
+  "style_reference": "artifacts/artwork/writer-portraits/82-earth-voice-v1.png",
+  "style_reference_role": "Paper/palette continuity only; original photo instructed as sole identity authority",
+  "master": "artifacts/artwork/studies/human-natural-watercolor-82-2026-10-03/82-human-natural-watercolor-v1.png",
+  "master_sha256": "d15cb98a46388f10718635a30756ab819a101373d19ea6e73e9e2c9bbd9cb7b0",
+  "prompt": "artifacts/artwork/studies/human-natural-watercolor-82-2026-10-03/prompt.txt",
+  "comparison": "artifacts/artwork/studies/human-natural-watercolor-82-2026-10-03/comparison.html",
+  "review": {
+    "result": "Comparison candidate; subtle change, not evidence of improved identity accuracy",
+    "observations": [
+      "Smile, head tilt, hair, bindi/sindoor, clothing and necklace remain recognizable",
+      "Facial shading is visibly painted with less photographic surface detail than the photographic Human Natural sample",
+      "New watercolor remains close to earlier watercolor; idealized facial detail and surrounding washes persist",
+      "Source overexposure and low detail leave complexion/facial detail uncertain; AI is interpreting rather than recovering missing information"
+    ],
+    "independent": false
+  },
+  "site_changed": false,
+  "automation_changed": false,
+  "scope": "One revised sample; no automatic replacement or regeneration of all portraits",
+  "next_action": "User reviews revised watercolor; carry source-led, restrained Human Natural principles into portrait direction after sample review"
+}

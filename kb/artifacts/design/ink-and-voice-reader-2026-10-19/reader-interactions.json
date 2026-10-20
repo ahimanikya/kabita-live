@@ -1,0 +1,587 @@
+[
+  {
+    "case": "Escape closes settings and returns focus",
+    "result": {
+      "focus": "focus-settings-button",
+      "readerOpen": true,
+      "settingsHidden": true
+    }
+  },
+  {
+    "case": "ArrowRight advances and PageUp returns",
+    "before": 39,
+    "after": 40,
+    "returned": 39
+  },
+  {
+    "case": "Bookmark appears in saved places",
+    "previousState": "false",
+    "rows": "Bookmark · Gandhian Thought\n×"
+  },
+  {
+    "case": "Saved bookmark returns to same page",
+    "returned": 45
+  },
+  {
+    "case": "Filter narrows result but Read all remains whole edition",
+    "status": "1 of 11 poems · October 2026 · Issue 48. Read all includes the whole collection.",
+    "readAll": "Read all 11"
+  },
+  {
+    "case": "Read poem opens only selected poem",
+    "data": {
+      "count": 3,
+      "nextDisabled": false,
+      "page": 0,
+      "pages": [
+        {
+          "horizontal": 0,
+          "label": "Page 1 of 3",
+          "lines": [
+            {
+              "lang": "en",
+              "line": 0,
+              "poem": "831",
+              "start": 0,
+              "text": "I was fierce when I was young,"
+            },
+            {
+              "lang": "en",
+              "line": 1,
+              "poem": "831",
+              "start": 0,
+              "text": "I would lose my temper over little things."
+            },
+            {
+              "lang": "en",
+              "line": 2,
+              "poem": "831",
+              "start": 0,
+              "text": "I was strongly built, too,"
+            },
+            {
+              "lang": "en",
+              "line": 3,
+              "poem": "831",
+              "start": 0,
+              "text": "but words did not come easily to me."
+            },
+            {
+              "lang": "en",
+              "line": 4,
+              "poem": "831",
+              "start": 0,
+              "text": "Whenever I quarrelled,"
+            },
+            {
+              "lang": "en",
+              "line": 5,
+              "poem": "831",
+              "start": 0,
+              "text": "I would run out of words;"
+            },
+            {
+              "lang": "en",
+              "line": 6,
+              "poem": "831",
+              "start": 0,
+              "text": "my fist would rise to the seventh heaven,"
+            },
+            {
+              "lang": "en",
+              "line": 7,
+              "poem": "831",
+              "start": 0,
+              "text": "my tongue would falter,"
+            },
+            {
+              "lang": "en",
+              "line": 8,
+              "poem": "831",
+              "start": 0,
+              "text": "and my hands would take over."
+            },
+            {
+              "lang": "en",
+              "line": 9,
+              "poem": "831",
+              "start": 0,
+              "text": "Thus, in the innocence of youth,"
+            },
+            {
+              "lang": "en",
+              "line": 10,
+              "poem": "831",
+              "start": 0,
+              "text": "violence would happen."
+            }
+          ],
+          "overflow": 0,
+          "titles": [
+            {
+              "lang": "en",
+              "poem": "831",
+              "title": "Gandhian Thought"
+            }
+          ]
+        },
+        {
+          "horizontal": 0,
+          "label": "Page 2 of 3",
+          "lines": [
+            {
+              "lang": "en",
+              "line": 11,
+              "poem": "831",
+              "start": 0,
+              "text": "With age came understanding;"
+            },
+            {
+              "lang": "en",
+              "line": 12,
+              "poem": "831",
+              "start": 0,
+              "text": "struggles came, and with them,"
+            },
+            {
+              "lang": "en",
+              "line": 13,
+              "poem": "831",
+              "start": 0,
+              "text": "my nature began to change."
+            },
+            {
+              "lang": "en",
+              "line": 14,
+              "poem": "831",
+              "start": 0,
+              "text": "Yet anger remained—"
+            },
+            {
+              "lang": "en",
+              "line": 15,
+              "poem": "831",
+              "start": 0,
+              "text": "only its intensity diminished."
+            },
+            {
+              "lang": "en",
+              "line": 16,
+              "poem": "831",
+              "start": 0,
+              "text": "Reading, reflection and contemplation grew."
+            },
+            {
+              "lang": "en",
+              "line": 17,
+              "poem": "831",
+              "start": 0,
+              "text": "I read Gandhi,"
+            },
+            {
+              "lang": "en",
+              "line": 18,
+              "poem": "831",
+              "start": 0,
+              "text": "and violence began to fade."
+            },
+            {
+              "lang": "en",
+              "line": 19,
+              "poem": "831",
+              "start": 0,
+              "text": "I embraced the idea of non-violence."
+            },
+            {
+              "lang": "en",
+              "line": 20,
+              "poem": "831",
+              "start": 0,
+              "text": "For a while,"
+            },
+            {
+              "lang": "en",
+              "line": 21,
+              "poem": "831",
+              "start": 0,
+              "text": "violence and non-violence"
+            },
+            {
+              "lang": "en",
+              "line": 22,
+              "poem": "831",
+              "start": 0,
+              "text": "walked side by side."
+            },
+            {
+              "lang": "en",
+              "line": 23,
+              "poem": "831",
+              "start": 0,
+              "text": "Then age entered its forest,"
+            },
+            {
+              "lang": "en",
+              "line": 24,
+              "poem": "831",
+              "start": 0,
+              "text": "and the mind became still water."
+            }
+          ],
+          "overflow": 0,
+          "titles": []
+        }
+      ]
+    }
+  },
+  {
+    "case": "Optional illustration at poem opening",
+    "data": {
+      "art": [
+        {
+          "alt": "A relaxed hand rests on a wooden chair arm in a spare graphite and watercolor study.",
+          "loaded": true
+        }
+      ],
+      "poem": "831"
+    }
+  },
+  {
+    "case": "F enters fullscreen",
+    "state": "true"
+  },
+  {
+    "case": "F exits fullscreen",
+    "state": "false"
+  },
+  {
+    "case": "200 percent root text size",
+    "results": [
+      {
+        "controls": [
+          {
+            "left": 24,
+            "name": "Exit reading mode",
+            "right": 236.765625
+          },
+          {
+            "left": 753,
+            "name": "Read in Odia",
+            "right": 797
+          },
+          {
+            "left": 797,
+            "name": "Read in Hindi",
+            "right": 841
+          },
+          {
+            "left": 841,
+            "name": "Read in English",
+            "right": 885
+          },
+          {
+            "left": 889,
+            "name": "Bookmark this page",
+            "right": 933
+          },
+          {
+            "left": 937,
+            "name": "Enter full screen",
+            "right": 981
+          },
+          {
+            "left": 985,
+            "name": "Theme: Dark. Switch to System.",
+            "right": 1029
+          },
+          {
+            "left": 1033,
+            "name": "Reading settings",
+            "right": 1077
+          }
+        ],
+        "pages": [
+          {
+            "horizontal": 0,
+            "vertical": 0
+          },
+          {
+            "horizontal": 0,
+            "vertical": 0
+          }
+        ],
+        "root": "32px",
+        "toolbarOverflow": 0,
+        "width": 1101
+      },
+      {
+        "controls": [
+          {
+            "left": 24,
+            "name": "Exit reading mode",
+            "right": 223.0859375
+          },
+          {
+            "left": 652,
+            "name": "Read in Odia",
+            "right": 696
+          },
+          {
+            "left": 696,
+            "name": "Read in Hindi",
+            "right": 740
+          },
+          {
+            "left": 740,
+            "name": "Read in English",
+            "right": 784
+          },
+          {
+            "left": 788,
+            "name": "Bookmark this page",
+            "right": 832
+          },
+          {
+            "left": 836,
+            "name": "Enter full screen",
+            "right": 880
+          },
+          {
+            "left": 884,
+            "name": "Theme: Dark. Switch to System.",
+            "right": 928
+          },
+          {
+            "left": 932,
+            "name": "Reading settings",
+            "right": 976
+          }
+        ],
+        "pages": [
+          {
+            "horizontal": 0,
+            "vertical": 0
+          },
+          {
+            "horizontal": 0,
+            "vertical": 0
+          }
+        ],
+        "root": "32px",
+        "toolbarOverflow": 0,
+        "width": 1000
+      },
+      {
+        "controls": [
+          {
+            "left": 24,
+            "name": "Exit reading mode",
+            "right": 236.765625
+          },
+          {
+            "left": 420,
+            "name": "Read in Odia",
+            "right": 464
+          },
+          {
+            "left": 464,
+            "name": "Read in Hindi",
+            "right": 508
+          },
+          {
+            "left": 508,
+            "name": "Read in English",
+            "right": 552
+          },
+          {
+            "left": 556,
+            "name": "Bookmark this page",
+            "right": 600
+          },
+          {
+            "left": 604,
+            "name": "Enter full screen",
+            "right": 648
+          },
+          {
+            "left": 652,
+            "name": "Theme: Dark. Switch to System.",
+            "right": 696
+          },
+          {
+            "left": 700,
+            "name": "Reading settings",
+            "right": 744
+          }
+        ],
+        "pages": [
+          {
+            "horizontal": 0,
+            "vertical": 0
+          }
+        ],
+        "root": "32px",
+        "toolbarOverflow": 0,
+        "width": 768
+      },
+      {
+        "controls": [
+          {
+            "left": 12,
+            "name": "Exit reading mode",
+            "right": 56
+          },
+          {
+            "left": 108,
+            "name": "Read in Odia",
+            "right": 152
+          },
+          {
+            "left": 152,
+            "name": "Read in Hindi",
+            "right": 196
+          },
+          {
+            "left": 196,
+            "name": "Read in English",
+            "right": 240
+          },
+          {
+            "left": 242,
+            "name": "Bookmark this page",
+            "right": 286
+          },
+          {
+            "left": 288,
+            "name": "Theme: Dark. Switch to System.",
+            "right": 332
+          },
+          {
+            "left": 334,
+            "name": "Reading settings",
+            "right": 378
+          }
+        ],
+        "pages": [
+          {
+            "horizontal": 0,
+            "vertical": 0
+          }
+        ],
+        "root": "32px",
+        "toolbarOverflow": 0,
+        "width": 390
+      },
+      {
+        "controls": [
+          {
+            "left": 4,
+            "name": "Exit reading mode",
+            "right": 48
+          },
+          {
+            "left": 52,
+            "name": "Read in Odia",
+            "right": 96
+          },
+          {
+            "left": 96,
+            "name": "Read in Hindi",
+            "right": 140
+          },
+          {
+            "left": 140,
+            "name": "Read in English",
+            "right": 184
+          },
+          {
+            "left": 184,
+            "name": "Bookmark this page",
+            "right": 228
+          },
+          {
+            "left": 228,
+            "name": "Theme: Dark. Switch to System.",
+            "right": 272
+          },
+          {
+            "left": 272,
+            "name": "Reading settings",
+            "right": 316
+          }
+        ],
+        "pages": [
+          {
+            "horizontal": 0,
+            "vertical": 0
+          }
+        ],
+        "root": "32px",
+        "toolbarOverflow": 0,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "case": "Underline selected word",
+    "before": 0,
+    "marks": [
+      "fierce"
+    ]
+  },
+  {
+    "case": "Underline survives page turn",
+    "marks": [
+      "fierce"
+    ]
+  },
+  {
+    "case": "Remove only audit underline",
+    "remaining": 0
+  },
+  {
+    "case": "Landscape settings fit and scroll",
+    "result": {
+      "bottom": 384,
+      "clientHeight": 330,
+      "height": 390,
+      "overflow": "auto",
+      "scrollHeight": 1078,
+      "top": 50,
+      "width": 844
+    }
+  },
+  {
+    "case": "Reader exit restores focus",
+    "id": "open-focus"
+  },
+  {
+    "case": "200 percent root text shared masthead",
+    "width": 320,
+    "result": {
+      "brandRight": 196,
+      "root": "32px",
+      "scrollWidth": 320,
+      "themeLeft": 204
+    }
+  },
+  {
+    "case": "Explicit-English bookmark round trip matches exact first verse unit",
+    "before": {
+      "lang": "en",
+      "line": 0,
+      "poem": "831",
+      "start": 0,
+      "text": "I was fierce when I was young,"
+    },
+    "after": {
+      "lang": "en",
+      "line": 0,
+      "poem": "831",
+      "start": 0,
+      "text": "I was fierce when I was young,"
+    },
+    "beforePage": 18,
+    "afterPage": 18
+  }
+]

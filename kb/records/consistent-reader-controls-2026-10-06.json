@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-06",
+  "status": "local_review_ready",
+  "published": false,
+  "work_ref": "KBL-WORK-032",
+  "request": "Consistent Read quietly icons; poem language selection uses ଅ अ A.",
+  "changes": [
+    "Canonical quiet_reader_icon helper reused by editions, Poems catalogue and every poem page. Approved manuscript icon retained.",
+    "Three44px script tabs on poems, source language initially selected, native-name hover/focus tooltips, unavailable variants disabled.",
+    "Existing lang=original links map to the source tab; keyboard navigation and translated titles/verse retained.",
+    "Rulebook/playbook/checklist/design guide updated."
+  ],
+  "verification": {
+    "independent": false,
+    "build": "PASS final Node24 full build",
+    "tests": "31Node and14Python passed;10emulator tests skipped",
+    "scoped": "PASS every public quiet-reader icon and poem language control, source/art/translation/sharing integrity",
+    "browser": "PASS language switching, keyboard navigation, legacy source link and390px44x44 controls."
+  },
+  "evidence": "kb/artifacts/review/consistent-reader-controls-2026-10-06/",
+  "next_action": "Local review; no publication.",
+  "handoff": {
+    "status": "source_changes_synchronized_final_parity_pending_concurrent_translation",
+    "checked_at": "2026-10-06T07:54:24.464939+00:00",
+    "detail": "Normal sync succeeded twice; subsequent storage checks caught active translation batch174 changes. No divergent edits overwritten. Reconciliation hash guard correctly stopped copying after another sync had already updated portable files. Resume normal sync/storage after translation checkpoint settles."
+  }
+}

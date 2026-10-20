@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-07T16:27:28.745911+00:00",
+  "batch": "batch-131",
+  "task": "FLEET-020",
+  "status": "kabita_public_catalogue_foundation_verified_adoption_incomplete",
+  "source_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "checks": {
+    "source_tests_passed": 13,
+    "public_export_pages": 1316,
+    "public_export_assets": 3531,
+    "poems": 810,
+    "articles": 2,
+    "collections": 476,
+    "recordings": 0,
+    "content_ready": false,
+    "vendor_pin_verified": true,
+    "native_provider_network_verified": false
+  },
+  "limitations": [
+    "13 source checks pass:8 existing consent regressions and5 common validator/current catalogue checks. Public-only exporter passes1316pages/3531assets; generated catalogue includes810poems,2articles,476collections and zero recordings. No full Astro/public dist rebuild or native provider/network claim.",
+    "Catalogue contains only stable identities, kinds, languages and ordered membership, excluding titles/source text/form data. Content is selected by actual public pages; article identities/languages cross-checked against response registry. Vendor exact hash pin identifies unpublished Blueprint candidate.",
+    "Common validator is integrated in source and catalogue in generated public runtime config. Current classic Analytics tracker still uses legacy share vocabulary; actual reader/language/copy/native completion hooks, bundled adapter and provider consent races remain pending. Recording events deliberately unavailable until actual recording registry exists.",
+    "Existing dedicated property and source runtime-config remain unchanged. No live account settings, cloud requests, publication or deployment. Generated public build remains content_ready:false; do not override that gate.",
+    "Canonical primary KB only; portable internal-record copy remains pending exact authorization after prior automatic-review rejection. No handoff sync attempted. Same-assistant self-review."
+  ],
+  "next_action": "Wire common validation into the packaged Analytics adapter and real completion hooks; preserve existing consent/property and verify native provider requests, storage-blocked withdrawal and error races. Then adopt in other sites."
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://github.com/ahimanikya/utkal-blueprint",
+  "source_state": "local_unpublished_candidate",
+  "source_commit": null,
+  "base_commit": "fcaddc913ff43572583483cdef77a7e8bd44a8d3",
+  "standard_version": "0.1.0-draft.5",
+  "contracts_version": "0.1.0-draft.1",
+  "files": [
+    {
+      "source_path": "kb/reference/website-standard.md",
+      "local_path": "kb/reference/adopted-website/reference/website-standard.md",
+      "sha256": "d44dcf4b70e2cee6f4f0499bee8aa291810a21615094a0edf3a2129bf4319ed5"
+    },
+    {
+      "source_path": "kb/reference/website-platform-contracts.md",
+      "local_path": "kb/reference/adopted-website/reference/website-platform-contracts.md",
+      "sha256": "6557bc3cd76bda8bbde95ed23e66bbc5580ce7c2ac276bbde54a8420a7834dce"
+    },
+    {
+      "source_path": "kb/review/website-page-checklist.md",
+      "local_path": "kb/reference/adopted-website/review/website-page-checklist.md",
+      "sha256": "d3a0fc413ab9ed6e07a68040fd8aa269e36f14506e06f38963ffff907feefbb5"
+    },
+    {
+      "source_path": "kb/templates/website-adoption.json",
+      "local_path": "kb/reference/adopted-website/templates/website-adoption.json",
+      "sha256": "3fc6ef6efa3af455e7bb20de0abe5e786b81cf1eb752bde04c451743f980c2bb"
+    }
+  ],
+  "policy": "Read-only pinned reference copies. Changes belong in Blueprint; local extensions stay in website-extensions.md. Hashes pin the unpublished candidate without claiming its base commit contains these changes."
+}

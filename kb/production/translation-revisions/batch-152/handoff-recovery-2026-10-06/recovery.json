@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-06T05:01:15.805360+00:00",
+  "reason": "Interrupted handoff copied current versions before final manifest write. Portable has no unique content: exact comparison shows only subsequent canonical additions. Preserved both complete versions, asserted exact narrow differences and unchanged files before recovering the portable copy. Canonical concurrent Edition48 implementation untouched.",
+  "files": [
+    {
+      "relative": "kb/production/translation-revisions/batch-152/handoff-interruption.json",
+      "source_sha256": "418d8cd8f445b60917dd4c96543153f9d9a0ee2f7a7dfbb56f85a19ffedfb8e1",
+      "portable_sha256": "d58ffb5ac15066cef706d5e490b05e4ff03f96fd22ab5121841578806feee87b",
+      "source_copy": "0-canonical.txt",
+      "portable_copy": "0-portable.txt",
+      "diff": "--- \n+++ \n@@ -22,6 +22,13 @@\n         \"Source/handoff mismatch: kb/research/edition-sync/edition-48/revision-02/editorial-three-languages.json\"\n       ],\n       \"note\": \"Bounded final retry still raced with concurrent editorial work. Exact resume saved; no further translation integration. Batch153 prepared only.\"\n+    },\n+    {\n+      \"recorded_at\": \"2026-10-06T05:00:08.811081+00:00\",\n+      \"command\": \"python3 tools/sync_handoff.py\",\n+      \"exit_code\": 1,\n+      \"error\": \"AssertionError: site/assets/edition-editorial.css\",\n+      \"note\": \"Concurrent Edition48 CSS changed during final copy verification. Do not overwrite portable divergence blindly; inspect source/portable/manifest for this path before retry. Latest resume evidence is canonical locally; final portable parity unverified.\"\n     }\n   ]\n }\n"
+    },
+    {
+      "relative": "site/edition_editorial.py",
+      "source_sha256": "52fae413a60cc838c9f334e6262d4ba39d67167cb63fe1f3229dcf9ed529b854",
+      "portable_sha256": "87d28cf6709524b71c90d7b3c8ed01741f7aacc6355cea8b5f65610a750ad92b",
+      "source_copy": "1-canonical.txt",
+      "portable_copy": "1-portable.txt",
+      "diff": "--- \n+++ \n@@ -29,7 +29,7 @@\n             ids=data['paragraph_poem_ids'][index]\n             if ids:\n                 refs=' · '.join(f'<a href=\"poem-{pid}.html\">{e(names.get(poems[pid][\"writer_id\"],poems[pid][\"author\"]))}</a>' for pid in ids)\n-                parts.append(f'<p class=\"editorial-poem-links\"><span class=\"sr-only\">{links[lang]}: </span>{refs}</p>')\n+                parts.append(f'<p class=\"editorial-poem-links\"><span>{links[lang]}: </span>{refs}</p>')\n         parts.append('</article>')\n     parts.append('</section>')\n     return ''.join(parts)\n"
+    },
+    {
+      "relative": "site/assets/edition-editorial.js",
+      "source_sha256": "88fa40f29f1543d97e3b4a01ff1ae5ad5e64649075dd6aa1ffe7365294b89481",
+      "portable_sha256": "eba2e1539ba5586a9e6ffb1f93e347845f8051e3289bd6e04254109f55689765",
+      "source_copy": "2-canonical.txt",
+      "portable_copy": "2-portable.txt",
+      "diff": "--- \n+++ \n@@ -12,6 +12,7 @@\n   links.forEach(link => link.addEventListener('click', event => {\n     event.preventDefault(); select(link.dataset.editorialLanguage);\n     history.replaceState(null, '', link.getAttribute('href'));\n+    section.scrollIntoView({block: 'start'});\n   }));\n   const fromHash = () => {\n     const lang = location.hash.replace('#editorial-', '');\n"
+    },
+    {
+      "relative": "site/assets/edition-editorial.css",
+      "source_sha256": "71ac7a3ffbf78c2ebf04f08eee2dd39e28f8aa4c5c039b720bea8c45a9adfcef",
+      "portable_sha256": "ad3f581cf12c4710af70706d583052d833b3bee60ac17073c6dbcd5e60ba05bc",
+      "source_copy": "3-canonical.txt",
+      "portable_copy": "3-portable.txt",
+      "diff": "--- \n+++ \n@@ -4,7 +4,7 @@\n .editorial-languages a[aria-current]{border-color:var(--rust);color:var(--rust)}\n .editorial-languages a:focus-visible{outline:2px solid var(--rust);outline-offset:3px}\n .editorial-prose[hidden]{display:none}\n-.editorial-prose{scroll-margin-top:24px}\n+.editorial-prose{scroll-margin-top:24px;font-family:var(--serif)}\n #main .editorial-prose h2{font:600 clamp(30px,4vw,44px)/1.4 var(--serif);margin:12px 0}\n #main .editorial-prose:lang(or) h2{font-family:'Noto Serif Oriya',serif}\n #main .editorial-prose:lang(hi) h2{font-family:'Tiro Devanagari Hindi',serif}\n"
+    }
+  ]
+}

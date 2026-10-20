@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-10-19T06:36:37.354530+00:00",
+  "status": "PASS",
+  "sync": "Handoff synchronized: 24815 entries; relative aliases rebased; hashes verified.",
+  "storage": {
+    "result": "PASS",
+    "moved_files": 479,
+    "website_files_preserved": 459,
+    "portable_links_checked": 2073,
+    "migration_hashes_checked": false,
+    "errors": []
+  },
+  "bundle": {
+    "result": "PASS",
+    "concepts": 94,
+    "local_links": 2404,
+    "errors": [],
+    "configuration_checked": true,
+    "scope": "Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness."
+  },
+  "note": "Recorded after successful synchronization and storage check; final synchronization includes this receipt."
+}

@@ -11,7 +11,7 @@ def render_editorial(root, number, poems, names):
     draft={'or':'ସମ୍ପାଦକୀୟ ଚିଠା · ସମ୍ପାଦକଙ୍କ ସମୀକ୍ଷା ପାଇଁ','en':'Editorial draft · for editor review','hi':'संपादकीय प्रारूप · संपादक की समीक्षा के लिए'}
     translated={'or':'ଏଠାରେ ଅନୁବାଦ','en':'Excerpt in translation','hi':'अंश का अनुवाद'}
     links={'or':'ଏହି ପ୍ରସଙ୍ଗର କବିତା','en':'Poems in this passage','hi':'इस प्रसंग की कविताएँ'}
-    parts=['<link rel="stylesheet" href="assets/edition-editorial.css?v=5"><script defer src="assets/edition-editorial.js?v=2"></script><section class="section edition-editorial" id="edition-editorial" aria-label="Editorial note" tabindex="-1">', '<nav class="editorial-languages" aria-label="Editorial language">']
+    parts=['<link rel="stylesheet" href="assets/edition-editorial.css?v=7"><script defer src="assets/edition-editorial.js?v=2"></script><section class="section edition-editorial" id="edition-editorial" aria-label="Editorial note" tabindex="-1">', '<nav class="editorial-languages" aria-label="Editorial language">']
     for lang,label in labels.items():parts.append(f'<a href="#editorial-{lang}" lang="{lang}" data-editorial-language="{lang}">{label}</a>')
     parts.append('</nav>')
     for lang,v in data['variants'].items():

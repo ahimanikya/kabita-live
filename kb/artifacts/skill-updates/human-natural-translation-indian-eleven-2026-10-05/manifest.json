@@ -1,0 +1,50 @@
+{
+  "skill_root": "/Users/ahimanikya/.codex/skills/human-natural-translation",
+  "authorization": "User clarified the requested eleven Indian languages with an image; this list supersedes the assistant’s mistaken interpretation of eleven additional languages. User additionally instructed retaining French, Spanish, Portuguese, German, Russian, Arabic and Hebrew.",
+  "languages": [
+    "Hindi",
+    "Bengali",
+    "Marathi",
+    "Telugu",
+    "Tamil",
+    "Gujarati",
+    "Urdu",
+    "Kannada",
+    "Odia",
+    "Malayalam",
+    "Assamese"
+  ],
+  "changes": [
+    {
+      "path": "SKILL.md",
+      "before_sha256": "f652d15e9fb17ba35056db13bf2646fcc18f6fe84d6d953882995d316da4d4f8",
+      "after_sha256": "865a103e5c04b364a0ef2641a1ad1ba1f08a2cd69012b5481a73f1396c482728"
+    },
+    {
+      "path": "references/indian-languages.md",
+      "before_sha256": null,
+      "after_sha256": "124c16fe27820ebba3d84b4f51174ba40f89b3838260fb21fd0cdb4ea0ed9eab"
+    }
+  ],
+  "retained_international_languages": [
+    "French",
+    "Spanish",
+    "Portuguese",
+    "German",
+    "Russian",
+    "Arabic",
+    "Hebrew"
+  ],
+  "preserved_language_reference_sha256": "723ad56427d8dba3425ff22772f8740c66f1ef01faace2deea786b1184a6cacd",
+  "recorded_at": "2026-10-05T11:05:12.304484+00:00",
+  "status": "installed_verified",
+  "independent": false,
+  "verification": {
+    "exact_indian_language_sections": "PASS — all 11 in user-supplied order",
+    "international_guidance_preserved": "PASS — existing reference SHA256 unchanged; seven retained languages explicitly named in entrypoint",
+    "installed_hashes_and_local_links": "PASS",
+    "frontmatter": "Unchanged",
+    "validator": "Manual structural checks; bundled quick_validate remains unavailable due to missing PyYAML.",
+    "scope": "Skill guidance and KB evidence only; no poem changes, deployment or claim of independently verified fluency."
+  }
+}

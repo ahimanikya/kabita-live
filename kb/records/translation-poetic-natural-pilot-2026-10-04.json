@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-10-05T02:48:47.081598+00:00",
+  "status": "awaiting_user_review",
+  "authorization": "User accepted the proposed five-poem comparison pilot: “ok, lets do”.",
+  "executor": "Current assistant; Anvesha Acharya editorial pass and self-review",
+  "scope": {
+    "poem_ids": [
+      777,
+      814,
+      815,
+      820,
+      821
+    ],
+    "target_comparisons": 10,
+    "live_translation_changes": 0,
+    "publication_authorized": false
+  },
+  "artifact_directory": "kb/artifacts/review/translation-pilot-2026-10-04",
+  "preview": "kb/artifacts/review/translation-pilot-2026-10-04/index.html",
+  "comparison": "kb/artifacts/review/translation-pilot-2026-10-04/COMPARISON.md",
+  "verification": "kb/artifacts/review/translation-pilot-2026-10-04/verification.json",
+  "recommendations": {
+    "777": "A: omit inaccurate word count; retain promise",
+    "814": "A: plain repeated nothing/something structure",
+    "815": "A: preserve live/lives echo in English; small Hindi idiom revision",
+    "820": "A: restore English proletarian/aristocratic vocabulary; retain Hindi class terms",
+    "821": "Hold grandmother lineage; show conditional maternal and paternal alternatives"
+  },
+  "unresolved": [
+    "777: whether three has special authorial importance",
+    "814: dancing participant ambiguity",
+    "815: palm-leaf phrase interpretation",
+    "820: source word ଶିରାସନ",
+    "821: grandmother lineage and Hindi speaker gender"
+  ],
+  "audit_clarification": "The earlier Odia 814 agency flag was overstated: ଯେଉଁମାନେ can also refer honorifically to Kafka. Ambiguity is retained rather than recorded as a proven error.",
+  "full_review_coverage": {
+    "complete": 112,
+    "pending": 1462,
+    "unchanged_by_pilot": true
+  },
+  "independent_review": false,
+  "next_action": "User compares alternatives; resolve source questions before applying affected wording. No site publication in this pilot."
+}

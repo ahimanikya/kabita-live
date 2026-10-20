@@ -1,0 +1,49 @@
+{
+  "status": "verified_local",
+  "recorded_at": "2026-10-06T05:47:17.357721+00:00",
+  "registers": {
+    "decision": "KBL-DEC-056",
+    "work": "KBL-WORK-032",
+    "review": "KBL-REV-020"
+  },
+  "independent": false,
+  "published": false,
+  "changes": [
+    "Native-script Original/Odia/Hindi/English choices visible on poem pages, edition openings and quiet readers.",
+    "Shared collection language choices use the same visible pattern.",
+    "Text size and reader settings remain in a labelled secondary menu; text-size reset does not reset language.",
+    "Edition choice updates titles, poem links, reader startup and available editorial variants; editorial anchor choices retained.",
+    "Quiet reader language switching, saved-place language restoration and unavailable-language logic preserved."
+  ],
+  "verification": {
+    "result": "PASS",
+    "counts": {
+      "poem_pages": 810,
+      "edition_pages": 48,
+      "quiet_readers": 859
+    },
+    "source_data_files_compared": 893,
+    "concurrent_translation_data_changed": true,
+    "changed_content_data": [
+      "data/poem-translations.json"
+    ],
+    "errors": [],
+    "independent": false
+  },
+  "browser": {
+    "result": "PASS",
+    "desktop": "Poem and edition choices visible in first viewport; paper/light and dark reviewed.",
+    "mobile": "390px and320px: no horizontal overflow, visible language row; 32px poem type and30px quiet-reader type checked.",
+    "interaction": "Poem Hindi switch outside settings; ArrowRight switches/focuses English. Edition English updates title/poem URL/editorial. Opened Hindi poem URL renders Hindi. Quiet reader inherits and switches languages without opening settings. Text size remains operable; default sizes restored.",
+    "evidence": [
+      "kb/artifacts/review/language-controls-2026-10-06/edition-desktop.png",
+      "kb/artifacts/review/language-controls-2026-10-06/edition-mobile.png",
+      "kb/artifacts/review/language-controls-2026-10-06/poem-mobile.png",
+      "kb/artifacts/review/language-controls-2026-10-06/quiet-reader-mobile.png"
+    ]
+  },
+  "tests": "31 Node tests and14 Python tests passed;10 existing emulator tests skipped.",
+  "build": "Node24 public build passed; original content/data hashes compared in verification.json.",
+  "handoff": "PASS:22703 entries synchronized and2073 portable links checked; closing verification record included in final sync.",
+  "next_action": "Local preview ready; no push or deployment performed."
+}

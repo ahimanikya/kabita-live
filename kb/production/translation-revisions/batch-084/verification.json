@@ -1,0 +1,80 @@
+{
+  "status": "verified_local_drafts",
+  "variants_read": 10,
+  "variants_revised": 5,
+  "variants_retained": 5,
+  "checks": {
+    "edition_check": {
+      "result": "PASS",
+      "editions": 47,
+      "complete_poems": 799,
+      "archived_poems": [
+        385,
+        727
+      ],
+      "edition_assigned": 798,
+      "listed_poems": 794,
+      "supplementary_assigned_poems": 4,
+      "source_hashes_verified": 848,
+      "reciprocal_writer_links_checked": 798,
+      "checks": [
+        "Unique edition membership",
+        "Published contents order",
+        "Original capture integrity and reviewed reader verse parity",
+        "Return and next-poem links",
+        "Reciprocal writer contribution links",
+        "Raw source SHA-256"
+      ],
+      "known_gaps": {
+        "unassigned_poems": [
+          645
+        ],
+        "missing_author": [
+          30
+        ],
+        "identical_text_groups_for_editorial_review": [
+          [
+            268,
+            304
+          ],
+          [
+            645,
+            650
+          ]
+        ]
+      },
+      "errors": []
+    },
+    "translation_revision_check": {
+      "result": "PASS",
+      "original_files_unchanged": 801,
+      "recorded_revisions": 391,
+      "reader_variants_checked_preview_and_public_build": 3148,
+      "independent_linguistic_review": false
+    },
+    "layout_tests": "5 passed",
+    "queue_regression_tests": "4 passed",
+    "full_site_build": "PASS; Node24.15.0; exit0; build.log saved.",
+    "browser": "No new layout/script case: edits preserve stanza/line counts and checked verse/tail boundaries; rendered payload parity checked.",
+    "records_and_bundle": {
+      "result": "PASS",
+      "concepts": 64,
+      "local_links": 1511,
+      "errors": [],
+      "configuration_checked": true,
+      "scope": "Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness."
+    },
+    "storage": {
+      "result": "PASS",
+      "moved_files": 479,
+      "website_files_preserved": 459,
+      "portable_links_checked": 2073,
+      "migration_hashes_checked": false,
+      "errors": []
+    },
+    "handoff": "PASS; synchronized with hashes verified, then final synchronization after saving verification."
+  },
+  "independent_review": false,
+  "published": false,
+  "recorded_at": "2026-10-05T17:23:51.787799+00:00"
+}

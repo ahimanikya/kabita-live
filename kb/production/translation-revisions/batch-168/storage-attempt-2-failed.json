@@ -1,0 +1,7 @@
+{
+  "result": "FAIL",
+  "errors": [
+    "Source/handoff mismatch: kb/artifacts/review/edition-hierarchy-2026-10-06/build.log"
+  ],
+  "context": "Earlier four missing concurrent review snapshots reconciled by normal sync; another concurrent build log changed before storage verification. Leave batch168 content verified, portable verification pending; do not overwrite unrelated work or keep racing its generated output."
+}

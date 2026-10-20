@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-10-03T06:39:55.334271+00:00",
+  "request": "Try Human Natural for one poet before deciding whether to do all",
+  "work_id": "KBL-WORK-012",
+  "writer_id": 82,
+  "name": "Narmada Nilotpala",
+  "status": "candidate_awaiting_user_review",
+  "scope": "One comparison only; no rollout approval, site replacement or publication",
+  "mode": "Human Natural / Editorial Natural",
+  "tool": "built-in image_gen",
+  "executor": "Current assistant; Samanta creation and Drishti self-review",
+  "independent": false,
+  "source": {
+    "writer_id": 82,
+    "name": "Narmada Nilotpala / ନର୍ମଦା ନୀଳୋତ୍ପଳା",
+    "source_page": "https://kabitalive.com/contri-view.php?id=82",
+    "source_image": "https://kabitalive.com/poetry_panel/photo/Pic_05122022151016223.jpg",
+    "file": "artifacts/artwork/portrait-sources/writers/82-journal-original.webp",
+    "content_type": "image/webp",
+    "rights": "Journal-supplied image; publication rights not independently verified"
+  },
+  "source_sha256": "20db2207d28c5013c52b16368123137fc99fd77b988cabd4894b727bc585bf02",
+  "watercolor": "artifacts/artwork/writer-portraits/82-earth-voice-v1.png",
+  "artifact": "artifacts/artwork/studies/human-natural-poet-82-2026-10-03/82-human-natural-v1.png",
+  "sha256": "fc24df62b121357afdac298ddb06e050c5cab835b8144b7379a423e419f3cae2",
+  "prompt": "artifacts/artwork/studies/human-natural-poet-82-2026-10-03/prompt.txt",
+  "review": {
+    "result": "Suitable as a style comparison; user likeness judgement pending",
+    "observations": [
+      "Head tilt, smile, dark hair, bindi, sindoor, coral/white clothing and red necklace remain recognizable",
+      "Plain off-white background and photographic skin/hair replace watercolor washes",
+      "Facial contours and complexion are reconstructed from a low-quality source; output is more polished than source",
+      "Generated interpretation, not a new photograph; no independent likeness review"
+    ]
+  },
+  "next_action": "User compares Human Natural with watercolor and decides preferred direction",
+  "site_changed": false,
+  "automation_changed": false
+}

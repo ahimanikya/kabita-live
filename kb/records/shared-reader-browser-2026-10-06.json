@@ -1,0 +1,210 @@
+{
+  "at": "2026-10-06T10:48:50.881031+00:00",
+  "status": "native_adapter_local_integration_verified",
+  "execution": "Current assistant; Samanta implementation and Drishti self-review, independent false",
+  "reader_version": "0.1.0-rc.1",
+  "checks": {
+    "browser": {
+      "browser": "Chrome/154.0.8037.98",
+      "runs": [
+        {
+          "width": 390,
+          "checks": [
+            {
+              "name": "Original page preserves exact native source",
+              "pass": true
+            },
+            {
+              "name": "No site font-size controls return",
+              "pass": true
+            },
+            {
+              "name": "Current validated edition opens all 11 poems",
+              "pass": true
+            },
+            {
+              "name": "Native spread remains phone one / desktop two",
+              "pass": true
+            },
+            {
+              "name": "Current poem selected without altering source language",
+              "pass": true
+            },
+            {
+              "name": "Text-first reader has no illustration images",
+              "pass": true
+            },
+            {
+              "name": "Existing original-language legacy bookmark preserved",
+              "pass": true
+            },
+            {
+              "name": "Legacy underlines visible in quiet reader",
+              "pass": true
+            },
+            {
+              "name": "Reduced motion disables paper-turn control",
+              "pass": true
+            },
+            {
+              "name": "Visible quiet source units match native offsets",
+              "pass": true
+            },
+            {
+              "name": "Direct Odia control repaginates available variants",
+              "pass": true
+            },
+            {
+              "name": "Reader theme uses shared page preference",
+              "pass": true
+            },
+            {
+              "name": "Reader fits viewport",
+              "pass": true,
+              "detail": {
+                "left": 0,
+                "right": 390,
+                "top": 0,
+                "bottom": 844
+              }
+            },
+            {
+              "name": "Illustrations opt-in retains selected poem",
+              "pass": true
+            },
+            {
+              "name": "Native page turn advances reading position",
+              "pass": true
+            },
+            {
+              "name": "Quota bookmark reports visit-only save",
+              "pass": true
+            },
+            {
+              "name": "Reader exit restores origin focus",
+              "pass": true
+            },
+            {
+              "name": "Shared session bookmark remains accessible after reopening",
+              "pass": true
+            },
+            {
+              "name": "Session-only underline bridge reaches regular poem renderer",
+              "pass": true
+            },
+            {
+              "name": "No uncaught reader exceptions",
+              "pass": true,
+              "detail": []
+            }
+          ]
+        },
+        {
+          "width": 1280,
+          "checks": [
+            {
+              "name": "Original page preserves exact native source",
+              "pass": true
+            },
+            {
+              "name": "No site font-size controls return",
+              "pass": true
+            },
+            {
+              "name": "Current validated edition opens all 11 poems",
+              "pass": true
+            },
+            {
+              "name": "Native spread remains phone one / desktop two",
+              "pass": true
+            },
+            {
+              "name": "Current poem selected without altering source language",
+              "pass": true
+            },
+            {
+              "name": "Text-first reader has no illustration images",
+              "pass": true
+            },
+            {
+              "name": "Existing original-language legacy bookmark preserved",
+              "pass": true
+            },
+            {
+              "name": "Legacy underlines visible in quiet reader",
+              "pass": true
+            },
+            {
+              "name": "Reduced motion disables paper-turn control",
+              "pass": true
+            },
+            {
+              "name": "Visible quiet source units match native offsets",
+              "pass": true
+            },
+            {
+              "name": "Direct Odia control repaginates available variants",
+              "pass": true
+            },
+            {
+              "name": "Reader theme uses shared page preference",
+              "pass": true
+            },
+            {
+              "name": "Reader fits viewport",
+              "pass": true,
+              "detail": {
+                "left": 0,
+                "right": 1280,
+                "top": 0,
+                "bottom": 844
+              }
+            },
+            {
+              "name": "Illustrations opt-in retains selected poem",
+              "pass": true
+            },
+            {
+              "name": "Native page turn advances reading position",
+              "pass": true
+            },
+            {
+              "name": "Quota bookmark reports visit-only save",
+              "pass": true
+            },
+            {
+              "name": "Reader exit restores origin focus",
+              "pass": true
+            },
+            {
+              "name": "Shared session bookmark remains accessible after reopening",
+              "pass": true
+            },
+            {
+              "name": "Session-only underline bridge reaches regular poem renderer",
+              "pass": true
+            },
+            {
+              "name": "No uncaught reader exceptions",
+              "pass": true,
+              "detail": []
+            }
+          ]
+        }
+      ]
+    },
+    "browser_passed": 40,
+    "module_tests": 19,
+    "static_export": "Astro1316pages built successfully. Native builder1330pages; public inputs1316pages,3527assets. Editorial content_ready false retained.",
+    "source_identity": "Prior all810poems/every variant exacttext/order graph check retained; no authored data/media edits in this batch."
+  },
+  "changes": "One in-page shared store bridges quiet-reader and poem-renderer session underlines. Native renderer version8 and experience version18. Existing keys, language controls, browser-managed sizing and optional illustrations retained.",
+  "limitations": [
+    "Local isolated Chrome at390/1280px; cross-browser and enlarged-reading regression belongs to fleet release checks.",
+    "Actual HTTP failure/cancellation walkthrough remains final loading-regression work; module retry/invalid-route tests already pass.",
+    "Native saved-unit encodings retained; no browser-data migration, media/content rewrite or production publication.",
+    "No measured speed-improvement claim; catalogue-first lazy loading included in final comparable performance audit."
+  ],
+  "portable_sync": "PASS:23990entries hash-verified; completion receipt parity and baseline hashes updated.",
+  "recovery": "/Users/ahimanikya/Projects/Poem Without Borders/output/fleet-alignment/batch-process/results/batch-033-recovery/manifest.json"
+}
