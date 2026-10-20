@@ -1,0 +1,18 @@
+{
+  "reviewed_at": "2026-10-20T01:01:33.749739+00:00",
+  "independent": false,
+  "authorization": "KBL-DEC-083",
+  "scope_files": 27,
+  "scope_bytes": 2868823,
+  "only_kb_paths": true,
+  "credential_pattern_findings": [],
+  "manual_context_checks": [
+    "Checkout Authorization value is masked in GitHub log",
+    "setup-java server-password field is the literal environment variable name GITHUB_TOKEN",
+    "Public-site comments screenshot contains an empty comment form, no private submission"
+  ],
+  "limitations": [
+    "Pattern checks and human-visible screenshot inspection are not a comprehensive security certification."
+  ],
+  "deployment_requested": false
+}

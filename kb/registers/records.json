@@ -952,13 +952,14 @@
       "id": "KBL-WORK-048",
       "title": "Apply Ink & Voice to the reader website",
       "status": "completed",
-      "readiness": "applied",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-066",
-      "next_action": "Review the updated local Ink & Voice website; no push or deployment performed.",
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate.",
       "blockers": [],
       "refs": [
-        "KBL-DEC-066"
+        "KBL-DEC-066",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/ink-and-voice-site-2026-10-19.json"
@@ -968,18 +969,19 @@
       "id": "KBL-WORK-049",
       "title": "Update the Ink & Voice reader and audit the local site",
       "status": "completed",
-      "readiness": "reviewed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-067",
       "refs": [
         "KBL-DEC-067",
-        "KBL-REV-062"
+        "KBL-REV-062",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/ink-and-voice-reader-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Review the local reader; reduced-motion emulation remains untested because automatic approval review was unavailable. No publication performed."
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate."
     },
     {
       "id": "KBL-WORK-050",
@@ -996,75 +998,79 @@
         "records/masthead-logo-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Review the refreshed localhost preview visually when browser inspection is available; no publication performed."
+      "next_action": "Superseded sizing trial retained as history; final compact logo treatment is published under KBL-REL-018."
     },
     {
       "id": "KBL-WORK-051",
       "title": "Current edition focus, familiar compact header and edition-page cover links",
       "status": "completed",
-      "readiness": "applied",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-069",
       "refs": [
         "KBL-DEC-069",
-        "KBL-REV-064"
+        "KBL-REV-064",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/current-edition-home-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Review local appearance when browser inspection is available; publication remains separate."
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate."
     },
     {
       "id": "KBL-WORK-052",
       "title": "Remove idle Likes/comments availability announcement",
       "status": "completed",
-      "readiness": "reviewed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-070",
       "refs": [
         "KBL-DEC-070",
-        "KBL-REV-065"
+        "KBL-REV-065",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/engagement-notice-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Refresh local preview; production configuration unchanged and no publication performed."
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate."
     },
     {
       "id": "KBL-WORK-053",
       "title": "Rotate homepage featured originals on each visit",
       "status": "completed",
-      "readiness": "reviewed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-071",
       "refs": [
         "KBL-DEC-071",
-        "KBL-REV-066"
+        "KBL-REV-066",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/home-poem-rotation-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Refresh the stable local preview to see another original; no publication performed."
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate."
     },
     {
       "id": "KBL-WORK-054",
       "title": "Current edition cover for homepage and website sharing",
       "status": "completed",
-      "readiness": "reviewed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-072",
       "refs": [
         "KBL-DEC-072",
-        "KBL-REV-067"
+        "KBL-REV-067",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/home-cover-rule-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Keep homepage and root sharing tied to the current edition on future imports. Local implementation verified; no publication performed."
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate."
     },
     {
       "id": "KBL-WORK-055",
@@ -1081,92 +1087,97 @@
         "records/artistic-wash-audit-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Findings delivered: palette/type consistency corrections and optional localized wash preview; fresh browser verification remains outstanding due approval-review capacity."
+      "next_action": "Audit findings resolved by KBL-WORK-059 and KBL-WORK-062; final implementation published under KBL-REL-018."
     },
     {
       "id": "KBL-WORK-056",
       "title": "Theme-coloured logo balanced with the compact masthead",
       "status": "completed",
-      "readiness": "reviewed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-074",
       "refs": [
         "KBL-DEC-074",
-        "KBL-REV-069"
+        "KBL-REV-069",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/logo-ink-voice-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Review the updated stable local preview. Publication remains separate."
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate."
     },
     {
       "id": "KBL-WORK-057",
       "title": "Ink & Voice Facebook branding and aqua logo water",
       "status": "completed",
-      "readiness": "reviewed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-075",
       "refs": [
         "KBL-DEC-075",
-        "KBL-REV-070"
+        "KBL-REV-070",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/facebook-ink-voice-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Facebook branding is live. Website aqua refinement is available in the stable local preview; website publication remains separate."
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate."
     },
     {
       "id": "KBL-WORK-058",
       "title": "Use the current logo as the website favicon",
       "status": "completed",
-      "readiness": "reviewed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-076",
       "refs": [
         "KBL-DEC-076",
-        "KBL-REV-071"
+        "KBL-REV-071",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/favicon-logo-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Current logo favicon is ready in the local preview and verified public build."
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate."
     },
     {
       "id": "KBL-WORK-059",
       "title": "Apply approved artistic-wash refinements",
       "status": "completed",
-      "readiness": "reviewed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-077",
       "refs": [
         "KBL-DEC-077",
-        "KBL-REV-072"
+        "KBL-REV-072",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/artistic-wash-approved-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Local preview and public build verified; publication remains separate."
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate."
     },
     {
       "id": "KBL-WORK-060",
       "title": "Visible Original choice and two translations",
       "status": "completed",
-      "readiness": "reviewed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-078",
       "refs": [
         "KBL-DEC-078",
-        "KBL-REV-073"
+        "KBL-REV-073",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/visible-original-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Local preview and public build verified; publication remains separate."
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate."
     },
     {
       "id": "KBL-WORK-061",
@@ -1189,52 +1200,55 @@
       "id": "KBL-WORK-062",
       "title": "Complete whole-site Ink & Voice consistency audit",
       "status": "completed",
-      "readiness": "reviewed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-080",
       "refs": [
         "KBL-DEC-080",
-        "KBL-REV-075"
+        "KBL-REV-075",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/full-design-audit-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Local audit and six corrections verified. Publication remains separate."
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate."
     },
     {
       "id": "KBL-WORK-063",
       "title": "Apply mulberry Original badge and fix phone alignment",
       "status": "completed",
-      "readiness": "reviewed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-081",
       "refs": [
         "KBL-DEC-081",
-        "KBL-REV-076"
+        "KBL-REV-076",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/original-mulberry-2026-10-19.json"
       ],
       "blockers": [],
-      "next_action": "Verified in local preview; public deployment remains separate."
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate."
     },
     {
       "id": "KBL-WORK-064",
       "title": "Publish and live-check Ink & Voice",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "KBL-DEC-082",
       "refs": [
         "KBL-DEC-082",
-        "KBL-REV-077"
+        "KBL-REV-077",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/ink-voice-publication-2026-10-20.json"
       ],
       "blockers": [],
-      "next_action": "Complete clean-release checks, publish through the manual discovery workflow, verify live and sync the handoff."
+      "next_action": "Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate."
     }
   ],
   "decisions": [
@@ -2435,6 +2449,26 @@
         "KBL-DEC-066",
         "KBL-DEC-080",
         "KBL-DEC-081"
+      ],
+      "evidence": [
+        "records/ink-voice-publication-2026-10-20.json"
+      ]
+    },
+    {
+      "id": "KBL-DEC-083",
+      "title": "Upload the Ink & Voice publication verification records",
+      "status": "approved",
+      "scope": "Upload the held publication logs, public-site screenshots and scoped KB completion records to the existing GitHub repository after checking for sensitive information. Documentation only; the website is already published.",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "recorded_at": "2026-10-20T01:01:33.749739+00:00",
+      "quote": "approved",
+      "refs": [
+        "KBL-DEC-082",
+        "KBL-WORK-064",
+        "KBL-REL-018"
       ],
       "evidence": [
         "records/ink-voice-publication-2026-10-20.json"
@@ -3924,11 +3958,12 @@
         "KBL-WORK-064"
       ],
       "evidence": [
-        "records/ink-voice-publication-2026-10-20.json"
+        "records/ink-voice-publication-2026-10-20.json",
+        "artifacts/review/ink-voice-publication-2026-10-20/live-http-checks.json",
+        "artifacts/review/ink-voice-publication-2026-10-20/live-browser-checks.json"
       ],
       "limitations": [
-        "Chromium review only; existing editorial/source questions remain.",
-        "Clean-release build and tests passed; publication/live verification pending."
+        "Existing editorial and source questions remain. Local review was Chromium-based and same-assistant; no Safari/Firefox or native-device certification."
       ]
     }
   ],
@@ -4171,6 +4206,32 @@
         "records/facebook-illustrated-restore-2026-10-19.json",
         "artifacts/social/facebook-illustrated-restore-2026-10-19/publication-receipt.json",
         "artifacts/social/facebook-illustrated-restore-2026-10-19/page-published.png"
+      ]
+    },
+    {
+      "id": "KBL-REL-018",
+      "title": "Ink & Voice website and reader redesign",
+      "status": "published",
+      "authorization": "KBL-DEC-082",
+      "destination": "https://kabitalive.com/",
+      "refs": [
+        "KBL-WORK-048",
+        "KBL-WORK-049",
+        "KBL-WORK-051",
+        "KBL-WORK-052",
+        "KBL-WORK-053",
+        "KBL-WORK-054",
+        "KBL-WORK-056",
+        "KBL-WORK-057",
+        "KBL-WORK-058",
+        "KBL-WORK-059",
+        "KBL-WORK-060",
+        "KBL-WORK-062",
+        "KBL-WORK-063",
+        "KBL-WORK-064"
+      ],
+      "evidence": [
+        "records/ink-voice-publication-2026-10-20.json"
       ]
     }
   ],

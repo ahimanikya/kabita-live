@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2c9abbc22a34347411713602ecfbcb0bb6df777ef97861a0c9acd4a939a0a6a7`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `abf21d61bfd7164f7ff4dcb280b43a3db1fd9edc88c62906e767644f5d9bcf81`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -58,23 +58,23 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-WORK-043 · Enable search discovery and Firebase bot protection | completed | published | Ahimanikya Satapathy | Search Console sitemap Success with1306 discovered pages verified11October2026. Discovery and bot protection rollout complete; indexing/citation decisions remain external. | — |
 | KBL-WORK-044 · Publish remaining translations and reader services with separate review desk | completed | published | Ahimanikya Satapathy | Published and live-verified. Translation questions remain in the unlinked noindex review desk; no independent linguistic certification claimed. | — |
 | KBL-WORK-045 · Clean public credits and enforce reader-only publication | completed | published | Ahimanikya Satapathy | No remaining cleanup work; apply explicit route boundary to future pages and preserve the authorized translation review exception. | — |
-| KBL-WORK-048 · Apply Ink & Voice to the reader website | completed | applied | Ahimanikya Satapathy | Review the updated local Ink & Voice website; no push or deployment performed. | — |
-| KBL-WORK-049 · Update the Ink & Voice reader and audit the local site | completed | reviewed | Ahimanikya Satapathy | Review the local reader; reduced-motion emulation remains untested because automatic approval review was unavailable. No publication performed. | — |
-| KBL-WORK-050 · Match the website logo size to the masthead | completed | applied | Ahimanikya Satapathy | Review the refreshed localhost preview visually when browser inspection is available; no publication performed. | — |
-| KBL-WORK-051 · Current edition focus, familiar compact header and edition-page cover links | completed | applied | Ahimanikya Satapathy | Review local appearance when browser inspection is available; publication remains separate. | — |
-| KBL-WORK-052 · Remove idle Likes/comments availability announcement | completed | reviewed | Ahimanikya Satapathy | Refresh local preview; production configuration unchanged and no publication performed. | — |
-| KBL-WORK-053 · Rotate homepage featured originals on each visit | completed | reviewed | Ahimanikya Satapathy | Refresh the stable local preview to see another original; no publication performed. | — |
-| KBL-WORK-054 · Current edition cover for homepage and website sharing | completed | reviewed | Ahimanikya Satapathy | Keep homepage and root sharing tied to the current edition on future imports. Local implementation verified; no publication performed. | — |
-| KBL-WORK-055 · Artistic touch and wash audit | completed | reviewed | Ahimanikya Satapathy | Findings delivered: palette/type consistency corrections and optional localized wash preview; fresh browser verification remains outstanding due approval-review capacity. | — |
-| KBL-WORK-056 · Theme-coloured logo balanced with the compact masthead | completed | reviewed | Ahimanikya Satapathy | Review the updated stable local preview. Publication remains separate. | — |
-| KBL-WORK-057 · Ink & Voice Facebook branding and aqua logo water | completed | reviewed | Ahimanikya Satapathy | Facebook branding is live. Website aqua refinement is available in the stable local preview; website publication remains separate. | — |
-| KBL-WORK-058 · Use the current logo as the website favicon | completed | reviewed | Ahimanikya Satapathy | Current logo favicon is ready in the local preview and verified public build. | — |
-| KBL-WORK-059 · Apply approved artistic-wash refinements | completed | reviewed | Ahimanikya Satapathy | Local preview and public build verified; publication remains separate. | — |
-| KBL-WORK-060 · Visible Original choice and two translations | completed | reviewed | Ahimanikya Satapathy | Local preview and public build verified; publication remains separate. | — |
+| KBL-WORK-048 · Apply Ink & Voice to the reader website | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
+| KBL-WORK-049 · Update the Ink & Voice reader and audit the local site | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
+| KBL-WORK-050 · Match the website logo size to the masthead | completed | applied | Ahimanikya Satapathy | Superseded sizing trial retained as history; final compact logo treatment is published under KBL-REL-018. | — |
+| KBL-WORK-051 · Current edition focus, familiar compact header and edition-page cover links | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
+| KBL-WORK-052 · Remove idle Likes/comments availability announcement | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
+| KBL-WORK-053 · Rotate homepage featured originals on each visit | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
+| KBL-WORK-054 · Current edition cover for homepage and website sharing | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
+| KBL-WORK-055 · Artistic touch and wash audit | completed | reviewed | Ahimanikya Satapathy | Audit findings resolved by KBL-WORK-059 and KBL-WORK-062; final implementation published under KBL-REL-018. | — |
+| KBL-WORK-056 · Theme-coloured logo balanced with the compact masthead | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
+| KBL-WORK-057 · Ink & Voice Facebook branding and aqua logo water | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
+| KBL-WORK-058 · Use the current logo as the website favicon | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
+| KBL-WORK-059 · Apply approved artistic-wash refinements | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
+| KBL-WORK-060 · Visible Original choice and two translations | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
 | KBL-WORK-061 · Restore illustrated Facebook banner with current brand colours | completed | reviewed | Ahimanikya Satapathy | Corrected illustrated cover is published and visually verified. | — |
-| KBL-WORK-062 · Complete whole-site Ink & Voice consistency audit | completed | reviewed | Ahimanikya Satapathy | Local audit and six corrections verified. Publication remains separate. | — |
-| KBL-WORK-063 · Apply mulberry Original badge and fix phone alignment | completed | reviewed | Ahimanikya Satapathy | Verified in local preview; public deployment remains separate. | — |
-| KBL-WORK-064 · Publish and live-check Ink & Voice | in_progress | reviewed | Ahimanikya Satapathy | Complete clean-release checks, publish through the manual discovery workflow, verify live and sync the handoff. | — |
+| KBL-WORK-062 · Complete whole-site Ink & Voice consistency audit | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
+| KBL-WORK-063 · Apply mulberry Original badge and fix phone alignment | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
+| KBL-WORK-064 · Publish and live-check Ink & Voice | completed | published | Ahimanikya Satapathy | Published and live-verified under KBL-REL-018. Existing editorial/source questions and cross-browser limitations remain separate. | — |
 
 ## Pending human review and decisions
 
@@ -166,6 +166,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-DEC-080 · Audit the entire website against the approved Ink & Voice system | approved | Ahimanikya Satapathy | Verify colours, typography, shared identity and responsive design across all website routes; correct inconsistencies in the existing approved design. Local only; no new design direction or website publication. |
 | KBL-DEC-081 · Solid mulberry Original badge and narrow-screen alignment | approved | Ahimanikya Satapathy | Use white text on mulberry for the small Original badge in both reading modes; correct reported small-screen alignment while preserving accessible targets. Local implementation only. |
 | KBL-DEC-082 · Publish the approved Ink & Voice website redesign | approved | Ahimanikya Satapathy | Push the scoped completed redesign from latest remote main, publish the public-only discovery build and verify it live. Preserve content, services, consent, DNS and full editorial release gates. |
+| KBL-DEC-083 · Upload the Ink & Voice publication verification records | approved | Ahimanikya Satapathy | Upload the held publication logs, public-site screenshots and scoped KB completion records to the existing GitHub repository after checking for sensitive information. Documentation only; the website is already published. |
 
 ## Reviews
 
@@ -246,7 +247,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-REV-074 | pass_with_limitations | False | Visual self-review by current assistant, not independent review.; Built-in generative image edit preserves the composition visually; exact background pixel identity is not claimed.; Facebook desktop crop reviewed; native phone-app rendering not separately checked. |
 | KBL-REV-075 | pass_with_limitations | False | Automated computed-style audit covers 1,316 full routes in each theme; visual/interaction review samples page families.; Final shared enlargement and badge-language fixes rechecked on 32 representative routes in each theme and at desktop/phone widths.; Local Chromium review and simulated 200% root text enlargement; no independent accessibility or cross-browser certification.; No runtime form/engagement submission, push or deployment. |
 | KBL-REV-076 | pass_with_limitations | False | Scoped CSS change verified in Chromium responsive viewports; no fresh all-site visual audit, native mobile or cross-browser certification.; No website push/deployment. Existing content, artwork and reader/service behaviour unchanged. |
-| KBL-REV-077 | pass_with_limitations | False | Chromium review only; existing editorial/source questions remain.; Clean-release build and tests passed; publication/live verification pending. |
+| KBL-REV-077 | pass_with_limitations | False | Existing editorial and source questions remain. Local review was Chromium-based and same-assistant; no Safari/Firefox or native-device certification. |
 
 ## Publication and application history
 
@@ -269,6 +270,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-REL-015 · Remove public AI credits and enforce reader-only export | published | https://kabitalive.com/ | KBL-DEC-061 |
 | KBL-REL-016 · Ink & Voice Facebook profile and cover branding | published | https://www.facebook.com/profile.php?id=61594946730649 | KBL-DEC-075 |
 | KBL-REL-017 · Restore illustrated Facebook banner with current brand colours | published | https://www.facebook.com/profile.php?id=61594946730649 | KBL-DEC-079 |
+| KBL-REL-018 · Ink & Voice website and reader redesign | published | https://kabitalive.com/ | KBL-DEC-082 |
 
 ## Sources and assets
 
@@ -313,8 +315,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-923 | 2026-10-19T05:15:59.657530+00:00 | Refined the original leaf-and-stream logo to theme-aware mulberry/rose, with icon sized at 1.2em beside unchanged compact Newsreader text; new matching favicon, historical geometry/assets preserved. Verified five browser widths, phone light/dark, mobile menu/Escape focus return and edition/home navigation. Node 24 build, 205 final tests and edition integrity pass; 1,316 exported headers updated and 607 protected files unchanged. No publication. | — |
-| KBL-EVT-924 | 2026-10-19T05:27:54.691130+00:00 | Published and verified the Kabita Live Facebook profile logo and cover in Ink & Voice colours, keeping the water droplet aqua. Exact image hashes, pending attempts and new photo URLs saved. Website header/favicon aqua refinement verified locally: Node 24 build, 205 tests, 1,316 headers and 607 protected files pass. No website publication or daily-post automation changes. | — |
 | KBL-EVT-925 | 2026-10-19T05:32:58.203458+00:00 | Confirmed exact current logo as favicon on all 1,317 public pages. Added the missing search-redirect favicon and a content-derived version plus explicit SVG type/size. Node 24 build and 205 tests pass; source/export artwork matches and 607 protected files unchanged. Browser-linked SVG rendered; no public deployment. | — |
 | KBL-EVT-926 | 2026-10-19T05:49:43.453857+00:00 | Applied approved theme-coloured small ornaments, English editorial display headings, restrained homepage panel-edge wash and duplicate stylesheet cleanup. Fresh local visual/computed checks; historical artwork preserved. | — |
 | KBL-EVT-927 | 2026-10-19T05:49:43.453857+00:00 | Made Original and its source language visible beside the two translation choices on 810 poem pages and in quiet reading. Mixed-source openings and resize anchors verified; 211 tests pass, public export runtime checked. No publication. | — |
@@ -323,6 +323,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-930 | 2026-10-19T06:34:41.182545+00:00 | Audited all 1,317 exported routes and both themes across 1,316 full pages. Corrected share logo, overlay tint, redirect fallback, English editorial quotation font, enlarged-text wrapping/badge spacing and quiet-reader badge language. Final 32-route desktop/phone checks, 211 tests, build and source integrity pass; 5,018 protected files unchanged. Local only. | — |
 | KBL-EVT-931 | 2026-10-19T06:46:32.954855+00:00 | Applied white-on-mulberry Original badges and corrected phone alignment: badges fit their controls, poem toolbar follows text gutters, and action icons wrap at the narrowest widths without reducing targets. 18 regular-poem and six quiet-reader responsive cases pass in both themes; build and 1,317-route export checks pass. No publication. | — |
 | KBL-EVT-932 | 2026-10-20T00:12:13.474318+00:00 | User authorized publication of the completed Ink & Voice redesign. Prepared isolated latest-main release; scoped source transfer preserves all poetry and current service settings. Build and release checks in progress. | — |
+| KBL-EVT-933 | 2026-10-20T00:26:25.830765+00:00 | Published Ink & Voice from latest main at21e9ba1e0 through manual discovery workflow39346758248. Hosted build,211local tests and hosted Firestore rule checks passed. Live checked28URLs/assets, desktop and320/360/390px reading, both themes, Original badges, cover navigation, rotation and comments layout. Source content, artwork, service configuration, consent, DNS and editorial gates preserved. No native-device or independent-review claim. | — |
+| KBL-EVT-934 | 2026-10-20T01:01:33.749739+00:00 | User approved uploading the held publication verification records after the automatic-review notice. Checked the scoped logs for exposed credentials and the screenshots for private submissions; prepared a documentation-only repository update. Website publication remains successful; no new deployment. | — |
 
 ## Deferred extensions
 

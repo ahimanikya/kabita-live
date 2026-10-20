@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-20T00:10:49.229146+00:00",
-  "status": "release_checks_passed_pending_publication",
+  "status": "published_verified",
   "authorization": {
     "decision": "KBL-DEC-082",
     "quote": "OK, let's pubish",
@@ -48,10 +48,55 @@
     "evidence": "artifacts/review/ink-voice-publication-2026-10-20/release-checks.json",
     "edition_integrity": "PASS:48 editions,848 source hashes,809 reciprocal writer links",
     "release_bundle": "PASS:49 concepts",
-    "scope_diff": "No changes to source content, runtime config or manual publication workflow"
+    "scope_diff": "No changes to source content, runtime config or manual publication workflow",
+    "hosted_build": "PASS",
+    "hosted_regression_tests": "PASS",
+    "hosted_firestore_rule_tests": "PASS",
+    "live_http_checks": 28,
+    "live_release_exact_mismatches": [],
+    "live_internal_urls": "branding-guide.html, design-system-review.html and kb/index.md return404",
+    "live_browser": "Homepage rotation, edition-cover destination, 320px Odia poem and quiet reader light/dark, 360px Hindi and390px English badges, language change, pagination, exit focus and comments-panel layout verified. No service submissions made.",
+    "sharing_cover": "Live1200x630preview visibly includes the complete approved Issue48cover, masthead, Odia signature and issue/date. Linux/macOS raster bytes differ; no byte-equality claim for this image.",
+    "theme_restored": "System; viewport override cleared",
+    "primary_bundle": "PASS: 94 concepts, 2404 local links"
   },
   "release_notes": [
     "Latest-main checkout had an older 47-edition checker; included the existing current import-aware checker and verified48editions.",
     "Restored already-referenced historical KB evidence and pinned references from canonical local copies to keep release records resolvable; no new editorial decisions."
-  ]
+  ],
+  "publication": {
+    "commit": "21e9ba1e06f02b40f46f2ec5dc876fc1b5c0c3cb",
+    "status": "success",
+    "upload_note": "Initial HTTP400 push failed; confirmed remote still at864ae679 before bounded buffered retry.",
+    "workflow": "https://github.com/ahimanikya/kabita-live/actions/runs/39346758248",
+    "workflow_id": 39346758248,
+    "hosting_mode": "discovery",
+    "push": "success_after_buffered_retry",
+    "live_url": "https://kabitalive.com/",
+    "verified_at": "2026-10-20T00:26:25.830765+00:00",
+    "live_http": "artifacts/review/ink-voice-publication-2026-10-20/live-http-checks.json",
+    "live_browser": "artifacts/review/ink-voice-publication-2026-10-20/live-browser-checks.json",
+    "verification_receipt_storage": "Canonical KB and portable handoff; repository upload explicitly approved by the user on 20 October 2026 after the prior automatic-review hold. Website deployment remains successful; this upload is documentation only."
+  },
+  "completed_at": "2026-10-20T00:26:25.830765+00:00",
+  "handoff": {
+    "status": "verified",
+    "checked_at": "2026-10-20T00:29:56.153609+00:00",
+    "entries": 24869,
+    "storage_result": "PASS",
+    "portable_links_checked": 2073,
+    "evidence": "artifacts/review/ink-voice-publication-2026-10-20/final-storage.log",
+    "note": "Frozen deployment evidence synchronized and verified. Final receipt included in a subsequent sync; outputs written outside the source tree to avoid log drift."
+  },
+  "evidence_upload": {
+    "authorization": "KBL-DEC-083",
+    "quote": "approved",
+    "approved_at": "2026-10-20T01:01:33.749739+00:00",
+    "context": "Approval follows the notice that automatic review held back the publication verification logs and screenshots.",
+    "destination": "https://github.com/ahimanikya/kabita-live",
+    "scope": "27 held KB evidence/register files plus this approval and its review record; no website source, service settings or deployment.",
+    "review": "Current assistant self-review; common credential patterns found no exposed tokens. Git checkout authorization is masked; the setup-java password field is only the GITHUB_TOKEN environment variable name. Screenshots show the public site without reader submissions.",
+    "independent": false,
+    "evidence": "artifacts/review/ink-voice-publication-2026-10-20/upload-review.json"
+  }
 }

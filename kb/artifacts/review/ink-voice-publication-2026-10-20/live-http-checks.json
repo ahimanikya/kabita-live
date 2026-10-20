@@ -1,0 +1,230 @@
+{
+  "checks": [
+    {
+      "path": "index.html",
+      "url": "https://kabitalive.com/",
+      "status": 200,
+      "sha256": "248026007ec05987aebc60b0e9c6dfff38545fb86c5f2bf158d829e16a45c515",
+      "expected_sha256": "248026007ec05987aebc60b0e9c6dfff38545fb86c5f2bf158d829e16a45c515",
+      "matches_release": true,
+      "ink_voice": true,
+      "current_cover": true,
+      "sharing_image": "https://kabitalive.com/assets/social/12dea1ca608f4810576a.jpg"
+    },
+    {
+      "path": "issue-48.html",
+      "url": "https://kabitalive.com/issue-48.html",
+      "status": 200,
+      "sha256": "920d5e8d4c89c754f98cecf2b25d730539653748ebc792a15fff7302d36d2841",
+      "expected_sha256": "920d5e8d4c89c754f98cecf2b25d730539653748ebc792a15fff7302d36d2841",
+      "matches_release": true
+    },
+    {
+      "path": "poem-826.html",
+      "url": "https://kabitalive.com/poem-826.html",
+      "status": 200,
+      "sha256": "9628224030c680001a2f8be4afbe8710e9244813d979b30681ef19b112e583a5",
+      "expected_sha256": "9628224030c680001a2f8be4afbe8710e9244813d979b30681ef19b112e583a5",
+      "matches_release": true
+    },
+    {
+      "path": "poem-827.html",
+      "url": "https://kabitalive.com/poem-827.html",
+      "status": 200,
+      "sha256": "885a15c1c369dd6ed8f03bedc1aa5218e2064389e3d6dab1de566a440400a621",
+      "expected_sha256": "885a15c1c369dd6ed8f03bedc1aa5218e2064389e3d6dab1de566a440400a621",
+      "matches_release": true
+    },
+    {
+      "path": "poem-834.html",
+      "url": "https://kabitalive.com/poem-834.html",
+      "status": 200,
+      "sha256": "d432736f9e5719b54f2eb2bb629ea460ef88a908e3aa97d86a4e1fc020184a74",
+      "expected_sha256": "d432736f9e5719b54f2eb2bb629ea460ef88a908e3aa97d86a4e1fc020184a74",
+      "matches_release": true
+    },
+    {
+      "path": "poets.html",
+      "url": "https://kabitalive.com/poets.html",
+      "status": 200,
+      "sha256": "53479137e665d86e5f4232e4823924f0378c7c78c15ab954811bbfdebdea57b2",
+      "expected_sha256": "53479137e665d86e5f4232e4823924f0378c7c78c15ab954811bbfdebdea57b2",
+      "matches_release": true
+    },
+    {
+      "path": "poems.html",
+      "url": "https://kabitalive.com/poems.html",
+      "status": 200,
+      "sha256": "272106443c4649cdfc2f0c16ec90d3dce11c33c6fe8d5ca07f103cf86c451976",
+      "expected_sha256": "272106443c4649cdfc2f0c16ec90d3dce11c33c6fe8d5ca07f103cf86c451976",
+      "matches_release": true
+    },
+    {
+      "path": "about.html",
+      "url": "https://kabitalive.com/about.html",
+      "status": 200,
+      "sha256": "b427d8c644796450998c7f742aa72e7f4bf66b1a253aad1185afbbc65943a106",
+      "expected_sha256": "b427d8c644796450998c7f742aa72e7f4bf66b1a253aad1185afbbc65943a106",
+      "matches_release": true
+    },
+    {
+      "path": "contact.html",
+      "url": "https://kabitalive.com/contact.html",
+      "status": 200,
+      "sha256": "24eca359610342ab5f3a5c0abd8d91acdadb1cecc243b1a4698f574a433e9e61",
+      "expected_sha256": "24eca359610342ab5f3a5c0abd8d91acdadb1cecc243b1a4698f574a433e9e61",
+      "matches_release": true
+    },
+    {
+      "path": "translation-review.html",
+      "url": "https://kabitalive.com/translation-review.html",
+      "status": 200,
+      "sha256": "3826540978de58eb20337dfcd0413756d33dcfeab392f9c9a8d2e3165aa9ee0e",
+      "expected_sha256": "3826540978de58eb20337dfcd0413756d33dcfeab392f9c9a8d2e3165aa9ee0e",
+      "matches_release": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/ink-voice.css",
+      "url": "https://kabitalive.com/assets/ink-voice.css",
+      "status": 200,
+      "sha256": "da091a502b3df832bd0b95a5b60c859e0c6848d584b00658b5a4cc18d766f284",
+      "expected_sha256": "da091a502b3df832bd0b95a5b60c859e0c6848d584b00658b5a4cc18d766f284",
+      "matches_release": true
+    },
+    {
+      "path": "assets/kabita-live-symbol-ink-voice.svg",
+      "url": "https://kabitalive.com/assets/kabita-live-symbol-ink-voice.svg",
+      "status": 200,
+      "sha256": "659b8bcd628eedf5dbfbe2cd8365af1d46cb322d15bb1c1845cd203a3d22ffba",
+      "expected_sha256": "659b8bcd628eedf5dbfbe2cd8365af1d46cb322d15bb1c1845cd203a3d22ffba",
+      "matches_release": true
+    },
+    {
+      "path": "assets/reader-language.mjs",
+      "url": "https://kabitalive.com/assets/reader-language.mjs",
+      "status": 200,
+      "sha256": "e394119765ce9f8433ac7bcdc3f6734bb9c223909c11f3d42a346abaca880eac",
+      "expected_sha256": "e394119765ce9f8433ac7bcdc3f6734bb9c223909c11f3d42a346abaca880eac",
+      "matches_release": true
+    },
+    {
+      "path": "assets/poem-experience.js",
+      "url": "https://kabitalive.com/assets/poem-experience.js",
+      "status": 200,
+      "sha256": "2fbd1abd54e18ba5ee074f8aca9f07820f2a0870b27121842a8850d2ff1603c8",
+      "expected_sha256": "2fbd1abd54e18ba5ee074f8aca9f07820f2a0870b27121842a8850d2ff1603c8",
+      "matches_release": true
+    },
+    {
+      "path": "assets/poem-reader.js",
+      "url": "https://kabitalive.com/assets/poem-reader.js",
+      "status": 200,
+      "sha256": "52e29e43bd69cd2fb2aa2d01e63bcecf1daae250779adc5a2cab02e31547e2ce",
+      "expected_sha256": "52e29e43bd69cd2fb2aa2d01e63bcecf1daae250779adc5a2cab02e31547e2ce",
+      "matches_release": true
+    },
+    {
+      "path": "assets/home-featured.js",
+      "url": "https://kabitalive.com/assets/home-featured.js",
+      "status": 200,
+      "sha256": "0839279d97e5ab0932b9ea826402de18a3a4a764f6cb75b03156d75286088dd4",
+      "expected_sha256": "0839279d97e5ab0932b9ea826402de18a3a4a764f6cb75b03156d75286088dd4",
+      "matches_release": true
+    },
+    {
+      "path": "assets/app.js",
+      "url": "https://kabitalive.com/assets/app.js",
+      "status": 200,
+      "sha256": "1e7669d298e4feff1a00cd851659f580ede69fab36e2bcf4a64fc544c58f5246",
+      "expected_sha256": "1e7669d298e4feff1a00cd851659f580ede69fab36e2bcf4a64fc544c58f5246",
+      "matches_release": true
+    },
+    {
+      "path": "runtime-config.json",
+      "url": "https://kabitalive.com/runtime-config.json",
+      "status": 200,
+      "sha256": "a5657a427858e0c0c1e270205a02f90da7739e47f74b093b25e386e7b63089b3",
+      "expected_sha256": "a5657a427858e0c0c1e270205a02f90da7739e47f74b093b25e386e7b63089b3",
+      "matches_release": true
+    },
+    {
+      "path": "assets/fonts/Newsreader-Variable.woff2",
+      "url": "https://kabitalive.com/assets/fonts/Newsreader-Variable.woff2",
+      "status": 200,
+      "sha256": "a870e53cc8c72ef569896bece885d4e970bfe6ed06e00c47ce231e06df840e56",
+      "expected_sha256": "a870e53cc8c72ef569896bece885d4e970bfe6ed06e00c47ce231e06df840e56",
+      "matches_release": true
+    },
+    {
+      "path": "assets/fonts/Newsreader-Italic-Variable.woff2",
+      "url": "https://kabitalive.com/assets/fonts/Newsreader-Italic-Variable.woff2",
+      "status": 200,
+      "sha256": "a63373d11646e35693a257b6d251183b924cfe2ed0cfb8ece399c00850cb2b3c",
+      "expected_sha256": "a63373d11646e35693a257b6d251183b924cfe2ed0cfb8ece399c00850cb2b3c",
+      "matches_release": true
+    },
+    {
+      "path": "assets/fonts/Literata-Variable.woff2",
+      "url": "https://kabitalive.com/assets/fonts/Literata-Variable.woff2",
+      "status": 200,
+      "sha256": "2309416a85aaa610c4c7f352caaefb3f2575de7efbcaf727a342356ae85421a2",
+      "expected_sha256": "2309416a85aaa610c4c7f352caaefb3f2575de7efbcaf727a342356ae85421a2",
+      "matches_release": true
+    },
+    {
+      "path": "assets/fonts/Literata-Italic-Variable.woff2",
+      "url": "https://kabitalive.com/assets/fonts/Literata-Italic-Variable.woff2",
+      "status": 200,
+      "sha256": "9adfd841e484e8a609e5d87e6d371aed1fd1cdb6ca4fb3349e7feaf40146e17b",
+      "expected_sha256": "9adfd841e484e8a609e5d87e6d371aed1fd1cdb6ca4fb3349e7feaf40146e17b",
+      "matches_release": true
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://kabitalive.com/sitemap.xml",
+      "status": 200,
+      "sha256": "cdd0995dcc0f55156f412ca5633c9fd6edc197fc681795b1bc654cec2171f23e",
+      "expected_sha256": "cdd0995dcc0f55156f412ca5633c9fd6edc197fc681795b1bc654cec2171f23e",
+      "matches_release": true
+    },
+    {
+      "path": "robots.txt",
+      "url": "https://kabitalive.com/robots.txt",
+      "status": 200,
+      "sha256": "7f46ca708482b15e81651a2bc5922b0835673f510fa20bb29135f0f8c33f3c87",
+      "expected_sha256": "7f46ca708482b15e81651a2bc5922b0835673f510fa20bb29135f0f8c33f3c87",
+      "matches_release": true
+    },
+    {
+      "path": "branding-guide.html",
+      "url": "https://kabitalive.com/branding-guide.html",
+      "status": 404,
+      "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368"
+    },
+    {
+      "path": "design-system-review.html",
+      "url": "https://kabitalive.com/design-system-review.html",
+      "status": 404,
+      "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368"
+    },
+    {
+      "path": "kb/index.md",
+      "url": "https://kabitalive.com/kb/index.md",
+      "status": 404,
+      "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368"
+    },
+    {
+      "path": "assets/social/12dea1ca608f4810576a.jpg",
+      "url": "https://kabitalive.com/assets/social/12dea1ca608f4810576a.jpg",
+      "status": 200,
+      "sha256": "a2b60645a31cad35666abfa984692d13e2f32edb8717d0d7a43f51d95b9eb869",
+      "expected_sha256": "089d3ee3919586b7b56ea6d254d2c0d314326a33319d7696feede05e34de3929",
+      "matches_release": false,
+      "note": "Raster bytes may differ between Linux CI and macOS; browser image checked separately."
+    }
+  ],
+  "all_expected_pages_and_assets_200": true,
+  "internal_paths_404": true,
+  "exact_mismatches": []
+}
