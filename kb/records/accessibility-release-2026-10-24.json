@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-24T03:52:10.588654+00:00",
+  "status": "verified_approved_for_publication",
+  "release": "KBL-REL-020",
+  "work": "KBL-WORK-077",
+  "authorization": {
+    "decision": "KBL-DEC-099",
+    "actor": "Ahimanikya Satapathy",
+    "quote": "publish and then we can work on form",
+    "scope": "Publish the three verified accessibility fixes from the Modern Web Guidance audit; Toshali form work follows separately."
+  },
+  "scope": [
+    "Cover link names include visible cover lettering",
+    "Language button names include visible script glyphs, including quiet reader",
+    "Poem reading tools use a named semantic group"
+  ],
+  "source_manifest": "artifacts/review/modern-web-audit-2026-10-24/source-changes.json",
+  "hosting_mode": "discovery",
+  "independent": false,
+  "preserved": [
+    "Approved content, artwork and design",
+    "Manual owner-only publication and protected github-pages environment",
+    "Existing Toshali intake, deferred email, consent and services"
+  ],
+  "limitations": [
+    "Existing manual accessibility, Firefox/physical device, field performance and GA4 checks remain open in WORK-073."
+  ],
+  "baseline": "7f97d823cb27574fbce7337af2f43c9d905d1a4c",
+  "checks": {
+    "build": "PASS; discovery, 1318 routes",
+    "design_contract": "PASS; all 1318 routes",
+    "javascript_tests": 181,
+    "python_tests": 48,
+    "disclosures": "1808 files; zero violations",
+    "scope": "All four source before/after hashes match approved audit exactly.",
+    "protection": "main only; ahimanikya sole reviewer; administrator bypass disabled"
+  }
+}

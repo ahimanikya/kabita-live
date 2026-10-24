@@ -171,7 +171,8 @@ function render(){
   if(!choice)continue;
   button.disabled=!choice.available;button.lang=choice.code;
   const label=choice.original?'Original · '+languageNames[choice.code]:languageNames[choice.code]+' translation'+(choice.available?'':' unavailable');
-  button.setAttribute('aria-label',label);button.title=label;
+  const accessible=choice.original?'Original '+languageGlyphs[choice.code]+' · '+languageNames[choice.code]:languageGlyphs[choice.code]+' · '+label;
+  button.setAttribute('aria-label',accessible);button.title=label;
   button.querySelector('.focus-language-tip').textContent=label;
   if(choice.original){const name=button.querySelector('.original-language');name.textContent=languageGlyphs[choice.code];name.lang=choice.code;}
  }

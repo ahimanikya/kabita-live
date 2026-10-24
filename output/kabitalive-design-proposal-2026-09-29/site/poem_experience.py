@@ -98,9 +98,10 @@ def enhance_poem(body,p,data):
         enabled=code in data['variants'];selected=code==data['source_language']
         choice='original' if selected else code
         hint=f'Original · {name}' if selected else f'{name} translation'+(' unavailable' if not enabled else '')
-        label=f'<span class="original-label" lang="en">Original</span><span class="original-language" lang="{code}">{glyph}</span>' if selected else glyph
+        accessible=f'Original {glyph} · {name}' if selected else f'{glyph} · {hint}'
+        label=f'<span class="original-label" lang="en">Original</span> <span class="original-language" lang="{code}">{glyph}</span>' if selected else glyph
         attrs='' if enabled else ' disabled'
-        choices.append(f'<button type="button" role="tab" id="tab-{choice}" data-reading-language="{choice}" lang="{code}" aria-label="{hint}" title="{hint}" aria-selected="{str(selected).lower()}" aria-controls="reading-panel" tabindex="{0 if selected else -1}"{attrs}>{label}<span class="poem-language-tip" aria-hidden="true">{hint}</span></button>')
+        choices.append(f'<button type="button" role="tab" id="tab-{choice}" data-reading-language="{choice}" lang="{code}" aria-label="{accessible}" title="{hint}" aria-selected="{str(selected).lower()}" aria-controls="reading-panel" tabindex="{0 if selected else -1}"{attrs}>{label}<span class="poem-language-tip" aria-hidden="true">{hint}</span></button>')
     old=re.search(r'(?:<div class="experience-bar">.*?)?<div class="reader-tools">.*?(?=<div id="selection-tools")',body,re.S)
     if not old:raise ValueError(f'Missing reader controls for {p["id"]}')
     body=body[:old.start()]+body[old.end():]
@@ -128,6 +129,6 @@ def enhance_poem(body,p,data):
     compact=compact.replace('<span>Bookmarks</span>','<span class="poem-action-tip" aria-hidden="true">Bookmarks</span>').replace('<span>Share</span>','<span class="poem-action-tip" aria-hidden="true">Share</span>').replace('<span>Read quietly</span>','<span class="poem-action-tip" aria-hidden="true">Read quietly</span>')
     compact=compact.replace('data-share="', 'aria-label="Share poem" title="Share poem" data-share="').replace('aria-label="Read quietly"','aria-label="Read quietly" title="Read quietly"')
     body=body[:actions.start()]+compact+body[actions.end():]
-    body=body.replace(language_controls+compact,'<div class="poem-toolbar" aria-label="Poem reading tools">'+language_controls+compact+'</div>',1)
+    body=body.replace(language_controls+compact,'<div class="poem-toolbar" role="group" aria-label="Poem reading tools">'+language_controls+compact+'</div>',1)
     body=body.replace('<!--poem-responses-->',engagement,1)
     return body
