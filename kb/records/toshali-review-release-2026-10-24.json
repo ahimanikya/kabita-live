@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-24T12:08:37.217917+00:00",
-  "status": "published_live_check_failed_export_repair_prepared",
+  "status": "published_verified_after_export_repair",
   "authorization": {
     "decision": "KBL-DEC-103",
     "actor": "Ahimanikya Satapathy",
@@ -33,7 +33,7 @@
     "live_url": "https://kabitalive.com/"
   },
   "repair": {
-    "status": "approved",
+    "status": "published_verified",
     "scope": [
       "Export existing toshali-policy.mjs for form and review desk",
       "Export existing toshali-review-service.js for review desk",
@@ -45,6 +45,18 @@
       "actor": "Ahimanikya Satapathy",
       "quote": "Approve repair push and publication",
       "recorded_at": "2026-10-24T12:46:15.313400+00:00"
-    }
-  }
+    },
+    "release": "KBL-REL-022",
+    "decision": "KBL-DEC-105",
+    "commit": "4015b50393a5944d5383748ac622d3ff53eb980e",
+    "workflow_id": 40095321527,
+    "workflow": "https://github.com/ahimanikya/kabita-live/actions/runs/40095321527",
+    "checks": "Hosted build/security suites pass; 184 JavaScript and 49 Python tests pass; seven live pages/modules byte-match repaired build; live form open and Google review sign-in enabled."
+  },
+  "completed_at": "2026-10-24T12:55:04.277982+00:00",
+  "evidence": [
+    "artifacts/review/toshali-review-release-2026-10-24/repair-workflow.json",
+    "artifacts/review/toshali-review-release-2026-10-24/repair-live-http.json",
+    "artifacts/review/toshali-review-release-2026-10-24/live-review-ready.png"
+  ]
 }

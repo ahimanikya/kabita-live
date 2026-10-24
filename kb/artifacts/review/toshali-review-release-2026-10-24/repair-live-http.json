@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-24T12:54:15.165391+00:00",
+  "result": "PASS",
+  "checks": [
+    {
+      "path": "toshali-anthology-2027.html",
+      "status": 200,
+      "sha256": "7105c5169ad3080a8de5b9dc950088f56df3522ccd121f2b0f74a8e17483aeca",
+      "matches_tested_build": true
+    },
+    {
+      "path": "toshali-review.html",
+      "status": 200,
+      "sha256": "e87dd5931d9fc9cafe014d3110a95ee51e55a31193fb7cf16dc8d5d995f73934",
+      "matches_tested_build": true
+    },
+    {
+      "path": "assets/toshali-invitation.mjs",
+      "status": 200,
+      "sha256": "5b03aa6ae13689971ee3e66a7dbdc24a1272a378e966e11c19c81f701e553e93",
+      "matches_tested_build": true
+    },
+    {
+      "path": "assets/toshali-policy.mjs",
+      "status": 200,
+      "sha256": "3fe2619131aebd2da12b90974448535769f56b16a1d0ec0f4be0664f180756ec",
+      "matches_tested_build": true
+    },
+    {
+      "path": "assets/toshali-review.mjs",
+      "status": 200,
+      "sha256": "fb79b94f003472da80d192c8b74345094e388d015fccd9f3e48b4c4d8eef85da",
+      "matches_tested_build": true
+    },
+    {
+      "path": "assets/toshali-service.js",
+      "status": 200,
+      "sha256": "1f3be3e5c17ad43c3ca0ffdc0cc4b78d9df92e58e77fd2da0cb66894741aeb29",
+      "matches_tested_build": true
+    },
+    {
+      "path": "assets/toshali-review-service.js",
+      "status": 200,
+      "sha256": "feb97f32b56cae102fee4a09971b0c855427bac14f06a35d954e98808f3b84ee",
+      "matches_tested_build": true
+    }
+  ]
+}
