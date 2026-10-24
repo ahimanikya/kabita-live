@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-24T12:08:37.217917+00:00",
-  "status": "approved_preparing",
+  "status": "published_live_check_failed_export_repair_prepared",
   "authorization": {
     "decision": "KBL-DEC-103",
     "actor": "Ahimanikya Satapathy",
@@ -21,6 +21,30 @@
     "build": "PASS; discovery build; 1319 routes; 1809 disclosure files, zero violations",
     "tests": "184 JavaScript and 48 Python tests pass",
     "privacy": "Review shell exported, noindex, Pagefind ignored, outside sitemap and analytics",
-    "environment": "main only, ahimanikya sole required reviewer, administrator bypass disabled"
+    "environment": "main only, ahimanikya sole required reviewer, administrator bypass disabled",
+    "live_http": "FAIL: policy module and review-service bundle missing from export; other five checked files match tested build",
+    "live_browser": "Review shell visible but stuck Preparing sign-in due missing module"
+  },
+  "publication": {
+    "commit": "d3c32f88ef8b745b33726397c0eb35c748191b00",
+    "workflow_id": 40093197101,
+    "workflow": "https://github.com/ahimanikya/kabita-live/actions/runs/40093197101",
+    "status": "success",
+    "live_url": "https://kabitalive.com/"
+  },
+  "repair": {
+    "status": "approved",
+    "scope": [
+      "Export existing toshali-policy.mjs for form and review desk",
+      "Export existing toshali-review-service.js for review desk",
+      "Add public dependency-closure regression test"
+    ],
+    "validation": "Rebuilt 1319 public pages; regression test passes against actual dist. No feature, content, account or permission changes.",
+    "approval_required": "New repair publication requires explicit release approval under AGENTS.md / KBL-DEC-085",
+    "approval": {
+      "actor": "Ahimanikya Satapathy",
+      "quote": "Approve repair push and publication",
+      "recorded_at": "2026-10-24T12:46:15.313400+00:00"
+    }
   }
 }
