@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-24T02:42:29.645751+00:00",
-  "status": "combined_release_verified",
+  "status": "published_verified",
   "release": "KBL-REL-019",
   "work": "KBL-WORK-072",
   "authorization": {
@@ -37,7 +37,12 @@
     "initial_test_retry": "First tests started before build completed and failed on missing dist; rerun after completed build passes.",
     "toshali_firestore_storage_tests": 14,
     "profile_registry": "All429 entries and exact photo hashes match the registry seeded at activation; candidate SHA256 1f251564e4e414a48852194073e90ced217a70366fa94154afc47f7461a64669",
-    "toshali_browser": "Desktop/320px checked, no horizontal overflow; correct canonical profile search result, no console errors; local submission disabled as designed. Prior ten live backend checks retained, no new live submission claimed."
+    "toshali_browser": "Desktop/320px checked, no horizontal overflow; correct canonical profile search result, no console errors; local submission disabled as designed. Prior ten live backend checks retained, no new live submission claimed.",
+    "backend_readback": "PASS; live Firestore/Storage rules exactly match verified source; intake open; both App Check services ENFORCED; bucket public-access prevention enforced. Read-only verification; no real submission created.",
+    "hosted_build_and_all_tests": "PASS",
+    "live_http": "PASS;22checks; all checked HTML, source assets and runtime files exactly match the local release; two existing sharing JPEGs differ by platform encoding and returned200.",
+    "live_browser": "Our Story disclosure visible; Toshali artwork loaded and Private online submissions are open shown on the production host; no console errors. No new live entry submitted.",
+    "network_retry": "Initial Python connection timed out; IPv4 curl retry completed all22checks."
   },
   "independent": false,
   "limitations": [
@@ -52,5 +57,22 @@
     "workflow": "https://github.com/ahimanikya/kabita-live/actions/runs/40055352137",
     "hosting_mode": "discovery",
     "status": "cancelled_before_deployment"
-  }
+  },
+  "publication": {
+    "commit": "36247371f85693ed8daf413a37e2a8f743946dcc",
+    "workflow_id": 40055687317,
+    "workflow": "https://github.com/ahimanikya/kabita-live/actions/runs/40055687317",
+    "hosting_mode": "discovery",
+    "status": "success",
+    "verified_at": "2026-10-24T02:57:01.531184+00:00",
+    "live_url": "https://kabitalive.com/",
+    "protected_environment_approval": "Applied only for the exact tested commit under the user’s explicit combined-release approval; protections unchanged."
+  },
+  "completed_at": "2026-10-24T02:57:01.531184+00:00",
+  "live_evidence": [
+    "artifacts/review/website-release-2026-10-24/live-http.json",
+    "artifacts/review/website-release-2026-10-24/hosted-workflow.json",
+    "artifacts/review/website-release-2026-10-24/live-toshali.png",
+    "artifacts/review/website-release-2026-10-24/live-our-story.png"
+  ]
 }

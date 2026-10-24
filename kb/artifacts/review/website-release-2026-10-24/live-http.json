@@ -1,0 +1,158 @@
+{
+  "checked_at": "2026-10-24T02:56:06.672691+00:00",
+  "result": "PASS",
+  "checks": [
+    {
+      "route": "about.html",
+      "status": 200,
+      "sha256": "2b381ceebf8aeacd9de023896f36ed49e701edc8e7bc6c25fd4b5245db6375fe",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "assets/our-story.css",
+      "status": 200,
+      "sha256": "19410aa44aeddeaf36ee90f5df27e3daadd911aaa4ef30f08a3081cc4b8558d2",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "assets/reading-editions/issue-48.json",
+      "status": 200,
+      "sha256": "7d1842abf1334e7b38fb55a17a128498fac7211802861b1e1208f65acde7b8e5",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "assets/section-art/colours-of-poetry.webp",
+      "status": 200,
+      "sha256": "b65b818c35716f00fbee6e9c83060cddd32b23ebb18b2cd0af9b26a479fea65c",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "assets/social/12dea1ca608f4810576a.jpg",
+      "status": 200,
+      "sha256": "a2b60645a31cad35666abfa984692d13e2f32edb8717d0d7a43f51d95b9eb869",
+      "exact_local_match": false,
+      "pass": true
+    },
+    {
+      "route": "assets/social/9a41407d249a8cbe6847.jpg",
+      "status": 200,
+      "sha256": "f0c5cc498f31b8938158f7842c4a4cda023cc54ced37b4d5adaa39af09316b6c",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "assets/social/9e9f005d6d91c9efbb74.jpg",
+      "status": 200,
+      "sha256": "4ebde4c5197d81538e7647e85d01d198febef855b7dbcc9c0aa9cf416c800194",
+      "exact_local_match": false,
+      "pass": true
+    },
+    {
+      "route": "assets/toshali-invitation.css",
+      "status": 200,
+      "sha256": "ec6269fbd497ea72c8263e27b2c6bd701c1af55140bcbe0767b96ff58400e7e0",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "assets/toshali-invitation.mjs",
+      "status": 200,
+      "sha256": "8a971f522db302041e0122a0c6a236d064046d591effe076b04292aa425a2144",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "assets/toshali-poets.json",
+      "status": 200,
+      "sha256": "36b73bf8120b85a410d9d722d58e1640ab1641998735d9807ced05a71d0ac78b",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "assets/toshali-service.js",
+      "status": 200,
+      "sha256": "bed2fc225c9d2fd6def3fa2a5ffe9584900230196f141bf81eafc91206ca6c71",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "status": 200,
+      "sha256": "248026007ec05987aebc60b0e9c6dfff38545fb86c5f2bf158d829e16a45c515",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "issue-48.html",
+      "status": 200,
+      "sha256": "d931cd1edb8ee799b02340adff7d7c720b96da8a4605e56295a04ef024986ee8",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "poem-826.html",
+      "status": 200,
+      "sha256": "efcdda9c5dd935b4503b1c3397edab7117a4addf8eb51216da0ca7c1ff94c5a4",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "robots.txt",
+      "status": 200,
+      "sha256": "7f46ca708482b15e81651a2bc5922b0835673f510fa20bb29135f0f8c33f3c87",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "runtime-config.json",
+      "status": 200,
+      "sha256": "5f088412147fec7e9bc50957c82b3cc37bf0d6edc0c318f6eb05e8320a4c01c9",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "sitemap.xml",
+      "status": 200,
+      "sha256": "c57ad5018cf7ad58854e3c4f0f86ef70c7473317a3b26049ffd0304ecb898b32",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "thirty-languages-and-the-journey-of-a-poem.html",
+      "status": 200,
+      "sha256": "297b17328a52b4ee957b913802a1609e0dc10ba2d065f87d2ddc544c4958b9a2",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "toshali-anthology-2027.html",
+      "status": 200,
+      "sha256": "8c64a7c17419354b9cd4b5c40b7c7db5b19352c6fdacdd4f1582da359b82f891",
+      "exact_local_match": true,
+      "pass": true
+    },
+    {
+      "route": "kb/index.md",
+      "status": 404,
+      "pass": true,
+      "expected": "not exported"
+    },
+    {
+      "route": "branding-guide.html",
+      "status": 404,
+      "pass": true,
+      "expected": "not exported"
+    },
+    {
+      "route": "design-system-review.html",
+      "status": 404,
+      "pass": true,
+      "expected": "not exported"
+    }
+  ],
+  "limits": "Read-only live HTML/assets and private-route exclusion; no new submission or email delivery test."
+}
