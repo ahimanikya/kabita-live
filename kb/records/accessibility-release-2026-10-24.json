@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-24T03:52:10.588654+00:00",
-  "status": "verified_approved_for_publication",
+  "status": "published_verified",
   "release": "KBL-REL-020",
   "work": "KBL-WORK-077",
   "authorization": {
@@ -33,6 +33,27 @@
     "python_tests": 48,
     "disclosures": "1808 files; zero violations",
     "scope": "All four source before/after hashes match approved audit exactly.",
-    "protection": "main only; ahimanikya sole reviewer; administrator bypass disabled"
-  }
+    "protection": "main only; ahimanikya sole reviewer; administrator bypass disabled",
+    "hosted_build_and_security_tests": "PASS",
+    "live_http": "Seven routes/assets match tested release byte-for-byte",
+    "live_browser": "Cover labels include visible lettering; poem reading tools named group; quiet reader original/English names and language switching verified; no console errors."
+  },
+  "publication": {
+    "commit": "8affeb90468e734141f2ef56b3b654c517cd7a89",
+    "workflow_id": 40060236409,
+    "workflow": "https://github.com/ahimanikya/kabita-live/actions/runs/40060236409",
+    "hosting_mode": "discovery",
+    "status": "success",
+    "live_url": "https://kabitalive.com/",
+    "protected_environment_approval": "Applied for exact tested commit under explicit KBL-DEC-099; protections unchanged."
+  },
+  "completed_at": "2026-10-24T04:00:18.338260+00:00",
+  "evidence": [
+    "artifacts/review/accessibility-release-2026-10-24/build.log",
+    "artifacts/review/accessibility-release-2026-10-24/tests.log",
+    "artifacts/review/accessibility-release-2026-10-24/design-contract.json",
+    "artifacts/review/accessibility-release-2026-10-24/hosted-workflow.json",
+    "artifacts/review/accessibility-release-2026-10-24/live-http.json",
+    "artifacts/review/accessibility-release-2026-10-24/live-reader.png"
+  ]
 }
