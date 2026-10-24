@@ -1,3 +1,4 @@
+import {isClosed,DRAFT_FIELDS,readDraft,saveDraft,clearDraft} from './toshali-policy.mjs';
 export const countLines = value => value.split(/\r\n|\r|\n/u).filter(line => line.trim()).length;
 export const countWords = value => value.trim() ? value.trim().split(/\s+/u).length : 0;
 export function photoError(file) {
@@ -23,6 +24,12 @@ if (typeof document !== 'undefined') {
   const f=form.elements,result=document.getElementById('entry-draft'),status=document.getElementById('entry-status');
   const send=document.getElementById('submit-entry'),edit=document.getElementById('edit-entry'),readiness=document.getElementById('entry-readiness');
   let config=null,input=null,pending=null,sending=false,photoURL,selected=null,updating=false,profiles=[];
+  let draftStore;try{draftStore=window.sessionStorage;}catch{}
+  const recovered=readDraft(draftStore),recoveryNote=document.getElementById('draft-recovery-status');
+  let attempted=recovered?.attempt||null,completed=false;
+  if(recovered){for(const key of DRAFT_FIELDS)f[key].value=recovered.text[key];recoveryNote.textContent='Text restored in this tab. Choose your photograph or profile again and confirm consent before submitting.';}
+  function persistDraft(){if(completed)return;const ok=saveDraft(draftStore,Object.fromEntries(DRAFT_FIELDS.map(k=>[k,f[k].value])),attempted);if(!ok)recoveryNote.textContent='Draft saving is unavailable. Please keep your own copy before leaving.';}
+  document.getElementById('clear-local-draft').addEventListener('click',()=>{if(pending||sending||attempted)return;clearDraft(draftStore);form.reset();selected=null;updating=false;clearPhoto();displaySelection();changed();showMatches();recoveryNote.textContent='Saved draft cleared from this tab. Nothing already submitted has been deleted.';f.poetName.focus();});
   const matches=document.getElementById('profile-matches'),options=document.getElementById('profile-options'),selectedBox=document.getElementById('selected-profile'),keep=document.getElementById('keep-profile-picture');
   const el=(tag,text)=>{const n=document.createElement(tag);if(text)n.textContent=text;return n;};
   function clearPhoto(){f.photo.value='';if(photoURL)URL.revokeObjectURL(photoURL);document.getElementById('photo-preview').hidden=true;document.getElementById('photo-status').textContent='';}
@@ -52,7 +59,7 @@ if (typeof document !== 'undefined') {
   fetch('assets/toshali-poets.json').then(r=>{if(!r.ok)throw Error();return r.json();}).then(rows=>{profiles=rows;showMatches();}).catch(()=>{document.getElementById('profile-help').textContent='Profile lookup is unavailable. Reload to try again, or continue with a photograph.';});
   f.poetName.addEventListener('input',()=>{selected=null;updating=false;displaySelection();showMatches();changed();});
   keep.addEventListener('click',()=>{updating=false;clearPhoto();displaySelection();changed();});
-  const ready=fetch('runtime-config.json').then(r=>r.ok?r.json():Promise.reject()).then(r=>{config=r; if(r.anthology?.enabled===true && r.anthology.storageBucket && r.firebase?.enabled && location.protocol==='https:' && r.firebase.allowedHosts?.includes(location.hostname)) document.getElementById('intake-availability').textContent='Private online submissions are open.';}).catch(()=>{});
+  const ready=fetch('runtime-config.json').then(r=>r.ok?r.json():Promise.reject()).then(r=>{config=r; if(!isClosed() && r.anthology?.enabled===true && r.anthology.storageBucket && r.firebase?.enabled && location.protocol==='https:' && r.firebase.allowedHosts?.includes(location.hostname)) document.getElementById('intake-availability').textContent='Private online submissions are open.';}).catch(()=>{});
   function update(){
    for(const [key,id,n,max,label] of [['poem','poem-count',countLines(f.poem.value),30,'lines'],['bio','bio-count',countWords(f.bio.value),75,'words']]){
     f[key].setCustomValidity(n>max?`Please keep this to ${max} ${label} or fewer.`:!n?'Please fill out this field.':'');
@@ -63,7 +70,7 @@ if (typeof document !== 'undefined') {
    f.photo.setCustomValidity(photoChoice(selected,updating).photoMode==='profile'?'':photoError(f.photo.files[0]));
   }
   const lock=locked=>{for(const el of form.elements)el.disabled=locked;};
-  form.addEventListener('input',()=>{update();result.hidden=true;input=null;});
+  form.addEventListener('input',()=>{update();result.hidden=true;input=null;persistDraft();});
   f.photo.addEventListener('change',async()=>{
    const img=document.getElementById('photo-preview'),note=document.getElementById('photo-status');
    img.hidden=true;if(photoURL)URL.revokeObjectURL(photoURL);note.textContent='';
@@ -73,27 +80,28 @@ if (typeof document !== 'undefined') {
    catch{if(f.photo.files[0]!==file)return;f.photo.setCustomValidity('This image could not be opened. Choose another photograph.');note.textContent=f.photo.validationMessage;}
   });
   form.addEventListener('submit',async e=>{
-   e.preventDefault();update();if(!form.reportValidity())return;
+   e.preventDefault();if(isClosed()||attempted)return;update();if(!form.reportValidity())return;
    // Decode as an image before accepting the file; the original bytes are uploaded.
    try{if(photoChoice(selected,updating).photoMode==='upload')await document.getElementById('photo-preview').decode();}catch{f.photo.setCustomValidity('Choose a photograph that can be opened.');f.photo.reportValidity();return;}
    input={...Object.fromEntries(new FormData(form)),...photoChoice(selected,updating)};
    document.getElementById('entry-preview').value=entryText(input)+`\n\nPicture: ${input.photoMode==='profile'?`Existing profile picture — ${selected.name}`:input.photo.name}`;result.hidden=false;
    await ready;
-   const enabled=config?.anthology?.enabled===true&&config.anthology.callId==='toshali-2027'&&config.anthology.storageBucket&&config.firebase?.enabled&&location.protocol==='https:'&&config.firebase.allowedHosts?.includes(location.hostname);
+   const enabled=!isClosed()&&config?.anthology?.enabled===true&&config.anthology.callId==='toshali-2027'&&config.anthology.storageBucket&&config.firebase?.enabled&&location.protocol==='https:'&&config.firebase.allowedHosts?.includes(location.hostname);
    readiness.textContent=enabled?'Your poem, biodata and photograph will be saved privately for anthology review.':'Preview only: online submissions are not active here yet. Nothing has been uploaded or saved. For an entry now, email the organisers directly.';
    send.disabled=!enabled;document.getElementById('draft-heading').focus();
   });
   edit.addEventListener('click',()=>{if(pending||sending)return;result.hidden=true;f.poem.focus();});
   send.addEventListener('click',async()=>{
-   if(sending||!input||send.disabled)return;sending=true;lock(true);send.disabled=true;edit.disabled=true;
+   if(sending||!input||send.disabled)return;if(isClosed()){deadline();return;}sending=true;lock(true);send.disabled=true;edit.disabled=true;
    status.textContent='Saving your private entry…';
    try{
     const service=await import('./toshali-service.js');
     pending??=await service.createSubmission(config,input);
+    attempted=pending.doc.id;persistDraft();
     const receipt=await service.finishSubmission(pending,(done,total)=>{status.textContent=`Uploading photograph… ${Math.round(done/total*100)}%`;});
     status.textContent=`Your entry and photograph have been received privately. Reference: ${receipt}. This confirms receipt, not selection for publication.`;
     send.textContent='Entry received';readiness.textContent='Please keep your reference number. Your submission is not public.';
-    pending=null;input=null;
+    pending=null;input=null;completed=true;clearDraft(draftStore);
    }catch{
     status.textContent='We could not confirm completion. Your entry is still here. Retry to check the same submission and finish the upload; do not close this page yet.';
     send.textContent='Retry submission';send.disabled=false;
@@ -101,6 +109,13 @@ if (typeof document !== 'undefined') {
    }finally{sending=false;}
   });
   window.addEventListener('beforeunload',e=>{if(pending||sending){e.preventDefault();e.returnValue='';}});
-  document.getElementById('prepare-button').hidden=false;update();
+  function deadline(){if(!isClosed())return false;document.getElementById('intake-availability').textContent='Submissions closed at midnight after 31 October 2026 (India time).';send.disabled=true;document.getElementById('prepare-button').disabled=true;readiness.textContent='Submissions are closed. Your text remains available to copy.';return true;}
+  document.getElementById('prepare-button').hidden=false;update();deadline();
+  const deadlineTimer=setInterval(deadline,15000);window.addEventListener('pagehide',()=>clearInterval(deadlineTimer));
+  ready.then(deadline);
+  if(attempted){
+   lock(true);send.disabled=true;recoveryNote.textContent=`An earlier submission attempt has reference ${attempted}. Checking its receipt before allowing another entry…`;
+   ready.then(async()=>{try{const service=await import('./toshali-service.js');const received=await service.checkReceipt(config,attempted);if(received){completed=true;clearDraft(draftStore);recoveryNote.textContent=`Your entry was received. Reference: ${attempted}. No second entry has been sent.`;}else{recoveryNote.textContent=`Completion is not confirmed for reference ${attempted}. Your text is restored below. Contact toshalianthology@gmail.com with this reference before submitting again; the photograph may need to be supplied again.`;}}catch{recoveryNote.textContent=`Receipt could not be checked for ${attempted}. Reload to retry, or contact toshalianthology@gmail.com with this reference before submitting again.`;}});
+  }
  }
 }

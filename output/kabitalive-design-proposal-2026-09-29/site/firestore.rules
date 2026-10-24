@@ -37,9 +37,44 @@ service cloud.firestore {
     // Toshali intake is separate from reader feedback and public engagement.
     function anthologyOpen() {
       return exists(/databases/$(database)/documents/anthologyCalls/toshali-2027)
-        && get(/databases/$(database)/documents/anthologyCalls/toshali-2027).data.open == true;
+        && get(/databases/$(database)/documents/anthologyCalls/toshali-2027).data.open == true
+        && request.time < timestamp.date(2026, 10, 31) + duration.value(66600, 's');
     }
-    function anthologyEditor() { return signedIn() && request.auth.token.get('anthologyEditor', false) == true; }
+    function anthologyEditor() {
+      return signedIn() && request.auth.token.get('email_verified', false) == true
+        && request.auth.token.firebase.sign_in_provider == 'google.com'
+        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com']
+        && get(/databases/$(database)/documents/anthologyReviewers/$(request.auth.token.email)).data.enabled == true;
+    }
+    match /anthologyReviewers/{email} {
+      allow get: if anthologyEditor() && request.auth.token.email == email;
+    }
+    function reviewPath(id) { return /databases/$(database)/documents/anthologyReviews/$(id); }
+    function reviewEvent(id,revision) { return /databases/$(database)/documents/anthologyReviews/$(id)/history/$(revision); }
+    function validReview(id) {
+      let d = request.resource.data;
+      return anthologyEditor() && get(anthologyDoc(id)).data.status == 'received'
+        && get(anthologyDoc(id)).data.callId == 'toshali-2027'
+        && d.keys().hasAll(['status','revision','updatedAt','updatedBy'])
+        && d.keys().hasOnly(['status','revision','updatedAt','updatedBy'])
+        && d.status in ['received','shortlisted','selected','declined']
+        && d.updatedAt == request.time && d.updatedBy == request.auth.token.email
+        && d.revision is int && d.revision > 0
+        && getAfter(reviewEvent(id,string(d.revision))).data == d;
+    }
+    match /anthologyReviews/{id} {
+      allow read: if anthologyEditor();
+      allow create: if validReview(id) && request.resource.data.revision == 1;
+      allow update: if validReview(id) && request.resource.data.revision == resource.data.revision + 1;
+      match /history/{revision} {
+        allow read: if anthologyEditor();
+        allow create: if anthologyEditor()
+          && revision == string(request.resource.data.revision)
+          && getAfter(reviewPath(id)).data == request.resource.data
+          && ((!exists(reviewPath(id)) && request.resource.data.revision == 1)
+            || (exists(reviewPath(id)) && request.resource.data.revision == get(reviewPath(id)).data.revision + 1));
+      }
+    }
     function anthologyDoc(id) { return /databases/$(database)/documents/anthologySubmissions/$(id); }
     function anthologyReceipt(uid,id) { return /databases/$(database)/documents/anthologyReceipts/$(uid)/items/$(id); }
     function anthologyThrottle(uid) { return /databases/$(database)/documents/anthologyThrottle/$(uid); }
@@ -86,10 +121,8 @@ service cloud.firestore {
         && request.resource.data.receivedAt == request.time
         && getAfter(anthologyReceipt(request.auth.uid,id)).data.submissionId == id
         && getAfter(anthologyReceipt(request.auth.uid,id)).data.receivedAt == request.time;
-      allow update: if anthologyEditor() && resource.data.status == 'received'
-        && request.resource.data.status in ['reviewed','closed']
-        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status']);
-      allow delete: if anthologyEditor();
+      // Original entries are immutable after receipt; editorial decisions live separately.
+      // Indefinite retention: no client deletion, including reviewers.
     }
     match /anthologyReceipts/{uid}/items/{id} {
       allow get: if signedIn() && request.auth.uid == uid;

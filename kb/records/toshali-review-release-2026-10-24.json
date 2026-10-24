@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-24T12:08:37.217917+00:00",
+  "status": "approved_preparing",
+  "authorization": {
+    "decision": "KBL-DEC-103",
+    "actor": "Ahimanikya Satapathy",
+    "quote": "publish",
+    "scope": "The prepared Toshali review desk and form update presented immediately before approval; source manifest pinned to 19 hashes."
+  },
+  "release": "KBL-REL-021",
+  "work": "KBL-WORK-078",
+  "source_manifest": "artifacts/review/toshali-review-desk-2026-10-24/release-scope.json",
+  "hosting_mode": "discovery",
+  "baseline": "90a489b2833c473ead69d623d0b02845610c5f97",
+  "independent": false,
+  "limitations": [
+    "First personal sign-in and authenticated photo viewing by each reviewer require their own account session; no real contributor emails are sent by this release."
+  ],
+  "checks": {
+    "source_hashes": "All 19 approved hashes match after isolated build",
+    "build": "PASS; discovery build; 1319 routes; 1809 disclosure files, zero violations",
+    "tests": "184 JavaScript and 48 Python tests pass",
+    "privacy": "Review shell exported, noindex, Pagefind ignored, outside sitemap and analytics",
+    "environment": "main only, ahimanikya sole required reviewer, administrator bypass disabled"
+  }
+}

@@ -1,13 +1,19 @@
 rules_version = '2';
 service firebase.storage {
   match /b/{bucket}/o {
-    function reviewer() { return request.auth != null && request.auth.token.get('anthologyEditor', false) == true; }
+    function reviewer() {
+      return request.auth != null && request.auth.token.get('email_verified', false) == true
+        && request.auth.token.firebase.sign_in_provider == 'google.com'
+        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com']
+        && firestore.get(/databases/(default)/documents/anthologyReviewers/$(request.auth.token.email)).data.enabled == true;
+    }
     match /anthology/toshali-2027/{uid}/{id}/photo {
       function entry() { return firestore.get(/databases/(default)/documents/anthologySubmissions/$(id)); }
       function own() { return request.auth != null && request.auth.uid == uid; }
       allow read: if reviewer() || (own() && entry().data.uid == uid);
       allow create: if resource == null && own() && id.matches('^[A-Za-z0-9]{20}$')
         && firestore.get(/databases/(default)/documents/anthologyCalls/toshali-2027).data.open == true
+        && request.time < timestamp.date(2026, 10, 31) + duration.value(66600, 's')
         && entry().data.uid == uid && entry().data.callId == 'toshali-2027'
         && entry().data.status == 'uploading' && entry().data.photoMode == 'upload'
         && entry().data.photoPath == 'anthology/toshali-2027/' + uid + '/' + id + '/photo'
@@ -15,7 +21,7 @@ service firebase.storage {
         && request.resource.size == entry().data.photoSize
         && request.resource.contentType in ['image/jpeg','image/png','image/webp']
         && request.resource.contentType == entry().data.photoType;
-      allow delete: if reviewer();
+      // No client deletion: original photographs are retained indefinitely.
     }
     match /{allPaths=**} { allow read, write: if false; }
   }

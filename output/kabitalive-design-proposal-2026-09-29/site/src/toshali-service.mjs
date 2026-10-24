@@ -39,3 +39,10 @@ export async function finishSubmission(p,progress){
  if(!(await store.getDocFromServer(p.receipt)).exists())throw Error('Receipt not confirmed');
  return p.doc.id;
 }
+
+export async function checkReceipt(config,id){
+ if(!/^[A-Za-z0-9]{20}$/.test(id)||!siteRuntimeAllowed(config?.firebase,'kabita-live',location))throw Error('Receipt check unavailable');
+ const app=selectKabitaFeedbackApp(appSdk,config.firebase,location);await ensureAppCheck(app,config.firebase);
+ const user=await restoreSiteUser(authSdk,app);
+ return (await store.getDocFromServer(store.doc(store.getFirestore(app),'anthologyReceipts',user.uid,'items',id))).exists();
+}

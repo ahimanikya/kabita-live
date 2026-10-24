@@ -46,3 +46,19 @@
 .toshali-profile-card a{padding:.5rem 0;min-height:44px;box-sizing:border-box;font-size:.875rem}
 .toshali-profile-actions{display:flex;flex-wrap:wrap;gap:.5rem;width:100%}
 #selected-profile>p{font-size:.875rem;line-height:1.6;color:var(--muted)}
+/* Private desk reuses the invitation's typography and controls. */
+#review-workspace {max-inline-size:48rem}
+#review-entries {padding-inline-start:1.5rem}
+#review-entries button {text-align:start;max-inline-size:100%;overflow-wrap:anywhere;margin-block:.3rem}
+#review-entry {border-block-start:1px solid var(--line);margin-block-start:2rem;padding-block-start:1rem}
+.review-poem {white-space:pre-wrap;font-size:1.375rem;line-height:1.8;overflow-wrap:anywhere}
+#review-photo {object-fit:contain;max-inline-size:100%}
+#review-decision fieldset {display:flex;flex-wrap:wrap;gap:.5rem 1rem;margin-block:1rem}
+#review-decision label {display:flex;align-items:center;gap:.5rem;min-block-size:3rem}
+#review-email label {display:block;margin-block-start:1rem}
+#review-email input,#review-email textarea {box-sizing:border-box;inline-size:100%;font:inherit;padding:.75rem;color:var(--ink);background:var(--paper);border:1px solid var(--muted);border-radius:0}
+#review-email textarea {resize:vertical}
+#review-workspace h2 {margin-block:2rem 1rem}
+#review-entry h3 {margin-block:1.75rem .75rem}
+#review-entry p {overflow-wrap:anywhere}
+.review-poem {font-family:var(--serif),var(--odia),serif}

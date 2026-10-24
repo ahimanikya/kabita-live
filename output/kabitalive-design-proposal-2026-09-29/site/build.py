@@ -257,6 +257,8 @@ page("translation-review.html", "Translation review", render_translation_review(
 # Apply the approved website theme last, after all page-family styles/content.
 from toshali_invitation import render_toshali_invitation
 render_toshali_invitation(R, page)
+from toshali_review import render_toshali_review
+render_toshali_review(R, page)
 
 from ink_voice import apply_ink_voice
 apply_ink_voice(R, [name for name, *_ in pages] + ['search.html'],

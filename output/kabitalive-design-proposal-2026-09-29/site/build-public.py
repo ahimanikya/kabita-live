@@ -105,7 +105,7 @@ discovery_enabled=args.discoverable or args.release
 discovery_policy=json.loads((root/'data/discovery.json').read_text())
 for name in pages:
     html=inject((root/name).read_text(),social[name])
-    if name=='translation-review.html':
+    if name in {'translation-review.html','toshali-review.html'}:
         html=html.replace('<html ', '<html data-pagefind-ignore="all" ',1)
     else:
         html=html.replace('<main id="main"','<main data-pagefind-body id="main"',1)
@@ -122,10 +122,10 @@ runtime=json.loads((root/'runtime-config.json').read_text())
 base='/' + os.environ.get('SITE_BASE','').strip('/')
 if not base.endswith('/'):base+='/'
 runtime['analytics']['basePath']=base
-runtime['analytics']['catalogue']=analytics_catalogue(root,[p for p in pages if p!='translation-review.html'])
+runtime['analytics']['catalogue']=analytics_catalogue(root,[p for p in pages if p not in {'translation-review.html','toshali-review.html'}])
 runtime['analytics']['publicPages']={}
 for name in pages:
-    if name in {'404.html','search.html','translation-review.html'}:continue
+    if name in {'404.html','search.html','translation-review.html','toshali-review.html'}:continue
     title=re.search(r'<title>(.*?)</title>',(root/name).read_text(),re.S)
     if title:
         runtime['analytics']['publicPages'][base+name]=html_lib.unescape(title.group(1)).strip()
