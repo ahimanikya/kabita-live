@@ -1,11 +1,23 @@
 [
   {
     "path": ".github/workflows/publish-site.yml",
-    "sha256": "aef6b3874af641e48b4e4a49f84bb4d67b32999810fe83dd1e330ba237b9f5e9"
+    "sha256": "0e89dc564ea6a87c7bf08fb4f94ab0f0c869285661688bee5bf9805485e05356"
   },
   {
     "path": "output/kabitalive-design-proposal-2026-09-29/site/about.html",
     "sha256": "1e676df1aeae392f0866dc3b488a504ed468c26b8e17a8bfd855008a0281f4ee"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/assets/invitations/toshali/writing-desk-1200.webp",
+    "sha256": "92ed124b5f190966921042e71e40373cdf0f48a4280caf8a7ac47399a0c4b81e"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/assets/invitations/toshali/writing-desk-1536.webp",
+    "sha256": "de153fddc985197b0aa78db73d01ad8aa92adf2bc58f2c7cb42c1f0c57ddceb7"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/assets/invitations/toshali/writing-desk-640.webp",
+    "sha256": "7eac967f6036945a70574093b7b081e74e9177143c6b51b09266dfeb3693ec89"
   },
   {
     "path": "output/kabitalive-design-proposal-2026-09-29/site/assets/our-story.css",
@@ -24,42 +36,6 @@
     "sha256": "7d1842abf1334e7b38fb55a17a128498fac7211802861b1e1208f65acde7b8e5"
   },
   {
-    "path": "output/kabitalive-design-proposal-2026-09-29/site/content/articles/thirty-languages.html",
-    "sha256": "788b86083eb61b16ce1f983bb39469cfbd82e31f3e1fc3a4d25625fd15290af3"
-  },
-  {
-    "path": "output/kabitalive-design-proposal-2026-09-29/site/data/edition-art-direction.json",
-    "sha256": "0c32f2812fd05b5c0b7c8223759c7281101488f70d985a7858eca7de602c06bd"
-  },
-  {
-    "path": "output/kabitalive-design-proposal-2026-09-29/site/data/image-delivery.json",
-    "sha256": "17cea1692144a91e983d216b5c254120259b26adedefb338ffc97b52a923bd65"
-  },
-  {
-    "path": "output/kabitalive-design-proposal-2026-09-29/site/issue-48.html",
-    "sha256": "deb940cbf0768d4ee28d15d392f31f95d6b461ffde7cf651e84592cbdb31c323"
-  },
-  {
-    "path": "output/kabitalive-design-proposal-2026-09-29/site/our_story.py",
-    "sha256": "9ba4aecb55d306de6def16aa94059dd0933cbde1293cc3051f248a8c468d47dd"
-  },
-  {
-    "path": "output/kabitalive-design-proposal-2026-09-29/site/package.json",
-    "sha256": "35e6fefe59894e61cda2b3323250bfcec735f378ac051fab9be2de4feada6f11"
-  },
-  {
-    "path": "output/kabitalive-design-proposal-2026-09-29/site/poem-826.html",
-    "sha256": "996d5767da391ed816c14d84a0213ab08085d609defd1b4153e0fa2bc6cb3259"
-  },
-  {
-    "path": "output/kabitalive-design-proposal-2026-09-29/site/poems.html",
-    "sha256": "1896db1f2d2cd9fa107d7ef69d2f63ab6b2c063a18a5c0cd3da8daeca597100c"
-  },
-  {
-    "path": "output/kabitalive-design-proposal-2026-09-29/site/thirty-languages-and-the-journey-of-a-poem.html",
-    "sha256": "f082af77f1c660d889b80e33cac35292369a45b22a64f6781efa9b8a5ea185c8"
-  },
-  {
     "path": "output/kabitalive-design-proposal-2026-09-29/site/assets/responsive/b65b818c35716f00-480.webp",
     "sha256": "bbecef4978282c3d694be4df9cbf1353454c8f659b9cab7fe4db890a178c400b"
   },
@@ -76,6 +52,86 @@
     "sha256": "b65b818c35716f00fbee6e9c83060cddd32b23ebb18b2cd0af9b26a479fea65c"
   },
   {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/assets/toshali-invitation.css",
+    "sha256": "ec6269fbd497ea72c8263e27b2c6bd701c1af55140bcbe0767b96ff58400e7e0"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/assets/toshali-invitation.mjs",
+    "sha256": "8a971f522db302041e0122a0c6a236d064046d591effe076b04292aa425a2144"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/assets/toshali-poets.json",
+    "sha256": "36b73bf8120b85a410d9d722d58e1640ab1641998735d9807ced05a71d0ac78b"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/assets/toshali-service.js",
+    "sha256": "bed2fc225c9d2fd6def3fa2a5ffe9584900230196f141bf81eafc91206ca6c71"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/build-public.py",
+    "sha256": "b340ec811445aed54bf02a32ec62114e1a63d33ebc5cc78b616b6f0b4586b06a"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/build.py",
+    "sha256": "70aeb89fa46230e1e14a48b958b29695eeac0ebc8be3e44a2c02c5cfbc7cd0f0"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/content/articles/thirty-languages.html",
+    "sha256": "788b86083eb61b16ce1f983bb39469cfbd82e31f3e1fc3a4d25625fd15290af3"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/data/edition-art-direction.json",
+    "sha256": "0c32f2812fd05b5c0b7c8223759c7281101488f70d985a7858eca7de602c06bd"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/data/image-delivery.json",
+    "sha256": "17cea1692144a91e983d216b5c254120259b26adedefb338ffc97b52a923bd65"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/firebase.json",
+    "sha256": "ceba0c5b9a87ad36a9ce0ef1af2d50e187cabf8f85f3fe1e1327aeec5c365e5a"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/firestore.rules",
+    "sha256": "556de0cdb5a2c1f82489e586e128e67b32a557f8d51b64d58bce3a9b48c005ae"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/issue-48.html",
+    "sha256": "deb940cbf0768d4ee28d15d392f31f95d6b461ffde7cf651e84592cbdb31c323"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/our_story.py",
+    "sha256": "9ba4aecb55d306de6def16aa94059dd0933cbde1293cc3051f248a8c468d47dd"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/package.json",
+    "sha256": "4d62ef2d04786dde949ed907b8f0260ae67572f358a058a2e14adc388bf5c51d"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/poem-826.html",
+    "sha256": "996d5767da391ed816c14d84a0213ab08085d609defd1b4153e0fa2bc6cb3259"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/poems.html",
+    "sha256": "1896db1f2d2cd9fa107d7ef69d2f63ab6b2c063a18a5c0cd3da8daeca597100c"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/public_routes.py",
+    "sha256": "cb01384d043ec8020b3b191c0b1ff4994d14112c5258ed29444716d068164334"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/runtime-config.json",
+    "sha256": "50209f3f88d11b0f63a0cf31c0ae3fde5ed4ade31cba6e1d1a570c56e4faf5f5"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/src/toshali-service.mjs",
+    "sha256": "5bc880f4fffb9283675ddf7a803bf5d6b9e72bdd4f55918d4b4f7adbb0cda43e"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/storage.rules",
+    "sha256": "97dcea7e65384ee259218a89b0b1510aac1c0153af66f7dfe5e4fe5010e1a987"
+  },
+  {
     "path": "output/kabitalive-design-proposal-2026-09-29/site/templates/our-story-ai.html",
     "sha256": "a21cc362edcd21edebd0ee68e01712341a25b14aede9d0f3ba1277415667aedd"
   },
@@ -88,7 +144,35 @@
     "sha256": "81b2bdcb0b68d088362e7f0d173ddf15d913ea92084413837721e5644b045354"
   },
   {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/tests/test_toshali_profiles.py",
+    "sha256": "c1bec5813c02ac94fcde3a74b3c3c22349a737b9eeebda52c46b1f9141b31247"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/tests/toshali-invitation.test.mjs",
+    "sha256": "d4e846fb7bf46c77ac10175ad0a1958b5c3db3d6ff6f8dbdc7203fa3a32d5566"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/tests/toshali.storage-test.mjs",
+    "sha256": "1ecf04f58ae37a54eef91d6046ae575eab5adf1e223c5b2946059ba2ec6758d0"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/thirty-languages-and-the-journey-of-a-poem.html",
+    "sha256": "f082af77f1c660d889b80e33cac35292369a45b22a64f6781efa9b8a5ea185c8"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/tools/bundle-feedback.mjs",
+    "sha256": "dbb604b6b3f9d7a26c53dcb45b869e4550e0e4dc53f5ab2a114df4247e103d21"
+  },
+  {
     "path": "output/kabitalive-design-proposal-2026-09-29/site/tools/check_public_disclosures.py",
     "sha256": "ebd3e62a623ff00cbf6354930684b0548d257587bbbc3905dd0edc982e801dce"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/toshali-anthology-2027.html",
+    "sha256": "d051a91332f5c00865eafe0fae13ef35257b2f77c2238efed302df4fa9c71e69"
+  },
+  {
+    "path": "output/kabitalive-design-proposal-2026-09-29/site/toshali_invitation.py",
+    "sha256": "b968a283fafdcc4bea7b9c0122c8bf39967b6c896237dbef9f2d4def493b3aab"
   }
 ]

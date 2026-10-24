@@ -5,3 +5,7 @@ if(result.status!==0)throw result.error??Error('Service bundle build failed');
 
 const analytics=spawnSync(process.execPath,['tools/bundle-analytics.mjs'],{stdio:'inherit'});
 if(analytics.status!==0)throw analytics.error??Error('Analytics bundle build failed');
+
+// Anthology provider loads only after a reader chooses to submit.
+const {build}=await import("esbuild");
+await build({entryPoints:["src/toshali-service.mjs"],outfile:"assets/toshali-service.js",bundle:true,format:"esm",target:"es2022",minify:true,legalComments:"eof"});

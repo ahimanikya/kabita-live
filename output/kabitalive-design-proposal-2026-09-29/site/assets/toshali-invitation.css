@@ -1,0 +1,48 @@
+.toshali-invite{padding-bottom:3rem}
+.toshali-invite .toshali-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center;margin:2.5rem 0 3.5rem}
+.toshali-invite h1{font:500 clamp(2.6rem,4.3vw,4.1rem)/1.08 var(--display);letter-spacing:-.025em;margin:1rem 0 1.5rem}
+.toshali-invite h1 em{font-weight:400;color:var(--rust)}
+.toshali-invite .toshali-deck{font:400 1.65rem/1.4 var(--display);color:var(--rust)}
+.toshali-hero p{line-height:1.7;max-width:34rem}
+.toshali-hero figure{margin:0}
+.toshali-hero img{display:block;width:100%;height:auto;border-radius:2px}
+.toshali-deadline{margin:1.5rem 0 1rem}
+.toshali-organiser{font-size:.875rem;color:var(--muted);margin-top:1rem}
+.toshali-invite .toshali-requirements{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;padding:2rem 0;border-block:1px solid var(--line)}
+.toshali-number{font:400 2.6rem/1 var(--display);color:var(--rust)}
+.toshali-requirements h2{font:500 1.35rem/1.4 var(--display);margin:.5rem 0}
+.toshali-requirements p{margin:0;color:var(--muted)}
+.toshali-intake{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);gap:clamp(2rem,6vw,6rem);padding-top:3.5rem;scroll-margin-top:1.5rem}
+.toshali-intake h2{font:500 2.5rem/1.1 var(--display);margin:.75rem 0 1.5rem}
+.toshali-intake aside p{line-height:1.75}
+.toshali-intake details{margin-top:2rem;font-size:.9375rem}
+.toshali-intake summary{min-height:44px;cursor:pointer}
+.toshali-email{overflow-wrap:anywhere}
+.toshali-form-wrap{min-width:0}
+.toshali-form-note,.toshali-help{font-size:.875rem;line-height:1.6;color:var(--muted)}
+.toshali-fields{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem}
+.toshali-invite label:not(.toshali-check){display:block;font:500 1rem/1.5 var(--ui);margin:1.25rem 0 .5rem}
+.toshali-invite input:not([type=checkbox]),.toshali-invite textarea{width:100%;min-width:0;box-sizing:border-box;border:1px solid var(--line);border-radius:3px;background:var(--paper);color:var(--ink);font:400 1rem/1.7 var(--ui);padding:.75rem;min-height:48px}
+.toshali-invite textarea{resize:vertical;font-family:var(--serif);white-space:pre-wrap}
+.toshali-invite .toshali-count{text-align:right;color:var(--muted);font-size:.8125rem;margin:.35rem 0 1.25rem}
+.toshali-invite .toshali-count.over-limit{color:var(--rust);font-weight:700}
+.toshali-check{display:flex;gap:.75rem;align-items:center;min-height:48px;margin:1rem 0 1.5rem;font-size:.9375rem}
+.toshali-check input{width:1.2rem;height:1.2rem;flex:none;accent-color:var(--rust)}
+.toshali-invite :focus-visible{outline:2px solid var(--rust);outline-offset:4px}
+.toshali-draft{margin-top:2rem;padding:1.5rem;background:var(--panel);border-radius:3px}
+.toshali-draft h3{font:500 1.6rem/1.3 var(--display)}
+.toshali-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin:1rem 0}
+.toshali-invite [hidden]{display:none!important}
+@media(max-width:760px){.toshali-invite .toshali-hero,.toshali-intake{grid-template-columns:1fr;gap:2rem}.toshali-invite .toshali-hero{margin-top:1.5rem}.toshali-invite .toshali-requirements{gap:1rem}.toshali-requirements h2{font-size:1.1rem}.toshali-requirements p{font-size:.875rem}.toshali-intake{padding-top:2.5rem}.toshali-fields{grid-template-columns:1fr;gap:0}}
+@media(max-width:380px){.toshali-invite .toshali-requirements{grid-template-columns:1fr}.toshali-requirements>div{display:grid;grid-template-columns:3rem 1fr;gap:0 1rem}.toshali-number{grid-row:span 2}.toshali-requirements h2{margin:0}.toshali-draft{padding:1rem}}
+#photo-preview{object-fit:contain;width:120px;height:120px;margin:1rem 0;background:var(--panel)}
+.toshali-invite button:disabled{opacity:.55;cursor:not-allowed}
+.toshali-invite input[type=file]{white-space:normal;overflow-wrap:anywhere}
+
+.toshali-profile-card{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;padding:1rem 0;border-bottom:1px solid var(--line)}
+.toshali-profile-card img{width:80px;height:80px;object-fit:contain;flex:none}
+.toshali-profile-card>div:not(.toshali-profile-actions){flex:1;min-width:10rem;overflow-wrap:anywhere}
+.toshali-profile-card strong,.toshali-profile-card a{display:block}
+.toshali-profile-card a{padding:.5rem 0;min-height:44px;box-sizing:border-box;font-size:.875rem}
+.toshali-profile-actions{display:flex;flex-wrap:wrap;gap:.5rem;width:100%}
+#selected-profile>p{font-size:.875rem;line-height:1.6;color:var(--muted)}

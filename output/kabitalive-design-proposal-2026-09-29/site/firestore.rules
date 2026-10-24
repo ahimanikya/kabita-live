@@ -34,6 +34,83 @@ service cloud.firestore {
         && request.resource.data.lastFeedbackId.matches('^[A-Za-z0-9]{20}$');
       allow read, delete: if editor();
     }
+    // Toshali intake is separate from reader feedback and public engagement.
+    function anthologyOpen() {
+      return exists(/databases/$(database)/documents/anthologyCalls/toshali-2027)
+        && get(/databases/$(database)/documents/anthologyCalls/toshali-2027).data.open == true;
+    }
+    function anthologyEditor() { return signedIn() && request.auth.token.get('anthologyEditor', false) == true; }
+    function anthologyDoc(id) { return /databases/$(database)/documents/anthologySubmissions/$(id); }
+    function anthologyReceipt(uid,id) { return /databases/$(database)/documents/anthologyReceipts/$(uid)/items/$(id); }
+    function anthologyThrottle(uid) { return /databases/$(database)/documents/anthologyThrottle/$(uid); }
+    function anthologyText(value, max) { return value is string && value.size() <= max && value.matches('[\\s\\S]*[^\\s][\\s\\S]*'); }
+    // Owner-curated public-profile registry. Self-selection is not identity authentication.
+    function anthologyProfile(id) { return /databases/$(database)/documents/anthologyCalls/toshali-2027/profiles/$(id); }
+    function anthologyPhoto(d,id) {
+      return d.writerId is string && (d.writerId == '' || (d.writerId.matches('^[0-9]{1,8}$') && exists(anthologyProfile(d.writerId))))
+        && ((d.photoMode == 'upload' && d.photoHash == ''
+          && d.photoPath == 'anthology/toshali-2027/' + request.auth.uid + '/' + id + '/photo'
+          && d.photoType in ['image/jpeg','image/png','image/webp']
+          && d.photoSize is int && d.photoSize > 0 && d.photoSize <= 5242880)
+        || (d.photoMode == 'profile' && d.writerId != ''
+          && get(anthologyProfile(d.writerId)).data.reusable == true
+          && d.photoPath == get(anthologyProfile(d.writerId)).data.image
+          && d.photoHash == get(anthologyProfile(d.writerId)).data.photoHash
+          && d.photoType == get(anthologyProfile(d.writerId)).data.photoType
+          && d.photoSize == get(anthologyProfile(d.writerId)).data.photoSize));
+    }
+    match /anthologyCalls/toshali-2027/profiles/{id} {
+      allow get: if signedIn();
+      // No client writes, including editors; seed from the reviewed build at activation.
+    }
+    match /anthologySubmissions/{id} {
+      allow get: if anthologyEditor() || (signedIn() && (resource == null || resource.data.uid == request.auth.uid));
+      allow list: if anthologyEditor();
+      allow create: if signedIn() && anthologyOpen() && id.matches('^[A-Za-z0-9]{20}$')
+        && request.resource.data.keys().hasAll(['uid','callId','name','email','title','poem','bio','photoMode','writerId','photoHash','photoPath','photoType','photoSize','status','consentVersion','createdAt'])
+        && request.resource.data.keys().hasOnly(['uid','callId','name','email','title','poem','bio','photoMode','writerId','photoHash','photoPath','photoType','photoSize','status','consentVersion','createdAt'])
+        && request.resource.data.uid == request.auth.uid && request.resource.data.callId == 'toshali-2027'
+        && anthologyText(request.resource.data.name,120) && anthologyText(request.resource.data.title,200)
+        && anthologyText(request.resource.data.poem,30000) && anthologyText(request.resource.data.bio,5000)
+        && request.resource.data.email is string && request.resource.data.email.size() <= 254
+        && request.resource.data.email.matches('^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$')
+        && anthologyPhoto(request.resource.data,id)
+        && request.resource.data.status == 'uploading' && request.resource.data.consentVersion == 'toshali-private-v1'
+        && request.resource.data.createdAt == request.time
+        && getAfter(anthologyThrottle(request.auth.uid)).data.submissionId == id
+        && getAfter(anthologyThrottle(request.auth.uid)).data.createdAt == request.time
+        && (!exists(anthologyThrottle(request.auth.uid)) || get(anthologyThrottle(request.auth.uid)).data.createdAt < request.time - duration.value(60,'s'));
+      allow update: if signedIn() && resource.data.uid == request.auth.uid && anthologyOpen()
+        && resource.data.status == 'uploading' && request.resource.data.status == 'received'
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','receivedAt'])
+        && request.resource.data.receivedAt == request.time
+        && getAfter(anthologyReceipt(request.auth.uid,id)).data.submissionId == id
+        && getAfter(anthologyReceipt(request.auth.uid,id)).data.receivedAt == request.time;
+      allow update: if anthologyEditor() && resource.data.status == 'received'
+        && request.resource.data.status in ['reviewed','closed']
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status']);
+      allow delete: if anthologyEditor();
+    }
+    match /anthologyReceipts/{uid}/items/{id} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow create: if signedIn() && request.auth.uid == uid && anthologyOpen()
+        && request.resource.data.keys().hasOnly(['submissionId','receivedAt'])
+        && request.resource.data.submissionId == id && request.resource.data.receivedAt == request.time
+        && get(anthologyDoc(id)).data.uid == uid && get(anthologyDoc(id)).data.status == 'uploading'
+        && getAfter(anthologyDoc(id)).data.status == 'received'
+        && getAfter(anthologyDoc(id)).data.receivedAt == request.time;
+    }
+    match /anthologyThrottle/{uid} {
+      allow create, update: if signedIn() && request.auth.uid == uid && anthologyOpen()
+        && request.resource.data.keys().hasOnly(['submissionId','createdAt'])
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.submissionId.matches('^[A-Za-z0-9]{20}$')
+        && !exists(anthologyDoc(request.resource.data.submissionId))
+        && getAfter(anthologyDoc(request.resource.data.submissionId)).data.uid == uid
+        && getAfter(anthologyDoc(request.resource.data.submissionId)).data.createdAt == request.time
+        && (!exists(anthologyThrottle(uid)) || resource.data.createdAt < request.time - duration.value(60,'s'));
+    }
+
     function poemIdValid(poemId) { return poemId.matches('^[0-9]{1,8}$'); }
     function statsPath(poemId) { return /databases/$(database)/documents/poemStats/$(poemId); }
     function votePath(poemId) { return /databases/$(database)/documents/poemLikes/$(poemId)/voters/$(request.auth.uid); }

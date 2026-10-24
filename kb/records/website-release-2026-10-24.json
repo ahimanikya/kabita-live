@@ -1,13 +1,14 @@
 {
   "recorded_at": "2026-10-24T02:42:29.645751+00:00",
-  "status": "verified_prepared_for_publication",
+  "status": "combined_release_verified",
   "release": "KBL-REL-019",
   "work": "KBL-WORK-072",
   "authorization": {
     "decision": "KBL-DEC-095",
     "quote": "Let's complete Website release",
     "context": "Direct response to the pending Website release item naming locally prepared Our Story, Ink & Voice and disclosure changes.",
-    "scope": "Publish these previously reviewed website changes to kabitalive.com. Toshali invitation/intake remains separate pending scope confirmation."
+    "scope": "Publish Our Story design/disclosure changes and Toshali invitation/private intake together; email delivery remains inactive.",
+    "scope_confirmation": "Include Toshali alongside Our Story"
   },
   "baseline": "4adf380c60a5e44f042eb8da372ac1da7a85edc6",
   "hosting_mode": "discovery",
@@ -16,29 +17,40 @@
     "Ink & Voice design story and complete Colours of Poetry image in Our Story",
     "Central How we use AI disclosure and verbatim personal reflection moved from language essay",
     "Remove AI-created production label from poem826 image description and derived reader metadata",
-    "Automated disclosure check in all builds and manual publication workflow"
+    "Automated disclosure check in all builds and manual publication workflow",
+    "Publish Toshali 2027 invitation, profile selection and private submission form using the already activated backend; email confirmations inactive"
   ],
   "preserved": [
     "Original poems, translations, artwork and portraits",
-    "Runtime services, consent, DNS and existing discovery/full-editorial gate",
+    "Existing reader services, consent, DNS and editorial gate; add only the previously activated anthology client configuration.",
     "Owner-only manual workflow, protected github-pages review, administrator bypass disabled"
   ],
   "checks": {
-    "public_build": "PASS; 1317 routes",
-    "disclosures": "PASS; 1806 text/data files, zero violations",
-    "javascript_tests": 175,
-    "python_tests": 46,
+    "public_build": "PASS; 1318 routes",
+    "disclosures": "PASS; 1808 text/data files, zero violations",
+    "javascript_tests": 181,
+    "python_tests": 48,
     "firestore_emulator_tests": 45,
-    "design_contract": "PASS; all 1317 routes",
-    "protected_source_diff": "PASS; no changes to original verse, translations, portraits, runtime config, Firebase rules or content-status gate",
+    "design_contract": "PASS; all 1318 routes",
+    "protected_source_diff": "Original poems, translations and portraits unchanged; runtime config gains only approved anthology settings; existing anthology rules retained as source/test fixtures, no backend deployment.",
     "browser": "Desktop design rendering and 320px disclosure layout checked; no horizontal overflow; personal reflection opens with Enter.",
-    "initial_test_retry": "First tests started before build completed and failed on missing dist; rerun after completed build passes."
+    "initial_test_retry": "First tests started before build completed and failed on missing dist; rerun after completed build passes.",
+    "toshali_firestore_storage_tests": 14,
+    "profile_registry": "All429 entries and exact photo hashes match the registry seeded at activation; candidate SHA256 1f251564e4e414a48852194073e90ced217a70366fa94154afc47f7461a64669",
+    "toshali_browser": "Desktop/320px checked, no horizontal overflow; correct canonical profile search result, no console errors; local submission disabled as designed. Prior ten live backend checks retained, no new live submission claimed."
   },
   "independent": false,
   "limitations": [
     "Same-assistant review, not independent editorial/accessibility certification",
     "Existing source and linguistic questions remain",
-    "Toshali and deferred email delivery excluded; no backend deployment"
+    "Email delivery remains inactive; no backend deployment or new reviewer access."
   ],
-  "evidence": "artifacts/review/website-release-2026-10-24/source-manifest.json"
+  "evidence": "artifacts/review/website-release-2026-10-24/source-manifest.json",
+  "superseded_workflow": {
+    "commit": "8e63a7f551c2207ba69d6a584f20e85bbe5ad7b1",
+    "workflow_id": 40055352137,
+    "workflow": "https://github.com/ahimanikya/kabita-live/actions/runs/40055352137",
+    "hosting_mode": "discovery",
+    "status": "cancelled_before_deployment"
+  }
 }

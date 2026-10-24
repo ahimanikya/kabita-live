@@ -45,6 +45,7 @@ for name in pages:
 validated_services=service_assets(root)
 assets={'assets/app.js','assets/analytics.js','assets/private-feedback.js','assets/poem-marks.mjs','runtime-config.json'}
 assets.update(validated_services)
+if 'toshali-anthology-2027.html' in pages: assets.update(['assets/toshali-service.js','assets/toshali-poets.json'])
 assets.update(str(p.relative_to(root)) for p in (root/'assets/fonts').glob('*-OFL.txt'))
 assets.update(str(p.relative_to(root)) for p in (root/'assets/reading-editions').glob('issue-*.json'))
 assets.add('assets/reading-library.json')

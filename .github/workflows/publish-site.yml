@@ -77,6 +77,8 @@ jobs:
         run: npm run check:disclosures
       - run: npm test
       - run: npm run test:rules
+      - name: Verify private anthology submissions and photo rules
+        run: npm run test:toshali-rules
       - uses: actions/upload-pages-artifact@v4
         with:
           path: projects/site/dist

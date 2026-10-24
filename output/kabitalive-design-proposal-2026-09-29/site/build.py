@@ -255,6 +255,9 @@ from translation_review import render_translation_review
 page("translation-review.html", "Translation review", render_translation_review(R), desc="Editorial translation review status and source questions.")
 
 # Apply the approved website theme last, after all page-family styles/content.
+from toshali_invitation import render_toshali_invitation
+render_toshali_invitation(R, page)
+
 from ink_voice import apply_ink_voice
 apply_ink_voice(R, [name for name, *_ in pages] + ['search.html'],
  current_edition={**cover_by_number[current_home_issue['number']], 'poem_count':len(current_home_issue['poem_ids'])},
