@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-10-24T02:42:29.645751+00:00",
+  "status": "verified_prepared_for_publication",
+  "release": "KBL-REL-019",
+  "work": "KBL-WORK-072",
+  "authorization": {
+    "decision": "KBL-DEC-095",
+    "quote": "Let's complete Website release",
+    "context": "Direct response to the pending Website release item naming locally prepared Our Story, Ink & Voice and disclosure changes.",
+    "scope": "Publish these previously reviewed website changes to kabitalive.com. Toshali invitation/intake remains separate pending scope confirmation."
+  },
+  "baseline": "4adf380c60a5e44f042eb8da372ac1da7a85edc6",
+  "hosting_mode": "discovery",
+  "release_checkout": "/Users/ahimanikya/.codex/worktrees/website-release-20261024/Kabita Live",
+  "scope": [
+    "Ink & Voice design story and complete Colours of Poetry image in Our Story",
+    "Central How we use AI disclosure and verbatim personal reflection moved from language essay",
+    "Remove AI-created production label from poem826 image description and derived reader metadata",
+    "Automated disclosure check in all builds and manual publication workflow"
+  ],
+  "preserved": [
+    "Original poems, translations, artwork and portraits",
+    "Runtime services, consent, DNS and existing discovery/full-editorial gate",
+    "Owner-only manual workflow, protected github-pages review, administrator bypass disabled"
+  ],
+  "checks": {
+    "public_build": "PASS; 1317 routes",
+    "disclosures": "PASS; 1806 text/data files, zero violations",
+    "javascript_tests": 175,
+    "python_tests": 46,
+    "firestore_emulator_tests": 45,
+    "design_contract": "PASS; all 1317 routes",
+    "protected_source_diff": "PASS; no changes to original verse, translations, portraits, runtime config, Firebase rules or content-status gate",
+    "browser": "Desktop design rendering and 320px disclosure layout checked; no horizontal overflow; personal reflection opens with Enter.",
+    "initial_test_retry": "First tests started before build completed and failed on missing dist; rerun after completed build passes."
+  },
+  "independent": false,
+  "limitations": [
+    "Same-assistant review, not independent editorial/accessibility certification",
+    "Existing source and linguistic questions remain",
+    "Toshali and deferred email delivery excluded; no backend deployment"
+  ],
+  "evidence": "artifacts/review/website-release-2026-10-24/source-manifest.json"
+}

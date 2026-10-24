@@ -16,6 +16,18 @@ def apply_our_story(site):
     <p>Read an edition, share a poem with its poet’s name, or write to the editorial desk. Your responses are private, and always welcome.</p>
     <div class="story-invitations"><a class="text-link" href="submit.html">Send a poem</a><a class="text-link" href="feedback.html">Write to the editors</a></div>'''
     s=s.replace(old,new,1)
+    # The colour story belongs to the journal's story, before consolidated credits.
+    design = (site / 'templates/our-story-design.html').read_text()
+    symbol = (site / 'assets/kabita-live-symbol-ink-voice.svg').read_text()
+    logo = ('<svg class="story-design-logo" viewBox="0 0 256 256" width="72" height="72" '
+            'aria-hidden="true" focusable="false">' +
+            ''.join(re.findall(r'<path\b[^>]+/>', symbol)) + '</svg>')
+    design = design.replace('<!-- design-logo -->', logo)
+    credit_marker = '<section class="colophon" id="credits"'
+    assert credit_marker in s
+    process = (site / 'templates/our-story-ai.html').read_text()
+    s = s.replace(credit_marker, design + process + credit_marker, 1)
+    s = s.replace('<div class="story-invitations">', '<div class="story-invitations"><a class="text-link" href="#design">The design story</a>', 1)
     start=s.index('<section class="colophon" id="credits-writers">');end=s.index('<section class="colophon" id="privacy">',start)
     writers=s[start:end]
     s=s[:start]+s[end:]
@@ -41,5 +53,5 @@ def apply_our_story(site):
         s = s.replace(f'<a class="text-link" href="{href}">{label}</a>', f'<a class="text-link story-action" href="{href}">'+mark(motif)+label+'</a>', 1)
     s = s.replace('class="wrap inner-artistic"', 'class="wrap inner-artistic our-story"', 1)
     s = s.replace('<title>About · Kabita Live</title>', '<title>Our Story · Kabita Live</title>', 1)
-    s = s.replace('</head>', '<link rel="stylesheet" href="assets/our-story.css?v=1"><script defer src="assets/our-story.js?v=1"></script></head>', 1)
+    s = s.replace('</head>', '<link rel="stylesheet" href="assets/our-story.css?v=colour-story-20261021"><script defer src="assets/our-story.js?v=1"></script></head>', 1)
     path.write_text(s)

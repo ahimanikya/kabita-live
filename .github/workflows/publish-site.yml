@@ -73,6 +73,8 @@ jobs:
         env:
           SITE_URL: ${{ steps.pages.outputs.origin }}
           SITE_BASE: ${{ steps.pages.outputs.base_path }}
+      - name: Verify centralized AI production disclosure
+        run: npm run check:disclosures
       - run: npm test
       - run: npm run test:rules
       - uses: actions/upload-pages-artifact@v4
