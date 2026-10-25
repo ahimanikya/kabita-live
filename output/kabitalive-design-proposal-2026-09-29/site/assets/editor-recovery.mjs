@@ -1,0 +1,9 @@
+import {validate} from './editor-workspace-model.mjs';
+const prefix='kabita-editor-recovery-v1:';
+export function recoveryKey(actor,month){return prefix+encodeURIComponent(actor)+':'+month;}
+export function saveRecovery(storage,actor,draft,revision,now=Date.now()){const value={actor,month:draft.month,revision,at:now,draft:validate(draft)};storage.setItem(recoveryKey(actor,draft.month),JSON.stringify(value));}
+export function readRecovery(storage,actor,month,now=Date.now()){const key=recoveryKey(actor,month);try{const r=JSON.parse(storage.getItem(key)||'null');if(!r)return null;if(r.actor!==actor||r.month!==month||!Number.isInteger(r.revision)||r.revision<0||!Number.isFinite(r.at)||now-r.at>86400000||r.at>now+60000)throw Error();r.draft=validate(r.draft);if(r.draft.month!==month)throw Error();return r;}catch{storage.removeItem(key);return null;}}
+export function clearRecovery(storage,actor){for(let i=storage.length-1;i>=0;i--){const key=storage.key(i);if(key.startsWith(prefix+encodeURIComponent(actor)+':'))storage.removeItem(key);}}
+
+export function preserveCopy(storage,actor,draft,revision,label,now=Date.now()){const value={actor,month:draft.month,revision,at:now,label,draft:validate(draft)};const key=recoveryKey(actor,draft.month)+':copy:'+crypto.randomUUID();storage.setItem(key,JSON.stringify(value));return key;}
+export function listCopies(storage,actor,month,now=Date.now()){const result=[];for(let i=storage.length-1;i>=0;i--){const key=storage.key(i);if(!key.startsWith(recoveryKey(actor,month)+':copy:'))continue;try{const r=JSON.parse(storage.getItem(key));if(r.actor!==actor||r.month!==month||now-r.at>86400000||!Number.isFinite(r.at)||r.at>now+60000)throw Error();r.draft=validate(r.draft);if(r.draft.month!==month)throw Error();result.push(r);}catch{storage.removeItem(key);}}return result.sort((a,b)=>b.at-a.at);}

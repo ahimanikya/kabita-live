@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-26",
+  "status": "approved_preparing_publication",
+  "approval": {
+    "by": "Ahimanikya Satapathy",
+    "quote": "publish",
+    "scope": "The exact prepared, device-safe and simplified editor candidate verified in the final local round. Physical iPhone, unsaved refresh and actual device handoff checks remain pending."
+  },
+  "base_commit": "0ae9839d7674c75217f8f569f0a0b146f259d009",
+  "scope": "Prepared November issue 49 cover/defaults, author selection and new author, article import, automatic save/session recovery, sign-in-first simplified editor, guided recovery, whole edition proof and review request. No change to reviewer permissions, monthly intake activation, email settings or current public issue 48.",
+  "verification": {
+    "site_checks": 251,
+    "emulator_rule_scenarios": 3,
+    "build": "Discovery/static build passed; exported editor asset parity and private-page checks passed",
+    "review": "Same-assistant self-review; synthetic browser walkthrough",
+    "publication_protection": "Remote environment checked: ahimanikya sole required reviewer; admin bypass disabled; manual owner/main workflow retained"
+  },
+  "files": {
+    "output/kabitalive-design-proposal-2026-09-29/site/editor_workspace.py": "02d01d03f347752e9322330009914e06a38dcc99143df12899c5efacdbe7f8ad",
+    "output/kabitalive-design-proposal-2026-09-29/site/data/editor-workspace.html.template": "02c9149f4162f5d3c778393fe62390ae2dfe3511bee9b2b943071f4faa9f63a8",
+    "output/kabitalive-design-proposal-2026-09-29/site/data/editor-draft-defaults.json": "418beac74c556dd33c54835c076eb80064c5a120cc1b692a6a44b8ba6ab390db",
+    "output/kabitalive-design-proposal-2026-09-29/site/data/editor-draft-cover.svg": "794b97c68a24b392f27c85eb85edb613129adbc4d223439b6fbb993419e422a3",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-workspace.mjs": "02f0aee6a0a741106523e685bc715f4754d0be4f3bef7c3838ac4c94027ae367",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-workspace-model.mjs": "f049d923217f314fdb140d0d17fa0799b10106ed7a15162933b6d27b9297710d",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-workspace-data.mjs": "ded9469e0f150e64d33663cdd02458e3569cd536733dfa8ab3b79833580ca869",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-workspace.css": "3824c5b06c9d8e1b5afa7f4f4ec5f624097cc22874d98aae4c14a63455c12813",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-workspace-service.js": "5a53752a3a77459b6ee0ee7883a8425cf986cd01f8f587c4c964b70c5a5618c0",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-covers/issue-049-riverbank-v1.webp": "cd51e15fa41edaac880ca191eedad61f61a3f3f45af5e19f86593fb9ec2a3bcd",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-recovery.mjs": "47491da155441fd49e6dc63dc052a29240c8a682543f572df4968faedb994b90",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-article-import.mjs": "ff5193612b2b3b15c0bf3fd072f705abe8a0bd12b532073767fb73d7e8c4a226",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-docx-worker.js": "0c23a5c9db628eb436569391ac15baf49527c520c203866053706292a0b87fd6",
+    "output/kabitalive-design-proposal-2026-09-29/site/editor-workspace.html": "02c9149f4162f5d3c778393fe62390ae2dfe3511bee9b2b943071f4faa9f63a8",
+    "output/kabitalive-design-proposal-2026-09-29/site/build-public.py": "b9c556ff7d5524c827046178b14b55287a1eb15fd0261480fc7e52780f0c5456",
+    "output/kabitalive-design-proposal-2026-09-29/site/src/editor-workspace-service.mjs": "30c5a79b7b5f246ee3afe187504468e71fac5a8485f7287c51000e86fea3e966",
+    "output/kabitalive-design-proposal-2026-09-29/site/src/editor-docx-worker.mjs": "37a0450965111718b1bf4162d4a26a1c5787eb3549180d30b07b0423eb5f63c7",
+    "output/kabitalive-design-proposal-2026-09-29/site/tools/bundle-feedback.mjs": "4c23274261009d8a9c8e1f9f0eba14557ca9a0517d9c96570dfcd6cf7c0f176e",
+    "output/kabitalive-design-proposal-2026-09-29/site/package.json": "d66e6c8454509ecbe72fed0b2ca7bf0fdb2e4ed9c739c4988f34a5c446a14a18",
+    "output/kabitalive-design-proposal-2026-09-29/site/package-lock.json": "de68a8ae41c5fd82933d3c46b71c4a2300623e3413ddc79ac6bf3b9c242b5ce3",
+    "output/kabitalive-design-proposal-2026-09-29/site/tests/editor-prepared-draft.test.mjs": "80b00a9c815555506e34e770c54a0422529e427fa41fb1df68636aad658c7ca7",
+    "output/kabitalive-design-proposal-2026-09-29/site/tests/editor-workspace-model.test.mjs": "3897b5639ad94da4d74eb67a6cbc3b1fa352850a8218c262d46c87d31a5583aa",
+    "output/kabitalive-design-proposal-2026-09-29/site/tests/editor-device.test.mjs": "7bd359b3123ee057ce4d54675953fe94807b3833a3b5a8476dccb4262b45a54b"
+  },
+  "pending": [
+    "Physical iPhone Safari sign-in/keyboard/backgrounding",
+    "Unsaved full-refresh acceptance",
+    "Actual phone-to-laptop handoff"
+  ]
+}

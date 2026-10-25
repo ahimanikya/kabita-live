@@ -45,9 +45,9 @@ for name in pages:
 validated_services=service_assets(root)
 assets={'assets/app.js','assets/analytics.js','assets/private-feedback.js','assets/poem-marks.mjs','runtime-config.json'}
 assets.update(validated_services)
-if 'toshali-anthology-2027.html' in pages: assets.update(['assets/toshali-service.js','assets/toshali-poets.json','assets/toshali-policy.mjs'])
-if 'editor-workspace.html' in pages: assets.update(['assets/editor-workspace-service.js','assets/editor-workspace-model.mjs'])
+if 'editor-workspace.html' in pages: assets.update(['assets/editor-workspace-service.js','assets/editor-workspace-model.mjs','assets/editor-workspace-data.mjs','assets/editor-recovery.mjs','assets/editor-article-import.mjs','assets/editor-docx-worker.js', 'assets/editor-covers/issue-049-riverbank-v1.webp', 'assets/fonts/CormorantGaramond-Variable.woff2'])
 if 'monthly-review.html' in pages: assets.update(['assets/monthly-review-service.js','assets/monthly-review-policy.mjs','assets/monthly-policy.mjs'])
+if 'toshali-anthology-2027.html' in pages: assets.update(['assets/toshali-service.js','assets/toshali-poets.json','assets/toshali-policy.mjs'])
 if 'toshali-review.html' in pages: assets.update(['assets/toshali-review-service.js','assets/toshali-policy.mjs'])
 assets.update(str(p.relative_to(root)) for p in (root/'assets/fonts').glob('*-OFL.txt'))
 assets.update(str(p.relative_to(root)) for p in (root/'assets/reading-editions').glob('issue-*.json'))
