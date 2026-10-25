@@ -1,0 +1,39 @@
+{
+  "status": "approved_for_publication",
+  "base_commit": "bf34829afa6639959869318dec4c2a8bad94e7f1",
+  "scope": "Approved Dreamweaver-style interface connected to existing shared drafts",
+  "layout_approval": {
+    "quote": "Approve this layout",
+    "authority": "KBL-DEC-112"
+  },
+  "website_publication_approved": {
+    "quote": "Approve this website release",
+    "date": "2026-10-26",
+    "scope": "Exact four-file verified Dreamweaver-style interface update"
+  },
+  "files": {
+    "output/kabitalive-design-proposal-2026-09-29/site/data/editor-workspace.html.template": "fdb57899dd7b0cfe82eb95142496325b58658ccab4b7817f5140a8fec079fcaa",
+    "output/kabitalive-design-proposal-2026-09-29/site/editor-workspace.html": "fdb57899dd7b0cfe82eb95142496325b58658ccab4b7817f5140a8fec079fcaa",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-workspace.css": "8820936740bf640100546f8775f37b5b9c4da09435bf5fe61ff34b23c766444e",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-workspace.mjs": "4a6791672f63e577cb6a2d9be5d8578cc810b771e860c04482176c492f6f4df3"
+  },
+  "checks": {
+    "browser": "Chromium: sample issue, three-script multiline editing, exact reader-preview stanza text, undo and incomplete handoff guard passed",
+    "download": "Actual downloaded file validated against published workspace model; exact three-script text preserved",
+    "responsive": "1280px and390px without document overflow; screenshots retained",
+    "model": "Existing five model tests passed; identical model copied",
+    "independent": false,
+    "shared_browser": "Synthetic provider passed login/open/import/save/history; repeated import retained edited poem; stale revision blocked save while retaining local edits; signout cleared draft and disabled undo",
+    "isolated_site_tests": "189 JavaScript and49 Python checks passed",
+    "build": "Discovery build passed;1811 disclosure files, zero violations",
+    "export": "Private page noindex, excluded from sitemap/search/analytics; source assets match exported assets",
+    "provider": "Existing provider and Firestore rules hashes unchanged",
+    "integrated_responsive": "1280px and390px: document width equals viewport width",
+    "reopen": "Synthetic saved revision reopened after signout/login; private history cleared from UI on signout"
+  },
+  "limits": [
+    "Actual editor sign-in not tested",
+    "No artwork upload or automatic edition publication",
+    "Existing permissions, monthly submission form and email settings unchanged"
+  ]
+}
