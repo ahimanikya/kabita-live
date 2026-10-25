@@ -1,5 +1,5 @@
 {
-  "status": "approved_for_publication",
+  "status": "published_live_verified",
   "base_commit": "bf34829afa6639959869318dec4c2a8bad94e7f1",
   "scope": "Approved Dreamweaver-style interface connected to existing shared drafts",
   "layout_approval": {
@@ -35,5 +35,14 @@
     "Actual editor sign-in not tested",
     "No artwork upload or automatic edition publication",
     "Existing permissions, monthly submission form and email settings unchanged"
-  ]
+  ],
+  "publication": {
+    "commit": "bd4f22142b65083db18cae4717307e3c22fd6cf2",
+    "run": "https://github.com/ahimanikya/kabita-live/actions/runs/40226433892",
+    "result": "success",
+    "authority": "KBL-DEC-113",
+    "live_checks": "Visual interface, enabled Google sign-in, exact JS/CSS assets and private-page indexing exclusions verified",
+    "evidence": "artifacts/review/editor-workspace-2026-10-25/visual/live-check.json",
+    "cancelled_obsolete_run": 40226381462
+  }
 }

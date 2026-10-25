@@ -1,0 +1,33 @@
+{
+  "result": "pass",
+  "commit": "bd4f22142b65083db18cae4717307e3c22fd6cf2",
+  "run": 40226433892,
+  "files": [
+    {
+      "path": "editor-workspace.html",
+      "status": 200,
+      "sha256": "43fd5bbc0414a775d721879b4749520012eeece7f616cf81bd272a29f64836cc"
+    },
+    {
+      "path": "assets/editor-workspace.mjs",
+      "status": 200,
+      "sha256": "4a6791672f63e577cb6a2d9be5d8578cc810b771e860c04482176c492f6f4df3"
+    },
+    {
+      "path": "assets/editor-workspace.css",
+      "status": 200,
+      "sha256": "8820936740bf640100546f8775f37b5b9c4da09435bf5fe61ff34b23c766444e"
+    },
+    {
+      "path": "assets/editor-workspace-model.mjs",
+      "status": 200,
+      "sha256": "dea8cfdc5018e395230183495fe266a61cb89aba8f53f08d679d991c51943095"
+    },
+    {
+      "path": "assets/editor-workspace-service.js",
+      "status": 200,
+      "sha256": "69e1f8552aa849a27439cd4f0b9b63c86b525f200bfe5350ea3f4c08e6425f11"
+    }
+  ],
+  "real_editor_signin_tested": false
+}
