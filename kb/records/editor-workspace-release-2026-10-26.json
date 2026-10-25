@@ -1,5 +1,5 @@
 {
-  "status": "approved_for_publication",
+  "status": "published_live_verified",
   "base_commit": "1bf8122cb2446f4ea2c0d5a10badc78c1d5a95e7",
   "scope": [
     "Private editor workspace",
@@ -59,5 +59,13 @@
     "Real editor sign-in remains to be tested",
     "Prepared issue export requires reviewed Git production integration; no automatic publishing",
     "Monthly intake and sender connection remain deferred"
-  ]
+  ],
+  "publication": {
+    "commit": "6a062e12328cefbed46c1edbcc464ea1f4cc2e37",
+    "run": "https://github.com/ahimanikya/kabita-live/actions/runs/40223467851",
+    "result": "success",
+    "owner_gate_approval": "Applied explicit KBL-DEC-111 approval; protections unchanged",
+    "live_checks": "Both private pages and all seven required script modules verified; noindex and sitemap exclusions pass; Google sign-in controls enabled",
+    "evidence": "artifacts/review/editor-workspace-2026-10-25/live-release-check.json"
+  }
 }
