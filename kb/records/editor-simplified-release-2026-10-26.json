@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "status": "approved_preparing_publication",
+  "status": "published_live_verified",
   "approval": {
     "by": "Ahimanikya Satapathy",
     "quote": "publish",
@@ -44,5 +44,15 @@
     "Physical iPhone Safari sign-in/keyboard/backgrounding",
     "Unsaved full-refresh acceptance",
     "Actual phone-to-laptop handoff"
-  ]
+  ],
+  "publication": {
+    "commit": "47dff2fe04f5c4c824b044f0c845a88ee452b598",
+    "run": "https://github.com/ahimanikya/kabita-live/actions/runs/40238912705",
+    "result": "success",
+    "hosting_mode": "discovery",
+    "protected_environment_approved_under_user_instruction": true,
+    "live_check": "artifacts/review/editor-final-round-2026-10-26/live-check.json",
+    "browser": "Live sign-in button enabled; approved-account prompt visible; workspace hidden while signed out. No actual editor login attempted.",
+    "next_draft": "Issue 49 / November 2026 exists in preparation stage; preserved without overwrite."
+  }
 }
