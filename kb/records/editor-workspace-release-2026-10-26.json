@@ -1,0 +1,63 @@
+{
+  "status": "approved_for_publication",
+  "base_commit": "1bf8122cb2446f4ea2c0d5a10badc78c1d5a95e7",
+  "scope": [
+    "Private editor workspace",
+    "Private monthly review desk",
+    "Approved shared draft access rules"
+  ],
+  "excluded": [
+    "Monthly public submission form",
+    "Gmail connection and email activation",
+    "Unrelated generated reader HTML changes"
+  ],
+  "user_approvals": {
+    "layout": "Approve this workflow and layout",
+    "runtime": "Approve shared issue-draft access",
+    "website_publication": {
+      "quote": "Approve this website release",
+      "date": "2026-10-26",
+      "scope": "Exact 27-file verified candidate; excludes Dreamweaver-style revision"
+    }
+  },
+  "checks": {
+    "build": "passed; 1810 files checked for disclosures, zero violations",
+    "tests": "189 JavaScript and 49 Python checks passed",
+    "rules": "11 emulator tests passed in primary; identical rules hash verified",
+    "discovery_build": "Passed; 1811 disclosure files, zero violations; private routes noindex, excluded from search and sitemap, no analytics; shared runtime enabled"
+  },
+  "files": {
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-workspace-model.mjs": "dea8cfdc5018e395230183495fe266a61cb89aba8f53f08d679d991c51943095",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-workspace-service.js": "69e1f8552aa849a27439cd4f0b9b63c86b525f200bfe5350ea3f4c08e6425f11",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-workspace.css": "5ce39461814943f2985e139f018f13e67f41dc7e2c256d01d2255e936c0403af",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/editor-workspace.mjs": "7d045be55f9bb396708b12b2c9ea41b2946b8a8942c214de895d5da38927cf4d",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/monthly-policy.mjs": "69b2a2cbfd809968246cb661dc85ac3f8fc436313b5b183d171004ccff575316",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/monthly-review-policy.mjs": "1d95f274b7a77c04569bbbc4fea8630e7788bd4bbc08e28d6e95364dcb5b936a",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/monthly-review-service.js": "15f21788461da918fc4554ea3c34c8029954ded1d67474fa8b906b23b8097ba3",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/monthly-review.mjs": "e70769905b2d602e967418bc2ca01d2c6a3186bc6bfc7d90eac8e3aeb1c01166",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/monthly-submissions.css": "fc714a3509dd0b8f4be4ea98e8718fe098742eb261cdd77265ada11a6773b733",
+    "output/kabitalive-design-proposal-2026-09-29/site/build-public.py": "7d4003a02f8a740a7b1c1b2a2eba03969b85d4da003ca19e5dd5f1e8e57f55ac",
+    "output/kabitalive-design-proposal-2026-09-29/site/build.py": "425c762053d8604e15bb2e72e6af2fd43d2670385bd95cf9bc50cdceeefc0ef9",
+    "output/kabitalive-design-proposal-2026-09-29/site/data/editor-workspace.html.template": "0d06dc165d7d3ed64e257ee870b2aaabaa52e1b1bdcc765d1962073041962b53",
+    "output/kabitalive-design-proposal-2026-09-29/site/discovery.py": "3598e91b624a8d229d4242a4b6c5dab9393a0ab706a9f72a434a00540189a9aa",
+    "output/kabitalive-design-proposal-2026-09-29/site/editor-workspace.html": "0d06dc165d7d3ed64e257ee870b2aaabaa52e1b1bdcc765d1962073041962b53",
+    "output/kabitalive-design-proposal-2026-09-29/site/editor_workspace.py": "a9e9b5c0432f2950f31b4e6f07a27de4f2613987e7aa7682dd83425d7df0f8f8",
+    "output/kabitalive-design-proposal-2026-09-29/site/firestore.rules": "54304ead0cdff8dffceb3886dd9ae08c738667faa24e6e18ecbc51838e4176e8",
+    "output/kabitalive-design-proposal-2026-09-29/site/monthly-review.html": "031dfd1b8ef586cf005b216091cc2389be68c611974d0824784cb2857fce98ac",
+    "output/kabitalive-design-proposal-2026-09-29/site/monthly_review.py": "03a2995b438f054f4dbb51b4ebd1ca81d2f71edc2f4dea83d7e31ac9ddff47c5",
+    "output/kabitalive-design-proposal-2026-09-29/site/public_routes.py": "b640276cd7bb2b332f65e816027d4e8938b49e14d4710d0d88954d722b893bd2",
+    "output/kabitalive-design-proposal-2026-09-29/site/runtime-config.json": "8f09341bae3e5e793df3b1f41f6af71d4121766ed373b8c36e47d71bac365476",
+    "output/kabitalive-design-proposal-2026-09-29/site/src/editor-workspace-service.mjs": "d1ee32fcd8a584e2ab32e5590dc6baed1aa214d4f31483953a97c2a537ced711",
+    "output/kabitalive-design-proposal-2026-09-29/site/src/monthly-review-service.mjs": "b9bd6cb85b7743dc4294414754c26f62f7b294e0966208708dfc08929dc4fd8e",
+    "output/kabitalive-design-proposal-2026-09-29/site/tests/editor-workspace-model.test.mjs": "95e433ea9aa4ee318668c361509af0c9ba0d8f763e052c2a12bca0f2809c569b",
+    "output/kabitalive-design-proposal-2026-09-29/site/tests/editor-workspace.rules.test.mjs": "e5ca7ee659df0c67be8a01823e17a2051189ec612841b42ce233b1757743e6dd",
+    "output/kabitalive-design-proposal-2026-09-29/site/tests/monthly.rules.test.mjs": "08206c93e01ee108826b2977ffd35f593eb07811a78f50138af600ed60d8794e",
+    "output/kabitalive-design-proposal-2026-09-29/site/tests/test_toshali_export.py": "b724e1596da805d544b85b4073e6df102c91d715ffccb10445ee4c28996f6111",
+    "output/kabitalive-design-proposal-2026-09-29/site/tools/bundle-feedback.mjs": "9cf622701c801ab3ee0b8abf6d95cf0afc9b7f7b718be447c40f7d6fcc0c0bee"
+  },
+  "limitations": [
+    "Real editor sign-in remains to be tested",
+    "Prepared issue export requires reviewed Git production integration; no automatic publishing",
+    "Monthly intake and sender connection remain deferred"
+  ]
+}

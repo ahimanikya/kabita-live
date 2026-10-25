@@ -7,7 +7,7 @@ from pathlib import Path
 class ToshaliExportTests(unittest.TestCase):
     def test_public_modules_and_dependencies_are_exported(self):
         public = Path(__file__).resolve().parents[1] / 'dist'
-        pending = ['assets/toshali-invitation.mjs', 'assets/toshali-review.mjs']
+        pending = ['assets/toshali-invitation.mjs', 'assets/toshali-review.mjs', 'assets/monthly-review.mjs', 'assets/editor-workspace.mjs']
         checked = set()
         while pending:
             relative = pending.pop()

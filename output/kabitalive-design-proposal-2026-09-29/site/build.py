@@ -260,7 +260,13 @@ render_toshali_invitation(R, page)
 from toshali_review import render_toshali_review
 render_toshali_review(R, page)
 
+from monthly_review import render_monthly_review
+render_monthly_review(R, page)
+
 from ink_voice import apply_ink_voice
 apply_ink_voice(R, [name for name, *_ in pages] + ['search.html'],
  current_edition={**cover_by_number[current_home_issue['number']], 'poem_count':len(current_home_issue['poem_ids'])},
  current_cover=coverpair(current_home_issue['number'],card=True))
+
+from editor_workspace import render_editor_workspace
+render_editor_workspace(R)

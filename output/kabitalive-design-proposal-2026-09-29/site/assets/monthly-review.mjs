@@ -1,0 +1,42 @@
+import {editorialDraft,validMonth} from './monthly-review-policy.mjs';
+const $=id=>document.getElementById(id);
+const status=$('review-status'),login=$('review-login'),logout=$('review-logout'),more=$('review-more'),list=$('review-entries');
+let service,selected,saved,cursor,photoURL,busy=false,epoch=0;
+const note=text=>{status.textContent=text;};
+function clearEntry(){epoch++;selected=saved=null;$('review-entry').hidden=true;$('review-email').hidden=true;for(const id of ['review-title','review-author','review-reference','review-poem','review-bio','review-history','review-details'])$(id).replaceChildren();for(const id of ['review-to','review-subject','review-body'])$(id).value='';if(photoURL?.startsWith('blob:'))URL.revokeObjectURL(photoURL);photoURL=null;$('review-photo').removeAttribute('src');$('review-photo').hidden=true;}
+function date(value){return value?.toDate?.().toLocaleString('en-IN',{timeZone:'Asia/Kolkata'})+' IST';}
+async function openEntry(entry){
+ if(busy)return;clearEntry();const ticket=epoch;busy=true;
+ try{const [decision,history]=await Promise.all([service.review(entry.id),service.history(entry.id)]);if(ticket!==epoch)return;
+  selected=entry;saved=decision;
+  $('review-title').textContent=entry.title;$('review-author').textContent=`${entry.name} · ${entry.email}`;$('review-reference').textContent=`Reference: ${entry.id}${entry.synthetic?' · Synthetic test entry':''}`;
+  $('review-poem').textContent=entry.poem;$('review-bio').textContent=entry.bio;
+  $('review-decision').elements.decision.value=decision.status;$('review-month').value=decision.issueMonth||'';$('review-details').textContent=`Language: ${entry.language}\nWork: ${entry.kind}\nCredits: ${entry.credits||'Not supplied'}\nPrevious publication: ${entry.previous||'Not supplied'}`;
+  for(const row of history){const li=document.createElement('li');li.textContent=`${row.status}${row.issueMonth?' · '+row.issueMonth:''} · ${row.updatedBy} · ${date(row.updatedAt)}`;$('review-history').append(li);}
+  if(!history.length)$('review-history').textContent='No editorial changes recorded yet.';
+  $('review-entry').hidden=false;$('review-title').focus();note('Entry opened.');
+
+ }catch(e){if(ticket===epoch)note(e.message||'Could not open this entry.');}finally{busy=false;}
+}
+async function load(){
+ if(busy)return;busy=true;more.disabled=true;const ticket=epoch;
+ try{const rows=await service.entries(cursor);if(ticket!==epoch)return;
+  for(const entry of rows){const li=document.createElement('li'),button=document.createElement('button');button.type='button';button.className='btn';button.textContent=`${entry.title} — ${entry.name}${entry.synthetic?' (test)':''}`;button.addEventListener('click',()=>openEntry(entry));li.append(button);list.append(li);}
+  cursor=rows.at(-1)?.id??cursor;more.hidden=rows.length<25;note(list.children.length?`${list.children.length} entries loaded.`:'No received entries yet.');
+ }catch{if(ticket===epoch)note('Could not load entries. Try again or sign out and sign in.');}finally{busy=false;more.disabled=false;}
+}
+login.addEventListener('click',async()=>{login.disabled=true;try{const email=await service.login();login.hidden=true;logout.hidden=false;$('review-workspace').hidden=false;note(`Signed in as ${email}.`);await load();}catch(e){note(e.message||'Sign-in failed. Please try again.');}finally{login.disabled=false;}});
+logout.addEventListener('click',async()=>{clearEntry();list.replaceChildren();cursor=null;$('review-workspace').hidden=true;logout.hidden=true;login.hidden=false;login.disabled=true;try{await service.close();location.reload();}catch{note('Private content cleared. Close this tab to end the session.');}});
+more.addEventListener('click',load);
+$('review-decision').addEventListener('submit',async e=>{e.preventDefault();if(busy||!selected||!saved)return;busy=true;const ticket=epoch,entry=selected;const button=e.currentTarget.querySelector('button');button.disabled=true;
+ try{const state=e.currentTarget.elements.decision.value,month=$('review-month').value;if(!validMonth(month))throw Error('Enter an issue month as YYYY-MM.');if(state!=='selected'&&month)throw Error('Only selected poems can be assigned an issue month.');await service.saveReview(entry.id,state,month,saved.revision);if(ticket!==epoch)return;busy=false;await openEntry(entry);note('Decision saved. No email was sent.');}
+ catch(e){if(ticket===epoch)note(e.message||'Could not confirm this save. Reopen the entry before retrying.');}
+ finally{busy=false;button.disabled=false;}
+});
+$('review-draft').addEventListener('click',()=>{if(!selected||!saved||busy)return;const draft=editorialDraft(selected,saved.status,saved.issueMonth);$('review-to').value=draft.to;$('review-subject').value=draft.subject;$('review-body').value=draft.body;$('review-email').hidden=false;$('review-body').focus();note('Draft prepared from the saved decision. Nothing has been sent.');});
+$('review-copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(`To: ${$('review-to').value}\nSubject: ${$('review-subject').value}\n\n${$('review-body').value}`);note('Draft copied. Review it in the Kabita mailbox before sending.');}catch{note('Copy is unavailable. Select and copy the recipient, subject and message manually.');}});
+// Clear private material before a page can be restored from the back/forward cache.
+window.addEventListener('pagehide',()=>{clearEntry();list.replaceChildren();$('review-workspace').hidden=true;});
+window.addEventListener('pageshow',e=>{if(e.persisted)location.reload();});
+try{const response=await fetch('runtime-config.json');if(!response.ok)throw Error('Configuration unavailable');const config=await response.json();service=await import('./monthly-review-service.js');await service.prepare(config);login.disabled=false;note('Sign in using your authorised personal Google account. Signing out or reloading ends this review session.');}
+catch(e){note(e.message||'Sign-in is unavailable. Please try again later.');}

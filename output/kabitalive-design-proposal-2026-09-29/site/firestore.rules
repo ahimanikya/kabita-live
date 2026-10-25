@@ -144,6 +144,113 @@ service cloud.firestore {
         && (!exists(anthologyThrottle(uid)) || resource.data.createdAt < request.time - duration.value(60,'s'));
     }
 
+    // Year-round journal submissions: separate data and reviewer allowlist.
+    function monthlyEditor() {
+      return signedIn() && request.auth.token.get('email_verified', false) == true
+        && request.auth.token.firebase.sign_in_provider == 'google.com'
+        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com']
+        && get(/databases/$(database)/documents/monthlyReviewers/$(request.auth.token.email)).data.enabled == true;
+    }
+    function monthlyOpen() { return get(/databases/$(database)/documents/monthlyCalls/year-round).data.open == true; }
+    function monthlyDoc(id) { return /databases/$(database)/documents/monthlySubmissions/$(id); }
+    function monthlyAck(uid,id) { return /databases/$(database)/documents/monthlyReceipts/$(uid)/items/$(id); }
+    function monthlyRate(uid) { return /databases/$(database)/documents/monthlyThrottle/$(uid); }
+    function monthlyPair(id) {
+      return getAfter(monthlyAck(request.auth.uid,id)).data.submissionId == id
+        && getAfter(monthlyAck(request.auth.uid,id)).data.receivedAt == request.time
+        && getAfter(monthlyRate(request.auth.uid)).data.submissionId == id
+        && getAfter(monthlyRate(request.auth.uid)).data.createdAt == request.time
+        && (!exists(monthlyRate(request.auth.uid)) || get(monthlyRate(request.auth.uid)).data.createdAt <= request.time - duration.value(60,'s'));
+    }
+    match /monthlyReviewers/{email} { allow get: if monthlyEditor() && request.auth.token.email == email; }
+    match /monthlySubmissions/{id} {
+      allow get, list: if monthlyEditor();
+      allow create: if signedIn() && monthlyOpen() && id.matches('^[A-Za-z0-9]{20}$')
+        && request.resource.data.keys().hasAll(['uid','callId','name','email','title','language','poem','kind','credits','previous','bio','status','consentVersion','createdAt','receivedAt'])
+        && request.resource.data.keys().hasOnly(['uid','callId','name','email','title','language','poem','kind','credits','previous','bio','status','consentVersion','createdAt','receivedAt'])
+        && request.resource.data.uid == request.auth.uid && request.resource.data.callId == 'year-round'
+        && anthologyText(request.resource.data.name,120) && anthologyText(request.resource.data.title,200)
+        && !request.resource.data.name.matches('[\\s\\S]*[\\r\\n][\\s\\S]*') && !request.resource.data.title.matches('[\\s\\S]*[\\r\\n][\\s\\S]*')
+        && anthologyText(request.resource.data.poem,30000) && anthologyText(request.resource.data.bio,5000)
+        && request.resource.data.email is string && request.resource.data.email.size() <= 254
+        && request.resource.data.email.matches('^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$')
+        && request.resource.data.language in ['or','hi','en'] && request.resource.data.kind in ['original','translation']
+        && request.resource.data.credits is string && request.resource.data.credits.size() <= 1000
+        && (request.resource.data.kind == 'original' || anthologyText(request.resource.data.credits,1000))
+        && request.resource.data.previous is string && request.resource.data.previous.size() <= 2000
+        && request.resource.data.status == 'received' && request.resource.data.consentVersion == 'monthly-private-v1'
+        && request.resource.data.createdAt == request.time && request.resource.data.receivedAt == request.time && monthlyPair(id);
+      // No original edits or deletion, including reviewer clients.
+    }
+    match /monthlyReceipts/{uid}/items/{id} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow create: if signedIn() && request.auth.uid == uid && monthlyOpen() && id.matches('^[A-Za-z0-9]{20}$')
+        && request.resource.data.keys().hasOnly(['submissionId','receivedAt'])
+        && request.resource.data.submissionId == id && request.resource.data.receivedAt == request.time
+        && !exists(monthlyDoc(id)) && getAfter(monthlyDoc(id)).data.uid == uid
+        && getAfter(monthlyDoc(id)).data.receivedAt == request.time && monthlyPair(id);
+    }
+    match /monthlyThrottle/{uid} {
+      allow create, update: if signedIn() && request.auth.uid == uid && monthlyOpen()
+        && request.resource.data.keys().hasOnly(['submissionId','createdAt'])
+        && request.resource.data.createdAt == request.time && request.resource.data.submissionId.matches('^[A-Za-z0-9]{20}$')
+        && !exists(monthlyDoc(request.resource.data.submissionId))
+        && getAfter(monthlyDoc(request.resource.data.submissionId)).data.uid == uid
+        && getAfter(monthlyDoc(request.resource.data.submissionId)).data.createdAt == request.time
+        && monthlyPair(request.resource.data.submissionId);
+    }
+    function monthlyReview(id) { return /databases/$(database)/documents/monthlyReviews/$(id); }
+    function monthlyReviewValid(id) {
+      let d=request.resource.data;
+      return monthlyEditor() && get(monthlyDoc(id)).data.status == 'received'
+        && d.keys().hasAll(['status','issueMonth','revision','updatedAt','updatedBy'])
+        && d.keys().hasOnly(['status','issueMonth','revision','updatedAt','updatedBy'])
+        && d.status in ['received','shortlisted','selected','declined']
+        && d.issueMonth is string && (d.issueMonth == '' || d.issueMonth.matches('^20[0-9]{2}-(0[1-9]|1[0-2])$'))
+        && (d.status == 'selected' || d.issueMonth == '')
+        && d.updatedAt == request.time && d.updatedBy == request.auth.token.email && d.revision is int && d.revision > 0
+        && getAfter(/databases/$(database)/documents/monthlyReviews/$(id)/history/$(string(d.revision))).data == d;
+    }
+    match /monthlyReviews/{id} {
+      allow read: if monthlyEditor();
+      allow create: if monthlyReviewValid(id) && request.resource.data.revision == 1;
+      allow update: if monthlyReviewValid(id) && request.resource.data.revision == resource.data.revision + 1;
+      match /history/{revision} {
+        allow read: if monthlyEditor();
+        allow create: if monthlyEditor() && revision == string(request.resource.data.revision)
+          && getAfter(monthlyReview(id)).data == request.resource.data
+          && ((!exists(monthlyReview(id)) && request.resource.data.revision == 1)
+            || (exists(monthlyReview(id)) && request.resource.data.revision == get(monthlyReview(id)).data.revision + 1));
+      }
+    }
+
+    // Monthly edition assembly; activation is separate from submission review.
+    function issueEditor() { return monthlyEditor() && get(/databases/$(database)/documents/editorWorkspace/config).data.enabled == true; }
+    match /editorWorkspace/config { allow get: if monthlyEditor(); }
+    function issuePath(month) { return /databases/$(database)/documents/editorIssues/$(month); }
+    function issueValid(month) {
+      let d = request.resource.data;
+      return issueEditor() && month.matches('^20[0-9]{2}-(0[1-9]|1[0-2])$')
+        && d.keys().hasOnly(['month','issue','draftJson','revision','updatedBy','updatedAt','stage'])
+        && d.month == month && d.issue is int && d.issue >= 49 && d.issue <= 9999
+        && d.draftJson is string && d.draftJson.size() > 0 && d.draftJson.size() <= 650000
+        && d.stage == 'preparation' && d.revision is int && d.revision >= 1
+        && d.updatedBy == request.auth.token.email && d.updatedAt == request.time
+        && getAfter(/databases/$(database)/documents/editorIssues/$(month)/history/$(string(d.revision))).data == d;
+    }
+    match /editorIssues/{month} {
+      allow read: if issueEditor();
+      allow create: if issueValid(month) && request.resource.data.revision == 1;
+      allow update: if issueValid(month) && request.resource.data.revision == resource.data.revision + 1;
+      match /history/{revision} {
+        allow read: if issueEditor();
+        allow create: if issueEditor() && revision == string(request.resource.data.revision)
+          && getAfter(issuePath(month)).data == request.resource.data
+          && ((!exists(issuePath(month)) && request.resource.data.revision == 1)
+            || (exists(issuePath(month)) && request.resource.data.revision == get(issuePath(month)).data.revision + 1));
+      }
+    }
+
     function poemIdValid(poemId) { return poemId.matches('^[0-9]{1,8}$'); }
     function statsPath(poemId) { return /databases/$(database)/documents/poemStats/$(poemId); }
     function votePath(poemId) { return /databases/$(database)/documents/poemLikes/$(poemId)/voters/$(request.auth.uid); }

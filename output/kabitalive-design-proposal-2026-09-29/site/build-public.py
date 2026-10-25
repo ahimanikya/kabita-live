@@ -46,6 +46,8 @@ validated_services=service_assets(root)
 assets={'assets/app.js','assets/analytics.js','assets/private-feedback.js','assets/poem-marks.mjs','runtime-config.json'}
 assets.update(validated_services)
 if 'toshali-anthology-2027.html' in pages: assets.update(['assets/toshali-service.js','assets/toshali-poets.json','assets/toshali-policy.mjs'])
+if 'editor-workspace.html' in pages: assets.update(['assets/editor-workspace-service.js','assets/editor-workspace-model.mjs'])
+if 'monthly-review.html' in pages: assets.update(['assets/monthly-review-service.js','assets/monthly-review-policy.mjs','assets/monthly-policy.mjs'])
 if 'toshali-review.html' in pages: assets.update(['assets/toshali-review-service.js','assets/toshali-policy.mjs'])
 assets.update(str(p.relative_to(root)) for p in (root/'assets/fonts').glob('*-OFL.txt'))
 assets.update(str(p.relative_to(root)) for p in (root/'assets/reading-editions').glob('issue-*.json'))
@@ -106,7 +108,7 @@ discovery_enabled=args.discoverable or args.release
 discovery_policy=json.loads((root/'data/discovery.json').read_text())
 for name in pages:
     html=inject((root/name).read_text(),social[name])
-    if name in {'translation-review.html','toshali-review.html'}:
+    if name in {'translation-review.html','toshali-review.html','monthly-review.html','editor-workspace.html'}:
         html=html.replace('<html ', '<html data-pagefind-ignore="all" ',1)
     else:
         html=html.replace('<main id="main"','<main data-pagefind-body id="main"',1)
@@ -123,10 +125,10 @@ runtime=json.loads((root/'runtime-config.json').read_text())
 base='/' + os.environ.get('SITE_BASE','').strip('/')
 if not base.endswith('/'):base+='/'
 runtime['analytics']['basePath']=base
-runtime['analytics']['catalogue']=analytics_catalogue(root,[p for p in pages if p not in {'translation-review.html','toshali-review.html'}])
+runtime['analytics']['catalogue']=analytics_catalogue(root,[p for p in pages if p not in {'translation-review.html','toshali-review.html','monthly-review.html','editor-workspace.html'}])
 runtime['analytics']['publicPages']={}
 for name in pages:
-    if name in {'404.html','search.html','translation-review.html','toshali-review.html'}:continue
+    if name in {'404.html','search.html','translation-review.html','toshali-review.html','monthly-review.html','editor-workspace.html'}:continue
     title=re.search(r'<title>(.*?)</title>',(root/name).read_text(),re.S)
     if title:
         runtime['analytics']['publicPages'][base+name]=html_lib.unescape(title.group(1)).strip()

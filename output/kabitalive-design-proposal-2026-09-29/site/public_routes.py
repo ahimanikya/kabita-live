@@ -2,7 +2,7 @@
 import re
 
 READER_PAGES = {
-    'toshali-anthology-2027.html', 'toshali-review.html',
+    'toshali-anthology-2027.html', 'toshali-review.html','monthly-review.html','editor-workspace.html',
     'index.html', 'about.html', 'archive.html', 'poems.html', 'poets.html',
     'contact.html', 'submit.html', 'search.html', 'not-found.html', '404.html',
     'editorial-team.html', 'editor-pradeep.html', 'editor-paresh.html',
