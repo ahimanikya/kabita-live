@@ -3,7 +3,7 @@ type: "Project record"
 title: "Aggregate readership implementation and activation"
 ---
 
-# Kabita Live aggregate readership — prepared 26 October 2026
+# Kabita Live aggregate readership — activated 27 October 2026
 
 Owner direction: capture useful aggregate readership whether Google Analytics is accepted or declined. This changes the project's consent-only analytics assumption for this separate audience counter; it does not authorize identifying visitors or overriding a specific aggregate-statistics opt-out. Samanta implementation and Drishti self-review are by the same assistant, not independent review.
 
@@ -24,7 +24,7 @@ Sources:
 - https://www.cnil.fr/fr/node/677
 - https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/
 
-## Concrete deployment scope (not yet activated)
+## Deployment scope
 
 1. Create a separate Firestore database named `audience` in the existing billed Kabita Live project. Deploy the deny-all browser rules and disable indexing for the `pages` counter map. Keep default database and submissions unchanged.
 2. Create `audience-counter@kabita-live.iam.gserviceaccount.com` with database-conditioned read/create/update access to `audience` only; no default-database, Gmail, deletion or administration access. Give the existing editorial account read/write access to the aggregate database for reports/cache only. Confirm named-database IAM conditions before granting; never substitute project-wide data access.
@@ -41,3 +41,7 @@ Kill switch: audienceSettings/current.enabled=false stops writes immediately. We
 Dashboard ranges: 7 days, 28 days or since activation. Reports cache for 15 minutes; the maximum query is 4,000 daily documents, with an explicit error instead of a silently truncated lifetime report. Each edition totals its page plus its published poem pages. A poem appearing in multiple editions contributes to each membership; sums across editions are not unique site visits. Counts exclude clients that block, opt out or do not run the script. Collection capacity warnings are shown. Daily counters need future archival aggregation before 4,000 days. Aggregate totals are retained; there is no per-visitor record to reconstruct.
 
 Modern Web Guidance: calculate-total-foreground-time retrieved. Visibility performance entries are used when available. Its elapsed-navigation fallback would overcount hidden time; Safari/Firefox instead use visibilitychange accumulation, verified by tests. Core operation uses established browser APIs and optional MutationObserver.
+
+## Activation checkpoint — 27 October 2026
+
+Owner approved this runtime and exact release, then separately approved the counter-only HTTP request-log exclusion. Named database, restrictive browser rules, database-conditioned counter account and both functions are deployed. The editor function uses KBL_AUDIENCE_DATABASE=audience. A controlled count succeeded and was removed before publication; private paths and extra payload fields were rejected. The only retained-log exclusion targets audiencecount routine Cloud Run request logs. Required security/admin audit logging remains unchanged. Owner impersonation was unavailable, so negative service-account API probes are not claimed; IAM policy and the successful named-database write were verified. Website release 40387579465 succeeded at commit 9c15b673f39d5e78a6040084c3d167a4a5b4fa6d. Live Google-declined browser visit counted, aggregate opt-out suppressed a second visit, and authenticated Studio displayed the count. November issue49 draft was preserved. Six synthetic request logs were retained during initial exclusion propagation; a fresh post-propagation probe left no retained request logs before public collection began.

@@ -1,9 +1,25 @@
 {
   "date": "2026-10-27",
-  "status": "approved_runtime_verified_release_preparing",
+  "status": "published_live_verified",
   "approval": "Ahimanikya explicitly approved runtime and this release; separately approved counter-only routine HTTP log exclusion.",
   "scope": "Aggregate public readership with separate opt-out and privacy signals; Google Analytics consent preserved; authenticated editor reports.",
   "excluded": "Monthly intake activation and separate workspace label removal",
   "verification": "Counter active; denied private and extra-field input; synthetic count accepted and removed; named deny-all rules; database-conditioned counter IAM; request-only log exclusion; security/admin logs intact.",
-  "access_test_limit": "Owner impersonation not available; counter restrictions checked against IAM policy, named rules and successful audience-only write."
+  "access_test_limit": "Owner impersonation not available; counter restrictions checked against IAM policy, named rules and successful audience-only write.",
+  "commit": "9c15b673f39d5e78a6040084c3d167a4a5b4fa6d",
+  "run": "40387579465",
+  "url": "https://kabitalive.com/editor-workspace.html",
+  "tests": {
+    "site": 231,
+    "python": 49,
+    "backend_emulator": 16,
+    "ci_build_and_access_rules": "pass"
+  },
+  "live": {
+    "google_declined_visit_counted": true,
+    "aggregate_opt_out_visit_not_counted": true,
+    "authenticated_report": "issue48 shows 1 controlled browser view",
+    "next_draft": "issue49 November2026 existing preserved",
+    "request_logs": "Six synthetic requests retained during initial propagation; fresh probe after propagation had zero retained HTTP logs. No public website collector was enabled during propagation."
+  }
 }
