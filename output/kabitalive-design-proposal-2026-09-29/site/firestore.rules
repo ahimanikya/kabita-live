@@ -43,7 +43,7 @@ service cloud.firestore {
     function anthologyEditor() {
       return signedIn() && request.auth.token.get('email_verified', false) == true
         && request.auth.token.firebase.sign_in_provider == 'google.com'
-        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com']
+        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com','ahimanikya@gmail.com']
         && get(/databases/$(database)/documents/anthologyReviewers/$(request.auth.token.email)).data.enabled == true;
     }
     match /anthologyReviewers/{email} {
@@ -148,7 +148,7 @@ service cloud.firestore {
     function monthlyEditor() {
       return signedIn() && request.auth.token.get('email_verified', false) == true
         && request.auth.token.firebase.sign_in_provider == 'google.com'
-        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com']
+        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com','ahimanikya@gmail.com']
         && get(/databases/$(database)/documents/monthlyReviewers/$(request.auth.token.email)).data.enabled == true;
     }
     function monthlyOpen() { return get(/databases/$(database)/documents/monthlyCalls/year-round).data.open == true; }

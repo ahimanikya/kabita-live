@@ -68,3 +68,13 @@ test('Paresh has the same scoped review access; neither personal reviewer gets m
  await assertSucceeds(decision(c,'shortlisted',1,{updatedBy:'areshkpatnaik@gmail.com'}));
  for(const c of [context('pradeep',reviewerClaims),context('paresh',{...reviewerClaims,email:'areshkpatnaik@gmail.com'})])await assertFails(s.getDoc(s.doc(c.firestore(),'anthologyMailConfig','toshali-2027')));
 });
+
+test('owner admin reads submission photos only with verified Google identity and enabled access',async()=>{
+ await draft();await uploadBytes(photo(),new Uint8Array([1,2,3]),{contentType:'image/jpeg'});
+ const claims={email:'ahimanikya@gmail.com',email_verified:true,firebase:{sign_in_provider:'google.com'}},owner=context('studio-owner',claims);
+ await assertFails(getBytes(photo(owner)));
+ await env.withSecurityRulesDisabled(c=>s.setDoc(s.doc(c.firestore(),'anthologyReviewers',claims.email),{enabled:true,role:'admin'}));
+ await assertSucceeds(getBytes(photo(owner)));
+ await assertFails(getBytes(photo(context('unverified-owner',{...claims,email_verified:false}))));
+ await assertFails(deleteObject(photo(owner)));
+});

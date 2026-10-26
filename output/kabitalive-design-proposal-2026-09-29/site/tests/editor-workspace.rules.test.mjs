@@ -14,3 +14,19 @@ function saveAuthorProposal(db,revision=1,extra={},audit=true){const d={name:'Te
 test('shared author proposals require editor access and immutable history, without deletion or publication',{skip:!enabled},async()=>{await assertFails(saveAuthorProposal(editor(),1,{},false));await assertSucceeds(saveAuthorProposal(editor()));await assertSucceeds(getDoc(doc(editor('areshkpatnaik@gmail.com'),'editorAuthors','new-test')));await assertFails(saveAuthorProposal(editor(),1));await assertFails(saveAuthorProposal(editor(),2,{stage:'published'}));await assertFails(saveAuthorProposal(editor(),2,{email:'private@example.org'}));await assertFails(saveAuthorProposal(editor(),2,{bio:'x'.repeat(5001)}));await assertSucceeds(saveAuthorProposal(editor(),2));await assertFails(deleteDoc(doc(editor(),'editorAuthors','new-test')));await assertFails(deleteDoc(doc(editor(),'editorAuthors','new-test','history','1')));await assertFails(getDoc(doc(env.unauthenticatedContext().firestore(),'editorAuthors','new-test')));await assertFails(saveAuthorProposal(editor('other@example.org'),3));});
 
 test('published registry and stage both block stale editor writes and cannot be changed by editors',{skip:!enabled},async()=>{await save(editor());await env.withSecurityRulesDisabled(c=>setDoc(doc(c.firestore(),'editorPublications','2026-11'),{published:true}));await assertFails(save(editor(),2));await assertSucceeds(getDoc(doc(editor(),'editorIssues','2026-11')));await assertFails(deleteDoc(doc(editor(),'editorPublications','2026-11')));await assertFails(setDoc(doc(editor(),'editorPublications','2026-11'),{published:false}));await env.withSecurityRulesDisabled(async c=>{await deleteDoc(doc(c.firestore(),'editorPublications','2026-11'));await setDoc(doc(c.firestore(),'editorIssues','2026-11'),{stage:'published'},{merge:true});});await assertFails(save(editor(),2));});
+
+test('owner has editor capabilities with verified sign-in and enabled grants, but cannot bypass publication locks',{skip:!enabled},async()=>{
+ const owner='ahimanikya@gmail.com', db=editor(owner);
+ await assertFails(save(db,1,{updatedBy:owner}));
+ await env.withSecurityRulesDisabled(async c=>{for(const collection of ['monthlyReviewers','anthologyReviewers'])await setDoc(doc(c.firestore(),collection,owner),{enabled:true,role:'admin'});});
+ await assertSucceeds(save(db,1,{updatedBy:owner}));
+ await assertSucceeds(saveAnthology(db,1,{updatedBy:owner}));
+ await assertSucceeds(saveAuthorProposal(db,1,{updatedBy:owner}));
+ const unverified=env.authenticatedContext('owner-unverified',{email:owner,email_verified:false,firebase:{sign_in_provider:'google.com'}}).firestore();
+ await assertFails(getDoc(doc(unverified,'editorIssues','2026-11')));
+ await assertFails(setDoc(doc(db,'monthlyReviewers',owner),{enabled:true}));
+ await assertFails(setDoc(doc(db,'editorPublications','2026-11'),{published:true}));
+ await env.withSecurityRulesDisabled(c=>setDoc(doc(c.firestore(),'editorPublications','2026-11'),{published:true}));
+ await assertFails(save(db,2,{updatedBy:owner}));
+ await assertFails(deleteDoc(doc(db,'editorIssues','2026-11')));
+});

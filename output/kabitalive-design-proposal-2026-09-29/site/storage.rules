@@ -4,7 +4,7 @@ service firebase.storage {
     function reviewer() {
       return request.auth != null && request.auth.token.get('email_verified', false) == true
         && request.auth.token.firebase.sign_in_provider == 'google.com'
-        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com']
+        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com','ahimanikya@gmail.com']
         && firestore.get(/databases/(default)/documents/anthologyReviewers/$(request.auth.token.email)).data.enabled == true;
     }
     match /anthology/toshali-2027/{uid}/{id}/photo {
@@ -26,7 +26,7 @@ service firebase.storage {
     function studioEditor() {
       return request.auth != null && request.auth.token.get('email_verified',false)==true
         && request.auth.token.firebase.sign_in_provider=='google.com'
-        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com']
+        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com','ahimanikya@gmail.com']
         && firestore.get(/databases/(default)/documents/monthlyReviewers/$(request.auth.token.email)).data.enabled==true
         && firestore.get(/databases/(default)/documents/editorWorkspace/config).data.enabled==true;
     }
