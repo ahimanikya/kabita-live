@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-26T19:20:14.315Z",
+  "databases": {
+    "databases": [
+      {
+        "name": "projects/kabita-live/databases/(default)",
+        "uid": "24260430-52ac-46f7-acab-e9b4a3a99019",
+        "createTime": "2026-09-30T02:26:34.785080Z",
+        "updateTime": "2026-09-30T02:26:34.785080Z",
+        "locationId": "asia-south1",
+        "type": "FIRESTORE_NATIVE",
+        "concurrencyMode": "PESSIMISTIC",
+        "versionRetentionPeriod": "3600s",
+        "earliestVersionTime": "2026-10-26T18:20:15.289795Z",
+        "appEngineIntegrationMode": "DISABLED",
+        "keyPrefix": "j",
+        "pointInTimeRecoveryEnablement": "POINT_IN_TIME_RECOVERY_DISABLED",
+        "deleteProtectionState": "DELETE_PROTECTION_DISABLED",
+        "databaseEdition": "STANDARD",
+        "freeTier": true,
+        "realtimeUpdatesMode": "REALTIME_UPDATES_MODE_ENABLED",
+        "etag": "IJvkz8Gz2JcDMMnsgvrhr5cD"
+      }
+    ]
+  },
+  "sinks": {
+    "sinks": [
+      {
+        "name": "_Required",
+        "destination": "logging.googleapis.com/projects/kabita-live/locations/global/buckets/_Required",
+        "filter": "LOG_ID(\"cloudaudit.googleapis.com/activity\") OR LOG_ID(\"externalaudit.googleapis.com/activity\") OR LOG_ID(\"cloudaudit.googleapis.com/system_event\") OR LOG_ID(\"externalaudit.googleapis.com/system_event\") OR LOG_ID(\"cloudaudit.googleapis.com/access_transparency\") OR LOG_ID(\"externalaudit.googleapis.com/access_transparency\")",
+        "resourceName": "projects/kabita-live/sinks/_Required"
+      },
+      {
+        "name": "_Default",
+        "destination": "logging.googleapis.com/projects/kabita-live/locations/global/buckets/_Default",
+        "filter": "NOT LOG_ID(\"cloudaudit.googleapis.com/activity\") AND NOT LOG_ID(\"externalaudit.googleapis.com/activity\") AND NOT LOG_ID(\"cloudaudit.googleapis.com/system_event\") AND NOT LOG_ID(\"externalaudit.googleapis.com/system_event\") AND NOT LOG_ID(\"cloudaudit.googleapis.com/access_transparency\") AND NOT LOG_ID(\"externalaudit.googleapis.com/access_transparency\")",
+        "resourceName": "projects/kabita-live/sinks/_Default"
+      }
+    ]
+  },
+  "exclusions": {},
+  "counter": {
+    "error": {
+      "code": 404,
+      "message": "Resource 'projects/kabita-live/locations/asia-south1/functions/audienceCount' was not found",
+      "status": "NOT_FOUND",
+      "details": [
+        {
+          "@type": "type.googleapis.com/google.rpc.ResourceInfo",
+          "resourceName": "projects/kabita-live/locations/asia-south1/functions/audienceCount"
+        }
+      ]
+    }
+  },
+  "counterBindings": [],
+  "editorBindings": [
+    {
+      "role": "projects/kabita-live/roles/editorialWorkflowData",
+      "members": [
+        "serviceAccount:editorial-service@kabita-live.iam.gserviceaccount.com"
+      ]
+    }
+  ]
+}

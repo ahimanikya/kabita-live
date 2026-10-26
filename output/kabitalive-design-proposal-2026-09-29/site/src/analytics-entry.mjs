@@ -1,9 +1,11 @@
+import {startAggregate} from './aggregate-statistics.mjs';
 import {observeReading} from './analytics-reading.mjs';
 import {createKabitaEventValidator} from './analytics-events.mjs';
 (() => {
   'use strict';
   const key = 'kabita-analytics-consent-v1';
   const denied = {analytics_storage:'denied', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'};
+  let aggregate;
   let enabled = false, loaded = false, active = false, config, page, pageChoice, reading, ready = false, viewed = false, tag;
   const remember = value => { pageChoice = value; try { localStorage.setItem(key, value); return true; } catch { return false; } };
   const choice = () => { if (pageChoice) return pageChoice; try { return localStorage.getItem(key); } catch { return null; } };
@@ -61,6 +63,7 @@ import {createKabitaEventValidator} from './analytics-events.mjs';
   }
   window.kabitaAnalytics = {
     track(name, input) {
+      aggregate?.track(name,input);
       if (!enabled || !active || choice() !== 'granted' || privacyBlocked()) return false;
       try {
         const event = createKabitaEventValidator(config.catalogue)(name, input);
@@ -70,6 +73,7 @@ import {createKabitaEventValidator} from './analytics-events.mjs';
     }
   };
   fetch('runtime-config.json').then(r => r.ok ? r.json() : Promise.reject()).then(runtime => {
+    aggregate = startAggregate(runtime);
     config = runtime.analytics;
     // The public exporter supplies exact routes and fixed titles, including the deployment base.
     const title = config?.publicPages?.[location.pathname];

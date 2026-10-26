@@ -41,10 +41,10 @@ for poem in publication_poems.values():
  poem['writer_id']=canonical_writer(poem['writer_id'])
 publication_readers={sample_routes.get(ident,f'poem-{ident}.html'):p for ident,p in publication_poems.items()}
 def footer_navigation():
- items=[('Our story','about.html','footer-story'),('Send a poem','submit.html','footer-send-poem'),('Contact','contact.html','footer-contact'),('Facebook','https://www.facebook.com/profile.php?id=61594946730649','footer-facebook')]
+ items=[('Our story','about.html','footer-story'),('Privacy & statistics','about.html#privacy','earth-voice'),('Send a poem','submit.html','footer-send-poem'),('Contact','contact.html','footer-contact'),('Facebook','https://www.facebook.com/profile.php?id=61594946730649','footer-facebook')]
  links=[]
  for label,url,icon in items:
-  mark=(R/f'assets/icons/earth-voice-v1/ink/{icon}.svg').read_text().replace('<svg ', f'<svg class="footer-icon" data-footer-icon="{icon}" ',1)
+  mark=(R/f'assets/icons/earth-voice-v1/ink/{icon}.svg').read_text().replace('<svg ', f'<svg class="footer-icon" data-footer-icon="{icon}" ',1) if icon else ''
   if 'aria-hidden' not in mark:mark=mark.replace('<svg ', '<svg aria-hidden="true" focusable="false" ',1)
   external=url.startswith('https:')
   name=label+(' (external link, opens in a new tab)' if external else '')

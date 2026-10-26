@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-26T19:29:01.101Z",
+  "exclusion": {
+    "name": "audience-counter-no-request-retention",
+    "description": "Owner approved counter-only routine request exclusion; security and administrator audit logs remain intact",
+    "filter": "resource.type=\"cloud_run_revision\" AND resource.labels.service_name=\"audiencecount\" AND log_id(\"run.googleapis.com/requests\")",
+    "createTime": "2026-10-26T19:28:58.204033366Z",
+    "updateTime": "2026-10-26T19:28:58.204033366Z"
+  },
+  "sinks": {
+    "sinks": [
+      {
+        "name": "_Default",
+        "destination": "logging.googleapis.com/projects/kabita-live/locations/global/buckets/_Default",
+        "filter": "NOT LOG_ID(\"cloudaudit.googleapis.com/activity\") AND NOT LOG_ID(\"externalaudit.googleapis.com/activity\") AND NOT LOG_ID(\"cloudaudit.googleapis.com/system_event\") AND NOT LOG_ID(\"externalaudit.googleapis.com/system_event\") AND NOT LOG_ID(\"cloudaudit.googleapis.com/access_transparency\") AND NOT LOG_ID(\"externalaudit.googleapis.com/access_transparency\")",
+        "updateTime": "2026-10-26T19:28:58.204033366Z",
+        "exclusions": [
+          {
+            "name": "audience-counter-no-request-retention",
+            "description": "Owner approved counter-only routine request exclusion; security and administrator audit logs remain intact",
+            "filter": "resource.type=\"cloud_run_revision\" AND resource.labels.service_name=\"audiencecount\" AND log_id(\"run.googleapis.com/requests\")",
+            "createTime": "2026-10-26T19:28:58.204033366Z",
+            "updateTime": "2026-10-26T19:28:58.204033366Z"
+          }
+        ],
+        "resourceName": "projects/kabita-live/sinks/_Default"
+      },
+      {
+        "name": "_Required",
+        "destination": "logging.googleapis.com/projects/kabita-live/locations/global/buckets/_Required",
+        "filter": "LOG_ID(\"cloudaudit.googleapis.com/activity\") OR LOG_ID(\"externalaudit.googleapis.com/activity\") OR LOG_ID(\"cloudaudit.googleapis.com/system_event\") OR LOG_ID(\"externalaudit.googleapis.com/system_event\") OR LOG_ID(\"cloudaudit.googleapis.com/access_transparency\") OR LOG_ID(\"externalaudit.googleapis.com/access_transparency\")",
+        "resourceName": "projects/kabita-live/sinks/_Required"
+      }
+    ]
+  },
+  "function": {
+    "state": "ACTIVE",
+    "service": "projects/kabita-live/locations/asia-south1/services/audiencecount",
+    "serviceAccount": "audience-counter@kabita-live.iam.gserviceaccount.com",
+    "min": 0,
+    "max": 1
+  }
+}

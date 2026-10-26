@@ -45,6 +45,7 @@ for name in pages:
 validated_services=service_assets(root)
 assets={'assets/app.js','assets/analytics.js','assets/private-feedback.js','assets/poem-marks.mjs','runtime-config.json'}
 assets.update(validated_services)
+if {'editor-workspace.html','editor-management.html'} & set(pages): assets.add('assets/editor-statistics-summary.mjs')
 if (root/'assets/editor-proof-art.json').exists(): assets.update(row['src'] for row in json.loads((root/'assets/editor-proof-art.json').read_text()))
 if 'editor-management.html' in pages: assets.add('assets/editor-management-service.js')
 if 'author-proof.html' in pages or 'monthly-review.html' in pages or 'toshali-review.html' in pages: assets.update(['assets/editorial-policy.mjs','assets/editorial-review-ui.mjs','assets/editor-proof-art.json'])
@@ -91,7 +92,7 @@ for relative in assets:
         if relative == 'runtime-config.json':
             # Authorized custom-domain migration: allow host gates, not legacy URLs.
             runtime_config=json.loads(runtime_text)
-            for service in ('analytics','firebase'):
+            for service in ('analytics','firebase','audience'):
                 section=runtime_config.get(service,{})
                 if 'allowedHosts' in section:
                     section['allowedHosts']=[host for host in section['allowedHosts']
@@ -136,6 +137,8 @@ for name in pages:
     if title:
         runtime['analytics']['publicPages'][base+name]=html_lib.unescape(title.group(1)).strip()
         if name=='index.html':runtime['analytics']['publicPages'][base]=html_lib.unescape(title.group(1)).strip()
+runtime.setdefault('audience',{})['publicPages']={p:t for p,t in runtime['analytics']['publicPages'].items() if re.fullmatch(r'/(?:index|about|archive|poems|poets|poem-[A-Za-z0-9-]+|issue-\d+|poet-\d+|thirty-languages-and-the-journey-of-a-poem)\.html',p) or p=='/'}
+runtime['audience']['contentRoutes']={'kbl:'+str(p['id']):'/'+p['route'] for p in json.loads((root/'assets/reading-all.json').read_text())['poems'] if '/'+p['route'] in runtime['audience']['publicPages']}
 (root/'.public/runtime-config.json').write_text(json.dumps(runtime,ensure_ascii=False,indent=2)+'\n')
 (root/'.public/robots.txt').write_text(robots_text(False,base))
 if discovery_enabled: write_discovery(root/'.public',discoverable,public_base(os.environ),discovery_policy.get('allowTrainingCrawlers',False))

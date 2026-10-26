@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-26T19:21:47.277Z",
+  "databaseOperation": "projects/kabita-live/databases/audience/operations/FWlIdan_0IlYSxnZIzu21BAqMWh0dW9zLWFpc2ELIgUQAdH8-oAQBtb-0NEIDAovGg",
+  "counterRole": {
+    "member": "serviceAccount:audience-counter@kabita-live.iam.gserviceaccount.com",
+    "permissions": [
+      "datastore.databases.get",
+      "datastore.entities.create",
+      "datastore.entities.get",
+      "datastore.entities.update"
+    ],
+    "condition": "resource.name == \"projects/kabita-live/databases/audience\""
+  },
+  "collectionEnabled": false
+}

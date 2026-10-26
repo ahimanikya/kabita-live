@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-26T19:29:31.259Z",
+  "disabled": 503,
+  "private": 503,
+  "extra": 503,
+  "enabled": 204,
+  "testDocument": {
+    "name": "projects/kabita-live/databases/audience/documents/audienceDays/2026-10-27",
+    "fields": {
+      "total": {
+        "integerValue": "1"
+      },
+      "pages": {
+        "mapValue": {
+          "fields": {
+            "/issue-48.html": {
+              "mapValue": {
+                "fields": {
+                  "view": {
+                    "integerValue": "1"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "day": {
+        "stringValue": "2026-10-27"
+      }
+    },
+    "createTime": "2026-10-26T19:29:32.150795Z",
+    "updateTime": "2026-10-26T19:29:32.150795Z"
+  },
+  "syntheticCountRemoved": true
+}

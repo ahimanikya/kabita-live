@@ -1,3 +1,4 @@
+import {reportDescription,appendAudienceSummary} from './editor-statistics-summary.mjs';
 import {issueStatistics} from './editor-issue-statistics.mjs';
 import {editableIssue} from './editorial-policy.mjs';
 import {saveRecovery,readRecovery,clearRecovery,recoveryKey,preserveCopy,listCopies} from './editor-recovery.mjs';
@@ -236,19 +237,21 @@ $('studio-home').addEventListener('click',showOverview);
 $('overview-monthly').addEventListener('click',()=>$('publication-monthly').click());
 $('overview-anthology').addEventListener('click',()=>$('publication-anthology').click());
 $('overview-refresh').addEventListener('click',loadOverviewStats);
+const statisticsRange=node('select');statisticsRange.setAttribute('aria-label','Statistics period');for(const [value,label]of [['7','Last 7 days'],['28','Last 28 days'],['all','Since collection began']]){const option=node('option',label);option.value=value;statisticsRange.append(option);}statisticsRange.value='28';$('overview-refresh').before(statisticsRange);statisticsRange.addEventListener('change',loadOverviewStats);
 $('sidebar-toggle').addEventListener('click',()=>{const collapsed=!$('editor-sidebar').hidden;$('editor-sidebar').hidden=collapsed;$('studio').classList.toggle('sidebar-collapsed',collapsed);$('sidebar-toggle').setAttribute('aria-expanded',String(!collapsed));$('sidebar-toggle').textContent=collapsed?'Show menu':'Hide menu';});
 async function loadOverviewStats(){
  const request=++overviewRequest,who=actor;if(!who)return;
  $('overview-stat-status').textContent='Loading statistics…';$('overview-refresh').disabled=true;renderIssueStats(null);
- try{const report=await cloud.statistics();if(request!==overviewRequest||actor!==who)return;
- $('overview-stat-status').textContent=report.available?`${report.period} · updated ${report.updatedAt}. Counts include issue and poem page views from consenting readers. Share/copy actions are not confirmed external posts.`:(report.message||'Statistics are unavailable. Try refreshing later.');renderIssueStats(report);
+ try{const report=await cloud.statistics(statisticsRange.value);if(request!==overviewRequest||actor!==who)return;
+ statisticsRange.disabled=report.consentLimited===true;if(report.consentLimited)statisticsRange.value='28';
+ $('overview-stat-status').textContent=report.available?reportDescription(report):(report.message||'Statistics are unavailable. Try refreshing later.');renderIssueStats(report);
  }catch{if(request===overviewRequest&&actor===who)$('overview-stat-status').textContent='Statistics are unavailable. Try refreshing later.';}
  finally{if(request===overviewRequest)$('overview-refresh').disabled=false;}
 }
 function renderIssueStats(report){
  const box=$('issue-statistics');box.replaceChildren();const table=node('table'),caption=node('caption','Published issues · read-only');table.append(caption);
- const head=node('thead'),tr=node('tr');for(const label of ['Issue','Page views','Share / copy actions']){const th=node('th',label);th.scope='col';tr.append(th);}head.append(tr);table.append(head);const body=node('tbody');
+ const head=node('thead'),tr=node('tr');for(const label of ['Issue','Total edition views','Share / copy actions']){const th=node('th',label);th.scope='col';tr.append(th);}head.append(tr);table.append(head);const body=node('tbody');
  for(const issue of [...publishedIssues].sort((a,b)=>b.number-a.number)){
- const totals=issueStatistics(issue,report);const row=node('tr'),cell=node('th');cell.scope='row';const link=node('a',`${issue.month} ${issue.year} · Issue ${issue.number}`);link.href=`issue-${issue.number}.html`;link.target='_blank';link.rel='noopener';cell.append(link);row.append(cell,node('td',totals.visits===null?'Unavailable':String(totals.visits)),node('td',totals.shares===null?'Unavailable':String(totals.shares)));body.append(row);
- }table.append(body);box.append(table);
+ const totals=issueStatistics(issue,report);const row=node('tr'),cell=node('th');cell.scope='row';const link=node('a',`${issue.month} ${issue.year} · Issue ${issue.number}`);link.href=`issue-${issue.number}.html`;link.target='_blank';link.rel='noopener';cell.append(link);row.append(cell,node('td',totals.visits===null?'Unavailable':totals.visits===0?'No recorded views':String(totals.visits)),node('td',totals.shares===null?'Unavailable':String(totals.shares)));body.append(row);
+ }table.append(body);box.append(table);appendAudienceSummary(box,report);
 }

@@ -47,5 +47,14 @@
   "editorialWorkflow": {
     "enabled": true,
     "proofEndpoint": "https://asia-south1-kabita-live.cloudfunctions.net/authorProof"
+  },
+  "audience": {
+    "enabled": true,
+    "policyReviewed": true,
+    "endpoint": "https://asia-south1-kabita-live.cloudfunctions.net/audienceCount",
+    "allowedHosts": [
+      "kabitalive.com",
+      "www.kabitalive.com"
+    ]
   }
 }
