@@ -7,7 +7,7 @@
 </svg>
 </div></header><main id="main" class="wrap" tabindex="-1"><article class="toshali-invite monthly-form" data-pagefind-ignore="all">
 <p class="eyebrow">Kabita Live · Monthly journal</p><h1>Private review desk</h1>
-<p>For authorised journal editors. Entries remain private and are retained indefinitely. Decisions here do not publish a poem or send an email.</p>
+<p>For authorised journal editors. Entries remain private and are retained indefinitely. Selection does not send an email. Rejection opens an editable email draft before you confirm sending. Decisions never publish a poem.</p>
 <p id="review-status" role="status" aria-live="polite">Preparing sign-in…</p>
 <button id="review-login" class="btn solid" type="button" disabled>Sign in with Google</button>
 <button id="review-logout" class="btn" type="button" hidden>Sign out</button>
@@ -24,15 +24,10 @@
 <label><input type="radio" name="decision" value="received" required> Received</label>
 <label><input type="radio" name="decision" value="shortlisted"> Shortlisted</label>
 <label><input type="radio" name="decision" value="selected"> Selected</label>
-<label><input type="radio" name="decision" value="declined"> Declined</label><label for="review-month">Issue month (selected poems only; optional until assigned)</label><input id="review-month" name="issueMonth" type="month" min="2000-01" max="2099-12" pattern="20[0-9]{2}-(0[1-9]|1[0-2])" aria-describedby="review-month-help"><p id="review-month-help">Use YYYY-MM if your browser shows a text field. Leave blank until a month is assigned. This does not publish the poem.</p>
+<label><input type="radio" name="decision" value="next_issue"> Keep for next issue</label><label><input type="radio" name="decision" value="declined"> Reject · review email first</label><label for="review-month">Issue month (selected or next-issue poems; optional until assigned)</label><input id="review-month" name="issueMonth" type="month" min="2000-01" max="2099-12" pattern="20[0-9]{2}-(0[1-9]|1[0-2])" aria-describedby="review-month-help"><p id="review-month-help">Use YYYY-MM if your browser shows a text field. Leave blank until a month is assigned. This does not publish the poem.</p>
 </fieldset><button class="btn solid" type="submit">Save decision</button></form>
 <h3>Submission details</h3><p id="review-details" class="monthly-verse"></p><h3>Recent decision history</h3><ul id="review-history"></ul>
-<h3>Email draft</h3><p>Check and edit this draft, then copy it into the Kabita Live mailbox (kabitaliveweb@gmail.com) to send manually. Saving a decision sends no email.</p>
-<button id="review-draft" class="btn" type="button">Prepare draft from saved decision</button>
-<div id="review-email" hidden><label for="review-to">Recipient</label><input id="review-to" type="email" readonly>
-<label for="review-subject">Subject</label><input id="review-subject" readonly>
-<label for="review-body">Message — edit before sending</label><textarea id="review-body" rows="12"></textarea>
-<button id="review-copy" class="btn" type="button">Copy recipient, subject and message</button></div>
+<div hidden id="review-email"><input id="review-to"><input id="review-subject"><textarea id="review-body"></textarea></div>
 </section></section></article></main><footer id="footer" class="wrap footer footer-simple"><div class="earth-edge" aria-hidden="true"></div><div class="footer-line"><p class="footer-credit">Poetry belongs to its respective authors.</p><nav class="footer-links" aria-label="Footer"><a href="about.html" aria-label="Our story" title="Our story"><svg class="footer-icon" data-footer-icon="footer-story" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.8 6.5c5.7-.5 12.1-.4 18.1.1l-.3 4c-6-.4-11.8-.3-17.5.1l-.3-4.2Zm.3 4.2-.4 3.7c5.9-.4 11.9-.2 17.7.1l.2-3.9M2.7 14.4l.5 3.6c5.5-.4 11.2-.2 16.8.2l.4-3.7M7 5.6l.2 13.1c0 1.2-1.3 1.8-2.7 1.5M10.4 8.4c2.4-.2 4.1-.1 6.1.1M10.3 12.5l5.3.1M10.3 16.3l6 .2"/></svg>
 <span class="footer-link-label">Our story</span></a><a href="submit.html" aria-label="Send a poem" title="Send a poem"><svg class="footer-icon" data-footer-icon="footer-send-poem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6.1 16.6 3.7-2.1L20.1 4.2c.7-.8-.5-2.1-1.3-1.4L8.1 12.6l-2 4Zm2-4 1.7 1.9M17 4.5l1.6 1.6M5 17.8c2.4-.5 4.2-.5 6.4-.1 3.5.6 5.2.4 8.2-.4M4.1 20.1c4-.8 8.4.6 12.4-.1"/><path d="M4.7 10.7c-1.6-1-2.2-2.4-2-4.4 2 .5 3 1.8 3 3.8m-1-2 .6 4.5"/></svg>
 <span class="footer-link-label">Send a poem</span></a><a href="contact.html" aria-label="Contact" title="Contact"><svg class="footer-icon" data-footer-icon="footer-contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.3 6.4c5.3-.7 11.3-.4 17 .1l-.2 12.2c-5.3-.5-11-.6-16.7.1L3.3 6.4Zm.4.5 7.9 6.2m8.3-6.3-6.4 5.1M3.9 18l5.2-5.1m10.3 5.1-4.5-4.3"/><path d="M11.4 14.7c-1.4-2.7.3-4.6 3.7-4.9.5 2.8-.8 4.8-3.7 4.9Zm.1-.2 2.1-2.5"/></svg>

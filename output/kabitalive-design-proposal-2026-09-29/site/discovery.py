@@ -29,7 +29,7 @@ class ReaderPage(HTMLParser):
                 self.authors.append((anchor['href'],data))
 
 def eligible(name, entry, page, status):
-    if name in {'404.html','search.html','contact.html','submit.html','translation-review.html','toshali-review.html','monthly-review.html','editor-workspace.html'} or page.redirect: return False
+    if name in {'404.html','search.html','contact.html','submit.html','translation-review.html','toshali-review.html','monthly-review.html','editor-workspace.html','author-proof.html','editor-management.html'} or page.redirect: return False
     if entry.get('canonical_url',entry['url']) != entry['url']: return False
     held=set(status.get('archived_poem_records',[])+status.get('unassigned_poems',[])+status.get('missing_author_names',[]))
     match=re.fullmatch(r'poem-(\d+)\.html',name)

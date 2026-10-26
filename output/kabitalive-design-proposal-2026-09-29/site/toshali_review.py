@@ -2,7 +2,7 @@
 def render_toshali_review(root,page):
     body='''<article class="toshali-invite" data-pagefind-ignore="all">
 <p class="eyebrow">Toshali Anthology of Poetry 2027</p><h1>Private review desk</h1>
-<p>For authorised anthology editors. Entries and photographs remain private and are retained indefinitely. Decisions here do not publish a poem or send an email.</p>
+<p>For authorised anthology editors. Entries and photographs remain private and are retained indefinitely. Selection does not send an email. Rejection opens an editable email draft before you confirm sending. Decisions never publish a poem.</p>
 <p id="review-status" role="status" aria-live="polite">Preparing sign-in…</p>
 <button id="review-login" class="btn solid" type="button" disabled>Sign in with Google</button>
 <button id="review-logout" class="btn" type="button" hidden>Sign out</button>
@@ -19,15 +19,10 @@ def render_toshali_review(root,page):
 <label><input type="radio" name="decision" value="received" required> Received</label>
 <label><input type="radio" name="decision" value="shortlisted"> Shortlisted</label>
 <label><input type="radio" name="decision" value="selected"> Selected</label>
-<label><input type="radio" name="decision" value="declined"> Declined</label>
+<label><input type="radio" name="decision" value="declined"> Reject · review email first</label>
 </fieldset><button class="btn solid" type="submit">Save decision</button></form>
 <h3>Recent decision history</h3><ul id="review-history"></ul>
-<h3>Email draft</h3><p>Check and edit this draft, then copy it into the Toshali mailbox to send manually. Saving a decision sends no email.</p>
-<button id="review-draft" class="btn" type="button">Prepare draft from saved decision</button>
-<div id="review-email" hidden><label for="review-to">Recipient</label><input id="review-to" type="email" readonly>
-<label for="review-subject">Subject</label><input id="review-subject" readonly>
-<label for="review-body">Message — edit before sending</label><textarea id="review-body" rows="12"></textarea>
-<button id="review-copy" class="btn" type="button">Copy recipient, subject and message</button></div>
+<div hidden id="review-email"><input id="review-to"><input id="review-subject"><textarea id="review-body"></textarea></div>
 </section></section></article>'''
     page('toshali-review.html','Toshali private review desk',body,desc='Sign in to the private Toshali anthology editorial desk.')
     path=root/'toshali-review.html'

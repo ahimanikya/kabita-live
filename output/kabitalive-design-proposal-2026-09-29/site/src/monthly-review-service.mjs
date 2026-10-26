@@ -1,3 +1,4 @@
+import {getFunctions,httpsCallable} from 'firebase/functions';
 import {initializeApp,deleteApp} from 'firebase/app';
 import {initializeAuth,inMemoryPersistence,browserPopupRedirectResolver,GoogleAuthProvider,signInWithPopup,signOut} from 'firebase/auth';
 import * as s from 'firebase/firestore';
@@ -23,10 +24,11 @@ export async function login(){
 }
 export async function entries(after){
  const q=s.query(s.collection(db,'monthlySubmissions'),s.where('status','==','received'),s.orderBy(s.documentId()),...(after?[s.startAfter(after)]:[]),s.limit(25));
- const rows=await s.getDocsFromServer(q);return rows.docs.map(d=>({id:d.id,...d.data()}));
+ const rows=await s.getDocsFromServer(q);return Promise.all(rows.docs.map(async d=>{const decision=await s.getDocFromServer(s.doc(db,'monthlyReviews',d.id));return {id:d.id,...d.data(),decisionStatus:decision.data()?.status||'received',issueMonth:decision.data()?.issueMonth||''};}));
 }
 export async function review(id){const d=await s.getDocFromServer(s.doc(db,'monthlyReviews',id));return d.exists()?d.data():{status:'received',issueMonth:'',revision:0};}
 export async function saveReview(id,status,issueMonth,expected){
+ if(status==='declined')throw Error('Review the rejection email before sending.');
  const target=s.doc(db,'monthlyReviews',id);
  return s.runTransaction(db,async tx=>{
   const current=await tx.get(target),revision=current.exists()?current.data().revision:0;
@@ -37,3 +39,5 @@ export async function saveReview(id,status,issueMonth,expected){
 }
 export async function history(id){const rows=await s.getDocsFromServer(s.query(s.collection(db,'monthlyReviews',id,'history'),s.orderBy('revision','desc'),s.limit(10)));return rows.docs.map(d=>d.data());}
 export async function close(){if(auth)await signOut(auth);if(db)await s.terminate(db);if(app)await deleteApp(app);app=auth=db=null;}
+
+export async function editorial(data){return (await httpsCallable(getFunctions(app,'asia-south1'),'editorialAction')(data)).data;}

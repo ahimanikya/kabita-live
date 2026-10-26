@@ -45,7 +45,10 @@ for name in pages:
 validated_services=service_assets(root)
 assets={'assets/app.js','assets/analytics.js','assets/private-feedback.js','assets/poem-marks.mjs','runtime-config.json'}
 assets.update(validated_services)
-if 'editor-workspace.html' in pages: assets.update(['assets/editor-workspace-service.js','assets/editor-workspace-model.mjs','assets/editor-workspace-data.mjs','assets/editor-recovery.mjs','assets/editor-article-import.mjs','assets/editor-docx-worker.js', 'assets/editor-covers/issue-049-riverbank-v1.webp', 'assets/fonts/CormorantGaramond-Variable.woff2'])
+if (root/'assets/editor-proof-art.json').exists(): assets.update(row['src'] for row in json.loads((root/'assets/editor-proof-art.json').read_text()))
+if 'editor-management.html' in pages: assets.add('assets/editor-management-service.js')
+if 'author-proof.html' in pages or 'monthly-review.html' in pages or 'toshali-review.html' in pages: assets.update(['assets/editorial-policy.mjs','assets/editorial-review-ui.mjs','assets/editor-proof-art.json'])
+if 'editor-workspace.html' in pages: assets.update(['assets/editor-workspace-service.js','assets/editorial-policy.mjs','assets/editor-workspace-model.mjs','assets/editor-workspace-data.mjs','assets/editor-recovery.mjs','assets/editor-article-import.mjs','assets/editor-docx-worker.js', 'assets/editor-covers/issue-049-riverbank-v1.webp', 'assets/editor-covers/toshali-2027-front-v1.webp', 'assets/fonts/CormorantGaramond-Variable.woff2'])
 if 'monthly-review.html' in pages: assets.update(['assets/monthly-review-service.js','assets/monthly-review-policy.mjs','assets/monthly-policy.mjs'])
 if 'toshali-anthology-2027.html' in pages: assets.update(['assets/toshali-service.js','assets/toshali-poets.json','assets/toshali-policy.mjs'])
 if 'toshali-review.html' in pages: assets.update(['assets/toshali-review-service.js','assets/toshali-policy.mjs'])

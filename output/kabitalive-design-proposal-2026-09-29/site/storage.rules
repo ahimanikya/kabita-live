@@ -23,6 +23,22 @@ service firebase.storage {
         && request.resource.contentType == entry().data.photoType;
       // No client deletion: original photographs are retained indefinitely.
     }
+    function studioEditor() {
+      return request.auth != null && request.auth.token.get('email_verified',false)==true
+        && request.auth.token.firebase.sign_in_provider=='google.com'
+        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com']
+        && firestore.get(/databases/(default)/documents/monthlyReviewers/$(request.auth.token.email)).data.enabled==true
+        && firestore.get(/databases/(default)/documents/editorWorkspace/config).data.enabled==true;
+    }
+    match /editor-portraits/{authorId}/{version} {
+      allow get: if studioEditor();
+      allow create: if studioEditor() && resource==null
+        && (authorId.matches('^writer-[0-9]+$') || authorId.matches('^new-[A-Za-z0-9_-]{1,70}$'))
+        && version.matches('^[a-f0-9-]{36}$')
+        && request.resource.size>0 && request.resource.size<=5242880
+        && request.resource.contentType in ['image/jpeg','image/png','image/webp'];
+      // Originals are immutable: no listing, replacement or deletion.
+    }
     match /{allPaths=**} { allow read, write: if false; }
   }
 }

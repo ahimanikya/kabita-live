@@ -57,7 +57,7 @@ service cloud.firestore {
         && get(anthologyDoc(id)).data.callId == 'toshali-2027'
         && d.keys().hasAll(['status','revision','updatedAt','updatedBy'])
         && d.keys().hasOnly(['status','revision','updatedAt','updatedBy'])
-        && d.status in ['received','shortlisted','selected','declined']
+        && d.status in ['received','shortlisted','selected']
         && d.updatedAt == request.time && d.updatedBy == request.auth.token.email
         && d.revision is int && d.revision > 0
         && getAfter(reviewEvent(id,string(d.revision))).data == d;
@@ -205,9 +205,9 @@ service cloud.firestore {
       return monthlyEditor() && get(monthlyDoc(id)).data.status == 'received'
         && d.keys().hasAll(['status','issueMonth','revision','updatedAt','updatedBy'])
         && d.keys().hasOnly(['status','issueMonth','revision','updatedAt','updatedBy'])
-        && d.status in ['received','shortlisted','selected','declined']
+        && d.status in ['received','shortlisted','selected','next_issue']
         && d.issueMonth is string && (d.issueMonth == '' || d.issueMonth.matches('^20[0-9]{2}-(0[1-9]|1[0-2])$'))
-        && (d.status == 'selected' || d.issueMonth == '')
+        && (d.status in ['selected','next_issue'] || d.issueMonth == '')
         && d.updatedAt == request.time && d.updatedBy == request.auth.token.email && d.revision is int && d.revision > 0
         && getAfter(/databases/$(database)/documents/monthlyReviews/$(id)/history/$(string(d.revision))).data == d;
     }
@@ -227,10 +227,11 @@ service cloud.firestore {
     // Monthly edition assembly; activation is separate from submission review.
     function issueEditor() { return monthlyEditor() && get(/databases/$(database)/documents/editorWorkspace/config).data.enabled == true; }
     match /editorWorkspace/config { allow get: if monthlyEditor(); }
+    match /editorPublications/{key} { allow read: if issueEditor(); }
     function issuePath(month) { return /databases/$(database)/documents/editorIssues/$(month); }
     function issueValid(month) {
       let d = request.resource.data;
-      return issueEditor() && month.matches('^20[0-9]{2}-(0[1-9]|1[0-2])$')
+      return issueEditor() && month > '2026-10' && !exists(/databases/$(database)/documents/editorPublications/$(month)) && month.matches('^20[0-9]{2}-(0[1-9]|1[0-2])$')
         && d.keys().hasOnly(['month','issue','draftJson','revision','updatedBy','updatedAt','stage'])
         && d.month == month && d.issue is int && d.issue >= 49 && d.issue <= 9999
         && d.draftJson is string && d.draftJson.size() > 0 && d.draftJson.size() <= 650000
@@ -241,13 +242,72 @@ service cloud.firestore {
     match /editorIssues/{month} {
       allow read: if issueEditor();
       allow create: if issueValid(month) && request.resource.data.revision == 1;
-      allow update: if issueValid(month) && request.resource.data.revision == resource.data.revision + 1;
+      allow update: if resource.data.stage != 'published' && issueValid(month) && request.resource.data.revision == resource.data.revision + 1;
       match /history/{revision} {
         allow read: if issueEditor();
         allow create: if issueEditor() && revision == string(request.resource.data.revision)
           && getAfter(issuePath(month)).data == request.resource.data
           && ((!exists(issuePath(month)) && request.resource.data.revision == 1)
             || (exists(issuePath(month)) && request.resource.data.revision == get(issuePath(month)).data.revision + 1));
+      }
+    }
+
+    // Anthology assembly is separate from monthly editions and original submissions.
+    function anthologyDraftEditor() { return issueEditor() && anthologyEditor(); }
+    function anthologyDraftPath(id) { return /databases/$(database)/documents/editorAnthologies/$(id); }
+    function anthologyDraftValid(id) {
+      let d=request.resource.data;
+      return anthologyDraftEditor() && !exists(/databases/$(database)/documents/editorPublications/$(id)) && id == 'toshali-2027'
+        && d.keys().hasOnly(['month','issue','draftJson','revision','updatedBy','updatedAt','stage'])
+        && d.month == id && d.issue == 2027
+        && d.draftJson is string && d.draftJson.size() > 0 && d.draftJson.size() <= 650000
+        && d.stage == 'preparation' && d.revision is int && d.revision >= 1
+        && d.updatedBy == request.auth.token.email && d.updatedAt == request.time
+        && getAfter(/databases/$(database)/documents/editorAnthologies/$(id)/history/$(string(d.revision))).data == d;
+    }
+    match /editorAnthologies/{id} {
+      allow read: if id == 'toshali-2027' && anthologyDraftEditor();
+      allow create: if anthologyDraftValid(id) && request.resource.data.revision == 1;
+      allow update: if resource.data.stage != 'published' && anthologyDraftValid(id) && request.resource.data.revision == resource.data.revision + 1;
+      match /history/{revision} {
+        allow read: if id == 'toshali-2027' && anthologyDraftEditor();
+        allow create: if id == 'toshali-2027' && anthologyDraftEditor() && revision == string(request.resource.data.revision)
+          && getAfter(anthologyDraftPath(id)).data == request.resource.data
+          && ((!exists(anthologyDraftPath(id)) && request.resource.data.revision == 1)
+            || (exists(anthologyDraftPath(id)) && request.resource.data.revision == get(anthologyDraftPath(id)).data.revision + 1));
+      }
+    }
+
+    // Reusable private author proposals; originals and published profiles stay in Git.
+    function portraitValid(id,p) {
+      return p is map && p.keys().hasAll(['path','type','size','credit','permission'])
+        && p.keys().hasOnly(['path','type','size','credit','permission'])
+        && p.path is string && p.path.matches('^editor-portraits/'+id+'/[a-f0-9-]{36}$')
+        && p.type in ['image/jpeg','image/png','image/webp'] && p.size is int && p.size>0 && p.size<=5242880
+        && p.credit is string && p.credit.size()>0 && p.credit.size()<=300 && p.permission==true;
+    }
+    function authorDraftPath(id) { return /databases/$(database)/documents/editorAuthors/$(id); }
+    function authorDraftValid(id) {
+      let d=request.resource.data;
+      return issueEditor() && (id.matches('^writer-[0-9]+$') || id.matches('^new-[A-Za-z0-9_-]{1,70}$'))
+        && d.keys().hasOnly(['name','bio','portrait','revision','updatedBy','updatedAt','stage'])
+        && (!('portrait' in d) || portraitValid(id,d.portrait))
+        && d.name is string && d.name.size()>0 && d.name.size()<=120
+        && d.bio is string && d.bio.size()<=5000 && d.stage=='preparation'
+        && d.revision is int && d.revision>=1 && d.updatedBy==request.auth.token.email && d.updatedAt==request.time
+        && getAfter(/databases/$(database)/documents/editorAuthors/$(id)/history/$(string(d.revision))).data==d;
+    }
+    match /editorAuthors/{id} {
+      allow get: if issueEditor();
+      allow list: if issueEditor() && request.query.limit != null && request.query.limit <=25;
+      allow create: if authorDraftValid(id) && request.resource.data.revision==1;
+      allow update: if authorDraftValid(id) && request.resource.data.revision==resource.data.revision+1;
+      match /history/{revision} {
+        allow read: if issueEditor();
+        allow create: if issueEditor() && revision==string(request.resource.data.revision)
+          && getAfter(authorDraftPath(id)).data==request.resource.data
+          && ((!exists(authorDraftPath(id)) && request.resource.data.revision==1)
+            || (exists(authorDraftPath(id)) && request.resource.data.revision==get(authorDraftPath(id)).data.revision+1));
       }
     }
 

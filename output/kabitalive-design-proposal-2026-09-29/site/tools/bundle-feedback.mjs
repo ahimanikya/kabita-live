@@ -15,3 +15,5 @@ await build({entryPoints:["src/toshali-review-service.mjs"],outfile:"assets/tosh
 for(const name of ["monthly-review-service","editor-workspace-service"])await build({entryPoints:[`src/${name}.mjs`],outfile:`assets/${name}.js`,bundle:true,format:"esm",target:"es2022",minify:true,legalComments:"eof"});
 
 await build({entryPoints:['src/editor-docx-worker.mjs'],outfile:'assets/editor-docx-worker.js',bundle:true,format:'esm',target:'es2022',minify:true,legalComments:'eof'});
+
+await build({entryPoints:["src/editor-management-service.mjs"],outfile:"assets/editor-management-service.js",bundle:true,format:"esm",target:"es2022",minify:true,legalComments:"eof"});

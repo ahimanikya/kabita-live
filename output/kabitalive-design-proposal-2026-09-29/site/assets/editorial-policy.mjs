@@ -1,0 +1,3 @@
+export function rejectionDraft(entry,stream){const name=stream==='monthly'?'Kabita Live':'Toshali Anthology 2027';return {subject:`Regarding your submission to ${name}`,text:`Dear ${entry.name},\n\nThank you for sharing “${entry.title}” with ${name}. We regret that we are unable to include it in this publication.\n\nWe appreciate the opportunity to read your work and thank you for considering us.\n\nWarm regards,\n${name} Editorial Team`};}
+export function canAssignMonth(status){return ['selected','next_issue'].includes(status);}
+export function editableIssue(key,saved,publication){return !publication?.published && saved?.stage!=='published' && (key==='toshali-2027'||key>'2026-10');}

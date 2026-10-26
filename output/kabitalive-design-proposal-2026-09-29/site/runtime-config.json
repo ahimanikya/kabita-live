@@ -43,5 +43,9 @@
   },
   "editorWorkspace": {
     "enabled": true
+  },
+  "editorialWorkflow": {
+    "enabled": true,
+    "proofEndpoint": "https://asia-south1-kabita-live.cloudfunctions.net/authorProof"
   }
 }

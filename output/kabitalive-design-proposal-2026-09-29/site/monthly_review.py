@@ -2,7 +2,7 @@
 def render_monthly_review(root,page):
     body='''<article class="toshali-invite monthly-form" data-pagefind-ignore="all">
 <p class="eyebrow">Kabita Live · Monthly journal</p><h1>Private review desk</h1>
-<p>For authorised journal editors. Entries remain private and are retained indefinitely. Decisions here do not publish a poem or send an email.</p>
+<p>For authorised journal editors. Entries remain private and are retained indefinitely. Selection does not send an email. Rejection opens an editable email draft before you confirm sending. Decisions never publish a poem.</p>
 <p id="review-status" role="status" aria-live="polite">Preparing sign-in…</p>
 <button id="review-login" class="btn solid" type="button" disabled>Sign in with Google</button>
 <button id="review-logout" class="btn" type="button" hidden>Sign out</button>
@@ -19,15 +19,10 @@ def render_monthly_review(root,page):
 <label><input type="radio" name="decision" value="received" required> Received</label>
 <label><input type="radio" name="decision" value="shortlisted"> Shortlisted</label>
 <label><input type="radio" name="decision" value="selected"> Selected</label>
-<label><input type="radio" name="decision" value="declined"> Declined</label><label for="review-month">Issue month (selected poems only; optional until assigned)</label><input id="review-month" name="issueMonth" type="month" min="2000-01" max="2099-12" pattern="20[0-9]{2}-(0[1-9]|1[0-2])" aria-describedby="review-month-help"><p id="review-month-help">Use YYYY-MM if your browser shows a text field. Leave blank until a month is assigned. This does not publish the poem.</p>
+<label><input type="radio" name="decision" value="next_issue"> Keep for next issue</label><label><input type="radio" name="decision" value="declined"> Reject · review email first</label><label for="review-month">Issue month (selected or next-issue poems; optional until assigned)</label><input id="review-month" name="issueMonth" type="month" min="2000-01" max="2099-12" pattern="20[0-9]{2}-(0[1-9]|1[0-2])" aria-describedby="review-month-help"><p id="review-month-help">Use YYYY-MM if your browser shows a text field. Leave blank until a month is assigned. This does not publish the poem.</p>
 </fieldset><button class="btn solid" type="submit">Save decision</button></form>
 <h3>Submission details</h3><p id="review-details" class="monthly-verse"></p><h3>Recent decision history</h3><ul id="review-history"></ul>
-<h3>Email draft</h3><p>Check and edit this draft, then copy it into the Kabita Live mailbox (kabitaliveweb@gmail.com) to send manually. Saving a decision sends no email.</p>
-<button id="review-draft" class="btn" type="button">Prepare draft from saved decision</button>
-<div id="review-email" hidden><label for="review-to">Recipient</label><input id="review-to" type="email" readonly>
-<label for="review-subject">Subject</label><input id="review-subject" readonly>
-<label for="review-body">Message — edit before sending</label><textarea id="review-body" rows="12"></textarea>
-<button id="review-copy" class="btn" type="button">Copy recipient, subject and message</button></div>
+<div hidden id="review-email"><input id="review-to"><input id="review-subject"><textarea id="review-body"></textarea></div>
 </section></section></article>'''
     page('monthly-review.html','Kabita monthly private review desk',body,desc='Sign in to the private Kabita monthly journal editorial desk.')
     path=root/'monthly-review.html'
