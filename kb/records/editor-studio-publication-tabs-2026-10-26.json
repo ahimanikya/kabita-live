@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-26",
+  "status": "implemented_locally_publication_pending",
+  "request": "Keep two simple tabs: Kabita Live | Toshali Anthology",
+  "changes": [
+    "Direct publication switching with active state",
+    "Removed dropdown, Open button and explanatory text",
+    "Removed duplicate dashboard publication cards",
+    "Preserved independent drafts, history and unsaved-change safeguards",
+    "Pending Submissions expands only the selected publication\u2019s received poems; separate review links and pagination retained",
+    "Removed duplicate dashboard submission links",
+    "Single header sign-in; no sign-out in editor controls",
+    "Add Poem direct action; automatic saving retained",
+    "Backup, manual save, history, recovery, month selector and production controls removed from normal editor view; retained data and conflict protection unchanged"
+  ],
+  "verification": {
+    "site_tests": 223,
+    "python_tests": 49,
+    "browser": "Synthetic preview: monthly \u2192 anthology \u2192 monthly; correct active state and separate contents retained",
+    "review": "same-assistant self-review",
+    "submission_menu": "Synthetic monthly and anthology lists verified; switching hides the other stream; regression test added",
+    "simple_editor": "Synthetic browser: header account status, Add Poem, no visible backup/history/sign-out controls; automated suite passed"
+  },
+  "guidance": {
+    "skill": "modern-web-guidance",
+    "guide": "accessibility",
+    "application": "Native buttons, aria-pressed state, existing focus styles and 48px targets; no incomplete ARIA tab role"
+  },
+  "publication": "Requires owner approval of this release under KBL-DEC-085",
+  "publication_approval": "Ahimanikya: Yes publish \u2014 approved combined Editor Studio simplification and dashboard release, 26 October 2026"
+}

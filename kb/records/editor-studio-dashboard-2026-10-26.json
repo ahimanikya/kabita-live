@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-26",
+  "status": "local_verified_release_pending",
+  "request": "Move dashboard above edition editing; old issue statistics; compact header counts; collapsible sidebar",
+  "implementation": [
+    "Studio-level overview after sign-in with two publication choices",
+    "Published issue table using catalogue index and existing authorized statistics callable",
+    "Totals aggregate issue and associated poem page views and share/copy actions for reporting period",
+    "Unknown or failed analytics shown as unavailable; no fabricated production counts",
+    "Edition opens to contents, with article/author/review counts in header",
+    "Native sidebar toggle with aria-expanded and hidden navigation"
+  ],
+  "verification": {
+    "site_tests": 226,
+    "python_tests": 49,
+    "browser": "Synthetic overview data, separate edition navigation and sidebar collapse verified",
+    "live_analytics": "Existing service wired; live authenticated report retrieval remains unverified",
+    "review": "same-assistant self-review"
+  },
+  "guidance": {
+    "skill": "modern-web-guidance",
+    "guide": "accessibility",
+    "application": "Native buttons, expanded state and semantic table headers; hidden sidebar removed from focus order"
+  },
+  "publication": "Owner approval required for this release; none performed",
+  "publication_approval": "Ahimanikya: Yes publish \u2014 approved combined Editor Studio simplification and dashboard release, 26 October 2026"
+}

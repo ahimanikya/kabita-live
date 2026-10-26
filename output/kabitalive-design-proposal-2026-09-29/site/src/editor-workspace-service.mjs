@@ -52,3 +52,5 @@ export async function portraitBlob(id,portrait){validatePortrait(id,portrait);re
 
 export async function publication(key){const d=await s.getDocFromServer(s.doc(db,'editorPublications',key));return d.exists()?{published:true,...d.data()}:null;}
 export async function editorial(data){return (await httpsCallable(getFunctions(app,'asia-south1'),'editorialAction')(data)).data;}
+
+export async function statistics(){return (await httpsCallable(getFunctions(app,'asia-south1'),'editorialAction')({action:'statistics'})).data;}
