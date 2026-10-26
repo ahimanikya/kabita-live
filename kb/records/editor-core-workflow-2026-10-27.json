@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-27",
+  "status": "approved_publication_in_progress",
+  "scope": [
+    "Visible Add article and Word/text upload",
+    "Direct Add to this edition/Add to anthology from submission list",
+    "Selection plus draft insertion and both audit histories in one transaction",
+    "Duplicate, rejected, other-edition, stale revision and published locks",
+    "Visible up/down arrows with existing autosave"
+  ],
+  "no_emails": true,
+  "monthly_intake_unchanged": true,
+  "checks": {
+    "build": "pass",
+    "site_and_python": "pass",
+    "atomic_access_tests": 3,
+    "browser": "Synthetic browser: article creation, reorder, submission insertion and duplicate disabling passed"
+  },
+  "review": "Current assistant self-review",
+  "approval_request": "Exact website publication approval requested after verified preparation under KBL-DEC-085",
+  "preview": "http://127.0.0.1:8793/kb/artifacts/review/editor-workflow-2026-10-27/index.html",
+  "approval": "Ahimanikya explicitly approved this Editor Studio release in response to the exact prepared release request."
+}

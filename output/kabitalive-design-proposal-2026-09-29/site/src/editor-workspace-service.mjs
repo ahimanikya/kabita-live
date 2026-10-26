@@ -1,3 +1,4 @@
+import {transferSubmission} from './editor-submission-transfer.mjs';
 import {editableIssue} from '../assets/editorial-policy.mjs';
 import {getFunctions,httpsCallable} from 'firebase/functions';
 import{initializeApp,deleteApp}from'firebase/app';
@@ -25,7 +26,7 @@ export async function submissions(stream,after){
  const collections={monthly:'monthlySubmissions',anthology:'anthologySubmissions'};
  if(!Object.hasOwn(collections,stream))throw Error('Unknown submission desk.');
  const rows=await s.getDocsFromServer(s.query(s.collection(db,collections[stream]),s.where('status','==','received'),s.orderBy(s.documentId()),...(after?[s.startAfter(after)]:[]),s.limit(25)));
- return rows.docs.map(d=>{const p=d.data();return {id:d.id,name:p.name,title:p.title,language:p.language||'en'};});
+ return Promise.all(rows.docs.map(async d=>{const p=d.data(),review=(await s.getDocFromServer(s.doc(db,stream==='monthly'?'monthlyReviews':'anthologyReviews',d.id))).data()||{};return {id:d.id,name:p.name,title:p.title,language:p.language||'en',reviewStatus:review.status||'received',reviewRevision:review.revision||0,issueMonth:review.issueMonth||''};}));
 }
 
 async function selectedAnthology(){
@@ -54,3 +55,5 @@ export async function publication(key){const d=await s.getDocFromServer(s.doc(db
 export async function editorial(data){return (await httpsCallable(getFunctions(app,'asia-south1'),'editorialAction')(data)).data;}
 
 export async function statistics(range='28'){return (await httpsCallable(getFunctions(app,'asia-south1'),'editorialAction')({action:'statistics',range})).data;}
+
+export async function addSubmission(draft,expected,id,reviewExpected){return transferSubmission({db,draft,expected,id,reviewExpected,actor:auth.currentUser.email});}
