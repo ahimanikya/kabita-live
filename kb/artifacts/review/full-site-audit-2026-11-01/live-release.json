@@ -1,0 +1,52 @@
+[
+  {
+    "route": "index.html",
+    "status": 200,
+    "checks": {},
+    "sha256": "be6e606089f4737dacb59ae06ada5943a4c24c21303185e04b584cd2bb22d213"
+  },
+  {
+    "route": "issue-49.html",
+    "status": 200,
+    "checks": {},
+    "sha256": "70dc0a689f4bba9e2a9f50b4fc36299d5a70ca3c4e0a4de74d3c99b592bd6985"
+  },
+  {
+    "route": "about.html",
+    "status": 200,
+    "checks": {
+      "story_disclosure_preserved": true
+    },
+    "sha256": "50b3bcf2e5e658a49f336799c0d688295d9cf49f008f20c617f67906deb88abe"
+  },
+  {
+    "route": "poet-416.html",
+    "status": 200,
+    "checks": {
+      "november_contribution": true
+    },
+    "sha256": "3e62ab03f087d76690bad1047e1d2c481223f63368fa1a3de94340b3c7a900cd"
+  },
+  {
+    "route": "poet-478.html",
+    "status": 200,
+    "checks": {},
+    "sha256": "d4951badfd08ae9204a93d7c0a566411a56a75f3e029174012dd9167ecf00d82"
+  },
+  {
+    "route": "editor-workspace.html",
+    "status": 200,
+    "checks": {
+      "noindex": true
+    },
+    "sha256": "03027cefb3ffe9ded7245fdea3cca85d76f3422820af2e670a8f3f51c511dec8"
+  },
+  {
+    "route": "translation-review.html",
+    "status": 404,
+    "checks": {
+      "removed": true
+    },
+    "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368"
+  }
+]

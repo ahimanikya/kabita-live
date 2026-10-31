@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "status": "local cleanup; publication not authorized",
+  "status": "published-live-verified",
   "scope": "Public export, source/edition integrity, disclosures, links, repository and KB residue",
   "changes": [
     "Exclude historical translation-review from public export; retain evidence locally",
@@ -38,5 +38,30 @@
     "disclosure_files": 1841,
     "disclosure_violations": 0,
     "live_routes_http200": 12
+  },
+  "publication": {
+    "approval": "Ahimanikya: publish, current chat, 1 November 2026",
+    "commit": "15e684119a31b6b117e86bb7ad7be2387d88d10e",
+    "run": 41251716319,
+    "mode": "discovery",
+    "conclusion": "success",
+    "live_evidence": "artifacts/review/full-site-audit-2026-11-01/live-release.json",
+    "next_draft": {
+      "result": "existing_preserved",
+      "source": {
+        "issue": 49,
+        "month": "2026-11",
+        "run": "41251716319",
+        "commit": "15e684119a31b6b117e86bb7ad7be2387d88d10e"
+      },
+      "draft": {
+        "issue": 50,
+        "month": "2026-12",
+        "status": "DRAFT",
+        "runtimeStage": "preparation"
+      },
+      "overwritten": false,
+      "published": false
+    }
   }
 }
