@@ -7,6 +7,18 @@ title: "Standalone journal, private feedback and analytics"
 
 Kabita Live is the replacement publication website. Reader journeys, issue navigation, writer pages and sharing must be self-contained. Historical research belongs in the KB; public pages must not send readers to the former site or describe themselves as a comparison with it.
 
+## Current state — 1 November 2026
+
+The live journal contains 49 editions and 828 active full poem records. November / Issue49 is current. Editorial language defaults to English independently of the poems’ original-language default. December / Issue50 exists as a private shared draft. See [November publication](../records/november-publication-2026-11-01.json) and [editorial release](../records/editorial-release-2026-11-01.json).
+
+Reader feedback, Likes, moderated comments, consent-based GA4 and separate aggregate audience counts are implemented. Google Analytics consent remains explicit; aggregate counts honour their own opt-out and privacy signals. Editor Studio supports private shared drafts and review; final publication remains owner-only. Runtime activation and incomplete editorial checks must be read from their specific records, not inferred from these historical setup notes.
+
+Every website publication requires Ahimanikya’s explicit approval for that exact release. Publishing is manual, on main, through the protected github-pages environment. A Git push does not publish. The discovery build is live; it does not certify completion of the separate literary/source review gate.
+
+## Historical setup reference — September/October 2026
+
+The sections below preserve the original architecture and rollout evidence. Statements such as “not deployed”, “GA4 pending” and “no public comments at launch” describe that earlier checkpoint, not the current service state. Do not use them as an active work queue. Current pending work is tracked in the registers and dated release/audit records.
+
 ## Utkal Project comparison
 
 Reviewed Utkal Project at commit `5ce3e2494488f7d5e273a035274108dc8b8861ae`. Its actual site uses Astro 7.3.5 and static GitHub Pages delivery. Its architecture records propose Firebase Auth/Firestore for private intake and GA4 with explicit consent; those integrations are planned there, not evidence of a working shared backend. The [pinned source files and hashes](../artifacts/research/utkal-stack-2026-09-29/SOURCE.json) distinguish implementation from plans.
@@ -164,3 +176,11 @@ The public export now assigns one static Open Graph / Twitter preview to every r
 ## Custom-domain repair — 9 October 2026
 
 Ahimanikya authorized completing the domain migration after the provider changed DNS. GitHub Pages now associates `kabitalive.com` with this repository; the existing manual preview workflow rebuilds the already published source at the domain root. Analytics and Firebase host allowlists include the apex and www names. This scope does not publish unrelated local content or waive noindex, editorial-release or consent safeguards. Current certificate/deployment verification and provider follow-up are recorded in [the cutover record](../records/domain-cutover-2026-10-09.json). Earlier pre-DNS restrictions above remain historical.
+
+### Prepared aggregate reporting — 26 October 2026
+
+A separate cookie-free aggregate counter is prepared following Ahimanikya's request for readership independent of GA consent. It is disabled in runtime configuration. The proposed named `audience` database isolates counters from contributor/editor records. Existing editor authentication protects report access. GA retains its opt-in adapter and is never summed with aggregate totals. Operational privacy, IAM, cost and exact release gates are described in `kb/production/audience-statistics/README.md`. This is not a claim of activation or universal consent exemption.
+
+## Sharing-image clarification — 29 October 2026
+
+Ahimanikya clarified KBL-DEC-117: poem previews retain their associated illustrations (edition cover for text-led poems), while poet pages use their full portraits. The temporary local portrait-for-poem change was reverted before publication. Daily Facebook posts use a verified poet-profile preview or existing portrait attachment without changing poem metadata. See records/poem-portrait-sharing-2026-10-29.json.

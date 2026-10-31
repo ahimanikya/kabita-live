@@ -7,8 +7,10 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 LABEL = re.compile(
-    r'\bAI[\s\u2010-\u2015-]+(?:generated|created|assisted|assistance|adaptation|assistants?|researchers?)\b'
+    r'\bAI[\s\u2010-\u2015-]+(?:generated|created|assisted|aided|powered|enhanced|translated|written|illustrated|assistance|adaptation|assistants?|researchers?)\b'
     r'|\bAI\s+assists?\s+with\b'
+    r'|\b(?:artwork|illustration|portrait|translation|text|content)\s+(?:by|using|with)\s+(?:AI|ChatGPT|OpenAI)\b'
+    r'|\b(?:with (?:the )?(?:help|assistance) (?:of|from))\s+(?:AI|ChatGPT|OpenAI)\b'
     r'|\b(?:prepared|drafted|written|created|generated|produced|developed|researched|designed|translated)'
     r'\s+(?:with|by|using)\s+(?:an?\s+)?(?:AI|artificial intelligence|ChatGPT|OpenAI)\b', re.I)
 

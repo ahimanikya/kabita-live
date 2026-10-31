@@ -1,3 +1,4 @@
+from retired_external_links import remove_retired_links, load_retired_links
 from analytics_catalogue import analytics_catalogue
 """Select only public reader pages/assets for Astro; never export the project KB."""
 import argparse,json,re,shutil,os,html as html_lib
@@ -111,7 +112,7 @@ discoverable={}
 discovery_enabled=args.discoverable or args.release
 discovery_policy=json.loads((root/'data/discovery.json').read_text())
 for name in pages:
-    html=inject((root/name).read_text(),social[name])
+    html=remove_retired_links(inject((root/name).read_text(),social[name]),load_retired_links(root))
     if name in {'translation-review.html','toshali-review.html','monthly-review.html','editor-workspace.html'}:
         html=html.replace('<html ', '<html data-pagefind-ignore="all" ',1)
     else:

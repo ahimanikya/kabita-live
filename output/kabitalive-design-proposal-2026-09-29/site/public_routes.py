@@ -9,7 +9,7 @@ READER_PAGES = {
     'editorial-team.html', 'editor-pradeep.html', 'editor-paresh.html',
     'ahimanikya-satapathy.html', 'thirty-languages-and-the-journey-of-a-poem.html',
     'highlight.html', 'highlights.html', 'feedback.html', 'upcoming.html',
-    'current-contributors.html', 'translation-review.html',
+    'current-contributors.html',
     'poem-dokana.html', 'poem-kshanika.html', 'poem-drink.html',
     'poet-dokana.html', 'poet-kshanika.html', 'poet-drink.html',
 }

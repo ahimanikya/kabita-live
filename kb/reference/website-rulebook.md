@@ -283,7 +283,7 @@ Publish a dedicated `translation-review.html` reference with actual review statu
 
 The user requested removal of AI credits from every public page and cleanup of published development review material. This supersedes the earlier public AI-preparation explanation requirement, including the inherited disclosure target, for Kabita Live. Preserve human author/translator credits, source acknowledgements, font licences, generic-artwork labels and historical provenance in the KB. Do not claim artistic adaptations are original documentary photographs.
 
-Public export accepts only named reader routes and numbered poem, poet, issue and archive routes; new page families must be deliberately registered. Development mockups, samples, audits, proposals and review material remain local, regardless of whether their files are symlinks. The previously requested translation-review.html is the explicit exception: direct-link only, noindex, absent from site search, sitemap, LLM guide and analytics.
+Public export accepts only named reader routes and numbered poem, poet, issue and archive routes; new page families must be deliberately registered. Development mockups, samples, audits, proposals and review material remain local, regardless of whether their files are symlinks. The historical translation-review.html is now excluded from public export; its evidence remains in the local source and Git history.
 
 ## Ink & Voice quiet reader — 19 October 2026
 
@@ -334,3 +334,7 @@ Issue49 and subsequent editions inherit Issue48’s open cover-story layout. Kee
 ### Independent editorial language default — 1 November 2026
 
 Editorials open in English by default; poems default to their original language. Editorial language controls operate independently of poem/collection selection. Explicit editorial language links continue to open the requested version. Preserve the Original badge as source provenance, independent of the default display language.
+
+## Retired external references — 1 November 2026
+
+Confirmed HTTP404/410 citation destinations retain readable labels but lose their broken click targets in public export. Preserve exact URLs and verification evidence in the KB. Blocked verification, timeout and temporary server errors are not sufficient to retire links. The export uses `data/retired-external-links.json`.

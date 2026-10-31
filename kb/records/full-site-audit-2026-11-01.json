@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-01",
+  "status": "local cleanup; publication not authorized",
+  "scope": "Public export, source/edition integrity, disclosures, links, repository and KB residue",
+  "changes": [
+    "Exclude historical translation-review from public export; retain evidence locally",
+    "Strengthen AI production disclosure check, exception Our Story; preserve authored verse and internal provenance",
+    "Fix missing author416 contribution and four original-source author excerpts",
+    "Register published Issue49 in import ledger",
+    "Retire unused historical validator; maintained original-capture and rendered-verse checks retained",
+    "Replace ten exact duplicate logs with relative links; remove 88 reproducible bytecode files",
+    "Omit confirmed404/410 external click targets from export, retaining citation text and KB sources",
+    "Update current architecture summary while retaining dated setup history"
+  ],
+  "external_links": {
+    "total": 766,
+    "reachable": 663,
+    "confirmed_missing": 14,
+    "blocked": 47,
+    "unverified": 28,
+    "server_error": 14
+  },
+  "limitations": [
+    "HTTP/static audit does not certify accessibility or physical iPhone behavior",
+    "Signed-in editorial actions and email delivery not exercised",
+    "89 external destinations inconclusive; preserved",
+    "No publication or runtime changes"
+  ],
+  "evidence": "artifacts/review/full-site-audit-2026-11-01/",
+  "review": "Same-assistant self-review",
+  "verification": {
+    "build": "PASS",
+    "site_tests": 235,
+    "python_tests": 53,
+    "author_profiles": 438,
+    "editions": 49,
+    "active_poems": 828,
+    "disclosure_files": 1841,
+    "disclosure_violations": 0,
+    "live_routes_http200": 12
+  }
+}

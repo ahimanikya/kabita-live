@@ -91,11 +91,9 @@ def writer_work(writer):
 
 exec(compile((R/'author-pages.py').read_text(),str(R/'author-pages.py'),'exec'),globals())
 
-for p in directory:
-    ident=int(parse_qs(urlsplit(p['url']).query)['id'][0])
-    writer=profile_data.get(ident)
-    if not writer:
-        raise ValueError(f'Missing captured writer {ident}')
+# Include archive-discovered writers as well as the original directory.
+for writer in writer_profiles:
+    ident=writer['id']
     route=profile_routes.get(ident,f'poet-{ident}.html')
     if ident in {1,43}:
         # Keep the approved editor narrative and portrait; add their complete captured contribution list.

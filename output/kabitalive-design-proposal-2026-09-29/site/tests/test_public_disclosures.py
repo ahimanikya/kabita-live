@@ -18,7 +18,7 @@ class PublicDisclosures(unittest.TestCase):
             return module.audit(root)['violations']
 
     def test_production_copy_and_inline_markup(self):
-        for text in ['AI-generated picture', 'AI&#8209;assisted text', 'AI <em>created</em> illustration', 'Prepared with artificial intelligence', 'Translated using ChatGPT']:
+        for text in ['AI-generated picture', 'AI&#8209;assisted text', 'AI <em>created</em> illustration', 'Prepared with artificial intelligence', 'Translated using ChatGPT', 'AI-powered illustration', 'Translation by AI', 'With assistance from ChatGPT']:
             with self.subTest(text=text):
                 self.assertTrue(self.check('poem.html', '<p>' + text + '</p>'))
 

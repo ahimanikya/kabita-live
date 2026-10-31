@@ -1,0 +1,85 @@
+{
+  "tracked_paths_reviewed": 21576,
+  "duplicate_log_cleanup": [
+    {
+      "path": "kb/artifacts/design/full-design-audit-2026-10-19/editions.log",
+      "retained_content": "kb/artifacts/design/current-edition-home-2026-10-19/editions.log",
+      "sha256": "56dd13473f2a27d541f1b485edde2175904d1edf84ac16eb591df7609cba4d12",
+      "bytes_deduplicated": 789,
+      "action": "replace exact duplicate with relative link; evidence paths preserved"
+    },
+    {
+      "path": "kb/artifacts/design/ink-and-voice-2026-10-19/editions.log",
+      "retained_content": "kb/artifacts/design/current-edition-home-2026-10-19/editions.log",
+      "sha256": "56dd13473f2a27d541f1b485edde2175904d1edf84ac16eb591df7609cba4d12",
+      "bytes_deduplicated": 789,
+      "action": "replace exact duplicate with relative link; evidence paths preserved"
+    },
+    {
+      "path": "kb/artifacts/design/ink-and-voice-reader-2026-10-19/editions.log",
+      "retained_content": "kb/artifacts/design/current-edition-home-2026-10-19/editions.log",
+      "sha256": "56dd13473f2a27d541f1b485edde2175904d1edf84ac16eb591df7609cba4d12",
+      "bytes_deduplicated": 789,
+      "action": "replace exact duplicate with relative link; evidence paths preserved"
+    },
+    {
+      "path": "kb/artifacts/design/masthead-logo-2026-10-19/editions.log",
+      "retained_content": "kb/artifacts/design/current-edition-home-2026-10-19/editions.log",
+      "sha256": "56dd13473f2a27d541f1b485edde2175904d1edf84ac16eb591df7609cba4d12",
+      "bytes_deduplicated": 789,
+      "action": "replace exact duplicate with relative link; evidence paths preserved"
+    },
+    {
+      "path": "kb/artifacts/design/original-and-wash-2026-10-19/editions-check.log",
+      "retained_content": "kb/artifacts/design/current-edition-home-2026-10-19/editions.log",
+      "sha256": "56dd13473f2a27d541f1b485edde2175904d1edf84ac16eb591df7609cba4d12",
+      "bytes_deduplicated": 789,
+      "action": "replace exact duplicate with relative link; evidence paths preserved"
+    },
+    {
+      "path": "kb/artifacts/review/ink-voice-publication-2026-10-20/final-bundle.log",
+      "retained_content": "kb/artifacts/design/full-design-audit-2026-10-19/bundle.log",
+      "sha256": "45b28b83a9536aa9b8562ebee42d7661602282cfd693f3e7762ba86a0fc22f85",
+      "bytes_deduplicated": 271,
+      "action": "replace exact duplicate with relative link; evidence paths preserved"
+    },
+    {
+      "path": "kb/artifacts/review/ink-voice-publication-2026-10-20/local-bundle.log",
+      "retained_content": "kb/artifacts/design/full-design-audit-2026-10-19/bundle.log",
+      "sha256": "45b28b83a9536aa9b8562ebee42d7661602282cfd693f3e7762ba86a0fc22f85",
+      "bytes_deduplicated": 271,
+      "action": "replace exact duplicate with relative link; evidence paths preserved"
+    },
+    {
+      "path": "kb/artifacts/review/ink-voice-publication-2026-10-20/final-storage.log",
+      "retained_content": "kb/artifacts/design/full-design-audit-2026-10-19/storage.log",
+      "sha256": "d3b5d9a4d437d04c89a027939afc30ff05d09893cb71b5206ba7a65bb246cf8a",
+      "bytes_deduplicated": 166,
+      "action": "replace exact duplicate with relative link; evidence paths preserved"
+    },
+    {
+      "path": "kb/research/edition-art-pilot-2026-10-04/editions-check-47.log",
+      "retained_content": "kb/artifacts/review/poem-end-marks-2026-10-04/application/kbl-endmarks-editions.log",
+      "sha256": "4235f5b83f6aacfe9d4446dee1e15332b47d90e1ef2662a6ddeb55d19d852edf",
+      "bytes_deduplicated": 789,
+      "action": "replace exact duplicate with relative link; evidence paths preserved"
+    },
+    {
+      "path": "kb/research/edition-art-pilot-2026-10-04/editions-check-final.log",
+      "retained_content": "kb/artifacts/review/poem-end-marks-2026-10-04/application/kbl-endmarks-editions.log",
+      "sha256": "4235f5b83f6aacfe9d4446dee1e15332b47d90e1ef2662a6ddeb55d19d852edf",
+      "bytes_deduplicated": 789,
+      "action": "replace exact duplicate with relative link; evidence paths preserved"
+    }
+  ],
+  "reproducible_cache_files_removed": 88,
+  "preserved": "Historical decisions, source captures, originals, artwork masters, licences and internal provenance; no Git history rewriting.",
+  "empty_historical_log": "Preserved reader-check-47.log because absence of output is historical evidence, not an active cache.",
+  "auditFindings": {
+    "public_translation_report": "Removed from export allowlist; retained locally",
+    "author_416": "Archive-discovered author was omitted from rebuild loop; now renders complete contributions",
+    "new_author_quotes": "Four exact-source excerpts added; no biography or photo invented",
+    "edition49_registry": "Recorded actual published membership in existing import register",
+    "legacy_checker": "Retired unused historical hash checker; current original-capture and verse-parity checks pass"
+  }
+}

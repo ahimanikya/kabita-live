@@ -1,0 +1,6 @@
+{
+  "path": "tools/check_poem_experience.py",
+  "sha256": "12707639e166844df7aac3d46c5a757cd8d168af6fd8025760ef5da1f20df554",
+  "recover_from_commit": "be65c3a6399c44e8604a6fb3b9b5a9ac3707229f",
+  "reason": "Unreferenced historical rollout validator pins superseded translation/art databases and pre-correction poem hashes. Not invoked by CI. Replaced operationally by check_editions.py (original captures and rendered verse), check_author_pages.py and maintained npm test suite. No literary source or original artwork removed."
+}

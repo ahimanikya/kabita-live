@@ -1,0 +1,20 @@
+{
+  "pages": 1346,
+  "local_references_checked": 71754,
+  "images": 4074,
+  "findings_by_kind": {
+    "heading_count": 1
+  },
+  "findings": [
+    {
+      "page": "editor-workspace.html",
+      "kind": "heading_count",
+      "detail": 3
+    }
+  ],
+  "limitations": [
+    "Static HTML, not accessibility certification",
+    "Runtime-generated anchors require manual classification",
+    "No signed-in reviewer, email or submission writes tested"
+  ]
+}
