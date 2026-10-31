@@ -117,11 +117,15 @@ def prepare(root, names, environ=None):
     entries={}
     for name,page in parsed.items():
         image,reason=choose_image(name,page,parsed,current_home_cover(root,page) if name=='index.html' else None)
+        if reason=='edition_cover':
+            number=int(re.fullmatch(r'issue-(\d+)\.html',name)[1])
+            cover=json.loads((root/'data/cover-layout-b.json').read_text())[str(number)]
+            image={'source':cover['artwork'],'alt':f'Kabita Live — Issue {number}, {cover["date"]}. Complete front cover.','edition':number,'cover_svg':cover['svg'],'cover_fonts':COVER_FONTS}
         source=root/image['source']
         if not source.is_file():raise ValueError('Missing sharing image: '+str(source))
         # Digest protects social caches when an assigned image is revised.
         fingerprint=b'social-jpeg-contain-1200x630-v1\0'+source.read_bytes()
-        if reason=='current_edition_front_cover':
+        if reason in {'current_edition_front_cover','edition_cover'}:
             fingerprint+=b'\0front-cover-v1\0'+image['cover_svg'].encode()
             for font in image['cover_fonts']:fingerprint+=(root/font).read_bytes()
         digest=hashlib.sha256(fingerprint).hexdigest()[:20]
@@ -140,7 +144,7 @@ def prepare(root, names, environ=None):
         canonical=urljoin(base+name,page.canonical[0]) if page.canonical else base+('' if name=='index.html' else name)
         if urlsplit(canonical).netloc!=urlsplit(base).netloc or not canonical.startswith(base) or urlsplit(canonical).query or urlsplit(canonical).fragment:raise ValueError('Invalid source canonical: '+name)
         entries[name]={'canonical_url':canonical,'title':title,'description':description,'type':'article' if name.startswith('poem-') or reason=='article_illustration' else 'profile' if reason=='poet_portrait' else 'website','url':base+('' if name=='index.html' else name),'image_url':base+asset,'asset':asset,'source':image['source'],'alt':image['alt'] or f'Artwork accompanying {short}','reason':reason}
-        if reason=='current_edition_front_cover':
+        if reason in {'current_edition_front_cover','edition_cover'}:
             entries[name].update({key:image[key] for key in ['edition','cover_svg','cover_fonts']})
     return entries
 

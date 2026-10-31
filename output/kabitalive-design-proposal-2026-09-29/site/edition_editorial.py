@@ -12,10 +12,12 @@ def render_editorial(root, number, poems, names):
     translated={'or':'ଏଠାରେ ଅନୁବାଦ','en':'Excerpt in translation','hi':'अंश का अनुवाद'}
     links={'or':'ଏହି ପ୍ରସଙ୍ଗର କବିତା','en':'Poems in this passage','hi':'इस प्रसंग की कविताएँ'}
     parts=['<link rel="stylesheet" href="assets/edition-editorial.css?v=7"><script defer src="assets/edition-editorial.js?v=2"></script><section class="section edition-editorial" id="edition-editorial" aria-label="Editorial note" tabindex="-1">', '<nav class="editorial-languages" aria-label="Editorial language">']
-    for lang,label in labels.items():parts.append(f'<a href="#editorial-{lang}" lang="{lang}" data-editorial-language="{lang}">{label}</a>')
+    for lang,label in labels.items():
+        original=' <span class="original-label" lang="en">Original</span>' if lang==data.get('original_language') else ''
+        parts.append(f'<a href="#editorial-{lang}" lang="{lang}" data-editorial-language="{lang}">{label}{original}</a>')
     parts.append('</nav>')
     for lang,v in data['variants'].items():
-        parts.append(f'<article id="editorial-{lang}" lang="{lang}" class="editorial-prose"><p class="eyebrow">{headings[lang]}</p><h2>{e(v["title"])}</h2>')
+        parts.append(f'<article id="editorial-{lang}" lang="{lang}" class="editorial-prose"><p class="eyebrow">{headings["en"]}</p><h2>{e(v["title"])}</h2>')
         if data['status']=='editorial_draft':parts.append(f'<p class="editorial-status">{draft[lang]}</p>')
         for index,paragraph in enumerate(v['paragraphs']):
             parts.append('<div class="editorial-passage">')
@@ -26,7 +28,7 @@ def render_editorial(root, number, poems, names):
                 parts.append(f'<figure class="editorial-excerpt"><blockquote lang="{q["language"]}"><p>{quote}</p></blockquote>')
                 if lang!=q['language']:
                     rendering=e(q['renderings'][lang]).replace('\n','<br>')
-                    parts.append(f'<p class="excerpt-translation"><small>{translated[lang]}</small><br>{rendering}</p>')
+                    parts.append(f'<p class="excerpt-translation"><small>{translated["en"]}</small><br>{rendering}</p>')
                 parts.append(f'<figcaption><a href="poem-{q["poem_id"]}.html">{e(author)} · {e(poem["title"])}</a></figcaption></figure>')
                 for art in (a for a in data.get('illustrations',[]) if a.get('quote_poem_id')==q['poem_id']):
                     parts.append(f'<figure class="editorial-vignette"><img src="{e(art["src"],quote=True)}" alt="{e(art["alt"][lang],quote=True)}" width="{art["width"]}" height="{art["height"]}" loading="lazy" decoding="async"></figure>')
@@ -34,7 +36,7 @@ def render_editorial(root, number, poems, names):
             ids=data['paragraph_poem_ids'][index]
             if ids:
                 refs=' · '.join(f'<a href="poem-{pid}.html">{e(names.get(poems[pid]["writer_id"],poems[pid]["author"]))}</a>' for pid in ids)
-                parts.append(f'<p class="editorial-poem-links"><span>{links[lang]}: </span>{refs}</p>')
+                parts.append(f'<p class="editorial-poem-links"><span>{links["en"]}: </span>{refs}</p>')
             parts.append('</div>')
         parts.append('</article>')
     parts.append('</section>')
