@@ -1,7 +1,9 @@
 import test,{before,beforeEach,after} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {initializeTestEnvironment,assertFails,assertSucceeds} from '@firebase/rules-unit-testing';import * as s from 'firebase/firestore';import {ref,uploadBytes,getBytes,deleteObject} from 'firebase/storage';
 if(!process.env.FIRESTORE_EMULATOR_HOST||!process.env.FIREBASE_STORAGE_EMULATOR_HOST)throw Error('Both local emulators required');
+// Exercise open-call permissions independently of today's date; production cutoff is asserted below.
+const openRules=path=>fs.readFileSync(path,'utf8').replace('timestamp.date(2026, 10, 31)','timestamp.date(2999, 10, 31)');
 let env;let id='AbCdEf0123456789ABCD';const second='BcDeFg0123456789ABCD';
-before(async()=>{env=await initializeTestEnvironment({projectId:'demo-kabita-live',firestore:{rules:fs.readFileSync('firestore.rules','utf8')},storage:{rules:fs.readFileSync('storage.rules','utf8')}});});
+before(async()=>{env=await initializeTestEnvironment({projectId:'demo-kabita-live',firestore:{rules:openRules('firestore.rules')},storage:{rules:openRules('storage.rules')}});});
 beforeEach(async()=>{id=s.doc(s.collection(context().firestore(),"ids")).id;await env.clearFirestore();await env.clearStorage();await env.withSecurityRulesDisabled(c=>s.setDoc(s.doc(c.firestore(),'anthologyCalls','toshali-2027'),{open:true}));await env.withSecurityRulesDisabled(c=>s.setDoc(s.doc(c.firestore(),'anthologyReviewers','pbiswal804@gmail.com'),{enabled:true}));});after(async()=>env?.cleanup());
 const context=(uid='reader',claims={})=>env.authenticatedContext(uid,claims);
 function draft(c=context(),ident=id,extra={}){const db=c.firestore(),b=s.writeBatch(db),d=s.doc(db,'anthologySubmissions',ident);b.set(d,{uid:'reader',callId:'toshali-2027',name:'Test poet',email:'poet@example.invalid',title:'A poem',poem:'ମୋ କବିତା\n\nAnother line',bio:'A test poet.',photoMode:'upload',writerId:'',photoHash:'',photoPath:`anthology/toshali-2027/reader/${ident}/photo`,photoType:'image/jpeg',photoSize:3,status:'uploading',consentVersion:'toshali-private-v1',createdAt:s.serverTimestamp(),...extra});b.set(s.doc(db,'anthologyThrottle','reader'),{submissionId:ident,createdAt:s.serverTimestamp()});return b.commit();}
@@ -58,7 +60,7 @@ test('server cutoff blocks new entries, final receipts and photo uploads, while 
   await assertFails(draft(context(), '01234567890123456789'));
   await assertFails(finish());await assertFails(uploadBytes(photo(),new Uint8Array([1,2,3]),{contentType:'image/jpeg'}));
   await assertSucceeds(s.getDoc(s.doc(context().firestore(),'anthologySubmissions',id)));
- }finally{await closed?.cleanup();const restored=await initializeTestEnvironment({projectId:'demo-kabita-live',firestore:{rules:source},storage:{rules:images}});await restored.cleanup();}
+ }finally{await closed?.cleanup();const restored=await initializeTestEnvironment({projectId:'demo-kabita-live',firestore:{rules:openRules('firestore.rules')},storage:{rules:openRules('storage.rules')}});await restored.cleanup();}
 });
 
 test('Paresh has the same scoped review access; neither personal reviewer gets mail-service access',async()=>{
