@@ -18,8 +18,8 @@ document.querySelectorAll('.edition-editorial').forEach(section => {
     const lang = location.hash.replace('#editorial-', '');
     if (articles.some(article => article.lang === lang)) select(lang);
   };
-  const fromCollection = code => select(articles.some(article => article.lang === code) ? code : 'or');
-  document.addEventListener('collection-language-change', event => fromCollection(event.detail.language));
-  fromCollection(document.querySelector('[data-collection-reader]')?.dataset.readingLanguage); fromHash();
+  // Editorial selection is independent of the poems' original-language default.
+  select(articles.some(article => article.lang === 'en') ? 'en' : articles[0]?.lang);
+  fromHash();
   window.addEventListener('hashchange', fromHash);
 });

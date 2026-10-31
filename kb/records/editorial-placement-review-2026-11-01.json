@@ -1,0 +1,20 @@
+{
+  "status": "local-design-candidate",
+  "published": false,
+  "scope": "Issue49 editorial illustration placement",
+  "changes": [
+    "960px reading column",
+    "38% illustration beside associated quote",
+    "Original painting colours retained in dark mode",
+    "Single column below700px; artwork below quote",
+    "Quotes without art use full row"
+  ],
+  "artifact": "kb/artifacts/review/editorial-placement-2026-11-01/index.html",
+  "guidance": "responsive-design: aspect-ratio reserves media space",
+  "checks": {
+    "desktop": "visually verified in dark mode",
+    "mobile": "CSS prepared; device verification pending",
+    "independent": false
+  },
+  "approval": "Design and publication pending"
+}

@@ -31,3 +31,11 @@ body.night .editorial-vignette img{filter:grayscale(1) invert(1)}
 .editorial-quote-layout .editorial-excerpt{margin:0}
 .editorial-quote-layout .editorial-vignette{float:none;width:100%;max-width:none;margin:0}
 @media(max-width:600px){.editorial-quote-layout{grid-template-columns:minmax(0,1fr);gap:12px}.editorial-quote-layout .editorial-vignette{width:140px;justify-self:end}}
+
+/* Issue 49: preserve painting colours and keep art beside its quotation. */
+.edition-editorial-illustrated{max-width:960px;margin-inline:auto}
+.edition-editorial-illustrated .editorial-quote-layout{grid-template-columns:minmax(0,1fr)}
+.edition-editorial-illustrated .editorial-quote-layout:has(.editorial-vignette){grid-template-columns:minmax(0,1fr) minmax(240px,38%);gap:32px;align-items:center}
+.edition-editorial-illustrated .editorial-vignette img{aspect-ratio:3/2;height:auto;filter:none}
+body.night .edition-editorial-illustrated .editorial-vignette img{filter:none}
+@media(max-width:700px){.edition-editorial-illustrated .editorial-quote-layout:has(.editorial-vignette){grid-template-columns:minmax(0,1fr);gap:20px}.edition-editorial-illustrated .editorial-quote-layout .editorial-vignette{width:min(100%,360px);justify-self:center}}

@@ -329,3 +329,8 @@ The same change fixes the user-reported small-screen alignment: the badge fits t
 ## Standing edition layout and sharing rules — 1 November 2026
 
 Issue49 and subsequent editions inherit Issue48’s open cover-story layout. Keep each edition’s own artwork and literary content; omit empty cultural sections. Linked author names have no By prefix. Article/poem previews use associated illustrations, author previews use identified portraits where available, editions use complete composed covers, and the homepage uses the newest published edition cover. Preserve recorded historical text-led edition-cover fallbacks and honest missing-photo exceptions. Verify generated metadata and exported preview images before publication, and live assets afterwards. Each website release still requires the owner’s explicit approval.
+
+
+### Independent editorial language default — 1 November 2026
+
+Editorials open in English by default; poems default to their original language. Editorial language controls operate independently of poem/collection selection. Explicit editorial language links continue to open the requested version. Preserve the Original badge as source provenance, independent of the default display language.
