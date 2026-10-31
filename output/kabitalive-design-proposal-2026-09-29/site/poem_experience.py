@@ -74,7 +74,7 @@ def enhance_poem(body,p,data):
     body=READING_RE.sub(lambda m:m[1]+encoded(data)+m[3],body)
     body=re.sub(r'<figcaption\b[^>]*>.*?</figcaption>','',body,flags=re.S)
     body=re.sub(r' · <span lang="(?:or|hi|en)">.*?</span></p>','</p>',body,count=1)
-    body=body.replace('By '+escape(p['author']), 'By '+escape(data['author']))
+    body=body.replace('<span>'+escape(p['author'])+'</span>', '<span>'+escape(data['author'])+'</span>')
     feedback=re.search(r'<a href="contact.html\?poem=\d+">.*?</a>',body,re.S).group(0)
     quiet='<button type="button" id="open-focus" aria-label="Read quietly">'+quiet_reader_icon()+'<span>Read quietly</span></button>'
     body=body.replace(feedback,quiet,1)

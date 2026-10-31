@@ -66,7 +66,7 @@ for ident, p in catalogue.items():
     issue_crumb=f'<a href="{issue_route}">Issue {p["issue"]}</a> / Poetry' if p['issue'] else '<a href="poems.html">Poetry</a>'
     page(p['reader'],p['title'],crumb(issue_crumb)+
         head(p['label']+' · Poetry',e(p['title']))+
-        '<article class="prose"><p class="byline">By <a href="'+p['profile']+'">'+e(p['author'])+'</a></p>'+
+        '<article class="prose"><p class="byline"><a href="'+p['profile']+'">'+e(p['author'])+'</a></p>'+
         '<p class="content-status">The complete poem is not yet available here.</p>'+
         btn('Explore the collection',issue_route,False)+'</article>',active='Poems')
 

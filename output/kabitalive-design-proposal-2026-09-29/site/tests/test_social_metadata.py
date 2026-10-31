@@ -43,6 +43,22 @@ class SocialMetadataTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'current edition front cover'):
             choose_image('index.html',Page(''),{})
 
+    def test_edition_preview_uses_complete_cover_and_matches_current_home(self):
+        with TemporaryDirectory() as tmp:
+            root=Path(tmp);self.home_fixture(root,49)
+            (root/'issue-49.html').write_text('<title>November 2026</title><figure class="edition-cover"><svg><image href="assets/current.webp"/></svg></figure>')
+            result=prepare(root,['index.html','issue-49.html'],{})
+            edition=result['issue-49.html']
+            self.assertEqual(edition['reason'],'edition_cover')
+            self.assertEqual(edition['edition'],49)
+            self.assertIn('<text>Issue 49</text>',edition['cover_svg'])
+            self.assertEqual(edition['asset'],result['index.html']['asset'])
+            covers=json.loads((root/'data/cover-layout-b.json').read_text())
+            covers['49']['svg']=covers['49']['svg'].replace('Issue 49','Issue 49 · November 2026')
+            (root/'data/cover-layout-b.json').write_text(json.dumps(covers))
+            changed=prepare(root,['issue-49.html'],{})['issue-49.html']
+            self.assertNotEqual(edition['asset'],changed['asset'])
+
     def test_essay_uses_lead_art_and_supplied_description(self):
         with TemporaryDirectory() as tmp:
             root=Path(tmp);(root/'assets').mkdir()

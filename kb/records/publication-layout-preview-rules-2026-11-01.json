@@ -1,0 +1,23 @@
+{
+  "result": "PASS",
+  "date": "2026-11-01",
+  "scope": "Verified publication export; active preview-image associations",
+  "counts": {
+    "current_edition_front_cover": 1,
+    "edition_cover": 49,
+    "text_poem_edition_cover": 139,
+    "poem_illustration": 689,
+    "journal_fallback": 6,
+    "poet_portrait": 432,
+    "article_illustration": 2
+  },
+  "missingPortraitFallbacks": [
+    "poet-478.html",
+    "poet-479.html",
+    "poet-480.html",
+    "poet-481.html"
+  ],
+  "currentHomepageEdition": 49,
+  "layoutStatus": "Prepared locally, not yet published",
+  "automatedCoverage": "Normal social metadata test suite; new complete-edition-cover and cache-refresh regression"
+}

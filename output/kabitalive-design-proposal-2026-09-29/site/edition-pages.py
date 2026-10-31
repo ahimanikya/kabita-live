@@ -137,12 +137,13 @@ for issue in publication_issues:
     date=f'{issue["month"]} {issue["year"]}';art=cover_by_number[n]
     refs=' '.join(f'<a class="text-link" href="{e(ref["url"])}" target="_blank" rel="noopener noreferrer">{e(ref["label"])} ↗</a>' for ref in art.get('sources',[]))
     culture=f'<div class="edition-cultural"><h3>Cultural connection</h3><p>{e(art["cultural_connection"])}</p>'+(f'<div class="edition-cover-sources">{refs}</div>' if refs else '')+'</div>'
+    if not art.get('cultural_connection','').strip() and not refs: culture=''
     cover_figure='<figure class="edition-cover">'+coverpair(n,local=True)+'<figcaption>Select the cover to read</figcaption></figure>'
     current=n==current_home_issue['number']
     issue_label=(f'<span class="eyebrow">Current issue · {n}</span>' if current else f'<span class="eyebrow">Issue {n}</span>')
     editorial=render_editorial(R,n,publication_poems,edition_writer_names)
     entry_links='<nav class="edition-opening-links" aria-label="Read this edition"><a class="edition-read-primary" href="#edition-poems">Read Poems</a>'+('<a class="edition-read-primary" href="#edition-editorial">Read Editorial</a>' if editorial else '')+'</nav>'
-    story=(f'<div class="edition-story"><h2>{e(art["title"])}</h2><p>{e(art["story"])}</p>{culture}</div>' if n==48 else f'<details class="edition-story"><summary>About this cover</summary><h2>{e(art["title"])}</h2><p>{e(art["story"])}</p>{culture}</details>')
+    story=(f'<div class="edition-story"><h2>{e(art["title"])}</h2><p>{e(art["story"])}</p>{culture}</div>' if n>=48 else f'<details class="edition-story"><summary>About this cover</summary><h2>{e(art["title"])}</h2><p>{e(art["story"])}</p>{culture}</details>')
     page(f'issue-{n}.html',f'Issue {n} · {date}',discovery_styles+crumb('<a href="archive.html">Archive</a> / '+str(n))+
         '<section class="issue-intro edition-opening'+(' current-edition' if current else ' artistic-edition')+'">'+cover_figure+f'<div>{issue_label}<h1>{e(date)}</h1>'+
         entry_links+story+'</div></section>'+
@@ -172,7 +173,7 @@ def poem_byline(p):
         if not (R/asset).is_file():raise ValueError(f'Missing poet portrait: {asset}')
         portrait=f'<img class="poem-poet-portrait" src="{e(asset)}" width="56" height="56" alt="" decoding="async">'
     else:portrait=''
-    return f'<p class="byline poem-byline"><a href="{route}">{portrait}<span>By {e(p["author"])}</span></a></p>'
+    return f'<p class="byline poem-byline"><a href="{route}">{portrait}<span>{e(p["author"])}</span></a></p>'
 
 for p in publication_poems.values():
     ident=p['id'];lang=p['language'];label=language_labels[lang];n=p['edition'];route=poem_route(ident)
