@@ -2,7 +2,7 @@
   "date": "2026-11-01",
   "issue": 49,
   "month": "2026-11",
-  "status": "verified-awaiting-deployment",
+  "status": "published-live-verified",
   "approval": "Ahimanikya: Can we do that and follow same publication rule like before and publish",
   "baseCommit": "bbf67fd69628403d1d3e88c20836c48031598e40",
   "hostingMode": "discovery",
@@ -33,7 +33,30 @@
   "nextDraft": {
     "issue": 50,
     "month": "2026-12",
-    "cover": "Generated winter courtyard candidate; no inherited poems or approvals"
+    "status": "DRAFT",
+    "result": "created",
+    "coverCandidate": true,
+    "historyRevision": 1
   },
-  "publication": false
+  "publication": true,
+  "releaseCommit": "92ad578439fd8d58383c566a6095b98a3a6642e8",
+  "failedRuns": [
+    {
+      "run": 41243477613,
+      "reason": "Upload failed; old-head run cancelled before publication"
+    },
+    {
+      "run": 41243559049,
+      "reason": "Anthology open-call emulator tests used expired production deadline; test-only future cutoff now used, actual cutoff still explicitly asserted"
+    }
+  ],
+  "productionRulesChanged": false,
+  "successfulRun": 41244217415,
+  "liveURL": "https://kabitalive.com/issue-49.html",
+  "liveVerification": {
+    "pages": 26,
+    "poems": 18,
+    "sharingImages": "reachable",
+    "result": "PASS"
+  }
 }
