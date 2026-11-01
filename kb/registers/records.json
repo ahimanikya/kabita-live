@@ -2476,6 +2476,24 @@
       "evidence": [
         "records/ink-voice-publication-2026-10-20.json"
       ]
+    },
+    {
+      "id": "KBL-DEC-124",
+      "title": "Publish poem836 correction and open monthly submissions",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Editorial corrections: publish the approved ଛାଡିଯିବି. Monthly submissions. Activate the public form",
+      "scope": "Exact prepared monthly public intake release and poem836 correction",
+      "recorded_at": "2026-11-02T04:30:00+05:30",
+      "refs": [
+        "KBL-WORK-079"
+      ],
+      "evidence": [
+        "records/monthly-intake-publication-2026-11-02.json"
+      ]
     }
   ],
   "requirements": [
@@ -4235,6 +4253,19 @@
       ],
       "evidence": [
         "records/ink-voice-publication-2026-10-20.json"
+      ]
+    },
+    {
+      "id": "KBL-REL-023",
+      "title": "Monthly public intake and approved poem836 correction",
+      "status": "published",
+      "authorization": "KBL-DEC-124",
+      "destination": "https://kabitalive.com/submit.html",
+      "refs": [
+        "KBL-WORK-079"
+      ],
+      "evidence": [
+        "records/monthly-intake-publication-2026-11-02.json"
       ]
     }
   ],

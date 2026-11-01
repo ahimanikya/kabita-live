@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "status": "prepared for authorized publication",
+  "status": "published and live verified",
   "approval": "Ahimanikya explicitly requested publish approved ଛାଡିଯିବି and activate public monthly form",
   "scope": [
     "poem836 exact source correction and matching translation provenance",
@@ -25,5 +25,41 @@
     "mailMode": "live",
     "dailyLimit": 100
   },
-  "publication_authorized": true
+  "publication_authorized": true,
+  "runtime_activation": {
+    "at": "2026-11-01T22:53:59.072Z",
+    "open": true,
+    "emailDeliveryEnabled": true,
+    "sender": "kabitaliveweb@gmail.com",
+    "mailSettingsChanged": false
+  },
+  "release": {
+    "run": "41359434308",
+    "commit": "f3dd3a94f",
+    "status": "success"
+  },
+  "live_verification": {
+    "poem836_exact_correction": true,
+    "form_open_status_browser": true,
+    "service_http200": true,
+    "runtime_enabled": true,
+    "new_live_submission_or_email_test": false
+  },
+  "next_draft": {
+    "result": "existing_preserved",
+    "source": {
+      "issue": 49,
+      "month": "2026-11",
+      "run": "41359434308",
+      "commit": "f3dd3a94fc2319867f4a95c2823b9df8395f3811"
+    },
+    "draft": {
+      "issue": 50,
+      "month": "2026-12",
+      "status": "DRAFT",
+      "runtimeStage": "preparation"
+    },
+    "overwritten": false,
+    "published": false
+  }
 }
