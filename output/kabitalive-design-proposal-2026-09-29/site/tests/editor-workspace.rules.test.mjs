@@ -30,3 +30,13 @@ test('owner has editor capabilities with verified sign-in and enabled grants, bu
  await assertFails(save(db,2,{updatedBy:owner}));
  await assertFails(deleteDoc(doc(db,'editorIssues','2026-11')));
 });
+
+test('shared categories require paired immutable history and deny outsiders',{skip:!enabled},async()=>{
+ const db=editor();const put=(revision,audit=true)=>{const d={names:['Poetry'],revision,updatedBy:email,updatedAt:serverTimestamp()},b=writeBatch(db);b.set(doc(db,'editorCatalogue','categories'),d);if(audit)b.set(doc(db,'editorCatalogue','categories','history',String(revision)),d);return b.commit();};
+ await assertFails(put(1,false));await assertSucceeds(put(1));await assertSucceeds(getDoc(doc(editor('areshkpatnaik@gmail.com'),'editorCatalogue','categories')));await assertFails(getDoc(doc(env.unauthenticatedContext().firestore(),'editorCatalogue','categories')));await assertFails(put(1));await assertSucceeds(put(2));await assertFails(deleteDoc(doc(db,'editorCatalogue','categories')));
+});
+test('production handoff is owner-only, immutable, exact-revision and not publication',{skip:!enabled},async()=>{
+ const owner='ahimanikya@gmail.com';await env.withSecurityRulesDisabled(c=>setDoc(doc(c.firestore(),'monthlyReviewers',owner),{enabled:true}));await save(editor());
+ const data={month:'2026-11',revision:1,draftJson:'{"format":"kabita-edition-draft-v1"}',approvedBy:owner,approvedAt:serverTimestamp(),purpose:'production-handoff'};
+ await assertFails(setDoc(doc(editor(),'editorReleaseReviews','2026-11-1'),data));await assertFails(setDoc(doc(editor(owner),'editorReleaseReviews','2026-11-1'),{...data,draftJson:'forged'}));await assertFails(setDoc(doc(editor(owner),'editorReleaseReviews','2026-11-2'),{...data,revision:2}));await assertSucceeds(setDoc(doc(editor(owner),'editorReleaseReviews','2026-11-1'),data));await assertFails(setDoc(doc(editor(owner),'editorReleaseReviews','2026-11-1'),data));await assertFails(deleteDoc(doc(editor(owner),'editorReleaseReviews','2026-11-1')));await assertFails(setDoc(doc(editor(owner),'editorPublications','2026-11'),{published:true}));await save(editor(),2);await assertFails(setDoc(doc(editor(owner),'editorReleaseReviews','2026-11-1-again'),data));
+});

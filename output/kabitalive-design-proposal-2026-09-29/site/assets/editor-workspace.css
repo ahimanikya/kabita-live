@@ -17,7 +17,145 @@ select{font:inherit;color:inherit;min-height:48px;padding:.6rem;border:1px solid
 
 header #cloud-login,header #header-account{margin-left:auto}header #header-account{font-size:.85rem;color:var(--muted)}.add-content>#add{width:100%;margin-bottom:1rem}.studio-links{margin:.25rem 0}
 
-.overview-open #studio,.overview-open #publication-picker,.overview-open #submission-desks,.overview-open #edition-actions,.overview-open .topbar{display:none!important}
+.overview-open #studio,.overview-open #publication-picker,.overview-open #submission-desks,.overview-open #edition-actions,.overview-open .issue-summary{display:none!important}
 #studio-overview{max-width:1100px;margin:auto;padding-block:2rem}#studio-overview h2{margin-top:2rem}.issue-statistics{overflow-x:auto;margin-block:1rem}.issue-statistics table{border-collapse:collapse;width:100%;font-size:.9rem}.issue-statistics caption{text-align:left;color:var(--muted);padding-block:.6rem}.issue-statistics th,.issue-statistics td{text-align:left;padding:.8rem;border-bottom:1px solid var(--rule)}.issue-statistics th{font-weight:600}.studio.sidebar-collapsed{grid-template-columns:minmax(0,1fr) 285px}.sidebar-collapsed .properties{grid-column:auto}#edition-counts{margin-block:.3rem}#sidebar-toggle{min-height:48px}@media(max-width:1100px){.studio.sidebar-collapsed{grid-template-columns:minmax(0,1fr)}.sidebar-collapsed .properties{grid-column:1}}@media(max-width:650px){.studio.sidebar-collapsed{display:block}}
 .studio.sidebar-collapsed:has(>.properties[hidden]){grid-template-columns:minmax(0,1fr)}
 .overview-open .skip{display:none}
+
+/* App workspace: one active view, with publication-specific navigation. */
+#canvas{min-width:0}#submission-desks{padding:1rem;border:1px solid var(--rule);border-radius:8px;background:var(--paper)}
+#submission-desks h2{margin-top:0}#submission-desks ul{padding-left:1.3rem}#submission-desks li{border-bottom:1px solid var(--rule);padding:1rem .3rem}
+@media(min-width:651px){.pages{position:sticky;top:0;align-self:start;max-height:100vh;overflow-y:auto}}
+@media(max-width:650px){.pages nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible}.pages nav button{min-width:0;overflow-wrap:anywhere}#submission-desks{padding:.8rem}.publication-tabs button{flex:1}}
+
+.pages #management{padding:1rem 0;border-top:1px solid var(--rule);border-bottom:0;margin-top:1rem}.pages .studio-links a{display:block;padding:.5rem 0}.pages .studio-links{font-size:0}.pages .studio-links a{font-size:.85rem}
+
+/* Editor Studio uses workspace controls, without a website masthead. */
+.app-account{margin-left:auto;align-items:center}.app-account #header-account{display:none}.topbar .issue-summary small{display:inline}.topbar{padding:.6rem 1rem;flex-wrap:wrap}.topbar .app-account{width:auto}body:has(#studio[hidden]) .issue-summary{display:none}
+
+.pages{display:flex;flex-direction:column;min-height:calc(100vh - 100px)}.pages #publication-picker{padding:0 0 1rem;margin:0 0 1rem}.pages .publication-tabs{display:grid;gap:.4rem}.pages .publication-tabs button{width:100%;text-align:left;white-space:normal}
+.sidebar-account{margin-top:auto;padding-top:1rem;border-top:1px solid var(--rule);display:flex;align-items:center;gap:.6rem;flex-shrink:0}.sidebar-account img,.sidebar-account #account-initials{width:40px;height:40px;border-radius:50%;flex-shrink:0;object-fit:cover}.sidebar-account #account-initials{display:grid;place-items:center;background:var(--rose);font-size:.85rem}.sidebar-account #account-name{font-size:.85rem;overflow-wrap:anywhere;min-width:0}
+@media(max-width:650px){.pages{min-height:0}.sidebar-account{margin-top:1rem}.pages .publication-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+@media(min-width:651px){.pages{height:calc(100vh - 140px);height:calc(100dvh - 140px);min-height:420px;max-height:none;overflow:hidden}.pages #publication-picker{flex-shrink:0}.sidebar-scroll{min-height:0;overflow-y:auto;flex:1;padding-bottom:1rem}.sidebar-account{padding-bottom:.2rem}.pages #management{margin-bottom:0}}
+/* App-shell adaptation: Kabita Live palette, independent navigation and reading pane. */
+@media(min-width:651px){
+ body:has(#studio:not([hidden])):not(.overview-open){--studio-nav:240px;display:flex;flex-direction:column;height:100vh;height:100dvh;overflow:hidden}
+ body:has(#studio.sidebar-collapsed):not(.overview-open){--studio-nav:0px}
+ body:has(#studio:not([hidden])):not(.overview-open)>.topbar,
+ body:has(#studio:not([hidden])):not(.overview-open)>.account-status,
+ body:has(#studio:not([hidden])):not(.overview-open)>#edition-actions{margin-left:var(--studio-nav)}
+ body:has(#studio:not([hidden])):not(.overview-open)>.topbar{flex-shrink:0;border-bottom:0;padding:16px 24px;min-height:66px}
+ body:has(#studio:not([hidden])):not(.overview-open)>#cloud-status:empty{display:none}
+ body:has(#studio:not([hidden])):not(.overview-open)>.studio{flex:1;min-height:0;grid-template-columns:var(--studio-nav) minmax(0,1fr) 260px;gap:0;overflow:hidden;padding:0 16px 0 0}
+ body:has(#studio:not([hidden])):not(.overview-open)>.studio:has(>.properties[hidden]){grid-template-columns:var(--studio-nav) minmax(0,1fr)}
+ body:has(#studio:not([hidden])):not(.overview-open)>.studio.sidebar-collapsed{grid-template-columns:minmax(0,1fr) 260px}
+ body:has(#studio:not([hidden])):not(.overview-open)>.studio.sidebar-collapsed:has(>.properties[hidden]){grid-template-columns:minmax(0,1fr);padding-left:16px}
+ .studio>.pages{grid-column:1;grid-row:1;position:fixed;inset:0 auto 0 0;width:var(--studio-nav);height:100vh;height:100dvh;min-height:0;max-height:none;padding:18px 12px 12px;border-right:1px solid var(--rule);background:var(--rose);z-index:2}
+ .studio>#canvas{grid-column:2;grid-row:1;overflow:auto;min-height:0;border:1px solid var(--rule);border-radius:14px 14px 0 0;background:var(--paper);padding:20px 24px;scrollbar-gutter:stable}
+ .studio>.properties{grid-column:3;grid-row:1;overflow:auto;min-height:0;border-top:0;background:var(--paper);padding:20px 16px}
+ .studio.sidebar-collapsed>#canvas{grid-column:1}.studio.sidebar-collapsed>.properties{grid-column:2}
+ #edition-actions{flex-shrink:0;position:static;background:var(--paper);padding:12px 24px}
+ #reconcile:not([hidden]),#import-preview:not([hidden]){margin-left:var(--studio-nav);max-height:45dvh;overflow:auto;flex-shrink:0}
+}
+.pages #publication-picker{margin:0 0 14px;padding:0 0 14px}.pages .publication-tabs{grid-template-columns:1fr;gap:4px}.pages .publication-tabs button{border-radius:8px;font-size:14px;font-weight:600;min-height:44px;padding:10px 12px;background:var(--paper);border-color:transparent}.pages .publication-tabs button[aria-pressed=true]{background:var(--accent);color:var(--paper)}
+.pages h1{font:600 12px/1.5 system-ui,sans-serif;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:8px 10px 12px}
+.pages nav{display:flex;flex-direction:column;gap:3px}.pages nav button{font-size:14px;line-height:1.45;min-height:44px;padding:10px 12px;border-radius:7px;margin:0;border:1px solid transparent}.pages nav button[aria-current=page]{background:var(--paper);border:1px solid var(--rule);color:var(--accent)}.pages nav button small{display:none}
+.add-content{padding:0 4px 12px}.add-content button,.add-content .open{min-height:44px;font-size:14px;border-radius:7px}.sidebar-scroll{scrollbar-gutter:stable}.sidebar-account{background:var(--paper);border:1px solid var(--rule);border-radius:10px;padding:10px;margin-top:12px;min-height:62px}
+.canvas-tools{padding-bottom:14px;border-bottom:1px solid var(--rule);margin-bottom:20px}.canvas-tools button{font-size:13px;min-height:44px}.paper{box-shadow:none;border:0;padding:12px 8px;min-height:0}.paper h2{font-size:30px}.paper .contents-row{border-radius:8px}.topbar .issue-summary strong{font-size:15px}.topbar .issue-summary small{font-size:12px}.account-status:empty,#mode-help:empty,#notice:empty{display:none}
+@media(max-width:650px){.pages{background:var(--rose);padding:12px}.pages .publication-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}.pages nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.sidebar-account{max-width:100%}#canvas{padding:16px}.paper{padding:8px 0}.topbar .app-account{flex-wrap:wrap}.canvas-tools{flex-wrap:wrap}}
+
+body:has(#studio[hidden]) #sidebar-toggle,.overview-open #sidebar-toggle{display:none}.topbar #sidebar-toggle{min-height:44px;font-size:13px}@media(max-width:650px){.topbar{position:sticky;top:0;z-index:4;background:var(--paper)}.topbar .app-account{margin-left:0}.topbar{gap:8px}}
+
+/* Reference-shell collapse: desktop icon rail, phone disclosure. */
+.topbar #sidebar-toggle{display:inline-grid;place-items:center;width:44px;height:44px;padding:0;flex-shrink:0;border-color:transparent;background:transparent}
+.topbar #sidebar-toggle:hover{background:var(--rose)}
+.pages nav button{display:flex;align-items:center;gap:10px}.nav-icon{display:inline-grid;place-items:center;flex-shrink:0;width:20px;font:20px/1 system-ui,sans-serif}.nav-label{min-width:0;overflow-wrap:anywhere}
+@media(min-width:651px){
+ body:has(#studio.sidebar-rail):not(.overview-open){--studio-nav:64px}
+ .studio.sidebar-rail>.pages{padding:18px 8px 12px}
+ .sidebar-rail .sidebar-scroll{scrollbar-gutter:auto}
+ .sidebar-rail .pages h1,.sidebar-rail .add-content,.sidebar-rail #management,.sidebar-rail .nav-label,.sidebar-rail #account-name{display:none}
+ .sidebar-rail .pages nav button{padding:10px;justify-content:center;width:44px}
+ .sidebar-rail .publication-tabs button{font-size:0;padding:10px 0;text-align:center}
+ .sidebar-rail #publication-monthly::before{content:'K';font-size:15px}
+ .sidebar-rail #publication-anthology::before{content:'T';font-size:15px}
+ .sidebar-rail .sidebar-account{padding:2px;min-height:46px;border:0;background:transparent}
+}
+
+.sidebar-rail #account-name{display:block;position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+
+/* Publication symbols: inherited Kabita mark and matching anthology book. */
+.pages .publication-tabs button{display:flex;align-items:center;gap:10px}
+.publication-icon{width:28px;height:28px;flex-shrink:0;color:var(--accent)}
+.publication-tabs button[aria-pressed=true] .publication-icon{color:var(--paper)}
+.publication-tabs button[aria-pressed=true] .logo-water,.publication-tabs button[aria-pressed=true] .anthology-leaf{fill:#8ecac9}
+.publication-label{min-width:0}
+@media(min-width:651px){.sidebar-rail .publication-tabs button{justify-content:center}.sidebar-rail .publication-label{display:none}.sidebar-rail #publication-monthly::before,.sidebar-rail #publication-anthology::before{content:none}}
+
+/* Direct icon-only publication switcher. */
+.pages .publication-tabs{grid-template-columns:44px 44px;gap:8px}
+.pages .publication-tabs button{width:44px;height:48px;padding:8px;justify-content:center}
+.pages .publication-label{display:none}
+@media(min-width:651px){.sidebar-rail .publication-tabs{grid-template-columns:44px}}
+
+/* Semantic article table: preserve columns, allow keyboard horizontal scrolling. */
+.article-table-wrap{overflow:auto;max-width:100%;max-height:65dvh;border:1px solid var(--rule);border-radius:8px}
+.article-table{width:100%;min-width:620px;border-collapse:separate;border-spacing:0;font:13px/1.5 system-ui,Oriya,Hindi,sans-serif;text-align:left}
+.article-table th,.article-table td{padding:10px 8px;border-bottom:1px solid var(--rule);vertical-align:middle}
+.article-table thead th{position:sticky;top:0;background:var(--rose);z-index:2;font-weight:600}
+.article-table tbody th{position:sticky;left:0;background:var(--paper);z-index:1;min-width:120px;max-width:260px}
+.article-table tbody th button{border:0;background:transparent;padding:0;text-align:left;color:var(--accent);min-height:44px;font:inherit;font-weight:600;overflow-wrap:anywhere}
+.article-table .actions{display:flex;flex-wrap:nowrap;gap:4px}.article-table .actions button{padding:6px 12px}
+.article-table tr:last-child>*{border-bottom:0}.article-filters{margin:12px 0}.article-filters summary{cursor:pointer;min-height:44px;padding:10px 0}.article-table-wrap:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+
+.article-table thead th:nth-child(2){left:0;z-index:3}
+
+/* Compact Articles workspace: controls first, table immediately below. */
+.article-list-view .paper{max-width:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;padding:0}
+.article-list-view .paper>h2,.article-list-view .article-search label,.article-list-status{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.article-list-view .canvas-tools{padding-bottom:8px;margin-bottom:10px}
+.article-list-view .article-search input{font:14px system-ui,sans-serif;min-height:44px;margin:0;border:1px solid var(--rule);background:var(--paper)}
+.article-list-view .article-filters{margin:0;align-self:start}.article-list-view .article-filters summary{padding:10px;min-height:44px;font:14px/24px system-ui,sans-serif}
+.article-list-view .article-filters[open]{grid-column:1/-1}.article-list-view .article-filters[open] .studio-filters{padding:0 0 10px}
+.article-list-view .article-table-wrap{grid-column:1/-1;max-height:none}
+@media(min-width:651px){body:has(#studio:not([hidden])):not(.overview-open)>.topbar{padding:8px 16px;min-height:56px}.studio>#canvas.article-list-view{padding:12px 16px}}
+@media(max-width:650px){#canvas.article-list-view{padding:10px}.article-list-view .paper{padding:0}}
+
+/* Authors use the same compact, semantic table as Articles. */
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.author-list-view .paper{max-width:none;padding:0}.author-list-view .canvas-tools,.author-list-view .page-footer{display:none}
+.author-toolbar{display:flex;align-items:center;gap:8px}.paper .author-toolbar input{min-width:0;flex:1;min-height:44px;font:14px system-ui,sans-serif;border:1px solid var(--rule)}
+.author-toolbar button{min-height:44px;white-space:nowrap;font-size:14px}.author-count{font:12px/1.5 system-ui,sans-serif;color:var(--muted);margin:8px 0}
+.author-table{min-width:460px}.author-table th,.author-table td{padding:6px 10px}.author-table thead th:nth-child(2){position:sticky;left:auto;z-index:2}.author-table thead th:first-child{left:0;z-index:3}.author-table tbody th{min-width:150px}
+.author-table .actions a{display:inline-flex;align-items:center;min-height:44px;padding:4px 8px}.author-table details summary{min-height:44px;padding:10px 0}.author-table details button{display:block;text-align:left;margin-block:4px}
+@media(min-width:651px){.studio>#canvas.author-list-view{padding:12px 16px}}@media(max-width:650px){.author-toolbar{flex-wrap:wrap}.paper .author-toolbar input{flex-basis:100%}#canvas.author-list-view{padding:10px}}
+
+.author-table thead th,.author-table .actions>*{white-space:nowrap}.author-table tbody th{width:55%}.author-table td:nth-child(2){text-align:center}
+
+/* Submission desks share the compact table layout. */
+.submission-list-view .canvas-tools{display:none}.submission-list-view #submission-desks{border:0;padding:0;background:transparent}
+#submission-desks h2{font:600 16px/1.4 system-ui,sans-serif;margin:0 0 8px}
+#submission-desks p[id$="-inbox-status"]{font:12px/1.5 system-ui,sans-serif;margin:8px 0;color:var(--muted)}
+.submission-table{min-width:570px}.submission-table tbody th{font-weight:600}.submission-table thead th:nth-child(2){left:auto;z-index:2}.submission-table thead th:first-child{left:0;z-index:3}
+.submission-table td:last-child button{white-space:nowrap;min-height:44px;font-size:13px;padding:8px}
+#submission-desks .actions{margin-top:8px;gap:8px}#submission-desks .actions button,#submission-desks .actions a{font-size:13px;min-height:44px;padding:8px}
+@media(min-width:651px){.studio>#canvas.submission-list-view{padding:12px 16px}}@media(max-width:650px){#canvas.submission-list-view{padding:10px}}
+
+.management-list-view .paper{padding:0;max-width:none}.management-list-view .canvas-tools,.management-list-view .page-footer{display:none}
+.list-toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.paper .list-toolbar input{flex:1;min-width:150px;min-height:44px;font:14px system-ui,sans-serif;border:1px solid var(--rule)}.paper .list-toolbar select{width:auto;min-height:44px;font:14px system-ui,sans-serif;margin:0}.list-toolbar button{min-height:44px;font-size:14px}.list-status{font:12px/1.5 system-ui,sans-serif;color:var(--muted);margin:8px 0}.studio-list-table{min-width:560px}.studio-list-table td{overflow-wrap:anywhere}.studio-list-table td:nth-child(3){max-width:400px}.studio-list-table thead th:nth-child(2){left:auto}.studio-list-table button{min-height:44px;font-size:13px}
+.pages #management:not(:has(.studio-links)){padding:0;border:0;margin:0}@media(min-width:651px){.studio>#canvas.management-list-view{padding:12px 16px}}
+
+.category-list-view .paper{max-width:none;padding:0}.category-list-view .canvas-tools,.category-list-view .page-footer{display:none}.category-toolbar{display:flex;align-items:center;gap:8px}.paper .category-toolbar input{flex:1;min-width:0;min-height:44px;font:14px system-ui,sans-serif;border:1px solid var(--rule)}.category-toolbar button{min-height:44px;white-space:nowrap}.category-table{min-width:300px}.category-table tbody th{position:static}
+.entry-edit-view .paper{max-width:none;padding:0}.entry-edit-view .page-footer{display:none}.entry-edit-view .canvas-tools{margin-bottom:8px;padding-bottom:8px}.entry-edit-view .paper>button{font-size:13px;min-height:44px;padding:8px;margin-bottom:4px}.entry-edit-view .paper label{margin:10px 0 4px;font-size:13px}.entry-edit-view .paper input.title{font-size:22px}.entry-edit-view .paper input,.entry-edit-view .paper textarea{border:1px solid var(--rule);border-radius:6px}.entry-edit-view .paper textarea{font-size:18px;line-height:1.7;min-height:300px}.entry-metadata{display:grid;grid-template-columns:1fr 1fr;gap:12px}.entry-metadata select{margin:0}.selected-author{display:flex;align-items:center;gap:12px;padding:8px 0;font:14px system-ui,sans-serif}.selected-author button{min-height:44px;font-size:13px;padding:8px}.entry-author .author-chooser:has(+ *){margin:0}.selected-author+.author-chooser:not([open]){display:none}.entry-author summary{font-size:14px;min-height:44px;padding:10px 0}.entry-author .hint:empty{display:none}.entry-edit-view .paper>details{margin-top:12px;border-top:1px solid var(--rule)}.entry-edit-view .paper>details>summary{font-size:14px;min-height:44px}.entry-edit-view .paper>details textarea{min-height:100px}
+@media(min-width:651px){.studio>#canvas.category-list-view,.studio>#canvas.entry-edit-view{padding:12px 16px}}@media(max-width:650px){.entry-metadata{grid-template-columns:1fr 1fr}#canvas.entry-edit-view,#canvas.category-list-view{padding:10px}}
+
+/* Separate edition tasks from reusable reference data. */
+.pages .nav-section-title{font:600 12px/1.5 system-ui,sans-serif;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:12px 10px 3px;padding-top:12px;border-top:1px solid var(--rule);grid-column:1/-1}
+.sidebar-rail .nav-section-title{height:1px;font-size:0;margin:10px 4px 6px;padding:0}
+
+.review-tasks{list-style:none;padding:0;margin:12px 0}.review-tasks li{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid var(--rule);padding:8px 0;font-size:14px}.review-tasks button{min-height:44px;flex-shrink:0}.review-summary{font-size:14px;color:var(--muted)}
+
+.poem-preparation{margin:14px 0;border-top:1px solid var(--rule);padding-top:12px}.poem-preparation summary{cursor:pointer;font-size:14px}.poem-preparation form,.poem-preparation section{display:grid;gap:8px}.poem-preparation textarea{min-height:160px}.poem-preparation label{font-size:14px}.proof-artwork{display:block;max-width:100%;max-height:460px;object-fit:contain}.proof-entry section{margin-top:24px}
+
+.review-group{padding:12px 0;border-bottom:1px solid var(--rule)}.review-group summary{font:500 15px/1.5 system-ui,sans-serif;cursor:pointer}

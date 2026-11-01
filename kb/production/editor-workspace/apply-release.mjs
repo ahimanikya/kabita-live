@@ -1,0 +1,18 @@
+// Apply a prepared, still-current candidate to Git files only. Never commit, push or deploy.
+import {readFileSync,existsSync,mkdirSync,writeFileSync,realpathSync} from 'node:fs';import {resolve,dirname,relative} from 'node:path';import {fileURLToPath} from 'node:url';import {createRequire} from 'node:module';import {execFileSync} from 'node:child_process';import {verifyRevision,digest} from './release-package.mjs';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'../../..'),require=createRequire(import.meta.url);
+export async function applyCandidate(directory,mode='--check'){
+ if(!['--check','--apply'].includes(mode))throw Error('Use --check or --apply.');const folder=realpathSync(directory),base=realpathSync(resolve(root,'kb/artifacts/editor-releases'));if(relative(base,folder).startsWith('..'))throw Error('Use a private Editor Studio release candidate.');
+ const receipt=JSON.parse(readFileSync(resolve(folder,'receipt.json'))),pkg=JSON.parse(readFileSync(resolve(folder,'integration-package.json')));
+ if(digest(JSON.stringify(pkg))!==receipt.packageSha256)throw Error('Package changed after preparation.');
+ const h=require('../toshali-mail/cloud-helper.cjs');if(h.dep('firebase-tools/lib/auth').getGlobalDefaultAccount()?.user?.email!=='ahimanikya@gmail.com')throw Error('Owner account required.');const token=await h.ownerToken(),api='https://firestore.googleapis.com/v1/'+h.db;
+ const get=async p=>{const d=(await h.request(api+'/'+p,{token})).data;return Object.fromEntries(Object.entries(d.fields||{}).map(([k,v])=>[k,v.stringValue??(v.integerValue!==undefined?Number(v.integerValue):v.booleanValue??v.timestampValue)]));};
+ if((await h.request(api+'/editorPublications/'+receipt.month,{token,allowed:[404]})).status!==404)throw Error('This edition is already published.');
+ const current=await get((receipt.month==='toshali-2027'?'editorAnthologies/':'editorIssues/')+receipt.month),approval=await get('editorReleaseReviews/'+receipt.month+'-'+receipt.revision);verifyRevision(current,approval,receipt.month,receipt.revision);if(digest(current.draftJson)!==receipt.sourceDraftSha256)throw Error('Saved draft changed.');
+ if(!/^assets\/[A-Za-z0-9_./-]+$/.test(receipt.cover.path)||receipt.cover.path.split('/').includes('..')||digest(readFileSync(resolve(root,'projects/site',receipt.cover.path)))!==receipt.cover.sha256)throw Error('Cover changed after review.');
+ const files=receipt.assets.map(a=>{if(!/^assets\/poem-art\/studio\/[\w./-]+$/.test(a.src)||a.src.split('/').includes('..'))throw Error('Invalid asset destination');const bytes=readFileSync(resolve(folder,'site',a.src));if(digest(bytes)!==a.sha256)throw Error('Artwork changed after preparation.');const destination=resolve(root,'projects/site',a.src);if(existsSync(destination)&&digest(readFileSync(destination))!==a.sha256)throw Error('Existing artwork differs; no overwrite.');return{destination,bytes};});
+ execFileSync('python3',[resolve(root,'tools/edition_sync.py'),resolve(folder,'integration-package.json')],{stdio:'inherit',cwd:root});
+ if(mode==='--apply'){for(const f of files){if(!existsSync(f.destination)){mkdirSync(dirname(f.destination),{recursive:true});writeFileSync(f.destination,f.bytes,{flag:'wx'});}}execFileSync('python3',[resolve(root,'tools/edition_sync.py'),resolve(folder,'integration-package.json'),'--apply'],{stdio:'inherit',cwd:root});}
+ console.log(JSON.stringify({mode,revision:receipt.revision,published:false,next:'Build, check full reader proof, obtain exact website release approval, use protected manual publication, live-check, then next-draft.'}));
+}
+if(process.argv[1]===fileURLToPath(import.meta.url))applyCandidate(process.argv[2],process.argv[3]).catch(e=>{console.error(e.message);process.exitCode=1;});

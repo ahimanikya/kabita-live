@@ -2,7 +2,7 @@ import {transferSubmission} from './editor-submission-transfer.mjs';
 import {editableIssue} from '../assets/editorial-policy.mjs';
 import {getFunctions,httpsCallable} from 'firebase/functions';
 import{initializeApp,deleteApp}from'firebase/app';
-import{initializeAuth,browserSessionPersistence,browserPopupRedirectResolver,GoogleAuthProvider,signInWithPopup,signOut}from'firebase/auth';
+import{initializeAuth,browserLocalPersistence,browserSessionPersistence,browserPopupRedirectResolver,GoogleAuthProvider,signInWithPopup,signOut}from'firebase/auth';
 import*as s from'firebase/firestore';
 import{getStorage,ref,uploadBytes,getBlob}from'firebase/storage';
 import{validatePortrait,validatePortraitFile}from'../assets/editor-workspace-model.mjs';
@@ -10,8 +10,22 @@ import{ensureAppCheck}from'./app-check.mjs';import{siteRuntimeAllowed}from'./ven
 let app,auth,db,storage;
 function draftRef(key){if(key==='toshali-2027')return s.doc(db,'editorAnthologies',key);if(!/^20\d{2}-(0[1-9]|1[0-2])$/.test(key))throw Error('Invalid workspace.');return s.doc(db,'editorIssues',key);}
 
-export async function prepare(config){if(!config.editorWorkspace?.enabled||!siteRuntimeAllowed(config.firebase,'kabita-live',location))throw Error('Shared editing is not activated here. The local working-copy tools remain available.');if(app)return;app=initializeApp(config.firebase,'editor-issue-workspace');auth=initializeAuth(app,{persistence:browserSessionPersistence,popupRedirectResolver:browserPopupRedirectResolver});db=s.getFirestore(app);storage=getStorage(app,'gs://kabita-live.firebasestorage.app');await ensureAppCheck(app,config.firebase);}
-async function authorize(user){if(!user)return null;try{const allowed=await s.getDocFromServer(s.doc(db,'monthlyReviewers',user.email));const config=await s.getDocFromServer(s.doc(db,'editorWorkspace','config'));if(!user.emailVerified||!['pbiswal804@gmail.com','areshkpatnaik@gmail.com','ahimanikya@gmail.com'].includes(user.email)||!allowed.data()?.enabled||!config.data()?.enabled)throw Error();return user.email;}catch{await signOut(auth);throw Error('Shared issue editing is not enabled for this account, or access could not be checked. Reconnect and sign in again.');}}
+export async function prepare(config){if(!config.editorWorkspace?.enabled||!siteRuntimeAllowed(config.firebase,'kabita-live',location))throw Error('Shared editing is not activated here. The local working-copy tools remain available.');if(app)return;app=initializeApp(config.firebase,'editor-issue-workspace');auth=initializeAuth(app,{persistence:[browserLocalPersistence,browserSessionPersistence],popupRedirectResolver:browserPopupRedirectResolver});db=s.getFirestore(app);storage=getStorage(app,'gs://kabita-live.firebasestorage.app');await ensureAppCheck(app,config.firebase);}
+async function authorize(user){
+ if(!user)return null;
+ const deny=async()=>{await signOut(auth);throw Error('Shared editing is not enabled for this account. Please contact the administrator.');};
+ if(!user.emailVerified||!['pbiswal804@gmail.com','areshkpatnaik@gmail.com','ahimanikya@gmail.com'].includes(user.email))return deny();
+ let allowed,config;
+ try{
+  allowed=await s.getDocFromServer(s.doc(db,'monthlyReviewers',user.email));
+  config=await s.getDocFromServer(s.doc(db,'editorWorkspace','config'));
+ }catch{
+  // Keep remembered identity, but never grant access when server verification fails.
+  throw Error('Your sign-in is remembered, but access could not be checked. Check your connection and reload this page to retry.');
+ }
+ if(!allowed.data()?.enabled||!config.data()?.enabled)return deny();
+ return user.email;
+}
 export async function resume(){await auth.authStateReady();return authorize(auth.currentUser);}
 export async function login(){const provider=new GoogleAuthProvider();provider.setCustomParameters({prompt:'select_account'});try{const {user}=await signInWithPopup(auth,provider);return await authorize(user);}catch(e){if(e.code==='auth/popup-blocked')throw Error('Google sign-in was blocked. Open this page directly in Safari or Chrome, allow its sign-in popup, then tap Sign in again.');if(['auth/popup-closed-by-user','auth/cancelled-popup-request'].includes(e.code))throw Error('Sign-in was cancelled. Tap Sign in with Google to try again.');if(e.code==='auth/network-request-failed')throw Error('Sign-in could not connect. Check your connection and try again.');throw e;}}
 export function watch(month,receive,fail){return s.onSnapshot(draftRef(month),{includeMetadataChanges:true},d=>{if(!d.metadata.fromCache&&!d.metadata.hasPendingWrites&&d.exists())receive(d.data());},fail);}
@@ -57,3 +71,25 @@ export async function editorial(data){return (await httpsCallable(getFunctions(a
 export async function statistics(range='28'){return (await httpsCallable(getFunctions(app,'asia-south1'),'editorialAction')({action:'statistics',range})).data;}
 
 export async function addSubmission(draft,expected,id,reviewExpected){return transferSubmission({db,draft,expected,id,reviewExpected,actor:auth.currentUser.email});}
+
+export function profile(){const user=auth?.currentUser;return user?{name:user.displayName||user.email,photo:user.photoURL||''}:null;}
+
+export async function categories(){const value=await s.getDocFromServer(s.doc(db,'editorCatalogue','categories'));const {normalizeCategories}=await import('../assets/editor-workspace-model.mjs');return normalizeCategories(value.data()?.names||[]);}
+export async function addCategory(name,existing=[]){
+ const {normalizeCategories}=await import('../assets/editor-workspace-model.mjs');const target=s.doc(db,'editorCatalogue','categories');
+ return s.runTransaction(db,async tx=>{const old=await tx.get(target);const names=normalizeCategories([...(old.data()?.names||[]),...existing,name]);const revision=(old.data()?.revision||0)+1;const data={names,revision,updatedBy:auth.currentUser.email,updatedAt:s.serverTimestamp()};tx.set(target,data);tx.set(s.doc(target,'history',String(revision)),data);return names;});
+}
+export async function uploadArtwork(month,id,file,credit,alt){const {validateArtwork}=await import('../assets/editor-preparation.mjs');const artwork=validateArtwork({path:`editor-artwork/${month}/${id}/${crypto.randomUUID()}`,type:file.type,size:file.size,credit,alt,permission:true});await uploadBytes(ref(storage,artwork.path),file,{contentType:file.type});return artwork;}
+export async function artworkBlob(artwork){const {validateArtwork}=await import('../assets/editor-preparation.mjs');validateArtwork(artwork);return getBlob(ref(storage,artwork.path),5242880);}
+export async function reviewQueue(){
+ if(auth.currentUser?.email!=='ahimanikya@gmail.com')throw Error('Owner access required.');
+ const monthly=await s.getDocsFromServer(s.query(s.collection(db,'editorIssues'),s.orderBy('month','desc'),s.limit(25)));
+ const anthology=await s.getDocFromServer(draftRef('toshali-2027'));
+ return [...monthly.docs,...(anthology.exists()?[anthology]:[])].map(d=>({key:d.id,...d.data()})).filter(d=>d.stage!=='published'&&JSON.parse(d.draftJson).reviewRequested);
+}
+export async function approveRevision(month,revision){
+ if(auth.currentUser?.email!=='ahimanikya@gmail.com')throw Error('Owner access required.');
+ const {validate,preparationTasks}=await import('../assets/editor-workspace-model.mjs');const source=draftRef(month),target=s.doc(db,'editorReleaseReviews',month+'-'+revision);
+ return s.runTransaction(db,async tx=>{const current=await tx.get(source),previous=await tx.get(target),published=await tx.get(s.doc(db,'editorPublications',month));if(published.exists()||current.data()?.stage==='published')throw Error('This edition is already published.');if(current.data()?.revision!==revision)throw Error('The draft changed. Refresh and review its latest revision.');const draft=validate(JSON.parse(current.data().draftJson));if(!draft.reviewRequested||preparationTasks(draft).length)throw Error('Complete preparation checks and submit this revision first.');if(previous.exists())return previous.data();const data={month,revision,draftJson:current.data().draftJson,approvedBy:auth.currentUser.email,approvedAt:s.serverTimestamp(),purpose:'production-handoff'};tx.set(target,data);return data;});
+}
+export async function approvedRevision(month,revision){const value=await s.getDocFromServer(s.doc(db,'editorReleaseReviews',month+'-'+revision));return value.exists()?value.data():null;}

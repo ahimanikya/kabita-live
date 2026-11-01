@@ -39,6 +39,15 @@ service firebase.storage {
         && request.resource.contentType in ['image/jpeg','image/png','image/webp'];
       // Originals are immutable: no listing, replacement or deletion.
     }
+    match /editor-artwork/{month}/{entry}/{version} {
+      function scopeAllowed() { return month.matches('^20[0-9]{2}-(0[1-9]|1[0-2])$') || (month=='toshali-2027' && reviewer()); }
+      allow get: if studioEditor() && scopeAllowed();
+      allow create: if studioEditor() && scopeAllowed() && resource==null
+        && !firestore.exists(/databases/(default)/documents/editorPublications/$(month))
+        && entry.matches('^[A-Za-z0-9_-]{1,80}$') && version.matches('^[a-f0-9-]{36}$')
+        && request.resource.size>0 && request.resource.size<=5242880
+        && request.resource.contentType in ['image/jpeg','image/png','image/webp'];
+    }
     match /{allPaths=**} { allow read, write: if false; }
   }
 }

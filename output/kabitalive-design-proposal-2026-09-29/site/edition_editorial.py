@@ -1,6 +1,7 @@
 """Optional edition notes: Odia-first prose, explicit draft status, sourced excerpts."""
 from html import escape as e
 import json
+from tools.check_public_disclosures import LABEL as AI_PRODUCTION_LABEL
 
 def render_editorial(root, number, poems, names):
     path=root/f'content/editorials/issue-{number}.json'
@@ -11,18 +12,27 @@ def render_editorial(root, number, poems, names):
     draft={'or':'ସମ୍ପାଦକୀୟ ଚିଠା · ସମ୍ପାଦକଙ୍କ ସମୀକ୍ଷା ପାଇଁ','en':'Editorial draft · for editor review','hi':'संपादकीय प्रारूप · संपादक की समीक्षा के लिए'}
     translated={'or':'ଏଠାରେ ଅନୁବାଦ','en':'Excerpt in translation','hi':'अंश का अनुवाद'}
     links={'or':'ଏହି ପ୍ରସଙ୍ଗର କବିତା','en':'Poems in this passage','hi':'इस प्रसंग की कविताएँ'}
-    parts=['<link rel="stylesheet" href="assets/edition-editorial.css?v=9"><script defer src="assets/edition-editorial.js?v=3"></script><section class="section edition-editorial" id="edition-editorial" aria-label="Editorial note" tabindex="-1">', '<nav class="editorial-languages" aria-label="Editorial language">']
+    variants={lang:v for lang,v in data['variants'].items() if lang in labels}
+    if not variants:return ''
+    original_language=data.get('original_language','')
+    parts=['<link rel="stylesheet" href="assets/edition-editorial.css?v=9"><script defer src="assets/edition-editorial.js?v=4"></script><section class="section edition-editorial" id="edition-editorial" aria-label="Editorial note" tabindex="-1">', '<nav class="editorial-languages" aria-label="Editorial language">']
+    parts[0]=parts[0].replace('aria-label="Editorial note"',f'aria-label="Editorial note" data-editorial-original="{e(original_language,quote=True)}"')
     for lang,label in labels.items():
+        if lang not in variants:continue
         original=' <span class="original-label" lang="en">Original</span>' if lang==data.get('original_language') else ''
         parts.append(f'<a href="#editorial-{lang}" lang="{lang}" data-editorial-language="{lang}">{label}{original}</a>')
     parts.append('</nav>')
-    for lang,v in data['variants'].items():
+    for lang,v in variants.items():
         parts.append(f'<article id="editorial-{lang}" lang="{lang}" class="editorial-prose"><p class="eyebrow">{headings["en"]}</p><h2>{e(v["title"])}</h2>')
+        credit=v.get('credit','').strip()
+        if credit and lang!=original_language:
+            if AI_PRODUCTION_LABEL.search(credit):raise ValueError('Editorial translation production attribution belongs in Our Story; supply a human credit separately.')
+            parts.append(f'<p class="editorial-status">{e(credit)}</p>')
         if data['status']=='editorial_draft':parts.append(f'<p class="editorial-status">{draft[lang]}</p>')
         for index,paragraph in enumerate(v['paragraphs']):
             parts.append('<div class="editorial-passage">')
             parts.append(f'<p>{e(paragraph)}</p>')
-            for q in (q for q in data['quotes'] if q['after']==index):
+            for q in (q for q in data.get('quotes',[]) if q['after']==index):
                 poem=poems[q['poem_id']];author=names.get(poem['writer_id'],poem['author']);quote=e(q['original']).replace('\n','<br>')
                 parts.append('<div class="editorial-quote-layout">')
                 parts.append(f'<figure class="editorial-excerpt"><blockquote lang="{q["language"]}"><p>{quote}</p></blockquote>')
@@ -33,7 +43,8 @@ def render_editorial(root, number, poems, names):
                 for art in (a for a in data.get('illustrations',[]) if a.get('quote_poem_id')==q['poem_id']):
                     parts.append(f'<figure class="editorial-vignette"><img lang="{e(art.get("alt_language",lang),quote=True)}" src="{e(art["src"],quote=True)}" alt="{e(art["alt"][lang],quote=True)}" width="{art["width"]}" height="{art["height"]}" loading="lazy" decoding="async"></figure>')
                 parts.append('</div>')
-            ids=data['paragraph_poem_ids'][index]
+            paragraph_ids=data.get('paragraph_poem_ids',[])
+            ids=paragraph_ids[index] if index<len(paragraph_ids) else []
             if ids and data.get("show_passage_links", True):
                 refs=' · '.join(f'<a href="poem-{pid}.html">{e(names.get(poems[pid]["writer_id"],poems[pid]["author"]))}</a>' for pid in ids)
                 parts.append(f'<p class="editorial-poem-links"><span>{links["en"]}: </span>{refs}</p>')

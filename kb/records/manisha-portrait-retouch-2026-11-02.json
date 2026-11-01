@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-02",
+  "writer_id": 481,
+  "name": "Manisha Patnaik",
+  "status": "retouched and separately reviewed locally; not published",
+  "change": "Remove unsupported nose-ring detail; preserve source-faithful features and600px square web size",
+  "implementation": "/root/about_layout",
+  "reviewer": "/root/about_review",
+  "review": "No material source-faithfulness blocker; glasses, hair, expression and clothing preserved. Not an identity-verification claim.",
+  "prompt": "Use case: precise-object-edit, identity-preserve. Input image 1 is the EDIT TARGET: the existing square watercolor portrait of Manisha Patnaik. Input image 2 is supporting original photograph, only to clarify the nose contour. Make one microscopic retouch to image 1: remove the tiny ring-like dark jewellery detail beside the nostril, restoring the ordinary painted skin/natural nostril contour seen in the source photo. Do not remove the nostril or its natural shadow. Preserve everything else in image 1 as closely as possible: face geometry, apparent age, expression, complexion, natural skin shading, eyes, black/red glasses, bob haircut, blue collar and shoulders, framing, pale watercolor washes and cotton-paper texture. Do not recompose or restyle the portrait, beautify, lighten skin, add jewellery, add detail from the photograph, or restore the photograph's lanyard/lettering. Human Natural editorial portrait; tiny correction only. Return the same square composition, 600 by 600 pixels if available. Opaque background, no text.\n",
+  "sha256": {
+    "kb/artifacts/artwork/writer-portraits/481-earth-voice-v2.png": "5d8cb19489b2a931bcfae736f4b2bf8f9ccd1a19d902bf252da091b79076f5a2",
+    "projects/site/assets/writers/481-earth-voice-v2.webp": "0e6c439751ce760461343272297b52bafcd718c7f523d9817edadb8a3ecaad89"
+  },
+  "publication_authorized": false
+}

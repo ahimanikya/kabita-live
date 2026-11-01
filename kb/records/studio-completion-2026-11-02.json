@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-02",
+  "status": "owner-approved release being published",
+  "scope": [
+    "Compact Editor Studio app shell and tables",
+    "Shared categories, artwork preparation, article ordering and submission transfers",
+    "Editorial translations preserved through draft, reading proof and approved export",
+    "Manisha portrait481 v2"
+  ],
+  "workers": {
+    "implementation": "/root/about_layout",
+    "evidence": "/root/about_content",
+    "independent_review": "/root/about_review",
+    "integration": "Disha /root"
+  },
+  "verification": {
+    "site_tests": 269,
+    "python_checks": 61,
+    "release_helper_tests": 13,
+    "firestore_access_tests": 9,
+    "disclosure_files_checked": 1841,
+    "disclosure_violations": 0,
+    "build": "passed",
+    "browser": "Synthetic draft editorial text and translator credit rendered; arrow ordering changed rows; 390px viewport had no page overflow",
+    "runtime": "Read-only live rules hashes match prepared rules; six reviewer grants enabled",
+    "portrait_storage_access_tests": 2
+  },
+  "limitations": [
+    "Physical iPhone not tested",
+    "Browser workflow used isolated synthetic draft, not a real editor account",
+    "Gmail inbox placement not checked"
+  ],
+  "publication_authorized": true,
+  "receipt_record": "monthly-receipt-verification-2026-11-02.json",
+  "portrait_record": "manisha-portrait-retouch-2026-11-02.json",
+  "approval": "Approve this Studio and portrait release"
+}

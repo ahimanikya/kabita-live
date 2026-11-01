@@ -311,6 +311,38 @@ service cloud.firestore {
       }
     }
 
+    // Shared categories, immutable artwork metadata in drafts, and owner revision handoff.
+    match /editorCatalogue/categories {
+      allow read: if issueEditor();
+      allow create, update: if issueEditor()
+        && request.resource.data.keys().hasOnly(['names','revision','updatedBy','updatedAt'])
+        && request.resource.data.names is list && request.resource.data.names.size()<=100
+        && request.resource.data.updatedBy==request.auth.token.email && request.resource.data.updatedAt==request.time
+        && request.resource.data.revision == (resource==null ? 1 : resource.data.revision+1)
+        && getAfter(/databases/$(database)/documents/editorCatalogue/categories/history/$(string(request.resource.data.revision))).data==request.resource.data;
+      match /history/{revision} {
+        allow read: if issueEditor();
+        allow create: if issueEditor() && revision==string(request.resource.data.revision)
+          && getAfter(/databases/$(database)/documents/editorCatalogue/categories).data==request.resource.data
+          && request.resource.data.revision==(exists(/databases/$(database)/documents/editorCatalogue/categories) ? get(/databases/$(database)/documents/editorCatalogue/categories).data.revision+1 : 1);
+      }
+    }
+    match /editorReleaseReviews/{id} {
+      function source() { return request.resource.data.month=='toshali-2027' ? anthologyDraftPath('toshali-2027') : issuePath(request.resource.data.month); }
+      allow read: if issueEditor() && request.auth.token.email=='ahimanikya@gmail.com';
+      allow create: if issueEditor() && request.auth.token.email=='ahimanikya@gmail.com'
+        && request.resource.data.keys().hasOnly(['month','revision','draftJson','approvedBy','approvedAt','purpose'])
+        && request.resource.data.month is string && request.resource.data.revision is int
+        && id==request.resource.data.month+'-'+string(request.resource.data.revision)
+        && request.resource.data.approvedBy==request.auth.token.email && request.resource.data.approvedAt==request.time
+        && request.resource.data.purpose=='production-handoff'
+        && !exists(/databases/$(database)/documents/editorPublications/$(request.resource.data.month))
+        && get(source()).data.stage=='preparation'
+        && get(source()).data.revision==request.resource.data.revision
+        && get(source()).data.draftJson==request.resource.data.draftJson;
+      // No update, deletion or website-publishing authority.
+    }
+
     function poemIdValid(poemId) { return poemId.matches('^[0-9]{1,8}$'); }
     function statsPath(poemId) { return /databases/$(database)/documents/poemStats/$(poemId); }
     function votePath(poemId) { return /databases/$(database)/documents/poemLikes/$(poemId)/voters/$(request.auth.uid); }
