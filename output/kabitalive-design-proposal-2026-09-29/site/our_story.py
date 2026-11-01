@@ -10,12 +10,11 @@ def apply_our_story(site):
     old=re.search(r'<div class="side-layout"><div class="prose">(.*?)</div><aside',s,re.S).group(1)
     new='''<h2 class="or" lang="or">ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର</h2>
     <p class="story-signature">The fragrance of earth. The voice of the heart.</p>
-    <p>Rooted in Odia, Kabita Live brings poetry in Odia, Hindi and English into a shared literary home. Each language has its own music; each poem offers another way of seeing.</p>
-    <h2>Room for another voice.</h2>
-    <p>We welcome original poems and translations, established writers and younger voices, and readers across places and generations. A poem begins with its writer and continues with everyone who reads it.</p>
-    <p>Read an edition, share a poem with its poet’s name, or write privately to the editorial desk. Your words are always welcome.</p>
+    <p>Rooted in Odia, Kabita Live welcomes original poems and translations in Odia, Hindi and English, from established and younger writers. Each language has its own music. Read an edition, share a poem with its poet’s name, or write privately to the editorial desk—wherever you call home.</p>
     <div class="story-invitations"><a class="text-link" href="submit.html">Send a poem</a><a class="text-link" href="feedback.html">Write to the editors</a></div>'''
     s=s.replace(old,new,1)
+    s=s.replace('<h1>A familiar name.<br>A living literary home.</h1>', '<h1>Our story</h1>', 1)
+    s=s.replace('<h2 style="margin-top:28px">', '<h2 style="margin-top:20px">')
     # Explain the editorial process before the design story and consolidated credits.
     design = (site / 'templates/our-story-design.html').read_text()
     symbol = (site / 'assets/kabita-live-symbol-ink-voice.svg').read_text()
@@ -46,12 +45,18 @@ def apply_our_story(site):
         svg = re.sub(r' role="img"| aria-label="[^"]*"| aria-hidden="[^"]*"| focusable="[^"]*"', '', svg)
         return svg.replace('<svg ', '<svg class="story-mark" aria-hidden="true" focusable="false" ', 1)
 
-    s = s.replace('<h2>Room for another voice.</h2>', '<h2 class="story-artistic-heading">'+mark('kendu')+'<span>Room for another voice.</span></h2>', 1)
     for label, motif in [('The editorial desk', 'footer-send-poem'), ('Credits &amp; colophon', 'footer-story')]:
         s = s.replace('<span class="eyebrow">'+label+'</span>', '<span class="eyebrow story-artistic-label">'+mark(motif)+label+'</span>', 1)
     for href, label, motif in [('submit.html', 'Send a poem', 'footer-send-poem'), ('feedback.html', 'Write to the editors', 'footer-contact')]:
         s = s.replace(f'<a class="text-link" href="{href}">{label}</a>', f'<a class="text-link story-action" href="{href}">'+mark(motif)+label+'</a>', 1)
     s = s.replace('class="wrap inner-artistic"', 'class="wrap inner-artistic our-story"', 1)
     s = s.replace('<title>About · Kabita Live</title>', '<title>Our Story · Kabita Live</title>', 1)
-    s = s.replace('</head>', '<link rel="stylesheet" href="assets/our-story.css?v=organized-story-20261101"><script defer src="assets/our-story.js?v=1"></script></head>', 1)
+    s = s.replace('</head>', '<link rel="stylesheet" href="assets/our-story.css?v=about-cleanup-20261102"><script defer src="assets/our-story.js?v=1"></script></head>', 1)
+    # Native disclosure: collapsed on About, expanded by existing hash navigation.
+    privacy_start = s.index('<section class="colophon" id="privacy">')
+    privacy_end = s.index('</section>', privacy_start) + len('</section>')
+    privacy = s[privacy_start:privacy_end]
+    privacy = privacy.replace('<section class="colophon" id="privacy"><h2>A little care for your privacy.</h2>', '<details class="colophon" id="privacy"><summary>A little care for your privacy.</summary>', 1)
+    privacy = privacy.removesuffix('</section>') + '</details>'
+    s = s[:privacy_start] + privacy + s[privacy_end:]
     path.write_text(s)

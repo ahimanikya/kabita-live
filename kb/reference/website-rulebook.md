@@ -342,3 +342,7 @@ Confirmed HTTP404/410 citation destinations retain readable labels but lose thei
 ### Editorial team arrangement — 1 November 2026
 
 Three equal columns on wide desktop (1100px+); two columns with the third card centred on tablet (761–1099px); one column on mobile. Keep equal portrait dimensions and left-aligned text, reflecting the three editors’ equal standing. See `kb/records/editor-columns-2026-11-01.json`.
+
+## About privacy disclosure — 2 November 2026
+
+The About privacy section starts collapsed, using native details/summary. Keep all privacy wording and controls available. Direct links to `about.html#privacy` expand it so visitors can reach their choices. See `../records/about-cleanup-2026-11-02.json`.

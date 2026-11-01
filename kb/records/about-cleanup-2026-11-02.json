@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-02",
+  "status": "verified locally; not published",
+  "request": "Collapse privacy by default and clean up About page",
+  "changes": [
+    "Native collapsed privacy disclosure; direct privacy hash opens controls",
+    "Shorter Our story heading and compact welcome",
+    "Tighter existing section and sidebar spacing"
+  ],
+  "implementation": "/root/about_layout (Samanta); root implemented privacy",
+  "review": {
+    "executor": "/root/about_review (Drishti)",
+    "independent": true,
+    "result": "pass",
+    "checks": [
+      "815 baseline links and 9 controls preserved",
+      "471 unique IDs and one H1",
+      "Reflection, credits and privacy contents preserved",
+      "10 disclosure unit tests passed"
+    ]
+  },
+  "root_checks": [
+    "python3 build.py: 1353 pages generated",
+    "Browser disclosure click and Enter toggle passed",
+    "Footer privacy link opens disclosure",
+    "390px and 1280px widths: no horizontal overflow; visual review passed"
+  ],
+  "hashes": {
+    "projects/site/our_story.py": "f3b831ab128d0e44e0214fe6693b59439c015e07770a3d54864c04376cc975cd",
+    "projects/site/assets/our-story.css": "ef9d9ba7b1bca220e575424ace95881735aa508ab036a9f891404001e3d69a4b",
+    "projects/site/about.html": "b1b98be8d7853c0472187b84cd297e37d83bda9654e5b1b4303faa387026ad00"
+  },
+  "evidence": "artifacts/review/privacy-disclosure-2026-11-02/",
+  "publication_authorized": false
+}
