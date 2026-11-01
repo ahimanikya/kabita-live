@@ -36,5 +36,5 @@ def apply_editorial_polish(site):
           s=re.sub(r'<section class="writer-work" id="contributions">.*?</section>', lambda m: m[0] if 'data-contribution=' in m[0] else '', s, flags=re.S)
          s=s.replace('<h2>A few places to begin.</h2>','<h2 class="artistic-heading">'+book+'A few places to begin.</h2>')
          s=s.replace('<a class="text-link" href="contact.html">Write to the editorial desk</a>','<a class="text-link marked-link" href="contact.html">'+pen+'Write to the editorial desk</a>')
-        s=s.replace('</head>','<link rel="stylesheet" href="assets/editorial-refined.css?v=3"></head>')
+        s=s.replace('</head>','<link rel="stylesheet" href="assets/editorial-refined.css?v=5"></head>')
         path.write_text(s)

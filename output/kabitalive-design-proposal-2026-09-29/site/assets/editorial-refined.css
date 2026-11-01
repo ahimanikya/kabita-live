@@ -18,3 +18,17 @@
 .editorial-invitation>div .btn{margin-top:auto}
 .editorial-invitation>div+div{border-left:1px solid var(--line);padding-left:32px}
 @media(max-width:600px){.editorial-refined .editorial-invitation{grid-template-columns:minmax(0,1fr);gap:26px}.editorial-invitation>div+div{border-left:0;border-top:1px solid var(--line);padding:26px 0 0}.editorial-invitation>div h2{font-size:30px}.editorial-invitation>div p{font-size:17px}}
+
+/* Equal-standing editorial team: three desktop cards, centred tablet remainder. */
+.editorial-refined .editor-grid{grid-template-columns:minmax(0,1fr);gap:32px}
+.editorial-refined .editor-card{text-align:left;min-width:0;align-content:start}
+@media(min-width:761px){
+ .editorial-refined .editor-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:36px}
+ .editorial-refined .editor-card{grid-column:span 2;grid-template-columns:minmax(0,1fr);gap:20px}
+ .editorial-refined .editor-card:last-child:nth-child(odd){grid-column:2/span 2}
+ .editorial-refined .editor-card-image img{width:160px;height:160px;object-fit:contain}
+}
+@media(min-width:1100px){
+ .editorial-refined .editor-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .editorial-refined .editor-card,.editorial-refined .editor-card:last-child:nth-child(odd){grid-column:auto}
+}

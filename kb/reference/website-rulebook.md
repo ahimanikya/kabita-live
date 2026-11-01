@@ -338,3 +338,7 @@ Editorials open in English by default; poems default to their original language.
 ## Retired external references — 1 November 2026
 
 Confirmed HTTP404/410 citation destinations retain readable labels but lose their broken click targets in public export. Preserve exact URLs and verification evidence in the KB. Blocked verification, timeout and temporary server errors are not sufficient to retire links. The export uses `data/retired-external-links.json`.
+
+### Editorial team arrangement — 1 November 2026
+
+Three equal columns on wide desktop (1100px+); two columns with the third card centred on tablet (761–1099px); one column on mobile. Keep equal portrait dimensions and left-aligned text, reflecting the three editors’ equal standing. See `kb/records/editor-columns-2026-11-01.json`.
