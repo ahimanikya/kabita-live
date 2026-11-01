@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "status": "approved release preparation",
+  "status": "published and live verified",
   "independent_research": false,
   "publication_authorized": true,
   "entries": [
@@ -85,5 +85,50 @@
     "existing_records": "all prior enrichment and portraits unchanged",
     "review": "same-assistant self-review"
   },
-  "approval_quote": "publish"
+  "approval_quote": "publish",
+  "publication": {
+    "run": 41271862060,
+    "commit": "86bfcc8971960a368a40238d96505b285a304906",
+    "conclusion": "success"
+  },
+  "live_checks": [
+    {
+      "writer_id": 478,
+      "url": "https://kabitalive.com/poet-478.html",
+      "biography": true,
+      "supplied_photo": true,
+      "sharing_image_http": 200
+    },
+    {
+      "writer_id": 480,
+      "url": "https://kabitalive.com/poet-480.html",
+      "biography": true,
+      "supplied_photo": true,
+      "sharing_image_http": 200
+    },
+    {
+      "writer_id": 481,
+      "url": "https://kabitalive.com/poet-481.html",
+      "biography": true,
+      "supplied_photo": true,
+      "sharing_image_http": 200
+    }
+  ],
+  "next_draft": {
+    "result": "existing_preserved",
+    "source": {
+      "issue": 49,
+      "month": "2026-11",
+      "run": "41271862060",
+      "commit": "86bfcc8971960a368a40238d96505b285a304906"
+    },
+    "draft": {
+      "issue": 50,
+      "month": "2026-12",
+      "status": "DRAFT",
+      "runtimeStage": "preparation"
+    },
+    "overwritten": false,
+    "published": false
+  }
 }
