@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "status": "verified local reader fixes; not published",
+  "status": "published and live verified",
   "scope": "RUX01/02/03/04/05/06/10 and stale register reconciliation; Editor Studio separate",
   "workers": {
     "implementation": "/root/about_layout",
@@ -149,5 +149,35 @@
     "build.py": "c322f453bfcb8af45936c68c1214b84b40cc4ee95745a202ff3a86d18695d87d"
   },
   "approval": "Ahimanikya: approved, 2 November2026, exact verified reader fixes",
-  "release_isolation": "Exclude unrelated local Studio build hooks; apply only cache-key changes in build.py."
+  "release_isolation": "Exclude unrelated local Studio build hooks; apply only cache-key changes in build.py.",
+  "release": {
+    "commit": "626b7258e",
+    "run": "41357856156",
+    "status": "success",
+    "build": "isolated build passed;241Node+56Python tests;1841disclosure checks pass",
+    "live_checks": {
+      "issue49": true,
+      "poem_search": true,
+      "about_privacy": true,
+      "app_script": true,
+      "browser_back_search": "1result retained"
+    },
+    "next_draft": {
+      "result": "existing_preserved",
+      "source": {
+        "issue": 49,
+        "month": "2026-11",
+        "run": "41357856156",
+        "commit": "626b7258edc4f728ad2d7e64e7d9b2a98f777df8"
+      },
+      "draft": {
+        "issue": 50,
+        "month": "2026-12",
+        "status": "DRAFT",
+        "runtimeStage": "preparation"
+      },
+      "overwritten": false,
+      "published": false
+    }
+  }
 }
