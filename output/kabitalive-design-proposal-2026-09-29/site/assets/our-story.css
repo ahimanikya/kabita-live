@@ -42,3 +42,26 @@
  .our-story .story-design-symbol{gap:16px}
  .our-story .story-design-logo{width:48px;height:48px;flex-basis:48px}
 }
+
+/* A readable editorial outline, using the existing colophon and definition-list language. */
+.our-story .story-process{max-width:72ch;margin-top:0;padding-block:32px 40px;font-family:var(--serif);overflow-wrap:anywhere}
+.our-story .story-process h2{font:500 clamp(1.8125rem,3vw,2.25rem)/1.25 var(--display);margin:0 0 16px}
+.our-story .story-process h3{font:500 1.375rem/1.4 var(--display);margin:28px 0 12px}
+.our-story .story-process p,.our-story .story-process li,.our-story .story-process dd{font-size:1rem;line-height:1.8}
+.our-story .story-process p{margin:0 0 12px}
+.our-story .story-process-steps{margin:0;padding-inline-start:1.5em}
+.our-story .story-process-steps li{padding-inline-start:.25em}
+.our-story .story-process-steps li+li{margin-top:12px}
+.our-story .story-process-steps li::marker{color:var(--rust);font-weight:600}
+.our-story .story-collaborators{margin:16px 0 0}
+.our-story .story-collaborators>div{padding-block:14px;border-top:1px solid var(--line)}
+.our-story .story-collaborators dt{font:500 1.125rem/1.5 var(--display)}
+.our-story .story-collaborators dt span{display:block;font:.8125rem/1.6 var(--ui);color:var(--muted)}
+.our-story .story-collaborators dd{margin:6px 0 0}
+.our-story .story-process>details{margin-top:24px;border-top:1px solid var(--line)}
+.our-story .story-process>details>summary{font:500 1.0625rem/1.5 var(--display);padding-block:14px;min-height:48px}
+.our-story .story-process .colophon-details{max-width:68ch}
+@media(max-width:760px){
+ .our-story .story-process{padding-block:24px 32px}
+ .our-story .story-process h3{margin-top:24px}
+}
