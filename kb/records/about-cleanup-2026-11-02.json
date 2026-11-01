@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "status": "verified locally; not published",
+  "status": "published",
   "request": "Collapse privacy by default and clean up About page",
   "changes": [
     "Native collapsed privacy disclosure; direct privacy hash opens controls",
@@ -31,5 +31,29 @@
     "projects/site/about.html": "b1b98be8d7853c0472187b84cd297e37d83bda9654e5b1b4303faa387026ad00"
   },
   "evidence": "artifacts/review/privacy-disclosure-2026-11-02/",
-  "publication_authorized": false
+  "publication_authorized": true,
+  "release": {
+    "commit": "b9ae240d9f94855651bdcbdb480b20632d615902",
+    "run": "41340868456",
+    "result": "success",
+    "url": "https://kabitalive.com/about.html",
+    "verification": "Live HTTP checked new heading, versioned stylesheet and default-closed privacy markup; browser recheck unavailable due browser connection error. Prior local visual and interaction review passed.",
+    "next_draft": {
+      "result": "existing_preserved",
+      "source": {
+        "issue": 49,
+        "month": "2026-11",
+        "run": "41340868456",
+        "commit": "b9ae240d9f94855651bdcbdb480b20632d615902"
+      },
+      "draft": {
+        "issue": 50,
+        "month": "2026-12",
+        "status": "DRAFT",
+        "runtimeStage": "preparation"
+      },
+      "overwritten": false,
+      "published": false
+    }
+  }
 }
