@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "status": "approved release being verified",
+  "status": "published and live verified",
   "completed": [
     "Three watercolor portraits prepared and integrated locally; original photographs retained",
     "Poem 836 encoding and stanza breaks restored from editor-supplied PDF"
@@ -80,7 +80,52 @@
       600
     ],
     "method": "North-aligned square web derivative; full 3:4 masters retained",
-    "publication": "pending"
+    "publication": "published"
   },
-  "approval": "Ahimanikya: publish, after square-size review, 1 November 2026"
+  "approval": "Ahimanikya: publish, after square-size review, 1 November 2026",
+  "release": {
+    "run": 41280247393,
+    "commit": "a586b0db52b777bff319338162c9a4c61828713e",
+    "status": "success"
+  },
+  "source_privacy": "Original PDF and PMD retained locally only; excluded from Git push after automatic approval review identified private contact details.",
+  "live_checks": [
+    {
+      "writer": 478,
+      "page": 200,
+      "portrait": 200
+    },
+    {
+      "writer": 480,
+      "page": 200,
+      "portrait": 200
+    },
+    {
+      "writer": 481,
+      "page": 200,
+      "portrait": 200
+    },
+    {
+      "poem": 836,
+      "corrected_source": true,
+      "final_word_preserved": true
+    }
+  ],
+  "next_draft": {
+    "result": "existing_preserved",
+    "source": {
+      "issue": 49,
+      "month": "2026-11",
+      "run": "41280247393",
+      "commit": "a586b0db52b777bff319338162c9a4c61828713e"
+    },
+    "draft": {
+      "issue": 50,
+      "month": "2026-12",
+      "status": "DRAFT",
+      "runtimeStage": "preparation"
+    },
+    "overwritten": false,
+    "published": false
+  }
 }
