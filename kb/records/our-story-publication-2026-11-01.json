@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "status": "approved; preparing release",
+  "status": "published and live verified",
   "owner": "Ahimanikya Satapathy",
   "approval_quote": "publish",
   "scope": [
@@ -12,7 +12,54 @@
   "checks": {
     "prior_primary_build": "passed",
     "prior_disclosure": "1840 files; zero violations",
-    "separate_copy_review": "passed"
+    "separate_copy_review": "passed",
+    "release_build": "passed",
+    "site_tests": 235,
+    "python_tests": 53,
+    "release_disclosure": "1841 files; zero violations"
   },
-  "publication": null
+  "publication": {
+    "run": 41263254621,
+    "commit": "2bae661a3d2cefe605c5dc499052073fe15d9516",
+    "url": "https://github.com/ahimanikya/kabita-live/actions/runs/41263254621",
+    "conclusion": "success",
+    "verified_at": "2026-11-01T02:04:31.410615+00:00"
+  },
+  "reviewed_source_sha256": "52ed116784c65ba349c43b2ae9d6ac5eb3fd58ae60c4380edc908b244228f533",
+  "separate_reviewer": "/root/how_we_work_review",
+  "scope_release": "completed; reservations released after live verification and next-draft preservation",
+  "live_checks": [
+    {
+      "page": "about.html",
+      "status": 200,
+      "expected_content": "verified"
+    },
+    {
+      "page": "ahimanikya-satapathy.html",
+      "status": 200,
+      "expected_content": "verified"
+    },
+    {
+      "page": "index.html",
+      "status": 200,
+      "expected_content": "verified"
+    }
+  ],
+  "next_draft": {
+    "result": "existing_preserved",
+    "source": {
+      "issue": 49,
+      "month": "2026-11",
+      "run": "41263254621",
+      "commit": "2bae661a3d2cefe605c5dc499052073fe15d9516"
+    },
+    "draft": {
+      "issue": 50,
+      "month": "2026-12",
+      "status": "DRAFT",
+      "runtimeStage": "preparation"
+    },
+    "overwritten": false,
+    "published": false
+  }
 }
