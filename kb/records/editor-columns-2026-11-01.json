@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "approval": "User OK to recommended responsive three-editor layout",
-  "status": "approved release being verified",
+  "status": "published and live verified",
   "layout": {
     "desktop": "3 equal columns at 1100px+",
     "tablet": "2 equal columns with third centred at 761\u20131099px",
@@ -17,5 +17,28 @@
     "other_browsers": "not tested"
   },
   "evidence": "kb/artifacts/review/editor-columns-2026-11-01/desktop.png",
-  "publication_approval": "Ahimanikya: publish, 1 November 2026"
+  "publication_approval": "Ahimanikya: publish, 1 November 2026",
+  "release": {
+    "run": 41293554712,
+    "commit": "df12630e1502a90b7c09519d3bdb9a78068dfeac",
+    "conclusion": "success"
+  },
+  "next_draft": {
+    "result": "existing_preserved",
+    "source": {
+      "issue": 49,
+      "month": "2026-11",
+      "run": "41293554712",
+      "commit": "df12630e1502a90b7c09519d3bdb9a78068dfeac"
+    },
+    "draft": {
+      "issue": 50,
+      "month": "2026-12",
+      "status": "DRAFT",
+      "runtimeStage": "preparation"
+    },
+    "overwritten": false,
+    "published": false
+  },
+  "live_checks": "1280px: three equal columns; 900px: third centred; 360px: one column; no horizontal overflow"
 }
