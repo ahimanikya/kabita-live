@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "status": "local design candidate; awaiting user review; not published",
+  "status": "published",
   "request": "Flow diagram infographic in How we work",
   "implementation": "/root/about_layout as Samanta",
   "review": {
@@ -24,5 +24,29 @@
     "projects/site/our_story.py": "fb446005291631137c840e532cce1567fa5cb3e6e1f1adc53b1879aa06ffd39b",
     "projects/site/about.html": "a18f112600baa079f056723d1e6543207cc5977c1270ec816b4cc5f2df95370e"
   },
-  "evidence": "artifacts/review/process-flow-2026-11-02/"
+  "evidence": "artifacts/review/process-flow-2026-11-02/",
+  "release": {
+    "run": "41343253545",
+    "commit": "0b45c338cac016e1d75929110cc756fddbdf0c47",
+    "url": "https://kabitalive.com/about.html",
+    "approval": "Ahimanikya: publish, 2 November 2026",
+    "verification": "GitHub success; live HTTP confirms 3 editor portraits, flow, concise credits and new stylesheet. Local visual review passed; live browser unavailable.",
+    "next_draft": {
+      "result": "existing_preserved",
+      "source": {
+        "issue": 49,
+        "month": "2026-11",
+        "run": "41343253545",
+        "commit": "0b45c338cac016e1d75929110cc756fddbdf0c47"
+      },
+      "draft": {
+        "issue": 50,
+        "month": "2026-12",
+        "status": "DRAFT",
+        "runtimeStage": "preparation"
+      },
+      "overwritten": false,
+      "published": false
+    }
+  }
 }

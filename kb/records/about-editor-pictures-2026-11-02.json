@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "status": "local preview; not published",
+  "status": "published",
   "implementation": "/root/about_layout as Samanta",
   "review": "/root/about_review as Drishti; separate source review passed",
   "changes": "Three equal 80px approved portraits, uncropped, linked to existing editor profiles",
@@ -9,5 +9,29 @@
     "10 disclosure tests passed",
     "desktop visual check passed"
   ],
-  "evidence": "artifacts/review/about-editors-2026-11-02/preview.png"
+  "evidence": "artifacts/review/about-editors-2026-11-02/preview.png",
+  "release": {
+    "run": "41343253545",
+    "commit": "0b45c338cac016e1d75929110cc756fddbdf0c47",
+    "url": "https://kabitalive.com/about.html",
+    "approval": "Ahimanikya: publish, 2 November 2026",
+    "verification": "GitHub success; live HTTP confirms 3 editor portraits, flow, concise credits and new stylesheet. Local visual review passed; live browser unavailable.",
+    "next_draft": {
+      "result": "existing_preserved",
+      "source": {
+        "issue": 49,
+        "month": "2026-11",
+        "run": "41343253545",
+        "commit": "0b45c338cac016e1d75929110cc756fddbdf0c47"
+      },
+      "draft": {
+        "issue": 50,
+        "month": "2026-12",
+        "status": "DRAFT",
+        "runtimeStage": "preparation"
+      },
+      "overwritten": false,
+      "published": false
+    }
+  }
 }

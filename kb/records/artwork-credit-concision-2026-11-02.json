@@ -1,6 +1,30 @@
 {
   "date": "2026-11-02",
-  "status": "prepared locally; not published",
+  "status": "published",
   "change": "Shortened artwork introduction and removed stale homepage/count references and repetitive source-review dates. Portrait and biography source links retained.",
-  "review": "root self-review; bounded copy edit"
+  "review": "root self-review; bounded copy edit",
+  "release": {
+    "run": "41343253545",
+    "commit": "0b45c338cac016e1d75929110cc756fddbdf0c47",
+    "url": "https://kabitalive.com/about.html",
+    "approval": "Ahimanikya: publish, 2 November 2026",
+    "verification": "GitHub success; live HTTP confirms 3 editor portraits, flow, concise credits and new stylesheet. Local visual review passed; live browser unavailable.",
+    "next_draft": {
+      "result": "existing_preserved",
+      "source": {
+        "issue": 49,
+        "month": "2026-11",
+        "run": "41343253545",
+        "commit": "0b45c338cac016e1d75929110cc756fddbdf0c47"
+      },
+      "draft": {
+        "issue": 50,
+        "month": "2026-12",
+        "status": "DRAFT",
+        "runtimeStage": "preparation"
+      },
+      "overwritten": false,
+      "published": false
+    }
+  }
 }
