@@ -260,6 +260,8 @@ render_toshali_invitation(R, page)
 from toshali_review import render_toshali_review
 render_toshali_review(R, page)
 
+from monthly_submissions import render_monthly_submission
+render_monthly_submission(R)
 from monthly_review import render_monthly_review
 render_monthly_review(R, page)
 

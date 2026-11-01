@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-02",
+  "status": "prepared for authorized publication",
+  "approval": "Ahimanikya explicitly requested publish approved ଛାଡିଯିବି and activate public monthly form",
+  "scope": [
+    "poem836 exact source correction and matching translation provenance",
+    "year-round monthly public form; kabitaliveweb@gmail.com sender"
+  ],
+  "checks": {
+    "site": "245Node+56Python pass",
+    "rules": "8monthly emulator tests pass",
+    "browser": "local review-before-submit, synthetic only; no emails sent",
+    "separate_review": "Drishti source review pass; Anvesha source/translation correction verified"
+  },
+  "exclusions": [
+    "No Studio release",
+    "No Toshali changes",
+    "No access rules redeployment",
+    "No additional test emails"
+  ],
+  "runtime_before": {
+    "intakeOpen": false,
+    "mailEnabled": true,
+    "emailDeliveryEnabled": true,
+    "mailMode": "live",
+    "dailyLimit": 100
+  },
+  "publication_authorized": true
+}
