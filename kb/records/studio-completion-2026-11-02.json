@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "status": "owner-approved release being published",
+  "status": "published and live verified",
   "scope": [
     "Compact Editor Studio app shell and tables",
     "Shared categories, artwork preparation, article ordering and submission transfers",
@@ -33,5 +33,76 @@
   "publication_authorized": true,
   "receipt_record": "monthly-receipt-verification-2026-11-02.json",
   "portrait_record": "manisha-portrait-retouch-2026-11-02.json",
-  "approval": "Approve this Studio and portrait release"
+  "approval": "Approve this Studio and portrait release",
+  "publication": {
+    "run": "41363228582",
+    "commit": "f4e2be0fde97df28c885762bbdac0673ef792430",
+    "verified_at": "2026-11-01T23:47:57.092921+00:00",
+    "live": {
+      "assets/editor-workspace.mjs": {
+        "status": 200,
+        "sha256": "8ad01c6bf73b426879baae71a0fed82a907d549db6c7b071cd10b2a8be4e176d",
+        "matches_prepared": true
+      },
+      "assets/editor-workspace.css": {
+        "status": 200,
+        "sha256": "8ece979af53be64aca73d76942d59eadb4e36441827c458cbf4092bb78fedf80",
+        "matches_prepared": true
+      },
+      "assets/editor-preparation.mjs": {
+        "status": 200,
+        "sha256": "72b96be1995e26c8b292dc719fd7e836064fcfe50dab6d34dbab6111db13fe1e",
+        "matches_prepared": true
+      },
+      "assets/editor-preparation-ui.mjs": {
+        "status": 200,
+        "sha256": "410e4d4d32e802a069ff0bf786af2cf597285b91cf17a7ff2e2b5b2349176a53",
+        "matches_prepared": true
+      },
+      "assets/editor-studio-lists.mjs": {
+        "status": 200,
+        "sha256": "006efa775e1473b60f2807be25f89aad1b867e5d21ed8c24c13a04c068b753d7",
+        "matches_prepared": true
+      },
+      "assets/edition-editorial.js": {
+        "status": 200,
+        "sha256": "d13fa62f7b3d7038fa5ac329065e5b0f4c176a36ebce554a777d6517ad1edc63",
+        "matches_prepared": true
+      },
+      "assets/writers/481-earth-voice-v2.webp": {
+        "status": 200,
+        "sha256": "0e6c439751ce760461343272297b52bafcd718c7f523d9817edadb8a3ecaad89",
+        "matches_prepared": true
+      },
+      "editor-workspace.html": {
+        "status": 200,
+        "checks": true
+      },
+      "poet-481.html": {
+        "status": 200,
+        "checks": true
+      },
+      "index.html": {
+        "status": 200,
+        "checks": true
+      }
+    },
+    "next_draft": {
+      "result": "existing_preserved",
+      "source": {
+        "issue": 49,
+        "month": "2026-11",
+        "run": "41363228582",
+        "commit": "f4e2be0fde97df28c885762bbdac0673ef792430"
+      },
+      "draft": {
+        "issue": 50,
+        "month": "2026-12",
+        "status": "DRAFT",
+        "runtimeStage": "preparation"
+      },
+      "overwritten": false,
+      "published": false
+    }
+  }
 }
