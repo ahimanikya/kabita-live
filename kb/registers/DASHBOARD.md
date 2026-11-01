@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e4e37c2a3ea903bf8b97a5cbc0db7fe8a1a3a35bca0d5413e59c2be0d4863d15`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f179945f3d2d608b8ba09f12bb0fae234db3c6e20f3d1f7191e8849f6c8c85f6`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -167,6 +167,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-DEC-081 · Solid mulberry Original badge and narrow-screen alignment | approved | Ahimanikya Satapathy | Use white text on mulberry for the small Original badge in both reading modes; correct reported small-screen alignment while preserving accessible targets. Local implementation only. |
 | KBL-DEC-082 · Publish the approved Ink & Voice website redesign | approved | Ahimanikya Satapathy | Push the scoped completed redesign from latest remote main, publish the public-only discovery build and verify it live. Preserve content, services, consent, DNS and full editorial release gates. |
 | KBL-DEC-083 · Upload the Ink & Voice publication verification records | approved | Ahimanikya Satapathy | Upload the held publication logs, public-site screenshots and scoped KB completion records to the existing GitHub repository after checking for sensitive information. Documentation only; the website is already published. |
+| KBL-DEC-124 · Publish poem836 correction and open monthly submissions | approved | Ahimanikya Satapathy | Exact prepared monthly public intake release and poem836 correction |
 
 ## Reviews
 
@@ -271,6 +272,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-REL-016 · Ink & Voice Facebook profile and cover branding | published | https://www.facebook.com/profile.php?id=61594946730649 | KBL-DEC-075 |
 | KBL-REL-017 · Restore illustrated Facebook banner with current brand colours | published | https://www.facebook.com/profile.php?id=61594946730649 | KBL-DEC-079 |
 | KBL-REL-018 · Ink & Voice website and reader redesign | published | https://kabitalive.com/ | KBL-DEC-082 |
+| KBL-REL-023 · Monthly public intake and approved poem836 correction | published | https://kabitalive.com/submit.html | KBL-DEC-124 |
 
 ## Sources and assets
 
