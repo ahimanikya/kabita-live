@@ -801,15 +801,18 @@
         "KBL-REV-052",
         "KBL-REV-053"
       ],
-      "next_action": "Continue Utkal Analytics adapter adoption next. Retain Kabita live-provider background/withdrawal, account enhanced-measurement and DebugView checks as explicit release dependencies;existing source property and consent must remain unchanged.",
-      "blockers": [],
+      "next_action": "Viewer access granted; verify live GA4 report retrieval and remaining provider, consent-withdrawal, enhanced-measurement and DebugView checks. Aggregate counts are independently verified, not GA4 evidence.",
+      "blockers": [
+        "Live GA4 report retrieval remains unverified; earlier endpoint refusal is historical, not a current blanket access finding."
+      ],
       "evidence": [
         "records/analytics-privacy-foundation-2026-10-07.json",
         "records/analytics-public-catalogue-2026-10-07.json",
         "records/analytics-share-integration-2026-10-07.json",
         "records/analytics-reading-integration-2026-10-07.json",
         "records/analytics-browser-loading-2026-10-07.json",
-        "records/analytics-public-build-2026-10-07.json"
+        "records/analytics-public-build-2026-10-07.json",
+        "records/reader-ux-reconciliation-2026-11-02.json"
       ]
     },
     {

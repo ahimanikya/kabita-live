@@ -1,16 +1,17 @@
 """Approved portrait-card directory; no biography generation or source edits."""
 from html import escape
 import json,re
-from writer_names import writer_aliases
+from writer_names import writer_aliases, writer_search_names
 
 def render_poet_directory(SITE, writers, poems, profile_routes, routes):
     portraits=json.loads((SITE/'data/writer-portraits.json').read_text())
     quotes=json.loads((SITE/'data/writer-quotes.json').read_text())
     aliases=writer_aliases(SITE)
+    search_names=writer_search_names(SITE)
     alias_names={}
     for writer in writers:
      if writer['id'] in aliases:alias_names.setdefault(aliases[writer['id']],[]).append(writer['name'])
-    rows=[{'data-directory-name':w['name'],'captured-name':' '.join([w.get('captured_name',''),*alias_names.get(w['id'],[])]),'href':profile_routes.get(w['id'],f"poet-{w['id']}.html")} for w in writers if w['id'] not in aliases]
+    rows=[{'data-directory-name':w['name'],'captured-name':' '.join([w.get('captured_name',''),*search_names.get(w['id'],[]),*alias_names.get(w['id'],[])]),'href':profile_routes.get(w['id'],f"poet-{w['id']}.html")} for w in writers if w['id'] not in aliases]
     cards=[];evidence=[]
     for row in sorted(rows,key=lambda x:x['data-directory-name'].split('/')[0].strip().casefold()):
      raw=row['data-directory-name'];name=raw.split('/')[0].strip();wid={'poet-dokana.html':'82','poet-kshanika.html':'337','poet-drink.html':'257','editor-pradeep.html':'1','editor-paresh.html':'43'}.get(row['href']) or re.search(r'poet-(\d+)\.html',row['href']).group(1)

@@ -28,19 +28,17 @@ class Links(HTMLParser):
 
 
 class MagazineCovers(unittest.TestCase):
-    def test_every_edition_has_two_named_entry_links_and_preserves_share_source(self):
+    def test_edition_covers_are_not_self_links_and_preserve_share_source(self):
         for row in json.loads((ROOT / 'cover-catalogue.json').read_text()):
             with self.subTest(edition=row['number']):
                 n = row['number']
                 pair = render_cover_pair(ROOT, n, row['alt'], row['title'], row['story'], row['date'], local=True)
                 links = Links(pair)
                 self.assertFalse(links.nested)
-                self.assertEqual(len(links.links), 2)
-                for side, link in zip(('front', 'back'), links.links):
-                    self.assertEqual(link['href'], f'issue-{n}.html')
-                    self.assertIn(side, link['aria-label'])
-                    self.assertNotIn('data-open-edition-reader', link)
-                    self.assertEqual('hidden' in link, side == 'back')
+                self.assertEqual(links.links, [])
+                self.assertEqual(pair.count('data-cover-face='), 2)
+                self.assertIn('data-cover-face="back" hidden', pair)
+                self.assertIn('data-cover-toggle', pair)
                 page = Page('<figure class="edition-cover">' + pair + '</figure>')
                 image, reason = choose_image(f'issue-{n}.html', page, {})
                 self.assertEqual(reason, 'edition_cover')

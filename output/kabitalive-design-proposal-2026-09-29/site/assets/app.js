@@ -37,6 +37,23 @@ if($('#list-search')&&params.has('q'))$('#list-search').value=params.get('q');
 const pagination=$('#poem-pagination'), resultRows=$$('[data-search]');
 let resultPage=0;
 const pageSize=12;
+// Keep discovery state in this history entry, not across unrelated visits.
+function saveDiscoveryState(scroll=false){
+ if(!pagination)return;
+ const state={query:$('#list-search')?.value||'',poet:$('#poem-poet-filter')?.value||'',edition:$('#poem-edition-filter')?.value||'',language,page:resultPage};
+ if(scroll)state.scrollY=window.scrollY;
+ else if(Number.isFinite(history.state?.poemDiscovery?.scrollY))state.scrollY=history.state.poemDiscovery.scrollY;
+ try{history.replaceState({...history.state,poemDiscovery:state},'');}catch{/* Reading remains usable when history storage is unavailable. */}
+}
+function restoreDiscoveryState(){
+ const state=history.state?.poemDiscovery;
+ if(!pagination||!state)return;
+ for(const [id,key] of [['list-search','query'],['poem-poet-filter','poet'],['poem-edition-filter','edition']])if($('#'+id))$('#'+id).value=typeof state[key]==='string'?state[key]:'';
+ language=['all','or','hi','en'].includes(state.language)?state.language:'all';
+ resultPage=Number.isInteger(state.page)&&state.page>=0?state.page:0;
+ return state;
+}
+restoreDiscoveryState();
 const normalizeSearch=value=>value.normalize('NFC').toLocaleLowerCase().replace(/\s+/g,' ').trim();
 function filter(resetPage=true){
  if(!$('#filter-status'))return;
@@ -59,6 +76,7 @@ function filter(resetPage=true){
   $('#poems-next').disabled=resultPage>=pages-1;
   $('#poems-page').textContent=`Page ${resultPage+1} of ${pages}`;
  }
+ saveDiscoveryState();
 }
 $$('[data-language]').forEach(b=>b.addEventListener('click',()=>{language=b.dataset.language;filter();}));
 $('#list-search')?.addEventListener('input',()=>filter());
@@ -69,7 +87,12 @@ for(const [id,step] of [['poems-previous',-1],['poems-next',1]])$('#'+id)?.addEv
  const status=$('#filter-status');status.tabIndex=-1;status.focus();status.scrollIntoView({block:'start'});
 });
 $('#open-poem-edition')?.addEventListener('click',()=>{const url=$('#poem-edition').value;if(/^issue-\d+\.html#edition-poems$/.test(url))location.href=url});
-filter();
+filter(false);
+window.addEventListener('pagehide',()=>saveDiscoveryState(true));
+window.addEventListener('pageshow',()=>{
+ const state=restoreDiscoveryState();filter(false);
+ if(Number.isFinite(state?.scrollY))requestAnimationFrame(()=>window.scrollTo(0,state.scrollY));
+});
 if(!document.body.classList.contains('site-theme'))$('#appearance')?.addEventListener('click',()=>{const night=document.body.classList.toggle('night');$('#appearance').textContent=night?'Day reading':'Night reading';$('#appearance').setAttribute('aria-pressed',night);});
 $$('[data-view]').forEach(b=>b.addEventListener('click',()=>{const list=b.dataset.view==='list';$('.cover-grid').classList.toggle('archive-list',list);$$('[data-view]').forEach(x=>x.setAttribute('aria-pressed',x===b));}));
 $('#breathe')?.addEventListener('click',()=>{const art=$('.hero-art');if(matchMedia('(prefers-reduced-motion: reduce)').matches){$('#breathe').textContent='A still moment by the water';return;}art.classList.remove('drift');requestAnimationFrame(()=>{requestAnimationFrame(()=>art.classList.add('drift'));});});

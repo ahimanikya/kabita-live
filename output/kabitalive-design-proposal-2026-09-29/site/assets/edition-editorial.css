@@ -1,6 +1,6 @@
 .edition-editorial{width:100%;max-width:none;margin:48px 0;border:0;padding-top:0;scroll-margin-top:24px}
 .editorial-languages{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:30px;font:1.0625rem/1.5 var(--ui)}
-.editorial-languages a{display:inline-flex;align-items:center;min-height:44px;padding:4px 12px;color:var(--ink);text-decoration:none;border-bottom:2px solid transparent}
+.editorial-languages a{position:relative;display:inline-flex;align-items:center;min-height:44px;padding:4px 12px;color:var(--ink);text-decoration:none;border-bottom:2px solid transparent}
 .editorial-languages a[aria-current]{border-color:var(--rust);color:var(--rust)}
 .editorial-languages a:focus-visible{outline:2px solid var(--rust);outline-offset:3px}
 .editorial-prose[hidden]{display:none}

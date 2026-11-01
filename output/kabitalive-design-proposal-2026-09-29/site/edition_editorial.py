@@ -11,7 +11,7 @@ def render_editorial(root, number, poems, names):
     draft={'or':'ସମ୍ପାଦକୀୟ ଚିଠା · ସମ୍ପାଦକଙ୍କ ସମୀକ୍ଷା ପାଇଁ','en':'Editorial draft · for editor review','hi':'संपादकीय प्रारूप · संपादक की समीक्षा के लिए'}
     translated={'or':'ଏଠାରେ ଅନୁବାଦ','en':'Excerpt in translation','hi':'अंश का अनुवाद'}
     links={'or':'ଏହି ପ୍ରସଙ୍ଗର କବିତା','en':'Poems in this passage','hi':'इस प्रसंग की कविताएँ'}
-    parts=['<link rel="stylesheet" href="assets/edition-editorial.css?v=8"><script defer src="assets/edition-editorial.js?v=3"></script><section class="section edition-editorial" id="edition-editorial" aria-label="Editorial note" tabindex="-1">', '<nav class="editorial-languages" aria-label="Editorial language">']
+    parts=['<link rel="stylesheet" href="assets/edition-editorial.css?v=9"><script defer src="assets/edition-editorial.js?v=3"></script><section class="section edition-editorial" id="edition-editorial" aria-label="Editorial note" tabindex="-1">', '<nav class="editorial-languages" aria-label="Editorial language">']
     for lang,label in labels.items():
         original=' <span class="original-label" lang="en">Original</span>' if lang==data.get('original_language') else ''
         parts.append(f'<a href="#editorial-{lang}" lang="{lang}" data-editorial-language="{lang}">{label}{original}</a>')
@@ -31,7 +31,7 @@ def render_editorial(root, number, poems, names):
                     parts.append(f'<p class="excerpt-translation"><small>{translated["en"]}</small><br>{rendering}</p>')
                 parts.append(f'<figcaption><a href="poem-{q["poem_id"]}.html">{e(author)} · {e(poem["title"])}</a></figcaption></figure>')
                 for art in (a for a in data.get('illustrations',[]) if a.get('quote_poem_id')==q['poem_id']):
-                    parts.append(f'<figure class="editorial-vignette"><img src="{e(art["src"],quote=True)}" alt="{e(art["alt"][lang],quote=True)}" width="{art["width"]}" height="{art["height"]}" loading="lazy" decoding="async"></figure>')
+                    parts.append(f'<figure class="editorial-vignette"><img lang="{e(art.get("alt_language",lang),quote=True)}" src="{e(art["src"],quote=True)}" alt="{e(art["alt"][lang],quote=True)}" width="{art["width"]}" height="{art["height"]}" loading="lazy" decoding="async"></figure>')
                 parts.append('</div>')
             ids=data['paragraph_poem_ids'][index]
             if ids and data.get("show_passage_links", True):

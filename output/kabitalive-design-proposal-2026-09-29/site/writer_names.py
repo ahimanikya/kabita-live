@@ -28,3 +28,9 @@ def load_writer_profiles(root):
             profile['captured_name'] = profile['name']
             profile['name'] = names[profile['id']]
     return profiles
+
+
+def writer_search_names(root):
+    """Search spellings are per-profile metadata, never identity merges."""
+    path = root / 'data/writer-search-aliases.json'
+    return {int(key): value['names'] for key, value in json.loads(path.read_text()).items()} if path.exists() else {}

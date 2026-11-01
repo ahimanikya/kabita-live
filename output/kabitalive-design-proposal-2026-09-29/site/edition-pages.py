@@ -1,3 +1,4 @@
+from writer_names import writer_search_names
 from poem_reader import render_reader, TRANSLATIONS
 from reader_icons import quiet_reader_icon, reader_action_icon
 """Render the captured publication, using edition manifests as the content authority."""
@@ -34,6 +35,7 @@ def publication_rows(items,show_issue=False):
                  f'<a class="arrow" href="{route}" aria-label="Read {e(p["title"])}">↗</a></article>')
     return result+'</div><p class="empty" id="empty-results" hidden>No poem found along this path. Try another title, poet or line.</p>'
 
+edition_search_names=writer_search_names(R)
 edition_writer_names={x['id']:x['name'].split('/')[0].strip() for x in load_writer_profiles(R)}
 
 def edition_poet(p,show_issue=False):
@@ -71,7 +73,7 @@ def edition_rows(items,show_issue=False):
         translated_lines=[line for variant in TRANSLATIONS.get(str(p['id']),{}).get('variants',{}).values() for stanza in variant['stanzas'] for line in stanza]
         issue=publication_by_issue.get(p['edition'])
         edition_search=f'Issue {issue["number"]} Edition {issue["number"]} {issue["month"]} {issue["year"]}' if issue else 'Edition not recorded'
-        searchable=' '.join([p['title'],p['author'],edition_writer_names.get(p['writer_id'],''),p['text'],*titles.values(),*translated_lines,edition_search])
+        searchable=' '.join([p['title'],p['author'],*edition_search_names.get(p['writer_id'],[]),edition_writer_names.get(p['writer_id'],''),p['text'],*titles.values(),*translated_lines,edition_search])
         reading_attrs=f' data-reading-titles="{e(json.dumps(titles,ensure_ascii=False))}" data-search="{e(searchable)}" data-edition="{p["edition"] or "unassigned"}" data-poet="{p["writer_id"] or "unknown"}"'
         result+=(f'<article class="poem-row edition-poem-row" data-lang="{lang}"{reading_attrs}>' 
             f'<span class="number">{i:02d}</span><h3 class="{lang}" lang="{lang}"><a href="{route}">{e(p["title"])}</a></h3>'
@@ -138,7 +140,7 @@ for issue in publication_issues:
     refs=' '.join(f'<a class="text-link" href="{e(ref["url"])}" target="_blank" rel="noopener noreferrer">{e(ref["label"])} ↗</a>' for ref in art.get('sources',[]))
     culture=f'<div class="edition-cultural"><h3>Cultural connection</h3><p>{e(art["cultural_connection"])}</p>'+(f'<div class="edition-cover-sources">{refs}</div>' if refs else '')+'</div>'
     if not art.get('cultural_connection','').strip() and not refs: culture=''
-    cover_figure='<figure class="edition-cover">'+coverpair(n,local=True)+'<figcaption>Select the cover to read</figcaption></figure>'
+    cover_figure='<figure class="edition-cover">'+coverpair(n,local=True)+'</figure>'
     current=n==current_home_issue['number']
     issue_label=(f'<span class="eyebrow">Current issue · {n}</span>' if current else f'<span class="eyebrow">Issue {n}</span>')
     editorial=render_editorial(R,n,publication_poems,edition_writer_names)

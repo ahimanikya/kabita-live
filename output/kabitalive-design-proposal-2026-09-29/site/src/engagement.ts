@@ -15,18 +15,21 @@ async function start(section:HTMLElement){
  const more=section.querySelector<HTMLButtonElement>('[data-comments-more]')!;
  const form=section.querySelector<HTMLFormElement>('form')!;
  const status=form.querySelector<HTMLElement>('[role="status"]')!;
- like.title='Likes are available on the published website';
- like.setAttribute('aria-label',like.title);
+ const likeMessage=(message:string)=>{like.title=message;like.setAttribute('aria-label',message);like.querySelector('[data-like-label]')!.textContent=message;};
+ likeMessage('Loading likes…');
+ like.querySelector<HTMLElement>('[data-like-count]')!.hidden=true;
+ like.setAttribute('aria-busy','true');
+ const unavailable=()=>{likeMessage('Likes unavailable');like.setAttribute('aria-busy','false');};
  let runtime:Runtime;
- try{const response=await fetch('runtime-config.json');if(!response.ok)return;runtime=await response.json();}catch{return;}
+ try{const response=await fetch('runtime-config.json');if(!response.ok){unavailable();return;}runtime=await response.json();}catch{unavailable();return;}
  const f=runtime.firebase;
- if(!siteRuntimeAllowed(f,'kabita-live',location)||!/^\d{1,8}$/.test(poemId))return;
+ if(!siteRuntimeAllowed(f,'kabita-live',location)||!/^\d{1,8}$/.test(poemId)){unavailable();return;}
  const likesEnabled=runtime.engagement.likes===true,commentsEnabled=runtime.engagement.publicComments===true;
- if(!likesEnabled&&!commentsEnabled)return;
+ if(!likesEnabled&&!commentsEnabled){unavailable();return;}
  section.hidden=false;like.hidden=!likesEnabled;
  const commentToggle=section.querySelector<HTMLButtonElement>('[data-response-toggle="comments"]');
  if(commentToggle)commentToggle.disabled=!commentsEnabled;
- like.title="Like this poem";
+ if(!likesEnabled)like.setAttribute('aria-busy','false');
  let service:Promise<any>|undefined;
  const connect=()=>service??=(async()=>{
   const [app,auth,store]=await Promise.all([import('firebase/app'),import('firebase/auth'),import('firebase/firestore')]);
@@ -36,14 +39,14 @@ async function start(section:HTMLElement){
  })().catch(error=>{service=undefined;throw error;});
  const identity=(s:any)=>restoreSiteUser(s.auth,s.instance);
  let liked=false;
- const showLike=(count:number)=>{like.setAttribute('aria-pressed',String(liked));like.setAttribute('aria-label',(liked?'Remove your like. ':'Like this poem. ')+count+' likes');like.title=(liked?'Remove your like':'Like this poem')+' · '+count+' likes';like.querySelector('[data-like-label]')!.textContent=like.title;like.querySelector('[data-like-count]')!.textContent=String(count);};
+ const showLike=(count:number)=>{like.querySelector<HTMLElement>('[data-like-count]')!.hidden=false;like.setAttribute('aria-pressed',String(liked));like.setAttribute('aria-label',(liked?'Remove your like. ':'Like this poem. ')+count+' likes');like.title=(liked?'Remove your like':'Like this poem')+' · '+count+' likes';like.querySelector('[data-like-label]')!.textContent=like.title;like.querySelector('[data-like-count]')!.textContent=String(count);};
  // One public count read. Anonymous sign-in is reserved for a reader action.
  if(likesEnabled){like.disabled=true;connect().then(async s=>{
   const auth=s.auth.getAuth(s.instance);await auth.authStateReady();
   const snap=await s.store.getDocFromServer(s.store.doc(s.db,'poemStats',poemId));
   if(auth.currentUser){const vote=await s.store.getDocFromServer(s.store.doc(s.db,'poemLikes',poemId,'voters',auth.currentUser.uid));liked=vote.exists()&&vote.data().liked===true;}
   showLike(snap.exists()?snap.data().likes:0);
- }).catch(()=>{likeStatus.textContent='The like count is unavailable. You can try again.';}).finally(()=>{like.disabled=false;});}
+ }).catch(()=>{likeMessage('Like this poem · count unavailable');likeStatus.textContent='The like count is unavailable. You can still try liking this poem.';}).finally(()=>{like.disabled=false;like.setAttribute('aria-busy','false');});}
  like.addEventListener('click',async()=>{
   if(like.disabled)return;
   const desired=!liked;

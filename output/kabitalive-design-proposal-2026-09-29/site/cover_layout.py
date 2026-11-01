@@ -61,7 +61,7 @@ def render_cover_pair(root,number,alt,title,story,date,*,card=False,local=False)
     token=f'cover-view-{number}-{next(_sequence)}'
     sides=[('front',front),('back',render_back_cover(root,number,title,story,date,card=card))]
     return (f'<div class="magazine-view" data-cover-view role="group" aria-label="Issue {number} cover">'+''.join(
-        f'<a id="{token}-{side}" class="magazine-cover-link" data-cover-face="{side}"'+(' hidden' if side=='back' else '')+f' href="{href}" aria-label="{cover_link_label(art,number,side)}">{art}</a>'
+        f'<div id="{token}-{side}" class="magazine-cover-link" data-cover-face="{side}"'+(' hidden' if side=='back' else '')+f'>{art}</div>'
         for side,art in sides)+f'<button type="button" class="magazine-cover-toggle" data-cover-toggle aria-controls="{token}-front {token}-back" aria-label="View back cover of issue {number}" hidden>View back cover</button></div>')
 def apply_cover_styles(root):
     for path in root.glob('*.html'):
