@@ -1,17 +1,56 @@
 {
   "source": "https://kabitalive.com/",
   "verified_date": "2026-09-29",
-  "scope": "Existing publication titles, not new appointments or redesign team reporting lines",
+  "scope": "Confirmed human editorial roles; Creative Editor credit reaffirmed by Ahimanikya on 1 November 2026.",
   "editors": [
     {
       "name": "Pradeep Biswal",
       "role": "Editor",
-      "profile": "editor-pradeep.html"
+      "profile": "editor-pradeep.html",
+      "kind": "human",
+      "email": "pbiswal804@gmail.com",
+      "contact_source": "Supplied directly by Ahimanikya in this chat",
+      "website_publication_approval": false,
+      "jd_id": "KBL-JD-006",
+      "jd_version": "1.0.0",
+      "jd_path": "roles/KBL-ED-Pradeep-JD.md",
+      "assignment_id": "KBL-ASG-006",
+      "assignment_reference": "team/human-assignments.json"
     },
     {
       "name": "Paresh Kumar Pattnaik",
       "role": "Managing Editor",
-      "profile": "editor-paresh.html"
+      "profile": "editor-paresh.html",
+      "kind": "human",
+      "email": "areshkpatnaik@gmail.com",
+      "contact_source": "Supplied directly by Ahimanikya in this chat",
+      "website_publication_approval": false,
+      "jd_id": "KBL-JD-007",
+      "jd_version": "1.0.0",
+      "jd_path": "roles/KBL-ME-Paresh-JD.md",
+      "assignment_id": "KBL-ASG-007",
+      "assignment_reference": "team/human-assignments.json"
+    },
+    {
+      "name": "Ahimanikya Satapathy",
+      "role": "Creative Editor",
+      "profile": "ahimanikya-satapathy.html",
+      "kind": "human",
+      "website_publication_approval": true,
+      "jd_id": "KBL-JD-005",
+      "jd_version": "1.0.0",
+      "jd_path": "roles/KBL-PL-Ahimanikya-JD.md",
+      "assignment_id": "KBL-ASG-005",
+      "assignment_reference": "team/human-assignments.json"
     }
-  ]
+  ],
+  "updated_at": "2026-10-21T01:43:17.376002+00:00",
+  "confirmation_reference": "records/blueprint-sync-editor-roles-2026-10-20.json",
+  "publication_policy_reference": "records/website-publication-approval-2026-10-20.json",
+  "access": {
+    "git": "May push within existing repository access; no account invitation or privilege change performed by this record.",
+    "website_publication": "Requires Ahimanikya Satapathy approval for every release.",
+    "firebase": "Editorial titles do not grant backend permissions; no custom claims or accounts provisioned."
+  },
+  "job_description_record": "records/human-job-descriptions-2026-10-21.json"
 }

@@ -1,7 +1,7 @@
 """Dedicated design contributor profile; claim evidence lives in kb/research/people."""
 body = '<link rel="stylesheet" href="assets/inner-artistic.css?v=2"><link rel="stylesheet" href="assets/author-artistic.css?v=1"><div class="inner-artistic author-clear">'
 body += crumb('<a href="about.html">Our story</a> / Ahimanikya Satapathy')
-body += '<section class="page-head"><div class="page-head-copy"><span class="eyebrow inner-artistic-label">'+author_artistic_mark('footer-send-poem')+'Art, technology &amp; a sense of home</span><h1>Ahimanikya Satapathy</h1><p>Making room for Odia voices.<br>Building places where culture can be shared.</p></div><figure class="editor-portrait author-portrait generated_portrait"><img src="assets/writers/ahimanikya-satapathy-earth-voice-v1.webp" alt="Artistic portrait of Ahimanikya Satapathy" width="600" height="600" decoding="async"></figure></section>'
+body += '<section class="page-head"><div class="page-head-copy"><span class="eyebrow inner-artistic-label">'+author_artistic_mark('footer-send-poem')+'Creative Editor</span><h1>Ahimanikya Satapathy</h1><p>Making room for Odia voices.<br>Building places where culture can be shared.</p></div><figure class="editor-portrait author-portrait generated_portrait"><img src="assets/writers/ahimanikya-satapathy-earth-voice-v1.webp" alt="Artistic portrait of Ahimanikya Satapathy" width="600" height="600" decoding="async"></figure></section>'
 body += '''<div class="author-reading-layout author-clear-reading has-books"><article class="prose editor-biography">
 <section><h2>An Odia beginning.</h2>
 <p>Ahimanikya traces his first Odia website, odiya.org, to 1996. It was an early expression of a continuing wish: to use the web to bring Odia language and culture closer to people, wherever they live.</p>
@@ -24,4 +24,4 @@ body += '''<div class="author-reading-layout author-clear-reading has-books"><ar
 <li><a href="https://poemwithoutborders.org/">A Poem Without Borders</a><span>An Odia poem travelling through languages, music and art</span></li>
 <li><a href="https://www.linkedin.com/in/ahimanikya/">Connect on LinkedIn</a><span>Professional profile</span></li>
 </ul><a class="text-link" href="about.html#credits-ahimanikya">Profile sources</a></aside></div></div>'''
-page('ahimanikya-satapathy.html', 'Ahimanikya Satapathy', body, desc='Art, technology and a continuing commitment to Odia culture.')
+page('ahimanikya-satapathy.html', 'Ahimanikya Satapathy', body, desc='Ahimanikya Satapathy, Creative Editor of Kabita Live. Art, technology and a continuing commitment to Odia culture.')

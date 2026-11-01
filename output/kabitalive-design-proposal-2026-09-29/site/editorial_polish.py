@@ -19,7 +19,7 @@ def apply_editorial_polish(site):
         s=s.replace('<main id="main" class="wrap"','<main id="main" class="wrap editorial-refined"')
         if source=='editorial-team.html':
          s=s.replace('<span class="eyebrow">The people tending the journal</span>','<span class="eyebrow artistic-label">'+pen+'The people tending the journal</span>')
-         s=s.replace('Meet the writers whose literary lives come together in Kabita Live.','Every issue begins with listening.<br>Meet the two writers behind these pages.')
+         s=s.replace('Meet the writers whose literary lives come together in Kabita Live.','Every issue begins with listening.<br>Meet the people behind these pages.')
          s=s.replace('Poetry, translation and the conversation between languages.','Poetry and translation.<br>A conversation between languages.').replace('Stories, social observation and an invitation to younger readers.','Stories of the world around us.<br>A welcome for younger readers.')
          invitation='<section class="editorial-strip editorial-invitation" id="share-poem" aria-label="Contribute to the journal"><div><h2>An idea worth sharing.</h2><p>An essay, a reflection on a book, or a thought on poetry. Send your article to the editorial desk.</p><a class="btn solid marked-link" href="mailto:kabitaliveweb@gmail.com?subject=Article%20submission%20%C2%B7%20Kabita%20Live">'+book+'Submit an article</a></div><div><h2>A poem begins with you.</h2><p>Some words ask to be shared. Send your poem in Odia, Hindi or English to the editorial desk.</p><a class="btn solid marked-link" href="submit.html">'+pen+'Submit a poem</a></div></section>'
          s=re.sub(r'<section class="editorial-strip">.*?</section>',lambda m:invitation,s,flags=re.S)
