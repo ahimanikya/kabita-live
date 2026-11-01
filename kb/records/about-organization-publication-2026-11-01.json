@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "status": "release checks in progress",
+  "status": "published and live verified",
   "approval_quote": "publish what we have now",
   "approved_by": "Ahimanikya Satapathy",
   "scope": "Previously verified About information organization and typography",
@@ -11,5 +11,35 @@
     "Unfinished manuscript before-and-after report"
   ],
   "hosting_mode": "discovery",
-  "prior_separate_review": "Drishti about_review passed; source hashes reverified unchanged"
+  "prior_separate_review": "Drishti about_review passed; source hashes reverified unchanged",
+  "publication": {
+    "run": 41270083633,
+    "commit": "fe919b23eb3cfedc0549635906384a9629a0f6b9",
+    "conclusion": "success"
+  },
+  "checks": {
+    "build": "passed",
+    "python_tests": 53,
+    "disclosure_files": 1841,
+    "disclosure_violations": 0,
+    "github_all_checks": "passed",
+    "live_content": "all four expected markers verified"
+  },
+  "next_draft": {
+    "result": "existing_preserved",
+    "source": {
+      "issue": 49,
+      "month": "2026-11",
+      "run": "41270083633",
+      "commit": "fe919b23eb3cfedc0549635906384a9629a0f6b9"
+    },
+    "draft": {
+      "issue": 50,
+      "month": "2026-12",
+      "status": "DRAFT",
+      "runtimeStage": "preparation"
+    },
+    "overwritten": false,
+    "published": false
+  }
 }
