@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-02",
+  "status": "local design candidate; awaiting user review; not published",
+  "request": "Flow diagram infographic in How we work",
+  "implementation": "/root/about_layout as Samanta",
+  "review": {
+    "executor": "/root/about_review as Drishti",
+    "result": "PASS",
+    "independent": true,
+    "checks": [
+      "three semantic ordered steps",
+      "below-flow content preserved",
+      "10 disclosure tests passed"
+    ]
+  },
+  "visual_checks": [
+    "desktop connected steps",
+    "390px vertical flow; no horizontal overflow"
+  ],
+  "guidance": "modern-web-guidance responsive-design; native CSS grid and media query, no script dependency",
+  "hashes": {
+    "projects/site/templates/our-story-ai.html": "9b5a45cc0fc9fcdd37ef8d71b20f367497479262b89db4950f8dce8e66d1acc1",
+    "projects/site/assets/our-story.css": "5328efa1ffa76089cc7e9f11186e328749a8a1d97d8759c1b7b837240908e77a",
+    "projects/site/our_story.py": "fb446005291631137c840e532cce1567fa5cb3e6e1f1adc53b1879aa06ffd39b",
+    "projects/site/about.html": "a18f112600baa079f056723d1e6543207cc5977c1270ec816b4cc5f2df95370e"
+  },
+  "evidence": "artifacts/review/process-flow-2026-11-02/"
+}

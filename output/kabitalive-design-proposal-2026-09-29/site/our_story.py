@@ -15,6 +15,19 @@ def apply_our_story(site):
     s=s.replace(old,new,1)
     s=s.replace('<h1>A familiar name.<br>A living literary home.</h1>', '<h1>Our story</h1>', 1)
     s=s.replace('<h2 style="margin-top:28px">', '<h2 style="margin-top:20px">')
+    # Equal portrait treatment for the three human editors; reuse approved artwork.
+    editors = [
+        ('Pradeep Biswal', 'Editor', 'editor-pradeep.html', 'assets/editors/pradeep-biswal-artistic-v2.webp'),
+        ('Paresh Kumar Pattnaik', 'Managing Editor', 'editor-paresh.html', 'assets/editors/paresh-kumar-pattnaik-artistic-v2.webp'),
+        ('Ahimanikya Satapathy', 'Creative Editor', 'ahimanikya-satapathy.html', 'assets/writers/ahimanikya-satapathy-earth-voice-v1.webp'),
+    ]
+    for name, role, profile, portrait in editors:
+        pattern = r'<h2(?: style="[^"]*")?>' + re.escape(name) + r'</h2><p>' + re.escape(role) + r'</p><a class="text-link" href="' + re.escape(profile) + r'">Profile(?: ↗)?</a>'
+        card = (f'<a class="story-editor" href="{profile}"><img src="{portrait}" alt="" '
+                f'width="80" height="80" loading="lazy" decoding="async">'
+                f'<div><h2>{name}</h2><p>{role}</p></div></a>')
+        s, count = re.subn(pattern, lambda _: card, s, count=1)
+        assert count == 1, f'Missing About editor: {name}'
     # Explain the editorial process before the design story and consolidated credits.
     design = (site / 'templates/our-story-design.html').read_text()
     symbol = (site / 'assets/kabita-live-symbol-ink-voice.svg').read_text()
@@ -51,7 +64,10 @@ def apply_our_story(site):
         s = s.replace(f'<a class="text-link" href="{href}">{label}</a>', f'<a class="text-link story-action" href="{href}">'+mark(motif)+label+'</a>', 1)
     s = s.replace('class="wrap inner-artistic"', 'class="wrap inner-artistic our-story"', 1)
     s = s.replace('<title>About · Kabita Live</title>', '<title>Our Story · Kabita Live</title>', 1)
-    s = s.replace('</head>', '<link rel="stylesheet" href="assets/our-story.css?v=about-cleanup-20261102"><script defer src="assets/our-story.js?v=1"></script></head>', 1)
+    s = s.replace('</head>', '<link rel="stylesheet" href="assets/our-story.css?v=editor-portraits-20261102"><script defer src="assets/our-story.js?v=1"></script></head>', 1)
+    # Keep artwork credits concise; historical production detail stays in the KB.
+    s = re.sub(r'<p>The homepage artwork <em>LIFE AS IT IS</em>.*?</p>', '<p>Covers and illustrations are artistic interpretations created for Kabita Live.</p>', s, count=1, flags=re.S)
+    s = s.replace('Sources reviewed 29 September 2026; book titles retain their source spellings.', '')
     # Native disclosure: collapsed on About, expanded by existing hash navigation.
     privacy_start = s.index('<section class="colophon" id="privacy">')
     privacy_end = s.index('</section>', privacy_start) + len('</section>')
