@@ -15010,5 +15010,59 @@
       "candidate": 1
     },
     "verification": "passed"
+  },
+  {
+    "writer_id": 478,
+    "source": {
+      "writer_id": 478,
+      "file": "artifacts/artwork/portrait-sources/writers/478-editor-supplied-2026-11-01.png",
+      "rights": "Identified photograph supplied by the editorial team; rights not independently verified"
+    },
+    "source_sha256": "f10731cbbfcd05bde813fad2037830c0161eb7fbb5b37811f2443c43639fc3c4",
+    "master": "artifacts/artwork/writer-portraits/478-earth-voice-v1.png",
+    "master_sha256": "564c629946d77c5f5feaf942178e5a76b9b036cce09a0bd27895b831f37440df",
+    "prompt": "Edit this supplied photograph into Kabita Live's cotton-paper watercolor author portrait. Use case: identity-preserve. Keep the subject's facial proportions, apparent age, complexion under the source light, expression, long hair, bindi, jewellery and blue-purple sari with pink blouse exactly faithful to the source. Preserve her slightly tilted head and natural pose. Chest-up composition with the existing garment; retain source softness rather than inventing fine facial detail. Delicate watercolor and restrained graphite edges on warm ivory cotton paper, background fading to a quiet pale wash. Human Natural editorial treatment, selective edges, no idealization, skin lightening, beautification, costume changes, added objects or lettering. Portrait 3:4.",
+    "tool": "built-in image_gen",
+    "review": "Visual self-review of watercolor candidate; author/editor likeness review remains pending. Source photograph retained.",
+    "independent": false,
+    "status": "reviewed_integrated_locally",
+    "verification_batch": "pending-fixes-2026-11-01",
+    "independent_likeness_review": "Pending author/editor confirmation"
+  },
+  {
+    "writer_id": 480,
+    "source": {
+      "writer_id": 480,
+      "file": "artifacts/artwork/portrait-sources/writers/480-editor-supplied-2026-11-01.png",
+      "rights": "Identified photograph supplied by the editorial team; rights not independently verified"
+    },
+    "source_sha256": "28e7cdcdf40aafd89cb8ff8cbdff33495d39fa0bfcc4ba3b0dcdb2bb3113bf8d",
+    "master": "artifacts/artwork/writer-portraits/480-earth-voice-v1.png",
+    "master_sha256": "16742fd47e521bc47b4557bfb79e6befd4c569bf3a3cb4047d02833d1ed89993",
+    "prompt": "Use case: identity-preserve. Edit only the artistic medium and background of this supplied author photograph into a faithful Kabita Live cotton-paper watercolor portrait. Preserve the woman's face proportions, age, expression, complexion, large glasses, bindi, swept-back hair, red lipstick, hand supporting cheek, bracelets, turquoise clothing and pale patterned scarf. Preserve source softness and bright lighting, do not beautify or invent sharp skin detail. Chest-up 3:4 composition retaining the hand gesture. Realistic subject, delicate watercolor/graphite edges fading to warm ivory cotton paper with faint restrained aqua/rose washes. No face reshaping, skin lightening, added jewellery, text, logos, or scenery.",
+    "tool": "built-in image_gen",
+    "review": "Visual self-review of watercolor candidate; author/editor likeness review remains pending. Source photograph retained.",
+    "independent": false,
+    "status": "reviewed_integrated_locally",
+    "verification_batch": "pending-fixes-2026-11-01",
+    "independent_likeness_review": "Pending author/editor confirmation"
+  },
+  {
+    "writer_id": 481,
+    "source": {
+      "writer_id": 481,
+      "file": "artifacts/artwork/portrait-sources/writers/481-editor-supplied-2026-11-01.jpeg",
+      "rights": "Identified photograph supplied by the editorial team; rights not independently verified"
+    },
+    "source_sha256": "9df136b647daa51107bc52fb45ea6b41f8102aa5dbbb32cd74251d49b8865b4b",
+    "master": "artifacts/artwork/writer-portraits/481-earth-voice-v1.png",
+    "master_sha256": "888758d3dc45ec8aecc48b45f81af8ffa7a8ed57a093220df88e3c70a45adcb6",
+    "prompt": "Use case: identity-preserve. Transform this supplied photograph into a faithful Kabita Live author portrait in delicate watercolor and graphite on warm ivory cotton paper. Keep exact facial proportions, apparent age, complexion, closed-mouth smile, head tilt, black bob haircut, large black glasses with red arms, and blue shirt. Chest-up 3:4 composition; preserve the natural source viewpoint and lighting. Background fades into a restrained pale wash; selective paper edges, no excessive texture or sharpened skin, no beautification, face reshaping, skin lightening or costume change. Keep any visible lanyard as a subtle painted shape without adding legible lettering; do not invent logos or captions. Human Natural editorial portrait.",
+    "tool": "built-in image_gen",
+    "review": "Visual self-review of watercolor candidate; author/editor likeness review remains pending. Source photograph retained.",
+    "independent": false,
+    "status": "reviewed_integrated_locally",
+    "verification_batch": "pending-fixes-2026-11-01",
+    "independent_likeness_review": "Pending author/editor confirmation"
   }
 ]

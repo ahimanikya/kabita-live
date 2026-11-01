@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-01",
+  "status": "approved release being verified",
+  "completed": [
+    "Three watercolor portraits prepared and integrated locally; original photographs retained",
+    "Poem 836 encoding and stanza breaks restored from editor-supplied PDF"
+  ],
+  "source_documents": [
+    {
+      "file": "kb/artifacts/editions/2026-11/Pahada Tale.pdf",
+      "sha256": "621bffb4385f48427159b54956303d65229a363539f1169acdb0498f36eedb6e"
+    },
+    {
+      "file": "kb/artifacts/editions/2026-11/Pahada Tale.pmd",
+      "sha256": "ea15a02571abaac8d84cce6b751d25a8623744a2a7b15d32417a6a701d92a294"
+    }
+  ],
+  "poem_836_replacements": {
+    "ଜେ¥ତ୍ସ୍ନାରେ": "ଜ୍ୟୋତ୍ସ୍ନାରେ",
+    "େଯମିତି": "ଯେମିତି",
+    "ଦେଖô": "ଦେଖି",
+    "ମୃତୁ¥": "ମୃତ୍ୟୁ",
+    "ରାଜ¥": "ରାଜ୍ୟ",
+    "ସାକ୍ଷୀ ଜ୍ୟ": "ସାକ୍ଷୀ",
+    "ଲଢେ଼ଇରେ": "ଲଢ଼େଇରେ",
+    "ଅନି୧⁄୨ିତତାର": "ଅନିଶ୍ଚିତତାର",
+    "ଧ୍ଯାନରୁ": "ଧ୍ୟାନରୁ",
+    "ଉଦ ̈ଭବ": "ଉଦ୍ଭବ",
+    "ବୈଫଲ¥": "ବୈଫଲ୍ୟ",
+    "ଶଯ¥ା": "ଶଯ୍ୟା",
+    "ଆଖô": "ଆଖି",
+    "କଟିନାହó": "କଟିନାହିଁ",
+    "ଶୂନ¥": "ଶୂନ୍ୟ"
+  },
+  "poem_836_final_word": "ଛାଡ଼ିଯିବୁ retained exactly; replacement PDF does not resolve speaker/person uncertainty",
+  "holds": [
+    {
+      "item": "Sasmita identity",
+      "needed": "Confirm whether writer478 Soro advocate and writer235 Talcher poet are different people. Direct reply No at09:37 and group Might be at09:38 conflict; keep profiles separate."
+    },
+    {
+      "item": "Shraddhanjali Sahu writer479",
+      "needed": "Editor/author confirmed short biography, location and identified portrait photograph."
+    },
+    {
+      "item": "Rakshak Nayak poem836",
+      "needed": "Confirm final ଛାଡ଼ିଯିବୁ or provide intended wording; translations remain provisional."
+    },
+    {
+      "item": "Sanghamitra INTERPRETATION poem843",
+      "needed": "Explain “Doesn’t like pivot fade”, “Erotic suckling love equipoises”, “castration”, “emeritus expurgation”, and “chained polymerization”."
+    },
+    {
+      "item": "Three portraits",
+      "needed": "Author/editor visual approval; current review is same-assistant self-review."
+    }
+  ],
+  "cancelled": [
+    "Before-and-after manuscript deliverable, per user instruction"
+  ],
+  "publication_authorized": true,
+  "translation_review": "Existing English/Hindi wording rechecked against repaired source: resolved encoding matches provisional readings. Stanza breaks aligned; final-person hold remains. No new semantic translation approved.",
+  "verification": {
+    "site_tests": 254,
+    "python_tests": 55,
+    "author_pages": "passed",
+    "edition_integrity": "passed",
+    "browser_review": "Sanghamitra portrait and repaired poem836 rendered locally; screenshot retained",
+    "full_public_build": "passed, including public disclosure check"
+  },
+  "portrait_size_correction": {
+    "request": "Match other author portraits",
+    "writers": [
+      478,
+      480,
+      481
+    ],
+    "web_dimensions": [
+      600,
+      600
+    ],
+    "method": "North-aligned square web derivative; full 3:4 masters retained",
+    "publication": "pending"
+  },
+  "approval": "Ahimanikya: publish, after square-size review, 1 November 2026"
+}
