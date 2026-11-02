@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "status": "approved; isolated release preparation",
+  "status": "published and live verified",
   "request": "Let's convert the Editor Studio to an installable app.",
   "scope": "Browser-installable online Editor Studio using existing route, identity, sign-in and shared drafts",
   "publication_authorized": true,
@@ -47,8 +47,8 @@
     "browser": "Desktop and320px Chromium, keyboard and manifest parsing PASS",
     "separate_review": "Drishti PASS with limitations;3findings resolved",
     "personas": "PASS4",
-    "registers": "Task records valid; overall register check currently blocked by concurrent KBL-WORK-088 readiness=implementation",
-    "bundle": "PASS101concepts,2528links"
+    "registers": "PASS360records,1066events",
+    "bundle": "PASS101concepts,2529links"
   },
   "evidence": {
     "implementation": "artifacts/review/editor-installable-app-2026-11-02/implementation.json",
@@ -86,5 +86,23 @@
     "disclosure_files": 1842,
     "disclosure_violations": 0,
     "release_workflow": "manual owner-only main branch, github-pages reviewer ahimanikya, administrator bypass disabled"
-  }
+  },
+  "commit": "904afaf120659c9b4fa074fb3528a836531af0f5",
+  "run": "41477461315",
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/41477461315",
+  "completed_at": "2026-11-02T16:13:37.673147+00:00",
+  "deployment_id": 7497068845,
+  "publication_attempts": [
+    {
+      "attempt": 1,
+      "result": "GitHub Pages HTTP500 creating deployment; build and all tests passed"
+    },
+    {
+      "attempt": 2,
+      "result": "success; identical commit/artifact; existing exact release approval reused"
+    }
+  ],
+  "live_verification": "artifacts/review/editor-installable-app-2026-11-02/live-verification.json",
+  "live_manifest": "artifacts/review/editor-installable-app-2026-11-02/live-manifest.json",
+  "next_draft": "artifacts/review/editor-installable-app-2026-11-02/next-draft.json"
 }

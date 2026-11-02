@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-11-02T16:11:52.508739+00:00",
+  "commit": "904afaf120659c9b4fa074fb3528a836531af0f5",
+  "run": "41477461315",
+  "assets": {
+    "assets/editor-app.webmanifest": {
+      "status": 200,
+      "sha256": "d3bd83e14a267afafca79d320cf4d99f17c9b00e2844443b77d1438b9a52b9e6",
+      "matches_build": true,
+      "content_type": "application/manifest+json; charset=utf-8"
+    },
+    "assets/editor-app-180.png": {
+      "status": 200,
+      "sha256": "451ef622be9c73f88d6a0e3c6d6b365569755d8748151f4f1121ad980dd29782",
+      "matches_build": true,
+      "content_type": "image/png"
+    },
+    "assets/editor-app-192.png": {
+      "status": 200,
+      "sha256": "4126ab9ff33903ddb8bbe6a9a602c959ac38256bd0b3d33d197a1dd0054497e8",
+      "matches_build": true,
+      "content_type": "image/png"
+    },
+    "assets/editor-app-512.png": {
+      "status": 200,
+      "sha256": "444162d93af7d8f4daed5c804a3b5b31e869b78128abc27195c5541b0933e623",
+      "matches_build": true,
+      "content_type": "image/png"
+    },
+    "assets/editor-install.mjs": {
+      "status": 200,
+      "sha256": "07a893b842d921ff1629844248374b0f417a74362564b89151c9811a828f1dbb",
+      "matches_build": true,
+      "content_type": "text/javascript; charset=utf-8"
+    },
+    "assets/editor-install.css": {
+      "status": 200,
+      "sha256": "d444b2e9e84a3849a2734a8f9459d9c4aa2bf80f94df20cf274067fdc0afbb5e",
+      "matches_build": true,
+      "content_type": "text/css; charset=utf-8"
+    }
+  },
+  "studio": {
+    "status": 200,
+    "manifest_link": true,
+    "install_action": true,
+    "sign_in_preserved": true,
+    "noindex": true,
+    "kb_excluded": true
+  },
+  "result": "PASS"
+}
