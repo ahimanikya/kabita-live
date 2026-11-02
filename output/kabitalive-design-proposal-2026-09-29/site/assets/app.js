@@ -55,12 +55,14 @@ function restoreDiscoveryState(){
 }
 restoreDiscoveryState();
 const normalizeSearch=value=>value.normalize('NFC').toLocaleLowerCase().replace(/\s+/g,' ').trim();
+// Catalogue search text is immutable for this page; normalize it once, not per keystroke.
+const searchText=new Map(resultRows.map(row=>[row,normalizeSearch(row.dataset.search)]));
 function filter(resetPage=true){
  if(!$('#filter-status'))return;
  if(resetPage)resultPage=0;
  const q=normalizeSearch($('#list-search')?.value||'');
  const poet=$('#poem-poet-filter')?.value||'',edition=$('#poem-edition-filter')?.value||'';
- const matches=resultRows.filter(el=>(language==='all'||el.dataset.lang===language)&&(!poet||el.dataset.poet===poet)&&(!edition||el.dataset.edition===edition)&&normalizeSearch(el.dataset.search).includes(q));
+ const matches=resultRows.filter(el=>(language==='all'||el.dataset.lang===language)&&(!poet||el.dataset.poet===poet)&&(!edition||el.dataset.edition===edition)&&searchText.get(el).includes(q));
  const count=matches.length,pages=Math.max(1,Math.ceil(count/pageSize));
  resultPage=Math.min(resultPage,pages-1);
  const visible=new Set(pagination?matches.slice(resultPage*pageSize,(resultPage+1)*pageSize):matches);

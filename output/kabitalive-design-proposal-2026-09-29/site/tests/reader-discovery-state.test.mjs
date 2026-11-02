@@ -8,11 +8,12 @@ function fixture(saved=null){
  const nodes={};
  for(const id of ['list-search','poem-poet-filter','poem-edition-filter','poem-pagination','filter-status','empty-results','filter-reset','poems-previous','poems-next','poems-page'])nodes['#'+id]={value:'',hidden:false,listeners:{},addEventListener(k,f){this.listeners[k]=f},focus(){},scrollIntoView(){}};
  const rows=Array.from({length:30},(_,i)=>({dataset:{lang:i<24?'or':'en',poet:i<24?'478':'235',edition:'49',search:i<24?'Sasmita Rout silence':'Other poet'},hidden:false}));
+ let searchReads=0;for(const row of rows){const text=row.dataset.search;Object.defineProperty(row.dataset,'search',{get(){searchReads++;return text;}});}
  const buttons=['all','or','hi','en'].map(language=>({dataset:{language},listeners:{},setAttribute(){},addEventListener(k,f){this.listeners[k]=f}}));
  const history={state:saved,replaceState(s){this.state=s}},listeners={},window={scrollY:620,addEventListener(k,f){listeners[k]=f},scrollTo(x,y){this.restoredY=y}};
  const $=s=>s==='[data-language]'?buttons[0]:nodes[s]||null,$$=s=>s==='[data-language]'?buttons:s==='[data-search]'?rows:[];
  runInNewContext(code,{$,$$,params:new URLSearchParams(),history,window,requestAnimationFrame:f=>f()});
- return {nodes,rows,buttons,history,listeners,window,visible:()=>rows.filter(r=>!r.hidden)};
+ return {searchReads:()=>searchReads,nodes,rows,buttons,history,listeners,window,visible:()=>rows.filter(r=>!r.hidden)};
 }
 test('Back restores query, both filters, language, page, results and scroll together',()=>{
  const f=fixture();f.nodes['#list-search'].value='Sasmita';f.nodes['#list-search'].listeners.input();
@@ -32,4 +33,11 @@ test('BFCache pageshow recomputes results without resetting current page; reset 
 test('pageshow also reconciles browser-restored form values without stored state',()=>{
  const f=fixture();f.history.state=null;f.nodes['#list-search'].value='Other poet';f.listeners.pageshow();
  assert.equal(f.visible().length,6);assert.equal(f.nodes['#filter-status'].textContent,'Showing 1–6 of 6 poems');
+});
+
+test('full-text haystacks are read once while repeated queries and filters preserve matching',()=>{
+ const f=fixture();assert.equal(f.searchReads(),30);
+ for(const text of ['Sasmita','silence','Other poet','']){f.nodes['#list-search'].value=text;f.nodes['#list-search'].listeners.input();}
+ f.nodes['#list-search'].value='silence';f.nodes['#list-search'].listeners.input();assert.equal(f.nodes['#filter-status'].textContent,'Showing 1–12 of 24 poems');
+ f.nodes['#poems-next'].listeners.click();assert.equal(f.visible()[0],f.rows[12]);assert.equal(f.searchReads(),30);
 });

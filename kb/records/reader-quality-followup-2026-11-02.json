@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-02",
+  "status": "approved; publication in progress",
+  "fixes": [
+    "Restore poet-directory query, expanded result count and scroll on Back",
+    "Normalize poem full-text search data once rather than each keystroke"
+  ],
+  "implementation": "/root/about_layout",
+  "reviewer": "/root/about_review",
+  "review": "PASS no blockers",
+  "checks": {
+    "focused_tests": 8,
+    "full_node_tests": 274,
+    "python_tests": 61,
+    "public_build": "PASS",
+    "public_disclosure_files": 1841,
+    "violations": 0,
+    "browser": "Sasmita Rout query returned two separate profiles; opening a profile and Back preserved two matching results"
+  },
+  "limits": [
+    "Physical devices and actual assistive technology not tested",
+    "Contrast is sampled explicit token calculation, not every image background",
+    "Poems listing HTML remains large; no field-performance claim"
+  ],
+  "evidence": [
+    "artifacts/review/reader-quality-2026-11-02/samanta-source-audit.json",
+    "artifacts/review/reader-quality-2026-11-02/poet-back-restored.png"
+  ],
+  "publication_authorized": true,
+  "approval": "Approve these reader fixes"
+}
