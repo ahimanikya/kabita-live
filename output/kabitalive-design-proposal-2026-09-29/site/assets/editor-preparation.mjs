@@ -11,11 +11,11 @@ export function validateArtwork(a){
 }
 export function preparationGaps(p){
  const data=validatePreparation(p.preparation),gaps=[];
- for(const lang of Object.keys(languages)){if(lang===p.language)continue;const v=data.variants[lang];if((!v?.title.trim()||!v?.text.trim()||!v?.credit.trim())&&!data.translationException.trim())gaps.push({field:'translation-'+lang,message:'Complete '+languages[lang]+' translation or record an exception.'});}
  if(!data.artwork&&!data.textOnlyReason.trim())gaps.push({field:'artwork-editor',message:'Add artwork or a text-only reason.'});
  return gaps;
 }
-export function proofVariants(p){const prep=validatePreparation(p.preparation);return Object.entries(languages).map(([language,label])=>({language,label,...(language===p.language?{title:p.title,text:p.text,credit:p.credits,original:true}:prep.variants[language]||{title:'',text:'',credit:'',exception:prep.translationException})}));}
+// Saved variants remain in private drafts, but proofs show the submitted work only.
+export function proofVariants(p){return [{language:p.language,label:languages[p.language],title:p.title,text:p.text,credit:p.credits,original:true}];}
 
 // Editorial translations share the same bounded text/credit contract as poems.
 export function validateEditorialPreparation(value={}){

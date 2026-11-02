@@ -1,5 +1,5 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';
-import {blank,newEntry,checks} from '../../../projects/site/assets/editor-workspace-model.mjs';
+import {blank,anthology,newEntry,checks} from '../../../projects/site/assets/editor-workspace-model.mjs';
 import {contentPackage,verifyRevision} from './release-package.mjs';
 const ready=()=>{const d=blank();d.coverReference='assets/editor-covers/issue-049-riverbank-v1.webp';d.coverChecked=d.editorialChecked=d.reviewRequested=true;d.poems=[{...newEntry('poem','one'),authorId:'writer-1',poet:'Poet',title:'Poem',text:'line\n\nline',notes:'PRIVATE NOTE',source:'PRIVATE SUBMISSION',preparation:{textOnlyReason:'Text-led',translationException:'Original only'},...Object.fromEntries(checks.map(k=>[k,true]))}];return d;};
 test('exact owner handoff rejects changed revision, bytes and non-owner',()=>{const d=ready(),current={month:d.month,revision:2,stage:'preparation',draftJson:JSON.stringify(d)},approval={...current,approvedBy:'ahimanikya@gmail.com',purpose:'production-handoff'};assert.equal(verifyRevision(current,approval,d.month,2).month,d.month);for(const bad of [{...approval,revision:1},{...approval,draftJson:'{}'},{...approval,approvedBy:'pbiswal804@gmail.com'}])assert.throws(()=>verifyRevision(current,bad,d.month,2));assert.throws(()=>verifyRevision({...current,revision:3},approval,d.month,2));});
@@ -19,4 +19,13 @@ test('editorial exports all reviewed variants and exact approval becomes stale a
 test('editorial cannot release with checkbox alone or publish incomplete target under exception',()=>{
  const d=ready();d.editorialText='Original';assert.throws(()=>contentPackage(d,{poemStart:900,writerStart:500,knownWriters:[1]}));
  d.editorialPreparation={translationException:'Omit targets',variants:{en:{title:'Incomplete',text:'Draft',credit:''}}};const p=contentPackage(d,{poemStart:900,writerStart:500,knownWriters:[1]});assert.deepEqual(Object.keys(p.operations.find(x=>x.path.includes('content/editorials/')).value.variants),['or']);
+});
+
+test('production packages exclude historical added poem translations in both publications',()=>{
+ for(const isBook of [false,true]){
+  const d=isBook?{...anthology(),poems:ready().poems,coverChecked:true,editorialChecked:true,reviewRequested:true}:ready();
+  d.poems[0].translations=false;d.poems[0].preparation={textOnlyReason:'Text-led',variants:{en:{title:'Old translation',text:'RETIRED TRANSLATION TEXT',credit:'Old translator'}}};
+  const before=JSON.stringify(d),p=contentPackage(d,{poemStart:900,writerStart:500,knownWriters:[1]});
+  assert.equal(JSON.stringify(d),before);assert.ok(!p.operations.some(o=>o.path.includes('poem-translations')));assert.ok(!JSON.stringify(p).includes('RETIRED TRANSLATION TEXT'));
+ }
 });

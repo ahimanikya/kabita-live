@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """Check reviewed stanza recovery, language parity and unchanged selection text."""
 import hashlib
+import sys
 import json
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'projects/site'
+sys.path.insert(0,str(SITE))
+from public_routes import is_reader_page
 spacing = json.loads((SITE / 'data/poem-spacing.json').read_text())
 review = json.loads((ROOT / 'kb/records/poem-spacing-reconciliation.json').read_text())
 sources = {str(s['id']): s for p in (SITE / 'content/editions').glob('*/poem-*.json') for s in [json.loads(p.read_text())]}
-translations = json.loads((SITE / 'data/poem-translations.json').read_text())
 for ident, rules in spacing.items():
     assert hashlib.sha256(sources[ident]['text'].encode()).hexdigest() == rules['source_sha256']
 assert not {str(r['id']) for r in review['deferred']} & spacing.keys()
@@ -22,11 +24,14 @@ for label, root, pattern in [('preview', SITE, 'poem-*.html'), ('public', SITE /
         if not m:
             continue
         data = json.loads(m[1]); ident = str(data['id'])
+        if not is_reader_page(path.name):
+            continue  # Historical local studies are not current reader pages.
         if ident not in spacing:
             continue
         seen.add(ident)
         source = sources[ident]
-        originals = {source['language']: source, **translations.get(ident, {}).get('variants', {})}
+        originals = {source['language']: source}
+        assert set(data['variants']) == set(originals), (label, ident, 'non-submitted variant')
         vectors = []
         for language, variant in data['variants'].items():
             stanzas = variant['stanzas']
@@ -53,4 +58,4 @@ for label, root, pattern in [('preview', SITE, 'poem-*.html'), ('public', SITE /
         assert all(vector == vectors[0] for vector in vectors), (label, ident, 'stanza parity')
     assert seen == spacing.keys(), (label, seen ^ spacing.keys())
     counts[label] = len(seen)
-print(json.dumps({'result': 'PASS', 'restored_poems': counts, 'source_9': '29 lines / four thematic stanzas in each language; exact text retained', 'deferred': [r['id'] for r in review['deferred']]}, indent=2))
+print(json.dumps({'result': 'PASS', 'restored_poems': counts, 'source_9': '29 lines / four thematic stanzas in submitted language; exact text retained', 'deferred': [r['id'] for r in review['deferred']]}, indent=2))

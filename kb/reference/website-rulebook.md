@@ -13,6 +13,12 @@ This is a consolidation of approved decisions and current implementation, not a 
 
 Start each page change with the [page checklist](../review/new-page-checklist.md). Record only relevant checks, with evidence and explicit reasons for anything not applicable. Counts and rollout status belong in the live catalogue and dashboard, not in permanent rules.
 
+## Translation cleanup · 3 November 2026
+
+Poem preparation, proofs and release packages use the submitted language and retain submitted translator credits. Added poem translations are no longer a preparation gate or reader option. Preserve legacy private draft values on save; do not export them. Historical translation data, local review pages and batch tools are archived under `kb/history/retired-poem-translations-2026-11-03/`, with exact source hashes. Do not restart retired batch entrypoints.
+
+Editorial translations remain supported; the separate approved three-language editorial and English-default work is unchanged. Preserve source-language extracts, original verse, old link/bookmark compatibility and the existing guards against reintroducing added poem translations. This supersedes older poem-translation workflow examples, not historical evidence. See [cleanup record](../records/translation-cleanup-2026-11-03.json). Ahimanikya subsequently approved publication of this cleanup with “publish”; see the release receipt in that record.
+
 ## 1 Give every page a clear purpose
 
 **PAGE-01** Identify the page family, reader’s purpose and primary action before designing. Reuse its existing builder and shared components. Change source templates or data, then regenerate; a hand-edited output page will be lost on the next build.

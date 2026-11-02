@@ -3,7 +3,7 @@ import {getNativeStore} from './shared-reader-storage.mjs';
 import {normalized,subtract} from './poem-marks.mjs?v=2';
 import {packReadingPages} from './reader-pagination.mjs?v=1';
 import {readerKeyAction,createReaderFullscreen} from './reader-controls.mjs?v=1';
-import {readingCode,poemChoice,readerChoices,versionLabel,readingPosition,languageNames,languageGlyphs} from './reader-language.mjs';
+import {readingCode,poemChoice,versionLabel,readingPosition,languageNames} from './reader-language.mjs';
 (()=>{
 'use strict';
 const $=s=>document.querySelector(s), query=new URLSearchParams(location.search);
@@ -162,20 +162,8 @@ function render(){
  cancelPaperTurn();
  const visible=pages.slice(pageIndex,pageIndex+spread).flat();
  // When a new poem begins below a preceding poem's tail, its heading supplies
- // the context for the three choices. Each opening also names its own source.
+ // the reading context. Each opening also names its own submitted language.
  poemIndex=(visible.find(unit=>unit.type==='title')||visible[0])?.poemIndex??0;$('#focus-poem').value=String(poemIndex);
- const choices=readerChoices(poems[poemIndex],language);
- for(const button of document.querySelectorAll('[data-focus-language]')){
-  const choice=choices.find(item=>item.choice===button.dataset.focusLanguage);button.hidden=!choice;
-  button.setAttribute('aria-pressed',String(!!choice?.selected));
-  if(!choice)continue;
-  button.disabled=!choice.available;button.lang=choice.code;
-  const label=choice.original?'Original · '+languageNames[choice.code]:languageNames[choice.code]+' translation'+(choice.available?'':' unavailable');
-  const accessible=choice.original?'Original '+languageGlyphs[choice.code]+' · '+languageNames[choice.code]:languageGlyphs[choice.code]+' · '+label;
-  button.setAttribute('aria-label',accessible);button.title=label;
-  button.querySelector('.focus-language-tip').textContent=label;
-  if(choice.original){const name=button.querySelector('.original-language');name.textContent=languageGlyphs[choice.code];name.lang=choice.code;}
- }
  [...area.children].forEach((slot,i)=>{const content=slot.querySelector('.focus-page-content'),folio=slot.querySelector('.focus-folio');content.replaceChildren();const pg=pages[pageIndex+i];slot.setAttribute('aria-label',pg?`Page ${pageIndex+i+1} of ${pages.length}`:'End of collection');slot.classList.toggle('focus-empty',!pg);if(pg)pg.forEach(u=>content.append(unitNode(u)));folio.textContent=pg?String(pageIndex+i+1):'';content.scrollTop=0});
  const end=Math.min(pageIndex+spread,pages.length);
  progress.textContent=`${pageIndex+1}${end>pageIndex+1?'–'+end:''} / ${pages.length}`;
@@ -232,7 +220,6 @@ dialog.addEventListener('cancel',e=>{
  if(!settings.hidden){e.preventDefault();dismissQuietSettings(true);return}
  if(fullscreen.active()){e.preventDefault();fullscreen.toggle();}
 });
-document.querySelectorAll('[data-focus-language]').forEach(button=>button.addEventListener('click',()=>{clearSelection();language=button.dataset.focusLanguage;paginate();save();announcePoem();if(browseCollection)filterPoems()}));
 $('#focus-poem').addEventListener('change',e=>{clearSelection();poemIndex=Number(e.target.value);paginate();save();announcePoem()});
 previous.addEventListener('click',()=>turn(-1));next.addEventListener('click',()=>turn(1));
 dialog.addEventListener('keydown',e=>{
