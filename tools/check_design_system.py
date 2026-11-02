@@ -28,8 +28,8 @@ class Page(HTMLParser):
         attrs = dict(attrs)
         if tag == 'link':
             self.links.append(attrs)
-        elif tag == 'meta' and attrs.get('name'):
-            self.meta[attrs['name']] = attrs.get('content', '')
+        elif tag == 'meta' and (attrs.get('name') or attrs.get('http-equiv')):
+            self.meta[attrs.get('name') or attrs['http-equiv']] = attrs.get('content', '')
         elif tag == 'script' and attrs.get('src'):
             self.scripts.append(attrs['src'])
         elif tag == 'body':
@@ -55,6 +55,7 @@ def audit(site):
         css_paths = [urlsplit(x).path for x in css]
         issues = []
         studio = path.name in STUDIO_PAGES
+        component_library = path.name == 'component-library.html'
         if studio:
             if css_paths.count('assets/editor-workspace.css') != 1:
                 issues.append('Expected exactly one approved Studio stylesheet')
@@ -72,7 +73,21 @@ def audit(site):
         icons = [x for x in page.links if x.get('rel') == 'icon']
         if len(icons) != 1 or icons[0].get('href') != f'{logo}?v={logo_hash}' or icons[0].get('type') != 'image/svg+xml' or icons[0].get('sizes') != 'any':
             issues.append('Favicon differs from current versioned logo')
-        if not studio and 'assets/appearance.js' not in page.scripts:
+        if component_library:
+            if 'lib-page' not in page.body.get('class', '').split():
+                issues.append('Component reference shell missing')
+            if 'noindex' not in page.meta.get('robots', '').split(','):
+                issues.append('Component reference must remain noindex')
+            if 'data-pagefind-ignore="all"' not in text:
+                issues.append('Component reference search exclusion missing')
+            if 'assets/author-profile.js' not in page.scripts:
+                issues.append('Component reference disclosure runtime missing')
+            policy = page.meta.get('Content-Security-Policy', '')
+            if "connect-src 'none'" not in policy or "form-action 'none'" not in policy:
+                issues.append('Component reference simulation boundary missing')
+            if not all(f'data-mode="{mode}"' in text for mode in ['light','dark','system']):
+                issues.append('Component reference theme controls missing')
+        if not studio and not component_library and 'assets/appearance.js' not in page.scripts:
             issues.append('Shared saved/system theme support missing')
         if not studio and path.name != 'search.html' and len(page.headers) != 1:
             issues.append('Expected one shared header')
@@ -84,7 +99,7 @@ def audit(site):
         if 'assets/kabita-live-symbol.svg' in text:
             issues.append('Historical logo still referenced by page markup')
         styles.update(css_paths)
-        family = 'studio' if studio else 'poem' if 'poem-page' in page.body.get('class', '') else 'profile' if path.name.startswith('poet-') else 'edition' if path.name.startswith('issue-') else 'other'
+        family = 'component_reference' if component_library else 'studio' if studio else 'poem' if 'poem-page' in page.body.get('class', '') else 'profile' if path.name.startswith('poet-') else 'edition' if path.name.startswith('issue-') else 'other'
         families[family] += 1
         routes.append({'route': path.name, 'family': family, 'styles': css_paths, 'issues': issues})
         errors.extend(f'{path.name}: {issue}' for issue in issues)

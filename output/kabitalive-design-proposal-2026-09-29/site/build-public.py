@@ -9,6 +9,7 @@ from social_metadata import prepare, inject, robots_text, public_base
 from discovery import enrich, write_discovery
 from service_assets import service_assets
 from public_routes import is_reader_page
+from component_library import ROUTE as COMPONENT_LIBRARY_ROUTE, render_component_library
 
 root=Path(__file__).resolve().parent
 parser=argparse.ArgumentParser(description=__doc__)
@@ -27,6 +28,11 @@ excluded={'credits-content.html'}
 excluded.update(p.name for p in root.glob('*.html') if re.fullmatch(r'reviews?(?:-\d+)?\.html', p.name))
 pages=sorted(p.name for p in root.glob('*.html') if not p.is_symlink() and p.name not in excluded and is_reader_page(p.name))
 social=prepare(root,pages)
+# Render only the explicitly approved component utility; never copy KB aliases.
+utility_pages={COMPONENT_LIBRARY_ROUTE:render_component_library(root)}
+pages=sorted(pages+list(utility_pages))
+def page_source(name):
+    return utility_pages[name] if name in utility_pages else (root/name).read_text()
 refs=set()
 class Links(HTMLParser):
     def handle_starttag(self,tag,attrs):
@@ -37,7 +43,7 @@ class Links(HTMLParser):
             for item in a['srcset'].split(','):refs.add(item.strip().split()[0])
 
 for name in pages:
-    html=(root/name).read_text()
+    html=page_source(name)
     if re.search(r'https?://(?:www\.)?kabitalive\.com',html,re.I):
         raise SystemExit('Old-site dependency in '+name)
     Links().feed(html)
@@ -113,7 +119,11 @@ discoverable={}
 discovery_enabled=args.discoverable or args.release
 discovery_policy=json.loads((root/'data/discovery.json').read_text())
 for name in pages:
-    html=remove_retired_links(inject((root/name).read_text(),social[name]),load_retired_links(root))
+    if name in utility_pages:
+        # Preserve noindex, Pagefind exclusion and script-hashed CSP.
+        (root/'.generated/pages'/name).write_text(utility_pages[name])
+        continue
+    html=remove_retired_links(inject(page_source(name),social[name]),load_retired_links(root))
     if name in {'translation-review.html','toshali-review.html','monthly-review.html','editor-workspace.html'}:
         html=html.replace('<html ', '<html data-pagefind-ignore="all" ',1)
     else:
@@ -131,9 +141,10 @@ runtime=json.loads((root/'runtime-config.json').read_text())
 base='/' + os.environ.get('SITE_BASE','').strip('/')
 if not base.endswith('/'):base+='/'
 runtime['analytics']['basePath']=base
-runtime['analytics']['catalogue']=analytics_catalogue(root,[p for p in pages if p not in {'translation-review.html','toshali-review.html','monthly-review.html','editor-workspace.html'}])
+runtime['analytics']['catalogue']=analytics_catalogue(root,[p for p in pages if p not in utility_pages and p not in {'translation-review.html','toshali-review.html','monthly-review.html','editor-workspace.html'}])
 runtime['analytics']['publicPages']={}
 for name in pages:
+    if name in utility_pages:continue
     if name in {'404.html','search.html','translation-review.html','toshali-review.html','monthly-review.html','editor-workspace.html'}:continue
     title=re.search(r'<title>(.*?)</title>',(root/name).read_text(),re.S)
     if title:

@@ -51,14 +51,24 @@ class ServiceAssets(unittest.TestCase):
   self.write('poem-final-check.html','PRIVATE-REVIEW');self.write('new-prototype.html','PRIVATE-REVIEW')
   self.write('kb/private.json','PRIVATE-FIXTURE');self.write('assets/services/unrelated.js','UNRELATED-FIXTURE')
   stub=types.ModuleType('social_metadata');stub.prepare=lambda root,pages:{n:{'asset':'assets/engagement.js'}for n in pages};stub.inject=lambda html,meta:html;stub.robots_text=lambda release,base:'Disallow: /';stub.public_base=lambda env:'https://example.invalid/'
+  # This fixture exercises service export, not component rendering (covered separately).
+  utility=types.ModuleType('component_library');utility.ROUTE='component-library.html';utility_calls=[]
+  utility_html='<html data-pagefind-ignore="all"><meta name="robots" content="noindex,nofollow"><title>Utility fixture</title></html>'
+  def render_utility(root):
+   utility_calls.append(root);return utility_html
+  utility.render_component_library=render_utility
+  previous_utility=sys.modules.get('component_library');sys.modules['component_library']=utility
   previous=sys.modules.get('social_metadata');sys.modules['social_metadata']=stub;argv=sys.argv;sys.argv=['build-public.py']
   try:
    source=(site/'build-public.py').read_text().replace('root=Path(__file__).resolve().parent','root=Path('+repr(str(self.root))+')')
    with contextlib.redirect_stdout(io.StringIO()):exec(compile(source,str(site/'build-public.py'),'exec'),{'__file__':str(site/'build-public.py'),'__name__':'__main__'})
   finally:
    sys.argv=argv
+   if previous_utility is None:sys.modules.pop('component_library',None)
+   else:sys.modules['component_library']=previous_utility
    if previous is None:sys.modules.pop('social_metadata',None)
    else:sys.modules['social_metadata']=previous
+  self.assertEqual(utility_calls,[self.root]);self.assertEqual((self.root/'.generated/pages/component-library.html').read_text(),utility_html)
   self.assertFalse((self.root/'.generated/pages/poem-final-check.html').exists());self.assertFalse((self.root/'.generated/pages/new-prototype.html').exists())
   graph=service_assets(self.root)
   for n in graph:self.assertEqual((self.root/n).read_bytes(),(self.root/'.public'/n).read_bytes())

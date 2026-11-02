@@ -51,6 +51,18 @@ class DesignContractTests(unittest.TestCase):
         (self.site / 'index.html').write_text(self.reader.replace('site-theme', ''))
         self.assertTrue(any('Missing shared theme class' in e for e in audit(self.site)['errors']))
 
+    def test_component_reference_has_explicit_safe_shell_contract(self):
+        (self.site/'assets/author-profile.js').touch()
+        reference = self.reader.replace('site-theme', 'site-theme lib-page').replace('assets/appearance.js', 'assets/author-profile.js')
+        reference += '<meta name="robots" content="noindex,nofollow"><html data-pagefind-ignore="all"><meta http-equiv="Content-Security-Policy" content="connect-src \'none\'; form-action \'none\'">'
+        reference += ''.join(f'<button data-mode="{mode}"></button>' for mode in ['light','dark','system'])
+        path = self.site/'component-library.html'; path.write_text(reference)
+        self.assertEqual(audit(self.site)['result'], 'PASS')
+        for original, replacement, expected in [('noindex,nofollow','index,follow','noindex'), ('connect-src', 'other-src', 'simulation boundary'), ('data-mode="dark"', 'data-mode="other"', 'theme controls')]:
+            with self.subTest(expected=expected):
+                path.write_text(reference.replace(original,replacement))
+                self.assertTrue(any(expected in e for e in audit(self.site)['errors']))
+
 
 if __name__ == '__main__':
     unittest.main()
