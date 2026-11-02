@@ -1,0 +1,47 @@
+{
+  "status": "pass_with_limitations",
+  "reviewer": "Drishti /root/drishti_original_only_review",
+  "independent": true,
+  "recorded_at": "2026-11-02T10:43:51.903110+00:00",
+  "scope": "Exact five-file homepage single-original feature and promotional-section cleanup integrated onto latest main.",
+  "approval": "User explicitly said Yes, publish, as reported by root; reviewer did not publish.",
+  "base_commit": "d7cf34a967bb303e09985c0acc6fb9d3b5f6a86c",
+  "checks": [
+    {
+      "name": "Published baseline parity",
+      "result": "PASS",
+      "detail": "All five source before snapshots match HEAD exactly; no merge/conflict changes required."
+    },
+    {
+      "name": "Reviewed candidate parity",
+      "result": "PASS",
+      "detail": "All five release source SHA256 hashes match prior separately reviewed candidate."
+    },
+    {
+      "name": "Focused release checkout tests",
+      "result": "PASS",
+      "tests": 7,
+      "command": "Node24 --test tests/home-featured.test.mjs"
+    },
+    {
+      "name": "Source/content/browser evidence reuse",
+      "result": "PASS",
+      "detail": "Identical source hashes permit reuse of prior18candidate exact-markup comparison, one fallback/no selector final-homepage checks and root browser evidence. See review.json/browser.json."
+    }
+  ],
+  "findings": [],
+  "reviewed_source_sha256": {
+    "ink_voice.py": "3dc70b44198ec68355c6deab0f4313ba1c8e1b4cc215930c76c9ea244593f4d0",
+    "home_features.py": "6869369381404e0dde8f1fead9cd8da68ede30888d6775a25494c53cb5dde542",
+    "assets/home-featured.js": "879aadbe227d02c7910864d604d66438db3d3c169480d966206d3ece52a051fd",
+    "tests/home-featured.test.mjs": "f346d30ec5c16e5412898c86ef70b5fb54b43f24c5431dee92342146b52ba991",
+    "article_links.py": "372c16e876067a9a954b2865d135a4a38ffd846fab154e4d0ce195c7c2b9e9cf"
+  },
+  "release_patch_sha256": "96e4e2ff05b14a406ca2cd64b4aef21e7baa84d0c29b235aa6c8fc48d797a51f",
+  "limitations": [
+    "Release checkout full build/test execution remains with root and was running at this source-integration review.",
+    "No new physical-device, screen-reader or cross-browser certification.",
+    "Reviewer has not published or approved on behalf of the human owner."
+  ],
+  "next_action": "Root complete release build/checks, commit exact approved scope, use protected manual publication and verify live homepage."
+}

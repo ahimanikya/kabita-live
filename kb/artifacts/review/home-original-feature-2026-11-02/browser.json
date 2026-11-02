@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "reviewer": "Disha /root self-review",
+  "checks": {
+    "desktop": "One submitted poem852; source label, credit, excerpt/link; zero language buttons and no essay promotion",
+    "reload": "Next visit switched852to835; still exactly one poem",
+    "phone": "390px viewport/390px document; no horizontal overflow; original Odia excerpt/credit visible",
+    "screenshots": [
+      "desktop.png",
+      "phone.png"
+    ]
+  },
+  "limitations": [
+    "One browser; no physical-device or screen-reader-speech testing."
+  ]
+}

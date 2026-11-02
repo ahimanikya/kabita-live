@@ -1,0 +1,31 @@
+{
+  "status": "approved_release_in_progress",
+  "request": "Also, fix the home page where we are translating into three language",
+  "authorization": "KBL-DEC-131",
+  "finding": "Existing homepage buttons select distinct submitted poems rather than translations, but resemble translation controls.",
+  "scope": "Remove homepage language switcher; feature one unchanged submitted poem per visit with title, credit, language and full-work link; retain all three-language source pool, current edition cover and stable session reading. Remove the homepage language-essay promotion; retain the essay itself and its Our Story link.",
+  "publication_authorized": true,
+  "workers": [
+    "/root/samanta_original_only",
+    "/root/drishti_original_only_review"
+  ],
+  "guidance": "Reuse previously retrieved Modern Web Guidance accessibility: match semantics to actual behavior; remove unused interactive controls.",
+  "executor": "Disha /root",
+  "worker_note": "Samanta interrupted before source changes; no implementation credited. Drishti performs separate review.",
+  "scope_artifact": "artifacts/review/home-original-feature-2026-11-02/release-scope.json",
+  "checks": {
+    "build": "PASS",
+    "node_tests": 274,
+    "python_tests": 74,
+    "source_candidates_preserved": 18,
+    "separate_review": "PASS",
+    "browser": "PASSdesktop390pxphone"
+  },
+  "review": "artifacts/review/home-original-feature-2026-11-02/review.json",
+  "publication_approval": {
+    "quote": "Yes, publish",
+    "decision": "KBL-DEC-132",
+    "recorded_at": "2026-11-02T10:43:34.888253+00:00"
+  },
+  "release_base": "d7cf34a967bb303e09985c0acc6fb9d3b5f6a86c"
+}

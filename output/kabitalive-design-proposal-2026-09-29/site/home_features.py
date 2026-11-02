@@ -43,7 +43,7 @@ def render_home_features(root, issue, source_poems, profile_routes, sample_route
               f'<div class="card-identity">{picture}<div class="card-identity-copy"><h3 class="{lang}" lang="{lang}"><a href="{route}">{escape(unescape(p["title"]))}</a></h3><a class="byline" href="{profile}">{escape(author)}</a></div></div>'
               f'<p class="excerpt {lang}" lang="{lang}">{escape(excerpt)}</p><a class="text-link" href="{route}">Read the poem</a></article>')
         groups[lang].append((ident,card))
-    fallback=''.join(items[0][1] for items in groups.values() if items)
+    fallback=next((items[0][1] for items in groups.values() if items),'')
     templates=''.join(f'<template data-featured-language="{lang}" data-poem-id="{ident}" data-pagefind-ignore>{card}</template>' for lang,items in groups.items() for ident,card in items)
     return (f'<div class="three" id="daily-featured-poems" data-rotation="visit" data-edition="{issue["number"]}">{fallback}</div>'
-            f'<div hidden id="featured-poem-pool" data-pagefind-ignore>{templates}</div><script type="module" src="assets/home-featured.js?v=visit-20261019"></script>')
+            f'<div hidden id="featured-poem-pool" data-pagefind-ignore>{templates}</div><script type="module" src="assets/home-featured.js?v=single-original-20261102"></script>')

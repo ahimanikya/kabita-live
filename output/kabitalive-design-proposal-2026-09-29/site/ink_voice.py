@@ -41,11 +41,7 @@ def redesign_home(text, edition, cover_markup):
            '<p class="ink-home-deck">A monthly journal of poetry.</p>' + action + issue + '</div>'
            '<section id="featured-poems" class="ink-feature" aria-labelledby="ink-feature-title">'
            '<h2 id="ink-feature-title">A poem to begin with</h2>'
-           '<div class="ink-language" role="group" aria-label="Featured original language" hidden>'
-           '<button type="button" data-feature-language="en" aria-pressed="false">English</button>'
-           '<button type="button" data-feature-language="hi" lang="hi" aria-pressed="false">हिन्दी</button>'
-           '<button type="button" data-feature-language="or" lang="or" aria-pressed="false">ଓଡ଼ିଆ</button>'
-           '</div>' + candidates + '</section></section>' + current)
+           '' + candidates + '</section></section>' + current)
     return text.replace(opening.group(), new, 1).replace(featured.group(), '', 1)
 
 

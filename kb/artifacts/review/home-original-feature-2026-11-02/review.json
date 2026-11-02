@@ -1,0 +1,59 @@
+{
+  "status": "pass_with_limitations",
+  "reviewer": "Drishti /root/drishti_original_only_review",
+  "independent": true,
+  "implementer": "Disha /root (Samanta interrupted before edits)",
+  "recorded_at": "2026-11-02T10:40:48.485989+00:00",
+  "scope": "Single submitted-original homepage feature without language-switch controls or homepage translation-essay promotion;18candidate originals,current cover,essay and Our Story link retained. Local only.",
+  "checks": [
+    {
+      "name": "Focused home-feature tests",
+      "result": "PASS",
+      "count": 7,
+      "command": "node --test tests/home-featured.test.mjs",
+      "detail": "Single selection, revisit progression, all candidate coverage, missing/single-language pools, storage failures, prior three-item session migration."
+    },
+    {
+      "name": "Exact source template preservation",
+      "result": "PASS",
+      "candidates": 18,
+      "detail": "Executed saved before and current home_features renderers with identical publication inputs. All18 template card markups byte-identical, preserving title/excerpt/credit/lang/links and source candidate pool. Only no-JS fallback cardinality and script cache URL change."
+    },
+    {
+      "name": "Generated and final homepage checks",
+      "result": "PASS",
+      "detail": "No data-feature-language buttons or Featured original language group; exactly one static fallback and18inert candidate templates. Script references single-original-20261102 and exported JS exactly matches reviewed source. Original-only HTML gate passes."
+    },
+    {
+      "name": "Current edition and design preservation",
+      "result": "PASS",
+      "detail": "Ink Voice diff only removes feature picker markup. Current issue49 cover/rendering paths untouched. Existing non-enhanced feature CSS retains visible static language label and readable single card."
+    },
+    {
+      "name": "Build",
+      "result": "PASS",
+      "detail": "Observed completed Pagefind/disclosure log,1842files checked with no disclosure violations."
+    },
+    {
+      "name": "Homepage essay promotion removal",
+      "result": "PASS",
+      "detail": "Fifth source diff removes homepage promotional section only. Final homepage has no home-language-essay. Existing essay route and permanent Our Story link remain. Rechecked one static original,18inert templates,no language controls and original-only HTML boundary after final build."
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    "Visual/interactive browser evidence belongs to root; this separate reviewer checked source and generated export.",
+    "No screen-reader, physical-device or cross-browser certification.",
+    "No new publication authorization inferred or publication performed."
+  ],
+  "reviewed_source_sha256": {
+    "ink_voice.py": "3dc70b44198ec68355c6deab0f4313ba1c8e1b4cc215930c76c9ea244593f4d0",
+    "home_features.py": "6869369381404e0dde8f1fead9cd8da68ede30888d6775a25494c53cb5dde542",
+    "assets/home-featured.js": "879aadbe227d02c7910864d604d66438db3d3c169480d966206d3ece52a051fd",
+    "tests/home-featured.test.mjs": "f346d30ec5c16e5412898c86ef70b5fb54b43f24c5431dee92342146b52ba991",
+    "article_links.py": "372c16e876067a9a954b2865d135a4a38ffd846fab154e4d0ce195c7c2b9e9cf"
+  },
+  "exported_homepage_sha256": "2660cd60d51b41605f2f12d6f61d60d1986c801d6d2965b3eeb4dd6970c40f2f",
+  "exported_script_sha256": "879aadbe227d02c7910864d604d66438db3d3c169480d966206d3ece52a051fd",
+  "next_action": "Root records browser checks and presents concrete release for owner approval."
+}

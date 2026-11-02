@@ -355,3 +355,6 @@ Render only the submitted/source-language version of each work and editorial. Re
 
 Update current-service explanations without removing translator biographies, credits or general literary discussion. Retain accessible reading, bookmarks, sharing, themes, service consent and stable poem/edition routes. This is local preparation authority; every website publication still needs approval of its exact release. [Scope and checks](../records/remove-site-translations-2026-11-02.json).
 
+## Homepage submitted-poem feature — 2 November 2026
+
+The homepage no longer offers three language-switch buttons beside its featured poem. Show one submitted poem excerpt per visit, with its exact title, credit, source-language label and full-work link. The candidate pool may contain Odia, Hindi and English submitted works; selection must not create or request translations. Keep the selection still while reading and provide one source-backed fallback without JavaScript. Preserve the current-edition complete cover and other homepage sections. Remove the homepage promotion for the language essay; preserve the essay and its Our Story link. This supersedes the earlier homepage button and language-essay promotional presentation; see [scope](../records/home-original-feature-2026-11-02.json).
