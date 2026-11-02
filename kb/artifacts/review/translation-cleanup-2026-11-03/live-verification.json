@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-11-02T19:32:46.158769+00:00",
+  "commit": "b4380efbc19f9cd0d6a3287e6b2a5ed56bb55553",
+  "checks": [
+    {
+      "path": "assets/editor-preparation.mjs",
+      "sha256": "66734d376d53b8cd4e39e38829fa46c410b32b96b95cf900b64ce4cf9cb67a86",
+      "result": "matches approved source"
+    },
+    {
+      "path": "assets/editor-preparation-ui.mjs",
+      "sha256": "2d5ed4ca34dad97c5887ac806e60fcea09dd52a2b51c153923501813a7a8f7e8",
+      "result": "matches approved source"
+    },
+    {
+      "path": "assets/editor-workspace-model.mjs",
+      "sha256": "739e6796e566582d1a459cb598c2daa53eb98d25b5f6d22d3f56f4ab90ff5c58",
+      "result": "matches approved source"
+    },
+    {
+      "path": "assets/editor-workspace.mjs",
+      "sha256": "da267b1edbc48025dd0d6318dc0c23efc54489feaf990cf828a84a94a5ce2527",
+      "result": "matches approved source"
+    },
+    {
+      "path": "assets/reader-language.mjs",
+      "sha256": "d7c82f487aa560b49d91fb4c4b46b71add9031ac0865530f28c571beea913e2e",
+      "result": "matches approved source"
+    },
+    {
+      "path": "assets/poem-experience.js",
+      "sha256": "79037796e02131fd097c797621e4cad038ffab4ff94b12b839487b8e38b5b2ec",
+      "result": "matches approved source"
+    },
+    {
+      "path": "translation-review.html",
+      "status": 404
+    },
+    {
+      "path": "data/poem-translations.json",
+      "status": 404
+    },
+    {
+      "path": "data/translation-review.json",
+      "status": 404
+    },
+    {
+      "path": "editor-workspace.html",
+      "result": "PASS"
+    },
+    {
+      "path": "poem-78.html",
+      "result": "PASS"
+    },
+    {
+      "path": "issue-49.html",
+      "result": "PASS"
+    }
+  ]
+}

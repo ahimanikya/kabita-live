@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "status": "approved-for-publication",
+  "status": "published-and-live-verified",
   "authorization": {
     "user": "Ahimanikya Satapathy",
     "instruction": "let’s go with your reco",
@@ -29,17 +29,22 @@
     "browser": "Synthetic fixture using actual Studio components: edit artwork reason, save/reload, legacy variant preserved, no poem translation gate; submitted proof and credits shown; editorial translation controls present",
     "review": "Same-assistant self-review; no independent review claimed",
     "bundle": "Cleanup record valid; three pre-existing missing links in roles/KBL-PL-Ahimanikya-JD.md remain: publication approval record, role index, human job descriptions record. No unrelated role records changed.",
-    "handoff_method": "Fresh local portable package; macOS copy-on-write clone used after full-copy attempt exhausted free disk; incomplete full-copy output removed, source files retained."
+    "handoff_method": "Fresh local portable package; macOS copy-on-write clone used after full-copy attempt exhausted free disk; incomplete full-copy output removed, source files retained.",
+    "release": "Discovery build, app tests, disclosure checks, Firestore rules, anthology/photo rules and protected deployment PASS on GitHub.",
+    "portable_handoff": "Synchronized 21843 entries; storage check PASS. Final receipt sync follows."
   },
   "evidence": [
     "artifacts/review/translation-cleanup-2026-11-03/",
     "history/retired-poem-translations-2026-11-03/manifest.json"
   ],
-  "publication": "Owner explicitly approved this release; publication in progress.",
+  "publication": "Published through the existing protected manual discovery workflow after explicit owner approval.",
   "publication_approval": {
     "quote": "publish",
     "recorded_at": "2026-11-02T19:22:45.115875+00:00",
     "scope": "Verified translation cleanup",
     "mode": "discovery"
-  }
+  },
+  "commit": "b4380efbc19f9cd0d6a3287e6b2a5ed56bb55553",
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/41509650308",
+  "live_verification": "artifacts/review/translation-cleanup-2026-11-03/live-verification.json"
 }

@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `66c16440c60cb9b5590b87dc73bb655eefcbb8bd09ae5bbbce032dfb53fe3d4a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `469f7e6a996067666999f84683b7c469d0af7eb2d7707f55eb48c9d7adf5586f`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -317,7 +317,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-931 | 2026-10-19T06:46:32.954855+00:00 | Applied white-on-mulberry Original badges and corrected phone alignment: badges fit their controls, poem toolbar follows text gutters, and action icons wrap at the narrowest widths without reducing targets. 18 regular-poem and six quiet-reader responsive cases pass in both themes; build and 1,317-route export checks pass. No publication. | — |
 | KBL-EVT-932 | 2026-10-20T00:12:13.474318+00:00 | User authorized publication of the completed Ink & Voice redesign. Prepared isolated latest-main release; scoped source transfer preserves all poetry and current service settings. Build and release checks in progress. | — |
 | KBL-EVT-933 | 2026-10-20T00:26:25.830765+00:00 | Published Ink & Voice from latest main at21e9ba1e0 through manual discovery workflow39346758248. Hosted build,211local tests and hosted Firestore rule checks passed. Live checked28URLs/assets, desktop and320/360/390px reading, both themes, Original badges, cover navigation, rotation and comments layout. Source content, artwork, service configuration, consent, DNS and editorial gates preserved. No native-device or independent-review claim. | — |
 | KBL-EVT-934 | 2026-10-20T01:01:33.749739+00:00 | User approved uploading the held publication verification records after the automatic-review notice. Checked the scoped logs for exposed credentials and the screenshots for private submissions; prepared a documentation-only repository update. Website publication remains successful; no new deployment. | — |
@@ -327,6 +326,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-1037 | 2026-11-01T00:50:43.909176+00:00 | Reaffirmed Ahimanikya as Creative Editor, linked existing local portrait/profile from editorial team, homepage and OurStory; updated public role label and canonical records. Local preparation only; no publication or access change. | — |
 | KBL-EVT-1038 | 2026-11-02T19:13:43.812878+00:00 | Implemented owner-approved translation cleanup locally: removed poem translation preparation, gates, proofs and exports; preserved editorial translations, submitted credits and private legacy drafts; archived retired data and tools with hashes. Full build and 361 automated tests pass. No publication. | — |
 | KBL-EVT-1039 | 2026-11-02T19:23:50.994876+00:00 | Ahimanikya explicitly instructed “publish” for the verified translation cleanup. Preparing existing discovery-mode release from unchanged latest remote base, retaining protected approval gate and private December draft. | — |
+| KBL-EVT-1040 | 2026-11-02T19:33:06.689114+00:00 | Published approved translation cleanup b4380efbc through manual discovery run41509650308. All release checks and deployment passed. Live checks confirm six exact source hashes, three retired routes404, and working Studio/poem/edition pages. Editorial support, archived drafts and submitted credits preserved. | — |
 
 ## Deferred extensions
 
