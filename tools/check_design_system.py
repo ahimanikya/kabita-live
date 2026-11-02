@@ -14,17 +14,22 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
+# Approved private editor shell (KBL-DEC-112), not the public reading shell.
+# Named routes retain an explicit contract; new pages never inherit an exemption.
+STUDIO_PAGES = {'editor-workspace.html', 'editor-management.html', 'author-proof.html'}
 
 
 class Page(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.links, self.scripts, self.headers, self.body = [], [], [], {}
+        self.links, self.scripts, self.headers, self.body, self.meta = [], [], [], {}, {}
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if tag == 'link':
             self.links.append(attrs)
+        elif tag == 'meta' and attrs.get('name'):
+            self.meta[attrs['name']] = attrs.get('content', '')
         elif tag == 'script' and attrs.get('src'):
             self.scripts.append(attrs['src'])
         elif tag == 'body':
@@ -39,27 +44,39 @@ def audit(site):
     if not (site / logo).exists():
         return {'result': 'FAIL', 'errors': ['Current logo missing'], 'pages': 0}
     logo_hash = sha256((site / logo).read_bytes()).hexdigest()[:12]
-    for path in sorted(site.glob('*.html')):
+    pages = sorted(site.glob('*.html'))
+    if not pages:
+        errors.append('No exported HTML routes found')
+    for path in pages:
         text = path.read_text()
         page = Page()
         page.feed(text)
         css = [x['href'] for x in page.links if x.get('rel') == 'stylesheet']
         css_paths = [urlsplit(x).path for x in css]
         issues = []
-        if 'site-theme' not in page.body.get('class', '').split():
-            issues.append('Missing shared theme class')
-        if css_paths.count('assets/ink-voice.css') != 1:
-            issues.append('Expected exactly one Ink & Voice stylesheet')
+        studio = path.name in STUDIO_PAGES
+        if studio:
+            if css_paths.count('assets/editor-workspace.css') != 1:
+                issues.append('Expected exactly one approved Studio stylesheet')
+            if 'noindex' not in page.meta.get('robots', '').lower().replace(',', ' ').split():
+                issues.append('Private Studio route missing noindex')
+            if path.name != 'editor-workspace.html' and css_paths.count('assets/editorial-desk.css') != 1:
+                issues.append('Expected exactly one editorial desk stylesheet')
+        else:
+            if 'site-theme' not in page.body.get('class', '').split():
+                issues.append('Missing shared theme class')
+            if css_paths.count('assets/ink-voice.css') != 1:
+                issues.append('Expected exactly one Ink & Voice stylesheet')
         if len(css_paths) != len(set(css_paths)):
             issues.append('Duplicate stylesheet inclusion')
         icons = [x for x in page.links if x.get('rel') == 'icon']
-        if len(icons) != 1 or icons[0].get('href') != f'{logo}?v={logo_hash}' or icons[0].get('type') != 'image/svg+xml':
+        if len(icons) != 1 or icons[0].get('href') != f'{logo}?v={logo_hash}' or icons[0].get('type') != 'image/svg+xml' or icons[0].get('sizes') != 'any':
             issues.append('Favicon differs from current versioned logo')
-        if 'assets/appearance.js' not in page.scripts:
+        if not studio and 'assets/appearance.js' not in page.scripts:
             issues.append('Shared saved/system theme support missing')
-        if path.name != 'search.html' and len(page.headers) != 1:
+        if not studio and path.name != 'search.html' and len(page.headers) != 1:
             issues.append('Expected one shared header')
-        if path.name != 'search.html' and 'class="brand-symbol"' not in text:
+        if not studio and path.name != 'search.html' and 'class="brand-symbol"' not in text:
             issues.append('Current theme-aware masthead symbol missing')
         for asset in css_paths + [urlsplit(x).path for x in page.scripts]:
             if asset and not urlsplit(asset).scheme and not (site / asset).is_file():
@@ -67,7 +84,7 @@ def audit(site):
         if 'assets/kabita-live-symbol.svg' in text:
             issues.append('Historical logo still referenced by page markup')
         styles.update(css_paths)
-        family = 'poem' if 'poem-page' in page.body.get('class', '') else 'profile' if path.name.startswith('poet-') else 'edition' if path.name.startswith('issue-') else 'other'
+        family = 'studio' if studio else 'poem' if 'poem-page' in page.body.get('class', '') else 'profile' if path.name.startswith('poet-') else 'edition' if path.name.startswith('issue-') else 'other'
         families[family] += 1
         routes.append({'route': path.name, 'family': family, 'styles': css_paths, 'issues': issues})
         errors.extend(f'{path.name}: {issue}' for issue in issues)

@@ -4,3 +4,33 @@
 .author-clear .author-portrait,.author-clear .author-initials{box-sizing:border-box;padding:12px;background:var(--paper);border:1px solid var(--line);border-bottom:3px solid var(--rust);box-shadow:5px 6px 0 color-mix(in srgb,var(--rust) 7%,transparent)}
 .author-clear .author-portrait img{display:block}
 @media(max-width:600px){.author-clear .author-portrait,.author-clear .author-initials{padding:8px;box-shadow:3px 4px 0 color-mix(in srgb,var(--rust) 7%,transparent)}}
+
+/* Approved phone profile refinement; full source remains in the document. */
+.profile-polish .author-profile-opening>div:first-child{min-width:0}
+.profile-polish .author-profile-opening h1,.profile-polish .author-native,.profile-polish .author-quote{overflow-wrap:anywhere}
+.profile-polish .profile-more>summary{display:none;min-height:44px;padding:8px 0;font:16px/1.7 var(--ui);color:var(--rust);text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+.profile-polish .profile-more>summary:focus-visible{outline:3px solid var(--rust);outline-offset:4px}
+.profile-polish .profile-more .more-open,.profile-polish .profile-more[open] .more-closed{display:none}
+.profile-polish .profile-more[open] .more-open{display:inline}
+.profile-polish .profile-more-content{padding-top:0}
+.profile-polish .profile-mobile-meta{display:none}
+@media(max-width:760px){
+ .profile-polish .profile-more.is-enhanced>summary{display:list-item}
+ .profile-polish .profile-more.is-enhanced .profile-more-content{padding-top:12px}
+ .profile-polish .editor-profile-opening{margin-top:22px;margin-bottom:24px;gap:18px}
+ .profile-polish .author-clear-reading.has-books{grid-template-columns:minmax(0,1fr);gap:20px}
+ .profile-polish .editor-book-shelf{padding-top:18px;margin-bottom:8px}
+ .profile-polish .editor-book-shelf ul{margin:12px 0 0}
+ .profile-polish .editor-book-shelf li{padding:10px 0}
+ .profile-polish .writer-work>.section-head{margin-bottom:16px}
+ .profile-polish .contribution-table tr{grid-template-columns:minmax(0,1fr);gap:0;padding:14px 18px}
+ .profile-polish .contribution-table td[data-label]{display:none}
+ .profile-polish .contribution-table td[data-label]::before{content:none}
+ .profile-polish .contribution-table td:first-child{grid-column:1}
+ .profile-polish .profile-mobile-meta{display:block;font:14px/1.6 var(--ui);color:var(--muted)}
+ .profile-polish .profile-mobile-edition{display:inline-flex;align-items:center;min-height:44px;padding:8px 0;max-width:100%;text-decoration:underline;text-underline-offset:4px}
+ .profile-polish .contribution-table th:not(:first-child){display:none}
+}
+@media print{.profile-polish .profile-more>summary{display:none!important}.profile-polish .profile-more-content{padding-top:0!important}}
+/* Rejoining a split paragraph sequence keeps the existing desktop paragraph gap. */
+@media(min-width:761px){.profile-polish .editor-biography .profile-intro-continued{margin-bottom:20px}}

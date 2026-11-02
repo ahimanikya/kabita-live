@@ -44,20 +44,47 @@ def author_sidebar(writer,enriched):
         return '<aside class="editor-book-shelf" id="selected-books"><h2>A few places to begin.</h2><p class="small muted">Selected books</p><ul>'+''.join(f'<li><a href="{e(b["url"])}" target="_blank" rel="noopener noreferrer">{e(b["title"])} ↗</a><span>{e(b["detail"])}</span></li>' for b in books)+'</ul></aside>'
     return ''
 
+def author_biography_sections(sections):
+    """Keep source paragraphs whole; only long, multi-paragraph lives may fold."""
+    paragraphs=[p for section in sections for p in section['paragraphs']]
+    fold=len(paragraphs)>1 and sum(len(p.split()) for p in paragraphs)>110
+    def paragraph(text,lang):
+        return f'<p lang="{lang}">{e(text)}</p>'
+    opening=[];remaining=[];first_paragraph=True
+    for section in sections:
+        heading=f'<h2>{e(section["heading"])}</h2>'
+        lang=section.get('language','en')
+        languages=section.get('paragraph_languages',[lang]*len(section['paragraphs']))
+        parts=[paragraph(p,language) for p,language in zip(section['paragraphs'],languages)]
+        if fold and first_paragraph and parts:
+            continuation=' class="profile-intro-continued"' if parts[1:] else ''
+            opening.append('<section'+continuation+'>'+heading+parts[0]+'</section>')
+            if parts[1:]:remaining.append('<section>'+''.join(parts[1:])+'</section>')
+            first_paragraph=False
+        elif fold and not first_paragraph:
+            remaining.append('<section>'+heading+''.join(parts)+'</section>')
+        else:
+            opening.append('<section>'+heading+''.join(parts)+'</section>')
+    if fold:
+        opening.append('<details class="profile-more" open><summary><span class="more-closed">Read more about the poet</span><span class="more-open">Show less</span></summary><div class="profile-more-content">'+''.join(remaining)+'</div></details>')
+    return ''.join(opening)
+
 def render_author(writer):
     ident=writer['id'];extra=writer_enrichment.get(str(ident),{});works=writer['works']
     # Preserve every historical URL while canonical links use the grouped identity.
     route=f'poet-{ident}.html' if ident in writer_identity_aliases else profile_routes.get(ident,f'poet-{ident}.html')
     bio=writer['biography'];sections=extra.get('sections',[])
-    body='<link rel="stylesheet" href="assets/author-artistic.css?v=1"><div class="author-clear">'+crumb('<a href="poets.html">Poets</a> / '+e(writer['name'].split('/')[0].strip()))
+    body='<link rel="stylesheet" href="assets/author-artistic.css?v=20261102"><script defer src="assets/author-profile.js?v=20261102"></script><div class="author-clear profile-polish">'+crumb('<a href="poets.html">Poets</a> / '+e(writer['name'].split('/')[0].strip()))
     body+='<section class="editor-profile-opening author-profile-opening"><div>'+author_identity(writer['name'])+author_quote(writer)+'</div>'+author_portrait(writer)+'</section>'
     biography='<article id="biography" class="prose editor-biography">'
     if sections:
-        for s in sections:
-            lang=s.get('language','en')
-            biography+=f'<section><h2>{e(s["heading"])}</h2>'+''.join(f'<p lang="{lang}">{e(p)}</p>' for p in s['paragraphs'])+'</section>'
+        biography+=author_biography_sections(sections)
     elif bio:
-        biography+='<section><h2>Life and writing.</h2>'+''.join(f'<p lang="{text_language(p)}">{e(p.strip())}</p>' for p in bio.split('\n') if p.strip())+'</section>'
+        # Preserve paragraph-specific script labels in unenriched biographies.
+        paragraphs=[p for p in bio.split('\n') if p.strip()]
+        source_sections=[{'heading':'Life and writing.','paragraphs':[p.strip() for p in paragraphs],
+                          'paragraph_languages':[text_language(p) for p in paragraphs]}]
+        biography+=author_biography_sections(source_sections)
     else:
         biography+='<section><h2>A voice in these pages.</h2>'
         if works:
@@ -68,7 +95,7 @@ def render_author(writer):
         biography+='</section>'
     books=author_sidebar(writer,extra)
     biography=biography.replace('<h2>','<h2>'+author_artistic_mark('footer-send-poem'),1)
-    contributions=writer_work(writer).replace('<h2>','<h2>'+author_artistic_mark('footer-story'),1)
+    contributions=writer_work(writer,compact_profile=True).replace('<h2>','<h2>'+author_artistic_mark('footer-story'),1)
     body+='<div class="author-reading-layout author-clear-reading'+(' has-books' if books else '')+'">'+biography+'</article>'+books+'</div>'+contributions+'</div>'
     page(route,writer['name'],body,active='Poets')
     if ident in writer_identity_aliases:

@@ -70,7 +70,7 @@ for ident, p in catalogue.items():
         '<p class="content-status">The complete poem is not yet available here.</p>'+
         btn('Explore the collection',issue_route,False)+'</article>',active='Poems')
 
-def writer_work(writer):
+def writer_work(writer,compact_profile=False):
     if not writer['works']:
         return '<section class="writer-work" id="contributions"><h2>Poems in Kabita Live</h2><p>No poems are currently linked to this profile.</p><a class="text-link" href="poems.html">Explore the poetry collection →</a></section>'
     rows=''
@@ -79,8 +79,13 @@ def writer_work(writer):
         date=' '.join(str(x) for x in [w.get('month'),w.get('year')] if x) or 'Date not recorded'
         edition=(f'<a class="contribution-issue" href="issue-{w["issue"]}.html">Issue {w["issue"]}</a>'
                  if w['issue'] else '<span>Not recorded</span>')
+        mobile=f'<span class="contribution-mobile-date">{e(date)}</span>'
+        if compact_profile:
+            mobile_edition=(f'<a href="issue-{w["issue"]}.html" class="profile-mobile-edition">Issue {w["issue"]} · {e(date)}</a>'
+                            if w['issue'] else f'<span class="profile-mobile-edition">Edition not recorded · {e(date)}</span>')
+            mobile=f'<span class="profile-mobile-meta">{mobile_edition}</span>'
         rows+=(f'<tr data-contribution="{e(w["title"])}"><td><a class="contribution-title" lang="{lang}" href="{route}">{e(w["title"])}</a>'
-               f'<span class="contribution-mobile-date">{e(date)}</span></td><td data-label="Edition">{edition}</td><td data-label="Published">{e(date)}</td></tr>')
+               f'{mobile}</td><td data-label="Edition">{edition}</td><td data-label="Published">{e(date)}</td></tr>')
     count=len(writer['works'])
     heading='Poems in Kabita Live'
     return ('<section class="writer-work" id="contributions"><div class="section-head">'+

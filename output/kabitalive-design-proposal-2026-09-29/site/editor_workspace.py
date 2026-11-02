@@ -1,10 +1,12 @@
 import json
+from ink_voice import favicon_link
 from writer_names import load_writer_profiles, writer_aliases
 
 def render_editor_workspace(root):
     from editorial_pages import render_editorial_pages
     render_editorial_pages(root)
-    (root/"editor-workspace.html").write_text((root/"data/editor-workspace.html.template").read_text())
+    template = (root/"data/editor-workspace.html.template").read_text()
+    (root/"editor-workspace.html").write_text(template.replace("</head>", favicon_link(root) + "</head>", 1))
     photos={p['id']:p.get('image','') for p in json.loads((root/'assets/toshali-poets.json').read_text())}
     authors=[{"id":"writer-"+str(p["id"]),"name":p["name"],"bio":p.get("biography", "")[:5000],"photo":photos.get(str(p["id"]),"")} for p in load_writer_profiles(root) if p["id"] not in writer_aliases(root)]
     authors.sort(key=lambda p:p["name"].casefold())
