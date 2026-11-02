@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "status": "approved; publication in progress",
+  "status": "published and live verified",
   "fixes": [
     "Restore poet-directory query, expanded result count and scroll on Back",
     "Normalize poem full-text search data once rather than each keystroke"
@@ -27,5 +27,38 @@
     "artifacts/review/reader-quality-2026-11-02/poet-back-restored.png"
   ],
   "publication_authorized": true,
-  "approval": "Approve these reader fixes"
+  "approval": "Approve these reader fixes",
+  "release": {
+    "run": "41384981725",
+    "commit": "719bf1ff518857dcc85c6f1840d366e49e65969d",
+    "live": {
+      "app.js": {
+        "sha256": "39784e55b58c7e5603da4936eb02cdd06c8096939452849546de23b289302e16",
+        "matches": true
+      },
+      "poet-directory.js": {
+        "sha256": "abc8374ac3098b123d059a0a60a8cc2142e45e11625128f3a4501fc57c4e336a",
+        "matches": true
+      },
+      "cache_keys": true
+    },
+    "next_draft": {
+      "result": "existing_preserved",
+      "source": {
+        "issue": 49,
+        "month": "2026-11",
+        "run": "41384981725",
+        "commit": "719bf1ff518857dcc85c6f1840d366e49e65969d"
+      },
+      "draft": {
+        "issue": 50,
+        "month": "2026-12",
+        "status": "DRAFT",
+        "runtimeStage": "preparation"
+      },
+      "overwritten": false,
+      "published": false
+    }
+  },
+  "handoff": "Full portable sync blocked by unrelated divergent design-audit-profiles.html; preserved both copies."
 }

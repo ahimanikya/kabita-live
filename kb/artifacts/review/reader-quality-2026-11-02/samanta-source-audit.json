@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-02",
+  "worker": "/root/about_layout (Samanta)",
+  "scope": "Bounded local source/static reader website audit; no Studio, browser session, network action or publication",
+  "guidance": {"snapshot_check": "194 files PASS", "commit": "65e7edd67e77420eaf02c5df00fdc0521417d809", "guides": ["accessibility/accessibility.md"], "approach": "Existing native controls, Baseline history/pageshow; no new dependencies"},
+  "reused_evidence": ["kb/records/reader-ux-reconciliation-2026-11-02.json", "kb/artifacts/review/modern-web-audit-2026-10-24/keyboard-flows.json", "kb/artifacts/review/modern-web-audit-2026-10-24/performance-summary.json", "kb/artifacts/review/modern-web-audit-2026-10-24/axe-after.json", "kb/artifacts/review/modern-web-audit-2026-10-24/reader-axe.json"],
+  "findings": [
+    {"id": "RQ01", "severity": "medium", "status": "confirmed source-level defect; current browser reproduction pending", "page": "poets.html", "finding": "Poet search results do not reconcile browser-restored form values on Back. Pagination/show-more limit and scroll have no history-entry state.", "evidence": "Executed current poet-directory.js in VM: after simulated restored query Sasmita Rout and pageshow, progress remains Showing 12 of 24 and matching target at position 21 remains hidden. No pageshow handler exists.", "proposed_fix": "Save query, visible limit and scroll in current history entry; restore before render and on pageshow, preserve BFCache state and independent visits.", "proposed_files": ["projects/site/assets/poet-directory.js", "projects/site/poet_directory.py", "projects/site/tests/poet-directory-state.test.mjs"]},
+    {"id": "RQ02", "severity": "performance opportunity", "status": "measured payload and confirmed repeated work; interaction latency not measured", "page": "poems.html", "finding": "5.53 MB initial HTML contains 4.23 MB searchable full poem/translation text. Each search keystroke normalizes every row again.", "proposed_fix": "First cache normalized search strings once; preserve current whole-text matching. Treat splitting/lazy-loading the search index as separate measured architecture work, not an automatic fix.", "proposed_files": ["projects/site/assets/app.js", "projects/site/tests/reader-discovery-state.test.mjs"], "limits": "Local gzip estimate is not measured HTTP transfer. No claim of failed Core Web Vitals or field INP."}
+  ],
+  "local_payloads": [
+    {"page":"poems.html","html_bytes":5527667,"gzip_estimate":1407130,"search_attribute_bytes":4229638,"images":826,"images_without_dimensions":0},
+    {"page":"poets.html","html_bytes":370466,"gzip_estimate":60222,"search_attribute_bytes":19138,"images":434,"images_without_dimensions":0},
+    {"page":"index.html","html_bytes":49645,"gzip_estimate":10304,"images":24,"images_without_dimensions":0},
+    {"page":"about.html","html_bytes":282627,"gzip_estimate":54888,"images":5,"images_without_dimensions":0}
+  ],
+  "contrast": {"method":"WCAG relative-luminance calculation of current explicit Ink & Voice tokens; not computed rendered styles", "ratios":{"light_muted_on_paper":6.18,"light_muted_on_panel":5.0,"light_accent_on_paper":8.02,"dark_muted_on_paper":8.7,"dark_accent_on_paper":8.47},"result":"All sampled text pairs exceed 4.5:1. Pseudo-element/image backgrounds, disabled states and full interactive contrast not certified."},
+  "keyboard": {"current_source":"Poem language tabs implement ArrowLeft/Right/Home/End with roving tabindex. Existing native modal/menu handlers retain focus return. No new confirmed keyboard defect from bounded source inspection.","historical_evidence":"24 October menu reverse-Tab, Escape focus restoration, share Escape and quiet-reader language/exit checks passed on recorded browser.","limit":"Historical results are not rerun browser acceptance."},
+  "untested": ["Current live Chrome/Firefox/Safari keyboard and theme rendering", "Physical iPhone", "VoiceOver/NVDA", "Current reader zoom/reflow and image-background contrast", "Field Core Web Vitals and real-user latency"],
+  "site_changes": false,
+  "publication": false
+}
