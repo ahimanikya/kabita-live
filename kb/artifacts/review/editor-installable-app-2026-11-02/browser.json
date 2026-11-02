@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-02",
+  "executor": "Disha /root",
+  "browser": "Codex in-app Chromium browser",
+  "origin": "http://127.0.0.1:8771",
+  "checks": {
+    "manifest": "PASS; browser parsed standalone, correct resolved id/start/scope and icons; no errors",
+    "desktop": "PASS install disclosure readable",
+    "phone_320x740": "PASS page scrollWidth320,44px summary, no horizontal overflow",
+    "keyboard": "PASS Enter toggle; named install help region focused and End scrolls to final instructions (scrollTop116,clientHeight294,scrollHeight410)"
+  },
+  "screenshots": [
+    "desktop-install.png",
+    "phone-keyboard.png"
+  ],
+  "limitations": [
+    "Physical iOS/Android installation not tested",
+    "Native installed-window sign-in not tested; local runtime disables shared editing",
+    "Chromium installability diagnostic unsupported by in-app browser; no claim of native install completion",
+    "Firefox/Safari/assistive speech not tested"
+  ],
+  "manifest_evidence": "browser-manifest.json"
+}

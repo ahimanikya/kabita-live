@@ -1,0 +1,78 @@
+{
+  "task": "editor-installable-app-2026-11-02",
+  "actual_executor": "/root/samanta_editor_app",
+  "role": "Samanta",
+  "input_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "created_at": "2026-11-02T15:41:45.413628+00:00",
+  "changed_files": [
+    "projects/site/data/editor-workspace.html.template",
+    "projects/site/assets/editor-install.mjs",
+    "projects/site/assets/editor-install.css",
+    "projects/site/assets/editor-app.webmanifest",
+    "projects/site/assets/editor-app-192.png",
+    "projects/site/assets/editor-app-512.png",
+    "projects/site/assets/editor-app-180.png",
+    "projects/site/tools/prepare-editor-app-icons.mjs",
+    "projects/site/build-public.py",
+    "projects/site/tests/editor-install.test.mjs",
+    "projects/site/tests/test_editor_app.py"
+  ],
+  "sha256": {
+    "projects/site/data/editor-workspace.html.template": "b6e8dbb00e1c4ed7bbb63976e138ff5fdbd33feac225d41f953bda844d200b70",
+    "projects/site/assets/editor-install.mjs": "07a893b842d921ff1629844248374b0f417a74362564b89151c9811a828f1dbb",
+    "projects/site/assets/editor-install.css": "d444b2e9e84a3849a2734a8f9459d9c4aa2bf80f94df20cf274067fdc0afbb5e",
+    "projects/site/assets/editor-app.webmanifest": "d3bd83e14a267afafca79d320cf4d99f17c9b00e2844443b77d1438b9a52b9e6",
+    "projects/site/assets/editor-app-192.png": "4126ab9ff33903ddb8bbe6a9a602c959ac38256bd0b3d33d197a1dd0054497e8",
+    "projects/site/assets/editor-app-512.png": "444162d93af7d8f4daed5c804a3b5b31e869b78128abc27195c5541b0933e623",
+    "projects/site/assets/editor-app-180.png": "451ef622be9c73f88d6a0e3c6d6b365569755d8748151f4f1121ad980dd29782",
+    "projects/site/tools/prepare-editor-app-icons.mjs": "469a99409e495ee82d8d2d4780dbcd93f0ce63b1c7dfb283117154fde66bf609",
+    "projects/site/build-public.py": "62b854ee0c0e97bf586918f5c9c5a15a44e80566693f08b610acc0eedf701047",
+    "projects/site/tests/editor-install.test.mjs": "e0e1bd68335677ebb79551e24cec530dde6caa3540ba5912559e68996fd26be3",
+    "projects/site/tests/test_editor_app.py": "f143737c452109bde520ae15611e704c23df4b2882a551d9e55571cff13b68bd"
+  },
+  "changes": [
+    "Browser-installable manifest with standalone display and Studio-specific URL scope; identity defaults to resolved query-free start_url to preserve project-base installation identity",
+    "Existing Ink & Voice symbol rasterized into 180/192/512 PNG icons; no source artwork edits",
+    "Native details/summary install help; one-shot beforeinstallprompt, installed state, dismissal/rejection handling and manual browser guidance",
+    "Public export explicitly includes manifest and icons; script/CSS discovered through existing link selection",
+    "After separate-review feedback, consumed prompt restores focus to summary and completed installation returns focus to account/workspace controls",
+    "Separate review fix: native install disclosure now expands in flow with bounded scrolling at all widths, avoiding summary overlap when account controls wrap. Prompt button stays focusable while one-shot event consumption prevents duplicate prompts.",
+    "Help scroll region has tabindex=0 and accessible name for keyboard scrolling in Safari."
+  ],
+  "checks": [
+    {
+      "command": "node --test projects/site/tests/editor-install.test.mjs",
+      "result": "PASS 8 lifecycle tests including focus recovery"
+    },
+    {
+      "command": "python3 projects/site/build.py",
+      "result": "PASS 1353 linked pages"
+    },
+    {
+      "command": "python3 projects/site/build-public.py",
+      "result": "PASS 1346 pages / 3701 public assets; existing content-ready false gate retained"
+    },
+    {
+      "command": "python3 -m unittest discover -s projects/site/tests -p test_editor_app.py",
+      "result": "PASS 4 tests including actual public export bytes"
+    }
+  ],
+  "guidance": {
+    "skill": "modern-web-guidance",
+    "installation_search": "No directly applicable installation guide",
+    "html_guide": "kb/artifacts/reference/modern-web-guidance/skill/guides/html/html.md",
+    "applied": "Native details/summary, non-submit button type and native focus order",
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable",
+      "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Trigger_install_prompt"
+    ]
+  },
+  "findings": [],
+  "independence": false,
+  "limitations": [
+    "Actual installed-app launch and device/browser installation not tested by implementer",
+    "No offline capability added; existing authentication and draft behavior unchanged",
+    "No publication authorized or performed"
+  ],
+  "next_action": "Root browser checks and Drishti separate review before review packet; release approval remains required"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Kabita Live Editor Studio",
+  "short_name": "Editor Studio",
+  "description": "Prepare Kabita Live editions and Toshali Anthology with your editorial team. An internet connection is required for shared work.",
+  "lang": "en",
+  "start_url": "../editor-workspace.html",
+  "scope": "../editor-workspace.html",
+  "display": "standalone",
+  "background_color": "#faf7f7",
+  "theme_color": "#faf7f7",
+  "icons": [
+    {"src": "editor-app-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "editor-app-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ],
+  "prefer_related_applications": false
+}

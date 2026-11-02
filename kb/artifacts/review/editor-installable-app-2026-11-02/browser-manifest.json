@@ -1,0 +1,32 @@
+{
+  "data": "{\n  \"name\": \"Kabita Live Editor Studio\",\n  \"short_name\": \"Editor Studio\",\n  \"description\": \"Prepare Kabita Live editions and Toshali Anthology with your editorial team. An internet connection is required for shared work.\",\n  \"lang\": \"en\",\n  \"start_url\": \"../editor-workspace.html\",\n  \"scope\": \"../editor-workspace.html\",\n  \"display\": \"standalone\",\n  \"background_color\": \"#faf7f7\",\n  \"theme_color\": \"#faf7f7\",\n  \"icons\": [\n    {\"src\": \"editor-app-192.png\", \"sizes\": \"192x192\", \"type\": \"image/png\", \"purpose\": \"any\"},\n    {\"src\": \"editor-app-512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\", \"purpose\": \"any\"}\n  ],\n  \"prefer_related_applications\": false\n}\n",
+  "errors": [],
+  "manifest": {
+    "backgroundColor": "rgba(250,247,247,1)",
+    "description": "Prepare Kabita Live editions and Toshali Anthology with your editorial team. An internet connection is required for shared work.",
+    "display": "kStandalone",
+    "icons": [
+      {
+        "sizes": "192x192",
+        "type": "image/png",
+        "url": "http://127.0.0.1:8771/assets/editor-app-192.png"
+      },
+      {
+        "sizes": "512x512",
+        "type": "image/png",
+        "url": "http://127.0.0.1:8771/assets/editor-app-512.png"
+      }
+    ],
+    "id": "http://127.0.0.1:8771/editor-workspace.html",
+    "name": "Kabita Live Editor Studio",
+    "orientation": "DEFAULT",
+    "preferRelatedApplications": false,
+    "scope": "http://127.0.0.1:8771/editor-workspace.html",
+    "startUrl": "http://127.0.0.1:8771/editor-workspace.html",
+    "themeColor": "rgba(250,247,247,1)"
+  },
+  "parsed": {
+    "scope": "http://127.0.0.1:8771/editor-workspace.html"
+  },
+  "url": "http://127.0.0.1:8771/assets/editor-app.webmanifest"
+}

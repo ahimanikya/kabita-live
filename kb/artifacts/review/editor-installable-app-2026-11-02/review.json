@@ -1,0 +1,96 @@
+{
+  "task": "editor-installable-app-2026-11-02",
+  "actual_executor": "/root/drishti_editor_app",
+  "role": "Drishti",
+  "independent": true,
+  "independence_note": "Separate AI worker; not human/device certification",
+  "status": "pass_with_limitations",
+  "reviewed_at": "2026-11-02T15:47:49.479567+00:00",
+  "input_revision": "de73a957efc8eab85f28e3c82bf2c71219fec83c",
+  "reviewed_sha256": {
+    "projects/site/data/editor-workspace.html.template": "b6e8dbb00e1c4ed7bbb63976e138ff5fdbd33feac225d41f953bda844d200b70",
+    "projects/site/assets/editor-install.mjs": "07a893b842d921ff1629844248374b0f417a74362564b89151c9811a828f1dbb",
+    "projects/site/assets/editor-install.css": "d444b2e9e84a3849a2734a8f9459d9c4aa2bf80f94df20cf274067fdc0afbb5e",
+    "projects/site/assets/editor-app.webmanifest": "d3bd83e14a267afafca79d320cf4d99f17c9b00e2844443b77d1438b9a52b9e6",
+    "projects/site/assets/editor-app-192.png": "4126ab9ff33903ddb8bbe6a9a602c959ac38256bd0b3d33d197a1dd0054497e8",
+    "projects/site/assets/editor-app-512.png": "444162d93af7d8f4daed5c804a3b5b31e869b78128abc27195c5541b0933e623",
+    "projects/site/assets/editor-app-180.png": "451ef622be9c73f88d6a0e3c6d6b365569755d8748151f4f1121ad980dd29782",
+    "projects/site/tools/prepare-editor-app-icons.mjs": "469a99409e495ee82d8d2d4780dbcd93f0ce63b1c7dfb283117154fde66bf609",
+    "projects/site/build-public.py": "62b854ee0c0e97bf586918f5c9c5a15a44e80566693f08b610acc0eedf701047",
+    "projects/site/tests/editor-install.test.mjs": "e0e1bd68335677ebb79551e24cec530dde6caa3540ba5912559e68996fd26be3",
+    "projects/site/tests/test_editor_app.py": "f143737c452109bde520ae15611e704c23df4b2882a551d9e55571cff13b68bd"
+  },
+  "checks": [
+    {
+      "name": "Install lifecycle and focus unit tests",
+      "result": "PASS 8 tests independently rerun after final JS changes"
+    },
+    {
+      "name": "Manifest identity/start/scope root and subpath resolution",
+      "result": "PASS; omitted id defaults stable query-free resolved start_url; Studio-only scope excludes reader homepage"
+    },
+    {
+      "name": "PNG icons",
+      "result": "PASS declared180/192/512PNG sizes;192image visually inspected; source geometry approved symbol"
+    },
+    {
+      "name": "Private data/security scope",
+      "result": "PASS no service worker, cache, network fetch, auth or draft behavior added by install code; online requirement visible"
+    },
+    {
+      "name": "Help markup/focus",
+      "result": "PASS native details/summary, non-submit button, focusable labelled scroll region, in-flow help prevents own-summary overlap"
+    },
+    {
+      "name": "Public export resources",
+      "result": "PASS independent final4Python tests; all6app assets byte-identical in source,.public,and dist; focusable help and manifest link in finalHTML"
+    }
+  ],
+  "resolved_findings": [
+    {
+      "id": "APP-R1",
+      "severity": "P2",
+      "finding": "Relative explicit manifest id resolves against origin and loses project prefix",
+      "resolution": "Omitted id; stable resolved start_url supplies default identity; corrected test"
+    },
+    {
+      "id": "APP-R2",
+      "severity": "P2",
+      "finding": "Fixed help top could cover summary when signed-in toolbar wraps",
+      "resolution": "Help kept in document flow at all widths, viewport-bounded scrolling; root retests layout"
+    },
+    {
+      "id": "APP-R3",
+      "severity": "P2",
+      "finding": "Disabling focused install button can blur it before restoration logic",
+      "resolution": "Removed unnecessary disabled toggles; consumed pending event prevents duplicate prompts; focus restored before hidden"
+    }
+  ],
+  "limitations": [
+    "Actual installed-app launch, platform install prompt and Google sign-in in standalone mode not verified by reviewer",
+    "No physical iOS/Android, Safari/Firefox or screen reader speech verification",
+    "No offline editing added or claimed",
+    "No publication authorized or performed",
+    "IAB native installability error inspection unsupported; actual device installation remains untested"
+  ],
+  "primary_sources": [
+    "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/id",
+    "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/scope"
+  ],
+  "next_action": "Present reviewed local candidate for Ahimanikya release approval; final source reservations may be released",
+  "blocking_findings": [],
+  "root_verification": {
+    "type": "Coordinator evidence reported; independent reviewer did not repeat browser interactions",
+    "results": [
+      "Full export and Astro build PASS",
+      "Desktop and320px no horizontal overflow",
+      "Enter toggles help and keyboard End scrolls named region",
+      "CDP manifest errors=[]; standalone resolved id/start/scope correct"
+    ],
+    "evidence": [
+      "browser-manifest.json",
+      "phone-keyboard.png",
+      "desktop-install.png"
+    ]
+  }
+}

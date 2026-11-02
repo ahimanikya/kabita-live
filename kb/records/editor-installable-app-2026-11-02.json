@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-02",
+  "status": "approved; isolated release preparation",
+  "request": "Let's convert the Editor Studio to an installable app.",
+  "scope": "Browser-installable online Editor Studio using existing route, identity, sign-in and shared drafts",
+  "publication_authorized": true,
+  "acceptance": [
+    "Standalone launch at existing Editor Studio route",
+    "Approved logo-derived app icons",
+    "Install prompt when supported; accessible manual installation help otherwise",
+    "No new caching of private drafts or auth responses; no offline-editing promise",
+    "Public export includes manifest and all icon dependencies",
+    "Focused lifecycle tests, public build, separate review, portable sync"
+  ],
+  "workers": {
+    "integration": "Disha /root",
+    "implementation": "/root/samanta_editor_app",
+    "review": "/root/drishti_editor_app"
+  },
+  "guidance": {
+    "skill": "modern-web-guidance",
+    "search": "install web app",
+    "catalogue_result": "No matching installation guide; migrate-web-app-origin is unrelated",
+    "html_guide": "kb/artifacts/reference/modern-web-guidance/skill/guides/html/html.md",
+    "html_sha256": "87ca3f2b6535c06f96857ed5ca1b577d8ccaa8168348a10e878c5693d8633621",
+    "snapshot_check": "PASS 194 files",
+    "fallback": "Pinned HTML guidance was used while live retrieval was delayed; live HTML retrieval subsequently completed and was saved as research.",
+    "primary_sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable",
+      "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Trigger_install_prompt"
+    ],
+    "retrieved_guide": "artifacts/review/editor-installable-app-2026-11-02/html-guide-retrieved.txt",
+    "retrieved_sha256": "359fcda67e2a3b73caacc7999189fa458dfecdb15fc6ec59f154c0bd1709ce40"
+  },
+  "limitations": [
+    "Physical iOS/Android installation not tested",
+    "Google sign-in within an installed window not tested; existing sign-in implementation unchanged",
+    "No offline editing feature; internet required for shared work",
+    "Native installability diagnostics unavailable in embedded test browser"
+  ],
+  "verification": {
+    "focused_tests": "8 JS + 4 Python PASS",
+    "full_build": "npm run build PASS using Node24.15.0; final export/Astro/Pagefind refreshed after review fixes",
+    "public_pages": 1346,
+    "disclosure_files": 1841,
+    "disclosure_violations": 0,
+    "browser": "Desktop and320px Chromium, keyboard and manifest parsing PASS",
+    "separate_review": "Drishti PASS with limitations;3findings resolved",
+    "personas": "PASS4",
+    "registers": "Task records valid; overall register check currently blocked by concurrent KBL-WORK-088 readiness=implementation",
+    "bundle": "PASS101concepts,2528links"
+  },
+  "evidence": {
+    "implementation": "artifacts/review/editor-installable-app-2026-11-02/implementation.json",
+    "review": "artifacts/review/editor-installable-app-2026-11-02/review.json",
+    "browser": "artifacts/review/editor-installable-app-2026-11-02/browser.json"
+  },
+  "reviewed_sha256": {
+    "projects/site/data/editor-workspace.html.template": "b6e8dbb00e1c4ed7bbb63976e138ff5fdbd33feac225d41f953bda844d200b70",
+    "projects/site/assets/editor-install.mjs": "07a893b842d921ff1629844248374b0f417a74362564b89151c9811a828f1dbb",
+    "projects/site/assets/editor-install.css": "d444b2e9e84a3849a2734a8f9459d9c4aa2bf80f94df20cf274067fdc0afbb5e",
+    "projects/site/assets/editor-app.webmanifest": "d3bd83e14a267afafca79d320cf4d99f17c9b00e2844443b77d1438b9a52b9e6",
+    "projects/site/assets/editor-app-192.png": "4126ab9ff33903ddb8bbe6a9a602c959ac38256bd0b3d33d197a1dd0054497e8",
+    "projects/site/assets/editor-app-512.png": "444162d93af7d8f4daed5c804a3b5b31e869b78128abc27195c5541b0933e623",
+    "projects/site/assets/editor-app-180.png": "451ef622be9c73f88d6a0e3c6d6b365569755d8748151f4f1121ad980dd29782",
+    "projects/site/tools/prepare-editor-app-icons.mjs": "469a99409e495ee82d8d2d4780dbcd93f0ce63b1c7dfb283117154fde66bf609",
+    "projects/site/build-public.py": "62b854ee0c0e97bf586918f5c9c5a15a44e80566693f08b610acc0eedf701047",
+    "projects/site/tests/editor-install.test.mjs": "e0e1bd68335677ebb79551e24cec530dde6caa3540ba5912559e68996fd26be3",
+    "projects/site/tests/test_editor_app.py": "f143737c452109bde520ae15611e704c23df4b2882a551d9e55571cff13b68bd"
+  },
+  "portable_sync": "Task-specific source, generated Studio page, app review evidence and task record copied and SHA-256 verified. Whole-project sync remains blocked by concurrent unrelated editorial edits; global storage check reports edition_editorial.py drift.",
+  "publication_approval": {
+    "quote": "approved",
+    "scope": "Reviewed installable Editor Studio update",
+    "recorded_at": "2026-11-02T15:56:16.224715+00:00",
+    "decision": "KBL-DEC-136"
+  },
+  "release_checkout": "/Users/ahimanikya/.codex/worktrees/editor-app-release/Kabita Live",
+  "release_base": "62dba85cc6fcc23d8c21c275df33d7b69694ec91",
+  "release_scope": "11reviewed source files; build-public.py uses only four app-asset additions on latest live base, excluding unrelated local differences",
+  "release_review": "artifacts/review/editor-installable-app-2026-11-02/release-review.json",
+  "release_checks": {
+    "build_discovery": "PASS1346pages",
+    "node_tests": 282,
+    "python_tests": 77,
+    "disclosure_files": 1842,
+    "disclosure_violations": 0,
+    "release_workflow": "manual owner-only main branch, github-pages reviewer ahimanikya, administrator bypass disabled"
+  }
+}

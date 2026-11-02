@@ -1,0 +1,65 @@
+{
+  "task": "editor-installable-app-2026-11-02-publication",
+  "reviewer": "/root/drishti_editor_app",
+  "independent": true,
+  "status": "pass_with_limitations",
+  "reviewed_at": "2026-11-02T16:00:50.984110+00:00",
+  "release_worktree": "/Users/ahimanikya/.codex/worktrees/editor-app-release/Kabita Live",
+  "base_revision": "62dba85cc6fcc23d8c21c275df33d7b69694ec91",
+  "candidate_fingerprint_sha256": "5fe45d3169f1c8be6726c39741adee2ae41d18ef41b645aaa1932d70e6e58406",
+  "fingerprint_definition": "SHA256 of compact sorted JSON {base,source_sha256} for eleven release source files",
+  "source_sha256": {
+    "projects/site/data/editor-workspace.html.template": "b6e8dbb00e1c4ed7bbb63976e138ff5fdbd33feac225d41f953bda844d200b70",
+    "projects/site/assets/editor-install.mjs": "07a893b842d921ff1629844248374b0f417a74362564b89151c9811a828f1dbb",
+    "projects/site/assets/editor-install.css": "d444b2e9e84a3849a2734a8f9459d9c4aa2bf80f94df20cf274067fdc0afbb5e",
+    "projects/site/assets/editor-app.webmanifest": "d3bd83e14a267afafca79d320cf4d99f17c9b00e2844443b77d1438b9a52b9e6",
+    "projects/site/assets/editor-app-192.png": "4126ab9ff33903ddb8bbe6a9a602c959ac38256bd0b3d33d197a1dd0054497e8",
+    "projects/site/assets/editor-app-512.png": "444162d93af7d8f4daed5c804a3b5b31e869b78128abc27195c5541b0933e623",
+    "projects/site/assets/editor-app-180.png": "451ef622be9c73f88d6a0e3c6d6b365569755d8748151f4f1121ad980dd29782",
+    "projects/site/tools/prepare-editor-app-icons.mjs": "469a99409e495ee82d8d2d4780dbcd93f0ce63b1c7dfb283117154fde66bf609",
+    "projects/site/build-public.py": "579282964ce9c4ed3439f15fe9ca9f2ef2c817de2b7a83b316fcb8e9e821bcd2",
+    "projects/site/tests/editor-install.test.mjs": "e0e1bd68335677ebb79551e24cec530dde6caa3540ba5912559e68996fd26be3",
+    "projects/site/tests/test_editor_app.py": "f143737c452109bde520ae15611e704c23df4b2882a551d9e55571cff13b68bd"
+  },
+  "checks": [
+    {
+      "name": "Reviewed source carryover",
+      "result": "PASS10files exactly match original reviewed hashes"
+    },
+    {
+      "name": "Public export integration",
+      "result": "PASS build-public.py minus exactly4new app asset strings equals live-base file byte for byte"
+    },
+    {
+      "name": "Tracked website diff",
+      "result": "PASS only template and build-public changes; template adds app metadata/install help and corrects title to Editor Studio"
+    },
+    {
+      "name": "Untracked website files",
+      "result": "PASS only9approved app assets/test/tool files plus local node_modules symlink; dependency symlink must not be staged"
+    },
+    {
+      "name": "Rebuild",
+      "result": "NOT RUN by reviewer; root building to avoid competing generated-output mutations"
+    },
+    {
+      "name": "Final isolated export parity",
+      "result": "PASS6app assets identical source,.public,dist; generatedStudioHTML includes manifest,keyboard-focusable help,noindex;11source hashes unchanged"
+    }
+  ],
+  "blocking_findings": [],
+  "limitations": [
+    "Actual installed-app launch, platform install prompt and Google sign-in in standalone mode not verified by reviewer",
+    "No physical iOS/Android, Safari/Firefox or screen reader speech verification",
+    "No offline editing added or claimed",
+    "Full test suite running under root; separate reviewer did not rerun full build or suite"
+  ],
+  "approval_context": "Parent reports explicit user approval of this installable-app release; reviewer does not grant publication authority",
+  "next_action": "Root records full-suite outcome and publishes exact reviewed candidate through protected manual owner-approved workflow",
+  "build_receipt": {
+    "executor": "Disha /root",
+    "command": "npm run build:discovery",
+    "result": "PASS1346pages,1842disclosure files,zero violations",
+    "independent_rerun": false
+  }
+}
