@@ -10,7 +10,7 @@ def apply_our_story(site):
     old=re.search(r'<div class="side-layout"><div class="prose">(.*?)</div><aside',s,re.S).group(1)
     new='''<h2 class="or" lang="or">ମାଟିର ମହକ · ହୃଦୟର ସ୍ବର</h2>
     <p class="story-signature">The fragrance of earth. The voice of the heart.</p>
-    <p>Rooted in Odia, Kabita Live welcomes original poems and translations in Odia, Hindi and English, from established and younger writers. Each language has its own music. Read an edition, share a poem with its poet’s name, or write privately to the editorial desk—wherever you call home.</p>
+    <p>Rooted in Odia, Kabita Live welcomes poetry in Odia, Hindi and English, from established and younger writers. Each language has its own music. Read an edition, share a poem with its poet’s name, or write privately to the editorial desk—wherever you call home.</p>
     <div class="story-invitations"><a class="text-link" href="submit.html">Send a poem</a><a class="text-link" href="feedback.html">Write to the editors</a></div>'''
     s=s.replace(old,new,1)
     s=s.replace('<h1>A familiar name.<br>A living literary home.</h1>', '<h1>Our story</h1>', 1)

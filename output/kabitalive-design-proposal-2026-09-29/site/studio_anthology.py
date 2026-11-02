@@ -18,10 +18,10 @@ def render_studio_anthologies(root, page):
         parts.append(f'<article class="section" id="poem-{p["id"]}"><h2>{e(p["title"])}</h2><p><a href="poet-{p["writer_id"]}.html">{e(p["author"])}</a></p>')
         art=p.get('artwork',{})
         if art.get('mode')=='illustrated':parts.append(f'<figure><img src="{e(art["src"],quote=True)}" alt="{e(art["alt"],quote=True)}" width="{art["width"]}" height="{art["height"]}" loading="lazy" style="max-width:100%;height:auto"><figcaption>{e(art["caption"])}</figcaption></figure>')
-        versions={p['language']:{'title':p['title'],'stanzas':p['stanzas'],'credit':''},**p.get('translations',{})}
+        versions={p['language']:{'title':p['title'],'stanzas':p['stanzas'],'credit':''}}
         for lang,v in versions.items():
             parts.append(f'<section lang="{lang}"><h3>{e(v["title"])}</h3>')
             parts.extend('<p class="verse">'+'<br>'.join(e(line) for line in stanza)+'</p>' for stanza in v['stanzas'])
             parts.append('<p>'+e(v.get('credit',''))+'</p></section>')
         parts.append('</article>')
-    page('toshali-book-2027.html',d['title'],''.join(parts),desc='Toshali Anthology of Poetry 2027: poems and their language editions.')
+    page('toshali-book-2027.html',d['title'],''.join(parts),desc='Toshali Anthology of Poetry 2027: poems in their submitted languages.')

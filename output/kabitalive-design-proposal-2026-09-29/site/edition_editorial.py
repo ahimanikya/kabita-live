@@ -12,16 +12,13 @@ def render_editorial(root, number, poems, names):
     draft={'or':'ସମ୍ପାଦକୀୟ ଚିଠା · ସମ୍ପାଦକଙ୍କ ସମୀକ୍ଷା ପାଇଁ','en':'Editorial draft · for editor review','hi':'संपादकीय प्रारूप · संपादक की समीक्षा के लिए'}
     translated={'or':'ଏଠାରେ ଅନୁବାଦ','en':'Excerpt in translation','hi':'अंश का अनुवाद'}
     links={'or':'ଏହି ପ୍ରସଙ୍ଗର କବିତା','en':'Poems in this passage','hi':'इस प्रसंग की कविताएँ'}
-    variants={lang:v for lang,v in data['variants'].items() if lang in labels}
+    original_language=data.get('original_language','')
+    if original_language not in data['variants']:
+        raise ValueError(f'Editorial {number} has no verified original language')
+    variants={original_language:data['variants'][original_language]}
     if not variants:return ''
     original_language=data.get('original_language','')
-    parts=['<link rel="stylesheet" href="assets/edition-editorial.css?v=9"><script defer src="assets/edition-editorial.js?v=4"></script><section class="section edition-editorial" id="edition-editorial" aria-label="Editorial note" tabindex="-1">', '<nav class="editorial-languages" aria-label="Editorial language">']
-    parts[0]=parts[0].replace('aria-label="Editorial note"',f'aria-label="Editorial note" data-editorial-original="{e(original_language,quote=True)}"')
-    for lang,label in labels.items():
-        if lang not in variants:continue
-        original=' <span class="original-label" lang="en">Original</span>' if lang==data.get('original_language') else ''
-        parts.append(f'<a href="#editorial-{lang}" lang="{lang}" data-editorial-language="{lang}">{label}{original}</a>')
-    parts.append('</nav>')
+    parts=['<link rel="stylesheet" href="assets/edition-editorial.css?v=9"><section class="section edition-editorial" id="edition-editorial" aria-label="Editorial note" tabindex="-1">']
     for lang,v in variants.items():
         parts.append(f'<article id="editorial-{lang}" lang="{lang}" class="editorial-prose"><p class="eyebrow">{headings["en"]}</p><h2>{e(v["title"])}</h2>')
         credit=v.get('credit','').strip()
@@ -36,9 +33,6 @@ def render_editorial(root, number, poems, names):
                 poem=poems[q['poem_id']];author=names.get(poem['writer_id'],poem['author']);quote=e(q['original']).replace('\n','<br>')
                 parts.append('<div class="editorial-quote-layout">')
                 parts.append(f'<figure class="editorial-excerpt"><blockquote lang="{q["language"]}"><p>{quote}</p></blockquote>')
-                if lang!=q['language']:
-                    rendering=e(q['renderings'][lang]).replace('\n','<br>')
-                    parts.append(f'<p class="excerpt-translation"><small>{translated["en"]}</small><br>{rendering}</p>')
                 parts.append(f'<figcaption><a href="poem-{q["poem_id"]}.html">{e(author)} · {e(poem["title"])}</a></figcaption></figure>')
                 for art in (a for a in data.get('illustrations',[]) if a.get('quote_poem_id')==q['poem_id']):
                     parts.append(f'<figure class="editorial-vignette"><img lang="{e(art.get("alt_language",lang),quote=True)}" src="{e(art["src"],quote=True)}" alt="{e(art["alt"][lang],quote=True)}" width="{art["width"]}" height="{art["height"]}" loading="lazy" decoding="async"></figure>')

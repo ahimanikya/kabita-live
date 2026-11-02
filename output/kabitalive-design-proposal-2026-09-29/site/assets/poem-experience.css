@@ -373,13 +373,13 @@ body.night .focus-page{box-shadow:none}
 [data-reader-fullscreen][aria-pressed=true]{color:var(--rust)}
 @media(max-width:400px){#focus-fullscreen{display:none}#focus-fullscreen-menu:not([hidden]){display:inline-flex}}
 
-/* All poem tools share one row: language first, then reading actions. */
+/* Reading actions stay together; a divider requires an actual language group. */
 .poem-page .poem-toolbar{display:flex;align-items:center;flex-wrap:nowrap;gap:12px;margin-top:16px}
 .poem-page .poem-toolbar .poem-language-front{flex:0 0 auto;margin:0;padding:0;gap:0}
 .poem-page .poem-toolbar .poem-actions{position:relative;flex:0 0 auto;margin:0;gap:0}
-.poem-page .poem-toolbar .poem-actions::before{content:"";position:absolute;left:-7px;top:12px;height:20px;width:1px;background:var(--line);pointer-events:none}
+.poem-page .poem-toolbar .poem-language-front + .poem-actions::before{content:"";position:absolute;left:-7px;top:12px;height:20px;width:1px;background:var(--line);pointer-events:none}
 .poem-page .poem-toolbar .reading-tabs{margin:0;padding:0}
-@media(max-width:360px){.poem-page .poem-toolbar{gap:4px;margin-inline:-16px}.poem-page .poem-toolbar .poem-actions::before{left:-3px}}
+@media(max-width:360px){.poem-page .poem-toolbar{gap:4px}.poem-page .poem-toolbar .poem-language-front + .poem-actions::before{left:-3px}}
 
 /* The original is a distinct choice with a small interface-font badge.
    Its language symbol shares the other two controls' size and baseline. */

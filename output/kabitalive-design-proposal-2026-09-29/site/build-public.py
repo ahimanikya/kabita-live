@@ -10,6 +10,7 @@ from discovery import enrich, write_discovery
 from service_assets import service_assets
 from public_routes import is_reader_page
 from component_library import ROUTE as COMPONENT_LIBRARY_ROUTE, render_component_library
+from original_only import check_public_originals
 
 root=Path(__file__).resolve().parent
 parser=argparse.ArgumentParser(description=__doc__)
@@ -19,11 +20,7 @@ args=parser.parse_args()
 status=json.loads((root/'data/content-status.json').read_text())
 if args.release and not status['launch_ready']:
     raise SystemExit('Release blocked: '+ '; '.join(status['blockers']))
-if args.release:
-    translations=json.loads((root/'data/poem-translations.json').read_text())
-    pending=[f'{ident}/{lang}' for ident,entry in translations.items() for lang,v in entry['variants'].items() if v.get('status')!='reviewed']
-    if pending: raise SystemExit(f'Release blocked: {len(pending)} translation drafts await linguistic review.')
-excluded={'credits-content.html'}
+excluded={'credits-content.html','translation-review.html'}
 # Book reviews are retained locally for provenance, outside the reader publication.
 excluded.update(p.name for p in root.glob('*.html') if re.fullmatch(r'reviews?(?:-\d+)?\.html', p.name))
 pages=sorted(p.name for p in root.glob('*.html') if not p.is_symlink() and p.name not in excluded and is_reader_page(p.name))
@@ -108,6 +105,9 @@ for relative in assets:
             runtime_text=json.dumps(runtime_config)
         if 'kabitalive.com' in runtime_text:
             raise SystemExit('Old-site runtime dependency: '+relative)
+
+# All additional website translations stay private, including direct JSON downloads.
+check_public_originals(root, {name:page_source(name) for name in pages}, assets)
 
 # These are exclusively generated build directories, never source or historical evidence.
 for directory in ['.generated','.public']:

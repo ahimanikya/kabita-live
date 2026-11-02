@@ -1,5 +1,5 @@
 from writer_names import writer_search_names
-from poem_reader import render_reader, TRANSLATIONS
+from poem_reader import render_reader
 from reader_icons import quiet_reader_icon, reader_action_icon
 """Render the captured publication, using edition manifests as the content authority."""
 publication_by_issue={x['number']:x for x in publication_issues}
@@ -8,7 +8,7 @@ language_labels={'or':'ଓଡ଼ିଆ','hi':'हिन्दी','en':'English'
 def discovery_mark(name):
     return reader_action_icon(name)
 
-discovery_styles='<link rel="stylesheet" href="assets/reading-discovery.css?v=18">'
+discovery_styles='<link rel="stylesheet" href="assets/reading-discovery.css?v=19">'
 
 def poem_route(ident):
     return sample_routes.get(ident,f'poem-{ident}.html')
@@ -26,7 +26,7 @@ def publication_rows(items,show_issue=False):
         metadata=language_labels[lang]
         if show_issue:
             metadata+=(f' · <a href="issue-{p["edition"]}.html">Issue {p["edition"]}</a>' if p['edition'] else ' · Edition unrecorded')
-        titles={lang:p['title'],**{code:v['title'] for code,v in TRANSLATIONS.get(str(p['id']),{}).get('variants',{}).items()}}
+        titles={lang:p['title']}
         reading_attrs=f' data-reading-titles="{e(json.dumps(titles,ensure_ascii=False))}"' if show_issue else ''
         searchable=p['title']+' '+p['author']+' '+p['text']+(' '+' '.join(titles.values()) if show_issue else '')
         result+=(f'<article class="poem-row" data-lang="{lang}"{reading_attrs} data-search="{e(searchable)}">'
@@ -69,11 +69,10 @@ def edition_rows(items,show_issue=False):
     result='<div class="poem-list edition-poem-list">'
     for i,p in enumerate(items,1):
         lang=p['language'];route=poem_route(p['id'])
-        titles={lang:p['title'],**{code:v['title'] for code,v in TRANSLATIONS.get(str(p['id']),{}).get('variants',{}).items()}}
-        translated_lines=[line for variant in TRANSLATIONS.get(str(p['id']),{}).get('variants',{}).values() for stanza in variant['stanzas'] for line in stanza]
+        titles={lang:p['title']}
         issue=publication_by_issue.get(p['edition'])
         edition_search=f'Issue {issue["number"]} Edition {issue["number"]} {issue["month"]} {issue["year"]}' if issue else 'Edition not recorded'
-        searchable=' '.join([p['title'],p['author'],*edition_search_names.get(p['writer_id'],[]),edition_writer_names.get(p['writer_id'],''),p['text'],*titles.values(),*translated_lines,edition_search])
+        searchable=' '.join([p['title'],p['author'],*edition_search_names.get(p['writer_id'],[]),edition_writer_names.get(p['writer_id'],''),p['text'],*titles.values(),edition_search])
         reading_attrs=f' data-reading-titles="{e(json.dumps(titles,ensure_ascii=False))}" data-search="{e(searchable)}" data-edition="{p["edition"] or "unassigned"}" data-poet="{p["writer_id"] or "unknown"}"'
         result+=(f'<article class="poem-row edition-poem-row" data-lang="{lang}"{reading_attrs}>' 
             f'<span class="number">{i:02d}</span><h3 class="{lang}" lang="{lang}"><a href="{route}">{e(p["title"])}</a></h3>'
@@ -82,12 +81,8 @@ def edition_rows(items,show_issue=False):
     return result+'</div>'
 
 def collection_languages_markup(compact=False):
-    languages='<div class="language-front collection-language-front"><span class="language-front-label">Read in</span><div class="language-choices" role="group" aria-label="Reading language">'+''.join(f'<button type="button" data-collection-language="{code}" lang="{code if code!="original" else "en"}" aria-pressed="{str(code=="original").lower()}">{label}</button>' for code,label in [('original','Original'),('or','ଓଡ଼ିଆ'),('hi','हिन्दी'),('en','English')])+'</div></div>'
-    if compact:
-        original='<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 8M4 4v6h6"/></svg>'
-        options=[('original',original,'Use each poem’s original language'),('or','ଅ','ଓଡ଼ିଆ · Odia'),('hi','अ','हिन्दी · Hindi'),('en','A','English')]
-        languages='<div class="language-front collection-language-front"><div class="language-choices" role="group" aria-label="Reading language">'+''.join(f'<button type="button" class="edition-language-icon" data-collection-language="{code}" lang="{code if code!="original" else "en"}" aria-label="{name}" title="{name}" aria-pressed="{str(code=="original").lower()}">{glyph}<span class="edition-action-tip" aria-hidden="true">{name}</span></button>' for code,glyph,name in options)+'</div></div>'
-    return '<script defer src="assets/collection-reader.js?v=7"></script>'+languages
+    # The script normalizes legacy ?lang links to each poem's original.
+    return '<script defer src="assets/collection-reader.js?v=9"></script>'
 
 def collection_tools_markup():
     return collection_languages_markup()

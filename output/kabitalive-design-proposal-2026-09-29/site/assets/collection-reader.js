@@ -2,8 +2,8 @@
   const root = document.querySelector('[data-collection-reader]');
   if (!root) return;
   const languages = [...document.querySelectorAll('[data-collection-language]')];
-  const requested = new URLSearchParams(location.search).get('lang');
-  let language = ['original', 'or', 'hi', 'en'].includes(requested) ? requested : 'original';
+  // Old shared language URLs must never select a translated version.
+  const language = 'original';
   const rows = [...root.querySelectorAll('[data-reading-titles]')].map(row => ({
     row, titles: JSON.parse(row.dataset.readingTitles), heading: row.querySelector('h3'),
     links: [row.querySelector('h3 a'), row.querySelector('.edition-read')],
@@ -25,6 +25,5 @@
       }
     }
   }
-  languages.forEach(button => button.addEventListener('click', () => { language = button.dataset.collectionLanguage; apply(); }));
   apply();
 })();

@@ -1,0 +1,89 @@
+{
+  "status": "pass_with_limitations",
+  "reviewer": "Drishti /root/drishti_original_only_review",
+  "independent": true,
+  "review_kind": "Separate AI release integration review; no human rights certification",
+  "recorded_at": "2026-11-02T07:16:12.133740+00:00",
+  "approval_reference": "KBL-DEC-130 as reported by root; publication not performed by reviewer",
+  "base_commit": "b5cedd2f1ff704bbd613e08baf4c0b7e86642c6a",
+  "checkout": "/private/tmp/kbl-components-release-20261102",
+  "scope": "Exact22file original-only patch integrated onto latest published main; existing submitted works retained.",
+  "checks": [
+    {
+      "name": "Patch baseline and after parity",
+      "result": "PASS",
+      "detail": "21files match previously reviewed after hashes. All existing before hashes match published HEAD except build-public.py. New files match exact reviewed content."
+    },
+    {
+      "name": "Build-public conflict resolution",
+      "result": "PASS",
+      "sha256": "12548a577c2cfdad2c1e8e594e363929ffb01286ae92d391a62e0c4f903b4449",
+      "detail": "Diff vs HEAD contains only original_only import, removal of withheld-translation draft check, explicit translation-review exclusion, and public-originals validation before export. Unrelated published-baseline behavior preserved."
+    },
+    {
+      "name": "Submitted text preservation vs release HEAD",
+      "result": "PASS",
+      "source_records": 830,
+      "detail": "Original variant fields/stanzas/inline breaks identical to pre-change renderer for all canonical source records."
+    },
+    {
+      "name": "Final release export scan",
+      "result": "PASS",
+      "html_routes": 1346,
+      "collection_assets": 484,
+      "poem_appearances": 2490,
+      "active_poems": 828,
+      "detail": "Only submitted variants throughout HTML and collection payloads, identical active inline/collection content. No translation review/data/download bypass."
+    },
+    {
+      "name": "Editorial/credit/homepage preservation",
+      "result": "PASS",
+      "detail": "48 Odia and49 English original editorials with all source paragraphs. No translated quotation renderings. Eight submitted translator credits retained. Original-language homepage filters retained."
+    },
+    {
+      "name": "Focused tests in release checkout",
+      "result": "PASS",
+      "tests": 9
+    },
+    {
+      "name": "Root release build and suite",
+      "result": "PASS",
+      "reported_by": "Disha /root",
+      "detail": "Discovery build complete;274Node/73Python tests and1346-route design check pass."
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    "Browser evidence is recorded separately by root; reviewer performed source/export checks.",
+    "No physical-device, screen-reader, Safari/Firefox certification.",
+    "Existing editorial/source rights holds unchanged.",
+    "Broad preexisting generated checkout changes are not authorization for unrelated source commits; commit scope must remain exact approved patch plus necessary release records."
+  ],
+  "reviewed_source_sha256": {
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/collection-reader.js": "5401bd34030db22cce0d075dd974338a2ecf788a66dceb6795079cadff08c768",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/poem-experience.css": "5f09822c762fc676205300613cbc4947ad1f464c95c174c85c0693294218322a",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/poem-experience.js": "a02c798e487294dceedd94c02e4c3a6a1004d90c2f576a583098f38dc7e3eaec",
+    "output/kabitalive-design-proposal-2026-09-29/site/assets/reading-discovery.css": "dc595231c11dba7b83cd5d0b10a13be494c1772c827976f58486f7bf154fe6a1",
+    "output/kabitalive-design-proposal-2026-09-29/site/build-public.py": "12548a577c2cfdad2c1e8e594e363929ffb01286ae92d391a62e0c4f903b4449",
+    "output/kabitalive-design-proposal-2026-09-29/site/build.py": "68900a0016c22d452144e1bb9c0e6eb9fbe4a3aabb9c5f4bf994fe4c6d04e982",
+    "output/kabitalive-design-proposal-2026-09-29/site/discovery.py": "9472ab185e30269d40ec33a999f2d75f79c87d86b34e23c8995f10ee97c794df",
+    "output/kabitalive-design-proposal-2026-09-29/site/edition-pages.py": "cefa7d1035d80e99edc84efe577a212f7431ca75712f0dbf94a4011e3dd6b2ab",
+    "output/kabitalive-design-proposal-2026-09-29/site/edition_editorial.py": "50687cc34b2743d0a8748d2982fb5d57ebda9cff5f5cd099e5af0909fa94bb14",
+    "output/kabitalive-design-proposal-2026-09-29/site/expanded-pages.py": "76b648decb4f950e8738f1af8300f6fd8374fe1fb8dd8daa56fed274794a0154",
+    "output/kabitalive-design-proposal-2026-09-29/site/language_article.py": "98fbdf33c9c7c7f356e1b6b2dcc91bffc8b1f530ba828c180e99ca9c0798ab9b",
+    "output/kabitalive-design-proposal-2026-09-29/site/our_story.py": "6dd5d9a0341b5fb8f2f7b35a55a7ff70bb1aaf0c42c7a6e10899e5c420311ac6",
+    "output/kabitalive-design-proposal-2026-09-29/site/poem_experience.py": "d8a83ef7abdda70c8295b9c0c947cdfc3f0e46e0e344b332e0adfc85e0245281",
+    "output/kabitalive-design-proposal-2026-09-29/site/poem_reader.py": "ee8a41f5b89c2702ba85f89c8aff5042f99f0618dccf7418b11f2199bcc09ea6",
+    "output/kabitalive-design-proposal-2026-09-29/site/standalone-pages.py": "3b28b226926354c0479a739614856e49c0ccfdc620b097b1b350ab18dbd12dd2",
+    "output/kabitalive-design-proposal-2026-09-29/site/studio_anthology.py": "bc721c397e771f64315760061909b60105bd0b2f31631b5c4a749184335cbdcb",
+    "output/kabitalive-design-proposal-2026-09-29/site/templates/our-story-ai.html": "f7ee158c91dd8df689f4fc7103788cec773832b51179b267f7badcbf1ac290c9",
+    "output/kabitalive-design-proposal-2026-09-29/site/templates/quiet-reader.html": "13bee065b07e459ad07566951f7c267c0ae18f2e4ae8191b5c6c0ae3e6b31087",
+    "output/kabitalive-design-proposal-2026-09-29/site/tests/test_edition_editorial.py": "1287e234abea80a6fb87ecc8dbd8d871bc06962e296c3c35a78ed8d080b92d67",
+    "output/kabitalive-design-proposal-2026-09-29/site/tests/test_studio_anthology.py": "ab996e90c42f52c49a65b973fc978787f9a94f62ef29f0e327a4a08876a33a1f",
+    "output/kabitalive-design-proposal-2026-09-29/site/original_only.py": "6297a942f88a916619f264ff18851193404e71d9f15bd3857e48a3c70b6405dc",
+    "output/kabitalive-design-proposal-2026-09-29/site/tests/test_original_only.py": "69c4356cdb9e4f4b81332c08bb383fcac1a71a9606345fd4c90e77d9a10b17ce"
+  },
+  "release_manifest_sha256": "7774b01b55f1e55be60723e78cc5fe2565d6cbd20debfc295fd24f5c7c70709a",
+  "dist_content_digest": "6d653d1cf3c2a1c7bc189fec8b3261e49f6e6b11411b9968fd45e136879cd439",
+  "next_action": "Root may proceed with separately owner-approved release using reviewed source scope and protected manual publishing controls."
+}

@@ -1,0 +1,122 @@
+{
+  "status": "pass_with_limitations",
+  "reviewer": "Drishti /root/drishti_original_only_review",
+  "independent": true,
+  "review_kind": "Separate AI technical/source-preservation review, not human rights or literary certification",
+  "recorded_at": "2026-11-02T07:10:33.292653+00:00",
+  "scope": "Remove additional website translations; preserve all submitted works, including credited translations. Local candidate only.",
+  "checks": [
+    {
+      "name": "Original renderer parity",
+      "result": "PASS",
+      "detail": "All 830 canonical poem JSON source records retain identical original variant fields/stanzas/inline breaks against saved pre-change renderer."
+    },
+    {
+      "name": "Active inline and collection parity",
+      "result": "PASS",
+      "detail": "828 active originals match generated inline reading-data and reading-all payloads. Original-only language keys and removed translation controls verified."
+    },
+    {
+      "name": "Editorial source preservation",
+      "result": "PASS",
+      "detail": "Issue48 renders only original Odia; issue49 only original English. Every retained source paragraph present; translated quotation renderings absent."
+    },
+    {
+      "name": "Submitted translator credit preservation",
+      "result": "PASS",
+      "poem_ids": [
+        78,
+        130,
+        197,
+        203,
+        219,
+        319,
+        472,
+        797
+      ],
+      "detail": "Each explicit translator-credit source line retained verbatim in generated output."
+    },
+    {
+      "name": "Final public export scan",
+      "result": "PASS",
+      "html_routes": 1346,
+      "collection_assets": 484,
+      "collection_poem_appearances": 2490,
+      "detail": "Original-only gate independently run across final dist HTML and reader assets. No translation-review.html or poem-translations.json; manifest has no PDF/EPUB/ZIP/DOCX download bypass."
+    },
+    {
+      "name": "Original language homepage filters",
+      "result": "PASS",
+      "detail": "Odia/Hindi/English data-feature-language controls retained, selecting distinct submitted works."
+    },
+    {
+      "name": "Focused regression tests",
+      "result": "PASS",
+      "tests": 8,
+      "commands": [
+        "python3 -m unittest discover -s tests -p test_original_only.py",
+        "python3 -m unittest discover -s tests -p test_edition_editorial.py"
+      ]
+    },
+    {
+      "name": "Legacy language fallback",
+      "result": "PASS",
+      "detail": "15 readingCode combinations: each original-language fixture with original/or/hi/en/xx preference resolves to submitted text. Collection-reader normalizes old URL preferences; absent page-tab bookmark target is guarded."
+    },
+    {
+      "name": "Final visual fix and asset cache revision",
+      "result": "PASS",
+      "detail": "Reviewed sibling-qualified toolbar divider CSS and removed obsolete <=360px negative margin. Final dist has collection JS v9, poem CSS26/JS23 and edition CSS19; exported assets match source. Repeated original-only scan of all1346HTML/484reader assets passes."
+    },
+    {
+      "name": "Release scope hash parity",
+      "result": "PASS",
+      "files": 22,
+      "detail": "Every22 release-scope source file matches declared after SHA256; all reviewed-source hashes refreshed."
+    }
+  ],
+  "findings": [],
+  "resolved_observations": [
+    {
+      "detail": "Essay retained a present-service sentence implying added translations; implementer corrected it before final build.",
+      "status": "resolved"
+    },
+    {
+      "detail": "Root browser found orphan toolbar separators after translation control removal; scoped CSS fix separately reviewed and final assets verified. Root performed visual recheck.",
+      "status": "resolved"
+    }
+  ],
+  "limitations": [
+    "Browser visual/interactive checks belong to root evidence; this reviewer performed source, generated-output and focused test verification.",
+    "No physical-device, screen-reader, Safari or Firefox verification.",
+    "Existing source/rights/literary holds are unchanged; no inference of copyright permission for submitted translations.",
+    "No live publication performed or approved."
+  ],
+  "reviewed_source_sha256": {
+    "assets/collection-reader.js": "5401bd34030db22cce0d075dd974338a2ecf788a66dceb6795079cadff08c768",
+    "assets/poem-experience.css": "5f09822c762fc676205300613cbc4947ad1f464c95c174c85c0693294218322a",
+    "assets/poem-experience.js": "a02c798e487294dceedd94c02e4c3a6a1004d90c2f576a583098f38dc7e3eaec",
+    "assets/reading-discovery.css": "dc595231c11dba7b83cd5d0b10a13be494c1772c827976f58486f7bf154fe6a1",
+    "build-public.py": "5b08f2e5b1f3ba78e0643e807f99cff1a3f00f69a3e7db38a0b5ab5f0e2d3dac",
+    "build.py": "68900a0016c22d452144e1bb9c0e6eb9fbe4a3aabb9c5f4bf994fe4c6d04e982",
+    "discovery.py": "9472ab185e30269d40ec33a999f2d75f79c87d86b34e23c8995f10ee97c794df",
+    "edition-pages.py": "cefa7d1035d80e99edc84efe577a212f7431ca75712f0dbf94a4011e3dd6b2ab",
+    "edition_editorial.py": "50687cc34b2743d0a8748d2982fb5d57ebda9cff5f5cd099e5af0909fa94bb14",
+    "expanded-pages.py": "76b648decb4f950e8738f1af8300f6fd8374fe1fb8dd8daa56fed274794a0154",
+    "language_article.py": "98fbdf33c9c7c7f356e1b6b2dcc91bffc8b1f530ba828c180e99ca9c0798ab9b",
+    "original_only.py": "6297a942f88a916619f264ff18851193404e71d9f15bd3857e48a3c70b6405dc",
+    "our_story.py": "6dd5d9a0341b5fb8f2f7b35a55a7ff70bb1aaf0c42c7a6e10899e5c420311ac6",
+    "poem_experience.py": "d8a83ef7abdda70c8295b9c0c947cdfc3f0e46e0e344b332e0adfc85e0245281",
+    "poem_reader.py": "ee8a41f5b89c2702ba85f89c8aff5042f99f0618dccf7418b11f2199bcc09ea6",
+    "standalone-pages.py": "3b28b226926354c0479a739614856e49c0ccfdc620b097b1b350ab18dbd12dd2",
+    "studio_anthology.py": "bc721c397e771f64315760061909b60105bd0b2f31631b5c4a749184335cbdcb",
+    "templates/our-story-ai.html": "f7ee158c91dd8df689f4fc7103788cec773832b51179b267f7badcbf1ac290c9",
+    "templates/quiet-reader.html": "13bee065b07e459ad07566951f7c267c0ae18f2e4ae8191b5c6c0ae3e6b31087",
+    "tests/test_edition_editorial.py": "1287e234abea80a6fb87ecc8dbd8d871bc06962e296c3c35a78ed8d080b92d67",
+    "tests/test_original_only.py": "69c4356cdb9e4f4b81332c08bb383fcac1a71a9606345fd4c90e77d9a10b17ce",
+    "tests/test_studio_anthology.py": "ab996e90c42f52c49a65b973fc978787f9a94f62ef29f0e327a4a08876a33a1f"
+  },
+  "release_manifest_sha256": "a8cd597092d1e83989155941d10f72dab286c5ff4dfe2aa2f765db25a7fa6b0e",
+  "dist_content_digest": "a4c0686d1aaf4499edf08a094dfe2f438d93c50238dbc59b0f8508f638ab84d0",
+  "next_action": "Root integrates browser/complete-suite evidence and presents exact release for owner approval."
+}

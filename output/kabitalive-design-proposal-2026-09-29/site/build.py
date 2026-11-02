@@ -73,7 +73,7 @@ def page(file,title,body,active='',desc=''):
  if file!='index.html' and file not in REVIEW_FILES:
   analytics_scripts+='<link rel="stylesheet" href="assets/mobile-artwork.css?v=1">'
  if 'id="reading-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-reader.css?v=3"><script type="module" src="assets/poem-reader.js?v=9"></script>'
- if 'id="focus-edition-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-experience.css?v=25"><script type="module" src="assets/poem-experience.js?v=22"></script>'
+ if 'id="focus-edition-data"' in body: analytics_scripts+='<link rel="stylesheet" href="assets/poem-experience.css?v=26"><script type="module" src="assets/poem-experience.js?v=23"></script>'
  if file=='contact.html': analytics_scripts+='<script type="module" src="assets/private-feedback.js"></script>'
  if 'data-page-sharing' in body: analytics_scripts+='<script defer src="assets/page-share.js?v=compact-20261015"></script>'
  if 'data-article-responses' in body: analytics_scripts+='<script type="module" src="assets/engagement.js?v=reader-status-20261102"></script>'

@@ -1,0 +1,55 @@
+{
+  "status": "approved_release_verified_ready_to_publish",
+  "date": "2026-11-02",
+  "request": "Can we drop all translations on the site?",
+  "clarification": "Remove additional website translations; retain submitted works",
+  "authorization": "KBL-DEC-129",
+  "scope": "Remove added website poem/editorial/article reading translations, controls and public payloads; retain submitted works including credited translations, sources and private history.",
+  "publication_authorized": true,
+  "counts": {
+    "poem_translation_records": 816,
+    "added_poem_variants": 1632
+  },
+  "submitted_translation_ids_retained": [
+    78,
+    130,
+    197,
+    203,
+    219,
+    319,
+    472,
+    797
+  ],
+  "workers": [
+    "/root/anvesha_translation_inventory",
+    "/root/samanta_original_only",
+    "/root/drishti_original_only_review"
+  ],
+  "baseline": "de73a957efc8eab85f28e3c82bf2c71219fec83c with existing dirty work preserved",
+  "checks": {
+    "node_tests": 274,
+    "python_tests": 74,
+    "public_build": "PASS final original-only discovery build; source JS/CSS cache versions updated",
+    "design_contract": "PASS1346routes",
+    "source_and_export_review": "PASS separate Drishti review",
+    "browser": "artifacts/review/remove-site-translations-2026-11-02/browser.json",
+    "personas": "PASS",
+    "bundle": "PASS"
+  },
+  "modern_web_guidance": {
+    "search": "remove language switcher",
+    "guide": "accessibility",
+    "principle": "Match ARIA implementations to actual behavior; remove unavailable translation controls rather than hide focusable widgets.",
+    "baseline": "Existing Baseline Widely available markup; no new browser API"
+  },
+  "automation": "No matching translation-loop automation directory found in local automation inventory; no schedule created or changed. Public original-only export gate prevents historical drafts from resurfacing.",
+  "scope_artifact": "artifacts/review/remove-site-translations-2026-11-02/release-scope.json",
+  "review_artifact": "artifacts/review/remove-site-translations-2026-11-02/review.json",
+  "publication_note": "Owner explicitly approved the verified translation-removal release; manual protected publication in progress.",
+  "publication_approval": {
+    "quote": "publish",
+    "decision": "KBL-DEC-130",
+    "recorded_at": "2026-11-02T07:13:38.913009+00:00"
+  },
+  "release_integration": "artifacts/review/remove-site-translations-2026-11-02/release-integration.json"
+}

@@ -150,6 +150,6 @@ body.night .edition-opening-vignette img{filter:grayscale(1) invert(1)}
 .edition-icon-toolbar .edition-language-icon:first-child .edition-action-tip{left:0;transform:none}
 .edition-icon-toolbar .edition-language-icon:focus-visible{outline:2px solid var(--rust);outline-offset:1px}
 .edition-contents>.edition-icon-toolbar .edition-entry-actions{position:relative;margin:0;flex-wrap:nowrap;gap:0}
-.edition-icon-toolbar .edition-entry-actions::before{content:"";position:absolute;left:-7px;top:12px;width:1px;height:20px;background:var(--line);pointer-events:none}
+.edition-icon-toolbar .collection-language-front + .edition-entry-actions::before{content:"";position:absolute;left:-7px;top:12px;width:1px;height:20px;background:var(--line);pointer-events:none}
 .edition-icon-toolbar .edition-icon-action{width:44px;height:44px;flex:0 0 44px}
 .edition-icon-toolbar:has(button:focus-visible) button:not(:focus-visible) .edition-action-tip{visibility:hidden;opacity:0}

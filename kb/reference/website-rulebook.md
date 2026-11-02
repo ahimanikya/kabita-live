@@ -346,3 +346,12 @@ Three equal columns on wide desktop (1100px+); two columns with the third card c
 ## About privacy disclosure — 2 November 2026
 
 The About privacy section starts collapsed, using native details/summary. Keep all privacy wording and controls available. Direct links to `about.html#privacy` expand it so visitors can reach their choices. See `../records/about-cleanup-2026-11-02.json`.
+
+## Submitted-language publication — 2 November 2026
+
+Ahimanikya requested removal of all additional website translations and clarified: “Remove additional website translations; retain submitted works.” This supersedes earlier requirements to publish added poem/editorial/article variants or display translation controls. Preserve each submitted work, its wording, language, attribution and credited translator. Historically submitted translations remain published as submitted; this direction does not declare their rights independently verified.
+
+Render only the submitted/source-language version of each work and editorial. Remove additional translation text from reader HTML, embedded data, collection JSON, search input, translated quotation renderings and public exports—not only visible controls. Old language URLs and saved preferences must fall back to the submitted text. Homepage filters selecting different submitted poems by language remain. Preserve source data, private drafts, exact prior variants and review history locally; do not regenerate or republish added variants without a new explicit decision and documented rights. Keep the historical translation review desk out of public export.
+
+Update current-service explanations without removing translator biographies, credits or general literary discussion. Retain accessible reading, bookmarks, sharing, themes, service consent and stable poem/edition routes. This is local preparation authority; every website publication still needs approval of its exact release. [Scope and checks](../records/remove-site-translations-2026-11-02.json).
+

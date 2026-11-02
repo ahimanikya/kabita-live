@@ -1,0 +1,17 @@
+{
+  "reviewer": "Disha /root self-review",
+  "preview": "http://127.0.0.1:59306/",
+  "checks": {
+    "legacy_poem_lang_en": "poem835 displays submitted Odia, zero translation controls",
+    "quiet_reader": "opens, paginates in submitted language",
+    "bookmark": "added and removed temporary bookmark successfully",
+    "phone": "390x844, document scrollWidth390, no horizontal overflow",
+    "theme": "System/Light/Dark works in phone quiet reader, restored System",
+    "legacy_editorial_en": "issue48 retains original Odia editorial; translated excerpt renderings absent",
+    "toolbar_separator": "Removed; final390px screenshot verified"
+  },
+  "limitations": [
+    "One browser engine; physical devices, screen-reader speech, enlarged text and Firefox/Safari not tested."
+  ],
+  "screenshot": "phone.png"
+}

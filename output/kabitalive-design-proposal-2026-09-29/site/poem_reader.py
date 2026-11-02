@@ -3,10 +3,10 @@ from html import escape
 from pathlib import Path
 import hashlib,json
 from poem_end_marks import end_mark_kind,end_mark_html
-from translation_layout import validate_layout
 ROOT=Path(__file__).resolve().parent
 LABELS={'hi':'हिन्दी','or':'ଓଡ଼ିଆ','en':'English'}
-TRANSLATIONS=json.loads((ROOT/'data/poem-translations.json').read_text())
+# Historical translation drafts remain private; public readers use source text only.
+TRANSLATIONS={}
 ENDINGS=json.loads((ROOT/'data/poem-endings.json').read_text())
 SPACING=json.loads((ROOT/'data/poem-spacing.json').read_text())
 def reader_stanzas(source,stanzas,layout=None):
@@ -38,16 +38,9 @@ def inline_html(text,breaks):
 def render_reader(source):
  lang=source['language']
  variants={lang:{'label':LABELS[lang],'title':source['title'],'kind':'Original','stanzas':source['stanzas']}}
- translation=TRANSLATIONS.get(str(source['id']))
- if translation:
-  assert translation['source_sha256']==hashlib.sha256(source['text'].encode()).hexdigest(), 'Translation source changed'
-  for code,v in translation['variants'].items():
-   assert code in LABELS and code!=lang and v['stanzas']
-   variants[code]={k:v[k] for k in ['label','title','kind','stanzas']}
  for code,v in variants.items():
-  layout=validate_layout(source,translation['variants'][code]) if code!=lang else None
-  v['stanzas']=reader_stanzas(source,v['stanzas'],layout)
-  v['inline_breaks']=layout['inline_breaks'] if layout else SPACING.get(str(source['id']),{}).get('inline_breaks',{}).get(code,[])
+  v['stanzas']=reader_stanzas(source,v['stanzas'])
+  v['inline_breaks']=SPACING.get(str(source['id']),{}).get('inline_breaks',{}).get(code,[])
  data={'id':source['id'],'source_language':lang,'variants':variants,'end_mark':end_mark_kind(source['id'])}
  serialized=json.dumps(data,ensure_ascii=False).replace('<','\\u003c')
  tabs=''.join(f'<button type="button" role="tab" id="tab-{code}" data-reading-language="{code}" lang="{code}" aria-selected="{str(code==lang).lower()}" aria-controls="reading-panel" tabindex="{0 if code==lang else -1}">{escape(v["label"])}<span lang="en">{v["kind"]}</span></button>' for code,v in variants.items())
@@ -70,5 +63,5 @@ def render_reader(source):
 <div class="reader-tools"><div class="mark-tools"><button type="button" class="clear-marks" id="clear-marks" hidden>Clear marks</button></div></div>
 <div id="selection-tools" class="selection-tools" role="toolbar" aria-label="Selected text" hidden><button id="underline-selection" type="button">Underline selection</button><button id="erase-selection" type="button">Erase</button><button id="dismiss-selection" type="button" aria-label="Dismiss selection">×</button></div>
 <div id="reading-panel" {panel_attributes} tabindex="0"><div id="experience-verse" class="verse {lang}" lang="{lang}">{original_html}</div>{end_mark_html(source['id'])}{availability}</div>
-<noscript><p>Translations and underlining need JavaScript. The original poem remains above.</p></noscript>
+<noscript><p>Underlining needs JavaScript. The poem remains readable above.</p></noscript>
 </article><script type="application/json" id="reading-data">{serialized}</script></div>'''

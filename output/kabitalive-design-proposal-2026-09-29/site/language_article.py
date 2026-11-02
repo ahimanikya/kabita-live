@@ -11,6 +11,8 @@ def render_language_article(site):
     metadata = json.loads((source / 'thirty-languages.json').read_text())
     dimensions = json.loads((source / 'thirty-languages-images.json').read_text())
     body = (source / 'thirty-languages.html').read_text()
+    body = body.replace('On Kabita Live, readers can return to the original and choose an available Odia, Hindi or English version. A missing version should remain visibly unavailable until there is a translation to read.', 'Kabita Live presents poems in their submitted languages. Any future translation requires permission from the rights holder before publication.')
+    body = body.replace('These three languages give the magazine a clear field of attention: poems written in each language, and translations that let readers encounter work they might otherwise miss.', 'These three languages give the magazine a clear field of attention: submitted poems in each language, with their wording and credits preserved.')
     body = body.replace('<article>', '<article class="language-essay" aria-labelledby="article-title">', 1)
     body = body.replace('<h1>', '<h1 id="article-title">', 1)
     body = body.replace('class="lead"', 'class="lead article-lead"', 1)

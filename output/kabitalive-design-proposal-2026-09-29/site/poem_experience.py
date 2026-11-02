@@ -90,28 +90,16 @@ def enhance_poem(body,p,data):
         body=body.replace('<!--poem-context-->',edition_panel(p,menu),1)
     else:
         body=body.replace('</figure>',edition_panel(p,menu)+'</figure>',1)
-    # Original is a distinct, visible choice; the other two are translations.
-    choices=[]
-    languages=[('or','ଅ','ଓଡ଼ିଆ','Odia'),('hi','अ','हिन्दी','Hindi'),('en','A','English','English')]
-    languages.sort(key=lambda item:item[0]!=data['source_language'])
-    for code,glyph,native,name in languages:
-        enabled=code in data['variants'];selected=code==data['source_language']
-        choice='original' if selected else code
-        hint=f'Original · {name}' if selected else f'{name} translation'+(' unavailable' if not enabled else '')
-        accessible=f'Original {glyph} · {name}' if selected else f'{glyph} · {hint}'
-        label=f'<span class="original-label" lang="en">Original</span> <span class="original-language" lang="{code}">{glyph}</span>' if selected else glyph
-        attrs='' if enabled else ' disabled'
-        choices.append(f'<button type="button" role="tab" id="tab-{choice}" data-reading-language="{choice}" lang="{code}" aria-label="{accessible}" title="{hint}" aria-selected="{str(selected).lower()}" aria-controls="reading-panel" tabindex="{0 if selected else -1}"{attrs}>{label}<span class="poem-language-tip" aria-hidden="true">{hint}</span></button>')
     old=re.search(r'(?:<div class="experience-bar">.*?)?<div class="reader-tools">.*?(?=<div id="selection-tools")',body,re.S)
     if not old:raise ValueError(f'Missing reader controls for {p["id"]}')
     body=body[:old.start()]+body[old.end():]
-    language_controls='<div class="language-front poem-language-front"><div class="reading-tabs" role="tablist" aria-label="Poem language">'+''.join(choices)+'</div></div>'
+    language_controls=''
     body=body.replace('<div class="poem-actions" role="group" aria-label="Poem actions">',language_controls+'<div class="poem-actions" role="group" aria-label="Poem actions">',1)
     panel='<section id="page-bookmarks" aria-label="Reader tools" hidden><div class="page-tools-head"><strong>Reader tools</strong><button id="page-bookmarks-close" type="button" aria-label="Close reader tools">×</button></div><button id="page-save-place" type="button">Bookmark this poem</button><details id="page-saved-details"><summary>Saved places &amp; passages</summary><div id="page-saved-list"></div><div class="mark-tools"><button type="button" class="clear-marks" id="clear-marks" hidden>Clear marks</button></div></details><p class="page-tools-tip">Select words in the poem to underline them. Saved on this device.</p><span id="page-saved-status" class="sr-only" role="status"></span></section>'
     body=body.replace('<div class="poem-actions" role="group" aria-label="Poem actions">','<div class="poem-actions" role="group" aria-label="Poem actions"><button id="page-bookmarks-button" type="button" aria-label="Bookmarks and saved passages" title="Bookmarks and saved passages" aria-expanded="false" aria-controls="page-bookmarks">'+reader_action_icon('bookmark')+'<span>Bookmarks</span></button>',1)
     body,count=re.subn(r'</div></div>(<(?:figure|aside) class="poem-art)',lambda m:'</div>'+panel+'</div>'+m[1],body,count=1)
     if count!=1:raise ValueError(f'Missing reader-tools insertion point for {p["id"]}')
-    body=re.sub(r'<div id="reading-panel"[^>]*>', '<div id="reading-panel" role="tabpanel" aria-labelledby="tab-original" tabindex="0">',body,count=1)
+    body=re.sub(r'<div id="reading-panel"[^>]*>', '<div id="reading-panel" role="region" aria-label="Poem text" tabindex="0">',body,count=1)
     # No-JavaScript verse also suppresses decoration, retaining source text in hidden spans.
     body=re.sub(r'(?P<prefix><p class="stanza">|<br>)(?P<text>[*＊_—–=\-\s]{3,})(?=<br>|</p>)',lambda m:m['prefix']+'<span class="source-end-marker" hidden>'+m['text']+'</span>',body)
     dataset={'url':f'assets/reading-editions/issue-{p["edition"]}.json'} if p['edition'] else {}

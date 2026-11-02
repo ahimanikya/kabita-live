@@ -405,7 +405,7 @@ function placePageMenu(){
 }
 window.addEventListener('resize',placePageMenu);
 $('#page-saved-details').addEventListener('toggle',placePageMenu);
-function jumpPage(code,line){$(`[data-reading-language="${poemChoice(pageData,code)}"]`).click();closeSavedPage();const target=pageVerse.querySelector(`[data-line="${line}"]`);if(target){target.tabIndex=-1;target.scrollIntoView({block:'center',behavior:'auto'});target.focus({preventScroll:true})}}
+function jumpPage(code,line){$(`[data-reading-language="${poemChoice(pageData,code)}"]`)?.click();closeSavedPage();const target=pageVerse.querySelector(`[data-line="${line}"]`);if(target){target.tabIndex=-1;target.scrollIntoView({block:'center',behavior:'auto'});target.focus({preventScroll:true})}}
 function renderPageSaved(){
  const list=$('#page-saved-list');list.replaceChildren();const current=pageBooks().find(b=>b.language===pageCode());$('#page-save-place').textContent=current?'Remove bookmark':'Bookmark this poem';
  function row(label,detail,go,remove){const node=document.createElement('div'),button=document.createElement('button'),del=document.createElement('button');node.className='focus-saved-row';button.textContent=label;button.setAttribute('aria-label',label+' · '+detail);button.onclick=go;del.textContent='×';del.setAttribute('aria-label','Remove '+detail);del.onclick=()=>{remove();renderPageSaved();refreshSavedButton()};node.append(button,del);list.append(node)}
