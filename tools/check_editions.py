@@ -50,7 +50,11 @@ def main():
     need(sorted(i['number'] for i in issues)==list(range(1,48))+sorted(e['edition'] for e in imports), 'Edition numbers differ from historical baseline plus registered imports')
     for entry in imports:
         actual=next((i for i in issues if i['number']==entry['edition']),None)
-        need(actual is not None and actual['poem_ids']==entry['poem_ids'] and actual['listed_poem_ids']==entry['listed_poem_ids'],f'Edition {entry["edition"]}: sync registry differs')
+        # Imports retain the historical capture; approved archival removals affect
+        # active edition membership without rewriting that provenance.
+        expected_ids=[pid for pid in entry['poem_ids'] if pid not in archived]
+        expected_listed=[pid for pid in entry['listed_poem_ids'] if pid not in archived]
+        need(actual is not None and actual['poem_ids']==expected_ids and actual['listed_poem_ids']==expected_listed,f'Edition {entry["edition"]}: sync registry differs')
     need(len(poems)==len(by_id)==801+len(additional), 'Captured poem count differs from historical baseline plus imports')
     memberships=[pid for i in issues for pid in i['poem_ids']]
     need(len(memberships)==len(set(memberships))==800+len(additional)-len(archived), 'Edition membership must exclude archived records')
