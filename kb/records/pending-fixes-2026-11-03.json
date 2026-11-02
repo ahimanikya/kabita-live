@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "status": "integrated-awaiting-final-release-checks",
+  "status": "published-verified; December candidate review complete",
   "authorization": {
     "quote": "All good, let's pickupand fix all",
     "scope": "Publish prepared editorial languages update, repair KB links, close app checks and inspect December readiness"
@@ -19,17 +19,20 @@
       "personas": "PASS four unchanged assignments",
       "editions": "PASS;17 current poems,827 active",
       "reconciliation": "PASS: retained all six withdrawal paragraphs, original-language quote corrections and removed poem links",
-      "local_build": "Full rebuild stopped during social images under disk pressure; browser/source checks passed; clean GitHub build required before deployment"
+      "local_build": "Social images recovered; Astro confirmed ENOSPC. Removed only incomplete generated dist and export staging. Full clean GitHub build passed.",
+      "ci": "PASS:283 Node tests,85 Python tests,65 Firestore rules tests and20 anthology/photo rules tests;1841files with zero disclosure violations",
+      "live": "Issues48/49 three languages; English default observed in live browser;27source-language blockquote appearances; Issue49 withdrawn poem absent",
+      "handoff": "Source and portable handoff synchronized and storage-verified; final receipt sync required."
     }
   },
   "december": {
-    "status": "awaiting-editorial-selection",
+    "status": "review-complete-awaiting-real-content",
     "poems": 0,
     "editorial": false,
     "cover": true,
     "monthly_inbox_submissions": 2,
     "december_selections": 0,
-    "action": "No private content altered; user clarification pending"
+    "action": "Reviewed both received submissions on explicit user request: both are synthetic setup/receipt tests, zero real poetry candidates. No content changed, selected, rejected or messaged. December remains private."
   },
   "guidance": {
     "source": "Existing local HTML and accessibility snapshot",
@@ -37,5 +40,7 @@
     "applied": "Native language anchors, current selection state, explicit lang on quoted text"
   },
   "evidence": "artifacts/review/pending-fixes-2026-11-03/",
-  "publication": "Existing discovery workflow; no changes to private runtime permissions or DNS."
+  "publication": "Protected manual discovery publication succeeded; live hashes and three-language editorials verified.",
+  "commit": "15cc9da04637030f991952ff9d52bb7db84b250e",
+  "workflow_url": "https://github.com/ahimanikya/kabita-live/actions/runs/41513864996"
 }

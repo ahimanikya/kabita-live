@@ -1,0 +1,26 @@
+{
+  "reviewed_at": "2026-11-02T19:56:55.081475+00:00",
+  "authorization": "Review the two inbox submissions as candidates; keep the issue private",
+  "executor": "Current chat assistant; Anvesha role pass; self-review",
+  "entries": [
+    {
+      "id": "KBLMonthlyTest261026",
+      "classification": "Synthetic setup test",
+      "poem_text_present": false,
+      "candidate": false,
+      "reason": "Name and title explicitly identify setup/email delivery test; no poem text in submission."
+    },
+    {
+      "id": "TkorUyS2in0e93dijhq6",
+      "classification": "Synthetic receipt verification test",
+      "poem_text_present": true,
+      "candidate": false,
+      "reason": "Title, biography and text explicitly identify synthetic receipt test, not a contributor poem."
+    }
+  ],
+  "real_poetry_candidates": 0,
+  "changes_to_private_records": false,
+  "selection_changes": false,
+  "messages_sent": false,
+  "december_status": "Private draft with cover; actual submissions, editorial and human readiness checks still needed"
+}
