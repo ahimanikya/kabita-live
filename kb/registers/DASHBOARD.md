@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `469f7e6a996067666999f84683b7c469d0af7eb2d7707f55eb48c9d7adf5586f`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ecbfdac66a5fd2bde3745621ac78c613e42beca96d8306a97eea0795d98d0fec`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -317,7 +317,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-932 | 2026-10-20T00:12:13.474318+00:00 | User authorized publication of the completed Ink & Voice redesign. Prepared isolated latest-main release; scoped source transfer preserves all poetry and current service settings. Build and release checks in progress. | — |
 | KBL-EVT-933 | 2026-10-20T00:26:25.830765+00:00 | Published Ink & Voice from latest main at21e9ba1e0 through manual discovery workflow39346758248. Hosted build,211local tests and hosted Firestore rule checks passed. Live checked28URLs/assets, desktop and320/360/390px reading, both themes, Original badges, cover navigation, rotation and comments layout. Source content, artwork, service configuration, consent, DNS and editorial gates preserved. No native-device or independent-review claim. | — |
 | KBL-EVT-934 | 2026-10-20T01:01:33.749739+00:00 | User approved uploading the held publication verification records after the automatic-review notice. Checked the scoped logs for exposed credentials and the screenshots for private submissions; prepared a documentation-only repository update. Website publication remains successful; no new deployment. | — |
 | KBL-EVT-935 | 2026-10-20T01:03:15.390242+00:00 | Uploaded 28 approved documentation/evidence files to GitHub main in 828dc1eb15844dc7384df340d442dd3ae7a47bb0 and verified the remote commit. Bundle and portable storage checks passed. No website changes or redeployment. Prior automatic-review hold is resolved by explicit user approval. | — |
@@ -327,6 +326,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-1038 | 2026-11-02T19:13:43.812878+00:00 | Implemented owner-approved translation cleanup locally: removed poem translation preparation, gates, proofs and exports; preserved editorial translations, submitted credits and private legacy drafts; archived retired data and tools with hashes. Full build and 361 automated tests pass. No publication. | — |
 | KBL-EVT-1039 | 2026-11-02T19:23:50.994876+00:00 | Ahimanikya explicitly instructed “publish” for the verified translation cleanup. Preparing existing discovery-mode release from unchanged latest remote base, retaining protected approval gate and private December draft. | — |
 | KBL-EVT-1040 | 2026-11-02T19:33:06.689114+00:00 | Published approved translation cleanup b4380efbc through manual discovery run41509650308. All release checks and deployment passed. Live checks confirm six exact source hashes, three retired routes404, and working Studio/poem/edition pages. Editorial support, archived drafts and submitted credits preserved. | — |
+| KBL-EVT-1041 | 2026-11-02T19:51:35.675070+00:00 | Owner approved finishing pending items. Integrated three-language editorial/English-default update with original-language quotes, preserving Issue49 withdrawal. Repaired three KB links; user reports physical phone installation/sign-in/drafts work. December has cover but no selected poems or editorial; kept private. Clean CI verification required before approved publication. | — |
 
 ## Deferred extensions
 

@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "path": "edition_editorial.py",
+      "before_sha256": "50687cc34b2743d0a8748d2982fb5d57ebda9cff5f5cd099e5af0909fa94bb14",
+      "after_sha256": "d692c7ad2eef14a1fc3a61452d020693021d52c5fc11d27640598c3b8c2c4541"
+    },
+    {
+      "path": "original_only.py",
+      "before_sha256": "6297a942f88a916619f264ff18851193404e71d9f15bd3857e48a3c70b6405dc",
+      "after_sha256": "75139f3b9dd127aae4e853dab428ad22f65086faea1609cc59c3d93b58f227c8"
+    },
+    {
+      "path": "assets/edition-editorial.js",
+      "before_sha256": "d13fa62f7b3d7038fa5ac329065e5b0f4c176a36ebce554a777d6517ad1edc63",
+      "after_sha256": "c2d4644b5659dd431d4f70f891a8fde191c81d8e21ca2a459034fc6c2108f4ee"
+    },
+    {
+      "path": "tests/test_edition_editorial.py",
+      "before_sha256": "1287e234abea80a6fb87ecc8dbd8d871bc06962e296c3c35a78ed8d080b92d67",
+      "after_sha256": "9ec7963f5805dc55c1ef4158cab0a4d9759b5028db24306fdaf3da531c42582d"
+    },
+    {
+      "path": "tests/test_original_only.py",
+      "before_sha256": "69c4356cdb9e4f4b81332c08bb383fcac1a71a9606345fd4c90e77d9a10b17ce",
+      "after_sha256": "a4a1c5ff2e32cb3062aa815408aefcb19a16252a4b705386cc56fa2a8cadbc29"
+    },
+    {
+      "path": "tests/edition-editorial.test.mjs",
+      "before_sha256": "83aa82381a212077ccc8f23dc2521cef4f47caced178b27be6d5b2ce2eaa4ea5",
+      "after_sha256": "2302038298f8936c4e95deba4baaf7f22a44815c1a02423db891a944ba2c0363"
+    },
+    {
+      "path": "content/editorials/issue-49.json",
+      "before_sha256": "f8bc60b48a1614a3b6a37fa449bcafa0c9a96216f64789bc0d85f7fc09a7cff7",
+      "after_sha256": "4a17c0f6d12551fac69e9474db493226b0bd89f307771cd40708950817cbbcef"
+    },
+    {
+      "path": "assets/edition-editorial.css",
+      "before_sha256": "8df4746c7ffe5fda24867db1f71487da0e57888148882ce9e72eb06ee4eee73f",
+      "after_sha256": "d57222d8fc11e0565a3f74ba1d2a309eb0e48b396495e7206e53db36de3fe26a"
+    }
+  ],
+  "reconciliation": "Preserved all current issue49 poem837 removal edits (paragraphs1/11 and paragraph_poem_ids); applied only disjoint eight original-quote corrections and inline language metadata."
+}

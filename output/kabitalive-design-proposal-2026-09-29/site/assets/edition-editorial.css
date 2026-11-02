@@ -39,3 +39,6 @@ body.night .editorial-vignette img{filter:grayscale(1) invert(1)}
 .edition-editorial-illustrated .editorial-vignette img{aspect-ratio:3/2;height:auto;filter:none}
 body.night .edition-editorial-illustrated .editorial-vignette img{filter:none}
 @media(max-width:700px){.edition-editorial-illustrated .editorial-quote-layout:has(.editorial-vignette){grid-template-columns:minmax(0,1fr);gap:20px}.edition-editorial-illustrated .editorial-quote-layout .editorial-vignette{width:min(100%,360px);justify-self:center}}
+
+/* Original-language quotations keep their reading face inside translated prose. */
+.editorial-prose span[lang="en"]{font-family:var(--serif)}

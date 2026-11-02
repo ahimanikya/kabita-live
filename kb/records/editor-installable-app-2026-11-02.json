@@ -33,10 +33,9 @@
     "retrieved_sha256": "359fcda67e2a3b73caacc7999189fa458dfecdb15fc6ec59f154c0bd1709ce40"
   },
   "limitations": [
-    "Physical iOS/Android installation not tested",
-    "Google sign-in within an installed window not tested; existing sign-in implementation unchanged",
     "No offline editing feature; internet required for shared work",
-    "Native installability diagnostics unavailable in embedded test browser"
+    "Native installability diagnostics unavailable in embedded test browser",
+    "User confirms installation/sign-in/shared drafts on a physical phone; separate iOS and Android coverage not established."
   ],
   "verification": {
     "focused_tests": "8 JS + 4 Python PASS",
@@ -104,5 +103,12 @@
   ],
   "live_verification": "artifacts/review/editor-installable-app-2026-11-02/live-verification.json",
   "live_manifest": "artifacts/review/editor-installable-app-2026-11-02/live-manifest.json",
-  "next_draft": "artifacts/review/editor-installable-app-2026-11-02/next-draft.json"
+  "next_draft": "artifacts/review/editor-installable-app-2026-11-02/next-draft.json",
+  "physical_phone_verification": {
+    "reported_at": "2026-11-02T19:48:26.659457+00:00",
+    "reporter": "Ahimanikya Satapathy",
+    "quote": "Installed, signed in and drafts opened",
+    "scope": "Physical phone installation, Google sign-in and opening shared drafts",
+    "verification": "User-reported successful test; phone platform not specified; not a claim of separate iOS and Android coverage"
+  }
 }

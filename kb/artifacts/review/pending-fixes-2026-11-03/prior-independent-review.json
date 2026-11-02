@@ -1,0 +1,127 @@
+{
+  "task": "editorial-languages-2026-11-02",
+  "reviewer": "Drishti /root/drishti_editorial_languages",
+  "independent": true,
+  "review_kind": "separate AI review, not human literary approval",
+  "recorded_at": "2026-11-02T15:54:23.537437+00:00",
+  "status": "pass_with_limitations",
+  "baseline": "62dba85cc6fcc23d8c21c275df33d7b69694ec91",
+  "reviewed_files": [
+    {
+      "path": "edition_editorial.py",
+      "before_sha256": "50687cc34b2743d0a8748d2982fb5d57ebda9cff5f5cd099e5af0909fa94bb14",
+      "after_sha256": "d692c7ad2eef14a1fc3a61452d020693021d52c5fc11d27640598c3b8c2c4541",
+      "primary_sha256": "d692c7ad2eef14a1fc3a61452d020693021d52c5fc11d27640598c3b8c2c4541"
+    },
+    {
+      "path": "original_only.py",
+      "before_sha256": "6297a942f88a916619f264ff18851193404e71d9f15bd3857e48a3c70b6405dc",
+      "after_sha256": "75139f3b9dd127aae4e853dab428ad22f65086faea1609cc59c3d93b58f227c8",
+      "primary_sha256": "75139f3b9dd127aae4e853dab428ad22f65086faea1609cc59c3d93b58f227c8"
+    },
+    {
+      "path": "assets/edition-editorial.js",
+      "before_sha256": "d13fa62f7b3d7038fa5ac329065e5b0f4c176a36ebce554a777d6517ad1edc63",
+      "after_sha256": "c2d4644b5659dd431d4f70f891a8fde191c81d8e21ca2a459034fc6c2108f4ee",
+      "primary_sha256": "c2d4644b5659dd431d4f70f891a8fde191c81d8e21ca2a459034fc6c2108f4ee"
+    },
+    {
+      "path": "tests/test_edition_editorial.py",
+      "before_sha256": "1287e234abea80a6fb87ecc8dbd8d871bc06962e296c3c35a78ed8d080b92d67",
+      "after_sha256": "9ec7963f5805dc55c1ef4158cab0a4d9759b5028db24306fdaf3da531c42582d",
+      "primary_sha256": "9ec7963f5805dc55c1ef4158cab0a4d9759b5028db24306fdaf3da531c42582d"
+    },
+    {
+      "path": "tests/test_original_only.py",
+      "before_sha256": "69c4356cdb9e4f4b81332c08bb383fcac1a71a9606345fd4c90e77d9a10b17ce",
+      "after_sha256": "a4a1c5ff2e32cb3062aa815408aefcb19a16252a4b705386cc56fa2a8cadbc29",
+      "primary_sha256": "a4a1c5ff2e32cb3062aa815408aefcb19a16252a4b705386cc56fa2a8cadbc29"
+    },
+    {
+      "path": "tests/edition-editorial.test.mjs",
+      "before_sha256": "83aa82381a212077ccc8f23dc2521cef4f47caced178b27be6d5b2ce2eaa4ea5",
+      "after_sha256": "2302038298f8936c4e95deba4baaf7f22a44815c1a02423db891a944ba2c0363",
+      "primary_sha256": "2302038298f8936c4e95deba4baaf7f22a44815c1a02423db891a944ba2c0363"
+    },
+    {
+      "path": "content/editorials/issue-49.json",
+      "before_sha256": "cd8e5c6a8efc8ab13268993846e555a939e5a1ae006d18bc71a747398815b74d",
+      "after_sha256": "d4f954dc4ecee60d766101b516da0772291dac98c67e7247c89f9e480859f875",
+      "primary_sha256": "4a17c0f6d12551fac69e9474db493226b0bd89f307771cd40708950817cbbcef"
+    },
+    {
+      "path": "assets/edition-editorial.css",
+      "before_sha256": "8df4746c7ffe5fda24867db1f71487da0e57888148882ce9e72eb06ee4eee73f",
+      "after_sha256": "d57222d8fc11e0565a3f74ba1d2a309eb0e48b396495e7206e53db36de3fe26a",
+      "primary_sha256": "d57222d8fc11e0565a3f74ba1d2a309eb0e48b396495e7206e53db36de3fe26a"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Exact integrated source hashes",
+      "result": "pass",
+      "count": 8
+    },
+    {
+      "name": "English default, explicit hashes, independent poem query, language state and fallback",
+      "result": "pass",
+      "evidence": "4 focused JS tests independently rerun"
+    },
+    {
+      "name": "Rendering and safety regressions",
+      "result": "pass",
+      "evidence": "9 renderer +5 publication-boundary Python tests independently rerun"
+    },
+    {
+      "name": "Full suite",
+      "result": "pass",
+      "evidence": "Parent-produced /tmp/kbl-editorial-tests.log:275Node79Python; inspected, not rerun"
+    },
+    {
+      "name": "Exact quotation preservation",
+      "result": "pass",
+      "evidence": "All9structured quotes ×3languages=27exact language-marked appearances;12inline metadata entries preserve language and linebreaks;9canonical quoted poem file hashes unchanged"
+    },
+    {
+      "name": "Content correction scope",
+      "result": "pass",
+      "evidence": "Only8intended prose quote substitutions plus inline metadata differ in isolated issue49; all other editorial fields and English prose unchanged from before snapshot"
+    },
+    {
+      "name": "Public export boundary",
+      "result": "pass",
+      "evidence": "Independently parsed1346distHTML and484readerJSON; no poem translation controls/payloads or translated-excerpt classes"
+    },
+    {
+      "name": "Actual exported editorials",
+      "result": "pass",
+      "evidence": "issue48/49contain3versions English-first;27exact structured quote appearances; CSSv10 present"
+    },
+    {
+      "name": "Build completion",
+      "result": "pass",
+      "evidence": "Final /tmp/kbl-editorial-build.log ends with disclosure check1842files0violations"
+    }
+  ],
+  "resolved_findings": [
+    {
+      "finding": "English inline quotes inherited Odia/Hindi font",
+      "resolution": "Scoped span[lang=en] font-family var(--serif) plus CSSv10; source inspected, computed browser check left to root"
+    },
+    {
+      "finding": "Concurrent primary poem837withdrawal changed editorial paragraphs1/11",
+      "resolution": "Isolated candidate rebuilt from preserved baseline plus8quote corrections; primary concurrent work preserved; final release content has18poems and unchanged paragraph11"
+    }
+  ],
+  "concurrent_work_excluded": "Primary issue49 has other-chat poem837 withdrawal prose changes (18 to17 and paragraph11). Isolated release reconstructed from before + exact quote corrections; primary concurrent edits retained.",
+  "limitations": [
+    "Browser visual/keyboard/phone checks delegated to root and not independently performed here.",
+    "No physical devices, Firefox/Safari, screen-reader speech or native200percentzoom certification.",
+    "No new translation/literary rights or fluent-reader certification; existing prose reused.",
+    "No publication performed or authorized by this review."
+  ],
+  "output_hashes": {
+    "issue-48.html": "27e4542cc46812a0057bf2193b815ead47355ab3b275c90827c54468f4056490",
+    "issue-49.html": "0e32ec61d5ef09a16deb759ca1df8e6f5aaab4df5d809d14b7e0e7b4f208272d"
+  }
+}

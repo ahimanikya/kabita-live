@@ -3,6 +3,7 @@ document.querySelectorAll('.edition-editorial').forEach(section => {
   const links = [...section.querySelectorAll('[data-editorial-language]')];
   const articles = [...section.querySelectorAll('.editorial-prose')];
   const select = lang => {
+    if (!articles.some(article => article.lang === lang)) return;
     articles.forEach(article => { article.hidden = article.lang !== lang; });
     links.forEach(link => {
       if (link.dataset.editorialLanguage === lang) link.setAttribute('aria-current', 'true');

@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-03",
+  "status": "integrated-awaiting-final-release-checks",
+  "authorization": {
+    "quote": "All good, let's pickupand fix all",
+    "scope": "Publish prepared editorial languages update, repair KB links, close app checks and inspect December readiness"
+  },
+  "changes": [
+    "Integrated eight prepared editorial files, preserving latest Issue49 withdrawal edits",
+    "Restored two missing canonical records from the original workspace and added a local role index without changing assignments",
+    "Recorded user-reported successful phone installation, Google sign-in and shared draft access"
+  ],
+  "review": {
+    "independent": false,
+    "prior_review": "artifacts/review/pending-fixes-2026-11-03/prior-independent-review.json",
+    "browser": "English default; Odia keyboard activation; Hindi at390px with no horizontal overflow; original-language blockquotes; withdrawn poem837 absent",
+    "checks": {
+      "bundle": "PASS; all three broken links resolved",
+      "personas": "PASS four unchanged assignments",
+      "editions": "PASS;17 current poems,827 active",
+      "reconciliation": "PASS: retained all six withdrawal paragraphs, original-language quote corrections and removed poem links",
+      "local_build": "Full rebuild stopped during social images under disk pressure; browser/source checks passed; clean GitHub build required before deployment"
+    }
+  },
+  "december": {
+    "status": "awaiting-editorial-selection",
+    "poems": 0,
+    "editorial": false,
+    "cover": true,
+    "monthly_inbox_submissions": 2,
+    "december_selections": 0,
+    "action": "No private content altered; user clarification pending"
+  },
+  "guidance": {
+    "source": "Existing local HTML and accessibility snapshot",
+    "network_retrieval": "Automatic review rejected execution of unpinned latest package; no bypass attempted",
+    "applied": "Native language anchors, current selection state, explicit lang on quoted text"
+  },
+  "evidence": "artifacts/review/pending-fixes-2026-11-03/",
+  "publication": "Existing discovery workflow; no changes to private runtime permissions or DNS."
+}

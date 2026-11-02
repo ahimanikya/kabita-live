@@ -1,0 +1,82 @@
+{
+  "recorded_at": "2026-10-21T01:43:17.376002+00:00",
+  "status": "completed_verified",
+  "decision": "KBL-DEC-086",
+  "work": "KBL-WORK-066",
+  "quote": "Add all the JD missing",
+  "executor": "Current chat assistant; Disha documentation / Drishti self-review",
+  "independent": false,
+  "scope": "Complete the three missing human JDs; link all seven recorded members.",
+  "added_jds": [
+    {
+      "id": "KBL-JD-005",
+      "version": "1.0.0",
+      "member": "Ahimanikya Satapathy",
+      "path": "roles/KBL-PL-Ahimanikya-JD.md"
+    },
+    {
+      "id": "KBL-JD-006",
+      "version": "1.0.0",
+      "member": "Pradeep Biswal",
+      "path": "roles/KBL-ED-Pradeep-JD.md"
+    },
+    {
+      "id": "KBL-JD-007",
+      "version": "1.0.0",
+      "member": "Paresh Kumar Pattnaik",
+      "path": "roles/KBL-ME-Paresh-JD.md"
+    }
+  ],
+  "jd_index": "roles/index.md",
+  "human_assignments": "team/human-assignments.json",
+  "preserved": [
+    "Contents and versions of four existing AI JDs; persona execution model. Only JD filenames/references were renamed at user direction.",
+    "Pradeep Biswal and Paresh Kumar Pattnaik canonical names and exact supplied emails",
+    "Ahimanikya-only explicit approval for each website release",
+    "All website source and service settings; existing unrelated work"
+  ],
+  "scope_notes": [
+    "JDs prepared under the user request, using confirmed titles, existing authority and the pinned role/JD standard.",
+    "No employment start dates, compensation, fixed schedules or formal reporting lines invented.",
+    "Role-holder acknowledgement not collected or claimed; no new account access or invitations.",
+    "No website release, Git push or messages to contributors."
+  ],
+  "evidence": [
+    "artifacts/review/human-job-descriptions-2026-10-21/before",
+    "history/evidence/initial-capture/persona-setup/upstream/kb/templates/role-and-jd-standard.md",
+    "artifacts/review/human-job-descriptions-2026-10-21/jd-coverage.json",
+    "artifacts/review/human-job-descriptions-2026-10-21/verification.json",
+    "artifacts/review/human-job-descriptions-2026-10-21/first-name-renames.json",
+    "artifacts/review/human-job-descriptions-2026-10-21/prefixed-renames.json"
+  ],
+  "completed_at": "2026-10-21T01:44:39.525081+00:00",
+  "review": "KBL-REV-079",
+  "verification": {
+    "jd_coverage": "PASS: seven unique versioned JDs with project/role/first-name/JD filenames, required sections, current links and unchanged contents",
+    "human_roles": 3,
+    "ai_roles": 4,
+    "ai_assignments_and_jds": "Responsibilities, versions, identities and execution model unchanged; paths follow project/role/first-name/JD convention, with byte-identical JD bodies.",
+    "contacts": "Exact names/emails/profile links preserved",
+    "publication_authority": "Ahimanikya only; no new deployment approval or grants",
+    "self_review": true,
+    "human_acknowledgements": "Not claimed"
+  },
+  "delivery": {
+    "portable_sync_command": "python3 tools/sync_handoff.py",
+    "storage_check_command": "python3 tools/check_storage.py",
+    "receipt_location": "Temporary command logs; portable parity also checked against the handoff manifest",
+    "website_deployment": false,
+    "git_push": false
+  },
+  "naming_decision": "KBL-DEC-088",
+  "naming_direction": [
+    "Use their in JD file instead of code",
+    "Use first name",
+    "Use Project code as prefix - with role Prefix and then firtst name and JD suffix"
+  ],
+  "filename_rule": "KBL-<ROLE>-<FirstName>-JD.md; role prefixes are documented in the JD index. Preserve full names and stable identifiers inside each document.",
+  "updated_at": "2026-10-21T01:54:57.311601+00:00",
+  "prior_naming_decisions": [
+    "KBL-DEC-087"
+  ]
+}

@@ -1,7 +1,8 @@
-"""Fail public export if additional website translations return.
+"""Fail public export if additional poem translations return.
 
 Submitted works (including credited human translations) remain canonical originals.
 Historical translation drafts are preserved in source/KB but are not public assets.
+Editorial prose may appear in three languages; quoted poems remain original-only.
 """
 import json
 from html.parser import HTMLParser
@@ -27,7 +28,7 @@ class OriginalOnlyHTML(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
-        for control in ('data-reading-language', 'data-focus-language', 'data-collection-language', 'data-editorial-language'):
+        for control in ('data-reading-language', 'data-focus-language', 'data-collection-language'):
             if control in attrs:
                 raise ValueError(f'{self.label}: removed translation control {control} returned')
         if 'data-reading-titles' in attrs:

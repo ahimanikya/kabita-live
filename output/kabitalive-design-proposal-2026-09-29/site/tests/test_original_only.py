@@ -18,6 +18,9 @@ class OriginalOnlyTests(unittest.TestCase):
         self.assertEqual(set(payload['variants']), {'en'})
         OriginalOnlyHTML('fixture').feed(html)
 
+    def test_editorial_language_controls_are_allowed(self):
+        OriginalOnlyHTML('fixture').feed('<a href="#editorial-en" data-editorial-language="en">English</a>')
+
     def test_translated_reader_asset_is_rejected(self):
         with self.assertRaisesRegex(ValueError, 'submitted language'):
             check_reader({'poems': [{'source_language':'or', 'variants': {'or':{}, 'en':{}}}]}, 'fixture')

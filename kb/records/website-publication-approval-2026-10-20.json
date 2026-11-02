@@ -1,0 +1,45 @@
+{
+  "recorded_at": "2026-10-20T01:59:26.307664+00:00",
+  "status": "applied_verified",
+  "decision": "KBL-DEC-085",
+  "human_authority": "Ahimanikya Satapathy",
+  "quote": "Rule: before anything gets published to the website, I will have to approve it. Others can only push to git",
+  "scope": "Every future website release, including automated batches and preview/discovery/release modes.",
+  "rules": {
+    "explicit_approval_for_each_release": true,
+    "other_contributors_may_push_git_within_existing_access": true,
+    "git_push_authorizes_publication": false,
+    "editorial_role_authorizes_publication": false,
+    "ai_may_supply_human_approval": false,
+    "earlier_standing_deployment_authority_superseded_for_future_releases": true,
+    "facebook_daily_posting_authority_changed": false
+  },
+  "enforcement": {
+    "workflow": "manual workflow_dispatch; main; repository-owner actor; publish_approved input",
+    "environment": "github-pages",
+    "sole_required_reviewer": {
+      "login": "ahimanikya",
+      "id": 308499
+    },
+    "administrator_bypass": false,
+    "prevent_self_review": false,
+    "self_review_setting_reason": "Ahimanikya is both the permitted initiator and sole approver; this GitHub setting permits his own human approval, not AI self-approval.",
+    "deployment_branch": "main",
+    "branch_policy_preserved": true,
+    "verification": "GitHub API read-back after saving reviewer and bypass settings"
+  },
+  "evidence": [
+    "artifacts/review/blueprint-sync-2026-10-20/environment-before.json",
+    "artifacts/review/blueprint-sync-2026-10-20/environment-verified.json",
+    "artifacts/review/blueprint-sync-2026-10-20/branches-before.json",
+    "artifacts/review/blueprint-sync-2026-10-20/branches-verified.json",
+    "artifacts/review/blueprint-sync-2026-10-20/remote-publish-site.yml",
+    "artifacts/review/blueprint-sync-2026-10-20/deployment-approval.png"
+  ],
+  "documentation_source": "https://docs.github.com/en/rest/deployments/environments#create-or-update-an-environment",
+  "limits": [
+    "No deployment was triggered to test the gate. Configuration and retained remote workflow were verified.",
+    "Future agents must not approve a GitHub job through the owner session without his explicit approval of that exact release.",
+    "No collaborator privileges, invitations, secrets, DNS or runtime settings changed."
+  ]
+}
