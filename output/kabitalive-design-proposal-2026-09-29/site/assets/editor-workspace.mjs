@@ -13,7 +13,7 @@ function clearPortraitPreview(){if(portraitURL)URL.revokeObjectURL(portraitURL);
 let publishedReadOnly=false;
 const prepared=()=>({...blank(),...defaults});
 const $=id=>document.getElementById(id);let draft=prepared(),selected='contents',preview=false,dirty=false,history=[];
-const labels={selected:'Selected by the Editor',rights:'Permission and credits checked',proofread:'Proofread against the source',profile:'Author identity checked',translations:'Translations reviewed / exception noted',art:'Artwork reviewed / text-only exception'};
+const labels={selected:'Selected by the Editor',rights:'Permission and credits checked',proofread:'Proofread against the source',profile:'Author identity checked',art:'Artwork reviewed / text-only exception'};
 const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 function note(text){$('notice').textContent=text;}
 function remember(){history.push(JSON.stringify(draft));if(history.length>60)history.shift();$('undo').disabled=false;}

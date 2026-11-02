@@ -253,8 +253,6 @@ from image_delivery import apply_image_delivery
 apply_image_delivery(R)
 
 # Direct-link editorial reference, deliberately absent from navigation and page indexes.
-from translation_review import render_translation_review
-page("translation-review.html", "Translation review", render_translation_review(R), desc="Editorial translation review status and source questions.")
 
 # Apply the approved website theme last, after all page-family styles/content.
 from toshali_invitation import render_toshali_invitation

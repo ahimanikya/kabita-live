@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f179945f3d2d608b8ba09f12bb0fae234db3c6e20f3d1f7191e8849f6c8c85f6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `66c16440c60cb9b5590b87dc73bb655eefcbb8bd09ae5bbbce032dfb53fe3d4a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -317,8 +317,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-929 | 2026-10-19T06:05:27.149062+00:00 | Restored the older illustrated river-and-veranda Facebook cover at user direction, with mulberry lettering/leaves and aqua drop. Exact wording and layout visually checked; new published cover photo ID verified. Retained current profile logo and all historical masters. No website or daily-posting changes. | — |
-| KBL-EVT-930 | 2026-10-19T06:34:41.182545+00:00 | Audited all 1,317 exported routes and both themes across 1,316 full pages. Corrected share logo, overlay tint, redirect fallback, English editorial quotation font, enlarged-text wrapping/badge spacing and quiet-reader badge language. Final 32-route desktop/phone checks, 211 tests, build and source integrity pass; 5,018 protected files unchanged. Local only. | — |
 | KBL-EVT-931 | 2026-10-19T06:46:32.954855+00:00 | Applied white-on-mulberry Original badges and corrected phone alignment: badges fit their controls, poem toolbar follows text gutters, and action icons wrap at the narrowest widths without reducing targets. 18 regular-poem and six quiet-reader responsive cases pass in both themes; build and 1,317-route export checks pass. No publication. | — |
 | KBL-EVT-932 | 2026-10-20T00:12:13.474318+00:00 | User authorized publication of the completed Ink & Voice redesign. Prepared isolated latest-main release; scoped source transfer preserves all poetry and current service settings. Build and release checks in progress. | — |
 | KBL-EVT-933 | 2026-10-20T00:26:25.830765+00:00 | Published Ink & Voice from latest main at21e9ba1e0 through manual discovery workflow39346758248. Hosted build,211local tests and hosted Firestore rule checks passed. Live checked28URLs/assets, desktop and320/360/390px reading, both themes, Original badges, cover navigation, rotation and comments layout. Source content, artwork, service configuration, consent, DNS and editorial gates preserved. No native-device or independent-review claim. | — |
@@ -327,6 +325,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-1035 | 2026-10-31T22:51:13.021896+00:00 | Prepared full website/repository cleanup: historical review export removed, stronger central-disclosure guard, author/edition integrity fixes, duplicate-log deduplication, cache and obsolete-validator cleanup, and confirmed missing external citations retired from click targets. Historical sources and authored verses preserved. No publication; final checks recorded separately. | — |
 | KBL-EVT-1036 | 2026-10-31T23:22:27.630875+00:00 | Ahimanikya approved cleanup publication. Published15e684119 through protected manual run41251716319; all CI checks passed. Live routes verified including historical report404, retained OurStory disclosure and repaired author contribution; December50 draft preserved. Prior audit limitations remain. | — |
 | KBL-EVT-1037 | 2026-11-01T00:50:43.909176+00:00 | Reaffirmed Ahimanikya as Creative Editor, linked existing local portrait/profile from editorial team, homepage and OurStory; updated public role label and canonical records. Local preparation only; no publication or access change. | — |
+| KBL-EVT-1038 | 2026-11-02T19:13:43.812878+00:00 | Implemented owner-approved translation cleanup locally: removed poem translation preparation, gates, proofs and exports; preserved editorial translations, submitted credits and private legacy drafts; archived retired data and tools with hashes. Full build and 361 automated tests pass. No publication. | — |
+| KBL-EVT-1039 | 2026-11-02T19:23:50.994876+00:00 | Ahimanikya explicitly instructed “publish” for the verified translation cleanup. Preparing existing discovery-mode release from unchanged latest remote base, retaining protected approval gate and private December draft. | — |
 
 ## Deferred extensions
 
