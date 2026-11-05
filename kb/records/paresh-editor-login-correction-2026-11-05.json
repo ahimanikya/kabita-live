@@ -7,7 +7,7 @@
   ],
   "old_email": "areshkpatnaik@gmail.com",
   "correct_email": "pareshkpatnaik@gmail.com",
-  "status": "Rules and reviewer grants corrected live; backend deploying; website publication pending",
+  "status": "Published and live verified; actual Paresh sign-in awaits user check",
   "checks": {
     "emulator_tests": 35,
     "backend_authorization_tests": 1,
@@ -17,5 +17,28 @@
   "activation": "artifacts/review/paresh-access-2026-11-05/activation.json",
   "actual_editor_login": "not tested",
   "website_publication_authorized": true,
-  "website_approval": "Approve this sign-in repair release"
+  "website_approval": "Approve this sign-in repair release",
+  "release_run": "42062610963",
+  "release_commit": "a971e0e2997e9057204188bd1b020a1a558cbbb4",
+  "backend_live": "artifacts/review/paresh-access-2026-11-05/backend-live.json",
+  "release_result": "success",
+  "next_draft": {
+    "result": "existing_preserved",
+    "source": {
+      "issue": 49,
+      "month": "2026-11",
+      "run": "42062610963",
+      "commit": "a971e0e2997e9057204188bd1b020a1a558cbbb4"
+    },
+    "draft": {
+      "issue": 50,
+      "month": "2026-12",
+      "status": "DRAFT",
+      "runtimeStage": "preparation"
+    },
+    "overwritten": false,
+    "published": false
+  },
+  "storage_check": "PASS",
+  "handoff": "Synchronized and hashes verified"
 }
