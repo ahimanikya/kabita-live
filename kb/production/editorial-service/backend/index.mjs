@@ -1,4 +1,4 @@
-import {recordCount} from './audience.mjs';
+import {recordCount,activeCounterCoverage} from './audience.mjs';
 import {initializeApp} from 'firebase-admin/app';
 import {getFirestore} from 'firebase-admin/firestore';
 import {onCall,onRequest,HttpsError} from 'firebase-functions/v2/https';
@@ -20,6 +20,9 @@ export const authorProof=onRequest({...options,cors:['https://kabitalive.com','h
 // Dedicated account must have access ONLY to aggregate configuration/counters; no submissions or mail.
 export const audienceCount=onRequest({region:'asia-south1',serviceAccount:'audience-counter@kabita-live.iam.gserviceaccount.com',memory:'256MiB',timeoutSeconds:10,minInstances:0,maxInstances:1,concurrency:10,cors:['https://kabitalive.com','https://www.kabitalive.com']},async(req,res)=>{
  res.set('Cache-Control','no-store');res.set('X-Content-Type-Options','nosniff');
+ if(req.method==='GET'&&Object.keys(req.query).length===1&&req.query.check==='coverage'){
+  try{const coverage=await activeCounterCoverage(getFirestore('audience'));return coverage?res.status(200).json(coverage):res.status(503).end();}catch{return res.status(503).end();}
+ }
  if(req.method!=='POST')return res.status(405).end();
  if(!['https://kabitalive.com','https://www.kabitalive.com'].includes(req.get('origin'))||!req.is('application/json')||!req.rawBody||req.rawBody.length>512)return res.status(400).end();
  try{await recordCount(getFirestore('audience'),req.body);return res.status(204).end();}catch{return res.status(503).end();}

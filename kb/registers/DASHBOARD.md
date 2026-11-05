@@ -5,7 +5,7 @@ title: "Kabita Live dashboard"
 
 # Kabita Live · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f465fd85bfde763774c0496842f2c03bad8cf9e16997770d467d40f012e27c67`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9413de6523bc71cdeb3c08ce4599932c13e5d01f4af1bf7f5986c90a31ac850d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -317,8 +317,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| KBL-EVT-934 | 2026-10-20T01:01:33.749739+00:00 | User approved uploading the held publication verification records after the automatic-review notice. Checked the scoped logs for exposed credentials and the screenshots for private submissions; prepared a documentation-only repository update. Website publication remains successful; no new deployment. | — |
-| KBL-EVT-935 | 2026-10-20T01:03:15.390242+00:00 | Uploaded 28 approved documentation/evidence files to GitHub main in 828dc1eb15844dc7384df340d442dd3ae7a47bb0 and verified the remote commit. Bundle and portable storage checks passed. No website changes or redeployment. Prior automatic-review hold is resolved by explicit user approval. | — |
 | KBL-EVT-1035 | 2026-10-31T22:51:13.021896+00:00 | Prepared full website/repository cleanup: historical review export removed, stronger central-disclosure guard, author/edition integrity fixes, duplicate-log deduplication, cache and obsolete-validator cleanup, and confirmed missing external citations retired from click targets. Historical sources and authored verses preserved. No publication; final checks recorded separately. | — |
 | KBL-EVT-1036 | 2026-10-31T23:22:27.630875+00:00 | Ahimanikya approved cleanup publication. Published15e684119 through protected manual run41251716319; all CI checks passed. Live routes verified including historical report404, retained OurStory disclosure and repaired author contribution; December50 draft preserved. Prior audit limitations remain. | — |
 | KBL-EVT-1037 | 2026-11-01T00:50:43.909176+00:00 | Reaffirmed Ahimanikya as Creative Editor, linked existing local portrait/profile from editorial team, homepage and OurStory; updated public role label and canonical records. Local preparation only; no publication or access change. | — |
@@ -327,6 +325,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | KBL-EVT-1040 | 2026-11-02T19:33:06.689114+00:00 | Published approved translation cleanup b4380efbc through manual discovery run41509650308. All release checks and deployment passed. Live checks confirm six exact source hashes, three retired routes404, and working Studio/poem/edition pages. Editorial support, archived drafts and submitted credits preserved. | — |
 | KBL-EVT-1041 | 2026-11-02T19:51:35.675070+00:00 | Owner approved finishing pending items. Integrated three-language editorial/English-default update with original-language quotes, preserving Issue49 withdrawal. Repaired three KB links; user reports physical phone installation/sign-in/drafts work. December has cover but no selected poems or editorial; kept private. Clean CI verification required before approved publication. | — |
 | KBL-EVT-1042 | 2026-11-02T20:01:15.962519+00:00 | Published editorial languages and verified English default/original-language quotations on live issues48/49 through run41513864996. All CI tests passed. Three KB links repaired; user reports phone install/sign-in/drafts passed. Reviewed both monthly inbox entries: synthetic tests only, zero real December candidates; issue50 remains private awaiting actual content. Local disk-full build handled by clean CI; source retained. | — |
+| KBL-EVT-1043 | 2026-11-05T16:10:14.455283+00:00 | Verified deployed counter catalogue excludes Issue49 and new poems. Prepared23route additions, active non-counting coverage endpoint, catalogue-aware report cache and enforced Pages release gate. Added DSM/rulebook prevention requirement at owner request.10focused tests pass; live gate correctly fails against oldservice. No live changes or fabricated historic counts. | — |
+| KBL-EVT-1044 | 2026-11-05T16:20:48.189187+00:00 | Owner instructed deploy. Updated existing audienceCount and editorialAction sources only, preserving service settings and concurrent editor sign-in repair. Live activation-aware coverage accepts all1319published routes including Issue49 and18newpoems. No synthetic views or historical backfill. DSM and publication gate prevent missing route coverage in future releases. | — |
 
 ## Deferred extensions
 

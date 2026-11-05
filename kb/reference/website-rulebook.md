@@ -19,6 +19,10 @@ Poem preparation, proofs and release packages use the submitted language and ret
 
 Editorial translations remain supported; the separate approved three-language editorial and English-default work is unchanged. Preserve source-language extracts, original verse, old link/bookmark compatibility and the existing guards against reintroducing added poem translations. This supersedes older poem-translation workflow examples, not historical evidence. See [cleanup record](../records/translation-cleanup-2026-11-03.json). Ahimanikya subsequently approved publication of this cleanup with “publish”; see the release receipt in that record.
 
+## Edition statistics release gate · 5 November 2026
+
+Every public edition release must pass source and live-counter route coverage before the Pages artifact is uploaded. Run `tools/check_audience_release.py` against the built runtime configuration; synchronize and deploy the reviewed counter catalogue before publishing new routes. A non-counting GET checks that collection is enabled and the routes are accepted. Do not treat missing coverage or service failure as zero views, invent historic counts, or widen private-route access. See the canonical [DSM](../artifacts/design/brand-guide/DESIGN-SYSTEM.md) and [incident record](../records/edition-counting-2026-11-05.json).
+
 ## 1 Give every page a clear purpose
 
 **PAGE-01** Identify the page family, reader’s purpose and primary action before designing. Reuse its existing builder and shared components. Change source templates or data, then regenerate; a hand-edited output page will be lost on the next build.

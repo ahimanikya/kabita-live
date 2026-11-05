@@ -1,10 +1,12 @@
 """Pin the aggregate backend allowlist to the verified public build. Never deploy."""
-import argparse,json
+import argparse,json,sys
 from pathlib import Path
 root=Path(__file__).resolve().parents[3]
-p=argparse.ArgumentParser();p.add_argument('--check',action='store_true');args=p.parse_args()
-runtime=json.loads((root/'projects/site/.public/runtime-config.json').read_text())
-pages=runtime['audience']['publicPages']
+p=argparse.ArgumentParser();p.add_argument('--check',action='store_true');p.add_argument('--runtime',type=Path,default=root/'projects/site/.public/runtime-config.json');args=p.parse_args()
+sys.path.insert(0,str(root/'tools'))
+from check_audience_release import public_pages
+runtime=json.loads(args.runtime.read_text())
+pages=public_pages(runtime['audience']['publicPages'])
 assert pages and all(not any(token in path for token in ('proof','review','submit','editor-workspace','editor-management','search')) for path in pages)
 target=root/'kb/production/editorial-service/backend/audience-pages.json'
 content=json.dumps(dict(sorted(pages.items())),ensure_ascii=False,indent=2)+'\n'

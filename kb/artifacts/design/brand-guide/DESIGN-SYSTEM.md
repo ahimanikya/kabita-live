@@ -6,6 +6,19 @@ For new pages and maintenance, start with the website rulebook (`kb/reference/we
 
 The journal should feel like cotton paper, a quiet room and a voice close enough to hear. Art creates atmosphere; poems, names and navigation stay clear. This document separates approved decisions from the component work still to review.
 
+## Edition statistics and publication readiness — 5 November 2026
+
+Owner direction: “We should make next time we publish this issues does not appear - put this in our DSM”. New editions must never silently fall outside the deployed audience counter's accepted public routes.
+
+- Use the verified public build's `audience.publicPages` as the route authority. Synchronize the counter catalogue with `python3 kb/production/audience-statistics/prepare.py` after generating the public build. Include each edition, its poems and public author routes; private Studio, proof, submission and review routes stay excluded.
+- Before uploading the Pages artifact, run `python3 tools/check_audience_release.py projects/site/.public/runtime-config.json`. This compares the build against both the source catalogue and the **deployed, enabled** counter. Missing routes, disabled collection, failed network checks or an unsupported coverage response must stop publication. Deploy the reviewed counter update first when coverage changes, then rerun the release. The GET coverage check records no views.
+- Newly added routes must also participate in reports. A changed catalogue invalidates previously cached reports; existing recorded counts are preserved.
+- Label metrics accurately: edition-page views count that page; Studio edition totals also include its poems. These are recorded visits, including repeat visits, not unique readers or proof of reading. Preserve aggregate opt-out, GPC/DNT and separate Google Analytics consent.
+- “No recorded views” is a data result only after collection coverage is verified. An unavailable/disabled counter must not be presented as verified zero. Never fabricate or backfill visits lost before coverage was repaired.
+- Regression checks must introduce a future edition and poem, prove source-only coverage is insufficient, and reject private routes. Test the deployed coverage endpoint without synthetic view events.
+
+Implementation and incident evidence: `kb/records/edition-counting-2026-11-05.json`. This rule requires real release evidence; a local test pass alone does not authorize publication.
+
 ## Ink & Voice website — applied locally 19 October 2026
 
 KBL-DEC-065 selected the palette; after the font preview was updated, Ahimanikya instructed “Good, let's update the site”. KBL-DEC-066 applies Newsreader to the English website masthead/headings/large quotations and Literata to English poetry/prose. Noto Serif Oriya and Tiro Devanagari Hindi retain their script roles. Fonts are self-hosted with original files, OFL licences and conversion provenance.

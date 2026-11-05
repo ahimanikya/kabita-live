@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-05",
+  "status": "deployed-and-live-verified",
+  "user_request": [
+    "Can we fix if there is anything need to be fixed",
+    "No recorded views - this is what it says for latest edition - others it shows some number",
+    "We should make next time we publish this issues does not appear - put this in our DSM",
+    "deploy"
+  ],
+  "root_cause": "Deployed counter source from26October uses a1296-route static catalogue; current published catalogue has1319routes. Issue49 and its new poems are rejected before recording. Browser configuration alone did not establish server acceptance.",
+  "added_routes": [
+    "/issue-49.html",
+    "/poem-835.html",
+    "/poem-836.html",
+    "/poem-837.html",
+    "/poem-838.html",
+    "/poem-839.html",
+    "/poem-840.html",
+    "/poem-841.html",
+    "/poem-842.html",
+    "/poem-843.html",
+    "/poem-844.html",
+    "/poem-845.html",
+    "/poem-846.html",
+    "/poem-847.html",
+    "/poem-848.html",
+    "/poem-849.html",
+    "/poem-850.html",
+    "/poem-851.html",
+    "/poem-852.html",
+    "/poet-478.html",
+    "/poet-479.html",
+    "/poet-480.html",
+    "/poet-481.html"
+  ],
+  "removed_routes": [],
+  "fix": [
+    "Synchronize counter catalogue to published public routes",
+    "Expose non-counting, activation-aware GET coverage contract",
+    "Invalidate report caches when catalogue changes",
+    "Block Pages artifact upload unless source and deployed counter cover every built public route",
+    "Record durable requirements in DSM and website rulebook"
+  ],
+  "review": {
+    "independent": false,
+    "executor": "Current chat assistant; engineering and self-review"
+  },
+  "preserved": [
+    "Private-route exclusion",
+    "Aggregate privacy controls",
+    "Existing data and per-day limits",
+    "No fabricated historic views",
+    "No public-page layout change"
+  ],
+  "evidence": "artifacts/review/edition-counting-2026-11-05/",
+  "live_changes": "Owner-approved source-only deployment of audienceCount and editorialAction; existing service settings, named database and stored counters preserved. Latest concurrent editor sign-in repair preserved.",
+  "verification": {
+    "backend_unit_tests": "7PASS",
+    "release_gate_tests": "3PASS; future edition, missing poem, private paths and gate placement",
+    "offline_coverage": "1319public routes PASS",
+    "deployed_gate": "PASS: HTTP200; all1319published routes covered; no synthetic views sent",
+    "bundle": "PASS1047links",
+    "historical_counts": "Preserved; no synthetic event and no backfill attempted"
+  },
+  "deployment_evidence": "artifacts/review/edition-counting-2026-11-05/deployment.json",
+  "live_verification": "artifacts/review/edition-counting-2026-11-05/live-verification.json",
+  "limitations": "Rejected historical events cannot be recovered. New eligible visits appear in reports, which cache for up to15minutes."
+}

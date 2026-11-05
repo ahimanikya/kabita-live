@@ -1,0 +1,8 @@
+{
+  "backend_unit_tests": "7PASS",
+  "release_gate_tests": "3PASS; future edition, missing poem, private paths and gate placement",
+  "offline_coverage": "1319public routes PASS",
+  "deployed_gate": "Expected failure HTTP405: old deployed counter lacks the non-counting coverage endpoint; gate blocks publication",
+  "bundle": "PASS1047links",
+  "historical_counts": "Preserved; no synthetic event and no backfill attempted"
+}
