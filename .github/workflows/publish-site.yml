@@ -79,6 +79,8 @@ jobs:
       - run: npm run test:rules
       - name: Verify private anthology submissions and photo rules
         run: npm run test:toshali-rules
+      - name: Verify every public route is accepted by the deployed audience counter
+        run: python3 ../../tools/check_audience_release.py .public/runtime-config.json
       - uses: actions/upload-pages-artifact@v4
         with:
           path: projects/site/dist

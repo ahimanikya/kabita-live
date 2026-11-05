@@ -1,0 +1,50 @@
+{
+  "at": "2026-11-05T16:19:58.586Z",
+  "approval": "User: deploy",
+  "functions": [
+    {
+      "name": "audienceCount",
+      "state": "ACTIVE",
+      "updateTime": "2026-11-05T16:18:51.473202919Z",
+      "operation": "projects/kabita-live/locations/asia-south1/operations/operation-1793895476953-65f89d6ab021e-505db2a2-5ba13cf6",
+      "revision": "audiencecount-00002-qoz",
+      "source": {
+        "storageSource": {
+          "bucket": "gcf-v2-sources-461114477576-asia-south1",
+          "object": "audienceCount/function-source.zip",
+          "generation": "1793895478119038"
+        }
+      },
+      "settingsPreserved": true,
+      "previousSource": {
+        "storageSource": {
+          "bucket": "gcf-v2-sources-461114477576-asia-south1",
+          "object": "audienceCount/function-source.zip",
+          "generation": "1793042621249136"
+        }
+      }
+    },
+    {
+      "name": "editorialAction",
+      "state": "ACTIVE",
+      "updateTime": "2026-11-05T16:19:49.899679589Z",
+      "operation": "projects/kabita-live/locations/asia-south1/operations/operation-1793895544255-65f89daadf57e-71c64e03-63d9c4d5",
+      "revision": "editorialaction-00005-xit",
+      "source": {
+        "storageSource": {
+          "bucket": "gcf-v2-sources-461114477576-asia-south1",
+          "object": "editorialAction/function-source.zip",
+          "generation": "1793895545471155"
+        }
+      },
+      "settingsPreserved": true,
+      "previousSource": {
+        "storageSource": {
+          "bucket": "gcf-v2-sources-461114477576-asia-south1",
+          "object": "editorialAction/function-source.zip",
+          "generation": "1793895202552250"
+        }
+      }
+    }
+  ]
+}
