@@ -64,11 +64,11 @@ test('server cutoff blocks new entries, final receipts and photo uploads, while 
 });
 
 test('Paresh has the same scoped review access; neither personal reviewer gets mail-service access',async()=>{
- await env.withSecurityRulesDisabled(c=>s.setDoc(s.doc(c.firestore(),'anthologyReviewers','areshkpatnaik@gmail.com'),{enabled:true}));await draft();await finish();
- const c=context('paresh',{...reviewerClaims,email:'areshkpatnaik@gmail.com'});
+ await env.withSecurityRulesDisabled(c=>s.setDoc(s.doc(c.firestore(),'anthologyReviewers','pareshkpatnaik@gmail.com'),{enabled:true}));await draft();await finish();
+ const c=context('paresh',{...reviewerClaims,email:'pareshkpatnaik@gmail.com'});
  await assertSucceeds(s.getDocs(s.query(s.collection(c.firestore(),'anthologySubmissions'),s.where('status','==','received'),s.orderBy(s.documentId()),s.limit(25))));
- await assertSucceeds(decision(c,'shortlisted',1,{updatedBy:'areshkpatnaik@gmail.com'}));
- for(const c of [context('pradeep',reviewerClaims),context('paresh',{...reviewerClaims,email:'areshkpatnaik@gmail.com'})])await assertFails(s.getDoc(s.doc(c.firestore(),'anthologyMailConfig','toshali-2027')));
+ await assertSucceeds(decision(c,'shortlisted',1,{updatedBy:'pareshkpatnaik@gmail.com'}));
+ for(const c of [context('pradeep',reviewerClaims),context('paresh',{...reviewerClaims,email:'pareshkpatnaik@gmail.com'})])await assertFails(s.getDoc(s.doc(c.firestore(),'anthologyMailConfig','toshali-2027')));
 });
 
 test('owner admin reads submission photos only with verified Google identity and enabled access',async()=>{

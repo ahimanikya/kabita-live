@@ -1,0 +1,25 @@
+{
+  "release": {
+    "name": "projects/kabita-live/releases/firebase.storage/kabita-live.firebasestorage.app",
+    "rulesetName": "projects/kabita-live/rulesets/7999c657-460e-4018-bad7-4ab9dba9f533",
+    "createTime": "2026-10-21T03:24:07.538628Z",
+    "updateTime": "2026-10-28T03:04:59.342689Z"
+  },
+  "rules": {
+    "name": "projects/kabita-live/rulesets/7999c657-460e-4018-bad7-4ab9dba9f533",
+    "source": {
+      "files": [
+        {
+          "content": "rules_version = '2';\nservice firebase.storage {\n  match /b/{bucket}/o {\n    function reviewer() {\n      return request.auth != null && request.auth.token.get('email_verified', false) == true\n        && request.auth.token.firebase.sign_in_provider == 'google.com'\n        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com','ahimanikya@gmail.com']\n        && firestore.get(/databases/(default)/documents/anthologyReviewers/$(request.auth.token.email)).data.enabled == true;\n    }\n    match /anthology/toshali-2027/{uid}/{id}/photo {\n      function entry() { return firestore.get(/databases/(default)/documents/anthologySubmissions/$(id)); }\n      function own() { return request.auth != null && request.auth.uid == uid; }\n      allow read: if reviewer() || (own() && entry().data.uid == uid);\n      allow create: if resource == null && own() && id.matches('^[A-Za-z0-9]{20}$')\n        && firestore.get(/databases/(default)/documents/anthologyCalls/toshali-2027).data.open == true\n        && request.time < timestamp.date(2026, 10, 31) + duration.value(66600, 's')\n        && entry().data.uid == uid && entry().data.callId == 'toshali-2027'\n        && entry().data.status == 'uploading' && entry().data.photoMode == 'upload'\n        && entry().data.photoPath == 'anthology/toshali-2027/' + uid + '/' + id + '/photo'\n        && request.resource.size > 0 && request.resource.size <= 5242880\n        && request.resource.size == entry().data.photoSize\n        && request.resource.contentType in ['image/jpeg','image/png','image/webp']\n        && request.resource.contentType == entry().data.photoType;\n      // No client deletion: original photographs are retained indefinitely.\n    }\n    function studioEditor() {\n      return request.auth != null && request.auth.token.get('email_verified',false)==true\n        && request.auth.token.firebase.sign_in_provider=='google.com'\n        && request.auth.token.email in ['pbiswal804@gmail.com','areshkpatnaik@gmail.com','ahimanikya@gmail.com']\n        && firestore.get(/databases/(default)/documents/monthlyReviewers/$(request.auth.token.email)).data.enabled==true\n        && firestore.get(/databases/(default)/documents/editorWorkspace/config).data.enabled==true;\n    }\n    match /editor-portraits/{authorId}/{version} {\n      allow get: if studioEditor();\n      allow create: if studioEditor() && resource==null\n        && (authorId.matches('^writer-[0-9]+$') || authorId.matches('^new-[A-Za-z0-9_-]{1,70}$'))\n        && version.matches('^[a-f0-9-]{36}$')\n        && request.resource.size>0 && request.resource.size<=5242880\n        && request.resource.contentType in ['image/jpeg','image/png','image/webp'];\n      // Originals are immutable: no listing, replacement or deletion.\n    }\n    match /editor-artwork/{month}/{entry}/{version} {\n      function scopeAllowed() { return month.matches('^20[0-9]{2}-(0[1-9]|1[0-2])$') || (month=='toshali-2027' && reviewer()); }\n      allow get: if studioEditor() && scopeAllowed();\n      allow create: if studioEditor() && scopeAllowed() && resource==null\n        && !firestore.exists(/databases/(default)/documents/editorPublications/$(month))\n        && entry.matches('^[A-Za-z0-9_-]{1,80}$') && version.matches('^[a-f0-9-]{36}$')\n        && request.resource.size>0 && request.resource.size<=5242880\n        && request.resource.contentType in ['image/jpeg','image/png','image/webp'];\n    }\n    match /{allPaths=**} { allow read, write: if false; }\n  }\n}\n",
+          "name": "storage.rules"
+        }
+      ]
+    },
+    "createTime": "2026-10-28T03:04:56.486447Z",
+    "metadata": {
+      "services": [
+        "firebase.storage"
+      ]
+    }
+  }
+}

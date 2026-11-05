@@ -1,0 +1,33 @@
+{
+  "reviewer": "/root/paresh_review",
+  "role": "Drishti",
+  "date": "2026-11-05",
+  "status": "PASS",
+  "independence": "separate task-scoped AI reviewer",
+  "checks": [
+    "Local Firestore and Storage rules are exact captured-live rule content with only quoted address replacement",
+    "Client source and backend core equal origin/main with only address replacement",
+    "Owner-only approval checks unchanged",
+    "Activation preserves unrelated live rules, verifies release baseline, disables typo grant and enables corrected identity for each desk",
+    "Independent Node backend Paresh authorization regression: 1 pass, 0 fail",
+    "Activation script node --check passes",
+    "Inspected implementer emulator log: 35/35 tests passed, no failures or skips; monthly/anthology draft and portrait access checks included"
+  ],
+  "blockers": [],
+  "limitations": [
+    "Actual Paresh Google sign-in not tested",
+    "No website publication approval supplied by this review"
+  ],
+  "notes": [
+    "If activation partially fails, preserve progress and reinspect before retry; script intentionally refuses stale baselines."
+  ],
+  "hashes": {
+    "projects/site/firestore.rules": "fda1f599c168cae7885f422fe33e09239d922c359dc8e679b2989c34c66a5c9a",
+    "projects/site/storage.rules": "083ab71f056a5b6d659f02968153c5d7641ac609182772597d6481623d0b9fe8",
+    "projects/site/src/editor-workspace-service.mjs": "21327aad590bbb9e1e1d93873841b9b681a6aada502262bb0e518552bbc1b350",
+    "kb/production/editorial-service/backend/core.mjs": "2f3b3fe8e337832b4a0f38c8e0a39c3af64979af0f8dad9cc64bb994f360b2a6",
+    "kb/production/editorial-service/backend/paresh-access.test.mjs": "436a3f42a6c1ed26f8a45f5878d5401dbde560d0aef390cd3bc1fe6ca365eaff",
+    "kb/artifacts/review/paresh-access-2026-11-05/activate.cjs": "a8300aaf13130e0bde82bfb4cc436853693e9d5513148e80ac38eb6f2a0d70f4"
+  },
+  "emulator_log": "/tmp/paresh-access-tests.log"
+}

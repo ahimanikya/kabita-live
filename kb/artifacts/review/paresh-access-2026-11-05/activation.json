@@ -1,0 +1,39 @@
+{
+  "at": "2026-11-05T16:10:49.376Z",
+  "rules": [
+    {
+      "stem": "firestore",
+      "previous": "projects/kabita-live/rulesets/4f856fb5-f5ff-4192-9de2-eb865fe89b2b",
+      "current": "projects/kabita-live/rulesets/516fd4f7-799c-474c-8383-403d90f00b13",
+      "sha256": "fda1f599c168cae7885f422fe33e09239d922c359dc8e679b2989c34c66a5c9a"
+    },
+    {
+      "stem": "storage",
+      "previous": "projects/kabita-live/rulesets/7999c657-460e-4018-bad7-4ab9dba9f533",
+      "current": "projects/kabita-live/rulesets/10588ffc-d2b4-4db0-8363-74b192605823",
+      "sha256": "083ab71f056a5b6d659f02968153c5d7641ac609182772597d6481623d0b9fe8"
+    }
+  ],
+  "access": [
+    {
+      "collection": "monthlyReviewers",
+      "email": "areshkpatnaik@gmail.com",
+      "enabled": false
+    },
+    {
+      "collection": "monthlyReviewers",
+      "email": "pareshkpatnaik@gmail.com",
+      "enabled": true
+    },
+    {
+      "collection": "anthologyReviewers",
+      "email": "areshkpatnaik@gmail.com",
+      "enabled": false
+    },
+    {
+      "collection": "anthologyReviewers",
+      "email": "pareshkpatnaik@gmail.com",
+      "enabled": true
+    }
+  ]
+}

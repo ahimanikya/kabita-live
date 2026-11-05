@@ -14,7 +14,7 @@ export async function prepare(config){if(!config.editorWorkspace?.enabled||!site
 async function authorize(user){
  if(!user)return null;
  const deny=async()=>{await signOut(auth);throw Error('Shared editing is not enabled for this account. Please contact the administrator.');};
- if(!user.emailVerified||!['pbiswal804@gmail.com','areshkpatnaik@gmail.com','ahimanikya@gmail.com'].includes(user.email))return deny();
+ if(!user.emailVerified||!['pbiswal804@gmail.com','pareshkpatnaik@gmail.com','ahimanikya@gmail.com'].includes(user.email))return deny();
  let allowed,config;
  try{
   allowed=await s.getDocFromServer(s.doc(db,'monthlyReviewers',user.email));

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "scope": "Correct existing Paresh editor identity; no role expansion",
+  "authority": [
+    "pareshkpatnaik@gmail.com - looks id not able to login as editor",
+    "We have added him as editor"
+  ],
+  "old_email": "areshkpatnaik@gmail.com",
+  "correct_email": "pareshkpatnaik@gmail.com",
+  "status": "Rules and reviewer grants corrected live; backend deploying; website publication pending",
+  "checks": {
+    "emulator_tests": 35,
+    "backend_authorization_tests": 1,
+    "compiled_bundle": "correct identity present; old identity excluded"
+  },
+  "review": "artifacts/review/paresh-access-2026-11-05/review.json",
+  "activation": "artifacts/review/paresh-access-2026-11-05/activation.json",
+  "actual_editor_login": "not tested",
+  "website_publication_authorized": true,
+  "website_approval": "Approve this sign-in repair release"
+}

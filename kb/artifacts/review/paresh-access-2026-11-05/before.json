@@ -1,0 +1,40 @@
+{
+  "rules": [
+    {
+      "stem": "firestore",
+      "old": true,
+      "correct": false
+    },
+    {
+      "stem": "storage",
+      "old": true,
+      "correct": false
+    }
+  ],
+  "access": [
+    {
+      "email": "areshkpatnaik@gmail.com",
+      "collection": "monthlyReviewers",
+      "status": 200,
+      "enabled": true
+    },
+    {
+      "email": "areshkpatnaik@gmail.com",
+      "collection": "anthologyReviewers",
+      "status": 200,
+      "enabled": true
+    },
+    {
+      "email": "pareshkpatnaik@gmail.com",
+      "collection": "monthlyReviewers",
+      "status": 404,
+      "enabled": false
+    },
+    {
+      "email": "pareshkpatnaik@gmail.com",
+      "collection": "anthologyReviewers",
+      "status": 404,
+      "enabled": false
+    }
+  ]
+}

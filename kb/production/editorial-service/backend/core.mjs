@@ -1,6 +1,6 @@
 import {randomBytes,createHash} from 'node:crypto';
 export const OWNER='ahimanikya@gmail.com';
-export const EDITORS=['pbiswal804@gmail.com','areshkpatnaik@gmail.com'];
+export const EDITORS=['pbiswal804@gmail.com','pareshkpatnaik@gmail.com'];
 export const STREAMS={monthly:{prefix:'monthly',call:'year-round',name:'Kabita Live',sender:'kabitaliveweb@gmail.com'},anthology:{prefix:'anthology',call:'toshali-2027',name:'Toshali Anthology 2027',sender:'toshalianthology@gmail.com'}};
 export const WEEK=7*24*60*60*1000;
 const hash=s=>createHash('sha256').update(s).digest('hex');
