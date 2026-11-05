@@ -1,0 +1,70 @@
+{
+  "reviewer": "/root/audience_review",
+  "role": "Drishti",
+  "independence": "separate task-scoped AI review",
+  "result": "PASS",
+  "scope": "Manifest restoration and guarded local refresh/check helper; no deployment performed by reviewer",
+  "hashes": {
+    "kb/production/editorial-service/backend/audience-pages.json": "a69e11e86190f07d145884cd76542e0f20215832c70a0a569501e984b92fe000",
+    "tools/check_audience_pages.py": "d56979bcfaa3d49b7ffb217fc7bbcf84dd49ce0ad7b1442458cd7bbd3af80ca4",
+    "tools/tests/test_check_audience_pages.py": "2f081894b0d8ee48ab6bc052f8b39fcfc1730b4a5260815fb8767b19bf4eb813",
+    "kb/production/editorial-service/backend/audience.mjs": "037490e3e811609d2dab10d965861d16cd6426bd94fc95cb8345089ef80f467c",
+    ".github/workflows/publish-site.yml": "70a96ada7e099c5a95448bfeab2ff5d340fb8299a142e0a31a0fbe76c9bc1935"
+  },
+  "manifest": {
+    "before": 1296,
+    "after": 1319,
+    "added": [
+      "/issue-49.html",
+      "/poem-835.html",
+      "/poem-836.html",
+      "/poem-837.html",
+      "/poem-838.html",
+      "/poem-839.html",
+      "/poem-840.html",
+      "/poem-841.html",
+      "/poem-842.html",
+      "/poem-843.html",
+      "/poem-844.html",
+      "/poem-845.html",
+      "/poem-846.html",
+      "/poem-847.html",
+      "/poem-848.html",
+      "/poem-849.html",
+      "/poem-850.html",
+      "/poem-851.html",
+      "/poem-852.html",
+      "/poet-478.html",
+      "/poet-479.html",
+      "/poet-480.html",
+      "/poet-481.html"
+    ],
+    "removed": []
+  },
+  "checks": [
+    "3 Python helper tests PASS",
+    "Direct combineDays regression: new issue49 and poem835 retained; older issue48 retained; private editor-workspace excluded PASS",
+    "validateCount private editor-workspace rejection PASS",
+    "Workflow gate source review PASS: uses absolute helper path, dist relative to projects/site default cwd, after all build modes and before upload; workflow_dispatch, main/owner/explicit-approval guard and github-pages protected environment preserved"
+  ],
+  "operational_notes": [
+    "Report cache can remain stale for15 minutes; expire cache timestamp or wait before live verification",
+    "Source manifest check does not independently prove deployed service uses that source; deployment and live report verification remain root steps",
+    "Root reports live counter already accepts issue49; missing historical counts must not be inferred from local stale manifest alone"
+  ],
+  "not_tested": [
+    "Actual authenticated Studio report",
+    "Live service source and deployment",
+    "Physical editor account session"
+  ],
+  "root_reported_live_verification": {
+    "source": "/root follow-up; reviewer did not independently observe Chrome",
+    "editorialAction": "deployed",
+    "cache": "expired",
+    "signed_in_statistics": {
+      "issue49_aggregate": 2,
+      "issue48_aggregate": 85
+    },
+    "controlled_count": "root reports test view decremented preserving original"
+  }
+}

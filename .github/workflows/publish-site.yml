@@ -73,6 +73,8 @@ jobs:
         env:
           SITE_URL: ${{ steps.pages.outputs.origin }}
           SITE_BASE: ${{ steps.pages.outputs.base_path }}
+      - name: Verify aggregate readership page coverage
+        run: python3 "$GITHUB_WORKSPACE/tools/check_audience_pages.py" --runtime-config dist/runtime-config.json
       - name: Verify centralized AI production disclosure
         run: npm run check:disclosures
       - run: npm test

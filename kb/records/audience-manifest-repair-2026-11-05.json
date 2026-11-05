@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "status": "Live repair verified in signed-in Chrome Studio",
+  "finding": "Local reporting catalogue omitted23 live routes including Issue49; combineDays filtered stored rows. Live counter accepted Issue49 before this repair.",
+  "correction": "Refresh catalogue to1319 routes; deploy only editorialAction; expire report caches; add workflow catalogue-coverage gate",
+  "controlled_test": "One successful Issue49 view was decremented with update-time precondition; preexisting one direct Issue49 view preserved",
+  "checks": [
+    "3 helper tests PASS",
+    "Independent combineDays regression PASS",
+    "Separate Drishti review PASS"
+  ],
+  "website_published": false,
+  "privacy_changed": false,
+  "evidence": "artifacts/review/audience-manifest-2026-11-05/",
+  "ui_result": {
+    "issue49_edition_views": 2,
+    "issue48_edition_views": 85,
+    "period": "2026-10-09 to 2026-11-05"
+  },
+  "ui_evidence": "artifacts/review/audience-manifest-2026-11-05/studio-verified.png"
+}
