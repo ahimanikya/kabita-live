@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-09",
+  "scope": "Reader footer and Our Story introduction",
+  "authorization": "User: Sounds good, let’s do that",
+  "wording": "An initiative of Toshali Literature Trust",
+  "implementation": [
+    "projects/site/build.py",
+    "projects/site/our_story.py",
+    "kb/reference/website-rulebook.md"
+  ],
+  "checks": {
+    "site_build": "Passed; 1353 linked pages",
+    "sample_reader_pages": "Credit appears once on home, About, Issue 49, poem 835 and Pradeep profile",
+    "studio": "App shell unchanged",
+    "review": "Self-review; small copy change using existing footer styling"
+  },
+  "publication": "Approved by Ahimanikya: publish; release preparation underway"
+}

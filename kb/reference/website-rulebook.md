@@ -364,3 +364,7 @@ Update current-service explanations without removing translator biographies, cre
 ## Homepage submitted-poem feature — 2 November 2026
 
 The homepage no longer offers three language-switch buttons beside its featured poem. Show one submitted poem excerpt per visit, with its exact title, credit, source-language label and full-work link. The candidate pool may contain Odia, Hindi and English submitted works; selection must not create or request translations. Keep the selection still while reading and provide one source-backed fallback without JavaScript. Preserve the current-edition complete cover and other homepage sections. Remove the homepage promotion for the language essay; preserve the essay and its Our Story link. This supersedes the earlier homepage button and language-essay promotional presentation; see [scope](../records/home-original-feature-2026-11-02.json).
+
+## Trust attribution — 9 November 2026
+
+Use “An initiative of Toshali Literature Trust” beneath Kabita Live in the shared reader-page footer. Introduce Our Story with “Kabita Live is an initiative of Toshali Literature Trust.” Preserve author-rights wording, poem bylines and the main header. Approved by Ahimanikya in chat; website publication remains release-specific.
