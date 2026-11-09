@@ -14,5 +14,24 @@
     "studio": "App shell unchanged",
     "review": "Self-review; small copy change using existing footer styling"
   },
-  "publication": "Approved by Ahimanikya: publish; release preparation underway"
+  "publication": {
+    "status": "published and live verified",
+    "approval": "Ahimanikya: publish",
+    "commit": "84aee28b5927631415e6426cc4ae7a9910cb730e",
+    "run": "42559673005",
+    "url": "https://github.com/ahimanikya/kabita-live/actions/runs/42559673005",
+    "live_checks": [
+      "index.html",
+      "about.html",
+      "issue-49.html",
+      "poem-835.html",
+      "editor-workspace.html (unchanged)"
+    ],
+    "next_draft": {
+      "issue": 50,
+      "month": "2026-12",
+      "result": "existing_preserved",
+      "overwritten": false
+    }
+  }
 }
