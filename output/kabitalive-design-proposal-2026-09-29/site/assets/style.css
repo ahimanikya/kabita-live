@@ -746,3 +746,8 @@ body.site-theme.night{--sea:#a9c9c8;--hearth:#cbb58c}
 .author-profile-opening>div:first-child:after{content:"";display:block;width:115px;height:23px;margin-top:24px;background:url("poetic-waterline.svg") left center/115px 23px no-repeat}
 /* Browser-managed enlargement: the wordmark may wrap before pushing tools off-screen. */
 @media(max-width:900px){.site-theme .masthead .brand{flex:0 1 auto}.site-theme .masthead .menu{flex-shrink:0}}
+
+/* Footer identity: publication and initiative together, ownership secondary. */
+.footer-simple .footer-identity{min-width:0;max-width:100%;text-align:left}
+.footer-simple .footer-identity .footer-credit{text-align:left;text-indent:0}
+.footer-simple .footer-ownership{font-size:.75rem;margin-top:2px;text-indent:0}
