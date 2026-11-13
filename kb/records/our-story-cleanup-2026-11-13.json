@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-13",
+  "status": "approved_release_preparation",
+  "request": "Review whole Our Story page; remove unnecessary material and reorganize",
+  "publication_authorized": true,
+  "workers": [
+    "/root/samanta_submission_v2",
+    "/root/drishti_submission_v2"
+  ],
+  "changes": [
+    "One concise journal and Trust introduction",
+    "Removed redundant editorial label and design invitation",
+    "Shortened workflow and AI role descriptions without hiding AI identity",
+    "Moved language essay to supplementary reading",
+    "Personal reflection remains verbatim, collapsed by default",
+    "Shortened design and credits introduction",
+    "Artwork/image sources removed; editor sources consolidated"
+  ],
+  "preserved": [
+    "All adopted policy wording",
+    "Privacy text, consent controls and default collapsed state",
+    "Editor portraits and equal editorial roles",
+    "Author and editor source references and fragment links",
+    "Complete design poster and credit/licence sources"
+  ],
+  "implementation": "artifacts/review/our-story-cleanup-2026-11-13/implementation.json",
+  "review": "artifacts/review/our-story-cleanup-2026-11-13/review.json",
+  "preview": "http://127.0.0.1:8797/about.html",
+  "checks": {
+    "discovery_build": "passed; 1843 disclosure files, zero violations",
+    "python_tests": 95,
+    "site_tests": "passed",
+    "independent_review": "PASS; all previous anchors, exact policies/privacy/reflection/editor cards preserved",
+    "browser": "Desktop and 390px: no horizontal overflow; reflection collapsed; policy translation fragment opens disclosure",
+    "limitations": "No physical-device or screen-reader speech test"
+  },
+  "screenshots": [
+    "artifacts/review/our-story-cleanup-2026-11-13/desktop.png",
+    "artifacts/review/our-story-cleanup-2026-11-13/mobile.png"
+  ],
+  "approval": "Owner: publish, 14 November 2026"
+}

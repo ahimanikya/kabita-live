@@ -1,0 +1,34 @@
+{
+  "status": "source_candidate_ready_for_coordinator_build",
+  "executor": "/root/samanta_submission_v2",
+  "files": {
+    "projects/site/our_story.py": "9537caa0f348cfee32f053a577863ccb3e58d9925b0f368cfb9dd0a8df50d704",
+    "projects/site/templates/our-story-ai.html": "0156f9ed017b498dad7bd29e008e970dcfbe53b2e127a01cd4406e96197ec8d5",
+    "projects/site/credits-content.html": "2672d8523976f4c98b0f31265b57c6a75962c657050c60d2533247d9d4ac086a",
+    "projects/site/assets/our-story.css": "b12631b536c0ae2ed80a0fc63efd1a9accf48e331c1209dc8d0a85b756014fc8",
+    "projects/site/tests/test_our_story_navigation.py": "eb3af1202d6075acdd49c6c569413fbe2ee9fd42eca0457467f797d136814757"
+  },
+  "guidance": "/private/tmp/kbl-story-guidance.txt: native details, named navigation, meaningful headings and 44px targets; previously read for this same page task",
+  "changes": [
+    "Short single journal introduction; duplicate editorial/design labels removed",
+    "Concise process and AI role copy; human editorial authority and agent identity preserved",
+    "Language essay relocated into process supplementary reading with old fragment IDs",
+    "Authored personal reflection byte-for-byte unchanged",
+    "Design intro shortened; substantive design template and imagery unchanged",
+    "Credits introduction shortened; heading, hosting acknowledgement, licenses and profile-source caveats retained",
+    "Policies and privacy unchanged"
+  ],
+  "checks": {
+    "python_compile": "passed",
+    "authored_reflection": "exact previous HTML substring preserved",
+    "build": "not run by worker; coordinator reserved",
+    "focused_generated_tests": "await coordinator rebuild"
+  },
+  "protected_files_unchanged": [
+    "editorial_policies.py",
+    "data/editorial-policies.json",
+    "templates/our-story-design.html",
+    "assets/our-story.js"
+  ],
+  "publication": "not performed"
+}

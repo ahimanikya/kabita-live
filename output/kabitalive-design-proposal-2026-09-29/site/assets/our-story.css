@@ -92,3 +92,29 @@
 .our-story .story-editor p{font:.875rem/1.5 var(--ui);color:var(--muted);margin:0}
 .our-story .story-editor:hover h2{text-decoration:underline;text-underline-offset:4px}
 .our-story .story-editor:focus-visible{outline:2px solid var(--rust);outline-offset:4px}
+
+/* A compact overview; long references remain native, searchable disclosures. */
+.our-story .story-contents{border-block:1px solid var(--line);margin:0 0 24px;padding-block:4px}
+.our-story .story-contents ul{display:flex;flex-wrap:wrap;gap:0 24px;list-style:none;margin:0;padding:0}
+.our-story .story-contents a{display:inline-flex;align-items:center;min-height:44px;font:.9375rem/1.4 var(--ui);color:var(--rust);text-underline-offset:4px}
+.our-story .story-contents a:focus-visible,.our-story summary:focus-visible{outline:2px solid var(--rust);outline-offset:3px}
+.our-story :is(#story,#editors,#creative-process,#editorial-policies,#design,#credits,#privacy){scroll-margin-top:24px}
+.our-story #editors>h2{margin:0 0 4px;font:500 1.5rem/1.35 var(--display)}
+.our-story .story-editor h3{font:500 1.125rem/1.35 var(--display);margin:0 0 4px}
+.our-story .story-editor:hover h3{text-decoration:underline;text-underline-offset:4px}
+.our-story .story-design-opening{margin-bottom:12px}
+.our-story .story-design-opening h2{font-size:clamp(1.8125rem,3vw,2.25rem);margin-block:8px 12px}
+.our-story .story-design-details>summary{font:500 1.0625rem/1.5 var(--display);padding-block:14px;min-height:48px;cursor:pointer}
+.our-story .story-design-details[open]>.story-design-layout{margin-top:16px}
+.our-story #editorial-policies{margin-block:0;padding-block:24px}
+.our-story #editorial-policies>h2{font:500 clamp(1.8125rem,3vw,2.25rem)/1.25 var(--display);margin:0 0 12px}
+.our-story #editorial-policies>details{border-top:1px solid var(--line);padding:0;margin:0}
+.our-story #editorial-policies>details>summary{min-height:44px;padding-block:12px;cursor:pointer;font:500 1.0625rem/1.5 var(--display)}
+.our-story #editorial-policies .colophon-details{max-width:72ch;padding-bottom:12px}
+@media(max-width:760px){.our-story .story-contents ul{gap:0 18px}.our-story .story-contents{margin-bottom:20px}}
+
+/* Supplementary reading stays a quiet link within the editorial process. */
+.our-story .story-language-essay{margin-top:20px;padding-top:0;border:0}
+.our-story .story-language-essay h3{font:500 1rem/1.4 var(--ui);margin:0 0 8px}
+.our-story .story-language-essay a{display:inline-flex;align-items:center;min-height:44px}
+.our-story .story-design-opening p:first-of-type{font:1.0625rem/1.8 var(--serif);color:inherit}

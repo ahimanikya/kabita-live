@@ -27,12 +27,3 @@ def apply_home_views(site):
     assert count == 1, 'Homepage artwork missing'
     text = text.replace('</head>', '<link rel="stylesheet" href="assets/home-views.css?v=2"></head>')
     path.write_text(text)
-    about = site / 'about.html'
-    text = about.read_text()
-    credit = ('<p id="home-view-sources">Landscape paintings draw on Odisha photographs by Ahimanikya Satapathy; the courtyard is imagined.</p>')
-    marker = '<details><summary>Artwork and image sources</summary>'
-    assert marker in text, 'Artwork credits missing'
-    start = text.index(marker)
-    end = text.index('</summary>', start) + len('</summary>')
-    text = text[:end] + credit + text[end:]
-    about.write_text(text)

@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-13",
+  "reviewer": "/root/drishti_submission_v2",
+  "status": "source_and_generated_integrity_passed",
+  "blockers": [],
+  "checks": {
+    "focusedPythonTests": 4,
+    "hashBehaviorChecks": 3,
+    "baselineIdsLost": 0,
+    "baselineTextWordsLost": 0,
+    "duplicateIds": 0,
+    "cacheVersionsChanged": true
+  },
+  "preserved": [
+    "All existing policy paragraphs and legacy anchors",
+    "Privacy default collapsed",
+    "Editor portraits and peer roles",
+    "Visible AI-use disclosure and full collaborator/reflection copy",
+    "Native keyboard-operable details and wrapping44px navigation targets"
+  ],
+  "guidance": {
+    "mode": "verified local snapshot fallback",
+    "snapshotCheck": "194files pass",
+    "guides": [
+      "accessibility/accessibility.md",
+      "ui-behaviors/scroll-target-on-load.md"
+    ],
+    "implementation": "Native anchors/details, existing JS nested disclosure reveal, no limited-availability scroll API"
+  },
+  "limitations": [
+    "No browser visual or physical-device test by this reviewer; Disha coordinates browser review.",
+    "No publication authorized or performed as part of this review."
+  ],
+  "fileSha256": {
+    "projects/site/our_story.py": "ec32bb216b6aeecef6ff5435db2d44de2cedbf5778a2f8d15bb7055be22899b4",
+    "projects/site/editorial_policies.py": "4afbf447ecdbd628880af1a46759c9563116314d519947c48df19f6f9cfc7208",
+    "projects/site/assets/our-story.css": "aa49cae27de3c438fecc1f282c3be3ec222bc1fbe4e81bcb4791857c1eb359e3",
+    "projects/site/assets/our-story.js": "8f8dddff3c537d1996222aeb41ae2502c9f7fffa16419641620b050d4a2b8e80",
+    "projects/site/templates/our-story-ai.html": "d075f1e8e607a4a936533d094e8b92ef8c1a52e7ff2e039f66633b84d897580b",
+    "projects/site/tests/test_our_story_navigation.py": "77ed4dae0c2fe1f97c97a318cd80cfca60becc6f4473c7b69f45de118497db5a",
+    "projects/site/about.html": "2baac10c5f86981488a22d79e4f05702a235473d1515189bd23f89fa6f54d1fb"
+  }
+}

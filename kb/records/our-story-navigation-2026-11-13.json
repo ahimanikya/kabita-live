@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-13",
+  "status": "local_candidate_verified_awaiting_owner_review",
+  "request": "Our story page looks bit messy — organize structure for better navigation",
+  "scope": "about.html only; no policy wording, permissions, runtime or publication changes",
+  "changes": [
+    "Seven compact in-page section links",
+    "Policies before design and credits",
+    "Supplementary design and collaborator details collapsed",
+    "Existing editor portraits, all wording and old fragment links preserved",
+    "Privacy remains collapsed and opens from its direct link",
+    "All three editor profile sources consolidated under Editor profiles and sources in The care behind these pages",
+    "Removed Artwork and image sources disclosure at owner request; stopped its obsolete homepage-source injection; provenance remains in KB and history"
+  ],
+  "workers": [
+    "/root/samanta_submission_v2",
+    "/root/drishti_submission_v2"
+  ],
+  "review": "artifacts/review/our-story-navigation-2026-11-13/review.json",
+  "guidance": {
+    "root": "Live CLI search navigate page sections; retrieved search-hidden-content/accessibility",
+    "evidence": "artifacts/review/our-story-navigation-2026-11-13/web-guidance.txt",
+    "patterns": "Native links and details; labeled navigation; wrapping44px links, focus indicators; preserve nested fragment reveal",
+    "compatibility": "Core native links/details; no new dependency or newer mandatory API"
+  },
+  "publication_authorized": false,
+  "separate_pending": "Submission client repair separately published and live-verified; Our Story candidate remains unpublished.",
+  "checks": {
+    "build": "discovery passed;1843 disclosure files zero violations",
+    "javascript_tests": 296,
+    "python_tests": 94,
+    "focused_structure_tests": 4,
+    "independent_hash_tests": 3,
+    "browser": "Desktop light/dark,390px and320px no horizontal overflow; policy directlink, nested authorcredit link and privacy repeatedlink+keyboard Enter verified",
+    "limits": "Physical devices, other browser engines and screen-reader speech not tested"
+  },
+  "preview": "http://127.0.0.1:8797/about.html",
+  "screenshot": "artifacts/review/our-story-navigation-2026-11-13/after.png",
+  "editor_sources_refinement": {
+    "review": "Root self-review of small existing-component rearrangement",
+    "checks": [
+      "Source build, public export and Astro build passed",
+      "All three source sections nested in credits-editors",
+      "Browser direct link credits-ahimanikya opens enclosing collection"
+    ],
+    "screenshot": "artifacts/review/our-story-navigation-2026-11-13/editor-sources.png",
+    "publication_authorized": false
+  }
+}

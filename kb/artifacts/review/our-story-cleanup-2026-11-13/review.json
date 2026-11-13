@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-13",
+  "reviewer": "/root/drishti_submission_v2",
+  "status": "independent_source_and_content_review_passed",
+  "blockers": [],
+  "focusedTestsPassed": 5,
+  "protectedBeforeAfter": {
+    "allLegacyIdsPreserved": true,
+    "duplicateIds": 0,
+    "authoredReflection": "byte-identical",
+    "privacyTextAndControls": "byte-identical",
+    "entireEditorialPolicySection": "byte-identical",
+    "groupedEditorSources": "byte-identical",
+    "threeEditorPortraitCards": "byte-identical",
+    "removedArtworkAndImageSources": "remains absent"
+  },
+  "copyAssessment": "Shortened introduction, process, collaborator descriptions and design/credit intros preserve human editorial judgment and owner publication authority; no claim of trained weights or autonomous continuous operation. Policy and privacy commitments unchanged.",
+  "implementationManifestHashesMatch": true,
+  "limitations": [
+    "Disha performs browser visual and narrow-screen verification.",
+    "No publication approval or deployment performed by reviewer."
+  ],
+  "fileSha256": {
+    "projects/site/our_story.py": "9537caa0f348cfee32f053a577863ccb3e58d9925b0f368cfb9dd0a8df50d704",
+    "projects/site/templates/our-story-ai.html": "0156f9ed017b498dad7bd29e008e970dcfbe53b2e127a01cd4406e96197ec8d5",
+    "projects/site/credits-content.html": "2672d8523976f4c98b0f31265b57c6a75962c657050c60d2533247d9d4ac086a",
+    "projects/site/assets/our-story.css": "b12631b536c0ae2ed80a0fc63efd1a9accf48e331c1209dc8d0a85b756014fc8",
+    "projects/site/tests/test_our_story_navigation.py": "eb3af1202d6075acdd49c6c569413fbe2ee9fd42eca0457467f797d136814757",
+    "projects/site/editorial_policies.py": "4afbf447ecdbd628880af1a46759c9563116314d519947c48df19f6f9cfc7208",
+    "projects/site/data/editorial-policies.json": "c5436b562b9e83dc63183ce98d1a73b5f2cd072abc80cb23fb5a1e422841fc3b",
+    "projects/site/assets/our-story.js": "8f8dddff3c537d1996222aeb41ae2502c9f7fffa16419641620b050d4a2b8e80",
+    "projects/site/about.html": "1bd4ffca6722d17a12cc0aa7f323b8826fe34dd16c97616ff582e319e5124b8b"
+  }
+}
