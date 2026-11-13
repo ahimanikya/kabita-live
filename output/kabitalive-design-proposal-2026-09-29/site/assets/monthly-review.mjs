@@ -1,10 +1,12 @@
+import {mountSubmissionProfile} from './submission-profile-review.mjs';
 import {reviewTools} from './editorial-review-ui.mjs';
 import {editorialDraft,validMonth} from './monthly-review-policy.mjs';
 const $=id=>document.getElementById(id);
 const status=$('review-status'),login=$('review-login'),logout=$('review-logout'),more=$('review-more'),list=$('review-entries');
+let clearProfile;
 let service,selected,saved,cursor,photoURL,busy=false,epoch=0;
 const note=text=>{status.textContent=text;};
-function clearEntry(){tools?.reset();epoch++;selected=saved=null;$('review-entry').hidden=true;$('review-email').hidden=true;for(const id of ['review-title','review-author','review-reference','review-poem','review-bio','review-history','review-details'])$(id).replaceChildren();for(const id of ['review-to','review-subject','review-body'])$(id).value='';if(photoURL?.startsWith('blob:'))URL.revokeObjectURL(photoURL);photoURL=null;$('review-photo').removeAttribute('src');$('review-photo').hidden=true;}
+function clearEntry(){clearProfile?.();clearProfile=null;tools?.reset();epoch++;selected=saved=null;$('review-entry').hidden=true;$('review-email').hidden=true;for(const id of ['review-title','review-author','review-reference','review-poem','review-bio','review-history','review-details'])$(id).replaceChildren();for(const id of ['review-to','review-subject','review-body'])$(id).value='';if(photoURL?.startsWith('blob:'))URL.revokeObjectURL(photoURL);photoURL=null;$('review-photo').removeAttribute('src');$('review-photo').hidden=true;}
 function date(value){return value?.toDate?.().toLocaleString('en-IN',{timeZone:'Asia/Kolkata'})+' IST';}
 async function openEntry(entry){
  if(busy)return;clearEntry();const ticket=epoch;busy=true;
@@ -15,7 +17,7 @@ async function openEntry(entry){
   $('review-decision').elements.decision.value=decision.status;$('review-month').value=decision.issueMonth||'';$('review-details').textContent=`Language: ${entry.language}\nWork: ${entry.kind}\nCredits: ${entry.credits||'Not supplied'}\nPrevious publication: ${entry.previous||'Not supplied'}`;
   for(const row of history){const li=document.createElement('li');li.textContent=`${row.status}${row.issueMonth?' · '+row.issueMonth:''} · ${row.updatedBy} · ${date(row.updatedAt)}`;$('review-history').append(li);}
   if(!history.length)$('review-history').textContent='No editorial changes recorded yet.';
-  $('review-entry').hidden=false;$('review-title').focus();note('Entry opened.');
+  $('review-entry').hidden=false;$('review-title').focus();note('Entry opened.');clearProfile=mountSubmissionProfile($('submission-profile-review'),entry,service,note);
 
  }catch(e){if(ticket===epoch)note(e.message||'Could not open this entry.');}finally{busy=false;}
 }

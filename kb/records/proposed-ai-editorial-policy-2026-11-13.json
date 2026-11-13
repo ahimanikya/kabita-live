@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-13",
+  "status": "Adopted by Ahimanikya on 13 November 2026; implementation in progress; website not yet published",
+  "scope": "AI assistance and authorship for poetry submissions",
+  "coordinator": "/root",
+  "researcher": "/root/ai_policy_research",
+  "reviewer": "/root/ai_policy_review",
+  "reservations": [],
+  "sources": [
+    {
+      "url": "https://poetrysociety.org.uk/question/can-i-submit-a-poem-written-using-ai/",
+      "finding": "FAQ distinguishes permitted grammar/spelling from prohibited generative composition"
+    },
+    {
+      "url": "https://spillwords.com/u-submit-spillwordspress-u-blog/",
+      "finding": "Rejects generated/heavily modified work; requests declaration"
+    },
+    {
+      "url": "https://www.poetryfoundation.org/poetrymagazine/submit",
+      "finding": "Indexed primary page says human-written works and no generative AI editorial practice; direct open403; editorial practice not suitable for wholesale adoption"
+    },
+    {
+      "url": "https://hai.stanford.edu/news/ai-detectors-biased-against-non-native-english-writers",
+      "finding": "2023 study on English essays reports detector false positives and bias; not validation for Odia/Hindi poetry"
+    }
+  ],
+  "recommended_policy": {
+    "eligible": "Human-authored poetry; mechanical proofreading, accessibility/transcription/transliteration and disclosed critique without retained generated poetic expression",
+    "ineligible": "Generated poetic lines/stanzas or substantial AI replacement of expressive language, imagery or voice, even after surface human editing",
+    "translation": "Separate derivative; rights-holder permission, source credit, fluent human review and explicit final proof approval; consent does not reactivate removed website translations",
+    "production": "Human-accountable AI-assisted art/editorial production explained in Our Story; same source-poem authorship protection applies to editorial changes",
+    "fairness": "No detector-only refusals, style-based accusations or missing-draft presumptions; clarification and second human review available; no undisclosed external detector uploads",
+    "disclosure": "Work-specific multi-select assistance declarations; separate translation fields; explanation, policy version/time/source revision; private immutable declarations with amendments and separate editor decision",
+    "legacy": "Prospective; old missing declarations unknown, not no-AI",
+    "placement": "Propose explicit narrow allowance for AI intake questions and policy link; production narrative remains Our Story"
+  },
+  "review": "Independent agent review completed; distinctions and translation-publication restriction incorporated; not human editorial approval",
+  "implementation": "No website, database, runtime, messaging or publication changes",
+  "adoption": "Looks good; let’s adopt this policy and implement the submission form, database, and author profile improvements we discussed."
+}

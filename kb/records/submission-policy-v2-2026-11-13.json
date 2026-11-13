@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-13",
+  "status": "runtime_active_approved_website_release_in_progress",
+  "scope": "Monthly Kabita poetry intake, magazine policies and reviewed author-profile handoff; Toshali intake unchanged",
+  "authorization": {
+    "implementation": "Looks good; let’s adopt this policy and implement the submission form, database, and author profile improvements we discussed.",
+    "fees": "Free submissions; no contributor payment",
+    "simultaneous_and_previous": "Adopt this policy: allow both with disclosure and notification of acceptance elsewhere or rights conflicts",
+    "website_publication": true,
+    "runtime_activation": true,
+    "synthetic_test": "One synthetic form entry with sample image; confirmation and editor notice only to kabitaliveweb@gmail.com",
+    "approved_at": "2026-11-13T16:58:54.980246+00:00"
+  },
+  "coordinator": "/root",
+  "workers": [
+    "/root/anvesha_magazine_policies",
+    "/root/samanta_submission_v2",
+    "/root/samanta_author_profile_flow",
+    "/root/samanta_publication_mail",
+    "/root/drishti_submission_v2"
+  ],
+  "policy_version": "kbl-editorial-v1-2026-11-13",
+  "implementation": [
+    "Three-section form; original verse spacing; review before sending; title/reference receipt",
+    "Explicit assistance declarations including generated language and substantial rewriting; private editor review, never detector-only decisions",
+    "Optional target-specific translation consent; no automatic revival of website translations",
+    "Optional photo, artistic treatment permission, credited artwork and reviewed social links",
+    "Claimed existing author ID is not trusted; editor confirms identity, existing profiles unchanged by default",
+    "Immutable versioned declarations; trusted server verifies uploaded image bytes/hash before receipt",
+    "Reviewed public whitelist export; local photo importer strips metadata and preserves source evidence; private fields excluded",
+    "Original biographies preserved with approved public overlays; directory and profile share approved portrait",
+    "Warm receipt email; selection remains silent; guarded post-publication notice helper with live link and edition month/year"
+  ],
+  "checks": {
+    "site_node_tests": 292,
+    "site_python_tests": 90,
+    "firestore_storage_tests": 16,
+    "policy_finalizer_tests": 13,
+    "mail_queue_tests": 14,
+    "independent_review": "artifacts/review/submissions-v2-2026-11-13/review.json",
+    "browser": "Local desktop/mobile390px form; original stanza spacing retained in summary; returning-profile reuse hides edit fields; explicit update reveals them; no horizontal overflow; submission disabled on local preview; policy text inspected",
+    "limitations": [
+      "No live activation or test email performed for this release",
+      "Physical iPhone not tested",
+      "Policy adoption is editorial policy, not a claim of legal certification",
+      "Studio translation permissions are visible private production notes plus manual checks, not a language-specific publishing lock"
+    ],
+    "full_firestore_storage_regressions": 91,
+    "build": "Discovery build passed; 1346 public pages; disclosure audit1843 files, no violations"
+  },
+  "prepared_activation": {
+    "account": "monthly-mail@kabita-live.iam.gserviceaccount.com",
+    "new_permission": "storage.objects.get only, condition restricted to projects/_/buckets/kabita-live.firebasestorage.app/objects/monthly-submissions/; no list/write/delete",
+    "callable": "monthlyFinalizeSubmission",
+    "region": "asia-south1",
+    "resources": {
+      "memory": "256MiB",
+      "min_instances": 0,
+      "max_instances": 1,
+      "concurrency": 4,
+      "timeout_seconds": 90
+    },
+    "existing_billed_project": "kabita-live",
+    "email_caps": {
+      "global_per_UTC_day": 100,
+      "receipt_per_normalized_recipient_per_UTC_day": 5
+    },
+    "steps": [
+      "Capture current rules/function/config revisions and verify new Storage role condition before applying",
+      "Deploy monthly finalizer and mail changes plus editorial profile-review action; preserve existing secrets and limits",
+      "Deploy additive versioned Firestore/Storage rules retaining old records and receipt reads",
+      "Publish exact approved site from current main through protected manual workflow; never bulk-stage this dirty checkout",
+      "Verify new client/assets/policy live; then set monthlyCalls/year-round.minSchemaVersion=2 to reject fresh legacy creates",
+      "Run any newly approved synthetic live test, verify on-screen receipt and both mailbox deliveries; never email a real poet as a test",
+      "Complete next-month draft check/create for live Issue49 November2026 only; preserve existing December draft"
+    ],
+    "rollback": "Preserve every uploaded/submitted record; revert client/runtime revisions as appropriate; only restore fresh legacy intake after owner decision, never delete new records",
+    "storage_limits": "Two optional images per entry, each up to 5MiB; not a hard project spending cap. Existing billed storage/functions usage may incur charges.",
+    "callable_security": "Callable endpoint rejects missing authenticated UID; App Check enforced; runtime Storage read restricted to monthly submission prefix."
+  },
+  "publication_notice_operation": {
+    "helper": "production/monthly-kabita-mail/publication-notice.mjs",
+    "usage": "node publication-notice.mjs SUBMISSION_ID POEM_ID YYYY-MM SUCCESSFUL_RUN_ID --check, then --queue after verified release",
+    "safeguards": "owner, successful main release, locked published draft, source membership, exact released text/title/author/language and live canonical; idempotent, existing global mail cap; selection never queues it"
+  },
+  "profile_import_operation": {
+    "helper": "tools/import_submission_profile.py",
+    "dependency": "projects/site/requirements.txt (Pillow13.0.0)",
+    "workflow": "Existing editor exports reviewed public packet; operator checks then applies locally; any photo bytes must match approved SHA. New IDs explicit. Public changes need separate website release."
+  },
+  "activation": {
+    "verified_at": "2026-11-13T17:04:44.844087+00:00",
+    "evidence": "artifacts/review/submissions-v2-2026-11-13/activation/after-summary.json",
+    "image_binding_level": "project; identical exact object-prefix condition; no bucket mode change",
+    "schema_cutover_pending": true
+  }
+}

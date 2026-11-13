@@ -1,0 +1,21 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {mailbox,recipientKey,prepareMessages,rawMessage,eligibleForSend,sendOutcome,SENDER} from './mail-core.mjs';
+const id='AbCdEfGhIjKlMnOpQrSt';
+const entry={uid:'test-user',callId:'year-round',status:'received',name:'ପରୀକ୍ଷା Poet',title:'A title',email:'poet@example.org',photoMode:'upload',poem:'PRIVATE POEM',bio:'PRIVATE BIO',photoPath:'PRIVATE PHOTO'};
+const receipt={submissionId:id};
+test('Two fixed destinations and stable delivery IDs',()=>{let m=prepareMessages(id,entry,receipt);assert.deepEqual(m.map(x=>x.to),[entry.email,SENDER]);assert.deepEqual(m.map(x=>x.id),[id+'-poet',id+'-organiser']);});
+test('Neither message includes private literary content or photograph',()=>{for(let m of prepareMessages(id,entry,receipt))assert.doesNotMatch(m.text,/PRIVATE/);});
+test('Poet receipt does not promise selection',()=>assert.match(prepareMessages(id,entry,receipt)[0].text,/not selection/));
+test('Incomplete or unreceipted submissions rejected',()=>{assert.throws(()=>prepareMessages(id,{...entry,status:'uploading'},receipt));assert.throws(()=>prepareMessages(id,entry,{submissionId:'different'}));});
+test('Header injection and multiple recipients rejected',()=>{for(let x of ['a@example.org\r\nBcc: x@example.org','a@example.org,b@example.org','Name <a@example.org>'])assert.throws(()=>mailbox(x));});
+test('Names and titles cannot inject message lines',()=>{assert.throws(()=>prepareMessages(id,{...entry,title:'Hi\nExtra instruction'},receipt));});
+test('Gmail aliases share one recipient throttle key',()=>assert.equal(recipientKey('po.et+tag@googlemail.com'),recipientKey('poet@gmail.com')));
+test('Other providers retain distinct local aliases',()=>assert.notEqual(recipientKey('p+one@example.org'),recipientKey('p+two@example.org')));
+test('MIME preserves Unicode through base64 and fixes sender',()=>{const m=prepareMessages(id,entry,receipt)[1];const raw=Buffer.from(rawMessage(m),'base64url').toString();assert.match(raw,/From: Kabita Live <kabitaliveweb@gmail.com>/);assert.equal(Buffer.from(raw.split('\r\n\r\n')[1].replace(/\s/g,''),'base64').toString(),m.text);assert.ok(raw.split('\r\n').every(line=>line.length<=998));});
+test('Only queued state can send',()=>{assert.equal(eligibleForSend('queued'),true);for(let status of ['sending','sent','uncertain','rejected','suppressed',undefined])assert.equal(eligibleForSend(status),false);});
+test('Timeouts and ambiguous responses cannot automatically resend',()=>{for(let status of [undefined,500,503,200])assert.equal(sendOutcome({status}), 'uncertain');});
+test('Successful provider ID required; explicit rejection retained',()=>{assert.equal(sendOutcome({ok:true,status:200,messageId:'gmail-id'}),'sent');assert.equal(sendOutcome({status:429}),'rejected');});
+test('Folded encoded subject words preserve multibyte boundaries',()=>{const subject='ଓଡ଼ିଆ कविता — '.repeat(8);const m={to:SENDER,subject,text:'Test'};const raw=Buffer.from(rawMessage(m),'base64url').toString();const decoded=[...raw.matchAll(/=\?UTF-8\?B\?([^?]+)\?=/g)].map(x=>Buffer.from(x[1],'base64').toString()).join('');assert.equal(decoded,subject);});
+
+test('Poet acknowledgement names work and poet with editorial sign-off',()=>{const m=prepareMessages(id,entry,receipt)[0];assert.ok(m.subject.includes(entry.title));assert.ok(m.text.includes('Dear '+entry.name));assert.ok(m.text.includes('“'+entry.title+'”'));assert.ok(m.text.includes('Reference: '+id));assert.match(m.text,/Kabita Live Editorial Team/);assert.doesNotMatch(m.text,/has been selected|will publish|email has arrived/);});

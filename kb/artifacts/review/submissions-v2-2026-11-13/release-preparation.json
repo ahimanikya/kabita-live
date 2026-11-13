@@ -1,0 +1,309 @@
+{
+  "date": "2026-11-13",
+  "executor": "/root/samanta_submission_v2",
+  "status": "scoped_staging_build_and_tests_passed_not_pushed",
+  "checkout": "/private/tmp/kbl-submissions-release-20261113",
+  "base": "2952f370f1ee813e1f057418673fbd536cad6d13",
+  "manifest": [
+    {
+      "path": "projects/site/assets/monthly-policy.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/assets/monthly-policy.mjs",
+      "sha256": "5dfcd8b9c11bec3657d93dc87e587aa83b9d51b37038a086b94d992ebc54d108"
+    },
+    {
+      "path": "projects/site/assets/monthly-form.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/assets/monthly-form.mjs",
+      "sha256": "1e5ced1ff9c37450aa27b3c76be8420bd18c21a12bca5c55be02233d1b831b60"
+    },
+    {
+      "path": "projects/site/src/monthly-service.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/src/monthly-service.mjs",
+      "sha256": "2c1b2545623f14fbb6f3c5ba60d172132f583ca072b89620937fd08db12666da"
+    },
+    {
+      "path": "projects/site/monthly_submissions.py",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/monthly_submissions.py",
+      "sha256": "59e14f43ad2fc098d9e7a6a956b05b90bd7a8d4687f697a8fe9e63fa3f4c73d5"
+    },
+    {
+      "path": "projects/site/firestore.rules",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/firestore.rules",
+      "sha256": "3ecc2926d511a8cdb65a7eee916fd029f3b2a038ee67a4d5dac4a560d3e2c04e"
+    },
+    {
+      "path": "projects/site/storage.rules",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/storage.rules",
+      "sha256": "88c2b18f880bea086080da530042a5b461f66a18d9c345fa0ac8e5ce6061631a"
+    },
+    {
+      "path": "projects/site/src/editor-submission-transfer.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/src/editor-submission-transfer.mjs",
+      "sha256": "0562e2aaf81aaf8af93758fa653070fbcc314651d2415c629b3bb5698e4d4da3"
+    },
+    {
+      "path": "projects/site/src/editor-workspace-service.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/src/editor-workspace-service.mjs",
+      "sha256": "f1b4a93877de1a69804dce8cf90b2200acad797f48c0071454fe1918c1d25df6"
+    },
+    {
+      "path": "projects/site/assets/submission-profile-review.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/assets/submission-profile-review.mjs",
+      "sha256": "f85461f8a3955b03ea3214212f1144c8bfbd153500ded7d98e5cc5743ff8e4ec"
+    },
+    {
+      "path": "projects/site/author_submission_profiles.py",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/author_submission_profiles.py",
+      "sha256": "5a0b1c972fa22a9936f2c0a82e80a623b25d4cee61083f1c7d694fc9fb82de7c"
+    },
+    {
+      "path": "projects/site/author-pages.py",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/author-pages.py",
+      "sha256": "878b0e85b5a8991d9c6eef52a1196e29921e31c30ed964c8a9e039f318e91037"
+    },
+    {
+      "path": "projects/site/standalone-pages.py",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/standalone-pages.py",
+      "sha256": "3d0f1f01341e79b1b19451a8be01589b19912b62638a784c96265b557fef928c"
+    },
+    {
+      "path": "projects/site/editorial_policies.py",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/editorial_policies.py",
+      "sha256": "9ceb4390af2cccf5cc4e2bfdd052d743bb3cdecd01dab9a5007348106a582e18"
+    },
+    {
+      "path": "projects/site/data/editorial-policies.json",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/data/editorial-policies.json",
+      "sha256": "c5436b562b9e83dc63183ce98d1a73b5f2cd072abc80cb23fb5a1e422841fc3b"
+    },
+    {
+      "path": "projects/site/tools/check_public_disclosures.py",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/tools/check_public_disclosures.py",
+      "sha256": "9e74a570d29a97ea410851c4c70ef681155a92ba02f36d9f13c089ff409f6c8b"
+    },
+    {
+      "path": "tools/import_submission_profile.py",
+      "gitPath": "tools/import_submission_profile.py",
+      "sha256": "538a2f24c7dd5bfa58067957c8186df7c7ade485a1a792032030b6c6d8ca061a"
+    },
+    {
+      "path": "kb/production/editorial-service/backend/profile-review.mjs",
+      "gitPath": "kb/production/editorial-service/backend/profile-review.mjs",
+      "sha256": "ebd87779410c8fa3352574c0ea1576d68c160e242936ab939dab1e3003233df1"
+    },
+    {
+      "path": "projects/site/poet_directory.py",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/poet_directory.py",
+      "sha256": "09ec00d5ef483fa81e66928d499dfa50a433e06895c15c2c2577968416097ca7"
+    },
+    {
+      "path": "projects/site/requirements.txt",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/requirements.txt",
+      "sha256": "b499e863c511ffe551cdcde07405881f67e6404ebe7737d42393cc5f11caa365"
+    },
+    {
+      "path": ".github/workflows/publish-site.yml",
+      "gitPath": ".github/workflows/publish-site.yml",
+      "sha256": "59328689fa9048c74bf704453cb8049ec3dce68f4a8e85780e6b5dfc4a4abfd4"
+    },
+    {
+      "path": "projects/site/tests/editor-submission-transfer.test.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/tests/editor-submission-transfer.test.mjs",
+      "sha256": "97792bf697aff0c0d32576664e97530c1d081584d2aada3dbacff7f38ad0fd02"
+    },
+    {
+      "path": "projects/site/assets/monthly-submissions.css",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/assets/monthly-submissions.css",
+      "sha256": "85e2c06a25993e4f61bf662a31f22f7d84ecca8cd4153bbc4e1ce2e9f254513a"
+    },
+    {
+      "path": "projects/site/assets/monthly-review.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/assets/monthly-review.mjs",
+      "sha256": "658af044ab71a3efe47fb03e89aaf99cde497f2e45fba79e5294bd0459d361ed"
+    },
+    {
+      "path": "projects/site/src/monthly-review-service.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/src/monthly-review-service.mjs",
+      "sha256": "f313656c026dd414fc8ab4767b8554104dec487a3bc16f021100a1defc968151"
+    },
+    {
+      "path": "projects/site/monthly_review.py",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/monthly_review.py",
+      "sha256": "9cf7da461519bef143e0c324fc965784ab543c7f740d7dc91375f9c27b0c6002"
+    },
+    {
+      "path": "projects/site/package.json",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/package.json",
+      "sha256": "57254ab273b09b90baf785127cce96b9ed0e3165cfea59c7513f71c056606c19"
+    },
+    {
+      "path": "projects/site/data/writer-submission-profiles.json",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/data/writer-submission-profiles.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "projects/site/tests/monthly-policy.test.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/tests/monthly-policy.test.mjs",
+      "sha256": "e7703da431308a03c1406f8993aa2907498aa59a57613105b55c2083db2f124f"
+    },
+    {
+      "path": "projects/site/tests/monthly.rules.test.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/tests/monthly.rules.test.mjs",
+      "sha256": "50deafea83faff72a14ce6d824acff520d3a3bfe2d656521ceae59d7dfa534eb"
+    },
+    {
+      "path": "projects/site/tests/monthly-upload.storage-test.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/tests/monthly-upload.storage-test.mjs",
+      "sha256": "c6ca434cdb12347380cfc26233715db362cdf0fb5db26049c9fe6233cf11abc9"
+    },
+    {
+      "path": "projects/site/tests/submission-profile-review.test.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/tests/submission-profile-review.test.mjs",
+      "sha256": "e8c3926ebaf73a6b6dab3afd773f5fd70f603a0b7ac20e956da5909705bfa7c6"
+    },
+    {
+      "path": "projects/site/tests/test_submission_profiles.py",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/tests/test_submission_profiles.py",
+      "sha256": "e4f9ec2600b206aa5ae9a01c2b9f0093ea1def710a1285d184cd075e894bfa67"
+    },
+    {
+      "path": "projects/site/tests/test_public_disclosures.py",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/tests/test_public_disclosures.py",
+      "sha256": "3484a29e97e15a5eceb414e2b0908832ecc393e16890d25659a3761b862afbbf"
+    },
+    {
+      "path": "kb/production/editorial-service/backend/profile-review.test.mjs",
+      "gitPath": "kb/production/editorial-service/backend/profile-review.test.mjs",
+      "sha256": "ce7cf3aee0138d0fec6ca8b69d42e184adf745f4fc2663ec236fa7ec3d37ae41"
+    },
+    {
+      "path": "kb/production/editorial-service/backend/index.mjs",
+      "gitPath": "kb/production/editorial-service/backend/index.mjs",
+      "sha256": "cd8ba2ded312864f617406668533993cf5a15f1c2c7b68313d93a6528cc40f4b"
+    },
+    {
+      "path": "projects/site/build.py",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/build.py",
+      "sha256": "4413644fec5fd1a0986c04461d517e3e922d33fc6efc884c589ce98432c4eb36"
+    },
+    {
+      "path": "projects/site/build-public.py",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/build-public.py",
+      "sha256": "3dfd44ce2abf6d3d30f42728b387ec0b83edfdcc6f3567a3048361e5329808ec"
+    },
+    {
+      "path": "kb/production/monthly-kabita-mail/backend/finalize.mjs",
+      "gitPath": "kb/production/monthly-kabita-mail/backend/finalize.mjs",
+      "sha256": "556c1adeb3fd69963be8146d284177a3414d74db105b8bf5e266fc2b1f249bd5"
+    },
+    {
+      "path": "kb/production/monthly-kabita-mail/backend/finalize.test.mjs",
+      "gitPath": "kb/production/monthly-kabita-mail/backend/finalize.test.mjs",
+      "sha256": "6b14b9ac83849587f80fceed1d21f6b8a652ca7ea845a366c1399ae70df4b3f7"
+    },
+    {
+      "path": "kb/production/monthly-kabita-mail/backend/index.mjs",
+      "gitPath": "kb/production/monthly-kabita-mail/backend/index.mjs",
+      "sha256": "5012fd8b94f793b10dae14e792905bef988e7662a4b06a9ec71f828d29d05e39"
+    },
+    {
+      "path": "kb/production/monthly-kabita-mail/backend/mail-core.mjs",
+      "gitPath": "kb/production/monthly-kabita-mail/backend/mail-core.mjs",
+      "sha256": "e178cd6d4eb8fc9dfa7688b5a2e12124565b136b15ce0f971425b57b795630b3"
+    },
+    {
+      "path": "kb/production/monthly-kabita-mail/backend/mail-core.test.mjs",
+      "gitPath": "kb/production/monthly-kabita-mail/backend/mail-core.test.mjs",
+      "sha256": "4cdf6c0fa7c11ab31902f7c79358d5aadc5f2038189cd5a0466f39d90c3e4467"
+    },
+    {
+      "path": "kb/production/monthly-kabita-mail/backend/package.json",
+      "gitPath": "kb/production/monthly-kabita-mail/backend/package.json",
+      "sha256": "3e1b8db7afc69723d6957eedec0990cdbe0713b54f133f7b0e34866562e19fd5"
+    },
+    {
+      "path": "kb/production/monthly-kabita-mail/backend/package-lock.json",
+      "gitPath": "kb/production/monthly-kabita-mail/backend/package-lock.json",
+      "sha256": "9e533184476ab0078c02a1fc1cec857b2bdb51f5cbf85ba1fee665d41e49fcea"
+    },
+    {
+      "path": "kb/production/monthly-kabita-mail/backend/queue.mjs",
+      "gitPath": "kb/production/monthly-kabita-mail/backend/queue.mjs",
+      "sha256": "dc101c3068e4a98eaf87296f650f4d4d5559e5c872488a82e95500bd81fc2ac1"
+    },
+    {
+      "path": "kb/production/monthly-kabita-mail/backend/queue.test.mjs",
+      "gitPath": "kb/production/monthly-kabita-mail/backend/queue.test.mjs",
+      "sha256": "f9a5992e8204b9240a3441419bb7e76818040ef0ec55e2f0a0bd6432b056fc75"
+    },
+    {
+      "path": "kb/production/monthly-kabita-mail/publication-notice.mjs",
+      "gitPath": "kb/production/monthly-kabita-mail/publication-notice.mjs",
+      "sha256": "c9e6ad34fede5cad1ba3395a150197429c6b0bfc0ca2919c32a77c9f5081fc57"
+    },
+    {
+      "path": "kb/production/monthly-kabita-mail/publication-notice.test.mjs",
+      "gitPath": "kb/production/monthly-kabita-mail/publication-notice.test.mjs",
+      "sha256": "16c9988a447b9942757ec69c50fe391353cdb6caf7c6b6d0da02fdfb3b187907"
+    },
+    {
+      "path": "projects/site/tests/editor-anthology-service.test.mjs",
+      "gitPath": "output/kabitalive-design-proposal-2026-09-29/site/tests/editor-anthology-service.test.mjs",
+      "sha256": "95608962b3f2ff284c6fd39ae733b71807ce541cd50cc4b39cc166d4b2373e39"
+    },
+    {
+      "path": "kb/records/submission-policy-v2-2026-11-13.json",
+      "gitPath": "kb/records/submission-policy-v2-2026-11-13.json",
+      "sha256": "b904024adc59554932fcd4ad3b8913624da7efe89bbc3ddc1bb18f86c674f80e"
+    },
+    {
+      "path": "kb/records/submission-reference-review-2026-11-13.json",
+      "gitPath": "kb/records/submission-reference-review-2026-11-13.json",
+      "sha256": "5dca57a84465127939629ee680b62fd865b5fa00b748609abda4a4161a8e4931"
+    },
+    {
+      "path": "kb/records/proposed-ai-editorial-policy-2026-11-13.json",
+      "gitPath": "kb/records/proposed-ai-editorial-policy-2026-11-13.json",
+      "sha256": "00ed13870bde002087362133ce7487def1f74ee55cb3b1fc55ebc64437a3445c"
+    },
+    {
+      "path": "kb/artifacts/review/submissions-v2-2026-11-13/review.json",
+      "gitPath": "kb/artifacts/review/submissions-v2-2026-11-13/review.json",
+      "sha256": "83b90b08e47b15684e626a82adc42226143156ee0338a5ee3b317ab6ccb8b06c"
+    },
+    {
+      "path": "kb/reference/website-rulebook.md",
+      "gitPath": "kb/reference/website-rulebook.md",
+      "sha256": "cb3f6b001e29107045e1947d61abec1f1e3164c4cde54cfd7a501da794b98ac4"
+    }
+  ],
+  "excluded_unrelated_deltas": [
+    "build.py translation-review restoration",
+    "build-public.py retired-link loading refactor and comments",
+    "older rulebook changes; only November13 monthly policy section appended",
+    "EDITORIAL-STANDARD absent upstream; no unrelated complete standard introduced"
+  ],
+  "checks": {
+    "discovery_build": "passed: 1346 pages, 3699 assets",
+    "disclosure_audit": "1842 files, no violations",
+    "site_node_tests": 292,
+    "site_python_tests": 91,
+    "backend_focused_tests": 34,
+    "test_python": "/private/tmp/kbl-submission-venv/bin/python3 (Pillow13)",
+    "build_python": "system Python3, Pillow12.3; full tests subsequently Pillow13"
+  },
+  "logs": [
+    "/private/tmp/kbl-release-build.log",
+    "/private/tmp/kbl-release-tests.log",
+    "/private/tmp/kbl-release-backend-tests.log"
+  ],
+  "cleanup": {
+    "generated_tracked_files_restored": 1824,
+    "generated_untracked_files_removed": 99,
+    "ignored_dist_retained": true,
+    "node_modules": "temporary symlink to existing root dependencies; excluded from Git"
+  },
+  "limitations": [
+    "No commit, push, runtime activation or publication performed by this worker.",
+    "Parent handles live access/runtime and exact release approval."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-13T17:01:13.148Z",
+  "rules": [
+    {
+      "stem": "firestore",
+      "previous": "projects/kabita-live/rulesets/516fd4f7-799c-474c-8383-403d90f00b13",
+      "ruleset": "projects/kabita-live/rulesets/ba1033d8-756a-4a1d-bdb8-ee42ac6aa327",
+      "sha256": "3ecc2926d511a8cdb65a7eee916fd029f3b2a038ee67a4d5dac4a560d3e2c04e"
+    },
+    {
+      "stem": "storage",
+      "previous": "projects/kabita-live/rulesets/10588ffc-d2b4-4db0-8363-74b192605823",
+      "ruleset": "projects/kabita-live/rulesets/b726b6ff-fa85-4d83-9d62-c4b722c6a051",
+      "sha256": "88c2b18f880bea086080da530042a5b461f66a18d9c345fa0ac8e5ce6061631a"
+    }
+  ],
+  "imageAccess": {
+    "role": "projects/kabita-live/roles/monthlySubmissionImageRead",
+    "permission": "storage.objects.get",
+    "member": "serviceAccount:monthly-mail@kabita-live.iam.gserviceaccount.com",
+    "condition": "resource.name.startsWith('projects/_/buckets/kabita-live.firebasestorage.app/objects/monthly-submissions/')"
+  }
+}

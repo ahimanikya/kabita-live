@@ -368,3 +368,13 @@ The homepage no longer offers three language-switch buttons beside its featured 
 ## Trust attribution — 9 November 2026
 
 Use “An initiative of Toshali Literature Trust” beneath Kabita Live in the shared reader-page footer. Introduce Our Story with “Kabita Live is an initiative of Toshali Literature Trust.” Preserve author-rights wording, poem bylines and the main header. Approved by Ahimanikya in chat; website publication remains release-specific.
+
+## Monthly submission and editorial policies — 13 November 2026
+
+Ahimanikya adopted the magazine policy suite in `projects/site/data/editorial-policies.json` (version `kbl-editorial-v1-2026-11-13`). Submissions remain poetry in Odia, Hindi and English, free and currently unpaid. Simultaneous and previously published work is allowed with disclosure and notice of acceptance elsewhere or rights conflicts. Render policies in Our Story using existing accessible disclosures; link from intake. This policy applies prospectively, with missing legacy declarations recorded as unknown.
+
+The monthly form records private authorship/AI assistance (including substantial rewriting and generated expressive text), optional target-specific translation permission and distinct photo/artistic-treatment/artwork permissions. The existing production-disclosure rule is unchanged except for the necessary intake questions inside `submit.html#monthly-ai-declaration`; no production credit elsewhere is exempt. Translation consent does not reactivate additional website translations or replace author proof approval.
+
+Returning authors claim a profile; editors confirm the identity. Do not overwrite existing profiles without a requested, reviewed update. Only reviewed public fields and consented images enter a versioned Git handoff. Private email, declarations, notes and storage paths never become author-page data. Retain original evidence and strip public photo metadata. Profile and directory use the same approved image.
+
+Confirm receipt only after durable entry and image verification. Show title/reference; do not promise mailbox delivery. Selection remains silent. After a verified publication, the owner-operated publication-notice helper validates the released poem and queues its edition month/year and live link within existing delivery limits. Runtime activation and website publication remain separately recorded, release-specific actions. See `kb/records/submission-policy-v2-2026-11-13.json`.

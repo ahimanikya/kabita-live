@@ -163,9 +163,59 @@ service cloud.firestore {
         && (!exists(monthlyRate(request.auth.uid)) || get(monthlyRate(request.auth.uid)).data.createdAt <= request.time - duration.value(60,'s'));
     }
     match /monthlyReviewers/{email} { allow get: if monthlyEditor() && request.auth.token.email == email; }
+    function monthlyPublicLink(value) {
+      return value is string && value.size()<=500 && value.matches('^https://[^@\\s/?#]+([/?#][^\\s]*)?$');
+    }
+    function monthlyAttachment(a) {
+      return a is map && (a.size()==0 || (a.keys().hasAll(['type','size','sha256']) && a.keys().hasOnly(['type','size','sha256'])
+        && a.type in ['image/jpeg','image/png','image/webp'] && a.size is int && a.size>0 && a.size<=5242880
+        && a.sha256 is string && a.sha256.matches('^[a-f0-9]{64}$')));
+    }
+    function monthlyV2(d) {
+      return d.keys().hasAll(['schemaVersion','policyVersion','declarationAt','returningAuthor','authorId','requestProfileUpdate','socialLinks','notes','aiUses','aiExplanation','translationAi','translationAiExplanation','translationPermission','translationLanguages','photo','artwork','photoPublishPermission','portraitTreatmentPermission','artworkPermission','artworkCredit','uid','callId','name','email','title','language','poem','kind','credits','previous','bio','status','consentVersion','createdAt'])
+        && d.keys().hasOnly(['schemaVersion','policyVersion','declarationAt','returningAuthor','authorId','requestProfileUpdate','socialLinks','notes','aiUses','aiExplanation','translationAi','translationAiExplanation','translationPermission','translationLanguages','photo','artwork','photoPublishPermission','portraitTreatmentPermission','artworkPermission','artworkCredit','uid','callId','name','email','title','language','poem','kind','credits','previous','bio','status','consentVersion','createdAt'])
+        && d.schemaVersion==2 && d.policyVersion=='kbl-editorial-v1-2026-11-13'
+        && d.uid==request.auth.uid && d.callId=='year-round' && d.status=='uploading' && d.consentVersion=='monthly-private-v2'
+        && d.createdAt==request.time && d.declarationAt==request.time
+        && anthologyText(d.name,120) && anthologyText(d.title,200) && anthologyText(d.poem,30000)
+        && d.email is string && d.email.size()<=254 && d.email.matches('^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$')
+        && !d.name.matches('[\\s\\S]*[\\r\\n][\\s\\S]*') && !d.title.matches('[\\s\\S]*[\\r\\n][\\s\\S]*')
+        && d.language in ['or','hi','en'] && d.kind in ['original','translation']
+        && d.credits is string && d.credits.size()<=1000 && (d.kind=='original'||d.credits.size()>0)
+        && d.previous is string && d.previous.size()<=2000 && d.bio is string && d.bio.size()<=5000
+        && d.returningAuthor is bool && d.requestProfileUpdate is bool && d.authorId is string
+        && (d.authorId==''||d.authorId.matches('^[0-9]{1,8}$')) && (d.returningAuthor||d.authorId=='')
+        && ((d.returningAuthor&&d.authorId!=''&&!d.requestProfileUpdate)||d.bio.size()>0)
+        && d.socialLinks is list && d.socialLinks.size()<=4
+        && (d.socialLinks.size()<1||monthlyPublicLink(d.socialLinks[0]))
+        && (d.socialLinks.size()<2||monthlyPublicLink(d.socialLinks[1]))
+        && (d.socialLinks.size()<3||monthlyPublicLink(d.socialLinks[2]))
+        && (d.socialLinks.size()<4||monthlyPublicLink(d.socialLinks[3]))
+        && d.notes is string && d.notes.size()<=2000
+        && d.aiUses is list && d.aiUses.size()>0 && d.aiUses.size()<=5 && d.aiUses.toSet().size()==d.aiUses.size()
+        && d.aiUses.hasOnly(['none','proofreading','critique','rewriting','generation']) && (!d.aiUses.hasAny(['none'])||d.aiUses.size()==1)
+        && d.aiExplanation is string && d.aiExplanation.size()<=2000 && (!d.aiUses.hasAny(['critique','rewriting','generation'])||d.aiExplanation.size()>0)
+        && d.translationAi in ['not-applicable','none','assisted'] && (d.kind=='translation'?d.translationAi!='not-applicable':d.translationAi=='not-applicable')
+        && d.translationAiExplanation is string && d.translationAiExplanation.size()<=2000 && (d.translationAi!='assisted'||d.translationAiExplanation.size()>0)
+        && d.translationPermission is bool && d.translationLanguages is list && d.translationLanguages.size()<=2
+        && d.translationLanguages.toSet().size()==d.translationLanguages.size() && d.translationLanguages.hasOnly(['or','hi','en'])
+        && !d.translationLanguages.hasAny([d.language]) && (d.translationPermission?d.translationLanguages.size()>0:d.translationLanguages.size()==0)
+        && monthlyAttachment(d.photo) && monthlyAttachment(d.artwork)
+        && d.photoPublishPermission is bool && d.portraitTreatmentPermission is bool && d.artworkPermission is bool
+        && (d.photo.size()==0||d.photoPublishPermission) && (!d.portraitTreatmentPermission||d.photo.size()>0)
+        && d.artworkCredit is string && d.artworkCredit.size()<=200 && (d.artwork.size()==0||(d.artworkPermission&&d.artworkCredit.size()>0))
+        && (!(d.returningAuthor&&d.authorId!=''&&!d.requestProfileUpdate)||(d.photo.size()==0&&d.socialLinks.size()==0));
+    }
+    function monthlyUploadPair(id) {
+      let path=/databases/$(database)/documents/monthlyUploadThrottle/$(request.auth.uid);
+      return getAfter(path).data.submissionId==id && getAfter(path).data.createdAt==request.time
+        && (!exists(path)||get(path).data.createdAt<=request.time-duration.value(60,'s'));
+    }
     match /monthlySubmissions/{id} {
-      allow get, list: if monthlyEditor();
-      allow create: if signedIn() && monthlyOpen() && id.matches('^[A-Za-z0-9]{20}$')
+      allow list: if monthlyEditor();
+      allow get: if monthlyEditor() || (signedIn() && (resource==null || (resource.data.get('schemaVersion',1)==2 && resource.data.uid==request.auth.uid)));
+      allow create: if signedIn() && monthlyOpen() && id.matches('^[A-Za-z0-9]{20}$') && monthlyV2(request.resource.data) && monthlyUploadPair(id);
+      allow create: if signedIn() && monthlyOpen() && get(/databases/$(database)/documents/monthlyCalls/year-round).data.get('minSchemaVersion',1)<=1 && id.matches('^[A-Za-z0-9]{20}$')
         && request.resource.data.keys().hasAll(['uid','callId','name','email','title','language','poem','kind','credits','previous','bio','status','consentVersion','createdAt','receivedAt'])
         && request.resource.data.keys().hasOnly(['uid','callId','name','email','title','language','poem','kind','credits','previous','bio','status','consentVersion','createdAt','receivedAt'])
         && request.resource.data.uid == request.auth.uid && request.resource.data.callId == 'year-round'
@@ -198,6 +248,20 @@ service cloud.firestore {
         && getAfter(monthlyDoc(request.resource.data.submissionId)).data.uid == uid
         && getAfter(monthlyDoc(request.resource.data.submissionId)).data.createdAt == request.time
         && monthlyPair(request.resource.data.submissionId);
+    }
+    match /monthlyUploadThrottle/{uid} {
+      allow create, update: if signedIn() && request.auth.uid==uid && monthlyOpen()
+        && request.resource.data.keys().hasOnly(['submissionId','createdAt'])
+        && request.resource.data.submissionId.matches('^[A-Za-z0-9]{20}$') && request.resource.data.createdAt==request.time
+        && !exists(monthlyDoc(request.resource.data.submissionId))
+        && getAfter(monthlyDoc(request.resource.data.submissionId)).data.uid==uid
+        && getAfter(monthlyDoc(request.resource.data.submissionId)).data.get('schemaVersion',1)==2
+        && getAfter(monthlyDoc(request.resource.data.submissionId)).data.createdAt==request.time
+        && monthlyUploadPair(request.resource.data.submissionId);
+    }
+    match /monthlyProfileReviews/{id} {
+      allow read: if monthlyEditor();
+      match /history/{revision} { allow read: if monthlyEditor(); }
     }
     function monthlyReview(id) { return /databases/$(database)/documents/monthlyReviews/$(id); }
     function monthlyReviewValid(id) {

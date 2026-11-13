@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-13",
+  "reviewer": "/root/drishti_submission_v2",
+  "status": "approved_scope_source_audit_passed",
+  "liveVerificationPerformed": false,
+  "blockingSourceFindings": [],
+  "requiredActivationConstraints": [
+    "Restrict added custom role to storage.objects.get with project IAM condition resource.name.startsWith(\"projects/_/buckets/kabita-live.firebasestorage.app/objects/monthly-submissions/\"). No list/write/delete or bucket-mode change.",
+    "Preserve existing project IAM bindings using fresh etag; verify exact role and conditional binding after change.",
+    "Capture current live rule source and compare before replacing; legacy activation helpers have stale baselines and must not be reused blindly.",
+    "Deploy only monthlyQueueReceipt, monthlySendReceipt, monthlyFinalizeSubmission and editorialAction. Preserve unrelated function definitions/services.",
+    "Stage all referenced backend modules. Preserve AppCheck, auth, region, min0/max1, sender and existing daily100 cap.",
+    "Set monthlyCalls/year-round minSchemaVersion2 only after v2 website publication; preserve intake-open, mail and existing receipt state.",
+    "Verify runtime configs and source-deployment result without contacting real poets."
+  ],
+  "notes": [
+    "Finalizer has no Gmail secret binding. It shares existing monthly-mail service identity, whose pre-existing IAM can access that secret; this is not a new isolated no-secret identity.",
+    "Profile review uses existing three authorized Google identities; no new human access or publication capability.",
+    "Backend enforces requester UID, fixed bucket prefix, metadata/content hash, immutable source and atomic single receipt."
+  ],
+  "fileSha256": {
+    "kb/production/monthly-kabita-mail/backend/index.mjs": "5012fd8b94f793b10dae14e792905bef988e7662a4b06a9ec71f828d29d05e39",
+    "kb/production/monthly-kabita-mail/backend/finalize.mjs": "556c1adeb3fd69963be8146d284177a3414d74db105b8bf5e266fc2b1f249bd5",
+    "kb/production/monthly-kabita-mail/backend/queue.mjs": "dc101c3068e4a98eaf87296f650f4d4d5559e5c872488a82e95500bd81fc2ac1",
+    "kb/production/editorial-service/backend/index.mjs": "cd8ba2ded312864f617406668533993cf5a15f1c2c7b68313d93a6528cc40f4b",
+    "kb/production/editorial-service/backend/profile-review.mjs": "ebd87779410c8fa3352574c0ea1576d68c160e242936ab939dab1e3003233df1",
+    "kb/production/editorial-service/backend/core.mjs": "2f3b3fe8e337832b4a0f38c8e0a39c3af64979af0f8dad9cc64bb994f360b2a6",
+    "projects/site/firestore.rules": "3ecc2926d511a8cdb65a7eee916fd029f3b2a038ee67a4d5dac4a560d3e2c04e",
+    "projects/site/storage.rules": "88c2b18f880bea086080da530042a5b461f66a18d9c345fa0ac8e5ce6061631a",
+    "kb/production/monthly-kabita-mail/activate-v2.cjs": "065ee31d0719dd6bff72a2ddebc72c9e9ece4d24fefdc7a19a7880b9b4eb13c7"
+  },
+  "activationHelperReview": {
+    "status": "passed",
+    "helper": "kb/production/monthly-kabita-mail/activate-v2.cjs",
+    "capturedBaselineDiff": "Firestor\u0435 monthly/profile blocks and Storage monthly block only",
+    "checks": [
+      "Fixed bucket matches conditional trailing-slash prefix",
+      "Exact object-get custom permission only",
+      "Fetched version3 project IAM policy and required etag preserved",
+      "Existing broader same-role grant rejected",
+      "Fresh baseline and concurrent rules comparison",
+      "Rules and binding readback"
+    ],
+    "execution": "Reviewed only; root performs approved activation"
+  },
+  "projectIamAdaptation": {
+    "status": "reviewed_passed",
+    "reason": "Same fixed object prefix restricts added get permission; bucket uniform-access mode unchanged",
+    "liveEvidence": "activation/runtime-rules-activation.json; coordinator performed live readback"
+  },
+  "scopedReleaseReview": {
+    "status": "passed_ready_for_owner_authorized_push",
+    "checkout": "/private/tmp/kbl-submissions-release-20261113",
+    "base": "2952f370f1ee813e1f057418673fbd536cad6d13",
+    "manifestFiles": 54,
+    "manifestHashMismatches": [],
+    "additionalFile": "release-preparation.json evidence only",
+    "partialHunks": [
+      "workflow adds pinned Python dependency installation only",
+      "build.py adds policy rendering only",
+      "build-public.py adds exact submission/profile assets only",
+      "rulebook appends November13 policy only"
+    ],
+    "evidenceLogsObserved": {
+      "siteJS": 292,
+      "sitePython": 91,
+      "backendFocused": 34,
+      "exportDisclosureFiles": 1842,
+      "exportDisclosureViolations": 0
+    },
+    "noDuplicateBuild": true,
+    "publicationPerformedByReviewer": false
+  }
+}

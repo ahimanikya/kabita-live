@@ -5,6 +5,9 @@ from writer_names import writer_aliases, writer_search_names
 
 def render_poet_directory(SITE, writers, poems, profile_routes, routes):
     portraits=json.loads((SITE/'data/writer-portraits.json').read_text())
+    for writer in writers:
+        photo=writer.get('submission_profile',{}).get('photo')
+        if photo: portraits[str(writer['id'])]=photo
     quotes=json.loads((SITE/'data/writer-quotes.json').read_text())
     aliases=writer_aliases(SITE)
     search_names=writer_search_names(SITE)

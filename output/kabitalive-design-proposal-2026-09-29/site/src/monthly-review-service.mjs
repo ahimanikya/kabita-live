@@ -1,3 +1,4 @@
+import {getStorage,ref,getBlob} from 'firebase/storage';
 import {getFunctions,httpsCallable} from 'firebase/functions';
 import {initializeApp,deleteApp} from 'firebase/app';
 import {initializeAuth,inMemoryPersistence,browserPopupRedirectResolver,GoogleAuthProvider,signInWithPopup,signOut} from 'firebase/auth';
@@ -41,3 +42,8 @@ export async function history(id){const rows=await s.getDocsFromServer(s.query(s
 export async function close(){if(auth)await signOut(auth);if(db)await s.terminate(db);if(app)await deleteApp(app);app=auth=db=null;}
 
 export async function editorial(data){return (await httpsCallable(getFunctions(app,'asia-south1'),'editorialAction')(data)).data;}
+
+export async function submissionAsset(entry,kind){
+ if(!['photo','artwork'].includes(kind)||!/^\w{20}$/.test(entry.id)||typeof entry.uid!=='string'||!/^[A-Za-z0-9_-]{1,128}$/.test(entry.uid)||!entry[kind]?.size)throw Error('Attachment unavailable');
+ return getBlob(ref(getStorage(app),`monthly-submissions/${entry.uid}/${entry.id}/${kind}`),5242880);
+}

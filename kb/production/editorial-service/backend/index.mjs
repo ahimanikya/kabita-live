@@ -1,3 +1,4 @@
+import {submissionProfileReview} from './profile-review.mjs';
 import {recordCount} from './audience.mjs';
 import {initializeApp} from 'firebase-admin/app';
 import {getFirestore} from 'firebase-admin/firestore';
@@ -6,7 +7,7 @@ import {reject,sendProof,proofAccess,revokeProof,authorize,OWNER,streamOf,identi
 import {listComments,removeComment,statistics,proofComments} from './management.mjs';
 initializeApp();const db=getFirestore();
 const options={region:'asia-south1',serviceAccount:'editorial-service@kabita-live.iam.gserviceaccount.com',memory:'256MiB',timeoutSeconds:60,minInstances:0,maxInstances:1,concurrency:10};
-const methods={reject,sendProof,revokeProof,listComments,removeComment,statistics,proofComments,
+const methods={submissionProfileReview,reject,sendProof,revokeProof,listComments,removeComment,statistics,proofComments,
  async delivery(db,identity,input){await authorize(db,identity,input.stream);const c=streamOf(input.stream),id=identifier(input.id);const rejection=await db.doc(c.prefix+'MailQueue/'+id+'-rejection').get();return {rejection:rejection.data()?.status||'not_queued'};},
  async owner(db,identity){const email=await authorize(db,identity);return {canPublish:email===OWNER,publicationURL:email===OWNER?'https://github.com/ahimanikya/kabita-live/actions/workflows/publish-site.yml':null};}};
 export const editorialAction=onCall({...options,enforceAppCheck:true},async req=>{try{if((await db.doc('editorialWorkflow/config').get()).data()?.enabled!==true)throw Error('Editorial workflow is not active yet');if(!Object.hasOwn(methods,req.data?.action))throw Error('Unknown action');return await methods[req.data.action](db,req.auth?.token,req.data);}catch(e){throw new HttpsError('failed-precondition',String(e.message).slice(0,250));}});

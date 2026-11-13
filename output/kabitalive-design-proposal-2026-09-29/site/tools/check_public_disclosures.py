@@ -27,7 +27,7 @@ def strings(value):
 
 
 class ReaderCopy(HTMLParser):
-    def __init__(self):
+    def __init__(self, allow_intake=False):
         super().__init__(convert_charrefs=True)
         self.parts = []
         self.attributes = []
@@ -35,9 +35,17 @@ class ReaderCopy(HTMLParser):
         self.json_script = False
         self.script_parts = []
         self.central = False
+        self.allow_intake = allow_intake
+        self.intake_depth = 0
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if self.intake_depth:
+            if tag == 'fieldset': self.intake_depth += 1
+            return
+        if self.allow_intake and tag == 'fieldset' and attrs.get('id') == 'monthly-ai-declaration':
+            self.intake_depth = 1
+            return
         if tag in ('script', 'style'):
             self.suppressed = tag
             self.json_script = tag == 'script' and attrs.get('type', '').lower() in ('application/json', 'application/ld+json')
@@ -50,19 +58,24 @@ class ReaderCopy(HTMLParser):
         for key in ('alt', 'title', 'aria-label', 'aria-description', 'placeholder', 'content'):
             if attrs.get(key):
                 self.attributes.append(attrs[key])
-        if tag in ('p', 'div', 'section', 'br', 'li', 'h1', 'h2', 'h3'):
+        if tag in ('p', 'div', 'section', 'br', 'li', 'h1', 'h2', 'h3', 'fieldset', 'legend', 'label'):
             self.parts.append(' ')
 
     def handle_endtag(self, tag):
+        if self.intake_depth:
+            if tag == 'fieldset': self.intake_depth -= 1
+            return
         if tag == self.suppressed:
             if self.json_script:
                 self.attributes.extend(strings(json.loads(''.join(self.script_parts))))
             self.suppressed = None
             self.json_script = False
-        elif not self.suppressed and tag in ('p', 'div', 'section', 'li', 'h1', 'h2', 'h3'):
+        elif not self.suppressed and tag in ('p', 'div', 'section', 'li', 'h1', 'h2', 'h3', 'fieldset', 'legend', 'label'):
             self.parts.append(' ')
 
     def handle_data(self, data):
+        if self.intake_depth:
+            return
         if self.suppressed:
             if self.json_script:
                 self.script_parts.append(data)
@@ -89,8 +102,10 @@ def audit(root):
         try:
             text = path.read_text(encoding='utf-8')
             if path.suffix.lower() == '.html':
-                parser = ReaderCopy()
+                parser = ReaderCopy(allow_intake=route == 'submit.html')
                 parser.feed(text)
+                if parser.intake_depth:
+                    raise ValueError('Unclosed intake declaration fieldset')
                 content = [''.join(parser.parts), *parser.attributes]
                 if route == 'about.html':
                     central = parser.central and 'How we use AI' in content[0] and 'AI assists with' in content[0]

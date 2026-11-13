@@ -14,6 +14,8 @@ catalogue.setdefault(542,dict(id=542,title='A Poet Has No Land',author='Pradeep 
     lang='en',label='English',profile_id=1,profile='editor-pradeep.html',issue=None,text_status='missing'))
 
 writer_profiles=load_writer_profiles(R)
+from author_submission_profiles import load_submission_profiles
+writer_profiles=load_submission_profiles(R,writer_profiles)
 profile_data={p['id']:p for p in writer_profiles}
 
 def text_language(text):
@@ -95,6 +97,14 @@ def writer_work(writer,compact_profile=False):
             '<tbody>'+rows+'</tbody></table></section>')
 
 exec(compile((R/'author-pages.py').read_text(),str(R/'author-pages.py'),'exec'),globals())
+# Public-only profile choices; never export submission/contact records.
+submission_authors=[]
+for writer in writer_profiles:
+    ident=writer['id'];overlay=writer.get('submission_profile',{})
+    portrait=overlay.get('photo') or writer_portraits.get(str(ident),{})
+    submission_authors.append({'id':str(ident),'name':writer['name'],'url':profile_routes.get(ident,f'poet-{ident}.html'),'portrait':portrait.get('src','') if isinstance(portrait,dict) else '', 'bio':overlay.get('bio',writer.get('biography',''))})
+(R/'assets/submission-authors.json').write_text(json.dumps(submission_authors,ensure_ascii=False))
+
 
 # Include archive-discovered writers as well as the original directory.
 for writer in writer_profiles:

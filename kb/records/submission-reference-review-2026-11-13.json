@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-13",
+  "scope": "Spillwords reference compared with current monthly submission form; design recommendations only",
+  "source": "https://spillwords.com/u-submit-spillwordspress-u-blog/",
+  "user_evidence": "Supplied submission page and confirmation-email screenshots; Pradeep reports immediate receipt",
+  "executor": "/root",
+  "reviewer": "/root/submission_review",
+  "review_mode": "Separate read-only code and record review",
+  "files_reviewed": [
+    "projects/site/monthly_submissions.py",
+    "projects/site/assets/monthly-form.mjs",
+    "kb/production/monthly-kabita-mail/backend/mail-core.mjs",
+    "kb/records/monthly-receipt-verification-2026-11-02.json"
+  ],
+  "findings": [
+    "Existing automatic receipt and editor notice verified in inbox November 2; no new delivery test performed",
+    "Single long form can be grouped into Your poem, About you, Review and submit",
+    "Translation credits should appear only for translations",
+    "Success and receipt can name the poem with reference and editorial-team signature"
+  ],
+  "constraints": [
+    "Preserve line/stanza breaks, private intake, indefinite-retention agreement and duplicate-safe retry",
+    "No automatic acceptance email",
+    "Do not import Spillwords editorial policies from reference screenshots"
+  ],
+  "status": "Design recommendation awaiting discussion; no website or runtime changes",
+  "reservations": []
+}

@@ -229,6 +229,8 @@ from inner_artistic import apply_inner_artistic
 apply_inner_artistic(R)
 from our_story import apply_our_story
 apply_our_story(R)
+from editorial_policies import apply_editorial_policies
+apply_editorial_policies(R)
 from home_artistic import apply_home_artistic
 apply_home_artistic(R)
 print(f'Created {len(pages)} linked pages.')

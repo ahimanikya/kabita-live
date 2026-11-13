@@ -21,6 +21,7 @@ def render_monthly_review(root,page):
 <label><input type="radio" name="decision" value="selected"> Selected</label>
 <label><input type="radio" name="decision" value="next_issue"> Keep for next issue</label><label><input type="radio" name="decision" value="declined"> Reject · review email first</label><label for="review-month">Issue month (selected or next-issue poems; optional until assigned)</label><input id="review-month" name="issueMonth" type="month" min="2000-01" max="2099-12" pattern="20[0-9]{2}-(0[1-9]|1[0-2])" aria-describedby="review-month-help"><p id="review-month-help">Use YYYY-MM if your browser shows a text field. Leave blank until a month is assigned. This does not publish the poem.</p>
 </fieldset><button class="btn solid" type="submit">Save decision</button></form>
+<div id="submission-profile-review"></div>
 <h3>Submission details</h3><p id="review-details" class="monthly-verse"></p><h3>Recent decision history</h3><ul id="review-history"></ul>
 <div hidden id="review-email"><input id="review-to"><input id="review-subject"><textarea id="review-body"></textarea></div>
 </section></section></article>'''

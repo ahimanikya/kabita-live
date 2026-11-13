@@ -27,7 +27,7 @@ def author_identity(name):
     return f'<h1 class="{lang}" lang="{lang}">{e(name)}</h1>'
 
 def author_portrait(writer):
-    asset=writer_portraits.get(str(writer['id']))
+    asset=writer.get('submission_profile',{}).get('photo') or writer_portraits.get(str(writer['id']))
     if asset:
         if not (R/asset['src']).is_file():raise ValueError(f'Missing portrait for writer {writer["id"]}')
         if asset['kind']=='generic_artwork':
@@ -73,7 +73,7 @@ def render_author(writer):
     ident=writer['id'];extra=writer_enrichment.get(str(ident),{});works=writer['works']
     # Preserve every historical URL while canonical links use the grouped identity.
     route=f'poet-{ident}.html' if ident in writer_identity_aliases else profile_routes.get(ident,f'poet-{ident}.html')
-    bio=writer['biography'];sections=extra.get('sections',[])
+    bio=writer['biography'];sections=[] if writer.get('submission_profile') else extra.get('sections',[])
     body='<link rel="stylesheet" href="assets/author-artistic.css?v=20261102"><script defer src="assets/author-profile.js?v=20261102"></script><div class="author-clear profile-polish">'+crumb('<a href="poets.html">Poets</a> / '+e(writer['name'].split('/')[0].strip()))
     body+='<section class="editor-profile-opening author-profile-opening"><div>'+author_identity(writer['name'])+author_quote(writer)+'</div>'+author_portrait(writer)+'</section>'
     biography='<article id="biography" class="prose editor-biography">'
@@ -93,6 +93,10 @@ def render_author(writer):
             biography+=f'<p>This collection brings together {e(writer["name"].split("/")[0].strip())}’s contributions to Kabita Live, with work in {languages}. Follow each poem to its edition, or read through the collection below.</p>'
         else:biography+='<p>A contributor to the journal’s gathering of voices. Explore Kabita Live’s poetry collection below.</p>'
         biography+='</section>'
+    social_links=writer.get('submission_profile',{}).get('socialLinks',[])
+    if social_links:
+        from urllib.parse import urlsplit
+        biography+='<section><h2>Connect with the poet</h2><ul>'+''.join(f'<li><a href="{e(url)}" target="_blank" rel="noopener noreferrer" aria-label="{e(urlsplit(url).hostname)} (opens in a new tab)">{e(urlsplit(url).hostname)} ↗</a></li>' for url in social_links)+'</ul></section>'
     books=author_sidebar(writer,extra)
     biography=biography.replace('<h2>','<h2>'+author_artistic_mark('footer-send-poem'),1)
     contributions=writer_work(writer,compact_profile=True).replace('<h2>','<h2>'+author_artistic_mark('footer-story'),1)

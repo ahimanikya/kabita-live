@@ -48,3 +48,10 @@ class PublicDisclosures(unittest.TestCase):
 
     def test_invalid_reader_json_fails(self):
         self.assertTrue(self.check('reader.json', '{broken'))
+
+    def test_intake_exception_is_field_and_route_scoped(self):
+        field = '<fieldset id="monthly-ai-declaration"><legend>Authorship</legend><label>AI-generated lines</label></fieldset>'
+        self.assertFalse(self.check('submit.html', field))
+        self.assertTrue(self.check('poem.html', field))
+        self.assertTrue(self.check('submit.html', field + '<p>AI-generated artwork</p>'))
+        self.assertTrue(self.check('submit.html', field.replace('</fieldset>', '')))

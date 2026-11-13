@@ -23,6 +23,25 @@ service firebase.storage {
         && request.resource.contentType == entry().data.photoType;
       // No client deletion: original photographs are retained indefinitely.
     }
+    function monthlyReviewer() {
+      return request.auth!=null && request.auth.token.get('email_verified',false)==true
+        && request.auth.token.firebase.sign_in_provider=='google.com'
+        && request.auth.token.email in ['pbiswal804@gmail.com','pareshkpatnaik@gmail.com','ahimanikya@gmail.com']
+        && firestore.get(/databases/(default)/documents/monthlyReviewers/$(request.auth.token.email)).data.enabled==true;
+    }
+    match /monthly-submissions/{uid}/{id}/{kind} {
+      function entry() { return firestore.get(/databases/(default)/documents/monthlySubmissions/$(id)).data; }
+      function own() { return request.auth!=null && request.auth.uid==uid && entry().uid==uid; }
+      allow get: if kind in ['photo','artwork'] && (monthlyReviewer() || own());
+      allow create: if resource==null && kind in ['photo','artwork'] && id.matches('^[A-Za-z0-9]{20}$') && own()
+        && firestore.get(/databases/(default)/documents/monthlyCalls/year-round).data.open==true
+        && entry().schemaVersion==2 && entry().status=='uploading'
+        && request.resource.size>0 && request.resource.size<=5242880
+        && request.resource.contentType in ['image/jpeg','image/png','image/webp']
+        && request.resource.size==entry()[kind].size && request.resource.contentType==entry()[kind].type
+        && request.resource.metadata.sha256==entry()[kind].sha256;
+      // Immutable private source objects. Only the server finalizer issues receipts.
+    }
     function studioEditor() {
       return request.auth != null && request.auth.token.get('email_verified',false)==true
         && request.auth.token.firebase.sign_in_provider=='google.com'

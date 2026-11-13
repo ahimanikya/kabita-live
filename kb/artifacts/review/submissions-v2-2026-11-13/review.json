@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-13",
+  "reviewer": {
+    "persona": "Drishti",
+    "execution": "separate task-scoped agent",
+    "workerId": "/root/drishti_submission_v2"
+  },
+  "status": "local_source_review_passed",
+  "scope": "Monthly v2 submission, private uploads/finalization, editorial policy, reviewed public profile handoff, publication notices and integrations",
+  "unresolvedBlockers": [],
+  "resolvedFindings": [
+    "Receipt per-recipient cap changed from one/month to five/day; global100 preserved and UI avoids unconditional delivery promise.",
+    "Publication wording identifies edition month/year and live link rather than invented exact publication day.",
+    "Only independently confirmed profile mapping feeds direct/bulk edition imports.",
+    "Translation targets and image permissions preserved in private Studio notes; production checks remain false.",
+    "Every social-link element is bounded in rules; minimum schema cutover closes fresh v1 creates while legacy reads remain.",
+    "Disclosure parser separates form text boundaries; intake exception limited to submit.html declaration fieldset, malformed fieldset fails."
+  ],
+  "independentChecks": [
+    {
+      "suite": "publication-notice + mail-core",
+      "passed": 24
+    },
+    {
+      "suite": "profile review + packet + transfer initial",
+      "passed": 12
+    },
+    {
+      "suite": "profile public projection/import Python",
+      "passed": 5
+    },
+    {
+      "suite": "permission import + profile review retest",
+      "passed": 11
+    },
+    {
+      "suite": "monthly policy + finalize",
+      "passed": 13
+    },
+    {
+      "suite": "local demo Firestore + Storage",
+      "passed": 16
+    },
+    {
+      "suite": "disclosure parser Python",
+      "passed": 11
+    },
+    {
+      "suite": "local demo mail queue",
+      "passed": 14,
+      "staging": "/private/tmp/kbl-submission-mail-tests",
+      "queueAndMailCoreByteIdentical": true
+    }
+  ],
+  "limitations": [
+    "No live services, real emails, publication, or production data changed by reviewer.",
+    "Full site build and browser visual checks are coordinated separately by Disha and are not claimed here.",
+    "Runtime activation and schema cutover remain separate operational steps; publication requires owner approval of exact release.",
+    "Translation/asset permission notes support human editorial gates; this change does not implement automated translation publication authorization.",
+    "Local imports require operator to obtain reviewed packet from authorized desk; packet provenance labels are not cryptographic identity proof."
+  ],
+  "fileSha256": {
+    "projects/site/assets/monthly-policy.mjs": "5dfcd8b9c11bec3657d93dc87e587aa83b9d51b37038a086b94d992ebc54d108",
+    "projects/site/assets/monthly-form.mjs": "1e5ced1ff9c37450aa27b3c76be8420bd18c21a12bca5c55be02233d1b831b60",
+    "projects/site/src/monthly-service.mjs": "2c1b2545623f14fbb6f3c5ba60d172132f583ca072b89620937fd08db12666da",
+    "projects/site/monthly_submissions.py": "59e14f43ad2fc098d9e7a6a956b05b90bd7a8d4687f697a8fe9e63fa3f4c73d5",
+    "projects/site/firestore.rules": "3ecc2926d511a8cdb65a7eee916fd029f3b2a038ee67a4d5dac4a560d3e2c04e",
+    "projects/site/storage.rules": "88c2b18f880bea086080da530042a5b461f66a18d9c345fa0ac8e5ce6061631a",
+    "projects/site/src/editor-submission-transfer.mjs": "0562e2aaf81aaf8af93758fa653070fbcc314651d2415c629b3bb5698e4d4da3",
+    "projects/site/src/editor-workspace-service.mjs": "f1b4a93877de1a69804dce8cf90b2200acad797f48c0071454fe1918c1d25df6",
+    "projects/site/assets/submission-profile-review.mjs": "f85461f8a3955b03ea3214212f1144c8bfbd153500ded7d98e5cc5743ff8e4ec",
+    "projects/site/author_submission_profiles.py": "5a0b1c972fa22a9936f2c0a82e80a623b25d4cee61083f1c7d694fc9fb82de7c",
+    "projects/site/author-pages.py": "878b0e85b5a8991d9c6eef52a1196e29921e31c30ed964c8a9e039f318e91037",
+    "projects/site/standalone-pages.py": "3d0f1f01341e79b1b19451a8be01589b19912b62638a784c96265b557fef928c",
+    "projects/site/build.py": "2feaf7f93a97b3dad3479f4470c53f80eb6b022e96284b69b2d90876fa4346ca",
+    "projects/site/build-public.py": "4fff6e263fb6154d580386d9a362491e41b07429785e35e48042f7596208b3c2",
+    "projects/site/editorial_policies.py": "9ceb4390af2cccf5cc4e2bfdd052d743bb3cdecd01dab9a5007348106a582e18",
+    "projects/site/data/editorial-policies.json": "c5436b562b9e83dc63183ce98d1a73b5f2cd072abc80cb23fb5a1e422841fc3b",
+    "projects/site/tools/check_public_disclosures.py": "9e74a570d29a97ea410851c4c70ef681155a92ba02f36d9f13c089ff409f6c8b",
+    "tools/import_submission_profile.py": "538a2f24c7dd5bfa58067957c8186df7c7ade485a1a792032030b6c6d8ca061a",
+    "kb/production/editorial-service/backend/profile-review.mjs": "ebd87779410c8fa3352574c0ea1576d68c160e242936ab939dab1e3003233df1",
+    "kb/production/monthly-kabita-mail/backend/finalize.mjs": "556c1adeb3fd69963be8146d284177a3414d74db105b8bf5e266fc2b1f249bd5",
+    "kb/production/monthly-kabita-mail/backend/queue.mjs": "dc101c3068e4a98eaf87296f650f4d4d5559e5c872488a82e95500bd81fc2ac1",
+    "kb/production/monthly-kabita-mail/backend/mail-core.mjs": "e178cd6d4eb8fc9dfa7688b5a2e12124565b136b15ce0f971425b57b795630b3",
+    "kb/production/monthly-kabita-mail/publication-notice.mjs": "c9e6ad34fede5cad1ba3395a150197429c6b0bfc0ca2919c32a77c9f5081fc57",
+    "projects/site/poet_directory.py": "09ec00d5ef483fa81e66928d499dfa50a433e06895c15c2c2577968416097ca7",
+    "projects/site/requirements.txt": "b499e863c511ffe551cdcde07405881f67e6404ebe7737d42393cc5f11caa365",
+    ".github/workflows/publish-site.yml": "59328689fa9048c74bf704453cb8049ec3dce68f4a8e85780e6b5dfc4a4abfd4",
+    "projects/site/tests/editor-submission-transfer.test.mjs": "97792bf697aff0c0d32576664e97530c1d081584d2aada3dbacff7f38ad0fd02"
+  },
+  "finalDeltaReview": {
+    "status": "passed",
+    "changes": [
+      "Policy renderer reuses existing colophon styles with collapsed details and escaped text.",
+      "Poet directory uses approved overlay photo consistently with profile.",
+      "Pillow13 pinned and installed in CI under existing projects/site working directory.",
+      "Transfer test expects relative private-review URL.",
+      "Existing previous-publication field explicitly invites simultaneous-submission disclosure; storage contract unchanged."
+    ],
+    "coordinatorEvidenceObserved": {
+      "log": "/private/tmp/kbl-submission-tests.log",
+      "javascriptPassed": 292,
+      "pythonPassed": 90
+    },
+    "additionalFullTestRun": false,
+    "note": "Discovery build remains coordinated by Disha; no publication authority granted."
+  }
+}

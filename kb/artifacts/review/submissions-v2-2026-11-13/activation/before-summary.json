@@ -1,0 +1,51 @@
+{
+  "at": "2026-11-13T16:58:01.991Z",
+  "rules": [
+    {
+      "stem": "firestore",
+      "ruleset": "projects/kabita-live/rulesets/516fd4f7-799c-474c-8383-403d90f00b13"
+    },
+    {
+      "stem": "storage",
+      "ruleset": "projects/kabita-live/rulesets/10588ffc-d2b4-4db0-8363-74b192605823"
+    }
+  ],
+  "functions": [
+    {
+      "name": "monthlyQueueReceipt",
+      "state": "ACTIVE",
+      "updateTime": "2026-10-26T13:50:13.444146242Z",
+      "serviceAccount": "monthly-mail@kabita-live.iam.gserviceaccount.com",
+      "max": 1,
+      "uri": "https://monthlyqueuereceipt-5hohn7fxwa-el.a.run.app"
+    },
+    {
+      "name": "monthlySendReceipt",
+      "state": "ACTIVE",
+      "updateTime": "2026-10-26T15:06:37.752901518Z",
+      "serviceAccount": "monthly-mail@kabita-live.iam.gserviceaccount.com",
+      "max": 1,
+      "uri": "https://monthlysendreceipt-5hohn7fxwa-el.a.run.app"
+    },
+    {
+      "name": "monthlyFinalizeSubmission",
+      "exists": false
+    },
+    {
+      "name": "editorialAction",
+      "state": "ACTIVE",
+      "updateTime": "2026-11-05T16:32:09.385671621Z",
+      "serviceAccount": "editorial-service@kabita-live.iam.gserviceaccount.com",
+      "max": 1,
+      "uri": "https://editorialaction-5hohn7fxwa-el.a.run.app"
+    }
+  ],
+  "intake": {
+    "emailDeliveryEnabled": {
+      "booleanValue": true
+    },
+    "open": {
+      "booleanValue": true
+    }
+  }
+}

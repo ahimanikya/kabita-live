@@ -1,0 +1,610 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function editor() { return signedIn() && request.auth.token.editor == true; }
+    function throttlePath() { return /databases/$(database)/documents/feedbackThrottle/$(request.auth.uid); }
+    match /feedback/{id} {
+      allow create: if signedIn()
+        && request.resource.data.keys().hasAll(['uid','name','email','message','reason','poemPath','status','consentVersion','createdAt'])
+        && request.resource.data.keys().hasOnly(['uid','name','email','message','reason','poemPath','status','consentVersion','createdAt'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.name is string && request.resource.data.name.size() > 0 && request.resource.data.name.size() <= 120
+        && request.resource.data.email is string && request.resource.data.email.size() <= 254 && request.resource.data.email.matches('^[^@ ]+@[^@ ]+\\.[^@ ]+$')
+        && request.resource.data.message is string && request.resource.data.message.size() > 0 && request.resource.data.message.size() <= 5000
+        && request.resource.data.reason in ['note','correction','submission']
+        && request.resource.data.poemPath is string && request.resource.data.poemPath.size() <= 300
+        && request.resource.data.status == 'received'
+        && request.resource.data.consentVersion == 'private-feedback-v1'
+        && request.resource.data.createdAt == request.time
+        && getAfter(throttlePath()).data.lastFeedbackId == id
+        && getAfter(throttlePath()).data.lastSubmittedAt == request.time
+        && (!exists(throttlePath()) || get(throttlePath()).data.lastSubmittedAt < request.time - duration.value(60, 's'));
+      allow read, delete: if editor();
+      allow update: if editor() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
+        && ((resource.data.status == 'received' && request.resource.data.status in ['reviewed','closed'])
+         || (resource.data.status == 'reviewed' && request.resource.data.status == 'closed'));
+    }
+    match /feedbackThrottle/{uid} {
+      allow create, update: if signedIn() && uid == request.auth.uid
+        && request.resource.data.keys().hasAll(['lastSubmittedAt','lastFeedbackId'])
+        && request.resource.data.keys().hasOnly(['lastSubmittedAt','lastFeedbackId'])
+        && request.resource.data.lastSubmittedAt == request.time
+        && request.resource.data.lastFeedbackId is string
+        && request.resource.data.lastFeedbackId.matches('^[A-Za-z0-9]{20}$');
+      allow read, delete: if editor();
+    }
+    // Toshali intake is separate from reader feedback and public engagement.
+    function anthologyOpen() {
+      return exists(/databases/$(database)/documents/anthologyCalls/toshali-2027)
+        && get(/databases/$(database)/documents/anthologyCalls/toshali-2027).data.open == true
+        && request.time < timestamp.date(2026, 10, 31) + duration.value(66600, 's');
+    }
+    function anthologyEditor() {
+      return signedIn() && request.auth.token.get('email_verified', false) == true
+        && request.auth.token.firebase.sign_in_provider == 'google.com'
+        && request.auth.token.email in ['pbiswal804@gmail.com','pareshkpatnaik@gmail.com','ahimanikya@gmail.com']
+        && get(/databases/$(database)/documents/anthologyReviewers/$(request.auth.token.email)).data.enabled == true;
+    }
+    match /anthologyReviewers/{email} {
+      allow get: if anthologyEditor() && request.auth.token.email == email;
+    }
+    function reviewPath(id) { return /databases/$(database)/documents/anthologyReviews/$(id); }
+    function reviewEvent(id,revision) { return /databases/$(database)/documents/anthologyReviews/$(id)/history/$(revision); }
+    function validReview(id) {
+      let d = request.resource.data;
+      return anthologyEditor() && get(anthologyDoc(id)).data.status == 'received'
+        && get(anthologyDoc(id)).data.callId == 'toshali-2027'
+        && d.keys().hasAll(['status','revision','updatedAt','updatedBy'])
+        && d.keys().hasOnly(['status','revision','updatedAt','updatedBy'])
+        && d.status in ['received','shortlisted','selected']
+        && d.updatedAt == request.time && d.updatedBy == request.auth.token.email
+        && d.revision is int && d.revision > 0
+        && getAfter(reviewEvent(id,string(d.revision))).data == d;
+    }
+    match /anthologyReviews/{id} {
+      allow read: if anthologyEditor();
+      allow create: if validReview(id) && request.resource.data.revision == 1;
+      allow update: if validReview(id) && request.resource.data.revision == resource.data.revision + 1;
+      match /history/{revision} {
+        allow read: if anthologyEditor();
+        allow create: if anthologyEditor()
+          && revision == string(request.resource.data.revision)
+          && getAfter(reviewPath(id)).data == request.resource.data
+          && ((!exists(reviewPath(id)) && request.resource.data.revision == 1)
+            || (exists(reviewPath(id)) && request.resource.data.revision == get(reviewPath(id)).data.revision + 1));
+      }
+    }
+    function anthologyDoc(id) { return /databases/$(database)/documents/anthologySubmissions/$(id); }
+    function anthologyReceipt(uid,id) { return /databases/$(database)/documents/anthologyReceipts/$(uid)/items/$(id); }
+    function anthologyThrottle(uid) { return /databases/$(database)/documents/anthologyThrottle/$(uid); }
+    function anthologyText(value, max) { return value is string && value.size() <= max && value.matches('[\\s\\S]*[^\\s][\\s\\S]*'); }
+    // Owner-curated public-profile registry. Self-selection is not identity authentication.
+    function anthologyProfile(id) { return /databases/$(database)/documents/anthologyCalls/toshali-2027/profiles/$(id); }
+    function anthologyPhoto(d,id) {
+      return d.writerId is string && (d.writerId == '' || (d.writerId.matches('^[0-9]{1,8}$') && exists(anthologyProfile(d.writerId))))
+        && ((d.photoMode == 'upload' && d.photoHash == ''
+          && d.photoPath == 'anthology/toshali-2027/' + request.auth.uid + '/' + id + '/photo'
+          && d.photoType in ['image/jpeg','image/png','image/webp']
+          && d.photoSize is int && d.photoSize > 0 && d.photoSize <= 5242880)
+        || (d.photoMode == 'profile' && d.writerId != ''
+          && get(anthologyProfile(d.writerId)).data.reusable == true
+          && d.photoPath == get(anthologyProfile(d.writerId)).data.image
+          && d.photoHash == get(anthologyProfile(d.writerId)).data.photoHash
+          && d.photoType == get(anthologyProfile(d.writerId)).data.photoType
+          && d.photoSize == get(anthologyProfile(d.writerId)).data.photoSize));
+    }
+    match /anthologyCalls/toshali-2027/profiles/{id} {
+      allow get: if signedIn();
+      // No client writes, including editors; seed from the reviewed build at activation.
+    }
+    match /anthologySubmissions/{id} {
+      allow get: if anthologyEditor() || (signedIn() && (resource == null || resource.data.uid == request.auth.uid));
+      allow list: if anthologyEditor();
+      allow create: if signedIn() && anthologyOpen() && id.matches('^[A-Za-z0-9]{20}$')
+        && request.resource.data.keys().hasAll(['uid','callId','name','email','title','poem','bio','photoMode','writerId','photoHash','photoPath','photoType','photoSize','status','consentVersion','createdAt'])
+        && request.resource.data.keys().hasOnly(['uid','callId','name','email','title','poem','bio','photoMode','writerId','photoHash','photoPath','photoType','photoSize','status','consentVersion','createdAt'])
+        && request.resource.data.uid == request.auth.uid && request.resource.data.callId == 'toshali-2027'
+        && anthologyText(request.resource.data.name,120) && anthologyText(request.resource.data.title,200)
+        && anthologyText(request.resource.data.poem,30000) && anthologyText(request.resource.data.bio,5000)
+        && request.resource.data.email is string && request.resource.data.email.size() <= 254
+        && request.resource.data.email.matches('^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$')
+        && anthologyPhoto(request.resource.data,id)
+        && request.resource.data.status == 'uploading' && request.resource.data.consentVersion == 'toshali-private-v1'
+        && request.resource.data.createdAt == request.time
+        && getAfter(anthologyThrottle(request.auth.uid)).data.submissionId == id
+        && getAfter(anthologyThrottle(request.auth.uid)).data.createdAt == request.time
+        && (!exists(anthologyThrottle(request.auth.uid)) || get(anthologyThrottle(request.auth.uid)).data.createdAt < request.time - duration.value(60,'s'));
+      allow update: if signedIn() && resource.data.uid == request.auth.uid && anthologyOpen()
+        && resource.data.status == 'uploading' && request.resource.data.status == 'received'
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','receivedAt'])
+        && request.resource.data.receivedAt == request.time
+        && getAfter(anthologyReceipt(request.auth.uid,id)).data.submissionId == id
+        && getAfter(anthologyReceipt(request.auth.uid,id)).data.receivedAt == request.time;
+      // Original entries are immutable after receipt; editorial decisions live separately.
+      // Indefinite retention: no client deletion, including reviewers.
+    }
+    match /anthologyReceipts/{uid}/items/{id} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow create: if signedIn() && request.auth.uid == uid && anthologyOpen()
+        && request.resource.data.keys().hasOnly(['submissionId','receivedAt'])
+        && request.resource.data.submissionId == id && request.resource.data.receivedAt == request.time
+        && get(anthologyDoc(id)).data.uid == uid && get(anthologyDoc(id)).data.status == 'uploading'
+        && getAfter(anthologyDoc(id)).data.status == 'received'
+        && getAfter(anthologyDoc(id)).data.receivedAt == request.time;
+    }
+    match /anthologyThrottle/{uid} {
+      allow create, update: if signedIn() && request.auth.uid == uid && anthologyOpen()
+        && request.resource.data.keys().hasOnly(['submissionId','createdAt'])
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.submissionId.matches('^[A-Za-z0-9]{20}$')
+        && !exists(anthologyDoc(request.resource.data.submissionId))
+        && getAfter(anthologyDoc(request.resource.data.submissionId)).data.uid == uid
+        && getAfter(anthologyDoc(request.resource.data.submissionId)).data.createdAt == request.time
+        && (!exists(anthologyThrottle(uid)) || resource.data.createdAt < request.time - duration.value(60,'s'));
+    }
+
+    // Year-round journal submissions: separate data and reviewer allowlist.
+    function monthlyEditor() {
+      return signedIn() && request.auth.token.get('email_verified', false) == true
+        && request.auth.token.firebase.sign_in_provider == 'google.com'
+        && request.auth.token.email in ['pbiswal804@gmail.com','pareshkpatnaik@gmail.com','ahimanikya@gmail.com']
+        && get(/databases/$(database)/documents/monthlyReviewers/$(request.auth.token.email)).data.enabled == true;
+    }
+    function monthlyOpen() { return get(/databases/$(database)/documents/monthlyCalls/year-round).data.open == true; }
+    function monthlyDoc(id) { return /databases/$(database)/documents/monthlySubmissions/$(id); }
+    function monthlyAck(uid,id) { return /databases/$(database)/documents/monthlyReceipts/$(uid)/items/$(id); }
+    function monthlyRate(uid) { return /databases/$(database)/documents/monthlyThrottle/$(uid); }
+    function monthlyPair(id) {
+      return getAfter(monthlyAck(request.auth.uid,id)).data.submissionId == id
+        && getAfter(monthlyAck(request.auth.uid,id)).data.receivedAt == request.time
+        && getAfter(monthlyRate(request.auth.uid)).data.submissionId == id
+        && getAfter(monthlyRate(request.auth.uid)).data.createdAt == request.time
+        && (!exists(monthlyRate(request.auth.uid)) || get(monthlyRate(request.auth.uid)).data.createdAt <= request.time - duration.value(60,'s'));
+    }
+    match /monthlyReviewers/{email} { allow get: if monthlyEditor() && request.auth.token.email == email; }
+    match /monthlySubmissions/{id} {
+      allow get, list: if monthlyEditor();
+      allow create: if signedIn() && monthlyOpen() && id.matches('^[A-Za-z0-9]{20}$')
+        && request.resource.data.keys().hasAll(['uid','callId','name','email','title','language','poem','kind','credits','previous','bio','status','consentVersion','createdAt','receivedAt'])
+        && request.resource.data.keys().hasOnly(['uid','callId','name','email','title','language','poem','kind','credits','previous','bio','status','consentVersion','createdAt','receivedAt'])
+        && request.resource.data.uid == request.auth.uid && request.resource.data.callId == 'year-round'
+        && anthologyText(request.resource.data.name,120) && anthologyText(request.resource.data.title,200)
+        && !request.resource.data.name.matches('[\\s\\S]*[\\r\\n][\\s\\S]*') && !request.resource.data.title.matches('[\\s\\S]*[\\r\\n][\\s\\S]*')
+        && anthologyText(request.resource.data.poem,30000) && anthologyText(request.resource.data.bio,5000)
+        && request.resource.data.email is string && request.resource.data.email.size() <= 254
+        && request.resource.data.email.matches('^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$')
+        && request.resource.data.language in ['or','hi','en'] && request.resource.data.kind in ['original','translation']
+        && request.resource.data.credits is string && request.resource.data.credits.size() <= 1000
+        && (request.resource.data.kind == 'original' || anthologyText(request.resource.data.credits,1000))
+        && request.resource.data.previous is string && request.resource.data.previous.size() <= 2000
+        && request.resource.data.status == 'received' && request.resource.data.consentVersion == 'monthly-private-v1'
+        && request.resource.data.createdAt == request.time && request.resource.data.receivedAt == request.time && monthlyPair(id);
+      // No original edits or deletion, including reviewer clients.
+    }
+    match /monthlyReceipts/{uid}/items/{id} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow create: if signedIn() && request.auth.uid == uid && monthlyOpen() && id.matches('^[A-Za-z0-9]{20}$')
+        && request.resource.data.keys().hasOnly(['submissionId','receivedAt'])
+        && request.resource.data.submissionId == id && request.resource.data.receivedAt == request.time
+        && !exists(monthlyDoc(id)) && getAfter(monthlyDoc(id)).data.uid == uid
+        && getAfter(monthlyDoc(id)).data.receivedAt == request.time && monthlyPair(id);
+    }
+    match /monthlyThrottle/{uid} {
+      allow create, update: if signedIn() && request.auth.uid == uid && monthlyOpen()
+        && request.resource.data.keys().hasOnly(['submissionId','createdAt'])
+        && request.resource.data.createdAt == request.time && request.resource.data.submissionId.matches('^[A-Za-z0-9]{20}$')
+        && !exists(monthlyDoc(request.resource.data.submissionId))
+        && getAfter(monthlyDoc(request.resource.data.submissionId)).data.uid == uid
+        && getAfter(monthlyDoc(request.resource.data.submissionId)).data.createdAt == request.time
+        && monthlyPair(request.resource.data.submissionId);
+    }
+    function monthlyReview(id) { return /databases/$(database)/documents/monthlyReviews/$(id); }
+    function monthlyReviewValid(id) {
+      let d=request.resource.data;
+      return monthlyEditor() && get(monthlyDoc(id)).data.status == 'received'
+        && d.keys().hasAll(['status','issueMonth','revision','updatedAt','updatedBy'])
+        && d.keys().hasOnly(['status','issueMonth','revision','updatedAt','updatedBy'])
+        && d.status in ['received','shortlisted','selected','next_issue']
+        && d.issueMonth is string && (d.issueMonth == '' || d.issueMonth.matches('^20[0-9]{2}-(0[1-9]|1[0-2])$'))
+        && (d.status in ['selected','next_issue'] || d.issueMonth == '')
+        && d.updatedAt == request.time && d.updatedBy == request.auth.token.email && d.revision is int && d.revision > 0
+        && getAfter(/databases/$(database)/documents/monthlyReviews/$(id)/history/$(string(d.revision))).data == d;
+    }
+    match /monthlyReviews/{id} {
+      allow read: if monthlyEditor();
+      allow create: if monthlyReviewValid(id) && request.resource.data.revision == 1;
+      allow update: if monthlyReviewValid(id) && request.resource.data.revision == resource.data.revision + 1;
+      match /history/{revision} {
+        allow read: if monthlyEditor();
+        allow create: if monthlyEditor() && revision == string(request.resource.data.revision)
+          && getAfter(monthlyReview(id)).data == request.resource.data
+          && ((!exists(monthlyReview(id)) && request.resource.data.revision == 1)
+            || (exists(monthlyReview(id)) && request.resource.data.revision == get(monthlyReview(id)).data.revision + 1));
+      }
+    }
+
+    // Monthly edition assembly; activation is separate from submission review.
+    function issueEditor() { return monthlyEditor() && get(/databases/$(database)/documents/editorWorkspace/config).data.enabled == true; }
+    match /editorWorkspace/config { allow get: if monthlyEditor(); }
+    match /editorPublications/{key} { allow read: if issueEditor(); }
+    function issuePath(month) { return /databases/$(database)/documents/editorIssues/$(month); }
+    function issueValid(month) {
+      let d = request.resource.data;
+      return issueEditor() && month > '2026-10' && !exists(/databases/$(database)/documents/editorPublications/$(month)) && month.matches('^20[0-9]{2}-(0[1-9]|1[0-2])$')
+        && d.keys().hasOnly(['month','issue','draftJson','revision','updatedBy','updatedAt','stage'])
+        && d.month == month && d.issue is int && d.issue >= 49 && d.issue <= 9999
+        && d.draftJson is string && d.draftJson.size() > 0 && d.draftJson.size() <= 650000
+        && d.stage == 'preparation' && d.revision is int && d.revision >= 1
+        && d.updatedBy == request.auth.token.email && d.updatedAt == request.time
+        && getAfter(/databases/$(database)/documents/editorIssues/$(month)/history/$(string(d.revision))).data == d;
+    }
+    match /editorIssues/{month} {
+      allow read: if issueEditor();
+      allow create: if issueValid(month) && request.resource.data.revision == 1;
+      allow update: if resource.data.stage != 'published' && issueValid(month) && request.resource.data.revision == resource.data.revision + 1;
+      match /history/{revision} {
+        allow read: if issueEditor();
+        allow create: if issueEditor() && revision == string(request.resource.data.revision)
+          && getAfter(issuePath(month)).data == request.resource.data
+          && ((!exists(issuePath(month)) && request.resource.data.revision == 1)
+            || (exists(issuePath(month)) && request.resource.data.revision == get(issuePath(month)).data.revision + 1));
+      }
+    }
+
+    // Anthology assembly is separate from monthly editions and original submissions.
+    function anthologyDraftEditor() { return issueEditor() && anthologyEditor(); }
+    function anthologyDraftPath(id) { return /databases/$(database)/documents/editorAnthologies/$(id); }
+    function anthologyDraftValid(id) {
+      let d=request.resource.data;
+      return anthologyDraftEditor() && !exists(/databases/$(database)/documents/editorPublications/$(id)) && id == 'toshali-2027'
+        && d.keys().hasOnly(['month','issue','draftJson','revision','updatedBy','updatedAt','stage'])
+        && d.month == id && d.issue == 2027
+        && d.draftJson is string && d.draftJson.size() > 0 && d.draftJson.size() <= 650000
+        && d.stage == 'preparation' && d.revision is int && d.revision >= 1
+        && d.updatedBy == request.auth.token.email && d.updatedAt == request.time
+        && getAfter(/databases/$(database)/documents/editorAnthologies/$(id)/history/$(string(d.revision))).data == d;
+    }
+    match /editorAnthologies/{id} {
+      allow read: if id == 'toshali-2027' && anthologyDraftEditor();
+      allow create: if anthologyDraftValid(id) && request.resource.data.revision == 1;
+      allow update: if resource.data.stage != 'published' && anthologyDraftValid(id) && request.resource.data.revision == resource.data.revision + 1;
+      match /history/{revision} {
+        allow read: if id == 'toshali-2027' && anthologyDraftEditor();
+        allow create: if id == 'toshali-2027' && anthologyDraftEditor() && revision == string(request.resource.data.revision)
+          && getAfter(anthologyDraftPath(id)).data == request.resource.data
+          && ((!exists(anthologyDraftPath(id)) && request.resource.data.revision == 1)
+            || (exists(anthologyDraftPath(id)) && request.resource.data.revision == get(anthologyDraftPath(id)).data.revision + 1));
+      }
+    }
+
+    // Reusable private author proposals; originals and published profiles stay in Git.
+    function portraitValid(id,p) {
+      return p is map && p.keys().hasAll(['path','type','size','credit','permission'])
+        && p.keys().hasOnly(['path','type','size','credit','permission'])
+        && p.path is string && p.path.matches('^editor-portraits/'+id+'/[a-f0-9-]{36}$')
+        && p.type in ['image/jpeg','image/png','image/webp'] && p.size is int && p.size>0 && p.size<=5242880
+        && p.credit is string && p.credit.size()>0 && p.credit.size()<=300 && p.permission==true;
+    }
+    function authorDraftPath(id) { return /databases/$(database)/documents/editorAuthors/$(id); }
+    function authorDraftValid(id) {
+      let d=request.resource.data;
+      return issueEditor() && (id.matches('^writer-[0-9]+$') || id.matches('^new-[A-Za-z0-9_-]{1,70}$'))
+        && d.keys().hasOnly(['name','bio','portrait','revision','updatedBy','updatedAt','stage'])
+        && (!('portrait' in d) || portraitValid(id,d.portrait))
+        && d.name is string && d.name.size()>0 && d.name.size()<=120
+        && d.bio is string && d.bio.size()<=5000 && d.stage=='preparation'
+        && d.revision is int && d.revision>=1 && d.updatedBy==request.auth.token.email && d.updatedAt==request.time
+        && getAfter(/databases/$(database)/documents/editorAuthors/$(id)/history/$(string(d.revision))).data==d;
+    }
+    match /editorAuthors/{id} {
+      allow get: if issueEditor();
+      allow list: if issueEditor() && request.query.limit != null && request.query.limit <=25;
+      allow create: if authorDraftValid(id) && request.resource.data.revision==1;
+      allow update: if authorDraftValid(id) && request.resource.data.revision==resource.data.revision+1;
+      match /history/{revision} {
+        allow read: if issueEditor();
+        allow create: if issueEditor() && revision==string(request.resource.data.revision)
+          && getAfter(authorDraftPath(id)).data==request.resource.data
+          && ((!exists(authorDraftPath(id)) && request.resource.data.revision==1)
+            || (exists(authorDraftPath(id)) && request.resource.data.revision==get(authorDraftPath(id)).data.revision+1));
+      }
+    }
+
+    // Shared categories, immutable artwork metadata in drafts, and owner revision handoff.
+    match /editorCatalogue/categories {
+      allow read: if issueEditor();
+      allow create, update: if issueEditor()
+        && request.resource.data.keys().hasOnly(['names','revision','updatedBy','updatedAt'])
+        && request.resource.data.names is list && request.resource.data.names.size()<=100
+        && request.resource.data.updatedBy==request.auth.token.email && request.resource.data.updatedAt==request.time
+        && request.resource.data.revision == (resource==null ? 1 : resource.data.revision+1)
+        && getAfter(/databases/$(database)/documents/editorCatalogue/categories/history/$(string(request.resource.data.revision))).data==request.resource.data;
+      match /history/{revision} {
+        allow read: if issueEditor();
+        allow create: if issueEditor() && revision==string(request.resource.data.revision)
+          && getAfter(/databases/$(database)/documents/editorCatalogue/categories).data==request.resource.data
+          && request.resource.data.revision==(exists(/databases/$(database)/documents/editorCatalogue/categories) ? get(/databases/$(database)/documents/editorCatalogue/categories).data.revision+1 : 1);
+      }
+    }
+    match /editorReleaseReviews/{id} {
+      function source() { return request.resource.data.month=='toshali-2027' ? anthologyDraftPath('toshali-2027') : issuePath(request.resource.data.month); }
+      allow read: if issueEditor() && request.auth.token.email=='ahimanikya@gmail.com';
+      allow create: if issueEditor() && request.auth.token.email=='ahimanikya@gmail.com'
+        && request.resource.data.keys().hasOnly(['month','revision','draftJson','approvedBy','approvedAt','purpose'])
+        && request.resource.data.month is string && request.resource.data.revision is int
+        && id==request.resource.data.month+'-'+string(request.resource.data.revision)
+        && request.resource.data.approvedBy==request.auth.token.email && request.resource.data.approvedAt==request.time
+        && request.resource.data.purpose=='production-handoff'
+        && !exists(/databases/$(database)/documents/editorPublications/$(request.resource.data.month))
+        && get(source()).data.stage=='preparation'
+        && get(source()).data.revision==request.resource.data.revision
+        && get(source()).data.draftJson==request.resource.data.draftJson;
+      // No update, deletion or website-publishing authority.
+    }
+
+    function poemIdValid(poemId) { return poemId.matches('^[0-9]{1,8}$'); }
+    function statsPath(poemId) { return /databases/$(database)/documents/poemStats/$(poemId); }
+    function votePath(poemId) { return /databases/$(database)/documents/poemLikes/$(poemId)/voters/$(request.auth.uid); }
+    function oldCount(poemId) { return exists(statsPath(poemId)) ? get(statsPath(poemId)).data.likes : 0; }
+    function wasLiked(poemId) { return exists(votePath(poemId)) && get(votePath(poemId)).data.liked; }
+    match /poemStats/{poemId} {
+      allow get: if poemIdValid(poemId);
+      allow create, update: if signedIn() && poemIdValid(poemId)
+        && request.resource.data.keys().hasAll(['likes','updatedAt'])
+        && request.resource.data.keys().hasOnly(['likes','updatedAt'])
+        && request.resource.data.likes is int && request.resource.data.likes >= 0
+        && request.resource.data.updatedAt == request.time
+        && getAfter(votePath(poemId)).data.updatedAt == request.time
+        && getAfter(votePath(poemId)).data.liked == !wasLiked(poemId)
+        && request.resource.data.likes == oldCount(poemId) + (wasLiked(poemId) ? -1 : 1);
+    }
+    match /poemLikes/{poemId}/voters/{uid} {
+      allow get: if signedIn() && uid == request.auth.uid;
+      allow create, update: if signedIn() && uid == request.auth.uid && poemIdValid(poemId)
+        && request.resource.data.keys().hasAll(['liked','updatedAt'])
+        && request.resource.data.keys().hasOnly(['liked','updatedAt'])
+        && request.resource.data.liked is bool
+        && request.resource.data.liked == !wasLiked(poemId)
+        && request.resource.data.updatedAt == request.time
+        && getAfter(statsPath(poemId)).data.updatedAt == request.time
+        && getAfter(statsPath(poemId)).data.likes == oldCount(poemId) + (wasLiked(poemId) ? -1 : 1);
+    }
+    function commentThrottlePath() { return /databases/$(database)/documents/commentThrottle/$(request.auth.uid); }
+    match /commentSubmissions/{id} {
+      allow create: if signedIn()
+        && request.resource.data.keys().hasAll(['uid','poemId','name','message','status','consentVersion','createdAt'])
+        && request.resource.data.keys().hasOnly(['uid','poemId','name','message','status','consentVersion','createdAt'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.poemId is string && poemIdValid(request.resource.data.poemId)
+        && request.resource.data.name is string && request.resource.data.name.size() > 0 && request.resource.data.name.size() <= 80
+        && request.resource.data.message is string && request.resource.data.message.size() > 0 && request.resource.data.message.size() <= 2000
+        && request.resource.data.status == 'pending'
+        && request.resource.data.consentVersion == 'public-comments-v1'
+        && request.resource.data.createdAt == request.time
+        && getAfter(commentThrottlePath()).data.lastCommentId == id
+        && getAfter(commentThrottlePath()).data.lastSubmittedAt == request.time
+        && (!exists(commentThrottlePath()) || get(commentThrottlePath()).data.lastSubmittedAt < request.time - duration.value(60, 's'));
+      allow read: if editor();
+      allow delete: if editor() && !existsAfter(/databases/$(database)/documents/publicComments/$(id));
+      allow update: if editor() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
+        && ((resource.data.status == 'pending' && request.resource.data.status == 'published'
+          && existsAfter(/databases/$(database)/documents/publicComments/$(id))
+          && getAfter(/databases/$(database)/documents/publicComments/$(id)).data.publishedAt == request.time)
+         || (resource.data.status == 'pending' && request.resource.data.status == 'rejected'
+          && !existsAfter(/databases/$(database)/documents/publicComments/$(id)))
+         || (resource.data.status == 'published' && request.resource.data.status == 'withdrawn'
+          && !existsAfter(/databases/$(database)/documents/publicComments/$(id))));
+    }
+    match /commentThrottle/{uid} {
+      allow create, update: if signedIn() && uid == request.auth.uid
+        && request.resource.data.keys().hasAll(['lastSubmittedAt','lastCommentId'])
+        && request.resource.data.keys().hasOnly(['lastSubmittedAt','lastCommentId'])
+        && request.resource.data.lastSubmittedAt == request.time
+        && request.resource.data.lastCommentId is string
+        && request.resource.data.lastCommentId.matches('^[A-Za-z0-9]{20}$');
+      allow read, delete: if editor();
+    }
+    match /feedbackReceipts/{uid}/items/{id} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow create: if signedIn() && request.auth.uid == uid && id.matches('^[A-Za-z0-9]{20}$')
+        && request.resource.data.keys().hasAll(['submissionId','channel','acceptedAt'])
+        && request.resource.data.keys().hasOnly(['submissionId','channel','acceptedAt'])
+        && request.resource.data.submissionId == id && request.resource.data.channel == 'feedback'
+        && request.resource.data.acceptedAt == request.time
+        && !exists(/databases/$(database)/documents/feedback/$(id))
+        && getAfter(/databases/$(database)/documents/feedback/$(id)).data.uid == uid
+        && getAfter(/databases/$(database)/documents/feedback/$(id)).data.createdAt == request.time
+        && getAfter(/databases/$(database)/documents/feedback/$(id)).data.name.toUtf8().size() <= 120
+        && getAfter(/databases/$(database)/documents/feedback/$(id)).data.email.toUtf8().size() <= 254
+        && getAfter(/databases/$(database)/documents/feedback/$(id)).data.message.toUtf8().size() <= 5000
+        && getAfter(throttlePath()).data.lastFeedbackId == id
+        && getAfter(throttlePath()).data.lastSubmittedAt == request.time;
+    }
+    // Additive receipt channel for the versioned adapter; older accepted records are preserved.
+    match /commentReceipts/{uid}/items/{id} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow create: if signedIn() && request.auth.uid == uid && id.matches('^[A-Za-z0-9]{20}$')
+        && request.resource.data.keys().hasAll(['submissionId','channel','acceptedAt'])
+        && request.resource.data.keys().hasOnly(['submissionId','channel','acceptedAt'])
+        && request.resource.data.submissionId == id && request.resource.data.channel == 'comment'
+        && request.resource.data.acceptedAt == request.time
+        && !exists(/databases/$(database)/documents/commentSubmissions/$(id))
+        && getAfter(/databases/$(database)/documents/commentSubmissions/$(id)).data.uid == uid
+        && getAfter(/databases/$(database)/documents/commentSubmissions/$(id)).data.createdAt == request.time
+        && getAfter(/databases/$(database)/documents/commentSubmissions/$(id)).data.message.toUtf8().size() <= 2000
+        && getAfter(commentThrottlePath()).data.lastCommentId == id
+        && getAfter(commentThrottlePath()).data.lastSubmittedAt == request.time;
+    }
+    match /publicComments/{id} {
+      // This collection contains only approved public text, never identity/contact fields.
+      allow get: if true;
+      allow list: if request.query.limit != null && request.query.limit <= 20;
+      allow create: if editor()
+        && get(/databases/$(database)/documents/commentSubmissions/$(id)).data.status == 'pending'
+        && request.resource.data.keys().hasAll(['poemId','name','message','publishedAt'])
+        && request.resource.data.keys().hasOnly(['poemId','name','message','publishedAt'])
+        && request.resource.data.poemId == get(/databases/$(database)/documents/commentSubmissions/$(id)).data.poemId
+        && request.resource.data.name == get(/databases/$(database)/documents/commentSubmissions/$(id)).data.name
+        && request.resource.data.message == get(/databases/$(database)/documents/commentSubmissions/$(id)).data.message
+        && getAfter(/databases/$(database)/documents/commentSubmissions/$(id)).data.status == 'published'
+        && request.resource.data.publishedAt == request.time;
+      allow delete: if editor();
+    }
+    // Additive article response rules; existing poem paths stay unchanged.
+
+  function article_signedIn() { return request.auth != null; }
+  function article_published(key) {
+   return exists(/databases/$(database)/documents/responseContent/$(key))
+     && get(/databases/$(database)/documents/responseContent/$(key)).data.public == true
+     && get(/databases/$(database)/documents/responseContent/$(key)).data.kind == 'article'
+     && get(/databases/$(database)/documents/responseContent/$(key)).data.contentId in ['kabita:article:edition-48-editorial','kabita:article:language-journey'];
+  }
+  function article_stats(key) { return /databases/$(database)/documents/responseStats/$(key); }
+  function article_vote(key) { return /databases/$(database)/documents/responseLikes/$(key)/voters/$(request.auth.uid); }
+  function article_oldCount(key) { return exists(article_stats(key)) ? get(article_stats(key)).data.likes : 0; }
+  function article_wasLiked(key) { return exists(article_vote(key)) && get(article_vote(key)).data.liked; }
+  function article_countShape() {
+   return request.resource.data.keys().hasAll(['likes','updatedAt'])
+    && request.resource.data.keys().hasOnly(['likes','updatedAt'])
+    && request.resource.data.likes is int
+    && request.resource.data.likes >= 0 && request.resource.data.likes <= 9007199254740991
+    && request.resource.data.updatedAt == request.time;
+  }
+  function article_expectedCount(key) { return article_oldCount(key) + (article_wasLiked(key) ? -1 : 1); }
+  // Provisioned from the site's explicit public content manifest by trusted setup.
+  // Reader clients cannot register, change or publish a content identity.
+  match /responseContent/{key} { allow get: if resource.data.public == true; }
+  match /responseStats/{key} {
+   allow get: if article_published(key);
+   allow create, update: if article_signedIn() && article_published(key) && article_countShape()
+    && getAfter(article_vote(key)).data.updatedAt == request.time
+    && getAfter(article_vote(key)).data.liked == !article_wasLiked(key)
+    && request.resource.data.likes == article_expectedCount(key);
+  }
+  match /responseLikes/{key}/voters/{uid} {
+   allow get: if article_signedIn() && request.auth.uid == uid && article_published(key);
+   allow create, update: if article_signedIn() && request.auth.uid == uid && article_published(key)
+    && request.resource.data.keys().hasAll(['liked','updatedAt'])
+    && request.resource.data.keys().hasOnly(['liked','updatedAt'])
+    && request.resource.data.liked is bool
+    && request.resource.data.liked == !article_wasLiked(key)
+    && request.resource.data.updatedAt == request.time
+    && getAfter(article_stats(key)).data.updatedAt == request.time
+    && getAfter(article_stats(key)).data.likes == article_expectedCount(key);
+  }
+  function article_editor() { return article_signedIn() && request.auth.token.editor == true; }
+  function article_validId(id) { return id.matches('^[A-Za-z0-9]{20}$'); }
+  function article_text(value, maximum) {
+   return value is string && value.size() > 0 && value.toUtf8().size() <= maximum
+    && value.matches('[\\s\\S]*[^\\s][\\s\\S]*')
+    && !value.matches('[\\s\\S]*[\\x00-\\x08\\x0B\\x0C\\x0E-\\x1F\\x7F][\\s\\S]*');
+  }
+  function article_submission(channel, id) {
+   return channel == 'comment' ? /databases/$(database)/documents/responseCommentSubmissions/$(id)
+    : /databases/$(database)/documents/responsePrivateFeedback/$(id);
+  }
+  function article_acknowledgement(uid, channel, id) { return /databases/$(database)/documents/responseReceipts/$(uid)/$(channel)/$(id); }
+  function article_throttle(uid, channel) { return /databases/$(database)/documents/responseThrottles/$(uid)/channels/$(channel); }
+  function article_newSubmission(channel, id) {
+   return article_validId(id) && !exists(article_submission(channel,id))
+    && getAfter(article_submission(channel,id)).data.uid == request.auth.uid
+    && getAfter(article_submission(channel,id)).data.createdAt == request.time;
+  }
+  function article_pairedReceipt(channel, id) {
+   return !exists(article_acknowledgement(request.auth.uid,channel,id))
+    && getAfter(article_acknowledgement(request.auth.uid,channel,id)).data.submissionId == id
+    && getAfter(article_acknowledgement(request.auth.uid,channel,id)).data.channel == channel
+    && getAfter(article_acknowledgement(request.auth.uid,channel,id)).data.acceptedAt == request.time;
+  }
+  function article_pairedThrottle(channel, id) {
+   return getAfter(article_throttle(request.auth.uid,channel)).data.submissionId == id
+    && getAfter(article_throttle(request.auth.uid,channel)).data.lastSubmittedAt == request.time
+    && (!exists(article_throttle(request.auth.uid,channel)) || get(article_throttle(request.auth.uid,channel)).data.lastSubmittedAt <= request.time - duration.value(60,'s'));
+  }
+  function article_validRef(data) {
+   return data.contentKey is string && article_published(data.contentKey)
+    && data.contentId == get(/databases/$(database)/documents/responseContent/$(data.contentKey)).data.contentId
+    && data.kind == get(/databases/$(database)/documents/responseContent/$(data.contentKey)).data.kind
+    && data.language in get(/databases/$(database)/documents/responseContent/$(data.contentKey)).data.languages
+    && data.language is string && data.language.matches('^[A-Za-z]{2,8}(-[A-Za-z0-9]{1,8})*$');
+  }
+  function article_publicCopy(key, id) { return /databases/$(database)/documents/responsePublicComments/$(key)/comments/$(id); }
+  match /responsePublicComments/{key}/comments/{id} {
+   allow get: if article_published(key);
+   allow list: if article_published(key) && request.query.limit != null && request.query.limit <= 20;
+   allow create: if article_editor() && article_validId(id) && article_published(key)
+    && get(article_submission('comment',id)).data.status == 'pending'
+    && get(article_submission('comment',id)).data.contentKey == key
+    && getAfter(article_submission('comment',id)).data.status == 'published'
+    && request.resource.data.keys().hasAll(['id','contentId','kind','language','displayName','message','publishedAt'])
+    && request.resource.data.keys().hasOnly(['id','contentId','kind','language','displayName','message','publishedAt'])
+    && request.resource.data.id == id
+    && request.resource.data.contentId == get(article_submission('comment',id)).data.contentId
+    && request.resource.data.kind == get(article_submission('comment',id)).data.kind
+    && request.resource.data.language == get(article_submission('comment',id)).data.language
+    && request.resource.data.displayName == get(article_submission('comment',id)).data.displayName
+    && request.resource.data.message == get(article_submission('comment',id)).data.message
+    && request.resource.data.publishedAt == request.time;
+   allow delete: if article_editor() && get(article_submission('comment',id)).data.status == 'published'
+    && get(article_submission('comment',id)).data.contentKey == key
+    && getAfter(article_submission('comment',id)).data.status == 'withdrawn';
+  }
+  match /responseCommentSubmissions/{id} {
+   allow create: if article_signedIn() && article_validId(id)
+    && request.resource.data.keys().hasAll(['uid','contentKey','contentId','kind','language','displayName','message','status','consentVersion','createdAt'])
+    && request.resource.data.keys().hasOnly(['uid','contentKey','contentId','kind','language','displayName','message','status','consentVersion','createdAt'])
+    && request.resource.data.uid == request.auth.uid && article_validRef(request.resource.data)
+    && article_text(request.resource.data.displayName,80) && article_text(request.resource.data.message,2000)
+    && request.resource.data.status == 'pending' && request.resource.data.consentVersion == 'public-comments-v1'
+    && request.resource.data.createdAt == request.time
+    && article_pairedReceipt('comment',id) && article_pairedThrottle('comment',id);
+   allow read: if article_editor();
+   allow update: if article_editor() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
+    && ((resource.data.status == 'pending' && request.resource.data.status == 'published'
+      && existsAfter(article_publicCopy(resource.data.contentKey,id))
+      && getAfter(article_publicCopy(resource.data.contentKey,id)).data.publishedAt == request.time)
+     || (resource.data.status == 'pending' && request.resource.data.status == 'rejected'
+      && !existsAfter(article_publicCopy(resource.data.contentKey,id)))
+     || (resource.data.status == 'published' && request.resource.data.status == 'withdrawn'
+      && !existsAfter(article_publicCopy(resource.data.contentKey,id))));
+  }
+  match /responsePrivateFeedback/{id} {
+   allow create: if article_signedIn() && article_validId(id)
+    && request.resource.data.keys().hasAll(['uid','contentKey','contentId','kind','language','name','message','reason','status','consentVersion','createdAt'])
+    && request.resource.data.keys().hasOnly(['uid','contentKey','contentId','kind','language','name','email','message','reason','status','consentVersion','createdAt'])
+    && request.resource.data.uid == request.auth.uid && article_validRef(request.resource.data)
+    && article_text(request.resource.data.name,120) && article_text(request.resource.data.message,5000)
+    && (!('email' in request.resource.data) || (request.resource.data.email is string && request.resource.data.email.toUtf8().size() <= 254 && (request.resource.data.email == '' || request.resource.data.email.matches('^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$'))))
+    && request.resource.data.reason in ['note','correction','submission']
+    && request.resource.data.status == 'received' && request.resource.data.consentVersion == 'private-feedback-v1'
+    && request.resource.data.createdAt == request.time
+    && article_pairedReceipt('feedback',id) && article_pairedThrottle('feedback',id);
+   allow read: if article_editor();
+   allow update: if article_editor() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
+    && ((resource.data.status == 'received' && request.resource.data.status in ['reviewed','closed'])
+     || (resource.data.status == 'reviewed' && request.resource.data.status == 'closed'));
+  }
+  match /responseReceipts/{uid}/{channel}/{id} {
+   allow get: if article_signedIn() && request.auth.uid == uid && channel in ['comment','feedback'];
+   allow create: if article_signedIn() && request.auth.uid == uid && channel in ['comment','feedback'] && article_validId(id)
+    && request.resource.data.keys().hasAll(['submissionId','channel','acceptedAt'])
+    && request.resource.data.keys().hasOnly(['submissionId','channel','acceptedAt'])
+    && request.resource.data.submissionId == id && request.resource.data.channel == channel
+    && request.resource.data.acceptedAt == request.time && article_newSubmission(channel,id) && article_pairedThrottle(channel,id);
+  }
+  match /responseThrottles/{uid}/channels/{channel} {
+   allow get: if article_signedIn() && request.auth.uid == uid && channel in ['comment','feedback'];
+   allow create, update: if article_signedIn() && request.auth.uid == uid && channel in ['comment','feedback']
+    && request.resource.data.keys().hasAll(['submissionId','lastSubmittedAt'])
+    && request.resource.data.keys().hasOnly(['submissionId','lastSubmittedAt'])
+    && request.resource.data.lastSubmittedAt == request.time
+    && (!exists(article_throttle(uid,channel)) || resource.data.lastSubmittedAt <= request.time - duration.value(60,'s'))
+    && article_newSubmission(channel,request.resource.data.submissionId) && article_pairedReceipt(channel,request.resource.data.submissionId);
+  }
+  // Rejected/withdrawn comments are terminal; private feedback has no public projection.
+  match /{document=**} { allow read, write: if false; }
+ 
+    match /{document=**} { allow read, write: if false; }
+  }
+}
