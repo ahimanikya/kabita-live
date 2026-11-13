@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "status": "approved_release_preparation",
+  "status": "published_and_live_verified",
   "request": "Review whole Our Story page; remove unnecessary material and reorganize",
   "publication_authorized": true,
   "workers": [
@@ -38,5 +38,12 @@
     "artifacts/review/our-story-cleanup-2026-11-13/desktop.png",
     "artifacts/review/our-story-cleanup-2026-11-13/mobile.png"
   ],
-  "approval": "Owner: publish, 14 November 2026"
+  "approval": "Owner: publish, 14 November 2026",
+  "publication": {
+    "run": "43483662196",
+    "commit": "5603e6e6390448d8e2af744fa636f733c4e41efe",
+    "url": "https://kabitalive.com/about.html",
+    "live_checks": "Grouped editor sources, removed artwork disclosure, compact intro, section navigation and collaborator disclosure verified",
+    "next_draft": "December 2026 Issue 50 existing draft preserved"
+  }
 }
