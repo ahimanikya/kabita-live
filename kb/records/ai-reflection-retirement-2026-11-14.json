@@ -1,7 +1,7 @@
 {
   "date": "2026-11-14",
   "request": "Remove What people teach AI about a language",
-  "status": "approved_release_preparation",
+  "status": "published_and_live_verified",
   "publication_authorized": true,
   "archive": "artifacts/review/ai-reflection-retirement-2026-11-14/preserved-reflection.html",
   "scope": "Remove the personal reflection only; retain How we use AI and collaborator disclosure",
@@ -12,5 +12,10 @@
     "Browser confirms reflection absent and AI disclosure present",
     "Search index regenerated"
   ],
-  "approval": "Owner: publish to the website, 14 November 2026"
+  "approval": "Owner: publish to the website, 14 November 2026",
+  "publication": {
+    "run": "43491571918",
+    "commit": "ee61cc3b5b78acd5f02a2b83a83651dcc8e6d7f4",
+    "next_draft": "Existing December Issue50 preserved"
+  }
 }
