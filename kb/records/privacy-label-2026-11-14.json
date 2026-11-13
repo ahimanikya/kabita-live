@@ -1,9 +1,15 @@
 {
   "date": "2026-11-14",
   "request": "Rename Privacy and statistics to Privacy",
-  "status": "approved_release_preparation",
+  "status": "published_and_live_verified",
   "publication_authorized": true,
   "scope": "Footer accessible label/tooltip and policy cross-reference wording only",
   "checks": "Build/export passed; browser aria-label and title both Privacy; controls unchanged",
-  "approval": "Owner: This is good, publish it"
+  "approval": "Owner: This is good, publish it",
+  "publication": {
+    "run": "43503882069",
+    "commit": "83059a41ee851e42425d43c636406f80a07317cc",
+    "next_draft": "December 2026 Issue 50 existing_preserved",
+    "live_check": "Privacy link accessible label and title verified; old label absent"
+  }
 }
