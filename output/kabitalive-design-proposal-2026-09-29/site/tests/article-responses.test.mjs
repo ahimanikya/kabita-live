@@ -1,11 +1,24 @@
-import test from 'node:test';import assert from 'node:assert/strict';import{readFileSync}from'node:fs';import{createHash}from'node:crypto';
+import test from 'node:test';import assert from 'node:assert/strict';import{readFileSync,existsSync}from'node:fs';import{createHash}from'node:crypto';
 import{ARTICLE_CONTEXTS,articleRef,articleResponseManifest,createKabitaArticleResponses}from'../src/article-responses.mjs';
 test('article variants keep stable identity, distinct from numeric poem IDs',()=>{const a=articleRef('issue-48.html','or'),b=articleRef('issue-48.html','en');assert.equal(a.contentId,b.contentId);assert.equal(a.kind,'article');assert.notEqual(a.contentId,'48');assert.notEqual(a.contentId,articleRef(ARTICLE_CONTEXTS[1].route,'en').contentId);});
 test('unknown, private, poem and unavailable-language routes reject',()=>{for(const [p,l]of[['poem-48.html','or'],['../kb/index.md','en'],['contact.html','en'],[ARTICLE_CONTEXTS[1].route,'hi']])assert.throws(()=>articleRef(p,l));});
-test('manifest explicitly selects only two real prose contexts',()=>{const m=articleResponseManifest();assert.equal(m.entries.length,2);assert.deepEqual(m.entries.map(x=>x.route),ARTICLE_CONTEXTS.map(x=>x.route));assert.ok(Object.isFrozen(m.entries[0]));for(const x of m.entries)assert.ok(readFileSync('dist/'+x.route,'utf8').includes('id="'+x.anchor+'"'));});
+test('manifest preserves active and historical prose identities without republishing retired essay',()=>{const m=articleResponseManifest();assert.equal(m.entries.length,2);assert.deepEqual(m.entries.map(x=>x.route),ARTICLE_CONTEXTS.map(x=>x.route));assert.ok(Object.isFrozen(m.entries[0]));for(const x of m.entries){if(x.contentId==='kabita:article:language-journey'){assert.equal(existsSync('dist/'+x.route),false);assert.ok(readFileSync('language_article.py','utf8').includes('article-title'));}else assert.ok(readFileSync('dist/'+x.route,'utf8').includes('id="'+x.anchor+'"'));}});
 test('candidate stays disabled without explicit article activation and never connects',()=>{assert.equal(createKabitaArticleResponses({connect:()=>{throw Error('unexpected')}}),null);assert.equal(createKabitaArticleResponses({articleVersion:'0'}),null);});
 test('invalid identity rejects before connection',async()=>{let calls=0;const s=createKabitaArticleResponses({articleVersion:'1',connect:async()=>{calls++},transportFactory:()=>({})});await assert.rejects(s.readLikeState({contentId:'poem:48',kind:'poem',language:'or'}));assert.equal(calls,0);});
 test('connection failure retries; settled connection reused, exact context forwarded',async()=>{let calls=0;const ref=articleRef('issue-48.html','hi'),seen=[];const s=createKabitaArticleResponses({articleVersion:'1',connect:async()=>{if(++calls===1)throw Error('offline');return{db:{app:{options:{projectId:'kabita-live'}}}}},transportFactory:()=>({readLikeState:async x=>{seen.push(x);return{liked:false,count:0}},setLikeState:async(x,v)=>{seen.push(x);return{liked:v,count:1}}})});await assert.rejects(s.readLikeState(ref));await s.readLikeState(ref);await s.setLikeState(ref,true);assert.equal(calls,2);assert.deepEqual(seen,[ref,ref]);});
 test('copied transport is pinned exactly and approved runtime uses protected article services',()=>{const pin=JSON.parse(readFileSync('src/vendor/utkal-responses/pin.json'));assert.equal(createHash('sha256').update(readFileSync('src/vendor/utkal-responses/firebase-transport.mjs')).digest('hex'),pin.files['firebase-transport.mjs']);const runtime=JSON.parse(readFileSync('runtime-config.json'));assert.equal(runtime.engagement.articleResponseVersion,'1');assert.equal(runtime.firebase.appCheck.enabled,true);assert.equal(runtime.firebase.projectId,'kabita-live');});
 
 test('wrong site project cannot construct the article transport',async()=>{let built=false;const s=createKabitaArticleResponses({articleVersion:'1',connect:async()=>({db:{app:{options:{projectId:'utkal-project'}}}}),transportFactory:()=>{built=true;return{}}});await assert.rejects(s.readLikeState(articleRef('issue-48.html','or')));assert.equal(built,false);});
+
+import vm from 'node:vm';
+test('historical essay comments retain moderation but have no dead Open article link',()=>{
+ const make=(tag,text='')=>({tag,text,children:[],append(...nodes){this.children.push(...nodes)},replaceChildren(){this.children=[]}});
+ const list=make('div'),controls={'comment-filter':{value:''},'comment-status':{value:''},'comment-list':list};
+ const ctx=vm.createContext({$:id=>controls[id],el:make,rows:[{id:'historical',title:'kabita:article:language-journey',name:'Reader',message:'Retained comment',status:'published'}]});
+ const source=readFileSync('assets/editor-management.mjs','utf8');vm.runInContext(source.slice(source.indexOf('function render(){'),source.indexOf('async function load(){')),ctx);ctx.render();
+ const nodes=list.children[0].children;
+ assert.ok(nodes.some(x=>x.tag==='span'&&x.text==='Retired article'));
+ assert.ok(nodes.some(x=>x.tag==='p'&&x.text==='Retained comment'));
+ assert.ok(nodes.some(x=>x.tag==='button'&&x.text==='Remove comment'&&typeof x.onclick==='function'));
+ assert.equal(nodes.some(x=>x.tag==='a'),false);
+});

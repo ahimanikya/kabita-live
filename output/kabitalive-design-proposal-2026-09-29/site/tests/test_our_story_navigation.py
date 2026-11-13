@@ -46,10 +46,9 @@ class StoryNavigation(unittest.TestCase):
         for section in json.loads((ROOT/'data/editorial-policies.json').read_text())['sections']:
             self.assertIn('policy-'+section['id'],self.page.ids)
             for paragraph in section['paragraphs']:self.assertIn(escape(paragraph),self.text)
-    def test_supplementary_reading_is_with_process_and_repeated_labels_removed(self):
-        self.assertGreater(self.text.index('id="story-language-essay"'),self.text.index('id="creative-process"'))
-        self.assertLess(self.text.index('id="story-language-essay"'),self.text.index('id="editorial-policies"'))
-        self.assertIn('thirty-languages-and-the-journey-of-a-poem.html', self.page.links)
+    def test_retired_essay_and_repeated_labels_are_removed(self):
+        self.assertNotIn('story-language-essay',self.page.ids)
+        self.assertNotIn('thirty-languages-and-the-journey-of-a-poem.html', self.page.links)
         self.assertNotIn('The editorial desk</span>',self.text)
         self.assertNotIn('Artwork and image sources',self.text)
         self.assertEqual(len(self.page.ids.get('credits-editors',[])),1)
@@ -57,11 +56,11 @@ class StoryNavigation(unittest.TestCase):
         self.assertIn('not human staff',self.text)
 
     def test_existing_disclosure_and_human_portrait_links_remain(self):
-        for fragment in ['credits-writers','credits-translations','credits-ahimanikya','creative-process-title','story-design-title','story-language-essay']:
+        for fragment in ['credits-writers','credits-translations','credits-ahimanikya','creative-process-title','story-design-title']:
             self.assertIn(fragment,self.page.ids)
         for profile in ['editor-pradeep.html','editor-paresh.html','ahimanikya-satapathy.html']:
             self.assertIn(profile,self.page.links)
         self.assertIn('How we use AI',self.text)
-        self.assertIn('What people teach AI about a language',self.text)
+        self.assertNotIn('What people teach AI about a language',self.text)
 
 if __name__ == '__main__':unittest.main()

@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-14",
+  "reviewer": "/root/drishti_submission_v2",
+  "status": "local_retirement_review_passed",
+  "blockers": [],
+  "checks": {
+    "focusedJavascriptPassed": 11,
+    "retirementPythonPassed": 3,
+    "navigationPythonPassed": 5,
+    "archiveMatchesOriginal": true,
+    "routeAbsent": true,
+    "sitemapSearchAndPublicPageLinksAbsent": true,
+    "remainingRouteMention": "assets/engagement.js retains historical context only",
+    "privateModeration": "retired label; no dead reader link; actions preserved"
+  },
+  "fileSha256": {
+    "projects/site/templates/our-story-ai.html": "3926acc6c502e2f8c5ab9de5825c1d4c7439e64e4f800f73a88bc90d8728ba8b",
+    "projects/site/article_links.py": "2286e992f8bfdabc8dc9b500fe7db094437ea5227adf94b1ccdabbf95515a510",
+    "projects/site/public_routes.py": "30a1978de04e16247cbb11f73b21b79627f23d9bdbc7c4e7ae303d5e0a6b9e35",
+    "projects/site/tests/test_our_story_navigation.py": "856b00bad36d1f335ad229cdc6420a4c85a287941919674a7176c27428c1d8a5",
+    "projects/site/tests/test_language_essay_retirement.py": "8c1f2b22ec065d7a2a7ea0003d337d5dd65948d84761da5247adb8ce35c79f32",
+    "projects/site/tests/article-coverage.test.mjs": "f134941cb0c952d1569187abf223a47657ed5eaadfb90717bc1b660c4863408b",
+    "projects/site/tests/article-responses.test.mjs": "35145749aa3aed18b49f345a9b46d17a9c49014135b8547a07a7c7461eb12267",
+    "projects/site/assets/editor-management.mjs": "a2b293eb1c7b87950123122e09a9316ccaff6484e135eff2c931573900d6fc1a"
+  },
+  "archiveSha256": "d55e4aadfca07b150c45f573b6802a3c8e5e995571bf0b06e6bb1fb7078eb574",
+  "stagingConstraint": "public_routes.py contains unrelated pre-existing local toshali-book-2027 addition; future release must isolate essay removal instead of copying whole file.",
+  "limitations": [
+    "No live records altered; no publication performed or authorized by reviewer.",
+    "Initial premature tests during rebuild saw missing dist; rerun after export completion passed11/11."
+  ]
+}

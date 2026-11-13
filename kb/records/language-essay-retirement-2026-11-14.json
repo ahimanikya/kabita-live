@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-14",
+  "request": "Remove Three languages and the journey of a poem",
+  "status": "approved_release_preparation",
+  "publication_authorized": true,
+  "route": "thirty-languages-and-the-journey-of-a-poem.html",
+  "changes": [
+    "Removed Our Story essay link and teaser",
+    "Stopped build from reinserting teaser",
+    "Excluded essay from reader export, sitemap and search inputs",
+    "Historical moderation displays Retired article instead of dead link"
+  ],
+  "preservation": "Original source, rendered archive copy, historical comments and analytics records retained",
+  "archive": "artifacts/review/language-essay-retirement-2026-11-14/preserved-essay.html",
+  "implementation": "artifacts/review/language-essay-retirement-2026-11-14/implementation.json",
+  "review": "artifacts/review/language-essay-retirement-2026-11-14/review.json",
+  "release_isolation_note": "public_routes.py contains an unrelated existing local Toshali book route addition. Future release must apply only essay removal to latest remote main, not copy whole file.",
+  "checks": {
+    "build": "passed; refreshed export verified",
+    "javascript": 297,
+    "python": 98,
+    "independent_review": "passed",
+    "browser": "No essay teaser or link on Our Story",
+    "archive": "Original retained"
+  },
+  "approval": "Owner: publish to the website, 14 November 2026"
+}
