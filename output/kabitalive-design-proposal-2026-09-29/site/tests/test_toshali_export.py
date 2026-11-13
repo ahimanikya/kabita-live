@@ -2,12 +2,13 @@
 import re
 import unittest
 from pathlib import Path
+from urllib.parse import urlsplit
 
 
 class ToshaliExportTests(unittest.TestCase):
     def test_public_modules_and_dependencies_are_exported(self):
         public = Path(__file__).resolve().parents[1] / 'dist'
-        pending = ['assets/toshali-invitation.mjs', 'assets/toshali-review.mjs', 'assets/monthly-review.mjs', 'assets/editor-workspace.mjs']
+        pending = ['assets/toshali-invitation.mjs', 'assets/toshali-review.mjs', 'assets/monthly-form.mjs', 'assets/monthly-review.mjs', 'assets/editor-workspace.mjs']
         checked = set()
         while pending:
             relative = pending.pop()
@@ -17,7 +18,9 @@ class ToshaliExportTests(unittest.TestCase):
             path = public / relative
             self.assertTrue(path.is_file(), f'Missing public module: {relative}')
             for ref in re.findall(r'''(?:from\s*|import\s*\(\s*)['"](\./[^'"]+)['"]''', path.read_text()):
-                pending.append(str(Path(relative).parent / ref))
+                pending.append(str(Path(relative).parent / urlsplit(ref).path))
         self.assertIn('assets/toshali-policy.mjs', checked)
         self.assertIn('assets/toshali-review-service.js', checked)
+        self.assertIn('assets/monthly-service.js', checked)
+        self.assertIn('assets/monthly-review-service.js', checked)
 
