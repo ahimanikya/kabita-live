@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "status": "runtime_active_approved_website_release_in_progress",
+  "status": "published_live_test_found_client_repairs",
   "scope": "Monthly Kabita poetry intake, magazine policies and reviewed author-profile handoff; Toshali intake unchanged",
   "authorization": {
     "implementation": "Looks good; let’s adopt this policy and implement the submission form, database, and author profile improvements we discussed.",
@@ -40,7 +40,6 @@
     "independent_review": "artifacts/review/submissions-v2-2026-11-13/review.json",
     "browser": "Local desktop/mobile390px form; original stanza spacing retained in summary; returning-profile reuse hides edit fields; explicit update reveals them; no horizontal overflow; submission disabled on local preview; policy text inspected",
     "limitations": [
-      "No live activation or test email performed for this release",
       "Physical iPhone not tested",
       "Policy adoption is editorial policy, not a claim of legal certification",
       "Studio translation permissions are visible private production notes plus manual checks, not a language-specific publishing lock"
@@ -92,6 +91,19 @@
     "verified_at": "2026-11-13T17:04:44.844087+00:00",
     "evidence": "artifacts/review/submissions-v2-2026-11-13/activation/after-summary.json",
     "image_binding_level": "project; identical exact object-prefix condition; no bucket mode change",
-    "schema_cutover_pending": true
+    "schema_cutover_pending": false
+  },
+  "publication": {
+    "run": "43469252180",
+    "commit": "318f9530ecec5c14df3b4f483603ec36765acb30",
+    "result": "success",
+    "live_evidence": "artifacts/review/submissions-v2-2026-11-13/activation/live-cutover.json",
+    "next_draft": "December 2026 Issue 50 existing draft preserved"
+  },
+  "live_test": {
+    "id": "uSahNEuYflDLtwdZNUbQ",
+    "status": "uploading",
+    "emails_sent": 0,
+    "hold": "Missing browser storage bucket; retry same entry after verified repair. Returning browser cached policy module also needs versioned URL."
   }
 }

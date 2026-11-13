@@ -45,5 +45,5 @@ export async function editorial(data){return (await httpsCallable(getFunctions(a
 
 export async function submissionAsset(entry,kind){
  if(!['photo','artwork'].includes(kind)||!/^\w{20}$/.test(entry.id)||typeof entry.uid!=='string'||!/^[A-Za-z0-9_-]{1,128}$/.test(entry.uid)||!entry[kind]?.size)throw Error('Attachment unavailable');
- return getBlob(ref(getStorage(app),`monthly-submissions/${entry.uid}/${entry.id}/${kind}`),5242880);
+ return getBlob(ref(getStorage(app,'gs://kabita-live.firebasestorage.app'),`monthly-submissions/${entry.uid}/${entry.id}/${kind}`),5242880);
 }

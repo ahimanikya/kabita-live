@@ -16,7 +16,7 @@ export async function prepare(config){const c=await context(config);return {id:s
 export async function receipt(config,id){if(!validId(id))throw Error('Invalid reference');const {db,user}=await context(config);return (await s.getDocFromServer(s.doc(db,'monthlyReceipts',user.uid,'items',id))).exists();}
 export async function pending(config,id){if(!validId(id))throw Error('Invalid reference');const {db}=await context(config);const snap=await s.getDocFromServer(s.doc(db,'monthlySubmissions',id));if(!snap.exists())return null;const d=snap.data();if(d.schemaVersion!==2)return null;const {uid,callId,status,consentVersion,createdAt,receivedAt,declarationAt,...input}=d;return input;}
 async function upload(c,id,kind,descriptor,file){
- if(!descriptor.size)return;const target=objectRef(getStorage(c.app),`monthly-submissions/${c.user.uid}/${id}/${kind}`);let metadata;
+ if(!descriptor.size)return;const target=objectRef(getStorage(c.app,'gs://kabita-live.firebasestorage.app'),`monthly-submissions/${c.user.uid}/${id}/${kind}`);let metadata;
  try{metadata=await getMetadata(target);}catch(e){if(e.code!=='storage/object-not-found')throw e;}
  if(metadata){if(metadata.size!==descriptor.size||metadata.contentType!==descriptor.type||metadata.customMetadata?.sha256!==descriptor.sha256)throw Error('The saved image differs. Contact the editors with your reference.');return;}
  if(!file)throw Error(`Choose the same ${kind==='photo'?'author photograph':'artwork'} again to finish this entry.`);

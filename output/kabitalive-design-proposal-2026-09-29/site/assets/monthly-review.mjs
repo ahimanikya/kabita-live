@@ -1,4 +1,4 @@
-import {mountSubmissionProfile} from './submission-profile-review.mjs';
+import {mountSubmissionProfile} from './submission-profile-review.mjs?v=2';
 import {reviewTools} from './editorial-review-ui.mjs';
 import {editorialDraft,validMonth} from './monthly-review-policy.mjs';
 const $=id=>document.getElementById(id);
@@ -40,5 +40,5 @@ $('review-decision').addEventListener('submit',async e=>{e.preventDefault();if(b
 // Clear private material before a page can be restored from the back/forward cache.
 window.addEventListener('pagehide',()=>{clearEntry();list.replaceChildren();$('review-workspace').hidden=true;});
 window.addEventListener('pageshow',e=>{if(e.persisted)location.reload();});
-try{const response=await fetch('runtime-config.json');if(!response.ok)throw Error('Configuration unavailable');const config=await response.json();service=await import('./monthly-review-service.js');await service.prepare(config);login.disabled=false;note('Sign in using your authorised personal Google account. Signing out or reloading ends this review session.');}
+try{const response=await fetch('runtime-config.json');if(!response.ok)throw Error('Configuration unavailable');const config=await response.json();service=await import('./monthly-review-service.js?v=2.1');await service.prepare(config);login.disabled=false;note('Sign in using your authorised personal Google account. Signing out or reloading ends this review session.');}
 catch(e){note(e.message||'Sign-in is unavailable. Please try again later.');}

@@ -1,0 +1,33 @@
+{
+  "at": "2026-11-13T17:13:11.794Z",
+  "run": "43469252180",
+  "commit": "318f9530ecec5c14df3b4f483603ec36765acb30",
+  "checks": [
+    {
+      "path": "submit.html",
+      "status": 200,
+      "bytes": 22449
+    },
+    {
+      "path": "assets/monthly-form.mjs?v=2",
+      "status": 200,
+      "bytes": 10931
+    },
+    {
+      "path": "about.html",
+      "status": 200,
+      "bytes": 284203
+    }
+  ],
+  "intake": {
+    "minSchemaVersion": {
+      "integerValue": "2"
+    },
+    "emailDeliveryEnabled": {
+      "booleanValue": true
+    },
+    "open": {
+      "booleanValue": true
+    }
+  }
+}

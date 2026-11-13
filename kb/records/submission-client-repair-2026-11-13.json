@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-13",
+  "status": "verified_awaiting_repair_publication_approval",
+  "original_release": "43469252180",
+  "test_reference": "uSahNEuYflDLtwdZNUbQ",
+  "findings": [
+    "Returning browser cached old policy module missing describeFile",
+    "Default Firebase app has no storageBucket; image upload failed before receipt"
+  ],
+  "repair": [
+    "Version all changed browser entry/dependency URLs",
+    "Use exact existing approved Storage bucket for upload and private review"
+  ],
+  "checks": {
+    "build": "discovery passed;1842 disclosure files zero violations",
+    "javascript": 296,
+    "python": 91,
+    "independent_reviewer": "/root/drishti_submission_v2",
+    "targeted_regressions": 4
+  },
+  "files": [
+    {
+      "path": "projects/site/assets/monthly-form.mjs",
+      "sha256": "35be11b7a2c0233104257007aa93918678c343f58b9250dcb981ef53136a3c34"
+    },
+    {
+      "path": "projects/site/assets/monthly-review.mjs",
+      "sha256": "f5b82f9421a155938a8d83e3a790af9847f1c1dbb8f2c198b591c44d5acbba5a"
+    },
+    {
+      "path": "projects/site/monthly_review.py",
+      "sha256": "c3df81772ad8a31cee724ee7d1e2c95597dfb821e20a4215b0ae4587a759dfd8"
+    },
+    {
+      "path": "projects/site/monthly_submissions.py",
+      "sha256": "ce63f9e0c84c78f7c19fa78efafae840921747125b1f43759d95d3d8059d5582"
+    },
+    {
+      "path": "projects/site/src/monthly-review-service.mjs",
+      "sha256": "cc43ab8e5f2e5e390e4adfe4a7e86a0ee80f431ac77f0e649e9d0b4b0328e215"
+    },
+    {
+      "path": "projects/site/src/monthly-service.mjs",
+      "sha256": "09f8abf7691cbef93148b8b07433bf7912750692d3c5811b96d40c272a460971"
+    },
+    {
+      "path": "projects/site/tests/monthly-browser-cache.test.mjs",
+      "sha256": "27247e9312be3312448dff82b9b0b679f9560da2311b27138c73167eeaac24a3"
+    },
+    {
+      "path": "projects/site/tests/monthly-storage-target.test.mjs",
+      "sha256": "4c7fff83d1e0f7c488644b340985b0892fc29492fbc9cf5a471187de1eb8bbec"
+    }
+  ],
+  "retry": "Reuse existing reference and sample; zero emails sent before repair; approved total remains2",
+  "publication_authorized": false
+}

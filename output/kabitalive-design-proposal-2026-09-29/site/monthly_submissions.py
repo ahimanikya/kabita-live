@@ -38,6 +38,6 @@ def render_monthly_submission(root):
 <section id="monthly-result" hidden><h2 tabindex="-1" id="monthly-result-title">Poem received</h2><p id="monthly-result-poem"></p><p id="monthly-reference"></p><p>Your poem is with the editors. Keep this reference as confirmation. If an email acknowledgement does not arrive, you do not need to submit again. This confirms receipt, not selection.</p><p class="small">Keep your reference and your own copy. Questions? <a href="mailto:kabitaliveweb@gmail.com">kabitaliveweb@gmail.com</a>.</p></section>
 <p class="small">Prefer email? <a href="mailto:kabitaliveweb@gmail.com">kabitaliveweb@gmail.com</a></p></main>'''
     text=re.sub(r'<main\b.*?</main>',lambda _:body,text,count=1,flags=re.S)
-    text=text.replace('</head>','<link rel="stylesheet" href="assets/monthly-submissions.css?v=2"><script type="module" src="assets/monthly-form.mjs?v=2"></script></head>',1)
+    text=text.replace('</head>','<link rel="stylesheet" href="assets/monthly-submissions.css?v=2"><script type="module" src="assets/monthly-form.mjs?v=2.2"></script></head>',1)
     text=text.replace('<script defer src="assets/analytics.js"></script>','')
     path.write_text(text)

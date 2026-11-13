@@ -27,5 +27,5 @@ def render_monthly_review(root,page):
 </section></section></article>'''
     page('monthly-review.html','Kabita monthly private review desk',body,desc='Sign in to the private Kabita monthly journal editorial desk.')
     path=root/'monthly-review.html'
-    text=path.read_text().replace('<script defer src="assets/analytics.js"></script>','').replace('</head>','<meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><link rel="stylesheet" href="assets/toshali-invitation.css?v=3"><link rel="stylesheet" href="assets/monthly-submissions.css?v=1"><script type="module" src="assets/monthly-review.mjs?v=1"></script></head>',1)
+    text=path.read_text().replace('<script defer src="assets/analytics.js"></script>','').replace('</head>','<meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><link rel="stylesheet" href="assets/toshali-invitation.css?v=3"><link rel="stylesheet" href="assets/monthly-submissions.css?v=2"><script type="module" src="assets/monthly-review.mjs?v=2.1"></script></head>',1)
     path.write_text(text)
