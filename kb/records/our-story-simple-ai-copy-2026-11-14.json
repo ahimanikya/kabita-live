@@ -2,9 +2,15 @@
   "date": "2026-11-14",
   "request": "Remove Ahimanikya name from introductory AI production statement; simplify",
   "copy": "AI assists with production; editors make the final decisions.",
-  "status": "approved_release_preparation",
+  "status": "published_and_live_verified",
   "publication_authorized": true,
   "scope": "One sentence in templates/our-story-ai.html; other credits unchanged",
   "checks": "Build passed; refreshed browser confirms exact replacement",
-  "approval": "Owner: This is good, publish it, 14 November2026"
+  "approval": "Owner: This is good, publish it, 14 November2026",
+  "publication": {
+    "run": "43502196983",
+    "commit": "417aeb30e4f2ecb5c2a60b0e91020736e5425ccd",
+    "next_draft": "December2026 Issue50 existing_preserved",
+    "live_check": "Both lines left aligned with zero indentation; simplified AI statement present"
+  }
 }
