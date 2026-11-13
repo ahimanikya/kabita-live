@@ -70,5 +70,35 @@
     },
     "noDuplicateBuild": true,
     "publicationPerformedByReviewer": false
+  },
+  "postPublicationRepairReview": {
+    "status": "passed_requires_exact_release_approval",
+    "scope": "Cache dependency versions and explicit monthly Storage bucket only",
+    "independentTestsPassed": 4,
+    "generatedHtmlExcludedFromReview": true,
+    "runtimeMutations": false,
+    "sha256": {
+      "assets/monthly-form.mjs": "35be11b7a2c0233104257007aa93918678c343f58b9250dcb981ef53136a3c34",
+      "assets/monthly-review.mjs": "f5b82f9421a155938a8d83e3a790af9847f1c1dbb8f2c198b591c44d5acbba5a",
+      "src/monthly-service.mjs": "09f8abf7691cbef93148b8b07433bf7912750692d3c5811b96d40c272a460971",
+      "src/monthly-review-service.mjs": "cc43ab8e5f2e5e390e4adfe4a7e86a0ee80f431ac77f0e649e9d0b4b0328e215",
+      "monthly_submissions.py": "ce63f9e0c84c78f7c19fa78efafae840921747125b1f43759d95d3d8059d5582",
+      "monthly_review.py": "c3df81772ad8a31cee724ee7d1e2c95597dfb821e20a4215b0ae4587a759dfd8",
+      "tests/monthly-browser-cache.test.mjs": "27247e9312be3312448dff82b9b0b679f9560da2311b27138c73167eeaac24a3",
+      "tests/monthly-storage-target.test.mjs": "4c7fff83d1e0f7c488644b340985b0892fc29492fbc9cf5a471187de1eb8bbec"
+    }
+  },
+  "exportTestCorrectionReview": {
+    "status": "passed",
+    "scope": "Only URL query parsing and monthly entry traversal in test_toshali_export.py",
+    "sha256": "fe99198cbfc891d9c42de4082d54a87c7864abe5c37335c50f0eb9cfa726d851",
+    "independentFocusedExportTest": "passed",
+    "coordinatorFullSuiteLog": "/private/tmp/kbl-repair-export-tests.log",
+    "fullSuiteObserved": {
+      "javascript": 296,
+      "python": 91,
+      "failed": 0
+    },
+    "note": "Checked after source generation complete; no concurrent mutation or duplicate full suite."
   }
 }

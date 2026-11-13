@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "status": "verified_awaiting_repair_publication_approval",
+  "status": "published_and_live_verified",
   "original_release": "43469252180",
   "test_reference": "uSahNEuYflDLtwdZNUbQ",
   "findings": [
@@ -16,7 +16,8 @@
     "javascript": 296,
     "python": 91,
     "independent_reviewer": "/root/drishti_submission_v2",
-    "targeted_regressions": 4
+    "targeted_regressions": 4,
+    "site_python_tests": 91
   },
   "files": [
     {
@@ -53,5 +54,53 @@
     }
   ],
   "retry": "Reuse existing reference and sample; zero emails sent before repair; approved total remains2",
-  "publication_authorized": false
+  "publication_authorized": true,
+  "prepared_commit": "3f5a58748",
+  "release_checkout": "/private/tmp/kbl-submissions-release-20261113",
+  "browser_test_tab": "Chrome1950998296",
+  "resume": "After exact repair approval, push prepared commit and publish manually; reload preserved Chrome form, restore same sample.png if prompted, retry uSahNEuYflDLtwdZNUbQ; verify exactly2mailqueue sent rows. No second submission.",
+  "approved_at": "2026-11-13T17:33:19.300012+00:00",
+  "release_run": "43476679630",
+  "release_commit": "402d1f5fd",
+  "failed_run": {
+    "id": "43473843964",
+    "published": false,
+    "reason": "Export dependency test used cache query as filesystem name; normalize URL path and rerun against completed repair build."
+  },
+  "followup_check": {
+    "path": "projects/site/tests/test_toshali_export.py",
+    "sha256": "fe99198cbfc891d9c42de4082d54a87c7864abe5c37335c50f0eb9cfa726d851",
+    "change": "Resolve URL path without cache query; traverse monthly form and assert both service bundles.",
+    "tests": "296 JS and91Python passed against completed repair build",
+    "reviewer": "/root/drishti_submission_v2",
+    "log": "/private/tmp/kbl-repair-export-tests.log"
+  },
+  "approval_review": {
+    "action": "commit/push and publication including additional test correction",
+    "outcome": "rejected",
+    "reason": "Additional test file outside prior exact-release approval",
+    "followup_permission_requested": true
+  },
+  "corrected_check_publication_authorized": true,
+  "corrected_check_approved_at": "2026-11-13T17:50:37.452748+00:00",
+  "completed_at": "2026-11-13T17:57:42.351526+00:00",
+  "publication": {
+    "run": "43476679630",
+    "commit": "402d1f5fd657471bdf17bfed9745f966b330ead7",
+    "result": "success",
+    "live_evidence": "artifacts/review/submissions-v2-2026-11-13/activation/repair-live.json",
+    "next_draft": "December2026 Issue50 existing private draft preserved"
+  },
+  "live_test": {
+    "id": "uSahNEuYflDLtwdZNUbQ",
+    "status": "received",
+    "image_verified": true,
+    "new_submissions": 1,
+    "emails_sent": 2,
+    "recipient": "kabitaliveweb@gmail.com",
+    "evidence": "artifacts/review/submissions-v2-2026-11-13/live-test/result.json",
+    "screenshot": "artifacts/review/submissions-v2-2026-11-13/live-test/received.png",
+    "verification_limit": "Gmail API accepted both sends with HTTP200 and unique message IDs; recipient inbox not inspected."
+  },
+  "our_story_navigation_release_included": false
 }

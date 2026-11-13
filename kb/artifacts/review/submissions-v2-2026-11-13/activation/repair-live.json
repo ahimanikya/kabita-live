@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-13T17:55:51.627Z",
+  "run": "43476679630",
+  "checks": [
+    {
+      "path": "submit.html",
+      "status": 200,
+      "matched": true
+    },
+    {
+      "path": "assets/monthly-form.mjs?v=2.2",
+      "status": 200,
+      "matched": true
+    },
+    {
+      "path": "assets/monthly-service.js?v=2.1",
+      "status": 200,
+      "matched": true
+    },
+    {
+      "path": "assets/monthly-review-service.js?v=2.1",
+      "status": 200,
+      "matched": true
+    }
+  ],
+  "ourStoryRedesignPublished": false
+}

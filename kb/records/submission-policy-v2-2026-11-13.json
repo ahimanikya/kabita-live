@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "status": "published_live_test_found_client_repairs",
+  "status": "published_and_live_verified",
   "scope": "Monthly Kabita poetry intake, magazine policies and reviewed author-profile handoff; Toshali intake unchanged",
   "authorization": {
     "implementation": "Looks good; let’s adopt this policy and implement the submission form, database, and author profile improvements we discussed.",
@@ -33,7 +33,7 @@
   ],
   "checks": {
     "site_node_tests": 292,
-    "site_python_tests": 90,
+    "site_python_tests": 91,
     "firestore_storage_tests": 16,
     "policy_finalizer_tests": 13,
     "mail_queue_tests": 14,
@@ -94,16 +94,23 @@
     "schema_cutover_pending": false
   },
   "publication": {
-    "run": "43469252180",
-    "commit": "318f9530ecec5c14df3b4f483603ec36765acb30",
+    "run": "43476679630",
+    "commit": "402d1f5fd657471bdf17bfed9745f966b330ead7",
     "result": "success",
-    "live_evidence": "artifacts/review/submissions-v2-2026-11-13/activation/live-cutover.json",
-    "next_draft": "December 2026 Issue 50 existing draft preserved"
+    "live_evidence": "artifacts/review/submissions-v2-2026-11-13/activation/repair-live.json",
+    "next_draft": "December2026 Issue50 existing private draft preserved"
   },
   "live_test": {
     "id": "uSahNEuYflDLtwdZNUbQ",
-    "status": "uploading",
-    "emails_sent": 0,
-    "hold": "Missing browser storage bucket; retry same entry after verified repair. Returning browser cached policy module also needs versioned URL."
-  }
+    "status": "received",
+    "image_verified": true,
+    "new_submissions": 1,
+    "emails_sent": 2,
+    "recipient": "kabitaliveweb@gmail.com",
+    "evidence": "artifacts/review/submissions-v2-2026-11-13/live-test/result.json",
+    "screenshot": "artifacts/review/submissions-v2-2026-11-13/live-test/received.png",
+    "verification_limit": "Gmail API accepted both sends with HTTP200 and unique message IDs; recipient inbox not inspected."
+  },
+  "completed_at": "2026-11-13T17:57:42.351526+00:00",
+  "our_story_navigation_release_included": false
 }
