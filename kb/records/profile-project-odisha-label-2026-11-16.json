@@ -1,9 +1,31 @@
 {
   "date": "2026-11-16",
   "request": "Change Utkal Project to Project Odisha on Ahimanikya profile",
-  "status": "approved_release_preparation",
+  "status": "published_and_live_verified",
   "scope": "Two visible link labels in designer-profile.py; existing URLs and other biography unchanged",
   "checks": "Generated profile contains two Project Odisha labels and no Utkal Project label",
   "publication_authorized": true,
-  "approval": "Owner: publish, 16 November 2026"
+  "approval": "Owner: publish, 16 November 2026",
+  "publication": {
+    "run": "43898107270",
+    "commit": "71ced0d691c5e12b7da933220cad752637e13bb7",
+    "live_check": "Both visible labels read Project Odisha; Utkal Project absent",
+    "next_draft": {
+      "result": "existing_preserved",
+      "source": {
+        "issue": 49,
+        "month": "2026-11",
+        "run": "43898107270",
+        "commit": "71ced0d691c5e12b7da933220cad752637e13bb7"
+      },
+      "draft": {
+        "issue": 50,
+        "month": "2026-12",
+        "status": "DRAFT",
+        "runtimeStage": "preparation"
+      },
+      "overwritten": false,
+      "published": false
+    }
+  }
 }
