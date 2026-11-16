@@ -12,7 +12,7 @@ body += '''<div class="author-reading-layout author-clear-reading has-books"><ar
 <section><h2>A connection carried across places.</h2>
 <p>In his account of this journey, Ahimanikya describes involvement in Odia community activities in India and the United States. His desire to contribute to Odia art and culture now takes shape through projects that make room for stories, creative work and shared knowledge.</p></section>
 <section><h2>New spaces for a continuing purpose.</h2>
-<p>He founded <a href="https://utkalproject.org/">Utkal Project</a> to help people discover Odisha’s people, places, culture and knowledge. Its collection brings research and local stories into a resource that can grow through contributions.</p>
+<p>He founded <a href="https://utkalproject.org/">Project Odisha</a> to help people discover Odisha’s people, places, culture and knowledge. Its collection brings research and local stories into a resource that can grow through contributions.</p>
 <p>He also built <a href="https://poemwithoutborders.org/">A Poem Without Borders</a>, where his college-era Odia poem <em>I Am Free to Dream</em> is finding new expression through language adaptations, music and visual art, with invitations for others to contribute.</p>
 <p>For Kabita Live, he is building the renewed website and its design system, shaping the typography, artistic icon direction and page treatments around the experience of reading. The poems and editorial identity remain the journal’s own.</p></section>
 <section><h2>Room for the next writer.</h2>
@@ -20,7 +20,7 @@ body += '''<div class="author-reading-layout author-clear-reading has-books"><ar
 </article><aside class="editor-book-shelf"><h2>Follow the thread.</h2><ul>
 <li><a href="https://web.archive.org/web/20010515204732/http://www.odiya.org/">odiya.org · the early web</a><span>Historical reference supplied by Ahimanikya · archive link dated May 2001</span></li>
 <li><a href="https://yourstory.com/2014/10/techie-tuesdays-ahimanikya-satapathy">The YourStory profile</a><span>Techie Tuesdays · Aditya Bhushan Dwivedi · 8 October 2014</span></li>
-<li><a href="https://utkalproject.org/founder/">Utkal Project</a><span>The founder’s purpose and a growing collection about Odisha</span></li>
+<li><a href="https://utkalproject.org/founder/">Project Odisha</a><span>The founder’s purpose and a growing collection about Odisha</span></li>
 <li><a href="https://poemwithoutborders.org/">A Poem Without Borders</a><span>An Odia poem travelling through languages, music and art</span></li>
 <li><a href="https://www.linkedin.com/in/ahimanikya/">Connect on LinkedIn</a><span>Professional profile</span></li>
 </ul><a class="text-link" href="about.html#credits-ahimanikya">Profile sources</a></aside></div></div>'''
